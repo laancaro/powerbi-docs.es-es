@@ -184,7 +184,7 @@ La puerta de enlace se comunica en los puertos de salida: TCP 443 (predeterminad
 | login.microsoftonline.com |443 |HTTPS |
 | login.windows.net |443 |HTTPS |
 
-Si necesita crear una lista blanca de direcciones IP en lugar de dominios, puede descargar y usar la lista de intervalos IP del centro de datos de Microsoft Azure. [Descargar](https://www.microsoft.com/download/details.aspx?id=41653)
+Si necesita crear una lista de permitidos de direcciones IP en lugar de dominios, puede descargar y usar la lista de intervalos IP del centro de datos de Microsoft Azure. [Descargar](https://www.microsoft.com/download/details.aspx?id=41653)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Puerta de enlace de datos local (modo personal): la nueva versión de la puerta de enlace personal](service-gateway-personal-mode.md)

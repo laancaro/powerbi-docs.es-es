@@ -43,8 +43,8 @@ Puede usar la [aplicación Azure Speed Test](http://azurespeedtest.azurewebsites
 **Pregunta:** ¿Se puede obligar a la puerta de enlace a usar el tráfico HTTPS con Azure Service Bus en lugar de TCP?  
 **Respuesta:** Sí. Sin embargo, tenga en cuenta que esto reducirá notablemente el rendimiento. Deberá modificar el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*. Cambie el valor de `AutoDetect` por `Https`. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\Puerta de enlace de datos local*.
 
-**Pregunta:** ¿Necesito agregar a la lista blanca la lista de direcciones IP del Centro de datos de Azure? ¿Dónde puedo obtener la lista?  
-**Respuesta:** Si va a bloquear el tráfico IP saliente, deberá agregar a la lista blanca la lista de direcciones IP del Centro de datos de Azure. Actualmente, la puerta de enlace usará la dirección IP junto con el nombre de dominio completo para comunicarse con Azure Service Bus. La lista de direcciones IP del Centro de datos de Azure se actualiza semanalmente. Puede descargar la [lista de direcciones IP del Centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653).
+**Pregunta:** ¿Necesito agregar a la lista de permitidos la lista de direcciones IP del Centro de datos de Azure? ¿Dónde puedo obtener la lista?  
+**Respuesta:** Si va a bloquear el tráfico IP saliente, deberá agregar a la lista de permitidos la lista de direcciones IP del Centro de datos de Azure. Actualmente, la puerta de enlace usará la dirección IP junto con el nombre de dominio completo para comunicarse con Azure Service Bus. La lista de direcciones IP del Centro de datos de Azure se actualiza semanalmente. Puede descargar la [lista de direcciones IP del Centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653).
 
 ```
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
