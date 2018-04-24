@@ -1,28 +1,28 @@
 ---
-title: "Traslado, cambio de tamaño y pantalla completa de una visualización"
-description: "Traslado y cambio de tamaño de una visualización en un informe del servicio Power BI y en Power BI Desktop"
+title: Traslado, cambio de tamaño y pantalla completa de una visualización
+description: Traslado y cambio de tamaño de una visualización en un informe del servicio Power BI y en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a46df6e225a5546f58e4f111d9cd3920a128614c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 66df86d0db9767f29a1fdca637b95bb66cd9252d
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Traslado y cambio de tamaño de una visualización en un informe del servicio Power BI y en Power BI Desktop
 Solo los creadores y propietarios de informes pueden trasladar y cambiar el tamaño de visualizaciones. En el servicio Power BI (app.powerbi.com), esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md).
@@ -43,9 +43,5 @@ En Power BI, abra un informe que tenga al menos una visualización, o [cree una 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Cambiar el tamaño de una visualización de un informe](service-dashboard-edit-tile.md)  
-
-[Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)  
-
-[Power BI: Conceptos básicos](service-basic-concepts.md)  
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a9cb6e3d3fe244a3d530efeb2624e3cc5a799e55
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1ccc4eeff54bff91a9ed245fdb82462768b65264
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de lectura y vista de edición de informes del servicio Power BI
 En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e interactuar con los informes: la vista de lectura y la vista de edición. La vista de lectura está disponible para todos los usuarios y está diseñada especialmente para los *consumidores* de datos, mientras que la vista de edición solo está disponible para los propietarios y *creadores* de informes.
@@ -48,7 +48,6 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 |Tarea  | Vista de lectura  | Vista de edición |
 |-------------------------|-------|-------|
 |**Informes, como un todo**  |
-||||
 | [Crear o editar un informe](service-report-create-new.md) | No  | Sí |
 | [Compartir un informe](service-share-reports.md)| Sí | Sí y también puede administrar permisos, incluido otorgar a otros permisos de *propietario*. |
 | [Crear filtros de nivel de objeto visual persistentes (permanentes), de obtención de datos, de nivel de página y de nivel de informe desde el panel Filtros](power-bi-report-add-filter.md) | No  | Sí |
@@ -63,12 +62,10 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 | [Guardar un informe](service-report-save.md) | Sí, pero únicamente con **Guardar como**. | Sí |
 | [Eliminar un informe](service-delete.md) | No  | Sí |
 |**Páginas del informe** |
-||||
 | [Agregar o cambiar el nombre de una página del informe](power-bi-report-add-page.md)  | No  | Sí  |
 | [Duplicar una página del informe](power-bi-report-copy-paste-page.md) | No  | Sí |
 | [Eliminar una página del informe](service-delete.md) | no | sí |
 |**Trabajar con visualizaciones de informes**|
-||||
 | [Agregar visualizaciones a un informe](power-bi-report-add-visualizations-i.md) | No  | Sí |
 | [Agregar cuadros de texto y formas a un informe](power-bi-reports-add-text-and-shapes.md) | No  | Sí |
 | [Utilizar el panel de formato del informe](service-the-report-editor-take-a-tour.md) | No | Sí |

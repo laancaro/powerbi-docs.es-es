@@ -1,29 +1,29 @@
 ---
-title: "Inicio rápido: Un paseo por el editor de informes..."
+title: 'Inicio rápido: Un paseo por el editor de informes...'
 description: Un paseo por el editor de informes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
+backup: ''
+editor: ''
 featuredvideoid: IkJda4O7oGs
-tags: 
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ea40bafdc3c210771e5dd02368df41d3d9287baf
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: b134fe1e5d14f3707391888951178553d5cda7e5
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="the-report-editortake-a-tour"></a>Un paseo por el editor de informes...
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edición de informes en el servicio Power BI y en Power BI Desktop
@@ -56,7 +56,6 @@ El contenido mostrado en el editor de informes varía según las opciones selecc
 |  |  |
 | --- | --- |
 | ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>La parte superior del panel Visualización identifica el tipo de objeto visual en uso; en este ejemplo, un gráfico de columnas agrupadas.<br><br></li> <li>La parte inferior del panel Visualización (es posible que tenga que desplazarse hacia abajo) muestra los campos que se están utilizando en el objeto visual. Este gráfico está usando FiscalMonth, DistrictManager y Total Sales Variance. <br><br></li><li>El panel Filtros (es posible que tenga que desplazarse hacia abajo) muestra los filtros que se han aplicado. <br><br></li><li>El panel Campos muestra las tablas disponibles y, si se expande el nombre de la tabla, los campos que forman la tabla. La fuente amarilla le indica que se está utilizando al menos un campo de dicha tabla en la visualización.<br><br></li><li>![Icono de rodillo de pintar](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar el panel de formato, en la visualización seleccionada, seleccione el icono de rodillo de pintar.<br><br></li><li>![Icono de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar el panel de análisis, seleccione el icono de lupa.</ul> |
-|  | |
 
 ## <a name="the-visualizations-pane-from-top-to-bottom"></a>El panel Visualizaciones (de arriba a abajo)
 ![Parte superior del panel Visualizaciones](media/service-the-report-editor-take-a-tour/selectviz.png)

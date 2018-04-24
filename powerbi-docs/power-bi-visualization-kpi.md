@@ -2,28 +2,28 @@
 title: Objetos visuales de KPI (tutorial)
 description: crear KPI en el servicio Power BI y en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: xmja6EpqaO0
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1a937b77135d6ad7843a6e0be779c235a1073f46
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="kpi-visuals-tutorial"></a>Objetos visuales de KPI (tutorial)
 Un indicador clave de rendimiento (KPI) es una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. Para más información acerca de los KPI, consulte [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -76,11 +76,8 @@ Los KPI también están disponibles en los dispositivos móviles: manténgase al
 * Si el KPI no se parece al anterior, puede deberse a que necesita ordenarlo por mes. Puesto que los KPI no tienen una opción de ordenación, debe ordenar por mes *antes de* convertir la visualización en un KPI.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Informes en Power BI](service-reports.md)
 
 [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
-
-[Power BI: Conceptos básicos](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 
