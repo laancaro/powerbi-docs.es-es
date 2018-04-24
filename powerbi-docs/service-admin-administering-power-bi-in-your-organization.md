@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 11/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 64dd0239026d3529129924b8d89eb5cc2642a9af
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: d5cb48469cc5ed5b49da841552bf7426ad29c3fb
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="administering-power-bi-in-your-organization"></a>Administración de Power BI en su organización
 Microsoft Power BI permite a los usuarios visualizar datos, compartir descubrimientos y colaborar mediante nuevas e intuitivas formas. Para obtener más información, consulte [Introducción a Power BI](service-get-started.md).
@@ -185,8 +185,6 @@ Para llevar a cabo los pasos siguientes, debe instalar la versión más reciente
 Si su organización ya tiene un entorno de Office 365 existente y todos los usuarios de dicha organización tienen cuentas de Office 365, la administración de identidades no cambiará.
 
 Si su organización ya tiene un entorno de Office 365 existente pero no todos los usuarios de dicha organización tienen cuentas de Office 365, crearemos un usuario en el inquilino y asignaremos licencias basadas en la dirección de correo electrónico profesional o educativa del usuario. Esto significa que el número de usuarios que está administrando en cualquier momento determinado crecerá a medida que los usuarios de su organización se suscriben al servicio.
-
-Si está administrando su directorio local y usa los Servicios de federación de Active Directory (AD FS), Microsoft no agregará usuarios al inquilino y los usuarios que intenten unirse a dicho inquilino recibirán un mensaje para que se pongan en contacto con el administrador de su organización.
 
 Si su organización no tiene un entorno de Office 365 conectado a su dominio de correo electrónico, la forma de administrar la identidad no cambiará. Los usuarios se agregarán a un nuevo directorio de usuario solo en la nube y tendrá la opción de asumir el control como el administrador de inquilinos y administrarlos.
 

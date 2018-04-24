@@ -1,16 +1,16 @@
 ---
-title: "Cómo anclar un icono a un panel de Power BI desde Excel"
-description: "Anclar un icono a un panel de Power BI desde Excel en OneDrive para la Empresa. Anclar rangos, gráficos o tablas"
+title: Cómo anclar un icono a un panel de Power BI desde Excel
+description: Anclar un icono a un panel de Power BI desde Excel en OneDrive para la Empresa. Anclar rangos, gráficos o tablas
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: l8JoB7w0zJA
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -19,11 +19,11 @@ ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: fdd014e513a794a72196a3173703b9536f06768a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 76bfe440291687d7f34b859eccad6099a498c819
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -41,20 +41,19 @@ Si elige **Conectar**, aparecerá el libro en Power BI tal como lo haría en Exc
 No puede editar el libro en Power BI, Pero si necesita realizar algunos cambios, seleccione el icono de lápiz de la pestaña **Libros** del área de trabajo y, a continuación, edite el libro en Excel Online o ábralo en Excel en el equipo. Todos los cambios que realice se guardarán en el libro en OneDrive.
 
 1. Cargue un libro en su OneDrive para la Empresa.
+
 2. Desde Power BI, [conéctese a ese libro](service-excel-workbook-files.md) seleccionando **Obtener datos > Archivos > OneDrive - Business** y desplácese a la ubicación donde guardó el archivo de Excel. Seleccione el archivo y elija **Conectar > Conectar**.
 
-   ![Cuadro de diálogo OneDrive para la Empresa](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
+    ![Cuadro de diálogo OneDrive para la Empresa](media/service-dashboard-pin-tile-from-excel/power-bi-connect.png)
 
 3. En Power BI, el libro se agrega a la pestaña **Libros** del área de trabajo.  El icono ![icono de libro](media/service-dashboard-pin-tile-from-excel/pbi_workbookicon.png) indica que se trata de un libro de Excel y un asterisco amarillo indica que es nuevo.
-   
     
-   ![Pestaña Libros](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
+    ![Pestaña Libros](media/service-dashboard-pin-tile-from-excel/power-bi-workbooks.png)
 4. Para abrir el libro en Power BI, seleccione el nombre del libro.
 
     Los cambios realizados en el libro en Power BI no se guardan y no afectan el libro original de OneDrive para la Empresa. Si ordena, filtra o cambia valores en Power BI, esos cambios no se pueden guardar ni anclar. Si tiene que hacer cambios que se van a guardar, seleccione **Editar** desde la esquina superior derecha para abrirlo y editarlo en Excel Online o Excel. Los cambios realizados en este modo pueden tardar unos minutos en actualizar los iconos en los paneles.
    
-   
-   ![Excel Online en Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
+    ![Excel Online en Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Anclar un rango de celdas a un panel
 Una manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es desde un libro de Excel en Power BI. Los rangos se pueden anclar desde los libros de Excel que se hayan guardado en su OneDrive para la Empresa u otra biblioteca de documentos compartida en grupo. Los rangos pueden contener datos, gráficos, tablas, tablas dinámicas, gráficos dinámicos y otras partes de Excel.

@@ -1,32 +1,32 @@
 ---
-title: "Agregar un hipervínculo a un cuadro de texto de un informe"
-description: "Incorporación de un hipervínculo a un cuadro de texto del servicio Power BI y de Power BI Desktop"
+title: Agregar un hipervínculo a un cuadro de texto de un informe
+description: Incorporación de un hipervínculo a un cuadro de texto del servicio Power BI y de Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 95352c72dfca1c1439f89d532dbcfcc5cd26758c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 13edfd3f6968af66f96e3690f2509ba8a7158bbe
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Agregar un hipervínculo a un cuadro de texto de un informe
-Los cuadros de texto se pueden agregar a informes, anclar a paneles desde informes y agregar directamente a paneles. Es posible agregar hipervínculos a un cuadro de texto independientemente de su ubicación. **Este tema trata acerca de los cuadros de texto en los informes del servicio Power BI (no Power BI Desktop).**
+Los cuadros de texto se pueden agregar a informes, anclar a paneles desde informes y agregar directamente a paneles. Es posible agregar hipervínculos a un cuadro de texto independientemente de su ubicación.  
 
 > **NOTA**: para más información sobre los hipervínculos en matrices y tablas de Power BI, consulte [Hipervínculos en tablas](power-bi-hyperlinks-in-tables.md). Para más información sobre cómo agregar cuadros de texto a su **panel**, consulte [Agregar un icono directamente desde el panel ](service-dashboard-add-widget.md). 
 > 
@@ -61,8 +61,6 @@ Los cuadros de texto se pueden agregar a informes, anclar a paneles desde inform
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Cuadros de texto en informes de Power BI](power-bi-reports-add-text-and-shapes.md)
-
-[Agregar un cuadro de texto a un panel](service-dashboard-add-widget.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 
