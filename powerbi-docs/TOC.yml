@@ -846,10 +846,12 @@
           href: desktop-send-smile-privacy-statement.md
     - name: Solución de problemas
       items:
-        - name: Resolver problemas de importación de bases de datos de Access y hojas de cálculo XLS en Power BI Desktop y Power Query
-          href: desktop-access-database-errors.md
+        - name: Solución de problemas durante el inicio de sesión para Power BI Desktop
+          href: desktop-troubleshooting-sign-in.md
         - name: Resolver problemas al iniciar Power BI Desktop
           href: desktop-error-launching-desktop.md
+        - name: Resolver problemas de importación de bases de datos de Access y hojas de cálculo XLS en Power BI Desktop y Power Query
+          href: desktop-access-database-errors.md
 - name: Power BI Mobile Apps
   items:
     - name: Comenzar
@@ -1070,9 +1072,9 @@
           href: 'https://go.microsoft.com/fwlink/?linkid=848709'
         - name: Uso de KPI
           href: 'https://go.microsoft.com/fwlink/?linkid=849021'
-        - name: Orígenes de datos compatibles
+        - name: Orígenes de datos de informes de Power BI (.pbix)
           href: report-server/data-sources.md
-        - name: Conexión a orígenes de datos
+        - name: Orígenes de datos de informes paginados (.rdl)
           href: report-server/connect-data-sources.md
         - name: 'Acceso a conjuntos de datos compartidos como fuentes de OData '
           href: report-server/access-dataset-odata.md
