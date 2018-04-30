@@ -12,16 +12,16 @@ qualityfocus: no
 qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
-ms.topic: get-started-article
+ms.topic: conceptual
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/20/2018
+ms.date: 04/09/2018
 ms.author: maggies
-ms.openlocfilehash: 29241b4c0f059540e6f1496f04b3044ebbd7d68b
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9caf6e6867c55d3c601ac417add173d0af091897
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -29,6 +29,17 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](service-whats-new.md)  
+
+## <a name="april-2018"></a>Abril de 2018
+
+### <a name="mobile-drill-down-and-drill-up"></a>Exploración en profundidad y rastreo agrupando en dispositivos móviles
+
+Ahora puede explorar en profundidad y rastrear agrupando hasta profundizar en objetos visuales en su dispositivo móvil. Para acceder a esta nueva característica, pulse y mantenga presionado para abrir el menú de información sobre herramientas en un objeto visual de informe y luego pulse los botones de exploración para examinar los datos en profundidad.
+
+### <a name="persistent-filters"></a>Filtros persistentes
+
+Recientemente hemos actualizados segmentaciones y filtros de informe, por lo que se guardan automáticamente desde Power BI en la Web en la aplicación móvil de Power BI. Ahora, los filtros y las segmentaciones de datos que se establecen en la aplicación móvil se guardan automáticamente en Power BI en la web.
+
 
 ## <a name="march-2018"></a>Marzo de 2018
 

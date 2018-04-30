@@ -2,30 +2,48 @@
 title: Seminarios web de Power BI
 description: Seminarios web de Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maikelson
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 04/20/2018
 ms.author: maikelson
-ms.openlocfilehash: eb1f158dd054d9e1e462b556897fde8a74ae4bc3
-ms.sourcegitcommit: 0a16dc12bb2d39c19e6b0002b673a8c1d81319c9
+ms.openlocfilehash: 598266306657337e8190075b2a5e42de2b7d2144
+ms.sourcegitcommit: 20adb55065af8e2f48387a00e64c72cf6d700f0f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2018
+ms.lasthandoff: 04/23/2018
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
 Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones grabadas a petición.
+
+## <a name="upcoming-webinars"></a>Próximos seminarios web
+
+Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones presenciales de preguntas y respuestas
+
+**[Serie de seminarios web sobre el marco de adopción de Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
+<br>de Manu Kanwarpal and Paul Henwood
+<br>*Marzo, abril y mayo de 2018 9:00 h (hora estándar del Pacífico), 12:00 h (hora estándar del Este)*
+
+Planee una implementación eficaz de Power BI para su organización y explore los matices de una administración eficaz del software como servicio (SaaS). Esta es una serie de cinco partes que pone de manifiesto el potencial de Power BI para la organización.
+
+[Regístrese para verlo el 1 de mayo. Part 5 - Rollout: Successfully rolling out Power BI (Parte 5 - Implementación: implementación correcta de Power BI)](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website)
+<br>[Regístrese para verlo ahora. Part 4 - Security: Keeping your data secure with Power BI (Parte 4 - Seguridad: mantenga sus datos seguros con Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website)
+<br>[Regístrese para verlo ahora. Part 3 - Service Management: Power BI Service Management Insights (Parte 3 - Administración del servicio: información general sobre la administración del servicio Power BI)](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website)
+<br>[Regístrese para verlo ahora. Part 2 - Governance: Govern your Power BI usage (Parte 2 - Gobernanza: gobierne su uso de Power BI)](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website)
+<br>[Regístrese para verlo ahora. Part 1 - Adoption: Adopt a data-driven culture (Parte 1 - Adopción: adopte una cultura de control de datos)](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website)
+
+>[Asista a los próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
@@ -35,34 +53,23 @@ Empiece por estos seminarios web a petición populares
 <br>de Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/getting-started-with-power-bi-ondemand.html?Is=Website)
 
-**Simply Compelling – Seven Tips to Better Visualization Design** (Convencer con sencillez: 7 consejos para un mejor diseño de visualización)
-<br>de Miranda Li
-<br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Simply-Compelling-Seven-Tips-to-Better-Visualization-Design/m-p/173401?Is=Website)
+**Power BI Tricks, Tips and Tools from the owners of PowerBI.Tips** (Trucos, consejos y herramientas de Power BI de los propietarios de PowerBI.Tips)
+<br>de Mike Carlo and Seth Bauer
+<br>[Ver ahora](https://www.youtube.com/watch?v=fnj1_e3HXow)
 
 **Learn to Navigate Your Way Through a Power BI Dashboard in 20 Minutes** (Aprender a navegar por un panel de Power BI en 20 minutos)
 <br>de Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-dashboard-in-20-min.html?Is=Website)
+
+**Simply Compelling – Tips to Better Visualization Design** (Convencer con sencillez: consejos para un mejor diseño de visualización)
+<br>de Miranda Li
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
 **Better Together: 5 Benefits Excel Users Will Get From Using Power BI (Juntos mejor: 5 ventajas que obtendrán los usuarios de Excel si usan Power BI)**
 <br>de Carlos Otero y Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/excel-powerbi-better-together.html?Is=Website)
 
 >[Examine la biblioteca de Power BI de seminarios web a petición, de nuestros expertos de la comunidad](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
-
-## <a name="upcoming-webinars"></a>Próximos seminarios web
-
-Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones presenciales de preguntas y respuestas
-
-**Serie de seminarios web sobre el marco de adopción de Power BI: Parte 1: Adopción: Adoptar una referencia cultural controlada por datos**
-<br>de Manu Kanwarpal
-<br>*8 de marzo, 9:00 a.m. Hora estándar del Pacífico, 12:00 p.m. Hora estándar oriental*
-
-Cambie la mentalidad de la organización a una referencia cultural controlada por datos y regístrese en la serie de seminarios web que ofrece un marco de adopción de Power BI de Microsoft. La adopción de la inteligencia empresarial (BI) con características de autoservicio supone un reto en el que la obtención de las herramientas constituye solo el primer paso del proceso. Una adopción correcta exige un cambio en las personas, los procesos y la tecnología.
-Este seminario web es el primero de una serie de cinco que desbloquea el potencial de Power BI para la organización.
-
-[Regístrese para verlo el 8 de marzo](https://info.microsoft.com/ww-landing-powerbi-adoption.html?Is=Website)
-
->[Asista a los próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
 
 ## <a name="on-demand-webinars"></a>Seminarios web a petición
 
@@ -84,7 +91,7 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Stephen Cracknell y Stuart Macanliss (US Medical IT)
 <br>[Registrarse y ver ahora](https://info.microsoft.com/improving-profitability-in-healthcare.html?Is=Website)
 
-**Applied Intelligence for Sales & Service (Inteligencia aplica ventas y servicios)**
+**Applied Intelligence for Sales & Services** (Inteligencia aplicada a ventas y servicios)
 <br>de Ed Bobrin, de Avanade
 <br>[Registrarse y ver ahora](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
 
@@ -96,27 +103,50 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Patrick McGarry y Miguel Martínez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
 
-### <a name="advanced-topics"></a>Temas avanzados ###
+### <a name="community"></a>Comunidad ###
 
-**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Serie de seminarios web profesionales sobre finanzas en Office 365. Episodio 2: automatización de informes periódicos y habilitación del autoanálisis)
-<br>de Mark Traverso y Miguel Martínez
-<br>[Registrarse y ver ahora](https://aka.ms/Office365FinanceProsPBI)
+**Storytelling with your data and Power BI** (Cuentos con sus datos y Power BI)
+<br>de Tristan Malherbe
+<br>[Ver ahora](https://www.youtube.com/watch?v=egk0suekwHo)
 
-**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Implementación de una estrategia de regulación de datos correcta que haga más segura su organización)**
-<br>de Ajay Anandan
-<br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+**Practical DAX for Power BI** (DAX práctico para Power BI)
+<br>de Phil Seamark
+<br>[Ver ahora](https://www.youtube.com/watch?v=1fGfqzS37qs)
+
+**Developing with Power BI Embedding – The April 2018 Update** (Desarrollo con inserción de Power BI: actualización de abril de 2018)
+<br>de Ted Pattison
+<br>[Ver ahora](https://www.youtube.com/watch?v=swnGlrRy588)
 
 **Profundización en la seguridad de Power BI**
 <br>de Kasper de Jonge
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-23-2017-Power-BI-security-deep-dive-by-Kasper-de-Jonge/m-p/161476?Is=Website)
 
-**Accelerating modern BI adoption with Power BI Premium (Aceleración de la adopción de BI moderna con Power BI Premium)**
-<br>de Sirui Sun y Miguel Martinez
-<br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
-
 **Ask a Partner: Developing Custom Visuals for Power BI (Pregunte a un asociado: desarrollo de objetos visuales para Power BI)**
 <br>de Ted Pattison
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Ask-a-Partner-Developing-Custom-Visuals-for-Power-BI/m-p/150368?Is=Website)
+
+### <a name="advanced-topics"></a>Temas avanzados ###
+
+**Advanced Analytics with Excel and Power BI** (Análisis avanzado con Excel y Power BI)
+<br>de Nagasaikiran Kambhampati y Miguel Martinez
+<br>[Regístrese para verlo](https://info.microsoft.com/ww-landing-advanced-analytics-excel-powerbi.html?Is=Website)
+<br>[Descargue el Advanced Analytics Starter Kit (Kit de inicio de análisis avanzado) para seguir el tutorial](https://aka.ms/pbiaawebinar)
+
+**Office 365 Finance Pros Webinar Series - Episode 2: Automate Recurring Reports & Enable Self-Serve Analytics** (Serie de seminarios web profesionales sobre finanzas en Office 365. Episodio 2: automatización de informes periódicos y habilitación del autoanálisis)
+<br>de Mark Traverso y Miguel Martínez
+<br>[Registrarse y ver ahora](https://aka.ms/Office365FinanceProsPBI)
+
+**Be a Full Stack Power BI Jedi – A walkthrough of Power BI most advanced features through Star Wars data** (Conviértase en todo un Jedi de Power BI: un recorrido por las características más avanzadas de Power BI a través de los datos de Star Wars)
+<br>de Gil Raviv
+<br>[Ver ahora](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
+
+**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Implementación de una estrategia de regulación de datos correcta que haga más segura su organización)**
+<br>de Ajay Anandan
+<br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
+
+**Accelerating modern BI adoption with Power BI Premium (Aceleración de la adopción de BI moderna con Power BI Premium)**
+<br>de Sirui Sun y Miguel Martinez
+<br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-premium-webinar-ondemand.html?Is=Website)
 
 **What's New and Exciting in Power BI Report Server** (Novedades y aspectos interesantes de Power BI Report Server)
 <br>de Riccardo Muti, Chris Finlan y Chinmay Joshi

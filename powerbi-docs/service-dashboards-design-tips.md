@@ -1,28 +1,28 @@
 ---
-title: "Sugerencias para diseñar un panel de Power BI fantástico"
-description: "Sugerencias para diseñar un panel de Power BI fantástico"
+title: Sugerencias para diseñar un panel de Power BI fantástico
+description: Sugerencias para diseñar un panel de Power BI fantástico
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 769d669f00c87e6139d8ff2cb8640739d09edf7a
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 9d71d417a2d7beb7f968bf18fc6de90794663ec8
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, esto se consigue destacando la información más importante y manteniéndolo limpio y despejado.
@@ -31,25 +31,28 @@ Aquí encontrará algunas sugerencias.
 
 > [!TIP]
 > Muchos de los principios de diseño de los informes se aplican también a los paneles.  Lea las notas del producto sobre los [principios para el mejor diseño de los informes y las visualizaciones](power-bi-visualization-best-practices.md).
-> 
-> 
+>
+>
 
-### <a name="consider-your-audience"></a>Tenga en cuenta al público
+## <a name="watch-the-dashboard-makeover-webinarhttpsinfomicrosoftcomco-powerbi-wbnr-fy16-05may-12-dashboard-makeover-registrationhtml"></a>Ver el [seminario web Dashboard Makeover (Transformación del panel)](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html)
+Vea cómo Marc Reguera, jefe principal de programas de Microsoft y experto en paneles de Power BI, [transforma los informes](https://info.microsoft.com/CO-PowerBI-WBNR-FY16-05May-12-Dashboard-Makeover-Registration.html).
+
+## <a name="consider-your-audience"></a>Tenga en cuenta al público
 ¿Cuáles son las métricas claves que le ayudarán a tomar decisiones? ¿Cómo se usará el panel? ¿Qué suposiciones adquiridas o culturales pueden afectar a las opciones de diseño? ¿Qué información necesita su público para conseguir buenos resultados?
 
 Tenga en cuenta que el panel es un recurso de información general, un lugar único para supervisar el estado actual de los datos. El panel se basa en informes y conjuntos de datos subyacentes, que a su vez pueden contener numerosos detalles. Los lectores pueden profundizar en los informes desde el panel. Por eso, no incluya detalles en el panel además de la información que deben supervisar los lectores.
 
 ¿Dónde se mostrará el panel? Si el panel se va a mostrar en un monitor grande, puede incluir más contenido. Si los lectores lo consultarán en tabletas, cuantos menos iconos tenga, más legible será.
 
-### <a name="tell-a-story-and-keep-it-to-one-screen"></a>Cuente una historia y muéstrela en una pantalla
+## <a name="tell-a-story-and-keep-it-to-one-screen"></a>Cuente una historia y muéstrela en una pantalla
 Los paneles están diseñados para mostrar la información importante de un vistazo, por lo que se recomienda incluir todos los iconos en una pantalla. ¿Puede evitar las barras de desplazamiento en el panel?
 
 ¿Está el panel demasiado abarrotado?  Quítelo todo, excepto la información esencial que se pueda leer e interpretar fácilmente.
 
-### <a name="make-use-of-full-screen-mode"></a>Use el modo de pantalla completa
+## <a name="make-use-of-full-screen-mode"></a>Use el modo de pantalla completa
 Muestre su panel en [pantalla completa](service-fullscreen-mode.md) sin distracciones.
 
-### <a name="make-the-most-important-information-biggest"></a>Muestre la información más importante a mayor tamaño
+## <a name="make-the-most-important-information-biggest"></a>Muestre la información más importante a mayor tamaño
 Si el texto y las visualizaciones son del mismo tamaño en el panel, a los lectores les costará centrarse en lo más importante. Por ejemplo, las visualizaciones de tarjeta son una buena forma de mostrar un número importante de forma destacada:  
 ![Visualización de tarjeta](media/service-dashboards-design-tips/pbi_card.png)
 
@@ -57,10 +60,10 @@ Pero no olvide proporcionar un contexto.
 
 Más información sobre cómo [crear un icono con un solo número](power-bi-visualization-card.md).
 
-### <a name="put-the-most-important-information-in-the-upper-corner"></a>Coloque la información más importante en la parte superior
+## <a name="put-the-most-important-information-in-the-upper-corner"></a>Coloque la información más importante en la parte superior
 La mayoría de las personas leen de arriba abajo, por lo que se recomienda colocar la información con mayor nivel de detalle en la parte superior e ir mostrando más detalles a medida que avanza en la dirección en que lee el público (de izquierda a derecha, o de derecha a izquierda).
 
-### <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Use el formato y la visualización correcta para los datos para facilitar la lectura
+## <a name="use-the-right-visualization-for-the-data-and-format-it-for-easy-reading"></a>Use el formato y la visualización correcta para los datos para facilitar la lectura
 Evite utilizar distintos tipos de visualizaciones simplemente para aportar variedad.  Las visualizaciones deben transmitir una imagen, y ser fáciles de "leer" e interpretar.  En el caso de algunos datos y visualizaciones, basta con una sencilla visualización gráfica. Sin embargo, otros datos pueden requerir una visualización más compleja. Por ello, asegúrese de usar títulos, etiquetas y las personalizaciones necesarias para ayudar al lector.  
 
 * [Elija visualizaciones de datos adecuadas](http://blogs.msdn.com/b/microsoft_business_intelligence1/archive/2012/10/08/best-practices-in-data-visualization.aspx). Tenga cuidado al usar gráficos que distorsionen la realidad, como los tridimensionales. Tenga en cuenta que al cerebro humano le cuesta interpretar las formas circulares. Los gráficos circulares, de anillos, de medidores y otros tipos de gráficos circulares pueden parecer atractivos, pero no son un procedimiento recomendado para la visualización de datos.
@@ -84,7 +87,6 @@ Si desea aprender a diseñar paneles fantásticos, considere la posibilidad de a
 * *Advanced presentations by design* , de Andrew Abela   
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Paneles en Power BI](service-dashboards.md)  
+[Creación de un panel desde un informe](service-dashboard-create.md)  
 [Power BI: Conceptos básicos](service-basic-concepts.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

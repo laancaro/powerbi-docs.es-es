@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c6c924095e3aaf4839f1c9422e027ba5373b9ad4
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ee696e4d967e995771480d660de260b6d3b755cd
+ms.sourcegitcommit: 0cae0e6e1fd06b6465721702b2d0bb8333eb5afb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/27/2018
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 La puerta de enlace de datos local actúa como un puente, proporcionando la transferencia de datos rápida y segura entre los datos locales (datos que no están en la nube) y los servicios Power BI, Microsoft Flow, Logic Apps y PowerApps.
@@ -95,6 +95,11 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 * [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
 ) no se admite actualmente
 * [Access Online](https://products.office.com/en-us/access) no se admite actualmente
+
+## <a name="tenant-level-administration"></a>Administración de nivel de inquilino 
+
+Actualmente no hay un único lugar en el que los administradores de inquilinos puedan administrar todas las puertas de enlace que otros usuarios tengan instaladas y configuradas.  Si es un administrador de inquilinos, le recomendamos que solicite a los usuarios de la organización que le agreguen como administrador a cada puerta de enlace que instalen. Así, podrá administrar todas las puertas de enlace de la organización mediante la página Configuración de puerta de enlace o los [comandos de PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Si tiene problemas al instalar y configurar una puerta de enlace, asegúrese de consultar [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md). Si cree que tiene un problema con el firewall, consulte la sección [Firewall o proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) del artículo de solución de problemas.

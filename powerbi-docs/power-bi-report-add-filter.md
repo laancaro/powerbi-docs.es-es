@@ -1,5 +1,5 @@
 ---
-title: Adición de un filtro de visualización o de página o de obtención de detalles o de informe a un informe
+title: Adición de un filtro de visualización, página, obtención de detalles o informe para un informe
 description: Adición de un filtro de página, un filtro de visualización o un filtro de informe a un informe en Power BI
 services: powerbi
 documentationcenter: ''
@@ -15,20 +15,20 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/13/2018
+ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e222b9bddc3e7c204a728e207b8969cdf13d605f
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: e6cf99ab981bb16e4d423733972798b5ca5f53e6
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adición de un filtro a un informe del servicio Power BI (en la vista de edición)
 > [!TIP]
 > Se recomienda leer primero [Filtros y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md).
 
-Para los ejemplos de este artículo se usa el servicio Power BI, pero los pasos son casi idénticos con Power BI Desktop.
+Para los ejemplos de este artículo se usa el servicio Power BI. Sin embargo, los pasos son casi idénticos en Power BI Desktop.
 > 
 > 
 

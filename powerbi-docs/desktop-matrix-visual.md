@@ -1,15 +1,15 @@
 ---
 title: Uso del objeto visual de matriz en Power BI Desktop
-description: "Obtenga información acerca de cómo el objeto visual de matriz permite diseños de paso y resaltado granular en Power BI Desktop"
+description: Obtenga información acerca de cómo el objeto visual de matriz permite diseños de paso y resaltado granular en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,14 +18,14 @@ ms.workload: powerbi
 ms.date: 02/05/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: de40c8ee25c5facc1c4396c807d38784c11e8bca
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: fdab0ee5a4804bcb05e936f4e6a9455127d352fa
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Uso del objeto visual de matriz en Power BI Desktop
-Con el objeto visual de **matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
+Con la característica de objeto visual **Matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
@@ -63,7 +63,7 @@ Cuando se ha creado la agrupación en el objeto visual en la sección **Filas**,
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, la selección de esos botones nos permite explorar en profundidad (o realizar una copia de seguridad) a través de la jerarquía. En este caso se puede explorar en profundidad desde *Categoría* a *Subcategoría*, tal y como se muestra en la imagen siguiente, en la que se ha seleccionado el icono de nivel uno de exploración en profundidad (el tridente).
+De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, la selección de esos botones nos permite explorar en profundidad (o realizar una copia de seguridad) a través de la jerarquía. En este caso, se puede explorar en profundidad desde *Categoría* a *Subcategoría*, tal y como se muestra en la imagen siguiente, en la que se ha seleccionado el icono de nivel uno de exploración en profundidad (el tridente).
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
@@ -77,11 +77,11 @@ Si selecciona **Explorar en profundidad** se expande la matriz de *ese* nivel de
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
-Podemos hacer clic en el icono **Rastrear agrupando datos** para volver a la vista de nivel superior anterior. Si, a continuación, seleccionamos **Mostrar siguiente nivel** en el menú contextual, obtendremos un listado alfabético de todos los elementos del siguiente nivel (en este caso, el campo *Subcategoría*), sin la categorización de jerarquía de nivel superior.
+Puede hacer clic en el icono **Rastrear agrupando datos** para volver a la vista de nivel superior anterior. Si, a continuación, selecciona **Mostrar siguiente nivel** en el menú contextual, obtendrá un listado alfabético de todos los elementos del siguiente nivel (en este caso, el campo *Subcategoría*), sin la categorización de jerarquía de nivel superior.
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Si hace clic en el icono **Rastrear agrupando datos** situado en la esquina superior izquierda para que la matriz muestre todas las categorías de nivel superior y, a continuación, hace clic con el botón derecho de nuevo y selecciona **Expandir al siguiente nivel**, se mostrará lo siguiente:
+Si hace clic en el icono **Rastrear agrupando datos** situado en la esquina superior izquierda para que la matriz muestre todas las categorías de nivel superior y luego hace clic con el botón derecho de nuevo y selecciona **Expandir al siguiente nivel**, se mostrará lo siguiente:
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
@@ -100,7 +100,7 @@ Cuando se selecciona **Explorar en profundidad**, aparece el siguiente nivel de 
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-El resto de los elementos del menú contextual de las columnas funciona de la misma manera que lo hacen los de las filas (consulte la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar siguiente nivel**, **Expandir al siguiente nivel** e **Incluir** o **Excluir** columnas al igual que podía hacer con las filas.
+El resto de los elementos del menú contextual de las columnas funciona de la misma manera que lo hacen los de las filas (consulte la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar siguiente nivel**, **Expandir al siguiente nivel**, **Incluir** o **Excluir** columnas al igual que podía hacer con las filas.
 
 > [!NOTE]
 > Los iconos de Explorar en profundidad y Rastrear agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad las columnas, debe usar el menú contextual.
@@ -108,17 +108,17 @@ El resto de los elementos del menú contextual de las columnas funciona de la mi
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Diseño escalonado con objetos visuales de matriz
-El objeto visual **Matriz** aplica sangría automáticamente a las subcategorías de una jerarquía debajo de cada elemento primario, lo cual se denomina **diseño escalonado**.
+El objeto visual **Matriz** aplica sangría automáticamente a las subcategorías de una jerarquía debajo de cada elemento primario, lo cual se denomina **Diseño escalonado**.
 
-En la versión *original* del objeto visual de la matriz, las subcategorías se mostraban en una columna completamente diferente, lo cual ocupaba mucho más espacio en el objeto visual. La siguiente imagen muestra la tabla del objeto visual de **matriz** original. Observe que las subcategorías se encuentran en una columna completamente independiente.
+En la versión *original* del objeto visual de la matriz, las subcategorías se mostraban en una columna completamente diferente, lo cual ocupaba mucho más espacio en el objeto visual. La siguiente imagen muestra la tabla del objeto visual **Matriz** original. Observe que las subcategorías se encuentran en una columna completamente independiente.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
-En la siguiente imagen, puede ver un objeto visual **Matriz** con el **diseño escalonado** en acción. Observe que la categoría *Computers* tiene sus subcategorías (Computers Accessories, Desktops, Laptops, Monitors, etc.) ligeramente con sangría. Esto ofrece un objeto visual más limpio y mucho más reducido.
+En la siguiente imagen, puede ver un objeto visual **Matriz** con el **Diseño escalonado** en acción. Observe que la categoría *Computers* tiene sus subcategorías (Computers Accessories, Desktops, Laptops, Monitors, etc.) ligeramente con sangría. Esto ofrece un objeto visual más limpio y mucho más reducido.
 
 ![](media/desktop-matrix-visual/matrix-visual_13.png)
 
-Puede ajustar fácilmente la configuración del **diseño escalonado**. Con el objeto visual **Matriz** seleccionado, en la sección **Formato** (el icono de rodillo de pintura) del panel **Visualizaciones**, expanda la sección **Encabezados de fila**. Ahí tiene dos opciones: la opción **Diseño escalonado**, que se puede activar o desactivar, y la opción **Sangría de diseño escalonado** que permite especificar el tamaño de la sangría, en píxeles.
+Puede ajustar fácilmente la configuración del diseño escalonado. Con el objeto visual **Matriz** seleccionado, en la sección **Formato** (el icono de rodillo de pintura) del panel **Visualizaciones**, expanda la sección **Encabezados de fila**. Tiene dos opciones: la opción **Diseño escalonado** (que se puede activar o desactivar) y la opción **Sangría de diseño escalonado** (que permite especificar el tamaño de la sangría, en píxeles).
 
 ![](media/desktop-matrix-visual/matrix-visual_15.png)
 
@@ -136,14 +136,14 @@ En la sección **Formato** del panel **Visualizaciones**, expanda la tarjeta **S
 El mismo proceso se aplica a los subtotales de columna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Resaltado cruzado con objetos visuales de matriz
-Con el objeto visual **Matriz**, todos los elementos de la matriz pueden seleccionarse como base para el resaltado cruzado. Si selecciona una columna en una **Matriz**, esta se resaltará, al igual que sucede con los demás objetos visuales de la página de informe. Esta ha sido una característica común de otros objetos visuales y la selección de un punto de datos y ahora el objeto visual **Matriz** también participa de esta característica.
+Con el objeto visual **Matriz**, puede seleccionar todos los elementos de la matriz como base para el resaltado cruzado. Si selecciona una columna en una **Matriz**, esta se resaltará, al igual que sucede con los demás objetos visuales de la página de informe. Esta ha sido una característica común de otros objetos visuales y selecciones de punto de datos, por lo que ahora el objeto visual **Matriz** ofrece la misma función.
 
-Además, el uso de Ctrl + clic también funciona para el resaltado cruzado. Por ejemplo, en la siguiente imagen, se ha seleccionado una colección de subcategorías del objeto visual **Matriz**. Observe que los elementos del objeto visual que no se seleccionaron aparecen atenuados y que los demás objetos visuales de la página reflejan las selecciones realizadas en el objeto visual **Matriz**.
+Además, el uso de Ctrl+clic también funciona para el resaltado cruzado. Por ejemplo, en la siguiente imagen, se ha seleccionado una colección de subcategorías del objeto visual **Matriz**. Observe que los elementos del objeto visual que no se seleccionaron aparecen atenuados y que los demás objetos visuales de la página reflejan las selecciones realizadas en el objeto visual **Matriz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Colores de fuente y sombreado con objetos visuales de matriz
-Con el objeto visual **Matriz**, puede aplicar **formato condicional** (colores y sombreado) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.
+Con el objeto visual **Matriz**, puede aplicar **Formato condicional** (colores y sombreado) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.
 
 Para aplicar formato condicional, puede realizar una de las siguientes acciones al seleccionar un objeto visual de matriz:
 

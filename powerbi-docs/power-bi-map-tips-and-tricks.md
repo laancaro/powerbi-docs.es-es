@@ -1,29 +1,29 @@
 ---
-title: "Sugerencias y trucos para las visualizaciones de mapas, incluida la integración con mapas de Bing"
-description: "Sugerencias y trucos para visualizaciones de mapas, objetos visuales, ubicaciones, longitud y latitud en Power BI, y cómo funcionan con los mapas de Bing. "
+title: Sugerencias y trucos para mapas (incluida la integración de Mapas de Bing)
+description: 'Sugerencias y trucos para visualizaciones de mapas, objetos visuales, ubicaciones, longitud y latitud en Power BI, y cómo funcionan con los mapas de Bing. '
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: ajTPGNpthcg
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/18/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a78481376d679025fe3ac8929dff8756eb61257
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 031d977adbeb0697bcdd1bb6b19ebf21ec16e516
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapa de Power BI
 Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si los intentos de Power BI no pueden crear la visualización del mapa por sí mismos, se muestra la ayuda de Bing Maps. 

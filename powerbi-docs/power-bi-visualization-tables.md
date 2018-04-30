@@ -1,29 +1,29 @@
 ---
-title: "Tutorial: Visualización de tablas en los informes y los paneles de Power BI (Tutorial)"
-description: "Tutorial para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna."
+title: Visualización de tablas en los informes y los paneles de Power BI (Tutorial)
+description: Tutorial para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/22/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d41fd5085912ec74312fa4a4b25060cbd4afba94
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Trabajar con tablas en informes y paneles de Power BI (Tutorial)
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, esta tabla muestra 5 medidas distintas para **Categoría**.
@@ -69,15 +69,21 @@ Hay muchas maneras de dar formato a una tabla y aquí solo trataremos algunas de
 
 * Pruebe a dar formato a la cuadrícula de tabla. En este caso se ha agregado una cuadrícula vertical azul, se ha agregado espacio a las filas y se ha aumentado ligeramente el esquema y el tamaño de texto.
   
-    ![](media/power-bi-visualization-tables/power-bi-table-grid2-new.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-gridnew.png)
   
     ![](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 * Para los encabezados de columna se ha cambiado el color de fondo, se ha agregado un esquema y se ha aumentado el tamaño de fuente. 
   
-    ![](media/power-bi-visualization-tables/power-bi-table-column.png)
+    ![](media/power-bi-visualization-tables/power-bi-table-column-headers.png)
+
   
     ![](media/power-bi-visualization-tables/power-bi-table-column2.png)
-* Y después de algunos cambios de formato adicionales, esta es nuestra tabla final. Dado que hay muchas opciones de formato, la mejor manera de aprender es comenzar con una tabla sin formato, abrir el panel Formato ![](media/power-bi-visualization-tables/power-bi-format.png) y comenzar a explorar. 
+
+* Incluso puede aplicar formato a encabezados de columna y columnas individuales. Empiece por ampliar el **Formato de campo** y seleccione la columna a la que se va a dar formato en la lista desplegable. Dependiendo de los valores de columna, el Formato de campo permite configurar parámetros como mostrar unidades, el color de fuente, el número de posiciones decimales, el fondo, la alineación y más. Una vez que haya ajustado la configuración, decida si desea aplicar esta configuración también al encabezado y la fila de totales.
+
+    ![](media/power-bi-visualization-tables/power-bi-field-formatting.png)
+
+* Y después de algunos cambios de formato adicionales, esta es nuestra tabla final. Dado que hay muchas opciones de formato, la mejor manera de aprender es comenzar con el formato predeterminado, abrir el panel Formato ![](media/power-bi-visualization-tables/power-bi-format.png) y comenzar a explorar. 
   
     ![](media/power-bi-visualization-tables/power-bi-table-format.png)
 

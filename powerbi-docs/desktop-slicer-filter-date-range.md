@@ -1,15 +1,15 @@
 ---
-title: "Utilice un filtro o una segmentación de fecha relativa en Power BI Desktop"
-description: "Obtenga información acerca de cómo usar un filtro o una segmentación de datos para restringir los intervalos de fechas relativas en Power BI Desktop"
+title: Utilice un filtro o una segmentación de fecha relativa en Power BI Desktop
+description: Obtenga información acerca de cómo usar un filtro o una segmentación de datos para restringir los intervalos de fechas relativas en Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,19 @@ ms.workload: powerbi
 ms.date: 12/05/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0432998e44cdb1bf95a41225b73d805ec2a2379f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 668c26cb2c2f6cda669280b2541fb5ccf8a44f27
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Uso de un filtro o una segmentación de fecha relativa en Power BI Desktop
-Con la **segmentación de fecha relativa** o el **filtro de fechas relativas**, puede aplicar filtros basados en el tiempo a cualquier columna de fecha del modelo de datos. Por ejemplo, puede usar la **segmentación de fecha relativa** para mostrar solo los datos de las ventas realizadas en los últimos treinta días (o mes, o meses naturales, etc). Al actualizar los datos, el período de tiempo relativo aplica automáticamente la restricción de fecha relativa correspondiente.
+Con la **segmentación de fecha relativa** o el **filtro de fechas relativas**, puede aplicar filtros basados en el tiempo a cualquier columna de fecha del modelo de datos. Por ejemplo, puede usar la **segmentación de fecha relativa** para mostrar solo los datos de las ventas realizadas en los últimos treinta días (o mes, meses naturales, etc). Y, al actualizar los datos, el período de tiempo relativo aplica automáticamente la restricción de fecha relativa correspondiente.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_01.png)
 
 ## <a name="using-the-relative-date-range-slicer"></a>Uso de una segmentación de intervalo de fecha relativa
-Puede usar la segmentación de fecha relativa igual que cualquier otra segmentación. Solo tiene que crear un objeto visual de **segmentación** para el informe y, a continuación, seleccionar un valor de fecha para el valor **Campo**. En la siguiente imagen, se ha seleccionado el campo *OrderDate*.
+Puede usar la segmentación de fecha relativa igual que cualquier otra segmentación. Solo tiene que crear un objeto visual de **segmentación** para el informe y luego seleccionar un valor de fecha para el valor **Campo**. En la siguiente imagen, se ha seleccionado el campo *OrderDate*.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_02.png)
 
@@ -40,7 +40,7 @@ Seleccione el acento circunflejo en la esquina superior derecha de la **segmenta
 
 Para la segmentación de fecha relativa, seleccione *Relativa*.
 
-A continuación, puede seleccionar la configuración. En la primera lista desplegable de la *segmentación de fecha relativa*, puede seleccionar una de las siguientes opciones:
+Después, puede seleccionar la configuración. En la primera lista desplegable de la *segmentación de fecha relativa*, tiene las siguientes opciones:
 
 * Último período de tiempo
 * Siguiente
@@ -52,7 +52,7 @@ Estas selecciones se muestran en la siguiente imagen.
 
 La siguiente opción de configuración (central) en la *segmentación de fecha relativa* permite escribir un número para definir el intervalo de fechas relativas.
 
-La tercera opción permite seleccionar la medida de fecha, y puede seleccionar entre las siguientes opciones:
+La tercera opción de configuración le permite elegir la medida de la fecha. Tiene las opciones siguientes:
 
 * Días
 * Semanas
@@ -66,16 +66,16 @@ Estas selecciones se muestran en la siguiente imagen.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_05.png)
 
-Si selecciona *Meses* en esa lista y escribe 2 en el cuadro central. Podría ocurrir lo siguiente: si hoy es 20 de julio, los datos incluidos en los objetos visuales restringidos por la segmentación mostrarían los datos de los dos meses anteriores, a partir del 20 de mayo hasta el 20 de julio (fecha de hoy).
+Si selecciona *Meses* en esa lista, y escribe 2 en la opción de configuración central, podría ocurrir lo siguiente: si hoy es 20 de julio, los datos incluidos en los objetos visuales restringidos por la segmentación mostrarían los datos de los dos meses anteriores, a partir del 20 de mayo hasta el 20 de julio (fecha de hoy).
 
 En cambio, si seleccionó *Meses (calendario)*, los objetos visuales restringidos mostrarían los datos desde el 1 de mayo hasta el 30 de junio (los dos últimos meses naturales completos).
 
 ## <a name="using-the-relative-date-range-filter"></a>Uso de un filtro de intervalo de fecha relativa
-También puede crear un filtro de intervalo de fecha relativa para la página del informe, o el informe completo. Para ello, solo tiene que arrastrar un campo a las áreas **Filtros de nivel de página** o los **Filtros de nivel de informe**, en el panel **Campo**, como se muestra en la siguiente imagen.
+También puede crear un filtro de intervalo de fecha relativa para la página del informe o el informe completo. Para ello, solo tiene que arrastrar un campo a las áreas **Filtros de nivel de página** o los **Filtros de nivel de informe**, en el panel **Campo**, como se muestra en la siguiente imagen.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_06.png)
 
-Una vez allí, puede modificar el intervalo de fecha relativa de forma similar a cómo se personaliza la **segmentación de datos de fecha relativa**. Seleccione **Filtrado de fecha relativa** en la lista desplegable **Tipo de filtro**.
+Una vez allí, puede modificar el intervalo de fecha relativa de forma similar a como se personaliza la **segmentación de datos de fecha relativa**. Seleccione **Filtrado de fecha relativa** en la lista desplegable **Tipo de filtro**.
 
 ![](media/desktop-slicer-filter-date-range/relative-date-range-slicer-filter_07.png)
 

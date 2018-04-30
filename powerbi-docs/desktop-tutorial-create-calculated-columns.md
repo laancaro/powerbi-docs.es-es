@@ -2,14 +2,14 @@
 title: 'Tutorial: Crear columnas calculadas en Power BI Desktop'
 description: 'Tutorial: Crear columnas calculadas en Power BI Desktop'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,132 +18,123 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: acdaa95908cd03006170eb06ddfc780c836c64ac
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 526659cfe0631eb9cb43ff6b47729a8a6227ec68
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Crear columnas calculadas en Power BI Desktop
-A veces los datos que se está analizando simplemente no contienen un determinado campo necesario para obtener los resultados buscados. Aquí es donde entran en escena las columnas calculadas. Las columnas calculadas utilizar fórmulas de expresiones de análisis de datos (DAX) para definir los valores de una columna. Estos valores pueden ser prácticamente cualquier cosa, ya sea que reúnan los valores de texto de un par de columnas diferentes situadas en otra parte del modelo o que calculen un valor numérico a partir de otros valores. Por ejemplo, supongamos que sus datos tienen columnas de ciudad y estado (como campos en la lista de campos), pero desea un único campo de ubicación que presente ambos valores como uno solo, como Miami, Florida. Para esto es precisamente que sirven las columnas calculadas.
 
-Las columnas calculadas son similares a las medidas en que ambas se basan en una fórmula DAX, pero difieren en cómo se usan. Las medidas se suelen usar en el área de valores de una visualización para calcular los resultados en función de otros campos que se tienen en la fila de una tabla, o en el área de eje, leyenda o grupo de una visualización. Por otro lado, las columnas calculadas se usan cuando se desea tener los resultados de la columna en esa fila en la tabla o en el área de eje, leyenda o grupo.
+A veces los datos que está analizando no contienen un determinado campo necesario para obtener los resultados buscados. Aquí es donde entran en escena las *columnas calculadas*. Las columnas calculadas utilizan fórmulas de expresiones de análisis de datos (DAX) para definir los valores de una columna, cualquier cosa desde poner juntos valores de texto de un par de columnas diferentes hasta calcular un valor numérico a partir de otros valores. Por ejemplo, supongamos que sus datos tienen los campos **Ciudad** y **Estado**, pero desea un único campo **Ubicación** que tenga ambos, como "Miami, Florida". Para esto es precisamente que sirven las columnas calculadas.
 
-Este tutorial le ayudará a entender y crear sus propias columnas calculadas en Power BI Desktop. Está destinado a usuarios de Power BI que ya están familiarizados con el uso de Power BI Desktop para crear modelos más avanzados. Debe estar familiarizado con el uso de la consulta para importar datos, trabajar con varias tablas relacionadas y agregar campos al lienzo del informe. Si no está familiarizado con Power BI Desktop, asegúrese de revisar [Introducción a Power BI Desktop](desktop-getting-started.md).
+Las columnas calculadas son similares a las [medidas](desktop-tutorial-create-measures.md) en que ambas se basan en fórmulas DAX, pero difieren en cómo se usan. A menudo se usan medidas en el área **Valores** de una visualización para calcular los resultados en función de otros campos. Las columnas calculadas se usan como nuevos **Campos** en filas, ejes, leyendas y áreas de grupos de visualizaciones.
 
-Para completar los pasos de este tutorial, necesitará descargar el archivo de [ventas de muestra de Contoso para Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip). Este es el mismo archivo de ejemplo usado en el tutorial: [Creación de sus propias medidas en Power BI Desktop](desktop-tutorial-create-measures.md). Ya incluye datos de ventas de la compañía ficticia Contoso, Inc. Dado que los datos en el archivo se importaron desde una base de datos, no podrá conectarse al origen de datos ni verlos en el Editor de consultas. Cuando tenga el archivo en su equipo, abra Power BI Desktop.
+Este tutorial le ayudará a entender y crear algunas columnas calculadas y a usarlas en visualizaciones de informe en Power BI Desktop. 
 
-## <a name="lets-create-a-calculated-column"></a>Vamos a crear una columna calculada
-Supongamos que queremos mostrar categorías de producto junto con subcategorías de producto en un solo valor en filas, por ejemplo: Teléfonos móviles – Accesorios, teléfonos móviles – Smartphones y PDA, y así sucesivamente. En la vista de informes o en la vista de datos (aquí estamos usando la vista de informes), si miramos nuestras tablas de productos en la lista de campos, vemos que no hay ningún campo que proporcione lo que deseamos. Sin embargo, sí tenemos un campo ProductCategory y un campo ProductSubcategory, cada uno de ellos en sus propias tablas.
+### <a name="prerequisites"></a>Requisitos previos
+- Este tutorial está destinado a usuarios de Power BI que ya están familiarizados con el uso de Power BI Desktop para crear modelos más avanzados. Ya debería saber cómo usar la **obtención de datos** y el **Editor de Power Query** para importar datos, trabajar con varias tablas relacionadas y agregar campos al lienzo de informe. Si no está familiarizado con Power BI Desktop, asegúrese de revisar [Introducción a Power BI Desktop](desktop-getting-started.md).
+  
+- El tutorial utiliza el [ejemplo de ventas de Contoso para Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), el mismo ejemplo usado para el tutorial [Crear medidas propias en Power BI Desktop](desktop-tutorial-create-measures.md). Estos datos de ventas de la compañía ficticia Contoso, Inc. se importaron desde una base de datos, por lo que no podrá conectarse al origen de datos ni verlos en el Editor de Power Query. Descargue y extraiga el archivo en su propio equipo y luego ábralo en Power BI Desktop.
 
- ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_nonewcol.png)
+## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Creación de una columna calculada con valores de tablas relacionadas
 
-Vamos a crear una nueva columna calculada para combinar los valores de estas dos columnas en nuevos valores para la nueva columna. Curiosamente, tenemos que combinar datos de dos tablas diferentes en una sola columna. Dado que vamos a usar DAX para crear la nueva columna, podemos aprovechar toda la funcionalidad del modelo que ya tenemos, incluidas las relaciones entre las diferentes tablas que ya existen.
+En su informe de ventas, desea mostrar categorías y subcategorías de producto como valores únicos, por ejemplo: "Teléfonos móviles – Accesorios", "Teléfonos móviles – Smartphones y PDA", y así sucesivamente. No hay ningún campo en la lista **Campos** que le proporcione esos datos, pero hay un campo **ProductCategory** y un campo **ProductSubcategory**, cada uno en su propia tabla. Puede crear una columna calculada que combine los valores de estas dos columnas. Las fórmulas DAX pueden aprovechar toda la funcionalidad del modelo que ya tiene, incluidas las relaciones entre las diferentes tablas que ya existen. 
 
-### <a name="to-create-a-productfullcategory-column"></a>Para crear una columna ProductFullCategory
-1.  En la lista de campos, haga clic con el botón derecho en la tabla **ProductSubcategory**, o en la flecha abajo de la tabla, y a continuación haga clic en **Nueva columna**. De esta manera, se garantiza que la nueva columna se agregue a la tabla ProductSubcategory.
+ ![Columnas de la lista Campos](media/desktop-tutorial-create-calculated-columns/create1.png)
+
+1.  Seleccione los puntos suspensivos (...) **Más opciones** o haga clic con el botón derecho en la tabla **ProductSubcategory**, o en la lista Campos y seleccione **Nueva columna**. Esto crea la nueva columna en la tabla ProductSubcategory.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumn.png)
+    ![Nueva columna](media/desktop-tutorial-create-calculated-columns/create2.png)
     
-    La barra de fórmulas aparece en la parte superior del lienzo del informe o en la cuadrícula de datos. Aquí es donde podemos cambiar el nombre de la columna y escribir una fórmula DAX.
+    La barra de fórmulas aparece en la parte superior del lienzo de informe, donde puede asignar un nombre a la columna y escribir una fórmula DAX.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_newcolumnformula.png)
+    ![Barra de fórmulas](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-    De forma predeterminada, a una nueva columna calculada se le denomina simplemente Columna. Si no se cambia el nombre, cuando se crea otra, se denominará Columna 2, Columna 3 y así sucesivamente. Queremos poder identificar fácilmente las columnas, por lo que asignaremos otro nombre a la nueva columna.
+2.  De forma predeterminada, a una nueva columna calculada se le denomina simplemente Columna. Si no cambia su nombre, las nuevas columnas adicionales se denominarán Columna 2, Columna 3 y así sucesivamente. Desea que la columna sea más fácil de identificar, por lo que el nombre **Columna** ya está resaltado en la barra de fórmulas; cambie su nombre escribiendo **ProductFullCategory** y luego escriba un signo igual (**=**).
     
-2.  Dado que el nombre de la **columna** ya está resaltado en la barra de fórmulas, simplemente escriba **ProductFullCategory**.
+3.  Quiere que los valores de la nueva columna empiecen con el nombre ProductCategory. Dado que esta columna está en una tabla diferente pero relacionada, vamos a usar la función [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) para ayudarle a conseguir su objetivo.
     
-    Ahora podemos comenzar por introducir la fórmula. Queremos que los valores de la nueva columna empiecen con el nombre ProductCategory de la tabla ProductCategory. Dado que esta columna está en una tabla diferente pero relacionada, vamos a usar la función [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) para conseguir nuestro objetivo.
+    Después del signo igual escriba **r**. Una lista desplegable de sugerencias muestra todas las funciones DAX que empiezan por la letra R. Al seleccionar cada función, se muestra una descripción de su efecto. A medida que escribe, la lista de sugerencias se aproxima más a la función que necesita. Seleccione **RELATED** y presione **Intro**.
     
-3.  Después del signo igual escriba **R**. Aparecerá una lista desplegable de sugerencias con todas las funciones DAX que comienzan con la letra R. Cuantas más letras se añaden, más se escala la lista de sugerencias acercándose a la función que necesitamos. A un lado de cada función verá su descripción. Desplace hacia abajo y seleccione **RELATED** y, a continuación, presione Entrar.
+    ![Elección de RELATED](media/desktop-tutorial-create-calculated-columns/create4.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_1.png)
+    Aparece un paréntesis de apertura, junto con otra lista de sugerencias de las columnas relacionadas que puede pasar a la función RELATED, con descripciones y detalles sobre los parámetros esperados. 
     
-    Aparece un paréntesis de apertura junto con otra lista de sugerencias de todas las columnas disponibles para pasar a la función RELATED. También se muestra una descripción y detalles sobre los parámetros que se esperan.
+    ![Elección de ProductCategory](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_2.png)
-    
-    Una expresión siempre aparece entre paréntesis de apertura y cierre. En este caso, la expresión va a contener un único argumento pasado a la función RELATED; una columna relacionada de la cual se devuelven valores. La lista de columnas se reduce automáticamente para mostrar únicamente las columnas relacionadas. En este caso, queremos la columna ProductCategory de la tabla ProductCategory.
-    
-    Seleccione **ProductCategory[ProductCategory]**y, a continuación, escriba un paréntesis de cierre.
+4.  Desea la columna **ProductCategory** de la tabla **ProductCategory**. Seleccione **ProductCategory[ProductCategory]**, presione **Intro** y escriba un paréntesis de cierre.
     
     > [!TIP]
-    > Los errores de sintaxis suelen deberse a paréntesis de cierre faltantes o en el lugar incorrecto. Sin embargo, a menudo Power BI Desktop lo agregará si lo olvida.
-    > 
-    > 
+    > Los errores de sintaxis suelen producirse por un paréntesis de cierre ausente o que no viene al caso, aunque a veces Power BI Desktop lo agregará automáticamente.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_3.png)
+4. Desea guiones y espacios para separar ProductCategories y ProductSubcategories en los nuevos valores, así que después del paréntesis de cierre de la primera expresión, escriba un espacio, una Y comercial (**&**), comillas dobles (**"**), espacio, guion (**-**), otro espacio, otras comillas dobles y otra Y comercial. La fórmula debe tener el siguiente aspecto:
     
-4. Queremos agregar un símbolo de guion para separar cada valor, así que después del paréntesis de cierre de la primera expresión, escriba un espacio, Y comercial (&), comillas, espacio, guion (-), otro espacio, comillas de cierre y, después, otro símbolo de Y comercial. La fórmula debe tener el siguiente aspecto:
-    
-    **ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &**
+    `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
-    > Haga clic en el botón de contenido adicional hacia abajo situado en el lado derecho de la barra de fórmulas para expandir el editor de fórmulas. Haga clic en Alt y Entrar para bajar una línea y el tabulador para subir los elementos.
-    > 
-    > 
+    > Si necesita más espacio, seleccione el botón de contenido adicional hacia abajo situado en el lado derecho de la barra de fórmulas para expandir el editor de fórmulas. En el editor, presione **Alt + Intro** para bajar una línea y el **tabulador** para mover cosas.
     
-5.  Por último, escriba otro corchete de apertura y, a continuación, seleccione la columna **[ProductSubcategory]** para terminar la fórmula. La fórmula se debe ver así:
+5.  Por último, escriba otro corchete de apertura (**[**) y luego seleccione la columna **[ProductSubcategory]** para terminar la fórmula. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_5.png)
+    ![Elección de ProductSubcategory](media/desktop-tutorial-create-calculated-columns/create6.png)
     
-    Observará que no usamos otra función RELATED en la segunda expresión para llamar a la columna ProductSubcategory. Esto es porque esta columna ya está en la tabla donde estamos creando la nueva columna. Podemos escribir [ProductCategory] con el nombre de tabla (completo) o sin él (incompleto).
+    No necesitaba usar otra función RELATED para llamar a la tabla ProductSubcategory en la segunda expresión, ya que está creando la columna calculada en esta tabla. Puede escribir [ProductSubcategory] con el prefijo de nombre de tabla (completo) o sin él (incompleto).
     
-6.  Complete la fórmula. Para ello, presione ENTRAR o haga clic en la marca de verificación en la barra de fórmulas. La fórmula se valida y se agrega a la lista de campos en la tabla **ProductSubcategory**.
+6.  Complete la fórmula. Para ello presione **Intro** o seleccione la marca de verificación en la barra de fórmulas. La fórmula se valida y el nombre de la columna **ProductFullCategory** aparece en la tabla **ProductSubcategory** en la lista Campos. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_pfc_6.png)
+    ![Columna ProductFullCategory finalizada](media/desktop-tutorial-create-calculated-columns/create7.png)
     
-    Advertirá que las columnas calculadas tienen un icono especial en la lista de campos. Esto muestra que contienen una fórmula. Solo aparecerán de esta manera en Power BI Desktop. En el servicio de PowerBI (sitio de Power BI), no hay forma de cambiar una fórmula, por lo que el campo de la columna calculada no mostrará un icono.
+    >[!NOTE]
+    >En Power BI Desktop, las columnas calculadas tienen un icono especial en la lista de campos, que muestra que contienen fórmulas. En el servicio Power BI (sitio de Power BI), no hay forma de cambiar las fórmulas, por lo que las columnas calculadas no tienen iconos.
     
-## <a name="lets-add-our-new-column-to-a-report"></a>Agreguemos la nueva columna a un informe
-Ahora podemos agregar la nueva columna ProductFullCategory al lienzo del informe. Echemos un vistazo a SalesAmount por ProductFullCategory.
+## <a name="use-your-new-column-in-a-report"></a>Uso de la nueva columna en un informe
 
-Arrastre la columna **ProductFullCategory** desde la tabla **ProductSubcategory** hasta el lienzo del informe y, a continuación, arrastre el campo **SalesAmount** desde la tabla **Sales** al gráfico.
+Ahora puede usar la nueva columna ProductFullCategory para ver SalesAmount por ProductFullCategory.
 
-![](media/desktop-tutorial-create-calculated-columns/calccol_fileds_report_1.png)
+1. Seleccione o arrastre la columna **ProductFullCategory** desde la tabla **ProductSubcategory** al lienzo de informe para crear una tabla que muestre todos los nombres de ProductFullCategory.
+   
+   ![Tabla ProductFullCategory](media/desktop-tutorial-create-calculated-columns/vis1.png)
+    
+2. Seleccione o arrastre el campo **SalesAmount** desde la tabla **Sales** en la tabla para mostrar la cantidad de ventas para cada categoría completa de producto.
+   
+   ![SalesAmount por tabla ProductFullCategory](media/desktop-tutorial-create-calculated-columns/vis2.png)
+    
+## <a name="create-a-calculated-column-that-uses-an-if-function"></a>Creación de una columna calculada que usa una función IF
 
-## <a name="lets-create-another"></a>Vamos a crear otra
-Ahora que sabe cómo crear columnas calculadas, vamos a crear otra.
+El ejemplo de las ventas de Contoso contiene datos de ventas de tiendas activas e inactivas. Desea asegurarse de que las ventas de las tiendas activas están claramente separadas de las ventas de las tiendas inactivas en el informe mediante la creación de un campo Active StoreName. En la nueva columna calculada Active StoreName, cada tienda activa aparecerá con el nombre completo de la tienda, mientras que las tiendas inactivas se agruparán bajo "Inactive". 
 
-El ejemplo de las ventas de Contoso para Power BI Desktop contiene datos de ventas de tiendas activas e inactivas. Deseamos que los datos que se muestran para las tiendas inactivas se identifiquen muy claramente como tales. En efecto, queremos un campo denominado Active StoreName. Para ello, vamos a crear otra columna. En este caso, cuando una tienda esté inactiva, queremos que la nueva columna StoreName Active (como un campo) muestre el nombre del almacén como "Inactivo", pero que muestre el nombre real de la tienda cuando esta se encuentre activa.
+Afortunadamente, la tabla Stores tiene una columna denominada **Status**, con valores de "On" para las tiendas activas y "Off" para las tiendas inactivas, que podemos usar para crear valores para nuestra nueva columna Active StoreName. La fórmula usará la función lógica [IF](https://msdn.microsoft.com/library/ee634824.aspx) para comprobar el estado de cada tienda y devolver un valor determinado dependiendo del resultado. La fórmula devolverá el nombre de la tienda si esta tiene un estado activo (On). Si el estado es inactivo ("Off"), la fórmula asignará un valor de Active StoreName de "Inactive". 
 
-Afortunadamente, nuestra tabla Stores tiene una columna denominada Status, que muestra el estado con el valor On para las tiendas activas y Off para las inactivas. Podemos probar valores para cada fila de la columna Status para crear nuevos valores en la nueva columna.
 
-### <a name="to-create-an-active-storename-column"></a>Para crear una columna Active StoreName
-1.  Cree una nueva columna calculada denominada **Active StoreName** en la tabla **Stores**.
+1.  Cree una nueva columna calculada en la tabla **Stores** y llámela **Active StoreName** en la barra de fórmulas.
     
-    Para esta columna, la fórmula DAX comprobará el estado de cada tienda. La fórmula devolverá los nombres de las tiendas que muestren el estado activo (On). Para las que tengan el estado inactivo, mostrará el nombre "Inactive". Para conseguirlo, usaremos la función lógica [IF](https://msdn.microsoft.com/library/ee634824.aspx) para comprobar el estado de las tiendas y devolver un valor determinado si el resultado es verdadero o falso.
+2.  Después del signo **=**, comience a escribir **IF**. La lista de sugerencias mostrará qué puede agregar. Seleccione **IF**.
     
-2.  Comience a escribir **IF**. La lista de sugerencias mostrará lo que podemos agregar. Seleccione **IF**.
+    ![Selección de IF](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_1.png)
+3.  El primer argumento para IF es una prueba lógica de si el estado de una tienda es "On". Escriba un corchete de apertura **[**, que enumera las columnas de la tabla Stores, y seleccione **[Status]**.
     
-    El primer argumento para IF es una prueba lógica. Queremos comprobar si una tienda tiene un estado de "On".
+    ![Selección de Status](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-3.  Escriba un corchete de apertura **[** que nos permite seleccionar columnas de la tabla Stores. Seleccione **[Status]**.
+4.  Justo después de **[Status]**, escriba **= "On"** y luego escriba una coma (**,**) para finalizar el argumento. La información sobre herramientas sugiere que ahora debe agregar un valor que se devuelve cuando el resultado es TRUE.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_2.png)
+    ![Incorporación del valor TRUE](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-4.  Justo después de **[Status]**, escriba **="On"** y, a continuación, escriba una coma (**,**) para especificar el segundo argumento. La información sobre herramientas sugiere que necesitamos agregar el valor para cuando el resultado sea verdadero.
+5.  Si el estado de la tienda es "On", quiere que aparezca el nombre de la misma. Escriba un corchete de apertura (**[**), la columna **[StoreName]** y luego escriba otra coma. La información sobre herramientas ahora indica que debe agregar un valor que se devuelve cuando el resultado es FALSE. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_3.png)
+    ![Incorporación del valor FALSE](media/desktop-tutorial-create-calculated-columns/if4.png)
     
-5.  Si la tienda está activa, queremos que aparezca su nombre. Escriba un corchete de apertura **[** y seleccione la columna **[StoreName]** y, a continuación, escriba otra coma para poder introducir el  tercer argumento.
+6.  Desea que el valor sea *Inactive*, así que escriba **"Inactive"** y luego complete la fórmula presionando **Intro** o seleccionando la marca de verificación de la barra de fórmulas. La fórmula se valida y el nombre de la nueva columna aparece en la tabla **Stores** en la lista Campos.
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step5.png)
+    ![Columna Active StoreName](media/desktop-tutorial-create-calculated-columns/if5.png)
     
-6.  Tenemos que agregar un valor para cuando el resultado sea falso, en este caso queremos que el valor sea **“Inactive”**.
+8.  Puede usar la nueva columna Active StoreName en las visualizaciones, igual que cualquier otro campo. Para mostrar SalesAmounts por Active StoreName, seleccione el campo **Active StoreName** o arrástrelo hasta el lienzo y luego seleccione el campo **SalesAmount** o arrástrelo a la tabla. En esta tabla, las tiendas activas aparecen de forma individual por nombre, pero las tiendas inactivas se agrupan al final como *Inactive*. 
     
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_step6.png)
+    ![SalesAmount por tabla Active StoreName](media/desktop-tutorial-create-calculated-columns/if6.png)
     
-7.  Complete la fórmula. Para ello, presione ENTRAR o haga clic en la marca de verificación en la barra de fórmulas. La fórmula se valida y se agrega a la lista de campos en la tabla Stores.
-    
-    Igual que con cualquier otro campo, podemos usar la nueva columna Active StoreName en las visualizaciones. En este gráfico, las tiendas con un estado activo se muestran de manera individual, por nombre, pero las tiendas con un estado inactivo se agrupan y se muestra como inactivas. 
-    
-    ![](media/desktop-tutorial-create-calculated-columns/calccol_activestore_viz.png)
-    
-## <a name="what-weve-learned"></a>Aprendizajes
-Las columnas calculadas pueden enriquecer nuestros datos proporcionando información más fácilmente. Ya sabemos cómo crear columnas calculadas mediante el uso de la barra de fórmulas, cómo usar la lista de sugerencias y cómo se recomienda nombrar las columnas nuevas.
+## <a name="what-youve-learned"></a>Lo que ha aprendido
+Las columnas calculadas pueden enriquecer los datos y proporcionar información más fácilmente. Ahora sabe cómo crear columnas calculadas en la lista de campos y la barra de fórmulas, usar listas de sugerencias e información sobre herramientas para ayudar a construir las fórmulas, llamar a funciones DAX como RELATED e IF con los argumentos apropiados y utilizar las columnas calculadas en visualizaciones de informe.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Si desea profundizar más en las fórmulas DAX y crear columnas calculadas con fórmulas DAX más avanzadas, consulte [Aspectos básicos de DAX en Power BI Desktop](desktop-quickstart-learn-dax-basics.md). Ese artículo se centra en los conceptos fundamentales en DAX, como la sintaxis, las funciones y una explicación más exhaustiva sobre el contexto.

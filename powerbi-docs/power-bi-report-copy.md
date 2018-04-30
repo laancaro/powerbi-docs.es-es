@@ -1,6 +1,6 @@
 ---
-title: Copiar un informe de Power BI
-description: Cree un informe de Power BI a partir de otro informe.
+title: Copie un informe en el servicio Power BI
+description: Cree un informe de Power BI a partir de otro informe en el servicio Power BI.
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -15,16 +15,16 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/09/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f7b4230a6dc9089008928145863fe70977fb92f4
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a4f4e394aa4534093858ebfe7738dd7fdb0affd2
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-report-from-an-existing-report"></a>Creación de un nuevo informe a partir de uno ya existente
+# <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Cree un nuevo informe a partir de uno ya existente (copie un informe)
 Puede que tenga un informe que ya se conecta al conjunto de datos y tiene algunos objetos visuales que le gustaría volver a usar o modificar.  ¿Por qué no copia ese informe como base para un nuevo informe?  Para hacerlo:
 
 1. [Abra un informe](service-report-open.md).
@@ -47,3 +47,5 @@ Puede que tenga un informe que ya se conecta al conjunto de datos y tiene alguno
 [Creación de nuevas visualizaciones](power-bi-report-add-visualizations-ii.md)
 
 [Eliminación de las visualizaciones](service-delete.md) que no necesita
+
+[Creación de un informe con Power BI Desktop](desktop-report-view.md)

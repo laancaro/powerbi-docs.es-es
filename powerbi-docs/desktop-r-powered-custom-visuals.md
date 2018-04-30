@@ -1,15 +1,15 @@
 ---
-title: "Usar objetos visuales personalizados con tecnología R en Power BI"
-description: "Usar objetos visuales personalizados con tecnología R en Power BI"
+title: Usar objetos visuales personalizados con tecnología R en Power BI
+description: Usar objetos visuales personalizados con tecnología R en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d43b9ec0d471c8a824d3c4d081a38f3bea6ad1e9
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 30bb3628b48bbee66622afa30b3364eeacf054ca
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Usar objetos visuales personalizados con tecnología R en Power BI
 En **Power BI Desktop** y el **servicio Power BI**, puede usar objetos visuales personalizados con tecnología R sin tener que aprender a usar R ni crear scripts. Esto le permite aprovechar el poder analítico y visual de objetos visuales y scripts de R sin que tenga que aprender a usar R ni a programarlo.
@@ -34,25 +34,24 @@ Para usar elementos visuales personalizados con tecnología de R, primero selecc
 Las secciones siguientes describen cómo seleccionar, cargar y usar elementos visuales con tecnología de R en **Power BI Desktop**.
 
 ## <a name="use-r-custom-visuals"></a>Uso de objetos visuales personalizados
-Para usar objetos visuales personalizados con tecnología de R, necesita descargar cada objeto visual de la biblioteca de **objetos visuales personalizados** y, después, puede usar el objeto visual como cualquier otro tipo de objeto visual en **Power BI Desktop**. Hay dos maneras de obtener objetos visuales personalizados: puede descargarlos desde el sitio de **AppSource** en línea o puede buscarlos en **Power BI Desktop**. 
+Para usar objetos visuales personalizados con tecnología de R, descargue cada objeto visual de la biblioteca de **objetos visuales personalizados** y después use el objeto visual como cualquier otro tipo de objeto visual en **Power BI Desktop**. Hay dos maneras de obtener objetos visuales personalizados: puede descargarlos desde el sitio de **AppSource** en línea o buscarlos en **Power BI Desktop**. 
 
 ### <a name="get-custom-visuals-from-appsource"></a>Obtener objetos visuales personalizados desde AppSource
 
 Estos son los pasos para buscar y seleccionar objetos visuales en el sitio de **AppSource** en línea:
 
-1. Vaya a la biblioteca [Power BI visuals](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1) (objetos visuales de Power BI), que se encuentra en [https://appsource.microsoft.com](https://appsource.microsoft.com/). Seleccione la casilla *Power BI apps* (Aplicaciones de Power BI) en *Restringir por producto* y, a continuación, seleccione el vínculo **Ver todo**.
+1. Vaya a la biblioteca de objetos visuales de Power BI, que se encuentra en [https://appsource.microsoft.com](https://appsource.microsoft.com/). Seleccione la casilla *Power BI apps* (Aplicaciones de Power BI) en *Restringir por producto* y, a continuación, seleccione el vínculo **Ver todo**.
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2a.png)
 
-2. Seleccione **Power BI visuals** (objetos visuales de Power BI) en la lista de complementos en el panel izquierdo. 
-
+2. En la página de la biblioteca [Objetos visuales de Power BI](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals&page=1), seleccione **Objetos visuales de Power BI** en la lista de complementos en el panel izquierdo.
 
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_2b.png)
 
 3. En la galería, seleccione el **objeto visual** que desea usar y se abrirá la página con la descripción del objeto visual. Seleccione el botón **Obtenerla ahora** para descargarlo.
    
    > [!NOTE]
-> Para crear **Power BI Desktop**, necesita tener R instalado en su equipo local. Pero cuando los usuarios quieren ver un objeto visual con tecnología R en el **servicio Power BI** *no* necesitan tener instalado R localmente.
+    > Para crear **Power BI Desktop**, necesita tener R instalado en su equipo local. Pero cuando los usuarios quieren ver un objeto visual con tecnología R en el **servicio Power BI**, no necesitan tener instalado R localmente.
    > 
    > 
    
@@ -63,7 +62,7 @@ Estos son los pasos para buscar y seleccionar objetos visuales en el sitio de **
    * [CRAN](https://cran.r-project.org/)
    * [MRO](https://mran.microsoft.com/)
 
-4. Una vez descargado el objeto visual (que es como descargar un archivo desde el explorador), vaya a **Power BI Desktop**, haga clic con el botón derecho en los puntos suspensivos (...) en el panel **Visualizaciones** y seleccione **Importar desde archivo**.
+4. Una vez descargado el objeto visual (que es como descargar un archivo desde el explorador), vaya a **Power BI Desktop**, haga clic en los puntos suspensivos (...) en el panel **Visualizaciones** y seleccione **Importar desde archivo**.
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 5. Se le advierte de la importación de objetos visuales personalizados, como se muestra en la siguiente imagen:
@@ -79,23 +78,23 @@ Estos son los pasos para buscar y seleccionar objetos visuales en el sitio de **
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_8.png)
 
-En ese momento puede agregar datos al objeto visual igual que haría con cualquier otro objeto visual de **Power BI Desktop**. Cuando haya finalizado, podrá ver el objeto visual terminado en el lienzo. En el siguiente objeto visual, el objeto visual con tecnología de R **Previsión** se usó con proyecciones de la tasa de natalidad de las Naciones Unidas (ONU) (objeto visual de la izquierda).
+9. En ese momento puede agregar datos al objeto visual igual que haría con cualquier otro objeto visual de **Power BI Desktop**. Cuando haya finalizado, podrá ver el objeto visual terminado en el lienzo. En el siguiente objeto visual, el objeto visual con tecnología de R **Previsión** se usó con proyecciones de la tasa de natalidad de las Naciones Unidas (ONU) (objeto visual de la izquierda).
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
+    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_10.png)
 
-Como cualquier otro objeto visual de **Power BI Desktop**, puede publicar este informe con sus objetos visuales con tecnología R en el **servicio Power BI** y compartirlo con otros usuarios.
+    Como cualquier otro objeto visual de **Power BI Desktop**, puede publicar este informe con sus objetos visuales con tecnología R en el **servicio Power BI** y compartirlo con otros usuarios.
 
-Consulte la biblioteca con frecuencia, ya que se agregan nuevos objetos visuales constantemente.
+    Consulte la biblioteca con frecuencia, ya que se agregan nuevos objetos visuales constantemente.
 
 ### <a name="get-custom-visuals-from-within-power-bi-desktop"></a>Obtenga objetos visuales personalizados desde **Power BI Desktop**
 
-También puede obtener objetos visuales personalizados desde **Power BI Desktop**. En **Power BI Desktop** haga clic con el botón derecho en el botón de puntos suspensivos (...), en el panel **Visualizaciones**, y seleccione **Importar del almacén**.
+1. También puede obtener objetos visuales personalizados desde **Power BI Desktop**. En **Power BI Desktop** haga clic en los puntos suspensivos (...), en el panel **Visualizaciones**, y seleccione **Import from marketplace** (Importar desde marketplace).
    
    ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_4a.png)
 
-Al hacerlo, aparece el cuadro de diálogo **Objetos visuales personalizados de Power BI**, donde puede ver los objetos visuales personalizados disponibles y seleccionar el que desee. Puede buscar por nombre, seleccionar una categoría o, simplemente, desplazarse por los objetos visuales disponibles. Cuando esté listo, seleccione **Agregar** para agregar el objeto visual personalizado a **Power BI Desktop**.
+2. Al hacerlo, aparece el cuadro de diálogo **Objetos visuales de Power BI**, donde puede ver los objetos visuales personalizados disponibles y seleccionar el que desee. Puede buscar por nombre, seleccionar una categoría o, simplemente, desplazarse por los objetos visuales disponibles. Cuando esté listo, seleccione **Agregar** para agregar el objeto visual personalizado a **Power BI Desktop**.
 
-![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
+   ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_12.png)
 
 ## <a name="contribute-r-powered-custom-visuals"></a>Contribuir con objetos visuales personalizados con tecnología R
 Si crea sus propios objetos visuales de R para usarlos en informes, puede compartilos con otros usuarios contribuyendo con estos en la **galería de objetos visuales personalizados**. Las contribuciones se realizan a través de GitHub y el proceso se describe en la siguiente ubicación:
@@ -109,24 +108,27 @@ Los objetos visuales personalizados con tecnología R tienen ciertas dependencia
 * Hay errores en el script de R en el que se basa el objeto visual.
 * Faltan paquetes de R o no están actualizados.
 
-En la sección siguiente se describen los pasos que puede llevar a cabo para solucionar los problemas que surjan.
+En la sección siguiente se describen los pasos que puede llevar a cabo para solucionar los problemas que puedan surgir.
 
 ### <a name="missing-or-outdated-r-packages"></a>Faltan paquetes de R o no están actualizados
 Al intentar instalar un objeto visual personalizado con tecnología R, pueden producirse errores si faltan paquetes de R o están obsoletos. Esto suele deberse a uno de los siguientes motivos:
 
 * La instalación de R es incompatible con el paquete de R.
-* La configuración de un firewall, software antivirus o proxy impide que R se conecte a Internet.
+* La configuración del firewall, del software antivirus o del proxy impide que R se conecte a Internet.
 * La conexión a Internet es lenta o hay un problema de conexión a Internet.
 
-El equipo de Power BI está trabajando activamente para mitigar estos problemas de modo que no le afecten, y en la siguiente versión de Power BI Desktop se incorporarán actualizaciones para resolverlos. Hasta entonces, puede llevar a cabo uno o varios de los pasos siguientes para mitigar los problemas:
+El equipo de Power BI está trabajando activamente para mitigar estos problemas de modo que no le afecten y en la siguiente versión de Power BI Desktop se incorporarán actualizaciones para resolverlos. Hasta entonces, puede llevar a cabo uno o varios de los pasos siguientes para mitigar los problemas:
 
 1. Quite el objeto visual personalizado e instálelo de nuevo. De este modo, se inicia una reinstalación de los paquetes de R.
 2. Si la instalación de R no es actual, actualícela y, después, quite y reinstale el objeto visual personalizado como se describe en el paso anterior.
    
-   * Las versiones de R admitidas se muestran en la descripción de cada objeto visual personalizado con tecnología R, como se muestra en la imagen siguiente.
+   Las versiones de R admitidas se muestran en la descripción de cada objeto visual personalizado con tecnología R, como se muestra en la imagen siguiente.
+   
      ![](media/desktop-r-powered-custom-visuals/powerbi-r-powered-custom-viz_11.png)
      > [!NOTE]
-> Puede conservar la instalación de R original y asociar únicamente Power BI Desktop con la versión actual que instale. Vaya a **Archivo > Opciones y configuración > Opciones > Scripting de R**.
+    > Puede conservar la instalación de R original y asociar únicamente Power BI Desktop con la versión actual que instale. Vaya a **Archivo > Opciones y configuración > Opciones > Scripting de R**.
+    >
+    >
 3. Instale los paquetes de R manualmente mediante cualquier consola de R. Los pasos de este enfoque son los siguientes:
    
    a.  Descargue el script de instalación de objeto visual con tecnología R y guarde el archivo en una unidad local.

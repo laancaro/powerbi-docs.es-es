@@ -1,29 +1,29 @@
 ---
-title: "Métricas de uso para paneles e informes"
-description: "Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI. Medir y aumentar el impacto con métricas de uso para los creadores de contenido."
+title: Métricas de uso para paneles e informes
+description: Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI. Medir y aumentar el impacto con métricas de uso para los creadores de contenido.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/28/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1ad8425917153f2f9662041dc594817857f8f499
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 Si desea crear paneles e informes, las métricas de uso le ayudan a conocer su impacto. Al ejecutar métricas de uso de panel o métricas de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando, por quién y con qué finalidad.  
@@ -53,7 +53,7 @@ Cuando se selecciona **Métricas de uso** o el icono de ![métricas de uso](medi
 
 Los informes de métricas de uso no aparecen en **Recientes**, **Áreas de trabajo**, **Favoritos** ni otras listas de contenido. No se pueden agregar a una aplicación. Si ancla un icono desde un informe de métricas de uso a un panel, ese panel no se podrá agregar a una aplicación o paquete de contenido.
 
-Para profundizar en los datos del informe, o para crear sus propios informes con el conjunto de datos, utilice **Guardar como** (consulte [Guardar el informe de métricas de uso como un informe con todas las características de Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report).
+Para profundizar en los datos del informe, o para crear sus propios informes con el conjunto de datos, utilice **Guardar como** (consulte [Guardar el informe de métricas de uso como un informe con todas las características de Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir un informe de métricas de uso para un panel o informe
 1. Comience en el área de trabajo que contiene el panel o el informe.

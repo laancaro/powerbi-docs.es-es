@@ -15,17 +15,19 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/09/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84ee8e7c6dd92c5400b6e9d44fab03ad347084d9
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: d644f13f6c9b8ada62a0862fdcf92518512828f7
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
-Con Power BI Desktop, puede acceder a los datos de **SAP BusinessWarehouse (BW)**.
+Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
+
+Para información sobre cómo los clientes de SAP pueden beneficiarse al conectar Power BI a sus sistemas SAP Business Warehouse (BW) existentes, consulte las [notas del producto de Power BI y SAP BW](https://aka.ms/powerbiandsapbw).
 
 ## <a name="installation-of-sap-bw-connector"></a>Instalación del conector de SAP BW
 Para usar el **conector de SAP BW**, siga los pasos de instalación siguientes:
@@ -115,3 +117,4 @@ Para más información sobre SAP HANA y DirectQuery, revise los siguientes recur
 * [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)
+* [Notas del producto de Power BI y SAP BW](https://aka.ms/powerbiandsapbw)

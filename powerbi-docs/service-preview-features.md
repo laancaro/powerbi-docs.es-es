@@ -1,36 +1,36 @@
 ---
-title: "Participación en las características de vista previa"
-description: "Cómo activar (y desactivar) características de Power BI que se encuentran en vista previa."
+title: Participación en las características de vista previa
+description: Cómo activar (y desactivar) características de Power BI que se encuentran en vista previa.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 45f10ab7fef7669adbbc836e67a4daaed267905e
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 54aa25b0d5252af24bdbefef3f1d5798df2f6168
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="opt-in-for-power-bi-preview-features"></a>Participación en las características de vista previa de Power BI
+# <a name="opt-in-for-power-bi-service-preview-features"></a>Participación en las características de versión preliminar del servicio Power BI
 ## <a name="what-are-preview-features"></a>¿Qué son las *características de vista previa*?
-A medida que introducimos mejoras en Power BI, publicamos algunas funcionalidades nuevas como *características de vista previa*. Las características de vista previa se pueden activar y desactivar, lo que le ofrece la oportunidad de probarlas.
+A medida que introducimos mejoras en el servicio Power BI, publicamos algunas funcionalidades nuevas como *características de versión preliminar*. Las características de vista previa se pueden activar y desactivar, lo que le ofrece la oportunidad de probarlas.
 
 > [!TIP]
-> ¿Tiene preguntas o comentarios? [Visite el foro de la comunidad de Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+> Las características de versión preliminar también están disponibles para Power BI Desktop. Para más información, [visite el foro de la comunidad de Power BI Desktop](https://community.powerbi.com/t5/Desktop/bd-p/power-bi-designer).
 > 
 > 
 

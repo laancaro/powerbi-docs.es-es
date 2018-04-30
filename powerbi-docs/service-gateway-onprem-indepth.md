@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5f081dff246c478f1b9ee3c918de2099b8382100
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.
@@ -87,10 +87,7 @@ Los servicios en la nube solo conocen las cuentas de Azure Active Directory. No 
    Puede crear una cuenta en el portal de Azure, o en el Portal de administración de Office 365, y el nombre de la cuenta coincide con el UPN de la cuenta de Active Directory local.
 2. Puede usar la herramienta [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) para sincronizar las cuentas locales para el inquilino de Azure Active Directory.
    
-   La herramienta Azure AD Connect proporciona opciones para la sincronización de directorios y contraseñas. Si no es un administrador de inquilinos o un administrador de dominio local, debe ponerse en contacto con el administrador de TI para configurarlo.
-3. Puede configurar los servicios de federación de Active Directory (ADFS).
-   
-   Puede asociar el servidor de ADFS al inquilino AAD con la herramienta [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/). ADFS hace uso de la sincronización de directorios descrita anteriormente pero permite una experiencia de inicio de sesión único (SSO). Por ejemplo, si se encuentra en la red del trabajo, cuando acceda a un servicio en la nube y vaya a iniciar sesión, es posible que no se le pida que escriba un nombre de usuario o contraseña. Tendrá que consultar con el administrador de TI si esto está disponible para su organización.
+   La herramienta Azure AD Connect proporciona opciones para la sincronización de directorios y la configuración de autenticación, como la sincronización de hash de contraseña, la autenticación de paso a través y la federación. Si no es un administrador de inquilinos o un administrador de dominio local, debe ponerse en contacto con el administrador de TI para configurarlo.
 
 El uso de Azure AD Connect garantiza que el UPN coincida entre AAD y Active Directory local.
 

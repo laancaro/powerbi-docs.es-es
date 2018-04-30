@@ -1,28 +1,28 @@
 ---
-title: "Visualizaciones de tarjeta (también conocidas como iconos grandes de números)"
-description: "Creación de una visualización de tarjeta en Power BI"
+title: Visualizaciones de tarjeta (también conocidas como iconos grandes de números)
+description: Creación de una visualización de tarjeta en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/24/2017
+ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f38f3bb19be268cba4745c88aa98d09c080c773e
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3e30e0f742d97817583ecdfd72df65a8658ec977
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
@@ -91,6 +91,25 @@ El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjet
 - Si no ve un cuadro de pregunta, póngase en contacto con el administrador del sistema o del inquilino.    
 - Si está utilizando Desktop y hace doble clic en un espacio vacío de un informe, no se abrirá Preguntas y respuestas, ya que debe habilitarlas.  Seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa > Preguntas y respuestas** y reinicie Desktop.
 
+## <a name="format-a-card"></a>Formateo de una tarjeta
+Tiene muchas opciones para cambiar las etiquetas, el texto, el color, etc. La mejor manera de aprender consiste en crear una tarjeta y explorar el panel de formato. A continuación se indican solo algunas de las opciones de formato disponibles. 
+
+1. Comience seleccionando el icono de pincel para abrir el panel de formato. 
+
+    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+2. Expanda **Etiqueta de datos** y cambie el color, el tamaño y la familia de fuentes. Si tuviera miles de tiendas, podría usar **Mostrar unidades** para mostrar el número de tiendas por miles y controlar también las posiciones decimales. Por ejemplo, 125,8 K en lugar de 125 832,00.
+
+3.  Expanda **Etiqueta de categoría** y cambie el color y el tamaño.
+
+    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+
+4. Expanda **Fondo** y mueva el control deslizante a la posición de activado.  Ahora puede cambiar el color de fondo y la transparencia.
+
+    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+
+5. Siga explorando las opciones de formato hasta que la tarjeta esté exactamente cómo le gustaría. 
+
+    ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Iconos de paneles en Power BI](service-dashboard-tiles.md)

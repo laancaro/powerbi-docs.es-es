@@ -1,32 +1,32 @@
 ---
-title: "Duplicar una página del informe en Power BI"
-description: "Copiar y pegar una página del informe en Power BI"
+title: Duplicar una página del informe en Power BI
+description: Copiar y pegar una página del informe en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: UOKbxTXZrWw
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/20/2017
+ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39d33965c45efe9ca063e658b42c00dcaea8ef26
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 08ac9c2be324109e12287de445038941ec0c7d00
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar una página del informe en Power BI
-Duplicar una página de informe requiere permisos de edición sobre este. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 
+La duplicación de una página del informe en el servicio Power BI o Power BI Desktop requiere permisos de edición en el informe. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 
 
 
 1. En Power BI, abra un informe que tenga al menos una página. 
@@ -41,10 +41,9 @@ Duplicar una página de informe requiere permisos de edición sobre este. En el 
    <iframe width="560" height="315" src="https://www.youtube.com/embed/UOKbxTXZrWw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
 ### <a name="next-steps"></a>Pasos siguientes
-Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
-[Agregar una nueva página a un informe](power-bi-report-add-page.md) 
-
-[Power BI: Conceptos básicos](service-basic-concepts.md) 
+Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)    
+[Incorporación de una página a un informe](power-bi-report-add-page.md)    
+[Power BI: Conceptos básicos](service-basic-concepts.md)    
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -1,28 +1,28 @@
 ---
 title: Analizar en Excel
-description: "Obtenga información acerca de cómo analizar conjuntos de datos de Power BI en Excel"
+description: Obtenga información acerca de cómo analizar conjuntos de datos de Power BI en Excel
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 385a89d6b50507833c1e43327c405f02b2468ac2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 5cd319266e91a6bc4736a123375b797331dba568
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Puede que haya ocasiones en que quiera usar Excel para ver e interactuar con un conjunto de datos que tenga en Power BI. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
@@ -105,3 +105,5 @@ Cuando un usuario con el que ha compartido el libro lo abre, verá las tablas di
 
 Dado que los usuarios necesitarán que actualice el conjunto de datos y no se permite la actualización de conexiones externas en Excel Online, se recomienda que los usuarios abran el libro en la versión de escritorio de Excel de su equipo.
 
+## <a name="troubleshooting"></a>Solución de problemas
+Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [Esta página proporciona soluciones para problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)

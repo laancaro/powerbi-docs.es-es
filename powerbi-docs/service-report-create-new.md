@@ -1,36 +1,36 @@
 ---
-title: "Tutorial: Creación de un nuevo informe a partir de un conjunto de datos "
-description: "Creación de un informe de Power BI nuevo a partir de un conjunto de datos"
+title: 'Tutorial: Creación de un nuevo informe a partir de un conjunto de datos '
+description: Creación de un informe de Power BI nuevo a partir de un conjunto de datos
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/01/2018
+ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7da16deb3e5919d509a5cbbb7fd845914c8c4ea4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e6c4a614f19a6ba7b9e24c199b7f291e7f57f098
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
-# <a name="create-a-new-power-bi-report-by-importing-a-dataset"></a>Creación de un informe de Power BI nuevo mediante la importación de un conjunto de datos
-Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
+# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
+Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
 
 > **Sugerencia**: para crear un informe mediante la copia de un informe existente, consulte [Copia de un informe](power-bi-report-copy.md)
 > 
 ### <a name="prerequisites"></a>Requisitos previos
-- Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md)   
+- Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md))  
 - Conjunto de datos de ejemplo Retail Analysis
 
 ## <a name="import-the-dataset"></a>Importación del conjunto de datos

@@ -1,31 +1,33 @@
 ---
-title: "Interacción con un informe en la vista de edición (Tutorial)"
-description: "Interacción con un informe en la vista de edición de informe en el servicio Power BI"
+title: Interacción con un informe en la vista de edición (Tutorial)
+description: Interacción con un informe en la vista de edición de informe en el servicio Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: monitoring
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/02/2018
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b3dda418f3493c91db1be75365192539757f0449
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: eea3bcb040f5267cb1fcc1f24ef6b306f6c03af3
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interacción con un informe en la vista de edición en el servicio Power BI
-Los informes pueden editarse en el servicio Power BI y en Power BI Desktop si tiene permisos de propietario. A diferencia de Power BI Desktop, el servicio Power BI tiene dos modos diferentes para interactuar con los informes, la [vista de lectura](service-reading-view-and-editing-view.md) para los *consumidores* del informe y la vista de edición para los propietarios y creadores de informes. Este tutorial artículo trata la vista de edición en el servicio Power BI. 
+Los informes pueden crearse y editarse en el servicio Power BI y en Power BI Desktop. En el servicio Power BI, los informes pueden crearse y editarse en la **vista de edición**. Y en Power BI Desktop, los informes pueden crearse y editarse en la [**vista de informes**](desktop-report-view.md). Este artículo trata la vista de edición en el servicio Power BI. 
+
+El servicio Power BI tiene dos modos diferentes para interactuar con los informes: la [vista de lectura](service-reading-view-and-editing-view.md) para los *consumidores* del informe y la vista de edición para los propietarios y creadores de informes.  Se necesita una licencia de Power BI Pro para compartir informes, así como para editar informes creados por otros usuarios. Si es un usuario libre de Power BI, aún podrá crear informes, pero no podrá emplear el [uso compartido](service-share-reports.md).    
 
 La vista de edición del informe le ofrece mucha flexibilidad para explorar y diseñar un informe. Toda la funcionalidad de la [Vista de lectura](service-reading-view-and-editing-view.md) está disponible, entre muchas otras cosas. La vista de edición solo está disponible para la persona que creó el informe o para los colegas que son [copropietarios de un informe como miembros o administradores de un área de trabajo de la aplicación](service-create-distribute-apps.md).
 
@@ -42,6 +44,9 @@ Eche un vistazo a la lista de temas que aparecen en el encabezado **Informes** d
 * Mostrar los datos usados para crear la visualización 
 * Configurar la obtención de detalles
 * Duplicar una página de informe
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+Se necesita una licencia de Power BI Pro para editar los informes creados por otros usuarios, así como para compartir sus propios informes con otros usuarios.  Si es un usuario libre de Power BI, aún podrá crear informes, pero no podrá emplear el [uso compartido](service-share-reports.md).
 
 
 ## <a name="next-steps"></a>Pasos siguientes

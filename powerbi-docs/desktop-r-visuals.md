@@ -2,14 +2,14 @@
 title: Crear objetos visuales de Power BI con R
 description: Crear objetos visuales de Power BI con R
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2e59e3b9d718fa2e0c8c3411968fd4ab66a5851
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e1768da4ace3fd18b181a46f48e3247cebd1cff0
+ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Crear objetos visuales de Power BI con R
 Con **Power BI Desktop**, puede usar **R** para visualizar los datos.
@@ -41,21 +41,27 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
 1. Seleccione el icono de **objeto visual de R** en el panel de **visualización** como se muestra en la siguiente imagen, para agregar un objeto visual de R.
    
    ![](media/desktop-r-visuals/r-visuals-3.png)
-2. Al agregar un objeto visual de R a un informe, **Power BI Desktop** hace lo siguiente:
+
+   Al agregar un objeto visual de R a un informe, **Power BI Desktop** hace lo siguiente:
    
    - Una imagen de marcador de posición de objeto visual de R aparece en el lienzo de informes.
    
    - El **editor de scripts de R** aparece en la parte inferior del panel central.
    
    ![](media/desktop-r-visuals/r-visuals-4.png)
-3. A continuación, agregue los campos que quiera usar en el script de R a la sección **Valores** del área **Campos**, tal como lo haría con cualquier otro objeto visual de **Power BI Desktop**. Solo los campos que se hayan agregado al área **Campos** estarán disponibles para el script de R, y podrá agregar nuevos campos o quitar los campos innecesarios del área **Campos** mientras trabaja en el script de R en el **editor de scripts de R de Power BI Desktop**. **Power BI Desktop** detecta automáticamente los campos que agrega o quita.
+
+2. A continuación, agregue los campos que quiera usar en el script de R a la sección **Valores** del área **Campos**, tal como lo haría con cualquier otro objeto visual de **Power BI Desktop**. 
+    
+    Solo los campos que se hayan agregado al área **Campos** estarán disponibles para el script de R. Puede agregar nuevos campos o quitar los campos innecesarios del área **Campos** mientras trabaja en el script de R en el **editor de scripts de R de Power BI Desktop**. **Power BI Desktop** detecta automáticamente los campos que agrega o quita.
    
    > [!NOTE]
    > El tipo de agregación predeterminado para objetos visuales de R es *No resumir*.
    > 
    > 
    
-1. Ahora puede usar los datos seleccionados para crear un trazado. Cuando selecciona campos, el **editor de scripts de R** genera un código de enlace de scripts de R auxiliar basado en las selecciones realizadas en la sección de color gris en la parte superior del panel del editor. Al seleccionar o quitar campos adicionales, el código auxiliar del editor de scripts de R se genera o elimina automáticamente según corresponda.
+3. Ahora puede usar los datos seleccionados para crear un trazado. 
+
+    Cuando selecciona campos, el **editor de scripts de R** genera un código de enlace de scripts de R auxiliar basado en las selecciones realizadas en la sección de color gris en la parte superior del panel del editor. Al seleccionar o quitar campos adicionales, el código auxiliar del editor de scripts de R se genera o elimina automáticamente según corresponda.
    
    En el ejemplo que se muestra en la imagen siguiente, se seleccionaron tres campos: hp, gear y drat. Como resultado de esas selecciones, el editor de scripts de R generó el siguiente código de enlace:
    
@@ -71,46 +77,46 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
    > 
    > 
    
-   La trama de datos generada se denomina **dataset**, y se puede acceder a las columnas seleccionadas a través de sus respectivos nombres. Por ejemplo, para acceder al campo gear, escriba *dataset$gear* en el script de R. Para los campos con espacios o caracteres especiales, use comillas simples.
-2. Con la trama de datos generada automáticamente por los campos seleccionados, ya podrá escribir un script de R que genere un trazado en el dispositivo predeterminado de R. Al finalizar el script, seleccione **Ejecutar** en la barra de título del **editor de scripts de R** (la opción**Ejecutar** se encuentra en el lado derecho de la barra de título).
+   La trama de datos generada se denomina **dataset**, y puede acceder a las columnas seleccionadas a través de sus respectivos nombres. Por ejemplo, para acceder al campo gear, escriba *dataset$gear* en el script de R. Para los campos con espacios o caracteres especiales, use comillas simples.
+
+4. Con la trama de datos generada automáticamente por los campos seleccionados, ya podrá escribir un script de R que genere un trazado en el dispositivo predeterminado de R. Al finalizar el script, seleccione **Ejecutar** en la barra de título del **editor de scripts de R** (la opción**Ejecutar** se encuentra en el lado derecho de la barra de título).
    
-    Al seleccionar **Ejecutar**, **Power BI Desktop** identifica el trazado y lo presenta en el lienzo.
-   Dado que el proceso se ejecuta en la instalación local de R, asegúrese de que estén instalados los paquetes necesarios.
+    Al seleccionar **Ejecutar**, **Power BI Desktop** identifica el trazado y lo presenta en el lienzo. Dado que el proceso se ejecuta en la instalación local de R, asegúrese de que estén instalados los paquetes necesarios.
    
    **Power BI Desktop** vuelve a trazar los objetos visuales cuando se produce alguno de los siguientes eventos:
    
-   * **Ejecutar** está seleccionado en la barra de título del **editor de scripts de R**
+   * Al seleccionar **Ejecutar** en la barra de título del **editor de scripts de R**
    * Siempre que se produce un cambio de datos, debido a la actualización, filtrado o resaltado de datos
 
-La imagen siguiente muestra un ejemplo del código de trazado de correlación y traza las correlaciones entre atributos de distintos tipos de automóviles.
+    La imagen siguiente muestra un ejemplo del código de trazado de correlación y traza las correlaciones entre atributos de distintos tipos de automóviles.
 
-![](media/desktop-r-visuals/r-visuals-6.png)
+    ![](media/desktop-r-visuals/r-visuals-6.png)
 
-Para obtener una vista mayor de las visualizaciones, puede minimizar el **editor de scripts de R**. Por supuesto, al igual que con otros objetos visuales de **Power BI Desktop**, puede aplicar un filtro cruzado al trazado de correlación. Para ello, seleccione solo los automóviles deportivos en el objeto visual de anillo (el objeto visual redondo de la derecha, en la imagen de ejemplo anterior).
+5. Para obtener una vista mayor de las visualizaciones, puede minimizar el **editor de scripts de R**. Por supuesto, al igual que con otros objetos visuales de **Power BI Desktop**, puede aplicar un filtro cruzado al trazado de correlación. Para ello, seleccione solo los automóviles deportivos en el objeto visual de anillo (el objeto visual redondo de la derecha, en la imagen de ejemplo anterior).
 
-![](media/desktop-r-visuals/r-visuals-7.png)
+    ![](media/desktop-r-visuals/r-visuals-7.png)
 
-También puede modificar el script de R para personalizar el objeto visual y aprovechar el potencial de R mediante la adición de parámetros al comando de trazado.
+6. También puede modificar el script de R para personalizar el objeto visual y aprovechar el potencial de R mediante la adición de parámetros al comando de trazado.
 
-El comando de trazado original era el siguiente:
+    El comando de trazado original era el siguiente:
 
     corrplot(M, method = "color",  tl.cex=0.6, tl.srt = 45, tl.col = "black")
 
-Con unos pocos cambios en el script de R, el comando es ahora el siguiente:
+    Con unos pocos cambios en el script de R, el comando es ahora el siguiente:
 
     corrplot(M, method = "circle", tl.cex=0.6, tl.srt = 45, tl.col = "black", type= "upper", order="hclust")
 
-Como resultado, ahora, el objeto visual de R traza círculos, solo tiene en cuenta la mitad superior y reordena la matriz para agrupar en clúster atributos correlacionados, como se muestra en la siguiente imagen.
+    Como resultado, ahora, el objeto visual de R traza círculos, solo tiene en cuenta la mitad superior y reordena la matriz para agrupar en clúster atributos correlacionados, como se muestra en la siguiente imagen.
 
-![](media/desktop-r-visuals/r-visuals-8.png)
+    ![](media/desktop-r-visuals/r-visuals-8.png)
 
-Al ejecutar un script de R que genere un error, el objeto visual de R no se traza y se muestra un mensaje de error en el lienzo. Para más información sobre el error, seleccione **Ver detalles** en el error del objeto visual de R del lienzo.
+    Al ejecutar un script de R que genere un error, el objeto visual de R no se traza y se muestra un mensaje de error en el lienzo. Para más información sobre el error, seleccione **Ver detalles** en el error del objeto visual de R del lienzo.
 
-![](media/desktop-r-visuals/r-visuals-9.png)
+    ![](media/desktop-r-visuals/r-visuals-9.png)
 
-> **Seguridad de scripts R:** los objetos visuales de R se crean a partir de scripts R, que podrían contener código que presente riesgos para la seguridad o la privacidad. Al intentar ver o interactuar con un objeto visual de R por primera vez, un usuario recibe un mensaje de advertencia de seguridad. Habilite los objetos visuales de R únicamente si confía en el autor y en el origen, o bien tras revisar el script R y asegurarse de que lo comprende.
-> 
-> 
+    > **Seguridad de scripts R:** los objetos visuales de R se crean a partir de scripts R, que podrían contener código que presente riesgos para la seguridad o la privacidad. Al intentar ver o interactuar con un objeto visual de R por primera vez, un usuario recibe un mensaje de advertencia de seguridad. Habilite los objetos visuales de R únicamente si confía en el autor y en el origen, o bien tras revisar el script R y asegurarse de que lo comprende.
+    > 
+    > 
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 Los objetos visuales de R en **Power BI Desktop** tienen algunas limitaciones:

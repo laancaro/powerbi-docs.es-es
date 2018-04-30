@@ -1,28 +1,28 @@
 ---
 title: Accesibilidad a informes de Power BI Desktop
-description: "Características y sugerencias para crear informes accesibles de Power BI Desktop"
+description: Características y sugerencias para crear informes accesibles de Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/21/2017
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c0e11a46e6e228da2f2ca8ac3f7be63ae20c1d92
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 9cf89867185487ab6ddec68bc6abf557b2fc929f
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 **Power BI Desktop** presenta características que permiten a las personas con discapacidades utilizar los informes de **Power BI Desktop** e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -41,7 +41,7 @@ A partir de la versión de septiembre de 2017 de **Power BI Desktop**, puede pre
 
 Con las mejoras de accesibilidad, puede interactuar con un informe de **Power BI Desktop** mediante un teclado o un lector de pantalla utilizando las siguientes técnicas:
 
-Puede **cambiar el enfoque** entre las pestañas de las páginas del informe o los objetos de la página de un informe determinada con las teclas **Ctrl+F6**.
+Puede cambiar el enfoque entre las pestañas de las páginas del informe o los objetos de la página de un informe determinada con las teclas **Ctrl+F6**.
 
 * Cuando el enfoque recae en las *pestañas de páginas de informes*, use el *tabulador* o las teclas de *dirección* para cambiar el enfoque de la página de un informe a la siguiente. El lector de pantalla lee el título de la página del informe e identifica si dicha página está seleccionada actualmente. Para cargar la página del informe en la que recae el enfoque actualmente, use la tecla *ENTRAR* o la *barra espaciadora*.
 * Si el enfoque recae en una *página del informe* cargada, use el *tabulador* para cambiar el enfoque a cada objeto de la página, que incluye todos los cuadros de texto, imágenes, formas y gráficos. El lector de pantalla lee el tipo de objeto y una descripción de dicho objeto facilitada por su autor. 
@@ -75,7 +75,7 @@ Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Deskto
 * Incluya un título, etiquetas de eje y etiquetas de datos en todos los objetos visuales.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-Hay algunos problemas conocidos y limitaciones para las características de accesibilidad, que se describen en la lista siguiente:
+Hay algunos problemas conocidos y limitaciones con las características de accesibilidad, que se describen en la lista siguiente:
 
 * JAWS solo se admite en los informes que se ven en el **servicio Power BI**, incluidos los informes insertados. JAWS también se admite en **Power BI Desktop**; sin embargo, debe abrir el lector de pantalla antes de abrir cualquier archivo de **Power BI Desktop** para que la pantalla de lectura funcione correctamente.
 

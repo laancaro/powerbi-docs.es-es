@@ -1,28 +1,28 @@
 ---
-title: "Procedimientos recomendados de diseño para informes y objetos visuales (notas del producto)"
-description: "Notas del producto: procedimientos recomendados para diseñar informes en Power BI"
+title: Procedimientos recomendados de diseño para informes y objetos visuales (notas del producto)
+description: 'Notas del producto: procedimientos recomendados para diseñar informes en Power BI'
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/21/2017
+ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 868d05891d1b2cb24dfae60b7f3bee405ff7d08f
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
+ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/18/2018
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->
@@ -655,7 +655,7 @@ Si los gráficos de líneas son la norma para analizar datos en un período de t
 
 Para obtener más información sobre los gráficos de columnas y barras:
 
-* [Iniciación a los gráficos de barras](http://blog.newscred.com/article/data-visualization-101-bar-charts/3c53044d4add7c31e79a3f80128771f4?page=thankyou)
+* [Iniciación a los gráficos de barras](http://blog.newscred.com/article/data-visualization-101-bar-charts)
 * [Catálogo de visualización de datos: Gráfico de barras](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
 * [Catálogo de visualización de datos: Gráfico de barras de varios conjuntos](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
