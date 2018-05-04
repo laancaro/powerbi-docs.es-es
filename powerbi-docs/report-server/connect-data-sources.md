@@ -1,43 +1,34 @@
 ---
-title: "Conexión a orígenes de datos"
-description: "Obtenga información acerca de los orígenes de datos a los que puede conectarse en el servidor de informes de Power BI."
+title: Orígenes de datos de informes paginados (.rdl) en Power BI Report Server
+description: Obtenga información acerca de los orígenes de datos a los que pueden conectarse los informes paginados (.rdl) en Power BI Report Server.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 11/01/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 35312fcf4301a7655893c1824b93b7718d6ae97f
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 189e5c2900fedf8403df75f0eb371830f28f7281
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="connecting-to-data-sources"></a>Conexión a orígenes de datos
-Obtenga información acerca de los orígenes de datos a los que puede conectarse en el servidor de informes de Power BI.
-
-## <a name="power-bi-reports"></a>Informes de Power BI
-Los informes de Power BI pueden trabajar con datos importados o usar una conexión en vivo de Analysis Services con DirectQuery. La versión de octubre de 2017 incluye compatibilidad con conexiones distintas a las conexiones en vivo de Analysis Services. Esto incluye los datos importados. Puede descargar la versión de octubre de 2017 a través de [powerbi.com](https://powerbi.microsoft.com/report-server/).
-
-Para obtener información acerca de los orígenes de datos compatibles, consulte [orígenes de datos de informes de Power BI en Power BI Report Server](data-sources.md).
-
-## <a name="other-reports"></a>Otros informes
-Otros tipos de informes admiten los mismos orígenes de datos que se encuentran en SQL Server Reporting Services. Para más información, consulte [Data Sources Supported by Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs) (Orígenes de datos compatibles con Reporting Services).
+# <a name="paginated-report-rdl-data-sources"></a>Orígenes de datos de informes paginados (.rdl)
+Los informes paginados de Reporting Services en Power BI Report Server admiten los mismos orígenes de datos que se admiten en SQL Server Reporting Services. Vea la lista de [orígenes de datos compatibles con Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Manual del usuario](user-handbook-overview.md)  
-[Inicio rápido: informes paginados](quickstart-create-paginated-report.md)  
-[Inicio rápido: informes de Power BI](quickstart-create-powerbi-report.md)
+Ahora que se ha conectado al origen de datos, [cree un informe paginado](quickstart-create-paginated-report.md).  
+
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

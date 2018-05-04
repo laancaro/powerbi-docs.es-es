@@ -1,15 +1,15 @@
 ---
-title: "Insertar contenido de Power BI en una aplicación para los clientes"
-description: "Aprenda a integrar, o insertar, un panel, un icono o un informe, en una aplicación web mediante las API de Power BI para los clientes."
+title: Insertar contenido de Power BI en una aplicación para los clientes
+description: Aprenda a integrar, o insertar, un panel, un icono o un informe, en una aplicación web mediante las API de Power BI para los clientes.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: get-started-article
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 01/11/2018
 ms.author: maghan
-ms.openlocfilehash: c6b9edb929934a80886874fe421f11cc7462dbd8
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: 779ae9a6df285b58c83021f87ed593af9ec0b3fb
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application"></a>Inserción de un panel de Power BI, icono o informe en la aplicación
 Aprenda a integrar, o insertar, un panel, icono o informe en una aplicación web mediante el SDK de .NET de Power BI, junto con la API de JavaScript de Power BI cuando inserte contenido para los clientes. Este es el escenario habitual para las aplicaciones de ISV.
@@ -126,7 +126,7 @@ Report report = reports.Value.FirstOrDefault();
 Se debe generar un token de inserción que se pueda usar desde la API de JavaScript. El token de inserción debe ser específico para el elemento que va a insertar. Esto significa que siempre que quiera insertar un fragmento de contenido de Power BI, deberá crear un nuevo token de inserción para él. Para más información, incluido el **accessLevel** que debe usar, consulte [GenerateToken API](https://msdn.microsoft.com/library/mt784614.aspx).
 
 > [!IMPORTANT]
-> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
+> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx) (Obtención de características disponibles) para comprobar para cuántos tokens de inserción gratuitos se han usado.
 
 Un ejemplo de esto está disponible en **Controllers\HomeController.cs** en el [ejemplo de inserción de contenido para la organización](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 

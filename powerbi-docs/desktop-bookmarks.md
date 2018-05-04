@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1660f129ef5c93cf5aed5a3a5eda3c835e1885c1
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 492eed949fd47b8f057bc67b127ba774b2218887
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -69,6 +69,10 @@ Configure una página de informe de la forma en que desee que aparezca en el mar
 
 Una vez que tiene un marcador, puede mostrarlo simplemente con hacer clic en él en el panel **Marcadores**. 
 
+También puede seleccionar si cada marcador aplicará propiedades de *datos*, como filtros y segmentaciones, propiedades de *visualización*, como el destacado y su visibilidad, y cambios de página que presentan la página que estaba visible cuando se agregó el marcador. Estas funciones son útiles cuando se utilizan marcadores para cambiar entre los tipos de objeto visual, en cuyo caso es probable que desee desactivar las propiedades de datos, de manera que los filtros no se restablezcan a medida que los usuarios cambien los tipos de objeto visual. 
+
+Para realizar estos cambios, seleccione los puntos suspensivos junto al nombre del marcador, tal como se muestra en la imagen anterior, y luego seleccione o anule la selección de las marcas de verificación junto a *Datos*, *Mostrar* y otros controles. 
+
 ## <a name="arranging-bookmarks"></a>Organización de los marcadores
 A medida que cree marcadores, puede que el orden en que se han creado no sea necesariamente el mismo orden en el que le gustaría presentarlos a la audiencia. No hay problema, se puede reorganizar fácilmente el orden de los marcadores.
 
@@ -105,13 +109,13 @@ Cuando se agrega un marcador, el estado de visibilidad de cada objeto también s
 Es importante tener en cuenta que las **segmentaciones de datos** siguen estando disponibles para filtrar una página de informe, independientemente de si están visibles o no. Por lo tanto, puede crear muchos marcadores diferentes, con diferentes configuraciones de segmentación de datos, y hacer que una única página del informe tenga muchos aspectos diferentes (y se resalten diferentes datos) en distintos marcadores.
 
 ## <a name="bookmarks-for-shapes-and-images"></a>Marcadores para formas e imágenes
-También puede vincular formas e imágenes a los marcadores. Con esta característica, al hacer clic en un objeto, se mostrará el marcador asociado a él. 
+También puede vincular formas e imágenes a los marcadores. Con esta característica, al hacer clic en un objeto, se mostrará el marcador asociado a él. Esto puede ser especialmente útil cuando se trabaja con botones; para obtener más información, lea el artículo sobre [el uso de botones en Power BI](desktop-buttons.md). 
 
-Para asignar un marcador a un objeto, seleccione el objeto y, a continuación, seleccione **Vincular** en el panel **Formato de forma**, como se muestra en la siguiente imagen.
+Para asignar un marcador a un objeto, seleccione el objeto y, a continuación, amplíe la sección **Acción** en el panel **Formato de forma**, como se muestra en la siguiente imagen.
 
 ![Agregar vínculo de marcador a un objeto](media/desktop-bookmarks/bookmarks_10.png)
 
-Una vez que sitúa el control deslizante de **Vincular** en **On** puede seleccionar si el objeto es un vínculo o un marcador. Si selecciona el marcador, podrá seleccionar a cual de los marcadores se vincula el objeto.
+Una vez que sitúe el control deslizante de **Acción** en **Activado**, puede seleccionar si el objeto es un botón de retroceso, un marcador o un comando de preguntas y respuestas. Si selecciona el marcador, podrá seleccionar a cual de los marcadores se vincula el objeto.
 
 Hay todo tipo de cosas interesantes que puede hacer con marcadores con objetos vinculados. Puede crear un índice de objetos visuales en la página del informe, o puede proporcionar vistas diferentes (por ejemplo, los tipos de objeto visual) de la misma información solo con hacer clic en un objeto.
 
@@ -138,9 +142,7 @@ En cambio, si se ha seleccionado **Destacados** en el menú de puntos suspensivo
 Si selecciona cualquiera de estos modos al agregar un marcador, ese modo (enfoque o Destacados) se conservará en el marcador.
 
 ## <a name="bookmarks-in-the-power-bi-service"></a>Marcadores en el servicio Power BI
-Cuando publica un informe en el **servicio Power BI** con al menos un marcador, puede verlos e interactuar con ellos en el **servicio Power BI**. Para cada informe que publique, debe crear al menos un marcador antes de publicarlo para que la característica de marcadores esté disponible en el **servicio Power BI**.
-
-Si los marcadores están disponibles en un informe, puede seleccionar **Vista > Panel Selección** o **Vista > Panel Marcadores** para mostrar cada uno de esos paneles.
+Cuando publica un informe en el **servicio Power BI** con al menos un marcador, puede verlos e interactuar con ellos en el **servicio Power BI**. Si los marcadores están disponibles en un informe, puede seleccionar **Vista > Panel Selección** o **Vista > Panel Marcadores** para mostrar cada uno de esos paneles.
 
 ![Ver paneles de selección y de marcadores en el servicio Power BI](media/desktop-bookmarks/bookmarks_14.png)
 
@@ -151,11 +153,10 @@ Tenga en cuenta que debe utilizar la barra de título del marcador atenuado para
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 En esta versión de los **marcadores** hay algunas limitaciones y consideraciones que debe tener en cuenta.
 
-* Los objetos visuales personalizados no funcionan con marcadores si estos constituyen el *origen* del filtro. Si usa objetos visuales personalizados para filtrar los elementos de una página (por ejemplo, la segmentación de datos de chiclet) y vuelve a la página mediante un marcador, se podrá filtrar la página pero no se actualizará el objeto visual personalizado para mostrar cómo se filtra la página. 
-* El estado del resaltado cruzado de un panel de informes *no* se guarda cuando se crea un marcador. 
+* La mayoría de objetos visuales personalizados deben funcionar bien con marcadores. Si experimenta problemas con marcadores y un objeto visual personalizado, póngase en contacto con el creador de ese objeto visual personalizado y pídale que haga los marcadores compatibles con su objeto visual. 
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Si se desplaza por los objetos visuales después de haber creado un marcador se reflejará en este. 
-* *Deberá* crear al menos un marcador en el informe cuando lo publique en el **servicio Power BI**, para que los marcadores estén disponibles en el servicio. Se trata de un requisito obligatorio para cada informe que publique.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de las características que son similares o que interactúan con los marcadores, eche un vistazo a los siguientes artículos:

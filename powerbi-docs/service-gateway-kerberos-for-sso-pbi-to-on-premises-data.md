@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: bb0800dc6a61efe1d7b331a6049460275b4412a3
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 344e6ecc31748d58f0803f95aed53badfa6be4f2
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
 Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.
@@ -64,19 +64,18 @@ Estos son los detalles adicionales sobre estos pasos:
 
 
 > [!NOTE]
-> Para habilitar SSO para SAP HANA, tiene que asegurarse de que se cumplen las siguientes configuraciones específicas de SAP HANA para SAP:
-> 1. Asegúrese de que el servidor de SAP HANA ejecuta la versión mínima requerida, que depende del nivel de plataforma de su servidor de SAP HANA:
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> Para habilitar SSO para SAP HANA:
 >
-> 2. En el equipo de puerta de enlace, instale el controlador ODBC de HANA más reciente de SAP.  La versión mínima es HANA ODBC versión 2.00.020.00, de agosto de 2017.
+> - Asegúrese de que el servidor de SAP HANA ejecuta la versión mínima requerida, que depende del nivel de plataforma de su servidor de SAP HANA:
+>     - [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386)
+>     - [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324)
+>     - [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
 >
-> Los vínculos siguientes a revisiones y actualizaciones de SAP le pueden resultar útiles. Tenga en cuenta que debe iniciar sesión en los siguientes recursos con su cuenta de soporte técnico de SAP, y ese SAP puede cambiar o actualizar estos vínculos.
-> 
-> * [HANA 2 SPS 01 Rev 012.03](https://launchpad.support.sap.com/#/notes/2557386) 
-> * [HANA 2 SPS 02 Rev 22](https://launchpad.support.sap.com/#/notes/2547324) 
-> * [HANA 1 SP 12 Rev 122.13](https://launchpad.support.sap.com/#/notes/2528439)
+> - En el equipo de puerta de enlace, instale el controlador ODBC de HANA más reciente de SAP.  La versión mínima es HANA ODBC versión 2.00.020.00, de agosto de 2017.
+>
+> Para obtener más información acerca de cómo instalar y configurar un inicio de sesión único para SAP HANA con Kerberos, vea el tema [Single Sign-on Using Kerberos](https://help.sap.com/viewer/b3ee5778bc2e4a089d3299b82ec762a7/2.0.03/en-US/1885fad82df943c2a1974f5da0eed66d.html) (Inicio de sesión único con Kerberos) en la Guía de seguridad de SAP HANA y los vínculos de esa página, especialmente la nota de SAP 1837331 – HOWTO HANA DBSSO Kerberos/Active Directory]. 
+>
+>
 
 
 ## <a name="errors-from-an-insufficient-kerberos-configuration"></a>Errores de una configuración de Kerberos incompleta

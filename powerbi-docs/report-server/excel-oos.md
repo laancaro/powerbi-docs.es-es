@@ -1,39 +1,32 @@
 ---
-title: "Configuración de un servidor de informes para hospedar libros de Excel mediante Office Online Server (OOS)"
-description: "Además de ver informes de Power BI en el portal web, los usuarios profesionales ahora pueden hacer lo mismo con libros de Excel en Power BI Report Server."
+title: 'Hospedaje de libros de Excel mediante Office Online Server (OOS): Power BI Report Server'
+description: Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante Office Online Server (OOS).
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 08/23/2017
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: a9d5c1b8da8935a535ed112030a5c2a40132f176
-ms.sourcegitcommit: 6e693f9caf98385a2c45890cd0fbf2403f0dbb8a
+ms.openlocfilehash: f2ff2b695ca548572294a4705235ae1c2b0046c5
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configuración de un servidor de informes para hospedar libros de Excel mediante Office Online Server (OOS)
-Además de ver informes de Power BI en el portal web, los usuarios profesionales ahora pueden hacer lo mismo con libros de Excel en Power BI Report Server, lo que proporciona una única ubicación para publicar y ver su contenido de autoservicio de Microsoft BI.
+Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante [Office Online Server (OOS)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). El servidor de informes se convierte en una única ubicación para publicar y ver el contenido de autoservicio de Microsoft BI.
 
-> [!NOTE]
-> Se trata de una característica de versión preliminar incluida en la versión preliminar de agosto de 2017. Para más información, consulte [Novedades en Power BI Report Server](whats-new.md).
-> 
-> 
-
-![Informes de Excel que se ven desde el portal web del servidor de informes.](media/excel-oos/excel-in-pbirs.png)
-
-Esto se consigue con [Office Online Server](https://technet.microsoft.com/library/jj219437\(v=office.16\).aspx) (OOS).
+![Informes de Excel vistos desde el portal web del servidor de informes](media/excel-oos/excel-in-pbirs.png)
 
 ## <a name="prepare-server-to-run-office-online-server"></a>Preparación de un servidor para que ejecute Office Online Server
 Realice estos procedimientos en el servidor que va a ejecutar Office Online Server. Este servidor debe ser Windows Server 2012 R2 o Windows Server 2016. Windows Server 2016 requiere la versión de abril de 2017 de Office Online Server, o cualquier versión posterior.

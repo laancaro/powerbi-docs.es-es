@@ -1,28 +1,28 @@
 ---
-title: "Registro en Power BI para clientes de la Administración Pública de Estados Unidos"
-description: "Los clientes de la Administración Pública de Estados Unidos pueden obtener información sobre cómo registrar su organización en el servicio Power BI para la Administración Pública de Estados Unidos."
+title: Registro en Power BI para clientes de la Administración Pública de Estados Unidos
+description: Los clientes de la Administración Pública de Estados Unidos pueden obtener información sobre cómo registrar su organización en el servicio Power BI para la Administración Pública de Estados Unidos.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/27/2017
+ms.date: 04/24/2017
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e4015d0de5c11a9726089a62825950dc0532205d
-ms.sourcegitcommit: d91b7bf18d5c504037134f375886633379f28ede
+ms.openlocfilehash: a52aaaffb5f66ba5596e788183ef52753f08c8bf
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -82,7 +82,7 @@ La siguiente es información adicional para la suscripción al servicio **Power 
 * Haga clic en Facturación > Comprar servicio > Power BI Pro Gov y seleccione Comprar, no Probar
 * Especifique la información necesaria y obtenga las licencias
 * Quite la versión de Prueba de Power BI Pro o las licencias antiguas y asigne las nuevas a los usuarios
-* Inicie sesión en [https://app.powerbigov.us](https://app.powerbigov.us)
+* Inicie sesión en [https://app.powerbigov.us](https://app.powerbigov.us).
 
 ### <a name="reseller-power-bi-trial-to-pro-customer-onboarding"></a>Incorporación de clientes con una versión de evaluación de distribuidor de Power BI a la versión Pro
 Vaya a **Facturación > Suscripciones** y seleccione la suscripción **Power BI Pro para la Administración pública**. Allí verá:
@@ -97,12 +97,7 @@ Vaya a **Facturación > Suscripciones** y seleccione la suscripción **Power BI 
 ### <a name="whitelisting-instructions"></a>Instrucciones para la inclusión en la lista de permitidos
 *La inclusión en la lista de permitidos* es un proceso que utiliza el equipo de ingenieros de Power BI para mover a los clientes del entorno de la nube comercial al entorno seguro de la nube de la Administración pública. Esto garantiza que las características disponibles en la nube de la Administración pública de Estados Unidos funcionarán según lo previsto. Todos los clientes del Gobierno de Estados Unidos (nuevos o existentes) que compran servicios de **Power BI** para la Administración pública de Estados Unidos por primera vez *deben* iniciar el proceso de creación de listas de permitidos siguiente. El proceso debe realizarse antes de la configuración o migración a **Power BI** para la Administración pública de Estados Unidos. 
 
-Para que el inquilino esté *incluido en la lista de permitidos* de la nube de la Administración pública de Estados Unidos, rellene una incidencia de soporte técnico para realizar la solicitud en el vínculo siguiente. Tenga en cuenta que solo los administradores pueden realizar esta solicitud:
-
-* [*Inclusión en la lista de permitidos*  de solicitudes de soporte técnico en línea](https://powerbi.microsoft.com/clouds/)
-* Asegúrese de incluir el dominio que se vaya a *incluir en la lista de permitidos* y el correo electrónico del representante de Microsoft que esté trabajando con usted en el proceso.
-
-El proceso de *inclusión en la listas de permitidos* tarda aproximadamente tres semanas, durante las cuales el equipo de ingeniería de Power BI realiza los cambios adecuados para asegurarse de que el inquilino funcione correctamente en la nube de la Administración Pública de Estados Unidos.
+Para que el inquilino se incluya *en la lista blanca* para la nube de Gobierno de EE. UU., póngase en contacto con el equipo de cuentas de Microsoft para obtener ayuda con el proceso de inclusión en listas blancas. Tenga en cuenta que solo los administradores pueden realizar esta solicitud. El proceso de *inclusión en la listas de permitidos* tarda aproximadamente tres semanas, durante las cuales el equipo de ingeniería de Power BI realiza los cambios adecuados para asegurarse de que el inquilino funcione correctamente en la nube de la Administración Pública de Estados Unidos.
 
 Los clientes que migran desde licencias **Gratis** de Power BI a **Power BI para la Administración Pública de Estados Unidos** (y, por definición, migran a las características de la licencia **Pro** asociada descritas anteriormente en este artículo) se encontrarán con los problemas descritos en la siguiente sección de este artículo, hasta que su inquilino *esté incluido en la lista de permitidos* por el equipo de ingeniería de Power BI.
 

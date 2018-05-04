@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/12/2018
 ms.author: maghan
-ms.openlocfilehash: 014601a4c85be53d6fd06a455d04e5ee1f8daf2d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 2caf5adc442a5794a23e3ed5af478f5467068b14
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserción de paneles, informes e iconos de Power BI
 
@@ -143,7 +143,7 @@ Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
 * Adquiera la capacidad que se adapte a sus necesidades. Puede usar la tabla siguiente para saber qué SKU de la capacidad de Power BI Embedded puede necesitar. Para obtener más información, vea [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (Notas del producto sobre el planeamiento de la capacidad de análisis de inserción). Cuando esté listo para comprar, vaya a [Microsoft Azure Portal](https://portal.azure.com). Para más información acerca de cómo crear la capacidad de Power BI Embedded, consulte [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Creación de capacidad de Power BI Embedded en Azure Portal).
 
 > [!IMPORTANT]
-> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
+> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx) (Obtención de características disponibles) para comprobar para cuántos tokens de inserción gratuitos se han usado.
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |

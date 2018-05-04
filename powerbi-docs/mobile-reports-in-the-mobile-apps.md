@@ -1,6 +1,6 @@
 ---
 title: Exploración de informes en las aplicaciones móviles de Power BI
-description: 'Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles. '
+description: Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles.
 services: powerbi
 documentationcenter: ''
 author: maggiesMSFT
@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: 6edd5a6e9606150d4b489a79cdb5ca57ac2f8cce
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: a7bd77ec65fd3897c6e9af9acd2a20a229565415
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -50,7 +50,7 @@ Los informes de Power BI se almacenan en distintos lugares de la aplicación mó
   ![Informe de teléfono en modo horizontal](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-landscape.png)
 
 ## <a name="view-reports-optimized-for-phones"></a>Visualización de informes optimizados para teléfonos
-Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. Se ha agregado funcionalidad a las páginas de informes optimizadas para teléfonos; por ejemplo, puede explorar en profundidad y ordenar los objetos visuales en el modo de enfoque y puede tener acceso a los [filtros que el autor del informe ha agregado a la página del informe](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). El informe se abre en el teléfono filtrado según los valores que se filtran en el informe en la Web, además de un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.
+Los autores de informes de Power BI pueden crear un diseño de informe optimizado especialmente para teléfonos. Se ha agregado funcionalidad a las páginas de informes optimizadas para teléfonos; por ejemplo, puede explorar en profundidad y ordenar los objetos visuales y puede tener acceso a los [filtros que el autor del informe ha agregado a la página del informe](mobile-apps-view-phone-report.md#filter-the-report-page-on-a-phone). El informe se abre en el teléfono filtrado según los valores que se filtran en el informe en la Web, además de un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.Puede cambiar los filtros en el teléfono.
 
 En una lista de informes, un informe optimizado tiene un icono especial ![Icono de informe de teléfono](media/mobile-reports-in-the-mobile-apps/power-bi-phone-report-icon.png):
 
@@ -64,7 +64,7 @@ Al ver el informe en un teléfono, se abre en la vista vertical.
 
 Más información sobre los [informes optimizados para la vista de teléfono](mobile-apps-view-phone-report.md).
 
-## <a name="use-slicers-to-filter-a-report-page"></a>Uso de segmentaciones de datos para filtrar una página de informe
+## <a name="use-slicers-to-filter-a-report"></a>Uso de segmentaciones de datos para filtrar un informe
 Al diseñar un informe en el servicio Power BI Desktop o Power BI, considere la posibilidad de [agregar segmentaciones a una página del informe](power-bi-visualization-slicers.md). Usted y sus compañeros pueden usar segmentaciones para filtrar la página en un explorador y en las aplicaciones móviles. Cuando ve el informe en un teléfono, puede ver e interactuar con las segmentaciones en modo horizontal y en una página optimizada para el modo vertical del teléfono. Si selecciona un valor en una segmentación o un filtro del explorador, el valor también se seleccionará cuando vea la página en la aplicación móvil. Verá un mensaje que indica que hay filtros activos en la página.  
 
 * Al seleccionar un valor en una segmentación de datos de la página de informe, se filtran los demás objetos visuales de la página.
@@ -73,7 +73,7 @@ Al diseñar un informe en el servicio Power BI Desktop o Power BI, considere la 
   
   En esta ilustración, la segmentación de datos filtra el gráfico de columnas para mostrar solo los valores de julio.
 
-## <a name="cross-filter-and-highlight-a-power-bi-report-page"></a>Aplicar un filtro cruzado a la página de un informe de Power BI y resaltarla
+## <a name="cross-filter-and-highlight-a-report"></a>Aplicar un filtro cruzado a un informe y resaltarlo
 Cuando selecciona un valor en un objeto visual, lo no filtra los otros objetos visuales. Resalta los valores relacionados en los otros objetos visuales.
 
 * Pulse un valor en un objeto visual.
@@ -88,8 +88,8 @@ Cuando selecciona un valor en un objeto visual, lo no filtra los otros objetos v
    ![Ordenar un objeto visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para invertir el criterio de ordenación, pulse de nuevo el botón de puntos suspensivos (**...**) y otra vez el mismo nombre de campo.
 
-## <a name="drill-down-and-up-in-a-visual-on-an-ipad-or-a-tablet"></a>Exploración en profundidad y rastreo agrupando datos de un objeto visual en un iPad o una tableta
-Si un autor de un informe ha agregado esta funcionalidad a un objeto visual, en una tableta o un iPad puede explorar en profundidad un objeto visual para ver los valores que constituyen una parte de él. Puede [agregar una exploración en profundidad a un objeto visual](power-bi-visualization-drill-down.md) tanto en Power BI Desktop como en el servicio Power BI. 
+## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Exploración en profundidad en un iPad o una tableta
+Si un autor de un informe ha agregado la funcionalidad de exploración en profundidad a un objeto visual, en una tableta o un iPad puede explorar en profundidad un objeto visual para ver los valores que constituyen una parte de él. Puede [agregar una exploración en profundidad a un objeto visual](power-bi-visualization-drill-down.md) tanto en Power BI Desktop como en el servicio Power BI. 
 
 > [!NOTE]
 > Actualmente, la exploración en profundidad no funciona en los mapas del iPad o la tableta.

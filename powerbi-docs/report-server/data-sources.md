@@ -1,6 +1,6 @@
 ---
 title: Orígenes de datos de los informes de Power BI en Power BI Report Server
-description: Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
+description: Los informes de Power BI (.pbix) pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
 services: powerbi
 documentationcenter: ''
 author: markingmyname
@@ -15,23 +15,22 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 04/02/2018
+ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: bc490834b215af45df1063fd06b94ed9b735d852
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: a32ef2e1e85b252a2a1071cb95c80149486c2604
+ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/26/2018
 ---
-# <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
-Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
+# <a name="power-bi-report-pbix-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI (.pbix) en Power BI Report Server
+Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
 
-Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados, consulte [Orígenes de datos admitidos por Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
+Estos orígenes de datos son específicos de los informes de Power BI que se utilizan en Power BI Report Server. Para obtener información acerca de los orígenes de datos compatibles con informes paginados (.dll), consulte [Orígenes de datos admitidos por Reporting Services](https://docs.microsoft.com/sql/reporting-services/report-data/data-sources-supported-by-reporting-services-ssrs).
 
 > [!IMPORTANT]
-> Todos los orígenes de datos de un informe de Power BI Desktop deben ser compatibles para configurar la actualización programada.
-> 
-> 
+> Todos los orígenes de datos de un informe de Power BI Desktop deben admitir la configuración de la actualización programada.
+>  
 
 ## <a name="list-of-supported-data-sources"></a>Lista de orígenes de datos admitidos
 
@@ -216,7 +215,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-Ahora que se ha seleccionado el origen de datos, [cree un informe](quickstart-create-powerbi-report.md) con los datos de ese origen de datos.
+Ahora que se ha conectado al origen de datos, [cree un informe de Power BI](quickstart-create-powerbi-report.md) con los datos de ese origen de datos.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
