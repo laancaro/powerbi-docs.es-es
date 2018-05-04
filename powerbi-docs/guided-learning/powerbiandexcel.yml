@@ -5,25 +5,25 @@ metadata:
   description: Use Excel y Power BI de forma conjunta y cree objetos visuales e informes eficaces y conectados.
   audience: Business User
   level: Beginner
-  nextTutorialHref: publishingandsharing
-  nextTutorialTitle: "Publicación y uso compartido"
+  nextTutorialHref: publishingandsharing.yml
+  nextTutorialTitle: Publicación y uso compartido
   displayType: one-column
   author: davidiseminger
   manager: kfile
   ms.service: powerbi
   ms.topic: get-started-article
-  ms.date: 12/05/2017
+  ms.date: 05/02/2018
   ms.author: davidi
-  ms.openlocfilehash: cc4e7ae228222e696c481c53a2d4f87b8ed1a146
-  ms.sourcegitcommit: 7bf22bb1136fdb0f962422e16e837187f090827c
+  ms.openlocfilehash: 409b3c25c0d9841d21f8c9be1ee20af37dafe846
+  ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/06/2018
+  ms.lasthandoff: 05/04/2018
 items:
 - durationInMinutes: 1
   content: >
     Use Excel y Power BI de forma conjunta y cree objetos visuales e informes eficaces y conectados.
-- title: "Introducción al uso de datos de Excel en Power BI"
+- title: Introducción al uso de datos de Excel en Power BI
   durationInMinutes: 2
   content: >
     > [!Video https://www.youtube.com/embed/TWVqSlkjVPw?rel=0]
@@ -37,14 +37,14 @@ items:
 
 
     [!INCLUDE [](includes/5-2-upload-excel.md)]
-- title: "Importación de Power View y Power Pivot a Power BI"
+- title: Importación de Power View y Power Pivot a Power BI
   durationInMinutes: 4
   content: >
     > [!Video https://www.youtube.com/embed/nVkpj0tB4Yk?rel=0]
 
 
     [!INCLUDE [](includes/5-3-import-powerpivot-powerview.md)]
-- title: "Conexión de OneDrive para la Empresa a Power BI"
+- title: Conexión de OneDrive para la Empresa a Power BI
   durationInMinutes: 8
   content: >
     > [!Video https://www.youtube.com/embed/WK7OZF-hVZA?rel=0]
@@ -58,4 +58,4 @@ items:
 
 
     [!INCLUDE [](includes/5-8-excel-data-summary.md)]
-- content: "Ha completado la sección **Power BI y Excel** del curso de Aprendizaje guiado de Power BI. Ahora, aprenderá a publicar y compartir.\0"
+- content: Ha completado la sección **Power BI y Excel** del curso de Aprendizaje guiado de Power BI. Ahora, aprenderá a publicar y compartir.
