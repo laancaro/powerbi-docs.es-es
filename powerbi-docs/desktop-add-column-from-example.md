@@ -18,18 +18,18 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 08ae182e62fc370b66b2ef88b0c6b7c91a46eff1
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Incorporación de una columna de un ejemplo en Power BI Desktop
-A partir de la versión de abril de 2017 de **Power BI Desktop**, puede agregar nuevas columnas de datos al modelo mediante el **Editor de consultas** simplemente proporcionando uno o varios valores de ejemplo para la nueva columna. Puede crear un ejemplo de columna a partir de una selección actual, o bien proporcionando datos de todas las columnas (o las seleccionadas) de una tabla determinada.
+A partir de la versión de abril de 2017 de **Power BI Desktop**, puede agregar nuevas columnas de datos al modelo mediante el **Editor de consultas** simplemente proporcionando uno o varios valores de ejemplo para la nueva columna. Puede crear un ejemplo de nueva columna a partir de una selección actual o proporcionar datos de todas las columnas (o solo las seleccionadas) de una tabla determinada.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_01.png)
 
-Este enfoque ayuda a crear columnas de forma sencilla y rápida, y es muy útil para las situaciones siguientes:
+Mediante este enfoque es más fácil y rápido crear columnas, y es muy útil para estas situaciones:
 
 * Conoce el resultado de datos que desea en la nueva columna, pero no está seguro de qué transformación (o colección de transformaciones) le ayudará a conseguirlo.
 * Ya sabe qué transformaciones necesita, pero no sabe dónde hacer clic o qué seleccionar en la interfaz de usuario para que se realicen.
@@ -42,7 +42,7 @@ Para crear una columna de un ejemplo, inicie el **Editor de consultas**. Tambié
 
 ![](media/desktop-add-column-from-example/add-column-from-example_02.png)
 
-En este artículo, vamos a usar datos procedentes del siguiente artículo de Wikipedia (que es un vínculo, por lo que puede hacer clic en él para obtener los datos y continuar):
+Para obtener datos desde una página web, vaya a la pestaña **Inicio**, haga clic en **Obtener datos > Web** y pegue la dirección URL en el cuadro de diálogo que aparece. En este artículo se usan datos de un artículo de Wikipedia. Puede hacer clic en el vínculo de abajo para obtener los datos por sí mismo y seguir el tutorial:
 
 * [**Lista de estados y territorios de los Estados Unidos**](https://wikipedia.org/wiki/List_of_states_and_territories_of_the_United_States)
 
@@ -51,9 +51,9 @@ Cuando se inicie el **Editor de consultas** y tenga algunos datos cargados, pued
 ![](media/desktop-add-column-from-example/add-column-from-example_03.png)
 
 ## <a name="the-add-column-from-examples-pane"></a>El panel Agregar columna a partir de los ejemplos
-Una vez que realice una selección para agregar una nueva columna a partir de los ejemplos, aparece un nuevo panel que muestra las columnas de la tabla actual (puede que tenga que desplazarse para verlas todas). **Column1** también se muestra a la derecha, que es la columna que **Power BI Desktop** creará en función de los ejemplos. Después, en el nuevo encabezado **Column1** hay celdas en blanco, donde puede escribir los ejemplos que Power BI usa para crear reglas y transformaciones que coincidan con el ejemplo.
+Una vez que realice una selección para agregar una nueva columna a partir de los ejemplos, aparece un nuevo panel que muestra las columnas de la tabla actual (puede que tenga que desplazarse para verlas todas). La nueva **Column1** también se muestra a la derecha y es la columna que **Power BI Desktop** crea basándose en los ejemplos. Después, en el nuevo encabezado **Column1** hay celdas en blanco, donde puede escribir los ejemplos que Power BI usa para crear reglas y transformaciones que coincidan con el ejemplo.
 
-Observe también que se trata de un **paso aplicado** en el panel **Configuración de la consulta**. Como siempre, el **Editor de consultas** registrará los pasos de transformación y los aplicará a la consulta, en orden.
+Observe que se trata de un **paso aplicado** en el panel **Configuración de la consulta**. Como siempre, el **Editor de consultas** registrará los pasos de transformación y los aplicará a la consulta, en orden.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_04.png)
 
@@ -61,26 +61,26 @@ Se trata de un panel llamado **Agregar columna a partir de los ejemplos** y cons
 
 1. La **barra de comandos** que incluye una breve descripción de la característica o la transformación.
 2. La opción **Enviar comentarios** para ayudar a Power BI a mejorar esta característica.
-3. Los botones **Aceptar** y **Cancelar**, que permiten confirmar las transformaciones y agregar la columna, o cancelar.
+3. Los botones **Aceptar** y **Cancelar**, que permiten confirmar las transformaciones y agregar la columna o cancelar.
 4. El área de la nueva columna, donde puede escribir los valores de ejemplo en cualquiera de las filas (para proporcionar a Power BI el ejemplo), con relación a otras columnas de esa fila.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_05.png)
 
-Cuando escribe el ejemplo en la nueva columna, Power BI ofrecerá una vista previa de cómo se mostrará la columna que está creando, en función de las transformaciones que detecte. Por ejemplo, escribimos *Alabama* en la primera fila correspondiente al valor *Alabama* de la primera columna de la tabla. En cuanto presionamos la tecla *Entrar*, Power BI rellena la columna basándose en ese valor.
+Cuando escribe el ejemplo en la nueva columna, Power BI ofrecerá una vista previa de cómo se mostrará la columna que está creando, en función de las transformaciones que detecte. Por ejemplo, si escribe *Alabama* en la primera fila, se corresponde con el valor *Alabama* de la primera columna de la tabla. En cuanto presiona la tecla *Entrar*, Power BI rellena la columna basándose en ese valor.
 
-No obstante, luego fuimos a la fila que incluía *Massachusetts [E]* y eliminamos esa última parte *[E]* (porque no la queríamos). Power BI detectó un cambio y utilizó el ejemplo para crear una transformación. Observe la explicación de la transformación en el panel superior central.
+Pero, después, imagine que va a la fila que incluye *Massachusetts [E]* y elimina esa última parte *[E]* porque ya no quiere que se muestre. Power BI detecta el cambio y usa el ejemplo para crear una transformación. Observe la explicación de la transformación en el panel superior central.
 
 ![](media/desktop-add-column-from-example/add-column-from-example_06.png)
 
 A medida que siga proporcionando ejemplos, el **Editor de consultas** agregará a las transformaciones. Cuando esté satisfecho con los resultados, puede seleccionar **Aceptar** para confirmar los cambios.
 
 ## <a name="see-add-column-from-examples-in-action"></a>El panel Agregar columna a partir de los ejemplos en acción
-¿Desea ver este trabajo? En el vídeo siguiente se muestra cómo funciona esta característica usando el origen de datos proporcionado anteriormente en este ejemplo. Échele un vistazo y luego siga usted.
+¿Desea ver este trabajo? En el vídeo siguiente se muestra cómo funciona esta característica usando el origen de datos proporcionado anteriormente en este ejemplo. Échele un vistazo y, luego, siga usted.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-ykbVW9wQfw" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-Hay muchas transformaciones que están disponibles al utilizar **Agregar columna a partir de los ejemplos**, pero no se incluyen todas las transformaciones. En la siguiente lista se proporcionan todas las transformaciones que *se admiten*.
+Hay muchas transformaciones que están disponibles al utilizar **Agregar columna a partir de los ejemplos**, pero no se incluyen todas las transformaciones. En esta lista se proporcionan todas las transformaciones que se admiten.
 
 * **Referencia**
   

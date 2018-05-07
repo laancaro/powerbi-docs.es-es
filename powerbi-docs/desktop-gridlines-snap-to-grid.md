@@ -1,38 +1,38 @@
 ---
-title: "Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop"
-description: "Usar líneas de cuadrícula, ajustar a la cuadrícula, orden Z, alineación y distribución en los informes de Power BI Desktop"
+title: Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop
+description: Usar líneas de cuadrícula, ajustar a la cuadrícula, orden Z, alineación y distribución en los informes de Power BI Desktop
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 4/19/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1b6b1a3ecda7d3f827975da8fcfec5d9d5b67023
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 479668d2f5c21bc6d730097556ce6de46409c7ed
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-gridlines-and-snap-to-grid-in-power-bi-desktop-reports"></a>Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop
-El lienzo de informe de **Power BI Desktop** proporciona líneas de cuadrícula que le permiten alinear perfectamente objetos visuales en una página de informe, además de una funcionalidad de ajustar a la cuadrícula para objetos visuales; de este modo sus informes podrán tener un buen aspecto, estar alineados y disponer de un espaciado uniforme.
+El lienzo de informe de **Power BI Desktop** proporciona líneas de cuadrícula que permiten alinear perfectamente objetos visuales en una página de informe y usar la función de ajustar a la cuadrícula para objetos visuales; de este modo sus informes podrán tener un buen aspecto, estar alineados y disponer de un espaciado uniforme.
 
-En **Power BI Desktop** también puede ajustar el orden Z (traer adelante, enviar hacia atrás) de objetos en un informe, así como alinear o distribuir uniformemente los objetos visuales seleccionados en el lienzo.
+En **Power BI Desktop** también puede ajustar el orden Z (traer adelante, enviar hacia atrás) de objetos en un informe y alinear o distribuir uniformemente los objetos visuales seleccionados en el lienzo.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_0.png)
 
 ### <a name="enabling-gridlines-and-snap-to-grid"></a>Habilitar líneas de cuadrícula y ajustar a la cuadrícula
-Para habilitar las líneas de cuadrícula y ajustar la cuadrícula, seleccione la cinta **Vista** y, después, habilite las casillas **Mostrar líneas de la cuadrícula** y **Ajustar objetos a la cuadrícula**. Puede seleccionar una o ambas casillas, pues funcionan de forma independiente.
+Para habilitar las líneas de cuadrícula y ajustar la cuadrícula, seleccione la cinta **Vista** y, después, habilite las casillas **Mostrar líneas de la cuadrícula** y **Ajustar objetos a la cuadrícula**. Puede seleccionar una o ambas opciones, ya que funcionan de forma independiente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_1.png)
 
@@ -42,21 +42,21 @@ Para habilitar las líneas de cuadrícula y ajustar la cuadrícula, seleccione l
 > 
 
 ### <a name="using-gridlines"></a>Uso de las líneas de cuadrícula
-Las cuadrículas son guías visuales que le permiten ver si dos o más objetos visuales se alinean correctamente. Si está intentando determinar si dos (o más) objetos visuales están alineados horizontal o verticalmente, use las líneas de cuadrícula para determinar visualmente si se alinean sus bordes.
+Las líneas de cuadrícula son guías visibles que sirven para alinear los objetos visuales. Si está intentando determinar si dos (o más) objetos visuales están alineados horizontal o verticalmente, use las líneas de cuadrícula para determinar si se alinean sus bordes.
 
-Puede usar *CTRL+clic* para seleccionar más de un objeto visual a la vez, de modo que se muestren los bordes de todos los objetos visuales; lo cual le permite ver fácilmente si los objetos visuales están alineados correctamente.
+Puede usar Ctrl+clic para seleccionar más de un objeto visual a la vez. Se mostrarán los bordes de todos los objetos visuales y si estos están alineados correctamente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_2.png)
 
 #### <a name="using-gridlines-inside-visuals"></a>Uso de líneas de cuadrícula dentro de objetos visuales
-En Power BI también hay líneas de cuadrícula dentro de objetos visuales, lo que proporciona una guía visual para comparar los valores y los puntos de datos. A partir de la versión de septiembre de 2017 de **Power BI Desktop**, las líneas de cuadrícula de los objetos visuales se pueden administrar desde las tarjetas **Eje X** o **Eje Y** (como corresponda en función del tipo de objeto visual), que se encuentran en la sección **Formato** del panel **Visualizaciones**. Se pueden administrar los siguientes elementos de las líneas de cuadrícula de un objeto visual:
+En Power BI también hay líneas de cuadrícula dentro de objetos visuales que sirven de guía visual para comparar los valores y los puntos de datos. A partir de la versión de septiembre de 2017 de **Power BI Desktop**, las líneas de cuadrícula de los objetos visuales se pueden administrar desde las tarjetas **Eje X** o **Eje Y** (como corresponda en función del tipo de objeto visual), que se encuentran en la sección **Formato** del panel **Visualizaciones**. Se pueden administrar los siguientes elementos de las líneas de cuadrícula de un objeto visual:
 
 * Activar o desactivar la líneas de cuadrícula
 * Cambiar el color de las líneas de cuadrícula
 * Ajustar el trazo (el ancho) de las líneas de cuadrícula
 * Seleccione el estilo de línea de las líneas de cuadrícula en el objeto visual, por ejemplo, sólido, con guiones o con puntos
 
-La modificación de determinados elementos de las líneas de cuadrícula puede resultar especialmente útil en los informes en que se usan fondos oscuros para los objetos visuales. La siguiente imagen muestra la sección *Líneas de cuadrícula* de la tarjeta **Eje X**.
+La modificación de determinados elementos de las líneas de cuadrícula puede resultar especialmente útil en los informes en que se usan fondos oscuros para los objetos visuales. En esta imagen se muestra la sección **Líneas de cuadrícula** de la tarjeta **Eje Y**.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_9.png)
 
@@ -65,22 +65,22 @@ Al habilitar **Ajustar objetos a la cuadrícula**, todos los objetos visuales de
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_3.png)
 
-Esto es todo lo relacionado con el uso de **líneas de cuadrícula** y **ajustar a la cuadrícula** para garantizar fácilmente que los objetos visuales de los informes se alinean a la perfección.
+Esto es todo lo relacionado con el uso de **líneas de cuadrícula** y **ajustar a la cuadrícula** para asegurarse de que los objetos visuales de los informes se alinean a la perfección.
 
 ### <a name="using-z-order-align-and-distribute"></a>Uso del orden Z, alinear y distribuir
-También puede administrar el orden de delante hacia atrás de los objetos visuales de un informe, lo que suele conocerse como el *orden Z* de elementos. Esto permite superponer objetos visuales en la forma que se desee y, después, ajustar el orden de delante hacia atrás de cada objeto visual. Esta ordenación se realiza con los botones **Traer al frente** y **Enviar atrás** que se encuentran en la sección **Organizar** de la cinta **Formato**. Esta cinta aparece cuando se seleccionan uno o más objetos visuales en la página (y no está disponible si no se ha seleccionado ningún objeto visual).
+Puede administrar el orden de delante hacia atrás de los objetos visuales de un informe, lo que suele conocerse como el *orden Z* de elementos. Esta característica permite superponer objetos visuales de la manera que quiera y luego ajustar el orden de delante hacia atrás de cada uno de ellos. Para establecer el orden de los objetos visuales, use los botones **Traer al frente** y **Enviar atrás** que se encuentran en la sección **Organizar** de la cinta de opciones **Formato**. La cinta de opciones **formato** aparece en cuanto selecciona uno o más objetos visuales en la página.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_4.png)
 
-Con las opciones de la cinta **Formato**, los objetos visuales se pueden alinear de muchas maneras diferentes. De este modo se asegura de que los objetos visuales aparecen en la página con la alineación que mejor funciona y es más atractiva para usted.
+La cinta de opciones **Formato** permite alinear los objetos visuales de muchas maneras diferentes, lo que garantiza que los objetos visuales se mostrarán en la alineación mejor convenga.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_5.png)
 
-Cuando un objeto visual está seleccionado, el botón **Alinear** permite alinear ese objeto en el borde (o el centro) del lienzo del informe, como se muestra en la siguiente imagen.
+El botón **Alinear** alinea un objeto visual hacia el borde (o el centro) del lienzo del informe, como se muestra en esta siguiente.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_6.png)
 
-Cuando hay dos o más objetos visuales seleccionados, se alinean entre sí y usan el límite alineado existente de los objetos visuales para la alineación. Por ejemplo, con dos objetos visuales seleccionados y el botón *Alinear a la izquierda* seleccionado, los objetos visuales se ajustarán al límite del extremo izquierdo de todos los objetos visuales.
+Cuando hay dos o más objetos visuales seleccionados, se alinean entre sí y usan el límite alineado existente de los objetos visuales para su alineación. Por ejemplo, si selecciona dos objetos visuales y elige la opción **Alinear a la izquierda**, los objetos visuales se alinean hacia el extremo izquierdo de todos los objetos visuales.
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_7.png)
 
@@ -88,5 +88,5 @@ También puede distribuir los objetos visuales uniformemente en el lienzo del in
 
 ![](media/desktop-gridlines-snap-to-grid/snap-to-grid_8.png)
 
-Con la selección de algunas de estas líneas de cuadrícula, la alineación y las herramientas de distribución, los informes tendrán la apariencia deseada.
+Con la selección de algunas de estas líneas de cuadrícula, la alineación y las herramientas de distribución, los informes tendrán la apariencia que busca.
 

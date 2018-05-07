@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 15d492aba39da23a06ac2f13bce676e0123a332c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: f982ba613bef66514aab39b43cf0fe92b1b7b81c
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Agregar una columna personalizada en Power BI Desktop
 Puede agregar fácilmente una nueva columna personalizada de datos al modelo mediante el **Editor de consultas** de **Power BI Desktop**. Puede crear y cambiar el nombre de la columna personalizada mediante sencillos botones para crear [fórmulas M](https://msdn.microsoft.com/library/mt270235.aspx) que definan la columna personalizada. La fórmula M tiene un [conjunto de contenido de referencia de función completo](https://msdn.microsoft.com/library/mt779182.aspx). 
@@ -40,10 +40,10 @@ Una vez que se inicie el **Editor de consultas** y tenga algunos datos cargados,
 
 ![](media/desktop-add-custom-column/add-custom-column_02.png)
 
-Al hacerlo, aparecerá la ventana **Agregar columna personalizada**, que se analizará en la sección siguiente.
+Aparece la ventana **Agregar columna personalizada**, que se describe en la sección siguiente.
 
 ## <a name="the-add-custom-column-window"></a>La ventana Agregar columna personalizada
-En la ventana **Agregar columna personalizada**, consulte la lista de campos disponibles en el panel de la derecha, el nombre de la columna personalizada en la parte superior (se puede cambiar con solo escribir un nuevo nombre en ese cuadro de texto) y la fórmula [**M**](https://msdn.microsoft.com/library/mt779182.aspx) que va a crear (o escribir) basándose en la inserción de campos desde la derecha, la adición de operadores y, si no, en la compilación de la fórmula en la que se definirá la nueva columna personalizada. 
+En la ventana **Agregar columna personalizada**, vea la lista de campos disponibles en el panel de la derecha, el nombre de la columna personalizada en la parte superior (se puede cambiar con solo escribir un nuevo nombre en ese cuadro de texto) y la fórmula [**M**](https://msdn.microsoft.com/library/mt779182.aspx) que va a crear (o escribir) basándose en la inserción de campos desde la derecha, la adición de operadores y la compilación de la fórmula en la que se definirá la nueva columna personalizada. 
 
 ![](media/desktop-add-custom-column/add-custom-column_03.png)
 
