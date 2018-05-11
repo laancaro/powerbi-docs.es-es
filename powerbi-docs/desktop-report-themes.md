@@ -15,14 +15,14 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 01/24/2018
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8f5b80497850b8e61bd7df97c3c88777265d7a6b
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 8f4f8c257404eaca97f419603bac386da5bf7446
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Uso de los temas para los informes en Power BI Desktop (versión preliminar)
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -210,7 +210,7 @@ Los valores booleanos son *true* o *false*. Las cadenas deben ir entre comillas 
 | segmentación |
 | stackedAreaChart |
 | tableEx |
-| rectángulos |
+| gráfico de rectángulos |
 | waterfallChart |
 
 La siguiente tabla define los valores de *cardName*. El primer valor de cada celda es el término del archivo JSON, el segundo valor es el nombre de la tarjeta tal y como se muestra en la interfaz de usuario de **Power BI Desktop**.

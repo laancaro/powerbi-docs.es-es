@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 4/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b5da2bf43f2d38e0828571e2b9d404feb615ac69
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7be260a5989ffb6a9dc1b72dad90d227e0b6295b
+ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/28/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles en Power BI Desktop
 Con la **obtención de detalles** en **Power BI Desktop**, puede crear una página en el informe que se centra en una entidad específica, como un proveedor, un cliente o un fabricante. Con el foco en esa página del informe, los usuarios pueden hacer clic con el botón derecho en un punto de datos en otras páginas del informe y obtener detalles de la página que tiene el foco, filtrados en ese contexto.
@@ -45,8 +45,8 @@ Con la **obtención de detalles** en **Power BI Desktop**, puede crear una pági
 ## <a name="use-your-own-image-for-a-back-button"></a>Uso de su propia imagen para un botón Atrás    
  Puesto que el botón Atrás es una imagen, puede reemplazar la imagen de ese objeto visual por cualquier imagen que desee y seguirá funcionando como botón Atrás para que los consumidores del informe puedan volver a la página original.
 
-1. Para usar su propia imagen para un botón Atrás, coloque un objeto visual de imagen en la página de obtención de detalles.
-2. Seleccione el objeto visual y establezca el control deslizante **Botón Atrás** en Activado. Ahora su imagen funciona como botón Atrás.
+1. En la pestaña **Inicio**, haga clic en **Imagen**, encuentre la imagen y colóquela en la página de obtención de detalles.
+2. Seleccione la imagen nueva en la página de obtención de detalles y, en la sección Formato de image, establezca el control deslizante **Vínculo** en Activado y el **tipo** en **Atrás**. Ahora su imagen funciona como botón Atrás.
 
     ![](media/desktop-drillthrough/drillthrough_05.png)
 
