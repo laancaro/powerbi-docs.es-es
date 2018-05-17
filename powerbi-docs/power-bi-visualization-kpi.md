@@ -1,5 +1,5 @@
 ---
-title: Objetos visuales de KPI (tutorial)
+title: Objetos visuales de KPI
 description: crear KPI en el servicio Power BI y en Power BI Desktop
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,13 @@ ms.workload: powerbi
 ms.date: 03/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d6af52f10f16d973dc97ed0da1ed74bf63ec2cc
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 92fafc120e34fc3f11d203ca784189f037ad5a7f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="kpi-visuals-tutorial"></a>Objetos visuales de KPI (tutorial)
+# <a name="kpi-visuals"></a>Objetos visuales de KPI
 Un indicador clave de rendimiento (KPI) es una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. Para más información acerca de los KPI, consulte [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
 
 ## <a name="when-to-use-a-kpi"></a>Cuándo usar un KPI

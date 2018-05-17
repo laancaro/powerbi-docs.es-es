@@ -1,16 +1,16 @@
 ---
-title: "Inicio rápido: Creación de un panel de Power BI desde un informe"
-description: "Creación de un panel de Power BI desde un informe"
+title: Creación de un panel de Power BI desde un informe
+description: Creación de un panel de Power BI desde un informe
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+backup: ''
+editor: ''
+tags: ''
+featuredvideoid: ''
+qualityfocus: ''
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,11 +18,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/02/2018
 ms.author: mihart
-ms.openlocfilehash: 33e003c4e45cf851dbdf2bc602807a57d1ba49af
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e995795496612d8eb8561cacd8bb4d31e1db394b
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
@@ -36,7 +36,7 @@ La creación de un panel es una característica del **creador** y necesita permi
 >
 > 
 
-![Panel](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
+![panel](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Creación de un panel con objetos visuales e imágenes anclados desde un informe
 Vea cómo crea Amanda un nuevo panel anclando visualizaciones de un informe. Después, siga los pasos que aparecen debajo del vídeo para probarlo usted mismo mediante el ejemplo Procurement Analysis.
@@ -109,7 +109,7 @@ En lugar de anclado un objeto visual a la vez, puede [anclar una página de info
 
 4. Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**. Allí verá los iconos que ha anclado en el informe. En el ejemplo siguiente, hemos anclado dos iconos de la página 1 del informe y un icono activo que es la segunda página del informe.
 
-   ![Panel](media/service-dashboard-create/power-bi-dashboard.png)
+   ![panel](media/service-dashboard-create/power-bi-dashboard.png)
 
 Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer mucho más con él.  Pruebe uno de los **Pasos siguientes** sugeridos que aparece a continuación o inicie la reproducción y exploración por su cuenta.   
 

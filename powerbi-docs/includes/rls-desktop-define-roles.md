@@ -21,7 +21,7 @@ Para definir los roles de seguridad, puede hacer lo siguiente.
 7. Escriba las expresiones DAX. Esta expresión debe devolver true o false. Por ejemplo: [Id. de entidad] = "Valor".
    
    > [!NOTE]
-   > Puede usar *username()* en esta expresión. Tenga en cuenta que *username()* tendrá el formato *DOMINIO\Usuario* en Power BI Desktop. En el servicio Power BI, estará en el formato del UPN del usuario. Como alternativa, puede usar *userprincipalname()*, que siempre devolverá el usuario en el formato de su nombre principal de usuario.
+   > Puede usar *username()* en esta expresión. Tenga en cuenta que *username()* tendrá el formato *DOMINIO\Usuario* en Power BI Desktop. En el servicio Power BI, estará en el formato del UPN del usuario. Como alternativa, puede usar *userprincipalname()*, que siempre devuelve el usuario en el formato de su nombre principal de usuario.
    > 
    > 
    

@@ -1,28 +1,28 @@
 ---
-title: "Aprenda por qué los paquetes de R son compatibles con el uso y la creación de scripts de R en Power BI"
+title: Aprenda por qué los paquetes de R son compatibles con el uso y la creación de scripts de R en Power BI
 description: Paquetes de R compatibles e incompatibles con Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 189e9ed8bb63df4fdbebc5eaa11625bef4592d38
-ms.sourcegitcommit: 4217430c3419046c3a90819c34f133ec7905b6e7
+ms.openlocfilehash: c4ff69bff3c65fa64f90184668d34fac5a82815f
+ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/04/2018
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación R](https://www.r-project.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de R (y con el tiempo se van admitiendo más), pero algunos no.
@@ -117,7 +117,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | cvTools |0.3.2 |https://cran.r-project.org/web/packages/cvTools/index.html |
 | data.table |1.9.6 |https://cran.r-project.org/web/packages/data.table/index.html |
 | data.tree |0.7.0 |https://cran.r-project.org/web/packages/data.tree/index.html |
-| date |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
+| fecha |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
 | deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
@@ -176,7 +176,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | geosphere |1.5-1 |https://cran.r-project.org/web/packages/geosphere/index.html |
 | ggdendro |0.1-18 |https://cran.r-project.org/web/packages/ggdendro/index.html |
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
-| ggmcmc |0.8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
+| ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
 | ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
@@ -198,7 +198,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | haplo.stats |1.7.6 |https://cran.r-project.org/web/packages/haplo.stats/index.html |
 | hash |2.2.6 |https://cran.r-project.org/web/packages/hash/index.html |
 | hbsae |1 |https://cran.r-project.org/web/packages/hbsae/index.html |
-| hdrcde |3.1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
+| hdrcde |3,1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
 | HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
@@ -376,7 +376,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | sROC |0.1-2 |https://cran.r-project.org/web/packages/sROC/index.html |
 | stabledist |0.7-0 |https://cran.r-project.org/web/packages/stabledist/index.html |
 | stabs |0.5-1 |https://cran.r-project.org/web/packages/stabs/index.html |
-| stepPlr |0.92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
+| stepPlr |0,92 |https://cran.r-project.org/web/packages/stepPlr/index.html |
 | stringdist |0.9.4.1 |https://cran.r-project.org/web/packages/stringdist/index.html |
 | stringr |1.0.0 |https://cran.r-project.org/web/packages/stringr/index.html |
 | stsm |1.7 |https://cran.r-project.org/web/packages/stsm/index.html |
@@ -396,7 +396,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
-| rectángulos |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
+| gráfico de rectángulos |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
 | tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |

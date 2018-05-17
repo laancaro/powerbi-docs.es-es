@@ -1,15 +1,15 @@
 ---
-title: "Cambiar el tamaño de una página del informe (tutorial)"
-description: "Tutorial: Cambio de la configuración de presentación de una página en un informe de Power BI"
+title: Cambiar el tamaño de una página del informe
+description: Cambiar la configuración de presentación de una página en un informe de Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: modifying
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,13 @@ ms.workload: powerbi
 ms.date: 01/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ec589655a3dc9b3e19def76cee2f20c48a512b2
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8381f3100676b6e20f7fb748045c4852b30c45b9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
 ---
-# <a name="change-the-size-of-a-report-page-tutorial"></a>Cambiar el tamaño de una página del informe (tutorial)
+# <a name="change-the-size-of-a-report-page"></a>Cambiar el tamaño de una página del informe
 En el [artículo y el vídeo anteriores](power-bi-report-display-settings.md), conoció las dos maneras distintas de controlar la presentación de una página en los informes de Power BI: **Vista** y **Tamaño de página**. La vista de página y el tamaño de página están disponibles en el servicio Power BI y en Power BI Desktop y tienen una apariencia y comportamiento similar, pero en este tutorial vamos a utilizar el servicio Power BI.
 
 ### <a name="prerequisites"></a>Requisitos previos

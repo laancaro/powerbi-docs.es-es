@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 974194cb04701e2dc21814a0945227ad9c4b770c
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 67e0008383147763654d8e3a053384d28f4a57f7
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Uso de etiquetas de jerarquía alineadas en Power BI Desktop
 **Power BI Desktop** admite el uso de las **etiquetas de jerarquía alineadas**, que es la primera de las dos características diseñadas para explorar mejor la jerarquía. La segunda característica, que actualmente está en desarrollo, es la capacidad de usar etiquetas de jerarquía anidadas (esté atento, porque las actualizaciones se realizan con frecuencia).   
@@ -30,35 +30,41 @@ ms.lasthandoff: 05/04/2018
 ## <a name="how-inline-hierarchy-labels-work"></a>Funcionamiento de las etiquetas de jerarquía alineadas
 Con las etiquetas de jerarquía alineadas, puede ver las etiquetas de jerarquía cuando expande los objetos visuales con la característica **Expandir todo**. Una gran ventaja de ver estas etiquetas de jerarquía es que también puede optar por **ordenar** según estas distintas etiquetas de jerarquía cuando expande los datos jerárquicos.
 
-### <a name="using-the-built-in-expand-all-feature-without-sorting-by-hierarchy-labels"></a>Uso de la característica integrada Expandir todo (sin ordenar por etiquetas de jerarquía)
-Antes de que veamos en acción las etiquetas de jerarquía alineadas, revisemos el comportamiento predeterminado de la característica **Expandir todo**. Esto nos ayudará a comprender (y apreciar) la utilidad que pueden llegar a tener las etiquetas de jerarquía alineadas.
+### <a name="using-the-built-in-expand-feature-without-sorting-by-hierarchy-labels"></a>Uso de la característica integrada Expandir (sin ordenar por etiquetas de jerarquía)
+Antes de ver en acción las etiquetas de jerarquía en línea, revisemos el comportamiento predeterminado de la característica **Expandir al nivel siguiente**. Esto nos ayudará a comprender (y apreciar) la utilidad que pueden llegar a tener las etiquetas de jerarquía alineadas.
 
-La imagen siguiente muestra un objeto visual de gráfico de barras correspondiente a las ventas anuales. Cuando hace clic con el botón derecho, puede elegir **Expandir todo**.
+La imagen siguiente muestra un objeto visual de gráfico de barras correspondiente a las ventas anuales. Al hacer clic con el botón derecho en una barra, puede seleccionar **Expandir al nivel siguiente**.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_4.png)
+![Menú contextual para expandir](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-menu.png)
 
-Una vez que selecciona **Expandir todo**, el objeto visual expande la jerarquía de fechas de *Año* a *Trimestre*, tal como se muestra en la imagen siguiente.
+> [!NOTE]
+> En vez de hacer clic con el botón derecho en una barra, puede seleccionar el botón *Expandir* en la parte superior izquierda de la visualización.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_5.png)
+  ![Botón Expandir](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-expand-button-finger.png)
 
-Observe que las etiquetas *Año* y *Trimestre* se muestran alineadas y juntas. Este esquema de etiquetado continúa si seleccionar **Expandir todo** hacia la parte inferior de la jerarquía.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_6.png)
+Una vez que haya seleccionado **Expandir al nivel siguiente**, el objeto visual expandirá la jerarquía de fechas de *Año* a *Trimestre*, tal como se muestra en la imagen siguiente.
+
+![Objeto visual expandido a año y trimestre](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter.png)
+
+Observe que las etiquetas *Año* y *Trimestre* se muestran alineadas y juntas. Este esquema de etiquetado continúa si selecciona **Expandir todo** hacia la parte inferior de la jerarquía.
+
+![Objeto visual expandido a año, trimestre y mes](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-qty-year-quarter-month.png)
 
 Este es el comportamiento de la jerarquía *Fecha*, asociada con campos que tienen un tipo de datos de *fecha y hora*. Vamos a la sección siguiente, donde veremos qué diferencia tiene la nueva característica de etiquetas de jerarquía alineadas.
 
 ### <a name="using-inline-hierarchy-labels"></a>Uso de las etiquetas de jerarquía alineadas
-Ahora, veamos un gráfico distinto que usa datos que incluyen jerarquías informales. En el siguiente objeto visual, tenemos un gráfico de barras con **Importe de las ventas** que utiliza *Color* como el eje. En estos datos, *Color* y *Clase* forman una jerarquía informal. Aquí, puede seleccionar nuevamente *Expandir todo* para explorar en profundidad la jerarquía.
+Ahora, veamos un gráfico distinto que usa datos que incluyen jerarquías informales. En el siguiente objeto visual, tenemos un gráfico de barras con **Cantidad** que usa *ProductName* como eje. En estos datos, *ProductName* y *ShipCountry* forman una jerarquía informal. Aquí, puede seleccionar nuevamente *Expandir al nivel siguiente* para explorar en profundidad la jerarquía.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_7.png)
+![Gráfico con jerarquía informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Si selecciona **Expandir todo**, se muestra el nivel siguiente con la visualización alineada de las etiquetas de jerarquía. De manera predeterminada, las jerarquías alineadas se orden según el valor de la medida, en este caso, **SalesAmount**. Con las etiquetas de jerarquía alineadas habilitadas, puede optar por ordenar estos datos también según la jerarquía; para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha (**...**) y, luego, seleccione **Ordenar por > Color Class**, tal como aparece en la imagen siguiente.
+Si selecciona **Expandir al nivel siguiente**, se muestra el nivel siguiente con la visualización en línea de las etiquetas de jerarquía. De manera predeterminada, las jerarquías en línea se ordenan según el valor de la medida, en este caso, **Cantidad**. Con las etiquetas de jerarquía en línea habilitadas, puede optar por ordenar estos datos también según la jerarquía. Para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha (**…**) y, luego, seleccione **Ordenar por ProductName ShipCountry**, tal como se muestra en la imagen siguiente.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_8.png)
+![Gráfico con jerarquía informal ordenado de forma predeterminada](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 
-Una vez que se selecciona **Color Class**, los datos se ordenan según la selección de jerarquía informal, tal como aparece en la imagen siguiente.
+Una vez que se selecciona **ShipCountry**, los datos se ordenan según la selección de jerarquía informal, tal como aparece en la imagen siguiente.
 
-![](media/desktop-inline-hierarchy-labels/inlinehierarchy_9.png)
+![Gráfico con jerarquía informal ordenado por jerarquía informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sorted.png)
 
 > [!NOTE]
 > La característica de etiqueta de jerarquía alineada todavía no permite que la jerarquía de tiempo integrada se ordene por valor; solo se ordena por el orden de la jerarquía.

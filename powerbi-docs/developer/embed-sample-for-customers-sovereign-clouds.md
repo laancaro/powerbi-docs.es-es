@@ -17,11 +17,11 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 03/28/2018
 ms.author: maghan
-ms.openlocfilehash: bef0748f1431a29c96d7aa23ab457683e247724a
-ms.sourcegitcommit: e571de2afa3f34fac06a6aab0df0e8940cb00a0d
+ms.openlocfilehash: 5d0d679a9b5d3bea494915dc981e155ad69eeac6
+ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/05/2018
+ms.lasthandoff: 05/14/2018
 ---
 # <a name="embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Insertar un panel, icono o informe de Power BI en la aplicación para nubes soberanas
 Aprenda a integrar, o insertar, un panel, icono o informe en una aplicación web mediante el SDK de .NET de Power BI, junto con la API de JavaScript de Power BI cuando inserte contenido para los clientes. Este es el escenario habitual para las aplicaciones de ISV.
@@ -38,7 +38,7 @@ Power BI también admite nubes soberanas (privadas). Cada nube soberana tiene su
 
 ![Panel insertado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene configurada una cuenta, en función del tipo de gobierno puede [registrarse para obtener una cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md) o [una cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/en-us/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
+Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene configurada una cuenta, en función del tipo de gobierno puede [registrarse para obtener una cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md) o [una cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1).
 
 > [!NOTE]
 > En lugar de eso, ¿desea insertar un panel para la organización? Consulte [Integrar un panel en una aplicación para la organización](integrate-dashboard.md).
@@ -407,7 +407,7 @@ Hay una aplicación de ejemplo disponible en el [ejemplo de inserción de conten
 
 * Una aplicación de ejemplo está disponible en GitHub para que la revise. Los ejemplos anteriores se basan en ese ejemplo. Para más información, consulte el [ejemplo de inserción de contenido para la organización](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data).
 * Para más información sobre la API de JavaScript, consulte [API de JavaScript para Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
-* Para más información sobre Power BI para la nube de Alemania, consulte [Preguntas más frecuentes sobre Power BI para la nube de Alemania](https://docs.microsoft.com/en-us/power-bi/service-govde-faq).
+* Para más información sobre Power BI para la nube de Alemania, consulte [Preguntas más frecuentes sobre Power BI para la nube de Alemania](https://docs.microsoft.com/power-bi/service-govde-faq).
 * [Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI](migrate-from-powerbi-embedded.md)
 
 Limitaciones y consideraciones

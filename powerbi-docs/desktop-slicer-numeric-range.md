@@ -15,28 +15,28 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 05/02/2018
+ms.date: 05/07/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f9ef31815f82775fd228f170073ee576c299ed45
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 460221ed9cf35b4c5db9509085a819519202d4a3
+ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/12/2018
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Uso de la segmentación de intervalos numéricos en Power BI Desktop
 Gracias a la **segmentación de intervalos numéricos**, puede aplicar todo tipo de filtros a cualquier columna numérica del modelo de datos. Puede filtrar **entre** números, o por un número **menor o igual que** o **mayor o igual que** otro número. Aunque esto puede parecer demasiado simple, es una manera muy eficaz de filtrar los datos.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_2.png)
+![Objeto visual con segmentación de intervalos numéricos](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-0.png)
 
 ## <a name="using-the-numeric-range-slicer"></a>Uso de la segmentación de intervalos numéricos
-Puede usar la segmentación de intervalos numéricos igual que cualquier otra segmentación de datos. Solo tiene que crear un objeto visual de **segmentación** para el informe y, a continuación, seleccionar un valor numérico para el valor **Campo**. En la siguiente imagen, se ha seleccionado el campo *UnitPrice*.
+Puede usar la segmentación de intervalos numéricos igual que cualquier otra segmentación de datos. Solo tiene que crear un objeto visual de **segmentación** para el informe y, a continuación, seleccionar un valor numérico para el valor **Campo**. En la imagen siguiente, se ha seleccionado el campo *LineTotal*.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_3.png)
+![Crear una segmentación de intervalos numéricos](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-1-create.png)
 
-Seleccione el acento circunflejo en la esquina superior derecha de la **segmentación de intervalos numéricos** y aparecerá un menú.
+Seleccione el vínculo de flecha abajo en la esquina superior derecha de la **segmentación de intervalos numéricos** y aparecerá un menú.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_4.png)
+![Menú de segmentación de intervalos numéricos](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-2-between.png)
 
 Para el intervalo numérico, puede seleccionar entre las siguientes tres opciones:
 
@@ -44,29 +44,27 @@ Para el intervalo numérico, puede seleccionar entre las siguientes tres opcione
 * Menor o igual que
 * Mayor o igual que
 
-Cuando se selecciona **Entre** en el menú, aparece un control deslizante y puede filtrar por los valores numéricos que se encuentran entre los números seleccionados. Además de utilizar la propia barra deslizante, también puede hacer clic en cualquiera de los cuadros y escribir los valores. Esto resulta útil cuando desea segmentar en números enteros específicos, ya que la precisión a la hora de mover la barra de segmentación de datos hace que sea difícil elegir exactamente el número deseado.
+Cuando se selecciona **Entre** en el menú, aparece un control deslizante y puede filtrar por los valores numéricos que se encuentran entre los números seleccionados. Además de utilizar la propia barra deslizante, también puede hacer clic en cualquiera de los cuadros y escribir los valores. Esto resulta útil cuando quiere segmentar en números específicos, pero la precisión a la hora de mover la barra de segmentación de datos hace que sea difícil elegir exactamente el número deseado.
 
-En la siguiente imagen, la página de informe se filtra por los valores *UnitPrice* comprendidos entre 500 y 1500.
+En la imagen siguiente, la página de informe se filtra por los valores *LineTotal* comprendidos entre 2500,00 y 6000,00.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_5.png)
+![Segmentación de intervalos numéricos con la opción Entre](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-3-between-range.png)
 
-Cuando se selecciona **Menor o igual que**, desaparece el controlador de la izquierda (el valor inferior) de la barra deslizante y podemos ajustar solo el límite superior de la barra. En la siguiente imagen, se establece la barra deslizante en 497,17.
+Cuando se selecciona **Menor o igual que**, desaparece el controlador de la izquierda (el valor inferior) de la barra deslizante y podemos ajustar solo el límite superior de la barra. En la imagen siguiente, la barra deslizante se establece en un máximo de 5928,19.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_6.png)
+![Segmentación de intervalos numéricos con la opción Menor que](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-4-less-than.png)
 
-Por último, si se selecciona **Mayor o igual que**, desaparecerá el control de la barra deslizante de la derecha (el del valor más alto) y solo podremos ajustar el valor inferior, tal como se muestra en la siguiente imagen. Ahora solo aquellos elementos con un valor de *UnitPrice* mayor o igual que 750,56 aparecerán en los objetos visuales de la página de informe.
+Por último, si se selecciona **Mayor o igual que**, desaparecerá el control de la barra deslizante de la derecha (el del valor más alto) y solo podremos ajustar el valor inferior, tal como se muestra en la siguiente imagen. Ahora solo aquellos elementos con un valor de *LineTotal* mayor o igual que 4902,99 aparecerán en los objetos visuales de la página de informe.
 
-![](media/desktop-slicer-numeric-range/slicer-numeric-range_7.png)
+![Segmentación de intervalos numéricos con la opción Mayor que](media/desktop-slicer-numeric-range/desktop-slicer-numeric-range-5-greater-than.png)
 
-## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer-preview"></a>Ajuste a números enteros con la segmentación de rango numérico (versión preliminar)
+## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ajuste a números enteros con la segmentación de intervalos numéricos
 
-Desde la versión de febrero de 2018 de **Power BI Desktop**, la segmentación de rango numérico se ajustará a números enteros. Esto permite que la segmentación se alinee limpiamente con números enteros. El ajuste a números enteros no se aplica a los filtros decimales.
+Una segmentación de intervalos numéricos se ajustará a números enteros, a menos que sea un intervalo decimal. Esto permite que la segmentación se alinee limpiamente con números enteros. 
 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-Las siguientes limitaciones y consideraciones se aplican actualmente a la **segmentación de intervalos numéricos**
+Las siguientes limitaciones y consideraciones se aplican actualmente a la **segmentación de intervalos numéricos**:
 
 * Actualmente, la **segmentación de intervalos numéricos** filtra todas las filas subyacentes de los datos, pero no los valores agregados. Por ejemplo, si se usa un campo *Sales Amount*, se podría filtrar cada transacción basada en *Sales Amount* pero no la suma de *Sales Amount* de cada punto de datos de un objeto visual.
-* Actualmente no funciona con medidas
-* En este momento, la **segmentación de intervalos numéricos** solo está disponible en **Power BI Desktop**. Si un informe que usa la **segmentación de intervalos numéricos** se publica en el **servicio Power BI**, el filtro se seguirá aplicando pero aparecerá como una segmentación de datos de lista.
-
+* Actualmente no funciona con medidas.

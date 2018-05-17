@@ -15,19 +15,24 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/12/2017
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d6075832d77f6bea7d7d8588719c4a002cdbf298
-ms.sourcegitcommit: 93e7362fc47319959b6992dfd037effdf831d010
+ms.openlocfilehash: 2fd3b599e89646f7bcebbe8b65212765fe76874b
+ms.sourcegitcommit: 9fa954608e78dcdb8d8a503c3c9b01c43ca728ab
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 05/11/2018
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar Preguntas y respuestas en Power BI Desktop para consultas en lenguaje natural
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Y es más eficaz aún cuando los datos responden, que es lo que permite hacer la característica Preguntas y respuestas de **Power BI Desktop**.
 
 Para que Preguntas y respuestas sea capaz de interpretar correctamente la gran cantidad de preguntas que es capaz de responder, Preguntas y respuestas debe realizar suposiciones sobre el modelo. Si la estructura del modelo no cumple uno o varios de estos supuestos, debe ajustarlo. Estos ajustes para Preguntas y respuestas son las mismas optimizaciones recomendadas para cualquier modelo en Power BI, independientemente de que use o no Preguntas y respuestas. 
+
+> [!NOTE]
+> Solo hay preguntas y respuestas disponibles cuando se trabaja con un modelo que contiene datos **importados**. No se pueden realizar conexiones dinámicas con los modelos de SSAS y DirectQuery.
+>
+>
 
 En las siguientes secciones, se describe cómo ajustar el modelo para que funcione correctamente con Preguntas y respuestas en Power BI.
 

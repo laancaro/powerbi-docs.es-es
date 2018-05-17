@@ -18,11 +18,11 @@ ms.workload: powerbi
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2ab907dd15e43892147967902fbb94d09ef4125b
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: f70ebae419c83e359f950d7b1180809d3e25b59e
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="create-a-responsive-slicer-you-can-resize-in-power-bi-preview"></a>Crear una segmentación con capacidad de respuesta que se puede cambiar de tamaño en Power BI (versión preliminar)
 
@@ -87,5 +87,5 @@ Puede seguir los mismos pasos para convertir una segmentación de fecha e interv
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Tutorial: Segmentaciones de datos en el servicio Power BI](power-bi-visualization-slicers.md)
+- [Segmentaciones en el servicio Power BI](power-bi-visualization-slicers.md)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

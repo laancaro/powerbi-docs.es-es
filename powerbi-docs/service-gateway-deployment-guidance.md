@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 899cef8c4e441c49f40acc7873348fe80a7b5f9d
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 6920e31c1f72bf51eeefb7b515f8e54c8fafbfd9
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/07/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
+
 Este artículo proporciona instrucciones y algunas consideraciones para implementar una puerta de enlace de datos en el entorno de red. Una **puerta de enlace** es un software que facilita el acceso a los datos que residen en una red privada y local para su uso posterior en un servicio en la nube como Power BI. Este artículo le guía a través de la implementación y proporciona instrucciones para la configuración de la **puerta de enlace de datos local**.
 
 ![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_01.png)
@@ -110,7 +111,7 @@ La puerta de enlace crea una conexión de salida con **Azure Service Bus**. La p
 
 La puerta de enlace *no* requiere puertos de entrada. Todos los puertos necesarios se enumeran en la lista anterior.
 
-Se recomienda añadir a la lista de permitidos de su firewall las direcciones IP de su región de datos. Puede descargar la lista de direcciones IP, que se encuentran en la [lista de direcciones IP del centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Esa lista se actualiza semanalmente. La puerta de enlace usará la dirección IP especificada junto con el nombre de dominio completo (FQDN) para comunicarse con **Azure Service Bus**. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
+Se recomienda añadir a la lista blanca de su firewall las direcciones IP de su región de datos. Puede descargar la lista de direcciones IP, que se encuentran en la [lista de direcciones IP del centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Esa lista se actualiza semanalmente. La puerta de enlace usará la dirección IP especificada junto con el nombre de dominio completo (FQDN) para comunicarse con **Azure Service Bus**. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>Forzar la comunicación HTTPS con Azure Service Bus
 Puede obligar a la puerta de enlace a comunicarse con **Azure Service Bus** a través de HTTPS en vez de TCP directo. Si lo hace, se reducirá ligeramente el rendimiento. También puede forzar la puerta de enlace a comunicarse con el **Azure Service Bus** mediante HTTPS a través de la interfaz de usuario de la puerta de enlace (desde la versión de marzo de 2017 de la puerta de enlace).
