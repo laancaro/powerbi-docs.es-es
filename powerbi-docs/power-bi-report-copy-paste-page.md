@@ -1,29 +1,21 @@
 ---
 title: Duplicar una página del informe en Power BI
 description: Copiar y pegar una página del informe en Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: UOKbxTXZrWw
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 08ac9c2be324109e12287de445038941ec0c7d00
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: c75fd53b7aaa941e8e94518950e9f3ebaaa40c35
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="duplicate-a-report-page-in-power-bi"></a>Duplicar una página del informe en Power BI
 La duplicación de una página del informe en el servicio Power BI o Power BI Desktop requiere permisos de edición en el informe. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 

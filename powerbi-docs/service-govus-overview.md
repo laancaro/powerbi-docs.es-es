@@ -1,28 +1,20 @@
 ---
 title: Introducción a Power BI para clientes de la Administración Pública de Estados Unidos
 description: Los clientes de la Administración Pública de Estados Unidos pueden obtener información sobre las características y las limitaciones del servicio Power BI para la Administración Pública de Estados Unidos.
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fc917b3a6754c0e9badc11b0d331ae1328bf089c
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: ecd3c4a3d9cf9beddff5053f3dc696e6e99de70a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -104,7 +96,7 @@ Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, 
 
 * [Registro en Power BI para la Administración Pública de Estados Unidos](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demo</a> (Demostración de Power BI para la Administración Pública de Estados Unidos)
-* [Aprendizaje guiado de Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Aprendizaje guiado de Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Introducción al servicio Power BI](service-get-started.md)
 * [Introducción a Power BI Desktop](desktop-getting-started.md)
 

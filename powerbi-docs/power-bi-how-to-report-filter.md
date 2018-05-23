@@ -1,28 +1,20 @@
 ---
 title: Información general sobre el panel Filtros de Power BI
 description: Información general sobre el panel Filtros del informe en el servicio Power BI y en el panel de Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/15/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 00b0b116aa59ebab1d963a8803f788040761d9f5
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 En este artículo se analiza en profundidad el panel Filtros del informe. Verá el panel en la [vista de edición y la vista de lectura del servicio Power BI](service-reading-view-and-editing-view.md) y en la [vista de informe de Power BI Desktop](desktop-report-view.md).

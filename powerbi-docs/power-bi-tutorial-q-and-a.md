@@ -1,25 +1,19 @@
 ---
 title: 'Tutorial: Uso de Preguntas y respuestas en un panel o en un informe'
 description: Tutorial sobre cómo usar Preguntas y respuestas de Power BI para crear nuevas visualizaciones en paneles e informes.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-editor: ''
-tags: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 44501e5447248164f6f04d4463213939975e18ae
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 0e98c68e62f36114257052171e0928db25853f24
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Uso de Preguntas y respuestas para crear visualizaciones y generar informes
 En la [Introducción a Preguntas y respuestas](power-bi-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.

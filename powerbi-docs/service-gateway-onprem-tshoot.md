@@ -1,28 +1,20 @@
 ---
 title: Solución de problemas con la puerta de enlace de datos local
 description: En este artículo se indican distintas formas de solucionar los problemas que surjan con la puerta de enlace de datos local. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/23/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 094a43925c184c6cbce8b023ba4aae655f379dd9
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: a12ad01ad5e387b9ffe855ce15e8164656bfbf33
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 En este artículo se examinan algunos problemas comunes que pueden aparecer al usar la **puerta de enlace de datos local**.

@@ -1,28 +1,20 @@
 ---
 title: Uso de páginas de información en pantalla para informes en Power BI
 description: Las páginas de información en pantalla de Power BI Desktop le permiten crear información enriquecida para los objetos visuales de los informes que se muestra al mantener el puntero
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 87733126c4772b88c4e58cf60f9640668faf9cc7
-ms.sourcegitcommit: 65426de556cd7207cbc4f478198664e25c33a769
+ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/30/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creación de información en pantalla basada en páginas de informes en Power BI Desktop (versión preliminar)
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 

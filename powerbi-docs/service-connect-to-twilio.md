@@ -1,28 +1,20 @@
 ---
 title: Conexión a Twilio con Power BI
 description: Twilio para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 04f1c71aa70d171b6a786ab8bdc32dc9686b14c3
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f81330ec331ae42dea994982369428e9f7eb23aa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-twilio-with-power-bi"></a>Conexión a Twilio con Power BI
 El paquete de contenido de Microsoft Twilio para Power BI permite extraer los datos en Power BI y crear un [panel de Twilio](https://powerbi.microsoft.com/integrations/twilio) preconfigurado y un informe que muestra información sobre los datos. También puede crear informes personalizados y paneles en el conjunto de datos creado por Power BI. Los datos se actualizarán una vez al día por lo que siempre está mirando los datos más recientes.

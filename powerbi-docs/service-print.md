@@ -1,29 +1,21 @@
 ---
 title: Imprimir desde el servicio Power BI
-description: "Impresión de un panel, un icono o una página de informe desde Power BI."
-services: powerbi
-documentationcenter: 
+description: Impresión de un panel, un icono o una página de informe desde Power BI.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d8b4175f83415821e1ff9b63e3c53cd8f869b54f
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: d5859c0b59717a4af432c5fb7b526fa62ff03f59
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="printing-from-power-bi-service"></a>Imprimir desde el servicio Power BI
 Imprima todo un panel, un icono de panel, una página de informe o un objeto visual de informe desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez.

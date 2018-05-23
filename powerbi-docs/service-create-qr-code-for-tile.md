@@ -1,31 +1,23 @@
 ---
-title: "Crear un código QR para un icono para su uso en las aplicaciones móviles de Power BI"
-description: "Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI, sin que se necesite una búsqueda."
-services: powerbi
-documentationcenter: 
+title: Crear un código QR para un icono para su uso en las aplicaciones móviles de Power BI
+description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI, sin que se necesite una búsqueda.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e7f37a076f913d50f5a6b654aa79b50d61bc5add
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 3b0bf5e54ad6486134eb641d276fc9233b001157
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Crear un código QR para un icono en Power BI para su uso en aplicaciones móviles
-Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
+Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada & #151; no es necesario realizar ninguna exploración o búsqueda.
 
 Puede crear un código QR en el servicio Power BI para iconos en cualquier panel, incluso en los que no pueda editar. A continuación, coloque el código QR en una ubicación clave. Por ejemplo, podría pegarlo en un correo electrónico, o imprimirlo y pegarlo en una ubicación específica. 
 

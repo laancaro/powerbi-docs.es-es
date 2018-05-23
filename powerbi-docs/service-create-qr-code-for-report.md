@@ -1,31 +1,23 @@
 ---
 title: Cree un código QR para un informe para su uso en las aplicaciones móviles de Power BI
 description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI, sin que se necesite una búsqueda.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c3c610eb7970c911eaaf1437ac7f92f9f4f624d
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: d99081a3d77ebfa7115d7546c59adc42eab308ca
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-qr-code-for-a-report-in-power-bi-to-use-in-the-mobile-apps"></a>Cree un código QR para un informe en Power BI para su uso en aplicaciones móviles
-Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
+Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada & #151; no es necesario realizar ninguna exploración o búsqueda.
 
 Puede crear un código QR en el servicio Power BI para cualquier informe, incluso para uno que no que puede editar. Después, coloque el código QR en una ubicación clave. Por ejemplo, podría pegarlo en un correo electrónico, o imprimirlo y pegarlo en una ubicación específica. 
 

@@ -1,28 +1,20 @@
 ---
 title: Uso de Kerberos en la puerta de enlace local para el SSO (inicio de sesión único) de Power BI en los orígenes de datos locales
 description: Configuración de la puerta de enlace con Kerberos para habilitar SSO desde Power BI en los orígenes de datos locales
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: f2d5cea1881d6a450b9188e9754ac503cb45f301
-ms.sourcegitcommit: 50016425005d2e929c8c606c2d0d393342e05d39
+ms.openlocfilehash: fc7885755da62c7b777bb0af7627626b1ce60aa0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/12/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
 Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.

@@ -1,29 +1,21 @@
 ---
-title: "Generación automática de información sobre los datos con Power BI"
-description: "Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel."
-services: powerbi
-documentationcenter: 
+title: Generación automática de información sobre los datos con Power BI
+description: Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 5623667cd1a39b05795d162055ad0d3351d127bc
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 19b7bf6105a2d178d51d8068f0226160b8a28467
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="automatically-generate-data-insights-with-power-bi"></a>Generación automática de información sobre los datos con Power BI
 ¿Tiene un nuevo conjunto de datos y no está muy seguro de por dónde debe empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?

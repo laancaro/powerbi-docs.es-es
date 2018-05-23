@@ -1,29 +1,21 @@
 ---
 title: Personalización de las propiedades de los ejes X e Y
 description: Personalización de las propiedades de los ejes X e Y
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
+ms.reviewer: ''
 featuredvideoid: 9DeAKM4SNJM
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 05/16/2017
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be31751c8ca6efb4e7b2dbcbd0215a1c7d002df5
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 372f00e7bd62068688bdcc22c1e983c3fe629f8a
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalización de las propiedades de los ejes X e Y
 En este tutorial conocerá multitud de formas diferentes de personalizar los ejes X e Y de los objetos visuales. No todos los objetos visuales pueden personalizarse o presentan ejes; por ejemplo, los gráficos circulares no los tienen. Además, las opciones de personalización, demasiadas como para abarcarlas en un único artículo, varían de un objeto visual a otro. Por lo tanto, echaremos un vistazo a algunas de las personalizaciones de ejes más utilizadas y nos familiarizaremos con la pestaña de formato de los objetos visuales del lienzo de informes de Power BI.  

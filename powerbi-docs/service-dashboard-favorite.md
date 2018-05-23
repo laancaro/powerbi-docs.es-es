@@ -1,29 +1,21 @@
 ---
 title: Favoritos en el servicio Power BI (paneles, informes, aplicaciones)
-description: "Documentación acerca de cómo establecer como favoritos paneles, informes y aplicaciones en el servicio Power BI"
-services: powerbi
-documentationcenter: 
+description: Documentación acerca de cómo establecer como favoritos paneles, informes y aplicaciones en el servicio Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
+ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-tags: 
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 82f8575c019790820aa46c75e095f8ef64bb6fde
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
 Al marcar contenido como *favorito*, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser el contenido que se visita más a menudo.
@@ -54,7 +46,7 @@ Vea a Amanda agregar favoritos a su espacio de trabajo; después, siga las instr
 
 1. Seleccione **Aplicaciones** en el panel de navegación izquierdo.
 
-   ![Panel](media/service-dashboard-favorite/power-bi-favorite-apps.png)
+   ![panel](media/service-dashboard-favorite/power-bi-favorite-apps.png)
 
 2. Mueva el puntero sobre una aplicación para que se muestren más detalles.  Seleccione el icono de estrella ![icono de estrella](media/service-dashboard-favorite/power-bi-favorite-icon.png)  para marcarla como favorita.
    

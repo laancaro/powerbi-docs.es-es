@@ -1,29 +1,21 @@
 ---
 title: 'Modo de enfoque: acerque una sola visualización para ver más detalles.'
 description: Documentación para mostrar un icono de panel o una visualización de informe de Power BI en modo de enfoque, también conocido como elemento emergente.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 3073fb3515dd90e676d38a1f89aca4c66445cd1f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 367a6b9b5de4d052dac3ca3b80be5f4037467646
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="display-a-dashboard-tile-or-report-visual-in-focus-mode"></a>Muestra de un icono de panel o un objeto visual de informe en modo de enfoque
 

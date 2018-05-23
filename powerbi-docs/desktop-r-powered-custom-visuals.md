@@ -1,28 +1,20 @@
 ---
 title: Usar objetos visuales personalizados con tecnología R en Power BI
 description: Usar objetos visuales personalizados con tecnología R en Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: cc8d0165266c38a39d6a6c0b930f7e16443281e1
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: d7170ce02294c3eadbfa38f0a25a2ab58777720b
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-r-powered-custom-visuals-in-power-bi"></a>Usar objetos visuales personalizados con tecnología R en Power BI
 En **Power BI Desktop** y el **servicio Power BI**, puede usar objetos visuales personalizados con tecnología R sin tener que aprender a usar R ni crear scripts. Esto le permite aprovechar el poder analítico y visual de objetos visuales y scripts de R sin que tenga que aprender a usar R ni a programarlo.

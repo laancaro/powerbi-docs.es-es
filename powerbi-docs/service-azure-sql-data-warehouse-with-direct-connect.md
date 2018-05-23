@@ -1,28 +1,20 @@
 ---
 title: Azure SQL Data Warehouse con DirectQuery
 description: Azure SQL Data Warehouse con DirectQuery
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 87b49833b5c0d1d634d440e947659a12ac87b66c
-ms.sourcegitcommit: 1fe3ababba34c4e7aea08adb347ec5430e0b38e4
+ms.openlocfilehash: d6a5aa5bfc1ac9a2a5f7784464598800f70d0f05
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 Azure SQL Data Warehouse con DirectQuery permite crear informes dinámicos en función de los datos y métricas que ya existen en Azure SQL Data Warehouse. Con DirectQuery, las consultas se vuelven a enviar a Azure SQL Data Warehouse en tiempo real a medida que explora los datos. Esto, combinado con el escalado de SQL Data Warehouse, permite a los usuarios crear informes dinámicos en cuestión de minutos con terabytes de datos. Además, la incorporación del botón **Abrir en Power BI** permite a los usuarios conectar directamente Power BI co SQL Data Warehouse sin tener que especificar manualmente la información.

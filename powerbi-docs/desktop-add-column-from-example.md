@@ -1,28 +1,20 @@
 ---
 title: Incorporación de una columna de un ejemplo en Power BI Desktop
 description: Creación rápida de una columna en Power BI Desktop usando como ejemplos las que ya existen
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5031e31f83925d17fb87f39e4610a53617b9fca3
-ms.sourcegitcommit: bdb1fee3612bcc66153dcad8c4db2e99fb041014
+ms.openlocfilehash: 84347678033f3042dc5fd15d311d8e04e855a336
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="add-a-column-from-an-example-in-power-bi-desktop"></a>Incorporación de una columna de un ejemplo en Power BI Desktop
 A partir de la versión de abril de 2017 de **Power BI Desktop**, puede agregar nuevas columnas de datos al modelo mediante el **Editor de consultas** simplemente proporcionando uno o varios valores de ejemplo para la nueva columna. Puede crear un ejemplo de nueva columna a partir de una selección actual o proporcionar datos de todas las columnas (o solo las seleccionadas) de una tabla determinada.

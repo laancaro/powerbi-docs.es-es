@@ -1,28 +1,20 @@
 ---
-title: "Ejemplo de análisis de gasto en TI para Power BI: un paseo"
-description: "Ejemplo de análisis de gasto en TI para Power BI: un paseo"
-services: powerbi
-documentationcenter: 
+title: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
+description: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 904f35ad2ec1cda07393877174ebec5781972b10
-ms.sourcegitcommit: 743e44fc8730fea0f7149916080b0c6d7eb6359d
+ms.openlocfilehash: 206d9866b9bb4e47fea5dba58afbc8cdcf28b675
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: un paseo
 
@@ -77,7 +69,7 @@ Pero si solo miramos este gráfico y sacamos conclusiones podemos equivocarnos. 
 1. Seleccione **Australia y Nueva Zelanda** en el gráfico de % de desviación del planeamiento según la región de ventas y observe el gráfico de áreas de la desviación del planeamiento por TI.
 
    ![](media/sample-it-spend/it3.png)
-2. Ahora seleccione **EE. UU.**Para hacerse una idea, Australia supone una parte muy reducida de nuestro gasto general en comparación con EE. UU.
+2. Ahora seleccione **EE. UU.** Para hacerse una idea, Australia supone una parte muy reducida de nuestro gasto general en comparación con EE. UU.
 
     Por este motivo, lo restringimos a EE. UU. ¿Y ahora qué? Veamos qué categoría en EE. UU. está causando la desviación.
 

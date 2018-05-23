@@ -1,28 +1,20 @@
 ---
 title: Transmisión en tiempo real en Power BI
 description: Obtener objetos visuales y datos de transmisión en tiempo real en Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: ce42eceb478023b0ebbfd26e1762c63084ac84a6
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 15d8d4ff64b69143b30bd8e72264af3dcc42d53d
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.

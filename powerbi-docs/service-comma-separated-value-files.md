@@ -1,28 +1,20 @@
 ---
 title: Obtención de datos de archivos .CSV (valores separados por comas)
 description: Aprenda cómo obtener datos de archivos CSV en Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/30/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f269e6a89519bc7f012f6d5fc4b02ad289dd06d1
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 194993f1cd27e173b831850639b8e88a43b3f5aa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Obtención de datos de archivos .CSV (valores separados por comas)
 ![](media/service-comma-separated-value-files/csv_icon.png)

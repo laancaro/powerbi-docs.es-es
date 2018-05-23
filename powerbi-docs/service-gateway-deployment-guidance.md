@@ -1,28 +1,20 @@
 ---
 title: Guía para la implementación de una puerta de enlace de datos para Power BI
 description: Obtenga información acerca de los procedimientos recomendados y las consideraciones para implementar una puerta de enlace para Power BI.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6920e31c1f72bf51eeefb7b515f8e54c8fafbfd9
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 

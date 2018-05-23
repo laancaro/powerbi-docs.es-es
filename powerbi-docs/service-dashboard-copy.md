@@ -1,32 +1,24 @@
 ---
 title: Crear una copia de un panel de Power BI
-description: "Cómo duplicar un panel de Power BI "
-services: powerbi
-documentationcenter: 
+description: 'Cómo duplicar un panel de Power BI '
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-featuredvideoid: 
-qualityfocus: 
-qualitydate: 
+ms.reviewer: ''
+featuredvideoid: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dda89f4cffd99ae8f7b435133e9be550d7da0339
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 28dd9e7ca63964e5964e08cf720a26a5eff468c1
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-copy-of-a-dashboard-in-power-bi-service"></a>Creación de una copia de un panel en el servicio Power BI
-![Panel](media/service-dashboard-copy/power-bi-dashboard.png)
+![panel](media/service-dashboard-copy/power-bi-dashboard.png)
 
  Existen muchas razones diferentes para hacer una copia de un panel. Quizás desee realizar cambios y probar su rendimiento contra el original; o crear versiones ligeramente diferentes para distribuirlas por colega, región o equipo. Quizás un colega admire el diseño de su panel y desee usarlo para presentar informes a sus superiores. Otra razón podría ser que tenga una nueva base de datos con la misma estructura de datos y tipos de datos y desee reutilizar el panel que ya ha creado; aunque esto también podría hacerse, requeriría algún trabajo en Power BI Desktop. 
 

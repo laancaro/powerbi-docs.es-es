@@ -1,28 +1,20 @@
 ---
 title: Optimización de un objeto visual de Power BI de cualquier tamaño
 description: Aprenda a optimizar objetos visuales en informes existentes de Power BI Desktop y el servicio Power BI para las aplicaciones de teléfono de Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: d80e96fbca893fee3ff03ef9021988f5a22bb2e7
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimización de un objeto visual de Power BI de cualquier tamaño
 De manera predeterminada, cuando se cree un nuevo informe, los objetos visuales tienen *capacidad de respuesta*: cambian de forma dinámica para mostrar la máxima cantidad de datos, independientemente del tamaño de la pantalla. Para los informes anteriores, puede establecer también sus objetos visuales para que cambien de tamaño de forma dinámica.

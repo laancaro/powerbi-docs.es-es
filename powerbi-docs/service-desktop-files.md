@@ -1,28 +1,20 @@
 ---
 title: Obtención de datos de archivos de Power BI Desktop
 description: Aprenda a consultar datos e informes de Power BI Desktop en Power BI
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: complete
-qualitydate: 03/30/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e7896556f4397d190183483c2bb22ea1918b7f68
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 5429e6acafcad706d6d445086c612f50e22bf01c
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-data-from-power-bi-desktop-files"></a>Obtención de datos de archivos de Power BI Desktop
 ![](media/service-desktop-files/pbid_file_icon.png)

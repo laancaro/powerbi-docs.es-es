@@ -1,28 +1,20 @@
 ---
 title: Detalles sobre la puerta de enlace de datos local
 description: En este artículo se examina la puerta de enlace global en profundidad. Describe cómo funciona el servicio con Azure Active Directory y Active Directory local cuando se trabaja con Analysis Services
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5480768fc088b3a32a1af222d38e3829298e8f0d
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.

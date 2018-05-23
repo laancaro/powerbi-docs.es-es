@@ -1,28 +1,20 @@
 ---
-title: "Crear informes optimizados para las aplicaciones de teléfono de Power BI"
-description: "Aprenda a optimizar las páginas de informes en Power BI Desktop para las aplicaciones de teléfono de Power BI."
-services: powerbi
-documentationcenter: 
+title: Crear informes optimizados para las aplicaciones de teléfono de Power BI
+description: Aprenda a optimizar las páginas de informes en Power BI Desktop para las aplicaciones de teléfono de Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 12/08/2017
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: ea6da7eb23268e7605ff46281c63030a6d72798c
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 58fa5214d1a5b7e7c80d199e23cfae9762a80f36
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Crear informes optimizados para las aplicaciones de teléfono de Power BI
 Cuando [cree un informe en Power BI Desktop](desktop-report-view.md), puede mejorar la experiencia de usarlo en las aplicaciones móviles de los teléfonos mediante la creación de una versión del informe específica para cada teléfono. Adapte el informe para el teléfono reorganizando los objetos visuales y cambiándoles el tamaño, quizás no incluyéndolos todos, para obtener una experiencia óptima. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe del teléfono. Los lectores del informe pueden verlos y filtrar el informe con ellos.

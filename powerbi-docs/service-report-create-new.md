@@ -1,28 +1,20 @@
 ---
 title: 'Creación de un nuevo informe a partir de un conjunto de datos '
 description: Creación de un informe de Power BI nuevo a partir de un conjunto de datos
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c6b156157d9d286bae6b93a217ca1b9502534498
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
 Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  

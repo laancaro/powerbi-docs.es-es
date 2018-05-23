@@ -1,28 +1,20 @@
 ---
 title: Registro en Power BI con una nueva prueba de Office 365
 description: Registro en Power BI con una nueva prueba de Office 365
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-admin
+ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5db7d92b7d62d1518682d831dd425e8b4b6efe86
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: dd43c063d56f75fd1ba45b6c596f54fd002adad6
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Registro en Power BI con una nueva prueba de Office 365
 <iframe width="560" height="315" src="https://www.youtube.com/embed/gbSuFST-Nx4?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -45,7 +37,7 @@ Si tiene problemas para registrarse en Power BI con su dirección de correo elec
 4. ¡Eso es todo!  Cuando haya terminado, se le redirigirá a Power BI.
 
 ## <a name="important-considerations"></a>Consideraciones importantes
-Mediante este método de registro, está creando a un nuevo inquilino de organización y se convertirá en el administrador del inquilino.  Puesto que solo se permite el uso compartido en Power BI dentro de un único inquilino, no podrá compartir con otros usuarios ubicados fuera de este inquilino.  Por ejemplo, si crea el inquilino suempresa.enmicrosoft.com en el paso 2, no podrá compartir con los usuarios de suempresa.com.  Puede agregar nuevos usuarios a su inquilino y compartir con ellos, como se describe en [este tema de ayuda](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
+Mediante este método de registro, está creando a un nuevo inquilino de organización y se convertirá en el administrador del inquilino. Puede agregar nuevos usuarios a su inquilino y compartir con ellos, como se describe en [este tema de ayuda](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md)  

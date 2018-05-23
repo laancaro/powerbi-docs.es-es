@@ -1,28 +1,20 @@
 ---
 title: Del libro de Excel a un informe sorprendente al instante
 description: Del libro de Excel a un informe sorprendente al instante
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 849511476200d401432fdcc2ad88ec2930448bf9
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Del libro de Excel a un informe sorprendente al instante
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Sin embargo, los datos más recientes se encuentran en varios sistemas de terceros y en archivos de su portátil. En el pasado, el hecho de crear objetos visuales y dar formato a un informe llevaba horas. Está empezando a sentirse ansioso.

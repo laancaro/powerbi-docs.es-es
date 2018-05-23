@@ -1,28 +1,20 @@
 ---
 title: 'Administrar el origen de datos: Oracle'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c72cab8d93c4deb3ebe6565a9f0684991783ae3c
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---oracle"></a>Administrar el origen de datos: Oracle
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Oracle tanto para la actualización programada como para DirectQuery.

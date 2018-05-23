@@ -1,28 +1,20 @@
 ---
 title: Paquete de contenido de SQL Database Auditing
 description: Paquete de contenido SQL Database Auditing para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: eec1af16156e4d4180dd130f4dd285bb78b19903
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 36351491f7cb99a2e597ef4fd498ef7c38da386e
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="sql-database-auditing-content-pack-for-power-bi"></a>Paquete de contenido SQL Database Auditing para Power BI
 El paquete de contenido de [Azure SQL Database Auditing](http://azure.microsoft.com/documentation/articles/sql-database-auditing-get-started/) para Power BI permite comprender la actividad de las bases de datos y obtener información sobre las discrepancias y las anomalías que podrían indicar problemas empresariales o posibles infracciones de seguridad. 

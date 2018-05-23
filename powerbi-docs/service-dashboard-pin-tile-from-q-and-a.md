@@ -1,28 +1,20 @@
 ---
-title: "Cómo anclar un icono a un panel desde Preguntas y respuestas"
-description: "Documentación sobre cómo anclar un icono a un panel de Power BI desde el cuadro de preguntas de Preguntas y respuestas."
-services: powerbi
-documentationcenter: 
+title: Cómo anclar un icono a un panel desde Preguntas y respuestas
+description: Documentación sobre cómo anclar un icono a un panel de Power BI desde el cuadro de preguntas de Preguntas y respuestas.
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: bd9f49c338afc413107ee811bf9ee33c3e9737a4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
@@ -53,7 +45,7 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
 
    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel como un icono.  
 
-   ![Panel Anclado a](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
+   ![Anclado al panel](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pin.png)
 7. Seleccione **Ir al panel** para ver el nuevo icono. Allí puede [cambiar el nombre, cambiar el tamaño, agregar un hipervínculo y cambiar la posición del icono](service-dashboard-edit-tile.md) en el panel, entre otras cosas.
 
    ![Panel con iconos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)

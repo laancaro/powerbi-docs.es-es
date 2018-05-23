@@ -1,28 +1,20 @@
 ---
 title: 'Administrar el origen de datos: importación o actualización programada'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Este artículo es específico para los orígenes de datos que se pueden usar con la importación o la actualización programada.
-services: powerbi
-documentationcenter: ''
 author: mgblythe
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: na
-ms.workload: powerbi
+ms.component: powerbi-gateways
+ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ce2ffe68c46d965b7bcace0d278952aaed9f7670
-ms.sourcegitcommit: 8552a34df8e6141eb704314c1a019992901d6e78
+ms.openlocfilehash: 17c608b017123b5ae7111ef6d97703cdbc30940d
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Administrar el origen de datos: importación o actualización programada
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo examinaremos cómo trabajar con puertas de enlace y orígenes de datos que se usan para la actualización programada en lugar de DirectQuery o conexiones dinámicas.

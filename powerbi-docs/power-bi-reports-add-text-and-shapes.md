@@ -1,34 +1,26 @@
 ---
 title: Cuadros de texto y formas en informes de Power BI
 description: Documentación sobre cómo agregar y crear cuadros de texto y formas en un informe con el servicio Microsoft Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
+ms.reviewer: ''
 featuredvideoid: _3q6VEBhGew
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5e71159e2c7d0cb7439a14bf5d8e082192c4ab7a
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="static-content-in-power-bi-reports"></a>Contenido estático en informes de Power BI
 Con el servicio Power BI y Power BI Desktop se pueden agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
 
-Utilice en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe](guided-learning/visualizations.yml#step-11) y, después, siga estos pasos para probarlas mediante el servicio Power BI.
+Utilice en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe](guided-learning/visualizations.yml?tutorial-step=11) y, después, siga estos pasos para probarlas mediante el servicio Power BI.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

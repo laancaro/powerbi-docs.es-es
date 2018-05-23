@@ -1,28 +1,20 @@
 ---
-title: "Panel de análisis del servicio Power BI"
-description: "Crear líneas de referencia dinámicas para objetos visuales del servicio Power BI"
-services: powerbi
-documentationcenter: 
+title: Panel de análisis del servicio Power BI
+description: Crear líneas de referencia dinámicas para objetos visuales del servicio Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 12/21/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: ebf3021f6afdd23730e6b971077913a886961d3b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="analytics-pane-in-power-bi-service"></a>Panel de análisis del servicio Power BI
 Con el panel **Análisis** en **Servicio Power BI**, puede agregar *líneas de referencia* dinámicas a visualizaciones y destacar las tendencias o detalles importantes.

@@ -1,29 +1,21 @@
 ---
 title: Métricas de uso para paneles e informes
 description: Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI. Medir y aumentar el impacto con métricas de uso para los creadores de contenido.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 featuredvideoid: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d12f59f768b98bbc974258592f236176ecf52b3f
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 7b43e6e3c679474113cb0f1301f335c6bb8249ff
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 Si desea crear paneles e informes, las métricas de uso le ayudan a conocer su impacto. Al ejecutar métricas de uso de panel o métricas de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando, por quién y con qué finalidad.  

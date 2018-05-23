@@ -1,28 +1,20 @@
 ---
 title: Interacción con un informe en la vista de edición
 description: Interacción con un informe en la vista de edición de informe en el servicio Power BI
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: monitoring
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6b4fcd59b16e9fd7ef0dcddfc44a93bb842a32f8
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 35bdf975d9df31ded5a7c3f5be26ae6181002169
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interacción con un informe en la vista de edición en el servicio Power BI
 Los informes pueden crearse y editarse en el servicio Power BI y en Power BI Desktop. En el servicio Power BI, los informes pueden crearse y editarse en la **vista de edición**. Y en Power BI Desktop, los informes pueden crearse y editarse en la [**vista de informes**](desktop-report-view.md). Este artículo trata la vista de edición en el servicio Power BI. 

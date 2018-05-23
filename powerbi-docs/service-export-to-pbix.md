@@ -1,28 +1,20 @@
 ---
-title: "Cómo exportar un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)"
+title: Cómo exportar un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 description: Descargar un informe desde el servicio Power BI a un archivo de Power BI Desktop
-services: powerbi
-documentationcenter: 
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 0cda094f3104b32f9bad31bf5030e235eb7ce83d
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar un informe desde el servicio Power BI a Desktop (versión preliminar)
 En Power BI Desktop, puede exportar (también se denomina *descargar*) un informe al servicio Power BI, guardando este y seleccionando **Publicar**. También puede exportar en la otra dirección y descargar un informe desde el servicio Power BI a Desktop. La extensión de los archivos que se van a exportar, en cualquier dirección, es *.pbix*.
@@ -38,7 +30,7 @@ Para descargar el archivo .pbix, haga lo siguiente:
 2. En la barra de menús, seleccione **Archivo > Descargar informe**.
    
    > [!NOTE]
-   > Para poder descargarlo, el informe debe haberse [creado con Power BI Desktop](guided-learning/publishingandsharing.yml#step-2) después del 23 de noviembre de 2016, y actualizado desde entonces. Si no es así, la opción de menú *Descargar informe* del servicio Power BI está atenuada.
+   > Para poder descargarlo, el informe debe haberse [creado con Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) después del 23 de noviembre de 2016, y actualizado desde entonces. Si no es así, la opción de menú *Descargar informe* del servicio Power BI está atenuada.
    > 
    > 
 3. Mientras se crea el archivo .pbix, un banner de estado muestra el progreso. Cuando el archivo esté listo, se le pedirá que guarde o abra el archivo .pbix. El nombre del archivo coincide con el título del informe.

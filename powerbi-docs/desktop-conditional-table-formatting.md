@@ -1,28 +1,20 @@
 ---
 title: Formato de tabla condicional en Power BI Desktop
 description: Aplicar formato personalizado a las tablas
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1626c2af5906004b6b4f79f4830f003b96e241fc
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 9599b40940c9d9cca254bb2ed2e87c161cce371f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="conditional-formatting-in-tables"></a>Formato condicional en tablas
 Con el formato condicional de tablas, se pueden especificar colores de fondo personalizados de las celdas en función de los valores de esas celdas o de otros valores o campos. También se pueden usar colores de degradado. Para acceder al formato condicional, en el área **Campos** del panel **Visualizaciones** de Power BI Desktop, seleccione la flecha hacia abajo que está situada junto al valor del área **Valores** que desea formatear (o haga clic con el botón derecho en el campo). El formato condicional solo se puede administrar en el área **Valores** de **Campos**.

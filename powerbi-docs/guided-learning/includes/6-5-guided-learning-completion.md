@@ -4,13 +4,13 @@
 
 Esta es la última sección (y el tema final, a menos que quiera aprender DAX) del curso, así que, si las ha completado todas en orden, puede sentirse orgulloso. Buen trabajo. Ahora, ya está familiarizado con todos estos **conceptos importantes**:
 
-* Definición de [Power BI](../gettingstarted.yml#step-1)
-* [Bloques de creación](../gettingstarted.yml#step-3) de Power BI
-* [Obtención](../gettingdata.yml#step-3) y [modelado](../modeling.yml#step-1) de datos
-* [Visualizaciones](../visualizations.yml#step-1)
-* [Exploración de datos](../exploringdata.yml#step-1) en el servicio Power BI
-* Uso de [Excel y Power BI](../powerbiandexcel.yml#step-1) juntos
-* [Publicación y uso compartido](../publishingandsharing.yml#step-1) del trabajo
+* Definición de [Power BI](../gettingstarted.yml?tutorial-step=1)
+* [Bloques de creación](../gettingstarted.yml?tutorial-step=3) de Power BI
+* [Obtención](../gettingdata.yml?tutorial-step=3) y [modelado](../modeling.yml?tutorial-step=1) de datos
+* [Visualizaciones](../visualizations.yml?tutorial-step=1)
+* [Exploración de datos](../exploringdata.yml?tutorial-step=1) en el servicio Power BI
+* Uso de [Excel y Power BI](../powerbiandexcel.yml?tutorial-step=1) juntos
+* [Publicación y uso compartido](../publishingandsharing.yml?tutorial-step=1) del trabajo
 
 Ha adquirido una gran cantidad de conocimientos, así que ya está preparado para comenzar a ponerlos en práctica. Si hace clic en los **vínculos siguientes, podrá realizar descargas** o **conectar el explorador al servicio Power BI**:
 

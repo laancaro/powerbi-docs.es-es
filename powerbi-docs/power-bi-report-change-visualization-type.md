@@ -1,28 +1,20 @@
 ---
 title: Cambio del tipo de visualización en un informe
 description: Cambio del tipo de visualización de informe en el servicio Power BI y en Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 03/20/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4ed26bbec81093654314f058f8bcbfac927cf70f
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.openlocfilehash: 126a805f49e98f34cb9cfdcbb7ce7e886f67ce76
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="change-the-type-of-visualization-in-a-power-bi-report"></a>Cambio del tipo de visualización en un informe de Power BI
 Pruebe diferentes tipos de visualizaciones en el servicio Power BI y en Power BI Desktop para ver cuál ilustra mejor los datos. 

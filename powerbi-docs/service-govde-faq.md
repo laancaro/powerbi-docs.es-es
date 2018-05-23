@@ -1,28 +1,20 @@
 ---
 title: Preguntas más frecuentes sobre Power BI para clientes del gobierno alemán
 description: Respuestas a las preguntas más habituales sobre el servicio al gobierno alemán de Power BI, para clientes del gobierno alemán
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c9e059b97f845aa3a480238400df16c914e563a
-ms.sourcegitcommit: f679c05d029ad0765976d530effde744eac23af5
+ms.openlocfilehash: 909d524416b04654dc6f511a71b675381ec74e3a
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/04/2018
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
@@ -78,7 +70,7 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
 ### <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, incluido un artículo en el que se muestra cómo registrarse en el servicio, consulte los recursos siguientes:
 
-* [Aprendizaje guiado de Power BI](guided-learning/gettingstarted.yml#step-1)
+* [Aprendizaje guiado de Power BI](guided-learning/gettingstarted.yml?tutorial-step=1)
 * [Introducción al servicio Power BI](service-get-started.md)
 * [Introducción a Power BI Desktop](desktop-getting-started.md)
 

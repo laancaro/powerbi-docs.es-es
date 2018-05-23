@@ -1,28 +1,20 @@
 ---
 title: 'Ejemplo de análisis de venta directa para Power BI: un paseo'
 description: 'Ejemplo de análisis de venta directa para Power BI: un paseo'
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: dda92ff8280295e6112cf2ab6a51f4606e5c474d
-ms.sourcegitcommit: 8132f7edc6879eda824c900ba90b29cb6b8e3b21
+ms.openlocfilehash: ff5da3623d572b8ecb3edc8c5eb40d866e6961d5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de venta directa para Power BI: un paseo
 
@@ -45,11 +37,11 @@ Este panel de ejemplo del sector y el informe subyacente analizan datos de venta
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Seleccione el **Ejemplo de análisis de minoristas** y elija **Conectar**.  
   
-   ![Ejemplo de análisis de venta directa](media/sample-retail-analysis/retail16.png)
+   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail16.png)
    
 5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
    
-   ![Ejemplo de análisis de venta directa](media/sample-retail-analysis/retail17.png)
+   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
