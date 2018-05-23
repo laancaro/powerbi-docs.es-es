@@ -1,27 +1,19 @@
 ---
 title: Detección de un código QR de Power BI desde un dispositivo móvil
 description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI para iPhones y dispositivos Android.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: maggies
-ms.openlocfilehash: 2716452f285d8df0aa0d3b89c2b9b36aa87cc5cc
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 9ce22194c6896865d231cfe9f33049f8da21083e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Detección de un código QR de Power BI desde un dispositivo móvil
 Se aplica a:
@@ -30,7 +22,7 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |
 | iPhone |Teléfonos Android |Tabletas Android |
 
-Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
+Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada & #151; no es necesario realizar ninguna exploración o búsqueda.
 
 Suponga que un compañero ha [creado un código QR en el servicio Power BI](service-create-qr-code-for-tile.md) para un informe o para un icono en un panel, ha compartido el panel o el informe con usted y ha colocado dicho código en una ubicación clave, por ejemplo, en un mensaje de correo o en un elemento concreto. 
 

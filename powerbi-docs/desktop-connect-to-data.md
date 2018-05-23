@@ -1,28 +1,20 @@
 ---
 title: Conectarse a los datos en Power BI Desktop
 description: Conectarse a los datos en Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 12/06/2017
+ms.component: powerbi-desktop
+ms.topic: conceptual
+ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: eb6d31864570a2078cf46b7e30fa771fd7773e93
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Conectarse a los datos en Power BI Desktop
 Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en continua expansión. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
@@ -49,7 +41,7 @@ Al seleccionar **Aceptar**, la funcionalidad de **consulta** de Power BI Desktop
 
 En este punto, se puede modificar la consulta antes de cargar la tabla (para ello, seleccione **Editar** desde la parte inferior de la ventana) o se puede cargar directamente la tabla.
 
-Si seleccionamos **Editar**, la tabla se carga y se inicia el Editor de consultas. Se muestra el panel **Configuración de consulta** (si no es así, puede seleccionar **Vista** desde la cinta de opciones y, a continuación, seleccionar **Mostrar \&gt; Configuración de consulta\> para mostrar el panel** Configuración de consulta**). Ofrece el siguiente aspecto.
+Si seleccionamos **Editar**, la tabla se carga y se inicia el Editor de consultas. Se muestra el panel **Configuración de consulta** (si no es así, puede seleccionar **Vista** desde la cinta de opciones y, a continuación, seleccionar **Mostrar \&gt; Configuración de consulta\> para mostrar el panel** Configuración de consulta **). Ofrece el siguiente aspecto.
 
 ![](media/desktop-connect-to-data/designer_gsg_editquery.png)
 

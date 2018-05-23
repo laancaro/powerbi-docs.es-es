@@ -1,28 +1,20 @@
 ---
 title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop (Beta)
 description: Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1f1eeda618c54def9e756f727161d5bc7d541218
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 59723d4c8e241781b7f29773ea182cd5b075e0c2
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conexión a Azure Consumption Insights en Power BI Desktop (Beta)
 Con el conector de **Azure Consumption Insights**, puede usar **Power BI Desktop** para conectarse a Azure y obtener datos e información detallada sobre el uso de los servicios de Azure por parte de su organización. También puede crear medidas, columnas personalizadas y objetos visuales en los informes, y compartir los datos sobre el uso de Azure por parte de su organización. Esta versión del conector de **Azure Consumption Insights** está en versión Beta y está sujeta a cambios.
@@ -151,7 +143,7 @@ Las columnas y los nombres de los detalles en Azure Portal son similares en la A
 
 | Conector ACI / ContentPack ColumnName | Nombre de columna en la API de ACI | Nombre de columna en EA | Obsoleta / presente para compatibilidad con versiones anteriores |
 | --- | --- | --- | --- |
-| AccountName |accountName |Account Name |No |
+| AccountName |accountName |Nombre de cuenta |No |
 | AccountId |accountId | |Sí |
 | AcccountOwnerId |accountOwnerEmail |AccountOwnerId |No |
 | AdditionalInfo |additionalInfo |AdditionalInfo |No |
@@ -161,23 +153,23 @@ Las columnas y los nombres de los detalles en Azure Portal son similares en la A
 | ConsumedServiceId |consumedServiceId | |Sí |
 | Cost |cost |ExtendedCost |No |
 | Cost Center |costCenter |Cost Center |No |
-| Fecha |date |Fecha |No |
+| Fecha |fecha |Fecha |No |
 | Día | |Día |No |
-| DepartmentName |departmentName |Department Name |No |
+| DepartmentName |departmentName |Nombre de departamento |No |
 | DepartmentID |departmentId | |Sí |
 | Instance ID | | |Sí |
 | InstanceId |instanceId |Instance ID |No |
 | Ubicación | | |Sí |
 | Meter Category |meterCategory |Meter Category |No |
 | Meter ID | | |Sí |
-| Meter Name |meterName |Meter Name |No |
+| Medidor Nombre |meterName |Medidor Nombre |No |
 | Meter Region |meterRegion |Meter Region |No |
 | Meter Sub-Category |meterSubCategory |Meter Sub-Category |No |
 | MeterId |meterId |Meter ID |No |
 | Mes | |Mes |No |
 | Producto |product |Producto |No |
 | ProductId |productId | |Sí |
-| Resource Group |resourceGroup |Resource Group |No |
+| Grupo de recursos |resourceGroup |Grupo de recursos |No |
 | Resource Location |resourceLocation |Resource Location |No |
 | ResourceGroupId | | |Sí |
 | ResourceLocationId |resourceLocationId | |Sí |
@@ -189,7 +181,7 @@ Las columnas y los nombres de los detalles en Azure Portal son similares en la A
 | ServiceInfo2Id | | |Sí |
 | Store Service Identifier |storeServiceIdentifier |Store Service Identifier |No |
 | StoreServiceIdentifierId | | |Sí |
-| Subscription Name |subscriptionName |Subscription Name |No |
+| Nombre de suscripción |subscriptionName |Nombre de suscripción |No |
 | Etiquetas |tags |Etiquetas |No |
 | TagsId | | |Sí |
 | Unit Of Measure |unitOfMeasure |Unit Of Measure |No |

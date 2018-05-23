@@ -1,27 +1,19 @@
 ---
-title: "Creación de los paquetes de contenido de plantillas en Power BI"
-description: "Creación del paquete de contenido de plantillas"
-services: powerbi
-documentationcenter: 
+title: Creación de los paquetes de contenido de plantillas en Power BI
+description: Creación del paquete de contenido de plantillas
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
-ms.openlocfilehash: bfed948be385439d33b335b08da68b103cd7c1b8
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: f3f3343122857cbf06c0004d2a3e5e5247f07e48
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Creación de los paquetes de contenido de plantillas en Power BI
 La creación de un paquete de contenido de plantillas utiliza Power BI Desktop y PowerBI.com. Existen cuatro componentes en el paquete de contenido:

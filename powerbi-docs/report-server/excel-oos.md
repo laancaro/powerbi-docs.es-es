@@ -1,27 +1,19 @@
 ---
 title: 'Hospedaje de libros de Excel mediante Office Online Server (OOS): Power BI Report Server'
 description: Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante Office Online Server (OOS).
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 06783c6e5eabd04a1adc955e5f43521337b748eb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 8a002105fcb9f5dc07197aac5722a57c7bba14b6
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configuración de un servidor de informes para hospedar libros de Excel mediante Office Online Server (OOS)
 Además de ver informes de Power BI en el portal web, Power BI Report Server puede hospedar libros de Excel mediante [Office Online Server (OOS)](https://docs.microsoft.com/officeonlineserver/office-online-server-overview). El servidor de informes se convierte en una única ubicación para publicar y ver el contenido de autoservicio de Microsoft BI.

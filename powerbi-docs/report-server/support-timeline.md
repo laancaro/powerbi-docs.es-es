@@ -1,27 +1,19 @@
 ---
 title: Escala de tiempo del soporte técnico para el servidor de informes de Power BI
 description: Una lista de las versiones y la disponibilidad del servidor de informes de Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: dd6ab0afdb171a1cdb1267adee8bb1c411596dff
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 9bfcf7ab0b752cdbacefe7075e5975f7b0eb8bf9
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="support-timeline-for-power-bi-report-server"></a>Escala de tiempo del soporte técnico para el servidor de informes de Power BI
 El servidor de informes de Power BI se lanzará varias veces al año. Habrá actualizaciones críticas y de seguridad disponibles hasta que la próxima versión esté disponible con carácter general (GA). Una vez lanzada la versión siguiente, la anterior seguirá recibiendo actualizaciones de seguridad durante el resto de los 12 meses que dura la versión.
