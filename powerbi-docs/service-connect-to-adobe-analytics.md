@@ -1,28 +1,20 @@
 ---
 title: Conexión a Adobe Analytics con Power BI
 description: Si se conecta a Adobe Analytics desde Power BI podrá disfrutar de una aplicación que muestra los datos de su cuenta en un panel e informes.
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 452f970efda4c49e197ed578f5c5b05917aa43e7
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Conexión a Adobe Analytics con Power BI
 Para conectarse a Adobe Analytics a través de Power BI, empiece por conectarse a su cuenta de Adobe Analytics Marketing Cloud. Aparece una aplicación con un panel de Power BI y un conjunto de informes de Power BI que proporcionan información acerca del tráfico de su sitio y las dimensiones de usuarios. Los datos se actualizan automáticamente una vez al día. Puede interactuar con el panel y los informes, pero no puede guardar los cambios.
@@ -98,7 +90,7 @@ En la [documentación](https://marketing.adobe.com/resources/help/en_US/referenc
 ## <a name="troubleshooting"></a>Solución de problemas
 Si después de proporcionar las credenciales aparece un error que indica que no tiene permisos, confirme con el administrador que tiene acceso a la API de Adobe Analytics. Confirme también que el id. de Adobe proporcionado está vinculado a la organización de Marketing Cloud (asociada a una compañía de Adobe Analytics).
 
-Si ha pasado correctamente la pantalla de credenciales antes de que se produzca un error, es posible que los informes estén tardando demasiado tiempo en completarse. Un error común es *"Failed to get data from the Adobe Analytics report. Contents included &quot;referrer, page&quot;, approximate duration was xx seconds"* (No se pudieron obtener datos del informe de Adobe Analytics. El contenido incluía "origen de referencia, página", la duración aproximada fue de xx segundos"). Revise la sección "Qué se incluye" y compare el tamaño de la instancia de Adobe. Lamentablemente, en la actualidad no hay forma de evitar este tiempo de espera. Sin embargo, estamos considerando la posibilidad de realizar actualizaciones para ofrecer una mejor compatibilidad con instancias mayores. por lo que le solicitamos que envíe sus comentarios al equipo de Power BI, para lo que puede usar https://ideas.powerbi.com
+Si ha pasado correctamente la pantalla de credenciales antes de que se produzca un error, es posible que los informes estén tardando demasiado tiempo en completarse. Un error común es *"Failed to get data from the Adobe Analytics report. Contents included &quot;referrer, page&quot;, approximate duration was xx seconds"* (No se pudieron obtener datos del informe de Adobe Analytics. El contenido incluía "origen de referencia, página", la duración aproximada fue de xx segundos"). Revise la sección "Qué se incluye" y compare el tamaño de la instancia de Adobe. Lamentablemente, en la actualidad no hay forma de evitar este tiempo de espera. Sin embargo, estamos considerando la posibilidad de realizar actualizaciones para ofrecer una mejor compatibilidad con instancias mayores, por lo que le solicitamos que envíe sus comentarios al equipo de Power BI a través de https://ideas.powerbi.com.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)

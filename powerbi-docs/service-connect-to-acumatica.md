@@ -1,28 +1,20 @@
 ---
 title: Conexión a Acumatica con Power BI
 description: Acumatica para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: af1a34d280aaa1a795a7a2490c97874e0c4d1838
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Conexión a Acumatica con Power BI
 El paquete de contenido de Acumatica para Power BI permite obtener rápidamente información sobre los datos de oportunidad. Power BI recupera los datos sobre oportunidades, cuentas y clientes para, a continuación, crear un panel predeterminado e informes relacionados basados en dichos datos.
@@ -73,7 +65,7 @@ El extremo de OData de Acumatica tiene el formato siguiente y debe usar HTTPS:
 
     https://[sitedomain]/odata/[companyname]
 
-El dominio del sitio de aplicación puede encontrarse en la barra de direcciones del explorador tras iniciar sesión en Acumatica. En el ejemplo siguiente, el dominio del sitio es "https://pbi.acumatica.com". Por lo tanto, el extremo de OData que debe proporcionar sería "https://pbi.acumatica.com/odata".
+El dominio del sitio de aplicación puede encontrarse en la barra de direcciones del explorador tras iniciar sesión en Acumatica. En el ejemplo siguiente, el dominio del sitio es "https://pbi.acumatica.com", de modo que el punto de conexión de OData que se debería proporcionar sería "https://pbi.acumatica.com/odata".
 
  ![](media/service-connect-to-acumatica/url.png)
 

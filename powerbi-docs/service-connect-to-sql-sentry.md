@@ -1,28 +1,20 @@
 ---
 title: Conexión a SQL Sentry con Power BI
 description: SQL Sentry para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c73502381e99bf64a8e342ca46ee1bb7089b6825
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8ad41917c887cff7db991051aa35d5dad6b6a8fa
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Conexión a SQL Sentry con Power BI
 Analizar los datos de rendimiento recopilados por SQL Sentry es fácil con Power BI. Power BI recupera los datos y, a continuación, crea un panel predeterminado e informes relacionados en función de esos datos.
@@ -30,7 +22,7 @@ Analizar los datos de rendimiento recopilados por SQL Sentry es fácil con Power
 Conéctese al [paquete de contenido de SQL Sentry](https://app.powerbi.com/groups/me/getdata/services/sql-sentry) para Power BI.
 
 >[!NOTE]
->Se necesita acceso a una cuenta de SQL Sentry que use para conectarse a http://cloud.sqlsentry.com y un identificador de la base de datos que se va a supervisar para conectarse.  A continuación se muestran instrucciones sobre dónde encontrar el identificador de la base de datos.
+>Para conectarse, se necesita acceso a una cuenta de SQL Sentry que use para conectarse a http://cloud.sqlsentry.com y un identificador de la base de datos que se va a supervisar.  A continuación se muestran instrucciones sobre dónde encontrar el identificador de la base de datos.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
 1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.

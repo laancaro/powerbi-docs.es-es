@@ -1,28 +1,20 @@
 ---
 title: Conexión a Marketo con Power BI
 description: Marketo para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 78f128e870bbf775c805438464342612d5ba8382
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -43,8 +35,8 @@ Conéctese al [paquete de contenido de Marketo](https://app.powerbi.com/getdata/
    
    ![](media/service-connect-to-marketo/pbi_marketoconnect.png)
    
-   Obtenga más información sobre el punto de conexión de REST de Marketo: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
-5. Mediante el Método de autenticación **Básico** , escriba el **Nombre de usuario** como identificador de cliente y la **Contraseña**como secreto de cliente. El identificador de cliente y el secreto de cliente están disponibles en Marketo o a través de su administrador de Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
+   Obtenga más información sobre el punto de conexión Marketo REST: [http://developers.marketo.com/documentation/rest/endpoint-url/ ](http://developers.marketo.com/documentation/rest/endpoint-url/).
+5. Mediante el Método de autenticación **Básico** , escriba el **Nombre de usuario** como identificador de cliente y la **Contraseña**como secreto de cliente. El id. y el secreto de cliente están disponibles en Marketo, pero también se los puede facilitar su administrador de Marketo ([http://developers.marketo.com/documentation/rest/custom-service/](http://developers.marketo.com/documentation/rest/custom-service/)). 
    
    ![](media/service-connect-to-marketo/pbi_marketosignin.png)
    

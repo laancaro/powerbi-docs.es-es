@@ -1,31 +1,23 @@
 ---
 title: Conexión a Microsoft Dynamics NAV con Power BI
 description: Microsoft Dynamics NAV para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b06e756732c2c12e822967fbcfeb208bcb1ae334
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 2ffa82cbc45a735bfb857a1f69c7e79e925ed753
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Conexión a Microsoft Dynamics NAV con Power BI
-Obtener información sobre los datos de Microsoft Dynamics NAV es sencillo con Power BI. Power BI recupera los datos (tanto de ventas como financieros) y, después, compila una aplicación con un panel e informes basados en dichos datos. Power BI requiere permisos en las tablas de las que se recuperan los datos, en este caso, datos de ventas y finanzas. Consulte más detalles sobre los requisitos a continuación. Después de instalar la aplicación tanto el panel como los informes se pueden en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
+Obtener información sobre los datos de Microsoft Dynamics NAV es sencillo con Power BI. Power BI recupera los datos (tanto de ventas como financieros) y, después, compila una aplicación con un panel e informes basados en dichos datos. Power BI requiere permisos en las tablas de las que se recuperan los datos, en este caso, datos de ventas y finanzas. Consulte más detalles sobre los requisitos a continuación. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
 
 [Conéctese a Microsoft Dynamics NAV para Power BI](https://app.powerbi.com/getdata/services/microsoft-dynamics-nav) o lea más sobre la [integración de Dynamics NAV](https://powerbi.microsoft.com/integrations/microsoft-dynamics-nav) con Power BI.
 

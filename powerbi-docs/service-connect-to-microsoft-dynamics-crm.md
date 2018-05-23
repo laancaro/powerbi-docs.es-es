@@ -1,31 +1,23 @@
 ---
 title: Conexión a Microsoft Dynamics con Power BI
 description: Microsoft Dynamics CRM para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7bfb936bdff4ba7ddd5097c3f59003d48c70347
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Conexión a Microsoft Dynamics CRM con Power BI
-Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias como, por ejemplo, cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación tanto el panel como los informes se pueden en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
+Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias como, por ejemplo, cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
 
 Conéctese a los roles de [Sales Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager) o [Service Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service) de Dynamics CRM Online. Obtenga más información acerca de la [integración de Dynamics CRM Online](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm) con Power BI.
 

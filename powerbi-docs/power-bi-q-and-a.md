@@ -1,34 +1,31 @@
 ---
 title: Introducción a Preguntas y respuestas en el servicio Power BI y Power BI Desktop
 description: Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI.
-services: powerbi
-documentationcenter: ''
 author: mihart
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: ''
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
+ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: c48e118a6708cae901a01d1956b6a3d0ea6c0561
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Preguntas y respuestas en el servicio Power BI y Power BI Desktop
 ## <a name="what-is-qa"></a>¿Qué son las preguntas y respuestas?
 A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural. Por ejemplo, "¿Cuáles fueron las ventas totales del año pasado?"  Use Preguntas y respuestas para explorar los datos a través de las capacidades de lenguaje natural e intuitivo y reciba respuestas en forma de gráficos. Preguntas y respuestas es diferente de un motor de búsqueda, ya que solamente proporciona resultados sobre los datos de Power BI.
 
 Este artículo es el punto de partida para todos los componentes de Preguntas y respuestas. Seleccione un vínculo más abajo para saber cómo funciona Preguntas y respuestas en el servicio Power BI (paneles e informes), Power BI Desktop (informes), Power BI Embedded y Power BI Mobile.  
+
+> [!NOTE]
+> **Preguntas y respuestas de Power BI** solo permite responder a las consultas expresadas en lenguaje natural efectuadas en inglés. También puede probar una característica de versión preliminar para las preguntas realizadas en español. En **Power BI Desktop**, vaya a **Archivo**, **Opciones y configuración**, **Opciones** y busque la pestaña **Características de versión preliminar**. Marque la casilla **Español disponible para Preguntas y respuestas**.  
+>
+>
 
 ![](media/power-bi-q-and-a/pbi_qa_boxsalessqft.png)
 

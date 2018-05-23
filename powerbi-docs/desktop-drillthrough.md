@@ -1,28 +1,20 @@
 ---
 title: Uso de la obtención de detalles en Power BI Desktop
 description: Obtenga información sobre cómo explorar en profundidad datos en una nueva página del informe en Power BI Desktop
-services: powerbi
-documentationcenter: ''
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d0c78643d285099f7b7856704ac7ee350ff9f93a
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 8c9a0d075c6d55baa1f518874fa668a3f0db8cb3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles en Power BI Desktop
 Con la **obtención de detalles** en **Power BI Desktop**, puede crear una página en el informe que se centra en una entidad específica, como un proveedor, un cliente o un fabricante. Con el foco en esa página del informe, los usuarios pueden hacer clic con el botón derecho en un punto de datos en otras páginas del informe y obtener detalles de la página que tiene el foco, filtrados en ese contexto.
@@ -71,6 +63,14 @@ Cuando se obtienen detalles sobre un objeto visual, puede ver los filtros que se
 ![filtros transitorios en cursiva](media/desktop-drillthrough/drillthrough_07.png)
 
 Cabe decir que esto podría hacerse con páginas de información sobre herramientas, pero la experiencia sería desigual (daría la impresión de que la información sobre herramientas no está funcionando correctamente), de modo que no se recomienda hacerlo con información sobre herramientas.
+
+## <a name="add-a-measure-to-drillthrough"></a>Agregar una medida para la obtención de detalles
+
+Además de pasar todos los filtros a la ventana de obtención de detalles, puede agregar una medida (o una columna numérica de resumen) al área sometida a la obtención de detalles. Para aplicarla, solo tiene que arrastrar el campo de obtención de detalles a la tarjeta Obtención de detalles. 
+
+![agregar una medida para la obtención de detalles](media/desktop-drillthrough/drillthrough_08.png)
+
+Al agregar una medida (o una columna numérica de resumen), si usa el campo en el área *Valor* de un objeto visual, puede obtener detalles relativos a la página.
 
 Y eso es todo lo necesario para usar la **obtención de detalles** en los informes. Es una excelente manera de obtener una vista expandida de la información de la entidad que se seleccione para el filtro de obtención de detalles.
 

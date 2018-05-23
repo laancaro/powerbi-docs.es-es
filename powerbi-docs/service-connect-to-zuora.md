@@ -1,28 +1,20 @@
 ---
 title: Conexión a Zuora con Power BI
 description: Zuora para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2f7e4c666cf6ec3cb69424a3922f5feedd61bf89
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: f283a8ed273dcb609e9d5160adbeb714e8935ab9
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Conexión a Zuora con Power BI
 Zuora para Power BI permite visualizar datos importantes acerca de ingresos, facturación y suscripciones. Use el panel y los informes predeterminados para analizar las tendencias de uso, realizar un seguimiento de pagos y facturaciones, y supervisar los ingresos recurrentes, o personalícelos para satisfacer sus propias necesidades de panel e informes.
@@ -39,7 +31,7 @@ Conéctese a [Zuora](https://app.powerbi.com/getdata/services/Zuora) para Power 
 3. Seleccione **Zuora** \> **Obtener**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Especifique la dirección URL de Zuora. Suele ser "https://www.zuora.com"; consulte los detalles acerca de la [búsqueda de parámetros](#FindingParams) más adelante.
+4. Especifique la dirección URL de Zuora. Normalmente es "https://www.zuora.com", pero encontrará más detalles sobre [cómo encontrar estos parámetros](#FindingParams) a continuación.
 
    ![](media/service-connect-to-zuora/params.png)
 5. En **Método de autenticación**, seleccione **Básico** , proporcione el nombre de usuario y la contraseña (distingue mayúsculas de minúsculas), y haga clic en **Iniciar sesión**.

@@ -1,30 +1,23 @@
 ---
-title: 'Tutorial: Conexión a la aplicación de GitHub con Power BI'
+title: 'Tutorial: Conexión a ejemplos de GitHub con Power BI'
 description: En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes.
 author: maggiesMSFT
 manager: kfile
-backup: SarinaJoan
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: SarinaJoan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.custom: connect-to-services
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 05/05/2018
+ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5f393d8255128b27dce8422444b427835aeef0cb
-ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
+ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2018
+ms.lasthandoff: 05/19/2018
 ---
-# <a name="tutorial-connect-to-the-github-app-with-power-bi"></a>Tutorial: Conexión a la aplicación de GitHub con Power BI
+# <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Conexión a ejemplos de GitHub con Power BI
 En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes. Nos conectamos al repositorio público de contenido de Power BI (también conocido como *repositorio*) y consultamos la información: ¿Cuántas personas contribuyen al contenido público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? También hay respuestas a otras preguntas. 
 
 ![Informe de GitHub en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-punch-card.png)
