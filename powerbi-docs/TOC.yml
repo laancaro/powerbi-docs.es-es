@@ -846,7 +846,9 @@
           items:
             - name: Introducción a la aplicación Android de Power BI
               href: mobile-android-app-get-started.md
-            - name: Corregir el problema de "su certificado SSL corporativo no es de confianza"
+            - name: Corrección del error "Your corporate SSL certificate is untrusted" (Su certificado SSL corporativo no es de confianza)
+              href: mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+            - name: Corrección del error "Need to update Android System Webview" (Debe actualizar Android System Webview)
               href: mobile-android-error-update-android-system-webview.md
         - name: iOS
           items:
