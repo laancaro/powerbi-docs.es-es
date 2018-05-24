@@ -1,27 +1,19 @@
 ---
-title: "Introducción a la aplicación móvil de Power BI en un iPad"
-description: "Aprenda cómo la aplicación móvil de Microsoft Power BI para iOS en iPad le permite llevar Power BI en el bolsillo, y le ofrece acceso móvil a información empresarial tanto local como en la nube."
-services: powerbi
-documentationcenter: 
+title: Introducción a la aplicación móvil de Power BI en un iPad
+description: Aprenda cómo la aplicación móvil de Microsoft Power BI para iOS en iPad le permite llevar Power BI en el bolsillo, y le ofrece acceso móvil a información empresarial tanto local como en la nube.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: identified
-qualitydate: 08/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
-ms.openlocfilehash: a35197e7775fb1b0dfec5c0905706f44d6f14494
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introducción a la aplicación móvil de Power BI en un iPad
 La aplicación móvil de Microsoft Power BI para iOS en iPad ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -46,7 +38,7 @@ Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-n
 > 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Suscribirse al servicio Power BI
-Si aún no se ha registrado para el servicio, vaya a Power BI (https://powerbi.com) para registrarse. Es gratuito.
+Ve a Power BI (https://powerbi.com) para registrarse en el servicio, si aún no lo ha hecho. Es gratuito.
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introducción a la aplicación de Power BI
 1. En el iPad, abra la aplicación de Power BI.

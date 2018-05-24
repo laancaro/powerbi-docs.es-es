@@ -1,27 +1,19 @@
 ---
 title: Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 description: En este documento se ofrecen instrucciones sobre el planeamiento de la capacidad para Power BI Report Server mediante el uso compartido de los resultados de las ejecuciones de pruebas de carga de diversas cargas de trabajo.
-services: powerbi
-documentationcenter: 
 author: parthsha
 manager: kfile
-backup: maghan
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: maghan
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 36d12e520cd53abc0159e698f3f469f62f884c95
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 Power BI Report Server es una solución de informes empresariales y BI con características de autoservicio que los clientes pueden implementar en sus instalaciones, detrás de su firewall. En ella se combinan la funcionalidad de informe interactivo de Power BI Desktop con la plataforma de servidor local de SQL Server Reporting Services. Con el uso intensivo y creciente de análisis e informes dentro de las empresas, elaborar un presupuesto para la infraestructura de hardware y las licencias de software necesarias para extenderla a una base de usuarios empresariales puede ser un verdadero desafío. Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. Aunque los informes, consultas y patrones de uso de las organizaciones pueden variar ampliamente, los resultados presentados en este documento, junto con las pruebas reales usadas y una descripción detallada de cómo se ejecutaban, sirven como punto de referencia para cualquiera en las primeras etapas del proceso de planeamiento de la implementación de Power BI Report Server.
@@ -57,7 +49,7 @@ La implementación de Power BI Report Server consta de las siguientes máquinas 
 Consulte el apéndice 1.1 Topología de Power BI Report Server y el apéndice 1.2 Configuración de máquina virtual de Power BI Report Server para obtener una configuración completa de cada máquina virtual usada en la topología.
 
 ### <a name="tests"></a>Pruebas
-Las pruebas usadas en las series de pruebas de carga están disponibles públicamente en un proyecto de GitHub llamado Reporting Services LoadTest (consulte https://github.com/Microsoft/Reporting-Services-LoadTest). Esta herramienta permite a los usuarios estudiar el rendimiento, la confiabilidad, la escalabilidad y las características de capacidad de recuperación de SQL Server Reporting Services y Power BI Report Server. Este proyecto consta de cuatro grupos de casos de prueba:
+Las pruebas usadas en las ejecuciones de prueba de carga están disponibles de forma pública en un proyecto de GitHub llamado Reporting Services LoadTest (consulte https://github.com/Microsoft/Reporting-Services-LoadTest). Esta herramienta permite a los usuarios estudiar el rendimiento, la confiabilidad, la escalabilidad y las características de capacidad de recuperación de SQL Server Reporting Services y Power BI Report Server. Este proyecto consta de cuatro grupos de casos de prueba:
 
 * Pruebas que simulan la representación de informes de Power BI
 * Pruebas que simulan la representación de informes móviles
@@ -69,7 +61,7 @@ Todas las pruebas se escribieron para realizar una operación de extremo a extre
 ### <a name="workloads"></a>Cargas de trabajo
 Hay dos perfiles de carga de trabajo que se usan en las pruebas: Power BI Report Heavy y Paginated Report Heavy. En la tabla siguiente describe la distribución de las solicitudes ejecutadas en el servidor de informes.
 
-| Activity (Actividad) | Power BI Report Heavy, frecuencia de repetición | Paginated Report Heavy, frecuencia de repetición |
+| Actividad | Power BI Report Heavy, frecuencia de repetición | Paginated Report Heavy, frecuencia de repetición |
 | --- | --- | --- |
 | **Representación de informes de Power BI** |60 % |10 % |
 | **Representación de informes paginados (RDL)** |30 % |60 % |
@@ -121,7 +113,7 @@ Los resultados presentados en este documento se obtuvieron de la ejecución de u
 ### <a name="1-topology"></a>Topología 1
 **1.1 Topología de Power BI Report Server**
 
-Con el objeto de establecer el centro de atención solamente sobre el comportamiento de Power BI Report Server bajo configuraciones diferentes, se determinó la configuración de máquina virtual para cada tipo de máquina (excepto para la máquina que hospedaba Power BI Report Server). Cada máquina se aprovisionó de acuerdo con las máquinas de la serie D de segunda generación (v2) con discos de Premium Storage. Puede encontrar información detallada sobre cada tamaño de máquina virtual en la sección "Uso general" en https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Con el objeto de establecer el centro de atención solamente sobre el comportamiento de Power BI Report Server bajo configuraciones diferentes, se determinó la configuración de máquina virtual para cada tipo de máquina (excepto para la máquina que hospedaba Power BI Report Server). Cada máquina se aprovisionó de acuerdo con las máquinas de la serie D de segunda generación (v2) con discos de Premium Storage. Encontrará información detallada sobre cada tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Tipo de máquina virtual | Procesador | Memoria | Tamaño de máquina virtual de Azure |
 | --- | --- | --- | --- |
@@ -131,7 +123,7 @@ Con el objeto de establecer el centro de atención solamente sobre el comportami
 
 **1.2 Configuración de máquina virtual de Power BI Report Server** 
 
-Se usaron diferentes configuraciones de procesador y memoria para la máquina Virtual que hospedaba Power BI Report Server. A diferencia de las demás máquinas virtuales, esta máquina se aprovisionó de acuerdo con las máquinas de la serie D de tercera generación (v3) con discos Premium Storage. Puede encontrar información detallada sobre este tamaño de máquina virtual en la sección "Uso general" en https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Se usaron diferentes configuraciones de procesador y memoria para la máquina Virtual que hospedaba Power BI Report Server. A diferencia de las demás máquinas virtuales, esta máquina se aprovisionó de acuerdo con las máquinas de la serie D de tercera generación (v3) con discos Premium Storage. Encontrará información detallada sobre este tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
 
 | Máquina virtual | Procesador | Memoria | Tamaño de máquina virtual de Azure |
 | --- | --- | --- | --- |
@@ -141,11 +133,11 @@ Se usaron diferentes configuraciones de procesador y memoria para la máquina Vi
 ### <a name="2-run-the-loadtest-tool"></a>2 Ejecución de la herramienta LoadTest
 Si desea ejecutar la herramienta LoadTest de Reporting Services o una implementación de Microsoft Azure de Power BI Report Server, siga estos pasos.
 
-1. Clone el proyecto LoadTest de Reporting Services de GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
+1. Clone el proyecto Reporting Services LoadTest desde GitHub (https://github.com/Microsoft/Reporting-Services-LoadTest).
 2. En el directorio del proyecto, encontrará un archivo de solución denominado RSLoadTests.sln. Abra este archivo en Visual Studio 2015 o posterior.
 3. Determine si desea ejecutar esta herramienta en la implementación de Power BI Report Server o en una implementación de Power BI Report Server en Microsoft Azure. Si va a ejecutarla en su propia implementación, vaya al paso 5.
-4. Siga las instrucciones que se indican en https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure para crear un entorno de Power BI Report Server en Azure.
-5. Después de finalizar la implementación del entorno, siga las instrucciones que aparecen en https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution para ejecutar las pruebas.
+4. Siga las instrucciones enumeradas en https://github.com/Microsoft/Reporting-Services-LoadTest#create-a-sql-server-reporting-services-load-environment-in-azure para crear un entorno de Power BI Report Server en Azure.
+5. Una vez que termine de implementar el entorno, siga las instrucciones enumeradas en https://github.com/Microsoft/Reporting-Services-LoadTest#load-test-execution para ejecutar las pruebas.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -1,27 +1,19 @@
 ---
 title: Usar herramientas de desarrollo para crear objetos visuales personalizados
-description: "Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo."
-services: powerbi
-documentationcenter: 
+description: Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo.
 author: markingmyname
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: c7ed6a9b8acc74c9d4e39ff21a10624a208847f4
-ms.sourcegitcommit: 5e1f7d2673efe25c47b9b9f315011055bfe92c8f
+ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar herramientas de desarrollo para crear objetos visuales personalizados
 Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo.
@@ -87,7 +79,7 @@ Para crear un objeto visual personalizado, debe instalar NodeJS. Se necesita Nod
     --install-cert  Install localhost certificate
     </code></pre>
 
-<a name"ssl-setup"></a>
+<a name="ssl-setup"></a>
 
 ### <a name="server-certificate-setup"></a>Configuración del certificado de servidor
 Para habilitar una vista previa dinámica del objeto visual, se necesita un servidor https de confianza. Antes de comenzar, debe instalar un certificado SSL que permitirá que se carguen los activos del objeto visual en el explorador web. 
@@ -97,9 +89,24 @@ Para habilitar una vista previa dinámica del objeto visual, se necesita un serv
 > 
 > 
 
-Para *agregar* un certificado, ejecute el siguiente comando.
+Para *crear* un certificado, ejecute el siguiente comando.
+
+    pbiviz --create-cert
+
+> [!NOTE]
+> Debería ver un mensaje indicándole la ruta de acceso de ubicación del certificado y una frase de contraseña recién generada.
+> 
+> 
+
+
+Para *instalar* el certificado, ejecute el siguiente comando.
 
     pbiviz --install-cert
+    
+> [!NOTE]
+> Debería ver un mensaje indicándole que use su frase de contraseña recién generada para instalar un certificado PFX.
+> 
+> 
 
 **SO Windows**
 

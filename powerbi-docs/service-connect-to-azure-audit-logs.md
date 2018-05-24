@@ -1,28 +1,20 @@
 ---
 title: Conexión a Azure Audit Logs con Power BI
 description: Azure Audit Logs para Power BI
-services: powerbi
-documentationcenter: ''
 author: SarinaJoan
 manager: kfile
-backup: maggiesMSFT
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bb88ca524df5dd8c683c38a1a54a9bd626dad840
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 22020595b4f972f112f10e16fe7ae7d7fd4abed7
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Conexión a Azure Audit Logs con Power BI
 Con el paquete de contenido de Registros de auditoría de Azure puede analizar y visualizar la información almacenada en los registros de auditoría. Power BI recupera los datos, crea un panel integrado y crea informes basados en esos datos.
@@ -70,7 +62,7 @@ Existen dos métodos sencillos de buscar el identificador de suscripción.
 1. Desde https://portal.azure.com -&gt; Examinar -&gt; Suscripciones -&gt; Id. de suscripción
 2. Desde https://manage.windowsazure.com -&gt; Configuración -&gt; Id. de suscripción
 
-El identificador de suscripción será un conjunto largo de números y caracteres, similar al ejemplo del paso 4 anterior. 
+El identificador de suscripción será un conjunto largo de números y caracteres, similar al ejemplo del paso \#4 anterior. 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Si ve un error en las credenciales o un error al intentar actualizar debido a credenciales no válidas, vuelva a intentar eliminar todas las instancias del paquete de contenido de Registros de auditoría de Azure y conéctese de nuevo.

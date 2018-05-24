@@ -22,7 +22,7 @@ Establezca alertas que le envíen notificaciones cada vez que los datos de sus p
 
 Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo sobre medidores, KPI y tarjetas. Las alertas se pueden establecer en objetos visuales creados a partir de conjuntos de datos de streaming que se hayan anclado desde un informe a un panel, pero no se pueden establecer en iconos de streaming creados directamente en el panel a través de **Agregar icono** > **Datos de transmisión personalizados**. 
 
-Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com). [Pruébelo](service-flow-integration.md).
+Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com) - [Pruébelo](service-flow-integration.md).
 
 ![Iconos](media/service-set-data-alerts/powerbi-alert-types-new.png)
 

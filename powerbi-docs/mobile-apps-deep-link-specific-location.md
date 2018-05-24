@@ -1,27 +1,19 @@
 ---
-title: "Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI"
-description: "Obtenga información sobre cómo crear un vínculo profundo a un panel, icono o informe específicos en la aplicación móvil de Power BI con un identificador uniforme de recursos (URI)."
-services: powerbi
-documentationcenter: 
+title: Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
+description: Obtenga información sobre cómo crear un vínculo profundo a un panel, icono o informe específicos en la aplicación móvil de Power BI con un identificador uniforme de recursos (URI).
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: f0174dfd845508b859f703827cec6e1a9290fe78
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: 3be6882219e23a2d22ee03e6805ce3a1e8e08b8f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede crear y usar un identificador uniforme de recursos (URI) para establecer un vínculo a una ubicación específica (es decir, un *vínculo profundo*) dentro de las aplicaciones móviles de Power BI en todas las plataformas móviles: iOS, dispositivos Android y Windows 10.
@@ -47,7 +39,7 @@ https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270*
 
 Si el panel se encuentra en un grupo distinto de Mi área de trabajo, agregue `&GroupObjectId=<36-character-group-id>` antes o después del identificador del panel. Por ejemplo: 
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60**&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
 
 Observe la Y comercial (&) entre los dos.
 

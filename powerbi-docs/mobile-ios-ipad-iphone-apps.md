@@ -1,27 +1,19 @@
 ---
-title: "Exploración de los datos en la aplicación móvil de Power BI para dispositivos iOS"
-description: "Visualice los informes y paneles de Power BI, y los informes móviles de Reporting Services y KPI, e interactúe con ellos, en su iPad, iPhone, Apple Watch e iPod Touch."
-services: powerbi
-documentationcenter: 
+title: Exploración de los datos en la aplicación móvil de Power BI para dispositivos iOS
+description: Visualice los informes y paneles de Power BI, y los informes móviles de Reporting Services y KPI, e interactúe con ellos, en su iPad, iPhone, Apple Watch e iPod Touch.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-mobile
+ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 0b09706b8d8f7f4dbf9c2f8d3f6fc844383ce6be
-ms.sourcegitcommit: 99cc3b9cb615c2957dde6ca908a51238f129cebb
+ms.openlocfilehash: b0785555e288084f97d06d05161ebef78d21731c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="explore-your-data-on-the-power-bi-mobile-app-for-ios-devices"></a>Exploración de los datos en la aplicación móvil de Power BI para dispositivos iOS
 La aplicación Microsoft Power BI para iOS ofrece la experiencia móvil de BI en iPad, iPhone, Apple Watch e iPod Touch. Las aplicaciones proporcionan acceso móvil directo y táctil a la información empresarial importante para que pueda ver los informes y paneles de Power B de la organización, y los informes móviles de Reporting Services y KPI, e interactuar con ellos, desde cualquier lugar. Explore los datos en los paneles y compártalos con sus colegas en mensajes de texto o correo electrónico.

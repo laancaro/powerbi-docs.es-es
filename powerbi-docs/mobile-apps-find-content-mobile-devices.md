@@ -1,27 +1,19 @@
 ---
-title: "Busque paneles, informes y aplicaciones en las aplicaciones móviles de Power BI"
-description: "Obtenga información sobre dónde se encuentran sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI, dependiendo de su procedencia."
-services: powerbi
-documentationcenter: 
+title: Busque paneles, informes y aplicaciones en las aplicaciones móviles de Power BI
+description: Obtenga información sobre dónde se encuentran sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI, dependiendo de su procedencia.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-service
+ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: maggies
-ms.openlocfilehash: 23a3fc38b1cf284f79b3515b25ec0396b79fb267
-ms.sourcegitcommit: db37f5cef31808e7882bbb1e9157adb973c2cdbc
+ms.openlocfilehash: 26a45efaba84961351008bf7b3497c6214cfd702
+ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 05/17/2018
 ---
 # <a name="find-your-dashboards-reports-and-apps-in-the-power-bi-mobile-apps"></a>Busque sus paneles, informes y aplicaciones en las aplicaciones móviles de Power BI
 Se aplica a:
