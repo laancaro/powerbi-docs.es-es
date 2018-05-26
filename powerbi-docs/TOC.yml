@@ -96,6 +96,8 @@
                   href: service-print.md
                 - name: Suscripción a un informe o panel
                   href: service-report-subscribe.md
+                - name: Varias maneras de abrir un informe
+                  href: service-report-open.md
                 - name: Cambiar el nombre del contenido dentro de Power BI
                   href: service-rename.md
                 - name: Mostrar paneles e informes en el modo de pantalla completa (modo de televisión)

@@ -8,14 +8,14 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 157103ff224cf0d71e2ca14106903b9c89fdc3d4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 004b9c921de9e94cb52f90cdea4815acd6162175
+ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 05/24/2018
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -125,6 +125,19 @@ También puede ordenar el contenido por nombre o propietario.
 ![Orden de contenido](media/service-the-new-power-bi-experience/power-bi-sort.png)
 
 Para más información, consulte [Navegación en Power BI: buscar, ordenar y filtrar](service-navigation-search-filter-sort.md)
+
+## <a name="clean-up-resources"></a>Limpiar recursos
+Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de muestra de ejemplos de análisis de minoristas, el informe y el conjunto de datos.
+
+1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.    
+2. En el panel de navegación izquierdo, seleccione **Áreas de trabajo > Mi área de trabajo**.  
+    ¿Ha visto la estrella amarilla con la que se indica un favorito?    
+3. En la pestaña **Paneles**, seleccione el icono **Eliminar** de papelera situado junto al panel de análisis de minoristas.    
+
+    ![eliminar panel](media/service-the-new-power-bi-experience/power-bi-cleanup.png)
+
+4. Seleccione la pestaña **Informes** y haga lo mismo con el informe de análisis de minoristas.
+1. Seleccione la pestaña **Conjuntos de datos** y haga lo mismo con el conjunto de datos de análisis de minoristas.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
