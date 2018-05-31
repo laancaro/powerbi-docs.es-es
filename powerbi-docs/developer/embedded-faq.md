@@ -1,28 +1,20 @@
 ---
 title: Preguntas más frecuentes acerca de Power BI Embedded
 description: Examinar una lista de las preguntas más frecuentes, y sus respuestas, acerca de Power BI Embedded.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: f2d457c04f9db2bdd57f363ccb0c09e2496aefd6
-ms.sourcegitcommit: 1c7780e0dfe0b6b8322e6fafdd0693177db455d2
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/14/2018
-ms.locfileid: "34163331"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289749"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -59,7 +51,7 @@ Puede haber algunos casos en los que un ISV (normalmente grande) desee utilizar 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>¿Cuántos tokens de inserción puedo crear?
 
-Los tokens de inserción con licencia PRO están pensados para el desarrollo y las pruebas, de modo que el número de tokens de inserción que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirir capacidad](#technical) para realizar inserciones en un entorno de producción. No hay ningún límite en la cantidad de tokens de inserción que se pueden generar cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Obtener características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Embedded.
+Los tokens de inserción con licencias PRO están pensados para el desarrollo y las pruebas, de modo que el número de tokens de inserción que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirir capacidad](#technical) para realizar inserciones en un entorno de producción. No hay ningún límite en la cantidad de tokens de inserción que se pueden generar cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Obtener características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Embedded.
 
 ## <a name="technical"></a>Preguntas técnicas
 
