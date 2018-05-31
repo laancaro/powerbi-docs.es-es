@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c1b0d87d432dc337a1dab5d13bba10cc8c99dd14
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 26d04c77967a8223672cbe174a3c45e6d12602ea
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813378"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->
@@ -734,7 +735,7 @@ Para hacerlo, abra el panel Formato, expanda **Eje Y** y active la opción **Mos
 
 Para obtener más información:
 
-* [Tutorial: Gráficos combinados en Power BI](power-bi-visualization-combo-chart.md)
+* [Gráficos combinados en Power BI](power-bi-visualization-combo-chart.md)
 * [El peligro de los ejes de escala doble en los objetos visuales](http://www.perceptualedge.com/articles/visual_business_intelligence/dual-scaled_axes.pdf)
 
 ### <a name="scatter-chart"></a>Gráfico de dispersión
@@ -810,8 +811,8 @@ En los KPI se muestra el valor, el estado, el objetivo y la desviación del obje
 
 Para más información, consulte:
 
-* [Tutorial: Gráficos de medidor radial en Power BI](power-bi-visualization-radial-gauge-charts.md)
-* [Tutorial: KPI en Power BI](power-bi-visualization-kpi.md)
+* [Gráficos de medidor radial en Power BI](power-bi-visualization-radial-gauge-charts.md)
+* [KPI en Power BI](power-bi-visualization-kpi.md)
 
 ## <a name="conclusion"></a>Conclusión
 Ahora es el momento de poner en práctica estos procedimientos recomendados en la prueba.  Siga en contacto y comparta sus propios procedimientos recomendados. ¿No está de acuerdo con nuestras recomendaciones o encontró otro motivo ideal para “no seguir las reglas”?  También nos encantaría conocer sus comentarios.  

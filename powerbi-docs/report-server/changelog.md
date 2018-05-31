@@ -1,27 +1,20 @@
 ---
 title: Registro de cambios del servidor de informes de Power BI
 description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
-services: powerbi
-documentationcenter: ''
 author: jtarquino
-manager: jonhp
-backup: maggies
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+manager: kfile
+ms.reviewer: maggies
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 12/11/2017
-ms.author: tankas
-ms.openlocfilehash: 67b9a162d689a8615a3e2459295eab6dad6d2364
-ms.sourcegitcommit: 312390f18b99de1123bf7a7674c6dffa8088529f
+ms.author: jtarquino
+ms.openlocfilehash: 65ad5e6ca9fbdd71643f71fa56186ee3d01d2dd1
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295695"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -31,6 +24,24 @@ Para obtener información detallada sobre las nuevas características, consulte 
 
 ## <a name="march-2018"></a>Marzo de 2018
 - **Servidor de informes de Power BI**
+    - *Versión 1.2.6690.34729 (compilación 15.0.2.402), fecha de publicación: 27 de abril de 2018*
+        - Correcciones de errores
+            - Habilitar la migración de catálogos de SQL Server Reporting Services 2017
+            - Para informes de Power BI (PBIX)
+                - Los informes se pueden actualizar cuando un servidor está configurado para usar la autenticación personalizada
+                - La modificación de las propiedades de un informe no restablece las credenciales del origen de datos
+            - Para informes paginados (RDL)
+                - El uso de `Lookup()` o de funciones derivadas, como `LookupSet()` y `MultiLookup()` en expresiones RDL ya no da como resultado `#Error`
+                - Los informes vinculados respetan el tamaño de página del informe de destino al imprimir
+                - Se pueden crear suscripciones para informes vinculados que usan parámetros en cascada
+                - Los valores predeterminados de parámetros de varios valores pueden modificarse cuando se usa IE11
+                - Se pueden editar las opciones de entrega de las suscripciones controladas por datos
+                - Las suscripciones se pueden ver y editar mientras la suscripción se encuentra en ejecución
+                - La definición de las credenciales del origen de datos no elimina las cadenas de conexión basadas en expresiones
+            - Para los KPI
+                - Las líneas de tendencia se actualizan cuando se actualizan los datos
+            - Mejoras generales de la estabilidad
+
     - *Versión 1.2.6660.39920 (compilación 15.0.2.389), fecha de publicación: 28 de marzo de 2018*
         - Correcciones de errores
             - Para los informes de Power BI (PBIX), corrección para Exportar datos que no funcionan desde los objetos visuales de Power BI
@@ -120,7 +131,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
 
     - *Compilación 14.0.600.301, publicado: 11 de julio de 2017*
         - Correcciones de errores
-            - La etiqueta {{UserId}} se resuelve en las credenciales almacenadas en lugar de ser el usuario el que ejecute el informe en los informes de Power BI
+            - La etiqueta `{{UserId}}` se resuelve en las credenciales almacenadas en lugar de ser el usuario el que ejecute el informe en los informes de Power BI
             - Algunas imágenes no se pueden representar en los informes del servidor de informes de Power BI
             - No se puede cambiar el nombre de un informe de Power BI en el servidor de informes de Power BI
             - No se pueden cargar los objetos visuales personalizados en la aplicación móvil de Power BI (es necesario volver a instalar la aplicación móvil para borrar la memoria caché local)
@@ -136,7 +147,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
 
 [Manual del usuario](user-handbook-overview.md)  
 [Manual del administrador](admin-handbook-overview.md)  
-[Inicio rápido: instalar un servidor de informes de Power BI](quickstart-install-report-server.md)  
+[Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

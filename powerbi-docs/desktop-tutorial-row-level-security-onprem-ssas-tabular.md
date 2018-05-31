@@ -1,30 +1,24 @@
 ---
-title: 'Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services en Power BI'
-description: 'Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services'
-services: powerbi
-documentationcenter: ''
+title: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services en Power BI
+description: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 author: selvarms
 manager: amitaro
-backup: davidi
+ms.reviewer: davidi
 editor: davidi
-tags: ''
-qualityfocus: no
-qualitydate: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/12/2017
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 34ad1c6568dfd73dc65d561e4fed7bf8c4c63fbc
-ms.sourcegitcommit: e31fc1f6e4af427f8b480c8dbc537c3617c9b2c0
+ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
+ms.sourcegitcommit: e6db826c2f43a69e4c63d5f4920baa8f66bc41be
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 05/23/2018
+ms.locfileid: "34456143"
 ---
-# <a name="tutorial-dynamic-row-level-security-with-analysis-services-tabular-model"></a>Tutorial: Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
+# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 En este tutorial se muestran los pasos necesarios para implementar la **seguridad de nivel de fila** dentro del **modelo tabular de Analysis Services** y se muestra cómo usarla en un informe de Power BI. Los pasos de este tutorial se han diseñado para permitirle seguir adelante y conocer los pasos necesarios al completar un conjunto de datos de ejemplo.
 
 Durante este tutorial, los pasos siguientes se describen en detalle, lo que le ayudará a comprender lo que necesita para implementar la seguridad de nivel de fila dinámica con el modelo tabular de Analysis Services:

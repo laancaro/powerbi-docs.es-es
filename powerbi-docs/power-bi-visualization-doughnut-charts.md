@@ -1,15 +1,15 @@
 ---
-title: "Gráficos de anillos de Power BI (tutorial)"
-description: "Tutorial: Gráficos de anillos en Power BI"
+title: Gráficos de anillos en Power BI
+description: Gráficos de anillos en Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,13 +18,14 @@ ms.workload: powerbi
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dca772fd2a1b8f40fa61f1abc41145e8ff6e5a8a
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: a8f0b07cd21314549df27ef3206743cad058f98f
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812734"
 ---
-# <a name="doughnut-charts-in-power-bi-tutorial"></a>Gráficos de anillos de Power BI (tutorial)
+# <a name="doughnut-charts-in-power-bi"></a>Gráficos de anillos en Power BI
 Un gráfico de anillos es similar a un gráfico circular porque muestra la relación de las partes con el todo. La única diferencia es que el centro está en blanco y deja espacio para un icono o una etiqueta.
 
 ## <a name="create-a-doughnut-chart"></a>Crear un gráfico de anillos

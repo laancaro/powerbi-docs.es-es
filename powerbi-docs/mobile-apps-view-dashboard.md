@@ -1,27 +1,20 @@
 ---
-title: "Visualización de paneles e informes en la aplicación móvil de Power BI"
-description: "Cree y conéctese a paneles e informes en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI."
-services: powerbi
-documentationcenter: 
+title: Visualización de paneles e informes en la aplicación móvil de Power BI
+description: Cree y conéctese a paneles e informes en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 07/08/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/16/2018
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: e91b9745663ad88d388b410feb83ac8dfdc791b6
-ms.sourcegitcommit: 259d7689bcb1683d4d63a245a9b02becea072139
+ms.openlocfilehash: 2e178d3c8961865fa7d728d50f118c882788247e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295885"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -115,31 +108,21 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    
    ![Página principal de paneles](media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
 
-     -     Las estrellas amarillas ![Estrella de favorito](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
+    Las estrellas amarillas ![Estrella de favorito](media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
 
-     -     Una notación debajo de un nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](service-data-classification.md).
-
+    Una notación debajo de un nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](service-data-classification.md).
 
     Los paneles de Power BI tienen un aspecto un poco distinto en el teléfono Android. Todos los iconos aparecen de la misma anchura y están ordenados uno tras otro de arriba hacia abajo.
 
     ![Vista vertical del panel](media/mobile-apps-view-dashboard/pbi_andr_dash.png)
 
-     O puede girar el teléfono lateralmente para ver los paneles en modo horizontal en su teléfono.
-
-    > [AZURE.TIP] Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](service-create-dashboard-mobile-phone-view.md) en modo vertical. 
+    Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](service-create-dashboard-mobile-phone-view.md) en modo vertical. 
 
 1. En el panel, puede pulsar los puntos suspensivos verticales (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
    ![Menú del botón de puntos suspensivos](media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
 3. Para volver a la página principal de paneles, pulse el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**.   
-
-### <a name="view-dashboards-in-landscape-mode-on-your-android-phone"></a>Ver paneles en modo horizontal en un teléfono Android
-Gire el teléfono para poder ver los paneles en modo horizontal. El diseño del panel cambia de una serie de iconos a una vista de todo el panel: se ven todos los iconos del panel dispuestos como en el servicio Power BI.
-
-![Vista horizontal del panel](media/mobile-apps-view-dashboard/power-bi-android-landscape-dashboard.png)
-
-Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
 
 ## <a name="view-dashboards-on-your-android-tablet"></a>Visualización de paneles en tabletas Android
 1. Abra la aplicación Power BI en su tableta Android e inicie sesión.

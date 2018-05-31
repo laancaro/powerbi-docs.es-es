@@ -1,5 +1,5 @@
 ---
-title: Visualización de tablas en los informes y los paneles de Power BI (Tutorial)
+title: Visualización de tablas en los informes y los paneles de Power BI
 description: Tutorial para trabajar con visualizaciones de tablas en informes y paneles de Power BI, incluida la forma de cambiar el tamaño de los anchos de columna.
 services: powerbi
 documentationcenter: ''
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a36e2afcda7c741c871b07c526ab010f77290a3b
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 0f7084cf2e0ad4db88ad99bd969ada20ba40aa57
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812642"
 ---
-# <a name="working-with-tables-in-power-bi-reports-and-dashboards-tutorial"></a>Trabajar con tablas en informes y paneles de Power BI (Tutorial)
+# <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Trabajar con tablas en informes y paneles de Power BI
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, esta tabla muestra 5 medidas distintas para **Categoría**.
 
 ![](media/power-bi-visualization-tables/table.png)
@@ -43,7 +44,7 @@ Las tablas son una excelente opción:
 > 
 ## <a name="prerequisites"></a>Requisitos previos
  - Servicio Power BI o Power BI Desktop
- - Ejemplo Análisis de venta directa
+ - Ejemplo de análisis de venta al por menor
 
 
 ## <a name="create-a-table"></a>Crear una tabla

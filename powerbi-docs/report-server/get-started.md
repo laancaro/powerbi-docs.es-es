@@ -1,89 +1,73 @@
 ---
-title: "Introducción al servidor de informes de Power BI"
-description: 'Aprenda a instalar un servidor de informes de Power BI. '
+title: ¿Qué es Power BI Report Server?
+description: Obtenga información general de Power BI Report Server para saber cómo se adapta a SQL Server Reporting Services (SSRS) y al resto de servicios de Power BI.
 services: powerbi
-documentationcenter: 
-author: markingmyname
-manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: no
-qualitydate: 
+keywords: ''
+author: maggiesMSFT
+ms.author: maggies
+ms.component: powerbi-report-server
+ms.date: 05/07/2018
+ms.topic: overview
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 3/5/2018
-ms.author: maghan
-ms.openlocfilehash: 88aa347a5e6feae969cf9b32e0e2177114efc757
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+manager: kfile
+ms.custom: mvc
+ms.openlocfilehash: 83220c399b527df421a14f9e45148feabc902ebb
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33840106"
 ---
-# <a name="get-started-with-power-bi-report-server"></a>Introducción al servidor de informes de Power BI
-Cree, implemente y administre Power BI, informes paginados y móviles de forma local con el intervalo de herramientas y servicios que proporciona el servidor de informes de Power BI.
+# <a name="what-is-power-bi-report-server"></a>¿Qué es Power BI Report Server?
 
-## <a name="create-deploy-and-manage-reports"></a>Crear, implementar y administrar informes
-El servidor de informes de Power BI es una solución que los clientes implementan a nivel local para crear, publicar y administrar informes, y posteriormente entregarlos a los usuarios correctos de maneras diferentes, independientemente de que los vean en un explorador web, en su dispositivo móvil o, en forma de correo electrónico, en su bandeja de entrada.
+Power BI Report Server es un servidor de informes local con un portal web en el que se pueden mostrar y administrar informes y KPI, junto con las herramientas para crear informes, informes paginados, informes móviles y KPI de Power BI. Los usuarios pueden acceder a los informes de maneras diferentes: verlos en un explorador web o en un dispositivo móvil, o como un correo electrónico en su bandeja de entrada.
 
-El servidor de informes de Power BI ofrece un conjunto de productos:
+![Portal web del servidor de informes de Power BI](media/get-started/power-bi-report-server-overview.png)
 
-* Un portal web moderno que puede ver en cualquier explorador moderno. En el portal web, puede organizar y mostrar informes y KPI. En él también puede almacenar libros de Excel.
-* Informes de Power BI, creados con Power BI Desktop, que puede ven en el portal web en su propio entorno.
-* Informes paginados para que pueda crear informes de aspecto moderno y herramientas para crearlos.
-* Informes móviles con un diseño dinámico que se adapta a diferentes dispositivos y distintas maneras de contenerlos.
+## <a name="comparing-power-bi-report-server"></a>Comparación de Power BI Report Server 
+Power BI Report Server es similar a SQL Server Reporting Services y al servicio en línea Power BI, pero con algunas diferencias. Al igual que el servicio Power BI, Power BI Report Server hospeda informes de Power BI (.PBIX) y archivos de Excel. Al igual que Reporting Services, Power BI Report Server es local y hospeda los informes paginados (.RDL). Power BI Report Server es un superconjunto de Reporting Services: todo lo que puede hacer en Reporting Services, puede hacerlo con Power BI Report Server y más, con la adición de compatibilidad para los informes de Power BI. Vea [Comparación de Power BI Report Server y el servicio Power BI](compare-report-server-service.md) para obtener información detallada.
 
-Lea más sobre cada uno de ellos.
-
-### <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
-Estos orígenes le mantendrán al día con respecto a las nuevas características del servidor de informes de Power BI.
-
-* [Novedades en el servidor de informes de Power BI](whats-new.md)
-* [Blog de Microsoft Power BI](https://powerbi.microsoft.com/blog/)
-* [Blog del equipo de SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
-* El [canal de YouTube Guy in a Cube](https://aka.ms/guyinacube)
+## <a name="licensing-power-bi-report-server"></a>Licencias de Power BI Report Server
+Power BI Report Server está disponible con dos licencias distintas: [Power BI Premium](../service-premium.md) y [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licencia de Power BI Premium, puede crear una implementación híbrida en la que se combine la nube y un entorno local.  
 
 ## <a name="web-portal"></a>Portal web
-![](media/get-started/web-portal.png)
+El punto de entrada de Power BI Report Server es un portal web seguro que puede ver en cualquier explorador moderno. Aquí, puede acceder a todos los informes y KPI. El contenido del portal web se organiza en una jerarquía de carpetas tradicional. En las carpetas, el contenido se agrupa por tipos: informes de Power BI, informes móviles, informes paginados, KPI y libros de Excel, además de conjuntos de datos compartidos y orígenes de datos compartidos que se usan como bloques de creación para los informes. Puede etiquetar favoritos para verlos en una sola carpeta. Y puede crear KPI en el portal web. 
 
-Para los usuarios finales del servidor de informes de Power BI, la puerta delantera es un portal web moderno que se puede ver en cualquier explorador moderno. Puede acceder a todos los informes y KPI en el nuevo portal.
+![Portal web del servidor de informes de Power BI](media/get-started/web-portal.png)
 
-Puede aplicar su propia [marca](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada al portal web. Y puede crear KPI en el portal web. Los KPI pueden mostrar métricas empresariales clave de un vistazo en el explorador, sin necesidad de abrir ningún informe.
+Dependiendo de sus permisos, puede administrar el contenido en el portal web. Puede programar el procesamiento de informes, acceder a informes a petición y suscribirse a los informes publicados. Puede aplicar también su propia [marca](https://docs.microsoft.com/sql/reporting-services/branding-the-web-portal) personalizada al portal web. 
 
-El contenido del portal web se organiza por tipo: informes de Power BI, informes móviles, informes paginados y KPI, además de libros de Excel, conjuntos de datos compartidos y orígenes de datos compartidos que se usan como bloques de creación para los informes. Todo este contenido se puede almacenar y administrar aquí de forma segura, en la jerarquía de carpetas tradicional. Si tiene ese rol, puede etiquetar sus favoritos y administrar el contenido.
-
-Y puede programar el procesamiento de informes, acceder a informes a petición y suscribirse a los informes publicados en el nuevo portal web.
-
-Más información acerca del [portal web](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
+Obtenga más información sobre el [portal web de Power BI Report Server](https://docs.microsoft.com/sql/reporting-services/web-portal-ssrs-native-mode).
 
 ## <a name="power-bi-reports"></a>Informes de Power BI
-![](media/get-started/powerbi-reports.png)
+Cree informes de Power BI (.PBIX) con la versión de Power BI Desktop optimizada para el servidor de informes. A continuación, publíquelos y véalos en el portal web en su propio entorno.
 
-Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con visualizaciones que representan diferentes hallazgos e información detallada de ese conjunto de datos.  Un informe puede tener una sola visualización o páginas enteras de visualizaciones. Dependiendo de su función, puede que cree informes o que consuma o use informes.
+![Informes de Power BI en Power BI Report Server](media/get-started/powerbi-reports.png)
 
-Los informes se basan en un único conjunto de datos. Cada una de las visualizaciones de un informe representa un fragmento de información. Y las visualizaciones no son estáticas. Puede agregar y quitar datos, cambiar los tipos de visualización y aplicar filtros y segmentaciones de datos a medida que profundiza en estos para detectar información y buscar respuestas. Al igual que un panel, o incluso más, un informe es algo muy interactivo y personalizable, y las visualizaciones se actualizan según van cambiando los datos subyacentes.
+Un informe de Power BI es una vista de varias perspectivas de un modelo de datos, con visualizaciones que representan diferentes hallazgos e información detallada de ese modelo de datos.  Un informe puede tener una sola visualización o páginas enteras de visualizaciones. Dependiendo de su rol, puede leer y explorar los informes, o puede crearlos para otras personas.
+
+Instale [Power BI Desktop optimizado para Power BI Report Server](quickstart-create-powerbi-report.md).
 
 ## <a name="paginated-reports"></a>Informes paginados
-![](media/get-started/paginated-reports.png)
+Los informes paginados (.RDL) son informes con estilo de documento con visualizaciones, en los que las tablas se expanden horizontalmente y verticalmente para mostrar todos sus datos, avanzando de una página a otra según sea necesario. Son excelentes para generar documentos de diseño fijo y apariencia perfecta, optimizados para la impresión, como los archivos PDF y de Word.
 
-Los informes paginados son informes con estilo de documento paginado, en los que, cuantos más datos se tienen, más filas hay en las tablas y más páginas tendría el informe. Son excelentes para generar documentos de diseño fijo y apariencia perfecta, optimizados para la impresión, como los archivos PDF y de Word.
+![Informes paginados en Power BI Report Server](media/get-started/paginated-reports.png)
 
 Para crear informes de aspecto moderno mediante el [Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o el Diseñador de informes en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
+## <a name="reporting-services-mobile-reports"></a>Informes móviles de Reporting Services
+Los informes móviles se conectan a datos locales y tienen un diseño dinámico que se adapta a diferentes dispositivos y distintas maneras de contenerlos. Puede crearlos con el Publicador de informes móviles de Microsoft SQL Server.
+
+Obtenga más información sobre los [Informes móviles de Reporting Services](https://docs.microsoft.com/sql/reporting-services/mobile-reports/create-mobile-reports-with-sql-server-mobile-report-publisher). 
+
 ## <a name="report-server-programming-features"></a>Características de programación del servidor de informes
-Saque provecho de las características de programación del servidor de informes de Power BI para que pueda extender y personalizar la funcionalidad de informes, con API para integrar o extender el procesamiento de datos e informes en aplicaciones personalizadas.
+Saque provecho de las características de programación de Power BI Report Server para que pueda extender y personalizar la funcionalidad de informes, con API para integrar o extender el procesamiento de datos e informes en aplicaciones personalizadas.
 
 Más [documentación para desarrolladores del servidor de informes](https://docs.microsoft.com/sql/reporting-services/reporting-services-developer-documentation).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Manual del usuario](user-handbook-overview.md)  
-[Manual del administrador](admin-handbook-overview.md)  
-[Inicio rápido: instalar un servidor de informes de Power BI](quickstart-install-report-server.md)  
+[Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
-[Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

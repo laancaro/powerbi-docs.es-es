@@ -1,31 +1,24 @@
 ---
-title: "Gráficos de rectángulos de Power BI (tutorial)"
-description: "Tutorial: Gráficos de rectángulos en Power BI"
-services: powerbi
-documentationcenter: 
+title: Gráficos de rectángulos en Power BI
+description: Gráficos de rectángulos en Power BI
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
-qualityfocus: no
-qualitydate: 
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-desktop
+ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a803256e5902ffc19e77c67a450d4895982b4b8b
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295362"
 ---
-# <a name="treemaps-in-power-bi-tutorial"></a>Gráficos de rectángulos de Power BI (tutorial)
+# <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
 Los gráficos de rectángulos muestran los datos jerárquicos como un conjunto de rectángulos anidados.  Cada nivel de la jerarquía se representa mediante un rectángulo de color (llamado "rama") que contiene otros rectángulos ("hojas").  El espacio dentro de cada rectángulo se asigna según el valor cuantitativo medido, con los rectángulos dispuestos por el tamaño desde la esquina superior izquierda (mayor) a la esquina inferior derecha (menor).
 
 ![](media/power-bi-visualization-treemaps/pbi-nancy_viz_treemap.png)
@@ -44,7 +37,7 @@ Los gráficos de rectángulos son una excelente opción:
 
 ### <a name="prerequisites"></a>Requisitos previos
  - Servicio Power BI o Power BI Desktop
- - Ejemplo Análisis de venta directa
+ - Ejemplo de análisis de venta al por menor
 
 ## <a name="create-a-basic-treemap"></a>Crear un gráfico de rectángulos básico
 ¿Quiere ver primero a otra persona creando un gráfico de rectángulos?  Vaya al minuto 2:10 de este vídeo para ver cómo Amanda crea un gráfico de rectángulos.

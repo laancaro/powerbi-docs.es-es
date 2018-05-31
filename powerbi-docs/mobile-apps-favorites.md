@@ -1,27 +1,28 @@
 ---
-title: "Elementos favoritos en las aplicaciones móviles de Power BI"
-description: "Lea información sobre cómo definir y ver sus paneles, informes y aplicaciones de Power BI favoritos, junto con los informes y KPI de Microsoft Power BI Report Server y de Reporting Services en las aplicaciones móviles."
+title: Elementos favoritos en las aplicaciones móviles de Power BI
+description: Lea información sobre cómo definir y ver sus paneles, informes y aplicaciones de Power BI favoritos, junto con los informes y KPI de Microsoft Power BI Report Server y de Reporting Services en las aplicaciones móviles.
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 02/09/2018
+ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: d3b53618f43652fffcb53502fd9d55ef91f2aff3
-ms.sourcegitcommit: ad9bd4e52471b1179f46f847960d5ed79c0c0761
+ms.openlocfilehash: 4edffdbf918e4ccf7e31821d359df54dfc275f46
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/11/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33812159"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creación y visualización de elementos favoritos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -32,7 +33,7 @@ Se aplica a:
 
 Lea información sobre cómo definir y ver sus paneles, informes y aplicaciones de Power BI favoritos, junto con los informes y KPI favoritos locales de Power BI Report Server y de Reporting Services, en las aplicaciones móviles.
 
-Cuando define un favorito en las aplicaciones móviles de Power BI, puede verlo en la página Favoritos del servicio Power BI [(https://powerbi.com)](https://powerbi.com) y en todos sus dispositivos móviles. 
+Cuando define un favorito en las aplicaciones móviles de Power BI, puede verlo en la página Favoritos del servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en todos sus dispositivos móviles. 
 
 ![Elementos favoritos en las aplicaciones móviles de Power BI](media/mobile-apps-find-content-mobile-devices/power-bi-android-favorites-reports.png)
 
@@ -80,7 +81,7 @@ Puede definir un panel o informe como favorito desde la lista de paneles o infor
     ![Estrella de favoritos de Android](media/mobile-apps-favorites/power-bi-android-favorite-in-dashboard.png)
 
 ## <a name="make-favorite-power-bi-report-server-and-reporting-services-reports-and-kpis"></a>Agregar a Favoritos informes y KPI del servidor de informes de Power BI y Reporting Services
-En las aplicaciones móviles de Power BI puede ver los informes y KPI del servidor de informes de Power BI y Reporting Services, pero no puede agregarlos a Favoritos. Se [etiquetan como favoritos en el portal web](report-server/getting-around.md#tag-your-favorite-reports-and-kpis). 
+En las aplicaciones móviles de Power BI puede ver los informes y KPI del servidor de informes de Power BI y Reporting Services, pero no puede agregarlos a Favoritos. Se [etiquetan como favoritos en el portal web](report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Paneles favoritos en el servicio Power BI](service-dashboard-favorite.md) 

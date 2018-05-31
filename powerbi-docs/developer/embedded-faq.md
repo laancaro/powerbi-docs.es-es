@@ -1,27 +1,20 @@
 ---
 title: Preguntas más frecuentes acerca de Power BI Embedded
 description: Examinar una lista de las preguntas más frecuentes, y sus respuestas, acerca de Power BI Embedded.
-services: powerbi
-documentationcenter: ''
 author: markingmyname
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-developer
+ms.topic: conceptual
 ms.date: 04/23/2018
 ms.author: maghan
-ms.openlocfilehash: 24e4dbaf6ede92436ff05c8cb57756e3ab7e8526
-ms.sourcegitcommit: 3f2f254f6e8d18137bae879ddea0784e56b66895
+ms.openlocfilehash: 255efac5d5bf73bca3126f869d4c7434d5c6ef0f
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34289749"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -58,7 +51,7 @@ Puede haber algunos casos en los que un ISV (normalmente grande) desee utilizar 
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>¿Cuántos tokens de inserción puedo crear?
 
-Los tokens de inserción con licencia PRO están pensados para el desarrollo y las pruebas, de modo que el número de tokens de inserción que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirir capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para realizar inserciones en un entorno de producción. No hay ningún límite en la cantidad de tokens de inserción que se pueden generar cuando se compra una capacidad.
+Los tokens de inserción con licencias PRO están pensados para el desarrollo y las pruebas, de modo que el número de tokens de inserción que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirir capacidad](#technical) para realizar inserciones en un entorno de producción. No hay ningún límite en la cantidad de tokens de inserción que se pueden generar cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/library/mt846473.aspx) (Obtener características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Embedded.
 
 ## <a name="technical"></a>Preguntas técnicas
 
@@ -84,7 +77,7 @@ Esta es una lista parcial de las diferencias que puede utilizar con cada una de 
 |---------|---------|---------|---------|
 |Comprar     |Azure Portal |Office |Office |
 |Casos de uso |* Insertar contenido en su propia aplicación |* Insertar contenido en su propia aplicación<br>* Compartir el contenido con usuarios con acceso GRATUITO de Power BI fuera de PowerBI.com e insertarlo en otras aplicaciones de SaaS (SharePoint y Teams) |* Insertar contenido en su propia aplicación<br>* Compartir el contenido con usuarios con acceso GRATUITO de Power BI fuera de PowerBI.com e insertarlo en otras aplicaciones de SaaS (SharePoint y Teams)<br>* Compartir contenido con usuarios con acceso GRATUITO de Power BI a través de PowerBI.com  |
-|Facturación |Cada hora |Mensualmente |Mensualmente |
+|Facturación |Cada hora |Mensual |Mensualmente |
 |Asignación  |Sin asignación |Anualmente  |Mensual o anual |
 |Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede utilizar para insertar contenido en SharePoint Online y Microsoft Teams |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
 
@@ -164,10 +157,6 @@ Sí, puede usar sus [créditos de Azure](https://azure.microsoft.com/free/) para
 
 Puesto que Power BI Embedded forma parte de Azure el servicio se puede usar con el [crédito de 200 dólares que se recibe al suscribirse a Azure](https://azure.microsoft.com/free/).
 
-### <a name="is-there-a-limit-to-the-number-of-embed-tokens-a-power-bi-master-account-can-generate"></a>¿Existe un límite para el número de tokens de inserción que puede generar una cuenta maestra de Power BI? 
-
-Sí, está limitado porque estos tokens de inserción son solo para pruebas de desarrollo. [Debe adquirirse capacidad](#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx) (Obtención de características disponibles) para comprobar para cuántos tokens de inserción gratuitos se han usado.
-
 ### <a name="is-power-bi-embedded-available-for-sovereign-clouds-us-government-germany-china"></a>¿Existe Power BI Embedded para nubes soberanas (Gobierno de EE. UU., Alemania, China)?
 
 Power BI Embedded está disponible para algunas [nubes soberanas](embed-sample-for-customers-sovereign-clouds.md). Todavía **NO** está disponible para la nube de China.
@@ -176,9 +165,47 @@ Power BI Embedded está disponible para algunas [nubes soberanas](embed-sample-f
 
 Las entidades sin ánimo de lucro y educativas pueden comprar Azure. No hay precios especiales para estos tipos de clientes en Azure.
 
+## <a name="power-bi-workspace-collection"></a>Colección de áreas de trabajo de Power BI
+
+### <a name="what-is-power-bi-workspace-collection"></a>¿Qué es la colección de áreas de trabajo de Power BI?
+
+**Colección de áreas de trabajo de Power BI** (**Power BI Embedded**, versión 1) es una solución basada en el recurso de Azure **Colección de áreas de trabajo de Power BI**. Esta solución le permite crear aplicaciones de **Power BI Embedded** para sus clientes con el uso de contenido de Power BI en la solución **Colección de áreas de trabajo de Power BI**, API dedicadas y claves de colecciones de áreas de trabajo para autenticar la aplicación en Power BI.
+
+### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>¿Puedo migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded?
+
+1. Puede usar la herramienta de migración para clonar el contenido de la **colección de áreas de trabajo de Power BI** en Power BI: https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded#content-migration.
+
+2. Comience con la prueba de concepto de la aplicación de **Power BI Embedded** que usa el contenido de Power BI.
+
+3. Cuando esté listo para producción, adquiera una capacidad dedicada de **Power BI Embedded** y asigne el contenido de Power BI (área de trabajo) a dicha capacidad.
+
+>[!Note]
+Puede seguir usando la **colección de áreas de trabajo de Power BI** al compilar en paralelo con una solución de **Power BI Embedded**. Cuando esté listo, puede mover el cliente a la nueva solución de **Power BI Embedded** y retirar la solución **Colección de áreas de trabajo de Power BI**.
+
+Para más información, vea [Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).
+
+### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>¿La colección de áreas de trabajo de Power BI está en una ruta de acceso en desuso?
+
+Sí, pero los clientes que ya usan la solución de la **colección de áreas de trabajo de Power BI** pueden seguir usándola hasta que esté en desuso. Los clientes también pueden crear colecciones de áreas de trabajo y cualquier aplicación de **Power BI Embedded** que todavía use la solución **Colección de áreas de trabajo de Power BI**.
+
+Sin embargo, esto también significa que las nuevas características no se agregan a todas las soluciones de la **Colección de áreas de trabajo de Power BI** y, por ello, se insta a los clientes a que planeen la migración a la nueva solución **Power BI Embedded**.
+### <a name="when-will-power-bi-workspace-collection-support-be-discontinued"></a>¿Cuándo se interrumpirá el soporte para la colección de áreas de trabajo de Power BI?
+
+Los clientes que ya usan la solución de las **colecciones de áreas de trabajo de Power BI** pueden seguir usándola hasta el final de junio de 2018 o hasta que finalice su contrato de soporte técnico.
+
+### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>¿En qué regiones se pueden crear colecciones de áreas de trabajo de Power BI?
+
+Las regiones disponibles son Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, Japón Oriental, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Asia Suroriental, Sur de Reino Unido, Europa Occidental, India occidental y Oeste de EE. UU.
+
+### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>¿Por qué debo migrar de la Colección de áreas de trabajo de Power BI a Power BI Embedded?
+
+Hay varias características y funcionalidades que se introducen en la solución **Power BI Embedded** que no puede usar con la **Colección de áreas de trabajo de Power BI**.
+
+Algunas de las características son:
+* Se admiten todos los orígenes de datos de PBI; sin embargo, en la **Colección de áreas de trabajo de Power BI** solo se admiten dos orígenes de datos. 
+* Las nuevas características como Preguntas y respuestas, Actualización, marcadores, inserción de paneles e iconos, menús personalizados, etc., solo se admiten en la solución **Power BI Embedded**.
+* Modelo de facturación de capacidad.
+
 Para obtener más información, vea [Solución de problemas de una aplicación insertada](embedded-troubleshoot.md).
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-
-
-

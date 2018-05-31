@@ -15,25 +15,31 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/19/2018
+ms.date: 04/19/2018
 ms.author: maggies
-ms.openlocfilehash: 4f149baccf551762589c17bd6d6ba17c36f4da37
-ms.sourcegitcommit: 0473a155495a7a9ba4b899d0815100426718b7ac
+ms.openlocfilehash: 21769ee9c88dd2310da2a86be8dbadd1f17522ff
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813263"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 Conozca las novedades del servidor de informes de Power BI. Se incluyen las áreas de características principales. Esta información se actualiza a medida que se publican nuevos elementos.
 
 Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
 
-Para obtener información sobre novedades, vea:
+Consulte también estas fuentes para estar al tanto de las nuevas características de Power BI Report Server.
+
+* [Blog de Microsoft Power BI](https://powerbi.microsoft.com/blog/)
+* [Blog del equipo de SQL Server Reporting Services](https://blogs.msdn.microsoft.com/sqlrsteamblog/)
+* El [canal de YouTube Guy in a Cube](https://aka.ms/guyinacube)
+
+Para consultar información sobre las "novedades" de Power BI, vea:
 
 * [Novedades en el servicio Power BI](../service-whats-new.md)
 * [Novedades de Power BI Desktop](../desktop-latest-update.md)
 * [Novedades en las aplicaciones móviles para Power BI](../mobile-whats-new-in-the-mobile-apps.md)
-* [Blog del equipo de Power BI](https://powerbi.microsoft.com/blog/)
 
 ## <a name="march-2018-release"></a>Versión de marzo de 2018
 
@@ -208,7 +214,7 @@ Power BI Report Server ahora admite los nuevos objetos visuales tabla y matriz d
 ## <a name="next-steps"></a>Pasos siguientes
 [Manual del usuario](user-handbook-overview.md)  
 [Manual del administrador](admin-handbook-overview.md)  
-[Inicio rápido: instalar un servidor de informes de Power BI](quickstart-install-report-server.md)  
+[Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
 [Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 

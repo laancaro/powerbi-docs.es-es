@@ -1,33 +1,34 @@
 ---
-title: Combinar datos y darles forma en Power BI Desktop
-description: Combinar datos y darles forma en Power BI Desktop
-services: powerbi
-documentationcenter: ''
+title: Dar forma a los datos y combinarlos desde varios orígenes
+description: En este tutorial, aprenderá a dar forma a los datos y a combinarlos en Power BI Desktop.
 author: davidiseminger
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 01/30/2018
+ms.component: powerbi-desktop
+ms.topic: tutorial
+ms.date: 05/03/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 0bb2f8a8d9299d525085a8ba7d2ecabdcd9e6c78
-ms.sourcegitcommit: afa10c016433cf72d6d366c024b862187a8692fd
+ms.openlocfilehash: 27479add7839e1078e76bbb6523b287f10194566
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/04/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34288760"
 ---
-# <a name="shape-and-combine-data-in-power-bi-desktop"></a>Combinar datos y darles forma en Power BI Desktop
-Con **Power BI Desktop**, puede conectarse a muchos tipos diferentes de orígenes de datos y después darles forma a los datos para satisfacer sus necesidades. *Forma de datos* significa transformar los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera. *Combinación de datos* significa conectarse a dos o más orígenes de datos, darles forma según sea necesario y después consolidarlos en una consulta útil.
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Dar forma a los datos y combinarlos en Power BI Desktop
 
-Este artículo muestra cómo formar una consulta mediante Power BI Desktop y resalta algunas de las tareas más comunes. La consulta que se usa aquí se describe con más detalle, incluido el procedimiento para crear la consulta desde cero, en [Introducción a Power BI Desktop](desktop-getting-started.md).
+Con **Power BI Desktop**, puede conectarse a muchos tipos diferentes de orígenes de datos y después darles forma a los datos para satisfacer sus necesidades, lo que le permite crear informes visuales que puede compartir con los demás. *Forma de datos* significa transformar los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera. *Combinación de datos* significa conectarse a dos o más orígenes de datos, darles forma según sea necesario y después consolidarlos en una consulta útil.
+
+En este tutorial, obtendrá información sobre cómo:
+
+* Dar forma a los datos con el **Editor de consultas**
+* Conectarse a un origen de datos
+* Conectarse a otro origen de datos
+* Combinar esos orígenes de datos y crear un modelo de datos para usarlo en informes
+
+En este tutorial se muestra cómo formar una consulta mediante Power BI Desktop y se resaltan algunas de las tareas más comunes. La consulta que se usa aquí se describe con más detalle, incluido el procedimiento para crear la consulta desde cero, en [Introducción a Power BI Desktop](desktop-getting-started.md).
 
 Es útil saber que el **editor de consultas** en Power BI Desktop hace un amplio uso de los menús contextuales, así como de la cinta de opciones. La mayor parte de lo que se puede seleccionar en la cinta **Transformar** también está disponible en el menú que aparece al hacer clic con el botón secundario en un elemento (por ejemplo, una columna).
 

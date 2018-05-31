@@ -1,6 +1,6 @@
 ---
-title: Segmentaciones de Power BI (tutorial)
-description: 'Tutorial: Segmentaciones en Power BI'
+title: Segmentaciones de datos en Power BI
+description: Segmentaciones de datos en Power BI
 services: powerbi
 documentationcenter: ''
 author: mihart
@@ -19,13 +19,14 @@ ms.workload: powerbi
 ms.date: 03/05/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 30f548e73dd9f3c4fb93f048dec0c46eee3845ca
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 223b408186f445791a95ead30c04efe7b59888bf
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33813470"
 ---
-# <a name="slicers-in-power-bi-tutorial"></a>Segmentaciones de Power BI (tutorial)
+# <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 Quiere que los lectores del informe puedan buscar métricas de ventas generales, pero también resaltar el rendimiento de los administradores de distrito y los diferentes plazos de tiempo. Podría crear informes independientes o gráficos comparativos, o bien utilizar segmentaciones. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
 
 En este tutorial se usa el [ejemplo de análisis de minoristas](sample-retail-analysis.md) gratuito para guiarlo a la hora de crear segmentaciones de plazos de tiempo, así como darles formato y crear listas de ellas. Diviértase descubriendo maneras de dar formato y usar segmentaciones. 

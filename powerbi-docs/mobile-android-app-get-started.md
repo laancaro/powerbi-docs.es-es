@@ -1,29 +1,22 @@
 ---
-title: "Introducción a la aplicación móvil de Power BI en teléfonos Android"
-description: "Aprenda cómo la aplicación móvil de Microsoft Power BI para Android le permite llevar Power BI en el bolsillo, al ofrecerle acceso móvil a información empresarial tanto local como de la nube."
-services: powerbi
-documentationcenter: 
+title: Introducción a la aplicación móvil de Power BI en dispositivos Android
+description: Aprenda cómo la aplicación móvil de Microsoft Power BI para Android le permite llevar Power BI en el bolsillo, al ofrecerle acceso móvil a información empresarial tanto local como de la nube.
 author: maggiesMSFT
 manager: kfile
-backup: 
-editor: 
-tags: 
-qualityfocus: complete
-qualitydate: 05/18/2016
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
-ms.date: 10/13/2017
+ms.component: powerbi-mobile
+ms.topic: conceptual
+ms.date: 05/07/2018
 ms.author: maggies
-ms.openlocfilehash: aed84f27ff838456b519283f45ae5f58feaf2521
-ms.sourcegitcommit: ee5d044db99e253c27816e0ea6bdeb9e39a2cf41
+ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297455"
 ---
-# <a name="get-started-with-the-power-bi-mobile-app-on-android-phones"></a>Introducción a la aplicación móvil de Power BI en teléfonos Android
+# <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
 
 ![Introducción a la aplicación Power BI para Android](media/mobile-android-app-get-started/power-bi-android-dashboard-optimized-090117.png)
@@ -33,34 +26,37 @@ Podrá crear informes de Power BI en Power BI Desktop y publicarlos:
 * [Publíquelos en el servicio Power BI](service-get-started.md) y cree paneles.
 * [Publíquelos en Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
-A continuación, en la aplicación de Power BI para teléfonos Android, podrá interactuar con los paneles y los informes locales y de la nube.
+A continuación, en la aplicación de Power BI para Android, podrá interactuar con los paneles y los informes locales o en la nube.
 
 Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
-## <a name="first-things-first"></a>Lo primero es lo primero
-* **Obtener la aplicación** [Obtenga la aplicación Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) de Google Play.
+## <a name="prerequisites"></a>Requisitos previos
+
+### <a name="get-the-app"></a>Obtener la aplicación
+
+[Descargue la aplicación Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) de Google Play.
   
-  Power BI se puede ejecutar en varios teléfonos Android diferentes. El teléfono debe tener el sistema operativo Android 5.0, o cualquier versión posterior. Para comprobar un teléfono, vaya a **Ajustes** > **Acerca del dispositivo** > **Versión de Android**. 
-* **Comenzar al abrir la aplicación**    Incluso sin registrarse o iniciar sesión, después de abrir la aplicación, puede desplazarse por las páginas de inicio de sesión para obtener una introducción rápida de lo que puede hacer con la aplicación Power BI en su teléfono Android. Pulse **Omitir** para ver y explorar los ejemplos, así como obtener experiencia práctica con la aplicación. Puede [volver a los ejemplos](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) siempre que quiera desde la página principal de paneles.
-* Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
+Power BI funciona en diferentes dispositivos Android que ejecutan el sistema operativo Android 5.0 o posterior. Para comprobar un dispositivo, vaya a **Ajustes** > **Acerca del dispositivo** > **Versión de Android**. 
+
+**Comenzar al abrir la aplicación**    
+Incluso sin registrarse o iniciar sesión, después de abrir la aplicación, puede desplazarse por las páginas de inicio de sesión para obtener una introducción rápida de lo que puede hacer con la aplicación Power BI en su dispositivo Android. Pulse **Omitir** para ver y explorar los ejemplos, así como obtener experiencia práctica con la aplicación. Puede [volver a los ejemplos](mobile-android-app-get-started.md#try-the-power-bi-and-reporting-services-samples) siempre que quiera desde la página principal de paneles.
+
+Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Suscribirse al servicio Power BI en la Web
-Si aún no se ha registrado, vaya al [servicio Power BI (http://powerbi.com/)](http://powerbi.com/) para registrarse para tener su propia cuenta para crear y almacenar paneles e informes, así como para reunir todos sus datos. A continuación, inicie sesión en Power BI desde su teléfono Android para ver sus paneles desde cualquier lugar.
+Si aún no se ha registrado, vaya al [servicio Power BI (http://powerbi.com/)](http://powerbi.com/) para registrarse para tener su propia cuenta para crear y almacenar paneles e informes, así como para reunir todos sus datos. A continuación, inicie sesión en Power BI desde su dispositivo Android para ver sus paneles desde cualquier lugar.
 
 1. En el servicio de Power BI, pulse [Registrarse](http://go.microsoft.com/fwlink/?LinkID=513879) para crear una cuenta de Power BI.
 2. Empiece a [crear sus propios informes y paneles](service-get-started.md).
 
-## <a name="get-started-with-the-power-bi-app-on-your-phone"></a>Introducción a la aplicación de Power BI en su teléfono
-1. En la pantalla de inicio de su teléfono Android, abra la aplicación Power BI para Android.
+## <a name="get-started-with-the-power-bi-app-on-your-device"></a>Introducción a la aplicación de Power BI en su dispositivo
+1. En la pantalla de inicio de su dispositivo Android, abra la aplicación Power BI para Android.
    
    ![Icono de Power BI](media/mobile-android-app-get-started/power-bi-logo-android.png)
 2. Para ver los informes y paneles de Power BI, puntee **Power BI**.  
    
-   > [!IMPORTANT]
-   > Si recibe un mensaje que le indica que Power BI no puede iniciar su sesión, consulte ["No se pudo realizar la autenticación porque este dispositivo considera que su certificado SSL corporativo no es de confianza"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para más información sobre cómo resolver el problema.
-   > 
-   > 
-   
+   Si recibe un mensaje que le indica que Power BI no puede iniciar su sesión, consulte ["No se pudo realizar la autenticación porque este dispositivo considera que su certificado SSL corporativo no es de confianza"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para más información sobre cómo resolver el problema.
+
    Para ver los informes y KPI del servidor de informes de Power BI y Reporting Services, pulse **Servidor de informes**.
    
    ![Iniciar sesión en Power BI](media/mobile-android-app-get-started/power-bi-connect-to-login.png)
@@ -120,7 +116,7 @@ Microsoft Intune permite a las organizaciones controlar elementos como requerir 
 Obtenga más información sobre cómo [configurar aplicaciones móviles de Power BI para Android con Microsoft Intune](service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Pasos siguientes
-Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para teléfonos Android con los paneles e informes de Power BI, y con los informes los KPI del portal web del servidor de informes de Power BI o Reporting Services.
+Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para dispositivos Android con los paneles e informes de Power BI, y con los informes los KPI del portal web de Power BI Report Server o Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Paneles e informes de Power BI
 * Ver [sus aplicaciones](service-install-use-apps.md).
@@ -130,7 +126,7 @@ Estas son algunas de las cosas que puede hacer en la aplicación de Power BI par
 * Ver [sus aplicaciones](service-install-use-apps.md).
 * [Anotar y compartir iconos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Compartir [paneles](mobile-share-dashboard-from-the-mobile-apps.md).
-* [Detectar un código QR de Power BI](mobile-apps-qr-code.md) para abrir un icono o informe de un panel relacionado. 
+* [Escanear un código QR de Power BI](mobile-apps-qr-code.md) con su teléfono Android para abrir un icono o informe relacionado con el panel. 
 * Vea las [notificaciones sobre las actualizaciones en su cuenta de Power BI](mobile-apps-notification-center.md), como los paneles que comparten otros compañeros con usted.
 
 ### <a name="reports-and-kpis-on-the-power-bi-report-server-and-reporting-services-web-portals"></a>Informes y KPI en los portales web del servidor de informes de Power BI y Reporting Services

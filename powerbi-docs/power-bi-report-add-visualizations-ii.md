@@ -1,15 +1,15 @@
 ---
-title: "Parte II, Incorporación de visualizaciones a un informe de Power BI (tutorial)"
-description: "Tutorial: Parte II, Incorporación de visualizaciones a un informe de Power BI"
+title: Parte II, Incorporación de visualizaciones a un informe de Power BI
+description: Parte II, Incorporación de visualizaciones a un informe de Power BI
 services: powerbi
-documentationcenter: 
+documentationcenter: ''
 author: mihart
 manager: kfile
-backup: 
-editor: 
-tags: 
+backup: ''
+editor: ''
+tags: ''
 qualityfocus: no
-qualitydate: 
+qualitydate: ''
 ms.service: powerbi
 ms.devlang: NA
 ms.topic: article
@@ -18,19 +18,20 @@ ms.workload: powerbi
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 567bece0089a01170e218af9606331e44cb7834f
-ms.sourcegitcommit: 88c8ba8dee4384ea7bff5cedcad67fce784d92b0
+ms.openlocfilehash: 39f11f2740918e5ec3fc62c86c72bac4544d5ff6
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/24/2018
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33814321"
 ---
-# <a name="part-2-add-visualizations-to-a-power-bi-report-tutorial"></a>Parte II, Incorporación de visualizaciones a un informe de Power BI (tutorial)
+# <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte II, Incorporación de visualizaciones a un informe de Power BI
 En la [parte I](power-bi-report-add-visualizations-ii.md), creó una visualización básica activando las casillas junto a los nombres de campo.  En la parte II, aprenderá a usar arrastrar y colocar, y a emplear toda la funcionalidad de los paneles **Campos** y **Visualizaciones** para crear y modificar visualizaciones.
 
 ### <a name="prerequisites"></a>Requisitos previos
 - [Parte 1](power-bi-report-add-visualizations-ii.md)
 - Servicio Power BI: se pueden agregar visualizaciones a los informes con el servicio Power BI o Power BI Desktop. Este tutorial usa el servicio Power BI. 
-- Ejemplo Análisis de venta directa
+- Ejemplo de análisis de venta al por menor
 
 ## <a name="create-a-new-visualization"></a>Creación de una nueva visualización
 En este tutorial, nos adentraremos en el conjunto de datos de análisis de minoristas y crearemos algunas visualizaciones clave.

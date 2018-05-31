@@ -1,27 +1,20 @@
 ---
 title: Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 description: Aprenda a instalar Power BI Desktop optimizado para el servidor de informes de Power BI
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: maggies
-ms.openlocfilehash: c22e909130767abd1dc6f0aa00d76e1fb6b99ee7
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 2061bb5afde8c19693eb565b298fabedebae89ac
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310415"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 Aprenda a instalar Power BI Desktop optimizado para el servidor de informes de Power BI.
@@ -109,10 +102,10 @@ Si la versión de Power BI Report Server es anterior, se necesita la versión co
 ## <a name="next-steps"></a>Pasos siguientes
 Una vez que Power BI Desktop se ha instalado, puede empezar a crear informes de Power BI.
 
-[Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI](quickstart-create-powerbi-report.md)  
+[Creación de un informe de Power BI para Power BI Report Server](quickstart-create-powerbi-report.md)  
 [Introducción a Power BI Desktop](../desktop-getting-started.md)  
-Aprendizaje guiado: [Introducción a Power BI Desktop](../guided-learning/gettingdata.yml#step-2)  
-[Introducción al manual del usuario, servidor de informes de Power BI](user-handbook-overview.md)
+Aprendizaje guiado: [Introducción a Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
+[Introducción al Manual del usuario, Power BI Report Server](user-handbook-overview.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

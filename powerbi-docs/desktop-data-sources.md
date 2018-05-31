@@ -15,25 +15,26 @@ ms.devlang: NA
 ms.topic: article
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 03/06/2018
+ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4bfdbaaa305f80195fd08155ecca744444495aeb
-ms.sourcegitcommit: 00b4911ab5fbf4c2d5ffc000a3d95b3149909c28
+ms.openlocfilehash: 1558f78f8f496814ac7745afe9b86f327ef7772b
+ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 05/09/2018
+ms.locfileid: "33923463"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
 
 Para conectarse a datos, seleccione **Obtener datos** desde la cinta de opciones **Inicio** . Al seleccionar la flecha abajo o el texto **Obtener datos** en el botón, se muestra el menú de tipos de datos **Más comunes** en la siguiente imagen:
 
-![](media/desktop-data-sources/data-sources_1.png)
+![Obtener datos en Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
 
 Al seleccionar **Más…** en el menú **Más comunes**, se muestra la ventana **Obtener datos**. También puede abrir la ventana **Obtener datos** (y omitir el menú **Más comunes** ) seleccionando el icono **Obtener datos** **directamente** .
 
-![](media/desktop-data-sources/data-sources_2.png)
+![Botón Obtener datos](media/desktop-data-sources/data-sources_02.png)
 
 > [!NOTE]
 > El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción.
@@ -46,6 +47,7 @@ Los tipos de datos se organizan en las categorías siguientes:
 * Todos
 * Archivo
 * Base de datos
+* Power BI
 * Azure
 * Online Services
 * Otros
@@ -63,12 +65,7 @@ La categoría **Archivo** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Archivo**.
 
-![](media/desktop-data-sources/data-sources_3.png)
-
-> [!NOTE]
-> En versiones anteriores de Power BI Desktop, **CSV** y **Texto** eran tipos de conexión de datos independientes. Estos conectores de datos se han combinado en **Texto o CSV**.
-> 
-> 
+![Obtener datos > Archivo](media/desktop-data-sources/data-sources_03.png)
 
 La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 
@@ -88,8 +85,9 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Servidor de mensajería de SAP Business Warehouse (Beta)
 * Amazon Redshift
 * Impala
-* Google BigQuery (beta)
+* Google BigQuery
 * Snowflake
+* Exasol
 
 > [!NOTE]
 > Para habilitar algunos conectores de bases de datos, debe seleccionar primero **Archivo > Opciones y configuración > Opciones** y, después, **Características en vista previa**. Si no ve algunos de los conectores mencionados anteriormente y quiere usarlos, compruebe la configuración de **Características en vista previa**. Tenga también en cuenta que cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas, y no debe usarse en entornos de producción.
@@ -98,7 +96,16 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos**.
 
-![](media/desktop-data-sources/data-sources_4.png)
+![Obtener datos > Bases de datos](media/desktop-data-sources/data-sources_04.png)
+
+La categoría **Power BI** proporciona las siguientes conexiones de datos:
+
+* Conjuntos de datos de Power BI
+* Grupos de datos de Power BI (beta)
+
+La siguiente imagen muestra la ventana **Obtener datos** para **Power BI**.
+
+![Obtener datos > Power BI](media/desktop-data-sources/data-sources_05.png)
 
 La categoría **Azure** proporciona las siguientes conexiones de datos:
 
@@ -112,19 +119,20 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark (Beta)
 * HDInsight Interactive Query (Beta)
+* KustoDB de Azure (beta)
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
 
-![](media/desktop-data-sources/data-sources_5.png)
+![Obtener datos > Azure](media/desktop-data-sources/data-sources_06.png)
 
 La categoría **Online Services** proporciona las siguientes conexiones de datos:
 
-* Servicio Power BI
 * Lista de SharePoint Online
 * Microsoft Exchange Online
 * Dynamics 365 (en línea)
 * Dynamics NAV (Beta)
-* Dynamics 365 for Financials (Beta)
+* Dynamics 365 Business Central
+* Common Data Service para aplicaciones (Beta)
 * Common Data Service (Beta)
 * Microsoft Azure Consumption Insights (Beta)
 * Visual Studio Team Services (Beta)
@@ -153,15 +161,15 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* TeamDesk (Beta)
 
 La imagen siguiente muestra la ventana **Obtener datos** para **Online Services**
 
-![](media/desktop-data-sources/data-sources_6b.png)
+![Obtener datos > Online Services](media/desktop-data-sources/data-sources_07.png)
 
 La categoría **Otros** proporciona las siguientes conexiones de datos:
 
 * Vertica (Beta)
-* Kusto (Beta)
 * Web
 * Lista de SharePoint
 * Fuente de OData
@@ -176,7 +184,7 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 
-![](media/desktop-data-sources/data-sources_7a.png)
+![Obtener datos > Otros](media/desktop-data-sources/data-sources_08.png)
 
 > [!NOTE]
 > En este momento, no es posible conectarse a orígenes de datos personalizados que se protegen mediante Azure Active Directory.
@@ -186,15 +194,15 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 ## <a name="connecting-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar**. En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .
 
-![](media/desktop-data-sources/data-sources_7b.png)
+![Conectar a Web](media/desktop-data-sources/data-sources_08a.png)
 
 Se muestra una ventana de conexión, específica al tipo de conexión de datos. Si se necesitan credenciales, se le pedirá que las proporcione. La siguiente imagen muestra una dirección URL que se escribió para conectarse a un origen de datos web.
 
-![](media/desktop-data-sources/datasources_fromwebbox.png)
+![Entrada de dirección URL web](media/desktop-data-sources/datasources_fromwebbox.png)
 
 Cuando se escribe la información de conexión de recurso o la dirección URL, seleccione **Aceptar**. Power BI Desktop realiza la conexión al origen de datos y presenta los orígenes de datos disponibles en el **Navegador**.
 
-![](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Pantalla de navegador](media/desktop-data-sources/datasources_fromnavigatordialog.png)
 
 Puede cargar los datos seleccionando el botón **Cargar** situado en la parte inferior del panel **Navegador** , o bien editar la consulta antes de cargar datos seleccionando el botón **Editar** .
 

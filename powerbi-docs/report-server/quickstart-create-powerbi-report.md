@@ -1,29 +1,22 @@
 ---
-title: 'Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI'
+title: Creación de un informe de Power BI para Power BI Report Server
 description: Aprenda a crear un informe de Power BI para el servidor de informes de Power BI en sencillos pasos.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.devlang: NA
-ms.topic: article
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
+ms.component: powerbi-report-server
+ms.topic: conceptual
 ms.date: 3/22/2018
 ms.author: maggies
-ms.openlocfilehash: 7c0f7ad804a61aeade6f120f2a2d2bd048219ee2
-ms.sourcegitcommit: fe859130099d923ee30da6091efcc70a264dcba6
+ms.openlocfilehash: 9f5ea2a83fff37be07933669403b7eb53ceb09c0
+ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 05/19/2018
+ms.locfileid: "34310498"
 ---
-# <a name="quickstart-create-a-power-bi-report-for-power-bi-report-server"></a>Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI
+# <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creación de un informe de Power BI para Power BI Report Server
 Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com)). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
 
 ![Informe de Power BI en el portal web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
@@ -131,11 +124,10 @@ Los informes del servidor de informes de Power BI no admiten estas característi
 
 ## <a name="next-steps"></a>Pasos siguientes
 ### <a name="power-bi-desktop"></a>Power BI Desktop
-Hay muchos recursos excelentes para crear informes en Power BI Desktop. Estos vínculos son un buen punto de partida.
+Hay muchos recursos excelentes para crear informes en Power BI Desktop. Este vínculo es un buen punto de partida.
 
 * [Introducción a Power BI Desktop](../desktop-getting-started.md)
-* Aprendizaje guiado: [Introducción a Power BI Desktop](../guided-learning/gettingdata.yml#step-2)
-
+* Aprendizaje guiado: [Introducción a Power BI Desktop](../guided-learning/gettingdata.yml?tutorial-step=2)
 
 ### <a name="power-bi-report-server"></a>Servidor de informes de Power BI
 * [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
