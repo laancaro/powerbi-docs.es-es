@@ -1,27 +1,20 @@
 ---
 title: 'Inicio rápido: Visualización de paneles e informes en las aplicaciones móviles de Power BI'
 description: En este inicio rápido, va a explorar un ejemplo de panel e informe en las aplicaciones móviles de Power BI.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
+ms.reviewer: ''
 ms.service: powerbi
-ms.component: ''
-ms.devlang: NA
+ms.component: powerbi-mobile
 ms.topic: quickstart
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 7d7d1cbe56f1f41d7fab02f0168c2794e5342abb
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33946110"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34295776"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: Visualización de paneles e informes en las aplicaciones móviles de Power BI
 En este inicio rápido, va a explorar un ejemplo de panel e informe en las aplicaciones móviles de Power BI en un teléfono Android. También puede aplicarlo en otras aplicaciones móviles. 
@@ -39,7 +32,7 @@ Los paneles sirven como portal para ver los procesos y el ciclo de vida de su em
 ## <a name="prerequisites"></a>Requisitos previos
 
 ### <a name="sign-up-for-power-bi"></a>Suscribirse en Power BI
-Si no está registrado para Power BI, [registrarse para obtener una versión de prueba gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
+Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ### <a name="install-the-power-bi-for-android-app"></a>Instalación de la aplicación Power BI para Android
 [Descargue la aplicación Power BI para Android](http://go.microsoft.com/fwlink/?LinkID=544867) de Google Play.
@@ -136,7 +129,7 @@ Pues bien, ya está listo para ver el ejemplo en el dispositivo Android.
 
     Puede compartir esta instantánea con cualquier usuario, dentro o fuera de su organización. Si se encuentran en su organización y tienen su propia cuenta de Power BI, también podrán abrir el informe de ejemplo de análisis minoristas.
 
-## <a name="clean-up-resources"></a>Limpiar recursos
+## <a name="clean-up-resources"></a>Limpieza de recursos
 
 Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de muestra de ejemplos de análisis de minoristas, el informe y el conjunto de datos.
 

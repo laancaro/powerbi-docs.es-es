@@ -1,22 +1,30 @@
 ---
 title: Parte I, Incorporación de visualizaciones a un informe de Power BI
 description: Parte I, Incorporación de visualizaciones a un informe de Power BI
+services: powerbi
+documentationcenter: ''
 author: mihart
 manager: kfile
-ms.reviewer: ''
+backup: ''
+editor: ''
+tags: ''
 featuredvideoid: IkJda4O7oGs
+qualityfocus: no
+qualitydate: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
-ms.topic: conceptual
+ms.devlang: NA
+ms.topic: article
+ms.tgt_pltfrm: NA
+ms.workload: powerbi
 ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2203d6af692e80ffe5480a81a0e0f2312c62b905
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 216f2a694bb0a6d65e5c50bb1cfe9a49d7e444bc
+ms.sourcegitcommit: 493f160d04ed411ff4741c599adc63ba1f65230f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34293775"
+ms.lasthandoff: 05/07/2018
+ms.locfileid: "33811699"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte I, Incorporación de visualizaciones a un informe de Power BI
 En este artículo, se ofrece una introducción rápida a la creación de una visualización en un informe mediante el servicio Power BI o Power BI Desktop.  Para ver contenido más avanzado, [consulte la parte II](power-bi-report-add-visualizations-ii.md). Vea cómo Amanda demuestra algunas maneras de crear, editar y dar formato a objetos visuales en el lienzo del informe. A continuación, inténtelo usted usando el [ejemplo de marketing y ventas](sample-datasets.md) para crear su propio informe.
