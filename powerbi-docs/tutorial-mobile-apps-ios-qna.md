@@ -1,29 +1,20 @@
 ---
 title: 'Tutorial: Formular preguntas con el analista virtual de Preguntas y respuestas en las aplicaciones de iOS: Power BI'
 description: En este tutorial, puede formular preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
-services: powerbi
-documentationcenter: ''
 author: maggiesMSFT
 manager: kfile
-backup: ''
-editor: ''
-tags: ''
-qualityfocus: no
-qualitydate: ''
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
-ms.devlang: NA
 ms.topic: tutorial
-ms.tgt_pltfrm: NA
-ms.workload: powerbi
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 270a6ef9f9c9559ae5dd303249fd372c5f4d2b79
-ms.sourcegitcommit: 773ba0d1cc1d1fcee8e666e1c20450f5e343c5c1
+ms.openlocfilehash: 5c8afc963c67493c30821048736d914d3aec278e
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/10/2018
-ms.locfileid: "33945926"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34297869"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-ios-apps---power-bi"></a>Tutorial: Formular preguntas sobre los datos con el analista virtual de Preguntas y respuestas en las aplicaciones de iOS: Power BI
 
@@ -46,7 +37,7 @@ En este tutorial, tendrá que:
 > * Descargar un panel e informe de ejemplo de Power BI
 > * Ver qué información destacada sugiere la aplicación móvil
 
-Si no está registrado para Power BI, [registrarse para obtener una versión de prueba gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
+Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -120,7 +111,7 @@ Pues bien, ya está listo para ver el ejemplo en el dispositivo iOS.
     ![Gráfico Insight 2 en modo de enfoque](media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
 6. Pulse la flecha de la esquina superior izquierda para volver a la ventana de la experiencia del analista virtual de Preguntas y respuestas.
 
-## <a name="clean-up-resources"></a>Limpiar recursos
+## <a name="clean-up-resources"></a>Limpieza de recursos
 
 Cuando complete el tutorial, puede eliminar el panel, el informe y el conjunto de datos del ejemplo de análisis de oportunidades.
 

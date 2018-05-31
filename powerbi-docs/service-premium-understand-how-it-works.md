@@ -2,18 +2,19 @@
 title: Optimización y uso de la memoria con capacidad Power BI Premium
 description: Obtenga información sobre la optimización y la administración de memoria con capacidad Power BI Premium.
 ms.date: 04/30/2018
-ms.topic: article
+ms.topic: conceptual
 ms.service: powerbi
+ms.component: powerbi-admin
 ms.author: susuresh
 ms.reviewer: susuresh
 author: suds001
 manager: kfile
-ms.openlocfilehash: 4b849d1fa86ebe8c75f915e549326c80ff1e51ef
-ms.sourcegitcommit: 509be8852ba7595b9441c9479224f9dca298b26d
+ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
+ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2018
-ms.locfileid: "33916962"
+ms.lasthandoff: 05/17/2018
+ms.locfileid: "34298467"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Optimización y administración de recursos con capacidad Power BI Premium
 
