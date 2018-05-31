@@ -18,11 +18,12 @@ ms.workload: powerbi
 ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4552e08c5291ee5f0ce268e796e1a9148eb64be2
-ms.sourcegitcommit: df94efc51f261113fa90ebdf3fe68dd149cc4936
+ms.openlocfilehash: 62eab4de4dc46695f7bfd922333d588ed863f2bc
+ms.sourcegitcommit: c29525cbac2e747edb4dd3a1841084bb0ce42582
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/18/2018
+ms.lasthandoff: 05/08/2018
+ms.locfileid: "33871487"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas y países o regiones admitidos para Power BI
 
@@ -165,6 +166,11 @@ Además de establecer el idioma de la aplicación Power BI Desktop, también pue
 - A cómo se comparan y cómo se ordenan cadenas. Por ejemplo, como el turco tiene dos letras "i", dependiendo de la intercalación de la base de datos, los dos pueden terminar en un puesto diferente al ordenarse. 
 - El idioma que usa Power BI Desktop al crear tablas de fechas ocultas a partir de campos de fecha. Por ejemplo, los campos se llaman Month/Monat/Mois, etc.
 
+> [!NOTE]
+> El modelo de Power BI usa una configuración regional que no distingue mayúsculas de minúsculas o no distingue kana, por lo que "ABC" y "abc" se tratarán como equivalentes. Si "ABC" se carga primero en la base de datos, otras cadenas que difieren solo en las mayúsculas, como "Abc", no se cargarán como un valor independiente.
+> 
+>
+
 Aquí se muestra cómo establecer el idioma del modelo.
 
 1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**.
@@ -173,6 +179,10 @@ Aquí se muestra cómo establecer el idioma del modelo.
 
     ![Establecer el idioma del modelo en Power BI Desktop](media/supported-languages-countries-regions/power-bi-supported-model-languages.png)
 
+> [!NOTE]
+> Una creado, no se puede cambiar el idioma de un modelo de Power BI.
+> 
+>
 
 ## <a name="languages-for-the-help-documentation"></a>Idiomas para la documentación de ayuda
 La ayuda está traducida a estos 10 idiomas: 
