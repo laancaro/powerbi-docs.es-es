@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/05/2018
 ms.author: maghan
 ms.openlocfilehash: 9ec0ace4cf92d559da4a2b1bd1aa0f918e2b09dc
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294948"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Acceso a conjuntos de datos compartidos como fuentes de OData en Power BI Report Server
 Puede tener acceso a conjuntos de datos compartidos desde Power BI Desktop con una fuente de OData.

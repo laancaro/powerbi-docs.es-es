@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 274882ac2c547129de78db64ae9c19e6a3cda044
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34244885"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher for Excel
 Con Microsoft **Power BI Publisher para Excel**, puede tomar instantáneas de sus datos más importantes en Excel, como tablas dinámicas, gráficos y rangos, y anclarlos a los paneles de Power BI.

@@ -10,10 +10,10 @@ ms.reviewer: susuresh
 author: suds001
 manager: kfile
 ms.openlocfilehash: 03c5e56c5f516bb1f09f51463d4c533185fbb63c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34298467"
 ---
 # <a name="power-bi-premium-capacity-resource-management-and-optimization"></a>Optimización y administración de recursos con capacidad Power BI Premium
@@ -71,16 +71,16 @@ La memoria no es el único recurso que puede restringir las actualizaciones de c
 
  | SKU  | Núcleos virtuales de back-end  | Paralelismo de actualización de modelo   |
  | --- | --- | --- |
- | A1  | 0.5  | 1  |
+ | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
- | A3  | 2  | 3  |
- | A4  | 4  | 6  |
+ | A3  | 2  | T3  |
+ | A4  | T4  | 6  |
  | A5  | 8  | 12  |
  | A6  | 16  | 24  |
- | EM1  | 0.5  | 1  |
+ | EM1  | 0,5  | 1  |
  | EM2  | 1  | 2  |
- | EM3  | 2  | 3  |
- | P1  | 4  | 6  |
+ | EM3  | 2  | T3  |
+ | P1  | T4  | 6  |
  | P2  | 8  | 12  |
  | P3  | 16  | 24  |
  | P4  | 32  | 48  |
