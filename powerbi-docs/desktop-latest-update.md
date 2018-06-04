@@ -11,10 +11,10 @@ ms.date: 05/08/2018
 ms.author: davidi
 LocalizationGroup: Get started
 ms.openlocfilehash: 5a677164f068ba4ad4796b2db42b7b052233d3da
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34285701"
 ---
 # <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novedades de la última versión de Power BI Desktop
@@ -45,7 +45,7 @@ Las siguientes actualizaciones son las novedades de **Power BI Desktop** de este
 * Opciones de gráfico de embudo de la etiqueta de datos [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
 * Definir el ancho del trazo de línea en cero [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
 
-### <a name="analytics"></a>Análisis
+### <a name="analytics"></a>Analytics
 
 * Obtención de detalles de la medida [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[artículo]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
 

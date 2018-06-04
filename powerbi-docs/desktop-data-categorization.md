@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 9fa7310b3d0a20a588b2cc26fc0df177f3d0ab70
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34285425"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Categorización de datos en Power BI Desktop
 En **Power BI Desktop**, puede especificar la categoría de datos para una columna de manera que Power BI Desktop sepa cómo debe tratar sus valores en una visualización.
