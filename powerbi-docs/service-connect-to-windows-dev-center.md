@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250063"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Conexión a Windows Dev Center con Power BI
 Explore y supervise los datos de análisis de aplicaciones del Centro de desarrollo de Windows en Power BI con el paquete de contenido para Power BI. Los datos se actualizarán automáticamente una vez al día.

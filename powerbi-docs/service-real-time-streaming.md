@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 15d8d4ff64b69143b30bd8e72264af3dcc42d53d
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34253766"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.

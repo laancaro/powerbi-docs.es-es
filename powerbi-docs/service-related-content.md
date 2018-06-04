@@ -12,10 +12,11 @@ ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9aa0169f76515dd2f05a3e9debb8bc3d10cbdd07
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34250155"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
 El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos.  Y lo que es mejor, desde este panel que puede realizar tareas comunes, como actualizar, cambiar nombres, generar información detallada y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   

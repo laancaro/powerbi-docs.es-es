@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34299203"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación R](https://www.r-project.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de R (y con el tiempo se van admitiendo más), pero algunos no.
@@ -62,8 +63,8 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | BAS |1.1.0 |https://cran.r-project.org/web/packages/BAS/index.html |
 | base64enc |0.1-3 |https://cran.r-project.org/web/packages/base64enc/index.html |
 | bayesm |3.0-2 |https://cran.r-project.org/web/packages/bayesm/index.html |
-| bayesQR |2.2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
-| bayesSurv |2.6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
+| bayesQR |2,2 |https://cran.r-project.org/web/packages/bayesQR/index.html |
+| bayesSurv |2,6 |https://cran.r-project.org/web/packages/bayesSurv/index.html |
 | BayesTree |0.3-1.3 |https://cran.r-project.org/web/packages/BayesTree/index.html |
 | BayHaz |0.1-3 |https://cran.r-project.org/web/packages/BayHaz/index.html |
 | bbemkr |2 |https://cran.r-project.org/web/packages/bbemkr/index.html |
@@ -76,7 +77,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | bit64 |0.9-5 |https://cran.r-project.org/web/packages/bit64/index.html |
 | bitops |1.0-6 |https://cran.r-project.org/web/packages/bitops/index.html |
 | BMA |3.18.6 |https://cran.r-project.org/web/packages/BMA/index.html |
-| Bmix |0.6 |https://cran.r-project.org/web/packages/Bmix/index.html |
+| Bmix |0,6 |https://cran.r-project.org/web/packages/Bmix/index.html |
 | bnlearn |3.9 |https://cran.r-project.org/web/packages/bnlearn/index.html |
 | boa |1.1.8-1 |https://cran.r-project.org/web/packages/boa/index.html |
 | boot |1.3-18 |https://cran.r-project.org/web/packages/boot/index.html |
@@ -95,7 +96,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | catnet |1.14.8 |https://cran.r-project.org/web/packages/catnet/index.html |
 | caTools |1.17.1 |https://cran.r-project.org/web/packages/caTools/index.html |
 | cclust |0.6-20 |https://cran.r-project.org/web/packages/cclust/index.html |
-| class |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
+| clase |7.3-14 |https://cran.r-project.org/web/packages/class/index.html |
 | clue |0.3-51 |https://cran.r-project.org/web/packages/clue/index.html |
 | cluster |2.0.3 |https://cran.r-project.org/web/packages/cluster/index.html |
 | coda |0.18-1 |https://cran.r-project.org/web/packages/coda/index.html |
@@ -112,7 +113,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | fecha |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
-| deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
+| deepnet |0,2 |https://cran.r-project.org/web/packages/deepnet/index.html |
 | deldir |0.1-12 |https://cran.r-project.org/web/packages/deldir/index.html |
 | dendextend |1.1.8 |https://cran.r-project.org/web/packages/dendextend/index.html |
 | DEoptimR |1.0-4 |https://cran.r-project.org/web/packages/DEoptimR/index.html |
@@ -125,7 +126,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | dplyr |0.4.3 |https://cran.r-project.org/web/packages/dplyr/index.html |
 | DPpackage |1.1-6 |https://cran.r-project.org/web/packages/DPpackage/index.html |
 | dse |2015.12-1 |https://cran.r-project.org/web/packages/dse/index.html |
-| DT |0.2 |https://cran.r-project.org/web/packages/DT/index.html |
+| DT |0,2 |https://cran.r-project.org/web/packages/DT/index.html |
 | dtw |1.18-1 |https://cran.r-project.org/web/packages/dtw/index.html |
 | e1071 |1.6-7 |https://cran.r-project.org/web/packages/e1071/index.html |
 | earth |4.4.4 |https://cran.r-project.org/web/packages/earth/index.html |
@@ -170,7 +171,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | ggmap |2.6.1 |https://cran.r-project.org/web/packages/ggmap/index.html |
 | ggmcmc |0,8 |https://cran.r-project.org/web/packages/ggmcmc/index.html |
 | ggplot2 |2.1.0 |https://cran.r-project.org/web/packages/ggplot2/index.html |
-| ggrepel |0.5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
+| ggrepel |0,5 |https://cran.r-project.org/web/packages/ggrepel/index.html |
 | ggthemes |3.0.2 |https://cran.r-project.org/web/packages/ggthemes/index.html |
 | glmmBUGS |2.3 |https://cran.r-project.org/web/packages/glmmBUGS/index.html |
 | glmnet |2.0-5 |https://cran.r-project.org/web/packages/glmnet/index.html |
@@ -193,7 +194,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | hdrcde |3,1 |https://cran.r-project.org/web/packages/hdrcde/index.html |
 | heavy |0.3 |https://cran.r-project.org/web/packages/heavy/index.html |
 | HH |3.1-25 |https://cran.r-project.org/web/packages/HH/index.html |
-| HI |0.4 |https://cran.r-project.org/web/packages/HI/index.html |
+| HI |0,4 |https://cran.r-project.org/web/packages/HI/index.html |
 | highcharter |0.5.0 |https://cran.r-project.org/web/packages/highcharter/index.html |
 | Hmisc |3.17-3 |https://cran.r-project.org/web/packages/Hmisc/index.html |
 | HSAUR |1.3-7 |https://cran.r-project.org/web/packages/HSAUR/index.html |
@@ -250,7 +251,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | mi |1 |https://cran.r-project.org/web/packages/mi/index.html |
 | mice |2.25 |https://cran.r-project.org/web/packages/mice/index.html |
 | microbenchmark |1.4-2.1 |https://cran.r-project.org/web/packages/microbenchmark/index.html |
-| mime |0.4 |https://cran.r-project.org/web/packages/mime/index.html |
+| mime |0,4 |https://cran.r-project.org/web/packages/mime/index.html |
 | misc3d |0.8-4 |https://cran.r-project.org/web/packages/misc3d/index.html |
 | miscTools |0.6-16 |https://cran.r-project.org/web/packages/miscTools/index.html |
 | mitools |2.3 |https://cran.r-project.org/web/packages/mitools/index.html |
@@ -266,7 +267,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | multcomp |1.4-4 |https://cran.r-project.org/web/packages/multcomp/index.html |
 | munsell |0.4.3 |https://cran.r-project.org/web/packages/munsell/index.html |
 | mvtnorm |1.0-5 |https://cran.r-project.org/web/packages/mvtnorm/index.html |
-| NbClust |3 |https://cran.r-project.org/web/packages/NbClust/index.html |
+| NbClust |T3 |https://cran.r-project.org/web/packages/NbClust/index.html |
 | ncvreg |3.5-1 |https://cran.r-project.org/web/packages/ncvreg/index.html |
 | networkD3 |0.2.13 |https://cran.r-project.org/web/packages/networkD3/index.html |
 | neuralnet |1.33 |https://cran.r-project.org/web/packages/neuralnet/index.html |
@@ -283,7 +284,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | pacbpred |0.92.2 |https://cran.r-project.org/web/packages/pacbpred/index.html |
 | party |1.0-25 |https://cran.r-project.org/web/packages/party/index.html |
 | partykit |1.0-5 |https://cran.r-project.org/web/packages/partykit/index.html |
-| PAWL |0.5 |https://cran.r-project.org/web/packages/PAWL/index.html |
+| PAWL |0,5 |https://cran.r-project.org/web/packages/PAWL/index.html |
 | pbivnorm |0.6.0 |https://cran.r-project.org/web/packages/pbivnorm/index.html |
 | pcaPP |1.9-60 |https://cran.r-project.org/web/packages/pcaPP/index.html |
 | pdc |1.0.3 |https://cran.r-project.org/web/packages/pdc/index.html |
@@ -305,7 +306,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | psych |1.5.8 |https://cran.r-project.org/web/packages/psych/index.html |
 | qap |0.1-0 |https://cran.r-project.org/web/packages/qap/index.html |
 | qdapRegex |0.6.0 |https://cran.r-project.org/web/packages/qdapRegex/index.html |
-| qcc |2.6 |https://cran.r-project.org/web/packages/qcc/index.html |
+| qcc |2,6 |https://cran.r-project.org/web/packages/qcc/index.html |
 | quadprog |1.5-5 |https://cran.r-project.org/web/packages/quadprog/index.html |
 | quantreg |5.21 |https://cran.r-project.org/web/packages/quantreg/index.html |
 | qvcalc |0.9-0 |https://cran.r-project.org/web/packages/qvcalc/index.html |
@@ -384,14 +385,14 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | tidyr |0.4.1 |https://cran.r-project.org/web/packages/tidyr/index.html |
 | timeDate |3012.1 |https://cran.r-project.org/web/packages/timeDate/index.html |
 | timeSeries |3022.101.2 |https://cran.r-project.org/web/packages/timeSeries/index.html |
-| timevis |0.4 |https://cran.r-project.org/web/packages/timevis/index.html |
+| timevis |0,4 |https://cran.r-project.org/web/packages/timevis/index.html |
 | tm |0.6-2 |https://cran.r-project.org/web/packages/tm/index.html |
 | topicmodels |0.2-3 |https://cran.r-project.org/web/packages/topicmodels/index.html |
 | tree |1.0-37 |https://cran.r-project.org/web/packages/tree/index.html |
 | gráfico de rectángulos |2.4-2 |https://cran.r-project.org/web/packages/treemap/index.html |
 | tseries |0.10-34 |https://cran.r-project.org/web/packages/tseries/index.html |
 | tsfa |2014.10-1 |https://cran.r-project.org/web/packages/tsfa/index.html |
-| tsoutliers |0.6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |
+| tsoutliers |0,6 |https://cran.r-project.org/web/packages/tsoutliers/index.html |
 | TSP |1.1-4 |https://cran.r-project.org/web/packages/TSP/index.html |
 | vcd |1.4-1 |https://cran.r-project.org/web/packages/vcd/index.html |
 | VennDiagram |1.6.17 |https://cran.r-project.org/web/packages/VennDiagram/index.html |

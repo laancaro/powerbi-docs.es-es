@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 2b5959049b65d32eebf7f484e8485ff59a10f459
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34286092"
 ---
 # <a name="use-insights-in-power-bi-desktop-preview"></a>Uso de información detallada en Power BI Desktop (versión preliminar)
 Puede indicarle a **Power BI Desktop** que explique los aumentos o disminuciones en los gráficos, y obtener un análisis rápido, automatizado y detallado sobre los datos. Solo tiene que hacer clic con el botón derecho en un punto de datos y seleccionar **Analizar > Explicación de la disminución** (o del aumento, si la barra anterior era inferior), y se le proporcionará una información detallada en una ventana fácil de usar.

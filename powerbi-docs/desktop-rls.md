@@ -11,10 +11,11 @@ ms.date: 05/03/2018
 ms.author: maghan
 LocalizationGroup: Create reports
 ms.openlocfilehash: 022668737f6bcce987b2923ba7a4416f4a08460a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34287081"
 ---
 # <a name="row-level-security-rls-with-power-bi-desktop"></a>Seguridad de nivel de fila (RLS) con Power BI Desktop
 La Seguridad de nivel de fila (RLS) con Power BI Desktop restringe el acceso a los datos a determinados usuarios. Los filtros restringen los datos en el nivel de fila. Puede definir filtros en roles.
