@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2cd096303412ef2ecbf65d818cfa70a007767da9
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722233"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
@@ -30,7 +31,7 @@ Power BI se integra con Azure Active Directory Business-to-business (Azure AD B2
 
 ## <a name="who-can-you-invite"></a>¿A quién puede invitar?
 
-Puede invitar a usuarios invitados que usen cualquier dirección de correo electrónico, incluidas las cuentas personales como gmail.com, outlook.com o hotmail.com. En Azure B2B se denominan "identificadores sociales". Para obtener más información, consulte [Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
+Puede invitar a usuarios invitados que usen cualquier dirección de correo electrónico, incluidas las cuentas personales como gmail.com, outlook.com o hotmail.com. En Azure B2B se denominan "identificadores sociales". Para obtener más información, consulte [Azure B2B](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ## <a name="invite-guest-users"></a>Invitar a usuarios externos
 
@@ -73,7 +74,7 @@ El usuario invitado recibirá un correo electrónico que indica que la aplicaci�
 
 El usuario invitado debe iniciar sesión con su dirección de correo electrónico de la organización. Se les pedirá que acepten la invitación después de iniciar sesión. Después de iniciar sesión, se redirige al usuario invitado al contenido de la aplicación. Para volver a la aplicación, marque el vínculo o guarde el correo electrónico.
 
-## <a name="licensing"></a>Licencias
+## <a name="licensing"></a>Administración de licencias
 
 El usuario invitado deberá tener la licencia adecuada en vigor para ver la aplicación que se ha compartido. Existen tres opciones para lograr esto.
 
@@ -100,7 +101,7 @@ El usuario invitado ya tiene una licencia de Power BI Pro asignada dentro del in
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-* A la hora de invitar a usuarios invitados que usan cuentas de correo electrónico personal como gmail.com, outlook.com o hotmail.com, puede seguir este [vídeo insertado](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-redemption-experience) para ver un ejemplo de cómo se registraría un usuario.
+* A la hora de invitar a usuarios invitados que usan cuentas de correo electrónico personal como gmail.com, outlook.com o hotmail.com, puede seguir este [vídeo insertado](https://docs.microsoft.com/azure/active-directory/active-directory-b2b-redemption-experience) para ver un ejemplo de cómo se registraría un usuario.
 * Los invitados B2B externos solo pueden consumir contenido. Los invitados B2B externos pueden ver aplicaciones, paneles, informes, exportar los datos y crear suscripciones de correo electrónico para los paneles e informes. No pueden acceder a áreas de trabajo ni publicar su propio contenido.
 * Esta característica no está disponible actualmente en las aplicaciones móviles de Power BI. En un dispositivo móvil, puede ver el contenido de Power BI compartido mediante Azure AD B2B en un explorador.
 * Esta característica no está disponible actualmente en el componente web de los informes de SharePoint Online de Power BI.

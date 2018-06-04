@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 01/25/2018
 ms.author: maggies
 ms.openlocfilehash: ded3ad829a0c9a2d4892a5a06250f60a93662c61
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34294787"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-an-ipad"></a>Introducción a la aplicación móvil de Power BI en un iPad
 La aplicación móvil de Microsoft Power BI para iOS en iPad ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -46,7 +47,7 @@ Ve a Power BI (https://powerbi.com) para registrarse en el servicio, si aún no 
    
    Para ver los informes móviles de Reporting Services y los KPI, pulse **SQL Server Reporting Services**. Inicie sesión con sus credenciales de SQL Server Reporting Services.
    
-   ![Iniciar sesión en Power BI](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
+   ![Inicio de sesión en Power BI](media/mobile-ipad-app-get-started/power-bi-connect-to-login.png)
    
    Cuando se encuentre en la aplicación, solo tiene que pulsar el botón de navegación global ![Botón de navegación global](media/mobile-ipad-app-get-started/power-bi-iphone-global-nav-button.png) de la esquina superior izquierda para pasar de un servicio a otro. 
 

@@ -11,10 +11,11 @@ ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298582"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.

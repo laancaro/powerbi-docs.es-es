@@ -12,10 +12,10 @@ ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 8b3f49487677f00e1026c9eab813633f470e6b41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
 ms.locfileid: "34295362"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
@@ -37,7 +37,7 @@ Los gráficos de rectángulos son una excelente opción:
 
 ### <a name="prerequisites"></a>Requisitos previos
  - Servicio Power BI o Power BI Desktop
- - Ejemplo de análisis de venta al por menor
+ - Ejemplo Análisis de venta directa
 
 ## <a name="create-a-basic-treemap"></a>Crear un gráfico de rectángulos básico
 ¿Quiere ver primero a otra persona creando un gráfico de rectángulos?  Vaya al minuto 2:10 de este vídeo para ver cómo Amanda crea un gráfico de rectángulos.
