@@ -11,10 +11,11 @@ ms.date: 04/13/2018
 ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a6e683318c00a800f69334f90ce3a71d74489030
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34290531"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimización de un objeto visual de Power BI de cualquier tamaño
 De manera predeterminada, cuando se cree un nuevo informe, los objetos visuales tienen *capacidad de respuesta*: cambian de forma dinámica para mostrar la máxima cantidad de datos, independientemente del tamaño de la pantalla. Para los informes anteriores, puede establecer también sus objetos visuales para que cambien de tamaño de forma dinámica.
