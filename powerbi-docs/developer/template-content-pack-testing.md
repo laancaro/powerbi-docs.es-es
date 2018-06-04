@@ -1,6 +1,6 @@
 ---
 title: Prueba de los paquetes de contenido de plantillas para Power BI
-description: Prueba del paquete de contenido de plantillas
+description: Prueba de paquete de contenido de plantilla
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maghan
 ms.openlocfilehash: 3658a569a0bd15822cd50fefb73e706d771b6c80
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34288599"
 ---
 # <a name="testing-template-content-packs-for-power-bi"></a>Prueba de los paquetes de contenido de plantillas para Power BI
 Hay varias maneras de probar el paquete de contenido antes de enviarlo para su publicación.  

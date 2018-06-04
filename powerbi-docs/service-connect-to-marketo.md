@@ -11,10 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34252471"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -79,8 +80,8 @@ La cantidad de llamadas API que hace Power BI a Marketo depende de la cantidad d
 | --- | --- | --- |
 | Información sobre clientes potenciales |15 000 |50 |
 | Actividades de correo electrónico |150 000 |1000 |
-| Actividades del programa |15 000 |100 |
-| Actividades web |150 000 |1000 |
+| Actividades del programa |15 000 |100 |
+| Actividades web |150 000 |1000 |
 | Cambios en el programa |7500 |50 |
 | **Total de llamadas API** | |**2200** |
 
