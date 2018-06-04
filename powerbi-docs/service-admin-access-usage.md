@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1f482cf9e3f0cf344a2808ca778839a50d851ac7
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722210"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuarios de Power BI que hayan iniciado sesión
 Si es un administrador de inquilinos y desea ver quién ha iniciado sesión en Power BI, puede usar los informes de acceso y uso de Azure Active Directory para aumentar la visibilidad.
@@ -60,7 +61,7 @@ En la pantalla de actividad, puede seleccionar **Descargar** en la barra de herr
 Puede usar PowerShell para exportar los datos de inicio de sesión. Puede encontrar un [ejemplo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) en la documentación de Azure AD.
 
 > [!NOTE]
-> Para que el ejemplo de PowerShell funcione, asegúrese de seguir los [requisitos previos para acceder a la API de informes de Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-reporting-api-prerequisites).
+> Para que el ejemplo de PowerShell funcione, asegúrese de seguir los [requisitos previos para acceder a la API de informes de Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites).
 > 
 > 
 
