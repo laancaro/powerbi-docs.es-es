@@ -11,10 +11,11 @@ ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 8b9fcf1c6121c4aeecfdf948b77493f1f2a7f825
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34293637"
 ---
 # <a name="power-bi-archived-workspace"></a>Área de trabajo de archivado de Power BI
 Con Power BI, cualquier usuario puede registrarse y empezar a usar el servicio en cuestión de minutos.  Más adelante, el departamento de TI de la organización puede optar por encargarse de la administración de Power BI para los usuarios de su organización.  Si esto se produce, se beneficiará de la administración central de usuarios y permisos de la organización y es posible que pueda aprovecharse del inicio de sesión mejorado con el mismo nombre de usuario y la misma contraseña que usó para otros servicios en su organización. 

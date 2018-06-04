@@ -10,10 +10,11 @@ ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
 ms.openlocfilehash: 8b5da248b6992c8ae3e8d30caf4f0fc6c47bdcf5
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34296319"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar herramientas de desarrollo para crear objetos visuales personalizados
 Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo.

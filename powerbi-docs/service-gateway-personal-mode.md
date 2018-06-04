@@ -11,10 +11,11 @@ ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
 ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34298214"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Puerta de enlace de datos local (modo personal)
 Puede utilizar orígenes de datos local y crear informes y paneles de Power BI mediante una puerta de enlace. Una **puerta de enlace** es un software que facilita el acceso a los datos que se almacenan en una red local privada, y que después le permite usar esos datos en servicios en línea como el **servicio Power BI**. La **puerta de enlace de datos local (modo personal)** es una actualización reciente de la puerta de enlace de Power BI, que permite a los usuarios instalar una puerta de enlace en su propio equipo y obtener acceso a los datos locales.

@@ -11,10 +11,11 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 264dc3ee1daafd077a6e9a56f62eb86c6a3f528a
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34291383"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Vista de datos en Power BI Desktop
 La **vista de datos** le ayuda a inspeccionar, explorar y comprender los datos en el modelo de Power BI Desktop. Es diferente de cómo ve las tablas, columnas y datos en el **Editor de consultas**. Con la vista de datos, ve los datos *después* de que se hayan cargado en el modelo.

@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 0fee8ea43224f6b2b1d36886c7b8075716f89633
-ms.sourcegitcommit: 2b9ef93bbff5c741ba55ea0502f642632683d593
+ms.openlocfilehash: aea76437664ca531b65601007783aee10fd90f19
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721993"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de compra para Power BI: un paseo
 
@@ -31,7 +32,7 @@ Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Powe
 
 ## <a name="prerequisites"></a>Requisitos previos
 
- Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](https://docs.microsoft.com/en-us/power-bi/sample-procurement#get-the-content-pack-for-this-sample), un [archivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix) o un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529784).
+ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample), un [archivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement-Analysis-Sample-PBIX.pbix) o un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529784).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
 
