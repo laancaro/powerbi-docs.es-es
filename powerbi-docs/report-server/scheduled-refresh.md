@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: fceeda7a135d097c3269c25e25fde0c8cd639767
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1e29898ed2c72b3a28bc2fd90dd430e45b5cde03
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296903"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799542"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -60,9 +60,6 @@ La carga de trabajo tradicional de un servidor de informes ha sido similar a la 
 Para obtener información sobre cómo supervisar una instancia de Analysis Services, consulte [Supervisión de una instancia de Analysis Services](https://docs.microsoft.com/sql/analysis-services/instances/monitor-an-analysis-services-instance).
 
 Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
-
-### <a name="authentication-and-kerberos"></a>Autenticación y Kerberos
-Si el origen de datos está configurado para usar las credenciales de Windows, puede que necesite configurar la delegación restringida de Kerberos para que funcione. Para más información, consulte [Configuración de la autenticación de Windows en el servidor de informes](https://docs.microsoft.com/sql/reporting-services/security/configure-windows-authentication-on-the-report-server).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Configuración de la [actualización programada](configure-scheduled-refresh.md) en un informe de Power BI.

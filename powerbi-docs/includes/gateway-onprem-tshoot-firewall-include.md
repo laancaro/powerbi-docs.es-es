@@ -23,5 +23,5 @@ Los resultados deben tener un aspecto similar al siguiente. La diferencia será 
 
 Si quiere ser exhaustivo, sustituya los valores de **ComputerName** y **Port** por los que se enumeran para los [puertos](../service-gateway-onprem.md#ports).
 
-El firewall también puede estar bloqueando las conexiones que Azure Service Bus realiza a los centros de datos de Azure. En ese caso, le interesará agregar a la lista de permitidos (desbloquear) todas las direcciones IP de su región para esos centros de datos. Puede obtener una lista de direcciones IP de Azure [aquí](https://www.microsoft.com/download/details.aspx?id=41653).
+El firewall también puede estar bloqueando las conexiones que Azure Service Bus realiza a los centros de datos de Azure. En ese caso, le interesará agregar a la lista blanca (desbloquear) todas las direcciones IP de su región para esos centros de datos. Puede obtener una lista de direcciones IP de Azure [aquí](https://www.microsoft.com/download/details.aspx?id=41653).
 
