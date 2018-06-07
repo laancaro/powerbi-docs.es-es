@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/05/2018
+ms.date: 05/25/2018
 ms.author: v-thepet
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77c1dbe528b218fe3b51992f548325bb8916c22c
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 75ae82e43987cb42b858fe4350330fda3692cf97
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34297363"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721510"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 Quiere que los lectores del informe puedan buscar métricas de ventas generales, pero también resaltar el rendimiento de los administradores de distrito y los diferentes plazos de tiempo. Podría crear informes independientes o gráficos comparativos, o bien utilizar segmentaciones. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
@@ -43,6 +43,13 @@ Las segmentaciones de Power BI tienen las siguientes limitaciones:
 ## <a name="create-slicers"></a>Creación de segmentaciones
 
 Para crear una nueva segmentación, puede seleccionar el icono de segmentación y, luego, seleccionar el campo de datos para filtrar (o arrastrarlo al cuadro **Campos** del panel **Visualizaciones**). También puede seleccionar o arrastrar primero el campo de datos para crear una visualización y, luego, seleccionar el icono de segmentación para activar la visualización en una segmentación. Diferentes tipos de datos crean distintos tipos de segmentaciones, con opciones y efectos también diferentes. 
+
+La primera vez que cambia un informe, se ilumina el botón **Restablecer valores predeterminados**. Se trata de un aviso de que ha realizado un cambio en la configuración del informe original. Si navega fuera del informe, ese cambio se guarda (se conserva). Cuando vuelve al informe, no tiene que volver a segmentar el informe.  Pero si lo que quiere es restablecer el informe a la configuración predeterminada del autor, tiene que presionar el botón **Restablecer valores predeterminados** en la barra de menús superior.
+
+![Botón Restablecer valores predeterminados](media/power-bi-visualization-slicers/power-bi-reset-to-default.png)
+
+> [!NOTE]
+> Si el botón **Restablecer valores predeterminados** permanece deshabilitado, puede significar que el autor del informe ha deshabilitado la característica para el informe o que el informe contiene un objeto visual personalizado. Solo tiene que mantener el mouse sobre el botón para leer la información sobre herramientas y obtener una explicación. 
 
 **Para crear una nueva segmentación con el fin de filtrar los datos por administrador de distrito**
 

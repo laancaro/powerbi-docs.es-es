@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 10/12/2017
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 4ede737287c830d70283e3a73b627c59c38d1564
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4371846e77412c67d7441a993dca80493ef92e34
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34689881"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
 > [!NOTE]
@@ -71,7 +72,7 @@ Otra modificación disponible para creadores de los paquetes de contenido es amp
 Como creador del paquete de contenido puede [programar la actualización de los conjunto de datos](refresh-data.md).  Al crear y cargar el paquete de contenido, dicha programación de actualización se carga con los conjuntos de datos. Si cambia la programación de actualización, debe volver a publicar el paquete de contenido (consulte más arriba).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Eliminación de un paquete de contenido de la organización de AppSource
-Solo puede eliminar de AppSource aquellos paquetes de contenido si lo ha creado. 
+Solo puede eliminar de AppSource aquellos paquetes de contenido si lo ha creado. Si ha creado un paquete de contenido organizativo en un área de trabajo de aplicación y, después, decide eliminar esa área de trabajo, asegúrese de eliminar primero el paquete de contenido. Si elimina el área de trabajo sin eliminar primero el paquete de contenido, se perderá todo el acceso a estos paquetes de contenido y tendrá que ponerse en contacto con Soporte técnico de Microsoft para pedir ayuda. 
 
 > [!TIP]
 > Puede [eliminar la conexión a un paquete de contenido](service-organizational-content-pack-disconnect.md) que no ha creado. Eso no elimina el paquete de contenido de AppSource.

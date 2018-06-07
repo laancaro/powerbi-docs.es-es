@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 7006d35a76780313e4d57d0d489b5b25ed92b4d2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561710"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adición de un filtro a un informe del servicio Power BI (en la vista de edición)
 > [!TIP]
@@ -28,7 +29,7 @@ Para los ejemplos de este artículo se usa el servicio Power BI. Sin embargo, lo
 Existen dos modos de interactuar con los informes: la [Vista de lectura](service-reading-view-and-editing-view.md) y la [Vista de edición](service-interact-with-a-report-in-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
 
 * En la Vista de edición, puede agregar filtros de informes, de páginas y de objetos visuales. Al guardar el informe, los filtros se guardan con él. Las personas que consulten el informe en la vista de lectura pueden interactuar con los filtros que haya agregado.
-* En la vista de lectura, puede interactuar con cualquier filtro de informe, obtención de detalles, página y objeto visual que ya exista en el informe, pero no podrá agregar nuevos filtros. Los cambios que realice en el panel Filtros se guardan con el informe, aunque lo vea en una aplicación móvil.  
+* En la vista de lectura, puede interactuar con cualquier filtro de informe, obtención de detalles, página y objeto visual que ya exista en el informe, pero no podrá agregar nuevos filtros. Pero tenga en cuenta que los cambios que realice en el panel Filtros se guardan con el informe, aunque el informe se consulte en una aplicación móvil y aunque salga del informe y vuelva a él más tarde.  
 
 > [!NOTE]
 > En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para más información sobre los filtros en la vista de lectura, vea [Interacción con un informe en la vista de lectura en Power BI](service-reading-view-and-editing-view.md).
@@ -44,7 +45,11 @@ Hay cuatro tipos de filtros.
 - Los **filtros de obtención de detalles** se aplican a una sola entidad en un informe.    
 - Los **filtros de informe** se aplican a todas las páginas del informe.    
 
-    ![](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+    ![panel Filtros en la Vista de lectura](media/power-bi-report-add-filter/power-bi-add-filter-reading-view.png)
+
+Dado que los filtros se *conservan*, cuando sale del informe, Power BI conserva el filtro, la segmentación y otros cambios de la vista de datos que ha realizado. Esto le permitirá retomar el informe por donde lo dejó cuando vuelva a él. Si no quiere conservar los cambios de filtro, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
+
+![botón de filtro persistente](media/power-bi-report-add-filter/power-bi-reset-to-default.png)
 
 ## <a name="add-a-filter-to-a-specific-visualization-aka-visual-filter"></a>Agregar un filtro a una visualización específica (también conocido como filtro visual)
 Existen dos modos de hacerlo: 
@@ -135,12 +140,13 @@ Veamos cómo funciona el filtro de obtención de detalles.
 1. Seleccione la flecha Atrás para volver a la página anterior del informe.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-### <a name="why-your-visual-level-filter-and-page-level-filter-may-return-different-results"></a>Por qué el filtro de nivel visual y el filtro de nivel de página pueden devolver resultados diferentes
-Al agregar un filtro de nivel visual, Power BI filtra los resultados agregados.  La agregación predeterminada es la suma, pero puede [cambiar el tipo de agregación](service-aggregates.md).  
 
-Cuando agrega un filtro de nivel de página, Power BI filtra sin ninguna agregación.  Esto se debe a que una página puede tener muchos objetos visuales, cada uno de los cuales puede usar tipos de agregación diferentes.  Por lo tanto, el filtro se aplica en cada fila de datos.
+- Hay situaciones en las que el filtro de nivel visual y el filtro de nivel de página pueden devolver resultados diferentes.  Por ejemplo, al agregar un filtro de nivel visual, Power BI filtra los resultados agregados.  La agregación predeterminada es la suma, pero puede [cambiar el tipo de agregación](service-aggregates.md).  
 
-Si no ve el panel Campos, asegúrese de que se encuentra en la [vista de edición](service-interact-with-a-report-in-editing-view.md) del informe.
+    Después, cuando agrega un filtro de nivel de página, Power BI filtra sin ninguna agregación.  Esto se debe a que una página puede tener muchos objetos visuales, cada uno de los cuales puede usar tipos de agregación diferentes.  Por lo tanto, el filtro se aplica en cada fila de datos.
+
+- Si no ve el panel Campos, asegúrese de que se encuentra en la [vista de edición](service-interact-with-a-report-in-editing-view.md) del informe.    
+- Si ha realizado muchos cambios en los filtros y quiere volver a la configuración predeterminada del autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
 
 ## <a name="next-steps"></a>Pasos siguientes
  [Uso de filtros de informe](power-bi-how-to-report-filter.md)

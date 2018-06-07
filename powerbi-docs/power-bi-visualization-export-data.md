@@ -8,14 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5a3192910faf41bee925eb4938098bccb6434bb2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4d67499c571d736da3a8cebed5826c708911cc4d
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584171"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 Si quiere ver los datos que se usan para crear una visualización, puede [mostrar estos datos en Power BI](service-reports-show-data.md) o exportarlos a Excel como un archivo .xlsx o .csv.   
@@ -31,7 +32,7 @@ Observe cómo Will exporta los datos de una de las visualizaciones de su informe
 2. Elija el icono **Exportar datos**.
    
     ![](media/power-bi-visualization-export-data/pbi_export_dash.png)
-3. Los datos se exportan a un archivo .csv. Si el objeto visual está filtrado, también se filtrarán los datos descargados.
+3. Los datos se exportan a un archivo .csv. Si el objeto visual está filtrado, también se filtrarán los datos descargados.    
 4. El explorador le pedirá que guarde el archivo.  Una vez que lo haya guardado, abra el archivo .csv en Excel.
    
     ![](media/power-bi-visualization-export-data/pbi-export-to-excel.png)
@@ -82,8 +83,9 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
 * La exportación utilizando *Datos subyacentes* no funcionará si la opción *Mostrar elementos sin datos* está habilitada para la visualización que se va a exportar.
 * Cuando use DirectQuery, la cantidad máxima de datos que se pueden exportar es de 16 MB. Debido a esto puede que se exporte un número de filas inferior al máximo, especialmente si hay muchas columnas, los datos son difíciles de comprimir o debido a otros factores que hacen que aumente el tamaño y se reduzca el número de filas exportadas.
 * Power BI solo admite la exportación en objetos visuales que utilizan agregados básicos. La exportación no está disponible en los objetos visuales que usan medidas de informe o modelo.
-* Actualmente no se admiten los objetos visuales personalizados ni los objetos visuales de R.
+* Actualmente no se admiten objetos visuales personalizados ni objetos visuales de R.
 * La exportación de datos no está disponible para aquellos usuarios fuera de la organización que usan un panel que se ha compartido con ellos. 
+* En Power BI, puede cambiarse el nombre de un campo (columna) haciendo doble clic en el campo y escribiendo un nuevo nombre.  Este nuevo nombre se conoce como *alias*. Es posible que un informe de Power BI pueda acabar con nombres de campo duplicados, pero Excel no permite duplicados.  De modo que si los datos se exportan a Excel, los alias de los campos cambian a sus nombres originales de campo (columna).  
 * Si el archivo .csv incluye caracteres Unicode, es posible que el texto no se muestre correctamente en Excel. Sin embargo, si lo abre en el Bloc de notas funcionará sin problemas. Algunos ejemplos de caracteres Unicode son los símbolos de moneda y palabras en otros idiomas. Para solucionar este problema, puede importar el archivo .csv a Excel en lugar de abrirlo directamente. Para hacerlo:
   
   1. Abra Excel

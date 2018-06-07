@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 21ceec0ea522bd45a937096bcd778f2695c1edc3
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 4eb9f8e0b8548fbecd4e5d2e2fd47c4c3acd2bd6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722825"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -93,6 +94,11 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 
 Actualmente no hay un único lugar en el que los administradores de inquilinos puedan administrar todas las puertas de enlace que otros usuarios tengan instaladas y configuradas.  Si es un administrador de inquilinos, le recomendamos que solicite a los usuarios de la organización que le agreguen como administrador a cada puerta de enlace que instalen. Así, podrá administrar todas las puertas de enlace de la organización mediante la página Configuración de puerta de enlace o los [comandos de PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
 
+## <a name="enabling-outbound-azure-connections"></a>Habilitar las conexiones salientes de Azure 
+La puerta de enlace de datos local se basa en Azure Service Bus para la conectividad de la nube y en consecuencia establece conexiones salientes a su región de Azure asociada. De forma predeterminada, esta es la ubicación de su inquilino de Power BI. Vea [¿Dónde se encuentra mi inquilino de Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
+Si un firewall está bloqueando las conexiones salientes, debe configurar el firewall para permitir conexiones salientes desde la puerta de enlace de datos local para su región de Azure asociada. Vea [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalos de IP del centro de datos de Microsoft Azure) para saber más sobre los intervalos de direcciones IP de cada centro de datos de Azure.
+> [!NOTE]
+> Los intervalos de direcciones IP pueden cambiar con el tiempo, así que asegúrese de descargar la información más reciente con regularidad. 
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Si tiene problemas al instalar y configurar una puerta de enlace, asegúrese de consultar [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md). Si cree que tiene un problema con el firewall, consulte la sección [Firewall o proxy](service-gateway-onprem-tshoot.md#firewall-or-proxy) del artículo de solución de problemas.

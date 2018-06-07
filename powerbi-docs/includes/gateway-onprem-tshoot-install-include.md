@@ -24,3 +24,6 @@ Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a travé
 ### <a name="error-failed-to-add-user-to-group---2147463168---pbiegwservice---performance-log-users---"></a>Error: no se pudo agregar el usuario al grupo.  (-2147463168   PBIEgwService   Usuarios del registro de rendimiento   )
 Puede recibir este error si intenta instalar la puerta de enlace en un controlador de dominio. No se admite la implementación de un controlador de dominio. Debe implementar la puerta de enlace en una máquina que no sea un controlador de dominio.
 
+### <a name="installation-fails"></a>Error de instalación
+Pueden producirse errores de instalación si el software antivirus del equipo de instalación no está actualizado. Puede actualizar la instalación de un antivirus o bien deshabilitar el antivirus solo durante el tiempo que se tarda en realizar la instalación de la puerta de enlace y, después, volver a habilitarlo.
+

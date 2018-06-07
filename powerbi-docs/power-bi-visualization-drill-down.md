@@ -1,5 +1,5 @@
 ---
-title: Exploración en profundidad en una visualización de Power BI
+title: Modo detallado en una visualización de Power BI
 description: Este documento muestra cómo explorar en profundidad una visualización del servicio Microsoft Power BI y Power BI Desktop.
 author: mihart
 manager: kfile
@@ -8,17 +8,19 @@ featuredvideoid: MNAaHw4PxzE
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2018
+ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d622e6b461668d1972a78f6844bd269fb6596061
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584217"
 ---
-# <a name="drill-down-in-a-visualization-in-power-bi"></a>Exploración en profundidad en una visualización de Power BI
-## <a name="drill-down-requires-a-hierarchy"></a>La exploración en profundidad requiere una jerarquía
+# <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo detallado en una visualización de Power BI
+
+## <a name="drill-requires-a-hierarchy"></a>El modo detallado necesita una jerarquía
 Cuando un objeto visual tiene una jerarquía, se puede explorar en profundidad para mostrar detalles adicionales. Por ejemplo, puede tener una visualización que examine el número de medallas olímpicas mediante una jerarquía formada por deporte, disciplina y evento. De forma predeterminada, la visualización muestra el número de medallas por deporte, como gimnasia, esquí, deportes acuáticos, etc. Pero, como tiene una jerarquía, la selección de uno de los elementos visuales (por ejemplo, una barra, línea o burbuja), puede mostrar una imagen cada vez más detallada. Seleccione el elemento **aquatics** para ver los datos de natación, buceo y waterpolo.  Seleccione el elemento **diving** para ver los detalles de springboard, plataforma y eventos de buceo sincronizado.
 
 Puede agregar jerarquías a los informes de su propiedad, pero no a los que se hayan compartido con usted.
@@ -35,66 +37,136 @@ Las fechas son un tipo único de jerarquía. Cuando agrega un campo de fechas a 
 > [!NOTE]
 > Para información sobre cómo crear jerarquías con Power BI Desktop, vea el vídeo [How to create and add hierarchies (Cómo generar y agregar jerarquías)](https://youtu.be/q8WDUAiTGeU)
 > 
-> 
 
-## <a name="two-methods-to-drill-down"></a>Dos métodos de exploración en profundidad
-Hay dos formas de explorar en profundidad y rastrear agrupando datos en la visualización.  Ambos métodos se describen en este artículo. Ambos métodos logran lo mismo, por lo que puede usar el que prefiera.
+## <a name="prerequisites"></a>Requisitos previos
+
+1. En el servicio Power BI o en Desktop, para el modo detallado se necesita una visualización con una jerarquía. 
+   
+2. Para seguir el tutorial, [abra el ejemplo Retail Analysis](sample-datasets.md) y cree un treemap que examine **Total Units This Year** (Values) [Unidades totales este año (Valores)] por **Territory** (Territorio), **City** (Ciudad), **PostalCode** (Código postal) y **Name** (Group) [Nombre (Grupo)].  El treemap tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, etc. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
+
+2. Como puede resultar confuso intentar comprender cómo funcionan entre sí los distintos iconos del modo detallado, vamos a filtrar el treemap para mostrar solo dos de los territorios más pequeños: **KY** y **TN**. Seleccione el treemap y, en **Filtros de nivel visual** expanda **Territory** (Territorio) y seleccione **KY** y **TN**.
+
+    ![filtro para KY y TN](media/power-bi-visualization-drill-down/power-bi-filter.png)    
+
+   Ahora solo se muestran dos territorios en el treemap.
+
+   ![icono de doble modo detallado](media/power-bi-visualization-drill-down/power-bi-territories.png)
+
+## <a name="three-ways-to-access-the-drill-features"></a>Tres maneras de acceder a las características del modo detallado
+Tiene varias opciones para acceder a las características de rastrear desagrupando datos, rastrear agrupando datos y expandir para las visualizaciones que tienen jerarquías. En este artículo se explica cómo usar la primera opción. Una vez que comprenda los aspectos básicos de rastrear desagrupando datos y expandir, verá que con los tres métodos consigue realizar lo mismo, así que pruébelos y elija el que más le guste.
+
+- Mantenga el mouse sobre una visualización para ver y usar los iconos.  
+
+    ![ruta de exploración](media/power-bi-visualization-drill-down/power-bi-hover.png)
+
+- Haga clic con el botón derecho en una visualización para mostrar el menú y usarlo.
+    
+    ![menú contextual](media/power-bi-visualization-drill-down/power-bi-drill-menu.png)
+
+- En la barra de menús de Power BI, seleccione el botón **Explorar**.
+
+   ![](media/power-bi-visualization-drill-down/power-bi-explore.png)
+
+## <a name="drill-pathways"></a>Rutas de exploración
+### <a name="drill-down"></a>Rastrear desagrupando datos
+Existen varias formas de explorar en profundidad la visualización. ***Rastrear desagrupando datos*** le lleva al siguiente nivel en la jerarquía. Por tanto, si está mirando el nivel **Territory** (Territorio), puede rastrear desagrupando datos al nivel City (Ciudad) y luego al nivel PostalCode (Código postal) y, por último, al nivel Name (Nombre). Cada paso de la ruta muestra información nueva.
+
+![ruta de exploración](media/power-bi-visualization-drill-down/power-bi-drill-path.png)
+
+### <a name="expand"></a>Expandir
+
+***Expandir*** agrega un nivel de jerarquía adicional a la vista actual. Por tanto, si está mirando el nivel **Territory** (Territorio), puede expandir y agregar City (Ciudad), PostalCode (Código postal) y Name (Nombre) al treemap. Cada paso de la ruta muestra la misma información y agrega un nivel de información nueva.
+
+![ruta de expandir](media/power-bi-visualization-drill-down/power-bi-expand-path.png)
+
+También puede elegir si quiere rastrear desagrupando datos o expandir solo un campo o todos los campos a la vez. 
+
+## <a name="drill-down-all-fields-at-a-time"></a>Rastrear desagrupando datos de todos los campos a la vez
+
+1. Empiece en el nivel superior del treemap, que muestra datos de KY y TN. Amplíe el treemap seleccionando uno de los controladores y arrastrándolo a la derecha. 
+
+    ![treemap que muestra dos estados](media/power-bi-visualization-drill-down/power-bi-drill-down.png) .
+
+2. Para rastrear desagrupando datos de ***todos los campos a la vez***, seleccione la flecha doble de la esquina superior izquierda de la visualización ![icono de doble rastreo desagrupando datos](media/power-bi-visualization-drill-down/power-bi-drill-icon3.png). El treemap muestra ahora los datos de ciudad de Kentucky y Tennessee. 
+
+    ![icono de doble modo detallado](media/power-bi-visualization-drill-down/power-bi-drill-down1.png)
+   
+5. Rastree desagrupando datos una vez más en el nivel PostalCode (Código postal) de la jerarquía.
+
+    ![icono de doble modo detallado](media/power-bi-visualization-drill-down/power-bi-drill-down2.png)
+
+3. Para volver a rastrear agrupando datos, seleccione la flecha ascendente situada en la esquina superior izquierda de la visualización ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png).
+
+
+## <a name="drill-down-one-field-at-a-time"></a>Rastrear desagrupando datos un solo campo a la vez
+Este método usa los iconos del modo detallado que aparecen en la esquina superior derecha de la propia visualización. 
+
+1. Seleccione el icono de rastrear desagrupando datos para activar esta opción ![rastrear desagrupando datos activada](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png). Ahora tiene la opción de rastrear desagrupando datos de ***un solo campo a la vez***. 
+   
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon-new.png)
+
+   Si no activa la opción de rastrear desagrupando datos, al seleccionar un elemento visual (como por ejemplo, una barra, una burbuja o un nodo hoja) no se rastreará desagrupando datos, sino que realizará un filtrado cruzado con otros gráficos en la página del informe.
+
+2. Seleccione el *nodo hoja* para **TN**. El treemap muestra ahora todas las ciudades de Tennessee que tienen una tienda. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+2. Aquí puede seguir rastreando desagrupando datos para Tennesee o puede rastrear desagrupando datos para una determinada ciudad de Tennesee, o bien puede expandir (vea **Expandir todos los campos a la vez** más adelante). Sigamos rastreando desagrupando datos de un solo campo a la vez.  Seleccione **Knoxville, TN**. El treemap muestra ahora el código postal de la tienda en Knoxville. 
+
+   ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one2.png)
+
+    Observe que el título cambia a medida que realiza la exploración en profundidad y vuelve a agruparlos de nuevo.  
+
+## <a name="expand-all-and-expand-one-field-at-a-time"></a>Expandir todo y expandir un campo a la vez
+Tener un treemap que nos muestra solo un código postal no es muy informativo.  Así que vamos a expandir un nivel en la jerarquía.  
+
+1. Con el treemap activo, seleccione el icono de *expandir* ![icono de expandir](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). El treemap muestra ahora dos niveles de la jerarquía: PostalCode (Código postal) y Name (Nombre) de la tienda. 
+
+    ![mostrar código postal y nombre de tienda](media/power-bi-visualization-drill-down/power-bi-expand1.png)
+
+2. Para ver los cuatro niveles de jerarquía de datos para Tennesee, seleccione la flecha para rastrear agrupando datos hasta llegar al segundo nivel **Total units this year by territory and city** (Unidades totales este año por territorio y ciudad) del treemap. 
+
+    ![](media/power-bi-visualization-drill-down/power-bi-drill-down-one1.png)
+
+
+3. Asegúrese de que todavía está activada la opción de rastrear desagrupando datos ![rastrear desagrupando datos activada](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png) y seleccione el icono *expandir* ![icono de expandir](media/power-bi-visualization-drill-down/power-bi-drill-icon6.png). El treemap muestra ahora algunos detalles más. En lugar de mostrar solo la ciudad y el estado, también muestra el código postal. 
+
+    ![icono de doble modo detallado](media/power-bi-visualization-drill-down/power-bi-expand-one3.png)
+
+4. Seleccione el icono de *expandir* una vez más para mostrar los cuatro niveles de jerarquía de detalle para Tennesee en el treemap. Mantenga el mouse sobre un nodo hoja para ver más detalles.
+
+   ![treemap que muestra los datos de Tennesee](media/power-bi-visualization-drill-down/power-bi-expand-all.png)
+
+## <a name="drilling-filters-other-visuals"></a>Filtros de detalles en otros objetos visuales
+Cuando se trabaja en el modo detallado, tiene que decidir en qué medida afecta el rastreo desagrupando datos y la expansión a otras visualizaciones de la página. 
+
+De forma predeterminada, el modo detallado no filtrará otros objetos visuales en un informe. Pero esta característica se puede habilitar en el servicio Power BI y en Power BI Desktop. 
+
+1. En Desktop, seleccione la pestaña **Formato** y active la casilla para **Filtros de detalles en otros objetos visuales**.
+
+    ![opción en Power BI Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters-desktop.png)
+
+2. Ahora, cuando rastree desagrupando datos (o rastree agrupando datos o expanda) en un objeto visual con una jerarquía, esa acción filtrará los otros objetos visuales de la página. 
+
+    ![opción en Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters.png)
+
+    ![opción en Desktop](media/power-bi-visualization-drill-down/power-bi-drill-filters2.png)
 
 > [!NOTE]
-> Para seguir el tutorial, [abra el ejemplo Retail Analysis](sample-datasets.md) en el servicio Power BI y cree un gráfico de rectángulos que examine **Total Units This Year** (Values) [Unidades totales por año (Valores)] por **Territory** (Territorio), **City** (Ciudad), **PostalCode** (Código postal) y **Name** (Group) [Nombre (Grupo)].  
-> 
-> 
+> Para habilitar esta opción en el servicio Power BI, en la barra de menús superior, seleccione **Interacciones de objetos visuales > Filtros de detalles en otros objetos visuales**.
+>
+> ![opción en el servicio Power BI](media/power-bi-visualization-drill-down/power-bi-drill-filters-service.png)
 
-## <a name="method-one-for-drill-down"></a>Primer método para explorar en profundidad
-Este método usa los iconos de exploración que aparecen en las esquinas superiores de la misma visualización.
 
-1. En Power BI, abra un informe en [Vista de lectura o Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
-   
-   En la animación siguiente se muestra una jerarquía.  La visualización tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, etc. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Para habilitar la exploración en profundidad, seleccione el icono de flecha de la esquina superior derecha de la visualización. Cuando el icono se oscurece, la exploración en profundidad está habilitada. Si no activa en la exploración, al seleccionar un elemento visual (por ejemplo, una barra o una burbuja), se filtrará también en los demás gráficos en la página del informe.    
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-icon.png)
-3. Para rastrear desagrupando datos **de campo en campo**, seleccione uno de los elementos de la visualización. En un gráfico de barras, esto significa hacer clic en una de las barras. En un gráfico de rectángulos, esto significa hacer clic en uno de los **rectángulos**. Observe que el título cambia a medida que realiza la exploración en profundidad y vuelve a agruparlos de nuevo. En esta animación, cambia de "Total Units This Year by Territory" (Unidades totales este año por territorio) a "Total Units This Year by Territory and City" (Unidades totales este año por territorio y ciudad) y luego de "Total Units This Year by Territory, City and PostalCode" (Unidades totales este año por territorio, ciudad y código postal) a "Total Units This Year by Territory, City, PostalCode, and Name" (Unidades totales este año por territorio, ciudad, código postal y nombre). Y para volver a agrupar los datos, seleccione el icono de **Explorar en profundidad** ![](media/power-bi-visualization-drill-down/power-bi-drill-icon5.png) de la esquina superior izquierda de la visualización, como se muestra a continuación.
-   
-   ![](media/power-bi-visualization-drill-down/drill.gif)
-4. Para explorar en profundidad ***todos los campos a la vez***, seleccione la flecha doble de la esquina superior izquierda de la visualización.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillall.png)
-5. Para volver a agrupar los datos, seleccione la flecha ascendente de la esquina superior izquierda de la visualización.
-   
-   ![](media/power-bi-visualization-drill-down/pbi_drillup2.png)
-
-## <a name="method-two-for-drill-down"></a>Segundo método para explorar en profundidad
-Este método usa la lista desplegable **Explorar** de la barra de menús superior de Power BI.
-
-1. En Power BI, abra un informe en [Vista de lectura o Vista de edición](service-reading-view-and-editing-view.md). La exploración en profundidad requiere una visualización con una jerarquía. 
-   
-   En la imagen siguiente se muestra una jerarquía.  La visualización tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, etc. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-hierarcy-list.png)
-2. Para habilitar la exploración en profundidad, seleccione una visualización para activarla y, en la barra de menús superior de Power BI, seleccione **Explorar** > **Explorar en profundidad**. El icono de exploración en profundidad de la esquina superior derecha de la visualización cambia a un fondo negro. ![](media/power-bi-visualization-drill-down/power-bi-drill-icon2.png)  
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-explore2.png)
-3. Una vez habilitado, seleccione una de las hojas del gráfico de rectángulos para explorar en profundidad un campo a la vez. En este ejemplo se ha seleccionado el territorio denominado **NC** para ver el total de unidades vendidas este año en Carolina del Norte por ciudad.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drilldown-1.png)
-4. Para explorar en profundidad todos los campos a la vez, seleccione **Explorar** > **Mostrar siguiente nivel**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-show-next-level.png)
-5. Para volver a agrupar los datos, pulse **Explorar** > **Rastrear agrupando datos**.
-   
-   ![](media/power-bi-visualization-drill-down/power-bi-drill-up2.png)
-
-6. Para ver los datos en uso para crear el objeto visual, seleccione **Ver datos**. Los datos se muestran en un panel situado debajo del objeto visual. Este panel se mantendrá mientras siga explorando el objeto visual. Para más información, consulte [Ver los datos usados para crear el objeto visual](service-reports-show-data.md).
 
 ## <a name="understanding-the-hierarchy-axis-and-hierarchy-group"></a>Descripción del eje de jerarquías y el grupo de jerarquías
 Puede pensar en el eje de jerarquías y el grupo de jerarquías como los mecanismos que puede usar para aumentar y reducir la granularidad de los datos que quiere ver. Los datos que se pueden organizar en categorías y subcategorías pueden tener una jerarquía. Eso, por supuesto, incluye las fechas y las horas.
 
-En Power BI puede crear una visualización que tenga una jerarquía si selecciona uno o más campos de datos y los agrega al área **Eje** o **Grupo**, junto con los datos que quiere examinar como campos de datos en el área **Valores**. Sabrá si los datos son jerárquicos si aparecen los iconos del modo de exploración en las esquinas superior izquierda y derecha de la visualización. 
+En Power BI puede crear una visualización que tenga una jerarquía si selecciona uno o más campos de datos y los agrega al área **Eje** o **Grupo**, junto con los datos que quiere examinar como campos de datos en el área **Valores**. Sabrá que los datos son jerárquicos si aparecen los iconos del *modo detallado* en las esquinas superior izquierda y derecha de la visualización. 
 
-Básicamente, es práctico pensar en dos tipos de datos jerárquicos:
+Básicamente, resulta práctico considerarlo como dos tipos de datos jerárquicos:
 - Datos de fecha y hora: si tiene un campo de datos con un tipo de datos DateTime, ya tiene datos jerárquicos. Power BI crea automáticamente una jerarquía para cualquier campo de datos cuyos valores se puedan analizar en una estructura [DateTime](https://msdn.microsoft.com/library/system.datetime.aspx). Solo tiene que agregar un campo DateTime al área **Eje** o **Grupo**.
 - Datos de categorías: si los datos derivan de colecciones que contienen subcolecciones o tienen filas de datos que comparten valores comunes, tiene datos jerárquicos.
 

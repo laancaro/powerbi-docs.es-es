@@ -10,11 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 90f7cddec13159c445dc97f7adeea790020f8c72
-ms.sourcegitcommit: dcde910817720c05880ffe24755034f916c9b890
+ms.openlocfilehash: 938f7b5f905d156518f71a30b355575cf1c04683
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/19/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34722552"
 ---
 # <a name="export-a-report-from-power-bi-service-to-desktop-preview"></a>Exportar un informe desde el servicio Power BI a Desktop (versión preliminar)
 En Power BI Desktop, puede exportar (también se denomina *descargar*) un informe al servicio Power BI, guardando este y seleccionando **Publicar**. También puede exportar en la otra dirección y descargar un informe desde el servicio Power BI a Desktop. La extensión de los archivos que se van a exportar, en cualquier dirección, es *.pbix*.
@@ -57,6 +58,7 @@ Hay algunas consideraciones y limitaciones importantes asociadas con la descarga
 * Esta característica no funcionará con los informes creados originalmente en el **servicio Power BI**, incluidos los paquetes de contenido.
 * Use siempre la versión más reciente de **Power BI Desktop** para abrir los archivos descargados. Es posible que los archivos *.pbix* descargados no se abran en versiones no actuales de **Power BI Desktop**.
 * Si el administrador ha desactivado la capacidad de exportar los datos, esta característica no estará visible en el **servicio Power BI**.
+* No se puede descargar el conjunto de datos con la actualización incremental en un archivo *.pbix*.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Vea el vídeo de un minuto que **Guy in a Cube** dedicó a esta característica:

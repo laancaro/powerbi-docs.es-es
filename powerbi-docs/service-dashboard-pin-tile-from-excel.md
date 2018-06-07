@@ -8,14 +8,15 @@ featuredvideoid: l8JoB7w0zJA
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d6bb6bbed1d5423acbcf53ac50717debdfea4eaa
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34584079"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -65,8 +66,8 @@ Una manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es d
     ![Cuadro de diálogo Anclado al panel](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
 5. Seleccione **Ir al panel**. Desde aquí puede [cambiar el nombre, cambiar el tamaño, vincular y mover](service-dashboard-edit-tile.md) la visualización anclada. De forma predeterminada, al seleccionar el icono anclado, el libro se abre en Power BI.
 
-## <a name="pin-an-entire-table-or-pivot-chart-to-a-dashboard"></a>Anclar un gráfico dinámico o una tabla completa a un panel
-Siga los pasos anteriores, pero en lugar de seleccionar un rango de celdas, seleccione una tabla completa o una tabla dinámica.
+## <a name="pin-an-entire-table-or-pivottable-to-a-dashboard"></a>Anclar una tabla completa o una tabla dinámica a un panel
+Siga los pasos anteriores pero, en lugar de seleccionar un rango de celdas, seleccione una tabla completa o una tabla dinámica.
 
 Para anclar una tabla, seleccione todo el rango de la tabla y asegúrese de incluir los encabezados.  Para anclar tablas dinámicas, asegúrese de incluir todas las partes visibles de la tabla dinámica, incluidos los filtros, si se usan.
 

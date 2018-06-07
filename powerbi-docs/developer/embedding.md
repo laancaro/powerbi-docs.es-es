@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 043bd43ac6d0abcd4cc4bae54f4ee57cc4ef2a41
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561756"
 ---
 # <a name="embedding-with-power-bi"></a>Inserción con Power BI
 Power BI ofrece API para la inserción de paneles e informes en las aplicaciones. Al insertar el contenido, las API de Power BI ofrecen un conjunto coherente de funcionalidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación).
@@ -32,11 +33,13 @@ La inserción de contenido para la organización le permite ampliar el servicio 
 
 Para insertar contenido para su organización, consulte lo siguiente:
 
+* [Integrar un informe en una aplicación](integrate-report.md)
 * [Integrar un panel en una aplicación](integrate-dashboard.md)
 * [Integrar un icono en una aplicación](integrate-tile.md)
-* [Integrar un informe en una aplicación](integrate-report.md)
 
 Al usar la inserción para los usuarios de Power BI, las funcionalidades de autoservicio (como son editar, guardar y otras) están disponibles a través de la [API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
+
+Puede seguir los pasos de [Onboarding experience tool to embed for your organization](https://aka.ms/embedsetup/UserOwnsData) (Herramienta para incorporar la inserción para la organización) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que le guiará por los pasos para integrar un informe para la organización.
 
 ## <a name="embedding-for-your-customers"></a>Inserción de contenido para los clientes
 La inserción de contenido para los clientes permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. Los clientes no necesitan saber nada acerca de Power BI. Se necesita al menos una cuenta de Power BI Pro para crear una aplicación insertada. Esa cuenta actuará como cuenta maestra de la aplicación. Considérela como una cuenta de proxy. La cuenta de Power BI Pro le permite también generar tokens de inserción que proporcionan acceso a los paneles e informes dentro del servicio Power BI que la aplicación posea o administre. 
@@ -50,11 +53,12 @@ Para insertar paneles, informes e iconos, puede usar las mismas API que se usan 
 > [!IMPORTANT]
 > Aunque la inserción de contenido tiene una dependencia del servicio Power BI, no existe ninguna dependencia de Power BI para los clientes. No es necesario que se registren en Power BI para ver el contenido insertado en la aplicación.
 > 
-> 
 
 Cuando esté listo para pasar a producción, se debe asignar una capacidad a su área de trabajo de aplicaciones. Power BI Embedded, de Microsoft Azure, ofrece capacidad para usarla con las aplicaciones.
 
 Para más información acerca de los procedimientos de inserción, consulte [Procedimiento para insertar paneles, informes e iconos de Power BI](embedding-content.md).
+
+Puede seguir los pasos de [Onboarding experience tool to embed for your customers](https://aka.ms/embedsetup/AppOwnsData) (Herramienta para incorporar la inserción para los clientes) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que le guíe por los pasos para integrar un informe en la aplicación.
 
 Si usó el servicio Colección de áreas de trabajo de Power BI en Azure, consulte [Migración de contenido desde el servicio Colección de áreas de trabajo de Power BI](migrate-from-powerbi-embedded.md) para más información sobre cómo migrar el contenido.
 

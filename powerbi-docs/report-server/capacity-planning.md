@@ -9,11 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 94f137f0b8627bf34e78d9ac36574c64dd5d4752
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561825"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 Power BI Report Server es una solución de informes empresariales y BI con características de autoservicio que los clientes pueden implementar en sus instalaciones, detrás de su firewall. En ella se combinan la funcionalidad de informe interactivo de Power BI Desktop con la plataforma de servidor local de SQL Server Reporting Services. Con el uso intensivo y creciente de análisis e informes dentro de las empresas, elaborar un presupuesto para la infraestructura de hardware y las licencias de software necesarias para extenderla a una base de usuarios empresariales puede ser un verdadero desafío. Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. Aunque los informes, consultas y patrones de uso de las organizaciones pueden variar ampliamente, los resultados presentados en este documento, junto con las pruebas reales usadas y una descripción detallada de cómo se ejecutaban, sirven como punto de referencia para cualquiera en las primeras etapas del proceso de planeamiento de la implementación de Power BI Report Server.
@@ -49,7 +50,7 @@ La implementación de Power BI Report Server consta de las siguientes máquinas 
 Consulte el apéndice 1.1 Topología de Power BI Report Server y el apéndice 1.2 Configuración de máquina virtual de Power BI Report Server para obtener una configuración completa de cada máquina virtual usada en la topología.
 
 ### <a name="tests"></a>Pruebas
-Las pruebas usadas en las ejecuciones de prueba de carga están disponibles de forma pública en un proyecto de GitHub llamado Reporting Services LoadTest (consulte https://github.com/Microsoft/Reporting-Services-LoadTest). Esta herramienta permite a los usuarios estudiar el rendimiento, la confiabilidad, la escalabilidad y las características de capacidad de recuperación de SQL Server Reporting Services y Power BI Report Server. Este proyecto consta de cuatro grupos de casos de prueba:
+Las pruebas usadas en las ejecuciones de prueba de carga están disponibles de forma pública en un proyecto de GitHub llamado [Reporting Services LoadTest](https://github.com/Microsoft/Reporting-Services-LoadTest). Esta herramienta permite a los usuarios estudiar el rendimiento, la confiabilidad, la escalabilidad y las características de capacidad de recuperación de SQL Server Reporting Services y Power BI Report Server. Este proyecto consta de cuatro grupos de casos de prueba:
 
 * Pruebas que simulan la representación de informes de Power BI
 * Pruebas que simulan la representación de informes móviles

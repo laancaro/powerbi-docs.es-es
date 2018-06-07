@@ -8,14 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/19/2017
+ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 757f59b59ea13478a943650f23ef98d9cc5b3e08
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34553574"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -142,7 +143,9 @@ Póngase en contacto con el propietario de la página de SharePoint Online para 
 
 * Si utiliza Internet Explorer 10, pueden surgir problemas. Puede consultar el artículo [Exploradores compatibles con Power BI](service-browser-support.md) y los [requisitos del sistema de Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* El elemento web de Power BI no está disponible en las [nubes nacionales](https://powerbi.microsoft.com/en-us/clouds/). 
+* El elemento web de Power BI no está disponible en las [nubes soberanas](https://powerbi.microsoft.com/en-us/clouds/).
+
+* El clásico SharePoint Server no es compatible con este elemento web.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

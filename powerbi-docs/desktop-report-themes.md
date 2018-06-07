@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8ad48c0e5b78dabee7b1851c75b01e7fda611c1d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721188"
 ---
 # <a name="use-report-themes-in-power-bi-desktop-preview"></a>Uso de los temas para los informes en Power BI Desktop (versión preliminar)
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -54,7 +55,7 @@ Ese archivo JSON tiene las siguientes líneas obligatorias:
 
 * **name**: éste es el nombre del tema, que es el único campo obligatorio
 * **dataColors**: una lista de códigos de color hexadecimales que se usará para los datos de los objetos visuales de Power BI Desktop. La lista puede contener tantos o tan pocos colores como se desee
-* **background**, **foreground** y **tableAccent**: estos valores son colores que se deben usar en los objetos visuales **Tabla** y **Matriz**. El uso de estos colores depende del estilo específico de tabla o matriz aplicado. Los objetos visuales **Tabla** y **Matriz** aplican estos estilos de forma predeterminada.
+* **background**, **foreground** y **tableAccent**: estos valores son colores que se deben aplicar en varios tipos de objetos visuales. El valor **foreground** se aplica al texto de los cuadros de texto, el de los KPI objetivo, el de las tarjetas de varias filas, el de los valores de las tarjetas, el de las llamadas de los medidores y el de los elementos de la segmentación virtual, mientras que **table** y **matrix** se aplican al texto de los valores y los totales. Por su parte, **background** se aplica al relleno de los botones y al color de fondo de las etiquetas de los gráficos combinados. El uso de estos colores depende del estilo específico aplicado al objeto visual. Los objetos visuales **Tabla** y **Matriz** aplican estos estilos de forma predeterminada.
 
 Para aplicar un estilo a un objeto visual **Tabla** o **Matriz**, selecciónelo y, en el panel **Visualizaciones**, seleccione la sección **Formato** y, a continuación, expanda **Estilo de la matriz** y seleccione un estilo de la lista desplegable **Estilo**.
 

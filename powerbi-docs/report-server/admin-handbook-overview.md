@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 05/18/2018
 ms.author: maghan
-ms.openlocfilehash: 228402dd2137f0cf2f3d480ff1acee10d2f28c51
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296397"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721924"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Información general para administradores, Power BI Report Server
 Este artículo contiene información general de administración de Power BI Report Server, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI. En este artículo se presentan los conceptos de planeamiento, implementación y administración de Power BI Report Server, con vínculos a información adicional.
@@ -24,9 +24,9 @@ Este artículo contiene información general de administración de Power BI Repo
 
 
 ## <a name="installing-and-migration"></a>Instalación y migración
-Para empezar a usar el servidor de informes de Power BI es preciso instalarlo. Contamos con información que le permitirá controlar esta tarea.
+Para empezar a usar Power BI Report Server, es preciso instalarlo. Disponemos de artículos que explican cómo controlar esta tarea.
 
-Antes de empezar a instalar, actualizar o migrar al servidor de informes de Power BI, eche un vistazo a los [requisitos del sistema](system-requirements.md) para el servidor de informes.
+Antes de empezar a instalar, actualizar o migrar a Power BI Report Server, eche un vistazo a los [requisitos del sistema](system-requirements.md) para el servidor de informes.
 
 ### <a name="installing"></a>Instalación
 Si va a implementar una instancia nueva de Power BI Report Server, utilice los siguientes documentos, ya que le servirán de ayuda. 
@@ -34,7 +34,7 @@ Si va a implementar una instancia nueva de Power BI Report Server, utilice los s
 [Instalar un servidor de informes de Power BI](install-report-server.md)
 
 ### <a name="migration"></a>Migración
-No hay ninguna actualización vigente para SQL Server Reporting Services. Si ya tiene una instancia de SQL Server Reporting Services que desea que se convierta en un servidor de informes de Power BI, debe migrarla. Hay otras razones por las que se puede desear realizar una migración. Para más información, consulte el documento de migración.
+No hay ninguna actualización vigente para SQL Server Reporting Services. Si ya tiene una instancia de SQL Server Reporting Services que quiere que se convierta en una de Power BI Report Server, debe migrarla. Hay otras razones por las que es preferible realizar una migración. Para más información, consulte el documento de migración.
 
 [Migrar la instalación de un servidor de informes](migrate-report-server.md)
 

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 05/20/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b70a9ef7774d1ba49bc5bf825a5c1cde47197f2
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 3c32fc3cc9dc2b16384016ca624d4dd3a773aacb
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561802"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 En un informe de Power BI, puede ordenar la mayoría de las visualizaciones alfabéticamente por los nombres de las categorías del gráfico, o bien por los valores numéricos de cada categoría. Por ejemplo, este gráfico se ordena por nombre de tienda.
@@ -29,6 +30,13 @@ Es fácil cambiar el criterio de ordenación y pasar de una categoría (nombre d
    ![](media/power-bi-report-change-sort/sortby.gif)
 
    **NOTA**: no todos los elementos visuales se pueden ordenar.  Por ejemplo, los siguientes objetos visuales no se pueden ordenar: Gráfico de rectángulos, Mapa, Mapa coroplético, Dispersión, Medidor, Tarjeta, Tarjeta de varias filas y Cascada.
+
+## <a name="saving-changes-you-make-to-sort-order"></a>Guardar los cambios realizados en el criterio de ordenación
+Los informes de Power BI conservan los filtros, las segmentaciones, la ordenación y otros cambios que se realizan en la vista de datos. Por lo que si sale de un informe y vuelve más tarde, se guardan los cambios.  Si quiere revertir los cambios a la configuración del autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior. 
+
+![ordenación persistente](media/power-bi-report-change-sort/power-bi-reset-to-default.png)
+
+Pero si el botón **Restablecer valores predeterminados** está atenuado, significa que el autor del informe ha deshabilitado la capacidad de guardar (conservar) los cambios.
 
 <a name="other"></a>
 ## <a name="sorting-using-other-criteria"></a>Ordenación siguiendo otros criterios

@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/15/2018
+ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: b0a18d5befe49a3ffaa400b0e081d88720cdd28c
-ms.sourcegitcommit: 998b79c0dd46d0e5439888b83999945ed1809c94
+ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721395"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 En este artículo se analiza en profundidad el panel Filtros del informe. Verá el panel en la [vista de edición y la vista de lectura del servicio Power BI](service-reading-view-and-editing-view.md) y en la [vista de informe de Power BI Desktop](desktop-report-view.md).
@@ -22,7 +23,7 @@ En este artículo se analiza en profundidad el panel Filtros del informe. Verá 
 Hay muchas maneras diferentes de filtrar los datos en Power BI, por eso es recomendable leer primero el artículo [Filtros y resaltado](power-bi-reports-filters-and-highlighting.md).
 
 ## <a name="working-with-the-report-filters-pane"></a>Trabajar con el panel Filtros de informes
-En Power BI Desktop, los informes se abren en la vista de informe. En el servicio Power BI, los informes se pueden abrir en la [vista de edición o la vista de lectura](service-reading-view-and-editing-view.md). En la vista de edición y en la vista de informe de Desktop, los propietarios de informes pueden [agregar filtros a un informe](power-bi-report-add-filter.md), de modo que dichos filtros se guarden con el informe. Las personas que ven el informe en la vista Lectura pueden interactuar con los filtros, pero no pueden guardar los cambios en el informe.
+En Power BI Desktop, los informes se abren en la vista de informe. En el servicio Power BI, los informes se pueden abrir en la [vista de edición o la vista de lectura](service-reading-view-and-editing-view.md). En la vista de edición y en la vista de informe de Desktop, los propietarios de informes pueden [agregar filtros a un informe](power-bi-report-add-filter.md), de modo que dichos filtros se guarden con el informe. Las personas que ven el informe en la vista Lectura pueden interactuar con los filtros y guardar sus cambios, pero no pueden agregar nuevos filtros al informe.
 
 En el servicio Power BI, los informes conservan cualquier cambio que haya realizado en el panel Filtros y dichos cambios se aplican en la versión móvil del informe. Para restablecer los valores predeterminados del creador en el panel Filtro, seleccione **Restablecer valores predeterminados** en la barra de menús superior.     
 

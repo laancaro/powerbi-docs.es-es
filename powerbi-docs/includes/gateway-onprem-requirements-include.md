@@ -13,6 +13,7 @@
 **Consideraciones relacionadas:**
 
 * La puerta de enlace no se puede instalar en un controlador de dominio
+* Si tiene previsto usar la autenticación de Windows, asegúrese de instalar la puerta de enlace en un equipo que sea miembro del mismo entorno de Active Directory que los orígenes de datos.
 * No debe instalar una puerta de enlace en un equipo (por ejemplo, un portátil) que pueda desconectarse, suspenderse o que no esté conectado a Internet, porque la puerta de enlace no se puede ejecutar en ninguna de esas circunstancias. Además, podría afectar al rendimiento de la puerta de enlace en una red inalámbrica.
 * Analysis Services no es necesario para usar la puerta de enlace. Puede usar la puerta de enlace para conectarse a un origen de datos de Analysis Services.
 

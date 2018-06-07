@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 05/18/2018
 ms.author: maggies
-ms.openlocfilehash: 75810bfad9efd5a0ea42a07d44a61d4f92f7f232
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: e996b1399ff4dde96d122e747cf1f07db3a44876
+ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34294925"
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34721832"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creación de un informe paginado para Power BI Report Server
 Como sugiere su nombre, los informes paginados pueden ejecutar muchas páginas. Están diseñados con un formato fijo y ofrecen una personalización precisa. Los informes paginados son archivos .rdl.
@@ -94,7 +94,7 @@ Cuando el informe esté listo, guárdelo en Power BI Report Server.
 Existen muchos recursos excelentes para el diseño de informes en el Generador de informes y el Diseñador de informes de SQL Server Data Tools. Los tutoriales del Generador de informes son un buen lugar para comenzar.
 
 * [Tutoriales del Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder-tutorials)
-* [Manual del usuario del servidor de informes de Power BI](user-handbook-overview.md)  
+* [¿Qué es Power BI Report Server?](get-started.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
