@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e688561b6b669aab68c4251fa5e25157dc219cd6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34723009"
+ms.locfileid: "34755079"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 En este artículo se examinan algunos problemas comunes que pueden aparecer al usar la **puerta de enlace de datos local**.
@@ -149,6 +149,9 @@ Tendrá que trabajar con los administradores del dominio para verificar la relac
 **Unable to see the data gateway data sources in the 'Get Data' experience for Analysis Services from the Power BI service** (No se pueden ver orígenes de datos de la puerta de enlace de datos en la experiencia "Obtener datos" para Analysis Services desde el servicio Power BI)
 
 Asegúrese de que su cuenta aparece en la ficha **Usuarios** del origen de datos dentro de la configuración de puerta de enlace. Si no tiene acceso a la puerta de enlace, consulte con el administrador de la puerta de enlace y pídale que realice la comprobación. Solo las cuentas de la lista **Usuarios** verán el origen de datos enumerado en la lista de Analysis Services.
+
+### <a name="error-you-dont-have-any-gateway-installed-or-configured-for-the-data-sources-in-this-dataset"></a>Error: No tiene ninguna puerta de enlace instalada o configurada para los orígenes de datos de este conjunto de datos
+Asegúrese de que haya agregado al menos un origen de datos a la puerta de enlace, tal como se describe en [Agregar un origen de datos](service-gateway-manage.md#add-a-data-source). Si la puerta de enlace no se muestra en **Administrar puertas de enlace** en el portal de administración, intente borrar la memoria caché del explorador o cerrar sesión en el servicio. Después, vuelva a iniciar sesión.
 
 ## <a name="datasets"></a>Conjuntos de datos
 ### <a name="error-there-is-not-enough-space-for-this-row"></a>Error: no hay suficiente espacio para esta fila.

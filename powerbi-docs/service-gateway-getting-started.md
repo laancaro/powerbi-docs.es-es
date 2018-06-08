@@ -10,18 +10,18 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: d569b68da7d13518f2d641817dfe1a68862698ac
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1da7591a490ae5bc6d132136691db05af7cffd81
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297892"
+ms.locfileid: "34754918"
 ---
 # <a name="what-are-power-bi-gateways"></a>¿Qué son las puertas de enlace de Power BI?
 
 Una puerta de enlace de Power BI es un software que se instala en una red local; facilita el acceso a los datos en esa red. Es similar a un guardián que atiende las solicitudes de conexión y las concede solo cuando las solicitudes de un usuario cumplen determinados criterios. Esto permite a las organizaciones mantener las bases de datos y otros orígenes de datos en sus redes locales, pero con un uso seguro de tales datos locales en informes y paneles de Power BI.
 
-En el siguiente diagrama se muestra una vista básica, con la puerta de enlace controlando las solicitudes de la nube para tres equipos locales. Se ampliará más adelante en el artículo.
+Una puerta de enlace se puede usar para un único origen de datos, o bien para varios. En el siguiente diagrama se muestra una vista básica, con la puerta de enlace controlando las solicitudes de la nube para tres equipos locales. Se ampliará más adelante en el artículo.
 
 ![Información general de la puerta de enlace](media/service-gateway-getting-started/gateway-overview.png)
 

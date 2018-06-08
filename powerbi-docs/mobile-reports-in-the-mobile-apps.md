@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 6d7ab55c3ecbb13b40354f67263d597f0e1179f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297685"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799427"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -81,25 +81,30 @@ Cuando selecciona un valor en un objeto visual, lo no filtra los otros objetos v
    ![Ordenar un objeto visual](media/mobile-reports-in-the-mobile-apps/power-bi-android-tablet-report-sort.png)
 * Para invertir el criterio de ordenación, pulse de nuevo el botón de puntos suspensivos (**...**) y otra vez el mismo nombre de campo.
 
-## <a name="drill-down-on-an-ipad-or-a-tablet"></a>Exploración en profundidad en un iPad o una tableta
-Si un autor de un informe ha agregado la funcionalidad de exploración en profundidad a un objeto visual, en una tableta o un iPad puede explorar en profundidad un objeto visual para ver los valores que constituyen una parte de él. Puede [agregar una exploración en profundidad a un objeto visual](power-bi-visualization-drill-down.md) tanto en Power BI Desktop como en el servicio Power BI. 
+## <a name="drill-down-and-up-in-a-visual"></a>Explorar en profundidad y rastrear agrupando datos de un objeto visual
+Si el autor de un informe ha agregado la funcionalidad de exploración en profundidad a un objeto visual, puede explorar en profundidad un objeto visual para ver los valores que constituyen una parte de él. Puede [agregar una exploración en profundidad a un objeto visual](power-bi-visualization-drill-down.md) tanto en Power BI Desktop como en el servicio Power BI. 
 
-> [!NOTE]
-> Actualmente, la exploración en profundidad no funciona en los mapas del iPad o la tableta.
-> 
-> 
+* Pulse un punto de datos de un objeto visual para que se muestre su información sobre herramientas. Si admite la exploración desagrupando los datos, se mostrarán flechas que podrá pulsar en la parte inferior de la información sobre herramientas. 
+  
+  ![Exploración en profundidad en un objeto visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 
-* Pulse un objeto visual. Si tiene una flecha hacia arriba y hacia abajo en las esquinas superiores ![Iconos de flecha hacia arriba y hacia abajo](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-down.png)significa que puede explorarlo en profundidad. Para explorar en profundidad un valor, pulse la flecha en la esquina superior derecha y, después, un valor en el objeto visual: en este caso, la burbuja azul oscuro FD-04.
+* Para volver a agrupar los datos, pulse la flecha hacia arriba en la información sobre herramientas.
   
-  ![Exploración en profundidad en un objeto visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-one.png)
-* Para volver a agrupar los datos, pulse la flecha hacia arriba en la esquina superior izquierda.
-  
-  ![Rastrear agrupando datos](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up.png)
+  ![Rastrear agrupando datos](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
-## <a name="go-back-to-my-workspace"></a>Volver a Mi área de trabajo
-* Pulse la flecha situada junto al nombre del informe > pulse **Mi área de trabajo**.
-  
-  ![Volver al nivel original](media/mobile-reports-in-the-mobile-apps/power-bi-iphone-report-back.png)
+* También puede explorar desagrupando los datos todos los puntos de datos de un objeto visual. Ábralo en el modo de enfoque, pulse el icono de Explorar y elija mostrar todo el siguiente nivel, o bien amplíe para que se muestren el nivel actual y el próximo.
+
+   ![Explorar desagrupando los datos en Power BI](media/mobile-reports-in-the-mobile-apps/power-bi-drill-down-all.png)
+
+## <a name="drill-through-from-one-page-to-another"></a>Explorar varias páginas al mismo tiempo
+
+Con la *obtención de detalles*, al pulsar una parte específica de un objeto visual, Power BI le mostrará otra página del informe y la filtrará según el valor que haya pulsado. El autor de un informe puede definir una o más opciones de exploración de varias páginas, de modo que cada opción dirija a una página diferente. En ese caso, podrá elegir en qué página quiere obtener detalles. En el ejemplo siguiente, al pulsar el valor en el medidor, puede elegir entre obtener detalles **por el gasto de cada área de negocio** o **por la planificación de cada área de negocio**.
+
+![Informe detallado de obtención de detalles de Power BI Mobile](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-through-it-spent-report.png)
+
+Al obtener detalles, el botón Atrás lo dirigirá de vuelta a la página de informe anterior.
+
+Obtenga información sobre cómo [agregar la obtención de detalles a Power BI Desktop](desktop-drillthrough.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)

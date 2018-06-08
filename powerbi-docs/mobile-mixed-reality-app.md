@@ -1,25 +1,25 @@
 ---
 title: Aplicación Power BI for Mixed Reality (versión preliminar)
-description: Vea los paneles y los informes en la aplicación Power BI for Mixed Reality, tanto si está inmerso en el mundo virtual como si se encuentra en el contexto de su entorno.
+description: Vea los paneles e informes en la aplicación Power BI for Mixed Reality (versión preliminar), tanto si está inmerso en el mundo virtual como si se encuentra en el contexto de su entorno.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
+ms.date: 06/05/2018
 ms.author: maggies
-ms.openlocfilehash: 32ef06cfdefe4ff1554cfe5f449d69583569f158
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 15c59d25814a50ce09b5b52accd0f88d74871a34
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721441"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799335"
 ---
 # <a name="power-bi-for-mixed-reality-app-preview"></a>Aplicación Power BI for Mixed Reality (versión preliminar)
-Vea los paneles y los informes en la aplicación Power BI for Mixed Reality, tanto si está inmerso en el mundo virtual como si los coloca en ubicaciones específicas en el contexto de su entorno. 
+Vea los paneles e informes en la aplicación Power BI for Mixed Reality (versión preliminar), tanto si está inmerso en el mundo virtual como si los coloca en ubicaciones específicas en el contexto de su entorno. 
 
-Descargue la versión preliminar de la aplicación Power BI for Mixed Reality desde la Tienda de aplicaciones Windows para ver paneles e informes. Interactúe con ellos en el mundo virtual y luego seleccione los que quiere aplicar. 
+[Descargue la aplicación Power BI for Mixed Reality](https://www.microsoft.com/p/power-bi-mobile/9nblgggzlxn1?activetab=pivot%3aoverviewtab) desde Microsoft Store; la encontrará por el nombre "Power BI Mobile". Interactúe con sus paneles e informes en el mundo virtual y luego seleccione los que quiera aplicar. 
 
 ## <a name="two-views-windows-classic-and-holographic"></a>Dos vistas: clásica de Windows y holográfica
 

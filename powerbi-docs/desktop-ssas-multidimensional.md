@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 94152d1c1dc30bcaea212638e5ef65da6faf7ff7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 62f6c8ac23fad39dfb6942678cf92a37014de8bf
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286161"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799588"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
@@ -98,3 +98,7 @@ Se admiten las siguientes características de SSAS MD en Power BI Desktop:
   * Direcciones URL de imagen
   * Seguridad de dimensión
 
+## <a name="troubleshooting"></a>Solución de problemas 
+En la lista siguiente se describen todos los problemas conocidos al conectarse a SQL Server Analysis Services (SSAS). 
+
+* **Error: No se pudo cargar el esquema de modelo**. Este error suele producirse si el usuario que intenta conectarse a Analysis Services no tiene acceso a la base de datos o al cubo.

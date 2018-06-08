@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d2f657423903b783c2e57822cabb577acd10a8bc
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5d5544fba824443b1ba7b58c3e9d21f7769554d6
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34294695"
+ms.locfileid: "34755332"
 ---
 # <a name="use-power-bi-service-or-power-bi-desktop-to-create-a-custom-answer-page-for-cortana"></a>Usar el servicio Power BI o Power BI Desktop para crear una página de respuesta personalizada para Cortana
 Use las funcionalidades completas de Power BI para crear páginas de informe especiales, denominadas *páginas de respuestas de Cortana* (en ocasiones llamadas también *tarjetas de respuestas de Cortana*), diseñadas específicamente para responder las preguntas de Cortana.
@@ -46,6 +46,12 @@ El tamaño de una *página de respuestas* de un informe es específico para que 
    
     ![](media/service-cortana-answer-cards/pbi-cortana-page-size-new.png)
 3. Cree un objeto visual o un conjunto de objetos visuales que quiera que aparezca en Cortana como respuesta a una pregunta determinada (o un conjunto de preguntas).
+
+> [!NOTE]
+> En este momento, las páginas de respuesta de Cortana no son compatibles con las imágenes que contengan imágenes estáticas. Puede incluir imágenes en una tabla o en objetos visuales de matriz extraídos dinámicamente según una dirección URL de sus datos. 
+> 
+> 
+
 4. Asegúrese de que todos los objetos visuales se ajusten dentro de los bordes de página. Si quiere, modifique la configuración de pantalla, las etiquetas de datos, los colores y los fondos.  
    
     ![](media/service-cortana-answer-cards/pbi_cortana_modify-new.png)

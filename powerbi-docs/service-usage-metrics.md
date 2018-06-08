@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 82015b3e0c497f58b0505804adc852ebfb7a0202
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 387780371a82ab4f2c834683ab522258d130e18e
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584332"
+ms.locfileid: "34755263"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 Si desea crear paneles e informes, las métricas de uso le ayudan a conocer su impacto. Al ejecutar métricas de uso de panel o métricas de uso de informe, verá cómo se usan estos paneles e informes en toda la organización; qué es lo que se está utilizando, por quién y con qué finalidad.  
 
-Las métricas de uso harán un seguimiento del uso de los informes que se insertan en SharePoint Online. También realizarán un seguimiento de los paneles e informes insertados mediante los flujos de trabajo "el usuario posee las credenciales" y "la aplicación posee las credenciales". Las métricas de uso no realizarán un seguimiento del uso de los informes insertados mediante [Publicar en la Web](service-publish-to-web.md).
+  > **NOTA**: Las métricas de uso harán un seguimiento del uso de los informes que se insertan en SharePoint Online. Sin embargo, no realizarán un seguimiento de los paneles e informes insertados mediante el flujo "el usuario posee las credenciales" o "la aplicación posee las credenciales". Las métricas de uso también realizarán un seguimiento del uso de los informes insertados mediante [Publicar en la Web](service-publish-to-web.md).
 
 Estos informes de métricas de uso son de solo lectura. Sin embargo, puede personalizar un informe de métricas de uso mediante la opción "Guardar como". Se crea un conjunto de datos y el informe de solo lectura se convierte en un informe de Power BI con todas las características, que puede editar. No solo el informe personalizado contiene métricas para el panel o el informe seleccionado, sino que al quitar el filtro predeterminado, ya tiene acceso a las métricas de uso para todos los paneles o informes en el área de trabajo seleccionada.
 

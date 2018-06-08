@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5b4a35d9cdfa820956201e7fee20251b3c5ac0b7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584309"
+ms.locfileid: "34755148"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -92,7 +92,7 @@ Al hacer clic en **Ir al Centro de administración de O365**, irá directamente 
 
 ## <a name="audit-logs"></a>Registros de auditoría
 
-La tercera pestaña, en el Portal de administración, es **Registros de auditoría**. Los registros se encuentran en el Centro de seguridad y cumplimiento de Office 365. Esta sección le permite obtener acceso rápidamente a esa área en Office 365. 
+La tercera pestaña, en el Portal de administración, es **Registros de auditoría**. Los registros se encuentran en el Centro de seguridad y cumplimiento de Office 365. Esta sección le permite obtener acceso rápidamente a esa área en Office 365.
 
 Para obtener más información sobre los registros de auditoría, consulte [Auditoría de Power BI en su organización](service-admin-auditing.md).
 
@@ -141,7 +141,7 @@ Este es el mensaje que aparecerá cuando los comparta con un usuario externo.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Publicar en web
+### <a name="publish-to-web"></a>Publicar en Web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 
@@ -227,8 +227,6 @@ Los usuarios de la organización pueden utilizar los mapas de ArcGIS para la vis
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitación de objetos visuales personalizados para toda la organización
 Los usuarios de la organización pueden interactuar con objetos visuales personalizados y compartirlos. [Más información](power-bi-custom-visuals.md)
 
-![Configuración de objetos visuales personalizados](media/service-admin-portal/powerbi-admin-custom-visuals.png)
-
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
@@ -247,7 +245,7 @@ Los usuarios de la organización pueden interactuar con objetos visuales creados
 
 Los usuarios de la organización pueden utilizar la auditoría para supervisar las acciones realizadas en Power BI por otros usuarios de la organización. [Más información](service-admin-auditing.md)
 
-Se debe habilitar esta configuración para que las entradas de registro de auditoría se puedan registrar.
+Se debe habilitar esta configuración para que las entradas de registro de auditoría se puedan registrar. Puede haber una demora de hasta 48 horas entre la habilitación de la auditoría y el momento en el que se empiecen a mostrar los datos de auditoría. Si no ve los datos de inmediato, consulte los registros de auditoría más tarde. Puede haber una demora similar entre la obtención de permisos para ver los registros de auditoría y la posibilidad de acceder a estos.
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
