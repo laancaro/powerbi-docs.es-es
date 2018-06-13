@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/05/2018
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 980aa830e38e49613b54ad473ef23eb7eac78ed2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 04963d513fa397e75c34f0650bf55fb31c1490f2
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722802"
+ms.locfileid: "34755102"
 ---
 # <a name="power-bi-premium---what-is-it"></a>¿Qué es Power BI Premium?
 Power BI Premium proporciona recursos dedicados para ejecutar el servicio Power BI para su organización o equipo, lo que le ofrece un rendimiento más confiable y mayores volúmenes de datos. Premium también permite la distribución generalizada del contenido sin necesidad de adquirir licencias para cada usuario.
@@ -61,9 +61,8 @@ De forma predeterminada, el área de trabajo está en la capacidad compartida. I
 ### <a name="premium-capacity-nodes"></a>Nodos de la capacidad Premium
 Power BI Premium está disponible en las configuraciones de nodo con capacidades diferentes de núcleos V. Para más información sobre ofertas y costos de SKU específicos, vea los [precios de Power BI](https://powerbi.microsoft.com/pricing/). También se encuentra disponible una [calculadora de costos](https://powerbi.microsoft.com/calculator/). Para obtener información sobre el planeamiento de capacidad de análisis insertada, vea las [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy).
 
-* Se pueden usar nodos P para las implementaciones de servicio o insertadas
-* Se pueden usar nodos EM solo para implementaciones insertadas
-* EM1 y EM2 
+* Los nodos P se pueden usar para las implementaciones de servicio o insertadas.
+* Los nodos EM solo se pueden usar para las implementaciones insertadas. Los nodos EM no tienen acceso a las funciones premium, como el uso compartido de aplicaciones con los usuarios que no tienen una licencia de Power BI Pro.
 
 >[!NOTE]
 >Los vínculos de esta tabla solo funcionan correctamente para los usuarios que son administradores globales de Office 365. Los demás recibirán un error 404. 

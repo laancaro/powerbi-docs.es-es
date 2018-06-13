@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: c0ad0c22d0787eaaa45cb36c74c01f6a1d1f85e3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
+ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722667"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799565"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de los valores del proxy para la puerta de enlace de datos local
 El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto puede impedir que la puerta de enlace de datos local se conecte al servicio.
@@ -50,7 +50,7 @@ La configuración de proxy predeterminada es la siguiente.
         <defaultProxy useDefaultCredentials="true" />
     </system.net>
 
-La configuración predeterminada funciona con la autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red.
+La configuración predeterminada funciona con la autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red. No se recomienda la autenticación de proxy básica y cualquier intento de usarla puede provocar errores de autenticación de proxy que resulten en la configuración incorrecta de la puerta de enlace. Use un mecanismo de autenticación de proxy más seguro para resolver.
 
 Además de usar las credenciales predeterminadas, puede agregar un elemento <proxy> para definir la configuración del servidor proxy con más detalle. Por ejemplo, puede especificar que la puerta de enlace de datos local use siempre el proxy incluso para los recursos locales estableciendo el parámetro bypassonlocal en false. Esto puede ayudar a solucionar situaciones en las que quiere realizar un seguimiento de todas las solicitudes https que se originan en una puerta de enlace de datos local en los archivos de registro de proxy. La configuración del ejemplo siguiente especifica que todas las solicitudes deben pasar por un proxy específico con la dirección IP 192.168.1.10.
 
@@ -93,6 +93,10 @@ Al configurar los ajustes de proxy para utilizar las credenciales predeterminada
 5. Restaure la puerta de enlace con su clave de recuperación.
    
     Esto permitirá a la nueva cuenta de servicio descifrar las credenciales almacenadas para los orígenes de datos.
+    
+> [!NOTE]
+> Al cambiar la cuenta de servicio directamente mediante el panel de control de servicios, no actualiza las ACL de manera automática. Debe asegurarse de que la nueva cuenta de servicio tiene acceso a los archivos y la carpeta de instalación. Puede encontrar la carpeta de instalación de la puerta de enlace en C:Archivos de programa\Puerta de enlace de datos local. 
+> 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Puerta de enlace de datos local (modo personal)](service-gateway-personal-mode.md)

@@ -10,21 +10,25 @@ ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aec57dc8d015afe80c9cc9cde83c2d1fd6ba26b0
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
+ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722598"
+ms.locfileid: "34755171"
 ---
 # <a name="manage-a-power-bi-gateway"></a>Administración de una puerta de enlace de Power BI
 
-Después de [instalar una puerta de enlace de datos de Power BI](service-gateway-install.md), puede administrarla en el espacio **Administrar puertas de enlace** del servicio Power BI, en la aplicación de puerta de enlace en el equipo local y con los scripts de PowerShell. Este artículo se centra en el servicio Power BI. Si acaba de instalar una puerta de enlace, se recomienda que después [agregue un origen de datos](#add-a-data-source) y luego [agregue usuarios](#add-users-to-a-data-source), para que puedan acceder al origen de datos.
+Después de [instalar una puerta de enlace de datos de Power BI](service-gateway-install.md), la puede administrar según sus requisitos. En este tema, obtendrá información sobre cómo: agregar y quitar orígenes de datos y usuarios; reiniciar una puerta de enlace; y migrar, restaurar, controlar y quitar una puerta de enlace. 
+
+Puede administrar una puerta de enlace en el área **Administrar puertas de enlace** del servicio Power BI, en la aplicación de puerta de enlace del equipo local y con los scripts de PowerShell. Este artículo se centra en el servicio Power BI. 
+
+Si acaba de instalar una puerta de enlace, se recomienda que después [agregue un origen de datos](#add-a-data-source) y luego [agregue usuarios](#add-users-to-a-data-source), para que puedan acceder al origen de datos.
 
 
 ## <a name="manage-data-sources"></a>Administración de orígenes de datos
 
-Power BI admite muchos orígenes de datos locales, y cada uno tiene sus propios requisitos. En este ejemplo, vamos a mostrarle cómo agregar SQL Server como un origen de datos, pero los pasos son similares para otros orígenes de datos.
+Power BI admite muchos orígenes de datos locales, y cada uno tiene sus propios requisitos. Una puerta de enlace se puede usar para un único origen de datos, o bien para varios. En este ejemplo, vamos a mostrarle cómo agregar SQL Server como un origen de datos, pero los pasos son similares para otros orígenes de datos.
 
 
 ### <a name="add-a-data-source"></a>Elegir un origen de datos
@@ -113,6 +117,14 @@ Cuando los administradores usan la opción **Administrar puertas de enlace**, si
 
 Todas las solicitudes de **Actualización programada** y las operaciones de DirectQuery se enrutan automáticamente a la instancia principal de un clúster de puertas de enlace determinado. Si la instancia de la puerta de enlace principal no está conectada, la solicitud se enruta a otra instancia de puerta de enlace del clúster.
 
+
+## <a name="share-a-gateway"></a>Compartir una puerta de enlace
+
+Una puerta de enlace no se puede *compartir* por sí misma, pero se pueden agregar administradores a la puerta de enlace y usuarios a los orígenes de datos de la puerta de enlace. 
+
+Después de instalar una puerta de enlace, de forma predeterminada se convertirá en el administrador de esa puerta de enlace. Como se mostró anteriormente, puede agregar otros usuarios como administradores. Estos administradores pueden agregar orígenes de datos y configurar y quitar la puerta de enlace.
+
+También puede asignar usuarios a los orígenes de datos que cree en cada una de las puertas de enlace. Después, los usuarios pueden usar esos orígenes de datos para actualizar los informes de Power BI. Pero no podrán cambiar ninguno de los orígenes de datos ni la configuración de la puerta de enlace.
 
 ## <a name="migrate-restore-or-take-over-a-gateway"></a>Migración, restauración o control de una puerta de enlace
 
