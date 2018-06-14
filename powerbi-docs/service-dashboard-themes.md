@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/30/2018
+ms.date: 06/05/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1ea92be426312a738e03d78454a4c83a82b233c5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722529"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813811"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usar temas de panel en el servicio Power BI
 Con los **temas de panel** se puede aplicar un tema de color a todo un panel, como por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que quiera aplicar. Al aplicar un **tema de panel**, todos los objetos visuales del panel usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
 
 ![panel de ejemplo con el tema](media/service-dashboard-themes/power-bi-full-dashboard-theme.png)
 
-Si cambia los colores de los objetos visuales en el panel no afectará a los objetos visuales del informe. Además, al anclar iconos desde un informe que ya tiene un [tema de panel aplicado](/desktop-report-themes.md), tendrá la opción de conservar el tema actual o usar el tema de panel.
+Si cambia los colores de los objetos visuales en el panel no afectará a los objetos visuales del informe. Además, al anclar iconos desde un informe que ya tiene un [tema de panel aplicado](desktop-report-themes.md), tendrá la opción de conservar el tema actual o usar el tema de panel.
 
 
 ## <a name="prerequisites"></a>Requisitos previos

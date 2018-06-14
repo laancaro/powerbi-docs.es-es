@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/19/2018
 ms.author: maggies
-ms.openlocfilehash: 830c867c6f495c30bd28640db9adab964bc5e2bd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 3efd7da5ef320e08ab620da3c63a6d3ff327396a
+ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721740"
+ms.lasthandoff: 06/09/2018
+ms.locfileid: "35250393"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -23,10 +23,6 @@ Aprenda a instalar un servidor de informes de Power BI.
  **Descargar** ![descargar](media/install-report-server/download.png "descargar")
 
 Para descargar el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el Servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/) y seleccione **Descargar evaluación de prueba**. 
-
-## <a name="video-install-power-bi-report-server"></a>Vídeo: Instalar Power BI Report Server
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/zacaEb9A4F0?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="before-you-begin"></a>Antes de empezar
 Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: e5866b249d95cd3b05c7d769fe0cdbab984a978d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289933"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813098"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Lista de código completa de la inserción de datos en un conjunto de datos
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
@@ -228,7 +228,7 @@ Después de seguir los pasos del 2 al 5 de **Insertar datos en un conjunto de da
 [Creación de un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md)  
 [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md)  
 [Agregar filas a una tabla de Power BI](walkthrough-push-data-add-rows.md)  
-[Referencia de la API de REST de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 
 

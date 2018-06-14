@@ -4,8 +4,6 @@ Pueden surgir muchos problemas cuando la versión de la puerta de enlace no est�
 ## <a name="common-issues"></a>Problemas comunes
 Estos son algunos problemas comunes y soluciones que han ayudado a varios clientes en entornos que restringen el acceso a Internet.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-t7RO6mHATI?showinfo=0" frameborder="0" allowfullscreen></iframe>
-
 ### <a name="authentication-to-proxy-server"></a>Autenticación de servidor proxy
 Puede que el proxy requiera autenticación de una cuenta de usuario de dominio. De manera predeterminada, la puerta de enlace usa un SID de servicio para el usuario de inicio de sesión del servicio de Windows. Cambiar el usuario de inicio de sesión a un usuario de dominio puede ayudarle. Para más información, vea [Cambiar la cuenta de servicio de la puerta de enlace de un usuario de dominio](../service-gateway-proxy.md#changing-the-gateway-service-account-to-a-domain-user).
 

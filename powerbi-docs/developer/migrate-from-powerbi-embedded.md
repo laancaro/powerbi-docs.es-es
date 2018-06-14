@@ -8,12 +8,12 @@ ms.Embedded: powerbi
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 67b52fa94ee3af9da3bfcae17f69a72e1aa46c77
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689792"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813512"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
 Aprenda a migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded y aproveche los avances para la inserción en aplicaciones.
@@ -159,7 +159,7 @@ Además del contenido que ha migrado desde la colección de áreas de trabajo de
 
 ## <a name="rebuild-your-application"></a>Recompilar la aplicación
 1. Debe modificar la aplicación para que use las API de REST de Power BI y la ubicación del informe en powerbi.com.
-2. Recompile su autenticación AuthN/AuthZ mediante la cuenta *maestra* para la aplicación. Puede usar un [token de inserción](https://msdn.microsoft.com/library/mt784614.aspx) para permitir que este usuario actúe en nombre de otros usuarios.
+2. Recompile su autenticación AuthN/AuthZ mediante la cuenta *maestra* para la aplicación. Puede usar un [token de inserción](https://docs.microsoft.com/rest/api/power-bi/embedtoken) para permitir que este usuario actúe en nombre de otros usuarios.
 3. Inserte los informes de powerbi.com en su aplicación.
 
 ## <a name="map-your-users-to-a-power-bi-user"></a>Asignar los usuarios a un usuario de Power BI
