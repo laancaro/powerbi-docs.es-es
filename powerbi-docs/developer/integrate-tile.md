@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 6ad2138ab37b20fa16a5455ab167ec9e6b7e159c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afed2bc87e7e358d9ba02a465c43d223f6e7cba3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288323"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813788"
 ---
 # <a name="integrate-a-tile-into-an-app-user-owns-data"></a>Integración de un icono en una aplicación (el usuario es propietario de los datos)
 Aprenda a integrar, o insertar, un icono en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -28,7 +28,7 @@ Para empezar a trabajar con este tutorial, necesita una cuenta de **Power BI**. 
 > 
 > 
 
-Para integrar un icono en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un icono. A continuación, cargue el icono con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para más información, consulte [Información general sobre la API de REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar un icono en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un icono. A continuación, cargue el icono con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para obtener más información, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Descarga del ejemplo
 Este artículo muestra el código usado en [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-tile-web-app) en GitHub. Para seguir este tutorial, puede descargar el ejemplo.
@@ -44,12 +44,12 @@ Si descargó [integrate-tile-web-app](https://github.com/Microsoft/PowerBI-Devel
 Dentro de la aplicación, primero tendrá que obtener un **token de acceso**, desde Azure AD, para poder realizar llamadas a la API de REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
 
 ## <a name="step-3---get-a-tile"></a>Paso 3: Obtener un icono
-Para obtener un icono de **Power BI**, utilice la operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos), que obtiene una lista de iconos de **Power BI**. En la lista de iconos, puede obtener un identificador de icono e insertar una dirección URL.
+Para obtener un icono de **Power BI**, utilice la operación [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Obtener iconos), que obtiene una lista de iconos de **Power BI**. En la lista de iconos, puede obtener un identificador de icono e insertar una dirección URL.
 
 Para poder obtener el icono, es preciso recuperar un identificador del panel. Para obtener información acerca de cómo recuperar un panel, consulte [Integrar un panel en una aplicación](integrate-dashboard.md).
 
 ### <a name="get-tiles-using-an-access-token"></a>Obtención de iconos mediante un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos). La operación [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos) devuelve una lista de iconos. Puede obtener cualquier icono en la lista de iconos. A continuación se muestra un método de C# completo para obtener un icono. 
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Obtener iconos). La operación [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Obtener iconos) devuelve una lista de iconos. Puede obtener cualquier icono en la lista de iconos. A continuación se muestra un método de C# completo para obtener un icono. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 
@@ -216,7 +216,7 @@ Si ha descargado y ejecutado [integrate-tile-web-app](https://github.com/Microso
 ![Icono integrado en la aplicación web](media/integrate-tile/powerbi-embedded-tile.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Uso de grupos (áreas de trabajo de aplicación)
-Para insertar un icono desde un grupo (área de trabajo de aplicación), deberá obtener la lista de todos los iconos disponibles en el panel de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada a la API de REST, consulte [Get Tiles](https://msdn.microsoft.com/library/mt465741.aspx) (Obtener iconos). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
+Para insertar un icono desde un grupo (área de trabajo de aplicación), deberá obtener la lista de todos los iconos disponibles en el panel de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada a la API de REST, consulte [Get Tiles](https://docs.microsoft.com/rest/api/power-bi/dashboards/gettiles) (Obtener iconos). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards/{dashboard_id}/tiles

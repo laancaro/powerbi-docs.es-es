@@ -7,49 +7,74 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/09/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 79fcd556827c0c5c34615021e45e3abfadfd50e2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288162"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813443"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
 
 Para información sobre cómo los clientes de SAP pueden beneficiarse al conectar Power BI a sus sistemas SAP Business Warehouse (BW) existentes, consulte las [notas del producto de Power BI y SAP BW](https://aka.ms/powerbiandsapbw).
 
-## <a name="installation-of-sap-bw-connector"></a>Instalación del conector de SAP BW
-Para usar el **conector de SAP BW**, siga los pasos de instalación siguientes:
+A partir de la versión de junio de 2018 de **Power BI Desktop**, puede usar el conector de SAP BW con una implementación que tiene mejoras significativas en cuanto al rendimiento y las capacidades. Esta versión actualizada del conector de SAP BW fue desarrollada por Microsoft y se llama **Implementation 2.0**. Puede seleccionar el **conector de SAP BW** estándar o **Implementation 2.0 SAP Connector**. En las siguientes secciones se describe la instalación de cada versión. Puede elegir uno u otro conector a la hora de conectarse a SAP BW desde Power BI Desktop.
+
+Le recomendamos que use **Implementation 2.0 SAP Connector** siempre que sea posible.
+
+## <a name="installation-of-the-standard-sap-bw-connector"></a>Instalación del conector de SAP BW estándar
+Se recomienda usar Implementation 2.0 SAP Connector siempre que sea posible (consulte las instrucciones en la siguiente sección). En esta sección se describe la instalación del **conector de SAP BW** estándar, que se puede instalar siguiendo estos pasos de instalación:
 
 1. Instale la biblioteca **SAP NetWeaver** en la máquina local. Puede obtener la biblioteca **SAP Netweaver** del administrador de SAP o directamente desde el [Centro de descarga de software de SAP](https://support.sap.com/swdc). Puesto que el **Centro de descarga de software de SAP** cambia su estructura con frecuencia, no hay disponibles instrucciones más específicas para navegar por ese sitio. Normalmente, la biblioteca **SAP Netweaver** se incluye también en la instalación de las herramientas de cliente de SAP.
    
    Puede buscar la *nota de SAP #1025361* para obtener la ubicación de descarga de la versión más reciente. Asegúrese de que la arquitectura de la biblioteca **SAP NetWeaver** (32 o 64 bits) coincida con su instalación de **Power BI Desktop**. Después, instale todos los archivos incluidos en **SAP NetWeaver RFC SDK** según la nota de SAP.
 2. El cuadro de diálogo **Obtener datos** incluye una entrada para el **Servidor de aplicaciones de SAP Business Warehouse** y el **Servidor de mensajería de SAP Business Warehouse** en la categoría **Base de datos**.
    
-   ![](media/desktop-sap-bw-connector/sap_bw_2a.png)
+   ![Opciones Obtener datos para SAP](media/desktop-sap-bw-connector/sap_bw_2a.png)
 
-## <a name="sap-bw-connector-features"></a>Características del conector de SAP BW
-Los **conectores de SAP BW** de Power BI Desktop le permiten importar datos de los cubos del **Servidor de SAP Business Warehouse** o usar DirectQuery. 
+## <a name="installation-of-implementation-20-sap-connector"></a>Instalación de Implementation 2.0 SAP Connector
+
+**Implementation 2.0** SAP Connector requiere SAP .NET Connector 3.0. Puede [descargar SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300) en el sitio web de SAP con el siguiente vínculo:
+
+* [SAP .NET Connector 3.0](https://go.microsoft.com/fwlink/?linkid=872300)
+
+Para obtener acceso a la descarga se necesita un usuario S válido. Se recomienda que los clientes se pongan en contacto con su equipo de SAP Basis para obtener SAP .NET Connector 3.0. 
+
+El conector se incluye en las versiones de 32 y 64 bits, y los usuarios *deben* elegir la versión que coincida con su instalación de Power BI Desktop. En el momento de redactar este artículo, en el sitio web figuran dos versiones (para .NET 4.0 Framework):
+
+* Conector de SAP para Microsoft .NET 3.0.20.0 para Windows de 32 bits (x86) en un archivo zip (6.896 KB), 16 de enero de 2018
+* Conector de SAP para Microsoft .NET 3.0.20.0 para Windows de 64 bits (x64) en un archivo zip (7.180 KB), 16 de enero de 2018
+
+Durante la instalación, en la ventana **Pasos de configuración opcionales**, asegúrese de seleccionar la opción *Install assemblies to GAC* (Instalar ensamblados en GAC), tal y como se muestra en la siguiente imagen.
+
+![Pasos de instalación opcionales de SAP](media/desktop-sap-bw-connector/sap_bw_2b.png)
+
+> [!NOTE]
+> La implementación estándar de SAP BW requiere archivos DLL de NetWeaver; si usa Implementation 2.0 SAP Connector en vez de la versión estándar, los archivos DLL de Netweaver no son necesarios.
+
+
+## <a name="standard-sap-bw-connector-features"></a>Características del conector de SAP BW estándar
+El **conector de SAP BW** estándar de Power BI Desktop le permite importar datos de los cubos del **Servidor de SAP Business Warehouse** o usar DirectQuery. 
 
 Para obtener más información sobre el **conector de SAP BW** y cómo usarlo con DirectQuery, eche un vistazo al artículo [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
 Al establecer la conexión, debe especificar un *servidor*, un *número de sistema* y el *id. de cliente* para establecer la conexión.
 
-![](media/desktop-sap-bw-connector/sap_bw_3a.png)
+![Configuración de la conexión del servidor de SAP](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
 También puede especificar dos **Opciones avanzadas** adicionales: el código de idioma y una instrucción MDX personalizada para ejecutarla en el servidor especificado.
 
-![](media/desktop-sap-bw-connector/sap_bw_4a.png)
+![Información de conexión adicional](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
 Si no especificó ninguna instrucción MDX aparecerá la ventana **Navegador**, que le mostrará la lista de los cubos disponibles en el servidor, con la opción para explorar en profundidad y la de seleccionar elementos de los cubos disponibles, incluyendo las dimensiones y las medidas. Power BI muestra las consultas y los cubos que muestran las [BAPI de OLAP de Open Analysis Interface de BW](https://help.sap.com/saphelp_nw70/helpdata/en/d9/ed8c3c59021315e10000000a114084/content.htm).
 
 Al seleccionar uno o varios elementos del servidor, se crea una vista previa de la tabla de salida en función de su selección.
 
-![](media/desktop-sap-bw-connector/sap_bw_5.png)
+![Vista previa de la tabla de SAP](media/desktop-sap-bw-connector/sap_bw_5.png)
 
 La ventana **Navegador** también proporciona algunas **opciones de presentación** que le permiten hacer lo siguiente:
 
@@ -57,7 +82,7 @@ La ventana **Navegador** también proporciona algunas **opciones de presentació
 * **Habilitar vistas previas de datos (comportamiento predeterminado):** también puede controlar si se deben mostrar vistas previas de datos en este cuadro de diálogo. Si deshabilita las vistas previas de datos se reducirá la cantidad de llamadas de servidor, puesto que ya no solicita datos para las vistas previas.
 * **Nombres técnicos:** SAP BW admite la noción de *nombres técnicos* para objetos dentro de un cubo. Los nombres técnicos permiten al propietario de un cubo mostrar nombres *descriptivos* para los objetos de un cubo, en lugar de mostrar solo los *nombres físicos* para tales objetos.
 
-![](media/desktop-sap-bw-connector/sap_bw_6.png)
+![Ventana Navegador](media/desktop-sap-bw-connector/sap_bw_6.png)
 
 Después de seleccionar todos los objetos necesarios en el **navegador**, puede decidir qué hacer a continuación seleccionando uno de los siguientes botones en la parte inferior de la ventana del **navegador**:
 
@@ -66,8 +91,82 @@ Después de seleccionar todos los objetos necesarios en el **navegador**, puede 
 
 Además de importar datos desde los cubos de **SAP BW**, recuerde que también puede importar datos desde una gran variedad de orígenes en Power BI Desktop y, luego, combinarlos en un único informe. Esto ofrece una amplia gama de escenarios interesantes para los informes y análisis de datos de **SAP BW**.
 
+## <a name="using-implementation-20-sap-bw-connector"></a>Usar Implementation 2.0 del conector de SAP BW
+
+Debe crear una conexión para usar Implementation 2.0 del conector de SAP BW. Siga estos pasos para crear una conexión.
+
+1. En la ventana **Obtener datos**, seleccione **Servidor de aplicaciones de SAP Business Warehouse** o **Servidor de mensajería de SAP Business Warehouse**.
+
+2. Se le mostrará el cuadro de diálogo de nueva conexión, en el que puede seleccionar la implementación. La selección de **Implementation 2.0**, tal y como se muestra en la siguiente imagen, habilita las opciones Modo de ejecución, Tamaño del lote y Habilitar estructuras características.
+
+    ![Cuadro de diálogo de conexión de SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
+
+3. Seleccione **Aceptar**, de manera que la experiencia de **Navegador** será la misma que la que se describe en la sección anterior para el conector de SAP BW estándar. 
+
+### <a name="new-options-for-implementation-20"></a>Nuevas opciones de Implementation 2.0 
+
+Implementation 2.0 admite las siguientes opciones:
+
+1. **ExecutionMode**: especifica la interfaz MDX usada para ejecutar consultas en el servidor. Las opciones válidas son las siguientes:
+
+        a. SapBusinessWarehouseExecutionMode.BasXml
+        b. SapBusinessWarehouseExecutionMode.BasXmlGzip
+        c. SapBusinessWarehouseExecutionMode.DataStream
+
+    El valor predeterminado de esta opción es SapBusinessWarehouseExecutionMode.BasXmlGzip.
+
+    El uso de *SapBusinessWarehouseExecutionMode.BasXmlGzip* puede mejorar el rendimiento si se experimenta una latencia elevada en conjuntos de datos de gran tamaño.
+
+2. **BatchSize**: especifica el número máximo de filas que se recuperarán a la vez cuando se ejecute una instrucción MDX. Un número pequeño de filas se traducirá en más llamadas al servidor al recuperar un conjunto de datos grande. Un número elevado de filas puede mejorar el rendimiento, pero podría provocar problemas de memoria en el servidor de SAP BW. El valor predeterminado son 50 000 filas.
+
+3. **EnableStructures**: un valor lógico que indica si se reconocen estructuras de características. El valor predeterminado de esta opción es false. Afecta a la lista de objetos disponibles para la selección. No se admite en el modo de consulta nativa.
+
+La opción **ScaleMeasures** ha quedado en desuso en esta implementación. Ahora, el comportamiento es el mismo que la configuración *ScaleMeasures = false*, que siempre muestra valores sin ajuste de escala.
+
+### <a name="additional-improvements-for-implementation-20"></a>Mejoras adicionales en Implementation 2.0 
+
+En la siguiente lista con viñetas se describen algunas de las mejoras adicionales que se incluyen en la nueva implementación:
+
+* Rendimiento mejorado
+* Capacidad para recuperar varios millones de filas de datos y ajuste mediante el parámetro de tamaño del lote.
+* Capacidad de cambiar los modos de ejecución.
+* Compatibilidad con el modo comprimido. Es útil sobre todo en las conexiones de alta latencia o en conjuntos de datos de gran tamaño.
+* Detección mejorada de las variables de fecha
+* [Experimental] Exposición de las dimensiones Fecha (tipo ABAP DATS) y Hora (tipo ABAP TIMS) como fechas y horas respectivamente, y no como valores de texto.
+* Tratamiento de excepciones mejorado. Ahora aparecen errores que se producen en las llamadas BAPI.
+* Plegamiento de columnas en los modos BasXml y BasXmlGzip. Por ejemplo, si la consulta MDX generada recupera 40 columnas pero la selección actual solo necesita 10, esta solicitud se pasará al servidor para recuperar un conjunto de datos más pequeño.
+
+
+### <a name="changing-existing-reports-to-use-implementation-20"></a>Modificar los informes existentes para usar Implementation 2.0 
+
+La modificación de informes existentes para usar **Implementation 2.0** solo es posible en el modo Importación y, para ello, se deben seguir estos pasos manuales.
+
+1. Abra un informe existente, seleccione **Editar consultas** en la cinta de opciones y, después, seleccione la consulta de SAP Business Warehouse que quiere actualizar.
+
+2. Haga clic con el botón derecho en la consulta y seleccione **Editor avanzado**.
+
+3. En el **Editor avanzado**, cambie la llamada SapBusinessWarehouse.Cubes del siguiente modo: 
+
+    a. Determine si la consulta ya contiene un registro de opciones; por ejemplo, lo que se muestra en el ejemplo siguiente:
+
+    ![fragmento de código de consulta](media/desktop-sap-bw-connector/sap_bw_9.png)
+
+    b. Si es así, agregue la opción Implementation 2.0 y quite la opción ScaleMeasures (si está presente), tal y como se muestra a continuación:
+
+    ![fragmento de código de consulta](media/desktop-sap-bw-connector/sap_bw_10.png)
+
+    c. Si la consulta no incluye un registro de opciones, agréguelo. Por ejemplo, si tiene lo siguiente:
+
+    ![fragmento de código de consulta](media/desktop-sap-bw-connector/sap_bw_11.png)
+
+    d. Modifíquelo por:
+
+    ![fragmento de código de consulta](media/desktop-sap-bw-connector/sap_bw_12.png)
+
+4. Se ha hecho todo lo posible para que Implementation 2.0 del conector de SAP BW sea compatible con el conector de SAP BW estándar, aunque puede haber algunas diferencias debido a los distintos modos de ejecución MDX de SAP BW. Para resolver cualquier discrepancia, intente cambiar de modo de ejecución.
+
 ## <a name="troubleshooting"></a>Solución de problemas
-Esta sección proporciona situaciones de diagnóstico de problemas (y soluciones) para trabajar con esta versión preliminar del conector de **SAP BW**.
+En esta sección se muestran situaciones de diagnóstico de problemas (y soluciones) para trabajar con el conector de **SAP BW**.
 
 1. Los datos numéricos de **SAP BW** devuelven puntos en lugar de comas. Por ejemplo, 1,000,000 se devuelve como 1.000.000.
    
@@ -105,7 +204,7 @@ Esta sección proporciona situaciones de diagnóstico de problemas (y soluciones
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para más información sobre SAP HANA y DirectQuery, revise los siguientes recursos:
+Para obtener más información sobre SAP y DirectQuery, revise los siguientes recursos:
 
 * [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)
 * [DirectQuery en Power BI](desktop-directquery-about.md)

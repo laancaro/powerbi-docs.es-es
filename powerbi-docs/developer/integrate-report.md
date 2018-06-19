@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 10/05/2017
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: d2fa65587fdbd85aabd429d531b79e9e614d2f49
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 032e0ed05d56d2d7f1e2b41cfd922999ff43ea94
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813375"
 ---
 # <a name="integrate-a-report-into-an-app-for-your-organization"></a>Integración de un informe en una aplicación para la organización
 Aprenda a integrar, o insertar, un informe en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -27,10 +28,14 @@ Para empezar a trabajar con este tutorial, necesita una cuenta de **Power BI**. 
 > 
 > 
 
-Para integrar un informe en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un informe. A continuación, cargue el informe con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para más información, consulte [Información general sobre la API de REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar un informe en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un informe. A continuación, cargue el informe con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para obtener más información, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Descarga del ejemplo
 Este artículo muestra el código usado en [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-report-web-app) en GitHub. Para seguir este tutorial, puede descargar el ejemplo.
+
+También puede seguir los pasos de la [herramienta para incorporar la inserción](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo.
+
+Si prefiere configurar el entorno manualmente, siga los pasos que se indican más adelante.
 
 ## <a name="step-1---register-an-app-in-azure-ad"></a>Paso 1: Registrar una aplicación en Azure AD
 Para realizar llamadas a la API de REST será preciso registrar la aplicación en Azure AD. Para más información, consulte [Registro de una aplicación de Azure AD para insertar contenido de Power BI](register-app.md).
@@ -43,10 +48,10 @@ Si descargó [integrate-report-web-app](https://github.com/Microsoft/PowerBI-Dev
 Dentro de la aplicación, primero tendrá que obtener un **token de acceso**, desde Azure AD, para poder realizar llamadas a la API de REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
 
 ## <a name="step-3---get-a-report"></a>Paso 3: Obtener un informe
-Para obtener un informe de **Power BI**, utilice la operación [Obtener informes](https://msdn.microsoft.com/library/mt634543.aspx) que obtiene una lista de informes de **Power BI**. En la lista de informes, puede obtener un identificador de informe.
+Para obtener un informe de **Power BI**, utilice la operación [Obtener informes](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) que obtiene una lista de informes de **Power BI**. En la lista de informes, puede obtener un identificador de informe.
 
 ### <a name="get-reports-using-an-access-token"></a>Obtención de informes mediante un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Obtener informes). La operación [Obtener informes](https://msdn.microsoft.com/library/mt634543.aspx) devuelve una lista de informes. Puede obtener un informe de la lista de informes. A continuación se muestra un método de C# completo para obtener un informe. 
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Obtener informes). La operación [Obtener informes](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) devuelve una lista de informes. Puede obtener un informe de la lista de informes. A continuación se muestra un método de C# completo para obtener un informe. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 
@@ -213,7 +218,7 @@ Si ha descargado y ejecutado [integrate-report-web-app](https://github.com/Micro
 ![Ejemplo de informe insertado](media/integrate-report/powerbi-embedded-report.png)
 
 ## <a name="working-with-groups-app-workspaces"></a>Uso de grupos (áreas de trabajo de aplicación)
-Para insertar un informe desde un grupo (área de trabajo de aplicación), deberá obtener la lista de todos los informes disponibles en el panel de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada a la API de REST, consulte [Get Reports](https://msdn.microsoft.com/library/mt634543.aspx) (Obtener informes). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
+Para insertar un informe desde un grupo (área de trabajo de aplicación), deberá obtener la lista de todos los informes disponibles en el panel de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada a la API de REST, consulte [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) (Obtener informes). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{group_id}/reports

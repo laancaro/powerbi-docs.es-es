@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: f371e9bd4e1681d2e8fa06b1aeabfcd58a5dc4d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34291175"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813857"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -34,10 +34,67 @@ También puede ver el vídeo sobre las **últimas actualizaciones** desde el pri
 
 Las secciones siguientes describen las actualizaciones de los meses anteriores de **Power BI Desktop**.
 
+
+## <a name="may-2018-update-2585103281"></a>Actualización de mayo de 2018 (2.58.5103.281)
+
+Las actualizaciones de mayo han sido una creciente colección de características y mejoras que esperamos reflejar en sus informes y hacerlas relucir con información práctica.
+
+Las siguientes actualizaciones se introdujeron en **Power BI Desktop** en mayo:
+
+### <a name="reporting"></a>Informes
+
+* Formato condicional con un campo diferente [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=55s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#conditionalFormatting) 
+* Sincronización de segmentación avanzada [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=3m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#slicerSync) 
+* Mejoras del eje de registro [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=5m47s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#logAxis) 
+* Opciones de gráfico de embudo de la etiqueta de datos [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#funnelChart) 
+* Definir el ancho del trazo de línea en cero [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=6m49s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#lineStroke) 
+
+### <a name="analytics"></a>Analytics
+
+* Obtención de detalles de la medida [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=2m9s) [[artículo]](desktop-drillthrough.md#pass-all-filters-in-drillthrough) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#measureDrillthrough) 
+
+### <a name="power-bi-premium"></a>Power BI Premium
+
+* Actualización incremental (vista previa) [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=7m42s) [[artículo]](service-premium-incremental-refresh.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#incrementalRefresh) 
+
+### <a name="custom-visuals"></a>Objetos visuales personalizados
+
+* Varios nuevos objetos visuales personalizados [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=9m44s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#customVisuals) 
+
+### <a name="data-connectivity"></a>Conectividad de datos
+
+* Nuevo conector **Desde la Web**; por ejemplo, la extracción de datos (versión preliminar) [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=10m17s) [[artículo]](desktop-connect-to-web-by-example.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#FromWebConnector) 
+* Conector de Common Data Service para aplicaciones (beta) [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#cdsApps) 
+* Conector de KustoDB de Azure (beta) [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#kustoDB) 
+* Disponibilidad general de los conectores de Google BigQuery y Azure HDInsight Spark [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#googleBigQueryAzureHDInsightSpark) 
+* Actualización del conector de Adobe Analytics; compatibilidad para acceso a varios dominios (vista previa) [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#AdobeAnalytics) 
+* Actualización del conector de Visual Studio Team Services: compatibilidad con vistas de análisis [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#vsts) 
+* Actualización del conector de OLE DB: compatibilidad para credenciales alternativas de Windows [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#oledb) 
+* Actualización del conector de DirectQuery para SAP BW: compatibilidad mejorada con nombres técnicos [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#sapBW) 
+
+### <a name="data-preparation"></a>Preparación de datos
+
+* Mejoras en Agregar columna de ejemplos [[vídeo]](https://youtu.be/-_GMCE1TLvQ?t=12m57s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/#addColumnFromExamples) 
+
+> [!NOTE]
+> También puede [comprobar todos los orígenes de datos disponibles en Power BI Desktop](desktop-data-sources.md); nuestra lista crece constantemente, así que consúltela con frecuencia.
+
+¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](https://powerbi.microsoft.com/blog/power-bi-desktop-may-2018-feature-summary/) para obtener información más detallada sobre cada una de estas características nuevas (estas son las mismas referencias de entrada de blog que las de la lista anterior).
+
+
+En el siguiente vídeo se describe y se muestra cada una de estas actualizaciones. También puede ver el vídeo en la entrada de blog.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-_GMCE1TLvQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+> [!NOTE]
+> Puede que también le interese conocer las [Novedades en el servicio Power BI](service-whats-new.md) y las [Novedades en las aplicaciones móviles para Power BI](mobile-whats-new-in-the-mobile-apps.md).
+
+
 ## <a name="april-2018-update-2575068501"></a>Actualización de abril de 2018 (2.57.5068.501)
 
 Es cierto, estamos muy contentos con las actualizaciones de abril para **Power BI Desktop** que presentamos. Abarcan múltiples áreas, por lo que esperamos que le ayuden a crear informes repletos de objetos visuales espectaculares y atractivos. 
 
+En abril se introdujeron las siguientes actualizaciones en **Power BI Desktop**:
 
 ### <a name="reporting"></a>Informes
 
@@ -105,7 +162,7 @@ Las actualizaciones de marzo de **Power BI Desktop** son geniales, como si nos h
 * SAP BW DirectQuery ya está disponible con carácter general [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[artículo]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * El conector de Azure Analysis Services ahora está disponible con carácter general [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artículo]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Otros
+### <a name="other"></a>Otro
 
 * Mejora en la generación de informes de error [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artículo]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Visualización de errores anteriores detectados [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -165,7 +222,7 @@ Las siguientes actualizaciones son las novedades de **Power BI Desktop** de febr
 
 * Mejoras en DirectQuery sobre SAP HANA (versión preliminar) [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[artículo]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Otros
+### <a name="other"></a>Otro
 
 * Mejoras de rendimiento de DirectQuery [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=32m24s)[[artículo]](desktop-directquery-about.md)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Mejoras de rendimiento de apertura y guardado [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -331,7 +388,7 @@ Las siguientes actualizaciones se introdujeron en **Power BI Desktop** en noviem
 -   Conector Impala: compatibilidad con la autenticación de Windows [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Otros
+### <a name="other"></a>Otro
 
 -   Edición de consultas: Agregar columnas a partir de mejoras del ejemplo [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 

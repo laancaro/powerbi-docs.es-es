@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/07/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f88ad90ddf0cd9315a3a3830a01b038d7300c1c9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e07e28ca7fd4dbb38f931a3fbc2a97661294711c
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34247329"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852357"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Paquetes de contenido organizativos en Power BI: introducción
 > [!NOTE]
-> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Recomendamos usar aplicaciones en lugar de paquetes de contenido organizativos o áreas de trabajo de solo lectura. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
+> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Tenemos previsto dejar de usar pronto los paquetes de contenido organizativos, por lo que recomendamos que use aplicaciones. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
 > 
 > 
 

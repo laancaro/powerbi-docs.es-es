@@ -7,14 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 264071f314e4a05a3d0b283ab58d644dff4b44a1
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: f84e43a96243841b247530b5639f5f0c6ae1bb4f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813673"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Crear y administrar relaciones en Power BI Desktop
 Al importar varias tablas, lo más probable es que vaya a realizar un análisis con los datos de todas esas tablas. Las relaciones entre esas tablas son necesarias para calcular los resultados de forma precisa y mostrar la información correcta en los informes. Power BI Desktop facilita la creación de esas relaciones. De hecho, en la mayoría de los casos no tendrá que hacer nada; la característica de detección automática lo puede hacer por usted. Sin embargo, en algunos casos tendrá que crear relaciones usted mismo o tal vez necesite realizar algunos cambios en una relación. En cualquier caso, es importante entender las relaciones en Power BI Desktop y cómo crearlas y editarlas.
@@ -35,6 +36,16 @@ En la pestaña **Inicio**, haga clic en **Administrar relaciones** \> **Detecci�
 ![](media/desktop-create-and-manage-relationships/manualrelationship2.gif)
 
 De forma predeterminada, Power BI Desktop configurará automáticamente la cardinalidad (dirección), la dirección del filtro cruzado y las propiedades activas para la nueva relación. Sin embargo, puede cambiar estas opciones si es necesario. Para obtener más información, vea la sección de información sobre opciones adicionales más adelante en este artículo.
+
+Tenga en cuenta que verá un error que indica que *una de las columnas debe tener valores únicos* si ninguna de las tablas seleccionadas para la relación tiene valores únicos. Al menos una tabla de una relación *debe* tener una lista distinta y única de valores de clave, que es un requisito común para todas las tecnologías de bases de datos relacionales. 
+
+Si detecta ese error, hay un par de formas de corregir el problema:
+
+* Usar "Quitar filas duplicadas" para crear una columna con valores únicos. El inconveniente de este enfoque es que perderá información cuando se quiten las filas duplicadas, y a menudo se duplica una clave (fila) por un buen motivo.
+* Agregar una tabla intermedia hecha de la lista de valores de claves distintos en el modelo, que luego se vinculará a ambas columnas originales de la relación.
+
+Para más información detallada, vea la [entrada de blog](https://blogs.technet.microsoft.com/cansql/2016/12/19/relationships-in-power-bi-fixing-one-of-the-columns-must-have-unique-values-error-message/) en la que se analiza en detalle.
+
 
 ## <a name="edit-a-relationship"></a>Editar una relación
 1. En la pestaña **Inicio** , haga clic en **Administrar relaciones**.

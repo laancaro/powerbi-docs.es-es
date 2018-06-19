@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 376fb2a6167e020e5d65c7d634ef05cd366b1aa2
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755148"
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301835"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -141,7 +141,7 @@ Este es el mensaje que aparecerá cuando los comparta con un usuario externo.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Publicar en Web
+### <a name="publish-to-web"></a>Publicar en web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 
@@ -218,10 +218,13 @@ Los usuarios de la organización pueden utilizar Excel para ver e interactuar co
 > [!NOTE]
 > Si deshabilita la opción **Exportar datos** también impedirá que los usuarios utilicen la característica **Analizar en Excel**.
 
-### <a name="user-arcgis-maps-for-power-bi-preview"></a>Usar los mapas de ArcGIS para Power BI (versión preliminar)
+### <a name="use-arcgis-maps-for-power-bi"></a>Usar ArcGIS Maps for Power BI
 
-Los usuarios de la organización pueden utilizar los mapas de ArcGIS para la visualización de datos en Power BI (versión preliminar) proporcionada por Esri. [Más información](power-bi-visualization-arcgis.md)
+Los usuarios de la organización pueden usar la visualización de ArcGIS Maps for Power BI proporcionada por Esri. [Más información](power-bi-visualization-arcgis.md)
 
+### <a name="use-global-search-for-power-bi-preview"></a>Usar la búsqueda global para Power BI (versión preliminar)
+
+Los usuarios de la organización pueden usar características de búsqueda externa que se basan en Azure Search. Por ejemplo, los usuarios pueden usar Cortana para recuperar información clave directamente de los informes y paneles de Power BI. [Más información](service-cortana-intro.md)
 
 ## <a name="custom-visuals-settings"></a>Configuración de objetos visuales personalizados
 ### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitación de objetos visuales personalizados para toda la organización

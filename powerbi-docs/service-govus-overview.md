@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: e676ef85d982a59b7058bce9e6467e8482b7aa62
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 7f712086ff667a5d4b1f21fb441c94bfae96693f
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722700"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813650"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -92,6 +92,11 @@ Las siguientes preguntas y respuestas se proporcionan como ayuda para que obteng
 | Dirección URL de la versión comercial | Dirección URL de la versión de la Administración Pública de Estados Unidos |
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+
+**Pregunta:** Mi cuenta se aprovisiona en más de una nube soberana. Al usar **Power BI Desktop**, ¿cómo puedo seleccionar la nube a la que me quiero conectar?
+
+**Respuesta:** A partir de la versión de julio de 2018 de **Power BI Desktop** puede elegir la nube que quiere usar al iniciar sesión en **Power BI Desktop**.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, incluido un artículo en el que se muestra cómo registrarse en el servicio, consulte los recursos siguientes:

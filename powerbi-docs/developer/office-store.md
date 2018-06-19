@@ -9,11 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: maghan
-ms.openlocfilehash: 6ecb9426ba1344fdf55789a22daec6b9fb6c6e89
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 7c3a50fa487b9444b2f10b9d546d247be70dd1c9
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301789"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos. Office
@@ -27,7 +28,7 @@ Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppS
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 Una vez que haya acabado de codificar y probar el objeto visual y lo haya empaquetado en un archivo pbiviz, también debe preparar los siguientes elementos antes de enviarlo.
 
-| Item (Elemento) | Obligatoria | Descripción |
+| Artículo | Obligatoria | Descripción |
 | --- | --- | --- |
 | El paquete pbiviz contiene todos los metadatos requeridos |Sí |Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
 | Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Debe resaltar el valor que el objeto visual aporta al usuario y ofrecen ejemplos de uso, opciones de formato, etc. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias, acciones que conviene evitar y cosas similares.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa |

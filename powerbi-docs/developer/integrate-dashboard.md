@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: maghan
-ms.openlocfilehash: 979b76350b9867bbc684a70bd89a82f88993e625
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: dd7276eb436dfd9d842930f6a2c550a2a6b521f3
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290278"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812960"
 ---
 # <a name="integrate-a-dashboard-into-an-app-for-your-organization"></a>Integrar un panel en una aplicación para la organización
 Aprenda a integrar, o insertar, un panel en una aplicación web mediante llamadas a la API de REST, junto con la API de JavaScript de Power BI cuando la inserción se realiza para la organización.
@@ -28,7 +28,7 @@ Para empezar a trabajar con este tutorial, necesita una cuenta de **Power BI**. 
 > 
 > 
 
-Para integrar un panel en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un panel. A continuación, cargue el panel con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para más información, consulte [Información general sobre la API de REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
+Para integrar un panel en una aplicación web, utilice la API de REST de **Power BI** o el SDK de C# de Power BI, y un **token de acceso** de autorización de Azure Active Directory (AD) para obtener un panel. A continuación, cargue el panel con el mismo token de acceso. La API de **Power BI** proporciona acceso mediante programación a determinados recursos de **Power BI**. Para obtener más información, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI) y la [API de JavaScript de Power BI](https://github.com/Microsoft/PowerBI-JavaScript).
 
 ## <a name="download-the-sample"></a>Descarga del ejemplo
 Este artículo muestra el código usado en [integrate-dashboard-web-app](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/User%20Owns%20Data/integrate-dashboard-web-app) en GitHub. Para seguir este tutorial, puede descargar el ejemplo.
@@ -44,12 +44,12 @@ Si descargó el [ejemplo de integración de un panel](https://github.com/Microso
 Dentro de la aplicación, primero tendrá que obtener un **token de acceso**, desde Azure AD, para poder realizar llamadas a la API de REST de Power BI. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
 
 ## <a name="step-3---get-a-dashboard"></a>Paso 3: Obtener un panel
-Para obtener un panel de **Power BI**, utilice la operación [Obtener paneles](https://msdn.microsoft.com/library/mt465739.aspx) que obtiene una lista de paneles de **Power BI**. En la lista de paneles, puede obtener un id. del panel.
+Para obtener un panel de **Power BI**, utilice la operación [Obtener paneles](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) que obtiene una lista de paneles de **Power BI**. En la lista de paneles, puede obtener un id. del panel.
 
 ![](media/integrate-dashboard/powerbi-embed-dashboard-get-dashboards.png)
 
 ### <a name="get-dashboards-using-an-access-token"></a>Obtener paneles con un token de acceso
-Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Obtener paneles). La operación [Obtener paneles](https://msdn.microsoft.com/library/mt465739.aspx) devuelve una lista de paneles. Solo puede obtener un panel de la lista de paneles. A continuación se muestra un método de C# completo para obtener un panel. 
+Con el **token de acceso** que recuperó en el [paso 2](#step-2-get-an-access-token-from-azure-ad), puede llamar a la operación [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Obtener paneles). La operación [Obtener paneles](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) devuelve una lista de paneles. Solo puede obtener un panel de la lista de paneles. A continuación se muestra un método de C# completo para obtener un panel. 
 
 Para realizar la llamada de API de REST, debe incluir un encabezado *Autorización* con el formato de *Portador {token de acceso}*.
 
@@ -258,7 +258,7 @@ Tile Clicked
 ```
 
 ## <a name="working-with-groups-app-workspaces"></a>Uso de grupos (áreas de trabajo de aplicación)
-Para insertar un panel de un grupo (área de trabajo de la aplicación), deberá obtener la lista de todos los paneles disponibles dentro de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada API de REST, consulte [Get Dashboards](https://msdn.microsoft.com/library/mt465739.aspx) (Obtener paneles). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
+Para insertar un panel de un grupo (área de trabajo de la aplicación), deberá obtener la lista de todos los paneles disponibles dentro de un grupo mediante la siguiente llamada a la API de REST. Para más información acerca de esta llamada API de REST, consulte [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards) (Obtener paneles). Para que la solicitud devuelva resultados, será preciso que tenga permiso en el grupo.
 
 ```
 https://api.powerbi.com/v1.0/myorg/groups/{groupId}/dashboards

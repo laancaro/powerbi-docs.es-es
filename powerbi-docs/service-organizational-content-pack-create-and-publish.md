@@ -7,19 +7,19 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b454673944d8006effc045592f28eb35681564d1
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
+ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34246432"
+ms.lasthandoff: 06/08/2018
+ms.locfileid: "34852196"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creación y publicación de un paquete de contenido organizativo de Power BI (tutorial)
 > [!NOTE]
-> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Recomendamos usar aplicaciones en lugar de paquetes de contenido organizativos o áreas de trabajo de solo lectura. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
+> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Tenemos previsto dejar de usar pronto los paquetes de contenido organizativos, por lo que recomendamos que use aplicaciones. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
 > 
 > 
 

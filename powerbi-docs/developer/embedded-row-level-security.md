@@ -9,11 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/22/2018
 ms.author: maghan
-ms.openlocfilehash: 218f4cd0aaaa5ffc8cab3a06b06af9544b02143d
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 806ec6051cf8b77dfe17664d82e6add40147f0ed
+ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/11/2018
+ms.locfileid: "35301743"
 ---
 # <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 La seguridad de nivel de fila (RLS) se puede usar para restringir el acceso de usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.
@@ -75,9 +76,9 @@ Al aplicar el filtro, como se ha hecho aquí, se filtran todos los registros de 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicación de usuarios y roles a un token de inserción
 Ahora que tiene configurados los roles de Power BI Desktop, es necesario hacer algunas cosas en la aplicación para aprovechar sus ventajas.
 
-La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar algún contexto adicional como parte del token de inserción en forma de identidades. Esto se hace mediante la API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar algún contexto adicional como parte del token de inserción en forma de identidades. Esto se hace mediante la API de [token de inserción](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
-La API [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx) acepta una lista de identidades con indicación de los conjuntos de datos pertinentes. Para que RLS funcione, deberá pasar lo siguiente como parte de la identidad.
+La API acepta una lista de identidades con la indicación de los conjuntos de datos pertinentes. Para que RLS funcione, deberá pasar lo siguiente como parte de la identidad.
 
 * **nombre de usuario (obligatorio)**: una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario.
 * **roles (obligatorio)**: una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
@@ -177,7 +178,7 @@ Si llama a la API REST, puede agregar CustomData dentro de cada identidad, p. ej
 * La asignación de usuarios a roles dentro del servicio Power BI no afecta a RLS cuando se usa un token de inserción.
 * Aunque el servicio Power BI no aplicará valores de RLS a administradores o miembros con permisos de edición, cuando se suministre una identidad con un token de inserción, se aplicará a todos los datos.
 * Se admiten las conexiones activas de Analysis Services para los servidores locales.
-* Las conexiones activas de Azure Analysis Services admiten el filtrado por rol, pero no el filtrado dinámico por nombre de usuario.
+* Las conexiones activas de Azure Analysis Services admiten el filtrado por rol, pero no el filtrado dinámico por nombre de usuario. El filtrado dinámico se puede llevar a cabo mediante CustomData.
 * Si el conjunto de datos subyacente no requiere RLS, la solicitud GenerateToken **no** debe contener una identidad efectiva.
 * Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol ya que, de lo contrario, la asignación de roles no se producirá.
 * Una lista de identidades habilita varios tokens de identidad para la inserción del panel. Para todos los demás artefactos, la lista contiene una sola identidad.

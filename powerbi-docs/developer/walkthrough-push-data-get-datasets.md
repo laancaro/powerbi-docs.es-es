@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: c550b911eef43ade98b3bc771e3f13929b805e11
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287633"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813255"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Paso 4: Obtener un conjunto de datos para agregar filas a una tabla de Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
-En el **paso 3** de Insertar datos en un conjunto de datos, [Crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md), llamó a la operación [Crear conjunto de datos](https://msdn.microsoft.com/library/mt203562.aspx) para crear un conjunto de datos en Power BI. En este paso, usará la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx) y Newtonsoft.Json para obtener un identificador de conjunto de datos. Use el identificador de conjunto de datos del paso 4 para agregar filas a un conjunto de datos. 
+En el **paso 3** de Insertar datos en un conjunto de datos, [Crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md), llamó a la operación [Crear conjunto de datos](https://docs.microsoft.com/rest/api/power-bi/datasets) para crear un conjunto de datos en Power BI. En este paso, usará la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/getdatasets) y Newtonsoft.Json para obtener un identificador de conjunto de datos. Use el identificador de conjunto de datos del paso 4 para agregar filas a un conjunto de datos. 
 
-Para insertar datos en un conjunto de datos de Power BI, debe hacer referencia a la tabla en el conjunto de datos. Para hacer referencia a una tabla en un conjunto de datos, primero debe obtener un **identificador de conjunto de datos**. Un **identificador de conjunto de datos** se obtiene mediante la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx). La operación **Obtener conjuntos de datos** devuelve una cadena JSON que contiene una lista de todos los conjuntos de datos de Power BI. La manera recomendada para deserializar una cadena JSON es con [Newtonsoft.Json](http://www.newtonsoft.com/json).
+Para insertar datos en un conjunto de datos de Power BI, debe hacer referencia a la tabla en el conjunto de datos. Para hacer referencia a una tabla en un conjunto de datos, primero debe obtener un **identificador de conjunto de datos**. Un **identificador de conjunto de datos** se obtiene mediante la operación [Get Dataset By ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) (Obtener conjunto de datos por identificador). La operación **Get Dataset By ID** (Obtener conjunto de datos por identificador) devuelve una cadena JSON que contiene una lista de todos los conjuntos de datos de Power BI. La manera recomendada para deserializar una cadena JSON es con [Newtonsoft.Json](http://www.newtonsoft.com/json).
 
 Aquí se indica cómo obtener un conjunto de datos.
 
@@ -267,10 +267,10 @@ A continuación se muestra la [lista de código completa](#code).
 ## <a name="next-steps"></a>Pasos siguientes
 [Agregar filas a una tabla de Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
-[Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx)  
+[Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
 [Insertar datos en Power BI](walkthrough-push-data.md)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
-[Referencia de la API de REST de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

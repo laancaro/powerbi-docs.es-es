@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: b2403ab9ac8ff69ccffdbf631cd0d5a14b9bdf7e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 638b46d681a9a9e7ef7754a4e28d0e94812ef8de
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34721280"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812362"
 ---
 # <a name="power-bi-rest-api-reference"></a>Referencia de la API de REST de Power BI
 Power BI es un servicio basado en la nube que puede usar para crear aplicaciones de escritorio personalizadas. La API de REST de Power BI es una API basada en REST que proporciona acceso mediante programación a los recursos del **panel** , como **conjuntos de datos**, **tablas**y **filas** en Power BI.
@@ -28,7 +28,7 @@ La API de REST de Power BI tiene las siguientes operaciones:
 * Operaciones de fila: agregar filas y eliminar filas.
 * Operaciones de grupo: obtener grupos.
 
-Para más información acerca de la API de REST de Power BI, consulte [Información general sobre la API de REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx).
+Para obtener más información sobre la API de REST de Power BI, vea [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/) (API de REST de Power BI).
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

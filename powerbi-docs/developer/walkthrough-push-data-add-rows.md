@@ -9,19 +9,19 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 382d600a6e50d926fc61163ea1b0e4f1273fdcc9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b6fdd950b77dedf9f5180f7cbc90d40c786051c7
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34287541"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812546"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
-En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md), ha utilizado la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx) operación y Newtonsoft.Json para obtener un identificador de conjunto de datos. En este paso, el identificador de conjunto de datos se usa con la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx) para agregar filas a un conjunto de datos de **Power BI**. 
+En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md), ha utilizado la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) operación y Newtonsoft.Json para obtener un identificador de conjunto de datos. En este paso, el identificador de conjunto de datos se usa con la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) para agregar filas a un conjunto de datos de **Power BI**. 
 
-Al llamar a la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx), se agregan filas a un conjunto de datos.
+Al llamar a la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows), se agregan filas a un conjunto de datos.
 
 ![](media/walkthrough-push-data-add-rows/powerbi-developer-add-rows.png)
 
@@ -308,9 +308,8 @@ A continuación se muestra la [lista de código completa](#code).
     }
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx)  
 [Insertar datos en un panel de Power BI](walkthrough-push-data.md)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
-[Referencia de la API de REST de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

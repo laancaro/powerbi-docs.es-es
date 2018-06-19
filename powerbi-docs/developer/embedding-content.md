@@ -7,13 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/12/2018
+ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 6824436af46caaa78d5ae23d1e1047f27bd30bba
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813052"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserción de paneles, informes e iconos de Power BI
 
@@ -23,25 +24,32 @@ Microsoft [presentó Power BI Premium](https://powerbi.microsoft.com/blog/micros
 
 En este artículo se explica cómo insertar contenido de Power BI para la organización y los usuarios. Los pasos son similares en ambos casos. Se resaltará el texto cuando un paso de inserción sea específico para el cliente.
 
-Hay que realizar algunos pasos con la aplicación para hacer esto posible. Revisaremos los pasos necesarios para poder crear y utilizar contenido insertado en la aplicación.
+Hay que realizar algunos pasos con la aplicación para hacer esto posible. Revisaremos los pasos necesarios para poder crear y usar contenido insertado en la aplicación.
 
 > [!NOTE]
 > Las API de Power BI siguen haciendo referencia a las áreas de trabajo de la aplicación como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo de la aplicación.
 
 ## <a name="step-1-setup-your-embedded-analytics-development-environment"></a>Paso 1: Configurar el entorno de desarrollo de análisis insertados
 
-Antes de empezar a insertar paneles e informes en la aplicación, debe asegurarse de que su entorno está configurado para permitir la inserción. Como parte de la configuración, debe hacer lo siguiente.
+Antes de empezar a insertar paneles e informes en la aplicación, debe asegurarse de que su entorno está configurado para permitir la inserción. Como parte de la configuración debe hacer lo siguiente.
 
 * [Asegúrese de que tiene un inquilino de Azure Active Directory](embedding-content.md#azureadtenant)
 * [Crear una cuenta de Power BI Pro](embedding-content.md#proaccount)
-* [Registrar la aplicación y los permisos de Azure Active Directory](embedding-content.md#appreg)
+
+Puede seguir los pasos de la [herramienta para incorporar la inserción](https://aka.ms/embedsetup) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo.
+
+Elija la solución que más le convenga:
+* La [inserción para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. Ejecute la solución de [inserción para los clientes](https://aka.ms/embedsetup/AppOwnsData).
+* La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI. Ejecute la solución de [inserción para la organización](https://aka.ms/embedsetup/UserOwnsData).
+
+Si prefiere configurar el entorno manualmente, siga los pasos que se indican más adelante. 
 
 > [!NOTE]
-> La capacidad de Power BI no es necesaria para el desarrollo de la aplicación. Los desarrolladores de la aplicación deberán tener una licencia de Power BI Pro.
+> La capacidad dedicada no es necesaria para el desarrollo de la aplicación. Los desarrolladores de la aplicación deben disponer de una licencia de Power BI Pro.
 
 ### <a name="azureadtenant"></a>Inquilino de Azure Active Directory
 
-Necesitará un inquilino de Azure Active Directory (Azure AD) para insertar elementos de Power BI. Este inquilino debe tener al menos un usuario de Power BI Pro. También debe definir una aplicación de Azure AD en el inquilino. Puede hacer uso de un inquilino de Azure AD existente o crear uno nuevo específicamente para fines de inserción.
+Necesita un inquilino de Azure Active Directory (Azure AD) para insertar elementos de Power BI. Este inquilino debe tener al menos un usuario de Power BI Pro. También debe definir una aplicación de Azure AD en el inquilino. Puede hacer uso de un inquilino de Azure AD existente o crear uno nuevo específicamente para fines de inserción.
 
 Debe determinar qué configuración de inquilino usará si va a insertar contenido para los clientes.
 
@@ -55,29 +63,29 @@ Si no desea usar un inquilino existente, puede decidir crear uno nuevo para la a
 
 Solo necesita una única cuenta de Power BI Pro para insertar contenido. No obstante, puede que desee tener algunos usuarios diferentes con acceso específico a los elementos. Aquí se indican los posibles usuarios que debe tener en cuenta en el inquilino.
 
-Las siguientes cuentas deberán existir dentro de su inquilino y tener una licencia de Power BI asignada. Se requiere una licencia de Power BI Pro para trabajar con áreas de trabajo de la aplicación dentro de Power BI.
+Las siguientes cuentas deben estar presentes en el inquilino y debe disponer de una licencia de Power BI asignada. Se requiere una licencia de Power BI Pro para trabajar con áreas de trabajo de la aplicación dentro de Power BI.
 
 #### <a name="an-organizationtenant-admin-user"></a>Un usuario administrador de la organización o el inquilino.
 
-Se recomienda no utilizar el usuario administrador global de la organización o el inquilino como la cuenta que utiliza la aplicación si inserta contenido para los clientes. Con esto se pretende minimizar el acceso que la cuenta de la aplicación tiene dentro del inquilino. Se recomienda que el usuario administrador sea un administrador de todas las áreas de trabajo de la aplicación creadas para la inserción.
+Se recomienda no utilizar el usuario administrador global de la organización o el inquilino como la cuenta que utiliza la aplicación si inserta contenido para los clientes. Con esto se pretende minimizar el acceso que la cuenta de la aplicación tiene dentro del inquilino. Se recomienda que el usuario administrador sea un administrador de todas las áreas de trabajo de la aplicación que se han creado para la inserción.
 
-#### <a name="accounts-for-analysts-that-will-create-content"></a>Cuentas para los analistas que van a crear contenido.
+#### <a name="accounts-for-analysts-that-create-content"></a>Cuentas para los analistas que crean contenido
 
-Puede tener varios usuarios que crean contenido para Power BI. Necesitará una cuenta de Power BI Pro para cada analista que crea e implementa contenido en Power BI.
+Puede tener varios usuarios que crean contenido para Power BI. Necesita una cuenta de Power BI Pro para cada analista que cree e implemente contenido en Power BI.
 
 #### <a name="an-application-master-user-account-for-embedding-for-your-customers"></a>Una cuenta de usuario *maestro* de aplicación para insertar contenido para los clientes
 
-Se trata de la cuenta maestra que la aplicación usará para insertar contenido para los clientes. Este escenario se usa habitualmente para las aplicaciones de ISV. La cuenta maestra es realmente la única cuenta necesaria dentro de la organización. También se puede utilizar como cuenta de administrador o de analista, pero no se recomienda. El back-end de la aplicación almacenará las credenciales para esta cuenta y las usará para adquirir un token de autenticación de Azure AD para usarlo con las API de Power BI. Se usará esta cuenta para generar el token de inserción para que la aplicación lo use para los clientes.
+Se trata de la cuenta maestra que usa la aplicación para insertar contenido para los clientes. Este escenario se usa habitualmente para las aplicaciones de ISV. La cuenta maestra es la única cuenta necesaria en la organización. También se puede utilizar como cuenta de administrador o de analista, pero no se recomienda. El back-end de la aplicación almacena las credenciales para esta cuenta y las usa para adquirir un token de autenticación de Azure AD para usarlo con las API de Power BI. Esta cuenta genera un token de inserción para que la aplicación lo use para los clientes.
 
 La cuenta maestra es solo un usuario normal con una licencia de Power BI Pro que usa con su aplicación. Debe tratarse de la cuenta de un administrador del área de trabajo de la aplicación que se va a usar para la inserción.
 
 ### <a name="appreg"></a> Registro y permisos de la aplicación
 
-Para realizar llamadas a la API de REST será preciso registrar la aplicación en Azure AD. Para más información, consulte [Registro de una aplicación de Azure AD para insertar contenido de Power BI](register-app.md).
+Para realizar llamadas a la API de REST es necesario registrar la aplicación en Azure AD. Para más información, consulte [Registro de una aplicación de Azure AD para insertar contenido de Power BI](register-app.md).
 
 ### <a name="create-app-workspaces"></a>Creación de áreas de trabajo de la aplicación
 
-Si va a insertar paneles e informes para los clientes, estos deben haberse colocado en un área de trabajo de la aplicación. La cuenta *maestra* mencionada anteriormente debe corresponder a un administrador del área de trabajo de la aplicación.
+Si va a insertar paneles e informes para los clientes, estos deben haberse colocado en un área de trabajo de la aplicación. La cuenta *maestra*, mencionada anteriormente, debe corresponder a un administrador del área de trabajo de la aplicación.
 
 [!INCLUDE [powerbi-service-create-app-workspace](../includes/powerbi-service-create-app-workspace.md)]
 
@@ -91,7 +99,7 @@ Puede crear sus propios informes y conjuntos de datos mediante Power BI Desktop 
 
 ## <a name="step-2-embed-your-content"></a>Paso 2: Insertar el contenido
 
-Dentro de la aplicación, debe autenticarse con Power BI. Si va a insertar contenido para los clientes, es necesario que almacene las credenciales de la cuenta *maestra* en la aplicación. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
+Dentro de la aplicación, debe autenticarse con Power BI. Si va a insertar contenido para los clientes, debe almacenar las credenciales de la cuenta *maestra* en la aplicación. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
 
 Una vez autenticado, en la aplicación, utilice las API de REST de Power BI y JavaScript para insertar paneles e informes en la aplicación. 
 
@@ -105,7 +113,7 @@ Para **insertar contenido para sus clientes**, lo cual es habitual con aplicacio
 
 * [Integración de un panel, icono o informe en la aplicación](embed-sample-for-customers.md)
 
-Se necesitará un token de inserción en el caso de que las inserciones sean para los clientes. Para obtener más información, vea [GenerateToken](https://msdn.microsoft.com/library/mt784614.aspx).
+Se necesitará un token de inserción en el caso de que las inserciones sean para los clientes. Para obtener más información, vea [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Token de inserción).
 
 ## <a name="step-3-promote-your-solution-to-production"></a>Paso 3: Promover la solución a producción
 
@@ -115,7 +123,7 @@ Pasar a producción requiere algunos pasos adicionales.
 
 Si va a realizar inserciones para la organización, solo necesita que los demás sepan cómo acceder a la aplicación. 
 
-Los usuarios con acceso gratuito pueden consumir contenido insertado desde un área de trabajo de la aplicación (grupo), si esa área de trabajo está respaldada por una capacidad. Haga que el usuario con acceso gratuito aparezca como un miembro del área de trabajo de la aplicación (grupo); en caso contrario, recibirá un error 401 No autorizado. En la tabla siguiente se enumeran las SKU disponibles de Power BI Premium en Office 365.
+Los usuarios con acceso gratuito pueden consumir contenido insertado desde un área de trabajo de la aplicación (grupo) si esa área de trabajo está respaldada por una capacidad dedicada. Haga que el usuario con acceso gratuito aparezca como un miembro del área de trabajo de la aplicación (grupo); en caso contrario, recibirá el error 401 No autorizado. En la tabla siguiente se enumeran las SKU disponibles de Power BI Premium en Office 365.
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |
@@ -127,6 +135,10 @@ Los usuarios con acceso gratuito pueden consumir contenido insertado desde un á
 > [!NOTE]
 > Debe ser un administrador global o de facturación dentro del inquilino para poder comprar Power BI Premium. Para más información sobre cómo adquirir Power BI Premium, consulte [Adquisición de Power BI Premium](../service-admin-premium-purchase.md).
 
+>[!Note]
+>[Configure el entorno de análisis integrado para su organización.](#step-1-setup-your-embedded-analytics-development-environment)
+>
+
 ### <a name="embedding-for-your-customers"></a>Inserción de contenido para los clientes
 
 Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
@@ -135,7 +147,7 @@ Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
 * Adquiera la capacidad que se adapte a sus necesidades. Puede usar la tabla siguiente para saber qué SKU de la capacidad de Power BI Embedded puede necesitar. Para obtener más información, vea [Embedded analytics capacity planning whitepaper](https://aka.ms/pbiewhitepaper) (Notas del producto sobre el planeamiento de la capacidad de análisis de inserción). Cuando esté listo para comprar, vaya a [Microsoft Azure Portal](https://portal.azure.com). Para más información acerca de cómo crear la capacidad de Power BI Embedded, consulte [Create Power BI Embedded capacity in the Azure portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity) (Creación de capacidad de Power BI Embedded en Azure Portal).
 
 > [!IMPORTANT]
-> Dado que la inserción de tokens está pensada solo para propósitos de pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad. Vaya a [Get Available Features](https://msdn.microsoft.com/en-us/library/mt846473.aspx) (Obtención de características disponibles) para comprobar para cuántos tokens de inserción gratuitos se han usado.
+> Dado que la inserción de tokens está pensada solo para que los desarrolladores efectúen pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad dedicada. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Características disponibles) para comprobar para cuántos tokens de inserción gratuitos se han usado.
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |
@@ -146,13 +158,15 @@ Si las inserciones están destinadas para los clientes, debe hacer lo siguiente.
 | A5 |16 núcleos V |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2401-4800 |
 | A6 |32 núcleos V |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4,801-9600 |
 
-* Edite el área de trabajo de la aplicación y asígnele una capacidad en las opciones avanzadas.
+* Edite el área de trabajo de la aplicación y asígnele una capacidad dedicada en las opciones avanzadas.
 
     ![Asignación de un área de trabajo de la aplicación a una capacidad](media/embedding-content/powerbi-embedded-premium-capacity.png)
 
 * Implemente la aplicación actualizada en producción y empiece a insertar paneles e informes de Power BI.
 
-
+>[!Note]
+>[Configure el entorno de análisis integrado para sus clientes.](#step-1-setup-your-embedded-analytics-development-environment) 
+>
 
 ## <a name="admin-settings"></a>Configuración de administración
 
@@ -171,4 +185,3 @@ Los administradores globales, o los administradores de servicios de Power BI, pu
 [Notas del producto de Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
-

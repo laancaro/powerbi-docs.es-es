@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 640c6dac9a896cff55bddad46ceef8bce7ccae14
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 238d068e5083c8f46ac3299faddd4e0872f0654d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289381"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34812638"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Paso 2: Obtener un token de acceso de autenticación
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
@@ -104,7 +104,7 @@ Agregue este código a Program {...}.
        #endregion
 ```
 
-Después de obtener un token de autenticación, puede llamar a cualquier operación de Power BI. El paso siguiente muestra cómo llamar a la operación [Crear conjunto de datos](https://msdn.microsoft.com/library/mt203562.aspx) para crear un conjunto de datos para insertar datos en un panel.
+Después de obtener un token de autenticación, puede llamar a cualquier operación de Power BI. En el siguiente paso se muestra cómo llamar a la operación [PostDataSet](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) para crear un conjunto de datos para insertar datos en un panel.
 
 El siguiente paso muestra cómo [crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md).
 
@@ -181,6 +181,6 @@ A continuación se muestra la [lista de código completa](#code).
 [Biblioteca de autenticación de Azure AD para el paquete .NET de NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
 [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
-[Referencia de la API de REST de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)  
+[Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 76d07c8384123a303c8801a45ecd05b9e6ed0321
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
+ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34289473"
+ms.lasthandoff: 06/06/2018
+ms.locfileid: "34813121"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 Con la API de Power BI, puede insertar datos en un conjunto de datos de Power BI. Por ejemplo, supongamos que quiere ampliar un flujo de trabajo de empresa existente para insertar datos clave en el conjunto de datos. En este caso, pongamos que quiere insertar un conjunto de datos de marketing de ventas que tiene una tabla de productos en un conjunto de datos.
@@ -31,14 +31,14 @@ Antes de empezar a insertar datos en un conjunto de datos, necesita Azure Active
 La siguiente sección es una discusión general de las operaciones de la API de Power BI que insertan datos.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operaciones de la API de Power BI para insertar datos
-Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos actualizados. Para insertar datos, se usa la operación [Crear conjunto de datos](https://msdn.microsoft.com/library/mt203562.aspx) junto con la operación [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx). Para buscar un conjunto de datos, se usa la operación [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx). Para cualquiera de estas operaciones, puede pasar un identificador de grupo para trabajar con un grupo. Use la operación [Obtener grupos](https://msdn.microsoft.com/library/mt243842.aspx) para obtener una lista de identificadores de grupo.
+Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos actualizados. Para insertar datos se usa la operación [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) junto con la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para buscar un conjunto de datos, se usa la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Para cualquiera de estas operaciones, puede pasar un identificador de grupo para trabajar con un grupo. Use la operación [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) para obtener una lista de identificadores de grupo.
 
 Estas son las operaciones para insertar datos en un conjunto de datos:
 
-* [Crear conjunto de datos](https://msdn.microsoft.com/library/mt203562.aspx)
-* [Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx)
-* [Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx)
-* [Obtener grupos](https://msdn.microsoft.com/library/mt243842.aspx)
+* [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset)
+* [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)
+* [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
+* [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
 Para crear un conjunto de datos en Power BI se pasa una cadena de notación de objetos JavaScript (JSON) al servicio Power BI. Para obtener más información acerca de JSON, consulte [Introducción a JSON](http://json.org/).
 
@@ -113,10 +113,6 @@ Para comenzar a insertar datos en un conjunto de datos, consulte [Paso 1: Regist
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Suscribirse en Power BI](create-an-azure-active-directory-tenant.md)  
-[Crear conjunto de datos](https://msdn.microsoft.com/library/mt203562.aspx)  
-[Obtener conjuntos de datos](https://msdn.microsoft.com/library/mt203567.aspx)  
-[Agregar filas](https://msdn.microsoft.com/library/mt203561.aspx)  
-[Obtener grupos](https://msdn.microsoft.com/library/mt243842.aspx)  
 [Introducción a JSON](http://json.org/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
