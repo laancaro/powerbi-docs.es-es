@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290669"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tareas de consultas comunes en Power BI Desktop
 Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 

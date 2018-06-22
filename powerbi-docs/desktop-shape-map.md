@@ -15,6 +15,7 @@ ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/17/2018
+ms.locfileid: "34290968"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede crear un objeto visual **Mapa de formas** para mostrar comparaciones relativas de las regiones en un mapa al aplicar colores diferentes para distintas regiones. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar ubicaciones geográficas precisas de los puntos de datos en un mapa; en su lugar, su propósito principal es mostrar comparaciones relativas de regiones en un mapa al colorearlas de forma diferente.
