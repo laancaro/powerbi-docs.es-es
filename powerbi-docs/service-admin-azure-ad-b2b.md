@@ -11,10 +11,10 @@ ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 6e1665b6e9c9ff0a756d9ccdaf9e6feb4ed9eb39
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34722233"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
@@ -74,7 +74,7 @@ El usuario invitado recibirá un correo electrónico que indica que la aplicaci�
 
 El usuario invitado debe iniciar sesión con su dirección de correo electrónico de la organización. Se les pedirá que acepten la invitación después de iniciar sesión. Después de iniciar sesión, se redirige al usuario invitado al contenido de la aplicación. Para volver a la aplicación, marque el vínculo o guarde el correo electrónico.
 
-## <a name="licensing"></a>Administración de licencias
+## <a name="licensing"></a>Licencias
 
 El usuario invitado deberá tener la licencia adecuada en vigor para ver la aplicación que se ha compartido. Existen tres opciones para lograr esto.
 
