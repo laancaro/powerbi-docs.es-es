@@ -11,10 +11,10 @@ ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 39c6c11e4815df507431648b1d317f9a62a4b1c3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34299203"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
@@ -113,7 +113,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | fecha |1.2-34 |https://cran.r-project.org/web/packages/date/index.html |
 | dbscan |0.9-7 |https://cran.r-project.org/web/packages/dbscan/index.html |
 | deal |1.2-37 |https://cran.r-project.org/web/packages/deal/index.html |
-| deepnet |0,2 |https://cran.r-project.org/web/packages/deepnet/index.html |
+| deepnet |0.2 |https://cran.r-project.org/web/packages/deepnet/index.html |
 | deldir |0.1-12 |https://cran.r-project.org/web/packages/deldir/index.html |
 | dendextend |1.1.8 |https://cran.r-project.org/web/packages/dendextend/index.html |
 | DEoptimR |1.0-4 |https://cran.r-project.org/web/packages/DEoptimR/index.html |
@@ -126,7 +126,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | dplyr |0.4.3 |https://cran.r-project.org/web/packages/dplyr/index.html |
 | DPpackage |1.1-6 |https://cran.r-project.org/web/packages/DPpackage/index.html |
 | dse |2015.12-1 |https://cran.r-project.org/web/packages/dse/index.html |
-| DT |0,2 |https://cran.r-project.org/web/packages/DT/index.html |
+| DT |0.2 |https://cran.r-project.org/web/packages/DT/index.html |
 | dtw |1.18-1 |https://cran.r-project.org/web/packages/dtw/index.html |
 | e1071 |1.6-7 |https://cran.r-project.org/web/packages/e1071/index.html |
 | earth |4.4.4 |https://cran.r-project.org/web/packages/earth/index.html |
@@ -267,7 +267,7 @@ En la siguiente tabla se muestran los paquetes **compatibles** con el servicio P
 | multcomp |1.4-4 |https://cran.r-project.org/web/packages/multcomp/index.html |
 | munsell |0.4.3 |https://cran.r-project.org/web/packages/munsell/index.html |
 | mvtnorm |1.0-5 |https://cran.r-project.org/web/packages/mvtnorm/index.html |
-| NbClust |T3 |https://cran.r-project.org/web/packages/NbClust/index.html |
+| NbClust |3 |https://cran.r-project.org/web/packages/NbClust/index.html |
 | ncvreg |3.5-1 |https://cran.r-project.org/web/packages/ncvreg/index.html |
 | networkD3 |0.2.13 |https://cran.r-project.org/web/packages/networkD3/index.html |
 | neuralnet |1.33 |https://cran.r-project.org/web/packages/neuralnet/index.html |

@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: maggies
 ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: b25ae650643b0a62f33d7c1741307137b9cec316
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34799427"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
@@ -90,7 +90,7 @@ Si el autor de un informe ha agregado la funcionalidad de exploración en profun
 
 * Para volver a agrupar los datos, pulse la flecha hacia arriba en la información sobre herramientas.
   
-  ![Rastrear agrupando datos](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
+  ![Explorar agrupando datos](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
 * También puede explorar desagrupando los datos todos los puntos de datos de un objeto visual. Ábralo en el modo de enfoque, pulse el icono de Explorar y elija mostrar todo el siguiente nivel, o bien amplíe para que se muestren el nivel actual y el próximo.
 

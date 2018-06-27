@@ -11,10 +11,10 @@ ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
 ms.openlocfilehash: c2d7a878189542d8a477933f6c54390b2636787e
-ms.sourcegitcommit: b7839f2aa68c3626f55ee7e49c8392169d1ec67e
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/08/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34852242"
 ---
 # <a name="organizational-content-packs-copy-refresh-and-get-access"></a>Paquetes de contenido de la organización: Copia, actualización y acceso

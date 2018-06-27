@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 ms.openlocfilehash: a41acec10e2801d046185d34c64e4d51b5e9dae0
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 06/26/2018
 ms.locfileid: "34813098"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Lista de código completa de la inserción de datos en un conjunto de datos
