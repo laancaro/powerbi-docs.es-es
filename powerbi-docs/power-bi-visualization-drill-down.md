@@ -12,10 +12,10 @@ ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f0ac0ca1bd03f06e2b7679ab4afc1b9193286f5b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
+ms.lasthandoff: 06/27/2018
 ms.locfileid: "34584217"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo detallado en una visualización de Power BI
