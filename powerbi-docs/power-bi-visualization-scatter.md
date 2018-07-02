@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91836970bda7e72c99977f360e2c0531a20bef20
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: eaef6c8273fc8f4b0d4d43dc1df82fdf97c2edf8
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34584125"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964777"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Gráficos de dispersión y de burbujas de Power BI
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
@@ -116,9 +116,9 @@ O bien, si sus datos no incluyen eso, cree un campo que concatene los valores X 
 Para crear un nuevo campo, [use el Editor de consultas de Power BI Desktop para agregar una columna de índice](desktop-add-custom-column.md) al conjunto de datos.  A continuación, agregue esta columna al área **Detalles** de la visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
- [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
+[Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Pruébelo, es gratis](https://powerbi.com/)  
+[Registrarse para obtener una evaluación gratuita](https://powerbi.microsoft.com/get-started/)  
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

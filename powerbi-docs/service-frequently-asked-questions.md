@@ -10,12 +10,12 @@ ms.topic: conceptual
 sktopms.date: 06/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: e8af4695ba54fee91820552802cf18d8a758e8b0
-ms.sourcegitcommit: b3b32b9b3935706d7caa091833bd32259d7ff6ee
+ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755056"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36964823"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -24,8 +24,10 @@ ms.locfileid: "34755056"
 ## <a name="what-is-microsoft-power-bi"></a>¿Qué es Microsoft Power BI?
 Power BI es un servicio de análisis empresarial basado en la nube que permite a cualquier persona visualizar y analizar datos de forma más rápida, eficaz y consciente. Conecta a los usuarios a una gran variedad de datos a través de paneles fáciles de usar, informes interactivos y visualizaciones atractivas que hacen que los datos cobren vida. Obtenga más información sobre [qué es Power BI](power-bi-overview.md).
 
-## <a name="whats-the-difference-between-power-bi-and-power-bi-pro"></a>¿Cuál es la diferencia entre Power BI y Power BI Pro?
-Power BI proporciona todo tipo de características que le ayudarán a empezar a explorar los datos de una forma totalmente nueva. Power BI Pro proporciona todas las fascinantes características de Power BI, además de otras características, como mayor capacidad de almacenamiento, actualizaciones de datos programadas con una frecuencia superior a una vez al día, orígenes de datos dinámicos con interactividad completa, grupos y mucho más. Más información sobre [las diferencias entre Power BI Pro y la versión gratuita de Power BI](https://powerbi.microsoft.com/pricing).
+## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>¿Cuál es la diferencia entre Power BI Pro y Power BI Premium?
+Power BI Pro es una licencia individual que permite acceder a todo el contenido y las funcionalidades del servicio Power BI, incluida la capacidad de compartir el contenido y colaborar con otros usuarios de Pro. Solo los usuarios de la versión Pro pueden publicar y consumir contenido en áreas de trabajo de las aplicaciones, compartir paneles y suscribirse a paneles e informes. 
+
+Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable y admitir volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium también permite una amplia distribución de contenido por parte de los usuarios de Pro sin solicitar licencias por usuario para los destinatarios que ven el contenido.
 
 ## <a name="how-much-does-power-bi-cost"></a>¿Cuánto cuesta Power BI?
 Power BI Desktop es gratuito. Hay una versión de prueba gratuita de 60 días de Power BI Pro. Obtenga información sobre precios en [Precios de Power BI](https://powerbi.microsoft.com/pricing).
@@ -34,7 +36,7 @@ Power BI Desktop es gratuito. Hay una versión de prueba gratuita de 60 días de
 Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ](service-premium-faq.md) (Preguntas frecuentes de Power BI Premium).
 
 ## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>¿Cómo puedo averiguar qué miembros de mi organización tienen una cuenta de Power BI?
-Puede ver el informe de aplicaciones integradas de Azure Active Directory para Power BI a fin de consultar los usuarios activos en su organización. El informe de Azure AD no indica si un usuario tiene la versión gratuita de Pro en Power BI. Solo informa qué usuarios se han conectado a Power BI y cuando inician sesión. Para más información, consulte [Find Power BI users that have signed in](service-admin-access-usage.md) (Búsqueda de usuarios de Power BI que hayan iniciado sesión).
+Puede ver el informe de aplicaciones integradas de Azure Active Directory para Power BI a fin de consultar los usuarios activos en su organización. El informe de Azure AD no indica qué tipo de licencia tiene cada usuario. Solo informa qué usuarios se han conectado a Power BI y cuando inician sesión. Para más información, consulte [Find Power BI users that have signed in](service-admin-access-usage.md) (Búsqueda de usuarios de Power BI que hayan iniciado sesión).
 
 ## <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 Power BI Desktop es una aplicación de escritorio gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio de Power BI proporcionando exploración avanzada de datos, modelado y creación de informes con visualizaciones altamente interactivas. Puede guardar su trabajo en un archivo y publicar los datos e informes directamente en el sitio de Power BI para compartirlos con otros usuarios. Obtenga más información sobre [qué es Power BI Desktop](desktop-what-is-desktop.md).
