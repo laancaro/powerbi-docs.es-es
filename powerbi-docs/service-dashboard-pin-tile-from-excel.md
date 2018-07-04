@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6cdcff66d48ede031a635e44e3a40af4e321c0c5
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34584079"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599603"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -60,7 +60,7 @@ Una manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es d
    * Panel existente: seleccione el nombre del panel en la lista desplegable.
    * Nuevo panel: escriba el nombre del nuevo panel.
    
-    ![Cuadro de diálogo Anclar al panel](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
+     ![Cuadro de diálogo Anclar al panel](media/service-dashboard-pin-tile-from-excel/pbi_dashdialog1.png)
 4. Seleccione **Anclar**. Se mostrará un mensaje de confirmación (cerca de la esquina superior derecha) que le permitirá saber que se agregó el rango, en forma de icono, en su panel. 
    
     ![Cuadro de diálogo Anclado al panel](media/service-dashboard-pin-tile-from-excel/power-bi-go-to-dashboard.png)
