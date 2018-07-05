@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a584d61e1f2f55c244b453e6c086f3222217ee9a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 43119a700b3b660a2734d1a8f974291a2817ce8e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34289013"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598007"
 ---
 # <a name="bidirectional-cross-filtering-using-directquery-in-power-bi-desktop"></a>Filtrado cruzado bidireccional con DirectQuery en Power BI Desktop
 
@@ -33,13 +33,11 @@ Para habilitar el filtrado cruzado, en el cuadro de diálogo **Editar relación*
 
 * La **Dirección del filtro cruzado** debe establecerse en **Ambos**
 * **Aplicar filtro de seguridad en ambas direcciones** también debe estar seleccionado
-  
+
   ![](media/desktop-bidirectional-filtering/bidirectional-filtering_2.png)
 
 > [!NOTE]
-> Al crear fórmulas DAX de filtrado cruzado en Power BI Desktop, use *UserPrincipalName* (que suele ser el mismo que el inicio de sesión de un usuario, como *joe@contoso.com*) en lugar de *UserName*. Por tanto, puede que necesite crear una tabla relacionada que asigne *UserName* (o EmployeeID, por ejemplo) a *UserPrincipleName*.
-> 
-> 
+> Al crear fórmulas DAX de filtrado cruzado en Power BI Desktop, use *UserPrincipalName* (que suele ser el mismo que el inicio de sesión de un usuario, como <em>joe@contoso.com</em>) en lugar de *UserName*. Por tanto, puede que necesite crear una tabla relacionada que asigne *UserName* (o EmployeeID, por ejemplo) a *UserPrincipalName*.
 
 Para obtener más información y ejemplos de cómo funciona el filtrado cruzado bidireccional, consulte las [notas del producto](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx) mencionadas anteriormente en este artículo.
 

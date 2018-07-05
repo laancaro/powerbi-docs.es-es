@@ -2,12 +2,12 @@
 title: Aprendizaje guiado de Microsoft Power BI
 description: Inicie su viaje de aprendizaje de con esta colección secuenciada de cursos para conocer las numerosas y eficaces funcionalidades de Microsoft Power BI.
 layout: LandingPage
-ms.openlocfilehash: f80886799a2cfc960e4d441d3572d94f3c09b22e
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2cd748b60da6781ff9ea710b5802f3d68c3bc6b8
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34310162"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600685"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -48,8 +48,8 @@ Introducción </h3>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Revisión y pasos siguientes</a>
-                                <span style="margin-left: 32px; align-self: center;">5 m</span>
+                                <a class="barLink" href="gettingstarted.yml?tutorial-step=5">Revisión y pasos siguientes</a> 
+                                <span style="margin-left: 32px; align-self: center;">5 min</span>
                               </li>
                           </ul>
                       </div>
@@ -272,8 +272,8 @@ Exploración de datos </h3>
                                 <span style="margin-left: 32px; align-self: center;">9 m</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
-                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Creación de sugerencias personalizadas de preguntas y respuestas</a>
-                                <span style="margin-left: 32px; align-self: center;">4 m</span>
+                                <a class="barLink" href="exploringdata.yml?tutorial-step=5">Creación de sugerencias personalizadas de preguntas y respuestas&amp;</a> 
+                                <span style="margin-left: 32px; align-self: center;">4 min</span>
                               </li>
                               <li style="display: flex; justify-content: space-between;">
                                 <a class="barLink" href="exploringdata.yml?tutorial-step=6">Uso compartido de paneles con el resto de la organización</a>
