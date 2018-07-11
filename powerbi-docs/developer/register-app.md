@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599498"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38925010"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registro de una aplicación de Azure AD para insertar contenido de Power BI
 Aprenda a registrar una aplicación en Azure Active Directory (Azure AD) para su uso con la inserción de contenido de Power BI.
@@ -23,7 +23,6 @@ Deberá registrar la aplicación con Azure AD para permitir que la aplicación a
 
 > [!IMPORTANT]
 > Antes de registrar una aplicación de Power BI, necesita un [inquilino de Azure Active Directory y un usuario de la organización](create-an-azure-active-directory-tenant.md). Si aún no se ha registrado en Power BI con un usuario del inquilino, el registro de la aplicación no se efectuará correctamente.
-> 
 > 
 
 Hay dos formas de registrar la aplicación. La primera es con la [herramienta de registro de aplicaciones de Power BI](https://dev.powerbi.com/apps/) o puede hacerlo también directamente en Azure Portal. La herramienta de registro de aplicaciones de Power BI es la opción más fácil, ya que hay pocos campos para rellenar. Use Azure Portal si quiere realizar cambios en la aplicación.
@@ -45,7 +44,7 @@ Aquí se muestra cómo registrar la aplicación con la herramienta de registro d
    
     La opción **URL de página principal** solo está disponible si elige **Server-side Web app** (Aplicación web de servidor) como tipo de aplicación.
    
-    Para los ejemplos de *inserción para los clientes* e *integrate-dashboard-web-app*, la URL de redireccionamiento es `http://localhost:13526/redirect`. Para el ejemplo de informe y de icono, la URL de redireccionamiento es `http://localhost:13526/`.
+    Para los ejemplos de *inserción para los clientes* e *integrate-dashboard-web-app*, la **URL de redireccionamiento** es `http://localhost:13526/Redirect`. Para el ejemplo de informe y de icono, la **URL de redireccionamiento** es `http://localhost:13526/`.
 6. Elija las API para la aplicación que tiene acceso. Para más información sobre los permisos de acceso a Power BI, consulte [Permisos de Power BI](power-bi-permissions.md).
    
     ![](media/register-app/app-registration-apis.png)
@@ -83,7 +82,7 @@ La otra opción para registrar la aplicación consiste en hacerlo directamente e
 5. Siga las indicaciones y cree una nueva aplicación.
    
    * Para las aplicaciones web, indique la dirección URL de inicio de sesión, que es la dirección URL base de la aplicación, en la que los usuarios pueden iniciar sesión, como, por ejemplo, `http://localhost:13526`.
-   * Para aplicaciones nativas, proporcione un URI de redireccionamiento que usará Azure AD para devolver las respuestas de token. Escriba un valor que sea específico para la aplicación como, por ejemplo, `http://myapplication/redirect`.
+   * Para aplicaciones nativas, proporcione un **URI de redireccionamiento** que usará Azure AD para devolver las respuestas de token. Escriba un valor que sea específico para la aplicación como, por ejemplo, `http://myapplication/Redirect`.
 
 Para más información sobre cómo registrar aplicaciones en Azure Active Directory, consulte [Integración de aplicaciones con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: fde23a47bb0f4034e213a652d60241ff625921d3
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137500"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877340"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tareas de consultas comunes en Power BI Desktop
 Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 
@@ -38,7 +38,7 @@ La primera conexión de datos es un libro de Excel. El otro es un recurso web (q
 Las tareas comunes de la consulta comienzan por los pasos necesarios para conectarse a ambos orígenes de datos.
 
 ## <a name="connect-to-data"></a>Conectar a datos
-Para conectarse a datos en Power BI Desktop, seleccione el botón **Obtener datos** desde la pestaña **Inicio** de la cinta de opciones. Power BI Desktop presenta un menú con los orígenes de datos más comunes. Para obtener una lista completa de los orígenes de datos a los que Power BI Desktop se puede conectar, seleccione el botón **Más...** situado en la parte inferior del menú. Para más información, consulte [Orígenes de datos en Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-data-sources).
+Para conectarse a datos en Power BI Desktop, seleccione el botón **Obtener datos** desde la pestaña **Inicio** de la cinta de opciones. Power BI Desktop presenta un menú con los orígenes de datos más comunes. Para obtener una lista completa de los orígenes de datos a los que Power BI Desktop se puede conectar, seleccione el botón **Más...** situado en la parte inferior del menú. Para más información, consulte [Orígenes de datos en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
 ![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
@@ -60,10 +60,10 @@ Seleccione **Aceptar**y, igual que antes, Power BI Desktop inspeccionará el lib
 
 Las demás conexiones de datos son similares. Si se requiere autenticación para realizar una conexión de datos, Power BI Desktop solicitará las credenciales correspondientes.
 
-Para una demostración paso a paso de la conexión a datos en Power BI Desktop, consulte [Conectarse a los datos en Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-connect-to-data).
+Para una demostración paso a paso de la conexión a datos en Power BI Desktop, consulte [Conectarse a los datos en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
 
 ## <a name="shape-and-combine-data"></a>Dar forma a los datos y combinarlos
-Puede fácilmente combinar y dar forma a los datos con el Editor de consultas. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración completa de cómo combinar y dar forma a los datos, consulte **[Combinar datos y darles forma en Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**.
+Puede fácilmente combinar y dar forma a los datos con el Editor de consultas. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración completa de cómo combinar y dar forma a los datos, consulte **[Combinar datos y darles forma en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)**.
 
 En la sección anterior se han conectado dos conjuntos de datos, un libro de Excel y un recurso web. Una vez cargados en el Editor de consultas, se mostrará lo siguiente junto con la consulta desde la página web seleccionada (tomada de las consultas disponibles que aparecen en el panel **Consultas** situado a la izquierda de la ventana Editor de consultas).
 
