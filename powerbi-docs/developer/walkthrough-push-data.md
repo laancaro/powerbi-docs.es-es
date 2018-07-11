@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
 ms.author: maghan
-ms.openlocfilehash: 96b29c9dc6c384b663ef375d4968dedb011bd05d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813121"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598558"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 Con la API de Power BI, puede insertar datos en un conjunto de datos de Power BI. Por ejemplo, supongamos que quiere ampliar un flujo de trabajo de empresa existente para insertar datos clave en el conjunto de datos. En este caso, pongamos que quiere insertar un conjunto de datos de marketing de ventas que tiene una tabla de productos en un conjunto de datos.
@@ -98,6 +98,7 @@ Por lo tanto, en nuestro ejemplo de conjunto de datos de marketing de ventas, pa
 Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 
 ## <a name="power-bi-table-data-types"></a>Tipos de datos de tabla de Power BI
+
 | **Tipo de datos** | **Restricciones** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue no están permitidos. |

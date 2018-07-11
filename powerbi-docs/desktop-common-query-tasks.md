@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6f80c1cc5d0b97318fe9e9b0653d166d571d1310
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: 44756e45a6f9944f9d52afa98709b1a3f7b5b6e1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34290669"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137500"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tareas de consultas comunes en Power BI Desktop
 Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 
@@ -218,7 +218,7 @@ Las categorías de fórmulas de consulta son las siguientes:
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
 
-* [Introducción a Power BI Desktop](desktop-getting-started.md)
+* [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 * [Información general sobre consultas con Power BI Desktop](desktop-query-overview.md)
 * [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
 * [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md)

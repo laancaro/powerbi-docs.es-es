@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef554d7190709565610336169b4883d71970f822
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 621a5f92ebd9c7314b719b6643f5bfef958916c3
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799565"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599344"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de los valores del proxy para la puerta de enlace de datos local
 El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto puede impedir que la puerta de enlace de datos local se conecte al servicio.
@@ -77,23 +77,23 @@ Al configurar los ajustes de proxy para utilizar las credenciales predeterminada
 
 ### <a name="change-the-on-premises-data-gateway-service-account"></a>Cambio de la cuenta de servicio de puerta de enlace de datos local
 1. Cambie la cuenta de servicio de Windows del **servicio de puerta de enlace de datos local**.
-   
+
     La cuenta predeterminada para este servicio es *NT SERVICE\PBIEgwService*. Podrá cambiarlo a una cuenta de usuario de dominio en su dominio de Active Directory. También puede utilizar una cuenta de servicio administrada para evitar tener que cambiar la contraseña.
-   
+
     Puede cambiar la cuenta en la pestaña **Inicio de sesión** de las propiedades del servicio de Windows.
 2. Reinicie el **servicio de puerta de enlace de datos local**.
-   
+
     Desde un símbolo del sistema de administrador, emita los siguientes comandos.
-   
+
         net stop PBIEgwService
-   
+
         net start PBIEgwService
 3. Inicie el **configurador de la puerta de enlace de datos local**. Puede seleccionar el botón de inicio de Windows y buscar la *puerta de enlace de datos local*.
 4. Inicie sesión en Power BI.
 5. Restaure la puerta de enlace con su clave de recuperación.
-   
+
     Esto permitirá a la nueva cuenta de servicio descifrar las credenciales almacenadas para los orígenes de datos.
-    
+
 > [!NOTE]
 > Al cambiar la cuenta de servicio directamente mediante el panel de control de servicios, no actualiza las ACL de manera automática. Debe asegurarse de que la nueva cuenta de servicio tiene acceso a los archivos y la carpeta de instalación. Puede encontrar la carpeta de instalación de la puerta de enlace en C:Archivos de programa\Puerta de enlace de datos local. 
 > 

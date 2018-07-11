@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e689e031395130bab8ad80d5d06936a9dabaf852
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a99200707c8fc7de4fea2e32fe83238011bbf46c
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755079"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926614"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 En este artículo se examinan algunos problemas comunes que pueden aparecer al usar la **puerta de enlace de datos local**.
@@ -31,10 +31,10 @@ En este artículo se examinan algunos problemas comunes que pueden aparecer al u
 La puerta de enlace se ejecuta como un servicio de Windows, por lo que puede iniciarla y detenerla de varias maneras. Por ejemplo, puede abrir un símbolo del sistema con permisos elevados en el equipo en el que se está ejecutando la puerta de enlace y después ejecutar cualquiera de estos comandos:
 
 * Para detener el servicio, ejecute este comando:
-  
+
     '''   net stop PBIEgwService   '''
 * Para iniciar el servicio, ejecute este comando:
-  
+
     '''   net start PBIEgwService   '''
 
 ### <a name="error-failed-to-create-gateway-please-try-again"></a>Error: no se pudo crear la puerta de enlace. Inténtelo de nuevo.
@@ -70,7 +70,7 @@ Para corregir este problema, haga lo siguiente.
 
 1. Desinstale la puerta de enlace.
 2. Elimine la siguiente carpeta.
-   
+
         c:\Program Files\On-premises data gateway
 3. Vuelva a instalar la puerta de enlace.
 4. Opcionalmente, aplique la clave de recuperación para restaurar una puerta de enlace existente.
@@ -129,11 +129,11 @@ Puede confirmarlo haciendo lo siguiente.
 
 1. Conéctese con el equipo de Analysis Services en SQL Server Management Studio. En las propiedades avanzadas de conexión, incluya EffectiveUserName para el usuario en cuestión y compruebe si reproduce el error.
 2. Puede usar la herramienta dsacls de Active Directory para comprobar si se muestra el atributo. Esta herramienta se encuentra normalmente en un controlador de dominio. Debe saber cuál es el nombre de dominio distintivo de la cuenta y pasarlo a la herramienta.
-   
+
         dsacls "CN=John Doe,CN=UserAccounts,DC=contoso,DC=com"
-   
+
     En los resultados querrá ver algo parecido a lo siguiente.
-   
+
             Allow BUILTIN\Windows Authorization Access Group
                                           SPECIAL ACCESS for tokenGroupsGlobalAndUniversal
                                           READ PROPERTY
@@ -184,15 +184,15 @@ Para confirmarlo, haga lo siguiente.
 
 1. Busque el nombre de usuario efectivo en los [registros de puerta de enlace](#logs).
 2. Después de obtener el valor que se pasa, compruebe que es correcto. Si es su usuario, puede usar el siguiente comando desde un símbolo del sistema para ver cuál debe ser el UPN. El UPN será similar a una dirección de correo.
-   
+
         whoami /upn
 
 También puede ver qué obtiene Power BI de Azure Active Directory.
 
-1. Vaya a [https://graphexplorer.cloudapp.net](https://graphexplorer.cloudapp.net).
+1. Vaya a [https://developer.microsoft.com/graph/graph-explorer](https://developer.microsoft.com/graph/graph-explorer).
 2. Seleccione **Iniciar sesión** en la esquina superior derecha.
 3. Ejecute la siguiente consulta. Verá una respuesta JSON bastante grande.
-   
+
         https://graph.windows.net/me?api-version=1.5
 4. Busque **userPrincipalName**.
 
@@ -206,7 +206,7 @@ Para buscar la región del centro de datos en la que se encuentra, haga lo sigui
 1. Seleccione **?** en la esquina superior derecha del servicio Power BI.
 2. Seleccione **Acerca de Power BI**.
 3. La región de datos se mostrará en **Los datos están almacenados en**.
-   
+
     ![](media/service-gateway-onprem-tshoot/power-bi-data-region.png)
 
 Si no consigue resultados, intente obtener un seguimiento de red mediante una herramienta como [fiddler](#fiddler) o netsh, aunque son métodos avanzados de recolección y puede que necesite asistencia para analizar los datos recopilados. Puede ponerse en contacto con [soporte técnico](https://support.microsoft.com) para obtener ayuda.
@@ -329,6 +329,7 @@ En el archivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, 
 <a name="activities"></a>
 
 ### <a name="activity-types"></a>Tipos de actividades
+
 | Tipo de actividad | Descripción |
 | --- | --- |
 | MGEQ |Consultas ejecutadas en ADO.NET. Se incluyen orígenes de datos de DirectQuery. |
@@ -342,9 +343,9 @@ Para determinar el tiempo que se ha tardado en consultar el origen de datos, pue
 2. Busque un [Tipo de actividad](#activities) para encontrar la consulta. Un ejemplo sería MGEQ.
 3. Apunte el segundo GUID, ya que es el identificador de la solicitud.
 4. Siga buscando MGEQ hasta que encuentre la entrada de FireActivityCompletedSuccessfullyEvent con la duración. Puede comprobar que la entrada tenga el mismo identificador de solicitud. La duración estará en milisegundos.
-   
+
         DM.EnterpriseGateway Verbose: 0 : 2016-09-26T23:08:56.7940067Z DM.EnterpriseGateway    baf40f21-2eb4-4af1-9c59-0950ef11ec4a    5f99f566-106d-c8ac-c864-c0808c41a606    MGEQ    21f96cc4-7496-bfdd-748c-b4915cb4b70c    B8DFCF12 [DM.Pipeline.Common.TracingTelemetryService] Event: FireActivityCompletedSuccessfullyEvent (duration=5004)
-   
+
    > [!NOTE]
    > FireActivityCompletedSuccessfullyEvent es una entrada detallada. Esta entrada no se registrará a menos que TraceVerbosity esté en el nivel 5.
    > 
@@ -423,12 +424,12 @@ Recibirá el mensaje de error -10709 Error de conexión si la delegación no est
 Si usa la puerta de enlace para realizar actualizaciones programadas, **Actualizar historial** puede ayudarle a ver los errores que se han producido, así como proporcionar datos útiles en caso de que deba crear una solicitud de soporte técnico. Puede ver ambas actualizaciones programadas, así como a petición. Le mostramos cómo puede tener acceso a **Actualizar historial**.
 
 1. En el panel de navegación de Power BI, en **Conjuntos de datos**, seleccione un conjunto de datos &gt; menú Abrir &gt; **Programar actualización**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 2. En **Configuración de...** &gt; **Programar actualización**, seleccione **Actualizar historial**.
-   
+
     ![](media/service-gateway-onprem-tshoot/scheduled-refresh-2.png)
-   
+
     ![](media/service-gateway-onprem-tshoot/refresh-history.png)
 
 Para obtener más información sobre cómo solucionar problemas de escenarios de actualización, consulte el artículo [Solución de problemas de escenarios de actualización](refresh-troubleshooting-refresh-scenarios.md).

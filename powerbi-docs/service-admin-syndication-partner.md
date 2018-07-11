@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/05/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 67863b261bb8f3490d20ad21786313541df33388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: a86b1d6823a1d889b47015d1213a9a056c537703
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250324"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926660"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
 Office 365 permite a las empresas revender Office 365 empaquetado e integrado con sus propias soluciones, lo que proporciona a los clientes finales un único punto de contacto de compras, facturación y soporte técnico.
@@ -33,7 +33,7 @@ Si no puede comprar Power BI directamente, es posible que algún tenga algunas o
 
 [Power BI (gratuito)](#power-bi-free)
 
-[Power BI Pro y Premium](#power-bi-pro)
+[Power BI Pro y Premium](#power-bi-pro-and-premium)
 
 ## <a name="power-bi-free"></a>Power BI (gratuito)
 Si está satisfecho con la oferta gratuita para Power BI, puede registrarse en el servicio gratuito. De forma predeterminada, se deshabilitan los registros individuales, también conocidos como suscripciones ad-hoc. Cuando intente registrarse en Power BI, verá un mensaje que indicará que el departamento de TI ha desactivado el registro para Microsoft Power BI.

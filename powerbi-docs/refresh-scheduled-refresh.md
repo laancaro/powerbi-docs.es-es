@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e6dbd431a1ea37195a6cbb6e3d9a39d79a4e9b0d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 96c1709c1d85b8a960be9c96b6839b69b4f22eaa
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248144"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145465"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configuración de la actualización programada
 
@@ -26,7 +26,7 @@ ms.locfileid: "34248144"
 
 Si el conjunto de datos admite la actualización programada mediante Actualizar ahora y Programar actualización, hay algunos requisitos y opciones importantes que se deben considerar para que la actualización se realice correctamente. Y son: **Conexión de puerta de enlace**, **Credenciales de origen de datos** y **Programar actualización**. Analicemos cada uno detenidamente.
 
-Se describen las opciones disponibles tanto para [Power BI Gateway - Personal](personal-gateway.md) como para la [puerta de enlace de datos local](service-gateway-onprem.md).
+Se describen las opciones disponibles tanto para [Power BI Gateway - Personal](service-gateway-personal-mode.md) como para la [puerta de enlace de datos local](service-gateway-onprem.md).
 
 Para llegar a la pantalla Programar actualización, puede hacer lo siguiente.
 
@@ -123,7 +123,7 @@ A veces, la actualización de datos no funciona según lo previsto. Normalmente 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Actualizar datos en Power BI](refresh-data.md)  
-[Power BI Gateway - Personal](personal-gateway.md)  
+[Power BI Gateway - Personal](service-gateway-personal-mode.md)  
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  

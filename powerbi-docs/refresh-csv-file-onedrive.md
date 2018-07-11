@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 42f5353c49d562f4fefeec81867fd9e9ff4831c2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5f64c32b2e4756d8815316cc45ddfd96a2167d71
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239034"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092285"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Actualizar un conjunto de datos creado a partir de un archivo .csv en OneDrive o SharePoint Online
 ## <a name="what-are-the-advantages"></a>¿Cuáles son las ventajas?
@@ -31,7 +31,7 @@ Los archivos de valores separados por comas son archivos de texto simples, por l
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive o OneDrive para la Empresa. ¿Cuál es la diferencia?
 Si tiene OneDrive personal y OneDrive para la Empresa, se recomienda que mantenga los archivos a los que quiere conectarse en Power BI en OneDrive para la Empresa. Esta es la razón: es probable que use dos cuentas diferentes para iniciar sesión en ambos.
 
-La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problemas, ya la cuenta que se usa para iniciar sesión en Power BI suele ser la misma que se usa para hacerlo en OneDrive para la Empresa. No obstante, con OneDrive personal, es probable que inicie sesión con otra [cuenta Microsoft](http://www.microsoft.com/account/default.aspx).
+La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problemas, ya la cuenta que se usa para iniciar sesión en Power BI suele ser la misma que se usa para hacerlo en OneDrive para la Empresa. No obstante, con OneDrive personal, es probable que inicie sesión con otra [cuenta Microsoft](https://account.microsoft.com).
 
 Si inicia sesión en su cuenta Microsoft, asegúrese de seleccionar Mantener la sesión iniciada. Posteriormente, Power BI puede sincronizar las actualizaciones con los conjuntos de datos en Power BI.
 

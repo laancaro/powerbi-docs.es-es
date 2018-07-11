@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8b1e94ca0923c3e2ba509df266cec0f05596ab1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34852196"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598623"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creación y publicación de un paquete de contenido organizativo de Power BI (tutorial)
 > [!NOTE]
@@ -43,24 +43,24 @@ Imagine que es el jefe de lanzamiento de Contoso y que se está preparando para 
    
    Tenga en cuenta que una biblioteca de paquetes de contenido de su organización puede terminar con cientos de paquetes de contenido publicados para la organización o para grupos. Tómese tiempo para dar un nombre descriptivo a su paquete de contenido, para agregar una buena descripción y para seleccionar el público adecuado.  Use palabras que harán que el paquete de contenido se puede buscar fácilmente.
    
-   1.  Seleccione **Grupos específicos** y escriba las direcciones de correo electrónico completas de las personas, los [grupos de Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), los grupos de distribución o los grupos de seguridad. Por ejemplo:
+   1. Seleccione **Grupos específicos** y escriba las direcciones de correo electrónico completas de las personas, los [grupos de Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9), los grupos de distribución o los grupos de seguridad. Por ejemplo:
       
-         salesmgrs@contoso.com; sales@contoso.com
+        salesmgrs@contoso.com; sales@contoso.com
       
       Para este tutorial, haga una prueba con su propia dirección de correo electrónico o la de su grupo.
    
-   2.  Llame al paquete de contenido **Oportunidades de ventas**.
+   2. Llame al paquete de contenido **Oportunidades de ventas**.
    
       > [!TIP]
       > Considere incluir el nombre del panel en el nombre del paquete de contenido. De este modo, sus compañeros encontrarán más fácilmente el panel después de conectarse al paquete de contenido.
       > 
       > 
    
-   3.  Se recomienda agregar una **descripción**. Esto ayuda a compañeros de trabajo a encontrar más fácilmente los paquetes de contenido que necesitan. Además de una descripción, agregue palabras clave que sus compañeros de trabajo puedan usar para buscar este paquete de contenido. Incluya información de contacto en caso de que sus compañeros de trabajo tengan una pregunta o necesiten ayuda.
+   3. Se recomienda agregar una **descripción**. Esto ayuda a compañeros de trabajo a encontrar más fácilmente los paquetes de contenido que necesitan. Además de una descripción, agregue palabras clave que sus compañeros de trabajo puedan usar para buscar este paquete de contenido. Incluya información de contacto en caso de que sus compañeros de trabajo tengan una pregunta o necesiten ayuda.
    
-   4.  **Cargue una imagen o logotipo** para facilitar a los miembros del grupo la búsqueda del paquete de contenido, ya que es más rápido buscar una imagen que buscar texto. Hemos usado una imagen del icono del gráfico de columnas Recuento de oportunidades 100 % en la captura de pantalla siguiente.
+   4. **Cargue una imagen o logotipo** para facilitar a los miembros del grupo la búsqueda del paquete de contenido, ya que es más rápido buscar una imagen que buscar texto. Hemos usado una imagen del icono del gráfico de columnas Recuento de oportunidades 100 % en la captura de pantalla siguiente.
    
-   5.  Seleccione el panel **Ejemplo de análisis de oportunidades** para agregarlo al paquete de contenido.  Power BI agrega automáticamente el informe y el conjunto de datos asociados. Si quiere, puede agregar otros.
+   5. Seleccione el panel **Ejemplo de análisis de oportunidades** para agregarlo al paquete de contenido.  Power BI agrega automáticamente el informe y el conjunto de datos asociados. Si quiere, puede agregar otros.
    
       > [!NOTE]
       >  Solo se muestran los paneles, informes, conjuntos de datos y libros que se pueden editar. Por tanto, los que fueron compartidos con usted no están en la lista.
@@ -71,7 +71,7 @@ Imagine que es el jefe de lanzamiento de Contoso y que se está preparando para 
    
    6. Si tiene libros de Excel, estos se muestran en Informes, con un icono de Excel. También puede agregarlos al paquete de contenido.
    
-     ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
+      ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
       > Si los miembros del grupo no pueden ver el libro de Excel, es posible que deba [compartirlo con ellos en OneDrive para la Empresa](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).

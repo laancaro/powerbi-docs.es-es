@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 9988d108c33e086938aca76d088c6852bb1117a4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4aac424d448dcb3e2dd722efe54db99d318ba80
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813305"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599498"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registro de una aplicación de Azure AD para insertar contenido de Power BI
 Aprenda a registrar una aplicación en Azure Active Directory (Azure AD) para su uso con la inserción de contenido de Power BI.
@@ -54,9 +54,8 @@ Aquí se muestra cómo registrar la aplicación con la herramienta de registro d
     Luego se le proporcionará un **Id. de cliente** y, si selecciona **Server-side Web app** (Aplicación web de servidor), recibirá un **secreto de cliente**. El **Id. de cliente** se puede recuperar de Azure Portal más tarde si es necesario. Si pierde el **secreto de cliente**, deberá crear uno nuevo en Azure Portal.
 
 8. Debe ir a Azure para seleccionar **Conceder permisos**.
-> [!Note]
-    > Debe ser administrador global en el inquilino de Azure para completar este proceso.
->
+   > [!Note]
+   > Debe ser administrador global en el inquilino de Azure para completar este proceso.
 
 * Vaya a Azure.
 * Busque y seleccione **Registros de aplicaciones**.
@@ -83,8 +82,8 @@ La otra opción para registrar la aplicación consiste en hacerlo directamente e
     ![](media/register-app/azuread-new-app-registration.png)
 5. Siga las indicaciones y cree una nueva aplicación.
    
-   * Para las aplicaciones web, indique la dirección URL de inicio de sesión, que es la dirección URL base de la aplicación, en la que los usuarios pueden iniciar sesión, como, por ejemplo, http://localhost:13526.
-   * Para aplicaciones nativas, proporcione un URI de redireccionamiento que usará Azure AD para devolver las respuestas de token. Escriba un valor que sea específico para la aplicación como, por ejemplo, http://myapplication/redirect.
+   * Para las aplicaciones web, indique la dirección URL de inicio de sesión, que es la dirección URL base de la aplicación, en la que los usuarios pueden iniciar sesión, como, por ejemplo, `http://localhost:13526`.
+   * Para aplicaciones nativas, proporcione un URI de redireccionamiento que usará Azure AD para devolver las respuestas de token. Escriba un valor que sea específico para la aplicación como, por ejemplo, `http://myapplication/redirect`.
 
 Para más información sobre cómo registrar aplicaciones en Azure Active Directory, consulte [Integración de aplicaciones con Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications)
 
@@ -161,44 +160,44 @@ Tiene que iniciar sesión con la cuenta *maestra*, que se usó para la inserció
    * **AllPrincipals** solo lo puede usar un administrador de inquilinos para conceder permisos en nombre de todos los usuarios del inquilino.
    * **Principal** se usa para conceder permisos en nombre de un usuario específico. En este caso, se debe agregar una propiedad adicional al cuerpo de la solicitud (*principalId={User_ObjectId}*).
     
-    La acción *Conceder permisos* es necesaria para la cuenta maestra para evitar que Azure AD le solicite consentimiento, lo cual no es posible al llevar a cabo un inicio de sesión no interactivo.
+     La acción *Conceder permisos* es necesaria para la cuenta maestra para evitar que Azure AD le solicite consentimiento, lo cual no es posible al llevar a cabo un inicio de sesión no interactivo.
    
-    ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
-    "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
-    ```
+     ```
+     Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+     Authorization: Bearer ey..qw
+     Content-Type: application/json
+     { 
+     "clientId":"{Service_Plan_ID}",
+     "consentType":"AllPrincipals",
+     "resourceId":"c78b2585-1df6-41de-95f7-dc5aeb7dc98e",
+     "scope":"Dataset.ReadWrite.All Dashboard.Read.All Report.Read.All Group.Read Group.Read.All Content.Create Metadata.View_Any Dataset.Read.All Data.Alter_Any",
+     "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+     "startTime":"2017-03-29T14:35:32.4933413+03:00"
+     }
+     ```
 
-5.  Conceder permisos de aplicación a Azure Active Directory (AAD)
+5. Conceder permisos de aplicación a Azure Active Directory (AAD)
    
-    El valor de **consentType** puede proporcionar **AllPrincipals** o **Principal**.
+   El valor de **consentType** puede proporcionar **AllPrincipals** o **Principal**.
 
-    * **AllPrincipals** solo lo puede usar un administrador de inquilinos para conceder permisos en nombre de todos los usuarios del inquilino.
-    * **Principal** se usa para conceder permisos en nombre de un usuario específico. En este caso, se debe agregar una propiedad adicional al cuerpo de la solicitud (*principalId={User_ObjectId}*).
+   * **AllPrincipals** solo lo puede usar un administrador de inquilinos para conceder permisos en nombre de todos los usuarios del inquilino.
+   * **Principal** se usa para conceder permisos en nombre de un usuario específico. En este caso, se debe agregar una propiedad adicional al cuerpo de la solicitud (*principalId={User_ObjectId}*).
     
-    La acción *Conceder permisos* es necesaria para la cuenta maestra para evitar que Azure AD le solicite consentimiento, lo cual no es posible al llevar a cabo un inicio de sesión no interactivo.
+   La acción *Conceder permisos* es necesaria para la cuenta maestra para evitar que Azure AD le solicite consentimiento, lo cual no es posible al llevar a cabo un inicio de sesión no interactivo.
 
- ```
-    Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
-    Authorization: Bearer ey..qw
-    Content-Type: application/json
-    { 
-    "clientId":"{Service_Plan_ID}",
-    "consentType":"AllPrincipals",
-    "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
-    "scope":"User.Read Directory.AccessAsUser.All",
-    "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
-    "startTime":"2017-03-29T14:35:32.4933413+03:00"
-    }
- ```
+   ```
+   Post https://graph.microsoft.com/beta/OAuth2PermissionGrants
+   Authorization: Bearer ey..qw
+   Content-Type: application/json
+   { 
+   "clientId":"{Service_Plan_ID}",
+   "consentType":"AllPrincipals",
+   "resourceId":"61e57743-d5cf-41ba-bd1a-2b381390a3f1",
+   "scope":"User.Read Directory.AccessAsUser.All",
+   "expiryTime":"2018-03-29T14:35:32.4943409+03:00",
+   "startTime":"2017-03-29T14:35:32.4933413+03:00"
+   }
+   ```
 
 ## <a name="next-steps"></a>Pasos siguientes
 Ahora que ha registrado su aplicación en Azure AD, deberá autenticar los usuarios dentro de esta. Consulte [Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación de Power BI](get-azuread-access-token.md).

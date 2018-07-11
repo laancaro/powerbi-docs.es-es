@@ -7,19 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 06/13/2018
 ms.author: maghan
-ms.openlocfilehash: 3b0e9c148b86d8bf762a31cca5c3421df454502d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34481759"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37780603"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 Aquí encontrará los requisitos mínimos de hardware y software para instalar y ejecutar el servidor de informes de Power BI.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Requisitos de procesador, memoria y sistema operativo
+
 | Componente | Requisito |
 | --- | --- |
 | .NET Framework |4.6<br><br>Puede instalar manualmente .NET Framework desde [Microsoft .NET Framework 4.6 (Instalador web) para Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.6, consulte [Guía de implementación de .NET Framework para desarrolladores](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](http://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.6. |
@@ -41,8 +42,6 @@ Se usa SQL Server para hospedar las bases de datos del servidor de informes. La 
 * SQL Server 2016
 * SQL Server 2014
 * SQL Server 2012
-* SQL Server 2008 R2
-* SQL Server 2008
 
 Para crear la base de datos del servidor de informes en un equipo remoto, es necesario que configure la conexión para que use una cuenta de usuario de dominio o una cuenta de servicio que tenga acceso a la red. Si opta por usar una instancia remota de SQL Server, considere detenidamente qué credenciales debe utilizar el servidor de informes para conectarse a la instancia de SQL Server. Para más información, consulte el artículo sobre la [configuración de una conexión de base de datos del servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 

@@ -9,17 +9,17 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: ae8919bbe06c729cc43e230146c4c1a216a80168
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813255"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092561"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Paso 4: Obtener un conjunto de datos para agregar filas a una tabla de Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
-En el **paso 3** de Insertar datos en un conjunto de datos, [Crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md), llamó a la operación [Crear conjunto de datos](https://docs.microsoft.com/rest/api/power-bi/datasets) para crear un conjunto de datos en Power BI. En este paso, usará la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/getdatasets) y Newtonsoft.Json para obtener un identificador de conjunto de datos. Use el identificador de conjunto de datos del paso 4 para agregar filas a un conjunto de datos. 
+En el **paso 3** de Insertar datos en un conjunto de datos, [Crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md), llamó a la operación [Crear conjunto de datos](https://docs.microsoft.com/rest/api/power-bi/datasets) para crear un conjunto de datos en Power BI. En este paso, usará la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) y Newtonsoft.Json para obtener un identificador de conjunto de datos. Use el identificador de conjunto de datos del paso 4 para agregar filas a un conjunto de datos. 
 
 Para insertar datos en un conjunto de datos de Power BI, debe hacer referencia a la tabla en el conjunto de datos. Para hacer referencia a una tabla en un conjunto de datos, primero debe obtener un **identificador de conjunto de datos**. Un **identificador de conjunto de datos** se obtiene mediante la operación [Get Dataset By ID](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasetbyid) (Obtener conjunto de datos por identificador). La operación **Get Dataset By ID** (Obtener conjunto de datos por identificador) devuelve una cadena JSON que contiene una lista de todos los conjuntos de datos de Power BI. La manera recomendada para deserializar una cadena JSON es con [Newtonsoft.Json](http://www.newtonsoft.com/json).
 

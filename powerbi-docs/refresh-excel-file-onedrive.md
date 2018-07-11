@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: b7a49a04ed344d6977dba5ac739c0f0d41aca5b9
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 6be8c6b5837fc9e9a0b8456b7c545e7f942eabe5
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239139"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092216"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos creado a partir de un libro de Excel en OneDrive o SharePoint Online
 Puede importar libros de Excel almacenados en el equipo local o en el almacenamiento en nube, como OneDrive para la Empresa o SharePoint Online. Aquí veremos las ventajas de usar el almacenamiento en nube para los archivos de Excel. Para obtener más información sobre cómo importar archivos de Excel en Power BI, vea [Obtención de datos de archivos de libro de Excel](service-excel-workbook-files.md).
@@ -45,7 +45,7 @@ En Power BI, se admite la actualización inmediata y la programación de actuali
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive o OneDrive para la Empresa. ¿Cuál es la diferencia?
 Si tiene OneDrive personal y OneDrive para la Empresa, se recomienda que mantenga los archivos que quiere importar en Power BI en OneDrive para la Empresa. Esta es la razón: es probable que use dos cuentas diferentes para iniciar sesión en ambos.
 
-La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problemas, ya la cuenta que se usa para iniciar sesión en Power BI suele ser la misma que se usa para hacerlo en OneDrive para la Empresa. No obstante, con OneDrive personal, es probable que inicie sesión con otra [cuenta Microsoft](http://www.microsoft.com/account/default.aspx).
+La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problemas, ya la cuenta que se usa para iniciar sesión en Power BI suele ser la misma que se usa para hacerlo en OneDrive para la Empresa. No obstante, con OneDrive personal, es probable que inicie sesión con otra [cuenta Microsoft](https://account.microsoft.com).
 
 Si inicia sesión con su cuenta Microsoft, asegúrese de seleccionar Mantener la sesión iniciada. Posteriormente, Power BI podrá sincronizar todas las actualizaciones que realice en el archivo en Power BI Desktop con los conjuntos de datos de Power BI.  
     ![](media/refresh-excel-file-onedrive/refresh_signin_keepmesignedin.png)

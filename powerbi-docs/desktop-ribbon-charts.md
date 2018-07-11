@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 3575a94ede595b4d83fef0cddcbb279ea7a533c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0e0f9e857816b44782831640a74801b515919bae
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285540"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136764"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Uso de gráficos de cinta de opciones en Power BI
 Puede usar gráficos de cinta de opciones en **Power BI** para visualizar y determinar rápidamente qué categoría de datos tiene la clasificación más alta (valor más grande). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo. Los gráficos de cinta de opciones están disponibles en **Power BI Desktop** a partir de la versión de septiembre de 2017 y en las actualizaciones posteriores del **servicio Power BI**.
@@ -44,7 +44,7 @@ Estas opciones de formato para los gráficos de cinta de opciones le permiten aj
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información acerca de **Power BI Desktop** y cómo empezar a trabajar, consulte los siguientes artículos.
 
-* [Introducción a Power BI Desktop](desktop-getting-started.md)
+* [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 * [Información general sobre consultas con Power BI Desktop](desktop-query-overview.md)
 * [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
 * [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md)

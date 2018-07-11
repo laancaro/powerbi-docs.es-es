@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 641a4f457782711902ee7e2414cb9afffb391afc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 32b21e23a6cc4a5e6d9ae4915ddc56f9f9957d14
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286345"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599658"
 ---
 # <a name="create-power-bi-visuals-using-r"></a>Crear objetos visuales de Power BI con R
 Con **Power BI Desktop**, puede usar **R** para visualizar los datos.
@@ -81,9 +81,9 @@ Cuando se especifica la instalación de R, ya está listo para empezar a crear o
    * Al seleccionar **Ejecutar** en la barra de título del **editor de scripts de R**
    * Siempre que se produce un cambio de datos, debido a la actualización, filtrado o resaltado de datos
 
-    La imagen siguiente muestra un ejemplo del código de trazado de correlación y traza las correlaciones entre atributos de distintos tipos de automóviles.
+     La imagen siguiente muestra un ejemplo del código de trazado de correlación y traza las correlaciones entre atributos de distintos tipos de automóviles.
 
-    ![](media/desktop-r-visuals/r-visuals-6.png)
+     ![](media/desktop-r-visuals/r-visuals-6.png)
 
 5. Para obtener una vista mayor de las visualizaciones, puede minimizar el **editor de scripts de R**. Por supuesto, al igual que con otros objetos visuales de **Power BI Desktop**, puede aplicar un filtro cruzado al trazado de correlación. Para ello, seleccione solo los automóviles deportivos en el objeto visual de anillo (el objeto visual redondo de la derecha, en la imagen de ejemplo anterior).
 

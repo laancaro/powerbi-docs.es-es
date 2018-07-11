@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 331dc45f3049fe77145b86ffafd363162c74a589
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813811"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944661"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usar temas de panel en el servicio Power BI
 Con los **temas de panel** se puede aplicar un tema de color a todo un panel, como por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que quiera aplicar. Al aplicar un **tema de panel**, todos los objetos visuales del panel usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -89,7 +89,6 @@ Al igual que las opciones integradas y personalizadas, cuando se carga el tema, 
 
     ![Usar el tema de destino](media/service-dashboard-themes/power-bi-use-destination.png)
 
-* Los temas de panel no son compatibles cuando el panel insertado mediante la API de REST se visualiza en dispositivos móviles o por parte de usuarios externos.    
 * Los temas de panel no se pueden aplicar a páginas de informes activos, iconos de iframe, iconos de SSRS, iconos de libro o imágenes cuando están anclados.
 * Los temas de panel pueden visualizarse en dispositivos móviles, pero un tema de panel solo se puede crear en el servicio Power BI. 
 * Los temas de panel personalizados solo funcionan con iconos que se anclaron desde informes. 

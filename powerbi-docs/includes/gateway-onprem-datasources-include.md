@@ -1,4 +1,5 @@
 ## <a name="list-of-available-data-source-types"></a>Lista de tipos de orígenes de datos disponibles
+
 | **Origen de datos** | **Dinámica/DirectQuery** | **Actualización programada o manual configurada por el usuario** |
 | --- | --- | --- | --- |
 | Modelo tabular de Analysis Services |Sí |Sí |

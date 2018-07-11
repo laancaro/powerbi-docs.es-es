@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8716e6b5b75c7cd3db1b8daecfaae240f0647a50
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34297271"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945144"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->
@@ -787,8 +787,6 @@ En general, los gráficos de líneas, columnas o barras serán adecuados para us
 Explica la única vez en que los gráficos circulares pueden ser útiles: al comparar las relaciones de una parte con un entero. Pero esto resulta pocas veces mucho mejor que, por ejemplo, un gráfico de barras 100 % apiladas.
 
 Otro artículo interesante (con una animación) sobre los gráficos circulares se encuentra en el [sitio de Darkhorse Analytics](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
-
-También puede leer un punto de vista opuesto, [Por qué Tufte no tiene la razón sobre los gráficos circulares](http://speakingppt.com/2013/03/18/why-tufte-is-flat-out-wrong-about-pie-charts/).
 
 #### <a name="radial-gauges--kpis"></a>Medidores radiales y KPI
 ![](media/power-bi-visualization-best-practices/power-bi-gauge.png)

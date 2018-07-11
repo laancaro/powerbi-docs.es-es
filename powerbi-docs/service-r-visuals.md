@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fd4198bb6b826f8d4af22e83e313c4c0b8101024
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 016237c95d3494435931e143ff34dbe4a82abb55
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299318"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599675"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Crear objetos visuales R en el servicio Power BI
 El servicio Power BI permite ver e interactuar con objetos visuales creados con scripts R. Los objetos visuales creados con scripts R, normalmente denominados *objetos visuales R*, pueden presentar forma de datos y análisis avanzados como la previsión, con análisis enriquecidos y la potencia de visualización de R.
@@ -37,7 +37,7 @@ Una vez creado el informe en **Power BI Desktop**, puede publicar el informe que
 
 Tenga en cuenta que en el servicio no son compatibles todos los paquetes R. Vea los paquetes compatibles al final de este artículo para obtener la lista de paquetes que se admiten actualmente en el servicio Power BI.
 
-Puede descargar este [archivo de ejemplo de Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample SL.pbix) (archivo .pbix) que contiene algunos objetos visuales R para ver cómo funciona y experimentar.
+Puede descargar este [archivo de ejemplo de Power BI Desktop](http://download.microsoft.com/download/D/9/A/D9A65269-D1FC-49F8-8EC3-1217E3A4390F/RVisual_correlation_plot_sample%20SL.pbix) (archivo .pbix) que contiene algunos objetos visuales R para ver cómo funciona y experimentar.
 
 Los objetos visuales R se crean en **Power BI Desktop** y, después, se publican en el servicio Power BI. La mayor parte de las veces se comportan como cualquier otro objeto visual en el servicio Power BI: puede interactuar, filtrar, segmentar y anclarlos en un panel o compartirlos con otras personas. Para obtener más información sobre cómo compartir paneles y objetos visuales, consulte [Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md). Una diferencia con otros objetos visuales es que los objetos visuales R no pueden mostrar información sobre herramientas y no se pueden usar para filtrar otros objetos visuales.
 

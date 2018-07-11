@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 07db52bd2ffd881417f7ff59647c6779f7dc6bce
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248351"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598987"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar o quitar un icono de panel
 
@@ -35,12 +35,12 @@ En este artículo se tratan los temas siguientes:
 * [Anclaje de un icono en un panel diferente](#different)
 * [Eliminación de un icono](#delete)
   
- > [!TIP]
- > Para cambiar la visualización que aparece en el icono, elimínelo y agregue un nuevo [icono de panel](service-dashboard-tiles.md).
- > 
+  > [!TIP]
+  > Para cambiar la visualización que aparece en el icono, elimínelo y agregue un nuevo [icono de panel](service-dashboard-tiles.md).
 
- ### <a name="prerequisites"></a>Requisitos previos
- 1. Para seguir el tutorial, abra el servicio Power BI (no Power BI Desktop) y [descargue el Ejemplo de análisis de gastos de TI](sample-it-spend.md). Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**.
+  
+## <a name="prerequisites"></a>Requisitos previos
+Para seguir el tutorial, abra el servicio Power BI (no Power BI Desktop) y [descargue el Ejemplo de análisis de gastos de TI](sample-it-spend.md). Cuando aparezca el mensaje de operación correcta, seleccione **Ir al panel**.
 
 - - -
 <a name="create"></a>

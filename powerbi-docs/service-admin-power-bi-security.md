@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: d3b3e077ac3dadf92a1c25d3704a4f59adea588b
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34296236"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598874"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 Para obtener una explicación detallada de la seguridad de Power BI, [descargue las notas del producto de seguridad de Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
@@ -48,7 +48,7 @@ La línea de puntos en la imagen del clúster del **back-end** anterior aclara e
 ## <a name="user-authentication"></a>Autenticación de usuarios
 Power BI usa Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta obtener acceso a recursos que requieren autenticación. Los usuarios inician sesión en el servicio de Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario eficaz*, que pasa a recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario establecido* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
 
-Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como *david@contoso.com*, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como *david@contoso.onmicrosoft.com*, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](https://technet.microsoft.com/library/jj573653.aspx) para funcionar correctamente.
+Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.com</em>, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.onmicrosoft.com</em>, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](https://technet.microsoft.com/library/jj573653.aspx) para funcionar correctamente.
 
 La seguridad de la plataforma de Power BI también incluye una seguridad de entorno de varios inquilinos, una seguridad de red y la capacidad de agregar medidas de seguridad basadas en AAD.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/06/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3550a3fc0cfc51b61e1d7e51a50c2a36325f2388
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: 2547be7f7bdadb7f991db54230d4fd791941838d
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250652"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37600076"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Combinar o anexar orígenes de datos locales o en la nube
 
@@ -38,17 +38,17 @@ La puerta de enlace de datos local le permite combinar o anexar orígenes de dat
 
 4. En este clúster de puerta de enlace, agregue cualquier [origen de datos local](service-gateway-enterprise-manage-scheduled-refresh.md#add-a-data-source) empleado en las consultas. No es necesario agregar aquí los orígenes de datos de nube.
 
-4. Cargue en el servicio Power BI el archivo de Power BI Desktop con las consultas que combinan orígenes de datos locales y en la nube.
+5. Cargue en el servicio Power BI el archivo de Power BI Desktop con las consultas que combinan orígenes de datos locales y en la nube.
 
-5. En la página **Configuración del conjunto de datos** del conjunto de datos nuevo:
+6. En la página **Configuración del conjunto de datos** del conjunto de datos nuevo:
 
-    - Para el origen local, seleccione la puerta de enlace asociada a este origen de datos.
+   - Para el origen local, seleccione la puerta de enlace asociada a este origen de datos.
 
-    - En **Credenciales del origen de datos**, edite las credenciales del origen de datos en la nube según sea necesario.
+   - En **Credenciales del origen de datos**, edite las credenciales del origen de datos en la nube según sea necesario.
 
-    ![Configuración del conjunto de datos](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
+     ![Configuración del conjunto de datos](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-6. Con las credenciales en la nube establecidas, ahora puede actualizar el conjunto de datos con la opción **Actualizar ahora** o programarlo para que se actualice periódicamente.
+7. Con las credenciales en la nube establecidas, ahora puede actualizar el conjunto de datos con la opción **Actualizar ahora** o programarlo para que se actualice periódicamente.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

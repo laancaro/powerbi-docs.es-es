@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 377ea4acc1a6fb41101571ac3ed0be2f3e50889b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 872045a52f2f13829d26de8dd288ac723dcd2788
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246166"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599537"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
 Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
 
 > **Sugerencia**: para crear un informe mediante la copia de un informe existente, consulte [Copia de un informe](power-bi-report-copy.md)
 > 
-### <a name="prerequisites"></a>Requisitos previos
-- Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md))  
-- Conjunto de datos de ejemplo Retail Analysis
+> ### <a name="prerequisites"></a>Requisitos previos
+> - Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md))  
+> - Conjunto de datos de ejemplo Retail Analysis
 
 ## <a name="import-the-dataset"></a>Importación del conjunto de datos
 Este método de creación de informes comienza con un conjunto de datos y un lienzo de informe en blanco. Para seguir el tutorial, [descargue el conjunto de datos de Excel Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkId=529778) y guárdelo en OneDrive para la Empresa (opción preferida) o localmente.

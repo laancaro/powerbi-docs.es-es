@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 606ef1f1c69643852a94a7d83ece93cca8940e7a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 175852a05c4964e6a476abf50684d9ffc12c4468
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34309932"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599878"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
@@ -313,7 +313,7 @@ El servicio **Power BI** muestra la primera página del informe. En la parte inf
 
 Puede realizar cambios en un informe del servicio **Power BI** seleccionando **Editar informe** desde la parte superior del lienzo de informe.
 
-Para guardar el informe, seleccione **Archivo \> Guardar como** desde el servicio. Puede crear todo tipo de efectos visuales interesantes en el servicio **Power BI** de su informe para anclarlos a un *panel*. Para más información sobre los paneles del servicio **Power BI****[, consulte las Sugerencias para diseñar un excelente panel](service-dashboards-design-tips.md)**.
+Para guardar el informe, seleccione **Archivo \> Guardar como** desde el servicio. Puede crear todo tipo de efectos visuales interesantes en el servicio **Power BI** de su informe para anclarlos a un *panel*. Para más información sobre los paneles del servicio **Power BI**<strong>[, consulte las Sugerencias para diseñar un excelente panel](service-dashboards-design-tips.md)</strong>.
 
  ![](media/desktop-getting-started/gsg_share5.png)
 

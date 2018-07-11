@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: aa4bc70fa67af4e3b82b8ed9a4eb16851d98eaeb
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297156"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599190"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
@@ -52,7 +52,7 @@ Si quita una puerta de enlace, también se eliminarán los orígenes de datos qu
 
 1. Seleccione el icono de engranaje ![](media/service-gateway-enterprise-manage-ssas/pbi_gearicon.png) en la esquina superior derecha > **Administrar puertas de enlace**.
 2. Puerta de enlace >**Quitar**
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/datasourcesettings7.png)
 
 ## <a name="add-a-data-source"></a>Elegir un origen de datos
@@ -119,15 +119,13 @@ Para llegar a la pantalla de asignación de UPN, haga lo siguiente.
 2. Expanda la puerta de enlace que contiene el origen de datos de Analysis Services. O bien, si no ha creado el origen de datos de Analysis Services, puede hacerlo en este momento.
 3. Seleccione el origen de datos y luego elija la ficha **Usuario**.
 4. Seleccione **Asignar nombres de usuario**.
-   
+
     ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_02.png)
 
 Verá entonces opciones para agregar reglas, así como una prueba para un usuario determinado.
 
 > [!NOTE]
-> Puede cambiar involuntariamente un usuario que no quería. Por ejemplo, si su **Reemplazar (valor original)** es *@contoso.com* y su **Por (nombre)** es *@contoso.local*, todos los usuarios con un inicio de sesión que contenga *@contoso.com* se reemplazarán por *@contoso.local*. Además, si su **Reemplazar (nombre original)** es *dave@contoso.com* y su **Por (nombre)** es *dave@contoso.local*, un usuario con el inicio de sesión de v-dave@contoso.com se enviaría como v-dave*@contoso.local*.
-> 
-> 
+> Puede cambiar involuntariamente un usuario que no quería. Por ejemplo, si su **Reemplazar (valor original)** es <em>@contoso.com</em> y su **Por (nombre)** es <em>@contoso.local</em>, todos los usuarios con un inicio de sesión que contenga <em>@contoso.com</em> se reemplazarán por <em>@contoso.local</em>. Además, si su **Reemplazar (nombre original)** es <em>dave@contoso.com</em> y su **Por (nombre)** es <em>dave@contoso.local</em>, un usuario con el inicio de sesión de v-dave@contoso.com se enviaría como v-dave<em>@contoso.local</em>.
 
 ### <a name="ad-lookup-mapping"></a>Asignación de búsqueda de AD
 Para realizar una búsqueda de la propiedad de AD local para reasignar los UPN de AAD a los usuarios de Active Directory, siga los pasos descritos en esta sección. Para comenzar, revisemos su funcionamiento.
@@ -147,17 +145,17 @@ En la puerta de enlace de datos local con asignación de usuario personalizado c
 2. Busque el atributo de la persona de AD (como *Correo electrónico*) en función de la cadena del UPN entrante ("firstName.lastName@contoso.com") del **servicio Power BI**.
 3. Si se produce un error en la búsqueda de AD, intenta utilizar el UPN que se ha pasado como EffectiveUser a SSAS.
 4. Si la búsqueda de AD se realiza correctamente, recupera *UserPrincipalName* de esa persona de AD. 
-5. Pasa el correo electrónico *UserPrincipalName* como *EffectiveUser* a SSAS, como: *Alias@corp.on-prem.contoso*
+5. Pasa el correo electrónico *UserPrincipalName* como *EffectiveUser* a SSAS, como: <em>Alias@corp.on-prem.contoso</em>
 
 Cómo configurar la puerta de enlace para realizar la búsqueda de AD:
 
 1. Descargue e instale la puerta de enlace más reciente.
 2. En la puerta de enlace, debe cambiar el **servicio de puerta de enlace de datos local** para que se ejecute con una cuenta de dominio (en lugar de con una cuenta de servicio local; en caso contrario, la búsqueda de AD no funcionará correctamente en el runtime). Para que el cambio se aplique, habrá que reiniciar el servicio de puerta de enlace.  Vaya a la aplicación Gateway en su equipo (busque "puerta de enlace de datos local"). Para ello, vaya a **Configuración del servicio > Cambiar cuenta de servicio**. Asegúrese de que tiene la clave de recuperación para esta puerta de enlace, ya que necesitará restaurarla en el mismo equipo, a menos que desee crear una nueva puerta de enlace en su lugar. 
 3. Navegue hasta la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local* como administrador, para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente:
-   
+
        Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 4. Edite los dos valores de configuración siguientes según *sus* configuraciones de atributos de Active Directory de los usuarios de AD. Los valores de configuración que se muestran a continuación son solo ejemplos: es necesario especificarlos según la configuración de Active Directory. 
-   
+
    ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
 5. Reinicie el servicio de **puerta de enlace de datos local** para que se aplique el cambio en la configuración.
 

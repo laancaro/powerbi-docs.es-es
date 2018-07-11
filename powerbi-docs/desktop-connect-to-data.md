@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 50a5d3d97e90879dcb542c441f129f468a95c6c7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4b1077b62baeee2412620e6ee2aa6aabc6838863
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34285563"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136396"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Conectarse a los datos en Power BI Desktop
 Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en continua expansión. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
@@ -67,7 +67,7 @@ Por supuesto, este es un modelo simple con una sola conexión de datos. La mayor
 ### <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
 
-* [Introducción a Power BI Desktop](desktop-getting-started.md)
+* [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 * [Información general sobre consultas con Power BI Desktop](desktop-query-overview.md)
 * [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
 * [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)

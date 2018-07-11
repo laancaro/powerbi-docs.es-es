@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6d0a1afe27372c808e63adb34fda96e978b2e2be
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c25a402138c209eb6a4a36bf39865c30c1c0e5b9
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721395"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598951"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 En este artículo se analiza en profundidad el panel Filtros del informe. Verá el panel en la [vista de edición y la vista de lectura del servicio Power BI](service-reading-view-and-editing-view.md) y en la [vista de informe de Power BI Desktop](desktop-report-view.md).
@@ -77,7 +77,7 @@ Para mostrar las opciones de un filtro determinado, seleccione la flecha hacia a
 ## <a name="add-a-filter"></a>Agregar un filtro
 * En la vista de edición de Desktop y del servicio Power BI, agregue un filtro a un objeto visual, página, obtención de detalles o informe seleccionando un campo desde el panel Campos y arrastrándolo al área del filtro apropiado, donde verá las palabras **Arrastre los campos aquí**. Cuando haya agregado un campo como filtro, modifíquelo con los controles Filtrado básico y Filtrado avanzado, descritos a continuación.
 
-- **El hecho de arrastrar un nuevo campo en el área del filtro de nivel objeto visual no agrega el campo al objeto visual**, pero le permite filtrar el objeto visual por este nuevo campo. En el ejemplo siguiente se agrega **Cadena** como nuevo filtro al objeto visual. Tenga en cuenta que, aunque agregue **Cadena** como filtro, el objeto visual no se alterará hasta que use los controles Filtrado básico o Filtrado avanzado.
+* **El hecho de arrastrar un nuevo campo en el área del filtro de nivel objeto visual no agrega el campo al objeto visual**, pero le permite filtrar el objeto visual por este nuevo campo. En el ejemplo siguiente se agrega **Cadena** como nuevo filtro al objeto visual. Tenga en cuenta que, aunque agregue **Cadena** como filtro, el objeto visual no se alterará hasta que use los controles Filtrado básico o Filtrado avanzado.
 
     ![](media/power-bi-how-to-report-filter/power-bi-visual-filter.gif)
 
