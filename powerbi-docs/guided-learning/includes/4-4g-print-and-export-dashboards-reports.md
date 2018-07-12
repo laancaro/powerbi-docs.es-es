@@ -1,4 +1,4 @@
-En ocasiones, es posible que tenga que llevar un informe o un panel impresos a una reunión para compartirlos con los demás asistentes. Con Power BI, ya hace un tiempo que puede hacer copias impresas de los objetos visuales.
+En ocasiones, es posible que tenga que llevar un informe o un panel impresos a una reunión para compartirlos con los demás asistentes. Con Power BI, dispone de varios métodos para crear copias impresas de los objetos visuales.
 
 En el servicio Power BI, seleccione el menú de los puntos suspensivos de la parte superior derecha del servicio y seleccione **Imprimir panel**.
 
