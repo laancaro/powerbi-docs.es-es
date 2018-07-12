@@ -1,6 +1,6 @@
 Si desea realizar un seguimiento de los datos esté donde esté, puede utilizar una de las aplicaciones móviles de Power BI para dispositivos iOS, Android y Windows.
 
-Para utilizar la aplicación Power BI, primero debe iniciar sesión en su cuenta con la información de la cuenta del servicio Power BI. En los dispositivos móviles Windows (en este caso una tableta), el inicio de sesión tendrá el siguiente aspecto.
+Para usar la aplicación Power BI, primero debe iniciar sesión en su cuenta con la información de la cuenta del servicio Power BI. En los dispositivos móviles Windows (en este caso una tableta), el inicio de sesión tendrá el siguiente aspecto.
 
 ![](media/4-4a-power-bi-mobile/4-4a_1.png)
 
