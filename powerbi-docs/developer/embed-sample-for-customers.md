@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: d9e2f76c63ee9ebff01080686277a3fbb5af46f3
-ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
+ms.openlocfilehash: a8833cb6b41ea76d50814975ada6239690a0c196
+ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/07/2018
-ms.locfileid: "37900086"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38877427"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Inserción de un informe, un panel o un icono de Power BI en una aplicación para los clientes
 Con **Power BI Embedded en Azure**, puede insertar informes, paneles o iconos en una aplicación con una **aplicación que posee los datos**. Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Este suele ser el caso de los **desarrolladores proveedores de software independientes (ISV)**. Como **desarrollador ISV**, puede crear contenido de Power BI que muestre informes, paneles o iconos en una aplicación completamente integrada e interactiva, sin necesidad de que los usuarios de la aplicación dispongan de una licencia de Power BI ni que sean conscientes del uso de esta plataforma. En este tutorial se explica cómo integrar un informe en una aplicación con el SDK de .NET para **Power BI** junto con la API de JavaScript para **Power BI** al usar **Power BI Embedded en Azure** para los clientes que usan una **aplicación que posee los datos**.
@@ -54,7 +54,7 @@ La aplicación se registra en Azure Active Directory para permitir que esta acce
     ![Búsqueda de registro de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nuevo registro de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
 
-4. Siga las indicaciones y cree una nueva aplicación. Para las aplicaciones que poseen datos debe usar el tipo de aplicación **Nativa**. También debe proporcionar un **URI de redirección** que usará **Azure AD** para devolver las respuestas de token. Escriba un valor que sea específico de la aplicación, como, por ejemplo, `http://localhost:13526/redirect`.
+4. Siga las indicaciones y cree una nueva aplicación. Para las aplicaciones que poseen datos debe usar el tipo de aplicación **Nativa**. También debe proporcionar un **URI de redirección** que usará **Azure AD** para devolver las respuestas de token. Escriba un valor que sea específico de la aplicación, como, por ejemplo, `http://localhost:13526/Redirect`.
 
     ![Crear aplicación](media/embed-sample-for-customers/embed-sample-for-customers-005.png)
 
