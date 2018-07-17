@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/05/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 53c4250949a696f4abbd0722cf89207f2c8d37c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 166d61c78f8e85a91dafa5de698d782b456834a7
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813857"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37601646"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -255,7 +255,7 @@ Los vínculos situados junto a cada actualización significan lo siguiente:
 * Al tratar los detalles de la característica, los extractos de **[vídeo]** se reproducen en una nueva pestaña del explorador.
 * Algunas características cuentan con un **[artículo]** en el que se proporciona más información.
 * La mayoría de las características se explican en la entrada de **[blog]** de la actualización mensual.
--   Por último, algunas características son tan explícitas que no son necesarios artículos, vídeos ni explicaciones adicionales.
+* Por último, algunas características son tan explícitas que no son necesarios artículos, vídeos ni explicaciones adicionales.
 
 También puede ver el vídeo de este mes sobre las **últimas actualizaciones** desde el principio, dentro de este mismo artículo, haciendo clic en el icono de **reproducción** de la imagen de vídeo bajo la lista de actualizaciones.
 
@@ -1844,15 +1844,15 @@ A continuación se describen las características que se han agregado o mejorado
     -   Mejora de la experiencia de previsualización para orígenes multidimensionales (Analysis Services y SAP BusinessObjects)
     -   Opción para mostrar los elementos seleccionados
     -   Funcionalidades de búsqueda mejoradas en el árbol de navegación
--   Nuevas transformaciones
-    -   Operaciones de edad y de resta para las columnas de fecha/hora
-    -   Columnas agregadas: opción para deshabilitar el prefijo de las nuevas columnas
--   Mejoras de la lista de campos
-    -   Posibilidad de expandir o contraer tablas
-    -   Campos para ocultar/mostrar
-    -   Diseño optimizado (espaciado, márgenes y fuentes)
--   Navegación de páginas de informe: soporte técnico de teclado
--   Numerosas correcciones de errores
+- Nuevas transformaciones
+  -   Operaciones de edad y de resta para las columnas de fecha/hora
+  -   Columnas agregadas: opción para deshabilitar el prefijo de las nuevas columnas
+- Mejoras de la lista de campos
+  -   Posibilidad de expandir o contraer tablas
+  -   Campos para ocultar/mostrar
+  -   Diseño optimizado (espaciado, márgenes y fuentes)
+- Navegación de páginas de informe: soporte técnico de teclado
+- Numerosas correcciones de errores
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/-bZFeS1S1wU" frameborder="0" allowfullscreen></iframe>
 

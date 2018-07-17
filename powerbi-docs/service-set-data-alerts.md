@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 321e66fd5ed185a92c98bf7832dc3b71944be98d
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34689723"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137647"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de datos en el servicio Power BI
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
 
-Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro, o si se ha compartido con usted un panel desde una [capacidad Premium](service-premium.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo sobre medidores, KPI y tarjetas. Las alertas se pueden establecer en objetos visuales creados a partir de conjuntos de datos de streaming que se hayan anclado desde un informe a un panel, pero no se pueden establecer en iconos de streaming creados directamente en el panel a través de **Agregar icono** > **Datos de transmisión personalizados**. 
+Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o si se ha compartido con usted un panel desde una [capacidad Premium](service-premium.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo sobre medidores, KPI y tarjetas. Las alertas se pueden establecer en objetos visuales creados a partir de conjuntos de datos de streaming que se hayan anclado desde un informe a un panel, pero no se pueden establecer en iconos de streaming creados directamente en el panel a través de **Agregar icono** > **Datos de transmisión personalizados**. 
 
 Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com) - [Pruébelo](service-flow-integration.md).
 
@@ -104,6 +104,6 @@ Hay varias maneras de administrar las alertas: desde el icono del panel, desde e
 ## <a name="next-steps"></a>Pasos siguientes
 [Crear un flujo de Microsoft Flow que incluya una alerta de datos](service-flow-integration.md)    
 [Establecer alertas de datos en dispositivos móviles](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[Introducción a Power BI](service-get-started.md)    
+[¿Qué es Power BI?](power-bi-overview.md)    
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

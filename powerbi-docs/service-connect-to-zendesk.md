@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 997dd8b598e67d590723c72fb35245c3b3486c8b
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: afcaae9499aa1c7e1461030cfa6b5d7b35a47188
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242455"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136028"
 ---
 # <a name="connect-to-zendesk-with-power-bi"></a>Conexión a Zendesk con Power BI
 El paquete de contenido de Zendesk ofrece un panel de Power BI y un conjunto de informes de Power BI que proporcionan información acerca de los volúmenes de vales y el rendimiento del agente. Puede usar el panel y los informes proporcionados, o bien personalizarlos para resaltar la información que más le interesa.  Los datos se actualizarán automáticamente una vez al día. 
@@ -84,6 +84,6 @@ La dirección URL de Zendesk coincidirá con la dirección URL que usa para inic
 Si tiene problemas para conectarse, compruebe la dirección URL de Zendesk y confirme que está usando una cuenta de administrador de Zendesk.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power BI](service-get-started.md)
+* [¿Qué es Power BI?](power-bi-overview.md)
 * [Obtener datos](service-get-data.md)
 

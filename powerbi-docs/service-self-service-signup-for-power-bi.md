@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 060bebbc79db02d28755cc7832f4a4ef3d2d578f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: abc53080456e27e58d8b9519c9d6543e66142780
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299502"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926499"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registro en Power BI como usuario individual
 Obtenga información acerca de cómo registrarse en Power BI y empezar a usarlo para sus necesidades de informes y visualización.
@@ -32,8 +32,7 @@ Como usuario individual tiene varias opciones para registrarse y comenzar a usar
 Si forma parte de una organización existente, que usa Office 365, todavía puede registrarse para una cuenta gratuita. El administrador de TI también dispone de algunas opciones para adquirir Power BI Pro y asignar licencias. Para más información acerca de las opciones que están disponibles como un administrador de TI, consulte [Adquisición de Power BI Pro](service-admin-purchasing-power-bi-pro.md).
 
 > [!NOTE]
-> Si trabaja en una organización, puede que el registro individual esté deshabilitado. Consulte [Se desactivó el registro individual](#individual-sign-up-has-been-turned-off) para obtener más información si obtiene un error que indica que se ha desactivado.
->
+> Si trabaja en una organización, puede que el registro individual esté deshabilitado. Si recibe un error en el que se indica que el registro está deshabilitado, póngase en contacto con el departamento de TI para obtener más información.
 
 ## <a name="what-you-need-to-sign-up"></a>¿Qué necesita para registrarse?
 
@@ -69,16 +68,16 @@ Para registrarse en Power BI, puede hacer lo siguiente.
 
 1. Vaya a [powerbi.com](https://powerbi.microsoft.com).
 2. Seleccione **Comenzar gratis** o **Regístrese gratis**.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup1.png)
 3. En la página de introducción, seleccione **Probar gratis >** en Power BI.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup2.png)
 4. Escriba la dirección de correo electrónico con la que va a registrarse y, a continuación, seleccione **Registrarse**. Asegúrese de que su dirección de correo electrónico es válida para el registro. Para más información sobre la dirección de correo electrónico que puede usar, consulte [¿Qué dirección de correo electrónico se puede usar con Power BI?](#what-email-address-can-be-used-with-power-bi).
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup3.png)
 5. Obtendrá un mensaje indicándole que revise su correo electrónico.
-   
+
     ![](media/service-self-service-signup-for-power-bi/powerbi-free-signup4.png)
 6. Seleccione el vínculo en el mismo para verificar su dirección de correo electrónico. Esto le devolverá al flujo de registro. Quizás deba proporcionar información adicional sobre sí mismo.
 7. Después, se le conducirá a https://app.powerbi.com y podrá empezar a usar Power BI gratis.
@@ -123,7 +122,7 @@ Después, puede seleccionar **Iniciar período de prueba**.
 > 
 
 ### <a name="what-this-looks-like-within-the-service"></a>Aspecto dentro del servicio
-Cuando esté en el servicio, puede comprobar que tiene una cuenta de prueba de Power BI Pro; para ello, vaya al icono de **engranaje* y seleccione **Administrar almacenamiento personal**.
+Cuando esté en el servicio, para comprobar que tenga una cuenta de prueba Pro, vaya al icono de <strong>engranaje* y seleccione **Administrar almacenamiento personal</strong>.
 
 ![](media/service-self-service-signup-for-power-bi/powerbi-pro-trial3.png)
 
@@ -133,11 +132,12 @@ No se puede obtener la licencia de Power BI Pro como usuario individual. Debe ha
 ## <a name="troubleshooting"></a>Solución de problemas
 En muchos casos, el registro en Power BI se realiza mediante el sencillo proceso de registro de autoservicio. Sin embargo, hay varios motivos por los que es posible que no pueda completar la suscripción sin intervención del administrador.  En la tabla siguiente se resumen algunas de las razones más comunes por las que no puede completar la suscripción y las formas en que puede solucionar estos problemas.
 
-| **Síntoma o mensaje de error** | **Causa y solución alternativa** |
-| --- | --- |
-| **Direcciones de correo electrónico (por ejemplo, nancy@gmail.com)** Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *Escribió una dirección de correo electrónico personal: escriba su dirección de correo electrónico del trabajo para que podamos almacenar con seguridad los datos de su compañía.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* |Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. <br /><br /> Para completar la suscripción, inténtelo de nuevo usando una dirección de correo electrónico asignada, profesional o educativa. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Invite la cuenta de usuario como [invitado de Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b). |
-| **Suscripción de autoservicio deshabilitada** Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *No podemos completar la suscripción. El departamento de TI desactivó la suscripción de Microsoft Power BI. Póngase en contacto con ellos para completar la suscripción.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* |El administrador de TI de su organización ha deshabilitado la suscripción de autoservicio para Power BI. <br /><br /> Para completar la suscripción, póngase en contacto con el Administrador de TI y pídale que siga las instrucciones en la página siguiente para permitir que los usuarios existentes se suscriban a Power BI y para permitir que los nuevos usuarios se unan a su inquilino existente. <br/><br/> También puede experimentar este problema si se suscribió a Office 365 a través de un asociado. [Más información](service-admin-syndication-partner.md) <br /><br /> [Power BI en su organización](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant) |
-| **La dirección de correo electrónico no es un identificador de Office 365** Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *No lo hemos encontrado en contoso.com.  ¿Usa un identificador diferente en el trabajo o en el colegio? <br /><br /> Pruebe a iniciar sesión con el identificador y, si no funciona, póngase en contacto con el departamento de TI.* |Su organización usa identificadores para iniciar sesión en Office 365 y otros servicios de Microsoft que son diferentes de su dirección de correo electrónico.  Por ejemplo, su dirección de correo electrónico podría ser Nancy.Smith@contoso.com pero el identificador es nancys@contoso.com. <br /><br /> Para completar la suscripción, use el identificador que la organización le ha asignado para iniciar sesión en Office 365 o en otros servicios de Microsoft.  Si no sabe cuál es, póngase en contacto con el administrador de TI. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use esa dirección de correo electrónico para suscribirse](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
+
+|                                                                                                                                                                                                                          **Síntoma o mensaje de error**                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                                                                                                **Causa y solución alternativa**                                                                                                                                                                                                                                                                                                                                                |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <strong>Direcciones de correo electrónico (por ejemplo, nancy@gmail.com)</strong> Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *Escribió una dirección de correo electrónico personal: escriba su dirección de correo electrónico del trabajo para que podamos almacenar con seguridad los datos de su compañía.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* |                          Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. <br /><br /> Para completar la suscripción, inténtelo de nuevo usando una dirección de correo electrónico asignada, profesional o educativa. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> Invite la cuenta de usuario como [invitado de Azure B2B](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).                           |
+|            **Suscripción de autoservicio deshabilitada** Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *No podemos completar la suscripción. El departamento de TI desactivó la suscripción de Microsoft Power BI. Póngase en contacto con ellos para completar la suscripción.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.*             |                             El administrador de TI de su organización ha deshabilitado la suscripción de autoservicio para Power BI. <br /><br /> Para completar la suscripción, póngase en contacto con el Administrador de TI y pídale que siga las instrucciones en la página siguiente para permitir que los usuarios existentes se suscriban a Power BI y para permitir que los nuevos usuarios se unan a su inquilino existente. <br/><br/> También puede experimentar este problema si se suscribió a Office 365 a través de un asociado. [Más información](service-admin-syndication-partner.md) <br /><br /> [Power BI en su organización](https://support.office.com/en-ca/article/Power-BI-in-your-Organization-d7941332-8aec-4e5e-87e8-92073ce73dc5#BKMK_HowCanIAllowO365Tenant)                              |
+|                                                                                          **La dirección de correo electrónico no es un identificador de Office 365** Recibirá un mensaje similar al siguiente durante la suscripción: <br /><br /> *No lo hemos encontrado en contoso.com.  ¿Usa un identificador diferente en el trabajo o en el colegio? <br /><br /> Pruebe a iniciar sesión con el identificador y, si no funciona, póngase en contacto con el departamento de TI.*                                                                                           | Su organización usa identificadores para iniciar sesión en Office 365 y otros servicios de Microsoft que son diferentes de su dirección de correo electrónico.  Por ejemplo, su dirección de correo electrónico podría ser Nancy.Smith@contoso.com pero el identificador es nancys@contoso.com. <br /><br /> Para completar la suscripción, use el identificador que la organización le ha asignado para iniciar sesión en Office 365 o en otros servicios de Microsoft.  Si no sabe cuál es, póngase en contacto con el administrador de TI. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use esa dirección de correo electrónico para suscribirse](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). |
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Power BI (gratis) en su organización](service-admin-service-free-in-your-organization.md)  

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/22/2018
 ms.author: maghan
-ms.openlocfilehash: 2e899593cbe3453381dd2d3457cec97467aec4d6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 82a4c9c58567f5ace943363b7bed59fa744e85a5
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561756"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944109"
 ---
 # <a name="embedding-with-power-bi"></a>Inserción con Power BI
 Power BI ofrece API para la inserción de paneles e informes en las aplicaciones. Al insertar el contenido, las API de Power BI ofrecen un conjunto coherente de funcionalidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación).
@@ -29,7 +29,7 @@ Para ver un ejemplo de cómo funciona la inserción, consulte [Ejemplo de inserc
 ## <a name="embedding-for-your-organization"></a>Inserción de contenido para la organización
 La inserción de contenido para la organización le permite ampliar el servicio Power BI. Cuando los usuarios quieran ver el contenido, deberán iniciar sesión en el servicio Power BI. Cuando los usuarios de la organización inicien sesión, solo tendrán acceso a los paneles e informes que se hayan compartido con ellos en el servicio Power BI. 
 
-*Entre los ejemplos de inserción de contenido para la organización se incluye la inserción de aplicaciones web internas, elementos web de SharePoint Online y las integraciones de Microsoft Teams.*
+*Entre los ejemplos de inserción de contenido para la organización se incluye la inserción de aplicaciones web internas, elementos web de SharePoint Online y las [integraciones de Microsoft Teams. Tenga en cuenta que se necesitan privilegios de administrador](https://powerbi.microsoft.com/en-us/blog/power-bi-teams-up-with-microsoft-teams/).*
 
 Para insertar contenido para su organización, consulte lo siguiente:
 

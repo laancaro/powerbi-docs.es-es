@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/19/2018
 ms.author: mihart
-ms.openlocfilehash: bf196ccf45e964f6fc1044723f7232eaf60230e7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: fda707d3f36e6db2157d04887780bb957567a523
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34471810"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136258"
 ---
 # <a name="power-bi-videos"></a>Vídeos de Power BI
 ¡Tenemos un canal de YouTube de Power BI! Puede visitar [nuestro canal](https://www.youtube.com/user/mspowerbi/videos) y, si no está familiarizado con Power BI, un buen lugar para comenzar es la [lista de reproducción sobre análisis y visualización de datos con Power BI](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP).
@@ -46,7 +46,7 @@ Consulte la siguiente colección de orígenes y contenido de más vídeos.
 * [Canal Guy in a Cube](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w): vídeos originales sobre las características y las capacidades de Power BI
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

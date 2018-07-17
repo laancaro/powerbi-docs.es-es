@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b05fcc005f821c4fee24071f28651b5df57709c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249353"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135476"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Conexión a ServiceNow con Power BI para generar informes de incidentes
 ServiceNow ofrece varios productos y soluciones que incluyen administración de TI, operaciones y negocios para mejorar su empresa. Este paquete de contenido incluye varios informes e información sobre sus incidentes abiertos resueltos recientemente y los cerrados recientemente.  
@@ -61,7 +61,7 @@ Si se encuentra un error de credenciales durante la carga, revise los requisitos
 Si experimenta períodos de carga largos, revise el número de incidentes y el número de días que ha especificado durante la conexión, y considere la posibilidad de reducirlo.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b30e9934c6a1779538aeb5fe82db59e018fdb880
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: dfcaabc7f36dd65c6e7dbf56b84778c62760da5d
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249468"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135706"
 ---
 # <a name="connect-to-smartsheet-with-power-bi"></a>Conexión a Smartsheet con Power BI
 Smartsheet ofrece una plataforma sencilla para la colaboración y el uso compartido de archivos. El paquete de contenido de Smartsheet para Power BI proporciona un panel, informes y un conjunto de datos que presenta una visión general de la cuenta de Smartsheet. También puede usar [Power BI Desktop](desktop-connect-to-data.md) para conectarse directamente a hojas individuales en su cuenta. 
@@ -60,6 +60,6 @@ Para conectarse directamente a hojas individuales de su cuenta, puede usar el co
 
 ## <a name="next-steps"></a>Pasos siguientes:
 
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Obtener datos para Power BI](service-get-data.md)

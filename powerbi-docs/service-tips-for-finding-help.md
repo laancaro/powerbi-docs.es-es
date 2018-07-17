@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 297805d187ccdea2c04e0b79ad86723ec80d3f80
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f4d16a5694dde63b66dcb001f1a5375ed92d978c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310070"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137178"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugerencias para obtener ayuda con sus preguntas sobre Power BI
 ¿Alguna vez se ha sentido frustrado cuando utiliza Power BI o tiene problemas porque no recibe respuestas a sus preguntas sobre Power BI justo cuando lo necesita? 
@@ -69,6 +69,6 @@ Si todo lo demás no da ningún resultado, la sugerencia final es observar el si
 Por ejemplo, supongamos que se pregunta si puede compartir paneles con un grupo de seguridad. Para responder a esta pregunta, vaya al cuadro de diálogo de uso compartido e intente agregar un grupo de seguridad. En cualquier caso, obtendrá la respuesta después de esta prueba.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power BI](service-get-started.md)
+* [¿Qué es Power BI?](power-bi-overview.md)
 * Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).

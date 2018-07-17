@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b4462d8ef5037cf4fe76a6ff061b7993e8d8ec44
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245614"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37599793"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conexión a Project "Madeira" con Power BI
 Obtener información sobre los datos de Project "Madeira" es fácil con Power BI y el paquete de contenido de Project "Madeira". Power BI recupera los datos (tanto de ventas como financieros) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -33,7 +33,7 @@ Conéctese al [paquete de contenido de Project "Madeira"](https://app.powerbi.co
     ![](media/service-connect-to-project-madeira/services.png)
 3. Seleccione **proyecto "Madeira"** y, a continuación, seleccione **Obtener**.  
     ![](media/service-connect-to-project-madeira/projectmadeira.png)
-4. Cuando se le solicite, escriba la dirección URL de Project "Madeira". La dirección URL debe seguir exactamente el patrón https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US') con el nombre de la compañía Project "Madeira". Tenga en cuenta que no hay ninguna barra diagonal al final de la dirección y que la conexión debe ser https. Consulte los detalles que se muestran [a continuación](#FindingParams) sobre cómo buscar esta dirección URL.  
+4. Cuando se le solicite, escriba la dirección URL de Project "Madeira". La dirección URL debe seguir exactamente el patrón <https://mycronusus.projectmadeira.com:7048/NAV/OData/Company('CRONUS%20US> con el nombre de la compañía Project "Madeira". Tenga en cuenta que no hay ninguna barra diagonal al final de la dirección y que la conexión debe ser https. Consulte los detalles que se muestran [a continuación](#FindingParams) sobre cómo buscar esta dirección URL.  
    
     ![](media/service-connect-to-project-madeira/params.png)
 5. Cuando se le solicite, seleccione Básico en Método de autenticación, escriba su dirección de correo electrónico de Project “Madeira” como el nombre de usuario y luego escriba la clave de acceso del servicio web para su cuenta de Project “Madeira” como la contraseña. Si ya inició sesión en Project “Madeira” en el explorador, puede que no se le soliciten las credenciales. Consulte [a continuación](#FindingParams) los detalles sobre la generación de esta clave de acceso.  
@@ -93,10 +93,10 @@ El panel de Power BI se basa en los servicios web publicados anteriormente y mos
 
 Si ve este error después de escribir la dirección URL de Project "Madeira", asegúrese de que se cumplen los requisitos siguientes:  
 
-   - La dirección URL sigue exactamente este patrón: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')  
-   - Elimine todo el texto que haya después del nombre de la compañía entre paréntesis  
-   - Asegúrese de que no hay ninguna barra diagonal al final de la dirección URL.  
-   - Asegúrese de que la dirección URL usa una conexión segura, como indica la dirección URL que empieza por https.  
+- La dirección URL sigue exactamente este patrón: https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')  
+- Elimine todo el texto que haya después del nombre de la compañía entre paréntesis  
+- Asegúrese de que no hay ninguna barra diagonal al final de la dirección URL.  
+- Asegúrese de que la dirección URL usa una conexión segura, como indica la dirección URL que empieza por https.  
 
 **"Error de inicio de sesión."** Si recibe el error "Error de inicio de sesión." cuando inicia sesión en el panel, mediante las credenciales de Project “Madeira” , esto puede deberse a uno de los siguientes problemas:  
 
@@ -104,16 +104,16 @@ Si ve este error después de escribir la dirección URL de Project "Madeira", as
    - La instancia del proyecto "Madeira" a la que intenta conectarse no tiene un certificado SSL válido. En este caso, verá un mensaje de error más detallado ("no se puede establecer una relación SSL de confianza"). Tenga en cuenta que no se admiten certificados autofirmados.  
 
 **"¡Vaya!"** Si ve un cuadro de diálogo de error "¡Vaya!" después de pasar el cuadro de diálogo de autenticación, suele deberse a un problema al conectarse a los datos del paquete de contenido. Compruebe que la dirección URL sigue el patrón que se especificó anteriormente:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')
 
 Un error común es especificar la dirección URL completa para un servicio web específico:  
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('*CRONUS%20US*')/powerbifinance
+    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/Company('<em>CRONUS%20US</em>')/powerbifinance
 
 O bien, puede que haya olvidado especificar el nombre de la compañía:   
-    https://*mycronusus*.projectmadeira.com:7048/NAV/OData/
+    https://<em>mycronusus</em>.projectmadeira.com:7048/NAV/OData/
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 

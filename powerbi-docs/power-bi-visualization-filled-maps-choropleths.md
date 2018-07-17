@@ -8,28 +8,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5933404b9429ca773ed119addd81d86ad1a28597
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f056ccb9e8fca4122aa4417a50f1fbd6993a9c2a
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34293062"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944592"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos en Power BI
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región.  Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).    
 
-![](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
+![Mapa de EE. UU.](media/power-bi-visualization-filled-maps-choropleths/large_map.png)
 
 ## <a name="what-is-sent-to-bing"></a>Qué se envía a Bing
 Power BI se integra con Bing para proporcionar coordenadas de mapas predeterminadas (un proceso denominado geocodificación). Cuando se crea una visualización de mapa en el servicio Power BI o en Power BI Desktop, se envían a Bing los datos en los cubos **Ubicación**, **Latitud** y **Longitud** (que se usan para crear la visualización).
 
 Puede que usted o su administrador tengan que actualizar el firewall para permitir el acceso a las direcciones URL que utiliza Bing para geocodificación.  Estas direcciones URL son:
-* https://dev.virtualearth.net/REST/V1/Locations
-* https://platform.bing.com/geo/spatial/v1/public/Geodata
-* https://www.bing.com/api/maps/mapcontrol
+    * https://dev.virtualearth.net/REST/V1/Locations
+    * https://platform.bing.com/geo/spatial/v1/public/Geodata
+    * https://www.bing.com/api/maps/mapcontrol
 
 Para más información sobre los datos que se envían a Bing, así como sugerencias para lograr mejores resultados con la geocodificación, consulte [Sugerencias y trucos para visualizaciones de mapa](power-bi-map-tips-and-tricks.md).
 
@@ -58,30 +58,30 @@ En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
 1. Para crear su propio mapa coroplético, [descargue el ejemplo de marketing y ventas](sample-datasets.md). Para ello, inicie sesión en Power BI y seleccione **Obtener datos \> Ejemplos \> Ventas y marketing \> Conectar**.
 2. Cuando aparezca el mensaje de operación correcta, seleccione **Ver conjunto de datos**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
+   ![Mensaje de proceso correcto](media/power-bi-visualization-filled-maps-choropleths/power-bi-view-dataset.png)
 3. Power BI abre un lienzo del informe en blanco en la [vista de edición](service-interact-with-a-report-in-editing-view.md).
 
-    ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
+    ![Nuevo informe](media/power-bi-visualization-filled-maps-choropleths/power-bi-blank-canvas.png)
 4. En el panel Campos, seleccione el campo **Zona geográfica** \> **Estado**.    
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img002.png)
+   ![Marca de verificación amarilla junto a Estado](media/power-bi-visualization-filled-maps-choropleths/img002.png)
 5. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un mapa coroplético. Observe que **Estado** está ahora en el área **Ubicación**. Bing Maps usa el campo del área **Ubicación** para crear el mapa.  La ubicación puede ser una gran variedad de ubicaciones válidas: países, estados, provincias, ciudades, códigos postales, etc. Bing Maps proporciona mapas coropléticos para ubicaciones en todo el mundo. Sin una entrada válida en el área Ubicación, Power BI no puede crear el mapa coroplético.  
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img003.png)
+   ![Plantillas con el icono de mapa coroplético resaltado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 6. Filtre el mapa para mostrar solo el territorio continental de Estados Unidos.
 
    a.  En la parte inferior del panel Visualizaciones, busque el área **Filtros** .
 
    b.  Pase el mouse sobre **Estado** y haga clic en el botón de contenido adicional.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img004.png)
+   ![Filtros de nivel de objeto visual que muestran Estado (Todos)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Coloque una marca de verificación junto a **Todos** y quite la marca de verificación junto a **AK**.
 
-   ![](media/power-bi-visualization-filled-maps-choropleths/img005.png)
+   ![Lista desplegable de estados con (Todos) y AK sin seleccionar](media/power-bi-visualization-filled-maps-choropleths/img005.png)
 7. Seleccione **SalesFact** \> **Opinión** para agregarlo al área **Saturación de color**. El campo en el área **Saturación de color** controla el sombreado del mapa.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
+   ![Opinión en el área del campo Saturación de color](media/power-bi-visualization-filled-maps-choropleths/power-bi-color-saturation.png)
 8. El mapa coroplético se sombrea en verde, con verde claro para representar la opinión más baja y verde oscuro para representar la opinión más alta y más positiva.  Aquí hemos resaltado el estado de Wyoming (WY) y vemos que la opinión es muy buena, 74.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img007.png)
+   ![Cuadro de diálogo negro que muestra el estado y la opinión](media/power-bi-visualization-filled-maps-choropleths/img007.png)
 9. [Guarde el informe](service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
@@ -92,13 +92,13 @@ Al resaltar una ubicación en un mapa coroplético, se realiza un filtrado cruza
 Para poder continuar, copie y pegue el mapa coroplético en la página **Opiniones** del informe *Ventas y Marketing*.
 
 1. En el mapa coroplético, seleccione un estado.  Esto resalta las demás visualizaciones de la página. Al seleccionar **Texas**, por ejemplo, se muestra que la opinión es 74, que Texas está en el Distrito central \#23 y que la mayor parte del volumen de ventas procede de los segmentos Moderación y Comodidad.   
-   ![](media/power-bi-visualization-filled-maps-choropleths/img008.png)
+   ![Texas seleccionado](media/power-bi-visualization-filled-maps-choropleths/img008.png)
 2. En el gráfico de líneas, alterne entre **No** y **Sí**. Al hacerlo, se filtra el mapa coroplético para mostrar la opinión de VanArsdel y de la competencia de VanArsdel.  
-   ![](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
+   ![Vídeo que muestra la alternancia](media/power-bi-visualization-filled-maps-choropleths/img009.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 Los datos de mapas pueden ser ambiguos.  Por ejemplo, hay un París, Francia, pero también hay un París, Texas. Los datos geográficos probablemente se almacenan en columnas diferentes: una columna para los nombres de ciudades, una columna para los nombres de estado o provincia, etc., por lo que Bing no podrá decir qué Paris es cual. Si el conjunto de datos ya contiene datos de latitud y longitud, Power BI tiene campos especiales para ayudar a que los datos de mapas no sean ambiguos. Simplemente arrastre el campo que contiene los datos de latitud al área Visualizaciones \> Latitud.  Y haga lo mismo para los datos de longitud.  
-![](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
+![Paneles Visualizaciones y Filtros](media/power-bi-visualization-filled-maps-choropleths/pbi_latitude.png)
 
 Si tiene permisos para editar el conjunto de datos en Power BI Desktop, vea este vídeo para saber cómo abordar la ambigüedad de los mapas.
 

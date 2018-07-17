@@ -896,8 +896,10 @@
           href: developer/what-can-you-do.md
     - name: Tutoriales
       items:
-        - name: Inserción de contenido para clientes
+        - name: Inserción de contenido para sus clientes
           href: developer/embed-sample-for-customers.md
+        - name: Inserción de contenido para su organización
+          href: developer/embed-sample-for-your-organization.md
     - name: Conceptos
       items:
         - name: Trabajo con las API de REST de Power BI
@@ -934,12 +936,8 @@
               href: developer/embedding.md
             - name: Inserción de contenido
               href: developer/embedding-content.md
-            - name: Integrar un panel en una aplicación (el usuario posee los datos)
-              href: developer/integrate-dashboard.md
-            - name: Integrar un icono de Power BI en una aplicación (el usuario posee los datos)
-              href: developer/integrate-tile.md
-            - name: Integrar un informe de Power BI en una aplicación (el usuario posee los datos)
-              href: developer/integrate-report.md
+            - name: Inserción de contenido desde una aplicación
+              href: developer/embed-from-apps.md
             - name: Integración de contenido en la aplicación para nubes soberanas (la aplicación posee los datos)
               href: developer/embed-sample-for-customers-sovereign-clouds.md
             - name: Inserción de diseños personalizados en una aplicación

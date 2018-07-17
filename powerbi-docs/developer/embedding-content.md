@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: cb84cb2f4242cb120f187c27bb1b1675177c33a2
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: 8a912791777c631208ee40d37c5eaad56806ccf9
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813052"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945367"
 ---
 # <a name="embed-your-power-bi-dashboards-reports-and-tiles"></a>Inserción de paneles, informes e iconos de Power BI
 
@@ -35,6 +35,9 @@ Antes de empezar a insertar paneles e informes en la aplicación, debe asegurars
 
 * [Asegúrese de que tiene un inquilino de Azure Active Directory](embedding-content.md#azureadtenant)
 * [Crear una cuenta de Power BI Pro](embedding-content.md#proaccount)
+* [Registro y permisos de la aplicación](embedding-content.md#appreg)
+* [Creación de las áreas de trabajo de la aplicación](embedding-content.md#appws)
+* [Creación y carga de los informes](embedding-content.md#createreports)
 
 Puede seguir los pasos de la [herramienta para incorporar la inserción](https://aka.ms/embedsetup) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo.
 
@@ -67,7 +70,7 @@ Las siguientes cuentas deben estar presentes en el inquilino y debe disponer de 
 
 #### <a name="an-organizationtenant-admin-user"></a>Un usuario administrador de la organización o el inquilino.
 
-Se recomienda no utilizar el usuario administrador global de la organización o el inquilino como la cuenta que utiliza la aplicación si inserta contenido para los clientes. Con esto se pretende minimizar el acceso que la cuenta de la aplicación tiene dentro del inquilino. Se recomienda que el usuario administrador sea un administrador de todas las áreas de trabajo de la aplicación que se han creado para la inserción.
+Se recomienda no utilizar el usuario administrador global de la organización o el inquilino como la cuenta que utiliza la aplicación si inserta contenido para los clientes. Con esto se pretende minimizar el acceso que la cuenta de la aplicación tiene dentro del inquilino. El usuario administrador debe ser administrador en todas las áreas de trabajo de la aplicación que se han creado para la inserción.
 
 #### <a name="accounts-for-analysts-that-create-content"></a>Cuentas para los analistas que crean contenido
 
@@ -83,7 +86,7 @@ La cuenta maestra es solo un usuario normal con una licencia de Power BI Pro que
 
 Para realizar llamadas a la API de REST es necesario registrar la aplicación en Azure AD. Para más información, consulte [Registro de una aplicación de Azure AD para insertar contenido de Power BI](register-app.md).
 
-### <a name="create-app-workspaces"></a>Creación de áreas de trabajo de la aplicación
+### <a name="appws"></a>Creación de las áreas de trabajo de la aplicación
 
 Si va a insertar paneles e informes para los clientes, estos deben haberse colocado en un área de trabajo de la aplicación. La cuenta *maestra*, mencionada anteriormente, debe corresponder a un administrador del área de trabajo de la aplicación.
 
@@ -93,13 +96,17 @@ Si va a insertar paneles e informes para los clientes, estos deben haberse coloc
 > Un usuario que no sea administrador solo puede crear hasta 250 áreas de trabajo de aplicación. Para crear más áreas de trabajo de aplicación, debe usar una cuenta de administrador de inquilinos.
 >
 
-### <a name="create-and-upload-your-reports"></a>Crear y cargar los informes
+### <a name="createreports"></a>Creación y carga de los informes
 
 Puede crear sus propios informes y conjuntos de datos mediante Power BI Desktop y publicar esos informes en un área de trabajo de la aplicación. El usuario final que publique los informes deberá tener una licencia de Power BI Pro para publicar en un área de trabajo de la aplicación.
 
 ## <a name="step-2-embed-your-content"></a>Paso 2: Insertar el contenido
 
-Dentro de la aplicación, debe autenticarse con Power BI. Si va a insertar contenido para los clientes, debe almacenar las credenciales de la cuenta *maestra* en la aplicación. Para más información, consulte [Authenticate users and get an Azure AD access token for your Power BI app](get-azuread-access-token.md) (Autenticación de usuarios y obtención de un token de acceso de Azure AD para su aplicación de Power BI).
+Dentro de la aplicación, debe autenticarse con Power BI. Si va a insertar contenido para los clientes, debe almacenar las credenciales de la cuenta *maestra* en la aplicación.
+
+> [!NOTE]
+> Para más información sobre cómo autenticar usuarios al insertar contenido para sus clientes, consulte [Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación de Power BI](get-azuread-access-token.md).
+>
 
 Una vez autenticado, en la aplicación, utilice las API de REST de Power BI y JavaScript para insertar paneles e informes en la aplicación. 
 
@@ -123,7 +130,7 @@ Pasar a producción requiere algunos pasos adicionales.
 
 Si va a realizar inserciones para la organización, solo necesita que los demás sepan cómo acceder a la aplicación. 
 
-Los usuarios con acceso gratuito pueden consumir contenido insertado desde un área de trabajo de la aplicación (grupo) si esa área de trabajo está respaldada por una capacidad dedicada. Haga que el usuario con acceso gratuito aparezca como un miembro del área de trabajo de la aplicación (grupo); en caso contrario, recibirá el error 401 No autorizado. En la tabla siguiente se enumeran las SKU disponibles de Power BI Premium en Office 365.
+Todos los usuarios, sea cual sea la licencia que tengan asignada, pueden consumir contenido insertado desde un área de trabajo de la aplicación (grupo) si esa área de trabajo está respaldada por una capacidad dedicada. Dicho esto, deberá agregar expresamente al área de trabajo de la aplicación aquellos usuarios que carezcan de una licencia de Power BI Pro. En caso contrario, recibirá un error 401 de no autorización. En la tabla siguiente se enumeran las SKU disponibles de Power BI Premium en Office 365.
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |

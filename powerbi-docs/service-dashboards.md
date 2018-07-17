@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 02a88f04d3c23746da702db043c1992267baf054
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d0e1fdc79ae4bcd5946d82f2cbf7b929a47372cb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248686"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136810"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Paneles del servicio Power BI
 
@@ -84,7 +84,7 @@ Power BI Pro es necesario tanto para compartir un panel como para ver un panel c
 > 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)  
+[¿Qué es Power BI?](power-bi-overview.md)  
 [Power BI: Conceptos básicos](service-basic-concepts.md)  
 [¿Qué es Power BI Premium?](service-premium.md)  
 

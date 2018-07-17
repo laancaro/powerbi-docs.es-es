@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 06/27/2018
 ms.author: maggies
-ms.openlocfilehash: 5dd171ccd7d8859286abeac2f87771b454421448
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: cade8b126742610814f47587c950458796cca474
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34292855"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136488"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -55,7 +55,8 @@ Cuando esté sin conexión con Power BI en su dispositivo móvil, puede encontra
 * Power BI puede almacenar en caché hasta 250 MB de datos sin conexión.
 * Algunos tipos de iconos requieren una conexión de servidor activa, por lo que no están disponibles sin conexión; por ejemplo, iconos de mapas de Bing y algunos iconos personalizados.
 * Los libros completos de Excel en Power BI no están disponibles sin conexión.
-* Puede ver informes móviles y KPI de Reporting Services sin conexión, si los ha visto mientras estaba conectado. No se actualizan en segundo plano. Se actualizan cada vez que los abre. 
+* Puede ver informes móviles y KPI de Reporting Services sin conexión, si los ha visto mientras estaba conectado. No se actualizan en segundo plano. Se actualizan cada vez que los abre.
+* En las aplicaciones móviles de Power BI no se pueden ver los archivos de Power BI Desktop (.pbix) guardados en Power BI Report Server. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 
@@ -63,5 +64,5 @@ Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvid
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter
 * Únase a la conversación en la [comunidad de Power BI](http://community.powerbi.com/)
-* [Introducción a Power BI](service-get-started.md)
+* [¿Qué es Power BI?](power-bi-overview.md)
 

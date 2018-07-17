@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f7ad953f36830db74fb8e611dc9a0641498affd
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252471"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135269"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -80,13 +80,13 @@ La cantidad de llamadas API que hace Power BI a Marketo depende de la cantidad d
 | --- | --- | --- |
 | Información sobre clientes potenciales |15 000 |50 |
 | Actividades de correo electrónico |150 000 |1000 |
-| Actividades del programa |15 000 |100 |
-| Actividades web |150 000 |1000 |
+| Actividades del programa |15 000 |100 |
+| Actividades web |150 000 |1000 |
 | Cambios en el programa |7500 |50 |
 | **Total de llamadas API** | |**2200** |
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Obtener datos para Power BI](service-get-data.md)
 

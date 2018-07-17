@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 21554c5addac0adad84783dad83b4861544a3425
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1baccb5fd674d5e0037f112fc8cbee450b6bcb8a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242222"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136373"
 ---
 # <a name="connect-to-at-internet-bridge-with-power-bi"></a>Conexión a AT Internet Bridge con Power BI
 AT Internet le permite extraer el valor inmediato de los datos mediante su plataforma unificada de análisis digital, Analytics Suite. El paquete de contenido de AT Internet Bridge para Power BI incluye datos relacionados con las visitas, los orígenes, la localización y los dispositivos de su sitio.
@@ -59,7 +59,7 @@ Este paquete de contenido contiene datos de los últimos 45 días en las tablas 
     - Global Visits (Visitas globales)  
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 

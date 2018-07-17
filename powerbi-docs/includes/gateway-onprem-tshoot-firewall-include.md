@@ -1,7 +1,7 @@
 ## <a name="firewall-or-proxy"></a>Firewall o proxy
 Para más información acerca de cómo proporcionar información de proxy para una puerta de enlace, consulte [Configuración de proxy para la puerta de enlace de datos local](../service-gateway-proxy.md).
 
-Puede probar para ver si el firewall o proxy está bloqueando conexiones. Para ello, ejecute [Test-NetConnection](https://technet.microsoft.com/library/dn372891.aspx) desde un símbolo del sistema de PowerShell. Esto probará la conectividad con Azure Service Bus. Esto solo prueba la conectividad de red y no tiene nada que ver con el servicio de servidor en la nube o la puerta de enlace. Ayuda a determinar si el equipo realmente puede obtener acceso a Internet.
+Puede comprobar si el firewall o el proxy están bloqueando las conexiones. Para ello, ejecute [Test-NetConnection](https://docs.microsoft.com/powershell/module/nettcpip/test-netconnection) mediante un símbolo del sistema de PowerShell. Esto probará la conectividad con Azure Service Bus. Esto solo prueba la conectividad de red y no tiene nada que ver con el servicio de servidor en la nube o la puerta de enlace. Ayuda a determinar si el equipo realmente puede obtener acceso a Internet.
 
     Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 

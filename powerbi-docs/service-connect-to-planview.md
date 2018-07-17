@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4641fc0c36ad7fb64cc5da08ee8eda180f4ccc31
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240498"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137408"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Conexión a Planview Enterprise con Power BI
 El paquete de contenido de Planview Enterprise permite visualizar los datos de administración de recursos y del trabajo de una forma totalmente nueva directamente en Power BI. Utilice sus credenciales de inicio de sesión de Planview Enterprise para ver de forma interactiva el gasto de la inversión de cartera, comprender dónde supera el presupuesto y dónde no lo alcanza, y averiguar el grado de alineación de sus proyectos con las prioridades estratégicas corporativas. También puede ampliar el panel integrado y los informes para obtener la información más importante para usted.
@@ -52,10 +52,10 @@ Conéctese al [paquete de contenido de Planview Enterprise en Power BI](https://
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para importar datos de Planview Enterprise en Power BI, debe ser un usuario de Planview Enterprise con la característica Visor del portal de informes habilitada en su rol. Consulte los requisitos adicionales siguientes.
 
-En este procedimiento se supone que ya ha iniciado sesión en la página principal de Microsoft Power BI con una cuenta de Power BI. Si no tiene una cuenta de Power BI, cree una de forma gratuita en la página principal de Power BI y, luego, haga clic en Obtener datos.
+En este procedimiento se supone que ya ha iniciado sesión en la página principal de Microsoft Power BI con una cuenta de Power BI. Si no tiene una cuenta de Power BI, vaya a [powerbi.com](https://powerbi.microsoft.com/get-started/) y, en **Power BI: Colaboración y uso compartido en la nube**, seleccione **Probar gratis**. A continuación, haga clic en **Obtener datos**.
 
 ## <a name="next-steps"></a>Pasos siguientes:
 
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Obtener datos para Power BI](service-get-data.md)

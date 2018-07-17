@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/23/2018
+ms.date: 07/03/2018
 ms.author: maghan
-ms.openlocfilehash: ad23161985cc2721562cfdfd9128e326db887ece
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b3c9599ea3ce01094bb75d9b036fb25b1ca7109a
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813167"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926568"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -96,6 +96,44 @@ Es posible que el back-end de la aplicación tenga que actualizar el token de au
     {"error":{"code":"TokenExpired","message":"Access token has expired, resubmit with a new access token"}}
 ```
 
+## <a name="authentication"></a>Autenticación
+
+### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Error de autenticación AADSTS70002 o AADSTS50053
+
+**(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)**
+
+Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa está deshabilitada desde el 14/06/2018.
+
+Le recomendamos usar la compatibilidad de [acceso condicional de Azure AD](https://cloudblogs.microsoft.com/enterprisemobility/2018/06/07/azure-ad-conditional-access-support-for-blocking-legacy-auth-is-in-public-preview/) para bloquear la autenticación heredada, o bien usar la [autenticación de paso a través de Azure AD Directory](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect-pass-through-authentication).
+
+Con todo, hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar solo al ámbito de la organización o a una [entidad de servicio](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+
+**_Se recomienda habilitar esta opción individualmente en cada aplicación y solo cuando sea necesario a modo de solución alternativa._**
+
+Para crear esta directiva, debe ser un **administrador global** en el directorio donde esté creando y asignando la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
+
+1. Instale el [módulo de versión preliminar de Azure AD PowerShell](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+
+2. Ejecute los siguientes comandos de PowerShell línea a línea (procurando que la variable $sp no tenga más de una aplicación como resultado).
+
+```powershell
+Connect-AzureAD
+```
+
+```powershell
+$sp = Get-AzureADServicePrincipal -SearchString "Name_Of_Application"
+```
+
+```powershell
+$policy = New-AzureADPolicy -Definition @("{`"HomeRealmDiscoveryPolicy`":{`"AllowCloudPasswordValidation`":true}}") -DisplayName EnableDirectAuth -Type HomeRealmDiscoveryPolicy -IsOrganizationDefault $false
+```
+
+```powershell
+Add-AzureADServicePrincipalPolicy -Id $sp.ObjectId -RefObjectId $policy.Id 
+```
+
+Después de asignar la directiva, espere aproximadamente 15-20 segundos a que se propague antes de probarla.
+
 **Error en la generación del token al proporcionar una identidad efectiva**
 
 GenerateToken puede generar un error, con la identidad efectiva proporcionada, por diversas razones.
@@ -113,6 +151,30 @@ Para comprobar cuál es, pruebe lo siguiente.
 * Si el valor de IsEffectiveIdentityRolesRequired es true, se requiere el rol.
 * DatasetId es obligatorio en todas las instancias de EffectiveIdentity.
 * En Analysis Services, el maestro tiene que ser un administrador de puerta de enlace.
+
+### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: La concesión requiere permiso de administrador
+
+**_Síntomas:_**</br>
+Cuando un usuario sin derechos administrativos intenta iniciar sesión en una aplicación por primera vez y da su consentimiento, obtiene el siguiente error:
+* La prueba de consentimiento necesita permiso para acceder a los recursos de la organización que solo un administrador puede conceder. Póngase en contacto con un administrador que conceda permisos en esta aplicación para poder usarla.
+* AADSTS90094: La concesión requiere permiso de administrador.
+
+    ![Prueba de consentimiento](media/embedded-troubleshoot/consent-test-01.png)
+
+Un usuario administrador puede iniciar sesión y conceder el consentimiento correctamente.
+
+**_:_**</br>
+El consentimiento de usuario está deshabilitado en este inquilino.
+
+**_Existen varias correcciones viables:_**
+
+*Habilitar el consentimiento de usuario en todo el inquilino (todos los usuarios, todas las aplicaciones)*
+1. En Azure Portal, vaya a "Azure Active Directory" = > "Usuarios y grupos" = > "Configuración de usuario".
+2. Habilite la opción "Los usuarios pueden permitir que las aplicaciones accedan a los datos de la compañía en su nombre" y guarde los cambios.
+
+    ![Corrección de la prueba de consentimiento](media/embedded-troubleshoot/consent-test-02.png)
+
+*Conceder permisos a un administrador* Haga que un administrador conceda permisos en la aplicación, ya sea en todo el inquilino o para un usuario específico.
 
 ## <a name="data-sources"></a>Orígenes de datos
 
@@ -175,7 +237,7 @@ Al ejecutar la aplicación de ejemplo de **inserción para la organización**, o
 
     AADSTS50011: The reply URL specified in the request does not match the reply URLs configured for the application: <client ID>
 
-Esto es porque la dirección URL de redireccionamiento especificada para la aplicación del servidor web es diferente de la dirección URL de la aplicación de ejemplo. Si quiere registrar la aplicación de ejemplo, use *http://localhost:13526/* como la dirección URL de redireccionamiento.
+Esto es porque la dirección URL de redireccionamiento especificada para la aplicación del servidor web es diferente de la dirección URL de la aplicación de ejemplo. Si quiere registrar la aplicación de ejemplo, use `http://localhost:13526/` como dirección URL de redireccionamiento.
 
 Si quiere editar la aplicación registrada, deberá aprender a editar la [aplicación registrado en AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), para que la aplicación pueda proporcionar acceso a las API web.
 

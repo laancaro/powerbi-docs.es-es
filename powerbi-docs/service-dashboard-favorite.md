@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 920e61ed173e979a92958e56f9e0276f26288b3f
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 7fe40fa3ea4a80198c3b06d2594c7ad0837ee923
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250684"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136189"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
 Al marcar contenido como *favorito*, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser el contenido que se visita más a menudo.
@@ -76,7 +76,7 @@ Vea a Amanda agregar favoritos a su espacio de trabajo; después, siga las instr
 > 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
 [Power BI: Conceptos básicos](service-basic-concepts.md)
 

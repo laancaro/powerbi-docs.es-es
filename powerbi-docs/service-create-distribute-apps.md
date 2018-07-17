@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2018
+ms.date: 06/20/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6efd54d868a5a1f2d8d657d352c7133d4036b0b6
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 25aa03c12b36bf19c05fe01dc6c24a0e4a3a2416
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254841"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965306"
 ---
 # <a name="create-and-publish-apps-with-dashboards-and-reports-in-power-bi"></a>Crear y publicar aplicaciones con los paneles e informes de Power BI
 
@@ -22,17 +22,15 @@ En Power BI, puede crear *aplicaciones* para reunir paneles e informes relaciona
 
 ![Aplicaciones de Power BI](media/service-create-distribute-apps/power-bi-apps-left-nav.png)
 
-Los usuarios empresariales suelen necesitar varios paneles e informes de Power BI para hacer funcionar sus negocios. Las aplicaciones se encargan de "reunir todas las piezas", con el fin de que no tengan que preocuparse de recordar los nombres y las ubicaciones de todos estos paneles.  
-
-Con las aplicaciones de Power BI, ahora en versión preliminar, puede crear colecciones de paneles e informes y publicar estas aplicaciones para toda la organización o a grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre colecciones de paneles con las aplicaciones.
+Los usuarios empresariales suelen necesitar varios paneles e informes de Power BI para hacer funcionar sus negocios. Las aplicaciones se encargan de "reunir todas las piezas", con el fin de que no tengan que preocuparse de recordar los nombres y las ubicaciones de todos estos paneles. Con las aplicaciones de Power BI, puede crear colecciones de paneles e informes y publicar estas aplicaciones para toda la organización o para grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre colecciones de paneles con las aplicaciones.
 
 Los usuarios empresariales obtienen las aplicaciones de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarlas automáticamente en las cuentas de Power BI de sus compañeros de trabajo. En caso contrario, pueden instalar estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Ellos pueden buscar y volver a su contenido fácilmente porque está todo en un lugar. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](service-install-use-apps.md).
 
 ### <a name="licenses-for-apps"></a>Licencias para aplicaciones
-Los creadores de aplicaciones necesitan una licencia de Power BI Pro. Los usuarios de la aplicación tienen dos opciones.
+Los creadores de aplicaciones necesitan una licencia de Power BI Pro. Los usuarios de la aplicación tienen dos formas de ver la aplicación.
 
-* Opción 1: todos los usuarios empresariales necesitan licencias de **Power BI Pro** para ver la aplicación. 
-* Opción 2: los usuarios de su organización con la versión gratuita pueden ver el contenido de la aplicación si la aplicación reside en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
+* Opción 1: un usuario de la aplicación tiene asignada una licencia de **Power BI Pro**. 
+* Opción 2: un usuario de la aplicación no tiene asignada una licencia de **Power BI Pro**, pero la aplicación reside en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
 
 ### <a name="apps-and-organizational-content-packs"></a>Aplicaciones y paquetes de contenido organizativos
 Las aplicaciones son la evolución de los paquetes de contenido organizativos. Si ya tiene paquetes de contenido organizativos, estos seguirán funcionando en paralelo con las aplicaciones.
@@ -49,7 +47,7 @@ Puede agregar compañeros a estas áreas de trabajo como miembros o administrado
 
 Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publique la aplicación. Puede enviar un vínculo directo a esa audiencia más amplia, o pueden encontrar la aplicación en la pestaña Aplicaciones, en **Descargar y explorar más aplicaciones de AppSource**. Estas personas no puede modificar los contenidos de la aplicación, pero pueden interactuar con ella bien en el servicio de Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. 
 
-## <a name="create-an-app-workspace"></a>Crear un área de trabajo de la aplicación
+## <a name="create-an-app-workspace"></a>Crear área de trabajo de la aplicación
 [!INCLUDE [powerbi-service-create-app-workspace](./includes/powerbi-service-create-app-workspace.md)]
 
 Está vacía, por lo que ahora se agregan contenidos en ella. Tenga en cuenta que la primera vez que la cree puede que tenga que esperar una hora aproximadamente hasta que el área de trabajo se propague a Office 365. 

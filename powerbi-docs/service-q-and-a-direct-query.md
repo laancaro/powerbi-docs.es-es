@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7402bc638f27175e1c8e1f733fefd508850d9943
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 75636885da6357a756508558841c99435aa5f442
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34245591"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092193"
 ---
 # <a name="enable-qa-for-live-connections"></a>Habilitación de preguntas y respuestas para conexiones dinámicas
 ## <a name="what-is-on-premises-data-gateway--what-is-a-live-connection"></a>¿Qué es una puerta de enlace de datos local?  ¿Qué es una conexión dinámica?
@@ -56,6 +56,7 @@ Existen varias limitaciones durante la fase de vista previa de esta característ
 
 * Inicialmente, la característica solo está disponible para orígenes de datos tabulares de SQL Server 2016 Analysis Services. La característica está optimizada para trabajar con datos tabulares. Parte de la funcionalidad está disponible para orígenes de datos multidimensionales, pero la experiencia completa de preguntas y respuestas no se admite todavía para este tipo de origen de datos. Los orígenes de datos adicionales admitidos por la puerta de enlace de datos local se lanzarán con el tiempo.
 * La compatibilidad total con la seguridad de nivel de fila definida en SQL Server Analysis Services no estará disponible inicialmente en la versión preliminar pública. Cuando se formulan preguntas en Preguntas y respuestas, la característica "Autocompletar" de las preguntas mientras se escribe puede mostrar los valores de cadena a los que un usuario no tiene acceso. Sin embargo, se respeta la RLS definida en el modelo para los objetos visuales de informe y gráfico, por lo que ningún dato numérico subyacente queda expuesto. En próximas actualizaciones se lanzarán opciones para controlar este comportamiento.
+* La seguridad de nivel de objeto (OLS) no es compatible. Preguntas y respuestas no respeta la seguridad de nivel de objeto, con lo cual puede revelar nombres de tabla o de columna a usuarios que no tengan acceso a ellos. Conviene habilitar RLS para asegurarse de que los valores de los datos también estén correctamente protegidos. 
 * Solo se admiten conexiones dinámicas con la puerta de enlace de datos local. Como resultado, no se puede usar dicha puerta con la puerta de enlace personal.
 
 ## <a name="next-steps"></a>Pasos siguientes

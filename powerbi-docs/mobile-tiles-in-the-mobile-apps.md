@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 4680ab3709f1a2cbe56445e6719ea4de15396eb0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
+ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297662"
+ms.lasthandoff: 07/03/2018
+ms.locfileid: "37598651"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -40,7 +40,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto**.*  
+   <em>Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a las **ventas de este año</em>* y a las **ventas del último año** en **agosto**.*  
    
    En un gráfico circular, pulse una porción de este para mostrar los valores de la porción en la parte superior del gráfico.  
    
@@ -107,7 +107,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   *En este gráfico de barras, los valores de la barra **Decor** se muestran en la parte superior del gráfico.*
+   <em>En este gráfico de barras, los valores de la barra **Decor</em>* se muestran en la parte superior del gráfico.*
    
    Pulse el icono **Pantalla completa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir el icono en el modo de pantalla completa, sin las barras de navegación y de menú.
    
@@ -126,6 +126,6 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
 4. Pulse la flecha atrás o el botón Atrás para cerrar el icono y volver al panel.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power BI](service-get-started.md)
+* [¿Qué es Power BI?](power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

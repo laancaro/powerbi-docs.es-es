@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-sktopms.date: 06/01/2018
+sktopms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6341d5b3bba051cc31fe95f526450e03c14d4b69
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 08772389df36e72e4f8c83239ba396773070f61a
+ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964823"
+ms.lasthandoff: 07/02/2018
+ms.locfileid: "37145396"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -54,7 +54,7 @@ Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones 
 El servicio Power BI [https://powerbi.com](https://powerbi.com) no está disponible como un servicio en la nube privada interna. Sin embargo, tiene otras tres opciones para ver y trabajar con datos de forma local. 
 
 ### <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
-Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse en directo a su servidor de SQL Server Analysis Services local y a otros orígenes de datos. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](personal-gateway.md).
+Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios orígenes de datos locales. Con la [puerta de enlace de datos local](service-gateway-onprem.md), puede conectarse en directo a su servidor de SQL Server Analysis Services local y a otros orígenes de datos. También puede establecer una actualización programada con una puerta de enlace centralizada. Si una puerta de enlace no está disponible, puede actualizar los datos desde los orígenes de datos locales mediante [Power BI Gateway - Personal](service-gateway-personal-mode.md).
 
 ### <a name="power-bi-report-server"></a>Servidor de informes de Power BI
 El servidor de informes de Power BI es una solución que puede implementar a nivel local para crear, publicar y administrar informes, y posteriormente entregarlos a distintos usuarios de maneras diferentes: en un explorador web, en su dispositivo móvil o, en forma de correo electrónico, en su bandeja de entrada. Obtenga más información sobre el [servidor de informes de Power BI](report-server/get-started.md).
@@ -138,6 +138,7 @@ Al igual que muchos otros servicios y software de Microsoft, Power BI permite de
 * Para **deshacer** la última acción o acciones, presione CTRL+Z.
 
 ## <a name="next-steps"></a>Pasos siguientes
+* [¿Qué es Power BI?](power-bi-overview.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 

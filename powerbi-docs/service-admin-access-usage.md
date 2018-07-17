@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 50ace772c24b2a9e706e82ca16ddcb36d8b6b60c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
+ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34722210"
+ms.lasthandoff: 07/10/2018
+ms.locfileid: "37926545"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuarios de Power BI que hayan iniciado sesión
 Si es un administrador de inquilinos y desea ver quién ha iniciado sesión en Power BI, puede usar los informes de acceso y uso de Azure Active Directory para aumentar la visibilidad.
@@ -25,9 +25,7 @@ Si es un administrador de inquilinos y desea ver quién ha iniciado sesión en P
 Puede acceder al informe de actividad en los portales [nuevo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) y [clásico](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) de Azure Active Directory (Azure AD). Mientras que en el vídeo anterior se usa el portal clásico como ejemplo, en este artículo se destaca el nuevo portal.
 
 > [!NOTE]
-> Este informe de actividad incluye usuarios de Power BI (gratuito) y usuarios de la versión Pro, pero no se identifican por el número de licencia que tienen.
-> 
-> 
+> Este informe de actividad no distingue el tipo de licencia que cada usuario posee.
 
 ## <a name="requirements"></a>Requisitos
 Estos son los requisitos para ver el informe de actividad de inicio de sesión.
@@ -70,7 +68,7 @@ Los datos relacionados con el inicio de sesión pueden estar disponibles durante
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Informes de actividad de inicio de sesión en el portal de Azure Active Directory (nuevo portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Visualización de los informes de acceso y uso (Portal clásico)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports#view-or-download-a-report)  
+[Visualización de los informes de acceso y uso (Portal clásico)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
 [Script de PowerShell de ejemplo de inicio de sesión](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
 [Directivas de retención de informes de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
 [Usar la auditoría dentro de su organización](service-admin-auditing.md)  

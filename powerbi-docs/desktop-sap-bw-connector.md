@@ -7,27 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d0cc0ce18a187280c48be0c84bf9adf680ea3ea4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 11be5cd6f5b97fe612bf42a37228518ab2fbb227
+ms.sourcegitcommit: d1a0da8638c5d957b884ca9412275ee8880d4b14
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34813443"
+ms.lasthandoff: 07/07/2018
+ms.locfileid: "37900063"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
 
 Para información sobre cómo los clientes de SAP pueden beneficiarse al conectar Power BI a sus sistemas SAP Business Warehouse (BW) existentes, consulte las [notas del producto de Power BI y SAP BW](https://aka.ms/powerbiandsapbw).
 
-A partir de la versión de junio de 2018 de **Power BI Desktop**, puede usar el conector de SAP BW con una implementación que tiene mejoras significativas en cuanto al rendimiento y las capacidades. Esta versión actualizada del conector de SAP BW fue desarrollada por Microsoft y se llama **Implementation 2.0**. Puede seleccionar el **conector de SAP BW** estándar o **Implementation 2.0 SAP Connector**. En las siguientes secciones se describe la instalación de cada versión. Puede elegir uno u otro conector a la hora de conectarse a SAP BW desde Power BI Desktop.
+A partir de la versión de junio de 2018 de **Power BI Desktop**, puede usar el conector de SAP BW con una implementación que tiene mejoras significativas en cuanto al rendimiento y las capacidades. Esta versión actualizada del conector de SAP BW fue desarrollada por Microsoft y se llama **Implementation 2.0**. Puede seleccionar la versión 1 (v1) del **conector de SAP BW** o la **implementación 2.0 del conector de SAP**. En las siguientes secciones se describe la instalación de cada versión. Puede elegir uno u otro conector a la hora de conectarse a SAP BW desde Power BI Desktop.
 
 Le recomendamos que use **Implementation 2.0 SAP Connector** siempre que sea posible.
 
-## <a name="installation-of-the-standard-sap-bw-connector"></a>Instalación del conector de SAP BW estándar
-Se recomienda usar Implementation 2.0 SAP Connector siempre que sea posible (consulte las instrucciones en la siguiente sección). En esta sección se describe la instalación del **conector de SAP BW** estándar, que se puede instalar siguiendo estos pasos de instalación:
+## <a name="installation-of-version-1-of-the-sap-bw-connector"></a>Instalación de la versión 1 del conector de SAP BW
+Se recomienda usar Implementation 2.0 SAP Connector siempre que sea posible (consulte las instrucciones en la siguiente sección). En esta sección se explica cómo instalar la versión 1 del **conector de SAP BW** siguiendo estos pasos:
 
 1. Instale la biblioteca **SAP NetWeaver** en la máquina local. Puede obtener la biblioteca **SAP Netweaver** del administrador de SAP o directamente desde el [Centro de descarga de software de SAP](https://support.sap.com/swdc). Puesto que el **Centro de descarga de software de SAP** cambia su estructura con frecuencia, no hay disponibles instrucciones más específicas para navegar por ese sitio. Normalmente, la biblioteca **SAP Netweaver** se incluye también en la instalación de las herramientas de cliente de SAP.
    
@@ -54,11 +54,11 @@ Durante la instalación, en la ventana **Pasos de configuración opcionales**, a
 ![Pasos de instalación opcionales de SAP](media/desktop-sap-bw-connector/sap_bw_2b.png)
 
 > [!NOTE]
-> La implementación estándar de SAP BW requiere archivos DLL de NetWeaver; si usa Implementation 2.0 SAP Connector en vez de la versión estándar, los archivos DLL de Netweaver no son necesarios.
+> La primera versión de la implementación de SAP BW requiere archivos DLL de NetWeaver. Si usa la implementación 2.0 del conector de SAP en vez de la primera versión, los archivos DLL de NetWeaver no son necesarios.
 
 
-## <a name="standard-sap-bw-connector-features"></a>Características del conector de SAP BW estándar
-El **conector de SAP BW** estándar de Power BI Desktop le permite importar datos de los cubos del **Servidor de SAP Business Warehouse** o usar DirectQuery. 
+## <a name="version-1-sap-bw-connector-features"></a>Características de la versión 1 del conector de SAP BW
+La versión 1 del **conector de SAP BW** de Power BI Desktop permite importar datos de los cubos del servidor de **SAP Business Warehouse**, o bien usar DirectQuery. 
 
 Para obtener más información sobre el **conector de SAP BW** y cómo usarlo con DirectQuery, eche un vistazo al artículo [DirectQuery y SAP Business Warehouse (BW)](desktop-directquery-sap-bw.md).
 
@@ -101,7 +101,7 @@ Debe crear una conexión para usar Implementation 2.0 del conector de SAP BW. Si
 
     ![Cuadro de diálogo de conexión de SAP](media/desktop-sap-bw-connector/sap_bw_7.png)
 
-3. Seleccione **Aceptar**, de manera que la experiencia de **Navegador** será la misma que la que se describe en la sección anterior para el conector de SAP BW estándar. 
+3. Seleccione **Aceptar** para que la experiencia de **Navegador** sea la misma que la que se describe en la sección anterior en relación con la versión 1 del conector de SAP BW. 
 
 ### <a name="new-options-for-implementation-20"></a>Nuevas opciones de Implementation 2.0 
 
@@ -115,7 +115,7 @@ Implementation 2.0 admite las siguientes opciones:
 
     El valor predeterminado de esta opción es SapBusinessWarehouseExecutionMode.BasXmlGzip.
 
-    El uso de *SapBusinessWarehouseExecutionMode.BasXmlGzip* puede mejorar el rendimiento si se experimenta una latencia elevada en conjuntos de datos de gran tamaño.
+    Si se experimenta una latencia elevada en conjuntos de datos de gran tamaño, el uso de *SapBusinessWarehouseExecutionMode.BasXmlGzip* puede mejorar el rendimiento.
 
 2. **BatchSize**: especifica el número máximo de filas que se recuperarán a la vez cuando se ejecute una instrucción MDX. Un número pequeño de filas se traducirá en más llamadas al servidor al recuperar un conjunto de datos grande. Un número elevado de filas puede mejorar el rendimiento, pero podría provocar problemas de memoria en el servidor de SAP BW. El valor predeterminado son 50 000 filas.
 
@@ -163,7 +163,7 @@ La modificación de informes existentes para usar **Implementation 2.0** solo es
 
     ![fragmento de código de consulta](media/desktop-sap-bw-connector/sap_bw_12.png)
 
-4. Se ha hecho todo lo posible para que Implementation 2.0 del conector de SAP BW sea compatible con el conector de SAP BW estándar, aunque puede haber algunas diferencias debido a los distintos modos de ejecución MDX de SAP BW. Para resolver cualquier discrepancia, intente cambiar de modo de ejecución.
+4. Se ha hecho todo lo posible para que la implementación 2.0 del conector de SAP BW sea compatible con la versión 1 del conector de SAP BW, aunque puede haber algunas diferencias debido a los distintos modos de ejecución MDX de SAP BW. Para resolver cualquier discrepancia, intente cambiar de modo de ejecución.
 
 ## <a name="troubleshooting"></a>Solución de problemas
 En esta sección se muestran situaciones de diagnóstico de problemas (y soluciones) para trabajar con el conector de **SAP BW**.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d350593f3a5168d959711e1ca2bbbd8a86524187
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a69cccafa9651bbda44ea2154ebe68463c9da907
+ms.sourcegitcommit: 7e0335bd8c263b5f8ba4303b986ddc450d842297
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34288070"
+ms.lasthandoff: 06/23/2018
+ms.locfileid: "36330131"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -56,15 +56,15 @@ Configure una página de informe de la forma en que desee que aparezca en el mar
 
 ![Agregar un marcador](media/desktop-bookmarks/bookmarks_04.png)
 
-**Power BI Desktop** crea un marcador y le da un nombre genérico. Puede *cambiar el nombre de* un marcador fácilmente, *eliminarlo* o *actualizarlo*. Para ello, seleccione los puntos suspensivos junto al nombre del marcador y, después, seleccione una acción en el menú que aparece.
+**Power BI Desktop** crea un marcador y le da un nombre genérico. Puede *cambiar de nombre*, *eliminar* o *actualizar* un marcador con suma facilidad. Para ello, seleccione los puntos suspensivos junto al nombre del marcador y, después, seleccione una acción en el menú que aparece.
 
-![Seleccionar el submenú de un marcador mediante el uso de los puntos suspensivos](media/desktop-bookmarks/bookmarks_05.png)
+![Selección de un submenú de un marcador mediante el uso de los puntos suspensivos](media/desktop-bookmarks/bookmarks_05.png)
 
 Una vez que tiene un marcador, puede mostrarlo simplemente con hacer clic en él en el panel **Marcadores**. 
 
 También puede seleccionar si cada marcador aplicará propiedades de *datos*, como filtros y segmentaciones, propiedades de *visualización*, como el destacado y su visibilidad, y cambios de página que presentan la página que estaba visible cuando se agregó el marcador. Estas funciones son útiles cuando se utilizan marcadores para cambiar entre los tipos de objeto visual, en cuyo caso es probable que desee desactivar las propiedades de datos, de manera que los filtros no se restablezcan a medida que los usuarios cambien los tipos de objeto visual. 
 
-Para realizar estos cambios, seleccione los puntos suspensivos junto al nombre del marcador, tal como se muestra en la imagen anterior, y luego seleccione o anule la selección de las marcas de verificación junto a *Datos*, *Mostrar* y otros controles. 
+Para realizar estos cambios, seleccione los puntos suspensivos junto al nombre del marcador, tal y como se muestra en la imagen anterior y, luego, seleccione o anule la selección de las marcas de verificación junto a *Datos*, *Mostrar* y otros controles. 
 
 ## <a name="arranging-bookmarks"></a>Organización de los marcadores
 A medida que cree marcadores, puede que el orden en que se han creado no sea necesariamente el mismo orden en el que le gustaría presentarlos a la audiencia. No hay problema, se puede reorganizar fácilmente el orden de los marcadores.
@@ -120,7 +120,7 @@ Otra característica que se ha publicado junto con los marcadores es **Destacado
 Comparemos los modos de **Destacados** y de **enfoque** para ver en qué se diferencian.
 
 1. En el modo de **enfoque**, puede hacer que un objeto visual ocupe todo el lienzo seleccionando el icono del **modo de enfoque**.
-2. Mediante **Destacados**, puede resaltar un objeto visual en su tamaño original, haciendo que todos los demás objetos visuales de la página se atenúen hasta casi ser transparentes. 
+2. En **Destacados**, puede resaltar un objeto visual en su tamaño original, haciendo que todos los demás objetos visuales de la página se atenúen hasta casi ser transparentes. 
 
 ![Comparación entre el modo de enfoque y el de destacados](media/desktop-bookmarks/bookmarks_11.png)
 

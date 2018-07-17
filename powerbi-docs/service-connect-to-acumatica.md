@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ea5ce2e1e635149c91fbcf38d84e3093af7915c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243854"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092653"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Conexión a Acumatica con Power BI
 El paquete de contenido de Acumatica para Power BI permite obtener rápidamente información sobre los datos de oportunidad. Power BI recupera los datos sobre oportunidades, cuentas y clientes para, a continuación, crear un panel predeterminado e informes relacionados basados en dichos datos.
@@ -66,7 +66,7 @@ El extremo de OData de Acumatica tiene el formato siguiente y debe usar HTTPS:
 
     https://[sitedomain]/odata/[companyname]
 
-El dominio del sitio de aplicación puede encontrarse en la barra de direcciones del explorador tras iniciar sesión en Acumatica. En el ejemplo siguiente, el dominio del sitio es "https://pbi.acumatica.com", de modo que el punto de conexión de OData que se debería proporcionar sería "https://pbi.acumatica.com/odata".
+El dominio del sitio de aplicación puede encontrarse en la barra de direcciones del explorador tras iniciar sesión en Acumatica. En el siguiente ejemplo, el dominio del sitio es `https://pbi.acumatica.com`, de modo que el punto de conexión de OData que se debería proporcionar sería `https://pbi.acumatica.com/odata`.
 
  ![](media/service-connect-to-acumatica/url.png)
 

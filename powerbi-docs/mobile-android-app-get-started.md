@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 84a2fe350c1146591aa89c5900c10f2747e90cf3
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3323258304f8c36131caf6ef269d9befa6cfbb96
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34297455"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37136534"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -23,7 +23,7 @@ La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia d
 
 Podrá crear informes de Power BI en Power BI Desktop y publicarlos:
 
-* [Publíquelos en el servicio Power BI](service-get-started.md) y cree paneles.
+* [Publíquelos en el servicio Power BI](power-bi-overview.md) y cree paneles.
 * [Publíquelos en Power BI Report Server](report-server/quickstart-create-powerbi-report.md).
 
 A continuación, en la aplicación de Power BI para Android, podrá interactuar con los paneles y los informes locales o en la nube.
@@ -136,7 +136,7 @@ Estas son algunas de las cosas que puede hacer en la aplicación de Power BI par
 
 ### <a name="see-also"></a>Vea también
 * [Descarga de la aplicación Android](http://go.microsoft.com/fwlink/?LinkID=544867) desde la tienda de aplicaciones Android.
-* [Introducción a Power BI](service-get-started.md)
+* [¿Qué es Power BI?](power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 
 

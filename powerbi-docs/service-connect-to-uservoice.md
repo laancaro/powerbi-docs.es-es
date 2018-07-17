@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2761b2bd1230e18b5dd4e0b69342e55ed33d0983
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34250835"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092170"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Conexión a UserVoice con Power BI
 Explorar y realizar un seguimiento de los datos de UserVoice es fácil con Power BI y el paquete de contenido de UserVoice. Power BI recupera los datos, incluidos los vales, las sugerencias y las calificaciones de satisfacción para, a continuación, crear un panel e informes basados en los datos listos para usar.
@@ -35,7 +35,7 @@ Conéctese al [paquete de contenido de UserVoice](https://app.powerbi.com/getdat
 3. Seleccione **UserVoice**y, a continuación, seleccione **Obtener**.
    
    ![](media/service-connect-to-uservoice/uservoice.png)
-4. Cuando se solicite, escriba la dirección URL de UserVoice. La dirección URL debe seguir exactamente el patrón https://fabrikam.uservoice.com, reemplazando "fabrikam" por el nombre del producto o servicio.
+4. Cuando se solicite, escriba la dirección URL de UserVoice. La dirección URL debe seguir exactamente el patrón `https://fabrikam.uservoice.com`, reemplazando "fabrikam" por el nombre del producto o servicio.
    
    >[!NOTE]
    >Tenga en cuenta que no hay ninguna barra diagonal al final de la dirección y de que la conexión es http**s**.
@@ -63,7 +63,7 @@ Conéctese al [paquete de contenido de UserVoice](https://app.powerbi.com/getdat
 
 Si ve este error tras especificar la dirección URL de UserVoice. Asegúrese de que se cumplen los requisitos siguientes:
 
-* La dirección URL sigue exactamente el patrón "https://fabrikam.uservoice.com", reemplazando "fabrikam" por el prefijo de dirección URL de UserVoice correcto.
+* La dirección URL sigue exactamente el patrón `https://fabrikam.uservoice.com`, reemplazando "fabrikam" por el prefijo de dirección URL de UserVoice correcto.
 * Asegúrese de que todas las letras estén en minúsculas.
 * Asegúrese de que la dirección URL esté en 'http**s**'.
 * Asegúrese de que no hay ninguna barra diagonal al final de la dirección URL.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/28/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: b85ffb97948976e25347039dfa4f81dda9f1ea7c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
+ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254864"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37092354"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -135,7 +135,8 @@ La característica **Publicar en Web** se admite para la gran mayoría de los or
 5. Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.
 6. Exportación de datos desde los objetos visuales de un informe que se ha publicado en la Web
 7. Objetos visuales de ArcGIS Maps for Power BI
-8. [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
+8. Informes que contienen medidas DAX de nivel de informe
+9. [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 

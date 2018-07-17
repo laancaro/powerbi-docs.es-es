@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 024bdce00ba6ec7b9c1027163776a71e77aaf91d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c0090cb81ebaebc6b4cec70163374be4f1f37980
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456120"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135821"
 ---
 # <a name="power-bi-for-office-365-is-retired"></a>Power BI para Office 365 se retira
 Power BI para Office 365, una versión anterior de Power BI, ha pasado a la versión actual de [Power BI](https://powerbi.microsoft.com). Los usuarios que utilizaron previamente **Power BI para Office 365** pueden utilizar la versión actual de Power BI. Puede [obtener más información sobre Power BI](service-get-started.md).
@@ -28,8 +28,8 @@ El acceso al portal de administración de **Power BI para Office 365** ha dejado
 Para más información, visite el [portal de administración de Power BI](service-admin-portal.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)
+[¿Qué es Power BI?](power-bi-overview.md)
 
-[Introducción a Power BI Desktop](desktop-getting-started.md)
+[¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 
 [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md)

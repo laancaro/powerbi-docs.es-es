@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2017
+ms.date: 06/20/2018
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 27b2eb90a07d3112b771fd3ee23cc86353a46991
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a1ae30097e0af90d5da8acd0d41b11f513756f88
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242258"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37135913"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 Obtenga información sobre cómo puede conectarse directamente a Azure SQL Database y crear informes que usan datos activos. Puede mantener los datos en el origen y no en Power BI.
@@ -31,7 +31,11 @@ Con DirectQuery, las consultas se envían a Azure SQL Database a medida que expl
 * Preguntas y respuestas no está disponible para conjuntos de datos de DirectQuery.
 * Los cambios de esquema no se recogen automáticamente
 
-Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. A continuación, se detallan los pasos para conectarse. 
+Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. A continuación, se detallan los pasos para conectarse.
+
+> [!Important]
+> Hemos mejorado la conectividad con Azure SQL Database.  Use Power BI Desktop para disfrutar de la mejor experiencia de conexión al origen de datos de Azure SQL Database.  Una vez creados el modelo y el informe, puede publicarlos en el servicio Power BI.  El conector directo de Azure SQL Database en el servicio Power BI se encuentra en desuso.
+>
 
 ## <a name="power-bi-desktop-and-directquery"></a>Power BI Desktop y DirectQuery
 Para conectarse a Azure SQL Database mediante DirectQuery, debe usar Power BI Desktop. Este enfoque proporciona más flexibilidad y capacidades. Los informes creados mediante Power BI Desktop se pueden publicar en el servicio Power BI. Puede obtener más información sobre cómo conectarse a [Azure SQL Database mediante DirectQuery](desktop-use-directquery.md) en Power BI Desktop. 
@@ -57,6 +61,6 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Usar DirectQuery en Power BI Desktop](desktop-use-directquery.md)  
-[Introducción a Power BI](service-get-started.md)  
+[¿Qué es Power BI?](power-bi-overview.md)  
 [Obtener datos para Power BI](service-get-data.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

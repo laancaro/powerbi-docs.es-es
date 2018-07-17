@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/13/2018
 ms.author: maikelson
-ms.openlocfilehash: 29aba440f92f37763dd9887b5fa7511d6191a5f7
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a20e5b9807f9495183ebb1e6bd396e68f02c1a1
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34299295"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137654"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -22,25 +22,9 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones presenciales de preguntas y respuestas
+Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
 
-**Draw the right insights with Power BI and Visio** (Extraer información adecuada con Power BI y Visio)
-<br>por Shakun Grover
-<br>*22 de mayo, 2018, 10:00 (Hora estándar del Pacífico), 13:00 (Hora estándar del Este)*
-
-Únase a nosotros en este seminario web para obtener información sobre cómo combinar los paneles de Power BI y los diagramas de Microsoft Visio para crear información visual eficaz. Visio y Power BI son muy visuales y totalmente complementarios. Visio le permite crear diagramas ilustrativos, como flujos de trabajo conectados entre sí y diseños del mundo real. Power BI le ayuda a crear paneles intuitivos con gráficos y mapas para medir los indicadores clave de rendimiento y realizar un seguimiento de los objetivos.
-
-[Regístrese para verlo el 22 de mayo](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
-
-**Learn about Power BI Embedded in 20 minutes** (Conozca Power BI Embedded en 20 minutos)
-<br>de Megan Asarrane y Colin Murphy
-<br>*23 de mayo, 2018, 10:00 (Hora estándar del Pacífico), 13:00 (Hora estándar del Este)*
-
-En este seminario web se muestra una introducción a Power BI Embedded. Al final de este seminario web, los usuarios deberían poder entender qué es Power BI Embedded, los pasos siguientes para comenzar a usar el producto y dónde obtener ayuda y recursos.
-
-[Regístrese para verlo el 23 de mayo](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
-
->[Asista a los próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinar?Is=Website)
+>[Asista a los próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/en-us/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
@@ -78,15 +62,27 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Charles Sterling
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
+**Learn about Power BI Embedded in 20 minutes** (Conozca Power BI Embedded en 20 minutos)
+<br>de Megan Asarrane y Colin Murphy
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-power-bi-embedded-in-20-min.html?Is=Website)
+
 **Beyond the Spreadsheet** (Más allá de la hoja de cálculo)
 <br>por Gohul Shanmugalingam
 <br>[Registrarse y ver ahora](https://info.microsoft.com/CA-PowerBI-WBNR-FY18-05May-09-DataBeyondtheSpreadsheet-MCW0006385_01Registration-ForminBody.html?Is=Website)
+
+**Draw the right insights with Power BI and Visio** (Extraer información adecuada con Power BI y Visio)
+<br>por Shakun Grover
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-powerbi-and-visio.html?Is=Website)
 
 **Transforming A Report From Good to GREAT!** (Transformar un buen informe en un informe excelente)
 <br>de Reid Havens
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/Power-BI-Transforming-A-Report-From-Good-to-GREAT/m-p/315119?Is=Website)
 
 ### <a name="partners"></a>Asociados ###
+
+**Boost Your BI with Location Intelligence** (Mejora de la inteligencia empresarial con inteligencia de ubicación)
+<br>Por Scott Ball de Esri y Enrique Plaza de Microsoft
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
 
 **Improving Profitability in Healthcare** (Cómo mejorar la rentabilidad en el sector sanitario)
 <br>de Stephen Cracknell y Stuart Macanliss (US Medical IT)
@@ -172,7 +168,7 @@ Vea las sesiones grabadas en cualquier momento
 
 - [Sesiones a petición del Microsoft Data Insights Summit 2017](https://community.powerbi.com/t5/Data-Insights-Summit-2017-On/bd-p/DataInsightsSummit2017OnDemand?Is=Website)
 
-- [Introducción a Power BI](service-get-started.md)
+- [¿Qué es Power BI?](power-bi-overview.md)
 
 - Siga [@MSPowerBI en Twitter](https://twitter.com/mspowerbi)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a604f50889d4443ba7c8e7da580275e579f69d15
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
+ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301835"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965513"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -99,6 +99,8 @@ Para obtener más información sobre los registros de auditoría, consulte [Audi
 ## <a name="tenant-settings"></a>Configuración de inquilinos
 
 La tercera ficha, en el portal de administración, es **Configuración de inquilinos**. La configuración de inquilinos le da un mayor control sobre qué características están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización o, puede que solo quiera que una determinada característica esté disponible para un grupo concreto. Si es así, se puede desactivar en el inquilino.
+
+Por ejemplo, los datos por usuario están habilitados en las métricas de uso, y el informe de métricas incluye información sobre la cuenta del creador de contenido. Si prefiere no incluir esta información de algunos los usuarios, incluso de ninguno de ellos, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparecerá en el informe como *Sin nombre*.
 
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -235,7 +237,7 @@ Los usuarios de la organización pueden interactuar con objetos visuales persona
 
 ## <a name="r-visuals-settings"></a>Configuración de objetos visuales de R
 
-### <a name="interact-with-an-dshare-r-visuals"></a>Interactuar con un objeto visual dshare de R
+### <a name="interact-with-and-share-r-visuals"></a>Compartir objetos visuales de R e interactuar con ellos
 
 Los usuarios de la organización pueden interactuar con objetos visuales creados mediante scripts de R y compartirlos. [Más información](service-r-visuals.md)
 

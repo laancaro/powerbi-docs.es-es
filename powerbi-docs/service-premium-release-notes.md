@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 09/11/2017
 ms.author: mgblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 3cf20899e705328c9f63bdbede4c30bd69488762
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 52c6293bacb2cae1d74a7a0459c61fe3c3bc201f
+ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34298329"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36944362"
 ---
 # <a name="power-bi-premium-release-notes"></a>Notas de la versión de Power BI Premium
 Estas son las notas de la versión para Power BI Premium, una capacidad dedicada que proporciona a su organización o equipo un rendimiento más seguro, volúmenes de datos mayores y la posibilidad de distribuir contenido sin licencias por usuario a los usuarios que tienen que ver los datos.
 
-* Los usuarios con licencias gratuitas de Power BI ahora pueden ver los paneles compartidos con ellos de áreas de trabajo Premium en el servicio Power BI.
+* Ahora, todos los usuarios (sea cual sea la licencia que tengan asignada) pueden ver los paneles compartidos con ellos en las áreas de trabajo Premium en el servicio Power BI.
 * Ahora, los administradores de capacidad obtienen automáticamente los permisos de asignación.
 * La seguridad dinámica de nivel de fila (RLS) ya está disponible para los casos de uso insertado. Para más información, consulte [Seguridad de nivel de fila (RLS) con análisis insertado](developer/embedded-row-level-security.md).
 * Aún no se permite la distribución de aplicaciones de Power BI a los usuarios de otros inquilinos de AAD con powerbi.com. Estamos trabajando en esto.

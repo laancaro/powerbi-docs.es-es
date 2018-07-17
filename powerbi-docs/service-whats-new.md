@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/09/2018
+ms.date: 06/06/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: db32f7d0d3f7ca7b6943ca5347dc349c8c44be85
-ms.sourcegitcommit: 4b61588e3ab3c8bbb17276402dbf7fa00085a266
+ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2018
-ms.locfileid: "35301858"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137477"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
@@ -31,11 +31,19 @@ También puede consultar los canales de YouTube para obtener información acerca
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="april-2018"></a>Abril de 2018
+## <a name="may-2018"></a>May. 2018
+* [Paneles de tema](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) en el servicio Power BI.
+* [Actualización incremental](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) con Premium.
+* Flujo de trabajo de solicitud de acceso para [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
+* Actualizaciones de Obtener datos para que los usuarios encuentren [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) con mayor facilidad.
+* Opciones para activar y desactivar los [filtros persistentes](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
+* Mejoras en el flujo de trabajo de invitación de B2B de Azure en los informes.
+
+## <a name="previous-months-2018"></a>Meses anteriores (2018)
+### <a name="april-2018"></a>Abril de 2018
 * [Notas del producto de RGPD de Power BI](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Los [registros de auditoría](https://docs.microsoft.com/power-bi/service-admin-auditing) del servicio Power BI están activados de forma predeterminada para el inquilino de Office 365.
 
-## <a name="previous-months-2018"></a>Meses anteriores (2018)
 ### <a name="march-2018"></a>Marzo de 2018
 * [Filtros persistentes](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
 * Compartir contenido con usuarios mediante sus cuentas de correo electrónico personales. Extensión de [B2B de Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
@@ -63,7 +71,7 @@ También puede consultar los canales de YouTube para obtener información acerca
 * Control de administración detallado para [publicar en la Web](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>Septiembre de 2017
-* Comparta paneles con usuarios gratuitos con Premium.
+* En la capacidad Premium, compartir paneles con usuarios que no tienen una licencia de Power BI Pro.
 * Asigne capacidad para satisfacer sus necesidades de negocio con la agrupación de núcleo virtual.
 * Escalado y reducción vertical con un clic.
 * [Bloque de PubNub](https://www.pubnub.com/docs/blocks-catalog/power-bi-realtime-dashboards) para insertar fácilmente datos en las API de REST
@@ -222,7 +230,7 @@ Para obtener todos los detalles, [visite el blog del equipo de Power BI](https:/
 
 ***Analizar en Excel***
 
-* [Análisis en Excel](service-analyze-in-excel.md) disponible para todos los usuarios: La capacidad de acceder a los modelos de datos de Power BI en Excel se ha extendido a todos los usuarios; gratis y profesional.
+* [Análisis en Excel](service-analyze-in-excel.md) disponible para todos los usuarios: la capacidad de acceder a los modelos de datos de Power BI en Excel se ha extendido a todos los usuarios, sea cual sea la licencia que tengan asignada.
 * Experiencia de cuenta de varios usuarios mejorada: Si tiene más de 1 cuenta de usuario de Power BI, ahora es más fácil iniciar sesión.
 
 Para obtener todos los detalles, [visite el blog del equipo de Power BI](https://powerbi.microsoft.com/blog/power-bi-service-april-update-expressroute-for-power-bi/).
@@ -567,7 +575,7 @@ Eche un vistazo al [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 
 **24 de julio de 2015**
 
-* Nos complace anunciar el lanzamiento de la versión de "disponibilidad general" (GA) de Power BI. Puede seguir usando la versión gratuita de Power BI, o suscribirse a [Power BI Pro](service-self-service-signup-for-power-bi.md). Como parte de la versión de GA, ofrecemos algunas características nuevas muy útiles:
+* Nos complace anunciar el lanzamiento de la versión de "disponibilidad general" (GA) de Power BI. Regístrese en [Power BI Pro](service-self-service-signup-for-power-bi.md) ahora. Como parte de la versión de GA, ofrecemos algunas características nuevas muy útiles:
 * Una nueva experiencia de visualización y creación de informes: El nuevo lienzo de informes dispone de una mayor variedad de visualizaciones y de un mayor control sobre el formato de títulos, leyendas, ejes, colores y fondos, entre otros elementos.
 * [Grupos de Power BI](service-create-distribute-apps.md): Los grupos permiten disfrutar de experiencias de colaboración eficaces, basadas en los grupos de Office 365.
 * [Paquetes de contenido organizativos](service-organizational-content-pack-introduction.md): Power BI simplifica enormemente la creación de paneles e informes, y ahora los usuarios pueden publicar este contenido en la galería de contenido organizativo.
@@ -661,7 +669,7 @@ Eche un vistazo al [blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/06/pow
 * Se mejoró la confiabilidad de la actualización con OneDrive.  Se resolvieron algunas situaciones en las que los libros no se actualizaban desde OneDrive.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)  
+[¿Qué es Power BI?](power-bi-overview.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

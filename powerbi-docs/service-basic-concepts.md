@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/20/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7793b79ad26fdb0b01f3dc2a01be02c47047ce9c
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
+ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34253309"
+ms.lasthandoff: 06/29/2018
+ms.locfileid: "37137431"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI: conceptos básicos del servicio Power BI
 
@@ -105,7 +105,7 @@ En el ejemplo siguiente, he seleccionado el área de trabajo de la aplicación "
 
 * se encuentra en una sola área de trabajo
 * se puede asociar con varios paneles de esa área de trabajo (los iconos anclados desde ese informe pueden aparecer en varios paneles).
-* se puede crear utilizando los datos de un conjunto de datos. (la excepción a esto es que Power BI Desktop puede combinar más de un conjunto de datos en un único informe, y ese informe se puede importar a Power BI).
+* se puede crear con los datos de un conjunto de datos. (la excepción a esto es que Power BI Desktop puede combinar más de un conjunto de datos en un único informe, y ese informe se puede importar a Power BI).
   
   ![](media/service-basic-concepts/drawing3new.png)
 
@@ -231,7 +231,7 @@ Esta área de la pantalla contiene opciones adicionales para interactuar con el 
    ![](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a Power BI](service-get-started.md)  
+[¿Qué es Power BI?](power-bi-overview.md)  
 [Navegación: Orientación en el servicio Power BI](service-the-new-power-bi-experience.md)
 [Vídeos de Power BI](videos.md)  
 [Un paseo por el editor de informes](service-the-report-editor-take-a-tour.md)
