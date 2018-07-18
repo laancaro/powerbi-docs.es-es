@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: aa51d516e903908fb2b0121f9bbed41d54f5e670
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
+ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38925010"
+ms.lasthandoff: 07/17/2018
+ms.locfileid: "39088894"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registro de una aplicación de Azure AD para insertar contenido de Power BI
 Aprenda a registrar una aplicación en Azure Active Directory (Azure AD) para su uso con la inserción de contenido de Power BI.
@@ -23,7 +23,6 @@ Deberá registrar la aplicación con Azure AD para permitir que la aplicación a
 
 > [!IMPORTANT]
 > Antes de registrar una aplicación de Power BI, necesita un [inquilino de Azure Active Directory y un usuario de la organización](create-an-azure-active-directory-tenant.md). Si aún no se ha registrado en Power BI con un usuario del inquilino, el registro de la aplicación no se efectuará correctamente.
-> 
 
 Hay dos formas de registrar la aplicación. La primera es con la [herramienta de registro de aplicaciones de Power BI](https://dev.powerbi.com/apps/) o puede hacerlo también directamente en Azure Portal. La herramienta de registro de aplicaciones de Power BI es la opción más fácil, ya que hay pocos campos para rellenar. Use Azure Portal si quiere realizar cambios en la aplicación.
 
@@ -174,7 +173,6 @@ Tiene que iniciar sesión con la cuenta *maestra*, que se usó para la inserció
      "startTime":"2017-03-29T14:35:32.4933413+03:00"
      }
      ```
-
 5. Conceder permisos de aplicación a Azure Active Directory (AAD)
    
    El valor de **consentType** puede proporcionar **AllPrincipals** o **Principal**.
