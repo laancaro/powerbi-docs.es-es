@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1c9948ad5c09b3123d898bf8841243d6e5fa83fd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 63cb1fe3061d1ba48e71a4ac09862fce29dd9196
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34553574"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032057"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -84,7 +84,7 @@ Insertar un informe en SharePoint Online no da a los usuarios permiso para ver e
 > [!IMPORTANT]
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
-Hay dos formas de proporcionar acceso al informe dentro del servicio Power BI. Si usa un grupo de Office 365 para crear el sitio de grupo de SharePoint Online, los usuarios aparecen como miembros del área de trabajo de la aplicación en el servicio Power BI. De este modo se asegurará de que los usuarios puedan ver el contenido de ese grupo. Para más información, consulte [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md).
+Hay dos formas de proporcionar acceso al informe dentro del servicio Power BI. Si usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, los usuarios aparecen como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. De este modo se asegurará de que los usuarios puedan ver el contenido de ese grupo. Para más información, consulte [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md).
 
 Como alternativa, puede conceder a los usuarios acceso a un informe mediante los pasos siguientes.
 
@@ -129,7 +129,7 @@ Póngase en contacto con el propietario de la página de SharePoint Online para 
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
-* **Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token"** ("Se ha producido un error, intente cerrar la sesión y abrirla de nuevo, y vuelva a esta página. Id. de correlación: no definido, estado de respuesta http: 400, código de error de servidor 10001, mensaje: falta token de actualización")
+* Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token" ("Se ha producido un error, intente cerrar la sesión y abrirla de nuevo, y vuelva a esta página. Id. de correlación: no definido, estado de respuesta http: 400, código de error de servidor 10001, mensaje: falta token de actualización")
   
   Si recibe este error, intente realizar una de las siguientes opciones.
   
@@ -154,5 +154,4 @@ Póngase en contacto con el propietario de la página de SharePoint Online para 
 [Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md)  
 [¿Qué es Power BI Premium?](service-premium.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/) 
-
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

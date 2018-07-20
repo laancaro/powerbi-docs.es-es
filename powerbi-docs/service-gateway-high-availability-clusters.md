@@ -10,15 +10,17 @@ ms.topic: conceptual
 ms.date: 12/05/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e15983bf754a2fc1e2fe9ae376eedbed36e20ce4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 9777131c25974a2bc9936ef1c1ce285bb652028c
+ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298789"
+ms.lasthandoff: 07/13/2018
+ms.locfileid: "39032034"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clústeres de alta disponibilidad para puerta de enlace de datos local
-Puede crear **clústeres de alta disponibilidad** de instalaciones de **puertas de enlace de datos locales**, para acceder a los recursos de datos locales utilizados en los informes y paneles de Power BI. Estos clústeres permiten a los administradores de puertas de enlace agrupar las puertas de enlace para evitar puntos únicos de error a la hora de acceder a los recursos de datos locales. En este artículo se describen los pasos que puede realizar para crear un clúster de alta disponibilidad de puertas de enlace de datos locales, así como los procedimientos recomendados para configurarlos. Los clústeres de puertas de enlace de alta disponibilidad requieren puertas de enlace de datos locales con la actualización de noviembre de 2017 o posteriores.
+Puede crear **clústeres de alta disponibilidad** de instalaciones de **puertas de enlace de datos locales**, para acceder a los recursos de datos locales utilizados en los informes y paneles de Power BI. Estos clústeres permiten a los administradores de puertas de enlace agrupar las puertas de enlace para evitar puntos únicos de error a la hora de acceder a los recursos de datos locales. El servicio Power BI siempre usa la puerta de enlace principal del clúster, a menos que no esté disponible. En ese caso, el servicio cambia a la siguiente puerta de enlace del clúster, y así sucesivamente.
+
+En este artículo se describen los pasos que puede realizar para crear un clúster de alta disponibilidad de puertas de enlace de datos locales, así como los procedimientos recomendados para configurarlos. Los clústeres de puertas de enlace de alta disponibilidad requieren puertas de enlace de datos locales con la actualización de noviembre de 2017 o posteriores.
 
 
 ## <a name="setting-up-high-availability-clusters-of-gateways"></a>Configuración de clústeres de alta disponibilidad de puertas de enlace
