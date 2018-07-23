@@ -1021,7 +1021,9 @@
             - name: ¿Qué puedo hacer con la API de Power BI?
               href: developer/overview-of-power-bi-rest-api.md
         - name: Tutoriales
-          items: null
+          items:
+            - name: Inserción de datos en un conjunto de datos
+              href: developer/walkthrough-push-data.md
         - name: Conceptos
           items:
             - name: Directiva de retención automática para datos en tiempo real
@@ -1036,8 +1038,6 @@
                   href: developer/api-data-model-versioning.md
         - name: Procedimiento
           items:
-            - name: Inserción de datos en un conjunto de datos
-              href: developer/walkthrough-push-data.md
             - name: Registrar una aplicación con Azure AD
               href: developer/walkthrough-push-data-register-app-with-azure-ad.md
             - name: Obtener un token de acceso de autenticación
