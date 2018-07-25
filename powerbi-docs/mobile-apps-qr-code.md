@@ -23,7 +23,7 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |
 | iPhone |Teléfonos Android |Tabletas Android |
 
-Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada & #151; no es necesario realizar ninguna exploración o búsqueda.
+Los códigos QR de Power BI pueden conectar  cualquier elemento del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
 
 Suponga que un compañero ha [creado un código QR en el servicio Power BI](service-create-qr-code-for-tile.md) para un informe o para un icono en un panel, ha compartido el panel o el informe con usted y ha colocado dicho código en una ubicación clave, por ejemplo, en un mensaje de correo o en un elemento concreto. 
 
