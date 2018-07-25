@@ -530,6 +530,12 @@
       items:
         - name: Novedades de la última versión de Power BI Desktop
           href: desktop-latest-update.md
+        - name: Modelos compuestos en Power BI Desktop (versión preliminar)
+          href: desktop-composite-models.md
+        - name: Relaciones de varios a varios en Power BI Desktop (versión preliminar)
+          href: desktop-many-to-many-relationships.md
+        - name: Modo de almacenamiento en Power BI Desktop (versión preliminar)
+          href: desktop-storage-mode.md
         - name: Filtrado cruzado bidireccional en Power BI Desktop (versión preliminar)
           href: desktop-bidirectional-filtering.md
         - name: Power BI y DirectQuery
@@ -670,6 +676,8 @@
               href: desktop-import-and-display-kpis.md
         - name: Crear informes
           items:
+            - name: Objetos visuales para informes
+              href: desktop-visual-elements-for-reports.md
             - name: Preguntas y respuestas en Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Panel de análisis en Power BI Desktop
@@ -1244,6 +1252,8 @@
               href: service-premium-large-datasets.md
             - name: Actualización incremental
               href: service-premium-incremental-refresh.md
+            - name: Compatibilidad con la replicación geográfica (versión preliminar)
+              href: service-admin-premium-multi-geo.md
             - name: Preguntas más frecuentes sobre Power BI Premium
               href: service-premium-faq.md
             - name: Notas de la versión de Power BI Premium

@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/31/2018
 ms.author: maghan
-ms.openlocfilehash: 7fb13b86e3f384c0c923a96e07631498edf84ee4
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 4242e2a88ab930c5f647bbfa4aa97fea1dc313ad
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088894"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157134"
 ---
 # <a name="register-an-azure-ad-app-to-embed-power-bi-content"></a>Registro de una aplicación de Azure AD para insertar contenido de Power BI
 Aprenda a registrar una aplicación en Azure Active Directory (Azure AD) para su uso con la inserción de contenido de Power BI.
