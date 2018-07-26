@@ -3,7 +3,7 @@ Bienvenido a la sección **Aprendizaje guiado** de Power BI, diseñada para pres
 **DAX** significa **Expresiones de análisis de datos**,y es el lenguaje de fórmulas usado en Power BI (Power BI también lo usa en segundo plano). DAX también se encuentra en otras ofertas de Microsoft, como Power Pivot y SSAS Tabular, pero este conjunto de temas de aprendizaje guiado se centra en cómo se usa DAX, y cómo puede usarlo, en Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX y esta serie de vídeos de aprendizaje guiado
-El objetivo de esta sección **Aprendizaje guiado** es mostrarle los aspectos básicos y los fundamentos de DAX: cómo pensar sobre DAX, cómo funciona y las características más útiles, explicado (y aprendido con mucha experiencia) por un conocido experto en DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit).
+El objetivo de esta sección **Aprendizaje guiado** es mostrarle los aspectos básicos y los fundamentos de DAX: cómo pensar sobre DAX, cómo funciona y las características más útiles, explicado (y aprendido con mucha experiencia) por un conocido experto en DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax).
 
 ![Foto de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 

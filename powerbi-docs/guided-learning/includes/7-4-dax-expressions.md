@@ -10,7 +10,7 @@ Las variables pueden ser cualquier tipo de datos, incluidas tablas enteras.
 
 Tenga en cuenta que cada vez que haga referencia a una variable en la expresión DAX, Power BI tendrá que recalcular su valor según la definición. Por este motivo, se recomienda evitar repetir variables en las funciones.
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

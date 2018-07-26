@@ -15,7 +15,7 @@ La función **RELATED** puede usarse en relaciones de *varios a uno*, mientras q
 
 Puede utilizar funciones relacionales para crear expresiones que incluyan valores en varias tablas. DAX devolverá un resultado con estas funciones, con independencia de la longitud de la cadena de la relación.
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 

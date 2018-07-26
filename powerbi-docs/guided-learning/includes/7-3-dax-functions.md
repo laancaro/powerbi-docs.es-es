@@ -89,7 +89,7 @@ DAX incluye las siguientes funciones de **fecha**:
 
 Aunque estas funciones son útiles para calcular y extraer información de los valores de *fecha*, no se aplican a la inteligencia de tiempo, que usa una tabla de fechas.
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
 > 
 > 
 
