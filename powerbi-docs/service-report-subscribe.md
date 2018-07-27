@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 0b1aa1f9cdabc3508906cc87a4d41f277cd0b0b6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 9436f94add8c8aff4d0378734c83891ef407955d
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092699"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256087"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service-apppowerbicom"></a>Suscripción a un informe o panel en el servicio Power BI (app.powerbi.com)
 Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscriba tanto a su usuario como a sus compañeros de trabajo a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: desde una vez al día hasta una vez por semana. 
@@ -83,8 +83,10 @@ Una suscripción finalizará si expira la licencia de Pro, el propietario elimin
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, dicho icono no se mostrará.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y cambia su nombre, tendrá que volver a crear la suscripción
+* En estos momentos, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica.
 * Para las suscripciones de correo electrónico en conjuntos de datos de conexiones dinámicas, solo recibirá correos electrónicos cuando los datos cambien. Por lo tanto, si se produce una actualización pero los datos no cambian, Power BI no le enviará un correo electrónico.
 * Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](power-bi-custom-visuals.md).  La única excepción son esos objetos visuales personalizados que se han [certificado](power-bi-custom-visuals-certified.md).  
+* En estos momentos, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
 * Si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono de panel, este no se mostrará.
 * No puede suscribir a otros usuarios a un informe que tenga aplicada la seguridad de nivel de fila (RLS).
 * Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se mostrarán los cambios en los valores predeterminados que realice tras suscribirse.    

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 94f4bf71f0b97b202ce05f1caadee43ccea6a733
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f7c619a5696a6f432f24e5e2c875cfde335ab32c
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135936"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256064"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -58,7 +58,7 @@ Algunas de las características que están disponibles en la versión comercial 
 * **Power BI para la Administración Pública de Estados Unidos** solo está disponible como una licencia **Pro**. Todas las referencias a licencias de Power BI (gratis) en un portal de administración (o como usuarios) se ejecutan en una nube del servicio Power BI comercial.
 * **Auditoría**: desde junio de 2018, esta opción está disponible en el portal Seguridad y cumplimiento de Office 365.
 * **Contenido de Power BI en Cortana**: los resultados de Power BI no aparecerán en los resultados de búsqueda de Cortana, que incluye los resultados para el contenido de Power BI (paneles, informes, aplicaciones), así como los resultados que muestran páginas del informe optimizadas para Cortana sobre palabras clave específicas.
-* **Uso compartido de usuario externo**: el uso compartido está permitido solo dentro de un inquilino de Power BI; a partir de junio de 2018, también se puede compartir con usuarios de fuera del inquilino de Power BI.
+* **Uso compartido de usuario externo**: el uso compartido está permitido solo dentro de un inquilino de Power BI; a partir de junio de 2018, también se puede compartir con usuarios de fuera del inquilino de Power BI. Consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Métricas de uso para paneles e informes**: las métricas de uso no están disponibles para informes y paneles. Los clientes pueden usar los datos de registro de auditoría para obtener información de uso para el contenido de su organización.
 
 Si tiene licencias gratis de **Power BI** asignadas a su cuenta, estas cuentas se ejecutan en una versión comercial del servicio **Power BI** y no forman parte de la oferta **Power BI para la Administración Pública de Estados Unidos**. Para esas cuentas gratis, pueden encontrar los siguientes problemas:

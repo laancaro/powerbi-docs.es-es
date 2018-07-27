@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/19/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3c91a6a70899a4a59c3d98cd9ab948284df5b662
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 144cdace662b5f6dbe546a213e07f087d634dcff
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298398"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256018"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
 Power BI permite personalizar los paneles y los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.
@@ -97,7 +97,7 @@ En esta primera imagen, fíjese en que las barras del gráfico reflejan el degra
 
 ![](media/service-tips-and-tricks-for-color-formatting/tipstrickscolor_12.png)
 
-Ahora veamos qué sucede si se proporcionan valores numéricos en los cuadros de valor **Mínimo** y **Máximo** , que se encuentran debajo de los selectores de colores **Mínimo** y **Máximo** (mostrados en la imagen siguiente). Configuremos el **Mínimo** en 20.000.000 y el **Máximo** en 20.000.000.
+Ahora veamos qué sucede si se proporcionan valores numéricos en los cuadros de valor **Mínimo** y **Máximo** , que se encuentran debajo de los selectores de colores **Mínimo** y **Máximo** (mostrados en la imagen siguiente). Establezcamos el valor **Mínimo** en 20 000 000 y el **Máximo**, en 20 000 001.
 
 Si se establecen estos valores, el degradado ya no se aplica a los valores del gráfico que están por debajo del **Mínimo** o por encima del **Máximo**. Todas las barras con valores por encima del **Máximo** se colorean de verde, y las que tienen valores por debajo del **Mínimo** se colorean de rojo.
 
