@@ -28,7 +28,7 @@ El primer paso para insertar datos en un conjunto de datos de Power BI es regist
 Estos son los pasos para registrar una aplicación en Azure AD.
 
 ## <a name="register-an-app-in-azure-ad"></a>Registrar una aplicación en Azure AD
-1. Vaya a www.powerbi.com/apps.
+1. Vaya a dev.powerbi.com/apps.
 2. Haga clic en **Sign in with your existing account**e inicie sesión en su cuenta de Power BI.
 3. En **App Name** , escriba un nombre, como "Ejemplo de aplicación para insertar datos".
 4. En **App Type**, elija **Native app**.
