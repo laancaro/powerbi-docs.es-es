@@ -39,11 +39,11 @@ Este panel de ejemplo del sector y el informe subyacente analizan datos de venta
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Seleccione el **Ejemplo de análisis de minoristas** y elija **Conectar**.  
   
-   ![Retail Analysis Sample](media/sample-retail-analysis/retail16.png)
+   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail16.png)
    
 5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
    
-   ![Retail Analysis Sample](media/sample-retail-analysis/retail17.png)
+   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
