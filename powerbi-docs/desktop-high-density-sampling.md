@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/19/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7fb3e6163d63cdf3f40d0400f246095550fc9032
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286575"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328153"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Muestreo de líneas de alta densidad en Power BI
 Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones al **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora los objetos visuales con muestreos de datos de alta densidad. Por ejemplo, puede crear un gráfico de líneas a partir de los resultados de ventas de sus tiendas, con cada tienda con más de diez mil recibos de ventas cada año. Un gráfico de líneas de dicha información de ventas realizará un muestreo de los datos (seleccionando una representación significativa de los datos para ilustrar cómo varían las ventas a través del tiempo) a partir de los datos de cada tienda, y creará un gráfico de líneas de varias series que, por lo tanto, representa datos subyacentes. Esta es una práctica habitual al visualizar datos de alta densidad. Power BI Desktop ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.

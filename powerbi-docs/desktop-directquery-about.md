@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ed9ab95aace7ab1ff0774732241bdd4a7fffcb15
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600998"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39330176"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso de DirectQuery en Power BI
 Puede conectarse a todo tipo de orígenes de datos distintos cuando usa **Power BI Desktop** o el **servicio Power BI** y puede establecer esas conexiones de datos de distintas formas. Puede *importar* datos a Power BI, que es la forma más común de obtener datos, o bien puede conectarse directamente a los datos en su repositorio de origen original, que se conoce como **DirectQuery**. En este artículo se describe **DirectQuery** y sus funcionalidades, incluidos los temas siguientes:

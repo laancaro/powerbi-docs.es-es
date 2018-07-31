@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8d04814a81390b98843cb402f495459c884a2e84
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299663"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39329624"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Introducción a las propiedades de eje y formato de color
 En **Power BI**, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. También puede cambiar cómo se presentan los ejes x e y, con lo que tendrá control total sobre cómo aparecen los paneles e informes.

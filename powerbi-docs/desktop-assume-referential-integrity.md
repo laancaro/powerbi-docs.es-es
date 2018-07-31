@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 04/24/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 15edc53e88ba46d3edd41b2a28d76deaabd28659
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: bd609d5d5444bd5ed44b68c3d5afde473b4b1629
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290600"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39328359"
 ---
 # <a name="assume-referential-integrity-settings-in-power-bi-desktop"></a>Configuración de Asumir integridad referencial en Power BI Desktop
 Al conectarse con un origen de datos mediante **DirectQuery**, puede seleccionar **Asumir integridad referencial** para habilitar la ejecución de consultas más eficientes en el origen de datos. Esta característica tiene unos cuantos requisitos de datos subyacentes y solo está disponible cuando se utiliza **DirectQuery**.
