@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/09/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7c0037534fa61c5340206354beb6af04d3fc1f4a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5899274ba3cc8ce0a059978a9b83ae2a7fd08527
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249514"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280464"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>¿Cómo debo colaborar y compartir en Power BI?
 
@@ -75,7 +75,7 @@ Estará compartiendo una instantánea del icono, el informe o el objeto visual, 
 
 Más información sobre cómo [anotar y compartir iconos, informes y objetos visuales](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) desde aplicaciones móviles de iOS y Android.
 
-También puede [compartir una instantánea de un icono](mobile-share-tile-windows-10-phone-app.md) desde la aplicación de Power BI para dispositivos Windows 10.
+También puede [compartir una instantánea de un icono](mobile-windows-10-phone-app-get-started.md) desde la aplicación de Power BI para dispositivos Windows 10.
 
 ## <a name="publish-to-the-web"></a>Publicar en Web
 Puede publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones interactivas en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea, en cualquier dispositivo. Todos los usuarios de Internet pueden ver los informes y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Más información sobre la [publicación en la Web](service-publish-to-web.md).

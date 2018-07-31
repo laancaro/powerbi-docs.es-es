@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: maggies
-ms.openlocfilehash: c70a5c50a139423f6c5e69ed6ec9a416dfae8b4e
-ms.sourcegitcommit: 638de55f996d177063561b36d95c8c71ea7af3ed
+ms.openlocfilehash: bb628f0cc6f723a195f3b90e6d20f4018d9f2709
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/17/2018
-ms.locfileid: "34295270"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39279858"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotación y uso compartido de un icono, informe u objeto visual en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -31,7 +31,7 @@ Puede anotar y compartir una instantánea de un icono, un informe o un objeto vi
 
 El correo con la instantánea del icono, el informe o el objeto visual también incluye un vínculo al objeto real en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Los destinatarios pueden hacer clic en el vínculo e ir directamente a ese icono, informe u objeto visual si usted y ellos tienen licencias de Power BI Pro, o el contenido está en una [capacidad premium](service-premium.md), y ya ha compartido el elemento con ellos. 
 
-También puede [compartir un icono desde la aplicación móvil de Power BI para dispositivos Windows 10](mobile-share-tile-windows-10-phone-app.md), pero no puede anotarlo.
+También puede [compartir un icono desde la aplicación móvil de Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), pero no puede anotarlo.
 
 ## <a name="open-a-tile-for-annotating"></a>Abrir un icono para anotar
 1. Pulse el icono para abrirlo en modo de enfoque.

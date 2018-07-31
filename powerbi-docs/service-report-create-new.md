@@ -35,8 +35,7 @@ Este método de creación de informes comienza con un conjunto de datos y un lie
 2. En la parte inferior del panel de navegación izquierdo, seleccione **Obtener datos**.
    
    ![Obtener datos](media/service-report-create-new/power-bi-get-data3.png)
-3. Seleccione **Archivos** y navegue hasta la ubicación en que guardó el archivo 
-Retail Analysis Sample.
+3. Seleccione **Archivos** y navegue hasta la ubicación en que guardó el archivo Retail Analysis Sample.
    
     ![Selección de Archivos](media/service-report-create-new/power-bi-select-files.png)
 4. Para este ejercicio, seleccione **Importar**.

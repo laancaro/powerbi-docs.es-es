@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: ae6c7ba3603136aeea3daa412595b9f42ed13d6a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eb0d584e2383e1b878cfc26739e77d4e50d70a0f
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34286920"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280487"
 ---
 # <a name="tag-barcodes-in-power-bi-desktop-for-the-mobile-apps"></a>Etiquetado de códigos de barras en Power BI Desktop para las aplicaciones móviles
 En Power BI Desktop, puede [clasificar datos](desktop-data-categorization.md) en una columna, de modo que Power BI Desktop sepa cómo tratar los valores en objetos visuales en un informe. También puede clasificar una columna como **Código de barras**. Cuando usted o sus compañeros [escaneen un código de barras en un producto con la aplicación Power BI](mobile-apps-scan-barcode-iphone.md) en su iPhone, verán cualquier informe que incluya ese código de barras. Cuando abra el informe en la aplicación móvil, Power BI filtra automáticamente el informe con los datos relacionados con ese código de barras.
@@ -27,7 +27,7 @@ En Power BI Desktop, puede [clasificar datos](desktop-data-categorization.md) en
 4. En la vista Informes, agregue este campo a los objetos visuales que quiera filtrar por el código de barras.
 5. Guarde el informe y publíquelo en el servicio Power BI.
 
-Ahora, cuando abra el escáner en la [aplicación Power BI para iPhone](mobile-ios-ipad-iphone-apps.md) y escanee un código de barras, verá este informe en la lista de informes. Al abrir el informe, los objetos visuales se filtran por el código de barras del producto que ha escaneado.
+Ahora, cuando abra el escáner en la [aplicación Power BI para iPhone](mobile-iphone-app-get-started.md) y escanee un código de barras, verá este informe en la lista de informes. Al abrir el informe, los objetos visuales se filtran por el código de barras del producto que ha escaneado.
 
 ## <a name="supported-barcode-formats"></a>Formatos de código de barras admitidos
 Estos son los códigos de barras que Power BI reconoce si los puede etiquetar en un informe de Power BI: 
