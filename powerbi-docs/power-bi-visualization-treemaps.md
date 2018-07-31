@@ -37,7 +37,7 @@ Los gráficos de rectángulos son una excelente opción:
 
 ### <a name="prerequisites"></a>Requisitos previos
  - Servicio Power BI o Power BI Desktop
- - Ejemplo Análisis de venta directa
+ - Ejemplo de análisis de venta al por menor
 
 ## <a name="create-a-basic-treemap"></a>Crear un gráfico de rectángulos básico
 ¿Quiere ver primero a otra persona creando un gráfico de rectángulos?  Vaya al minuto 2:10 de este vídeo para ver cómo Amanda crea un gráfico de rectángulos.

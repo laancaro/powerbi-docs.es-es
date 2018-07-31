@@ -74,13 +74,13 @@ La memoria no es el único recurso que puede restringir las actualizaciones de c
  | A1  | 0,5  | 1  |
  | A2  | 1  | 2  |
  | A3  | 2  | 3  |
- | A4  | T4  | 6  |
+ | A4  | 4  | 6  |
  | A5  | 8  | 12  |
  | A6  | 16  | 24  |
  | EM1  | 0,5  | 1  |
  | EM2  | 1  | 2  |
  | EM3  | 2  | 3  |
- | P1  | T4  | 6  |
+ | P1  | 4  | 6  |
  | P2  | 8  | 12  |
  | P3  | 16  | 24  |
  | P4  | 32  | 48  |
