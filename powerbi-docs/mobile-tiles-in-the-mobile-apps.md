@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 5601ab79832f2d52622f5c13ecd23f346408f08e
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598651"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280142"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -92,7 +92,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10tileellpslink.png)
    
-    [Compartir una instantánea del icono](mobile-share-tile-windows-10-phone-app.md).
+    [Compartir una instantánea del icono](mobile-windows-10-phone-app-get-started.md).
    
     Puntee **Abrir informe** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)para ver [el informe subyacente](mobile-reports-in-the-mobile-apps.md).
    
@@ -120,7 +120,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    
-   Pulse el icono Compartir instantánea ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) para [compartir un icono](mobile-share-tile-windows-10-phone-app.md) con otros usuarios.   
+   Pulse el icono Compartir instantánea ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_shareicon.png) para [compartir un icono](mobile-windows-10-phone-app-get-started.md) con otros usuarios.   
    
    Pulse el icono Abrir informe ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) para [ver el informe](mobile-reports-in-the-mobile-apps.md) en el que se basa el icono. 
 4. Pulse la flecha atrás o el botón Atrás para cerrar el icono y volver al panel.
