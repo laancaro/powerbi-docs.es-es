@@ -7,15 +7,15 @@ ms.reviewer: ajayan
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 07/19/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1b7a111e1b240a37211c17bce4d497de2d864074
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34852311"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182803"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
 > [!NOTE]
@@ -52,7 +52,7 @@ Cuando realiza y guarda un cambio en el panel que ha incluido en un paquete de c
 4. Realice los cambios necesarios en la ventana **Actualizar paquete de contenido** y seleccione **Actualizar**. Aparece un mensaje de operación **correcta** .
    
    * Para los miembros de grupo que no personalizaron el paquete de contenido, la actualización se aplicará automáticamente.
-   * Los miembros del grupo que personalizaron el paquete de contenido recibirán una notificación de la existencia de una nueva versión.  Pueden ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada.  Ahora tendrán dos versiones: la versión personalizada y el paquete de contenido actualizado.  En la versión personalizada, todos los iconos del paquete de contenido original se habrán eliminado.  Pero los iconos que ancló desde otros informes seguirán apareciendo.    
+   * Los miembros del grupo que personalizaron el paquete de contenido recibirán una notificación de la existencia de una nueva versión.  Pueden ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada.  Ahora tendrán dos versiones: la versión personalizada y el paquete de contenido actualizado.  En la versión personalizada, todos los iconos del paquete de contenido original se habrán eliminado.  Pero los iconos que ancló desde otros informes seguirán apareciendo. Sin embargo, si el propietario del paquete de contenido elimina el conjunto de datos en que se basa el paquete de contenido, se eliminará todo el informe.  
 
 ## <a name="update-the-audience-expand-or-restrict-access"></a>Actualice el público: amplíe o restrinja el acceso
 Otra modificación disponible para creadores de los paquetes de contenido es ampliar y restringir el acceso al paquete de contenido.  Quizás publicó un paquete de contenido para un público amplio y decidió restringir el acceso a un grupo más reducido.  

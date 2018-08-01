@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1f53b0efc2195221fbcbe45f03102d2c98e8eef3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34232117"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210339"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creación de información en pantalla basada en páginas de informes en Power BI Desktop (versión preliminar)
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -119,6 +119,7 @@ Cuando un objeto visual tiene un resaltado cruzado en un informe, la informació
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 En esta versión preliminar de la **información en pantalla** para informes hay una serie de limitaciones y consideraciones que debe tener en cuenta.
 
+* A partir de la versión de **Power BI Desktop** de julio de 2018, se admiten objetos visuales de tabla y matriz para la información sobre herramientas. 
 * La información en pantalla para informes no se admite al consultar informes en aplicaciones móviles o entornos insertados (por ejemplo, en Publicar en la Web). 
 * La información en pantalla para informes no se admite para los objetos visuales personalizados. 
 * Los clústeres no se admiten actualmente como campos que se puedan mostrar en la información en pantalla para informes. 

@@ -8,15 +8,15 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 0536dc6fd637db07c0e26a4ed7f0da1071b646eb
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
+ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137431"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39182757"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI: conceptos básicos del servicio Power BI
 
@@ -48,9 +48,9 @@ Es posible que quiera ver este video antes de leer el resto del artículo.  En e
 Los cuatro pilares principales de Power BI son: ***paneles***, ***informes***, ***libros*** y ***conjuntos de datos***. Y todos ellos se organizan en ***áreas de trabajo***. Es importante comprender las áreas de trabajo antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí. 
 
 ## <a name="workspaces"></a>Áreas de trabajo
-Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Hay dos tipos de áreas de trabajo: **Mi área de trabajo* y áreas de trabajo de la aplicación. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave de su organización. Las aplicaciones son interactivas, pero no se pueden editar 
+Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Hay dos tipos de áreas de trabajo: *Mi área de trabajo* y *áreas de trabajo de la aplicación*. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave de su organización. Las aplicaciones son interactivas, pero no se pueden editar. 
 
-- *Mi área de trabajo* es el área de trabajo personal de cualquier cliente de Power BI en la que este puede trabajar con su contenido. Solo usted tiene acceso a esta área de trabajo. Si desea compartir su contenido, puede elegir entre varias opciones: crear un área de trabajo de la aplicación donde agrupe el contenido en una *aplicación* y ponerla a disposición de otros usuarios de su organización, o crear un área de trabajo de la aplicación y dar a sus compañeros acceso a esa área de trabajo para que se pueda compartir y colaborar.     
+- *Mi área de trabajo* es el área de trabajo personal de cualquier cliente de Power BI en la que puede trabajar con su contenido. Solo usted tiene acceso a esta área de trabajo. Puede compartir paneles e informes desde Mi área de trabajo. Si desea colaborar en paneles e informes o crear una aplicación, querrá trabajar en el área de trabajo de una aplicación.      
 -  Las *áreas de trabajo de la aplicación* se usan para colaborar y compartir el contenido con los compañeros. También son los lugares donde puede crear, publicar y administrar aplicaciones para su organización. Piense en ellas como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. Puede agregar compañeros a las áreas de trabajo de la aplicación y colaborar en paneles, informes, libros y conjuntos de datos. Todos los miembros del área de trabajo de la aplicación necesitan licencias de Power BI Pro, pero los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
 
 Para más información, consulte la sección **Compartir tu trabajo** de la tabla de contenido, empezando por [¿Cómo debo compartir paneles e informes y colaborar en ellos?](service-how-to-collaborate-distribute-dashboards-reports.md)

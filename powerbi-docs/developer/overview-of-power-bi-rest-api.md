@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 8a688f46a46dbb1015629c7785d96b62d4f8df26
-ms.sourcegitcommit: 8ee0ebd4d47a41108387d13a3bc3e7e2770cbeb8
+ms.openlocfilehash: a9d178ccfdb47152fd2c13d445b9190ced6115e1
+ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2018
-ms.locfileid: "34813256"
+ms.lasthandoff: 07/19/2018
+ms.locfileid: "39157585"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 Power BI muestra los paneles que son interactivos y se pueden crear y actualizar desde muchos orígenes de datos diferentes en tiempo real. Usando cualquier lenguaje de programación que admita llamadas de REST, puede crear aplicaciones que se integren con un panel de Power BI en tiempo real. También puede integrar informes e iconos de Power BI en las aplicaciones.
@@ -58,6 +58,11 @@ Elija la solución que más le convenga:
 * La [inserción para la organización](embedding.md#embedding-for-your-organization) permite ampliar el servicio Power BI. Ejecute la solución de [inserción para la organización](https://aka.ms/embedsetup/UserOwnsData).
 
 Para obtener un ejemplo completo del uso de la API de JavaScript, puede usar la [herramienta de área de juegos](https://microsoft.github.io/PowerBI-JavaScript/demo). Se trata de una forma rápida de reproducir diferentes tipos de ejemplos de Power BI Embedded. También puede obtener más información sobre la API de JavaScript si consulta la página de la [wiki de PowerBI-JavaScript](https://github.com/Microsoft/powerbi-javascript/wiki).
+
+## <a name="push-data-into-power-bi"></a>Insertar datos en Power BI
+Puede usar la API de Power BI para insertar datos en un conjunto de datos. Esto le permite agregar una fila a una tabla dentro de un conjunto de datos. Luego, los nuevos datos se pueden reflejar en iconos en un panel y dentro de los objetos visuales de su informe.
+
+![Ejemplo de inserción de datos](media/what-can-you-do/powerbi-push-data.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Inserción de datos en un conjunto de datos](walkthrough-push-data.md)  

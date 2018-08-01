@@ -6,14 +6,14 @@ manager: kfile
 ms.reviewer: ''
 ms.Embedded: powerbi
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: d9dfdf3f77629a58b324945815a8608fa45f509f
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "34813512"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388672"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
 Aprenda a migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded y aproveche los avances para la inserción en aplicaciones.

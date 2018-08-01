@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/06/2018
+ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 72a900b1661a77e5b31c1d68b5726d989b236f7b
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
+ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032011"
+ms.lasthandoff: 07/23/2018
+ms.locfileid: "39210293"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -47,8 +47,12 @@ Puede presionar **Alt + Mayús + F11** para presentar una versión accesible de 
 
 > [!NOTE]
 > La característica Mostrar datos solo es accesible mediante un lector de pantalla con este método abreviado de teclado. Si abre Mostrar datos con la opción del encabezado visual, no será accesible mediante un lector de pantalla.
-> 
-> 
+
+A partir de la versión de **Power BI Desktop** de julio de 2018, las segmentaciones también tienen integrada la funcionalidad de accesibilidad. Cuando seleccione una segmentación, use CTRL+flecha derecha (tecla Control más la tecla de flecha derecha) para moverse por los distintos controles dentro de la segmentación. Por ejemplo, cuando presiona inicialmente CTRL+flecha derecha, el foco está en el borrador y presionar la barra espaciadora equivale a hacer clic en el botón del borrador, con lo que se borran todos los valores de la segmentación. 
+
+Puede presionar la tecla TAB para desplazarse por los controles de una segmentación. Al presionar la tecla TAB cuando está en el borrador, se mueve a la parte inferior del menú desplegable; si vuelve a presionarla, pasa al primer valor de la segmentación (si hay varios valores para la segmentación, como un intervalo). 
+
+![Presione CTRL+(tecla de flecha derecha) en Power BI Desktop para ajustar el elemento o los valores de una segmentación y presione ESPACIO para seleccionar el elemento y ajustar su valor.](media/desktop-accessibility/accessibility_07.png)
 
 Estas incorporaciones de accesibilidad se han creado para que los usuarios puedan aprovechar en su totalidad los informes de Power BI mediante un lector de pantalla y la navegación con el teclado.
 
