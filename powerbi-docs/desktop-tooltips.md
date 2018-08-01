@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b2437074fb6beff4b1be62287d547111488862e3
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210339"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280763"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creación de información en pantalla basada en páginas de informes en Power BI Desktop (versión preliminar)
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -124,6 +124,7 @@ En esta versión preliminar de la **información en pantalla** para informes hay
 * La información en pantalla para informes no se admite para los objetos visuales personalizados. 
 * Los clústeres no se admiten actualmente como campos que se puedan mostrar en la información en pantalla para informes. 
 * A la hora de elegir un campo que se mostrará en la información en pantalla para informes, al usar un campo en vez de una categoría, los objetos visuales que contengan ese campo solo mostrarán la información en pantalla especificada cuando el resumen coincida con el campo seleccionado. 
+
 
 
 ## <a name="next-steps"></a>Pasos siguientes
