@@ -36,7 +36,7 @@ Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por
 
 ## <a name="using-multi-geo"></a>Uso de Multi-Geo
 
-Para las capacidades nuevas, habilite Multi-Geo al seleccionar una región distinta de la región predeterminada en la lista desplegable.  Cada capacidad muestra la región donde está ubicada actualmente, como **Centro-oeste de EE. UU.**.
+Para las capacidades nuevas, habilite Multi-Geo al seleccionar una región distinta de la región predeterminada en la lista desplegable.  Cada capacidad muestra la región donde está ubicada actualmente, como **Centro-oeste de EE. UU**.
 
 ![Tamaño de capacidad: seleccione una región. Multi-Geo de Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
   
