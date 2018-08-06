@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: cfc450216202f332f518955d28cb71df6aa0b800
-ms.sourcegitcommit: f2b106b5eb338a64f903e8ce6793bccb07f9440a
+ms.openlocfilehash: 544429528ed51dd2928eb82632f512ff3f7d5afd
+ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2018
-ms.locfileid: "39105278"
+ms.lasthandoff: 07/31/2018
+ms.locfileid: "39359740"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Insertar un informe, un panel o un icono de Power BI en una aplicación para la organización
 En este tutorial se explica cómo integrar un informe en una aplicación con el **SDK de .NET para Power BI** junto con la **API de JavaScript para Power BI** al insertar **Power BI** en una aplicación para la organización. Con **Power BI**, puede insertar informes, paneles o iconos en una aplicación con el ejemplo **User owns data**. **User owns data** permite a la aplicación ampliar el servicio Power BI.
@@ -413,7 +413,24 @@ function updateEmbedReport() {
 Ahora que ya ha terminado de desarrollar la aplicación, es hora de agregar capacidad dedicada al área de trabajo de la aplicación.
 
 ### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. Si un área de trabajo está sin asignar a una capacidad dedicada, se considera una capacidad compartida. Puede crear una capacidad dedicada mediante [Power BI Premium ](../service-admin-premium-purchase.md).
+Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. Puede crear una capacidad dedicada mediante [Power BI Premium ](../service-premium.md).
+
+En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Office 365](../service-admin-premium-purchase.md).
+
+| Nodo de capacidad | Total de núcleos virtuales<br/>*(Back-end y front-end)* | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
+| --- | --- | --- | --- | --- | --- |
+| EM1 |1 núcleo V |5 núcleos virtuales, 10 GB de RAM |.5 núcleos virtuales |3,75 por segundo |150-300 |
+| EM2 |2 núcleos V |1 núcleo virtual, 10 GB de RAM |1 núcleo V |7,5 por segundo |301-600 |
+| EM3 |4 núcleos V |2 núcleos virtuales, 10 GB de RAM |2 núcleos V |15 por segundo |601-1200 |
+| P1 |8 núcleos V |4 núcleos virtuales, 25 GB de RAM |4 núcleos V |30 por segundo |1201-2400 |
+| P2 |16 núcleos V |8 núcleos virtuales, 50 GB de RAM |8 núcleos V |60 por segundo |2401-4800 |
+| P3 |32 núcleos V |16 núcleos virtuales, 100 GB de RAM |16 núcleos V |120 por segundo |4,801-9600 |
+| P4 |64 núcleos virtuales |32 núcleos virtuales, 200 GB de RAM |32 núcleos V |240 por segundo |9601-19200
+| P5 |128 núcleos virtuales |64 núcleos virtuales, 400 GB de RAM |64 núcleos virtuales |480 por segundo |19201-38400
+
+*Con **_SKU EM_**, **puede** acceder al contenido con una licencia gratuita de Power BI cuando intente realizar la inserción con **_aplicaciones de MS Office_**, pero **no puede acceder** al contenido con una licencia gratuita de Power BI al usar **_Powerbi.com_** o **_Power BI Mobile_**.*
+
+*Con **_SKU P_**, **puede** acceder al contenido con una licencia gratuita de Power BI cuando intente realizar la inserción con **_aplicaciones de MS Office_**, mediante el uso de **_Powerbi.com_** o **_Power BI Mobile_**.*
 
 ### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo de aplicación a la capacidad dedicada
 
@@ -431,13 +448,17 @@ Una vez creada una capacidad dedicada, puede asignar el área de trabajo de la a
 
     ![Área de trabajo de aplicación asociada a una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
+## <a name="admin-settings"></a>Configuración de administración
+
+Los administradores globales, o los administradores de servicios de Power BI, pueden activar o desactivar la capacidad para usar las API de REST de un inquilino. Los administradores de Power BI pueden establecer esta opción de configuración para toda la organización o para grupos de seguridad individuales. De forma predeterminada, está habilitada para toda la organización. Puede hacerlo mediante el [portal de administración de Power BI](../service-admin-portal.md).
+
 ## <a name="next-steps"></a>Pasos siguientes
-En este tutorial ha aprendido a insertar contenido de Power BI en una aplicación mediante la **cuenta de organización de Power BI**. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones.  También puede intentar insertar contenido de Power BI para clientes ajenos.
+En este tutorial ha aprendido a insertar contenido de Power BI en una aplicación mediante la **cuenta de organización de Power BI**. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones.  También puede intentar insertar contenido de Power BI para los clientes.
 
 > [!div class="nextstepaction"]
 > [Insertar desde aplicaciones](embed-from-apps.md)
 
 > [!div class="nextstepaction"]
->[Insertar para clientes ajenos](embed-sample-for-customers.md)
+>[Insertar para los clientes](embed-sample-for-customers.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

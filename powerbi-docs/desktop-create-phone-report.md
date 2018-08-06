@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6ac85bcaba34f705b0f21efc86ed1583e69c8c2c
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721073"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280671"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Crear informes optimizados para las aplicaciones de teléfono de Power BI
 Cuando [cree un informe en Power BI Desktop](desktop-report-view.md), puede mejorar la experiencia de usarlo en las aplicaciones móviles de los teléfonos mediante la creación de una versión del informe específica para cada teléfono. Adapte el informe para el teléfono reorganizando los objetos visuales y cambiándoles el tamaño, quizás no incluyéndolos todos, para obtener una experiencia óptima. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe del teléfono. Los lectores del informe pueden verlos y filtrar el informe con ellos.
@@ -72,7 +72,7 @@ Elija si desea activar la capacidad de respuesta de cada objeto visual. Obtenga 
   
    ![Quitar un objeto visual](media/desktop-create-phone-report/desktop-create-phone-report-7.gif)
 
-## <a name="enhance-slicers-to-to-work-well-in-phone-reports"></a>Mejorar segmentaciones para que funcionen bien en los informes de teléfono
+## <a name="enhance-slicers-to-work-well-in-phone-reports"></a>Mejorar segmentaciones para que funcionen bien en los informes de teléfono
 Las segmentaciones ofrecen el filtrado en lienzo de los datos de informes. Al diseñar las segmentaciones en el modo de creación de informes regular, puede modificar la configuración de la segmentación para que sean más útiles en los informes de teléfono:
 
 * Decida si los lectores de los informes pueden seleccionar solo uno o más elementos.

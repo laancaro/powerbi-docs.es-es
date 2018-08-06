@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1105de002f6461589d61c6f0077cceeedaada471
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 40799bb2716b2f6e85405e76c2a301acef3509aa
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211782"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388764"
 ---
 # <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relaciones de varios a varios en Power BI Desktop (versión preliminar)
 
@@ -50,7 +50,7 @@ Deberá reiniciar **Power BI Desktop** para que se habilite la característica.
 
 Antes de la disponibilidad de las **relaciones de varios a varios**, al definir una relación entre dos tablas en Power BI, al menos una de las columnas involucradas en la relación tenía que contener valores únicos. Pero en muchas circunstancias, ninguna de las columnas de la tabla contenía valores únicos. 
 
-Por ejemplo, dos tablas podían tener una columna que con el *País*, pero los valores de *País* no eran únicos en ninguna tabla. Para combinar dichas tablas, era necesario crear una solución alternativa como introducir tablas adicionales en el modelo que contenían los valores únicos necesarios. La característica **Relaciones de varios a varios** proporciona un enfoque alternativo que permite que dichas tablas se combinen directamente mediante una relación con una cardinalidad de **Varios a varios**.  
+Por ejemplo, dos tablas podían tener una columna que contenía el *País*, pero los valores de *País* no eran únicos en ninguna tabla. Para combinar dichas tablas, era necesario crear una solución alternativa como introducir tablas adicionales en el modelo que contenían los valores únicos necesarios. La característica **Relaciones de varios a varios** proporciona un enfoque alternativo que permite que dichas tablas se combinen directamente mediante una relación con una cardinalidad de **Varios a varios**.  
 
 ## <a name="using-many-to-many-relationships"></a>Uso de relaciones de varios a varios
 
@@ -110,7 +110,7 @@ Un objeto visual que muestra *State* (Estado) (desde la tabla *CityData*) junto 
 
 Tenga en cuenta que, dado el uso del estado desde la tabla *CityData* en esta solución alternativa, solo se muestran los *estados* de esa tabla (y, por tanto, no se incluye TX). Además, a diferencia del caso con las relaciones de **varios a uno**, si bien la fila total incluye todas las *ventas* (incluidas las de TX), los detalles no incluyen una fila en blanco que abarca esas filas no coincidentes. Del mismo modo, no habría ninguna fila en blanco abarcando ninguna *venta* para la que hubiera un valor NULL para *State* (Estado).
 
-Si *Ciudad* también se hubiese agregado a ese objeto visual, si bien se conoce la población por *ciudad*, las *ventas* que se muestran para la *ciudad* simplemente repetirían las *ventas* para el *estado* correspondiente (como suele ser el caso al agrupar en una columna no relacionada con una medida de agregado), como se muestra en la imagen siguiente.
+Si *Ciudad* también se hubiese agregado a ese objeto visual, si bien se conoce la población por *ciudad*, las *ventas* que se muestran de la *ciudad* simplemente repetirían las *ventas* del *estado* correspondiente (como suele ser el caso al agrupar en una columna no relacionada con una medida de agregado), como se muestra en la imagen siguiente.
 
 ![objeto visual de tabla](media/desktop-many-to-many-relationships/many-to-many-relationships_10.png)
 

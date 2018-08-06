@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e9b37ba2b44a23fa0f198bce7a649c67335ac0ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: af47af39c11315fe06eb97edd837edabf760a0b1
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36945144"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280717"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->

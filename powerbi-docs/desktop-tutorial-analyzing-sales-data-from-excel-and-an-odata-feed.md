@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
-ms.openlocfilehash: c6cd75efd44259c2812f98a37875cf716d4843ad
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 0ec22bd142f7509935691ff7bfcd38cb51a04fb2
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34456212"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39280119"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinación de datos de ventas de Excel y una fuente de OData
 
@@ -200,7 +200,7 @@ Para volver a la vista de informe desde la vista de relaciones, seleccione el ic
 
 En la vista de informe de Power BI Desktop, puede crear una amplia gama de visualizaciones para obtener información a partir de los datos. Puede generar informes con varias páginas y cada página puede tener varios objetos visuales. Tanto usted como otros usuarios pueden interactuar con las visualizaciones para ayudar a analizar y comprender los datos. Para obtener más información sobre cómo ver y editar informes en el servicio Power BI (el sitio), consulte la información sobre la [edición de un informe](service-interact-with-a-report-in-editing-view.md).
 
-Puede usar los dos conjuntos de datos y la relación entre ellos, para facilitar la visualización y el análisis de los datos de ventas. 
+Puede usar los dos conjuntos de datos y la relación entre ellos para facilitar la visualización y el análisis de los datos de ventas. 
 
 En primer lugar, cree un gráfico de columnas apiladas que utilice campos de las dos consultas para mostrar la cantidad de cada producto pedido. 
 
@@ -220,7 +220,7 @@ A continuación, cree un gráfico en el que aparezcan los importes en dólares d
    
 2. Con el gráfico seleccionado, seleccione **OrderDate** en **Orders**, o bien arrástrelo hasta el gráfico. En el gráfico ahora se muestran el total de línea de cada fecha de pedido. 
    
-3. Cambie el tamaño de la visualización arrastrando las esquinas para poder ver más datos. 
+3. Para cambiar el tamaño de la visualización y poder ver más datos, arrastre las esquinas. 
    
    ![Gráfico de líneas LineTotals por OrderDate](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/20.png)
    

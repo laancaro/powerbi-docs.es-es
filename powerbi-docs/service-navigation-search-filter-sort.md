@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 421ef9609872515ae462de574d67528835bb78ab
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b55f9854d129c4ff7a70117b8382fbdbaff80ce8
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722848"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280280"
 ---
 # <a name="navigation-searching-finding-and-sorting-content-in-power-bi-service"></a>Navegación: búsqueda, detección y ordenación de contenido en el servicio Power BI
 Hay muchas maneras de navegar por el contenido en el servicio Power BI. El contenido de las áreas de trabajo está organizado por tipos: paneles, informes, libros y conjuntos de datos.  Y también se organiza el contenido por usos: favoritos, reciente, aplicaciones, compartido conmigo y destacado. Estos diferentes métodos de acceso al contenido le permiten encontrar rápidamente lo que necesita en el servicio Power BI.  
@@ -32,7 +32,7 @@ El servicio Power BI separa el contenido del área de trabajo por tipos: paneles
 ________________________________________
 
 ## <a name="searching-and-sorting-in-workspaces"></a>Búsqueda y ordenación en áreas de trabajo
-Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libros y Conjuntos de datos.  Cada una de estas pestañas contiene un campo de búsqueda y un botón de ordenación.  Es posible que al empezar a usar el servicio Power BI, no las considere útiles porque solo tendrá uno o dos elementos por pestaña.  Sin embargo, con el tiempo puede terminar con listas largas de contenido.  Use la búsqueda y la ordenación para encontrar fácilmente lo que necesita.
+Un área de trabajo tiene cuatro pestañas de contenido: Paneles, Informes, Libros y Conjuntos de datos.  Cada una de estas pestañas contiene un campo de búsqueda y un botón de ordenación.  Es posible que al empezar a usar el servicio Power BI, no las considere útiles porque solo tendrá uno o dos elementos por pestaña.  Aun así, con el tiempo puede terminar con listas largas de contenido.  Use la búsqueda y la ordenación para encontrar fácilmente lo que necesita.
 
 ![Pestaña Paneles](media/service-navigation-search-filter-sort/power-bi-search-sort2.png)
 

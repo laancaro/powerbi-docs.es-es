@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b26fbfccc3b0a98761ecc1444af4e535339c96de
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
+ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39210293"
+ms.lasthandoff: 07/26/2018
+ms.locfileid: "39256041"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -40,6 +40,8 @@ Puede cambiar el enfoque entre las pestañas de las páginas del informe o los o
 * Si el enfoque recae en una *página del informe* cargada, use el *tabulador* para cambiar el enfoque a cada objeto de la página, que incluye todos los cuadros de texto, imágenes, formas y gráficos. El lector de pantalla lee el tipo de objeto, su título, si lo tiene, y una descripción de ese objeto, si el autor del informe la ha proporcionado. 
 
 Al desplazarse entre objetos visuales, si quiere interactuar más con ellos, puede presionar **Alt + Mayús + F10** para mover el foco al encabezado visual, que contiene distintas opciones, como ordenar, exportar los datos del gráfico y el modo de enfoque. 
+
+![Presione Alt+Mayús+F10 en Power BI Desktop para mover el foco al encabezado del objeto visual](media/desktop-accessibility/accessibility_08.png)
 
 Puede presionar **Alt + Mayús + F11** para presentar una versión accesible de la ventana *Mostrar datos*. Esto le permite explorar los datos usados en el objeto visual de una tabla HTML con los mismos métodos abreviados de teclado que se usan normalmente con el lector de pantalla. 
 

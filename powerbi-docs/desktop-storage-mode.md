@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 07/31/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 15580cd43e4bb2d286310868a8e853daff04f280
-ms.sourcegitcommit: 6faeb642721ee5abb41c04a8b729880c01c4d40e
+ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
+ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2018
-ms.locfileid: "39211810"
+ms.lasthandoff: 08/01/2018
+ms.locfileid: "39388810"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de almacenamiento en Power BI Desktop (versión preliminar)
 
@@ -118,7 +118,7 @@ Continuemos con el ejemplo de la sección anterior e imaginemos que se aplica la
 | *Geography*             | Dual                 | 
 
 
-Al establecer estas configuraciones de la propiedad de modo de almacenamiento se producen los comportamientos siguientes, suponiendo que la tabla *Sales* tiene un volumen de datos considerable.
+Al establecer estas configuraciones de la propiedad de modo de almacenamiento, se producen los comportamientos siguientes, suponiendo que la tabla *Sales* (Ventas) tiene un volumen de datos considerable.
 * Las tablas de dimensiones (*Date* [Fecha], *Customer* [Cliente] y *Geography* [Geografía]) se almacenan en caché, por lo que los tiempos de carga de informes iniciales deben ser rápidos al recuperar los valores de segmentación que se van a mostrar.
 * Si la tabla *Sales* (Ventas) no se almacena en caché, se producen los resultados siguientes:
     * Se mejoran los tiempos de actualización de los datos y se reduce el consumo de memoria

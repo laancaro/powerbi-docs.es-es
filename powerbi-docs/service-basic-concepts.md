@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/19/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: a1719f8a6f9f4ad3989aa498c584b337cd9fdd00
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d735ff366d422d03186c25a0b358e87d6790a260
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182757"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280625"
 ---
 # <a name="power-bi---basic-concepts-for-power-bi-service"></a>Power BI: conceptos básicos del servicio Power BI
 
@@ -87,7 +87,7 @@ Los conjuntos de datos se pueden actualizar, cambiar de nombre, explorar y elimi
 * [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Informes
-Un informe de Power BI es una o varias páginas de visualizaciones (tablas y gráficos, como gráficos de líneas, gráficos circulares, gráficos de rectángulos y mucho más). A las visualizaciones también se les denomina ***objetos visuales***. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los informes pueden crearse desde cero en Power BI, pueden importarse con paneles que los compañeros comparten con usted o pueden crearse al conectarse a conjuntos de datos desde Excel, Power BI Desktop, bases de datos, aplicaciones SaaS y [aplicaciones](service-get-data.md).  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
+Un informe de Power BI consta de una o varias páginas de visualizaciones (tablas y gráficos, como gráficos de líneas, gráficos circulares, gráficos de rectángulos y mucho más). A las visualizaciones también se les denomina ***objetos visuales***. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los informes pueden crearse desde cero en Power BI, pueden importarse con paneles que los compañeros comparten con usted o pueden crearse al conectarse a conjuntos de datos desde Excel, Power BI Desktop, bases de datos, aplicaciones SaaS y [aplicaciones](service-get-data.md).  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
 
 Hay dos maneras de ver los informes e interactuar con ellos: [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md).  Solo la persona que creó el informe, los copropietarios y los usuarios con permisos tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de la ***Vista de edición*** para el informe. Y las personas con las que comparten el informe pueden explorarlo e interactuar con él mediante la ***Vista de lectura***.   
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1e380a6821db7207d14e719fa5e070af38196b97
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 135e6ff76a0972bdedbff3eaf7ab1222f82a94ab
+ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34286943"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39331190"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Uso de la segmentación de intervalos numéricos en Power BI Desktop
 Gracias a la **segmentación de intervalos numéricos**, puede aplicar todo tipo de filtros a cualquier columna numérica del modelo de datos. Puede filtrar **entre** números, o por un número **menor o igual que** o **mayor o igual que** otro número. Aunque esto puede parecer demasiado simple, es una manera muy eficaz de filtrar los datos.
@@ -53,7 +53,7 @@ Por último, si se selecciona **Mayor o igual que**, desaparecerá el control de
 
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ajuste a números enteros con la segmentación de intervalos numéricos
 
-Una segmentación de intervalos numéricos se ajustará a números enteros, a menos que sea un intervalo decimal. Esto permite que la segmentación se alinee limpiamente con números enteros. 
+Una segmentación de rango numérico se ajustará a números enteros si el tipo de datos del campo subyacente es **número entero**. Esto permite que la segmentación se alinee limpiamente con números enteros. Los campos de tipo **número decimal** permiten especificar o seleccionar fracciones de un número. El formato aplicado en el cuadro de texto coincide con el formato establecido en el campo, aunque puede escribir o seleccionar números más precisos.
 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
@@ -61,3 +61,4 @@ Las siguientes limitaciones y consideraciones se aplican actualmente a la **segm
 
 * Actualmente, la **segmentación de intervalos numéricos** filtra todas las filas subyacentes de los datos, pero no los valores agregados. Por ejemplo, si se usa un campo *Sales Amount*, se podría filtrar cada transacción basada en *Sales Amount* pero no la suma de *Sales Amount* de cada punto de datos de un objeto visual.
 * Actualmente no funciona con medidas.
+* Puede escribir cualquier número en los cuadros de texto en una segmentación numérica, aunque esté fuera del intervalo de valores de la columna subyacente. Esto le permite configurar filtros si sabe que los datos pueden cambiar en el futuro.

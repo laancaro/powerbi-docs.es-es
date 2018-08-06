@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7e992152656a208c765743292e06b4d0d3708730
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 769e2adb30fb1969d16898db4bf954d2bcbad8c4
+ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600266"
+ms.lasthandoff: 07/27/2018
+ms.locfileid: "39280418"
 ---
 # <a name="working-with-tables-in-power-bi-reports-and-dashboards"></a>Trabajar con tablas en informes y paneles de Power BI
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, esta tabla muestra 5 medidas distintas para **Categoría**.
