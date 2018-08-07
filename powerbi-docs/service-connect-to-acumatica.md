@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9366eff71e09b1f6c71c1f2519feb3d2392e3c58
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: 452226f8d5b8e0ca05fc4d9e81355c7a4c10e923
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092653"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582647"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Conexión a Acumatica con Power BI
 El paquete de contenido de Acumatica para Power BI permite obtener rápidamente información sobre los datos de oportunidad. Power BI recupera los datos sobre oportunidades, cuentas y clientes para, a continuación, crear un panel predeterminado e informes relacionados basados en dichos datos.
@@ -37,7 +37,7 @@ Conéctese al [paquete de contenido de Acumatica](https://app.powerbi.com/getdat
    ![](media/service-connect-to-acumatica/acumatica.png)
 4. Escriba el extremo de OData de Acumatica. Los extremos de OData permiten que un sistema externo pueda solicitar datos de Acumatica. El extremo de OData de Acumatica tiene el formato siguiente y debe usar HTTPS:
    
-     https://[sitedomain]/odata/[companyname]
+     `https://[sitedomain]/odata/[companyname]`
    
    El nombre de la empresa solo es necesario si tiene una implementación de varias empresas. A continuación se ofrece más información sobre cómo encontrar este parámetro en su cuenta de Acumatica.
    

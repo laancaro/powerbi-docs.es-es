@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: v-mamcge
 LocalizationGroup: Reports
-ms.openlocfilehash: 58ae70553264b8055603da66a4cfd71b5c74a3e9
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "37598896"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582580"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI 
 Este artículo proporciona una guía para la creación de informes rápidos y confiables en Power BI.  
@@ -24,8 +24,8 @@ Este artículo proporciona una guía para la creación de informes rápidos y co
 
 Cuantos más datos tenga que mostrar un objeto visual, más lenta será su carga. Aunque este principio parece obvio, puede olvidarse fácilmente. Por ejemplo: supongamos que tiene un conjunto de datos grande. Sobre él, genera un informe con una tabla de la tabla. Los usuarios finales utilizan segmentaciones en la página para obtener las filas que desean; normalmente, solo están interesados en algunas docenas de filas.
 
-Un error común es tener la vista predeterminada de la tabla sin filtrar; por ejemplo, más de 100 millones de filas. Los datos de estas filas se deben cargar en memoria y descomprimir en cada actualización. Esto crea grandes cargas de memoria. La solución es reducir el número máximo de elementos que se muestran de la tabla con el filtro "Primeros N". El número máximo de elementos puede ser mucho mayor que el que los usuarios necesitarían, por ejemplo, 10 000. Como resultado, la experiencia del usuario final no cambia, pero el uso de memoria del informe se reduce en varios órdenes de magnitud y, como consecuencia, el rendimiento mejora. 
- 
+Un error común es tener la vista predeterminada de la tabla sin filtrar; por ejemplo, más de 100 millones de filas. Los datos de estas filas se deben cargar en memoria y descomprimir en cada actualización. Esto crea grandes cargas de memoria. La solución es reducir el número máximo de elementos que se muestran de la tabla con el filtro "Primeros N". El número máximo de elementos puede ser mucho mayor que el que los usuarios necesitarían, por ejemplo, 10 000. Como resultado, la experiencia del usuario final no cambia, pero el uso de memoria del informe se reduce en varios órdenes de magnitud y, como consecuencia, el rendimiento mejora.
+
 Se recomienda un enfoque similar al descrito para todos los objetos visuales de los informes. Hágase la siguiente pregunta: ¿son necesarios todos los datos en este objeto visual? ¿Hay maneras de filtrar la cantidad de datos que se muestran en el objeto visual con un impacto mínimo en la experiencia del usuario final? Tenga en cuenta que las tablas en concreto pueden resultar muy caras. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Limitación de los objetos visuales de las páginas del informe 
