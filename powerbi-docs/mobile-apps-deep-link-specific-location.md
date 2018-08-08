@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: fb05b6fd2378c8fe2b6dec35250df31d227b7760
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135453"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39616014"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede crear y usar un identificador uniforme de recursos (URI) para establecer un vínculo a una ubicación específica (es decir, un *vínculo profundo*) dentro de las aplicaciones móviles de Power BI en todas las plataformas móviles: iOS, dispositivos Android y Windows 10.
@@ -36,7 +36,7 @@ Este URI abre la aplicación móvil de Power BI en un panel específico:
 
 Para buscar el identificador de objeto del panel de 36 caracteres, vaya al panel específico del servicio Power BI (https://powerbi.com). Por ejemplo, vea la sección resaltada de esta dirección URL:
 
-https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**
+`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
 Si el panel se encuentra en un grupo distinto de Mi área de trabajo, agregue `&GroupObjectId=<36-character-group-id>` antes o después del identificador del panel. Por ejemplo: 
 
@@ -51,7 +51,7 @@ Este URI abre un icono específico en modo de enfoque en la aplicación móvil d
 
 Para buscar el identificador de objeto y de icono del panel de 36 caracteres, vaya al panel específico en el servicio Power BI (https://powerbi.com) y abra el icono en modo de enfoque. Por ejemplo, vea las secciones resaltadas de esta dirección URL:
 
-https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus
+`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
 
 En el caso de este icono, el URI sería el siguiente:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/02/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b1bfe0e35015cd32024b381a1859330cd8f1862a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 4c4fbb5ea019ca439ecf063c91a69348ef33bbc2
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721119"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624008"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 Puede establecer una conexión dinámica a un conjunto de datos compartido en el servicio Power BI y crear muchos informes diferentes del mismo conjunto de datos. Es decir, puede generar el modelo de datos perfecta en Power BI Desktop, publicarlo en el servicio Power BI. Después, tanto usted como otros usuarios podrán crear varios informes diferentes (en archivos .pbix independientes) de ese mismo modelo de datos común. Esta característica se denomina "**Conexión dinámica al servicio Power BI**".
@@ -37,7 +37,7 @@ A todo el mundo le gusta su informe y su conjunto de datos, y aquí es cuando em
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conexión a un conjunto de datos del servicio Power BI mediante una conexión dinámica
 Cuando Ana crea su informe (y el conjunto de datos en el que se basa), lo publica en el **servicio Power BI** y se muestra en el área de trabajo de su equipo en el servicio Power BI. Ahora está disponible para que todos los usuarios de su área de trabajo puedan verlo y usarlo.
 
-Para más información sobre áreas de trabajo, vea [Áreas de trabajo de la aplicación](service-create-distribute-apps.md#app-workspaces).
+Para más información sobre áreas de trabajo, vea [Áreas de trabajo de la aplicación](service-create-workspaces.md).
 
 Otros miembros de su área de trabajo ahora pueden establecer una conexión dinámica con el modelo de datos compartidos de Ana (mediante la característica **Conexión dinámica al servicio Power BI**) y crear sus propios informes únicos a partir del *conjunto de datos original*.
 

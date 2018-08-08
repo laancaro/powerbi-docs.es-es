@@ -9,19 +9,19 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 3ad44bfaa4fe9fc2eb81adbaad17f6e5034d8b14
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 970bd7d2ba511b5b68fdac8bfc025133a117d0ae
+ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "34295776"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39615922"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: Visualización de paneles e informes en las aplicaciones móviles de Power BI
 En este inicio rápido, va a explorar un ejemplo de panel e informe en las aplicaciones móviles de Power BI en un teléfono Android. También puede aplicarlo en otras aplicaciones móviles. 
 
 Se aplica a:
 
-| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android ](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivos de Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
+| ![iPhone](media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![iPad](media/mobile-apps-quickstart-view-dashboard-report/ipad-logo-30-px.png) | ![Android](media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | ![Dispositivos de Windows 10](media/mobile-apps-quickstart-view-dashboard-report/win-10-logo-30-px.png) |
 |:--- |:--- |:--- |:--- |
 | iPhone | iPad | Android | Windows 10 |
 
@@ -62,7 +62,7 @@ El primer paso de este inicio rápido consiste en descargar el ejemplo de análi
 
 4. Seleccione el **Ejemplo de análisis minoristas**.
  
-    ![Ejemplo de análisis de venta al por menor](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
+    ![Ejemplo de análisis de ventas](media/mobile-apps-quickstart-view-dashboard-report/power-bi-rs.png)
  
 8. Seleccione **Conectar**.  
   

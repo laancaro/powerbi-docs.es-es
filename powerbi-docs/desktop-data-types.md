@@ -10,12 +10,12 @@ ms.topic: reference
 ms.date: 05/21/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 14b5f3d4b571df8ae672ee9731ed97555c476abd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 7c970cd28a50dc15a7b721107b17ceade24c3bb2
+ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
 ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456052"
+ms.locfileid: "39475761"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -45,6 +45,11 @@ Power BI Desktop admite tres tipos de números:
 **Número decimal fijo** : tiene una ubicación fija para el separador decimal. El separador decimal siempre tiene cuatro dígitos a la derecha y permite 19 dígitos de importancia.  El valor más grande que puede representar es 922.337.203.685.477,5807 (positivo o negativo).  El tipo de número decimal fijo es útil en casos donde el redondeo podría producir errores.  Cuando se trabaja con muchos números que tienen valores fraccionarios pequeños, a veces pueden acumularse y hacer que un número sea ligeramente inferior.  Puesto que se truncan los valores que superan los cuatro dígitos a la derecha del separador decimal, el tipo de decimal fijo puede ayudarle a evitar estos tipos de errores.   Si está familiarizado con SQL Server, este tipo de datos se corresponde con un decimal de SQL Server (19.4), o con el tipo de datos de moneda en Power Pivot. 
 
 **Número entero** : representa un valor entero de 64 bits (8 bytes). Puesto que es un entero, no tiene dígitos a la derecha del separador decimal. Permite 19 dígitos; números enteros positivos o negativos entre -9.223.372.036.854.775.808 (-2^63) y 9.223.372.036.854.775.807 (2^63-1).  Puede representar el mayor número posible de los distintos tipos de datos numéricos.  Como ocurre con el tipo de decimal fijo, el tipo de número entero puede usarse en casos en los que tenga que controlar el redondeo. 
+
+> [!NOTE]
+>  El modelo de datos de Power BI Desktop admite valores enteros de 64 bits, pero, dadas las limitaciones de JavaScript, el número más grande que los objetos visuales pueden expresar con seguridad es el 9 007 199 254 740 991 (2^53-1). Si en su modelo de datos trabaja con números más grandes, puede reducir el tamaño mediante cálculos antes de agregarlos a un objeto visual. 
+> 
+>
 
 ### <a name="datetime-types"></a>Tipos de fecha y hora
 Power BI Desktop admite cinco tipos de datos de fecha y hora en la vista de consultas y tres en el modelo y en la vista de informes.   Tanto la duración como fecha/hora/zona horaria se convierten durante la carga en el modelo.

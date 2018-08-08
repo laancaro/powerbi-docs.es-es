@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2018
+ms.date: 08/06/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: a90dbf4341bd801c4ab7de05b68211be62a4d69d
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: cd9762a5f9a46ab7d726a326c1b231f30c8e6271
+ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37067110"
+ms.lasthandoff: 08/07/2018
+ms.locfileid: "39582509"
 ---
 # <a name="what-sample-data-is-available-to-use-with-power-bi"></a>¿Qué datos de ejemplo están disponibles para usarse con Power BI?
 Supongamos que nunca antes ha utilizado Power BI y quiere probarlo, pero no tiene datos con los que trabajar.  O supongamos que sí tiene un conjunto de datos; pero, como no entiende el funcionamiento de Power BI (todavía), le preocupa dañarlo de algún modo.
@@ -176,7 +176,8 @@ Todos los paquetes de contenido de ejemplo también están disponibles como arch
 1. Descargue uno a uno los archivos utilizando los vínculos siguientes. Si selecciona alguno de estos vínculos, el archivo se guardará automáticamente en la carpeta de descargas. 
 
    * [Archivo PBIX del ejemplo de análisis de venta directa ](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix)
-   * [Archivo PBIX del ejemplo de análisis de calidad de proveedores](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier%20Quality%20Analysis%20Sample%20PBIX.pbix)
+   * [Archivo PBIX de ejemplo de análisis de la calidad de los proveedores](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix)
+   <!-- Previous link doesn't work -->
    * [Archivo PBIX del ejemplo de recursos humanos](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix)
    * [Archivo PBIX del ejemplo de rentabilidad del cliente](http://download.microsoft.com/download/6/A/9/6A93FD6E-CBA5-40BD-B42E-4DCAE8CDD059/Customer%20Profitability%20Sample%20PBIX.pbix)
    * [Archivo PBIX del ejemplo de seguimiento de oportunidad](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
