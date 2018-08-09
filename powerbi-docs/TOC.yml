@@ -112,8 +112,6 @@
                   href: service-install-use-apps.md
                 - name: Búsqueda y conexión a un paquete de contenido organizativo
                   href: service-organizational-content-pack-find-and-open.md
-                - name: Compartir los paneles e informes
-                  href: service-share-dashboards.md
                 - name: Introducción a Preguntas y respuestas de Power BI
                   href: power-bi-visualization-introduction-to-q-and-a.md
             - name: Conectarse a los servicios
@@ -306,9 +304,15 @@
                   href: power-bi-q-and-a-linguistic-schema.md
             - name: Compartir su trabajo
               items:
-                - name: ¿Cómo debo compartir paneles e informes y colaborar en ellos?
+                - name: ¿Cómo debo colaborar y compartir?
                   href: service-how-to-collaborate-distribute-dashboards-reports.md
-                - name: Creación y distribución de aplicaciones con los paneles e informes
+                - name: Compartir los paneles e informes
+                  href: service-share-dashboards.md
+                - name: Creación de áreas de trabajo de la aplicación
+                  href: service-create-workspaces.md
+                - name: Crear nuevas áreas de trabajo (versión preliminar)
+                  href: service-create-the-new-workspaces.md
+                - name: Publicar aplicaciones con los paneles e informes
                   href: service-create-distribute-apps.md
                 - name: Compartir un informe filtrado
                   href: service-share-reports.md
