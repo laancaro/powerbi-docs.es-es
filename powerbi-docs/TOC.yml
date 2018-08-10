@@ -682,6 +682,8 @@
           items:
             - name: Objetos visuales para informes
               href: desktop-visual-elements-for-reports.md
+            - name: Exportación a PDF e impresión de informes
+              href: desktop-export-to-pdf.md
             - name: Preguntas y respuestas en Power BI Desktop
               href: desktop-qna-in-reports.md
             - name: Panel de análisis en Power BI Desktop
@@ -1242,6 +1244,8 @@
           href: service-gateway-onprem-indepth.md
         - name: Puerta de enlace de datos local (modo personal)
           href: service-gateway-personal-mode.md
+        - name: Conectores personalizados
+          href: service-gateway-custom-connectors.md
         - name: Solución de problemas con la puerta de enlace de datos local
           href: service-gateway-onprem-tshoot.md
 - name: Administración
