@@ -3,29 +3,30 @@ title: Instalación y uso de aplicaciones con los paneles e informes de Power BI
 description: En Power BI, las aplicaciones permiten reunir paneles e informes relacionados en un solo lugar.
 author: maggiesMSFT
 manager: kfile
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: de566aa22a7c48a27682a9c577f84eb6015ac8b7
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 464906acd17248c5a752d7febc4ab7b907c7cc46
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34242744"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624377"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 En Power BI, las *aplicaciones* permiten reunir paneles e informes relacionados en un solo lugar. Los usuarios de la organización pueden crear y distribuir aplicaciones con información empresarial clave. Los [servicios externos](service-connect-to-services.md) que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen también aplicaciones de Power BI. 
 
 ![Aplicaciones de Power BI](media/service-install-use-apps/power-bi-apps-left-nav.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en el dispositivo móvil. Después de instalar una aplicación, no tendrá que recordar los nombres de muchos paneles diferentes ya que se encontrarán todos juntos en la aplicación, en el explorador o en su dispositivo móvil.
+Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en el dispositivo móvil. Después de instalar una aplicación, no tendrá que recordar los nombres de muchos paneles diferentes ya que se encontrarán todos juntos en una aplicación, en el explorador o en su dispositivo móvil.
 
 En el caso de las aplicaciones, siempre que el autor de la aplicación publique actualizaciones, verá los cambios automáticamente. El autor controla la frecuencia de actualización de los datos, por lo que no tiene que preocuparse de mantenerlos actualizados. 
 
-¿Planea crear una aplicación? Consulte [Creación y publicación de aplicaciones en Power BI](service-create-distribute-apps.md) para más información.
+¿Planea crear una aplicación? Para obtener más información, vea [Crear áreas de trabajo con sus compañeros en Power BI](service-create-distribute-apps.md).
 
 ## <a name="get-a-new-app"></a>Obtener una nueva aplicación
 Puede obtener aplicaciones de varias maneras diferentes. El autor de la aplicación puede instalar la aplicación automáticamente en su cuenta de Power BI o puede enviar un vínculo directo a una aplicación, o puede buscarla en AppSource, donde verá todas las aplicaciones a las que puede acceder. En Power BI en el dispositivo móvil, solo podrá instalarla desde un vínculo directo y no desde AppSource. Si el autor de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
@@ -41,7 +42,7 @@ Al hacer clic en el vínculo del correo electrónico, el servicio Power BI ([htt
 
 **En su dispositivo móvil de iOS o Android** 
 
-Al hacer clic en el vínculo del correo electrónico en el dispositivo móvil, la aplicación se instala automáticamente y se abre su lista de contenido. 
+Al hacer clic en el vínculo del correo electrónico en el dispositivo móvil, la aplicación se instala automáticamente y se abre su lista de contenido en la aplicación móvil. 
 
 ![Lista de contenido de una aplicación del dispositivo móvil](media/service-install-use-apps/power-bi-app-index-it-spend-360.png)
 
@@ -57,11 +58,11 @@ También puede buscar e instalar todas las aplicaciones a las que tenga acceso d
 3. Seleccione **Get it now** (Obtenerla ahora) para agregarla a la página Aplicaciones. 
 
 ## <a name="interact-with-the-dashboards-and-reports-in-the-app"></a>Interacción con los paneles e informes en la aplicación
-Ahora podrá explorar los datos de los paneles e informes en la aplicación. Tiene acceso a todas las interacciones estándar de Power BI como el filtrado, el resaltado, la ordenación y la exploración en profundidad. Más información sobre la [interacción con informes de Power BI](service-reading-view-and-editing-view.md). 
-
-No puede guardar los cambios que realice, pero siempre puede [exportar los datos a Excel ](power-bi-visualization-export-data.md) desde una tabla o desde otro objeto visual de un informe.
+Ahora podrá explorar los datos de los paneles e informes en la aplicación. Tiene acceso a todas las interacciones estándar de Power BI como el filtrado, el resaltado, la ordenación y la exploración en profundidad. También puede [exportar los datos a Excel ](power-bi-visualization-export-data.md) desde una tabla o desde otro objeto visual de un informe. Más información sobre la [interacción con informes de Power BI](service-reading-view-and-editing-view.md). 
 
 ![Exportar datos desde un objeto visual de Power BI](media/service-install-use-apps/power-bi-service-export-data-visual.png)
+
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación y publicación de aplicaciones en Power BI](service-create-distribute-apps.md)

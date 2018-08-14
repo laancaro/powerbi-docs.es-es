@@ -3,24 +3,23 @@ title: 'Paquetes de contenido organizativos: Administración y actualización'
 description: Obtenga más información sobre cómo administrar, actualizar y eliminar paquetes de contenido organizativos en Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 45e9207ffa666e33b298e82bbc78e07c226b780e
-ms.sourcegitcommit: f6fb681ec85313eb7b450edb8f190e9e7afbabca
+ms.openlocfilehash: d00ad254e25f8806f6cf2bc944e849e32167b1f8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2018
-ms.locfileid: "39182803"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624330"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
 > [!NOTE]
-> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Tenemos previsto dejar de usar pronto los paquetes de contenido organizativos, por lo que recomendamos que use aplicaciones. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
-> 
+> No se pueden crear paquetes de contenido de la organización ni instalarlos en la versión preliminar de las nuevas experiencias de áreas de trabajo. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
 > 
 
 Puede empaquetar y compartir sus paneles, informes, libros de Excel y conjuntos de datos con sus compañeros como [paquetes de contenido de la organización](service-organizational-content-pack-introduction.md). Sus compañeros pueden usarlos tal cual o crear sus propias copias.

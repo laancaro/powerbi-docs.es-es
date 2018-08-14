@@ -3,33 +3,30 @@ title: 'Creación y publicación de un paquete de contenido organizativo: Power 
 description: En este tutorial, vamos a crear un paquete de contenido organizativo, a restringir el acceso a un grupo específico y a publicarlo en la biblioteca de paquetes de contenido de su organización en Power BI.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/08/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b95ff0d9102377b6aeb59488a565f7bcb9a65566
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598623"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624261"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creación y publicación de un paquete de contenido organizativo de Power BI (tutorial)
-> [!NOTE]
-> ¿Todavía no ha oído hablar de las nuevas *aplicaciones*? Las aplicaciones son la nueva forma de distribuir contenido para un gran público en Power BI. Tenemos previsto dejar de usar pronto los paquetes de contenido organizativos, por lo que recomendamos que use aplicaciones. Obtenga más información [sobre las aplicaciones](service-install-use-apps.md).
-> 
-> 
 
 En este tutorial, vamos a crear un paquete de contenido organizativo, a dar acceso a un grupo específico y a publicarlo en la biblioteca de paquetes de contenido de su organización en Power BI.
 
 Es distinto crear paquetes de contenido que compartir paneles o colaborar en ellos en un grupo. Lea [¿Cómo debo compartir paneles, informes e iconos?](service-how-to-collaborate-distribute-dashboards-reports.md) para decidir cuál es la mejor opción en su caso.
 
+Crear un paquete de contenido de organización requiere una [cuenta de Power BI Pro](https://powerbi.microsoft.com/pricing) para usted y sus compañeros de trabajo. 
+
 > [!NOTE]
-> Crear un paquete de contenido de organización requiere una [cuenta de Power BI Pro](https://powerbi.microsoft.com/pricing) para usted y sus compañeros de trabajo.
-> 
+> No se pueden crear ni instalar paquetes de contenido de la organización en la versión preliminar de las nuevas experiencias de áreas de trabajo. Ahora es un buen momento para actualizar los paquetes de contenido a aplicaciones, si todavía no ha empezado. Obtenga [más información sobre la nueva experiencia de áreas de trabajo](service-create-the-new-workspaces.md).
 > 
 
 Imagine que es el jefe de lanzamiento de Contoso y que se está preparando para el lanzamiento de un producto nuevo.  Ha creado un panel con informes que desea compartir con los demás empleados que se ocupan del lanzamiento. Quiere disponer de una forma para empaquetar el panel y los informes de forma que puedan usarlo sus compañeros. 

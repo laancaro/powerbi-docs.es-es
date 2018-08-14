@@ -3,22 +3,25 @@ title: Administración del área de trabajo de la aplicación en Power BI y Offi
 description: Las áreas de trabajo de la aplicación en Power BI son una experiencia de colaboración basada en los grupos de Office 365. Administre el área de trabajo de la aplicación en Power BI y también en Office 365.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukasz
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/12/2017
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d298c750d23e22ef0a6b2791916add13bb260ad0
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965214"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624353"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Administración del área de trabajo de la aplicación en Power BI y Office 365
 Como creador o administrador de un [área de trabajo de la aplicación en Power BI](service-install-use-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
+
+> [!NOTE]
+> La versión preliminar de la nueva experiencia de áreas de trabajo.cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
 
 **En Power BI** , puede:
 
@@ -38,7 +41,7 @@ Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para ser adminis
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edición del área de trabajo de la aplicación en Power BI
 1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo > **Editar área de trabajo**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Editar áreas de trabajo en Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    > [!NOTE]
    > Solo verá **Editar el área de trabajo** si es un administrador del área de trabajo de la aplicación.
@@ -46,34 +49,34 @@ Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para ser adminis
    > 
 2. Aquí puede agregar o quitar miembros, cambiar el nombre o eliminar el área de trabajo de la aplicación. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
+   ![Editar el cuadro de diálogo del área de trabajo](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-edit-workspace.png)
 3. Seleccione **Guardar** o **Cancelar**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Edición de propiedades del área de trabajo de la aplicación de Power BI en Office 365
 1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo > **Miembros**. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
+   ![Editar áreas de trabajo en Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Se abre la vista de grupo de Outlook para Office 365 de su área de trabajo de la aplicación.
    
    Puede que tenga que iniciar sesión en la cuenta de trabajo.
 2. Pulse el botón de puntos suspensivos (**...**) junto al nombre de un miembro para convertir ese miembro en administrador o eliminar el miembro del área de trabajo de la aplicación. 
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
+   ![Editar un grupo de Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 
 ## <a name="add-an-image-and-set-other-workspace-properties-in-the-office-365-group"></a>Agregar una imagen y establecer otras propiedades del área de trabajo en el grupo de Office 365
-Cuando se distribuya la aplicación desde el área de trabajo de la aplicación, la imagen que agregue aquí será la imagen de la aplicación. Consulte la sección [Agregar una imagen a la aplicación](service-create-distribute-apps.md#add-an-image-to-your-app-optional) del artículo [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md).
+Cuando se distribuya la aplicación desde el área de trabajo de la aplicación, la imagen que agregue aquí será la imagen de la aplicación. Consulte la sección [Agregar una imagen a la aplicación](service-create-workspaces.md#add-an-image-to-your-office-365-app-workspace-optional) del artículo [Crear nuevas áreas de trabajo](service-create-workspaces.md).
 
 1. En la vista de Outlook para Office 365 del área de trabajo de la aplicación, seleccione la imagen del grupo para editar las propiedades del área de trabajo de grupo.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
+   ![Icono de Editar grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgroupo365.png)
 2. Puede editar el nombre, la descripción y el idioma, agregar una imagen y establecer otras propiedades aquí.
    
-   ![](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
+   ![Cuadro de diálogo de Editar grupo](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_editgrpo365dialog.png)
 3. Seleccione **Guardar** o **Descartar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
-* [Creación de aplicaciones y áreas de trabajo de la aplicación de Power BI](service-create-distribute-apps.md)
+* [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -3,24 +3,25 @@ title: Colaboración en un área de trabajo de aplicación de Power BI
 description: Lea información sobre cómo colaborar en archivos de Power BI Desktop en su área de trabajo de aplicación, y con servicios de Office 365 tales como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones en Exchange, el calendario y las tareas.
 author: maggiesMSFT
 manager: kfile
-ms.reviewer: ajayan
+ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cab0f0513d73a865407574d43f8cd65ca5d75a9e
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34245463"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39623939"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaboración en un área de trabajo de aplicación de Power BI
-Las áreas de trabajo de la aplicación de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. La razón por la que se diseñan áreas de trabajo es la colaboración. Después de finalizar la colaboración en los paneles e informes con compañeros, los empaqueta como una aplicación y se distribuyen. Obtenga más información sobre [creación de aplicaciones y áreas de trabajo de la aplicación en Power BI](service-create-distribute-apps.md). 
+Las áreas de trabajo de la aplicación de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. La colaboración no termina con las áreas de trabajo en Power BI. Office 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, el uso compartido del calendario y de las tareas, etc. Más información sobre [grupos en Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
 
-La colaboración no termina con las áreas de trabajo en Power BI. Office 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, el uso compartido del calendario y de las tareas, etc. Más información sobre [grupos en Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
+> [!NOTE]
+> La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
 
 Las áreas de trabajo de la aplicación solo están disponibles en [Power BI Pro](service-free-vs-pro.md).
 

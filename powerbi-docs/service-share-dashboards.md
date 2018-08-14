@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e176f82e106c531410b8e9233b983c6e321bddf4
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
+ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299065"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39624401"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -91,6 +91,8 @@ Solo el propietario del panel o informe puede activar y desactivar Volver a comp
 
 4. En el cuadro de diálogo **Eliminar acceso**, decida si desea quitar también el acceso al contenido relacionado, como informes y conjuntos de datos. Si elimina elementos con un icono de advertencia ![icono de advertencia de Power BI](media/service-share-dashboards/power-bi-warning-icon.png), resulta más conveniente eliminar el contenido relacionado, ya que no se muestra correctamente.
 
+    ![Cuadro de diálogo de advertencia de uso compartido de Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
+
 ## <a name="share-a-dashboard-or-report-with-people-outside-your-organization"></a>Uso compartido de un panel o informe con personas fuera de la organización
 Cuando comparte con personas fuera de su organización, estas personas reciben un correo electrónico con un vínculo al panel o informe compartido, y tienen que iniciar sesión en Power BI para verlo. Si no tienen una licencia de Power BI Pro, puede registrarse para obtener una licencia después de hacer clic en el vínculo.
 
@@ -145,6 +147,8 @@ Si es así, debe concederles permiso al conjunto de datos subyacente. Le mostram
 ### <a name="i-cant-share-a-dashboard-or-report"></a>No se puede compartir un panel o informe
 
 Para compartir un panel o informe, debe tener permiso para volver a compartir el contenido subyacente: informes y conjuntos de datos relacionados. Si ve un mensaje que indica que no se puede compartir, solicite al autor del informe que le otorgue permisos para volver a compartir los informes y conjuntos de datos.
+
+![Mensaje "No se puede compartir"](media/service-share-dashboards/power-bi-sharing-unable-to-share.png)
 
 
 ## <a name="next-steps"></a>Pasos siguientes

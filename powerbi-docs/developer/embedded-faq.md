@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/22/2018
-ms.openlocfilehash: f3602f44bd2ab98e115f904baa89429db918637c
-ms.sourcegitcommit: ba3cab4613a2b815d46a213eff07a8a8ec22c17f
+ms.openlocfilehash: ab637be12487029d17d7b1bfa89022dbae9aaa49
+ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/13/2018
-ms.locfileid: "39032080"
+ms.lasthandoff: 08/02/2018
+ms.locfileid: "39415401"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -63,29 +63,32 @@ Power BI Embedded es un conjunto de API que Microsoft pone a disposición de los
 
 Esta es una lista parcial de las diferencias que puede utilizar con cada una de ellas.
 
-|Destacado  |Power BI Embedded<br>(SKU A) |Capacidad de Power BI Premium<br>(SKU EM)  | 
-|---------|---------|---------|
-|Insertar artefactos desde áreas de trabajo de la aplicación de Power BI     |Capacidad de Azure |Capacidad de Office 365 |
-|Licencia de Power BI necesaria para consumir informes |No  |Sí |
-|Consumir informes de Power BI en una aplicación insertada |Sí  |Sí |
-|Consumir informes de Power BI en SharePoint |No |Sí |
-|Consumir informes de Power BI en Teams |No |Sí |
+| Destacado | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
+|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
+|   | (SKU A) | (SKU EM) | (SKU P) |
+| Insertar artefactos desde áreas de trabajo de la aplicación de Power BI | Capacidad de Azure | Capacidad de Office 365 | Capacidad de Office 365 |
+| Consumir informes de Power BI en una aplicación insertada | Sí | Sí | Sí |
+| Consumir informes de Power BI en SharePoint | No | Sí | Sí |
+| Consumir informes de Power BI en Dynamics | No | Sí | Sí |
+| Consumir informes de Power BI en Teams | No | Sí | Sí |
+| Acceso al contenido con una licencia gratuita de Power BI en Powerbi.com y Power BI Mobile | No | No | Sí |
+| Acceso al contenido con una licencia gratuita de Power BI insertada en aplicaciones de MS Office | No | Sí | Sí |
 
 ### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI ahora ofrece tres SKU que se pueden insertar: SKU A, SKU EM y SKU P. ¿Cuál debo comprar para mi escenario?
 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Comprar     |Azure Portal |Office |Office |
-|Casos de uso |* Insertar contenido en su propia aplicación |* Insertar contenido en su propia aplicación<br>* Insertar contenido en otras aplicaciones SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Insertar contenido en su propia aplicación<br>* Insertar contenido en otras aplicaciones SaaS ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Compartir contenido con usuarios de Power BI a través del [servicio Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Casos de uso |* Insertar contenido en su propia aplicación |* Insertar contenido en su propia aplicación<br>* Insertar contenido en otras aplicaciones de MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard)) |* Insertar contenido en su propia aplicación<br>* Insertar contenido en otras aplicaciones de MS Office ([SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/), [Teams](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/), [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard))<br>* Compartir contenido con usuarios de Power BI a través del [servicio Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Facturación |Cada hora |Mensual |Mensualmente |
 |Asignación  |Sin asignación |Anualmente  |Mensual o anual |
 |Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede utilizar para insertar contenido en SharePoint Online y Microsoft Teams |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>¿Cuáles son los requisitos previos para crear una capacidad de PBIE en Azure?
 
-- Debe iniciar sesión en el directorio de su organización (las cuentas MSA no son compatibles).
-- Debe tener un inquilino de Power BI, es decir, al menos un usuario en su directorio debe estar registrado en Power BI. 
-- Debe tener una suscripción a Azure en el directorio de su organización.
+* Debe iniciar sesión en el directorio de su organización (las cuentas MSA no son compatibles).
+* Debe tener un inquilino de Power BI, es decir, al menos un usuario en su directorio debe estar registrado en Power BI. 
+* Debe tener una suscripción a Azure en el directorio de su organización.
 
 ### <a name="how-can-i-monitor-capacity-consumption"></a>¿Cómo se puede supervisar el consumo de la capacidad?
 
@@ -213,6 +216,8 @@ Power BI Embedded factura a un precio por hora predecible en función del tipo d
 Todos los analistas que necesiten agregar informes a un área de trabajo de Power BI, todos los desarrolladores que necesiten usar las API de REST y todos los administradores de inquilinos que necesiten administrar el inquilino y la capacidad de Power BI necesitarán una licencia de Power BI Pro.
 
 Dado que Power BI Embedded permite el uso del portal de Power BI para administrar y validar contenido insertado, la licencia de Power BI Pro es necesaria para autenticar la aplicación en PowerBI.com para obtener acceso a los informes de los repositorios correctos.
+
+Pero para [crear o editar informes insertados](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) dentro de su propia aplicación, el usuario final no necesita una licencia Pro, ya que no es imprescindible ser un usuario de Power BI.
 
 ### <a name="can-i-get-started-for-free"></a>¿Puedo empezar de forma gratuita?
 
