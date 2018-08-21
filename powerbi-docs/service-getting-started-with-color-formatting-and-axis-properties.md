@@ -7,20 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 422f0ba97f5118ddc57e9102055a070deaf99b90
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 805487087de865c25f08a29243d672fafbc26ca2
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329624"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39658046"
 ---
 # <a name="getting-started-with-color-formatting-and-axis-properties"></a>Introducción a las propiedades de eje y formato de color
 En **Power BI**, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. También puede cambiar cómo se presentan los ejes x e y, con lo que tendrá control total sobre cómo aparecen los paneles e informes.
 
 Para empezar, seleccione un **informe** en el panel **Mi área de trabajo** . A continuación, en el área de menú superior, seleccione **Editar informe**.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
 
 Cuando edite un informe y tenga una visualización seleccionada, se mostrará el panel **Visualizaciones** , que le permite agregar o cambiar visualizaciones. Justo debajo de las visualizaciones disponibles, hay tres iconos: el icono **Campos** (una pila de barras), el icono **Formato** (pincel) y el icono **Análisis** (una lupa). En la imagen siguiente, el icono **Campos** está seleccionado, lo que se indica con una barra amarilla debajo del icono.
@@ -28,6 +29,7 @@ Cuando edite un informe y tenga una visualización seleccionada, se mostrará el
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_2a.png)
 
 Al seleccionar **Formato**, el área debajo del icono muestra las personalizaciones del color y de los ejes disponibles para la visualización seleccionada.  
+
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_3a.png)
 
 Puede personalizar muchos elementos de cada visualización:
@@ -47,14 +49,13 @@ Puede personalizar muchos elementos de cada visualización:
 > [!NOTE]
 >  
 > No verá todos estos elementos con cada tipo de visualización. La visualización que seleccione afectará a las personalizaciones disponibles; por ejemplo, no verá un eje X si está seleccionado un gráfico circular porque los gráficos circulares no tienen eje X.
-> 
-> 
 
 Tenga en cuenta también que si no tiene ninguna visualización seleccionada, **Filtros** aparece en lugar de los iconos, que le permite aplicar filtros a todas las visualizaciones de la página.
 
 Mostraremos un par de ejemplos: uno que trabaja con los colores y el otro que cambia las propiedades de un eje. A partir de allí, ya estará preparado para personalizar los colores, los ejes y las etiquetas durante todo el día.
 
 ## <a name="working-with-colors"></a>Trabajo con colores
+
 Examinemos los pasos necesarios para personalizar los colores de un gráfico.
 
 1. Seleccionamos un **gráfico de columnas agrupadas** en el lienzo del informe.
@@ -76,6 +77,7 @@ Los cambios se muestran en la siguiente imagen. Vaya, es un gráfico realmente b
 ¿No está del todo contento con el cambio que acaba de crear? Use **CTRL+Z** para deshacerlo, de la manera habitual.
 
 ## <a name="changing-axis-properties"></a>Cambio de las propiedades del eje
+
 A menudo, resulta útil modificar el eje X o el eje Y. De igual forma que al trabajar con colores, puede modificar un eje seleccionando el icono de flecha abajo, situado a la izquierda del eje que quiere cambiar, tal como se muestra en la siguiente imagen.  
 ![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_7a.png)
 
@@ -88,11 +90,15 @@ Hay todo tipo de colores para elegir y muchas otras personalizaciones que puede 
 > [!NOTE]
 >  
 > Estas personalizaciones del color, de los ejes y otras relacionadas, disponibles cuando se selecciona el icono **Formato**, también están disponibles en Power BI Desktop.
-> 
-> 
 
-## <a name="next-step"></a>Paso siguiente
+## <a name="setting-color-from-text-values"></a>Establecer el color de los valores de texto
+
+A partir de la actualización de agosto de 2018 de **Power BI Desktop**, puede establecer colores según el valor de texto o el código hexadecimal en un elemento de informe determinado. Para obtener más información, vea [Formato condicional en tablas](desktop-conditional-table-formatting.md).
+
+
+## <a name="next-steps"></a>Pasos siguientes
 Para obtener más información, consulte el artículo siguiente:  
 
 * [Sugerencias y trucos para el formato de color en Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Formato condicional en tablas](desktop-conditional-table-formatting.md)
 

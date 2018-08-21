@@ -1,5 +1,5 @@
 ---
-title: Uso de los temas para los informes en Power BI Desktop (versión preliminar)
+title: Uso de los temas para los informes en Power BI Desktop
 description: Aprenda a usar una paleta de colores personalizada y a aplicarla a un informe completo en Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/02/2018
+ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 757c1465d2451da8ebf340c7b9bfe1f4d9ff04f1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721188"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657952"
 ---
-# <a name="use-report-themes-in-power-bi-desktop-preview"></a>Uso de los temas para los informes en Power BI Desktop (versión preliminar)
+# <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
 
 ![](media/desktop-report-themes/report-themes_1.png)
@@ -26,10 +26,14 @@ Aplicar un **tema para informes** requiere un archivo JSON que use una estructur
 
 Desde la versión de septiembre de 2017 de **Power BI Desktop**, puede definir aún más elementos de temas para informes utilizando un archivo JSON, y personalizar (y normalizar) casi todos los elementos que puede ajustar manualmente en el panel **Formato**, todo mediante el archivo JSON. El objetivo de la versión de septiembre de 2017 (y versiones posteriores) es habilitar el control completo sobre la apariencia y el comportamiento de los informes a un nivel granular.
 
-### <a name="enable-report-themes-in-preview"></a>Habilitamiento de los temas para informes en la vista previa
-Puede probar la nueva característica **Temas para informes** a partir de la versión de **marzo de 2017** de **Power BI Desktop**. Para habilitar esta característica de vista previa, seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa** y, a continuación, seleccione la casilla situada junto a **Temas personalizados para los informes**. Deberá reiniciar **Power BI Desktop** después de realizar la selección.
+### <a name="enable-report-themes"></a>Habilitar los temas para los informes
+A partir de la versión de agosto de 2018 de **Power BI Desktop**, la creación de temas para los informes está disponible con carácter general y no tiene que habilitarse. 
+
+Si usa una versión anterior de **Power BI Desktop**, puede habilitarla como una característica de versión preliminar; para ello, haga clic en **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y seleccione la casilla situada junto a **Temas personalizados para los informes**. Deberá reiniciar **Power BI Desktop** después de realizar la selección.
 
 ![](media/desktop-report-themes/report-themes_2.png)
+
+Siempre se recomienda actualizar a la versión más reciente de **Power BI Desktop**, que se puede obtener desde un vínculo en [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Funcionamiento de los temas para informes
 Para aplicar un tema para informes a un informe de Power BI Desktop, seleccione el botón **Cambiar tema** desde la cinta de opciones de **Inicio** y, a continuación, seleccione **Importar tema** en la lista desplegable.

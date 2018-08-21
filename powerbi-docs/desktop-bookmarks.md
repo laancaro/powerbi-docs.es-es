@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2b8c4066f3128899d2c3c8121d7c5d41768f89dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327830"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657975"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -113,6 +113,33 @@ Una vez que sitúe el control deslizante de **Acción** en **Activado**, puede s
 Hay todo tipo de cosas interesantes que puede hacer con marcadores con objetos vinculados. Puede crear un índice de objetos visuales en la página del informe, o puede proporcionar vistas diferentes (por ejemplo, los tipos de objeto visual) de la misma información solo con hacer clic en un objeto.
 
 Si está en modo de edición puede usar ctrl+clic para seguir el vínculo y, si no lo está, basta con hacer clic en el objeto para seguir el vínculo. 
+
+## <a name="bookmark-groups"></a>Grupos de marcadores
+
+A partir de la versión de agosto de 2018 de **Power BI Desktop**, puede crear y usar grupos de marcadores. Un grupo de marcadores es una colección de marcadores que especifica y que se pueden mostrar y organizar como un grupo. 
+
+Para crear un grupo de marcadores, mantenga presionada la tecla CTRL y seleccione los marcadores que quiera incluir en el grupo; después, haga clic en los puntos suspensivos situados junto a cualquiera de los marcadores seleccionados y haga clic en **Agrupar** en el menú que aparece.
+
+![Crear un grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
+
+**Power BI Desktop** denomina automáticamente al grupo *Grupo 1*. Si quiere cambiarle el nombre, solo tiene que hacer doble clic en él.
+
+![Cambiar el nombre de un grupo de marcadores](media/desktop-bookmarks/bookmarks_16.png)
+
+Al hacer clic en el nombre de cualquier grupo de marcadores, solo se expande o contrae el grupo, y no se representa ningún marcador por sí mismo. 
+
+Al usar la característica **Ver** de los marcadores, se aplica lo siguiente:
+
+* Si el marcador seleccionado está en un grupo cuando se hace clic en **Ver** en los marcadores, solo los marcadores *de ese grupo* se muestran en la sesión de visualización. 
+
+* Si el marcador seleccionado no es un grupo, o bien si se encuentra en el nivel superior (por ejemplo, el nombre de un grupo de marcadores), se reproducen todos los marcadores de todo el informe, incluidos los marcadores de cualquier grupo. 
+
+Para desagrupar los marcadores, solo tiene que seleccionar cualquier marcador de un grupo, hacer clic en el botón de puntos suspensivos y, después, hacer clic en **Desagrupar** en el menú que aparece. 
+
+![Desagrupar un grupo de marcadores](media/desktop-bookmarks/bookmarks_17.png)
+
+Tenga en cuenta que, si hace clic en **Desagrupar** en cualquier marcador de un grupo, todos los marcadores abandonan el grupo (se elimina el grupo, pero no los marcadores). Para quitar un único marcador de un grupo, tiene que **desagrupar** cualquier miembro de ese grupo, lo que elimina la agrupación; después, seleccione los miembros que quiera en el nuevo grupo (pulse CTRL y haga clic en cada marcador) y vuelva a hacer clic en **Agrupar**. 
+
 
 ## <a name="using-spotlight"></a>Uso de Destacados
 Otra característica que se ha publicado junto con los marcadores es **Destacados**. Con **Destacados** se puede llamar la atención sobre un gráfico concreto, por ejemplo, al presentar los marcadores en el modo **Vista**.

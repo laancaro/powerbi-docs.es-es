@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/23/2018
+ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: be4651d1658c80c84105a65bc48e4072ed203794
-ms.sourcegitcommit: 7bdb76bd80973c5e5174747b7e304705754fe647
+ms.openlocfilehash: a3e39e6326eb5b32cd72e2aefec74c07804b4639
+ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2018
-ms.locfileid: "39217637"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39657906"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Uso de elementos visuales para mejorar los informes de Power BI
 
@@ -59,6 +59,9 @@ Al establecer el fondo de la página en una transparencia superior al 50 %, apar
 ![Una transparencia superior al 50 % genera un borde punteado](media/desktop-visual-elements-for-reports/visual-elements-for-reports_04.png)
 
 Es importante tener en cuenta que el límite punteado *solo* aparece al editar el informe y *no* es visible para quienes ven el informe publicado, como cuando se ve en el **servicio Power BI**.
+
+> [!NOTE]
+> Si usa fondos de colores oscuros para el papel tapiz y establece el color del texto en blanco o muy claro, tenga en cuenta que la característica **Exportar a PDF** no incluye el papel tapiz, por lo que las exportaciones con fuentes de color blanco serán casi invisibles en el archivo PDF exportado. Vea [Export to PDF](desktop-export-to-pdf.md) (Exportar a PDF) para obtener más información sobre **Exportar a PDF**.
 
 
 ## <a name="using-improved-visual-headers-in-power-bi-reports"></a>Uso de encabezados visuales mejorados en los informes de Power BI
