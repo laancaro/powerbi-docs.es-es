@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/18/2018
-ms.author: v-mamcge
+ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: b3bb1e6d7d7ce5b3fdc050f5df10af9f61acac92
-ms.sourcegitcommit: d936a23f895ee6ef1420753342f5e6c055ea5e07
+ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
+ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39582580"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257147"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI 
 Este artículo proporciona una guía para la creación de informes rápidos y confiables en Power BI.  
@@ -46,10 +46,10 @@ Para obtener instrucciones acerca de cómo optimizar los orígenes de datos para
  
 ## <a name="directquery-and-live-connection-understand-underlying-data-source-performance"></a>DirectQuery y conexión dinámica: información sobre el rendimiento del origen de datos subyacente 
 
-En el caso de DirectQuery y conexión dinámica, cuando los usuarios visitan un informe de Power BI, Power BI envía consultas en tiempo real al origen de datos subyacente. Una vez que el origen de datos devuelve los datos de la consulta, se representa el informe. Como resultado, el rendimiento de los informes depende en gran medida del rendimiento del origen de datos subyacente. 
- 
-En estos casos, será importante la información sobre el rendimiento del origen de datos subyacente. Los distintos orígenes de datos dispondrán de distintas herramientas para proporcionar información sobre el rendimiento de las consultas. Por ejemplo, SQL Server y Azure SQL cuentan con el Almacén de consultas, que captura un historial de las consultas y sus correspondientes estadísticas de tiempo de ejecución. 
- 
+En el caso de DirectQuery y conexión dinámica, cuando los usuarios visitan un informe de Power BI, Power BI envía consultas en tiempo real al origen de datos subyacente. Una vez que el origen de datos devuelve los datos de la consulta, se representa el informe. Como resultado, el rendimiento de los informes depende en gran medida del rendimiento del origen de datos subyacente.
+
+En estos casos, será importante la información sobre el rendimiento del origen de datos subyacente. Los distintos orígenes de datos dispondrán de distintas herramientas para proporcionar información sobre el rendimiento de las consultas. Por ejemplo, SQL Server y Azure SQL cuentan con el Almacén de consultas, que captura un historial de las consultas y sus correspondientes estadísticas de tiempo de ejecución.
+
 Como regla general, cuando se implementan los informes de Power BI con DirectQuery y Conexión dinámica, pruebe lo que harán los usuarios finales en Power BI Desktop. Si el informe tarda en cargarse en Power BI Desktop, seguramente tardará en cargarse en el servicio para los usuarios finales. 
  
 ## <a name="directquery-best-practices"></a>Procedimientos recomendados de DirectQuery 
