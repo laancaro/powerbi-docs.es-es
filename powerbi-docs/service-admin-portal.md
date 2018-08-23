@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/02/2018
+ms.date: 08/15/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e2b61f84b459d3b14c2cd066e0261dcdb1b8a5ef
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: db77e3e7421074383f67bffad318e6f7f4c3df28
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36965513"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40256943"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -100,36 +100,37 @@ Para obtener más información sobre los registros de auditoría, consulte [Audi
 
 La tercera ficha, en el portal de administración, es **Configuración de inquilinos**. La configuración de inquilinos le da un mayor control sobre qué características están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización o, puede que solo quiera que una determinada característica esté disponible para un grupo concreto. Si es así, se puede desactivar en el inquilino.
 
-Por ejemplo, los datos por usuario están habilitados en las métricas de uso, y el informe de métricas incluye información sobre la cuenta del creador de contenido. Si prefiere no incluir esta información de algunos los usuarios, incluso de ninguno de ellos, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparecerá en el informe como *Sin nombre*.
-
 ![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
 > La configuración puede tardar hasta 10 minutos en entrar en vigor para todos los usuarios del inquilino.
 
-La configuración puede tener tres estados según los valores que haya proporcionado.
+La configuración puede tener tres estados:
 
-### <a name="disabled-for-the-entire-organization"></a>Deshabilitar para toda la organización
+* **Deshabilitado para toda la organización**: puede deshabilitar una característica y hacerlo de manera que los usuarios no puedan usarla.
 
-Puede deshabilitar una característica y hacerlo de manera que los usuarios no puedan utilizarla.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+* **Habilitado para toda la organización**: puede habilitar una característica para toda la organización, lo que permitirá a todos los usuarios tener acceso a esa característica.
 
-### <a name="enabled-for-the-entire-organization"></a>Habilitar para toda la organización
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-Puede habilitar una característica para toda la organización lo que permitirá a todos los usuarios tener acceso a esa característica.
+* **Habilitado para un subconjunto de la organización**: también puede habilitar una característica para una parte de la organización. Esto se puede hacer de varias maneras. Puede habilitarla para toda la organización excepto para un grupo de usuarios específico.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-### <a name="enabled-for-a-subset-of-the-organization"></a>Habilitar para un subconjunto de la organización
+    Puede también habilitar la característica solo para un grupo específico de usuarios y deshabilitarla para determinados usuarios de ese grupo. Esto garantizaría que determinados usuarios no tengan acceso a la característica incluso aunque pertenezcan al grupo permitido.
 
-También puede habilitar una característica para una parte de la organización. Esto se puede hacer de varias maneras. Puede habilitarla para toda la organización excepto para un grupo de usuarios específico.
+    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+Las secciones siguientes proporcionan una visión general de los distintos tipos de configuración de inquilino.
 
-Puede también habilitar la característica solo para un grupo específico de usuarios y deshabilitarla para determinados usuarios de ese grupo. Esto garantizaría que determinados usuarios no tengan acceso a la característica incluso aunque pertenezcan al grupo permitido.
+## <a name="workspace-settings"></a>Configuración del área de trabajo
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+### <a name="create-workspaces-preview"></a>Crear áreas de trabajo (versión preliminar)
+Los usuarios de la organización pueden crear áreas de trabajo de aplicación para colaborar en paneles, informes y otro contenido.
+
+Para obtener más información, vea [Crear nuevas áreas de trabajo](service-create-the-new-workspaces.md).
 
 ## <a name="export-and-sharing-settings"></a>Exportar y compartir configuración
 
@@ -143,7 +144,7 @@ Este es el mensaje que aparecerá cuando los comparta con un usuario externo.
 
 ![](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
-### <a name="publish-to-web"></a>Publicar en web
+### <a name="publish-to-web"></a>Publicar en Web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 
@@ -244,7 +245,7 @@ Los usuarios de la organización pueden interactuar con objetos visuales creados
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
-## <a name="audit-settings"></a>Configuración de auditoría
+## <a name="audit-and-usage-settings"></a>Configuración de auditoría y uso
 
 ### <a name="create-audit-logs-for-internal-activity-auditing-and-compliance"></a>Crear registros de auditoría con fines de auditoría y cumplimiento de la actividad interna
 
@@ -254,6 +255,25 @@ Se debe habilitar esta configuración para que las entradas de registro de audit
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
+
+### <a name="usage-metrics-for-content-creators"></a>Métricas de uso para creadores de contenido
+Los usuarios de la organización pueden consultar las métricas de uso de los paneles y los informes que hayan creado. [Más información](service-usage-metrics.md).
+
+Puede cambiar el valor a **Habilitado** y luego especificar quién puede ver métricas de uso (toda la organización o grupos de seguridad específicos).
+
+> [!NOTE]
+> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
+
+### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Datos por usuario en métricas de uso de creadores de contenido
+Las métricas de uso de creadores de contenido revelan los nombres para mostrar y las direcciones de correo electrónico de los usuarios que acceden al contenido. [Más información](service-usage-metrics.md).
+
+Puede cambiar el valor a **Habilitado** y luego especificar quién puede ver nombres para mostrar y direcciones de correo electrónico en las métricas de uso (toda la organización o grupos de seguridad específicos).
+
+Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si prefiere no incluir esta información de algunos los usuarios, incluso de ninguno de ellos, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparecerá en el informe como *Sin nombre*.
+
+> [!NOTE]
+> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
+
 
 ## <a name="dashboard-settings"></a>Configuración del panel
 
@@ -270,9 +290,9 @@ Los usuarios de la organización pueden etiquetar paneles con clasificaciones qu
 
 Los usuarios de la organización pueden insertar informes y paneles de Power BI en las aplicaciones de software como servicio (SaaS). Si deshabilita esta configuración, impedirá que los usuarios puedan utilizar las API de REST para insertar contenido de Power BI en la aplicación.
 
-## <a name="premium-settings"></a>Configuración de Premium
+## <a name="capacity-settings"></a>Configuración de capacidad
 
-La pestaña Configuración de Premium permite administrar la capacidad de Power BI Premium que se ha adquirido para su organización. Todos los usuarios de su organización verán la pestaña Configuración de Premium, pero solo verán su contenido, si están asignados como **administrador de capacidades** o como un usuario que tenga permisos de asignación. Si un usuario no tiene ningún permiso, verán el mensaje siguiente.
+La pestaña Configuración de capacidad permite administrar la capacidad Power BI Premium que se ha adquirido para la organización. Todos los usuarios de su organización verán la pestaña Configuración de Premium, pero solo verán su contenido, si están asignados como **administrador de capacidades** o como un usuario que tenga permisos de asignación. Si un usuario no tiene ningún permiso, verán el mensaje siguiente.
 
 ![](media/service-admin-portal/premium-settings-no-access.png "No hay acceso a la configuración de Premium")
 

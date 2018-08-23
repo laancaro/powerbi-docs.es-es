@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/07/2018
+ms.date: 08/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 36343b4db0481ea61fbfac1c791aa84760ee2c77
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624825"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256992"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Crear nuevas áreas de trabajo (versión preliminar) en Power BI
 
@@ -112,8 +112,8 @@ Las nuevas áreas de trabajo ofrecen tres roles: administradores, miembros y col
 **Los miembros pueden:** 
 
 - Agregar miembros u otros usuarios con permisos inferiores.
-- Publicar y actualizar aplicaciones.
-- Compartir elementos y compartir aplicaciones.
+- Publicar y actualizar una aplicación.
+- Compartir un elemento o compartir una aplicación.
 - Permitir que otros usuarios vuelvan a compartir elementos.
 - Hacer lo mismo que los colaboradores.
 
@@ -129,7 +129,7 @@ Se están creando flujos de trabajo de solicitud de acceso en todo el servicio p
 
 ## <a name="distribute-an-app"></a>Distribución de una aplicación
 
-Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Sus compañeros de trabajo pueden obtener las aplicaciones de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarlas automáticamente en las cuentas de Power BI de sus compañeros de trabajo. En caso contrario, pueden buscar e instalar estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md) para obtener más detalles.
+Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Puede crear una aplicación desde cada área de trabajo. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo. De lo contrario, pueden buscar e instalar la aplicación desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md) para obtener más detalles.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Convertir las áreas de trabajo de la aplicación antiguas en nuevas áreas de trabajo de la aplicación
 
@@ -161,7 +161,7 @@ Todavía se están desarrollando algunas características de versión preliminar
 Algunas características funcionan de manera diferente en las áreas de trabajo de la aplicación actuales que en las áreas de trabajo de la aplicación nuevas. Estas diferencias son intencionadas, con base en los comentarios recibidos de los clientes, y permitirán un enfoque más flexible para la colaboración con las áreas de trabajo:
 
 - Posibilidad de que los miembros puedan volver a compartir o no: se ha reemplazado por el rol de Colaborador
-- Áreas de trabajo de solo lectura: se han reemplazado por el próximo rol de Visor, que permite acceso de solo lectura al contenido de un área de trabajo.
+- Áreas de trabajo de solo lectura: en lugar de conceder a los usuarios acceso de solo lectura a un área de trabajo, asigne los usuarios a un rol inminente Visor, que permite un acceso similar al de solo lectura al contenido de un área de trabajo.
 
 ## <a name="known-issues"></a>Problemas conocidos
 

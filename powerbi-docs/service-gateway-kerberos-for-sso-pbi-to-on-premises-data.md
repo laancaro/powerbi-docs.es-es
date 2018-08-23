@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/09/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 402a39ef9e52fe61d80940a5050997ba19930209
-ms.sourcegitcommit: 5eb8632f653b9ea4f33a780fd360e75bbdf53b13
+ms.openlocfilehash: bf5120b1c4d787dd13e21245b234207123221fc4
+ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36964846"
+ms.lasthandoff: 08/18/2018
+ms.locfileid: "40256424"
 ---
 # <a name="use-kerberos-for-sso-single-sign-on-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales
 Puede lograr una conectividad de inicio de sesión único perfecta con la habilitación de la actualización de los informes y paneles de Power BI con datos locales, mediante la configuración de la puerta de enlace de datos local con Kerberos. La puerta de enlace de datos local facilita el inicio de sesión único (SSO) con DirectQuery, que utiliza para conectarse a los orígenes de datos locales.
@@ -51,9 +51,7 @@ Estos son los detalles adicionales sobre estos pasos:
    - La suplantación de usuario y la conexión a la base de datos solo es correcta si la cuenta de servicio de la puerta de enlace es una cuenta de dominio (o SID de servicio), y si se ha configurado la delegación restringida de Kerberos para que la base de datos acepte vales de Kerberos de la cuenta de servicio de puerta de enlace.  
    
    > [!NOTE]
-   > En relación con el SID de servicio, si AAD DirSync o AAD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace.  Los pasos de configuración de la delegación restringida de Kerberos que se describen en este documento son los mismos (simplemente se aplican en función del SID de servicio, en lugar de la cuenta de dominio).
-   > 
-   > 
+   > En relación con el SID de servicio: si AAD DirSync o AAD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican al objeto informático de la puerta de enlace de Active Directory, en lugar de la cuenta de dominio).
 
 
 > [!NOTE]

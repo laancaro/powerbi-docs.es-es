@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: e0f90ccade44960cf24fd133b4caf46280b4a511
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ec97676fc043f9d8bd014465cc1fd2c0ffcca423
+ms.sourcegitcommit: 52278d8e0c23ae5eaf46b10a6a2f1fb071a0f1cc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34482139"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "40257151"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -22,6 +22,18 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
 
+## <a name="august-2018"></a>Agosto de 2018
+- **Servidor de informes de Power BI**
+    - *Versión 1.3.6801.38816 (compilación 15.0.2.540), fecha de publicación: 15 de agosto de 2018*
+        - Características
+            - Compatibilidad de Direct Query de SSO de SAP HANA con Kerberos ya disponible para informes de Power BI
+            - API de objeto visual personalizada incluida con la versión: versión 1.13.0
+            - Los objetos visuales personalizados se revierten a una versión anterior compatible con la versión actual de la API de servidor (si está disponible)
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+    - *Versión: 2.61.5192.64 (agosto de 2018), fecha de publicación: 15 de agosto de 2018*
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (agosto de 2018)         
+        
 ## <a name="march-2018"></a>Marzo de 2018
 - **Servidor de informes de Power BI**
     - *Versión 1.2.6690.34729 (compilación 15.0.2.402), fecha de publicación: 27 de abril de 2018*

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f9c6d161149a4c862636a13ad88d3c43f2dbcd8a
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: cbec15b472e6cfad6134cc48970977132d61dd36
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329320"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40257010"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso de datos tabulares de Analysis Services en Power BI Desktop
 Con Power BI Desktop existen dos maneras puede conectarse y obtener datos de los modelos tabulares de Analysis Services de SQL Server: exploración mediante una conexión activa o selección de elementos e importación en Power BI Desktop.
@@ -24,7 +24,9 @@ Analicemos la cuestión más detenidamente.
 
 **Exploración mediante una conexión activa** : cuando se utiliza una conexión activa, los elementos de su modelo tabular o perspectiva (como las tablas, las columnas y las medidas) aparecen en la lista de campos de Power BI Desktop. Puede usar las herramientas avanzadas de informe y visualización de Power BI Desktop para explorar el modelo tabular de formas nuevas y altamente interactivas.
 
-Cuando se realiza la conexión dinámica, no se importa ningún dato del modelo tabular en Power BI Desktop. Cada vez que interactúe con una visualización, Power BI Desktop consulta el modelo tabular y calcula los resultados obtenidos. Siempre verá los datos más recientes. Tenga en cuenta que los modelos tabulares son muy seguros. Los elementos que aparecen en Power BI Desktop dependen de los permisos del modelo tabular al que está conectado.
+Cuando se realiza la conexión dinámica, no se importa ningún dato del modelo tabular en Power BI Desktop. Cada vez que interactúe con una visualización, Power BI Desktop consulta el modelo tabular y calcula los resultados obtenidos. Siempre está consultando los datos más recientes disponibles en el modelo tabular, ya sea desde la última hora de procesamiento o desde tablas de Direct Query disponibles en el modelo tabular. 
+
+Tenga en cuenta que los modelos tabulares son muy seguros. Los elementos que aparecen en Power BI Desktop dependen de los permisos del modelo tabular al que está conectado.
 
 Cuando haya creado los informes dinámicos en Power BI Desktop, podrá compartirlos publicándolos en el sitio de Power BI. Al publicar un archivo de Power BI Desktop con una conexión dinámica en un modelo tabular en un sitio de Power BI, un administrador debe instalar y configurar una puerta de enlace de datos local. Para más información, consulte [Puerta de enlace de datos local](service-gateway-onprem.md).
 

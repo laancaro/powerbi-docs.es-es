@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/05/2018
+ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 5b4d5ea7970dd44cfebadca6935452688515aef5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: eee7c4989c4856ab86cb4883f8004198da00e4fd
+ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34799427"
+ms.lasthandoff: 08/20/2018
+ms.locfileid: "40256811"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -84,7 +84,7 @@ Cuando selecciona un valor en un objeto visual, lo no filtra los otros objetos v
 ## <a name="drill-down-and-up-in-a-visual"></a>Explorar en profundidad y rastrear agrupando datos de un objeto visual
 Si el autor de un informe ha agregado la funcionalidad de exploración en profundidad a un objeto visual, puede explorar en profundidad un objeto visual para ver los valores que constituyen una parte de él. Puede [agregar una exploración en profundidad a un objeto visual](power-bi-visualization-drill-down.md) tanto en Power BI Desktop como en el servicio Power BI. 
 
-* Pulse un punto de datos de un objeto visual para que se muestre su información sobre herramientas. Si admite la exploración desagrupando los datos, se mostrarán flechas que podrá pulsar en la parte inferior de la información sobre herramientas. 
+* Mantenga pulsada una barra determinada o un punto de un objeto visual para mostrar la información en pantalla. Si admite la exploración desagrupando los datos, se mostrarán flechas que podrá pulsar en la parte inferior de la información sobre herramientas. 
   
   ![Exploración en profundidad en un objeto visual](media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-down-tooltip.png)
 

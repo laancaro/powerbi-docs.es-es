@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
 ms.author: maghan
-ms.openlocfilehash: a9663951035a697a9fb1f8732d2ce418950078f4
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0d165505981f841c7dfe9688c7a95cea3b6777c3
+ms.sourcegitcommit: 8990028a348b642ba5c96f001fe3a4280f0166ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600388"
+ms.lasthandoff: 08/14/2018
+ms.locfileid: "40256987"
 ---
 # <a name="use-developer-tools-to-create-custom-visuals"></a>Usar herramientas de desarrollo para crear objetos visuales personalizados
 Los objetos visuales personalizados le permiten satisfacer las necesidades de los usuarios y adaptarse al diseño de su aplicación. Descubra cómo crear un objeto visual personalizado para Power BI con las herramientas de desarrollo.
@@ -178,10 +178,10 @@ Ahora puede comenzar a desarrollar el objeto visual.
 Para crear un nuevo proyecto de objeto visual, ejecute el comando siguiente.
 
 ```
-pbiviz new My Visual name
+pbiviz new MyVisualName
 ```
 
-Puede reemplazar *My Visual Name* con el nombre que quiera darle al objeto visual. Se puede cambiar más adelante si modifica los campos `name` y `displayName` del archivo `pbiviz.json` generado.
+Puede reemplazar *MyVisualName* por el nombre que quiera darle al objeto visual. Se puede cambiar más adelante si modifica los campos `name` y `displayName` del archivo `pbiviz.json` generado.
 
 Este comando creará una nueva carpeta en el directorio en el que se ha ejecutado el comando. Generará una plantilla de inicio básica para el objeto visual. Una vez completado el comando, puede abrir el directorio y usar su editor favorito para empezar a trabajar en el nuevo objeto visual.
 
