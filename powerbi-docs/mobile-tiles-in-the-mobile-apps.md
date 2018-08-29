@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: eda7f44c869829564703bda6112177234d3f2d44
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 20bdd4731cd4aad3c6412d1959de3be088a3457a
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39280142"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151961"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -28,10 +28,6 @@ Los iconos son instantáneas dinámicas de sus datos que se anclan a un panel. S
 Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocado e interactúe con ellos. Los iconos se pueden abrir con todos los tipos de objetos visuales, incluidos los iconos basados en Bing y R.
 
 ## <a name="tiles-in-the-ios-apps"></a>Iconos de las aplicaciones de iOS
-> [!NOTE]
-> Puede [crear iconos de imagen con la aplicación de iPhone](mobile-iphone-app-get-started.md) y guardarlos en los paneles.
-> 
-> 
 
 1. Abra un [panel en la aplicación móvil de iOS](mobile-apps-view-dashboard.md).
 2. Puntee en un icono. Se abre en modo de enfoque, donde resulta más fácil ver y explorar los datos del icono. En el modo enfocado, puede:
@@ -40,7 +36,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-line-tile-values.png)
    
-   <em>Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a las **ventas de este año</em>* y a las **ventas del último año** en **agosto**.*  
+   *Por ejemplo, en este gráfico de líneas, los valores seleccionados hacen referencia a **ventas de este año** y **ventas del último año** en **agosto**.*  
    
    En un gráfico circular, pulse una porción de este para mostrar los valores de la porción en la parte superior del gráfico.  
    
@@ -107,7 +103,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    ![](media/mobile-tiles-in-the-mobile-apps/pbi_win10ph_bartile0316.png)
    
-   <em>En este gráfico de barras, los valores de la barra **Decor</em>* se muestran en la parte superior del gráfico.*
+   *En este gráfico de barras, los valores de la barra **Decor** se muestran en la parte superior del gráfico.*
    
    Pulse el icono **Pantalla completa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir el icono en el modo de pantalla completa, sin las barras de navegación y de menú.
    

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f0f29cb88c77f3d7775670c0869ee55938327763
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: cbc1d6304a7ee34b489d93488115ceb80864a42d
+ms.sourcegitcommit: ef4bf1439bc5655d1afc7fb97079ea0679e9124b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658021"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43151915"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 
@@ -279,7 +279,7 @@ Aquí se muestra una lista de los contadores de rendimiento disponibles.
 | Número de conexiones abiertas de Mashup erróneas por segundo |Número de acciones de conexión abierta de Mashup erróneas por segundo. |
 | Número de consultas de Mashup ejecutadas por segundo |Número de consultas de Mashup ejecutadas por segundo (correctas o erróneas). |
 | Número de consultas de Mashup erróneas por segundo |Número de consultas erróneas de Mashup ejecutadas por segundo |
-| Número de conjuntos de múltiples resultados de consultas de OLEDB erróneas por segundo |Número de conjuntos de múltiples resultados de consultas de OLEDB erróneas ejecutadas por segundo. |
+| Número de consultas de varios conjuntos de resultados de OLEDB erróneas por segundo |Número de conjuntos de múltiples resultados de consultas de OLEDB erróneas ejecutadas por segundo. |
 | Número de conjuntos de múltiples resultados de OLEDB de consultas ejecutadas por segundo |Número de conjuntos de múltiples resultados de OLEDB de consultas ejecutadas por segundo (correctas o erróneas). |
 | Número de conexiones abiertas de OLEDB ejecutadas por segundo |Número de acciones de conexión abierta de OLEDB ejecutadas por segundo (correctas o erróneas). |
 | Número de conexiones abiertas de OLEDB erróneas por segundo |Número de acciones de conexión abierta de OLEDB erróneas por segundo. |
