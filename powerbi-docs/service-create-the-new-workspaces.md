@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/17/2018
+ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 271859dbc13e909d255e4287ae14e66b2d85724f
-ms.sourcegitcommit: 23bb84cd3e80ba7f03d559e48db322774d1a6fe0
+ms.openlocfilehash: cde28e7c41a35c3bbc37d0da56313ad7f8698110
+ms.sourcegitcommit: 15b877343540bb7e21f1d5bbd3d6f64e66fa138c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2018
-ms.locfileid: "40256992"
+ms.lasthandoff: 08/24/2018
+ms.locfileid: "42914528"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Crear nuevas áreas de trabajo (versión preliminar) en Power BI
 
@@ -29,12 +29,13 @@ Ahora, con la versión preliminar de las nuevas áreas de trabajo puede:
 - Crear un área de trabajo en Power BI sin crear un grupo de Office 365.
 - Usar roles de las áreas de trabajo más granulares para flexibilizar la administración de permisos en un área de trabajo.
  
-Cuando crea una de las nuevas áreas de trabajo, no crea un grupo de Office 365 subyacente, asociado. Toda la administración del área de trabajo se realiza en Power BI, no en Office 365. Aún podrá agregar un grupo de Office 365 al área de trabajo para seguir administrando el acceso de usuarios al contenido a través de grupos de Office 365. Pero también puede usar grupos de seguridad, listas de distribución y agregar usuarios directamente en Power BI, lo que le ofrece una manera flexible de administrar el acceso al área de trabajo.
+Cuando crea una de las nuevas áreas de trabajo, no crea un grupo de Office 365 subyacente, asociado. Toda la administración del área de trabajo se realiza en Power BI, no en Office 365. Aún podrá agregar un grupo de Office 365 al área de trabajo para seguir administrando el acceso de usuarios al contenido a través de grupos de Office 365. Pero también puede usar grupos de seguridad, listas de distribución y agregar usuarios directamente en Power BI, lo que le ofrece una manera flexible de administrar el acceso al área de trabajo. Como la administración del área de trabajo está ahora en Power BI, los administradores de Power BI deciden qué usuarios de una organización pueden crear áreas de trabajo. Consulte la [sección Configuración del área de trabajo del artículo Portal de administración de Power BI](service-admin-portal.md#workspace-settings) para más información. 
 
 Agrega usuarios o grupos de usuarios a las nuevas áreas de trabajo como miembros, colaboradores o administradores. Todos los miembros de un grupo de usuarios obtienen el rol que haya definido. Si un usuario está en varios grupos de usuarios, obtiene el nivel de permiso mayor proporcionado por el rol.  Consulte [Roles en las nuevas áreas de trabajo](#roles-in-the-new-workspaces), más adelante en este artículo, para obtener una explicación de los distintos roles.
 
 Todos los usuarios que agregue a un área de trabajo de la aplicación necesita una licencia de Power BI Pro. En el área de trabajo, los usuarios pueden colaborar en paneles e informes que planee publicar para un público más amplio, o incluso para toda la organización. Si quiere distribuir contenido a otros usuarios dentro de la organización, puede asignar licencias de Power BI Pro a los usuarios o colocar el área de trabajo en una capacidad de Power BI Premium.
-Dado que esta es una característica de versión preliminar, hay algunas limitaciones que debe tener en cuenta. Consulte <section link> más adelante en este artículo para obtener una explicación de las limitaciones actuales. Con las nuevas áreas de trabajo, se están rediseñando algunas características. Vea < vínculo a la sección> más adelante en este artículo para obtener una explicación de los cambios que puede esperar que se mantengan junto con la versión preliminar.
+
+Con las nuevas áreas de trabajo, se están rediseñando algunas características. Vea [Características del área de trabajo de la aplicación que funcionan de manera diferente](#app-workspace-features-that-work-differently) más adelante en este artículo para obtener una explicación de los cambios que puede esperar que se mantengan junto con la versión preliminar. Dado que esta es una característica de versión preliminar, hay algunas limitaciones que debe tener en cuenta. Vea [Problemas conocidos](#known-issues) más adelante en este artículo para obtener una explicación de las limitaciones actuales. 
 
 ## <a name="roll-out-new-app-workspaces"></a>Implementar nuevas áreas de trabajo de la aplicación
 
