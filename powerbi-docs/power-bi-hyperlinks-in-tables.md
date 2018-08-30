@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d696a7492f1295f2e2c9b39088b0eacdb66b15ca
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: be532e428680d9286247f57d81cab2802aea1fe3
+ms.sourcegitcommit: 9a666382484882162690efaed106b82a4bcbf883
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310185"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42799054"
 ---
 # <a name="hyperlinks-in-tables"></a>Hipervínculos en tablas
 En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Después, una vez creados, utilice el servicio Desktop o Power BI para agregar los hipervínculos a las tablas y matrices de informe. 
@@ -39,8 +39,10 @@ El procedimiento para agregar un hipervínculo depende de si ha importado los da
     ![](media/power-bi-hyperlinks-in-tables/pbi_data_category.png)
 3. Seleccione **URL web**.
 4. Cambie a la vista de informe y cree una tabla o matriz mediante el campo que se categoriza como una dirección URL web. Los hipervínculos aparecerán subrayados y de color azul.
-   
     ![](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
+> **NOTA**: Las direcciones URL deben comenzar por **http://, https://** o **www**.
+> 
+>   
 5. Si no desea que aparezca una dirección URL larga en una tabla, puede mostrar un icono de hipervínculo ![](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) en su lugar. Tenga en cuenta que en las matrices no se muestran iconos.
    
    * Seleccione el gráfico para activarlo.
