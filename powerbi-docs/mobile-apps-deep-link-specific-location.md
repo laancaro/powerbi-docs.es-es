@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 3ea99d26418a583a6ca588879aeafcd114aeaa6e
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: e1df06c07f767936d861788c89205bce20cd5582
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616014"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695142"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede crear y usar un identificador uniforme de recursos (URI) para establecer un vínculo a una ubicación específica (es decir, un *vínculo profundo*) dentro de las aplicaciones móviles de Power BI en todas las plataformas móviles: iOS, dispositivos Android y Windows 10.
@@ -68,7 +68,7 @@ Este URI abre un informe específico en la aplicación móvil de Power BI:
 
 Para buscar el identificador de objeto del informe de 36 caracteres, vaya al informe específico en el servicio Power BI (https://powerbi.com). Por ejemplo, vea la sección resaltada de esta dirección URL:
 
-https://powerbi.com/groups/me/reports/**df9f0e94-31df-450b-b97f-4461a7e4d300**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
 
 ## <a name="open-to-a-specific-report-page"></a>Abrir en una página específica del informe
 Este URI abre una página específica del informe en la aplicación móvil de Power BI:
@@ -79,7 +79,7 @@ La página del informe se denomina "ReportSection" y va seguida de un número. T
 
 Por ejemplo, vea la sección resaltada de esta dirección URL:
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**ReportSection11**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
 
 ## <a name="open-in-full-screen-mode"></a>Abrir en modo de pantalla completa
 Agregue el parámetro en negrita para abrir un informe específico en modo de pantalla completa:
@@ -95,7 +95,7 @@ También puede agregar contexto en la cadena. Si más adelante necesita ponerse 
 
 Por ejemplo, vea la sección resaltada de esta dirección URL: 
 
-https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/**&context=SlackDeepLink**
+`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
 
 ## <a name="next-steps"></a>Pasos siguientes
 Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 
