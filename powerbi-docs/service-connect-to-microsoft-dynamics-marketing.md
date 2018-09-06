@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7cc2519353be7f83f69cdc6dda9d5f1a8ccc33a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
+ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137037"
+ms.lasthandoff: 09/05/2018
+ms.locfileid: "43695119"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Conexión a Microsoft Dynamics Marketing con Power BI
 El paquete de contenido de Microsoft Dynamics Marketing para Power BI permite tener acceso a los datos y analizarlos fácilmente desde Dynamics Marketing. El paquete de contenido usa un modelo descriptivo encima de la fuente de OData, con todas las entidades y las medidas necesarias, como, por ejemplo, programas, campañas, contactos de marketing y empresas, clientes potenciales, interacciones con estos, puntuación de clientes potenciales, sitios web y mensajes de correo electrónico de marketing, observaciones relativas al comportamiento, presupuestos, transacciones financieras, KPI de rendimiento, etc. 
@@ -35,7 +35,7 @@ Conéctese al [paquete de contenido de Dynamics Marketing](https://app.powerbi.c
 3. Seleccione **Microsoft Dynamics Marketing** \> **Obtener**.
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/mdmarketing.png)
-4. Proporcione la dirección URL de OData asociada a su cuenta.  Esto tendrá el formato "https:// [nombre\_instancia].marketing.dynamics.com/analytics."
+4. Proporcione la dirección URL de OData asociada a su cuenta.  Tendrá el formato "`https://[instance\_name].marketing.dynamics.com/analytics.`".
    
    ![](media/service-connect-to-microsoft-dynamics-marketing/pbi_dynmktgserviceurl.png)
 5. Cuando se le solicite, proporcione sus credenciales (este paso se podría omitir si ya inició sesión con el explorador). En el Método de autenticación, escriba **oAuth2** y haga clic en **Iniciar sesión**:
