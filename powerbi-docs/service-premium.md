@@ -2,25 +2,25 @@
 title: ¿Qué es Power BI Premium?
 description: Power BI Premium cuenta con capacidad dedicada para su organización o equipo, lo que le ofrece un rendimiento más confiable y mayores volúmenes de datos, sin tener que adquirir licencias por usuario.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2018
-ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 81a03c7728d92bcc78dba9a02cbe4c45f582fd3d
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: f7024b3e4827201edb4137eb513333030e39059f
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257026"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250759"
 ---
 # <a name="power-bi-premium---what-is-it"></a>¿Qué es Power BI Premium?
 Power BI Premium proporciona recursos dedicados para ejecutar el servicio Power BI en la organización o el equipo. Ofrece un rendimiento más confiable y permite mayores volúmenes de datos. Premium también permite la distribución generalizada del contenido sin necesidad de adquirir licencias para cada usuario.
 
-Puede aprovechar las ventajas de Power BI Premium mediante la asignación de áreas de trabajo a una capacidad Premium. La *capacidad Premium* es un recurso dedicado para su organización. Si se trata de áreas de trabajo que no están asignadas a una capacidad Premium, estas se encontrarán en una capacidad compartida.
+Puede aprovechar las ventajas de Power BI Premium mediante la asignación de áreas de trabajo a una capacidad Premium. La *capacidad Premium* es un recurso dedicado para su organización. Si se trata de áreas de trabajo que no están asignadas a una capacidad Premium, estas están en una capacidad compartida.
 
 Gracias a la *capacidad compartida*, las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes. En la capacidad compartida, se establecen más límites a cada usuario, a fin de garantizar la calidad de la experiencia de todos ellos.
 
@@ -29,6 +29,7 @@ Gracias a la *capacidad compartida*, las cargas de trabajo se ejecutan en recurs
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lNQDkN0GXzU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="capacity-tiers"></a>Niveles de capacidad
+
 Hay dos tipos de capacidad en Power BI. Capacidad compartida y capacidad Power BI Premium. Aquí figuran las diferencias que existen entre ellas.
 
 |  | Capacidad compartida | Capacidad Power BI Premium |
@@ -44,9 +45,10 @@ Hay dos tipos de capacidad en Power BI. Capacidad compartida y capacidad Power B
 *<sup>2</sup> Se introducirán futuras mejoras en Power BI Premium después de la disponibilidad general.*
 
 ### <a name="premium-capacity"></a>Capacidad Premium
+
 Para empezar a usar la capacidad Power BI Premium, necesita asignar un área de trabajo a una capacidad. Para obtener más información sobre cómo asignar un área de trabajo a una capacidad Premium, vea [Administración de Power BI Premium](service-admin-premium-manage.md).
 
-Cuando un área de trabajo está respaldada por la capacidad Premium, permite disfrutar de las ventajas de Power BI Premium.
+Cuando la capacidad Premium respalda un área de trabajo, puede disfrutar de las ventajas de Power BI Premium.
 
 * **Actualizaciones programadas**: con la capacidad compartida, las actualizaciones programadas de los modelos importados se limitan a ocho al día. El número de actualizaciones aumenta a 48 al día en los conjuntos de datos de las áreas de trabajo Premium. En cambio, esto no se aplica a la configuración de actualizaciones de caché programadas para DirectQuery. Siguen siendo las mismas para las capacidades Premium y compartida.
 * **Aislamiento con hardware dedicado**: dada la naturaleza de la capacidad compartida, las demandas de recursos de otras cargas de trabajo de la capacidad pueden afectar al rendimiento de los informes y los paneles, a pesar de adoptar las medidas necesarias para evitar que suceda. Por el contrario, Premium ofrece un rendimiento más coherente y confiable de las cargas de trabajo mediante el aislamiento de las cargas de trabajo relacionadas.
@@ -54,18 +56,20 @@ Cuando un área de trabajo está respaldada por la capacidad Premium, permite di
 Si una aplicación cuenta con el respaldo de la capacidad Premium (es decir, que se ha publicado desde un área de trabajo de la aplicación que actualmente está asignada a Premium), cualquier usuario de la organización puede usar dicha aplicación publicada, con independencia de la licencia que tenga asignada.
 
 ### <a name="shared-capacity"></a>Capacidad compartida
-De forma predeterminada, el área de trabajo está en la capacidad compartida. Incluye *Mi área de trabajo* junto con áreas de trabajo de la aplicación. Una capacidad compartida es la experiencia que suele ofrecer Power BI, donde las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes.
+
+De forma predeterminada, el área de trabajo está en una capacidad compartida. Incluye *Mi área de trabajo* junto con áreas de trabajo de la aplicación. La capacidad compartida es la experiencia que suele ofrecer Power BI, donde las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes.
 
 <a name="premiumskus"/>
 
 ### <a name="premium-capacity-nodes"></a>Nodos de la capacidad Premium
+
 Power BI Premium está disponible en las configuraciones de nodo con capacidades diferentes de núcleos V. Para más información sobre ofertas y costos de SKU específicos, vea los [precios de Power BI](https://powerbi.microsoft.com/pricing/). También se encuentra disponible una [calculadora de costos](https://powerbi.microsoft.com/calculator/). Para obtener información sobre el planeamiento de capacidad de análisis insertada, vea las [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy).
 
 * Los nodos P se pueden usar para las implementaciones de servicio o insertadas.
 * Los nodos EM solo se pueden usar para las implementaciones insertadas. Los nodos EM no tienen acceso a las funciones premium, como el uso compartido de aplicaciones con los usuarios que no tienen una licencia de Power BI Pro.
 
 >[!NOTE]
->Los vínculos de esta tabla solo funcionan correctamente para los usuarios que son administradores globales de Office 365. Los demás recibirán un error 404. 
+>Los vínculos de esta tabla solo funcionan correctamente para los usuarios que son administradores globales de Office 365. Los demás recibirán un error 404.
 
 | Nodo de capacidad | Total de núcleos virtuales<br/>*(Back-end y front-end)* | Núcleos virtuales de back-end | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta | Disponibilidad |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -92,4 +96,3 @@ Power BI Premium incluye el derecho a ejecutar el servidor de informes de Power 
 [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

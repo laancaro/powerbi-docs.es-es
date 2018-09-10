@@ -2,33 +2,33 @@
 title: Publicar en la web de Power BI
 description: Con la característica Publicar en la web de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2018
-ms.author: maghan
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e02b4dfe9798eed393a0097ef4f220746acfdf6
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
+ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092354"
+ms.lasthandoff: 08/31/2018
+ms.locfileid: "43380345"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
 Con la característica **Publicar en la web** de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo.
 
-También puede editar, actualizar o dejar de compartir los objetos visuales publicados.
+También puede editar, actualizar o dejar de compartir fácilmente los objetos visuales publicados.
 
 > [!WARNING]
 > Al usar la característica **Publicar en la web**, cualquier usuario podrá ver en Internet el informe o el objeto visual que publique. No se usa ningún tipo de autenticación al ver estos informes. Use la característica Publicar en Web solo con los informes y datos que cualquier persona en Internet (miembros no autenticados del público) pueda ver. Aquí se incluyen los datos de nivel de detalle que se agreguen en los informes. Antes de publicar este informe, asegúrese de que tiene el derecho a compartir los datos y visualizaciones públicamente. No publique información confidencial o de su propiedad. En caso de duda, compruebe las directivas de la organización antes de publicarlo.
 
 ## <a name="how-to-use-publish-to-web"></a>Cómo usar la característica Publicar en Web
 
-**Publicar en Web** está disponible en informes en áreas de trabajo personales o de grupo que puede editar.  No puede usar Publicar en Web con informes que han compartido con usted ni con informes que se basan en la seguridad de nivel de fila para proteger los datos. Consulte la sección **Limitaciones** a continuación para obtener una lista completa de los casos en los que no se admite Publicar en Web. Revise la **Advertencia** anterior de este artículo antes de usar la característica Publicar en Web.
+**Publicar en Web** está disponible en informes en áreas de trabajo personales o de grupo que puede editar.  No puede usar Publicar en Web con informes que han compartido con usted ni con informes que se basan en la seguridad de nivel de fila para proteger los datos. Consulte la sección **Limitaciones** a continuación para obtener una lista completa de los casos en los que no se admite Publicar en Web. Revise la **advertencia** anteriormente en este artículo antes de usar la característica Publicar en la web.
 
 Puede ver cómo funciona esta característica en el siguiente *vídeo corto*. A continuación, realice los pasos siguientes para probarlo.
 
@@ -77,7 +77,7 @@ El código para insertar que recibirá después de ejecutar Publicar en Web tend
 
 Puede editar el ancho y alto manualmente para asegurarse de que es precisamente cómo quiere que se ajuste a la página en la que lo está insertando.
 
-Para obtener un ajuste más perfecto, puede intentar agregar 56 píxeles a la dimensión de altura de iFrame. Esto adapta el tamaño actual de la barra inferior. Si la página de informes usa el tamaño dinámico, la siguiente tabla proporciona algunos tamaños que puede usar para obtener un ajuste sin formato letterbox.
+Para obtener un ajuste más perfecto, puede intentar agregar 56 píxeles a la dimensión de altura de iFrame. De esta forma, se adapta el tamaño actual de la barra inferior. Si la página de informes usa el tamaño dinámico, la siguiente tabla proporciona algunos tamaños que puede usar para obtener un ajuste sin formato letterbox.
 
 | Proporción | Tamaño | Dimensiones (ancho x alto) |
 | --- | --- | --- |
@@ -128,15 +128,16 @@ Los objetos visuales personalizados se admiten en **Publicar en Web**. Si usa Pu
 
 La característica **Publicar en Web** se admite para la gran mayoría de los orígenes de datos e informes del servicio Power BI, aunque los siguientes **no se admiten o no están disponibles actualmente** con esta característica:
 
-1. Informes que usan la seguridad de nivel de fila.
-2. Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional y Azure Analysis Services.
-3. Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
-4. Informes en un grupo en el que no es miembro de edición.
-5. Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.
-6. Exportación de datos desde los objetos visuales de un informe que se ha publicado en la Web
-7. Objetos visuales de ArcGIS Maps for Power BI
-8. Informes que contienen medidas DAX de nivel de informe
-9. [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
+- Informes que usan la seguridad de nivel de fila.
+- Informes que usan cualquier origen de datos de conexión dinámica, incluido Analysis Services Tabular hospedado en local, Analysis Service Multidimensional y Azure Analysis Services.
+- Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
+- Informes en un grupo en el que no es miembro de edición.
+- Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.
+- Exportación de datos desde los objetos visuales de un informe que se ha publicado en la Web
+- Objetos visuales de ArcGIS Maps for Power BI
+- Informes que contienen medidas DAX de nivel de informe
+- Modelos de consulta de datos de inicio de sesión único
+- [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 

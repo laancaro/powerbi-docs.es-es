@@ -2,20 +2,20 @@
 title: Iconos de paneles en el servicio Power BI
 description: Todo acerca de los iconos de paneles en Power BI. Se incluyen los iconos que se crean desde SQL Server Reporting Services (SSRS).
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e53945e0a112d9498dc6798e2441dd3d925a64c1
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249077"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241600"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile-iphone-app-get-started.md).
@@ -67,9 +67,9 @@ Capte un icono y [muévalo por el panel](service-dashboard-edit-tile.md). Manten
    
    * [Abrir la hoja de cálculo que se ha usado para crear este icono ](service-reports.md) ![icono de hoja de cálculo](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
      
-     * [Ver en modo de enfoque](service-focus-mode.md) ![icono de enfoque](media/service-dashboard-tiles/fullscreen-icon.jpg)  
+    * [Ver en modo de enfoque](service-focus-mode.md) ![icono de enfoque](media/service-dashboard-tiles/fullscreen-icon.jpg)  
      * [Exportar los datos usados en el icono](power-bi-visualization-export-data.md) ![icono de exportación de datos](media/service-dashboard-tiles/export-icon.png)
-     * [Editar el título y el subtítulo, agregar un hipervínculo y mostrar la hora de la última actualización](service-dashboard-edit-tile.md) ![icono de edición](media/service-dashboard-tiles/pencil-icon.jpg)
+     * [Edición del título y el subtítulo, incorporación de un hipervínculo](service-dashboard-edit-tile.md) ![Icono de edición](media/service-dashboard-tiles/pencil-icon.jpg)
      * [Ejecutar información ](service-insights.md) ![icono de información](media/service-dashboard-tiles/power-bi-insights.png)
      * [Anclar el icono a otro panel](service-pin-tile-to-another-dashboard.md)
        ![icono de anclaje](media/service-dashboard-tiles/pin-icon.jpg)

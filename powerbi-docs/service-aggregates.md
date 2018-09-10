@@ -2,20 +2,20 @@
 title: Agregados (suma, promedio, máximo, etc.) en las visualizaciones
 description: Cambio de la agregación de un gráfico (suma, media, máximo, etc.) en Power BI
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/04/2018
+ms.date: 08/29/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 39adfd04118362fa706f0840daa5c2520d899b5e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: d48f99c8415b7b347a504525b0c6539d1e90f4dd
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247605"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241554"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregados en las visualizaciones de Power BI
 ## <a name="what-is-an-aggregate"></a>¿Qué es un agregado?
@@ -26,7 +26,7 @@ Cuando el servicio Power BI y Power BI Desktop crean las visualizaciones, pueden
 En primer lugar, echemos un vistazo a los *tipos* de datos, ya que el tipo de datos determina si puede agregarse y cómo.
 
 ## <a name="types-of-data"></a>Tipos de datos
-La mayoría de los conjuntos de datos tienen más de un tipo de datos. En el nivel más básico, los datos son valores numéricos o no lo son. Los datos numéricos se pueden agregar con una suma, media, recuento, mínimo, varianza y muchos más. Se pueden agregar incluso los datos de texto, a menudo llamados datos de *categorías*. Si intenta agregar campos de categorías (cuando los coloca en un depósito solo numérico como **Valores** o **Información sobre herramientas**), Power BI puede contar las apariciones de cada categoría o contar las apariciones distintas de cada categoría. Y los tipos especiales de datos, como las fechas, tienen algunas opciones de agregados propias: más antiguo, más reciente, primero y último. 
+La mayoría de los conjuntos de datos tienen más de un tipo de datos. En el nivel más básico, los datos son valores numéricos o no lo son. Los datos numéricos se pueden agregar con una suma, media, recuento, mínimo, varianza y muchos más. Se pueden agregar incluso los datos de texto, a menudo llamados datos de *categorías*. Si intenta agregar campos de categorías (cuando los coloca en un depósito solo numérico como **Valores** o **Información sobre herramientas**), Power BI contará las apariciones de cada categoría o contará las apariciones distintas de cada categoría. Y los tipos especiales de datos, como las fechas, tienen algunas opciones de agregados propias: más antiguo, más reciente, primero y último. 
 
 En el ejemplo siguiente:
 - **Units Sold** y **Manufacturing Price** son columnas que contienen datos numéricos
@@ -43,9 +43,9 @@ Al crear una visualización en Power BI, los campos numéricos se agregarán (el
 ## <a name="why-dont-aggregates-work-the-way-i-want-them-to"></a>¿Por qué los agregados no funcionan como quiero?
 Trabajar con agregados en el servicio Power BI puede resultar confuso; quizá tenga un campo numérico y Power BI no le permita cambiar la agregación. O quizá tenga un campo, como un año, y no desea agregarlo sino que desea contar el número de repeticiones.
 
-Con mucha frecuencia, el origen del problema es la manera en la que está definido el campo en el conjunto de datos. Puede que el campo esté definido como texto, lo que explica por qué no se puede sumar ni calcular su media. Por desgracia, [solo el propietario del conjunto de datos puede cambiar la manera en que se clasifica un campo](desktop-measures.md). Por lo tanto, si tiene permisos de propietario para el conjunto de datos en Power BI Desktop o en el programa que se usó para crear el conjunto de datos (por ejemplo, Excel), puede solucionar el problema. En caso contrario, debe ponerse en contacto con el propietario del conjunto de datos para obtener ayuda.  
+Con mucha frecuencia, el origen del problema es la manera en la que está definido el campo en el conjunto de datos. Puede que el campo esté definido como texto, lo que explica por qué no se puede sumar ni calcular su media. Por desgracia, [solo el propietario del conjunto de datos puede cambiar la manera en que se clasifica un campo](desktop-measures.md). Por lo tanto, si tiene permisos de propietario para el conjunto de datos, bien en Desktop o en el programa que se usó para crear el conjunto de datos (por ejemplo, Excel), puede solucionar este problema. En caso contrario, debe ponerse en contacto con el propietario del conjunto de datos para obtener ayuda.  
 
-A fin de evitar en lo posible las confusiones, tenemos una sección especial al final de este artículo titulada **Consideraciones y solución de problemas**.  Si no encuentra la respuesta en esa sección, publique una pregunta en el [foro de la Comunidad de Power BI](http://community.powerbi.com) para que el equipo de Power BI le responda rápidamente.
+A fin de evitar en lo posible confusiones, tenemos una sección especial al final de este artículo titulada **Consideraciones y solución de problemas**.  Si no encuentra la respuesta en esa sección, publique una pregunta en el [foro de la Comunidad de Power BI](http://community.powerbi.com) para que el equipo de Power BI le responda rápidamente.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Cambiar el modo en que un campo numérico se agrega
 Supongamos que tiene un gráfico que suma las unidades vendidas de los distintos productos, pero prefiere disponer de la media. 
@@ -78,7 +78,7 @@ Algunas de las opciones que pueden estar disponibles para agregar un campo:
 * **Recuento (Distinct).** Cuenta el número de valores diferentes en ese campo.
 * **Desviación estándar.**
 * **Varianza**.
-* **Mediana**.  Muestra el valor de la mediana (intermedio). Este es el valor que tiene el mismo número de elementos por encima que por debajo.  Si hay 2 medianas, Power BI calcula su promedio.
+* **Mediana**.  Muestra el valor de la mediana (intermedio). Este es el valor que tiene el mismo número de elementos por encima que por debajo.  Si hay dos medianas, Power BI calcula su promedio.
 
 Por ejemplo, estos datos:
 
@@ -139,6 +139,10 @@ R4: Y una tercera posibilidad es que esté usando el campo para un eje. Por ejem
 
 >[!NOTE]
 >La excepción a esta regla son los gráficos de dispersión, que *requieren* valores agregados para los ejes X e Y.
+
+P: ¿Por qué no puedo agregar campos de texto para los orígenes de datos SSAS?
+
+R: Las conexiones dinámicas a SSAS MD no permiten ninguna agregación en el lado cliente. Esto incluye primero, último, promedio, mínimo, máximo y suma.
 
 P: Tengo un gráfico de dispersión y quiero que mi campo *no* se agregue.  ¿Cómo lo hago?
 

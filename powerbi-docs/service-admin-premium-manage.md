@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/10/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 24d585af19dd774cdf6fe7dafb66c12e02d311f9
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 5da624f92093111c1996d9b1c5080cd58a906a45
+ms.sourcegitcommit: 2bdcb9e9959302a35ee90a145e4ff832a02aacb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38924802"
+ms.lasthandoff: 08/30/2018
+ms.locfileid: "43250782"
 ---
 # <a name="manage-capacities-within-power-bi-premium-and-power-bi-embedded"></a>Administración de la capacidad en Power BI Premium y Power BI Embedded
 Aprenda a administrar las capacidades de Power BI Premium y Power BI Embedded que ofrecen recursos dedicados para su contenido.
@@ -163,33 +163,8 @@ Una vez guardada, el área de trabajo y todo lo que contiene, se moverá a la ca
 
 
 ## <a name="monitor-capacity-usage"></a>Supervisar el uso de la capacidad
-En cada capacidad se pueden usar las mediciones de uso de CPU, uso de memoria hiperpaginación de memoria y DirectQuery. Le sugerimos llevar un seguimiento de estas métricas para asegurarse de que los usuarios perciben un buen rendimiento de la capacidad:
 
-![Uso de los últimos siete días](media/service-admin-premium-manage/premium-dashboard-tiles.png)
-
-> [!NOTE]
-> El uso de la capacidad de Power BI Embedded se supervisa en Azure Portal.
-
-| Métrica | Descripción |
-| --- | --- |
-| CPU |Número de veces que la CPU ha superado el 80 % del uso. |
-| Hiperpaginación de memoria |Representa la presión de memoria en los núcleos de back-end. Concretamente, se trata de una métrica que indica cuántas veces se han desalojado los modelos de la memoria debido a la presión que resulta del uso de varios conjuntos de datos. |
-| Uso de memoria |Uso medio de memoria representado en gigabytes (GB). |
-| DQ/s | Número de veces que el recuento de consultas de DirectQuery y conexiones dinámicas supera el 80 % del límite. <br> <br> * Se limita el número total de consultas de DirectQuery y consultas de conexión dinámica por segundo.<br><br>* Los límites son 30/s para P1, 60/s para P2 y 120/s para P3.<br><br> * Las consultas de DirectQuery y las de conexión dinámica son acumulativas en las limitaciones anteriores. Por ejemplo, si tiene 15 consultas de DirectQuery y 15 de conexiones dinámicas en un segundo, habrá alcanzado el límite.<br/><br>* Esto se aplica igualmente a las conexiones en la nube y a las locales. |
-
-Las métricas reflejan el uso durante la semana pasada.  Si quisiera obtener una vista más detallada de las métricas, no hay problema: solo tiene que hacer clic en cualquiera de los iconos de resumen.  Esto le llevará a gráficos detallados relativos a cada métrica de la capacidad Premium.  Estos gráficos se resumen hora a hora durante la última semana, y sirven para aislar eventos concretos relacionados con el rendimiento que han tenido lugar en la capacidad Premium.  
-
-![Gráfico de uso detallado: CPU](media/service-admin-premium-manage/premium-usage-detailed-chart-cpu.png)
-
-![Gráfico de uso detallado: Hiperpaginación de memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-thrashing.png)
-
-
-![Gráfico de uso detallado: Tamaño de memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-memory-size.png)
-
-
-![Gráfico de uso detallado: Hiperpaginación de memoria](media/service-admin-premium-manage/premium-usage-detailed-chart-dq.png)
-
-Los datos subyacentes de cualquiera de las métricas se pueden exportar también a un archivo csv.  Esta exportación le proporcionará información detallada en intervalos de tres minutos de cada día de la semana pasada.
+Power BI proporciona una aplicación para supervisar el uso de capacidades. Para más información, consulte [Supervisión de las capacidades de Power BI Premium en su organización](service-admin-premium-monitor-capacity.md).
 
 ## <a name="what-premium-looks-like-for-users"></a>Aspecto de Premium para los usuarios
 En la mayoría de los casos, los usuarios no necesitan saber siquiera que están en una capacidad Premium. Sus paneles e informes, simplemente funcionan. Como ayuda visual, podrá ver un icono de diamante junto a las áreas de trabajo que están en una capacidad Premium.

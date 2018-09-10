@@ -2,20 +2,20 @@
 title: Usar temas de panel en el servicio Power BI
 description: Aprenda a usar una paleta de colores personalizada y aplíquela a un panel completo en el servicio Power BI
 author: mihart
-manager: kfile
+manager: annbe
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 08/22/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: d17694d6dd2e2133b80d326a8aa86194d5710946
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 25bd28db7b31921d5f1a02ae72cee47207134f2a
+ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944661"
+ms.lasthandoff: 08/29/2018
+ms.locfileid: "43241485"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usar temas de panel en el servicio Power BI
 Con los **temas de panel** se puede aplicar un tema de color a todo un panel, como por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que quiera aplicar. Al aplicar un **tema de panel**, todos los objetos visuales del panel usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -46,7 +46,7 @@ El tema predeterminado para los paneles de Power BI es **Claro**. Si quiere pers
 
 ![Seleccione Personalizar en la lista desplegable](media/service-dashboard-themes/power-bi-theme-custom.png)
 
-Use las opciones personalizadas para crear su propio tema de panel. Si agrega una imagen de fondo, se recomienda que la imagen tenga una resolución mínima de 1920 x 1080.  
+Use las opciones personalizadas para crear su propio tema de panel. Si agrega una imagen de fondo, se recomienda que la imagen tenga una resolución mínima de 1920 x 1080. Para usar una imagen como fondo, cargue la imagen en un sitio web público, copie la dirección URL y péguela en el campo **Dirección URL de imagen**. 
 
 ### <a name="using-json-themes"></a>Uso de temas JSON
 Otra manera de crear un tema personalizado consiste en cargar un archivo JSON que tenga la configuración para todos los colores que le gustaría usar para el panel. En Power BI Desktop, los creadores de informes usan archivos JSON para [crear temas para informes](desktop-report-themes.md). Se pueden cargar estos mismos archivos JSON para paneles o puede buscar y cargar archivos JSON en la [página de la Galería de temas](https://community.powerbi.com/t5/Themes-Gallery/bd-p/ThemesGallery) de la Comunidad de Power BI. 
