@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: kfile
 LocalizationGroup: Reports
-ms.openlocfilehash: 2e8888679f36b64a6fc5956a9ca10dc3d07dce1a
-ms.sourcegitcommit: 8b2ae15eb0e39cce29f3bf466ab7768f3f7c7815
+ms.openlocfilehash: 08ead2570602538218085327c6d385c36e0d7e8c
+ms.sourcegitcommit: 8bad5ed58e9e406aca53996415b1240c2972805e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "40257147"
+ms.lasthandoff: 09/11/2018
+ms.locfileid: "44343332"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI 
 Este artículo proporciona una guía para la creación de informes rápidos y confiables en Power BI.  
@@ -29,7 +29,7 @@ Un error común es tener la vista predeterminada de la tabla sin filtrar; por ej
 Se recomienda un enfoque similar al descrito para todos los objetos visuales de los informes. Hágase la siguiente pregunta: ¿son necesarios todos los datos en este objeto visual? ¿Hay maneras de filtrar la cantidad de datos que se muestran en el objeto visual con un impacto mínimo en la experiencia del usuario final? Tenga en cuenta que las tablas en concreto pueden resultar muy caras. 
  
 ## <a name="limit-visuals-on-report-pages"></a>Limitación de los objetos visuales de las páginas del informe 
-El principio anterior se aplica por igual al número de objetos visuales de un informe determinado. Se recomienda que limite el número de objetos visuales de un informe concreto solo a aquellos que sean necesarios. Las páginas de obtención de detalles son una excelente manera de proporcionar detalles adicionales sin crear una aglomeración de objetos visuales en el informe.  
+El principio anterior se aplica por igual al número de objetos visuales de un informe determinado. Se recomienda limitar el número de objetos visuales de un informe concreto solo a aquellos que sean necesarios. Las páginas de obtención de detalles son una excelente manera de proporcionar detalles adicionales sin crear una aglomeración de objetos visuales en el informe.  
  
 ## <a name="optimize-your-model"></a>Optimizar el modelo 
 Algunos procedimientos recomendados: 
@@ -59,7 +59,7 @@ La siguiente sección describe los procedimientos recomendados generales para co
 - Inserte las columnas calculadas y medidas en el origen siempre que sea posible; cuanto más próximas al origen, mayor será la probabilidad de lograr un buen rendimiento. 
 - Optimice Comprenda los planes de ejecución para las consultas, agregue índices para las columnas filtradas habitualmente, etc. 
 
-### <a name="modelling-guidance"></a>Instrucciones de modelado 
+### <a name="modeling-guidance"></a>Guía de modelado 
 - Comience en Power BI Desktop. 
 - Evite consultas complejas en el Editor de consultas. 
 - No use el filtrado de fechas relativo en el Editor de consultas.  
@@ -81,7 +81,7 @@ La memoria caché de consultas sirve los objetos visuales anclados en los panele
 > Al anclar iconos de informe dinámico en un panel, no se sirven desde la memoria caché de consultas; en su lugar, se comportan como los informes y realizan las consultas a los núcleos de back-end sobre la marcha. 
  
 
-Como sugiere su nombre, recuperar los datos de la memoria caché de consultas proporciona un rendimiento mejor y más coherente que confiar en el origen de datos. Una manera de aprovechar las ventajas de esta funcionalidad es hacer que los paneles sean la primera página de inicio de los usuarios. Ancle los objetos visuales más utilizados y muy solicitados en los paneles. De esta manera, los paneles se convierten en una valiosa "primera línea de defensa" que proporciona un rendimiento coherente con menos carga en la capacidad. Los usuarios también pueden hacer clic en el informe para profundizar en los detalles.  
+Como sugiere su nombre, recuperar los datos de la memoria caché de consultas proporciona un rendimiento mejor y más coherente que confiar en el origen de datos. Una manera de aprovechar las ventajas de esta funcionalidad es hacer que los paneles sean la primera página de inicio de los usuarios. Ancle los objetos visuales más utilizados y muy solicitados en los paneles. De esta manera, los paneles se convierten en una valiosa "primera línea de defensa", que proporciona un rendimiento coherente con menos carga en la capacidad. Los usuarios también pueden hacer clic en el informe para profundizar en los detalles.  
  
 
 Tenga en cuenta que, para DirectQuery y Conexión dinámica, esta memoria caché de consulta se actualiza de forma periódica mediante una consulta al origen de datos. De forma predeterminada, esto sucede cada hora, aunque se puede configurar en las opciones del conjunto de datos. Cada actualización de la memoria caché de consultas enviará consultas al origen de datos subyacente para actualizar la memoria caché. El número de consultas que se generan depende del número de objetos visuales anclados en los paneles que dependen de ese origen de datos. Tenga en cuenta que, si está habilitada la seguridad de nivel de fila, se generan consultas para cada contexto de seguridad. Por ejemplo, si tiene dos roles diferentes en los que se dividen los usuarios con dos vistas diferentes de los datos, durante la actualización de la memoria caché de consultas se generan dos conjuntos de consultas. 
@@ -110,7 +110,7 @@ Siga estas instrucciones:
 
    El resultado debe ser una lista de aplicaciones y sus puertos abiertos, por ejemplo:  
 
-   TCP    [::1]:55786            [::1]:55830            ESTABLISHED 
+   `TCP    [::1]:55786            [::1]:55830            ESTABLISHED`
 
    [msmdsrv.exe] 
 
