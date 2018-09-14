@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 08/27/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 750dbf2593981e8fc9ad5f2f66219d6bf6fd641c
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: d7f966834e2d6b44f3a887991bd0ebd6e38836f0
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137477"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044357"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
@@ -31,27 +31,37 @@ También puede consultar los canales de YouTube para obtener información acerca
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
-## <a name="may-2018"></a>May. 2018
-* [Paneles de tema](https://docs.microsoft.com/en-us/power-bi/service-dashboard-themes) en el servicio Power BI.
-* [Actualización incremental](https://docs.microsoft.com/en-us/power-bi/service-premium-incremental-refresh) con Premium.
-* Flujo de trabajo de solicitud de acceso para [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
-* Actualizaciones de Obtener datos para que los usuarios encuentren [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) con mayor facilidad.
-* Opciones para activar y desactivar los [filtros persistentes](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
-* Mejoras en el flujo de trabajo de invitación de B2B de Azure en los informes.
+## <a name="august-2018"></a>Agosto de 2018
+* Mejoras del [filtro Dirección URL del informe](service-url-filters.md) de Power BI.
 
 ## <a name="previous-months-2018"></a>Meses anteriores (2018)
+### <a name="july-2018"></a>Julio de 2018
+* [APIs y cmdlets de PowerShell](https://powerbi.microsoft.com/blog/announcing-apis-and-powershell-cmdlets-for-power-bi-administrators/) para administradores de Power BI.
+
+### <a name="june-2018"></a>Junio de 2018
+* Uso compartido de informes con filtros y segmentaciones.
+* Interfaz de usuario nueva y mejorada para [las conexiones de puerta de enlace](https://powerbi.microsoft.com/blog/easier-set-up-of-datasets-in-power-bi/) y la configuración de conjuntos de datos.
+
+### <a name="may-2018"></a>May. 2018
+* [Paneles de tema](https://docs.microsoft.com/power-bi/service-dashboard-themes) en el servicio Power BI.
+* [Actualización incremental](https://docs.microsoft.com/power-bi/service-premium-incremental-refresh) con Premium.
+* Flujo de trabajo de solicitud de acceso para [aplicaciones de Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+* Actualizaciones de Obtener datos para que los usuarios encuentren [aplicaciones de Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) con mayor facilidad.
+* Opciones para activar y desactivar los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
+* Mejoras en el flujo de trabajo de invitación de B2B de Azure en los informes.
+
 ### <a name="april-2018"></a>Abril de 2018
-* [Notas del producto de RGPD de Power BI](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+* [Notas del producto de Power BI sobre protección de datos](http://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5bd4c466-277b-4726-b9e0-f816ac12872d&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 * Los [registros de auditoría](https://docs.microsoft.com/power-bi/service-admin-auditing) del servicio Power BI están activados de forma predeterminada para el inquilino de Office 365.
 
 ### <a name="march-2018"></a>Marzo de 2018
-* [Filtros persistentes](https://powerbi.microsoft.com/en-us/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
-* Compartir contenido con usuarios mediante sus cuentas de correo electrónico personales. Extensión de [B2B de Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
+* [Filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/) en el servicio Power BI.
+* Compartir contenido con usuarios mediante sus cuentas de correo electrónico personales. Extensión de [B2B de Azure Active Directory](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/).
 
 ### <a name="february-2018"></a>Febrero de 2018
-* Instalar [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps) para usuarios finales de forma automática.
+* Instalar [aplicaciones de Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps) para usuarios finales de forma automática.
 * Funcionalidades P4 y P5 en Power BI Premium
-* Versión preliminar de [objetos visuales personalizados de organización](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-organization).
+* Versión preliminar de [objetos visuales personalizados de organización](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-organization).
 
 ### <a name="january-2018"></a>Enero de 2018
 *   Compartir y marcar como favoritos los informes de Power BI.
@@ -63,12 +73,12 @@ También puede consultar los canales de YouTube para obtener información acerca
 
 ## <a name="previous-months-2017"></a>Meses anteriores (2017)
 ## <a name="october-and-november-2017"></a>Octubre y noviembre de 2017
-*   Publicación selectiva de contenido con [aplicaciones de Power BI](https://docs.microsoft.com/en-us/power-bi/service-create-distribute-apps).
-*   Distribución de usuario externo con [B2B de Azure Active Directory](https://powerbi.microsoft.com/en-us/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
+*   Publicación selectiva de contenido con [aplicaciones de Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+*   Distribución de usuario externo con [B2B de Azure Active Directory](https://powerbi.microsoft.com/blog/power-bi-expands-access-to-intelligence-for-external-guest-users/preview/).
 * Recomendaciones para la aplicación con tecnología de AI.
 * Actualizaciones de la IU de en el icono del panel.
 * Compatibilidad con las suscripciones de correo electrónico para las aplicaciones. 
-* Control de administración detallado para [publicar en la Web](https://docs.microsoft.com/en-us/power-bi/service-admin-portal#export-and-sharing-settings).
+* Control de administración detallado para [publicar en la Web](https://docs.microsoft.com/power-bi/service-admin-portal#export-and-sharing-settings).
 
 ## <a name="september-2017"></a>Septiembre de 2017
 * En la capacidad Premium, compartir paneles con usuarios que no tienen una licencia de Power BI Pro.

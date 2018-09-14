@@ -2,20 +2,20 @@
 title: Introducción a Preguntas y respuestas en el servicio Power BI y Power BI Desktop
 description: Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 08/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: a1d39d10982f1d598ffce7e978c1b030e0a442d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 1680a1aacf84eb5440703385dc831c32433456bb
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34295477"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167960"
 ---
 # <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Preguntas y respuestas en el servicio Power BI y Power BI Desktop
 ## <a name="what-is-qa"></a>¿Qué son las preguntas y respuestas?
@@ -48,11 +48,9 @@ Además de usar Preguntas y respuestas para explorar los datos, los creadores y 
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>¿Cómo se responden preguntas en Preguntas y respuestas?
 ### <a name="which-datasets-does-qa-use"></a>¿Qué conjuntos de datos usa Preguntas y respuestas?
-¿Cómo se responden preguntas específicas de datos en Preguntas y respuestas? Las respuestas se basan en los nombres de tablas, columnas y campos calculados en el conjunto de datos subyacente. Por esto es tan importante como se llaman las cosas.
+¿Cómo se responden preguntas específicas de datos en Preguntas y respuestas? Las respuestas se basan en los nombres de tablas, columnas y campos calculados en el conjunto de datos subyacente. Por esto es tan importante cómo llama a las cosas el propietario del conjunto de datos. Si tiene dificultades para obtener respuestas a sus preguntas y respuestas, hable con el propietario del conjunto de datos para comprobar si puede hacer que sea más fácil de usar.
 
-Por ejemplo, supongamos que tiene una tabla de Excel denominada "Ventas", con columnas tituladas "Producto", "Mes", "Unidades vendidas", "Ventas brutas" y "Beneficios". Puede hacer preguntas sobre cualquiera de esas entidades.  Podría preguntar lo siguiente: "mostrar *ventas*", "total de *beneficios* por *mes*", "ordenar *productos* por *unidades vendidas*" y muchas otras combinaciones.
-
-Preguntas y respuestas puede responder a preguntas relacionadas con cómo se organiza el conjunto de datos. ¿Cómo funciona todo lo anterior para los datos de Salesforce? Cuando se conecta a su cuenta de salesforce.com, Power BI genera automáticamente un panel.  Antes de empezar a formular preguntas con Preguntas y respuestas, eche un vistazo a los datos mostrados en las visualizaciones de panel y también a los datos mostrados en la lista desplegable de Preguntas y respuestas.
+Preguntas y respuestas puede responder a preguntas basadas en cómo se organiza el conjunto de datos. ¿Cómo funciona todo lo anterior para los datos de Salesforce? Cuando se conecta a su cuenta de salesforce.com, Power BI genera automáticamente un panel.  Antes de empezar a formular preguntas con Preguntas y respuestas, eche un vistazo a los datos mostrados en las visualizaciones de panel y también a los datos mostrados en la lista desplegable de Preguntas y respuestas.
 
 * Si las etiquetas y valores del eje de visualizaciones incluyen "ventas", "cuenta", "mes" y "oportunidades", puede entonces hacer preguntas como: "Qué *cuenta* tiene la más alta *oportunidad* o mostrar *ventas* por mes como un gráfico de barras".
 * Si la lista desplegable incluye "vendedor", "provincia" y "año", puede con realizar con seguridad preguntas como: "qué *vendedor* tuvo las *ventas* más bajas en *Florida* en *2013*".
@@ -81,7 +79,5 @@ Para obtener información sobre las palabras clave que reconoce Preguntas y resp
 [Habilitación de Preguntas y respuestas para los conjuntos de datos locales](service-q-and-a-direct-query.md) Si necesita una puerta de enlace para conectar con el conjunto de datos, use la configuración de Power BI para activar y desactivar Preguntas y respuestas.
 
 [Tutorial: Uso de Preguntas y respuestas con el Ejemplo de ventas minoristas en el servicio Power BI](power-bi-visualization-introduction-to-q-and-a.md): uso de Preguntas y repuestas en un tutorial realista del sector.
-
-[Haga que los datos funcionen bien con Preguntas y respuestas](service-prepare-data-for-q-and-a.md): ¿Es usted la persona que creó los conjuntos de datos y los modelos de datos?  En caso afirmativo, este tema es para usted.
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

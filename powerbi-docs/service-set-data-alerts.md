@@ -2,21 +2,21 @@
 title: Establecer alertas de datos en el servicio Power BI
 description: Aprenda a establecer alertas que le envíen una notificación cada vez que los datos de sus paneles cambien más allá de los límites establecidos en el servicio Microsoft Power BI.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ffbad48df6665d5dff6c4eca97e86e6f2850565f
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137647"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44167937"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de datos en el servicio Power BI
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
@@ -42,18 +42,18 @@ Este ejemplo utiliza un icono de tarjeta del panel de ejemplo de análisis de mi
 1. Empiece en un panel. En un icono de tarjeta, KPI o medidor del panel, seleccione el botón de puntos suspensivos.
    
    ![Icono Total Stores](media/service-set-data-alerts/powerbi-card.png)
-2. Seleccione el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) para agregar una o varias alertas para **Total stores**.
+2. Haga clic en el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png), o bien en **Administrar alertas**, para agregar una o varias alertas para **Total de tiendas**.
    
-1. Para empezar, seleccione **Agregar regla de alertas**, asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
+1. En el panel **Administrar alertas**, haga clic en **+ Agregar regla de alertas**.  Asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
    
    ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Desplácese hacia abajo y escriba los detalles de la alerta.  En este ejemplo, vamos a crear una alerta que nos enviará una notificación una vez al día si el número de almacenes totales supera los 100. Las alertas aparecen en nuestro Centro de notificaciones. Y haremos que Power BI nos envíe también un correo electrónico.
    
    ![Ventana Administrar alertas, establecimiento de umbral](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Seleccione **Guardar**.
+5. Haga clic en **Guardar y cerrar**.
 
 ## <a name="receiving-alerts"></a>Recibir alertas
-Si los datos de seguimiento llegan a uno de los umbrales que ha establecido, se realizarán varias acciones. En primer lugar, Power BI comprueba si han pasado más de una hora o de 24 horas (según la opción seleccionada) desde que se ha enviado la última alerta. Siempre que los datos superen el umbral, recibirá una alerta.
+Si los datos de seguimiento llegan a uno de los umbrales que ha establecido, se realizarán varias acciones. En primer lugar, Power BI comprueba si han pasado más de una hora, o de 24 horas (según la opción seleccionada), desde que se ha enviado la última alerta. Siempre que los datos superen el umbral, recibirá una alerta.
 
 Después, Power BI envía una alerta a su centro de notificaciones y, opcionalmente, un correo electrónico. Cada alerta contiene un vínculo directo a los datos. Seleccione el vínculo para ver el icono correspondiente que le permitirá explorar, compartir y obtener más información.  
 
@@ -104,6 +104,4 @@ Hay varias maneras de administrar las alertas: desde el icono del panel, desde e
 ## <a name="next-steps"></a>Pasos siguientes
 [Crear un flujo de Microsoft Flow que incluya una alerta de datos](service-flow-integration.md)    
 [Establecer alertas de datos en dispositivos móviles](mobile-set-data-alerts-in-the-mobile-apps.md)    
-[¿Qué es Power BI?](power-bi-overview.md)    
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

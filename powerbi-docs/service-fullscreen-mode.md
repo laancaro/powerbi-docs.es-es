@@ -1,22 +1,22 @@
 ---
 title: Muestra de paneles, iconos, páginas de informes y visualizaciones de informes en modo de pantalla completa
-description: Muestre paneles, iconos de paneles, objetos visuales de informes y páginas de informes en modo de pantalla completa, también conocido como *modo de televisión*.
+description: Muestre paneles, iconos de paneles, objetos visuales de informes y páginas de informe en modo de pantalla completa, también conocido como *modo de televisión*.
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7b84b473f64b4ee2d37a3a39de9976f2cf147059
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244120"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044334"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modo de pantalla completa en el servicio Power BI
 ## <a name="what-is-full-screen-mode"></a>¿Qué es el modo de pantalla completa?
@@ -24,7 +24,7 @@ ms.locfileid: "34244120"
 
 Visualice el contenido de Power BI (paneles, paginas de informes, iconos y visualizaciones) sin la distracción de los menús y las barras de navegación.  En todo momento se disfruta de una vista completa sin adulterar del contenido con un solo vistazo. Esto a veces se conoce como modo de televisión. La funcionalidad disponible en modo de pantalla completa varía según el contenido. 
 
-Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones](desktop-report-view.md) y el [modo de enfoque para los elementos visuales del informe](service-focus-mode.md).
+Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones y la vista de informe](desktop-report-view.md), y el [modo de enfoque para los elementos visuales del informe](service-focus-mode.md).
 
  
 
@@ -44,7 +44,7 @@ Vea cómo Amanda abre su panel y navega por él en modo de pantalla completa y, 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/c31gZkyvC54" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="dashboards-and-report-pages-in-full-screen-mode"></a>Paneles y páginas de informes en modo de pantalla completa
-1. En la barra de menús de Power BI que se encuentra encima del panel o el informe, seleccione el icono **Pantalla completa** ![Icono pantalla completa](media/service-fullscreen-mode/power-bi-full-screen-icon.png). El lienzo del panel o el informe pasa a ocupar toda la pantalla. El ejemplo siguiente es un panel.
+1. En la barra de menús del servicio Power BI que se encuentra encima del panel o el informe, haga clic en el icono **Pantalla completa** ![Icono pantalla completa](media/service-fullscreen-mode/power-bi-full-screen-icon.png). El lienzo del panel o el informe pasa a ocupar toda la pantalla. El ejemplo siguiente es un panel.
    
       ![El panel aparece en pantalla completa](media/service-fullscreen-mode/power-bi-dash-full-screen.png)
 2. En el modo de pantalla completa, tiene varias opciones de menú.  Para mostrar el menú solo tiene que mover el mouse o el cursor. 

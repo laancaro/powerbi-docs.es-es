@@ -1,5 +1,5 @@
 ---
-title: Creación de un panel de Power BI desde un informe
+title: Creación de un panel del servicio Power BI desde un informe
 description: Creación de un panel de Power BI desde un informe
 author: mihart
 manager: kfile
@@ -8,16 +8,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 09/02/2018
 ms.author: mihart
-ms.openlocfilehash: 56a26b50f50dd52d4355cd8326ec0d104dab19c0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a550aabb3590018666a3784e602ede15696862e5
+ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34248939"
+ms.lasthandoff: 09/08/2018
+ms.locfileid: "44168098"
 ---
-# <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
+# <a name="create-a-power-bi-dashboard-in-power-bi-service"></a>Creación de un panel de Power BI en el servicio Power BI
 Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
 
 Puede parecer abrumador cuando se empieza a trabajar, así que empezaremos a crear un panel rápido y sencillo, mediante el anclado de visualizaciones a partir de un informe que ya se ha creado. Cuando haya completado esta guía de inicio rápido, tendrá un buen conocimiento de la relación entre los paneles e informes, abrirá la vista de edición en el editor de informes, anclará iconos y navegará entre un panel y un informe. Después, va a usar los vínculos de tabla de contenido de la izquierda o de los **Pasos siguientes** en la parte inferior para desplazarse a temas más avanzados.

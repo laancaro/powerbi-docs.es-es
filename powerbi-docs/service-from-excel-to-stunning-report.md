@@ -2,20 +2,20 @@
 title: Del libro de Excel a un informe sorprendente al instante
 description: Del libro de Excel a un informe sorprendente al instante
 author: mihart
-manager: kfile
+manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: f24d4055bd5fcf5fdee058112c268a1a0e197012
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
+ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34247181"
+ms.lasthandoff: 09/06/2018
+ms.locfileid: "44044426"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Del libro de Excel a un informe sorprendente al instante
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Sin embargo, los datos más recientes se encuentran en varios sistemas de terceros y en archivos de su portátil. En el pasado, el hecho de crear objetos visuales y dar formato a un informe llevaba horas. Está empezando a sentirse ansioso.
@@ -34,7 +34,7 @@ A continuación, organice sus datos para que tengan formato de tabla. En Excel, 
 ![Datos con formato de tabla](media/service-from-excel-to-stunning-report/pbi_excel_table.png)
 
 ## <a name="upload-your-excel-file-into-power-bi"></a>Cargar el archivo de Excel en Power BI
-Power BI se conecta a muchos orígenes de datos, incluidos los archivos de Excel que se encuentran en el equipo. Para comenzar, inicie sesión en Power BI. Si no ha iniciado sesión, [puede hacerlo de forma gratuita](https://powerbi.com).
+Power BI se conecta a muchos orígenes de datos, incluidos los archivos de Excel que se encuentran en el equipo. Para comenzar, inicie sesión en el servicio Power BI. Si no ha iniciado sesión, [puede hacerlo de forma gratuita](https://powerbi.com).
 
 Ahora quiere crear un nuevo panel. Abra **Mi área de trabajo** y seleccione el icono **+ Crear**.
 
