@@ -2,26 +2,28 @@
 title: Inserción de datos en un conjunto de datos
 description: Inserción de datos en un conjunto de datos de Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.author: maghan
-ms.openlocfilehash: 1cc19d1ceefb95e0cb56e2a5dcbcc89609f654d5
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598558"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974193"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
+
 Con la API de Power BI, puede insertar datos en un conjunto de datos de Power BI. Por ejemplo, supongamos que quiere ampliar un flujo de trabajo de empresa existente para insertar datos clave en el conjunto de datos. En este caso, pongamos que quiere insertar un conjunto de datos de marketing de ventas que tiene una tabla de productos en un conjunto de datos.
 
 Antes de empezar a insertar datos en un conjunto de datos, necesita Azure Active Directory (Azure AD) y una [cuenta de Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Pasos para insertar datos en un conjunto de datos
+
 * Paso 1: [Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)
 * Paso 2: [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md)
 * Paso 3: [Creación de un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md)
@@ -31,6 +33,7 @@ Antes de empezar a insertar datos en un conjunto de datos, necesita Azure Active
 La siguiente sección es una discusión general de las operaciones de la API de Power BI que insertan datos.
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operaciones de la API de Power BI para insertar datos
+
 Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos actualizados. Para insertar datos se usa la operación [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) junto con la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para buscar un conjunto de datos, se usa la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Para cualquiera de estas operaciones, puede pasar un identificador de grupo para trabajar con un grupo. Use la operación [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) para obtener una lista de identificadores de grupo.
 
 Estas son las operaciones para insertar datos en un conjunto de datos:
@@ -108,13 +111,14 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 | Cadena |Actualmente permite hasta 128K caracteres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI
+
 Para comenzar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) en el panel de navegación izquierdo.
 
 [Paso siguiente >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Suscribirse en Power BI](create-an-azure-active-directory-tenant.md)  
 [Introducción a JSON](http://json.org/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-
