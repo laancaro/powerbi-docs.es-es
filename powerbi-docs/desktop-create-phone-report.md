@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6cd1616dab92eb8709c5e89966259be591e4ede3
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5f34207640fe0db02d38464ce8600a44b6ffab4c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280671"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726464"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-phone-apps"></a>Crear informes optimizados para las aplicaciones de teléfono de Power BI
 Cuando [cree un informe en Power BI Desktop](desktop-report-view.md), puede mejorar la experiencia de usarlo en las aplicaciones móviles de los teléfonos mediante la creación de una versión del informe específica para cada teléfono. Adapte el informe para el teléfono reorganizando los objetos visuales y cambiándoles el tamaño, quizás no incluyéndolos todos, para obtener una experiencia óptima. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe del teléfono. Los lectores del informe pueden verlos y filtrar el informe con ellos.
@@ -56,7 +56,7 @@ A medida que cambia el tamaño de un objeto visual, Power BI prioriza la vista d
 
 ![Cambio de tamaño de un objeto visual con capacidad de respuesta](media/desktop-create-phone-report/desktop-create-phone-report-6.gif)
 
-Elija si desea activar la capacidad de respuesta de cada objeto visual. Obtenga más información sobre la [optimización de objetos visuales](desktop-create-responsive-visuals.md).
+Elija si desea activar la capacidad de respuesta de cada objeto visual. Obtenga más información sobre la [optimización de objetos visuales](visuals/desktop-create-responsive-visuals.md).
 
 ## <a name="considerations-when-creating-phone-report-layouts"></a>Consideraciones sobre la creación de diseños de informe de teléfono
 * Para los informes con varias páginas, puede optimizar todas las páginas o solo algunas. 
@@ -101,11 +101,11 @@ Si solo optimiza algunas páginas, los lectores verán un mensaje en vista verti
 
 ![Página de informe no optimizada](media/desktop-create-phone-report/desktop-create-phone-report-9.png)
 
-Los lectores de informes pueden activar sus teléfonos lateralmente para ver la página en modo horizontal. Obtenga más información sobre la [interacción con informes de Power BI optimizados para su teléfono](mobile-apps-view-phone-report.md).
+Los lectores de informes pueden activar sus teléfonos lateralmente para ver la página en modo horizontal. Obtenga más información sobre la [interacción con informes de Power BI optimizados para su teléfono](consumer/mobile/mobile-apps-view-phone-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](service-create-dashboard-mobile-phone-view.md)
-* [Ver informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)
-* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](desktop-create-responsive-visuals.md)
+* [Ver informes de Power BI optimizados para el teléfono](consumer/mobile/mobile-apps-view-phone-report.md)
+* [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](visuals/desktop-create-responsive-visuals.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

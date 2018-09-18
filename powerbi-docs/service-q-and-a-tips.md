@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 94936092a86ee3ac46ed0516609b3beaf1589180
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 189134a82e183819f1d48be0b420c9f92a5e69b3
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256890"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44725958"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
@@ -24,7 +24,7 @@ Esta lista de palabras clave no está completa.  La mejor forma de ver si Power 
 La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los tiempos verbales en la mayoría de los casos. Por ejemplo, "es" incluye son, era, fueron, será, tiene, tenía, tendrá, hacer, hace, hizo.  Y "ordenar" incluye ordenado y ordenando.  Además, Power BI reconoce e incluye versiones de una palabra en singular y plural. Por ejemplo, Power BI reconoce "año" y "años".
 
 > [!NOTE]
-> Preguntas y respuestas está disponible igualmente en la aplicación [Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](mobile-apps-ios-qna.md).
+> Preguntas y respuestas está disponible igualmente en la aplicación [Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](consumer/mobile/mobile-apps-ios-qna.md).
 > 
 > 
 

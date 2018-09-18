@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/31/2018
-ms.openlocfilehash: 48faf9ebde5860b59569a7e0a3a96664d06a1b0d
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: d540dd29214422dfc33dca2bf2fb1cb74ebe6de7
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241577"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558594"
 ---
 # <a name="troubleshooting-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -105,13 +105,13 @@ Es posible que el back-end de la aplicación tenga que actualizar el token de au
 
 Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa está deshabilitada de forma predeterminada desde el 14/06/2018.
 
-Hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar solo al ámbito de la organización o a una [entidad de servicio](https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
+Hay una manera de volver a activar esta opción por medio de una [directiva de Azure AD](https://docs.microsoft.com/azure/active-directory/manage-apps/configure-authentication-for-federated-users-portal#enable-direct-authentication-for-legacy-applications), que se puede limitar solo al ámbito de la organización o a una [entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/active-directory-application-objects#service-principal-object).
 
 Se recomienda que habilite esta opción solo por aplicación.
 
 Para crear esta directiva, debe ser un **administrador global** en el directorio donde esté creando y asignando la directiva. Este es un script de ejemplo para crear la directiva y asignarla a la entidad de servicio en esta aplicación:
 
-1. Instale el [módulo de versión preliminar de Azure AD PowerShell](https://docs.microsoft.com/en-us/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
+1. Instale el [módulo de versión preliminar de Azure AD PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0).
 
 2. Ejecute los siguientes comandos de PowerShell línea a línea (procurando que la variable $sp no tenga más de una aplicación como resultado).
 
@@ -274,7 +274,7 @@ Esto es porque la dirección URL de redireccionamiento especificada para la apli
 
 Si quiere editar la aplicación registrada, deberá aprender a editar la [aplicación registrado en AAD](https://docs.microsoft.com/azure/active-directory/develop/active-directory-integrating-applications#updating-an-application), para que la aplicación pueda proporcionar acceso a las API web.
 
-Si quiere editar los datos o el perfil de usuario de Power BI, deberá aprender a editar los [datos de Power BI](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts).
+Si quiere editar los datos o el perfil de usuario de Power BI, deberá aprender a editar los [datos de Power BI](https://docs.microsoft.com/power-bi/service-basic-concepts).
 
 Para más información, consulte [Preguntas más frecuentes acerca de Power BI Embedded](embedded-faq.md).
 

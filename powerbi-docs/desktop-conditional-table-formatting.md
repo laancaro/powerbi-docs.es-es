@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 61a30484713ac96d3bbb65355310007a52f300a5
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 324a9b7f8a3718c6da0efb7533751d88dd717bcf
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657814"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728097"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formato condicional en tablas 
 Con el formato condicional de tablas, se pueden especificar colores personalizados de las celdas en función de los valores de esas celdas o de otros valores o campos, usando incluso colores de degradado. También puede mostrar valores de celda con barras de datos. 
@@ -133,5 +133,5 @@ Podría crear muchas variaciones más solo con su imaginación y un poco de DAX.
 ## <a name="next-steps"></a>Pasos siguientes
 Para obtener más información, consulte el artículo siguiente:  
 
-* [Sugerencias y trucos para el formato de color en Power BI](service-tips-and-tricks-for-color-formatting.md)  
+* [Sugerencias y trucos para el formato de color en Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
 

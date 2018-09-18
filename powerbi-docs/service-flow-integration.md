@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: dc79282a5c221e85fae7838009f6cecf91cbfdb8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: a9dc1d0f87102cc5bf66a3fb21b8be7af6a66059
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246836"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726832"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow y Power BI
 
@@ -110,7 +110,7 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
 ## <a name="next-steps"></a>Pasos siguientes
 * [Empezar a utilizar Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Establecer alertas de datos en el servicio Power BI](service-set-data-alerts.md)
-* [Establecer alertas de datos en la aplicación de iPhone](mobile-set-data-alerts-in-the-mobile-apps.md)
-* [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Establecer alertas de datos en la aplicación de iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

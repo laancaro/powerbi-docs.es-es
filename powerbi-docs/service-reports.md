@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: da9a4ffad948a43077d864e442af36b0db6bb617
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 80e5b31f4fd8e59333848da26995388874d1746c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136971"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728051"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 ## <a name="what-is-a-power-bi-report"></a>¿Qué es un informe de Power BI?
@@ -27,7 +27,7 @@ Este informe tiene 3 páginas (o pestañas) y actualmente estamos viendo la pág
 
 Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](service-basic-concepts.md)
 
-Los informes son una característica del servicio Power BI y Power BI Desktop. La experiencia de trabajar con informes es prácticamente idéntica. Sin embargo, en el caso de los dispositivos móviles, no puede crear informes, pero puede [verlos, compartirlos y anotarlos](mobile-reports-in-the-mobile-apps.md).
+Los informes son una característica del servicio Power BI y Power BI Desktop. La experiencia de trabajar con informes es prácticamente idéntica. Sin embargo, en el caso de los dispositivos móviles, no puede crear informes, pero puede [verlos, compartirlos y anotarlos](consumer/mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Ventajas de los informes
 Los informes se basan en un único conjunto de datos. Cada una de las visualizaciones de un informe representa un fragmento de información. Y las visualizaciones no son estáticas. Puede agregar y quitar datos, cambiar los tipos de visualización y aplicar filtros y segmentaciones de datos a medida que profundiza en estos para detectar información y buscar respuestas. Al igual que un panel, o incluso más, un informe es algo muy interactivo y personalizable, y las visualizaciones se actualizan según van cambiando los datos subyacentes.

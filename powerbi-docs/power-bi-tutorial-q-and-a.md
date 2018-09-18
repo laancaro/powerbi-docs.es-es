@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: ebe53241bed0f31bfd64d860cff7c8fc2e54500c
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599239"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727959"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Uso de Preguntas y respuestas para crear visualizaciones y generar informes
-En la [Introducción a Preguntas y respuestas](power-bi-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.
+En la [Introducción a Preguntas y respuestas](power-bi-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.
 
 Preguntas y respuestas es interactivo y divertido y, con mucha frecuencia, una pregunta llevará a muchas otras, puesto que las visualizaciones revelan interesantes rutas para descubrir. Observe cómo Amanda muestra el uso de Preguntas y respuestas para crear visualizaciones, indagar en los objetos visuales y anclarlos en paneles.
 
@@ -44,7 +44,7 @@ La respuesta a su pregunta se muestra como una visualización interactiva y se a
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-list.png)
 
-3. A medida que escriba la pregunta, Preguntas y respuestas selecciona la mejor [visualización](power-bi-visualization-types-for-reports-and-q-and-a.md) para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta.
+3. A medida que escriba la pregunta, Preguntas y respuestas selecciona la mejor [visualización](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta.
 
    ![](media/power-bi-tutorial-q-and-a/powerbi-qna-viz.png)
 
@@ -82,7 +82,7 @@ Para poder usar Preguntas y respuestas en los informes, debe tener permisos de e
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-suggestions.png)
 
-4. A medida que escriba la pregunta, Preguntas y respuestas selecciona la mejor [visualización](power-bi-visualization-types-for-reports-and-q-and-a.md) para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta.
+4. A medida que escriba la pregunta, Preguntas y respuestas selecciona la mejor [visualización](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md) para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta.
 
    ![](media/power-bi-tutorial-q-and-a/power-bi-q-and-a-visual.png)
 

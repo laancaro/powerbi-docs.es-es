@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/28/2018
+ms.date: 09/13/2018
 LocalizationGroup: Share your work
-ms.openlocfilehash: b305c684ccf0938cfa8f5d9a2aa06f27a8c8be12
-ms.sourcegitcommit: fb29c4bf7e598f962b453ac68091ca2189d6ae3b
+ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2018
-ms.locfileid: "43380345"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558548"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -61,7 +61,7 @@ Los pasos siguientes describen cómo usar la característica **Publicar en Web**
 
 Al insertar contenido en una entrada de blog, debe ajustarse normalmente para caber en un tamaño específico de la pantalla.  También puede ajustar el alto y el ancho de la etiqueta de iFrame según sea necesario, pero debe asegurarse de que el informe quepa en el área determinada del iFrame, por lo que también se debe establecer un modo de vista adecuado al editar el informe.
 
-En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y cómo va a aparecer al insertarse.
+En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y cómo va a aparecer al insertarse. 
 
 | Modo de vista | Aspecto que tiene al insertarse |
 | --- | --- |

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7da86135a391f8a6206a913a1e13df423ad96fbd
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944983"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726065"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, esto se consigue destacando la información más importante y manteniéndolo limpio y despejado.
@@ -23,7 +23,7 @@ Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir 
 Aquí encontrará algunas sugerencias.
 
 > [!TIP]
-> Muchos de los principios de diseño de los informes se aplican también a los paneles.  Lea las notas del producto sobre los [principios para el mejor diseño de los informes y las visualizaciones](power-bi-visualization-best-practices.md).
+> Muchos de los principios de diseño de los informes se aplican también a los paneles.  Lea las notas del producto sobre los [principios para el mejor diseño de los informes y las visualizaciones](visuals/power-bi-visualization-best-practices.md).
 >
 >
 
@@ -51,7 +51,7 @@ Si el texto y las visualizaciones son del mismo tamaño en el panel, a los lecto
 
 Pero no olvide proporcionar un contexto.  
 
-Más información sobre cómo [crear un icono con un solo número](power-bi-visualization-card.md).
+Más información sobre cómo [crear un icono con un solo número](visuals/power-bi-visualization-card.md).
 
 ## <a name="put-the-most-important-information-in-the-upper-corner"></a>Coloque la información más importante en la parte superior
 La mayoría de las personas leen de arriba abajo, por lo que se recomienda colocar la información con mayor nivel de detalle en la parte superior e ir mostrando más detalles a medida que avanza en la dirección en que lee el público (de izquierda a derecha, o de derecha a izquierda).
@@ -68,7 +68,7 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * Preste atención a la manera de [ordenar los gráficos](power-bi-report-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
 * Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.
 
-Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ## <a name="learning-more-about-best-practice-dashboard-design"></a>Obtener más información sobre el diseño de paneles según los procedimientos recomendados
 Si desea aprender a diseñar paneles fantásticos, considere la posibilidad de aprender los principios básicos de Gestalt sobre la percepción visual y la manera de comunicar claramente información accionable en contexto. Afortunadamente, existen numerosos recursos disponibles en nuestros blogs. Estos son algunos de nuestros libros favoritos:

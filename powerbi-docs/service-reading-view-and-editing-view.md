@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: eacadb04935dd0c929a85904335b613f3d5d4d58
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 736d4b53f82255e84e3bd54a2177ae17c264039b
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251676"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726763"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de lectura y vista de edición de informes del servicio Power BI
 En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e interactuar con los informes: la vista de lectura y la vista de edición. La vista de lectura está disponible para todos los usuarios y está diseñada especialmente para los *consumidores* de datos, mientras que la vista de edición solo está disponible para los propietarios y *creadores* de informes.
@@ -59,13 +59,13 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 | [Duplicar una página del informe](power-bi-report-copy-paste-page.md) | No  | Sí |
 | [Eliminar una página del informe](service-delete.md) | no | sí |
 |**Trabajar con visualizaciones de informes**|
-| [Agregar visualizaciones a un informe](power-bi-report-add-visualizations-i.md) | No  | Sí |
+| [Agregar visualizaciones a un informe](visuals/power-bi-report-add-visualizations-i.md) | No  | Sí |
 | [Agregar cuadros de texto y formas a un informe](power-bi-reports-add-text-and-shapes.md) | No  | Sí |
 | [Utilizar el panel de formato del informe](service-the-report-editor-take-a-tour.md) | No | Sí |
 | [Establecer interacciones de un objeto visual](service-reports-visual-interactions.md) | No  | Sí |
 | [Mostrar los datos usados para crear la visualización](service-reports-show-data.md) | No  | Sí |
 | [Configurar la obtención de detalles](power-bi-visualization-drill-down.md) | No  | Sí |
-| [Cambiar la visualización que se va a usar](power-bi-report-change-visualization-type.md) | No | Sí|
+| [Cambiar la visualización que se va a usar](visuals/power-bi-report-change-visualization-type.md) | No | Sí|
 | [Eliminar una visualización, un cuadro de texto o una forma](service-delete.md)| No | Sí |
 
 

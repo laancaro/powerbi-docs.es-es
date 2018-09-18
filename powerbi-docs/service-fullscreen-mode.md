@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2ff39f0594150c7b29fd88e8f4e4f6baef86e806
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044334"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727591"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modo de pantalla completa en el servicio Power BI
 ## <a name="what-is-full-screen-mode"></a>¿Qué es el modo de pantalla completa?
@@ -24,7 +24,7 @@ ms.locfileid: "44044334"
 
 Visualice el contenido de Power BI (paneles, paginas de informes, iconos y visualizaciones) sin la distracción de los menús y las barras de navegación.  En todo momento se disfruta de una vista completa sin adulterar del contenido con un solo vistazo. Esto a veces se conoce como modo de televisión. La funcionalidad disponible en modo de pantalla completa varía según el contenido. 
 
-Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones y la vista de informe](desktop-report-view.md), y el [modo de enfoque para los elementos visuales del informe](service-focus-mode.md).
+Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones y la vista de informe](desktop-report-view.md), y el [modo de enfoque para los elementos visuales del informe](service-focus-mode.md).
 
  
 

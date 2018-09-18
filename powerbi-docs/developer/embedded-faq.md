@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: c1f9da598abee29a1d8eef0419fcb472f0a1467e
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: e83224932048aeab2dde6187eb217da7d89fed85
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241531"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558585"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -79,7 +79,7 @@ Esta es una lista parcial de las diferencias que puede utilizar con cada una de 
 |  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
 |---------|---------|---------|---------|
 |Comprar  |Azure Portal |Office |Office |
-|Casos de uso | Insertar contenido en su propia aplicación | <li> Insertar contenido en su propia aplicación <br><br></br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Insertar contenido en su propia aplicación <br><br></br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Compartir contenido con usuarios de Power BI mediante el [servicio Power BI](https://powerbi.microsoft.com/en-us/)  |
+|Casos de uso | Insertar contenido en su propia aplicación | <li> Insertar contenido en su propia aplicación <br><br></br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Insertar contenido en su propia aplicación <br><br></br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br></br> <li> Compartir contenido con usuarios de Power BI mediante el [servicio Power BI](https://powerbi.microsoft.com/en-us/)  |
 |Facturación |Cada hora |Mensual |Mensualmente |
 |Asignación  |Sin asignación |Anualmente  |Mensual o anual |
 |Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede usar para insertar contenido en SharePoint Online y Microsoft Teams (se excluyen las aplicaciones móviles) |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
@@ -133,7 +133,7 @@ Sí, hay cmdlets de Powershell y API de Azure Resource Manager (ARM) que puede u
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>¿Qué es el rol de capacidad dedicada de PBI Embedded en una solución de PBI Embedded?
 
-Para poder [promover su solución a producción](https://docs.microsoft.com/en-us/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), es necesario que el contenido de Power BI (el área de trabajo de aplicación que usa en su aplicación) tenga asignada una capacidad de Power BI Embedded (SKU A).
+Para poder [promover su solución a producción](https://docs.microsoft.com/power-bi/developer/embedding-content#step-3-promote-your-solution-to-production), es necesario que el contenido de Power BI (el área de trabajo de aplicación que usa en su aplicación) tenga asignada una capacidad de Power BI Embedded (SKU A).
 
 ### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>¿Cuáles son las regiones de Azure en las que PBI Embedded está disponible?
 
@@ -158,11 +158,11 @@ La autenticación y autorización de los usuarios de la aplicación la implement
 
 Si ya tiene un inquilino de Azure AD, puede usar su directorio existente, o bien puede crear un nuevo inquilino de Azure AD para la seguridad del contenido de las aplicaciones insertadas.
 
-Para obtener un token de AAD, puede usar una de las bibliotecas de autenticación de Azure Active Directory: https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-libraries. Existen bibliotecas de cliente para varias plataformas.
+Para obtener un token de AAD, puede usar una de las bibliotecas de autenticación de Azure Active Directory: https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries. Existen bibliotecas de cliente para varias plataformas.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mi aplicación ya usa AAD para la autenticación de usuario. ¿Cómo se puede usar esta identidad al autenticarse en Power BI en un escenario en el que el usuario posee los datos? 
 
-Es el flujo típico en nombre de otra persona de OAuth (https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)). La aplicación debe configurarse para requerir permisos para el servicio Power BI (con los ámbitos necesarios) y, una vez que tenga un token de usuario en la aplicación, solo tiene que llamar al método AcquireTokenAsync de API de ADAL mediante el token de acceso de usuario y especificar la dirección URL del recurso de Power BI como identificador de recurso. Consulte a continuación un fragmento de código que muestra cómo llevar esto a cabo:
+Es el flujo típico en nombre de otra persona de OAuth (https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-scenarios#web-application-to-web-api)). La aplicación debe configurarse para requerir permisos para el servicio Power BI (con los ámbitos necesarios) y, una vez que tenga un token de usuario en la aplicación, solo tiene que llamar al método AcquireTokenAsync de API de ADAL mediante el token de acceso de usuario y especificar la dirección URL del recurso de Power BI como identificador de recurso. Consulte a continuación un fragmento de código que muestra cómo llevar esto a cabo:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -299,7 +299,7 @@ Si está trabajando con la solución de **inserción para la organización**, gu
 
 ### <a name="how-can-i-edit-my-power-bi-user-profile-or-data"></a>¿Cómo puedo editar los datos o el perfil de usuario de Power BI?
 
-[Aquí](https://docs.microsoft.com/en-us/power-bi/service-basic-concepts) encontrará información sobre cómo editar los datos de Power BI.
+[Aquí](https://docs.microsoft.com/power-bi/service-basic-concepts) encontrará información sobre cómo editar los datos de Power BI.
 
 Para obtener más información, vea [Solución de problemas de una aplicación insertada](embedded-troubleshoot.md).
 

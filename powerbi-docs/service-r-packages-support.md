@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b2d8509c83ccce3d76926d926c64061ca78c100d
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: fc4d62134bccae1a1ac0fd10444dd47c84ecc945
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256179"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727039"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación R](https://www.r-project.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de R (y con el tiempo se van admitiendo más), pero algunos no.
 
-En las secciones siguientes se proporciona una tabla con los paquetes de R que se admiten en Power BI y los que no (ordenados alfabéticamente). Para más información acerca de R en Power BI, consulte el artículo sobre los [objetos visuales de R](service-r-visuals.md).
+En las secciones siguientes se proporciona una tabla con los paquetes de R que se admiten en Power BI y los que no (ordenados alfabéticamente). Para más información acerca de R en Power BI, consulte el artículo sobre los [objetos visuales de R](visuals/service-r-visuals.md).
 
 ## <a name="request-support-for-a-new-r-package"></a>Solicitar compatibilidad para nuevos paquetes R
 Los paquetes R admitidos para el **servicio Power BI** se encuentran en la siguiente sección, titulada **Paquetes admitidos**. Si quiere solicitar compatibilidad para un paquete R que no se encuentra en esa lista, puede enviar un correo electrónico con su solicitud al [equipo de comentarios de R en Power BI](mailto:rinpbifb@microsoft.com).
@@ -940,7 +940,7 @@ En la siguiente tabla se muestran los paquetes **incompatibles** con el servicio
 ## <a name="next-steps"></a>Pasos siguientes
 Para más información sobre R en Power BI, eche un vistazo a los siguientes artículos:
 
-* [Creación de objetos visuales de R en el servicio Power BI](service-r-visuals.md)
+* [Creación de objetos visuales de R en el servicio Power BI](visuals/service-r-visuals.md)
 * [Crear objetos visuales de Power BI con R](desktop-r-visuals.md)
 * [Ejecución de scripts de R en Power BI Desktop](desktop-r-scripts.md)
 * [Uso de R en el Editor de consultas](desktop-r-in-query-editor.md)

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: c6c83c51779621b2b722ce0c21cbb00eecde1fb9
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
+ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658182"
+ms.lasthandoff: 09/13/2018
+ms.locfileid: "45558456"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -89,7 +89,7 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
-* [Azure Information Protection](https://docs.microsoft.com/en-us/microsoft-365/enterprise/protect-files-with-aip
+* [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
 ) no se admite actualmente
 * [Access Online](https://products.office.com/en-us/access) no se admite actualmente
 

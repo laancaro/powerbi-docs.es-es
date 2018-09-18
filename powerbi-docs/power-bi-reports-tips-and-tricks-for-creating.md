@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 8305b9eab95e2b13f9104de6bcefe3f03a95d2f5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34254887"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726809"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop, el servicio Power BI *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado.
@@ -167,7 +167,7 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop.  Está optimiz
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Servicio Power BI *y* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportspower-bi-visualization-best-practicesmd"></a>Lea las notas del producto: [Principles for designing Power BI reports](power-bi-visualization-best-practices.md) (Principios de diseño de los informes de Power BI)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lea las notas del producto: [Principles for designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Principios de diseño de los informes de Power BI)
 En este documento se describen los procedimientos recomendados para diseñar informes en Power BI. Empezando por la planeación, se tratan los principios de diseño que se pueden aplicar, tanto a los informes como a las páginas y los objetos visuales individuales que componen dicho informe. Muchos de estos procedimientos recomendados también se pueden aplicar al diseño de paneles.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leer o ver “How to design visually stunning reports (and dashboards) in Power BI” (Cómo diseñar informes [y paneles] visualmente espectaculares en Power BI)
@@ -209,7 +209,7 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * Preste atención a la manera de [ordenar los gráficos](power-bi-report-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
 * Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.    
 
-Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md).  
+Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
 
 ### <a name="learn-more-about-best-practice-dashboard-design"></a>Obtenga más información sobre el diseño de paneles según los procedimientos recomendados
 Estos son algunos de nuestros libros favoritos:

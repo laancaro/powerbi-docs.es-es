@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 4c5a50a5bab76fd856099a3c1430638dc9e33ea8
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 8463dc96a120e9bf26ff0718fb050304890a5cea
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40256807"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44728189"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -60,7 +60,7 @@ Con Power BI y Power BI Desktop, puede conectarse de forma segura a sus propios 
 El servidor de informes de Power BI es una solución que puede implementar a nivel local para crear, publicar y administrar informes, y posteriormente entregarlos a distintos usuarios de maneras diferentes: en un explorador web, en su dispositivo móvil o, en forma de correo electrónico, en su bandeja de entrada. Obtenga más información sobre el [servidor de informes de Power BI](report-server/get-started.md).
 
 ### <a name="power-bi-mobile-apps"></a>Aplicaciones móviles de Power BI
-En las aplicaciones móviles de Power BI también [podrá ver los informes locales de Power BI, y los informes móviles y los KPI de Reporting Services](mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
+En las aplicaciones móviles de Power BI también [podrá ver los informes locales de Power BI, y los informes móviles y los KPI de Reporting Services](consumer/mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md).
 
 ## <a name="does-power-bi-support-mobile-devices"></a>¿Power BI admite dispositivos móviles?
 Sí. Power BI tiene aplicaciones nativas para teléfonos y tabletas Android, dispositivos iOS y dispositivos con Windows 10. Descargue una de las [aplicaciones móviles de Power BI](https://powerbi.microsoft.com/mobile) de su tienda respectiva:  

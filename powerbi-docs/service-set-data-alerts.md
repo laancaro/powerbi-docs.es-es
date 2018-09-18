@@ -2,28 +2,28 @@
 title: Establecer alertas de datos en el servicio Power BI
 description: Aprenda a establecer alertas que le envíen una notificación cada vez que los datos de sus paneles cambien más allá de los límites establecidos en el servicio Microsoft Power BI.
 author: mihart
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 02/28/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 153676c983ef81bcccf1ea6bf0adf95ef29a2765
-ms.sourcegitcommit: fe03f2a80f2df82219b8e026085f93a8453201df
+ms.openlocfilehash: d7251cea6a8244562b22d6511df754d3287587af
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/08/2018
-ms.locfileid: "44167937"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726349"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de datos en el servicio Power BI
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
 
 Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o si se ha compartido con usted un panel desde una [capacidad Premium](service-premium.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo sobre medidores, KPI y tarjetas. Las alertas se pueden establecer en objetos visuales creados a partir de conjuntos de datos de streaming que se hayan anclado desde un informe a un panel, pero no se pueden establecer en iconos de streaming creados directamente en el panel a través de **Agregar icono** > **Datos de transmisión personalizados**. 
 
-Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com) - [Pruébelo](service-flow-integration.md).
+Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Además, las alertas se pueden [automatizar e integrar con Microsoft Flow](https://flow.microsoft.com) - [Pruébelo](service-flow-integration.md).
 
 ![Iconos](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -42,18 +42,18 @@ Este ejemplo utiliza un icono de tarjeta del panel de ejemplo de análisis de mi
 1. Empiece en un panel. En un icono de tarjeta, KPI o medidor del panel, seleccione el botón de puntos suspensivos.
    
    ![Icono Total Stores](media/service-set-data-alerts/powerbi-card.png)
-2. Haga clic en el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png), o bien en **Administrar alertas**, para agregar una o varias alertas para **Total de tiendas**.
+2. Seleccione el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png) para agregar una o varias alertas para **Total stores**.
    
-1. En el panel **Administrar alertas**, haga clic en **+ Agregar regla de alertas**.  Asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
+1. Para empezar, seleccione **Agregar regla de alertas**, asegúrese de que el control deslizante esté **activado** y asigne un título a la alerta. Los títulos le ayudan a reconocer fácilmente las alertas.
    
    ![Ventana Administrar alertas](media/service-set-data-alerts/powerbi-alert-title.png)
 4. Desplácese hacia abajo y escriba los detalles de la alerta.  En este ejemplo, vamos a crear una alerta que nos enviará una notificación una vez al día si el número de almacenes totales supera los 100. Las alertas aparecen en nuestro Centro de notificaciones. Y haremos que Power BI nos envíe también un correo electrónico.
    
    ![Ventana Administrar alertas, establecimiento de umbral](media/service-set-data-alerts/power-bi-set-alert-details.png)
-5. Haga clic en **Guardar y cerrar**.
+5. Seleccione **Guardar**.
 
 ## <a name="receiving-alerts"></a>Recibir alertas
-Si los datos de seguimiento llegan a uno de los umbrales que ha establecido, se realizarán varias acciones. En primer lugar, Power BI comprueba si han pasado más de una hora, o de 24 horas (según la opción seleccionada), desde que se ha enviado la última alerta. Siempre que los datos superen el umbral, recibirá una alerta.
+Si los datos de seguimiento llegan a uno de los umbrales que ha establecido, se realizarán varias acciones. En primer lugar, Power BI comprueba si han pasado más de una hora o de 24 horas (según la opción seleccionada) desde que se ha enviado la última alerta. Siempre que los datos superen el umbral, recibirá una alerta.
 
 Después, Power BI envía una alerta a su centro de notificaciones y, opcionalmente, un correo electrónico. Cada alerta contiene un vínculo directo a los datos. Seleccione el vínculo para ver el icono correspondiente que le permitirá explorar, compartir y obtener más información.  
 
@@ -73,7 +73,7 @@ Después, Power BI envía una alerta a su centro de notificaciones y, opcionalme
    > 
 
 ## <a name="managing-alerts"></a>Administración de alertas
-Hay varias maneras de administrar las alertas: desde el icono del panel, desde el menú de configuración de Power BI y en un icono individual en la [aplicación móvil de Power BI en el iPhone](mobile-set-data-alerts-in-the-mobile-apps.md) o en la [aplicación móvil de Power BI para Windows 10](mobile-set-data-alerts-in-the-mobile-apps.md).
+Hay varias maneras de administrar las alertas: desde el icono del panel, desde el menú de configuración de Power BI y en un icono individual en la [aplicación móvil de Power BI en el iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) o en la [aplicación móvil de Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
 ### <a name="from-the-tile-itself"></a>Desde el icono
 1. Si necesita cambiar o quitar una alerta de un icono, vuelva a abrir la ventana **Administrar alertas** al seleccionar el icono de campana ![icono de alerta](media/service-set-data-alerts/power-bi-bell-icon.png). Se muestran todas las alertas que ha configurado para ese icono.
@@ -103,5 +103,7 @@ Hay varias maneras de administrar las alertas: desde el icono del panel, desde e
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Crear un flujo de Microsoft Flow que incluya una alerta de datos](service-flow-integration.md)    
-[Establecer alertas de datos en dispositivos móviles](mobile-set-data-alerts-in-the-mobile-apps.md)    
+[Establecer alertas de datos en dispositivos móviles](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)    
+[¿Qué es Power BI?](power-bi-overview.md)    
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

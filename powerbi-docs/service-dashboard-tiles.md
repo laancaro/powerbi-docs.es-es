@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 09fcce65539d89c9d42bc05369f13a6048eb96c2
-ms.sourcegitcommit: aed348a2d0025f7f40f2196254993f6aba5db7d2
+ms.openlocfilehash: c9451297dab6210a454ea96c1537189f46e8ad24
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2018
-ms.locfileid: "43241600"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726142"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
-Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile-iphone-app-get-started.md).
+Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](consumer/mobile/mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](consumer/mobile/mobile-iphone-app-get-started.md).
 
 ## <a name="dashboard-tiles"></a>Los iconos de panel
 ![Panel de Power BI](media/service-dashboard-tiles/power-bi-dashboard.png)
@@ -94,7 +94,7 @@ Al seleccionar un icono, lo que sucede después depende de cómo se creó el ico
 * Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si ancló un gráfico de líneas desde un informe y luego cambió el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Crear una tarjeta (icono grande de número) para el panel](power-bi-visualization-card.md)
+[Crear una tarjeta (icono grande de número) para el panel](visuals/power-bi-visualization-card.md)
 
 [Paneles en Power BI](service-dashboards.md)  
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f3a9e8aabbd45cb476866158165e2e37a3d8f652
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242396"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726326"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usan (*consumen*) el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
@@ -26,7 +26,7 @@ Vea cómo Will agrega algunas preguntas destacadas a Preguntas y respuestas de P
 <iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Las preguntas destacadas de Preguntas y respuestas están disponibles para su uso en la [aplicación Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](mobile-apps-ios-qna.md) y en la versión preliminar de Preguntas y respuestas de Power BI Desktop. Sin embargo, la creación de preguntas solo está disponible en el servicio Power BI (app.powerbi.com).
+> Las preguntas destacadas de Preguntas y respuestas están disponibles para su uso en la [aplicación Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](consumer/mobile/mobile-apps-ios-qna.md) y en la versión preliminar de Preguntas y respuestas de Power BI Desktop. Sin embargo, la creación de preguntas solo está disponible en el servicio Power BI (app.powerbi.com).
 > 
 
 Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).

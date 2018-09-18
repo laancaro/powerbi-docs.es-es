@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 585c1c854ed3e95cc176d34f442fec6416f23dcd
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623962"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44726671"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>¿Cómo debo colaborar y compartir en Power BI?
 
@@ -83,9 +83,9 @@ En las aplicaciones móviles de Power BI para dispositivos iOS y Android, puede 
 
 Estará compartiendo una instantánea del icono, el informe o el objeto visual, y los destinatarios lo verán exactamente igual que cuando envió el correo. El correo electrónico también contiene un vínculo al panel o el informe. Si tienen una licencia de Power BI Pro, o el contenido ya está en una [capacidad premium](service-premium.md), y ya ha compartido el objeto con ellos, pueden abrirlo. Puede enviar instantáneas de iconos a cualquier persona, no solo a compañeros del mismo dominio de correo electrónico.
 
-Más información sobre cómo [anotar y compartir iconos, informes y objetos visuales](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) desde aplicaciones móviles de iOS y Android.
+Más información sobre cómo [anotar y compartir iconos, informes y objetos visuales](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) desde aplicaciones móviles de iOS y Android.
 
-También puede [compartir una instantánea de un icono](mobile-windows-10-phone-app-get-started.md) desde la aplicación de Power BI para dispositivos Windows 10.
+También puede [compartir una instantánea de un icono](consumer/mobile/mobile-windows-10-phone-app-get-started.md) desde la aplicación de Power BI para dispositivos Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir o guardar como PDF u otro formato de archivo estático
 Puede imprimir todo un panel, un icono de panel, una página de informe o una visualización de informe (o guardarlo como PDF u otro formato de archivo estático) desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez. Obtenga más información sobre cómo [imprimir o guardar como archivo estático](service-print.md).

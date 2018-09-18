@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d683ce3d06e2ac6be6c51f257e4f9483e718e2d8
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
+ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624401"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44727315"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -27,7 +27,7 @@ Con el uso compartido, si comparte contenido dentro o fuera de su organización,
 
 Puede compartir informes y paneles desde la mayoría de los lugares del servicio Power BI: Favoritos, Recientes, Compartido conmigo (si el propietario lo permite), Mi área de trabajo u otras áreas de trabajo. Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no pueden modificarlos. Ellos ven los mismos datos que usted ve en el panel o informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a su organización pueden ver el panel o informe y también interactuar con ellos, pero no pueden compartirlos. 
 
-También puede [compartir un panel desde cualquiera de las aplicaciones móviles de Power BI](mobile-share-dashboard-from-the-mobile-apps.md). Puede compartir los paneles desde el servicio Power BI o desde las aplicaciones móviles de Power BI, pero no desde Power BI Desktop.
+También puede [compartir un panel desde cualquiera de las aplicaciones móviles de Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Puede compartir los paneles desde el servicio Power BI o desde las aplicaciones móviles de Power BI, pero no desde Power BI Desktop.
 
 ## <a name="video-share-a-dashboard"></a>Vídeo: Uso compartido de un panel
 Observe cómo Amanda comparte su panel con compañeros tanto de su empresa como externos. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
