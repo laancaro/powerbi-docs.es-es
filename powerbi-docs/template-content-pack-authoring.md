@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/09/2017
 ms.author: maggies
-ms.openlocfilehash: 8b7c46ad1e9ea9c4c79a8f5a1b48c73ab3336306
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: 7253a340ce0852039a08d0ed17c488fc8fdbfa69
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157578"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545931"
 ---
 # <a name="author-template-content-packs-in-power-bi"></a>Creación de los paquetes de contenido de plantillas en Power BI
 La creación de un paquete de contenido de plantillas utiliza Power BI Desktop y PowerBI.com. Existen cuatro componentes en el paquete de contenido:
@@ -22,7 +22,7 @@ La creación de un paquete de contenido de plantillas utiliza Power BI Desktop y
 * Las consultas le permiten [conectar](desktop-connect-to-data.md) y [transformar](desktop-query-overview.md) los datos, así como definir [parámetros](https://powerbi.microsoft.com/blog/deep-dive-into-query-parameters-and-power-bi-templates/).  
 * Modelo de datos para crear [relaciones](desktop-create-and-manage-relationships.md), [medidas](desktop-measures.md), y mejoras de preguntas y respuestas.  
 * Las [páginas](desktop-report-view.md) de informes incluyen elementos visuales y filtros para proporcionar información acerca de los datos.  
-* El [panel](service-dashboards.md) y los [mosaicos](service-dashboard-create.md) ofrecen una visión general de la información que se incluye.  
+* El [panel](consumer/end-user-dashboards.md) y los [mosaicos](service-dashboard-create.md) ofrecen una visión general de la información que se incluye.  
 
 Puede estar familiarizado con cada una de las partes de las características de Power BI existentes. Cuando se crea un paquete de contenido, hay aspectos adicionales que debe tener en cuenta para todos los aspectos. Vea las secciones siguientes para obtener más detalles.
 

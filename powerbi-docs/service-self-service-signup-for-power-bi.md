@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 1f6c899932390bc4f9818fdcbb499848ca88a8d5
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: d499f3f3635442f8d9ed0fbf167e53d13ec0ae53
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558525"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549992"
 ---
 # <a name="signing-up-for-power-bi-as-an-individual"></a>Registro en Power BI como usuario individual
 Obtenga información acerca de cómo registrarse en Power BI y empezar a usarlo para sus necesidades de informes y visualización.
@@ -99,7 +99,7 @@ A continuación, verá un mensaje en el que se le pide que seleccione **Iniciar*
 ## <a name="in-service-power-bi-pro-60-day-trial"></a>Prueba de 60 días de Power BI Pro en servicio
 Después de registrarse para obtener una cuenta gratuita, también tiene la opción de probar Power BI Pro gratis durante 60 días. Tendrá acceso a todas las características de Power BI Pro durante el tiempo de la prueba. Power BI Pro incluye todas las características de la versión gratuita de Power BI y características adicionales de uso compartido y colaboración. Para más información, consulte los [precios de Power BI](https://powerbi.microsoft.com/pricing). Para probar una versión de prueba gratuita de 60 días de Power BI Pro, regístrese en Power BI y pruebe una de estas características de Power BI Pro:
 
-* [Crear un área de trabajo de aplicación](service-create-distribute-apps.md)
+* [Crear un área de trabajo de aplicación](consumer/end-user-create-apps.md)
 * [Compartir un panel](service-share-dashboards.md)
 
 Cuando pruebe cualquiera de estas características, se le pedirá que inicie su prueba gratuita. Para usarla, también puede ir al icono de engranaje y seleccionar **Administrar almacenamiento personal**. A continuación, seleccione **Probar Power BI Pro gratis** a la derecha.

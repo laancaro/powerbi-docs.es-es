@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 586e95ba624bde1d18b5c431a1b9dcbb642b939c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a689a3b04ca3b48c0b924ae62a52315dc3535faf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748008"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544981"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creación y visualización de elementos favoritos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -30,7 +30,7 @@ Cuando define un favorito en las aplicaciones móviles de Power BI, puede verlo 
 ![Elementos favoritos en las aplicaciones móviles de Power BI](./media/mobile-apps-favorites/power-bi-android-favorites-reports.png)
 
 
-También puede [definir paneles y aplicaciones de Power BI como favoritos en el servicio Power BI](../../service-dashboard-favorite.md). Después, los verá en la página Favoritos de la aplicación móvil.
+También puede [definir paneles y aplicaciones de Power BI como favoritos en el servicio Power BI](../end-user-favorite.md). Después, los verá en la página Favoritos de la aplicación móvil.
 
 Puede marcar KPI e informes como favoritos en el portal web del servidor de informes de Power BI o Reporting Services y verlos después en práctica carpeta en su dispositivo móvil, junto con sus paneles favoritos de Power BI.
 
@@ -76,6 +76,6 @@ Puede definir un panel o informe como favorito desde la lista de paneles o infor
 En las aplicaciones móviles de Power BI puede ver los informes y KPI del servidor de informes de Power BI y Reporting Services, pero no puede agregarlos a Favoritos. Se [etiquetan como favoritos en el portal web](../../report-server/tutorial-explore-report-server-web-portal.md#tag-your-favorites). 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Paneles favoritos en el servicio Power BI](../../service-dashboard-favorite.md) 
+* [Paneles favoritos en el servicio Power BI](../end-user-favorite.md) 
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d059e8bb476f9862c372d9565581d58b336e81db
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 71b2f104ad5efb244c2b046cdd48a2e52cd045e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39623939"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543958"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaboración en un área de trabajo de aplicación de Power BI
 Las áreas de trabajo de la aplicación de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. La colaboración no termina con las áreas de trabajo en Power BI. Office 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, el uso compartido del calendario y de las tareas, etc. Más información sobre [grupos en Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -38,7 +38,7 @@ Después de crear un archivo de Power BI Desktop, si lo publica en el área de t
    
     ![Pestaña Informes](media/service-collaborate-power-bi-workspace/power-bi-workspace-report.png)
    
-    A partir de aquí, es como cualquier otro informe de Power BI. Todos los usuarios del área de trabajo de aplicaciones pueden [modificar el informe](service-reports.md) y guardar los iconos en un panel de su elección.
+    A partir de aquí, es como cualquier otro informe de Power BI. Todos los usuarios del área de trabajo de aplicaciones pueden [modificar el informe](consumer/end-user-reports.md) y guardar los iconos en un panel de su elección.
 
 ## <a name="collaborate-in-office-365"></a>Colaborar en Office 365
 La colaboración en Office 365 comienza en el área de trabajo de aplicaciones en Power BI.
@@ -77,7 +77,7 @@ La colaboración en Office 365 comienza en el área de trabajo de aplicaciones e
 Si es el propietario o administrador de un área de trabajo de la aplicación, también puede agregar o quitar miembros de esta. Más información sobre la [administración del área de trabajo de la aplicación de Power BI](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Creación de aplicaciones y áreas de trabajo de la aplicación de Power BI](service-create-distribute-apps.md)
+* [Creación de aplicaciones y áreas de trabajo de la aplicación de Power BI](consumer/end-user-create-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 * Comentarios Visite [Ideas sobre Power BI](https://ideas.powerbi.com/forums/265200-power-bi)
 

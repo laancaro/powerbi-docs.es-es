@@ -10,16 +10,16 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mihart
-ms.openlocfilehash: 4676b31a117573d1d69b5947ec2380c4abf29405
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 45bd00877aadba2a84ac533add18b82337fa8403
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726878"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546266"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obtención de un objeto visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>¿Qué se entiende por *certificado*?
-Un *objeto visual personalizado certificado* es aquel que cumple un conjunto de requisitos de código y que ha superado estrictas pruebas de seguridad.  Una vez certificado un objeto visual personalizado, se puede [exportar a PowerPoint](service-publish-to-powerpoint.md) y se mostrará en los correos electrónicos que reciban los usuarios al [suscribirse a las páginas de informe](service-report-subscribe.md). También se pueden usar como [objetos visuales personalizados estándar](power-bi-custom-visuals.md), se pueden agregar a informes del servicio Power BI y Power BI Desktop y verse e insertarse en Power BI Mobile.
+Un *objeto visual personalizado certificado* es aquel que cumple un conjunto de requisitos de código y que ha superado estrictas pruebas de seguridad.  Una vez certificado un objeto visual personalizado, se puede [exportar a PowerPoint](consumer/end-user-powerpoint.md) y se mostrará en los correos electrónicos que reciban los usuarios al [suscribirse a las páginas de informe](consumer/end-user-subscribe.md). También se pueden usar como [objetos visuales personalizados estándar](power-bi-custom-visuals.md), se pueden agregar a informes del servicio Power BI y Power BI Desktop y verse e insertarse en Power BI Mobile.
 
 ¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a [Microsoft AppSource](https://appsource.microsoft.com)? Para ver cómo hacerlo, consulte [Introducción a las Herramientas de desarrollo](service-custom-visuals-getting-started-with-developer-tools.md).
 

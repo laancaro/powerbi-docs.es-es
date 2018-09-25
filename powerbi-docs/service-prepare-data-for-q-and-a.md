@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: efc806787f2a1d5cd110439c1c5505bb7e77e980
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f15bd3395ad9edc39589a0a5b1563cfcc00e2c3c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727476"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547896"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Cómo hacer que los datos de Excel funcionen correctamente con Preguntas y respuestas en Power BI
 Si es la persona que crea modelos de datos o compila libros de Excel que se usarán con Power BI, siga leyendo...
@@ -27,7 +27,7 @@ Preguntas y respuestas puede trabajar en cualquier archivo de Excel cargado que 
 ### <a name="how-qa-works-with-excel"></a>Funcionamiento de Preguntas y respuestas con Excel
 Preguntas y respuestas tiene un conjunto de capacidades de descripción de lenguaje natural básicas que funcionan en todos los datos. Cuenta con la búsqueda de palabras claves dependientes del contexto para tablas, columnas y nombres de los campos calculados de Excel. También sabe cómo filtrar, ordenar, agregar, agrupar y mostrar datos. 
 
-Por ejemplo, en una tabla de Excel denominada "Ventas", con columnas "Producto", "Mes", "Unidades vendidas", "Ventas brutas" y "Beneficios", podría formular preguntas sobre cualquiera de esas entidades.  Podría pedir que se mostraran las ventas, el total de beneficios por mes, ordenar los productos por unidades vendidas y muchas otras combinaciones. Obtenga más información sobre los [tipos de preguntas que puede formular](power-bi-q-and-a.md) y los [tipos de visualización que puede especificar en una consulta de Preguntas y respuestas](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
+Por ejemplo, en una tabla de Excel denominada "Ventas", con columnas "Producto", "Mes", "Unidades vendidas", "Ventas brutas" y "Beneficios", podría formular preguntas sobre cualquiera de esas entidades.  Podría pedir que se mostraran las ventas, el total de beneficios por mes, ordenar los productos por unidades vendidas y muchas otras combinaciones. Obtenga más información sobre los [tipos de preguntas que puede formular](consumer/end-user-q-and-a.md) y los [tipos de visualización que puede especificar en una consulta de Preguntas y respuestas](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="prepare-an-excel-dataset-for-qa"></a>Preparación de un conjunto de datos de Excel para Preguntas y respuestas
 Preguntas y respuestas se basa en los nombres de tablas, columnas y campos calculados para responder a preguntas específicas de datos, lo que significa que lo que llama entidades en su libro es muy importante.
@@ -44,8 +44,8 @@ Estas son algunas sugerencias para sacar el máximo partido de Preguntas y respu
 * Abra el conjunto de datos en Power BI Desktop y podrá crear nuevas columnas, crear medidas calculadas, concatenar campos para crear valores únicos, clasificar los datos por tipo (por ejemplo, fechas, cadenas, datos geográficos, imágenes, direcciones URL) y mucho más.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Volver a [Preguntas y respuestas en Power BI](power-bi-q-and-a.md)  
-[Preparación de conjuntos de datos locales para Preguntas y respuestas](service-q-and-a-direct-query.md)   
+Volver a [Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)  
+[Preparación de conjuntos de datos locales para Preguntas y respuestas](consumer/end-user-q-and-a-direct-query.md)   
 [Guía de inicio rápido de Preguntas y respuestas](power-bi-visualization-introduction-to-q-and-a.md)  
 [Obtener datos (para Power BI)](service-get-data.md)  
 

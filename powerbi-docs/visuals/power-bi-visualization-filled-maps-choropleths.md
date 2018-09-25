@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a0216b5659548af0b69cdb1b94df887eec0bd4e0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83826e812f9173db522c929ae80c31fc7134e5bd
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748917"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549854"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos en Power BI
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región.  Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).    
@@ -109,7 +109,7 @@ Si no tiene acceso a los datos de latitud y longitud, [siga estas instrucciones 
 Para más ayuda con las visualizaciones de mapa, consulte [Sugerencias y trucos para visualizaciones de mapa](power-bi-map-tips-and-tricks.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Agregar el mapa coroplético como un icono de panel (anclar el objeto visual)](../service-dashboard-tiles.md)    
+[Agregar el mapa coroplético como un icono de panel (anclar el objeto visual)](../consumer/end-user-tiles.md)    
  [Agregar una visualización a un informe](power-bi-report-add-visualizations-i.md)  
  [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)    
  [Cambiar el tipo de visualización que se está usando](power-bi-report-change-visualization-type.md)      

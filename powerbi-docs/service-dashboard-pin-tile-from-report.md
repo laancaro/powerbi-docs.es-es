@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 968cf7e573a298c2a82adaf2092a9d35ffa397e5
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 75543bfc381f0a8391fe4422d677913ab61ad363
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34240219"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550061"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 ## <a name="pinning-tiles-from-a-report"></a>Anclar iconos desde un informe
-Una manera de agregar un nuevo [icono del panel](service-dashboard-tiles.md) es desde un [informe de Power BI](service-reports.md). De hecho, puede agregar muchos nuevos iconos desde un informe.  Cada uno de estos iconos es un vínculo que vuelve al informe.
+Una manera de agregar un nuevo [icono del panel](consumer/end-user-tiles.md) es desde un [informe de Power BI](consumer/end-user-reports.md). De hecho, puede agregar muchos nuevos iconos desde un informe.  Cada uno de estos iconos es un vínculo que vuelve al informe.
 
 Además, pueden anclarse páginas de informe completas a un panel.  Esto también se denomina anclar un *icono* dinámico.  *Dinámico* porque puede interactuar con el icono en el panel y porque, a diferencia de los iconos de visualización individual, los cambios del informe se sincronizan con el panel. Obtenga más información a continuación.
 
@@ -58,15 +58,15 @@ Otra opción es anclar una página de informe completa a un panel. Se trata de u
 Para más información, consulte [Anclar una página de informe completa](service-dashboard-pin-live-tile-from-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Paneles en Power BI](service-dashboards.md)
+[Paneles en Power BI](consumer/end-user-dashboards.md)
 
-[Iconos de paneles en Power BI](service-dashboard-tiles.md)
+[Iconos de paneles en Power BI](consumer/end-user-tiles.md)
 
-[Informes en Power BI](service-reports.md)
+[Informes en Power BI](consumer/end-user-reports.md)
 
 [Actualizar datos en Power BI](refresh-data.md)
 
-[Conceptos básicos de Power BI](service-basic-concepts.md)
+[Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

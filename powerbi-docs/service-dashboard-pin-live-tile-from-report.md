@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7703709361a6233b6d04d6fb2131ba41f109ca36
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 3466280a452c89539d288a3e7d0a123855604e7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249879"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546381"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Anclar una página de informe completa, como un icono dinámico, a un panel de Power BI
-Otra manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es anclar una página de informe completa. Se trata de una manera fácil de anclar más de una visualización a la vez.  Además, al anclar una página completa, los iconos son *dinámicos* y puede interactuar con ellos desde el panel. Los cambios realizados en cualquiera de las visualizaciones del editor de informes, como agregar un filtro o cambiar los campos utilizados en el gráfico, se reflejan también en el icono del panel.  
+Otra manera de agregar un nuevo [icono de panel](consumer/end-user-tiles.md) es anclar una página de informe completa. Se trata de una manera fácil de anclar más de una visualización a la vez.  Además, al anclar una página completa, los iconos son *dinámicos* y puede interactuar con ellos desde el panel. Los cambios realizados en cualquiera de las visualizaciones del editor de informes, como agregar un filtro o cambiar los campos utilizados en el gráfico, se reflejan también en el icono del panel.  
 
 El anclado de los iconos dinámicos de los informes a los paneles solo está disponible en el servicio Power BI (app.powerbi.com).
 
@@ -53,7 +53,7 @@ Ve cómo Amanda ancla una página de un informe activo a un panel y, luego, siga
     ![Paneles con un icono dinámico](media/service-dashboard-pin-live-tile-from-report/pbi-live-tile.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Paneles en Power BI](service-dashboards.md)
+[Paneles en Power BI](consumer/end-user-dashboards.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

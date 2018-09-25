@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e71412febc5b8d8a9ee4ff20174496de0c7d51f2
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 9cf5855acc5efe773f8f06e6de9f769f75794bdb
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34251423"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548750"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
 Preguntas y respuestas es la herramienta de creación de informes ad hoc de Power BI. ¿Necesita buscar una determinada información? Formule una pregunta sobre los datos y recibirá una respuesta en forma de visualización.
 
-En este procedimiento, vamos a usar el servicio Power BI (app.powerbi.com) para abrir un panel, formular una pregunta con lenguaje natural para crear una visualización y anclar la visualización a un panel. Los paneles no están disponibles en Power BI Desktop. Para obtener información sobre el uso de Preguntas y respuestas con otras herramientas y contenidos de Power BI, consulte la [Introducción a Preguntas y respuestas de Power BI](power-bi-q-and-a.md). 
+En este procedimiento, vamos a usar el servicio Power BI (app.powerbi.com) para abrir un panel, formular una pregunta con lenguaje natural para crear una visualización y anclar la visualización a un panel. Los paneles no están disponibles en Power BI Desktop. Para obtener información sobre el uso de Preguntas y respuestas con otras herramientas y contenidos de Power BI, consulte la [Introducción a Preguntas y respuestas de Power BI](consumer/end-user-q-and-a.md). 
 
 Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-retail-analysis.md).
 
 
-1. Abra un [panel](service-dashboards.md) en el que haya al menos un icono anclado desde un informe. Al formular una pregunta, Power BI buscará la respuesta en cualquier conjunto de datos que tenga un icono a ese panel.  Para más información, consulte cómo [obtener datos](service-get-data.md).
+1. Abra un [panel](consumer/end-user-dashboards.md) en el que haya al menos un icono anclado desde un informe. Al formular una pregunta, Power BI buscará la respuesta en cualquier conjunto de datos que tenga un icono a ese panel.  Para más información, consulte cómo [obtener datos](service-get-data.md).
 2. En el cuadro de pregunta de la parte superior del panel, comience a escribir lo que quiere saber acerca de los datos.  
    ![Cuadro de pregunta de Preguntas y respuestas](media/service-dashboard-pin-tile-from-q-and-a/power-bi-question-box.png)
 3. Por ejemplo, a medida que escribe "ventas del año pasado por mes y territorio"...  
@@ -62,6 +62,6 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Cambiar el nombre, cambiar el tamaño, agregar un hipervínculo, cambiar la posición del icono, etc](service-dashboard-edit-tile.md)    
-[Mostrar el icono de panel en modo de Enfoque](service-focus-mode.md)     
-[Volver a Preguntas y respuestas en Power BI](power-bi-q-and-a.md)  
+[Mostrar el icono de panel en modo de Enfoque](consumer/end-user-focus.md)     
+[Volver a Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

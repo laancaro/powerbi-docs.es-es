@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/26/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e257fd245687f2aeb83a9ee45c0342cf16392d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: c8f99cf9c4d0645638b2ef300606f89a2d28aa0d
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34561710"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545977"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adición de un filtro a un informe del servicio Power BI (en la vista de edición)
 > [!TIP]
@@ -26,13 +26,13 @@ Para los ejemplos de este artículo se usa el servicio Power BI. Sin embargo, lo
 > 
 
 ## <a name="what-is-the-difference-between-report-filters-in-editing-view-versus-reading-view"></a>Diferencias entre los filtros de informes en la Vista de edición en comparación con la Vista de lectura
-Existen dos modos de interactuar con los informes: la [Vista de lectura](service-reading-view-and-editing-view.md) y la [Vista de edición](service-interact-with-a-report-in-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
+Existen dos modos de interactuar con los informes: la [Vista de lectura](consumer/end-user-reading-view.md) y la [Vista de edición](service-interact-with-a-report-in-editing-view.md).  Y las funcionalidades de filtrado disponibles dependen del modo en el que se encuentre.
 
 * En la Vista de edición, puede agregar filtros de informes, de páginas y de objetos visuales. Al guardar el informe, los filtros se guardan con él. Las personas que consulten el informe en la vista de lectura pueden interactuar con los filtros que haya agregado.
 * En la vista de lectura, puede interactuar con cualquier filtro de informe, obtención de detalles, página y objeto visual que ya exista en el informe, pero no podrá agregar nuevos filtros. Pero tenga en cuenta que los cambios que realice en el panel Filtros se guardan con el informe, aunque el informe se consulte en una aplicación móvil y aunque salga del informe y vuelva a él más tarde.  
 
 > [!NOTE]
-> En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para más información sobre los filtros en la vista de lectura, vea [Interacción con un informe en la vista de lectura en Power BI](service-reading-view-and-editing-view.md).
+> En este artículo se describe cómo crear filtros en la **Vista de edición** del informe.  Para más información sobre los filtros en la vista de lectura, vea [Interacción con un informe en la vista de lectura en Power BI](consumer/end-user-reading-view.md).
 
 
 ## <a name="filters-available-in-the-power-bi-filters-pane"></a>Filtros disponibles en el panel *Filtros* de Power BI
@@ -58,7 +58,7 @@ Existen dos modos de hacerlo:
 * mediante la identificación de un campo que ya no se utiliza en la visualización y la adición de ese campo directamente al cubo **Filtros de nivel visual**.
 
 ### <a name="by-filtering-the-fields-already-in-the-visualization"></a>Mediante el filtrado de los campos que ya hay en la visualización
-1. Abra un [informe en la Vista de edición](service-reading-view-and-editing-view.md).
+1. Abra un [informe en la Vista de edición](consumer/end-user-reading-view.md).
    
    ![](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Abra el panel Visualizaciones y filtros y el panel Campos (si no están ya abiertos).
@@ -72,7 +72,7 @@ Existen dos modos de hacerlo:
    * Desplácese hacia abajo hasta el área **Filtros de nivel visual** y seleccione la flecha para expandir el campo que quiere filtrar. En este ejemplo vamos a filtrar **StoreNumberName**.
      
       ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
-   * Establezca controles de filtrado **básico**, **avanzado** o **Top N** (consulte [Uso de filtros de informe](power-bi-how-to-report-filter.md)). En este ejemplo, seleccionaremos el filtrado básico y colocaremos marcas de verificación junto a los números 10, 11, 15 y 18.
+   * Establezca controles de filtrado **básico**, **avanzado** o **Top N** (consulte [Uso de filtros de informe](consumer/end-user-report-filter.md)). En este ejemplo, seleccionaremos el filtrado básico y colocaremos marcas de verificación junto a los números 10, 11, 15 y 18.
      
       ![](media/power-bi-report-add-filter/power-bi-basic-filters.png) 
    * El objeto visual cambia para reflejar el nuevo filtro. Si guarda el informe con el filtro, los lectores de informes pueden interactuar con el filtro en la Vista de lectura y activar o desactivar valores.
@@ -91,10 +91,10 @@ Existen dos modos de hacerlo:
      ![](media/power-bi-report-add-filter/power-bi-filtered-andrew.png)
 
 ## <a name="add-a-filter-to-an-entire-page-aka-page-view-filter"></a>Agregar un filtro a toda una página (también conocido como filtro de vista de página)
-1. Abra un [informe en la Vista de edición](service-reading-view-and-editing-view.md).
+1. Abra un [informe en la Vista de edición](consumer/end-user-reading-view.md).
 2. Abra el panel Visualizaciones y filtros y el panel Campos (si no están ya abiertos).
 3. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel de página y arrástrelo al área **Filtros de nivel de página**.  
-4. Seleccione los valores que quiera filtrar y establecer mediante los controles de filtrado **básico** o **avanzado** (consulte [Uso de filtros de informe](power-bi-how-to-report-filter.md)).
+4. Seleccione los valores que quiera filtrar y establecer mediante los controles de filtrado **básico** o **avanzado** (consulte [Uso de filtros de informe](consumer/end-user-report-filter.md)).
    
    Todas la visualizaciones de la página, que se ven afectadas por este filtro, se vuelven a trazar para reflejar el cambio. 
    
@@ -130,10 +130,10 @@ Veamos cómo funciona el filtro de obtención de detalles.
     ![](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 
 ## <a name="add-a-filter-to-an-entire-report-aka-report-filter"></a>Incorporación de un filtro a un informe entero (también conocido como filtro de informe)
-1. Abra un [informe en la Vista de edición](service-reading-view-and-editing-view.md).
+1. Abra un [informe en la Vista de edición](consumer/end-user-reading-view.md).
 2. Abra el panel Visualizaciones y filtros y el panel Campos (si no están ya abiertos).
 3. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel de informe y arrástrelo al área **Filtros de nivel de informe**.  
-4. Seleccione los valores que desea filtrar (consulte [Uso de filtros de informe](power-bi-how-to-report-filter.md)).
+4. Seleccione los valores que desea filtrar (consulte [Uso de filtros de informe](consumer/end-user-report-filter.md)).
 
     Los objetos visuales de la página activa, y de todas las páginas del informe, cambian para reflejar el nuevo filtro. Si guarda el informe con el filtro, los lectores de informes pueden interactuar con el filtro en la Vista de lectura y activar o desactivar valores.
 
@@ -149,13 +149,13 @@ Veamos cómo funciona el filtro de obtención de detalles.
 - Si ha realizado muchos cambios en los filtros y quiere volver a la configuración predeterminada del autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
 
 ## <a name="next-steps"></a>Pasos siguientes
- [Uso de filtros de informe](power-bi-how-to-report-filter.md)
+ [Uso de filtros de informe](consumer/end-user-report-filter.md)
 
   [Filtrado y resaltado en informes](power-bi-reports-filters-and-highlighting.md)
 
-[Interacción con filtros y resaltado en la Vista de lectura del informe](service-reading-view-and-editing-view.md)
+[Interacción con filtros y resaltado en la Vista de lectura del informe](consumer/end-user-reading-view.md)
 
-[Cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales de los informes](service-reports-visual-interactions.md)
+[Cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales de los informes](consumer/end-user-interactions.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

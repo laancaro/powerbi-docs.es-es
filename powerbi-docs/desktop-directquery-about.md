@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 81a8b5454e39088b8b406e600707d1d5073e14dc
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 1104c7f90f46252a74c4aa8e5ec573a159ef1c40
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330176"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550130"
 ---
 # <a name="using-directquery-in-power-bi"></a>Uso de DirectQuery en Power BI
 Puede conectarse a todo tipo de orígenes de datos distintos cuando usa **Power BI Desktop** o el **servicio Power BI** y puede establecer esas conexiones de datos de distintas formas. Puede *importar* datos a Power BI, que es la forma más común de obtener datos, o bien puede conectarse directamente a los datos en su repositorio de origen original, que se conoce como **DirectQuery**. En este artículo se describe **DirectQuery** y sus funcionalidades, incluidos los temas siguientes:
@@ -277,7 +277,7 @@ Cuando cree un informe usando una conexión de DirectQuery, siga las instruccion
   
   ![](media/desktop-directquery-about/directquery-about_04.png)
   
-  En DirectQuery, el filtrado y resaltado cruzados requieren que se envíen consultas al origen subyacente, por lo que se debe desactivar la interacción si se tarda mucho en responder a las selecciones de los usuarios. Sin embargo, esta interacción se puede desactivar, ya sea para todo el informe (tal y como se describió anteriormente para las *opciones de reducción de consulta*), o caso por caso como se describe [en este artículo](service-reports-visual-interactions.md).
+  En DirectQuery, el filtrado y resaltado cruzados requieren que se envíen consultas al origen subyacente, por lo que se debe desactivar la interacción si se tarda mucho en responder a las selecciones de los usuarios. Sin embargo, esta interacción se puede desactivar, ya sea para todo el informe (tal y como se describió anteriormente para las *opciones de reducción de consulta*), o caso por caso como se describe [en este artículo](consumer/end-user-interactions.md).
 
 Además de la lista anterior de sugerencias, tenga en cuenta que cada una de las funcionalidades de creación de informes puede generar problemas de rendimiento:
 

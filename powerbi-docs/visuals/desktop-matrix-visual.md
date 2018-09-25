@@ -1,21 +1,21 @@
 ---
 title: Uso del objeto visual de matriz en Power BI Desktop
 description: Obtenga información acerca de cómo el objeto visual de matriz permite diseños de paso y resaltado granular en Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 396028e1bcb58e94e545d848cf3cae3101091326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748918"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565944"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Uso del objeto visual de matriz en Power BI Desktop
 Con la característica de objeto visual **Matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.

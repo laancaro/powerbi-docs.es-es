@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 327e9d9973aabb17761b55d355598462ce70e20e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 580d1ead35042d14c155c5a28fdb6ba6e6dbcd54
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726065"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545000"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, esto se consigue destacando la información más importante y manteniéndolo limpio y despejado.
@@ -65,7 +65,7 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * No mezcle los niveles de precisión y tiempo. Asegúrese de que los intervalos de tiempo se comprenden perfectamente.  No coloque un gráfico del mes pasado junto a gráficos filtrados de un mes concreto del año.
 * No mezcle medidas grandes y pequeñas en la misma escala, por ejemplo, en un gráfico de barras o líneas.  Por ejemplo, una medida puede estar en millones y otra en millares.  Con una escala tan grande, sería difícil comprender las diferencias de la medida en millares.  Si tiene que combinarlas, elija una visualización que permita usar un segundo eje.
 * No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras se entienden bien sin necesidad de mostrar el número real.
-* Preste atención a la manera de [ordenar los gráficos](power-bi-report-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
+* Preste atención a la manera de [ordenar los gráficos](consumer/end-user-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
 * Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.
 
 Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -81,5 +81,5 @@ Si desea aprender a diseñar paneles fantásticos, considere la posibilidad de a
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Creación de un panel desde un informe](service-dashboard-create.md)  
-[Power BI: Conceptos básicos](service-basic-concepts.md)  
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

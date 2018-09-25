@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e8e9b21e62f0a91234fccf78977a696e321ed8dc
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: f4eb0ec93057f309720fc4fef33a55d924881383
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "38924544"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544633"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Conexión a Adobe Analytics con Power BI
 Para conectarse a Adobe Analytics a través de Power BI, empiece por conectarse a su cuenta de Adobe Analytics Marketing Cloud. Aparece una aplicación con un panel de Power BI y un conjunto de informes de Power BI que proporcionan información acerca del tráfico de su sitio y las dimensiones de usuarios. Los datos se actualizan automáticamente una vez al día. Puede interactuar con el panel y los informes, pero no puede guardar los cambios.
@@ -94,7 +94,7 @@ Si después de proporcionar las credenciales aparece un error que indica que no 
 Si ha pasado correctamente la pantalla de credenciales antes de que se produzca un error, es posible que los informes estén tardando demasiado tiempo en completarse. Un error común es *"Failed to get data from the Adobe Analytics report. Contents included &quot;referrer, page&quot;, approximate duration was xx seconds"* (No se pudieron obtener datos del informe de Adobe Analytics. El contenido incluía "origen de referencia, página", la duración aproximada fue de xx segundos"). Revise la sección "Qué se incluye" y compare el tamaño de la instancia de Adobe. Lamentablemente, en la actualidad no hay forma de evitar este tiempo de espera. Sin embargo, estamos considerando la posibilidad de realizar actualizaciones para ofrecer una mejor compatibilidad con instancias mayores, por lo que le solicitamos que envíe sus comentarios al equipo de Power BI a través de https://ideas.powerbi.com.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
 * [Obtener datos en Power BI](service-get-data.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

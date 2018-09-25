@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7a002bb99cb80d805298d29916d4eb56f692b479
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 617809e072a492fb9887930e58bafd89ca8201e8
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310300"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544978"
 ---
 # <a name="static-content-in-power-bi-reports"></a>Contenido estático en informes de Power BI
 Con el servicio Power BI y Power BI Desktop se pueden agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
@@ -65,6 +65,6 @@ Utilice en su lugar Power BI Desktop para [agregar imágenes estáticas a un inf
 ### <a name="next-steps"></a>Pasos siguientes
 [Agregar un hipervínculo a un cuadro de texto](service-add-hyperlink-to-text-box.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

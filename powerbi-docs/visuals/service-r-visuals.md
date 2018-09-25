@@ -1,21 +1,21 @@
 ---
 title: Crear análisis y visualizaciones avanzados con scripts R en Power BI
 description: Usar scripts R en Power BI para crear visualizaciones y análisis avanzados
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/24/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 36c4e8e02748a6c2ffa8da724c2ede80f4815d3c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a3407458cfe6e395a5a209e136af1d4c9a7aa6a6
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744813"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566358"
 ---
 # <a name="creating-r-visuals-in-the-power-bi-service"></a>Crear objetos visuales R en el servicio Power BI
 El servicio Power BI permite ver e interactuar con objetos visuales creados con scripts R. Los objetos visuales creados con scripts R, normalmente denominados *objetos visuales R*, pueden presentar forma de datos y análisis avanzados como la previsión, con análisis enriquecidos y la potencia de visualización de R.

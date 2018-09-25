@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/04/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 58a739c0d566030d2b09094264da14f6afd6d6fc
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 83b9d87bf494c3b9e974ee9dfdfa97beb68a6579
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727591"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545806"
 ---
 # <a name="full-screen-mode-in-power-bi-service"></a>Modo de pantalla completa en el servicio Power BI
 ## <a name="what-is-full-screen-mode"></a>¿Qué es el modo de pantalla completa?
@@ -24,7 +24,7 @@ ms.locfileid: "44727591"
 
 Visualice el contenido de Power BI (paneles, paginas de informes, iconos y visualizaciones) sin la distracción de los menús y las barras de navegación.  En todo momento se disfruta de una vista completa sin adulterar del contenido con un solo vistazo. Esto a veces se conoce como modo de televisión. La funcionalidad disponible en modo de pantalla completa varía según el contenido. 
 
-Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones y la vista de informe](desktop-report-view.md), y el [modo de enfoque para los elementos visuales del informe](service-focus-mode.md).
+Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](consumer/mobile/mobile-windows-10-app-presentation-mode.md). Power BI Desktop no tiene un modo de pantalla completa para los informes o las visualizaciones, pero tiene Ajustar a la página para la [vista de relaciones y la vista de informe](desktop-report-view.md), y el [modo de enfoque para los elementos visuales del informe](consumer/end-user-focus.md).
 
  
 
@@ -35,7 +35,7 @@ Algunos usos del modo de pantalla completa son:
 * Visualizar en una pantalla pequeña.
 * Revisar los elementos en modo bloqueado: puede tocar la pantalla o pasar el mouse sobre los iconos sin abrir el panel o el informe subyacente.
 
-> **NOTA**: El modo de pantalla completa es diferente del [modo de enfoque (emergente)](service-focus-mode.md).
+> **NOTA**: El modo de pantalla completa es diferente del [modo de enfoque (emergente)](consumer/end-user-focus.md).
 > 
 > 
 
@@ -78,7 +78,7 @@ Vea cómo Amanda abre su panel y navega por él en modo de pantalla completa y, 
       ![](media/service-fullscreen-mode/exit-fullscreen-new.png)
 
 ## <a name="visualizations-and-dashboard-tiles-in-full-screen-mode"></a>Visualizaciones e iconos de paneles en modo de pantalla completa
-1. Para mostrar iconos de paneles y visualizaciones de informes en modo de pantalla completa, debe empezar con un icono o una visualización que ya esté en el [modo de enfoque](service-focus-mode.md). 
+1. Para mostrar iconos de paneles y visualizaciones de informes en modo de pantalla completa, debe empezar con un icono o una visualización que ya esté en el [modo de enfoque](consumer/end-user-focus.md). 
    
     ![](media/service-fullscreen-mode/power-bi-focus3.png)
 2. A continuación, seleccione el icono de pantalla completa ![icono de pantalla completa](media/service-fullscreen-mode/power-bi-full-screen-icon.png)  de ese icono u objeto visual. El icono u objeto visual aparecerá en pantalla completa sin menús ni barras de navegación.
@@ -86,8 +86,8 @@ Vea cómo Amanda abre su panel y navega por él en modo de pantalla completa y, 
     ![](media/service-fullscreen-mode/power-bi-fullscreen.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Paneles en Power BI](service-dashboards.md)  
-[Modo de enfoque](service-focus-mode.md)    
+[Paneles en Power BI](consumer/end-user-dashboards.md)  
+[Modo de enfoque](consumer/end-user-focus.md)    
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

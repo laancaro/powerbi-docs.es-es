@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/24/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: af90ba6bcf85c07d2d046ed21f733ca7c16e3856
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a22bee33254e447f27f717b78a53fe3a5cc34fb2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242140"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545461"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
 Sabemos que es fundamental lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque cada persona ve estos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
@@ -39,7 +39,7 @@ En el servicio Power BI, abra un informe y seleccione **Vista** en la barra de m
 
 ![](media/power-bi-report-display-settings/power-bi-change-page-view.png)
 
-La configuración de Vista de página está disponible en [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md). En la vista de edición, el propietario de un informe puede asignar una configuración de vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando los compañeros abren ese informe en la vista de lectura, ven las páginas del informe con la configuración del propietario.  En la vista de lectura, los compañeros pueden cambiar *algunas* opciones de la vista de página, pero los cambios no se guardarán cuando cierre el informe.
+La configuración de Vista de página está disponible en [la vista de lectura y la vista de edición](consumer/end-user-reading-view.md). En la vista de edición, el propietario de un informe puede asignar una configuración de vista de página a las páginas individuales del informe y esa configuración se guarda con el informe. Cuando los compañeros abren ese informe en la vista de lectura, ven las páginas del informe con la configuración del propietario.  En la vista de lectura, los compañeros pueden cambiar *algunas* opciones de la vista de página, pero los cambios no se guardarán cuando cierre el informe.
 
 ##    <a name="page-view-settings"></a>Configuración de la vista de página
 El primer conjunto de opciones de la *vista de página* controla la presentación de la página del informe en relación con la ventana del explorador.  Puede elegir entre:
@@ -62,7 +62,7 @@ El segundo conjunto de opciones de la *vista de página* controla la posición d
 ## <a name="page-size-settings"></a>Configuración de Tamaño de página
 ![](media/power-bi-report-display-settings/power-bi--page-size.png)
 
-La configuración del *tamaño de página* solo está disponible para los propietarios de los informes. En el servicio Power BI (app.powerbi.com), esto significa que puede abrir el informe en la [vista de edición](service-reading-view-and-editing-view.md). Este control de configuración controla la relación de aspecto de pantalla y el tamaño real (en píxeles) del lienzo del informe.   
+La configuración del *tamaño de página* solo está disponible para los propietarios de los informes. En el servicio Power BI (app.powerbi.com), esto significa que puede abrir el informe en la [vista de edición](consumer/end-user-reading-view.md). Este control de configuración controla la relación de aspecto de pantalla y el tamaño real (en píxeles) del lienzo del informe.   
 
 * Relación 4:3
 * Relación 16:9 (valor predeterminado)
@@ -71,11 +71,11 @@ La configuración del *tamaño de página* solo está disponible para los propie
 * Personalizado (alto y ancho en píxeles)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Aprenda a usar la configuración de Vista de página y Tamaño de página en sus propios informes de Power BI](power-bi-change-report-display-settings.md).
+[Aprenda a usar la configuración de Vista de página y Tamaño de página en sus propios informes de Power BI](consumer/end-user-report-view.md).
 
-Más información sobre [informes de Power BI](service-reports.md)
+Más información sobre [informes de Power BI](consumer/end-user-reports.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

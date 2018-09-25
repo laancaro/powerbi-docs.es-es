@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 02c3998a95e7d481ee032513054933f1484ae7f9
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 8b4a0605df348957c4adb0d8e02975f4cd752307
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "36944615"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543805"
 ---
 # <a name="the-power-bi-samples"></a>Ejemplos de Power BI
 
@@ -79,7 +79,7 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
     ![Página del informe con un objeto visual coincidente resaltado](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](power-bi-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar. Si el icono estaba [anclado desde Excel](service-dashboard-pin-tile-from-excel.md), Excel Online se habría abierto en Power BI.
+   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](consumer/end-user-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar. Si el icono estaba [anclado desde Excel](service-dashboard-pin-tile-from-excel.md), Excel Online se habría abierto en Power BI.
    > 
    > 
 1. De vuelta en la pestaña **Conjuntos de datos**, tiene varias opciones para explorar el conjunto de datos.  No podrá abrirla y ver todas las filas y columnas (como podría hacer en Power BI Desktop o Excel).  Cuando un usuario comparte un paquete de contenido con sus compañeros, normalmente lo que desea es compartir la información, no dar a sus compañeros acceso directo a los datos. Pero eso no significa que no pueda explorar el conjunto de datos.  
@@ -89,7 +89,7 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
    * Una manera de explorarlo es mediante la creación de sus propios informes y visualizaciones desde cero.  Seleccione el icono de gráfico ![Icono de informe](media/sample-tutorial-connect-to-the-samples/power-bi-chart-icon4.png) para abrir el conjunto de datos en el modo de edición del informe.
      
        ![Informe completamente nuevo](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
-   * Otra manera de explorar el conjunto de datos es ejecutar [Información rápida](service-insights.md). Seleccione el botón de puntos suspensivos (...) y elija **Obtener información**. Cuando la información ya está lista, seleccione **Ver información**.
+   * Otra manera de explorar el conjunto de datos es ejecutar [Información rápida](consumer/end-user-insights.md). Seleccione el botón de puntos suspensivos (...) y elija **Obtener información**. Cuando la información ya está lista, seleccione **Ver información**.
      
        ![Informe de conclusiones](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -130,7 +130,7 @@ Ahora, explore el conjunto de datos, las relaciones y los informes por su cuenta
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Conceptos básicos de Power BI](service-basic-concepts.md)
+[Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)
 
 [Ejemplos del servicio Power BI](sample-datasets.md)
 

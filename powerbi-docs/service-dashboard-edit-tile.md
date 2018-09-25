@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e2df8ecd746e34b85a3fdd15943ff6eda5712663
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598987"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546105"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar o quitar un icono de panel
 
@@ -36,7 +36,7 @@ En este artículo se tratan los temas siguientes:
 * [Eliminación de un icono](#delete)
   
   > [!TIP]
-  > Para cambiar la visualización que aparece en el icono, elimínelo y agregue un nuevo [icono de panel](service-dashboard-tiles.md).
+  > Para cambiar la visualización que aparece en el icono, elimínelo y agregue un nuevo [icono de panel](consumer/end-user-tiles.md).
 
   
 ## <a name="prerequisites"></a>Requisitos previos
@@ -142,11 +142,11 @@ De forma predeterminada, la selección de un icono normalmente le lleva al infor
 
 - - -
 ## <a name="next-steps"></a>Pasos siguientes
-[Iconos de paneles en Power BI](service-dashboard-tiles.md)
+[Iconos de paneles en Power BI](consumer/end-user-tiles.md)
 
-[Paneles en Power BI](service-dashboards.md)
+[Paneles en Power BI](consumer/end-user-dashboards.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

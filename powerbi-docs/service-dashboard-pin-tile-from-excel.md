@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 90f32e96a6e2c7777c5d1535314e2c85989e1932
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599603"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548060"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  
@@ -49,7 +49,7 @@ No puede editar el libro en Power BI, Pero si necesita realizar algunos cambios,
     ![Excel Online en Power BI](media/service-dashboard-pin-tile-from-excel/power-bi-opened.png)
 
 ## <a name="pin-a-range-of-cells-to-a-dashboard"></a>Anclar un rango de celdas a un panel
-Una manera de agregar un nuevo [icono de panel](service-dashboard-tiles.md) es desde un libro de Excel en Power BI. Los rangos se pueden anclar desde los libros de Excel que se hayan guardado en su OneDrive para la Empresa u otra biblioteca de documentos compartida en grupo. Los rangos pueden contener datos, gráficos, tablas, tablas dinámicas, gráficos dinámicos y otras partes de Excel.
+Una manera de agregar un nuevo [icono de panel](consumer/end-user-tiles.md) es desde un libro de Excel en Power BI. Los rangos se pueden anclar desde los libros de Excel que se hayan guardado en su OneDrive para la Empresa u otra biblioteca de documentos compartida en grupo. Los rangos pueden contener datos, gráficos, tablas, tablas dinámicas, gráficos dinámicos y otras partes de Excel.
 
 1. Resalte las celdas que quiere anclar a un panel.
    

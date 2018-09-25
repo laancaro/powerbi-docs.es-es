@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 27b3f18143fe5f354fb9a6965b1d3a58ba33f556
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726924"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546128"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -161,7 +161,7 @@ Los usuarios pueden ver diferentes opciones en la interfaz de usuario en funció
 
 ### <a name="export-data"></a>Exportar datos
 
-Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](power-bi-visualization-export-data.md)
+Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](consumer/end-user-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 
@@ -170,13 +170,13 @@ Los usuarios de la organización pueden exportar datos desde un icono o una visu
 
 ### <a name="export-reports-as-powerpoint-presentations"></a>Exportar informes como presentaciones de PowerPoint
 
-Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint. [Más información](service-publish-to-powerpoint.md)
+Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint. [Más información](consumer/end-user-powerpoint.md)
 
 ![](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Imprimir paneles e informes
 
-Los usuarios de la organización pueden imprimir paneles e informes. [Más información](service-print.md)
+Los usuarios de la organización pueden imprimir paneles e informes. [Más información](consumer/end-user-print.md)
 
 ![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
@@ -205,7 +205,7 @@ Puede cambiar el valor a **Habilitado** y luego especificar quién obtiene esta 
 > [!NOTE]
 > Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
 
-Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](service-create-distribute-apps.md#how-to-install-an-app-automatically-for-end-users).
+Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
 
 ## <a name="integration-settings"></a>Configuración de integración
 

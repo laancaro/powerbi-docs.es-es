@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2bbc619c2f581e26e36f03013f3db248fab49610
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624353"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547577"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Administración del área de trabajo de la aplicación en Power BI y Office 365
-Como creador o administrador de un [área de trabajo de la aplicación en Power BI](service-install-use-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
+Como creador o administrador de un [área de trabajo de la aplicación en Power BI](consumer/end-user-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
 
 > [!NOTE]
-> La versión preliminar de la nueva experiencia de áreas de trabajo.cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
+> La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
 
 **En Power BI** , puede:
 
@@ -76,7 +76,7 @@ Cuando se distribuya la aplicación desde el área de trabajo de la aplicación,
 3. Seleccione **Guardar** o **Descartar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
-* [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
+* [Publicar aplicaciones con los paneles e informes de Power BI](consumer/end-user-create-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

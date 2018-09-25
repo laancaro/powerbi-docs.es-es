@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b479c46ffe3e51ad5f15cc9884a2ea02626a4cc5
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: bd8a8b9a9aff451282c5cef8a6dd6f27b90335d7
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38876891"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548704"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Conexión a Google Analytics con Power BI
 Para conectarse a Google Analytics a través de Power BI, empiece por conectarse a su cuenta de Google Analytics. Obtendrá un panel de Power BI y un conjunto de informes de Power BI que proporcionan información sobre el tráfico de su sitio y las dimensiones del usuario. Puede interactuar con el panel y los informes, pero no puede guardar los cambios. Los datos se actualizarán automáticamente una vez al día.
@@ -69,7 +69,7 @@ Si recibe un error que indica que las credenciales no son válidas, pero pudo in
 * Desde el sitio de soporte técnico de Power BI (desde donde está leyendo este artículo), seleccione **Ponerse en contacto con soporte técnico** en el lado derecho de la página.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
 * [Obtener datos en Power BI](service-get-data.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

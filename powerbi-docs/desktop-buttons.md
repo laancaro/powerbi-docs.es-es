@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6abe55f41211e5af907fb0a2642b3f8420236e1b
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 54cb45d1e9649fa761cfaf67aab708a2707e7516
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39330498"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546763"
 ---
 # <a name="using-buttons-in-power-bi"></a>Uso de los botones en Power BI
 Usar **botones** en Power BI le permite crear informes y paneles que se comportan como aplicaciones, de modo que pueda preparar un entorno interesante para que los usuarios activen el contenido de Power BI, así como cuando hagan clic y realicen otras acciones en este. **Power BI Desktop** le permite agregar botones a informes, así como compartir o publicar estos informes en el servicio Power BI para crear paneles que ofrezcan una experiencia parecida a la de una aplicación a los usuarios.
@@ -75,6 +75,6 @@ Puede probar los botones que cree para el informe mediante la combinación *Ctrl
 Para obtener más información sobre las características que son similares o que interactúan con los botones, vea los siguientes artículos:
 
 * [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
-* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](service-focus-mode.md)
+* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](consumer/end-user-focus.md)
 * [Uso de marcadores para compartir información detallada y crear historias en Power BI](desktop-bookmarks.md)
 

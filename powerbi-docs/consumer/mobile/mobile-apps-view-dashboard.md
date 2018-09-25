@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 9738660ced6b8dbe32e7308b86f671f21c8c312c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 1b5f62e965a5a5df97a16c20f60043db534b8f77
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748928"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547600"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -31,7 +31,7 @@ Los paneles sirven como portal para ver los procesos y el ciclo de vida de su em
 Para ver más paneles e informes en su dispositivo móvil, tiene que crearlos o conectarse a ellos en un explorador web. 
 
 1. Vaya al servicio Power BI ([https://www.powerbi.com](https://www.powerbi.com)) y [regístrese para obtener una cuenta](../../service-self-service-signup-for-power-bi.md).
-2. [Cree sus propios informes y paneles de Power BI](../../service-get-started.md) o conéctese a [aplicaciones de Power BI](../../service-connect-to-services.md) existentes para disfrutar de varios servicios, como [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) y [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
+2. [Cree sus propios informes y paneles de Power BI](../../service-get-started.md) o conéctese a [aplicaciones de Power BI](../end-user-connect-to-services.md) existentes para disfrutar de varios servicios, como [Microsoft Dynamics CRM](../../service-connect-to-microsoft-dynamics-crm.md) y [Adobe Analytics](../../service-connect-to-adobe-analytics.md).
 
 Este es un panel de Power BI en el servicio Power BI:
 

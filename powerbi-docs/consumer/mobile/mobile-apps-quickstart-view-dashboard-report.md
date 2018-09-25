@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: quickstart
 ms.date: 05/08/2018
 ms.author: maggies
-ms.openlocfilehash: 574c28fc3e921f2b0e245cf965e23bd6b264f037
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 89f45409607cbe8da6cb1b167b6e71238d6edde0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745045"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548819"
 ---
 # <a name="quickstart-explore-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Inicio rápido: Visualización de paneles e informes en las aplicaciones móviles de Power BI
 En este inicio rápido, va a explorar un ejemplo de panel e informe en las aplicaciones móviles de Power BI en un teléfono Android. También puede aplicarlo en otras aplicaciones móviles. 
@@ -153,5 +153,5 @@ Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de 
 En este inicio rápido, va a explorar un ejemplo de panel e informe en su dispositivo Android. Obtenga más información sobre cómo trabajar en el servicio Power BI. 
 
 > [!div class="nextstepaction"]
-> [Inicio rápido: Moverse por el servicio Power BI](../../service-the-new-power-bi-experience.md)
+> [Inicio rápido: Moverse por el servicio Power BI](../end-user-experience.md)
 

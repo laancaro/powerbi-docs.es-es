@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f070b6649d8d120a889961fffd6b9b923422293e
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c42f484dc0f2515024a7fefe2edb1c81e286eb3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748888"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548474"
 ---
 # <a name="funnel-charts"></a>Gráficos de embudo
 Los gráficos de embudo ayudan a visualizar un proceso lineal con fases secuenciales conectadas. Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las distintas fases: Cliente potencial \> Cliente potencial calificado \> Cliente interesado \> Contrato \> Cierre.  De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
@@ -70,7 +70,7 @@ Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder co
    * Tasa de etapa a etapa (también conocida como tasa de abandono) que es el porcentaje de la fase anterior (en este caso, fase propuesta/fase de solución)
      
      ![](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Agregue el embudo como un icono de panel](../service-dashboard-tiles.md). 
+5. [Agregue el embudo como un icono de panel](../consumer/end-user-tiles.md). 
 6. [Guarde el informe](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
@@ -81,10 +81,10 @@ Al resaltar una barra en un gráfico de embudo, se realiza un filtrado cruzado d
 1. En el embudo, seleccione la barra **Propuesta**. Esto realiza un resaltado cruzado de las demás visualizaciones de la página. Use CTRL para realizar una selección múltiple.
    
    ![](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
-2. Para establecer las preferencias del resaltado cruzado y del filtrado cruzado de los objetos visuales, consulte [Interacciones visuales en Power BI](../service-reports-visual-interactions.md).
+2. Para establecer las preferencias del resaltado cruzado y del filtrado cruzado de los objetos visuales, consulte [Interacciones visuales en Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="create-a-funnel-chart-in-qa"></a>Crear un gráfico de embudo en Preguntas y respuestas
-Abra el panel de ejemplo de análisis de oportunidades, o cualquier otro panel que tenga al menos una visualización anclada del conjunto de datos de este ejemplo.  Cuando escriba una pregunta en Preguntas y respuestas, Power BI busca respuestas en todos los conjuntos de datos que están asociados (que tienen iconos anclados) al panel seleccionado. Para más información, consulte [Power BI: Conceptos básicos](../service-basic-concepts.md).
+Abra el panel de ejemplo de análisis de oportunidades, o cualquier otro panel que tenga al menos una visualización anclada del conjunto de datos de este ejemplo.  Cuando escriba una pregunta en Preguntas y respuestas, Power BI busca respuestas en todos los conjuntos de datos que están asociados (que tienen iconos anclados) al panel seleccionado. Para más información, consulte [Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md).
 
 1. En el panel de ejemplo de análisis de oportunidades, comience a escribir la pregunta en el cuadro Preguntas y respuestas.
    
@@ -97,7 +97,7 @@ Abra el panel de ejemplo de análisis de oportunidades, o cualquier otro panel q
 
 [Anclar una visualización a un informe](../service-dashboard-pin-tile-from-report.md)
 
-[Power BI: Conceptos básicos](../service-basic-concepts.md)
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

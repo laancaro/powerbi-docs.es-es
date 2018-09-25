@@ -9,15 +9,15 @@ ms.topic: conceptual
 ms.date: 01/17/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 320bcd80a6a258879568d323afdae60daacfee6c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 2c90db1c08ba1d172acc4d0e82d23409d835879a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727959"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543599"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Uso de Preguntas y respuestas para crear visualizaciones y generar informes
-En la [Introducción a Preguntas y respuestas](power-bi-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.
+En la [Introducción a Preguntas y respuestas](consumer/end-user-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.
 
 Preguntas y respuestas es interactivo y divertido y, con mucha frecuencia, una pregunta llevará a muchas otras, puesto que las visualizaciones revelan interesantes rutas para descubrir. Observe cómo Amanda muestra el uso de Preguntas y respuestas para crear visualizaciones, indagar en los objetos visuales y anclarlos en paneles.
 
@@ -64,7 +64,7 @@ Use Preguntas y respuestas para explorar el conjunto de datos y agregar visualiz
 
 ![](media/power-bi-tutorial-q-and-a/power-bi-view-related.png)
 
-Para poder usar Preguntas y respuestas en los informes, debe tener permisos de edición para el informe y el conjunto de datos subyacente. En el tema [Introducción a Preguntas y respuestas](power-bi-q-and-a.md) se hace referencia a esto como un escenario de *creador*. Si en lugar de esto está *consumiendo* un informe que se ha compartido con usted, Preguntas y respuestas no estará disponible.
+Para poder usar Preguntas y respuestas en los informes, debe tener permisos de edición para el informe y el conjunto de datos subyacente. En el tema [Introducción a Preguntas y respuestas](consumer/end-user-q-and-a.md) se hace referencia a esto como un escenario de *creador*. Si en lugar de esto está *consumiendo* un informe que se ha compartido con usted, Preguntas y respuestas no estará disponible.
 
 1. Abra un informe en la vista de edición (servicio Power BI) o en la vista de informe (Power BI Desktop) y seleccione **Formular una pregunta** desde la barra de menús.
 
@@ -98,14 +98,14 @@ Para poder usar Preguntas y respuestas en los informes, debe tener permisos de e
 Con Preguntas y respuestas, no solo puede pedir a sus datos que sean suficientemente aclaratorios, también puede indicar a Power BI cómo mostrar la respuesta. Solo tiene que agregar "como un <visualization type>" al final de la pregunta.  Por ejemplo, "mostrar volumen de inventario por planta como un mapa" y "mostrar total del inventario como una tarjeta".  Pruébelo usted mismo.
 
 ##  <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-- Si se ha conectado a un conjunto de datos mediante una conexión dinámica o una puerta de enlace, Preguntas y respuestas deben ser [habilitado para ese conjunto de datos](service-q-and-a-direct-query.md).
+- Si se ha conectado a un conjunto de datos mediante una conexión dinámica o una puerta de enlace, Preguntas y respuestas deben ser [habilitado para ese conjunto de datos](consumer/end-user-q-and-a-direct-query.md).
 
 - Ha abierto un informe y no ve la opción de Preguntas y respuestas. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en la vista de edición. Si no se puede abrir la vista de edición significa que no tiene permisos de edición para el informe y no podrá usar Preguntas y respuestas con ese informe específico.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Volver a [Preguntas y respuestas en Power BI](power-bi-q-and-a.md)   
+Volver a [Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)   
 [Tutorial: Uso de Preguntas y respuestas con el Ejemplo de análisis de minoristas](power-bi-visualization-introduction-to-q-and-a.md)   
-[Sugerencias para formular preguntas en Preguntas y respuestas](service-q-and-a-tips.md)   
+[Sugerencias para formular preguntas en Preguntas y respuestas](consumer/end-user-q-and-a-tips.md)   
 [Preparación de un libro para Preguntas y respuestas](service-prepare-data-for-q-and-a.md)  
-[Preparación de un conjunto de datos local para Preguntas y respuestas](service-q-and-a-direct-query.md)
+[Preparación de un conjunto de datos local para Preguntas y respuestas](consumer/end-user-q-and-a-direct-query.md)
 [Anclaje de un icono al panel desde Preguntas y respuestas](service-dashboard-pin-tile-from-q-and-a.md)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aa73da576a64a3245a3e8a9deab124dcefbc79f8
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 946746b1c868ca5310edd929434cc852400b5bc3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748677"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548083"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
 Los gráficos de rectángulos muestran los datos jerárquicos como un conjunto de rectángulos anidados.  Cada nivel de la jerarquía se representa mediante un rectángulo de color (llamado "rama") que contiene otros rectángulos ("hojas").  El espacio dentro de cada rectángulo se asigna según el valor cuantitativo medido, con los rectángulos dispuestos por el tamaño desde la esquina superior izquierda (mayor) a la esquina inferior derecha (menor).
@@ -62,7 +62,7 @@ También puede crear su propio gráfico de rectángulos. Estas instrucciones usa
    > 
 5. Mantenga el mouse encima de un área de **Cadena** para que aparezca la información sobre herramientas de la parte de la **Categoría**.  Por ejemplo, al mantener el mouse sobre **Lindseys** en el rectángulo **Jóvenes-040** , se muestra la información sobre herramientas de la parte de Lindsey de la categoría Jóvenes.  
    ![](media/power-bi-visualization-treemaps/treemaphoverdetail_new.png)
-6. [Agregue el gráfico de rectángulos como un icono de panel (ancle el objeto visual)](../service-dashboard-tiles.md). 
+6. [Agregue el gráfico de rectángulos como un icono de panel (ancle el objeto visual)](../consumer/end-user-tiles.md). 
 7. [Guarde el informe](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
@@ -76,11 +76,11 @@ Al resaltar una Categoría o Detalles en un gráfico de rectángulos, se realiza
 2. En el gráfico circular **Last Year Sales by Chain**, seleccione el sector **Fashions Direct**.  
    ![](media/power-bi-visualization-treemaps/treemapnoowl.gif)    
 
-3. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Interacciones de visualización en un informe de Power BI](../service-reports-visual-interactions.md).
+3. Para administrar cómo se realiza un resaltado y un filtrado cruzados de los gráficos, consulte [Interacciones de visualización en un informe de Power BI](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Anclar una visualización a un panel](../service-dashboard-pin-tile-from-report.md)  
-[Power BI: Conceptos básicos](../service-basic-concepts.md)  
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)  
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)  
 

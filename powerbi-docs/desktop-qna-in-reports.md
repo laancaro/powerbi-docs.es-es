@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a14ed61d8d7e72090a034319052600cb429e8c16
-ms.sourcegitcommit: 146b505b42f0d95d3ee73762441a43b6f3b3a891
+ms.openlocfilehash: 507cc25d324f47f00434430461d78013baa7210f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39475738"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546960"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar Preguntas y respuestas en Power BI Desktop para consultas en lenguaje natural
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Y es más eficaz aún cuando los datos responden, que es lo que permite hacer la característica Preguntas y respuestas de **Power BI Desktop**.
@@ -198,5 +198,5 @@ El campo **Sinónimos** aparece en el lado derecho de **Power BI Desktop**, dond
 Para más información acerca de las características que se encuentran en Power BI Desktop, eche un vistazo a los siguientes artículos:
 
 * [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
-* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](service-focus-mode.md)
+* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](consumer/end-user-focus.md)
 

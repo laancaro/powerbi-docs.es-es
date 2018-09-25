@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 0762ee808c089b73c69be99a38bfad63c231bc54
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c33e7dd69d4bd0a0d09ebc124739d5d017c631bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745037"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550038"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -119,11 +119,11 @@ Obtenga más información sobre cómo [configurar aplicaciones móviles de Power
 Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para dispositivos Android con los paneles e informes de Power BI, y con los informes los KPI del portal web de Power BI Report Server o Reporting Services.
 
 ### <a name="power-bi-dashboards-and-reports"></a>Paneles e informes de Power BI
-* Ver [sus aplicaciones](../../service-install-use-apps.md).
+* Ver [sus aplicaciones](../end-user-apps.md).
 * Ver sus [paneles](../../mobile-apps-view-dashboard.md).
 * Explorar los [iconos de sus paneles](../../mobile-tiles-in-the-mobile-apps.md).
 * Abrir [informes de Power BI](../../mobile-reports-in-the-mobile-apps.md).
-* Ver [sus aplicaciones](../../service-install-use-apps.md).
+* Ver [sus aplicaciones](../end-user-apps.md).
 * [Anotar y compartir iconos](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md).
 * Compartir [paneles](../../mobile-share-dashboard-from-the-mobile-apps.md).
 * [Escanear un código QR de Power BI](../../mobile-apps-qr-code.md) con su teléfono Android para abrir un icono o informe relacionado con el panel. 

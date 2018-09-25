@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 08/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c3dae6bcd59f44ab66b305b009da1e6fdabc9879
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 6cfd4cf1ae090351a710b00ee82600ddcbc71632
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744950"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546174"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 Las visualizaciones (también conocidas como objetos visuales) muestran información que se ha descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales pueden ser [anclados desde los informes en los paneles](../service-dashboard-pin-tile-from-report.md). 
 
-Es importante hacer distinción entre *creadores* del informe y *consumidores* del informe. La persona que crea o modifica el informe es un creador.  Los creadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../service-reading-view-and-editing-view.md). Si un informe o un panel se ha [compartido con usted](../service-shared-with-me.md), será un **consumidor** del informe. Podrá ver e interactuar con el informe y los objetos visuales, pero no podrá guardar los cambios.
+Es importante hacer distinción entre *creadores* del informe y *consumidores* del informe. La persona que crea o modifica el informe es un creador.  Los creadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un **consumidor** del informe. Podrá ver e interactuar con el informe y los objetos visuales, pero no podrá guardar los cambios.
 
 Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel de VISUALIZACIONES de Power BI. 
 

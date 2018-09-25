@@ -1,21 +1,21 @@
 ---
 title: Sugerencias y trucos para el formato de color en Power BI
 description: Sugerencias y trucos para el formato de color en Power BI
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/19/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c134592cabda6148d0bc50ee22f7501e60aef919
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 04e00537db4ffbcb6c1a154cb69fb2c856bd7596
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744981"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565668"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
 Power BI permite personalizar los paneles y los informes de muchas formas. En este artículo se detallan una serie de sugerencias para que las visualizaciones de Power BI resulten más atractivas, interesantes y personalizadas según sus necesidades.

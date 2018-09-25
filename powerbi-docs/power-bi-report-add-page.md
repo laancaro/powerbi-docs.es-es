@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 48980bf4ded44f9c383b38606747d14b5a5725c8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5a6600fe6c60d5f108b9203508448ef3f1778a7e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237439"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548741"
 ---
 # <a name="add-a-page-to-a-power-bi-report-in-power-bi-service-and-power-bi-desktop"></a>Incorporación de una página a un informe de Power BI en el servicio Power BI y en Power BI Desktop
 No hay por qué llenar demasiado la página de un informe; simplemente agregue una nueva página en blanco. 
 
-La incorporación y duplicación de páginas de informe requiere permisos de edición sobre este. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](service-reading-view-and-editing-view.md). 
+La incorporación y duplicación de páginas de informe requiere permisos de edición sobre este. En el servicio Power BI, esto significa abrir el informe en la [Vista de edición](consumer/end-user-reading-view.md). 
 
 ## <a name="add-a-new-blank-page"></a>Agregar una nueva página en blanco
 Seleccione el icono de más amarillo y después escriba un nombre nuevo para la página.  
@@ -35,9 +35,9 @@ En la barra de control superior, en la [vista de edición](service-interact-with
 Se crea la nueva página y se convierte en la página activa. Para cambiarle el nombre, haga doble clic en el nombre de la pestaña para resaltarla y escriba un nombre nuevo.  Para más información, consulte [Cambio de nombre en el servicio Power BI](service-rename.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
-Más información sobre [informes de Power BI](service-reports.md)
+Más información sobre [informes de Power BI](consumer/end-user-reports.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

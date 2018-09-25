@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: v-thepet
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5758bb53fe4a8a3658d242c3bd72da0a78500579
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: babd30b89970108a06475ec3e7dab7e2ca708425
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44745070"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46565093"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 Quiere que los lectores del informe puedan buscar métricas de ventas generales, pero también resaltar el rendimiento de los administradores de distrito y los diferentes plazos de tiempo. Podría crear informes independientes o gráficos comparativos, o bien utilizar segmentaciones. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
@@ -98,7 +98,7 @@ Use **Interacciones de objetos visuales** para impedir que algunas visualizacion
 2. Seleccione el icono de **Ninguno** encima del gráfico **Varianza total de ventas por mes fiscal y administrador del distrito** para hacer que la segmentación deje de filtrarla. 
 3. Seleccione la segmentación **Mes** y, de nuevo, elija el icono de **Ninguno** encima del gráfico **Varianza total de ventas por mes fiscal y administrador del distrito** para hacer que la segmentación deje de filtrarla. Ahora, cuando seleccione los nombres e intervalos de fechas en las segmentaciones, el gráfico Varianza total de ventas por mes fiscal y administrador del distrito no se modifica. 
 
-Vea [Interacciones de visualización en un informe de Power BI](../service-reports-visual-interactions.md) para obtener más información sobre cómo editar las interacciones.
+Vea [Interacciones de visualización en un informe de Power BI](../consumer/end-user-interactions.md) para obtener más información sobre cómo editar las interacciones.
 
 ## <a name="sync-and-use-slicers-on-other-pages"></a>Sincronización y uso de las segmentaciones en otras páginas
 A partir de la actualización de febrero de 2018 de Power BI se puede sincronizar una segmentación y usarla en una o todas las páginas de un informe. 
@@ -193,5 +193,5 @@ Las demás opciones de formato están desactivadas de forma predeterminada. Si s
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI: Conceptos básicos](../service-basic-concepts.md)
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 

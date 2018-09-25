@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6ae44bb641768ec6518814a0d8699dc41d260e90
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: b40933e085cf81528a28e9eedb4260351f657323
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624822"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548405"
 ---
 # <a name="create-workspaces-with-your-colleagues-in-power-bi"></a>Crear áreas de trabajo con sus compañeros en Power BI
 
@@ -77,7 +77,7 @@ En las áreas de trabajo actuales, también puede conectarse mediante paquetes d
 
 ## <a name="distribute-an-app"></a>Distribución de una aplicación
 
-Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Sus compañeros de trabajo pueden obtener las aplicaciones de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarlas automáticamente en las cuentas de Power BI de sus compañeros de trabajo. En caso contrario, pueden buscar e instalar estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md) para obtener más detalles.
+Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Sus compañeros de trabajo pueden obtener las aplicaciones de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarlas automáticamente en las cuentas de Power BI de sus compañeros de trabajo. En caso contrario, pueden buscar e instalar estas aplicaciones desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](consumer/end-user-create-apps.md) para obtener más detalles.
 
 ## <a name="power-bi-apps-faq"></a>Preguntas más frecuentes sobre las aplicaciones de Power BI
 
@@ -92,7 +92,7 @@ Las aplicaciones son la evolución de los paquetes de contenido organizativos. S
 Vea [¿En qué se diferencian las áreas de trabajo de la aplicación nuevas y las áreas de trabajo actuales?](service-create-the-new-workspaces.md#how-are-the-new-app-workspaces-different-from-current-app-workspaces) para comparar las áreas de trabajo de la aplicación actuales y las nuevas. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Instalar y usar aplicaciones en Power BI](service-install-use-apps.md)
-* [Conectarse a los servicios con los paquetes de contenido de Power BI](service-connect-to-services.md)
+* [Instalar y usar aplicaciones en Power BI](consumer/end-user-apps.md)
+* [Conectarse a los servicios con los paquetes de contenido de Power BI](consumer/end-user-connect-to-services.md)
 - [Crear nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

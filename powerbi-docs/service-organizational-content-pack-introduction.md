@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9109bd45f47e92d9158b9247fe32a43132fff720
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 453b0f5852fefb1008b8013a0c42af4cc1d42f32
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624307"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547646"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Paquetes de contenido organizativos en Power BI: introducción
 > [!NOTE]
@@ -42,7 +42,7 @@ Al publicar un paquete de contenido de la organización, se agrega a AppSource. 
 
 * Para ver AppSource, seleccione **Obtener datos** > **Mi organización** > **Obtener**.
 
-Obtenga más información sobre [la búsqueda y la apertura de paquetes de contenido organizativos](service-organizational-content-pack-find-and-open.md).
+Obtenga más información sobre [la búsqueda y la apertura de paquetes de contenido organizativos](consumer/end-user-content-pack.md).
 
 ## <a name="the-life-cycle-of-an-organizational-content-pack"></a>El ciclo de vida de un paquete de contenido organizativo
 Cualquier usuario de Power BI Pro puede crear, publicar y acceder a los paquetes de contenido organizativos. Solo el creador del paquete de contenido puede modificar el libro y el conjunto de datos, programar la actualización y eliminarlo.
@@ -52,7 +52,7 @@ El ciclo de vida tiene un aspecto similar al siguiente:
 1. En Power BI Pro, Nate crea un paquete de contenido y lo publica en el grupo de distribución Marketing. La configuración de actualización se hereda con el conjunto de datos y solo Nate puede cambiarla.
    
    > [!NOTE]
-   > Si crea el paquete de contenido desde un [área de trabajo de aplicaciones de Power BI](service-create-distribute-apps.md) al que pertenece, aunque salga de dicho área de trabajo, el resto de usuarios del mismo pueden asumir su propiedad.
+   > Si crea el paquete de contenido desde un [área de trabajo de aplicaciones de Power BI](consumer/end-user-create-apps.md) al que pertenece, aunque salga de dicho área de trabajo, el resto de usuarios del mismo pueden asumir su propiedad.
    > 
    > 
 2. Nate envía un correo electrónico al grupo de distribución, informándoles acerca del nuevo paquete de contenido.
@@ -76,7 +76,7 @@ Todos los miembros del grupo de distribución tienen los mismos permisos con res
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación y publicación de un paquete de contenido organizativo](service-organizational-content-pack-create-and-publish.md)
-* [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md) 
-* [Power BI: Conceptos básicos](service-basic-concepts.md)
+* [Creación y distribución de una aplicación en Power BI](consumer/end-user-create-apps.md) 
+* [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

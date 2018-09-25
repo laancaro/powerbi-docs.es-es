@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7b1b55475e2ad19c869ba92cdb9621caa0fc3538
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726671"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545760"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>¿Cómo debo colaborar y compartir en Power BI?
 
@@ -57,7 +57,7 @@ Supongamos que desea distribuir el panel a un público amplio. Junto con sus com
 
 ![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md). 
+Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre cómo [publicar aplicaciones](consumer/end-user-create-apps.md). 
 
 Después de instalar una aplicación, pueden verla en sus exploradores o dispositivos móviles.
 
@@ -88,7 +88,7 @@ Más información sobre cómo [anotar y compartir iconos, informes y objetos vis
 También puede [compartir una instantánea de un icono](consumer/mobile/mobile-windows-10-phone-app-get-started.md) desde la aplicación de Power BI para dispositivos Windows 10.
 
 ## <a name="print-or-save-as-pdf-or-other-static-file"></a>Imprimir o guardar como PDF u otro formato de archivo estático
-Puede imprimir todo un panel, un icono de panel, una página de informe o una visualización de informe (o guardarlo como PDF u otro formato de archivo estático) desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez. Obtenga más información sobre cómo [imprimir o guardar como archivo estático](service-print.md).
+Puede imprimir todo un panel, un icono de panel, una página de informe o una visualización de informe (o guardarlo como PDF u otro formato de archivo estático) desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez. Obtenga más información sobre cómo [imprimir o guardar como archivo estático](consumer/end-user-print.md).
 
 ## <a name="publish-to-the-web"></a>Publicar en Web
 
@@ -99,7 +99,7 @@ Puede publicar informes de Power BI en todo Internet mediante la inserción de v
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Compartir paneles e informes con compañeros y otros usuarios](service-share-dashboards.md)
-* [Creación y publicación de una aplicación en Power BI](service-create-distribute-apps.md)
+* [Creación y publicación de una aplicación en Power BI](consumer/end-user-create-apps.md)
 * ¿Quiere hacer algún comentario? Vaya al [sitio de la comunidad de Power BI](https://community.powerbi.com/) para efectuar sus sugerencias.
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
 

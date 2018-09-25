@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 6ec1c7d1e3417336e24e324ff12c3e10a84a8525
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 99d8faa7ba3e0e92f97e84bd52454ad44a472e71
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744885"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547301"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introducción a la aplicación móvil de Power BI para Windows 10
 La aplicación móvil de Power BI para Windows 10 permite disponer de Power BI en la tableta o el teléfono, con acceso móvil táctil y actualizado a la información de su empresa. Vea los paneles de su empresa e interactúe con ellos desde cualquier lugar &#151; directamente en la [pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -108,7 +108,7 @@ Obtenga más información sobre los [favoritos en las aplicaciones móviles Powe
 Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para dispositivos Windows 10 con los paneles e informes de Power BI, y con los informes móviles y KPI de Reporting Services en el portal web de Reporting Services
 
 ### <a name="power-bi-dashboards-and-reports"></a>Paneles e informes de Power BI
-* Ver [sus aplicaciones](../../service-install-use-apps.md).
+* Ver [sus aplicaciones](../end-user-apps.md).
 * Ver sus [paneles](mobile-apps-view-dashboard.md).
 * [Anclar iconos y paneles de Power BI](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) a la pantalla Inicio de su dispositivo como iconos dinámicos.
 * [Compartir iconos](mobile-windows-10-phone-app-get-started.md).

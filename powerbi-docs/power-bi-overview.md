@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: c2e0dc401e5927e69ecb9b059042df646b238bd5
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 1d5f5b4458dca8fb9d45dfc938f16e5fa77f45db
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944408"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545392"
 ---
 # <a name="what-is-power-bi"></a>¿Qué es Power BI?
 **Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir orígenes de datos sin relación entre sí en información coherente, interactiva y atractiva visualmente. Tanto si se trata de una sencilla hoja de cálculo de Excel como de una colección de almacenes de datos híbridos locales o basados en la nube, **Power BI** le permite conectar fácilmente los orígenes de datos, visualizar (o descubrir) lo más importante y compartirlo con quien quiera.
@@ -57,5 +57,5 @@ Cree, implemente y administre Power BI, informes paginados y móviles de forma l
 Power BI Report Server es una solución que se implemente detrás del firewall y luego entrega los informes a los usuarios deseados de maneras diferentes, ya sea para visualizarlos en un explorador web, en un dispositivo móvil o como correo electrónico. Además, como Power BI Report Server es compatible con Power BI en la nube, puede pasarse a la nube cuando esté listo.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Inicio de sesión, obtención de datos y más información sobre el servicio Power BI](service-the-new-power-bi-experience.md)   
+[Inicio de sesión, obtención de datos y más información sobre el servicio Power BI](consumer/end-user-experience.md)   
 [Tutorial: Introducción al servicio Power BI](service-get-started.md)

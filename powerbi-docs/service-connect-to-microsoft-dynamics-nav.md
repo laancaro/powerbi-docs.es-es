@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 498a66c5e675fc8a394f3c3a0dc2ef7ff7fa99c2
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: a00913ea326f472993553910a79e3cc208356499
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38877397"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546726"
 ---
 # <a name="connect-to-microsoft-dynamics-nav-with-power-bi"></a>Conexión a Microsoft Dynamics NAV con Power BI
 Obtener información sobre los datos de Microsoft Dynamics NAV es sencillo con Power BI. Power BI recupera los datos (tanto de ventas como financieros) y, después, compila una aplicación con un panel e informes basados en dichos datos. Power BI requiere permisos en las tablas de las que se recuperan los datos, en este caso, datos de ventas y finanzas. Consulte más detalles sobre los requisitos a continuación. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
@@ -99,7 +99,7 @@ Si ve un cuadro de diálogo de error "¡Vaya!" después de pasar el cuadro de di
     `https//instance.navserver.com:7048/DynamicsNAV90\_Instance1/OData/Company('CRONUS%20International%20Ltd.')`
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
 * [Obtener datos en Power BI](service-get-data.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

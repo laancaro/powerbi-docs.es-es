@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 487e53bae0fe872771b5ecbbe0458cd09dc48a4c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d1152ae1e4d386882c9165e6545a44c7f3c47e46
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748877"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548520"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapa de Power BI
 Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si los intentos de Power BI no pueden crear la visualización del mapa por sí mismos, se muestra la ayuda de Bing Maps. 
@@ -89,7 +89,7 @@ Al explorar en profundidad las jerarquías geográficas, es importante saber có
 * La segunda opción, ![exploración en profundidad con mapas](./media/power-bi-map-tips-and-tricks/power-bi-drill-down3.png) es similar a la exploración en profundidad, excepto que no es necesario hacer clic en el mapa.  Se expande hasta el siguiente nivel de la jerarquía y recuerda el contexto del nivel actual. Por ejemplo, si está consultando países y selecciona este icono, bajará en la jerarquía al siguiente nivel, estados. Para la codificación geográfica, Power BI envía datos de cada estado y su país correspondiente para ayudar a Bing Maps a codificar geográficamente con más precisión. En la mayoría de los mapas, usará esta opción o la opción Explorar en profundidad, en el extremo derecho, para enviar a Bing toda la información posible para obtener información precisa sobre la ubicación. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Exploración en profundidad en una visualización de Power BI](../power-bi-visualization-drill-down.md)
+[Exploración en profundidad en una visualización de Power BI](../consumer/end-user-drill.md)
 
 [Visualizaciones de Power BI](power-bi-report-visualizations.md)
 

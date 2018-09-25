@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a27a7ec72b1e85b7e1dc6caa5773a14a089e378d
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 7647cba750ea7369e84022f77f46299ae15c6554
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726418"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545852"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
-Ha leído [Informes en Power BI](service-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
+Ha leído [Informes en Power BI](consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
 
 > **Sugerencia**: para crear un informe mediante la copia de un informe existente, consulte [Copia de un informe](power-bi-report-copy.md)
 > 

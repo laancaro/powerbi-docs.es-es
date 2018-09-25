@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b34c16337158e784b0c41bd3e3fd93aca9504cd7
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4d43ffb1f4e005830fd36da4e80cf4d0c7d86fed
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727315"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549946"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -110,7 +110,7 @@ Si envía un vínculo desde una aplicación móvil de Power BI a personas fuera 
 Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e informes:
 
 * Por lo general, usted y sus compañeros ven los mismos datos en el panel o informe. Por lo tanto, si tiene permisos para ver más datos que ellos, podrán ver todos sus datos en el panel o informe. Sin embargo, si se aplica la [seguridad de nivel de fila (RLS)](service-admin-rls.md) al conjunto de datos subyacente a un panel o informe, se usan las credenciales de cada persona para determinar los datos a los que puede tener acceso.
-* Todos los usuarios con quienes comparte su panel pueden verlo e interactuar con los informes relacionados en la [vista de lectura](service-reading-view-and-editing-view.md). No pueden crear informes ni guardar cambios en los informes existentes.
+* Todos los usuarios con quienes comparte su panel pueden verlo e interactuar con los informes relacionados en la [vista de lectura](consumer/end-user-reading-view.md). No pueden crear informes ni guardar cambios en los informes existentes.
 * Nadie puede ver ni descargar el conjunto de datos.
 * Todo el mundo puede [actualizar los datos](refresh-data.md) manualmente.
 * Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.

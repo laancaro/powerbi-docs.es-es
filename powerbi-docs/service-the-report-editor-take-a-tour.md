@@ -11,25 +11,25 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 78d9004a718990cbcd310835e8e9b8ae5e3eae17
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3c6ae5351908bd71888040c3bc900323837935c2
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726648"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546082"
 ---
 # <a name="the-report-editortake-a-tour"></a>Un paseo por el editor de informes...
 ## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edición de informes en el servicio Power BI y en Power BI Desktop
 El editor de informes del servicio Power BI y el editor de informes de Power BI Desktop son muy similares. En el vídeo se muestra el editor de informes en Power BI Desktop y, en este artículo, se muestra el editor de informes en el servicio Power BI. 
 
 ## <a name="the-difference-between-report-creators-and-report-consumers"></a>Diferencia entre *creadores* y *consumidores* de informes
-La capacidad de crear y editar un informe está restringida a los propietarios de los informes (es decir, los *creadores*). Si está *consumiendo* un informe que se ha compartido con usted, aún podrá abrirlo e interactuar con el informe en el servicio Power BI [solo en la vista de lectura](service-reading-view-and-editing-view.md), pero no dispondrá de las sólidas y amplias características disponibles al creador del informe.  
+La capacidad de crear y editar un informe está restringida a los propietarios de los informes (es decir, los *creadores*). Si está *consumiendo* un informe que se ha compartido con usted, aún podrá abrirlo e interactuar con el informe en el servicio Power BI [solo en la vista de lectura](consumer/end-user-reading-view.md), pero no dispondrá de las sólidas y amplias características disponibles al creador del informe.  
 
-Para más información sobre la vista de lectura del informe, consulte [Vista de lectura y vista de edición de informes del servicio Power BI](service-reading-view-and-editing-view.md). 
+Para más información sobre la vista de lectura del informe, consulte [Vista de lectura y vista de edición de informes del servicio Power BI](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-En el servicio Power BI, el *editor de informes* solo está disponible en la [vista de edición](service-reading-view-and-editing-view.md). Para abrir un informe en la vista de edición, debe ser el propietario o el creador del informe.
+En el servicio Power BI, el *editor de informes* solo está disponible en la [vista de edición](consumer/end-user-reading-view.md). Para abrir un informe en la vista de edición, debe ser el propietario o el creador del informe.
 
 El editor de informes de Power BI se compone de tres secciones:  
 
@@ -126,9 +126,9 @@ El lienzo del informe es donde se muestra el trabajo. Al utilizar los paneles Vi
 ## <a name="next-steps"></a>Pasos siguientes:
 [Crear un informe](service-report-create-new.md)
 
-Lea más sobre los informes del [servicio Power BI](service-reports.md), [Power BI Desktop](desktop-report-view.md) y [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
+Lea más sobre los informes del [servicio Power BI](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) y [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

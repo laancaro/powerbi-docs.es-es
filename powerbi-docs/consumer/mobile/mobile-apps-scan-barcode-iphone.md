@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 42ba9b042209dfd717c58042834e8d7966f97ecf
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: d221cfdc849a18ba934ebacaf58ef40999ac0117
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744749"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543322"
 ---
 # <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Escanear un código de barras con su iPhone desde la aplicación móvil de Power BI
 Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
@@ -67,6 +67,6 @@ El informe que ha elegido para filtrar se basa en un modelo de datos que no incl
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Tag a barcode field in Power BI Desktop (Etiquetar un campo de código de barras en Power BI Desktop)](../../desktop-mobile-barcodes.md)
-* [Iconos de paneles en Power BI](../../service-dashboard-tiles.md)
-* [Paneles en Power BI](../../service-dashboards.md)
+* [Iconos de paneles en Power BI](../end-user-tiles.md)
+* [Paneles en Power BI](../end-user-dashboards.md)
 

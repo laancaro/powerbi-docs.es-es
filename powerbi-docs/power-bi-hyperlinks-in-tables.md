@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80995f77a4e11c2773e9b03a224d42ac8d492228
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 869eb25b17233d6c926f759c09923f528a4eb72e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44727568"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545209"
 ---
 # <a name="hyperlinks-in-tables"></a>Hipervínculos en tablas
 En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Después, una vez creados, utilice el servicio Desktop o Power BI para agregar los hipervínculos a las tablas y matrices de informe. 
@@ -89,7 +89,7 @@ A: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en informes de Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

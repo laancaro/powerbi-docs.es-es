@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3244a185c7b7e9caa689ab7b90c184c9bf5b4662
-ms.sourcegitcommit: 619b66176394b9b881edc29b6d123d9729554eb3
+ms.openlocfilehash: ebbca73f781946f989b2f3afa65aa0a940f7a680
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2018
-ms.locfileid: "44044426"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545139"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Del libro de Excel a un informe sorprendente al instante
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Sin embargo, los datos más recientes se encuentran en varios sistemas de terceros y en archivos de su portátil. En el pasado, el hecho de crear objetos visuales y dar formato a un informe llevaba horas. Está empezando a sentirse ansioso.
@@ -98,6 +98,6 @@ Pasos siguientes
 
 * [Introducción al servicio Power BI](service-get-started.md)
 * [Introducción a Power BI Desktop](desktop-getting-started.md)
-* [Power BI: Conceptos básicos](service-basic-concepts.md)
+* [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

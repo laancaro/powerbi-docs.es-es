@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79912ad58a177999ae6d02e083d1d5f0df46c49c
-ms.sourcegitcommit: 2356dc8e5488438a43ba7f0ba9a55a2372669b47
+ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39624468"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548773"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Comparta un panel de Power BI que contiene vínculos a un archivo de Excel en OneDrive
 En Power BI, puede [conectarse a libros de Excel en OneDrive para la Empresa](service-excel-workbook-files.md) y anclar iconos a un panel de ese libro. Cuando comparta ese panel o cree un paquete de contenido que lo incluya:
@@ -56,6 +56,6 @@ El uso compartido de un panel de un área de trabajo de Power BI es similar al u
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Anclar un icono a un panel de Power BI desde Excel](service-dashboard-pin-tile-from-excel.md)
-* [Conceptos básicos de Power BI](service-basic-concepts.md)
+* [Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -10,22 +10,22 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ed882a339e1ee7d53302dc33a7cedb1a95709b8b
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 656f32dd28796ec58b7cfcf774248ee30de0085a
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249123"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545908"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anclar un icono desde un panel a otro panel
-Una forma de agregar un nuevo [icono del panel](service-dashboard-tiles.md) es copiándolo desde otro panel. Cada uno de estos iconos, al hacer clic, es un vínculo que lleva a donde se creó, ya sea en Preguntas y respuestas o un informe. 
+Una forma de agregar un nuevo [icono del panel](consumer/end-user-tiles.md) es copiándolo desde otro panel. Cada uno de estos iconos, al hacer clic, es un vínculo que lleva a donde se creó, ya sea en Preguntas y respuestas o un informe. 
 
 > [!NOTE]
 > No puede anclar iconos desde paneles compartidos.
 
 ## <a name="pin-a-tile-to-another-dashboard"></a>Anclar un icono a otro panel
 1. [Obtenga los datos](service-get-data.md). En este artículo se usa el [ejemplo de análisis de gastos de TI](sample-it-spend.md).
-2. Abra un [panel](service-dashboards.md).
+2. Abra un [panel](consumer/end-user-dashboards.md).
 3. Mueva el puntero sobre el icono que quiere anclar, seleccione los puntos suspensivos y, después, el **icono de anclaje**.  
    
    ![Menú del botón de puntos suspensivos](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
@@ -42,7 +42,7 @@ Una forma de agregar un nuevo [icono del panel](service-dashboard-tiles.md) es c
 6. Seleccione **Ir al panel** para ver el nuevo icono anclado. Allí puede [cambiar el nombre, cambiar el tamaño, vincular y mover](service-dashboard-edit-tile.md) la visualización anclada.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Iconos en Power BI](service-dashboard-tiles.md)  
-[Paneles en Power BI](service-dashboards.md)  
+[Iconos en Power BI](consumer/end-user-tiles.md)  
+[Paneles en Power BI](consumer/end-user-dashboards.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

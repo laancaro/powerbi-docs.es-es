@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1c2579f4250914933fd0459668fb55e4ba339f90
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: b9fff17d51756da4561823886ed80beeec830843
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310116"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548120"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Conexión a ejemplos de GitHub con Power BI
 En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes. Nos conectamos al repositorio público de contenido de Power BI (también conocido como *repositorio*) y consultamos la información: ¿Cuántas personas contribuyen al contenido público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? También hay respuestas a otras preguntas. 
@@ -125,6 +125,6 @@ Ahora que ya hemos finalizado el tutorial, podemos eliminar la aplicación de Gi
 En este tutorial, nos hemos conectado a un repositorio público de GitHub y hemos obtenido datos, a los que Power BI ha dado formato de panel y de informe. Explorando ese panel y ese informe, hemos hallado respuesta a algunas preguntas sobre los datos. Ahora podemos pasar a obtener más información sobre cómo conectarnos a otros servicios, como Salesforce, Microsoft Dynamics y Google Analytics. 
  
 > [!div class="nextstepaction"]
-> [Conexión a los servicios que usa](./service-connect-to-services.md)
+> [Conexión a los servicios que usa](consumer/end-user-connect-to-services.md)
 
 

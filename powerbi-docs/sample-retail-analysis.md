@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: mihart
 LocalizationGroup: Samples
-ms.openlocfilehash: 44244bf746c1a11229d2041b4c2b43871fa7a199
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 6955bc0c41e5a6a145d2101ab527d753f98d5c61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36944546"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550084"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de venta directa para Power BI: un paseo
 
@@ -39,11 +39,11 @@ Este panel de ejemplo del sector y el informe subyacente analizan datos de venta
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Seleccione el **Ejemplo de análisis de minoristas** y elija **Conectar**.  
   
-   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail16.png)
+   ![Ejemplo de análisis de ventas](media/sample-retail-analysis/retail16.png)
    
 5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
    
-   ![Ejemplo de análisis de venta al por menor](media/sample-retail-analysis/retail17.png)
+   ![Ejemplo de análisis de ventas](media/sample-retail-analysis/retail17.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
@@ -165,5 +165,5 @@ Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Pregunt
 * [Descargar un archivo ZIP con todos los archivos de ejemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descargar el libro de Excel para este ejemplo de Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obtener datos (para Power BI)](service-get-data.md)    
-* [Power BI: Conceptos básicos](service-basic-concepts.md)    
+* [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)    
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

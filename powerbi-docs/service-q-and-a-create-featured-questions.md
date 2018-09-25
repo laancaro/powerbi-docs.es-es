@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d50d3c3a34364dd795c44b3e45e91857bcc222f0
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726326"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548244"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usan (*consumen*) el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
@@ -47,8 +47,8 @@ Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).
    ![Visualización de mapa](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
 
 ### <a name="next-steps"></a>Pasos siguientes
-[Preguntas y respuestas en Power BI](power-bi-q-and-a.md)  
+[Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)  
 [Tutorial: Introducción a Preguntas y respuestas de Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI: Conceptos básicos](service-basic-concepts.md)  
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

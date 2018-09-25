@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/18/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bc5fe4c1e1fedc700fcbadd182f01e9e50348e3e
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 8f025c11a5269befdb7819684e10e8511ae6bc98
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34257238"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545652"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Uso compartido de un informe de Power BI filtrado con los compañeros de trabajo
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -28,7 +28,7 @@ Puede compartir un informe con compañeros de trabajo en el mismo dominio de cor
 ## <a name="filter-and-share-a-report"></a>Filtrado y uso compartido de un informe
 ¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. La forma de hacerlo es mediante la creación de una dirección URL personalizada.
 
-1. Abra el informe en [vista de edición](service-reading-view-and-editing-view.md), aplique el filtro y guarde el informe.
+1. Abra el informe en [vista de edición](consumer/end-user-reading-view.md), aplique el filtro y guarde el informe.
    
    En este ejemplo, vamos a filtrar el [ejemplo de Análisis de venta directa](sample-tutorial-connect-to-the-samples.md) para mostrar solo los valores donde **Territory** sea igual a **NC**.
    

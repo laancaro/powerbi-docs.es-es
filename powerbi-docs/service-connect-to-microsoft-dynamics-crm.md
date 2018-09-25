@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1dadb70f2d75596bb7180a5e7360cae19e1515b8
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38937271"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547071"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Conexión a Microsoft Dynamics CRM con Power BI
 Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias como, por ejemplo, cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
@@ -154,7 +154,7 @@ Si no tiene CRM Online 2016, o cualquier versión posterior, use Power BI Deskto
 Si ve el error "Data refresh failed as query exceeded the maximum limit of 100000 records" (No se han podido actualizar los datos debido a que la consulta ha superado el límite máximo de 100 000 registros), considere la posibilidad de conectarse directamente desde Power BI Desktop o de utilizar la plantilla de soluciones de CRM.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](service-install-use-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
 * [Obtener datos en Power BI](service-get-data.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

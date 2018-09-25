@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
-ms.openlocfilehash: 04a385d67a8cc462b21c16cf7daaa5aa675436d9
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 72c51a6eae4acec5bfc0af7b471f98dfcb22da67
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744901"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549809"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -23,7 +23,7 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
-Los iconos son instantáneas dinámicas de sus datos que se anclan a un panel. Sus valores cambian a medida que lo hacen los datos. **Puede [agregar iconos a un panel del servicio Power BI](../../service-dashboard-tiles.md).** 
+Los iconos son instantáneas dinámicas de sus datos que se anclan a un panel. Sus valores cambian a medida que lo hacen los datos. **Puede [agregar iconos a un panel del servicio Power BI](../end-user-tiles.md).** 
 
 Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocado e interactúe con ellos. Los iconos se pueden abrir con todos los tipos de objetos visuales, incluidos los iconos basados en Bing y R.
 

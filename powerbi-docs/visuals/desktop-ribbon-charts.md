@@ -1,21 +1,21 @@
 ---
 title: Uso de gráficos de cinta de opciones en Power BI
 description: Creación y uso de gráficos de cinta de opciones en el servicio Power BI y Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0d7dbf878c32ee29ea490e10f27f1bda49f20b08
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: e7bd79b8d93bba4395922fb39faaf423109f7b02
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744877"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46566128"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Uso de gráficos de cinta de opciones en Power BI
 Puede usar gráficos de cinta de opciones en **Power BI** para visualizar y determinar rápidamente qué categoría de datos tiene la clasificación más alta (valor más grande). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo. Los gráficos de cinta de opciones están disponibles en **Power BI Desktop** a partir de la versión de septiembre de 2017 y en las actualizaciones posteriores del **servicio Power BI**.

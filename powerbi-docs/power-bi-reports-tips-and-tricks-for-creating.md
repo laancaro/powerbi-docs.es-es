@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 891d496fcdf809a816c9c18a6d21e4c486f76d76
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0397921d239ec1d07312e69061890f8898e9687b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726809"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549969"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop, el servicio Power BI *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado.
@@ -206,7 +206,7 @@ Evite utilizar distintos tipos de visualizaciones simplemente para aportar varie
 * Trate de evitar mezclar niveles de precisión y tiempo. Asegúrese de que los intervalos de tiempo se comprenden perfectamente.  No coloque un gráfico del mes pasado junto a gráficos filtrados de un mes concreto del año.    
 * No mezcle medidas grandes y pequeñas en la misma escala, por ejemplo, en un gráfico de barras o líneas.  Por ejemplo, una medida puede estar en millones y otra en millares.  Con una escala tan grande, sería difícil comprender las diferencias de la medida en millares.  Si tiene que mezclarlas, elija una visualización, como un gráfico combinado, que permita usar un segundo eje.    
 * No abarrote los gráficos con etiquetas de datos innecesarias. Normalmente, los valores de los gráficos de barras, ***si son lo suficientemente grandes***, se entienden bien sin necesidad de mostrar el número real.   
-* Preste atención a la manera de [ordenar los gráficos](power-bi-report-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
+* Preste atención a la manera de [ordenar los gráficos](consumer/end-user-change-sort.md).  Si desea llamar la atención sobre el número más alto o más bajo, ordene por medida.  Si desea que los usuarios puedan encontrar rápidamente una categoría determinada entre muchas otras categorías, ordene por eje.  
 * Los gráficos circulares funcionan mejor si no superan las ocho categorías. Los valores no se pueden comparar en paralelo, y es más difícil hacerlo en un gráfico circular que en los gráficos de barras y columnas. Los gráficos circulares resultan útiles para ver las relaciones de una parte con respecto a un todo, no para comparar los elementos. Por último, los gráficos de medidor son ideales para mostrar el estado actual en el contexto de un objetivo.    
 
 Para más instrucciones específicas sobre la visualización, consulte [Tipos de visualización en Power BI](visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).  
@@ -222,8 +222,8 @@ Estos son algunos de nuestros libros favoritos:
 * *Advanced Presentations Design*, de Andrew Abela   
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 
-[Informes en Power BI](service-reports.md)
+[Informes en Power BI](consumer/end-user-reports.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: maggies
-ms.openlocfilehash: 320ab8cef7ba2b36846550dcdb3171c7fb4b788a
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744878"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548129"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -137,11 +137,11 @@ Consulte la sección Reconocimiento de voz de [Novedades de iOS](https://go.micr
 Para mejorar los resultados que se obtienen cuando se usa el analista virtual de Preguntas y respuestas con un conjunto de datos, puede elegir preguntas más específicas o mejorar el conjunto de datos.
 
 ### <a name="how-to-ask-questions"></a>Cómo realizar preguntas
-* Siga estas [sugerencias para hacer preguntas en Preguntas y respuestas](../../service-q-and-a-tips.md) del servicio Power BI o en el analista virtual de Preguntas y respuestas en la aplicación móvil de iOS.
+* Siga estas [sugerencias para hacer preguntas en Preguntas y respuestas](../end-user-q-and-a-tips.md) del servicio Power BI o en el analista virtual de Preguntas y respuestas en la aplicación móvil de iOS.
 
 ### <a name="how-to-enhance-the-dataset"></a>Cómo mejorar el conjunto de datos
 * Mejore el conjunto de datos en Power BI Desktop o en el servicio Power BI para que [los datos funcionen bien con Preguntas y respuestas y con el analista virtual de Preguntas y respuestas](../../service-prepare-data-for-q-and-a.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Preguntas y respuestas en el servicio Power BI](../../power-bi-q-and-a.md)
+* [Preguntas y respuestas en el servicio Power BI](../end-user-q-and-a.md)
 * ¿Tiene alguna pregunta? Consulte la [sección sobre aplicaciones móviles de la comunidad de Power BI](https://go.microsoft.com/fwlink/?linkid=839277)

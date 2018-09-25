@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/23/2017
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d09f9d9d0de8608a39111f24e6f605c3fbce55fb
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 3bf0aa516f50d363b53d2ed91b86d999e7855c30
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744845"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545045"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos de anillos en Power BI
 Un gráfico de anillos es similar a un gráfico circular porque muestra la relación de las partes con el todo. La única diferencia es que el centro está en blanco y deja espacio para un icono o una etiqueta.
@@ -43,13 +43,13 @@ Estas instrucciones usan el ejemplo de análisis de venta directa para crear un 
 * Los gráficos de anillos son útiles para comparar una sección determinada con el total, en lugar de comparar secciones individuales entre sí. 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Informes en Power BI](../service-reports.md)
+[Informes en Power BI](../consumer/end-user-reports.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
 [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
 
-[Power BI: Conceptos básicos](../service-basic-concepts.md)
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 732f27a8272c780d156912da904bab82de03f326
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744998"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544012"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
 En Power BI, un gráfico combinado es una visualización única que combina un gráfico de líneas y un gráfico de columnas. La combinación de los dos gráficos en uno permite realizar una comparación más rápida de los datos.
@@ -103,13 +103,13 @@ En esta tarea, compararemos el margen bruto y las ventas.
 
 Desde aquí puede realizar las siguientes acciones:
 
-* [Agregue el gráfico combinado como un icono de panel](../service-dashboard-tiles.md).
+* [Agregue el gráfico combinado como un icono de panel](../consumer/end-user-tiles.md).
 * [Guarde el informe](../service-report-save.md).
 * [Hacer que el informe sea más accesible para personas con discapacidades](../desktop-accessibility.md)
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Resaltado cruzado y filtrado cruzado
 
-Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../service-reports-visual-interactions.md).
+Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../consumer/end-user-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -117,6 +117,6 @@ Al resaltar una columna o una línea en un gráfico combinado, se realiza un res
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
 
-[Power BI: Conceptos básicos](../service-basic-concepts.md)
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

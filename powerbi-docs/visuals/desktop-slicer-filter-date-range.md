@@ -1,21 +1,21 @@
 ---
 title: Utilice un filtro o una segmentación de fecha relativa en Power BI Desktop
 description: Obtenga información acerca de cómo usar un filtro o una segmentación de datos para restringir los intervalos de fechas relativas en Power BI Desktop
-author: davidiseminger
+author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 07/27/2018
-ms.author: davidi
+ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5b00e4cc291d8d68a18b5758b7bef98995c02e55
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 692d752756590945eb17e2f512929f7303727e94
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744829"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564817"
 ---
 # <a name="use-a-relative-date-slicer-and-filter-in-power-bi-desktop"></a>Uso de un filtro o una segmentación de fecha relativa en Power BI Desktop
 Con la **segmentación de fecha relativa** o el **filtro de fechas relativas**, puede aplicar filtros basados en el tiempo a cualquier columna de fecha del modelo de datos. Por ejemplo, puede usar la **segmentación de fecha relativa** para mostrar solo los datos de las ventas realizadas en los últimos treinta días (o mes, meses naturales, etc). Y, al actualizar los datos, el período de tiempo relativo aplica automáticamente la restricción de fecha relativa correspondiente.

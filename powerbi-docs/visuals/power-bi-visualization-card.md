@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8532fff7bc522a0ad0e59bd17580549bd9e68a23
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744853"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548336"
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
@@ -51,13 +51,13 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 ## <a name="create-a-card-from-the-qa-question-box"></a>Creación de una tarjeta a partir del cuadro de Preguntas y respuestas
 El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI (app.powerbi.com) desde un panel o informe. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
 
-1. Cree un [panel](../service-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
+1. Cree un [panel](../consumer/end-user-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
 
 1. En la parte superior del panel, comience a escribir lo que quiere saber acerca de los datos en el cuadro de pregunta. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**SUGERENCIA**: desde un informe del servicio Power BI, en la [vista de edición](../service-reading-view-and-editing-view.md), seleccione **Hacer una pregunta** en la barra de menús superior. En un informe de Power BI Desktop, busque algún espacio abierto de un informe y haga doble clic para abrir un cuadro de pregunta.
+>**SUGERENCIA**: desde un informe del servicio Power BI, en la [vista de edición](../consumer/end-user-reading-view.md), seleccione **Hacer una pregunta** en la barra de menús superior. En un informe de Power BI Desktop, busque algún espacio abierto de un informe y haga doble clic para abrir un cuadro de pregunta.
 
 3. Por ejemplo, escriba "número de oportunidades" en el cuadro de pregunta.
 
@@ -105,10 +105,10 @@ Tiene muchas opciones para cambiar las etiquetas, el texto, el color, etc. La me
     ![](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Iconos de paneles en Power BI](../service-dashboard-tiles.md)
+[Iconos de paneles en Power BI](../consumer/end-user-tiles.md)
 
-[Paneles en Power BI](../service-dashboards.md)
+[Paneles en Power BI](../consumer/end-user-dashboards.md)
 
-[Power BI: Conceptos básicos](../service-basic-concepts.md)
+[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

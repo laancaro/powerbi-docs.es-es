@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a85733e8450c9e1d3574afb71ace64fa2622fe0c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: f0337b26989b3d42e86339c4afc087579c2c3529
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44725636"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548796"
 ---
 # <a name="create-a-new-report-from-an-existing-report-copy-a-report"></a>Cree un nuevo informe a partir de uno ya existente (copie un informe)
 Puede que tenga un informe que ya se conecta al conjunto de datos y tiene algunos objetos visuales que le gustaría volver a usar o modificar.  ¿Por qué no copia ese informe como base para un nuevo informe?  Para hacerlo:
 
-1. [Abra un informe](service-report-open.md).
+1. [Abra un informe](consumer/end-user-report-open.md).
 2. En el menú **Archivo** , seleccione **Guardar como**.
    
    ![](media/power-bi-report-copy/powerbi-save-as.png)
@@ -39,6 +39,6 @@ Puede que tenga un informe que ya se conecta al conjunto de datos y tiene alguno
 ## <a name="next-steps"></a>Pasos siguientes:
 [Creación de nuevas visualizaciones](visuals/power-bi-report-add-visualizations-ii.md)
 
-[Eliminación de las visualizaciones](service-delete.md) que no necesita
+[Eliminación de las visualizaciones](consumer/end-user-delete.md) que no necesita
 
 [Creación de un informe con Power BI Desktop](desktop-report-view.md)

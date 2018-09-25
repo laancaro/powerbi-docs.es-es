@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d19e0a77f603ce6b80ce70ba5df4506699bd0969
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34252149"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545737"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Cambiar el nombre de prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a cambiar el nombre de un panel, un informe, una página de informe, un libro, un conjunto de datos, una aplicación y un área de trabajo en el servicio Power BI.
@@ -71,7 +71,7 @@ Cualquier persona con permisos de administrador puede cambiar el nombre de un á
 ## <a name="rename-a-page-in-a-report"></a>Cambiar el nombre de una página de un informe
 ¿No le gusta el nombre de una página en el informe de Power BI?  Un nuevo nombre está solo a un clic de distancia. Se puede cambiar el nombre de páginas en la [vista de edición de informe](service-interact-with-a-report-in-editing-view.md).
 
-1. Abra el informe en la [Vista de edición](service-reading-view-and-editing-view.md).
+1. Abra el informe en la [Vista de edición](consumer/end-user-reading-view.md).
 2. Busque las pestañas de las páginas de informe en la parte inferior de la ventana de Power BI.
    
     ![Informe con pestañas resaltadas](media/service-rename/report-page-tabs-new.png)
