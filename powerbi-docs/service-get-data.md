@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: fba2ea948190a59039766ffc2b5fab6189896ab8
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 4b61ff56ea1aec64a3e88db46836f948c4190d60
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328497"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547462"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Orígenes de datos del servicio Power BI
 Los datos son la esencia de Power BI. Todo lo que ve al explorar datos, crear gráficos y paneles o plantear preguntas con Preguntas y respuestas, se basa en un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? De un origen de datos.
@@ -44,7 +44,7 @@ El lugar donde se almacenan los archivos supone una gran diferencia. OneDrive pa
 
 Los paquetes de contenido incluyen todos los datos e informes que necesita ya preparados. En Power BI, hay dos tipos de paquetes de contenido; los de servicios como Google Analytics, Marketo o Salesforce, y los creados y compartidos por otros usuarios de su organización.
 
-**Servicios**: literalmente, existen docenas de servicios con paquetes de contenido para Power BI y continuamente se van agregando más. La mayoría de los servicios requiere que tenga una cuenta. Para más información, consulte [Conectar con servicios](service-connect-to-services.md).
+**Servicios**: literalmente, existen docenas de servicios con paquetes de contenido para Power BI y continuamente se van agregando más. La mayoría de los servicios requiere que tenga una cuenta. Para más información, consulte [Conectar con servicios](consumer/end-user-connect-to-services.md).
 
 **Organizativos**: si usted y otros usuarios de su organización tienen una cuenta de Power BI Pro, puede crear, compartir y usar paquetes de contenido. Para más información, consulte [Paquetes de contenido organizativos](service-organizational-content-pack-introduction.md).
 
