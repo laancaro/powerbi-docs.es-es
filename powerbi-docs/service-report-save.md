@@ -1,21 +1,21 @@
 ---
 title: Almacenamiento de un informe de Power BI
 description: Almacenamiento de un informe en el servicio Power BI y en Power BI Desktop
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: deba4a654c1b43361f7c44c2f0717fb7e348cb98
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f98d4c5e7b7cc02c9a08d982edb88b2e129f51e6
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548681"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47186879"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Almacenamiento de un informe en el servicio Power BI y en Power BI Desktop
 Después de cambiar un informe en Power BI, puede guardarlo, guardarlo con un nombre nuevo o simplemente cerrarlo sin guardar los cambios. Supongamos que abre el informe, crea una visualización y la ancla al panel. Si la cierra ahora sin guardar los cambios, el icono permanecerá el panel, pero la visualización no se guarda en el informe. Al hacer clic en ese icono en el panel, se abre el informe, pero la visualización ya no existe.

@@ -1,21 +1,21 @@
 ---
 title: Introducción a Preguntas y respuestas de Power BI
 description: Introducción a Preguntas y respuestas del servicio Power BI con el ejemplo de análisis de venta directa
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 01/16/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 92506d4ce2f372a4535a0a178ef43791c6d94f83
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547968"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187017"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introducción a Preguntas y respuestas de Power BI
 ## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Uso de Preguntas y respuestas de Power BI con el Ejemplo de análisis de minoristas

@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1c50bcf656f967502e8bb01f7ca5184996170bed
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 1260f2c69a4ab913f7451671ab7821ee250998c0
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566335"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187246"
 ---
 # <a name="optimize-a-power-bi-visual-for-any-size"></a>Optimización de un objeto visual de Power BI de cualquier tamaño
 De manera predeterminada, cuando se cree un nuevo informe, los objetos visuales tienen *capacidad de respuesta*: cambian de forma dinámica para mostrar la máxima cantidad de datos, independientemente del tamaño de la pantalla. Para los informes anteriores, puede establecer también sus objetos visuales para que cambien de tamaño de forma dinámica.
 
 A medida que cambia el tamaño de un objeto visual, Power BI prioriza la vista de datos, por ejemplo, eliminando el relleno y desplazando la leyenda de la parte superior del objeto visual automáticamente, para que este siga siendo informativo aunque se haga de menor tamaño. La capacidad de respuesta es especialmente útil para los objetos visuales de la aplicación móvil de Power BI en teléfonos.
 
-![Cambio de tamaño de un objeto visual con capacidad de respuesta](./media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
+![Cambio de tamaño de un objeto visual con capacidad de respuesta](media/desktop-create-responsive-visuals/power-bi-responsive-visual.gif)
 
 Cualquier elemento visual con ejes X e Y, y segmentaciones, puede responder cambiando de tamaño.
 
 ## <a name="turn-on-responsiveness-in-power-bi-desktop"></a>Activación de la capacidad de respuesta en Power BI Desktop
 1. En un informe anterior de Power BI Desktop, en la pestaña **Vista**, asegúrese de que se encuentra en **Diseño de escritorio**.
    
-    ![Icono Diseño de escritorio](./media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
+    ![Icono Diseño de escritorio](media/desktop-create-responsive-visuals/power-bi-desktop-layout.png)
 2. Seleccione un objeto visual y en el panel de **visualizaciones**, seleccione la sección **Formato**.
 3. Expanda **General** > deslice el control **Capacidad de respuesta** a **On**.
    
-    ![Capacidad de respuesta activada](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Capacidad de respuesta activada](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      Ahora cuando [cree un informe optimizado para el teléfono](../desktop-create-phone-report.md) y agregue este objeto visual, este cambiará de tamaño de forma correcta.
 
@@ -44,7 +44,7 @@ Puede activar la capacidad de respuesta de un objeto visual en un informe anteri
 2. Seleccione un objeto visual y en el panel de **visualizaciones**, seleccione la sección **Formato**.
 3. Expanda **General** > deslice el control **Capacidad de respuesta** a **On**.
    
-    ![Capacidad de respuesta activada](././media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
+    ![Capacidad de respuesta activada](media/desktop-create-responsive-visuals/power-bi-turn-responsive-on.png)
    
      Ahora cuando [cree una vista de teléfono de este informe](../desktop-create-phone-report.md) y agregue este objeto visual, este cambiará de tamaño de forma correcta.
 

@@ -1,7 +1,7 @@
 ---
 title: Editar un icono de panel
 description: Este tutorial trata desde la creación de un icono y su anclaje a un panel hasta la edición del icono del panel (cambiar el tamaño, mover, cambiar el nombre, anclar, eliminar, agregar hipervínculo).
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0de070cc8661d4973d406ddf0749ef4852fc916c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 340f3d57c1ad860d4b0468085ff6a40c4013fa5c
+ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546105"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47187614"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar o quitar un icono de panel
 
