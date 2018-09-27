@@ -43,9 +43,9 @@ items:
       href: ../../service-frequently-asked-questions.md
     - name: Power BI para la Administración Pública de Estados Unidos
       href: ../../service-govus-overview.md
-    - name: Comparación entre las versiones gratuita y Pro de Power BI
+    - name: Comparación entre las versiones gratis y Pro de Power BI
       href: ../../service-free-vs-pro.md
-    - name: Diez sugerencias para obtener ayuda
+    - name: 10 sugerencias para obtener ayuda
       href: ../../service-tips-for-finding-help.md
     - name: Filtros y resaltado en informes de Power BI
       href: ../../power-bi-reports-filters-and-highlighting.md
@@ -91,8 +91,6 @@ items:
         href: ../../service-report-open.md
       - name: Cambio del modo de ordenar un gráfico en un informe de Power BI
         href: ../../power-bi-report-change-sort.md
-      - name: Exportar datos de una visualización
-        href: ../../power-bi-visualization-export-data.md
       - name: Uso de filtros de informe
         href: ../../power-bi-how-to-report-filter.md
       - name: Suscripción a un informe o panel
@@ -127,9 +125,9 @@ items:
       items:
       - name: Visualización de informes locales en las aplicaciones móviles
         href: ../../mobile-app-ssrs-kpis-mobile-on-premises-reports.md
-      - name: Uso compartido de un panel desde las aplicaciones móviles de Power BI
+      - name: Compartir un panel desde aplicaciones móviles de Power BI
         href: ../../mobile-share-dashboard-from-the-mobile-apps.md
-      - name: Interacción con los iconos de las aplicaciones móviles
+      - name: Interacción con iconos de las aplicaciones móviles
         href: ../../mobile-tiles-in-the-mobile-apps.md
       - name: Favoritos en las aplicaciones móviles
         href: ../../mobile-apps-favorites.md
@@ -139,7 +137,7 @@ items:
         href: ../../mobile-apps-notification-center.md
       - name: Creación de un vínculo profundo que va a una ubicación concreta
         href: ../../mobile-apps-deep-link-specific-location.md
-      - name: Filtrado de un informe por ubicación en las aplicaciones móviles de Power BI
+      - name: Filtrar un informe por ubicación en las aplicaciones móviles de Power BI
         href: ../../mobile-apps-geographic-filtering.md
       - name: Escanear un código QR de Power BI desde el teléfono
         href: ../../mobile-apps-qr-code.md
@@ -189,9 +187,9 @@ items:
     items:
     - name: Idiomas admitidos en las aplicaciones móviles
       href: ../../mobile-apps-supported-languages.md
-ms.openlocfilehash: 26018ef2bd80f8ac73c88e147dd950114ed1453f
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 0d5506fefb05d9e83b9aea40bc773ad0c4ac126d
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726441"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237948"
