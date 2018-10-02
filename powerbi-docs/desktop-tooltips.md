@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c21d04da722e017210f7f83df3e1a5aa7dde1166
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280763"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512165"
 ---
-# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop-preview"></a>Creación de información en pantalla basada en páginas de informes en Power BI Desktop (versión preliminar)
+# <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
 
 ![Información en pantalla para informes de Power BI Desktop](media/desktop-tooltips/desktop-tooltips_00a.png)
@@ -27,11 +27,15 @@ Puede crear todas las páginas de información en pantalla que quiera. Todas las
 Hay un montón de cosas interesantes que puede hacer con la información en pantalla para informes. Vea cómo crear información en pantalla y qué pasos debe seguir para configurarla.
 
 ### <a name="enable-the-tooltips-preview"></a>Habilitar la versión preliminar de la información en pantalla 
-Como la información en pantalla para informes está en versión preliminar, debe habilitarla para poder crearla. Para habilitar la característica de versión preliminar de la información en pantalla para informes, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** en Power BI Desktop y, después, active la casilla situada junto a **Información en pantalla de páginas para informes**. 
+A partir de la versión de septiembre de 2018 de **Power BI Desktop**, la información sobre herramientas está disponible a nivel general y no es necesario habilitarla. 
+
+Si usa una versión anterior de **Power BI Desktop**, puede habilitarla como una característica en vista previa; para ello, haga clic en **Archivo > Opciones y configuración > Opciones > Características en vista previa** en Power BI Desktop, y marque la casilla situada junto a **Información en pantalla de la página de informes**. 
 
 ![Habilitación de la característica de versión preliminar de la información en pantalla para informes](media/desktop-tooltips/desktop-tooltips_01.png)
 
 Debe reiniciar **Power BI Desktop** después de realizar la selección para habilitar la versión preliminar de la información en pantalla para informes.
+
+Siempre se recomienda actualizar a la versión más reciente de **Power BI Desktop**, que se puede obtener desde un vínculo en [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="create-a-report-tooltip-page"></a>Crear una página de información en pantalla para informes
 Para empezar, cree una página de informe haciendo clic en el botón **+**, que está en la parte inferior del lienzo de **Power BI Desktop**, en el área de pestañas de la página. El botón está situado al lado de la última página del informe. 
@@ -117,8 +121,9 @@ Cuando un objeto visual tiene un resaltado cruzado en un informe, la informació
 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-En esta versión preliminar de la **información en pantalla** para informes hay una serie de limitaciones y consideraciones que debe tener en cuenta.
+Hay algunas limitaciones y consideraciones que debe tener en cuenta en relación con la **información sobre herramientas**.
 
+* A partir de la versión de septiembre de 2018 de **Power BI Desktop**, que marca la disponibilidad general de información sobre herramientas, los objetos visuales de tarjeta también admiten información sobre herramientas.
 * A partir de la versión de **Power BI Desktop** de julio de 2018, se admiten objetos visuales de tabla y matriz para la información sobre herramientas. 
 * La información en pantalla para informes no se admite al consultar informes en aplicaciones móviles o entornos insertados (por ejemplo, en Publicar en la Web). 
 * La información en pantalla para informes no se admite para los objetos visuales personalizados. 

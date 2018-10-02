@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/08/2018
+ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 6aa3e6ba5a471176a6af2551344744cdc45697fb
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 4cc2c0ae14cf457c3a704b2891e070f4e4e00166
+ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657952"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44512188"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que desee aplicar. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -36,7 +36,17 @@ Si usa una versión anterior de **Power BI Desktop**, puede habilitarla como una
 Siempre se recomienda actualizar a la versión más reciente de **Power BI Desktop**, que se puede obtener desde un vínculo en [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="how-report-themes-work"></a>Funcionamiento de los temas para informes
-Para aplicar un tema para informes a un informe de Power BI Desktop, seleccione el botón **Cambiar tema** desde la cinta de opciones de **Inicio** y, a continuación, seleccione **Importar tema** en la lista desplegable.
+Para aplicar un tema de informes a un informe de Power BI Desktop, puede seleccionar entre los temas de informes integrados que hay disponibles o importar un tema personalizado.
+
+Para seleccionar entre los temas de informes integrados que hay disponibles, haga clic en el botón **Cambiar tema** en la cinta **Inicio** y seleccione uno de los temas incluidos en el menú desplegable.
+
+![seleccionar un tema de informe](media/desktop-report-themes/report-themes_2a.png)
+
+El tema del informe se aplicará al informe y listo.
+
+### <a name="importing-report-themes"></a>Importar temas de informe
+
+Para importar un tema de informe personalizado, haga clic en el botón **Cambiar tema** en la cinta **Inicio** y, después, seleccione **Importar tema** en la lista desplegable.
 
 ![](media/desktop-report-themes/report-themes_3.png)
 
