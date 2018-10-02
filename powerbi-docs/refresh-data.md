@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e75cc0f7ca31257ea46af20b63c29d0d870ef7a0
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: bb29cd9edc5e44293344b7194ec94af482bd0166
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39329693"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417381"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 Asegurarse de que siempre dispone de los datos más recientes suele ser fundamental para tomar las decisiones correctas. Es probable que ya haya usado Obtener datos de Power BI para cargar y conectarse a algunos datos, creado algunos informes y un panel. Ahora, quiere asegurarse de que los datos son realmente los más recientes y mejores.
@@ -211,8 +211,6 @@ Los paneles en tiempo real usan la API de REST de Microsoft Power BI, o Microsof
 | **Origen de datos** | **Automático** | **Actualización programada o manual configurada por el usuario** | **Puerta de enlace necesaria** |
 | --- | --- | --- | --- |
 | Aplicaciones personalizadas desarrolladas con la API de Rest de BI de Power BI o Microsoft Stream Analytics |Sí, streaming en vivo |No |No |
-
-Para más información, consulte [Información general sobre la API de REST de Power BI](https://msdn.microsoft.com/library/mt267603.aspx).
 
 ## <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 Para aprender a configurar la actualización programada, consulte [Configuración de actualización programada](refresh-scheduled-refresh.md)
