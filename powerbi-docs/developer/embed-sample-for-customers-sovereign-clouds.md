@@ -4,17 +4,16 @@ description: Aprenda a integrar, o insertar, un panel, un icono o un informe, en
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 07/26/2018
-ms.openlocfilehash: 2d722428ce2029ef4689e6b4bf5dfcdd208baff8
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: c9e38f3ca1c8ee43ab9d51d621dfc7d835c39db1
+ms.sourcegitcommit: 767c0d770e32e91ff28a176f79595fab523f69eb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39255880"
+ms.lasthandoff: 10/02/2018
+ms.locfileid: "48039448"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Insertar un panel, icono o informe de Power BI en la aplicación para nubes soberanas
 Aprenda a integrar, o insertar, un panel, icono o informe en una aplicación web mediante el SDK de .NET de Power BI, junto con la API de JavaScript de Power BI cuando inserte contenido para los clientes. Este suele ser el caso de los fabricantes de software independientes (ISV).
@@ -415,3 +414,4 @@ Limitaciones y consideraciones
 * De momento las cuentas GCC solo son compatibles con las capacidades P y EM
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+
