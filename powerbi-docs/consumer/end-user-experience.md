@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 05/18/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 152ca52713cc548553d061d2457d13d1b5760ee4
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565852"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48798940"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -38,7 +38,7 @@ Vamos a obtener algunos datos de ejemplo para usarlos en nuestro recorrido por e
 
     ![Seleccionar el ejemplo](./media/end-user-experience/power-bi-retail-sample.png)
 
-    El servicio Power BI importa el ejemplo y abre el panel. Los paneles son algo que diferencia el servicio Power BI de Power BI Desktop. El ejemplo incluye también un informe y un conjunto de datos, en los que nos detendremos más adelante.
+    El servicio Power BI importa el ejemplo y abre el panel. Los paneles son algo que diferencian al servicio Power BI de Power BI Desktop. El ejemplo incluye también un informe y un conjunto de datos, en los que nos detendremos más adelante.
 
     ![](media/end-user-experience/power-bi-dashboard.png)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c36034ad5e8175e08f1d16c2f5148c5dab0ebbd
-ms.sourcegitcommit: 640382408111d6e9cd1b9dfad0b484e3c727e454
+ms.openlocfilehash: 2536ea34cadae5f348e619d713420787db4c467a
+ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/22/2018
-ms.locfileid: "42702875"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48799055"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Uso de conectores de datos personalizados con la puerta de enlace de datos local
 
@@ -45,8 +45,6 @@ Cuando esta opción esté habilitada, verá los conectores personalizados como o
 
 * Asegúrese de que el servicio de la puerta de enlace en segundo plano puede acceder a la carpeta que cree. Normalmente, no se puede acceder a las carpetas que hay en la carpeta de Windows o del sistema de los usuarios. El configurador de la puerta de enlace muestra un mensaje si no se puede acceder a la carpeta (esto no se aplica a la versión Personal de la puerta de enlace).
 * Para que los conectores personalizados funcionen con la puerta de enlace de datos local, se debe implementar una sección "TestConnection" en el código del conector personalizado. Esto no es necesario al usar conectores personalizados con Power BI Desktop. Puede tener uno que funciona con la versión Desktop, pero no con la puerta de enlace por este motivo. Vea [esta documentación](https://github.com/Microsoft/DataConnectors/blob/master/docs/m-extensions.md#implementing-testconnection-for-gateway-support) sobre cómo implementar una sección TestConnection.
-* No se admiten los conectores personalizados con la autenticación OAuth.
-* No se admiten los conectores personalizados con DirectQuery.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

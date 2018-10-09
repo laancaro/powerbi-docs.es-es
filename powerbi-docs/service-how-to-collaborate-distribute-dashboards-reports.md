@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22d32315040352e013ae8331e9433a9e60e97f5c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c99d2047bc021f7e9d98145bc9cb884917fa3b5c
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545760"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271737"
 ---
 # <a name="how-should-i-collaborate-and-share-in-power-bi"></a>¿Cómo debo colaborar y compartir en Power BI?
 
@@ -29,7 +29,7 @@ En este artículo, compararemos estas opciones de colaboración y uso compartido
 - Imprimir informes.
 * Publicar en la Web para sitios web públicos, donde cualquier persona del mundo puede ver e interactuar con él.
 
-Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-free-vs-pro.md) o que el contenido esté en una [capacidad premium](service-premium.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
+Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
 ![Aplicaciones en el servicio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
