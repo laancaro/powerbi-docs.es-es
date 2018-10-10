@@ -10,19 +10,19 @@ ms.topic: conceptual
 ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4c206e6b1abb37bdaeb0e03fbce31b7b12e356ba
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e03f6b4542c4f5f6c1d1a84892030520651ac9a3
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47186662"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908316"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interacción con un informe en la vista de edición en el servicio Power BI
 Los informes pueden crearse y editarse en el servicio Power BI y en Power BI Desktop. En el servicio Power BI, los informes pueden crearse y editarse en la **vista de edición**. Y en Power BI Desktop, los informes pueden crearse y editarse en la [**vista de informes**](desktop-report-view.md). Este artículo trata la vista de edición en el servicio Power BI. 
 
 El servicio Power BI tiene dos modos diferentes para interactuar con los informes: la [vista de lectura](consumer/end-user-reading-view.md) para los *consumidores* del informe y la vista de edición para los propietarios y creadores de informes.  Se necesita una licencia de Power BI Pro para compartir informes, así como para editar informes creados por otros usuarios. Si carece de una licencia de Pro, seguirá pudiendo crear informes, pero no [compartirlos](service-share-reports.md).    
 
-La vista de edición del informe le ofrece mucha flexibilidad para explorar y diseñar un informe. Toda la funcionalidad de la [Vista de lectura](consumer/end-user-reading-view.md) está disponible, entre muchas otras cosas. La vista de edición solo está disponible para la persona que creó el informe o para los colegas que son [copropietarios de un informe como miembros o administradores de un área de trabajo de la aplicación](consumer/end-user-create-apps.md).
+La vista de edición del informe le ofrece mucha flexibilidad para explorar y diseñar un informe. Toda la funcionalidad de la [Vista de lectura](consumer/end-user-reading-view.md) está disponible, entre muchas otras cosas. La vista de edición solo está disponible para la persona que creó el informe o para los colegas que son [copropietarios de un informe como miembros o administradores de un área de trabajo de la aplicación](service-create-distribute-apps.md).
 
 ## <a name="functionality-only-available-in-editing-view"></a>Esta funcionalidad solo está disponible en la vista de edición
 Eche un vistazo a la lista de temas que aparecen en el encabezado **Informes** de la tabla de contenido de la izquierda. Es una lista larga y muchos de los temas abarcan funcionalidades que *solo están disponible si se tienen permisos de edición en un informe*.  Para ayudarle a navegar por la tabla de contenido, la vista de edición es obligatoria para realizar las siguientes acciones:

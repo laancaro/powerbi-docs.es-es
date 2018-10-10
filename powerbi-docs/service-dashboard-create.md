@@ -8,22 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: 462e9b1d991690846c57a225552b271fca19499c
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544404"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908656"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
-Ha leído [Paneles en Power BI](consumer/end-user-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
+Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
 
 Puede parecer abrumador cuando se empieza a trabajar, así que empezaremos a crear un panel rápido y sencillo, mediante el anclado de visualizaciones a partir de un informe que ya se ha creado. Cuando haya completado esta guía de inicio rápido, tendrá un buen conocimiento de la relación entre los paneles e informes, abrirá la vista de edición en el editor de informes, anclará iconos y navegará entre un panel y un informe. Después, va a usar los vínculos de tabla de contenido de la izquierda o de los **Pasos siguientes** en la parte inferior para desplazarse a temas más avanzados.
 
 ## <a name="who-can-create-a-dashboard"></a>¿Quién puede crear un panel?
-La creación de un panel es una característica del **creador** y necesita permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en areaDeTrabajoABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](consumer/end-user-apps.md) (está **consumiendo** el informe), no podrá anclar los iconos a un panel.
+La creación de un panel es una característica del **creador** y necesita permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en areaDeTrabajoABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](service-create-distribute-apps.md) (está **consumiendo** el informe), no podrá anclar los iconos a un panel.
 
 > **NOTA**: Los paneles son una característica del servicio Power BI y no de Power BI Desktop. No se puede crear paneles en Power BI Mobile, pero se pueden [ver y compartir](consumer/mobile/mobile-apps-view-dashboard.md).
 >
@@ -65,7 +65,7 @@ Vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo p
 1. En la misma área de trabajo, seleccione la pestaña **Informes**. El informe recién importado se muestra con un asterisco amarillo. Seleccione el nombre del informe para abrirlo.
 
     ![Pestaña Informes](media/service-dashboard-create/power-bi-reports.png)
-2. El informe se abrirá en [Vista de lectura](consumer/end-user-reading-view.md). Observe que tiene dos pestañas en la parte inferior: "Análisis de descuento" y "Resumen de gastos". Cada pestaña representa una página del informe.
+2. El informe se abrirá en la vista de lectura. Observe que tiene dos pestañas en la parte inferior: "Análisis de descuento" y "Resumen de gastos". Cada pestaña representa una página del informe.
     Seleccione **Editar informe** para abrir el informe en la vista de edición.
 
     ![Informe en vista de lectura](media/service-dashboard-create/power-bi-reading-view.png)
@@ -108,9 +108,9 @@ Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer muc
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Mover un icono y cambiar su tamaño](service-dashboard-edit-tile.md)
-* [Todo acerca de los iconos de paneles](consumer/end-user-tiles.md)
-* [Comparta el panel mediante la creación de una aplicación](consumer/end-user-create-apps.md)
-* [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
+* [Todo acerca de los iconos de paneles](service-dashboard-tiles.md)
+* [Comparta el panel mediante la creación de una aplicación](service-install-use-apps.md)
+* [Power BI: Conceptos básicos](service-basic-concepts.md)
 * [Sugerencias para diseñar un panel de Power BI fantástico](service-dashboards-design-tips.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 05/25/2018
+ms.date: 08/25/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8e5e2211af7dc53dba20a8d43c1083517b51bf17
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: eac6a1b4f7a3f734aa22c715a4ef196193230283
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565990"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908863"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 Si quiere ver los datos que se usan para crear una visualización, puede [mostrar estos datos en Power BI](end-user-show-data.md) o exportarlos a Excel como un archivo .xlsx o .csv.   
@@ -55,7 +55,7 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
 4. Seleccione los puntos suspensivos en la esquina superior derecha de la visualización. Elija **Exportar datos**.
 
    ![](media/end-user-export-data/power-bi-export-data2.png)
-5. En Power BI en línea, si la visualización tiene un agregado (un ejemplo sería si ha cambiado **Recuento** a *Media*, **Suma** o *Mínimo*), tendrá dos opciones: **Datos resumidos** y **Datos subyacentes**. En Power BI Desktop, solo tendrá la opción **Datos resumidos**. Para entender mejor los agregados, vea [Agregados en Power BI](../service-aggregates.md).
+5. En Power BI en línea, si la visualización tiene un agregado (un ejemplo sería si ha cambiado **Recuento** a *Media*, *Suma* o *Mínimo*), tendrá dos opciones: **Datos resumidos** y **Datos subyacentes**. En Power BI Desktop, solo tendrá la opción **Datos resumidos**. Para entender mejor los agregados, vea [Agregados en Power BI](../service-aggregates.md).
 
     ![](media/end-user-export-data/power-bi-export-data5.png)
 6. Seleccione **Datos resumidos** > **Exportar** y elija .xlsx o .csv. Power BI exporta los datos.  Si ha aplicado filtros a la visualización, los datos exportados se exportarán como filtrados. Cuando seleccione **Exportar**, el explorador le pedirá que guarde el archivo. Una vez que lo haya guardado, abra el archivo en Excel.

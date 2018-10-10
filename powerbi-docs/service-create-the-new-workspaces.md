@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5a94b4c808dcb7cbb040f68c0de7588a3b99c155
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548842"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909024"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Crear nuevas áreas de trabajo (versión preliminar) en Power BI
 
@@ -130,7 +130,7 @@ Se están creando flujos de trabajo de solicitud de acceso en todo el servicio p
 
 ## <a name="distribute-an-app"></a>Distribución de una aplicación
 
-Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Puede crear una aplicación desde cada área de trabajo. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo. De lo contrario, pueden buscar e instalar la aplicación desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](consumer/end-user-create-apps.md) para obtener más detalles.
+Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Puede crear una aplicación desde cada área de trabajo. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo. De lo contrario, pueden buscar e instalar la aplicación desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md) para obtener más detalles.
 
 ## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Convertir las áreas de trabajo de la aplicación antiguas en nuevas áreas de trabajo de la aplicación
 
@@ -172,7 +172,6 @@ Se tiene conocimiento de los siguientes problemas y se están desarrollando sus 
 - Después de mover un área de trabajo de una capacidad Premium a una capacidad compartida, en algunos casos, los usuarios y grupos de usuarios con acceso gratuito siguen recibiendo correos electrónicos, aunque no deberían. El problema se produce cuando Mi área de trabajo del usuario que crea la suscripción se encuentra en una capacidad Premium.
 
 ## <a name="next-steps"></a>Pasos siguientes
-
-- [Crear las áreas de trabajo actuales](service-create-workspaces.md)
-* [Instalar y usar aplicaciones en Power BI](consumer/end-user-apps.md)
+* [Crear las áreas de trabajo actuales](service-create-workspaces.md)
+* [Instalar y usar aplicaciones en Power BI](service-create-distribute-apps.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

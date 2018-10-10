@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a9f394cdfefabf1392b0219079d95a35d38b1754
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546128"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909047"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -205,7 +205,7 @@ Puede cambiar el valor a **Habilitado** y luego especificar quién obtiene esta 
 > [!NOTE]
 > Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
 
-Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](consumer/end-user-create-apps.md#how-to-install-an-app-automatically-for-end-users).
+Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](service-create-distribute-apps.md).
 
 ## <a name="integration-settings"></a>Configuración de integración
 

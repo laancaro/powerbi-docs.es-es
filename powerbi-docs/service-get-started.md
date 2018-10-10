@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6efef092002c0dc401c4c5328dd3e0d595beff66
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 554e9f3bbea5a1da6ac43f21f72b054a26849f23
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187131"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908762"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introducción al servicio Power BI (app.powerbi.com)
 Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo encaja el servicio Power BI con las otras ofertas de Power BI, se recomienda que lea primero [¿Qué es Power BI?](power-bi-overview.md).
@@ -55,7 +55,7 @@ Visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playl
 ## <a name="what-is-power-bi-service"></a>¿Qué es el servicio Power BI?
 El servicio Microsoft Power BI se denomina en ocasiones Power BI en línea o app.powerbi.com. Power BI le permite a mantenerse al día con la información más importante para usted.  Los ***paneles*** del servicio Power BI le ayudan a captar el pulso de su negocio.  Los paneles muestran ***iconos*** en los que puede abrir ***informes*** para seguir explorando.  Conéctese a varios ***conjuntos de datos*** para reunir todos los datos relevantes en un solo lugar. ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](consumer/end-user-basic-concepts.md).
 
-Si tiene datos importantes en archivos de Excel o CSV, puede crear un panel de Power BI para mantenerse informado en cualquier lugar y compartir recomendaciones con otros usuarios.  ¿Tiene una suscripción a una aplicación de SaaS como Salesforce?  Arranque con ventaja conectándose a Salesforce para crear automáticamente un panel a partir de los datos, o bien [compruebe todas las demás aplicaciones de SaaS](service-get-data.md) a las que pueda conectarse. Si forma parte de una organización, consulte si se ha publicado alguna [aplicación](consumer/end-user-create-apps.md) para usted.
+Si tiene datos importantes en archivos de Excel o CSV, puede crear un panel de Power BI para mantenerse informado en cualquier lugar y compartir recomendaciones con otros usuarios.  ¿Tiene una suscripción a una aplicación de SaaS como Salesforce?  Arranque con ventaja conectándose a Salesforce para crear automáticamente un panel a partir de los datos, o bien [compruebe todas las demás aplicaciones de SaaS](service-get-data.md) a las que pueda conectarse. Si forma parte de una organización, consulte si se ha publicado alguna [aplicación](service-create-distribute-apps.md) para usted.
 
 Obtenga información sobre todas las demás formas de [obtener datos para Power BI](service-get-data.md).
 

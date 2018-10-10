@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2017
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: 85a5856d20781012f32d53c9468fdd6b77a0f685
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c67d46e716574dd1a1d73b9c93c29a3e99f030ba
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546617"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909093"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 Examinar una lista de las preguntas y respuestas más frecuentes acerca de la oferta Premium de Power BI.
@@ -102,7 +102,7 @@ Para más información acerca del servidor de informes de Power BI, consulte [In
 **¿Qué son las aplicaciones en Power BI?**  
 Estamos evolucionando los paquetes de contenido hacia aplicaciones de Power BI para mejorar la forma en que los usuarios detectan y exploran la información en una escala empresarial. Las aplicaciones de Power BI ya están disponibles y ofrecen una manera simplificada de implementar paneles e informes para toda la organización, grupos o usuarios específicos. Los usuarios empresariales pueden instalar fácilmente estas aplicaciones y navegar por ellas para centralizar el contenido en un solo lugar y actualizarlo automáticamente. 
 
-Para más información acerca de las aplicaciones, consulte [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md).
+Para más información acerca de las aplicaciones, consulte [¿Qué son las aplicaciones en Power BI?](service-create-distribute-apps.md).
 
 **¿Se van a realizar cambios en Power BI Pro, Power BI Free, Power BI Desktop u otras versiones como parte de la implementación de Power BI Premium?**  
 Estamos simplificando también las diferencias entre Power BI Pro y el servicio gratuito. Hemos recibido comentarios de que, aunque el servicio gratuito está pensado para uso personal y Power BI Pro permite la colaboración, las diferencias funcionales entre ellos han creado confusión a los usuarios. En el futuro, se mejorará el servicio gratuito para que tenga la misma funcionalidad que Power BI Pro, pero se limitarán las características de uso compartido y colaboración solo los usuarios de Power BI Pro.

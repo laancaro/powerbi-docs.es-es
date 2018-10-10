@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 5268241c32112847c879407374b325dd63dd8aab
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cae5c83f6e220689bfd7d484d5d86c188325ad05
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564849"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908633"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 ## <a name="what-is-a-power-bi-report"></a>¿Qué es un informe de Power BI?
@@ -67,7 +67,7 @@ Estos son algunos de los temas, por rol, que le ayudarán a comenzar.
 * Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
 * Aprenda a [abrir un informe](end-user-report-open.md) y manejar toda la interacción disponible en [Vista de lectura](end-user-reading-view.md).
 * Familiarícese con los informes viendo uno de nuestros [ejemplos](../sample-tutorial-connect-to-the-samples.md).  
-* ¿Ya no necesita el informe? Puede [quitarlo](end-user-delete.md).
+<!--* Don't need the report any more? You can [remove it](../service-delete.md).-->
 * Para ver qué conjunto de datos está usando el informe y qué paneles tienen iconos anclados desde el informe, [vea el contenido relacionado](end-user-related.md).
 
 > [!TIP]
@@ -79,6 +79,4 @@ Estos son algunos de los temas, por rol, que le ayudarán a comenzar.
 [¿Qué es Power BI?](../power-bi-overview.md) 
 
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

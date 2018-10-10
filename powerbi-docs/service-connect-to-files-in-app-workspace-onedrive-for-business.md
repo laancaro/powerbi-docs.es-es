@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ad430f438bb6418378b13f3104f87a3bd972a2e4
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: c732d1128719db500e13194d36ba1db2605efd2c
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271886"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908706"
 ---
 # <a name="connect-to-files-stored-in-onedrive-for-your-power-bi-app-workspace"></a>Conéctese a los archivos almacenados en OneDrive del área de trabajo de aplicaciones de Power BI
-Una vez que [ha creado un área de trabajo de una aplicación en Power BI](consumer/end-user-create-apps.md), puede almacenar los archivos de Excel, CSV y Power BI Desktop en la instancia de OneDrive para la Empresa de dicho área. Los archivos que almacene en OneDrive se pueden seguir actualizando, y dichas actualizaciones se reflejarán automáticamente en los informes y paneles de Power BI en función de los archivos. 
+Una vez que [ha creado un área de trabajo de una aplicación en Power BI](service-create-distribute-apps.md), puede almacenar los archivos de Excel, CSV y Power BI Desktop en la instancia de OneDrive para la Empresa de dicho área. Los archivos que almacene en OneDrive se pueden seguir actualizando, y dichas actualizaciones se reflejarán automáticamente en los informes y paneles de Power BI en función de los archivos. 
 
 > [!NOTE]
 > La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
@@ -79,7 +79,7 @@ Ahora que los archivos se encuentran en OneDrive para la Empresa del área de tr
     ![](media/service-connect-to-files-in-app-workspace-onedrive-for-business/power-bi-app-excel-file-connect.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Creación de aplicaciones y áreas de trabajo de la aplicación de Power BI](consumer/end-user-create-apps.md)
+* [Creación de aplicaciones y áreas de trabajo de la aplicación de Power BI](service-create-distribute-apps.md)
 * [Importar datos desde libros de Excel](service-get-data-from-files.md)
 * [Conectarse a libros de Excel completos](service-excel-workbook-files.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

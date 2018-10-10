@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f94fe8d82fe752d2e2d0f1290cdaa5193a75e0a9
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 4648d09e6ef58d84b85690062428f0515fa7ddae
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565369"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908091"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Búsqueda y conexión a un paquete de contenido organizativo
 
@@ -50,6 +50,6 @@ Si el propietario del paquete de contenido cambia el paquete de contenido, puede
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Paquetes de contenido organizativos: introducción](../service-organizational-content-pack-introduction.md)  
-* [Creación y distribución de una aplicación en Power BI](end-user-create-apps.md)
+* [Creación y distribución de una aplicación en Power BI](../service-create-distribute-apps.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 
