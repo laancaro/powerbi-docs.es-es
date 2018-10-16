@@ -11,12 +11,12 @@ ms.topic: quickstart
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 261d6fdb12a75fd1476c5f19ded034a3f85d1fb3
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798940"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112162"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -125,7 +125,7 @@ También puede ordenar el contenido por nombre o propietario.
 
 ![Orden de contenido](./media/end-user-experience/power-bi-sort.png)
 
-Para más información, consulte [Navegación en Power BI: buscar, ordenar y filtrar](end-user-search-filter-sort.md)
+Para más información, consulte [Navegación en Power BI: buscar, ordenar y filtrar](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos
 Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de muestra de ejemplos de análisis de minoristas, el informe y el conjunto de datos.
