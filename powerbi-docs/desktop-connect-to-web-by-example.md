@@ -1,5 +1,5 @@
 ---
-title: Extracción de datos de una página web con un ejemplo en Power BI Desktop (versión preliminar)
+title: Extracción de datos de una página web con un ejemplo en Power BI Desktop
 description: Extracción de datos de una página web con un ejemplo de lo que se desea extraer
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 55c1a70e054b6bb6ff06c7fe6f83b58d8b1f26f3
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: f90f2ea4737fc5c98df4d171f8e1e65c2704607d
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34290991"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336815"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example-preview"></a>Obtener datos de una página web con un ejemplo (versión preliminar)
+# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Obtener datos de una página web con un ejemplo
 
 Obtener datos de una página web permite a los usuarios extraer datos fácilmente de las páginas web e importarlos en **Power BI Desktop**. Sin embargo, a menudo, los datos de las páginas web no están en tablas ordenadas de las que resulta fácil extraerlos, por lo que obtener los datos de dichas páginas, aunque sean estructuradas y coherentes, puede ser complicado. 
 
@@ -26,13 +26,6 @@ Hay una solución. Con la característica **Obtener datos de páginas web con ej
 ![Obtener datos de páginas web con ejemplos](media/desktop-connect-to-web-by-example/web-by-example_01.png)
 
 
-## <a name="enabling-the-preview-feature-get-data-from-web-by-example"></a>Habilitar la característica en versión preliminar Obtener datos de páginas web con ejemplos
-
-La característica **Obtener datos de páginas web con ejemplos** está en versión preliminar y debe habilitarse en **Power BI Desktop**. Para habilitarla, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, active la casilla **Novedad de la experiencia web**. Deberá reiniciar Power BI Desktop después de realizar la selección.
-
-![Habilitar la característica en versión preliminar](media/desktop-connect-to-web-by-example/web-by-example_02.png)
-
-Una vez habilitada la característica en versión preliminar, ya puede empezar a usarla. 
 
 ## <a name="using-get-data-from-web-by-example"></a>Uso de Obtener datos de páginas web con ejemplos
 
