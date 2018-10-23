@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
-ms.openlocfilehash: e4173811db0de0dc95e0bd324517a5750165983e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 666938d8d852793b68bb278147c61f077c839ed2
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908656"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435373"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
@@ -109,7 +109,7 @@ Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer muc
 ## <a name="next-steps"></a>Pasos siguientes
 * [Mover un icono y cambiar su tamaño](service-dashboard-edit-tile.md)
 * [Todo acerca de los iconos de paneles](service-dashboard-tiles.md)
-* [Comparta el panel mediante la creación de una aplicación](service-install-use-apps.md)
+* [Comparta el panel mediante la creación de una aplicación](service-create-workspaces.md)
 * [Power BI: Conceptos básicos](service-basic-concepts.md)
 * [Sugerencias para diseñar un panel de Power BI fantástico](service-dashboards-design-tips.md)
 

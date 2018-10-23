@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 668db107087420ceeabbe68325ee6c67dc69e524
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 86dabdb84dd4ca949930c25213f554060135f10a
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547209"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396644"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Datos activos de SQL Server Analysis Services en Power BI
 En Power BI hay dos maneras de conectarse a un servidor activo de SQL Server Analysis Services. En **Obtener datos**, puede conectarse a un servidor de SQL Server Analysis Services, o bien puede conectarse a un [archivo de Power BI Desktop](service-desktop-files.md) o a un [libro de Excel](service-excel-workbook-files.md) que ya está conectado a un servidor de Analysis Services. Como procedimiento recomendado, Microsoft recomienda encarecidamente que se use Power BI Desktop por la calidad del conjunto de herramientas y la capacidad de mantener una copia de seguridad del archivo de Power BI Desktop de forma local.
@@ -23,7 +23,7 @@ En Power BI hay dos maneras de conectarse a un servidor activo de SQL Server Ana
  >[!IMPORTANT]
  >* Para conectarse a un servidor activo de Analysis Services, un administrador debe instalar y configurar una puerta de enlace de datos local. Para más información, consulte [Puerta de enlace de datos local](service-gateway-onprem.md).
  >* Cuando se usa la puerta de enlace, los datos permanecen en local.  Los informes que se crean en función de los datos se guardan en el servicio Power BI. 
- >* [La consulta en lenguaje natural de preguntas y respuestas](consumer/end-user-q-and-a-direct-query.md) se encuentra en versión preliminar para las conexiones activas de Analysis Services.
+ >* [La consulta en lenguaje natural de preguntas y respuestas](service-q-and-a-direct-query.md) se encuentra en versión preliminar para las conexiones activas de Analysis Services.
 
 ## <a name="to-connect-to-a-model-from-get-data"></a>Para conectarse a un modelo desde Obtener datos
 1. En **Mi área de trabajo**, seleccione **Obtener datos**. También puede cambiar a un área de trabajo de grupo, si está disponible.

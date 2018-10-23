@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 334bffeabbf5342c21424fa5d9907eba7e71fd4e
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909047"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396920"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -161,7 +161,7 @@ Los usuarios pueden ver diferentes opciones en la interfaz de usuario en funció
 
 ### <a name="export-data"></a>Exportar datos
 
-Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](consumer/end-user-export-data.md)
+Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](visuals/power-bi-visualization-export-data.md)
 
 ![](media/service-admin-portal/powerbi-admin-export-data.png)
 

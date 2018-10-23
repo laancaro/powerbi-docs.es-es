@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/17/2018
+ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 69e1bfffab1dd30685036b3c5265f81040a5f7c3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 6f595a2d6423b1e79e927ee2d229363632022d58
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187154"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49397012"
 ---
 # <a name="tutorial-how-to-use-qa-to-create-visualizations-and-build-reports"></a>Tutorial: Uso de Preguntas y respuestas para crear visualizaciones y generar informes
 En la [Introducción a Preguntas y respuestas](consumer/end-user-q-and-a.md), se presentó la funcionalidad Preguntas y respuestas de Power BI y se realizó la distinción entre *consumidores* (tienen paneles e informes compartidos con ellos) y *creadores* (son los propietarios de los informes y conjuntos de datos subyacentes). La primera parte de este tutorial está diseñada principalmente para las personas que consumen paneles mediante el servicio Power BI. Y la segunda parte está diseñada para las personas que crean informes con el servicio Power BI o con Power BI Desktop. [Preguntas y respuestas y Power BI Mobile](consumer/mobile/mobile-apps-ios-qna.md) y [Preguntas y respuestas con Power BI Embedded](developer/qanda.md) se tratan en artículos independientes.
@@ -98,7 +98,7 @@ Para poder usar Preguntas y respuestas en los informes, debe tener permisos de e
 Con Preguntas y respuestas, no solo puede pedir a sus datos que sean suficientemente aclaratorios, también puede indicar a Power BI cómo mostrar la respuesta. Solo tiene que agregar "como un <visualization type>" al final de la pregunta.  Por ejemplo, "mostrar volumen de inventario por planta como un mapa" y "mostrar total del inventario como una tarjeta".  Pruébelo usted mismo.
 
 ##  <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-- Si se ha conectado a un conjunto de datos mediante una conexión dinámica o una puerta de enlace, Preguntas y respuestas deben ser [habilitado para ese conjunto de datos](consumer/end-user-q-and-a-direct-query.md).
+- Si se ha conectado a un conjunto de datos mediante una conexión dinámica o una puerta de enlace, Preguntas y respuestas deben ser [habilitado para ese conjunto de datos](service-q-and-a-direct-query.md).
 
 - Ha abierto un informe y no ve la opción de Preguntas y respuestas. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en la vista de edición. Si no se puede abrir la vista de edición significa que no tiene permisos de edición para el informe y no podrá usar Preguntas y respuestas con ese informe específico.
 
@@ -107,5 +107,5 @@ Volver a [Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)
 [Tutorial: Uso de Preguntas y respuestas con el Ejemplo de análisis de minoristas](power-bi-visualization-introduction-to-q-and-a.md)   
 [Sugerencias para formular preguntas en Preguntas y respuestas](consumer/end-user-q-and-a-tips.md)   
 [Preparación de un libro para Preguntas y respuestas](service-prepare-data-for-q-and-a.md)  
-[Preparación de un conjunto de datos local para Preguntas y respuestas](consumer/end-user-q-and-a-direct-query.md)
+[Preparación de un conjunto de datos local para Preguntas y respuestas](service-q-and-a-direct-query.md)
 [Anclaje de un icono al panel desde Preguntas y respuestas](service-dashboard-pin-tile-from-q-and-a.md)

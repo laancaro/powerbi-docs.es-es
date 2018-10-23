@@ -2,8 +2,6 @@ Esta es la sección **Publicación y uso compartido** del curso de **Aprendizaje
 
 Ahora que ha descubierto el modo en que Excel y Power BI funcionan juntos sin problemas y se ha familiarizado con todo lo relativo a los elementos visuales que puede crear en los informes y los paneles, seguramente desee compartirlos con sus compañeros y amigos. Con Power BI, **publicar y compartir** son tareas fáciles.
 
-En esta sección se muestra lo fácil que es importar libros de Excel a Power BI y se demuestra que Power BI y Excel forman un equipo excelente.
-
 ## <a name="share-and-collaborate-with-colleagues-in-power-bi"></a>Uso compartido y colaboración con compañeros en Power BI
 *Conozca las herramientas que permiten compartir y colaborar más fácilmente con Power BI*
 
