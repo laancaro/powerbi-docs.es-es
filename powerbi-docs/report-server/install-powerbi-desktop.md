@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/24/2018
+ms.date: 09/19/2018
 ms.author: maggies
-ms.openlocfilehash: d3b7ace4fe611cc55965f96f770caf7b4ebf21b1
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: c65b945260357b0679f8fdb83c534aac53481126
+ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44726395"
+ms.lasthandoff: 09/22/2018
+ms.locfileid: "46564794"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 Aprenda a instalar Power BI Desktop optimizado para el servidor de informes de Power BI.
@@ -31,7 +31,7 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
 
     ![Descarga de Power BI Desktop desde el portal web](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    O bien, puede ir directamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=56723) (optimizado para Power BI Report Server, marzo de 2018) en el Centro de descarga de Microsoft.
+    O bien, puede ir directamente a [Microsoft Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=57271) (optimizado para Power BI Report Server, agosto de 2018) en el Centro de descarga de Microsoft.
 
 2. En la página del Centro de descarga, seleccione **Descargar**.
 
@@ -41,7 +41,8 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
 
     - **PBIDesktopRS_x64.msi** (versión de 64 bits).
 
-1. Después de descargar el instalador, ejecute el Asistente para la instalación de Power BI Desktop (octubre de 2017).
+1. Después de descargar el instalador, ejecute el Asistente para la instalación de Power BI Desktop (agosto de 2018).
+
 2. Al final del proceso de instalación, seleccione **Iniciar Power BI Desktop ahora**.
    
     Se inicia automáticamente y está listo para funcionar.
@@ -49,7 +50,7 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
 ## <a name="verify-you-are-using-the-correct-version"></a>Compruebe que usa la versión correcta
 Para ello, examine la pantalla de inicio o la barra de títulos de Power BI Desktop. En la barra de título se indican el mes y el año de la versión.
 
-![Barra de título de Power BI Desktop optimizado para Power BI Report Server](media/quickstart-create-powerbi-report/report-server-desktop-march-2018.png)
+![Barra de título de Power BI Desktop optimizado para Power BI Report Server](media/install-powerbi-desktop/power-bi-report-server-desktop-august-2018.png)
 
 La versión de Power BI Desktop para el servicio Power BI no indica el mes y el año en la barra de título.
 
@@ -63,7 +64,7 @@ Siempre puede abrir la versión de Power BI Desktop que desea usar en primer lug
 La edición de un informe de Power BI desde el servidor de informes de Power BI o la creación de un nuevo informe de Power BI desde el portal web, siempre abrirá siempre la versión correcta de Power BI Desktop.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-Los informes de Power BI Report Server y del servicio Power BI (http://powerbi.com)) actúan prácticamente igual, pero hay algunas características diferentes.
+Los informes de Power BI de Power BI Report Server, del servicio Power BI (http://app.powerbi.com)) y de las aplicaciones móviles de Power BI actúan prácticamente igual, pero hay algunas características diferentes.
 
 ### <a name="in-a-browser"></a>En un explorador
 Los informes del servidor de informes de Power BI admiten todas las visualizaciones, entre las que se incluyen:
@@ -80,9 +81,9 @@ Los informes del servidor de informes de Power BI no admiten:
 ### <a name="in-the-power-bi-mobile-apps"></a>En las aplicaciones móviles de Power BI
 Los informes del servidor de informes de Power BI admiten toda la funcionalidad básica en las [aplicaciones móviles de Power BI](../consumer/mobile/mobile-apps-for-mobile-devices.md), lo que incluye:
 
-* [Diseño del informe en el teléfono](../desktop-create-phone-report.md): puede optimizar un informe para las aplicaciones móviles de Power BI. En el teléfono móvil, los informes optimizados tienen un icono ![icono de diseño de informes del teléfono](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-icon.png) y un diseño especiales.
+* [Diseño del informe en el teléfono](../desktop-create-phone-report.md): puede optimizar un informe para las aplicaciones móviles de Power BI. En el teléfono móvil, los informes optimizados tienen un icono ![icono de diseño de informes del teléfono](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-icon.png) y un diseño especiales.
   
-    ![Informe optimizado para teléfonos](media/quickstart-create-powerbi-report/power-bi-rs-mobile-optimized-report.png)
+    ![Informe optimizado para teléfonos](media/install-powerbi-desktop/power-bi-rs-mobile-optimized-report.png)
 
 Los informes del servidor de informes de Power BI no admiten estas características en las aplicaciones móviles de Power BI:
 

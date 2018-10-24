@@ -9,43 +9,43 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 2817ccb25fc9aa6d3e8150c776558366dcf0ccb6
-ms.sourcegitcommit: 0c870a006e525447497e678484874a2f137b9abd
+ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2018
-ms.locfileid: "39088848"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47237994"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Insertar informes o paneles desde aplicaciones
 
-En **Power BI**, puede crear aplicaciones para reunir **paneles** e **informes** relacionados en un solo lugar y publicarlos posteriormente para grandes grupos de usuarios de la organización. El uso de esas aplicaciones es pertinente cuando todos los usuarios son usuarios de Power BI, para poder compartir contenido con ellos mediante aplicaciones de Power BI. Nos gustaría compartir unos cuantos pasos rápidos sobre cómo realizar la inserción de contenido de una aplicación de Power BI publicada en una aplicación de terceros.
+En Power BI, se pueden crear aplicaciones para reunir paneles e informes relacionados en un solo lugar. Después, se pueden publicar en grandes grupos de usuarios de la organización. El uso de esas aplicaciones es relevante cuando todos los usuarios son usuarios de Power BI. Por tanto, puede compartir contenido con ellas mediante el uso de aplicaciones de Power BI. En este artículo se proporcionan algunos pasos rápidos para extraer contenido de una aplicación de Power BI publicada e insertarlo en una aplicación de terceros.
 
-## <a name="how-to-grab-report-embed-url-for-embedding"></a>Cómo obtener la dirección URL del informe para la inserción
+## <a name="grab-a-report-embedurl-for-embedding"></a>Obtención de un valor embedURL de informe para la inserción
 
-1. Cree una instancia de la aplicación en un área de trabajo de usuario ("Mi área de trabajo") al compartir con usted mismo o guiar a otro usuario a lo largo de este flujo.
+1. Cree una instancia de la aplicación en un área de trabajo de usuario, **Mi área de trabajo**. Comparta con usted mismo o guíe a otro usuario para recorrer este flujo.
 
 2. Abra el informe que quiera en el servicio Power BI.
 
-3. Vaya a Archivo -> Insertar en SharePoint Online y tome de ahí la dirección URL para insertar del informe (la puede ver en la siguiente instantánea) o llame a la API de REST GetReports/GetReport y extraiga el campo embedURL correspondiente del informe de la respuesta (tenga en cuenta que la llamada a REST no debe tener un identificador de área de trabajo como parte de la dirección URL, ya que la instancia de la aplicación se ha creado en el área de trabajo del usuario).
+3. Vaya a **Archivo** > **Insertar en SharePoint Online** y obtenga ahí el valor de embedURL de informe. Se muestra en la instantánea siguiente. O bien llame a la API REST GetReports/GetReport y extraiga de la respuesta el campo embedURL de informe correspondiente. La llamada a REST no debería incluir un identificador de área de trabajo como parte de la dirección URL, ya que se creó una instancia de la aplicación en el área de trabajo del usuario.
 
-4. Use la dirección URL para insertar recuperada en el paso 3 para usarla con el SDK de JS.
+4. Use el valor de embedURL recuperado en el paso 3 con el SDK de JavaScript.
 
-    ![Insertar desde aplicaciones](media/embed-from-apps/embed-from-app.png)
+    ![Inserción desde aplicaciones](media/embed-from-apps/embed-from-app.png)
 
-## <a name="how-to-grab-dashboard-embed-url-for-embedding"></a>Cómo obtener la dirección URL del panel para la inserción
+## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Obtención de un valor embedURL de panel para la inserción
 
-1. Cree una instancia de la aplicación en un área de trabajo de usuario ("Mi área de trabajo") al compartir con usted mismo o guiar a otro usuario a lo largo de este flujo.
+1. Cree una instancia de la aplicación en un área de trabajo de usuario, **Mi área de trabajo**. Comparta con usted mismo o guíe a otro usuario para recorrer este flujo.
 
-2. Llame a la API de REST GetDashboards y extraiga el campo de inserción embedURL correspondiente del panel de la respuesta (tenga en cuenta que la llamada a REST no debe tener un identificador de área de trabajo como parte de la dirección URL, ya que la instancia de la aplicación se ha creado en el área de trabajo del usuario).
+2. O bien llame a la API REST GetDashboards y extraiga de la respuesta el campo embedURL de panel correspondiente. La llamada a REST no debería incluir un identificador de área de trabajo como parte de la dirección URL, ya que se creó una instancia de la aplicación en el área de trabajo del usuario.
 
-3. Use la dirección URL para insertar recuperada en el paso 4 para usarla con el SDK de JS.
+3. Use el valor de embedURL recuperado en el paso 2 con el SDK de JavaScript.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Además, vea cómo insertar desde áreas de trabajo de aplicación para los clientes ajenos y la organización.
+Vea cómo insertar desde áreas de trabajo de aplicación para los clientes de terceros y la organización:
 
 > [!div class="nextstepaction"]
->[Insertar para clientes ajenos](embed-sample-for-customers.md)
+>[Inserción para clientes de terceros](embed-sample-for-customers.md)
 
 > [!div class="nextstepaction"]
 >[Insertar para la organización](embed-sample-for-your-organization.md)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c69b73be481408884cc4fbfc5ae4987714b10d9d
-ms.sourcegitcommit: 60f637d8555fd59fd9a86de720b89b388fb85ac0
+ms.openlocfilehash: cfa25a28490a2254bd19bb431beea0ebc14d3c56
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/05/2018
-ms.locfileid: "43695119"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549761"
 ---
 # <a name="connect-to-microsoft-dynamics-marketing-with-power-bi"></a>Conexión a Microsoft Dynamics Marketing con Power BI
 El paquete de contenido de Microsoft Dynamics Marketing para Power BI permite tener acceso a los datos y analizarlos fácilmente desde Dynamics Marketing. El paquete de contenido usa un modelo descriptivo encima de la fuente de OData, con todas las entidades y las medidas necesarias, como, por ejemplo, programas, campañas, contactos de marketing y empresas, clientes potenciales, interacciones con estos, puntuación de clientes potenciales, sitios web y mensajes de correo electrónico de marketing, observaciones relativas al comportamiento, presupuestos, transacciones financieras, KPI de rendimiento, etc. 
@@ -47,10 +47,10 @@ Conéctese al [paquete de contenido de Dynamics Marketing](https://app.powerbi.c
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 * Debe especificar una dirección URL válida de OData para una instancia de Dynamics Marketing (el paquete de contenido no funcionará con una versión de CRM local).  

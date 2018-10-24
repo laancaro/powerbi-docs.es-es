@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 9bec96b594d7a761311e0ef9f457f320eb1f3963
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: e90692443f434300aceb783f0a77b44e71f86682
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37136442"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548589"
 ---
 # <a name="connect-to-sql-sentry-with-power-bi"></a>Conexión a SQL Sentry con Power BI
 Analizar los datos de rendimiento recopilados por SQL Sentry es fácil con Power BI. Power BI recupera los datos y, a continuación, crea un panel predeterminado e informes relacionados en función de esos datos.
@@ -58,10 +58,10 @@ Conéctese al [paquete de contenido de SQL Sentry](https://app.powerbi.com/group
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 Los siguientes datos están disponibles desde SQL Sentry en Power BI:

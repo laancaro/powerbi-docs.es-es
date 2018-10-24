@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e2ff9afcccc9bc32d47359fba386fcb0c704457
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: bbffe00507462c3a41ee07cb86c2376a072e5437
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327646"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271564"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Puede que haya ocasiones en que quiera usar Excel para ver e interactuar con un conjunto de datos que tenga en Power BI. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
@@ -26,7 +26,7 @@ Hay algunos requisitos para usar **Analizar en Excel**:
 * **Analizar en Excel** es compatible con Microsoft Excel 2010 SP1 y versiones posteriores.
 * Las tablas dinámicas de Excel no admiten la agregación de campos numéricos mediante arrastrar y colocar. El conjunto de datos en Power BI *debe tener medidas definidas previamente*.
 * Algunas organizaciones podrían tener reglas de directiva de grupo que impiden la instalación de las actualizaciones necesarias de **Analizar en Excel** en Excel. Si no puede instalar las actualizaciones, consulte con su administrador.
-* **Analizar en Excel** requiere una licencia Pro. Para obtener más información sobre las diferencias de funcionalidad entre las licencias gratuita y Pro, eche un vistazo a [Comparación entre las versiones gratis y Pro de Power BI](service-free-vs-pro.md). 
+* **Analizar en Excel** requiere una licencia Pro. Para obtener más información sobre las diferencias de funcionalidad entre los tipos de licencia, eche un vistazo a [Características de Power BI por tipo de licencia](service-features-license-type.md). 
 
 ## <a name="how-does-it-work"></a>¿Cómo funciona?
 Al seleccionar **Analizar en Excel** en el botón de puntos suspensivos (...) asociado con un conjunto de datos o informe de **Power BI**, Power BI crea un archivo .ODC y lo descarga en su equipo mediante el explorador.

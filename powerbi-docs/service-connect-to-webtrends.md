@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2250e3739904e6cc1e36c03df45cc765d3d9b591
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: f60fe155cb723550128ea6d35805932cb4559669
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135246"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544748"
 ---
 # <a name="connect-to-webtrends-with-power-bi"></a>Conexión a Webtrends con Power BI
 El paquete de contenido de Webtrends para Power BI incluye una variedad de métricas listas para usar como, por ejemplo, las vistas de página totales o las visitas por origen del tráfico. La visualización de los datos de Webtrends en Power BI comienza por la conexión a su cuenta de Webtrends. Puede usar el panel y los informes proporcionados, o bien personalizarlos para resaltar la información que más le interesa.  Los datos se actualizarán automáticamente una vez al día.
@@ -44,10 +44,10 @@ Conéctese al [paquete de contenido de Webtrends para Power BI](https://app.powe
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 <a name="Included"></a>
@@ -103,5 +103,5 @@ Puede abordar un problema mientras se está cargando el paquete de contenido, de
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](power-bi-overview.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 

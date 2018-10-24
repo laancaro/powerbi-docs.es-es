@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5a0c00b6082b3561a1e07e5eef4e4e21f71f97a3
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: c5fc2d476a12a4faf60313dd69dce7e143b88807
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135476"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548175"
 ---
 # <a name="connect-to-servicenow-with-power-bi-for-incident-reporting"></a>Conexión a ServiceNow con Power BI para generar informes de incidentes
 ServiceNow ofrece varios productos y soluciones que incluyen administración de TI, operaciones y negocios para mejorar su empresa. Este paquete de contenido incluye varios informes e información sobre sus incidentes abiertos resueltos recientemente y los cerrados recientemente.  
@@ -44,10 +44,10 @@ Conéctese al paquete de contenido de Power BI para los [incidentes de ServiceNo
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para conectarse necesitará:  
@@ -63,5 +63,5 @@ Si experimenta períodos de carga largos, revise el número de incidentes y el n
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](power-bi-overview.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 

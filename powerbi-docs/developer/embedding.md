@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
 ms.date: 07/31/2018
-ms.openlocfilehash: 2889345c5e4a5e93602c51baa27bf2c7e28e138f
-ms.sourcegitcommit: 16098be04df05bc8e3d44a99b4d143b622759c59
+ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/07/2018
-ms.locfileid: "39616037"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973779"
 ---
 # <a name="embedding-with-power-bi"></a>Inserción con Power BI
 
-El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Esto significa que dispone de un conjunto de funcionalidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación) para insertar el contenido.
+El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Con esta característica dispone de un conjunto de capacidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación) al insertar el contenido.
 
-Puede seguir los pasos de la [herramienta para incorporar la inserción](https://aka.ms/embedsetup) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo.
+Puede ver la [herramienta de configuración de inserción](https://aka.ms/embedsetup) para empezar rápidamente y descargar una aplicación de ejemplo.
 
 Elija la solución que más le convenga:
 
@@ -49,7 +49,7 @@ Para insertar contenido para su organización, consulte lo siguiente:
 
 Al usar la inserción para los usuarios de Power BI, las funcionalidades de autoservicio (como son editar, guardar y otras) están disponibles a través de la [API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript).
 
-Puede seguir los pasos de [Onboarding experience tool to embed for your organization](https://aka.ms/embedsetup/UserOwnsData) (Herramienta para incorporar la inserción para la organización) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que le guiará por los pasos para integrar un informe para la organización.
+Puede seguir los pasos de [Inserción con Power BI](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que le guiará por los pasos para integrar un informe para la organización.
 
 ## <a name="embedding-for-your-customers"></a>Inserción de contenido para los clientes
 

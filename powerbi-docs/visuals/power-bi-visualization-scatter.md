@@ -8,24 +8,24 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/28/2018
+ms.date: 09/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 13bc26eaecdcc9b3a00f22f75f6f9a5322d823f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748898"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448854"
 ---
 # <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Gráficos de dispersión y de burbujas de Power BI
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
 
 Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo *tamaño* representa una dimensión adicional de los datos.
 
-![](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+![Gráfico de burbujas de ejemplo](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
 
-Puede establecer el número de puntos de datos  
+Puede establecer el número de puntos de datos, hasta un máximo de 10 000.  
 
 ## <a name="when-to-use-a-scatter-chart-or-bubble-chart"></a>Cuándo se debe usar un gráfico de dispersión o un gráfico de burbujas
 ### <a name="scatter-charts-are-a-great-choice"></a>Los gráficos de dispersión son una opción excelente:
@@ -50,7 +50,7 @@ Vea este vídeo para ver como Will crea un gráfico de dispersión y, después, 
 
 Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Seleccione el icono de signo más amarillo para crear una [página de informe en blanco](../power-bi-report-add-page.md).
+1. Abra el informe en la vista Edición y haga clic el icono de signo más de color amarillo para crear una [página de informe en blanco](../power-bi-report-add-page.md).
  
 2. En el panel Campos, seleccione los siguientes campos:
    - **Ventas** > **Ventas por metro cuadrado**
@@ -83,18 +83,18 @@ Ahora vamos a agregar una tercera dimensión.
 
 3. Para establecer el número de puntos de datos que se van a mostrar en el gráfico de burbujas, en la sección **Formato** del panel **Visualizaciones**, expanda la tarjeta **General** y ajuste el **Volumen de datos**. Puede establecer el volumen de datos máximo en cualquier número hasta 10 000. Si va a usar cifras más altas, recomendamos probar primero para garantizar un buen rendimiento. 
 
-    ![Volumen de datos](./media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
+    ![Volumen de datos](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
    > [!NOTE]
    > Dado que más puntos de datos pueden significar un tiempo de carga mayor, si opta por publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes en Internet y en dispositivos móviles para garantizar que el rendimiento se ajusta a las expectativas de los usuarios. Tenga en cuenta que para un mayor número de puntos de datos, debe probar los resultados en diferentes factores de forma para garantizar un buen rendimiento.
 
 4. Puede [aplicar formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc.](service-getting-started-with-color-formatting-and-axis-properties.md) Para [mejorar la accesibilidad](../desktop-accessibility.md), considere la posibilidad de agregar formas de marcador a cada línea. El empleo de una forma de marcador distinta para cada línea permite que los lectores del informe puedan diferenciar cada una de las líneas (o áreas) con más facilidad. Para seleccionar la forma de marcador, expanda la tarjeta **Formas** y luego seleccione una forma de marcador.
 
-      ![Forma de marcador](./media/power-bi-visualization-scatter/pbi_scatter_marker.png)
+      ![Forma de marcador](media/power-bi-visualization-scatter/pbi_scatter_marker.png)
 
    También puede cambiar la forma del marcador en forma de rombo, triángulo o cuadrado:
 
-   ![Marcador cuadrado](./media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+   ![Marcador cuadrado](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
@@ -104,8 +104,7 @@ Ahora vamos a agregar una tercera dimensión.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot1.png)
 
-Agregue un campo en el área **Detalles** para indicar a Power BI cómo se deben agrupar los valores. El campo debe ser único para cada punto que quiera trazar.  
-Por ejemplo, un campo de id. o un número de fila simple:
+Agregue un campo en el área **Detalles** para indicar a Power BI cómo se deben agrupar los valores. El campo debe ser único para cada punto que quiera trazar; como un número de fila simple o un campo de identificador.
 
 ![](media/power-bi-visualization-scatter/pbi_scatter_tshoot.png)
 
@@ -116,9 +115,8 @@ O bien, si sus datos no incluyen eso, cree un campo que concatene los valores X 
 Para crear un nuevo campo, [use el Editor de consultas de Power BI Desktop para agregar una columna de índice](../desktop-add-custom-column.md) al conjunto de datos.  A continuación, agregue esta columna al área **Detalles** de la visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
+
+[Gráficos de dispersión de alta densidad](desktop-high-density-scatter-charts.md)
+
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Registrarse para obtener una evaluación gratuita](https://powerbi.microsoft.com/get-started/)  
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

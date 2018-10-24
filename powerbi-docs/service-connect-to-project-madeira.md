@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1ce4fe4e80138995e7ec356b92f31e45f3a2c920
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 49902e5f7705bf17b8343aa09af6d2fcf43f7ee5
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599793"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550153"
 ---
 # <a name="connect-to-project-madeira-with-power-bi"></a>Conexión a Project "Madeira" con Power BI
 Obtener información sobre los datos de Project "Madeira" es fácil con Power BI y el paquete de contenido de Project "Madeira". Power BI recupera los datos (tanto de ventas como financieros) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -48,10 +48,10 @@ Conéctese al [paquete de contenido de Project "Madeira"](https://app.powerbi.co
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 <a name="Requirements"></a>
 
@@ -115,5 +115,5 @@ O bien, puede que haya olvidado especificar el nombre de la compañía:
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](power-bi-overview.md)
 
-[Power BI: Conceptos básicos](service-basic-concepts.md)
+[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
 

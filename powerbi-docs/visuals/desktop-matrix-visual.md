@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: e08eeed7b4adf1a392d2661613dd190cce1fb52f
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565944"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416829"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Uso del objeto visual de matriz en Power BI Desktop
 Con la característica de objeto visual **Matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
@@ -25,7 +25,7 @@ Con la característica de objeto visual **Matriz**, puede crear objetos visuales
 Hay muchas características asociadas a la matriz que iremos revisando en las siguientes secciones de este artículo.
 
 > [!NOTE]
-> A partir de la versión de julio de 2017, los objetos visuales Matriz y Tabla de **Power BI Desktop** reflejan el estilo (incluso colores) del **tema del informe** aplicado. Si no son los colores previstos para el objeto visual Matriz, los puede cambiar en la configuración del **tema del informe**. Para más información sobre los temas, consulte [**Uso de los temas para los informes en Power BI Desktop**](../desktop-report-themes.md).
+> A partir de la versión de julio de 2017, los objetos visuales Matriz y Tabla de **Power BI Desktop** reflejan el estilo (incluso colores) del **tema del informe** aplicado. Si no son los colores previstos para el objeto visual Matriz, los puede cambiar en la configuración del **tema del informe**. Para obtener más información sobre los temas, vea [**Uso de los temas para los informes en Power BI Desktop**](../desktop-report-themes.md).
 > 
 > 
 
@@ -43,10 +43,10 @@ Cuando se examinan los totales y subtotales, recuerde que los valores se basan e
 
 
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso de la exploración en profundidad con el objeto visual Matriz
-Con el objeto visual **Matriz**, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Echemos un vistazo a cómo funciona cada una de estas.
+Con el objeto visual **Matriz**, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Veamos cómo funciona cada una de ellas.
 
 ### <a name="drill-down-on-row-headers"></a>Exploración en profundidad en encabezados de fila
-En el panel **Visualizaciones**, al agregar varios campos a la sección **Filas** del área **Campos**, habilita la exploración en profundidad en las filas del objeto visual de la matriz. Esto es parecido a la creación de una jerarquía que, a continuación, le permite explorar en profundidad (y, posteriormente, hacer una copia de seguridad) a través de esa jerarquía y analizar los datos de cada nivel.
+En el panel **Visualizaciones**, al agregar varios campos a la sección **Filas** del área **Campos**, se habilita la exploración en profundidad en las filas del objeto visual de matriz. Esto es parecido a la creación de una jerarquía que después permite explorar en profundidad (y, posteriormente, retroceder) por esa jerarquía y analizar los datos de cada nivel.
 
 En la siguiente imagen, la sección **Filas** contiene *Categoría* y *Subcategoría*, lo cual permite crear una agrupación (o jerarquía) de las filas que se pueden explorar.
 
@@ -56,7 +56,7 @@ Cuando se ha creado la agrupación en el objeto visual en la sección **Filas**,
 
 ![](media/desktop-matrix-visual/matrix-visual_5.png)
 
-De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, la selección de esos botones nos permite explorar en profundidad (o realizar una copia de seguridad) a través de la jerarquía. En este caso, se puede explorar en profundidad desde *Categoría* a *Subcategoría*, tal y como se muestra en la imagen siguiente, en la que se ha seleccionado el icono de nivel uno de exploración en profundidad (el tridente).
+De forma parecida al comportamiento de exploración y expansión de otros objetos visuales, al hacer clic en esos botones se puede explorar en profundidad (o retroceder) por la jerarquía. En este caso, se puede explorar en profundidad desde *Categoría* a *Subcategoría*, como se muestra en la imagen siguiente, en la que se ha hecho clic en el icono de nivel uno de exploración en profundidad (el tridente).
 
 ![](media/desktop-matrix-visual/matrix-visual_6.png)
 
@@ -66,7 +66,7 @@ Además de usar esos iconos, puede hacer clic con el botón derecho en cualquier
 
 Tenga en cuenta que hay algunas opciones en el menú que aparece que generan resultados diferentes:
 
-Si selecciona **Explorar en profundidad** se expande la matriz de *ese* nivel de fila, *excluyendo* todos los demás encabezados de fila a excepción del encabezado en el que hizo clic con el botón derecho. En la siguiente imagen, se hizo clic con el botón derecho en *Computers* y se seleccionó **Explorar en profundidad**. Tenga en cuenta que otras filas de nivel superior ya no aparecen en la matriz. Esto es ya una característica útil que se convierte en magnífica cuando llegamos a la sección **Resaltado cruzado**.
+Si selecciona **Explorar en profundidad** se expande la matriz de *ese* nivel de fila, *excluyendo* todos los demás encabezados de fila a excepción del encabezado en el que hizo clic con el botón derecho. En la siguiente imagen, se hizo clic con el botón derecho en *Computers* y se seleccionó **Explorar en profundidad**. Tenga en cuenta que otras filas de nivel superior ya no aparecen en la matriz. Esta forma de explorar en profundidad es una característica útil, que se convierte en magnífica cuando se llega a la sección **Resaltado cruzado**.
 
 ![](media/desktop-matrix-visual/matrix-visual_8.png)
 
@@ -74,18 +74,18 @@ Puede hacer clic en el icono **Rastrear agrupando datos** para volver a la vista
 
 ![](media/desktop-matrix-visual/matrix-visual_8a.png)
 
-Si hace clic en el icono **Rastrear agrupando datos** situado en la esquina superior izquierda para que la matriz muestre todas las categorías de nivel superior y luego hace clic con el botón derecho de nuevo y selecciona **Expandir al siguiente nivel**, se mostrará lo siguiente:
+Al hacer clic en el icono **Explorar agrupando datos** de la esquina superior izquierda para que la matriz muestre todas las categorías de nivel superior y luego hacer clic con el botón derecho de nuevo y selecciona **Expandir al siguiente nivel**, se muestra el objeto visual siguiente.
 
 ![](media/desktop-matrix-visual/matrix-visual_9.png)
 
 También puede usar los elementos de menú **Incluir** y **Excluir** para mantener (o quitar, respectivamente) la fila en la que ha hecho clic derecho (y todas las subcategorías) de la matriz.
 
 ### <a name="drill-down-on-column-headers"></a>Exploración en profundidad en encabezados de columna
-Al igual que la capacidad de explorar en profundidad en las filas, también puede hacerlo en las **columnas**. En la siguiente imagen, puede ver que hay dos campos en el conjunto de campos **Columnas**, lo cual permite crear una jerarquía similar a la que hemos usado para las filas anteriormente en este artículo. En el conjunto de campos **Columnas**, tenemos *Clase* y *Color*.
+Al igual que la capacidad de explorar en profundidad en las filas, también se puede hacer en las **columnas**. En la siguiente imagen, puede ver que hay dos campos en el conjunto de campos **Columnas**, lo cual permite crear una jerarquía similar a la que hemos usado para las filas anteriormente en este artículo. En el conjunto de campos **Columnas**, tenemos *Clase* y *Color*.
 
 ![](media/desktop-matrix-visual/matrix-visual_10.png)
 
-En el objeto visual **Matriz**, cuando hacemos clic con el botón derecho en una columna, se ve la opción de exploración en profundidad. En la siguiente imagen, hacemos clic con el botón derecho en *Deluxe* y seleccionamos **Explorar en profundidad**.
+En el objeto visual **Matriz**, al hacer clic con el botón derecho en una columna, se ve la opción de exploración en profundidad. En la siguiente imagen, hacemos clic con el botón derecho en *Deluxe* y seleccionamos **Explorar en profundidad**.
 
 ![](media/desktop-matrix-visual/matrix-visual_11.png)
 
@@ -93,17 +93,17 @@ Cuando se selecciona **Explorar en profundidad**, aparece el siguiente nivel de 
 
 ![](media/desktop-matrix-visual/matrix-visual_12.png)
 
-El resto de los elementos del menú contextual de las columnas funciona de la misma manera que lo hacen los de las filas (consulte la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar siguiente nivel**, **Expandir al siguiente nivel**, **Incluir** o **Excluir** columnas al igual que podía hacer con las filas.
+El resto de los elementos del menú contextual de las columnas funciona de la misma manera que lo hacen los de las filas (vea la sección anterior, **Exploración en profundidad en encabezados de fila**). También puede seleccionar las opciones **Mostrar siguiente nivel**, **Expandir al siguiente nivel**, **Incluir** o **Excluir** columnas al igual que podía hacer con las filas.
 
 > [!NOTE]
-> Los iconos de Explorar en profundidad y Rastrear agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad las columnas, debe usar el menú contextual.
+> Los iconos Explorar en profundidad y Explorar agrupando datos situados en la esquina superior izquierda del objeto visual de matriz solo son aplicables a las filas. Para explorar en profundidad por las columnas, debe usar el menú contextual.
 > 
 > 
 
 ## <a name="stepped-layout-with-matrix-visuals"></a>Diseño escalonado con objetos visuales de matriz
 El objeto visual **Matriz** aplica sangría automáticamente a las subcategorías de una jerarquía debajo de cada elemento primario, lo cual se denomina **Diseño escalonado**.
 
-En la versión *original* del objeto visual de la matriz, las subcategorías se mostraban en una columna completamente diferente, lo cual ocupaba mucho más espacio en el objeto visual. La siguiente imagen muestra la tabla del objeto visual **Matriz** original. Observe que las subcategorías se encuentran en una columna completamente independiente.
+En la versión *original* del objeto visual de la matriz, las subcategorías se mostraban en una columna completamente diferente, lo cual ocupaba mucho más espacio en el objeto visual. En la imagen siguiente se muestra la tabla del objeto visual **Matriz** original; observe que las subcategorías se encuentran en una columna independiente.
 
 ![](media/desktop-matrix-visual/matrix-visual_14.png)
 
@@ -129,7 +129,7 @@ En la sección **Formato** del panel **Visualizaciones**, expanda la tarjeta **S
 El mismo proceso se aplica a los subtotales de columna.
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Resaltado cruzado con objetos visuales de matriz
-Con el objeto visual **Matriz**, puede seleccionar todos los elementos de la matriz como base para el resaltado cruzado. Si selecciona una columna en una **Matriz**, esta se resaltará, al igual que sucede con los demás objetos visuales de la página de informe. Esta ha sido una característica común de otros objetos visuales y selecciones de punto de datos, por lo que ahora el objeto visual **Matriz** ofrece la misma función.
+Con el objeto visual **Matriz**, puede seleccionar todos los elementos de la matriz como base para el resaltado cruzado. Si selecciona una columna en una **Matriz**, esta se resaltará, al igual que sucede con los demás objetos visuales de la página de informe. Este tipo de resaltado cruzado ha sido una característica común de otros objetos visuales y selecciones de punto de datos, por lo que ahora el objeto visual **Matriz** ofrece la misma función.
 
 Además, el uso de Ctrl+clic también funciona para el resaltado cruzado. Por ejemplo, en la siguiente imagen, se ha seleccionado una colección de subcategorías del objeto visual **Matriz**. Observe que los elementos del objeto visual que no se seleccionaron aparecen atenuados y que los demás objetos visuales de la página reflejan las selecciones realizadas en el objeto visual **Matriz**.
 
@@ -143,7 +143,7 @@ Para aplicar formato condicional, puede realizar una de las siguientes acciones 
 * En el panel **Campos**, haga clic con el botón derecho en el campo y seleccione **Formato condicional** en el menú.
   
   ![](media/desktop-matrix-visual/matrix-visual_17.png)
-* O, en el panel **Formato**, expanda la tarjeta **Formato condicional** y en **Escalas de color de fondo** o **Escalas de color de fuente**, mueva el control deslizante a **Activado**. Al activar cualquiera de las opciones se muestra un vínculo de *Controles avanzados*, que le permite personalizar los colores y los valores del formato de color.
+* O, en el panel **Formato**, expanda la tarjeta **Formato condicional** y en **Escalas de color de fondo** o **Escalas de color de fuente**, mueva el control deslizante a **Activado**. Al activar cualquiera de las opciones se muestra un vínculo para *Controles avanzados*, que permite personalizar los colores y los valores del formato de color.
   
   ![](media/desktop-matrix-visual/matrix-visual_18.png)
 
@@ -153,10 +153,6 @@ Con cada enfoque se consigue el mismo resultado. Al seleccionar *Controles avanz
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede que también esté interesado en los siguientes artículos:
+[Gráficos de dispersión y de burbujas de Power BI](power-bi-visualization-scatter.md)
 
-* [Usar líneas de cuadrícula y ajustar a la cuadrícula en los informes de Power BI Desktop](../desktop-gridlines-snap-to-grid.md)
-* [Orígenes de datos en Power BI Desktop](../desktop-data-sources.md)
-* [Tipos de datos en Power BI Desktop](../desktop-data-types.md)
-
- 
+[Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

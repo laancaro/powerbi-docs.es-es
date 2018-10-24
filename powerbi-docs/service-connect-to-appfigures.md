@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7990cdbc0741e80bf2cbb60431228ff6a1d41485
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: f5d1b07a4066b897aaa0946c6f5417a9de4f458f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34243831"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549499"
 ---
 # <a name="connect-to-appfigures-with-power-bi"></a>Conexión a appFigures con Power BI
 Realizar un seguimiento de las estadísticas importantes sobre sus aplicaciones es fácil con Power BI y el paquete de contenido de appFigures. Power BI recupera los datos, como las ventas, descargas y estadísticas de anuncios de las aplicaciones, y, a continuación, crea un panel predeterminado e informes relacionados en función de esos datos.
@@ -46,10 +46,10 @@ Conéctese al [paquete de contenido de appFigures](https://app.powerbi.com/getda
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 Los siguientes datos están disponibles desde appFigures en Power BI.

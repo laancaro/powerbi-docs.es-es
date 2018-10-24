@@ -7,32 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ccfa947f83a5079cda3bfb173c0f83f6b811a9ff
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 7db5bf514b567cbcaf9dddc5d48006762237a622
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46564748"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909139"
 ---
 # <a name="dashboards-in-power-bi-service"></a>Paneles del servicio Power BI
 
 Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, que usa visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
 
-![panel](./media/end-user-dashboards/power-bi-dashboard2.png)
+![panel](media/end-user-dashboards/power-bi-dashboard2.png)
 
 Las visualizaciones que se ven en el panel se denominan *iconos* y están *ancladas* al panel de informes. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
-> Los paneles son una característica del servicio Power BI pero no están disponibles en Power BI Desktop. No se pueden crear paneles en dispositivos móviles, pero se pueden [ver y compartir](mobile/mobile-apps-view-dashboard.md).
+> Los paneles son una característica del servicio Power BI pero no están disponibles en Power BI Desktop. No se pueden crear paneles en dispositivos móviles, pero se pueden [ver y compartir](/mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 
 Las visualizaciones de un panel proceden de informes y cada informe se basa en un conjunto de datos. De hecho, una manera de pensar en un panel es como vía de entrada a los informes y conjuntos de datos subyacentes. La selección de una visualización lleva al informe (y al conjunto de datos) utilizado para crearla.
 
-![Diagrama que muestra la relación entre paneles, informes, conjuntos de datos](./media/end-user-dashboards/power-bi-diagram.png)
+![Diagrama que muestra la relación entre paneles, informes, conjuntos de datos](media/end-user-dashboards/power-bi-diagram.png)
 
 ## <a name="advantages-of-dashboards"></a>Ventajas de los paneles
 Los paneles son una magnífica manera de supervisar su empresa, buscar respuestas y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios y de un informe subyacente o de varios. Un panel combina datos locales y procedentes de la nube, lo que proporciona una vista consolidada, independientemente de donde residen los datos.
@@ -40,7 +40,7 @@ Los paneles son una magnífica manera de supervisar su empresa, buscar respuesta
 Un panel no es simplemente una bonita imagen: es algo muy interactivo y personalizable, y los iconos se actualizarán según van cambiando los datos subyacentes.
 
 ## <a name="dashboards-versus-reports"></a>Paneles frente a informes
-Los [informes](end-user-reports.md) suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Pero hay algunas diferencias importantes.
+Los informes suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Pero hay algunas diferencias importantes.
 
 | **Funcionalidad** | **Paneles** | **Informes** |
 | --- | --- | --- |
@@ -65,28 +65,16 @@ Estos son algunos de los temas, por rol, que le ayudarán a comenzar.
 
 Power BI Pro es necesario tanto para compartir un panel como para ver un panel compartido.
 
-### <a name="if-you-will-be-creating-and-sharing-dashboards"></a>Si va a crear y compartir paneles
-* Utilice uno de nuestros ejemplos para [crear un panel de un informe](../service-dashboard-create.md).
-* Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y las distintas formas de anclarlos en un panel.
-* Ayude a los consumidores de paneles mediante la creación de paneles que [funcionen bien con consultas en lenguaje natural de preguntas y respuestas](../service-prepare-data-for-q-and-a.md) y con [información rápida](../service-insights-optimize.md).
-* Detecte las distintas formas en que puede [compartir un panel con compañeros](../service-how-to-collaborate-distribute-dashboards-reports.md).
-
 ### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Si va a recibir y consumir paneles
 * Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](../sample-tutorial-connect-to-the-samples.md).
 * Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y lo que ocurre al seleccionar uno.
-* ¿No le gusta el aspecto de un panel?  También puede [cambiar su tamaño, moverlo y cambiar el nombre de los iconos](../service-dashboard-edit-tile.md).
-* ¿Desea realizar un seguimiento de un icono de panel individual y recibir un mensaje de correo electrónico al alcanzar un umbral determinado? [Cree alertas en iconos](../service-set-data-alerts.md).
-* Diviértase preguntando a su panel. Aprenda a utilizar [Preguntas y respuestas de Power BI](../power-bi-tutorial-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
+* ¿Desea realizar un seguimiento de un icono de panel individual y recibir un mensaje de correo electrónico al alcanzar un umbral determinado? [Cree alertas en iconos](end-user-alerts.md).
+* Diviértase preguntando a su panel. Aprenda a utilizar [Preguntas y respuestas de Power BI](end-user-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
 
 > [!TIP]
 > Si no encuentra lo que está buscando aquí, utilice la tabla de contenido de la izquierda.
-> 
 > 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](../power-bi-overview.md)  
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)  
-[¿Qué es Power BI Premium?](../service-premium.md)  
-
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
-

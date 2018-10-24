@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 4540c00e4956e87e1c012dc2a35c00e61e00b5a6
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: ae17eff366fe5e931963c9367586c08fd39eda69
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328153"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45973940"
 ---
 # <a name="high-density-line-sampling-in-power-bi"></a>Muestreo de líneas de alta densidad en Power BI
 Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones al **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora los objetos visuales con muestreos de datos de alta densidad. Por ejemplo, puede crear un gráfico de líneas a partir de los resultados de ventas de sus tiendas, con cada tienda con más de diez mil recibos de ventas cada año. Un gráfico de líneas de dicha información de ventas realizará un muestreo de los datos (seleccionando una representación significativa de los datos para ilustrar cómo varían las ventas a través del tiempo) a partir de los datos de cada tienda, y creará un gráfico de líneas de varias series que, por lo tanto, representa datos subyacentes. Esta es una práctica habitual al visualizar datos de alta densidad. Power BI Desktop ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
@@ -24,8 +24,6 @@ Desde la versión de junio de 2017 de **Power BI Desktop** y las actualizaciones
 
 > [!NOTE]
 > El algoritmo de **muestreo de alta densidad** que se describe en este artículo está disponible tanto en **Power BI Desktop** como en el **servicio Power BI**.
-> 
-> 
 
 ## <a name="how-high-density-line-sampling-works"></a>Cómo funciona el muestreo de líneas de alta densidad
 Anteriormente, **Power BI** seleccionaba una colección de puntos de datos de muestra en el intervalo completo de datos subyacentes de manera determinista. Por ejemplo, para los datos de alta densidad en un objeto visual que abarquen un año de calendario, puede haber 350 puntos de datos de muestra que aparezcan en el objeto visual, cada uno de los cuales se seleccionó para asegurarse de que el rango de datos completo (la serie completa de datos subyacentes) aparece representado en el objeto visual. Para ayudarle a entender cómo sucede esto, imagine que se va a trazar la cotización en bolsa durante un período de un año y se seleccionan 365 puntos de datos para crear un objeto visual de gráfico de líneas que, por tanto, tendrá un punto de datos para cada día.
@@ -42,17 +40,25 @@ Para un elemento visual de alta densidad, **Power BI** segmenta de forma intelig
 ### <a name="minimum-and-maximum-values-for-high-density-line-visuals"></a>Valores mínimos y máximos para los objetos visuales de líneas alta densidad
 Para cualquier visualización, se aplican las siguientes limitaciones visuales:
 
-* **3500** es el número máximo de puntos de datos que se *muestran* en el objeto visual, independientemente del número de puntos de datos subyacente o de series. Por lo tanto, si tiene 10 series con 350 puntos de datos cada una, el objeto visual ha alcanzado su límite máximo de puntos de datos totales. Si tiene una serie, puede tener hasta 3.500 puntos de datos si el nuevo algoritmo considera que ese es el mejor muestreo para los datos subyacentes.
+* **3500** es el número máximo de puntos de datos que se *muestran* en la mayoría de objetos visuales, independientemente del número de puntos de datos subyacentes o de series (vea las *excepciones* en la siguiente lista de viñetas). Por lo tanto, si tiene 10 series con 350 puntos de datos cada una, el objeto visual ha alcanzado su límite máximo de puntos de datos totales. Si tiene una serie, puede tener hasta 3.500 puntos de datos si el nuevo algoritmo considera que ese es el mejor muestreo para los datos subyacentes.
+
 * Hay un máximo de **60 serie** para cualquier objeto visual. Si tiene más de 60 series, divida los datos y cree varios objetos visuales con 60 o menos series cada uno. Es recomendable usar una **segmentación** para mostrar solo los segmentos de los datos (solo determinadas serie). Por ejemplo, si se muestran todas las subcategorías en la leyenda, podría usar una segmentación de datos para filtrar por la categoría general en la misma página del informe.
+
+El número máximo de límites de datos es mayor para los siguientes tipos de objetos visuales, que son *excepciones* al límite de 3 500 puntos de datos:
+
+* **150 000** puntos de datos máximo para objetos visuales de R.
+* **30 000** puntos de datos para objetos visuales personalizados.
+* **10 000** puntos de datos para gráficos de dispersión (el valor predeterminado de los gráficos de dispersión es de 3500)
+* **3500** para todos los demás objetos visuales
 
 Estos parámetros aseguran que los objetos visuales en Power BI Desktop se representan muy rápidamente y responden a la interacción con los usuarios, y que no dan lugar a una sobrecarga de procesamiento en el equipo que genera la representación del objeto visual.
 
 ### <a name="evaluating-representative-data-points-for-high-density-line-visuals"></a>Evaluación de puntos de datos representativos para objetos visuales de líneas de alta densidad
-Cuando el número de puntos de datos subyacente supera el máximo de puntos de datos que se pueden representar en el objeto visual (más de 3500), se inicia un proceso llamado *discretización* que fragmenta los datos subyacentes en grupos llamados *ubicaciones* y, después, refina de forma iterativa esas ubicaciones.
+Cuando el número de puntos de datos subyacentes supera el máximo de puntos de datos que se pueden representar en el objeto visual, se inicia un proceso denominado *discretización*, que fragmenta los datos subyacentes en grupos denominados *ubicaciones* y, después, refina de forma iterativa esas ubicaciones.
 
 El algoritmo crea tantas ubicaciones como sea posible para crear la mayor granularidad para el objeto visual. Dentro de cada ubicación, el algoritmo busca el valor de datos mínimo y máximo, para asegurarse de que los valores importantes y significativos (por ejemplo, los valores atípicos) se capturan y muestran en el objeto visual. Basándose en los resultados de la discretización y la evaluación posterior de los datos que realiza Power BI, se determina la resolución mínima para el eje x del objeto visual, con el fin de asegurar la máxima granularidad para el objeto visual.
 
-Como se mencionó anteriormente, la granularidad mínima para cada serie es 350 puntos y la máxima 3.500.
+Como se ha mencionado anteriormente, la granularidad mínima de cada serie es 350 puntos, el máximo es 3500 para la mayoría de los objetos visuales, con las *excepciones* indicadas en los párrafos anteriores.
 
 Cada ubicación se representa mediante dos puntos de datos, que se convierten en los puntos de datos representativos de la ubicación en el objeto visual. Los puntos de datos son simplemente los valores alto y bajo para esa ubicación; la selección de los valores alto y bajo en el proceso de discretización garantiza que cualquier valor alto importante, o valor bajo significativo, se captura y aparece representado en el objeto visual.
 

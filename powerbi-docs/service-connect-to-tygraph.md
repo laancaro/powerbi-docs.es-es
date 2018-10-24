@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4e9e10f713be50707909c68b104f82cada6777b6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 3c508044e9f21c09d3115fd745320be9ad0161bc
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599056"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46548451"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Conexión a tyGraph con Power BI
 Vea y explore los datos de tyGraph en Power BI con el paquete de contenido de Power BI. Empiece por conectar a su cuenta de tyGraph y cargar el panel, los informes y el conjunto de datos. El contenido original incluye información como, por ejemplo, la medida de contratación activa (puntuación MAE) y los principales colaboradores. Personalice el contenido para resaltar la información que más le interese.  Los datos se actualizarán automáticamente según la programación que establezca.
@@ -51,10 +51,10 @@ Conéctese a [tyGraph para Power BI](https://app.powerbi.com/getdata/services/ty
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 <a name="FindingParams"></a>
 

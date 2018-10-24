@@ -2,18 +2,17 @@
 title: Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI
 description: Aprenda a migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded y aproveche los avances para la inserción en aplicaciones.
 author: markingmyname
-manager: kfile
-ms.reviewer: ''
-ms.Embedded: powerbi
+ms.service: powerbi
+ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: 6de0efe3bad1662d1324488a7030894248056730
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: f53b7e02ac3f744a7eb0fa7dd74b7144a434a42f
+ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388672"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48271863"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
 Aprenda a migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded y aproveche los avances para la inserción en aplicaciones.
@@ -30,7 +29,7 @@ La colección de áreas de trabajo de Power BI actual seguirá estando disponibl
 
 ![](media/migrate-from-powerbi-embedded/powerbi-embed-flow.png)
 
-Antes de empezar a migrar a la nueva versión de Power BI Embedded, puede hacer un tutorial para configurar su nuevo entorno de Power BI Embedded a través de [Set up your Power BI embedding environment](https://aka.ms/embedsetup) (Configuración del entorno de inserción con Power BI).
+Antes de empezar a migrar a la nueva versión de Power BI Embedded, puede hacer un tutorial para configurar el nuevo entorno de Power BI Embedded con la [herramienta de configuración de inserción](https://aka.ms/embedsetup).
 
 Elija la solución que más le convenga:
 * **Inserción para los clientes**: si está interesado en una solución en la que la [aplicación posee los datos](https://aka.ms/embedsetup/AppOwnsData). La [inserción para los clientes](embedding.md#embedding-for-your-customers) permite insertar paneles e informes para los usuarios que no tienen una cuenta de Power BI. 

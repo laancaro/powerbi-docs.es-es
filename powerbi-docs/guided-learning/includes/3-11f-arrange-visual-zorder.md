@@ -4,7 +4,7 @@ Para administrar el orden Z de los elementos de un informe, seleccione un elemen
 
 ![](media/3-11f-arrange-visual-zorder/3-11f_1.png)
 
-Mediante las opciones del menú del botón **Organizar**, puede ordenar los elementos de su informe exactamente como desee. Puede mover un objeto visual una capa más arriba o abajo o enviarlo al principio o al final del orden.
+Mediante las opciones del botón de menú **Organizar**, puede ordenar los elementos del informe exactamente como quiera. Puede mover un objeto visual una capa más arriba o abajo o enviarlo al principio o al final del orden.
 
 El botón Organizar resulta especialmente útil cuando se utilizan formas como fondos decorativos o bordes, o para resaltar secciones concretas de un gráfico individual. También puede utilizarlas para crear un fondo, como el siguiente rectángulo de color azul claro que se utiliza como el fondo del título de un informe.
 

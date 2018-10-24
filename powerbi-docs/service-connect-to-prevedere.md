@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 581bfa4a6eca07218d10b9f86753773a0fd9bb9d
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: e030d80a26b946d6b99c808c937dca4bb6eb3a62
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34249491"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46543508"
 ---
 # <a name="connect-to-prevedere-with-power-bi"></a>Conexión a Prevedere con Power BI
 Acceda a información financiera exclusiva y crítica para impulsar su negocio con confianza y de forma proactiva.
@@ -44,10 +44,10 @@ Conéctese al [paquete de contenido Prevedere](https://app.powerbi.com/getdata/s
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 El paquete de contenido obtiene información sobre las previsiones de minorista, los modelos de previsión, indicadores importantes, etc.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b1f2970ad73783acf3736856463915161056b801
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 01c7866a47d20b51055aa77bdd4792e2277c335f
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34237885"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549756"
 ---
 # <a name="connect-to-vmob-with-power-bi"></a>Conexión a VMob con Power BI
 Explorar y realizar un seguimiento de los datos de VMob es fácil con Power BI y el paquete de contenido de VMob. Power BI recuperará los datos siguientes: estadísticas del usuario de todo el tiempo y de los últimos 30 días, el KPI comercial de los últimos 30 días y el rendimiento de la campaña de los últimos 30 días.
@@ -44,10 +44,10 @@ Conéctese al [paquete de contenido de VMob](https://app.powerbi.com/getdata/ser
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a Power BI](service-get-started.md)

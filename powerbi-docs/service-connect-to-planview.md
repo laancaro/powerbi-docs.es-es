@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 1f3bdb66d9737102c63ecace5359ba1b96265f6a
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: ad93a57e08f858c78e71d66792315d1836c2a075
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37137408"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547671"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Conexión a Planview Enterprise con Power BI
 El paquete de contenido de Planview Enterprise permite visualizar los datos de administración de recursos y del trabajo de una forma totalmente nueva directamente en Power BI. Utilice sus credenciales de inicio de sesión de Planview Enterprise para ver de forma interactiva el gasto de la inversión de cartera, comprender dónde supera el presupuesto y dónde no lo alcanza, y averiguar el grado de alineación de sus proyectos con las prioridades estratégicas corporativas. También puede ampliar el panel integrado y los informes para obtener la información más importante para usted.
@@ -44,10 +44,10 @@ Conéctese al [paquete de contenido de Planview Enterprise en Power BI](https://
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="system-requirements"></a>Requisitos del sistema
 Para importar datos de Planview Enterprise en Power BI, debe ser un usuario de Planview Enterprise con la característica Visor del portal de informes habilitada en su rol. Consulte los requisitos adicionales siguientes.

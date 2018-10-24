@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e44d4bb48289b515797167fb3b91a9bbf0d2bcdd
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: ef35ef674ad8b0608c22b7b0d958b4844bb0d24e
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "37092170"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544455"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Conexión a UserVoice con Power BI
 Explorar y realizar un seguimiento de los datos de UserVoice es fácil con Power BI y el paquete de contenido de UserVoice. Power BI recupera los datos, incluidos los vales, las sugerencias y las calificaciones de satisfacción para, a continuación, crear un panel e informes basados en los datos listos para usar.
@@ -53,10 +53,10 @@ Conéctese al [paquete de contenido de UserVoice](https://app.powerbi.com/getdat
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="troubleshooting"></a>Solución de problemas
 **"Error en la validación de parámetros. Compruebe que todos los parámetros son válidos"**

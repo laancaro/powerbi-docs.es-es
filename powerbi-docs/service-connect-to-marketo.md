@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3051537298ac8f8fb5fc8661cfca998a07fc625
-ms.sourcegitcommit: e8d924ca25e060f2e1bc753e8e762b88066a0344
+ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37135269"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545697"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -48,10 +48,10 @@ Conéctese al [paquete de contenido de Marketo](https://app.powerbi.com/getdata/
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 Los datos siguientes están disponibles desde Marketo en Power BI donde ocurrió la actividad entre hoy y hace un año:

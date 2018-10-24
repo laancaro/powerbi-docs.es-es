@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2d2d983da6de5ec88574092289ed2958c7a98923
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 370613fb4436eb71ae0b6af6c0b5166e8bb7b434
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37600421"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546703"
 ---
 # <a name="connect-to-azure-mobile-engagement-with-power-bi"></a>Conexión a Azure Mobile Engagement con Power BI
 El paquete de contenido de Azure Mobile Engagement para Power BI permite obtener rápidamente información sobre los datos de aplicaciones.
@@ -44,10 +44,10 @@ Conéctese al [paquete de contenido de Azure Mobile Engagement](https://app.powe
 
 ## <a name="what-now"></a>¿Qué más?
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a Power BI](service-get-started.md)

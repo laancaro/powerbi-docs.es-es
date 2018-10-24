@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a4c931b671840ca78f340005c30aeb92454ca2a6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
+ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37599190"
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47238109"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
@@ -150,13 +150,38 @@ En la puerta de enlace de datos local con asignación de usuario personalizado c
 Cómo configurar la puerta de enlace para realizar la búsqueda de AD:
 
 1. Descargue e instale la puerta de enlace más reciente.
+
 2. En la puerta de enlace, debe cambiar el **servicio de puerta de enlace de datos local** para que se ejecute con una cuenta de dominio (en lugar de con una cuenta de servicio local; en caso contrario, la búsqueda de AD no funcionará correctamente en el runtime). Para que el cambio se aplique, habrá que reiniciar el servicio de puerta de enlace.  Vaya a la aplicación Gateway en su equipo (busque "puerta de enlace de datos local"). Para ello, vaya a **Configuración del servicio > Cambiar cuenta de servicio**. Asegúrese de que tiene la clave de recuperación para esta puerta de enlace, ya que necesitará restaurarla en el mismo equipo, a menos que desee crear una nueva puerta de enlace en su lugar. 
-3. Navegue hasta la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local* como administrador, para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente:
 
-       Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
-4. Edite los dos valores de configuración siguientes según *sus* configuraciones de atributos de Active Directory de los usuarios de AD. Los valores de configuración que se muestran a continuación son solo ejemplos: es necesario especificarlos según la configuración de Active Directory. 
+3. Vaya a la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local*, como administrador para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
-   ![](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+4. Edite los dos valores de configuración siguientes según *sus* configuraciones de atributos de Active Directory para los usuarios de AD. Los valores de configuración que se muestran a continuación son solo ejemplos: es necesario especificarlos según la configuración de Active Directory. Estas configuraciones distinguen mayúsculas de minúsculas, así que asegúrese de que coinciden con los valores de Active Directory.
+
+    ![Configuración de Azure Active Directory](media/service-gateway-enterprise-manage-ssas/gateway-enterprise-map-user-names_03.png)
+
+    Si no se proporciona ningún valor para la configuración de ADServerPath, la puerta de enlace usa el valor predeterminado de catálogo global. También puede especificar varios valores para ADServerPath. Cada valor debe estar separado por un punto y coma, como en el ejemplo siguiente.
+
+    ```xml
+    <setting name="ADServerPath" serializeAs="String">
+        <value> >GC://serverpath1; GC://serverpath2;GC://serverpath3</value>
+    </setting>
+    ```
+    La puerta de enlace analiza los valores de ADServerPath de izquierda a derecha hasta que encuentra una coincidencia. Si no encuentra ninguna coincidencia, se usa el UPN original. Asegúrese de que la cuenta que ejecuta el servicio de puerta de enlace (PBIEgwService) tiene permisos de consulta en todos los servidores de AD que especifique en ADServerPath.
+
+    La puerta de enlace admite dos tipos de ADServerPath, como se muestra en los ejemplos siguientes.
+
+    **WinNT**
+
+    ```xml
+    <value="WinNT://usa.domain.corp.contoso.com,computer"/>
+    ```
+
+    **GC**
+
+    ```xml
+    <value> GC://USA.domain.com </value>
+    ```
+
 5. Reinicie el servicio de **puerta de enlace de datos local** para que se aplique el cambio en la configuración.
 
 ### <a name="working-with-mapping-rules"></a>Trabajar con reglas de asignación

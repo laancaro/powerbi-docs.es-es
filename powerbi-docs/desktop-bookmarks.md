@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fe52646eef029359ac0e41c5fb32be524076a22d
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: 1bb9921b31187d0df3debc644088a72e1d78207c
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39657975"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46549923"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -132,7 +132,7 @@ Al usar la característica **Ver** de los marcadores, se aplica lo siguiente:
 
 * Si el marcador seleccionado está en un grupo cuando se hace clic en **Ver** en los marcadores, solo los marcadores *de ese grupo* se muestran en la sesión de visualización. 
 
-* Si el marcador seleccionado no es un grupo, o bien si se encuentra en el nivel superior (por ejemplo, el nombre de un grupo de marcadores), se reproducen todos los marcadores de todo el informe, incluidos los marcadores de cualquier grupo. 
+* Si el marcador seleccionado no está en un grupo, o bien se encuentra en el nivel superior (por ejemplo, el nombre de un grupo de marcadores), se reproducen todos los marcadores del informe completo, incluidos los marcadores de cualquier grupo. 
 
 Para desagrupar los marcadores, solo tiene que seleccionar cualquier marcador de un grupo, hacer clic en el botón de puntos suspensivos y, después, hacer clic en **Desagrupar** en el menú que aparece. 
 
@@ -182,5 +182,5 @@ En esta versión de los **marcadores** hay algunas limitaciones y consideracione
 Para más información acerca de las características que son similares o que interactúan con los marcadores, eche un vistazo a los siguientes artículos:
 
 * [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
-* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](service-focus-mode.md)
+* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](consumer/end-user-focus.md)
 

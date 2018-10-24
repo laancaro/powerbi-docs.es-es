@@ -8,15 +8,15 @@ featuredvideoid: xmja6Epqa
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/21/2018
+ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e090515514897dd4dcbc9962d0dadacae5611ff0
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565575"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416875"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidor radial en Power BI
 Un gráfico de medidor radial tiene un arco circular y muestra un único valor que mide el progreso hacia un objetivo o KPI.  El valor del objetivo se representa mediante la línea (aguja). El progreso hacia ese objetivo se representa mediante el sombreado.  Y el valor que representa el progreso se muestra en negrita dentro del arco. Todos los valores posibles están repartidos por igual a lo largo del arco, del mínimo (valor más a la izquierda) al máximo (valor más a la derecha).
@@ -92,7 +92,7 @@ En el paso 2, Power BI usó el campo Valor para establecer automáticamente el v
 
 ### <a name="step-5-save-your-report"></a>Paso 5: Guarde el informe
 1. [Guarde el informe](../service-report-save.md).
-2. [Agregue el gráfico de medidor como un icono de panel](../consumer/end-user-tiles.md). 
+2. [Agregue el gráfico de medidor como un icono de panel](../service-dashboard-pin-tile-from-report.md). 
 
 ## <a name="use-formatting-options-to-manually-set-minimum-maximum-and-target-values"></a>Use las opciones de formato para establecer manualmente los valores mínimo, máximo y de destino
 1. Quite **Ventas brutas máximas** del área **Valor máximo** .
@@ -110,14 +110,8 @@ En el paso 2, Power BI usó el campo Valor para establecer automáticamente el v
     ![](media/power-bi-visualization-radial-gauge-charts/power-bi-gauge-target.png)
 6. Si quiere, puede seguir dando formato al gráfico de medidor.
 
-## <a name="next-steps"></a>Pasos siguientes
+## <a name="next-step"></a>Paso siguiente
+
+[Medidores en Power BI](power-bi-visualization-kpi.md)
+
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Agregar una visualización a un informe](power-bi-report-add-visualizations-i.md)
-
-[Anclar una visualización a un informe](../service-dashboard-pin-tile-from-report.md)
-
-[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

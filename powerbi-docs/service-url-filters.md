@@ -1,22 +1,22 @@
 ---
 title: Incorporación de parámetros de informe de Power BI con la URL
 description: Filtre un informe con parámetros de cadena de consulta de URL, con la posibilidad incluso de filtrar más de un campo.
-author: mihart
-ms.author: mihart
-manager: annebe
+author: maggiesMSFT
+ms.author: maggies
+manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/14/2018
+ms.date: 10/01/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 1124163b985f575df08a9ba4f065c6a6b1abf54c
-ms.sourcegitcommit: cca21f8089e71b595d3aca30c95f12e4bbf767cc
+ms.openlocfilehash: 562af0b21c4ecd4617de0e524cca20ec6935ca7a
+ms.sourcegitcommit: 31f9da5f562cd02a729b6f012b4b3326416adb0e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2018
-ms.locfileid: "45626040"
+ms.lasthandoff: 10/03/2018
+ms.locfileid: "48232935"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -106,7 +106,7 @@ Power BI admite muchos operadores además de **and**. En la tabla siguiente se i
 |**gt**     | mayor que        |no | sí | sí  | product/price gt 20
 |**le**     |   menor o igual      | no | sí | sí  | product/price le 100
 |**lt**     |  menor que       | no | sí | sí |  product/price lt 20
-|**in****     |  incluido       | no | no |  sí | Student/Age in (27, 29)
+|**in****     |  incluido       | sí | sí |  sí | Student/Age in (27, 29)
 
 
 \** Al usar **in**, los valores a la derecha de **in** pueden ser una lista separada por comas entre paréntesis o una sola expresión que devuelve una colección.
@@ -127,18 +127,18 @@ Un filtro de dirección URL de Power BI puede incluir números en los siguientes
 
 Power BI admite OData V3 y V4 para tipos de datos **Date** y **DateTimeOffset**.  Las fechas se representan con el formato EDM (2019-02-12T00:00:00). Eso significa que cuando se especifica una fecha como aaaa-MM-DD, Power BI la interpreta como aaaa-MM-DDT00:00:00.
 
-Por qué importa esta distinción Supongamos que crea un parámetro de cadena de consulta **Table/Date gt 2018-08-03**.  La duda es si los resultados incluyen el 3 de agosto de 2018 o empiezan con el 4 de agosto de 2018. Puesto que Power BI convierte la consulta en **Table/Date gt 2018-08-03T00:00:00**, los resultados incluyen todas las fechas con una parte de hora distinta de cero, ya que esas fechas son mayores que **2018-08-03T00:00:00**.
+Por qué importa esta distinción Supongamos que crea un parámetro de cadena de consulta **Table/Date gt 2018-08-03**.  La duda es si los resultados incluyen el 3 de agosto de 2018 o empiezan con el 4 de agosto de 2018. Puesto que Power BI convierte la consulta en **Table/Date gt 2018-08-03T00:00:00**, los resultados incluyen cualquier fecha con una parte de hora distinta de cero, ya que esas fechas serían mayores que **2018-08-03T00:00:00**.
 
 ## <a name="special-characters-in-url-filters"></a>Caracteres especiales en filtros de URL
 
-Los espacios y los caracteres especiales requieren algún formato adicional. Cuando la consulta contiene espacios, guiones u otros caracteres no ASCII, agregue un prefijo a esos caracteres especiales con un *código de escape* (**_x**) y el valor **Unicode** de cuatro dígitos. Si el valor Unicode tiene menos de cuatro caracteres, debe rellenarlo con ceros. Estos son algunos ejemplos.
+Los espacios y los caracteres especiales requieren algún formato adicional. Si la consulta contiene espacios, guiones u otros caracteres no ASCII, anteponga a esos caracteres especiales un *código de escape* que empiece por un carácter de subrayado y una X (**_x**) y luego el carácter **Unicode** de cuatro dígitos seguido por otro carácter de subrayado. Si el carácter Unicode tiene menos de cuatro caracteres, debe rellenarlo con ceros. Estos son algunos ejemplos.
 
 |Identificador  |Unicode  | Codificación para Power BI  |
 |---------|---------|---------|
-|**Nombre de tabla**     | Espacio: 0x20        |  Table_x0020_Name       |
-|**Columna**@**Número**     |   @: 0x40     |  Column_x0040_Number       |
-|**[Columna]**     |  [:0x005B ]:0x0050       |  _x0058_Column_x0050       |
-|**Columna+Más**     | +:0x2B        |  Column_x002B_Plus       |
+|**Nombre de tabla**     | El espacio es 0x20        |  Table_x0020_Name       |
+|**Columna**@**Número**     |   @ es 0x40     |  Column_x0040_Number       |
+|**[Columna]**     |  [ es 0x0058 y ] es 0x0050       |  _x0058_Column_x0050       |
+|**Columna+Más**     | + es 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![objeto visual de tabla que representa caracteres especiales](media/service-url-filters/power-bi-special-characters1.png)
 
@@ -159,7 +159,7 @@ Publique el informe en el servicio Power BI y, luego, use la cadena de consulta 
 
 ## <a name="pin-a-tile-from-a-filtered-report"></a>Anclaje de un icono desde un informe filtrado
 
-Una vez que se ha filtrado el informe con parámetros de cadena de consulta, puede anclar visualizaciones de ese informe al panel.  El icono del panel mostrará los datos filtrados. Al seleccionar ese icono del panel se abrirá el informe que se usó para crearlo.  Sin embargo, el filtrado que se realizó utilizando la URL no se guarda con el informe y, si se selecciona el icono del panel, el informe se abre con su estado sin filtrar.  Es decir, los datos mostrados en el icono del panel no coincidirán con los que aparecen en la visualización de informes.
+Una vez que se ha filtrado el informe con parámetros de cadena de consulta, puede anclar visualizaciones de ese informe al panel.  El icono del panel muestra los datos filtrados y, si se selecciona ese icono del panel, se abre el informe que se usó para crearlo.  Sin embargo, el filtrado que se realizó utilizando la URL no se guarda con el informe y, si se selecciona el icono del panel, el informe se abre con su estado sin filtrar.  Esto significa que los datos mostrados en el icono del panel no coinciden con los datos mostrados en la visualización del informe.
 
 Esto resulta útil cuando se quieren ver resultados diferentes: filtrados en el panel y sin filtrar en el informe.
 
@@ -171,6 +171,7 @@ Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de
 * En Power BI Report Server, puede [pasar parámetros de informes](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) incluyéndolos en una URL de informe. Estos parámetros de URL no tienen prefijo porque se pasan directamente al motor de procesamiento de informes.
 * El filtrado de cadena de consulta no funciona con [Publicar en la web](service-publish-to-web.md) ni con Power BI Embedded.   
 * El tipo de datos long es (2^53-1) debido a las limitaciones de Javascript.
+* Los filtros de dirección URL de informe tienen un límite de diez expresiones (diez filtros conectados mediante AND).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

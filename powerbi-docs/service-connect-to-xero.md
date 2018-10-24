@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: d3074602af73d937e64a9155d3d197b91b1b1ae8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 98250e30d1ca944aa536e0d8a05e6ee6c227fc61
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34246918"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46546772"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Conexión a Xero con Power BI
 Xero es un software de contabilidad en línea fácil de usar que está diseñado específicamente para pequeñas empresas. Cree visualizaciones atractivas según las operaciones financieras de Xero con este paquete de contenido de Power BI. En el panel predeterminado se incluyen muchas métricas de pequeña empresa, como la posición de efectivo, los ingresos frente a los gastos, la tendencia de beneficios y pérdidas, los días de deudor y el rendimiento de las inversiones.
@@ -46,10 +46,10 @@ Conéctese al [paquete de contenido de Xero](https://app.powerbi.com/getdata/ser
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 En el panel de paquete de contenido se incluyen iconos y métricas que abarcan una gran variedad de áreas, con los informes correspondientes para obtener más información:  

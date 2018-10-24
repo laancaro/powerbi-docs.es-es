@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 09/17/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 28dcc4812a37b5ad3f514227f4e5fbcdfebeb579
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: ce4aab1a477485a30a4166d86d166a4ac289108f
+ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388810"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45974239"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de almacenamiento en Power BI Desktop (versión preliminar)
 
@@ -171,12 +171,13 @@ Cuando se seleccionan en *Vista de datos**, las tablas **Dual** e **Importación
 
 Existen algunas limitaciones para esta versión del **modo de almacenamiento** y su correlación con los **modelos compuestos**.
 
-Los orígenes multidimensionales siguientes no se pueden usar con los **modelos compuestos**:
+Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar con los **modelos compuestos**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Conjuntos de datos de Power BI
+* Azure Analysis Services
 
 Al conectarse a esos orígenes multidimensionales mediante DirectQuery, no se puede conectar también a otro origen de DirectQuery ni combinar con los datos importados.
 

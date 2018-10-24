@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/13/2018
+ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: de7766176f5c25288912cf463dce79f487e7335d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f108ab3c924f6ff69bc6ee6aae5ed0539ce3f11d
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565116"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908099"
 ---
 # <a name="reading-view-and-editing-view-in-power-bi-service-reports"></a>Vista de lectura y vista de edición de informes del servicio Power BI
 En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e interactuar con los informes: la vista de lectura y la vista de edición. La vista de lectura está disponible para todos los usuarios y está diseñada especialmente para los *consumidores* de datos, mientras que la vista de edición solo está disponible para los propietarios y *creadores* de informes.
@@ -26,11 +26,12 @@ En el servicio Power BI (no en Power BI Desktop) existen dos modos para ver e in
 
  La vista de lectura es el camino para explorar e interactuar con el informe, es una manera práctica y segura para conocer los datos y jugar con ellos. La vista de lectura está diseñada para los *consumidores* de los informes, aquellos que abren los informes desde aplicaciones o que tienen informes [compartidos con ellos](../service-share-dashboards.md). La vista de lectura garantiza que cada consumidor de un informe específico verá el mismo informe, las mismas visualizaciones y, opcionalmente, con los mismos filtros aplicados.  Los consumidores pueden interactuar con los informes, pueden cambiar los filtros existentes (y estos cambios se guardan con el informe), pero no se pueden agregar nuevos filtros.
 
->**NOTA**: Puede que en determinadas circunstancias, los consumidores de informes vean datos diferentes debido a los permisos de seguridad y de datos en el nivel de fila.
+> [!NOTE]
+> Puede que, en determinadas circunstancias, los consumidores de informes vean datos diferentes debido a los permisos de datos y seguridad en el nivel de fila.
 
 ## <a name="report-editing-view"></a>Vista de edición del informe
 
-La vista de edición solo está disponible para aquellos que crearon el informe o aquellos que son [copropietarios de este como miembros o administradores de un área de trabajo de la aplicación](end-user-create-apps.md).
+La vista de edición solo está disponible para aquellos que crearon el informe o aquellos que son [copropietarios de este como miembros o administradores de un área de trabajo de la aplicación](../service-create-distribute-apps.md).
 
 La vista de edición se ha diseñado para los *creadores* de informes. Aquí es donde los creadores importan y se conectan a conjuntos de datos, exploran los datos y generan informes y paneles. En la vista de edición, los *creadores* pueden adentrarse aún más en los datos, agregar y quitar campos, cambiar el tipo de visualización, crear nuevas visualizaciones y agregar y eliminar visualizaciones y páginas del informe. A continuación, pueden compartir los informes que crean con sus compañeros de trabajo.
 
@@ -53,11 +54,11 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 | [Ver las métricas de uso](../service-usage-metrics.md) | Sí, en el lienzo del informe. | Sí, en la lista de informes (vista de contenido) |
 | [Ver relacionados](end-user-related.md) | Sí, en el lienzo del informe. | Sí, en la lista de informes (vista de contenido) |
 | [Guardar un informe](../service-report-save.md) | Sí, pero únicamente con **Guardar como**. | Sí |
-| [Eliminar un informe](end-user-delete.md) | No  | Sí |
+| [Eliminar un informe](../service-delete.md) | No  | Sí |
 |**Páginas del informe** |
 | [Agregar o cambiar el nombre de una página del informe](../power-bi-report-add-page.md)  | No  | Sí  |
 | [Duplicar una página del informe](../power-bi-report-copy-paste-page.md) | No  | Sí |
-| [Eliminar una página del informe](end-user-delete.md) | no | sí |
+| [Eliminar una página del informe](../service-delete.md) | no | sí |
 |**Trabajar con visualizaciones de informes**|
 | [Agregar visualizaciones a un informe](../visuals/power-bi-report-add-visualizations-i.md) | No  | Sí |
 | [Agregar cuadros de texto y formas a un informe](../power-bi-reports-add-text-and-shapes.md) | No  | Sí |
@@ -66,7 +67,7 @@ La vista de edición se ha diseñado para los *creadores* de informes. Aquí es 
 | [Mostrar los datos usados para crear la visualización](end-user-show-data.md) | No  | Sí |
 | [Configurar la obtención de detalles](end-user-drill.md) | No  | Sí |
 | [Cambiar la visualización que se va a usar](../visuals/power-bi-report-change-visualization-type.md) | No | Sí|
-| [Eliminar una visualización, un cuadro de texto o una forma](end-user-delete.md)| No | Sí |
+| [Eliminar una visualización, un cuadro de texto o una forma](../service-delete.md)| No | Sí |
 
 
 ## <a name="navigating-between-editing-view-and-reading-view"></a>Navegación entre las vistas de edición y de lectura
@@ -88,7 +89,6 @@ Recuerde que solo los propietarios y los creadores de informes pueden abrir un i
 
 
 
-### <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 Hay muchas maneras de interactuar con un informe en la vista de lectura, mediante el análisis de los datos para detectar información y obtener respuestas a las preguntas.  En el tema siguiente, [Interacción con un informe en la vista de lectura](../service-interact-with-a-report-in-editing-view.md), se describen algunas con detalle.    
-Volver a [Informes de Power BI](end-user-reports.md)    
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+Volver a los [informes de Power BI](end-user-reports.md)    

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 2e84d52d9e26b23380b9fbc12fdaa4086a2ec7ed
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239917"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46544863"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Conexión al paquete de contenido de Microsoft Dynamics AX con Power BI
 Microsoft Dynamics AX tiene tres paquetes de contenido de Power BI destinados a diferentes usuarios empresariales. El paquete de contenido de rendimiento financiero, diseñado específicamente para directores financieros, proporciona acceso a información detallada sobre el rendimiento financiero de su organización. El paquete de contenido de rendimiento de canal minorista está destinado a administradores de canal y se centra en el rendimiento de las ventas para predecir tendencias y revelar información detallada mediante el uso directo de los datos de venta minorista y comercio. La administración de costos está diseñada para directores generales y directores financieros y proporciona detalles sobre el rendimiento de las operaciones.
@@ -46,10 +46,10 @@ Conéctese al paquete de contenido de [rendimiento de canal minorista](https://a
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 El paquete de contenido usa la fuente OData de Dynamics AX 7 para importar datos relacionados con el rendimiento del canal minorista, financiero y de administración de costos, respectivamente.

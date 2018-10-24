@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/08/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: fad623b9472e2992ddb0a6d43cb8d669a1f14cf7
-ms.sourcegitcommit: cce10e14c111e8a19f282ad6c032d802ebfec943
+ms.openlocfilehash: d4b0ad34d200e3d94c60c7e3a3f524a3f3ed09cf
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39658136"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46550015"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas en Power BI Desktop
 
@@ -43,7 +43,7 @@ Las fórmulas DAX son muy similares a las fórmulas de Excel. DAX incluso tiene 
 ## <a name="lets-look-at-an-example"></a>Veamos un ejemplo
 Jan es jefa de ventas de Contoso. Le han pedido que presente las proyecciones de ventas de los distribuidores para el próximo año fiscal. Jan decide que basará las estimaciones en las cifras de ventas del año pasado, agregando un seis por ciento anual, resultante de las distintas promociones programadas para los próximos seis meses.
 
-Para informar de las estimaciones, Jan importa datos de las ventas del año pasado en Power BI Desktop. Busca el campo SalesAmount de la tabla de ventas de distribuidores. Debido a que los datos que importa únicamente contienen los importes de las ventas del año pasado, Jan cambia el nombre del campo SalesAmount a Ventas de últimos años. Después, Jan arrastra el campo Ventas de los últimos años al lienzo del informe. Aparece en una visualización de gráfico como un valor único, que es la suma de las ventas de todos los distribuidores durante el año pasado.
+Para informar de las estimaciones, Jan importa datos de las ventas del año pasado en Power BI Desktop. Busca el campo SalesAmount de la tabla de ventas de distribuidores. Debido a que los datos importados únicamente contienen los importes de las ventas del año pasado, Jan cambia el nombre del campo SalesAmount a Last Years Sales (Ventas del año pasado). Después, Jan arrastra el campo Ventas de los últimos años al lienzo del informe. Aparece en una visualización de gráfico como un valor único, que es la suma de las ventas de todos los distribuidores durante el año pasado.
 
 Jan observa que, incluso cuando no especificó un cálculo, este se aplicó de manera automática. Power BI Desktop creó su propia medida con la suma de todos los valores de las ventas de los últimos años.
 

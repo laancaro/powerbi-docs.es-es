@@ -8,27 +8,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 8e19bc596bef3862dca79ac92ffbd74954a9c756
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300170"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909231"
 ---
-# <a name="monitor-power-bi-premium-capacities-in-your-organization"></a>Supervisión de las capacidades de Power BI Premium en su organización
+# <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Supervisión de las capacidades de Power BI Premium y Power BI Embedded
 
-En este artículo se proporciona información general sobre la supervisión de las métricas de las capacidades de Power BI Premium. La supervisión del uso de la capacidad le permite adoptar un enfoque fundamentado para administrar sus capacidades. 
+En este artículo se proporciona información general sobre la supervisión de las métricas de las capacidades de Power BI Premium. La supervisión del uso de la capacidad le permite adoptar un enfoque fundamentado para administrar sus capacidades.
 
 Puede supervisar la capacidad con la aplicación Premium Capacity Metrics o en el Portal de administración. Aunque en este artículo se tratan las dos opciones, se recomienda la aplicación porque proporciona muchos más detalles.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="install-the-premium-capacity-metrics-app"></a>Instalación de la aplicación Premium Capacity Metrics
 
 Puede ir directamente a la [aplicación Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics) o instalarla como hace con otras aplicaciones en Power BI.
-
-> [!IMPORTANT]
-> Para instalar y usar esta aplicación, debe ser un administrador de capacidades y administrar al menos una capacidad. No basta con ser administrador de Power BI. 
 
 1. En Power BI, haga clic en **Aplicaciones**.
 
@@ -42,47 +41,66 @@ Puede ir directamente a la [aplicación Premium Capacity Metrics](https://app.po
 
 Ahora que ha instalado la aplicación, puede ver las métricas sobre las capacidades de su organización. Echemos un vistazo a algunas de las métricas principales que están disponibles.
 
-## <a name="use-the-metrics-app"></a>Uso de la aplicación de métricas 
+## <a name="use-the-metrics-app"></a>Uso de la aplicación de métricas
+
 Cuando se abre la aplicación, primero se muestra un panel con un resumen de todas las capacidades para las que tiene derechos de administrador.
 
-![Información general de un informe Premium](media/service-admin-premium-monitor-capacity/app-dashboard.png)
+![Panel de métricas de la aplicación](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-### <a name="filtering"></a>Filtrado
+El informe tiene tres pestañas, que se describen con más detalle en las secciones siguientes.
 
-La pestaña **Filters applied to all pages** (Filtros aplicados a todas las páginas) le permite seleccionar una capacidad, un conjunto de datos o un intervalo de fechas dentro de los últimos siete días. Estos filtros aplican la selección a todas las páginas e iconos pertinentes de este informe. Si no se selecciona nada, el informe muestra de forma predeterminada las métricas de la semana pasada de cada capacidad que posea.
+* **Filters applied to all pages** (Filtros aplicados a todas las páginas): permite filtrar las otras páginas del informe por una capacidad específica.
+* **Datasets** (Conjuntos de datos): proporciona métricas detalladas sobre el estado de los conjuntos de datos dentro de las capacidades.
+* **System** (Sistema): ofrece métricas de capacidad total, incluidos el uso elevado de memoria y CPU. 
 
-![Información general de un informe Premium](media/service-admin-premium-monitor-capacity/premium-report-overview.png)
+### <a name="filters-applied-to-all-pages-tab"></a>Pestaña Filters applied to all pages (Filtros aplicados a todas las páginas)
 
-### <a name="summary-tab"></a>Pestaña Summary (Resumen)
+La pestaña **Filters applied to all pages** (Filtros aplicados a todas las páginas) permite seleccionar una capacidad, un conjunto de datos o un intervalo de fechas dentro de los últimos siete días. Después, los filtros se aplican a todas las páginas y los iconos relevantes del informe. Si no se selecciona ningún filtro, en el informe se muestran de forma predeterminada las métricas de la semana pasada de cada capacidad que posea.
 
-La pestaña **Summary** (Resumen) muestra una vista de la capacidad basada en las entidades, el sistema y los conjuntos de datos.
+![Pestaña Filters (Filtros)](media/service-admin-premium-monitor-capacity/filters-tab.png)
 
-![Filtros que se aplican a todas las páginas](media/service-admin-premium-monitor-capacity/premium-summary-report.png)
+### <a name="datasets-tab"></a>Pestaña Conjuntos de datos
 
-| **Area** (Área) | **Metrics** (Métricas) |
+En la pestaña **Datasets** (Conjuntos de datos) se proporciona la mayor parte de las métricas de la aplicación. Use los cuatro botones de la parte superior de la pestaña para navegar a otras áreas: **Summary** (Resumen), **Refreshes** (Actualizaciones), **Queries** (Consultas) y **Datasets** (Conjuntos de datos).
+
+![Pestaña Conjuntos de datos](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+#### <a name="summary-area"></a>Área Summary (Resumen)
+
+![Botón Summary (Resumen)](media/service-admin-premium-monitor-capacity/summary-button.png)
+
+En el área **Summary** (Resumen) se muestra una vista de las capacidades en función de las entidades, los recursos del sistema y las cargas de trabajo de conjunto de datos.
+
+| | **Metrics** (Métricas) |
 | --- | --- |
 | **Entities** (Entidades) | * El número de capacidades que posee.<br> * El número de conjuntos de datos distintos de su capacidad.<br> * El número de áreas de trabajo distintas de su capacidad. |
 | **System** (Sistema) | * El uso medio de memoria en GB durante los últimos siete días.<br> * El consumo más alto de memoria en GB en los últimos siete días y la hora local a la que se produjo.<br> * El número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que la CPU superó el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo.<br> * El número de veces que las conexiones dinámicas y consultas directas superaron el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que las conexiones dinámicas o consultas directas superaron el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo. |
 | **Dataset Workloads** (Cargas de trabajo de conjunto de datos) | * Número total de actualizaciones en los últimos siete días.<br> * Número total de actualizaciones correctas en los últimos siete días.<br> * Número total de actualizaciones con errores en los últimos siete días.<br> * Número total de actualizaciones con error debido a memoria insuficiente.<br> * La duración media de actualización se mide en minutos, el tiempo necesario para completar la operación.<br> * El tiempo de espera medio de actualización se mide en minutos, el retraso medio entre la hora programada y el inicio de la operación.<br> * Número total de consultas ejecutadas en los últimos siete días.<br> * Número total de consultas correctas en los últimos siete días.<br> * Número total de consultas con error en los últimos siete días.<br> * La duración media de consulta se mide en minutos, el tiempo necesario para completar la operación.<br> * Número total de modelos expulsados debido a la presión de memoria. |
 |  |  |
 
-### <a name="refreshes-tab"></a>Pestaña Refreshes (Actualizaciones)
+#### <a name="refreshes-area"></a>Pestaña Refreshes (Actualizaciones)
 
-La pestaña **Refreshes** (Actualizaciones) muestra las actualizaciones completas, las medidas de éxito, el tiempo de espera de actualización medio/máximo y la duración de actualización media/máxima fragmentados por conjuntos de datos en los últimos siete días. Los dos gráficos inferiores muestran las actualizaciones frente al consumo de memoria en GB y los tiempos de espera medios divididos en cubos de una hora, presentados en la hora local. Los gráficos de barras superiores muestran los cinco conjuntos de datos principales por el tiempo total máximo que se tardó en completar la actualización del conjunto de datos (duración de la actualización) y el tiempo de espera de actualización máximo. Varios picos elevados de tiempo de espera de actualización son indicativos de un alto uso de la capacidad.
+![Botón Refreshes (Actualizaciones)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
 
-![Informe de actualización Premium](media/service-admin-premium-monitor-capacity/premium-refresh-report.png)
+En el área **Refreshes** (Actualizaciones) se muestran las actualizaciones completas, las medidas correctas, el tiempo de espera de actualización medio/máximo y la duración de actualización media/máxima fragmentados por conjuntos de datos en los últimos siete días. Los dos gráficos inferiores muestran las actualizaciones frente al consumo de memoria en GB y los tiempos de espera medios divididos en cubos de una hora, presentados en la hora local. En los gráficos de barras superiores se muestran los cinco conjuntos de datos principales por el tiempo promedio que se tardó en completar la actualización del conjunto de datos (duración de la actualización) y el tiempo promedio de espera de actualización. Varios picos elevados de tiempo de espera de actualización son indicativos de un alto uso de la capacidad.
 
-### <a name="datasets-tab"></a>Pestaña Conjuntos de datos
+#### <a name="queries-area"></a>Área Queries (Consultas)
 
-La pestaña **Datasets** (Conjunto de datos) muestra los conjuntos de datos completos expulsados debido a la presión de memoria por la hora.
+![Botón Queries (Consultas)](media/service-admin-premium-monitor-capacity/queries-button.png)
 
-![Informe de conjuntos de datos Premium](media/service-admin-premium-monitor-capacity/premium-datasets-report.png)
+En el área **Queries** (Consultas) se enumera el número total de consultas ejecutadas, el número total de recuento de consultas dinámicas y directas, la duración media/máxima, el tiempo de espera medio/máximo expresado en milisegundos segmentados por conjuntos de datos, área de trabajo y depósitos horarios durante los últimos siete días. En los gráficos de la parte inferior se muestran los recuentos de consulta, la duración media (en milisegundos) y el tiempo de espera medio (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local. En los dos gráficos de la parte superior derecha se enumeran los cinco conjuntos de datos principales, la duración media de las consultas y el tiempo de espera que se ha tardado en completar las consultas. Las duraciones de consulta y los tiempos de espera largos son indicativos de un alto uso de la capacidad. También puede significar que un único conjunto de datos está causando problemas y es necesario seguir investigando.
+
+#### <a name="datasets-area"></a>Área Datasets (Conjuntos de datos)
+
+![Botón Datasets (Conjuntos de datos)](media/service-admin-premium-monitor-capacity/datasets-button.png)
+
+En el área **Datasets** (Conjunto de datos) se muestran los conjuntos de datos completos expulsados debido a la presión de memoria por la hora.
 
 ### <a name="system-tab"></a>Pestaña System (Sistema)
 
-La pestaña **System** (Sistema) muestra el uso elevado de CPU (número de veces que superó el 80 % de utilización), el uso elevado de conexiones dinámicas y consultas directas y el consumo de memoria.
+En la pestaña **System** (Sistema) se muestran las veces de uso elevado de CPU (número de veces que superó el 80 % del uso), el uso elevado de conexiones dinámicas y consultas directas, y el consumo de memoria.
 
-![Informe del sistema Premium](media/service-admin-premium-monitor-capacity/premium-system-report.png)
+![Informe del sistema Premium](media/service-admin-premium-monitor-capacity/system-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Supervisión de capacidades de Power BI Embedded
 

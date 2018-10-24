@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/22/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 6ea5814cdba7df6d7e7bb4bbb284f52110ca184c
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744918"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46547807"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -24,7 +24,7 @@ Se aplica a:
 |:--- |:--- |
 | iPhone |Teléfonos Android |
 
-Al crear un informe de Power BI en Power BI Desktop, también puede [crear una versión de dicho informe optimizada](../../desktop-create-phone-report.md) para verlo en la aplicación de Power BI en un teléfono.
+Al crear un informe de Power BI en Power BI Desktop o en el servicio Power BI, también puede [crear una versión de ese informe optimizada para verlo](../../desktop-create-phone-report.md) en la aplicación de Power BI en un teléfono.
 
 A partir de ese momento, cuando abra un informe de Power BI en un teléfono, Power BI detectará si el informe se ha optimizado para el teléfono y abrirá automáticamente el informe optimizado en la vista vertical.
 
@@ -79,7 +79,7 @@ Algunas acciones solo son posibles en el modo de enfoque debido a restricciones 
     Revertir está disponible en el nivel del informe. Borre toda la exploración de todos los objetos visuales o en el nivel visual quitando toda la exploración del objeto visual específico seleccionado.   
 
 ## <a name="drill-down-in-a-visual"></a>Exploración en profundidad en un objeto visual
-Si los niveles de jerarquía se definen en un objeto visual, es posible profundizar en la información detallada que se muestran en dicho objeto y, después, realizar una copia de seguridad. Se puede [agregar una exploración en profundidad a un objeto visual](../../power-bi-visualization-drill-down.md) tanto en el servicio Power BI como en Power BI Desktop. La exploración en profundidad solo funciona en los informes de Power BI optimizados para teléfono cuando se ven en un teléfono. 
+Si los niveles de jerarquía se definen en un objeto visual, es posible profundizar en la información detallada que se muestran en dicho objeto y, después, realizar una copia de seguridad. Se puede [agregar una exploración en profundidad a un objeto visual](../end-user-drill.md) tanto en el servicio Power BI como en Power BI Desktop. La exploración en profundidad solo funciona en los informes de Power BI optimizados para teléfono cuando se ven en un teléfono. 
 
 1. En un informe de un móvil, pulse los puntos suspensivos (**...** ) en la esquina superior derecha > **Ampliar al modo enfocado**.
    

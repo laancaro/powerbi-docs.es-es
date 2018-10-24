@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3d4065a6ab0c5a3c8f18350ef6c3a0444febda08
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547071"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908840"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Conexión a Microsoft Dynamics CRM con Power BI
-Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias como, por ejemplo, cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
+Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias, como cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 
 
 Conéctese a los roles de [Sales Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-sales-manager) o [Service Manager](https://msit.powerbi.com/groups/me/getdata/services/dynamics-crm-customer-service) de Dynamics CRM Online. Obtenga más información acerca de la [integración de Dynamics CRM Online](https://powerbi.microsoft.com/integrations/microsoft-dynamicscrm) con Power BI.
 
@@ -26,17 +26,16 @@ Esta conexión requiere **Microsoft Dynamics CRM Online 2016, o una versión pos
 
 ## <a name="how-to-connect"></a>Cómo conectarse
 [!INCLUDE [powerbi-service-apps-get-more-apps](./includes/powerbi-service-apps-get-more-apps.md)]
-
-1. Seleccione **Microsoft Dynamics CRM Online Sales Manager** o **Microsoft Dynamics CRM Online Service Manager** y haga clic en **Conectar**.
+3. Seleccione **Microsoft Dynamics CRM Online Sales Manager** o **Microsoft Dynamics CRM Online Service Manager** y haga clic en **Conectar**.
    
    ![](media/service-connect-to-microsoft-dynamics-crm/connect.png)
-2. Proporcione la URL de servicio asociada a su cuenta.  Adoptará la forma `https://company.crm.dynamics.com`. Puede ver más detalles [a continuación](#FindingParams).
+4. Proporcione la URL de servicio asociada a su cuenta.  Adoptará la forma `https://company.crm.dynamics.com`. Puede ver más detalles [a continuación](#FindingParams).
    
    ![](media/service-connect-to-microsoft-dynamics-crm/params.png)
-3. Cuando se le solicite, proporcione sus credenciales (este paso se podría omitir si ya inició sesión con el explorador). En el Método de autenticación, escriba **oAuth2** y haga clic en **Iniciar sesión**:
+5. Cuando se le solicite, proporcione sus credenciales (este paso se podría omitir si ya ha iniciado sesión con el explorador). En el Método de autenticación, escriba **oAuth2** y haga clic en **Iniciar sesión**:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/creds.png)
-4. Después de conectarse, verá un panel personalizado para un jefe de ventas o un administrador de servicios, relleno con sus propios datos:
+6. Después de conectarse, verá un panel personalizado para un jefe de ventas o un administrador de servicios, relleno con sus propios datos:
    
    ![](media/service-connect-to-microsoft-dynamics-crm/dashboard.png)
 
@@ -48,9 +47,9 @@ Esta conexión requiere **Microsoft Dynamics CRM Online 2016, o una versión pos
 ## <a name="whats-included"></a>Qué se incluye
 En las siguientes secciones se detalla lo que se incluye en los roles [Sales Manager](#Sales) y [Service Manager](#Service).
 
-Tenga en cuenta que los datos adicionales están limitados según el rol de seguridad asignado al usuario de Dynamics CRM Online.
+Los datos están limitados según el rol de seguridad asignado al usuario de Dynamics CRM Online.
 
-El fin del panel y de los informes es proporcionar informes operativos de los datos a corto plazo de un equipo o grupo. Cada consulta está limitada para recuperar un máximo de 100 000 registros de Dynamics CRM Online. Si se supera este límite debido al gran volumen de datos de la organización, el aprovisionamiento generará un error y se finalizará la actualización de datos de Dynamics CRM Online. Si la cuenta es demasiado grande, considere la posibilidad de conectarse a través de Power BI Desktop para crear una solución personalizada.
+El fin del panel y de los informes es proporcionar informes operativos de los datos a corto plazo de un equipo o grupo. Cada consulta está limitada para recuperar un máximo de 100 000 registros de Dynamics CRM Online. Si se supera este límite debido al gran volumen de datos de la organización, el aprovisionamiento genera un error y se finaliza la actualización de datos de Dynamics CRM Online. Si la cuenta es demasiado grande, considere la posibilidad de conectarse a través de Power BI Desktop para crear una solución personalizada.
 
 <a name="Sales"></a>
 
@@ -74,12 +73,12 @@ También contienen gráficos clave, como:
 
 Estas métricas y gráficos ayudan a comprender el rendimiento de la organización de ventas y analizar el potencial de ventas en el equipo de ventas.
 
-La siguiente tabla enumera las entidades de CRM disponibles para este servicio y también proporciona información acerca de los filtros aplicados a cada uno de los registros de las entidades.
+En la siguiente tabla se enumeran las entidades de CRM disponibles para este servicio y también se proporciona información sobre los filtros aplicados a cada uno de los registros de entidad.
 
 | Entidad de CRM | Filtros aplicados |
 | --- | --- |
-| Account (Cuenta) |Todas las cuentas que tienen oportunidades relacionadas que se han modificado en los últimos 365 días. |
-| Activity (Actividad) |Todas las actividades modificadas en los últimos 90 días <br> [modifiedon] > hoy - 90 días |
+| Cuenta |Todas las cuentas que tienen oportunidades relacionadas que se han modificado en los últimos 365 días. |
+| Actividad |Todas las actividades modificadas en los últimos 90 días <br> [modifiedon] > hoy - 90 días |
 | Business Unit (Unidad de negocio) |Todas las unidades de negocio que no están deshabilitadas <br> [isdisabled] = false |
 | Lead (Cliente potencial) |Todos los clientes potenciales modificados en los últimos 180 días <br> [modifiedon] > hoy - 180 días |
 | Opportunity (Oportunidad) |Todas las oportunidades modificadas en los últimos 365 días <br> [modifiedon] > hoy - 365 días |
@@ -154,7 +153,7 @@ Si no tiene CRM Online 2016, o cualquier versión posterior, use Power BI Deskto
 Si ve el error "Data refresh failed as query exceeded the maximum limit of 100000 records" (No se han podido actualizar los datos debido a que la consulta ha superado el límite máximo de 100 000 registros), considere la posibilidad de conectarse directamente desde Power BI Desktop o de utilizar la plantilla de soluciones de CRM.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
+* [¿Qué son las aplicaciones en Power BI?](service-create-distribute-apps.md)
 * [Obtener datos en Power BI](service-get-data.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

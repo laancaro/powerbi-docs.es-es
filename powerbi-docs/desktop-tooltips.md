@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f06f3f7f6d91176d75ce452202a91b2c54be06ce
-ms.sourcegitcommit: c51461690e8faa121a1325957ca79b7a3975e8b8
+ms.openlocfilehash: 4264b10ac9ae42585ea8b814d0c15de7ea318752
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44512165"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47416806"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -125,7 +125,7 @@ Hay algunas limitaciones y consideraciones que debe tener en cuenta en relación
 
 * A partir de la versión de septiembre de 2018 de **Power BI Desktop**, que marca la disponibilidad general de información sobre herramientas, los objetos visuales de tarjeta también admiten información sobre herramientas.
 * A partir de la versión de **Power BI Desktop** de julio de 2018, se admiten objetos visuales de tabla y matriz para la información sobre herramientas. 
-* La información en pantalla para informes no se admite al consultar informes en aplicaciones móviles o entornos insertados (por ejemplo, en Publicar en la Web). 
+* La información en pantalla para informes no se admite al visualizar informes en aplicaciones móviles. 
 * La información en pantalla para informes no se admite para los objetos visuales personalizados. 
 * Los clústeres no se admiten actualmente como campos que se puedan mostrar en la información en pantalla para informes. 
 * A la hora de elegir un campo que se mostrará en la información en pantalla para informes, al usar un campo en vez de una categoría, los objetos visuales que contengan ese campo solo mostrarán la información en pantalla especificada cuando el resumen coincida con el campo seleccionado. 
@@ -136,5 +136,5 @@ Hay algunas limitaciones y consideraciones que debe tener en cuenta en relación
 Para obtener más información sobre las características que son similares o que interactúan con la información en pantalla de informe, eche un vistazo a los siguientes artículos:
 
 * [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
-* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](service-focus-mode.md)
+* [Mostrar un icono de panel o un objeto visual de informe en modo Enfoque](consumer/end-user-focus.md)
 

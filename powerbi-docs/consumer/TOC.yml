@@ -1,0 +1,189 @@
+items:
+- name: Power BI para consumidores
+  href: power-bi-consumer-landing.md
+- name: Servicio Power BI
+  items:
+  - name: Información general
+    items:
+    - name: ¿Qué es un consumidor de Power BI?
+      href: end-user-consumer.md
+    - name: Conceptos básicos y terminología para los consumidores de Power BI
+      href: end-user-basic-concepts.md
+  - name: Inicios rápidos
+    items:
+    - name: Obtener información básica sobre Power BI
+      href: end-user-experience.md
+  - name: Tutoriales
+    items:
+    - name: Crear una alerta de panel
+      href: end-user-alerts.md
+  - name: Procedimiento
+    items:
+    - name: Paneles
+      items:
+      - name: Paneles
+        href: end-user-dashboards.md
+      - name: Paneles destacados
+        href: end-user-featured.md
+      - name: Los iconos de panel
+        href: end-user-tiles.md
+      - name: Agregar un comentario o iniciar una conversación
+        href: end-user-comment.md
+    - name: Informes
+      items:
+      - name: Informes
+        href: end-user-reports.md
+      - name: Ver un informe
+        href: end-user-report-open.md
+      - name: Usar filtros en un informe
+        href: end-user-report-filter.md
+      - name: Más información sobre cómo los objetos visuales del informe tienen filtros cruzados entre sí
+        href: end-user-interactions.md
+    - name: Visualizaciones
+      items:
+      - name: ¿Qué puedo hacer con las visualizaciones?
+        href: end-user-visualizations.md
+      - name: Exploración en profundidad en una visualización de Power BI
+        href: end-user-drill.md
+      - name: Exportar datos de una visualización
+        href: end-user-export-data.md
+    - name: Tareas comunes
+      items:
+      - name: Diferentes formas de ampliar el contenido mediante los modos de pantalla completa y de foco
+        href: end-user-focus.md
+      - name: Aplicaciones, informes y paneles favoritos de Power BI
+        href: end-user-favorite.md
+      - name: Imprimir un panel, imprimir un icono de un panel o imprimir una página de un informe
+        href: end-user-print.md
+      - name: Ver contenido relacionado
+        href: end-user-related.md
+      - name: Ver contenido reciente
+        href: end-user-recent.md
+      - name: Ver el contenido en el contenedor Compartidos conmigo
+        href: end-user-shared-with-me.md
+      - name: Suscripción a un informe o panel
+        href: end-user-subscribe.md
+      - name: Buscar y ordenar contenido en Power BI
+        href: end-user-search-sort.md
+      - name: Ver información automática para los iconos de panel
+        href: end-user-insights.md
+    - name: Obtener datos
+      items:
+      - name: Instalar y usar aplicaciones
+        href: end-user-apps.md
+      - name: Conectarse a los servicios
+        href: end-user-connect-to-services.md
+      - name: Búsqueda y conexión a paquetes de contenido organizativo
+        href: end-user-content-pack.md
+    - name: Realizar preguntas de los datos
+      items:
+      - name: Preguntas y respuestas en Power BI
+        href: end-user-q-and-a.md
+      - name: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
+        href: end-user-q-and-a-tips.md
+  - name: Recursos
+    items:
+    - name: Glosario y terminología
+      href: end-user-glossary.md
+    - name: Exploradores compatibles
+      href: end-user-browsers.md
+    - name: Tipos de Quick Insights compatibles con Power BI
+      href: end-user-insight-types.md
+- name: Aplicaciones móviles de Power BI
+  items:
+  - name: Información general
+    items:
+    - name: ¿Qué son las aplicaciones móviles?
+      href: mobile/mobile-apps-for-mobile-devices.md
+  - name: Inicios rápidos
+    items:
+    - name: Exploración de paneles e informes
+      href: mobile/mobile-apps-quickstart-view-dashboard-report.md
+  - name: Tutoriales
+    items:
+    - name: Formulación de preguntas en las aplicaciones móviles iOS
+      href: mobile/tutorial-mobile-apps-ios-qna.md
+  - name: Conceptos
+    items:
+    - name: Novedades en las aplicaciones móviles
+      href: mobile/mobile-whats-new-in-the-mobile-apps.md
+    - name: Obtención de datos del mundo real con las aplicaciones móviles
+      href: mobile/mobile-apps-data-in-real-world-context.md
+    - name: Consulta de datos sin conexión en las aplicaciones móviles
+      href: mobile/mobile-apps-offline-data.md
+    - name: Aplicación Power BI for Mixed Reality (versión preliminar)
+      href: mobile/mobile-mixed-reality-app.md
+  - name: Procedimiento
+    items:
+    - name: Todas las aplicaciones móviles
+      items:
+      - name: Compartir un panel desde aplicaciones móviles de Power BI
+        href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
+      - name: Interacción con iconos de las aplicaciones móviles
+        href: mobile/mobile-tiles-in-the-mobile-apps.md
+      - name: Favoritos en las aplicaciones móviles
+        href: mobile/mobile-apps-favorites.md
+      - name: Establecer alertas de datos en las aplicaciones móviles de Power BI
+        href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
+      - name: Recibir notificaciones en las aplicaciones móviles de Power BI
+        href: mobile/mobile-apps-notification-center.md
+      - name: Creación de un vínculo profundo que va a una ubicación concreta
+        href: mobile/mobile-apps-deep-link-specific-location.md
+      - name: Filtrar un informe por ubicación en las aplicaciones móviles de Power BI
+        href: mobile/mobile-apps-geographic-filtering.md
+      - name: Paneles para móviles de Power BI
+        href: mobile/mobile-apps-view-dashboard.md
+      - name: Informed en las aplicaciones móviles
+        href: mobile/mobile-reports-in-the-mobile-apps.md
+      - name: Uso de OAuth para conectarse a Reporting Services
+        href: mobile/mobile-oauth-ssrs.md
+    - name: Dispositivos Android
+      items:
+      - name: Introducción a la aplicación Android
+        href: mobile/mobile-android-app-get-started.md
+      - name: Corrección del error "Your corporate SSL certificate is untrusted" (Su certificado SSL corporativo no es de confianza)
+        href: mobile/mobile-android-app-error-corporate-ssl-account-is-untrusted.md
+      - name: Corrección del error "Need to update Android System Webview" (Debe actualizar Android System Webview)
+        href: mobile/mobile-android-error-update-android-system-webview.md
+    - name: iOS
+      items:
+      - name: Introducción a la aplicación de iOS
+        href: mobile/mobile-iphone-app-get-started.md
+      - name: Preguntas y respuestas a un analista virtual en aplicaciones móviles iOS
+        href: mobile/mobile-apps-ios-qna.md
+      - name: Aplicación Power BI en Apple Watch
+        href: mobile/mobile-apple-watch.md
+      - name: Escanear un código de barras desde la aplicación del iPhone
+        href: mobile/mobile-apps-scan-barcode-iphone.md
+    - name: iOS y Android
+      items:
+      - name: Visualización de informes locales en las aplicaciones móviles
+        href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
+      - name: Visualización de informes optimizados para el teléfono
+        href: mobile/mobile-apps-view-phone-report.md
+      - name: Escanear un código QR de Power BI desde el teléfono
+        href: mobile/mobile-apps-qr-code.md
+      - name: Anotación y uso compartido en las aplicaciones móviles
+        href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+    - name: Aplicación de Power BI para dispositivos con Windows 10
+      items:
+      - name: Introducción a la aplicación de Windows 10
+        href: mobile/mobile-windows-10-phone-app-get-started.md
+      - name: Anclar un panel a la pantalla Inicio
+        href: mobile/mobile-pin-dashboard-start-screen-windows-10-phone-app.md
+      - name: Ver informes móviles y KPI de Reporting Services
+        href: mobile/mobile-app-windows-10-ssrs-kpis-mobile-reports.md
+      - name: Visualización de Power BI en Surface Hub
+        href: mobile/mobile-windows-10-app-presentation-mode.md
+      - name: Inicio de sesión único en la aplicación de Windows
+        href: mobile/mobile-windows-10-app-single-sign-on-sso.md
+  - name: Recursos
+    items:
+    - name: Idiomas admitidos en las aplicaciones móviles
+      href: mobile/mobile-apps-supported-languages.md
+ms.openlocfilehash: ff348d2798d49a0f4ee73a28d9c82395caf12d80
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112139"

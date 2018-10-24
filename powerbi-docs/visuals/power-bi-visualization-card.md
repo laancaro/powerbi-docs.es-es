@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 03/26/2018
+ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 18c9fe3d50245ff1d0745c0a3ae1e830b3f9be45
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
+ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548336"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874584"
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
 
-![visualización de tarjetas](./media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![visualización de tarjetas](media/power-bi-visualization-card/pbi_opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Creación de una tarjeta con el editor de informes
 Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
@@ -32,7 +32,7 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
    ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
 2. En el panel Visualizaciones, seleccione el icono Tarjeta.
 
-   ![](media/power-bi-visualization-card/pbi_changechartcard.png)
+   ![](media/power-bi-visualization-card/power-bi-templates.png)
 6. Mantenga el puntero sobre la tarjeta y seleccione el icono de anclaje ![](media/power-bi-visualization-card/pbi_pintile.png) para agregar la visualización al panel.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
@@ -44,20 +44,21 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 
    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel como un icono.
 
-   ![](media/power-bi-visualization-card/power-bi-pin-success-message.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 9. Seleccione **Ir al panel**. Allí puede [editar y mover](../service-dashboard-edit-tile.md) la visualización anclada.
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Creación de una tarjeta a partir del cuadro de Preguntas y respuestas
-El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI (app.powerbi.com) desde un panel o informe. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
+El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI desde un panel o informe, y en la vista de informe de Desktop. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
 
-1. Cree un [panel](../consumer/end-user-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
+1. Cree un [panel](../service-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
 
 1. En la parte superior del panel, comience a escribir lo que quiere saber acerca de los datos en el cuadro de pregunta. 
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a-box.png)
 
->**SUGERENCIA**: desde un informe del servicio Power BI, en la [vista de edición](../consumer/end-user-reading-view.md), seleccione **Hacer una pregunta** en la barra de menús superior. En un informe de Power BI Desktop, busque algún espacio abierto de un informe y haga doble clic para abrir un cuadro de pregunta.
+> [!TIP]
+> Desde un informe del servicio Power BI, en la vista de Edición, haga clic en **Hacer una pregunta** en la barra de menús superior. En un informe de Power BI Desktop, busque algún espacio abierto de un informe y haga doble clic para abrir un cuadro de pregunta.
 
 3. Por ejemplo, escriba "número de oportunidades" en el cuadro de pregunta.
 
@@ -75,7 +76,7 @@ El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjet
 
    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel como un icono.  
 
-   ![](media/power-bi-visualization-card/power-bi-success.png)
+   ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Seleccione **Ir al panel** para ver el nuevo icono. Allí, puede [cambiar el nombre, cambiar el tamaño, agregar un hipervínculo y cambiar la posición del icono](../service-dashboard-edit-tile.md) en el panel, entre otras cosas.
 
    ![](media/power-bi-visualization-card/power-bi-pinned.png)
@@ -87,28 +88,24 @@ El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjet
 ## <a name="format-a-card"></a>Formateo de una tarjeta
 Tiene muchas opciones para cambiar las etiquetas, el texto, el color, etc. La mejor manera de aprender consiste en crear una tarjeta y explorar el panel de formato. A continuación se indican solo algunas de las opciones de formato disponibles. 
 
-1. Comience seleccionando el icono de pincel para abrir el panel de formato. 
+1. Para empezar, haga clic en el icono de rodillo para abrir el panel Formato. 
 
-    ![](media/power-bi-visualization-card/power-bi-format-card.png)
+    ![Tarjeta con el rodillo resaltado](media/power-bi-visualization-card/power-bi-format-card.png)
 2. Expanda **Etiqueta de datos** y cambie el color, el tamaño y la familia de fuentes. Si tuviera miles de tiendas, podría usar **Mostrar unidades** para mostrar el número de tiendas por miles y controlar también las posiciones decimales. Por ejemplo, 125,8 K en lugar de 125 832,00.
 
 3.  Expanda **Etiqueta de categoría** y cambie el color y el tamaño.
 
-    ![](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![Color azul oscuro seleccionado](media/power-bi-visualization-card/power-bi-card-format.png)
 
 4. Expanda **Fondo** y mueva el control deslizante a la posición de activado.  Ahora puede cambiar el color de fondo y la transparencia.
 
-    ![](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![Control deslizante establecido en activado](media/power-bi-visualization-card/power-bi-format-color.png)
 
 5. Siga explorando las opciones de formato hasta que la tarjeta esté exactamente cómo le gustaría. 
 
-    ![](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Tarjeta después de aplicar todo el formato](media/power-bi-visualization-card/power-bi-formatted.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Iconos de paneles en Power BI](../consumer/end-user-tiles.md)
+[Gráficos combinados en Power BI](power-bi-visualization-combo-chart.md)
 
-[Paneles en Power BI](../consumer/end-user-dashboards.md)
-
-[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+[Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

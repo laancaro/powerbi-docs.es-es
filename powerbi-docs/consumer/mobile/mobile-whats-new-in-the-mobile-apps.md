@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-mobile
 ms.topic: conceptual
-ms.date: 07/19/2018
+ms.date: 09/14/2018
 ms.author: maggies
-ms.openlocfilehash: 922352c0cdbacd57d3e6706d490b3cc7e65ab8f6
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 798b1daa13079e69788bc977f37748531e38f431
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748938"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48909254"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -22,6 +22,25 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="september-2018"></a>Septiembre de 2018
+
+### <a name="phone-report-editing-in-the-browser-all-devices"></a>Edición de informes para móviles en el explorador (todos los dispositivos)
+
+Ahora puede crear un diseño de informe para móviles para un informe que ya está publicado en el servicio Power BI y no solo en Power BI Desktop. Puede crearlo en el modo Edición del explorador.
+
+### <a name="dashboard-commenting-ios-and-android"></a>Comentarios de paneles (iOS y Android) 
+
+Puede agregar comentarios directamente a paneles e iconos específicos para debatir los datos, y cualquier usuario que vea el panel verá los comentarios. También puede agregar a otros usuarios de la organización a la conversación si los @mentioning. Los usuarios que haya @mentioned reciben en su teléfono móvil una notificación push con el mensaje.
+
+Actualmente disponible para dispositivos iOS y Android. Compatibilidad con Windows (próximamente)
+
+Lea la [entrada de blog sobre los comentarios de paneles](https://powerbi.microsoft.com/blog/announcing-dashboard-comments-in-power-bi/) de Power BI.
+
+### <a name="single-sign-on-windows"></a>Inicio de sesión único (Windows)
+
+El Inicio de sesión único (SSO) es una de las características más solicitadas para Power BI Mobile para Windows. Ahora puede usar la cuenta de la organización principal no solo para iniciar sesión en los dispositivos móviles Windows unidos a un dominio, sino también para iniciar sesión en el servicio Power BI sin problemas. Obtenga más información sobre [SSO y las aplicaciones móviles Windows](mobile-windows-10-app-single-sign-on-sso.md).
+
 
 ## <a name="july-2018"></a>Julio de 2018
 
@@ -177,7 +196,7 @@ Lea el [resumen de características de aplicaciones móviles de julio de 2017](h
 
 ### <a name="june-2107"></a>Junio de 2107
 #### <a name="all-devices"></a>Todos los dispositivos
-**Agregar aplicaciones a favoritos** Ya sabe cómo agregar un panel a Favoritos. Recientemente, [Power BI agregó aplicaciones](../../service-install-use-apps.md) y ya puede también agregar aplicaciones a Favoritos. 
+**Agregar aplicaciones a favoritos** Ya sabe cómo agregar un panel a Favoritos. Recientemente, [Power BI agregó aplicaciones](../../service-create-distribute-apps.md) y ya puede también agregar aplicaciones a Favoritos. 
 
 ### <a name="may-2017"></a>Mayo de 2017
 #### <a name="all-devices"></a>Todos los dispositivos
@@ -498,7 +517,7 @@ Todas las mejoras de enero están ya en la nueva [aplicación móvil de Power BI
 
 **Iconos R y widgets web** Vea estos nuevos tipos de iconos en los paneles en el dispositivo móvil en mosaico.
 
-**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../../service-connect-to-services.md) y verlos en el dispositivo móvil.
+**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../end-user-connect-to-services.md) y verlos en el dispositivo móvil.
 
 **Páginas de informe ancladas como iconos en los paneles** Ahora que puede anclar una página de informe completa a un panel en el servicio Power BI, puede ver páginas de informe en la aplicación Power BI en un iPhone o en un teléfono Android.
 

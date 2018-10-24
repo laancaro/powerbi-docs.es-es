@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a3102ff26a4dbf58d8db0073f1af9cf2db5b6515
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 63b75aae9fb9299119b606458a4a8832d77dd1be
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329394"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417174"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.
@@ -65,7 +65,7 @@ La tabla siguiente (o matriz, si lo prefiere) describe los tres tipos de conjunt
 ![](media/service-real-time-streaming/real-time-streaming_11.png)
 
 > [!NOTE]
-> Consulte [este artículo de MSDN](https://msdn.microsoft.com/library/dn950053.aspx) para más información sobre la cantidad de datos que se pueden insertar en los conjuntos de datos de **inserción**.
+> Vea [este artículo](https://docs.microsoft.com/power-bi/developer/api-rest-api-limitations) para obtener más información sobre los límites de **inserción**, sobre la cantidad de datos que se puede insertar.
 > 
 > 
 
@@ -83,14 +83,12 @@ Veamos cada uno de estos enfoques por turnos.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Uso de las API de REST de Power BI para insertar datos
 **Las API de REST de Power BI** se pueden usar para crear y enviar datos a conjuntos de datos de **inserción** y conjuntos de datos de **streaming**. Cuando se crea un conjunto de datos mediante las API de REST de Power BI, el indicador *defaultMode* especifica si el conjunto de datos es de inserción o de streaming. Si no hay ningún indicador *defaultMode* establecido, el valor predeterminado del conjunto de datos es **push**.
 
-Si el valor de *defaultMode* es *pushStreaming*, el conjunto de datos es a la vez un conjunto de datos de **inserción** *y* **streaming**, lo que proporciona las ventajas de ambos tipos de conjunto de datos. En el artículo sobre la API de REST [para **crear conjuntos de datos**](https://msdn.microsoft.com/library/mt203562.aspx) se muestra cómo crear un conjunto de datos de streaming, y se muestra el indicador *defaultMode* en acción.
+Si el valor de *defaultMode* es *pushStreaming*, el conjunto de datos es a la vez un conjunto de datos de **inserción** *y* **streaming**, lo que proporciona las ventajas de ambos tipos de conjunto de datos. 
 
 > [!NOTE]
 > Cuando se usan conjuntos de datos con el valor de *defaultMode* establecido en *pushStreaming*, si una solicitud supera la restricción de tamaño de 15 KB para un conjunto de datos de **streaming**, pero es menor que la restricción de tamaño de 16 MB de un conjunto de datos de **inserción**, la solicitud se realizará correctamente y los datos se actualizarán en el conjunto de datos de inserción. Sin embargo, los iconos de streaming generarán un error temporal.
-> 
-> 
 
-Una vez creado el conjunto de datos, use las API de REST para insertar datos con la API [ **Agregar filas**](https://msdn.microsoft.com/library/mt203561.aspx), tal y como se [muestra en este artículo](https://msdn.microsoft.com/library/mt203561.aspx).
+Una vez creado el conjunto de datos, use las API REST para insertar datos con la API [**PostRows**](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows).
 
 Todas las solicitudes a las API de REST se protegen con **Azure AD OAuth**.
 
@@ -159,9 +157,9 @@ Las secciones siguientes detallan cada una de las opciones.
 
 ![](media/service-real-time-streaming/real-time-streaming_5.png)
 
-Si desea que Power BI almacene los datos que se envían a través de esta secuencia de datos, habilite *Análisis del historial de datos* y se podrán realizar informes y análisis en el flujo de datos recopilados. También puede [obtener más información acerca de la API](https://msdn.microsoft.com/library/dn877544.aspx).
+Si desea que Power BI almacene los datos que se envían a través de esta secuencia de datos, habilite *Análisis del historial de datos* y se podrán realizar informes y análisis en el flujo de datos recopilados. También puede [obtener más información acerca de la API](https://docs.microsoft.com/rest/api/power-bi/).
 
-Una vez creado correctamente el flujo de datos, se le ofrece un extremo de URL de la API de REST, que la aplicación puede solicitar mediante las solicitudes *POST* para insertar los datos en el conjunto de **datos de transmisión** de Power BI que ha creado.
+Una vez creado correctamente el flujo de datos, se le ofrece un punto de conexión de URL de la API REST, al que la aplicación puede llamar mediante solicitudes *POST* para insertar los datos en el conjunto de **datos de transmisión** de Power BI que ha creado.
 
 Al realizar solicitudes *POST*, debe asegurarse de que el cuerpo de la solicitud coincide con el JSON de ejemplo proporcionado por la interfaz de usuario de Power BI. Por ejemplo, ajuste los objetos JSON en una matriz.
 
@@ -223,16 +221,16 @@ Para los conjuntos de datos de inserción, siempre que tenga una marca de tiempo
 Lamentablemente, no es posible en este momento.
 
 #### <a name="given-the-previous-question-how-can-i-do-any-modeling-on-real-time-datasets"></a>Siguiendo la pregunta anterior, ¿cómo puedo realizar modelados en conjuntos de datos en tiempo real?
-El modelado no es posible en un conjunto de datos de streaming porque los datos no se almacenan permanentemente. En el caso de los conjuntos de datos de inserción, puede usar la API de REST de actualización de tabla o conjunto de datos para agregar medidas y relaciones. Para más información, consulte el [artículo sobre la actualización del esquema de tabla](https://msdn.microsoft.com/library/mt203560.aspx) y el [artículo sobre las propiedades de los conjuntos de datos](https://msdn.microsoft.com/library/mt742155.aspx).
+El modelado no es posible en un conjunto de datos de streaming porque los datos no se almacenan permanentemente. En el caso de los conjuntos de datos de inserción, puede usar la API de REST de actualización de tabla o conjunto de datos para agregar medidas y relaciones. 
 
 #### <a name="how-can-i-clear-all-the-values-on-a-push-dataset-how-about-streaming-dataset"></a>¿Cómo puedo borrar todos los valores en un conjunto de datos de inserción? ¿Y en un conjunto de datos de streaming?
-En un conjunto de datos de inserción, puede usar la llamada de API de REST para eliminar filas. También puede usar esta práctica herramienta, que es un contenedor de las API de REST. Actualmente no hay ninguna manera de borrar los datos de un conjunto de datos de streaming, aunque los datos se borrarán automáticamente después de una hora.
+En un conjunto de datos de inserción, puede usar la llamada de API de REST para eliminar filas. Actualmente no hay ninguna manera de borrar los datos de un conjunto de datos de streaming, aunque los datos se borrarán automáticamente después de una hora.
 
 #### <a name="i-set-up-an-azure-stream-analytics-output-to-power-bi-but-i-dont-see-it-appearing-in-power-bi--whats-wrong"></a>He configurado una salida de Azure Stream Analytics hacia Power BI pero no la veo en Power BI. ¿Cuál es el problema?
 Esta es una lista de comprobación que puede usar para solucionar el problema:
 
 1. Reinicie el trabajo de Azure Stream Analytics (los trabajos creados antes de la versión de disponibilidad general del streaming deberán reiniciarse).
-2. Intente volver a autorizar la conexión de Power BI en Azure Stream Analytics.
+2. Intente volver a autorizar la conexión de Power BI en Azure Stream Analytics
 3. ¿Qué área de trabajo ha especificado en la salida de Azure Stream Analytics? En el servicio Power BI, ¿está consultando la misma área de trabajo?
 4. ¿La consulta de Azure Stream Analytics envía la salida explícitamente a la salida de Power BI? (con la palabra clave INTO)
 5. ¿Fluyen datos a través del trabajo de Azure Stream Analytics? El conjunto de datos solo se crea cuando se están transmitiendo datos.
@@ -241,9 +239,6 @@ Esta es una lista de comprobación que puede usar para solucionar el problema:
 ## <a name="next-steps"></a>Pasos siguientes
 Estos son algunos vínculos que le resultarán útiles para trabajar con streaming en tiempo real en Power BI:
 
-* [Información general de la API de REST de Power BI con datos en tiempo real](https://msdn.microsoft.com/library/dn877544.aspx)
-* [Limitaciones de la API de REST de Power BI](https://msdn.microsoft.com/library/dn950053.aspx)
-* [Artículo de la API de REST para **crear conjuntos de datos**](https://msdn.microsoft.com/library/mt203562.aspx)
-* [API de REST de Power BI para **agregar filas**](https://msdn.microsoft.com/library/mt203561.aspx)
+* [Información general de la API de REST de Power BI con datos en tiempo real](https://docs.microsoft.com/rest/api/power-bi/)
 * [Azure Stream Analytics](https://azure.microsoft.com/services/stream-analytics/)
 

@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 516d78bd6158c714d5f4418771c5e8cb219ce512
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 25e7fe3e47cee2aed7781fff2a20621e3bd860ed
+ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547577"
+ms.lasthandoff: 10/10/2018
+ms.locfileid: "48908817"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Administración del área de trabajo de la aplicación en Power BI y Office 365
-Como creador o administrador de un [área de trabajo de la aplicación en Power BI](consumer/end-user-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
+Como creador o administrador de un [área de trabajo de la aplicación en Power BI](service-create-distribute-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
 
 > [!NOTE]
 > La versión preliminar de la nueva experiencia de áreas de trabajo cambiará la relación entre las áreas de trabajo de Power BI y los grupos de Office 365. Ya no creará automáticamente un grupo de Office 365 cada vez que cree una de las nuevas áreas de trabajo. Obtenga información sobre [la creación de nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md)
@@ -36,7 +36,7 @@ Como creador o administrador de un [área de trabajo de la aplicación en Power 
 * Ver la dirección de correo electrónico del grupo.
 * Eliminar el grupo.
 
-Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para ser administrador o miembro de un área de trabajo de la aplicación. Los usuarios de la aplicación necesitan también una licencia de Power BI Pro, a menos que el área de trabajo de la aplicación se encuentre en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
+Necesita una [licencia de Power BI Pro](service-features-license-type.md) para ser administrador o miembro de un área de trabajo de aplicación. Los usuarios de la aplicación necesitan también una licencia de Power BI Pro, a menos que el área de trabajo de la aplicación se encuentre en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edición del área de trabajo de la aplicación en Power BI
 1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo > **Editar área de trabajo**. 
@@ -76,7 +76,6 @@ Cuando se distribuya la aplicación desde el área de trabajo de la aplicación,
 3. Seleccione **Guardar** o **Descartar**.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué son las aplicaciones en Power BI?](consumer/end-user-apps.md)
-* [Publicar aplicaciones con los paneles e informes de Power BI](consumer/end-user-create-apps.md)
+* [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

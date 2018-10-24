@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ad9a3e73a90ff69f5d56e1e5c1fc487c855df74d
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566042"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417335"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
-En Power BI Desktop, puede crear un objeto visual **Mapa de formas** para mostrar comparaciones relativas de las regiones en un mapa al aplicar colores diferentes para distintas regiones. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar ubicaciones geográficas precisas de los puntos de datos en un mapa; en su lugar, su propósito principal es mostrar comparaciones relativas de regiones en un mapa al colorearlas de forma diferente.
+Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
-Los objetos visuales **Mapa de formas** se basan en mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear, como organizaciones geográficas y de ubicación, planos y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
+Los objetos visuales **Mapa de formas** se basan en los mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear. Ejemplos de mapas personalizados son: organizaciones geográficas y de sala, planos de planta y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
 
 ## <a name="creating-shape-maps"></a>Crear mapas de formas
 Puede probar el control **Mapa de formas** con los mapas que se proporcionan en esta versión preliminar o puede usar su propio mapa personalizado siempre que cumpla los requisitos descritos en la sección siguiente denominada **Usar mapas personalizados**.
@@ -47,7 +47,7 @@ Siga los siguientes pasos para crear un **mapa de formas**:
    > 
 
    ![](media/desktop-shape-map/shape-map_3a.png)
-2. En el panel de configuración **Formato**, expanda **Forma** y seleccione de la lista desplegable de **Mapas estándares** para mostrar los datos. En este momento, la representación aparece tal y como se muestra en la siguiente imagen.
+2. En el panel de configuración **Formato**, expanda **Forma** y seleccione de la lista desplegable de **Mapas estándares** para mostrar los datos. En este momento, la representación aparece como se muestra en la imagen siguiente.
 
    ![](media/desktop-shape-map/shape-map_3b.png)
 
@@ -68,7 +68,7 @@ Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap 
 ![](media/desktop-shape-map/shape-map_6.png)
 
 ## <a name="sample-custom-map"></a>Ejemplo de mapa personalizado
-*Offices of the United States Attorneys* publica un informe fiscal anual con datos sobre litigios y cantidad de procesos judiciales.  Todos sus informes se encuentran en este vínculo:
+*Offices of the United States Attorneys* publica un informe fiscal anual con datos sobre litigios y la cantidad de procesos judiciales.  Todos sus informes se encuentran en este vínculo:
 
 https://www.justice.gov/usao/resources/annual-statistical-reports
 
@@ -115,7 +115,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="australia-states"></a>Australia: estados
 
-| id. | abrev. | iso | nombre | código postal |
+| `id` | `abbr` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Occidental |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="austria-states"></a>Austria: estados
 
-| id. | iso | nombre | nombre (español) | código postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -142,7 +142,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="brazil-states"></a>Brasil: estados
 
-| id. |
+| `id` |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -178,7 +178,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="canada-provinces"></a>Canadá: provincias
 
-| id. | iso | nombre | código postal |
+| `id` | `iso` | `name` | `postal` |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territorios Noroccidentales |NT |
@@ -196,9 +196,9 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="france-regions"></a>Francia: regiones
 
-| id. | nombre | nombre (español) |
+| `id` | `name` | `name-en` |
 | --- | --- | --- |
-| Alsace |Alsace |Alsacia |
+| Alsacia |Alsace |Alsacia |
 | Rhone-Alpes |Rhône-Alpes |Ródano-Alpes |
 | Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provenza-Alpes-Costa Azul |
 | Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
@@ -223,7 +223,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="germany-states"></a>Alemania: estados
 
-| id. | iso | nombre | nombre (español) | código postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlín |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -244,7 +244,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="ireland-counties"></a>Irlanda: condados
 
-| id. |
+| `id` |
 | --- |
 | Wicklow |
 | Wexford |
@@ -275,7 +275,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="italy-regions"></a>Italia: regiones
 
-| id. | iso | nombre | nombre (español) | código postal |
+| `id` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Véneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle de Aosta |VD |
@@ -300,7 +300,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="mexico-states"></a>México: estados
 
-| id. | abreviatura | iso | nombre | nombre (español) | código postal |
+| `id` | `abreviatura` | `iso` | `name` | `name-en` | `postal` |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -337,7 +337,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="netherlands-provinces"></a>Países Bajos: provincias
 
-| id. | iso | nombre | nombre (español) |
+| `id` | `iso` | `name` | `name-en` |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holanda Meridional |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -354,7 +354,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="uk-countries"></a>Reino Unido: países
 
-| id. | iso | nombre |
+| `id` | `iso` | `name` |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escocia |
@@ -363,7 +363,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="usa-states"></a>Estados Unidos: estados
 
-| id. | nombre | código postal |
+| `id` | `name` | `postal` |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -417,3 +417,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |
 
+## <a name="next-steps"></a>Pasos siguientes
+[Objeto visual Matriz en Power BI Desktop](desktop-matrix-visual.md)
+
+[Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

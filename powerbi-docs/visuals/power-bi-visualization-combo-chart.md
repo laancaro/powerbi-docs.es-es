@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/27/2018
+ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 68b14e6554c0c12590f555f6447198f1a850e9b1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
+ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544012"
+ms.lasthandoff: 09/28/2018
+ms.locfileid: "47448969"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
 En Power BI, un gráfico combinado es una visualización única que combina un gráfico de líneas y un gráfico de columnas. La combinación de los dos gráficos en uno permite realizar una comparación más rápida de los datos.
@@ -55,9 +55,9 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
     c.  Seleccione **Time** \> **FiscalMonth** para agregarlo al área **Eje**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Seleccione los puntos suspensivos (...) situados en la esquina superior derecha de la visualización y seleccione **Ordenar por FiscalMonth**. Tendrá que seleccionarlo dos veces para ordenar en orden ascendente o descendente.
+5. Haga clic en los puntos suspensivos (...) de la esquina superior derecha de la visualización y seleccione **Ordenar por > MesFiscal**. Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**.
 
-6. Convierta el gráfico de columnas en un gráfico combinado. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
+6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **de columnas apiladas y de líneas** y **de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
 
     ![](media/power-bi-visualization-combo-chart/converttocombo_new2.png)
 7. En el panel **Campos**, arrastre **Ventas** \> **Ventas del último año** al cubo **Valores de línea**.
@@ -71,7 +71,8 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 ## <a name="create-a-combo-chart-with-two-axes"></a>Crear un gráfico combinado con dos ejes
 En esta tarea, compararemos el margen bruto y las ventas.
 
-1. Cree un nuevo gráfico de líneas que realice un seguimiento del **porcentaje de margen bruto del último año** por **mes**.  En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
+1. Cree un nuevo gráfico de líneas que realice un seguimiento del **porcentaje de margen bruto del último año** por **mes**. Haga clic en los puntos suspensivos para ordenar por **Mes** y **Ascendente**.  
+En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
 2. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** es mucho menor que la escala de **Ventas**, lo que dificulta la comparación.      
@@ -80,7 +81,7 @@ En esta tarea, compararemos el margen bruto y las ventas.
 3. Para que el objeto visual sea fácil de leer e interpretar, convierta el gráfico de líneas en un gráfico de columnas apiladas y de líneas.
 
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
-4. Arrastre el **Porcentaje de margen bruto del último año** de **Valores de columnas** a **Valores de líneas**. Power BI crea dos ejes, lo que permite escalar los conjuntos de datos de forma distinta; el izquierdo mide ventas en dólares y el derecho mide porcentajes.
+4. Arrastre el **Porcentaje de margen bruto del último año** de **Valores de columnas** a **Valores de líneas**. Power BI crea dos ejes, lo que permite escalar los conjuntos de datos de forma distinta; el izquierdo mide ventas en dólares y el derecho mide porcentajes. Y vemos la respuesta a nuestra pregunta; sí, vemos un patrón similar.
 
    ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
 
@@ -103,20 +104,16 @@ En esta tarea, compararemos el margen bruto y las ventas.
 
 Desde aquí puede realizar las siguientes acciones:
 
-* [Agregue el gráfico combinado como un icono de panel](../consumer/end-user-tiles.md).
+* [Agregue el gráfico combinado como un icono de panel](../service-dashboard-tiles.md).
 * [Guarde el informe](../service-report-save.md).
-* [Hacer que el informe sea más accesible para personas con discapacidades](../desktop-accessibility.md)
+* [Haga que el informe sea más accesible para personas con discapacidades](../desktop-accessibility.md).
 
 ## <a name="cross-highlighting-and-cross-filtering"></a>Resaltado cruzado y filtrado cruzado
 
-Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../consumer/end-user-interactions.md).
+Al resaltar una columna o una línea en un gráfico combinado, se realiza un resaltado cruzado y un filtrado cruzado de las demás visualizaciones en la página del informe y viceversa. Para cambiar este comportamiento predeterminado, use [Interacciones de objetos visuales](../service-reports-visual-interactions.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Introducción a las visualizaciones en los informes de Power BI](power-bi-report-visualizations.md)
+[Gráficos de anillos en Power BI](power-bi-visualization-doughnut-charts.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-
-[Power BI: Conceptos básicos](../consumer/end-user-basic-concepts.md)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

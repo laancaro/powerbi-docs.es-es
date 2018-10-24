@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6cdb4d6684ec97786c7fd10da7d22515a24e9dbc
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: ccb878da983aad493efb2cfdfb0d09366964a157
+ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34250063"
+ms.lasthandoff: 09/21/2018
+ms.locfileid: "46545438"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Conexión a Windows Dev Center con Power BI
 Explore y supervise los datos de análisis de aplicaciones del Centro de desarrollo de Windows en Power BI con el paquete de contenido para Power BI. Los datos se actualizarán automáticamente una vez al día.
@@ -48,10 +48,10 @@ Conéctese al [paquete de contenido del Centro de desarrollo de Windows ](https:
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](power-bi-q-and-a.md), en la parte superior del panel.
+* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
 * [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente.
-* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o actualizarlo a petición mediante **Actualizar ahora**.
+* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
+* Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="whats-included"></a>Qué se incluye
 El paquete de contenido del Centro de desarrollo para Power BI incluye datos de análisis de su aplicación y así como de compras en la aplicación, clasificaciones, opiniones y mantenimiento de la aplicación. Los datos se limitan a los tres últimos meses. y es un intervalo móvil, por lo que las fechas incluidas se actualizarán a medida que se actualice el conjunto de datos.

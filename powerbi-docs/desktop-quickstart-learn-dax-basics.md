@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: ca2f9e3393df2fd205474983ab9868aa9401ed9d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 474fe7eee6dbcb296a7eaec6057ecfa56cd3f144
+ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329210"
+ms.lasthandoff: 09/27/2018
+ms.locfileid: "47417128"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Aspectos básicos de DAX en Power BI Desktop
 Este artículo está destinado a usuarios sin experiencia en Power BI Desktop. Su objetivo es proporcionar una introducción rápida y fácil al uso de expresiones de análisis de datos (DAX) para solucionar una variedad de problemas de análisis de datos y cálculo básico. Abordaremos información conceptual, una serie de tareas que puede completar y algunos cuestionarios para probar lo que ha aprendido. Al finalizar este artículo, debe tener una buena comprensión de los conceptos fundamentales más importantes en DAX.
@@ -87,25 +87,23 @@ Para completar esta tarea, deberá abrir el archivo de muestra de ventas de Cont
     
 2. En la barra de fórmulas, reemplace **Medida** con un nuevo nombre de medida: **Ventas del trimestre anterior**.
     
-3. Después del signo igual, escriba **SUM** seguido de un paréntesis de apertura.
-    
-   En su lugar de escribir un nombre de columna para sumar inmediatamente, vamos a escribir a otra función, para *filtrar* los datos que deseamos sumar.
-    
-4. Entre paréntesis, escriba **CALCULATE**, seguido de un paréntesis de apertura.
-    
+3. Después del signo igual, escriba las primeras letras **CAL** y luego haga doble clic en la función que quiere usar. En esta fórmula, se quiere usar la función **CALCULATE**.
+
    Usará la función CALCULATE para filtrar los importes que deseamos sumar mediante un argumento que pasamos a la función CALCULATE. Esto es lo que se conoce como funciones anidadas. La función CALCULATE tiene al menos dos argumentos. El primero es la expresión que se evalúa; el segundo, un filtro.
    
-5. Entre los paréntesis **()** de la función **CALCULATE** escriba **Sales[SalesAmount]**. Este es el primer argumento de expresión de nuestra función CALCULATE.
+4. Después del paréntesis de apertura **(** para la función **CALCULATE**, escriba **SUM** seguido por otro paréntesis de apertura **(**. Ahora hay que pasar un argumento a la función SUM.
+
+5. Comience a escribir **Sal** y luego seleccione **Sales[SalesAmount]**, seguido de un paréntesis de cierre **)**. Este es el primer argumento de expresión de nuestra función CALCULATE.
     
-6. Escriba una coma (**,**) para especificar el primer filtro y, después, escriba **PREVIOUSQUARTER** seguido de un paréntesis de apertura.
+6. Escriba una coma (**,**) seguida de un espacio para especificar el primer filtro y luego escriba **PREVIOUSQUARTER**. Este será el filtro.
     
-   Utilizará la función de inteligencia de tiempo PREVIOUSQUARTER para filtrar los resultados de la suma para el trimestre anterior.
+   Se usará la función de inteligencia de tiempo PREVIOUSQUARTER para filtrar los resultados de SUM por el trimestre anterior.
     
-7. Entre los paréntesis **()** para la función PREVIOUSQUARTER, escriba **Calendar[DateKey]**.
+7. Después del paréntesis de apertura **(** para la función PREVIOUSQUARTER, escriba **Calendar[DateKey]**.
     
-   La función PREVIOUSQUARTER tiene un argumento, una columna que contiene un intervalo de fechas contiguas.
+   La función PREVIOUSQUARTER tiene un argumento, una columna que contiene un intervalo de fechas contiguas. En este caso, es la columna DateKey de la tabla Calendar.
     
-8. Asegúrese de que los dos argumentos que se pasan a la función PREVIOUSQUARTER y a la función CALCULATE se cierran con dos paréntesis de cierre **))**.
+8. Asegúrese de que los dos argumentos que se pasan a la función PREVIOUSQUARTER y la función CALCULATE se cierren con dos paréntesis de cierre **))**.
     
    La fórmula debe tener el siguiente aspecto:
     
