@@ -1,68 +1,35 @@
 ---
-title: Cambiar cómo interactúan los objetos visuales en un informe
-description: Documentación sobre cómo establecer interacciones de los objetos visuales en un informe de Microsoft Power BI y en un informe de Power BI Desktop.
+title: Descripción de cómo interactúan los objetos visuales en un informe (para consumidores de informes)
+description: Documentación para los usuarios finales de Power BI que explica cómo interactúan los objetos visuales en una página de informe.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a70d5ac5265f88a6e407815ecb0fb6ac23e24416
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: c87f99b768f52fe7f6b565c47ed7e434b167a046
+ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565438"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49112070"
 ---
 # <a name="visualization-interactions-in-a-power-bi-report"></a>Interacciones de visualización en un informe de Power BI
-Si tiene permisos de edición de un informe, puede usar las **Interacciones de objetos visuales** para cambiar cómo afectan las visualizaciones de una página de informe entre sí. 
+Una de las grandes características de Power BI es la manera en que están conectados entre sí todos los objetos visuales en la página de un informe. Si selecciona un punto de datos en uno de los objetos visuales, todos los demás objetos visuales de la página que contienen ese dato cambian para adaptarse a la selección. 
 
-De forma predeterminada, las visualizaciones en una página de informe pueden usarse para el filtro cruzado y el resaltado cruzado de las otras visualizaciones en la página.
-Por ejemplo, la selección de un estado en una visualización de mapa resalta el gráfico de columnas y filtra el gráfico de líneas para mostrar solo los datos aplicables a ese estado.
-Consulte [Filtros y resaltado en informes de Power BI](../power-bi-reports-filters-and-highlighting.md). Si tiene una visualización compatible con la [obtención de detalles](end-user-drill.md), de manera predeterminada, la obtención de detalles de una visualización no afecta a otras visualizaciones de la página de informe. Estos comportamientos se pueden reemplazar, así como se pueden establecer interacciones, en cada visualización, individualmente.
+![vídeo de interacción de objetos visuales](media/end-user-interactions/interactions.gif)
 
-En este artículo se le enseña a usar **interacciones de objetos visuales** en el servicio Power BI [Vista de edición](../service-interact-with-a-report-in-editing-view.md) y en Power BI Desktop. Si alguien ha compartido un informe con usted, no podrá cambiar la configuración de interacciones de objetos visuales.
+De forma predeterminada, las visualizaciones en una página de informe pueden usarse para el filtro cruzado, el resaltado cruzado y la profundización de las otras visualizaciones en la página. Por ejemplo, la selección de un estado en una visualización de mapa puede resaltar el gráfico de columnas y filtrar el gráfico de líneas para mostrar solo los datos aplicables a ese estado.
 
+Consulte [Filtros y resaltado en informes de Power BI](../power-bi-reports-filters-and-highlighting.md). Si tiene una visualización compatible con la [obtención de detalles](../power-bi-visualization-drill-down.md), de manera predeterminada, la obtención de detalles de una visualización no afecta a otras visualizaciones de la página de informe. 
+
+El modo exacto en que interactúan los objetos visuales de una página se establece mediante el informe *diseñador*. Los diseñadores tienen opciones para activar y desactivar las interacciones de objetos visuales y para cambiar el valor predeterminado del filtrado cruzado, el resaltado cruzado y la profundización en detalles.
+  
 > [!NOTE]
 > Los términos *filtro cruzado* y *resaltado cruzado* se usan para distinguir el comportamiento que aquí se describe de lo que sucede cuando se usa el panel **Filtros** para filtrar y resaltar visualizaciones.  
-> 
-> 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N_xYsCbyHPw?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
-
-1. Seleccione una visualización para activarla.  
-2. Muestre las opciones de **Interacciones de objetos visuales**.
-    - En el servicio Power BI, seleccione el menú desplegable de la barra de menús de informes.
-
-       ![Menú desplegable de interacciones de un objeto visual](./media/end-user-interactions/power-bi-visual-interaction.png)
-
-    - En Escritorio, seleccione **Formato > Interacciones**.
-
-        ![Selección de Formato e Interacciones](./media/end-user-interactions/pbi-visual-interaction-desktop.png)
-
-3. Para activar los controles de interacción de objetos visuales, seleccione **Editar interacciones**. Power BI agrega iconos de filtro cruzado y de resaltado cruzado a todas las demás visualizaciones de la página de informe.
-   
-    ![Informe con interacciones de un objeto visual activadas](./media/end-user-interactions/power-bi-icons-on.png)
-3. Determine el impacto que tendrá la visualización seleccionada en las otras.  Opcionalmente, repita el proceso para todas las otras visualizaciones en la página del informe.
-   
-   * Si debe aplicar un filtro cruzado a la visualización, seleccione el icono de **filtro** ![icono de filtro](./media/end-user-interactions/pbi-filter-icon-outlined.png).
-   * Si debe aplicar un resaltado cruzado a la visualización, seleccione el icono de **resaltado** ![icono de resaltado](./media/end-user-interactions/pbi-highlight-icon-outlined.png).
-   * Si no debe tener ningún impacto, seleccione el icono de **sin impacto** ![icono de sin impacto](./media/end-user-interactions/pbi-noimpact-icon-outlined.png).
-
-4. Para activar los controles de obtención de detalles, seleccione **Filtros de detalles en otros objetos visuales**.  Ahora, al explorar una visualización, las demás visualizaciones de la página de informes cambiarán para reflejar la selección de obtención de detalles actual. 
-
-   ![Vídeo de la activación de los controles de obtención de detalles](./media/end-user-interactions/drill2.gif)
 
 ### <a name="next-steps"></a>Pasos siguientes
-[Uso de filtros de informe](end-user-report-filter.md)
-
-[Filtrado y resaltado en informes](../power-bi-reports-filters-and-highlighting.md)
-
-[Power BI: Conceptos básicos](end-user-basic-concepts.md)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-
+[Uso de filtros de informe](../power-bi-how-to-report-filter.md)

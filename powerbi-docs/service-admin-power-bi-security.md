@@ -2,30 +2,30 @@
 title: Seguridad de Power BI
 description: Seguridad de Power BI. Cómo se relaciona Power BI con Azure Active Directory y otros servicios de Azure. Este tema también incluye un vínculo a las notas del producto para obtener información más detallada.
 author: davidiseminger
-manager: erikri
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/02/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Administration
-ms.openlocfilehash: ec8f1e40cac1c98bcfb5049d1fe8dd7397b616d6
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 6055a9c5e41f1745b088df93587d701393c0d495
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37598874"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336746"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 Para obtener una explicación detallada de la seguridad de Power BI, [descargue las notas del producto de seguridad de Power BI](http://go.microsoft.com/fwlink/?LinkId=829185):
 
 [![](media/service-admin-power-bi-security/pbi_security_01.png)](http://go.microsoft.com/fwlink/?LinkId=829185)
 
-El servicio de Power BI se basa en **Azure**, que es la plataforma y la infraestructura de informática en la nube de Microsoft. La arquitectura de servicio de Power BI se basa en dos clústeres: el front-end web (**WFE**) y el **back-end** . El clúster WFE es responsable de la conexión inicial y la autenticación en el servicio de Power BI y, una vez realizada la autenticación, el back-end controla todas las interacciones de usuario siguientes. Power BI usa Azure Active Directory (AAD) para almacenar y administrar identidades de usuario, y administra el almacenamiento de datos y metadatos con Azure Blob y Azure SQL Database, respectivamente.
+El servicio de Power BI se basa en **Azure**, que es la plataforma y la infraestructura de informática en la nube de Microsoft. La arquitectura de servicio de Power BI se basa en dos clústeres: el front-end web (**WFE**) y el **back-end**. El clúster WFE administra la conexión inicial y la autenticación en el servicio de Power BI y, una vez realizada la autenticación, el back-end controla todas las interacciones de usuario siguientes. Power BI usa Azure Active Directory (AAD) para almacenar y administrar identidades de usuario, y administra el almacenamiento de datos y metadatos con Azure Blob y Azure SQL Database, respectivamente.
 
 ## <a name="power-bi-architecture"></a>Arquitectura de Power BI
-Cada implementación de Power BI consta de dos clústeres: un front-end web (**WFE**) y un **back-end** .
+Cada implementación de Power BI consta de dos clústeres: un front-end web (**WFE**) y un **back-end**.
 
 El clúster **WFE** administra el proceso de autenticación y conexión inicial para Power BI, con AAD para autenticar clientes y proporcionar tokens para conexiones de clientes siguientes al servicio de Power BI. Power BI también usa el **Administrador de tráfico de Azure** para dirigir el tráfico de usuario al centro de datos más cercano, según el registro DNS del cliente que intenta conectarse, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa **Azure Content Delivery Network** (CDN) para distribuir eficazmente el contenido estático y los archivos necesarios a los usuarios en función de la región geográfica.
 
@@ -58,4 +58,14 @@ Para más información, visite el [Centro de confianza de Microsoft](https://www
 Como se describió anteriormente en este artículo, los servidores de Active Directory locales usan el inicio de sesión de un usuario en Power BI para realizar la asignación a UPN para las credenciales. Sin embargo, es **importante** tener en cuenta que los usuarios son responsables de los datos que comparten: si un usuario se conecta a orígenes de datos utilizando sus credenciales y, a continuación, comparte un informe (o panel o un conjunto de datos) basándose en los datos, los usuarios con los que se comparte el panel no se autentican con el origen de datos original y se les concederá acceso al informe.
 
 Una excepción son las conexiones a **SQL Server Analysis Services** mediante una **puerta de enlace de datos local**; los paneles se almacenan en caché en Power BI, pero el acceso a los conjuntos de datos o los informes subyacentes inicia la autenticación del usuario que intenta acceder al informe (o conjunto de datos) y solo se concede acceso si el usuario tiene credenciales suficientes para acceder a los datos. Para más información, consulte la página [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md).
+
+## <a name="enforcing-tls-version-usage"></a>Aplicación del uso de la versión TLS
+
+Los administradores de redes y TI pueden aplicar el requisito de utilizar la configuración de TLS (seguridad de la capa de transporte) actual para cualquier comunicación segura en su red. Windows proporciona compatibilidad para versiones de TLS a través de Microsoft Schannel Provider, como [se describe en el artículo sobre Schannel SSP de TLS](https://docs.microsoft.com/windows/desktop/SecAuthN/protocols-in-tls-ssl--schannel-ssp-).
+
+Esta aplicación puede realizarse estableciendo administrativamente las claves del Registro. La aplicación se describe en el artículo [Administración de conjuntos de cifrado y protocolos SSL/TLS de AD FS](https://docs.microsoft.com/windows-server/identity/ad-fs/operations/manage-ssl-protocols-in-ad-fs). 
+
+**Power BI Desktop** respeta la configuración de clave del Registro descrita en estos artículos y solo crea las conexiones que usan la versión de TLS permitida según esa configuración del Registro, cuando está presente.
+
+Para obtener más información acerca de cómo establecer estas claves del Registro, consulte el artículo [Configuración del registro de seguridad de la capa de transporte (TLS)](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).
 

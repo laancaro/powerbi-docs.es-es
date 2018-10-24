@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/31/2018
+ms.date: 10/02/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ddfe0c7ad116a74fa6887491ee41e544096de0f9
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: 49540dd491d02c6a6b474ff80690a75eecfd27db
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388856"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336999"
 ---
 # <a name="composite-models-in-power-bi-desktop-preview"></a>Modelos compuestos en Power BI Desktop (versión preliminar)
 
@@ -58,7 +58,7 @@ Al usar DirectQuery, con los **modelos compuestos** es posible crear un modelo d
 Por ejemplo, con los **modelos compuestos** es posible crear un modelo que combina datos de ventas de un almacenamiento de datos empresarial con los datos de destinos de ventas que se encuentran en una base de datos SQL Server departamental, junto con algunos datos importados desde una hoja de cálculo. Un modelo que combina datos de más de un origen de DirectQuery o que combina DirectQuery con datos importados se conoce como un *modelo compuesto*.
 
 > [!NOTE]
-> Si bien los modelos compuestos están en versión preliminar, no es posible publicarlos en el servicio Power BI. 
+> A partir de la versión de octubre de 2018 de **Power BI Desktop**, *puede* publicar modelos compuestos en el servicio Power BI. Para la actualización programada y la actualización del icono del panel, los modelos compuestos en el servicio Power BI se comportan de la misma manera que los modelos de importación. 
 
 Puede crear relaciones entre tablas como siempre lo ha hecho, incluso cuando esas tablas provienen de distintos orígenes, con estas restricciones: se debe definir que toda relación proveniente de distintos orígenes tiene una cardinalidad de **varios a varios**, independientemente de su cardinalidad real. De ese modo, el comportamiento de dichas relaciones es el mismo que el normal para las relaciones de **varios a varios**, tal como se describe en [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md). Tenga en cuenta que en el contexto de los modelos compuestos, todas las tablas importadas son efectivamente un solo origen, independientemente del real origen de datos subyacente desde donde se importan en realidad.   
 
@@ -164,12 +164,13 @@ Además, el uso de las relaciones de **varios a varios** significa que se deben 
 
 Existen algunas limitaciones para esta versión de los **modelos compuestos**.
 
-Los orígenes multidimensionales siguientes no se pueden usar con los **modelos compuestos**:
+Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar con los **modelos compuestos**:
 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
 * Conjuntos de datos de Power BI
+* Azure Analysis Services
 
 Al conectarse a esos orígenes multidimensionales mediante DirectQuery, no se puede conectar también a otro origen de DirectQuery ni combinar con los datos importados.
 

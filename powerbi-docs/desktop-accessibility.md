@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/24/2018
+ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f07b5174d031c79f4d8f232c49836b54d95621f1
-ms.sourcegitcommit: 7fb0b68203877ff01f29724f0d1761d023075445
+ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
+ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2018
-ms.locfileid: "39256041"
+ms.lasthandoff: 10/15/2018
+ms.locfileid: "49336884"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -61,6 +61,8 @@ Estas incorporaciones de accesibilidad se han creado para que los usuarios pueda
 ## <a name="tips-for-creating-accessible-reports"></a>Sugerencias para la creación de informes accesibles
 Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Desktop** que sean más accesibles.
 
+### <a name="general-tips-for-accessible-reports"></a>Sugerencias generales para la creación de informes accesibles
+
 * Para los objetos visuales de **línea**, **área** y **combinados**, al igual que para **Dispersión** y **Burbuja** active los marcadores y use una *forma de marcador* distinta para cada línea.
   
   * Para activar los *marcadores*, seleccione la sección **Formato** en el panel **Visualizaciones** y expanda la sección **Formas**; a continuación, desplácese hacia abajo para encontrar la opción de activación/desactivación de **Marcadores** y *actívela*.
@@ -80,6 +82,13 @@ Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Deskto
 * Incluya un título, etiquetas de eje y etiquetas de datos en todos los objetos visuales.
 * Use títulos significativos para todas las páginas del informe.
 * Si es posible, evite formas e imágenes decorativas en el informe, ya que se incluyen en el orden de tabulación de este. Si necesita incluir objetos decorativos en el informe, actualice el texto alternativo de este para indicar a los usuarios de lectores de pantalla que tienen uso decorativo.
+
+### <a name="arranging-items-in-field-buckets"></a>Organización de elementos en depósitos por Campo
+A partir de la versión de octubre de 2018 de **Power BI Desktop**, el depósito **Campos** es accesible con un teclado e interactúa con los lectores de pantalla. 
+
+Para mejorar el proceso de creación de informes con los lectores de pantalla, hay disponible un menú contextual para permitir el movimiento de los campos en el depósito hacia arriba o hacia abajo en la lista **Campos**, o el traslado del campo a otros depósitos, como **Leyenda**, **Valor** u otros.
+
+![El menú contextual de Campos también le permite mover los campos hacia arriba, hacia abajo o a otra área.](media/desktop-accessibility/accessibility_09.png)
 
 ## <a name="high-contrast-support-for-reports"></a>Compatibilidad con el contraste alto en los informes
 
