@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 08/16/2018
-ms.openlocfilehash: 111987fda4b0f841c0806dbdc454ac96ddb3c666
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.date: 10/01/2018
+ms.openlocfilehash: b701ce9921d055dfe124c5a419f02900b15a9f62
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908380"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641215"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -87,7 +87,7 @@ Insertar un informe en SharePoint Online no da a los usuarios permiso para ver e
 
 Hay dos formas de proporcionar acceso al informe dentro del servicio Power BI. Si usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, los usuarios aparecen como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. De este modo se asegura de que los usuarios puedan ver el contenido de ese grupo. Para más información, consulte [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md).
 
-Como alternativa, puede conceder a los usuarios acceso a un informe mediante los pasos siguientes.
+Como alternativa, puede conceder a los usuarios acceso a un informe siguiendo los pasos siguientes.
 
 1. Agregue un icono del informe a un panel.
 
@@ -147,6 +147,8 @@ Póngase en contacto con el propietario de la página de SharePoint Online para 
 * El elemento web de Power BI no está disponible en las [nubes soberanas](https://powerbi.microsoft.com/en-us/clouds/).
 
 * El clásico SharePoint Server no es compatible con este elemento web.
+
+* Los [filtros de URL](service-url-filters.md) no son compatibles con el elemento web de SPO.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

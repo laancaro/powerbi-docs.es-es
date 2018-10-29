@@ -1,21 +1,21 @@
 ---
-title: Iconos de paneles en el servicio Power BI
-description: Todo acerca de los iconos de paneles en Power BI. Se incluyen los iconos que se crean desde SQL Server Reporting Services (SSRS).
+title: Iconos de paneles en el servicio Power BI para consumidores
+description: Todo acerca de los iconos de paneles en Power BI para consumidores. Se incluyen los iconos que se crean desde SQL Server Reporting Services (SSRS).
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f0ff1d9a49e0566119df2c790ad618700c9a9ca3
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565461"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396483"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile/mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile/mobile-iphone-app-get-started.md).
@@ -23,58 +23,45 @@ Los paneles y los iconos de paneles son una característica del servicio Power B
 ## <a name="dashboard-tiles"></a>Los iconos de panel
 ![Panel de Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Un icono es una instantánea de sus datos, anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, un cuadro de Preguntas y respuestas, desde Excel, desde SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
+Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
-Además de anclarse, algunos iconos independientes pueden crearse directamente en el panel mediante [Agregar icono](../service-dashboard-add-widget.md). Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
+Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono**. Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
 
 ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](end-user-basic-concepts.md).
 
-> [!NOTE]
-> Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si ancló un gráfico de líneas desde un informe y luego cambió el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
-> 
-> 
-
-## <a name="pin-a-tile-from"></a>Anclar un icono desde...
-Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Los iconos se pueden anclar desde:
-
-* [Preguntas y respuestas de Power BI](../service-dashboard-pin-tile-from-q-and-a.md)
-* [Un informe](../service-dashboard-pin-tile-from-report.md)
-* [Otro panel](../service-pin-tile-to-another-dashboard.md)
-* [Un libro de Excel en OneDrive para la Empresa](../service-dashboard-pin-tile-from-excel.md)
-* [Power BI Publisher para Excel](../publisher-for-excel.md)
-* [Información rápida](end-user-insights.md)
-* [SSRS](https://msdn.microsoft.com/library/mt604784.aspx)
-
-Asimismo, los iconos independientes de imágenes, cuadros de texto, vídeos, datos de transmisión y contenido web se pueden crear directamente en el panel mediante [Agregar icono](../service-dashboard-add-widget.md).
-
-  ![Icono de Agregar icono](./media/end-user-tiles/add_widgetnew.png)
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interactuar con los iconos en un panel
-### <a name="move-and-resize-a-tile"></a>Mover un icono y cambiar su tamaño
-Capte un icono y [muévalo por el panel](../service-dashboard-edit-tile.md). Mantenga el puntero sobre el controlador ![controlador](./media/end-user-tiles/resize-handle.jpg) y selecciónelo para cambiar el tamaño del icono.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Mantener el puntero sobre un icono para cambiar la apariencia y comportamiento
 1. Mantenga el puntero sobre el icono para que se muestren los puntos suspensivos.
    
     ![Icono de botón de puntos suspensivos](./media/end-user-tiles/ellipses_new.png)
-2. Seleccione los puntos suspensivos (...) para abrir el menú de acciones del icono.
+2. Seleccione los puntos suspensivos (...) para abrir el menú de acciones del icono. Las opciones disponibles varían según el tipo de objeto visual y el método utilizado para crear el icono. Estos son algunos ejemplos de lo que puede ver.
+
+    - Icono creado con Preguntas y respuestas
    
-    ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-tile-menu.png)
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu1.png)
+
+    - Icono creado a partir de un libro
+   
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu2.png)
+
+    - Icono creado a partir de un informe
+   
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu3.png)
    
     Desde aquí, puede:
    
    * [Abrir el informe que se ha usado para crear este icono ](end-user-reports.md) ![icono de informe](./media/end-user-tiles/chart-icon.jpg)  
    
-   * [Abrir la hoja de cálculo que se ha usado para crear este icono ](end-user-reports.md) ![icono de hoja de cálculo](./media/end-user-tiles/power-bi-open-worksheet.png)  
-     
-    * [Ver en modo de enfoque](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Exportar los datos usados en el icono](end-user-export-data.md) ![icono de exportación de datos](./media/end-user-tiles/export-icon.png)
-     * [Edición del título y el subtítulo, incorporación de un hipervínculo](../service-dashboard-edit-tile.md) ![Icono de edición](./media/end-user-tiles/pencil-icon.jpg)
+   * [Abrir la pregunta de Preguntas y respuestas que se ha usado para crear el icono ](end-user-reports.md) ![icono de Preguntas y respuestas](./media/end-user-tiles/qna-icon.png)  
+   
+
+   * [Abrir el libro que se ha usado para crear este icono ](end-user-reports.md) ![icono de hoja de cálculo](./media/end-user-tiles/power-bi-open-worksheet.png)  
+    * [Ver el icono en modo de enfoque](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
      * [Ejecutar información ](end-user-insights.md) ![icono de información](./media/end-user-tiles/power-bi-insights.png)
-     * [Anclar el icono a otro panel](../service-pin-tile-to-another-dashboard.md)
-       ![icono de anclaje](./media/end-user-tiles/pin-icon.jpg)
-     * [Quitar el icono](../service-dashboard-edit-tile.md)
-     ![icono de eliminación](./media/end-user-tiles/trash-icon.png)
+    * [Agregar un comentario e iniciar una discusión](end-user-comment.md) ![icono de comentario](./media/end-user-tiles/comment-icons.png)
+
 3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.
 
 ### <a name="select-click-a-tile"></a>Seleccionar (hacer clic en) un icono
@@ -91,20 +78,9 @@ Al seleccionar un icono, lo que sucede después depende de cómo se creó el ico
 * En el caso de los iconos creados directamente en el panel con **Agregar icono**, si se estableció un hipervínculo personalizado, al seleccionar el título, el subtítulo o el icono se abrirá esa dirección URL.  De lo contrario, y de manera predeterminada, seleccionar uno de estos iconos creados directamente en el panel para una imagen, un código web o un cuadro de texto no generará ninguna acción.
 * Si no tiene permiso para el informe de SSRS y selecciona un icono creado desde SSRS, aparecerá una página indicándole que no tiene acceso (rsAccessDenied).
 * Si no tiene acceso a la red donde se encuentra el servidor de SSRS y selecciona un icono creado a partir de SSRS, aparecerá una página indicándole que no se puede encontrar el servidor (HTTP 404). El dispositivo debe tener acceso de red al servidor de informes para ver el informe.
-* Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si ancló un gráfico de líneas desde un informe y luego cambió el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
+* Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si el *diseñador* ha anclado un gráfico de líneas desde un informe y posteriormente ha cambiado el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Crear una tarjeta (icono grande de número) para el panel](../visuals/power-bi-visualization-card.md)
-
-[Paneles en Power BI](end-user-dashboards.md)  
-
 [Actualización de datos](../refresh-data.md)
 
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)
-
-[Exportar un icono a PowerPoint](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

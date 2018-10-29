@@ -8,19 +8,19 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/02/2018
+ms.date: 10/18/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 41bd4148845754d1b714060e538f559b310969d8
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112162"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473874"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
-Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo al **servicio Power BI**. Tal y como se ha mencionado anteriormente, puede que una persona de su equipo dedique todo su tiempo a **Power BI Desktop** para combinar datos y elaborar informes para otros usuarios, mientras que otro lo dedique plenamente a usar el servicio Power BI, sea para ver el contenido creado por otros usuarios e interactuar con él (experiencia de **consumo**), sea para obtener datos y crear sus propios informes y paneles (experiencia de **creación**). En este inicio rápido importaremos datos de ejemplo y los usaremos para obtener información básica sobre el servicio Power BI. 
+Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo al **servicio Power BI**. Tal y como se ha mencionado anteriormente, puede que una persona de su equipo dedique todo su tiempo a **Power BI Desktop** para combinar datos y elaborar informes para otros usuarios, mientras que usted, por otro lado, se dedique plenamente a usar el servicio Power BI, para ver el contenido creado por otros usuarios e interactuar con él (experiencia de **consumo**). En este inicio rápido importaremos datos de ejemplo y los usaremos para obtener información básica sobre el servicio Power BI. 
  
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -48,9 +48,11 @@ Vea cómo Amanda le presenta la experiencia de navegación del servicio Power BI
 
 
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver el contenido (paneles, informes, libros, conjuntos de datos, áreas de trabajo, aplicaciones)
-Para comenzar, vamos a examinar cómo se organiza el contenido básico (paneles, informes, conjuntos de datos, libros). El contenido se muestra dentro del contexto de un área de trabajo. En este momento, solo hay un área de trabajo que se llama **Mi área de trabajo**. En Mi área de trabajo se almacena todo el contenido del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Puede compartir el contenido de Mi área de trabajo con colegas. En Mi área de trabajo, el contenido está organizado en cuatro pestañas: Paneles, Informes, Libros y Conjuntos de datos.
+Para comenzar, vamos a examinar cómo se organiza el contenido básico (paneles, informes, conjuntos de datos, libros). El contenido se muestra dentro del contexto de un área de trabajo. En este momento, solo hay un área de trabajo que se llama **Mi área de trabajo**. Normalmente, los consumidores no necesitan ni usan otras áreas de trabajo. En Mi área de trabajo se almacena todo el contenido del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Mi área de trabajo es donde se guarda el ejemplo de análisis de minoristas que acaba de descargar. 
 
-![Pantalla Mi área de trabajo](./media/end-user-experience/power-bi-my-workspace2.png)
+En Mi área de trabajo, el contenido está organizado en cuatro pestañas: Paneles, Informes, Libros y Conjuntos de datos.
+
+![Pantalla Mi área de trabajo](./media/end-user-experience/power-bi-my-workspace.png)
 
 Seleccione un área de trabajo en el panel de navegación izquierdo y las pestañas correspondientes al contenido asociado (paneles, informes, libros y conjuntos de datos) rellenarán el lienzo de Power BI a la derecha.
 
@@ -58,7 +60,7 @@ Si es un usuario nuevo, solo verá un área de trabajo, **Mi área de trabajo**.
 
 ![Breve vídeo de área de trabajo](./media/end-user-experience/nav.gif)
 
-Dentro de esas pestañas (también conocidas como *vistas de contenido*), verá información sobre el contenido, así como las acciones que puede realizar en relación con ese contenido.  Por ejemplo, en la pestaña Paneles puede, entre otras muchas cosas, abrir un panel, compartir, eliminar, buscar, crear contenido y ordenar.
+Dentro de esas pestañas (también conocidas como *vistas de contenido*), verá información sobre el contenido, así como las acciones que puede realizar en relación con ese contenido.  Por ejemplo, en la pestaña Paneles puede, entre otras muchas cosas, abrir un panel, buscar y ordenar.
 
 ![Pestaña Paneles](./media/end-user-experience/power-bi-dashboard-tab.png)
 
@@ -83,7 +85,7 @@ Abra el panel; para ello, seleccione el nombre correspondiente.
    
     Por ahora tenemos uno solo favorito. Los favoritos pueden ser paneles, informes o aplicaciones.  
 
-1. Otra forma para marcar un panel o un informe como favorito es desde la pestaña de área de trabajo **Paneles** o **Informes**.  Abra la pestaña **Informes** y seleccione el icono de estrella que hay a la izquierda del nombre del informe.
+1. Otra forma para marcar un panel o un informe como favorito es desde la pestaña de vista de contenido **Paneles** o **Informes**.  Abra la pestaña **Informes** y seleccione el icono de estrella que hay a la izquierda del nombre del informe.
    
    ![Marcado como favorito](./media/end-user-experience/power-bi-report-favorite.png)
 
@@ -108,7 +110,7 @@ Para obtener más información, consulte [Favoritos](end-user-favorite.md).
 
     En el menú flotante, seleccione contenido para abrirlo.
 
-2. Hay veces en que no queremos abrir contenido reciente, sino ver información o realizar otra acción, como compartir algo, ejecutar Insights o exportar a Excel. En estos casos, abra el panel **Recientes**; para ello, seleccione **Recientes** o el icono correspondiente en el panel de navegación izquierdo. En caso de tener más de un área de trabajo, esta lista puede incluir contenido de todas las áreas de trabajo.
+2. Hay veces en que no queremos simplemente abrir contenido reciente, sino ver información o realizar otra acción, como ver Insights o exportar a Excel. En estos casos, abra el panel **Recientes**; para ello, seleccione **Recientes** o el icono correspondiente en el panel de navegación izquierdo. En caso de tener más de un área de trabajo, esta lista puede incluir contenido de todas las áreas de trabajo.
 
    ![Panel de recientes](./media/end-user-experience/power-bi-recent.png)
 
@@ -119,13 +121,15 @@ La vista de contenido facilita la búsqueda, el filtrado y la ordenación del co
 
 Dado que solo tenemos un ejemplo, la búsqueda y la ordenación no son necesarias.  En cambio, si tuviéramos listas largas de paneles, informes, libros y conjuntos de datos, veríamos que la búsqueda y la ordenación son extremadamente útiles.
 
-![Búsqueda de un panel](./media/end-user-experience/power-bi-search-sort.png)
+![búsqueda de un informe](./media/end-user-experience/power-bi-search.png)
 
-También puede ordenar el contenido por nombre o propietario.  
+También puede ordenar el contenido por nombre o propietario. Tenga en cuenta la flecha hacia arriba a la derecha del **Nombre**. Actualmente estamos ordenando 83 elementos alfabéticamente por nombre, de modo ascendente. Para cambiar el criterio de ordenación a descendente, seleccione **Nombre**. La flecha hacia arriba cambia a una flecha hacia abajo.
 
-![Orden de contenido](./media/end-user-experience/power-bi-sort.png)
+![Orden de contenido](./media/end-user-experience/power-bi-sort-new.png)
 
-Para más información, consulte [Navegación en Power BI: buscar, ordenar y filtrar](end-user-search-sort.md)
+No todas las columnas se pueden ordenar. Mantenga el puntero sobre los encabezados de columna para detectar los que pueden ordenarse.
+
+Para obtener más información, consulte [Navegación en Power BI: buscar y ordenar](end-user-search-sort.md)
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos
 Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de muestra de ejemplos de análisis de minoristas, el informe y el conjunto de datos.
@@ -143,4 +147,4 @@ Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de 
 ## <a name="next-steps"></a>Pasos siguientes
 
 > [!div class="nextstepaction"]
-> [Vista de lectura y vista de edición de informes del servicio Power BI](end-user-reading-view.md)
+> [Vista de lectura en el servicio Power BI](end-user-reading-view.md)

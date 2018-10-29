@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 770b2796eb8f29cadfe8371cb2baef12cec7c0e8
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 0d07953fb4f9474f929c108df5b76acb61c7df7c
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48910300"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435346"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -129,7 +129,7 @@ Al eliminarse una aplicación de la página con la lista de aplicaciones, no se 
 
    ![Selección de aplicaciones](media/service-delete/power-bi-delete-app.png)
 
-   Si quita una aplicación accidentalmente, tiene varias opciones para recuperarla.  Puede pedir al creador de la aplicación que la vuelva a enviar, encontrar el mensaje original con el vínculo a la aplicación, consultar su [centro de notificaciones](service-notification-center.md) para ver si sigue apareciendo la notificación para esa aplicación o mirar en [AppSource](service-install-use-apps.md) para su organización.
+   Si quita una aplicación accidentalmente, tiene varias opciones para recuperarla.  Puede pedir al creador de la aplicación que la vuelva a enviar, encontrar el mensaje original con el vínculo a la aplicación, consultar su [centro de notificaciones](service-notification-center.md) para ver si sigue apareciendo la notificación para esa aplicación o mirar en [AppSource](consumer/end-user-apps.md) para su organización.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 En este artículo se trata cómo eliminar los principales bloques de creación del servicio Power BI. Pero hay más cosas que puede eliminar en Power BI.  

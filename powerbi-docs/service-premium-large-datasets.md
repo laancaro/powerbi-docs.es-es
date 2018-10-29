@@ -7,38 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/27/2018
+ms.date: 10/18/2018
 ms.author: jocaplan
 LocalizationGroup: Premium
-ms.openlocfilehash: fa05fd6808ebe78d5d17e2ad3d93fbcf22f7d3c9
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 416f022ee3c413c69650e6f1736cc94edcd58f13
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298605"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641261"
 ---
 # <a name="power-bi-premium-support-for-large-datasets"></a>Compatibilidad de Power BI Premium para grandes conjuntos de datos
 
-Power BI Premium admite cargas de archivos de Power BI Desktop (.pbix) de hasta 10 GB de tamaño. Una vez que se carga, un conjunto de datos se puede actualizar hasta un tamaño de 12 GB. Para utilizar un conjunto de datos grande, publíquelo en un área de trabajo asignada a la capacidad Premium.
- 
-## <a name="best-practices"></a>Procedimientos recomendados
+Power BI Premium admite cargas de archivos de Power BI Desktop (.pbix) de hasta 10 GB de tamaño. Una vez que se carga, un conjunto de datos se puede actualizar hasta un tamaño de 12 GB. Para utilizar un conjunto de datos grande, publíquelo en un área de trabajo asignada a la capacidad Premium. En este artículo se describen consideraciones y procedimientos recomendados para trabajar con grandes conjuntos de datos.
 
-En esta sección, se describen los procedimientos recomendados para trabajar con grandes conjuntos de datos.
-
-**Los modelos grandes pueden hacer un uso muy intensivo de los recursos** de su capacidad; se recomienda al menos una SKU P1 para cualquier modelo mayor de 1 GB. La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix:
-
+**Los modelos grandes pueden consumir muchos recursos** de su capacidad. Se recomienda al menos una SKU P1 para cualquier modelo superior a 1 GB. La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix:
 
    |SKU  |Tamaño de .pbix   |
    |---------|---------|
    |P1    | < 3 GB        |
    |P2    | < 6 GB        |
-   |P3    | hasta 10 GB   |
-
-
+   |P3, P4, P5    | hasta 10 GB |
 
 **Los archivos .pbix representan datos en un estado muy comprimido**. Los datos probablemente se expandirán varias veces al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
 
-**La actualización programada de conjuntos de datos grandes puede tardar mucho tiempo** y hacer un uso muy intensivo de los recursos. Por lo tanto, no programe demasiadas actualizaciones superpuestas. Observe también que el tiempo de espera para los trabajos de actualización programada se ha duplicado a cuatro horas para todos los conjuntos de datos de esta capacidad.
+**La actualización programada de conjuntos de datos grandes puede tardar mucho tiempo** y hacer un uso muy intensivo de los recursos. Por lo tanto, no programe demasiadas actualizaciones superpuestas. Observe también que el tiempo de espera para los trabajos de actualización programada se ha duplicado a cuatro horas para todos los conjuntos de datos de esta capacidad. Se recomienda la [actualización incremental](service-premium-incremental-refresh.md), ya que es más rápida y fiable y consume menos recursos.
 
 **La carga inicial de informes de grandes conjuntos de datos puede tardar mucho tiempo** si ha pasado un tiempo desde la última vez que se utilizó el conjunto de datos, porque el modelo se debe cargar en la memoria de su capacidad Premium. Una barra de carga para los informes de carga larga muestra el progreso de carga.
 
@@ -46,11 +39,11 @@ En esta sección, se describen los procedimientos recomendados para trabajar con
 
 **Aunque las restricciones de memoria y tiempo por consulta son mucho mayores en la capacidad Premium**, es muy recomendable utilizar filtros y segmentaciones para que los objetos visuales muestren únicamente lo necesario.
 
-## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI Premium?](service-premium.md)  
-[Notas de la versión de Power BI Premium](service-premium-release-notes.md)  
-[Notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
-[Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy)  
-[Activación de la extensión de la versión de evaluación de Power BI Pro](service-extended-pro-trial.md)  
+**Pasos siguientes**
+
+[¿Qué es Power BI Premium?](service-premium.md)
+[Notas de la versión de Power BI Premium](service-premium-release-notes.md)
+[Notas del producto Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
+[Notas del producto: Planning a Power BI Enterprise Deployment (Planeación de una implementación de Power BI Enterprise)](https://aka.ms/pbienterprisedeploy)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -8,15 +8,15 @@ featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: d23e168f6192629ce9dd945e29691dcf40ae1427
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 66956a38a4f2076a01cf224bbef3a20490915e9b
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565415"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473713"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Paneles destacados en el servicio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creación de un panel destacado
@@ -41,7 +41,7 @@ Observe cómo Amanda crea un panel destacado y, luego, siga las instrucciones qu
 
 
 1. Abra el panel que desee establecer como *destacado*. 
-2. En la barra de navegación superior, verá **Establecer como destacado** o simplemente el icono de destacado ![icono de destacado](./media/end-user-featured/power-bi-featured-icon.png). Seleccione uno de ellos.
+2. En la barra de menús superior, verá **Establecer como destacado** o simplemente el icono de destacado ![icono de destacado](./media/end-user-featured/power-bi-featured-icon.png). Seleccione uno de ellos.
    
     ![Icono de Establecer como destacado](./media/end-user-featured/power-bi-set-as-featured.png)
 3. Confirme la selección.

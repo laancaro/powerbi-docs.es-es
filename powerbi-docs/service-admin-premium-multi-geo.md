@@ -1,21 +1,21 @@
 ---
 title: Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
 description: Obtenga información sobre cómo puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/31/2018
+ms.date: 10/21/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 135217acbe6289edb73c39035f58df8babf32566
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300193"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641681"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
 
@@ -40,7 +40,7 @@ Multi-Geo ahora está también disponible en Power BI Embedded. Puede encontrar 
 Para las capacidades nuevas, habilite Multi-Geo al seleccionar una región distinta de la región predeterminada en la lista desplegable.  Cada capacidad muestra la región donde está ubicada actualmente, como **Centro-oeste de EE. UU**.
 
 ![Tamaño de capacidad: seleccione una región. Multi-Geo de Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-capacity-size.png)
-  
+
 Después de crear una capacidad, esta permanece en esa región y todas las áreas de trabajo creadas almacenarán su contenido en esa región. Puede migrar las áreas de trabajo desde una región a otra a través de la lista desplegable en la pantalla de configuración del área de trabajo.
 
 ![Edición del área de trabajo: elija una capacidad disponible. Multi-Geo de Power BI](media/service-admin-premium-multi-geo/power-bi-multi-geo-edit-workspace.png)
@@ -91,11 +91,8 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
 - Confirme que cualquier movimiento que inició entre regiones cumple con todos los requisitos de cumplimiento corporativos y gubernamentales antes de iniciar la transferencia de datos.
-
 - Una consulta en caché almacenada en una región remota permanece en esa región en reposo. Sin embargo, otros datos en tránsito pueden ir y venir entre distintas geografías.
-
 - Al mover datos de una región a otra en un entorno de Multi-Geo, los datos de origen pueden permanecer en la región desde donde se movieron los datos durante hasta 30 días. Durante ese período, los usuarios finales no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
-
 - En términos generales, Multi-Geo no genera un mejor rendimiento. La carga de informes y paneles sigue implicando solicitudes de metadatos a la región principal.
 
 ## <a name="next-steps"></a>Pasos siguientes

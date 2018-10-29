@@ -7,81 +7,76 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 23f7546ce77f9062809e65be24517f74b89fe8a2
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565967"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396368"
 ---
-# <a name="qa-in-power-bi-service-and-power-bi-desktop"></a>Preguntas y respuestas en el servicio Power BI y Power BI Desktop
+# <a name="qa-for-power-bi-consumers"></a>Preguntas y respuestas para **consumidores** de Power BI
 ## <a name="what-is-qa"></a>¿Qué son las preguntas y respuestas?
-A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural. Por ejemplo, "¿Cuáles fueron las ventas totales del año pasado?"  Use Preguntas y respuestas para explorar los datos a través de las capacidades de lenguaje natural e intuitivo y reciba respuestas en forma de gráficos. Preguntas y respuestas es diferente de un motor de búsqueda, ya que solamente proporciona resultados sobre los datos de Power BI.
+A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural. Por ejemplo, "¿Cuáles fueron las ventas totales del año pasado?"  
+Use Preguntas y respuestas para explorar los datos a través de las capacidades de lenguaje natural e intuitivo y reciba respuestas en forma de gráficos. Preguntas y respuestas es diferente de un motor de búsqueda, ya que solamente proporciona resultados sobre los datos de Power BI.
 
-Este artículo es el punto de partida para todos los componentes de Preguntas y respuestas. Seleccione un vínculo más abajo para saber cómo funciona Preguntas y respuestas en el servicio Power BI (paneles e informes), Power BI Desktop (informes), Power BI Embedded y Power BI Mobile.  
+**Preguntas y respuestas de Power BI** solo permite responder a las consultas expresadas en lenguaje natural efectuadas en inglés. Hay una vista previa disponible para idioma español que puede habilitar el administrador de Power BI.
 
-> [!NOTE]
-> **Preguntas y respuestas de Power BI** solo permite responder a las consultas expresadas en lenguaje natural efectuadas en inglés. También puede probar una característica de versión preliminar para las preguntas realizadas en español. En **Power BI Desktop**, vaya a **Archivo**, **Opciones y configuración**, **Opciones** y busque la pestaña **Características de versión preliminar**. Marque la casilla **Español disponible para Preguntas y respuestas**.  
+**Preguntas y respuestas de Power BI** está disponible con una licencia Pro o Premium. 
 >
->
 
-![](media/end-user-q-and-a/pbi_qa_boxsalessqft.png)
+![gráfico de rectángulos creado de preguntas y respuestas](media/end-user-q-and-a/power-bi-qna.png)
 
 La formulación de la pregunta es solo el principio.  Diviértase mientras recorre sus datos, perfecciona o amplía su pregunta, descubre valiosa información nueva, profundice al máximo en los detalles u obtenga una visión más amplia. Se sentirá encantado con la información y los descubrimientos realizados.
 
 La experiencia es verdaderamente interactiva... ¡y rápida! Con la tecnología del almacenamiento en memoria, la respuesta es casi instantánea.
 
-##  <a name="qa-for-consumers"></a>Preguntas y respuestas para los *consumidores*
-Cuando algún compañero comparta un panel con usted, encontrará el cuadro de pregunta de Preguntas y respuestas en el panel en el servicio Power BI (app.powerbi.com), en la parte inferior del panel en Power BI Mobile y sobre la visualización en Power BI Embedded. A menos que el propietario le haya concedido permisos de edición, podrá usar Preguntas y respuestas para explorar los datos, pero no podrá guardar las visualizaciones creadas con Preguntas y respuestas.
+## <a name="where-can-i-use-qa"></a>¿Dónde se pueden usar Preguntas y respuestas?
+Encontrará Preguntas y respuestas en los paneles del servicio Power BI, en la parte inferior del panel en Power BI Mobile y sobre la visualización en Power BI Embedded. A menos que el diseñador le haya concedido permisos de edición, podrá usar Preguntas y respuestas para explorar los datos, pero no podrá guardar las visualizaciones creadas con Preguntas y respuestas.
 
-![](media/end-user-q-and-a/powerbi-qna.png)
-
-## <a name="qa-for-creators"></a>Preguntas y respuestas para los *creadores*
-Si es un *creador* de informes de Power BI o tiene permisos de edición para un conjunto de datos, encontrará el cuadro de pregunta de Preguntas y respuestas en el panel del servicio Power BI y en cada página del informe en el servicio Power BI y Power BI Desktop. Cualquier visualización creada con Preguntas y respuestas puede guardarse en un panel y también guardarse en un informe.
-
-![](media/end-user-q-and-a/power-bi-desktop.png)
-
-Además de usar Preguntas y respuestas para explorar los datos, los creadores y los propietarios del conjunto de datos pueden mejorar la experiencia de Preguntas y respuestas para los consumidores mediante la [modificación de los conjuntos de datos](../service-prepare-data-for-q-and-a.md), incorporando [preguntas destacadas](../service-q-and-a-create-featured-questions.md) y mediante la [habilitación y deshabilitación de Preguntas y respuestas ](end-user-q-and-a-direct-query.md) para los conjuntos de datos de conexiones dinámicas locales. En [escenarios insertados](../developer/qanda.md), los desarrolladores pueden elegir entre 2 modos: **interactivo** y **solo salida**.
+![cuadro de preguntas](media/end-user-q-and-a/powerbi-qna.png)
 
 ## <a name="how-does-qa-know-how-to-answer-questions"></a>¿Cómo se responden preguntas en Preguntas y respuestas?
-### <a name="which-datasets-does-qa-use"></a>¿Qué conjuntos de datos usa Preguntas y respuestas?
-¿Cómo se responden preguntas específicas de datos en Preguntas y respuestas? Las respuestas se basan en los nombres de tablas, columnas y campos calculados en el conjunto de datos subyacente. Por esto es tan importante como se llaman las cosas.
+Preguntas y respuestas busca respuestas en todos los conjuntos de datos asociados con el panel. Si un conjunto de datos tiene un icono en el panel, Preguntas y respuestas buscará las respuestas en ese conjunto de datos. 
 
-Por ejemplo, supongamos que tiene una tabla de Excel denominada "Ventas", con columnas tituladas "Producto", "Mes", "Unidades vendidas", "Ventas brutas" y "Beneficios". Puede hacer preguntas sobre cualquiera de esas entidades.  Podría preguntar lo siguiente: "mostrar *ventas*", "total de *beneficios* por *mes*", "ordenar *productos* por *unidades vendidas*" y muchas otras combinaciones.
+## <a name="how-do-i-start"></a>¿Cómo empiezo?
+En primer lugar, familiarícese con el contenido. Eche un vistazo a las visualizaciones en el panel y en el informe. Hágase una idea clara del tipo y el intervalo de datos que están disponibles para usted. Posteriormente vuelva a centrarse en el panel y coloque el cursor en el cuadro de pregunta. Se abrirá la pantalla de Preguntas y respuestas.
 
-Preguntas y respuestas puede responder a preguntas relacionadas con cómo se organiza el conjunto de datos. ¿Cómo funciona todo lo anterior para los datos de Salesforce? Cuando se conecta a su cuenta de salesforce.com, Power BI genera automáticamente un panel.  Antes de empezar a formular preguntas con Preguntas y respuestas, eche un vistazo a los datos mostrados en las visualizaciones de panel y también a los datos mostrados en la lista desplegable de Preguntas y respuestas.
+![Pantalla de Preguntas y respuestas](media/end-user-q-and-a/power-bi-qna-screen.png) 
 
 * Si las etiquetas y valores del eje de visualizaciones incluyen "ventas", "cuenta", "mes" y "oportunidades", puede entonces hacer preguntas como: "Qué *cuenta* tiene la más alta *oportunidad* o mostrar *ventas* por mes como un gráfico de barras".
-* Si la lista desplegable incluye "vendedor", "provincia" y "año", puede con realizar con seguridad preguntas como: "qué *vendedor* tuvo las *ventas* más bajas en *Florida* en *2013*".
 
-Si tiene datos de rendimiento del sitio web en Google Analytics, podría preguntar a Preguntas y respuestas sobre el tiempo transcurrido en una página web, el número de visitas únicas a una página y el índice de fidelidad de los usuarios. O bien, si está consultando datos demográficos, podría preguntar sobre la edad y los ingresos por ubicación.
+* Si tiene datos de rendimiento del sitio web en Google Analytics, puede preguntar a Preguntas y respuestas sobre el tiempo transcurrido en una página web, el número de visitas únicas a una página y el índice de fidelidad de los usuarios. O bien, si está consultando datos demográficos, podría preguntar sobre la edad y los ingresos por ubicación.
+
+En la parte inferior de la pantalla verá otros elementos útiles. Para cada conjunto de datos, Preguntas y respuestas muestran las palabras clave y a veces incluso muestra algunas sugerencias o ejemplos de preguntas. Seleccione cualquiera de estos elementos para agregarlos al cuadro de pregunta. 
+
+Otra manera en que Preguntas y respuestas puede ayudar a formular preguntas es mediante peticiones de confirmación, rellenado automático o indicaciones visuales. 
+
+![Vídeo](media/end-user-q-and-a/qa.gif) 
+
 
 ### <a name="which-visualization-does-qa-use"></a>¿Qué visualización usa Preguntas y respuestas?
 Preguntas y respuestas escoge la mejor visualización en función de los datos que se muestran. A veces los datos del conjunto de datos subyacente se definen como un determinado tipo o categoría y esto ayuda a Preguntas y respuestas a saber cómo mostrarlos. Por ejemplo, si los datos se definen como un tipo de fecha, es más probable que se muestren como un gráfico de líneas. Los datos que se clasifican como ciudad es más probable que se muestren como un mapa.
 
-También puede indicar a Preguntas y respuestas qué visualización usar agregándolo a su pregunta. Pero tenga en cuenta que no siempre es posible para Preguntas y respuestas mostrar los datos en el tipo de visualización solicitado.
+También puede indicar a Preguntas y respuestas qué visualización usar agregándolo a su pregunta. Pero tenga en cuenta que no siempre es posible para Preguntas y respuestas mostrar los datos en el tipo de visualización solicitado. Preguntas y respuestas le pedirá confirmación acerca de una lista de tipos de visualización factibles.
 
-Para obtener información sobre las palabras clave que reconoce Preguntas y respuestas, consulte [Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI](end-user-q-and-a-tips.md).
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+**Pregunta**: No veo Preguntas y respuestas en este panel.    
+**Respuesta 1**: Si no ve un cuadro de pregunta, compruebe primero la configuración. Para ello, en la esquina superior derecha de la barra de herramientas de Power BI, seleccione el icono de engranaje.   
+![icono de engranaje](media/end-user-q-and-a/power-bi-settings.png)
+
+A continuación, elija **Configuración** > **Paneles**. Asegúrese de que hay una marca de verificación junto a **Mostrar el cuadro de búsqueda de Preguntas y respuestas en este panel**.
+![Configuración de Preguntas y respuestas para el panel](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-## <a name="for-more-details-about-power-bi-qa"></a>Para más información acerca de Preguntas y respuestas de Power BI
-[Introducción: cómo usar Preguntas y respuestas en los paneles y los informes de Power BI](../power-bi-tutorial-q-and-a.md): instrucciones paso a paso para usar Preguntas y respuestas así como información general acerca del funcionamiento.
+**Respuesta 2**: A veces, el *diseñador* del panel o el administrador desactiva Preguntas y respuestas. Póngase en contacto con ellos para ver si pueden volver a activarlo.   
 
-[Aplicación móvil Microsoft Power BI](mobile/mobile-apps-ios-qna.md) Para iOS en dispositivos iPad, iPhone y iPod Touch.
+**Pregunta**: No obtengo los resultados que quiero ver cuando escribo una pregunta.    
+**Respuesta**: Póngase en contacto con el *diseñador* del panel. El diseñador puede hacer muchas cosas para mejorar los resultados de Preguntas y respuestas. Por ejemplo, el diseñador puede cambiar el nombre de las columnas del conjunto de datos para usar unos términos que se entiendan fácilmente (`CustomerFirstName` en lugar de `CustFN`). Dado que el diseñador conoce realmente bien el conjunto de datos, el diseñador también puede plantear preguntas útiles y agregarlas al lienzo de Preguntas y respuestas.
 
-[Microsoft Power BI Embedded](../developer/qanda.md) Incorporación de Preguntas y respuestas en una aplicación.
+![pregunta destacada remarcada](media/end-user-q-and-a/power-bi-featured-q.png)
 
-[Sugerencias para hacer preguntas en Preguntas y respuestas](end-user-q-and-a-tips.md): Aprenda a comunicarse con Preguntas y respuestas para obtener los mejores resultados posibles.
+## <a name="next-steps"></a>Pasos siguientes
 
-[Agregue preguntas destacadas a los conjuntos de datos](../service-q-and-a-create-featured-questions.md) y Preguntas y respuestas sugerirá estas preguntas a sus compañeros.
-
-[Habilitación de Preguntas y respuestas para los conjuntos de datos locales](end-user-q-and-a-direct-query.md) Si necesita una puerta de enlace para conectar con el conjunto de datos, use la configuración de Power BI para activar y desactivar Preguntas y respuestas.
-
-[Tutorial: Uso de Preguntas y respuestas con el Ejemplo de ventas minoristas en el servicio Power BI](../power-bi-visualization-introduction-to-q-and-a.md): uso de Preguntas y repuestas en un tutorial realista del sector.
-
-[Haga que los datos funcionen bien con Preguntas y respuestas](../service-prepare-data-for-q-and-a.md): ¿Es usted la persona que creó los conjuntos de datos y los modelos de datos?  En caso afirmativo, este tema es para usted.
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
