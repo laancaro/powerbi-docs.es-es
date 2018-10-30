@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/13/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 88942d4bf304af7a43df3a0f4864b537182cc84c
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: 62d6a274b7cfb784f4f61b0973bad22ea6194698
+ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48272570"
+ms.lasthandoff: 10/22/2018
+ms.locfileid: "49641307"
 ---
 # <a name="power-bi-free-vs-pro"></a>Comparación entre las versiones gratis y Pro de Power BI
 
@@ -44,7 +44,7 @@ Esta es una lista de las características admitidas por tipo de usuario.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Si está interesado en conocer más información acerca de Power BI Premium, consulte [¿Qué es Power BI Premium?](service-premium.md).
+Si le interesa obtener más información acerca de Power BI Premium, vea [¿Qué es Microsoft Power BI Premium?](service-premium.md).
 
 Para empezar a usar Power BI mediante el registro, consulte [Registro en Power BI como usuario individual](service-self-service-signup-for-power-bi.md).
 

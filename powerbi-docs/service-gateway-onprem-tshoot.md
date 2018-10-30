@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: a8f0360d87fe5bf4e19632a92d8dfe4cf61da16e
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49474035"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101655"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 
@@ -446,7 +446,7 @@ En los resultados de la prueba aparecen todos los servidores, puertos y direccio
 
 ## <a name="kerberos"></a>Kerberos
 
-Si el servidor de base de datos subyacente y la puerta de enlace de datos local no están configurados correctamente para la [Delegación restringida de Kerberos](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md), habilite el [registro detallado](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) en la puerta de enlace e investigue en función de los errores o seguimientos de los archivos de registro de la puerta de enlace como punto de partida para solucionar problemas.
+Si el servidor de base de datos subyacente y la puerta de enlace de datos local no están configurados correctamente para la [Delegación restringida de Kerberos](service-gateway-sso-kerberos.md), habilite el [registro detallado](#microsoftpowerbidatamovementpipelinediagnosticsdllconfig) en la puerta de enlace e investigue en función de los errores o seguimientos de los archivos de registro de la puerta de enlace como punto de partida para solucionar problemas.
 
 ### <a name="impersonationlevel"></a>ImpersonationLevel
 

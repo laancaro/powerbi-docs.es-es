@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 07/13/2018
-ms.openlocfilehash: 9df612d80d3f322a8391eeb43430942a03850470
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: 92ed5530ba2e3e72ec4d4e7d7c317993bdf9c04b
+ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827465"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49396874"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-organization"></a>Tutorial: Insertar un informe, un panel o un icono de Power BI en una aplicación para la organización
 
@@ -158,13 +158,13 @@ Para insertar el contenido con una aplicación de ejemplo, siga estos pasos:
 
     ![Ejemplo de aplicación User Owns Data](media/embed-sample-for-your-organization/embed-sample-for-your-organization-026.png)
 
-2. Abra el archivo **Cloud.config** de la aplicación de ejemplo. Hay varios campos que debe rellenar para ejecutar la aplicación correctamente: **ClientID** y **ClientSecret**.
+2. Abra el archivo **Cloud.config** de la aplicación de ejemplo. Hay varios campos que debe rellenar para ejecutar la aplicación correctamente: **ApplicationID** y **ApplicationSecret**.
 
     ![Archivo Cloud.config](media/embed-sample-for-your-organization/embed-sample-for-your-organization-030.png)
 
-    Rellene la información de **ClientID** con el **identificador de aplicación** de Azure. La aplicación usa **ClientID** para identificarse ante los usuarios a los que solicita los permisos.
+    Rellene la información de **ApplicationID** con el **identificador de aplicación** de Azure. La aplicación usa **ApplicationID** para identificarse ante los usuarios a los que solicita los permisos.
 
-    Para obtener **ClientID**, siga estos pasos:
+    Para obtener **ApplicationID**, siga estos pasos:
 
     1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
@@ -174,17 +174,17 @@ Para insertar el contenido con una aplicación de ejemplo, siga estos pasos:
 
         ![Búsqueda de registros de aplicaciones](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-    1. Seleccione la aplicación que necesita usar **ClientID**.
+    1. Seleccione la aplicación que necesite usar el valor **ApplicationID**.
 
         ![Elección de una aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 
-    1. Debería ver un **identificador de la aplicación** que aparece como un GUID. Use este **identificador de aplicación** como **ClientID** de la aplicación.
+    1. Debería ver un **identificador de la aplicación** que aparece como un GUID. Use este **identificador de aplicación** como **ApplicationID** de la aplicación.
 
-        ![ClientID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
+        ![ApplicationID](media/embed-sample-for-your-organization/embed-sample-for-your-organization-007.png)
 
-    1. Rellene la información de **ClientSecret** a partir de la sección **Claves** de la sección **Registros de aplicaciones** de **Azure**.
+    1. Rellene la información de **ApplicationSecret** a partir de la sección **Claves** de la sección **Registros de aplicaciones** de **Azure**.
 
-    1. Para obtener **ClientSecret**, siga estos pasos:
+    1. Para obtener **ApplicationSecret**, siga estos pasos:
 
         1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
@@ -194,7 +194,7 @@ Para insertar el contenido con una aplicación de ejemplo, siga estos pasos:
 
             ![Búsqueda de registros de aplicaciones](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
 
-        1. Seleccione la aplicación que necesita usar **ClientSecret**.
+        1. Seleccione la aplicación que necesite usar **ApplicationSecret**.
 
             ![Elección de una aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
 

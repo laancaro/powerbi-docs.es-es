@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8b0121dbfe633eca9c438dfd272d3aeb56fd59a4
-ms.sourcegitcommit: 001ea0ef95fdd4382602bfdae74c686de7dc3bd8
+ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38921516"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101517"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.
@@ -52,7 +52,7 @@ La capacidad de los usuarios para consultar y ver datos de un modelo está deter
 La implementación de la seguridad dinámica de nivel de fila y de roles en los modelos queda fuera del ámbito de este artículo.  Puede obtener más información en [Roles (SSAS tabular)](https://msdn.microsoft.com/library/hh213165.aspx) y [Roles de seguridad (Analysis Services - Datos multidimensionales)](https://msdn.microsoft.com/library/ms174840.aspx) en MSDN. Para ver una descripción más detallada de la seguridad de modelos tabulares, descargue y lea las notas del documento [Tabular BI Semantic Model](https://msdn.microsoft.com/library/jj127437.aspx) (Protección del modelo semántico tabular de BI).
 
 ## <a name="what-about-azure-active-directory"></a>¿Qué pasa con Azure Active Directory?
-Los servicios en la nube de Microsoft dejan la autenticación de los usuarios a cargo de [Azure Active Directory](https://azure.microsoft.com/documentation/articles/active-directory-whatis/). Azure Active Directory es el inquilino que contiene grupos de nombres de usuario y seguridad. Normalmente, la dirección de correo con la que un usuario inicia sesión coincide con el UPN de la cuenta.
+Los servicios en la nube de Microsoft dejan la autenticación de los usuarios a cargo de [Azure Active Directory](/azure/active-directory/fundamentals/active-directory-whatis). Azure Active Directory es el inquilino que contiene grupos de nombres de usuario y seguridad. Normalmente, la dirección de correo con la que un usuario inicia sesión coincide con el UPN de la cuenta.
 
 ¿Cuál es mi rol de Active Directory local?
 
@@ -78,7 +78,7 @@ Los servicios en la nube solo conocen las cuentas de Azure Active Directory. No 
 1. Puede agregar manualmente cuentas a Azure Active Directory.
    
    Puede crear una cuenta en el portal de Azure, o en el Portal de administración de Office 365, y el nombre de la cuenta coincide con el UPN de la cuenta de Active Directory local.
-2. Puede usar la herramienta [Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/) para sincronizar las cuentas locales para el inquilino de Azure Active Directory.
+2. Puede usar la herramienta [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) para sincronizar las cuentas locales para el inquilino de Azure Active Directory.
    
    La herramienta Azure AD Connect proporciona opciones para la sincronización de directorios y la configuración de autenticación, como la sincronización de hash de contraseña, la autenticación de paso a través y la federación. Si no es un administrador de inquilinos o un administrador de dominio local, debe ponerse en contacto con el administrador de TI para configurarlo.
 
@@ -90,7 +90,7 @@ El uso de Azure AD Connect garantiza que el UPN coincida entre AAD y Active Dire
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Aquí es cuando entra en juego la puerta de enlace
-La puerta de enlace actúa como puente entre la nube y el servidor local. La transferencia de datos entre la nube y la puerta de enlace se protege mediante [Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/). Service Bus crea un canal seguro entre la nube y el servidor local a través de una conexión de salida de la puerta de enlace.  No necesita abrir conexiones de entrada en el firewall local.
+La puerta de enlace actúa como puente entre la nube y el servidor local. La transferencia de datos entre la nube y la puerta de enlace se protege mediante [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). Service Bus crea un canal seguro entre la nube y el servidor local a través de una conexión de salida de la puerta de enlace.  No necesita abrir conexiones de entrada en el firewall local.
 
 Si tiene un origen de datos de Analysis Services, deberá instalar la puerta de enlace en un equipo unido al mismo bosque o dominio que el servidor de Analysis Services.
 
@@ -116,8 +116,10 @@ En lugar de ahondar aquí en cómo solucionar los problemas de la puerta de enla
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
-[Azure Service Bus](https://azure.microsoft.com/documentation/services/service-bus/)  
-[Azure AD Connect](https://azure.microsoft.com/documentation/articles/active-directory-aadconnect/)  
+[Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview/)  
+[Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis/)  
+
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

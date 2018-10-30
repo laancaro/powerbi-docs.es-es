@@ -1,21 +1,21 @@
 ---
-title: Información general sobre el panel Filtros de Power BI para consumidores
-description: Información general sobre el panel Filtros del informe en el servicio Power BI
+title: Agregar un filtro de informe
+description: Cómo agregar un filtro a un informe en el servicio Power BI para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/25/2018
+ms.date: 10/19/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c49e075bd7fbe2debb0b577a1ce2771491d5fac4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 31b3584b0cbd2481db64160bcf502caf46e7acc3
+ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908288"
+ms.lasthandoff: 10/20/2018
+ms.locfileid: "49473816"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
 En este artículo se analiza el panel Filtros del informe en el servicio Power BI.
@@ -29,7 +29,7 @@ Cuando algún compañero comparta un informe con usted, asegúrese de buscar el 
 
 ![informar en el explorador](media/end-user-report-filter/power-bi-expanded.png)
 
-El panel Filtros contiene filtros que el *diseñador* de informes ha agregado al informe. Los *consumidores*, como usted, pueden interactuar con los filtros y guardar sus cambios, pero no pueden agregar nuevos filtros al informe.
+El panel Filtros contiene filtros que el *diseñador* de informes ha agregado al informe. Los *consumidores*, como usted, pueden interactuar con los filtros y guardar sus cambios, pero no pueden agregar nuevos filtros al informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó dos filtros de nivel de página: Segmento y Año. Puede cambiar estos filtros e interactuar con ellos, pero no agregar un tercer filtro de nivel de página.
 
 En el servicio Power BI, los informes conservan cualquier cambio que haya realizado en el panel Filtros y dichos cambios se aplican en la versión móvil del informe. Para restablecer los valores predeterminados del diseñador en el panel Filtro, seleccione **Restablecer valores predeterminados** en la barra de menús superior.     
 
@@ -40,11 +40,15 @@ En este ejemplo, hemos seleccionado un objeto visual que cuenta con seis filtros
 
 ![lista de filtros](media/end-user-report-filter/power-bi-filter-list.png)
 
-Algunos de los filtros tienen la palabra **Todo** junto a ellos, lo que indica que se incluyen como filtro todos los valores.  Por ejemplo, **Cadena(Todo)**, como se puede ver en la captura de pantalla siguiente, indica que esta página del informe incluye datos sobre todas las cadenas.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
+Algunos de los filtros tienen la palabra **Todo** junto a ellos, lo que indica que se incluyen como filtro todos los valores.  Por ejemplo, **Cadena(Todo)**, como se puede ver en la captura de pantalla anterior, indica que esta página del informe incluye datos sobre todas las cadenas.  Por otro lado, el filtro de nivel de informe **AñoFiscal es 2013 o 2014** nos indica que el informe solo incluye los datos de los años fiscales de 2013 y 2014.
 
 Cualquier persona que vea este informe puede interactuar con estos filtros.
 
-* Para ver los detalles del filtro, mueva el puntero por encima de él y seleccione la flecha situada junto al filtro.
+- Puede realizar una búsqueda en los filtros de página, objeto visual, informe y obtención de detalles para identificar y seleccionar el valor que quiera. 
+
+    ![Búsqueda en un filtro](media/end-user-report-filter/power-bi-filter-search.png)
+
+- Para ver los detalles del filtro, mueva el puntero por encima de él y seleccione la flecha situada junto al filtro.
   
    ![muestra Lindseys seleccionado](media/end-user-report-filter/power-bi-expan-filter.png)
 * Puede cambiar el filtro; por ejemplo, puede cambiar **Lindseys** por **Fashions Direct**.
@@ -56,9 +60,11 @@ Cualquier persona que vea este informe puede interactuar con estos filtros.
     
 * Para eliminar el filtro, seleccione el icono **x** que aparece junto al nombre del filtro.
   
-  Si elimina un filtro, se quitará de la lista, pero los datos no se eliminarán del informe.  Por ejemplo, si elimina el filtro **AñoFiscal es 2013 o 2014**, los datos del año fiscal seguirán en el informe, pero ya no se aplicará ningún filtro para mostrar solo los años 2013 y 2014, sino que se mostrarán todos los años fiscales que contengan los datos.  Sin embargo, una vez elimine el filtro, no podrá modificarlo de nuevo, ya que no estará en la lista. La opción más adecuada es borrar el filtro seleccionando el icono de borrador ![icono de borrador](media/end-user-report-filter/power-bi-eraser-icon.png).
+    ![x destacado](media/end-user-report-filter/power-bi-delete-filter.png)
+
+  Si elimina un filtro, se quitará de la lista, pero los datos no se eliminarán del informe.  Por ejemplo, si elimina el filtro **AñoFiscal es 2013 o 2014**, los datos del año fiscal seguirán en el informe, pero ya no se aplicará ningún filtro para mostrar solo los años 2013 y 2014, sino que se mostrarán todos los años fiscales que contengan los datos.  Sin embargo, una vez elimine el filtro, no podrá modificarlo de nuevo, ya que no estará en la lista. La opción más adecuada es borrar el filtro seleccionando el icono de borrador ![ icono de borrador ](media/end-user-report-filter/power-bi-eraser-icon.png).
   
-  ![x destacado](media/end-user-report-filter/power-bi-delete-filter.png)
+  
 
 
 
@@ -70,14 +76,14 @@ Cualquier persona que vea este informe puede interactuar con estos filtros.
 ### <a name="list-mode"></a>Modo de lista
 Al marca una casilla, se activa o desactiva el valor. La casilla **Todos** se puede usar para activar o desactivar todas las casillas . Las casillas representan todos los valores disponibles para ese campo.  Al ajustar el filtro, la redefinición se actualiza para reflejar las opciones elegidas. 
 
-![filtro de modo de lista](media/end-user-report-filter/pbi_restatement.png)
+![filtro de modo de lista](media/end-user-report-filter/power-bi-restatement-new.png)
 
-Observe cómo la redefinición ahora indica "es Amarilla o Carretera"
+Observe cómo la redefinición ahora indica "es mar, abr o may".
 
 ### <a name="advanced-mode"></a>Modo avanzado
 Seleccione **Filtrado avanzado** para cambiar al modo avanzado. Use los controles de lista desplegable y cuadros de texto para identificar los campos que se van a incluir. Con la selección de **And** y **Or**puede crear expresiones de filtro complejas. Seleccione el botón **Aplicar filtro** cuando haya establecido los valores que desee.  
 
-![modo avanzado](media/end-user-report-filter/aboutfilters.png)
+![modo avanzado](media/end-user-report-filter/power-bi-advanced.png)
 
 ## <a name="types-of-filters-numeric-field-filters"></a>Tipos de filtros: filtros de campo de numérico
 ### <a name="list-mode"></a>Modo de lista
@@ -86,7 +92,7 @@ Si los valores son finitos, al seleccionar el nombre del campo se muestra una li
 ### <a name="advanced-mode"></a>Modo avanzado
 Si los valores son infinitos o representan un intervalo, la selección del nombre del campo abre el modo de filtro avanzado. Use los cuadros de texto y los desplegables para especificar el intervalo de valores que desea ver. 
 
-![filtro avanzado](media/end-user-report-filter/pbi_dropdown-and-text.png)
+![filtro avanzado](media/end-user-report-filter/power-bi-dropdown-and-text.png)
 
 Con la selección de **And** y **Or**puede crear expresiones de filtro complejas. Seleccione el botón **Aplicar filtro** cuando haya establecido los valores que desee.
 

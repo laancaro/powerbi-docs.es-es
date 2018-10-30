@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
-ms.date: 06/20/2018
-ms.openlocfilehash: 6685b47de6fbcc4ce35d5087c545814e34092d11
-ms.sourcegitcommit: b7b828019b2a2917dfda4d6df0c9cdce70fa68cd
+ms.date: 10/17/2018
+ms.openlocfilehash: d3076090b06cdb60b72c475fd156cc274985ea32
+ms.sourcegitcommit: 1a79e48ac820c28c5d0fd05399f49ed22fc74ed7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48827442"
+ms.lasthandoff: 10/19/2018
+ms.locfileid: "49435497"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Inserción de un informe, un panel o un icono de Power BI en una aplicación para los clientes
 
@@ -36,7 +36,7 @@ Para empezar, necesita una cuenta de **Power BI Pro**, que será su **cuenta mae
 
 ## <a name="set-up-your-embedded-analytics-development-environment"></a>Configuración del entorno de desarrollo de análisis integrados
 
-Antes de empezar a insertar informes, paneles o iconos en la aplicación, debe asegurarse de que su entorno está configurado para permitir la inserción. Como parte de la configuración debe hacer lo siguiente.
+Antes de empezar a insertar informes, paneles o iconos en la aplicación, debe asegurarse de que su entorno permita la inserción con Power BI.
 
 Puede seguir los pasos de la [herramienta de configuración de incorporación](https://aka.ms/embedsetup/AppOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo con la que podrá crear un entorno e insertar un informe.
 
@@ -44,7 +44,7 @@ Si prefiere configurar el entorno manualmente, siga los pasos que se indican má
 
 ### <a name="register-an-application-in-azure-active-directory-azure-ad"></a>Registro de una aplicación en Azure Active Directory (Azure AD)
 
-La aplicación se registra en Azure Active Directory para permitir que esta acceda a las API de REST de Power BI. Esto le permite establecer una identidad para la aplicación y especificar los permisos para los recursos de REST de Power BI.
+La aplicación se registra en Azure Active Directory para permitir que esta acceda a las API de REST de Power BI. El hecho de registrar su aplicación permite establecer una identidad para esta y especificar los permisos para los recursos de REST de Power BI.
 
 1. Acepte los [Términos de la API de Microsoft Power BI](https://powerbi.microsoft.com/api-terms).
 
@@ -52,7 +52,7 @@ La aplicación se registra en Azure Active Directory para permitir que esta acce
 
     ![Página principal de Azure Portal](media/embed-sample-for-customers/embed-sample-for-customers-002.png)
 
-3. En el panel de navegación izquierdo, elija **Todos los servicios**, seleccione **Registros de aplicaciones** y luego seleccione **Nuevo registro de aplicaciones**.
+3. En el panel de navegación izquierdo, elija **Todos los servicios**, seleccione **Registros de aplicaciones** y, luego, **Nuevo registro de aplicaciones**.
 
     ![Búsqueda de registro de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-003.png)</br>
     ![Nuevo registro de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-004.png)
@@ -63,7 +63,7 @@ La aplicación se registra en Azure Active Directory para permitir que esta acce
 
 ### <a name="apply-permissions-to-your-application-within-azure-active-directory"></a>Aplicación de permisos a la aplicación en Azure Active Directory
 
-Hay que habilitar más permisos relativos a la aplicación, además de los proporcionados en la página de registro de la aplicación. Debe registrarse en la cuenta *maestra*, que se usó para la inserción, que debe ser una cuenta de administrador global.
+Habilite más permisos relativos a la aplicación, además de los proporcionados en la página de registro de la aplicación. Inicie sesión con la cuenta *maestra* que esté usando para la inserción. La cuenta maestra debe ser una cuenta de administrador global.
 
 ### <a name="use-the-azure-active-directory-portal"></a>Uso del portal de Azure Active Directory
 
@@ -91,7 +91,7 @@ Hay que habilitar más permisos relativos a la aplicación, además de los propo
 
     ![Seleccionar Servicio PBI](media/embed-sample-for-customers/embed-sample-for-customers-014.png)
 
-7. Seleccione todos los permisos en **Permisos delegados**. Debe seleccionarlos uno por uno para guardar las selecciones. Seleccione **Guardar** cuando haya finalizado.
+7. Seleccione todos los permisos en **Permisos delegados**. Seleccione **Guardar** cuando haya finalizado.
 
     ![Seleccionar permisos delegados](media/embed-sample-for-customers/embed-sample-for-customers-015.png)
 
@@ -107,11 +107,11 @@ Hay que habilitar más permisos relativos a la aplicación, además de los propo
 
 Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo de la aplicación. La cuenta *maestra* debe corresponder a un administrador del área de trabajo de la aplicación.
 
-1. Comience por crear el área de trabajo. Seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**. Aquí es donde hay que poner el contenido al que la aplicación necesita acceder.
+1. Comience por crear el área de trabajo. Seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**. En Crear área de trabajo de la aplicación, coloque el contenido al que tenga que acceder la aplicación.
 
     ![Crear área de trabajo](media/embed-sample-for-customers/embed-sample-for-customers-020.png)
 
-2. Asigne un nombre al área de trabajo. Si el **Id. de área de trabajo** correspondiente no está disponible, puede editarlo para tener un identificador único. Este debe ser también el nombre de la aplicación.
+2. Asigne un nombre al área de trabajo. Si el **Id. de área de trabajo** correspondiente no está disponible, puede editarlo para tener un identificador único.
 
     ![Asignar nombre al área de trabajo](media/embed-sample-for-customers/embed-sample-for-customers-021.png)
 
@@ -161,11 +161,11 @@ Siga estos pasos para empezar a insertar contenido con una aplicación de ejempl
 
     ![Ejemplo de aplicación que posee los datos](media/embed-sample-for-customers/embed-sample-for-customers-026.png)
 
-2. Abra el archivo Web.config en la aplicación de ejemplo. Hay cinco campos que debe rellenar para ejecutar la aplicación correctamente: **clientId**, **groupId**, **reportId**, **pbiUsername** y **pbiPassword**.
+2. Abra el archivo Web.config en la aplicación de ejemplo. Hay cinco campos que debe rellenar para ejecutar la aplicación correctamente. Se trata de **applicationId**, **workspaceId**, **reportId**, **pbiUsername** y **pbiPassword**.
 
     ![Archivo de configuración web](media/embed-sample-for-customers/embed-sample-for-customers-030.png)
 
-    Rellene la información del campo **clientId** con el **identificador de la aplicación** de **Azure**. La aplicación usa el **identificador de cliente** para identificarse ante los usuarios a los que solicita permisos. Haga lo siguiente para obtener el valor **clientId**:
+    Rellene la información de **applicationId** con el **identificador de aplicación** de **Azure**. La aplicación usa **applicationId** para identificarse ante los usuarios a los que solicita permisos. Para obtener **applicationId**, siga estos pasos:
 
     Inicie sesión en [Azure Portal](https://portal.azure.com).
 
@@ -175,17 +175,17 @@ Siga estos pasos para empezar a insertar contenido con una aplicación de ejempl
 
     ![Búsqueda de registros de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
-    Seleccione la aplicación para la que desea obtener el **identificador de cliente**.
+    Seleccione la aplicación para la que quiera obtener el valor **applicationId**.
 
     ![Elegir aplicación](media/embed-sample-for-customers/embed-sample-for-customers-006.png)
 
-    Debe ver un **identificador de la aplicación** que aparece como un GUID. Use este **identificador de la aplicación** como el **identificador de cliente** de la aplicación.
+    Debe ver un **identificador de la aplicación** que aparece como un GUID. Use este **identificador de aplicación** como **applicationId** de la aplicación.
 
-    ![ClientID](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
+    ![applicationId](media/embed-sample-for-customers/embed-sample-for-customers-007.png)
 
-    Rellene la información del **identificador de grupo** con el **GUID del área de trabajo de la aplicación** de Power BI.
+    Rellene la información del valor **workspaceId** con el **GUID del área de trabajo de la aplicación** de Power BI.
 
-    ![groupId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
+    ![workspaceId](media/embed-sample-for-customers/embed-sample-for-customers-031.png)
 
     Rellene la información del **identificador de informe** con el **GUID de informe** de Power BI.
 
@@ -214,7 +214,7 @@ Aunque los pasos para insertar el contenido se pueden llevar a cabo con las [API
 
 La inserción de contenido para los clientes en la aplicación requiere disponer de un **token de acceso** para la cuenta maestra en **Azure AD**. Es necesario obtener un [token de acceso de Azure AD](get-azuread-access-token.md#access-token-for-non-power-bi-users-app-owns-data) para la aplicación de Power BI con una **aplicación que posea los datos**  antes de llamar a las [API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
-Para crear el cliente de Power BI con el **token de acceso**, deberá crear el objeto de cliente de Power BI, que le permite interactuar con las [API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/). Para ello, ajuste **AccessToken** con un objeto ***Microsoft.Rest.TokenCredentials***.
+Para crear el cliente de Power BI con el **token de acceso**, deberá crear el objeto de cliente de Power BI, que permite interactuar con las [API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/). Para ello, ajuste **AccessToken** con un objeto ***Microsoft.Rest.TokenCredentials***.
 
 ```csharp
 using Microsoft.IdentityModel.Clients.ActiveDirectory;
@@ -242,8 +242,8 @@ A continuación tiene un código de ejemplo sobre cómo recuperar el primer info
 using Microsoft.PowerBI.Api.V2;
 using Microsoft.PowerBI.Api.V2.Models;
 
-// You need to provide the GroupID where the dashboard resides.
-ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(GroupId);
+// You need to provide the workspaceId where the dashboard resides.
+ODataResponseListReport reports = client.Reports.GetReportsInGroupAsync(workspaceId);
 
 // Get the first report in the group.
 Report report = reports.Value.FirstOrDefault();
@@ -263,7 +263,7 @@ using Microsoft.PowerBI.Api.V2.Models;
 
 // Generate Embed Token.
 var generateTokenRequestParameters = new GenerateTokenRequest(accessLevel: "view");
-EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(GroupId, report.Id, generateTokenRequestParameters);
+EmbedToken tokenResponse = client.Reports.GenerateTokenInGroup(workspaceId, report.Id, generateTokenRequestParameters);
 
 // Generate Embed Configuration.
 var embedConfig = new EmbedConfig()
@@ -339,7 +339,7 @@ Use la tabla siguiente para determinar qué capacidad de Power BI Embedded se ad
 
 | Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 núcleo virtual |5 núcleos, 3 GB de RAM |5 núcleos | 5 por segundo |1-300 |
+| A1 |1 núcleo virtual |0,5 núcleos, 3 GB de RAM |0,5 núcleos |0,5 por segundo |1-300 |
 | A2 |2 núcleos virtuales |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
 | A3 |4 núcleos virtuales |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1200 |
 | A4 |8 núcleos virtuales |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1201-2400 |
@@ -364,7 +364,7 @@ Una vez creada una capacidad dedicada, puede asignar el área de trabajo de la a
 
     ![Asignar capacidad dedicada](media/embed-sample-for-customers/embed-sample-for-customers-024.png)
 
-3. Después de seleccionar **Guardar**, se debe ver un **diamante** junto al nombre del área de trabajo de la aplicación.
+3. Después de hacer clic en **Guardar**, debería ver un **rombo** junto al nombre del área de trabajo de la aplicación.
 
     ![Área de trabajo de aplicación asociada a una capacidad](media/embed-sample-for-customers/embed-sample-for-customers-037.png)
 

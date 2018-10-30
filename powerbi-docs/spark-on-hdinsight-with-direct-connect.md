@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/01/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f9bc117d4260bb8efa604591703205b405fd63c9
-ms.sourcegitcommit: f391b645062f64ac3adc2ce7877318583b14b941
+ms.openlocfilehash: 92b8d0e0ecfa9bae36e552e30cf8f1a7fcecff4b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/02/2018
-ms.locfileid: "48016178"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100758"
 ---
 # <a name="spark-on-hdinsight-with-directquery"></a>Spark en HDInsight con DirectQuery
 
@@ -58,7 +58,7 @@ El nombre de usuario y la contraseña también se encuentran en Azure Portal.
 
 ## <a name="limitations"></a>Limitaciones
 
-Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. Encontrará documentación adicional en [Uso de herramientas de BI con Apache Spark en HDInsight de Azure](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-use-bi-tools/).
+Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. Encontrará documentación adicional en [Uso de herramientas de BI con Apache Spark en HDInsight de Azure](/azure/hdinsight/spark/apache-spark-use-bi-tools/).
 
 * El servicio Power BI solo admite una configuración de Spark 2.0 y HDInsight 3.5.
 * Cada acción, como seleccionar una columna o agregar un filtro, enviará una consulta a la base de datos. Antes de seleccionar campos muy grandes, considere la posibilidad de elegir un tipo de objeto visual adecuado.
@@ -76,9 +76,9 @@ También pueden asignar recursos adicionales en Azure Portal en **Configuración
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Introducción: creación de clústeres Apache Spark en HDInsight para Linux y ejecución de consultas interactivas mediante Spark SQL](https://azure.microsoft.com/documentation/articles/hdinsight-apache-spark-jupyter-spark-sql)  
+[Introducción: creación de clústeres Apache Spark en HDInsight para Linux y ejecución de consultas interactivas mediante Spark SQL](/azure/hdinsight/spark/apache-spark-jupyter-spark-sql/)  
 [¿Qué es Power BI?](power-bi-overview.md)  
 [Obtener datos para Power BI](service-get-data.md)
-[Uso de Kerberos en la puerta de enlace local para el SSO](service-gateway-kerberos-for-sso-pbi-to-on-premises-data.md)
+[Uso de Kerberos en la puerta de enlace local para el SSO](service-gateway-sso-kerberos.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
