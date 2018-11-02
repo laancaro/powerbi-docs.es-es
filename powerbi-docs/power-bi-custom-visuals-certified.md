@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/30/2018
 ms.author: mihart
-ms.openlocfilehash: 54c484153896430a7c5c886864459361cae97428
-ms.sourcegitcommit: fbc1fabcb5e3b285228c9aa192b9b421b2782922
+ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2018
-ms.locfileid: "47059079"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252408"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obtención de un objeto visual personalizado *certificado*
 ## <a name="what-is-meant-by-certified"></a>¿Qué se entiende por *certificado*?
@@ -86,6 +86,7 @@ Microsoft, a su discreción, puede quitar un objeto visual de la lista de objeto
 | [Enlighten Slicer](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380960) | |
 | [Enlighten Stack Shuffle](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380849) | |
 | [Enlighten Waffle Chart](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380850) | |
+| [Filtrar por lista de Devscope](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381413) | [Vídeo](https://youtu.be/RetEWGwBu0I) |
 | [Force-Directed Graph](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380764) | [Vídeo](https://youtu.be/YsTa7uyJ4sg) |
 | [Funnel with Source by MAQ Software](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104381334) | [Vídeo](https://youtu.be/R_EcimsLI8U) |
 | [Gantt](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380765) | [Vídeo](https://youtu.be/qJ7s_KrGiUU) |

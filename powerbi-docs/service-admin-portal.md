@@ -7,34 +7,35 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 2f10ead5d08efa12cae05aeb6f2e3d3068636f77
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
+ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396920"
+ms.lasthandoff: 10/30/2018
+ms.locfileid: "50252500"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
-El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración.
+El portal de administración le permite administrar un *inquilino* de Power BI de su organización. El portal incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración.
 
-La administración de inquilinos de Power BI para su empresa se realiza mediante el portal de administración de Power BI. El portal de administración es accesible para todos los usuarios que son administradores globales de Office 365 o a los que se les ha asignado el rol de administrador del servicio Power BI. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md).
-
-Todos los usuarios pueden ver el **Portal de administración** bajo el icono de engranaje. Si no son administradores, solo pueden ver la sección **Configuración de Premium** y únicamente pueden ver las funcionalidades para las que tengan derechos de administración.
+El portal de administración completo es accesible para todos los usuarios que sean administradores globales de Office 365 o a los que se les haya asignado el rol de administrador del servicio Power BI. Si no está en uno de estos roles, solo verá **Configuración de la capacidad** en el portal. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md).
 
 ## <a name="how-to-get-to-the-admin-portal"></a>Acceso al portal de administración
 
 La cuenta debe estar marcada como **Administrador global** dentro de Office 365 o Azure Active Directory, o que se le haya asignado el rol de administrador del servicio Power BI, para acceder al portal de administración de Power BI. Para más información acerca del rol de administrador del servicio Power BI, consulte [Descripción del rol de administrador de Power BI](service-admin-role.md). Para acceder al portal de administración de Power BI, haga lo siguiente.
 
 1. Seleccione el engranaje de configuración en la parte superior derecha del servicio Power BI.
-2. Seleccione **Portal de administración**.
 
-![](media/service-admin-portal/powerbi-admin-settings.png)
+1. Seleccione **Portal de administración**.
 
-En el portal, hay seis pestañas. Estas fichas se describen a continuación.
+    ![Configuración del portal de administración](media/service-admin-portal/powerbi-admin-settings.png)
+
+Hay siete pestañas en el portal. En el resto de este artículo se proporciona información sobre cada una de ellas.
+
+![Navegación en el portal de administración](media/service-admin-portal/powerbi-admin-landing-page.png)
 
 * [Métricas de uso](#usage-metrics)
 * [Usuarios](#users)
@@ -42,95 +43,91 @@ En el portal, hay seis pestañas. Estas fichas se describen a continuación.
 * [Configuración de inquilinos](#tenant-settings)
 * [Configuración de Premium](#premium-settings)
 * [Códigos para insertar](#embed-codes)
-* [Objetos visuales de la organización](#Organization-visuals)
-
-![](media/service-admin-portal/powerbi-admin-landing-page.png)
+* [Objetos visuales de la organización](#organization-visuals)
 
 ## <a name="usage-metrics"></a>Métricas de uso
-La primera ficha, en el portal de administración, es **Métricas de uso**. El informe de métricas de uso le ofrece la capacidad de supervisar el uso dentro de Power BI para su organización. También proporciona la capacidad para ver qué usuarios y grupos, son los más activos en Power BI para su organización.
+
+La pestaña **Métricas de uso** le permiten supervisar el uso de Power BI de su organización. También proporciona la capacidad para ver qué usuarios y grupos, son los más activos en Power BI para su organización.
 
 > [!NOTE]
 > La primera vez que accede al panel, o después de visitarlo de nuevo tras un largo período sin verlo, probablemente verá una pantalla de carga mientras se carga el panel.
 
-Una vez cargado el panel, puede ver dos secciones de iconos. La primera sección incluye datos de uso para usuarios individuales y la segunda sección muestra información similar para los grupos de su organización.
+Una vez cargado el panel, verá dos secciones de iconos. La primera sección incluye datos de uso para usuarios individuales y la segunda sección muestra información similar para los grupos de su organización.
 
 Este es un desglose de lo que puede ver en cada icono:
 
 * Recuento definido de todos los paneles, informes y conjuntos de datos en el área de trabajo de usuario.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
+    ![Recuento diferente de paneles, informes y conjuntos de datos.](media/service-admin-portal/powerbi-admin-usage-metrics-number-tiles.png)
 
-* El panel más consumido por número de usuarios que pueden acceder a él. Por ejemplo, si tiene un panel que comparte con 3 usuarios y también lo agrega a un paquete de contenido al que están conectados dos usuarios distintos, su recuento sería 6 (1 + 3 + 2).
+* El panel más consumido por número de usuarios que pueden acceder a él. Por ejemplo, si tiene un panel que ha compartido con tres usuarios y también lo agrega a un paquete de contenido al que están conectados dos usuarios distintos, su recuento sería 6 (1 + 3 + 2).
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
+    ![Más paneles consumidos](media/service-admin-portal/powerbi-admin-usage-metrics-top-dashboards.png)
 
 * El contenido más popular al que están conectados los usuarios. Esto sería cualquier cosa que los usuarios puedan alcanzar a través del proceso de obtención de datos: paquetes SaaS, paquetes de contenido organizativo, archivos o bases de datos.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
+    ![Más paquetes consumidos](media/service-admin-portal/powerbi-admin-usage-metrics-top-connections.png)
 
 * Una vista de los usuarios principales según el número de paneles que tienen, tanto paneles que crearon ellos mismos como paneles compartidos con ellos.
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
+    ![Usuarios principales: paneles](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-dashboards.png)
 
 * Una vista de los usuarios principales según el número de informes que tienen
   
-    ![](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
+    ![Usuarios principales: informes](media/service-admin-portal/powerbi-admin-usage-metrics-top-users-reports.png)
 
-La segunda sección muestra el mismo tipo de información, pero se basa en grupos. Esto le permitirá ver qué grupos de la organización son más activos y qué tipo de información usan.
+La segunda sección muestra el mismo tipo de información, pero se basa en grupos. Esto le permite ver qué grupos de la organización son más activos y qué tipo de contenido consumen.
 
-Con esta información, podrá obtener información real sobre cómo las personas usan Power BI en toda la organización y podrá reconocer esos usuarios y grupos, que son muy activos en su organización.
+Con esta información, puede obtener información real sobre cómo las personas usan Power BI en toda la organización y puede reconocer esos usuarios y grupos que son muy activos en su organización.
 
 ## <a name="users"></a>Usuarios
 
-La segunda ficha, en el portal de administración, es **Administrar usuarios**. La administración de usuarios, para Power BI, se realiza en el Centro de administración de Office 365, por lo que esta sección le permite llegar rápidamente al área para administrar usuarios, administradores y grupos dentro de Office 365.
+Administrará usuarios, grupos y administradores de Power Bi en el Centro de administración de Office 365. La pestaña **Usuarios** proporciona un vínculo al centro de administración del inquilino.
 
-![](media/service-admin-portal/powerbi-admin-manage-users.png)
-
-Al hacer clic en **Ir al Centro de administración de O365**, irá directamente a la página de destino del Centro de administración de Office 365 para administrar los usuarios de su inquilino.
-
-![](media/service-admin-portal/powerbi-admin-o365-admin-center.png)
+![Ir al Centro de administración de O365](media/service-admin-portal/powerbi-admin-manage-users.png)
 
 ## <a name="audit-logs"></a>Registros de auditoría
 
-La tercera pestaña, en el Portal de administración, es **Registros de auditoría**. Los registros se encuentran en el Centro de seguridad y cumplimiento de Office 365. Esta sección le permite obtener acceso rápidamente a esa área en Office 365.
-
-Para obtener más información sobre los registros de auditoría, consulte [Auditoría de Power BI en su organización](service-admin-auditing.md).
+Administrará registros de auditoría de Power BI en el Centro de seguridad y cumplimiento de Office 365. La pestaña **Registros de auditoría** proporciona un vínculo al Centro de seguridad y cumplimiento del inquilino. [Más información](service-admin-auditing.md)
 
 ## <a name="tenant-settings"></a>Configuración de inquilinos
 
-La tercera ficha, en el portal de administración, es **Configuración de inquilinos**. La configuración de inquilinos le da un mayor control sobre qué características están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización o, puede que solo quiera que una determinada característica esté disponible para un grupo concreto. Si es así, se puede desactivar en el inquilino.
+La pestaña **Configuración de inquilinos** permite controlar de manera pormenorizada las características que están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización, o puede que solo quiera que una determinada característica esté disponible para un grupo concreto.
 
-![](media/service-admin-portal/powerbi-admin-tenant-settings.png)
+En la imagen siguiente se muestran las dos primeras secciones de la pestaña **Configuración de inquilinos**.
+
+![Configuración de inquilinos](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
 > [!NOTE]
-> La configuración puede tardar hasta 10 minutos en entrar en vigor para todos los usuarios del inquilino.
+> La configuración puede tardar hasta 10 minutos en aplicarse para todos los usuarios del inquilino.
 
 La configuración puede tener tres estados:
 
-* **Deshabilitado para toda la organización**: puede deshabilitar una característica y hacerlo de manera que los usuarios no puedan usarla.
+* **Deshabilitado para toda la organización**: nadie de la organización puede usar esta característica.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
+    ![Opción de deshabilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Habilitado para toda la organización**: puede habilitar una característica para toda la organización, lo que permitirá a todos los usuarios tener acceso a esa característica.
+* **Habilitado para toda la organización**: todas las personas de su organización pueden usar esta característica.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
+    ![Opción de habilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
-* **Habilitado para un subconjunto de la organización**: también puede habilitar una característica para una parte de la organización. Esto se puede hacer de varias maneras. Puede habilitarla para toda la organización excepto para un grupo de usuarios específico.
+* **Habilitado para un subconjunto de la organización**: un subconjunto específico de usuarios o grupos de la organización puede usar esta característica.
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
+    Puede habilitar la característica para toda la organización, menos para un grupo de usuarios específico.
 
-    Puede también habilitar la característica solo para un grupo específico de usuarios y deshabilitarla para determinados usuarios de ese grupo. Esto garantizaría que determinados usuarios no tengan acceso a la característica incluso aunque pertenezcan al grupo permitido.
+    ![Opción de habilitar para un subconjunto](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except.png)
 
-    ![](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+    Puede habilitar también la característica solo para un grupo específico de usuarios y deshabilitarla para determinados usuarios de ese grupo. El uso de este enfoque garantiza que determinados usuarios no tengan acceso a la característica incluso aunque pertenezcan al grupo permitido.
+
+    ![Opción de habilitar con excepciones](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
 
 Las secciones siguientes proporcionan una visión general de los distintos tipos de configuración de inquilino.
 
 ## <a name="workspace-settings"></a>Configuración del área de trabajo
 
 ### <a name="create-workspaces-preview"></a>Crear áreas de trabajo (versión preliminar)
-Los usuarios de la organización pueden crear áreas de trabajo de aplicación para colaborar en paneles, informes y otro contenido.
 
-Para obtener más información, vea [Crear nuevas áreas de trabajo](service-create-the-new-workspaces.md).
+Los usuarios de la organización pueden crear áreas de trabajo de aplicación para colaborar en paneles, informes y otro contenido. [Más información](service-create-the-new-workspaces.md)
 
 ## <a name="export-and-sharing-settings"></a>Exportar y compartir configuración
 
@@ -138,19 +135,21 @@ Para obtener más información, vea [Crear nuevas áreas de trabajo](service-cre
 
 Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
+![Opción de usuarios externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
-Este es el mensaje que aparece cuando los comparte con un usuario externo.
+En la imagen siguiente se muestra el mensaje que aparece al compartir con un usuario externo.
 
-![](media/service-admin-portal/powerbi-admin-sharing-external.png)
+![Compartir con usuarios externos](media/service-admin-portal/powerbi-admin-sharing-external.png)
 
 ### <a name="publish-to-web"></a>Publicar en Web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 
-![](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Publicar en la web**.
 
-Los usuarios pueden ver diferentes opciones en la interfaz de usuario en función del valor de la opción Publicar en la web.
+![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
 
 |Destacado |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
 |---------|---------|---------|---------|
@@ -163,7 +162,9 @@ Los usuarios pueden ver diferentes opciones en la interfaz de usuario en funció
 
 Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](visuals/power-bi-visualization-export-data.md)
 
-![](media/service-admin-portal/powerbi-admin-export-data.png)
+En la imagen siguiente se muestra la opción para exportar datos desde un icono.
+
+![Exportación de datos desde un icono](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
 > Si deshabilita la opción **Exportar datos** también impedirá que los usuarios usen la característica **Analizar en Excel**, así como la conexión dinámica al servicio Power BI.
@@ -172,7 +173,9 @@ Los usuarios de la organización pueden exportar datos desde un icono o una visu
 
 Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint. [Más información](consumer/end-user-powerpoint.md)
 
-![](media/service-admin-portal/powerbi-admin-powerpoint.png)
+En la imagen siguiente se muestra el menú **Archivo** para un informe cuando está habilitada la opción **Exportar informes como presentaciones de PowerPoint**.
+
+![Exportar informes como presentaciones de PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
 ### <a name="print-dashboards-and-reports"></a>Imprimir paneles e informes
 
