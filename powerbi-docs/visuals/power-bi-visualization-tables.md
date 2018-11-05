@@ -8,20 +8,22 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d2aae3abeca51cdcc142660190332f84adcfddfb
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: c94fd3ce58cefdb9e3cc7749b6486ab9bb0577cb
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448831"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101471"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, esta tabla muestra 5 medidas distintas para **Categoría**.
 
 ![](media/power-bi-visualization-tables/table.png)
+
+Cree tablas en los informes y resalte los elementos dentro de la tabla con otros objetos visuales en la misma página del informe.  Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Las celdas individuales y las selecciones de celdas múltiples pueden copiarse y pegarse en otras aplicaciones.
 
 ## <a name="when-to-use-a-table"></a>Cuándo usar una tabla
 Las tablas son una excelente opción:
@@ -108,9 +110,24 @@ Con el formato condicional para tablas, puede especificar colores personalizados
 6. Para quitar el formato condicional de una visualización, simplemente vuelva a hacer clic con el botón derecho en el campo y seleccione **Quitar formato condicional**.
 
 > [!TIP]
-> El formato condicional también está disponible en el panel Formato (icono de rodillo de pintura). Seleccione el valor al que va a dar formato y, a continuación, establezca **Escalas de colores** o **Barras de datos** en Activado para aplicar la configuración predeterminada o, para personalizar la configuración, y seleccione **Controles avanzados**.
+> El formato condicional también está disponible en el panel Formato (icono de rodillo de pintura). Seleccione el valor al que va a dar formato y, a continuación, establezca **Escalas de colores** o **Barras de datos** en **Activado** para aplicar la configuración predeterminada o, para personalizar la configuración, y seleccione **Controles avanzados**.
 > 
-> 
+## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Copia de los valores de las tablas de Power BI para su uso en otras aplicaciones
+
+Su tabla o matriz puede tener contenido que le gustaría utilizar en otras aplicaciones, como Dynamics CRM, Excel e incluso otros informes de Power BI. Con el botón derecho de Power BI, puede copiar una sola celda o una selección de celdas en el portapapeles y pegarlas en la otra aplicación.
+
+
+* Para copiar el valor de una sola celda, seleccione la celda, haga clic con el botón derecho del ratón y elija **Copiar valor**. Con el valor de la celda sin formato en el portapapeles, ahora puede pegarlo en otra aplicación.
+
+    ![opciones de copia](media/power-bi-visualization-tables/power-bi-copy-value.png)
+
+* Para copiar más de una celda, seleccione un rango de celdas o utilice CTRL para seleccionar una o más celdas. La copia incluirá los encabezados de columna y de fila.
+
+    ![opciones de copia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
+
+    La copia incluye los encabezados de columna y de fila.
+
+    ![pegado en Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Ajustar el ancho de columna de una tabla
 A veces, Power BI trunca un encabezado de columna en un informe o un panel. Para mostrar el nombre de columna completo, mantenga el puntero sobre el espacio a la derecha del encabezado para mostrar las flechas dobles, selecciónelas y arrástrelas.

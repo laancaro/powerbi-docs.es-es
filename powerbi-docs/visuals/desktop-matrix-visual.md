@@ -7,27 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 10/25/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0cf9c152c9481e223a143bed3985e883c92af192
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 96b2fb3cb1558f862c792b3bed77c9f0c2bc61a5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416829"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101379"
 ---
 # <a name="use-the-matrix-visual-in-power-bi-desktop"></a>Uso del objeto visual de matriz en Power BI Desktop
-Con la característica de objeto visual **Matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
+Con la característica de objeto visual **Matriz**, puede crear objetos visuales de matriz (a veces también denominados *tablas*) en informes de **Power BI Desktop** y el **servicio Power BI** y elementos de resaltado cruzado dentro de la matriz con otros objetos visuales. Además, puede seleccionar filas, columnas y e incluso celdas individuales y realizar un resaltado cruzado. Las celdas individuales y las selecciones de celdas múltiples pueden copiarse y pegarse en otras aplicaciones. Por último, para hacer un mejor uso del espacio de diseño, el objeto visual de matriz es compatible con un diseño escalonado.
 
 ![](media/desktop-matrix-visual/matrix-visual_2a.png)
 
 Hay muchas características asociadas a la matriz que iremos revisando en las siguientes secciones de este artículo.
 
-> [!NOTE]
-> A partir de la versión de julio de 2017, los objetos visuales Matriz y Tabla de **Power BI Desktop** reflejan el estilo (incluso colores) del **tema del informe** aplicado. Si no son los colores previstos para el objeto visual Matriz, los puede cambiar en la configuración del **tema del informe**. Para obtener más información sobre los temas, vea [**Uso de los temas para los informes en Power BI Desktop**](../desktop-report-themes.md).
-> 
-> 
+## <a name="report-themes"></a>Temas de informes
+Los objetos visuales Matriz y Tabla reflejan el estilo (incluso colores) del **tema del informe** aplicado. Si no son los colores previstos para el objeto visual Matriz, los puede cambiar en la configuración del **tema del informe**. Para obtener más información sobre los temas, vea [**Uso de los temas para los informes en Power BI Desktop**](../desktop-report-themes.md).
 
 ## <a name="understanding-how-power-bi-calculates-totals"></a>Descripción del cálculo de los totales por Power BI
 
@@ -134,6 +132,20 @@ Con el objeto visual **Matriz**, puede seleccionar todos los elementos de la mat
 Además, el uso de Ctrl+clic también funciona para el resaltado cruzado. Por ejemplo, en la siguiente imagen, se ha seleccionado una colección de subcategorías del objeto visual **Matriz**. Observe que los elementos del objeto visual que no se seleccionaron aparecen atenuados y que los demás objetos visuales de la página reflejan las selecciones realizadas en el objeto visual **Matriz**.
 
 ![](media/desktop-matrix-visual/matrix-visual_16.png)
+
+## <a name="copying-values-from-power-bi-for-use-in-other-applications"></a>Copia de valores de Power BI para su uso en otras aplicaciones
+
+La matriz o tabla puede tener contenido que le gustaría utilizar en otras aplicaciones, como Dynamics CRM, Excel e incluso otros informes de Power BI. Con el botón derecho de Power BI, puede copiar una sola celda o una selección de celdas en el portapapeles y pegarlas en la otra aplicación.
+
+![opciones de copia](media/desktop-matrix-visual/power-bi-cell-copy.png)
+
+* Para copiar el valor de una sola celda, seleccione la celda, haga clic con el botón derecho del ratón y elija **Copiar valor**. Con el valor de la celda sin formato en el portapapeles, ahora puede pegarlo en otra aplicación.
+
+    ![opciones de copia](media/desktop-matrix-visual/power-bi-copy.png)
+
+* Para copiar más de una celda, seleccione un rango de celdas o utilice CTRL para seleccionar una o más celdas. La copia incluirá los encabezados de columna y de fila.
+
+    ![pegado en Excel](media/desktop-matrix-visual/power-bi-copy-selection.png)
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Colores de fuente y sombreado con objetos visuales de matriz
 Con el objeto visual **Matriz**, puede aplicar **Formato condicional** (colores y sombreado) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.

@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: b56134314b9396dff1b965786e65e62129e5e7b9
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: 2758ef661b70c53a37104c67c4012be79725990e
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558456"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101494"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -47,9 +47,9 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales.
 
 ## <a name="download-and-install-the-on-premises-data-gateway"></a>Descargar e instalar la puerta de enlace de datos local
 
-Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925). 
+Para descargar la puerta de enlace, seleccione **Puerta de enlace de datos** en el menú Descargas. Descargue la [Puerta de enlace de datos local](http://go.microsoft.com/fwlink/?LinkID=820925).
 
-Tenga en cuenta que la actualización de Puerta de enlace de datos local se lleva a cabo con la reinstalación de la puerta de enlace, como se describe en esta sección. Al actualizar la puerta de enlace (mediante la reinstalación), se conserva la configuración de las puertas de enlace existentes.
+Tenga en cuenta que la puerta de enlace de datos local se actualiza volviendo a instalar la puerta de enlace, tal como se describe en esta sección. Siempre y cuando instale una versión más reciente de la puerta de enlace, las configuraciones existentes se mantendrán. Si instala la misma versión, se trata como una reinstalación completa y no se conserva la configuración.
 
 ![](media/service-gateway-onprem/powerbi-download-data-gateway.png)
 

@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/09/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: b2627950ea51239acb19972fde3244f3bd158255
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 2623dd3280636583d5dd6d6e3f57518550032193
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909231"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003211"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Supervisión de las capacidades de Power BI Premium y Power BI Embedded
 
@@ -61,13 +61,11 @@ La pestaña **Filters applied to all pages** (Filtros aplicados a todas las pág
 
 ### <a name="datasets-tab"></a>Pestaña Conjuntos de datos
 
-En la pestaña **Datasets** (Conjuntos de datos) se proporciona la mayor parte de las métricas de la aplicación. Use los cuatro botones de la parte superior de la pestaña para navegar a otras áreas: **Summary** (Resumen), **Refreshes** (Actualizaciones), **Queries** (Consultas) y **Datasets** (Conjuntos de datos).
+En la pestaña **Datasets** (Conjuntos de datos) se proporciona la mayor parte de las métricas de la aplicación. Use los botones de la parte superior de la pestaña para navegar a otras áreas: **Summary** (Resumen), **Refreshes** (Actualizaciones), **Query Durations** (Duraciones de consultas), **Query Waits** (Tiempos de espera de consulta) y **Datasets** (Conjuntos de datos).
 
 ![Pestaña Conjuntos de datos](media/service-admin-premium-monitor-capacity/datasets-tab.png)
 
 #### <a name="summary-area"></a>Área Summary (Resumen)
-
-![Botón Summary (Resumen)](media/service-admin-premium-monitor-capacity/summary-button.png)
 
 En el área **Summary** (Resumen) se muestra una vista de las capacidades en función de las entidades, los recursos del sistema y las cargas de trabajo de conjunto de datos.
 
@@ -80,19 +78,27 @@ En el área **Summary** (Resumen) se muestra una vista de las capacidades en fun
 
 #### <a name="refreshes-area"></a>Pestaña Refreshes (Actualizaciones)
 
-![Botón Refreshes (Actualizaciones)](media/service-admin-premium-monitor-capacity/refreshes-button.png)
-
 En el área **Refreshes** (Actualizaciones) se muestran las actualizaciones completas, las medidas correctas, el tiempo de espera de actualización medio/máximo y la duración de actualización media/máxima fragmentados por conjuntos de datos en los últimos siete días. Los dos gráficos inferiores muestran las actualizaciones frente al consumo de memoria en GB y los tiempos de espera medios divididos en cubos de una hora, presentados en la hora local. En los gráficos de barras superiores se muestran los cinco conjuntos de datos principales por el tiempo promedio que se tardó en completar la actualización del conjunto de datos (duración de la actualización) y el tiempo promedio de espera de actualización. Varios picos elevados de tiempo de espera de actualización son indicativos de un alto uso de la capacidad.
 
-#### <a name="queries-area"></a>Área Queries (Consultas)
+#### <a name="query-durations-area"></a>Área de duraciones de consultas
 
-![Botón Queries (Consultas)](media/service-admin-premium-monitor-capacity/queries-button.png)
+El área **Query Durations** (Duraciones de consultas) enumera el número total de consultas realizadas y la duración media o máxima en milisegundos. Estos datos se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los últimos siete días. En los gráficos de la parte inferior se muestran los recuentos de consulta y la duración media (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local.
 
-En el área **Queries** (Consultas) se enumera el número total de consultas ejecutadas, el número total de recuento de consultas dinámicas y directas, la duración media/máxima, el tiempo de espera medio/máximo expresado en milisegundos segmentados por conjuntos de datos, área de trabajo y depósitos horarios durante los últimos siete días. En los gráficos de la parte inferior se muestran los recuentos de consulta, la duración media (en milisegundos) y el tiempo de espera medio (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local. En los dos gráficos de la parte superior derecha se enumeran los cinco conjuntos de datos principales, la duración media de las consultas y el tiempo de espera que se ha tardado en completar las consultas. Las duraciones de consulta y los tiempos de espera largos son indicativos de un alto uso de la capacidad. También puede significar que un único conjunto de datos está causando problemas y es necesario seguir investigando.
+El gráfico superior derecho muestra el histograma de distribución de la duración de la consulta. El histograma está dividido en las duraciones de consulta notificadas en milisegundos en las siguientes categorías: 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 s, 1 s-3 s, 3 s-10 s, 10 s-30 s, e intervalos de > 30 segundos.
+
+En el gráfico de la parte inferior derecha se enumeran los cinco conjuntos de datos principales por la duración media de las consultas que se ha tardado en completar las consultas.
+
+Las duraciones de consulta y los tiempos de espera largos son indicativos de un alto uso de la capacidad. También puede significar que un único conjunto de datos está causando problemas y es necesario seguir investigando.
+
+#### <a name="query-waits-area"></a>Área Tiempo de espera de consultas
+
+En el área **Queries Waits** (Tiempos de espera de consulta) se muestra el número total de consultas ejecutadas, el número del tiempo espera de las consultas para consultas dinámicas y directas, el tiempo de espera medio/máximo expresado en milisegundos. Estos datos se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los últimos siete días. El gráfico de la parte inferior muestra los recuentos de los tiempos de espera de las consultas y el tiempo de espera medio (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local.
+
+El gráfico superior derecho muestra el histograma de distribución del tiempo de espera de la consulta. El histograma está dividido en las duraciones de consulta notificadas en milisegundos en las siguientes categorías: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms 400 ms-1s, 1 s-5 s e intervalos de > 5 segundos.
+
+En el gráfico de la parte inferior derecha se enumeran los cinco conjuntos de datos principales por el tiempo de espera medio que se tarda en iniciar las consultas.
 
 #### <a name="datasets-area"></a>Área Datasets (Conjuntos de datos)
-
-![Botón Datasets (Conjuntos de datos)](media/service-admin-premium-monitor-capacity/datasets-button.png)
 
 En el área **Datasets** (Conjunto de datos) se muestran los conjuntos de datos completos expulsados debido a la presión de memoria por la hora.
 

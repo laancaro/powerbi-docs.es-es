@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 06/13/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: c2784bf8e8dca857ae2a1b55d1ad8560e552cafb
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780603"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101333"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 Aquí encontrará los requisitos mínimos de hardware y software para instalar y ejecutar el servidor de informes de Power BI.
@@ -69,7 +69,7 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales. E
 [¿Qué es Power BI Report Server?](get-started.md)  
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
-[Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

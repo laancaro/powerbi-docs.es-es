@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 10/21/2017
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f8c1aae757e80c0c2adbc321345c242eba25098c
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: c49750ef51c1b8bacc36946d2d5c75a08abb36d7
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34456143"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101586"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 En este tutorial se muestran los pasos necesarios para implementar la **seguridad de nivel de fila** dentro del **modelo tabular de Analysis Services** y se muestra cómo usarla en un informe de Power BI. Los pasos de este tutorial se han diseñado para permitirle seguir adelante y conocer los pasos necesarios al completar un conjunto de datos de ejemplo.
@@ -72,6 +72,9 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
     En esta fórmula, la función **LOOKUPVALUE** devuelve todos los valores de la columna **DimUserSecurity[SalesTerritoryID]**, donde **DimUserSecurity[UserName]** es igual que el nombre de usuario de Windows que ha iniciado sesión actualmente y **DimUserSecurity[SalesTerritoryID]** es el mismo que **DimSalesTerritory[SalesTerritoryKey]**.
    
+    > [!IMPORTANT]
+    > Tenga en cuenta que la función DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) no se admite cuando se utiliza la seguridad a nivel de fila.
+
    El conjunto de Sales SalesTerritoryKey devuelto por **LOOKUPVALUE** se usa después para restringir las filas que se muestran en **DimSalesTerritory**. Solo se muestran las filas donde **SalesTerritoryKey** para la fila se encuentra en el conjunto de identificadores devueltos por la función **LOOKUPVALUE**.
 8. Para la tabla **DimUserSecurity**, en la columna **Filtro DAX**, escriba la siguiente fórmula:
    

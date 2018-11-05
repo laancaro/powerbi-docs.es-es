@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b83ef2b6f2cd07e9f6c9af849e0f64d0490fa1af
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546979"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003234"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Conexión a Zuora con Power BI
 Zuora para Power BI permite visualizar datos importantes acerca de ingresos, facturación y suscripciones. Use el panel y los informes predeterminados para analizar las tendencias de uso, realizar un seguimiento de pagos y facturaciones, y supervisar los ingresos recurrentes, o personalícelos para satisfacer sus propias necesidades de panel e informes.
@@ -32,7 +32,7 @@ Conéctese a [Zuora](https://app.powerbi.com/getdata/services/Zuora) para Power 
 3. Seleccione **Zuora** \> **Obtener**.
 
    ![](media/service-connect-to-zuora/zuora.png)
-4. Especifique la dirección URL de Zuora. Normalmente es "<https://www.zuora.com>", pero encontrará más detalles sobre [cómo encontrar estos parámetros](#FindingParams) a continuación.
+4. Especifique la dirección URL de Zuora. La dirección URL normalmente es "<https://www.zuora.com>", pero encontrará más detalles sobre [cómo encontrar estos parámetros](#FindingParams) a continuación.
 
    ![](media/service-connect-to-zuora/params.png)
 5. En **Método de autenticación**, seleccione **Básico** , proporcione el nombre de usuario y la contraseña (distingue mayúsculas de minúsculas), y haga clic en **Iniciar sesión**.
@@ -95,11 +95,10 @@ Se requiere acceso a la API de Zuora.
 Proporcione la dirección URL con la que inicia sesión normalmente para acceder a los datos de Zuora. Las opciones válidas son:  
 
 * https://www.zuora.com  
-* https://www.apisandbox.zuora.com  
 * La dirección URL correspondiente a la instancia de servicio  
 
 ## <a name="troubleshooting"></a>Solución de problemas
-El paquete de contenido de Zuora extrae muchos aspectos diferentes de la cuenta de Zuora. Si no usa determinadas características, es posible que los iconos o informes correspondientes se muestren vacíos. Si experimenta problemas durante la carga, póngase en contacto con el soporte técnico de Power BI.
+El paquete de contenido de Zuora extrae muchos aspectos diferentes de la cuenta de Zuora. Si no usa determinadas características, es posible que los iconos o informes correspondientes se muestren vacíos. Póngase en contacto con el soporte técnico de Power BI si experimenta problemas durante la carga.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a Power BI](service-get-started.md)

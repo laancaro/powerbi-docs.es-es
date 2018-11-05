@@ -1,6 +1,6 @@
 ---
-title: Gráficos de dispersión en Power BI
-description: Gráficos de dispersión en Power BI
+title: Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
+description: Gráficos de dispersión, de trazado de punto y de burbujas de Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,22 +8,26 @@ featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: bd09adf21292b16ee27f111ac92bbd8c83c384d8
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 7739dda4647a82b3c9d4b58976db89038428625a
+ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448854"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50003188"
 ---
-# <a name="scatter-charts-and-bubble-charts-in-power-bi"></a>Gráficos de dispersión y de burbujas de Power BI
+# <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
 
 Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo *tamaño* representa una dimensión adicional de los datos.
 
 ![Gráfico de burbujas de ejemplo](media/power-bi-visualization-scatter/power-bi-bubble-chart.png)
+
+Un gráfico de trazado de puntos es similar a un gráfico de burbujas y a un gráfico de dispersión, excepto que se pueden trazar datos numéricos o categóricos a lo largo del eje X. 
+
+![Gráfico de burbujas de ejemplo](media/power-bi-visualization-scatter/power-bi-dot-plot.png)
 
 Puede establecer el número de puntos de datos, hasta un máximo de 10 000.  
 
@@ -41,6 +45,9 @@ Puede establecer el número de puntos de datos, hasta un máximo de 10 000.
 * si los datos tienen 3 series de datos que contienen un conjunto de valores.
 * para presentar datos financieros.  Los tamaños de burbuja diferentes son útiles para resaltar visualmente valores específicos.
 * para usarlos con cuadrantes.
+
+### <a name="dot-plot-charts-are-a-great-choice-in-place-of-a-scatter-or-bubble"></a>Los gráficos de trazado de punto son una gran opción en lugar de un gráfico de burbuja o de dispersión:
+* si desea incluir datos de categorías en el eje X
 
 ## <a name="create-a-scatter-chart"></a>Crear un gráfico de dispersión
 Vea este vídeo para ver como Will crea un gráfico de dispersión y, después, siga los pasos que se indican a continuación para crear uno propio.
@@ -63,11 +70,11 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 
 3. Conviértalo en un gráfico de dispersión. En el panel Visualización, seleccione el icono Gráfico de dispersión.
 
-   ![](media/power-bi-visualization-scatter/pbi_scatter_chart_icon.png).
+   ![](media/power-bi-visualization-scatter/power-bi-scatter-new.png).
 
 4. Arrastre **Distrito** desde **Detalles** a **Leyenda**. Esto muestra un gráfico de dispersión que traza el **porcentaje de varianza de ventas total** a lo largo del eje Y y las **ventas por metro cuadrado** en el eje X. Los colores del punto de datos representan distritos:
 
-    ![](media/power-bi-visualization-scatter/power-bi-scatter.png)
+    ![](media/power-bi-visualization-scatter/power-bi-scatter2.png)
 
 Ahora vamos a agregar una tercera dimensión.
 
@@ -75,18 +82,17 @@ Ahora vamos a agregar una tercera dimensión.
 
 1. En el panel **Campos**, arrastre **Ventas** > **Ventas de este año** > **Valor** al área **Tamaño**. Los puntos de datos se expanden a volúmenes proporcionales al valor de ventas.
    
-   ![](media/power-bi-visualization-scatter/power-bi-bubble.png)
+   ![los puntos se convierten en burbujas](media/power-bi-visualization-scatter/power-bi-scatter-chart-size.png)
 
 2. Mantenga el mouse encima de una burbuja. El tamaño de la burbuja refleja el valor de **Ventas de este año**.
    
-    ![](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
+    ![visualización de información sobre herramientas](media/power-bi-visualization-scatter/pbi_scatter_chart_hover.png)
 
 3. Para establecer el número de puntos de datos que se van a mostrar en el gráfico de burbujas, en la sección **Formato** del panel **Visualizaciones**, expanda la tarjeta **General** y ajuste el **Volumen de datos**. Puede establecer el volumen de datos máximo en cualquier número hasta 10 000. Si va a usar cifras más altas, recomendamos probar primero para garantizar un buen rendimiento. 
 
     ![Volumen de datos](media/power-bi-visualization-scatter/pbi_scatter_data_volume.png) 
 
-   > [!NOTE]
-   > Dado que más puntos de datos pueden significar un tiempo de carga mayor, si opta por publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes en Internet y en dispositivos móviles para garantizar que el rendimiento se ajusta a las expectativas de los usuarios. Tenga en cuenta que para un mayor número de puntos de datos, debe probar los resultados en diferentes factores de forma para garantizar un buen rendimiento.
+   Dado que más puntos de datos pueden significar un tiempo de carga mayor, si opta por publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes en Internet y en dispositivos móviles para garantizar que el rendimiento se ajusta a las expectativas de los usuarios. 
 
 4. Puede [aplicar formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc.](service-getting-started-with-color-formatting-and-axis-properties.md) Para [mejorar la accesibilidad](../desktop-accessibility.md), considere la posibilidad de agregar formas de marcador a cada línea. El empleo de una forma de marcador distinta para cada línea permite que los lectores del informe puedan diferenciar cada una de las líneas (o áreas) con más facilidad. Para seleccionar la forma de marcador, expanda la tarjeta **Formas** y luego seleccione una forma de marcador.
 
@@ -95,6 +101,13 @@ Ahora vamos a agregar una tercera dimensión.
    También puede cambiar la forma del marcador en forma de rombo, triángulo o cuadrado:
 
    ![Marcador cuadrado](media/power-bi-visualization-scatter/pbi_scatter_chart_hover_square.png)
+
+## <a name="create-a-dot-plot"></a>Creación de un gráfico de trazado de punto
+Para crear un gráfico de trazado de punto, sustituya el campo numérico del eje X por un campo categórico.
+
+Desde el panel **Eje X**, quite **Ventas por metro cuadrado** y reemplácelo por **Distrito > DM**.
+   
+![nuevo trazado de puntos](media/power-bi-visualization-scatter/power-bi-dot-plot-squares.png)
 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas

@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/18/2018
+ms.date: 10/24/2018
 ms.author: maghan
-ms.openlocfilehash: 1dbca883bc4df2bde743963db7994361616be192
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 2c8319395bd4daf44562f71380fc254964708c2b
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34721924"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50100620"
 ---
 # <a name="admin-overview-power-bi-report-server"></a>Información general para administradores, Power BI Report Server
 Este artículo contiene información general de administración de Power BI Report Server, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI. En este artículo se presentan los conceptos de planeamiento, implementación y administración de Power BI Report Server, con vínculos a información adicional.
@@ -28,7 +28,7 @@ Para empezar a usar Power BI Report Server, es preciso instalarlo. Disponemos de
 
 Antes de empezar a instalar, actualizar o migrar a Power BI Report Server, eche un vistazo a los [requisitos del sistema](system-requirements.md) para el servidor de informes.
 
-### <a name="installing"></a>Instalación
+### <a name="installing"></a>Instalando
 Si va a implementar una instancia nueva de Power BI Report Server, utilice los siguientes documentos, ya que le servirán de ayuda. 
 
 [Instalar un servidor de informes de Power BI](install-report-server.md)
@@ -50,7 +50,7 @@ La seguridad y la protección son dos aspectos importantes para todas las organi
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Buscar la clave de producto del servidor de informes](find-product-key.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
-[Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

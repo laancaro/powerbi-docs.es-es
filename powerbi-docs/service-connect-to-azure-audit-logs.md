@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 02/06/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 882fdad2b29c9bd21ea0b979d5009dee86304159
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4faaa63a3845125b4df1ec634d22b084b5ae25f2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548152"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101218"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Conexión a Azure Audit Logs con Power BI
 Con el paquete de contenido de Registros de auditoría de Azure puede analizar y visualizar la información almacenada en los registros de auditoría. Power BI recupera los datos, crea un panel integrado y crea informes basados en esos datos.
@@ -53,7 +53,7 @@ Con el paquete de contenido de Registros de auditoría de Azure puede analizar y
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="system-requirements"></a>Requisitos del sistema
-El paquete de contenido de registros de auditoría de Azure requiere acceso a los registros de auditoría en Azure Portal. Consulte más detalles [aquí](https://azure.microsoft.com/documentation/articles/insights-debugging-with-events/).
+El paquete de contenido de registros de auditoría de Azure requiere acceso a los registros de auditoría en Azure Portal. Consulte más detalles [aquí](/azure/azure-resource-manager/resource-group-audit/).
 
 <a name="FindingParams"></a>
 

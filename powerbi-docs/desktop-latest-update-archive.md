@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: cda575c11be90c8e18a3a9f3b8325ccf674afffc
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: b068516b13b3aab134b20f95939c75a5b6e949b5
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49337091"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101701"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -341,7 +341,7 @@ Las actualizaciones de marzo de **Power BI Desktop** son geniales, como si nos h
 
 ### <a name="reporting"></a>Informes
 
-* Información en pantalla de páginas para informes [[vídeo]](https://youtu.be/kuI6MMzDh34?t=16s) [[artículo]]()  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
+* Información en pantalla de páginas para informes [[vídeo]](https://youtu.be/kuI6MMzDh34?t=16s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#tooltips) 
 * Los marcadores ya están disponibles con carácter general [[vídeo]](https://youtu.be/kuI6MMzDh34?t=9m2s) [[artículo]](desktop-bookmarks.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#bookmarking) 
 * Visualización de unidades y control de precisión para las columnas de tabla y matriz [[vídeo]](https://youtu.be/kuI6MMzDh34?t=11m1s) [[artículo]](desktop-slicer-numeric-range.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#displayUnits) 
 * Desactivación del encabezado visual de un informe en modo de lectura [[vídeo]](https://youtu.be/kuI6MMzDh34?t=12m25s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#visualHeader) 

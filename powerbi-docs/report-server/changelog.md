@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: 41f48e886c376f6cc00a76313538e5a6b9ac1c3b
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641951"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101540"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -169,7 +169,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
 [¿Qué es Power BI Report Server?](get-started.md)
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
-[Instalación del Generador de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/install-report-builder)  
+[Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
 [Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

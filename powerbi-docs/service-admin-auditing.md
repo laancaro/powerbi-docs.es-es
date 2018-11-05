@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 5051ed66b4214b7ef55ecf2a95d5ed4bc38653ce
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: bc4e144fa4095f5ffc1369a9f54da12fa262f7c2
+ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49642020"
+ms.lasthandoff: 10/25/2018
+ms.locfileid: "50101609"
 ---
 # <a name="using-auditing-within-your-organization"></a>Usar la auditoría dentro de su organización
 
