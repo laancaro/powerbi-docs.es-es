@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 ms.date: 09/17/2018
-ms.openlocfilehash: ac35e0c61576e561afd495e51d814bc38ab0a3f5
-ms.sourcegitcommit: 9719eccf29298c9c673200350abc58281ef14869
+ms.openlocfilehash: 5fb4583dccf7b6543881f1c9062227b9a3a68b05
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2018
-ms.locfileid: "46473986"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223150"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>¿Qué pueden hacer los desarrolladores con Power BI?
 
@@ -44,7 +44,7 @@ Con los objetos visuales personalizados puede crear sus propios objetos visuales
 
 ![Ejemplo de CV](media/what-can-you-do/powerbi-custom-visual-store.png)
 
-Para saber más sobre el desarrollo visual personalizado, vea [Usar herramientas de desarrollo para crear objetos visuales personalizados](../service-custom-visuals-getting-started-with-developer-tools.md).
+Para saber más sobre el desarrollo visual personalizado, vea [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md).
 
 ## <a name="using-api-automation"></a>Uso de automatización de la API
 

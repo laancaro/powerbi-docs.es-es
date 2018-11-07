@@ -2,6 +2,7 @@
 title: Visualizaciones personalizadas certificadas de Power BI
 description: Requisitos y procedimiento para enviar un objeto visual personalizado para su certificación. Y una lista de objetos visuales personalizados ya certificados.
 author: mihart
+ms.author: mihart
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
@@ -9,45 +10,46 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mihart
-ms.openlocfilehash: ba6c59d168deb5fb68f4b339f11fba795bae6452
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 72b09083c50a88e2d22e9aa22f54ff014dafa998
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252408"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223453"
 ---
 # <a name="getting-a-custom-visual-certified"></a>Obtención de un objeto visual personalizado *certificado*
+
 ## <a name="what-is-meant-by-certified"></a>¿Qué se entiende por *certificado*?
+
 Un *objeto visual personalizado certificado* es aquel que cumple un conjunto de requisitos de código y que ha superado estrictas pruebas de seguridad.  Una vez certificado un objeto visual personalizado, se puede [exportar a PowerPoint](consumer/end-user-powerpoint.md) y se mostrará en los correos electrónicos que reciban los usuarios al [suscribirse a las páginas de informe](consumer/end-user-subscribe.md). También se pueden usar como [objetos visuales personalizados estándar](power-bi-custom-visuals.md), se pueden agregar a informes del servicio Power BI y Power BI Desktop y verse e insertarse en Power BI Mobile.
 
-¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a [Microsoft AppSource](https://appsource.microsoft.com)? Para ver cómo hacerlo, consulte [Introducción a las Herramientas de desarrollo](service-custom-visuals-getting-started-with-developer-tools.md).
-
+¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a [Microsoft AppSource](https://appsource.microsoft.com)? Vea [Desarrollo de objetos visuales personalizados de Power BI](developer/custom-visual-develop-tutorial.md) para ver cómo hacerlo.
 
 ## <a name="certification-requirements"></a>Requisitos de certificación
-* Aprobado por Microsoft AppSource    
-* El objeto visual personalizado se escribe con la API 1.2 o superior con control de versiones    
-* Repositorio de código disponible para su revisión (p. ej., código de elemento visual disponible a través de GitHub)    
-* Utiliza solo componentes de OSS públicos que se pueden revisar    
-* No tiene acceso a recursos o servicios externos    
+
+* Aprobado por Microsoft AppSource
+* El objeto visual personalizado se escribe con la API 1.2 o superior con control de versiones
+* Repositorio de código disponible para su revisión (p. ej., código de elemento visual disponible a través de GitHub)
+* Utiliza solo componentes de OSS públicos que se pueden revisar
+* No tiene acceso a recursos o servicios externos
 
 > **Sugerencia**: le recomendamos que use EsLint con un conjunto de reglas de seguridad predeterminadas para validar previamente el código antes de su envío.
-> 
-> 
 
 ## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Proceso para enviar un objeto visual personalizado para su certificación
+
 Para enviar un objeto visual personalizado para su certificación:
 
 1. Envíe un correo electrónico al soporte técnico de objetos visuales personalizados de Power BI (pbicvsupport@microsoft.com). En el correo electrónico, incluya la siguiente información:    
 
-   * Título: Solicitud de certificación visual    
-   * Vínculo al repositorio de GitHub donde se hospeda el código fuente visual    
-   * Cumplimiento de los requisitos (consulte más arriba)    
-   * Aprobación de la revisión del código y seguridad    
+   * Título: Solicitud de certificación visual
+   * Vínculo al repositorio de GitHub donde se hospeda el código fuente visual
+   * Cumplimiento de los requisitos (consulte más arriba)
+   * Aprobación de la revisión del código y seguridad
 
 2. El equipo de objetos visuales personalizados de Microsoft le notificará cuando el objeto visual personalizado se haya certificado y agregado a la lista de objetos visuales certificados (más abajo), o se haya rechazado con un informe de los problemas que deben corregirse. Es responsabilidad del desarrollador mantener una línea abierta de comunicación con Microsoft y actualizar sus objetos visuales certificados como sea necesario.
 
 ## <a name="removal-of-power-bi-certified-custom-visuals"></a>Eliminación de objetos visuales personalizados certificados de Power BI
+
 Microsoft, a su discreción, puede quitar un objeto visual de la lista de objetos visuales certificados.  
 
 ## <a name="list-of-custom-visuals-that-have-been-certified"></a>Lista de objetos visuales personalizados que se han certificado
@@ -142,10 +144,11 @@ Microsoft, a su discreción, puede quitar un objeto visual de la lista de objeto
 | [Word Cloud](https://appsource.microsoft.com/en-us/product/power-bi-visuals/WA104380752) | [Vídeo](https://youtu.be/AblTenl9fqo) |
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Introducción a las herramientas de desarrollador de objetos visuales personalizados (versión preliminar)](service-custom-visuals-getting-started-with-developer-tools.md)      
-[Lista de reproducción sobre objetos visuales de Microsoft en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
-[Visualizaciones en Power BI](visuals/power-bi-report-visualizations.md)  
-[Visualizaciones personalizadas en Power BI](power-bi-custom-visuals.md)  
-[Publicar objetos visuales personalizados en Microsoft AppSource](developer/office-store.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 
+* [Desarrollo de objetos visuales personalizados de Power BI](developer/custom-visual-develop-tutorial.md)
+* [Lista de reproducción sobre objetos visuales de Microsoft en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN1vIjfvuBIzZllrmKo-Vz6x)  
+* [Visualizaciones en Power BI](visuals/power-bi-report-visualizations.md)  
+* [Visualizaciones personalizadas en Power BI](power-bi-custom-visuals.md)  
+* [Publicar objetos visuales personalizados en Microsoft AppSource](developer/office-store.md)  
+
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

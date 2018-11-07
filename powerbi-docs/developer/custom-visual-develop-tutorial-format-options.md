@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 10/26/2018
-ms.openlocfilehash: dcefa427290fd804a0b2c79dc357e5f5bfbe7296
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.date: 11/06/2018
+ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50161035"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223269"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual personalizado de Power BI
 
@@ -254,6 +254,10 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 8. Mantenga el puntero sobre el icono **Circle Card** y verá la información sobre herramientas que aparece.
 
+## <a name="debugging"></a>Depuración
+
+Para obtener sugerencias sobre cómo depurar el objeto visual personalizado, consulte la [guía de depuración](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/how-to-debug/).
+
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para más información sobre cómo publicar su nuevo objeto visual personalizado para que sea consumido por otros, consulte [Publicar objetos visuales personalizados en AppSource](office-store.md).
+Puede enumerar los objetos visuales recién desarrollados para que los usen otras personas y enviarlos a **AppSource**. Para más información acerca de este proceso, consulte [Publicar objetos visuales personalizados en AppSource](office-store.md).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 525a7e45a804d9f82f4d06cf8618d790e140699f
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336884"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223384"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -34,6 +34,8 @@ A partir de la versión de septiembre de 2017 de **Power BI Desktop**, puede pre
 
 Con las mejoras de accesibilidad, puede usar un informe de Power BI con un teclado o un lector de pantalla mediante las siguientes técnicas:
 
+Al ver un informe, normalmente el modo de examen debería estar desactivado.
+
 Puede cambiar el enfoque entre las pestañas de las páginas del informe o los objetos de la página de un informe determinada con las teclas **Ctrl+F6**.
 
 * Cuando el enfoque recae en las *pestañas de páginas de informes*, use el *tabulador* o las teclas de *dirección* para cambiar el enfoque de la página de un informe a la siguiente. El lector de pantalla lee el título de la página del informe e identifica si dicha página está seleccionada actualmente. Para cargar la página del informe en la que recae el enfoque actualmente, use la tecla *ENTRAR* o la *barra espaciadora*.
@@ -48,7 +50,7 @@ Puede presionar **Alt + Mayús + F11** para presentar una versión accesible de 
 ![Presione Alt + Mayús + F11 en Power BI Desktop para mostrar una ventana accesible Ver datos en un objeto visual](media/desktop-accessibility/accessibility_04.png)
 
 > [!NOTE]
-> La característica Mostrar datos solo es accesible mediante un lector de pantalla con este método abreviado de teclado. Si abre Mostrar datos con la opción del encabezado visual, no será accesible mediante un lector de pantalla.
+> La característica Mostrar datos solo es accesible mediante un lector de pantalla con este método abreviado de teclado. Si abre Mostrar datos con la opción del encabezado visual, no será accesible mediante un lector de pantalla. Al usar Mostrar datos, active el modo de examen para aprovechar las teclas de acceso rápido que proporciona el lector de pantalla.
 
 A partir de la versión de **Power BI Desktop** de julio de 2018, las segmentaciones también tienen integrada la funcionalidad de accesibilidad. Cuando seleccione una segmentación, use CTRL+flecha derecha (tecla Control más la tecla de flecha derecha) para moverse por los distintos controles dentro de la segmentación. Por ejemplo, cuando presiona inicialmente CTRL+flecha derecha, el foco está en el borrador y presionar la barra espaciadora equivale a hacer clic en el botón del borrador, con lo que se borran todos los valores de la segmentación. 
 
@@ -112,6 +114,55 @@ Hay algunos problemas conocidos y limitaciones con las características de acces
 
 * Cuando se usan lectores de pantalla con **Power BI Desktop**, se obtiene una experiencia óptima si se abre el lector de pantalla preferido antes de abrir cualquier archivo en Power BI Desktop.
 * Si usa Narrador, existen algunas limitaciones en cuanto al desplazamiento por Mostrar datos como una tabla HTML.
+
+## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
+### <a name="frequently-used-shortcuts"></a>Métodos abreviados de uso frecuente
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Mover el foco entre secciones  | Ctrl + F6 |
+| Mover el foco hacia adelante en la sección | Tab         |
+| Mover el foco hacia atrás en la sección | Mayús + Tabulador |
+
+### <a name="on-visual"></a>Sobre el objeto visual
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Mover el foco al menú de objetos visuales | Alt + Mayús + F10 |
+| Mostrar datos | Alt + Mayús + F11  |
+
+### <a name="pane-navigation"></a>Navegación por el panel
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Abrir un menú contextual | <ul><li>Teclado de Windows: tecla de contexto de Windows + F10.  La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: Mayús + F10</li></ul> |
+
+### <a name="slicer"></a>Segmentación
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Interactuar con una segmentación | Ctrl + tecla de flecha derecha |
+
+### <a name="selection-pane"></a>Panel Selección
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Activar panel de selección | F6 |
+| Mover un objeto hacia arriba en la disposición en capas | Ctrl + Mayús + F |
+| Mover un objeto hacia abajo en la disposición en capas | Ctrl + Mayús + B |
+| Ocultar o mostrar (alternar) un objeto | Ctrl + Mayús + S |
+
+### <a name="dax-editor"></a>Editor DAX
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Subir o bajar una línea | Alt + tecla de flecha arriba o abajo |
+| Copiar línea arriba o abajo | Mayús + Alt + tecla de flecha arriba o abajo |
+| Insertar línea debajo | Ctrl + Entrar |
+| Insertar línea encima | Ctrl + Shift + Entrar |
+| Saltar al corchete correspondiente | Ctrl + Mayús + \ |
+| Aplicar sangría o anular la sangría de la línea | Ctrl + ] / [ |
+| Insertar cursor | Alt + clic |
+| Seleccionar la línea actual | Ctrl + I |
+| Seleccionar todas las apariciones de la selección actual | Ctrl + Mayús + L |
+| Seleccionar todas las apariciones de la palabra actual | Ctrl + F2 |
+
+
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Uso de los temas para los informes en Power BI Desktop (versión preliminar)](desktop-report-themes.md)

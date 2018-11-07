@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6fc21a9b8558b554cae6e9096aaee0fbaabcdaf3
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e34491ebc1cc7554e8c8c000da7528754b5a673b
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222091"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223108"
 ---
 # <a name="use-organizational-custom-visuals-in-power-bi"></a>Uso de objetos visuales personalizados de organización en Power BI
 
@@ -54,4 +54,12 @@ Usuario final:
 
 * Los objetos visuales de Visio, PowerApps, de Map y GlobeMap del Marketplace de AppSource no se representarán si se implementan a través del repositorio de la organización.
 
-Para más información y respuestas a las preguntas, visite las [preguntas más frecuentes](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+## <a name="troubleshoot"></a>Solucionar problemas
+
+Para obtener información sobre cómo solucionar problemas, visite [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Solución de problemas con objetos visuales personalizados de Power BI).
+
+## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
+
+Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales personalizados de Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).

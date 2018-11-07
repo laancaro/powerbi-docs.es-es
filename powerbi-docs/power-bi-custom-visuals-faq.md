@@ -10,12 +10,12 @@ ms.component: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/29/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a2e43d205b9e4f3085652ac3603ee68f67b2b33c
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: 064d32944f52f6e391d4a7ec4df41ecbf09b7e3f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222175"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223085"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 
@@ -58,3 +58,7 @@ Sí, si el administrador deshabilita los objetos visuales personalizados del por
 **¿Qué son los objetos visuales personalizados certificados?**
 
 Los objetos visuales personalizados certificados son objetos visuales en [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) que cumplen con ciertos requisitos de código [especificados](power-bi-custom-visuals-certified.md) y que el equipo de Power BI ha probado.  Las pruebas realizadas están diseñadas para comprobar que el objeto visual no accede a servicios o recursos externos; sin embargo, Microsoft no es el autor de los objetos visuales personalizados de terceros, por lo que aconsejamos a los clientes que se pongan en contacto directamente con el autor para comprobar la funcionalidad de dicho objeto visual.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Para obtener información sobre cómo solucionar problemas, visite [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Solución de problemas con objetos visuales personalizados de Power BI).

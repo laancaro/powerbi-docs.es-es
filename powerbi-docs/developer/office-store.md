@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: d46acd9c70e8deb7fb9ae6d241256e61b7f85b65
-ms.sourcegitcommit: f2eab2c3e7b5ec3684f63d819f10cb3dcfa21e73
+ms.openlocfilehash: 4ac828baa4f6080ab50008aa4ffb570ff016246f
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "50153757"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223151"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
 
-Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md).
+Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para obtener más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md).
 
    ![Tienda Office](media/office-store/AppSource_01.jpg)
 
@@ -147,7 +147,7 @@ Una vez creado el objeto visual, si lo desea, puede obtener su certificación. E
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Uso de herramientas de desarrollo para crear objetos visuales personalizados](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md)  
 [Visualizaciones en Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizaciones personalizadas en Power BI](../power-bi-custom-visuals.md)  
 [Obtención de un objeto visual personalizado *certificado*](../power-bi-custom-visuals-certified.md)

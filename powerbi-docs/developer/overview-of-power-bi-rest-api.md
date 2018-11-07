@@ -1,6 +1,6 @@
 ---
 title: ¿Qué puedo hacer con la API de Power BI?
-description: ¿Qué puedo hacer con la API de Power BI?
+description: ¿Qué se puede hacer con la API de Power BI?
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 3b19740616e7b9a390a883fde2fd96320de7b94a
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: a1492a98825ad26b2dde359cf9cec96cc4623e04
+ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973595"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51223177"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -29,7 +29,7 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 | Insertar paneles, informes e iconos para usuarios de Power BI y usuarios que no usan Power BI (la aplicación es propietaria de los datos) |[Procedimiento para insertar paneles, informes e iconos de Power BI](embedding-content.md) |
 | Ampliar un flujo de trabajo de empresa existente para insertar datos clave en un panel de Power BI. |[Insertar datos en un panel](walkthrough-push-data.md) |
 | Autenticación en Power BI. |[Autenticación en Power BI](get-azuread-access-token.md) |
-| Crear un objeto visual personalizado. |[Uso de herramientas de desarrollo para crear objetos visuales personalizados](../service-custom-visuals-getting-started-with-developer-tools.md) |
+| Crear un objeto visual personalizado. |[Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md) |
 
 > [!NOTE]
 > Las API de Power BI siguen haciendo referencia a las áreas de trabajo de la aplicación como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo de la aplicación.
@@ -72,7 +72,7 @@ Puede usar la API de Power BI para insertar datos en un conjunto de datos. Esta 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Inserción de datos en un conjunto de datos](walkthrough-push-data.md)  
-[Getting started with custom visuals developer tools (Introducción a las herramientas de desarrollo de objetos visuales personalizados)](../service-custom-visuals-getting-started-with-developer-tools.md)  
+[Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md)  
 [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
