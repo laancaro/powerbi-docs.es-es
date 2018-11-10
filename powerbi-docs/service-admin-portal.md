@@ -2,20 +2,20 @@
 title: Portal de administración de Power BI
 description: El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración.
 author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 02829adb386cc746715a34300a42aba616dc2d60
-ms.sourcegitcommit: 862faf948468d7f6d464b83f4e0b040d5213a580
+ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2018
-ms.locfileid: "50252500"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973267"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -90,6 +90,8 @@ Administrará usuarios, grupos y administradores de Power Bi en el Centro de adm
 
 Administrará registros de auditoría de Power BI en el Centro de seguridad y cumplimiento de Office 365. La pestaña **Registros de auditoría** proporciona un vínculo al Centro de seguridad y cumplimiento del inquilino. [Más información](service-admin-auditing.md)
 
+Para usar los registros de auditoría, asegúrese de que la opción [**Crear registros de auditoría para el cumplimiento y la auditoría de la actividad interna**](#create-audit-logs-for-internal-activity-auditing-and-compliance) está habilitada.
+
 ## <a name="tenant-settings"></a>Configuración de inquilinos
 
 La pestaña **Configuración de inquilinos** permite controlar de manera pormenorizada las características que están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización, o puede que solo quiera que una determinada característica esté disponible para un grupo concreto.
@@ -133,7 +135,7 @@ Los usuarios de la organización pueden crear áreas de trabajo de aplicación p
 
 ### <a name="share-content-to-external-users"></a>Compartir contenido con usuarios externos
 
-Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización.
+Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización. [Más información](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
 
 ![Opción de usuarios externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -181,40 +183,37 @@ En la imagen siguiente se muestra el menú **Archivo** para un informe cuando es
 
 Los usuarios de la organización pueden imprimir paneles e informes. [Más información](consumer/end-user-print.md)
 
-![](media/service-admin-portal/powerbi-admin-print-dashboard.png)
+En la imagen siguiente se muestra la opción para imprimir un panel.
 
-![](media/service-admin-portal/powerbi-admin-print-report.png)
+![Imprimir panel](media/service-admin-portal/powerbi-admin-print-dashboard.png)
 
-## <a name="content-pack-settings"></a>Configuración de los paquetes de contenido
+En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Imprimir paneles e informes**.
 
-### <a name="publish-content-packs-to-the-entire-organization"></a>Publicar paquetes de contenido para toda la organización
+![Imprimir informe](media/service-admin-portal/powerbi-admin-print-report.png)
 
-Los usuarios de la organización pueden publicar paquetes de contenido para toda la organización.
+## <a name="content-pack-and-app-settings"></a>Configuración de paquetes de contenido y de aplicaciones
 
-![](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+### <a name="publish-content-packs-and-apps-to-the-entire-organization"></a>Publicación de paquetes de contenido y aplicaciones en toda la organización
 
-### <a name="create-template-organizational-content-packs"></a>Crear paquetes de plantilla de contenido de organización
+Los usuarios de la organización pueden publicar paquetes de contenido y aplicaciones en toda la organización, en lugar de solo en grupos específicos. [Más información](service-organizational-content-pack-manage-update-delete.md)
 
-Los usuarios de la organización pueden crear paquetes de plantilla de contenido que utilizan conjuntos de datos integrados en un origen de datos de Power BI Desktop.
+La siguiente imagen muestra la opción **Toda mi organización** al crear un paquete de contenido.
+
+![Publicar el paquete de contenido en la organización](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
+
+### <a name="create-template-organizational-content-packs-and-apps"></a>Crear paquetes de contenido organizativos y aplicaciones de plantilla
+
+Los usuarios de la organización pueden crear paquetes de plantilla de contenido que utilizan conjuntos de datos integrados en Power BI Desktop. [Más información](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>Insertar aplicaciones para los usuarios finales
 
-El administrador de inquilinos ofrece la posibilidad de insertar aplicaciones en **Configuración de inquilinos**.
-
-   ![Habilitar la inserción de aplicaciones](media/service-create-distribute-apps/power-bi-apps-pushapps01.png)
-
-Puede cambiar el valor a **Habilitado** y luego especificar quién obtiene esta capacidad (toda la organización o grupos de seguridad específicos).
-
-> [!NOTE]
-> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
-
-Vaya aquí para obtener más información sobre cómo [insertar aplicaciones](service-create-distribute-apps.md).
+Los usuarios pueden compartir aplicaciones directamente con los usuarios finales sin requerir la instalación desde AppSource. [Más información](service-create-distribute-apps.md)
 
 ## <a name="integration-settings"></a>Configuración de integración
 
 ### <a name="ask-questions-about-data-using-cortana"></a>Realizar preguntas sobre datos mediante Cortana
 
-Los usuarios de la organización pueden realizar preguntas sobre sus datos mediante Cortana.
+Los usuarios de la organización pueden realizar preguntas sobre sus datos mediante Cortana. [Más información](service-cortana-enable.md)
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
@@ -264,23 +263,14 @@ Se debe habilitar esta configuración para que las entradas de registro de audit
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
 ### <a name="usage-metrics-for-content-creators"></a>Métricas de uso para creadores de contenido
-Los usuarios de la organización pueden consultar las métricas de uso de los paneles y los informes que hayan creado. [Más información](service-usage-metrics.md).
 
-Puede cambiar el valor a **Habilitado** y luego especificar quién puede ver métricas de uso (toda la organización o grupos de seguridad específicos).
-
-> [!NOTE]
-> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
+Los usuarios de la organización pueden consultar las métricas de uso de los paneles y los informes que hayan creado. [Más información](service-usage-metrics.md)
 
 ### <a name="per-user-data-in-usage-metrics-for-content-creators"></a>Datos por usuario en métricas de uso de creadores de contenido
-Las métricas de uso de creadores de contenido revelan los nombres para mostrar y las direcciones de correo electrónico de los usuarios que acceden al contenido. [Más información](service-usage-metrics.md).
 
-Puede cambiar el valor a **Habilitado** y luego especificar quién puede ver nombres para mostrar y direcciones de correo electrónico en las métricas de uso (toda la organización o grupos de seguridad específicos).
+Las métricas de uso de creadores de contenido revelan los nombres para mostrar y las direcciones de correo electrónico de los usuarios que acceden al contenido. [Más información](service-usage-metrics.md)
 
 Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si prefiere no incluir esta información de algunos los usuarios, incluso de ninguno de ellos, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparecerá en el informe como *Sin nombre*.
-
-> [!NOTE]
-> Recuerde que los cambios de configuración de inquilinos pueden tardar algún tiempo en aplicarse.
-
 
 ## <a name="dashboard-settings"></a>Configuración del panel
 
@@ -295,69 +285,79 @@ Los usuarios de la organización pueden etiquetar paneles con clasificaciones qu
 
 ### <a name="embed-content-in-apps"></a>Insertar contenido en las aplicaciones
 
-Los usuarios de la organización pueden insertar informes y paneles de Power BI en las aplicaciones de software como servicio (SaaS). Si deshabilita esta configuración, impide que los usuarios puedan usar las API REST para insertar contenido de Power BI en la aplicación.
+Los usuarios de la organización pueden insertar informes y paneles de Power BI en las aplicaciones de software como servicio (SaaS). Si deshabilita esta configuración, impide que los usuarios puedan usar las API REST para insertar contenido de Power BI en la aplicación. [Más información](developer/embedding.md)
+
+## <a name="workspaces-and-import-settings"></a>Configuración de áreas de trabajo y de importación
+
+### <a name="author-content-in-workspaces"></a>Crear contenido en áreas de trabajo
+
+Los usuarios de la organización pueden acceder a las áreas de trabajo para conectarse a datos y crear contenido. [Más información](service-create-the-new-workspaces.md)
+
+### <a name="import-data-into-power-bi"></a>Importar datos en Power BI
+
+Los usuarios de la organización pueden importar datos en el servicio, como publicar informes de Power BI Desktop, cargar archivos de informes de Power BI y conectarse a los datos directamente desde el servicio. [Más información](desktop-upload-desktop-files.md)
 
 ## <a name="capacity-settings"></a>Configuración de la capacidad
 
-### <a name="premium-settings"></a>Configuración de Premium
+### <a name="power-bi-premium"></a>Power BI Premium
 
-La pestaña Configuración de Premium le permite administrar las capacidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña Configuración de Premium, pero solo ven lo que contiene si están asignados como **administrador de capacidades** o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
+La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium**, pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
 
-![Configuración de administrador de Power BI Premium](media/service-admin-portal/premium-settings-no-access.png "Sin acceso a la configuración de Premium")
+![No hay acceso a la configuración de Premium](media/service-admin-portal/premium-settings-no-access.png)
 
 Para más información sobre cómo administrar la configuración de Premium, consulte [Administración de Power BI Premium](service-admin-premium-manage.md).
 
-### <a name="power-bi-embedded-settings"></a>Configuración de Power BI Embedded
+### <a name="power-bi-embedded"></a>Power BI Embedded
 
-La pestaña Configuración de Power BI Embedded le permite ver sus capacidades de Power BI Embedded (SKU A) que ha adquirido para su cliente. Dado que solo puede adquirir SKU A de Azure, puede [administrar las capacidades insertadas en Azure](developer/azure-pbie-create-capacity.md) desde **Azure Portal**.
-
-![Configuración de administración de Power BI Embedded](media/service-admin-portal/manage-pbie-capacities-01.png)
-
-![Detalles de configuración de administración de Power BI Embedded](media/service-admin-portal/manage-pbie-capacities-02.png)
+La pestaña **Power BI Embedded** le permite ver sus funcionalidades de Power BI Embedded (SKU A) que ha adquirido para su cliente. Dado que solo puede adquirir SKU A de Azure, puede [administrar las funcionalidades insertadas en Azure](developer/azure-pbie-create-capacity.md) desde **Azure Portal**.
 
 Para más información sobre cómo administrar la configuración de Power BI Embedded (SKU A), consulte [¿Qué es Power BI Embedded?](developer/azure-pbie-what-is-power-bi-embedded.md).
 
 ## <a name="embed-codes"></a>Códigos para insertar
 
-![Códigos para insertar en el portal de administración de Power BI](media/service-admin-portal/embed-codes.png)
+Como administrador, puede ver los códigos para insertar que se generan para su inquilino. También puede revocar o eliminar códigos. [Más información](service-publish-to-web.md)
 
-Como administrador, puede ver los códigos para insertar que se generan para su inquilino. Puede ver el informe y eliminar el código para insertar para revocarlo.
+![Códigos para insertar en el portal de administración de Power BI](media/service-admin-portal/embed-codes.png)
 
 ## <a name="organization-visuals"></a>Objetos visuales de la organización
 
-La pestaña de objetos visuales de la organización le permite implementar y administrar los objetos visuales personalizados dentro de la organización, por lo que puede implementar con facilidad sus propios objetos visuales personalizados en la organización con el fin de que los autores de los informes detecten e importen fácilmente los objetos visuales directamente desde Power BI Desktop en sus informes.
+La pestaña **Objetos visuales de la organización** le permite implementar y administrar los objetos visuales personalizados dentro de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](power-bi-custom-visuals-organization.md)
 
-La página muestra todos los objetos visuales personalizados que están implementados actualmente en el repositorio de la organización.
+> [!WARNING]
+> Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de la organización.
+
+En la imagen siguiente se muestran todos los objetos visuales personalizados que están implementados actualmente en un repositorio de la organización.
 
 ![Objeto visual de administrador de organización](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-01.png)
 
 ### <a name="add-a-new-custom-visual"></a>Adición de un nuevo objeto visual personalizado
 
-Para agregar un nuevo objeto visual personalizado a la lista, seleccione **Agregar objeto visual personalizado**.
+Para agregar un nuevo objeto visual personalizado a la lista, siga estos pasos. 
 
-![](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
+1. En el panel derecho, seleccione **Agregar objeto visual personalizado**.
 
-> [!WARNING]
-> Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de origen.
+    ![Formulario de objetos visuales personalizados](media/service-admin-portal/power-bi-custom-visuals-organizational-admin-02.png)
 
-Complete los campos:
+1. Rellene el formulario **Agregar objeto visual personalizado**:
 
-* Elija un archivo .pbiviz (obligatorio): seleccione un archivo visual personalizado para cargar. Se admiten solo objetos visuales de API con control de versiones (lea aquí lo que esto significa).
+    * **Elija un archivo .pbiviz** (obligatorio): seleccione un archivo visual personalizado para cargar. Se admiten solo objetos visuales de API con control de versiones (lea aquí lo que esto significa).
 
-Antes de cargar un objeto visual personalizado, debe revisar la seguridad y privacidad de dicho objeto visual para asegurarse de que se ajusta a los estándares de su organización. Obtenga más información acerca de la seguridad de los objetos visuales personalizados.
+    Antes de cargar un objeto visual personalizado, debe revisar la seguridad y privacidad de dicho objeto visual para asegurarse de que se ajusta a los estándares de su organización.
 
-* Ponga un nombre a los objetos visuales personalizados (obligatorio): asigne un título corto al objeto visual para que los usuarios de Power BI Desktop sepan fácilmente para qué sirve.
+    * **Asigne un nombre a los objetos visuales personalizados** (obligatorio): asigne un título corto al objeto visual para que los usuarios de Power BI Desktop sepan fácilmente para qué sirve.
 
-* Icono (obligatorio): el archivo de icono que se muestra en la interfaz de usuario de Power BI Desktop.
+    * **Icono**: el archivo de icono que se muestra en la interfaz de usuario de Power BI Desktop.
 
-* Descripción: una descripción breve del objeto visual para proporcionar más contexto e información al usuario.
+    * **Descripción**: una descripción breve del objeto visual para proporcionar más contexto e información al usuario.
 
-Seleccione "Aplicar" para iniciar la solicitud de carga. Si se realiza correctamente, verá el nuevo elemento en la lista. Si el proceso no se completa, recibirá el mensaje de error pertinente.
+1. Seleccione **Agregar** para iniciar la solicitud de carga. Si se realiza correctamente, verá el nuevo elemento en la lista. Si el proceso no se completa, recibirá el mensaje de error pertinente.
 
 ### <a name="delete-a-custom-visual-from-the-list"></a>Eliminación de un objeto visual personalizado de la lista
 
-Seleccione el icono de la Papelera de reciclaje para eliminar permanentemente el objeto visual del repositorio.
-Importante: la eliminación es irreversible. Una vez eliminado, el objeto visual deja de representarse de inmediato en los informes existentes. Incluso si vuelve a cargar el mismo objeto visual, este no reemplazará al anterior que se eliminó; los usuarios pueden volver a importar el nuevo objeto visual y reemplazar la instancia que tienen en sus informes.
+Para eliminar de forma permanente un objeto visual, seleccione el icono de la Papelera de reciclaje para el objeto visual en el repositorio.
+
+> [!IMPORTANT]
+> La eliminación es irreversible. Una vez eliminado, el objeto visual deja de representarse de inmediato en los informes existentes. Aunque se cargue el mismo objeto visual de nuevo, no reemplazará al anterior que se eliminó. Sin embargo, los usuarios pueden volver a importar el nuevo objeto visual y reemplazar la instancia que tienen en los informes.
 
 ### <a name="disable-a-custom-visual-in-the-list"></a>Deshabilitación de un objeto visual personalizado en la lista
 
@@ -371,15 +371,16 @@ Sin embargo, los objetos visuales guardados como marcador siguen funcionando.
 
 Después de una actualización o un cambio por el administrador, los usuarios de Power BI Desktop deben reiniciar la aplicación o actualizar el explorador en el servicio Power BI para ver las actualizaciones.
 
-### <a name="how-to-update-a-visual"></a>Actualización de un objeto visual
+### <a name="update-a-visual"></a>Actualización de un objeto visual
 
-Si desea actualizar un objeto visual en el repositorio porque hay una versión nueva del objeto visual (por ejemplo, correcciones de errores, una funcionalidad nueva, etc.), seleccione el icono **Actualizar** y cargue el archivo nuevo. Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplaza al archivo anterior en todos los informes de la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios entren en el repositorio de la organización desde Power BI Desktop, pueden importar la versión nueva, donde se les pide que reemplacen la versión actual que tienen en el informe.
+Para actualizar el objeto visual desde la tienda de la organización, seleccione el icono de engranaje. Examine y cargue una nueva versión del objeto visual.
+
+Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplaza al archivo anterior en todos los informes de la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios entren en el repositorio de la organización desde Power BI Desktop, pueden importar la versión nueva, donde se les pide que reemplacen la versión actual que tienen en el informe.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Descripción del rol de administrador de Power BI](service-admin-role.md)  
+[Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md) [Descripción del rol de administrador de Power BI](service-admin-role.md)  
 [Auditoría de Power BI en su organización](service-admin-auditing.md)  
 [Administración de Power BI Premium](service-admin-premium-manage.md)  
-[Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: a4c73cc81a09a3747ff34e6a20508b4ff19eafa8
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: c01af129e15025b97925f59532d1be7a6671b47f
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39280303"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909626"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Uso de conclusiones en Power BI Desktop para explicar los aumentos y las disminuciones que hay en objetos visuales (versión preliminar)
 
@@ -36,7 +36,7 @@ La característica de información detallada es contextual y se basa en el punto
 
 
 ## <a name="using-insights"></a>Uso de la información detallada
-Para usar las conclusiones para explicar los aumentos o las disminuciones en los gráficos solo tiene que hacer clic con el botón derecho en cualquier punto de datos de un gráfico de líneas o barras y seleccionar **Analizar > Explicación del aumento** (o *Explicación de la disminución*, ya que todas las conclusiones se basan en el cambio con respecto al punto de datos anterior).
+Para usar información detallada para explicar los aumentos o las disminuciones en los gráficos solo tiene que hacer clic con el botón derecho en cualquier punto de datos de un gráfico de líneas o barras y seleccionar **Analizar > Explicación del aumento**, o *Explicación de la disminución*, ya que toda la información detallada se basa en el cambio con respecto al punto de datos anterior.
 
 ![Menú Mostrar conclusiones](media/desktop-insights/insights_02.png)
 
@@ -113,7 +113,6 @@ La siguiente lista es una recopilación de los escenarios que no se admiten actu
 * Filtros TopN
 * Filtros de inclusión o exclusión
 * Filtros de medidas
-* Medidas y agregados que no son de adición
 * Medidas no numéricas
 * Uso de "Mostrar valor como"
 * Medidas filtradas: las medidas filtradas son cálculos de nivel visual con un filtro específico aplicado (por ejemplo, *Total de ventas en Francia*) y se usan en algunos de los objetos visuales creados por la característica de conclusiones

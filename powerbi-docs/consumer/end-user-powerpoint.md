@@ -1,5 +1,5 @@
 ---
-title: Exportar informes de Power BI a PowerPoint (vista previa)
+title: Exportar informes de Power BI a PowerPoint
 description: Aprenda cómo exportar un informe de Power BI a PowerPoint.
 author: mihart
 manager: kvivek
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 85a0a34f9c67d29fee7be6335f79e97b482548be
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 661d615ed33b12ae0557fd8feaa0bc47b3a6638f
+ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565346"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50736950"
 ---
-# <a name="export-reports-from-power-bi-to-powerpoint-preview"></a>Exportar informes de Power BI a PowerPoint (vista previa)
+# <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
 
 * Cada página del informe de Power BI se convierte en una diapositiva de PowerPoint.
@@ -77,9 +77,9 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 * En la actualidad, no se admiten **objetos visuales de R**. Los objetos visuales este tipo se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
 * Los **objetos visuales personalizados** que se han **certificado** que son compatibles. Para más información acerca de los objetos visuales personalizados certificados, lo que incluye cómo obtener un objeto visual personalizado, consulte [Obtención de un objeto visual personalizado certificado](../power-bi-custom-visuals-certified.md). Los objetos visuales personalizados que no se han certificado no se admiten y se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
 * Se admiten **objetos visuales personalizados certificados**. Un objeto visual personalizado certificado se ha aprobado para su uso con Power BI, cumple determinados requisitos de código y ha pasado rigurosas pruebas de seguridad. Puede [aprender más sobre los **objetos visuales personalizados certificados**](../power-bi-custom-visuals-certified.md).
-* Actualmente no se pueden exportar informes de más de 15 páginas.
+* Actualmente no se pueden exportar informes de más de 30 páginas.
 * El proceso de exportación del informe a PowerPoint puede tardar unos minutos en completarse. Le pedimos que sea paciente. Algunos factores que pueden afectar al tiempo requerido incluyen la estructura del informe y la carga actual del servicio Power BI.
-* Si el elemento de menú **Exportar a PowerPoint (versión preliminar)** no está disponible en el servicio Power BI, probablemente sea porque el administrador de inquilinos ha deshabilitado la característica. Póngase en contacto con el Administrador de inquilinos para obtener más información.
+* Si el elemento de menú **Exportar a PowerPoint** no está disponible en el servicio Power BI, probablemente sea porque el administrador de inquilinos ha deshabilitado la característica. Póngase en contacto con el Administrador de inquilinos para obtener más información.
 * Las imágenes de fondo se recortarán con área de límite del gráfico. Se recomienda quitar las imágenes de fondo antes de realizar la exportación a PowerPoint.
 * La **interactividad dentro de la sesión**, como resaltado, filtrado, exploración en profundidad, etc., todavía no se admiten para exportarse a PowerPoint. El PowerPoint exportado muestra los objetos visuales como si se hubiesen guardado en el informe.
 * Las páginas de PowerPoint siempre se crean en el tamaño estándar 16:9, sin tener en cuenta los tamaños de página ni las dimensiones originales del informe de Power BI.

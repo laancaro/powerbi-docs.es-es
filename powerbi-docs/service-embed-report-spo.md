@@ -10,13 +10,13 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 10/20/2018
-ms.openlocfilehash: e336323863dfacc8c74f2dc1f721231d58d03834
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.date: 11/01/2018
+ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
+ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50100781"
+ms.lasthandoff: 11/03/2018
+ms.locfileid: "50973336"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -82,14 +82,34 @@ Insertar un informe en SharePoint Online no da a los usuarios permiso para ver e
 > [!IMPORTANT]
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
-Hay dos formas de proporcionar acceso al informe dentro del servicio Power BI. Si usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, los usuarios aparecen como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. De este modo se asegura de que los usuarios puedan ver el contenido de ese grupo. Para más información, consulte [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md).
+Hay dos formas de proporcionar acceso al informe dentro del servicio Power BI. Si usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, los usuarios aparecen como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. Para obtener más información, vea [Administración de un área de trabajo de la aplicación](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-Además, puede compartir un informe directamente con los usuarios insertando el informe en una aplicación. La aplicación debe estar preinstalada para que el informe se inserte. Puede configurar la aplicación para que se preinstale mediante la función **Instala la aplicación automáticamente**.
+Además, puede compartir un informe directamente con los usuarios insertando el informe en una aplicación. Hay que seguir algunos pasos para insertar un informe en una aplicación.  
+
+1. El autor de la aplicación es un usuario Pro.
+
+2. El autor crea un informe en un área de trabajo de la aplicación. *Para compartirla con **usuarios gratuitos de Power BI**, el área de trabajo de la aplicación debe establecerse como un **área de trabajo Premium**.*
+
+3. El autor publica la aplicación y luego la instala. *El autor debe asegurarse de instalar la aplicación para tener acceso a la dirección URL del informe que se usa para insertarlo en SharePoint Online.*
+
+4. Ahora todos los usuarios finales también necesitan instalar la aplicación. Sin embargo, puede configurar la aplicación para que se preinstale para los usuarios finales con la característica **Instala la aplicación automáticamente**, que se puede habilitar en el [portal de administración de Power BI](service-admin-portal.md).
 
    ![Instala la aplicación automáticamente](media/service-embed-report-spo/install-app-automatically.png)
 
-> [!NOTE]
-> **El usuario necesita acceso tanto a la página de SharePoint como al informe para ver el informe en la página de SharePoint.**
+5. El autor abre la aplicación y accede al informe.
+
+6. El autor copia la dirección URL del informe insertado desde el informe instalado por la aplicación. *No use la dirección URL del informe original desde el área de trabajo de la aplicación.*
+
+7. Cree un sitio del equipo en SharePoint Online.
+
+8. Agregue la dirección URL del informe copiada en el paso 6 en el elemento web de Power BI.
+
+9. Agregue todos los usuarios finales o grupos que van a consumir los datos en la página de SharePoint Online y en la aplicación de Power BI que creó.
+
+    > [!NOTE]
+    > **Los usuarios o grupos necesitan acceso a la página de SharePoint Online y al informe de la aplicación de Power BI para ver el informe en la página de SharePoint.**
+
+10. Ahora el usuario final puede ir al sitio del equipo en SharePoint Online y ver los informes en la página.
 
 ## <a name="multi-factor-authentication"></a>Autenticación multifactor
 

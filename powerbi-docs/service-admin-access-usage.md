@@ -7,72 +7,66 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 08/10/2017
+ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c1ac019b0d6f80c3129b105336f71a71e0925648
-ms.sourcegitcommit: 627918a704da793a45fed00cc57feced4a760395
+ms.openlocfilehash: dfd9aab419d0a097721c4f2b49e382c11be82541
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/10/2018
-ms.locfileid: "37926545"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909511"
 ---
 # <a name="find-power-bi-users-that-have-signed-in"></a>Encontrar usuarios de Power BI que hayan iniciado sesión
-Si es un administrador de inquilinos y desea ver quién ha iniciado sesión en Power BI, puede usar los informes de acceso y uso de Azure Active Directory para aumentar la visibilidad.
+
+Si es un administrador de inquilinos y desea ver quién ha iniciado sesión en Power BI, use los [informes de acceso y uso de Azure Active Directory](/azure/active-directory/reports-monitoring/concept-sign-ins) para aumentar la visibilidad.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/1AVgh9w9VM8?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
-Puede acceder al informe de actividad en los portales [nuevo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins) y [clásico](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) de Azure Active Directory (Azure AD). Mientras que en el vídeo anterior se usa el portal clásico como ejemplo, en este artículo se destaca el nuevo portal.
-
 > [!NOTE]
-> Este informe de actividad no distingue el tipo de licencia que cada usuario posee.
+> Este informe de actividad ofrece información útil, pero no identifica el tipo de licencia que cada usuario posee. Use el Centro de administración de Office 365 para ver licencias.
 
 ## <a name="requirements"></a>Requisitos
-Estos son los requisitos para ver el informe de actividad de inicio de sesión.
 
-* Los usuarios del rol Administrador Global, Administrador de seguridad o Lector de seguridad pueden acceder a los datos.
-* Cualquier usuario (no administrador) puede acceder a sus propios inicios de sesión.
-* El inquilino debe tener una licencia de Azure AD Premium asociada para ver el informe de actividad de todos los inicios de sesión.
+Cualquier usuario (incluidos los no administradores) puede ver un informe de sus propios inicios de sesión, pero debe cumplir los requisitos siguientes para ver un informe para todos los usuarios.
 
-## <a name="using-the-azure-portal-to-view-sign-ins"></a>Uso del portal de Azure para ver los inicios de sesión
-Puede usar el portal de Azure AD para ver la actividad de inicio de sesión.
+* El inquilino debe tener una licencia de Azure AD Premium asociada.
 
-1. Vaya al **portal de Azure** y seleccione **Azure Active Directory**.
-2. En **Actividad**, seleccione **Inicios de sesión**.
+* Debe tener uno de los siguientes roles: Administrador global, Administrador de seguridad o Lector de seguridad.
+
+## <a name="use-the-azure-portal-to-view-sign-ins"></a>Uso de Azure Portal para ver los inicios de sesión
+
+Para ver la actividad de inicio de sesión, siga estos pasos.
+
+1. En **Azure Portal**, seleccione **Azure Active Directory**.
+
+1. En **Supervisión**, seleccione **Inicios de sesión**.
    
-    ![](media/service-admin-access-usage/azure-portal-sign-ins.png)
-3. Filtre la aplicación, por **Microsoft Power BI** o **Power BI Gateway** y seleccione **Aplicar**.
+    ![Inicios de sesión de Azure AD](media/service-admin-access-usage/azure-portal-sign-ins.png)
+
+1. Filtre la aplicación, por **Microsoft Power BI** o **Power BI Gateway** y seleccione **Aplicar**.
+
+    **Microsoft Power BI** filtra la actividad de inicio de sesión relacionada con el servicio, donde **Power BI Gateway** filtra la actividad de inicio de sesión específica de la puerta de enlace de datos local.
    
-    **Microsoft Power BI** se usa para la actividad de inicio de sesión relacionada con el servicio, mientras que **Power BI Gateway** es para inicios de sesión específicos de la puerta de enlace de datos local.
-   
-    ![](media/service-admin-access-usage/sign-in-filter.png)
+    ![Filtrar inicios de sesión](media/service-admin-access-usage/sign-in-filter.png)
 
 ## <a name="export-the-data"></a>Exportar los datos
-Dispone de dos opciones para exportar los datos de inicio de sesión: O bien puede descargar un archivo csv o puede usar PowerShell.
 
-### <a name="download-csv"></a>Descargar el archivo csv
-En la pantalla de actividad, puede seleccionar **Descargar** en la barra de herramientas. Se descargará un archivo csv con los datos filtrados actualmente.
+Tiene dos opciones para exportar los datos de inicio de sesión: descargar un archivo csv o usar PowerShell. En la parte superior del informe de inicio de sesión, seleccione una de las siguientes opciones:
 
-![](media/service-admin-access-usage/download-sign-in-data-csv.png)
+* **Descargar** para descargar un archivo csv con los datos filtrados actualmente.
 
-### <a name="powershell"></a>PowerShell
-Puede usar PowerShell para exportar los datos de inicio de sesión. Puede encontrar un [ejemplo](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script) en la documentación de Azure AD.
+* **Script** para descargar un script de PowerShell para los datos filtrados actualmente. Puede actualizar el filtro en el script según sea necesario.
 
-> [!NOTE]
-> Para que el ejemplo de PowerShell funcione, asegúrese de seguir los [requisitos previos para acceder a la API de informes de Azure AD](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-prerequisites).
-> 
-> 
+![Descargar archivo csv o script](media/service-admin-access-usage/download-sign-in-data-csv.png)
 
 ## <a name="data-retention"></a>Retención de datos
-Los datos relacionados con el inicio de sesión pueden estar disponibles durante 30 días como máximo. Para más información, consulte las [directivas de retención de informes de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention).
+
+Los datos relacionados con el inicio de sesión están disponibles durante 30 días como máximo. Para más información, consulte las [directivas de retención de informes de Azure Active Directory](/azure/active-directory/reports-monitoring/reference-reports-data-retention).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Informes de actividad de inicio de sesión en el portal de Azure Active Directory (nuevo portal)](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-activity-sign-ins)  
-[Visualización de los informes de acceso y uso (Portal clásico)](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports)  
-[Script de PowerShell de ejemplo de inicio de sesión](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-api-sign-in-activity-samples#powershell-script)  
-[Directivas de retención de informes de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-retention)  
-[Usar la auditoría dentro de su organización](service-admin-auditing.md)  
-[Extended Pro Trial activation](service-extended-pro-trial.md) (Activación de la extensión del período de prueba de Power BI Pro)
+
+[Usar la auditoría dentro de su organización](service-admin-auditing.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

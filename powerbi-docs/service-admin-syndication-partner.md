@@ -7,62 +7,81 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/05/2017
+ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: c08a886584e45b83e559a509392df867e31f3d54
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
+ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641192"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50909327"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
+
 Office 365 permite a las empresas revender Office 365 empaquetado e integrado con sus propias soluciones, lo que proporciona a los clientes finales un único punto de contacto de compras, facturación y soporte técnico.
 
-Si está interesado en adquirir Power BI, junto con su suscripción de Office 365, es recomendable que se ponga en contacto con su asociado para tal fin. Si su asociado no ofrece Power BI, existen diferentes opciones que puede considerar.
+Si está interesado en adquirir Power BI, junto con su suscripción de Office 365, es recomendable que se ponga en contacto con su asociado para tal fin. Si su asociado no ofrece Power BI actualmente, existen diferentes opciones de compra.
 
-1. Puede comprar el servicio a través de otro canal, ya sea directamente a Microsoft o a otro asociado. Esta opción no está disponible para todos los clientes. Ello depende de la relación con el asociado. Para comprobarlo, vaya al **Portal de administración de Office 365** > **Facturación** > **Suscripciones**. Si ve **Suscripciones**, puede adquirir el servicio a través de Microsoft directamente o ponerse en contacto con un asociado que ofrezca Power BI.
-   
-    ![](media/service-admin-syndication-partner/billingsub.png)
-2. Si no ve **Suscripciones** debajo de **Facturación**, no puede comprarlo directamente a Microsoft ni a otros asociado. 
-   
-   ![](media/service-admin-syndication-partner/billing.png)
+# <a name="work-with-your-partner-to-purchase-power-bi"></a>Colaborar con su asociado para comprar Power BI
 
-Si no puede comprar Power BI directamente, es posible que algún tenga algunas opciones, según el tipo de suscripción de Power BI en la que esté interesado.
-
-[Power BI (gratuito)](#power-bi-free)
-
-[Power BI Pro y Premium](#power-bi-pro-and-premium)
-
-## <a name="power-bi-free"></a>Power BI (gratuito)
-Si está satisfecho con la oferta gratuita para Power BI, puede registrarse en el servicio gratuito. De forma predeterminada, se deshabilitan los registros individuales, también conocidos como suscripciones ad-hoc. Cuando intente registrarse en Power BI, verá un mensaje que indicará que el departamento de TI ha desactivado el registro para Microsoft Power BI.
-
-    Your IT department has turned off signup for Microsoft Power BI.
-
-![](media/service-admin-syndication-partner/sorry.png)
-
-Para habilitar las suscripciones de ad hoc, puede ponerse en contacto con un asociado y solicitar su activación. Si es un administrador del inquilino de y sabe cómo usar los comandos de PowerShell de Azure Active Directory, puede habilitar las suscripciones ad hoc usted mismo. [Más información](https://technet.microsoft.com/library/jj151815.aspx)
-
-1. Debe iniciar sesión primero en Azure Active Directory mediante sus credenciales de Office 365. La primera línea le solicitará las credenciales. La segunda línea se conecta a Azure Active Directory.
-   
-        $msolcred = get-credential
-        connect-msolservice -credential $msolcred
-   
-    ![](media/service-admin-syndication-partner/aad-signin.png)
-2. Después de iniciar sesión, puede emitir el comando siguiente para habilitar los registros gratuitos.
-   
-        Set-MsolCompanySettings -AllowAdHocSubscriptions $true
-
-## <a name="power-bi-pro-and-premium"></a>Power BI Pro y Premium
-Si desea comprar una suscripción a Power BI Pro o Power BI Premium, tendrá que consultar a su asociado para considerar sus opciones.
+Si desea comprar una suscripción a Power BI Pro o Power BI Premium, consulte a su asociado para saber qué opciones hay:
 
 * El asociado acuerda agregar Power BI a su cartera, para que pueda comprarle.
+
 * El asociado puede realizar la transición a un modelo que le permita comprar Power BI directamente a Microsoft o a otro asociado que ofrezca Power BI.
 
+# <a name="purchase-from-microsoft-or-another-channel"></a>Compra en Microsoft o en otro canal
+
+Dependiendo de la relación con su asociado, puede comprar Power BI directamente a Microsoft o a otro asociado. Puede comprobar si puede agregar suscripciones de Power BI en el portal de administración de Office 365 (requiere la pertenencia al rol Administrador Global o Administrador de facturación).
+
+1. Vaya al [Portal de administración de Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+
+1. En el menú izquierdo, abra **Facturación**:
+
+    * Si ve **Suscripciones**, puede adquirir el servicio de Microsoft directamente o ponerse en contacto con otro asociado que ofrezca Power BI.
+
+        ![Facturación con suscripciones](media/service-admin-syndication-partner/billingsub.png)
+
+    * Si no ve **Suscripciones**, no puede realizar la compra directamente a Microsoft ni a otro asociado.
+
+Si su asociado no ofrece Power BI y no puede realizar la compra directamente a Microsoft o a otro asociado, considere la posibilidad de suscribirse en una evaluación gratuita.
+
+## <a name="sign-up-for-a-free-trial"></a>Registrarse para obtener una evaluación gratuita
+
+Puede registrarse para obtener una evaluación gratuita de Power BI Pro. Si no compra Power BI Pro al final del período de evaluación, todavía tiene una licencia gratuita que ofrece muchas de las características de Power BI. Para obtener más información, vea [Características de Power BI por tipo de licencia](service-features-license-type.md).
+
+### <a name="enable-ad-hoc-subscriptions"></a>Habilitar las suscripciones ad hoc
+
+De forma predeterminada, se deshabilitan los registros individuales, también conocidos como suscripciones ad hoc. En este caso, verá el mensaje siguiente al intentar registrarse: *El departamento de TI ha desactivado la suscripción de Microsoft Power BI*.
+
+![Imagen para pedir disculpas](media/service-admin-syndication-partner/sorry.png)
+
+Para habilitar las suscripciones de ad hoc, puede ponerse en contacto con un asociado y solicitar su activación. Si es un administrador del inquilino y sabe cómo usar los comandos de PowerShell de Azure Active Directory, puede habilitar las suscripciones ad hoc usted mismo. [PowerShell de Azure Active Directory para Graph](/powershell/azure/active-directory/install-adv2/)
+
+1. Inicie sesión en Azure Active Directory con sus credenciales de Office 365. La primera línea del siguiente script le pide las credenciales. La segunda línea se conecta a Azure Active Directory.
+
+    ```powershell
+    $msolcred = get-credential
+    connect-msolservice -credential $msolcred
+    ```
+
+    ![Escriba sus credenciales.](media/service-admin-syndication-partner/aad-signin.png)
+
+1. Una vez que inicie sesión, ejecute el siguiente comando para comprobar la configuración actual de `AllowAdHocSubscriptions`.
+
+    ```powershell
+    Get-MsolCompanyInformation
+    ```
+
+1. Ejecute el siguiente comando para habilitar los registros gratuitos.
+
+    ```powershell
+    Set-MsolCompanySettings -AllowAdHocSubscriptions $true
+    ```
+
 ## <a name="next-steps"></a>Pasos siguientes
-[Administrar Azure AD mediante Windows PowerShell](https://technet.microsoft.com/library/jj151815.aspx)  
-[¿Qué es Power BI Premium?](service-premium.md)
+
+[Licencias de Power BI en la organización](service-admin-licensing-organization.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
-
