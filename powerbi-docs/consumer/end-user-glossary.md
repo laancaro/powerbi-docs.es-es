@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 09/27/2018
+ms.date: 11/09/2018
 ms.author: mihart
-ms.openlocfilehash: 30c8d94d6f224175cb2bee4cc6e6e475fe352f60
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799261"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51508023"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -46,7 +46,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **asignar** [Power BI Premium] Trasladar un área de trabajo a una capacidad dedicada o desde dicha capacidad. No use el verbo “promover” para referirse al traslado de un área de trabajo a una capacidad dedicada porque tiene la connotación de que la capacidad dedicada es superior a la compartida.  
 
-## <a name="b"></a>B
+## <a name="b"></a>N
 
 **BI, inteligencia empresarial**
 
@@ -138,7 +138,7 @@ En aquella documentación en que pueda servir a los analistas de empresas famili
 ## <a name="h"></a>H
 **objetos visuales de alta densidad** Objetos visuales con más puntos de datos de los que Power BI puede representar. Power BI hace un muestreo de los datos para mostrar la forma y los valores atípicos.
 
-## <a name="i"></a>I
+## <a name="i"></a>K
 
 **conclusiones** Análisis de datos automáticos realizados mediante la ejecución de nuestros algoritmos de aprendizaje automático de conclusiones.
 
@@ -290,7 +290,7 @@ Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir corr
 Los paneles de Power BI contienen iconos de un informe.
 
 
-## <a name="u"></a>U
+## <a name="u"></a>S
 
 
 ## <a name="v"></a>V
@@ -317,4 +317,4 @@ Los paneles de Power BI contienen iconos de un informe.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Conceptos básicos para el cliente del servicio Power BI](/consumers/end-user-basic-concepts.md)
+[Conceptos básicos para el cliente del servicio Power BI](end-user-basic-concepts.md)

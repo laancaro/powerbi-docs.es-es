@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/02/2018
+ms.date: 11/09/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 840f302b1df31736d7fcd1c0766c34963a2f6738
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 4f65371d0f94c8336b9b6667bae32ef0bdfdf5e3
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473943"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507628"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panel para los consumidores del servicio Power BI
 
@@ -26,7 +26,7 @@ Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, q
 Las visualizaciones que se ven en el panel se denominan *iconos* y están *ancladas* al panel de informes. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
-> Los paneles son una característica del servicio Power BI pero no están disponibles en Power BI Desktop. No se pueden crear paneles en dispositivos móviles, pero se pueden [ver y compartir](/mobile/mobile-apps-view-dashboard.md).
+> Los paneles son una característica del servicio Power BI pero no están disponibles en Power BI Desktop. No se pueden crear paneles en dispositivos móviles, pero se pueden [ver y compartir](mobile/mobile-apps-view-dashboard.md).
 > 
 > 
 

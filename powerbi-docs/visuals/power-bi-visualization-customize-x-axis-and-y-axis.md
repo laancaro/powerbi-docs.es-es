@@ -8,15 +8,15 @@ featuredvideoid: 9DeAKM4SNJM
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/20/2018
+ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c547cd83d879cd81fe12c02f5418f5bf44ca1483
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 62a8ae907b01c8309aee101aa074e9bfb72b207d
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545954"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51265918"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalización de las propiedades de los ejes X e Y
 En este tutorial conocerá multitud de formas diferentes de personalizar los ejes X e Y de los objetos visuales. No todos los objetos visuales pueden personalizarse o presentan ejes; por ejemplo, los gráficos circulares no los tienen. Además, las opciones de personalización, demasiadas como para abarcarlas en un único artículo, varían de un objeto visual a otro. Por lo tanto, echaremos un vistazo a algunas de las personalizaciones de ejes más utilizadas y nos familiarizaremos con la pestaña de formato de los objetos visuales del lienzo de informes de Power BI.  
@@ -86,30 +86,33 @@ Primero deberá crear un gráfico combinado que busca el impacto que el recuento
 
     ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-line-chart.png)
 
-> [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
-> 1. En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
-> 2. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** (la línea azul que está junto a la línea de cuadrícula de 0M%) es mucho menor que la escala de **Ventas**, lo que dificulta la comparación. Y los porcentajes de etiqueta del eje Y son absurdos.      
+    > [NOTE]: For help sorting by month, see [sorting by other criteria](../consumer/end-user-change-sort.md#other)
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+    En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
+     
+3. Agregue **Ventas de este año > Valor** y **Ventas del último año** al gráfico de líneas. La escala de **porcentaje de margen bruto del último año** (la línea azul que está junto a la línea de cuadrícula de 0M%) es mucho menor que la escala de **Ventas**, lo que dificulta la comparación. Y los porcentajes de etiqueta del eje Y son absurdos.      
+
+    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/flatline_new.png)
+
 5. Para que el objeto visual sea fácil de leer e interpretar, convierta el gráfico de líneas en un gráfico de columnas apiladas y de líneas.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/converttocombo_new.png)
 
 6. Arrastre el **Porcentaje de margen bruto del último año** de **Valores de columnas** a **Valores de líneas**. Lo que tenemos ahora es el gráfico de columnas apiladas que hemos creado anteriormente ***más*** un gráfico de líneas.  (Si lo desea, utilice lo aprendido anteriormente para dar formato de fuente, color y tamaño al eje.)
    
-
    Power BI crea dos ejes, lo que permite escalar los conjuntos de datos de forma distinta; el izquierdo mide dólares y el derecho mide porcentajes.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes-new.png)
 
 ### <a name="format-the-secondary-y-axis"></a>Dar formato al eje Y secundario
-1. En el panel **Visualizaciones** , seleccione el icono de rodillo para mostrar las opciones de formato.
-2. Expanda las opciones del eje Y seleccionando la flecha hacia abajo.
-3. Desplácese por la lista hasta que encuentre las opciones de **Mostrar secundario**. Cambie **Mostrar secundario** de **Desactivado** a **Activado**.
+1. En el panel **Visualizaciones** , seleccione el icono de rodillo para mostrar las opciones de formato.    
+2. Expanda las opciones del eje Y seleccionando la flecha hacia abajo.    
+3. Desplácese por la lista hasta que encuentre las opciones de **Mostrar secundario**. Cambie **Mostrar secundario** de **Desactivado** a **Activado**.    
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/combo3.png)
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-dual-axes.png)
+
 4. (Opcional) Personalice los dos ejes. Si cambia **Posición** para el eje de columna o el eje de línea, los dos ejes intercambian los lados.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-y-axes-options.png)
@@ -120,7 +123,7 @@ Cuando la visualización es complicada, resulta útil agregar títulos a los eje
 1. Cambie **Título** a **Activado** para **Eje Y (columna)** y **Eje Y (línea)**.
 2. Establezca **Estilo** en **Mostrar solo el título**.
 
-   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)
+   ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    
 3. El gráfico combinado ahora muestra los dos ejes, ambos con títulos.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/power-bi-combo-chart.png)

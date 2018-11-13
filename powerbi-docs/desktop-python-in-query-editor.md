@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 873b83221aa5a1a728d648cccf7a23d5924dfb6d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: c3664eee2d3836fc802d1728bbfe7fce3e03e18d
+ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45975504"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51297214"
 ---
 # <a name="using-python-in-query-editor"></a>Uso de Python en el Editor de consultas
 En el **Editor de consultas** de Power BI Desktop, puede usar **Python**, un lenguaje de programación usado ampliamente por estadistas, científicos de datos y analistas de datos. Esta integración de Python en el **Editor de consultas** permite limpiar datos con Python y realizar acciones avanzadas, como analizar y dar forma a los datos en conjuntos de datos, incluida la operación de completar datos que faltan, las predicciones y la agrupación en clústeres, por nombrar algunas. **Python** es un lenguaje eficaz y se puede usar en el **Editor de consultas** para preparar el modelo de datos y crear informes.
@@ -75,9 +75,7 @@ Ahora se puede crear un objeto visual para ver cómo el código de script de Pyt
 Una vez completado ese objeto visual, y cualquier otro que quiera crear con **Power BI Desktop**, puede guardar el archivo de **Power BI Desktop** (que se guarda con el formato .pbix) y, después, usar el modelo de datos, incluidos los scripts de Python que forman parte del mismo, en el servicio Power BI.
 
 > [!NOTE]
-> ¿Quiere ver un archivo .pbix finalizado con estos pasos completados? Está de suerte: puede descargar [desde aquí](http://download.microsoft.com/download/F/8/A/F8AA9DC9-8545-4AAE-9305-27AD1D01DC03/Complete Values with Python in PQ.pbix) el archivo de **Power BI Desktop** finalizado que se ha usado en estos ejemplos.
-> 
-> 
+> ¿Quiere ver un archivo .pbix finalizado con estos pasos completados? Está de suerte: puede descargar [desde aquí](http://download.microsoft.com/download/A/B/C/ABCF5589-B88F-49D4-ADEB-4A623589FC09/Complete%20Values%20with%20Python%20in%20PQ.pbix) el archivo de **Power BI Desktop** finalizado que se ha usado en estos ejemplos.
 
 Una vez que haya cargado el archivo .pbix en el servicio Power BI, son necesarios dos pasos más para habilitar la actualización de datos (en el servicio) y de objetos visuales en el servicio (para que los objetos visuales se actualicen, los datos deben acceder a Python). Los pasos adicionales son los siguientes:
 
