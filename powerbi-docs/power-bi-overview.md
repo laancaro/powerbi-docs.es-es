@@ -1,20 +1,20 @@
 ---
 title: ¿Qué es Power BI?
 description: 'Información general de Power BI y cómo encajan entre sí las distintas partes: Power BI Desktop, servicio Power BI, Power BI Mobile, Report Server y Power BI Embedded.'
-author: mihart
-manager: kvivek
+author: davidiseminger
+manager: kfile
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: overview
-ms.date: 09/22/2018
-ms.author: mihart
+ms.date: 11/13/2018
+ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 61264a2a127ea45f542543d40fd62a9de8c3620d
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 357af2f995fc927e7b55283c762e5f4b52376444
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48798917"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619595"
 ---
 # <a name="what-is-power-bi"></a>¿Qué es Power BI?
 **Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir orígenes de datos sin relación entre sí en información coherente, interactiva y atractiva visualmente. Tanto si se trata de una sencilla hoja de cálculo de Excel como de una colección de almacenes de datos híbridos locales o basados en la nube, **Power BI** le permite conectar fácilmente los orígenes de datos, visualizar (o descubrir) lo más importante y compartirlo con quien quiera.
