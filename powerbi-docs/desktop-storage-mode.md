@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: df61b9c68407ef0d00d1d5981c57021e7659cfff
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: 18d5b2ca504ec3533e2ded0e5480885ea862fb3a
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359755"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619503"
 ---
 # <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de almacenamiento en Power BI Desktop (versión preliminar)
 
@@ -43,16 +43,6 @@ La configuración del modo de almacenamiento de Power BI Desktop es una de tres 
 
 * **Modo de almacenamiento**: ahora puede especificar los objetos visuales que requieren una consulta a los orígenes de datos back-end. Los objetos visuales que no requieran una consulta se importarán incluso aunque estén basados en DirectQuery. Esta característica permite mejorar el rendimiento y reducir la carga de back-end. Anteriormente, incluso los objetos visuales simples, como las segmentaciones, iniciaban consultas que se enviaban a los orígenes de back-end. El modo de almacenamiento se describe más detalladamente en este artículo.
 
-## <a name="enable-the-storage-mode-preview-feature"></a>Activación de la característica del modo de almacenamiento en versión preliminar
-
-La característica del modo de almacenamiento está en versión preliminar y se debe habilitar en Power BI Desktop. Para habilitar el modo de almacenamiento, seleccione **Archivo** > **Opciones y configuración** > **Opciones** > **Características en versión preliminar** y active la casilla de verificación **Modelos compuestos**. 
-
-![Panel Características en versión preliminar](media/desktop-composite-models/composite-models_02.png)
-
-Para habilitar la característica es necesario reiniciar Power BI Desktop.
-
-![Ventana Reinicio necesario para la característica](media/desktop-composite-models/composite-models_03.png)
-
 ## <a name="use-the-storage-mode-property"></a>Uso de la propiedad de modo de almacenamiento
 
 El modo de almacenamiento es una propiedad que puede establecer en cada tabla del modelo. Para establecer el modo de almacenamiento, en el panel **Campos**, haga clic con el botón derecho en la tabla cuyas propiedades quiera establecer y, después, seleccione **Propiedades**.
@@ -75,19 +65,7 @@ El hecho de cambiar una tabla a **Importación** es una operación *irreversible
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Restricciones en las tablas de DirectQuery y las tablas duales
 
-Las tablas duales tienen las mismas restricciones que las tablas DirectQuery. Estas restricciones pueden incluir transformaciones M limitadas y funciones DAX restringidas en las columnas calculadas. Para obtener más información, vea [Implicaciones de usar DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
-
-## <a name="relationship-rules-on-tables-with-different-storage-modes"></a>Reglas de relación en tablas con distintos modos de almacenamiento
-
-Las relaciones deben cumplir con las reglas en función del modo de almacenamiento de las tablas relacionadas. En esta sección se proporcionan ejemplos de combinaciones válidas. Para obtener más información, vea [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md).
-
-En un conjunto de datos con un solo origen de datos, son válidas las combinaciones de relaciones de *uno a varios* siguientes:
-
-| Tabla en el lado de *varios* | Tabla en el lado de *uno* |
-| ------------- |----------------------| 
-| Dual          | Dual                 | 
-| Importar        | Importación o dual       | 
-| DirectQuery   | DirectQuery o dual  | 
+Las tablas duales tienen las mismas restricciones funcionales que las tablas de DirectQuery. Estas restricciones pueden incluir transformaciones M limitadas y funciones DAX restringidas en las columnas calculadas. Para obtener más información, vea [Implicaciones de usar DirectQuery](desktop-directquery-about.md#implications-of-using-directquery).
 
 ## <a name="propagation-of-dual"></a>Propagación de dual
 Considere el modelo sencillo siguiente, donde todas las tablas provienen de un solo origen que admite la importación y DirectQuery.
@@ -98,14 +76,11 @@ Para empezar, supongamos que todas las tablas de este modelo son DirectQuery. Si
 
 ![Ventana de advertencia del modo de almacenamiento](media/desktop-storage-mode/storage-mode_05.png)
 
-Las tablas de dimensiones (*Customer* [Cliente], *Date* [Fecha] y *Geography* [Geografía]) se deben establecer en **Dual** para cumplir con las reglas de relaciones anteriormente descritas. En lugar de tener que establecer estas tablas en **Dual** antes de tiempo, puede establecerlas en una sola operación.
+Las tablas dimensionales (*Customer*, *Geography* y *Date*) se pueden establecer en **Dual** para reducir el número de relaciones débiles en el conjunto de datos y mejorar el rendimiento. Las relaciones débiles implican normalmente al menos una tabla de DirectQuery, donde no se puede insertar lógica de combinación en los sistemas de origen. El hecho de que las tablas **Dual** puedan actuar como DirectQuery o importación ayuda a evitar esta situación.
 
 La lógica de propagación está diseñada para ayudar con los modelos que contienen muchas tablas. Supongamos que tiene un modelo con 50 tablas y solo se deben almacenar en caché ciertas tablas de hechos (transaccionales). La lógica de Power BI Desktop calcula el conjunto mínimo de tablas de dimensiones que se deben establecer en **Dual** para que no tenga que hacerlo el usuario.
 
 La lógica de propagación solo recorre en dirección al lado de uno de las relaciones de **uno a varios**.
-
-* No se permite cambiar la tabla *Customer* (Cliente) a **Import** (Importación), en lugar de cambiar *SurveyResponse*, debido a sus relaciones con las tablas *Sales* (Ventas) y *SurveyResponse* de DirectQuery.
-* Sí se permite cambiar la tabla *Customer* (Cliente) a **Dual**, en lugar de cambiar *SurveyResponse*. La lógica de propagación también establece que la tabla *Geography* (Geografía) sea **Dual**.
 
 ## <a name="storage-mode-usage-example"></a>Ejemplo de uso del modo de almacenamiento
 Continuemos con el ejemplo de la sección anterior e imaginemos que se aplica la configuración de la propiedad de modo de almacenamiento siguiente:
@@ -191,4 +166,3 @@ Para obtener más información sobre los modelos compuestos y DirectQuery, consu
 * [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md)
 * [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos admitidos por DirectQuery en Power BI](desktop-directquery-data-sources.md)
-

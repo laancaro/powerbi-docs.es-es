@@ -7,33 +7,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 3e94dc516f41d764394828309ba4b612083d4583
-ms.sourcegitcommit: fbb27fb40d753b5999a95b39903070766f7293be
+ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2018
-ms.locfileid: "49359732"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619733"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregaciones en Power BI Desktop (versión preliminar)
 
-El uso de **agregaciones** en Power BI permite hacer análisis interactivos sobre macrodatos de maneras que antes no eran posibles. Las **agregaciones** pueden reducir considerablemente el costo de desbloquear grandes conjuntos de datos para tomar decisiones.
+El uso de **agregaciones** en Power BI permite el análisis interactivo sobre macrodatos de maneras que antes no eran posibles. Las **agregaciones** pueden reducir considerablemente el costo de desbloquear grandes conjuntos de datos para tomar decisiones.
 
 ![agregaciones en Microsoft Power BI Desktop](media/desktop-aggregations/aggregations_07.jpg)
 
 En esta lista se indican las ventajas de usar **agregaciones**:
 
-* **Rendimiento de consultas sobre grandes conjuntos de datos**: cuando los usuarios interactúan con objetos visuales en los informes de Power BI, las consultas de DAX se envían al conjunto de datos. Acelere la velocidad de consulta mediante el almacenamiento en caché de datos en el nivel de agregados, usando una fracción de los recursos necesarios en el nivel de detalle. Desbloquee datos de gran tamaño que, de otra manera, sería imposible hacer.
+* **Rendimiento de consultas sobre macrodatos**: a medida que los usuarios interactúan con objetos visuales en informes de Power BI, se envían consultas de DAX al conjunto de datos. Acelere la velocidad de consulta mediante el almacenamiento en caché de datos en el nivel de agregados, usando una fracción de los recursos necesarios en el nivel de detalle. Desbloquee macrodatos de una manera que, de otro modo, sería imposible.
 * **Optimización de la actualización de datos**: reduzca el tamaño de caché y los tiempos de actualización mediante el almacenamiento de datos en caché en el nivel de agregados. Agilice el tiempo para poner los datos a disposición de los usuarios.
 * **Lograr arquitecturas equilibradas**: permita que la caché en memoria de Power BI controle las consultas agregadas, ya que lo hace de forma eficaz. Limite las consultas enviadas al origen de datos en el modo DirectQuery, lo que ayudará a permanecer dentro de los límites de simultaneidad. Las consultas que logran pasar tienden a ser consultas filtradas de nivel transaccional, algo que suelen controlar bien los almacenes de datos y los sistemas de macrodatos.
 
 ### <a name="table-level-storage"></a>Almacenamiento de nivel de tabla
-El almacenamiento de nivel de tabla se suele usar con la característica de agregaciones. Vea el artículo [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md) para más información.
+El almacenamiento de nivel de tabla se suele usar con la característica de agregaciones. Para más información, consulte el artículo [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Tipos de origen de datos
-Las agregaciones se usan con orígenes de datos que representan modelos dimensionales, como los almacenes de datos y los data marts, así como los orígenes de macrodatos basados en Hadoop. En este artículo se describen las diferencias de modelado típico en Power BI para cada tipo de origen de datos.
+Las agregaciones se usan con orígenes de datos que representan modelos dimensionales, como almacenes de datos, data marts y orígenes de macrodatos basados en Hadoop. En este artículo se describen las diferencias de modelado típico en Power BI para cada tipo de origen de datos.
 
 Todos los orígenes de Power BI Import y DirectQuery (no multidimensionales) funcionan con agregaciones.
 
@@ -55,12 +55,12 @@ Tenga en cuenta el modelo siguiente, que procede de un origen de datos único. S
 
 ![tablas en un modelo](media/desktop-aggregations/aggregations_02.jpg)
 
-En su lugar, creamos la tabla **Sales Agg** como una tabla de agregación. Tiene una mayor granularidad que **Sales**, por lo que va a contener muchas menos filas. El número de filas debe ser igual a la suma de **SalesAmount**, agrupadas por **CustomerKey**, **DateKey** y **ProductSubcategoryKey**. En lugar de miles de millones, podría ser millones de filas, lo cual es mucho más fácil de administrar.
+En su lugar, creamos la tabla **Sales Agg** como una tabla de agregación. Como tiene una mayor granularidad que **Sales**, va a contener muchas menos filas. El número de filas debe ser igual a la suma de **SalesAmount**, agrupadas por **CustomerKey**, **DateKey** y **ProductSubcategoryKey**. En lugar de miles de millones, podría ser millones de filas, lo cual es mucho más fácil de administrar.
 
-Supongamos que las tablas de dimensiones siguientes son las más usadas para las consultas con alto valor de negocio. Son las tablas que pueden filtrar **Sales Agg** mediante relaciones de *uno a varios* (o *varios a uno*). Para las agregaciones no se tienen en cuenta otros tipos de relación, como *varios a varios* o *varios orígenes*.
+Supongamos que las tablas de dimensiones siguientes son las más usadas para las consultas con alto valor de negocio. Son las tablas que pueden filtrar **Sales Agg** mediante relaciones de *uno a varios* (o *varios a uno*).
 
 * Geografía
-* Customer
+* Cliente
 * Fecha
 * Subcategoría de producto
 * Categoría de producto
@@ -88,7 +88,23 @@ Al configurarlas en **Dual**, las tablas de dimensiones relacionadas pueden actu
 
 Para más información sobre el modo de almacenamiento **Dual**, vea el artículo [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md).
 
-> Nota: La tabla **Sales Agg** está oculta. Las tablas de agregación deben ocultarse a los consumidores del conjunto de datos. Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación; ni siquiera necesitan saber que existe dicha tabla de agregación.
+### <a name="strong-vs-weak-relationships"></a>Relaciones seguras frente a débiles
+Los aciertos de agregaciones basadas en relaciones requieren relaciones fuertes.
+
+Las relaciones fuertes incluyen las siguientes combinaciones en las que ambas tablas proceden de un *único origen*.
+
+| Tabla en los lados de *varios | Tabla en el lado de *uno* |
+| ------------- |----------------------| 
+| Dual          | Dual                 | 
+| Importar        | Importación o dual       | 
+| DirectQuery   | DirectQuery o dual  | 
+
+El único caso en que una relación de *origen cruzado* se considera fuerte es si se importan ambas tablas. Las relaciones varios a varios siempre se consideran débiles.
+
+Para los aciertos de agregaciones de *origen cruzado* que no dependen de las relaciones, consulte la sección siguiente sobre agregaciones basadas en agrupación por columnas.
+
+### <a name="aggregation-table-is-hidden"></a>La tabla de agregación está oculta
+La tabla **Sales Agg** está oculta. Las tablas de agregación deben ocultarse siempre a los consumidores del conjunto de datos. Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación; ni siquiera necesitan saber que existe dicha tabla de agregación.
 
 ### <a name="manage-aggregations-dialog"></a>Cuadro de diálogo Administrar agregaciones
 Después, definimos las agregaciones. Haga clic con el botón derecho en la tabla para seleccionar el menú contextual **Administrar agregaciones** para la tabla **Sales Agg**.
@@ -155,23 +171,23 @@ La siguiente consulta alcanzará la agregación porque las columnas de la tabla 
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_02.jpg)
 
-La consulta de abajo no alcanzará la agregación. A pesar de que pide la suma de **SalesAmount**, se realiza una operación de agrupación en una columna en la tabla **Product**, que no está en la granularidad que puede alcanzar la agregación. Si observa las relaciones en el modelo, una subcategoría de producto puede tener varias filas **Product**; la consulta no sería capaz de determinar qué producto se ha agregado a cuál. En este caso, la consulta revierte a DirectQuery y envía una consulta SQL al origen de datos.
+La siguiente consulta no alcanza la agregación. A pesar de solicitar la suma de **SalesAmount**, se realiza una operación de agrupación en una columna en la tabla **Product**, que no está en la granularidad que puede alcanzar la agregación. Si observa las relaciones en el modelo, una subcategoría de producto puede tener varias filas **Product**; la consulta no sería capaz de determinar qué producto se ha agregado a cuál. En este caso, la consulta revierte a DirectQuery y envía una consulta SQL al origen de datos.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_03.jpg)
 
-Las agregaciones no son solo para cálculos sencillos que realizan una suma sencilla. También se pueden beneficiar los cálculos complejos. Conceptualmente, un cálculo complejo se desglosa en subconsultas para cada SUM, MIN, MAX y COUNT, y cada subconsulta se evalúa para determinar si se puede alcanzar la agregación. Esta lógica no es verdadera en todos los casos debido a la optimización del plan de consulta, pero en general debería aplicarse. En este ejemplo se alcanza la agregación:
+Las agregaciones no son solo para cálculos sencillos que realizan una suma sencilla. También se pueden beneficiar los cálculos complejos. Conceptualmente, un cálculo complejo se desglosa en subconsultas para cada SUM, MIN, MAX y COUNT, y cada subconsulta se evalúa para determinar si se puede alcanzar la agregación. Esta lógica no es verdadera en todos los casos debido a la optimización del plan de consulta, pero en general debería aplicarse. En el ejemplo siguiente se alcanza la agregación:
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_04.jpg)
 
-La función COUNTROWS puede beneficiarse de las agregaciones. La siguiente consulta alcanzará la agregación porque hay una agregación de filas de la tabla **Count** definida para la tabla **Sales**.
+La función COUNTROWS puede beneficiarse de las agregaciones. La siguiente consulta alcanza la agregación porque hay una agregación de filas de la tabla **Count** definida para la tabla **Sales**.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_05.jpg)
 
-La función AVERAGE puede beneficiarse de las agregaciones. La siguiente consulta alcanzará la agregación porque AVERAGE se dobla internamente en SUM dividida por COUNT. Puesto que la columna **UnitPrice** tiene agregaciones definidas para SUM y COUNT, se alcanza la agregación.
+La función AVERAGE puede beneficiarse de las agregaciones. La siguiente consulta alcanza la agregación porque AVERAGE se dobla internamente en SUM dividido por COUNT. Puesto que la columna **UnitPrice** tiene agregaciones definidas para SUM y COUNT, se alcanza la agregación.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_06.jpg)
 
-En algunos casos, la función DISTINCTCOUNT puede beneficiarse de las agregaciones. La siguiente consulta alcanzará la agregación porque hay una entrada de GroupBy para **CustomerKey**, que mantiene la diferenciación de **CustomerKey** en la tabla de agregación. Esta técnica todavía está sujeta al umbral de rendimiento donde aproximadamente de dos a cinco millones de valores distintos pueden afectar al rendimiento de las consultas. A pesar de ello, puede ser útil en escenarios donde hay miles de millones de filas en la tabla de detalles y de dos a cinco millones de valores distintos en la columna. En este caso, el recuento distintivo puede realizarse más rápido que si se examina la tabla con miles de millones de filas, aunque se hayan almacenado en caché en memoria.
+En algunos casos, la función DISTINCTCOUNT puede beneficiarse de las agregaciones. La siguiente consulta alcanza la agregación porque hay una entrada de GroupBy para **CustomerKey**, que mantiene la diferenciación de **CustomerKey** en la tabla de agregación. Esta técnica todavía está sujeta al umbral de rendimiento donde aproximadamente de dos a cinco millones de valores distintos pueden afectar al rendimiento de las consultas. A pesar de ello, puede ser útil en escenarios donde hay miles de millones de filas en la tabla de detalles y de dos a cinco millones de valores distintos en la columna. En este caso, el recuento distintivo puede realizarse más rápido que si se examina la tabla con miles de millones de filas, aunque se hayan almacenado en caché en memoria.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_07.jpg)
 
@@ -201,7 +217,7 @@ En este ejemplo, las entradas de **GroupBy** **no son opcionales**; sin ellas no
 
 ### <a name="query-examples"></a>Ejemplos de consultas
 
-La siguiente consulta alcanzará la agregación porque la tabla de agregación abarca la columna **Activity Date**. La función COUNTROWS usa la agregación Contar filas de tabla.
+La siguiente consulta alcanza la agregación porque la tabla de agregación abarca la columna **Activity Date**. La función COUNTROWS usa la agregación Contar filas de tabla.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_08.jpg)
 
@@ -253,7 +269,7 @@ Esta consulta alcanza la agregación porque CalendarMonth está cubierto por la 
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_09.jpg)
 
-La siguiente consulta no alcanzará la agregación porque la tabla de agregación no abarca CalendarDay.
+La siguiente consulta no alcanza la agregación porque la tabla de agregación no abarca CalendarDay.
 
 ![ejemplo de consulta](media/desktop-aggregations/aggregations-code_10.jpg)
 
@@ -277,4 +293,3 @@ Artículos sobre DirectQuery:
 
 * [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos admitidos por DirectQuery en Power BI](desktop-directquery-data-sources.md)
-

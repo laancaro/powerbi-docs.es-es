@@ -1,25 +1,27 @@
 ---
-title: Adición de un filtro de objeto visual, página, obtención de detalles o informe en Power BI
-description: Adición de un filtro de página, un filtro de visualización, un filtro de informe o un filtro de obtención de detalles a un informe en Power BI
+title: Agregar un filtro a un informe de Power BI
+description: Adición de un filtro de página, un filtro de visualización o un filtro de informe a un informe en Power BI
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 11/08/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c70e29bf7dcd5a307cbcb4762595716595dfa523
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
+ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973290"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51611161"
 ---
 # <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adición de un filtro a un informe del servicio Power BI (en la vista de edición)
 
 En este artículo se explica cómo agregar un filtro de página, un filtro de visualización, un filtro de informe o un filtro de obtención de detalles a un informe en Power BI. Para los ejemplos de este artículo se usa el servicio Power BI. Los pasos son casi idénticos en Power BI Desktop.
+
+**¿Sabía qué?** Power BI tiene una nueva experiencia de filtro, actualmente en versión preliminar. Aprenda más sobre la [nueva experiencia de filtro en los informes de Power BI](power-bi-report-filter-preview.md).
 
 ## <a name="filters-in-editing-view-or-reading-view"></a>Filtros en la vista de edición o en la vista de lectura
 Puede interactuar con informes en dos vistas diferentes: vista de lectura y vista de edición. Las funcionalidades de filtrado disponibles dependen de la vista en la que se encuentre. Lea toda la [información sobre filtros y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md) para obtener detalles.
@@ -59,7 +61,7 @@ Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, p
    ![](media/power-bi-report-add-filter/power-bi-default-visual-filter.png)
 4. En este punto, vamos a agregar un filtro a un campo que ya se está usando en la visualización. 
    
-    Desplácese hacia abajo hasta el área **Filtros de nivel visual** y seleccione la flecha para expandir el campo que quiere filtrar. En este ejemplo vamos a filtrar **StoreNumberName**.
+    Desplácese hacia abajo hasta el área **Filtros de nivel visual** y seleccione la flecha para expandir el campo que quiere filtrar. En este ejemplo, vamos a filtrar **StoreNumberName**.
      
     ![](media/power-bi-report-add-filter/power-bi-visual-level-filter.png) 
     
@@ -75,7 +77,7 @@ Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, p
 
 Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel de objeto visual.
    
-1. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel visual y arrástrelo al área **Filtros de nivel de objeto visual**.  En este ejemplo arrastraremos **District Manager** al cubo **Filtros de nivel de objeto visual**, buscaremos **an** y seleccionaremos tres administradores. 
+1. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel visual y arrástrelo al área **Filtros de nivel de objeto visual**.  En este ejemplo se arrastra **District Manager** al cubo **Filtros de nivel de objeto visual**, se busca **an** y se seleccionan esos tres administradores. 
      
     ![](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -97,7 +99,7 @@ También puede agregar un filtro a una página completa (también conocido como 
 3. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel de página y arrástrelo al área **Filtros de nivel de página**.  
 4. Seleccione los valores que quiera filtrar y establecer mediante los controles de filtrado **básico** o **avanzado**.
    
-   Todas la visualizaciones de la página, que se ven afectadas por este filtro, se vuelven a trazar para reflejar el cambio. 
+   Todas las visualizaciones de la página, que se ven afectadas por este filtro, se vuelven a trazar para reflejar el cambio. 
    
    ![](media/power-bi-report-add-filter/filterpage.gif)
 
@@ -144,7 +146,7 @@ Veamos cómo funciona el filtro de obtención de detalles.
 
 - Hay situaciones en las que el filtro de nivel de objeto visual y el filtro de nivel de página pueden devolver resultados diferentes.  Por ejemplo, al agregar un filtro de nivel de objeto visual, Power BI filtra los resultados agregados.  La agregación predeterminada es la suma, pero puede [cambiar el tipo de agregación](service-aggregates.md).  
 
-    Después, cuando agrega un filtro de nivel de página, Power BI filtra sin ninguna agregación.  Esto se debe a que una página puede tener muchos objetos visuales, cada uno de los cuales puede usar tipos de agregación diferentes.  Por lo tanto, el filtro se aplica en cada fila de datos.
+    Después, cuando agrega un filtro de nivel de página, Power BI filtra sin ninguna agregación.  El motivo es que una página puede tener varios objetos visuales, cada uno de los cuales puede usar diferentes tipos de agregaciones.  Por lo tanto, el filtro se aplica en cada fila de datos.
 
 - Si no ve el panel Campos, asegúrese de que se encuentra en la [vista de edición](service-interact-with-a-report-in-editing-view.md) del informe.    
 - Si ha realizado muchos cambios en los filtros y quiere volver a la configuración predeterminada del autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.

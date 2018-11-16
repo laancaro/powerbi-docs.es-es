@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 05a84d34bf82be99eb52fccfb6318142f7d47de1
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329923"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619618"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conexión a Azure Consumption Insights en Power BI Desktop (Beta)
 Con el conector de **Azure Consumption Insights**, puede usar **Power BI Desktop** para conectarse a Azure y obtener datos e información detallada sobre el uso de los servicios de Azure por parte de su organización. También puede crear medidas, columnas personalizadas y objetos visuales en los informes, y compartir los datos sobre el uso de Azure por parte de su organización. Esta versión del conector de **Azure Consumption Insights** está en versión Beta y está sujeta a cambios.
@@ -49,9 +49,20 @@ A continuación, proporcione la *clave de acceso* para conectarse.
   
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
-Una vez que proporcione su *clave de acceso* y seleccione **Conectar**, aparecerá una ventana denominada **Navegador** que muestra las cuatro tablas disponibles para usted: *Summary*, *Usage*, *PriceSheet* y *MarketPlace*. Puede seleccionar la casilla situada junto a cualquier tabla para ver una vista previa. Puede seleccionar una o más tablas activando la casilla situada junto a su nombre y, después, seleccionando **Cargar**.
+Una vez que proporcione su *clave de acceso* y seleccione **Conectar**, aparece una ventana **Navegador** que muestra las nueve tablas que tiene disponibles: 
+* **Budgets**: proporciona detalles de presupuesto para ver los costos o el uso reales frente a los objetivos de presupuesto existentes. 
+* **MarketPlace**: proporciona los cargos de Azure Marketplace basados en el uso.
+* **PriceSheets**: proporciona tarifas aplicables por medidor en una inscripción.
+* **RICharges**: proporciona los cargos asociados a las instancias reservadas en los últimos 24 meses.
+* **RIRecommendations_Single**: proporciona recomendaciones de compra de instancias reservadas basadas en las tendencias de uso en una única suscripción durante los últimos 7, 30 o 60 días.
+* **RIRecommendations_Shared**: proporciona recomendaciones de compra de instancias reservadas basadas en las tendencias de uso de todas sus suscripciones durante los últimos 7, 30 o 60 días.
+* **RIUsage**: proporciona detalles de consumo de las instancias reservadas existente en el último mes.
+* **Summaries**: proporciona un resumen mensual de saldos, nuevas compras, cargos de servicio de Azure Marketplace, ajustes y cargos por el uso por encima del límite.
+* **UsageDetails**: proporciona un desglose de las cantidades consumidas y los gastos estimados para una inscripción.
 
-![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04.png)
+Puede seleccionar la casilla situada junto a cualquier tabla para ver una vista previa. Puede seleccionar una o más tablas activando la casilla situada junto a su nombre y, después, seleccionando **Cargar**.
+
+![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_04b.png)
 
 > [!NOTE]
 > Las tablas *Summary* y *PriceSheet* solo están disponibles para la clave de API en el nivel de inscripción. Además, los datos de estas tablas son, de forma predeterminada, los datos del mes actual de las tablas *Usage* y *PriceSheet*. Las tablas *Summary* y *MarketPlace* no se limitan al mes actual.
@@ -152,7 +163,7 @@ Las columnas y los nombres de los detalles en Azure Portal son similares en la A
 | Consumed Quantity |consumedQuantity |Consumed Quantity |No |
 | Consumed Service |consumedService |Consumed Service |No |
 | ConsumedServiceId |consumedServiceId | |Sí |
-| Cost |cost |ExtendedCost |No |
+| Costo |cost |ExtendedCost |No |
 | Cost Center |costCenter |Cost Center |No |
 | Fecha |fecha |Fecha |No |
 | Día | |Día |No |

@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4c10a0ffdf11829d8faa15ea14be136922c86382
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 7b511a28f056df268216552f7d075a88c047f9f3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545059"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619848"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 
@@ -69,7 +69,7 @@ Para profundizar en los datos del informe, o para crear sus propios informes con
     > [!NOTE]
     > Si ancla un icono desde un informe de métricas de uso a un panel, ese panel no se podrá agregar a una aplicación o paquete de contenido.
 
-## <a name="what-metrics-are-reported"></a>¿Qué métricas se incluyen en el informe?
+## <a name="which-metrics-are-reported"></a>¿Qué métricas se incluyen en el informe?
 
 | Métrica | panel | Informe | Descripción |
 | --- | --- | --- | --- |
@@ -162,6 +162,15 @@ Al deshabilitar las métricas de uso para toda la organización, los administrad
 Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, y todo ello se combina con un modelo único para las regulaciones locales relativas a la prestación de servicios y al acceso, control y residencia de datos. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/en-us/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
+
+Es importante comprender qué diferencias pueden producirse al comparar métricas de uso y registros de auditoría y por qué. Los *registros de auditoría* se recopilan mediante datos del servicio Power BI, y las *métricas de uso* se recopilan en el cliente. Debido a esa diferencia, los recuentos de agregados de las actividades en los registros de auditoría podrían no coincidir siempre con las métricas de uso por los siguientes motivos:
+
+* En ocasiones, las métricas de uso pueden no contar actividades debido a conexiones de red desiguales, bloqueadores de anuncios y otros problemas que pueden interrumpir el envío de los eventos desde el cliente.
+* Ciertos tipos de vistas no se incluyen en las métricas de uso, como se ha descrito anteriormente en este artículo.
+* En ocasiones, las métricas de uso pueden no contar actividades en situaciones en las que el cliente se actualiza sin necesidad de devolver una solicitud al servicio Power BI.
+
+
+Además de las posibles diferencias entre métricas de uso y registros de auditoría, las siguientes preguntas y respuestas sobre las métricas de uso pueden ser útiles para los usuarios y administradores:
 
 P:    No puedo ejecutar métricas de uso en un panel o informe. R:    Solo puede ver métricas de uso para el contenido del que es propietario o para el que tenga permisos de edición.
 

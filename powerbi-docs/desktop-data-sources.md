@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a5a4f6532fe127fe01b699ee9d9e89693fdb369e
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: a49b433af32e6c0f03d43333a424864c5463ddd3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336907"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619825"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -30,8 +30,6 @@ Al seleccionar **Más…** en el menú **Más comunes**, se muestra la ventana *
 
 > [!NOTE]
 > El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción.
-> 
-> 
 
 ## <a name="data-sources"></a>Orígenes de datos
 Los tipos de datos se organizan en las categorías siguientes:
@@ -40,7 +38,7 @@ Los tipos de datos se organizan en las categorías siguientes:
 * Archivo
 * Base de datos
 * Power BI
-* Celeste
+* Azure
 * Online Services
 * Otros
 
@@ -80,15 +78,14 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Impala
 * Google BigQuery
 * Snowflake
+* Conector de BI
+* Exasol
 * Dremio (Beta)
-* Exasol (beta)
 * Jethro (beta)
 * Kyligence Enterprise (Beta)
 
 > [!NOTE]
 > Para habilitar algunos conectores de bases de datos, debe seleccionar primero **Archivo > Opciones y configuración > Opciones** y, después, **Características en vista previa**. Si no ve algunos de los conectores mencionados anteriormente y quiere usarlos, compruebe la configuración de **Características en vista previa**. Tenga también en cuenta que cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas, y no debe usarse en entornos de producción.
-> 
-> 
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos**.
 
@@ -111,11 +108,11 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB (beta)
-* Azure Data Lake Store
+* Azure Data Lake Storage
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* KustoDB de Azure (beta)
+* Azure Data Explorer (Beta)
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
 
@@ -131,7 +128,8 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Dynamics 365 Business Central (local)
 * Common Data Service para aplicaciones (Beta)
 * Microsoft Azure Consumption Insights (Beta)
-* Visual Studio Team Services (Beta)
+* Azure DevOps (Beta)
+* Azure DevOps Server (Beta)
 * Objetos de Salesforce
 * Informes de Salesforce
 * Google Analytics
@@ -187,8 +185,6 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 
 > [!NOTE]
 > En este momento, no es posible conectarse a orígenes de datos personalizados que se protegen mediante Azure Active Directory.
-> 
-> 
 
 ## <a name="connecting-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar**. En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .

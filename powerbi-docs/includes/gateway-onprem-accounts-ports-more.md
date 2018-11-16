@@ -61,14 +61,14 @@ Para referencias futuras puede reiniciar el servicio de *puerta de enlace de Win
 
 ![](./media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
-## <a name="support-for-tls-1112"></a>Compatibilidad con TLS 1.1 y 1.2
+## <a name="support-for-tls-12"></a>Compatibilidad con TLS 1.2
 
-La puerta de enlace de datos local usa la seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usan TLS 1.0 de forma predeterminada. El 15 de marzo de 2018 ha finalizado la compatibilidad con TLS 1.0, incluida la capacidad de la puerta de enlace de interactuar con el **servicio Power BI** con TLS 1.0. Debe actualizar las instalaciones de la puerta de enlace de datos local para asegurarse de que las puertas de enlace siguen funcionando.
+De forma predeterminada, la puerta de enlace de datos local usa la seguridad de capa de transporte (TLS) 1.2 para comunicarse con el servicio Power BI. Para asegurarse de que todo el tráfico de puerta de enlace usa TLS 1.2, es posible que deba agregar o modificar las siguientes claves del Registro en la máquina que ejecuta el servicio de puerta de enlace:
 
-Es importante tener en cuenta que la versión TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local anterior al 1 de noviembre y la puerta de enlace la usará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Agregar o modificar estas claves de registro permite aplicar el cambio a todas las aplicaciones. NET. Para más información acerca de los cambios del registro que afectan a TLS para otras aplicaciones, consulte [Configuración del registro de seguridad de la capa (TLS) de transporte](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

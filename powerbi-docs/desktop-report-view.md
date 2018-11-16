@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8239c271bff5dff6dc068b1c547b8ab2d7731da5
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: c4b4114d21d7afc6652d8706235dab4ad0ba0c37
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39327738"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619781"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de informes en Power BI Desktop
 Si ha estado trabajando con Power BI, sabrá lo fácil que es crear informes que ofrecen perspectivas dinámicas e información sobre los datos. Power BI también tiene características más avanzadas en Power BI Desktop. Con Power BI Desktop, puede crear consultas avanzadas, mezclar datos de varios orígenes, crear relaciones entre tablas y mucho más.
@@ -27,35 +27,46 @@ La diferencia entre ellas es que al usar Power BI Desktop, también puede trabaj
 ## <a name="lets-take-a-look"></a>¡Eche un vistazo!
 Al cargar los datos por primera vez en Power BI Desktop, verá la **vista de informes** con un lienzo en blanco.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
 Puede cambiar entre la **vista de informes**, la **vista de datos** y la **vista de relaciones** seleccionando los iconos de la barra de navegación izquierda:
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
+![Icono Vista de informe](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 
 Una vez que haya agregado algunos datos, puede agregar campos a una nueva visualización en el lienzo.
 
-![](media/desktop-report-view/pbid_reportview_addvis.gif)
+![Agregar un objeto visual arrastrándolo desde el panel Campos](media/desktop-report-view/pbid_reportview_addvis.gif)
 
 Para cambiar el tipo de visualización, puede seleccionarlo en el grupo **Visualización** en la cinta de opciones o puede hacer clic con el botón derecho y seleccionar otro en el icono **Cambiar tipo de visualización**.
 
-![](media/desktop-report-view/pbid_reportview_changevis.gif)
+![Cambiar un objeto visual mediante la selección de uno nuevo](media/desktop-report-view/pbid_reportview_changevis.gif)
 
 > [!TIP]
 > No deje de experimentar con diferentes tipos de visualización. Es importante que la visualización transmita la información de los datos de manera clara.
-> 
-> 
 
 Un informe tendrá al menos una página en blanco al inicio. Las páginas aparecen en el panel de navegación a la izquierda del lienzo. Puede agregar todo tipo de visualizaciones a una página, pero es importante no abusar. Demasiadas visualizaciones en una página le darán un aspecto ocupado y dificultarán la búsqueda de información adecuada. Puede agregar nuevas páginas a un informe. Solo tiene que hacer clic en **Nueva página** en la cinta de opciones.
 
-![](media/desktop-report-view/pbidesignerreportviewnewpage.png)
+![Icono Nueva página](media/desktop-report-view/pbidesignerreportviewnewpage.png)
 
 Para eliminar una página, haga clic en la **X** en la pestaña de la página en la parte inferior de la vista de informes.
 
-![](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
+![Agregar una página a un informe](media/desktop-report-view/pbi_reportviewinpbidesigner_deletepage.png)
 
 > [!NOTE]
 > Los informes y las visualizaciones no se pueden anclar a un panel desde Power BI Desktop. Para ello, necesitará [Publicar desde Power BI Desktop](desktop-upload-desktop-files.md) al sitio de Power BI.
+
+## <a name="copy-and-paste-between-reports"></a>Copiar y pegar entre informes
+
+Puede tomar fácilmente un objeto visual de un informe de Power BI Desktop y pegarlo en otro informe. Solo tiene que usar el método abreviado de teclado **CTRL+C** para copiar el objeto visual del informe y, luego, en el otro informe de Power BI Desktop, utilizar **CTRL+V** para pegarlo en el otro informe. Puede seleccionar un objeto visual cada vez o puede seleccionar todos los objetos visuales de una página para copiarlos y luego pegarlos en el informe de Power BI Desktop de destino. 
+
+La capacidad de copiar y pegar objetos visuales resulta de utilidad para personas que con frecuencia compilan y actualizan varios informes. Al copiar entre archivos, la configuración y el formato que se han establecido explícitamente en el panel de formato continúan, mientras que los elementos visuales que dependen de un tema o la configuración predeterminada se actualizan automáticamente para coincidir con el tema del informe de destino. De modo que, cuando obtenga un objeto visual formateado y con la apariencia deseada, puede copiarlo y pegarlo en nuevos informes y conservar todo ese buen trabajo de formato.
+
+![Error al copiar o pegar el objeto visual: no hay campos de datos](media/desktop-report-view/report-view_05.png)
+
+Si los campos del modelo son diferentes, verá un error en el objeto visual y una advertencia sobre qué campos no existen. El error es similar a la experiencia que ve cuando se elimina un campo en el modelo que usa un objeto visual. Para corregirlo, simplemente reemplace los campos rotos por los campos que desea usar del modelo en el informe en el que pegó el objeto visual. Si usa un objeto visual personalizado, también debe importar ese objeto visual personalizado en el informe de destino.
+
+
+
 
 ## <a name="hide-report-pages"></a>Ocultación de páginas de informes
 
@@ -63,13 +74,13 @@ Al crear un informe, también puede ocultar algunas de sus páginas. Esto puede 
 
 La ocultación de una página del informe es fácil. Simplemente haga clic con el botón derecha en la pestaña de la página del informe y seleccione **Ocultar** en el menú que aparece.
 
-![](media/desktop-report-view/report-view_05.png)
+![Opción Ocultar página](media/desktop-report-view/report-view_05.png)
 
 Hay algunas consideraciones que debe tener en cuenta al ocultar una página del informe:
 
 * Puede seguir viendo una vista de informe oculta en **Power BI Desktop**, incuso si su título aparece en gris. En la siguiente imagen, la página 4 está oculta.
 
-    ![](media/desktop-report-view/report-view_06.png)
+    ![página atenuada que está oculta](media/desktop-report-view/report-view_06.png)
 
 * *No* puede ver una página oculta si visualiza el informe en el **servicio Power BI**.
 

@@ -7,25 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/15/2018
+ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 799115dc5487a196cbd5d8a2c9dce1603764034a
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
+ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223384"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51619641"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
 
 ![Uso de marcadores diferentes para gráficos de líneas y de áreas para mejorar la accesibilidad](media/desktop-accessibility/accessibility_01.png)
-
-> [!NOTE]
-> Estas características de accesibilidad están disponibles con la versión de **Power BI Desktop** de junio de 2017 y posteriores. También se prevé una funcionalidad de accesibilidad adicional en futuras versiones.
-> 
-> 
 
 ## <a name="consuming-a-power-bi-desktop-report-with-a-keyboard-or-screen-reader"></a>Interactuación con un informe de Power BI Desktop mediante un teclado o un lector de pantalla
 A partir de la versión de septiembre de 2017 de **Power BI Desktop**, puede presionar la tecla **?** para mostrar una ventana que describe los métodos abreviados de teclado de accesibilidad disponibles en **Power BI Desktop**.
@@ -116,12 +111,26 @@ Hay algunos problemas conocidos y limitaciones con las características de acces
 * Si usa Narrador, existen algunas limitaciones en cuanto al desplazamiento por Mostrar datos como una tabla HTML.
 
 ## <a name="keyboard-shortcuts"></a>Métodos abreviados de teclado
+Los métodos abreviados de teclado son útiles para desplazarse por los informes de Power BI mediante un teclado. En las tablas siguientes se describen los métodos abreviados disponibles en un informe de Power BI. Además de usar estos métodos abreviados de teclado en Power BI Desktop, también funcionan en las siguientes experiencias:
+
+* Cuadro de diálogo del explorador de preguntas y respuestas
+* Cuadro de diálogo de introducción
+* Menú Archivo y cuadro de diálogo Acerca de
+* Barra de advertencia
+* Cuadro de diálogo Restauración de archivos
+* Cuadro de diálogo de desaprobaciones
+
+En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de experiencias también admiten lectores de pantalla y configuración de contraste alto.
+
+
 ### <a name="frequently-used-shortcuts"></a>Métodos abreviados de uso frecuente
 | Para hacerlo           | Presione                |
 | :------------------- | :------------------- |
 | Mover el foco entre secciones  | Ctrl + F6 |
 | Mover el foco hacia adelante en la sección | Tab         |
 | Mover el foco hacia atrás en la sección | Mayús + Tabulador |
+| Seleccionar o anular la selección de un objeto | Entrar o Espacio |
+| Seleccionar varios objetos | Ctrl + Espacio |
 
 ### <a name="on-visual"></a>Sobre el objeto visual
 | Para hacerlo           | Presione                |
