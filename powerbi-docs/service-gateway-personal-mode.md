@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 093339e820c45fcbd586bd1eb6d8933b6e5743f8
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298214"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273342"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Puerta de enlace de datos local (modo personal)
 Puede utilizar orígenes de datos local y crear informes y paneles de Power BI mediante una puerta de enlace. Una **puerta de enlace** es un software que facilita el acceso a los datos que se almacenan en una red local privada, y que después le permite usar esos datos en servicios en línea como el **servicio Power BI**. La **puerta de enlace de datos local (modo personal)** es una actualización reciente de la puerta de enlace de Power BI, que permite a los usuarios instalar una puerta de enlace en su propio equipo y obtener acceso a los datos locales.
@@ -132,7 +132,7 @@ La compatibilidad con Spark está prevista para la segunda mitad del año 2017.
   * **Respuesta**: si está actualizando sus informes con la puerta de enlace actual, sus actualizaciones se detendrán. La única manera de configurar una nueva programación de actualización es mediante la instalación y configuración de la nueva puerta de enlace.
 * Estoy usando un script R. ¿Está admitido?
   
-  * **Respuesta**: en breve vamos a admitir los scripts R.
+  * **Respuesta**: Los scripts de R son compatibles con el modo personal.
 * ¿Por qué no veo el mensaje para actualizar mi puerta de enlace en el **servicio Power BI**?
   
   * **Respuesta**: probablemente, es debido a que tiene uno o más conjuntos de datos que incluyen un origen de datos que aún no se admite.

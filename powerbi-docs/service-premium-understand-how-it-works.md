@@ -9,12 +9,12 @@ ms.author: mblythe
 ms.reviewer: mblythe
 author: mgblythe
 manager: kfile
-ms.openlocfilehash: 99c84aff932c7ce56a4aaa81d71e4583bce3e4c2
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 534c06c66d561a04dbffc04412095d6924c92781
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641758"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266079"
 ---
 # <a name="microsoft-power-bi-premium-capacity-resource-management-and-optimization"></a>Optimización y administración de recursos de capacidad de Microsoft Power BI Premium
 
@@ -26,6 +26,7 @@ Este artículo describe cómo Power BI Premium administra los recursos; el artí
 
 * Los conjuntos de datos que se cargan en memoria
 * Actualización del conjunto de datos (programada y a petición)
+* Cargas de trabajo que admite la capacidad
 * Consultas de informe
 
 Cuando se emite una solicitud en un conjunto de datos publicado en la capacidad, ese conjunto de datos se carga en memoria desde el almacenamiento persistente (esto se denomina carga de la imagen). Mantener el conjunto de datos cargado en la memoria ayuda a responder con rapidez a las consultas futuras a este conjunto de datos. Además de la memoria necesaria para mantener el conjunto de datos cargado en la memoria, las consultas de informes y las actualizaciones del conjunto de datos consumen memoria adicional.
@@ -51,6 +52,10 @@ Los conjuntos de datos se pueden actualizar de forma programada o a petición de
 Si la memoria necesaria no está disponible a pesar de la expulsión, la actualización se pone en cola para reintentos posteriores. El servicio ejecuta los reintentos hasta conseguirlo y, después, se inicia una nueva acción de actualización.
 
 Si se emite una consulta interactiva a cualquier conjunto de datos en la capacidad y no hay suficiente memoria disponible debido a una actualización en curso, dicha solicitud genera un error y el usuario debe volver a intentarla.
+
+### <a name="workloads"></a>Cargas de trabajo
+
+De forma predeterminada, las funcionalidades de **Power BI Premium** y **Power BI Embedded** admiten solo la carga de trabajo asociada con la ejecución de consultas de Power BI en la nube. Ahora ofrecemos compatibilidad de versión preliminar para dos cargas de trabajo adicionales: **informes paginados** y **flujos de datos**. Si está habilitada, estas cargas de trabajo pueden afectar al uso de memoria en la capacidad. Para más información, vea [Configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads).
 
 ## <a name="cpu-resource-management-in-premium-capacity"></a>Administración de recursos de CPU en la capacidad Premium
 

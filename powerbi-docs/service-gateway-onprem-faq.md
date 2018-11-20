@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b4ecec3b2e53c2fea0fcbb7d78d1114da1a105ed
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
+ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34299640"
+ms.lasthandoff: 11/08/2018
+ms.locfileid: "51273319"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local
 <!-- Shared FAQ shared Include -->
@@ -68,6 +68,9 @@ ms.locfileid: "34299640"
 
 **Pregunta:** ¿Funcionará la puerta de enlace con ExpressRoute?  
 **Respuesta:** Sí. Para obtener más información acerca de ExpressRoute y Power BI, consulte [Power BI y ExpressRoute](service-admin-power-bi-expressroute.md).
+
+**Pregunta**: Estoy usando un script de R. ¿Está admitido?
+**Respuesta**: Los scripts de R solo son compatibles con el modo personal.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  

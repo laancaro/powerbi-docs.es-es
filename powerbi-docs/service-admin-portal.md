@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: 3e125061766d6ade0daeaacb208d3070d8e9bd9b
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973267"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266125"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -297,7 +297,16 @@ Los usuarios de la organización pueden acceder a las áreas de trabajo para con
 
 Los usuarios de la organización pueden importar datos en el servicio, como publicar informes de Power BI Desktop, cargar archivos de informes de Power BI y conectarse a los datos directamente desde el servicio. [Más información](desktop-upload-desktop-files.md)
 
-## <a name="capacity-settings"></a>Configuración de la capacidad
+## <a name="dataflow-settings-preview"></a>Configuración de flujo de datos (versión preliminar)
+
+### <a name="create-and-use-dataflows-preview"></a>Creación y uso de flujos de datos (versión preliminar)
+
+Los usuarios de la organización pueden crear y usar flujos de datos. [Más información](service-dataflows-overview.md)
+
+> [!NOTE]
+> Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
+
+## <a name="capacity-settings"></a>Configuración de capacidad
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 

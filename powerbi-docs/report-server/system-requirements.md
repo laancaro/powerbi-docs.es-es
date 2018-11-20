@@ -1,23 +1,23 @@
 ---
 title: Requisitos de hardware y software para instalar el servidor de informes de Power BI
-description: Aquí encontrará los requisitos mínimos de hardware y software para instalar y ejecutar el servidor de informes de Power BI.
+description: En este artículo se especifican los requisitos mínimos de hardware y software para instalar y ejecutar Power BI Report Server.
 author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 11/08/2018
 ms.author: maghan
-ms.openlocfilehash: 397bc6f1582ff49f665f25559925d5b7e19e0fd5
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: c8904f3025a0a60557b1d3efb54ea6bc18c20da4
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101333"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507915"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
-Aquí encontrará los requisitos mínimos de hardware y software para instalar y ejecutar el servidor de informes de Power BI.
+En este artículo se especifican los requisitos mínimos de hardware y software para instalar y ejecutar Power BI Report Server.
 
 ## <a name="processor-memory-and-operating-system-requirements"></a>Requisitos de procesador, memoria y sistema operativo
 
@@ -43,18 +43,19 @@ Se usa SQL Server para hospedar las bases de datos del servidor de informes. La 
 * SQL Server 2014
 * SQL Server 2012
 
-Para crear la base de datos del servidor de informes en un equipo remoto, es necesario que configure la conexión para que use una cuenta de usuario de dominio o una cuenta de servicio que tenga acceso a la red. Si opta por usar una instancia remota de SQL Server, considere detenidamente qué credenciales debe utilizar el servidor de informes para conectarse a la instancia de SQL Server. Para más información, consulte el artículo sobre la [configuración de una conexión de base de datos del servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
+Al crear la base de datos del servidor de informes en un equipo remoto, se debe configurar la conexión para que use una cuenta de usuario de dominio o una cuenta de servicio que tenga acceso a la red. Si opta por usar una instancia remota de SQL Server, considere detenidamente qué credenciales debe utilizar el servidor de informes para conectarse a la instancia de SQL Server. Para más información, consulte el artículo sobre la [configuración de una conexión de base de datos del servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager).
 
 ## <a name="considerations"></a>Consideraciones
 El servidor de informes de Power BI instalará los valores predeterminados a fin de establecer la configuración principal necesaria para que un servidor de informes esté operativo. Tiene los siguientes requisitos:
 
 * Debe haber un motor de base de datos de SQL Server disponible después de la instalación y antes de configurar la base de datos del servidor de informes. En la instancia del motor de base de datos se hospeda la base de datos del servidor de informes que el Administrador de configuración de Reporting Services creará. El motor de base de datos no es necesario para la experiencia de instalación real.
-* La cuenta de usuario que se ha utilizado para ejecutar el programa de instalación debe ser miembro del grupo local de administradores.
-* La cuenta de usuario que se ha usado para el Administrador de configuración de Reporting Services debe tener permiso para acceder y crear bases de datos en la instancia del motor de base de datos en el que se hospedan las bases de datos del servidor de informes.
+- En [Características de Reporting Services compatibles con las ediciones de SQL Server](https://docs.microsoft.com/sql/reporting-services/reporting-services-features-supported-by-the-editions-of-sql-server-2016) se describen las diferencias entre las ediciones de SQL Server.
+* La cuenta de usuario que ejecuta el programa de instalación debe ser miembro del grupo local de administradores.
+* La cuenta de usuario que ejecuta el Administrador de configuración de Reporting Services debe tener permiso para acceder y crear bases de datos en la instancia del motor de base de datos en el que se hospedan las bases de datos del servidor de informes.
 * El programa de instalación debe poder utilizar los valores predeterminados para reservar las direcciones URL que proporcionan acceso al servidor de informes y al portal web. Estos valores son el puerto 80, un carácter comodín seguro y los nombres de directorio virtual con el formato **ReportServer** y **Reports**.
 
 ## <a name="read-only-domain-controller-rodc"></a>Controlador de dominio de solo lectura (RODC)
- Mientras el servidor de informes puede instalarse en un entorno que tenga un controlador de dominio de solo lectura (RODC), Reporting Services necesita acceso a un controlador de dominio de lectura y escritura para funcionar correctamente. Si Reporting Services solo tiene acceso a un RODC, pueden producirse errores al intentar administrar el servicio.
+ Puede instalar el servidor de informes en un entorno que tenga un controlador de dominio de solo lectura (RODC). Sin embargo, Reporting Services necesita acceso a un controlador de dominio de lectura y escritura para funcionar correctamente. Si Reporting Services solo tiene acceso a un RODC, pueden producirse errores al intentar administrar el servicio.
 
 ## <a name="power-bi-reports-and-analysis-services-live-connections"></a>Informes de Power BI y conexiones activas de Analysis Services
 Puede usar una conexión activa con instancias tabulares o multidimensionales. El servidor de Analysis Services debe tener la versión y edición adecuadas para que funcione correctamente.

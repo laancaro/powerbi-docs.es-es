@@ -1,5 +1,5 @@
 ---
-title: 'Vea en modo de presentación en Surface Hub y Windows 10: Power BI'
+title: 'Visualización en modo de presentación en Surface Hub y Windows 10: Power BI'
 description: Lea información sobre cómo mostrar los informes de Power BI en Surface Hub y cómo mostrar los paneles, informes e iconos de Power BI en modo de presentación en dispositivos con Windows 10.
 author: maggiesMSFT
 manager: kfile
@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: maggies
-ms.openlocfilehash: 363bcae5a1bcc70d90cdb71f8a1ac2e2372b93e2
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 4bc9a0fe6dd3becd67c2b6dd8ffeb9d7922705a6
+ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744894"
+ms.lasthandoff: 11/10/2018
+ms.locfileid: "51507942"
 ---
 # <a name="view-reports-in-presentation-mode-on-surface-hub-and-windows-10---power-bi"></a>Vea informes en modo de presentación en Surface Hub y Windows 10: Power BI
 Puede mostrar informes en modo de presentación en Surface Hub y mostrar paneles, informes e iconos en modo de pantalla completa en dispositivos con Windows 10. 
@@ -27,7 +27,7 @@ En el modo de presentación de la aplicación móvil de Power BI, se eliminan to
 
 Cuando se muestra un informe en modo de presentación en Surface Hub, es posible dibujar en las páginas con diferentes colores de tinta y navegar entre las páginas del informe.
 
-También puede [mostrar paneles e informes en el modo de pantalla completa desde el servicio Power BI](../../service-fullscreen-mode.md) en la Web.
+También puede [mostrar paneles e informes en el modo de pantalla completa desde el servicio Power BI](../end-user-focus.md) en la Web.
 
 > [!NOTE]
 > El modo de presentación es diferente del [modo Enfoque para los iconos](mobile-tiles-in-the-mobile-apps.md).
@@ -74,6 +74,6 @@ El modo de presentación está activado de forma predeterminada en Surface Hub, 
 7. Para salir del modo de pantalla completa, deslice el dedo hacia abajo desde la parte superior y pulse las dos flechas enfrentadas ![](./media/mobile-windows-10-app-presentation-mode/power-bi-windows-10-exit-full-screen-hub-icon.png).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Mostrar paneles e informes en el modo de pantalla completa desde el servicio Power BI](../../service-fullscreen-mode.md)
+* [Mostrar paneles e informes en el modo de pantalla completa desde el servicio Power BI](../end-user-focus.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

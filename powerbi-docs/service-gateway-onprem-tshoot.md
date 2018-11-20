@@ -10,12 +10,12 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 2a4fb3bdf4e1041ceb90cde9b6c5f26fcb9a3871
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
+ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101655"
+ms.lasthandoff: 11/13/2018
+ms.locfileid: "51580549"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 
@@ -103,17 +103,14 @@ Para corregir este problema, siga estos pasos.
 3. Vuelva a instalar la puerta de enlace.
 4. Opcionalmente, aplique la clave de recuperación para restaurar una puerta de enlace existente.
 
-### <a name="support-for-tls-1112"></a>Compatibilidad con TLS 1.1 y 1.2
+## <a name="support-for-tls-12"></a>Compatibilidad con TLS 1.2
 
-Con la actualización de agosto de 2017 y posteriores, la puerta de enlace de datos local usa Seguridad de la capa de transporte (TLS) 1.1 o 1.2 para comunicarse con el **servicio Power BI** de forma predeterminada. Las versiones anteriores de la puerta de enlace de datos local usa TLS 1.0 de forma predeterminada. Debe actualizar las instalaciones de la puerta de enlace de datos local a la versión de agosto de 2017, o a otra más reciente, para asegurarse de que las puertas de enlace siguen funcionando.
+De forma predeterminada, la puerta de enlace de datos local usa la seguridad de capa de transporte (TLS) 1.2 para comunicarse con el servicio Power BI. Para asegurarse de que todo el tráfico de puerta de enlace usa TLS 1.2, es posible que deba agregar o modificar las siguientes claves del Registro en la máquina que ejecuta el servicio de puerta de enlace:
 
->[!NOTE]
->La compatibilidad con TLS 1.0 finalizó el 1 de noviembre de 2017.
-
-Es importante tener en cuenta que la versión TLS 1.0 seguirá siendo compatible con la puerta de enlace de datos local anterior al 1 de noviembre de 2017 y la puerta de enlace la usará como un mecanismo de reserva. Para asegurarse de que todo el tráfico de la puerta de enlace usa TLS 1.1 o 1.2 (y para impedir el uso de TLS 1.0 en la puerta de enlace), debe agregar o modificar las siguientes claves de registro en la máquina que ejecuta el servicio de puerta de enlace:
-
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
-        [HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+[HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\.NETFramework\v4.0.30319]"SchUseStrongCrypto"=dword:00000001
+```
 
 > [!NOTE]
 > Agregar o modificar estas claves de registro permite aplicar el cambio a todas las aplicaciones. NET. Para más información acerca de los cambios del registro que afectan a TLS para otras aplicaciones, consulte [Configuración del registro de seguridad de la capa (TLS) de transporte](https://docs.microsoft.com/windows-server/security/tls/tls-registry-settings).

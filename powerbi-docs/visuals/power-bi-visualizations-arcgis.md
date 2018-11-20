@@ -4,19 +4,18 @@ description: Uso del mapa de ArcGis en la vista de lectura como consumidor de in
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-tags: power bi, service, desktop, mobile
 featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2018
+ms.date: 11/06/2018
 ms.author: mihart
-ms.openlocfilehash: dd7bca6782327700f087b6b9ca60a9654fa362d8
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 0454d2ea0e69a77482d9ba9587497679819daf06
+ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003280"
+ms.lasthandoff: 11/07/2018
+ms.locfileid: "51266033"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactuación con mapas de ArcGIS en Power BI
 Este tema se escribe desde el punto de vista de una persona que *consume* un mapa de ArcGIS en el servicio Power BI, Desktop o para dispositivos móviles. Si un creador comparte un mapa de ArcGIS con usted, existen numerosas maneras de interactuar con el mapa.  Para más información acerca de cómo crear un mapa de ArcGIS, consulte el [tutorial de mapas ArcGIS de Esri](../power-bi-visualization-arcgis.md).
@@ -24,7 +23,7 @@ Este tema se escribe desde el punto de vista de una persona que *consume* un map
 Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Las opciones disponibles para mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia crean magníficas visualizaciones informativas de mapas. La combinación de capas de datos relevantes (como datos del censo) en un mapa con el análisis espacial transmite una comprensión más profunda de los datos en la visualización.
 
 > [!TIP]
-> GIS son las siglas en inglés para ciencia de información geográfica.
+> GIS son las siglas en inglés para sistema de información geográfica.
 > 
 
 El ejemplo que estamos usando es el mismo mapa de ArcGIS creado en el [tutorial de mapas ArcGIS de Esri](../power-bi-visualization-arcgis.md). Examina las ventas del año pasado por ciudad y usa un mapa base de calles, símbolos de burbujas para representar el tamaño y una capa de referencia para los ingresos medios por hogar. El mapa contiene 3 marcas y un radio de tiempo de conducción (en púrpura).
