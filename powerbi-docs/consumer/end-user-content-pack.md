@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2e74c8db22a2a1c4ddb188ae13a8ca5df9f862f3
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 432e38ffdcb92ee1d2cf1d62f7f34863d748885b
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507724"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679119"
 ---
 # <a name="find-and-connect-to-an-organizational-content-pack"></a>Búsqueda y conexión a un paquete de contenido organizativo
 
@@ -38,7 +38,7 @@ Todos los usuarios de [Power BI Pro](https://powerbi.microsoft.com/pricing) pued
 ## <a name="connect-to-an-organizational-content-pack"></a>Conexión a un paquete de contenido organizativo
 * Seleccione **Get it now** (Obtener ahora) para conectarse al paquete de contenido y agregarlo al área de trabajo activa. Los nuevos paneles, informes, libros de Excel y conjuntos de datos se destacan con un asterisco amarillo.
 
-Si el paquete de contenido tiene un libro de Excel, es posible que una advertencia le indique que no tiene permisos para ver el libro. Si es así, pida al propietario del paquete de contenido que [comparta el libro con usted en OneDrive para la Empresa](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
+Si el paquete de contenido tiene un libro de Excel, es posible que una advertencia le indique que no tiene permisos para ver el libro. Si es así, pida al propietario del paquete de contenido que [comparta el libro con usted en OneDrive para la Empresa](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c). 
 
 El paquete de contenido está bloqueado. Ahora puede [guardar su propia copia del panel y de los informes](../service-organizational-content-pack-copy-refresh-access.md). 
 

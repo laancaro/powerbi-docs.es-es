@@ -1,21 +1,21 @@
 ---
 title: Cambiar el nombre de paneles, informes, áreas de trabajo, páginas de informe y conjuntos de datos
 description: Cambie el nombre de prácticamente cualquier cosa en el servicio Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a3a78c27ab8d6e7c321af3f5ba4144e8b320e4a9
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: edcba2dafad831799f1e72fedd0130e282de6a24
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545737"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716841"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Cambiar el nombre de prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a cambiar el nombre de un panel, un informe, una página de informe, un libro, un conjunto de datos, una aplicación y un área de trabajo en el servicio Power BI.

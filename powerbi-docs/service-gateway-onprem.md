@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 488d11209126098063ba8ca2b2d73573edbcdbb9
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297145"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679027"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -100,7 +100,7 @@ Actualmente no hay un único lugar en el que los administradores de inquilinos p
 ## <a name="enabling-outbound-azure-connections"></a>Habilitar las conexiones salientes de Azure
 
 La puerta de enlace de datos local se basa en Azure Service Bus para la conectividad de la nube y en consecuencia establece conexiones salientes a su región de Azure asociada. De forma predeterminada, esta es la ubicación de su inquilino de Power BI. Vea [¿Dónde se encuentra mi inquilino de Power BI?](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-where-is-my-tenant-located/)
-Si un firewall está bloqueando las conexiones salientes, debe configurar el firewall para permitir conexiones salientes desde la puerta de enlace de datos local para su región de Azure asociada. Vea [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/en-us/download/details.aspx?id=41653) (Intervalos de IP del centro de datos de Microsoft Azure) para saber más sobre los intervalos de direcciones IP de cada centro de datos de Azure.
+Si un firewall está bloqueando las conexiones salientes, debe configurar el firewall para permitir conexiones salientes desde la puerta de enlace de datos local para su región de Azure asociada. Vea [Microsoft Azure Datacenter IP Ranges](https://www.microsoft.com/download/details.aspx?id=41653) (Intervalos de IP del centro de datos de Microsoft Azure) para saber más sobre los intervalos de direcciones IP de cada centro de datos de Azure.
 > [!NOTE]
 > Los intervalos de direcciones IP pueden cambiar con el tiempo, así que asegúrese de descargar la información más reciente con regularidad. 
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 46cd5e2730d1b0e90fe37a93bbd4340ffb708348
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 4638842217127c1d80ec115e05f8db1a6d3eb36c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908472"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679050"
 ---
 # <a name="create-and-publish-a-power-bi-organizational-content-pack-tutorial"></a>Creación y publicación de un paquete de contenido organizativo de Power BI (tutorial)
 
@@ -71,7 +71,7 @@ Imagine que es el jefe de lanzamiento de Contoso y que se está preparando para 
       ![](media/service-organizational-content-pack-create-and-publish/pbi_orgcontpkexcel.png)
    
       > [!NOTE]
-      > Si los miembros del grupo no pueden ver el libro de Excel, es posible que deba [compartirlo con ellos en OneDrive para la Empresa](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
+      > Si los miembros del grupo no pueden ver el libro de Excel, es posible que deba [compartirlo con ellos en OneDrive para la Empresa](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c).
       > 
       > 
 4. Seleccione **Publicar** para agregar el paquete de contenido a la biblioteca de paquetes de contenido organizativos del grupo.  
@@ -93,6 +93,6 @@ Imagine que es el jefe de lanzamiento de Contoso y que se está preparando para 
 * [Paquetes de contenido organizativos: introducción](service-organizational-content-pack-introduction.md)  
 * [Administración, actualización y eliminación de paquetes de contenido organizativos](service-organizational-content-pack-manage-update-delete.md)  
 * [Creación de un grupo en Power BI](service-create-distribute-apps.md)  
-* [¿Qué es OneDrive para la Empresa?](https://support.office.com/en-us/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
+* [¿Qué es OneDrive para la Empresa?](https://support.office.com/article/What-is-OneDrive-for-Business-187f90af-056f-47c0-9656-cc0ddca7fdc2)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

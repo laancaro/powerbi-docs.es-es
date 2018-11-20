@@ -1,7 +1,7 @@
 ---
 title: Cómo anclar un icono a un panel de Power BI desde Excel
 description: Anclar un icono a un panel de Power BI desde Excel en OneDrive para la Empresa. Anclar rangos, gráficos o tablas
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: l8JoB7w0zJA
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3bb151de24a984406aa6fd40a70977f2e9eaf1be
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 1ef0ecdfaea51a9ca50e0f105b51b8239ebc4fa1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548060"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717548"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-excel"></a>Anclar un icono a un panel de Power BI desde Excel
 Antes de poder anclar un icono del libro de Excel, deberá conectar ese libro al servicio Power BI (app.powerbi.com). Al conectar un libro, básicamente se incorpora una versión vinculada de solo lectura de ese libro al servicio Power BI, lo que permite anclar intervalos a los paneles. Puede incluso anclar una hoja de cálculo entera a un panel.  

@@ -9,12 +9,12 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
-ms.openlocfilehash: 3c3295483112ae0b5475e15c2073faba86dfff30
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: c19bc774ebffa2e781512e793abbefd1bd9fb5e2
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561825"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679301"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 Power BI Report Server es una solución de informes empresariales y BI con características de autoservicio que los clientes pueden implementar en sus instalaciones, detrás de su firewall. En ella se combinan la funcionalidad de informe interactivo de Power BI Desktop con la plataforma de servidor local de SQL Server Reporting Services. Con el uso intensivo y creciente de análisis e informes dentro de las empresas, elaborar un presupuesto para la infraestructura de hardware y las licencias de software necesarias para extenderla a una base de usuarios empresariales puede ser un verdadero desafío. Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. Aunque los informes, consultas y patrones de uso de las organizaciones pueden variar ampliamente, los resultados presentados en este documento, junto con las pruebas reales usadas y una descripción detallada de cómo se ejecutaban, sirven como punto de referencia para cualquiera en las primeras etapas del proceso de planeamiento de la implementación de Power BI Report Server.
@@ -42,7 +42,7 @@ La implementación de Power BI Report Server consta de las siguientes máquinas 
 
 * Controlador de dominio de Active Directory: era necesario en el Motor de base de datos de SQL Server, SQL Server Analysis Services y Power BI Report Server para autenticar de forma segura todas las solicitudes.
 * Motor de base de datos SQL Server y SQL Server Analysis Services: aquí fue donde se almacenaron todas las bases de datos para su uso en los informes al representarlos.
-* Servidor de informes de Power BI
+* Power BI Report Server
 * Base de datos de Power BI Report Server. La base de datos del servidor de informes se hospeda en una máquina diferente a la de Power BI Report Server, así que no es necesario competir con el Motor de base de datos SQL Server por memoria, CPU, red y recursos de disco.
 
 ![](media/capacity-planning/report-server-topology.png)
@@ -66,7 +66,7 @@ Hay dos perfiles de carga de trabajo que se usan en las pruebas: Power BI Report
 | --- | --- | --- |
 | **Representación de informes de Power BI** |60 % |10 % |
 | **Representación de informes paginados (RDL)** |30 % |60 % |
-| **Representación de informes móviles** |5 % |20 % |
+| **Representación de informes móviles** |5 % |20 % |
 | **Operaciones del portal web** |5 % |10 % |
 
 ### <a name="user-load"></a>Carga de usuarios
@@ -114,7 +114,7 @@ Los resultados presentados en este documento se obtuvieron de la ejecución de u
 ### <a name="1-topology"></a>Topología 1
 **1.1 Topología de Power BI Report Server**
 
-Con el objeto de establecer el centro de atención solamente sobre el comportamiento de Power BI Report Server bajo configuraciones diferentes, se determinó la configuración de máquina virtual para cada tipo de máquina (excepto para la máquina que hospedaba Power BI Report Server). Cada máquina se aprovisionó de acuerdo con las máquinas de la serie D de segunda generación (v2) con discos de Premium Storage. Encontrará información detallada sobre cada tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Con el objeto de establecer el centro de atención solamente sobre el comportamiento de Power BI Report Server bajo configuraciones diferentes, se determinó la configuración de máquina virtual para cada tipo de máquina (excepto para la máquina que hospedaba Power BI Report Server). Cada máquina se aprovisionó de acuerdo con las máquinas de la serie D de segunda generación (v2) con discos de Premium Storage. Encontrará información detallada sobre cada tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Tipo de máquina virtual | Procesador | Memoria | Tamaño de máquina virtual de Azure |
 | --- | --- | --- | --- |
@@ -124,7 +124,7 @@ Con el objeto de establecer el centro de atención solamente sobre el comportami
 
 **1.2 Configuración de máquina virtual de Power BI Report Server** 
 
-Se usaron diferentes configuraciones de procesador y memoria para la máquina Virtual que hospedaba Power BI Report Server. A diferencia de las demás máquinas virtuales, esta máquina se aprovisionó de acuerdo con las máquinas de la serie D de tercera generación (v3) con discos Premium Storage. Encontrará información detallada sobre este tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/en-us/pricing/details/virtual-machines/windows/.
+Se usaron diferentes configuraciones de procesador y memoria para la máquina Virtual que hospedaba Power BI Report Server. A diferencia de las demás máquinas virtuales, esta máquina se aprovisionó de acuerdo con las máquinas de la serie D de tercera generación (v3) con discos Premium Storage. Encontrará información detallada sobre este tamaño de VM en la sección "De uso general" de https://azure.microsoft.com/pricing/details/virtual-machines/windows/.
 
 | Máquina virtual | Procesador | Memoria | Tamaño de máquina virtual de Azure |
 | --- | --- | --- | --- |

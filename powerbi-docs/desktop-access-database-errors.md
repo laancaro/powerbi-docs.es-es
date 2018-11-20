@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/24/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 04e95ade5d7c7d0e2b9a6d9690873437e2ec1b6d
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: 47bcfabddfeb5bfec828c7b14fef4798350939da
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39329739"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679004"
 ---
 # <a name="resolve-issues-importing-access-and-xls-files-in-power-bi-desktop"></a>Resolver problemas al importar archivos Access y XLS en Power BI Desktop
 En **Power BI Desktop**, tanto las **bases de datos de Access** como las versiones anteriores de los **libros de Excel** (los archivos .XLS de Excel 97-2003) usan el *motor de base de datos de Access*. Existen tres situaciones comunes que pueden impedir que el motor de base de datos de Access funcione correctamente:
 
 ### <a name="situation-1-no-access-database-engine-installed"></a>Situación 1: No existe ningún motor de base de datos de Access instalado
-Cuando el mensaje de error de Power BI Desktop indica que el motor de base de datos de Access no está instalado, debe instalar la versión del motor de base de datos de Access, ya sea de 32 bits o 64 bits, que coincida con su versión de Power BI Desktop. Puede instalar el motor de base de datos de Access desde la [página de descargas](http://www.microsoft.com/en-us/download/details.aspx?id=13255).
+Cuando el mensaje de error de Power BI Desktop indica que el motor de base de datos de Access no está instalado, debe instalar la versión del motor de base de datos de Access, ya sea de 32 bits o 64 bits, que coincida con su versión de Power BI Desktop. Puede instalar el motor de base de datos de Access desde la [página de descargas](http://www.microsoft.com/download/details.aspx?id=13255).
 
 >[!NOTE]
 >Si la versión de bits instalada del motor de base de datos de Access es diferente de la versión de bits de la instalación de Microsoft Office, las aplicaciones de Office no podrán usar el motor de base de datos de Access.
@@ -41,7 +41,7 @@ A menudo esta situación se produce cuando la versión instalada de Microsoft Of
    >Si se usa la versión de 32 bits de Power BI Desktop, al crear modelos de datos de gran tamaño pueden producirse problemas de falta de memoria.
 2. Cambie la versión de Microsoft Office para que coincida con la versión de bits de la instalación de Power BI Desktop. Para cambiar la versión de bits de Microsoft Office, desinstale Office y, después, instale la versión de Office que coincida con la instalación de Power BI Desktop.
 3. Si el error se produjo al intentar abrir un archivo .XLS (un libro de Excel 97-2003), puede evitar usar el motor de base de datos de Access si abre el archivo .XLS en Excel y lo guarda como un archivo .XLSX.
-4. Si las tres soluciones anteriores no dan resultado, es posible instalar las versiones del motor de base de datos de Access, aunque esta *no* es una solución recomendada. La instalación de ambas versiones resolverá este problema de Power Query para Excel y Power BI Desktop, pero causará errores y problemas para cualquier aplicación que use automáticamente (de forma predeterminada) la versión de bits del motor de base de datos de Access instalada en primer lugar. Para instalar ambas versiones de bits del motor de base de datos de Access, [descárguelas](http://www.microsoft.com/en-us/download/details.aspx?id=13255) y ejecute cada una de ellas con el modificador */passive*. Por ejemplo:
+4. Si las tres soluciones anteriores no dan resultado, es posible instalar las versiones del motor de base de datos de Access, aunque esta *no* es una solución recomendada. La instalación de ambas versiones resolverá este problema de Power Query para Excel y Power BI Desktop, pero causará errores y problemas para cualquier aplicación que use automáticamente (de forma predeterminada) la versión de bits del motor de base de datos de Access instalada en primer lugar. Para instalar ambas versiones de bits del motor de base de datos de Access, [descárguelas](http://www.microsoft.com/download/details.aspx?id=13255) y ejecute cada una de ellas con el modificador */passive*. Por ejemplo:
    
        c:\users\joe\downloads\AccessDatabaseEngine.exe /passive
    
@@ -50,7 +50,7 @@ A menudo esta situación se produce cuando la versión instalada de Microsoft Of
 ### <a name="situation-3-trouble-using-access-or-xls-files-with-an-office-365-subscription"></a>Situación 3: Problemas para usar archivos de Access o .XLS con una suscripción a Office 365
 Si usa una suscripción a Office 365, ya sea **Office 2013** u **Office 2016**, el proveedor del motor de base de datos de Access está registrado en una ubicación del Registro virtual que *solo* es accesible para los procesos de Office. Como resultado, el motor Mashup (responsable de ejecutar procesos que no son de Office 365 Excel y Power BI Desktop), que no es un proceso de Office, no puede usar el proveedor del motor de base de datos de Access.
 
-Para solucionar este problema, puede [descargar e instalar el componente redistribuible del motor de base de datos de Access](http://www.microsoft.com/en-us/download/details.aspx?id=13255) que coincida con la versión de bits de la instalación de Power BI Desktop (consulte las secciones anteriores para obtener más información acerca de las versiones de bits).
+Para solucionar este problema, puede [descargar e instalar el componente redistribuible del motor de base de datos de Access](http://www.microsoft.com/download/details.aspx?id=13255) que coincida con la versión de bits de la instalación de Power BI Desktop (consulte las secciones anteriores para obtener más información acerca de las versiones de bits).
 
 ### <a name="other-situations-that-cause-import-issues"></a>Otras situaciones que pueden provocar problemas de importación
 Nos esforzamos por abarcar todos los problemas posibles que se producen con los archivos de Access o .XLS. Si encuentra un problema que no se trata en este artículo, envíe una consulta al [soporte técnico de Power BI](https://powerbi.microsoft.com/support/). Revisamos con regularidad los problemas que pueden afectar a muchos clientes y los incluimos en nuestros artículos.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/23/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7de11de4c10df6a76f031f88952671d0e365b498
-ms.sourcegitcommit: 17d68172c73e9a9ff7966ddcedc3f8450584cdec
+ms.openlocfilehash: 9d7012006ca18cf43c530c4d79ed02e6ed73f33f
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/23/2018
-ms.locfileid: "49952220"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679280"
 ---
 # <a name="get-data-from-a-web-page-by-providing-an-example"></a>Obtener datos de una página web con un ejemplo
 
@@ -35,9 +35,9 @@ Para usar **Obtener datos de páginas web con ejemplos**, seleccione **Obtener d
 
 Ahí, escriba la dirección URL de la página web de la que le gustaría extraer los datos. En este artículo se usará la página web de Microsoft Store y se mostrará cómo funciona este conector. 
 
-Si desea continuar, puede usar la [dirección URL de Microsoft Store](https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics) que se usa en este artículo:
+Si desea continuar, puede usar la [dirección URL de Microsoft Store](https://www.microsoft.com/store/top-paid/games/xbox?category=classics) que se usa en este artículo:
 
-    https://www.microsoft.com/en-us/store/top-paid/games/xbox?category=classics
+    https://www.microsoft.com/store/top-paid/games/xbox?category=classics
 
 ![Cuadro de diálogo Web](media/desktop-connect-to-web-by-example/web-by-example_04.png)
 

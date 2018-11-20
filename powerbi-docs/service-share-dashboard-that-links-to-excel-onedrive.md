@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 28934a525c332344b31de599363fb41126a18cfa
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ccb73b05998eded0c32742deed57b2bee35fbbb6
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548773"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679096"
 ---
 # <a name="share-a-power-bi-dashboard-that-links-to-an-excel-file-in-onedrive"></a>Comparta un panel de Power BI que contiene vínculos a un archivo de Excel en OneDrive
 En Power BI, puede [conectarse a libros de Excel en OneDrive para la Empresa](service-excel-workbook-files.md) y anclar iconos a un panel de ese libro. Cuando comparta ese panel o cree un paquete de contenido que lo incluya:
 
 * Sus compañeros podrán ver los iconos sin necesidad de tener permisos para el propio libro. Por lo tanto, puede crear un paquete de contenido y saber que sus compañeros podrán ver los iconos creados desde el libro de Excel en OneDrive.
-* Al hacer clic en el icono, se abre el libro en Power BI. El libro solo se abrirá si sus compañeros tienen como mínimo [permisos de lectura](https://support.office.com/en-us/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) para el libro en OneDrive para la Empresa.
+* Al hacer clic en el icono, se abre el libro en Power BI. El libro solo se abrirá si sus compañeros tienen como mínimo [permisos de lectura](https://support.office.com/article/Share-documents-or-folders-in-Office-365-1fe37332-0f9a-4719-970e-d2578da4941c) para el libro en OneDrive para la Empresa.
 
 ## <a name="share-a-dashboard-that-contains-workbook-tiles"></a>Compartir un panel que contiene iconos del libro
 Para compartir un panel vinculado a un libro de Excel en OneDrive para la Empresa, consulte [Compartir un panel](service-share-dashboards.md). La diferencia es que tendrá la opción de modificar los permisos para el libro de Excel vinculado antes de compartirlo.
@@ -30,7 +30,7 @@ Para compartir un panel vinculado a un libro de Excel en OneDrive para la Empres
 
 1. Escriba las direcciones de correo electrónico de sus compañeros.
 2. Para permitir que sus compañeros vean el libro de Excel de Power BI, seleccione **Ir a OneDrive para la Empresa para establecer permisos de libro**.
-3. En OneDrive, [modifique los permisos](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) según sea necesario.
+3. En OneDrive, [modifique los permisos](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) según sea necesario.
 4. Seleccione **Compartir**.
 
 >[!NOTE]
@@ -46,7 +46,7 @@ Cuando [publica un paquete de contenido](service-organizational-content-pack-cre
    
     ![Libro de Excel en un paquete de contenido](media/service-share-dashboard-that-links-to-excel-onedrive/pbi_contpack_workbk.png)
 3. Seleccione **Ir a OneDrive para la Empresa para establecer permisos de libro**.
-4. En OneDrive, [modifique los permisos](https://support.office.com/en-US/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) según sea necesario.
+4. En OneDrive, [modifique los permisos](https://support.office.com/article/Share-files-and-folders-and-change-permissions-9fcc2f7d-de0c-4cec-93b0-a82024800c07) según sea necesario.
 5. Seleccione **Publicar**.
 
 ## <a name="share-a-dashboard-from-a-power-bi-workspace"></a>Compartir un panel de un área de trabajo de Power BI

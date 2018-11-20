@@ -1,21 +1,21 @@
 ---
 title: Iconos de paneles en el servicio Power BI
 description: Todo acerca de los iconos de paneles en Power BI. Se incluyen los iconos que se crean desde SQL Server Reporting Services (SSRS).
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/3/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f63f99004f9cb532821d6623ab2bdd3f805beafd
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: 76b8eaff949ee56d57511eabea913363e6cdc3f6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48875426"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717410"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
 Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile-iphone-app-get-started.md).

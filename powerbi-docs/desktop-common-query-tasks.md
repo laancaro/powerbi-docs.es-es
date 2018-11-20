@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/27/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bec5bb108bc210f268db0392370e15d89c0352b7
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: 33462cbdac69d13d64d396a1dd93a6e1922a9e2c
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "39330222"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679398"
 ---
 # <a name="common-query-tasks-in-power-bi-desktop"></a>Tareas de consultas comunes en Power BI Desktop
 Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 
@@ -146,7 +146,7 @@ Aquí se puede ver el **Editor avanzado**, con los pasos de consulta asociados a
 
 ![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Power BI Desktop proporciona un amplio conjunto de categorías de fórmulas. Para más información y una referencia completa de todas las fórmulas del Editor de consultas, visite [Categorías de fórmulas de Power Query](https://support.office.com/en-in/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
+Power BI Desktop proporciona un amplio conjunto de categorías de fórmulas. Para más información y una referencia completa de todas las fórmulas del Editor de consultas, visite [Categorías de fórmulas de Power Query](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
 
 Las categorías de fórmulas de consulta son las siguientes:
 

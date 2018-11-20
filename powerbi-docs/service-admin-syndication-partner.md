@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4854f05e3394d7b4eed2c67de8bbca5266a12ae3
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: 912ed0be1e6a732db46e83f8a9b0757ad2801dab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909327"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157411"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
 
@@ -23,7 +23,7 @@ Office 365 permite a las empresas revender Office 365 empaquetado e integrado co
 
 Si está interesado en adquirir Power BI, junto con su suscripción de Office 365, es recomendable que se ponga en contacto con su asociado para tal fin. Si su asociado no ofrece Power BI actualmente, existen diferentes opciones de compra.
 
-# <a name="work-with-your-partner-to-purchase-power-bi"></a>Colaborar con su asociado para comprar Power BI
+## <a name="work-with-your-partner-to-purchase-power-bi"></a>Colaborar con su asociado para comprar Power BI
 
 Si desea comprar una suscripción a Power BI Pro o Power BI Premium, consulte a su asociado para saber qué opciones hay:
 
@@ -31,7 +31,7 @@ Si desea comprar una suscripción a Power BI Pro o Power BI Premium, consulte a 
 
 * El asociado puede realizar la transición a un modelo que le permita comprar Power BI directamente a Microsoft o a otro asociado que ofrezca Power BI.
 
-# <a name="purchase-from-microsoft-or-another-channel"></a>Compra en Microsoft o en otro canal
+## <a name="purchase-from-microsoft-or-another-channel"></a>Compra en Microsoft o en otro canal
 
 Dependiendo de la relación con su asociado, puede comprar Power BI directamente a Microsoft o a otro asociado. Puede comprobar si puede agregar suscripciones de Power BI en el portal de administración de Office 365 (requiere la pertenencia al rol Administrador Global o Administrador de facturación).
 

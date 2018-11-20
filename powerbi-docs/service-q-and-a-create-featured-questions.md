@@ -1,7 +1,7 @@
 ---
 title: Cómo crear las preguntas destacadas para Preguntas y respuestas de Power BI
 description: Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: E1mIAyEXuF4
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: f01edbec60d0146dd5bd4454d3b1e0736b9158e3
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02663648002f7924725791e378e10532fadc1128
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548244"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51716950"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usan (*consumen*) el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
