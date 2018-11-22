@@ -9,14 +9,14 @@ ms.component: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 740c012d83f9ca70f6e909b8cf62714f67c123d4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157434"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268329"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configuración del acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
+# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
 
 En este artículo se explica cómo usar la herramienta MDM de su organización para configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota. Para configurarlo, los administradores de TI deben crear una directiva de configuración de aplicaciones con la información necesaria para que se envíe a la aplicación. 
 
@@ -42,7 +42,7 @@ En la tabla de abajo se detallan los pares.
 
 Este es un ejemplo de configuración de la directiva de configuración mediante Intune.
 
-![Ajuste de la configuración de Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
+![Opciones de configuración de Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Los usuarios finales se conectan a un servidor de informes
 
