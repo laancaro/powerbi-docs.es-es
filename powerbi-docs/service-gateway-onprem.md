@@ -10,12 +10,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 9a739efdba84279e938fd8e13d6521cf975d0b9d
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 8bdb249543d8d6b5b0cb7d75e3295adc751e5ab1
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679027"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268352"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -90,8 +90,9 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
 * [Azure Information Protection](https://docs.microsoft.com/microsoft-365/enterprise/protect-files-with-aip
-) no se admite actualmente
-* [Access Online](https://products.office.com/en-us/access) no se admite actualmente
+) no se admite actualmente.
+* [Access Online](https://products.office.com/en-us/access) no se admite actualmente.
+* Los scripts de R solamente se admiten cuando la pasarela se ejecuta en modo personal.
 
 ## <a name="tenant-level-administration"></a>Administración de nivel de inquilino
 

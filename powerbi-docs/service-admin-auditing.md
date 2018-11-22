@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/10/2018
+ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 294fb3a0142908ce0ab068e075ce39f950a0b124
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: e64496461e7d81d3b39e9a8d7174a3e985d04002
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973359"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850485"
 ---
 # <a name="using-auditing-within-your-organization"></a>Usar la auditoría dentro de su organización
 
@@ -139,83 +139,100 @@ Para consultar otro ejemplo del uso de PowerShell con los registros de auditorí
 
 A continuación, se indican las actividades auditadas por Power BI.
 
-* AddDatasourceToGateway
-* AddGroupMembers
-* AnalyzedByExternalApplication
-* AnalyzeInExcel
-* AttachDataflowStorageAccount
-* BindToGateway
-* ChangeCapacityState
-* ChangeGatewayAdministrators
-* ChangeGatewayDatasourceUsers
-* CreateApp
-* CreateDashboard
-* CreateDataflow
-* CreateDataset
-* CreateEmailSubscription
-* CreateFolder
-* CreateGateway
-* CreateGroup
-* CreateOrgApp
-* CreateReport
-* DeleteComment
-* DeleteDashboard
-* DeleteDataflow
-* DeleteDataset
-* DeleteEmailSubscription
-* DeleteFolder
-* DeleteGateway
-* DeleteGroup
-* DeleteGroupMembers
-* DeleteOrgApp
-* DeleteReport
-* DownloadReport
-* EditDataset
-* EditReport
-* ExportDataflow
-* ExportReport
-* ExportTile
-* GenerateDataflowSasToken
-* GenerateEmbedToken
-* GetDatasources
-* Importar
-* InstallApp
-* MigrateWorkspaceIntoCapacity
-* OptInForProTrial
-* PostComment
-* PrintDashboard
-* PrintReport
-* PublishToWebReport
-* RefreshDataset
-* RemoveDatasourceFromGateway
-* RemoveWorkspacesFromCapacity
-* RenameDashboard
-* SetAllConnections
-* SetScheduledRefresh
-* SetScheduledRefreshOnDataflow
-* ShareDashboard
-* ShareReport
-* TakeOverDataset
-* TakeOverDatasource
-* UnpublishApp
-* UpdateApp
-* UpdateCapacityAdmins
-* UpdateCapacityDisplayName
-* UpdateCapacityResourceGovernanceSettings
-* UpdateCapacityUsersAssignment
-* UpdatedAdminFeatureSwitch
-* UpdateDataflow
-* UpdateDatasetParameters
-* UpdateDatasourceCredentials
-* UpdateDatasources
-* UpdateEmailSubscription
-* UpdateFolder
-* UpdateFolderAccess
-* ViewDashboard
-* ViewDataflow
-* ViewReport
-* ViewTile
-* ViewUsageMetrics
+| Nombre descriptivo                                     | Nombre de operación                              | Notas                                  |
+|---------------------------------------------------|---------------------------------------------|------------------------------------------|
+| Origen de datos agregado a la puerta de enlace de Power BI             | AddDatasourceToGateway                      |                                          |
+| Acceso a la carpeta de Power BI agregado                      | AddFolderAccess                             | No se usa actualmente                       |
+| Miembros del grupo de Power BI agregados                      | AddGroupMembers                             |                                          |
+| Cuenta de almacenamiento del flujo de datos adjuntado al inquilino por el administrador | AdminAttachedDataflowStorageAccountToTenant | No se usa actualmente                       |
+| Se ha analizado un conjunto de datos de Power BI                         | AnalyzedByExternalApplication               |                                          |
+| Informe de Power BI analizado                          | AnalyzeInExcel                              |                                          |
+| Conjunto de datos de Power BI enlazado a la puerta de enlace                | BindToGateway                               |                                          |
+| Estado de capacidad cambiado                            | ChangeCapacityState                         |                                          |
+| Asignación de usuarios de la capacidad cambiada                  | UpdateCapacityUsersAssignment               |                                          |
+| Conexiones de datos de Power BI cambiadas              | SetAllConnections                           |                                          |
+| Se han cambiado los administradores de la puerta de enlace de Power BI                   | ChangeGatewayAdministrators                 |                                          |
+| Se han cambiado los usuarios de los orígenes de datos de la puerta de enlace de Power BI        | ChangeGatewayDatasourceUsers                |                                          |
+| Paquete de contenido organizativo de Power BI creado      | CreateOrgApp                                |                                          |
+| Aplicación de Power BI creada                              | CreateApp                                   |                                          |
+| Panel de Power BI creado                        | CreateDashboard                             |                                          |
+| Flujo de datos de Power BI creado                         | CreateDataflow                              |                                          |
+| Conjunto de datos de Power BI creado                          | CreateDataset                               |                                          |
+| Suscripción de correo electrónico de Power BI creada               | CreateEmailSubscription                     |                                          |
+| Carpeta de Power BI creada                           | CreateFolder                                |                                          |
+| Se ha creado una puerta de enlace de Power BI                          | CreateGateway                               |                                          |
+| Grupo de Power BI creado                            | CreateGroup                                 |                                          |
+| Informe de Power BI creado                           | CreateReport                                |                                          |
+| Flujo de datos migrado a la cuenta de almacenamiento externa     | DataflowMigratedToExternalStorageAccount    | No se usa actualmente                       |
+| Permisos de flujo de datos agregados                        | DataflowPermissionsAdded                    | No se usa actualmente                       |
+| Permisos de flujo de datos eliminados                      | DataflowPermissionsRemoved                  | No se usa actualmente                       |
+| Paquete de contenido organizativo de Power BI eliminado      | DeleteOrgApp                                |                                          |
+| Comentario de Power BI eliminado                          | DeleteComment                               |                                          |
+| Panel de Power BI eliminado                        | DeleteDashboard                             | No se usa actualmente                       |
+| Flujo de datos de Power BI eliminado                         | DeleteDataflow                              | No se usa actualmente                       |
+| Conjunto de datos de Power BI eliminado                          | DeleteDataset                               |                                          |
+| Suscripción de correo electrónico de Power BI eliminada               | DeleteEmailSubscription                     |                                          |
+| Carpeta de Power BI eliminada                           | DeleteFolder                                |                                          |
+| Acceso a la carpeta de Power BI eliminado                    | DeleteFolderAccess                          | No se usa actualmente                       |
+| Se ha eliminado una puerta de enlace de Power BI                          | DeleteGateway                               |                                          |
+| Grupo de Power BI eliminado                            | DeleteGroup                                 |                                          |
+| Informe de Power BI eliminado                           | DeleteReport                                |                                          |
+| Orígenes de datos de conjunto de datos de Power BI detectados          | GetDatasources                              |                                          |
+| Informe de Power BI descargado                        | DownloadReport                              |                                          |
+| Permiso de certificación de Power BI editado          | EditCertificationPermission                 | No se usa actualmente                       |
+| Panel de Power BI editado                         | EditDashboard                               | No se usa actualmente                       |
+| Conjunto de datos de Power BI editado                           | EditDataset                                 |                                          |
+| Propiedades de conjunto de datos de Power BI editadas                | EditDatasetProperties                       | No se usa actualmente                       |
+| Informe de Power BI editado                            | EditReport                                  |                                          |
+| Flujo de datos de Power BI exportado                        | ExportDataflow                              |                                          |
+| Datos de objetos visuales de informe de Power BI exportados              | ExportReport                                |                                          |
+| Datos de iconos de Power BI exportados                       | ExportTile                                  |                                          |
+| No se pudieron agregar permisos de flujo de datos                | FailedToAddDataflowPermissions              | No se usa actualmente                       |
+| No se pudieron eliminar permisos de flujo de datos             | FailedToRemoveDataflowPermissions           | No se usa actualmente                       |
+| Token SAS de flujo de datos de Power BI generado             | GenerateDataflowSasToken                    |                                          |
+| Token de inserción Power BI generado                    | GenerateEmbedToken                          |                                          |
+| Archivo a Power BI importado                         | Importar                                      |                                          |
+| Aplicación de Power BI instalada                            | InstallApp                                  |                                          |
+| Área de trabajo a una capacidad migrada                  | MigrateWorkspaceIntoCapacity                |                                          |
+| Comentario de Power BI publicado                           | PostComment                                 |                                          |
+| Panel de Power BI imprimido                        | PrintDashboard                              |                                          |
+| Página de informe de Power BI imprimida                      | PrintReport                                 |                                          |
+| Informe de Power BI publicado en la Web                  | PublishToWebReport                          |                                          |
+| Flujo de datos de Power BI secreto recibido de Key Vault  | ReceiveDataflowSecretFromKeyVault           | No se usa actualmente                       |
+| Se ha eliminado un origen de datos de la puerta de enlace de Power BI         | RemoveDatasourceFromGateway                 |                                          |
+| Miembros del grupo de Power BI eliminados                    | DeleteGroupMembers                          |                                          |
+| Área de trabajo de una capacidad eliminada                 | RemoveWorkspacesFromCapacity                |                                          |
+| Nombre de un panel de Power BI cambiado                        | RenameDashboard                             |                                          |
+| Actualización del flujo de datos de Power BI solicitada               | RequestDataflowRefresh                      | No se usa actualmente                       |
+| Actualización del conjunto de datos de Power BI solicitada                | RefreshDataset                              |                                          |
+| Áreas de trabajo de Power BI recuperadas                     | GetWorkspaces                               |                                          |
+| Actualización programada en un flujo de datos de Power BI establecida        | SetScheduledRefreshOnDataflow               |                                          |
+| Actualización programada en un conjunto de datos de Power BI establecida         | SetScheduledRefresh                         |                                          |
+| Panel de Power BI compartido                         | ShareDashboard                              |                                          |
+| Informe de Power BI compartido                            | ShareReport                                 |                                          |
+| Se ha iniciado la versión de prueba extendida de Power BI                   | OptInForExtendedProTrial                    | No se usa actualmente                       |
+| Versión de prueba de Power BI iniciada                            | OptInForProTrial                            |                                          |
+| Control tomado sobre un origen de datos de Power BI                   | TakeOverDatasource                          |                                          |
+| Control tomado sobre un conjunto de datos de Power BI                        | TakeOverDataset                             |                                          |
+| Publicación de una aplicación de Power BI anulada                          | UnpublishApp                                |                                          |
+| Configuración de regulación de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No disponible actualmente en el portal de administración de Office 365 |
+| Administración de capacidad actualizada                            | UpdateCapacityAdmins                        |                                          |
+| Nombre para mostrar de la capacidad actualizado                     | UpdateCapacityDisplayName                   |                                          |
+| Configuración de Power BI de la organización actualizada          | UpdatedAdminFeatureSwitch                   |                                          |
+| Aplicación de Power BI actualizada                              | UpdateApp                                   |                                          |
+| Flujo de datos de Power BI actualizados                         | UpdateDataflow                              |                                          |
+| Orígenes de datos de conjunto de datos de Power BI actualizados             | UpdateDatasources                           |                                          |
+| Parámetros de conjunto de datos de Power BI actualizados               | UpdateDatasetParameters                     |                                          |
+| Suscripción de correo electrónico de Power BI actualizada               | UpdateEmailSubscription                     |                                          |
+| Carpeta de Power BI actualizada                           | UpdateFolder                                |                                          |
+| Acceso a la carpeta de Power BI actualizado                    | UpdateFolderAccess                          |                                          |
+| Credenciales de los orígenes de datos de la puerta de enlace de Power BI actualizadas  | UpdateDatasourceCredentials                 |                                          |
+| Panel de Power BI visualizado                         | ViewDashboard                               |                                          |
+| Flujo de datos de Power BI visualizado                          | ViewDataflow                                |                                          |
+| Informe de Power BI visualizado                            | ViewReport                                  |                                          |
+| Conjunto de datos de Power BI visualizado                              | ViewTile                                    |                                          |
+| Métricas de uso de Power BI visualizadas                     | ViewUsageMetrics                            |                                          |
+|                                                   |                                             |                                          |
 
 ## <a name="next-steps"></a>Pasos siguientes
 

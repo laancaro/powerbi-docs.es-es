@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 10/22/2018
-ms.openlocfilehash: 7b57e0d5e303f2b342e2d7750741717b178a8f4e
-ms.sourcegitcommit: f9dd6098ca57d4d6cad34284126d4e58eab1c92c
+ms.openlocfilehash: e62d39f13e2b171456d667ec9683acd4ebdc5516
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/29/2018
-ms.locfileid: "50222114"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157135"
 ---
 # <a name="power-bi-urls"></a>URL de Power BI
 
@@ -69,7 +69,7 @@ Para obtener datos de orígenes de datos específicos, como OneDrive, debe poder
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
 | 1 | **Obligatorio:** AppSource (aplicaciones internas o externas en Power BI) | appsource.microsoft.com </br> *.s-microsoft.com  | TCP 443 |
-| 2 | **Obligatorio:** iniciar sesión y obtener datos para los paquetes de contenido | *.github.com  | TCP 443 |
+| 2 | **Opcional:** iniciar sesión y obtener datos para los paquetes de contenido | En función de los paquetes de contenido utilizados | En función de los paquetes de contenido utilizados |
 | 3 | **Opcional:** importar archivos desde OneDrive personal | Vea el sitio [Required URLs and ports for OneDrive](https://docs.microsoft.com/onedrive/required-urls-and-ports) (Direcciones y puertos requeridos para OneDrive) | N/D |
 | 4 | **Opcional:** vídeo del tutorial de Power BI en 60 segundos | *.doubleclick.net </br> *.ggpht.com </br> *.google.com </br> *.googlevideo.com </br> *.youtube.com </br> *.ytimg.com </br> fonts.gstatic.com | TCP 443 |
 | 5 | **Opcional:** orígenes de datos de streaming de PubNub | Vea la [documentación de PubNub](https://support.pubnub.com/support/solutions/articles/14000043522) | N/D |

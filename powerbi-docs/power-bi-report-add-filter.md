@@ -1,5 +1,5 @@
 ---
-title: Agregar un filtro a un informe de Power BI
+title: Incorporación de un filtro a un informe en la vista Editar
 description: Adición de un filtro de página, un filtro de visualización o un filtro de informe a un informe en Power BI
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 11/16/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c50afced257df1878a0a695a37d9401d9eda01b7
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 328c8ab2e236f0ddc0c5116c1f76d343999193ab
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611161"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157388"
 ---
-# <a name="add-a-filter-to-a-power-bi-service-report-in-editing-view"></a>Adición de un filtro a un informe del servicio Power BI (en la vista de edición)
+# <a name="add-a-filter-to-a-report-in-editing-view"></a>Incorporación de un filtro a un informe en la vista Editar
 
 En este artículo se explica cómo agregar un filtro de página, un filtro de visualización, un filtro de informe o un filtro de obtención de detalles a un informe en Power BI. Para los ejemplos de este artículo se usa el servicio Power BI. Los pasos son casi idénticos en Power BI Desktop.
 

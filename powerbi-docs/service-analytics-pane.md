@@ -1,5 +1,5 @@
 ---
-title: Panel de análisis del servicio Power BI
+title: Creación de líneas de referencia dinámicas para objetos visuales
 description: Crear líneas de referencia dinámicas para objetos visuales del servicio Power BI
 author: mihart
 manager: kfile
@@ -7,17 +7,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/21/2017
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 37f4663a176e81f2c235111092fcfa5576bfe08a
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 04173d98185d7900848e93563b8e981bf3b200e6
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34244530"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717709"
 ---
-# <a name="analytics-pane-in-power-bi-service"></a>Panel de análisis del servicio Power BI
+# <a name="create-dynamic-reference-lines-for-visuals-in-the-power-bi-service"></a>Creación de líneas de referencia dinámicas para objetos visuales del servicio Power BI
+
 Con el panel **Análisis** en **Servicio Power BI**, puede agregar *líneas de referencia* dinámicas a visualizaciones y destacar las tendencias o detalles importantes.
 
 ![](media/service-analytics-pane/power-bi-analytics-pane.png)
@@ -27,7 +28,7 @@ Con el panel **Análisis** en **Servicio Power BI**, puede agregar *líneas de r
 > 
 > 
 
-## <a name="using-the-analytics-pane"></a>Usar el panel Analytics
+## <a name="use-the-analytics-pane"></a>Uso del panel Analytics
 Con el panel **Analytics**, puede crear los siguientes tipos de líneas de referencia dinámicas (no todas las líneas están disponibles para todos los tipos visuales):
 
 * Línea constante del eje X

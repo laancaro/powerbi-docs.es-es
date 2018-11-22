@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/21/2018
+ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 1041dcf8c345bfdf8d5a6ae9823d4cecd5c323a6
-ms.sourcegitcommit: a764e4b9d06b50d9b6173d0fbb7555e3babe6351
+ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2018
-ms.locfileid: "49641681"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268306"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
 
@@ -94,6 +94,7 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 - Una consulta en caché almacenada en una región remota permanece en esa región en reposo. Sin embargo, otros datos en tránsito pueden ir y venir entre distintas geografías.
 - Al mover datos de una región a otra en un entorno de Multi-Geo, los datos de origen pueden permanecer en la región desde donde se movieron los datos durante hasta 30 días. Durante ese período, los usuarios finales no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
 - En términos generales, Multi-Geo no genera un mejor rendimiento. La carga de informes y paneles sigue implicando solicitudes de metadatos a la región principal.
+- La característica [flujos de datos](service-dataflows-overview.md) (en versión preliminar) no se admite en Multi-GEO actualmente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

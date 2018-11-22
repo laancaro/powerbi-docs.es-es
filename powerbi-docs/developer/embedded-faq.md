@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: conceptual
 ms.date: 09/17/2018
-ms.openlocfilehash: 56b6c954aa49f8adf0aa479f143fb11b932c107e
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 8cdeed0c5575a8405ae5db6d1eaca522ab0597cb
+ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736973"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51679441"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -119,7 +119,7 @@ https://app.powerbi.com/ > ? > Acerca de Power BI
 ![Acerca de Power BI](media/embedded-faq/about-01.png)
 ![Región del inquilino](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-with-the-communicating-sequential-processes-csp-channel"></a>¿Qué es compatible con el canal de comunicación de procesos secuenciales (CSP)?
+### <a name="what-is-supported-with-the-cloud-solution-provider-csp-channel"></a>¿Qué es compatible con el canal Proveedor de soluciones en la nube (CSP)?
 
 * Puede crear PBIE en su inquilino con el tipo de suscripción de CSP.
 * La cuenta de asociado puede iniciar sesión en el inquilino del cliente y adquirir PBIE para dicho inquilino especificando el usuario del inquilino de cliente como administrador de capacidad de Power BI.

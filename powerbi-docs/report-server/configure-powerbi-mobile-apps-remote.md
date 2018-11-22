@@ -1,5 +1,5 @@
 ---
-title: Configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
+title: Configuración del acceso de la aplicación móvil de iOS a un servidor de informes de forma remota
 description: Aprenda a configurar las aplicaciones móviles de iOS de forma remota para el servidor de informes.
 author: maggiesMSFT
 manager: kfile
@@ -7,21 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2018
+ms.date: 11/15/2018
 ms.author: maggies
-ms.openlocfilehash: bbade67c9510b8d316364d991c09444712309514
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 538bb802998003dba63b6c63cca2068b2d7b69fa
+ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34722187"
+ms.lasthandoff: 11/20/2018
+ms.locfileid: "52157434"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
+# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configuración del acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
 
-En este artículo se explica cómo usar la herramienta MDM de su organización para configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota. Para configurarlo, los administradores de TI deben crear una directiva de configuración de aplicación con la información necesaria para que se envíe a la aplicación. 
+En este artículo se explica cómo usar la herramienta MDM de su organización para configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota. Para configurarlo, los administradores de TI deben crear una directiva de configuración de aplicaciones con la información necesaria para que se envíe a la aplicación. 
 
- Después, los usuarios de la aplicación móvil de iOS de Power BI pueden conectarse al servidor de informes de la organización más fácilmente porque ya está configurada la conexión del servidor de informes. 
-
+ Con la conexión del servidor de informes configurada, los usuarios de la aplicación móvil de iOS de Power BI pueden conectarse al servidor de informes de la organización más fácilmente. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Crear la directiva de configuración de aplicaciones en la herramienta MDM 
 
@@ -39,7 +38,7 @@ En la tabla de abajo se detallan los pares.
 | com.microsoft.powerbi.mobile.ServerURL | Cadena | URL del servidor de informes </br> Debe empezar por http/https |
 | com.microsoft.powerbi.mobile.ServerUsername | Cadena | (opcional) </br> El nombre de usuario que se usará para conectar el servidor. </br> Si no existe, la aplicación pide al usuario que escriba el nombre de usuario para la conexión.| 
 | com.microsoft.powerbi.mobile.ServerDisplayName | Cadena | (opcional) </br> El valor predeterminado es “Servidor de informes” </br> Nombre descriptivo que se usa en la aplicación para representar el servidor | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | El valor predeterminado es True </br> Si se establece en “True”, se invalida cualquier definición de servidor de informes que ya esté en el dispositivo móvil (se eliminarán los servidores existentes ya configurados). </br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. </br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. </br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, la aplicación deja esa configuración tal como está y no pide al usuario que vuelva a autenticarse para el mismo servidor. |
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | El valor predeterminado es True </br>Si se establece en "true", invalida cualquier definición de servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. </br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. </br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. </br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
 
 Este es un ejemplo de configuración de la directiva de configuración mediante Intune.
 
@@ -47,7 +46,7 @@ Este es un ejemplo de configuración de la directiva de configuración mediante 
 
 ## <a name="end-users-connecting-to-a-report-server"></a>Los usuarios finales se conectan a un servidor de informes
 
-Después de publicar la directiva de configuración de aplicaciones, los usuarios y los dispositivos que pertenecen a la lista de distribución definida para esa directiva tienen la siguiente experiencia cuando se inicia la aplicación móvil de iOS de Power BI. 
+ Supongamos que publica la directiva de configuración de aplicaciones para una lista de distribución. Cuando los usuarios y los dispositivos de dicha lista de distribución inicien la aplicación móvil de iOS, tendrán la siguiente experiencia. 
 
 1. Se muestra un mensaje que indica que su aplicación móvil está configurada con un servidor de informes y deben pulsar en **Iniciar sesión**.
 

@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/24/2018
+ms.date: 11/14/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: cc1f348deb222ce080ac41ac2574f4fb1437e8db
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: cdc406ddd9c086114ca118130bb4973737de3ed1
+ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48909024"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51717904"
 ---
 # <a name="create-the-new-workspaces-preview-in-power-bi"></a>Crear nuevas áreas de trabajo (versión preliminar) en Power BI
 
@@ -168,7 +168,7 @@ Algunas características funcionan de manera diferente en las áreas de trabajo 
 
 Se tiene conocimiento de los siguientes problemas y se están desarrollando sus correcciones:
 
-- Es posible que los usuarios o grupos de usuarios con acceso gratuito que se agregan como destinatarios de las suscripciones a los correos electrónicos no reciban los correos electrónicos, aunque deberían. El problema se produce cuando el área de trabajo de la experiencia de las nuevas áreas de trabajo está en una capacidad Premium, pero el área de trabajo del usuario que crea la suscripción no se encuentra en una capacidad Premium. Si Mi área de trabajo está en una capacidad Premium, entonces los usuarios y grupos de usuarios con acceso gratuito recibirán los correos electrónicos.
+- Es posible que los usuarios o grupos de usuarios con acceso gratuito que se agregan como destinatarios de las suscripciones a los correos electrónicos no reciban los correos electrónicos, aunque deberían. El problema se produce cuando una de las nuevas áreas de trabajo está en una capacidad Premium, pero el área de trabajo del usuario que crea la suscripción no se encuentra en una capacidad Premium. Si Mi área de trabajo está en una capacidad Premium, entonces los usuarios y grupos de usuarios con acceso gratuito recibirán los correos electrónicos.
 - Después de mover un área de trabajo de una capacidad Premium a una capacidad compartida, en algunos casos, los usuarios y grupos de usuarios con acceso gratuito siguen recibiendo correos electrónicos, aunque no deberían. El problema se produce cuando Mi área de trabajo del usuario que crea la suscripción se encuentra en una capacidad Premium.
 
 ## <a name="next-steps"></a>Pasos siguientes

@@ -10,12 +10,12 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
 LocalizationGroup: Administration
-ms.openlocfilehash: b03e9da87aa507812045378b1fa3e581b7de159c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
+ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266125"
+ms.lasthandoff: 11/21/2018
+ms.locfileid: "52268375"
 ---
 # <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
 
@@ -301,7 +301,7 @@ Los usuarios de la organización pueden importar datos en el servicio, como publ
 
 ### <a name="create-and-use-dataflows-preview"></a>Creación y uso de flujos de datos (versión preliminar)
 
-Los usuarios de la organización pueden crear y usar flujos de datos. [Más información](service-dataflows-overview.md)
+Los usuarios de la organización pueden crear y usar flujos de datos. Para obtener información general sobre flujos de datos, vea [Preparación de datos de autoservicio en Power BI (versión preliminar)](service-dataflows-overview.md). Para habilitar flujos de datos en una capacidad Premium, vea [Configuración de las cargas de trabajo](service-admin-premium-manage.md#configure-workloads).
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.

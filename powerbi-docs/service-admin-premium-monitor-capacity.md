@@ -10,18 +10,22 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/06/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: bb7527a197c9556509ebba721ee49a2d9817b6f5
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
+ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51266217"
+ms.lasthandoff: 11/15/2018
+ms.locfileid: "51688405"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Supervisión de las capacidades de Power BI Premium y Power BI Embedded
 
 En este artículo se proporciona información general sobre la supervisión de las métricas de las capacidades de Power BI Premium. La supervisión del uso de la capacidad le permite adoptar un enfoque fundamentado para administrar sus capacidades.
 
-Puede supervisar la capacidad con la aplicación Premium Capacity Metrics o en el Portal de administración. Aunque en este artículo se tratan las dos opciones, se recomienda la aplicación porque proporciona muchos más detalles. **La versión actual de la aplicación es la 1.8 (publicada el 7 de noviembre de 2018).**
+Puede supervisar la capacidad con la aplicación Premium Capacity Metrics o en el Portal de administración. Aunque en este artículo se tratan las dos opciones, se recomienda la aplicación porque proporciona muchos más detalles.
+
+**La versión actual de la aplicación es la 1.9, publicada el 14 de noviembre de 2018.**
+
+.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UgsjMbhi_Bk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 
@@ -87,7 +91,7 @@ En el área **Summary** (Resumen) se muestra una vista de las capacidades en fun
 | --- | --- |
 | **Entities** (Entidades) | * El número de capacidades que posee.<br> * El número de conjuntos de datos distintos de su capacidad.<br> * El número de áreas de trabajo distintas de su capacidad. |
 | **System** (Sistema) | * El uso medio de memoria en GB durante los últimos siete días.<br> * El consumo más alto de memoria en GB en los últimos siete días y la hora local a la que se produjo.<br> * El número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que la CPU superó el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo.<br> * El número de veces que las conexiones dinámicas y consultas directas superaron el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que las conexiones dinámicas o consultas directas superaron el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo. |
-| **Dataset Workloads** (Cargas de trabajo de conjunto de datos) | * Número total de actualizaciones en los últimos siete días.<br> * Número total de actualizaciones correctas en los últimos siete días.<br> * Número total de actualizaciones con errores en los últimos siete días.<br> * Número total de actualizaciones con error debido a memoria insuficiente.<br> * La duración media de actualización es el tiempo necesario para completar la operación, en minutos.<br> * El tiempo de espera medio de actualización es el retraso medio entre la hora programada y el inicio de la operación, en minutos.<br> * Número total de consultas ejecutadas en los últimos siete días.<br> * Número total de consultas correctas en los últimos siete días.<br> * Número total de consultas con error en los últimos siete días.<br> * La duración media de consulta es el tiempo necesario para completar la operación, en minutos.<br> * Número total de modelos expulsados debido a la presión de memoria. |
+| **Dataset Workloads** (Cargas de trabajo de conjunto de datos) | * Número total de actualizaciones en los últimos siete días.<br> * Número total de actualizaciones correctas en los últimos siete días.<br> * Número total de actualizaciones con errores en los últimos siete días.<br> * Número total de actualizaciones con error debido a memoria insuficiente.<br> * La duración media de actualización es el tiempo necesario para completar la operación, en minutos.<br> * El tiempo de espera medio de actualización es el retraso medio entre la hora programada y el inicio de la operación, en minutos.<br> * Número total de consultas ejecutadas en los últimos siete días.<br> * Número total de consultas correctas en los últimos siete días.<br> * Número total de consultas con error en los últimos siete días.<br> * La duración media de consulta es el tiempo necesario para completar la operación, en minutos.<br> * Número total de modelos expulsados debido a la presión de memoria.<br> * Tamaño promedio de los conjuntos de datos <br> * Recuento promedio de los conjuntos de datos cargados en memoria |
 |  |  |
 
 #### <a name="refreshes-area"></a>Pestaña Refreshes (Actualizaciones)
@@ -136,6 +140,8 @@ El área **Conjuntos de datos** contiene las siguientes métricas.
 | --- | --- |
 | **Recuentos de expulsiones del conjunto de datos** | * Total: el número total de *expulsiones* del conjunto de datos para cada funcionalidad. Cuando una funcionalidad sufre la presión de la memoria, el nodo expulsa uno o varios conjuntos de datos de la memoria. Los conjuntos de datos que están inactivos (sin ninguna operación de consulta o actualización ejecutándose actualmente) se expulsan primero. A continuación, el orden de expulsión se basa en una medida de tipo LRU (el menos usado recientemente).|
 | **Consumo de memoria y expulsiones de conjuntos de datos por horas** | * Expulsiones de conjuntos de datos frente a consumo de memoria en GB, con divisiones en fragmentos por horas, notificadas en la hora local. |
+| **Recuentos de conjuntos de datos cargados por hora** | * Número de conjuntos de datos cargados en memoria frente al consumo de memoria en GB, con divisiones en fragmentos por horas, notificadas en la hora local |
+| **Tamaños de datos**  | * Tamaño máximo: el tamaño máximo del conjunto de datos en MB durante el período que se muestra |
 |  |  |
 
 ### <a name="paginated-reports-tab"></a>Pestaña Informes paginados

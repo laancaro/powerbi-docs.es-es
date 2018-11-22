@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 11/16/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: d708a4ff07a0d202fcc709f6348e48505d7589d0
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 6a2cfd4926089bce8973070949791e450a47cc4b
+ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973382"
+ms.lasthandoff: 11/16/2018
+ms.locfileid: "51850600"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -47,7 +47,7 @@ El tipo de campo puede ser un valor de número, fecha y hora o cadena y el tipo 
 
 * Las **cadenas** deben incluirse entre comillas simples: 'nombre de administrador'.
 * Los **números** no requieren ningún formato especial
-* Las **fechas y horas** deben escribirse entre comillas simples y deben ir precedidas de la palabra **DateTime**.
+* Las **fechas y horas** deben incluirse entre comillas simples. En la versión 3 de OData, deben ir precedidas por la palabra datetime, aunque en la 4 no es necesario incluirla.
 
 Si le sigue sin quedar claro, siga leyendo.  
 
