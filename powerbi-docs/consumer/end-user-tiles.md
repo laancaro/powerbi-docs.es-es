@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f788da00d50ee7e22da82aa7e57560cfc516b0c7
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396483"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331905"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
-Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile/mobile-tiles-in-the-mobile-apps.md). Y, en Power BI Mobile, puede [agregar imágenes al panel con su aplicación de iPhone](mobile/mobile-iphone-app-get-started.md).
+Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile/mobile-tiles-in-the-mobile-apps.md). 
 
 ## <a name="dashboard-tiles"></a>Los iconos de panel
 ![Panel de Power BI](./media/end-user-tiles/power-bi-dashboard.png)
