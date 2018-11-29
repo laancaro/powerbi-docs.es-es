@@ -1,54 +1,48 @@
 ---
-title: Paneles en el servicio Power BI
-description: Los paneles son una característica clave del servicio Power BI.
+title: Introducción a los paneles para los diseñadores de Power BI
+description: Los paneles son una característica clave del servicio Power BI. Incluyen una única página, que se suele denominar lienzo, que cuenta una historia mediante visualizaciones.
 author: maggieMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/18/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7f94d47452fb9d1ea24c950dba2988c6c80c053
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473737"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331951"
 ---
-# <a name="dashboards-in-the-power-bi-service"></a>Paneles en el servicio Power BI
+# <a name="intro-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
-Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, que usa visualizaciones para contar una historia. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos más importantes de esa historia.
+Un ***panel*** de Power BI incluye una única página, que se suele denominar lienzo, que cuenta una historia mediante visualizaciones. Dado que se limita a una sola página, un panel bien diseñado contiene únicamente los elementos destacados de esa historia. Los lectores pueden ver informes relacionados para conocer los detalles.
 
 ![panel](media/service-dashboards/power-bi-dashboard2.png)
 
-Los paneles son una característica del servicio Power BI pero no están disponibles en Power BI Desktop. No se pueden crear paneles en dispositivos móviles, pero se pueden [ver y compartir](mobile-apps-view-dashboard.md).
+Los paneles son una característica del servicio Power BI y no están disponibles en Power BI Desktop. No puede crear paneles en dispositivos móviles, pero puede [verlos y compartirlos](mobile-apps-view-dashboard.md) allí.
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Creadores de paneles y consumidores de paneles
-En función de su rol, es posible que sea alguien que crea paneles para su propio uso o para compartir con compañeros de trabajo. Puede encontrar información en **Paneles para creadores**. Si es alguien que recibe los paneles de otros usuarios. Desea información sobre cómo comprender e interactuar con el panel. Este artículo es para usted.
+## <a name="dashboard-basics"></a>Conceptos básicos de los paneles 
 
-
-### <a name="if-you-will-be-receiving-and-consuming-dashboards"></a>Si va a recibir y consumir paneles
-
-Las visualizaciones que se ven en el panel se denominan *iconos* y los *creadores* del panel los *anclan* al panel, desde los informes. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](service-basic-concepts.md).
+Las visualizaciones que se ven en el panel se denominan *iconos*. Puede *anclar* iconos a un panel desde informes. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](service-basic-concepts.md).
 
 > [!IMPORTANT]
-> Se necesita [Power BI Pro](service-free-vs-pro.md) para ver un panel compartido.
+> Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para crear paneles.
 
-Las visualizaciones de un panel proceden de informes y cada informe se basa en un conjunto de datos. De hecho, una manera de pensar en un panel es como vía de entrada a los informes y conjuntos de datos subyacentes. La selección de una visualización lleva al informe (y al conjunto de datos) utilizado para crearla.
+Las visualizaciones de un panel proceden de informes y cada informe se basa en un conjunto de datos. Una manera de pensar en un panel es como vía de entrada a los informes y conjuntos de datos subyacentes. Si selecciona una visualización, se le dirige al informe (y al conjunto de datos) en el que se basa.
 
 ![Diagrama que muestra la relación entre paneles, informes, conjuntos de datos](media/service-dashboards/power-bi-diagram.png)
 
-
-
 ## <a name="advantages-of-dashboards"></a>Ventajas de los paneles
-Los paneles son una magnífica manera de supervisar su empresa, buscar respuestas y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios y de un informe subyacente o de varios. Un panel combina datos locales y procedentes de la nube, lo que proporciona una vista consolidada, independientemente de donde residen los datos.
+Los paneles son una magnífica manera de supervisar su empresa y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios y de un informe subyacente o de varios. Un panel combina datos locales y en la nube, lo que proporciona una vista consolidada, independientemente de dónde residen los datos.
 
-Un panel no es simplemente una imagen bonita; es algo muy interactivo y los iconos se actualizan según cambien los datos subyacentes.
+Un panel no es simplemente una foto bonita. Es muy interactivo y los iconos se actualizan según cambian los datos subyacentes.
 
 ## <a name="dashboards-versus-reports"></a>Paneles frente a informes
-Los [informes](service-reports.md) suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Pero hay algunas diferencias importantes para los consumidores de Power BI.
+Los [informes](service-reports.md) y los paneles parecen similares, porque ambos son lienzos con visualizaciones, pero hay algunas diferencias importantes.
 
 | **Funcionalidad** | **Paneles** | **Informes** |
 | --- | --- | --- |
@@ -66,6 +60,6 @@ Los [informes](service-reports.md) suelen confundirse con paneles, ya que son ig
 
 ## <a name="next-steps"></a>Pasos siguientes
 * Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](sample-tutorial-connect-to-the-samples.md).
-* Obtenga información acerca de los [iconos de panel](service-dashboard-tiles.md) y lo que ocurre al seleccionar uno.
+* Obtenga información sobre los [iconos del panel](service-dashboard-tiles.md).
 * ¿Desea realizar un seguimiento de un icono de panel individual y recibir un mensaje de correo electrónico al alcanzar un umbral determinado? [Cree alertas en iconos](service-set-data-alerts.md).
-* Diviértase preguntando a su panel. Aprenda a utilizar [Preguntas y respuestas de Power BI](power-bi-tutorial-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
+* Aprenda a utilizar [Preguntas y respuestas de Power BI](power-bi-tutorial-q-and-a.md) para formular una pregunta sobre los datos y recibir una respuesta en forma de visualización.
