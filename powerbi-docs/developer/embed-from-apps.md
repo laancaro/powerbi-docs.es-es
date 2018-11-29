@@ -3,18 +3,18 @@ title: Insertar informes o paneles desde aplicaciones
 description: Obtenga información para integrar o insertar un informe o un panel desde una aplicación de Power BI y no desde un área de trabajo de aplicación.
 author: markingmyname
 ms.author: maghan
-ms.date: 07/13/2018
 ms.topic: how-to
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 53803c77dec8eb35c10db7f19a82f58144f88414
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.date: 11/27/2018
+ms.openlocfilehash: 8073696907ceff67664a0802a2b7775eea693e37
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47237994"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452531"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Insertar informes o paneles desde aplicaciones
 
@@ -26,11 +26,11 @@ En Power BI, se pueden crear aplicaciones para reunir paneles e informes relacio
 
 2. Abra el informe que quiera en el servicio Power BI.
 
-3. Vaya a **Archivo** > **Insertar en SharePoint Online** y obtenga ahí el valor de embedURL de informe. Se muestra en la instantánea siguiente. O bien llame a la API REST GetReports/GetReport y extraiga de la respuesta el campo embedURL de informe correspondiente. La llamada a REST no debería incluir un identificador de área de trabajo como parte de la dirección URL, ya que se creó una instancia de la aplicación en el área de trabajo del usuario.
-
-4. Use el valor de embedURL recuperado en el paso 3 con el SDK de JavaScript.
+3. Vaya a **Archivo** > **Insertar en SharePoint Online** y obtenga el valor de embedURL de informe. En la instantánea siguiente se muestra un ejemplo de embedURL. También puede llamar a la API de REST GetReports/GetReport y extraer de la respuesta el campo embedURL de informe correspondiente. La llamada a REST no debería incluir un identificador de área de trabajo como parte de la dirección URL, ya que se creó una instancia de la aplicación en el área de trabajo del usuario.
 
     ![Inserción desde aplicaciones](media/embed-from-apps/embed-from-app.png)
+
+4. Use el valor de embedURL recuperado en el paso 3 con el SDK de JavaScript.
 
 ## <a name="grab-a-dashboard-embedurl-for-embedding"></a>Obtención de un valor embedURL de panel para la inserción
 

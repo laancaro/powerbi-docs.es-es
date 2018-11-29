@@ -7,54 +7,55 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2018
+ms.date: 11/21/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 6759145d2764a586526a69c8b577178144ba019e
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: e76d57f43fc76f5a9c51501daac48b081d9747b6
+ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187017"
+ms.lasthandoff: 11/27/2018
+ms.locfileid: "52331826"
 ---
 # <a name="get-started-with-power-bi-qa"></a>Introducción a Preguntas y respuestas de Power BI
-## <a name="use-power-bi-qa-with-the-retail-analysis-sample"></a>Uso de Preguntas y respuestas de Power BI con el Ejemplo de análisis de minoristas
-A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural.  En esta guía de inicio rápido veremos 2 formas distintas de crear la misma visualización: la primera creándola en un informe y la segunda preguntando con Preguntas y respuestas. Vamos a usar el servicio Power BI, pero el proceso es casi idéntico con Power BI Desktop.
+
+A veces, la manera más rápida de obtener una respuesta de sus datos es formular una pregunta con un lenguaje natural.  En esta guía de inicio rápido veremos dos formas distintas de crear la misma visualización: en primer lugar, la crearemos en un informe y, en segundo lugar, haremos una pregunta con Preguntas y respuestas. Vamos a usar el servicio Power BI, pero el proceso es casi idéntico con Power BI Desktop.
 
 Para poder continuar, debe utilizar un informe que pueda editar, por lo que vamos a usar uno de los ejemplos disponibles con Power BI.
 
-## <a name="method-1-using-the-report-editor"></a>Método 1: usar el editor de informes
+## <a name="create-a-visual-in-the-report-editor"></a>Creación de un objeto visual en el editor de informes
+
 1. En el área de trabajo de Power BI, seleccione **Obtener datos** \> **Ejemplos** \> **Ejemplo de análisis de minoristas** > **Conectar**.
    
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
-2. El panel contiene un icono de gráfico de área para "Ventas del último año y ventas de este año".  Seleccione este icono. 
-   
-   * Si el icono se creó con Preguntas y respuestas, al seleccionar el icono se abrirá Preguntas y respuestas. 
-   * Pero este icono se creó en un informe, por lo que se abre el informe en la página que contiene esta visualización.
-3. Seleccione **Editar informe**para abrir el informe en la Vista de edición.  Si no es el propietario de un informe, no tendrá la opción de abrir el informe en la vista de edición.
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
-4. Seleccione el gráfico de área y revise la configuración en el panel **Campos** .  Para crear este gráfico, el creador del informe selecciona estos 3 valores (**Tiempo > Mes fiscal**, **Ventas > Ventas de este año**, **Ventas > Ventas del último año > Valor**) y los organiza en las áreas **Ejes** y **Valores** .
-   
-    ![](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+2. El panel contiene un icono de gráfico de área para "Ventas del último año y ventas de este año".  Seleccione este icono. Si el icono se creó con Preguntas y respuestas, al seleccionar el icono se abrirá Preguntas y respuestas. Pero este icono se creó en un informe, por lo que se abre el informe en la página que contiene esta visualización.
 
-## <a name="method-2-using-qa"></a>Método 2: uso de preguntas y respuestas
+    ![Panel del ejemplo de análisis de minoristas](media/power-bi-visualization-introduction-to-q-and-a/power-bi-dashboard.png)
+
+1. Seleccione **Editar informe**para abrir el informe en la Vista de edición.  Si no es el propietario de un informe, no tiene la opción de abrirlo en la vista de edición.
+   
+    ![Botón Editar informe](media/power-bi-visualization-introduction-to-q-and-a/power-bi-edit-report.png)
+4. Seleccione el gráfico de área y revise la configuración en el panel **Campos** .  Para crear este gráfico, el creador del informe ha seleccionado estos tres valores (**Tiempo > MesFiscal**, **Ventas > Ventas de este año**, **Ventas > Ventas del año anterior > Valor**) y los ha organizado en los campos **Eje** y **Valores**.
+   
+    ![Panel Visualizaciones](media/power-bi-visualization-introduction-to-q-and-a/gnatutorial_3-new.png)
+
+## <a name="create-the-same-visual-with-qa"></a>Creación del mismo objeto visual con Preguntas y respuestas
+
 ¿Cómo podría crear este mismo gráfico de líneas mediante Preguntas y respuestas?
 
-![](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
+![Cuadro Pregunte algo](media/power-bi-visualization-introduction-to-q-and-a/power-bi-qna.png)
 
 1. Vuelva al panel del ejemplo de análisis de venta directa.
-2. Con un lenguaje natural, escriba algo parecido a esto en el cuadro de pregunta:
+2. Con un lenguaje natural, escriba una pregunta similar a esta en el cuadro de pregunta:
    
    **cuáles fueron las ventas de este año y del año pasado por mes como gráfico de áreas**
    
-   A medida que escriba la pregunta, Preguntas y respuestas seleccionará la mejor visualización para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta. Además, Preguntas y respuestas ayuda a dar formato a la pregunta con sugerencias, autocompletar y correcciones ortográficas.
+   A medida que escriba la pregunta, Preguntas y respuestas seleccionará la mejor visualización para mostrar la respuesta; la visualización cambia de forma dinámica a medida que se modifica la pregunta. Además, Preguntas y respuestas le ayuda a dar formato a la pregunta con sugerencias, Autocomplete y correcciones ortográficas.
    
    Cuando termine de escribir la pregunta, el resultado será exactamente el mismo gráfico que vimos en el informe.  Pero crearlo así es mucho más rápido.
    
-   ![](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
-3. Es similar a trabajar con informes, en Preguntas y respuestas tiene acceso a los paneles Visualizaciones, Filtros y Campos.  Abra estos paneles para explorar y modificar aún más el objeto visual.
-4. Para anclar el gráfico a su panel, seleccione el icono de anclaje ![](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
+   ![Ejemplo de pregunta](media/power-bi-visualization-introduction-to-q-and-a/powerbi-qna-areachart.png)
+3. De forma similar a cómo trabaja con informes, en Preguntas y respuestas tiene acceso a los paneles Visualizaciones, Filtros y Campos.  Abra estos paneles para explorar y modificar aún más el objeto visual.
+4. Para anclar el gráfico a su panel, seleccione el icono de anclaje. ![Icono de anclaje](media/power-bi-visualization-introduction-to-q-and-a/pinnooutline.png).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)

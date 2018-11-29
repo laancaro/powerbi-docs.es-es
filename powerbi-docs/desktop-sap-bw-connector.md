@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 73be85644fd320bd44372a0df6c844705c3cf602
-ms.sourcegitcommit: b8461c1876bfe47bf71c87c7820266993f82c0d3
+ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/15/2018
-ms.locfileid: "49336930"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452876"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
@@ -197,11 +197,28 @@ En esta sección se muestran situaciones de diagnóstico de problemas (y solucio
            </item>
    
    Para solucionar este error, los usuarios deben solicitar a su administrador de SAP que conceda al usuario de SAPBW que se usa en Power BI el derecho para ejecutar *BAPI_USER_GET_DETAIL*. También es necesario comprobar que el usuario tiene los valores *DCPFM* necesarios, tal como se ha descrito anteriormente en esta sección de solución de problemas.
+   
 2. **Conectividad para consultas de SAP BEx**
    
    Puede realizar consultas de **BEx** en Power BI Desktop. Para ello, habilite una propiedad específica, tal y como se muestra en la siguiente imagen:
    
    ![](media/desktop-sap-bw-connector/sap_bw_8.png)
+   
+3. En la ventana **Navegador** no se muestra una vista previa de los datos, proporcionándose en su lugar un mensaje de error *Referencia de objeto no definida a una instancia de un objeto*.
+   
+   Los usuarios de SAP necesitan acceso a módulos de la función BAPI para obtener metadatos y recuperar datos de InfoProviders de SAP BW. Estas incluyen:
+   * BAPI_MDPROVIDER_GET_CATALOGS
+   * BAPI_MDPROVIDER_GET_CUBES
+   * BAPI_MDPROVIDER_GET_DIMENSIONS
+   * BAPI_MDPROVIDER_GET_HIERARCHYS
+   * BAPI_MDPROVIDER_GET_LEVELS
+   * BAPI_MDPROVIDER_GET_MEASURES
+   * BAPI_MDPROVIDER_GET_MEMBERS
+   * BAPI_MDPROVIDER_GET_VARIABLES
+   * BAPI_IOBJ_GETDETAIL
+
+   Para solucionar este problema, compruebe que el usuario tiene acceso a los diversos módulos *MDPROVIDER*, además de a *BAPI_IOBJ_GETDETAIL*. Para ofrecer más soluciones a este problema, o bien a problemas similares, seleccione *Habilitar seguimiento* en la ventana *Diagnósticos* ubicada en *Opciones* de Power BI Desktop. Intente recuperar datos de SAP BW mientras el seguimiento está activo y examine el archivo de seguimiento para obtener más detalles.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para obtener más información sobre SAP y DirectQuery, revise los siguientes recursos:

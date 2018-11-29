@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: report-builder
 ms.topic: overview
-ms.date: 11/08/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 15ec21a0b86977173c16071980d7527f27db74ef
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 7a39d7b3bdbbd592afc6481c5936efc76569ad11
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297053"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289229"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>¿Qué son los informes paginados en Power BI Premium? (Versión preliminar)
-Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Los informes paginados son informes diseñados para imprimirse o compartirse. Se denominan "paginados" porque se les aplica formato para ajustarse a una página, y muestran todos los datos en una tabla, por ejemplo, incluso si la tabla abarca varias páginas. A veces se denominan "píxel perfecto", porque se puede controlar exactamente el diseño de página del informe. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. El generador de informes es la herramienta independiente para crear informes paginados. 
+Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Los informes paginados son informes diseñados para imprimirse o compartirse. Se denominan "paginados" porque presentan un formato apto para encajar en una página. Muestran todos los datos en una tabla, incluso si esta abarca varias páginas. A veces se denominan "píxel perfecto", porque se puede controlar exactamente el diseño de página del informe. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. El generador de informes es la herramienta independiente para crear informes paginados. 
 
-Los informes paginados pueden tener muchas páginas. El informe del siguiente ejemplo tiene 563 páginas, cada una diseñada exactamente con una página por factura y encabezados y pies de página repetidos.
+Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
 
 ![Informe paginado en el servicio Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
@@ -27,11 +27,11 @@ Puede obtener una vista previa del informe en el generador de informes y luego p
 
 ## <a name="create-reports-in-report-builder"></a>Creación de informes en el generador de informes
 
-Los informes paginados tienen su propia herramienta de diseño, el generador de informes. Si ha creado informes paginados para Power BI Report Server o SQL Server Reporting Services (SSRS), puede usar la misma herramienta y la misma versión. De hecho, los informes paginados que cree para SSRS 2016 y 2017 o para Power BI Report Server en el entorno local son compatibles con el servicio Power BI. El servicio Power BI mantiene la compatibilidad con versiones anteriores, para poder avanzar con los informes, y puede actualizar cualquier informe paginado de una versión anterior. No todas las características de informes están disponibles en el lanzamiento; consulte las [limitaciones y consideraciones](#limitations-and-considerations) en este artículo para obtener más información.
+Los informes paginados tienen su propia herramienta de diseño, el generador de informes. Se trata de la misma herramienta y versión que ha usado para crear informes paginados para Power BI Report Server o SQL Server Reporting Services (SSRS). De hecho, los informes paginados que cree para SSRS 2016 y 2017 o para Power BI Report Server en el entorno local son compatibles con el servicio Power BI. El servicio Power BI mantiene la compatibilidad con versiones anteriores, para poder avanzar con los informes, y puede actualizar cualquier informe paginado de una versión anterior. No todas las características de informes están disponibles durante el lanzamiento. Vea [Limitaciones y consideraciones](#limitations-and-considerations) en este artículo para obtener más información.
      
 ## <a name="report-from-a-variety-of-data-sources"></a>Informes a partir de una variedad de orígenes de datos
 
-Un único informe paginado puede tener un número de orígenes de datos distintos. No tiene un modelo de datos subyacente, a diferencia de los informes de Power BI. Para la versión inicial de los informes paginados del servicio Power BI, cree conjuntos de datos y orígenes de datos insertados en el propio informe, en lugar de conectarse a conjuntos de datos u orígenes de datos compartidos en un servidor. Cree informes en el generador de informes en el equipo local. Si un informe se conecta a datos locales, después de cargar el informe en el servicio Power BI, debe crear una puerta de enlace y redirigir la conexión de datos. Estos son los orígenes de datos a los que puede conectarse en la versión inicial:
+Un único informe paginado puede tener un número de orígenes de datos distintos. No tiene un modelo de datos subyacente, a diferencia de los informes de Power BI. Para la versión inicial de los informes paginados del servicio Power BI, los conjuntos de datos y los orígenes de datos insertados se crean en el propio informe. Por ahora, no puede usar orígenes de datos compartidos ni conjuntos de datos compartidos. Cree informes en el generador de informes en el equipo local. Si un informe se conecta a datos locales, después de cargar el informe en el servicio Power BI, debe crear una puerta de enlace y redirigir la conexión de datos. Estos son los orígenes de datos a los que puede conectarse en la versión inicial:
 
 - Azure SQL Database y Data Warehouse
 - SQL Server a través de una puerta de enlace
@@ -60,7 +60,7 @@ Todo el contenido de un informe paginado, desde el propio informe hasta cada cua
 Al diseñar un informe paginado, realmente crea una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Cargue la definición de informe en el servicio Power BI, http://app.powerbi.com, en Mi área de trabajo o en un área de trabajo compartida con sus compañeros. Si el origen de datos del informe es local, después de cargar el informe, redirija la conexión del origen de datos para que pase por una puerta de enlace. 
 
 ## <a name="view-your-paginated-report"></a>Visualización del informe paginado
-Puede ver el informe paginado en el servicio Power BI en un explorador y también en las aplicaciones móviles de Power BI. En el servicio Power BI, puede exportar el informe a un número formatos de aplicaciones de escritorio orientados a la Web y a páginas, como HTML, MHTML, PDF, XML, CSV, TIFF, Word y Excel. También puede compartirlo con otros usuarios.  
+Verá el informe paginado en el servicio Power BI en un explorador y también en las aplicaciones móviles de Power BI. En el servicio Power BI, puede exportar el informe a varios formatos, como HTML, MHTML, PDF, XML, CSV, TIFF, Word y Excel. También puede compartirlo con otros usuarios.  
   
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
@@ -78,7 +78,8 @@ Estas son algunas otras características que no son compatibles con la versión 
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Instalación del generador de informes desde el Centro de descarga de Microsoft](http://go.microsoft.com/fwlink/?LinkID=734968)
-
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
+- [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
+
   
 

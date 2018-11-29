@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/20/2018
+ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: 4a5d124ffd213c54d628ff15e32ece18e56913eb
-ms.sourcegitcommit: 3a287ae4ab16d1e76caed651bd8ae1a1738831cd
+ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2018
-ms.locfileid: "39157563"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289206"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Introducción al programa de paquetes de contenido del servicio Power BI
 Un paquete de contenido es un conjunto de contenido integrado que permite a los usuarios obtener información inmediata de un origen. Un paquete de contenido se centra normalmente en un escenario de negocio específico que proporciona información para un rol, dominio o flujo de trabajo.
 
-Los ISV pueden crear paquetes de contenido de plantillas que permiten a los clientes conectarse y crear instancias de sus propias cuentas. Como expertos de dominio, pueden desbloquear los datos de forma que sea de fácil de consumir por usuarios empresariales. Los paquetes de contenido ofrecen supervisión ad hoc y el análisis a sus clientes sin realizar fuertes inversiones en infraestructura de informes.
+Los ISV pueden crear paquetes de contenido de plantillas que permiten a los clientes conectarse y crear instancias de sus propias cuentas. Como expertos de dominio, pueden desbloquear los datos de forma que los usuarios empresariales puedan consumirlos fácilmente. Los paquetes de contenido ofrecen supervisión ad hoc y el análisis a sus clientes sin realizar fuertes inversiones en infraestructura de informes.
 
 Estos paquetes de contenido de plantillas creados por ISV se pueden enviar al equipo de Power BI para que estén disponibles públicamente en la galería de paquetes de contenido de Power BI (app.powerbi.com/getdata/services) y en Microsoft AppSource (appsource.microsoft.com). Puede encontrar un ejemplo de la experiencia del paquete de contenido público [aquí](template-content-pack-experience.md).
 
@@ -45,10 +45,10 @@ Para crear y enviar un paquete de contenido para su publicación en el servicio 
 * La aplicación de SaaS está aprobada para publicar un paquete de contenido. Envíe la solicitud a la dirección pbiservicesapps@microsoft.com. Analizaremos cada envío según su relevancia y el uso esperado. 
 * Acuerdo de asociado firmado. Lo hará en el [paso de envío](template-content-pack-testing.md#submission).
 
-Revise la sección [creación](template-content-pack-authoring.md) para obtener más detalles sobre los requisitos técnicos.
+Consulte la sección sobre [creación](template-content-pack-authoring.md) para obtener más detalles sobre los requisitos técnicos.
 
 ## <a name="business-scenario"></a>Escenario empresarial
-Los paquetes de contenido proporcionan la visión y métricas centradas en un escenario de negocio concreto. La descripción de la audiencia y el beneficio que recibirán el paquete de contenido le ayudarán a asegurarse de que los usuarios están correctamente con el contenido que proporcione.
+Los paquetes de contenido proporcionan la visión y métricas centradas en un escenario de negocio concreto. Comprender la audiencia y el beneficio que reciben del paquete de contenido le ayuda a asegurarse de que los usuarios están satisfechos con el contenido que proporciona.
 
 ### <a name="tips"></a>Sugerencias
 * Identificar la audiencia y la tarea que está intentando realizar  
@@ -78,7 +78,7 @@ Los paquetes de contenido publicados se pueden actualizar una vez al mes. Las so
 No dude en enviarnos un mensaje de correo electrónico con sus preguntas a [pbiservicesapps@microsoft.com](mailto:pbiservicesapps@microsoft.com)
 
 ## <a name="support"></a>Soporte técnico
-Para obtener soporte técnico durante el desarrollo, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Se realiza la supervisión y administración de forma activa. Los incidentes del cliente encuentran rápidamente la forma de llegar al equipo adecuado.
+Para obtener soporte técnico durante el desarrollo, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Los incidentes del cliente encuentran rápidamente la forma de llegar al equipo adecuado.
 
 ## <a name="next-step"></a>Paso siguiente
 [Creación](template-content-pack-authoring.md)

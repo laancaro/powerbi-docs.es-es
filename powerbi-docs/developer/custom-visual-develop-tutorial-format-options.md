@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: tutorial
-ms.date: 11/06/2018
-ms.openlocfilehash: a3d36f988847df283576dae6cfe5870b707c6f98
-ms.sourcegitcommit: 02f918a4f27625b6f4e47473193ebc8219db40e2
+ms.date: 11/21/2018
+ms.openlocfilehash: 56de3745d59e4a26dffbb988e9543c294de261e3
+ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51223269"
+ms.lasthandoff: 11/22/2018
+ms.locfileid: "52289183"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual personalizado de Power BI
 
@@ -32,7 +32,7 @@ En este tutorial, obtendrá información sobre cómo:
 
     Debería ver un mensaje que dice: *Las opciones de formato no están disponibles para este objeto visual.*
 
-    ![Pincel de formato](media/custom-visual-develop-tutorial/format-paintbrush.png)
+    ![Pincel de formato](media/custom-visual-develop-tutorial-format-options/format-paintbrush.png)
 
 2. En **Visual Studio Code**, abra el archivo *capabilities.json*.
 
@@ -41,7 +41,7 @@ En este tutorial, obtendrá información sobre cómo:
     ```json
     "objects": {},
     ```
-    ![Adición de objetos](media/custom-visual-develop-tutorial/add-objects.png)
+    ![Adición de objetos](media/custom-visual-develop-tutorial-format-options/add-objects.png)
 
 4. Guarde el archivo **capabilities.json**.
 
@@ -50,13 +50,13 @@ En este tutorial, obtendrá información sobre cómo:
     > [!Note]
     > Si no ve el cambio de opciones de formato, seleccione **Reload Custom Visual** (Recargar objeto visual personalizado).
 
-    ![Visualización de opciones de formato](media/custom-visual-develop-tutorial/view-formatting-options.png)
+    ![Visualización de opciones de formato](media/custom-visual-develop-tutorial-format-options/view-formatting-options.png)
 
 6. Establezca la opción **Title** (Título) en *Off* (Desactivar). Tenga en cuenta que el objeto visual ya no muestra el nombre de medida en la esquina superior izquierda.
 
-    ![La opción de título está desactivada](media/custom-visual-develop-tutorial/tile-option-off.png)
+    ![La opción de título está desactivada](media/custom-visual-develop-tutorial-format-options/tile-option-off.png)
 
-    ![Icono sin nombre](media/custom-visual-develop-tutorial/no-name-tile.png)
+    ![Icono sin nombre](media/custom-visual-develop-tutorial-format-options/no-name-tile.png)
 
 ### <a name="adding-custom-formatting-options"></a>Adición de opciones de formato personalizadas
 
@@ -64,7 +64,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
 
 1. En PowerShell, detenga el objeto visual personalizado.
 
-2. En Visual Studio Code, en el archivo **capabilities.json**, inserte el siguiente fragmento de JSON en el objeto **objects**.
+2. En Visual Studio Code, en el archivo **capabilities.json**, inserte el siguiente fragmento de JSON en el objeto que tiene la etiqueta **objects**.
 
     ```json
     "circle": {
@@ -89,12 +89,12 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
                  }
              }
          }
-     }
+     },
     ```
 
     El fragmento de JSON describe un grupo denominado círculo, que consta de dos opciones con nombre circleColor y circleThickness.
 
-   ![Código de grosor de círculo](media/custom-visual-develop-tutorial/circle-thickness-code.png)
+   ![Código de grosor de círculo](media/custom-visual-develop-tutorial-format-options/circle-thickness-code.png)
 
 3. Guarde el archivo **capabilities.json**.
 
@@ -112,7 +112,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     }
     ```
 
-    ![Clases de módulos](media/custom-visual-develop-tutorial/module-classes.png)
+    ![Clases de módulos](media/custom-visual-develop-tutorial-format-options/module-classes.png)
 
     Este módulo define las dos clases. La clase **CircleSettings** define dos propiedades con nombres que coinciden con los objetos definidos en el archivo **capabilities.json** (**circleColor** y **circleThickness**) y también establece valores predeterminados. La clase **VisualSettings** hereda la clase **DataViewObjectParser** y agrega una propiedad llamada **circle**, que coincide con el objeto definido en el archivo *capabilities.json*, y devuelve una instancia de **CircleSettings**.
 
@@ -127,7 +127,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     ```
     Esta propiedad almacena una referencia al objeto **VisualSettings**, que describe la configuración visual.
 
-    ![Adición de la clase del objeto visual](media/custom-visual-develop-tutorial/visual-class-add-on.png)
+    ![Adición de la clase del objeto visual](media/custom-visual-develop-tutorial-format-options/visual-class-add-on.png)
 
 9. En la clase **Visual**, agregue el método siguiente antes del método **update**. Este método se usa para rellenar las opciones de formato.
 
@@ -140,7 +140,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     ```
     Este método se usa para rellenar las opciones de formato.
 
-    ![Objeto de configuración del objeto visual](media/custom-visual-develop-tutorial/visual-settings-object.png)
+    ![Objeto de configuración del objeto visual](media/custom-visual-develop-tutorial-format-options/visual-settings-object.png)
 
 10. En el método **update**, después de la declaración de la variable **radius**, agregue el código siguiente.
 
@@ -150,7 +150,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     ```
     Este código recupera las opciones de formato. Ajusta cualquier valor pasado a la propiedad **circleThickness**, convirtiéndolo en 0 si es negativo, o en 10 si es mayor de 10.
 
-    ![Variable de radio](media/custom-visual-develop-tutorial/radius.png)
+    ![Variable de radio](media/custom-visual-develop-tutorial-format-options/radius.png)
 
 11. Para el **elemento de círculo**, modifique el valor pasado al **estilo de relleno** en la siguiente expresión.
 
@@ -158,7 +158,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     this.visualSettings.circle.circleColor
     ```
 
-    ![Rellena el elemento de círculo](media/custom-visual-develop-tutorial/circle-element-fill.png)
+    ![Rellena el elemento de círculo](media/custom-visual-develop-tutorial-format-options/circle-element-fill.png)
 
 12. Para el **elemento de círculo**, modifique el valor pasado al **estilo de ancho del trazo** en la siguiente expresión.
 
@@ -166,7 +166,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
     this.visualSettings.circle.circleThickness
     ```
 
-    ![Ancho del trazo del círculo](media/custom-visual-develop-tutorial/circle-stroke-width.png)
+    ![Ancho del trazo del círculo](media/custom-visual-develop-tutorial-format-options/circle-stroke-width.png)
 
 13. Guarde el archivo visual.ts.
 
@@ -180,7 +180,7 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
 
 16. En las opciones de **formato del objeto visual**, expanda **Circle**.
 
-    ![Formato de círculo](media/custom-visual-develop-tutorial/circle-format.png)
+    ![Formato de círculo](media/custom-visual-develop-tutorial-format-options/circle-format.png)
 
     Modifique las opciones de **color** y **grosor**.
 
@@ -198,7 +198,7 @@ Introduzca los valores de propiedad para el proyecto del objeto visual personali
 
     En el panel **Visualizaciones**, al mantener el cursor sobre el icono, se muestra el nombre.
 
-    ![Objeto visual del nombre para mostrar](media/custom-visual-develop-tutorial/display-name-viz.png)
+    ![Objeto visual del nombre para mostrar](media/custom-visual-develop-tutorial-format-options/display-name-viz.png)
 
 4. En la propiedad **description**, escriba el texto siguiente.
 
@@ -216,7 +216,7 @@ Introduzca los valores de propiedad para el proyecto del objeto visual personali
 
 10. Revise el icono.
 
-    ![Imagen del panel viz](media/custom-visual-develop-tutorial/viz-pane-image.png)
+    ![Imagen del panel viz](media/custom-visual-develop-tutorial-format-options/viz-pane-image.png)
 
 11. En Visual Studio Code, asegúrese de que todos los archivos se guardan.
 
@@ -226,7 +226,7 @@ Introduzca los valores de propiedad para el proyecto del objeto visual personali
     pbiviz package
     ```
 
-    ![Carpeta Dist](media/custom-visual-develop-tutorial/dist-folder.png)
+    ![Carpeta Dist](media/custom-visual-develop-tutorial-format-options/dist-folder.png)
 
 Ahora el paquete se muestra en la carpeta **dist** del proyecto. El paquete contiene todo lo necesario para importar el objeto visual personalizado en el servicio Power BI o en un informe de Power BI Desktop. Ahora ha empaquetado el objeto visual personalizado y está listo para su uso.
 
@@ -238,7 +238,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 2. En el panel **_Visualizaciones_**, seleccione los **puntos suspensivos** y, después, seleccione **Importar** desde archivo.
 
-    ![Adición de viz personalizado a la aplicación de escritorio](media/custom-visual-develop-tutorial/add-custom-viz-to-desktop.png)
+    ![Adición de viz personalizado a la aplicación de escritorio](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
 3. En la **ventana de importación**, seleccione **Importar**.
 
@@ -250,7 +250,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 7. Compruebe que el objeto visual se ha agregado al panel **_Visualizaciones_**.
 
-    ![Visualización del panel viz en PBI Desktop](media/custom-visual-develop-tutorial/view-in-desktop-viz-pane.png)
+    ![Visualización del panel viz en PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 
 8. Mantenga el puntero sobre el icono **Circle Card** y verá la información sobre herramientas que aparece.
 
@@ -260,4 +260,4 @@ Para obtener sugerencias sobre cómo depurar el objeto visual personalizado, con
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede enumerar los objetos visuales recién desarrollados para que los usen otras personas y enviarlos a **AppSource**. Para más información acerca de este proceso, consulte [Publicar objetos visuales personalizados en AppSource](office-store.md).
+Puede enumerar los objetos visuales recién desarrollados para que los usen otras personas y enviarlos a **AppSource**. Para obtener más información sobre este proceso, vea [Publicar objetos visuales personalizados en AppSource](office-store.md).

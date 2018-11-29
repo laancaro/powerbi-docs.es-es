@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 7fcf7411e7785f4403e08d1e3094a60bd93bcf57
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
+ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46565070"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52452508"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
 Al marcar contenido como *favorito*, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser el contenido que se visita más a menudo.
@@ -54,7 +54,7 @@ Vea a Amanda agregar favoritos a su espacio de trabajo; después, siga las instr
    ![Puntero sobre una aplicación](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Uso de *Favoritos*
-1. Para acceder a los favoritos, en cualquier área de trabajo, seleccione la flecha flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un elemento favorito para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todo** para abrir la pantalla Favoritos (vea el punto 2 a continuación). 
+1. Para obtener acceso a los favoritos, en cualquier área de trabajo, seleccione la flecha flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un elemento favorito para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todo** para abrir la pantalla Favoritos (vea el punto 2 a continuación). 
    
    ![Ventana flotante de favoritos](./media/end-user-favorite/power-bi-favorite-flyout-new.png)
 2. Para ver **todo** el contenido que ha agregado como favorito, seleccione **Favoritos** en el panel de navegación izquierdo o haga clic en el icono de Favoritos ![icono de estrella](./media/end-user-favorite/power-bi-favorites-icon.png).  
