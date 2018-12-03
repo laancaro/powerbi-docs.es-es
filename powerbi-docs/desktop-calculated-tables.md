@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: e35c842af47bac9dfd6667ecfa885a8df8a8785c
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: efb936a4fadbd45c3d9fce809963415bb27e321e
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328106"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578483"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso de tablas calculadas en Power BI Desktop
 Con las tablas calculadas, puede agregar una nueva tabla al modelo. Sin embargo, en lugar de consultar y cargar los valores en las columnas de la nueva tabla desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de la tabla. En Power BI Desktop, las tablas calculadas se crean mediante la característica Nueva columna en la vista de informe o la vista de datos.
@@ -65,7 +65,7 @@ Las tablas calculadas pueden definirse mediante cualquier expresión de DAX que 
 Puede usar tablas calculadas con DAX para resolver muchos problemas de análisis. Aquí hemos proporcionado únicamente una breve introducción a las tablas calculadas. Al comenzar a trabajar con tablas calculadas, estas son algunas de las funciones de tabla DAX más habituales que pueden resultarle útiles:
 
 * DISTINCT
-* VALUES
+* VALORES
 * CROSSJOIN
 * UNION
 * NATURALINNERJOIN

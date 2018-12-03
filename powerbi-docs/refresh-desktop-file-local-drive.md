@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 07/27/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f3ecb489b29524179f554cccbd9eab2fc427b9a4
-ms.sourcegitcommit: f01a88e583889bd77b712f11da4a379c88a22b76
+ms.openlocfilehash: b173d05e066f47c636fb825131c69a0e7712035b
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39328451"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52669253"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Actualización de un conjunto de datos creado a partir de un archivo de Power BI Desktop en una unidad local
 ## <a name="whats-supported"></a>¿Qué es compatible?

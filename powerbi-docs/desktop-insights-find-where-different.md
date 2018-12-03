@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 07/26/2018
+ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: eedbe8c6f9b9453acf2e07f484bf1cac7272f390
-ms.sourcegitcommit: df7a58dae14ef311516c9b3098f87742786f0479
+ms.openlocfilehash: 5a355e3d19a781def54a1dcf747f404ed7852444
+ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2018
-ms.locfileid: "39286012"
+ms.lasthandoff: 11/30/2018
+ms.locfileid: "52670887"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Usar información detallada en Power BI Desktop para descubrir en qué se diferencia una distribución (versión preliminar)
 
@@ -53,7 +53,7 @@ Para las medidas de adición simples, como las *ventas totales* en este ejemplo,
 
 El texto descriptivo también ofrece indicaciones sobre el grado de importancia que podría haberse asignado a un valor de filtro, al mostrar el número de registros que coinciden con el filtro. En este ejemplo puede ver que, aunque la distribución para *bicicletas de paseo* podría ser significativamente diferente, suponen tan solo el 16,6 % de los registros.
 
-Los iconos de *pulgar hacia arriba* y *pulgar hacia abajo* de la parte superior de la página se incluyen para que pueda proporcionar comentarios sobre el objeto visual y la característica. Si lo hace, efectivamente aporta comentarios, pero no entrena el algoritmo para influir en los resultados que se devuelvan la próxima vez que use la función.
+Los iconos de *pulgar hacia arriba* y *pulgar hacia abajo* de la parte superior de la página se incluyen para que pueda proporcionar comentarios sobre el objeto visual y la característica. Si lo hace, efectivamente aporta comentarios, pero no entrena el algoritmo para que influya en los resultados que se devuelvan la próxima vez que use la característica.
 
 Y lo que es más importante, el botón **+** situado en la parte superior del objeto visual le permite agregar el objeto visual seleccionado al informe, como si lo hubiera creado manualmente. A continuación, puede aplicar formato o ajustar de cualquier forma el objeto visual agregado al igual que lo haría con cualquier otro objeto visual del informe. Solo puede agregar un objeto visual seleccionado de información detallada cuando vaya a editar un informe en **Power BI Desktop**.
 
@@ -130,7 +130,7 @@ La siguiente lista es una recopilación de los escenarios que actualmente no son
 * Filtros de medidas
 * Medidas no numéricas
 * Uso de "Mostrar valor como"
-* Medidas filtradas: las medidas filtradas son cálculos de nivel visual con un filtro específico aplicado (por ejemplo, *Total de ventas en Francia*) y se usan en algunos de los objetos visuales creados por la característica de información detallada
+* Medidas filtradas: las medidas filtradas son cálculos de nivel visual con un filtro específico aplicado (por ejemplo, *Total de ventas en Francia*) y se usan en algunos de los objetos visuales creados por la característica de conclusiones
 
 Además, los siguientes orígenes de datos y tipos de modelos no se admiten para la característica de información detallada:
 
