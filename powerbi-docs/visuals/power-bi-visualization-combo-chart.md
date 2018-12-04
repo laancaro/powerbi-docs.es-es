@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1855b65277fe778a20bd9e4629f8db1e7b9000a3
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: 5d2a33b8dc50a4a30bb79406462f1342953528d9
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448969"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830387"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
 En Power BI, un gráfico combinado es una visualización única que combina un gráfico de líneas y un gráfico de columnas. La combinación de los dos gráficos en uno permite realizar una comparación más rápida de los datos.
@@ -45,7 +45,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 
 1. En el panel "Ejemplo de análisis de minoristas", seleccione el informe **Total de tiendas** para abrir el informe "Ejemplo de análisis de minoristas".
 2. Seleccione **Editar informe** para abrir el informe en la Vista de edición.
-3. [Agregue una nueva página de informe](../power-bi-report-add-page.md).
+3. Agregue una nueva página de informe.
 4. Cree un gráfico de columna que muestra las ventas de este año y el margen bruto por mes.
 
     a.  En el panel Campos, seleccione **Ventas** \> **Ventas de este año** > **Valor**.

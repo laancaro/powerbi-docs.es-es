@@ -10,19 +10,17 @@ ms.topic: conceptual
 ms.date: 03/24/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 96b46e595ffd2373a2d59776cb8c2b4314727d89
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a5762964b75d73d8dabceac58c47f616753b94cc
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718054"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830199"
 ---
 # <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
 Ha leído [Informes en Power BI](consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
 
-> **Sugerencia**: para crear un informe mediante la copia de un informe existente, consulte [Copia de un informe](power-bi-report-copy.md)
-> 
-> ### <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisites"></a>Requisitos previos
 > - Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md))  
 > - Conjunto de datos de ejemplo Retail Analysis
 
@@ -93,7 +91,7 @@ Nuestro director de marketing quiere que respondamos a varias preguntas más. Qu
 Continúe explorando los datos y agregando visualizaciones. Cuando encuentre una información especialmente interesante, [ánclela a un panel](service-dashboard-pin-tile-from-report.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Incorpore una página al informe](power-bi-report-add-page.md)  
+
 * Aprenda a [anclar visualizaciones a un panel](service-dashboard-pin-tile-from-report.md)   
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

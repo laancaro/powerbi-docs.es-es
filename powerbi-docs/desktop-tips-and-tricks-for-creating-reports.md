@@ -1,7 +1,7 @@
 ---
 title: Sugerencias y trucos para crear informes en Power BI
 description: Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
-author: mihart
+author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
-ms.openlocfilehash: 13324ca27ae1c77f6ea735bb71b1081587cc413d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: ae1c54ee0c5c5de54fc5069f7215c39175cedf8d
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670371"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830295"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 

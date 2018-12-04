@@ -1,21 +1,21 @@
 ---
 title: Edición de la configuración de los parámetros en el servicio Power BI
 description: Los parámetros de consulta se crean en Power BI Desktop, pero se pueden revisar y actualizar en el servicio Power BI.
-author: mihart
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.author: mihart
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: b379812a16bbdbbc16517b86d9ce4e941ac45f01
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: eefb863b4dde9fb6e368e244fa9d55c0af7c6001
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331882"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829605"
 ---
 # <a name="edit-parameter-settings-in-the-power-bi-service"></a>Edición de la configuración de los parámetros en el servicio Power BI
 Los creadores de informes agregan parámetros de consulta a los informes en Power BI Desktop. Estos parámetros les permiten establecer elementos de los informes como dependientes de uno o varios *valores* de parámetro. Por ejemplo, un creador de informes puede crear un parámetro que restrinja los datos a una única región o país, o bien un parámetro que defina qué formatos son aceptables en campos como los relativos a fechas, hora y texto.
