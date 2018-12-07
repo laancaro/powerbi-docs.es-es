@@ -1,5 +1,5 @@
 ---
-title: Creación de parámetros de informes paginados en el servicio Power BI | Microsoft Docs
+title: Creación de parámetros de informes paginados en el servicio Power BI (versión preliminar)
 description: En este artículo, obtendrá información sobre cómo crear parámetros de informes paginados en el servicio Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 3a1d497f112e84aeb958b86658ee3ffae3e87c6d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d36f8e26282ae794976b0d679feb426ea04a981b
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268825"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900299"
 ---
-# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creación de parámetros de informes paginados en el servicio Power BI
+# <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Creación de parámetros de informes paginados en el servicio Power BI (versión preliminar)
 
 En este artículo, obtendrá información sobre cómo crear parámetros de informes paginados en el servicio Power BI.  Un parámetro de informe proporciona una manera de elegir los datos de informe y variar la presentación de los informes. Puede proporcionar un valor predeterminado y una lista de valores disponibles, y los lectores del informe pueden cambiar la selección.  
 

@@ -1,5 +1,5 @@
 ---
-title: Creación de un conjunto de datos insertado para un informe paginado de Power BI | Microsoft Docs
+title: Creación de un conjunto de datos insertado para un informe paginado de Power BI (versión preliminar)
 description: En este artículo, aprenderá a crear un conjunto de datos insertado, basándose en un origen de datos insertado, para un informe paginado en el servicio Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
 ms.author: maggies
-ms.openlocfilehash: 4362633f705d412749e1146417a48cd61d47743c
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 827a7acd24ead0c4948a09f2e67b53c3966769bb
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268849"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900437"
 ---
-# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service"></a>Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI
+# <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI (versión preliminar)
 En este artículo, aprenderá a crear un conjunto de datos insertado, basándose en un origen de datos insertado, para un informe paginado en el servicio Power BI. Los conjuntos de datos insertados están contenidos en un único informe paginado, para su uso en ese informe. Actualmente, los informes paginados que se publican en el servicio Power BI necesitan conjuntos de datos insertados y orígenes de datos insertados. Cree el conjunto de datos y el origen de datos insertado en el generador de informes al crear el informe. 
 
 Antes de crear el conjunto de datos, debe crear un origen de datos. Vea [Orígenes de datos insertados para informes paginados](paginated-reports-embedded-data-source.md) en el servicio Power BI para obtener información.

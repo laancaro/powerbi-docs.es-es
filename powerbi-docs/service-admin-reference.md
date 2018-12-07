@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 06/25/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 1ed4298e4ed4cddcdf965bd427c654cab6adf1e6
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: 216451874fcc66b14286ea4ed3aeb1845483bfb7
+ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157020"
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "52578368"
 ---
 # <a name="powershell-cmdlets-rest-apis-and-net-sdk-for-power-bi-administration"></a>Cmdlets de PowerShell, API de REST y SDK de .NET para la administración de Power BI
 Con Power BI, los administradores pueden generar scripts de tareas comunes usando cmdlets de PowerShell. Power BI expone también API de REST y proporciona un SDK de .NET para desarrollar soluciones de carácter administrativo. En este tema encontrará una lista de cmdlets y el método de SDK y punto de conexión de API de REST correspondientes. Para más información, consulte:
@@ -23,6 +23,8 @@ Con Power BI, los administradores pueden generar scripts de tareas comunes usand
 - [Descarga](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt/) y [documentación](https://docs.microsoft.com/powershell/power-bi/overview?view=powerbi-ps) de PowerShell
 - [Documentación](https://docs.microsoft.com/rest/api/power-bi/admin) de la API de REST
 - [Descarga](https://www.nuget.org/packages/Microsoft.PowerBI.Api/) de SDK de .NET
+
+> Se debe llamar a los cmdlets siguientes con `-Scope Organization` para operar en el inquilino de cara a la administración.
 
 | **Nombre del cmdlet** | **Alias** | **Método del SDK** | **Punto de conexión de la API de REST** | **Descripción** |
 | --- | --- | --- | --- | --- |
@@ -34,10 +36,9 @@ Con Power BI, los administradores pueden generar scripts de tareas comunes usand
 | **Restore-PowerBIWorkspace** |**Restore-PowerBIGroup** | Groups\_RestoreDeletedGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId}/restore | Restaura un área de trabajo eliminada. |
 | **Set-PowerBIWorkspace** |**Set-PowerBIGroup** | Groups\_UpdateGroupAsAdmin | /v1.0/myorg/admin/groups/{groupId} | Actualiza las propiedades de un área de trabajo determinada. |
 | **Get-PowerBIDataset -WorkspaceId** | N/D | Groups\_GetDatasetsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/datasets | Obtiene los conjuntos de datos de un área de trabajo determinada. |
-| **Export-PowerBIReport** | N/D | Reports\_ExportReportAsAdmin | N/D | Exporta un informe determinado a un archivo local. |
 | **Get-PowerBIReport** | N/D | Reports\_GetReportsAsAdmin | /v1.0/myorg/admin/reports | Obtiene la lista completa de informes de un inquilino de Power BI. |
 | **Get-PowerBIDashboard** | N/D | Dashboards\_GetDashboardsAsAdmin | /v1.0/myorg/admin/dashboards | Obtiene la lista completa de paneles de un inquilino de Power BI. |
-| **Get-PowerBIDashboard** | N/D | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Obtiene los paneles de un área de trabajo determinada. |
+| **Get-PowerBIDashboard -WorkspaceId** | N/D | Groups\_GetDashboardsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/dashboards | Obtiene los paneles de un área de trabajo determinada. |
 | **Get-PowerBITile** | **Get-PowerBIDashboardTile** | Dashboards\_GetTilesAsAdmin | /v1.0/myorg/admin/dashboards/{dashboard\_id}/tiles | Obtiene los iconos de un panel determinado. |
 | **Get-PowerBIReport** | N/D | Groups\_GetReportsAsAdmin | /v1.0/myorg/admin/groups/{group\_id}/reports | Obtiene los informes de un área de trabajo determinada. |
 | **Get-PowerBIImport** | N/D | Imports\_GetImportsAsAdmin | /v1.0/myorg/admin/imports | Obtiene la lista completa de importaciones de un inquilino de Power BI. |

@@ -1,5 +1,5 @@
 ---
-title: Escritura directa de datos en un informe paginado en el Generador de informes
+title: Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar)
 description: En este artículo, verá cómo puede escribir datos directamente en un informe paginado en el Generador de informes.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
 ms.author: maggies
-ms.openlocfilehash: 201a81eaef81015c73d70b54e8e862c2ccc29b1d
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: c3b003ee600df010aa07aad78ee2350704734dd4
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52290077"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900414"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes: Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar): Power BI
 
 En este artículo, obtendrá información sobre una característica de la nueva versión del Generador de informes de SQL Server 2016 que le permite escribir datos directamente en un informe RDL como un conjunto de datos insertado.  Esta característica es similar a Power BI Desktop. Puede escribir los datos directamente en un conjunto de datos del informe o pegarlos desde otro programa como Microsoft Excel. Después de escribir los datos para crear un conjunto de datos, puede usarlo tal como lo haría con cualquier otro conjunto de datos insertado que haya creado. Además, puede agregar más de una tabla y usar una como un filtro de la otra. Esta característica es especialmente útil para conjuntos de datos pequeños y estáticos que puede que deba usar en el informe, como los parámetros de informe.
  

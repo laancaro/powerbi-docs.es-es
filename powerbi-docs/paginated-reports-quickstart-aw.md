@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI | Microsoft Docs'
+title: 'Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)'
 description: En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente en el generador de informes para crear un informe paginado. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI.
 author: maggiesMSFT
 manager: kfile
@@ -9,14 +9,14 @@ ms.component: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: b057fd14083cdabff96d9821d1399da07b93556b
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452833"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900621"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)
 
 En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente del generador de informes para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI. Los informes paginados del servicio Power BI actualmente se encuentran en versión preliminar.
 
