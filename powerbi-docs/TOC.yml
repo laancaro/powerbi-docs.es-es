@@ -246,10 +246,6 @@ items:
         href: visuals/desktop-slicer-filter-date-range.md
       - name: Uso de la agrupación y discretización
         href: desktop-grouping-and-binning.md
-      - name: Gráficos de la barra de herramientas
-        href: visuals/desktop-ribbon-charts.md
-      - name: Uso del nuevo objeto visual Matriz
-        href: visuals/desktop-matrix-visual.md
       - name: Crear objetos visuales de Power BI con R
         href: desktop-r-visuals.md
       - name: Uso de objetos visuales personalizados con tecnología de R
@@ -290,6 +286,8 @@ items:
         href: visuals/power-bi-visualization-best-practices.md
       - name: Cambio del tipo de visualización en un informe de Power BI
         href: visuals/power-bi-report-change-visualization-type.md
+      - name: Límites de puntos de datos por tipo de objeto visual
+        href: visuals/power-bi-data-points.md
       - name: Introducción a las propiedades de eje y formato de color
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
       - name: Sugerencias y trucos para el formato de color en Power BI
@@ -332,10 +330,14 @@ items:
         href: desktop-high-density-sampling.md
       - name: Objetos visuales de KPI
         href: visuals/power-bi-visualization-kpi.md
+      - name: Objeto visual Matriz
+        href: visuals/desktop-matrix-visual.md
       - name: Crear análisis y visualizaciones avanzados con scripts R en Power BI
         href: visuals/service-r-visuals.md
       - name: Gráficos de medidor radial en Power BI
         href: visuals/power-bi-visualization-radial-gauge-charts.md
+      - name: Gráficos de la barra de herramientas
+        href: visuals/desktop-ribbon-charts.md
       - name: Gráficos de dispersión en Power BI
         href: visuals/power-bi-visualization-scatter.md
       - name: Gráficos de dispersión de alta densidad
@@ -1251,9 +1253,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 83446170e1ee29cdf2e2d2f1298a37c58e255f1b
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 066aa4a3b87375e29e14d1611e7e67ab58dfd482
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900391"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979683"
