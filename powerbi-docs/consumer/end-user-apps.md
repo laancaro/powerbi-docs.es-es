@@ -7,18 +7,18 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/09/2018
+ms.date: 11/14/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9c9a99e2bfe0ae90607da4f27d77cb0a2a78a7c8
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: cba5f971e81a425de661e03ac66c5c6d5fe82049
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507655"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979384"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
-En Power BI, las *aplicaciones* permiten reunir paneles e informes relacionados en un solo lugar. Los usuarios de la organización pueden crear y distribuir aplicaciones con información empresarial clave. Los [servicios externos](end-user-connect-to-services.md) que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen también aplicaciones de Power BI. 
+En Power BI, las *aplicaciones* permiten reunir paneles e informes relacionados en un solo lugar. Los usuarios de la organización pueden crear y distribuir aplicaciones con información empresarial clave. Los [servicios externos](../service-connect-to-services.md) que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen también aplicaciones de Power BI. 
 
 ![Aplicaciones de Power BI](./media/end-user-apps/power-bi-apps-navbar.png)
 
@@ -63,5 +63,5 @@ Ahora podrá explorar los datos de los paneles e informes en la aplicación. Tie
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Conectarse a los servicios con los paquetes de contenido de Power BI](end-user-connect-to-services.md)
+[Conectarse a los servicios con los paquetes de contenido de Power BI](../service-connect-to-services.md)
 

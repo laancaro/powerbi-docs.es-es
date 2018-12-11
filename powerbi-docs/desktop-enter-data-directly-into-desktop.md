@@ -4,18 +4,19 @@ description: Agregar fácilmente datos directamente en Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0518350e3dd9fa9d0e7bf94c5d37621a308c37d1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f58c5ec46cb59ba65d6ecbedb7a119d73572ea4b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669414"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025589"
 ---
 # <a name="enter-data-directly-into-power-bi-desktop"></a>Especificar datos directamente en Power BI Desktop
 Con Power BI Desktop, puede escribir datos directamente y usar esos datos en los informes y visualizaciones. Por ejemplo, puede copiar partes de un libro o página web y después pegarlas en Power BI Desktop.
@@ -38,7 +39,7 @@ Eso es todo, es así de fácil especificar datos en Power BI Desktop.
 
 Ahora está preparado para usar los datos en Power BI Desktop para crear objetos visuales, informes, o para interactuar con cualquier otro dato con el que quiera conectarse e importar, como libros de Excel, bases de datos o cualquier otro origen de datos.
 
-### <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 Hay todo tipo de datos a los que puede conectarse con Power BI Desktop. Para obtener más información sobre orígenes de datos, consulte los siguientes recursos:
 
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
