@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc4ca733d5d33fb1e52842dad7f625be6209fe18
-ms.sourcegitcommit: f6360934b9af20bd630e2d3cb88398e3f5794090
+ms.openlocfilehash: 96c4014dbb38b84fb7e682dafaa0fab3338d6669
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48799221"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280153"
 ---
 # <a name="add-comments-to-a-visualization"></a>Agregar comentarios a una visualización
 Agregue un comentario personal o inicie una conversación sobre una visualización con sus compañeros. La característica **comentario** es solo una de las formas que tiene un *consumidor* de interactuar con una visualización. 
