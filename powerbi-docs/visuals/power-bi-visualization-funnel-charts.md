@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 962f76666e4b139b24225daefd5af776f36b3d0d
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 345293e6b8bd7047ecfe1716f0b7be1c5bed9c58
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416944"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829881"
 ---
 # <a name="funnel-charts"></a>Gráficos de embudo
 Los gráficos de embudo ayudan a visualizar un proceso lineal con fases secuenciales conectadas. Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las distintas fases: Cliente potencial \> Cliente potencial calificado \> Cliente interesado \> Contrato \> Cierre.  De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
@@ -55,7 +55,7 @@ Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades
 
 Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Comience en una [página de informe en blanco](../power-bi-report-add-page.md) y seleccione el campo **SalesStage** \> **Sales Stage**. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
+1. Comience en una página de informe en blanco y seleccione el campo **SalesStage** \> **Fase de ventas**. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
    
     ![Selección de Fase de ventas](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
 2. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un embudo. Observe que la **Fase de ventas** también esté en el **Grupo** . 

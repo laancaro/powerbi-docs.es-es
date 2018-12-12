@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: aec8bc2d7faa8d3c4b9c7b4eb69ed9a930cfbcd1
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 0492390ae47c8d5aa0930a063370712c80d61de2
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417243"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829651"
 ---
 # <a name="kpi-visuals"></a>Objetos visuales de KPI
 Un indicador clave de rendimiento (KPI) es una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. Para más información acerca de los KPI, consulte [Microsoft Developer Network](https://msdn.microsoft.com/library/hh272050).
@@ -46,7 +46,7 @@ También puede ver otro en el que Will muestra cómo crear objetos visuales de m
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/xmja6EpqaO0?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
 
-1. Abra el informe en la Vista de informe y [haga clic en la pestaña de color amarillo para agregar una página nueva](../power-bi-report-add-page.md).    
+1. Abra el informe en la Vista de informe y seleccione la pestaña de color amarillo para agregar una nueva página.    
 2. Desde el panel Campos, seleccione **Ventas > Unidades totales de este año**.  Este será el indicador.
 3. Agregue **Tiempo > MesFiscal**.  Esto representará la tendencia.
 4. IMPORTANTE: Ordene el gráfico por **MesFiscal**. Una vez que convierta la visualización en un KPI no habrá ninguna opción para ordenar.

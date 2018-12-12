@@ -10,20 +10,16 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 861b9c411b3088b6c16b7ad601f374bd771b13ed
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: ce44e87144d9338fbd88f0bc7183daf1b5339b35
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331997"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900483"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licencias de Power BI en la organización
 
-En el servicio Power BI, los usuarios han definido capacidades a partir de dos tipos de licencias:
-
-* **Por usuario**: *licencias de Power BI Pro y gratuitas*. Una licencia de Power BI Pro permite acceder a todo el contenido y las funcionalidades del servicio Power BI, incluida la capacidad de compartir el contenido y colaborar con otros usuarios que tengan la licencia Pro. Solo los usuarios de la versión Pro pueden publicar y consumir contenido en áreas de trabajo de las aplicaciones, compartir paneles y suscribirse a paneles e informes. Una licencia gratuita permite acceder a algunas de las características del servicio Power BI. Para obtener más información, vea [Características del servicio Power BI por tipo de licencia](service-features-license-type.md).
-
-* **Por capacidad**: *licencias de Power BI Premium*. Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable y admitir volúmenes de datos mayores en Power BI. Para los usuarios individuales, Premium también permite una amplia distribución de contenido por parte de los usuarios de Pro sin solicitar licencias Pro a los destinatarios que ven el contenido. Para más información, consulte [What is Power BI Pro?](service-premium.md) (¿Qué es Power BI Premium?).
+[!INCLUDE [license-capabilities](includes/license-capabilities.md)]
 
 Este artículo se centra en las licencias por usuario desde una perspectiva de administrador.
 

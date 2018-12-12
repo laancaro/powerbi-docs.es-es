@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a15975f456bab94fd04fa7501760c9874fabf952
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.openlocfilehash: 01051ab47304713fe3cf0f9128f5cd99af58bffe
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44744798"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830226"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte II, Incorporación de visualizaciones a un informe de Power BI
 En la [parte I](power-bi-report-add-visualizations-ii.md), creó una visualización básica activando las casillas junto a los nombres de campo.  En la parte II, aprenderá a usar arrastrar y colocar, y a emplear toda la funcionalidad de los paneles **Campos** y **Visualizaciones** para crear y modificar visualizaciones.
@@ -32,7 +32,7 @@ En este tutorial, nos adentraremos en el conjunto de datos de análisis de minor
 1. Abra el archivo .PBIX del Ejemplo de análisis de minoristas en Power BI Desktop. 
    ![](media/power-bi-report-add-visualizations-ii/power-bi-open-desktop.png)   
 
-2.  [Agregue una nueva página](../power-bi-report-add-page.md) mediante el icono de signo de suma amarillo de la parte inferior del lienzo.
+2. Agregue una nueva página mediante el icono de signo más de color amarillo de la parte inferior del lienzo.
 
 ### <a name="add-a-visualization-that-looks-at-this-years-sales-compared-to-last-year"></a>Agregue una visualización que examine las ventas de este año en comparación con las del año pasado.
 1. De la tabla **Sales**, seleccione **This Year Sales** >  y **Last Year Sales** en **Valor**. Power BI crea un gráfico de columnas.  Parece interesante y desea explorarlo en más profundidad. ¿Cómo son las ventas mensuales?  

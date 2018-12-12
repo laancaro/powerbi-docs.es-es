@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: df53cf238a52502cecb4d1f77482b7b1a09c6b7a
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545277"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829812"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte I, Incorporación de visualizaciones a un informe de Power BI
 En este artículo, se ofrece una introducción rápida a la creación de una visualización en un informe mediante el servicio Power BI o Power BI Desktop.  Para ver contenido más avanzado, [consulte la parte II](power-bi-report-add-visualizations-ii.md). Vea cómo Amanda demuestra algunas maneras de crear, editar y dar formato a objetos visuales en el lienzo del informe. A continuación, inténtelo usted usando el [ejemplo de marketing y ventas](../sample-datasets.md) para crear su propio informe.
@@ -29,7 +29,7 @@ En este artículo, se ofrece una introducción rápida a la creación de una vis
 2. Si el panel Campos no está visible, seleccione el icono de flecha para abrirlo. 
    
    ![](media/power-bi-report-add-visualizations-i/pbi_nancy_fieldsfiltersarrow.png)
-3. [Agregue una página en blanco al informe](../power-bi-report-add-page.md).
+3. Agregue una página en blanco al informe.
 
 ## <a name="add-visualizations-to-the-report"></a>Agregar visualizaciones al informe
 1. Cree una visualización seleccionando un campo en el panel **Campos** .  

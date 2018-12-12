@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 0ffcec94d015223df596aa6ac941f7400a89e747
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: daada8a7f69c600acf6fc45669ed6a42c2fdd831
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718077"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900667"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
@@ -95,7 +95,7 @@ También puede consultar los canales de YouTube para obtener información acerca
 
 ### <a name="august-2017"></a>Agosto de 2017
 * Conozca a su público con las [métricas de uso por usuario](https://powerbi.microsoft.com/blog/introducing-per-user-usage-metrics-know-your-audience-and-amplify-your-impact/).
-* Empezar a trabajar con aplicaciones del [servicio Power BI](consumer/end-user-connect-to-services.md) para servicios en línea.
+* Empezar a trabajar con aplicaciones del [servicio Power BI](service-connect-to-services.md) para servicios en línea.
 * Conexión con IBM Netezza con la puerta de enlace de datos local tanto en modo de importación como de conectividad de DirectQuery.
 * Ahora se admite [RLS dinámica](developer/embedded-row-level-security.md) para Power BI Embedded.
 * Se ha agregado la [API de filtrado](https://github.com/Microsoft/powerbi-visuals-sampleslicer/blob/master/doc/UsingAdvancedFilterAPI.md) avanzada para la versión 1.7 de la API de objetos visuales personalizados.

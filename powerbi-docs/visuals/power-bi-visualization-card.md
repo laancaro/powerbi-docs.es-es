@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9654e2838b1b62dcc856e2870b3fcc1e5301641c
-ms.sourcegitcommit: 07beb155ec0ea1cdcc741085251ed06d7bc8581c
+ms.openlocfilehash: b15d285774f0b6735fbc5df0ca2d00a81b944012
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2018
-ms.locfileid: "48874584"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829950"
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
@@ -25,7 +25,7 @@ A veces, un único número es lo más importante que desea seguir en el panel o 
 ## <a name="create-a-card-using-the-report-editor"></a>Creación de una tarjeta con el editor de informes
 Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
 
-1. Comience en una [página de informe en blanco](../power-bi-report-add-page.md) y seleccione el campo **Tienda** \> **Abrir recuento de tiendas**. Si está utilizando el servicio Power BI, tendrá que abrir el informe en la [vista de edición](../service-interact-with-a-report-in-editing-view.md).
+1. Comience en una página de informe en blanco y seleccione el campo **Tienda** \> **Abrir recuento de tiendas**. Si está utilizando el servicio Power BI, tendrá que abrir el informe en la [vista de edición](../service-interact-with-a-report-in-editing-view.md).
 
     Power BI crea un gráfico de columnas con un solo número.
 

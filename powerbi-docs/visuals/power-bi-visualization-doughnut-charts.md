@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ab292964bb1b6b1f4218d41c46eb2c28c82a034c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 5720e52b61332aeca82d0b23b776f590634e622f
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416760"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52829628"
 ---
 # <a name="doughnut-charts-in-power-bi"></a>Gráficos de anillos en Power BI
 Un gráfico de anillos es similar a un gráfico circular porque muestra la relación de las partes con el todo. La única diferencia es que el centro está en blanco y deja espacio para un icono o una etiqueta.
@@ -23,7 +23,7 @@ Un gráfico de anillos es similar a un gráfico circular porque muestra la relac
 ## <a name="create-a-doughnut-chart"></a>Crear un gráfico de anillos
 Estas instrucciones usan el ejemplo de análisis de venta directa para crear un gráfico de anillos que muestra las ventas de este año por categorías. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI o Power BI Desktop.
 
-1. Empiece en una [página de informe en blanco](../power-bi-report-add-page.md). Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
+1. Empiece en una página de informe en blanco. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
 
 2. En el panel Campos, seleccione **Ventas** \> **Ventas del último año**.  
    

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 4379caf909360688e602601795066f51c9660633
-ms.sourcegitcommit: 46f1ba3f972f6e64bce05ad0fd527b27c49aedd6
+ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
+ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2018
-ms.locfileid: "52157089"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52830318"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -174,11 +174,15 @@ Para acceder al portal de administración de Power BI, la cuenta debe estar marc
 
 ### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>¿Cuál es el proceso para administrar un inquilino creado por Microsoft para mis usuarios?
 
-Si Microsoft creó un inquilino, puede notificar a ese inquilino y administrarlo siguiendo estos pasos:
+Cuando un usuario de autoservicio se suscribe a un servicio en la nube que usa Azure AD, se agrega a un directorio de Azure AD no administrado en función de su dominio de correo electrónico. Puede reclamar y administrar el inquilino que se creó mediante un proceso conocido como *adquisición por el administrador*. El tipo de adquisición que realice dependerá de si existe un inquilino administrado asociado a su dominio:
 
-1. Únase al inquilino, suscribiéndose a Power BI, mediante un dominio de dirección de correo electrónico que coincida con el dominio del inquilino que desea administrar. Por ejemplo, si Microsoft creó el inquilino contoso.com, debe unir el inquilino con una dirección de correo electrónico que termine en @contoso.com.
+* Utilice una *adquisición interna* para crear otro inquilino administrado para el dominio.
 
-1. Control de administración de notificaciones comprobando la propiedad del dominio: cuando se encuentre en el inquilino, puede promoverse a sí mismo a un rol de *Administrador global* comprobando la propiedad del dominio. Para ello, siga los pasos descritos en la [documentación de Office 365](/office365/admin/misc/become-the-admin).
+* Utilice una *adquisición externa* para mover el dominio a un inquilino administrado existente.
+
+Para más información, vea cómo [adquirir un directorio no administrado como administrador en Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
+
+Al realizar una adquisición externa, el contenido de Power BI creado antes de la adquisición se coloca en un [área de trabajo de archivado de Power BI](service-admin-power-bi-archived-workspace.md). Debe migrar manualmente cualquier contenido que quiera utilizar en el nuevo inquilino.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Si dispongo de varios dominios, ¿puedo controlar el inquilino de Office 365 al que se agregan usuarios?
 

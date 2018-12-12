@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: 8689c9a2fded5e283740d82923d674b73434e6a1
-ms.sourcegitcommit: a186679e8dae85dce23f6365bf5c36d7f407f15b
+ms.openlocfilehash: aca89b1e45c2ce236a4b5a960436077e089a5b01
+ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51850462"
+ms.lasthandoff: 12/05/2018
+ms.locfileid: "52900575"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -37,7 +37,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y difere
 | Paneles | No | Sí | [Paneles en el servicio Power BI](../consumer/end-user-dashboards.md) 
 | Distribuir grupos de informes con aplicaciones | No | Sí | [Crear y publicar aplicaciones con los paneles e informes](../service-create-distribute-apps.md) 
 | Paquetes de contenido | No | Sí | [Paquetes de contenido organizativos: Introducción](../service-organizational-content-pack-introduction.md) 
-| Conectarse a servicios como Salesforce | Sí | Sí | [Conéctese a los servicios que usa](../consumer/end-user-connect-to-services.md) con paquetes de contenido en el servicio Power BI. En Power BI Report Server, use conectores certificados para conectarse a servicios. Vea [Orígenes de datos de los informes de Power BI en Power BI Report Server](data-sources.md) para obtener más información.
+| Conectarse a servicios como Salesforce | Sí | Sí | [Conéctese a los servicios que usa](../service-connect-to-services.md) con paquetes de contenido en el servicio Power BI. En Power BI Report Server, use conectores certificados para conectarse a servicios. Vea [Orígenes de datos de los informes de Power BI en Power BI Report Server](data-sources.md) para obtener más información.
 | Preguntas y respuestas | No | Sí | [Preguntas y respuestas en el servicio Power BI y Power BI Desktop](../consumer/end-user-q-and-a.md) 
 | Información rápida | No | Sí | [Generación automática de información sobre los datos con Power BI](../consumer/end-user-insights.md) 
 | Analizar en Excel | No | Sí | [Analizar en Excel](../service-analyze-in-excel.md) 
