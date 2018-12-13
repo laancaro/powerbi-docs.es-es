@@ -262,19 +262,19 @@ items:
         href: desktop-inline-hierarchy-labels.md
       - name: Uso de la segmentación de rango numérico
         href: desktop-slicer-numeric-range.md
-      - name: Crear una segmentación de datos con capacidad de respuesta que se puede cambiar el tamaño
+      - name: Creación de una segmentación de datos cuyo tamaño se pueda cambiar
         href: power-bi-slicer-filter-responsive.md
-      - name: Crear tarjetas de respuesta personalizadas de Power BI para Cortana
+      - name: Creación de tarjetas de respuesta personalizadas para Cortana
         href: service-cortana-answer-cards.md
       - name: Seguridad de nivel de fila
         href: desktop-rls.md
-      - name: Personalización de la información sobre herramientas en Power BI Desktop
+      - name: Personalización de la información sobre herramientas
         href: desktop-custom-tooltips.md
-      - name: Formato de tabla condicional en Power BI Desktop
+      - name: Formato condicional de tabla
         href: desktop-conditional-table-formatting.md
       - name: Ordenar por columnas en Power BI Desktop
         href: desktop-sort-by-column.md
-      - name: Crear informes optimizados para las aplicaciones de teléfono de Power BI
+      - name: Creación de informes optimizados para aplicaciones móviles
         href: desktop-create-phone-report.md
       - name: Uso de Ver datos y Ver registros
         href: desktop-see-data-see-records.md
@@ -284,23 +284,23 @@ items:
       items:
       - name: Prácticas recomendadas de visualización
         href: visuals/power-bi-visualization-best-practices.md
-      - name: Cambio del tipo de visualización en un informe de Power BI
+      - name: Cambio del tipo de visualización en un informe
         href: visuals/power-bi-report-change-visualization-type.md
       - name: Límites de puntos de datos por tipo de objeto visual
         href: visuals/power-bi-data-points.md
       - name: Introducción a las propiedades de eje y formato de color
         href: visuals/service-getting-started-with-color-formatting-and-axis-properties.md
-      - name: Sugerencias y trucos para el formato de color en Power BI
+      - name: Sugerencias y trucos para el formato de color
         href: visuals/service-tips-and-tricks-for-color-formatting.md
-      - name: Copia y pegado de una visualización en Power BI
+      - name: Copiar y pegar una visualización
         href: visuals/power-bi-visualization-copy-paste.md
       - name: Exportación de los datos usados para crear la visualización
         href: visuals/power-bi-visualization-export-data.md
-      - name: Traslado, cambio de tamaño y pantalla completa de una visualización de un informe de Power BI
+      - name: Traslado, cambio de tamaño y pantalla completa de una visualización de un informe
         href: visuals/power-bi-visualization-move-and-resize.md
       - name: Hipervínculos en tablas
         href: power-bi-hyperlinks-in-tables.md
-      - name: Incorporación de un hipervínculo a un cuadro de texto en un informe de Power BI
+      - name: Agregar un hipervínculo a un cuadro de texto de un informe
         href: service-add-hyperlink-to-text-box.md
       - name: Cambiar cómo interactúan los objetos visuales en un informe
         href: service-reports-visual-interactions.md
@@ -598,7 +598,7 @@ items:
         href: refresh-troubleshooting-refresh-scenarios.md
     - name: Paneles
       items:
-      - name: Panel de Power BI
+      - name: Introducción a paneles
         href: service-dashboards.md
       - name: Los iconos de panel
         href: service-dashboard-tiles.md
@@ -692,6 +692,8 @@ items:
         href: service-create-workspaces.md
       - name: Crear nuevas áreas de trabajo (versión preliminar)
         href: service-create-the-new-workspaces.md
+      - name: Administración de almacenamiento de datos en áreas de trabajo
+        href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Compartir un informe filtrado
         href: service-share-reports.md
       - name: Publicar desde Power BI en la Web
@@ -1261,9 +1263,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e105b33d6b37099dd6bc2c657f2293f8561a6004
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 0189fe52981e1bc926ae8a836791e7111e4b530e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53181022"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280979"
