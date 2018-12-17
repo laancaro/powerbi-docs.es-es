@@ -2,17 +2,18 @@
 title: Glosario para consumidores de Power BI
 description: En Power BI se utilizan muchos términos nuevos y se dan usos diferentes a términos ya conocidos. Puede usar nuestro glosario para familiarizarse con la terminología de Power BI.
 services: power-bi
+ms.custom: seodec18
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/12/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026355"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280797"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -42,7 +43,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **AppSource**: repositorio en línea centralizado donde puede examinar y detectar paneles, informes, conjuntos de datos y aplicaciones para descargar.
 
-**ArcGIS Maps for Power BI** ArcGIS es una plataforma de asignación y análisis creada por la empresa ESRI. El nombre del objeto visual que se incluye en la biblioteca de objetos visuales de Power BI se denomina ArcGIS Maps for Power BI.
+**ArcGIS for Power BI** ArcGIS es una plataforma de asignación y análisis creada por la empresa ESRI. El nombre del objeto visual que se incluye en la biblioteca de objetos visuales de Power BI se denomina ArcGIS for Power BI.
 
 **asignar** [Power BI Premium] Trasladar un área de trabajo a una capacidad dedicada o desde dicha capacidad. No use el verbo “promover” para referirse al traslado de un área de trabajo a una capacidad dedicada porque tiene la connotación de que la capacidad dedicada es superior a la compartida.  
 
