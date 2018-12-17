@@ -1,21 +1,22 @@
 ---
-title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop (Beta)
+title: Conexión a los datos de Azure Consumption Insights (beta)
 description: Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c770423b81c6d5cd4135539d8d44c3cc46f8b6fe
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: 622a236ba2a240202a570a07e7b6abb201da9dde
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619618"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026804"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conexión a Azure Consumption Insights en Power BI Desktop (Beta)
 Con el conector de **Azure Consumption Insights**, puede usar **Power BI Desktop** para conectarse a Azure y obtener datos e información detallada sobre el uso de los servicios de Azure por parte de su organización. También puede crear medidas, columnas personalizadas y objetos visuales en los informes, y compartir los datos sobre el uso de Azure por parte de su organización. Esta versión del conector de **Azure Consumption Insights** está en versión Beta y está sujeta a cambios.
@@ -50,12 +51,12 @@ A continuación, proporcione la *clave de acceso* para conectarse.
   ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_09.png)
 
 Una vez que proporcione su *clave de acceso* y seleccione **Conectar**, aparece una ventana **Navegador** que muestra las nueve tablas que tiene disponibles: 
-* **Budgets**: proporciona detalles de presupuesto para ver los costos o el uso reales frente a los objetivos de presupuesto existentes. 
+* **Presupuestos**: proporciona detalles de presupuesto para ver los costos o el uso reales frente a los objetivos de presupuesto existentes. 
 * **MarketPlace**: proporciona los cargos de Azure Marketplace basados en el uso.
 * **PriceSheets**: proporciona tarifas aplicables por medidor en una inscripción.
 * **RICharges**: proporciona los cargos asociados a las instancias reservadas en los últimos 24 meses.
-* **RIRecommendations_Single**: proporciona recomendaciones de compra de instancias reservadas basadas en las tendencias de uso en una única suscripción durante los últimos 7, 30 o 60 días.
-* **RIRecommendations_Shared**: proporciona recomendaciones de compra de instancias reservadas basadas en las tendencias de uso de todas sus suscripciones durante los últimos 7, 30 o 60 días.
+* **RIRecommendations_Single**: proporciona recomendaciones de compra de instancias reservadas según las tendencias de uso en una única suscripción durante los últimos 7, 30 o 60 días.
+* **RIRecommendations_Shared**: proporciona recomendaciones de compra de instancias reservadas según las tendencias de uso de todas sus suscripciones durante los últimos 7, 30 o 60 días.
 * **RIUsage**: proporciona detalles de consumo de las instancias reservadas existente en el último mes.
 * **Summaries**: proporciona un resumen mensual de saldos, nuevas compras, cargos de servicio de Azure Marketplace, ajustes y cargos por el uso por encima del límite.
 * **UsageDetails**: proporciona un desglose de las cantidades consumidas y los gastos estimados para una inscripción.
@@ -127,7 +128,7 @@ Naturalmente, debe reemplazar el valor de *enrollmentNumber* por su propio núme
 
 Una vez que seleccione **Listo** en la ventana **Editor avanzado** se actualizará la vista previa y podrá ver los datos del intervalo de meses especificado en la tabla. Seleccione **Cerrar y aplicar** y vuelva.
 
-### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Paso 3: Traslado de las medidas y columnas personalizadas al nuevo informe
+### <a name="step-3-move-measures-and-custom-columns-to-the-new-report"></a>Paso 3: Traslado de medidas y columnas personalizadas al nuevo informe
 A continuación, deberá mover todas las columnas o medidas personalizadas que creó a la nueva tabla de detalles. Estos son los pasos que debe realizar.
 
 1. Abra el Bloc de notas (u otro editor de texto).

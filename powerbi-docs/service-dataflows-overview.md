@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 360ffdd61525244bd75e57c8c9c9aad25131a13d
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268866"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180838"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -68,6 +68,7 @@ Power BI puede configurarse para almacenar datos de flujo de datos en la cuenta 
 
 Power BI también puede conectarse a carpetas con datos esquematizados con el formato Common Data Service, que se almacenan en la cuenta de Azure Data Lake Storage de la organización. Estas carpetas pueden crearse como servicios, como los servicios de datos de Azure. Al conectarse a estas carpetas, los analistas pueden trabajar sin problema con estos datos en Power BI. 
 
+Para más información sobre la integración con Azure Data Lake Storage Gen2 y flujos de datos, lo que incluye cómo crear flujos de datos que residen en la instancia de Azure Data Lake de su organización, consulte [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md).
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Funcionalidades de flujo de datos en Power BI Premium
 
@@ -105,9 +106,6 @@ Al almacenar datos empresariales en formato estandarizado de **Common Data Servi
 * Introducción a flujos de datos para desarrolladores
 
 
-
-
-
 ## <a name="next-steps"></a>Pasos siguientes
 
 En este artículo se proporciona información general sobre la preparación de datos de autoservicio para macrodatos en Power BI y las numerosas formas en que pueden usarse. En los siguientes artículos se ofrecen más detalles sobre escenarios de uso común de los flujos de datos. 
@@ -116,6 +114,7 @@ En este artículo se proporciona información general sobre la preparación de d
 * [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
 * [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:
 * [Información general sobre consultas en Power BI Desktop](desktop-query-overview.md)

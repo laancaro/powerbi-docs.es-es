@@ -1,6 +1,6 @@
 ---
-title: Inserción con Power BI
-description: Power BI ofrece API para la inserción de paneles e informes en las aplicaciones.
+title: Análisis integrado con Power BI
+description: Power BI ofrece API para usar análisis integrados con sus paneles e informes en las aplicaciones. Aprenda más sobre la inserción con Power BI tanto en entornos PaaS como SaaS mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial de análisis integrado.
 author: markingmyname
 ms.author: maghan
 manager: kfile
@@ -8,17 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-developer
 ms.topic: overview
-ms.date: 07/31/2018
-ms.openlocfilehash: 7b96e671a6fe9b450fff683ced3caa611ae70bd7
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: a4c0a66fb70797cc8b42094c65b23c71944b67a2
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45973779"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180339"
 ---
-# <a name="embedding-with-power-bi"></a>Inserción con Power BI
+# <a name="embedded-analytics-with-power-bi"></a>Análisis integrado con Power BI
 
-El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Con esta característica dispone de un conjunto de capacidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación) al insertar el contenido.
+El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Con esta característica dispone de un conjunto de funcionalidades y acceso a las últimas características de Power BI (como paneles, puertas de enlace y áreas de trabajo de la aplicación) al insertar el contenido.
 
 Puede ver la [herramienta de configuración de inserción](https://aka.ms/embedsetup) para empezar rápidamente y descargar una aplicación de ejemplo.
 
@@ -68,7 +69,7 @@ Con Power BI Embedded, los desarrolladores pueden centrarse en la creación de l
 > [!IMPORTANT]
 > Aunque la inserción de contenido tiene una dependencia del servicio Power BI, no existe ninguna dependencia de Power BI para los clientes. No es necesario que se registren en Power BI para ver el contenido insertado en la aplicación.
 
-Cuando esté listo para pasar a producción, se debe asignar una capacidad a su área de trabajo de aplicaciones dedicada. Power BI Embedded de Microsoft Azure ofrece [capacidades dedicadas](azure-pbie-create-capacity.md) para usarlas con las aplicaciones.
+Cuando esté listo para pasar a producción, se debe asignar una capacidad dedicada a su área de trabajo. Power BI Embedded de Microsoft Azure ofrece [capacidades dedicadas](azure-pbie-create-capacity.md) para usarlas con las aplicaciones.
 
 Para más información acerca de los procedimientos de inserción, consulte [Procedimiento para insertar paneles, informes e iconos de Power BI](embed-sample-for-customers.md).
 

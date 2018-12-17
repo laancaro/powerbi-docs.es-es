@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
 ms.author: maggies
-ms.openlocfilehash: 7a5c60eea81eeb3a1f4e8a7f5b807fd8c7bfb6b5
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547255"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180999"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -105,6 +105,16 @@ Con la *obtención de detalles*, al pulsar una parte específica de un objeto vi
 Al obtener detalles, el botón Atrás lo dirigirá de vuelta a la página de informe anterior.
 
 Obtenga información sobre cómo [agregar la obtención de detalles a Power BI Desktop](../../desktop-drillthrough.md).
+
+## <a name="show-data-and-copy-values"></a>Mostrar datos y copiar valores
+
+Para ver los datos subyacentes a una visualización, seleccione los puntos suspensivos en las opciones del menú (**...**) en la esquina superior derecha de una visualización en un informe para móviles y, luego, seleccione **Mostrar datos**.
+
+![Opción de menú Mostrar datos para móviles en Power BI](./media/mobile-reports-in-the-mobile-apps/copy-data-visual.png)
+
+Al realizar una pulsación larga en una celda de la tabla presentada se mostrará el menú nativo de selección y copia, donde podrá elegir los datos de copia de la tabla (o la tabla entera).
+
+![Informe detallado de obtención de detalles de Power BI Mobile](./media/mobile-reports-in-the-mobile-apps/copy-data-table.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d7e39d0ee048f51066783b1cc9c98333e0352dcf
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 9e7f43780048a222b9d024b39d983968f45c59f7
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268945"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180585"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi-preview"></a>Creación y uso de flujos de datos en Power BI (versión preliminar)
 
@@ -143,6 +143,10 @@ También puede usar la **barra de búsqueda**, cerca de la parte superior de la 
 
 Al seleccionar la entidad y luego el botón **Cargar**, las entidades aparecen en el panel **Campos** de **Power BI Desktop**, y aparecen y se comportan como las **tablas** de cualquier otro conjunto de datos.
 
+## <a name="using-dataflows-stored-in-azure-data-lake-storage-gen2"></a>Uso de los flujos de datos almacenados en Azure Data Lake Storage Gen2
+
+Puede que algunas organizaciones quieran usar su propio almacenamiento para crear y administrar flujos de datos. Puede integrar flujos de datos con Azure Data Lake Storage Gen2 si sigue los requisitos y administra los permisos correctamente. Se puede encontrar documentación de todos los requisitos de este enfoque empezando con el documento de información general [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md).
+
 
 ## <a name="troubleshooting-data-connections"></a>Solución de problemas de las conexiones de datos
 
@@ -160,6 +164,7 @@ En este artículo se describe cómo puede crear su propio **flujo de datos** y u
 * [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
 * [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:
 * [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)

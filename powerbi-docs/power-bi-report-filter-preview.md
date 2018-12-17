@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 12/05/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: d2d8bef9689fd2e9db99c0a521a5ee326845b1de
-ms.sourcegitcommit: ea77827127e0781f1d6877c0a3078aec7eb6694a
+ms.openlocfilehash: 3d4bcff012a8abb53d82dea2a8514d654056736a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51611369"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026256"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>La nueva experiencia de filtro en los informes de Power BI (versión preliminar)
 
-En este artículo se describe la nueva experiencia de filtro: los filtros en Power BI van a tener una nueva funcionalidad y un nuevo diseño. Al diseñar informes en Power BI Desktop o en el servicio Power BI, puede hacer que el panel de filtros se parezca a un informe entero y funcione con él. En la nueva experiencia, el panel de filtros antiguo funciona como un panel de edición de filtros y el nuevo panel de filtros es el único que ven los consumidores de informes. 
+En este artículo se detalla la nueva experiencia de filtro: Los filtros de Power BI van a tener una nueva funcionalidad y un nuevo diseño. Al diseñar informes en Power BI Desktop o en el servicio Power BI, puede hacer que el panel de filtros se parezca a un informe entero y funcione con él. En la nueva experiencia, el panel de filtros antiguo funciona como un panel de edición de filtros y el nuevo panel de filtros es el único que ven los consumidores de informes. 
  
 ![Vista predeterminada (sin personalización adicional aplicada)](media/power-bi-report-filter-preview/power-bi-filter-reading.png)
 
@@ -98,7 +98,7 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
 
     ![Seleccionar el icono de formato](media/power-bi-report-filter-preview/power-bi-filter-format.png)    
 
-1. Expanda **Panel de filtros** para establecer el color del fondo, la fuente, el icono y el borde izquierdo, a fin de complementar la página del informe.
+1. Expanda **Panel de filtros** para establecer el color del fondo, el icono y el borde izquierdo, a fin de complementar la página del informe.
 
     ![Expandir el panel de filtros](media/power-bi-report-filter-preview/power-bi-filter-format-pane.png)
 

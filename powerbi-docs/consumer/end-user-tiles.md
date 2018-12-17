@@ -7,23 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/05/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1e86403dbdb2972cc83b379efff8bbc17173a4e1
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b4ce5c811b2aa18803483ed9780c6b73a6b04bb1
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331905"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979246"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
-Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque los iconos de paneles no se pueden crear ni anclar en Power BI Mobile, [se pueden ver y compartir](mobile/mobile-tiles-in-the-mobile-apps.md). 
+Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
-## <a name="dashboard-tiles"></a>Los iconos de panel
 ![Panel de Power BI](./media/end-user-tiles/power-bi-dashboard.png)
 
-Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
 Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono**. Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
 
@@ -32,7 +30,6 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
 
 ## <a name="interacting-with-tiles-on-a-dashboard"></a>Interactuar con los iconos en un panel
 
-### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Mantener el puntero sobre un icono para cambiar la apariencia y comportamiento
 1. Mantenga el puntero sobre el icono para que se muestren los puntos suspensivos.
    
     ![Icono de botón de puntos suspensivos](./media/end-user-tiles/ellipses_new.png)

@@ -1,37 +1,36 @@
 ---
-title: Usar los ejemplos de Power BI
-description: Usar los ejemplos de Power BI
+title: Conexión a los ejemplos en el servicio Power BI
+description: Aprenda a instalar y explorar los ejemplos en el servicio Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 10ba57b203c100dffafa6563e85fd06b7af2eecb
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: fc27054b79497658249b49d832a81223987b7be8
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51718031"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180976"
 ---
-# <a name="the-power-bi-samples"></a>Ejemplos de Power BI
+#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conexión a los ejemplos en el servicio Power BI
 
-Se recomienda empezar por el artículo [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md). En ese artículo aprenderá todo acerca de los ejemplos: cómo obtenerlos, dónde guardarlos, cómo usarlos y algunas de las cosas que nos explica cada ejemplo. A continuación, cuando ya conozca los conceptos básicos, vuelva a este Tutorial.   
+En este tutorial se explica cómo: 
+- Importar un paquete de contenido de ejemplo, agregarlo al servicio Power BI y abrir el contenido. Un *paquete de contenido* es un tipo de ejemplo en el que el conjunto de datos está integrado en un panel y un informe. 
+- Abra un archivo .pbix de ejemplo en Power BI Desktop.
 
-### <a name="prerequisites"></a>Requisitos previos
+Si desea primero más contexto, se recomienda comenzar con el artículo [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md). En ese artículo aprenderá todo acerca de los ejemplos: cómo obtenerlos, dónde guardarlos, cómo usarlos y algunas de las cosas que nos explica cada ejemplo. A continuación, cuando ya conozca los conceptos básicos, vuelva a este Tutorial.   
+
+## <a name="prerequisites"></a>Requisitos previos
 Los ejemplos están disponibles para el servicio Power BI y Power BI Desktop. Para continuar, usaremos el ejemplo Retail Analysis.
 
 El paquete de contenido *Ejemplo de análisis de minoristas* que se usa en este tutorial se compone de un panel, un informe y un conjunto de datos.
 Para familiarizarse con este paquete de contenido particular y su escenario, quizás quiera [realice un recorrido por el ejemplo de análisis de minoristas](sample-retail-analysis.md) antes de comenzar.
-
-## <a name="about-this-tutorial"></a>Acerca de este tutorial
-En este tutorial se explica cómo 
-- Importar un paquete de contenido de ejemplo, agregarlo al servicio Power BI y abrir el contenido. Un *paquete de contenido* es un tipo de ejemplo en el que el conjunto de datos está integrado en un panel y un informe. 
--  Abrir un archivo .pbix de ejemplo en Power BI Desktop.
-
 
 ## <a name="samples-and-power-bi-service"></a>Ejemplos y el servicio Power BI
 

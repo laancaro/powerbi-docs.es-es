@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: b69b84c7c61227ef7a827722c86f54100bd2f3b7
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: 258b526c08615a81f3cc940fc3b9f2fcda063a12
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268878"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180654"
 ---
 # <a name="link-entities-between-dataflows-in-power-bi-preview"></a>Vinculación de entidades entre flujos de datos en Power BI (versión preliminar)
 
@@ -32,6 +32,12 @@ Las entidades vinculadas son de **solo lectura**. Si desea crear transformacione
 Las entidades vinculadas requieren la actualización de una suscripción de [Power BI Premium](service-premium.md). Las entidades vinculadas están disponibles en cualquier flujo de datos de un área de trabajo hospedada en la capacidad Premium de Power BI. No hay limitaciones respecto al flujo de datos de origen.
 
 Las entidades vinculadas solo funcionan correctamente en nuevas áreas de trabajo de Power BI. Puede obtener más información sobre las [nuevas áreas de trabajo de Power BI](service-create-the-new-workspaces.md). Todos los flujos de datos vinculados deben estar ubicados en nuevas áreas de trabajo para que funcionen correctamente.
+
+> [!NOTE]
+> Las entidades varían en función de si son entidades estándar o entidades calculadas. Las entidades estándar (con frecuencia conocidas simplemente como entidades) consultan un origen de datos externo, como una base de datos SQL. Las entidades calculadas necesitan capacidad Premium en Power BI y ejecutan sus transformaciones en datos que ya están en almacenamiento de Power BI. 
+>
+>Aunque el flujo de datos no esté en un área de trabajo de capacidad Premium, puede hacer referencia a una única consulta o combinar dos o más consultas siempre y cuando las transformaciones no se definan como transformaciones en almacenamiento. Estas referencias se consideran entidades estándar. Para ello, desactive la opción **Habilitar carga** para las consultas a las que se hace referencia para impedir que los datos se materialicen y se ingieran en el almacenamiento. Desde ahí, puede hacer referencia a esas consultas **Habilitar carga = false** y establecer **Habilitar carga** en **Activado** solo para las consultas derivadas que quiera materializar.
+
 
 ## <a name="how-to-link-entities-between-dataflows"></a>Vinculación de entidades entre flujos de datos
 

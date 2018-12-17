@@ -9,13 +9,14 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/21/2018
+ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 451727d473b59afd362e4f31e8aef634d2168f83
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: cbfee8034639a65517f9adc57cc95dd1271e6044
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717640"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025451"
 ---
 # <a name="what-is-microsoft-power-bi-premium"></a>¿Qué es Microsoft Power BI Premium?
 
@@ -45,11 +46,11 @@ La siguiente tabla proporciona un resumen de las diferencias entre la capacidad 
 |  | Capacidad compartida | Capacidad Power BI Premium |
 | --- | --- | --- |
 | **Frecuencia de actualización** |8/día |48/día |
-| **Aislamiento con hardware dedicado** |![](media/service-premium/not-available.png "No disponible") |![](media/service-premium/available.png "Disponible") |
+| **Aislamiento con hardware dedicado** |![No disponible](media/service-premium/not-available.png) |![Disponible](media/service-premium/available.png) |
 | **Distribución empresarial a** _**todos los usuarios**_ | | |
-| Aplicaciones y uso compartido |![](media/service-premium/not-available.png "No disponible") |![](media/service-premium/available.png "Disponible")<sup>1</sup> |
-| API y controles insertados |![](media/service-premium/not-available.png "No disponible") |![](media/service-premium/available.png "Disponible")<sup>2</sup> |
-| **Publicar informes de Power BI en entornos locales** |![](media/service-premium/not-available.png "No disponible") |![](media/service-premium/available.png "Disponible") |
+| Aplicaciones y uso compartido |![No disponible](media/service-premium/not-available.png) |![Disponible](media/service-premium/available.png) |
+| API y controles insertados |![No disponible](media/service-premium/not-available.png) |![Disponible](media/service-premium/available.png)<sup>2</sup> |
+| **Publicar informes de Power BI en entornos locales** |![No disponible](media/service-premium/not-available.png) |![Disponible](media/service-premium/available.png) |
 | | | |
 
 *<sup>1</sup> Para obtener más información, vea [Características por tipo de licencia](service-features-license-type.md).*  
@@ -86,9 +87,9 @@ Power BI Premium está disponible en las configuraciones de nodo con capacidades
 
 ## <a name="workloads-in-premium-capacity"></a>Cargas de trabajo en capacidad Premium
 
-Piense en una carga de trabajo en Power BI como uno de los muchos servicios que se pueden exponer a los usuarios. De forma predeterminada, las funcionalidades de **Power BI Premium** y **Power BI Embedded** admiten solo la carga de trabajo asociada a la ejecución de consultas de Power BI en la nube.
+Piense en una carga de trabajo en Power BI como uno de los muchos servicios que se pueden exponer a los usuarios. De forma predeterminada, las funcionalidades de **Power BI Premium** y **Power BI Embedded** admiten solo la carga de trabajo asociada con la ejecución de consultas de Power BI en la nube.
 
-Ahora ofrecemos compatibilidad de versión preliminar para dos cargas de trabajo adicionales: **informes paginados** y **flujos de datos**. Habilite estas cargas de trabajo en el portal de administración de Power BI o mediante la API de REST de Power BI. Establezca también la memoria máxima que cada carga de trabajo puede consumir, para poder controlar la forma en que las distintas cargas de trabajo se afectan entre sí. Para más información, vea [Configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads).
+Ahora ofrecemos compatibilidad con versiones preliminares para dos cargas de trabajo adicionales: **Informes paginados** y **flujos de datos**. Habilite estas cargas de trabajo en el portal de administración de Power BI o mediante la API de REST de Power BI. Establezca también la memoria máxima que cada carga de trabajo puede consumir, para poder controlar la forma en que las distintas cargas de trabajo se afectan entre sí. Para más información, vea [Configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads).
 
 ### <a name="default-memory-settings"></a>Configuración de memoria predeterminada
 
@@ -113,9 +114,9 @@ En la tablas siguientes se muestran los valores de memoria predeterminados y mí
 
 Si usa la carga de trabajo de informes paginados, tenga en cuenta los siguientes puntos.
 
-* **Asignación de memoria en los informes paginados**: los informes paginados le permiten ejecutar su propio código al representar un informe (como cambiar de forma dinámica el color del texto en función del contenido). Dado este hecho, protegemos la capacidad Premium de Power BI mediante la ejecución de informes paginados en un espacio contenido dentro de la capacidad. Asignamos la memoria máxima especificada a este espacio, independientemente de si la carga de trabajo está o no activa. Si usa informes o flujos de datos de Power BI en la misma capacidad, asegúrese de establecer una cantidad de memoria lo suficientemente baja para los informes paginados, de tal forma que no afecte negativamente a las otras cargas de trabajo.
+* **Asignación de memoria en informes paginados**: los informes paginados le permiten ejecutar su propio código al representar un informe (como cambiar de forma dinámica el color del texto en función del contenido). Dado este hecho, protegemos la capacidad Premium de Power BI mediante la ejecución de informes paginados en un espacio contenido dentro de la capacidad. Asignamos la memoria máxima especificada a este espacio, independientemente de si la carga de trabajo está o no activa. Si usa informes o flujos de datos de Power BI en la misma capacidad, asegúrese de establecer una cantidad de memoria lo suficientemente baja para los informes paginados, de tal forma que no afecte negativamente a las otras cargas de trabajo.
 
-* **No están disponibles los informes paginados**: en circunstancias excepcionales, la carga de trabajo de informes paginados puede dejar de estar disponible. En este caso, la carga de trabajo muestra un estado de error en el portal de administración y los usuarios ven los tiempos de expiración para la representación de informes. Para mitigar este problema, deshabilite la carga de trabajo y luego vuelva a habilitarla.
+* **Los informes paginados no están disponibles**: en circunstancias excepcionales, la carga de trabajo de informes paginados deja de estar disponible. En este caso, la carga de trabajo muestra un estado de error en el portal de administración y los usuarios ven los tiempos de expiración para la representación de informes. Para mitigar este problema, deshabilite la carga de trabajo y luego vuelva a habilitarla.
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
 

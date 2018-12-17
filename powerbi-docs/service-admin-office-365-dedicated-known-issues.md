@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: cedb3e1572fbf20a32abe4f28b38030539502124
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8f9ab0a9a4beddf9be3fc933174f92ac4ae96a6b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34238154"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026509"
 ---
 # <a name="office-365-dedicated-customers---known-issues"></a>Clientes dedicados de Office 365: problemas conocidos
 Power BI es ahora compatible con los clientes dedicados de Office 365.  Si usted es un cliente dedicado de O365, puede iniciar sesión con una cuenta de ese inquilino y usar Power BI. Actualmente existen dos problemas conocidos.
@@ -23,7 +24,7 @@ Power BI es ahora compatible con los clientes dedicados de Office 365.  Si usted
 ## <a name="groups"></a>Grupos
 Al seleccionar **Miembros** o **Calendario** en el menú contextual del grupo, se le redirigirá a la aplicación de correo.  **Archivos** y **Conversaciones** funcionan según lo previsto.
 
-![](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
+![Grupo de Power BI](media/service-admin-office-365-dedicated-known-issues/group-menu.png)
 
 ## <a name="iphone-app---sign-in-with-vanity-domain-leads-to-error"></a>Aplicación para iPhone: el inicio de sesión con el dominio personal provoca un error
 Al iniciar sesión, en la aplicación para iPhone, mediante un inicio de sesión con un dominio personal, puede producirse un error.
@@ -33,7 +34,7 @@ Al iniciar sesión, en la aplicación para iPhone, mediante un inicio de sesión
 
 Para evitar este problema, inicie sesión con la dirección de correo electrónico que aparece al hacer clic en el icono de usuario en el servicio de Power BI en lugar de con el dominio personal.
 
-![](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
+![Correo electrónico de inicio de sesión](media/service-admin-office-365-dedicated-known-issues/sign-in-address.png)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

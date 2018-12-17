@@ -1,22 +1,22 @@
 ---
 title: 'Tutorial: Segmentaciones en Power BI'
 description: Segmentaciones de datos en Power BI
-author: mihart
+author: v-thepet
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 09/25/2018
-ms.author: v-thepet
+ms.date: 10/25/2018
+ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e42504c2c320e4f102cab5e2272e6123bf580cf5
-ms.sourcegitcommit: 769ef3c8cbafd9ad5979eb4023a394ac7dba8d02
+ms.openlocfilehash: e6b738060875685a7de8e07a55d28afaf071b32e
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/28/2018
-ms.locfileid: "47448992"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979660"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 Quiere que los lectores del informe puedan buscar métricas de ventas generales, pero también resaltar el rendimiento de los administradores de distrito y los diferentes plazos de tiempo. Podría crear informes independientes o gráficos comparativos, o bien utilizar segmentaciones. Una segmentación es una forma alternativa de filtro que limita la parte del conjunto de datos que se muestra en otras visualizaciones de un informe. 
@@ -179,8 +179,8 @@ El **encabezado** está **activado** de forma predeterminada y muestra el nombre
 Las demás opciones de formato están desactivadas de forma predeterminada. Si se **activan**: 
 - **Título:** agrega un título y le da formato (de forma adicional e independiente del encabezado) en la parte superior de la segmentación. 
 - **Fondo:** agrega un color de fondo a la segmentación general y establece su transparencia.
-- **Aspecto de bloqueo:** conserva la forma de la segmentación si se cambia su tamaño.
-- **Borde:** agrega un borde de 1 píxel alrededor de la segmentación y establece su color (este borde de la segmentación es independiente y no se ve afectado por la configuración general de Esquema). 
+- **Bloquear relación de aspecto:** conserva la forma de la segmentación si se cambia su tamaño.
+- **Borde:** agrega un borde de 1 píxel alrededor de la segmentación y establece su color. (este borde de la segmentación es independiente y no se ve afectado por la configuración general de Esquema). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

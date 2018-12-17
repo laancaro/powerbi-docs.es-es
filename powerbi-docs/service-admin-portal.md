@@ -9,15 +9,16 @@ ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/30/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 663a6bb9629e98dabab9934c7647bba6f7c14cd4
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268375"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026716"
 ---
-# <a name="power-bi-admin-portal"></a>Portal de administración de Power BI
+# <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
 El portal de administración le permite administrar un *inquilino* de Power BI de su organización. El portal incluye elementos como métricas de uso, acceso al Centro de administración de Office 365 y configuración.
 
@@ -105,11 +106,11 @@ En la imagen siguiente se muestran las dos primeras secciones de la pestaña **C
 
 La configuración puede tener tres estados:
 
-* **Deshabilitado para toda la organización**: nadie de la organización puede usar esta característica.
+* **Deshabilitado para toda la organización**: ninguna persona de la organización puede usar esta característica.
 
     ![Opción de deshabilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-disabled.png)
 
-* **Habilitado para toda la organización**: todas las personas de su organización pueden usar esta característica.
+* **Habilitado para toda la organización**: todas las personas de la organización pueden usar esta característica.
 
     ![Opción de habilitar para todos](media/service-admin-portal/powerbi-admin-tenant-settings-enabled.png)
 
@@ -355,7 +356,7 @@ Para agregar un nuevo objeto visual personalizado a la lista, siga estos pasos.
 
     * **Asigne un nombre a los objetos visuales personalizados** (obligatorio): asigne un título corto al objeto visual para que los usuarios de Power BI Desktop sepan fácilmente para qué sirve.
 
-    * **Icono**: el archivo de icono que se muestra en la interfaz de usuario de Power BI Desktop.
+    * **Icono**: El archivo de icono que se muestra en la interfaz de usuario de Power BI Desktop.
 
     * **Descripción**: una descripción breve del objeto visual para proporcionar más contexto e información al usuario.
 

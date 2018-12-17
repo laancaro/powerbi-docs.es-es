@@ -9,13 +9,14 @@ ms.component: powerbi-admin
 ms.topic: conceptual
 ms.author: mblythe
 ms.date: 01/02/2018
+ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 920fa426f98098768583e07d8f2b6c9825bfad1b
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 466e91786dcb75f09db808306ba7d9d9f486718b
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578437"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025131"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Seguridad de nivel de fila (RLS) con Power BI
 
@@ -41,7 +42,7 @@ Para administrar la seguridad en el modelo de datos, deberá hacer lo siguiente.
 1. Seleccione los **puntos suspensivos (...)** correspondientes a un conjunto de datos.
 2. Seleccione **Seguridad**.
    
-   ![](media/service-admin-rls/rls-security.png)
+   ![Aplicar filtro de seguridad en ambas direcciones](media/service-admin-rls/rls-security.png)
 
 Esto le llevará a la página RLS para agregar miembros a un rol creado en Power BI Desktop. Solo los propietarios del conjunto de datos verán que la opción Seguridad está disponible. Si el conjunto de datos está en un grupo, solo los administradores del grupo verán la opción de seguridad. 
 
@@ -53,17 +54,17 @@ Solo puede crear o modificar roles dentro de Power BI Desktop.
 
 Puede agregar un miembro al rol si escribe la dirección de correo electrónico, o el nombre, del usuario, el grupo de seguridad o la lista de distribución que desea agregar. Este miembro tiene que estar dentro de su organización. No se pueden agregar grupos creados dentro de Power BI.
 
-![](media/service-admin-rls/rls-add-member.png)
+![Agregar un miembro](media/service-admin-rls/rls-add-member.png)
 
 También puede ver cuántos miembros forman parte del rol por el número entre paréntesis junto al nombre del rol o junto a Miembros.
 
-![](media/service-admin-rls/rls-member-count.png)
+![Miembros de rol](media/service-admin-rls/rls-member-count.png)
 
 ### <a name="remove-members"></a>Quitar miembros
 
 Puede quitar miembros seleccionando la X junto a su nombre. 
 
-![](media/service-admin-rls/rls-remove-member.png)
+![Quitar miembro](media/service-admin-rls/rls-remove-member.png)
 
 ## <a name="validating-the-role-within-the-power-bi-service"></a>Validación del rol en el servicio Power BI
 
@@ -72,15 +73,15 @@ Puede validar que el rol definido funciona correctamente probándolo.
 1. Seleccione los **puntos suspensivos (...)** junto al rol.
 2. Seleccione **Probar datos como rol**.
 
-![](media/service-admin-rls/rls-test-role.png)
+![Probar como rol](media/service-admin-rls/rls-test-role.png)
 
 Verá los informes que están disponibles para este rol. Los paneles no se presentan en esta vista. En la barra azul superior, verá lo que se aplica.
 
-![](media/service-admin-rls/rls-test-role2.png)
+![Ahora se muestra como <role>](media/service-admin-rls/rls-test-role2.png)
 
 Puede probar otros roles, o combinación de roles, seleccionando **Ahora se muestra como**.
 
-![](media/service-admin-rls/rls-test-role3.png)
+![Probar otros roles](media/service-admin-rls/rls-test-role3.png)
 
 Puede optar por ver los datos como una persona específica o puede seleccionar una combinación de roles disponibles para validar que funcionan. 
 
@@ -95,7 +96,7 @@ Si publica un informe de Power BI Desktop en un área de trabajo de la aplicaci�
 > [!WARNING]
 > Si ha configurado el área de trabajo de la aplicación para que los miembros tengan permisos de edición, los roles de RLS no se aplicarán a ellos. Los usuarios podrán ver todos los datos.
 
-![](media/service-admin-rls/rls-group-settings.png)
+![Configuración de grupo](media/service-admin-rls/rls-group-settings.png)
 
 [!INCLUDE [include-short-name](./includes/rls-limitations.md)]
 

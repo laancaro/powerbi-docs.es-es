@@ -4,18 +4,19 @@ description: Conectarse a los datos en Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e0430455131b0669dfa744c7a1df6691bda4c782
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0fc366ad5b42f84f8677be36d1f2093a4ac0fa23
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578161"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025566"
 ---
 # <a name="connect-to-data-in-power-bi-desktop"></a>Conectarse a los datos en Power BI Desktop
 Con Power BI Desktop puede conectarse fácilmente con el mundo de los datos en continua expansión. Si no dispone de Power BI Desktop, puede [descargarlo](http://go.microsoft.com/fwlink/?LinkID=521662) e instalarlo.
@@ -24,6 +25,7 @@ Existe *todo tipo* de orígenes de datos disponibles en Power BI Desktop. La sig
 
 ![](media/desktop-connect-to-data/getdatavid_smallv2.gif)
 
+## <a name="example-of-connecting-to-data"></a>Ejemplo de conexión a los datos
 En este ejemplo, se conectará a un origen de datos **web** .
 
 Imagínese que se va a retirar: desea vivir donde hay mucho sol,  impuestos preferibles y una buena asistencia sanitaria. O... quizás sea un analista de datos y desee esa información para ayudar a sus clientes (por ejemplo, para ayudar a su cliente fabricante de impermeables a fijar sus objetivos de ventas en los lugares donde llueve *mucho*).
@@ -64,7 +66,7 @@ Con el modelo de datos cargado, en la **Vista de informes** en Power BI Desktop,
 
 Por supuesto, este es un modelo simple con una sola conexión de datos. La mayoría de los informes de Power BI Desktop tendrán las conexiones a orígenes de datos diferentes, moldeados para satisfacer sus necesidades, con relaciones que generan un modelo de datos enriquecido. 
 
-### <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
 
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)

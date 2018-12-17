@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 11/13/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 53d39eaf7c615d2ed279e7c45330dacbdad7994a
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 1c6c0a803e77ead6d43c23ac2b12b305d5960ef7
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830341"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111551"
 ---
 # <a name="usage-metrics-for-dashboards-and-reports"></a>Métricas de uso para paneles e informes
 
@@ -84,7 +84,7 @@ Para profundizar en los datos del informe, o para crear sus propios informes con
 | Número total de visualizadores |sí |sí |Número de visualizadores únicos en los últimos 90 días. |
 | Número total de compartidos |sí |no |Número de veces que el panel o informe se compartió en los últimos 90 días. |
 | Total en la organización |sí |sí |Recuento de todos los paneles o informes en toda la organización que han tenido al menos una vista en los últimos 90 días.  Se usa para calcular la clasificación. |
-| Clasificación: número total de vistas |sí |sí |Para el número total de vistas de todos los paneles e informes de la organización en los últimos 90 días, posición en la que se clasifica este panel o informe. |
+| Clasificación: Número total de vistas |sí |sí |Para el número total de vistas de todos los paneles e informes de la organización en los últimos 90 días, posición en la que se clasifica este panel o informe. |
 | Clasificación: Número total de compartidos |sí |no |Para el número total de compartidos de todos los paneles e informes de la organización en los últimos 90 días, posición en la que se clasifica este panel o informe. |
 
 ### <a name="dashboard-usage-metrics-report"></a>Informe de métricas de uso del panel
@@ -172,18 +172,18 @@ Es importante comprender qué diferencias pueden producirse al comparar métrica
 
 Además de las posibles diferencias entre métricas de uso y registros de auditoría, las siguientes preguntas y respuestas sobre las métricas de uso pueden ser útiles para los usuarios y administradores:
 
-P:    No puedo ejecutar métricas de uso en un panel o informe. R:    Solo puede ver métricas de uso para el contenido del que es propietario o para el que tenga permisos de edición.
+P:    No puedo ejecutar métricas de uso en un panel o informe    R: Solo puede ver métricas de uso para el contenido del que es propietario o para el que tenga permisos de edición.
 
-P: ¿Las métricas de uso capturarán vistas de los informes y paneles insertados?
-R: Actualmente, las métricas de uso no permiten capturar el uso de paneles insertados, informes y el flujo [publicar en web](service-publish-to-web.md).          En esos casos, se recomienda utilizar las plataformas de análisis web existentes para realizar un seguimiento del uso del portal o la aplicación de hospedaje.
+P:    ¿Las métricas de uso capturarán vistas de los informes y paneles insertados?
+R:    Actualmente, las métricas de uso no permiten capturar el uso de paneles insertados, informes y el flujo [publicar en web](service-publish-to-web.md).          En esos casos, se recomienda utilizar las plataformas de análisis web existentes para realizar un seguimiento del uso del portal o la aplicación de hospedaje.
 
-P: No puedo ejecutar métricas de uso en ningún contenido.
-R1:    Los administradores tienen la opción de desactivar esta característica para su organización.  Póngase en contacto con su administrador para comprobar si este es el caso.
+P:    No puedo ejecutar métricas de uso en ningún contenido.
+R1:    Los administradores pueden desactivar esta característica para su organización.  Póngase en contacto con su administrador para comprobar si este es el caso.
 A2:    Las métricas de uso son una característica de Power BI Pro.
 
-P: Los datos no parecen actualizados. Por ejemplo, los métodos de distribución no aparecen, faltan de páginas del informe, etc. R: Los datos pueden tardar hasta 24 horas en actualizarse.
+P:    Los datos no parecen actualizados. Por ejemplo, los métodos de distribución no aparecen, faltan de páginas del informe, etc. R:    Los datos pueden tardar hasta 24 horas en actualizarse.
 
-P:    Hay cuatro informes en el área de trabajo pero el informe de métricas de uso solo muestra 3.
+P:    Hay cuatro informes en el área de trabajo, pero el informe de métricas de uso solo muestra 3.
 R:    El informe de métricas de uso solo incluye informes (o paneles) a los que se haya accedido en los últimos 90 días.  Si un informe (o un panel) no aparece, es probable que no se haya usado en más de 90 días.
 
 ## <a name="next-steps"></a>Pasos siguientes

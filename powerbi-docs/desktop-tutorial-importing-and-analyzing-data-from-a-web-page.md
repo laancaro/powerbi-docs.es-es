@@ -1,23 +1,24 @@
 ---
-title: 'Tutorial: Importar y analizar datos desde una página web con Power BI Desktop'
-description: 'Tutorial: Importar y analizar datos desde una página web con Power BI Desktop'
+title: 'Tutorial: Importación y análisis de datos desde una página web'
+description: 'Tutorial: Importación y análisis de datos desde una página web con Power BI Desktop'
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d0c37ff2a48315b72c699ab53238416eeb0f04b5
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 0c712807ad5fd855986c3929a760c2542b33f01f
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578851"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026637"
 ---
-# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Analizar datos de página web con Power BI Desktop
+# <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Análisis de datos de páginas web con Power BI Desktop
 
 Como antiguo fanático del fútbol, desea crear un informe de los ganadores de Campeonato Europeo de la UEFA (Eurocopa) a lo largo de los años. Con Power BI Desktop, puede importar estos datos desde una página web en un informe y crear visualizaciones que muestren los datos. En este tutorial, aprenderá a usar Power BI Desktop para:
 

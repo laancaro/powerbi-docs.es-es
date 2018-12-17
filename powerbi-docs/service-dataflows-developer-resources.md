@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2b2449985a4380d78e7055ecf87f99a65a9a67e
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: a56dbb713f3d853094c2612a19edecb8bf4d7b24
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268890"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180608"
 ---
 # <a name="developer-resources-for-power-bi-dataflows-preview"></a>Recursos de desarrollador para flujos de datos de Power BI (versión preliminar)
 
@@ -29,7 +29,7 @@ Los siguientes recursos para desarrolladores están disponibles para trabajar co
 
 | Recurso de flujo de datos | Descripción |
 | --- | --- |
-| [Referencia sobre la API de REST para flujos de datos de Power BI](http://download.microsoft.com/download/5/4/0/540DAA5B-6760-4BDF-A089-8C3DBA8BB4DD/Power%20BI%20dataflow%20REST%20API%20reference.docx)    | Una guía de referencia completa sobre la API de REST para flujos de datos.|
+| [Referencia sobre la API de REST para flujos de datos de Power BI](https://go.microsoft.com/fwlink/?linkid=2047629)    | Una guía de referencia completa sobre la API de REST para flujos de datos.|
 
 
 ## <a name="next-steps"></a>Pasos siguientes
@@ -41,10 +41,15 @@ En este artículo se proporciona información sobre los recursos para desarrolla
 * [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
 
+Para información sobre el desarrollo de CDS y los recursos del tutorial, consulte los siguientes artículos:
+* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
+* [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
+* [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
+
+
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:
 * [Información general sobre consultas en Power BI Desktop](desktop-query-overview.md)
 * [Configuración de la actualización programada](refresh-scheduled-refresh.md)
 
-Para más información sobre Common Data Service, puede leer su artículo de introducción:
-* [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)
+
 

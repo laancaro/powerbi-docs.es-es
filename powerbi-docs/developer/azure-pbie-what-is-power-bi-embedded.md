@@ -1,25 +1,26 @@
 ---
-title: ¿Qué es Azure Power BI Embedded | Microsoft Docs
-description: Power BI Embedded está diseñado para simplificar la manera en que los fabricantes de software independientes (ISV) y los desarrolladores usan las capacidades de Power BI, ya que les ayuda a agregar rápidamente objetos visuales, informes y paneles impactantes en sus aplicaciones.
+title: ¿Qué es Azure Power BI Embedded y análisis integrados? | Microsoft Docs
+description: Power BI Embedded está concebido como herramienta de análisis integrado para simplificar la manera en que los fabricantes de software independientes (ISV) usan funcionalidades de Power BI, de forma que les ayudan a agregar rápidamente objetos visuales, informes y paneles impactantes en sus aplicaciones. Aprenda sobre el uso de software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada con Power BI Embedded.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.component: ''
 ms.devlang: csharp, javascript
 ms.topic: overview
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: b46508aeca35769fb27324fb20f502ac66cb55ab
-ms.sourcegitcommit: fecea174721d0eb4e1927c1116d2604a822e4090
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: 70cb8f72e5749f7eed70d4476f3af87e272813f4
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/31/2018
-ms.locfileid: "39360563"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180700"
 ---
-# <a name="what-is-power-bi-embedded-in-azure"></a>¿Qué es Power BI Embedded de Azure? 
+# <a name="what-is-power-bi-embedded-in-azure"></a>¿Qué es Power BI Embedded de Azure?
 
-Power BI Embedded está diseñado para simplificar la manera en que los ISV y los desarrolladores usan las capacidades de Power BI. Power BI Embedded simplifica las capacidades de Power BI, al ayudar a agregar rápidamente objetos visuales, informes y paneles impactantes a las aplicaciones. De forma similar a las aplicaciones basadas en Microsoft Azure, usa servicios como Machine Learning e IoT. Al habilitar en sus aplicaciones la exploración de datos por los que es fácil navegar, los ISV permiten que sus clientes tomen decisiones rápidas y fundamentadas dentro de un contexto.
+Power BI Embedded está concebido para simplificar la manera en que los ISV y los desarrolladores usan las funcionalidades de Power BI con análisis integrado. Power BI Embedded simplifica las capacidades de Power BI, al ayudar a agregar rápidamente objetos visuales, informes y paneles impactantes a las aplicaciones. De forma similar a las aplicaciones basadas en Microsoft Azure, usa servicios como Machine Learning e IoT. Al habilitar en sus aplicaciones la exploración de datos por los que es fácil navegar, los ISV permiten que sus clientes tomen decisiones rápidas y fundamentadas dentro de un contexto.
 
 > [!VIDEO https://www.youtube.com/embed/iEHfUuoZseo]
 
@@ -39,7 +40,7 @@ Con Power BI Embedded, los ISV y los desarrolladores disponen de una mayor flexi
 
 Power BI Embedded le permite centrarse en su especialidad: compilar aplicaciones magníficas. Puede administrar y desarrollar con Power BI Embedded mediante las herramientas y los conocimientos de los que ya dispone.
 
-* [**Azure Portal**](https://portal.azure.com/): aplicación basada en web para administrar todos los servicios de Azure
+* [**Azure Portal**](https://portal.azure.com/): aplicación basada en web para administrar todos los servicios de Azure.
 * [**Visual Studio Code**](https://code.visualstudio.com/docs): editor de código gratuito, descargable y de código abierto para Windows, macOS y Linux que admite extensiones
 * [**Power BI Desktop**](https://powerbi.microsoft.com/desktop/): herramienta gratuita y descargable para crear informes interactivos complejos con análisis de objetos visuales
 
@@ -47,9 +48,9 @@ Mediante la API de REST, Power BI Embedded permite desarrollar en cualquier leng
 
 ## <a name="engage-with-the-power-bi-engineering-team"></a>Contacto con el equipo de ingeniería de Power BI
 
-* [Comunidades](https://community.powerbi.com/): preguntas sobre Power BI
-* [Ideas sobre Power BI](https://ideas.powerbi.com): solicitudes y votaciones de características
-* [Reddit](https://www.reddit.com/r/PowerBI/): debates sobre Power BI
+* [Comunidades](https://community.powerbi.com/): formular preguntas sobre Power BI.
+* [Ideas sobre Power BI](https://ideas.powerbi.com) solicite y vote por características.
+* [Reddit](https://www.reddit.com/r/PowerBI/): debata sobre Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -57,4 +58,4 @@ Vea la [página de precios](https://azure.microsoft.com/pricing/details/power-bi
 
 Para crear una capacidad de Power BI Embedded, vea [Create Power BI Embedded capacity in the Azure portal](azure-pbie-create-capacity.md) (Creación de una capacidad de Power BI Embedded en Azure Portal).
 
-Para empezar a insertar contenido de Power BI, vea [Inserción de un informe, un panel o un icono de Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
+Para empezar a insertar contenido de Power BI, consulte [Inserción de un informe, un panel o un icono de Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).

@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 08/29/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: a79fc16f183edb359c15da31ebd6f2747fa7859d
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187292"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026486"
 ---
 # <a name="aggregates-in-power-bi-visualizations"></a>Agregados en las visualizaciones de Power BI
 ## <a name="what-is-an-aggregate"></a>¿Qué es un agregado?
@@ -32,11 +33,11 @@ En el ejemplo siguiente:
 - **Units Sold** y **Manufacturing Price** son columnas que contienen datos numéricos
 -  **Segment**, **Country**, **Product**, **Month** y **Month Name** contienen datos de categorías
 
-   ![](media/service-aggregates/power-bi-aggregate-chart.png)
+   ![Conjunto de datos de ejemplo](media/service-aggregates/power-bi-aggregate-chart.png)
 
 Al crear una visualización en Power BI, los campos numéricos se agregarán (el valor predeterminado es *sum*) según algún campo de categorías.  Por ejemplo, "Units Sold ***by Product***, "Units Sold ***by Month***" y "Manufacturing Price ***by Segment***. Algunos campos numéricos son llamados **medidas**. Es fácil identificar las medidas en el editor de informes de Power BI porque se muestran con el símbolo ∑ en la lista de campos. Para más información, consulte [Un paseo por el editor de informes...](service-the-report-editor-take-a-tour.md)
 
-![](media/service-aggregates/power-bi-aggregate-fields.png)
+![Lista de campos](media/service-aggregates/power-bi-aggregate-fields.png)
 
 
 
@@ -52,18 +53,18 @@ Supongamos que tiene un gráfico que suma las unidades vendidas de los distintos
 
 1. Cree un gráfico que use una categoría y una medida. En este ejemplo Units Sold by Product.  De forma predeterminada, Power BI crea un gráfico que suma las unidades vendidas (medida en el área Valor) de cada producto (categoría en el área Eje).
 
-   ![](media/service-aggregates/power-bi-aggregate-sum.png)
+   ![Agregación de suma](media/service-aggregates/power-bi-aggregate-sum.png)
 
 2. En el panel Visualizaciones, haga clic con el botón derecho en la medida y seleccione el tipo de agregado que necesita. En este caso, seleccionamos Media. Si no ve la agregación que necesita, consulte "Consideraciones y solución de problemas" más adelante.  
    
-   ![](media/service-aggregates/power-bi-aggregate-average.png)
+   ![Agregación de promedio](media/service-aggregates/power-bi-aggregate-average.png)
    
    > [!NOTE]
    > Las opciones disponibles en la lista desplegable varían en función de lo siguiente: 1) el campo seleccionado y 2) la manera en que el propietario del conjunto de datos clasificó el campo.
    > 
 3. La visualización ahora está usando una agregación por la media.
 
-   ![](media/service-aggregates/power-bi-aggregate-average2.png)
+   ![Promedio de unidades vendidas](media/service-aggregates/power-bi-aggregate-average2.png)
 
 ##    <a name="ways-to-aggregate-your-data"></a>Formas de agregar los datos
 
@@ -94,15 +95,15 @@ Por ejemplo, estos datos:
 
 Arrojarían estos resultados:
 
-* **No resumir**: cada valor se muestra por separado.
+* **No resumir**: cada valor se muestra por separado
 * **Suma**: 750
 * **Media**: 125
-* **Máximo**: 150
+* **Máximo**:  150
 * **Mínimo**: 100
 * **Recuento (no vacíos):** 6
-* **Recuento (Distinct):** 4
-* **Desviación estándar:** 20,4124145...
-* **Varianza:** 416,666...
+* **Recuento (distinto)** 4
+* **Desviación estándar:** 20.4124145...
+* **Varianza:** 416.666...
 * **Mediana:** 125
 
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Creación de un agregado con un campo de categoría (texto)
@@ -110,55 +111,55 @@ También es posible agregar un campo no numérico. Por ejemplo, si tiene un camp
 
 1. En este ejemplo, arrastramos el campo **Product** al área Valores. El área Valores se utiliza normalmente para campos numéricos. Power BI reconoce que esto es un campo de texto, establece el agregado en **No resumir** y presenta una tabla de una sola columna.
    
-   ![](media/service-aggregates/power-bi-aggregate-value.png)
+   ![Campo Producto en el área Valores](media/service-aggregates/power-bi-aggregate-value.png)
 2. Si cambiamos la agregación de su valor predeterminado **No resumir** a **Recuento (Distinto)**, Power BI contará el número de productos diferentes. En este caso, hay 4.
    
-   ![](media/service-aggregates/power-bi-aggregates-count.png)
+   ![Recuento distinto de productos](media/service-aggregates/power-bi-aggregates-count.png)
 3. Y si cambiamos la agregación a **Recuento**, Power BI contará el número total. En este caso, hay 7 entradas para **Producto**. 
    
-   ![](media/service-aggregates/power-bi-aggregate-count2.png)
+   ![Recuento de productos](media/service-aggregates/power-bi-aggregate-count2.png)
 
 4. Arrastrando el mismo campo (en este caso **Product**) al área Valores y dejando la agregación predeterminada **No resumir**, Power BI desglosa el recuento por producto.
 
-   ![](media/service-aggregates/power-bi-aggregate-final.png)
+   ![Producto y recuento de productos](media/service-aggregates/power-bi-aggregate-final.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-P: ¿Por qué no dispongo de la opción **No resumir**?
+P:  ¿Por qué no dispongo de la opción **No resumir**?
 
-R: El campo que ha seleccionado es probablemente una medida calculada o una medida avanzado creada en Excel o [Power BI Desktop](desktop-measures.md). Cada medida calculada tiene su propia fórmula codificada de forma rígida. No se puede cambiar la agregación que se va a usar.  Por ejemplo, si es una suma, solo puede ser una suma. En la lista de campos, las *medidas calculadas* se muestran con el símbolo de calculadora.
+R:  El campo que ha seleccionado es probablemente una medida calculada o una medida avanzada creada en Excel o [Power BI Desktop](desktop-measures.md). Cada medida calculada tiene su propia fórmula codificada de forma rígida. No se puede cambiar la agregación que se va a usar.  Por ejemplo, si es una suma, solo puede ser una suma. En la lista de campos, las *medidas calculadas* se muestran con el símbolo de calculadora.
 
-P: Mi campo **es** numérico; ¿por qué solo tengo las opciones **Recuento** y **Recuento distinto**?
+P:  Mi campo **es** numérico; ¿por qué solo tengo las opciones **Recuento** y **Recuento distinto**?
 
-R1: Lo más probable es que el propietario del conjunto de datos *no* haya clasificado (de manera intencionada o no) el campo como un número. Por ejemplo, si un conjunto de datos tiene el campo **año**, el propietario del conjunto de datos puede clasificarlo como texto, ya que es más probable que el campo **año** se cuente (es decir, el número de personas nacidas en 1974), en vez de sumarse o calcularse su promedio. Si usted es el propietario, puede abrir el conjunto de datos en Power BI Desktop y usar la pestaña **Modelado** para cambiar el tipo de datos.  
+R1:  Lo más probable es que el propietario del conjunto de datos *no* haya clasificado (de manera intencionada o no) el campo como un número. Por ejemplo, si un conjunto de datos tiene el campo **año**, el propietario del conjunto de datos puede clasificarlo como texto, ya que es más probable que el campo **año** se cuente (es decir, el número de personas nacidas en 1974), en vez de sumarse o calcularse su promedio. Si usted es el propietario, puede abrir el conjunto de datos en Power BI Desktop y usar la pestaña **Modelado** para cambiar el tipo de datos.  
 
-R2: Si el campo tiene un icono de calculadora, eso significa que es una *medida calculada* que, como todas las medidas calculadas, tiene su propia fórmula escrita en código que solo el propietario del conjunto de datos puede cambiar. El cálculo utilizado puede ser una agregación simple como un promedio o una suma, pero también podría ser algo más complicado como un “porcentaje de contribución a la categoría primaria” o “total acumulado desde el inicio del año”. Power BI no va a sumar ni a calcular el promedio de los resultados, sino que hará un nuevo cálculo (usando la fórmula codificada de forma rígida) para cada punto de datos.
+A2: Si el campo tiene un icono de calculadora, eso significa que es una *medida calculada* que, como todas las medidas calculadas, tiene su propia fórmula codificada de forma rígida que solo el propietario del conjunto de datos puede cambiar. El cálculo utilizado puede ser una agregación simple como un promedio o una suma, pero también podría ser algo más complicado como un “porcentaje de contribución a la categoría primaria” o “total acumulado desde el inicio del año”. Power BI no va a sumar ni a calcular el promedio de los resultados, sino que hará un nuevo cálculo (usando la fórmula codificada de forma rígida) para cada punto de datos.
 
-R3: Otra posibilidad es que el campo esté en un *depósito* que solo permite valores de categoría.  En ese caso, las únicas opciones que tendrá disponibles serán recuento y recuento distinto.
+A3:  Otra posibilidad es que el campo esté en un *depósito* que solo permite valores de categoría.  En ese caso, las únicas opciones que tendrá disponibles serán recuento y recuento distinto.
 
-R4: Y una tercera posibilidad es que esté usando el campo para un eje. Por ejemplo, en un eje del gráfico de barras, Power BI muestra una barra para cada valor distinto, y en ningún caso agrega los valores de campo. 
+A4:  Y una tercera posibilidad es que esté usando el campo para un eje. Por ejemplo, en un eje del gráfico de barras, Power BI muestra una barra para cada valor distinto, y en ningún caso agrega los valores de campo. 
 
 >[!NOTE]
 >La excepción a esta regla son los gráficos de dispersión, que *requieren* valores agregados para los ejes X e Y.
 
-P: ¿Por qué no puedo agregar campos de texto para los orígenes de datos SSAS?
+P:  ¿Por qué no puedo agregar campos de texto para los orígenes de datos SSAS?
 
-R: Las conexiones dinámicas a SSAS MD no permiten ninguna agregación en el lado cliente. Esto incluye primero, último, promedio, mínimo, máximo y suma.
+R:  Las conexiones dinámicas a SSAS MD no permiten ninguna agregación en el lado cliente. Esto incluye primero, último, promedio, mínimo, máximo y suma.
 
-P: Tengo un gráfico de dispersión y quiero que mi campo *no* se agregue.  ¿Cómo lo hago?
+P:  Tengo un gráfico de dispersión y quiero que mi campo *no* se agregue.  ¿Cómo lo hago?
 
-R: Agregue el campo al depósito **Detalles** y no a los depósitos de los ejes X o Y.
+R:  Agregue el campo al depósito **Detalles** y no a los depósitos de los ejes X o Y.
 
-P: Cuando agrego un campo numérico a una visualización, el valor predeterminado de la mayoría es la suma, pero el de algunos es el promedio y el de otros la agregación.  ¿Por qué la agregación predeterminada no es siempre la misma?
+P:  Cuando agrego un campo numérico a una visualización, el valor predeterminado de la mayoría es la suma, pero el de algunos es la media y el de otros la agregación.  ¿Por qué la agregación predeterminada no es siempre la misma?
 
-R: Los propietarios de conjuntos de datos tienen la opción de establecer el resumen personalizado para cada campo. Si es usted el propietario de un conjunto de datos, cambie el resumen predeterminado en la pestaña **Modelado** de Power BI Desktop.
+R:  Los propietarios de conjuntos de datos tienen la opción de establecer el resumen personalizado para cada campo. Si es usted el propietario de un conjunto de datos, cambie el resumen predeterminado en la pestaña **Modelado** de Power BI Desktop.
 
-P: Soy el propietario de un conjunto de datos y quiero asegurarme de que nunca se agrega un campo.
+P:  Soy el propietario de un conjunto de datos y quiero asegurarme de que nunca se agrega un campo.
 
-R: En Power BI Desktop, en la pestaña **Modelado**, establezca **Tipo de datos** en **Texto**.
+R:  En Power BI Desktop, en la pestaña **Modelado**, establezca **Tipo de datos** en **Texto**.
 
-P: No veo la opción **No resumir** en la lista desplegable.
+P:  No veo la opción **No resumir** en la lista desplegable.
 
-R: Pruebe a quitar el campo y agregarlo de nuevo.
+R:  Pruebe a quitar el campo y agregarlo de nuevo.
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -9,12 +9,12 @@ ms.component: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: maggies
-ms.openlocfilehash: 9d73e7b4e9b303f1a774c14fc813572805f7b093
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: 37995f52882d1a5062b8aa03fb7b0480063a4f77
+ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "51297237"
+ms.lasthandoff: 12/06/2018
+ms.locfileid: "52979566"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -300,7 +300,7 @@ Lea en el [blog el resumen de las características de aplicaciones móviles de e
 #### <a name="android"></a>Android
 **Autenticación de SSRS con Servicios de federación de Active Directory (ADFS) Preview** Ahora, puede iniciar sesión en servidores locales de SQL Server Reporting Services desde su dispositivo móvil con su cuenta profesional. Obtenga más información sobre cómo [usar OAuth para conectarse a servidores SSRS](mobile-oauth-ssrs.md).
 
-**Nuevo y mejorado: anotar y compartir información rápidamente** Las operaciones de compartir y anotar ahora son totalmente funcionales en dispositivos Android. Con el menú mejorado resulta más fácil y rápido anotar y compartir información detallada, y también puede compartir un informe anotado directamente desde la aplicación de Power BI.
+**Nuevas y mejoradas: Anotar y compartir información rápidamente** Las operaciones de compartir y anotar ahora son totalmente funcionales en dispositivos Android. Con el menú mejorado resulta más fácil y rápido anotar y compartir información detallada, y también puede compartir un informe anotado directamente desde la aplicación de Power BI.
 
 ### <a name="december-2016"></a>Diciembre de 2016
 Lea en el [blog el resumen de características de aplicaciones móviles de diciembre de 2016](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-feature-summary-december-2016).
@@ -346,7 +346,7 @@ Lea el [resumen de características de aplicaciones móviles de Power BI de novi
 * Exploración de [informes móviles y KPI de Reporting Services en tabletas Android](mobile-app-ssrs-kpis-mobile-on-premises-reports.md)
 
 #### <a name="android-devices"></a>Dispositivos Android
-**Vista previa: Administración de aplicaciones móviles de Intune** La compatibilidad de Power BI con el Administrador de aplicaciones móviles de Microsoft Intune (MAM) está en su versión de vista previa para los usuarios de Power BI Pro en dispositivos Android. 
+**Versión preliminar: Administración de aplicaciones móviles de Intune** La compatibilidad de Power BI con la administración de aplicaciones móviles (MAM) de Microsoft Intune está ahora en versión preliminar para usuarios de Power BI Pro en dispositivos Android. 
 
 **Favoritos** Etiquete sus paneles favoritos en el dispositivo Android y vea todos los [paneles de Power BI e informes móviles y KPI de Reporting Services favoritos](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) recopilados en una ubicación conveniente. 
 
@@ -458,8 +458,8 @@ El centro de notificaciones en su aplicación móvil Power BI muestra los nuevos
 ### <a name="may-2016"></a>Mayo de 2016
 #### <a name="ios-devices-and-android-phones"></a>Dispositivos iOS y teléfonos Android
 * Ahora también hay **Códigos QR** disponibles **para informes**. Escanee el código con su aplicación Power BI para ir directamente a un informe relacionado, sin necesidad de navegación ni búsquedas.
-* **Mejor administración de datos** para SQL Server 2016 Reporting Services: reduce los tiempos de carga y el consumo de datos en el dispositivo.
-* **Informes móviles de SQL Server 2016 con temas**: puede ver temas para informes móviles en su dispositivo.
+* **Administración de datos mejorada** para SQL Server 2016 Reporting Services: menores tiempos de carga y consumo de datos en su dispositivo.
+* **Informes móviles temáticos de SQL Server 2016**: consulte los temas para informes móviles en su dispositivo.
 * **Geofiltrado**: filtre informes por su ubicación actual.
 
 ### <a name="april-2016"></a>Abril de 2016
@@ -523,7 +523,7 @@ Vea los paneles en [modo horizontal en teléfonos con Windows 10](mobile-apps-vi
 
 Vea los [informes en teléfonos con Windows 10](mobile-reports-in-the-mobile-apps.md).
 
-Menos tiempo para [obtener información detallada en los paneles de Windows 10 Mobile](mobile-tiles-in-the-mobile-apps.md): comparta la instantánea de un icono o abra un informe directamente desde el panel.
+[Conclusiones más rápidas en los paneles de aplicaciones de Windows 10 Mobile](mobile-tiles-in-the-mobile-apps.md): comparta una instantánea de icono o abra un informe directamente desde el panel.
 
 ### <a name="january-2016"></a>Enero de 2016
 Todas las mejoras de enero están ya en la nueva [aplicación móvil de Power BI para teléfonos con Windows 10](mobile-windows-10-phone-app-get-started.md), que se lanzó en diciembre de 2015. Ya se están implementando en las otras aplicaciones de Power BI para dispositivos móviles. Lea la entrada de blog sobre estas mejoras.
@@ -536,7 +536,7 @@ Todas las mejoras de enero están ya en la nueva [aplicación móvil de Power BI
 
 **Iconos R y widgets web** Vea estos nuevos tipos de iconos en los paneles en el dispositivo móvil en mosaico.
 
-**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../end-user-connect-to-services.md) y verlos en el dispositivo móvil.
+**Paneles de Bing** En el servicio Power BI, ahora se pueden crear [paneles con los resultados de búsquedas en Bing](../../service-connect-to-services.md) y verlos en el dispositivo móvil.
 
 **Páginas de informe ancladas como iconos en los paneles** Ahora que puede anclar una página de informe completa a un panel en el servicio Power BI, puede ver páginas de informe en la aplicación Power BI en un iPhone o en un teléfono Android.
 
@@ -600,21 +600,21 @@ Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de 
 Mejoras en las aplicaciones móviles de Power BI: Android, iOS (iPhone y iPad) y Windows. Lea la [entrada del blog sobre aplicaciones móviles de Power BI de mediados de septiembre](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/power-bi-mobile-mid-september-updates-are-here.aspx).
 
 #### <a name="android"></a>Android
-* Compatibilidad para las áreas de trabajo de grupo: colabore con compañeros en áreas de trabajo de grupo. 
-* Compatibilidad con usuarios no autenticados: para los pocos escenarios en que los usuarios no pueden iniciar sesión en la aplicación, hemos agregado una forma rápida y cómoda de ponerse en contacto con el soporte técnico y enviar comentarios.
+* Compatibilidad con áreas de trabajo de grupos: colabore con compañeros en áreas de trabajo de grupo. 
+* Soporte técnico para usuarios no autenticados:  para algunos escenarios en los que los usuarios no pueden iniciar sesión en la aplicación, hemos agregado una forma rápida y cómoda de ponerse en contacto con el soporte técnico y enviar comentarios.
 * Mejora de la experiencia del usuario al tener acceso a paneles mediante seguridad basada en roles.          
 * Mejora del formato de datos de gráficos y alineación de todos los iconos del panel. 
 
 #### <a name="ios-iphone-and-ipad"></a>iOS (iPhone y iPad)
-* Navegación nueva y mejorada: la nueva navegación de cajón maximiza el espacio de la pantalla y mejora la navegación a través de la aplicación. 
-* Áreas de trabajo de grupo: colabore con compañeros en áreas de trabajo de grupo. 
+* Navegación nueva y mejorada: el nuevo cajón de navegación maximiza el espacio de la pantalla y mejora la navegación a través de la aplicación. 
+* Áreas de trabajo de grupos: colabore con compañeros en áreas de trabajo de grupo. 
 * Las mejoras en cuanto a la funcionalidad, rendimiento y calidad de la actualización del proceso de autenticación optimizan el proceso de autenticación de aplicación, incluida la compatibilidad para SSO (Inicio de sesión único). 
 * Mejora de la representación de datos de iconos del gráfico de líneas para comprimir mejor el eje x.
 * Mejora de la experiencia del usuario al usarse con seguridad basada en roles.
-* Mejoras táctiles optimizadas de los iconos del gráfico de matriz: ahora puede desplazarse fácilmente por los datos de su matriz y ver todos sus datos de forma sencilla e intuitiva.
+* Mejoras táctiles optimizadas par iconos de gráficos de matriz: ahora puede desplazarse fácilmente por los datos de matriz y ver todos sus datos de manera sencilla e intuitiva.
 * Mejora del formato de datos de gráficos y alineaciones de iconos del panel. 
 * Eliminación de la compatibilidad con iOS 7: para mantener los estándares de seguridad más altos de Power BI, se dejarán de admitir dispositivos con iOS 7. Será necesario tener iOS 8 y versiones posteriores. 
-* Enviar comentarios y valoración agregados en la aplicación: capacidad agregada en la aplicación para enviar comentarios y proporcionar valoraciones para que podamos aumentar la influencia de la comunidad en nuestra guía y promover ciertas cuestiones fácil y directamente desde la aplicación.
+* Se han agregado el envío de comentarios y la valoración a la aplicación: se ha agregado la funcionalidad para enviar comentarios y proporcionar valoraciones para que podamos aumentar la influencia de la comunidad en nuestro plan de desarrollo y promover ciertas cuestiones fácil y directamente desde la aplicación.
 
 #### <a name="windows"></a>Windows
 * Mejora de la representación del icono del mapa en modo enfocado para maximizar el espacio de la pantalla.

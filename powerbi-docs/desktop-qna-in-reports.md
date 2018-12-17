@@ -1,21 +1,21 @@
 ---
 title: Usar Preguntas y respuestas en Power BI Desktop
 description: Ahora puede realizar consultas en lenguaje natural en Power BI Desktop mediante el uso de Preguntas y respuestas
-author: davidiseminger
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
-ms.author: davidi
+ms.date: 12/05/2018
+ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8c0736728d1dfce5a571eb1950670bc9fc9fa1c1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 4a9ab6173422ec2f897050b2f456847b342e9fa2
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670771"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026739"
 ---
 # <a name="use-qa-in-power-bi-desktop-for-natural-language-queries"></a>Usar Preguntas y respuestas en Power BI Desktop para consultas en lenguaje natural
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Y es más eficaz aún cuando los datos responden, que es lo que permite hacer la característica Preguntas y respuestas de **Power BI Desktop**.
@@ -25,9 +25,6 @@ Para que Preguntas y respuestas sea capaz de interpretar correctamente la gran c
 > [!NOTE]
 > Solo hay preguntas y respuestas disponibles cuando se trabaja con un modelo que contiene datos **importados**. No se pueden realizar conexiones dinámicas con los modelos de SSAS y DirectQuery.
 >
->
-
-> [!NOTE]
 > Si usa una versión de Windows anterior a Windows 10, Preguntas y respuestas requiere la siguiente actualización del entorno de ejecución de C. Puede intentar instalar las actualizaciones importantes de Windows Update o instalar manualmente el componente necesario desde Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
 >
 >
@@ -49,11 +46,11 @@ Si el modelo no tiene relaciones entre tablas, ni los informes de Power BI ni Pr
 
 ## <a name="rename-tables-and-columns"></a>Cambiar el nombre de tablas y columnas
 
-La elección de tablas y columnas es muy importante para Preguntas y respuestas. Por ejemplo, si tiene una tabla llamada *ResumenClientes* que contiene una lista de los clientes, sería necesario hacer preguntas como "Enumerar los resúmenes de cliente en Chicago" en lugar de "Enumerar los clientes en Chicago". 
+La elección de tablas y columnas es importante para Preguntas y respuestas. Por ejemplo, supongamos que tiene una tabla denominada *ResumenDeClientes* que contiene una lista de sus clientes. Tendría que hacer preguntas como "Enumerar los resúmenes de clientes de Chicago" en lugar de "Enumerar los clientes de Chicago". 
 
 Aunque Preguntas y respuestas puede realizar una separación de palabras básica y detectar plurales, da por supuesto que los nombres de tablas y columnas reflejan con precisión su contenido.
 
-Aquí tenemos otro ejemplo. Imagine que tiene una tabla llamada *Plantilla* que contiene los nombres, apellidos y números de los empleados, y que tiene otra tabla llamada *Empleados* que contiene los números de empleado, números de trabajo y fechas de inicio. Aunque las personas que están familiarizadas con el modelo pueden conocer esto, si otra persona pregunta "recuento de empleados", obtendrá un recuento de las filas de la tabla "Empleados", que probablemente no será lo que pensaba, ya que es un recuento de todos los trabajos que haya tenido cada empleado. Sería mejor cambiar el nombre de esas tablas para que reflejen con precisión su contenido.
+Aquí tenemos otro ejemplo. Imagine que tiene una tabla denominada *Plantilla* que contiene nombres y apellidos y números de empleado. Tiene otra tabla llamada *Empleados* que contiene números de empleado, números de trabajo y fechas de inicio. Las personas familiarizadas con el modelo pueden entender esta estructura. Cualquier otra persona que pida el “recuento de empleados” va a obtener un recuento de las filas de la tabla “Empleados”. Es probable que el resultado no sea lo que tenían en mente, porque es un recuento de todos los trabajos que alguna vez ha tenido cada empleado. Sería mejor cambiar el nombre de esas tablas para que reflejen realmente su contenido.
 
 **Necesita ajustes**
 
@@ -65,7 +62,7 @@ Aquí tenemos otro ejemplo. Imagine que tiene una tabla llamada *Plantilla* que 
 
 ## <a name="fix-incorrect-data-types"></a>Corregir los tipos de datos incorrectos
 
-Los datos importados pueden tener tipos de datos incorrectos. En concreto, las columnas de *fecha* y *número* que se importan como *cadenas* no serán interpretadas por Preguntas y respuestas como fechas y números. Asegúrese de que selecciona el tipo de datos correcto en el modelo de Power BI.
+Los datos importados pueden tener tipos de datos incorrectos. En concreto, las columnas *fecha* y *número* que se importan como *cadenas* no se interpretan en Preguntas y respuestas como fechas y números. Asegúrese de seleccionar el tipo de datos correcto en el modelo de Power BI.
 
 ![elegir el tipo de datos correcto para asegurarse de que está disponible para Preguntas y respuestas](media/desktop-qna-in-reports/desktop-qna_05.png)
 
@@ -77,7 +74,7 @@ Power BI agrega activamente las columnas numéricas de forma predeterminada, por
 
 ## <a name="choose-a-data-category-for-each-date-and-geography-column"></a>Elegir una categoría de datos para cada columna fecha y geografía
 
-La **categoría de datos** proporciona información semántica adicional sobre el contenido de una columna más allá de su tipo de datos. Por ejemplo, una columna de enteros podría marcarse como un código postal y una columna de cadena puede marcarse como una ciudad, país o región y así sucesivamente. Preguntas y respuestas utiliza esta información de dos formas importantes: para la selección de la visualización y para los sesgos del lenguaje.
+La **categoría de datos** proporciona información semántica adicional sobre el contenido de una columna más allá de su tipo de datos. Por ejemplo, una columna de enteros podría marcarse como un código postal y una columna de cadena puede marcarse como una ciudad, país o región y así sucesivamente. Esta información se usa en Preguntas y respuestas de dos maneras importantes: Para la selección de la visualización y para los sesgos del lenguaje.
 
 Primero, Preguntas y respuestas usa la información de la **categoría de datos** para ayudar a tomar decisiones sobre qué tipo de presentación visual se va a utilizar. Por ejemplo, reconoce que las columnas con las **categorías de datos** fecha y hora suelen ser una buena elección para el eje horizontal de un gráfico de líneas o como eje de reproducción de un gráfico de burbujas. Y supone que los resultados que contienen las columnas con las **categorías de datos** geográficos pueden representarse correctamente en un mapa.
 
@@ -94,15 +91,15 @@ La propiedad **Ordenar por columna** permite la ordenación de una columna por u
 
 ## <a name="normalize-your-model"></a>Normalizar el modelo
 
-Puede estar tranquilo, no estamos sugiriendo que deba cambiar la forma de todo el modelo. Sin embargo, hay ciertas estructuras que simplemente son tan difíciles que Preguntas y respuestas no podrá controlarlas adecuadamente. Si lleva a cabo una normalización básica de la estructura del modelo, la facilidad de uso de los informes de Power BI aumentará considerablemente, así como la exactitud de los resultados de Preguntas y respuestas.
+Puede estar tranquilo, no estamos sugiriendo que deba cambiar la forma de todo el modelo. Sin embargo, algunas estructuras son tan difíciles que no se controlan adecuadamente en Preguntas y respuestas. Si lleva a cabo una normalización básica de la estructura del modelo, la facilidad de uso de los informes de Power BI aumentará considerablemente, así como la exactitud de los resultados de Preguntas y respuestas.
 
-La regla general que debería seguir es: cada "cosa" única sobre la que el usuario habla debe estar representada exactamente por un objeto del modelo (tabla o columna). Por lo que, si los usuarios hablan de clientes, debe haber un objeto *cliente*. Y si los usuarios hablan de ventas, debe haber un objeto *ventas*. Parece simple, ¿verdad? Dependiendo de la forma de los datos de partida, puede serlo. Hay funcionalidades para dar forma a datos enriquecidos disponibles en el **Editor de consultas** si las necesita, aunque muchas de las transformaciones más sencillas pueden realizarse simplemente mediante cálculos en el modelo de Power BI.
+Siga esta regla general: cada "cosa" única sobre la que el usuario habla debe estar representada exactamente por un objeto del modelo (tabla o columna). Por lo que, si los usuarios hablan de clientes, debe haber un objeto *cliente*. Y si los usuarios hablan de ventas, debe haber un objeto *ventas*. Parece simple, ¿verdad? Dependiendo de la forma de los datos de partida, puede serlo. Hay funcionalidades para dar forma a datos enriquecidos disponibles en el **Editor de consultas** si las necesita, aunque muchas de las transformaciones más sencillas pueden realizarse simplemente mediante cálculos en el modelo de Power BI.
 
 Las secciones siguientes contienen algunas transformaciones comunes que es posible que deba realizar.
 
 ### <a name="create-new-tables-for-multi-column-entities"></a>Crear nuevas tablas para entidades de varias columnas
 
-Si tiene varias columnas que actúan como una sola unidad distinta dentro de una tabla mayor, se deben dividir dichas columnas en su propia tabla. Por ejemplo, si tiene las columnas Nombre del contacto, Cargo del contacto y Teléfono del contacto en la tabla *Compañías*, un diseño mejor sería una tabla independiente *Contactos* que contenga el nombre, el cargo, el teléfono y un vínculo a la tabla *Compañías*. Esto hace que resulte mucho más fácil realizar preguntas sobre los contactos independientemente de preguntas acerca de las compañías de las que son el contacto, y mejora la flexibilidad de presentación.
+Si tiene varias columnas que actúan como una sola unidad distinta dentro de una tabla mayor, se deben dividir dichas columnas en su propia tabla. Por ejemplo, supongamos que tiene una columna de nombre de contacto, cargo del contacto y teléfono del contacto en la tabla *Compañías*. Un diseño mejor sería tener una tabla *Contactos* aparte que contenga el nombre, el cargo y el teléfono, y un vínculo que lleve de vuelta a la tabla *Compañías*. De esta forma, es mucho más fácil realizar preguntas sobre los contactos por una parte y por la otra sobre las compañías de las que son el contacto, y mejora la flexibilidad de presentación.
 
 **Necesita ajustes**
 
@@ -128,9 +125,9 @@ Por ejemplo, considere una tabla *DatosDemográficosCliente* con las columnas Id
 
 ### <a name="union-to-eliminate-partitioning"></a>Unir para eliminar particiones
 
-Si ha creado particiones en los datos en varias tablas o ha dinamizado valores en varias columnas, será difícil o imposible que los usuarios puedan realizar algunas operaciones comunes. Considere en primer lugar una creación de particiones de una tabla típica: una tabla *Ventas2000-2010* y una tabla *Ventas2011-2020*. Si todos los informes importantes están restringidos a una década específica, probablemente lo pueda dejar de este modo para los informes de Power BI. Sin embargo, la flexibilidad de Preguntas y respuestas dará lugar a que los usuarios esperen respuestas a preguntas como "ventas totales por año". Para que funcione, debe unir los datos en una sola tabla del modelo de Power BI.
+Si ha creado particiones en los datos en varias tablas o ha dinamizado valores en varias columnas, será difícil o imposible que los usuarios puedan realizar algunas operaciones comunes. Considere en primer lugar una creación de particiones de una tabla típica: una tabla *Ventas2000-2010* y una tabla *Ventas2011-2020*. Si todos los informes importantes están restringidos a una década específica, probablemente lo pueda dejar de este modo para los informes de Power BI. Sin embargo, la flexibilidad de Preguntas y respuestas dará lugar a que los usuarios esperen respuestas a preguntas como "ventas totales por año". Para que esta consulta funcione, debe unir los datos en una sola tabla del modelo de Power BI.
 
-De igual forma, considere una columna de valor dinamizado típica: una tabla *RecorridoLibro* que contiene las columnas Autor, Libro, Ciudad1, Ciudad2 y Ciudad3. Con una estructura como esta, incluso preguntas sencillas como "recuento de libros por ciudad" no se pueden interpretar correctamente. Para que funcione, debe crear una tabla *CiudadesRecorridoLibro* independiente que una los valores de ciudad en una sola columna.
+De igual forma, considere una columna de valor dinamizado típica: una tabla *RecorridoLibro* que contiene las columnas Autor, Libro, Ciudad1, Ciudad2 y Ciudad3. Con una estructura como esta, incluso preguntas sencillas como "recuento de libros por ciudad" no se pueden interpretar correctamente. Para que esta consulta funcione, debe crear una tabla *CiudadesRecorridoLibro* independiente que una los valores de ciudad en una sola columna.
 
 **Necesita ajustes**
 
@@ -169,7 +166,7 @@ De modo similar, si el origen desde el que se importan los datos contiene column
 
 ### <a name="denormalize-to-eliminate-inactive-relationships"></a>Desnormalizar para eliminar las relaciones inactivas
 
-La única excepción a la regla "la normalización es mejor" se produce cuando hay más de una ruta para ir de una tabla a otra. Por ejemplo, si tiene una tabla *Vuelos* con las columnas IdentificadorCiudadOrigen e IdentificadorCiudadDestino, ambas relacionadas con la tabla *Ciudades*, una de esas relaciones debe marcarse como inactiva. Dado que Preguntas y respuestas solo puede usar relaciones activas, no podrá realizar preguntas sobre el origen o el destino, en función de la que elija. En cambio, si desnormaliza las columnas de nombre de ciudad de la tabla *Vuelos*, podrá hacer preguntas como: "enumerar los vuelos para mañana con ciudad de origen Seattle y ciudad de destino San Francisco".
+La única excepción a la regla "la normalización es mejor" se produce cuando hay más de una ruta para ir de una tabla a otra. Por ejemplo, supongamos que tiene una tabla *Vuelos* con las columnas Id.CiudadOrigen e Id.CiudadDestino, cada una de las cuales está relacionada con la tabla *Ciudades*. Una de esas relaciones deberá marcarse como inactiva. Dado que en Preguntas y respuestas solo se usan relaciones activas, no podrá realizar preguntas sobre el origen o el destino, en función de lo que elija. En cambio, si desnormaliza las columnas de nombre de ciudad de la tabla *Vuelos*, podrá hacer preguntas como: "enumerar los vuelos para mañana con ciudad de origen Seattle y ciudad de destino San Francisco".
 
 **Necesita ajustes**
 
@@ -183,7 +180,7 @@ La única excepción a la regla "la normalización es mejor" se produce cuando h
 
 Este paso se aplica específicamente a Preguntas y respuestas (y no a los informes de Power BI en general). Los usuarios suelen tener una variedad de términos que se usan para hacer referencia a la misma cosa, como ventas totales, ventas netas o total de ventas netas. El modelo de Power BI permite agregar estos sinónimos a las tablas y las columnas del modelo. 
 
-Esto puede ser un paso muy importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene en mente y no eligen entre una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en la vista **Relaciones**, seleccione el botón Sinónimos en la cinta de opciones, como se muestra en esta imagen.
+Este paso puede ser importante. Incluso con nombres de columnas y tablas sencillos, los usuarios de Preguntas y respuestas formulan preguntas utilizando el vocabulario que les viene en mente y no eligen entre una lista predefinida de columnas. Cuantos más sinónimos significativos agregue, mejor será la experiencia de los usuarios con el informe. Para agregar sinónimos, en la vista **Relaciones**, seleccione el botón Sinónimos en la cinta de opciones, como se muestra en esta imagen.
 
 ![Agregar sinónimos para Preguntas y respuestas](media/desktop-qna-in-reports/desktop-qna_21.png)
 

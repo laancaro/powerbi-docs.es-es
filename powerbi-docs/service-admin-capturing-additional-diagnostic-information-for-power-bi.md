@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 76860e740d43a1907692a7cd4fed1a6df68c93d4
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 8a8ec433a6ebb620593648cdb222df0f60b2f21e
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34239231"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53025175"
 ---
 # <a name="capturing-additional-diagnostic-information"></a>Captura de información de diagnóstico adicional
 ## <a name="capturing-additional-diagnostic-information-for-power-bi"></a>Captura de información de diagnóstico adicional para Power BI
@@ -26,17 +27,17 @@ Estas instrucciones ofrecen dos opciones posibles para recopilar manualmente la 
 2. Abra las herramientas de desarrollo de Edge presionando F12.
 3. Se abrirá la ventana Herramientas de desarrollo: 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
+   ![Herramientas de desarrolladores](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-developer-tools.png)
 4. Cambie a la pestaña Red. Obtendrá una lista del tráfico que ya se ha capturado. 
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
+   ![Pestaña de red perimetral](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab.png)
 5. Puede buscar dentro de la ventana y reproducir cualquier problema que encuentre. Puede ocultar y mostrar la ventana de herramientas de desarrollo en cualquier momento de la sesión si presiona F12.
 6. Para detener la captura, puede seleccionar el cuadrado rojo en la pestaña Red del área de herramientas de desarrollo.
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
+   ![Detener la captura](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-stop.png)
 7. Seleccione el icono de disquete para **Exportar como HAR**
    
-   ![](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
+   ![Exportar el archivo](media/service-admin-capturing-additional-diagnostic-information-for-power-bi/edge-network-tab-save.png)
 8. Escriba un nombre de archivo y guarde el archivo HAR.
    
     El archivo HAR contendrá toda la información sobre las solicitudes de red entre la ventana del explorador y Power BI.  Esto incluye los identificadores de actividad para cada solicitud, la marca de tiempo precisa para cada solicitud y cualquier información de error devuelta al cliente.  Este seguimiento también contendrá los datos usados para completar los elementos visuales que se muestran en la pantalla.

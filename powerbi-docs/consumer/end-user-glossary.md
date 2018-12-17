@@ -5,14 +5,14 @@ services: power-bi
 author: mihart
 ms.service: powerbi-service
 ms.topic: resource
-ms.date: 11/09/2018
+ms.date: 11/12/2018
 ms.author: mihart
-ms.openlocfilehash: d8238ae96bb57c580c0b74725b105ad7f4332136
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: fd7974024fdbfce38b93f1598fa389ef71a47dd9
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508023"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026355"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -23,7 +23,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **cuenta** Hay diferentes tipos de cuentas de Power BI.  Una cuenta de Power BI Pro es una suscripción mensual de pago.  Una cuenta de Power BI (gratis) permite visualizar el contenido alojado en la capacidad Power BI Premium.  
 
-**portal de administración** Ubicación en la que los administradores de Power BI administran los usuarios, las características y las opciones de configuración de Power BI en su organización. (Nota: Office 365, Azure y PowerApps usan el Centro de administración).
+**portal de administración** Ubicación en la que los administradores de Power BI administran los usuarios, las características y las opciones de configuración de Power BI en su organización. (Nota: Office 365, Azure y PowerApps usan el centro de administración).
 
 **agregados** Agrupación en una entrada de valores de diferentes filas según criterios determinados para formar un solo valor que sea más significativo o se pueda medir mejor.
 
@@ -40,9 +40,9 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
  
 **área de trabajo de la aplicación** Ahora todos los espacios de trabajo de Power BI, excepto Mi área de trabajo, son áreas de trabajo de la aplicación. Estos contenidos se pueden agrupar en una aplicación Power BI. Los que se almacenan en una capacidad Premium se pueden compartir con usuarios que tengan una cuenta gratuita. Las áreas de trabajo personales (en Mi área de trabajo) se pueden alojar en la capacidad Premium.  
 
-**AppSource**
+**AppSource**: repositorio en línea centralizado donde puede examinar y detectar paneles, informes, conjuntos de datos y aplicaciones para descargar.
 
-**ArcGIS for Power BI** ArcGIS es una plataforma de asignación y análisis creada por la empresa ESRI. El nombre del objeto visual que se incluye en la biblioteca de objetos visuales de Power BI se denomina ArcGIS for Power BI.
+**ArcGIS Maps for Power BI** ArcGIS es una plataforma de asignación y análisis creada por la empresa ESRI. El nombre del objeto visual que se incluye en la biblioteca de objetos visuales de Power BI se denomina ArcGIS Maps for Power BI.
 
 **asignar** [Power BI Premium] Trasladar un área de trabajo a una capacidad dedicada o desde dicha capacidad. No use el verbo “promover” para referirse al traslado de un área de trabajo a una capacidad dedicada porque tiene la connotación de que la capacidad dedicada es superior a la compartida.  
 
@@ -69,7 +69,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **lista de contenido** Índice de contenido de una aplicación.
 
-**paquete de contenido**
+**paquete de contenido**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
 
 **vista de contenido**
 
@@ -92,11 +92,11 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **modelo de datos, modelo de datos de Excel**
 
 
-**conjunto de datos** frente a **origen de datos**
+**conjunto de datos** frente a **origen de datos**: un **conjunto de datos** es una colección de datos usados para crear visualizaciones e informes.
 
 **capacidad dedicada** [Power BI Premium] Modelos de datos que se ejecutan en hardware dedicado en centros de datos en la nube de Microsoft para contribuir a garantizar un rendimiento constante a escala. Las soluciones de BI se ofrecen a toda la organización independientemente de la licencia de Power BI.
 
-**Desktop** Primera aparición: Power BI Desktop. Siguientes menciones: Desktop
+**Desktop**: primera vez: Power BI Desktop, menciones sucesivas: Escritorio
 
 
 **rombo** Power BI Premium. Forma del icono que indica que un área de trabajo es de capacidad Premium.
@@ -110,6 +110,8 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **puntos suspensivos** ...
 
 **código para insertar** Estándar común en Internet. En Power BI, el cliente puede generar un código para insertar y copiarlo para colocar contenido como el objeto visual de un informe en un sitio web o blog.
+
+**Embedded**: consulte Power BI Embedded. 
 
 **insertar** En la oferta de desarrollo de Power BI, el proceso de integración de análisis en aplicaciones mediante las API REST de Power BI y Power BI SDK.
 
@@ -133,7 +135,7 @@ En aquella documentación en que pueda servir a los analistas de empresas famili
 
 ## <a name="g"></a>G
 
-**puertas de enlace** o **puertas de enlace de datos local** Puente a orígenes de datos subyacentes. Permite la transferencia de datos rápida y segura entre los orígenes de datos de servicio y locales de Power BI que admiten la actualización. Normalmente está administrado por TI. puertas de enlace de datos locales
+**puertas de enlace** o **puertas de enlace de datos local** Puente a orígenes de datos subyacentes. Permite la transferencia de datos rápida y segura entre los orígenes de datos de servicio y locales de Power BI que admiten la actualización. Normalmente está administrado por TI. 
 
 ## <a name="h"></a>H
 **objetos visuales de alta densidad** Objetos visuales con más puntos de datos de los que Power BI puede representar. Power BI hace un muestreo de los datos para mostrar la forma y los valores atípicos.
@@ -160,7 +162,7 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 ## <a name="m"></a>L
 
-**medidas** Cálculos personalizados escritos en Power BI Desktop utilizando el código DAX o medidas rápidas.
+**Aplicación móvil**: aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
 **modelado** [Power BI Desktop] Disponer de los datos que ha conectado para que estén listos para utilizar en Power BI. Esto incluye la creación de relaciones entre las tablas de varios orígenes de datos, crear medidas y asignar métricas.
 
@@ -180,6 +182,9 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 ## <a name="o"></a>O
 
 **OneDrive para la Empresa** frente a **OneDrive** OneDrive es una cuenta personal y en OneDrive para la Empresa se usan cuentas profesionales.  
+
+**On-premises Data Gateway (Puerta de enlace de datos local)**
+
 
 
 ## <a name="p"></a>P
@@ -202,7 +207,7 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 **Power BI**, **servicio Power BI**, **Power BI Desktop**, **Power BI Mobile** Algunas de las ofertas de Power BI. *Power BI* Es el término general. A menudo se utiliza en lugar del nombre completo del producto, como *servicio Power BI* y *Power BI Mobile*, después de que la primera vez que aparece se mencione el nombre completo del producto.
 
-**Power BI Desktop** También se denomina *Desktop*.
+**Power BI Desktop** También se denomina *Desktop*. La aplicación gratuita de Power BI para Windows que puede instalar en el equipo local y que le permite conectarse a los datos, transformarlos y visualizarlos. La usan los administradores y diseñadores de informes. Para más información, consulte [¿Qué es Power BI?](../power-bi-overview.md)
 
 **Power BI Embedded** Un producto que utilizan los desarrolladores para insertar paneles e informes de Power BI en sus propios sitios, aplicaciones y herramientas.
 
@@ -210,8 +215,9 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 **Licencia de Power BI Pro** Licencia de usuario mensual que ofrece la capacidad de crear paneles, colaborar en datos compartidos, mantener los datos actualizados automáticamente, auditar y controlar cómo se accede a los datos y cómo se usan, y la capacidad de empaquetar el contenido para distribuirlo (aplicaciones de Power BI).
 
-**Power BI Report Server** Nueva oferta de marca de SSRS que se inicia con Power BI Premium para permitir que las organizaciones creen sistemas de BI híbridos y distribuidos (una combinación de implementaciones locales y en la nube).
-Se basa en la funcionalidad de generación de informes paginados y enriquecidos de SQL Server Reporting Services y en los informes móviles sumados a la capacidad para ofrecer datos a los informes de Power BI creados con Power BI Desktop y para entregarlos en las aplicaciones móviles de Power BI. El SSRS clásico se continúa vendiendo.
+**Power BI Report Server** Nueva oferta de marca de SSRS que se inicia con Power BI Premium para permitir que las organizaciones creen sistemas de BI híbridos y distribuidos (una combinación de implementaciones locales y en la nube). Embedded proporciona una manera localizada de almacenar y administrar informes de Power BI.
+
+**Servicio Power BI**: un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../power-bi-overview.md)
 
 **Conector del servicio Power BI** Este conector permite a los usuarios de Power BI Desktop conectarse a conjuntos de datos en el servicio Power BI desde Desktop. Pueden crear un modelo una vez y reutilizarlo en muchos informes y paneles.
 
@@ -285,7 +291,7 @@ Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir corr
 
 **resumen** [Power BI Desktop] Operación que se aplica a los valores de una columna.
 
-## <a name="t"></a>J
+## <a name="t"></a>T
 **iconos**  
 Los paneles de Power BI contienen iconos de un informe.
 

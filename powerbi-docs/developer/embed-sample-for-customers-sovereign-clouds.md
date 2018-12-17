@@ -1,23 +1,25 @@
 ---
-title: Inserción de contenido de Power BI para la administración pública y nubes soberanas en una aplicación para los clientes
-description: Aprenda a integrar, o insertar, un panel, un icono o un informe, en una aplicación web mediante las API de Power BI para los clientes.
+title: Análisis integrados para insertar contenido de Power BI en las aplicaciones para nubes de gobierno y soberanas
+description: Aprenda a integrar, o insertar, un informe, un panel o un icono, en una aplicación web mediante las API de Power BI para realizar análisis integrados para los clientes. Aprenda a integrar Power BI en su aplicación mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada.
 author: markingmyname
 ms.author: maghan
 manager: kfile
+ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: tutorial
-ms.date: 10/25/2018
-ms.openlocfilehash: 76b80ad296f2f595fb5014e13bbd48d414cd8bbe
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.custom: seodec18
+ms.date: 12/10/2018
+ms.openlocfilehash: aabf472e236f545fe51d4007dcd8fbdf36632931
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003165"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180631"
 ---
 # <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Insertar un panel, icono o informe de Power BI en la aplicación para nubes soberanas
 
-Aprenda a insertar un panel, icono o informe en las aplicaciones web mediante el SDK de .NET de Power BI, junto con la API de JavaScript de Power BI cuando integre los datos para los clientes.
+Aprenda a insertar contenido analítico dentro de las aplicaciones de proceso de negocio para la nube soberana. Puede usar .NET SDK de Power BI con la API de JavaScript de Power BI para insertar un informe, panel o icono en las aplicaciones web.
 
 Power BI también admite nubes soberanas (privadas).
 
@@ -132,7 +134,7 @@ Para realizar llamadas a la API REST, registre la aplicación en Azure AD. Para 
 
 * Power BI para la nube de China: https://app.powerbi.cn/apps
 
-Si ha descargado el [ejemplo de inserción de contenido para el cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), use el **identificador de aplicación** que obtenga después del registro para que el ejemplo pueda autenticarse en Azure AD. Para configurar el ejemplo, cambie el **identificador de aplicación** en el archivo *web.config*.
+Si ha descargado el [ejemplo de inserción de contenido para el cliente](https://github.com/Microsoft/PowerBI-Developer-Samples/tree/master/App%20Owns%20Data), use el **identificador de aplicación** que obtenga para que el ejemplo pueda autenticarse en Azure AD. Para configurar el ejemplo, cambie el **identificador de aplicación** en el archivo *web.config*.
 
 ## <a name="step-2---get-an-access-token-from-azure-ad"></a>Paso 2: Obtener un token de acceso de Azure AD
 

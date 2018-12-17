@@ -1,5 +1,5 @@
 ---
-title: Administración de una puerta de enlace para Power BI
+title: Administración de una puerta de enlace local de Power BI
 description: Obtenga información sobre cómo administrar una puerta de enlace para que pueda conectarse a datos locales en Power BI.
 author: mgblythe
 manager: kfile
@@ -9,15 +9,16 @@ ms.component: powerbi-gateways
 ms.topic: conceptual
 ms.date: 04/18/2018
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 8369566712e24c035ac0ec07cc7d5a219041a400
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 21eaca02502ae67ba5ecddff8e1b8890e0a049af
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34755171"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026394"
 ---
-# <a name="manage-a-power-bi-gateway"></a>Administración de una puerta de enlace de Power BI
+# <a name="manage-a-power-bi-on-premises-gateway"></a>Administración de una puerta de enlace local de Power BI
 
 Después de [instalar una puerta de enlace de datos de Power BI](service-gateway-install.md), la puede administrar según sus requisitos. En este tema, obtendrá información sobre cómo: agregar y quitar orígenes de datos y usuarios; reiniciar una puerta de enlace; y migrar, restaurar, controlar y quitar una puerta de enlace. 
 

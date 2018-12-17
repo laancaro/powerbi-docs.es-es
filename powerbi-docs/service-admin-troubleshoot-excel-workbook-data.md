@@ -9,13 +9,14 @@ ms.component: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
+ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 90fd71c59059f1b1b2c1b7d1d2da582d228c7a88
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: ea5312178d33986ebc3f4b9e8610012c87d54216
+ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34242373"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "53026040"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: No se encontraron datos en su libro de Excel
 
@@ -24,9 +25,9 @@ ms.locfileid: "34242373"
 
 Al importar un libro de Excel en Power BI, es posible que vea el siguiente error:
 
-*Error: no se encontraron datos en su libro de Excel. Es posible que los datos no tengan el formato correcto. Necesitará editar el libro en Excel y, a continuación, importarlo de nuevo.*
+*Error: No se encontraron datos en el libro de Excel. Es posible que los datos no tengan el formato correcto. Necesitará editar el libro en Excel y, a continuación, importarlo de nuevo.*
 
-![](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
+![No se pudieron encontrar datos del libro](media/service-admin-troubleshoot-excel-workbook-data/pbi_wecouldntfindanydata.png)
 
 ## <a name="quick-solution"></a>Solución rápida
 1. Edite el libro en Excel.
@@ -46,28 +47,28 @@ Cuando se importa un libro de Excel, Power BI busca estas tablas y las importa e
     >[!NOTE]
     >Las imágenes que aparecen aquí son de Excel 2013. Si usa otra versión, la apariencia puede ser levemente distinta, pero los pasos son los mismos.
     
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
+    ![Abrir libro](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht1.png)
 2. Seleccione el rango de celdas que contienen los datos. La primera fila debe contener los encabezados de columna (los nombres de columna):
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
+    ![Seleccionar rango de celdas](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht2.png)
 3. En la cinta de opciones, en la ficha **INSERTAR** , haga clic en **Tabla**. (O bien, como un método abreviado, presione **Ctrl + T**).
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
+    ![Insertar tabla](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlwksht3.png)
 4. Verá el siguiente cuadro de diálogo. Asegúrese de que la opción **La tabla tiene encabezados** esté activada y, a continuación, seleccione **Aceptar**:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
+    ![Crear tabla](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xlcreatetbl.png)
 5. Ahora los datos tienen el formato de una tabla:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
+    ![Datos con formato de tabla](media/service-admin-troubleshoot-excel-workbook-data/pbi_trb_xltbl.png)
 6. Guarde el libro.
 7. Regrese a Power BI. Seleccione Obtener datos en la parte inferior del panel de navegación izquierdo.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
+    ![Obtener datos](media/service-admin-troubleshoot-excel-workbook-data/pbi_getdata.png)
 8. En el cuadro **Archivos** , seleccione **Obtener**.
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
+    ![Obtención de archivos](media/service-admin-troubleshoot-excel-workbook-data/pbi_getfiles.png)
 9. Vuelva a importar el libro de Excel. Esta vez, la importación debe encontrar la tabla sin problemas.
    
     Si la importación sigue sin funcionar, háganoslo saber haciendo clic en **Comunidad** en el menú Ayuda:
    
-    ![](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
+    ![Vínculo de la comunidad](media/service-admin-troubleshoot-excel-workbook-data/pbi_questionmenucommunity.png)
