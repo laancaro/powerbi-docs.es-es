@@ -1,21 +1,22 @@
 ---
-title: Introducción a Preguntas y respuestas en el servicio Power BI y Power BI Desktop
+title: Introducción a Preguntas y respuestas en el servicio Power BI
 description: Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/16/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 361c71c979d65e5c71ada6889bc7312ef64da23e
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: 3548041be39705c3013d09740040afc3e7f1c9e7
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396368"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279588"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Preguntas y respuestas para **consumidores** de Power BI
 ## <a name="what-is-qa"></a>¿Qué son las preguntas y respuestas?
@@ -63,18 +64,18 @@ Preguntas y respuestas escoge la mejor visualización en función de los datos q
 También puede indicar a Preguntas y respuestas qué visualización usar agregándolo a su pregunta. Pero tenga en cuenta que no siempre es posible para Preguntas y respuestas mostrar los datos en el tipo de visualización solicitado. Preguntas y respuestas le pedirá confirmación acerca de una lista de tipos de visualización factibles.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-**Pregunta**: No veo Preguntas y respuestas en este panel.    
-**Respuesta 1**: Si no ve un cuadro de pregunta, compruebe primero la configuración. Para ello, en la esquina superior derecha de la barra de herramientas de Power BI, seleccione el icono de engranaje.   
+**Pregunta:** No veo Preguntas y respuestas en este panel.    
+**Respuesta 1:** Si no ve un cuadro de pregunta, compruebe primero la configuración. Para ello, en la esquina superior derecha de la barra de herramientas de Power BI, seleccione el icono de engranaje.   
 ![icono de engranaje](media/end-user-q-and-a/power-bi-settings.png)
 
 A continuación, elija **Configuración** > **Paneles**. Asegúrese de que hay una marca de verificación junto a **Mostrar el cuadro de búsqueda de Preguntas y respuestas en este panel**.
 ![Configuración de Preguntas y respuestas para el panel](media/end-user-q-and-a/power-bi-turn-on.png)  
 
 
-**Respuesta 2**: A veces, el *diseñador* del panel o el administrador desactiva Preguntas y respuestas. Póngase en contacto con ellos para ver si pueden volver a activarlo.   
+**Respuesta 2:** A veces, el *diseñador* del panel o el administrador desactiva Preguntas y respuestas. Póngase en contacto con ellos para ver si pueden volver a activarlo.   
 
-**Pregunta**: No obtengo los resultados que quiero ver cuando escribo una pregunta.    
-**Respuesta**: Póngase en contacto con el *diseñador* del panel. El diseñador puede hacer muchas cosas para mejorar los resultados de Preguntas y respuestas. Por ejemplo, el diseñador puede cambiar el nombre de las columnas del conjunto de datos para usar unos términos que se entiendan fácilmente (`CustomerFirstName` en lugar de `CustFN`). Dado que el diseñador conoce realmente bien el conjunto de datos, el diseñador también puede plantear preguntas útiles y agregarlas al lienzo de Preguntas y respuestas.
+**Pregunta:** No obtengo los resultados que quiero ver cuando escribo una pregunta.    
+**Respuesta:** Póngase en contacto con el *diseñador* del panel. El diseñador puede hacer muchas cosas para mejorar los resultados de Preguntas y respuestas. Por ejemplo, el diseñador puede cambiar el nombre de las columnas del conjunto de datos para usar unos términos que se entiendan fácilmente (`CustomerFirstName` en lugar de `CustFN`). Dado que el diseñador conoce realmente bien el conjunto de datos, el diseñador también puede plantear preguntas útiles y agregarlas al lienzo de Preguntas y respuestas.
 
 ![pregunta destacada remarcada](media/end-user-q-and-a/power-bi-featured-q.png)
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 709518924fbb9d83201eb5c070b7a3e93838ec79
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: 7a1187373304387ac511053d241e5cfb31f7fcd9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52331951"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280590"
 ---
 # <a name="intro-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
@@ -48,15 +48,15 @@ Los [informes](service-reports.md) y los paneles parecen similares, porque ambos
 | --- | --- | --- |
 | Páginas |Una página |Una o varias páginas |
 | Orígenes de datos |Uno o varios informes y uno o varios conjuntos de datos por cada panel |Un único conjunto de datos por informe |
-| Disponible en Power BI Desktop |No |Sí, los ***creadores*** pueden generar y ver informes en Desktop |
+| Disponible en Power BI Desktop |No | Pueden generar y ver informes en Power BI Desktop |
 | Suscribirse |Es posible suscribirse a un panel |Es posible suscribirse a páginas de informes |
 | Filtrado |No es posible filtrar ni segmentar |Numerosas formas de filtrar, resaltar y segmentar |
 | Destacado |Se puede establecer un panel como panel "destacado" |No es posible crear un informe destacado |
 | Favorito | Los paneles se pueden establecer como *favoritos* | Los informes se pueden establecer como *favoritos*
 | Establecimiento de alertas |Disponible para iconos de panel en determinadas circunstancias |No disponible en los informes |
-| Consultas en lenguaje natural |Disponible en el panel |No disponible en los informes |
+| Consultas en lenguaje natural |Disponible en los paneles | Disponible en los informes |
 | Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos pero no se pueden ver tablas ni campos en el panel |Sí. Se pueden ver tablas, campos y valores del conjunto de datos |
-| Personalización |No |En la Vista de lectura, se puede publicar, insertar, filtrar, exportar, descargar como .pbix, ver contenido relacionado, generar códigos QR, analizar en Excel y mucho más.  |
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](sample-tutorial-connect-to-the-samples.md).

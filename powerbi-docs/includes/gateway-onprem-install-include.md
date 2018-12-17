@@ -8,7 +8,7 @@ La puerta de enlace de datos se instala y se ejecuta en el equipo. Es mejor inst
 
 Para Power BI, la primera opción que debe elegir es el modo de la puerta de enlace.
 
-* **Puerta de enlace de datos local:** en este modo varios usuarios pueden compartir y reutilizar una puerta de enlace. Esta puerta de enlace se puede usar en Power BI, PowerApps, Flow o Logic Apps. Para Power BI, esto incluye compatibilidad con la programación de actualización y DirectQuery
+* **Puerta de enlace de datos local**: en este modo varios usuarios pueden compartir y reutilizar una puerta de enlace. Esta puerta de enlace se puede usar en Power BI, PowerApps, Flow o Logic Apps. Para Power BI, esto incluye compatibilidad con la programación de actualización y DirectQuery
 * **Personal:** es solo para Power BI y se puede usar como individuo sin ninguna configuración de administrador. Solo se puede usar para la actualización a demanda y la programación de actualización. Esta selección inicia la instalación de la puerta de enlace personal.
 
 Hay algunas cosas que debe saber sobre la instalación de cualquiera de los modos de la puerta de enlace:

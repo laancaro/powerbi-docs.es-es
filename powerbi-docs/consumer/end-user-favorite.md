@@ -3,20 +3,21 @@ title: Favoritos en el servicio Power BI (paneles, informes, aplicaciones)
 description: Documentación acerca de cómo establecer como favoritos paneles, informes y aplicaciones en el servicio Power BI
 author: mihart
 manager: kvivek
+ms.custom: seodec18
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 46b943b9de7e8bae29c20617f957c81de2d49f94
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: cc94f352c550d7fba96f71f894e8d81ba5bc487a
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452508"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280199"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
 Al marcar contenido como *favorito*, puede acceder a él desde todas las áreas de trabajo.  Los favoritos suelen ser el contenido que se visita más a menudo.

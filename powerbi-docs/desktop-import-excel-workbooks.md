@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56f25730730a6f218f2dbaa678abdf182470f177
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: eea68f0a17deff3aaa5a39558ffc2165b4c2b6f6
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670265"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280361"
 ---
 # <a name="import-excel-workbooks-into-power-bi-desktop"></a>Importación de libros de Excel en Power BI Desktop
 Con **Power BI Desktop** puede importar fácilmente los libros de Excel que contienen consultas de Power Query, modelos de Power Pivot y hojas de cálculo de Power View en Power BI Desktop. Las visualizaciones e informes se crean automáticamente según el libro de Excel y, una vez realizada la importación, puede seguir mejorando y perfeccionando dichos informes con Power BI Desktop, con las características existentes y nuevas características publicadas con cada actualización mensual de Power BI Desktop.
@@ -42,7 +42,7 @@ Una vez finalizada la importación, aparecerá una página de **resumen** que de
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_3.png)
 
-Al seleccionar **Cerrar**, se carga el informe en Power BI Desktop. La siguiente imagen muestra Power BI Desktop después de la importación del libro de Excel: Power BI Desktop carga automáticamente el informe según el contenido del libro.
+Al seleccionar **Cerrar**, se carga el informe en Power BI Desktop. La siguiente imagen muestra Power BI Desktop después de la importación de un libro de Excel: Power BI Desktop cargó automáticamente el informe basándose en el contenido del libro.
 
 ![](media/desktop-import-excel-workbooks/importexceltopbi_4.png)
 
@@ -55,7 +55,7 @@ Power BI Desktop puede importar los siguientes elementos, a los que se conoce no
 | --- | --- |
 | Consultas de Power Query |Todas las consultas de Power Query de Excel se convierten en consultas en Power BI Desktop. Si hay grupos de consultas definidos en el libro de Excel, se replicará la misma organización en Power BI Desktop. Todas las consultas se cargan a no ser que se establezcan en "Crear solo conexión" en Excel. Puede personalizar el comportamiento de carga del cuadro de diálogo **Propiedades** en la pestaña **Inicio** del **Editor de consultas** en Power BI Desktop. |
 | Conexiones a datos externos de Power Pivot |Todas las conexiones a datos externos de Power Pivot se convertirán en consultas en Power BI Desktop. |
-| Tablas vinculadas o tablas de libros actuales |Si hay una tabla de hojas de cálculo de Excel vinculada al modelo de datos o a una consulta (mediante el uso de *Desde tabla* o la función *Excel.CurrentWorkbook()* en M), se presentan las opciones siguientes: 1. Importe la tabla en el archivo de Power BI Desktop. Esta tabla es una instantánea de un solo uso de los datos, después de la cual no podrá editar los datos en la tabla en Power BI Desktop. Existe un límite de tamaño de 1 millón de caracteres (en total, combinando todos los encabezados de columna y las celdas) para las tablas creadas con esta opción. 2. Mantenga una conexión con el libro original. También puede mantener una conexión con el libro de Excel original y Power BI Desktop recuperará el contenido más reciente de esta tabla con cada actualización, igual que cualquier otra consulta creada en un libro de Excel en Power BI Desktop. |
+| Tablas vinculadas o tablas de libros actuales |Si hay una tabla de hojas de cálculo de Excel vinculada al modelo de datos o a una consulta (mediante el uso de *Desde tabla* o la función *Excel.CurrentWorkbook()* en M), se presentan las opciones siguientes: <ol><li>Importe la tabla en el archivo de Power BI Desktop. Esta tabla es una instantánea de un solo uso de los datos, después de la cual no podrá editar los datos en la tabla en Power BI Desktop. Existe un límite de tamaño de 1 millón de caracteres (en total, combinando todos los encabezados de columna y las celdas) para las tablas creadas con esta opción.</li><li>Mantenga una conexión con el libro original. También puede mantener una conexión con el libro de Excel original y Power BI Desktop recuperará el contenido más reciente de esta tabla con cada actualización, igual que cualquier otra consulta creada en un libro de Excel en Power BI Desktop.</li></ul> |
 | Relaciones, categorías de datos, KPI, medidas y columnas calculadas de modelo de datos |Estos objetos de modelo de datos se convierten en los objetos equivalentes en Power BI Desktop. Tenga en cuenta que existen determinadas categorías de datos que no están disponibles en Power BI Desktop, como **Imagen**. En estos casos, se restablecerá la información de la categoría de datos para las columnas en cuestión. |
 | Hojas de cálculo de Power View |Se crea una nueva página de informe para cada hoja de cálculo de Power View en Excel. El nombre y el orden de estas páginas de informe coinciden con el libro de Excel original. |
 
@@ -63,9 +63,9 @@ Power BI Desktop puede importar los siguientes elementos, a los que se conoce no
 Existen algunas limitaciones para la importación de un libro en Power BI Desktop, que figuran en la siguiente lista:
 
 * **Conexiones externas a modelos tabulares de Analysis Services:** en Excel 2013, es posible crear una conexión a modelos tabulares de Analysis Services de SQL Server y crear informes de Power View encima de estos modelos sin necesidad de importar los datos. Este tipo de conexión no se admite actualmente como parte de la importación de los libros de Excel en Power BI Desktop. Como solución alternativa, debe volver a crear estas conexiones externas en Power BI Desktop.
-* **Jerarquías:** este tipo de objeto de modelo de datos no es compatible actualmente en Power BI Desktop. Por lo tanto, las jerarquías se omiten como parte de la importación de un libro de Excel en Power BI Desktop.
+* **Jerarquías:** este tipo de objeto de modelo de datos no es compatible actualmente con Power BI Desktop. Por lo tanto, las jerarquías se omiten como parte de la importación de un libro de Excel en Power BI Desktop.
 * **Columnas de datos binarios:** este tipo de columna de modelo de datos no es compatible actualmente con Power BI Desktop. Las columnas de datos binarios se quitan de la tabla resultante en Power BI Desktop.
 * **Elementos de Power View no compatibles:** existen algunas características de Power View que no están disponibles en Power BI Desktop, como los temas o determinados tipos de visualizaciones (gráfico de dispersión con eje de reproducción, comportamientos de obtención de detalles, etc.). Estas visualizaciones no compatibles provocan mensajes de *Visualización no compatible* en sus correspondientes ubicaciones en el informe de Power BI Desktop, que puede eliminar o volver a configurar según sea necesario.
-* **Rangos con nombre que usan** ***Desde tabla*** **en Power Query o**  ***Excel.CurrentWorkbook*** **en M:** la importación de estos datos de rangos con nombre en Power BI Desktop no es actualmente compatible, pero es una actualización prevista para Power BI Desktop. Actualmente, estos rangos con nombre se cargan en Power BI Desktop como una conexión al libro de Excel externo.
+* **Rangos con nombre que usan** ***Desde tabla*** **en Power Query o** ***Excel.CurrentWorkbook*** **en M:** la importación de estos datos de rangos con nombre en Power BI Desktop no es actualmente compatible, pero es una actualización prevista para Power BI Desktop. Actualmente, estos rangos con nombre se cargan en Power BI Desktop como una conexión al libro de Excel externo.
 * **Power Pivot para SSRS:** las conexiones externas de Power Pivot para SQL Server Reporting Services (SSRS) no son compatibles actualmente, ya que el origen de datos no está disponible actualmente en Power BI Desktop.
 

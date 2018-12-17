@@ -8,15 +8,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8644bc01aa845ff91950169f011cb70fb161ecb1
-ms.sourcegitcommit: 833cf1252807721fb1b3000487bd032bfd6c8c98
+ms.openlocfilehash: abddbf3e4ae0b51dbb46f949e6d4f287d084f873
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2018
-ms.locfileid: "48271772"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281043"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -29,7 +29,7 @@ Puede compartir informes y paneles desde la mayoría de los lugares del servicio
 
 También puede [compartir un panel desde cualquiera de las aplicaciones móviles de Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md). Puede compartir los paneles desde el servicio Power BI o desde las aplicaciones móviles de Power BI, pero no desde Power BI Desktop.
 
-## <a name="video-share-a-dashboard"></a>Vídeo: Uso compartido de un panel
+## <a name="video-share-a-dashboard"></a>Vídeo: Compartir un panel
 Observe cómo Amanda comparte su panel con compañeros tanto de su empresa como externos. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/0tUwn8DHo3s?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP" frameborder="0" allowfullscreen></iframe>
@@ -111,7 +111,7 @@ Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e inform
 
 * Por lo general, usted y sus compañeros ven los mismos datos en el panel o informe. Por lo tanto, si tiene permisos para ver más datos que ellos, podrán ver todos sus datos en el panel o informe. Sin embargo, si se aplica la [seguridad de nivel de fila (RLS)](service-admin-rls.md) al conjunto de datos subyacente a un panel o informe, se usan las credenciales de cada persona para determinar los datos a los que puede tener acceso.
 * Todos los usuarios con quienes comparte su panel pueden verlo e interactuar con los informes relacionados en la [vista de lectura](consumer/end-user-reading-view.md). No pueden crear informes ni guardar cambios en los informes existentes.
-* Nadie puede ver ni descargar el conjunto de datos.
+* Nadie puede ver ni descargar el conjunto de datos, pero pueden tener acceso al conjunto de datos directamente mediante la característica Analizar en Excel. Un administrador puede limitar la capacidad de los usuarios de utilizar Analizar en Excel mediante la restricción para todos en un grupo. Sin embargo, la restricción es para todos los usuarios de ese grupo para cada área de trabajo a la que pertenece el grupo.
 * Todo el mundo puede [actualizar los datos](refresh-data.md) manualmente.
 * Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.
 * Los compañeros que tengan su mismo dominio de correo electrónico y con aquellos que, pese a tener un dominio distinto, estén registrados en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, supongamos que los dominios contoso.com y contoso2.com están registrados en el mismo inquilino. Si su dirección de correo electrónico es konrads@contoso.com, entonces ravali@contoso.com y gustav@contoso2.com pueden compartir, siempre y cuando se les diera permiso para compartir.

@@ -1,21 +1,22 @@
 ---
-title: Cambiar el tamaño de una página del informe
+title: Cambio del tamaño de presentación y la proporción de una página de informe
 description: Cambiar la configuración de presentación de una página en un informe de Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c3e0fe7d469558a1800b7ce26b8b255fd8fa7a15
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: 93e6c66c28c95d729ae0af0910f887f61f52694e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566197"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280843"
 ---
 # <a name="change-the-size-of-a-report-page"></a>Cambiar el tamaño de una página del informe
 En el [artículo y el vídeo anteriores](../power-bi-report-display-settings.md), conoció las dos maneras distintas de controlar la presentación de una página en los informes de Power BI: **Vista** y **Tamaño de página**. La vista de página y el tamaño de página están disponibles en el servicio Power BI y en Power BI Desktop y tienen una apariencia y comportamiento similar, pero en este tutorial vamos a utilizar el servicio Power BI.
@@ -28,33 +29,33 @@ En el [artículo y el vídeo anteriores](../power-bi-report-display-settings.md)
 
 1. Abra el informe en la vista de lectura o la vista de edición y seleccione la pestaña del informe **Nuevas tiendas**. De forma predeterminada, esta página del informe se muestra con la configuración **Ajustar a la página**.  En este caso, la configuración Ajustar a la página muestra la página del informe sin barras de desplazamiento, pero no se pueden leer algunos de los detalles y títulos porque son demasiado pequeños.
 
-   ![](media/end-user-report-view/pbi_fit_to_page.png)
+   ![informe mostrado en el lienzo](media/end-user-report-view/pbi_fit_to_page.png)
 2. Asegúrese de que no haya ninguna visualización seleccionada en el lienzo. Seleccione **Vista** y revise las opciones de presentación.
 
    * En la vista de lectura verá esto.
 
-     ![](media/end-user-report-view/power-bi-page-view-menu-new.png)
+     ![Menú desplegable Vista con Ajustar a la página seleccionado](media/end-user-report-view/power-bi-page-view-menu-new.png)
    * En la vista de edición verá esto.
 
-     ![](media/end-user-report-view/power-bi-view-editing-view.png)
+     ![Menú desplegable Vista con Ajustar a la página seleccionado](media/end-user-report-view/power-bi-view-editing-view.png)
 
 3. Veamos cómo se muestra la página con la opción **Tamaño real**.
 
-   ![](media/end-user-report-view/power-bi-actal-size2.png)
+   ![el informe se muestra en el lienzo, con dos barras de desplazamiento](media/end-user-report-view/power-bi-actal-size2.png)
 
    No se ve muy bien, ya que ahora el panel tiene barras de desplazamiento dobles.
 4. Cambie a **Ajustar al ancho**.
 
-   ![](media/end-user-report-view/pbi_fit_to_width.png)
+   ![el informe se muestra sin barras de desplazamiento, solo una barra de desplazamiento](media/end-user-report-view/pbi_fit_to_width.png)
 
-   Tiene un mejor aspecto, ahora tenemos barras de desplazamiento, pero es más fácil leer los detalles.
+   Tiene un mejor aspecto, aún tenemos una barra de desplazamiento, pero es más fácil leer los detalles.
 
 ## <a name="change-the-default-view-for-a-report-page"></a>Cambiar la vista predeterminada de una página de informe
 Si es un *creador* del informe, puede cambiar la vista predeterminada de las páginas del informe. Al compartir el informe con otros usuarios, las páginas del informe se abrirán con la vista que ha establecido. Los *consumidores* del informe podrán cambiar la vista, pero no podrán guardar los cambios realizados después de salir del informe.
 
 1. En la página **New stores** del informe, cambie a la vista **Tamaño real**.
 
-   ![](media/end-user-report-view/power-bi-actual-size.png)
+   ![Menú desplegable Vista con Tamaño real seleccionado](media/end-user-report-view/power-bi-actual-size.png)
 
 2. En la página del informe **Ventas mensuales del distrito**, establezca la vista en **Ajustar al ancho**.
 
@@ -62,16 +63,16 @@ Si es un *creador* del informe, puede cambiar la vista predeterminada de las pá
 
 4. Ahora, guarde el informe seleccionando **Archivo > Guardar**. La próxima vez que abra este informe, las páginas se mostrarán con las nuevas opciones de vista. Vamos a verlo.
 
-   ![](media/end-user-report-view/power-bi-save.png)
+   ![Menú desplegable Archivo con Guardar seleccionado](media/end-user-report-view/power-bi-save.png)
 3. Seleccione el nombre del área de trabajo actual en la barra de navegación superior para volver a esa área de trabajo.  
 
-   ![](media/end-user-report-view/power-bi-my-workspace.png)
+   ![Barra de menús superior, que muestra las rutas de navegación](media/end-user-report-view/power-bi-my-workspace.png)
 4. Seleccione la pestaña **Informes** y elija el mismo informe (Ejemplo de análisis de minoristas).
 
-    ![](media/end-user-report-view/power-bi-new-report2.png)
+    ![Vista Contenido con la pestaña Informes seleccionada](media/end-user-report-view/power-bi-new-report2.png)
 5. Abra cada página del informe para ver la nueva configuración.
 
-   ![](media/end-user-report-view/power-bi-page-view.gif)
+   ![vídeo que muestra cómo cambiar las opciones de Vista](media/end-user-report-view/power-bi-page-view.gif)
 
 ## <a name="now-lets-explore-the-page-size-setting"></a>Ahora, vamos a explorar la configuración del *tamaño de página*
 Los valores de tamaño de página solo están disponibles en la [vista de edición](../service-interact-with-a-report-in-editing-view.md), por lo que debe tener permisos de edición (*creador*) en el informe para cambiar los valores de tamaño de página. Si se conectó a cualquiera de nuestros [ejemplos](../sample-datasets.md), tendrá permisos de *creador* en esos informes.
@@ -80,13 +81,13 @@ Los valores de tamaño de página solo están disponibles en la [vista de edici�
 2. Asegúrese de que no haya ninguna visualización seleccionada en el lienzo.  En el panel **Visualizaciones**, seleccione el icono del rodillo de pintura ![](media/end-user-report-view/power-bi-paintroller.png).
 3. Seleccione **Tamaño de página** &gt; **Tipo** para mostrar las opciones de tamaño de página.
 
-   ![](media/end-user-report-view/power-bi-page-size-menu-new.png)
+   ![Tarjeta de Tamaño de página expandida y 16:9 seleccionado](media/end-user-report-view/power-bi-page-size-menu-new.png)
 4. Seleccione **Carta**.  En el lienzo, solo el contenido que se ajusta a 816 x 1056 píxeles (tamaño Carta) permanece en la parte en blanco del lienzo.
 
-   ![](media/end-user-report-view/power-bi-letter-new.png)
+   ![Lienzo de informe con tarjeta de Tamaño de página expandida y Tipo > Carta seleccionado](media/end-user-report-view/power-bi-letter-new.png)
 5. Seleccione **Tamaño de página** relación **16:9**.
 
-   ![](media/end-user-report-view/power-bi-16-to-9-new.png)
+   ![Tarjeta de Tamaño de página expandido y Tipo > 16:9 seleccionado](media/end-user-report-view/power-bi-16-to-9-new.png)
 
    La página del informe se muestra con una relación de 16 de ancho por 9 de alto. Para ver el tamaño real en píxeles que se usa, mire los campos Ancho y Alto (1280x720), que aparecen atenuados. Hay mucho espacio vacío alrededor del lienzo del informe; esto se debe a que antes establecimos **Vista** en "Ajustar al ancho".
 7. Continúe explorando las opciones de **Tamaño de página**.
@@ -100,14 +101,14 @@ Recuerde que, en el paso anterior, vimos que nuestra página de informe se muest
 
 1. Cambie el tamaño de los objetos visuales y muévalos para que quepan en menos de la mitad del área de lienzo actual.
 
-    ![](media/end-user-report-view/power-bi-custom-view.gif)
+    ![vídeo que muestra cómo se cambian de tamaño los objetos visuales y cómo se mueven por el lienzo](media/end-user-report-view/power-bi-custom-view.gif)
 2. Seleccione **Tamaño de página** &gt; **Personalizado**.
 3. Establezca el ancho en 500 y el alto en 750.
 
-    ![](media/end-user-report-view/power-bi-custom-new.png)
+    ![Panel Formato con la tarjeta Tamaño de página expandida](media/end-user-report-view/power-bi-custom-new.png)
 4. Retoque la página de informe para que tenga un aspecto óptimo. Cambie entre **Vista > Tamaño real** y **Vista > Ajustar a la página** para realizar ajustes.
 
-    ![](media/end-user-report-view/power-bi-final-new.png)
+    ![Lienzo de informe con panel Formato expandido](media/end-user-report-view/power-bi-final-new.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Crear informes para Cortana](../service-cortana-answer-cards.md)

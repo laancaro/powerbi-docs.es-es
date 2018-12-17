@@ -1,22 +1,23 @@
 ---
-title: Mostrar el contenido de Power BI que se ha compartido conmigo
+title: Muestra de los paneles y los informes que se han compartido conmigo
 description: documentación compartida conmigo en Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/28/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e06f0157476207bfe50abba01bd31d7605236a95
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: d1147f02e357984ce7dc7660898317b9071b3a86
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112185"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280705"
 ---
 # <a name="display-the-dashboards-and-reports-that-have-been-shared-with-me"></a>Mostrar los paneles y los informes que se han compartido conmigo
 ## <a name="shared-with-me"></a>Compartido conmigo

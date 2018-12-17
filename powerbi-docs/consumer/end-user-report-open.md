@@ -1,20 +1,21 @@
 ---
-title: Visualización de un informe en el servicio Power BI para consumidores
+title: Ver un informe
 description: En este tema se ofrece una explicación para los consumidores y los usuarios finales de Power BI sobre cómo abrir y ver un informe de Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/17/2018
+ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: 15259d472ad315eb0a6274e59ebb30b94f48a302
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: df28cd585998b8877a788e709eaf6b22474e6122
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396943"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53281064"
 ---
 # <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
 Un informe consta de una o varias páginas de objetos visuales. Los informes se crean por *diseñadores de informes* de Power BI y [se comparten con los *consumidores* directamente](end-user-shared-with-me.md) o como parte de una [aplicación](end-user-apps.md). 

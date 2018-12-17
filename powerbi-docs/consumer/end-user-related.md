@@ -1,27 +1,28 @@
 ---
-title: Visualización del contenido relacionado en el servicio Power BI
+title: Visualización de contenido relacionado de paneles, informes y conjuntos de datos
 description: Navegación más sencilla, y visualización de contenido relacionado en los paneles, informes y conjuntos de datos
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7bb46bbed79be32b45fe4e5dbd2ecb07acc5d673
-ms.sourcegitcommit: 70192daf070ede3382ac13f6001e0c8b5fb8d934
+ms.openlocfilehash: cc2369f6e1e074231267ceb41c19585eccfdb6f9
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/22/2018
-ms.locfileid: "46566404"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280735"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
-El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos.  Y lo que es mejor, desde este panel que puede realizar tareas comunes, como actualizar, cambiar nombres, generar información detallada y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   
+El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos. El panel de contenido relacionado también es un panel de inicio para la realización de acciones. Desde aquí puede actualizar, cambiar el nombre, generar perspectivas y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   
 
-Como probablemente ya habrá descubierto, los informes se integran en conjuntos de datos, las visualizaciones de informes se anclan a los paneles y los objetos visuales de paneles se vinculan a los informes. Pero ¿cómo sabe cuáles son los paneles que tienen las visualizaciones de su informe de marketing? ¿Y cómo se buscan esos paneles? ¿Está usando el panel de adquisiciones visualizaciones de más de un conjunto de datos? Si es así, ¿cómo se denominan y cómo puede abrir y editarlas? ¿Se ha usado el conjunto de datos de RR. HH. en los informes o paneles o pueden moverse sin que se corrompa ningún vínculo? Preguntas como estas pueden responderse en el panel **Contenido relacionado**.  No solo el panel muestra el contenido relacionado, también permite realizar acciones en el contenido y navegar fácilmente entre el contenido relacionado.
+En Power BI, los informes se integran en conjuntos de datos, las visualizaciones de informes se anclan a los paneles y los objetos visuales de paneles se vinculan a los informes. Pero ¿cómo sabe cuáles son los paneles que tienen las visualizaciones de su informe de marketing? ¿Y cómo se buscan esos paneles? ¿Está usando el panel de adquisiciones visualizaciones de más de un conjunto de datos? Si es así, ¿cómo se denominan y cómo puede abrir y editarlas? ¿Se está utilizando el conjunto de datos de recursos humanos en algún informe o panel? O bien, ¿se puede mover sin provocar la ruptura de los vínculos? Preguntas como estas pueden responderse en el panel **Contenido relacionado**.  No solo el panel muestra el contenido relacionado, también permite realizar acciones en el contenido y navegar fácilmente entre el contenido relacionado.
 
 ![Contenido relacionado](./media/end-user-related/power-bi-view-related-dashboard-new.png)
 
@@ -86,15 +87,14 @@ En un área de trabajo, seleccione la pestaña **Conjuntos de datos** y busque e
 
 Seleccione el icono para abrir el panel **Contenido relacionado**.
 
-![](media/end-user-related/power-bi-datasets.png)
+![El panel de contenido relacionado se abre sobre la vista de contenido de Power BI](media/end-user-related/power-bi-datasets.png)
 
-Desde aquí, pueda realizar una acción directa en el contenido relacionado.  Por ejemplo, seleccione un nombre de panel o informe para abrirlo.  Para cualquier panel de la lista, seleccione un icono para [compartir el panel con otros usuarios](../service-share-dashboards.md) o abrir la ventana **Configuración** del panel. Para un informe, seleccione un icono para [analizar en Excel](../service-analyze-in-excel.md), [cambiar el nombre de](../service-rename.md) u [obtener información detallada](end-user-insights.md).  
+Desde aquí, pueda realizar una acción directa en el contenido relacionado. Por ejemplo, seleccione un nombre de panel o informe para abrirlo.  Para cualquier panel de la lista, seleccione un icono para [compartir el panel con otros usuarios](../service-share-dashboards.md) o abrir la ventana **Configuración** del panel. Para un informe, seleccione un icono para [analizar en Excel](../service-analyze-in-excel.md), [cambiar el nombre de](../service-rename.md) u [obtener información detallada](end-user-insights.md).  
 
 ## <a name="limitations-and-troubleshooting"></a>Limitaciones y solución de problemas
-* Si el explorador no tiene suficiente espacio, no verá una opción **Ver relacionados**, pero seguirá viendo el icono de Ver relacionados ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png). Seleccione el icono para abrir el panel **Contenido relacionado**.
+* Si no ve "Ver relacionados", busque el icono ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png). Seleccione el icono para abrir el panel **Contenido relacionado**.
 * Para abrir el contenido relacionado de un informe, debe estar en la [vista de lectura](end-user-reading-view.md).
-* El contenido relacionado no está disponible en Power BI Desktop.
-* La característica Contenido relacionado no funciona con los conjuntos de datos de streaming.
+* La característica de contenido relacionado no funciona con los conjuntos de datos de streaming.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción al servicio Power BI](../service-get-started.md)

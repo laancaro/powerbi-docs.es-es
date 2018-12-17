@@ -5,18 +5,19 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: quickstart
-ms.date: 10/18/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 1d093c9eb39b312e1883b2635de473dac6db5192
-ms.sourcegitcommit: 2c4a075fe16ccac8e25f7ca0b40d404eacb49f6d
+ms.openlocfilehash: 3b3eaa33879a1f0c6d51aecaa93cae6ce5c90d10
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/20/2018
-ms.locfileid: "49473874"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280820"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -40,7 +41,7 @@ Vamos a obtener algunos datos de ejemplo para usarlos en nuestro recorrido por e
 
     El servicio Power BI importa el ejemplo y abre el panel. Los paneles son algo que diferencian al servicio Power BI de Power BI Desktop. El ejemplo incluye también un informe y un conjunto de datos, en los que nos detendremos más adelante.
 
-    ![](media/end-user-experience/power-bi-dashboard.png)
+    ![aparece el panel](media/end-user-experience/power-bi-dashboard.png)
 
 Vea cómo Amanda le presenta la experiencia de navegación del servicio Power BI.  A continuación, siga las instrucciones paso a paso que aparecen debajo del vídeo para explorarlo usted mismo.
 
@@ -50,7 +51,7 @@ Vea cómo Amanda le presenta la experiencia de navegación del servicio Power BI
 ## <a name="view-content-dashboards-reports-workbooks-datasets-workspaces-apps"></a>Ver el contenido (paneles, informes, libros, conjuntos de datos, áreas de trabajo, aplicaciones)
 Para comenzar, vamos a examinar cómo se organiza el contenido básico (paneles, informes, conjuntos de datos, libros). El contenido se muestra dentro del contexto de un área de trabajo. En este momento, solo hay un área de trabajo que se llama **Mi área de trabajo**. Normalmente, los consumidores no necesitan ni usan otras áreas de trabajo. En Mi área de trabajo se almacena todo el contenido del que se es propietario. Puede considerarla como su espacio aislado o área de trabajo para su propio contenido. Mi área de trabajo es donde se guarda el ejemplo de análisis de minoristas que acaba de descargar. 
 
-En Mi área de trabajo, el contenido está organizado en cuatro pestañas: Paneles, Informes, Libros y Conjuntos de datos.
+Dentro de Mi área de trabajo, el contenido está organizado en 4 pestañas: Paneles, Informes, Libros y Conjuntos de datos.
 
 ![Pantalla Mi área de trabajo](./media/end-user-experience/power-bi-my-workspace.png)
 

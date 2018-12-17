@@ -4,19 +4,20 @@ description: Documentación para mostrar un icono panel, un icono de panel, un i
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/09/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 70e7fcb9f38c6dbf52adf58f8477f671156c9da4
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 13032e011446fad765961dacdb83fbb8bd5a2f6e
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51507970"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53279969"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Mostrar el contenido con más detalle: modo de enfoque y modo de pantalla completa
 
@@ -83,7 +84,7 @@ Menú de páginas de informes
     En los informes de pantalla completa, utilice estas flechas para desplazarse entre las páginas del informe.    
   * Para salir del modo de pantalla completa, seleccione el icono **Salir de pantalla completa**.
 
-      ![](media/end-user-focus/exit-fullscreen-new.png)
+      ![icono para salir de la pantalla completa](media/end-user-focus/exit-fullscreen-new.png)
 
 ## <a name="working-in-focus-mode"></a>Trabajar en modo de enfoque
 Hay dos forma de abrir el modo de enfoque; una, para los iconos de panel y otra, para las visualizaciones de informe.
