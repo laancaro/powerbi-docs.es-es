@@ -1,33 +1,34 @@
 ---
-title: Cambio del modo de ordenar un gráfico en un informe de Power BI
+title: Cambio del modo de ordenar un gráfico en un informe
 description: Cambio del modo de ordenar un gráfico en un informe de Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: Conceptual
-ms.date: 09/20/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: f4ca6633eb401e7df8041ea385284210c14995ad
-ms.sourcegitcommit: 4f46d71ff6026c1c158f007425aefdcb501f48ee
+ms.openlocfilehash: 191dfdeba436322052befdbc6548fd08f96f0738
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "52979353"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280015"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 En un informe de Power BI, puede ordenar la mayoría de las visualizaciones alfabéticamente por los nombres de las categorías del gráfico, o bien por los valores numéricos de cada categoría. Por ejemplo, este gráfico se ordena por la categoría **nombre de tienda**.
 
-![](media/end-user-change-sort/pbi_chartsortcategory.png)
+![gráfico de barras ordenado alfabéticamente por eje X](media/end-user-change-sort/pbi_chartsortcategory.png)
 
 Es fácil cambiar el criterio de ordenación y pasar de una categoría (nombre de almacén) a un valor (ventas por metro cuadrado).
 
 1. Seleccione el botón de puntos suspensivos (…) y elija **Ordenar por > Ventas por metro cuadrado**.
 2. Si es necesario, vuelva a seleccionar el botón de puntos suspensivos y elija **Orden descendente**.
 
-   ![](media/end-user-change-sort/sort.gif)
+   ![vídeo que muestra la selección de ordenar por y, a continuación, ascendente, descendente](media/end-user-change-sort/sort.gif)
 
    **NOTA**: No todos los objetos visuales se pueden ordenar.  Por ejemplo, no se pueden ordenar los siguientes: Gráfico de rectángulos, Mapa, Mapa coroplético, Dispersión, Medidor, Tarjeta, Tarjeta de varias filas y Cascada.
 

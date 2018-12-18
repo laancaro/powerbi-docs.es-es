@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 8bae8475ee4bbe91ea27f3a9e30a3323a92a8250
+ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180539"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53280268"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualización de conclusiones de datos en los iconos del panel con Power BI
 Cada icono de visualización del panel es una puerta de entrada a la exploración de datos. Cuando se selecciona un icono, se abre un informe donde puede filtrar y ordenar la información, así como profundizar en el conjunto de datos subyacente al informe. Y al extraer información, Power BI realiza la exploración de datos por usted.
