@@ -1,24 +1,26 @@
 ---
-title: Administración del almacenamiento de datos
-description: Aprenda a administrar el almacenamiento de datos individual o del área de trabajo de la aplicación para asegurarse de que pueda seguir publicando informes y conjuntos de datos.
+title: Administración del almacenamiento de datos en las áreas de trabajo
+description: Aprenda a administrar el almacenamiento de datos del área de trabajo individual o de la aplicación para asegurarse de que puede seguir publicando informes y conjuntos de datos.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 06/28/2017
+ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: 864d50d8850a8ceed964f128cea71b0daf5d8322
-ms.sourcegitcommit: ac63e6a082ca8397909217837e8d98c9389b23ac
+ms.openlocfilehash: 239cc7e0574c9c6a4d76cdff83e14cf6af742689
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50736881"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180470"
 ---
-# <a name="manage-your-data-storage"></a>Administración del almacenamiento de datos
-Aprenda a administrar el almacenamiento de datos individual o del área de trabajo de la aplicación para asegurarse de que pueda seguir publicando informes y conjuntos de datos.
+# <a name="manage-data-storage-in-power-bi-workspaces"></a>Administración del almacenamiento de datos en las áreas de trabajo de Power BI
+
+Aprenda a administrar el almacenamiento de datos del área de trabajo individual o de la aplicación para asegurarse de que puede seguir publicando informes y conjuntos de datos.
 
 Los usuarios y las áreas de trabajo de la aplicación tienen sus propias capacidades de datos.
 
@@ -44,36 +46,36 @@ Consulte el almacenamiento de datos que usa en su cuenta de Power BI y administr
 
 1. Para administrar su propio almacenamiento, vaya a **Mi área de trabajo** en el panel de navegación izquierdo.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Seleccione el icono de engranaje ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) en la esquina superior derecha \> **Administrar almacenamiento personal**.
+    ![Mi área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
+2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de le esquina superior derecha \> **Administrar almacenamiento personal**.
    
     La barra superior muestra la cantidad del límite de almacenamiento que se ha usado.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
+    ![Administrar el límite de almacenamiento](media/service-admin-manage-your-data-storage-in-power-bi/pbi_persnlstorage.png)
    
     Los informes y los conjuntos de datos se dividen en dos pestañas:
    
     **De mi propiedad:** son informes y conjuntos de datos que ha cargado en la cuenta de Power BI, incluidos los conjuntos de datos de servicio como Salesforce y Dynamics CRM.  
-    **Propiedad de otros usuarios:** son informes y conjuntos de datos que otras personas han compartido con usted.
-3. Para eliminar un informe o un conjunto de datos, seleccione el icono de la papelera ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **Propiedad de otros:** son informes y conjuntos de datos que otras personas han compartido con usted.
+3. Para eliminar un informe o un conjunto de datos, seleccione el ![icono de la Papelera.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
 
 Tenga en cuenta que usted u otra persona puede tener informes y paneles basados en un conjunto de datos. Si elimina el conjunto de datos, los informes y paneles no volverán a funcionar.
 
 ## <a name="manage-your-app-workspace"></a>Administración del área de trabajo de la aplicación
 1. Seleccione la flecha situada junto a **Áreas de trabajo** \> seleccione el nombre del área de trabajo de la aplicación.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Seleccione el icono de engranaje ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) en la esquina superior derecha \> **Administrar almacenamiento del grupo**.
+    ![Seleccionar un área de trabajo de la aplicación](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha \> **Administrar almacenamiento del grupo**.
    
     La barra superior muestra la cantidad del límite de almacenamiento del grupo que se ha usado.
    
-    ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Administrar el almacenamiento del área de trabajo de la aplicación](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Los informes y los conjuntos de datos se dividen en dos pestañas:
    
-    **De nuestra propiedad:** son informes y conjuntos de datos que usted o otra persona ha cargado en la cuenta de Power BI del grupo, incluidos los conjuntos de datos de servicio como Salesforce y Dynamics CRM.
-    **Propiedad de otros usuarios:** son informes y conjuntos de datos que otras personas han compartido el grupo.
-3. Para eliminar un informe o un conjunto de datos, seleccione el icono de la papelera ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
+    **De nuestra propiedad:** son informes y conjuntos de datos que usted u otra persona han cargado en la cuenta de Power BI del grupo, incluidos los conjuntos de datos de servicio como Salesforce y Dynamics CRM.
+    **Propiedad de otros:** son informes y conjuntos de datos que otras personas han compartido con el grupo.
+3. Para eliminar un informe o un conjunto de datos, seleccione el ![icono de la Papelera.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
    > Cualquier miembro, con permisos de edición, de un área de trabajo de la aplicación tiene permisos para eliminar conjuntos de datos e informes desde el área de trabajo de la aplicación.
@@ -88,17 +90,17 @@ Hay un límite de 1 GB, por conjunto de datos, que se importa en Power BI. Si ha
 ## <a name="what-happens-when-you-hit-a-limit"></a>Qué ocurre cuando se alcanza un límite
 Cuando alcance el límite de capacidad de datos de lo que puede hacer, se le mostrarán mensajes en el servicio. 
 
-Cuando seleccione el icono de engranaje ![](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), verá una barra roja que le indicará que superó su límite de capacidad de datos.
+Al seleccionar el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png), verá una barra roja que le indica que ha superado su límite de capacidad de datos.
 
-![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
+![Límite de almacenamiento alcanzado]](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit.png)
 
 También lo verá indicado dentro de **Administrar almacenamiento personal**.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
+ ![Administrar el almacenamiento personal, límite de almacenamiento alcanzado](media/service-admin-manage-your-data-storage-in-power-bi/manage-storage-limit2.png)
 
  Cuando intente realizar una acción que alcance uno de los límites, verá un mensaje que le indicará que está por encima del límite. Podrá [administrar](#manage) su almacenamiento para reducir el volumen de almacenamiento y no superar el límite.
 
- ![](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
+ ![Supera el límite de almacenamiento](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
  ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

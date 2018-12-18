@@ -1,24 +1,25 @@
 ---
-title: Generación automática de información sobre los datos con Power BI
-description: Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel.
+title: Ejecución y visualización de conclusiones en los iconos del panel
+description: Como usuario final de Power BI, aprenda cómo obtener conclusiones sobre los iconos del panel.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
+ms.custom: seodec18
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 10/10/2018
+ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f68e962eacf04005d83ec0def10cf8e0e24f6e10
-ms.sourcegitcommit: dc8b8a2cf2dcc96ccb46159802ebd9342a7fa840
+ms.openlocfilehash: dd59f572da6bb3b62fa142ea7b7eab4aef5a3466
+ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2018
-ms.locfileid: "49112047"
+ms.lasthandoff: 12/10/2018
+ms.locfileid: "53180539"
 ---
-# <a name="automatically-generate-data-insights-with-power-bi"></a>Generación automática de información sobre los datos con Power BI
+# <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualización de conclusiones de datos en los iconos del panel con Power BI
 Cada icono de visualización del panel es una puerta de entrada a la exploración de datos. Cuando se selecciona un icono, se abre un informe donde puede filtrar y ordenar la información, así como profundizar en el conjunto de datos subyacente al informe. Y al extraer información, Power BI realiza la exploración de datos por usted.
 
 Extraiga información rápida para generar visualizaciones interactivas interesantes basadas en los datos. Se puede extraer información detallada en un icono de un panel específico e incluso en una perspectiva global.
@@ -40,7 +41,9 @@ Al extraer información en un icono de panel, Power BI busca solo los datos util
 4. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. A la izquierda, se muestra la información seleccionada y, a la derecha, nuevas tarjetas de información, basadas solo en los datos de esa única información.    
 
  ## <a name="interact-with-the-insight-cards"></a>Interacción con las tarjetas de información
-   * Filtrar las visualizaciones.  Para mostrar los filtros, en la esquina superior derecha, seleccione la flecha para expandir el panel Filtros.
+Una vez que tenga abierta una conclusión, siga explorando.
+
+   * Filtre el objeto visual en el lienzo.  Para mostrar los filtros, en la esquina superior derecha, seleccione la flecha para expandir el panel Filtros.
 
      ![Información y menú Filtros expandido](./media/end-user-insights/power-bi-insights-on-insights.png)
    

@@ -1,21 +1,21 @@
 ---
 title: Power BI para consumidores de informes
-description: ¿Primeros pasos con Power BI? Familiarícese con los diferentes productos y servicios que conforman Power BI y vea qué puede hacer con ellos.
+description: ¿Primeros pasos con Power BI? Conozca las características y funcionalidades de Power BI y vea lo que puede hacer con ellas como consumidor o usuario final de Power BI.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: landing-page
-ms.date: 10/11/2018
+ms.date: 11/07/2018
 ms.author: mihart
-layout: landingpage
+layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 566511622ffd167d3389ab0ba290671f577a759f
-ms.sourcegitcommit: a3ce866caba24217bcdd011e892b9ea72f3d2400
+ms.openlocfilehash: c3a506b8693560406b6fa961f4341b77f2745690
+ms.sourcegitcommit: 2882b8962ed03c188257c042e537c76b052545c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49396600"
+ms.lasthandoff: 12/08/2018
+ms.locfileid: "53111522"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI para consumidores
 Como *usuario final* o *consumidor*, recibe los paneles, los informes y las aplicaciones de sus compañeros de trabajo. Trabaja en el ***servicio Power BI*** para revisar este contenido e interactuar con él, a fin de tomar decisiones empresariales.
@@ -47,7 +47,7 @@ Consulta de un <a href="end-user-report-open.md">informe</a>, <a href="end-user-
                                                                         <div class="cardText"> 
                                                                                       <h3>Introducción a Power BI Desktop</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-basic-concepts.md">Conceptos básicos</a><br/>
+                                                                                            <a href="end-user-basic-concepts.md">Comprender los conceptos básicos</a><br/>
                                                                                             <a href="end-user-experience.md">Moverse por el servicio Power BI</a><br/> 
                                                                                             <a href="../power-bi-overview.md">Información sobre las distintas herramientas de Power BI</a><br/> 
                                                                                             <!--<a href="end-user-faq.md">FAQ: Frequently Asked Questions</a> -->
@@ -63,7 +63,7 @@ Consulta de un <a href="end-user-report-open.md">informe</a>, <a href="end-user-
                                                                         <div class="cardText"> 
                                                                                       <h3>Tareas avanzadas</h3> 
                                                                                       <p></p>
-                                                                                            <a href="end-user-q-and-a.md">Preguntas y respuestas en un cuadro de búsqueda de lenguaje natural</a><br/> 
+                                                                                            <a href="end-user-q-and-a.md">Aprender a usar el cuadro de búsqueda de lenguaje natural de Preguntas y respuestas</a><br/> 
                                                                                             <a href="end-user-focus.md">Cambio de la configuración de presentación</a><br/> 
                                                                                             <a href="end-user-report-filter.md">Información sobre cómo usar los filtros de informe</a><br> 
                                                                                             <a href="end-user-insights.md">Generación de conclusiones automáticas</a><br/> 
