@@ -57,9 +57,9 @@ Para eliminar una página, haga clic en la **X** en la pestaña de la página en
 
 ## <a name="copy-and-paste-between-reports"></a>Copiar y pegar entre informes
 
-Puede tomar fácilmente un objeto visual de un informe de Power BI Desktop y pegarlo en otro informe. Solo tiene que usar el método abreviado de teclado **CTRL+C** para copiar el objeto visual del informe y, luego, en el otro informe de Power BI Desktop, utilizar **CTRL+V** para pegarlo en el otro informe. Puede seleccionar un objeto visual cada vez o puede seleccionar todos los objetos visuales de una página para copiarlos y luego pegarlos en el informe de Power BI Desktop de destino. 
+Puede tomar fácilmente un objeto visual de un informe de Power BI Desktop y pegarlo en otro informe. Solo tiene que usar el método abreviado de teclado **CTRL+C** para copiar el objeto visual del informe y, luego, en el otro informe de Power BI Desktop, utilizar **CTRL+V** para pegarlo en el otro informe. Puede seleccionar un objeto visual cada vez o puede seleccionar todos los objetos visuales de una página para copiarlos y pegarlos en el informe de Power BI Desktop de destino. 
 
-La capacidad de copiar y pegar objetos visuales resulta de utilidad para personas que con frecuencia compilan y actualizan varios informes. Al copiar entre archivos, la configuración y el formato que se han establecido explícitamente en el panel de formato continúan, mientras que los elementos visuales que dependen de un tema o la configuración predeterminada se actualizan automáticamente para coincidir con el tema del informe de destino. De modo que, cuando obtenga un objeto visual formateado y con la apariencia deseada, puede copiarlo y pegarlo en nuevos informes y conservar todo ese buen trabajo de formato.
+La capacidad de copiar y pegar objetos visuales es útil para personas que con frecuencia compilan y actualizan varios informes. Al copiar entre archivos, la configuración y el formato que se han establecido explícitamente en el panel de formato continúan, mientras que los elementos visuales que dependen de un tema o la configuración predeterminada se actualizan automáticamente para coincidir con el tema del informe de destino. De modo que, cuando obtenga un objeto visual formateado y con la apariencia deseada, puede copiarlo y pegarlo en nuevos informes y conservar todo ese buen trabajo de formato.
 
 ![Error al copiar o pegar el objeto visual: no hay campos de datos](media/desktop-report-view/report-view_05.png)
 
@@ -80,7 +80,7 @@ Hay algunas consideraciones que debe tener en cuenta al ocultar una página del 
 
 * Puede seguir viendo una vista de informe oculta en **Power BI Desktop**, incuso si su título aparece en gris. En la siguiente imagen, la página 4 está oculta.
 
-    ![página atenuada que está oculta](media/desktop-report-view/report-view_06.png)
+    ![Página atenuada que está oculta](media/desktop-report-view/report-view_06.png)
 
 * *No* puede ver una página oculta si visualiza el informe en el **servicio Power BI**.
 
