@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 12/10/2018
-ms.openlocfilehash: e396f46987ef14aac9361e8f7ef41e90b2d8383e
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: 96cd04385bec6d4b9b47e3e05a30820b2f19f3dd
+ms.sourcegitcommit: 9913c213d40b45ba83c6c3b3a7ef0b757800e3ad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180884"
+ms.lasthandoff: 12/12/2018
+ms.locfileid: "53301882"
 ---
 # <a name="tutorial-embed-a-power-bi-report-dashboard-or-tile-into-an-application-for-your-customers"></a>Tutorial: Inserción de un informe, un panel o un icono de Power BI en una aplicación para los clientes
 
@@ -338,14 +338,14 @@ Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un
 
 Use la tabla siguiente para determinar qué capacidad de Power BI Embedded se adecúa mejor a sus necesidades.
 
-| Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery | Representaciones de páginas máximas en horas punta |
+| Nodo de capacidad | Núcleos totales<br/>*(Back-end y front-end)* | Núcleos de back-end | Núcleos de front-end | Límites de conexiones dinámicas/DirectQuery|
 | --- | --- | --- | --- | --- | --- |
-| A1 |1 núcleo virtual |0,5 núcleos, 3 GB de RAM |0,5 núcleos |0,5 por segundo |1-300 |
-| A2 |2 núcleos virtuales |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |301-600 |
-| A3 |4 núcleos virtuales |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |601-1200 |
-| A4 |8 núcleos virtuales |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |1201-2400 |
-| A5 |16 núcleos virtuales |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |2401-4800 |
-| A6 |32 núcleos virtuales |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |4,801-9600 |
+| A1 |1 núcleo virtual |0,5 núcleos, 3 GB de RAM |0,5 núcleos |0,5 por segundo |
+| A2 |2 núcleos virtuales |1 núcleo, 5 GB de RAM |1 núcleo | 10 por segundo |
+| A3 |4 núcleos virtuales |2 núcleos, 10 GB de RAM |2 núcleos | 15 por segundo |
+| A4 |8 núcleos virtuales |4 núcleos, 25 GB de RAM |4 núcleos |30 por segundo |
+| A5 |16 núcleos virtuales |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |
+| A6 |32 núcleos virtuales |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |
 
 **_Las SKU de Azure no permiten acceder al contenido de Power BI mediante una licencia gratuita de Power BI._**
 
