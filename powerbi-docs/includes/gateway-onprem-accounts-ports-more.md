@@ -13,7 +13,7 @@ Si tiene problemas de autenticación con el servidor proxy, pruebe a cambiar la 
 
 ## <a name="ports"></a>Puertos
 
-La puerta de enlace crea una conexión de salida a Azure Service Bus. Se comunica en los puertos de salida: TCP 443 (predeterminado), 5671, 5672 y de 9350 a 9354.  La puerta de enlace no requiere puertos de entrada.
+La puerta de enlace crea una conexión de salida a Azure Service Bus. Se comunica en los puertos de salida: TCP 443 (valor predeterminado), 5671, 5672 y 9350 al 9354.  La puerta de enlace no requiere puertos de entrada.
 
 Se recomienda añadir a la lista de permitidos de su firewall las direcciones IP de su región de datos. Puede descargar la [lista de direcciones IP de los centros de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653), que se actualiza semanalmente. La puerta de enlace usará la dirección IP junto con el nombre de dominio completo (FQDN) para comunicarse con Azure Service Bus. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
 

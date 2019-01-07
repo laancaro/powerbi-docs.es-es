@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 11/06/2018
+ms.date: 12/13/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 4fc036bf9191d0ed56be11e69152e579cfc5102d
-ms.sourcegitcommit: 883d7e76816f2696e88ae391744ac6c7b1cb59c7
+ms.openlocfilehash: 250c8b28e4ee9e8b29e2db8195f7883d11708806
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51688405"
+ms.lasthandoff: 12/14/2018
+ms.locfileid: "53382252"
 ---
 # <a name="monitor-power-bi-premium-and-power-bi-embedded-capacities"></a>Supervisión de las capacidades de Power BI Premium y Power BI Embedded
 
@@ -23,7 +23,7 @@ En este artículo se proporciona información general sobre la supervisión de l
 
 Puede supervisar la capacidad con la aplicación Premium Capacity Metrics o en el Portal de administración. Aunque en este artículo se tratan las dos opciones, se recomienda la aplicación porque proporciona muchos más detalles.
 
-**La versión actual de la aplicación es la 1.9, publicada el 14 de noviembre de 2018.**
+**La versión actual de la aplicación es la 1.10, publicada el 13 de diciembre de 2018.**
 
 .
 
@@ -47,104 +47,95 @@ Ahora que ha instalado la aplicación, puede ver las métricas sobre las capacid
 
 ## <a name="use-the-metrics-app"></a>Uso de la aplicación de métricas
 
+### <a name="metrics-dashboard"></a>Panel de métricas
+
 Cuando se abre la aplicación, primero se muestra un panel con un resumen de todas las capacidades para las que tiene derechos de administrador.
 
 ![Panel de métricas de la aplicación](media/service-admin-premium-monitor-capacity/app-dashboard.png)
 
-Haga clic en el panel para ir al informe subyacente. El informe tiene seis pestañas, que se describen con más detalle en las secciones siguientes.
-
-* **Filtros**: permite filtrar las otras páginas del informe por una capacidad específica.
-
-* **Conjuntos de datos**: proporciona métricas detalladas sobre el estado de los conjuntos de datos de Power BI dentro de las funcionalidades.
-
-* **Informes paginados**: proporciona métricas detalladas sobre el estado de los informes paginados dentro de sus funcionalidades.
-
-* **Flujos de datos**: ofrece métricas de actualización detalladas de los flujos de datos dentro de sus funcionalidades.
-
-* **Sistema**: ofrece métricas de capacidad total, incluidos el uso elevado de memoria y CPU.
-
-* **Mostrar nombres e identificadores**: muestra los nombres, identificadores y propietarios de las funcionalidades, áreas de trabajo y cargas de trabajo.
-
-### <a name="filters-tab"></a>Pestaña Filters (Filtros)
-
-La pestaña **Filtros** permite seleccionar una funcionalidad, un intervalo de fechas y otras opciones. Después, los filtros se aplican a todas las páginas y los iconos relevantes del informe. Si no se selecciona ningún filtro, en el informe se muestran de forma predeterminada las métricas de la semana pasada de cada capacidad que posea.
-
-![Pestaña Filters (Filtros)](media/service-admin-premium-monitor-capacity/filters-tab.png)
-
-* **(A)**  Seleccione **Conjuntos de datos**, **Informes paginados** o **Flujos de datos** para establecer filtros para cada carga de trabajo.
-
-* **(B)** El nombre y la **(C)** información se actualizan en función de las selecciones en **(A)**, lo que permite filtrar una carga de trabajo por su nombre. Por ejemplo, en la imagen anterior, la opción **Flujos de datos** está seleccionada y muestra el **nombre de los flujos de datos** y la **información sobre los flujos de datos**.
-
-* **(D)** Información sobre funcionalidades, que indica si los conjuntos de datos, los informes paginados o los flujos de datos están habilitados para una funcionalidad.
-
-### <a name="datasets-tab"></a>Pestaña Conjuntos de datos
-
-Use los botones de la parte superior de la pestaña **Conjuntos de datos** para navegar a otras áreas: **Summary** (Resumen), **Refreshes** (Actualizaciones), **Query Durations** (Duraciones de consultas), **Query Waits** (Tiempos de espera de consulta) y **Datasets** (Conjuntos de datos).
-
-![Pestaña Conjuntos de datos](media/service-admin-premium-monitor-capacity/datasets-tab.png)
-
-#### <a name="summary-area"></a>Área Summary (Resumen)
-
-En el área **Summary** (Resumen) se muestra una vista de las capacidades en función de las entidades, los recursos del sistema y las cargas de trabajo de conjunto de datos. Muestra las siguientes métricas.
+El panel incluye las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Entities** (Entidades) | * El número de capacidades que posee.<br> * El número de conjuntos de datos distintos de su capacidad.<br> * El número de áreas de trabajo distintas de su capacidad. |
-| **System** (Sistema) | * El uso medio de memoria en GB durante los últimos siete días.<br> * El consumo más alto de memoria en GB en los últimos siete días y la hora local a la que se produjo.<br> * El número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que la CPU superó el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo.<br> * El número de veces que las conexiones dinámicas y consultas directas superaron el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * La mayoría de las veces que las conexiones dinámicas o consultas directas superaron el 80 % en los últimos siete días, dividido en cubos de una hora, y la hora local a la que se produjo. |
-| **Dataset Workloads** (Cargas de trabajo de conjunto de datos) | * Número total de actualizaciones en los últimos siete días.<br> * Número total de actualizaciones correctas en los últimos siete días.<br> * Número total de actualizaciones con errores en los últimos siete días.<br> * Número total de actualizaciones con error debido a memoria insuficiente.<br> * La duración media de actualización es el tiempo necesario para completar la operación, en minutos.<br> * El tiempo de espera medio de actualización es el retraso medio entre la hora programada y el inicio de la operación, en minutos.<br> * Número total de consultas ejecutadas en los últimos siete días.<br> * Número total de consultas correctas en los últimos siete días.<br> * Número total de consultas con error en los últimos siete días.<br> * La duración media de consulta es el tiempo necesario para completar la operación, en minutos.<br> * Número total de modelos expulsados debido a la presión de memoria.<br> * Tamaño promedio de los conjuntos de datos <br> * Recuento promedio de los conjuntos de datos cargados en memoria |
+| **Resumen del sistema** | * Versión de la aplicación.<br> * Número de capacidades para las que es administrador.<br> * Número de áreas de trabajo de sus capacidades que proporcionan métricas.<br> * Consumo medio de memoria en GB durante los últimos siete días.<br> * Consumo máximo de memoria en GB durante los últimos siete días.<br> * Hora local en la que se produjo el consumo máximo de memoria.<br> * Número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * Número mayor de veces que la CPU superó el 80 % en los últimos siete días, dividido en cubos de una hora.<br> * Hora local en la que la CPU excedió el 80 % más veces en una hora. |
+| **Resumen del conjunto de datos** | * Número de conjuntos de datos en todas las áreas de trabajo de sus capacidades.<br> * Número de veces que las conexiones dinámicas y consultas directas superaron el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos.<br> * Número mayor de veces que Direct Query o las conexiones dinámicas superaron el 80 % en los últimos siete días, dividido en cubos de una hora.<br> * Hora local en que Direct Query o las conexiones dinámicas superaron el 80 % más veces en una hora.<br> * Número total de actualizaciones en los últimos siete días.<br> * Tiempo de espera medio de actualización: retraso medio entre la hora programada y el inicio de la actualización, en minutos.<br> * Duración media de actualización: tiempo necesario para completar la operación, en minutos.<br> * Número total de consultas ejecutadas en los últimos siete días.<br> * Promedio de tiempo de espera de consulta: tiempo de espera de una consulta en los recursos del sistema antes de iniciar su ejecución, en milisegundos.<br> * Duración media de consulta: tiempo necesario para completar la consulta, en milisegundos.<br> * Número total de modelos expulsados debido a la presión de memoria.<br> * Tamaño promedio de los conjuntos de datos <br> * Recuento promedio de los conjuntos de datos cargados en memoria |
+| **Resumen del flujo de datos** | * Número de flujos de datos en todas las áreas de trabajo de sus capacidades.<br> * Número total de actualizaciones en los últimos siete días.<br> * Tiempo de espera medio de actualización: retraso medio entre la hora programada y el inicio de la actualización, en minutos.<br> * Duración media de actualización: tiempo necesario para completar la operación, en minutos. |
+| **Resumen de informe paginado** | * Número de informes paginados en todas las áreas de trabajo de sus capacidades.<br> * Número total de veces que los usuarios han visto todos los informes.<br> * Número total de filas de datos que hay en todos los informes.<br> * Tiempo total necesario para que se completen todas las fases (recuperación de datos, procesamiento y representación) de todos los informes, expresado en milisegundos. |
 |  |  |
 
-#### <a name="refreshes-area"></a>Pestaña Refreshes (Actualizaciones)
+### <a name="metrics-report"></a>Informe de métricas
+
+Haga clic en el panel para ir al informe subyacente. El informe tiene cinco pestañas que se describen con más detalle en las secciones siguientes.
+
+* **Conjuntos de datos**: proporciona métricas detalladas sobre el estado de los conjuntos de datos de Power BI dentro de las funcionalidades.
+
+* **Informes paginados**: proporciona métricas detalladas sobre el mantenimiento de los informes paginados dentro de sus capacidades.
+
+* **Flujos de datos**: ofrece métricas de actualización detalladas de los flujos de datos dentro de sus funcionalidades.
+
+* **Consumo de recursos**: ofrece métricas de capacidad total, incluidos el uso elevado de memoria y CPU.
+
+* **Identificadores e información**: nombres, identificadores y propietarios de las capacidades, las áreas de trabajo y las cargas de trabajo.
+
+En cada pestaña, puede filtrar las métricas por capacidad e intervalo de fechas. Si no se selecciona ningún filtro, en el informe se muestran de forma predeterminada las métricas de la semana pasada de todas las capacidades que proporcionan métricas.
+
+#### <a name="datasets-tab"></a>Pestaña Conjuntos de datos
+
+Utilice los botones de la parte superior de la pestaña **Conjuntos de datos** para desplazarse a las distintas áreas: **Resumen**, **Actualizaciones**, **Duraciones de consulta**, **Tiempos de espera de consulta** y **Conjuntos de datos**.
+
+![Pestaña Conjuntos de datos](media/service-admin-premium-monitor-capacity/datasets-tab.png)
+
+##### <a name="refreshes-area"></a>Pestaña Refreshes (Actualizaciones)
 
 El área **Actualizaciones** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Confiabilidad de la actualización** | * Recuento total: actualizaciones totales de cada conjunto de datos.<br> * Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada conjunto de datos.<br> * Tiempo promedio de espera: el retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos.<br> * Tiempo de espera máximo: tiempo de espera máximo del conjunto de datos, en minutos. <br> * Duración media: la duración media de la actualización del conjunto de datos, en minutos.<br> * Duración máxima: la duración de la actualización de la ejecución más larga del conjunto de datos, en minutos. |
+| **Confiabilidad de la actualización** | * Recuento total: actualizaciones totales de cada conjunto de datos.<br> * Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada conjunto de datos.<br> * Promedio de tiempo de espera: el retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos.<br> * Tiempo de espera máximo: tiempo de espera máximo del conjunto de datos, en minutos. <br> * Duración media: duración media de la actualización del conjunto de datos, en minutos.<br> * Duración máxima: duración de la actualización de ejecución más larga del conjunto de datos, en minutos. |
 | **Duración promedio de la actualización de los cinco conjuntos de datos principales** | * Los cinco conjuntos de datos con la duración promedio de actualización más larga, en minutos. |
 | **Tiempo promedio de espera de los cinco conjuntos de datos principales** | * Los cinco conjuntos de datos con el tiempo de espera promedio de actualización más largo, en minutos. |
 | **Tiempos de espera de actualización promedio por hora** | * El tiempo promedio de espera de actualización, dividido en fragmentos de horas, notificado en la hora local. Varios picos con tiempos de espera de actualización largos son indicativos de un alto uso de la capacidad. |
 | **Recuento de actualización cada hora y consumo de memoria** | * Ejecuciones correctas, con errores y consumo de memoria, con divisiones en fragmentos por horas, notificadas en la hora local. |
 |  |  |
 
-#### <a name="query-durations-area"></a>Área de duraciones de consultas
+##### <a name="query-durations-area"></a>Área de duraciones de consultas
 
 El área **Duraciones de consulta** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Duraciones de consulta** | * Los datos de esta sección se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los siete últimos días.<br> * Total: el número total de consultas ejecutadas para el conjunto de datos.<br> * Promedio: la duración media de consulta del conjunto de datos, en milisegundos.<br> * Máximo: la duración de la consulta de ejecución más larga del conjunto de datos, en milisegundos.|
+| **Duraciones de consulta** | * Los datos de esta sección se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los siete últimos días.<br> * Total: número total de consultas ejecutadas para el conjunto de datos.<br> * Promedio: duración media de consulta del conjunto de datos, en milisegundos.<br> * Máximo: duración de la consulta de ejecución más larga del conjunto de datos, en milisegundos.|
 | **Distribución de la duración de consulta** | * El histograma de la duración de consulta está dividido en duraciones de consulta (en milisegundos) en las siguientes categorías: 30 ms, 30-100 ms, 100-300 ms, 300 ms-1 s, 1 s-3 s, 3 s-10 s, 10 s-30 s, e intervalos de > 30 segundos. Las duraciones de consulta y los tiempos de espera largos son indicativos de un alto uso de la capacidad. También puede significar que un único conjunto de datos está causando problemas y es necesario seguir investigando. |
 | **Duración promedio de los cinco conjuntos de datos principales** | * Los cinco conjuntos de datos con la duración promedio de consulta más larga, en milisegundos. |
 | **Consulta directa / Conexiones dinámicas (utilización > 80 %)** | * Las veces que una consulta directa o una conexión dinámica excedieron el 80 % de utilización de la CPU, con una segmentación en depósitos horarios notificados en la hora local. |
 | **Distribución por horas de la duración de consulta** | * Los recuentos de consulta y la duración media (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local. |
 |  |  |
 
-#### <a name="query-waits-area"></a>Área Tiempo de espera de consultas
+##### <a name="query-waits-area"></a>Área Tiempo de espera de consultas
 
 El área **Esperas de consulta** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Tiempos de espera de consulta** | * Los datos de esta sección se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los siete últimos días.<br> * Total: el número total de consultas ejecutadas para el conjunto de datos.<br> * Recuento de espera: el número de consultas del conjunto de datos que estuvieron en espera en los recursos del sistema antes de iniciar la ejecución. <br> * Promedio: el tiempo de espera de consulta promedio del conjunto de datos, en milisegundos.<br> * Máximo: la duración de la consulta con un tiempo de espera más largo en el conjunto de datos, en milisegundos.|
+| **Tiempos de espera de consulta** | * Los datos de esta sección se segmentan por conjuntos de datos, área de trabajo y cubos por hora en los siete últimos días.<br> * Total: número total de consultas ejecutadas para el conjunto de datos.<br> * Recuento de espera: número de consultas del conjunto de datos que estuvieron en espera en los recursos del sistema antes de iniciar la ejecución. <br> * Promedio: tiempo de espera de consulta promedio del conjunto de datos, en milisegundos.<br> * Máximo: duración de la consulta con un tiempo de espera más largo en el conjunto de datos, en milisegundos.|
 | **Distribución del tiempo de espera** | * El histograma de la duración de consulta está dividido en las duraciones de consulta (en milisegundos) en las siguientes categorías: <= 50 ms, 50-100 ms, 100-200 ms, 200-400 ms 400 ms-1s, 1 s-5 s e intervalos de > 5 segundos. |
 | **Tiempo promedio de espera de los cinco conjuntos de datos principales** | * Los cinco conjuntos de datos con el tiempo de espera promedio más largo para iniciar la ejecución de una consulta, en milisegundos. |
 | **Horas y recuento de espera de consulta por hora** | * Recuentos de los tiempos de espera de las consultas y el tiempo de espera medio (en milisegundos) frente al consumo de memoria en GB, segmentados en depósitos horarios notificados en la hora local. |
 |  |  |
 
-#### <a name="datasets-area"></a>Área Datasets (Conjuntos de datos)
+##### <a name="datasets-area"></a>Área Datasets (Conjuntos de datos)
 
 El área **Conjuntos de datos** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Recuentos de expulsiones del conjunto de datos** | * Total: el número total de *expulsiones* del conjunto de datos para cada funcionalidad. Cuando una funcionalidad sufre la presión de la memoria, el nodo expulsa uno o varios conjuntos de datos de la memoria. Los conjuntos de datos que están inactivos (sin ninguna operación de consulta o actualización ejecutándose actualmente) se expulsan primero. A continuación, el orden de expulsión se basa en una medida de tipo LRU (el menos usado recientemente).|
+| **Recuentos de expulsiones del conjunto de datos** | * Total: número total de *expulsiones* del conjunto de datos para cada capacidad. Cuando una funcionalidad sufre la presión de la memoria, el nodo expulsa uno o varios conjuntos de datos de la memoria. Los conjuntos de datos que están inactivos (sin ninguna operación de consulta o actualización ejecutándose actualmente) se expulsan primero. A continuación, el orden de expulsión se basa en una medida de tipo LRU (el menos usado recientemente).|
 | **Consumo de memoria y expulsiones de conjuntos de datos por horas** | * Expulsiones de conjuntos de datos frente a consumo de memoria en GB, con divisiones en fragmentos por horas, notificadas en la hora local. |
 | **Recuentos de conjuntos de datos cargados por hora** | * Número de conjuntos de datos cargados en memoria frente al consumo de memoria en GB, con divisiones en fragmentos por horas, notificadas en la hora local |
-| **Tamaños de datos**  | * Tamaño máximo: el tamaño máximo del conjunto de datos en MB durante el período que se muestra |
+| **Tamaños de datos**  | * Tamaño máximo: tamaño máximo del conjunto de datos en MB durante el período que se muestra. |
 |  |  |
 
-### <a name="paginated-reports-tab"></a>Pestaña Informes paginados
+#### <a name="paginated-reports-tab"></a>Pestaña Informes paginados
 
 En la pestaña **Informes paginados** se muestran métricas detalladas sobre el estado de los informes paginados dentro de sus funcionalidades.
 
@@ -154,14 +145,14 @@ La pestaña **Informes paginados** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Uso general** | * Vistas totales: el número de veces que un usuario ha visualizado el informe.<br> * Recuento de filas: el número de filas de datos en el informe.<br> * Recuperación (promedio): la cantidad media de tiempo que se tarda en recuperar los datos del informe, en milisegundos. Las duraciones largas pueden indicar consultas lentas u otros problemas del origen de datos. <br> * Procesamiento (promedio): la cantidad media de tiempo que se tarda en procesar los datos de un informe, en milisegundos.<br>* Representación (promedio): la cantidad media de tiempo que se tarda en representar un informe en el explorador, en milisegundos.<br> * Tiempo total: el tiempo necesario para todas las fases del informe, en milisegundos.|
+| **Uso general** | * Número total de vistas: número de veces que los usuarios han visualizado el informe.<br> * Recuento de filas: número de filas de datos que hay en el informe.<br> * Recuperación (promedio): cantidad media de tiempo que se tarda en recuperar los datos del informe, en milisegundos. Las duraciones largas pueden indicar consultas lentas u otros problemas del origen de datos. <br> * Procesamiento (promedio): cantidad media de tiempo que se tarda en procesar los datos de un informe, en milisegundos.<br>* Representación (promedio): cantidad media de tiempo que se tarda en representar un informe en el explorador, en milisegundos.<br> * Tiempo total: tiempo necesario para todas las fases del informe, en milisegundos.|
 | **Tiempo medio de recuperación de datos de los cinco informes principales** | * Los cinco informes con el tiempo medio de recuperación de datos más largo, en milisegundos. |
 | **Tiempo medio de procesamiento de informes en los cinco informes principales** | * Los cinco informes con el tiempo medio de procesamiento de informes más largo, en milisegundos. |
 | **Duraciones por hora** | * Tiempo de recuperación de datos frente al tiempo de procesamiento y representación, dividido en fragmentos de hora, notificado en la hora local. |
 | **Resultados por hora** | * Ejecuciones correctas, con errores y consumo de memoria, con divisiones en fragmentos por horas, notificadas en la hora local. |
 |  |  |
 
-### <a name="dataflows-tab"></a>Pestaña Flujos de datos
+#### <a name="dataflows-tab"></a>Pestaña Flujos de datos
 
 La pestaña **Flujos de datos** muestra métricas de actualización detalladas de los flujos de datos dentro de las funcionalidades.
 
@@ -171,30 +162,32 @@ La pestaña **Flujos de datos** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Actualizar** | * Total: actualizaciones totales de cada flujo de datos.<br> * Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada flujo de datos.<br> * Tiempo promedio de espera: el retraso medio entre la hora programada y el inicio de una actualización del flujo de datos, en minutos.<br> * Tiempo de espera máximo: tiempo de espera máximo del flujo de datos, en minutos. <br> * Duración media: la duración media de la actualización del flujo de datos, en minutos.<br> * Duración máxima: la duración de la actualización de la ejecución más larga del flujo de datos, en minutos. |
+| **Actualizar** | * Total: número total de actualizaciones de cada flujo de datos.<br> * Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada flujo de datos.<br> * Promedio de tiempo de espera: retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos.<br> * Tiempo de espera máximo: tiempo de espera máximo del flujo de datos, en minutos. <br> * Duración media: duración media de la actualización del flujo de datos, en minutos.<br> * Duración máxima: duración de la actualización de ejecución más larga del flujo de datos, en minutos. |
 | **Duración promedio de la actualización de los cinco flujos de datos principales** | * Los cinco flujos de datos con la duración promedio de actualización más larga, en minutos. |
 | **Tiempo promedio de espera de los cinco flujos de datos principales** | * Los cinco flujos de datos con el tiempo de espera promedio de actualización más largo, en minutos. |
 | **Tiempos de espera de actualización promedio por hora** | * El tiempo promedio de espera de actualización, dividido en fragmentos de horas, notificado en la hora local. Varios picos con tiempos de espera de actualización largos son indicativos de un alto uso de la capacidad. |
 | **Recuento de actualización cada hora y consumo de memoria** | * Ejecuciones correctas, con errores y consumo de memoria, con divisiones en fragmentos por horas, notificadas en la hora local. |
 |  |  |
 
-### <a name="system-tab"></a>Pestaña System (Sistema)
+#### <a name="resource-consumption-tab"></a>Pestaña Consumo de recursos
 
-La pestaña **Sistema** muestra el consumo de CPU y memoria de todas las funcionalidades y cargas de trabajo.
+La pestaña **Consumo de recursos** muestra el consumo de CPU y memoria de todas las capacidades y cargas de trabajo.
 
-![Pestaña System (Sistema)](media/service-admin-premium-monitor-capacity/system-tab.png)
+![Pestaña Consumo de recursos](media/service-admin-premium-monitor-capacity/resource-consumption-tab.png)
 
-La pestaña **Sistema** contiene las siguientes métricas.
+La pestaña **Consumo de recursos** contiene las siguientes métricas.
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| **Métricas de CPU (Utilización > 80 %)** | * El número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos. |
+| **Consumo de CPU** | * El número de veces que la CPU superó el 80 % de los umbrales en los últimos siete días, dividido en cubos de tres minutos. |
 | **Consumo de memoria** | * Consumo de memoria durante los siete últimos días, dividido en fragmentos de tres minutos. |
 |  |  |
 
-### <a name="display-names-and-ids-tab"></a>Pestaña Mostrar nombres e identificadores
+#### <a name="ids-and-info-tab"></a>Pestaña Identificadores e información
 
-La pestaña **Mostrar nombres e identificadores** contiene los nombres, identificadores y propietarios de las funcionalidades, áreas de trabajo y cargas de trabajo.
+La pestaña **Identificadores e información** contiene los nombres, los identificadores y los propietarios de las capacidades, las áreas de trabajo y las cargas de trabajo.
+
+![Pestaña Identificadores e información](media/service-admin-premium-monitor-capacity/info-tab.png)
 
 ## <a name="monitor-power-bi-embedded-capacity"></a>Supervisión de capacidades de Power BI Embedded
 

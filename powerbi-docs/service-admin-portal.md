@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5f377f60935f23b62b90731c5d7bc16c8119ab83
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
+ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026716"
+ms.lasthandoff: 12/21/2018
+ms.locfileid: "53735578"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -386,6 +386,18 @@ Después de una actualización o un cambio por el administrador, los usuarios de
 Para actualizar el objeto visual desde la tienda de la organización, seleccione el icono de engranaje. Examine y cargue una nueva versión del objeto visual.
 
 Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplaza al archivo anterior en todos los informes de la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios entren en el repositorio de la organización desde Power BI Desktop, pueden importar la versión nueva, donde se les pide que reemplacen la versión actual que tienen en el informe.
+
+Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales personalizados de organización](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals).
+
+## <a name="dataflow-storage-preview"></a>Almacenamiento de flujos de datos (versión preliminar)
+
+De forma predeterminada, los datos usados con Power BI se almacenan en almacenamiento interno proporcionado por Power BI. Con la integración de flujos de datos y Azure Data Lake Storage Gen2 (ADLS Gen2), puede almacenar los flujos de datos en la cuenta de Azure Data Lake Storage Gen2 de su organización. Para obtener más información, vea [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md).
+
+## <a name="workspaces-preview"></a>Áreas de trabajo (versión preliminar)
+
+Como administrador, puede ver las áreas de trabajo que existen en el inquilino. Puede ordenar y filtrar la lista de áreas de trabajo y mostrar los detalles de cada una de ellas. Tenga en cuenta que las columnas de la tabla se corresponden con las propiedades devueltas por la [API de Rest de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las heredadas son de tipo **Group** y las modernas son del tipo **Workspace**. Para obtener más información, vea [Crear nuevas áreas de trabajo (versión preliminar) en Power BI](service-create-the-new-workspaces.md).
+
+![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

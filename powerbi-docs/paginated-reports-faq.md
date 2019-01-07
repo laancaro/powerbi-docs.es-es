@@ -9,12 +9,12 @@ ms.component: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: 0ddf95563c52af135ac7ae4fe71aeddcd2ce7313
-ms.sourcegitcommit: b23fdcc0ceff5acd2e4d52b15b310068236cf8c7
+ms.openlocfilehash: d3fdf9b568aa13ba5a8437c684835e0fce803d19
+ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2018
-ms.locfileid: "51268926"
+ms.lasthandoff: 12/20/2018
+ms.locfileid: "53649454"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Informes paginados en Power BI: Preguntas frecuentes (versión preliminar)
 
@@ -59,7 +59,7 @@ Además, los registros de auditoría proporcionan los siguientes eventos para lo
 
 ### <a name="can-i-monitor-this-workload-through-the-premium-capacity-monitoring-app"></a>¿Puedo supervisar esta carga de trabajo con la aplicación de supervisión de capacidad Premium?
 
-Aún no. La supervisión estará disponible en la versión preliminar pública como una nueva pestaña en el informe existente con los mismos detalles pertinentes que están disponibles para los conjuntos de datos de Power BI.
+Sí, la supervisión está disponible como una nueva pestaña con los mismos detalles pertinentes que los conjuntos de datos de Power BI.
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>¿Necesito una licencia Pro para crear y publicar informes paginados?
 
@@ -74,8 +74,8 @@ Recibe un mensaje de error y no se puede ver el informe hasta que la carga de tr
 Memoria predeterminada de cada SKU Premium en los informes paginados:
 
 - **P1/A4**: 20 % predeterminado; 10 % mínimo
-- **P2/A5**: 10 % predeterminado; 5 % mínimo
-- **P3/A6**: 5 % predeterminado; 2,5 % mínimo
+- **P2/A5**: 20 % predeterminado; 5 % mínimo
+- **P3/A6**: 20 % predeterminado; 2,5 % mínimo
 
 ## <a name="general"></a>General
 
@@ -113,15 +113,12 @@ Actualmente, los informes paginados no admiten los siguientes elementos:
 - Marcadores
 - Capas de mapa de Bing
 - Fuentes personalizadas
-- Parámetros ocultos
-
-La alternancia y la ordenación interactiva aún no están disponibles en producción, pero se espera que sí lo estén pronto.    
 
 Obtiene un mensaje si intenta cargar un archivo que tiene una característica incompatible en el servicio Power BI, que no sea alternar u ordenar.
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>¿Qué orígenes de datos se admiten actualmente para los informes paginados?
 
-Se admiten modelos tabulares de Azure SQL Database, SQL Server y SQL Server Analysis Services (SSAS) mediante la puerta de enlace local. Actualmente no se admiten modelos SSAS multidimensionales (MDX).
+Se admiten modelos tabulares (DAX) y multidimensionales (MDX) de Azure SQL Database, SQL Server y SQL Server Analysis Services (SSAS) mediante la puerta de enlace local.
 
 Al acceder a SSAS a través de la puerta de enlace, el usuario cuyas credenciales están almacenadas necesita permisos elevados en SSAS para trabajar a través de la puerta de enlace.
 
@@ -135,7 +132,7 @@ No, pero se prevé que sea compatible pronto.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>¿Se pueden usar procedimientos almacenados a través de la puerta de enlace?
 
-Puede usar un procedimiento almacenado a través de la puerta de enlace, pero no si el procedimiento almacenado tiene parámetros.
+Puede usar un procedimiento almacenado a través de la puerta de enlace, pero es posible que haya problemas en determinados escenarios si el procedimiento almacenado incluye parámetros.
 
 ### <a name="what-export-formats-are-available-for-my-report-in-the-power-bi-service"></a>¿Qué formatos de exportación están disponibles para el informe en el servicio Power BI?
 
@@ -143,15 +140,15 @@ Puede exportar a Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, MHT
 
 ### <a name="can-i-print-paginated-reports"></a>¿Puedo imprimir informes paginados?
 
-Actualmente puede exportar a PDF e imprimir el archivo. La impresión directa desde un informe paginado debería estar disponible pronto. 
+Sí, la impresión está disponible para los informes paginados e incluye una experiencia de vista previa de impresión nueva y mejorada. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>¿Ya están disponibles las suscripciones de correo electrónico para los informes paginados?
 
-No, las suscripciones de correo electrónico se incorporarán más adelante.
+No, las suscripciones de correo electrónico se incorporarán próximamente.
 
 ### <a name="what-features-from-ssrs-will-you-be-supporting-in-the-power-bi-service"></a>¿Qué características de SSRS se admitirán en el servicio Power BI?
 
-Pretendemos ofrecer la máxima paridad posible entre los dos productos.  Puede que no tenga sentido tratar de cambiar algunos aspectos de SSRS y Power BI para adaptarlos a los patrones existentes de SSRS, como los distintos modelos de permisos de Power BI, pero pediremos los comentarios de los clientes y asociados para tomar este tipo de decisiones.
+Nuestro plan es proporcionar paridad de características para la mayoría de los escenarios, pero hay determinados elementos de SSRS y Power BI que quizá no tenga sentido cambiar para ajustarse a los patrones existentes de SSRS.  Por ejemplo, los modelos de permisos diferentes de Power BI no pueden asignarse a SSRS.  Tomaremos ese tipo de decisiones en base a los comentarios de los clientes y los partners.
 
 ### <a name="can-i-run-custom-code-in-my-report"></a>¿Puedo ejecutar código personalizado en mi informe?
 
@@ -171,7 +168,7 @@ Todavía no, pero planeamos admitir este escenario sin duda alguna.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>¿Puedo compartir el contenido de un informe paginado mediante una aplicación de Power BI?
 
-Actualmente, puede compartir informes paginados individuales con otros usuarios mediante la acción de uso compartido del portal. Aún no admitimos el uso compartido en una aplicación, pero esperamos que pronto sí se pueda. También se encontrará disponible el botón de uso compartido en la barra de herramientas.
+Actualmente, puede compartir informes paginados individuales con otros usuarios mediante la acción de compartir del portal o a través de la barra de herramientas. Aún no admitimos el uso compartido en una aplicación, pero esperamos que pronto sí se pueda. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>¿Otras características específicas de informes de Power BI, como el anclaje de los iconos de informes en los paneles, funcionan con los informes paginados?
 
@@ -179,15 +176,15 @@ Planeamos que los informes admitan lo máximo posible los mismos escenarios impo
 
 ### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>¿Planea crear una herramienta de creación de informes paginados en el servicio Power BI?  Actualmente, no podemos hacer todo lo que necesitamos con el generador de informes.
 
-Todavía estamos examinando diferentes opciones en este sentido para encontrar las mejores herramientas, pero puede tener la seguridad de que admitiremos características como ALM, extensiones personalizadas y otras características que solo pueden incluirse en una de las herramientas de creación para SSRS. 
+Todavía estamos estudiando diferentes opciones para el sistema de herramientas de los informes paginados en Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>¿Se prevé alguna herramienta de migración para que los clientes de SSRS puedan mover los informes y recursos existentes a Power BI?
 
-Sí, pero no hasta que el conjunto principal de características compatibles del servicio Power BI esté completo.
+Estamos evaluando distintas opciones para permitir mover el contenido a Power BI de forma automática, pero esto no estará disponible hasta después de la disponibilidad general.
 
 ### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>¿Alguna vez será posible crear tanto los informes paginados como los informes de Power BI en una única herramienta de creación?
 
-Actualmente no estamos planeando incorporar una única herramienta de creación, pero buscamos posibles opciones de distribución de herramientas de creación como un único conjunto de BI frente a la disponibilidad de personalización de marcas y descargas individuales.
+Posiblemente.  Actualmente estamos estudiando la forma de permitir este escenario; puede que simplemente distribuyamos las herramientas de creación todas juntas como un único conjunto de BI o que ofrezcamos descargas individuales o personalización de marcas.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>¿Existe un control del visor de informes para los informes paginados en el servicio Power BI?
 

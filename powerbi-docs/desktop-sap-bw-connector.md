@@ -11,11 +11,11 @@ ms.date: 10/15/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: f4825e8d8d47f755b01748c847b0fcf110db030a
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452876"
+ms.lasthandoff: 12/17/2018
+ms.locfileid: "53451453"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
@@ -66,7 +66,7 @@ Al establecer la conexión, debe especificar un *servidor*, un *número de siste
 
 ![Configuración de la conexión del servidor de SAP](media/desktop-sap-bw-connector/sap_bw_3a.png)
 
-También puede especificar dos **Opciones avanzadas** adicionales: el código de idioma y una instrucción MDX personalizada para ejecutarla en el servidor especificado.
+También puede especificar otras dos **opciones avanzadas**: código de idioma y una instrucción MDX personalizada para ejecutarla en el servidor especificado.
 
 ![Información de conexión adicional](media/desktop-sap-bw-connector/sap_bw_4a.png)
 
@@ -78,7 +78,7 @@ Al seleccionar uno o varios elementos del servidor, se crea una vista previa de 
 
 La ventana **Navegador** también proporciona algunas **opciones de presentación** que le permiten hacer lo siguiente:
 
-* **Mostrar *solo los elementos seleccionados* en vez de *todos los elementos* (vista predeterminada):** esta opción es útil para comprobar el conjunto final de elementos seleccionados. Un enfoque alternativo para ver esto consiste en seleccionar los *nombres de columna* en el área de *vista previa*.
+* **Mostrar *solo los elementos seleccionados* frente a *Todos los elementos* (vista predeterminada):** esta opción es útil para comprobar el conjunto final de los elementos seleccionados. Un enfoque alternativo para ver esto consiste en seleccionar los *nombres de columna* en el área de *vista previa*.
 * **Habilitar vistas previas de datos (comportamiento predeterminado):** también puede controlar si se deben mostrar vistas previas de datos en este cuadro de diálogo. Si deshabilita las vistas previas de datos se reducirá la cantidad de llamadas de servidor, puesto que ya no solicita datos para las vistas previas.
 * **Nombres técnicos:** SAP BW admite la noción de *nombres técnicos* para objetos dentro de un cubo. Los nombres técnicos permiten al propietario de un cubo mostrar nombres *descriptivos* para los objetos de un cubo, en lugar de mostrar solo los *nombres físicos* para tales objetos.
 
