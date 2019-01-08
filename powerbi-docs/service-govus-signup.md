@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2800eb5b01e8203632ae60c9b304a5ed9ce28b69
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 281e84b1dd3a3c21a7aaebce4784551a8afb31ba
+ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670240"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54056073"
 ---
 # <a name="enroll-your-us-government-organization-in-the-power-bi-service"></a>Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -102,7 +102,7 @@ Si tiene ambas licencias, Gratis y Pro de la Administración Pública de Estados
 
 Al utilizar una combinación de licencias Gratis y Pro en un inquilino de la Administración Pública de Estados Unidos y al pasar por el proceso de *inclusión en listas de permitidos*, se puede esperar lo siguiente:
 
-**Antes de la *inclusión en la lista de permitidos***:
+**Antes de la _inclusión en la lista de permitidos_**:
 
 * Los usuarios con licencias Gratis se ejecutan en una nube comercial.
 * Las licencias Pro para la Administración Pública de Estados Unidos se muestran en el portal y el administrador puede asignarlas a los usuarios. Los usuarios Pro para la Administración Pública de Estados Unidos no perderán los datos de sus licencias Gratis, cuando el administrador les asigna una licencia Pro de la Administración Pública de Estados Unidos. Los usuarios asignados acceden a las características de Power BI Pro para clientes de la Administración Pública de Estados Unidos, pero las siguientes lagunas de funcionalidad de la lista de viñetas siguiente existirán hasta que el inquilino esté correctamente *incluido en la lista de permitidos*:
@@ -112,7 +112,7 @@ Al utilizar una combinación de licencias Gratis y Pro en un inquilino de la Adm
   * Los archivos PBIX se deben cargar manualmente desde el servicio Power BI comercial.
   * Las aplicaciones móviles de Power BI no están disponibles.
 
-**Después de la *inclusión en la lista de permitidos***:
+**Después de su _inclusión en la lista de permitidos_**:
 
 * Los usuarios de la versión Gratis que ejecutan el servicio Power BI comercial pueden seguir haciéndolo, pero dejarán de autenticarse según lo previsto.
 * Los usuarios Pro que ejecutan en la nube de la Administración Pública de Estados Unidos pueden usar el servicio **Power BI para clientes de la Administración Pública de Estados Unidos** como se esperaba.

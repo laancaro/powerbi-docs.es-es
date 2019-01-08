@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 26caf128828ec67ce7a6f2af62560869e261ee8b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: ec13f396ea1a322a79263320a169330f24a2e5f0
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46543529"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008083"
 ---
 # <a name="connect-to-quickbooks-online-with-power-bi"></a>Conexión a QuickBooks Online con Power BI
 Cuando conecta sus datos de QuickBooks Online en Power BI, inmediatamente obtiene un panel de Power BI e informes de Power BI que ofrecen información sobre el flujo de efectivo, la rentabilidad y los clientes de su negocio. Use el panel y los informes como están, o bien personalícelos para resaltar la información que más le interesa. Los datos se actualizan automáticamente una vez al día.

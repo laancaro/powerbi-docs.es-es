@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 150277c4069be8c292e02caa495e8c545138227e
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 00212258a145bf7d161d650a4b1cfa9f054a4508
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546059"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54007830"
 ---
 # <a name="connect-to-mandrill-with-power-bi"></a>Conexión a Mandrill con Power BI
 El paquete de contenido de Power BI extrae datos de la cuenta de Mandrill y genera un panel, un conjunto de informes y un conjunto de datos que permiten explorar los datos. Utilice los análisis de Mandrill obtener rápidamente información sobre boletines o campañas de marketing. Los datos están configurados para actualizarse diariamente, lo que garantiza que los datos que está supervisando estén actualizados.

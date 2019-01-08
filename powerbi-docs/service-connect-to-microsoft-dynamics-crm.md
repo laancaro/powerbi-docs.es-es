@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 475f3ddf646ddc9c5f29409854f93128ce94dd51
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: 465e54c811691a7149dfff03d48bec797474ca66
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908840"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008819"
 ---
 # <a name="connect-to-microsoft-dynamics-crm-with-power-bi"></a>Conexión a Microsoft Dynamics CRM con Power BI
 Microsoft Dynamics CRM Online para Power BI permite acceder a los datos y analizarlos fácilmente. Power BI usa la fuente OData para crear un modelo descriptivo, con todas las entidades y medidas necesarias, como cuentas, actividades, oportunidades, productos, clientes potenciales, usuarios, etc. Después de instalar la aplicación, tanto el panel como los informes se pueden ver en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en las aplicaciones móviles de Power BI. 

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4b47e620c0469ed56a7afb413a5775cf2a34c4d4
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: d22f67f52d0abe0621e244874def845c7d25c15b
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46546569"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008796"
 ---
 # <a name="connect-to-ziosk-survey-analytics-with-power-bi"></a>Conexión a Ziosk Survey Analytics con Power BI
 El paquete de contenido de Ziosk Survey Analytics para Power BI ofrece a los restaurantes con acceso sin paragón a tabletas Ziosk con información proporcionada por los datos de la encuesta Ziosk, incluida la segmentación por día, ubicación, empleado, etc.

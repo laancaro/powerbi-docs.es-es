@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8466d57340feb80650af93e4f400b82436d11b05
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46544863"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008129"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Conexión al paquete de contenido de Microsoft Dynamics AX con Power BI
 Microsoft Dynamics AX tiene tres paquetes de contenido de Power BI destinados a diferentes usuarios empresariales. El paquete de contenido de rendimiento financiero, diseñado específicamente para directores financieros, proporciona acceso a información detallada sobre el rendimiento financiero de su organización. El paquete de contenido de rendimiento de canal minorista está destinado a administradores de canal y se centra en el rendimiento de las ventas para predecir tendencias y revelar información detallada mediante el uso directo de los datos de venta minorista y comercio. La administración de costos está diseñada para directores generales y directores financieros y proporciona detalles sobre el rendimiento de las operaciones.

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 49fab6884a4acd548ccb5c17913c003763af8cab
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: c8c17fe5349486d9583b8f44ccee1af36e86c761
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46549716"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008766"
 ---
 # <a name="connect-to-circuit-id-with-power-bi"></a>Conexión a Circuit ID con Power BI
 El análisis de los datos de comunicación desde el Id. de circuito le resultará más con Power BI. Power BI recupera los datos y, a continuación, crea un panel predeterminado e informes relacionados en función de esos datos. Una vez que haya creado la conexión, puede explorar los datos y personalizar el panel para adaptarlo a sus necesidades. Los datos se actualizan automáticamente todos los días.
