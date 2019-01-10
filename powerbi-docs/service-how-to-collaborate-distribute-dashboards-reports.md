@@ -1,5 +1,5 @@
 ---
-title: ¿Cómo debo colaborar y compartir en Power BI?
+title: Formas de compartir el trabajo
 description: En Power BI, puede compartir paneles, informes, iconos y aplicaciones de distintas maneras, y colaborar en ellos. Cada una tiene sus ventajas.
 author: maggiesMSFT
 manager: kfile
@@ -7,23 +7,23 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/02/2018
+ms.date: 12/17/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bcec05211d3748e992f0e0cf68acd6460b2715d4
-ms.sourcegitcommit: 52ac456bf2ac025b22ea634c28482f22e1cc19ac
+ms.openlocfilehash: bc4f58920feaf5219d63761116ef9a742edd4eed
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2018
-ms.locfileid: "48908978"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983540"
 ---
-# <a name="how-should-i-collaborate-and-share-in-power-bi"></a>¿Cómo debo colaborar y compartir en Power BI?
+# <a name="ways-to-share-your-work-in-power-bi"></a>Formas de compartir el trabajo en Power BI
 
-Ha creado paneles e informes, colabora en ellos con sus compañeros, puede que luego desee que otros usuarios tengan también acceso a ellos. ¿Cuál es la mejor manera de distribuirlos?
+Ha creado paneles e informes, quizá incluso haya colaborado en ellos con sus compañeros. Ahora quiere que otros usuarios tengan acceso a ellos. ¿Cuál es la mejor manera de distribuirlos?
 
 En este artículo, compararemos estas opciones de colaboración y uso compartido en Power BI: 
 
-* Colaborar con compañeros para crear informes y paneles significativos en *áreas de trabajo de la aplicación*.
+* Colaborar con compañeros para crear informes y paneles significativos en *áreas de trabajo*.
 * Agrupar esos paneles e informes en *aplicaciones* y publicarlas en un grupo más grande o en toda la organización.
 * Compartir paneles o informes con algunas personas desde el servicio o las aplicaciones móviles de Power BI.
 - Imprimir informes.
@@ -35,25 +35,25 @@ Con independencia de la opción que se elija, para compartir un panel se necesit
 
 *Aplicaciones en el servicio Power BI*
 
-## <a name="collaborate-with-coworkers-in-an-app-workspace"></a>Colaboración con compañeros en un área de trabajo de aplicación
+## <a name="collaborate-with-coworkers-in-a-workspace"></a>Colaborar con compañeros en un área de trabajo
 
-Cuando los equipos trabajan juntos, necesitan tener acceso a los mismos documentos para que puedan colaborar con rapidez. Las áreas de trabajo de la aplicación de Power BI proporcionan un lugar donde los equipos se reúnen para compartir la propiedad y administración de paneles, informes, conjuntos de datos y libros que son importantes para ellos. A veces, los usuarios de Power BI organizan sus áreas de trabajo según las estructuras de la organización, mientras que otras veces las crean para proyectos específicos. Además, otras organizaciones usan varias áreas de trabajo para almacenar diferentes versiones de los informes o paneles que usan. 
+Cuando los equipos trabajan juntos, necesitan tener acceso a los mismos documentos para que puedan colaborar con rapidez. Las áreas de trabajo de Power BI proporcionan un lugar donde los equipos se reúnen para compartir la propiedad y administración de paneles, informes, conjuntos de datos y libros que son importantes para ellos. A veces, los usuarios de Power BI organizan sus áreas de trabajo según las estructuras de la organización, mientras que otras veces las crean para proyectos específicos. Además, otras organizaciones usan varias áreas de trabajo para almacenar diferentes versiones de los informes o paneles que usan. 
 
-Las áreas de trabajo de aplicación proporcionan roles que determinan los permisos que tienen sus compañeros de trabajo. Puede usar esos roles para determinar quién puede administrar toda el área de trabajo, o simplemente proporcionar contenido en ella.
+Las áreas de trabajo proporcionan roles que determinan los permisos que tienen sus compañeros de trabajo. Puede usar esos roles para determinar quién puede administrar toda el área de trabajo, o simplemente proporcionar contenido en ella.
 
-![Áreas de trabajo de la aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Áreas de trabajo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
 
-Algunos usuarios simplemente colocan contenido en Mi área de trabajo y lo comparten. Las áreas de trabajo de la aplicación son mejores para la colaboración que Mi área de trabajo, ya que proporcionan copropiedad de contenido. Usted y todo su equipo pueden realizar actualizaciones o asignar acceso a otros usuarios fácilmente. Es mejor que Mi área de trabajo lo usen usuarios para contenido personal o de uso único.
+Algunos usuarios simplemente colocan contenido en Mi área de trabajo y lo comparten. Las áreas de trabajo son mejores para la colaboración que Mi área de trabajo, ya que proporcionan copropiedad de contenido. Usted y todo su equipo pueden realizar actualizaciones o asignar acceso a otros usuarios fácilmente. Es mejor que Mi área de trabajo lo usen usuarios para contenido personal o de uso único.
 
-Imaginemos que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. Si un compañero de trabajo específico necesita ser propietario del panel y mantenerlo actualizado, o si debe tener acceso a todo el contenido del área de trabajo de aplicación, puede que sea mejor agregarlo al área de trabajo. Si su compañero solo necesita ver ese panel y no todo el contenido del área de trabajo, también puede elegir entre un conjunto de alternativas. Si el panel forma parte de un conjunto mayor de contenido que necesita distribuir a muchos compañeros, entonces, probablemente la mejor opción sea publicar una aplicación. Pero si su compañero solo necesita ese panel, entonces lo mejor sería compartir el panel. 
+Imaginemos que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. Si un compañero de trabajo específico necesita ser propietario del panel y mantenerlo actualizado, o si debe tener acceso a todo el contenido del área de trabajo, puede que sea mejor agregarlo al área de trabajo. Si su compañero solo necesita ver ese panel y no todo el contenido del área de trabajo, también puede elegir entre un conjunto de alternativas. Si el panel forma parte de un conjunto mayor de contenido que necesita distribuir a muchos compañeros, entonces, probablemente la mejor opción sea publicar una aplicación. Pero si su compañero solo necesita ese panel, entonces lo mejor sería compartir el panel. 
 
-Obtenga más información sobre la [creación de áreas de trabajo de la aplicación](service-create-workspaces.md).
+Obtenga más información sobre la [creación de áreas de trabajo](service-create-workspaces.md).
 
 **¿Sabía qué?** Power BI está realizando una versión preliminar de una nueva experiencia de áreas de trabajo. Lea [Crear nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md) para ver cómo cambiarán las áreas de trabajo en el futuro. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuir datos e información mediante la creación de una aplicación
 
-Supongamos que desea distribuir el panel a un público amplio. Junto con sus compañeros ha creado un *área de trabajo de la aplicación* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora ya puede seleccionar los paneles e informes que desee y publicarlos como una aplicación &#151; para un grupo para toda la organización. 
+Supongamos que desea distribuir el panel a un público amplio. Junto con sus compañeros ha creado un *área de trabajo* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora ya puede seleccionar los paneles e informes que desee y publicarlos como una aplicación &#151; para un grupo para toda la organización. 
 
 ![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
 
@@ -66,7 +66,7 @@ Para que los usuarios vean la aplicación, deben tener también una licencia de 
 También puede publicar aplicaciones para aquellos que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no pueden compartirlo con otros usuarios.
 
 ## <a name="share-dashboards-and-reports"></a>Compartir los paneles e informes
-Supongamos que ha finalizado un panel y un informe en su propia área de trabajo o en un área de trabajo de la aplicación y quiere que otras personas tengan acceso a ellos. Una manera de hacerlo es *compartirlo*. 
+Supongamos que ha finalizado un panel y un informe en su propia área de trabajo o en un área de trabajo y quiere que otras personas tengan acceso a ellos. Una manera de hacerlo es *compartirlo*. 
 
 ![Icono de uso compartido](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
