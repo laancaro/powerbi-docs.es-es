@@ -11,12 +11,12 @@ ms.component: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: fc0234536415c758992cec629452a3e629c46ad1
-ms.sourcegitcommit: d20f74d5300197a0930eeb7db586c6a90403aabc
+ms.openlocfilehash: 3ad4335cabac159aee38d54fbfff0f689009fd68
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/03/2018
-ms.locfileid: "50973336"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136608"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -75,7 +75,7 @@ Para insertar el informe en SharePoint Online, primero debe obtener la direcció
 
     ![Informe de SharePoint cargado](media/service-embed-report-spo/powerbi-sharepoint-report-loaded.png)
 
-## <a name="granting-access-to-reports"></a>Conceder acceso a los informes
+## <a name="grant-access-to-reports"></a>Concesión de acceso a los informes
 
 Insertar un informe en SharePoint Online no da a los usuarios permiso para ver el informe de forma automática. Los permisos para ver el informe se establecen en el servicio Power BI.
 
@@ -94,7 +94,7 @@ Además, puede compartir un informe directamente con los usuarios insertando el 
 
 4. Ahora todos los usuarios finales también necesitan instalar la aplicación. Sin embargo, puede configurar la aplicación para que se preinstale para los usuarios finales con la característica **Instala la aplicación automáticamente**, que se puede habilitar en el [portal de administración de Power BI](service-admin-portal.md).
 
-   ![Instala la aplicación automáticamente](media/service-embed-report-spo/install-app-automatically.png)
+   ![Instalar aplicación automáticamente](media/service-embed-report-spo/install-app-automatically.png)
 
 5. El autor abre la aplicación y accede al informe.
 
@@ -152,7 +152,7 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
 
 ## <a name="known-issues-and-limitations"></a>Limitaciones y problemas conocidos
 
-* Error: "An error occurred, please try logging out and back in and then revisiting this page. Correlation id: undefined, http response status: 400, server error code 10001, message: Missing refresh token" ("Se ha producido un error, intente cerrar la sesión y abrirla de nuevo, y vuelva a esta página. Id. de correlación: no definido, estado de respuesta http: 400, código de error de servidor 10001, mensaje: falta token de actualización")
+* Error: "An error occurred, please try logging out and back in and then revisiting this page. (Se ha producido un error, intente cerrar la sesión y abrirla de nuevo, y vuelva a esta página). Id. de correlación: indefinido, estado de respuesta de http: 400, código de error: 10001,mensaje: Falta el token de actualización"
   
   Si recibe este error, intente uno de los pasos de solución de problemas que se indican a continuación.
   
@@ -174,9 +174,10 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Permitir o impedir la creación de páginas de sitio modernas por los usuarios finales](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
-[Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md)  
-[Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md)  
-[¿Qué es Power BI Premium?](service-premium.md)  
+* [Permitir o impedir la creación de páginas de sitio modernas por los usuarios finales](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b)  
+* [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md)  
+* [Compartir un panel con compañeros y otros usuarios](service-share-dashboards.md)  
+* [¿Qué es Power BI Premium?](service-premium.md)
+* [Inserción de informes en un sitio web o portal seguro](service-embed-secure.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 92af01b7020f734f286d927650e58a5fea5d8047
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.openlocfilehash: d9cd9c812aa2fdd1d336dbd63ea280516a96e4d9
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180838"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072230"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -92,7 +92,7 @@ En la tabla siguiente se describen las características de los flujos de datos y
 |Entidades vinculadas a flujos de datos| |        +|
 |Esquema estandarizado/soporte integrado para Common Data Service|  +|  +|
 
-
+Para obtener más información sobre cómo habilitar las cargas de trabajo de flujo de datos en una capacidad Premium, consulte el artículo de [configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads) de Power BI Premium.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Resumen de la preparación de datos de autoservicio para macrodatos en Power BI
 Como se mencionó anteriormente en este artículo, existen varios escenarios y ejemplos donde los **flujos de datos** pueden permitirle obtener un mejor control e información más rápida de sus datos empresariales. Mediante un modelo de datos estándar (esquema) definido por Common Data Service, los flujos de datos pueden importar sus datos profesionales importantes y tener los datos listos para el modelado y la creación de información detallada de inteligencia empresarial en muy poco tiempo... cuya creación solía llevar meses, o incluso más. 

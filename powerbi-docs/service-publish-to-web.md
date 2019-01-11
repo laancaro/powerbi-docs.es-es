@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 09/13/2018
+ms.date: 01/08/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0ef3bd027c7fc14f88a569cab160f90044689784
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: ab5f891b8769657f18861863562c0ab866044a18
+ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558548"
+ms.lasthandoff: 01/09/2019
+ms.locfileid: "54136631"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -26,54 +26,56 @@ También puede editar, actualizar o dejar de compartir fácilmente los objetos v
 > [!WARNING]
 > Al usar la característica **Publicar en la web**, cualquier usuario podrá ver en Internet el informe o el objeto visual que publique. No se usa ningún tipo de autenticación al ver estos informes. Use la característica Publicar en Web solo con los informes y datos que cualquier persona en Internet (miembros no autenticados del público) pueda ver. Aquí se incluyen los datos de nivel de detalle que se agreguen en los informes. Antes de publicar este informe, asegúrese de que tiene el derecho a compartir los datos y visualizaciones públicamente. No publique información confidencial o de su propiedad. En caso de duda, compruebe las directivas de la organización antes de publicarlo.
 
+>[!Note]
+>Para insertar el contenido de forma segura en un sitio web o portal interno, utilice las opciones [Insertar](service-embed-secure.md) o [Insertar en SharePoint Online](service-embed-report-spo.md). Esto garantiza que se aplican todos los permisos y la seguridad de los datos cuando los usuarios ven sus datos internos.
+
 ## <a name="how-to-use-publish-to-web"></a>Cómo usar la característica Publicar en Web
 
-**Publicar en Web** está disponible en informes en áreas de trabajo personales o de grupo que puede editar.  No puede usar Publicar en Web con informes que han compartido con usted ni con informes que se basan en la seguridad de nivel de fila para proteger los datos. Consulte la sección **Limitaciones** a continuación para obtener una lista completa de los casos en los que no se admite Publicar en Web. Revise la **advertencia** anteriormente en este artículo antes de usar la característica Publicar en la web.
+**Publicar en Web** está disponible en informes en áreas de trabajo personales o de grupo que puede editar.  No puede usar Publicar en Web con informes que han compartido con usted ni con informes que se basan en la seguridad de nivel de fila para proteger los datos. Consulte la sección **Limitaciones** más adelante para obtener una lista completa de los casos en los que no se admite Publicar en la web. Revise la **advertencia** anteriormente en este artículo antes de usar la característica Publicar en la web.
 
 Puede ver cómo funciona esta característica en el siguiente *vídeo corto*. A continuación, realice los pasos siguientes para probarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/UF9QtqE7s4Y" frameborder="0" allowfullscreen></iframe>
 
-
 Los pasos siguientes describen cómo usar la característica **Publicar en Web**.
 
 1. En un informe en el área de trabajo que puede editar, seleccione **Archivo > Publicar en Web**.
-   
-   ![](media/service-publish-to-web/publish_to_web1.png)
+
+   ![PtW1](media/service-publish-to-web/publish_to_web1.png)
 
 2. Revise el contenido del cuadro de diálogo y seleccione **Crear código para insertar** como se muestra en el siguiente cuadro de diálogo.
-   
-   ![](media/service-publish-to-web/publish_to_web2_ga.png)
+
+   ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
 3. Revise la advertencia que se muestra en el cuadro de diálogo siguiente y compruebe que los datos se pueden insertar en un sitio web público. Si es así, seleccione **Publicar**.
-   
-   ![](media/service-publish-to-web/publish_to_web3_ga.png)
+
+   ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
 4. Aparece un cuadro de diálogo que proporciona un vínculo que se puede enviar por correo electrónico, insertar en código (como un iFrame) o pegar directamente en la página web o el blog.
-   
-   ![](media/service-publish-to-web/publish_to_web4.png)
+
+   ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
 5. Si creó previamente un código para insertar para el informe, dicho código aparece rápidamente. Solo se puede crear un código para insertar por informe.
-   
-   ![](media/service-publish-to-web/publish_to_web5.png)
+
+   ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
 ## <a name="tips-and-tricks-for-view-modes"></a>Sugerencias y trucos para los modos de vista
 
 Al insertar contenido en una entrada de blog, debe ajustarse normalmente para caber en un tamaño específico de la pantalla.  También puede ajustar el alto y el ancho de la etiqueta de iFrame según sea necesario, pero debe asegurarse de que el informe quepa en el área determinada del iFrame, por lo que también se debe establecer un modo de vista adecuado al editar el informe.
 
-En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y cómo va a aparecer al insertarse. 
+En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y cómo va a aparecer al insertarse.
 
 | Modo de vista | Aspecto que tiene al insertarse |
 | --- | --- |
-| ![](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respetará el alto y el ancho de página del informe. Si establece la página en proporciones "dinámicas" como 16:9 o 4:3, el contenido se escalará para ajustarse al iFrame proporcionado. Cuando se inserta en un iFrame, con **Ajustar a la página** puede dar lugar a **formato letterbox**, en el que se muestra un fondo gris en las áreas de iFrame después del contenido como escala para que quepa en el iFrame. Para minimizar el formato letterbox, establezca el alto y ancho del iFrame adecuadamente. |
-| ![](media/service-publish-to-web/publish_to_web6d.png) |**Tamaño real** garantizará que el informe conserve su tamaño tal como está establecido en la página del informe. Esto puede causar que se muestren barras de desplazamiento en el iFrame. Establezca el alto y ancho de iFrame para evitar las barras de desplazamiento. |
-| ![](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido se ajuste dentro del área horizontal del iFrame. Se seguirá mostrando un borde, pero el contenido se escalará para usar todo el espacio horizontal disponible. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respetará el alto y el ancho de página del informe. Si establece la página en proporciones "dinámicas" como 16:9 o 4:3, el contenido se escalará para ajustarse al iFrame proporcionado. Cuando se inserta en un iFrame, con **Ajustar a la página** puede dar lugar a **formato letterbox**, en el que se muestra un fondo gris en las áreas de iFrame después del contenido como escala para que quepa en el iFrame. Para minimizar el formato letterbox, establezca el alto y ancho del iFrame adecuadamente. |
+| ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Tamaño real** garantizará que el informe conserve su tamaño tal como está establecido en la página del informe. Esto puede causar que se muestren barras de desplazamiento en el iFrame. Establezca el alto y ancho de iFrame para evitar las barras de desplazamiento. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido se ajuste dentro del área horizontal del iFrame. Se seguirá mostrando un borde, pero el contenido se escalará para usar todo el espacio horizontal disponible. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Sugerencias y trucos para el ancho y alto de iFrame
 
 El código para insertar que recibirá después de ejecutar Publicar en Web tendrá un aspecto similar al siguiente:
 
-![](media/service-publish-to-web/publish_to_web7.png)
+![PtW7](media/service-publish-to-web/publish_to_web7.png)
 
 Puede editar el ancho y alto manualmente para asegurarse de que es precisamente cómo quiere que se ajuste a la página en la que lo está insertando.
 
@@ -93,20 +95,20 @@ Para obtener un ajuste más perfecto, puede intentar agregar 56 píxeles a la di
 Después de crear un código para insertar de **Publicar en Web** , puede administrar los códigos que cree desde el menú **Configuración** del servicio Power BI. La administración de códigos para insertar incluye la capacidad de quitar el objeto visual de destino o el informe de un código (lo que deja inutilizable el código para insertar), o volver a recibir el código para insertar.
 
 1. Para administrar sus códigos para insertar de **Publicar en Web** , abra el engranaje de **Configuración** y seleccione **Administrar códigos para insertar**.
-   
-   ![](media/service-publish-to-web/publish_to_web8.png)
+
+   ![PtW8](media/service-publish-to-web/publish_to_web8.png)
 
 2. Aparece la lista de códigos para insertar que acaba de crear, como se muestra en la siguiente imagen.
-   
-   ![](media/service-publish-to-web/publish_to_web9.png)
+
+   ![PtW9](media/service-publish-to-web/publish_to_web9.png)
 
 3. Para cada código para insertar de **Publicar en Web** de la lista, puede recuperar el código para insertar, o bien eliminarlo, lo que provocará que los vínculos al objeto visual o el informe dejen de funcionar.
-   
-   ![](media/service-publish-to-web/publish_to_web10.png)
+
+   ![PtW10](media/service-publish-to-web/publish_to_web10.png)
 
 4. Si selecciona **Eliminar**, se le preguntará si está seguro de que quiere eliminar el código para insertar.
-   
-   ![](media/service-publish-to-web/publish_to_web11.png)
+
+   ![PtW11](media/service-publish-to-web/publish_to_web11.png)
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Actualizaciones de informes y datos
 
@@ -118,7 +120,7 @@ Para obtener más información, consulte la sección **Cómo funciona** más ade
 
 ## <a name="data-refresh"></a>Actualización de datos
 
-Las actualizaciones de datos se reflejan automáticamente en el informe u objeto visual insertado. Los datos actualizados pueden tardar aproximadamente una hora en ser visibles desde los códigos para insertar. Para desactivar la actualización automática, seleccione **no actualizar** en la programación del conjunto de datos usado para el informe.  
+Las actualizaciones de datos se reflejan automáticamente en el informe u objeto visual insertado. Los datos actualizados pueden tardar aproximadamente una hora en ser visibles desde los códigos para insertar. Para desactivar la actualización automática, seleccione **no actualizar** en la programación del conjunto de datos usado en el informe.  
 
 ## <a name="custom-visuals"></a>Objetos visuales personalizados
 
@@ -133,11 +135,12 @@ La característica **Publicar en Web** se admite para la gran mayoría de los or
 - Informes compartidos con usted directamente o a través de un paquete de contenido organizativo.
 - Informes en un grupo en el que no es miembro de edición.
 - Los objetos visuales "R" no se admiten actualmente en informes de Publicar en Web.
-- Exportación de datos desde los objetos visuales de un informe que se ha publicado en la Web
+- Exportación de datos desde los objetos visuales de un informe que se ha publicado en la web
 - Objetos visuales de ArcGIS Maps for Power BI
 - Informes que contienen medidas DAX de nivel de informe
 - Modelos de consulta de datos de inicio de sesión único
 - [Información confidencial o de su propiedad](#publish-to-web-from-power-bi)
+- La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el enfoque de [usuario propietario de datos](developer/embed-sample-for-your-organization.md) en la inserción. Obtenga más información sobre el [usuario propietario de datos](developer/embed-sample-for-your-organization.md).
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 
@@ -167,7 +170,7 @@ Para informar de un problema relacionado con el contenido de **Publicar en Web**
 
 Para notificar un problema, seleccione el icono **marca** de la parte inferior del informe de Publicar en Web que se muestra.
 
-![](media/service-publish-to-web/publish_to_web12_ga.png)
+![PtW12](media/service-publish-to-web/publish_to_web12_ga.png)
 
 ## <a name="licensing-and-pricing"></a>Licencias y precios
 
@@ -178,5 +181,11 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 Cuando se crea un código para insertar mediante **Publicar en Web**, el informe se hace visible para los usuarios en Internet. Está disponible públicamente, por lo que puede esperar que los lectores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Este enfoque garantiza que miles de usuarios simultáneos sin puedan ver el informe sin que ello afecte al rendimiento.
 
 La memoria caché es de larga duración, por lo que si se actualiza la definición de informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
+
+## <a name="next-steps"></a>Pasos siguientes
+
+- [Elemento web de informes de SharePoint Online](service-embed-report-spo.md) 
+
+- [Inserción de informes en un sitio web o portal seguro](service-embed-secure.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

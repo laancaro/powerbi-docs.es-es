@@ -11,30 +11,32 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: cb508681950cd5bb585da1208683deb31c8b6e64
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: d9cf6255cfa57790c13ee1fc9d3201860552863b
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026831"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072368"
 ---
 # <a name="using-auditing-within-your-organization"></a>Usar la auditoría dentro de su organización
 
 Es fundamental saber quién realiza cada acción en cada elemento del inquilino de Power BI para ayudar a la organización a satisfacer sus requisitos, como el cumplimiento normativo y la administración de registros. Use las funciones de auditoría de Power BI para auditar las acciones que realizan los usuarios, como "Ver informe" o "Ver panel". No se pueden utilizar para auditar permisos.
 
-Trabaje con las funciones de auditoría en el Centro de seguridad y cumplimiento de Office 365 o use PowerShell. Trataremos ambas opciones en este artículo. Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, informe, conjunto de datos y tipo de actividad. También puede descargar las actividades en un archivo .csv (valores separados por comas) para analizarlo sin conexión.
+Trabaje con las funciones de auditoría en el Centro de seguridad y cumplimiento de Office 365 o use PowerShell. La auditoría se basa en la funcionalidad de Exchange Online, que se aprovisiona automáticamente para admitir Power BI.
+
+Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, informe, conjunto de datos y tipo de actividad. También puede descargar las actividades en un archivo .csv (valores separados por comas) para analizarlo sin conexión.
 
 ## <a name="requirements"></a>Requisitos
 
 Debe cumplir estos requisitos para tener acceso a los registros de auditoría:
 
-- Para acceder a la sección de auditoría del Centro de seguridad y cumplimiento de Office 365, debe tener una licencia de Exchange Online (que se incluye con las suscripciones de Office 365 Enterprise E3 y E5).
+* Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De forma predeterminada, estos roles se asignan a los grupos de roles de Administración de cumplimiento y Administración de organizaciones de la página **Permisos** en el centro de administración de Exchange.
 
-- Debe ser un administrador global o tener un rol de administrador de Exchange que proporcione acceso al registro de auditoría. Los roles de administrador de Exchange se controlan mediante el centro de administración de Exchange. Para más información, vea [Permisos en Exchange Online](/exchange/permissions-exo/permissions-exo/).
+    Para que las cuentas que no son de administrador puedan acceder al registro de auditoría, debe agregar al usuario como miembro de uno de estos grupos de roles. También puede crear un grupo de roles personalizados en el centro de administración de Exchange, asignar el rol Registros de auditoría o Registros de auditoría de solo visualización a este grupo y, luego, agregar la cuenta que no es de administrador al nuevo grupo de roles. Para obtener más información, vea [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Administración de grupos de roles en Exchange Online).
 
-- Si tiene acceso al registro de auditoría pero no es un administrador global o un administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá obtener un vínculo directo al [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+    Si no puede acceder al centro de administración de Exchange desde el centro de administración de Office 365, vaya a https://outlook.office365.com/ecp e inicie sesión con sus credenciales.
 
-- Para ver registros de auditoría para Power BI en su inquilino, necesita al menos una licencia de buzón de Exchange en dicho inquilino.
+* Si tiene acceso al registro de auditoría pero no es un administrador global o un administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá usar un vínculo directo al [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
 ## <a name="accessing-your-audit-logs"></a>Obtener acceso a los registros de auditoría
 
@@ -51,8 +53,6 @@ Los registros de auditoría de Power BI están disponibles directamente en el [C
 1. Seleccione **Ir al Centro de administración de O365**.
 
    ![Ir al Centro de administración de O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
-
-Para las cuentas que no sean de administrador con acceso al registro de auditoría, debe asignar permisos en el Centro de administración de Exchange Online. Por ejemplo, puede asignar un usuario a un grupo de roles existente, como Administración de organizaciones, o puede crear un nuevo grupo de roles con el rol Registros de auditoría. Para más información, vea [Permisos en Exchange Online](/exchange/permissions-exo/permissions-exo/).
 
 ## <a name="search-only-power-bi-activities"></a>Buscar solo actividades de Power BI
 
@@ -119,9 +119,7 @@ Para exportar el registro de auditoría de Power BI a un archivo .csv, siga esto
 
 ## <a name="use-powershell-to-search-audit-logs"></a>Uso de PowerShell para buscar registros de auditoría
 
-También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. El ejemplo siguiente muestra cómo usar el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para extraer las entradas de registro de auditoría de Power BI.
-
-Para usar el comando [New-PSSession](/powershell/module/microsoft.powershell.core/new-pssession/), su cuenta debe tener una licencia de Exchange Online asignada y necesita tener acceso al registro de auditoría para el inquilino. Para más información sobre cómo conectarse a Exchange Online, vea [Conectarse a Exchange Online mediante PowerShell remoto](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/).
+También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. En el ejemplo siguiente se muestra cómo conectarse a Exchange Online PowerShell y usar luego el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para extraer las entradas de registro de auditoría de Power BI. Para ejecutar el script, debe tener asignado los permisos adecuados, tal y como se describe en la sección [Requisitos](#requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -134,7 +132,7 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-Para consultar otro ejemplo del uso de PowerShell con los registros de auditoría, vea [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del registro de auditoría de Power BI y PowerShell para asignar licencias de Power BI Pro).
+Para más información sobre cómo conectarse a Exchange Online, vea [Conectarse a Exchange Online mediante PowerShell remoto](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Para consultar otro ejemplo del uso de PowerShell con los registros de auditoría, vea [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del registro de auditoría de Power BI y PowerShell para asignar licencias de Power BI Pro).
 
 ## <a name="activities-audited-by-power-bi"></a>Actividades auditadas por Power BI
 

@@ -1,5 +1,5 @@
 ---
-title: Visualizaciones personalizadas en Power BI
+title: Elementos visuales personalizados en Power BI
 description: Visualizaciones personalizadas en Power BI
 author: markingmyname
 ms.author: maghan
@@ -8,19 +8,18 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.subservice: powerbi-custom-visuals
-ms.date: 11/06/2018
+ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 4d38cf108a4c2e863811cfee68fc2d0b95c1990e
-ms.sourcegitcommit: 88ae40a25ea54ef7153885dd04ef57d12522d4e1
+ms.openlocfilehash: 0d634d7fc7753f7aaaf7d7118cfad1ab90b6e82a
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54056050"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072253"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuales personalizados en Power BI
 
-Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Estos objetos visuales se muestran en el panel **Visualizaciones**. Al descargar Power BI Desktop o abrir el servicio Power BI (app.powerbi.com), este conjunto de objetos visuales ya está incluido.
+Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Estos objetos visuales se muestran en el panel **Visualizaciones**. Al descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) o abrir el [servicio Power BI](https://app.powerbi.com), este conjunto de objetos visuales ya está incluido.
 
 ![visualizaciones](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -41,7 +40,7 @@ Los objetos visuales personalizados son paquetes que contienen código para repr
 > [!WARNING]
 > Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y el origen del objeto visual personalizado antes de implementarlo en su informe.
 
-## <a name="organization-visuals"></a>Objetos visuales de la organización
+## <a name="organizational-visuals"></a>Objetos visuales de la organización
 
 Los administradores de Power BI pueden implementar objetos visuales personalizados en su organización, de manera que los autores de informes pueden detectarlos fácilmente y usar objetos visuales personalizados que el administrador haya aprobado para su uso dentro de la organización. Esto confiere al administrador el control de elegir objetos visuales personalizados específicos para implementar en la organización, así como una manera fácil de administrar esos objetos visuales (por ejemplo, actualizar la versión, deshabilitar/habilitar). Para el autor del informe, es un método sencillo para detectar objetos visuales que son únicos para la organización, así como un medio fluido para actualizar esos objetos visuales.
 
@@ -74,7 +73,7 @@ Para ver la lista de objetos visuales personalizados certificados o para enviar 
 
     ![cv importado](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
-### <a name="import-organization-visuals"></a>Importación de objetos visuales de organización
+### <a name="import-organizational-visuals"></a>Importación de objetos visuales de la organización
 
 1. En la parte inferior del panel Visualizaciones, seleccione los puntos suspensivos.
 
@@ -132,7 +131,7 @@ Tiene dos opciones para descargar e importar objetos visuales personalizados; de
 
 ### <a name="download-and-import-custom-visuals-from-microsoft-appsource"></a>Descargar e importar objetos visuales personalizados desde Microsoft AppSource
 
-1. Vaya a [Microsoft AppSource](https://appsource.microsoft.com) y seleccione la pestaña **Aplicaciones**. 
+1. Vaya a [Microsoft AppSource](https://appsource.microsoft.com) y seleccione la pestaña **Aplicaciones**.
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
@@ -175,5 +174,9 @@ Para obtener información sobre cómo solucionar problemas, visite [Troubleshoot
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
 Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales personalizados de Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+
+## <a name="next-steps"></a>Pasos siguientes
+
+* [Visualizaciones en Power BI](visuals/power-bi-report-visualizations.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).

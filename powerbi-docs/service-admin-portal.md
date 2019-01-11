@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6fff11d37b0f099effeafb6b88dbfa68af88f3d6
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: e83c853ac1c3fc7c7d4d5e79c9f6be965d880361
+ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735578"
+ms.lasthandoff: 01/08/2019
+ms.locfileid: "54072299"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -329,9 +329,9 @@ Como administrador, puede ver los códigos para insertar que se generan para su 
 
 ![Códigos para insertar en el portal de administración de Power BI](media/service-admin-portal/embed-codes.png)
 
-## <a name="organization-visuals"></a>Objetos visuales de la organización
+## <a name="organizational-visuals"></a>Objetos visuales de la organización
 
-La pestaña **Objetos visuales de la organización** le permite implementar y administrar los objetos visuales personalizados dentro de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](power-bi-custom-visuals-organization.md)
+La pestaña **Objetos visuales de la organización** permite implementar y administrar los objetos visuales personalizados de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de la organización.
