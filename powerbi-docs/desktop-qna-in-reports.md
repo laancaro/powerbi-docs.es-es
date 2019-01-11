@@ -25,7 +25,7 @@ Para que Preguntas y respuestas sea capaz de interpretar correctamente la gran c
 > [!NOTE]
 > Solo hay preguntas y respuestas disponibles cuando se trabaja con un modelo que contiene datos **importados**. No se pueden realizar conexiones dinámicas con los modelos de SSAS y DirectQuery.
 >
-> Si usa una versión de Windows anterior a Windows 10, Preguntas y respuestas requiere la siguiente actualización del entorno de ejecución de C. Puede intentar instalar las actualizaciones importantes de Windows Update o instalar manualmente el componente necesario desde Microsoft (KB2999226). https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+> Si usa una versión de Windows anterior a Windows 10, Preguntas y respuestas requiere la siguiente actualización del entorno de ejecución de C. Puede intentar instalar las actualizaciones importantes de Windows Update o instalar manualmente el componente necesario desde Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows)
 >
 >
 
