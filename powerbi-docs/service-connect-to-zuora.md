@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b183738c062af1d834a742639369ca90f2cb1bad
-ms.sourcegitcommit: 42475ac398358d2725f98228247b78aedb8cbc4f
+ms.openlocfilehash: 605cd2f135ff6d8626586abbd503bcb44687931d
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50003234"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008612"
 ---
 # <a name="connect-to-zuora-with-power-bi"></a>Conexión a Zuora con Power BI
 Zuora para Power BI permite visualizar datos importantes acerca de ingresos, facturación y suscripciones. Use el panel y los informes predeterminados para analizar las tendencias de uso, realizar un seguimiento de pagos y facturaciones, y supervisar los ingresos recurrentes, o personalícelos para satisfacer sus propias necesidades de panel e informes.
@@ -68,19 +68,19 @@ También incluye estas medidas calculadas:
 | Medida | Descripción | Pseudocálculo |
 | --- | --- | --- |
 | Account: Payments (Cuenta: pagos) |Cantidades totales de pago en un período, basadas en la fecha efectiva de pago. |SUM (Payment.Amount) <br>WHERE<br>Payment.EffectiveDate =< TimePeriod.EndDate<br>AND    Payment.EffectiveDate >= TimePeriod.StartDate |
-| Account: Refunds (Cuenta: reembolsos) |Cantidades totales de reembolso en un período, basadas en la fecha de reembolso. La cantidad se notifica como un número negativo. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
+| Account: Reembolsos |Cantidades totales de reembolso en un período, basadas en la fecha de reembolso. La cantidad se notifica como un número negativo. |-1*SUM(Refund.Amount)<br>WHERE<br>Refund.RefundDate =< TimePeriod.EndDate<br>AND    Refund.RefundDate >= TimePeriod.StartDate |
 | Account: Net Payments (Cuenta: pagos netos) |Pagos y reembolsos de la cuenta en un período. |Account.Payments + Account.Refunds |
 | Account: Active Accounts (Cuenta: cuentas activas) |El número de cuentas que estaban activas en un período. Las suscripciones deben haberse iniciado antes (o durante) la fecha de inicio del período. |COUNT (Account.AccountNumber)<br>WHERE<br>    Subscription.Status != "Expired"<br>AND    Subscription.Status != "Draft"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    (Subscription.SubscriptionEndDate > TimePeriod.StartDate<br>OR<br>Subscription.SubscriptionEndDate = null) –evergreen subscription |
 | Account: Average Recurring Revenue (Cuenta: ingresos recurrentes promedio) |MRR (ingresos recurrentes mensuales) brutos por cuenta activa en un período. |Gross MRR / Account.ActiveAccounts |
 | Account: Cancelled Subscriptions (Cuenta: suscripciones canceladas) |El número de cuentas que cancelaron una suscripción en un período. |COUNT (Account.AccountNumber)<br>WHERE<br>Subscription.Status = "Cancelled"<br>AND    Subscription.SubscriptionStartDate <= TimePeriod.StartDate<br>AND    Subscription.CancelledDate >= TimePeriod.StartDate |
 | Account: Payment Errors (Cuentas: errores de pago) |Valor total de errores de pago. |SUM (Payment.Amount)<br>WHERE<br>Payment.Status = "Error" |
 | Revenue Schedule Item: Recognized Revenue (Elemento de programación de ingresos: ingresos reconocidos) |Ingresos totales reconocidos en un periodo contable. |SUM (RevenueScheduleItem.Amount)<br>WHERE<br>AccountingPeriod.StartDate = TimePeriod.StartDate |
-| Subscription: New Subscriptions (Suscripción: nuevas suscripciones) |Recuento de las nuevas suscripciones en un período. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
-| Invoice: Invoice Items (Factura: artículos de la factura) |Cantidades totales de cargos de artículos de la factura en un período. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Taxation Items (Factura: artículos con impuestos) |Cantidades totales de impuestos de artículos con impuestos en un período. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
-| Invoice: Invoice Item Adjustments (Factura: ajustes de artículos de factura) |Cantidades totales de ajustes de elemento de artículos de factura en un período. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Invoice Adjustments (Factura: ajustes de factura) |Cantidades totales de ajustes de factura en un período. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
-| Invoice: Net Billings (Factura: facturaciones netas) |Suma de los artículos de la factura, artículos con impuestos, ajustes de artículos de factura y ajustes de factura en un período. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
+| Suscripción: New Subscriptions (Suscripción: nuevas suscripciones) |Recuento de las nuevas suscripciones en un período. |COUNT (Subscription.ID)<br>WHERE<br>Subscription.Version = "1"<br>AND    Subscription.CreatedDate <= TimePeriod.EndDate<br>AND    Subscription.CreatedDate >= TimePeriod.StartDate |
+| Invoice: Artículos de factura |Cantidades totales de cargos de artículos de la factura en un período. |SUM (InvoiceItem.ChargeAmount)<br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Invoice: Artículos con impuestos |Cantidades totales de impuestos de artículos con impuestos en un período. |SUM (TaxationItem.TaxAmount)<br>WHERE<br>Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
+| Invoice: Ajustes de artículos de factura |Cantidades totales de ajustes de elemento de artículos de factura en un período. |SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceItemAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceItemAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Invoice: Ajustes de factura |Cantidades totales de ajustes de factura en un período. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.AdjustmentDate <= TimePeriod.EndDate<br>AND    InvoiceAdjustment.AdjustmentDate >= TimePeriod.StartDate |
+| Invoice: Facturaciones netas |Suma de los artículos de la factura, artículos con impuestos, ajustes de artículos de factura y ajustes de factura en un período. |Invoice.InvoiceItems + Invoice.TaxationItems + Invoice.InvoiceItemAdjustments + Invoice.InvoiceAdjustments |
 | Invoice: Invoice Aging Balance (Factura: saldos de antigüedad de la factura) |Suma de saldos de facturas registradas. |SUM (Invoice.Balance) <br>WHERE<br>    Invoice.Status = "Posted" |
 | Invoice: Gross Billings (Factura: facturaciones brutas) |Suma de las cantidades de cargos de artículos de la factura para las facturas registradas en un período. |SUM (InvoiceItem.ChargeAmount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    Invoice.InvoiceDate <= TimePeriod.EndDate<br>AND    Invoice.InvoiceDate >= TimePeriod.StartDate |
 | Invoice: Total Adjustments (Factura: ajustes totales) |Suma de los ajustes de las facturas procesadas y ajustes de artículos de las facturas asociadas a las facturas registradas. |SUM (InvoiceAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    InvoiceAdjustment.Status = "Processed"<br>+<br>SUM (InvoiceItemAdjustment.Amount) <br>WHERE<br>    Invoice.Status = "Posted"<br>AND    invoiceItemAdjustment.Status = "Processed" |

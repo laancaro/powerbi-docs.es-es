@@ -176,7 +176,7 @@ items:
         href: desktop-assume-referential-integrity.md
       - name: Uso del conector de SAP BW en Power BI Desktop (versión preliminar)
         href: desktop-sap-bw-connector.md
-      - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
+      - name: Uso de vínculos de OneDrive para la Empresa en Power BI Desktop
         href: desktop-use-onedrive-business-links.md
       - name: 'Servicio de terceros: Conector de Facebook para Power BI Desktop'
         href: service-facebook-connector.md
@@ -426,7 +426,7 @@ items:
         href: service-features-license-type.md
     - name: Más conceptos
       items:
-      - name: 10 sugerencias para obtener ayuda
+      - name: Diez sugerencias para obtener ayuda
         href: service-tips-for-finding-help.md
       - name: Casos especiales de licencias
         items:
@@ -436,7 +436,7 @@ items:
           href: service-govus-overview.md
         - name: Preguntas más frecuentes para clientes en la nube de Alemania
           href: service-govde-faq.md
-      - name: Otro
+      - name: Otros
         items:
         - name: Microsoft Flow y Power BI
           href: service-flow-integration.md
@@ -584,12 +584,12 @@ items:
         href: service-insights-optimize.md
     - name: Colaboración en Power BI
       items:
-      - name: Crear y compartir aplicaciones
-        href: service-create-distribute-apps.md
       - name: Creación de áreas de trabajo de la aplicación
         href: service-create-workspaces.md
       - name: Crear nuevas áreas de trabajo (versión preliminar)
         href: service-create-the-new-workspaces.md
+      - name: Crear y compartir aplicaciones
+        href: service-create-distribute-apps.md
       - name: Administración de almacenamiento de datos en áreas de trabajo
         href: service-admin-manage-your-data-storage-in-power-bi.md
       - name: Conexión a los archivos de OneDrive de su grupo
@@ -612,7 +612,7 @@ items:
         href: service-publish-to-web.md
       - name: Compartir un panel que se vincula a un libro de Excel en OneDrive
         href: service-share-dashboard-that-links-to-excel-onedrive.md
-      - name: Power BI Publisher para Excel
+      - name: Power BI Publisher for Excel
         href: publisher-for-excel.md
     - name: Solucionar problemas
       items:
@@ -636,7 +636,7 @@ items:
         href: service-admin-troubleshooting-power-bi-personal-gateway.md
       - name: Solución de problemas de origen de datos no admitido para la actualización
         href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-      - name: Solución de problemas de actualización programada de bases de datos SQL de Azure
+      - name: Solución de problemas de la actualización programada para Azure SQL Database
         href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
       - name: 'Error: No se encontraron datos en su libro de Excel'
         href: service-admin-troubleshoot-excel-workbook-data.md
@@ -750,8 +750,6 @@ items:
           href: service-connect-to-mandrill.md
         - name: Marketo
           href: service-connect-to-marketo.md
-        - name: Microsoft Azure Enterprise
-          href: service-connect-to-azure-enterprise.md
         - name: Microsoft Dynamics AX
           href: service-connect-to-microsoft-dynamics-ax.md
         - name: Microsoft Dynamics CRM
@@ -820,11 +818,11 @@ items:
           href: service-organizational-content-pack-introduction.md
         - name: Creación y publicación de un paquete de contenido organizativo
           href: service-organizational-content-pack-create-and-publish.md
-        - name: Quitar la conexión a un paquete de contenido organizativo.
+        - name: Eliminación de una conexión a un paquete de contenido organizativo
           href: service-organizational-content-pack-disconnect.md
       - name: Certificación de paquetes de contenido
         items:
-        - name: Programa de certificación del paquete de contenido
+        - name: Programa de certificación de paquete de contenido
           href: service-content-pack-overview.md
         - name: Creación del paquete de contenido de plantillas
           href: template-content-pack-authoring.md
@@ -942,7 +940,7 @@ items:
         href: https://go.microsoft.com/fwlink/?linkid=848280
       - name: Stack Overflow
         href: https://go.microsoft.com/fwlink/?linkid=848281
-  - name: Objetos visuales personalizados
+  - name: Elementos visuales personalizados
     items:
     - name: Información general
       items:
@@ -1190,6 +1188,8 @@ items:
         href: service-gateway-sso-overview.md
       - name: 'Inicio de sesión único (SSO): Kerberos'
         href: service-gateway-sso-kerberos.md
+      - name: 'Inicio de sesión único (SSO): Kerberos (basado en los recursos)'
+        href: service-gateway-sso-kerberos-resource.md
       - name: 'Inicio de sesión único (SSO): SAML'
         href: service-gateway-sso-saml.md
     - name: Configuración de proxy
@@ -1287,9 +1287,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ba984e4e4f948f0cc2772dbe632c450bd77eb6b2
-ms.sourcegitcommit: b3af4f7ef486c95cea173caea5a31d0472816ddd
+ms.openlocfilehash: cf29eebc31ef8a62b20b08606e97b4fd035b3fec
+ms.sourcegitcommit: c4455dcb6d9a091ac80f4a5135433b162fcaba58
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2019
-ms.locfileid: "54136585"
+ms.lasthandoff: 01/11/2019
+ms.locfileid: "54211376"

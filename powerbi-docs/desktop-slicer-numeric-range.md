@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f997ee7574c5dd9dc6b4d28767d599a97bf297ed
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: a2402872744b3029e37bf49eaaeae27a3ad95734
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52669851"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983632"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Uso de la segmentación de intervalos numéricos en Power BI Desktop
 Gracias a la **segmentación de intervalos numéricos**, puede aplicar todo tipo de filtros a cualquier columna numérica del modelo de datos. Puede filtrar **entre** números, o por un número **menor o igual que** o **mayor o igual que** otro número. Aunque esto puede parecer demasiado simple, es una manera muy eficaz de filtrar los datos.
@@ -54,6 +54,14 @@ Por último, si se selecciona **Mayor o igual que**, desaparecerá el control de
 ## <a name="snap-to-whole-numbers-with-the-numeric-range-slicer"></a>Ajuste a números enteros con la segmentación de intervalos numéricos
 
 Una segmentación de rango numérico se ajustará a números enteros si el tipo de datos del campo subyacente es **número entero**. Esto permite que la segmentación se alinee limpiamente con números enteros. Los campos de tipo **número decimal** permiten especificar o seleccionar fracciones de un número. El formato aplicado en el cuadro de texto coincide con el formato establecido en el campo, aunque puede escribir o seleccionar números más precisos.
+
+## <a name="display-formatting-with-the-date-range-slicer"></a>Mostrar formato con la segmentación de datos de intervalo de fechas
+
+Al usar una segmentación de datos para mostrar o configurar un intervalo de fechas, el formato de la fecha siempre se muestra con el formato **Fecha corta**, de acuerdo con la configuración regional del sistema operativo o el explorador del usuario. Este es el formato de presentación, independientemente de la configuración del tipo de datos de los datos subyacentes o el modelo. 
+
+Por ejemplo, el formato del tipo de datos subyacente podría ser fecha larga (por ejemplo, *dddd, MMMM, aaaa*, de forma que el formato de una fecha en otros objetos visuales o circunstancias sería *Miércoles, 14 de marzo de 2001*), pero en la segmentación de datos de intervalo de fechas esa fecha se mostrará como *03/14/2001*.
+
+Mostrar el formato **Fecha corta** en la segmentación de datos garantiza que la longitud de la cadena es coherente y compacta dentro de la segmentación de datos. 
 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones

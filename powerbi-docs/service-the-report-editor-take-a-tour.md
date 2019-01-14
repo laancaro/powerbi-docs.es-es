@@ -1,6 +1,6 @@
 ---
-title: Un paseo por el editor de informes...
-description: Un paseo por el editor de informes.
+title: Visita al editor de informes
+description: El editor de informes del servicio Power BI y el de Power BI Desktop son similares.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,57 +8,54 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 04/11/2018
+ms.date: 12/19/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 9ce4d09e20fe02ff0552045e307f9d63aa834bd3
-ms.sourcegitcommit: fb1885da7cf11367660edbf7b7346dc039ee9b5d
+ms.openlocfilehash: 7a3b4c9e47a85d11446ba3729c258bbb2868acec
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47187591"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983655"
 ---
-# <a name="the-report-editortake-a-tour"></a>Un paseo por el editor de informes...
-## <a name="editing-reports-in-power-bi-service-and-power-bi-desktop"></a>Edición de informes en el servicio Power BI y en Power BI Desktop
-El editor de informes del servicio Power BI y el editor de informes de Power BI Desktop son muy similares. En el vídeo se muestra el editor de informes en Power BI Desktop y, en este artículo, se muestra el editor de informes en el servicio Power BI. 
+# <a name="tour-of-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 
-## <a name="the-difference-between-report-creators-and-report-consumers"></a>Diferencia entre *creadores* y *consumidores* de informes
-La capacidad de crear y editar un informe está restringida a los propietarios de los informes (es decir, los *creadores*). Si está *consumiendo* un informe que se ha compartido con usted, aún podrá abrirlo e interactuar con el informe en el servicio Power BI [solo en la vista de lectura](consumer/end-user-reading-view.md), pero no dispondrá de las sólidas y amplias características disponibles al creador del informe.  
+El *editor de informes* del servicio Power BI y el editor de informes de Power BI Desktop son similares. En el vídeo se muestra el editor de informes en Power BI Desktop y, en este artículo, se muestra el editor de informes en el servicio Power BI. 
 
-Para más información sobre la vista de lectura del informe, consulte [Vista de lectura y vista de edición de informes del servicio Power BI](consumer/end-user-reading-view.md). 
+Como creador de informes, se encarga de crear y editar paneles e informes. Tras ello, los distribuye a los usuarios de informes. Se puede interactuar con los paneles y los informes en la vista de lectura del servicio Power BI, pero no modificarlos. Obtenga más información sobre las diferencias entre [la vista de lectura y la vista de edición de informes del servicio Power BI](consumer/end-user-reading-view.md). 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
-En el servicio Power BI, el *editor de informes* solo está disponible en la [vista de edición](consumer/end-user-reading-view.md). Para abrir un informe en la vista de edición, debe ser el propietario o el creador del informe.
+En el servicio Power BI, el editor de informes solo está disponible en la vista de edición. Para abrir un informe en la vista de edición, debe ser el propietario o el creador del informe, o bien ser colaborador en el área de trabajo de la aplicación donde el informe se hospeda.
 
-El editor de informes de Power BI se compone de tres secciones:  
+El editor de informes de Power BI contiene tres secciones:  
 
 1. los paneles **Campos**, **Visualizaciones** y **Filtros**
 2. las barras de navegación superior    
 3. el lienzo del informe     
 
-![](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
+![Secciones del editor de informes](media/service-the-report-editor-take-a-tour/power-bi-report-canvas.png)
 
 ## <a name="1-the-report-editor-panes"></a>1. Paneles del editor de informes
 ![Editor de informes de Power BI](media/service-the-report-editor-take-a-tour/power-bi-report-panes.png)
 
-Hay tres paneles visibles al abrir un informe: Visualizaciones, Filtros y Campos. Los paneles del lado izquierdo, las Visualizaciones y los Filtros controlan la apariencia de las visualizaciones, como el tipo, los colores, el filtrado y el formato.  Y el panel de la derecha, Campos, administra los datos subyacentes que se usan en las visualizaciones. 
+Al abrir un informe por primera vez, verá tres paneles: Visualizaciones, Filtros y Campos. Los paneles del lado izquierdo, las Visualizaciones y los Filtros controlan la apariencia de las visualizaciones, como el tipo, los colores, el filtrado y el formato.  Y el panel de la derecha, Campos, administra los datos subyacentes que se usan en las visualizaciones. 
 
-El contenido mostrado en el editor de informes varía según las opciones seleccionadas en el lienzo de informe.  Por ejemplo, al seleccionar un objeto visual individual, 
+El contenido mostrado en el editor de informes varía según las opciones seleccionadas en el lienzo de informe.  Por ejemplo, al seleccionar un objeto visual individual:
 
 |  |  |
 | --- | --- |
-| ![](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>La parte superior del panel Visualización identifica el tipo de objeto visual en uso; en este ejemplo, un gráfico de columnas agrupadas.<br><br></li> <li>La parte inferior del panel Visualización (es posible que tenga que desplazarse hacia abajo) muestra los campos que se están utilizando en el objeto visual. Este gráfico está usando FiscalMonth, DistrictManager y Total Sales Variance. <br><br></li><li>El panel Filtros (es posible que tenga que desplazarse hacia abajo) muestra los filtros que se han aplicado. <br><br></li><li>El panel Campos muestra las tablas disponibles y, si se expande el nombre de la tabla, los campos que forman la tabla. La fuente amarilla le indica que se está utilizando al menos un campo de dicha tabla en la visualización.<br><br></li><li>![Icono de rodillo de pintar](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar el panel de formato, en la visualización seleccionada, seleccione el icono de rodillo de pintar.<br><br></li><li>![Icono de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar el panel de análisis, seleccione el icono de lupa.</ul> |
+| ![Paneles del editor de informes](media/service-the-report-editor-take-a-tour/power-bi-panes.png) |<ul><li>La parte superior del panel Visualización identifica el tipo de objeto visual en uso; en este ejemplo, un gráfico de columnas agrupadas.<br><br></li> <li>La parte inferior del panel Visualización (es posible que tenga que desplazarse hacia abajo) muestra los campos que se están utilizando en el objeto visual. Este gráfico está usando FiscalMonth, DistrictManager y Total Sales Variance. <br><br></li><li>El panel Filtros (es posible que tenga que desplazarse hacia abajo) muestra los filtros que se han aplicado. <br><br></li><li>El panel Campos muestra las tablas disponibles y, si se expande el nombre de la tabla, los campos que forman la tabla. La fuente amarilla le indica que se está utilizando al menos un campo de dicha tabla en la visualización.<br><br></li><li>![Icono de rodillo de pintar](media/service-the-report-editor-take-a-tour/power-bi-paint-roller-icon.png) Para mostrar el panel de formato, en la visualización seleccionada, seleccione el icono de rodillo de pintar.<br><br></li><li>![Icono de lupa](media/service-the-report-editor-take-a-tour/power-bi-magnifying-icon.png) Para mostrar el panel de análisis, seleccione el icono de lupa.</ul> |
 
-## <a name="the-visualizations-pane-from-top-to-bottom"></a>El panel Visualizaciones (de arriba a abajo)
+## <a name="the-visualizations-pane"></a>Panel Visualizaciones
 ![Parte superior del panel Visualizaciones](media/service-the-report-editor-take-a-tour/selectviz.png)
 
 Aquí es donde se selecciona un tipo de visualización. Las imágenes pequeñas se denominan *plantillas*. En la imagen anterior, se selecciona el gráfico de barras agrupadas. Si no selecciona primero un tipo de visualización, sino que empieza a crear una visualización mediante la selección de campos, Power BI seleccionará el tipo de visualización por usted. Puede mantener la selección de Power BI o cambiar el tipo seleccionando otra plantilla. Cambie tantas veces como necesite para buscar el tipo de visualización que mejor represente los datos.
 
-### <a name="manage-the-fields-used-in-your-visual"></a>Administre los campos utilizados en el objeto visual.
+### <a name="manage-the-fields-in-your-visual"></a>Administrar los campos en el objeto visual
 ![Parte intermedia del panel Visualizaciones](media/service-the-report-editor-take-a-tour/power-bi-field-list.png)
 
-Los cubos (a veces llamados *áreas*) que se muestran en este panel varían dependiendo del tipo de visualización seleccionada.  Por ejemplo, si seleccionó un gráfico de barras, verá cubos para: Valores, Ejes y Leyenda. Al seleccionar un campo o arrastrarlo hasta el lienzo, Power BI agrega ese campo a uno de los cubos.  También puede arrastrar campos desde la lista de Campos directamente a los cubos.  Algunos cubos están limitados a determinados tipos de datos.  Por ejemplo, **Valores** no aceptará campos no numéricos. Por tanto, si se arrastra un campo **nombredeempleado** al cubo **Valores** , Power BI lo cambia a **recuento de nombredeempleado**.
+Los cubos (a veces llamados *áreas*) que se muestran en este panel varían dependiendo del tipo de visualización seleccionada.  Por ejemplo, si seleccionó un gráfico de barras, verá cubos para lo siguiente: Valores, Ejes y Leyenda. Al seleccionar un campo o arrastrarlo hasta el lienzo, Power BI agrega ese campo a uno de los cubos.  También puede arrastrar campos desde la lista de Campos directamente a los cubos.  Algunos cubos están limitados a determinados tipos de datos.  Por ejemplo, **Valores** no aceptará campos no numéricos. Por tanto, si se arrastra un campo **nombredeempleado** al cubo **Valores** , Power BI lo cambia a **recuento de nombredeempleado**.
 
 ### <a name="remove-a-field"></a>Quitar un campo
 Para quitar un campo de la visualización, seleccione la **X** de la derecha del nombre de campo.
@@ -70,7 +67,7 @@ Para más información, consulte [Agregar visualizaciones a un informe de Power 
 ### <a name="format-your-visuals"></a>Dar formato a los objetos visuales
 Seleccione el icono del rodillo de pintura para mostrar la pestaña Formato. La opción disponible depende del tipo de visualización seleccionada.
 
-![Panel de formato](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
+![Panel de formato en el editor de informes](media/service-the-report-editor-take-a-tour/power-bi-formatting.png)
 
 Las posibilidades de formato son prácticamente ilimitadas.  Para más información, explore por su cuenta o consulte estos artículos:
 
@@ -81,7 +78,7 @@ Las posibilidades de formato son prácticamente ilimitadas.  Para más informaci
 ### <a name="add-analytics-to-your-visualizations"></a>Agregar análisis a las visualizaciones
 Seleccione el icono de lupa para mostrar el panel de análisis. La opción disponible depende del tipo de visualización seleccionada.
 
-![](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
+![Panel de análisis en el editor de informes](media/service-the-report-editor-take-a-tour/power-bi-analytics.png)    
 Con el panel de análisis del servicio Power BI, puede agregar líneas de referencia dinámicas a visualizaciones y destacar las tendencias o información importantes. Para más información, consulte [Panel de análisis del servicio Power BI](service-analytics-pane.md) o [Panel de análisis en Power BI Desktop](desktop-analytics-pane.md).
 
 - - -
@@ -105,30 +102,33 @@ El panel Campos muestra las tablas y campos que existen en los datos y están di
 **NOTA**: si usa Power BI Desktop, también podrá acceder a las opciones para mostrar/ocultar campos, agregar cálculos, etc.
 
 ### <a name="what-do-the-field-icons-mean"></a>¿Qué significan los iconos de campo?
-* **∑ Agregados** Un agregado es un valor numérico que se suma o cuyo promedio se calcula, por ejemplo. Los agregados se importan con los datos (definidos en el modelo de datos en el que se basa su informe).
-  Para más información, consulte [Agregados en los informes de Power BI](service-aggregates.md).
-* ![icono de calculadora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Medidas calculadas (también denominadas campos calculados)**  
-   Cada campo calculado tiene su propia fórmula codificada de forma rígida. No se puede cambiar el cálculo, por ejemplo, si es una suma, solo podrá ser una suma. Para obtener más información, [lea la descripción de las medidas](desktop-measures.md)
-* ![Icono de campo único](media/service-the-report-editor-take-a-tour/icon.png) **Campos únicos**  
-   Los campos con este icono se importaron desde Excel y están configurados para mostrar todos los valores, incluso si tienen duplicados. Por ejemplo, los datos pueden tener dos registros para las personas llamadas "John Smith" y cada una se tratará de forma única: no se sumarán.  
-* **![Icono de geografía](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Campos de geografía**  
-   Los campos de ubicación se pueden usar para crear visualizaciones de mapas. 
-* **![Icono de jerarquía](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Jerarquía**  
-   Seleccione la flecha para mostrar los campos que componen la jerarquía. 
+**∑ Agregados** Un agregado es un valor numérico que se suma o cuyo promedio se calcula, por ejemplo. Los agregados se importan con los datos (definidos en el modelo de datos en el que se basa su informe).
+Para más información, consulte [Agregados en los informes de Power BI](service-aggregates.md).
 
-- - -
+![icono de calculadora](media/service-the-report-editor-take-a-tour/pbi_calculated_icon.png) **Medidas calculadas (también denominadas campos calculados)**  
+Cada campo calculado tiene su propia fórmula codificada de forma rígida. No se puede cambiar el cálculo, por ejemplo, si es una suma, solo podrá ser una suma. Para obtener más información, [lea la descripción de las medidas](desktop-measures.md)
+
+![Icono de campo único](media/service-the-report-editor-take-a-tour/icon.png) **Campos únicos**  
+Los campos con este icono se importaron desde Excel y están configurados para mostrar todos los valores, incluso si tienen duplicados. Por ejemplo, los datos pueden tener dos registros para las personas llamadas "John Smith" y cada una se tratará de forma única: no se sumarán.  
+
+**![Icono de geografía](media/service-the-report-editor-take-a-tour/pbi_geo_icon.png) Campos de geografía**  
+Los campos de ubicación se pueden usar para crear visualizaciones de mapas. 
+
+**![Icono de jerarquía](media/service-the-report-editor-take-a-tour/power-bi-hierarchy-icon.png) Jerarquía**  
+Seleccione la flecha para mostrar los campos que componen la jerarquía. 
+
 ## <a name="2-the-top-navigation-bar"></a>2. Barra de navegación superior
 Las acciones disponibles de la barra de navegación superior son numerosas; con nuevas acciones que se agregan todo el tiempo. Para obtener información sobre una acción concreta, use la tabla de contenido de documentación de Power BI o el cuadro de búsqueda.
 
 ## <a name="3-the-report-canvas"></a>3. El lienzo del informe
 El lienzo del informe es donde se muestra el trabajo. Al utilizar los paneles Visualizaciones, Filtros y Campos para crear objetos visuales, estos se compilan y se muestran en el lienzo del informe. Cada pestaña de la parte inferior del lienzo representa una página del informe. Seleccione una pestaña para abrir esa página. 
 
-## <a name="next-steps"></a>Pasos siguientes:
+## <a name="next-steps"></a>Pasos siguientes
 [Crear un informe](service-report-create-new.md)
 
-Lea más sobre los informes del [servicio Power BI](consumer/end-user-reports.md), [Power BI Desktop](desktop-report-view.md) y [Power BI Mobile](consumer/mobile/mobile-apps-view-phone-report.md).
+Obtenga más información sobre los informes del [servicio Power BI](service-report-create-new.md), [Power BI Desktop](desktop-report-view.md) y las [aplicaciones móviles de Power BI](consumer/mobile/mobile-apps-view-phone-report.md).
 
-[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
+[Conceptos básicos para los diseñadores de Power BI](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

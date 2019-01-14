@@ -1,6 +1,6 @@
 ---
-title: Filtrado y uso compartido de informes de Power BI con compañeros
-description: Aprenda a compartir informes de Power BI filtrados con compañeros de su organización.
+title: Uso compartido de un informe de Power BI filtrado con los compañeros de trabajo
+description: Aprenda a filtrar un informe de Power BI y a compartirlo con los compañeros de la organización.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
@@ -8,25 +8,26 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 01/18/2018
+ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 38a735a6cc258f3285787202b832ade9c6525994
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: d5e05775d310af37b2c96c6e9e255de25fe5effe
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51678981"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983448"
 ---
 # <a name="share-a-filtered-power-bi-report-with-your-coworkers"></a>Uso compartido de un informe de Power BI filtrado con los compañeros de trabajo
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md).
 
-Con el uso compartido, usted y sus destinatarios necesitarán una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium.md). ¿Sugerencias? Al equipo de Power BI le interesa siempre su opinión, así que vaya a [sitio de Power BI Community](https://community.powerbi.com/) y déjenos sus comentarios.
+Con el uso compartido, usted y sus destinatarios necesitarán una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium.md). 
 
-Puede compartir un informe con compañeros de trabajo en el mismo dominio de correo electrónico que usted, desde la mayoría de los lugares del servicio Power BI: Favoritos, Recientes, Compartido conmigo (si el propietario lo permite), Mi área de trabajo u otras áreas de trabajo. Cuando comparte un informe, los usuarios con quienes lo comparte pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). 
+Puede compartir un informe con compañeros de trabajo en el mismo dominio de correo electrónico que usted, desde la mayoría de los lugares del servicio Power BI: Favoritos, Recientes, Compartido conmigo (si el propietario lo permite), Mi área de trabajo u otras áreas de trabajo. Cuando comparte un informe, los compañeros con quienes lo comparte pueden verlo e interactuar con él, pero no modificarlo. Ellos ven los mismos datos que usted ve en el informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). 
+
+¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. Pruebe a crear una dirección URL personalizada. El informe se filtrará cuando los destinatarios lo abran por primera vez. Pueden quitar el filtro modificando la dirección URL.
 
 ## <a name="filter-and-share-a-report"></a>Filtrado y uso compartido de un informe
-¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. La forma de hacerlo es mediante la creación de una dirección URL personalizada.
 
 1. Abra el informe en [vista de edición](consumer/end-user-reading-view.md), aplique el filtro y guarde el informe.
    
@@ -37,7 +38,7 @@ Puede compartir un informe con compañeros de trabajo en el mismo dominio de cor
    
    ?filter=*tablename*/*fieldname* eq *value*
    
-    El campo debe ser de tipo **cadena** y ni el *nombre de la tabla* ni el *nombre del campo* pueden contener espacios.
+    El campo debe ser de tipo **string**. Los valores de *tablename* o *fieldname* no pueden contener espacios.
    
    En nuestro ejemplo, el nombre de la tabla es **Almacén**, el nombre del campo es **Territorio** y el valor por el que quiere filtrar es **NC**:
    

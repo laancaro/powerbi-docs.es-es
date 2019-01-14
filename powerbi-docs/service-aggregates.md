@@ -1,24 +1,24 @@
 ---
-title: Agregados (suma, promedio, máximo, etc.) en las visualizaciones
-description: Cambio de la agregación de un gráfico (suma, media, máximo, etc.) en Power BI
+title: Trabajar con agregados (suma, promedio, etc.) en el servicio Power BI
+description: Aprenda a cambiar la agregación de un gráfico (suma, media, máximo, etc.) en el servicio Power BI.
 author: mgblythe
-manager: kvivek
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2018
+ms.date: 12/21/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: dfc3006c37d6055bac435fceb05febd596f0cd1a
-ms.sourcegitcommit: 72c9d9ec26e17e94fccb9c5a24301028cebcdeb5
+ms.openlocfilehash: 7a88cc7f210c6119e57a5dcf30920a95e180b85f
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "53026486"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983724"
 ---
-# <a name="aggregates-in-power-bi-visualizations"></a>Agregados en las visualizaciones de Power BI
+# <a name="work-with-aggregates-sum-average-etc-in-the-power-bi-service"></a>Trabajar con agregados (suma, promedio, etc.) en el servicio Power BI
 ## <a name="what-is-an-aggregate"></a>¿Qué es un agregado?
 A veces, querrá combinar matemáticamente los valores de los datos. La operación matemática podría ser suma, promedio, máximo, recuento, etc. A la combinación de los valores de los datos se le llama *agregación*. El resultado de esa operación matemática es un *agregado*. 
 
@@ -70,7 +70,7 @@ Supongamos que tiene un gráfico que suma las unidades vendidas de los distintos
 
 Algunas de las opciones que pueden estar disponibles para agregar un campo:
 
-* **No resumir**. Si se elige esta opción, cada valor de ese campo se trata por separado y no se resume. Se suele usar si hay una columna de identificador numérico que no debe sumar.
+* **No resumir**. Si se elige esta opción, cada valor de ese campo se trata por separado y no se resume. Use esta opción si hay una columna de identificador numérico que no debe sumar.
 * **Suma**. Suma todos los valores de ese campo.
 * **Media**. Calcula la media aritmética de los valores.
 * **Mínimo**. Muestra el valor menor.
@@ -79,7 +79,7 @@ Algunas de las opciones que pueden estar disponibles para agregar un campo:
 * **Recuento (Distinct).** Cuenta el número de valores diferentes en ese campo.
 * **Desviación estándar.**
 * **Varianza**.
-* **Mediana**.  Muestra el valor de la mediana (intermedio). Este es el valor que tiene el mismo número de elementos por encima que por debajo.  Si hay dos medianas, Power BI calcula su promedio.
+* **Mediana**.  Muestra el valor de la mediana (intermedio). Este valor tiene el mismo número de elementos por encima que por debajo.  Si hay dos medianas, Power BI calcula su promedio.
 
 Por ejemplo, estos datos:
 
@@ -109,7 +109,7 @@ Arrojarían estos resultados:
 ## <a name="create-an-aggregate-using-a-category-text-field"></a>Creación de un agregado con un campo de categoría (texto)
 También es posible agregar un campo no numérico. Por ejemplo, si tiene un campo Nombre de producto, puede agregarlo como un valor y después establecerlo en **Recuento**, **Recuento distinto**, **Primero** o **Último**. 
 
-1. En este ejemplo, arrastramos el campo **Product** al área Valores. El área Valores se utiliza normalmente para campos numéricos. Power BI reconoce que esto es un campo de texto, establece el agregado en **No resumir** y presenta una tabla de una sola columna.
+1. En este ejemplo, arrastramos el campo **Product** al área Valores. El área Valores se utiliza normalmente para campos numéricos. Power BI reconoce que este campo es un campo de texto, establece el agregado en **No resumir** y presenta una tabla de una sola columna.
    
    ![Campo Producto en el área Valores](media/service-aggregates/power-bi-aggregate-value.png)
 2. Si cambiamos la agregación de su valor predeterminado **No resumir** a **Recuento (Distinto)**, Power BI contará el número de productos diferentes. En este caso, hay 4.
@@ -141,9 +141,9 @@ A4:  Y una tercera posibilidad es que esté usando el campo para un eje. Por eje
 >[!NOTE]
 >La excepción a esta regla son los gráficos de dispersión, que *requieren* valores agregados para los ejes X e Y.
 
-P:  ¿Por qué no puedo agregar campos de texto para los orígenes de datos SSAS?
+P:  ¿Por qué no puedo agregar campos de texto de orígenes de datos de SQL Server Analysis Services (SSAS)?
 
-R:  Las conexiones dinámicas a SSAS MD no permiten ninguna agregación en el lado cliente. Esto incluye primero, último, promedio, mínimo, máximo y suma.
+R:  Las conexiones dinámicas a modelos multidimensionales de SSAS no admiten agregaciones del lado cliente, como first, last, avg, min, max y sum.
 
 P:  Tengo un gráfico de dispersión y quiero que mi campo *no* se agregue.  ¿Cómo lo hago?
 

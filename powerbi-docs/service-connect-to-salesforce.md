@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 5cd858ad14c1a5fcf76ddf23dafdac2bb5585b10
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548267"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008589"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conexión a Salesforce con Power BI
 Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Al crear esta conexión, se recuperan los datos y se proporciona automáticamente un panel de información y los informes relacionados en función de sus datos. 
@@ -80,7 +80,7 @@ Si se producen errores, revise los requisitos anteriores. Tenga en cuenta tambi�
 
 ### <a name="unable-to-connect-to-the-remote-server-message"></a>Mensaje "Unable to connect to the remote server" (No se puede conectar al servidor remoto)
 
-Si recibe un mensaje "No se puede conectar al servidor remoto" al intentar conectarse a su cuenta de Salesforce, eche un vistazo a esta solución en el foro de Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Mensaje de error de inicio de sesión del conector de Salesforce: no se puede conectar al servidor remoto)
+Si recibe un mensaje "No se puede conectar al servidor remoto" al intentar conectarse a su cuenta de Salesforce, eche un vistazo a esta solución en el foro de Outsystems: [Salesforce Connector Log In Error Message: Unable to connect to the remote server](https://www.outsystems.com/forums/Forum_TopicView.aspx?TopicId=17674&TopicName=log-in-error-message-unable-to-connect-to-the-remote-server&) (Mensaje de error de inicio de sesión del conector de Salesforce: no se puede conectar al servidor remoto).
 
 
 ## <a name="next-steps"></a>Pasos siguientes

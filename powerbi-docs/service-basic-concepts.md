@@ -8,38 +8,35 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: d18c44724899b243a34821db4d4866863e577b48
-ms.sourcegitcommit: 35d763dfc75c229204d36fd8b35c1e860786b707
+ms.openlocfilehash: b76a0910a18c3239dc6c35597ebea8b085afcd48
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2018
-ms.locfileid: "52332043"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983862"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
-En este artículo se da por supuesto que ya se ha [registrado en el servicio Power BI](service-self-service-signup-for-power-bi.md) y ha [agregado algunos datos](service-get-data.md). Si aún no tiene ningún dato, puede instalar un [paquete de contenido de ejemplo de Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+En este artículo se da por supuesto que ya se ha [registrado en el servicio Power BI](service-self-service-signup-for-power-bi.md) y ha [agregado algunos datos](service-get-data.md). Si aún no tiene ningún dato, pruebe a instalar un [paquete de contenido de ejemplo de Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
 
-Cuando abra el servicio Power BI, verá que se muestra un **_panel_**. Los paneles son algo que diferencian al servicio Power BI de Power BI Desktop.
+![Pantalla principal del servicio Power BI en un explorador](media/service-basic-concepts/power-bi-home-screen.png)
 
-![Servicio Power BI en un explorador](media/service-basic-concepts/completenewest.png)
+Estos son los elementos que se ven al abrir el servicio Power BI en el explorador:
 
-Aquí tiene las principales características de la interfaz de usuario del servicio Power BI:
-
-1. panel de navegación (izquierdo)
-2. lienzo (en este caso, el panel con iconos)
-3. Cuadro de pregunta de Preguntas y respuestas
-4. botones de iconos, incluidos los de ayuda y los comentarios
-5. título del panel (ruta de navegación)
-6. Iniciador de aplicaciones de Office 365
-7. Botón Inicio de Power BI
-8. Botones de iconos con etiqueta
+1. Panel de navegación (izquierdo)
+2. Iniciador de aplicaciones de Office 365
+3. Botón Inicio de Power BI
+4. Botones de iconos, incluidos los de configuración, ayuda y comentarios
+5. Cuadro de búsqueda
+6. Mosaicos de un panel favoritos
+7. Informes y paneles favoritos y frecuentes
 
 Más adelante se explicarán estas características de forma detallada, pero primero analizaremos algunos conceptos de Power BI.
 
-Es posible que quiera ver este video antes de leer el resto del artículo.  En el video, Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
+Conviene ver este vídeo antes de leer el resto del artículo.  En el video, Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -48,7 +45,7 @@ Es posible que quiera ver este video antes de leer el resto del artículo.  En e
 Los cuatro pilares principales de Power BI son los **_paneles_**, los **_informes_**, los **_libros_** y los **_conjuntos de datos_**. Y todos ellos se organizan en **_áreas de trabajo_**. Es importante comprender las áreas de trabajo antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
 
 ## <a name="workspaces"></a>Áreas de trabajo
-Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Hay dos tipos de áreas de trabajo: *Mi área de trabajo* y *áreas de trabajo de la aplicación*. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave de su organización. Las aplicaciones son interactivas, pero no se pueden editar.
+Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Existen dos tipos de áreas de trabajo: *Mi área de trabajo* y las *áreas de trabajo de la aplicación*. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave de su organización. Las aplicaciones son interactivas, pero no se pueden editar.
 
 - *Mi área de trabajo* es el área de trabajo personal de cualquier cliente de Power BI en la que puede trabajar con su contenido. Solo usted tiene acceso a esta área de trabajo. Puede compartir paneles e informes desde Mi área de trabajo. Si desea colaborar en paneles e informes o crear una aplicación, querrá trabajar en el área de trabajo de una aplicación.      
 -  Las *áreas de trabajo de la aplicación* se usan para colaborar y compartir el contenido con los compañeros. También son los lugares donde puede crear, publicar y administrar aplicaciones para su organización. Piense en ellas como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. Puede agregar compañeros a las áreas de trabajo de la aplicación y colaborar en paneles, informes, libros y conjuntos de datos. Todos los miembros del área de trabajo de la aplicación necesitan licencias de Power BI Pro, pero los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
@@ -59,7 +56,7 @@ Para más información, consulte la sección **Compartir tu trabajo** de la tabl
 Ahora pasemos a los bloques de creación de Power BI. No se pueden tener paneles ni informes sin datos (bueno, se pueden tener paneles e informes vacíos, pero no serán útiles hasta que tengan datos), por eso comenzaremos con **conjuntos de datos**.
 
 ## <a name="datasets"></a>Conjuntos de datos
-Un *conjunto de datos* es una colección de datos que *importa* o a lo que se *conecta*. Power BI permite importar y conectar con todos los tipos de conjuntos de datos y ponerlos todos en un solo lugar.  
+Un *conjunto de datos* es una colección de datos que se *importa* o a la que se *conecta*. Power BI permite importar y conectar con todos los tipos de conjuntos de datos y ponerlos todos en un solo lugar.  
 
 Los conjuntos de datos están asociados a *áreas de trabajo* y un único conjunto de datos puede formar parte de muchas áreas de trabajo. Cuando se abre un área de trabajo, los conjuntos de datos asociados aparecen en la pestaña **Conjuntos de datos**. Cada conjunto de datos de la lista representa un origen de datos, por ejemplo, un libro de Excel en OneDrive, un conjunto de datos tabulares locales de SSAS o una base de datos de Salesforce. Hay muchos orígenes de datos compatibles diferentes y estamos agregando nuevos todo el tiempo. [Consulte la lista de tipos de conjuntos de datos que se pueden usar con Power BI.](service-get-data.md)
 
@@ -87,9 +84,9 @@ Los conjuntos de datos se pueden actualizar, cambiar de nombre, explorar y elimi
 * [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md)
 
 ## <a name="reports"></a>Informes
-Un informe de Power BI consta de una o varias páginas de visualizaciones (tablas y gráficos, como gráficos de líneas, gráficos circulares, gráficos de rectángulos y mucho más). A las visualizaciones también se les denomina **_objetos visuales_**. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los informes pueden crearse desde cero en Power BI, pueden importarse con paneles que otros compañeros comparten con usted o pueden crearse al conectarse a conjuntos de datos de Excel, Power BI Desktop, bases de datos, aplicaciones SaaS y [aplicaciones](service-get-data.md).  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
+Un informe de Power BI se compone de una o más páginas de visualizaciones, como gráficos de líneas, mapas y gráficos de rectángulos. A las visualizaciones también se les denomina **_objetos visuales_**. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los informes pueden crearse desde cero en Power BI, pueden importarse con paneles que otros compañeros comparten con usted o pueden crearse al conectarse a conjuntos de datos de Excel, Power BI Desktop, bases de datos, aplicaciones SaaS y [aplicaciones](service-get-data.md).  Por ejemplo, cuando se conecta a un libro de Excel que contiene hojas de Power View, Power BI crea un informe basado en dichas hojas. Y cuando se conecta a una aplicación de SaaS, Power BI importa un informe previamente creado.
 
-Hay dos maneras de ver los informes e interactuar con ellos: [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md).  Solo la persona que ha creado el informe, los copropietarios y los usuarios con permisos tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de la **_Vista de edición_** de ese informe. Por otra parte, las personas con las que comparta el informe pueden explorarlo e interactuar con él mediante la **_Vista de lectura_**.   
+Hay dos maneras de ver los informes e interactuar con ellos: [la vista de lectura y la vista de edición](service-reading-view-and-editing-view.md).  Solo la persona que ha creado el informe, los copropietarios y los usuarios con permisos tienen acceso a todas las funcionalidades de exploración, diseño, creación y uso compartido de la **_Vista de edición_** de ese informe. Las personas con las que comparta el informe pueden explorarlo e interactuar con él mediante la **_vista de lectura_**.   
 
 Cuando se abre un área de trabajo, los informes asociados aparecen en la pestaña **Informes**. Cada informe de la lista representa una o más páginas de visualizaciones basadas en solo uno de los conjuntos de datos subyacentes. Para abrir un informe, selecciónelo.
 
@@ -103,7 +100,7 @@ En el ejemplo siguiente, he seleccionado el área de trabajo de la aplicación "
 
 **UN** informe...
 
-* se encuentra en una sola área de trabajo
+* se encuentra en una misma área de trabajo.
 * se puede asociar con varios paneles de esa área de trabajo (los iconos anclados desde ese informe pueden aparecer en varios paneles).
 * se puede crear con los datos de un conjunto de datos. (La excepción a esto es que Power BI Desktop puede combinar más de un conjunto de datos en un único informe, y ese informe se puede importar a Power BI).
 
@@ -118,20 +115,15 @@ Un *panel* es algo que usted crea **en el servicio Power BI** o que un compañer
 
 ¿Por qué se crean paneles?  Estas son solo algunas de las razones:
 
-* para observar de un solo vistazo toda la información necesaria para tomar decisiones
-* para supervisar la información más importante sobre su empresa
-* para garantizar que todos los compañeros estén en la misma sintonía, es decir, que vean y usen la misma información
+* para observar de un solo vistazo toda la información necesaria para tomar decisiones.
+* para supervisar la información más importante sobre su empresa.
+* para garantizar que todos los compañeros estén en la misma sintonía, es decir, que vean y usen la misma información.
 * para supervisar el correcto funcionamiento de un negocio, producto, unidad de negocio, campaña de marketing, etc.
-* para crear una vista personalizada de un panel más grande (con las métricas importantes para usted)
+* para crear una vista personalizada de un panel más grande (con las métricas importantes para usted).
 
 Cuando se abre un área de trabajo, los paneles asociados aparecen en la pestaña **Paneles**. Para abrir un panel, selecciónelo. Cuando abre una aplicación, se le muestra un panel.  Cada panel representa una vista personalizada de algún subconjunto de los conjuntos de datos subyacentes.  Si es el propietario del panel, también tendrá acceso de edición a los conjuntos de datos e informes subyacentes.  Si el panel se ha compartido con usted, podrá modificar el panel y los informes subyacentes, pero no podrá guardar los cambios.
 
 Hay muchas maneras diferentes mediante las que usted o un compañero de trabajo pueden [compartir un panel](service-share-dashboards.md). Power BI Pro es necesario para compartir un panel y puede que sea necesario para ver un panel compartido.
-
-
-> [!NOTE]
-> El anclado y los iconos se tratan con más detalle más adelante, en la sección "Panel con iconos".
->
 
 **UN** panel...
 
@@ -160,30 +152,29 @@ No puede editar el libro en Power BI, pero si necesita realizar algunos cambios,
 * [Publicación en Power BI desde Excel 2016](service-publish-from-excel.md)
 
 
-## <a name="my-workspace"></a>Mi área de trabajo
-Se han analizado áreas de trabajo y bloques de creación. Echemos otro vistazo a la interfaz de Power BI y revisemos los elementos que componen la página de aterrizaje del servicio Power BI.
+## <a name="a-dashboard-in-my-workspace"></a>Panel en Mi área de trabajo
+Se han analizado áreas de trabajo y bloques de creación. Vamos a aunarlo todo y a revisar las partes que conforman la experiencia de panel en el servicio Power BI.
 
 ![Servicio Power BI en un explorador](media/service-basic-concepts/completenewest.png)
 
-### <a name="1-navigation-pane-left-navpane"></a>1. **Panel de navegación** (izquierdo)
+### <a name="1-navigation-pane-left-nav"></a>1. **Panel de navegación** (izquierdo)
 Use el panel de navegación para localizar y moverse entre las áreas de trabajo y los bloques de creación de Power BI: paneles, informes, libros y conjuntos de datos.  
 
   ![Panel de navegación](media/service-basic-concepts/power-bi-navigation.png)
 
 * Seleccione **Obtener datos** para [agregar conjuntos de datos, informes y paneles a Power BI](service-get-data.md).
-* Expanda y contraiga la barra de navegación con este icono. ![icono del panel de navegación](media/service-basic-concepts/expand-icon.png).
+* Expanda y contraiga el panel de navegación con este icono ![icono del panel de navegación](media/service-basic-concepts/expand-icon.png).
 * Abra o administre su contenido favorito seleccionando **Favoritos**.
 * Vea y abra los últimos contenidos que ha visitado seleccionando **Reciente**.
 * Vea, abra o elimine una aplicación mediante **Aplicaciones**.
 * ¿Ha compartido contenido un compañero con usted? Seleccione **Compartido conmigo** para buscar y ordenar ese contenido para encontrar lo que necesita.
 * Haga clic en **Áreas de trabajo** para mostrar y abrir las áreas de trabajo.
 
-Haga un solo clic
+Haga clic en estos elementos:
 
 * en un icono o título para abrir en la vista de contenido
 * en una flecha derecha (>) para abrir un menú flotante de Favoritos, Recientes y Áreas de trabajo.
-* un icono de comillas angulares () para mostrar la lista desplazable **Mi área de trabajo** con los paneles, informes, libros y conjuntos de datos.
-* en un conjunto de datos para explorarlo
+* un icono de comillas angulares para mostrar la lista desplazable **Mi área de trabajo** con los paneles, informes, libros y conjuntos de datos.
 
 ### <a name="2-canvas"></a>2. **Lienzo**
 Dado que se ha abierto un panel, el área del lienzo muestra los iconos de la visualización. Si, por ejemplo, se hubiera abierto el editor de informes, el área del lienzo mostraría una página del informe.
@@ -192,7 +183,7 @@ Los paneles se componen de [iconos](service-dashboard-tiles.md).  Los iconos se 
 
 ![Lienzo de un panel de Power BI](media/service-basic-concepts/canvas.png)
 
-Para obtener más información, consulte **Paneles** (arriba).
+Para obtener más información, consulte [Paneles](#dashboards) (arriba).
 
 ### <a name="3-qa-question-box"></a>3. **Cuadro de preguntas y respuestas**
 Una manera de explorar los datos consiste en formular una pregunta y permitir que Preguntas y respuestas de Power BI proporcione una respuesta en la forma de una visualización. Se puede usar Preguntas y respuestas para agregar contenido a un panel o informe.
@@ -231,9 +222,9 @@ Esta área de la pantalla contiene opciones adicionales para interactuar con el 
    ![Botones de iconos con etiqueta](media/service-basic-concepts/power-bi-labeled-icons.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI?](power-bi-overview.md)  
-[Navegación: Orientación en el servicio Power BI](service-the-new-power-bi-experience.md)
-[Vídeos de Power BI](videos.md)  
-[Un paseo por el editor de informes](service-the-report-editor-take-a-tour.md)
+- [¿Qué es Power BI?](power-bi-overview.md)  
+- [Navegación: Moverse por el servicio Power BI](service-the-new-power-bi-experience.md)
+- [Vídeos de Power BI](videos.md)  
+- [Un paseo por el editor de informes](service-the-report-editor-take-a-tour.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2018
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bba674df9864697199a274698a1b17320b8ccd80
-ms.sourcegitcommit: 9d6f37fd32b965592bd7b108dea87b8e53b11334
+ms.openlocfilehash: eaf76f2ba762a603bf37385ea00cd714499db4b5
+ms.sourcegitcommit: 5206651c12f2b91a368f509470b46f3f4c5641e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/18/2018
-ms.locfileid: "40256301"
+ms.lasthandoff: 01/02/2019
+ms.locfileid: "53983425"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Extensibilidad de los conectores en Power BI
 
@@ -42,7 +42,7 @@ En **Extensiones de datos**, puede seleccionar dos niveles de seguridad:
 * (Recomendado) Permitir que solo se carguen las extensiones certificadas
 * (No recomendado) Permitir que se cargue cualquier extensión sin previo aviso
 
-Si planea usar **conectores personalizados** o conectores que usted o un tercero haya desarrollado y distribuya, debe seleccionar **"(Not Recommended) Allow any extension to load without warning"** (No recomendado) Permitir que se cargue cualquier extensión sin previo aviso. No se recomienda esta configuración de seguridad a menos que piense ejecutar **conectores personalizados**.
+Si planea usar **conectores personalizados** o conectores que usted o un tercero haya desarrollado y distribuya, debe seleccionar **"(Not Recommended) Allow any extension to load without warning"** (No recomendado) Permitir que se cargue cualquier extensión sin previo aviso. Esta configuración de seguridad no es recomendable a menos que confíe plenamente en los conectores personalizados, ya que el código en ellos puede controlar las credenciales (incluido su envío a través de HTTP) y omitir los niveles de privacidad.
 
 Con la configuración de seguridad **"(Recomendado)"**, si hay conectores personalizados en el sistema, se muestra un error que describe los conectores que no se pueden cargar debido a la seguridad.
 

@@ -5,17 +5,17 @@ author: SarinaJoan
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-template-apps
 ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 909e15fa843df3f87e1cdfa25b45f60996b3dca0
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: 4ad7ce28c512f69e144af98098ab9f13a15b6023
+ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46545697"
+ms.lasthandoff: 01/04/2019
+ms.locfileid: "54008635"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
@@ -59,7 +59,7 @@ Los datos siguientes están disponibles desde Marketo en Power BI donde ocurrió
 | Nombre de tabla | Descripción |
 | --- | --- |
 | EmailActivities |Datos sobre correo electrónico enviado a clientes potenciales y contactos, con detalles sobre dispositivos, categorías, recuento y porcentaje de mensajes devueltos, recuento y porcentaje de clics, recuento y porcentaje de mensajes abiertos y nombre del programa. Las actividades de correo electrónico tal como se muestran en Power BI son un informe absoluto de entrega de correo electrónico y no se aplica ninguna lógica adicional a los datos. Por este motivo, es posible que se muestren resultados diferentes entre el cliente de Marketo y Power BI. |
-| ProgramActivites |Datos de los programas que han tenido un cambio de estado. Esto incluye detalles como: razón, éxito, recuento y porcentaje de adquisición de programa, y recuento y porcentaje de operaciones correctas del programa. |
+| ProgramActivites |Datos de los programas que han tenido un cambio de estado. Esto incluye detalles como los siguientes: razón, éxito, recuento y porcentaje de adquisición de programa, y recuento y porcentaje de operaciones correctas del programa. |
 | WebPageActivities |Datos de las visitas del usuario a la página web, entre ellos el agente de búsqueda, el agente de usuario, la página web y la hora del día. |
 | DateTable |Fechas de hoy y el año pasado.  Permite analizar los datos de Marketo por fecha. |
 | Clientes potenciales |Información sobre clientes potenciales como empresa, tamaño de los ingresos, número de empleados, país, sector, puntuación de clientes potenciales y estado de los clientes potenciales. Los clientes potenciales se recuperan en función de su presencia en los datos de las actividades de correo electrónico, el programa y la página web. |
