@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maghan
-ms.openlocfilehash: 0f06d5c3742ea5187ff41f6f8974c8a81e5d1d33
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: de16c10a03654802e4c65bfa92e60259e2f9510d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34310461"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291772"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -81,7 +81,7 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Azure HDInsight Spark (Beta) |Sí |No |No |
 | Common Data Service (Beta) |Sí |No |No |
 | comScore Digital Analytix (beta) |Sí |No |No |
-| Dynamics 365 para Customer Insights (Beta) |Sí |No |No |
+| Dynamics 365 for Customer Insights (Beta) |Sí |No |No |
 | Dynamics 365 for Financials (Beta) |Sí |No |No |
 | GitHub (Beta) |Sí |No |No |
 | Google BigQuery (beta) |Sí |No |No |
@@ -164,7 +164,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Azure HDInsight Spark (Beta) |No |No |No |No |
 | Common Data Service (Beta) |No |No |No |No |
 | comScore Digital Analytix (beta) |No |No |No |No |
-| Dynamics 365 para Customer Insights (Beta) |No |No |No |No |
+| Dynamics 365 for Customer Insights (Beta) |No |No |No |No |
 | Dynamics 365 for Financials (Beta) |No |No |No |No |
 | GitHub (Beta) |No |No |No |No |
 | Google BigQuery (beta) |No |No |No |No |
