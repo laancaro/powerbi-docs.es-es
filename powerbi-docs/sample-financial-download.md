@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: sample
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 7437b31d5801a4bb462f10c402dd6bef4dcbf4f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c508a97d10c1ac16df5c5a006900257d7003ed43
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717280"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54274982"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Descarga del libro de ejemplos financieros para Power BI
 ¿Necesita algunos datos para probar con el servicio Power BI? Tenemos un libro de Excel sencillo con datos financieros de ejemplo que está disponible para su descarga.  Aquí se muestra cómo hacerlo:

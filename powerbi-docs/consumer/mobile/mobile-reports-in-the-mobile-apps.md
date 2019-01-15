@@ -1,20 +1,20 @@
 ---
 title: Exploración de informes en las aplicaciones móviles de Power BI
 description: Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/17/2018
-ms.author: maggies
-ms.openlocfilehash: 694ae2cd6f77fbcf898a984b135fb65b9163a43b
-ms.sourcegitcommit: f25464d5cae46691130eb7b02c33f42404011357
+ms.author: mshenhav
+ms.openlocfilehash: 037cab2435abddc0988d076f6598ab8313b4dda6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2018
-ms.locfileid: "53180999"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281583"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -90,7 +90,7 @@ Si el autor de un informe ha agregado la funcionalidad de exploración en profun
 
 * Para volver a agrupar los datos, pulse la flecha hacia arriba en la información sobre herramientas.
   
-  ![Explorar agrupando datos](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
+  ![Rastrear agrupando datos](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-drill-up-tooltip.png)
 
 * También puede explorar desagrupando los datos todos los puntos de datos de un objeto visual. Ábralo en el modo de enfoque, pulse el icono de Explorar y elija mostrar todo el siguiente nivel, o bien amplíe para que se muestren el nivel actual y el próximo.
 

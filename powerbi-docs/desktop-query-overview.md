@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e856a1e0b8fd164aa8e4224eca3fc7370e3ff8aa
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 85429f76159854bf5eb4e2dc671b2d2bc1521dbf
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670449"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277052"
 ---
 # <a name="query-overview-in-power-bi-desktop"></a>Información general sobre consultas en Power BI Desktop
 **Power BI Desktop** le permite conectarse con el mundo de los datos, crear informes básicos y atractivos y compartir sus esfuerzos con otros usuarios, quienes a su vez pueden basarse en el trabajo que comparte con ellos y expandir sus propios esfuerzos de inteligencia empresarial.

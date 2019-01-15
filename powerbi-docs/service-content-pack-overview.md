@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/20/2018
 ms.author: maggies
-ms.openlocfilehash: f97393a8a7fe8dc9c413a0cb0cda8be0e965da5b
-ms.sourcegitcommit: 6c6aa214dc36c26a01b29e823598d217a3e2b8a1
+ms.openlocfilehash: c5c69bab7fb0a47e5e546dfe1b3143a13428d4bc
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/17/2018
-ms.locfileid: "53451361"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285240"
 ---
 # <a name="overview-of-the-power-bi-service-content-pack-program"></a>Introducción al programa de paquetes de contenido del servicio Power BI
 Un paquete de contenido es un conjunto de contenido integrado que permite a los usuarios obtener información inmediata de un origen. Un paquete de contenido se centra normalmente en un escenario de negocio específico que proporciona información para un rol, dominio o flujo de trabajo.

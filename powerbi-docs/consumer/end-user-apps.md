@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: lukaszp
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: ca6823673b46c033d2fd04b7d8a278d87aeb78f3
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 859deefd829a696d2a99e896439481357c698e4a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280498"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275166"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 En Power BI, las *aplicaciones* permiten reunir paneles e informes relacionados en un solo lugar. Los usuarios de la organización pueden crear y distribuir aplicaciones con información empresarial clave. Los [servicios externos](../service-connect-to-services.md) que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen también aplicaciones de Power BI. 
