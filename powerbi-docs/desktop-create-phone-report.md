@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 64d3faf9fd720d1e50fa69b5ccd914e6b3ac1294
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280912"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275327"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Creación de informes optimizados para las aplicaciones móviles de Power BI
 Puede mejorar la experiencia de visualización de informes en las aplicaciones móviles en un teléfono o tableta. Cree un diseño vertical de un informe, específicamente para teléfonos y tabletas. En Power BI Desktop y el servicio Power BI, adapte el informe reorganizando los objetos visuales y cambiándoles el tamaño en un formato vertical para obtener una experiencia óptima. No hace falta que los incluya todos. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe optimizado. Los lectores del informe pueden verlos y filtrar el informe con ellos.

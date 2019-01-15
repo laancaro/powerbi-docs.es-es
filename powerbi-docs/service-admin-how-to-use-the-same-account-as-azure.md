@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/28/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 375a251e7515ad33396cc4cf5ebb0ee715ab0330
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: d9b171052bd095afc918a312ecbadba89a2471cd
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34254042"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283584"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Uso de la misma cuenta para Power BI y Azure
 Si es usuario de Power BI y Azure, es posible que desee usar el mismo inicio de sesión para ambos servicios, por lo que no es necesario escribir la contraseña dos veces.

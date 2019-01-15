@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: a84a5da9600daa7ef55ed5a707affa4ee1da4aba
-ms.sourcegitcommit: b45134887a452f816a97e384f4333db9e1d8b798
+ms.openlocfilehash: 5c388a15132c7f433a50c2975aa4b45195c55bf9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2018
-ms.locfileid: "47238109"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285056"
 ---
 # <a name="manage-your-data-source---analysis-services"></a>Administrar el origen de datos: Analysis Services
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Analysis Services para la actualización programada o las conexiones dinámicas.
@@ -153,7 +153,7 @@ Cómo configurar la puerta de enlace para realizar la búsqueda de AD:
 
 2. En la puerta de enlace, debe cambiar el **servicio de puerta de enlace de datos local** para que se ejecute con una cuenta de dominio (en lugar de con una cuenta de servicio local; en caso contrario, la búsqueda de AD no funcionará correctamente en el runtime). Para que el cambio se aplique, habrá que reiniciar el servicio de puerta de enlace.  Vaya a la aplicación Gateway en su equipo (busque "puerta de enlace de datos local"). Para ello, vaya a **Configuración del servicio > Cambiar cuenta de servicio**. Asegúrese de que tiene la clave de recuperación para esta puerta de enlace, ya que necesitará restaurarla en el mismo equipo, a menos que desee crear una nueva puerta de enlace en su lugar. 
 
-3. Vaya a la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local*, como administrador para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
+3. Navegue hasta la carpeta de instalación de la puerta de enlace, *C:\Archivos de programa\Puerta de enlace de datos local* como administrador, para asegurarse de que tiene permisos de escritura, y edite el archivo siguiente: Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config 
 
 4. Edite los dos valores de configuración siguientes según *sus* configuraciones de atributos de Active Directory para los usuarios de AD. Los valores de configuración que se muestran a continuación son solo ejemplos: es necesario especificarlos según la configuración de Active Directory. Estas configuraciones distinguen mayúsculas de minúsculas, así que asegúrese de que coinciden con los valores de Active Directory.
 

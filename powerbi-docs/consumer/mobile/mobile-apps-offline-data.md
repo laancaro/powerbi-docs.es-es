@@ -1,20 +1,20 @@
 ---
 title: Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 description: 'Obtenga más información sobre una ventaja de ver Power BI en una aplicación móvil en lugar de un explorador móvil: puede ver los datos aunque no esté conectado a una red.'
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
-ms.author: maggies
-ms.openlocfilehash: 2c980878f70d8cf6368b446c8ed8a2207d0b7acd
-ms.sourcegitcommit: 67336b077668ab332e04fa670b0e9afd0a0c6489
+ms.author: mshenhav
+ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44748787"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292416"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
