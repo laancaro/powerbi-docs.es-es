@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: f475957d10a745fc0ec89c8f73b18faff64508c6
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: e91ed48d5f9f774c3bf8ed25fe7917c4d3a07fd1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280406"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280870"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
 El contenido reciente son los últimos elementos visitados en el servicio Power BI, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros en todas las áreas de trabajo.
