@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9f17cd76a733dff22ebf0b54eabc3d9b6c8f6839
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53281083"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281560"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:

@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
 ms.author: maghan
-ms.openlocfilehash: b520eb2758088feadff963f86ddf310ae7a7ed8b
-ms.sourcegitcommit: 06f59902105c93700e71e913dff8453e221e4f82
+ms.openlocfilehash: cd88270c75b46267217147d8f02fc707eeef26ab
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/01/2018
-ms.locfileid: "39388649"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290430"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Herramienta de migración de Power BI Embedded
 Esta herramienta de migración puede utilizarse para copiar los informes desde el servicio de Azure Power BI Embedded (PaaS) al servicio Power BI (SaaS).

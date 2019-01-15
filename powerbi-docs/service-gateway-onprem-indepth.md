@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 30ac2c0620607d680874e423c841c381fc273904
-ms.sourcegitcommit: 5eb0f37f59b5fec15c0caecbbd1f8d688c7f0013
+ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2018
-ms.locfileid: "50101517"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279329"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.

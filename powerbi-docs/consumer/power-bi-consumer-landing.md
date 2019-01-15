@@ -4,19 +4,19 @@ description: ¿Primeros pasos con Power BI? Conozca las características y funci
 author: mihart
 manager: kvivek
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 12/10/2018
 ms.author: mihart
 layout: LandingPage
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: e9a59703ff76d0d1f9401d80c6702d69eec5d049
-ms.sourcegitcommit: f5e39e9ead37445bbeab795890b3d80633383032
+ms.openlocfilehash: 7ebeb80de73ed9212c8565461d21d375c63badc6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/21/2018
-ms.locfileid: "53735532"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283009"
 ---
 # <a name="power-bi-for-consumers"></a>Power BI para consumidores
 Como *usuario final* o *consumidor*, recibe los paneles, los informes y las aplicaciones de sus compañeros de trabajo. Trabaja en el ***servicio Power BI*** para revisar este contenido e interactuar con él, a fin de tomar decisiones empresariales.
@@ -33,7 +33,7 @@ Como *usuario final* o *consumidor*, recibe los paneles, los informes y las apli
                                                                                       <p></p>
                                                                                             <a href="end-user-consumer.md">¿Qué puedo hacer como consumidor de Power BI?</a><br/> 
                                                                                             <a href="../service-get-started.md">Tutorial de introducción</a><br/>
-Consulta de un <a href="end-user-report-open.md">informe</a>, <a href="end-user-dashboard-open.md">panel</a> o <a href="end-user-apps.md">aplicación</a><br/> 
+Consulta de un <a href="end-user-report-open.md">informe</a> | <a href="end-user-dashboard-open.md">panel</a> o  | <a href="end-user-apps.md">aplicación</a><br/> 
                                                                                             <!--<a href="end-user-collaborate.md">Collaborate</a><br/> -->
                                                                                             <a href="end-user-subscribe.md">Suscripción a un informe o panel</a><br/> 
                                                                         </div> 
