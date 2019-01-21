@@ -270,6 +270,12 @@ items:
         href: desktop-rls.md
       - name: Personalización de la información sobre herramientas
         href: desktop-custom-tooltips.md
+      - name: Cuadros de texto y formas en informes
+        href: power-bi-reports-add-text-and-shapes.md
+      - name: Agregar un hipervínculo a un cuadro de texto
+        href: service-add-hyperlink-to-text-box.md
+      - name: Hipervínculos en tablas
+        href: power-bi-hyperlinks-in-tables.md
       - name: Formato condicional de tabla
         href: desktop-conditional-table-formatting.md
       - name: Ordenar por columnas en Power BI Desktop
@@ -302,18 +308,12 @@ items:
         href: visuals/power-bi-visualization-export-data.md
       - name: Traslado, cambio de tamaño y pantalla completa de una visualización de un informe
         href: visuals/power-bi-visualization-move-and-resize.md
-      - name: Hipervínculos en tablas
-        href: power-bi-hyperlinks-in-tables.md
-      - name: Agregar un hipervínculo a un cuadro de texto de un informe
-        href: service-add-hyperlink-to-text-box.md
       - name: Cambiar cómo interactúan los objetos visuales en un informe
         href: service-reports-visual-interactions.md
       - name: Histogramas
         href: visuals/service-histograms.md
       - name: Sugerencias y trucos para las visualizaciones de mapas de Power BI
         href: visuals/power-bi-map-tips-and-tricks.md
-      - name: Cuadros de texto en informes de Power BI
-        href: power-bi-reports-add-text-and-shapes.md
       - name: Personalización de las propiedades de los ejes X e Y
         href: visuals/power-bi-visualization-customize-x-axis-and-y-axis.md
       - name: ArcGIS Maps en Power BI
@@ -1293,9 +1293,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: a3abfd814e95ca00c433b66e7fe6aad665f8426f
-ms.sourcegitcommit: 4695f5ef54cc9929828320132f890317b4c3018e
+ms.openlocfilehash: b3553d493940b831e3e604fe43176ace125fe995
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/12/2019
-ms.locfileid: "54239299"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406739"
