@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a171dd2aa375f8d12830b051dd8ce6437e4b3236
-ms.sourcegitcommit: a739a99e1006834a0f56e387c0bd9d945fb8a76b
+ms.openlocfilehash: 323391268e930d3b7b2926590f3377b850b65624
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2018
-ms.locfileid: "51679464"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282595"
 ---
 # <a name="dax-basics-in-power-bi-desktop"></a>Aspectos básicos de DAX en Power BI Desktop
 Este artículo está destinado a usuarios sin experiencia en Power BI Desktop. Su objetivo es proporcionar una introducción rápida y fácil al uso de expresiones de análisis de datos (DAX) para solucionar una variedad de problemas de análisis de datos y cálculo básico. Abordaremos información conceptual, una serie de tareas que puede completar y algunos cuestionarios para probar lo que ha aprendido. Al finalizar este artículo, debe tener una buena comprensión de los conceptos fundamentales más importantes en DAX.
@@ -83,9 +83,9 @@ Vamos a crear una fórmula simple. Esta tarea le ayudará a entender mejor la si
 ### <a name="task-create-a-measure-formula"></a>Tarea: Crear una fórmula de medida
 Para completar esta tarea, deberá abrir el archivo de muestra de ventas de Contoso de Power BI Desktop.
     
-1. En la vista Informes, en la lista de campos, haga clic con el botón derecho en la tabla **Sales** y, a continuación, haga clic en Nueva medida.
+1. En la vista Informes, en la lista de campos, haga clic con el botón derecho en la tabla **Sales** y, a continuación, haga clic en **Nueva medida**.
     
-2. En la barra de fórmulas, reemplace **Medida** con un nuevo nombre de medida: Ventas del trimestre anterior.
+2. En la barra de fórmulas, reemplace **Medida** con un nuevo nombre de medida: **Ventas del trimestre anterior**.
     
 3. Después del signo igual, escriba las primeras letras **CAL** y luego haga doble clic en la función que quiere usar. En esta fórmula, se quiere usar la función **CALCULATE**.
 
@@ -134,7 +134,7 @@ Encontrará las respuestas al final de este artículo.
 ### <a name="functions"></a>Funciones
 Las funciones son fórmulas predefinidas que realizan cálculos por medio de valores específicos, denominados argumentos, en un orden o estructura determinados. Los argumentos pueden ser otras funciones, otra fórmula, una expresión, referencias de columna, números, texto, valores lógicos como TRUE o FALSE, o constantes.
 
-DAX incluye las siguientes categorías de funciones: [Fecha y hora](https://msdn.microsoft.com/library/ee634786.aspx), [Inteligencia de tiempo](https://msdn.microsoft.com/library/ee634763.aspx), [Información](https://msdn.microsoft.com/library/ee634552.aspx), [Lógicas](https://msdn.microsoft.com/library/ee634365.aspx), [Matemáticas](https://msdn.microsoft.com/library/ee634241.aspx), [Estadísticas](https://msdn.microsoft.com/library/ee634822.aspx), [Texto](https://msdn.microsoft.com/library/ee634938.aspx), [Primarias/Secundarias](https://msdn.microsoft.com/library/mt150102.aspx) y [Otras](https://msdn.microsoft.com/library/mt150101.aspx). Si está familiarizado con las funciones en las fórmulas de Excel, muchas de las funciones DAX le parecerán semejantes; sin embargo, las funciones DAX son únicas de las maneras siguientes:
+DAX incluye las siguientes funciones de funciones: [Fecha y hora](https://msdn.microsoft.com/library/ee634786.aspx), [Inteligencia de tiempo](https://msdn.microsoft.com/library/ee634763.aspx), [Información](https://msdn.microsoft.com/library/ee634552.aspx), [Lógicas](https://msdn.microsoft.com/library/ee634365.aspx), [Matemáticas](https://msdn.microsoft.com/library/ee634241.aspx), [Estadísticas](https://msdn.microsoft.com/library/ee634822.aspx), [Texto](https://msdn.microsoft.com/library/ee634938.aspx), [Primarias/Secundarias](https://msdn.microsoft.com/library/mt150102.aspx) y [Otras](https://msdn.microsoft.com/library/mt150101.aspx). Si está familiarizado con las funciones en las fórmulas de Excel, muchas de las funciones DAX le parecerán semejantes; sin embargo, las funciones DAX son únicas de las maneras siguientes:
 
 * Una función DAX siempre hace referencia a una columna o tabla completa. Si desea usar solo determinados valores de una tabla o columna, puede agregar filtros a la fórmula.
 * Si necesita personalizar los cálculos fila por fila, DAX ofrece funciones para usar el valor de la fila actual o un valor relacionado como un tipo de argumento, lo que permite realizar cálculos que varían según el contexto. Aprenderá más acerca del contexto más adelante.
