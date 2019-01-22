@@ -5,26 +5,26 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: e0151931d0ad9f610c24dd9aedf8f06d79e167c3
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 111e38fd37bcdfa2a72986bb08a37d89345bbe69
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670127"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282273"
 ---
 # <a name="reduce-the-size-of-an-excel-workbook-to-view-it-in-power-bi"></a>Reducir el tamaño de un libro de Excel para verlo en Power BI
 Puede cargar cualquier libro de Excel de menos de 1 MB en Power BI. Un libro de Excel puede tener dos partes: un modelo de datos y el resto del informe (el contenido de la hoja de cálculo principal). Si el informe respeta los siguientes límites de tamaño, puede guardarlo en **OneDrive para la Empresa**, conectarse a él desde Power BI y verlo en Excel Online:
 
 * El libro como un todo puede ser de hasta 1 MB.
-* El contenido de la hoja de cálculo principal puede ser de hasta 10 MB.
+* El contenido de la hoja de cálculo principal puede ser de hasta 30 MB.
 
-## <a name="what-makes-core-worksheet-contents-larger-than-10-mb"></a>Qué hace que el contenido de la hoja de cálculo principal tenga un tamaño superior a 10 MB
-Estos son algunos elementos que pueden hacer que el contenido de la hoja de cálculo principal tenga un tamaño superior a 10 MB:
+## <a name="what-makes-core-worksheet-contents-larger-than-30-mb"></a>Qué hace que el contenido de la hoja de cálculo principal tenga un tamaño superior a 30 MB
+Estos son algunos elementos que pueden hacer que el contenido de la hoja de cálculo principal tenga un tamaño superior a 30 MB:
 
 * Imágenes.
 * Celdas sombreadas. [Quitar un formato de sombreado de celda](https://support.office.com/article/Add-or-change-the-background-color-of-cells-ac10f131-b847-428f-b656-d65375fb815e).
@@ -44,14 +44,14 @@ Para realizar este tipo de cambios, es necesario editar el libro en Excel.
 Más información sobre los [límites de tamaño de archivo para los libros de Excel en SharePoint Online](https://support.office.com/article/File-size-limits-for-workbooks-in-SharePoint-Online-9e5bc6f8-018f-415a-b890-5452687b325e).
 
 ## <a name="remove-data-from-worksheets"></a>Quitar datos de hojas de cálculo
-Si importa datos en Excel desde la pestaña Power Query o la pestaña Datos de Excel, el libro podría tener los mismos datos en una tabla de Excel y en el modelo de datos. Las tablas grandes de las hojas de cálculo de Excel pueden hacer que el contenido de la hoja de cálculo principal tenga un tamaño superior a 10 MB. Quitar la tabla en Excel y mantener los datos en el modelo de datos pueden reducir en gran medida el contenido de la hoja de cálculo principal del informe. 
+Si importa datos en Excel desde la pestaña Power Query o la pestaña Datos de Excel, el libro podría tener los mismos datos en una tabla de Excel y en el modelo de datos. Las tablas grandes de las hojas de cálculo de Excel pueden hacer que el contenido de la hoja de cálculo principal tenga un tamaño superior a 30 MB. Quitar la tabla en Excel y mantener los datos en el modelo de datos pueden reducir en gran medida el contenido de la hoja de cálculo principal del informe. 
 
 Al importar datos en Excel, siga estas sugerencias:
 
-* **En Power Query**: borre la casilla **Cargar en hoja de cálculo** .
+* **En Power Query**: borre la casilla **Cargar en hoja de cálculo**.
   
   Los datos se importan solo en el modelo de datos, sin datos en hojas de cálculo de Excel.
-* **En la pestaña Datos de Excel**, si previamente activó **Tabla** en el Asistente para importación: vaya a **Conexiones existentes** \> haga clic en la conexión \> **Crear solo conexión**. Elimine la tabla o tablas originales creadas durante la importación inicial.
+* **En la pestaña Datos de Excel**, si anteriormente activó **Tabla** en el Asistente para importación: vaya a **Conexiones existentes** \> y haga clic en la conexión \> **Crear solo conexión**. Elimine la tabla o tablas originales creadas durante la importación inicial.
 * **En la pestaña Datos de Excel**: no active **Tabla** en el cuadro **Importar datos** .
 
 ## <a name="workbook-size-optimizer"></a>Optimizador del tamaño del libro

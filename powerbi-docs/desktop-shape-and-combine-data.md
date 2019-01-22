@@ -5,19 +5,19 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: tutorial
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e23182b1e607498c5187882740b556455657ba1d
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: f39f5ae569c757072a55647becb5697c881abbe2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670909"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285678"
 ---
-# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Dar forma a los datos y combinarlos en Power BI Desktop
+# <a name="tutorial-shape-and-combine-data-in-power-bi-desktop"></a>Tutorial: Combinar datos y darles forma en Power BI Desktop
 
 Con **Power BI Desktop**, puede conectarse a muchos tipos diferentes de orígenes de datos y después darles forma a los datos para satisfacer sus necesidades, lo que le permite crear informes visuales que puede compartir con los demás. *Forma de datos* significa transformar los datos, por ejemplo, al cambiar el nombre de columnas o tablas, convertir texto en números, quitar filas, configurar una primera fila como encabezado, etcétera. *Combinación de datos* significa conectarse a dos o más orígenes de datos, darles forma según sea necesario y después consolidarlos en una consulta útil.
 
@@ -81,7 +81,7 @@ Para quitar la columna **Costo de vida**, simplemente seleccione la columna y el
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumnscostofliving.png)
 
-Observe que los valores de _nueva clasificación_ no han cambiado, lo que se debe al orden de los pasos. Como el editor de consultas registra los pasos de forma secuencial, pero de forma independiente, se puede mover cada **paso aplicado** hacia arriba o hacia abajo en la secuencia. Simplemente haga clic con el botón secundario en cualquiera de los pasos y el editor de consultas proporcionará un menú que le permite hacer lo siguiente: **Cambiar el nombre**, **Eliminar**, **Eliminar** **hasta final** (quitar el paso actual y todos los pasos subsiguientes también), **Subir**o **Bajar**. Continúe y suba el último paso, _Columnas quitadas_, justo encima del paso _Personalización agregada_.
+Observe que los valores de _nueva clasificación_ no han cambiado, lo que se debe al orden de los pasos. Como el editor de consultas registra los pasos de forma secuencial, pero de forma independiente, se puede mover cada **paso aplicado** hacia arriba o hacia abajo en la secuencia. Simplemente haga clic en cualquier paso, y el Editor de consultas proporciona un menú que le permite hacer lo siguiente: **Cambiar el nombre**, **Eliminar**, **Eliminar** **hasta el final** (quitar el paso actual y todos los pasos subsiguientes también), **Subir** o **Bajar**. Continúe y suba el último paso, _Columnas quitadas_, justo encima del paso _Personalización agregada_.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_movestep.png)
 
@@ -179,7 +179,7 @@ Aparece la ventana **Quitar las primeras filas** , lo cual permite especificar e
 
 ![](media/desktop-shape-and-combine-data/shapecombine_filterdc.png)
 
-* Quitar unas cuantas columnas innecesarias: únicamente se necesita la correspondencia entre las abreviaturas oficiales de dos letras y los estados, por lo que se pueden eliminar las siguientes columnas: **Columna1**, **Columna3**, **Columna4** y, a continuación, de la **Columna6** a la **Columna11**. Primero seleccione **Columna1**, mantenga presionada la tecla **CTRL** y seleccione las otras columnas que va a quitar (esto permite seleccionar varias columnas no contiguas). En la pestaña Inicio de la cinta de opciones, seleccione **Quitar columnas \> Quitar columnas**.
+* Quitar unas cuantas columnas innecesarias: únicamente se necesita la correspondencia entre las abreviaturas oficiales de dos letras y los estados, por lo que se pueden eliminar las siguientes columnas: **Columna1**, **Columna3**, **Columna4** y, luego, de **Columna6** a **Columna11**. Primero seleccione **Columna1**, mantenga presionada la tecla **CTRL** y seleccione las otras columnas que va a quitar (esto permite seleccionar varias columnas no contiguas). En la pestaña Inicio de la cinta de opciones, seleccione **Quitar columnas \> Quitar columnas**.
 
 ![](media/desktop-shape-and-combine-data/shapecombine_removecolumns.png)
 

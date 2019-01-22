@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/17/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 09bf82d86301967fb46b8724822e183a21008b92
-ms.sourcegitcommit: fdb54145f9bc93b312409c15c603749f3a4a876e
+ms.openlocfilehash: 760335b0a08156b3c5b594ffc27be4cb0ad12342
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52452738"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289932"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar el esquema lingüístico de preguntas y respuestas y agregar expresiones en Power BI Desktop 
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Esto es todavía más eficaz cuando los datos responden a esas preguntas, que es precisamente lo que podemos hacer con las preguntas y respuestas de Power BI. Cuando se formula una pregunta a las preguntas y respuestas de Power BI, se realiza el máximo esfuerzo por responderla correctamente, 
@@ -78,7 +78,7 @@ Las preguntas y respuestas usan toda esta información junto con las mejoras que
 
 
 ## <a name="edit-a-linguistic-schema"></a>Editar un esquema lingüístico
-Cuando se exporta el esquema lingüístico desde Power BI Desktop en primer lugar, un motor de preguntas y respuestas generará automáticamente la mayor parte o todo el contenido del archivo. Estas entidades, palabras (sinónimos), relaciones y expresiones generadas se señalan con una etiqueta **State: Generated** (Estado: Generado) y se incluyen en el archivo principalmente con fines informativos, pero puede ser un punto de partida útil para que realicemos nuestros propios cambios. 
+Cuando se exporta el esquema lingüístico desde Power BI Desktop en primer lugar, un motor de preguntas y respuestas generará automáticamente la mayor parte o todo el contenido del archivo. Estas entidades, palabras (sinónimos), relaciones y expresiones generadas se designan con una etiqueta **State: Generated** (Estado: Generado) y se incluyen en el archivo principalmente con fines informativos, pero pueden ser un punto de partida útil para realizar sus propios cambios. 
 
 > [!NOTE]
 > El archivo YAML de ejemplo de este tutorial no contiene etiquetas **State: Generated** (Estado: Generado) o **State: Deleted** (Estado: Eliminado), puesto que se ha preparado especialmente para este tutorial. Para ver estas etiquetas, abra un archivo .pbix sin editar en la vista Relaciones y exporte el esquema lingüístico.
@@ -86,7 +86,7 @@ Cuando se exporta el esquema lingüístico desde Power BI Desktop en primer luga
 ![YAML con etiqueta de estado generado](media/power-bi-q-and-a-linguistic-schema/power-bi-generated-state.png)
 
 
-Al volver a importar el archivo de esquema lingüístico a Power BI Desktop, todo lo que esté marcado con **State: Generated** se omitirá (y, más adelante, se volverá a generar), de modo que si quiere cambiar algo en un contenido generado, no olvide quitar también la correspondiente etiqueta **State: Generated**. De igual modo, si quiere quitar algún contenido generado, será necesario cambiar la etiqueta **State: Generated** a **State: Deleted** para que no se vuelva a generar cuando importemos el archivo de esquema lingüístico.
+Al importar el archivo de esquema lingüístico en Power BI Desktop, cualquier elemento marcado como **State: Generated** (Estado: generado) se omite (y más adelante se vuelve a generar), por lo que si desea realizar un cambio en algún contenido generado, asegúrese de quitar también la correspondiente etiqueta **State: Generated** (Estado: Generado). De forma similar, si desea quitar algún contenido generado, deberá cambiar la etiqueta **State: Generated** (Estado: Generado) a **State: Deleted** (Estado: Eliminado) para que no se regenere cuando importe el archivo de esquema lingüístico.
 
 1. Abra el conjunto de datos en la *vista Relaciones* de Power BI Desktop. 
 2. Seleccione la pestaña **Modelado** y elija **Exportar esquema lingüístico**.

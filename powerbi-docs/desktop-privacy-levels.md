@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: reference
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: d3ccba3e68400a5a4c5fbf486aa8ef4b00c51729
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: b3815e6783b612ff52aeb015fdd3b3669b6a2a51
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578345"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282982"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Niveles de privacidad de Power BI Desktop
 En **Power BI Desktop**, los niveles de privacidad especifican un nivel de aislamiento que define el grado de aislamiento de un origen de datos respecto a los demás. Aunque un nivel de aislamiento restrictivo impide que la información se intercambie entre los orígenes de datos, puede reducir la funcionalidad e influir en el rendimiento.
@@ -52,7 +52,7 @@ Para configurar el nivel de privacidad de un origen de datos, seleccione el orig
 | **Combinar datos según la configuración del nivel de privacidad para cada origen** (activado y el valor predeterminado) |La configuración del nivel de privacidad se usa para determinar el nivel de aislamiento entre los orígenes de datos al combinar datos. |
 | **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** |Los niveles de privacidad no se consideran al combinar datos; no obstante, el rendimiento y la funcionalidad de los datos pueden aumentar. |
 
-> **Nota de seguridad:** La habilitación de **Niveles de privacidad** mediante la selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad** podría exponer los datos importantes o confidenciales a una persona no autorizada. No habilite **Niveles de privacidad** a menos que esté seguro de que el origen de datos no contiene datos importantes o confidenciales.
+> **Nota de seguridad**: La habilitación de **Niveles de privacidad** mediante la selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad** podría exponer los datos importantes o confidenciales a una persona no autorizada. No habilite **Niveles de privacidad** a menos que esté seguro de que el origen de datos no contiene datos importantes o confidenciales.
 > 
 > 
 
@@ -68,7 +68,7 @@ a. Si la opción **Combinar datos según la configuración del nivel de privacid
 
 b. Si la opción **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** está seleccionada, los datos se combinarán y se ignorarán los niveles de privacidad que podrían revelar datos importantes o confidenciales a un usuario no autorizado. La opción de configuración puede mejorar el rendimiento y la funcionalidad.
 
-> **Nota de seguridad:** La selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** puede mejorar el rendimiento; sin embargo, Power BI Desktop no puede garantizar la privacidad de los datos combinados en el archivo de Power BI Desktop.
+> **Nota de seguridad**: La selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** puede mejorar el rendimiento; sin embargo, Power BI Desktop no puede garantizar la privacidad de los datos combinados en el archivo de Power BI Desktop.
 > 
 > 
 

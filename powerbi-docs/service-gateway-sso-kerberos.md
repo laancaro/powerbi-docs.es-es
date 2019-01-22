@@ -6,20 +6,20 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: ed9281ba14ad25e2acb347a2394ec729e9d4465c
-ms.sourcegitcommit: a1b7ca499f4ca7e90421511e9dfa61a33333de35
+ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/10/2018
-ms.locfileid: "51508046"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295268"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
-Use la [delegación restringida de Kerberos](https://technet.microsoft.com/library/jj553400.aspx) para habilitar la conectividad de inicio de sesión único directa. La habilitación de SSO facilita la tarea de los paneles y los informes de Power BI para actualizar los datos de orígenes locales.
+Use la [delegación restringida de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar la conectividad de inicio de sesión único directa. La habilitación de SSO facilita la tarea de los paneles y los informes de Power BI para actualizar los datos de orígenes locales.
 
 ## <a name="supported-data-sources"></a>Orígenes de datos compatibles
 
@@ -50,11 +50,11 @@ Para obtener más información acerca de cómo instalar y configurar un inicio d
 
 Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los *nombres principales de servicio* (SPN) y la configuración de delegación de cuentas de servicio.
 
-### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Requisito previo 1: Instalación y configuración de la puerta de enlace de datos local
+### <a name="prerequisite-1-install--configure-the-on-premises-data-gateway"></a>Requisito previo 1: instalación y configuración de la puerta de enlace de datos local
 
 Esta versión de la puerta de enlace de datos local admite la actualización en contexto, así como la recepción de la configuración de las puertas de enlace existentes.
 
-### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 2: Ejecución del servicio de Windows de puerta de enlace como cuenta de dominio
+### <a name="prerequisite-2-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 2: ejecución del servicio de Windows de puerta de enlace como cuenta de dominio
 
 En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de servicio de la máquina local (en concreto, *NT Service\PBIEgwService*) como se muestra en la siguiente imagen:
 
@@ -65,7 +65,7 @@ Para habilitar la **delegación restringida de Kerberos**, debe ejecutar la puer
 > [!NOTE]
 > Si Azure AD DirSync o Azure AD Connect están configurados y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución y puede usar el SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican al objeto informático de la puerta de enlace de Active Directory, en lugar de la cuenta de dominio).
 
-### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Requisito previo 3: Derechos de administrador de dominio para configurar los SPN (SetSPN) y la configuración de la delegación restringida de Kerberos
+### <a name="prerequisite-3-have-domain-admin-rights-to-configure-spns-setspn-and-kerberos-constrained-delegation-settings"></a>Requisito previo 3: tener derechos de administrador de dominio para configurar los SPN (SetSPN) y la configuración de la delegación restringida de Kerberos
 
 Aunque es técnicamente posible para un administrador de dominio otorgar derechos temporales o permanentes a otra persona para configurar SPN y la delegación de Kerberos sin necesidad de derechos de administrador de dominio, no es el enfoque recomendado. En la sección siguiente, se tratan detenidamente los pasos de configuración necesarios para el **Requisito previo 3**.
 
@@ -111,8 +111,8 @@ En esta sección se da por supuesto que ya ha configurado los SPN de los orígen
 
 En los pasos siguientes, se asume que disponemos de un entorno local con dos equipos: un equipo de puerta de enlace y un servidor de bases de datos que ejecuta SQL Server. Para este ejemplo, también asumiremos la configuración y los nombres siguientes:
 
-* Nombre de la máquina de puerta de enlace: **PBIEgwTestGW**
-* Cuenta de servicio de la puerta de enlace: **PBIEgwTest\GatewaySvc** (nombre para mostrar de la cuenta: Conector de la puerta de enlace)
+* Nombre de la máquina de la puerta de enlace: **PBIEgwTestGW**
+* Cuenta de servicio de puerta de enlace: **PBIEgwTest\GatewaySvc** (nombre para mostrar de la cuenta: Gateway Connector)
 * Nombre de la máquina del origen de datos de SQL Server: **PBIEgwTestSQL**
 * Cuenta de servicio del origen de datos de SQL Server: **PBIEgwTest\SQLService**
 

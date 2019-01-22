@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de ventas y marketing para Power BI: un paseo'
-description: 'Ejemplo de ventas y marketing para Power BI: un paseo'
+title: 'Ejemplo de ventas y marketing para Power BI: Dar un paseo'
+description: 'Ejemplo de ventas y marketing para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 717db64d30a12d41dc293db11f6f942e4615a1db
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 58c5063796a575498ab1c402f0be6aa2492e9060
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717594"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54289242"
 ---
-# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: un paseo
+# <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-sales-and-marketing-sample"></a>Introducción al Ejemplo de marketing y ventas
 El **Ejemplo de ventas y marketing** muestra un panel y un informe de una empresa de fabricación ficticia denominada VanArsdel Ltd. Este panel lo creó el director de marketing (CMO) de VanArsdel para disponer de información actualizada sobre el sector, y la cuota de mercado, el volumen de productos, las ventas y las opiniones sobre su compañía.
@@ -134,5 +134,5 @@ Si filtra las visualizaciones por VanArsdel, segmento, mes y región, podrá des
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecerle información detallada sobre los datos de ventas y marketing. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).  

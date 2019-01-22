@@ -5,23 +5,23 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 660f79eab32ae7ade5cea990c6fc152bb9507297
-ms.sourcegitcommit: fbb7924603f8915d07b5e6fc8f4d0c7f70c1a1e1
+ms.openlocfilehash: db3184f7bc3c181b685c22d0bcad27206b4a0f8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2018
-ms.locfileid: "34285977"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296372"
 ---
 # <a name="step-1-register-an-app-with-azure-ad"></a>Paso 1: Registrar una aplicación con Azure AD
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 El primer paso para insertar datos en un conjunto de datos de Power BI es registrar la aplicación en Azure AD. Debe hacerlo en primer lugar para tener un **id. de cliente** que identifique la aplicación en Azure AD. Sin un **id. de cliente**, Azure AD no puede autenticar la aplicación.
 
-> **Nota**: Antes de registrar una aplicación de Power BI, necesita [suscribirse a Power BI](create-an-azure-active-directory-tenant.md).
+> **NOTA**: Antes de registrar una aplicación de Power BI, necesita [suscribirse a Power BI](create-an-azure-active-directory-tenant.md).
 > 
 > 
 
@@ -47,7 +47,7 @@ El siguiente paso le enseña cómo [obtener un token de acceso de autenticación
 ## <a name="next-steps"></a>Pasos siguientes
 [Suscribirse en Power BI](create-an-azure-active-directory-tenant.md)  
 [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md)  
-[Tutorial: Insertar datos en un panel](walkthrough-push-data.md)  
+[Tutorial: Inserción de datos en un conjunto de datos](walkthrough-push-data.md)  
 [Registrar una aplicación](register-app.md)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 

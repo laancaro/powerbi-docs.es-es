@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
 ms.author: maggies
-ms.openlocfilehash: fbeb617207c13459fe88487547609323391487e2
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 05805ea7b30f0ab0bd14265caecbb04a4e975300
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900621"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296490"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)
 
@@ -80,7 +80,7 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
 
 1. En la pestaña **Introducción**, copie el valor en el cuadro **Nombre del servidor**.
 
-2. **En el generador de informes**: en el cuadro de diálogo **Propiedades de conexión**, en **Nombre del servidor**, pegue el nombre del servidor que copió. 
+2. **En el Generador de informes**: en el cuadro de diálogo **Propiedades de conexión**, en **Nombre del servidor**, pegue el nombre del servidor que copió. 
 
 1. En **Iniciar sesión en el servidor**, asegúrese de que esté seleccionada la opción **Usar la autenticación de SQL Server** y luego escriba el nombre de usuario y la contraseña que creó en Azure para la base de datos de ejemplo.
 

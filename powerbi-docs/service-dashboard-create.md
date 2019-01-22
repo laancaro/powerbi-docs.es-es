@@ -6,16 +6,16 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/02/2018
 ms.author: maggies
-ms.openlocfilehash: 28a282ff6a35061422995c46fbbcd34c21b533a7
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: c42aa07fd78430c5692067ae8476b22288470c8c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717433"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54294288"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Paneles en Power BI](service-dashboards.md) y ahora desea crear los suyos propios. Hay muchas maneras diferentes de crear un panel: desde un informe, desde cero, desde un conjunto de datos, al duplicar un panel existente, etc.  
@@ -65,7 +65,7 @@ Vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo p
 1. En la misma área de trabajo, seleccione la pestaña **Informes**. El informe recién importado se muestra con un asterisco amarillo. Seleccione el nombre del informe para abrirlo.
 
     ![Pestaña Informes](media/service-dashboard-create/power-bi-reports.png)
-2. El informe se abrirá en la vista de lectura. Observe que tiene dos pestañas en la parte inferior: "Análisis de descuento" y "Resumen de gastos". Cada pestaña representa una página del informe.
+2. El informe se abrirá en la vista de lectura. Tenga en cuenta que tiene dos pestañas en la parte inferior: análisis de descuento e información general de gasto. Cada pestaña representa una página del informe.
     Seleccione **Editar informe** para abrir el informe en la vista de edición.
 
     ![Informe en vista de lectura](media/service-dashboard-create/power-bi-reading-view.png)

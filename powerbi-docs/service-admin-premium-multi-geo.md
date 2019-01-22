@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/20/2018
 LocalizationGroup: Premium
-ms.openlocfilehash: 91e1880e1a879ee98d65d6ad91b26e534e807040
-ms.sourcegitcommit: a13abdb5a6c0c6a397b328ec2d68788ce3afa866
+ms.openlocfilehash: 4b91ac08001118c6a0241cdd1caf32ebfd9098f2
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2018
-ms.locfileid: "52268306"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291726"
 ---
 # <a name="multi-geo-support-for-power-bi-premium-preview"></a>Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
 
@@ -98,7 +98,7 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [¿Qué es Power BI Premium?](service-premium.md)
+- [Power BI Premium: ¿Qué es?](service-premium.md)
 - [Multi-Geo para capacidades de Power BI Embedded](developer/embedded-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 71dbdd79e6bedee3f1377f0e7c29fcc6efbbba03
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47417335"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290898"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
@@ -138,7 +138,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | at-oo |AT-4 |Oberösterreich |Alta Austria |OO |
 | at-no |AT-3 |Niederösterreich |Baja Austria |NO |
 | at-ka |AT-2 |Kärnten |Carintia |KA |
-| at-bu |AT-1 |Burgenland |Burgenland |BU |
+| at-bu |AT-1 |Burgenland |Burgenland |Unidad de negocio |
 
 ### <a name="brazil-states"></a>Brasil: estados
 
@@ -219,7 +219,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | Bourgogne |Bourgogne |Borgoña |
 | Basse-Normandie |Basse-Normandie |Baja Normandía |
 | Auvergne |Auvergne |Auvernia |
-| Aquitaine |Aquitaine |Aquitania |
+| Aquitaine |Aquitaine |Aquitaine |
 
 ### <a name="germany-states"></a>Alemania: estados
 
@@ -352,7 +352,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | nl-fl |NL-FL |Flevoland |Flevolanda |
 | nl-dr |NL-DR |Drenthe |Drente |
 
-### <a name="uk-countries"></a>Reino Unido: países
+### <a name="uk-countries"></a>Reino Unido: Países
 
 | `id` | `iso` | `name` |
 | --- | --- | --- |
@@ -361,7 +361,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | gb-nir |GB-NIR |Irlanda del Norte |
 | gb-eng |GB-ENG |Inglaterra |
 
-### <a name="usa-states"></a>Estados Unidos: estados
+### <a name="usa-states"></a>EE. UU.: estados
 
 | `id` | `name` | `postal` |
 | --- | --- | --- |

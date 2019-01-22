@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 73d9d84552d49ca507fe4b6f9ec022bb7fb98866
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670863"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285125"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solución de problemas de escenarios de actualización
 Aquí puede encontrar información sobre distintos escenarios que pueden darse al actualizar datos en el servicio Power BI.
@@ -37,7 +37,7 @@ Espere entre 10 y 15 minutos aproximadamente para que la actualización se refle
 ## <a name="gatewaynotreachable-when-setting-credentials"></a>GatewayNotReachable al establecer las credenciales
 Puede que aparezca el error GatewayNotReachable al intentar establecer las credenciales para un origen de datos. Esto podría deberse a que la puerta de enlace no está actualizada.  Instale la última versión de Gateway y vuelva a intentarlo.
 
-## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Error de procesamiento: se ha producido el siguiente error del sistema: no coinciden los tipos
+## <a name="processing-error-the-following-system-error-occurred-type-mismatch"></a>Error de procesamiento: Se produjo el siguiente error del sistema: no coinciden los tipos
 Puede tratarse de un problema con el script M en el libro de Excel o el archivo de Power BI Desktop.  También puede deberse a que la versión de Power BI Desktop esté obsoleta.
 
 ## <a name="tile-refresh-errors"></a>Errores de actualización de iconos

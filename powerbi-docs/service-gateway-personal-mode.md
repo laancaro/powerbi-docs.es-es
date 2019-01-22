@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 263c1a576e939a87e970cc2c0200dfb6c1ccdc41
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273342"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54295756"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Puerta de enlace de datos local (modo personal)
 Puede utilizar orígenes de datos local y crear informes y paneles de Power BI mediante una puerta de enlace. Una **puerta de enlace** es un software que facilita el acceso a los datos que se almacenan en una red local privada, y que después le permite usar esos datos en servicios en línea como el **servicio Power BI**. La **puerta de enlace de datos local (modo personal)** es una actualización reciente de la puerta de enlace de Power BI, que permite a los usuarios instalar una puerta de enlace en su propio equipo y obtener acceso a los datos locales.
@@ -114,28 +114,28 @@ La compatibilidad con Spark está prevista para la segunda mitad del año 2017.
 ## <a name="frequently-asked-questions-faq"></a>Preguntas más frecuentes (P+F)
 * ¿Puedo ejecutar **Puerta de enlace de datos local (modo personal)** en paralelo con **Puerta de enlace de datos local** (conocida anteriormente como versión Enterprise de la puerta de enlace)?
   
-  * **Respuesta**: Sí, con la nueva versión ambas se pueden ejecutar de forma simultánea.
+  * **Respuesta:** Sí, con la nueva versión ambas se pueden ejecutar de forma simultánea.
 * ¿Puedo ejecutar la **puerta de enlace de datos local (modo personal)** como un servicio?
   
   * **Respuesta:** No. **Puerta de enlace de datos local (modo personal)** solo puede ejecutarse como una aplicación. Si tiene que ejecutar la puerta de enlace como un servicio o en modo de administrador, debe tener en cuenta la [**puerta de enlace de datos local**](service-gateway-onprem.md) (conocida anteriormente como Enterprise Gateway).
 * ¿Con qué frecuencia se actualiza **Puerta de enlace de datos local (modo personal)**?
   
-  * **Respuesta**: tenemos previsto actualizar cada mes la puerta de enlace personal.
+  * **Respuesta:** Tenemos previsto actualizar cada mes la puerta de enlace personal.
 * ¿Por qué se me pide actualizar mis credenciales?
   
-  * **Respuesta**: muchas situaciones pueden desencadenar una solicitud de credenciales. La más común es que ha vuelto a instalar **Puerta de enlace de datos local (modo personal)** en un equipo diferente a **Power BI - Personal Gateway**. También podría haber ocurrido un problema en el origen de datos y Power BI no pudo realizar una conexión de prueba, o se ha agotado el tiempo de espera o se produjo un error del sistema. Puede actualizar las credenciales en el **servicio Power BI** en el **icono de engranaje** y seleccionando **Configuración** y **Conjuntos de datos**; ahora busque el conjunto de datos en cuestión y haga clic en *Actualizar credenciales*.
+  * **Respuesta:** Muchas situaciones pueden desencadenar una solicitud de credenciales. La más común es que ha vuelto a instalar **Puerta de enlace de datos local (modo personal)** en un equipo diferente a **Power BI - Personal Gateway**. También podría haber ocurrido un problema en el origen de datos y Power BI no pudo realizar una conexión de prueba, o se ha agotado el tiempo de espera o se produjo un error del sistema. Puede actualizar las credenciales en el **servicio Power BI** en el **icono de engranaje** y seleccionando **Configuración** y **Conjuntos de datos**; ahora busque el conjunto de datos en cuestión y haga clic en *Actualizar credenciales*.
 * ¿Durante cuánto tiempo estará sin conexión mi puerta de enlace personal anterior durante la actualización?
   
-  * **Respuesta**: la actualización de la puerta de enlace personal a la nueva versión solo debería tardar unos minutos. 
+  * **Respuesta:** La actualización de la puerta de enlace personal a la nueva versión solo debería tardar unos minutos. 
 * ¿Qué ocurre si no migro a la nueva puerta de enlace personal antes del 31 de julio de 2017?
   
-  * **Respuesta**: si está actualizando sus informes con la puerta de enlace actual, sus actualizaciones se detendrán. La única manera de configurar una nueva programación de actualización es mediante la instalación y configuración de la nueva puerta de enlace.
+  * **Respuesta:** Si está actualizando sus informes con la puerta de enlace actual, sus actualizaciones se detendrán. La única manera de configurar una nueva programación de actualización es mediante la instalación y configuración de la nueva puerta de enlace.
 * Estoy usando un script R. ¿Está admitido?
   
-  * **Respuesta**: Los scripts de R son compatibles con el modo personal.
+  * **Respuesta:** Los scripts de R son compatibles con el modo personal.
 * ¿Por qué no veo el mensaje para actualizar mi puerta de enlace en el **servicio Power BI**?
   
-  * **Respuesta**: probablemente, es debido a que tiene uno o más conjuntos de datos que incluyen un origen de datos que aún no se admite.
+  * **Respuesta:** Probablemente, es debido a que tiene uno o más conjuntos de datos que incluyen un origen de datos que aún no se admite.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Configuración de proxy para Power BI Gateways](service-gateway-proxy.md)  

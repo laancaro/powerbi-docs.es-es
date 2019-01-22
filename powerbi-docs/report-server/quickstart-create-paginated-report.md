@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/22/2018
 ms.author: maggies
-ms.openlocfilehash: 475221981181e4ddfac18e7023259fac9bbc35ed
-ms.sourcegitcommit: 458e091a0a0bfb71ea3980d44df6408f48bab586
+ms.openlocfilehash: 9e3a45e7648fd38413c2d45582981bac5e91cd2a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2018
-ms.locfileid: "52289137"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284448"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creación de un informe paginado para Power BI Report Server
 Como sugiere su nombre, los informes paginados pueden ejecutar muchas páginas. Están diseñados con un formato fijo y ofrecen una personalización precisa. Los informes paginados son archivos .rdl.

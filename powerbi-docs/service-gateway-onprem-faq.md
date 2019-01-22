@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: da8fb3da7ea0e4f0457951bc421a5f207c3c6911
-ms.sourcegitcommit: 47269676aa600e60ec7ba0e323941a71e0622833
+ms.openlocfilehash: b1c74968365db59d51f7c0a7bdb356552cc75596
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/08/2018
-ms.locfileid: "51273319"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283791"
 ---
 # <a name="on-premises-data-gateway-faq"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local
 <!-- Shared FAQ shared Include -->
@@ -61,7 +61,7 @@ ms.locfileid: "51273319"
 **Respuesta:** Sí, puede cargar el libro. Y no, no necesita una puerta de enlace. Sin embargo, dado que los datos residen en el modelo de datos de Excel, los informes de Power BI basados en el libro de Excel no serán dinámicos. Para actualizar los informes de Power BI, deberá volver a cargar un libro actualizado cada vez. O bien, use la puerta de enlace con la actualización programada.
 
 **Pregunta:** Si los usuarios comparten paneles con una conexión DirectQuery, ¿los otros usuarios podrán ver los datos aunque que no tengan los mismos permisos?  
-**Respuesta:** para un panel conectado a Analysis Services, los usuarios sólo verán los datos a los que tienen acceso. Si los usuarios no tienen los mismos permisos, no podrán ver ningún dato. Para otros orígenes de datos, todos los usuarios compartirán las credenciales especificadas por el administrador para ese origen de datos.
+**Respuesta:** Para un panel conectado a Analysis Services, los usuarios sólo verán los datos a los que tienen acceso. Si los usuarios no tienen los mismos permisos, no podrán ver ningún dato. Para otros orígenes de datos, todos los usuarios compartirán las credenciales especificadas por el administrador para ese origen de datos.
 
 **Pregunta:** ¿Por qué no puedo conectarme a mi servidor de Oracle?  
 **Respuesta:** Es posible que tenga que instalar el cliente de Oracle y configurar el archivo tnsnames.ora con la información correcta del servidor. Se trata de una instalación independiente fuera de la puerta de enlace. Para obtener más información, consulte [Instalación del cliente de Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
@@ -69,8 +69,8 @@ ms.locfileid: "51273319"
 **Pregunta:** ¿Funcionará la puerta de enlace con ExpressRoute?  
 **Respuesta:** Sí. Para obtener más información acerca de ExpressRoute y Power BI, consulte [Power BI y ExpressRoute](service-admin-power-bi-expressroute.md).
 
-**Pregunta**: Estoy usando un script de R. ¿Está admitido?
-**Respuesta**: Los scripts de R solo son compatibles con el modo personal.
+**Pregunta:** Estoy usando scripts de R. ¿Está admitido?
+**Respuesta:** Los scripts de R solo son compatibles con el modo personal.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)  

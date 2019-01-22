@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo Rentabilidad del cliente para Power BI: paseo'
-description: 'Ejemplo Rentabilidad del cliente para Power BI: paseo'
+title: 'Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo'
+description: 'Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: a47a63311dd28f2f1f313bc0a5cfcd68cdb0401b
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3dd4f5f0404737685757400202d3a92767e44189
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717985"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280847"
 ---
-# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: paseo
+# <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-customer-profitability-sample"></a>Información general del ejemplo Customer Profitability
 El paquete de contenido "Ejemplo Rentabilidad del cliente" contiene un panel, un informe y un conjunto de datos de una compañía que fabrica materiales de marketing. Este panel lo creó una directora financiera para ver las métricas clave relacionadas con sus cinco gerentes de unidad de negocio (ejecutivos), los productos, los clientes y los márgenes brutos (GM). Así, de un vistazo, puede ver los factores que afectan a la rentabilidad.
@@ -195,7 +195,7 @@ Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no gu
 
 También puede [descargar únicamente el conjunto de datos (libro de Excel) para este ejemplo](http://go.microsoft.com/fwlink/?LinkId=529781).
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles, la sección Preguntas y respuestas y los informes de Power BI pueden proporcionar información detallada de los clientes. Ahora es su turno: conéctese a sus propios datos Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
 
 [Volver a los ejemplos de Power BI](sample-datasets.md)  

@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de análisis de adquisiciones: un paseo'
-description: 'Ejemplo de análisis de compra para Power BI: un paseo'
+title: 'Ejemplo de análisis de adquisiciones: Dar un paseo'
+description: 'Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3b0c6fcc72e5b2f95b06f1184341298d449bf57e
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717157"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287357"
 ---
-# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de compra para Power BI: un paseo
+# <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-procurement-analysis-sample"></a>Introducción al Ejemplo de análisis de adquisiciones
 En este panel de ejemplo del sector y en el informe subyacente se analizan los gastos que tiene una empresa de fabricación en proveedores por categoría y ubicación. En el ejemplo, exploramos estas áreas:
@@ -71,10 +71,10 @@ Veamos primero las tendencias de gastos por categoría y ubicación.
 
 Aspectos a tener en cuenta:
 
-* En el gráfico de líneas **Total Invoice by Month and Category** : la categoría **Direct** presenta gastos bastante constantes, **Logistics** experimenta un pico en diciembre y **Other** , un pico en febrero.
-* En el mapa **Total Invoice by Country/Region** : la mayor parte de los gastos corresponden a Estados Unidos.
-* En el gráfico de columnas **Total Invoice by Sub Category**, las categorías que muestran unos gastos mayores son **Hardware** y **Indirect Goods & Services**.
-* En el gráfico de barras Total Invoice by Tier: la mayor parte de los negocios se llevan a cabo con nuestros proveedores de nivel 1 (10 principales). Esto ayuda a administrar mejor las relaciones con los proveedores.
+* En el gráfico de líneas **Total de facturas por mes y categoría**: La categoría **Directa** presenta gastos bastante coherentes, **Logística** experimenta un pico en diciembre y **Otros** un pico en febrero.
+* En el mapa **Total factura por país o región**: La mayoría de nuestros gastos se sitúan en los Estados Unidos.
+* En el gráfico de columnas **Total de facturas por subcategoría**: **Hardware** y **Bienes y servicios indirectos** son las mayores categorías de gastos.
+* En el gráfico Total de facturas por nivel: La mayor parte de nuestra actividad se realiza con nuestros proveedores de Nivel 1 (los 10 mejores). Esto ayuda a administrar mejor las relaciones con los proveedores.
 
 ## <a name="spending-in-mexico"></a>Gastos de México
 Vamos a examinar las áreas de gasto en México.
@@ -139,5 +139,5 @@ Seleccione **Editar informe** en la esquina superior izquierda y examínelo en l
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Si los guarda, siempre puede ir a **Obtener datos** para obtener una copia nueva de este ejemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles y los informes de Power BI pueden proporcionar ideas claras sobre los datos de adquisiciones. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).

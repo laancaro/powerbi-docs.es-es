@@ -5,17 +5,17 @@ author: markingmyname
 manager: kfile
 ms.author: maghan
 ms.service: power-bi-embedded
-ms.component: ''
+ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
 ms.reviewer: ''
 ms.date: 07/31/2018
-ms.openlocfilehash: f364bb725c492c1bffd2493c1e2a48ee8c442a9e
-ms.sourcegitcommit: 6be2c54f2703f307457360baef32aee16f338067
+ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2018
-ms.locfileid: "43300055"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288552"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Creación de una capacidad de Power BI Embedded en Azure Portal
 
@@ -29,7 +29,7 @@ Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azu
 
 Para completar este inicio rápido, necesita:
 
-* **Una suscripción de Azure:** visite la [evaluación gratuita de Azure](https://azure.microsoft.com/free/) para crear una cuenta.
+* **Una suscripción a Azure:** visite la [evaluación gratuita de Azure](https://azure.microsoft.com/free/) para crear una cuenta.
 * **Azure Active Directory:** la suscripción debe estar asociada con un inquilino de Azure Active Directory (AAD). Además, ***deberá haber iniciado sesión en Azure con una cuenta en ese inquilino***. No se admiten cuentas de Microsoft. Para más información, vea [Autenticación y permisos de usuario](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
 * **Inquilino de Power BI:** al menos una cuenta del inquilino de AAD debe haberse registrado en Power BI.
 * **Grupo de recursos:** use un grupo de recursos existente o [cree uno](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).

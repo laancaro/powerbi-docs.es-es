@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5eb2e63d9bac7249e106ad4c4b525ca3f3ab5cf8
-ms.sourcegitcommit: 0611860a896e636ceeb6e30ce85243bfd8e7b61d
+ms.openlocfilehash: be4ebfdfa7dca5ce212c2b5d242d87b0001b7750
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50909603"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54281928"
 ---
 # <a name="get-power-bi-desktop"></a>Obtener Power BI Desktop
 **Power BI Desktop** le permite crear consultas, modelos e informes avanzados para visualizar datos. Con **Power BI Desktop**, puede crear modelos de datos, crear informes y compartir su trabajo mediante su publicación en el servicio Power BI.  La descarga de **Power BI Desktop** es gratuita.
@@ -95,8 +95,8 @@ En la siguiente lista, se describen los requisitos mínimos para ejecutar **Powe
 * .NET 4.5
 * Internet Explorer 9 o posterior
 * **Memoria (RAM):** Al menos 1 GB disponible; se recomienda 1,5 GB o más.
-* **Pantalla:** se recomienda al menos 1440 x 900 o 1600 x 900 (16:9). No se recomiendan las resoluciones inferiores a 1024 x 768 o 1280 x 800, ya que ciertos controles (por ejemplo, para cerrar la pantalla de inicio) solo se muestran en resoluciones superiores a esta.
-* **Configuración de pantalla de Windows:** si la configuración de pantalla está establecida para cambiar el tamaño del texto, las aplicaciones u otros elementos en más de 100 %, quizás no vea ciertos cuadros de diálogo que deben cerrarse o en los que debe actuar para continuar usando **Power BI Desktop**. Si se produce este problema, compruebe la **configuración de su pantalla** en **Configuración > Sistema > Pantalla** en Windows, y use el control deslizante para devolver la configuración de pantalla al 100 %.
+* **Pantalla:** Se recomienda al menos 1440 x 900 o 1600 x 900 (16:9). No se recomiendan las resoluciones inferiores a 1024 x 768 o 1280 x 800, ya que ciertos controles (por ejemplo, para cerrar la pantalla de inicio) solo se muestran en resoluciones superiores a esta.
+* **Configuración de la pantalla de Windows:** Si la configuración de pantalla está establecida para cambiar el tamaño del texto, las aplicaciones u otros elementos en más de 100 %, quizás no vea ciertos cuadros de diálogo que deben cerrarse o en los que debe actuar para continuar usando **Power BI Desktop**. Si se produce este problema, compruebe la **configuración de su pantalla** en **Configuración > Sistema > Pantalla** en Windows, y use el control deslizante para devolver la configuración de pantalla al 100 %.
 * **CPU:** 1 gigahercio (GHz) o superior; se recomienda un procesador de x86 o x64 bits.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
@@ -115,7 +115,7 @@ Si se actualiza a la versión actual de Power BI Desktop, normalmente se solucio
 Se recomienda actualizar a la última versión de Power BI Desktop para aprovechar los avances en las características, el rendimiento, la estabilidad y otras mejoras. Puede que algunas organizaciones no deseen que los usuarios actualicen a cada nueva versión. Puede deshabilitar las notificaciones modificando el registro con los pasos siguientes:
 
 1. Con el Editor del Registro, vaya a *HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Microsoft Power BI Desktop*.
-2. Cree una entrada con la siguiente configuración: *REG_DWORD : DisableUpdateNotification*.
+2. Cree una nueva entrada con la configuración siguiente: *REG_DWORD : DisableUpdateNotification*
 3. Establezca el valor de esa nueva entrada en **1**.
 
 Necesitará reiniciar el equipo para que el cambio surta efecto.
@@ -125,7 +125,7 @@ Necesitará reiniciar el equipo para que el cambio surta efecto.
 En determinadas circunstancias, incluidas determinadas configuraciones de resolución de pantalla, algunos usuarios pueden ver que Power BI Desktop representa el contenido con áreas negras extensas. Suele ser el resultado de las actualizaciones del sistema operativo recientes que afectan a cómo se representan los elementos, en lugar de un resultado directo de cómo Power BI Desktop presenta el contenido. No obstante, las áreas negras extensas no son tan atractivas como los grandes objetos visuales, así que, para resolver este problema, realice los pasos siguientes:
 
 1. Presione la tecla Inicio y escriba la palabra *borrosa* en la barra de búsqueda que aparece.
-2. En el cuadro de diálogo que aparece, seleccione la opción: *Corregir las aplicaciones que están borrosas*.
+2. En el cuadro de diálogo que aparece, seleccione la opción: *Corregir las aplicaciones que están borrosas.*
 3. Reinicie Power BI Desktop.
 
 Este problema puede resolverse tras la publicación de las actualizaciones de Windows posteriores. 

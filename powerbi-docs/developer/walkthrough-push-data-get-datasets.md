@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 44fbf1e651c36c95694e397c64050977f3ee730a
-ms.sourcegitcommit: 695c65629d6d1faba61db2e1570324f65f235dde
+ms.openlocfilehash: f6396747dc21ddc94ab1abda6939e8e423c649e7
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2018
-ms.locfileid: "37092561"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296206"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Paso 4: Obtener un conjunto de datos para agregar filas a una tabla de Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
@@ -30,7 +30,7 @@ Aquí se indica cómo obtener un conjunto de datos.
 > 
 > 
 
-1. En el proyecto de aplicación de consola que creó en Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), instale el paquete NuGet de Newtonsoft.Json. Aquí se muestra cómo instalar el paquete:
+1. En el proyecto de aplicación de consola que creó en el Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), instale el paquete NuGet de Newtonsoft.Json. Aquí se muestra cómo instalar el paquete:
    
      a. En Visual Studio 2015, elija **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de paquetes**.
    

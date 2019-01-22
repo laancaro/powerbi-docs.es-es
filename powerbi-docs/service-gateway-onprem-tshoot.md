@@ -6,16 +6,16 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 795f97403ea80caad52e57e54edc3d54a4c5d952
-ms.sourcegitcommit: 3b1a1f55465e5dca88783046c6b4c073e4e22e4b
+ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2018
-ms.locfileid: "51580549"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296579"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 
@@ -60,7 +60,7 @@ Los registros del servicio de puerta de enlace se clasifican en tres categorías
 
 Este archivo se encuentra de forma predeterminada en: *\Archivos de programa\Puerta de enlace de datos local\Microsoft.PowerBI.EnterpriseGateway.exe.config*. Para configurar el número de archivos de registro que conservar, cambie el primer número (20, en este ejemplo): `GatewayInfo.log,GatewayErrors.log,GatewayNetwork.log,20,50`.
 
-### <a name="error-failed-to-create-a-gateway-try-again"></a>Error: No se pudo crear una puerta de enlace. Intentar de nuevo
+### <a name="error-failed-to-create-a-gateway-try-again"></a>Error: No se pudo crear una puerta de enlace. Inténtelo de nuevo.
 
 Todos los detalles están disponibles, pero la llamada al servicio Power BI devolvió un error. Se muestran el error y un identificador de actividad. Esto puede producirse por diferentes motivos. Para obtener más detalles, puede recopilar y revisar los registros, tal y como se menciona más abajo.
 
@@ -117,7 +117,7 @@ De forma predeterminada, la puerta de enlace de datos local usa la seguridad de 
 
 ## <a name="data-sources"></a>Orígenes de datos
 
-### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Error: no es posible la conexión. Detalles: "Las credenciales de conexión no son válidas"
+### <a name="error-unable-to-connect-details-invalid-connection-credentials"></a>Error: No se puede conectar. Detalles: "Credenciales de conexión no válidas"
 
 En **Mostrar detalles**, se muestra el mensaje de error recibido desde el origen de datos. En el caso de SQL Server, se ve algo parecido a lo siguiente.
 
@@ -125,7 +125,7 @@ En **Mostrar detalles**, se muestra el mensaje de error recibido desde el origen
 
 Compruebe que tenga el nombre de usuario y la contraseña correctos. Además, compruebe que esas credenciales puedan conectarse correctamente con el origen de datos. Asegúrese de que la cuenta que se usa coincide con el **método de autenticación**.
 
-### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Error: no es posible la conexión. Detalles: "No es posible conectarse a la base de datos"
+### <a name="error-unable-to-connect-details-cannot-connect-to-the-database"></a>Error: No se puede conectar. Detalles: "No se puede conectar con la base de datos"
 
 Pudimos conectarnos al servidor, pero no a la base de datos proporcionada. Compruebe el nombre de la base de datos y que la credencial del usuario tenga el permiso adecuado para tener acceso a esa base de datos.
 
@@ -133,7 +133,7 @@ En **Mostrar detalles**, se muestra el mensaje de error recibido desde el origen
 
     Cannot open database "AdventureWorks" requested by the login. The login failed. Login failed for user 'username'.
 
-### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Error: no es posible la conexión. Detalles: "Unknown error in data gateway" (Error desconocido en la puerta de enlace de datos)
+### <a name="error-unable-to-connect-details-unknown-error-in-data-gateway"></a>Error: No se puede conectar. Detalles: "Error desconocido en la puerta de enlace de datos"
 
 Este error puede producirse por diferentes motivos. Asegúrese de validar que puede conectarse al origen de datos desde la máquina que hospeda la puerta de enlace. Esto podría deberse a la imposibilidad de acceder al servidor.
 
@@ -141,7 +141,7 @@ En **Mostrar detalles**, puede ver el código de error **DM_GWPipeline_UnknownEr
 
 Para más información, también puede mirar en Registros de eventos > **Registros de aplicaciones y servicios** > **Servicio de puerta de enlace de datos local**.
 
-### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Error: Hemos detectado un error al intentar conectar con <server>. Detalles: "We reached the data gateway, but the gateway can't access the on-premises data source." (Se conectó con la puerta de enlace de datos, pero esta no puede acceder al origen de datos local)
+### <a name="error-we-encountered-an-error-while-trying-to-connect-to-server-details-we-reached-the-data-gateway-but-the-gateway-cant-access-the-on-premises-data-source"></a>Error: Se encontró un error al intentar conectarse a <server>. Detalles: "Se conectó con una puerta de enlace de datos, pero esta no puede acceder al origen de datos en el entorno local".
 
 No se pudo establecer la conexión al origen de datos especificado. Asegúrese de validar la información proporcionada para ese origen de datos.
 
@@ -459,7 +459,7 @@ Siga estos pasos para solucionar el problema:
 1. Configuración de un SPM para la puerta de enlace local
 2. Configuración de la delegación restringida en Active Directory (AD)
 
-### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: no se pudo crear una identidad de Windows para el userId del usuario
+### <a name="failedtoimpersonateuserexception-failed-to-create-windows-identity-for-user-userid"></a>FailedToImpersonateUserException: No se pudo crear la identidad de Windows para el userid del usuario
 
 Se produce la excepción FailedToImpersonateUserException si no se puede suplantar a otro usuario. También puede ocurrir si la cuenta que intenta suplantar es de un dominio distinto del dominio en que está el servicio de puerta de enlace (es una limitación).
 
@@ -500,7 +500,7 @@ Recibe el error 1033 cuando el identificador externo que está configurado en SA
         <value>AADEmail</value>
 ```
 
-### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Major: "Miscellaneous failure [851968]", minor: "No credentials are available in the security package
+### <a name="sap-aglibodbchdb-dllhdbodbc-communication-link-failure-10709-connection-failed-rte-1-kerberos-error-major-miscellaneous-failure-851968-minor-no-credentials-are-available-in-the-security-package"></a>[SAP AG][LIBODBCHDB DLL][HDBODBC] Communication link failure;-10709 Connection failed (RTE:[-1] Kerberos error. Principal: "Miscellaneous failure [851968]" (Error diverso [851968]), secundario: "No credentials are available in the security package" (No hay credenciales disponibles en el paquete de seguridad)
 
 Recibe el mensaje de error -10709 Error de conexión si la delegación no está configurada correctamente en AD.
 

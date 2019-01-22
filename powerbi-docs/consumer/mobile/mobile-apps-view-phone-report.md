@@ -1,20 +1,20 @@
 ---
 title: Ver informes de Power BI optimizados para el teléfono
 description: Lea sobre la interacción con páginas de informe que se optimizan para visualizarse en las aplicaciones de teléfono de Power BI.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 09/14/2018
-ms.author: maggies
-ms.openlocfilehash: 06a8d15ca894b877199f22fc6c00d4c34827d76b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 99f40837f4b2c188120c4ca0311be3e9ded5fe95
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46547807"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54276915"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
 
@@ -48,7 +48,7 @@ Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea e
     ![Filtro avanzado de informes de teléfono de Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Objetos visuales de resaltado cruzado
-Los objetos visuales de resaltado cruzado en informes de teléfono funcionan de la misma forma que el servicio Power BI y en los informes sobre teléfonos en la vista horizontal: cuando seleccione datos en un objeto visual, resalta los datos relacionados en otros objetos visuales en esa página.
+Los objetos visuales de resaltado cruzado en los informes del teléfono funcionan igual que en el servicio Power BI y en los informes sobre teléfonos en la vista horizontal: al seleccionar los datos de un objeto visual, se resaltan los datos relacionados en los demás objetos visuales de la página.
 
 Lea más sobre el [filtrado y resaltado en Power BI](../../power-bi-reports-filters-and-highlighting.md).
 

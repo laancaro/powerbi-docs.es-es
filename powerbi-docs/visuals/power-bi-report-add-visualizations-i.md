@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: f2edbd7b0b977b378d25634a0f9505101350d73b
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 52c0211aea0462e0bf79d7a48808f1f826c09fb6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829812"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296096"
 ---
 # <a name="part-i-add-visualizations-to-a-power-bi-report"></a>Parte I, Incorporación de visualizaciones a un informe de Power BI
 En este artículo, se ofrece una introducción rápida a la creación de una visualización en un informe mediante el servicio Power BI o Power BI Desktop.  Para ver contenido más avanzado, [consulte la parte II](power-bi-report-add-visualizations-ii.md). Vea cómo Amanda demuestra algunas maneras de crear, editar y dar formato a objetos visuales en el lienzo del informe. A continuación, inténtelo usted usando el [ejemplo de marketing y ventas](../sample-datasets.md) para crear su propio informe.
@@ -38,7 +38,7 @@ En este artículo, se ofrece una introducción rápida a la creación de una vis
    
    ![](media/power-bi-report-add-visualizations-i/pbi_onecolchart.png)
    
-   **O bien, comience con un campo de categoría**, como Nombre o Producto: Power BI crea una tabla y agrega ese campo al contenedor **Valores**.
+   **O bien, comience con un campo de categoría**, como Nombre o Producto: Power BI crea una Tabla y agrega ese campo también a **Valores**.
    
    ![](media/power-bi-report-add-visualizations-i/pbi_agif_createchart3.gif)
    
@@ -57,7 +57,7 @@ En este artículo, se ofrece una introducción rápida a la creación de una vis
   
 
 ## <a name="next-steps"></a>Pasos siguientes
- Continuar con la [parte II del tutorial que le muestra cómo agregar visualizaciones a un informe de Power BI](power-bi-report-add-visualizations-ii.md).
+ Continúe con la [Parte 2: Incorporación de visualizaciones a un informe de Power BI](power-bi-report-add-visualizations-ii.md)
    
    [Interactuar con las visualizaciones](../consumer/end-user-reading-view.md) en el informe.
    

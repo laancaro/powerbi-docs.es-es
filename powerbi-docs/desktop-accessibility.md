@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d57d31e87197ee9d764a8d263dd4ee6dd0c75ac3
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: d0c6222c4b10307985ad039c3b391c8648614979
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619641"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280065"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -36,7 +36,7 @@ Puede cambiar el enfoque entre las pestañas de las páginas del informe o los o
 * Cuando el enfoque recae en las *pestañas de páginas de informes*, use el *tabulador* o las teclas de *dirección* para cambiar el enfoque de la página de un informe a la siguiente. El lector de pantalla lee el título de la página del informe e identifica si dicha página está seleccionada actualmente. Para cargar la página del informe en la que recae el enfoque actualmente, use la tecla *ENTRAR* o la *barra espaciadora*.
 * Si el enfoque recae en una *página del informe* cargada, use el *tabulador* para cambiar el enfoque a cada objeto de la página, que incluye todos los cuadros de texto, imágenes, formas y gráficos. El lector de pantalla lee el tipo de objeto, su título, si lo tiene, y una descripción de ese objeto, si el autor del informe la ha proporcionado. 
 
-Al desplazarse entre objetos visuales, si quiere interactuar más con ellos, puede presionar **Alt + Mayús + F10** para mover el foco al encabezado visual, que contiene distintas opciones, como ordenar, exportar los datos del gráfico y el modo de enfoque. 
+Al desplazarse entre objetos visuales puede presionar **Alt + Mayús + F10** para mover el foco al encabezado visual, que contiene distintas opciones, como ordenar, exportar los datos del gráfico y el modo de enfoque. 
 
 ![Presione Alt+Mayús+F10 en Power BI Desktop para mover el foco al encabezado del objeto visual](media/desktop-accessibility/accessibility_08.png)
 
@@ -49,7 +49,7 @@ Puede presionar **Alt + Mayús + F11** para presentar una versión accesible de 
 
 A partir de la versión de **Power BI Desktop** de julio de 2018, las segmentaciones también tienen integrada la funcionalidad de accesibilidad. Cuando seleccione una segmentación, use CTRL+flecha derecha (tecla Control más la tecla de flecha derecha) para moverse por los distintos controles dentro de la segmentación. Por ejemplo, cuando presiona inicialmente CTRL+flecha derecha, el foco está en el borrador y presionar la barra espaciadora equivale a hacer clic en el botón del borrador, con lo que se borran todos los valores de la segmentación. 
 
-Puede presionar la tecla TAB para desplazarse por los controles de una segmentación. Al presionar la tecla TAB cuando está en el borrador, se mueve a la parte inferior del menú desplegable; si vuelve a presionarla, pasa al primer valor de la segmentación (si hay varios valores para la segmentación, como un intervalo). 
+Puede presionar la tecla TAB para desplazarse por los controles de una segmentación. Al presionar la tecla TAB cuando está en el borrador, se mueve al menú desplegable. Si vuelve a presionarla, pasa al primer valor de la segmentación (si hay varios valores para la segmentación, como un intervalo). 
 
 ![Presione CTRL+(tecla de flecha derecha) en Power BI Desktop para ajustar el elemento o los valores de una segmentación y presione ESPACIO para seleccionar el elemento y ajustar su valor.](media/desktop-accessibility/accessibility_07.png)
 
@@ -69,7 +69,7 @@ Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Deskto
   
   * La utilización de una *forma de marcador* distinta para cada línea permite que los lectores del informe puedan diferenciar cada una de las líneas o áreas con más facilidad.
 * Como continuación del punto anterior, no se base en el color para transmitir información. Además de usar formas en gráficos de líneas y de dispersión, no dependa del formato condicional para proporcionar información en tablas y matrices. 
-* Elija un criterio de ordenación intencionado para cada objeto visual del informe. Cuando los usuarios de lectores de pantalla se desplacen por los datos del gráfico, elegirán el mismo criterio de ordenación que el del objeto visual.
+* Elija un criterio de ordenación intencionado para cada objeto visual del informe. Cuando los usuarios de lectores de pantalla se desplacen por los datos del gráfico, elige el mismo criterio de ordenación que el del objeto visual.
 * Seleccione un *tema* en la galería de temas con un alto contraste y un color apropiado para invidentes y, después, impórtelo en la [característica de versión preliminar **Temas**](desktop-report-themes.md).
 * Proporcione *texto alternativo* para cada objeto de un informe. De esta forma, se asegura de que los usuarios del informe entienden lo que trata de comunicar con un objeto visual, incluso aunque ellos no puedan ver el objeto visual, la imagen, la forma o el cuadro de texto. Para proporcionar *texto alternativo* para cualquier objeto de un informe de **Power BI Desktop**, seleccione el objeto (como un objeto visual, una forma, etc.) y, en el panel **Visualizaciones**, seleccione la sección **Formato**, expanda **General**, desplácese hacia abajo y rellene el cuadro de texto **Texto alternativo**.
   
@@ -93,7 +93,7 @@ Al usar los modos de contraste alto en Windows, esta configuración y la paleta 
 
 ![Configuración de Windows de contraste alto](media/desktop-accessibility/accessibility_05.png)
 
-**Power BI Desktop** detecta automáticamente el tema de contraste alto que se usa en Windows y aplica esta configuración a los informes. Los colores de contraste alto seguirán al informe a la hora de publicarlo en el servicio Power BI o en otro lugar.
+**Power BI Desktop** detecta automáticamente el tema de contraste alto que se usa en Windows y aplica esta configuración a los informes. Los colores de contraste alto siguen el informe a la hora de publicarlo en el servicio Power BI o en otro lugar.
 
 ![Configuración de Windows de contraste alto](media/desktop-accessibility/accessibility_05b.png)
 
@@ -141,7 +141,7 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 ### <a name="pane-navigation"></a>Navegación por el panel
 | Para hacerlo           | Presione                |
 | :------------------- | :------------------- |
-| Abrir un menú contextual | <ul><li>Teclado de Windows: tecla de contexto de Windows + F10.  La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: Mayús + F10</li></ul> |
+| Abrir un menú contextual | <ul><li>Teclado de Windows: tecla de contexto de Windows + F10.  La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: Mayús+F10</li></ul> |
 
 ### <a name="slicer"></a>Segmentación
 | Para hacerlo           | Presione                |
@@ -170,7 +170,10 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | Seleccionar todas las apariciones de la selección actual | Ctrl + Mayús + L |
 | Seleccionar todas las apariciones de la palabra actual | Ctrl + F2 |
 
-
+### <a name="enter-data"></a>Especificar datos
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Salir de la cuadrícula editable | Ctrl + Tab |
 
 
 ## <a name="next-steps"></a>Pasos siguientes

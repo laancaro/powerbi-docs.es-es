@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: d5f2fa0abe6f0503ce5f41387f66db928ae0267e
-ms.sourcegitcommit: ba447d7cc94418d7d3cf6fdcb686ec1a859258a8
+ms.openlocfilehash: 642bd39cb9348bae2a1f30dbc9ee026e11ff7401
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2018
-ms.locfileid: "37145419"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284527"
 ---
 # <a name="troubleshooting-power-bi-gateway---personal"></a>Solución de problemas de Power BI Gateway - Personal
 A continuación se examinan algunos problemas comunes que pueden producirse al usar Power BI Gateway - Personal.
@@ -45,13 +45,13 @@ Pueden surgir muchos problemas cuando la versión de la puerta de enlace no est�
  **Configuración de proxy** Puede encontrar problemas con la configuración de la puerta de enlace personal si su entorno necesita el uso de un proxy. Para obtener más información sobre cómo configurar la información de proxy, consulte [Configuring proxy settings for the Power BI Gateways](service-gateway-proxy.md) (Configuración de proxy para las puertas de enlace de Power BI).
 
 ## <a name="schedule-refresh"></a>Programar actualización
-**Error: falta la credencial almacenada en la nube.**
+**Error: Falta la credencial almacenada en la nube.**
 
 Puede recibir este error en Configuración de \<conjunto de datos\> si tiene una actualización programada y, luego, desinstala y vuelve a instalar la puerta de enlace personal. Si desinstala una puerta de enlace personal, las credenciales del origen de datos para un conjunto de datos que se ha configurado para la actualización se quitan del servicio Power BI.
 
-**Solución:** en Power BI, vaya a la configuración de actualización de un conjunto de datos. En Administrar orígenes de datos, para cualquier origen de datos con un error, haga clic en Editar credenciales y vuelva a iniciar la sesión en el origen de datos.
+**Solución:** En Power BI, vaya a la configuración de actualización de un conjunto de datos. En Administrar orígenes de datos, para cualquier origen de datos con un error, haga clic en Editar credenciales y vuelva a iniciar la sesión en el origen de datos.
 
-**Error: las credenciales proporcionadas para el conjunto de datos no son válidas. Actualice las credenciales a través de una actualización o en el cuadro de diálogo Configuración de origen de datos para continuar.**
+**Error: Las credenciales proporcionadas para el conjunto de datos no son válidas. Actualice las credenciales a través de una actualización o en el cuadro de diálogo Configuración de origen de datos para continuar.**
 
 **Solución**: Si recibe un mensaje de credenciales, puede significar que:
 
@@ -60,9 +60,9 @@ Puede recibir este error en Configuración de \<conjunto de datos\> si tiene una
   
   Se trata de un problema conocido y que se estaba examinando. Para solucionar el problema, tenga una consulta independiente para el origen de la nube y el origen local y use una combinación de ellas o anexe la consulta para combinarlos.
 
-**Error: origen de datos no admitido.**
+**Error: Origen de datos no admitido.**
 
-**Solución:** si recibe un mensaje de origen de datos no admitido en la configuración de Programar actualización, puede tener el significado que se indica a continuación. 
+**Solución:** si recibe un mensaje de origen de datos no admitido en la configuración de Programar actualización, puede tener el significado que se indica a continuación: 
 
 * El origen de datos no se admite actualmente para la actualización en Power BI. 
 * El libro de Excel no contiene un modelo de datos, solo los datos de la hoja de cálculo. Actualmente, Power BI solo admite la actualización si el libro de Excel cargado contiene un modelo de datos. Al importar datos mediante Power Query en Excel, asegúrese de elegir la opción para cargar los datos en el modelo de datos. Esto garantiza la importación de los datos en un modelo de datos. 
@@ -75,7 +75,7 @@ Puede recibir este error en Configuración de \<conjunto de datos\> si tiene una
 
 **Solución**: Este error se debe a las restricciones de nivel de privacidad y a los tipos de orígenes de datos que usa.
 
-**Error: no hay suficiente espacio para esta fila.**
+**Error: No hay suficiente espacio para esta fila.**
 
 Esto ocurrirá si tiene una sola fila que ocupe más de 4 MB. Deberá determinar de qué fila del origen de datos se trata e intentar filtrarla o reducir su tamaño.
 
@@ -97,7 +97,7 @@ Esto ocurrirá si tiene una sola fila que ocupe más de 4 MB. Deberá determinar
 
 Power BI no admite actualmente la autenticación de Windows para un origen de datos mediante el proveedor ACE OLEDB.
 
-**Solución:** para solucionar este error, puede seleccionar la autenticación anónima. Para el proveedor ACE OLEDB heredado, las credenciales anónimas equivalen a las credenciales de Windows.
+**Solución:** Para solucionar este error, puede seleccionar la autenticación anónima. Para el proveedor ACE OLEDB heredado, las credenciales anónimas equivalen a las credenciales de Windows.
 
 ## <a name="tile-refresh"></a>Actualización de iconos
 Si recibe un error relacionado con los iconos de panel de actualización, consulte el siguiente artículo.

@@ -5,16 +5,16 @@ author: jtarquino
 manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: c80ded7a21eb8110467a2335253fa1a68942cc2c
-ms.sourcegitcommit: 60fb46b61ac73806987847d9c606993c0e14fb30
+ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/25/2018
-ms.locfileid: "50101540"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292070"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -69,7 +69,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
             - Para los informes de Power BI (PBIX), corrección para los filtros de URL que no funcionan
             - Para los informes paginados (RDL), corrección para las imágenes que no se muestran correctamente en IE11 después de actualizar a la versión de marzo de Power BI Report Server
 
-    - *Versión 1.2.6648.38132 (Build 15.0.2.378). Fecha de publicación: 19 de marzo de 2018*
+    - *Versión 1.2.6648.38132 (compilación 15.0.2.378), fecha de publicación: 19 de marzo de 2018*
         - Actualizaciones de seguridad
         - Mejoras de accesibilidad
         - Correcciones de errores
@@ -82,7 +82,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
             - Otras correcciones de estabilidad y facilidad de uso
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**
-    - Versión: 2.56.5023.1043 (marzo de 2018). Fecha de publicación: 19 de marzo de 2018
+    - Versión: 2.56.5023.1043 (marzo de 2018), fecha de publicación: 19 de marzo de 2018
         - Contiene los cambios necesarios para la conexión con Power BI Report Server (marzo de 2018)
 
 ## <a name="october-2017"></a>Octubre de 2017
@@ -130,13 +130,13 @@ Para obtener información detallada sobre las nuevas características, consulte 
     - *Versión: 2.51.4885.2501 (octubre de 2017), fecha de publicación: 10 de enero de 2018*
         - Actualizaciones de seguridad
 
-    - *Versión: 2.51.4885.1423 (octubre de 2017), publicado: 17 de noviembre de 2017*
+    - *Versión: 2.51.4885.1423 (octubre de 2017), fecha de publicación: 17 de noviembre de 2017*
         - Correcciones de errores
             - Corrección del error por el que Power BI Desktop de 32 bits no se puede ejecutar en sistemas operativos x86
             - Para los informes de Power BI (PBIX), corrección para mostrar las líneas de cuadrícula del eje X
             - Otras correcciones de errores menores
 
-    - *Versión: 2.51.4885.1041 (octubre de 2017), publicado: 31 de octubre de 2017*
+    - *Versión: 2.51.4885.1041 (octubre de 2017), fecha de publicación: 31 de octubre de 2017*
         - Características
             - Contiene los cambios necesarios para la conexión con Power BI Report Server (octubre de 2017)
 
@@ -146,18 +146,18 @@ Para obtener información detallada sobre las nuevas características, consulte 
     - *Compilación 14.0.600.309, fecha de publicación: 10 de enero de 2018*
         - Actualizaciones de seguridad
 
-    - *Compilación 14.0.600.305, publicado: 19 de septiembre de 2017*  
+    - *Compilación 14.0.600.305, fecha de publicación: 19 de septiembre de 2017*  
         - Correcciones de errores
             - Actualización a la versión más reciente del [control Web de mapas de Bing](https://msdn.microsoft.com/library/mt712542.aspx)
 
-    - *Compilación 14.0.600.301, publicado: 11 de julio de 2017*
+    - *Compilación 14.0.600.301, fecha de publicación: 11 de julio de 2017*
         - Correcciones de errores
             - La etiqueta `{{UserId}}` se resuelve en las credenciales almacenadas en lugar de ser el usuario el que ejecute el informe en los informes de Power BI
             - Algunas imágenes no se pueden representar en los informes del servidor de informes de Power BI
             - No se puede cambiar el nombre de un informe de Power BI en el servidor de informes de Power BI
             - No se pueden cargar los objetos visuales personalizados en la aplicación móvil de Power BI (es necesario volver a instalar la aplicación móvil para borrar la memoria caché local)
 
-    - *Compilación 14.0.600.271, publicado: 12 de junio de 2017*
+    - *Compilación 14.0.600.271, fecha de publicación: 12 de junio de 2017*
         - Versión inicial del servidor de informes de Power BI
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**

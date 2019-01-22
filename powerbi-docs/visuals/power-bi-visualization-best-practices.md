@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 77802d2db59ddff94123991e209441b4c491f98b
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.openlocfilehash: e426d781f7a2e663687f443c423e1fc326624289
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548612"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296741"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 <!-- Shared newnav Include -->
@@ -65,7 +65,7 @@ Para este artículo, empezaremos con un ejemplo de informe que necesita una gran
 
 ![](media/power-bi-visualization-best-practices/power-bi-example1newa.png)
 
-**Figura 1: Esta página de informe es poco atractiva y necesita mucho trabajo**
+**Ilustración 1:    Esta página de informe es poco atractiva y necesita mucho trabajo**
 
 El ejemplo anterior tiene un gran número de problemas de diseño relacionados con el espacio y que explicaremos más adelante:
 
@@ -95,19 +95,19 @@ Como puede ver en el siguiente informe actualizado, los componentes del informe 
 
 ![](media/power-bi-visualization-best-practices/power-bi-example2new.png)
 
-**Figura 2: Mejoró el aspecto del informe de ejemplo con los cambios en el diseño**
+**Ilustración 2:    Mejoró el aspecto del informe de ejemplo con los cambios en el diseño**
 
 En Power BI se incluyen herramientas para ayudarle a alinear los objetos visuales. En Power BI Desktop, con varios objetos visuales seleccionados, puede usar las opciones **Alinear y distribuir** de la pestaña de la cinta **Elementos visuales** para hacer coincidir la posición de dichos elementos.
 
 ![](media/power-bi-visualization-best-practices/power-bi-visualization.png)
 
-**Figura 3: Alinear los objetos visuales en Power BI Desktop**
+**Ilustración 3:    Alinear los objetos visuales en Power BI Desktop**
 
 En Power BI Online y en Power BI Desktop también puede controlar de forma precisa el tamaño y la posición de los objetos visuales con la pestaña **General** del panel de formato de todos los objetos visuales:
 
 ![](media/power-bi-visualization-best-practices/power-bi-align-vizs.png)
 
-**Figura 4: Establecer la posición exacta del objeto visual**
+**Ilustración 4:    Establecer la posición exacta del objeto visual**
 
 En nuestra página del informe de ejemplo (ilustración 2), las 2 tarjetas y el borde largo están alineados en la **posición X** en 200.
 
@@ -121,11 +121,11 @@ Esta es una página de informe con un tamaño de página 4:3 y, después, con 16
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-before.png)
 
-**Ilustración 5a: El informe con el tamaño de página 4:3**
+**Ilustración 5a:    El informe con el tamaño de página 4:3**
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-view-after.png)
 
-**Ilustración 5b: El informe con el tamaño de página de proporción 16:9**
+**Ilustración 5b:    El informe con el tamaño de página de proporción 16:9**
 
 ¿Con qué proporción se verá el informe (4:3, 16:9 u otra)? ¿En pantallas pequeñas o enormes? ¿En todos los posibles tamaños y proporciones de pantalla?  Prepare el diseño teniendo esto en cuenta.
 
@@ -133,7 +133,7 @@ Nuestra página del informe de ejemplo parece algo desorganizada. Sin tener sele
 
 ![](media/power-bi-visualization-best-practices/power-bi-page-size.png)
 
-**Figura 6: Aumentar el alto de página**
+**Ilustración 6:    Aumentar el alto de página**
 
 #### <a name="reduce-clutter"></a>Reducir la desorganización
 Una página de informe desorganizada será difícil de comprender a simple vista y puede resultar tan abrumadora que los lectores ni siquiera intentarán comprenderla.  Elimine todos los elementos del informe que no sean necesarios. No agregue adornos que no ayuden a comprender la información o navegar. La página del informe necesita transmitir la información con la mayor claridad, rapidez y coherencia posibles.
@@ -146,7 +146,7 @@ Aquí ya ha mejorado la apariencia de nuestro ejemplo. Hemos quitado un gran nú
 
 ![](media/power-bi-visualization-best-practices/power-bi-example3newer.png)
 
-**Figura 7: El informe de ejemplo poco atractivo ya está organizado**
+**Ilustración 7:    El informe de ejemplo poco atractivo ya está organizado**
 
 ### <a name="tell-a-story-at-a-glance"></a>Contar una historia a simple vista
 La prueba general puede ser que cualquiera sin conocimientos previos comprenda rápidamente el informe sin ninguna explicación. Con una vista rápida, los lectores tienen que ser capaces de ver rápidamente sobre qué trata la página y la información que contiene cada gráfico o tabla.   
@@ -160,13 +160,13 @@ En el servicio de Power BI, en la barra de menús superior, seleccione **Cuadro 
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-boxes.png)
 
-**Figura 8: Agregar un cuadro de texto**
+**Ilustración 8:    Agregar un cuadro de texto**
 
 Escriba en el cuadro vacío y, después, use los controles de la parte inferior para establecer el tipo de fuente, el tamaño, la alineación, etc. Use los controladores para cambiar el tamaño del cuadro.
 
 ![](media/power-bi-visualization-best-practices/power-bi-text-box-edit.png)
 
-**Figura 9: Formato del cuadro de texto**
+**Ilustración 9:    Dé formato al cuadro de texto**
 
 Pero no cambie el cuadro en exceso. Demasiado texto en un informe puede distraer o desviar la atención de los objetos visuales. Si cree que la página del informe necesita una gran cantidad de texto para que pueda comprenderse, lo mejor es que vuelva a empezar.  ¿Puede usar un objeto visual distinto que cuente mejor la historia por sí solo? ¿Puede mejorar los títulos nativos del objeto visual para que se comprendan mejor?   
 
@@ -178,17 +178,17 @@ Las formas también pueden ayudar a la navegación y la comprensión. Use formas
 
 ![](media/power-bi-visualization-best-practices/shapes.png)
 
-**Figura 10a: Formas en el servicio Power BI**
+**Ilustración 10a:    Formas en el servicio Power BI**
 
 ![](media/power-bi-visualization-best-practices/power-bi-desktop-shapes2new.png)
 
-**Figura 10b: Formas en Power BI Desktop**
+**Ilustración 10b:    Formas en Power BI Desktop**
 
 ¿Cuál es la apariencia ahora de nuestra página de ejemplo?  En la ilustración 11 se muestra una página más organizada, con menos elementos innecesarios y con un uso coherente de tipos de texto, fuentes y colores.  El título de página, en la esquina superior izquierda, indica sobre qué trata la página.
 
 ![](media/power-bi-visualization-best-practices/power-bi-example4new.png)
 
-**Ilustración 11: Nuestro informe de ejemplo después de aplicar las directrices de texto y de agregar el título**
+**Ilustración 11:    Nuestro informe de ejemplo después de aplicar las directrices de texto y de agregar el título**
 
 En el ejemplo, se ha agregado un título de página de informe en la esquina superior izquierda (es decir, el primer lugar donde mirarán los lectores). El tamaño de fuente es 28 y la fuente es Segoe Bold, para hacerla destacar del resto de la página.  Según nuestro manual de estilo para el texto, no usaremos fondos, títulos en negro, leyendas ni etiquetas, y esto se ha aplicado en todos los objetos visuales de la página, siempre que fuera posible (los ejes y las etiquetas del gráfico combinado no se pueden editar).  Además:
 
@@ -275,7 +275,7 @@ Agregue un fondo blanco al resto de los objetos visuales de la página del infor
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5b.png)
 
-**Ilustración 21: Informe de ejemplo después de aplicar los procedimientos recomendados de color (fondo blanco)**
+**Ilustración 21:    Informe de ejemplo después de aplicar los procedimientos recomendados de color (fondo blanco)**
  
 
 ### <a name="aesthetics"></a>Estética
@@ -319,13 +319,13 @@ Por ello, cree objetos visuales que no distorsionen de forma intencionada la rea
 
 ![](media/power-bi-visualization-best-practices/corp-success-distorted.png)
 
-**Ilustración 22: Gráfico de realidad distorsionada**
+**Ilustración 22:    Gráfico de realidad distorsionada**
 
 En este ejemplo, parece como si hubiera una gran diferencia entre las 4 compañías y que CorpB tenga mucho más éxito que las otras 3.  Pero, si lo observa más detenidamente, verá que el eje X no empieza en cero y que las diferencias entre las compañías es probable que estén dentro del margen de error.  Estos son los mismos datos con un eje X que no empieza en cero.
 
 ![](media/power-bi-visualization-best-practices/corp-success.png)
 
-**Ilustración 23: Gráfico realista**
+**Ilustración 23:    Gráfico realista**
 
 Los lectores esperan y, con frecuencia, suponen que el eje X empieza en cero. Si decide no empezar en cero, hágalo de forma que no distorsione los resultados y, si lo prefiere, puede agregar una indicación visual o un cuadro de texto para señalar la desviación de la norma.  
 
@@ -347,11 +347,11 @@ Si hay períodos de tiempo específicos que quiera invocar, puede dibujar línea
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-before.png)
 
-**Ilustración 24: Antes**
+**Ilustración 24:    Antes**
 
 ![](media/power-bi-visualization-best-practices/power-bi-multiples-after.png)
 
-**Ilustración 25: Después**
+**Ilustración 25:    Después**
 
 **Para activar y desactivar los títulos de ejes**
 
@@ -359,7 +359,7 @@ Seleccione el objeto visual para activarlo y abra el panel Formato. Expanda las 
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-titles.png)
 
-**Ilustración 26: Activar y desactivar los títulos de ejes**
+**Ilustración 26:    Activar y desactivar los títulos de ejes**
 
 **Para activar o desactivar las etiquetas de ejes**
 
@@ -367,7 +367,7 @@ Seleccione el objeto visual para activarlo y abra el panel Formato. Junto al **e
 
 ![](media/power-bi-visualization-best-practices/power-bi-axis-labels.png)
 
-**Ilustración 27: Activar o desactivar las etiquetas de los ejes**
+**Ilustración 27: Activar y desactivar las etiquetas de ejes**
 
 > [!TIP]
 > Un escenario donde podría desactivar las etiquetas del eje Y sería si tuviera activadas las **Etiquetas de datos**.
@@ -380,7 +380,7 @@ Seleccione el objeto visual para activarlo y abra el panel Formato. Establezca e
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-off.png)
 
-**Ilustración 28: Quitar títulos de objetos visuales**
+**Ilustración 28:    Quitar títulos de objetos visuales**
 
 Tenga en cuenta cómo verán los lectores el informe y asegúrese de que los objetos visuales y el texto sean lo suficientemente grandes y oscuros para que se lean correctamente. Si tiene un objeto visual proporcionalmente más grande en la página, los lectores pueden suponer que es el más importante. Deje espacio suficiente entre los objetos visuales para que el informe no parezca desorganizado y confuso.  Alinee los objetos visuales para ayudar a dirigir la vista de los lectores.
 
@@ -390,7 +390,7 @@ Seleccione un objeto visual para activarlo. Arrastre uno de los controladores pa
 
 ![](media/power-bi-visualization-best-practices/power-bi-drag-handles.png)
 
-**Ilustración 29: Cambiar el tamaño de un objeto visual**
+**Ilustración 29: Cambio del tamaño de un objeto visual**
 
 **Para mover un objeto visual**
 
@@ -411,7 +411,7 @@ Por cada ajuste de formato que se muestra más abajo, seleccione el icono del ro
 
 **Ilustración 31: Abrir el panel Formato**
 
-Después, seleccione el elemento visual para ajustarlo y asegúrese de que esté activado. Estos son algunos ejemplos de elementos visuales: **Eje X**, **Eje Y**, **Título**, **Etiquetas de datos** y **Leyenda**. En el ejemplo siguiente se muestra el elemento **Título**.
+Después, seleccione el elemento visual para ajustarlo y asegúrese de que esté activado. Estos son ejemplos de elementos visuales: **Eje x**, **Eje y**, **Título**, **Etiquetas de datos** y **Leyenda**. En el ejemplo siguiente se muestra el elemento **Título**.
 
 ![](media/power-bi-visualization-best-practices/power-bi-title-formatting.png)
 
@@ -485,7 +485,7 @@ La forma más sencilla de usar colores es cambiar uno o más colores de un punto
 
 ![](media/power-bi-visualization-best-practices/power-bi-data-color.png)
 
-**Ilustración 35: Usar colores para contar una historia**
+**Ilustración 35:    Usar colores para contar una historia**
 
 Puede cambiar los colores de los puntos de datos en la pestaña **Colores de datos** del panel de formato. Para personalizar cada punto de datos de forma individual, asegúrese de que la opción **Mostrar todo** esté activada.
 
@@ -506,7 +506,7 @@ En Power BI Desktop, incluso puede resaltar valores atípicos o la sección de u
 
 ![](media/power-bi-visualization-best-practices/power-bi-outliers.png)
 
-**Ilustración 38: Usar Desktop para representar valores atípicos**
+**Ilustración 38:    Usar Desktop para representar valores atípicos**
 
 Aquí, los valores de la serie “Valores atípicos” solo existen cuando la temperatura media de agosto desciende por debajo de 60 °F. Para hacerlo, se crea una columna calculada de DAX con esta fórmula:
 
@@ -557,7 +557,7 @@ El color también se puede usar para enfatizar una desviación en torno a un val
 
 ![](media/power-bi-visualization-best-practices/power-bi-color.png)
 
-**Ilustración 44: Color para enfatizar la desviación en torno a un valor central**
+**Ilustración 44:    Color para enfatizar la desviación en torno a un valor central**
  
 
 ### <a name="principles-of-visual-design--applied-to-example-report-page"></a>Principios del diseño de objetos visuales: aplicado en una página del informe de ejemplo
@@ -567,7 +567,7 @@ Antes
 
 ![](media/power-bi-visualization-best-practices/power-bi-example5a.png)
 
-**Ilustración 45: Nuestro informe de ejemplo (antes)**
+**Ilustración 45:    Nuestro informe de ejemplo (antes)**
 
 Después
 
@@ -595,7 +595,7 @@ En el ejemplo siguiente se muestran las tendencias en el número de medallas oto
 
 ![](media/power-bi-visualization-best-practices/power-bi-line-chart.png)
 
-**Ilustración 47: Gráficos de líneas**
+**Ilustración 47:    Gráficos de líneas**
 
 #### <a name="best-practices"></a>Procedimientos recomendados
 * Cuando los usuarios vean los gráficos de líneas, lo primero que verán es la forma de la curva.  Esto quiere decir que necesita tener un eje X que dé significado a la curva, como categorías de tiempo o distribución.  Si usa campos de categoría como producto o geografía en el eje X, el gráfico de líneas no será interesante, ya que la forma de la curva no proporcionará información significativa.
@@ -649,8 +649,8 @@ Si los gráficos de líneas son la norma para analizar datos en un período de t
 Para obtener más información sobre los gráficos de columnas y barras:
 
 * [Iniciación a los gráficos de barras](http://blog.newscred.com/article/data-visualization-101-bar-charts)
-* [Catálogo de visualización de datos: Gráfico de barras](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
-* [Catálogo de visualización de datos: Gráfico de barras de varios conjuntos](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
+* [Catálogo de visualización de datos: gráfico de barras](http://www.datavizcatalogue.com/methods/bar_chart.html#.VYV-hY3bLJw)
+* [Catálogo de visualización de datos: gráfico de barras de conjunto múltiple](http://www.datavizcatalogue.com/methods/multiset_barchart.html#.VYV_gI3bLJw)
 
 ### <a name="stacked-barcolumn-charts"></a>Gráficos de columnas/barras apiladas
 ![](media/power-bi-visualization-best-practices/power-bi-stacked.png)
@@ -682,13 +682,13 @@ En este gráfico de líneas se ve con mayor facilidad cómo han crecido la mayor
 
 Para obtener más información sobre los gráficos apilados:
 
-* [Catálogo de visualización de datos: Gráficos de barras apiladas](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
+* [Catálogo de visualización de datos: gráfico de barras apiladas](http://www.datavizcatalogue.com/methods/stacked_bar_graph.html#top)
 * [¿Cuándo son útiles los gráficos de barras apiladas al 100 %?](http://www.perceptualedge.com/blog/?p=2239)
 
 ### <a name="combo-barcolumn-charts"></a>Gráficos de columnas o barras combinadas
 ![](media/power-bi-visualization-best-practices/power-bi-combo.png)
 
-En Power BI, puede combinar gráficos de líneas y columnas en un gráfico combinado. Las opciones son: gráfico de columnas apiladas y de líneas, y gráfico de columnas agrupadas y de líneas. Puede ahorrar espacio de lienzo si combina dos objetos visuales.
+En Power BI, puede combinar gráficos de líneas y columnas en un gráfico combinado. Las opciones son: Gráfico de columnas apiladas y de líneas, y gráfico de columnas agrupadas y de líneas. Puede ahorrar espacio de lienzo si combina dos objetos visuales.
 
 En las dos capturas de pantalla siguientes se muestra un ejemplo de antes y después.  La primera página tiene dos objetos visuales: un gráfico de columnas, donde se muestra la población en un período de tiempo, y un gráfico de líneas, donde se muestra el PIB en un período de tiempo. Estos gráficos son buenos candidatos para un gráfico combinado, ya que tienen el mismo eje X (año) y valores (de 2002 a 2012).  ¿Por qué no combinarlos para comparar estas 2 tendencias en un mismo objeto visual?  La combinación de los 2 gráficos permite comparar los datos más rápido.
 
@@ -717,7 +717,7 @@ Para hacerlo, abra el panel Formato, expanda **Eje Y** y active la opción **Mos
 
 ![](media/power-bi-visualization-best-practices/power-bi-show-secondary-new.png)
 
-**Ilustración 60: Mostrar el eje secundario**
+**Ilustración 60: Mostrar eje secundario**
 
 ![](media/power-bi-visualization-best-practices/power-bi-combo-chart.png)
 
@@ -809,7 +809,7 @@ Para más información, consulte:
 Ahora es el momento de poner en práctica estos procedimientos recomendados en la prueba.  Siga en contacto y comparta sus propios procedimientos recomendados. ¿No está de acuerdo con nuestras recomendaciones o encontró otro motivo ideal para “no seguir las reglas”?  También nos encantaría conocer sus comentarios.  
 
 ### <a name="book-recommendations"></a>Libros recomendados
-Hay un gran número de libros disponibles en la actualidad para ayudar a los equipos a mejorar sus técnicas de diseño de objetos visuales. El libro *Information Dashboard Design* de Stephen Few es una lectura imprescindible. Entra en más detalle en otros dos libros, *Show Me the Numbers* y *Now You See It*. Few y otros han recibido la inspiración de Edward R. Tufte, cuyo libro *The Visual Display of Quantitative Information* se considera un clásico en el campo. Tufte también ha escrito *Visual Explanations*, *Envisioning Information* y *Beautiful Evidence*. El nuevo libro de Andy Kirk (*Data Visualization: A Handbook for Data Driven Design*) es otra gran opción. Otros autores recomendados son Lachlan James, William McKnight, y Boris Evelson (Forrester), Darkhorse Analytics.
+Hay un gran número de libros disponibles en la actualidad para ayudar a los equipos a mejorar sus técnicas de diseño de objetos visuales. El libro *Information Dashboard Design* de Stephen Few es una lectura imprescindible. Entra en más detalle en otros dos libros, *Show Me the Numbers* y *Now You See It*. Few y otros han recibido la inspiración de Edward R. Tufte, cuyo libro *The Visual Display of Quantitative Information* se considera un clásico en el campo. Tufte también ha escrito *Visual Explanations*, *Envisioning Information* y *Beautiful Evidence*. El nuevo libro de Andy Kirk *Data Visualization: A Handbook for Data Driven Design* (Visualización de datos: manual para el diseño basado en datos) es otra gran opción. Otros autores recomendados son: Lachlan James, William McKnight, and Boris Evelson (Forrester), Darkhorse Analytics.
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

@@ -6,15 +6,15 @@ ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/05/2017
-ms.openlocfilehash: 01bcc545d3ba8edb23ef583467322401780e657d
-ms.sourcegitcommit: 698b788720282b67d3e22ae5de572b54056f1b6c
+ms.openlocfilehash: 0990f6ddaf458d5723cd04fedf0b34f497de16cb
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2018
-ms.locfileid: "45974193"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278502"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
@@ -59,7 +59,7 @@ La cadena JSON para un conjunto de datos tiene el formato siguiente:
         ]
     }
 
-Por lo tanto, en nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como en el ejemplo siguiente. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, debes definir el esquema de la tabla. Para el conjunto de datos **SalesMarketing** , el esquema de la tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+Por lo tanto, en nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como en el ejemplo siguiente. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, debes definir el esquema de la tabla. Para el conjunto de datos **SalesMarketing**, el esquema de tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Ejemplo de JSON de objeto de conjunto de datos**
 
@@ -112,7 +112,7 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI
 
-Para comenzar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) en el panel de navegación izquierdo.
+Para empezar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) en el panel de navegación izquierdo.
 
 [Paso siguiente >](walkthrough-push-data-register-app-with-azure-ad.md)
 

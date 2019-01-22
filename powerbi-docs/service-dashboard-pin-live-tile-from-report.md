@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 447257ba715b473c233b1d13c6319ff4958f33fa
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717180"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285815"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Anclar una página de informe completa, como un icono dinámico, a un panel de Power BI
 Otra manera de agregar un nuevo [icono de panel](consumer/end-user-tiles.md) es anclar una página de informe completa. Se trata de una manera fácil de anclar más de una visualización a la vez.  Además, al anclar una página completa, los iconos son *dinámicos* y puede interactuar con ellos desde el panel. Los cambios realizados en cualquiera de las visualizaciones del editor de informes, como agregar un filtro o cambiar los campos utilizados en el gráfico, se reflejan también en el icono del panel.  
@@ -38,7 +38,7 @@ Ve cómo Amanda ancla una página de un informe activo a un panel y, luego, siga
 2. Sin que haya ninguna visualización seleccionada, en la barra de menús, seleccione **Página Anclar elemento activo**.
    
    ![Icono de Página Anclar elemento activo](media/service-dashboard-pin-live-tile-from-report/pbi-pin-live-page.png) 
-3. Ancle el icono a un panel existente o a un nuevo panel. Observe el texto resaltado: *Página Anclar elemento activo permite realizar cambios en los informes que aparecen en el icono del panel cuando se actualiza la página.*
+3. Ancle el icono a un panel existente o a un nuevo panel. Observe el texto resaltado: *La página Anclar elemento activo permite mostrar en el icono del panel los cambios en los informes cuando se actualiza la página.*
    
    * Panel existente: seleccione el nombre del panel en la lista desplegable. Los paneles compartidos con usted no aparecerán en la lista desplegable.
    * Nuevo panel: escriba el nombre del nuevo panel.

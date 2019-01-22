@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 72c3c2fde92de45d3a93f087d217af1f50e50601
-ms.sourcegitcommit: bb4cf3469b44e451153c469725a9069dcd548809
+ms.openlocfilehash: d48df3287813229e673bbc523281cdb2218ec384
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2018
-ms.locfileid: "53649054"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277282"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
 
@@ -76,7 +76,7 @@ En la ventana **Agregar asignación de roles**, seleccione el rol **Lector** par
 
 Debe crear un sistema de archivos denominado *powerbi* para que la cuenta de almacenamiento se pueda agregar a Power BI. Hay muchas maneras de crear dicho sistema de archivos, como usar Azure Databricks, HDInsight, AZCopy o el Explorador de Azure Storage. En esta sección se muestra una manera sencilla de crear un sistema de archivos mediante el Explorador de Azure Storage.
 
-Este paso requiere que instale la versión 1.6.1 o posterior del Explorador de Azure Storage. Para instalar el Explorador de Azure Storage para Windows, Macintosh o Linux, consulte [Explorador de Azure Storage](https://azure.microsoft.com/features/storage-explorer/).
+Este paso requiere que instale la versión 1.6.2 o posterior del Explorador de Azure Storage. Para instalar el Explorador de Azure Storage para Windows, Macintosh o Linux, consulte [Explorador de Azure Storage](https://azure.microsoft.com/features/storage-explorer/).
 
 1. Cuando haya instalado correctamente el Explorador de Azure Storage, al primer inicio, se muestra la ventana Explorador de Azure Storage - Conectar. Mientras que el Explorador de Storage proporciona varias maneras de conectarse a las cuentas de almacenamiento, actualmente solo se admite una para la configuración necesaria. 
 

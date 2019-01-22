@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 215b4c8f46b2d39c6dcc5853c07e4e6526027881
-ms.sourcegitcommit: b343e44dbafc0b718c564402593d4b6e3a8ce97c
+ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2018
-ms.locfileid: "51027469"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277443"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado. Hay algunas excepciones que se describen más adelante en este artículo.
@@ -45,7 +45,7 @@ Para aplicar un tema para informes a un informe de Power BI Desktop, seleccione 
 
 | Tema de informe integrado | Secuencia de color predeterminada    |
 |------ |---------- |
-| Predeterminada   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
+| Predeterminado   | ![#01B8AA](https://placehold.it/20/01B8AA/000000?text=+) ![#374649](https://placehold.it/20/374649/000000?text=+) ![#FD625E](https://placehold.it/20/FD625E/000000?text=+) ![#F2C80F](https://placehold.it/20/F2C80F/000000?text=+) ![#5F6B6D](https://placehold.it/20/5F6B6D/000000?text=+) ![#8AD4EB](https://placehold.it/20/8AD4EB/000000?text=+) ![#FE9666](https://placehold.it/20/FE9666/000000?text=+) ![#A66999](https://placehold.it/20/A66999/000000?text=+)|
 | Parque     | ![#73B761](https://placehold.it/20/73B761/000000?text=+) ![#4A588A](https://placehold.it/20/4A588A/000000?text=+) ![#ECC846](https://placehold.it/20/ECC846/000000?text=+) ![#CD4C46](https://placehold.it/20/CD4C46/000000?text=+) ![#71AFE2](https://placehold.it/20/71AFE2/000000?text=+) ![#8D6FD1](https://placehold.it/20/8D6FD1/000000?text=+) ![#EE9E64](https://placehold.it/20/EE9E64/000000?text=+) ![#95DABB](https://placehold.it/20/95DABB/000000?text=+)|
 | Clase     | ![#4A8DDC](https://placehold.it/20/4A8DDC/000000?text=+) ![#4C5D8A](https://placehold.it/20/4C5D8A/000000?text=+) ![#F3C911](https://placehold.it/20/F3C911/000000?text=+) ![#DC5B57](https://placehold.it/20/DC5B57/000000?text=+) ![#33AE81](https://placehold.it/20/33AE81/000000?text=+) ![#95C8F0](https://placehold.it/20/95C8F0/000000?text=+) ![#DD915F](https://placehold.it/20/DD915F/000000?text=+) ![#9A64A0](https://placehold.it/20/9A64A0/000000?text=+)|
 | Apto para daltónicos   | ![#074650](https://placehold.it/20/074650/000000?text=+) ![#009292](https://placehold.it/20/009292/000000?text=+) ![#FE6DB6](https://placehold.it/20/FE6DB6/000000?text=+) ![#FEB5DA](https://placehold.it/20/FEB5DA/000000?text=+) ![#480091](https://placehold.it/20/480091/000000?text=+) ![#B66DFF](https://placehold.it/20/B66DFF/000000?text=+) ![#B5DAFE](https://placehold.it/20/B5DAFE/000000?text=+) ![#6DB6FF](https://placehold.it/20/6DB6FF/000000?text=+)|
@@ -83,7 +83,7 @@ Ahora que se ha importado un archivo de tema, echemos un vistazo a la estructura
 
 Ese archivo JSON tiene las siguientes líneas obligatorias:
 
-* **name**: es el nombre del tema, que es el único campo obligatorio.
+* **name**: el nombre del tema, que es el único campo obligatorio.
 
 * **dataColors**: la lista de códigos de color hexadecimales que se usará para los datos de los objetos visuales de Power BI Desktop. La lista puede contener tantos o tan pocos colores como se desee.
 
@@ -178,7 +178,7 @@ A continuación, se incluyen algunos temas para informes que puede usar como pun
 ## <a name="report-theme-json-file-format"></a>Formato de archivo JSON de tema para informes
 El archivo JSON básico tiene cinco líneas necesarias:
 
-* **name**: es el nombre del tema, que es el único campo obligatorio.
+* **name**: el nombre del tema, que es el único campo obligatorio.
 * **dataColors**: la lista de códigos de color hexadecimales que se usará para los datos de los objetos visuales de Power BI Desktop. La lista puede contener tantos o tan pocos colores como se desee.
 * **background**, **foreground** y **tableAccent**: los colores que se deben aplicar en varios tipos de objetos visuales. El valor **foreground** se aplica al texto de los cuadros de texto, el de los KPI objetivo, el de las tarjetas de varias filas, el de los valores de las tarjetas, el de las llamadas de los medidores y el de los elementos de la segmentación virtual, mientras que **table** y **matrix** se aplican al texto de los valores y los totales. **background** se aplica al relleno de los botones y al color de fondo de las etiquetas de los gráficos combinados. El uso de estos colores depende del estilo específico aplicado al objeto visual. Los objetos visuales **Tabla** y **Matriz** aplican estos estilos de forma predeterminada.
 
@@ -248,28 +248,28 @@ La siguiente tabla define los valores de *cardName*. El primer valor de cada cel
 
 | **cardName** |
 | --- |
-| axis: Eje de medidor |
+| axis: Eje medidor |
 | breakdown: Desglose |
-| bubbles: burbujas |
+| bubbles: Burbujas |
 | calloutValue: Valor de la llamada |
 | card: Tarjeta |
-| cardTitle: Título de la tarjeta |
+| cardTitle: Título de tarjeta |
 | categoryAxis: Eje X |
 | categoryLabels: Etiquetas de categoría |
 | columnFormatting: Formato de campo |
 | columnHeaders: Encabezados de columna |
 | dataLabels: Etiquetas de datos |
-| fill: Relleno |
+| fill: Rellenar |
 | fillPoint: Punto de relleno |
 | forecast: Previsión |
 | general: General |
-| objetivos: Objetivos |
+| goals: Objetivos |
 | grid: Cuadrícula |
 | header: Encabezado |
-| imageScaling: Escala |
+| imageScaling: Escalando |
 | indicator: Indicador |
 | items: Elementos |
-| Labels: Etiquetas de datos |
+| labels: Etiquetas de datos |
 | legend: Leyenda |
 | lineStyles: Formas |
 | mapControls: Controles de mapa |
@@ -280,14 +280,14 @@ La siguiente tabla define los valores de *cardName*. El primer valor de cada cel
 | plotAreaShading: Sombreado de simetría |
 | ratioLine: Línea de relación |
 | referenceLine: Línea constante |
-| ribbonChart: Cintas |
+| ribbonChart: Barras de herramientas |
 | rotation: Rotación |
 | rowHeaders: Encabezados de fila |
 | selection: Controles de selección |
-| sentimentColors: Colores de opiniones |
+| sentimentColors: Tendencia de las opiniones |
 | shape: Forma |
 | slider: Control deslizante |
-| status: Código de colores |
+| status: Codificación del color |
 | subTotals: Subtotales |
 | target: Destino |
 | total: Total general |
@@ -295,7 +295,7 @@ La siguiente tabla define los valores de *cardName*. El primer valor de cada cel
 | trendline: Eje de tendencia |
 | valueAxis: Eje Y |
 | values: Valores |
-| wordWrap: Ajuste de palabra |
+| wordWrap: Ajuste automático de línea |
 | xAxisReferenceLine: Línea constante del eje X |
 | y1AxisReferenceLine: Línea constante |
 | zoom: Zoom |

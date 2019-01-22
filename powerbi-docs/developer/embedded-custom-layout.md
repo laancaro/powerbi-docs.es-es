@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
 ms.author: maghan
-ms.openlocfilehash: 36f9665f0e42ee62e5a1a4a7584a2492bea276b0
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37597921"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288943"
 ---
 # <a name="custom-layouts"></a>Diseños personalizados
 
@@ -65,7 +65,7 @@ enum DisplayOption {
 ```
 
 - `pageSize`: use el tamaño de página para controlar el tamaño del área del lienzo (es decir, el área en blanco del informe).
-- `displayOptions`: los posibles valores son: FitToWidth, FitToPage o ActualSize. Controla cómo escalar el lienzo para que se ajuste al iframe.
+- `displayOptions`: Los valores posibles son: FitToWidth, FitToPage o ActualSize. Controla cómo escalar el lienzo para que se ajuste al iframe.
 - `pagesLayout`: controla el diseño de cada objeto visual. Para más información, consulte PagesLayout.
 
 ## <a name="pages-layout"></a>Diseño de páginas
@@ -112,7 +112,7 @@ enum VisualContainerDisplayMode {
 ```
 
 - `x,y,z`: define la nueva posición del objeto visual.
-- `width`, altura: define el nuevo tamaño del objeto visual.
+- `width`, alto: define el nuevo tamaño del objeto visual.
 - `displayState`: define la visibilidad del objeto visual.
 
 

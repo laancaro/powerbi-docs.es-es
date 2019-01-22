@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6c47fb847ff5360031f4bfe2974db9c405a4ce5f
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 61de19e50437cf8cb5920d2a413821e325da2a1a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670748"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278087"
 ---
 # <a name="directquery-and-sap-business-warehouse-bw"></a>DirectQuery y SAP Business Warehouse (BW)
 Puede conectarse a los orígenes de datos de **SAP Business Warehouse (BW)** directamente mediante **DirectQuery**. Dada la naturaleza multidimensional/de procesamiento analítico en línea de SAP BW, existen muchas diferencias importantes entre DirectQuery a través de SAP BW frente a los orígenes relacionales como SQL Server. Estas diferencias se resumen como sigue:
@@ -43,7 +43,7 @@ Las restricciones de modelado adicionales principales al conectarse a SAP BW med
 Las restricciones adicionales principales relativas a las visualizaciones al conectarse a SAP BW mediante DirectQuery en Power BI son las siguientes:
 
 * **No se permite la agregación de columnas:** no es posible cambiar la agregación de una columna en un objeto visual; es siempre *No resumir*
-* **El filtrado de medidas está deshabilitado:** El filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
+* **El filtrado de medidas está deshabilitado:** el filtrado de medidas se deshabilita para reflejar la compatibilidad que ofrece SAP BW.
 * **Selección múltiple e inclusión/exclusión:** la capacidad de selección múltiple de puntos de datos en un objeto visual se deshabilita si los puntos representan valores de más de una columna. Por ejemplo, en un gráfico de barras que muestra las ventas por país, con Category en la leyenda, no sería posible seleccionar el punto de (USA, Bikes) y (France, Clothes). De forma similar, no sería posible seleccionar el punto de (USA, Bikes) y excluirlo del objeto visual. Ambas limitaciones se admiten para reflejar la compatibilidad que ofrece SAP BW.
 
 ## <a name="support-for-sap-bw-features"></a>Compatibilidad con las características de SAP BW

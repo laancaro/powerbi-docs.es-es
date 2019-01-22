@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 78cfcd51a951095353ce5d0f25c4511cc720c632
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578230"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277144"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver problemas cuando no Power BI Desktop no se inicia
 En **Power BI Desktop**, es posible que los usuarios que tengan instaladas y ejecuten versiones anteriores de **puertas de enlace de datos locales de Power BI** no puedan iniciar Power BI Desktop, debido a las restricciones de directiva administrativa que las puertas de enlace locales de Power BI aplican a las canalizaciones con nombre en el equipo local. 
@@ -29,7 +29,7 @@ La versión más reciente de la puerta de enlace de datos local de Power BI no i
 ### <a name="resolution-2-uninstall-or-stop-the-power-bi-on-premises-data-gateway-windows-service"></a>Solución 2: Desinstalar o detener el servicio Windows de la puerta de enlace de datos local de Power BI
 Si ya no necesita la puerta de enlace de datos local de Power BI, puede desinstalarla, o bien detener el servicio Windows de la puerta de enlace de datos local de Power BI, para quitar la restricción de directiva y permitir el inicio de Power BI Desktop.
 
-### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Resolución 3: Ejecutar Power BI Desktop con privilegios de administrador
+### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Solución 3: Ejecutar Power BI Desktop con privilegios de administrador
 Como alternativa, puede iniciar correctamente Power BI Desktop como administrador. Se sigue recomendando instalar la versión más reciente de la puerta de enlace de datos local de Power BI, como se ha descrito anteriormente en este artículo.
 
 Es importante tener en cuenta que Power BI Desktop se ha diseñado como una arquitectura multiproceso, y que algunos de estos procesos se comunican mediante canalizaciones con nombre de Windows. Puede haber otros procesos que interfieran con estas canalizaciones con nombre. La razón más común para este tipo interferencias es la seguridad, incluidas las situaciones donde firewalls o software antivirus podrían estar bloqueando las canalizaciones o redirigiendo el tráfico a un puerto específico. El inicio de Power BI Desktop con privilegios de administrador puede resolver ese problema. Si no es posible iniciar con privilegios de administrador, póngase en contacto con el administrador para determinar qué reglas de seguridad se están aplicando que impiden que las canalizaciones con nombre se comuniquen correctamente, e incluya Power BI Desktop en una lista blanca con sus respectivos subprocesos.

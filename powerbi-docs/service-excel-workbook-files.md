@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 85f7dd131806cd808c28c23cb70230a0c719e0a1
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670210"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54285631"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obtención de datos de archivos de libro de Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -43,7 +43,7 @@ Si utiliza Excel para conectarse a un origen de datos externo, una vez que el li
 El modo en que las hojas de PowerView, las tablas dinámicas y los gráficos aparecen, o no aparecen, en Power BI depende de dónde se guarda el archivo de libro y cómo decide consultarlo en Power BI. Esto se tratará más adelante.
 
 ## <a name="data-types"></a>Tipo de datos
-Power BI admite los siguientes tipos de datos: número entero, número decimal, moneda, fecha, verdadero/falso, texto. Marcar datos con tipos específicos en Excel mejorará la experiencia de Power BI.
+Power BI admite los siguientes tipos de datos: Número entero, Número decimal, Moneda, Fecha, Verdadero/Falso, Texto. Marcar datos con tipos específicos en Excel mejorará la experiencia de Power BI.
 
 ## <a name="prepare-your-workbook-for-power-bi"></a>Preparación del libro para Power BI
 Vea este útil vídeo para aprender más acerca de cómo asegurarse de que los libros de Excel están listos para Power BI.
@@ -119,7 +119,7 @@ El uso de la característica de Excel 2016 **Publicar en Power BI** es lo mismo 
 ## <a name="troubleshooting"></a>Solución de problemas
 ¿El archivo de libro es demasiado grande? Consulte [Reducir el tamaño de un libro de Excel para verlo en Power BI](reduce-the-size-of-an-excel-workbook.md)
 
-Actualmente, al elegir Importar, Power BI solo importa datos que formen parte de una tabla con nombre o un modelo de datos. Como resultado, si el libro no contiene tablas con nombre, hojas de Power View ni modelos de datos de Excel, es posible que se muestre este error: **"No se encontraron datos en su libro de Excel"**. En [este artículo](service-admin-troubleshoot-excel-workbook-data.md) se explica cómo corregir y volver a importar el libro.
+Actualmente, al elegir Importar, Power BI solo importa datos que formen parte de una tabla con nombre o un modelo de datos. Como consecuencia, si el libro no contiene tablas con nombre, hojas de Power View o modelos de datos de Excel, podría ver este error: **"No se encontraron datos en el libro de Excel"**. En [este artículo](service-admin-troubleshoot-excel-workbook-data.md) se explica cómo corregir y volver a importar el libro.
 
 ## <a name="next-steps"></a>Pasos siguientes
 **Exploración de los datos**: cuando obtenga datos e informes del archivo en Power BI, será el momento de explorarlos. Simplemente haga clic con el botón derecho en el nuevo conjunto de datos y, a continuación, haga clic en Explorar. Si elige conectarse a un archivo de libro en OneDrive en el paso 4, el libro aparecerá en Informes. Al hacer clic en él, se abrirá en Power BI, tal como lo haría si estuviera en Excel Online.

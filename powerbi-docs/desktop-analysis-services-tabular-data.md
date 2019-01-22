@@ -5,20 +5,20 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 102198c4524903098ad0c6b0b9fd7e231c3f1fdc
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 703ccbc0c1c541fe161f409480701788d0cd12af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578299"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54280269"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso de datos tabulares de Analysis Services en Power BI Desktop
-Con Power BI Desktop existen dos maneras puede conectarse y obtener datos de los modelos tabulares de Analysis Services de SQL Server: exploración mediante una conexión activa o selección de elementos e importación en Power BI Desktop.
+En Power BI Desktop hay dos maneras de conectarse a los datos y obtenerlos a partir del modelo tabular de SQL Server Analysis Services: Explore mediante una conexión dinámica o seleccione de elementos e impórtelos en Power BI Desktop.
 
 Analicemos la cuestión más detenidamente.
 
@@ -60,7 +60,7 @@ Si elige la selección de elementos y la obtención de datos, se importan los da
 
 **Pregunta:** ¿Cuál es la diferencia entre la conexión dinámica a un modelo tabular desde el servicio de Power BI y la conexión dinámica desde Power BI Desktop?
 
-**Respuesta**: Cuando se realiza una conexión dinámica a un modelo tabular desde su sitio en el servicio Power BI con una base de datos de Analysis Services local de su organización, se requiere una puerta de enlace de datos local para garantizar las comunicaciones entre ellos. Al realizar la conexión dinámica con un modelo tabular desde Power BI Desktop, no se necesita una puerta de enlace porque tanto Power BI Desktop como el servidor de Analysis Services al que se está conectando están ejecutándose de forma local en su organización. Sin embargo, si publica el archivo de Power BI Desktop a su sitio de Power BI, se requiere una puerta de enlace.
+**Respuesta:** Cuando se realiza una conexión dinámica a un modelo tabular desde su sitio en el servicio Power BI con una base de datos de Analysis Services local de su organización, se requiere una puerta de enlace de datos local para garantizar las comunicaciones entre ellos. Al realizar la conexión dinámica con un modelo tabular desde Power BI Desktop, no se necesita una puerta de enlace porque tanto Power BI Desktop como el servidor de Analysis Services al que se está conectando están ejecutándose de forma local en su organización. Sin embargo, si publica el archivo de Power BI Desktop a su sitio de Power BI, se requiere una puerta de enlace.
 
 **Pregunta:** Si creo una conexión dinámica, ¿puedo conectarme a otro origen de datos en el mismo archivo de Power BI Desktop?
 

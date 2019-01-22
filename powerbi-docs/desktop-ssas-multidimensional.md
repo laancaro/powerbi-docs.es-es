@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 40da2a9a53cfb7a0e497f85f87bca6a133046720
-ms.sourcegitcommit: 05303d3e0454f5627eccaa25721b2e0bad2cc781
+ms.openlocfilehash: 8668e477a2778bfdeec8260a31ca63af9d4124a6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "52578713"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54287706"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
@@ -36,7 +36,7 @@ La siguiente tabla muestra la correspondencia entre los objetos multidimensional
 | --- | --- |
 | Cubo |Modelo |
 | Dimensión de cubo |Tabla |
-| Atributos de dimensión (Keys), Name |columnas |
+| Atributos de dimensión (Keys), Name |Columnas |
 | Grupo de medida |Tabla |
 | Medida |Medida |
 | Medidas sin grupo de medida asociado |En la tabla llamada *Medidas* |

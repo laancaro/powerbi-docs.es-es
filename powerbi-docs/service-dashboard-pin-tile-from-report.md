@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 8ee878efe78e0f266e27b7404aa645dc8a0fd3bf
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: a9d3856f643eed0ccb5383f2dda55ea57a32908a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717732"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54284941"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 ## <a name="pinning-tiles-from-a-report"></a>Anclar iconos desde un informe
@@ -26,7 +26,7 @@ Además, pueden anclarse páginas de informe completas a un panel.  Esto tambié
 
 No puede anclar iconos desde informes que han compartido con usted ni desde Power BI Desktop. 
 
-> **Sugerencia**: algunas visualizaciones utilizan imágenes de fondo. El anclaje puede no funcionar si la imagen de fondo es demasiado grande.  Intente reducir el tamaño de la imagen o utilice la compresión de imágenes.  
+> **SUGERENCIA**: Algunas visualizaciones utilizan imágenes de fondo. El anclaje puede no funcionar si la imagen de fondo es demasiado grande.  Intente reducir el tamaño de la imagen o utilice la compresión de imágenes.  
 > 
 > 
 

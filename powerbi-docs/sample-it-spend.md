@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
-description: 'Ejemplo de análisis de gasto en TI para Power BI: un paseo'
+title: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
+description: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 66a1999637f31083681a6984d4698d78815dc1c1
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 910e4de20d777281f7617727889befa5eb80dfe1
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717479"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290089"
 ---
-# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: un paseo
+# <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-it-spend-analysis-sample"></a>Introducción al Ejemplo de análisis de gastos de TI
 El [paquete de contenido](service-organizational-content-pack-introduction.md) del análisis de gastos de TI (panel, informe y conjunto de datos) analiza los costos planeados frente a los costos reales de un departamento de TI. Esta comparación nos ayuda a comprender la calidad del planeamiento anual y de la investigación de las áreas con enormes desviaciones del planeamiento que ha realizado la empresa. La empresa de este ejemplo pasa por un ciclo de planeamiento anual y produce trimestralmente un nuevo último cálculo que ayude a analizar los cambios del gasto en TI durante el año fiscal.
@@ -119,5 +119,5 @@ Haga clic en **Editar informe** en la esquina superior izquierda y explore la Vi
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, siempre puede ir a Obtener datos para obtener una copia nueva de este ejemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de gasto en TI. Ahora es su turno: conéctese a sus propios datos Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).

@@ -5,17 +5,17 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: e3b7a6ca4471fb1a6454f6efb9fba1f89b8ae1da
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: d1e3d6b50b91643dc7c1e658094a5ae7763edc8f
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829996"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290419"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Del libro de Excel a un informe sorprendente al instante
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Sin embargo, los datos más recientes se encuentran en varios sistemas de terceros y en archivos de su portátil. En el pasado, el hecho de crear objetos visuales y dar formato a un informe llevaba horas. Está empezando a sentirse ansioso.
@@ -67,7 +67,7 @@ Ahora puede empezar a crear visualizaciones. Su jefa quiere ver los beneficios o
 
 ![Gráfico de columnas en el editor de informes](media/service-from-excel-to-stunning-report/pbi_report_pin-new.png)
 
-> **SUGERENCIA**: si el gráfico no se parece al que esperaba, compruebe las agregaciones. Por ejemplo, en el área **Valor**, haga clic en el campo que acaba de agregar y asegúrese de que los datos se agregan como le gustaría.  En este ejemplo, usamos **Suma**.
+> **SUGERENCIA**: Si el gráfico no se parece al que esperaba, compruebe las agregaciones. Por ejemplo, en el área **Valor**, haga clic en el campo que acaba de agregar y asegúrese de que los datos se agregan como le gustaría.  En este ejemplo, usamos **Suma**.
 > 
 > 
 

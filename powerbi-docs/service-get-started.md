@@ -6,17 +6,17 @@ manager: kfile
 ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/22/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6de9427a11ae5aa43563ce9e21371d231a1dd3a9
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900560"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292002"
 ---
 # <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introducción al servicio Power BI (app.powerbi.com)
 Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo encaja el servicio Power BI con las otras ofertas de Power BI, se recomienda que lea primero [¿Qué es Power BI?](power-bi-overview.md).
@@ -128,7 +128,7 @@ Ahora que se ha conectado a los datos, empiece a explorar.  Cuando encuentre alg
    
    Seleccione el nuevo icono del panel para volver al informe en cualquier momento. Power BI le devuelve al editor de informes en la vista de lectura. Para volver a la vista de edición, seleccione **Editar informe** en la barra de menús superior. Una vez en la vista de edición, siga explorando y anclando iconos. 
 
-## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Paso 3: Continuar la exploración con Preguntas y respuestas (consultas en lenguaje natural)
+## <a name="step-3--continue-the-exploration-with-qa-natural-language-querying"></a>Paso 3:  Continuar la exploración con Preguntas y respuestas (consultas en lenguaje natural)
 1. Para realizar una exploración rápida de los datos, pruebe a formular una pregunta en el cuadro Preguntas y respuestas. El cuadro de Preguntas y respuestas se encuentra en la parte superior del panel (**Pregunte algo sobre sus datos**) y en la barra de menús superior del informe (**Hacer una pregunta**). Por ejemplo, pruebe a escribir "qué segmento obtuvo más ingresos".
    
    ![Lienzo Preguntas y respuestas](media/service-get-started/powerbi-qna.png)

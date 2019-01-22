@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-admin
+ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: fe81c8e972a4fe36f88da495e4e0dce97a39d32c
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52830318"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54296832"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -67,13 +67,13 @@ Además, los usuarios individuales de la organización pueden suscribirse a Powe
 
 Hay tres escenarios que se podrían aplicarse a los usuarios de su organización:
 
-* **Escenario 1**: su organización ya tiene un entorno de Office 365 existente y el usuario que se suscribe a Power BI ya tiene una cuenta de Office 365.
+* **Escenario 1**: Su organización ya tiene un entorno de Office 365 existente y el usuario que se suscribe a Power BI ya tiene una cuenta de Office 365.
     En este escenario, si un usuario ya tiene una cuenta profesional o educativa en el inquilino (por ejemplo, contoso.com) pero todavía no tiene Power BI, Microsoft simplemente activa el plan para esa cuenta y automáticamente se notifica al usuario sobre cómo utilizar el servicio Power BI.
 
-* **Escenario 2**: su organización tiene un entorno de Office 365 existente, pero el usuario que se suscribe a Power BI no tiene una cuenta de Office 365.
+* **Escenario 2**: Su organización tiene un entorno de Office 365 existente, pero el usuario que se suscribe a Power BI no tiene una cuenta de Office 365.
     En este escenario, el usuario tiene una dirección de correo electrónico en el dominio de su organización (por ejemplo, contoso.com), pero todavía no tiene una cuenta de Office 365. En este caso, el usuario puede suscribirse a Power BI y automáticamente se le asigna una cuenta. Esto permite al usuario acceder al servicio Power BI. Por ejemplo, si una empleada llamada Nancy usa su dirección de correo del trabajo (por ejemplo, nancy@contoso.com) para suscribirse, Microsoft agrega automáticamente a Nancy como un usuario en el entorno de Office 365 de Contoso y activa Power BI para esa cuenta.
 
-* **Escenario 3**: su organización no tiene un entorno de Office 365 conectado a su dominio de correo electrónico.
+* **Escenario 3**: Su organización no tiene un entorno de Office 365 conectado a su dominio de correo electrónico.
     No hay ninguna acción administrativa que su organización necesite llevar a cabo para aprovechar las ventajas de Power BI. Los usuarios se agregan a un nuevo directorio de usuario solo en la nube, y tiene la opción de asumir el control como el administrador de inquilinos y administrarlos.
 
 > [!IMPORTANT]
@@ -156,13 +156,13 @@ Para permitir que los usuarios existentes se suscriban a Power BI, ejecute el co
 
 Hay tres escenarios que se podrían aplicarse a los usuarios de su organización:
 
-* **Escenario 1**: si su organización ya tiene un entorno de Office 365 existente y todos los usuarios de dicha organización tienen cuentas de Office 365, no se producirá ningún cambio en la forma de administrar la identidad.
+* **Escenario 1**: Si su organización ya tiene un entorno de Office 365 existente y todos los usuarios de dicha organización tienen cuentas de Office 365, no se producirá ningún cambio en la forma de administrar la identidad.
 
-* **Escenario 2**: si su organización ya tiene un entorno de Office 365 existente pero no todos los usuarios de dicha organización tienen cuentas de Office 365, crearemos un usuario en el inquilino y asignaremos licencias basadas en la dirección de correo electrónico profesional o educativa del usuario.
+* **Escenario 2**: Si su organización ya tiene un entorno de Office 365 existente pero no todos los usuarios de dicha organización tienen cuentas de Office 365, crearemos un usuario en el inquilino y asignaremos licencias basadas en la dirección de correo electrónico profesional o educativa del usuario.
 
     Esto significa que el número de usuarios que está administrando en cualquier momento determinado crecerá a medida que los usuarios de su organización se suscriben al servicio.
 
-* **Escenario 3**: si la organización no tiene un entorno de Office 365 conectado al dominio de correo electrónico, no se producirá ningún cambio en la forma de administrar las identidades.
+* **Escenario 3**: Si la organización no tiene un entorno de Office 365 conectado al dominio de correo electrónico, no se producirá ningún cambio en la forma de administrar las identidades.
 
     Los usuarios se agregan a un nuevo directorio de usuario solo en la nube, y tiene la opción de asumir el control como el administrador de inquilinos y administrarlos.
 
@@ -186,7 +186,7 @@ Al realizar una adquisición externa, el contenido de Power BI creado antes de l
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-are-added-to"></a>Si dispongo de varios dominios, ¿puedo controlar el inquilino de Office 365 al que se agregan usuarios?
 
-Si no hace nada, se creará un inquilino para cada dominio y subdominio de correo electrónico del usuario. Si desea que todos los usuarios se encuentren en el mismo inquilino independientemente de sus extensiones de dirección de correo electrónico: cree un inquilino de destino por adelantado, o use un inquilino existente, y agregue todos los dominios y subdominios existentes que desee que estén consolidados dentro de ese inquilino. A partir de ese momento, todos los usuarios cuyas direcciones de correo electrónico terminen en esos dominios y subdominios se unirán automáticamente al inquilino de destino al suscribirse.
+Si no hace nada, se creará un inquilino para cada dominio y subdominio de correo electrónico del usuario. Si desea que todos los usuarios se encuentren en el mismo inquilino independientemente de sus extensiones de dirección de correo electrónico: Crear un inquilino de destino por adelantado, o use un inquilino existente, y agregue todos los dominios subdominios existentes que desee consolidados dentro de ese inquilino. A partir de ese momento, todos los usuarios cuyas direcciones de correo electrónico terminen en esos dominios y subdominios se unirán automáticamente al inquilino de destino al suscribirse.
 
 > [!IMPORTANT]
 > No hay ningún mecanismo automático admitido para mover usuarios entre inquilinos una vez creados. Para obtener información sobre cómo agregar dominios a un solo inquilino de Office 365, consulte [Pasos para comprobar dominio en Office 365](/office365/admin/setup/add-domain/).

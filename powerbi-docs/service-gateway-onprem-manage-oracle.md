@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4b503b7282377b112aebe237cc9a8d132502f0
-ms.sourcegitcommit: 2a7bbb1fa24a49d2278a90cb0c4be543d7267bda
+ms.openlocfilehash: 5e737978b7c39abd331f51fbb12e24656d54e838
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "34298352"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275925"
 ---
 # <a name="manage-your-data-source---oracle"></a>Administrar el origen de datos: Oracle
 Una vez que haya instalado la puerta de enlace de datos local, tendrá que agregar orígenes de datos que se puedan usar con ella. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de Oracle tanto para la actualización programada como para DirectQuery.
@@ -39,7 +39,7 @@ En el caso de las versiones de **64 bits** de Power BI Desktop o en el de la pue
 
 * [ODAC 12.2c versión 1 (12.2.0.1.0) de 64 bits para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
-Una vez instalado, tendrá que configurar su archivo tnsnames.ora con la información adecuada para su base de datos. Power BI Desktop y la puerta de enlace se activarán mediante el parámetro net_service_name definido en el archivo tnsnames.ora. Si no está configurado, no podrá conectarse. La ruta predeterminada para tnsnames.ora es la siguiente: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obtener más información sobre cómo configurar los archivos tnsnames.ora, consulte [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) (Oracle: parámetros para nombres locales (tnsnames.ora)).
+Una vez instalado, tendrá que configurar su archivo tnsnames.ora con la información adecuada para su base de datos. Power BI Desktop y la puerta de enlace se activarán mediante el parámetro net_service_name definido en el archivo tnsnames.ora. Si no está configurado, no podrá conectarse. La ruta predeterminada para tnsnames.ora es la siguiente: `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obtener más información sobre cómo configurar los archivos tnsnames.ora, consulte [Oracle: Local Naming Parameters (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm) (Oracle: parámetros para nombres locales [tnsnames.ora]).
 
 ### <a name="example-tnsnamesora-file-entry"></a>Ejemplo de entrada de archivo tnsnames.ora
 El formato básico de una entrada en tnsname.ora es el siguiente.

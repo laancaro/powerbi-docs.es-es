@@ -6,17 +6,17 @@ manager: kvivek
 ms.reviewer: ''
 featuredvideoid: xmja6Epqa
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/21/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 71cde810f98a81ab5670b3ab04bc1cd502277c1c
-ms.sourcegitcommit: ce8332a71d4d205a1f005b703da4a390d79c98b6
+ms.openlocfilehash: 079494a47452ca0ca043032f78fa35c7d1755d11
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2018
-ms.locfileid: "47416875"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54282572"
 ---
 # <a name="radial-gauge-charts-in-power-bi"></a>Gráficos de medidor radial en Power BI
 Un gráfico de medidor radial tiene un arco circular y muestra un único valor que mide el progreso hacia un objetivo o KPI.  El valor del objetivo se representa mediante la línea (aguja). El progreso hacia ese objetivo se representa mediante el sombreado.  Y el valor que representa el progreso se muestra en negrita dentro del arco. Todos los valores posibles están repartidos por igual a lo largo del arco, del mínimo (valor más a la izquierda) al máximo (valor más a la derecha).
@@ -78,7 +78,7 @@ También puede ver otro en el que Will muestra cómo crear objetos visuales de m
    > 
    > 
 
-### <a name="step-4-set-a-maximum-value"></a>Paso 4: Agregar un valor máximo
+### <a name="step-4-set-a-maximum-value"></a>Paso 4: Establecer un valor máximo
 En el paso 2, Power BI usó el campo Valor para establecer automáticamente el valor mínimo (inicio) y el valor máximo (final).  Pero ¿qué ocurre si desea establecer su propio valor máximo?  Supongamos que, en lugar de usar el doble del valor actual como valor máximo posible, desea establecerlo en la cifra de ventas brutas más alta del conjunto de datos. 
 
 1. Arrastre **Ventas brutas** desde la lista **Campos** al área **Valor máximo** .
@@ -90,7 +90,7 @@ En el paso 2, Power BI usó el campo Valor para establecer automáticamente el v
    
    ![](media/power-bi-visualization-radial-gauge-charts/power-bi-final-gauge.png)
 
-### <a name="step-5-save-your-report"></a>Paso 5: Guarde el informe
+### <a name="step-5-save-your-report"></a>Paso 5: Guardar el informe
 1. [Guarde el informe](../service-report-save.md).
 2. [Agregue el gráfico de medidor como un icono de panel](../service-dashboard-pin-tile-from-report.md). 
 

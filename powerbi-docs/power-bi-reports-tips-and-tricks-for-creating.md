@@ -5,17 +5,17 @@ author: davidi
 manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 2093800f10484a24eb4db9f77f45468ae4b9b4c3
-ms.sourcegitcommit: e17fc3816d6ae403414cf5357afbf6a492822ab8
+ms.openlocfilehash: 02202e8b5e89aa8d312a96d448c825f2ca44447a
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/04/2018
-ms.locfileid: "52829844"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290507"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop, el servicio Power BI *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado.
@@ -30,7 +30,7 @@ Puede obtener información adicional en el [Centro de recursos de Power Query](h
 También puede consultar la [referencia de las fórmulas](https://support.office.com/Article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f).
 
 ### <a name="data-types-in-query-editor"></a>Tipos de datos del Editor de consultas
-Al usar el Editor de consultas en Power BI Desktop para cargar los datos, hacemos una detección del tipo de datos.  Al usar las fórmulas, a veces no se conserva la configuración de tipos de datos en las columnas. Es necesario comprobar que el tipo de datos de las columnas es correcto tras realizar las operaciones siguientes: cargar datos inicialmente en la pestaña de consulta, usar la primera fila como encabezado, agregar columna, agrupar por, combinar, anexar y antes de cargar los datos por primera vez.
+Al usar el Editor de consultas en Power BI Desktop para cargar los datos, hacemos una detección del tipo de datos.  Al usar las fórmulas, a veces no se conserva la configuración de tipos de datos en las columnas. Debe comprobar que el tipo de datos de columnas es correcto tras realizar las siguientes operaciones:  Cargar datos inicialmente en la pestaña de consulta, Primera fila como encabezado, Agregar columna, Agrupar por, Combinar y antes de presionar cargar los datos por primera vez.
 
 Un elemento clave que hay que recordar: la cursiva en la cuadrícula de datos no significa que el tipo de datos se haya configurado correctamente, solo indica que los datos no se consideran como texto.
 
@@ -167,7 +167,7 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop.  Está optimiz
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Servicio Power BI *y* Power BI Desktop
 
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lea las notas del producto: [Principles for designing Power BI reports](visuals/power-bi-visualization-best-practices.md) (Principios de diseño de los informes de Power BI)
+### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lea las notas del producto: [Principios para diseñar informes en Power BI](visuals/power-bi-visualization-best-practices.md)
 En este documento se describen los procedimientos recomendados para diseñar informes en Power BI. Empezando por la planeación, se tratan los principios de diseño que se pueden aplicar, tanto a los informes como a las páginas y los objetos visuales individuales que componen dicho informe. Muchos de estos procedimientos recomendados también se pueden aplicar al diseño de paneles.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leer o ver “How to design visually stunning reports (and dashboards) in Power BI” (Cómo diseñar informes [y paneles] visualmente espectaculares en Power BI)

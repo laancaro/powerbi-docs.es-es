@@ -6,15 +6,15 @@ manager: kfile
 ms.author: maghan
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: cf489f842d114dbf0ac1add561a93c2ce5499971
-ms.sourcegitcommit: 127df71c357127cca1b3caf5684489b19ff61493
+ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/03/2018
-ms.locfileid: "37780610"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54277909"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
 
@@ -68,7 +68,7 @@ isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herrami
 Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria 
 ---------|---------|---------|---------|---------
 nombre     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | False       | True        
-crossFilteringBehavior     | Cadena        |    La dirección de filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | False        | False        
+crossFilteringBehavior     | Cadena        |    La dirección del filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | False        | False        
 fromTable     | Cadena        | Nombre de la tabla de clave externa.        | False        | True         
 fromColumn    | Cadena        | Nombre de la columna de clave externa.        | False        | True         
 toTable    | Cadena        | Nombre de la tabla de clave principal.        | False        | True         

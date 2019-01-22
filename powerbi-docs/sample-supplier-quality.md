@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de análisis de calidad de proveedores para Power BI: un paseo'
-description: 'Ejemplo de análisis de calidad de proveedores para Power BI: un paseo'
+title: 'Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo'
+description: 'Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 0b214e2c08e6a39e4b09643c02bccedb56d5b9f4
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 3ef48bbe55793825693382252ac143068549d7a8
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717663"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54292995"
 ---
-# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de calidad de proveedores para Power BI: un paseo
+# <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo
 
 ## <a name="a-brief-overview-of-the-supplier-quality-analysis-sample"></a>Una breve introducción al Ejemplo de análisis de calidad de proveedores
 Este panel de ejemplo del sector y el informe subyacente se centran en uno de los desafíos habituales de la cadena de suministro: el análisis de calidad del proveedor.
@@ -46,7 +46,7 @@ Estos son datos reales y anónimos de obviEnce ([www.obvience.com](http://www.ob
    ![](media/sample-datasets/power-bi-samples-icon.png)
 4. Seleccione el **Ejemplo de análisis de calidad de proveedores** y elija **Conectar**.  
   
-   ![Supplier Quality Analysis Sample](media/sample-supplier-quality/supplier16.png)
+   ![Ejemplo de análisis de calidad de proveedores](media/sample-supplier-quality/supplier16.png)
    
 5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
    
@@ -167,5 +167,5 @@ Echemos un vistazo ahora a otro icono del panel relacionado con la cantidad tota
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden proporcionar información detallada sobre los datos de calidad de proveedores. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).

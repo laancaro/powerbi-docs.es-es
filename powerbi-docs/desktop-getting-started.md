@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5f202597fa641bf68b8e49c461ed5c25ea987c3e
-ms.sourcegitcommit: 2ae660a7b70fce23eb58b159d049eca44a664f2c
+ms.openlocfilehash: 019ee7985c27c72ca41a09c8d13754316fd60232
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/30/2018
-ms.locfileid: "52670939"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291657"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
@@ -69,7 +69,7 @@ Puede **Obtener datos**, ver **Orígenes recientes**o **Abrir otros** **Informes
 
 ![](media/desktop-getting-started/designer_gsg_blankreport.png)
 
-Hay tres vistas en Power BI Desktop: vista **Informe** , vista **Datos** y vista **Relaciones** . Power BI Desktop también incluye el **Editor de consultas**, que se abre en una ventana independiente. En el **Editor de consultas**, puede crear consultas y transformar los datos para luego cargar dicho modelo de datos refinados en Power BI Desktop y crear informes.
+Hay tres vistas en Power BI Desktop: la vista **Informe**, la vista **Datos** y la vista **Relaciones**. Power BI Desktop también incluye el **Editor de consultas**, que se abre en una ventana independiente. En el **Editor de consultas**, puede crear consultas y transformar los datos para luego cargar dicho modelo de datos refinados en Power BI Desktop y crear informes.
 
 La pantalla siguiente muestra los iconos de las tres vistas en la parte izquierda de Power BI Desktop: **Informe**, **Datos**y **Relaciones**, de arriba a abajo. La vista actual se indica mediante la barra amarilla de la parte izquierda. En este caso, se muestra la vista **Informe** . Puede cambiar las vistas haciendo clic en cualquiera de los tres iconos.
 

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e88e60bc1745a08ea53c7336f6f1fb9e4cda1ec8
-ms.sourcegitcommit: 6a6f552810a596e1000a02c8d144731ede59c0c8
+ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/14/2018
-ms.locfileid: "51619733"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54290737"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregaciones en Power BI Desktop (versión preliminar)
 
@@ -261,7 +261,7 @@ En esta tabla se muestran las entradas establecidas en el cuadro de diálogo **A
 
 ![tabla de agregaciones Sales Agg](media/desktop-aggregations/aggregations-table_04.jpg)
 
-> Nota: este modelo necesita que la tabla **Date** sea DirectQuery para rellenar el cuadro de diálogo Administrar agregaciones, porque se trata de una tabla de detalles. Es una limitación de la versión preliminar que queremos quitar para Disponibilidad general.
+> Nota: Este modelo necesita que la tabla **Date** sea DirectQuery para rellenar el cuadro de diálogo Administrar agregaciones, porque se trata de una tabla de detalles. Es una limitación de la versión preliminar que queremos quitar para Disponibilidad general.
 
 ### <a name="query-examples"></a>Ejemplos de consultas
 

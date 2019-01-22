@@ -5,16 +5,16 @@ author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: report-builder
+ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
 ms.author: maggies
-ms.openlocfilehash: dc811c5f6c6a7d5d428591eb7afd1665cda6dbb0
-ms.sourcegitcommit: b03912343a5a214c6bb972aaa6aa051c2a5f4332
+ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2018
-ms.locfileid: "52900460"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54283538"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Descripción de la vista de diseño de informe en los informes paginados (versión preliminar)
 
@@ -88,14 +88,14 @@ El tamaño de la superficie de diseño podría ser diferente del área de impres
  Dependiendo de la propiedad, puede establecer un valor de propiedad desde una lista desplegable, escribir el valor o seleccionar `<Expression>` para crear una expresión.  
   
 ### <a name="changing-the-properties-pane-view"></a>Cambiar la vista del panel Propiedades  
- De forma predeterminada, las propiedades mostradas en el panel Propiedades se organizan en amplias categorías, como acción, borde, relleno, fuente y general. Cada categoría tiene un conjunto de propiedades asociadas con ella. Por ejemplo, las siguientes propiedades se muestran en la categoría de fuente: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight y TextDecoration. Si lo prefiere, puede ordenar alfabéticamente todas las propiedades enumeradas en el panel. Esto elimina las categorías y enumera todas las propiedades en orden alfabético, independientemente de la categoría.  
+ De forma predeterminada, las propiedades mostradas en el panel Propiedades se organizan en amplias categorías, como acción, borde, relleno, fuente y general. Cada categoría tiene un conjunto de propiedades asociadas con ella. Por ejemplo, las siguientes propiedades aparecen en la categoría Font: Color, FontFamily, FontSize, FontStyle, FontWeight, LineHeight, y TextDecoration. Si lo prefiere, puede ordenar alfabéticamente todas las propiedades enumeradas en el panel. Esto elimina las categorías y enumera todas las propiedades en orden alfabético, independientemente de la categoría.  
   
- El panel Propiedades tiene tres botones en la parte superior del panel: **Categoría**, **Alfabetizar** y **Página de propiedades**. Seleccione los botones Categoría y Alfabetizar para cambiar entre las vistas del panel Propiedades. Seleccione el botón **Páginas de propiedades** para abrir el cuadro de diálogo de propiedades de un elemento de informe seleccionado.  
+ El panel de propiedades tiene tres botones en la parte superior del panel: **Categoría**, **Alfabetizar** y **Página de propiedades**. Seleccione los botones Categoría y Alfabetizar para cambiar entre las vistas del panel Propiedades. Seleccione el botón **Páginas de propiedades** para abrir el cuadro de diálogo de propiedades de un elemento de informe seleccionado.  
   
   
 ## <a name="5-grouping-pane"></a>5 Panel de agrupación
 
- Los grupos se usan para organizar los datos del informe en una jerarquía visual y para calcular los totales. Puede ver los grupos de filas y columnas dentro de una región de datos en la superficie de diseño y en el panel de agrupación. El panel de agrupación tiene dos paneles: grupos de filas y grupos de columnas. Al seleccionar una región de datos, el panel Agrupación muestra todos los grupos dentro de dicha región de datos como una lista jerárquica: los grupos secundarios aparecen con sangría aplicada debajo de sus grupos principales.  
+ Los grupos se usan para organizar los datos del informe en una jerarquía visual y para calcular los totales. Puede ver los grupos de filas y columnas dentro de una región de datos en la superficie de diseño y en el panel de agrupación. El panel Agrupación tiene dos paneles: Grupos de filas y Grupos de columnas. Al seleccionar una región de datos, el panel Agrupación muestra todos los grupos dentro de dicha región de datos como una lista jerárquica: los grupos secundarios aparecen con sangría aplicada debajo de sus grupos principales.  
   
  Puede crear grupos arrastrando campos desde el panel Datos de informe y colocándolos en la superficie de diseño o en el panel de agrupación. En el panel de agrupación, puede agregar grupos principales, adyacentes y secundarios, cambiar las propiedades de grupo y eliminar grupos.  
   

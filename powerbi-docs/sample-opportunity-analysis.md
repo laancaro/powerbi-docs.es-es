@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de análisis de oportunidades para Power BI: un paseo'
-description: 'Ejemplo de análisis de oportunidades para Power BI: un paseo'
+title: 'Ejemplo de análisis de oportunidades para Power BI: Dar un paseo'
+description: 'Ejemplo de análisis de oportunidades para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/20/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 12bc6039f7b6580782d3dfac181443caa6557447
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717502"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54275534"
 ---
-# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de oportunidades para Power BI: un paseo
+# <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de oportunidades para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-opportunity-analysis-sample"></a>Introducción al Ejemplo de análisis de oportunidades
 El **Ejemplo de análisis de oportunidades** contiene un panel (y un informe asociado) para una empresa de software que tiene dos canales de ventas: el de la *venta directa* y *a través de asociados*. La jefa de ventas creó este panel para hacer un seguimiento de las oportunidades y los ingresos por región, tamaño del acuerdo y canal.
@@ -121,7 +121,7 @@ Nuestra directora financiera usa esta página para administrar la carga de traba
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que en este paseo haya aprendido cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecerle información sobre los datos para el seguimiento de oportunidades. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
 
 [Descargar ejemplos](sample-datasets.md)  

@@ -5,17 +5,17 @@ author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: f4c9fec65f9c006095470a8983f889d44f3ce460
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
+ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54072897"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279996"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Característica Mostrar elementos sin datos de Power BI
 
@@ -65,7 +65,7 @@ Por lo tanto, Power BI muestra las combinaciones que tengan entradas en la tabla
 
 **4. Grupos de tablas diferentes pero no relacionadas**
 
-El modelo de ejemplo no tiene esta combinación, pero si hubiera grupos de tablas diferentes pero no relacionadas, Power BI no podría relacionar dos columnas. Por tanto, el resultado sería una combinación cruzada de todos los valores de cada columna. En esa situación, Power BI emite un error de tipo *unconstrained join* (unión sin restricciones), ya que dichas combinaciones cruzadas son complicadas de calcular en la base de datos y no proporcionan mucha información al usuario. 
+El modelo de ejemplo no tiene esta combinación, pero si hubiera grupos de tablas diferentes pero no relacionadas, Power BI no podría relacionar dos columnas. El resultado sería una combinación cruzada de todos los valores de cada columna. En esa situación, Power BI emite un error de tipo *unconstrained join* (unión sin restricciones), ya que dichas combinaciones cruzadas son complicadas de calcular en la base de datos y no proporcionan mucha información al usuario. 
 
 ![Error que se muestra para una unión sin restricciones](media/desktop-show-items-no-data/show-items-no-data_01.png)
 
@@ -76,7 +76,7 @@ En la sección anterior se describe cómo Power BI determina qué datos son pert
 
 La característica **Mostrar elementos sin datos** permite hacer exactamente eso: incluir filas y columnas de datos que no contienen datos de medida (valores de medida en blanco).
 
-Para habilitar la característica **Mostrar elementos sin datos**, seleccione un objeto visual; luego, en el área **Campos**, haga clic con el botón derecho en el campo y seleccione la opción **Mostrar elementos sin datos** del menú que aparece, tal y como se muestra en la siguiente imagen.
+Para habilitar la característica **Mostrar elementos sin datos**, seleccione un objeto visual; luego, en el área **Campos**, haga clic con el botón derecho en el campo y seleccione la opción **Mostrar elementos sin datos** del menú que aparece, tal y como se muestra en la siguiente imagen:
 
 ![Habilitación de la característica Mostrar elementos sin datos](media/desktop-show-items-no-data/show-items-no-data_02.png)
 
@@ -193,6 +193,6 @@ En esta sección se muestra el modelo de datos de ejemplo que se ha utilizado en
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En este artículo se describe cómo se puede habilitar la característica **Mostrar elementos sin datos** de Power BI. Puede que también esté interesado en los siguientes artículos. 
+En este artículo se describe cómo se puede habilitar la característica **Mostrar elementos sin datos** de Power BI. Puede que también esté interesado en los siguientes artículos: 
 
-* [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
+* [Miembro predeterminado en los modelos multidimensionales en Power BI](desktop-default-member-multidimensional-models.md)

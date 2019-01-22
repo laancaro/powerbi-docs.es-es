@@ -1,23 +1,23 @@
 ---
-title: 'Ejemplo de recursos humanos: un paseo'
-description: 'Ejemplo de recursos humanos para Power BI: un paseo'
+title: 'Ejemplo de recursos humanos: Dar un paseo'
+description: 'Ejemplo de recursos humanos para Power BI: Dar un paseo'
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
-ms.component: powerbi-desktop
+ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 06/26/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: c0f1df47501c297e65e7dc3ccdb8d745c84b2e55
-ms.sourcegitcommit: 1e4fee6d1f4b7803ea285eb879c8d5a4f7ea8b85
+ms.openlocfilehash: 1670fffd33e741962db5e7312f2a27273151980d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2018
-ms.locfileid: "51717881"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54293949"
 ---
-# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: un paseo
+# <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: Dar un paseo
 
 ## <a name="overview-of-the-human-resources-sample"></a>Introducción al Ejemplo de recursos humanos
 El departamento de recursos humanos tiene el mismo modelo de informe en distintas empresas, incluso cuando se diferencian en sector o tamaño. En este ejemplo se examinan las nuevas contrataciones, los empleados activos y los empleados que cesaron su actividad laboral con el fin de detectar posibles tendencias en la estrategia de contratación. Nuestros principales objetivos son comprender:
@@ -141,5 +141,5 @@ El [cuadro de pregunta y respuestas](power-bi-tutorial-q-and-a.md) es donde se e
 
 Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Si los guarda, siempre puede ir a **Obtener datos** para obtener una copia nueva de este ejemplo.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: conectarse a sus propios datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles, la sección de preguntas y respuestas y los informes de Power BI pueden proporcionar ideas claras sobre los datos de recursos humanos. Ahora es su turno: conéctese a sus propios datos Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).  

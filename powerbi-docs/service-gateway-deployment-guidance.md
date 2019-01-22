@@ -5,17 +5,17 @@ author: mgblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-gateways
+ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5e07575658ed25e3f4933a7840ef4bc970264b23
-ms.sourcegitcommit: 80d6b45eb84243e801b60b9038b9bff77c30d5c8
+ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34296029"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54279858"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 
@@ -40,7 +40,7 @@ Si los usuarios acceden a un informe determinado al mismo tiempo cada día, dese
 Hay una restricción en **Power BI** que solo permite *una* puerta de enlace por *informe*, por lo que incluso si un informe se basa en varios orígenes de datos, todos estos orígenes de datos deben pasar por una sola puerta de enlace. Sin embargo, si un panel se basa en *varios* informes, puede utilizar una puerta de enlace dedicada para cada informe contribuyente y, por tanto, distribuir la carga de la puerta de enlace entre esos varios informes que contribuyen a ese panel único.
 
 ### <a name="connection-type"></a>Tipo de conexión
-**Power BI** ofrece dos tipos de conexiones, **DirectQuery** e **Importación**. No todos los orígenes de datos admiten ambos tipos de conexión y varias razones pueden contribuir a elegir una frente a otra, como los requisitos de seguridad, rendimiento, límites de datos y tamaños de modelo de datos. Para más información sobre el tipo de conexión y orígenes de datos admitidos consulte la sección *lista de tipos de orígenes de datos disponibles* del artículo [Puerta de enlace de datos local](service-gateway-onprem.md).
+**Power BI** ofrece dos tipos de conexiones: **DirectQuery** e **Importación**. No todos los orígenes de datos admiten ambos tipos de conexión y varias razones pueden contribuir a elegir una frente a otra, como los requisitos de seguridad, rendimiento, límites de datos y tamaños de modelo de datos. Para más información sobre el tipo de conexión y orígenes de datos admitidos consulte la sección *lista de tipos de orígenes de datos disponibles* del artículo [Puerta de enlace de datos local](service-gateway-onprem.md).
 
 Dependiendo del tipo de conexión en uso, la utilización de la puerta de enlace puede ser diferente. Por ejemplo, es conveniente separar los orígenes de datos **DirectQuery** de los orígenes de datos de **Actualización programada** siempre que sea posible (suponiendo que están en diferentes informes y se pueden separar). Al hacerlo así evita que la puerta de enlace tenga miles de solicitudes de DirectQuery en cola, al mismo tiempo que la actualización programada de la mañana de un modelo de datos de gran tamaño que se usa para el panel principal de la compañía. Esto es lo que debe tener en cuenta para cada uno de ellos:
 

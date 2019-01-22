@@ -6,15 +6,15 @@ ms.author: maghan
 ms.date: 05/04/2018
 ms.topic: quickstart
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: 802107ce9c12075ffc51461375ca3e9a313f2be1
-ms.sourcegitcommit: 9c3a9ec14c111d766ef5703366c316e72f6e588f
+ms.openlocfilehash: a0224188a0205cf134f2b2ee123bf5a3ac7ef0d0
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/13/2018
-ms.locfileid: "45558433"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54288506"
 ---
 # <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inicio rápido: Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
 
@@ -101,7 +101,7 @@ Cuando tenga la dirección URL, puede crear un iFrame en una página de SharePoi
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Inicio rápido: Creación de un informe de Power BI para el servidor de informes de Power BI](quickstart-create-powerbi-report.md)  
-[Inicio rápido: Creación de un informe paginado para el servidor de informes de Power BI](quickstart-create-paginated-report.md)  
+[Inicio rápido: Creación de un informe de Power BI para Power BI Report Server](quickstart-create-powerbi-report.md)  
+[Inicio rápido: Creación de un informe paginado para Power BI Report Server](quickstart-create-paginated-report.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/) 

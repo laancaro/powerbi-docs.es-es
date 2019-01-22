@@ -1,20 +1,20 @@
 ---
 title: 'Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI'
 description: Formule preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
-author: maggiesMSFT
+author: mshenhav
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-mobile
+ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
-ms.author: maggies
-ms.openlocfilehash: abd0e6b36af02753d8ff08c8f7405cc6502977d1
-ms.sourcegitcommit: 0ff358f1ff87e88daf837443ecd1398ca949d2b6
+ms.author: mshenhav
+ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2018
-ms.locfileid: "46548129"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54278709"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -100,7 +100,7 @@ Pues bien, ya está listo para ver los ejemplos en el dispositivo iOS.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Pulse la flecha de la esquina superior izquierda para volver a la ventana de chat del analista virtual de Preguntas y respuestas.
 8. Pulse la X situada a la derecha del cuadro de texto para eliminar el texto y volver a empezar.
-9. Intente una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly** (venta por $ prom/unidad año pasado) > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Pruebe con una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly** (venta por $ prom/unidad año pasado) > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. Elija **by** (por) en las palabras clave, pulse **time** (tiempo) en la lista de sugerencias en la parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).

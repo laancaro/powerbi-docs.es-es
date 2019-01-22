@@ -5,16 +5,16 @@ author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.component: powerbi-report-server
+ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
 ms.author: maghan
-ms.openlocfilehash: 08c8075fe275ff1472d3e9845f954ef4d029b373
-ms.sourcegitcommit: 49570ab8f5b5cd5bab4cd388f4281b1372bcb80b
+ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
+ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/09/2018
-ms.locfileid: "35250439"
+ms.lasthandoff: 01/15/2019
+ms.locfileid: "54291680"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desarrollo con las API de REST para Power BI Report Server
 
@@ -30,7 +30,7 @@ Un par de solicitud y respuesta de la API de REST puede dividirse en cinco compo
 
 * El **identificador URI de la solicitud**, que consta de: `{URI-scheme} :// {URI-host} / {resource-path} ? {query-string}`. Aunque el identificador URI de la solicitud se incluye en el encabezado del mensaje de solicitud, lo llamamos aquí por separado porque la mayoría de los lenguajes o marcos de trabajo exigen pasarla por separado del mensaje de solicitud.
   
-  * Esquema de URI: indica el protocolo utilizado para transmitir la solicitud. Por ejemplo, `http` o `https`.
+  * Esquema URI: indica el protocolo utilizado para transmitir la solicitud. Por ejemplo, `http` o `https`.
   * Host del URI: especifica el nombre de dominio o la dirección IP del servidor donde se hospeda el punto de conexión del servicio REST, como `myserver.contoso.com`.
   * Ruta de acceso del recurso: especifica el recurso o colección de recursos, que puede incluir varios segmentos utilizados por el servicio para determinar la selección de esos recursos. Por ejemplo: `CatalogItems(01234567-89ab-cdef-0123-456789abcdef)/Properties` se puede utilizar para obtener las propiedades especificadas para CatalogItem.
   * Cadena de consulta (opcional): proporciona parámetros simples adicionales, como los criterios de selección de recursos o la versión de la API.
