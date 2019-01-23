@@ -1,7 +1,7 @@
 ---
 title: Integración de Power BI con Microsoft Flow
 description: Descubra cómo crear flujos que se desencadenen mediante alertas de datos de Power BI.
-author: mihart
+author: mgblythe
 manager: kfile
 ms.reviewer: ''
 featuredvideoid: YhmNstC39Mw
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/01/2018
-ms.author: mihart
+ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: 2d73710b9fc41a8cb6a3d8287dc939323d71f7dd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f39912f5813f67ed65afde10a0e157385e98b7b7
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289817"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406624"
 ---
 # <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow y Power BI
 
@@ -110,7 +110,7 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
 ## <a name="next-steps"></a>Pasos siguientes
 * [Empezar a utilizar Microsoft Flow](https://flow.microsoft.com/en-us/documentation/getting-started/)
 * [Establecer alertas de datos en el servicio Power BI](service-set-data-alerts.md)
-* [Establecer alertas de datos en la aplicación de iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
+* [Establecer alertas de datos en su iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

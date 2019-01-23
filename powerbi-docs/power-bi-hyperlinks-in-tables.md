@@ -1,22 +1,22 @@
 ---
 title: Incorporación de hipervínculos a una tabla
 description: Use Power BI Desktop para crear hipervínculos. Luego, use el servicio Desktop o Power BI para agregar esos hipervínculos a las tablas y matrices de informes.
-author: mihart
-manager: kvivek
+author: maggiesMSFT
+manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/16/2019
+ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 637253e3cffebcba7df0a3bc3ce44e943b909364
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 972abb3781cbaaff8a9617b70988c21f7389d4f9
+ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279904"
+ms.lasthandoff: 01/19/2019
+ms.locfileid: "54406670"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Incorporación de hipervínculos a una tabla
 En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Luego, use el servicio Desktop o Power BI para agregar esos hipervínculos a las tablas y matrices de informes. 
@@ -25,7 +25,6 @@ En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. L
 
 > [!NOTE]
 > Los hipervínculos de los [iconos de los paneles](service-dashboard-edit-tile.md) y de los [cuadros de texto de los paneles](service-dashboard-add-widget.md) se pueden crear sobre la marcha mediante el servicio Power BI. Los hipervínculos de los [cuadros de texto de los informes](service-add-hyperlink-to-text-box.md) se pueden crear sobre la marcha con el servicio Power BI y Power BI Desktop.
-> 
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Crear un hipervínculo de una tabla o matriz con Power BI Desktop
@@ -56,7 +55,7 @@ El procedimiento para agregar un hipervínculo depende de si ha importado los da
 6. (Opcional) [Publique el informe desde Desktop en el servicio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) y abra el informe en el servicio Power BI. Los hipervínculos también funcionará en el servicio.
 
 ### <a name="for-data-connected-with-directquery"></a>Para los datos conectados con DirectQuery
-No podrá crear una nueva columna en el modo DirectQuery.  Pero si los datos ya contienen las direcciones URL, puede convertirlos en hipervínculos.
+No podrá crear una nueva columna en el modo DirectQuery.  Pero si los datos ya contienen direcciones URL, puede convertirlas en hipervínculos.
 
 1. En la vista de informe, cree una tabla con un campo que contenga las direcciones URL.
 2. Seleccione la columna y, en la pestaña **Modelado**, elija la lista desplegable de **Categoría de datos**.

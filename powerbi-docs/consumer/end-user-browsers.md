@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/15/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: f1e2e5a863f1fa4c663cc4614b9a674ccd96f312
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3e4b0357a0c311e8731b68ce5d56971af9bfeba9
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279076"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394714"
 ---
 # <a name="supported-browsers-for-power-bi"></a>Exploradores compatibles con Power BI
 Power BI se ejecuta en los siguientes exploradores:
@@ -25,7 +25,7 @@ Power BI se ejecuta en los siguientes exploradores:
 * Internet Explorer 11
 * Última versión de Chrome para escritorio
 * Última versión de Safari Mac
-* Última versión de Firefox para escritorio
+* Última versión de Firefox para escritorio: Firefox puede cambiar las fuentes usadas en informes de Power BI.
 
 Estos exploradores son compatibles en todas las plataformas en las que están disponibles.
 

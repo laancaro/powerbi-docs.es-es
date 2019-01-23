@@ -1,74 +1,71 @@
 ---
 title: Migrar la instalación de un servidor de informes
-description: Aprenda a migrar una instancia de SQL Server Reporting Services existente a una instancia del servidor de informes de Power BI.
+description: Aprenda a migrar una instancia de SQL Server Reporting Services existente a una instancia de Power BI Report Server.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/05/2017
-ms.author: maghan
-ms.openlocfilehash: 5093541f37e48469ab1b1f3f9d835788d6fcff3a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 01/17/2019
+ms.openlocfilehash: 6c2ea78d4be7cd830c9f9e79da6575366b8de9a3
+ms.sourcegitcommit: 19b4d45db8f55cdbb5d7de0d61f6be5163a2852e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278386"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54420772"
 ---
 # <a name="migrate-a-report-server-installation"></a>Migrar la instalación de un servidor de informes
-Aprenda a migrar una instancia de SQL Server Reporting Services (SSRS) existente a una instancia del servidor de informes de Power BI.
+
+Aprenda a migrar una instancia de SQL Server Reporting Services (SSRS) existente a una instancia de Power BI Report Server.
 
 La migración se define como mover los archivos de datos de una aplicación a una nueva instancia del servidor de informes de Power BI. Éstos son los motivos más comunes para migrar una instalación:
 
-* Desea pasar de SQL Server Reporting Services al servidor de informes de Power BI
+* Quiere pasar de SQL Server Reporting Services a Power BI Report Server
   
   > [!NOTE]
   > No hay una actualización activa de SQL Server Reporting Services al servidor de informes de Power BI. Una migración es necesaria.
-  > 
-  > 
+
 * Tiene requisitos de actualización o implementación a gran escala
 * Va a cambiar el hardware o la topología de la instalación
 * Se produce un problema que bloquea la actualización
 
 ## <a name="migrating-to-power-bi-report-server-from-ssrs-native-mode"></a>Migrar al servidor de informes de Power BI desde SSRS (modo nativo)
+
 La migración desde una instancia de SSRS (modo nativo) al servidor de informes de Power BI es un proceso que consta de varios pasos.
 
-![](media/migrate-report-server/migrate-from-ssrs-native.png "Migrar a Power BI Report Server desde el modo nativo de SSRS")
+![Migrar desde el modo nativo de SSRS a Power BI Report Server](media/migrate-report-server/migrate-from-ssrs-native.png "Migrate from SSRS native mode to Power BI Report Server")
 
 > [!NOTE]
 > SQL Server 2008 Reporting Services, y las versiones posteriores, son compatibles con la migración.
-> 
-> 
 
 * Realizar una copia de seguridad de los archivos de base de datos, aplicación y configuración
 * Realizar una copia de seguridad de la clave de cifrado
 * Clonar la base de datos del servidor de informes que hospeda los informes
-* Instalar un servidor de informes de Power BI. Si usa el mismo hardware, puede instalar el servidor de informes de Power BI en el mismo servidor que la instancia de SSRS. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
+* Instalar un servidor de informes de Power BI. Si usa el mismo hardware, puede instalar Power BI Report Server en el mismo servidor que la instancia de SSRS. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
 
 > [!NOTE]
 > El nombre de instancia del servidor de informes de Power BI será *PBIRS*.
-> 
-> 
 
 * Configurar el servidor de informes mediante el Administrador de configuración del servidor de informes y conectarse a la base de datos clonada.
 * Realizar la limpieza que necesite la instancia de SSRS (modo nativo)
 
 ## <a name="migration-to-power-bi-report-server-from-ssrs-sharepoint-integrated-mode"></a>Migración al servidor de informes de Power BI desde SSRS (modo integrado de SharePoint)
+
 La migración desde SSRS (modo integrado de SharePoint) al servidor de informes de Power BI no es tan sencilla como en modo nativo. Aunque estos pasos ofrecen cierta guía, en SharePoint puede haber otros archivos y recursos que tengan que administrarse sin seguir estos pasos.
 
-![](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrar a Power BI Report Server desde el modo integrado de SharePoint de SSRS")
+![Migrar desde el modo integrado de SSRS SharePoint a Power BI Report Server](media/migrate-report-server/migrate-from-ssrs-sharepoint.png "Migrate from SSRS SharePoint-integrated mode to Power BI Report Server")
 
-Será preciso que migre el contenido específico del servidor de informes de SharePoint a un servidor de informes de Power BI. Se asume que ya ha instalado el servidor de informes de Power BI en su entorno. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
+Es preciso migrar el contenido específico del servidor de informes de SharePoint a Power BI Report Server. Necesita tener instalado Power BI Report Server en su entorno. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
 
-Para copiar el contenido del servidor de informes desde su entorno de SharePoint al servidor de informes de Power BI, tendrá que usar herramientas como **rs.exe**. A continuación se muestra un ejemplo de cuál sería el script para copiar el contenido del servidor de informes de SharePoint al servidor de informes de Power BI.
+Para copiar el contenido del servidor de informes desde el entorno de SharePoint a Power BI Report Server, tendrá que usar herramientas como **rs.exe**. A continuación se muestra un ejemplo de cuál sería el script para copiar el contenido del servidor de informes de SharePoint al servidor de informes de Power BI.
 
 > [!NOTE]
 > El script de ejemplo funcionaría con SharePoint 2010, y las versiones posteriores, y con SQL Server 2008 Reporting Services, y las versiones posteriores.
-> 
-> 
 
 ### <a name="sample-script"></a>Script de ejemplo
+
 ```
 Sample Script
 rs.exe
@@ -80,28 +77,27 @@ rs.exe
 -v tu="Domain\User" -v tp="Password"
 ```
 
-## <a name="migrateing-from-one-power-bi-report-server-to-another"></a>Migrar desde un servidor de informes de Power BI a otro
-La migración desde un servidor de informes de Power BI es el mismo proceso que la migración desde SSRS (modo nativo).
+## <a name="migrating-from-one-power-bi-report-server-to-another"></a>Migrar desde una instancia de Power BI Report Server a otra
 
-![](media/migrate-report-server/migrate-from-pbirs.png "Migrar a Power BI Report Server desde Power BI Report Server")
+Para migrar desde una instancia de Power BI Report Server se sigue el mismo proceso que para migrar desde SSRS (modo nativo).
+
+![Migrar desde Power BI Report Server a Power BI Report Server](media/migrate-report-server/migrate-from-pbirs.png "Migrate from Power BI Report Server to Power BI Report Server")
 
 * Realizar una copia de seguridad de los archivos de base de datos, aplicación y configuración
 * Realizar una copia de seguridad de la clave de cifrado
 * Clonar la base de datos del servidor de informes que hospeda los informes
-* Instalar un servidor de informes de Power BI. El servidor de informes de Power BI *no se puede* instalar en el mismo servidor que desde el que se va a realizar la migración. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
+* Instalar un servidor de informes de Power BI. Power BI Report Server *no se puede* instalar en el mismo servidor desde el que va a realizar la migración. Para información más detallada acerca de cómo instalar un servidor de informes de Power BI, consulte [Instalar un servidor de informes de Power BI](install-report-server.md).
 
 > [!NOTE]
 > El nombre de instancia del servidor de informes de Power BI será *PBIRS*.
-> 
-> 
 
 * Configurar el servidor de informes mediante el Administrador de configuración del servidor de informes y conectarse a la base de datos clonada.
 * Realizar la limpieza necesaria en la instalación del servidor de informes de Power BI anterior.
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Script with the rs.exe Utility and the Web Service](https://docs.microsoft.com/sql/reporting-services/tools/script-with-the-rs-exe-utility-and-the-web-service) (Crear un script con la utilidad rs.exe y el servicio web)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

@@ -1,6 +1,6 @@
 ---
-title: Suscripción a informes y paneles en el servicio Power BI
-description: Aprenda a suscribirse y a suscribir a otros usuarios a una instantánea de un informe y panel de Power BI.
+title: Suscripción a informes y paneles para consumidores de Power BI
+description: Aprenda a suscribirse a una instantánea de un informe y panel de Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,15 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
-ms.author: mihart
+ms.date: 01/17/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 226d36690d2e3e98588802aa1e4fd9d5f7128ef0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b07d3c1d8dec979c70eed86c01307f69af3e8396
+ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293019"
+ms.lasthandoff: 01/18/2019
+ms.locfileid: "54394631"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: desde una vez al día hasta una vez por semana. 
