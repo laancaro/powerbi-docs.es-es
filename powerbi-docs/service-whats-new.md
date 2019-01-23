@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 32a052ca009c613b262d5277a0fd85b186c8e148
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406762"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488923"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
@@ -197,7 +197,7 @@ Para obtener todos los detalles, [visite el blog del equipo de Power BI](https:/
 ***Seguridad de nivel de fila (RLS)***
 
 * Compatibilidad con grupos de Azure Active Directory (AAD): los usuarios ahora pueden asignar grupos de AAD (grupos de seguridad y listas de distribución) a un rol. Esto facilita asignar roles a un grupo grande de usuarios a la vez.
-* [Pruebe los roles de RLS con informes respaldados por los datos con RLS en vigor](service-admin-rls.md#validating-the-role-within-power-bi-desktop): hemos agregado una característica a la versión preliminar de RLS que le permite probar el conjunto de datos como un rol específico. Esto asegurará que el rol funciona como esperaba antes de que los usuarios usen el panel.
+* [Pruebe los roles de RLS con informes respaldados por los datos con RLS en vigor](service-admin-rls.md#validate-the-roles-within-power-bi-desktop): hemos agregado una característica a la versión preliminar de RLS que le permite probar el conjunto de datos como un rol específico. Esto asegurará que el rol funciona como esperaba antes de que los usuarios usen el panel.
 * Defina y aplique RLS a modelos en la nube basados en consultas directas: ahora puede crear y aplicar reglas RLS para orígenes de datos de consulta directa.
 
 ***Paneles***
