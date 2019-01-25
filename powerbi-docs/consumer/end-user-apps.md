@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 01/21/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e741076bf345f093e249b398995a72a683ae84d6
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 0b423310e88917c910d44f15247bbaec49732f2c
+ms.sourcegitcommit: 54907bb59a5c31b25d368d83a0c4faa5e2f0db66
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394794"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54838333"
 ---
 # <a name="apps-in-power-bi"></a>Aplicaciones de Power BI
 ## <a name="what-is-a-power-bi-app"></a>¿Qué es una aplicación de Power BI?
@@ -26,12 +26,14 @@ Las aplicaciones se organizan en la lista de contenido **Aplicaciones**.
 
 ![Aplicaciones de Power BI](./media/end-user-apps/power-bi-apps-nav.png)
 
+> [!NOTE]
+> Para usar la característica de aplicaciones, hace falta una licencia de Power BI Pro. <!-- add link to how to figure out your license -->
+
 ## <a name="app-designers-and-app-consumers"></a>***Diseñadores*** de aplicaciones y ***consumidores*** de aplicaciones
 En función de su rol, es posible que sea alguien que crea aplicaciones (diseñador) para su propio uso o para compartir con otros compañeros. O puede que sea alguien que recibe y descarga aplicaciones (consumidor) creadas por otros. Este artículo es para *consumidores de aplicaciones*.
 
 ## <a name="advantages-of-apps"></a>Ventajas de aplicaciones
 Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en el dispositivo móvil. Después de instalar una aplicación, no tendrá que recordar los nombres de muchos paneles diferentes ya que se encontrarán todos juntos en una aplicación, en el explorador o en su dispositivo móvil.
-
 
 En el caso de las aplicaciones, siempre que el autor de la aplicación publique actualizaciones, verá los cambios automáticamente. El autor controla la frecuencia de actualización de los datos, por lo que no tiene que preocuparse de mantenerlos actualizados. 
 
