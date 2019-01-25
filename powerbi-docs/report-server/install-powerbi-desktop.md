@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/19/2018
+ms.date: 01/14/2019
 ms.author: maggies
-ms.openlocfilehash: 943e81c8c49a4a0707ed41b593093fc27a85a01e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f7da83629b932d2e14fbc57682e0f7f7988739a
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295890"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488831"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 Aprenda a instalar Power BI Desktop optimizado para el servidor de informes de Power BI.
@@ -31,7 +31,7 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
 
     ![Descarga de Power BI Desktop desde el portal web](media/install-powerbi-desktop/report-server-download-web-portal.png)
 
-    O bien, puede ir directamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (optimizado para Power BI Report Server, agosto de 2018) en el Centro de descarga de Microsoft.
+    O bien, vaya directamente a [Microsoft Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=57271) (optimizado para Power BI Report Server, enero de 2019) en el Centro de descarga de Microsoft.
 
 2. En la página del Centro de descarga, seleccione **Descargar**.
 
@@ -41,7 +41,7 @@ La mejor manera de asegurarse de que tiene la versión más actualizada de Power
 
     - **PBIDesktopRS_x64.msi** (versión de 64 bits).
 
-1. Después de descargar el instalador, ejecute el Asistente para la instalación de Power BI Desktop (agosto de 2018).
+1. Después de descargar el instalador, ejecute el asistente para la instalación de Power BI Desktop (enero de 2019).
 
 2. Al final del proceso de instalación, seleccione **Iniciar Power BI Desktop ahora**.
    

@@ -9,18 +9,41 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
 ms.author: jtarquino
-ms.openlocfilehash: edf953f2512550660fd914d2fe54c28dcd01fa24
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18a2d6833f0013f95ac0a5dea5f1930e5b666dd6
+ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292070"
+ms.lasthandoff: 01/23/2019
+ms.locfileid: "54488877"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
 Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
 
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
+
+## <a name="january-2019"></a>Enero de 2019
+- **Servidor de informes de Power BI**            
+    - *Versión 1.4.6960.38798 (compilación 15.0.1102.222), fecha de publicación: 22 de enero de 2019*
+        - Características
+            - Informes de Power BI 
+                - Compatibilidad con Seguridad de nivel de fila
+                - Expandir y contraer encabezados de fila de matriz
+                - Copiar y pegar entre archivos .pbix
+                - Guías de alineación inteligente
+                - Compatibilidad con el conector SAP BW 2.0
+            - Administradores
+                - Capacidad para definir qué extensiones de recursos se pueden cargar en el servidor de informes
+                - Capacidad para restringir los esquemas de hipervínculos admitidos
+        - Correcciones de errores
+            - Vulnerabilidad por inyección de HTML
+            - Símbolo del Euro no visible al exportar a PDF
+            - Guardar una contraseña con varios orígenes de datos en informes de Power BI invalida las contraseñas no modificadas.
+            - Los objetos visuales muestran problemas en la aplicación de Power BI Mobile tras un tiempo de inactividad.
+
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+    - *Versión: 2.65.5313.1421 (enero de 2019), fecha de publicación: 22 de enero de 2019*
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2019).  
 
 ## <a name="august-2018"></a>Agosto de 2018
 - **Servidor de informes de Power BI**
