@@ -22,7 +22,7 @@ ms.locfileid: "54292347"
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
 La lista de palabras clave de esta página no es exhaustiva.  La mejor forma de ver si Power BI reconoce una palabra clave es probar a escribirla en el cuadro de pregunta.  Si la palabra o término aparece atenuado, Power BI no lo reconoce.
 
-La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los tiempos verbales en la mayoría de los casos. Por ejemplo, "es" incluye **son**, **era**, **fueron**, **será**, **tiene**, **tenía**, **tendrá**, **hacer**, **hace**, **hizo**.********  Y "ordenar" incluye **ordenado** y **ordenando**.  Además, Power BI reconoce e incluye versiones de una palabra en singular y plural. 
+La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los tiempos verbales en la mayoría de los casos. Por ejemplo, "is" incluye **are**, **was**, **were**, **will be**, **have**, **has**, **had**, **will have**, **has got**, **do**, **does**, **did**.  Y "ordenar" incluye **ordenado** y **ordenando**.  Además, Power BI reconoce e incluye versiones de una palabra en singular y plural. 
 
 > [!NOTE]
 > Preguntas y respuestas está disponible igualmente en la aplicación [Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](mobile/mobile-apps-ios-qna.md).
