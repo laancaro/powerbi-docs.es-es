@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: 4bc704eb5aeb2bf6da18a43a6d4502b5541ce249
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: eea6fe12fdd8821c803863b63ede93179bf67f07
+ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287908"
+ms.lasthandoff: 01/24/2019
+ms.locfileid: "54899259"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -96,7 +96,9 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 
 ## <a name="tenant-level-administration"></a>Administración de nivel de inquilino
 
-Actualmente no hay un único lugar en el que los administradores de inquilinos puedan administrar todas las puertas de enlace que otros usuarios tengan instaladas y configuradas.  Si es un administrador de inquilinos, le recomendamos que solicite a los usuarios de la organización que le agreguen como administrador a cada puerta de enlace que instalen. Así, podrá administrar todas las puertas de enlace de la organización mediante la página Configuración de puerta de enlace o los [comandos de PowerShell](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters). 
+Como administrador de inquilinos, puede ver todas las puertas de enlace de datos locales instaladas en el inquilino y administrarlas. En la actualidad, esta función está en versión preliminar pública. Para más información, vea la [documentación del Centro de administración de Power Platform](/power-platform/admin/onpremises-data-gateway-management).
+
+Como solución alternativa, si es un administrador de inquilinos, le recomendamos que solicite a los usuarios de la organización que le agreguen como administrador a cada puerta de enlace que instalen. Así, podrá administrar todas las puertas de enlace de la organización mediante la página Configuración de puerta de enlace o los [comandos de PowerShell](service-gateway-high-availability-clusters.md#powershell-support-for-gateway-clusters). 
 
 ## <a name="enabling-outbound-azure-connections"></a>Habilitar las conexiones salientes de Azure
 
