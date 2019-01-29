@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/18/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 487a67f48913ee774904377956eee85ccbae49fc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296694"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147459"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
@@ -56,7 +56,7 @@ Para más información, consulte la sección **Compartir tu trabajo** de la tabl
 Ahora pasemos a los bloques de creación de Power BI. No se pueden tener paneles ni informes sin datos (bueno, se pueden tener paneles e informes vacíos, pero no serán útiles hasta que tengan datos), por eso comenzaremos con **conjuntos de datos**.
 
 ## <a name="datasets"></a>Conjuntos de datos
-Un *conjunto de datos* es una colección de datos que se *importa* o a la que se *conecta*. Power BI permite importar y conectar con todos los tipos de conjuntos de datos y ponerlos todos en un solo lugar.  
+Un *conjunto de datos* es una colección de datos que *importa* o a lo que se *conecta*. Power BI permite importar y conectar con todos los tipos de conjuntos de datos y ponerlos todos en un solo lugar.  
 
 Los conjuntos de datos están asociados a *áreas de trabajo* y un único conjunto de datos puede formar parte de muchas áreas de trabajo. Cuando se abre un área de trabajo, los conjuntos de datos asociados aparecen en la pestaña **Conjuntos de datos**. Cada conjunto de datos de la lista representa un origen de datos, por ejemplo, un libro de Excel en OneDrive, un conjunto de datos tabulares locales de SSAS o una base de datos de Salesforce. Hay muchos orígenes de datos compatibles diferentes y estamos agregando nuevos todo el tiempo. [Consulte la lista de tipos de conjuntos de datos que se pueden usar con Power BI.](service-get-data.md)
 
@@ -223,7 +223,6 @@ Esta área de la pantalla contiene opciones adicionales para interactuar con el 
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [¿Qué es Power BI?](power-bi-overview.md)  
-- [Navegación: Moverse por el servicio Power BI](service-the-new-power-bi-experience.md)
 - [Vídeos de Power BI](videos.md)  
 - [Un paseo por el editor de informes](service-the-report-editor-take-a-tour.md)
 
