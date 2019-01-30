@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7256de8dd36c25af9959e7103186666d65123360
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 04f67f82552f7915f8ca4fc6e639de3e616c2f8a
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295268"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147597"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -205,6 +205,9 @@ Ahora que comprende el funcionamiento de Kerberos con una puerta de enlace, pued
 Esta guía trata de ser lo más completa posible. Si ya ha completado algunos de estos pasos, puede omitirlos: por ejemplo, ya ha creado un usuario del servicio para el servidor BW y le ha asignado un nombre de entidad de seguridad de servicio (SPN), o bien ya ha instalado la biblioteca gsskrb5.
 
 ### <a name="setup-gsskrb5-on-client-machines-and-the-bw-server"></a>Configuración de gsskrb5 en equipos clientes y en el servidor BW
+
+> [!NOTE]
+> SAP ya no ofrece soporte técnico activo para gsskrb5. Para obtener más información, consulte la [nota 352295 de SAP](https://launchpad.support.sap.com/#/notes/352295). Tenga en cuenta también que gsskrb5 no permite conexiones SSO entre la puerta de enlace de datos y los servidores de mensajería BW. Solo es posible establecer la conexión con los servidores de aplicaciones BW.
 
 gsskrb5 debe estar en uso en el cliente y el servidor para completar una conexión de inicio de sesión único a través de la puerta de enlace. La biblioteca común de criptografía (sapcrypto) no se admite actualmente.
 

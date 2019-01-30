@@ -10,23 +10,23 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: acfc4062677a28824458781b900b271bedd51eb8
-ms.sourcegitcommit: 2c49a7cee9c77f46830ddfa59fdedbf30186d389
+ms.openlocfilehash: ed519f920fc872c8f13d5a10d59ce0f2f531f2fc
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2019
-ms.locfileid: "54488923"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147574"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
 
+- Notas de la versión [Resumen de novedades de Business Intelligence](https://docs.microsoft.com/business-applications-release-notes/October18/intelligence-platform/planned-features) de octubre de 2018 del grupo de aplicaciones empresariales de Microsoft: actualizaciones más recientes de nuestras aplicaciones empresariales.
 - [Novedades de Power BI Desktop](desktop-latest-update.md)  
 - [Novedades en las aplicaciones móviles para Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md)  
 - [Blog del equipo de Power BI](https://powerbi.microsoft.com/blog/)
-- [Notas de la versión de Business Applications de la primavera de 18](http://aka.ms/businessappsreleasenotes) para Dynamics 365: Las actualizaciones más recientes para nuestras aplicaciones empresariales, así como nuevas funcionalidades para que compile sus propias aplicaciones y extensiones sobre nuestra plataforma. 
 
-También puede consultar los canales de YouTube para obtener información acerca de las novedades y características.
+Asimismo, para obtener información sobre las novedades y características, consulte los canales de YouTube.
 
 * [Microsoft Power BI (YouTube)](https://www.youtube.com/channel/UCy--PYvwBwAeuYaR8JLmrfg)
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)

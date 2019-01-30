@@ -1,6 +1,6 @@
 ---
-title: Introducción al servicio Power BI (Power BI en línea)
-description: Introducción a Power BI en línea (app.powerbi.com)
+title: Introducción al servicio Power BI
+description: Introducción al servicio Power BI en línea (app.powerbi.com)
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 2a033e6893cffb71c4a898f1260aca615ae4e4b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
+ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292002"
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "55147505"
 ---
-# <a name="tutorial-get-started-with-power-bi-service-apppowerbicom"></a>Tutorial: Introducción al servicio Power BI (app.powerbi.com)
-Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo encaja el servicio Power BI con las otras ofertas de Power BI, se recomienda que lea primero [¿Qué es Power BI?](power-bi-overview.md).
+# <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Introducción al servicio Power BI (app.powerbi.com)
+Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo el servicio Power BI se complementa con otras ofertas de Power BI, le recomendamos que lea [¿Qué es Power BI?](power-bi-overview.md) en primer lugar.
 
-![Imagen que muestra la relación entre Desktop, el servicio y la aplicación para móvil](media/service-get-started/power-bi-components.png)
+![Ilustración que muestra la relación entre Power BI Desktop, el servicio y la aplicación móvil](media/service-get-started/power-bi-components.png)
 
 En este tutorial, realizaremos los siguientes pasos:
 
@@ -35,25 +35,25 @@ En este tutorial, realizaremos los siguientes pasos:
 > * Agregar otra visualización al panel mediante la herramienta de lenguaje natural Preguntas y respuestas
 > * Limpiar los recursos eliminando el conjunto de datos, el informe y el panel
 
-## <a name="sign-up-for-power-bi-service"></a>Suscribirse al servicio Power BI
+## <a name="sign-up-for-the-power-bi-service"></a>Suscribirse al servicio Power BI
 Si no se ha registrado en Power BI, [hágalo para obtener una versión de prueba gratuita de Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web).
 
 Si ya tiene una cuenta, abra un explorador y escriba app.powerbi.com para abrir el servicio Power BI. 
 
 ![Iniciar sesión o Regístrese gratis](media/service-get-started/power-bi-sign-up.png)
 
-Si desea obtener ayuda con Power BI Desktop, consulte [Introducción a Power BI Desktop](desktop-getting-started.md). Si desea obtener ayuda con Power BI en el móvil, consulte [Aplicaciones de Power BI para dispositivos móviles](consumer/mobile/mobile-apps-for-mobile-devices.md).
+Si quiere obtener ayuda para Power BI Desktop, consulte [Introducción a Power BI Desktop](desktop-getting-started.md). Si desea obtener ayuda con Power BI en el móvil, consulte [Aplicaciones de Power BI para dispositivos móviles](consumer/mobile/mobile-apps-for-mobile-devices.md).
 
 > [!TIP]
 > ¿Prefiere un curso autodidáctico? [Inscríbase en el curso sobre análisis y visualización de datos en EdX](http://aka.ms/edxpbi).
 
-Visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Un buen vídeo para comenzar es la introducción al servicio Power BI:
+Visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Aquí tiene un vídeo que le resultará útil para empezar con el servicio Power BI:
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 > 
 
-## <a name="what-is-power-bi-service"></a>¿Qué es el servicio Power BI?
-El servicio Microsoft Power BI se denomina en ocasiones Power BI en línea o app.powerbi.com. Power BI le permite a mantenerse al día con la información más importante para usted.  Los ***paneles*** del servicio Power BI le ayudan a captar el pulso de su negocio.  Los paneles muestran ***iconos*** en los que puede abrir ***informes*** para seguir explorando.  Conéctese a varios ***conjuntos de datos*** para reunir todos los datos relevantes en un solo lugar. ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](consumer/end-user-basic-concepts.md).
+## <a name="what-is-the-power-bi-service"></a>¿Qué es el servicio Power BI?
+Para hacer referencia al servicio Microsoft Power BI en ocasiones se usa el término Power BI en línea o, simplemente, la URL (app.powerbi.com). Power BI es un servicio que le permite a mantenerse al día con la información más importante para usted.  Además, los ***paneles*** del servicio Power BI le ayudan a tomar el pulso de su empresa.  Los paneles muestran ***iconos*** en los que puede abrir ***informes*** para seguir explorando.  Conéctese a varios ***conjuntos de datos*** para reunir todos los datos relevantes en un solo lugar. ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](consumer/end-user-basic-concepts.md).
 
 Si tiene datos importantes en archivos de Excel o CSV, puede crear un panel de Power BI para mantenerse informado en cualquier lugar y compartir recomendaciones con otros usuarios.  ¿Tiene una suscripción a una aplicación de SaaS como Salesforce?  Arranque con ventaja conectándose a Salesforce para crear automáticamente un panel a partir de los datos, o bien [compruebe todas las demás aplicaciones de SaaS](service-get-data.md) a las que pueda conectarse. Si forma parte de una organización, consulte si se ha publicado alguna [aplicación](service-create-distribute-apps.md) para usted.
 
@@ -72,7 +72,7 @@ Este es un ejemplo de obtención de datos de un archivo CSV. ¿Desea seguir este
 4. Busque el archivo en el equipo y elija **Abrir**. Si lo ha guardado en OneDrive para la Empresa, seleccione esa opción. Si lo ha guardado localmente, seleccione **Archivo local**. 
    
    ![Pantalla Obtener datos > Archivos](media/service-get-started/gs2.png)
-5. Para este tutorial vamos a seleccionar **Importar** para agregar el archivo de Excel como un conjunto de datos que, después, se puede usar para crear informes y paneles. Si selecciona **Cargar**, se carga todo el libro de Excel en Power BI, donde lo puede abrir y editar en Excel en línea.
+5. En este tutorial vamos a seleccionar **Importar** para agregar el archivo Excel como conjunto de datos. Después, podremos usarlo para crear informes y paneles. Si selecciona **Cargar**, se carga todo el libro de Excel en Power BI, donde lo puede abrir y editar en Excel en línea.
    
    ![Selección de Importar](media/service-get-started/power-bi-import.png)
 6. Una vez preparado el conjunto de datos, seleccione **Ver conjunto de datos** para abrirlo en el editor de informes. 
@@ -87,7 +87,7 @@ Este es un ejemplo de obtención de datos de un archivo CSV. ¿Desea seguir este
 
     ![Opción Vista de lectura](media/service-get-started/power-bi-editing-view.png)
 
-    Mientras está en la vista de edición puede crear y modificar los informes ya que usted es el *propietario* del informe; es un *creador*. Cuando comparte el informe con compañeros de trabajo, estos solo podrán interactuar con el informe en la vista de lectura; ellos son los *consumidores*. Obtenga más información sobre la [vista de lectura y de edición](consumer/end-user-reading-view.md).
+    En la vista de edición puede crear y modificar informes, puesto que usted es el *propietario* del informe, es decir, *quien lo ha creado*. Cuando comparte el informe con compañeros de trabajo, estos solo podrán interactuar con el informe en la vista de lectura; ellos son los *consumidores*. Obtenga más información sobre la [vista de lectura y de edición](consumer/end-user-reading-view.md).
     
     Una excelente manera de familiarizarse con el editor de informes es [dar un paseo](service-the-report-editor-take-a-tour.md)
    > 
@@ -104,11 +104,11 @@ Ahora que se ha conectado a los datos, empiece a explorar.  Cuando encuentre alg
    
    ![Editor de informes con icono seleccionado](media/service-get-started/gettingstart5new.png)
 
-3. Esto parece interesante, así que lo vamos a *anclar* a un panel. Mantenga el mouse encima de la visualización y seleccione el icono **Anclar**.  Al anclar la visualización, esta se almacenará en el panel y se mantendrá actualizada para que pueda comprobar sus valores más recientes de un vistazo.
+3. Este gráfico parece interesante, así que lo vamos a *anclar* a un panel. Mantenga el mouse encima de la visualización y seleccione el icono **Anclar**.  Al anclar la visualización, esta se almacenará en el panel y se mantendrá actualizada para que pueda comprobar sus valores más recientes de un vistazo.
    
    ![icono de anclaje](media/service-get-started/pinnew.png)
 
-4. Como se trata de un nuevo informe, se le pedirá que lo guarde antes de poder anclar una visualización a un panel. Asigne un nombre a un informe (p. ej., *Ventas de un período*) y seleccione **Guardar y continuar**. 
+4. Como se trata de un informe nuevo, se le pedirá que lo guarde antes de poder anclar una visualización a un panel. Asigne un nombre al informe (por ejemplo, *Ventas de un período*) y seleccione **Guardar y continuar**. 
    
    ![Cuadro de diálogo Guardar informe](media/service-get-started/pbi_getstartsaveb4pinnew.png)
    
@@ -118,7 +118,7 @@ Ahora que se ha conectado a los datos, empiece a explorar.  Cuando encuentre alg
    
 1. Seleccione **Anclar**.
    
-    Un mensaje de confirmación (cerca de la esquina superior derecha) le permitirá saber que se ha agregado la visualización al panel como un icono.
+    Cerca de la esquina superior derecha aparecerá un mensaje de confirmación que le indicará que la visualización se ha agregado al panel como un icono.
    
     ![Cuadro de diálogo Anclado al panel](media/service-get-started/power-bi-pin-success.png)
 
