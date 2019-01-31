@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: b7301d46279d9b975a07b07506c023e19437631b
-ms.sourcegitcommit: a20825ebd0ef4c2cb77232e3dd0e9f8260cacf71
+ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "54324052"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431255"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -37,15 +37,15 @@ En el caso de los informes que utilicen el nuevo "encabezado de objeto visual mo
 
 ### <a name="enhance-presentation-mode-windows"></a>Mejora del modo de presentación (Windows)
 
-Modo de presentación mejorada para los dispositivos Surface Hub y Windows 10.  Disfrute de una mejor experiencia de sala de Surface Hub, con mejores herramientas de presentación y colaboración, y una vista optimizada en gran pantalla y sin cromo para que pueda centrarse en sus datos. El modo de presentación también proporciona herramientas como la entrada manuscrita para ayudarle a presentar de forma eficaz y mantener debates acerca de los datos. Obtenga más información sobre el modo de presentación [aquí](https://powerbi.microsoft.com/en-us/blog/presentation-mode-in-power-bi-windows-app/).
+Modo de presentación mejorada para los dispositivos Surface Hub y Windows 10.  Disfrute de una mejor experiencia de sala de Surface Hub, con mejores herramientas de presentación y colaboración, y una vista optimizada en gran pantalla y sin cromo para que pueda centrarse en sus datos. El modo de presentación también proporciona herramientas como la entrada manuscrita para ayudarle a presentar de forma eficaz y mantener debates acerca de los datos. Obtenga más información sobre el modo de presentación [aquí](https://powerbi.microsoft.com/blog/presentation-mode-in-power-bi-windows-app/).
 
 ### <a name="portrait-report-layout-in-tablets-ios-and-android"></a>Diseño del informe vertical en tabletas (iOS y Android)
 
-Ahora, y siempre que esté disponible, utilizamos un diseño de informe de teléfono para mostrar los informes en la tableta en modo vertical. Obtenga más información sobre [cómo crear el diseño de teléfono en el servicio Power BI o Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-create-phone-report/).
+Ahora, y siempre que esté disponible, utilizamos un diseño de informe de teléfono para mostrar los informes en la tableta en modo vertical. Obtenga más información sobre [cómo crear el diseño de teléfono en el servicio Power BI o Desktop](https://docs.microsoft.com/power-bi/desktop-create-phone-report/).
 
 ### <a name="supporting-report-query-string"></a>Compatibilidad con la cadena de consulta de informe 
 
-El vínculo de informe de apertura que incluye la cadena de consulta ahora se abrirá en la aplicación móvil y se filtrará previamente en función de las condiciones definidas en la cadena de consulta. Obtenga más información sobre [cómo crear la dirección URL del informe con la cadena de consulta](https://docs.microsoft.com/en-us/power-bi/service-url-filters/).  
+El vínculo de informe de apertura que incluye la cadena de consulta ahora se abrirá en la aplicación móvil y se filtrará previamente en función de las condiciones definidas en la cadena de consulta. Obtenga más información sobre [cómo crear la dirección URL del informe con la cadena de consulta](https://docs.microsoft.com/power-bi/service-url-filters/).  
 
 ### <a name="shared-credentials-now-in-android"></a>Credenciales compartidas (ahora en Android)
 
@@ -65,7 +65,7 @@ El menú de acción visual de informe (...) ahora tiene la opción de mostrar lo
 
 Los informes paginados ahora están disponibles en el servicio Power BI. Los usuarios con acceso a los informes paginados en el servicio Power BI también pueden acceder a estos informes desde su aplicación móvil. 
 
-Lea la entrada de blog [ de Power BI sobre los informes paginados en aplicaciones móviles](https://powerbi.microsoft.com/en-us/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
+Lea la entrada de blog [ de Power BI sobre los informes paginados en aplicaciones móviles](https://powerbi.microsoft.com/blog/power-bi-paginated-reports-also-available-in-power-bi-mobile-apps-preview/).
 
 ### <a name="shared-credentials-ios"></a>Credenciales compartidas (iOS)
 

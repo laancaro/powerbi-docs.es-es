@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/26/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 8717e4938ef558eb4bb8c0614990b651d2b59c28
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 142096ca30422549227ddc1dc2d07e129e22e9af
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277719"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430887"
 ---
 # <a name="azure-and-power-bi"></a>Azure y Power BI
 
@@ -55,7 +55,7 @@ Puede realizar la expansión que considere necesaria con Azure y Power BI. Aprov
 
 ## <a name="context-insights-with-power-bi-embedded-analytics"></a>Información de contexto con análisis de Power BI Embedded
 
-Inserte visualizaciones de datos, sorprendentes e interactivas, en aplicaciones, sitios web, portales y mucho más, para sacar partido de sus datos empresariales. Con [Power BI Embedded como un recurso de Azure](https://azure.microsoft.com/services/power-bi-embedded/), puede insertar fácilmente informes y paneles interactivos para que sus usuarios disfruten de experiencias coherentes y sumamente confiables en todos los dispositivos.  El uso de Power BI con el análisis integrado sirve para ayudarle en su recorrido desde Datos -> Conocimiento -> Información -> Acciones.  Además, inserte análisis visuales en las [aplicaciones y los portales internos de su organización](https://powerbi.microsoft.com/en-us/developers/embedded-analytics/organization/) para ampliar el valor de Power BI y Azure.
+Inserte visualizaciones de datos, sorprendentes e interactivas, en aplicaciones, sitios web, portales y mucho más, para sacar partido de sus datos empresariales. Con [Power BI Embedded como un recurso de Azure](https://azure.microsoft.com/services/power-bi-embedded/), puede insertar fácilmente informes y paneles interactivos para que sus usuarios disfruten de experiencias coherentes y sumamente confiables en todos los dispositivos.  El uso de Power BI con el análisis integrado sirve para ayudarle en su recorrido desde Datos -> Conocimiento -> Información -> Acciones.  Además, inserte análisis visuales en las [aplicaciones y los portales internos de su organización](https://powerbi.microsoft.com/developers/embedded-analytics/organization/) para ampliar el valor de Power BI y Azure.
 
 Hay mucha información sobre las API de Power BI en el [Portal para desarrolladores de Power BI](http://dev.powerbi.com).
 

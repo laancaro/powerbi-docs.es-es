@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 02b98d807ccc84aa83826ae5e9eecdbdd1987a91
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008589"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430818"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conexión a Salesforce con Power BI
 Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Al crear esta conexión, se recuperan los datos y se proporciona automáticamente un panel de información y los informes relacionados en función de sus datos. 
@@ -61,10 +61,8 @@ Puede cambiar este panel para mostrar los datos de la forma que desee. Puede rea
 **¿Qué más?**
 
 * Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
-* [Cambie los iconos](service-dashboard-edit-tile.md) en el panel <<<<<<< HEAD
-* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente =======
+* [Cambie los iconos](service-dashboard-edit-tile.md) en el panel
 * [Seleccione un icono](service-dashboard-tiles.md) para abrir el informe subyacente
->>>>>>> 66fe62d8f200efd9cfeb465eeb5f370dbbaa63be
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="system-requirements-and-considerations"></a>Consideraciones y requisitos del sistema

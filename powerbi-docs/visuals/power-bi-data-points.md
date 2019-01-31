@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 52f679ee143e1009068c7de1ed9ce13e82e957dc
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295383"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430451"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Límites de punto de datos y estrategias por tipo de objeto visual
 
@@ -40,7 +40,7 @@ Para cada estrategia, hay valores predeterminados según la forma y el tipo de d
 ## <a name="statistics"></a>Estadísticas
 Determinados modelos pueden proporcionar estadísticas sobre el número de valores en determinadas columnas. Cuando existe dicha información, se aprovecha para proporcionar un mejor equilibrio entre varias jerarquías si un objeto visual no reemplaza de forma explícita el recuento de valores para una estrategia.
 
-Para más información, consulte [Novedades de Analysis Services](https://docs.microsoft.com/en-us/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017).
+Para más información, consulte [Novedades de Analysis Services](https://docs.microsoft.com/sql/analysis-services/what-s-new-in-analysis-services?view=sql-server-2017).
 
 ## <a name="dynamic-limits"></a>Límites dinámicos
 Además de las estrategias anteriores, los objetos visuales con dos jerarquías de agrupamiento de columnas (eje y leyenda, o categoría y serie) usan una estrategia adicional denominada *límites dinámicos*.  Los límites dinámicos están diseñados para equilibrar mejor los puntos de datos. 
@@ -128,7 +128,7 @@ Sin estrategia de reducción
 - Valores: Virtualización mediante ventanas de 200 filas a la vez
 
 ### <a name="scatter-chart-high-density"></a>Gráficos de dispersión (alta densidad)
-Consulte [Gráficos de dispersión de alta densidad](https://docs.microsoft.com/en-us/power-bi/visuals/desktop-high-density-scatter-charts).
+Consulte [Gráficos de dispersión de alta densidad](https://docs.microsoft.com/power-bi/visuals/desktop-high-density-scatter-charts).
 
 ### <a name="pie"></a>Gráfico circular
 - Número máximo de puntos: 3500

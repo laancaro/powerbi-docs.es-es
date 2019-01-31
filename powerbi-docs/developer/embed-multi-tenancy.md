@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi - developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: d09312ecf462e557ef33851d9d2b1f91ec936dae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7bb805877cf2e7453148d667f863cbbc8b01ee52
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289219"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430726"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Administración de varios inquilinos con análisis integrado de Power BI
 
@@ -29,7 +29,7 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 ## <a name="concepts-and-terminology"></a>Conceptos y terminología
 
-**[AAD](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
+**[AAD](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis)**: Azure Active Directory.
 
 **Aplicación de AAD**: una identidad de aplicación en AAD. Se necesita una aplicación de AAD para la autenticación.
 
@@ -105,7 +105,7 @@ Power BI Embedded admite la implementación de varios puntos geográficos (carac
 
 ### <a name="cost"></a>Costo
 
-[Power BI Embedded](https://azure.microsoft.com/en-us/services/power-bi-embedded/) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../service-admin-licensing-organization.md) para cada usuario *maestro*, o usuarios específicos que necesitan acceder al portal de Power BI.
+[Power BI Embedded](https://azure.microsoft.com/services/power-bi-embedded/) tiene un modelo de compra basado en recursos, como **Power BI Premium**. Puede comprar una o más capacidades con capacidad de proceso y memoria fijas. Esta capacidad es el elemento de mayor costo cuando se trabaja con **Power BI Embedded**. No hay ningún límite en el número de usuarios con la capacidad. El único límite es el rendimiento de la capacidad. Se requiere una [licencia de Power BI Pro](../service-admin-licensing-organization.md) para cada usuario *maestro*, o usuarios específicos que necesitan acceder al portal de Power BI.
 
 Se recomienda la prueba y la medición de la carga esperada de su capacidad mediante la simulación del uso y el entorno de producción y la ejecución de pruebas de carga sobre la capacidad. Puede medir la carga y el rendimiento con las diversas métricas disponibles en la capacidad de Azure o la [aplicación de las métricas de capacidad Premium](../service-admin-premium-monitor-capacity.md).
 
@@ -132,17 +132,17 @@ Hay dos enfoques principales para administrar los datos de inquilino.
 
 Si el almacenamiento de una aplicación SaaS consiste en mantener una base de datos independiente por inquilino, la opción natural es usar conjuntos de datos de un solo inquilino en Power BI con la cadena de conexión para cada conjunto de datos apuntando a la base de datos coincidente.
 
-Si el almacenamiento de la aplicación SaaS usa una base de datos de varios inquilinos para todos los inquilinos, es fácil separar los inquilinos por área de trabajo. Puede configurar la conexión de la base de datos para el conjunto de datos de Power BI con una consulta de la base de datos parametrizada que solo recupera los datos del inquilino correspondiente. Puede actualizar la conexión con [Power BI Desktop](../desktop-query-overview.md) o mediante la [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parámetros](https://docs.microsoft.com/en-us/rest/api/power-bi/datasets/updateparametersingroup) en la consulta.
+Si el almacenamiento de la aplicación SaaS usa una base de datos de varios inquilinos para todos los inquilinos, es fácil separar los inquilinos por área de trabajo. Puede configurar la conexión de la base de datos para el conjunto de datos de Power BI con una consulta de la base de datos parametrizada que solo recupera los datos del inquilino correspondiente. Puede actualizar la conexión con [Power BI Desktop](../desktop-query-overview.md) o mediante la [API](https://docs.microsoft.com/rest/api/power-bi/datasets/updatedatasourcesingroup) con [parámetros](https://docs.microsoft.com/rest/api/power-bi/datasets/updateparametersingroup) en la consulta.
 
 ### <a name="data-isolation"></a>Aislamiento de datos
 
-Los datos en este modelo de formato de inquilino se separan en el nivel de área de trabajo. Una sencilla asignación entre un área de trabajo y un inquilino impide que los usuarios de un inquilino vean el contenido de otro inquilino. El uso de un usuario *maestro* requiere que tenga acceso a todas las áreas de trabajo diferentes. La configuración de los datos que se muestran a un usuario final se define durante la [generación del token de inserción](https://docs.microsoft.com/en-us/rest/api/power-bi/embedtoken), un proceso de solo back-end que los usuarios finales no pueden ver ni cambiar.
+Los datos en este modelo de formato de inquilino se separan en el nivel de área de trabajo. Una sencilla asignación entre un área de trabajo y un inquilino impide que los usuarios de un inquilino vean el contenido de otro inquilino. El uso de un usuario *maestro* requiere que tenga acceso a todas las áreas de trabajo diferentes. La configuración de los datos que se muestran a un usuario final se define durante la [generación del token de inserción](https://docs.microsoft.com/rest/api/power-bi/embedtoken), un proceso de solo back-end que los usuarios finales no pueden ver ni cambiar.
 
 Para agregar aislamiento adicional, un desarrollador de aplicaciones puede definir un usuario *maestro* o una aplicación por área de trabajo en lugar de un solo usuario *maestro* o una aplicación con acceso a varias áreas de trabajo. De este modo, puede asegurarse de que cualquier error humano o pérdida de credenciales no provoque la exposición de los datos de múltiples clientes.
 
 ### <a name="scalability"></a>Escalabilidad
 
-Una ventaja de este modelo es que la separación de los datos en varios conjuntos de datos para cada inquilino supera los [límites de tamaño de un único conjunto de datos](https://docs.microsoft.com/en-us/power-bi/service-premium-large-datasets) (actualmente 10 GB en una capacidad). Cuando se sobrecarga la capacidad, [puede expulsar los conjuntos de datos sin usar](../service-premium-understand-how-it-works.md) para liberar memoria para los conjuntos de datos activos. Esta tarea no es posible con un único conjunto de datos de gran tamaño. Al usar varios conjuntos de datos, también es posible separar los inquilinos en varias capacidades de Power BI, si fuera necesario. [Obtenga más información acerca de cómo funciona la capacidad](../service-admin-premium-manage.md).
+Una ventaja de este modelo es que la separación de los datos en varios conjuntos de datos para cada inquilino supera los [límites de tamaño de un único conjunto de datos](https://docs.microsoft.com/power-bi/service-premium-large-datasets) (actualmente 10 GB en una capacidad). Cuando se sobrecarga la capacidad, [puede expulsar los conjuntos de datos sin usar](../service-premium-understand-how-it-works.md) para liberar memoria para los conjuntos de datos activos. Esta tarea no es posible con un único conjunto de datos de gran tamaño. Al usar varios conjuntos de datos, también es posible separar los inquilinos en varias capacidades de Power BI, si fuera necesario. [Obtenga más información acerca de cómo funciona la capacidad](../service-admin-premium-manage.md).
 
 A pesar de estas ventajas, se debe tener en cuenta la escala que la aplicación SaaS puede alcanzar en el futuro. Por ejemplo, podría alcanzar las limitaciones sobre el número de artefactos que puede administrar. Consulte la sección de [límites](#summary-comparison-of-the-different-approaches) de la implementación más adelante en este artículo para obtener más información. La SKU de capacidad utilizada presenta un límite en el tamaño de la memoria a la que deben adaptarse los conjuntos de datos, [la cantidad de actualizaciones que se pueden ejecutar al mismo tiempo](../service-premium-understand-how-it-works.md) y la frecuencia máxima de las actualizaciones de datos. Se recomienda hacer la prueba al administrar cientos o miles de conjuntos de datos. También se recomienda tener en cuenta el volumen promedio y máximo de uso, así como los inquilinos específicos con grandes conjuntos de datos o patrones de uso diferentes que se administran de forma diferente a otros inquilinos.
 

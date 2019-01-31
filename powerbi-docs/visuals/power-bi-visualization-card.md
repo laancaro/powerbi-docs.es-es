@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/26/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2bd35e5c2bc92ee660a9524754a3daef95e6e83d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275810"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430197"
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
@@ -49,7 +49,7 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Creación de una tarjeta a partir del cuadro de Preguntas y respuestas
-El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI desde un panel o informe, y en la vista de informe de Desktop. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/en-us/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
+El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI desde un panel o informe, y en la vista de informe de Desktop. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
 
 1. Cree un [panel](../service-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: f95b778daa9112324c20b0f358e21dd004092060
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294100"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430013"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
 
@@ -62,7 +62,7 @@ Para que los usuarios los encuentren fácilmente, agregue campos relacionados co
 
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
-Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales personalizados de Power BI con compras adicionales](https://docs.microsoft.com/en-us/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
+Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales personalizados de Power BI con compras adicionales](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

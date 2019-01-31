@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2018
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 76027ff6e75071fde178ae05a8656c1596d36598
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 627a94097d4235f39414c1165ac8cbbc806508a3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291703"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430073"
 ---
 # <a name="how-to-make-your-excel-data-work-well-with-qa-in-power-bi"></a>Cómo hacer que los datos de Excel funcionen correctamente con Preguntas y respuestas en Power BI
 Si es la persona que crea modelos de datos o compila libros de Excel que se usarán con Power BI, siga leyendo...
@@ -34,7 +34,7 @@ Preguntas y respuestas se basa en los nombres de tablas, columnas y campos calcu
 
 Estas son algunas sugerencias para sacar el máximo partido de Preguntas y respuestas en el libro.
 
-* Asegúrese de que los datos están en una tabla de Excel. Aquí se explica [cómo crear una tabla de Excel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664?ui=en-US&rs=en-US&ad=US).
+* Asegúrese de que los datos están en una tabla de Excel. Aquí se explica [cómo crear una tabla de Excel](https://support.office.com/article/Create-an-Excel-table-in-a-worksheet-e81aa349-b006-4f8a-9806-5af9df0ac664).
 * Asegúrese de que los nombres de las tablas, las columnas y los campos calculados son significativos en lenguaje natural.
   
   Por ejemplo, si tiene una tabla con datos de ventas, llame a la tabla "Ventas". Nombres de columna como "Año", "Producto", "Representante de ventas" y "Cantidad" funcionarán bien con Preguntas y respuestas.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
-ms.openlocfilehash: 2cba79a98400ba517bca8e61fca743bc0024a122
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288874"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430864"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Paso 2: Obtener un token de acceso de autenticación
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
@@ -82,7 +82,7 @@ Agregue este código a Program {...}.
            string resourceUri = "https://analysis.windows.net/powerbi/api";
 
            //OAuth2 authority Uri
-           string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+           string authorityUri = "https://login.microsoftonline.net/common/";
 
            //Get access token:
            // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken
@@ -148,7 +148,7 @@ A continuación se muestra la [lista de código completa](#code).
                 string resourceUri = "https://analysis.windows.net/powerbi/api";
 
                 //OAuth2 authority Uri
-                string authorityUri = "https://login.windows.net/common/oauth2/authorize";
+                string authorityUri = "https://login.microsoftonline.net/common/";
 
                 //Get access token:
                 // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

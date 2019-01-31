@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8eb428857e98a696ffb368c729525acd80e268f2
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 001fab5caae7663a70b0f4d4272a1f9abbb1765e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394771"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55429921"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -50,7 +50,7 @@ Solo un explorador web y una dirección de correo electrónico del trabajo. Pued
 Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. Más información sobre el [proceso de registro de autoservicio para Power BI](../service-self-service-signup-for-power-bi.md).
 
 ## <a name="is-government-academic-and-nonprofit-pricing-available-for-power-bi"></a>¿Existen precios de Power BI para organizaciones académicas, gubernamentales y sin ánimo de lucro?
-Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones sin ánimo de lucro disponen de precios especiales. Puede obtener más información y registrarse a través del sitio de [Microsoft para organizaciones sin ánimo de lucro](https://www.microsoft.com/en-us/nonprofits/power-bi). Los precios para las organizaciones académicas y gubernamentales se ofrecen a través de los programas de licencias MOSP/Direct, EA y Open. También se ofrecen precios para la administración pública a través de redifusión. 
+Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones sin ánimo de lucro disponen de precios especiales. Puede obtener más información y registrarse a través del sitio de [Microsoft para organizaciones sin ánimo de lucro](https://www.microsoft.com/nonprofits/power-bi). Los precios para las organizaciones académicas y gubernamentales se ofrecen a través de los programas de licencias MOSP/Direct, EA y Open. También se ofrecen precios para la administración pública a través de redifusión. 
 
 ## <a name="does-power-bi-support-mobile-devices"></a>¿Power BI admite dispositivos móviles?
 Sí. Power BI tiene aplicaciones nativas para teléfonos y tabletas Android, dispositivos iOS y dispositivos con Windows 10. Descargue una de las [aplicaciones móviles de Power BI](https://powerbi.microsoft.com/mobile) de su tienda respectiva:  

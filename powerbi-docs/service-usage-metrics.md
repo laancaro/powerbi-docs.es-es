@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 6d4148eef42f01035fde5601e3dd88b3572c8320
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292485"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430313"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
 
@@ -159,7 +159,7 @@ Al deshabilitar las métricas de uso para toda la organización, los administrad
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de uso en nubes nacionales
 
-Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, y todo ello se combina con un modelo único para las regulaciones locales relativas a la prestación de servicios y al acceso, control y residencia de datos. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/en-us/clouds/).
+Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, y todo ello se combina con un modelo único para las regulaciones locales relativas a la prestación de servicios y al acceso, control y residencia de datos. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

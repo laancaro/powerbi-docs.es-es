@@ -10,16 +10,16 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/18/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cac436c97515f6b6f7b6cfc110469615e7afc4c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1ebb9633451ab8e2f1b8cbf8ada743ce6c42692e
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289303"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431140"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuales personalizados en Power BI
 
-Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Estos objetos visuales se muestran en el panel **Visualizaciones**. Al descargar [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) o abrir el [servicio Power BI](https://app.powerbi.com), este conjunto de objetos visuales ya está incluido.
+Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Estos objetos visuales se muestran en el panel **Visualizaciones**. Al descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/) o abrir el [servicio Power BI](https://app.powerbi.com), este conjunto de objetos visuales ya está incluido.
 
 ![visualizaciones](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
@@ -48,16 +48,16 @@ Para obtener más información acerca de los objetos visuales de organización, 
 
 ## <a name="marketplace-visuals"></a>Objetos visuales de Marketplace
 
-Los miembros de la comunidad, así como Microsoft, han aportado sus objetos visuales personalizados para el beneficio del público y los han publicado en el Marketplace de [AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals). Estos objetos visuales pueden descargarse y agregarse a los informes de Power BI. Todos estos objetos visuales personalizados se han probado y aprobado por Microsoft en términos de funcionalidad y calidad.
+Los miembros de la comunidad, así como Microsoft, han aportado sus objetos visuales personalizados para el beneficio del público y los han publicado en el Marketplace de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Estos objetos visuales pueden descargarse y agregarse a los informes de Power BI. Todos estos objetos visuales personalizados se han probado y aprobado por Microsoft en términos de funcionalidad y calidad.
 
-¿Qué es [AppSource](developer/office-store.md)? En pocas palabras, es el lugar donde podrá encontrar aplicaciones, complementos y extensiones para su software de Microsoft. [AppSource](https://appsource.microsoft.com/en-us/) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365, Cortana y Power BI con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
+¿Qué es [AppSource](developer/office-store.md)? En pocas palabras, es el lugar donde podrá encontrar aplicaciones, complementos y extensiones para su software de Microsoft. [AppSource](https://appsource.microsoft.com/) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365, Cortana y Power BI con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
 
 ### <a name="certified-visuals"></a>Objetos visuales certificados
 
 Los objetos visuales certificados por Power BI son objetos visuales de Marketplace que han superado pruebas rigurosas adicionales para la calidad y se admiten en escenarios adicionales, como [suscripciones de correo electrónico](https://docs.microsoft.com/power-bi/service-report-subscribe) y [exportación a PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Para ver la lista de objetos visuales personalizados certificados o para enviar su propia lista, consulte [Certified custom visuals](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified) (Objetos visuales personalizados certificados).
 
-¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a AppSource? Vea [Desarrollo de objetos visuales personalizados de Power BI](developer/custom-visual-develop-tutorial.md) y vea cómo [publicar objetos visuales personalizados en AppSource](https://appsource.microsoft.com/en-us/marketplace/apps?product=power-bi-visuals).
+¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a AppSource? Vea [Desarrollo de objetos visuales personalizados de Power BI](developer/custom-visual-develop-tutorial.md) y vea cómo [publicar objetos visuales personalizados en AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importar un objeto visual personalizado de un archivo
 
@@ -135,7 +135,7 @@ Tiene dos opciones para descargar e importar objetos visuales personalizados; de
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Vaya a la [página de resultados de aplicaciones](https://appsource.microsoft.com/en-us/marketplace/apps), donde puede ver las aplicaciones principales de cada categoría, entre ellas *Power BI apps* (Aplicaciones de Power BI). Pero estamos buscando objetos visuales personalizados, así que vamos a restringir los resultados. Seleccione **Power BI visuals** (Objetos visuales de Power BI) en la lista de navegación izquierda.
+2. Vaya a la [página de resultados de aplicaciones](https://appsource.microsoft.com/marketplace/apps), donde puede ver las aplicaciones principales de cada categoría, entre ellas *Power BI apps* (Aplicaciones de Power BI). Pero estamos buscando objetos visuales personalizados, así que vamos a restringir los resultados. Seleccione **Power BI visuals** (Objetos visuales de Power BI) en la lista de navegación izquierda.
 
     ![Objetos visuales de AppSource](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e603ff1de1a7129280b888d08e9a77d919ebb186
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ad049837dff46058cf703d58720129e1e0742555
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280829"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430473"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Registro en Power BI con una nueva prueba de Office 365
 
@@ -33,7 +33,7 @@ En este artículo se describe una manera alternativa de registrarse en Power BI,
 
 ## <a name="important-considerations"></a>Consideraciones importantes
 
-Mediante este método de registro, se crea un nuevo inquilino de la organización, y se convertirá en el administrador del inquilino. Para obtener más información, vea [¿Qué es la administración de Power BI?](service-admin-administering-power-bi-in-your-organization.md). Puede agregar nuevos usuarios a su inquilino y compartirlo con ellos, como se describe en la [documentación para administradores de Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec?ui=en-US&rs=en-SG&ad=SG).
+Mediante este método de registro, se crea un nuevo inquilino de la organización, y se convertirá en el administrador del inquilino. Para obtener más información, vea [¿Qué es la administración de Power BI?](service-admin-administering-power-bi-in-your-organization.md). Puede agregar nuevos usuarios a su inquilino y compartirlo con ellos, como se describe en la [documentación para administradores de Office 365](https://support.office.com/en-sg/article/Add-users-individually-to-Office-365---Admin-Help-1970f7d6-03b5-442f-b385-5880b9c256ec).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

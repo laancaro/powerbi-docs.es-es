@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f6c7df80f580c40cb1c0653b237894bb5911bde0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 7280d7c601e59b15ffad6ececfed8b111ab796cb
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282549"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430979"
 ---
 # <a name="connect-to-azure-consumption-insights-in-power-bi-desktop-beta"></a>Conexión a Azure Consumption Insights en Power BI Desktop (Beta)
 Con el conector de **Azure Consumption Insights**, puede usar **Power BI Desktop** para conectarse a Azure y obtener datos e información detallada sobre el uso de los servicios de Azure por parte de su organización. También puede crear medidas, columnas personalizadas y objetos visuales en los informes, y compartir los datos sobre el uso de Azure por parte de su organización. Esta versión del conector de **Azure Consumption Insights** está en versión Beta y está sujeta a cambios.
@@ -70,7 +70,7 @@ Puede seleccionar la casilla situada junto a cualquier tabla para ver una vista 
 > 
 > 
 
-Cuando selecciona **Cargar** los datos se cargan en **Power BI Desktop**.  El conector cargará los datos según el período de tiempo predeterminado de la tabla.  Si necesita personalizar el período de tiempo [puede configurar una consulta personalizada](https://docs.microsoft.com/en-us/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
+Cuando selecciona **Cargar** los datos se cargan en **Power BI Desktop**.  El conector cargará los datos según el período de tiempo predeterminado de la tabla.  Si necesita personalizar el período de tiempo [puede configurar una consulta personalizada](https://docs.microsoft.com/power-bi/desktop-connect-azure-consumption-insights#using-azure-consumption-insights).
 
 ![](media/desktop-connect-azure-consumption-insights/azure-consumption-insights_05.png)
 

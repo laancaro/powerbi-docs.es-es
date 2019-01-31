@@ -8,12 +8,12 @@ ms.service: powerbi-service
 ms.topic: resource
 ms.date: 12/06/2018
 ms.author: mihart
-ms.openlocfilehash: f0e81c72fde0275467c3a914d19e916dab604cce
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: 1722c401dfd5d2fdfbba530f440cecf9f1e075f3
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280797"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431278"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -70,7 +70,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **lista de contenido** Índice de contenido de una aplicación.
 
-**paquete de contenido**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/en-us/power-bi/service-create-the-new-workspaces). 
+**paquete de contenido**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **vista de contenido**
 
