@@ -608,6 +608,8 @@ items:
         href: service-share-dashboards.md
       - name: Compartir un informe filtrado
         href: service-share-reports.md
+      - name: Suscripción personal y de otros usuarios
+        href: service-report-subscribe.md
       - name: Inserción de informes en SharePoint Online
         href: service-embed-report-spo.md
       - name: Inserción de informes en un sitio web o portal seguro
@@ -1248,6 +1250,8 @@ items:
       href: service-admin-role.md
     - name: Preguntas más frecuentes (P+F)
       href: service-admin-faq.md
+    - name: P+F sobre alta disponibilidad y conmutación por error
+      href: service-admin-failover.md
   - name: Procedimiento
     items:
     - name: Licencias y registro
@@ -1295,9 +1299,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 070efc5b3775b8d675e7f053094f108edabd3115
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 5b2dc80f12aba21c7d5a1f0da71f8eb31d242c5b
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234494"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55431117"
