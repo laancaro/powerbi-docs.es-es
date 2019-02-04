@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 08/21/2018
-ms.openlocfilehash: 2a0fc921ba576803f02ede8fd269370584c61efe
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 157808d7378b40cb097c2cb667eb9d237654e66d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284228"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234425"
 ---
 # <a name="configure-your-report-server-to-host-excel-workbooks-using-office-online-server-oos"></a>Configuración de un servidor de informes para hospedar libros de Excel mediante Office Online Server (OOS)
 
@@ -57,7 +57,7 @@ Si planea usar las características de Excel Online que utilizan el acceso a dat
 1. Descargue Office Online Server del [Centro de servicios de licencias por volumen (VLSC)](http://go.microsoft.com/fwlink/p/?LinkId=256561). La descarga se encuentra en los productos de Office en el portal de VLSC. Para fines de desarrollo, puede descargar OOS de las descargas de suscriptor de MSDN.
 2. Ejecute Setup.exe.
 3. En la página **Lea los Términos de licencia del software de Microsoft**, seleccione **Acepto los términos de este contrato** y seleccione **Continuar**.
-4. En la página **Elija una ubicación de archivos**, seleccione la carpeta donde quiera que se instalen los archivos de Office Online Server (por ejemplo, C:\Archivos de programa\Microsoft Office Web Apps*) y seleccione **Instalar ahora**. Si la carpeta que ha especificado no existe, el programa de instalación la crea automáticamente.
+4. En la página **Elegir una ubicación de archivos**, seleccione la carpeta donde quiera que se instalen los archivos de Office Online Server (por ejemplo, C:\Archivos de programa\Microsoft Office Web Apps\*) y haga clic en **Instalar ahora**. Si la carpeta que ha especificado no existe, el programa de instalación la crea automáticamente.
 
     Se recomienda instalar Office Online Server en la unidad del sistema.
 

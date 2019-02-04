@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/03/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: dc756e98a58d30edd476112ca249dae032d0d79a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296809"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234310"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -82,6 +82,11 @@ Para más información, vea [Gráficos de embudo en Power BI](power-bi-visualiza
 
 Para más información, vea [Gráficos de medidor en Power BI](power-bi-visualization-radial-gauge-charts.md).
 
+<!-- ### Key influencers chart
+![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+
+A key influencer chart displays the major contributors to a selected result or value. -->
+
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
 
@@ -107,7 +112,7 @@ Para obtener más información, consulte [Sugerencias y trucos para las visualiz
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
 
-Para más información, vea [Mapas de ArcGIS en Power BI](../power-bi-visualization-arcgis.md).
+Para más información, vea [Mapas de ArcGIS en Power BI](power-bi-visualization-arcgis.md).
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
@@ -133,6 +138,13 @@ Para más información, vea [Objetos visuales de matriz en Power BI](desktop-mat
 
 ### <a name="pie-charts"></a>Gráficos circulares
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+
+Los gráficos circulares muestran la relación de las partes con un todo. 
+
+### <a name="ribbon-chart"></a>Gráfico de la barra de herramientas
+![gráfico de la barra de herramientas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+
+Los gráficos de la barra de herramientas muestran qué categoría de datos tiene la clasificación más alta (el valor mayor). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo.
 
 ### <a name="scatter-and-bubble-charts"></a>Gráficos de dispersión y de burbujas
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 36a3026ebbdf1290d7f809f5c1ccaac7f5fbd7d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292416"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430565"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -57,6 +57,7 @@ Cuando esté sin conexión con Power BI en su dispositivo móvil, puede encontra
 * Los libros completos de Excel en Power BI no están disponibles sin conexión.
 * Puede ver informes móviles y KPI de Reporting Services sin conexión, si los ha visto mientras estaba conectado. No se actualizan en segundo plano. Se actualizan cada vez que los abre.
 * En las aplicaciones móviles de Power BI no se pueden ver los archivos de Power BI Desktop (.pbix) guardados en Power BI Report Server. 
+* Los informes paginados (RDL) no están disponibles mientras la red está sin conexión.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 

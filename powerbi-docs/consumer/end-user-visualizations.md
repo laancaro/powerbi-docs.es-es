@@ -1,5 +1,5 @@
 ---
-title: Trabajo con visualizaciones
+title: Trabajo con visualizaciones como consumidor
 description: 'Conceptos y terminología de Power BI: visualizaciones, objetos visuales. Qué es una visualización u objeto visual de Power BI.'
 author: mihart
 manager: kvivek
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 875f5cef31ea61fffff29404b03af5bbbfc9f0c6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287653"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234356"
 ---
 # <a name="visualizations-for-power-bi-consumers"></a>Visualizaciones para los **consumidores** de Power BI
 
@@ -53,4 +53,5 @@ Pero primero, detengámonos un momento en Preguntas y respuestas. Preguntas y re
 
 ## <a name="next-steps"></a>Pasos siguientes
 Volver a [Conceptos básicos de los consumidores](end-user-basic-concepts.md)    
-[Apertura de un informe en el servicio Power BI](end-user-report-open.md)
+[Selección de una visualización para abrir un informe](end-user-report-open.md)    
+[Tipos de visualizaciones disponibles en Power BI](end-user-visual-type.md)

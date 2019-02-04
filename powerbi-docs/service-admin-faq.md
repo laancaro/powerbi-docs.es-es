@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 494612b9c8ef448756dfe2d516bfca68e69d2e7a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296832"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430293"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -45,6 +45,7 @@ En este artículo se tratan las preguntas más frecuentes para la administració
 * [¿Hay aspectos adicionales para los que debería estar preparado?](#are-there-any-additional-things-i-should-be-prepared-for)
 * [¿Dónde se encuentra mi inquilino de Power BI?](#where-is-my-power-bi-tenant-located)
 * [¿Qué es el Acuerdo de Nivel de Servicio de Power BI?](#what-is-the-power-bi-sla)
+* [¿Cómo controla Power BI la alta disponibilidad y la conmutación por error?](#how-does-power-bi-handle-high-availability-and-failover)
 
 ### <a name="security-in-power-bi-section"></a>Sección Seguridad en Power BI
 
@@ -241,11 +242,15 @@ Para obtener información sobre en qué región de datos se encuentra su inquili
 
 Para obtener información sobre el Acuerdo de Nivel de Servicio de Power BI, vea el artículo [Licensing Terms and Documentation](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37) (Documentación y términos de licencia) en la sección **Licensing** (Licencias) del sitio web de licencias de Microsoft.
 
+### <a name="how-does-power-bi-handle-high-availability-and-failover"></a>¿Cómo controla Power BI la alta disponibilidad y la conmutación por error?
+
+Para obtener información sobre alta disponibilidad y conmutación por error, vea [Power BI high availability, failover, and disaster recovery FAQ](service-admin-failover.md) (Preguntas más frecuentes sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI).
+
 ## <a name="security-in-power-bi"></a>Seguridad en Power BI
 
 ### <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>¿Cumple Power BI los requisitos de cumplimiento nacionales, regionales y específicos del sector?
 
-Para obtener más información acerca de la compatibilidad de Power BI, consulte el [Centro de confianza de Microsoft](https://www.microsoft.com/en-us/TrustCenter/CloudServices/business-application-platform/default.aspx).
+Para obtener más información acerca de la compatibilidad de Power BI, consulte el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/default.aspx).
 
 ### <a name="how-does-security-work-in-power-bi"></a>¿Cómo funciona la seguridad en Power BI?
 

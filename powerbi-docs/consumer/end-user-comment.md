@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 01/18/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 085860fb9d8e9e01bf0694896a561f34a5627b53
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
+ms.openlocfilehash: 7d76d874712f328344b60fc8b146f69e1aca55db
+ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394648"
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "55234540"
 ---
 # <a name="add-comments-to-a-dashboard"></a>Adición de comentarios a un panel
 Agregue un comentario personal o empiece una conversación sobre un panel con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *consumidor* de colaborar con otros. 
@@ -73,7 +73,7 @@ Los comentarios se pueden agregar a todo un panel o a objetos visuales individua
 5. Seleccione **Cerrar** para volver al panel o al informe.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Llamar la atención de sus compañeros mediante el signo @
-Tanto si va a crear comentarios de panel como comentarios sobre un objeto visual determinado, puede captar la atención de sus compañeros con el símbolo "@".  Cuando escriba el símbolo "@", Power BI abrirá una lista desplegable donde puede buscar y seleccionar personas de la organización. Cualquier nombre comprobado precedido por el símbolo "@" se muestra en una fuente de color azul. 
+Tanto si va a crear comentarios de panel como comentarios sobre un objeto visual determinado, puede captar la atención de sus compañeros mediante el símbolo "\@".  Cuando se escribe el símbolo "\@", Power BI abre una lista desplegable donde puede buscar y seleccionar personas de la organización. Cualquier nombre comprobado precedido por el símbolo "\@" se muestra en una fuente de color azul. 
 
 Esta es una conversación que estoy manteniendo con el *diseñador* de la visualización. Usa el símbolo @ para asegurarse de que veo el comentario. Así sé que este comentario es para mí. Al abrir este panel de la aplicación en Power BI, selecciono **Comentarios** en el encabezado. El panel **Comentarios** se muestra en nuestra conversación.
 

@@ -1,6 +1,6 @@
 ---
-title: Suscripción a informes y paneles en el servicio Power BI
-description: Aprenda a suscribir a otros usuarios a una instantánea de un informe y un panel de Power BI.
+title: Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
+description: Obtenga información sobre cómo usted y otros usuarios se pueden suscribir a una instantánea de un informe o un panel de Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,95 +8,96 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/04/2018
+ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 73e89b0228a1adf78bf1676749f910c6d1866a81
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
+ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
+ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406647"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55430956"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI
-Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscriba tanto a su usuario como a sus compañeros de trabajo a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: desde una vez al día hasta una vez por semana. 
+# <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a un informe o un panel en el servicio Power BI
 
-El correo electrónico y la instantánea usarán el idioma establecido en la configuración de Power BI (consulte [Idiomas y países o regiones admitidos para Power BI](supported-languages-countries-regions.md)). Si no se ha definido ningún idioma, Power BI usa el idioma de acuerdo con la configuración regional del explorador actual. Para ver o establecer las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) > **Configuración > General > Idioma**. 
+Puede suscribir tanto a su usuario como a sus compañeros de trabajo a las páginas de informes y paneles que más le interesen y Power BI le envía por correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o diariamente después de la actualización de los datos iniciales.  Si elige la frecuencia diaria o semanal, puede elegir las horas a las que le gustaría que se ejecute la suscripción.  En resumen, puede establecer hasta 24 suscripciones distintas por día para cada página de informe y panel.
 
-![Menú desplegable de idiomas](media/service-report-subscribe/power-bi-language.png)
+![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
-Solo se pueden crear suscripciones en el servicio Power BI. Cuando reciba el correo electrónico, incluirá un vínculo para "ir al informe o panel". En los dispositivos móviles con aplicaciones de Power BI instaladas, al seleccionar este vínculo, se inicia la aplicación (en lugar de la acción predeterminada de abrir el informe o el panel en el sitio web de Power BI).
-
+Solo se pueden crear suscripciones en el servicio Power BI. Recibirá un correo electrónico con una instantánea de la página del informe o panel, con un vínculo para abrir el informe o panel. En los dispositivos móviles con aplicaciones de Power BI instaladas, al hacer clic en este vínculo, se inicia la aplicación de Power BI, en lugar de abrir el informe o el panel en el sitio web de Power BI.
 
 ## <a name="requirements"></a>Requisitos
-- **Crear** una suscripción es una característica de Power BI Pro, y debe tener permisos para editar el contenido (panel o informe) si quiere hacerlo. 
-- Puesto que solo se envían mensajes de correo electrónico de suscripción cuando un conjunto de datos subyacente se actualiza o se vuelve a cargar, las suscripciones no funcionan en conjuntos de datos que no se actualizan.
+- **Crear** una suscripción es una característica de Power BI Pro.
+- No necesita permisos de edición para el contenido (panel o informe) para crear una suscripción personal, pero debe tener permisos de edición para crear una para otro usuario. 
+- A partir de enero de 2019, ya no es necesario configurar la actualización del conjunto de datos para ejecutar una suscripción.  Se ejecuta de forma independiente a las actualizaciones programadas que haya configurado.  
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Suscribirse a un panel o una página de informe
-El proceso de suscripción a un panel es muy similar al de un informe. El mismo botón permite suscribirse y suscribir a otros usuarios a los paneles e informes del servicio Power BI.
+El proceso de suscripción a un panel o un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
  
 ![Selección del icono de suscripción](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
 1. Abra el panel o el informe.
-2. En la barra de menús superior, seleccione **Suscribirse** o el icono de sobre ![icono de suscripción](media/service-report-subscribe/power-bi-icon-envelope.png).
+2. En la barra de menús superior, haga clic en **Suscribirse** o en el icono de sobre ![icono de suscripción](media/service-report-subscribe/power-bi-icon-envelope.png).
    
    ![Icono de suscripción](media/service-report-subscribe/power-bi-subscribe-icon.png)
 
-3. Use el control deslizante amarillo para activar y desactivar la suscripción.  Aunque el control deslizante se establezca en desactivado, no se eliminará la suscripción. Para eliminarla, seleccione el icono de papelera.
+3. Use el control deslizante amarillo para activar y desactivar la suscripción.  Aunque el control deslizante se establezca en **desactivado**, la suscripción no se elimina. Para eliminarla, seleccione el icono de papelera.
 
-4. Rellene los detalles del mensaje de correo electrónico. El correo electrónico se rellena previamente, pero puede agregar otros usuarios a la suscripción. Solo se pueden agregar direcciones de correo electrónico de un mismo dominio (vea **Consideraciones y solución de problemas** a continuación para obtener más detalles). Si el informe o el panel está hospedado en la [capacidad Premium](service-premium.md), podrá suscribir a otros usuarios que usen direcciones de correo electrónico y alias de grupo. Si el informe o el panel no está hospedado en la capacidad de Premium, podrá suscribir a otros usuarios que usen sus direcciones de correo electrónico, pero también deberán tener licencias de Power BI Pro.
+4. El correo electrónico ya está en la bandeja **Suscribirse**. También puede agregar otras direcciones de correo electrónico a la suscripción, pero solo en el mismo dominio. Si el informe o el panel está hospedado en la [capacidad Premium](service-premium.md), puede suscribir otras direcciones de correo electrónico y alias de grupo. Si el informe o el panel no está hospedado en la capacidad Premium, puede suscribir a otros usuarios, pero también deberán tener licencias de Power BI Pro. Para obtener más detalles, vea [Consideraciones y solución de problemas](#considerations-and-troubleshooting). 
 
-    En las capturas de pantalla siguiente, tenga en cuenta que, cuando se suscribe a un informe, realmente se está suscribiendo a una de sus *páginas*.  Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y seleccione una página diferente. 
+5. Rellene el **asunto** del correo electrónico y los detalles del **mensaje**. 
+
+5. Seleccione una **Frecuencia** para la suscripción: **Diaria**,  **Semanal** o **Tras la actualización de los datos (una vez al día)**.  Para recibir el correo electrónico de suscripción solo en días concretos, seleccione **Semanal** y elija los días en los que quiera recibirlo.  Por ejemplo, si le gustaría recibir el correo electrónico de suscripción solo los días laborables, seleccione **Semanal** y desactive las casillas para **Sáb.** y **Dom**.  
+
+6. Si elige **Diaria** o **Semanal**, también puede elegir una **Hora programada** para la suscripción.  Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos.  Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria.
+
+7. De forma predeterminada, la fecha de inicio para la suscripción es la fecha en la que la ha creado. Tiene la opción de seleccionar una fecha de finalización. Si no establece una fecha de finalización, automáticamente será un año después de la fecha de inicio. Puede cambiarla a cualquier fecha en el futuro (hasta el año 9999) en cualquier momento antes de que finalice la suscripción. Cuando una suscripción alcanza una fecha de finalización, se detiene hasta que vuelva a habilitarla. Recibirá notificaciones antes de la fecha de finalización programada para preguntarle si quiere ampliarla.    
+
+    En la captura de pantalla siguiente, tenga en cuenta que, cuando se suscribe a un informe, realmente se está suscribiendo a una de sus *páginas*.  Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y seleccione una página diferente. 
       
-   ![Ventana de suscripción](media/service-report-subscribe/power-bi-emails-new.png)  
+   ![Panel de suscripción](media/service-report-subscribe/power-bi-subscribe-pane.png)  
 
-5. Seleccione **Guardar y cerrar** para guardar la suscripción. Los usuarios suscritos recibirán un correo electrónico y una instantánea del panel o de la página de informe siempre que se modifique uno de sus conjuntos de datos. Si el panel o el informe se actualiza más de una vez al día, el correo electrónico solo se enviará tras la primera actualización.  
-   
-   ![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
-   
+7. Haga clic en **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción.  Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.   
+      
    > [!TIP]
-   > ¿Quiere ver el correo electrónico de inmediato? Puede desencadenar un correo electrónico actualizando una de las bases de datos asociadas al panel o el conjunto de datos asociado al informe. (Si no tiene permisos de edición del conjunto de datos, tendrá que solicitar que lo haga alguien que los tenga). Para averiguar qué conjuntos de datos se emplean, seleccione el icono de **Ver relacionados** ![icono de Ver relacionados](media/service-report-subscribe/power-bi-view-related.png) para abrir **Contenido relacionado** y luego seleccione el icono de actualización ![icono de actualización](media/service-report-subscribe/power-bi-refresh.png). 
+   > ¿Quiere ver el correo electrónico de inmediato? Puede desencadenar un correo electrónico actualizando una de las bases de datos asociadas al panel o el conjunto de datos asociado al informe. Si no tiene permisos de edición en el conjunto de datos, tendrá que solicitarle a alguien que los tenga que lo actualice por usted. Para ver conjuntos de datos relacionados, haga clic en el icono **Ver relacionados** ![icono Ver relacionados](media/service-report-subscribe/power-bi-view-related.png) para abrir **Contenido relacionado** y luego haga clic en el icono de actualización ![icono de actualización](media/service-report-subscribe/power-bi-refresh.png). 
    > 
    > 
    
    ![Conjuntos de datos relacionados](media/service-report-subscribe/power-bi-view-related-screen.png)
 
-## <a name="how-the-email-schedule-is-determined"></a>Cómo se determina la programación de correos electrónicos
-En la tabla siguiente se describe la frecuencia con recibirá un correo electrónico. Todo depende del método de conexión del conjunto de datos en el que se basa el panel o el informe (DirectQuery, conexión dinámica, importación a Power BI o archivo de Excel en OneDrive o SharePoint Online) y de las opciones de suscripción disponibles y seleccionadas (diaria, semanal o ninguna).
+## <a name="email-languages"></a>Idiomas de correo electrónico
 
-|  | **DirectQuery** | **Live Connect** | **Actualización programada (importación)** | **Archivo de Excel en OneDrive o SharePoint Online** |
-| --- | --- | --- | --- | --- |
-| **¿Con qué frecuencia se actualiza el informe o panel?** |Cada 15 minutos |Power BI realiza una comprobación cada 15 minutos y, si el conjunto de datos ha cambiado, el informe se actualiza. |El usuario selecciona la frecuencia: ninguna, diaria o semanal. La frecuencia diaria puede ser de hasta 8 veces al día. La frecuencia semanal es en realidad una programación semanal que crea el usuario y que establece la actualización como mínimo una vez por semana y como máximo cada día. |Una vez cada hora |
-| **¿Cuánto control tiene el usuario sobre la programación de correos electrónicos de la suscripción?** |Opciones: diaria o semanal. |Sin opciones: los usuarios reciben un correo electrónico si se actualiza el informe, pero no más de una vez al día. |Si la programación de actualización es diaria, las opciones son diaria y semanal.  Si la programación de actualización es semanal, la única opción es semanal. |Sin opciones: el usuario recibe un correo electrónico cada vez que se actualiza el conjunto de datos, pero no más de una vez al día. |
+En el correo electrónico y la instantánea se usa el idioma establecido en la configuración de Power BI (vea [Idiomas y países o regiones admitidos para Power BI](supported-languages-countries-regions.md)). Si no se ha definido ningún idioma, Power BI usa el idioma de acuerdo con la configuración regional del explorador actual. Para ver o establecer las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) > **Configuración > General > Idioma**. 
+
+![Menú desplegable de idiomas](media/service-report-subscribe/power-bi-language.png)
 
 ## <a name="manage-your-subscriptions"></a>Administrar sus suscripciones
-Solo la persona que haya creado la suscripción podrá administrarla.  Hay 2 rutas de acceso a la pantalla en la que se administran sus suscripciones.  El primer paso es seleccionar **Administrar todas las suscripciones** en el cuadro de diálogo **Subscribirse a correos electrónicos** (vea el paso 4 anterior). La segunda es seleccionar el icono de engranaje de Power BI ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) en la barra de menús superior y elegir **Configuración**.
+Solo la persona que haya creado la suscripción podrá administrarla.  Hay dos rutas de acceso a la pantalla en la que se administran las suscripciones.  El primer paso es seleccionar **Administrar todas las suscripciones** en el cuadro de diálogo **Subscribirse a correos electrónicos** (vea el paso 4 anterior). La segunda es seleccionar el icono de engranaje de Power BI ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) en la barra de menús superior y elegir **Configuración**.
 
 ![Selección de Configuración](media/service-report-subscribe/power-bi-subscribe-settings.png)
 
-Las suscripciones concretas que se muestran dependen del área de trabajo que está activa en ese momento.  Para ver a la vez todas las suscripciones de todas las áreas de trabajo, asegúrese de que **Mi área de trabajo** está activa. Para entender las áreas de trabajo, consulte [Áreas de trabajo de Power BI](service-create-distribute-apps.md).
+Las suscripciones concretas que se muestran dependen del área de trabajo que está activa en ese momento.  Para ver a la vez todas las suscripciones de todas las áreas de trabajo, asegúrese de que **Mi área de trabajo** está activa. Para entender las áreas de trabajo, consulte [Áreas de trabajo de Power BI](service-create-workspaces.md).
 
 ![Vista de todas las suscripciones en Mi área de trabajo](media/service-report-subscribe/power-bi-subscriptions.png)
 
-Una suscripción finalizará si expira la licencia de Pro, el propietario elimina el panel o el informe o se elimina la cuenta de usuario utilizada para crear la suscripción.
+Una suscripción finaliza si expira la licencia de Pro, el propietario elimina el panel o el informe, o bien se elimina la cuenta de usuario que se ha usado para crear la suscripción.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-* En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, dicho icono no se mostrará.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
-* Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y cambia su nombre, tendrá que volver a crear la suscripción
-* Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Esto incluye, entre otras cosas, la autenticación multifactor o restricciones de intervalo de IP al obtener acceso a los recursos.
+* En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, ese icono no se muestra.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
+* Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
+* Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.
 * En estos momentos, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica.
-* Para las suscripciones de correo electrónico en conjuntos de datos de conexiones dinámicas, solo recibirá correos electrónicos cuando los datos cambien. Por lo tanto, si se produce una actualización pero los datos no cambian, Power BI no le enviará un correo electrónico.
 * Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](power-bi-custom-visuals.md).  La única excepción son esos objetos visuales personalizados que se han [certificado](power-bi-custom-visuals-certified.md).  
-* En estos momentos, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
-* Si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono de panel, este no se mostrará.
+* En la actualidad, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
+* Si se ha aplicado seguridad de nivel de fila (RLS) a algún icono de panel, esos iconos no se muestran.
 * No puede suscribir a otros usuarios a un informe que tenga aplicada la seguridad de nivel de fila (RLS).
-* Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se mostrarán los cambios en los valores predeterminados que realice tras suscribirse.    
-* Las suscripciones de correo electrónico todavía no se admiten en las páginas de informes creadas con la característica Live Connect del servicio Power BI Desktop.    
-* Para las suscripciones de unos paneles en concreto, no se admiten aún ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     
-* Si comparte un panel con un compañero de trabajo fuera de su inquilino, no podrá crear una suscripción para él. Por tanto, si usted es aaron@xyz.com, podrá compartir con anyone@ABC.com, pero no podrá suscribir a anyone@ABC.com, y ese usuario no podrá suscribirse al contenido compartido.      
+* Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse.    
+* Para las suscripciones de paneles en concreto, todavía no se admiten ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     
+* Si comparte un panel con un compañero de trabajo fuera de su inquilino, tampoco puede crear una suscripción para él. Por tanto, si es aaron@xyz.com, podrá compartir con anyone@ABC.com, pero todavía no podrá suscribir a anyone@ABC.com, y ese usuario no podrá suscribirse al contenido compartido.      
 * Las suscripciones pueden provocar errores en paneles o informes con imágenes muy grandes debido a las limitaciones de tamaño del correo electrónico.    
-* Power BI detiene automáticamente la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de 2 meses.  Sin embargo, si agrega una suscripción a un panel o informe, no se detendrá incluso si no recibe visitas.    
-* Si no recibe los mensajes de correo electrónico de suscripción, asegúrese de que el nombre principal de usuario (UPN) puede recibir mensajes de correo electrónico. [El equipo de Power BI está trabajando para reducir este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163). Esté atento a las novedades. 
+* Power BI detiene de forma automática la actualización en los conjuntos de datos asociados con los paneles e informes que no se han visitado en más de dos meses.  Pero si agrega una suscripción a un panel o informe, no se detiene incluso si no recibe visitas.    
+* Si no recibe los mensajes de correo electrónico de suscripción, asegúrese de que el nombre principal de usuario (UPN) puede recibirlos. [El equipo de Power BI está trabajando para reducir este requisito](https://community.powerbi.com/t5/Issues/No-Mail-from-Cloud-Service/idc-p/205918#M10163). Esté atento a las novedades. 
 * Si el panel o el informe están en la capacidad Premium, puede usar el alias de correo electrónico del grupo para las suscripciones en lugar de suscribir las direcciones de correo electrónico de sus compañeros de trabajo de una en una. Los alias se basan en el directorio actual de Active Directory. 
 
 ## <a name="next-steps"></a>Pasos siguientes
