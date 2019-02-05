@@ -7,15 +7,15 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 01/30/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 7a6e6979a6281ef6b00a84cff138818869b113e6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 49ac1f917a5f3095c1dbc13c644061859389fe74
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008037"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482692"
 ---
 # <a name="connect-to-comscore-digital-analytix-with-power-bi"></a>Conexión a comScore Digital Analytix con Power BI
 Vea y explore los datos de comScore Digital Analytix en Power BI con el paquete de contenido de Power BI. Los datos se actualizarán automáticamente una vez al día.
@@ -63,8 +63,6 @@ A continuación se muestran detalles sobre cómo buscar cada uno de los parámet
 **Centro de datos**
 
 El centro de datos al que se va a conectar depende de la dirección URL a la que navega en comScore.
-
-Si usa https://dax.comscore.com, escriba "US", si usa https://dax.comscore.eu, escriba "EU".
 
 ![](media/service-connect-to-connect-to/comscore_url.png) 
 
