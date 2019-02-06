@@ -2,21 +2,22 @@
 title: Obtener un token de acceso de autenticación
 description: Tutorial para insertar datos - Obtener un token de acceso de autenticación
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 1381706801a1a817927c891fcc205950cef24cbb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 2d4e59badf394153dcb6877a270d2ecea63f5df6
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430864"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761970"
 ---
 # <a name="step-2-get-an-authentication-access-token"></a>Paso 2: Obtener un token de acceso de autenticación
+
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 En el **paso 1** de Insertar datos en un conjunto de datos, [Registrar la aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md), registró una aplicación de cliente en Azure AD. En este paso, obtendrá un token de acceso de autenticación. Las aplicaciones de Power BI se integran con **Azure AD** para proporcionar un inicio de sesión seguro y una autorización para la aplicación. Un token se usa para autenticarse en **Azure AD** y obtener acceso a los recursos de Power BI.
@@ -24,15 +25,16 @@ En el **paso 1** de Insertar datos en un conjunto de datos, [Registrar la aplica
 Aquí se indica cómo obtener un token de acceso de autenticación.
 
 ## <a name="get-an-authentication-access-token"></a>Obtener un token de acceso de autenticación
+
 > **NOTA**: Antes de comenzar, asegúrese de que ha seguido los pasos anteriores del tutorial [Insertar datos en un conjunto de datos](walkthrough-push-data.md).
 > 
 > 
 
 1. En Visual Studio 2015, cree un proyecto de **aplicación de consola** .
 2. Instale la [Biblioteca de autenticación de Azure AD para el paquete NuGet de .NET](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/). Para obtener un token de seguridad de autenticación en una aplicación de .NET, use este paquete. Aquí se muestra cómo instalar el paquete:
-   
+
      a. En Visual Studio 2015, elija **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de paquetes**.
-   
+
      b. En **Consola del Administrador de paquetes**, escriba Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory -Version 2.21.301221612.
 3. Agregue el código siguiente a la clase Program {...}.
 4. Reemplace "{ClientID}" por el valor de **Client ID** que obtuvo al registrar la aplicación. Consulte [Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md).
@@ -113,6 +115,7 @@ A continuación se muestra la [lista de código completa](#code).
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Lista de código completa
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
 
@@ -172,10 +175,10 @@ A continuación se muestra la [lista de código completa](#code).
         }
     }
 
-
 [Paso siguiente >](walkthrough-push-data-create-dataset.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Creación de un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md)  
 [Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
 [Biblioteca de autenticación de Azure AD para el paquete .NET de NuGet](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/)  
@@ -183,4 +186,3 @@ A continuación se muestra la [lista de código completa](#code).
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

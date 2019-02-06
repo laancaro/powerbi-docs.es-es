@@ -2,26 +2,28 @@
 title: Lista de código completa
 description: Tutorial para insertar datos - Lista de código completo
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: 96620449e8be8dbbfa13a00484fff29f2370fe19
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 95aadefab6a98413a22dd9386bfb4fc06cb482cb
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55429945"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762246"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Lista de código completa de la inserción de datos en un conjunto de datos
+
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 Después de seguir los pasos del 2 al 5 de **Insertar datos en un conjunto de datos**, el código fuente completo debería ser similar al siguiente.
 
 ## <a name="push-data-to-dataset-code"></a>Código de la inserción de datos en un conjunto de datos
+
       using System;
       using Microsoft.IdentityModel.Clients.ActiveDirectory;
       using System.Net;
@@ -219,8 +221,8 @@ Después de seguir los pasos del 2 al 5 de **Insertar datos en un conjunto de da
           }
       }
 
-
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md)  
 [Tutorial: Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md)  
 [Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md)  
@@ -231,6 +233,4 @@ Después de seguir los pasos del 2 al 5 de **Insertar datos en un conjunto de da
 [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 
-
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

@@ -2,21 +2,22 @@
 title: Obtener un conjunto de datos para agregar filas
 description: Tutorial para insertar datos - Obtener un conjunto de datos para agregar filas a una tabla de Power BI
 author: markingmyname
+ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/10/2017
-ms.author: maghan
-ms.openlocfilehash: cd7f1eabc104da7e310abbfbce2929f047f0e5d8
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: fbde44136f403e3aff0c32d8d4acef4d1970830a
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430841"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762499"
 ---
 # <a name="step-4-get-a-dataset-to-add-rows-into-a-power-bi-table"></a>Paso 4: Obtener un conjunto de datos para agregar filas a una tabla de Power BI
+
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 En el **paso 3** de Insertar datos en un conjunto de datos, [Crear un conjunto de datos en Power BI](walkthrough-push-data-create-dataset.md), llamó a la operación [Crear conjunto de datos](https://docs.microsoft.com/rest/api/power-bi/datasets) para crear un conjunto de datos en Power BI. En este paso, usará la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) y Newtonsoft.Json para obtener un identificador de conjunto de datos. Use el identificador de conjunto de datos del paso 4 para agregar filas a un conjunto de datos. 
@@ -26,14 +27,13 @@ Para insertar datos en un conjunto de datos de Power BI, debe hacer referencia a
 Aquí se indica cómo obtener un conjunto de datos.
 
 ## <a name="get-a-power-bi-dataset"></a>Obtener un conjunto de datos de Power BI
+
 > **NOTA**: Antes de comenzar, asegúrese de que ha seguido los pasos anteriores del tutorial [Insertar datos en un conjunto de datos](walkthrough-push-data.md).
-> 
-> 
 
 1. En el proyecto de aplicación de consola que creó en el Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), instale el paquete NuGet de Newtonsoft.Json. Aquí se muestra cómo instalar el paquete:
-   
+
      a. En Visual Studio 2015, elija **Herramientas** > **Administrador de paquetes NuGet** > **Consola del Administrador de paquetes**.
-   
+
      b. En **Consola del Administrador de Paquetes**, escriba Install-Package Newtonsoft.Json.
 2. Después de instalar el paquete, agregue **using Newtonsoft.Json;** a Program.cs.
 3. En Program.cs, agregue el código siguiente para obtener un **identificador de conjunto de datos**.
@@ -110,6 +110,7 @@ A continuación se muestra la [lista de código completa](#code).
 <a name="code"/>
 
 ## <a name="complete-code-listing"></a>Lista de código completa
+
     using System;
     using Microsoft.IdentityModel.Clients.ActiveDirectory;
     using System.Net;
@@ -265,6 +266,7 @@ A continuación se muestra la [lista de código completa](#code).
 [Paso siguiente >](walkthrough-push-data-add-rows.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
+
 [Agregar filas a una tabla de Power BI](walkthrough-push-data-add-rows.md)  
 [Newtonsoft.Json](http://www.newtonsoft.com/json)  
 [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets)  
@@ -273,4 +275,3 @@ A continuación se muestra la [lista de código completa](#code).
 [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

@@ -4,19 +4,20 @@ description: Tutorial para insertar datos - Agregar filas a una tabla de Power B
 author: markingmyname
 ms.author: maghan
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 08/01/2018
-ms.openlocfilehash: 798bfbb5d1ebf127e7b958e02166dea5f1af81ef
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 52ee2dec11029f7c529362fdb44e2291846449c1
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430497"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55761993"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
+
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 En el **paso 4** de Insertar datos en un conjunto de datos, [Obtener un conjunto de datos para agregar filas a una tabla de Power BI](walkthrough-push-data-get-datasets.md), ha utilizado la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) operación y Newtonsoft.Json para obtener un identificador de conjunto de datos. En este paso, el identificador de conjunto de datos se usa con la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) para agregar filas a un conjunto de datos de **Power BI**. 
@@ -28,10 +29,9 @@ Al llamar a la operación [PostRows](https://docs.microsoft.com/rest/api/power-b
 Aquí se muestra cómo agregar filas a un conjunto de datos mediante la API de Power BI.
 
 ## <a name="add-rows-to-a-power-bi-table"></a>Agregar filas a una tabla de Power BI
+
 > [!NOTE]
 > Antes de comenzar, asegúrese de que ha seguido los pasos anteriores del tutorial [Insertar datos en un conjunto de datos](walkthrough-push-data.md).
-> 
-> 
 
 1. En el proyecto de aplicación de consola que creó en el Paso 2: Tutorial para insertar datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), agregue el código siguiente.
 2. Ejecute la aplicación de consola e inicie sesión en su cuenta de Power BI. Debería ver **Rows Added** en la ventana de consola. También puede iniciar sesión en Power BI para ver las filas agregadas al conjunto de datos.
@@ -57,7 +57,8 @@ Agregue este código a Program.cs.
   
        //Add rows to a Power BI table
        AddRows(datasetId, "Product");
-   }     
+   }
+
   ```
 * Agregue un método AddRows():
 

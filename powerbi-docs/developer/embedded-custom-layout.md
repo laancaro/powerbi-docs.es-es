@@ -2,22 +2,21 @@
 title: Diseños personalizados con contenido insertado de Power BI
 description: Conozca más información acerca de los diseños personalizados al insertar contenido de Power BI en su aplicación.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/19/2017
-ms.author: maghan
-ms.openlocfilehash: 641369a4410741269a260e036ac3a7930f385e76
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e812fde896072762e113c81b1dd728091a8ff190
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288943"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762315"
 ---
 # <a name="custom-layouts"></a>Diseños personalizados
-
 
 Utilice los diseños personalizados para insertar un informe con un diseño diferente al de un informe original. La definición de un nuevo diseño incluye desde definir solo un tamaño de página y controlar el tamaño de los objetos visuales a controlar la posición y la visibilidad.
 
@@ -115,7 +114,6 @@ enum VisualContainerDisplayMode {
 - `width`, alto: define el nuevo tamaño del objeto visual.
 - `displayState`: define la visibilidad del objeto visual.
 
-
 ## <a name="update-layout"></a>Actualización del diseño
 
 Puede utilizar el método updateSettings para actualizar el diseño del informe en cualquier momento mientras este se carga. Consulte [Actualizar configuración](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Update-Settings).
@@ -173,9 +171,7 @@ var embedContainer = document.getElementById('embedContainer');
 var report = powerbi.embed(embedContainer, embedConfiguration);
 ```
 
-
 ## <a name="see-also"></a>Vea también
 
 [Inserción de paneles, informes e iconos de Power BI](embedding-content.md)   
 [Pregunte a la comunidad de Power BI](https://community.powerbi.com/)
-

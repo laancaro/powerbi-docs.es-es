@@ -2,19 +2,19 @@
 title: Propiedades de conjunto de datos de Power BI
 description: Obtenga información sobre las propiedades de las API de conjunto de datos de Power BI.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 4654534d9643b9c5cf5911249a0eda33b5cc32af
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1f4dd67b76754f7eda19bd280dd5c9e454b34184
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277909"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762131"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
 
