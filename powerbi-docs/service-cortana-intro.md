@@ -6,15 +6,15 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: bcd07bb0cb53ea4818195e15c1492a27f424cf38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 26bd41c8fa2d1300a0f9e106c7899777ac5950f7
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292610"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482738"
 ---
 # <a name="quickly-find-and-view-your-power-bi-data-using-cortana-for-power-bi"></a>Busque y vea rápidamente datos de Power BI mediante Cortana para Power BI
 Use Cortana en los dispositivos Windows 10 para obtener respuestas instantáneas a sus preguntas empresariales importantes. Mediante la integración con Power BI, Cortana puede recuperar información clave directamente de los informes y paneles de Power BI. Basta con la versión de Windows 10 de noviembre de 2015 o una posterior, Cortana, Power BI y acceso a un conjunto de datos como mínimo.
@@ -22,7 +22,7 @@ Use Cortana en los dispositivos Windows 10 para obtener respuestas instantáneas
 ![Campo de búsqueda de Cortana](media/service-cortana-intro/power-bi-cortana-searchbox.png)
 
 ## <a name="preview-the-new-cortana-dashboard-search-experience-for-windows-10"></a>Obtener vista previa de la nueva experiencia de búsqueda en *paneles* de Cortana para Windows 10
-Durante un tiempo ha podido [usar Cortana para recuperar determinados tipos de páginas de informe](service-cortana-answer-cards.md). Ahora hemos agregado una **nueva experiencia**: la posibilidad de recuperar también paneles. Pruébelo y [envíenos sus comentarios](mailto:pbicortanasg@microsoft.com). Al final, la *nueva experiencia* se ampliará para que incluya también las búsquedas de Cortana para los informes.  Una de las ventajas principales de la nueva experiencia es que no es necesario hacer nada especial para configurarla. No tiene que realizar ninguna habilitación ni configuración en Cortana ni en Windows 10. Simplemente funciona.
+Durante un tiempo ha podido [usar Cortana para recuperar determinados tipos de páginas de informe](service-cortana-answer-cards.md). Ahora hemos agregado una **nueva experiencia**: la posibilidad de recuperar también paneles. Pruébelo y [envíenos sus comentarios en Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi). Al final, la *nueva experiencia* se ampliará para que incluya también las búsquedas de Cortana para los informes.  Una de las ventajas principales de la nueva experiencia es que no es necesario hacer nada especial para configurarla. No tiene que realizar ninguna habilitación ni configuración en Cortana ni en Windows 10. Simplemente funciona.
 
 > [!NOTE]
 > Y, si eso no es así, consulte el [artículo de solución de problemas](service-cortana-troubleshoot.md) para obtener ayuda.
@@ -127,7 +127,8 @@ Cuando formula una pregunta en Cortana, Power BI responde a partir de las págin
 * Cortana para Power BI actualmente solo está disponible en inglés.
 * Cortana para Power BI solo está disponible en dispositivos móviles de Windows.
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+Comentarios [Envíenos sus comentarios en Power BI Ideas](https://ideas.powerbi.com/forums/265200-power-bi).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Habilitar la integración de Windows, Cortana y Power BI para informes](service-cortana-enable.md)

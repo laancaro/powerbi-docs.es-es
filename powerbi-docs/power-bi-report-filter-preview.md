@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 01/30/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: be6496f6445c78250c17c98ac4b343eb0b0a0c66
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 13ab7ccf690c834168da8f9c6dcb0932178651ca
+ms.sourcegitcommit: 7df786871b196725a1c5422ee561c7557660894e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290024"
+ms.lasthandoff: 01/31/2019
+ms.locfileid: "55482715"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports-preview"></a>La nueva experiencia de filtro en los informes de Power BI (versión preliminar)
 
@@ -108,7 +108,7 @@ También puede aplicar formato a estos elementos en las tarjetas de filtro, seg�
 
 ## <a name="view-filters-for-a-visual-in-reading-mode"></a>Ver los filtros de un objeto visual en modo de lectura
 
-En modo de lectura, puede mantener el mouse sobre un objeto visual y ver una ventana emergente con todos los filtros, segmentaciones, etc., que afectan a ese objeto visual. El formato de la ventana emergente es el mismo que el del panel de filtros. 
+En el modo de lectura, puede mantener el mouse sobre un icono de filtro de un objeto visual y ver una ventana emergente con todos los filtros, segmentaciones, etc., que afectan a ese objeto visual. El formato de la ventana emergente es el mismo que el del panel de filtros. 
 
 ![Filtros que afectan a un objeto visual](media/power-bi-report-filter-preview/power-bi-filter-per-visual.png)
 
