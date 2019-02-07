@@ -870,6 +870,8 @@ items:
       items:
       - name: Procedimientos recomendados de rendimiento
         href: developer/embedded-performance-best-practices.md
+      - name: Entidad de servicio
+        href: developer/embed-service-principal.md
       - name: Seguridad de nivel de fila
         href: developer/embedded-row-level-security.md
       - name: Administración de varios inquilinos
@@ -888,7 +890,7 @@ items:
         href: developer/create-an-azure-active-directory-tenant.md
       - name: Registrar una aplicación
         href: developer/register-app.md
-      - name: Autenticarse en el servicio Power BI
+      - name: Obtener un token de acceso de Azure AD
         href: developer/get-azuread-access-token.md
       - name: Inserción de preguntas y respuestas
         href: developer/qanda.md
@@ -1036,6 +1038,8 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Agregar filas a una tabla
         href: developer/walkthrough-push-data-add-rows.md
+      - name: Cifrar credenciales
+        href: developer/encrypt-credentials.md
     - name: Referencia
       items:
       - name: API de REST
@@ -1234,9 +1238,9 @@ items:
         href: service-admin-premium-purchase.md
       - name: Administración de Power BI Premium
         href: service-admin-premium-manage.md
-      - name: Supervisión de capacidades Premium con la aplicación
+      - name: Supervisión de capacidades con la aplicación
         href: service-admin-premium-monitor-capacity.md
-      - name: Supervisión de capacidades Premium en el portal de administración
+      - name: Supervisión de capacidades en el portal de administración
         href: service-admin-premium-monitor-portal.md
       - name: Reinicio de una capacidad Premium
         href: service-admin-premium-restart.md
@@ -1301,9 +1305,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: e5f1b5c6ac45f6f37b61692fe4bd7f5cc086aec5
-ms.sourcegitcommit: 01d08ddf9a437489f75501efda6b3b0d8cbd7864
+ms.openlocfilehash: 27de32e6dda7f6eba069eaee56582a449dca858c
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55760404"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794496"
