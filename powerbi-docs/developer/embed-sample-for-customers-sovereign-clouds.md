@@ -9,15 +9,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
-ms.date: 12/10/2018
-ms.openlocfilehash: 790c06dd84d7db3a382ef547c8fcc16237273951
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.date: 02/05/2019
+ms.openlocfilehash: 69ce8088903cbdddef504dbf5e9b2ecc2a8ab9d4
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431163"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762683"
 ---
-# <a name="tutorial-embed-a-power-bi-dashboard-tile-or-report-into-your-application-for-sovereign-clouds"></a>Tutorial: Insertar un panel, icono o informe de Power BI en la aplicación para nubes soberanas
+# <a name="tutorial-embed-a-power-bi-content-into-your-application-for-sovereign-clouds"></a>Tutorial: Inserción de contenido de Power BI en la aplicación para nubes soberanas
 
 Aprenda a insertar contenido analítico dentro de las aplicaciones de proceso de negocio para la nube soberana. Puede usar .NET SDK de Power BI con la API de JavaScript de Power BI para insertar un informe, panel o icono en las aplicaciones web.
 
@@ -37,7 +37,7 @@ Las distintas nubes soberanas son:
 
 ![Panel insertado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene configurada ninguna cuenta, en función del tipo de nube soberana, puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](http://www.21vbluecloud.com/powerbi/).
+Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene una cuenta configurada, según el tipo de gobierno o país puede elegir la nube soberana adecuada para usted. Puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](http://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > En lugar de eso, ¿desea insertar un panel para la organización? Consulte [Integrar un panel en una aplicación para la organización](integrate-dashboard.md).
@@ -229,7 +229,7 @@ Tile tile = tiles.Value.FirstOrDefault();
 
 ### <a name="create-the-embed-token"></a>Creación del token de inserción
 
-Con la API de JavaScript, puede generar un token de inserción. El token de inserción es específico del elemento que va a insertar. Siempre que quiera insertar un fragmento de contenido de Power BI, deberá crear un nuevo token de inserción específico. Para más información, incluido el **accessLevel** que se debe usar, vea [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Insertar token).
+Con la API de JavaScript, puede generar un token de inserción. El token de inserción es específico del elemento que va a insertar. Siempre que inserte un fragmento de contenido de Power BI, tendrá que crear un token de inserción para él. Para más información, incluido el **accessLevel** que se debe usar, vea [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken) (Insertar token).
 
 > [!IMPORTANT]
 > Dado que la inserción de tokens está pensada solo para que los desarrolladores efectúen pruebas, el número de tokens que puede generar una cuenta maestra de Power BI es limitado. Debe [adquirirse capacidad](https://docs.microsoft.com/power-bi/developer/embedded-faq#technical) para escenarios de inserción para producción. No hay ningún límite en la generación de tokens de inserción cuando se compra una capacidad.
@@ -435,7 +435,7 @@ Hay una aplicación de ejemplo disponible en el [ejemplo de inserción de conten
 
 * [Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI](migrate-from-powerbi-embedded.md)
 
-Limitaciones y consideraciones
+Consideraciones y limitaciones
 
 * De momento las cuentas GCC solo son compatibles con las capacidades P y EM
 

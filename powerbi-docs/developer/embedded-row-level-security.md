@@ -8,15 +8,15 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 12/20/2018
-ms.openlocfilehash: 785461290493db59c534a58b548620b6d2f58cd7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.date: 02/05/2019
+ms.openlocfilehash: f50305eed647bfc94bc5c19ee1a298cb9ac9c782
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284182"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762706"
 ---
-# <a name="use-row-level-security-with-power-bi-embedded-content"></a>Uso de la seguridad de nivel de fila con contenido insertado de Power BI
+# <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
 La **seguridad de nivel de fila (RLS)** se puede usar para restringir el acceso de los usuarios a los datos de paneles, iconos, informes y conjuntos de datos. Varios usuarios diferentes pueden trabajar con esos mismos artefactos mientras ven otros datos distintos. La inserción admite RLS.
 
@@ -247,7 +247,7 @@ Los clientes que mantienen sus datos en **Azure SQL Database** ahora pueden disf
 
 Al generar el token de inserción, puede especificar la identidad efectiva de un usuario en Azure SQL. Puede especificar la identidad efectiva de un usuario pasando el token de acceso de AAD al servidor. El token de acceso se usa para extraer solo los datos pertinentes para ese usuario de Azure SQL, para esa sesión específica.
 
-Se puede usar para administrar la vista de cada usuario en Azure SQL o para iniciar sesión en Azure SQL como un cliente específico de una base de datos de varios inquilinos. También se puede usar para aplicar la seguridad de nivel de fila en esa sesión en Azure SQL y recuperar solo los datos pertinentes para esa sesión, eliminando la necesidad de administrar RLS en Power BI.
+Se puede usar para administrar la vista de cada usuario en Azure SQL o para iniciar sesión en Azure SQL como un cliente específico de una base de datos de varios inquilinos. También puede aplicar la seguridad de nivel de fila en esa sesión en Azure SQL y recuperar solo los datos pertinentes para esa sesión, eliminando la necesidad de administrar RLS en Power BI.
 
 Estos problemas de identidad efectiva se aplican a las reglas RLS directamente en Azure SQL Server. Power BI Embedded usa el token de acceso proporcionado al consultar datos desde Azure SQL Server. El UPN del usuario (para el que se proporcionó el token de acceso) es accesible como resultado de la función SQL USER_NAME ().
 
@@ -308,6 +308,18 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 
    ![Registro de la aplicación](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
+## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Puerta de enlace de datos local con entidad de servicio (versión preliminar)
+
+Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
+
+Mediante las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), puede especificar la identidad efectiva para las conexiones dinámicas locales de SSAS para un token de inserción con un [objeto de entidad de servicio](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals#service-principal-object).
+
+Hasta ahora, para poder especificar la identidad efectiva para conexiones dinámicas locales de SSAS, el usuario maestro que generaba el token de inserción tenía que ser un administrador de puerta de enlace. Ahora, en lugar de requerir que el usuario sea un administrador de puerta de enlace, el administrador de puerta de enlace puede asignar permiso dedicado al usuario para ese origen de datos, lo que le permite reemplazar la identidad efectiva al generar el token de inserción. Esta nueva funcionalidad permite realizar la inserción con la entidad de servicio para una conexión activa de SSAS.
+
+Para habilitar este escenario, el administrador de puerta de enlace usa la [API REST Add Datasource User](https://docs.microsoft.com/rest/api/power-bi/gateways/adddatasourceuser) para asignar a la entidad de servicio el permiso *ReadOverrideEffectiveIdentity* para Power BI Embedded.
+
+No se puede establecer este permiso mediante el portal de administración. Este permiso solo se establece con la API. En el portal de administración, verá una indicación para los usuarios y los SPN con esos permisos.
+
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
 * La asignación de usuarios a roles dentro del servicio Power BI no afecta a RLS cuando se usa un token de inserción.
@@ -315,7 +327,7 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 * Se admiten las conexiones activas de Analysis Services para los servidores locales.
 * Las conexiones activas de Azure Analysis Services admiten el filtrado por rol. El filtrado dinámico se puede llevar a cabo mediante CustomData.
 * Si el conjunto de datos subyacente no requiere RLS, la solicitud GenerateToken **no** debe contener una identidad efectiva.
-* Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol ya que, de lo contrario, la asignación de roles no se producirá.
+* Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol ya que, de lo contrario, la asignación de roles no se produce.
 * Una lista de identidades habilita varios tokens de identidad para la inserción del panel. Para todos los demás artefactos, la lista contiene una sola identidad.
 
 ### <a name="token-based-identity-limitations-preview"></a>Limitaciones de identidad basadas en token (versión preliminar)

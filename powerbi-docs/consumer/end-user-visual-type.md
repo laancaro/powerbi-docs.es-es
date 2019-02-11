@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 174886acf1d827497b48d660bb89e2b4057b09b9
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234694"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794848"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 Encontrará las visualizaciones en informes, paneles, aplicaciones y preguntas y respuestas. Algunos de estos tipos de visualización se empaquetan con Power BI, y algunas son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores de informes* agregarlos a aplicaciones, paneles e informes de Power BI. 
@@ -26,7 +26,7 @@ En este artículo se proporciona información general sobre las visualizaciones 
 > Para obtener información sobre los objetos visuales personalizados, búsquelos en la sección **Power BI visuals** (Objetos visuales de Power BI) de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista de visualizaciones disponibles en Power BI
-Todas estas visualizaciones se pueden encontrar en las aplicaciones, informes y paneles de Power BI, y [especificadas en Preguntas y respuestas](#gna).
+Todas estas visualizaciones se pueden encontrar en las aplicaciones, informes y paneles de Power BI, y [especificadas en Preguntas y respuestas](#qna). Para obtener información sobre cómo interactuar con las visualizaciones, vea [Interacción con visualizaciones en informes, paneles y aplicaciones](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de áreas: básico (en capa) y de área apilada
 ![gráfico de áreas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
@@ -232,5 +232,5 @@ Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Powe
 ![Sesión de preguntas y respuestas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Visualizaciones de informes de Power BI](end-user-visualizations.md)    
+[Interacción con visualizaciones en informes, paneles y aplicaciones](end-user-visualizations.md)    
 [The right visual reference from sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)

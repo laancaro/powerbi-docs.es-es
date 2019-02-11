@@ -2,24 +2,24 @@
 title: Creación de una capacidad de Power BI Embedded en Azure Portal | Microsoft Docs
 description: En este artículo se explica cómo crear una capacidad de Power BI Embedded en Microsoft Azure.
 author: markingmyname
-manager: kfile
 ms.author: maghan
+manager: kfile
 ms.service: power-bi-embedded
 ms.subservice: ''
 ms.devlang: csharp, javascript
 ms.topic: conceptual
-ms.reviewer: ''
-ms.date: 07/31/2018
-ms.openlocfilehash: caab7ce649687ec22d171e112382aa13d7652fb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.reviewer: zakharb
+ms.date: 02/05/2019
+ms.openlocfilehash: 1d829dc31bc6e2419d4f2c187b40d6945f963f69
+ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288552"
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "55762568"
 ---
 # <a name="create-power-bi-embedded-capacity-in-the-azure-portal"></a>Creación de una capacidad de Power BI Embedded en Azure Portal
 
-En este artículo se explica cómo crear una capacidad de Power BI Embedded en Microsoft Azure. Power BI Embedded simplifica las capacidades de Power BI, al ayudar a agregar rápidamente objetos visuales, informes y paneles impactantes a las aplicaciones.
+En este artículo se explica cómo crear una capacidad de [Power BI Embedded](azure-pbie-what-is-power-bi-embedded.md) en Microsoft Azure. Power BI Embedded simplifica las capacidades de Power BI, al ayudar a agregar rápidamente objetos visuales, informes y paneles impactantes a las aplicaciones.
 
 Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azure.microsoft.com/free/) antes de empezar.
 
@@ -30,7 +30,7 @@ Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azu
 Para completar este inicio rápido, necesita:
 
 * **Una suscripción a Azure:** visite la [evaluación gratuita de Azure](https://azure.microsoft.com/free/) para crear una cuenta.
-* **Azure Active Directory:** la suscripción debe estar asociada con un inquilino de Azure Active Directory (AAD). Además, ***deberá haber iniciado sesión en Azure con una cuenta en ese inquilino***. No se admiten cuentas de Microsoft. Para más información, vea [Autenticación y permisos de usuario](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
+* **Azure Active Directory:** la suscripción debe estar asociada con un inquilino de Azure Active Directory (AAD). Además, ***deberá haber iniciado sesión en Azure con una cuenta en ese inquilino***. No se admiten las cuentas de Microsoft. Para más información, vea [Autenticación y permisos de usuario](https://docs.microsoft.com/azure/analysis-services/analysis-services-manage-users).
 * **Inquilino de Power BI:** al menos una cuenta del inquilino de AAD debe haberse registrado en Power BI.
 * **Grupo de recursos:** use un grupo de recursos existente o [cree uno](https://docs.microsoft.com/azure/azure-resource-manager/resource-group-overview).
 
@@ -38,13 +38,11 @@ Para completar este inicio rápido, necesita:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com/).
 
-2. Seleccione **Create a resource (Crear un recurso)** > **Data + analytics (Datos y análisis)**.
+2. En el cuadro de búsqueda, busque *Power BI Embedded*.
 
-3. En el cuadro de búsqueda, busque *Power BI Embedded*.
+3. Dentro de Power BI Embedded, seleccione **Crear**.
 
-4. Dentro de Power BI Embedded, seleccione **Crear**.
-
-5. Rellene la información necesaria y, después, seleccione **Crear**.
+4. Rellene la información necesaria y, después, seleccione **Crear**.
 
     ![Campos que se deben rellenar para crear una capacidad](media/azure-pbie-create-capacity/azure-portal-create-power-bi-embedded.png)
 
@@ -57,9 +55,7 @@ Para completar este inicio rápido, necesita:
     |**Ubicación**|Ubicación donde se hospeda Power BI para el inquilino. La ubicación predeterminada es la región principal, pero puede cambiarlas mediante las [opciones de Multi-Geo](embedded-multi-geo.md).
     |**Plan de tarifa**|Seleccione la SKU (número de núcleos virtuales y tamaño de memoria) que satisfaga sus necesidades.  Para más información, vea [Precios de Power BI Embedded](https://azure.microsoft.com/pricing/details/power-bi-embedded/).|
 
-6. Seleccione **Crear**.
-
-La creación suele tardar menos de un minuto, generalmente veces solo unos segundos. Si selecciona **Pin to dashboard** (Anclar en el panel), puede navegar al panel para ver la nueva capacidad. También puede ir a **All services (Todos los servicios)** > **Power BI Embedded** para ver si la capacidad está lista.
+También puede seleccionar **Todos los servicios** > **Power BI Embedded** para ver si la capacidad está lista. Como alternativa, puede hacer clic en **Anclar al panel** desde la sección de notificaciones o la hoja para navegar hasta el panel para ver la nueva capacidad.
 
 ![Panel de Azure Portal con la capacidad de Power BI Embedded](media/azure-pbie-create-capacity/azure-portal-dashboard.png)
 

@@ -9,37 +9,37 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maghan
-ms.openlocfilehash: df77d4b9642a6df511af8af054e3e983c0120f77
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b1357d2e10214cdf578bff4d2aa7fca8fc19033
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291634"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794722"
 ---
 # <a name="developer-handbook-overview-power-bi-report-server"></a>Introducción al manual del desarrollador: servidor de informes de Power BI
 Este es el manual del desarrollador para el servidor de informes de Power BI, una ubicación local para almacenar y administrar informes paginados, móviles o de Power BI.
 
 ![](media/developer-handbook-overview/admin-handbook.png)
 
-En este manual se resaltan las opciones que, como desarrollador, tiene para trabajar con el servidor de informes de Power BI.
+En este manual se resaltan las opciones que, como desarrollador, tiene para trabajar con Power BI Report Server.
 
 ## <a name="embedding"></a>Inserción
-Puede insertar dentro de cualquier informe del servidor de informes de Power BI un iFrame agregando el parámetro querystring `?rs:Embed=true` a la dirección URL. Esto sirve para informes de Power BI, así como otros tipos de informes.
+Puede insertar dentro de cualquier informe del servidor de informes de Power BI un iFrame agregando el parámetro querystring `?rs:Embed=true` a la dirección URL. Esta técnica sirve para informes de Power BI, así como para otros tipos de informes.
 
 ### <a name="report-viewer-control"></a>Control del visor de informes
-Para los informes paginados, puede aprovechar las ventajas del control de visor de informes. Esto le permite colocar el control dentro de una aplicación web o una ventana .NET. Para más información, consulte [Introducción al control de visor de informes](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
+Para los informes paginados, puede aprovechar las ventajas del control de visor de informes. Con él, puede colocar el control dentro de una aplicación web o ventanas de .NET. Para más información, consulte [Introducción al control de visor de informes](https://docs.microsoft.com/sql/reporting-services/application-integration/integrating-reporting-services-using-reportviewer-controls-get-started).
 
 ## <a name="apis"></a>API
-Dispone de varias opciones de API para interactuar con el servidor de informes de Power BI. Por ejemplo:
+Dispone de varias opciones de API para interactuar con el servidor de informes de Power BI. Esta técnica incluye lo siguiente:
 
 * [API de REST](rest-api.md)
 * [Acceso de URL](https://docs.microsoft.com/sql/reporting-services/url-access-ssrs)
 * [Proveedor de WMI](https://docs.microsoft.com/sql/reporting-services/wmi-provider-library-reference/reporting-services-wmi-provider-library-reference-ssrs)
 
-También puede usar las [utilidades de código abierto PowerShell](https://github.com/Microsoft/ReportingServicesTools) para administrar su servidor de informes.
+También puede usar las [utilidades de PowerShell de código abierto](https://github.com/Microsoft/ReportingServicesTools) para administrar el servidor de informes.
 
 > [!NOTE]
-> Las utilidades de PowerShell no son compatibles actualmente con archivos de Power BI Desktop (.pbix).
+> Actualmente, las utilidades de PowerShell no son compatibles con los archivos de Power BI Desktop (.pbix).
 > 
 > 
 

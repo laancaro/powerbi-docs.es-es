@@ -8,17 +8,17 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 01/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 5eadf12fc1b54e8f5ac657685826816f0fca318d
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: f7e83c2d0cd2f1c3344bf61f9f90ca43f09f7189
+ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234356"
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "55794296"
 ---
-# <a name="visualizations-for-power-bi-consumers"></a>Visualizaciones para los **consumidores** de Power BI
+# <a name="interact-with-visualizations-in-reports-dashboards-and-apps"></a>Interacción con visualizaciones en informes, paneles y aplicaciones
 
 En su concepto más básico, una ***visualización*** (u *objeto visual*) es un tipo de gráfico generado por *diseñadores* de Power BI que utiliza los datos de los *informes* y los *conjuntos de datos*. 
 
@@ -27,13 +27,14 @@ En su concepto más básico, una ***visualización*** (u *objeto visual*) es un 
 
 ## <a name="what-can-i-do-with-visualizations"></a>¿Qué puedo hacer con las visualizaciones?
 
-Las visualizaciones se crean por parte de los *diseñadores* de informes y paneles y se comparten con los *consumidores*. Como consumidor, puede interactuar de muchas maneras con las visualizaciones para obtener diferentes puntos de vista y tomar decisiones empresariales fundadas en los datos. Todas estas opciones se muestran a continuación con vínculos a instrucciones paso a paso.
+Las visualizaciones se crean por parte de los *diseñadores* de informes y paneles y se comparten con los *consumidores*. Como consumidor, puede interactuar de muchas maneras con las visualizaciones para obtener diferentes puntos de vista y tomar decisiones empresariales fundadas en los datos. Todas estas opciones se muestran en la tabla siguiente, con vínculos a instrucciones detalladas.
 
-Pero primero, detengámonos un momento en Preguntas y respuestas. Preguntas y respuestas es la herramienta de búsqueda de lenguaje natural de Power BI. El usuario escribe una pregunta con lenguaje natural y Preguntas y respuestas responde a la pregunta con una visualización. Preguntas y respuestas es un medio por el que los consumidores pueden crear sus propias visualizaciones. Sin embargo, las visualizaciones que cree con preguntas y respuestas no se podrán guardar. Si hay alguna información específica que desee obtener de los datos y el diseñador no la incluyó en un informe o un panel, Preguntas y respuestas es un excelente recurso. Para obtener más información acerca de Preguntas y respuestas, consulte [Preguntas y respuestas para los consumidores](end-user-q-and-a.md).
+> [!IMPORTANT]
+> Pero primero, detengámonos un momento en Preguntas y respuestas. Preguntas y respuestas es la herramienta de búsqueda de lenguaje natural de Power BI. El usuario escribe una pregunta con lenguaje natural y Preguntas y respuestas responde a la pregunta con una visualización. Preguntas y respuestas es un medio por el que los consumidores pueden crear sus propias visualizaciones. Sin embargo, las visualizaciones que cree con preguntas y respuestas no se podrán guardar. Si hay alguna información específica que desee obtener de los datos y el diseñador no la incluyó en un informe o un panel, Preguntas y respuestas es un excelente recurso. Para obtener más información acerca de Preguntas y respuestas, consulte [Preguntas y respuestas para los consumidores](end-user-q-and-a.md).
 
 
 
-|Columna1  |En un panel  |En un informe  | En Preguntas y respuestas
+|Tarea  |En un panel  |En un informe  | En Preguntas y respuestas
 |---------|---------|---------|--------|
 |[Agregar comentarios a una visualización para uso personal o iniciar una conversación con sus compañeros sobre la visualización](end-user-comment.md).     |  sí       |   no      |  no  |
 |[Abrir y explorar el informe donde se creó la visualización](end-user-tiles.md).     |    sí     |   ND      |  ND |
