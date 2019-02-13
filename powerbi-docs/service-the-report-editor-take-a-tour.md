@@ -1,6 +1,6 @@
 ---
 title: Visita al editor de informes
-description: El editor de informes del servicio Power BI y el de Power BI Desktop son similares.
+description: El editor de informes del servicio Power BI y el editor de informes de Power BI Desktop son similares.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,21 +8,23 @@ featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/25/2019
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 51a99d59c74160d229c0d18defe2c5e7be4f48fb
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: 66e40462081ee2f1156840d137d4c67ad0eb7b45
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147413"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971703"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 
-El *editor de informes* del servicio Power BI y el editor de informes de Power BI Desktop son similares. En el vídeo se muestra el editor de informes en Power BI Desktop y, en este artículo, se muestra el editor de informes en el servicio Power BI. 
+El *editor de informes* del servicio Power BI y el editor de informes de Power BI Desktop son similares. Normalmente empieza creando informes en Power BI Desktop. A continuación, los publica en el servicio Power BI, donde puede continuar modificándolos. El servicio Power BI es también donde crea los paneles basados en sus informes.
 
-Como creador de informes, se encarga de crear y editar paneles e informes. Tras ello, los distribuye a los usuarios de informes. Se puede interactuar con los paneles y los informes en la vista de lectura del servicio Power BI, pero no modificarlos. Obtenga más información sobre [qué pueden hacer los usuarios de informes en el servicio Power BI](consumer/end-user-reading-view.md). 
+Después de crear sus paneles e informes, los distribuye a sus usuarios de informes. Dependiendo de cómo los comparta, es posible que sus usuarios finales puedan interactuar con ellos en la vista de lectura del servicio Power BI, pero no editarlos. Obtenga más información sobre [qué pueden hacer los usuarios de informes en el servicio Power BI](consumer/end-user-reading-view.md). 
+
+En este vídeo se muestra el editor de informes en Power BI Desktop. En este artículo se muestra el editor de informes en el servicio Power BI. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 
@@ -90,6 +92,12 @@ El panel Filtros cuenta con otra característica muy útil, que es la capacidad 
 ![Panel Filtros](media/service-the-report-editor-take-a-tour/power-bi-formatting-pane.png)
 
 Para más información, consulte [Agregar un filtro a un informe](power-bi-report-add-filter.md).
+
+Una nueva experiencia de filtro está actualmente en versión preliminar. En los nuevos filtros, puede darles formato para que tengan un aspecto similar al del propio informe. También puede bloquear filtros u ocultarlos a sus usuarios de informes. 
+
+![Nueva experiencia de filtro](media/service-the-report-editor-take-a-tour/power-bi-filter-reading.png)
+
+Aprenda más sobre la [nueva experiencia de filtro](power-bi-report-filter-preview.md).
 
 - - -
 ## <a name="the-fields-pane"></a>El panel Campos

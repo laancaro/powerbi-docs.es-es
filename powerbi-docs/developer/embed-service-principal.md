@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: a0b1722a54f1e5ea5bf01d8e5bb5fb4753351a60
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763159"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971680"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -108,9 +108,6 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-    > [!Note]
-    > Los grupos de seguridad de AAD solo los puede crear un administrador global de AAD.
-
 3. Como administrador de Power BI, tendrá que habilitar la entidad de servicio en la **configuración de desarrollador** en el portal de administración de Power BI. Agregue el grupo de seguridad que ha creado en Azure AD a la sección **Grupos de seguridad específicos** de **Configuración de desarrollador**.
 
    > [!Important]
@@ -173,6 +170,7 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
 * En las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no se puede usar la entidad de servicio.
+* No se admite la administración de [flujos de datos](../service-dataflows-overview.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

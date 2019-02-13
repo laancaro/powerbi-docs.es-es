@@ -8,23 +8,25 @@ featuredvideoid: B2vd4MQrz4M
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 02/07/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 29e6fe1bfb5a85d2a5ea42db406d4a127a65ec25
-ms.sourcegitcommit: 5bd9bd890db9a7f9d5988c81232f40b9b260a96f
+ms.openlocfilehash: d09ff277ed1c47b9ab11d6ffed4e5c8a57059465
+ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "55147459"
+ms.lasthandoff: 02/09/2019
+ms.locfileid: "55971726"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
-En este artículo se da por supuesto que ya se ha [registrado en el servicio Power BI](service-self-service-signup-for-power-bi.md) y ha [agregado algunos datos](service-get-data.md). Si aún no tiene ningún dato, pruebe a instalar un [paquete de contenido de ejemplo de Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
+El objetivo de este artículo es orientarle sobre el servicio Power BI: cuáles son los diferentes elementos, cómo funcionan conjuntamente y cómo puede trabajar con ellos. Podrá aprovecharlo al máximo si ya se ha [registrado en el servicio Power BI](service-self-service-signup-for-power-bi.md) y ha [agregado algunos datos](service-get-data.md). Como diseñador, su flujo de trabajo típico consiste normalmente en empezar creando informes en Power BI Desktop. A continuación, los publica en el servicio Power BI, donde puede continuar modificándolos. También crea los paneles basados en sus informes en el servicio Power BI. 
+
+En este artículo, si aún no tiene sus propios informes, pruebe a instalar un [paquete de contenido de ejemplo de Power BI](sample-datasets.md#the-power-bi-samples-as-content-packs).
 
 ![Pantalla principal del servicio Power BI en un explorador](media/service-basic-concepts/power-bi-home-screen.png)
 
-Estos son los elementos que se ven al abrir el servicio Power BI en el explorador:
+Cuando abra el servicio Power BI en un explorador, empezará en su pantalla Inicio. Estos son los elementos que puede ver:
 
 1. Panel de navegación (izquierdo)
 2. Iniciador de aplicaciones de Office 365
@@ -34,9 +36,9 @@ Estos son los elementos que se ven al abrir el servicio Power BI en el explorado
 6. Mosaicos de un panel favoritos
 7. Informes y paneles favoritos y frecuentes
 
-Más adelante se explicarán estas características de forma detallada, pero primero analizaremos algunos conceptos de Power BI.
+Los usuarios finales de sus informes y paneles tienen la misma experiencia de inicio en el servicio Power BI de un explorador.
 
-Conviene ver este vídeo antes de leer el resto del artículo.  En el video, Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
+Más adelante se explicarán estas características de forma detallada, pero primero analizaremos algunos conceptos de Power BI. O bien, es posible que desee ver este vídeo primero.  En el vídeo, Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
 
@@ -45,13 +47,12 @@ Conviene ver este vídeo antes de leer el resto del artículo.  En el video, Wil
 Los cuatro pilares principales de Power BI son los **_paneles_**, los **_informes_**, los **_libros_** y los **_conjuntos de datos_**. Y todos ellos se organizan en **_áreas de trabajo_**. Es importante comprender las áreas de trabajo antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
 
 ## <a name="workspaces"></a>Áreas de trabajo
-Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Existen dos tipos de áreas de trabajo: *Mi área de trabajo* y las *áreas de trabajo de la aplicación*. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave de su organización. Las aplicaciones son interactivas, pero no se pueden editar.
+Las áreas de trabajo son contenedores de paneles, informes, libros y conjuntos de datos de Power BI. Existen dos tipos de áreas de trabajo: *Mi área de trabajo* y las *áreas de trabajo de la aplicación*. ¿Qué es una *aplicación*? Una *aplicación* de Power BI es una colección de paneles e informes creada para presentar las métricas clave a los usuarios finales de Power BI de su organización. Las aplicaciones son interactivas, pero los usuarios finales no pueden editarlas.
 
 - *Mi área de trabajo* es el área de trabajo personal de cualquier cliente de Power BI en la que puede trabajar con su contenido. Solo usted tiene acceso a esta área de trabajo. Puede compartir paneles e informes desde Mi área de trabajo. Si desea colaborar en paneles e informes o crear una aplicación, querrá trabajar en el área de trabajo de una aplicación.      
 -  Las *áreas de trabajo de la aplicación* se usan para colaborar y compartir el contenido con los compañeros. También son los lugares donde puede crear, publicar y administrar aplicaciones para su organización. Piense en ellas como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. Puede agregar compañeros a las áreas de trabajo de la aplicación y colaborar en paneles, informes, libros y conjuntos de datos. Todos los miembros del área de trabajo de la aplicación necesitan licencias de Power BI Pro, pero los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
 
-Para más información, consulte la sección **Compartir tu trabajo** de la tabla de contenido, empezando por [¿Cómo debo compartir paneles e informes y colaborar en ellos?](service-how-to-collaborate-distribute-dashboards-reports.md)
-
+Para obtener más información, empiece con [Ways to share dashboards your work](service-how-to-collaborate-distribute-dashboards-reports.md) (Formas de compartir paneles/el trabajo).
 
 Ahora pasemos a los bloques de creación de Power BI. No se pueden tener paneles ni informes sin datos (bueno, se pueden tener paneles e informes vacíos, pero no serán útiles hasta que tengan datos), por eso comenzaremos con **conjuntos de datos**.
 
@@ -72,7 +73,7 @@ En el ejemplo siguiente, he seleccionado el área de trabajo de la aplicación "
 
   ![Diagrama del conjunto de datos](media/service-basic-concepts/drawing2.png)
 
-Para [importar o conectarse a un conjunto de datos](service-get-data.md), seleccione **Obtener datos** (en la parte inferior de la barra de navegación izquierda) o seleccione **+ Crear > Conjunto de datos** (en la esquina superior derecha). Siga las instrucciones para importar o conectarse al origen específico y agregue el conjunto de datos al área de trabajo activa. Los nuevos conjuntos de datos se marcan con un asterisco amarillo. El trabajo que realice en Power BI no cambiará el conjunto de datos subyacente.
+Para [importar o conectarse a un conjunto de datos](service-get-data.md), seleccione **Obtener datos** en la parte inferior de la barra de navegación izquierda. Siga las instrucciones para importar o conectarse al origen específico y agregue el conjunto de datos al área de trabajo activa. Los nuevos conjuntos de datos se marcan con un asterisco amarillo. El trabajo que realice en Power BI no cambiará el conjunto de datos subyacente.
 
 Si [forma parte de un **_área de trabajo de la aplicación_**](service-collaborate-power-bi-workspace.md), los conjuntos de datos agregados por un miembro del área de trabajo están disponibles para los demás miembros del área de trabajo.
 
