@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/14/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 512b189575acd7651dea8747c36e8666875edae5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef8146501969697b15a3d1ff3cae2c605cabaacc
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295756"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216824"
 ---
 # <a name="on-premises-data-gateway-personal-mode"></a>Puerta de enlace de datos local (modo personal)
 Puede utilizar orígenes de datos local y crear informes y paneles de Power BI mediante una puerta de enlace. Una **puerta de enlace** es un software que facilita el acceso a los datos que se almacenan en una red local privada, y que después le permite usar esos datos en servicios en línea como el **servicio Power BI**. La **puerta de enlace de datos local (modo personal)** es una actualización reciente de la puerta de enlace de Power BI, que permite a los usuarios instalar una puerta de enlace en su propio equipo y obtener acceso a los datos locales.
@@ -86,11 +86,11 @@ Si utilizaba **Combinación rápida** con la puerta de enlace anterior, debe rea
    ```
 2. En la parte inferior del archivo, agregue el siguiente texto:
    
-       ```
-       <setting name="EnableFastCombine" serializeAs="String">```
+    ```xml
+       <setting name="EnableFastCombine" serializeAs="String">
        <value>true</value>
-       </setting>
-       ```
+    </setting>
+    ```
 3. Una vez completado, la configuración surtirá efecto en aproximadamente un minuto. Para comprobar que funciona correctamente, pruebe una actualización a petición en el **servicio Power BI** para confirmar que **Combinación rápida** funciona.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones

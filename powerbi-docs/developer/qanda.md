@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/20/2017
-ms.openlocfilehash: 23e0f7a938116185e05e583f5c7f208efed3ca4d
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 4167915c8f8934db458e3aadb8531e9e117dee18
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55761924"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56217008"
 ---
 # <a name="qa-in-power-bi-embedded"></a>Preguntas y respuestas en Power BI Embedded
 
@@ -26,7 +26,7 @@ Existen dos modos de insertar preguntas y respuestas dentro de la aplicación: *
 
 Este es el aspecto que tendrá el código de JavaScript.
 
-```
+```javascript
 // Embed configuration used to describe the what and how to embed.
 // This object is used when calling powerbi.embed within the JavaScript API.
 // You can find more information at https://github.com/Microsoft/PowerBI-JavaScript/wiki/Embed-Configuration-Details.
@@ -55,7 +55,7 @@ Un ejemplo de este uso sería una lista de las preguntas más frecuentes. El usu
 
 **Fragmento de código para el uso del SDK de JS:**  
 
-```
+```javascript
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 
@@ -79,7 +79,7 @@ Si escucha el evento *visualRendered*, esto le permite guardar las preguntas par
 
 **Fragmento de código para el uso del SDK de JS:**  
 
-```
+```javascript
 // Get a reference to the embedded Q&A HTML element
 var qnaContainer = $('#qnaContainer')[0];
 

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4dec423e991b695097134d575de8c687b518a66c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0cad14c9d00c6d027c0235714305fb33847b5f8a
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287080"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215721"
 ---
 # <a name="add-image-text-video-and-more-to-your-dashboard"></a>Agregar imagen, texto, vídeo y mucho más al panel
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
@@ -101,12 +101,12 @@ Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono a
 ## <a name="tips-for-embedding-web-content"></a>Sugerencias para insertar contenido web
 * Para iframes, use un origen seguro. Si escribe el código para insertar del iframe y obtiene un icono en blanco, compruebe si está usando **http** para el origen del iframe.  Si es así, cámbielo por **https**.
   
-  ```
+  ```html
   <iframe src="https://xyz.com">
   ```
 * Edite la información de ancho y alto. Este código para insertar inserta un vídeo y establece el reproductor de vídeo en 560 x 315 píxeles.  Este tamaño no cambiará al modificar el tamaño del icono.
   
-  ```
+  ```html
   <iframe width="560" height="315"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
@@ -114,14 +114,14 @@ Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono a
   
   Si desea que el reproductor cambie de tamaño para ajustarse al tamaño del icono, establezca el ancho y el alto en 100 %.
   
-  ```
+  ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
 * Este código inserta un tweet y conserva, como vínculos independientes en el panel, los vínculos del podcast de **AFK**, la **@GuyInACubepágina de Twitter**, **Seguir**, **#analytics**, **responder**, **retwittear** y **me gusta**.  Al seleccionar el icono, se abrirá el podcast en Twitter.
   
-  ```
+  ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
   <p lang="en" dir="ltr">Listen to
   <a href="https://twitter.com/GuyInACube">@GuyInACube</a> talk to

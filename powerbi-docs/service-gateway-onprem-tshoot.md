@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 623eb93c27f0ec762b2c9d063b646d757c3b1f0c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: afc4df99b90d6c6d7016f34983ca3691fb500325
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296579"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223929"
 ---
 # <a name="troubleshooting-the-on-premises-data-gateway"></a>Solución de problemas con la puerta de enlace de datos local
 
@@ -35,11 +35,15 @@ La puerta de enlace se ejecuta como un servicio de Windows, por lo que puede ini
 
 * Para detener el servicio, ejecute este comando:
 
-    '''   net stop PBIEgwService   '''
+    ```
+    net stop PBIEgwService
+    ```
 
 * Para iniciar el servicio, ejecute este comando:
 
-    '''   net start PBIEgwService   '''
+    ```
+    net start PBIEgwService
+    ```
 
 ### <a name="log-file-configuration"></a>Configuración del archivo de registro
 
@@ -318,7 +322,7 @@ En el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, 
 > [!IMPORTANT]
 > Habilitar EmitQueryTraces podría aumentar el tamaño del registro considerablemente, en función del uso de la puerta de enlace. Una vez que haya terminado de revisar los registros, puede que tenga que establecer EmitQueryTraces en False. No se recomienda dejar esta opción habilitada a largo plazo.
 
-```
+```xml
 <setting name="EmitQueryTraces" serializeAs="String">
     <value>True</value>
 </setting>
@@ -362,7 +366,7 @@ En el archivo *Microsoft.PowerBI.DataMovement.Pipeline.Diagnostics.dll.config*, 
 > [!IMPORTANT]
 > Si habilita TracingVerbosity en `5`, podría aumentar el tamaño del registro considerablemente, en función del uso de la puerta de enlace. Una vez que haya terminado de revisar los registros, debe establecer TraceVerbosity en `4`. No se recomienda dejar esta opción habilitada a largo plazo.
 
-```
+```xml
 <setting name="TracingVerbosity" serializeAs="String">
     <value>5</value>
 </setting>
@@ -486,7 +490,7 @@ Recibe el error 1033 cuando el identificador externo que está configurado en SA
 
     ![sAMAccount](media/service-gateway-onprem-tshoot/sAMAccount-02.png)
 
-```
+```xml
       <setting name="ADUserNameReplacementProperty" serializeAs="String">
         <value>sAMAccount</value>
       </setting>

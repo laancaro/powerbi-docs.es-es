@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 5c383cf3c7fcbae88be6943bb418026c849db196
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277443"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215744"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado. Hay algunas excepciones que se describen más adelante en este artículo.
@@ -101,6 +101,7 @@ Para aplicar un estilo a un objeto visual de **tabla** o **matriz**, siga estos 
 
 Este es el texto del archivo *St Patricks Day.json* que puede usar para crear un archivo JSON propio:
 
+```json
     {
         "name": "St Patricks Day",
         "dataColors": ["#568410", "#3A6108", "#70A322", "#915203", "#D79A12", "#bb7711", "#114400", "#aacc66"],
@@ -108,6 +109,7 @@ Este es el texto del archivo *St Patricks Day.json* que puede usar para crear un
         "foreground": "#3A6108",
         "tableAccent": "#568410"
     }
+```
 
 Desde allí puede escribir su propio código hexadecimal de color para los colores seleccionados.
 
@@ -158,6 +160,7 @@ Además, muchos otros **objetos visuales personalizados** no aplicarán temas pa
 
 En lugar de que tenga que realizar una descarga, proporcionamos el código para el archivo JSON del día de San Valentín:
 
+```json
     {
         "name": "Valentine's Day",
         "dataColors": ["#990011", "#cc1144", "#ee7799", "#eebbcc", "#cc4477", "#cc5555", "#882222", "#A30E33"],
@@ -165,6 +168,7 @@ En lugar de que tenga que realizar una descarga, proporcionamos el código para 
         "foreground": "#ee7799",
         "tableAccent": "#990011"
     }
+```
 
 **Temas para informes** puede crear coloridos informes de Power BI Desktop para usted, su organización o incluso para la temporada o festividad que se celebre en ese momento. 
 
@@ -303,7 +307,8 @@ La siguiente tabla define los valores de *cardName*. El primer valor de cada cel
 ### <a name="properties-within-each-card"></a>Propiedades de cada tarjeta
 En la siguiente sección se definen las propiedades de cada tarjeta.
 
-    "general":
+```json
+      "general":
         "responsive": {
           "type": [
             "bool"
@@ -371,7 +376,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "categoryAxis": {
+      "categoryAxis": {
         "show": {
           "type": [
             "bool"
@@ -557,7 +562,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "valueAxis": {
+      "valueAxis": {
         "show": {
           "type": [
             "bool"
@@ -865,7 +870,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "dataPoint": {
+      "dataPoint": {
         "defaultColor": {
           "type": [
             "fill"
@@ -901,7 +906,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "labels": {
+      "labels": {
         "show": {
           "type": [
             "bool"
@@ -1019,7 +1024,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "lineStyles": {
+      "lineStyles": {
         "strokeWidth": {
           "type": [
             "numeric"
@@ -1094,7 +1099,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "plotArea": {
+      "plotArea": {
         "transparency": {
           "type": [
             "numeric"
@@ -1107,7 +1112,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "trend": {
+      "trend": {
         "show": {
           "type": [
             "bool"
@@ -1297,7 +1302,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "referenceLine": {
+      "referenceLine": {
         "show": {
           "type": [
             "bool"
@@ -1433,7 +1438,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "line": {
+      "line": {
         "lineColor": {
           "type": [
             "fill"
@@ -1470,7 +1475,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "fill": {
+      "fill": {
         "show": {
           "type": [
             "bool"
@@ -1499,7 +1504,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "rotation": {
+      "rotation": {
         "angle": {
           "type": [
             "numeric"
@@ -1509,7 +1514,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "categoryLabels": {
+      "categoryLabels": {
         "show": {
           "type": [
             "bool"
@@ -1546,7 +1551,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "wordWrap": {
+      "wordWrap": {
         "show": {
           "type": [
             "bool"
@@ -1556,7 +1561,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "dataLabels": {
+      "dataLabels": {
         "color": {
           "type": [
             "fill"
@@ -1585,7 +1590,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "cardTitle": {
+      "cardTitle": {
         "color": {
           "type": [
             "fill"
@@ -1614,7 +1619,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "card": {
+      "card": {
         "outline": {
           "type": [
             "enumeration"
@@ -1695,7 +1700,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "percentBarLabel": {
+      "percentBarLabel": {
         "show": {
           "type": [
             "bool"
@@ -1732,7 +1737,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "axis": {
+      "axis": {
         "min": {
           "type": [
             "numeric"
@@ -1758,7 +1763,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "target": {
+      "target": {
         "show": {
           "type": [
             "bool"
@@ -1817,7 +1822,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "calloutValue": {
+      "calloutValue": {
         "show": {
           "type": [
             "bool"
@@ -1860,7 +1865,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "forecast": {
+      "forecast": {
         "show": {
           "type": [
             "bool"
@@ -1927,7 +1932,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "bubbles": {
+      "bubbles": {
         "bubbleSize": {
           "type": [
             "formatting"
@@ -1937,7 +1942,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "mapControls": {
+      "mapControls": {
         "autoZoom": {
           "type": [
             "bool"
@@ -1962,7 +1967,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "mapStyles": {
+      "mapStyles": {
         "mapTheme": {
           "type": [
             "enumeration"
@@ -1972,7 +1977,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "shape": {
+      "shape": {
         "map": {
           "type": [
             "geoJson"
@@ -1990,7 +1995,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "zoom": {
+      "zoom": {
         "autoZoom": {
           "type": [
             "bool"
@@ -2025,7 +2030,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "xAxisReferenceLine": {
+      "xAxisReferenceLine": {
         "show": {
           "type": [
             "bool"
@@ -2150,7 +2155,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "fillPoint": {
+      "fillPoint": {
         "show": {
           "type": [
             "bool"
@@ -2160,7 +2165,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "colorByCategory": {
+      "colorByCategory": {
         "show": {
           "type": [
             "bool"
@@ -2170,7 +2175,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "plotAreaShading": {
+      "plotAreaShading": {
         "show": {
           "type": [
             "bool"
@@ -2213,7 +2218,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "ratioLine": {
+      "ratioLine": {
         "show": {
           "type": [
             "bool"
@@ -2253,7 +2258,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "grid": {
+      "grid": {
         "outlineColor": {
           "type": [
             "fill"
@@ -2373,7 +2378,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "columnHeaders": {
+      "columnHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2448,7 +2453,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "values": {
+      "values": {
         "outline": {
           "type": [
             "enumeration"
@@ -2567,7 +2572,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "total": {
+      "total": {
         "outline": {
           "type": [
             "enumeration"
@@ -2631,7 +2636,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "columnFormatting": {
+      "columnFormatting": {
         "fontColor": {
           "type": [
             "fill"
@@ -2687,7 +2692,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "rowHeaders": {
+      "rowHeaders": {
         "outline": {
           "type": [
             "enumeration"
@@ -2776,7 +2781,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "subTotals": {
+      "subTotals": {
         "outline": {
           "type": [
             "enumeration"
@@ -2848,7 +2853,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "selection": {
+      "selection": {
         "selectAllCheckboxEnabled": {
           "type": [
             "bool"
@@ -2866,7 +2871,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "header": {
+      "header": {
         "show": {
           "type": [
             "bool"
@@ -2919,7 +2924,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "items": {
+      "items": {
         "fontColor": {
           "type": [
             "fill"
@@ -2964,7 +2969,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "numericInputStyle": {
+      "numericInputStyle": {
         "fontColor": {
           "type": [
             "fill"
@@ -3001,7 +3006,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "slider": {
+      "slider": {
         "show": {
           "type": [
             "bool"
@@ -3019,7 +3024,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "dateRange": {
+      "dateRange": {
         "includeToday": {
           "type": [
             "bool"
@@ -3029,7 +3034,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "sentimentColors": {
+      "sentimentColors": {
         "increaseFill": {
           "type": [
             "fill"
@@ -3063,7 +3068,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "breakdown": {
+      "breakdown": {
         "maxBreakdowns": {
           "type": [
             "integer"
@@ -3076,7 +3081,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "indicator": {
+      "indicator": {
         "indicatorDisplayUnits": {
           "type": [
             "formatting"
@@ -3108,7 +3113,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "trendline": {
+      "trendline": {
         "show": {
           "type": [
             "bool"
@@ -3118,7 +3123,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "goals": {
+      "goals": {
         "showGoal": {
           "type": [
             "bool"
@@ -3136,7 +3141,7 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       },
-    "status": {
+      "status": {
         "direction": {
           "type": [
             "enumeration"
@@ -3170,13 +3175,14 @@ En la siguiente sección se definen las propiedades de cada tarjeta.
           ]
         }
       }
-
+```
 
 
 
 ### <a name="enumerations-in-the-json-file"></a>Enumeraciones en el archivo JSON
 La siguiente sección define las enumeraciones que se pueden usar en el archivo JSON.
 
+```json
     {
         "legend": {
             "position": [
@@ -4205,3 +4211,4 @@ La siguiente sección define las enumeraciones que se pueden usar en el archivo 
          ]
        }
     }
+```

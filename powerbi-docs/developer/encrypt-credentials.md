@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: mahirdiab
-ms.openlocfilehash: 050628dfe179a39ca24d2df72f1296acf48aa261
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55763176"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223522"
 ---
 # <a name="encrypt-credentials"></a>Cifrado de credenciales
 Cuando se llama a [Crear origen de datos](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) o [Actualizar origen de datos](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) en una **puerta de enlace empresarial local** mediante la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), el valor de credenciales se debe cifrar con la clave pública de la puerta de enlace.
@@ -24,28 +24,28 @@ En el ejemplo de código siguiente se muestra cómo cifrar las credenciales en .
 Las credenciales proporcionadas para el método EncodeCredentials siguiente deben estar en uno de los formatos siguientes en función de su tipo:
 
 **Credenciales básicas o de Windows**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Credenciales de clave**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **Credenciales de OAuth2**
-```
+```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
 
 **Credenciales anónimas**
-```
+```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Credenciales de cifrado**
-```
+```csharp
 public static class AsymmetricKeyEncryptionHelper
 {
 

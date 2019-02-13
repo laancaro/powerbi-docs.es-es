@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 08/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: 51eb5c2947dc6d621e6c2ef6d3e2361a4542a0f1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ee7b69bbf8857f12cabb6f7147f8e1d779b2a17e
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276938"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215076"
 ---
 # <a name="high-availability-clusters-for-on-premises-data-gateway"></a>Clústeres de alta disponibilidad para puerta de enlace de datos local
 
@@ -59,13 +59,13 @@ Para ejecutar los comandos de PowerShell en la tabla, primero necesita seguir es
 1. Abra una ventana de comandos de PowerShell como administrador.
 2. Ejecute el comando de PowerShell siguiente una vez (se da por hecho que nunca ha ejecutado comandos de PowerShell en la máquina actual):
 
-    ```
+    ```powershell
     Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Force
     ```
 
 3. Después, en la ventana de PowerShell, vaya a la carpeta de instalación de la puerta de enlace de datos local e importe el módulo necesario con el siguiente comando:
 
-    ```
+    ```powershell
     Import-Module .\OnPremisesDataGatewayHAMgmt.psm1
     ```
 

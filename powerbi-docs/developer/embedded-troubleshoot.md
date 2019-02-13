@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: b8f78821ccd6f32f9b943b55a45de20b720f3f3c
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: fd311466d244e3ca9297f107edfad7b2cc930bfb
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762108"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223844"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -161,7 +161,7 @@ Para comprobar cuál es, pruebe lo siguiente.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: La concesión requiere permiso de administrador
 
-**_Síntomas:_**</br>
+**_Síntomas:_**<br>
 Cuando un usuario sin derechos administrativos intenta iniciar sesión en una aplicación por primera vez y da su consentimiento, obtiene uno de los errores siguientes:
 
 * La prueba de consentimiento necesita permiso para acceder a los recursos de la organización que solo un administrador puede conceder. Póngase en contacto con un administrador que conceda permisos en esta aplicación para poder usarla.
@@ -171,7 +171,7 @@ Cuando un usuario sin derechos administrativos intenta iniciar sesión en una ap
 
 Un usuario administrador puede iniciar sesión y conceder el consentimiento correctamente.
 
-**_:_**</br>
+**_:_**<br>
 El consentimiento de usuario está deshabilitado en este inquilino.
 
 **_Existen varias correcciones viables:_**
