@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Tareas comunes
       items:
+      - name: Búsqueda de propietarios de contenido y última fecha de actualización
+        href: end-user-fresh.md
       - name: Diferentes formas de ampliar el contenido mediante los modos de pantalla completa y de foco
         href: end-user-focus.md
       - name: Aplicaciones, informes y paneles favoritos de Power BI
@@ -191,9 +193,9 @@ items:
     items:
     - name: Idiomas admitidos en las aplicaciones móviles
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: 39f29c1fdc719defe1afe1f9bcdb5ef98a34c3c5
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: f0e5454a60f1434b1098484e7ef3cc74d3ce3be5
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794539"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086572"
