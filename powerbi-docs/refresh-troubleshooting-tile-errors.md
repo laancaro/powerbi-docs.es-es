@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bc53bdf6c0fd013d446c6d74cf2a422a84302f6a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289794"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086641"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
@@ -30,11 +30,16 @@ A continuación se muestran los errores comunes que pueden producirse con los ic
 **Power BI encontró un error inesperado al cargar el modelo. Inténtelo de nuevo más tarde.**
 o **No se puede recuperar el modelo de datos. Póngase en contacto con el propietario del panel para asegurarse de que los orígenes de datos y el modelo existen y están accesibles.**
 
-No se pudo acceder a los datos porque el origen de datos no estaba accesible. Esto puede suceder si se quita, mueve o desconecta el origen de datos, si se le cambia el nombre o se cambian los permisos. Compruebe que el origen aún está en la ubicación que estamos señalando y que todavía tiene permiso para acceder a ella. Si no es este el problema, es posible que el origen sea lento. Inténtelo de nuevo más tarde durante un tiempo cuando la carga en el origen sea menor. Si es un origen local, es posible que el propietario del origen de datos pueda proporcionar más información.
+No se pudo acceder a los datos porque el origen de datos no estaba accesible. Este problema puede suceder si se quita, mueve o desconecta el origen de datos, o bien si se cambian el nombre o los permisos. Compruebe que el origen aún está en la ubicación que estamos señalando y que todavía tiene permiso para acceder a ella. Si no es este el problema, es posible que el origen sea lento. Inténtelo de nuevo más tarde durante un tiempo cuando la carga en el origen sea menor. Si es un origen local, es posible que el propietario del origen de datos pueda proporcionar más información.
 
 **No tiene permiso para ver este icono ni para abrir el libro.**
 
-Póngase en contacto con el propietario del panel para asegurarse de que los orígenes de datos y el modelo existen y están accesibles para su cuenta.
+Póngase en contacto con el propietario del panel para asegurarse de que los orígenes de datos y el modelo existan y sean accesibles para su cuenta.
+
+**El administrador ha deshabilitado los objetos visuales personalizados.**
+
+Su administrador de Power BI ha deshabilitado el uso de objetos visuales personalizados para su organización o grupo de seguridad. No podrá usar objetos visuales personalizados desde [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ni importar objetos visuales privados desde un archivo. Solo podrá usar el conjunto de objetos visuales empaquetado previamente.
+
 
 **Las formas de datos deben contener al menos un grupo o cálculo con salida de datos. Póngase en contacto con el propietario del panel.**
 
@@ -46,7 +51,7 @@ Está intentando usar dos o más campos de tablas que no están relacionadas. De
 
 **Los grupos del eje principal y del eje secundario se solapan. Los grupos del eje principal no pueden tener las mismas claves que los grupos del eje secundario.**
 
-Este suele ser un problema transitorio. Esto ocurre normalmente cuando se mueven los grupos de las filas a las columnas. En este caso, el error debería desaparecer al terminar de mover todos los grupos. Si continúa recibiendo el mensaje, intente cambiar los campos entre las filas y las columnas o la leyenda del eje, o bien quite los campos del objeto visual.  
+Esto suele ser un problema temporal. Esto ocurre normalmente cuando se mueven los grupos de las filas a las columnas. En este caso, el error debería desaparecer al terminar de mover todos los grupos. Si continúa recibiendo el mensaje, intente cambiar los campos entre las filas y las columnas o la leyenda del eje, o bien quite los campos del objeto visual.  
 
 **El objeto visual superó los recursos disponibles. Intente filtrar para disminuir la cantidad de datos que se muestran.**
 
@@ -58,10 +63,10 @@ Probablemente, se eliminó el campo o se le cambió el nombre. Puede quitar el c
 
 **No se pueden recuperar los datos para este objeto visual. Inténtelo de nuevo más tarde.**
 
-Este suele ser un problema transitorio. Si lo intenta más tarde y se sigue mostrando este mensaje, póngase en contacto con soporte técnico.
+Este suele ser un problema transitorio. Si vuelve a intentarlo más tarde y se sigue mostrando este mensaje, póngase en contacto con el soporte técnico.
 
 ## <a name="contact-support"></a>Ponerse en contacto con soporte técnico
-Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](https://support.powerbi.com) para que lo investiguen más a fondo.
+Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](https://support.powerbi.com) para que lo investiguen con más detalle.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  

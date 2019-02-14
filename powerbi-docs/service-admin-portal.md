@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 1bc7539eba4f390c02417edd52ea3f792613abe6
-ms.sourcegitcommit: 3729c88bd991e450fcb2d9b79e6ab478b6e8dc76
+ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/08/2019
-ms.locfileid: "55888242"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086480"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -236,12 +236,17 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 ## <a name="custom-visuals-settings"></a>Configuración de objetos visuales personalizados
 
-### <a name="enable-custom-visuals-for-the-entire-organization"></a>Habilitación de objetos visuales personalizados para toda la organización
+### <a name="add-and-use-custom-visuals"></a>Incorporación y uso de objetos visuales personalizados
 
 Los usuarios de la organización pueden interactuar con objetos visuales personalizados y compartirlos. [Más información](power-bi-custom-visuals.md)
 
 > [!NOTE]
-> Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
+> Esta configuración se puede aplicar en toda la organización o puede limitarse a grupos específicos.
+
+### <a name="allow-only-certified-visuals"></a>Permitir solo objetos visuales certificados
+
+Los usuarios de la organización a los que se han concedido permisos para agregar y usar objetos visuales personalizados (lo que se indica mediante la configuración "Agregar y usar objetos visuales personalizados") solo podrán usar [objetos visuales personalizados certificados](https://go.microsoft.com/fwlink/?linkid=2002010). Los objetos visuales no certificados se bloquearán y se mostrará un mensaje de error cuando se usen. 
+
 
 ## <a name="r-visuals-settings"></a>Configuración de objetos visuales de R
 

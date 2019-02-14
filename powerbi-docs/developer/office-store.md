@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/30/2018
-ms.openlocfilehash: 850d4c01248a16029b3874548b61c2f9170560bb
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bedf9092e48b0e28c14ec510f1f3b4431e81ea27
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281514"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086411"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 
@@ -30,7 +30,7 @@ Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppS
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 
-Una vez que haya acabado de codificar y probar el objeto visual y lo haya empaquetado en un archivo pbiviz, también debe preparar los siguientes elementos antes de enviarlo.
+Después de codificar el objeto visual personalizado, [probarlo](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y empaquetarlo en un archivo .pbiviz, también necesita preparar los siguientes elementos antes de enviarlo.
 
 | Artículo | Obligatoria | Descripción |
 | --- | --- | --- |

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 96b6e1a8a92b19181463de404967625b37418582
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bcde69d25b6b73787a4b9d16e4ba2b39b183ffd7
+ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291956"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56086434"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
 
 Con Power BI y los flujos de datos, puede almacenar un archivo de definición de flujo de datos y los archivos de datos de un área de trabajo en su cuenta de Azure Data Lake Storage Gen2. Los administradores de áreas de trabajo pueden configurar Power BI para hacer eso, y este artículo le lleva por los pasos necesarios para llegar hasta ahí. 
 
-Antes de poder configurar la ubicación de almacenamiento del flujo de datos de un área de trabajo, el administrador global de su compañía debe conectar la cuenta de almacenamiento de la organización a Power BI y habilitar los permisos de asignación de almacenamiento para esa cuenta de almacenamiento. * [Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)](service-dataflows-connect-azure-data-lake-storage-gen2.md) 
+Antes de poder configurar la ubicación de almacenamiento del flujo de datos de un área de trabajo, el administrador global de su compañía debe conectar la cuenta de almacenamiento de la organización a Power BI y habilitar los permisos de asignación de almacenamiento para esa cuenta de almacenamiento. *[Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)](service-dataflows-connect-azure-data-lake-storage-gen2.md)* 
 
 Existen dos maneras de configurar las opciones de almacenamiento de flujo de datos del área de trabajo: 
 
