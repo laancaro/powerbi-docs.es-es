@@ -5,55 +5,49 @@ author: christianwade
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-admin
+ms.component: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/19/2018
+ms.date: 01/24/2019
 ms.author: chwade
 LocalizationGroup: Premium
-ms.openlocfilehash: 92bd4043e4cfa37bd8f712491ccbc2990dc0b6a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: caa350274b7af62078098d9ef7730046f6e14627
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794367"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225992"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Actualizaciones incrementales en Power BI Premium
 
 La actualización incremental permite usar conjuntos de datos muy grandes en el servicio Power BI Premium, lo que reporta las siguientes ventajas:
 
-- **Las actualizaciones son más rápidas.** Solo se actualizarán los datos que hayan cambiado. Sería el caso, por ejemplo, de actualizar solo los últimos cinco días de un conjunto de datos de 10 años.
+- **Las actualizaciones son más rápidas**: solo hay que actualizar los datos que se han modificado. Por ejemplo, se actualizan solo los últimos cinco días de un conjunto de datos de 10 años.
 
-- **Las actualizaciones son más confiables.** Por ejemplo, no es necesario mantener las conexiones de larga duración a sistemas de origen volátiles.
+- **Las actualizaciones son más confiables**: ya no es necesario mantener conexiones de larga duración a sistemas de origen volátiles.
 
-- **El consumo de recursos es menor.** Si hay menos datos que actualizar, se reduce el consumo total de memoria y de otros recursos.
+- **Se reduce el consumo de recursos**: al haber menos datos que actualizar, se reduce el consumo total de memoria y de otros recursos.
 
-## <a name="how-to-use-incremental-refresh"></a>Cómo usar una actualización incremental
+## <a name="configure-incremental-refresh"></a>Configuración de la actualización incremental
 
 Las directivas de actualización incremental se definen en Power BI Desktop y se aplican cuando se publican en el servicio Power BI.
 
-Comience habilitando las actualizaciones incrementales en las características de vista previa.
+Para empezar, habilite las actualizaciones incrementales en **Características de versión preliminar**.
 
 ![Opciones - Características de vista previa](media/service-premium-incremental-refresh/preview-features.png)
 
 ### <a name="filter-large-datasets-in-power-bi-desktop"></a>Filtrar conjuntos de datos grandes en Power BI Desktop
 
-Los conjuntos de datos grandes (que pueden contener miles de millones de filas) pueden no caber en Power BI Desktop, ya que este suele estar limitado por los recursos disponibles en el equipo del usuario. Por tanto, normalmente estos conjuntos de datos se filtran durante la importación para que puedan caber en Power BI Desktop. Esto es así tanto si se usa la actualización incremental como si no.
+Es posible que los conjuntos de datos grandes (que pueden contener miles de millones de filas) no quepan en el modelo de Power BI Desktop, porque el archivo PBIX está limitado por los recursos de memoria disponibles en el equipo de escritorio. Por tanto, normalmente estos conjuntos de datos se filtran durante la importación. Este tipo de filtrado se aplica con independencia del uso de la actualización incremental. Para la actualización incremental, se filtra mediante los parámetros de fecha y hora de Power Query.
 
 #### <a name="rangestart-and-rangeend-parameters"></a>Parámetros RangeStart y RangeEnd
 
-Para usar la actualización incremental en el servicio Power BI, deberá realizarse un filtrado usando los parámetros de fecha y hora de Power Query con los nombres reservados **RangeStart** y **RangeEnd** (distinguen mayúsculas de minúsculas).
+Para la actualización incremental, los conjuntos de datos se filtran mediante los parámetros de fecha y hora de Power Query con los nombres reservados **RangeStart** y **RangeEnd** (que distinguen mayúsculas de minúsculas). Estos parámetros se usan para filtrar los datos importados en Power BI Desktop y también para particionar de forma dinámica los datos en intervalos una vez publicados en el servicio Power BI. El servicio sustituye los valores de parámetro para filtrar por cada partición. Una vez publicados, el servicio Power BI reemplaza automáticamente los valores de parámetro, No hay necesidad de definirlos en la configuración del conjunto de datos del servicio. Una vez publicados, el servicio Power BI reemplaza automáticamente los valores de parámetro, 
 
-Una vez publicados, el servicio Power BI reemplaza automáticamente los valores de parámetro, no hay necesidad de definirlos en la configuración del conjunto de datos del servicio.
-
-Es importante que el filtro se inserte en el sistema de origen cuando se envían las consultas para las operaciones de actualización. La inserción descendente del filtrado significa que el origen de datos debe admitir "plegado de consultas". La mayoría de orígenes de datos compatibles con las consultas SQL admiten el plegado de consultas. Orígenes de datos como los archivos sin formato, blobs, web y fuentes de OData, normalmente no lo hacen. Dados los diversos niveles de compatibilidad con el plegado de consultas para cada origen de datos, se recomienda comprobar que la lógica de filtro se incluye en las consultas de origen. En casos donde el filtro no es compatible con el back-end de origen de datos, no puede realizarse la inserción descendente. En tales casos, el motor de mashup compensa y aplica el filtro localmente, lo cual puede requerir la recuperación del conjunto de datos completo desde el origen de datos. Esto puede provocar que una actualización incremental sea muy lenta y el proceso puede quedarse sin recursos en el servicio Power BI o en la puerta de enlace de datos local, si se utiliza.
-
-El filtro se usará para dividir los datos en intervalos en el servicio Power BI. No está diseñado para permitir la actualización de la columna de datos filtrada. Una actualización se interpretará como una inserción y una eliminación (no una actualización). Si la eliminación se produce en el intervalo histórico y no en el intervalo incremental, no se seleccionará. Esto puede provocar errores de actualización de datos debido a conflictos de clave de partición.
-
-En el editor de Power Query, seleccione **Administrar parámetros** para definir los parámetros con valores predeterminados.
+Para definir los parámetros con valores predeterminados, haga clic en **Administrar parámetros** en el editor de Power Query.
 
 ![Administrar parámetros](media/service-premium-incremental-refresh/manage-parameters.png)
 
-Con los parámetros ya definidos, se puede aplicar el filtro seleccionando la opción de menú **Filtro personalizado** en una columna.
+Con los parámetros definidos, después puede aplicar el filtro si selecciona la opción de menú **Filtro personalizado** para una columna.
 
 ![Filtro personalizado](media/service-premium-incremental-refresh/custom-filter.png)
 
@@ -62,11 +56,23 @@ Procure filtrar las filas en las que el valor de la columna sea *igual o posteri
 ![Filtrar filas](media/service-premium-incremental-refresh/filter-rows.png)
 
 > [!TIP]
-> Si bien el tipo de datos de los parámetros debe ser fecha y hora, estos se pueden convertir para que coincidan con los requisitos del origen de datos. Por ejemplo, la siguiente función de Power Query convierte un valor de fecha y hora para que aparezca como una clave suplente de enteros con la forma *ddmmaaaa*, algo habitual en los almacenamientos de datos. Se puede llamar a la función durante el paso de filtrado.
+> Aunque el tipo de datos de los parámetros debe ser fecha y hora, se pueden convertir para que coincidan con los requisitos del origen de datos. Por ejemplo, la siguiente función de Power Query convierte un valor de fecha y hora para que aparezca como una clave suplente de enteros con la forma *ddmmaaaa*, algo habitual en los almacenamientos de datos. Se puede llamar a la función durante el paso de filtrado.
 >
 > `(x as datetime) => Date.Year(x)*10000 + Date.Month(x)*100 + Date.Day(x)`
 
 Seleccione **Cerrar y aplicar** en el editor de Power Query. Ahora deberíamos tener un subconjunto del conjunto de datos en Power BI Desktop.
+
+#### <a name="filter-date-column-updates"></a>Filtrado de las actualizaciones de columna de fecha
+
+El filtro de la columna de fecha se usa para particionar de forma dinámica los datos en intervalos en el servicio Power BI. La actualización incremental no está diseñada para admitir casos en los que la columna de fecha filtrada se actualiza en el sistema de origen. Una actualización se interpretará como una inserción y una eliminación, no como una actualización real. Si la eliminación se produce en el intervalo histórico y no en el intervalo incremental, no se seleccionará. Esto puede provocar errores de actualización de datos debido a conflictos de clave de partición.
+
+#### <a name="query-folding"></a>Plegado de consultas
+
+Es importante que los filtros de partición se inserten en el sistema de origen cuando las consultas se envían para las operaciones de actualización. La transferencia del filtrado significa que el origen de datos debe admitir el plegado de consultas. La mayoría de orígenes de datos compatibles con las consultas SQL admiten el plegado de consultas. Pero los orígenes de datos como los archivos sin formato, los blobs y las fuentes web y de OData normalmente no lo hacen. En casos en los que el filtro no es compatible con el back-end de origen de datos, no se puede realizar la transferencia. En tales casos, el motor de mashup compensa y aplica el filtro localmente, lo cual puede requerir la recuperación del conjunto de datos completo desde el origen de datos. Esto puede provocar que una actualización incremental sea muy lenta y el proceso puede quedarse sin recursos en el servicio Power BI o en la puerta de enlace de datos local, si se utiliza.
+
+Dados los diversos niveles de compatibilidad con el plegado de consultas para cada origen de datos, se recomienda comprobar que la lógica de filtro se incluye en las consultas de origen. Para facilitar esta tarea, Power BI Desktop intenta realizar esta comprobación de forma automática. Si no lo puede comprobar, se muestra una advertencia en el cuadro de diálogo de la actualización incremental al definir la directiva de actualización incremental. Los orígenes de datos basados en SQL como SQL, Oracle y Teradata pueden depender de esta advertencia. Es posible que otros orígenes de datos no puedan ejecutar la comprobación sin realizar el seguimiento de las consultas. Si Power BI Desktop no puede realizar la confirmación, se muestra la advertencia siguiente.
+
+ ![Plegado de consultas](media/service-premium-incremental-refresh/query-folding.png)
 
 ### <a name="define-the-refresh-policy"></a>Definir la directiva de actualización
 
@@ -85,13 +91,13 @@ Se abre el cuadro de diálogo Actualización incremental. Use el botón de alter
 
 En el texto del encabezado se explica lo siguiente:
 
-- Solo se admiten actualizaciones incrementales en las áreas de trabajo con capacidad Premium. Las directivas de actualización se definen en Power BI Desktop y se aplican por medio de operaciones de actualización en el servicio.
+- La actualización incremental solo se admite para las áreas de trabajo de las capacidades Premium. Las directivas de actualización se definen en Power BI Desktop y se aplican por medio de operaciones de actualización en el servicio.
 
-- Si descarga el archivo PBIX que contiene una directiva de actualización incremental desde el servicio Power BI, no se abrirá en Power BI Desktop. Pronto no podrá descargarlo en ninguna circunstancia. Aunque esto puede que sí sea posible en el futuro, recuerde que estos conjuntos de datos pueden crecer tanto que sea poco práctico descargarlos y abrirlos en un equipo de escritorio al uso.
+- Si descarga el archivo PBIX que contiene una directiva de actualización incremental desde el servicio Power BI, no se podrá abrir en Power BI Desktop. Aunque es posible que esto se admita en el futuro, recuerde que estos conjuntos de datos pueden crecer tanto que sea poco práctico descargarlos y abrirlos en un equipo de escritorio convencional.
 
 #### <a name="refresh-ranges"></a>Frecuencias de actualización
 
-El ejemplo siguiente define una directiva de actualización para almacenar los datos de cinco años naturales completos más los datos del año actual hasta la fecha de hoy y actualizar de forma incremental 10 días de datos. La primera operación de actualización cargará los datos históricos. Las actualizaciones posteriores serán incrementales y (si se han programado para ejecutarse a diario) llevarán a cabo las siguientes operaciones.
+En el ejemplo siguiente se define una directiva de actualización para almacenar los datos de cinco años naturales completos más los datos del año actual hasta la fecha de hoy y actualizar de forma incremental 10 días de datos. La primera operación de actualización carga los datos históricos. Las actualizaciones posteriores son incrementales y (si se han programado para ejecutarse a diario) realizan las operaciones siguientes:
 
 - Se agrega un nuevo día de datos.
 
@@ -103,13 +109,14 @@ La primera actualización en el servicio Power BI puede tardar más en importar 
 
 ![Frecuencias de actualización](media/service-premium-incremental-refresh/refresh-ranges.png)
 
-**Definir estas frecuencias de actualización probablemente sea todo lo que necesita, en cuyo caso puede ir directamente al paso de publicación. Las listas desplegables adicionales se corresponden con características avanzadas.**
+> [!NOTE]
+> Es posible que todo lo que necesite sea la definición de estas frecuencias, en cuyo caso puede ir directamente al paso de publicación siguiente. Las listas desplegables adicionales se corresponden con características avanzadas.
 
 ### <a name="advanced-policy-options"></a>Opciones avanzadas de directiva
 
 #### <a name="detect-data-changes"></a>Detectar cambios de datos
 
-Una actualización incremental de 10 días es, evidentemente, mucho más eficaz que realizar una actualización completa de cinco años. Pero hasta esto podemos mejorarlo. Si activa la casilla **Detectar cambios de datos**, puede seleccionar una columna de fecha y hora y usarla para identificar y actualizar solo los días donde los datos hayan cambiado. Aquí se da por hecho que esta columna existe en el sistema de origen, que se suele usar con fines de auditoría. **Esta columna no debe ser la misma que la usada para dividir los datos con los parámetros RangeStart/RangeEnd.** El valor máximo de esta columna se evalúa para cada uno de los períodos en la frecuencia incremental. Si no ha cambiado desde la última actualización, no es necesario actualizar período. En el ejemplo, esto podría reducir aún más los días actualizados incrementalmente de 10 a, quizá, 2.
+Una actualización incremental de 10 días es más eficaz que una actualización completa de cinco años. Pero es posible hacerlo incluso mejor. Si activa la casilla **Detectar cambios de datos**, puede seleccionar una columna de fecha y hora y usarla para identificar y actualizar solo los días donde los datos hayan cambiado. Aquí se da por hecho que esta columna existe en el sistema de origen, que se suele usar con fines de auditoría. **Esta columna no debe ser la misma que la usada para dividir los datos con los parámetros RangeStart/RangeEnd.** El valor máximo de esta columna se evalúa para cada uno de los períodos en la frecuencia incremental. Si no ha cambiado desde la última actualización, no es necesario actualizar período. En el ejemplo, esto podría reducir aún más los días actualizados de forma incremental de 10 a aproximadamente 2.
 
 ![Detectar cambios](media/service-premium-incremental-refresh/detect-changes.png)
 

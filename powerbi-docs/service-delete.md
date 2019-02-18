@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 985c4b4dc7afa3fc68945f483e8ff775b925e462
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276573"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216134"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -51,7 +51,7 @@ No se preocupe, la eliminación de un informe no elimina el conjunto de datos en
    >
 
 ## <a name="delete-a-workbook"></a>Eliminar un libro
-Se pueden quitar los libros. Sin embargo, al quitar un libro, se quitan también todos los informes y los iconos de panel que contengan datos del libro.
+Los libros se pueden quitar. Sin embargo, al quitar un libro, se quitan también todos los informes y los iconos de panel que contengan datos del libro.
 
 Si el libro está almacenado en OneDrive para la Empresa, al eliminarlo de Power BI no se elimina de OneDrive.
 

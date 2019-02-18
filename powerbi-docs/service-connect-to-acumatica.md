@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: c6f3e3cf3947abf9ead15fa6b91445c8aadd6420
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: aec463a4ce72f89f0cbbcf1bd42737605657a43c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008359"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215767"
 ---
 # <a name="connect-to-acumatica-with-power-bi"></a>Conexión a Acumatica con Power BI
 El paquete de contenido de Acumatica para Power BI permite obtener rápidamente información sobre los datos de oportunidad. Power BI recupera los datos sobre oportunidades, cuentas y clientes para, a continuación, crear un panel predeterminado e informes relacionados basados en dichos datos.
@@ -45,7 +45,7 @@ Conéctese al [paquete de contenido de Acumatica](https://app.powerbi.com/getdat
 5. En el Método de autenticación, seleccione **Básico**. Escriba el nombre de usuario y la contraseña de la cuenta de Acumatica y haga clic en **Iniciar sesión**.
    
     ![](media/service-connect-to-acumatica/creds2.png)
-6. Una vez que Power BI importe los datos, verá un nuevo panel, el informe y el conjunto de datos en el panel de navegación izquierdo. Los nuevos elementos se muestran marcados con un asterisco amarillo \* que desaparece una vez que se realiza la selección. Al elegir el panel se mostrará un diseño similar al siguiente:
+6. Una vez que Power BI importe los datos, verá un nuevo panel, el informe y el conjunto de datos en el panel de navegación izquierdo. Los nuevos elementos se marcan con un asterisco de color amarillo \* que desaparece una vez que se realiza la selección. Al elegir el panel se mostrará un diseño similar al siguiente:
    
     ![](media/service-connect-to-acumatica/dashboard.png)
 

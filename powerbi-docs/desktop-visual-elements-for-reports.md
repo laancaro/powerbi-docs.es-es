@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: bef307678c471303fde7382e3c1be1648d49f0db
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 457861d17aea03303df9c271c52e7f962f525bbc
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280318"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223269"
 ---
 # <a name="use-visual-elements-to-enhance-power-bi-reports"></a>Uso de elementos visuales para mejorar los informes de Power BI
 
@@ -51,7 +51,7 @@ La **página** del informe siempre está en primer plano (en comparación con el
 
 Estos son los valores predeterminados para todos los informes nuevos:
 
-* La **página** del informe está establecida en **blanco** y su transparencia, en **100 %**
+* La **página** del informe está establecida en **blanco** y su transparencia en **100 %**
 * El **papel tapiz** está establecido en **blanco** y su transparencia, en **0 %**
 
 Al establecer el fondo de la página en una transparencia superior al 50 %, aparece un borde punteado mientras crea o edita el informe para mostrar el límite del borde del lienzo del informe. 

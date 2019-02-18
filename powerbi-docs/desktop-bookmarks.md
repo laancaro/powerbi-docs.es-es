@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 95bbbd8402fd2f489af5d4276616ba045d1c938b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287747"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216444"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -117,7 +117,7 @@ Si está en modo de edición puede usar ctrl+clic para seguir el vínculo y, si 
 
 A partir de la versión de agosto de 2018 de **Power BI Desktop**, puede crear y usar grupos de marcadores. Un grupo de marcadores es una colección de marcadores que especifica y que se pueden mostrar y organizar como un grupo. 
 
-Para crear un grupo de marcadores, mantenga presionada la tecla CTRL y seleccione los marcadores que quiera incluir en el grupo; después, haga clic en los puntos suspensivos situados junto a cualquiera de los marcadores seleccionados y haga clic en **Agrupar** en el menú que aparece.
+Para crear un grupo de marcadores, mantenga presionada la tecla CTRL y seleccione los marcadores que quiera incluir en el grupo; después, haga clic en los puntos suspensivos situados junto a cualquiera de los marcadores seleccionados y seleccione **Agrupar** en el menú que aparece.
 
 ![Crear un grupo de marcadores](media/desktop-bookmarks/bookmarks_15.png)
 

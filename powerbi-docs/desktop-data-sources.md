@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f5fc52df86faa69683fa1e76f8893fb1d1a09ab9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da269e3bb025e8d53ee3bb7707f3bb78d592e011
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281169"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225923"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -77,11 +77,14 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Amazon Redshift
 * Impala
 * Google BigQuery
+* Vertica
 * Snowflake
 * Essbase (Beta)
-* Conector de BI
+* Dremio
 * Exasol
-* Dremio (Beta)
+* MarkLogic (Beta)
+* Cubos AtScale (Beta)
+* Conector de BI
 * Jethro (beta)
 * Kyligence Enterprise (Beta)
 
@@ -136,8 +139,6 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Google Analytics
 * Adobe Analytics
 * appFigures (Beta)
-* comScore Digital Analytix (beta)
-* Dynamics 365 for Customer Insights (Beta)
 * Data.World - Obtener un conjunto de datos (Beta)
 * Facebook
 * GitHub (Beta)
@@ -157,6 +158,8 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Webtrends (Beta)
 * Zendesk (Beta)
 * TeamDesk (Beta)
+* Origen de datos de Emigo (Beta)
+* Microsoft Graph Security (Beta)
 
 La imagen siguiente muestra la ventana **Obtener datos** para **Online Services**
 
@@ -164,7 +167,6 @@ La imagen siguiente muestra la ventana **Obtener datos** para **Online Services*
 
 La categoría **Otros** proporciona las siguientes conexiones de datos:
 
-* Vertica
 * Web
 * Lista de SharePoint
 * Fuente de OData
@@ -176,8 +178,12 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 * Script de Python
 * ODBC
 * OLE DB
+* Dimensiones de Workforce (Beta)
 * Denado
 * Paxata (Beta)
+* SurveyMonkey (Beta)
+* QubolePresto (Beta)
+* Quick Base (Beta)
 * Consulta en blanco
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
@@ -190,7 +196,7 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 ## <a name="connecting-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar**. En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .
 
-![Conectar a Web](media/desktop-data-sources/data-sources_08a.png)
+![Conectar a Web](media/desktop-data-sources/data-sources_08.png)
 
 Se muestra una ventana de conexión, específica al tipo de conexión de datos. Si se necesitan credenciales, se le pedirá que las proporcione. La siguiente imagen muestra una dirección URL que se escribió para conectarse a un origen de datos web.
 

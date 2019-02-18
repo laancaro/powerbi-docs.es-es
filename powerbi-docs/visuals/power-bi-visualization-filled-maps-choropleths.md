@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 09/27/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 67055f855ad2872a7cf175aba85aefae7945f670
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ef03a562351b8f4487e4822ef28b89009ee5cbb4
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276316"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223499"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos en Power BI
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región.  Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).    
@@ -111,7 +111,7 @@ Al resaltar una ubicación en un mapa coroplético, se realiza un filtrado cruza
 
     ![Pestaña Opiniones seleccionada](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Mueva y cambie el tamaño de las visualizaciones de la página para hacer espacio, y después presione CTRL+V para pegar el mapa coroplético del informe anterior.
+4. Mueva y cambie el tamaño de las visualizaciones de la página para hacer espacio, y después presione CTRL-V para pegar el mapa coroplético del informe anterior.
 
    ![Mapa coroplético agregado a la página Opinión](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 

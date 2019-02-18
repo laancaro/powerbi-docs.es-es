@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 83961f3ad469a4a7a76ceb6e1e4dba846a6edb04
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287652"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223683"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -92,7 +92,7 @@ En la tabla siguiente se describen las características de los flujos de datos y
 |Entidades vinculadas a flujos de datos| |        +|
 |Esquema estandarizado/soporte integrado para Common Data Service|  +|  +|
 
-Para obtener más información sobre cómo habilitar las cargas de trabajo de flujo de datos en una capacidad Premium, consulte el artículo de [configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads) de Power BI Premium. Las cargas de trabajo del flujo de datos no están actualmente disponibles en las capacidades de varias ubicaciones geográficas.
+Para obtener más información sobre cómo habilitar las cargas de trabajo de flujo de datos en una capacidad Premium, consulte el artículo de [configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads) de Power BI Premium. Las cargas de trabajo de flujo de datos no están actualmente disponibles en las funciones de Multi-Geo.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Resumen de la preparación de datos de autoservicio para macrodatos en Power BI
 Como se mencionó anteriormente en este artículo, existen varios escenarios y ejemplos donde los **flujos de datos** pueden permitirle obtener un mejor control e información más rápida de sus datos empresariales. Mediante un modelo de datos estándar (esquema) definido por Common Data Service, los flujos de datos pueden importar sus datos profesionales importantes y tener los datos listos para el modelado y la creación de información detallada de inteligencia empresarial en muy poco tiempo... cuya creación solía llevar meses, o incluso más. 

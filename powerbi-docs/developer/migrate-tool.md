@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 41ab7f06da3038e48e2d1188edc8b91edeee8d4f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 76e6ebec14d5feefd319213c05fddb0839a55ccd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762361"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216387"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Herramienta de migración de Power BI Embedded
 
@@ -189,7 +189,7 @@ Después de crear el área de trabajo, puede continuar en la pestaña **Upload**
 
 En la pestaña **Upload** (Cargar), esto permite cargar los informes en el servicio Power BI. Verá una lista de los informes que se descargaron en la pestaña Descargar junto con el nombre del grupo de destino en función del plan de migración.
 
-![Pestaña Cargar](media/migrate-tool/migrate-tool-upload-tab.png)
+![Pestaña de carga](media/migrate-tool/migrate-tool-upload-tab.png)
 
 Puede cargar los informes seleccionados o puede cargar todos los informes. También puede restablecer el estado de la carga en volver a cargar los elementos.
 
@@ -207,7 +207,7 @@ Debe cerrar la herramienta de migración para realizar el cambio y, a continuaci
 
 En el ejemplo anterior, uno de los informes clonados genera un error que indica que ya existe un informe con el mismo nombre. Si decidimos mirar el código XML del plan de migración, se verá lo siguiente.
 
-```
+```xml
 <ReportMigrationData>
     <PaaSWorkspaceCollectionName>SampleWorkspaceCollection</PaaSWorkspaceCollectionName>
     <PaaSWorkspaceId>4c04147b-d8fc-478b-8dcb-bcf687149823</PaaSWorkspaceId>
@@ -229,7 +229,7 @@ En el ejemplo anterior, uno de los informes clonados genera un error que indica 
 
 Para el elemento con error, podemos cambiar el nombre de SaaSTargetReportName.
 
-```
+```xml
 <SaaSTargetReportName>cloned2</SaaSTargetReportName>
 ```
 
@@ -245,7 +245,7 @@ Volviendo a Power BI, podemos ver que los informes y conjuntos de datos se han c
 
 Puede cargar una versión local de un archivo de Power BI Desktop. Tendrá que cerrar la herramienta, editar el archivo XML y colocar la ruta de acceso completa a su archivo PBIX local en la propiedad **PbixPath**.
 
-```
+```xml
 <PbixPath>[Full Path to PBIX file]</PbixPath>
 ```
 
@@ -255,9 +255,9 @@ Después de editar el archivo XML, vuelva a abrir el plan en la herramienta de m
 
 ### <a name="directquery-reports"></a>Informes de DirectQuery
 
-Debe actualizar la cadena de conexión para los informes de DirectQuery. Esto puede realizarse en *powerbi.com* o bien puede consultar mediante programación la cadena de conexión desde Power BI Embedded (Paas). Para obtener un ejemplo, consulte [Extract DirectQuery connection string from PaaS report](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) (Extraer cadena de conexión de DirectQuery desde un informe de PaaS).
+Debe actualizar la cadena de conexión para los informes de DirectQuery. Esto se puede realizar en *powerbi.com*, o bien puede consultar mediante programación la cadena de conexión desde Power BI Embedded (PaaS). Para obtener un ejemplo, consulte [Extract DirectQuery connection string from PaaS report](migrate-code-snippets.md#extract-directquery-connection-string-from-paas-report) (Extraer cadena de conexión de DirectQuery desde un informe de PaaS).
 
-A continuación, puede actualizar la cadena de conexión para el conjunto de datos en el servicio Power BI (Saas) y establecer las credenciales para el origen de datos. También puede buscar en los ejemplos siguientes para ver cómo hacerlo.
+Después, puede actualizar la cadena de conexión para el conjunto de datos en el servicio Power BI (SaaS) y establecer las credenciales para el origen de datos. También puede buscar en los ejemplos siguientes para ver cómo hacerlo.
 
 * [Update DirectQuery connection string is SaaS workspace](migrate-code-snippets.md#update-directquery-connection-string-is-saas-workspace) (Actualizar una cadena de conexión de DirectQuery en el área de trabajo de SaaS)
 * [Set DirectQuery credentials in SaaS workspace](migrate-code-snippets.md#set-directquery-credentials-in-saas-workspace) (Establecer las credenciales de DirectQuery en el área de trabajo de SaaS)

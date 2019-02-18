@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 545e8f874cca18167ee260daa92eec3ef1c3e925
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 0893d63c9f153b3b2810116a902a13afff3cb2ce
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291496"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223959"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -81,7 +81,7 @@ Luego, en la lista desplegable **Página**, seleccione la página de informació
 
 ![Selección de una página de información en pantalla para una información en pantalla manual](media/desktop-tooltips/desktop-tooltips_10.png)
 
-El hecho de establecer una información en pantalla manualmente tiene muchas aplicaciones. Puede establecer una página en blanco para una información en pantalla y, por tanto, invalidar la selección predeterminada de Power BI. Otro uso es cuando no quiere usar la información en pantalla que selecciona automáticamente Power BI. Por ejemplo, si tiene un objeto visual que incluye dos campos y estos tienen asociada información en pantalla, Power BI seleccionará solo uno para mostrarlo. Si no quiere que sea así, puede seleccionar manualmente la información en pantalla que se debe mostrar.
+El hecho de establecer una información en pantalla manualmente tiene muchas aplicaciones. Puede establecer una página en blanco para una información en pantalla y, por tanto, invalidar la selección predeterminada de Power BI. Otro uso es cuando no quiere usar la información en pantalla que selecciona automáticamente Power BI. Por ejemplo, si tiene un objeto visual que incluye dos campos y los dos tienen asociada información en pantalla, Power BI seleccionará solo uno para mostrarlo. Si no quiere que sea así, puede seleccionar manualmente la información en pantalla que se debe mostrar.
 
 ## <a name="reverting-to-default-tooltips"></a>Revertir a la información en pantalla predeterminada
 
@@ -97,7 +97,7 @@ Debe tener en cuenta algunas consideraciones si la información en pantalla de i
 
 Cuando se muestra una información en pantalla de informe de un gráfico de líneas, solo se muestra para todas las líneas del gráfico. Es similar al comportamiento predeterminado de la información en pantalla de los gráficos de líneas, que también muestra únicamente una información en pantalla. 
 
-Esto se debe a que el campo de la leyenda no se transfiere como filtro para la información en pantalla. En la siguiente imagen, la información visualizada muestra todas las unidades vendidas ese día en las tres clases que se muestran en la información en pantalla para informes (en este ejemplo, Deluxe, Economy y Regular). 
+Esto se debe a que el campo de la leyenda no se transfiere como filtro para la información en pantalla. En la imagen siguiente, en la información sobre herramientas visualizada se muestran todas las unidades vendidas ese día en las tres clases que se muestran en la información en pantalla para informes (en este ejemplo, Deluxe, Economy y Regular). 
 
 ![Los gráficos de líneas solo muestran los datos agregados de la información en pantalla](media/desktop-tooltips/desktop-tooltips_12.png)
 

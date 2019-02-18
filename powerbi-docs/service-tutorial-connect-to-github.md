@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/17/2018
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: bad76adc42fc9f70c1439c6da0cfe2d149bbbe43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8f44356f79b8a77ef06fe464671dbbaaaa4187e9
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295710"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215595"
 ---
 # <a name="tutorial-connect-to-a-github-sample-with-power-bi"></a>Tutorial: Conexión a ejemplos de GitHub con Power BI
 En este tutorial, nos conectaremos a datos reales en el servicio de GitHub con Power BI. Power BI creará automáticamente paneles e informes. Nos conectamos al repositorio público de contenido de Power BI (también conocido como *repositorio*) y consultamos la información: ¿Cuántas personas contribuyen al contenido público de Power BI? ¿Quiénes contribuyen en mayor medida? ¿Qué día de la semana ha habido más contribuciones? También hay respuestas a otras preguntas. 
@@ -69,7 +69,7 @@ Para completar este tutorial, se necesita una cuenta de GitHub, si aún no tiene
  
    ![Icono de GitHub en Power BI](media/service-tutorial-connect-to-github/power-bi-github-app-tutorial-tile.png) 
 
-8. Seleccione el icono de navegación global para minimizar la navegación izquierda y, así, disponer de más espacio.
+8. Haga clic en el icono de navegación global para minimizar la navegación de la izquierda y, así, disponer de más espacio.
 
     ![Icono de navegación global](media/service-tutorial-connect-to-github/power-bi-global-navigation-icon.png)
 

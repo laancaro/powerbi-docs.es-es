@@ -1,53 +1,43 @@
 ---
-title: Relaciones de varios a varios en Power BI Desktop (versión preliminar)
-description: Uso de relaciones de varios a varios en Power BI Desktop
+title: Relaciones de varios a varios en Power BI Desktop
+description: Uso de relaciones con una cardinalidad de varios a varios en Power BI Desktop
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/17/2018
+ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 8d32ad24fd41c33d0b1e1f37f11be39292e82742
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 3f3c901140ca4f2ae2d93d1c3bc17bb519d41212
+ms.sourcegitcommit: d010b10bc14097a1948daeffbc91b864bd91f7c8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291082"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56225969"
 ---
-# <a name="many-to-many-relationships-in-power-bi-desktop-preview"></a>Relaciones de varios a varios en Power BI Desktop (versión preliminar)
+# <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relaciones con una cardinalidad de varios a varios en Power BI Desktop
 
-Con la característica *Relaciones de varios a varios* en Power BI Desktop, puede combinar las tablas que usen una cardinalidad de *varios a varios*. Puede crear modelos de datos que contengan dos o más orígenes de datos de forma más fácil e intuitiva. La característica *Relación de varios a varios* forma parte del conjunto de funcionalidades de los *modelos compuestos* de Power BI Desktop.
+Con la característica *relaciones con una cardinalidad de varios a varios* en Power BI Desktop, puede combinar las tablas en las que se usa una cardinalidad de *varios a varios*. Puede crear modelos de datos que contengan dos o más orígenes de datos de forma más fácil e intuitiva. La característica de *relaciones con una cardinalidad de varios a varios* forma parte del conjunto de funcionalidades de los *modelos compuestos* de Power BI Desktop.
 
 ![Relación varios a varios en el panel Editar relación](media/desktop-many-to-many-relationships/many-to-many-relationships_01.png)
 
-La funcionalidad *Relaciones de varios a varios* de Power BI Desktop es una de tres características relacionadas:
+La funcionalidad *relaciones con una cardinalidad de varios a varios* de Power BI Desktop es una de tres características relacionadas:
 
 * **Modelos compuestos**: esta característica permite que un informe tenga dos o varias conexiones de datos, incluidas conexiones DirectQuery o Importación, en cualquier combinación. Para obtener más información, vea [Modelos compuestos en Power BI Desktop (versión preliminar)](desktop-composite-models.md).
 
-* **Relaciones de varios a varios**: mediante el uso de *modelos compuestos*, puede establecer *relaciones de varios a varios* entre las tablas. Este enfoque elimina los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como el hecho de presentar nuevas tablas solo para establecer relaciones. La característica se describe más detalladamente en este artículo.
+* **Relaciones con una cardinalidad de varios a varios**: con los *modelos compuestos*, puede establecer *relaciones con una cardinalidad de varios a varios* entre las tablas. Este enfoque elimina los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como el hecho de presentar nuevas tablas solo para establecer relaciones. La característica se describe más detalladamente en este artículo.
 
 * **Modo de almacenamiento**: ahora puede especificar los objetos visuales que requieren una consulta a los orígenes de datos back-end. Los objetos visuales que no requieran una consulta se importarán incluso aunque estén basados en DirectQuery. Esta característica permite mejorar el rendimiento y reducir la carga de back-end. Anteriormente, incluso los objetos visuales simples, como las segmentaciones, iniciaban consultas que se enviaban a los orígenes de back-end. Para obtener más información, vea [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md).
 
-## <a name="enable-the-many-to-many-relationships-preview-feature"></a>Habilitación de la característica de *relaciones de varios a varios* en versión preliminar
+## <a name="what-relationships-with-a-many-many-cardinality-solves"></a>Qué resuelven las *relaciones con una cardinalidad de varios a varios*
 
-La característica *Relaciones varios a varios* debe habilitarse en Power BI Desktop. Para habilitar los modelos compuestos, seleccione **Archivo** > **Opciones y configuración** > **Opciones** > **Características de versión preliminar** y active la casilla de verificación **Modelos compuestos**.
+Antes de que la característica *relaciones con una cardinalidad de varios a varios* estuviese disponible, la relación entre dos tablas se definía en Power BI. Al menos una de las columnas de las tablas implicadas en la relación tenía que contener valores únicos. No obstante, a menudo ninguna columna contiene valores únicos. 
 
-![Panel Características en versión preliminar](media/desktop-composite-models/composite-models_02.png)
+Por ejemplo, dos tablas podían tener una columna etiquetada como *País*, pero los valores de *País* no eran únicos en ninguna tabla. Para unir dichas tablas, era necesario crear una solución alternativa. Una solución de este tipo sería introducir en el modelo tablas adicionales con los valores únicos necesarios. Con la característica *relaciones con una cardinalidad de varios a varios*, puede combinar estas tablas directamente mediante una relación con una cardinalidad de **varios a varios**.  
 
-Para habilitar la característica, es necesario reiniciar Power BI Desktop.
-
-![Ventana Reinicio necesario para la característica](media/desktop-composite-models/composite-models_03.png)
-
-## <a name="what-many-to-many-relationships-solves"></a>Qué resuelve la característica *Relaciones de varios a varios*
-
-Antes de que la característica *Relaciones varios a varios* estuviese disponible, la relación entre dos tablas se establecía en Power BI. Al menos una de las columnas de las tablas implicadas en la relación tenía que contener valores únicos. No obstante, a menudo ninguna columna contiene valores únicos. 
-
-Por ejemplo, dos tablas podían tener una columna etiquetada como *País*, pero los valores de *País* no eran únicos en ninguna tabla. Para unir dichas tablas, era necesario crear una solución alternativa. Una solución de este tipo sería introducir en el modelo tablas adicionales con los valores únicos necesarios. Con la característica *Relaciones varios a varios*, puede combinar estas tablas directamente mediante una relación con una cardinalidad de **varios a varios**.  
-
-## <a name="use-many-to-many-relationships"></a>Uso de las *Relaciones de varios a varios*
+## <a name="use-relationships-with-a-many-many-cardinality"></a>Uso de *relaciones con una cardinalidad de varios a varios*
 
 Cuando define una relación entre dos tablas de Power BI, debe definir la cardinalidad de la relación. Por ejemplo, la relación entre *ProductSales* y *Product*, usando las columnas *ProductSales [ProductCode]* y *Product[ProductCode]*, se definiría como de *varios a uno*. La relación se define de esta manera porque hay muchas ventas para cada producto y la columna *(ProductCode)* en la tabla *Producto* es única. Al definir la cardinalidad de la relación como de *varios a uno*, *uno a varios* o *uno a uno*, Power BI la valida para ayudar a garantizar que la cardinalidad que seleccione coincida con los datos reales.
 
@@ -117,14 +107,11 @@ Si se define la nueva tabla *Ventas* como la combinación de todos los *Estados*
 
 ![Objeto visual de tabla](media/desktop-many-to-many-relationships/many-to-many-relationships_11.png)
 
-Como puede ver, tanto *TX*, que tiene datos de *Ventas*, pero del que se desconoce la *Población*, como *Nueva York*, del que se conocen los datos de *Población*, pero no los de *Ventas*, estarían incluidos. Esta solución no es óptima y presenta muchos problemas. Con la creación de las relaciones de varios a varios, se abordan estos problemas tal como se indica en la siguiente sección.
+Como puede ver, tanto *TX*, que tiene datos de *Ventas*, pero del que se desconoce la *Población*, como *Nueva York*, del que se conocen los datos de *Población*, pero no los de *Ventas*, estarían incluidos. Esta solución no es óptima y presenta muchos problemas. Con la creación de las relaciones con una cardinalidad de varios a varios, estos problemas se abordan como se describe en la sección siguiente.
 
-## <a name="use-many-to-many-relationships-instead-of-the-workaround"></a>Uso de las *relaciones de varios a varios* en lugar de la solución alternativa
+## <a name="use-relationships-with-a-many-many-cardinality-instead-of-the-workaround"></a>Uso de *relaciones con una cardinalidad de varios a varios*  en lugar de la solución alternativa
 
 A partir de la versión de julio de 2018 de Power BI Desktop, puede relacionar directamente las tablas, como las que se han descrito anteriormente, sin tener que recurrir a soluciones alternativas similares. Ahora es posible establecer la cardinalidad de la relación como de *varios a varios*. Este valor indica que ninguna tabla contiene valores únicos. Para dichas relaciones, todavía tiene el control de qué tabla filtra la otra tabla o puede aplicar el filtrado bidireccional, donde ambas tablas se filtran entre sí.  
-
-> [!NOTE]
-> La capacidad de crear *relaciones de varios a varios* está en versión preliminar. Mientras esté en versión preliminar, no será posible publicar contenido en los modelos del servicio Power BI que usen *relaciones de varios a varios*. 
 
 En Power BI Desktop, la cardinalidad se establece de manera predeterminada en *Varios a varios* cuando se determina que ninguna tabla contiene valores únicos para las columnas de la relación. En tales casos se muestra una advertencia para confirmar que esa configuración de relación es el comportamiento deseado, en lugar de ser el efecto no deseado de un problema de datos. 
 
@@ -136,7 +123,7 @@ La vista de **relaciones** resultante mostrará la relación de varios a varios 
 
 ![Objeto visual de tabla](media/desktop-many-to-many-relationships/many-to-many-relationships_12.png)
 
-Las principales diferencias entre las relaciones de *varios a varios* y las relaciones de *varios a uno* más típicas son las siguientes:
+Las principales diferencias entre las *relaciones con una cardinalidad de varios a varios*  y las relaciones de *varios a uno* más típicas son las siguientes:
 
 * Los valores mostrados no incluyen una fila en blanco dedicada a las filas que no coinciden en la otra tabla. Tampoco tienen en cuenta los valores de las filas donde la columna usada en la relación en la otra tabla es NULL.
 * No es posible usar la función `RELATED()`, ya que se podría relacionar más de una fila.
@@ -153,7 +140,7 @@ Teniendo en cuenta las diferencias anteriores, asegúrese de que los cálculos q
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
-Existen algunas limitaciones para esta versión de las *relaciones de varios a varios* y los modelos compuestos.
+Existen algunas limitaciones para esta versión de las *relaciones con una cardinalidad de varios a varios* y los modelos compuestos.
 
 Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar con los modelos compuestos:
 
@@ -165,7 +152,7 @@ Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar 
 
 Al conectarse a esos orígenes multidimensionales mediante DirectQuery, no se puede conectar a otro origen de DirectQuery ni combinar con los datos importados.
 
-Las limitaciones existentes de usar DirectQuery siguen aplicándose cuando se usan las *relaciones de varios a varios*. Muchas de esas limitaciones son ahora por tabla, en función del modo de almacenamiento de la tabla. Por ejemplo, una columna calculada en una tabla importada puede hacer referencia a otras tablas, pero una columna calculada en una tabla DirectQuery puede hacer referencia solo a columnas de la misma tabla. Otras limitaciones se aplican al modelo como un todo, si cualquiera de las tablas dentro del modelo son DirectQuery. Por ejemplo, las características Conclusiones rápidas y Preguntas y respuestas no están disponibles en un modelo si cualquiera de las tablas dentro del mismo tiene un modo de almacenamiento de DirectQuery. 
+Las limitaciones existentes del uso de DirectQuery se siguen aplicando cuando se utilizan las *relaciones con una cardinalidad de varios a varios*. Muchas de esas limitaciones son ahora por tabla, en función del modo de almacenamiento de la tabla. Por ejemplo, una columna calculada en una tabla importada puede hacer referencia a otras tablas, pero una columna calculada en una tabla DirectQuery puede hacer referencia solo a columnas de la misma tabla. Otras limitaciones se aplican al modelo como un todo, si cualquiera de las tablas dentro del modelo son DirectQuery. Por ejemplo, las características Conclusiones rápidas y Preguntas y respuestas no están disponibles en un modelo si cualquiera de las tablas dentro del mismo tiene un modo de almacenamiento de DirectQuery. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

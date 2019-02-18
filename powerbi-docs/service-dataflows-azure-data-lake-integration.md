@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 763b331fd0a5ff47263ea54d17f6cb17516de79d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1c503492da52592730b82857725b388ca440f2bd
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296786"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215615"
 ---
 # <a name="dataflows-and-azure-data-lake-integration-preview"></a>Integración de flujos de datos y Azure Data Lake (versión preliminar)
 
@@ -65,7 +65,7 @@ Para crear y administrar carpetas de CDS en el sistema de archivos de Power BI, 
 
 Compartir carpetas de CDS con consumidores de datos, como usuarios o servicios que necesitan leer los datos, se simplifica con los tokens de portador de OAuth de Active Directory y las ACL de POSIX. Al hacerlo, proporciona a los administradores la posibilidad de supervisar quién accedió a la carpeta de CDS. La única acción necesaria es conceder acceso a un objeto de Active Directory de su elección (como un grupo de usuario o un servicio) a la carpeta de CDS. Se recomienda que todo el acceso que se conceda a la carpeta de CDS, para cualquier identidad que no sea el productor de datos, sea de solo lectura. Al hacerlo, protege la integridad de los datos que genera el productor.
 
-Para agregar carpetas de CDS a Power BI, el usuario que agrega una de estas carpetas debe tener listas ACL de acceso de *lectura* en la propia carpeta de CDS y los archivos o carpetas que contenga. También debe tener listas ACL de acceso de *ejecución* en la propia carpeta de CDS y las carpetas que contenga. Para más información, se recomienda revisar los artículos [Access control lists on files and directory](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) (Listas de control de acceso en archivos y directorios) y [Best practices for using Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices) (Procedimientos recomendados para usar Azure Data Lake Storage Gen2).
+Para agregar carpetas de CDS a Power BI, el usuario que agrega una de estas carpetas debe tener listas ACL de acceso de *lectura* en la propia carpeta de CDS y los archivos o carpetas que contenga. También debe tener listas ACL de acceso de *ejecución* en la propia carpeta de CDS y las carpetas que contenga. Para más información, se recomienda revisar los artículos [Listas de control de acceso en archivos y directorios](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-access-control#access-control-lists-on-files-and-directories) y [Procedimientos recomendados para usar Azure Data Lake Storage Gen2](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-best-practices).
 
 
 ### <a name="alternative-forms-of-authorization"></a>Formas alternativas de autorización

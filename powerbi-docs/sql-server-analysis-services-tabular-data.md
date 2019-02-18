@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: maghan
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 6e29e750a22bbd6843e203a5cd93b5c0628b1d05
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2716696f4884b967735778db46a2300385a86988
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288782"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215835"
 ---
 # <a name="sql-server-analysis-services-live-data-in-power-bi"></a>Datos activos de SQL Server Analysis Services en Power BI
 En Power BI hay dos maneras de conectarse a un servidor activo de SQL Server Analysis Services. En **Obtener datos**, puede conectarse a un servidor de SQL Server Analysis Services, o bien puede conectarse a un [archivo de Power BI Desktop](service-desktop-files.md) o a un [libro de Excel](service-excel-workbook-files.md) que ya está conectado a un servidor de Analysis Services. Como procedimiento recomendado, Microsoft recomienda encarecidamente que se use Power BI Desktop por la calidad del conjunto de herramientas y la capacidad de mantener una copia de seguridad del archivo de Power BI Desktop de forma local.
@@ -38,11 +38,11 @@ En Power BI hay dos maneras de conectarse a un servidor activo de SQL Server Ana
 4. Seleccione un servidor. Si no ve ningún servidor enumerado aquí, significa que una puerta de enlace, y un origen de datos, no están configurados, o que la cuenta no aparece en la ficha **Usuarios** del origen de datos, en la puerta de enlace. Consulte con su administrador.
 5. Seleccione el modelo al que desea conectarse. Podría ser Tabular o Multidimensional.
 
-Después de conectarse al modelo, aparecerá en su sitio de Power BI en **Mi área de trabajo/Conjuntos de datos**. Si estaba cambiado a un área de trabajo de grupo, el conjunto de datos aparecerá dentro del grupo.
+Después de conectarse al modelo, aparecerá en su sitio de Power BI en **Mi área de trabajo/Conjuntos de datos**. Si se le ha cambiado a un área de trabajo de grupo, el conjunto de datos aparecerá dentro del grupo.
 
 ![](media/sql-server-analysis-services-tabular-data/connecttoas_dataset_5.png)
 
-## <a name="dashboard-tiles"></a>Iconos de panel
+## <a name="dashboard-tiles"></a>Los iconos de panel
 Si ancla objetos visuales de un informe en el panel, los iconos anclados se actualizan automáticamente cada 10 minutos. Si se actualizan los datos en el servidor local de Analysis Services, los iconos se actualizarán de forma automática después de 10 minutos.
 
 ## <a name="common-issues"></a>Problemas comunes

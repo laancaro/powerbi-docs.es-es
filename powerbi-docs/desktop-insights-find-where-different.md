@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 416313f9271950c2f12a554107ab74933c5c31b7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 82844a1e928d30db12ba5659edcee7b07eaaf7b3
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277765"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215367"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-find-where-a-distribution-is-different-preview"></a>Usar información detallada en Power BI Desktop para descubrir en qué se diferencia una distribución (versión preliminar)
 
@@ -38,7 +38,7 @@ En este ejemplo, el análisis automático muestra rápidamente que para las *bic
 > 
 
 ## <a name="using-insights"></a>Uso de la información detallada
-Para usar información detallada a fin de descubrir en qué se diferencian las distribuciones vistas en gráficos, basta con que haga clic con el botón derecho en cualquier punto de datos (o en el objeto visual en su conjunto) y que seleccione **Analyze > Find where the distribution is different** (Analizar > Buscar en qué se diferencia esta distribución).
+Para usar información detallada a fin de descubrir en qué se diferencian las distribuciones vistas en gráficos, basta con hacer clic con el botón derecho en cualquier punto de datos (o en el objeto visual en su conjunto) y seleccionar **Analizar > Buscar en qué se diferencia esta distribución**.
 
 ![Haga clic con el botón derecho para obtener información detallada](media/desktop-insights-find-where-different/find-where-different_03.png)
 

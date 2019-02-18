@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/13/2018
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 84e2bc663a4e3912608279c7315bc494b3c9844a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296533"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216318"
 ---
 # <a name="modeling-view-in-power-bi-desktop-preview"></a>Vista de modelo en Power BI Desktop (versión preliminar)
 
@@ -24,7 +24,7 @@ Con la característica **Vista de modelo** de **Power BI Desktop**, puede ver y 
 
 ## <a name="enabling-the-modeling-view-preview-feature"></a>Habilitación de la característica Vista de modelo en versión preliminar
 
-La característica Vista de modelo se encuentra en versión preliminar y debe estar habilitada en **Power BI Desktop**. Para habilitar Vista de modelo, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, luego, active la casilla **Vista de modelo**, como se muestra en la siguiente imagen.
+La característica Vista de modelo se encuentra en versión preliminar y debe estar habilitada en **Power BI Desktop**. Para habilitar Vista de modelo, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, luego, active la casilla **Vista de modelo**, como se muestra en la imagen siguiente.
 
 ![Habilitar la característica Vista de modelo en versión preliminar de Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
 

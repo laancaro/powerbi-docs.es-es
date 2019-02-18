@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f527fa17ab242f6835ca99a3ff3ef3e2525a001f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b859611df09d5c374ae7483a1ef406b432389ba
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277144"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223729"
 ---
 # <a name="resolve-issues-when-power-bi-desktop-will-not-launch"></a>Resolver problemas cuando no Power BI Desktop no se inicia
 En **Power BI Desktop**, es posible que los usuarios que tengan instaladas y ejecuten versiones anteriores de **puertas de enlace de datos locales de Power BI** no puedan iniciar Power BI Desktop, debido a las restricciones de directiva administrativa que las puertas de enlace locales de Power BI aplican a las canalizaciones con nombre en el equipo local. 
@@ -32,7 +32,7 @@ Si ya no necesita la puerta de enlace de datos local de Power BI, puede desinsta
 ### <a name="resolution-3-run-power-bi-desktop-with-administrator-privilege"></a>Solución 3: Ejecutar Power BI Desktop con privilegios de administrador
 Como alternativa, puede iniciar correctamente Power BI Desktop como administrador. Se sigue recomendando instalar la versión más reciente de la puerta de enlace de datos local de Power BI, como se ha descrito anteriormente en este artículo.
 
-Es importante tener en cuenta que Power BI Desktop se ha diseñado como una arquitectura multiproceso, y que algunos de estos procesos se comunican mediante canalizaciones con nombre de Windows. Puede haber otros procesos que interfieran con estas canalizaciones con nombre. La razón más común para este tipo interferencias es la seguridad, incluidas las situaciones donde firewalls o software antivirus podrían estar bloqueando las canalizaciones o redirigiendo el tráfico a un puerto específico. El inicio de Power BI Desktop con privilegios de administrador puede resolver ese problema. Si no es posible iniciar con privilegios de administrador, póngase en contacto con el administrador para determinar qué reglas de seguridad se están aplicando que impiden que las canalizaciones con nombre se comuniquen correctamente, e incluya Power BI Desktop en una lista blanca con sus respectivos subprocesos.
+Es importante tener en cuenta que Power BI Desktop se ha diseñado como una arquitectura multiproceso, y que algunos de estos procesos se comunican mediante canalizaciones con nombre de Windows. Puede haber otros procesos que interfieran con estas canalizaciones con nombre. La razón más común para este tipo interferencias es la seguridad, incluidas las situaciones donde firewalls o software antivirus podrían estar bloqueando las canalizaciones o redirigiendo el tráfico a un puerto específico. El inicio de Power BI Desktop con privilegios de administrador puede resolver ese problema. Si no es posible iniciar con privilegios de administrador, póngase en contacto con el administrador para determinar qué reglas de seguridad se están aplicando que impiden que las canalizaciones con nombre se comuniquen correctamente e incluya Power BI Desktop en una lista de permitidos con sus respectivos subprocesos.
 
 ## <a name="resolve-issues-when-connecting-to-sql-server"></a>Resolver problemas al conectarse a SQL Server
 Si recibe un mensaje de error similar al siguiente, al conectarse a una base de datos de SQL Server puede resolver a menudo el problema iniciando **Power BI Desktop** como administrador y, después, estableciendo la conexión de SQL Server:

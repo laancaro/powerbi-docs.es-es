@@ -1,7 +1,7 @@
 ---
 title: Sugerencias y trucos para crear informes en Power BI
 description: Conozca los procedimientos recomendados para la creación de informes en el servicio Power BI y Power BI Desktop.
-author: davidi
+author: davidiseminger
 manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
-ms.openlocfilehash: bd1889605773b1d9eed888550676b8bbc9933b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fa3d24de1f54be127f3f9b23ca33677987464150
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296004"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223867"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -143,7 +143,7 @@ Para crear una relación en este caso, tenemos que crear un conjunto de datos l�
 4. En la consulta **CustomerNames** , seleccione la opción **Anexar** de la cinta de opciones, seleccione la consulta **Temp**.
 5. En la consulta **CustomerNames** , seleccione **Quitar duplicados**.
 
-Ahora tiene una tabla de dimensiones que puede usar para crear una relación entre CustomerIndicents y WorkItems que contienen todos los valores de cada una.  
+Ahora tiene una tabla de dimensiones que puede usar para crear una relación entre CustomerIncidents y WorkItems en la que se incluyen todos los valores de cada uno.  
 
 ## <a name="patterns-to-jump-start-your-use-of-the-query-editor"></a>Patrones para comenzar a usar el Editor de consultas
 El Editor de consultas es muy eficaz a la hora de manipular los datos para darles forma y limpiarlos para que estén listos para la visualización o el modelado. Existen determinados patrones que debe tener en cuenta.

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d5c6acfb069e026e96dd9944e8001002548b83f8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fdb41a7d833ca14dd53b1043c08c244a704004da
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275516"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215399"
 ---
 # <a name="using-the-analytics-pane-in-power-bi-desktop"></a>Uso del panel Análisis en Power BI Desktop
 Con el panel **Análisis** en **Power BI Desktop**, puede agregar *líneas de referencia* dinámicas en objetos visuales y destacar las tendencias o detalles importantes. El panel **Análisis** se encuentra en el área **Visualizaciones** de Power BI Desktop.

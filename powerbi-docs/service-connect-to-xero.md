@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 87e2ff9bf8e4eb87b4b915492bf8cfa4a97a9150
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: d09936f2cce1d7835efdb82929d9e8eed2291163
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008865"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223361"
 ---
 # <a name="connect-to-xero-with-power-bi"></a>Conexión a Xero con Power BI
 Xero es un software de contabilidad en línea fácil de usar que está diseñado específicamente para pequeñas empresas. Cree visualizaciones atractivas según las operaciones financieras de Xero con este paquete de contenido de Power BI. En el panel predeterminado se incluyen muchas métricas de pequeña empresa, como la posición de efectivo, los ingresos frente a los gastos, la tendencia de beneficios y pérdidas, los días de deudor y el rendimiento de las inversiones.
@@ -86,7 +86,7 @@ Los siguientes roles son necesarios para acceder al paquete de contenido de Xero
 <a name="FindingParams"></a>
 
 ## <a name="finding-parameters"></a>Búsqueda de parámetros
-Proporcione un nombre para la organización para realizar el seguimiento en Power BI. Esto le permite conectarse a varias organizaciones diferentes. Tenga en cuenta que no puede conectarse a la misma organización varias veces, ya que afectará a la actualización programada.   
+Proporcione un nombre para la organización para realizar el seguimiento en Power BI. Esto permite conectarse a varias organizaciones diferentes. Tenga en cuenta que no puede conectarse a la misma organización varias veces, ya que afectará a la actualización programada.   
 
 ## <a name="troubleshooting"></a>Solución de problemas
 * Los usuarios de Xero deben tener los siguientes roles para acceder al paquete de contenido de Xero para Power BI: "Standard + Reports" o "Advisor". El paquete de contenido depende de los permisos basados en el usuario para acceder a datos de informes a través de Power BI.  

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c6395785c3d3e386aa2ac735439a265f5fe3fb02
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
+ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287011"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56223315"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalización de las propiedades de los ejes X e Y
 En este tutorial conocerá multitud de formas diferentes de personalizar los ejes X e Y de los objetos visuales. No todos los objetos visuales pueden personalizarse o presentan ejes; por ejemplo, los gráficos circulares no los tienen. Además, las opciones de personalización, demasiadas como para abarcarlas en un único artículo, varían de un objeto visual a otro. Por lo tanto, echaremos un vistazo a algunas de las personalizaciones de ejes más utilizadas y nos familiarizaremos con la pestaña de formato de los objetos visuales del lienzo de informes de Power BI.  
@@ -70,7 +70,7 @@ Para revertir toda la personalización del eje X que hemos hecho hasta ahora, se
 3. Mueva la **posición** del eje Y a la derecha.
 4. Aplicar formato mediante color del texto, tamaño y fuente. En este ejemplo hemos establecido el **Color** del texto en negro, **el tamaño del texto** en 14 y la **fuente** en Arial Black.  
 5. Mantenga la opción **Mostrar unidades** establecida en Millones y **Posiciones decimales de valores** en cero.
-6. Para este visualización, tener un título de eje Y no mejora el objeto visual, por lo que puede dejar la opción **Título** desactivada.  
+6. Para esta visualización, tener un título de eje Y no mejora el objeto visual, por lo que puede dejar la opción **Título** desactivada.  
 7. Vamos a hacer que las líneas de cuadrícula se resalten cambiando el **color** a un gris oscuro y aumentando el **trazo** a 2.
 
     Después de todas estas personalizaciones, el gráfico de columnas debe tener un aspecto similar al siguiente:
@@ -136,7 +136,7 @@ Si el eje x está clasificado por el propietario del informe como un tipo de fec
 ## <a name="next-steps"></a>Pasos siguientes
 Obtenga más información sobre [Visualizaciones en informes de Power BI](power-bi-report-visualizations.md)
 
-[Personalice t](power-bi-visualization-customize-title-background-and-legend.md)[ítulos, fondos y leyendas](power-bi-visualization-customize-title-background-and-legend.md)
+[Personalización de los títulos, las leyendas y los fondos de las visualizaciones](power-bi-visualization-customize-title-background-and-legend.md)
 
 [Personalizar colores y propiedades del eje](service-getting-started-with-color-formatting-and-axis-properties.md)
 

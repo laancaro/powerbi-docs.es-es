@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/24/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5bd1ee87d540fc4d4c212313483c78d168d7e104
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 6771e2da33448fe3aa54a0184a220437ffb54fce
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277631"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56215881"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Administrar el origen de datos: SQL Server
 Después de instalar la puerta de enlace de datos local puede agregar los orígenes de datos que se pueden usar con la puerta de enlace. En este artículo se describe cómo trabajar con orígenes de datos y puertas de enlace. Puede usar el origen de datos de SQL Server para la actualización programada o para DirectQuery.
@@ -29,7 +29,7 @@ Puede descargar la puerta de enlace desde el servicio Power BI. Seleccione **Des
 Para agregar una puerta de enlace, simplemente [descárguela](https://go.microsoft.com/fwlink/?LinkId=698861) e instálela en un servidor de su entorno. Una vez haya instalado la puerta de enlace, se mostrará en las listas de puertas de enlace en **Administrar puertas de enlace**.
 
 > [!NOTE]
-> La opción **Administrar puertas de enlace** no se mostrará hasta que sea administrador de una puerta de enlace como mínimo. Esto se produce cuando se le agrega como administrador a una puerta de enlace, o si instala y configura una puerta de enlace usted mismo.
+> La opción **Administrar puertas de enlace** no se mostrará hasta que sea administrador de una puerta de enlace como mínimo. Esto se produce cuando se le agrega como administrador a una puerta de enlace, o bien si instala y configura una puerta de enlace usted mismo.
 > 
 > 
 

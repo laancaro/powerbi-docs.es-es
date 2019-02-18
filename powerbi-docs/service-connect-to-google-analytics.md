@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: f8777774981e89a88f1fb4f85573fd5a7e078dd6
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
+ms.openlocfilehash: 9d0eafea7f1ec25d8af86bf05fa130abb1bbd9c2
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008405"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216295"
 ---
 # <a name="connect-to-google-analytics-with-power-bi"></a>Conexión a Google Analytics con Power BI
 Para conectarse a Google Analytics a través de Power BI, empiece por conectarse a su cuenta de Google Analytics. Obtendrá un panel de Power BI y un conjunto de informes de Power BI que proporcionan información sobre el tráfico de su sitio y las dimensiones del usuario. Puede interactuar con el panel y los informes, pero no puede guardar los cambios. Los datos se actualizarán automáticamente una vez al día.
@@ -52,7 +52,7 @@ Puede crear paneles e informes personalizados iniciando desde el [conector de Go
 Para conectarse desde Power BI, es preciso tener una cuenta de [Google Analytics](https://www.google.com/analytics/). Para otras cuentas de Google que no tengan una cuenta de Google Analytics conectada se mostrará un error de autenticación.
 
 ## <a name="troubleshooting"></a>Solución de problemas
-**Credenciales**Si tiene varias cuentas de Google, use una ventana de explorador de incógnito o en privado durante la conexión para asegurarse de que se utiliza la cuenta correcta.
+**Credenciales** Si tiene varias cuentas de Google, use una ventana de explorador de incógnito o de navegación privada durante la conexión para asegurarse de que se usa la cuenta correcta.
 
 Si recibe un error que indica que las credenciales no son válidas, pero pudo iniciar sesión en Google, confirme que tiene una cuenta de [Google Analytics](https://www.google.com/analytics/).
 

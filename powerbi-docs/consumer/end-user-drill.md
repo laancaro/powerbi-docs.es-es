@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d935b044e5cbe1a2c84ce5749c3a0b58c528bab0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282365"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216594"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo detallado en una visualización de Power BI
 
@@ -112,9 +112,9 @@ Este método usa los iconos del modo detallado que aparecen en la esquina superi
 
 2. Seleccione el *nodo hoja* para **TN**. El mapa de árbol muestra ahora todas las ciudades de Tennessee que tienen una tienda. 
 
-    ![mapa de árbol que muestra solo los datos de Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Mapa de árbol en el que solo se muestran los datos de Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
-2. Aquí puede seguir rastreando desagrupando datos para Tennesee o puede rastrear desagrupando datos para una determinada ciudad de Tennesee, o bien puede expandir (vea **Expandir todos los campos a la vez** más adelante). Sigamos rastreando desagrupando datos de un solo campo a la vez.  Seleccione **Knoxville, TN**. El mapa de árbol muestra ahora el código postal de la tienda en Knoxville. 
+2. Ahora, puede continuar la exploración en profundidad de Tennessee, de una ciudad determinada de Tennessee, o bien puede expandir (vea **Expandir todos los campos a la vez** más adelante). Sigamos rastreando desagrupando datos de un solo campo a la vez.  Seleccione **Knoxville, TN**. El mapa de árbol muestra ahora el código postal de la tienda en Knoxville. 
 
    ![mapa de árbol que muestra 37919](media/end-user-drill/power-bi-drill-down-one2.png)
 
@@ -127,18 +127,18 @@ Tener un mapa de árbol que nos muestra solo un código postal no es muy informa
 
     ![mostrar código postal y nombre de tienda](./media/end-user-drill/power-bi-expand1.png)
 
-2. Para ver los cuatro niveles de jerarquía de datos para Tennesee, seleccione la flecha para rastrear agrupando datos hasta llegar al segundo nivel **Total units this year by territory and city** (Unidades totales este año por territorio y ciudad) del mapa de árbol. 
+2. Para ver los cuatro niveles de jerarquía de datos para Tennessee, haga clic en la flecha arriba de exploración hasta llegar al segundo nivel **Total units this year by territory and city** (Unidades totales este año por territorio y ciudad) del mapa de árbol. 
 
-    ![mapa de árbol que muestra todos los datos de Tennesee](media/end-user-drill/power-bi-drill-down-one1.png)
+    ![Mapa de árbol en el que se muestran todos los datos de Tennessee](media/end-user-drill/power-bi-drill-down-one1.png)
 
 
 3. Asegúrese de que todavía está activada la opción de rastrear desagrupando datos ![rastrear desagrupando datos activada](./media/end-user-drill/power-bi-drill-icon2.png) y seleccione el icono *expandir* ![icono de expandir](./media/end-user-drill/power-bi-drill-icon6.png). El mapa de árbol muestra ahora algunos detalles más. En lugar de mostrar solo la ciudad y el estado, también muestra el código postal. 
 
     ![icono de doble modo detallado](./media/end-user-drill/power-bi-expand-one3.png)
 
-4. Seleccione el icono de *expandir* una vez más para mostrar los cuatro niveles de jerarquía de detalle para Tennesee en el mapa de árbol. Mantenga el mouse sobre un nodo hoja para ver más detalles.
+4. Haga clic en el icono de *expandir* una vez más para mostrar los cuatro niveles de jerarquía de detalle para Tennessee en el mapa de árbol. Mantenga el mouse sobre un nodo hoja para ver más detalles.
 
-   ![mapa de árbol que muestra los datos de Tennesee](./media/end-user-drill/power-bi-expand-all.png)
+   ![Mapa de árbol en el que se muestran los datos de Tennessee](./media/end-user-drill/power-bi-expand-all.png)
 
 ## <a name="drilling-filters-other-visuals"></a>Filtros de detalles en otros objetos visuales
 Cuando se trabaja en el modo detallado, tiene que decidir en qué medida afecta el rastreo desagrupando datos y la expansión a otras visualizaciones de la página. 
