@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 1f4dd67b76754f7eda19bd280dd5c9e454b34184
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d272914fc41c8bd4abc78ae36a46de9e53817c81
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762131"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248939"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
 
@@ -50,7 +50,7 @@ nombre     |  Cadena        | Nombre definido por el usuario de la columna.     
 dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#DataTypeRestrictions).      |  False       | True        
 formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
 sortByColumn    | Cadena        |   Nombre de cadena de una columna de la misma tabla que se va a usar para ordenar la columna actual.     | False        | False       
-dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  False       | False        
+dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  Falso       | False        
 isHidden    |  Booleano       |  Propiedad que indica si la columna está oculta de la vista. El valor predeterminado es false.       | False        | False        
 summarizeBy     | Cadena        |  Método de agregación predeterminado para la columna. Los valores incluyen: default, none, sum, min, max, count, average, distinctCount     |  False       | False
 
@@ -68,7 +68,7 @@ isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herrami
 Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria 
 ---------|---------|---------|---------|---------
 nombre     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | False       | True        
-crossFilteringBehavior     | Cadena        |    La dirección del filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | False        | False        
+crossFilteringBehavior     | Cadena        |    La dirección del filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | Falso        | False        
 fromTable     | Cadena        | Nombre de la tabla de clave externa.        | False        | True         
 fromColumn    | Cadena        | Nombre de la columna de clave externa.        | False        | True         
 toTable    | Cadena        | Nombre de la tabla de clave principal.        | False        | True         
@@ -90,7 +90,7 @@ Decimal|precisión=28, escala=4
 ## <a name="example"></a>Ejemplo
 El siguiente ejemplo de código incluye una serie de estas propiedades:
 
-```
+```json
 {
 
   "name": "PushAdvanced",

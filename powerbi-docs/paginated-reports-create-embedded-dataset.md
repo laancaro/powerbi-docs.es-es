@@ -1,22 +1,23 @@
 ---
 title: Creación de un conjunto de datos insertado para un informe paginado de Power BI (versión preliminar)
 description: En este artículo, aprenderá a crear un conjunto de datos insertado, basándose en un origen de datos insertado, para un informe paginado en el servicio Power BI.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/5/2018
-ms.author: maggies
-ms.openlocfilehash: 1689d7382c0f3bf7406a4a44ffeab53e6bc59197
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c625f394fd35c0b1c6b7ccf0fc617f5653533ea1
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281077"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324562"
 ---
 # <a name="create-an-embedded-dataset-for-a-paginated-report-in-the-power-bi-service-preview"></a>Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI (versión preliminar)
+
 En este artículo, aprenderá a crear un conjunto de datos insertado, basándose en un origen de datos insertado, para un informe paginado en el servicio Power BI. Los conjuntos de datos insertados están contenidos en un único informe paginado, para su uso en ese informe. Actualmente, los informes paginados que se publican en el servicio Power BI necesitan conjuntos de datos insertados y orígenes de datos insertados. Cree el conjunto de datos y el origen de datos insertado en el generador de informes al crear el informe. 
 
 Antes de crear el conjunto de datos, debe crear un origen de datos. Vea [Orígenes de datos insertados para informes paginados](paginated-reports-embedded-data-source.md) en el servicio Power BI para obtener información.

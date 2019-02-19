@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: 81a40e021ecd094e5e678504f2dd60300802d909
-ms.sourcegitcommit: b717118c44499c8fd8f57534a275f2f78aacc0f1
+ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/09/2019
-ms.locfileid: "55971680"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56248916"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -53,7 +53,7 @@ Solo se puede usar la entidad de servicio si los artefactos y recursos de Power 
 
 Hay diferencias entre el uso de una entidad de servicio y una cuenta maestra estándar (licencia de Power BI Pro) para la autenticación. En la tabla siguiente se resaltan algunas diferencias importantes.
 
-| Función | Cuenta de usuario maestra </br> (licencia de Power BI Pro) | Entidad de servicio </br> (token de solo aplicación) |
+| Función | Cuenta de usuario maestra <br> (licencia de Power BI Pro) | Entidad de servicio <br> (token de solo aplicación) |
 |------------------------------------------------------|---------------------|-------------------|
 | Puede iniciar sesión en el servicio Power BI  | Sí | No |
 | Está habilitada en el portal de administración de Power BI | No | Sí |

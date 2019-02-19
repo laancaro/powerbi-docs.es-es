@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: a9827ccead960c789bb9c7b4c39dd15d86886207
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: aab20c4056310e1e8b737b23e07450b0e5d4959c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430933"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249330"
 ---
 # <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Desarrollo de objetos visuales personalizados de Power BI
 
@@ -453,7 +453,7 @@ Ahora podemos explorar cómo desarrollar el objeto visual personalizado para mos
 9. En PowerShell, inicie el objeto visual personalizado.
 
     ```powershell
-    pbiviz
+    pbiviz start
     ```
 
 ### <a name="toggle-auto-reload"></a>Activar recarga automática

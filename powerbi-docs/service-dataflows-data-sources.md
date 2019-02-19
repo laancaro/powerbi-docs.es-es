@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: cef34e7be0767ce16b84b066663318b66bcbd2d0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280571"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324930"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Conectarse a orígenes de datos de flujos de datos de Power BI (versión preliminar)
 
@@ -76,6 +76,7 @@ La categoría **Base de datos** incluye las siguientes conexiones de datos dispo
 * Base de datos de SQL Server
 * Base de datos de Sybase
 * Base de datos de Teradata
+* Vertica
 
 La categoría **Power BI** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
@@ -91,6 +92,7 @@ La categoría **Azure** incluye las siguientes conexiones de datos disponibles p
 
 La categoría **Online Services** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
+* Amazon Redshift
 * Common Data Service para aplicaciones
 * Microsoft Exchange Online
 * Objetos de Salesforce
@@ -154,12 +156,8 @@ Tras esto, el script se conecta al origen de datos especificado.
 
 En la siguiente lista figuran los conectores que se pueden usar actualmente copiando y pegando la consulta M en una consulta en blanco:
 
-* Amazon Redshift
 * SAP Business Warehouse 
-* SAP HANA
-* Analysis Services
 * Azure Analysis Services
-* Google Analytics
 * Adobe Analytics
 * ODBC
 * OLE DB
@@ -170,7 +168,6 @@ En la siguiente lista figuran los conectores que se pueden usar actualmente copi
 * Azure HDInsight (HDFS)
 * Archivo Hadoop (HDFS)
 * Informix (beta)
-* Vertica
 
 Eso es todo lo que se necesita para conectarse a orígenes de datos en los flujos de datos de Power BI.
 

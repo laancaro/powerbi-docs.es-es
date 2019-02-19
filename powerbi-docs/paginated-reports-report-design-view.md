@@ -1,20 +1,20 @@
 ---
 title: Descripción de la vista de diseño de informe en los informes paginados (versión preliminar)
 description: La vista de diseño de informe del generador de informes es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI.
-author: maggiesMSFT
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.author: maggies
-ms.openlocfilehash: 85950e2510147c3bed36d4911360f7c365c79da6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2ee381cae5bd0c0ed1e6a8cab1cd33361a05814f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283538"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324850"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Descripción de la vista de diseño de informe en los informes paginados (versión preliminar)
 
@@ -22,12 +22,12 @@ La vista de diseño de informe del generador de informes es el espacio de diseñ
 
 ![Vista de diseño de informe del generador de informes](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
-1.  [Panel Datos de informe](#report-data-pane) 
-2.  [Superficie de diseño del informe](#report-design-surface)  
-3.  [Panel Parámetros](#parameters-pane) 
-4.  [Panel Propiedades](#properties-pane) 
-5.  [Panel de agrupación](#grouping-pane) 
-6.  [Barra de estado del informe actual](#current-report-status-bar)  
+1. [Panel Datos de informe](#report-data-pane) 
+2. [Superficie de diseño del informe](#report-design-surface)  
+3. [Panel Parámetros](#parameters-pane) 
+4. [Panel Propiedades](#properties-pane) 
+5. [Panel de agrupación](#grouping-pane) 
+6. [Barra de estado del informe actual](#current-report-status-bar)  
   
 ## <a name="1-report-data-pane"></a>1 Panel Datos de informe  
  En el panel Datos de informe, defina los datos y los recursos que necesita para un informe antes de crear el diseño del informe. Por ejemplo, puede agregar orígenes de datos, conjuntos de datos, campos calculados, parámetros de informe e imágenes al panel Datos de informe.  

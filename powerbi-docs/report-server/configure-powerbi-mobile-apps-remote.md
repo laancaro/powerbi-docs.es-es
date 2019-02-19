@@ -1,20 +1,20 @@
 ---
 title: Configuración del acceso de la aplicación móvil de iOS a un servidor de informes de forma remota
 description: Aprenda a configurar las aplicaciones móviles de iOS de forma remota para el servidor de informes.
-author: maggiesMSFT
+author: markingmyname
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/15/2018
-ms.author: maggies
-ms.openlocfilehash: 6a815d3b8042a53bd7196902e59019d3a6b61220
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.author: maghan
+ms.openlocfilehash: c50f9c482ba689fe81ee22b2b52564dec3cbf1d6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293589"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324378"
 ---
 # <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
 
@@ -35,10 +35,10 @@ En la tabla de abajo se detallan los pares.
 
 |Clave  |Tipo  |Descripción  |
 |---------|---------|---------|
-| com.microsoft.powerbi.mobile.ServerURL | Cadena | URL del servidor de informes </br> Debe empezar por http/https |
-| com.microsoft.powerbi.mobile.ServerUsername | Cadena | (opcional) </br> El nombre de usuario que se usará para conectar el servidor. </br> Si no existe, la aplicación pide al usuario que escriba el nombre de usuario para la conexión.| 
-| com.microsoft.powerbi.mobile.ServerDisplayName | Cadena | (opcional) </br> El valor predeterminado es “Servidor de informes” </br> Nombre descriptivo que se usa en la aplicación para representar el servidor | 
-| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | El valor predeterminado es True </br>Si se establece en "true", invalida cualquier definición de servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. </br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. </br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. </br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
+| com.microsoft.powerbi.mobile.ServerURL | Cadena | URL del servidor de informes <br> Debe empezar por http/https |
+| com.microsoft.powerbi.mobile.ServerUsername | Cadena | (opcional) <br> El nombre de usuario que se usará para conectar el servidor. <br> Si no existe, la aplicación pide al usuario que escriba el nombre de usuario para la conexión.| 
+| com.microsoft.powerbi.mobile.ServerDisplayName | Cadena | (opcional) <br> El valor predeterminado es “Servidor de informes” <br> Nombre descriptivo que se usa en la aplicación para representar el servidor | 
+| com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | El valor predeterminado es True <br>Si se establece en "true", invalida cualquier definición de servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. <br> Al establecer Reemplazar en True también se evita que el usuario quite esa configuración. <br> Si se establece en “False”, se agregan los valores insertados, dejando cualquier configuración existente. <br> Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
 
 Este es un ejemplo de configuración de la directiva de configuración mediante Intune.
 

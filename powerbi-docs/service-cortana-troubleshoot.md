@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/20/2017
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: d768956f26256bd06516981b2bae0ab17ef3ca90
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296326"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249054"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Solución de problemas de Cortana para Power BI
 Este artículo forma parte de una serie. Si no lo ha hecho ya, le recomendamos que lea los siguientes tres artículos:
@@ -79,7 +79,7 @@ Si sigue teniendo problemas para conseguir que Cortana se integre con Power BI, 
 
    ![Tarjeta de respuestas](media/service-cortana-troubleshoot/power-bi-answer-card-new.png)
 
-   </br>
+   <br>
 
    ![Pestaña Tarjeta de respuestas en Power BI](media/service-cortana-troubleshoot/power-bi-answer-card2.png)
 4. A veces, la primera vez que escribe algo en el campo **Utterance** (Dictado) no ocurre nada. Considérelo un cebado del sistema; está indicándole a la herramienta de solución de problemas que es el momento de activarse. Corte y pegue o vuelva a escribir el nombre en el campo **Utterance** (Dictado). En este ejemplo, el nombre de la tarjeta de respuestas es **Cortana stores**. Al pegar o escribir **Cortana stores** en la herramienta se genera un solo resultado, que se muestra en el campo **Interpretations** (Interpretaciones). Haga clic para ver la tarjeta de respuestas en la ventana de Cortana, en este caso **Cortana stores**.

@@ -1,20 +1,20 @@
 ---
 title: Instalar un servidor de informes de Power BI
 description: Aprenda a instalar un servidor de informes de Power BI.
-author: maggiesMSFT
-ms.author: maggies
+author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: bf204fe3ee9dcff83a6e2c964196a85daf547d74
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762591"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324907"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
