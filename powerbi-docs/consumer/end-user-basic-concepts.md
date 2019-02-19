@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e8e27c55cdcd85fd9f88a3b1ad425829cfa9cf0d
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: c363d71b9d8796f1bd05ac01e12e9424a499a439
+ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430611"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "56216203"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceptos básicos para el ***cliente*** del servicio Power BI
 
@@ -61,7 +61,7 @@ En su concepto más básico.
 
     Para obtener más información, consulte [Paneles para *consumidores* de Power BI](end-user-dashboards.md)
 
-* ![Icono de informe ](media/end-user-basic-concepts/report.png) Un *informe* es una o más páginas de gráficos, texto y objetos visuales interactivos que forman un único informe. Un informe se basa en un único conjunto de datos. Las páginas de un informe a menudo se organizan para centrarse en cada área central de interés o para responder a una pregunta determinada.
+* ![Icono de informe ](media/end-user-basic-concepts/report.png) Un *informe* es una o más páginas de gráficos, texto y objetos visuales interactivos que forman un único informe. Un informe se basa en un único conjunto de datos. Las páginas de un informe a menudo se organizan para centrarse en cada área central de interés o para responder a una única pregunta.
 
     Para obtener más información, consulte [Informes para *consumidores* de Power BI](end-user-reports.md)
 
@@ -87,7 +87,7 @@ Cuando un diseñador comparte una aplicación con un usuario, este puede ver qu�
 * se puede usar en muchos informes diferentes
 * Las visualizaciones de ese conjunto de datos se pueden mostrar en muchos paneles diferentes
   
-  ![relaciones M:1 de conjunto de datos](media/end-user-basic-concepts/drawing2.png)
+  ![Relaciones varios a uno de conjunto de datos](media/end-user-basic-concepts/drawing2.png)
 
 En el siguiente bloque de creación, visualizaciones.
 __________________________________________________________
