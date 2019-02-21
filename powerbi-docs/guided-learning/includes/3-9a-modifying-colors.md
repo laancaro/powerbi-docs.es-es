@@ -14,7 +14,7 @@ También puede cambiar el color a partir de un valor o una medida. Para ello, ar
 
 ![](media/3-9a-modifying-colors/3-9a_4.png)
 
-Además, puede cambiar la escala de colores y los colores utilizados al rellenar los colores de los elementos de datos. También puede seleccionar una escala de colores divergente activando el control deslizante Divergente, lo que le permitirá crear una escala de colores entre tres colores. También puede establecer los valores *Mínimo*, *Centro* y *Máximo* que se muestran en el gráfico.
+Además, puede cambiar la escala de colores y los colores utilizados al rellenar los colores de los elementos de datos. También puede seleccionar una escala de colores divergente activando el control deslizante Divergente, lo que le permitirá crear una escala de colores entre tres colores. Y también puede establecer los valores *Mínimo*, *Centro* y *Máximo* que se muestran en el gráfico.
 
 ![](media/3-9a-modifying-colors/3-9a_5.png)
 

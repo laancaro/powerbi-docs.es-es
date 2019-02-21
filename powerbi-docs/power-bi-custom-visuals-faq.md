@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 0418016fd7a194ff2e37e979219b97e94520f9ae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9b4ff995b1cfaede1608e976bf2715feece0ade6
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282112"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408147"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 
@@ -98,6 +98,9 @@ Si está trabajando en un objeto visual personalizado de IAP o ya tiene uno, ase
 Si tiene un logotipo en el objeto visual personalizado, compruebe que cumple con las directrices relativas a los logotipos (color, ubicación, tamaño y acción desencadenada).
 
 En las directrices también encontrará notas sobre los procedimientos recomendados.  
+> [!Note]
+> Todos los objetos visuales gratuitos deben mantener las mismas características gratuitas proporcionadas anteriormente. Puede agregar características de pago avanzadas opcionales sobre las características gratuitas antiguas. Se recomienda enviar los objetos visuales de IAP con las características avanzadas como objetos visuales nuevos y no actualizar los objetos visuales gratuitos antiguos.
+
 
 ### <a name="can-i-get-my-iap-custom-visual-certified"></a>¿Puedo certificar mi objeto visual personalizado de IAP?
 

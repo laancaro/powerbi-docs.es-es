@@ -8,15 +8,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: c18257f1f4e4e3f325c8d4d895e3b6abf88e900c
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55795011"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298877"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 Con Power BI, puede publicar el informe en formato PDF, y crear fácilmente un documento basado en el informe de Power BI. Al **exportar a PDF**, cada página del informe de Power BI se convierte en una página individual en el documento PDF.
@@ -28,6 +28,10 @@ En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. Tamb
 
     ![Selección del archivo en la barra de menús, la flecha apunta a Exportar a PDF](media/end-user-pdf/power-bi-export-pdf.png)
 
+    Aparecerá una ventana emergente donde tiene la opción de seleccionar **Vista actual** o **Vista predeterminada**.  **Vista actual** exporta el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Vista predeterminada** se exporta el informe en su estado original (como lo haya compartido el autor) y no se reflejan los cambios que haya realizado al estado original.
+    
+    Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, haga clic en el botón Exportar para continuar.
+    
     En la esquina superior derecha se muestra una barra de progreso. La exportación puede tardar unos minutos, y puede continuar trabajando en Power BI mientras se exporta el informe.
 
     ![Mensaje de progreso de la exportación](media/end-user-pdf/power-bi-export-message.png)
@@ -43,8 +47,6 @@ Y eso es todo. Puede descargar el archivo y abrirlo con cualquier visor de PDF, 
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Hay algunas consideraciones y limitaciones que tener en cuenta cuando se trabaja con la característica **Exportar a PDF**.
-
-- La interactividad dentro de la sesión, como el resaltado, el filtrado, la exploración en profundidad, etc., todavía no se admiten al exportar a PDF. En el documento PDF exportado se muestran los objetos visuales originales como si se hubiesen guardado en el informe. Si ha aplicado filtros y segmentaciones, y quiere que se conserven en la exportación, guarde el informe y, después, realice la exportación.
 
 * En la actualidad, no se admiten **objetos visuales de R**. En el archivo PDF, estos objetos visuales estarán en blanco y mostrarán un mensaje de error.  
 

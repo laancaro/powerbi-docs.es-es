@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 0a2c1cb446a0a975a574f5d3f2684ddf80f4f273
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274729"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324493"
 ---
 # <a name="what-are-power-bi-gateways"></a>¿Qué son las puertas de enlace de Power BI?
 
@@ -53,7 +53,7 @@ La puerta de enlace instalada se ejecuta como un servicio de Windows, la **puert
 Consultas y flujo de datos:
 
 1. El servicio en la nube crea una consulta con las credenciales cifradas para el origen de datos local. Después se envía a una cola para que la puerta de enlace la procese.
-2. El servicio en la nube de la puerta de enlace analiza la consulta e inserta la solicitud en Azure Service Bus.
+2. El servicio en la nube de la puerta de enlace analiza la consulta e inserta la solicitud en Azure Service Bus. Power BI administra Service Bus de forma automática, por lo que no se necesitan costos adicionales ni pasos de configuración.
 3. La puerta de enlace de datos local sondea Azure Service Bus en busca de solicitudes pendientes.
 4. La puerta de enlace obtiene la consulta, descifra las credenciales y se conecta a los orígenes de datos con las mismas.
 5. La puerta de enlace envía la consulta al origen de datos para su ejecución.

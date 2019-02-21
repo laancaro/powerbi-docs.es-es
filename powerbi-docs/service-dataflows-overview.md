@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/10/2019
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 68d350035732d8335079bf76a859919d696e2721
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223683"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56324851"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -52,6 +52,9 @@ Estos son algunos ejemplos de para qué pueden servir los flujos de datos:
 ## <a name="how-to-use-dataflows"></a>Uso de los flujos de datos
 
 En la sección anterior se describe una serie de formas en que se pueden usar los flujos de datos para crear rápidamente análisis eficaces en Power BI. En esta sección se ofrece orientación sobre cómo crear rápidamente información detallada con el uso de flujos de datos de una organización, cómo obtener una vista rápida de la forma en que los profesionales de inteligencia empresarial pueden crear sus propios flujos de datos y cómo personalizar la información detallada según las necesidades de cada organización.
+
+> [!NOTE]
+> Debe tener una cuenta de Power BI de pago para usar los flujos de datos, como una cuenta de Power BI Pro o Power BI Premium, pero no se le cobrará por separado por usarlos. 
 
 ### <a name="extend-the-common-data-model-for-your-business-needs"></a>Ampliación del modelo de datos común para satisfacer las necesidades empresariales
 Para las organizaciones que desean ampliar Common Data Service (CDM), los flujos de datos permiten a los profesionales de inteligencia empresarial personalizar las entidades estándar o crear nuevas. Este enfoque de autoservicio para personalizar el modelo de datos puede utilizarse con flujos de datos para crear aplicaciones y paneles de Power BI que se adaptan a una organización.

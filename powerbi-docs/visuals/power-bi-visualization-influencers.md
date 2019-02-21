@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a82bbc3e4b31dca0a304c1d3f64d4bc63e4e7fb3
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086779"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325160"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
 El objeto visual de influenciadores clave le ayudará a reconocer los factores que controlan una métrica de su interés. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, digamos que le interesa averiguar lo que influye en la rotación de empleados (abandono). La duración del contrato de empleo puede ser uno de los factores, mientras que otro puede ser la edad del empleado. 
@@ -167,11 +167,11 @@ En este grupo, el 74,3 % ha dado una clasificación baja. El cliente promedio p
  
 Los objetos visuales de influenciadores clave están actualmente en versión preliminar pública, y existen varias limitaciones que los usuarios deben tener en cuenta. Entre la funcionalidad que actualmente no está disponible se incluye lo siguiente: 
 - Análisis de las métricas que son agregados o medidas 
-- Consumo del objeto visual en modo incrustado 
-- Consumo del objeto visual en Power BI para dispositivos móviles 
+- Consumo del objeto visual en Power BI Embedded
+- Consumo del objeto visual en aplicaciones móviles de Power BI
 - Compatibilidad con RLS 
 - Compatibilidad con las consultas directas 
-- Compatibilidad con las consultas dinámicas 
+- Compatibilidad con las conexiones dinámicas 
  
 **Veo un error que indica que no se han encontrado influenciadores o segmentos. ¿Por qué?**  
 
@@ -247,15 +247,16 @@ La razón de ello es que la visualización también tiene en cuenta el número d
 
 **¿Cómo se calculan los influenciadores clave?**
 
-En segundo plano, la visualización de inteligencia artificial ejecuta una regresión logística para calcular los influenciadores clave. Una regresión logística es un modelo estadístico que compara los distintos grupos entre sí. Si observamos lo que genera las clasificaciones bajas, la regresión logística se centrará en cómo los clientes que han dado una puntuación baja difieren de los que han dado una puntuación alta. Si tenemos varias categorías (puntuación alta, puntuación neutra, puntuación baja) nos centraremos en cómo los que han dado una clasificación baja difieren de los clientes que no han dado una clasificación baja (cómo difieren de los que han dado una clasificación alta O BIEN una clasificación neutral). 
+En segundo plano, la visualización de inteligencia artificial usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar una regresión logística para calcular los influenciadores clave. Una regresión logística es un modelo estadístico que compara los distintos grupos entre sí. Si observamos lo que genera las clasificaciones bajas, la regresión logística se centrará en cómo los clientes que han dado una puntuación baja difieren de los que han dado una puntuación alta. Si tenemos varias categorías (puntuación alta, puntuación neutra, puntuación baja) nos centraremos en cómo los que han dado una clasificación baja difieren de los clientes que no han dado una clasificación baja (cómo difieren de los que han dado una clasificación alta O BIEN una clasificación neutral). 
  
 La regresión logística busca patrones en los datos, centrándose en cómo los clientes que han dado una clasificación baja pueden diferir de los que han dado una clasificación alta. Puede descubrir, por ejemplo, que los clientes que tienen más incidencias de soporte técnico dan un porcentaje mucho mayor de clasificaciones bajas que los que tienen pocas incidencias de soporte técnico, o ninguna.
  
 La regresión logística también tiene en cuenta cuántos puntos de datos están presentes. Si, por ejemplo, los clientes que desempeñan un rol de administrador dan, proporcionalmente, puntuaciones más negativas pero solo son una serie limitada de administradores, no se considera un factor influyente. Esto es porque no hay suficientes puntos de datos disponibles para deducir un patrón. Se usa una prueba estadística (prueba de Wald) para determinar si un factor se considera un influenciador. El objeto visual utiliza un valor p de 0,05 para determinar el umbral. 
- 
+
+
 **¿Cómo se calculan los segmentos?**
 
-En segundo plano, la visualización de inteligencia artificial ejecuta un árbol de decisión para buscar los subgrupos interesantes. El objetivo final del árbol de decisión es un subgrupo de puntos de datos relativamente alto en la métrica en la cual estamos interesados (por ejemplo, los clientes que han dado una clasificación baja). 
+En segundo plano, la visualización de inteligencia artificial usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar un árbol de decisión para buscar los subgrupos interesantes. El objetivo final del árbol de decisión es un subgrupo de puntos de datos relativamente alto en la métrica en la cual estamos interesados (por ejemplo, los clientes que han dado una clasificación baja). 
 
 El árbol de decisión toma cada factor explicativo e intenta razonar el factor que le dará la mejor "división". Por ejemplo, si filtramos los datos para incluir a solo a los clientes de las empresa de gran tamaño, ¿se diferenciarán los clientes que nos han dado una clasificación alta y los que han dado una clasificación baja? ¿O quizás será mejor si filtramos los datos para incluir solo a los clientes que han realizado comentarios sobre la seguridad? 
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 02/14/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 509eebfdf2d96a2cc77d5c9413c664a10309ab9c
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216444"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325049"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -61,7 +61,7 @@ Configure una página de informe de la forma en que desee que aparezca en el mar
 
 Una vez que tiene un marcador, puede mostrarlo simplemente con hacer clic en él en el panel **Marcadores**. 
 
-También puede seleccionar si cada marcador aplicará propiedades de *datos*, como filtros y segmentaciones, propiedades de *visualización*, como el destacado y su visibilidad, y cambios de página que presentan la página que estaba visible cuando se agregó el marcador. Estas funciones son útiles cuando se utilizan marcadores para cambiar entre los tipos de objeto visual, en cuyo caso es probable que desee desactivar las propiedades de datos, de manera que los filtros no se restablezcan a medida que los usuarios cambien los tipos de objeto visual. 
+También puede seleccionar si cada marcador aplicará propiedades de *datos*, como filtros y segmentaciones, propiedades de *visualización*, como el destacado y su visibilidad, y cambios de página que presentan la página que estaba visible cuando se agregó el marcador. Estas funciones son útiles cuando se usan marcadores para cambiar entre vistas de informe o selecciones de objetos visuales, en cuyo caso es probable que quiera desactivar las propiedades de datos, de manera que los filtros no se restablezcan cuando los usuarios cambien de vistas mediante la selección de un marcador. 
 
 Para realizar estos cambios, seleccione los puntos suspensivos junto al nombre del marcador, tal y como se muestra en la imagen anterior y, luego, seleccione o anule la selección de las marcas de verificación junto a *Datos*, *Mostrar* y otros controles. 
 

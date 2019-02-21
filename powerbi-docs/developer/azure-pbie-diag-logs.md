@@ -8,12 +8,12 @@ ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: bdb9e2dcf5e8e22aaaa3bf35035b746777a387b9
-ms.sourcegitcommit: 1574ecba7530e6e0ee97235251a3138fb0e4789b
+ms.openlocfilehash: 93181a7ecaad0ec5bcd837f55ad7863fae53772c
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2018
-ms.locfileid: "40126633"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249146"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registro de diagnóstico para el servicio de Power BI Embedded en Azure
 
@@ -114,13 +114,13 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 |    Auditoría de cierre de sesión    |    Registra todos los eventos de desconexión del motor desde que empezó el seguimiento.    |
 |    Error    |    Registra todos los eventos de error del motor desde que empezó el seguimiento.    |
 
-</br>
-</br>
+<br>
+<br>
 
 | Nombre de la propiedad | Ejemplo de fin de consulta Vertipaq | Descripción de la propiedad |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass (Clase de evento) | XM_SEQUERY_END | Clase de evento se usa para categorizar los eventos. |
-| EventSubclass (Subclase de evento) | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: examen de VertiPaq) |
+| EventSubclass (Subclase de evento) | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: Examen de VertiPaq) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | Identificador de actividad raíz. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
@@ -132,7 +132,7 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 | ObjectReference | <Object><Table>SalesLT Customer</Table><Model>Modelo</Model><Database>5eaa550e-06ac-4adf-aba9-dbf0e8fd1527</Database></Object> | Referencia del objeto. Codificada como datos XML para todos los elementos primarios mediante etiquetas que describen el objeto. |
 | EndTime | 2018-04-06T18:30:11.9137358Z | Hora de finalización del evento. |
 | Duración | 0 | Cantidad de tiempo (en milisegundos) que tarda el evento. |
-| SessionType | User (Usuario) | Tipo de sesión (entidad que ha provocado la operación). |
+| SessionType | Usuario | Tipo de sesión (entidad que ha provocado la operación). |
 | ProgressTotal | 0 | Progreso total. |
 | IntegerData | 0 | Datos enteros. |
 | Severity | 0 | Nivel de gravedad de una excepción. |

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 280f60d0ae60a445d94a640af974a2624c73bb83
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430013"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408078"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
 
@@ -22,6 +22,10 @@ Hasta hace poco, **Marketplace (AppSource)** solo aceptaba objetos visuales de P
 
 > [!Note]
 > Para que se certifique el objeto visual, no puede acceder a servicios o recursos externos.
+
+> [!Note]
+> Todos los objetos visuales gratuitos deben mantener las mismas características gratuitas proporcionadas anteriormente. Puede agregar características de pago avanzadas opcionales sobre las características gratuitas antiguas. Se recomienda enviar los objetos visuales de IAP con las características avanzadas como objetos visuales nuevos y no actualizar los objetos visuales gratuitos antiguos.
+
 
 ## <a name="whats-changing-in-the-submission-process"></a>¿Qué cambia en el proceso de envío?
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ef4f9de49619a26e17fbdf2b0df47bc56ba23f4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279329"
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56325023"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.
@@ -90,7 +90,7 @@ El uso de Azure AD Connect garantiza que el UPN coincida entre AAD y Active Dire
 > 
 
 ## <a name="now-this-is-where-the-gateway-comes-in"></a>Aquí es cuando entra en juego la puerta de enlace
-La puerta de enlace actúa como puente entre la nube y el servidor local. La transferencia de datos entre la nube y la puerta de enlace se protege mediante [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). Service Bus crea un canal seguro entre la nube y el servidor local a través de una conexión de salida de la puerta de enlace.  No necesita abrir conexiones de entrada en el firewall local.
+La puerta de enlace actúa como puente entre la nube y el servidor local. La transferencia de datos entre la nube y la puerta de enlace se protege mediante [Azure Service Bus](/azure/service-bus-messaging/service-bus-messaging-overview). Service Bus crea un canal seguro entre la nube y el servidor local a través de una conexión de salida de la puerta de enlace.  No necesita abrir conexiones de entrada en el firewall local. Power BI administra Service Bus de forma automática, por lo que no se necesitan costos adicionales ni pasos de configuración.
 
 Si tiene un origen de datos de Analysis Services, deberá instalar la puerta de enlace en un equipo unido al mismo bosque o dominio que el servidor de Analysis Services.
 

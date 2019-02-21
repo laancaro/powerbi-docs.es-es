@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a7c9c72dfbb75958be3119db61fa3aa03ac89171
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 09539bfd26685ffdd9866810b566699e5cdb4a41
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430956"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408124"
 ---
 # <a name="subscribe-yourself-and-others-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a un informe o un panel en el servicio Power BI
 
@@ -60,12 +60,10 @@ El proceso de suscripción a un panel o un informe es similar. El mismo botón p
 7. Haga clic en **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción.  Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.   
       
    > [!TIP]
-   > ¿Quiere ver el correo electrónico de inmediato? Puede desencadenar un correo electrónico actualizando una de las bases de datos asociadas al panel o el conjunto de datos asociado al informe. Si no tiene permisos de edición en el conjunto de datos, tendrá que solicitarle a alguien que los tenga que lo actualice por usted. Para ver conjuntos de datos relacionados, haga clic en el icono **Ver relacionados** ![icono Ver relacionados](media/service-report-subscribe/power-bi-view-related.png) para abrir **Contenido relacionado** y luego haga clic en el icono de actualización ![icono de actualización](media/service-report-subscribe/power-bi-refresh.png). 
+   > ¿Quiere enviar el correo electrónico desde una suscripción al instante o a petición en cualquier momento? Haga clic en **Ejecutar ahora** para las suscripciones del panel o informe que quiera enviar. Verá una notificación en la que se indica que hay un correo electrónico en camino para todos los usuarios de esa suscripción concreta.  Puede hacer esto tantas veces como quiera. No cuenta para el límite de 24 ejecuciones de suscripción programadas diariamente por informe o panel. Tenga en cuenta que esto NO desencadena una actualización de datos del conjunto de datos subyacente. 
    > 
    > 
    
-   ![Conjuntos de datos relacionados](media/service-report-subscribe/power-bi-view-related-screen.png)
-
 ## <a name="email-languages"></a>Idiomas de correo electrónico
 
 En el correo electrónico y la instantánea se usa el idioma establecido en la configuración de Power BI (vea [Idiomas y países o regiones admitidos para Power BI](supported-languages-countries-regions.md)). Si no se ha definido ningún idioma, Power BI usa el idioma de acuerdo con la configuración regional del explorador actual. Para ver o establecer las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](media/service-report-subscribe/power-bi-settings-icon.png) > **Configuración > General > Idioma**. 
@@ -84,6 +82,7 @@ Las suscripciones concretas que se muestran dependen del área de trabajo que es
 Una suscripción finaliza si expira la licencia de Pro, el propietario elimina el panel o el informe, o bien se elimina la cuenta de usuario que se ha usado para crear la suscripción.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+* Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios.  Pero las suscripciones a los paneles que superen este número de iconos no se bloquearán, sino que se considerarán no compatibles si encuentra problemas y se deben modificar en consecuencia para que se ajusten a un intervalo admitido.
 * En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, ese icono no se muestra.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
 * Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.

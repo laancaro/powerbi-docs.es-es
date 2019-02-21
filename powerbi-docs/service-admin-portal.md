@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/30/2018
+ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f7e28ce1f72a58fe2bb52103b79fa0106a0024ca
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
+ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
+ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086480"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "56408193"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -172,11 +172,11 @@ En la imagen siguiente se muestra la opción para exportar datos desde un icono.
 > [!NOTE]
 > Si deshabilita la opción **Exportar datos** también impedirá que los usuarios usen la característica **Analizar en Excel**, así como la conexión dinámica al servicio Power BI.
 
-### <a name="export-reports-as-powerpoint-presentations"></a>Exportar informes como presentaciones de PowerPoint
+### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportación de informes como presentaciones de PowerPoint o documentos PDF
 
-Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint. [Más información](consumer/end-user-powerpoint.md)
+Los usuarios de la organización pueden exportar informes de Power BI como archivos de PowerPoint o documentos PDF. [Más información](consumer/end-user-powerpoint.md)
 
-En la imagen siguiente se muestra el menú **Archivo** para un informe cuando está habilitada la opción **Exportar informes como presentaciones de PowerPoint**.
+En la imagen siguiente se muestra el menú **Archivo** para un informe cuando está habilitada la opción **Exportar informes como presentaciones de PowerPoint o documentos PDF**.
 
 ![Exportar informes como presentaciones de PowerPoint](media/service-admin-portal/powerbi-admin-powerpoint.png)
 
@@ -202,9 +202,9 @@ La siguiente imagen muestra la opción **Toda mi organización** al crear un paq
 
 ![Publicar el paquete de contenido en la organización](media/service-admin-portal/powerbi-admin-publish-entire-org.png)
 
-### <a name="create-template-organizational-content-packs-and-apps"></a>Crear paquetes de contenido organizativos y aplicaciones de plantilla
+### <a name="create-template-apps"></a>Creación de aplicaciones plantilla
 
-Los usuarios de la organización pueden crear paquetes de plantilla de contenido que utilizan conjuntos de datos integrados en Power BI Desktop. [Más información](template-content-pack-authoring.md)
+Los usuarios de la organización pueden crear aplicaciones de plantilla en las que se usan conjuntos de datos integrados en Power BI Desktop. Más información sobre las [aplicaciones de plantilla](template-content-pack-authoring.md)
 
 ### <a name="push-apps-to-end-users"></a>Insertar aplicaciones para los usuarios finales
 
@@ -301,6 +301,18 @@ Los usuarios de la organización pueden crear y usar flujos de datos. Para obten
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
+
+## <a name="template-apps-settings-preview"></a>Configuración de aplicaciones de plantilla (versión preliminar)
+
+Dos opciones controlan las aplicaciones de plantilla. 
+
+![Configuración de aplicaciones de plantilla del portal de administración de Power BI](media/service-admin-portal/power-bi-admin-portal-template-apps.png)
+
+La primera opción, **Crear aplicaciones de plantilla**, controla quién puede crear aplicaciones de plantilla en la organización. Los creadores de aplicaciones de plantilla, pueden distribuirlas a clientes fuera de la organización mediante AppSource u otro método de distribución.
+
+![Portal de administración de Power BI, opción Crear aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings.png)
+
+Con la segunda opción, **Instalar aplicaciones de plantilla**, puede controlar quién de la organización puede descargar e instalar aplicaciones de plantilla desde AppSource u otro origen
 
 ## <a name="capacity-settings"></a>Configuración de capacidad
 

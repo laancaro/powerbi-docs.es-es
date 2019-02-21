@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 8dd9af8b44e74aafb97e3265b9ee1c32a05edc64
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 9e1ed67302b3fc4d7bf990040259e9e4615794a5
+ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54281560"
+ms.lasthandoff: 02/15/2019
+ms.locfileid: "56298923"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
@@ -35,6 +35,10 @@ En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. Tamb
 Cuando en el lienzo aparezca el informe que desea exportar a PowerPoint, seleccione **Archivo > Exportar a PowerPoint** en la barra de menús del servicio Power BI.
 
 ![Cierre la barra de navegación izquierda con Mi área de trabajo seleccionado, lista desplegable Archivo seleccionada](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
+   
+Aparecerá una ventana emergente donde tiene la opción de seleccionar la **vista actual** o la **vista predeterminada**.  **Vista actual** exporta el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Vista predeterminada** se exporta el informe en el estado original (como lo haya compartido el autor) y no se reflejan los cambios que haya realizado al estado original.
+    
+Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, haga clic en **Exportar** para continuar.
 
 Verá un banner de notificación en la esquina superior derecha de la ventana del explorador del servicio Power BI conforme el informe se está exportando a PowerPoint. Esto puede tardar unos minutos y puede continuar trabajando en Power BI mientras se exporta el informe.
 
@@ -74,7 +78,6 @@ Lo que haga con la presentación de PowerPoint a partir de este punto, o con cua
 ## <a name="limitations"></a>Limitaciones
 Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la característica **Exportar a PowerPoint**.
 
-* La interactividad dentro de la sesión, como resaltado, filtrado, exploración en profundidad, etc., todavía no se admiten para exportarse a PowerPoint. El PowerPoint exportado muestra los objetos visuales como si se hubiesen guardado en el informe. Si ha aplicado filtros y segmentaciones de datos y quiere que se conserven en la exportación, guarde el informe y, a continuación, realice la exportación.
 * En la actualidad, no se admiten **objetos visuales de R**. Los objetos visuales este tipo se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
 * Los **objetos visuales personalizados** que se han **certificado** que son compatibles. Para más información acerca de los objetos visuales personalizados certificados, lo que incluye cómo obtener un objeto visual personalizado, consulte [Obtención de un objeto visual personalizado certificado](../power-bi-custom-visuals-certified.md). Los objetos visuales personalizados que no se han certificado no se admiten y se exportan como una imagen en blanco a PowerPoint con un mensaje de error que indica que el objeto visual no se admite.
 * Actualmente no se pueden exportar informes de más de 30 páginas.

@@ -1,3 +1,16 @@
+---
+author: mgblythe
+ms.service: powerbi
+ms.topic: include
+ms.date: 02/15/2019
+ms.author: mblythe
+ms.openlocfilehash: 44ef0aa9d436f3a8a02f9a6b831847d5c996558a
+ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 02/16/2019
+ms.locfileid: "56334010"
+---
 ## <a name="limitations"></a>Limitaciones
 
 Esta es una lista de las limitaciones actuales para la seguridad de nivel de fila en los modelos en la nube.
@@ -8,7 +21,7 @@ Esta es una lista de las limitaciones actuales para la seguridad de nivel de fil
 
 * Solo se admiten conexiones de DirectQuery y ETL. Las conexiones dinámicas con Analysis Services se controlan en el modelo local.
 
-* Preguntas y respuestas y Cortana no se admiten con RLS en este momento. No verá el cuadro de entrada de Preguntas y respuestas en los paneles si todos los modelos tienen configurado RLS. Está en el mapa de ruta, pero no está disponible una escala de tiempo.
+* En la actualidad no se admite Cortana con RLS.
 
 ## <a name="known-issues"></a>Problemas conocidos
 

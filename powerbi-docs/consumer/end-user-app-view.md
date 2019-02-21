@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: b48feeaacc5ec0beff3b9b250f22b1aa605de9f7
-ms.sourcegitcommit: 6c75e38660b1ab4c1af355c85709859ffde09e25
+ms.openlocfilehash: f4e6f0204ed9832a3ed3c3ed8347a44300f606df
+ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/25/2019
-ms.locfileid: "55068060"
+ms.lasthandoff: 02/14/2019
+ms.locfileid: "56249399"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 Ahora que tiene [conocimientos básicos sobre las aplicaciones](end-user-apps.md), vamos a aprender a abrirlas e interactuar con ellas. 
@@ -25,7 +25,7 @@ Recuerde que hay varias maneras de obtener una nueva aplicación. Un compañero 
 
 En Power BI desde su dispositivo móvil, solo puede instalar una aplicación desde un vínculo directo y no desde AppSource. Si el autor de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
 
-### <a name="install-an-app-from-a-direct-link"></a>Instalar una aplicación desde un vínculo directo
+## <a name="install-an-app-from-a-direct-link"></a>Instalar una aplicación desde un vínculo directo
 La manera más fácil de instalar usted mismo una aplicación nueva es obtener un vínculo directo de su autor.  
 
 **En el equipo** 
@@ -40,7 +40,7 @@ Al seleccionar el vínculo del correo electrónico en el dispositivo móvil, la 
 
 ![Lista de contenido de una aplicación del dispositivo móvil](./media/end-user-app-view/power-bi-app-index-it-spend-360.png)
 
-### <a name="get-the-app-from-microsoft-appsource"></a>Obtención de la aplicación desde Microsoft AppSource
+## <a name="get-the-app-from-microsoft-appsource"></a>Obtención de la aplicación desde Microsoft AppSource
 También puede buscar e instalar aplicaciones desde Microsoft AppSource. Solo se muestran las aplicaciones a las que puede acceder (es decir, el autor de la aplicación le ha concedido permiso a usted o a todos los usuarios).
 
 1. Seleccione **Aplicaciones** ![en el panel de navegación de la izquierda](./media/end-user-apps/power-bi-apps-bar.png) > **Obtener aplicaciones**. 
