@@ -3,19 +3,19 @@ title: Tutorial de visualizaciones de influenciadores clave
 description: 'Tutorial: creación de una visualización de influenciadores clave en Power BI'
 author: mihart
 manager: kvivek
-ms.reviewer: justyna
+ms.reviewer: juluczni
 ms.service: powerbi
 ms.component: powerbi-visuals
 ms.topic: tutorial
-ms.date: 02/10/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d7ad1cc4ffb339aeb1a64cd28274fde4f8ef6af6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325160"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426801"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
 El objeto visual de influenciadores clave le ayudará a reconocer los factores que controlan una métrica de su interés. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, digamos que le interesa averiguar lo que influye en la rotación de empleados (abandono). La duración del contrato de empleo puede ser uno de los factores, mientras que otro puede ser la edad del empleado. 
@@ -46,7 +46,7 @@ La métrica que se analiza debe ser un campo de categoría.
 
 6. ***Panel derecho***: el panel derecho contiene un objeto visual. En este caso, el gráfico de columnas muestra todos los valores para el **influenciador clave**, **Tema**, que está seleccionado en el panel izquierdo. El valor específico (**Facilidad de uso**) en el panel izquierdo se muestra de color verde y todos los demás valores de **Tema** se muestran en negro.
 
-7. ***Línea promedio***: el promedio se calcula para todos los otros valores posibles para **Tema** excepto la **facilidad de uso**. Por lo tanto, el cálculo se aplica a todos los valores de color negro. Nos indica qué porcentaje de los demás **temas** ha dado como resultado una clasificación baja. En otras palabras, cuando un cliente da una clasificación, el cliente también describe el motivo o el **tema** para la clasificación. Algunos de estos temas son la facilidad de uso, la velocidad, la seguridad, etc. El valor **Tema** es **Facilidad de uso** corresponde al segundo influenciador clave más importante para una clasificación baja, según nuestro objeto visual en el panel izquierdo. Si hacemos un promedio de todos los otros temas, y su contribución a una clasificación **baja**, obtenemos el resultado que aquí se muestra en rojo. 
+7. ***Línea promedio***: el promedio se calcula para todos los otros valores posibles para **Tema** excepto la **facilidad de uso**. Por lo tanto, el cálculo se aplica a todos los valores de color negro. Nos indica qué porcentaje de los demás **temas** ha dado como resultado una clasificación baja. En otras palabras, cuando un cliente da una clasificación, el cliente también describe el motivo o el **tema** para la clasificación. Algunos de estos temas son la facilidad de uso, la velocidad, la seguridad, etc. El valor **Tema** es **Facilidad de uso** corresponde al segundo influenciador clave más importante para una clasificación baja, según nuestro objeto visual en el panel izquierdo. Si hacemos un promedio de todos los otros temas, y su contribución a una clasificación **baja**, obtenemos el resultado que aquí se muestra en rojo. De todos los demás temas dados, solo el 11,35 % son mayores que la **facilidad de uso**. 
 
 8. ***Casilla de verificación***: mostrar solo los valores que son influenciadores.
 
@@ -217,7 +217,7 @@ Más concretamente, los clientes que no usan el navegador para consumir el servi
 
 ![Error: Solucionado](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Veo una advertencia que indica que las medidas no se han incluido en mi análisis. ¿Por qué?** [2052261] 
+**Veo una advertencia que indica que las medidas no se han incluido en mi análisis. ¿Por qué?** 
 
 ![Error: Medidas no incluidas](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 

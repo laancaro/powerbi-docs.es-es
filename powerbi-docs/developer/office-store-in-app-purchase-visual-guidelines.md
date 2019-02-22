@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/26/2018
-ms.openlocfilehash: 097095cda1e0ffea4f43059351f22638c502e8b4
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: 4cbd17a08a8cb7c7253f60f29a19341598c9800f
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408078"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426548"
 ---
 # <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
 
@@ -33,7 +33,10 @@ Los desarrolladores cargan sus objetos visuales de IAP en AppSource mediante el 
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>¿Qué es un objeto visual de Power BI con características de IAP?
 
-Un objeto visual de IAP es un objeto visual gratuito que ofrece características gratuitas, pero que también tiene características adicionales por las que se pueden aplicar cargos adicionales a fin de que funcionen. Los desarrolladores deben indicar a los usuarios en la descripción del objeto visual qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona interfaces de programación de aplicaciones (API) nativas que admitan comprar en aplicaciones y complementos. Los desarrolladores pueden usar cualquier sistema de pago de terceros para esas compras. Consulte la [directiva](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) de nuestra tienda.
+Un objeto visual de IAP es un objeto visual gratuito que ofrece características gratuitas, pero que también tiene características avanzadas adicionales por las que se pueden aplicar cargos adicionales a fin de que funcionen. Los desarrolladores deben indicar a los usuarios en la descripción del objeto visual qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona interfaces de programación de aplicaciones (API) nativas que admitan comprar en aplicaciones y complementos. Los desarrolladores pueden usar cualquier sistema de pago de terceros para esas compras. Consulte la [directiva](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads) de nuestra tienda.
+
+> [!NOTE]
+> Las marcas de agua no se permiten en las características gratuitas. Los desarrolladores pueden mostrar una marca de agua o una ventana emergente si se usan las características avanzadas de pago sin una licencia válida.  
 
 ## <a name="logo-guidelines"></a>Instrucciones para los logotipos
 

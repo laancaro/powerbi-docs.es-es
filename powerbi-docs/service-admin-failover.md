@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 7446cb9db0f4ebbb20e316365263fa6f09de71bb
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55448230"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426571"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -29,7 +29,7 @@ Power BI es software como servicio (SaaS) totalmente administrado.  Microsoft lo
 
 Power BI mantiene varias instancias de cada componente en centros de datos Azure (también conocidos como regiones) para garantizar la continuidad empresarial. Si se produce una interrupción o un problema que hace que Power BI sea inaccesible o no funcione en una región, Power BI realiza la conmutación por error de todos sus componentes en esa región en una instancia de copia de seguridad. La conmutación por error restaura la disponibilidad y operatividad en la instancia del servicio Power BI en una región nueva (normalmente en la misma ubicación geográfica, como se indica en el [Centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location)).
 
-Una instancia del servicio Power BI conmutada por error solo admite _operaciones de lectura_, lo que significa que las operaciones siguientes no se admiten durante la conmutación por error: actualizaciones, operaciones de publicación de informes, modificaciones de paneles o informes, y otras operaciones que requieran cambios en los metadatos de Power BI (por ejemplo, la inserción de un comentario en un informe).  Las operaciones de lectura, como la visualización de paneles e informes (que no se basan en Direct Query o Live Connect a orígenes de datos locales) seguirán funcionando con normalidad.
+Una instancia del servicio Power BI conmutada por error solo admite _operaciones de lectura_, lo que significa que las operaciones siguientes no se admiten durante la conmutación por error: actualizaciones, operaciones de publicación de informes, modificaciones de paneles o informes, y otras operaciones que requieran cambios en los metadatos de Power BI (por ejemplo, la inserción de un comentario en un informe).  Las operaciones de lectura, como la visualización de paneles e informes (que no se basan en DirectQuery o Live Connect a orígenes de datos locales) seguirán funcionando con normalidad.
 
 ## <a name="how-are-backup-instances-kept-in-sync-with-my-data"></a>¿Cómo se mantienen sincronizadas las instancias de copia de seguridad con los datos?
 

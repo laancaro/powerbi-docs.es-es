@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/24/2019
+ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 35d5a6f9911afea7b91b37299225c191cd4d7ac9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 0118c9b7bb1d00daf1b6baeb7638916b49d8af49
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794848"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426778"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 Encontrará las visualizaciones en informes, paneles, aplicaciones y preguntas y respuestas. Algunos de estos tipos de visualización se empaquetan con Power BI, y algunas son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores de informes* agregarlos a aplicaciones, paneles e informes de Power BI. 
@@ -98,10 +98,12 @@ Los medidores radiales son una excelente opción para:
 - Mostrar el estado de una única medida.
 - Mostrar información que se pueda analizar y comprender rápidamente.
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+ ### <a name="key-influencers-chart"></a>Gráfico de influenciadores clave
+![influenciadores clave](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
-A key influencer chart displays the major contributors to a selected result or value.  -->
+En un gráfico de influenciadores clave se muestran los mayores colaboradores a un resultado o valor seleccionado.
+
+El gráfico de influenciadores clave es una gran elección para ayudarle a comprender los factores que afectan a una métrica clave. Por ejemplo, *qué influye a los clientes para realizar un segundo pedido*o*por qué las ventas fueron tan altas el junio pasado*. 
 
 ### <a name="kpis"></a>KPI
 ![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8cc1201c506e98ae33b68ef0cf802dae20b6f493
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
+ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216525"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426732"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
 
@@ -70,6 +70,8 @@ Siga los pasos que se describen en el artículo [Asignación de un rol a una ent
 En la ventana **Agregar asignación de roles**, seleccione el rol **Lector** para asignar al servicio Power BI. A continuación, use la búsqueda para encontrar el **servicio Power BI**. En la siguiente imagen se muestra el rol **Lector** asignado al servicio Power BI.
 
 ![Rol Lector asignado al servicio Power BI](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_05.jpg)
+
+Nota: Permita un mínimo de 30 minutos para que el permiso se propague a Power BI desde Portal. Cada vez que cambie el permiso en Portal, debería dejar 30 minutos para que esto se refleje en Power BI antes de volver a intentarlo. 
 
 
 ### <a name="create-a-file-system-for-power-bi"></a>Crear un sistema de archivos para Power BI

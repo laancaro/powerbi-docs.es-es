@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/29/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ee0063d5266c663079a9801777ee2c900957c52f
-ms.sourcegitcommit: 2954de034f5e1be655dd02cc756ff34f126d3034
+ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
+ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "55234310"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "56426686"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -82,10 +82,12 @@ Para más información, vea [Gráficos de embudo en Power BI](power-bi-visualiza
 
 Para más información, vea [Gráficos de medidor en Power BI](power-bi-visualization-radial-gauge-charts.md).
 
-<!-- ### Key influencers chart
-![key influencer](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers2.png)
+### <a name="key-influencers-chart"></a>Gráfico de influenciadores clave
+![influenciadores clave](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
 
-A key influencer chart displays the major contributors to a selected result or value. -->
+En un gráfico de influenciadores clave se muestran los mayores colaboradores a un resultado o valor seleccionado.
+
+Para obtener más información, vea [Gráficos de influenciadores clave en Power BI](power-bi-visualization-influencers.md).
 
 ### <a name="kpis"></a>KPI
 ![](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
