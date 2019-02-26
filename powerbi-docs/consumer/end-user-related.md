@@ -7,17 +7,17 @@ ms.reviewer: ''
 featuredvideoid: B2vd4MQrz4M
 ms.custom: seodec18
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 12/09/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: e3b7731dec23c6fda49d31716d6e450231ab4bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276615"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662099"
 ---
 # <a name="view-related-content-in-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
 El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos. El panel de contenido relacionado también es un panel de inicio para la realización de acciones. Desde aquí puede actualizar, cambiar el nombre, generar perspectivas y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   

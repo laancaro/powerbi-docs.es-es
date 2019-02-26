@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2019
+ms.date: 02/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e77f4d6fe1963b3f229ef7f477fb86b7c5c26713
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 202fa85fa930de45f4f6838202733d8d1098256d
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426686"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662351"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -83,7 +83,7 @@ Para más información, vea [Gráficos de embudo en Power BI](power-bi-visualiza
 Para más información, vea [Gráficos de medidor en Power BI](power-bi-visualization-radial-gauge-charts.md).
 
 ### <a name="key-influencers-chart"></a>Gráfico de influenciadores clave
-![influenciadores clave](/visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencers.png)
+![influenciadores clave](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
 
 En un gráfico de influenciadores clave se muestran los mayores colaboradores a un resultado o valor seleccionado.
 
