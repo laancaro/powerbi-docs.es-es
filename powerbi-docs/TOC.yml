@@ -843,7 +843,13 @@ items:
     - name: Idiomas y países o regiones admitidos
       href: supported-languages-countries-regions.md
     - name: Notas del producto
-      href: whitepapers.md
+      items:
+      - name: Información general sobre las notas del producto
+        href: whitepapers.md
+      - name: Notas del producto sobre la seguridad de Power BI
+        href: whitepaper-powerbi-security.md
+      - name: Implementación de Power BI Premium
+        href: whitepaper-powerbi-premium-deployment.md
 - name: Power BI para desarrolladores
   items:
   - name: ¿Qué pueden hacer los desarrolladores con Power BI?
@@ -1036,7 +1042,9 @@ items:
         href: developer/walkthrough-push-data-get-datasets.md
       - name: Agregar filas a una tabla
         href: developer/walkthrough-push-data-add-rows.md
-      - name: Cifrar credenciales
+      - name: Configurar credenciales
+        href: developer/configure-credentials.md
+      - name: Cifrado de credenciales
         href: developer/encrypt-credentials.md
     - name: Referencia
       items:
@@ -1305,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 994d0f82fc92eb8e54aee92f0b4ceefa38cc8a49
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826707"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892445"
