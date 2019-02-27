@@ -6,17 +6,17 @@ manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
-ms.subservice: powerbi-service
+ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 02/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1aaa57006b9a5aac2b077d3326ed6a39e6a4206d
-ms.sourcegitcommit: f07520591db6c3f27ab6490612cc56384abc6633
+ms.openlocfilehash: 35efd62e6f00edd9ce6b58774dd73925a721dec5
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/15/2019
-ms.locfileid: "56298877"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56661937"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 Con Power BI, puede publicar el informe en formato PDF, y crear fácilmente un documento basado en el informe de Power BI. Al **exportar a PDF**, cada página del informe de Power BI se convierte en una página individual en el documento PDF.
@@ -63,6 +63,8 @@ Hay algunas consideraciones y limitaciones que tener en cuenta cuando se trabaja
 * Los informes que pertenecen a un usuario situado fuera del dominio del inquilino de Power BI (como un informe de alguien de fuera de la organización y que han compartido con usted) no se pueden publicar en PDF.
 
 * Si comparte un panel con alguien de fuera de la organización (y, por tanto, con un usuario que no está en el inquilino de Power BI), ese usuario no podrá exportar a PDF los informes asociados del panel compartido. Por ejemplo, si es aaron@contoso.com, puede compartir con cassie@cohowinery.com. Pero cassie@cohowinery.com no puede exportar los informes asociados a PDF.
+
+* Al exportar a PDF con informes que contienen una imagen de fondo, puede que vea una imagen distorsionada en la exportación si usa la opción "Ajustar" para el Fondo de página.  Para obtener mejores resultados, se recomienda que use las opciones "Normal" o "Rellenar" para evitar problemas con su documento exportado.
 
 * El servicio Power BI usa su propia configuración de idioma como idioma para la exportación de PDF. Para ver o configurar las preferencias de idioma, haga clic en el icono de engranaje > **Configuración** > **General** > **Idioma**.
 

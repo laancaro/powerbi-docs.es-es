@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 771b7361efaea436d67c26ee05741f6dc3eba810
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
+ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431255"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "56826730"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -22,6 +22,16 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="january---february-2019"></a>Enero-febrero 2019
+ 
+### <a name="visio-visuals"></a>Objetos visuales de Visio
+
+Habilitación de inicio de sesión único (SSO) en objetos visuales de Visio, de modo que no sea necesario ningún paso de inicio de sesión adicional al ver informes con objetos visuales de Visio en la aplicación. 
+
+### <a name="dashboard-commenting-is-coming-to-power-bi-mobile-windows-app"></a>Comentarios de paneles llega a la aplicación de Windows Power BI Mobile
+
+Puede agregar comentarios directamente a paneles e iconos específicos para debatir los datos, y cualquier usuario que vea el panel verá los comentarios. 
 
 ## <a name="december-2018"></a>Diciembre de 2018
 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: ad3025b9649529566972f75e9c447bb7558132b8
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: e645cd84b646e180114027464ea4781277d5245f
+ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325206"
+ms.lasthandoff: 02/22/2019
+ms.locfileid: "56662466"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -41,6 +41,10 @@ Compatibilidad con estas características en los informes de Power BI:
 [**Guías de alineación inteligente**](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#smartGuides) Las guías de alineación inteligente se muestran cuando se mueven los objetos de la página del informe, al igual que en PowerPoint, para ayudarle a alinear todo el contenido. Las guías inteligentes se muestran siempre que se arrastra o se cambia de tamaño algún elemento de la página. Si coloca un objeto cerca de otro, se ajusta en una posición alineada con el otro objeto.
 
 **Características de accesibilidad** Hay tantas características de accesibilidad que es imposible enumerarlas: por ejemplo, la [accesibilidad del panel de la lista de campos](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fieldList). El panel de la lista de campos es totalmente accesible. Puede navegar por el panel mediante el teclado y un lector de pantalla, y usar el menú contextual para agregar campos a la página del informe.
+
+#### <a name="custom-visuals"></a>Objetos visuales personalizados
+
+- La versión de la API incluida con esta versión es 2.3.
 
 ### <a name="administrator-settings"></a>Configuración del administrador
 
