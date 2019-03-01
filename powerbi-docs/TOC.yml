@@ -1242,12 +1242,12 @@ items:
         href: service-premium-understand-how-it-works.md
       - name: Adquisición de Power BI Premium
         href: service-admin-premium-purchase.md
-      - name: Administración de Power BI Premium
-        href: service-admin-premium-manage.md
       - name: Supervisión de capacidades con la aplicación
         href: service-admin-premium-monitor-capacity.md
       - name: Supervisión de capacidades en el portal de administración
         href: service-admin-premium-monitor-portal.md
+      - name: Configuración de las cargas de trabajo
+        href: service-admin-premium-workloads.md
       - name: Reinicio de una capacidad Premium
         href: service-admin-premium-restart.md
       - name: Compatibilidad con grandes conjuntos de datos
@@ -1313,9 +1313,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1d95f65528ff52931b9fbe9119f9d593db99655a
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892445"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014332"
