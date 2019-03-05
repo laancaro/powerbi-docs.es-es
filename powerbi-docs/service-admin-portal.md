@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868c1226b70bd12762c20c3af5b0ee1ff59857e5
-ms.sourcegitcommit: a2f274cfb392fe3b1b466a39ec7eaf58a7c5ce00
+ms.openlocfilehash: a4180f211a2b31a8610d410a74e0cca25dcdad15
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "56408193"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014654"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -297,7 +297,7 @@ Los usuarios de la organización pueden insertar informes y paneles de Power BI 
 
 ### <a name="create-and-use-dataflows-preview"></a>Creación y uso de flujos de datos (versión preliminar)
 
-Los usuarios de la organización pueden crear y usar flujos de datos. Para obtener información general sobre flujos de datos, vea [Preparación de datos de autoservicio en Power BI (versión preliminar)](service-dataflows-overview.md). Para habilitar flujos de datos en una capacidad Premium, vea [Configuración de las cargas de trabajo](service-admin-premium-manage.md#configure-workloads).
+Los usuarios de la organización pueden crear y usar flujos de datos. Para obtener información general sobre flujos de datos, vea [Preparación de datos de autoservicio en Power BI (versión preliminar)](service-dataflows-overview.md). Para habilitar flujos de datos en una capacidad Premium, vea [Configuración de las cargas de trabajo](service-admin-premium-workloads.md).
 
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
@@ -321,8 +321,6 @@ Con la segunda opción, **Instalar aplicaciones de plantilla**, puede controlar 
 La pestaña **Power BI Premium** le permite administrar las funcionalidades de Power BI Premium (SKU EM o P) que se han adquirido para su organización. Todos los usuarios de su organización pueden ver la pestaña **Power BI Premium**, pero solo ven lo que contiene si están asignados como *administrador de funcionalidades* o como un usuario con permisos de asignación. Si un usuario no tiene ningún permiso, aparecerá el mensaje siguiente.
 
 ![No hay acceso a la configuración de Premium](media/service-admin-portal/premium-settings-no-access.png)
-
-Para más información sobre cómo administrar la configuración de Premium, consulte [Administración de Power BI Premium](service-admin-premium-manage.md).
 
 ### <a name="power-bi-embedded"></a>Power BI Embedded
 
@@ -410,6 +408,5 @@ Como administrador, puede ver las áreas de trabajo que existen en el inquilino.
 
 [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md) [Descripción del rol de administrador de Power BI](service-admin-role.md)  
 [Auditoría de Power BI en su organización](service-admin-auditing.md)  
-[Administración de Power BI Premium](service-admin-premium-manage.md)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -2,19 +2,19 @@
 title: Desarrollo con las API de REST para Power BI Report Server
 description: La API de REST proporciona acceso mediante programación a los objetos de un catálogo de Power BI Report Server.
 author: markingmyname
+ms.author: maghan
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.author: maghan
-ms.openlocfilehash: b7423a5b15f314050ee21b7eed5c3ea7ad960985
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 154415f3662aebaa086d3452eb84e589333ecd28
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291680"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327858"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desarrollo con las API de REST para Power BI Report Server
 

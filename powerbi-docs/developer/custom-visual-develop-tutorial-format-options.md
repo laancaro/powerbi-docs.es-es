@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: fd1df09e9ef431bf04c566996867c355350fdb2e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 56247275d39c3feb978a8ec38841c7f69de8787a
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279779"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226190"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual personalizado de Power BI
 
@@ -146,7 +146,10 @@ Puede agregar propiedades personalizadas para permitir la configuración del col
 
     ```typescript
     this.visualSettings = VisualSettings.parse<VisualSettings>(dataView);
-    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness)this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.max(0, this.visualSettings.circle.circleThickness);
+
+    this.visualSettings.circle.circleThickness = Math.min(10, this.visualSettings.circle.circleThickness);
     ```
     Este código recupera las opciones de formato. Ajusta cualquier valor pasado a la propiedad **circleThickness**, convirtiéndolo en 0 si es negativo, o en 10 si es mayor de 10.
 

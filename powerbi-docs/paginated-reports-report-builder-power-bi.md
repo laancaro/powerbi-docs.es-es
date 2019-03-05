@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 12/05/2018
-ms.openlocfilehash: d3563b80813b0c08377e7ecaec89439197c2014f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 1b8653b4493e0a6de904ecb0f5bb8ec5bb6f7904
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324645"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014194"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium-preview"></a>¿Qué son los informes paginados en Power BI Premium? (Versión preliminar)
 
@@ -24,7 +24,7 @@ Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe t
 
 ![Informe paginado en el servicio Power BI](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
-Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, http://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga una capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en el portal de administración de Power BI. Obtenga más información sobre la [configuración de las cargas de trabajo](service-admin-premium-manage.md#configure-workloads). 
+Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, http://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga una capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en el portal de administración de Power BI. 
 
 ## <a name="create-reports-in-report-builder"></a>Creación de informes en el generador de informes
 

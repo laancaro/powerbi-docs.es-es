@@ -1,6 +1,7 @@
 ---
 title: Registro de cambios del servidor de informes de Power BI
 description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
+ms.author: jtarquino
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -8,13 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.author: jtarquino
-ms.openlocfilehash: 346e1a3d096ba5e8ea8d16b49d49e02c0c65e54a
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 9589c2cf5277995459a9f43f573b6e19c4c8f748
+ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224051"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "57327973"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -23,6 +23,7 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
 
 ## <a name="january-2019"></a>Enero de 2019
+
 - **Servidor de informes de Power BI**            
     - *Versión 1.4.6969.7395 (compilación 15.0.1102.235), fecha de publicación: 30 de enero de 2019*
         - Correcciones de errores
@@ -65,6 +66,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
         - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2019).  
 
 ## <a name="august-2018"></a>Agosto de 2018
+
 - **Servidor de informes de Power BI**
     - *Versión 1.3.6816.37243 (compilación 15.0.2.557), fecha de publicación: 30 de agosto de 2018*
         - Correcciones de errores
@@ -86,6 +88,7 @@ Para obtener información detallada sobre las nuevas características, consulte 
         - Contiene los cambios necesarios para la conexión con Power BI Report Server (agosto de 2018)         
         
 ## <a name="march-2018"></a>Marzo de 2018
+
 - **Servidor de informes de Power BI**
     - *Versión 1.2.6690.34729 (compilación 15.0.2.402), fecha de publicación: 27 de abril de 2018*
         - Correcciones de errores

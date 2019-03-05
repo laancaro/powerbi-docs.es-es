@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 12/07/2018
-ms.openlocfilehash: 377e601bde58c0e0a8e5634cd798e3373ebee7b7
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 109c0f98705f81d48811f756c49150c8cb286e27
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324907"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014447"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -37,11 +37,11 @@ Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requ
 
 Si ha adquirido Power BI Premium, dentro de la pestaña **Configuración de Premium** del portal de administración de Power BI, tiene acceso a la clave de producto de Power BI Report Server. Esto solo está disponible para los administradores globales o los usuarios a quienes se haya asignado el rol de administrador del servicio Power BI.
 
-![Configuración de Premium](../media/service-admin-premium-manage/pbirs-product-key.png "Clave de Power BI Report Server en Configuración de Premium")
+![Configuración de Premium](../report-server/media/install-report-server/pbirs-product-key.png "Clave de Power BI Report Server en Configuración de Premium")
 
 Al seleccionar **Clave de Power BI Report Server**, se muestra un cuadro de diálogo con la clave de producto. Puede copiarla y usarla en la instalación.
 
-![Clave de producto](../media/service-admin-premium-manage/pbirs-product-key-dialog.png "Clave de producto de Power BI Report Server")
+![Clave de producto](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Clave de producto de Power BI Report Server")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>Software Assurance (SA) de SQL Server Enterprise
 
