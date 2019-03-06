@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/28/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 6a44443918fe0bb9c25343c8960aaaadd5a6977e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 8568013438f6be84b2d4a48efdeffd99db352ed8
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285631"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892376"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obtención de datos de archivos de libro de Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -78,7 +78,7 @@ Si elige **Conectar**, aparecerá el libro en Power BI tal como lo haría en Exc
 
 No puede editar el libro en Power BI, pero si necesita realizar algunos cambios, haga clic en Editar y, a continuación, edite el libro en Excel Online o ábralo en Excel en el equipo. Todos los cambios que realice se guardarán en el libro en OneDrive.
 
-Al elegir este modo, no se creará ningún conjunto de datos en Power BI. El libro aparecerá en Informes, en el panel de navegación del área de trabajo de Power BI. Los libros conectados tienen un icono especial de Excel.
+Al elegir este modo, Power BI creará un conjunto de datos correspondiente para el libro conectado. Puede usar este conjunto de datos para crear un informe de Power BI, si es necesario. El libro también aparecerá en el panel de navegación del área de trabajo de Power BI, en Informes. Los libros conectados tienen un icono especial de Excel.
 
 Elija esta opción si solo tiene datos en hojas de cálculo o si tiene rangos, tablas dinámicas y gráficos que desea anclar a los paneles.
 

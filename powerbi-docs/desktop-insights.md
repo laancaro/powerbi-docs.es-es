@@ -8,21 +8,21 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f5896505d724c0704e22c95df132ee3318b23009
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56224028"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892261"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Uso de conclusiones en Power BI Desktop para explicar los aumentos y las disminuciones que hay en objetos visuales (versión preliminar)
 
 A menudo, en los objetos visuales ve un gran aumento y después un descenso brusco en los valores y se pregunta cuál es la causa de esas fluctuaciones. Con las **conclusiones** de **Power BI Desktop**, puede conocer las causas con unos pocos clics.
 
-Por ejemplo, fíjese en el siguiente objeto visual que muestra el *Importe de venta* por *Año* y *País*. En 2014 se produce una gran disminución en las ventas, con un descenso drástico en las ventas entre el *T1* y el *T2*. En tales casos, puede explorar los datos para ayudar a explicar el cambio que se ha producido. 
+Por ejemplo, fíjese en el objeto visual siguiente que muestra el *Importe de venta* por *Año* y *Trimestre*. En 2014 se produce una gran disminución en las ventas, con un descenso drástico en las ventas entre el *T1* y el *T2*. En tales casos, puede explorar los datos para ayudar a explicar el cambio que se ha producido. 
 
 ![Objeto visual con aumentos y disminuciones](media/desktop-insights/insights_01a.png)
 

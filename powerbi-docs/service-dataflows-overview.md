@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5e1bd67ba14ed35a97d91e5ed76f7a3bd8de56ea
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324851"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892353"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -69,7 +69,7 @@ Azure Data Lake Storage Gen2 se incluye con cada suscripción de Power BI de pag
 
 Power BI puede configurarse para almacenar datos de flujo de datos en la cuenta de Azure Data Lake Storage Gen2 de su organización. Cuando Power BI se conecta a su suscripción de Azure, los desarrolladores de datos y los científicos de datos pueden beneficiarse de los eficaces productos de Azure, como Azure Machine Learning, Azure Databricks, Azure Data Factory y muchos más.
 
-Power BI también puede conectarse a carpetas con datos esquematizados con el formato Common Data Service, que se almacenan en la cuenta de Azure Data Lake Storage de la organización. Estas carpetas pueden crearse como servicios, como los servicios de datos de Azure. Al conectarse a estas carpetas, los analistas pueden trabajar sin problema con estos datos en Power BI. 
+Power BI también se puede conectar a carpetas con datos esquematizados con el formato Common Data Model, que se almacenan en la cuenta de Azure Data Lake Storage de la organización. Estas carpetas pueden crearse como servicios, como los servicios de datos de Azure. Al conectarse a estas carpetas, los analistas pueden trabajar sin problema con estos datos en Power BI. 
 
 Para más información sobre la integración con Azure Data Lake Storage Gen2 y flujos de datos, lo que incluye cómo crear flujos de datos que residen en la instancia de Azure Data Lake de su organización, consulte [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md).
 

@@ -2,21 +2,22 @@
 title: Cifrado de credenciales
 description: 'Tutorial: Cifrado de credenciales para orígenes de datos de puerta de enlace local'
 author: mahirdiab
+ms.author: mahirdiab
 manager: eligr
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 04/02/2019
-ms.author: mahirdiab
-ms.openlocfilehash: 79ab3731abfdf972de1ee9d40456ebb0c5ebfa62
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.date: 02/04/2019
+ms.openlocfilehash: 6229d65e7ef28d0c9b6013166cb504cfb976f46d
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223522"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892238"
 ---
 # <a name="encrypt-credentials"></a>Cifrado de credenciales
+
 Cuando se llama a [Crear origen de datos](https://docs.microsoft.com/rest/api/power-bi/gateways/createdatasource) o [Actualizar origen de datos](https://docs.microsoft.com/rest/api/power-bi/gateways/updatedatasource) en una **puerta de enlace empresarial local** mediante la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/), el valor de credenciales se debe cifrar con la clave pública de la puerta de enlace.
 
 En el ejemplo de código siguiente se muestra cómo cifrar las credenciales en .NET.
@@ -24,27 +25,31 @@ En el ejemplo de código siguiente se muestra cómo cifrar las credenciales en .
 Las credenciales proporcionadas para el método EncodeCredentials siguiente deben estar en uno de los formatos siguientes en función de su tipo:
 
 **Credenciales básicas o de Windows**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"username\", \"value\":\"john\"},{\"name\":\"password\", \"value\":\"*****\"}]}";
 ```
 
 **Credenciales de clave**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"key\", \"value\":\"ec....LA=\"}]}";
 ```
 
 **Credenciales de OAuth2**
+
 ```csharp
 var credentials = "{\"credentialData\":[{\"name\":\"accessToken\", \"value\":\"eyJ0....fwtQ\"}]}";
 ```
 
-
 **Credenciales anónimas**
+
 ```csharp
 var credentials = "{\"credentialData\":\"\"}";
 ```
 
 **Credenciales de cifrado**
+
 ```csharp
 public static class AsymmetricKeyEncryptionHelper
 {

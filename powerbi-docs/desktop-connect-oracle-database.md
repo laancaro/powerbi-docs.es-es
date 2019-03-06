@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 826338a5e5524bb54c2ebb2207a3d438a8d428b1
-ms.sourcegitcommit: 3c8196be5626a0f037599abb6ccbd294fb1249df
+ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "54899236"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892284"
 ---
 # <a name="connect-to-an-oracle-database"></a>Conectarse a una base de datos de Oracle
 Para conectarse a una base de datos de Oracle con **Power BI Desktop**, el software cliente de Oracle correcto debe estar instalado en el equipo donde se ejecuta Power BI Desktop. El software cliente de Oracle que usa depende de la versión que Power BI Desktop que tiene instalada: puede ser la versión de **32 bits** o la de **64 bits**.
@@ -43,8 +43,13 @@ Una vez que instale el controlador cliente de Oracle que corresponda, puede cone
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_2.png)
 2. En el cuadro de diálogo **Base de datos de Oracle** que aparece, proporcione el nombre del servidor y, luego, seleccione **Conectar**. Si es necesario un SID, puede especificarlo con el formato siguiente: *NombreServidor/SID*, donde SID es el nombre único de la base de datos. Si el formato *NombreServidor/SID* no funciona, pruebe a usar *NombreServidor/NombreServicio*, donde NombreServicio es el alias que se usa al conectarse.
-   
+
+
    ![](media/desktop-connect-oracle-database/connect-oracle-database_3.png)
+
+   > [!TIP]
+   > Si tiene problemas para conectarse en este paso, pruebe a usar el siguiente formato en el campo Nombre del servidor: (DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=host_name)(PORT=port_num))(CONNECT_DATA=(SERVICE_NAME=service_name)))
+   
 3. Si quiere importar datos con una consulta de base de datos nativa, puede ingresar la consulta en el cuadro **Instrucción SQL**, que está disponible si se expande la sección **Opciones avanzadas** del cuadro de diálogo **Base de datos de Oracle**.
    
    ![](media/desktop-connect-oracle-database/connect-oracle-database_4.png)

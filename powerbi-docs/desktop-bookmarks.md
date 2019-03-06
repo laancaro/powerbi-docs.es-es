@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/22/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fda2732ff33c324377a73ceb93480fbbcdd404bd
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 59d5ccd6a7179ca4c44210854fb66abb5371ac6c
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325049"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892422"
 ---
 # <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
 El uso de **marcadores** en Power BI le permite capturar la vista configurada actualmente de una página del informe, incluidos los filtros y el estado de los objetos visuales y, posteriormente, volver a ese estado simplemente seleccionando el marcador guardado. 
@@ -25,6 +25,9 @@ También puede crear una colección de marcadores, organizarlos en el orden que 
 ![Marcadores en Power BI](media/desktop-bookmarks/bookmarks_01.png)
 
 Los marcadores tienen muchos usos. Puede usarlos para hacer un seguimiento de su progreso en la creación de un informe (los marcadores son fáciles de agregar, eliminar y cambiar de nombre), y también puede usar marcadores para crear una presentación similar a las de PowerPoint que recorra los marcadores en orden, lo cual permite contar una historia a través del informe. También podría haber otros usos en función de cómo crea que los marcadores le pueden ayudar.
+
+> [!TIP]
+> Para obtener información sobre el uso de marcadores personales en el servicio Power BI, vea el [anuncio de blog](https://powerbi.microsoft.com/blog/announcing-personal-bookmarks-in-the-power-bi-service/) de la característica Marcadores personales. 
 
 ### <a name="enable-the-bookmarks-preview-versions-prior-to-march-2018"></a>Habilitar la versión preliminar de los marcadores (versiones anteriores a marzo de 2018)
 Los marcadores están disponibles con carácter general a partir de la versión de marzo de 2018 de Power BI Desktop. 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 097f0ae9da29d193fd7a337c9a164ab8c67dc4d9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2f5680df2077a306532165c62367fcc09c517227
+ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277673"
+ms.lasthandoff: 02/27/2019
+ms.locfileid: "56892491"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 Asegurarse de que siempre dispone de los datos más recientes suele ser fundamental para tomar las decisiones correctas. Es probable que ya haya usado Obtener datos de Power BI para cargar y conectarse a algunos datos, creado algunos informes y un panel. Ahora, quiere asegurarse de que los datos son realmente los más recientes y mejores.
@@ -216,7 +216,7 @@ Los paneles en tiempo real usan la API de REST de Microsoft Power BI, o Microsof
 Para aprender a configurar la actualización programada, consulte [Configuración de actualización programada](refresh-scheduled-refresh.md)
 
 ## <a name="common-data-refresh-scenarios"></a>Escenarios comunes de actualización de datos
-A veces, la mejor manera de obtener información acerca de la actualización de datos en Power BI es consultar ejemplos. Estos son algunos de los escenarios de actualización de datos más comunes:
+En ocasiones, la mejor manera de obtener información sobre la actualización de datos en Power BI consiste en examinar ejemplos. Estos son algunos de los escenarios de actualización de datos más comunes:
 
 ### <a name="excel-workbook-with-tables-of-data"></a>Libro de Excel con tablas de datos
 Tiene un libro de Excel con varias tablas de datos, pero ninguna de ellas se cargan en el modelo de datos de Excel. Usa Obtener datos para cargar el archivo de libro de la unidad local a Power BI y crear un panel. Sin embargo, realizó algunos cambios en un par de tablas del libro en la unidad local y quiere actualizar el panel en Power BI con los datos nuevos.
