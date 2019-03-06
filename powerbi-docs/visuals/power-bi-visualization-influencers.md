@@ -5,17 +5,17 @@ author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-visuals
+ms.component: powerbi-service
 ms.topic: tutorial
 ms.date: 02/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c937104d570409023373a5ccbcf94e1b66e6aaab
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 1f55a12e306af8a28e297e9feab2f2c0ae0cd60b
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426801"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461681"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
 El objeto visual de influenciadores clave le ayudará a reconocer los factores que controlan una métrica de su interés. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, digamos que le interesa averiguar lo que influye en la rotación de empleados (abandono). La duración del contrato de empleo puede ser uno de los factores, mientras que otro puede ser la edad del empleado. 
