@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3563c19630d481f1d3601e314ee13e1aef5c597d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661822"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014309"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
@@ -87,6 +87,7 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 * Las páginas de PowerPoint siempre se crean en el tamaño estándar 16:9, sin tener en cuenta los tamaños de página ni las dimensiones originales del informe de Power BI.
 * Los informes que pertenecen a un usuario situado fuera del dominio de su inquilino de Power BI (por ejemplo, un informe que alguien de fuera de su organización ha compartido con usted) no pueden publicarse en PowerPoint.
 * Si se comparte un panel con alguien de fuera de su organización (y, por lo tanto, un es usuario que no está en su inquilino de Power BI), ese usuario no podrá exportar a PowerPoint los informes asociados del panel compartido. Por ejemplo, si es aaron@contoso.com, puede compartir con david@cohowinery.com. Pero david@cohowinery.com no puede exportar los informes asociados a PowerPoint.
+* La exportación podría no funcionar con versiones anteriores de PowerPoint.
 * Como se mencionó anteriormente, cada página del informe se exporta como una única imagen en el archivo de PowerPoint.
 * El servicio Power BI utiliza su propia configuración de idioma como idioma para la exportación de PowerPoint. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png)  **> Configuración > General > Idioma.**
 * La opción de hora de **descarga** en la diapositiva de portada para el archivo PowerPoint exportado se establece en la zona horaria de su equipo en el momento de la exportación.

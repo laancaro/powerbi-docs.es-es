@@ -1,5 +1,5 @@
 ---
-title: Uso del modo de almacenamiento en Power BI Desktop (versión preliminar)
+title: Uso del modo de almacenamiento en Power BI Desktop
 description: Uso del modo de almacenamiento para controlar si los datos se almacenan en caché en memoria para los informes de Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 02/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 26ab2ec7dfd7a091a6a7df89ee4492dc124ed60c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
+ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279191"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57555864"
 ---
-# <a name="storage-mode-in-power-bi-desktop-preview"></a>Modo de almacenamiento en Power BI Desktop (versión preliminar)
+# <a name="storage-mode-in-power-bi-desktop"></a>Modo de almacenamiento en Power BI Desktop
 
 En Microsoft Power BI Desktop, puede especificar el *modo de almacenamiento* de las tablas. El *modo de almacenamiento* le permite controlar si Power BI Desktop almacena datos en caché en memoria para los informes. 
 
@@ -37,9 +37,9 @@ El hecho de establecer el modo de almacenamiento proporciona varias ventajas. Pu
 
 La configuración del modo de almacenamiento de Power BI Desktop es una de tres características relacionadas:
 
-* **Modelos compuestos**: esta característica permite que un informe tenga dos o varias conexiones de datos, incluidas conexiones DirectQuery o Importación, en cualquier combinación. Para obtener más información, vea [Modelos compuestos en Power BI Desktop (versión preliminar)](desktop-composite-models.md).
+* **Modelos compuestos**: esta característica permite que un informe tenga dos o varias conexiones de datos, incluidas conexiones DirectQuery o Importación, en cualquier combinación. Para obtener más información, vea [Modelos compuestos en Power BI Desktop](desktop-composite-models.md).
 
-* **Relaciones de varios a varios**: mediante el uso de *modelos compuestos*, puede establecer *relaciones de varios a varios* entre las tablas. Las *relaciones varios a varios* eliminan los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como la presentación de nuevas tablas solo para establecer relaciones. Para obtener más información, vea [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md).
+* **Relaciones de varios a varios**: mediante el uso de *modelos compuestos*, puede establecer *relaciones de varios a varios* entre las tablas. Las *relaciones varios a varios* eliminan los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como la presentación de nuevas tablas solo para establecer relaciones. Para obtener más información, vea [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modo de almacenamiento**: ahora puede especificar los objetos visuales que requieren una consulta a los orígenes de datos back-end. Los objetos visuales que no requieran una consulta se importarán incluso aunque estén basados en DirectQuery. Esta característica permite mejorar el rendimiento y reducir la carga de back-end. Anteriormente, incluso los objetos visuales simples, como las segmentaciones, iniciaban consultas que se enviaban a los orígenes de back-end. El modo de almacenamiento se describe más detalladamente en este artículo.
 
@@ -127,13 +127,13 @@ La consulta siguiente resulta interesante porque combina ambas columnas. Esta co
 ![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode_08.png)
 
 > [!NOTE]
-> Este comportamiento es distinto del que se describe en las [relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md) al combinar tablas en caché y no en caché.
+> Este comportamiento es distinto del que se describe en las [relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md) al combinar tablas en caché y no en caché.
 
 ## <a name="caches-should-be-kept-in-sync"></a>Las cachés se deben mantener sincronizadas
 
 Las consultas que aparecen en la sección anterior muestran que las tablas de tipo **Dual** a veces alcanzan la caché y, otras, no. Como resultado, si la caché está obsoleta, se pueden devolver distintos valores. La ejecución de consultas no intentará enmascarar los problemas de datos mediante, por ejemplo, el filtrado de los resultados de DirectQuery para coincidir con los valores en caché. Es su responsabilidad conocer los flujos de datos y debe diseñar en consecuencia. En caso de ser necesario, hay técnicas establecidas para controlar este tipo de casos en el origen.
 
-El modo de almacenamiento *dual* es una optimización del rendimiento. Solo se debe usar de maneras que no pongan en peligro la capacidad de cumplir con los requisitos empresariales. Para el comportamiento alternativo, considere usar las técnicas que se describen en el artículo [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md).
+El modo de almacenamiento *dual* es una optimización del rendimiento. Solo se debe usar de maneras que no pongan en peligro la capacidad de cumplir con los requisitos empresariales. Para el comportamiento alternativo, considere usar las técnicas que se describen en el artículo [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md).
 
 ## <a name="data-view"></a>Vista de datos
 Si al menos una tabla del conjunto de datos tiene el **modo de almacenamiento** establecido en Importación o en **Dual**, aparece la pestaña **Vista de datos**.
@@ -162,7 +162,7 @@ Las limitaciones existentes del uso de DirectQuery siguen aplicándose cuando se
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para obtener más información sobre los modelos compuestos y DirectQuery, consulte los siguientes artículos:
-* [Modelos compuestos en Power BI Desktop (versión preliminar)](desktop-composite-models.md)
-* [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md)
+* [Modelos compuestos en Power BI Desktop](desktop-composite-models.md)
+* [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md)
 * [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos admitidos por DirectQuery en Power BI](desktop-directquery-data-sources.md)

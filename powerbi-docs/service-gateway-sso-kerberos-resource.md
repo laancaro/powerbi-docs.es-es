@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: f13074c2123808e7b26d40f9c5a7e20cbf0da6e4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54291814"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226121"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos basado en recursos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -39,7 +39,7 @@ En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de
 
 ![Cuenta de dominio](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Para habilitar la **delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que Azure AD ya esté sincronizado con su Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Si necesita cambiar la cuenta a una cuenta de dominio, consulte [Cambio de la puerta de enlace a una cuenta de dominio](service-gateway-sso-kerberos.md#switching-the-gateway-to-a-domain-account), más adelante en este artículo.
+Para habilitar la **delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que Azure AD ya esté sincronizado con su Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Si necesita cambiar la cuenta a una cuenta de dominio, consulte [Cambio de la puerta de enlace a una cuenta de dominio](service-gateway-sso-kerberos.md).
 
 Si Azure AD DirSync / Connect está configurado y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución. Puede usar al SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican al objeto informático de la puerta de enlace de Active Directory, en lugar de la cuenta de dominio).
 

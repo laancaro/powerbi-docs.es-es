@@ -10,12 +10,12 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 503a722a387c05952933a4cfa9aaa06eccc164da
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892330"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014171"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 
@@ -99,7 +99,7 @@ Algunos objetos visuales no están certificados porque no cumplen con uno o vari
 
 ### <a name="what-is-a-visual-with-additional-purchases"></a>¿Qué es un objeto visual con compras adicionales?
 
-Un objeto visual con compras adicionales es similar a los complementos de compra desde la aplicación (IAP) del Marketplace que tienen la etiqueta de precio **Es posible que se requiera una compra adicional**.
+Un objeto visual con compras adicionales es similar a los complementos de compra desde la aplicación (IAP) del Marketplace que tienen la etiqueta de precio **Es posible que se requiera una compra adicional**.
 
 Los objetos visuales personalizados de IAP se pueden descargar de manera gratuita: los usuarios no pagan por descargarlos desde el Marketplace. Los objetos visuales de IAP ofrecen características avanzadas que se pueden comprar desde la aplicación.  
 

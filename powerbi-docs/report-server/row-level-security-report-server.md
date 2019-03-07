@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 8fe48becd106a91c0a57d145eab4b546985e2ba6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324953"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226213"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Seguridad de nivel de fila (RLS) en Power BI Report Server
 
@@ -48,7 +48,7 @@ Después de guardar el informe en Power BI Report Server, puede administrar la s
 1. En Power BI Desktop, guarde el informe en Power BI Report Server. Deberá usar la versión de Power BI Desktop optimizada para Power BI Report Server.
 2. En Power BI Report Service, seleccione los puntos suspensivos (**…**) junto al informe. 
 
-3. Seleccione **Administrar** > **Seguridad de nivel de fila**. 
+3. Seleccione **Administrar** > **Seguridad de nivel de fila**. 
 
      ![Administración de Seguridad de nivel de fila](media/row-level-security-report-server/power-bi-report-server-rls-dialog.png)
 

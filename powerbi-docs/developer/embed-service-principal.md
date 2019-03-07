@@ -9,12 +9,12 @@ ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 02/05/2019
-ms.openlocfilehash: c5915f4f2792496a1521a868180d4ffc2dca3557
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248916"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014424"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -165,7 +165,7 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 
 * La entidad de servicio solo funciona con las [nuevas áreas de trabajo de la aplicación](../service-create-the-new-workspaces.md).
 * Cuando se usa la entidad de servicio, no se admite **Mi área de trabajo**.
-* Para pasar a producción, se necesita [capacidad dedicada](../service-admin-premium-manage.md).
+* Para pasar a producción, se necesita capacidad Premium dedicada.
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.

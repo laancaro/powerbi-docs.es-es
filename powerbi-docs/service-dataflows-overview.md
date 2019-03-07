@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 03/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d388812985ce30b5692a385fc44e3cf7fc49161f
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
+ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892353"
+ms.lasthandoff: 03/02/2019
+ms.locfileid: "57226098"
 ---
 # <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
 
@@ -75,9 +75,7 @@ Para más información sobre la integración con Azure Data Lake Storage Gen2 y 
 
 ## <a name="dataflow-capabilities-on-power-bi-premium"></a>Funcionalidades de flujo de datos en Power BI Premium
 
-Para que las características y las cargas de trabajo de flujos de datos funcionen en una suscripción de Power BI Premium, la carga de trabajo del flujo de datos de dicha capacidad Premium debe estar activada. Puede obtener más información sobre Power BI Premium en el artículo [¿Qué es Microsoft Power BI Premium?](service-premium.md) 
-
-En la tabla siguiente se describen las características de los flujos de datos y sus funcionalidades cuando se usa una cuenta de Power BI Pro y se establece una comparación con el uso de Power BI Premium.
+Para que las características y las cargas de trabajo de flujos de datos funcionen en una suscripción de Power BI Premium, la carga de trabajo del flujo de datos de dicha capacidad Premium debe estar activada. En la tabla siguiente se describen las características de los flujos de datos y sus funcionalidades cuando se usa una cuenta de Power BI Pro y se establece una comparación con el uso de Power BI Premium.
 
 
 |Funcionalidad de flujo de datos | Power BI Pro |   Power BI Premium |
@@ -95,7 +93,7 @@ En la tabla siguiente se describen las características de los flujos de datos y
 |Entidades vinculadas a flujos de datos| |        +|
 |Esquema estandarizado/soporte integrado para Common Data Service|  +|  +|
 
-Para obtener más información sobre cómo habilitar las cargas de trabajo de flujo de datos en una capacidad Premium, consulte el artículo de [configuración de cargas de trabajo](service-admin-premium-manage.md#configure-workloads) de Power BI Premium. Las cargas de trabajo de flujo de datos no están actualmente disponibles en las funciones de Multi-Geo.
+Para obtener más información sobre cómo habilitar las cargas de trabajo de flujo de datos en una capacidad Premium, consulte [Configure workloads in a Premium capacity](service-admin-premium-workloads.md) (Configuración de cargas de trabajo en una capacidad Premium). Las cargas de trabajo de flujo de datos no están actualmente disponibles en las funciones de Multi-Geo.
 
 ## <a name="summary-of-self-service-data-prep-for-big-data-in-power-bi"></a>Resumen de la preparación de datos de autoservicio para macrodatos en Power BI
 Como se mencionó anteriormente en este artículo, existen varios escenarios y ejemplos donde los **flujos de datos** pueden permitirle obtener un mejor control e información más rápida de sus datos empresariales. Mediante un modelo de datos estándar (esquema) definido por Common Data Service, los flujos de datos pueden importar sus datos profesionales importantes y tener los datos listos para el modelado y la creación de información detallada de inteligencia empresarial en muy poco tiempo... cuya creación solía llevar meses, o incluso más. 

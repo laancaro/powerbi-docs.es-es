@@ -8,18 +8,18 @@ featuredvideoid: ajTPGNpthcg
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/22/2018
+ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23e237428b86046cf75b02e2e98082da18d671cf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286691"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014470"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapa de Power BI
-Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si los intentos de Power BI no pueden crear la visualización del mapa por sí mismos, se muestra la ayuda de Bing Maps. 
+Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si Power BI intenta sin éxito crear por sí mismo la visualización del mapa, se muestra la ayuda de Bing Maps. 
 
 Puede que usted o su administrador tengan que actualizar el firewall para permitir el acceso a las direcciones URL que utiliza Bing para geocodificación.  Estas direcciones URL son:
 * https://dev.virtualearth.net/REST/V1/Locations
@@ -31,8 +31,8 @@ Para aumentar la probabilidad de realizar la geocodificación de manera correcta
 ## <a name="what-is-sent-to-bing-maps"></a>¿Qué se envía a Bing Maps?
 El servicio Power BI y Power BI Desktop enviarán a Bing Maps los datos geográficos necesarios para crear la visualización del mapa. Esto puede incluir los datos de los cubos **Ubicación**, **Latitud** y **Longitud** y los campos geográficos de cualquiera de los cubos de filtro **Nivel de informe**, **Nivel de página**, o **Nivel visual**. Lo que se envía exactamente varía según el tipo de mapa. Para más información, consulte [Privacidad de Bing Maps](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* Para los mapas (mapas de burbujas), si se proporcionan latitud y longitud, no se envía ningún dato a Bing. En caso contrario, se envían a Bing todos los datos de los cubos de ubicación (y filtro).     
-* Los mapas coropléticos requieren un campo en el cubo de ubicación, incluso si proporcionan latitud y longitud. Todos los datos que estén en los cubos de ubicación, latitud o longitud se envían a Bing.
+* Para los mapas (mapas de burbujas), si se proporcionan latitud y longitud, no se envía ningún dato a Bing. En caso contrario, se envían a Bing todos los datos de los cubos de **Ubicación** (y filtro).     
+* Los mapas coropléticos requieren un campo en el cubo **Ubicación**, incluso si se proporcionan la latitud y la longitud. Todos los datos que estén en los cubos de **Ubicación**, **Latitud** o **Longitud** se envían a Bing.
   
     En el ejemplo siguiente, el campo **Proveedor** se utiliza para la geocodificación, por lo que todos los datos del proveedor se envían a Bing. Los datos de los cubos **Tamaño** y **Saturación de color** no se envían a Bing.
   

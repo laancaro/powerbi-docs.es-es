@@ -12,12 +12,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 994645f2ca52c992b8d61590bc02d9f9f63891ce
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
+ms.openlocfilehash: db9f6218d0657946f04b7589a15be99270cf7030
+ms.sourcegitcommit: 086b610cdfd1df5de61abb47acf97589df128a4c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662269"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57196468"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceptos básicos para el ***cliente*** del servicio Power BI
 
@@ -88,6 +88,10 @@ Cuando un diseñador comparte una aplicación con un usuario, este puede ver qu�
 * Las visualizaciones de ese conjunto de datos se pueden mostrar en muchos paneles diferentes
   
   ![Relaciones varios a uno de conjunto de datos](media/end-user-basic-concepts/drawing2.png)
+
+Además, los conjuntos de datos de otras áreas de trabajo pueden utilizarse para crear contenido (informes, paneles) en el área de trabajo. Estos conjuntos de datos se muestran mediante el icono del conjunto de datos al que se hace referencia: 
+
+![icono de base de datos con vínculo](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 En el siguiente bloque de creación, visualizaciones.
 __________________________________________________________

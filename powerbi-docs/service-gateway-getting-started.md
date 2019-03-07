@@ -1,5 +1,5 @@
 ---
-title: ¿Qué son las puertas de enlace de Power BI?
+title: ¿Qué son las puertas de enlace de datos locales?
 description: Obtenga información acerca de los conceptos básicos sobre las puertas de enlace de datos para Power BI.
 author: mgblythe
 manager: kfile
@@ -10,14 +10,14 @@ ms.topic: overview
 ms.date: 04/18/2018
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9c88a09eccd887007df8d2539be861b964c31b5f
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: f1ae47dcb7c9281db018952d619691607d331003
+ms.sourcegitcommit: 87e81ba92f3d1d65c26f9fc007bf106f96f37bfd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324493"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "57461658"
 ---
-# <a name="what-are-power-bi-gateways"></a>¿Qué son las puertas de enlace de Power BI?
+# <a name="what-are-on-premises-data-gateways"></a>¿Qué son las puertas de enlace de datos locales?
 
 Una puerta de enlace de Power BI es un software que se instala en una red local; facilita el acceso a los datos en esa red. Es similar a un guardián que atiende las solicitudes de conexión y las concede solo cuando las solicitudes de un usuario cumplen determinados criterios. Esto permite a las organizaciones mantener las bases de datos y otros orígenes de datos en sus redes locales, pero con un uso seguro de tales datos locales en informes y paneles de Power BI.
 

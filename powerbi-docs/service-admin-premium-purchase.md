@@ -8,18 +8,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 02/28/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8922bb329e4b598745fd259c67e74b063368b7be
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: b4f2d58b9e33e603b6e2dbc97972bb54c66f065c
+ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892399"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "57014148"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Adquisición de Power BI Premium
 
-En este artículo se describe cómo puede comprar capacidad de Power BI Premium (P1-P3) para la organización. Puede comprar capacidad de Power BI Premium en el centro de administración de Office 365 y [administrar sus capacidades](service-admin-premium-manage.md) en el portal de administración de Power BI. Para obtener información actualizada sobre precios y planificación, consulte la [Página de precios de Power BI](https://powerbi.microsoft.com/pricing/) y la [Calculadora de Power BI Premium](https://powerbi.microsoft.com/calculator/).
+> [!NOTE]
+> Este artículo se está actualizando para describir las nuevas características, proporcionar más detalles y mejorar la legibilidad. 
+
+En este artículo se describe cómo puede comprar capacidad de Power BI Premium (P1-P3) para la organización. Puede comprar capacidades de Power BI Premium en el centro de administración de Office 365 y gestionarlas en el portal de administración de Power BI. Para obtener información actualizada sobre precios y planificación, consulte la [Página de precios de Power BI](https://powerbi.microsoft.com/pricing/) y la [Calculadora de Power BI Premium](https://powerbi.microsoft.com/calculator/).
 
 Los creadores de contenido siguen necesitando una licencia de Power BI Pro, incluso si en la organización se usa Power BI Premium. Asegúrese de adquirir al menos una licencia de Power BI Pro para su organización.
 
