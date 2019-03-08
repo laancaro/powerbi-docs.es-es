@@ -850,6 +850,8 @@ items:
         href: whitepaper-powerbi-security.md
       - name: Implementación de Power BI Premium
         href: whitepaper-powerbi-premium-deployment.md
+      - name: Distribución de Power BI externamente con Azure Active Directory B2B
+        href: whitepaper-azure-b2b-power-bi.md
 - name: Power BI para desarrolladores
   items:
   - name: ¿Qué pueden hacer los desarrolladores con Power BI?
@@ -1254,7 +1256,7 @@ items:
         href: service-premium-large-datasets.md
       - name: Actualización incremental
         href: service-premium-incremental-refresh.md
-      - name: Compatibilidad con la replicación geográfica (versión preliminar)
+      - name: Compatibilidad con Multi-Geo
         href: service-admin-premium-multi-geo.md
       - name: Preguntas más frecuentes sobre Power BI Premium
         href: service-premium-faq.md
@@ -1313,9 +1315,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: b6d9e25d9b4eb357038c5daa56df1b4d3f4d9e78
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 745db3e8002feaa9728a746167e585c62a4420a4
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014332"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580275"
