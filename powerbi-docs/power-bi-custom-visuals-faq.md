@@ -1,21 +1,21 @@
 ---
 title: Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 description: Examinar una lista de las preguntas más frecuentes, y sus respuestas, acerca de los objetos visuales personalizados de Power BI
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: c33ec747af514611df0ef00832acb785f04c40f1
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014171"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757332"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 

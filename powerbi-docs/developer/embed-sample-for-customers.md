@@ -10,16 +10,18 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: adeb3f09e52d039937ba3cf54afb72f8ed1287f3
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249169"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757424"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
 Con **Power BI Embedded en Azure**, puede insertar informes, paneles o iconos en una aplicación mediante aplicaciones que poseen datos. Una **aplicación que posee los datos** consiste en tener una aplicación que use Power BI como plataforma de análisis integrados. Como **desarrollador ISV**, puede crear contenido de Power BI que muestre informes, paneles o iconos en una aplicación que esté completamente integrada e interactiva, sin necesidad de que los usuarios dispongan de una licencia de Power BI. En este tutorial se explica cómo integrar un informe en una aplicación mediante el SDK de .NET para Power BI con la API de JavaScript para Power BI cuando se usa **Power BI Embedded en Azure** para los clientes.
+
+![Informe insertado de Power BI](media/embed-sample-for-customers/embed-sample-for-customers-035.png)
 
 En este tutorial, obtendrá información sobre cómo:
 > [!div class="checklist"]

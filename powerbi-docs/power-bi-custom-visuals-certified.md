@@ -1,21 +1,21 @@
 ---
 title: Objetos visuales personalizados certificados de Power BI
 description: Requisitos y procedimiento para enviar un objeto visual personalizado para su certificación. Y una lista de objetos visuales personalizados ya certificados.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/21/2018
-ms.openlocfilehash: a3dbd1229360b641d343c6142b45446f36963803
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: 21dc75af7bb15aec6d510b9faca8d56e92e5117c
+ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014286"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "57695228"
 ---
 # <a name="certified-custom-visuals"></a>Objetos visuales personalizados certificados
 
