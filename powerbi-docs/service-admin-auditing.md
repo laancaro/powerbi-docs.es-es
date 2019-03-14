@@ -214,7 +214,7 @@ A continuación, se indican las actividades auditadas por Power BI.
 | Control tomado sobre un origen de datos de Power BI                   | TakeOverDatasource                          |                                          |
 | Control tomado sobre un conjunto de datos de Power BI                        | TakeOverDataset                             |                                          |
 | Publicación de una aplicación de Power BI anulada                          | UnpublishApp                                |                                          |
-| Configuración de regulación de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No disponible actualmente en el portal de administración de Office 365 |
+| Configuración de gobernanza de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No disponible actualmente en el portal de administración de Office 365 |
 | Administración de capacidad actualizada                            | UpdateCapacityAdmins                        |                                          |
 | Nombre para mostrar de la capacidad actualizado                     | UpdateCapacityDisplayName                   |                                          |
 | Configuración de Power BI de la organización actualizada          | UpdatedAdminFeatureSwitch                   |                                          |

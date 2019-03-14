@@ -1313,7 +1313,7 @@ items:
       href: power-bi-whitelist-urls.md
   - name: Recursos
     items:
-    - name: Enfoques de gobierno e implementación de Power BI
+    - name: Enfoques de gobernanza e implementación de Power BI
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
