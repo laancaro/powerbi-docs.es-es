@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: a48ad26b9da5d5dba9fa04ab74301da7e1265d0b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292086"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580045"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -54,7 +54,7 @@ En la nube pública, los espacios de direcciones IP están disponibles pero, en 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitaciones del servicio Power BI para la Administración Pública de Estados Unidos
 Algunas de las características que están disponibles en la versión comercial del **servicio Power BI** *no* están disponibles en el **servicio Power BI** para clientes de la Administración Pública de Estados Unidos. El equipo de Power BI está trabajando activamente para que estas características estén disponibles para los clientes de la Administración Pública de Estados Unidos y actualizará este artículo en cuanto estén disponibles.
 
-* **Insertar en SharePoint Online**: no es posible insertar contenido en SharePoint Online mediante el elemento web de Power BI.
+* **Insertar en SharePoint Online**: no es posible insertar contenido en SharePoint Online mediante el elemento web de Power BI. Pero Secure embed funciona mediante el [elemento web *Insertar*](https://docs.microsoft.com/power-bi/service-embed-secure). Debe agregar *app.powerbigov.us* a la lista de excepciones, lo que puede hacer si sigue las instrucciones del artículo [Permitir o restringir la capacidad de insertar contenido en páginas de SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * **Power BI para la Administración Pública de Estados Unidos** solo está disponible como una licencia **Pro**. Todas las referencias a licencias de Power BI (gratis) en un portal de administración (o como usuarios) se ejecutan en una nube del servicio Power BI comercial.
 * **Auditoría**: desde junio de 2018, esta opción está disponible en el portal Seguridad y cumplimiento de Office 365.
 * **Contenido de Power BI en Cortana**: los resultados de Power BI no aparecerán en los resultados de búsqueda de Cortana, que incluye los resultados para el contenido de Power BI (paneles, informes, aplicaciones), así como los resultados que muestran páginas del informe optimizadas para Cortana sobre palabras clave específicas.

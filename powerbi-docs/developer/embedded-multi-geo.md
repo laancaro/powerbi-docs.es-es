@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con Multi-Geo en Power BI Embedded (versión preliminar)
+title: Compatibilidad de Multi-Geo con Power BI Embedded
 description: Conozca cómo puede implementar contenido en centros de datos situados en regiones distintas de la región principal de Power BI Embedded.
 author: markingmyname
 ms.author: maghan
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 25627709af2faa78fd30b28cffba21d1442e0d3f
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762430"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57572034"
 ---
-# <a name="multi-geo-support-for-power-bi-embedded-preview"></a>Compatibilidad con Multi-Geo en Power BI Embedded (versión preliminar)
+# <a name="multi-geo-support-for-power-bi-embedded"></a>Compatibilidad de Multi-Geo con Power BI Embedded
 
-**Compatibilidad con Multi-Geo en Power BI Embedded (versión preliminar)** significa que los ISV y las organizaciones que crean aplicaciones con Power BI Embedded para insertar análisis en sus aplicaciones ahora pueden implementar sus datos en diferentes regiones de todo el mundo.
+La **compatibilidad de Multi-Geo con Power BI Embedded** significa que los ISV y las organizaciones que compilan aplicaciones con Power BI Embedded para insertar análisis en sus aplicaciones ahora pueden implementar sus datos en diferentes regiones de todo el mundo.
 
 Ahora los clientes que usan **Power BI Embedded** pueden configurar una **capacidad A** mediante **Multi-Geo**, según las mismas características y limitaciones que [admite Power BI Premium mediante Multi-Geo](../service-admin-premium-Multi-Geo.md).
 

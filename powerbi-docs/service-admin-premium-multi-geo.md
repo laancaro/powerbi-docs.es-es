@@ -1,5 +1,5 @@
 ---
-title: Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
+title: Compatibilidad de Multi-Geo con Power BI Premium
 description: Obtenga información sobre cómo puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI.
 author: minewiskan
 ms.author: owend
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bdbcb949ffe29efc4170391774da0863568e97e8
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
+ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794675"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57571988"
 ---
-# <a name="multi-geo-support-for-power-bi-premium-preview"></a>Compatibilidad con Multi-Geo en Power BI Premium (versión preliminar)
+# <a name="multi-geo-support-for-power-bi-premium"></a>Compatibilidad de Multi-Geo con Power BI Premium
 
 Multi-Geo es una característica de Power BI Premium que ayuda a que los clientes multinacionales aborden los requisitos de residencia de datos organizacionales, regionales o específicos del sector. Como cliente de Power BI Premium, puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI. Una geoárea (geografía) puede contener más de una región. Por ejemplo, Estados Unidos es una geoárea y Centro-oeste de EE. UU. y Centro-sur de EE. UU. son regiones de Estados Unidos. Puede elegir implementar contenido en cualquiera de las geoáreas siguientes:
 
@@ -33,7 +33,7 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 
 Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por 21Vianet o Power BI para la Administración Pública de Estados Unidos.
 
-Multi-Geo ahora está también disponible en Power BI Embedded. Puede encontrar más información en [Compatibilidad con Multi-Geo en Power BI Embedded [versión preliminar]](developer/embedded-multi-geo.md).
+Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](developer/embedded-multi-geo.md).
 
 ## <a name="using-multi-geo"></a>Uso de Multi-Geo
 

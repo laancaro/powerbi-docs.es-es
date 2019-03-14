@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a4f10253619393ffd9807b1e33730a4dd37a47ff
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
+ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277397"
+ms.lasthandoff: 03/07/2019
+ms.locfileid: "57580252"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -98,13 +98,15 @@ Cuando comparte con personas fuera de su organización, estas personas reciben u
 
 Después de iniciar sesión, verán el panel o informe compartido en su propia ventana del explorador sin el panel de navegación izquierdo, no en el portal habitual de Power BI. Deben marcar el vínculo para poder acceder a este panel o informe en el futuro.
 
-No pueden editar el contenido del panel ni del informe. Puede interactuar con los gráficos y cambiar los filtros o segmentaciones en el informe, pero no se pueden guardar los cambios.
+No pueden editar el contenido del panel ni del informe. Puede interactuar con los gráficos y cambiar los filtros o segmentaciones en el informe, pero no se pueden guardar los cambios. 
 
 Solo los destinatarios directos pueden ver el panel o informe compartido. Por ejemplo, si se ha enviado el mensaje de correo electrónico a Vicki@contoso.com, solo Vicki puede ver el panel. Nadie más puede ver el panel de control, aunque tenga el vínculo y Vicki debe usar la misma dirección de correo electrónico para acceder a ese panel. Si se suscribe con cualquier otra dirección de correo electrónico, tampoco podrá acceder al panel.
 
 Los usuarios fuera de su organización no pueden ver ningún dato si se implementó seguridad de nivel de fila o de rol en los modelos tabulares de Analysis Services locales.
 
 Si envía un vínculo desde una aplicación móvil de Power BI a personas fuera de su organización, cuando hacen clic en el vínculo, se abre el panel en un explorador y no en la aplicación móvil de Power BI.
+
+Si los usuarios invitados se habilitan mediante [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#export-and-sharing-settings), la experiencia de solo uso predeterminada no se les aplica. [Más información](service-admin-azure-ad-b2b.md)
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e informes:

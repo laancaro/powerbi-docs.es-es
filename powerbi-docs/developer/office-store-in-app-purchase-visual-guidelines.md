@@ -1,30 +1,34 @@
 ---
-title: 'Es posible que se requiera una compra adicional: instrucciones para objetos visuales de Power BI'
+title: Instrucciones para objetos visuales de Power BI
 description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y comprarlos para usarlos.
-author: markingmyname
-ms.author: maghan
+author: sranins
+ms.author: rasala
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.openlocfilehash: 92d4320026164e523297cbe48ee87ce33d9ab2f7
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.date: 03/10/2019
+ms.openlocfilehash: 02ce5146a154583d784de8030a0b0ec84740fcb3
+ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826592"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "57757309"
 ---
-# <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
+# <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 
-Hasta hace poco, Marketplace (AppSource) solo aceptaba objetos visuales de Power BI que eran gratuitos. Esta directiva ha cambiado, por lo que también puede enviar objetos visuales a AppSource con una etiqueta de precio "es posible que se requiera una compra adicional". 
+## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
+
+Hasta hace poco, Marketplace (AppSource) solo aceptaba objetos visuales de Power BI que eran gratuitos. Esta directiva se ha modificado (diciembre de 2018) para que también se puedan enviar objetos visuales a AppSource con una etiqueta de precio "Es posible que se requiera una compra adicional". 
 
 Los objetos visuales con la etiqueta “Es posible que se requiera una compra adicional” son similares a los complementos de compra desde la aplicación (IAP) de la Tienda Office. Los desarrolladores también pueden enviar estos objetos visuales para que se certifiquen después de que el equipo de AppSource los apruebe, así como después de asegurarse de que cumplen con los requisitos de certificación. Para obtener más información sobre los requisitos, consulte [Objetos visuales certificados](../power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
-> * Para que se certifique el objeto visual, no puede acceder a servicios o recursos externos.
-> * Todos los objetos visuales gratuitos deben mantener las mismas características gratuitas proporcionadas anteriormente. Puede agregar características de pago avanzadas opcionales además de las características gratuitas existentes. Se recomienda enviar los objetos visuales de IAP con las características avanzadas como objetos visuales nuevos y no actualizar los objetos visuales gratuitos antiguos.
+> Para que se certifique el objeto visual, no puede acceder a servicios o recursos externos.
+
+>[!IMPORTANT]  
+> Si actualiza el objeto visual de gratuito a "Es posible que se requiera una compra adicional", los usuarios deben recibir el mismo nivel de funcionalidad gratuita que antes de la actualización. Puede agregar características de pago avanzadas opcionales además de las características gratuitas existentes. Se recomienda enviar los objetos visuales de IAP con las características avanzadas como objetos visuales nuevos y no actualizar los objetos visuales gratuitos antiguos.
 
 
 ## <a name="what-changed-in-the-submission-process"></a>¿Qué ha cambiado en el proceso de envío?
@@ -33,19 +37,19 @@ Los desarrolladores cargan sus objetos visuales de IAP en AppSource mediante el 
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>¿Qué es un objeto visual de Power BI con características de IAP?
 
-Un objeto visual de IAP es un objeto visual gratuito que ofrece características gratuitas. También tiene algunas características avanzadas para las que pueden aplicarse cargos adicionales que las activen. En la descripción del objeto visual, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
+Un objeto visual de IAP es un objeto visual **gratuito** que ofrece **características gratuitas**. También tiene algunas características avanzadas para las que pueden aplicarse cargos adicionales que las activen. En la descripción del objeto visual, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
 
 Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
-> Las marcas de agua no se permiten en las características gratuitas. Los desarrolladores pueden mostrar una marca de agua o una ventana emergente si se usan las características avanzadas de pago sin una licencia válida.  
+> Las marcas de agua no se permiten en las características gratuitas ni los objetos visuales gratuitos. Las marcas de agua solo pueden usarse en las características de pago que se usan sin una licencia válida. Se recomienda mostrar una ventana emergente con toda la información relacionada con la licencia si se usan las características de pago avanzadas sin una licencia válida.  
 
 ## <a name="logo-guidelines"></a>Instrucciones para los logotipos
 
 En esta sección se describen las especificaciones para agregar logotipos en objetos visuales.
 
-> [!NOTE]
-> Los logotipos solo se admiten en el modo de edición. Los logotipos no se pueden mostrar en el modo de visualización.
+> [!IMPORTANT]
+> Los logotipos se permiten **solo en el modo de edición**. Los logotipos **no** se pueden mostrar en el modo de visualización.
 
 ![Definiciones](media/office-store-in-app-purchase-visual-guidelines/definitions.png)
 
