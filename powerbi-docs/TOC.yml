@@ -398,6 +398,10 @@ items:
       href: service-get-started.md
     - name: Conexión a un ejemplo de GitHub
       href: service-tutorial-connect-to-github.md
+    - name: Uso de Cognitive Services en Power BI
+      href: service-tutorial-use-cognitive-services.md
+    - name: Integración de Machine Learning con Power BI
+      href: service-tutorial-invoke-machine-learning-model.md
   - name: Conceptos
     items:
     - name: Novedades en el servicio Power BI
@@ -644,8 +648,12 @@ items:
         href: service-dataflows-connect-azure-data-lake-storage-gen2.md
       - name: Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
         href: service-dataflows-configure-workspace-storage-settings.md
-      - name: Incorporación de una carpeta de CDM a Power BI como flujo de datos (versión preliminar)
+      - name: Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
         href: service-dataflows-add-cdm-folder.md
+      - name: Integración de Machine Learning en Power BI
+        href: service-machine-learning-integration.md
+      - name: Uso de Cognitive Services en Power BI
+        href: service-cognitive-services.md
     - name: Informes paginados en Power BI
       items:
       - name: ¿Qué son los informes paginados? (Versión preliminar)
@@ -722,7 +730,7 @@ items:
         href: service-delete.md
       - name: Conectarse a los servicios
         items:
-        - name: Conectarse a los servicios
+        - name: Acumatica
           href: service-connect-to-services.md
         - name: Acumatica
           href: service-connect-to-acumatica.md
@@ -1317,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 45e6ec57f6fd9a0b02c6139b1bb6e3249edcbadc
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
+ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757447"
+ms.lasthandoff: 03/15/2019
+ms.locfileid: "57964925"
