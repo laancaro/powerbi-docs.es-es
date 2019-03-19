@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8808391d0794ec4a487526cc5bbe4216fe0f75a6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 760f469ff3b146671292efd70a3c6854aec98b5a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275327"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174600"
 ---
 # <a name="create-reports-optimized-for-the-power-bi-mobile-apps"></a>Creación de informes optimizados para las aplicaciones móviles de Power BI
-Puede mejorar la experiencia de visualización de informes en las aplicaciones móviles en un teléfono o tableta. Cree un diseño vertical de un informe, específicamente para teléfonos y tabletas. En Power BI Desktop y el servicio Power BI, adapte el informe reorganizando los objetos visuales y cambiándoles el tamaño en un formato vertical para obtener una experiencia óptima. No hace falta que los incluya todos. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe optimizado. Los lectores del informe pueden verlos y filtrar el informe con ellos.
+Puede mejorar la experiencia de visualización de informes en las aplicaciones móviles en un teléfono o tableta. Cree un diseño vertical de un informe, específicamente para teléfonos y tabletas. En Power BI Desktop y el servicio Power BI, adapte el informe reorganizando los objetos visuales y cambiándoles el tamaño en un formato vertical para obtener una experiencia óptima. No hace falta que los incluya todos. Además, puede [crear objetos visuales *con capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-work-well-in-phone-reports) que pueden cambiar de tamaño para su correcta visualización en un teléfono. Además, si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe optimizado. Los lectores del informe pueden verlos y filtrar el informe con ellos.
 
 ![Informe optimizado en un teléfono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 

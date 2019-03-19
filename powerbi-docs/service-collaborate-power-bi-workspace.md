@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 145ef2da33e0d596f03f75c76aaa99e90f58c4c2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: c1e8e449c2db7e751d719f8fca38b194a9a0042a
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54288529"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174577"
 ---
 # <a name="collaborate-in-your-power-bi-app-workspace"></a>Colaboración en un área de trabajo de aplicación de Power BI
 Las áreas de trabajo de la aplicación de Power BI son lugares excelentes para colaborar con sus compañeros de trabajo en paneles, informes y conjuntos de datos para crear *aplicaciones*. La colaboración no termina con las áreas de trabajo en Power BI. Office 365 ofrece otros servicios de grupo, como el uso compartido de archivos en OneDrive para la Empresa, las conversaciones de Exchange, el uso compartido del calendario y de las tareas, etc. Más información sobre [grupos en Office 365](https://support.office.com/article/Create-a-group-in-Office-365-7124dc4c-1de9-40d4-b096-e8add19209e9).
@@ -49,7 +49,7 @@ La colaboración en Office 365 comienza en el área de trabajo de aplicaciones e
 2. En este menú, puede colaborar con su grupo de varias maneras: 
    
    * Mantener una [conversación de grupo en Office 365](service-collaborate-power-bi-workspace.md#have-a-group-conversation-in-office-365).
-   * [Programar un evento](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-group-workspace-calendar) en el calendario del área de trabajo de grupo de la aplicación.
+   * [Programar un evento](service-collaborate-power-bi-workspace.md#schedule-an-event-on-the-apps-group-workspace-calendar) en el calendario del área de trabajo de grupo de la aplicación.
    
    La primera vez que vaya a su área de trabajo de grupo de la aplicación en Office 365, puede tardar algún tiempo. Espere de 15 a 30 minutos y actualice el explorador.
 

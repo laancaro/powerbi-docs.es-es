@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: d1d1f3c34483737e49129176c833be8384ade999
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324724"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174554"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Publicación de un informe paginado en el servicio Power BI (versión preliminar)
 
 En este artículo, se ofrece información sobre cómo publicar un informe paginado en el servicio Power BI cargándolo desde el equipo local. Puede cargar informes paginados en Mi área de trabajo o en cualquier otra área de trabajo, siempre que tenga capacidad Premium. Busque el icono de diamante ![Icono de diamante de capacidad Premium de Power BI](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto al nombre del área de trabajo. 
 
-Si el origen de datos del informe es local, entonces deberá [crear una puerta de enlace](#create-a-gateway-to-an-on-premises-data-source) después de cargar el informe.
+Si el origen de datos del informe es local, entonces deberá [crear una puerta de enlace](#create-a-gateway) después de cargar el informe.
 
 ## <a name="add-a-workspace-to-a-premium-capacity"></a>Adición de un área de trabajo a una capacidad Premium
 

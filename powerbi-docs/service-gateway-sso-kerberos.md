@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e2183596a66526ced7cfa4a298420972b63a87ca
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226259"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174991"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -60,7 +60,7 @@ En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de
 
 ![Captura de pantalla de la cuenta de servicio](media/service-gateway-sso-kerberos/service-account.png)
 
-Para habilitar la delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que su instancia de Azure Active Directory (Azure AD) ya esté sincronizada con su instancia de Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Para cambiar a una cuenta de dominio, consulte [Cambio de la puerta de enlace a una cuenta de dominio](#switching-the-gateway-to-a-domain-account), más adelante en este artículo.
+Para habilitar la delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que su instancia de Azure Active Directory (Azure AD) ya esté sincronizada con su instancia de Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Para cambiar a una cuenta de dominio, consulte [Cambio de la puerta de enlace a una cuenta de dominio](#switch-the-gateway-to-a-domain-account), más adelante en este artículo.
 
 > [!NOTE]
 > Si Azure AD Connect está configurado y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de Azure AD locales en tiempo de ejecución. Puede usar al SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración. Simplemente se aplican al objeto de equipo de la puerta de enlace de Azure AD, en lugar de la cuenta de dominio.
@@ -188,7 +188,7 @@ En caso necesario, en la interfaz de usuario de la **puerta de enlace de datos l
 
 ## <a name="configure-sap-bw-for-sso"></a>Configuración de SAP BW para SSO
 
-Ahora que comprende el funcionamiento de Kerberos con una puerta de enlace, puede configurar SSO para SAP Business Warehouse (SAP BW). En los siguientes pasos se asume que está [preparado para la delegación restringida de Kerberos](#preparing-for-kerberos-constrained-delegation), tal como se describe anteriormente en este artículo.
+Ahora que comprende el funcionamiento de Kerberos con una puerta de enlace, puede configurar SSO para SAP Business Warehouse (SAP BW). En los siguientes pasos se asume que está [preparado para la delegación restringida de Kerberos](#prepare-for-kerberos-constrained-delegation), tal como se describe anteriormente en este artículo.
 
 Esta guía trata de ser lo más completa posible. Si ya ha completado algunos de estos pasos, puede omitirlos. Por ejemplo, es posible que ya haya creado un usuario del servicio para el servidor SAP BW y que le haya asignado un SPN, o bien que ya haya instalado la biblioteca `gsskrb5`.
 
@@ -356,7 +356,7 @@ Si Azure AD Connect no está configurado, siga estos pasos para cada usuario del
 
 ### <a name="add-a-new-sap-bw-application-server-data-source-to-the-power-bi-service"></a>Adición de un nuevo origen de datos de servidor de aplicaciones de SAP BW al servicio Power BI
 
-Para agregar el origen de datos de SAP BW a la puerta de enlace, siga las instrucciones que aparecen anteriormente en este artículo acerca de la [ejecución de un informe](#running-a-power-bi-report).
+Para agregar el origen de datos de SAP BW a la puerta de enlace, siga las instrucciones que aparecen anteriormente en este artículo acerca de la [ejecución de un informe](#run-a-power-bi-report).
 
 1. En la ventana de configuración del origen de datos, especifique el **nombre de host**, el **número del sistema** y el **ID de cliente** del servidor de aplicaciones tal como lo haría para iniciar sesión el servidor de SAP BW desde Power BI Desktop. Para el **Método de autenticación**, seleccione **Windows**.
 
