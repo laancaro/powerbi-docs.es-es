@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a8a7aa8ed33e5c1baa7319ea65a67b6338c41ca2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
+ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54277811"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "58220963"
 ---
 # <a name="using-computed-entities-on-power-bi-premium-preview"></a>Uso de entidades calculadas en Power BI Premium (versión preliminar)
 
@@ -79,7 +79,9 @@ Es importante tener en cuenta que si quita el área de trabajo de la capacidad P
 
 Al trabajar con flujos de datos creados específicamente en la cuenta de Azure Data Lake Storage Gen2 de una organización, las entidades vinculadas y las entidades calculadas solo funcionan correctamente cuando residen en la misma cuenta de almacenamiento. Para más información, consulte [Conexión de Azure Data Lake Storage Gen 2 para el almacenamiento de flujo de datos (versión preliminar)](service-dataflows-connect-azure-data-lake-storage-gen2.md).
 
-Además, las entidades vinculadas no están disponibles para flujos de datos que se crean a partir de carpetas de CDS. Consulte [Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)](service-dataflows-add-cdm-folder.md).
+Las entidades vinculadas no están disponibles para flujos de datos que se crean a partir de carpetas de Common Data Service (CDS). Para obtener más información, consulte [Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)](service-dataflows-add-cdm-folder.md).
+
+A modo de procedimiento recomendado, para realizar cálculos sobre datos combinados de forma local y datos en la nube, cree una nueva entidad. Si lo hace, verá que es mejor que usar una entidad existente para los cálculos, por ejemplo, en el caso de una entidad que también consulte datos de ambos orígenes y realice transformaciones aisladas.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
