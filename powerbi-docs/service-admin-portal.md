@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/24/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: ca9a2eff3d05ec10c83dde90eabb779370ca5e96
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: d592cca246b7d8bf348a9cdd889b6d8ba0e248c1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757355"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980390"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -42,9 +42,9 @@ Hay siete pestañas en el portal. En el resto de este artículo se proporciona i
 * [Usuarios](#users)
 * [Registros de auditoría](#audit-logs)
 * [Configuración de inquilinos](#tenant-settings)
-* [Configuración de Premium](#premium-settings)
+* [Configuración de capacidad](#capacity-settings)
 * [Códigos para insertar](#embed-codes)
-* [Objetos visuales de la organización](#organization-visuals)
+* [Objetos visuales de la organización](#organizational-visuals)
 
 ## <a name="usage-metrics"></a>Métricas de uso
 
@@ -81,7 +81,7 @@ La segunda sección muestra el mismo tipo de información, pero se basa en grupo
 
 Con esta información, puede obtener información real sobre cómo las personas usan Power BI en toda la organización y puede reconocer esos usuarios y grupos que son muy activos en su organización.
 
-## <a name="users"></a>Usuarios
+## <a name="users"></a>usuarios
 
 Administrará usuarios, grupos y administradores de Power Bi en el Centro de administración de Office 365. La pestaña **Usuarios** proporciona un vínculo al centro de administración del inquilino.
 

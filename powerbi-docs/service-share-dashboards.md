@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/10/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f96e5235aba6f90e6f80286ebfb409004ccd5052
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: 61aedc6c6bce52b172a92b938f9a2f278c841d6f
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580252"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964764"
 ---
 # <a name="share-your-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Comparta los informes y paneles de Power BI con compañeros y otros usuarios.
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -38,12 +38,18 @@ Observe cómo Amanda comparte su panel con compañeros tanto de su empresa como 
 
 1. En una lista de paneles o informes, o en un panel o informe abierto, seleccione **Compartir** ![icono de Compartir](media/service-share-dashboards/power-bi-share-icon.png).
 
-1. En el cuadro superior, escriba las direcciones de correo electrónico completas de las personas, los grupos de distribución o los grupos de seguridad. No se puede compartir con listas de distribución dinámicas. 
+2. En el cuadro superior, escriba las direcciones de correo electrónico completas de las personas, los grupos de distribución o los grupos de seguridad. No se puede compartir con listas de distribución dinámicas. 
    
    Puede compartir contenido con gente cuya dirección no pertenezca a su organización, pero recibirá una advertencia al hacerlo.
    
    ![Advertencia sobre el uso compartido externo](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
+   >[!NOTE]
+   >El cuadro de entrada admite al menos 100 usuarios o grupos. Puede compartir varias veces o compartir con un grupo de usuarios si es necesario compartir con una cantidad grande de usuarios.
+   > 
+   > 
+
+
 3. Agregue un mensaje si lo desea. Es opcional.
 4. Para permitir que sus compañeros compartan el contenido con otros, active **Permitir que los destinatarios compartan su panel/informe**.
    
@@ -119,6 +125,7 @@ Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e inform
 * Los compañeros que tengan su mismo dominio de correo electrónico y con aquellos que, pese a tener un dominio distinto, estén registrados en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, supongamos que los dominios contoso.com y contoso2.com están registrados en el mismo inquilino. Si su dirección de correo electrónico es konrads@contoso.com, entonces ravali@contoso.com y gustav@contoso2.com pueden compartir, siempre y cuando se les diera permiso para compartir.
 * Si sus compañeros ya tienen acceso a un panel o informe específico, puede enviar un vínculo directo con solo copiar la dirección URL cuando se encuentre dentro del panel o informe. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
 * Del mismo modo, si sus compañeros ya tienen acceso a un panel específico, puede [enviar un vínculo directo al informe subyacente](service-share-reports.md). 
+* Puede compartir con al menos 100 usuarios o grupos en una sola acción de uso compartido. Sin embargo, puede conceder acceso a un elemento a más de 500 usuarios. Para ello, es posible compartir varias veces especificando los usuarios individualmente, o bien compartir con un grupo de usuarios que incluye todos los usuarios.
 
 ## <a name="troubleshoot-sharing"></a>Solución de problemas de uso compartido
 

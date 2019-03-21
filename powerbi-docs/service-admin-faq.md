@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 9002b1871f5e7db4ef67d4f2f77b6b8769aa1de6
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 25d6c8020e500096507ba5e80a020a7a1c3052a6
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430293"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980436"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -84,7 +84,7 @@ Hay tres escenarios que se podrían aplicarse a los usuarios de su organización
 
 Hay pasos que puede realizar, como administrador, para impedir que los usuarios se unan a su inquilino de Office 365 existente. Si bloquea el acceso, los intentos de los usuarios para suscribirse no se podrán realizar y se les redirigirá para que se pongan en contacto con el administrador de su organización. No es necesario repetir este proceso si ya ha deshabilitado la distribución automática de licencias (por ejemplo, mediante Office 365 para el ámbito educativo para estudiantes, profesores y docentes).
 
-Use el siguiente script de PowerShell para impedir que los nuevos usuarios se unan a un inquilino administrado. [Más información sobre PowerShell](#basic-powershell-information)
+Use el siguiente script de PowerShell para impedir que los nuevos usuarios se unan a un inquilino administrado. ([Más información sobre PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -98,7 +98,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $false
 
 ### <a name="how-can-i-allow-users-to-join-my-existing-office-365-tenant"></a>¿Cómo puedo permitir que los usuarios se unan a mi inquilino de Office 365 existente?
 
-Use el siguiente script de PowerShell para permitir que los nuevos usuarios se unan a un inquilino administrado. [Más información sobre PowerShell](#basic-powershell-information)
+Use el siguiente script de PowerShell para permitir que los nuevos usuarios se unan a un inquilino administrado. ([Más información sobre PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -109,7 +109,7 @@ Set-MsolCompanySettings -AllowEmailVerifiedUsers $true
 
 ### <a name="how-do-i-verify-if-i-have-the-block-on-in-the-tenant"></a>¿Cómo puedo comprobar si tengo el bloque activado en el inquilino?
 
-Use el siguiente script de PowerShell para verificar la configuración. *AllowEmailVerifiedUsers* debe ser false. [Más información sobre PowerShell](#basic-powershell-information)
+Use el siguiente script de PowerShell para verificar la configuración. *AllowEmailVerifiedUsers* debe ser false. ([Más información sobre PowerShell][1].)
 
 ```powershell
 $msolcred = get-credential
@@ -122,7 +122,7 @@ Get-MsolCompanyInformation | fl allow*
 
 La opción de configuración de Azure AD que controla esto es **AllowAdHocSubscriptions**. La mayoría de los inquilinos tienen esta propiedad establecida en true, lo que significa que está habilitada. Si adquirió Power BI a través de un asociado, esta opción podría ser false, lo que significaría que está deshabilitada.
 
-Use el siguiente script de PowerShell para deshabilitar las suscripciones ad hoc. [Más información sobre PowerShell](#basic-powershell-information)
+Use el siguiente script de PowerShell para deshabilitar las suscripciones ad hoc. ([Más información sobre PowerShell][1].)
 
 1. Inicie sesión en Azure Active Directory usando sus credenciales de Office 365. La primera línea del siguiente script de PowerShell le pide las credenciales. La segunda línea se conecta a Azure Active Directory.
 
@@ -270,3 +270,5 @@ Power BI se basa en Office 365, que a su vez se basa en los servicios de Azure c
 [Administración de grupos de Office 365](/office365/admin/email/create-edit-or-delete-a-security-group/)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+
+[1]: https://docs.microsoft.com/powershell/scripting/overview

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 451b5967dd648d982132282d2debbd4c4f86780f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 051609c59e155cb6d5c2a982483a7e6d2d91a665
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54294115"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964695"
 ---
 # <a name="publish-apps-with-dashboards-and-reports-in-power-bi"></a>Publicar aplicaciones con los paneles e informes de Power BI
 
@@ -121,6 +121,11 @@ Estos son aspectos que debe tener en cuenta al publicar aplicaciones para los us
 
 ## <a name="unpublish-an-app"></a>Cancelar la publicación de una aplicación
 Cualquier miembro de un área de trabajo de la aplicación puede cancelar la publicación de la aplicación.
+
+>[!NOTE]
+>Cuando cancela la publicación de una aplicación, los usuarios de la aplicación pierden sus personalizaciones. Esto significa que se pierden todos los marcadores personales, comentarios o suscripciones asociados al contenido de la aplicación. Cancele la publicación de una aplicación solo si es necesario quitarla.
+> 
+> 
 
 * En un área de trabajo de la aplicación, seleccione el botón de puntos suspensivos (**…**) en la esquina superior derecha > **Unpublish app** (Cancelar publicación de aplicación).
   

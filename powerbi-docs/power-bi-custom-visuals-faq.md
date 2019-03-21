@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: d17a5875569f29da41d62ca61efcbdae3b9242e9
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757332"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57980367"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 
@@ -23,7 +23,7 @@ ms.locfileid: "57757332"
 
 ### <a name="how-can-the-admin-manage-the-organizational-custom-visuals"></a>¿Cómo puede el administrador administrar los objetos visuales personalizados de organización?
 
-En el portal de administración, en la pestaña "Objetos visuales personalizados de organización", el administrador puede ver y [administrar todos los objetos visuales personalizados de organización de la empresa](https://docs.microsoft.com/power-bi/service-admin-portal#organization-visuals): agregar, deshabilitar, habilitar y eliminar.
+En el portal de administración, en la pestaña "Objetos visuales personalizados de organización", el administrador puede ver y [administrar todos los objetos visuales personalizados de organización de la empresa](service-admin-portal.md#organizational-visuals): agregar, deshabilitar, habilitar y eliminar.
 Ya no hay necesidad de compartir esos objetos visuales por correo electrónico o carpeta compartida. Una vez implementados en el repositorio de la organización, los usuarios pueden encontrarlos fácilmente e importarlos en sus informes directamente desde Power BI Desktop o el servicio correspondiente. Los objetos visuales personalizados de la organización se pueden encontrar en la tienda integrada (en el escritorio y en el servicio) en la pestaña *MI ORGANIZACIÓN*. Cuando el administrador carga una nueva versión del objeto visual personalizado de la organización, todos en la organización reciben la misma versión actualizada. Los autores de los informes no necesitan eliminar el objeto visual de sus informes para obtener la nueva versión de estos objetos visuales, ya que todos los informes que utilizan estos objetos se actualizan automáticamente. El mecanismo de actualización es similar a los objetos visuales de Marketplace.
 
 ### <a name="if-an-admin-uploads-a-custom-visual-from-the-public-marketplace-to-the-organization-store-is-it-automatically-updated-once-a-vendor-updates-the-visual-in-the-public-marketplace"></a>Si un administrador carga un objeto visual personalizado desde el Marketplace público a la tienda de la organización, ¿se actualiza automáticamente cuando el proveedor actualiza el objeto visual en el Marketplace público?

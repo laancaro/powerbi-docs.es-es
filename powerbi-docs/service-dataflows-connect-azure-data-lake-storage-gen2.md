@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: dc22c075c479510810b4a914fd999e38118e12e5
-ms.sourcegitcommit: 654fae0af739bd599e029d692f142faeba0a502f
+ms.openlocfilehash: 875f30a6e051561f20a7ca54bc48343dd7248e79
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "56426732"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174761"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
 
@@ -65,7 +65,7 @@ Siga los pasos descritos en el artículo [Creación de una cuenta de almacenamie
 
 A continuación, debe conceder al servicio Power BI un rol de lector en su cuenta de almacenamiento creada. Al ser un rol integrado, los pasos son sencillos. 
 
-Siga los pasos que se describen en el artículo [Asignación de un rol a una entidad de seguridad](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-role-to-a-security-principal).
+Siga los pasos en [Assign a built-in RBAC role](https://docs.microsoft.com/azure/storage/common/storage-auth-aad-rbac#assign-a-built-in-rbac-role) (Asignar un rol RBAC integrado).
 
 En la ventana **Agregar asignación de roles**, seleccione el rol **Lector** para asignar al servicio Power BI. A continuación, use la búsqueda para encontrar el **servicio Power BI**. En la siguiente imagen se muestra el rol **Lector** asignado al servicio Power BI.
 
@@ -150,6 +150,9 @@ Conectará la cuenta de **Azure Data Lake Storage Gen2** con los siguientes paso
 6. Seleccione **Conectar**.
 
 Una vez completados esos pasos correctamente, la cuenta de Azure Data Lake Storage Gen2 está conectada a Power BI. 
+
+> [!NOTE]
+> Para configurar una conexión a Azure Data Lake Storage Gen2 en el portal de administración de Power BI, debe tener permisos de administrador global. Sin embargo, los administradores globales no pueden conectar el almacenamiento externo en el portal de administración.  
 
 A continuación, debe permitir que las personas de su organización configuren sus áreas de trabajo, de forma que puedan usar esta cuenta de almacenamiento para la definición del flujo de datos y el almacenamiento de datos. Lo haremos en la sección siguiente. 
 

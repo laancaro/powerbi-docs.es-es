@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/21/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7264ef7b1057f64d6eb51ccc77cbec2a74be6d0e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2122ce9bd6eb850a51a06188ca1c10faf78f4bb1
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283998"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964672"
 ---
 # <a name="configuring-proxy-settings-for-the-on-premises-data-gateway"></a>Configuración de los valores del proxy para la puerta de enlace de datos local
 El entorno de trabajo puede requerir que pase por un proxy para acceder a Internet. Esto puede impedir que la puerta de enlace de datos local se conecte al servicio.
@@ -46,24 +46,41 @@ El segundo es para el servicio de Windows real, que interactúa con el servicio 
 ## <a name="configuring-proxy-settings"></a>Configuración de proxy
 La configuración de proxy predeterminada es la siguiente.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true" />
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true" />
+</system.net>
+```
+
 
 La configuración predeterminada funciona con la autenticación de Windows. Si el proxy usa otra forma de autenticación, debe cambiar la configuración. Si no está seguro, póngase en contacto con el administrador de la red. No se recomienda la autenticación de proxy básica y cualquier intento de usarla puede provocar errores de autenticación de proxy que resulten en la configuración incorrecta de la puerta de enlace. Use un mecanismo de autenticación de proxy más seguro para resolver.
 
 Además de usar las credenciales predeterminadas, puede agregar un elemento <proxy> para definir la configuración del servidor proxy con más detalle. Por ejemplo, puede especificar que la puerta de enlace de datos local use siempre el proxy incluso para los recursos locales estableciendo el parámetro bypassonlocal en false. Esto puede ayudar a solucionar situaciones en las que quiere realizar un seguimiento de todas las solicitudes https que se originan en una puerta de enlace de datos local en los archivos de registro de proxy. La configuración del ejemplo siguiente especifica que todas las solicitudes deben pasar por un proxy específico con la dirección IP 192.168.1.10.
 
-    <system.net>
-        <defaultProxy useDefaultCredentials="true">
-            <proxy  
-                autoDetect="false"  
-                proxyaddress="http://192.168.1.10:3128"  
-                bypassonlocal="false"  
-                usesystemdefault="true"
-            />  
-        </defaultProxy>
-    </system.net>
+```
+<system.net>
+    <defaultProxy useDefaultCredentials="true">
+        <proxy  
+            autoDetect="false"  
+            proxyaddress="http://192.168.1.10:3128"  
+            bypassonlocal="false"  
+            usesystemdefault="true"
+        />  
+    </defaultProxy>
+</system.net>
+```
+
+Además, para que la puerta de enlace se conecte a los orígenes de datos en la nube a través de un proxy, actualice el siguiente archivo: *C:\Archivos de programa\Puerta de enlace de datos local\Microsoft.Mashup.Container.NetFX45.exe*. En el archivo, expanda la sección `<configurations>` para incluir el contenido a continuación y actualice el atributo `proxyaddress` con la información de su servidor proxy. En el siguiente ejemplo se enrutarían todas las solicitudes de la nube a través de un proxy específico con la dirección IP 192.168.1.10.
+
+```
+<configuration>
+<system.net>
+    <defaultProxy useDefaultCredentials="true" enabled="true">
+    <proxy proxyaddress=""http://192.168.1.10:3128" bypassonlocal="true" />
+    </defaultProxy>
+</system.net>
+</configuration>
+```
 
 Para más información acerca de la configuración de los elementos de proxy para los archivos de configuración de .NET, consulte [<defaultProxy> (Elemento, Configuración de red)](https://msdn.microsoft.com/library/kd3cf2ex.aspx).
 

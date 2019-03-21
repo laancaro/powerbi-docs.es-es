@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/26/2018
 ms.author: maikelson
-ms.openlocfilehash: fb2b169650360a7dc6a4afaee1c43abb733255c9
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 9fbd47dcefb2daf8d86c6932b5c70617b8bf7ac9
+ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55431002"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "57964718"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -22,13 +22,19 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
+**Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Lograr unos resultados satisfactorios para los fabricantes y distribuidores de bienes de consumo)
+<br>de Liz McCreesh
+<br>[Regístrese ahora mismo](https://info.microsoft.com/Achieving-a-Win-Win-for-Consumer-Packaged-Goods-Manufacturers-and-Retailers-registration.html)
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
 Empiece por estos seminarios web a petición populares
+
+**Power BI and the Future of Modern and Enterprise BI** (Power BI y el futuro de la inteligencia empresarial y moderna)
+<br>de Arun Ulag y Amir Netz
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
 
 **Introducción a Power BI**
 <br>de Miguel Martinez
@@ -46,13 +52,9 @@ Empiece por estos seminarios web a petición populares
 <br>de Cory Hrncirik y Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
 
-**Power BI: Analytics Done Right** (Power BI: realización correcta de los análisis)
-<br>por Gohul Shanmugalingam
-<br>[Registrarse y ver ahora](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
-
-**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Haga que sus datos de Power BI sean visuales: tipos de gráficos principales y cómo usarlos)
-<br>de Miranda Li
-<br>[Registrarse y ver ahora](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+**Supercharge Your Applications Using the Power BI JavaScript API** (Potenciar sus aplicaciones con la API de JavaScript para Power BI)
+<br>de Nimrod Shalit
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-PBI-JavaScript-API-video.html)
 
 **Power BI, Excel and Office 365: Optimize Your Enterprise Data** (Power BI, Excel y Office 365: optimización de los datos empresariales)
 <br>de Olaf Hubel y Miguel Martinez
@@ -62,10 +64,6 @@ Empiece por estos seminarios web a petición populares
 <br>de Miranda Li
 <br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-powerbi-tips-for-better-visualization-design.html?Is=Website)
 
-**The Total Economic Impact of Microsoft Flow and PowerApps** (El impacto económico total de Microsoft Flow y PowerApps)
-<br>de Jonathan Lipsitz y Enrique Plaza García
-<br>[Registrarse y ver ahora](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
-
 >[Examine la biblioteca de Power BI de seminarios web a petición, de nuestros expertos de la comunidad](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/bd-p/VideoTipsTricks?filter=webinars&featured=yes&Is=Website)
 
 ## <a name="on-demand-webinars"></a>Seminarios web a petición
@@ -74,9 +72,25 @@ Vea las sesiones grabadas en cualquier momento
 
 ### <a name="getting-started"></a>Introducción
 
+**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Automatizar los procesos empresariales diarios con Power BI, PowerApps y Microsoft Flow)
+<br>de Wim Coorevits y Enrique Plaza García
+<br>[Registrarse y ver ahora](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
+
+**Power BI: Analytics Done Right** (Power BI: realización correcta de los análisis)
+<br>por Gohul Shanmugalingam
+<br>[Registrarse y ver ahora](https://info.microsoft.com/CA-PowerBI-WBNR-FY19-11Nov-08-PowerBIAnalyticsDoneRight-MCW0008690_01Registration-ForminBody.html?Is=Website)
+
+**Make Your Power BI Data Visual:  Core Chart Types and How to Use Them** (Haga que sus datos de Power BI sean visuales: tipos de gráficos principales y cómo usarlos)
+<br>de Miranda Li
+<br>[Registrarse y ver ahora](https://info.microsoft.com/Make-your-Power-BI-Data-Visual-Registration.html?Is=Website)
+
 **How to Design Visually Stunning Power BI Reports (Cómo diseñar informes visualmente espectaculares en Power BI)**
 <br>de Charles Sterling
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
+
+**The Total Economic Impact of Microsoft Flow and PowerApps** (El impacto económico total de Microsoft Flow y PowerApps)
+<br>de Jonathan Lipsitz y Enrique Plaza García
+<br>[Registrarse y ver ahora](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 
 **Better Together: Better Together: 5 Benefits Excel Users Will Get From Using Power BI** (Juntos mejor: 5 ventajas que obtendrán los usuarios de Excel si usan Power BI)
 <br>de Carlos Otero y Miguel Martinez
@@ -100,6 +114,10 @@ Vea las sesiones grabadas en cualquier momento
 
 ### <a name="partners"></a>Asociados ###
 
+**Transform Customer Data into Retail Success with Power Bi** (Transformar los datos de los clientes en un éxito del sector minorista con Power BI)
+<br>de Angad Soni de Hitachi Solutions
+<br>[Registrarse y ver ahora](https://info.microsoft.com/Transform-Your-Customer-Data-into-Retail-Success-OnDemandRegistration.html?LCID=EN-US?wt.mc_id=undefined)
+
 **Proven Healthcare Solutions to Improve Both Patient Outcomes and Profitability** (Soluciones probadas del sector sanitario para mejorar la rentabilidad y los resultados de los pacientes)
 <br>de Stephen Cracknell y Stuart Macanliss (US Medical IT)
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
@@ -111,6 +129,10 @@ Vea las sesiones grabadas en cualquier momento
 **Applied Intelligence for Sales & Services** (Inteligencia aplicada a ventas y servicios)
 <br>de Ed Bobrin, de Avanade
 <br>[Registrarse y ver ahora](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 hábitos de un responsable de tendencias: Rohit Bhargava)
+<br>de Rohit Bhargava de Non-Obvious
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability** (Fabricantes: el sector está experimentando una transformación digital. Mantenga el liderazgo sacando el máximo partido a los análisis para aumentar la rentabilidad)
 <br>de Jon Thompson (Blue Margin) y Jim Pastor (Elgin Fastener Group)
@@ -156,7 +178,7 @@ Vea las sesiones grabadas en cualquier momento
 **[Serie de seminarios web sobre el marco de adopción de Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-framework-series.html?Is=Website)**
 <br>de Manu Kanwarpal and Paul Henwood
 <br>[Registrarse y ver ahora. Parte 1: Adoption: Adopt a data-driven culture](https://info.microsoft.com/ww-landing-powerbi-adoption-ondemand.html?Is=Website) (Adopción: adopte una cultura impulsada por datos)
-<br>[Registrarse y ver ahora. Parte 2: Governance: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Gobernanza: gobierne su propio uso de Power BI)
+<br>[Registrarse y ver ahora. Parte 2: Gobernanza: Govern your Power BI usage](https://info.microsoft.com/ww-ondemand-powerbi-governance.html?Is=Website) (Gobernanza: gobierne su propio uso de Power BI)
 <br>[Registrarse y ver ahora. Parte 3 - Service Management: Power BI Service Management Insights](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part3.html?Is=Website) (Administración de servicios: información de la administración del servicio Power BI)
 <br>[Registrarse y ver ahora. Parte 4: Security: Keeping your data secure with Power BI](https://info.microsoft.com/ww-landing-pbi-adoption-framework-part4.html?Is=Website) (Seguridad: mantenimiento de la seguridad de los datos con Power BI)
 <br>[Registrarse y ver ahora. Parte 5: Rollout: Successfully rolling out Power BI](https://info.microsoft.com/ww-landing-powerbi-adoption-part5-rollout.html?Is=Website) (Implementación: implementación correcta de Power BI)
@@ -170,7 +192,7 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Gil Raviv
 <br>[Ver ahora](https://www.youtube.com/watch?v=r0Qk5V8dvgg)
 
-**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Implementación de una estrategia de regulación de datos correcta que haga más segura su organización)**
+**How to Implement a Successful Data Governance Strategy That Makes Your Organization More Secure (Implementación de una estrategia de gobernanza de datos correcta que haga más segura su organización)**
 <br>de Ajay Anandan
 <br>[Registrarse y ver ahora](https://info.microsoft.com/powerbi-data-governance-strategy-ondemand.html?Is=Website)
 

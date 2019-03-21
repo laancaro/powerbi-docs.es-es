@@ -10,12 +10,12 @@ ms.service: powerbi
 ms.component: powerbi-developer
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: 3e8a4f443a6784020467ef1cf3a918ef5410b209
-ms.sourcegitcommit: f176ba9d52d50d93f264eca21bb3fd987dbf934b
+ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "57757424"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174968"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -214,7 +214,7 @@ Para obtener **ApplicationSecret**, siga estos pasos:
 
 Este atributo solo es necesario para el valor [entidad de servicio](embed-service-principal.md) de AuthenticationType.
 
-Rellene la información del elemento **tenant** con el identificador del inquilino de Azure. Puede obtener esta información del [portal de Azure AD](https://docs.microsoft.com/onedrive/find-your-office-365-tenant-id#use-the-azure-ad-portal) cuando inicie sesión en el servicio Power BI o mediante Powershell.
+Rellene la información del elemento **tenant** con el identificador del inquilino de Azure. Puede obtener esta información del [centro de administración de Azure AD](/onedrive/find-your-office-365-tenant-id) cuando inicie sesión en el servicio Power BI o mediante PowerShell.
 
 ### <a name="run-the-application"></a>Ejecutar la aplicación
 
@@ -304,7 +304,7 @@ Para obtener un ejemplo completo del uso de la API de JavaScript, puede usar la 
 
 En este ejemplo se utiliza un modelo **EmbedConfig** y otro **TileEmbedConfig**, junto con las vistas de un informe.
 
-*En los archivos Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml o Views\Home\Embedtile.cshtml de la [aplicación de ejemplo](#embed-your-content-within-a-sample-application) encontrará un ejemplo sobre cómo agregar una vista de un informe, panel o icono.*
+*En los archivos Views\Home\EmbedReport.cshtml, Views\Home\EmbedDashboard.cshtml o Views\Home\Embedtile.cshtml de la [aplicación de ejemplo](#embed-content-using-the-sample-application) encontrará un ejemplo sobre cómo agregar una vista de un informe, panel o icono.*
 
 ```javascript
 <script src="~/scripts/powerbi.js"></script>

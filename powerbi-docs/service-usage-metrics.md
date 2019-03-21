@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 57beee741ecf51aaf306f6a80d59b7c49653eedc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
+ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430313"
+ms.lasthandoff: 03/18/2019
+ms.locfileid: "58174945"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
 
@@ -47,7 +47,7 @@ Cuando se selecciona **Métricas de uso** o el icono de ![métricas de uso](medi
 
 Los informes de métricas de uso no aparecen en **Recientes**, **Áreas de trabajo**, **Favoritos** ni otras listas de contenido. No se pueden agregar a una aplicación. Si ancla un icono desde un informe de métricas de uso a un panel, ese panel no se podrá agregar a una aplicación o paquete de contenido.
 
-Para profundizar en los datos del informe, o para crear sus propios informes con el conjunto de datos, utilice **Guardar como** (consulte [Guardar el informe de métricas de uso como un informe con todas las características de Power BI](#Save-the-Usage-Metrics-report-as-a-full-featured-Power-BI-report-(personalize)).
+Para profundizar en los datos del informe, o para crear sus propios informes con el conjunto de datos, utilice **Guardar como** (consulte [Guardar el informe de métricas de uso como un informe con todas las características de Power BI](#save-the-usage-metrics-report-as-a-full-featured-power-bi-report-personalize)).
 
 ## <a name="open-a-usage-metrics-report-for-a-dashboard-or-report"></a>Abrir un informe de métricas de uso para un panel o informe
 
