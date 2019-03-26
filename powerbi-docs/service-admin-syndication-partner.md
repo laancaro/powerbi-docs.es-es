@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: f1244535259de2a5b5726d295a64229a0f92f02b
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 635a64c08056e82539d33904d4cce60d4cfc00cd
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296487"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382947"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
 
@@ -33,9 +33,9 @@ Si desea comprar una suscripción a Power BI Pro o Power BI Premium, consulte a 
 
 ## <a name="purchase-from-microsoft-or-another-channel"></a>Compra en Microsoft o en otro canal
 
-Dependiendo de la relación con su asociado, puede comprar Power BI directamente a Microsoft o a otro asociado. Puede comprobar si puede agregar suscripciones de Power BI en el portal de administración de Office 365 (requiere la pertenencia al rol Administrador Global o Administrador de facturación).
+Dependiendo de la relación con su asociado, puede comprar Power BI directamente a Microsoft o a otro asociado. Puede comprobar si puede agregar suscripciones de Power BI en el centro de administración de Microsoft 365 (requiere la pertenencia al rol Administrador Global o Administrador de facturación).
 
-1. Vaya al [Portal de administración de Office 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
+1. Vaya al [Centro de administración de Microsoft 365](https://admin.microsoft.com/AdminPortal/Home#/homepage).
 
 1. En el menú izquierdo, abra **Facturación**:
 
