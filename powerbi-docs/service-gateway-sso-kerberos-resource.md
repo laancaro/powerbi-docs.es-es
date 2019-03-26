@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 01/08/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: e1d8d240e4fd5bc05fc015f1c12971a8646370dd
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226121"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383369"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos basado en recursos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -23,7 +23,7 @@ Use la [delegación restringida de Kerberos basada en recursos](/windows-server/
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Preparación de la delegación restringida de Kerberos basada en recursos
 
-Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los _nombres principales de servicio_ (SPN) y la configuración de delegación de cuentas de servicio.
+Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los _nombres principales de servicio_ (SPN) y la configuración de delegación de cuentas de servicio. 
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Requisito previo 1: requisitos del sistema operativo
 
@@ -105,8 +105,8 @@ Con esos nombres y configuración de ejemplo, use estos los pasos de configuraci
 1. Abra el símbolo del sistema y ejecute los siguientes comandos en el controlador de dominio para el dominio **PBIEgwTestBack final** para actualizar el atributo msDS-AllowedToActOnBehalfOfOtherIdentity de la cuenta de servicio de back-end:
 
     ```powershell
-    $c=get-adgroupResourceDelGroup
-    set-aduser **SQLService** -principalsAllowedToDelegateToAccount$c
+    $c = Get-ADGroup ResourceDelGroup
+    Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
 1. Puede comprobar que la actualización se refleja en la pestaña "Editor de atributos" en las propiedades de la cuenta de servicio de back-end en **Equipos y usuarios de Active Directory**.
