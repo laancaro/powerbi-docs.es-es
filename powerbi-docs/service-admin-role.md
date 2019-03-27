@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: e4cd85e0e5b4f10ead772875434bce3bd0973505
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 2de78497698af3ee00ce77ef9c389169ef460546
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287593"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58382819"
 ---
 # <a name="understanding-the-power-bi-service-administrator-role"></a>Descripción del rol de administrador del servicio Power BI
 
@@ -25,23 +25,23 @@ Aprenda a usar el rol de administrador del servicio Power BI en su organización
 
 El rol de administrador del servicio Power BI puede asignarse a los usuarios que necesitan acceder al Portal de administración de Power BI, pero sin concederles también acceso administrativo completo de Office 365.
 
-Los administradores de usuarios de Office 365 asignan a los usuarios el rol de administrador del servicio Power BI en el Centro de administración de Office 365 o mediante un script de PowerShell. Una vez que se asigna un usuario, este podrá acceder al [Portal de administración de Power BI](service-admin-portal.md). Allí, tendrá acceso a las métricas de uso de todos los inquilinos y podrá controlar el uso de características de Power BI por parte de estos.
+Los administradores de usuarios de Office 365 asignan a los usuarios el rol Administrador del servicio Power BI en el Centro de administración de Microsoft 365 o mediante un script de PowerShell. Una vez que se asigna un usuario, este podrá acceder al [Portal de administración de Power BI](service-admin-portal.md). Allí, tendrá acceso a las métricas de uso de todos los inquilinos y podrá controlar el uso de características de Power BI por parte de estos.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
 El rol de administrador del servicio Power BI no proporciona las siguientes funcionalidades:
 
-* Capacidad de modificar usuarios y licencias en el Centro de administración de Office 365
+* Capacidad de modificar usuarios y licencias en el Centro de administración de Microsoft 365.
 
 * Acceso a los registros de auditoría. Para más información, consulte [Usar la auditoría dentro de su organización](service-admin-auditing.md).
 
 ## <a name="assign-users-to-the-admin-role-in-office-365"></a>Asignar a usuarios el rol de administrador en Office 365
 
-Para asignar a usuarios el rol de administrador de Power BI en el Centro de administración de Office 365, siga estos pasos.
+Para asignar a los usuarios el rol de administrador de Power BI en el Centro de administración de Microsoft 365, siga estos pasos.
 
-1. En el Centro de administración de Office 365, seleccione **Usuarios** > **Usuarios activos**.
+1. En el Centro de administración de Microsoft 365, seleccione **Usuarios** > **Usuarios activos**.
 
-    ![Centro de administración de Office 365](media/service-admin-role/powerbi-admin-users.png)
+    ![Centro de administración de Microsoft 365](media/service-admin-role/powerbi-admin-users.png)
 
 1. Seleccione el usuario al que desea asignar el rol.
 

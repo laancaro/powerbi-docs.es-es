@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 65889d1082cee75ed56edc67ece9c99b5f344a6e
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 5da6b465adc544bf64fd4dfb090a2e1faabee59d
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430230"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383247"
 ---
 # <a name="power-bi-licensing-in-your-organization"></a>Licencias de Power BI en la organización
 
@@ -35,7 +35,7 @@ Puede comprar licencias de Power BI Pro a través de Microsoft Office 365 o a tr
 
 Las personas individuales de su organización pueden registrarse para realizar una prueba de Power BI Pro. Para obtener más información, vea [Registro en Power BI como usuario individual](service-self-service-signup-for-power-bi.md).
 
-Los usuarios que usen la Prueba de Power BI Pro en el producto no aparecen en el portal de administración de Office 365 como usuarios de prueba de Power BI Pro (aparecen como usuarios gratuitos de Power BI), pero sí que aparecen como usuarios de Prueba de Power BI Pro en la página Administrar almacenamiento de Power BI.
+Los usuarios que aprovechan la Prueba de Power BI Pro en el producto no aparecen en el Centro de administración de Microsoft 365 como usuarios de la Prueba de Power BI Pro (aparecen como usuarios gratuitos de Power BI), pero sí que aparecen como usuarios de Prueba de Power BI Pro en la página Administrar almacenamiento de Power BI.
 
 ### <a name="power-bi-pro-trial-for-organizations"></a>Prueba de Power BI Pro para organizaciones
 
@@ -47,7 +47,7 @@ Tenga en cuenta lo siguiente antes de seguir estos pasos para registrarse:
 
 * Hay un límite de una prueba organizativa por inquilino. Esto significa que, si alguien ya ha aplicado la Prueba de Power BI Pro al inquilino, no puede volver a hacerlo. Si necesita ayuda con esto, póngase en contacto con el [soporte de facturación de Office 365](https://support.office.microsoft.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?CorrelationId=552bbf37-214f-4202-80cb-b94240dcd671).
 
-1. Vaya al [Centro de administración de Office 365](https://portal.office.com/adminportal/home#/homepage).
+1. Vaya al [Centro de administración de Microsoft 365](https://portal.office.com/adminportal/home#/homepage).
 
 1. En el panel de navegación izquierdo, seleccione **Facturación** y después **Suscripciones**.
 
@@ -71,7 +71,7 @@ También puede [asignar licencias en Office 365](https://support.office.com/arti
 
 Los usuarios de su organización pueden obtener acceso a licencias gratuitas de Power BI de dos maneras diferentes:
 
-* Puede asignarles una licencia de Power BI en el portal de administración de Office 365.
+* Puede asignarles una licencia de Power BI en el Centro de administración de Microsoft 365.
 
 * Si un usuario se [suscribe a una prueba de Power BI Pro](service-self-service-signup-for-power-bi.md) y esta expira, se le asigna una licencia gratuita.
 
@@ -81,7 +81,7 @@ Si planea administrar solicitudes y asignaciones de licencias de forma centraliz
 
 Este bloque de licencias está disponible la primera vez que alguien se registra en Power BI como usuario individual. Durante ese proceso, el bloque de licencias se asocia a su organización y se asigna una licencia al usuario que se está registrando.
 
-1. En el centro de administración de Office 365, en **Facturación** > **Licencias**, busque **ilimitadas**.
+1. En el Centro de administración de Microsoft 365, en **Facturación** > **Licencias**, busque **ilimitadas**.
 
     ![Bloque de licencias gratuitas ilimitadas](media/service-admin-licensing-organization/unlimited-licenses.png)
 
@@ -93,7 +93,7 @@ Este bloque de licencias está disponible la primera vez que alguien se registra
 
 Si el bloque de licencias ilimitado de Power BI (gratis) no está disponible y no quiere realizar un registro individual, siga este procedimiento.
 
-1. Vaya al [Centro de administración de Office 365](https://portal.office.com/admin/default.aspx).
+1. Vaya al [Centro de administración de Microsoft 365](https://portal.office.com/admin/default.aspx).
 
 1. En el panel de navegación izquierdo, seleccione **Facturación**  > **Suscripciones**.
 

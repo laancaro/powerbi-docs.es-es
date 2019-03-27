@@ -1,6 +1,6 @@
 ---
 title: Seguimiento del estado del servicio Power Bi en Office 365
-description: Obtenga información sobre cómo ver el estado actual e histórico del servicio en el centro de administración de Office 365.
+description: Aprenda a ver el estado actual e histórico del servicio en el Centro de administración de Microsoft 365.
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: afb579c3163fac5da8b3a14f2f2b974d64213098
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 4ab0fe4e3398a37da34af02282a847f316f3f727
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296466"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383162"
 ---
 # <a name="track-power-bi-service-health-in-office-365"></a>Seguimiento del estado del servicio Power Bi en Office 365
 
-El centro de administración de Office 365 proporciona herramientas importantes para los administradores de Power BI, incluida la información actual e histórica sobre el estado del servicio. Para obtener acceso a esta información, debe tener uno de los roles siguientes: administrador del servicio Power BI o administrador global de Office 365. Para más información sobre los roles, vea [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
+El Centro de administración de Microsoft 365 proporciona herramientas importantes para los administradores de Power BI, incluida información actual e histórica sobre el estado del servicio. Para obtener acceso a esta información, debe tener uno de los roles siguientes: administrador del servicio Power BI o administrador global de Office 365. Para más información sobre los roles, vea [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md#administrator-roles-related-to-power-bi).
 
-1. Inicie sesión en el [centro de administración de Office 365](https://portal.office.com/adminportal).
+1. Inicie sesión en el [Centro de administración de Microsoft 365](https://portal.office.com/adminportal).
 
 1. Seleccione el icono de **estado del servicio**.
 

@@ -11,12 +11,12 @@ ms.date: 11/16/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 59916f904c2905a6858e0c20a67a2c0eae9e8cca
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 27776b251734d025e4dcde9f525f321008647455
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980413"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383494"
 ---
 # <a name="using-auditing-within-your-organization"></a>Usar la auditoría dentro de su organización
 
@@ -34,7 +34,7 @@ Debe cumplir estos requisitos para tener acceso a los registros de auditoría:
 
     Para que las cuentas que no son de administrador puedan acceder al registro de auditoría, debe agregar al usuario como miembro de uno de estos grupos de roles. También puede crear un grupo de roles personalizados en el centro de administración de Exchange, asignar el rol Registros de auditoría o Registros de auditoría de solo visualización a este grupo y, luego, agregar la cuenta que no es de administrador al nuevo grupo de roles. Para obtener más información, vea [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Administración de grupos de roles en Exchange Online).
 
-    Si no puede acceder al centro de administración de Exchange desde el centro de administración de Office 365, vaya a https://outlook.office365.com/ecp e inicie sesión con sus credenciales.
+    Si no puede acceder al centro de administración de Exchange desde el Centro de administración de Microsoft 365, vaya a https://outlook.office365.com/ecp e inicie sesión con las credenciales.
 
 * Si tiene acceso al registro de auditoría pero no es un administrador global o un administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá usar un vínculo directo al [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
@@ -50,9 +50,9 @@ Los registros de auditoría de Power BI están disponibles directamente en el [C
 
 1. Seleccione **Registros de auditoría**.
 
-1. Seleccione **Ir al Centro de administración de O365**.
+1. Seleccione **Ir al Centro de administración de Microsoft 365**.
 
-   ![Ir al Centro de administración de O365](media/service-admin-auditing/audit-log-o365-admin-center.png)
+   ![Ir al Centro de administración de Microsoft 365](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
 ## <a name="search-only-power-bi-activities"></a>Buscar solo actividades de Power BI
 
@@ -214,7 +214,7 @@ A continuación, se indican las actividades auditadas por Power BI.
 | Control tomado sobre un origen de datos de Power BI                   | TakeOverDatasource                          |                                          |
 | Control tomado sobre un conjunto de datos de Power BI                        | TakeOverDataset                             |                                          |
 | Publicación de una aplicación de Power BI anulada                          | UnpublishApp                                |                                          |
-| Configuración de gobernanza de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No disponible actualmente en el portal de administración de Office 365 |
+| Configuración de gobernanza de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No se encuentra en el Centro de administración de Microsoft 365 |
 | Administración de capacidad actualizada                            | UpdateCapacityAdmins                        |                                          |
 | Nombre para mostrar de la capacidad actualizado                     | UpdateCapacityDisplayName                   |                                          |
 | Configuración de Power BI de la organización actualizada          | UpdatedAdminFeatureSwitch                   |                                          |

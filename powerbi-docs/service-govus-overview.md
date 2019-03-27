@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b017ae02ee88df47e426466c212ed6d87a2f92a
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
+ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580045"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430263"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -39,7 +39,7 @@ Las siguientes características están disponibles para los clientes de **Power 
 * Todos los datos se cifran en SQL Azure y Blob Storage para Power BI
 * Conexión a servicios con [paquetes de contenido](service-connect-to-services.md)
 
-## <a name="connectivity-between-government-and-public-azure-cloud-services"></a>Conectividad entre los servicios en la nube pública de Azure y Azure Government 
+## <a name="connectivity-between-government-and-global-azure-cloud-services"></a>Conectividad entre los servicios de nube de administración pública y de Azure globales 
 
 Azure se distribuye entre varias nubes. De forma predeterminada, se permite a los inquilinos abrir reglas del firewall para una instancia específica de la nube, pero las redes entre las nubes son diferentes y es necesario abrir reglas de firewall específicas para la comunicación entre los servicios. Si es un cliente de Power BI y ya tiene instancias de SQL en la nube pública a las que necesita tener acceso, debe abrir reglas del firewall específicas en SQL para el espacio de direcciones IP de la nube de Azure Government, para los centros de datos siguientes:
 
@@ -93,7 +93,7 @@ Las siguientes preguntas y respuestas se proporcionan como ayuda para que obteng
 | --- | --- |
 | https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
 
-**Pregunta:** Mi cuenta se aprovisiona en más de una nube soberana. Al usar **Power BI Desktop**, ¿cómo puedo seleccionar la nube a la que me quiero conectar?
+**Pregunta:** Mi cuenta se aprovisiona en más de una nube nacional. Al usar **Power BI Desktop**, ¿cómo puedo seleccionar la nube a la que me quiero conectar?
 
 **Respuesta:** A partir de la versión de julio de 2018 de **Power BI Desktop** puede elegir la nube que quiere usar al iniciar sesión en **Power BI Desktop**.
 

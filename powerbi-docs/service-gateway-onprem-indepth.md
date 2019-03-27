@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 18458820f98bcea32eb5288389d57808646d462c
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: fa7d10403ca6bd8dc94729b7b4fd631475a3671e
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325023"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383425"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 Los usuarios de su organización pueden acceder a los datos locales (para los que ya tienen permiso de acceso), pero antes de que puedan conectarse al origen de datos local, es necesario instalar y configurar una puerta de enlace de datos local. La puerta de enlace facilita la comunicación interna entre un usuario en la nube y el origen de datos local, y de vuelta a la nube de una manera rápida y segura.
@@ -77,7 +77,7 @@ Los servicios en la nube solo conocen las cuentas de Azure Active Directory. No 
 
 1. Puede agregar manualmente cuentas a Azure Active Directory.
    
-   Puede crear una cuenta en el portal de Azure, o en el Portal de administración de Office 365, y el nombre de la cuenta coincide con el UPN de la cuenta de Active Directory local.
+   Puede crear una cuenta en Azure Portal o en el Centro de administración de Microsoft 365, y el nombre de la cuenta coincide con el UPN de la cuenta de Active Directory local.
 2. Puede usar la herramienta [Azure AD Connect](/azure/active-directory/hybrid/how-to-connect-sync-whatis) para sincronizar las cuentas locales para el inquilino de Azure Active Directory.
    
    La herramienta Azure AD Connect proporciona opciones para la sincronización de directorios y la configuración de autenticación, como la sincronización de hash de contraseña, la autenticación de paso a través y la federación. Si no es un administrador de inquilinos o un administrador de dominio local, debe ponerse en contacto con el administrador de TI para configurarlo.

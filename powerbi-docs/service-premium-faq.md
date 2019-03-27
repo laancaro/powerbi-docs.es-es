@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fbb303a85895c08d0dc04630a12076a279e2586f
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
+ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794946"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383346"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -66,7 +66,7 @@ Una capacidad es una agrupación de uno o más nodos aprovisionada por un admini
 Power BI Premium se factura mensualmente con un compromiso anual.
 
 **¿Cómo se compra Power BI Premium?**  
-Power BI Premium está disponible desde el centro de administración de Office 365. Para más información, consulte [Adquisición de Power BI Premium](service-admin-premium-purchase.md). También puede preguntar a su representante de ventas de Microsoft.
+Power BI Premium está disponible en el Centro de administración de Microsoft 365. Para más información, consulte [Adquisición de Power BI Premium](service-admin-premium-purchase.md). También puede preguntar a su representante de ventas de Microsoft.
 
 **¿Cómo sé cuánta capacidad de Power BI Premium debo comprar?**  
 Use la [calculadora de costos](https://powerbi.microsoft.com/calculator/) para obtener una estimación de cuánta capacidad de Power BI Premium podría necesitar.

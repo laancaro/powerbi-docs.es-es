@@ -880,8 +880,8 @@ items:
         href: developer/embed-sample-for-customers.md
       - name: Inserción de contenido para su organización
         href: developer/embed-sample-for-your-organization.md
-      - name: Inserción de contenido para nubes soberanas
-        href: developer/embed-sample-for-customers-sovereign-clouds.md
+      - name: Inserción de contenido para nubes nacionales
+        href: developer/embed-sample-for-customers-national-clouds.md
     - name: Conceptos
       items:
       - name: Procedimientos recomendados de rendimiento
@@ -983,7 +983,7 @@ items:
       - name: Objetos visuales personalizados para organizaciones en Power BI
         href: power-bi-custom-visuals-organization.md
       - name: Instrucciones para objetos visuales de Power BI
-        href: developer/office-store-in-app-purchase-visual-guidelines.md
+        href: developer/guidelines-powerbi-visuals.md
       - name: Preguntas frecuentes sobre los objetos visuales personalizados
         href: power-bi-custom-visuals-faq.md
       - name: Uso de funcionalidades
@@ -1325,9 +1325,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: ad67a7951e15d579cdea824a3eee69fe2ac0ff11
-ms.sourcegitcommit: cd7a027b532b1bb2dbbcae9e92426c80f80810d3
+ms.openlocfilehash: 4bef8b089403856b84eafc59a00b31ad5f0c00c2
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/15/2019
-ms.locfileid: "57964925"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430424"

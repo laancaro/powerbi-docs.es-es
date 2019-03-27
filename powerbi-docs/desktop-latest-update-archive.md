@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/13/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 48ea3d5e60c6f6a079be1d7040266817fdf5b97b
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 536e433540d371838b027e06f857609024e213f3
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964994"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430493"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -81,7 +81,7 @@ Las siguientes actualizaciones son las novedades de **Power BI Desktop** de este
 * Sagra Emigo [[vídeo]](https://youtu.be/dMD25wfElLg?t=2909)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#emigo) 
 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 * Mensajes de error mejorados para Live Connect y DirectQuery [[vídeo]](https://youtu.be/dMD25wfElLg?t=2926)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2019-feature-summary/#error) 
 
 
@@ -119,7 +119,7 @@ No hubo ninguna versión de Power BI Desktop en enero de 2019, estábamos ocupad
 
 ## <a name="december-2018-update-2655313501"></a>Actualización de diciembre de 2018 (2.65.5313.501)
 
-Nuestras actualizaciones de diciembre le hicieron vibrar de emoción. 
+Nuestras actualizaciones de diciembre le hicieron vibrar de emoción, o por lo menos le permitieron crear atractivos objetos visuales basados en datos. 
 
 Ahora puede [descargar la versión más reciente de Power BI Desktop](https://powerbi.microsoft.com/desktop). Si trabaja con Windows 10, puede obtener también **Power BI Desktop** en la Tienda Windows. Las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente, independientemente de la forma en que instale **Power BI Desktop**. Consulte [este artículo](desktop-get-the-desktop.md) para más información. 
 
@@ -171,7 +171,7 @@ Las siguientes actualizaciones son las novedades de **Power BI Desktop** de este
 * Combinación parcial - compatibilidad con mejores coincidencias Top N [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1480)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#fuzzyMerge) 
 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 * Contraste alto en todos los paneles y pie de página de informes [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1631)   [[artículo]](desktop-connect-pdf.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#highContrast) 
 * Cuadro de diálogo de método abreviado de teclado actualizado [[vídeo]](https://youtu.be/AHNlkjRFdYI?t=1654)   [[artículo]](desktop-accessibility.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2018-feature-summary/#keyboardShortcuts) 
 
@@ -556,9 +556,9 @@ Las siguientes actualizaciones se introdujeron en **Power BI Desktop** en junio:
 * Mejoras del conector OData V4 [[vídeo]](https://youtu.be/4VpGtWSrssE?t=25m12s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#oData) 
 * Mejoras del conector ODBC (compatibilidad de plegamiento para Top Rows y capacidad para filtrar la navegación por catálogo DSN) [[vídeo]](https://youtu.be/4VpGtWSrssE?t=26m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#odbc) 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 
-* Selector de nube soberana [[vídeo]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
+* Selector de nube nacional [[vídeo]](https://youtu.be/4VpGtWSrssE?t=27m45s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#nationalCloud) 
 
 
 > [!NOTE]
@@ -701,7 +701,7 @@ Las actualizaciones de marzo de **Power BI Desktop** son geniales, como si nos h
 * SAP BW DirectQuery ya está disponible con carácter general [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s)[[artículo]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#sapBW) 
 * El conector de Azure Analysis Services ahora está disponible con carácter general [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m10s) [[artículo]](desktop-directquery-sap-hana.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#azureAS) 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 
 * Mejora en la generación de informes de error [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[artículo]](desktop-directquery-about.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#errors) 
 * Visualización de errores anteriores detectados [[vídeo]](https://youtu.be/kuI6MMzDh34?t=34m51s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-march-2018-feature-summary/#viewErrors) 
@@ -761,7 +761,7 @@ Las siguientes actualizaciones son las novedades de **Power BI Desktop** de febr
 
 * Mejoras en DirectQuery sobre SAP HANA (versión preliminar) [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=30m1s)  [[artículo]](desktop-directquery-sap-hana.md)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#saphana) 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 
 * Mejoras de rendimiento de DirectQuery [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=32m24s)[[artículo]](desktop-directquery-about.md)[[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#dqPerf) 
 * Mejoras de rendimiento de apertura y guardado [[vídeo]](https://youtu.be/KeVB5RwMzJo?t=33m40s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2018-feature-summary/#savePerf) 
@@ -927,7 +927,7 @@ Las siguientes actualizaciones se introdujeron en **Power BI Desktop** en noviem
 -   Conector Impala: compatibilidad con la autenticación de Windows [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m9s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#impala) 
 
 
-### <a name="other"></a>Otro
+### <a name="other"></a>Otros
 
 -   Edición de consultas: Agregar columnas a partir de mejoras del ejemplo [[vídeo]](https://youtu.be/sI3yRjdnJ7w?t=28m34s) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-november-2017-feature-summary/#addColumnFromExamples) 
 
@@ -1796,7 +1796,7 @@ En abril, ofrecimos a nuestros excelentes clientes de Power BI otra colección d
 
 ### <a name="data-modeling"></a>Modelado de datos:
 
--   Ya no se bloquean las operaciones de modelado durante la actualización de los objetos visuales
+-   Las operaciones de modelado ya no se bloquean durante la actualización de los objetos visuales
 -   Inteligencia de tiempo con campos de jerarquía de fechas integrados (vista previa)
 -   Sinónimos de modelo de datos
 
@@ -2231,7 +2231,7 @@ A continuación se describen las características que se han agregado a esta act
 
 -   Mejoras de creación/eliminación de grupos de consultas (selección múltiple, etc.).
 
--   Capacidad de división de consultas (es decir, pasos básicos comunes de refactor en una consulta nueva)
+-   Capacidad de división de consultas (es decir, refactorizar pasos básicos comunes en una consulta nueva)
 
 -   Iconos de consulta para reflejar el tipo de consulta en el panel de navegación de consultas
 
@@ -2250,7 +2250,7 @@ Observe el siguiente vídeo para obtener más información sobre esta actualizac
 
 A continuación se describen las características que se han agregado a esta actualización:
 
--   **Nuevos conectores de datos**: appFigures, Quickbooks Online, Zendesk, Github, Twilio y SweetIQ.
+-   **Nuevos conectores de datos**: appFigures, Quickbooks Online, Zendesk, GitHub, Twilio y SweetIQ.
 
 -   **Nuevas transformaciones**: extraer el primer o último carácter o un intervalo de caracteres de una columna de texto; opción para especificar el tipo de combinación en el cuadro de diálogo Combinar consultas; capacidad para personalizar el estilo de oferta en la división de columna con el cuadro de diálogo de delimitador.
 

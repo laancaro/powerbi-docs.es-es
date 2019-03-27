@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 18872e65154f70e882c4f6f60c04420b17038d32
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
+ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249123"
+ms.lasthandoff: 03/21/2019
+ms.locfileid: "58306306"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -137,6 +137,13 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | :------------------- | :------------------- |
 | Mover el foco al menú de objetos visuales | Alt + Mayús + F10 |
 | Mostrar datos | Alt + Mayús + F11  |
+| Especificar un objeto visual | Ctrl + flecha derecha |
+| Especificar una capa | Especificar |
+| Salir de una capa o un objeto visual | Esc |
+| Seleccionar o anular la selección de un punto de datos | Entrar o Espacio |
+| Selección múltiple | Ctrl + Entrar o Ctrl + Espacio |
+| Clic con el botón derecho | <ul><li>Teclado de Windows: tecla de contexto de Windows + F10.  La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: Mayús+F10</li></ul> |
+| Borrar selección | Control + Mayús + C |
 
 ### <a name="pane-navigation"></a>Navegación por el panel
 | Para hacerlo           | Presione                |

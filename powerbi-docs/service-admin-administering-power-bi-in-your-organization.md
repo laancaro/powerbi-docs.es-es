@@ -10,12 +10,12 @@ ms.topic: overview
 ms.date: 10/29/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d00e6f2a972e6e41d4d9badc51e30a13a6dc98cc
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 214a8a3ce0fd647cecd9855b48589cef02bf01c8
+ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430136"
+ms.lasthandoff: 03/22/2019
+ms.locfileid: "58383323"
 ---
 # <a name="what-is-power-bi-administration"></a>¿Qué es la administración de Power BI?
 
@@ -71,7 +71,7 @@ Hay varias herramientas relacionadas con la administración de Power BI, que se 
 | **Herramienta** | **Tareas habituales** |
 | --- | --- |
 | Portal de administración de Power BI |<ul><li>Adquirir capacidad Premium y trabajar con ella</li><li>Garantizar la calidad del servicio</li><li>Administrar la clasificación de datos empresariales</li><li>Ayudar a aplicar las directivas de uso compartido y publicación de contenido</li><li>Administrar áreas de trabajo<br><li>Publicar objetos visuales personalizados</li><li>Verificar los códigos utilizados para insertar Power BI en otras aplicaciones</li><li>Solucionar problemas de acceso a datos y otros problemas</li></ul>|
-| Centro de administración de Office 365 |<ul><li>Administrar la suscripción de usuarios</li><li>Adquirir y asignar licencias Pro</li><li>Bloquear el acceso de los usuarios a Power BI</li></ul>|
+| Centro de administración de Microsoft 365 |<ul><li>Administrar la suscripción de usuarios</li><li>Adquirir y asignar licencias Pro</li><li>Bloquear el acceso de los usuarios a Power BI</li></ul>|
 | Centro de seguridad y cumplimiento de Office 365 |<ul><li>Revisar y administrar la auditoría de eventos</li></ul>|
 | Azure Active Directory (AAD) en Azure Portal |<ul><li>Configurar el acceso condicional a los recursos de Power BI con AAD</li><li>Aprovisionar capacidad de Power BI Embedded</li></ul>|
 | Cmdlets de PowerShell |<ul><li>Administrar áreas de trabajo y otros aspectos de Power BI mediante scripts</li></ul>|

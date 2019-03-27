@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 11/01/2018
-ms.openlocfilehash: b24bde73c4f0e5f30c8baad7910fe9d9d924c3dc
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: a27a6f9ce1eac861415a8231eb50ec898900202e
+ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226167"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "58430355"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -166,7 +166,7 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
 
 * Si utiliza Internet Explorer 10, pueden surgir problemas. Puede consultar el artículo [Exploradores compatibles con Power BI](consumer/end-user-browsers.md) y los [requisitos del sistema de Office 365](https://products.office.com/office-system-requirements#Browsers-section).
 
-* El elemento web de Power BI no está disponible en las [nubes soberanas](https://powerbi.microsoft.com/clouds/).
+* El elemento web de Power BI no está disponible para [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 
 * El clásico SharePoint Server no es compatible con este elemento web.
 
