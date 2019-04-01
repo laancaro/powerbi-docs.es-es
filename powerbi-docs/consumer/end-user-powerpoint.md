@@ -11,18 +11,19 @@ ms.topic: conceptual
 ms.date: 02/28/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 385a2cb41c0fa58ec3df4ea675a6f43a5b868935
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014309"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473807"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
 
 * Cada página del informe de Power BI se convierte en una diapositiva de PowerPoint.
-* Cada página del informe de Power BI se exporta como una única imagen de alta resolución en PowerPoint <!-- * The filters and slicers settings that you added to the report are preserved. -->.
+* Cada página del informe de Power BI se exporta como una única imagen de alta resolución en PowerPoint.
+<!-- * The filters and slicers settings that you added to the report are preserved. -->
 * Se crea un vínculo en PowerPoint que dirige al informe de Power BI 
 
 Exportar su **informe de Power BI** a **PowerPoint** es muy fácil. Siga los pasos descritos en la sección siguiente.
@@ -91,6 +92,7 @@ Hay algunas consideraciones y limitaciones a tener en cuenta al trabajar con la 
 * Como se mencionó anteriormente, cada página del informe se exporta como una única imagen en el archivo de PowerPoint.
 * El servicio Power BI utiliza su propia configuración de idioma como idioma para la exportación de PowerPoint. Para ver o configurar las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](media/end-user-powerpoint/power-bi-settings-icon.png)  **> Configuración > General > Idioma.**
 * La opción de hora de **descarga** en la diapositiva de portada para el archivo PowerPoint exportado se establece en la zona horaria de su equipo en el momento de la exportación.
+* Actualmente no se respetan los filtros de las direcciones URL al elegir "Valores actuales" para la exportación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Imprimir un informe](end-user-print.md)

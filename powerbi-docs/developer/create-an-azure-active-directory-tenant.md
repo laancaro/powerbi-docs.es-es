@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/30/2017
-ms.openlocfilehash: eb5befbfc5e96867f0f4cf27eafd62829fb488f4
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
+ms.openlocfilehash: ec03ba86fdbf57a9898b127aae9b76990837b5ba
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762154"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473853"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 
@@ -28,7 +28,7 @@ Es posible que su organización ya tenga un inquilino de Azure AD que puede usar
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crear un inquilino de Azure Active Directory
 
-Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD. Para ello, necesita un directorio en Azure AD. Este es el inquilino. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá crear uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización. Esto le permitirá mantener las cosas de forma independiente.
+Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD. Para ello, necesita un directorio en Azure AD. Este es el inquilino. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá crear uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización. Esto le permitirá mantener las cosas de forma independiente.
 
 O bien, puede crear un inquilino solo con fines de prueba.
 

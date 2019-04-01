@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/06/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d846a50ab87fe7d9f20034892e25dedde043f9ee
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
+ms.openlocfilehash: 9cf3eea99813d315c72f3210f3938deae94505b0
+ms.sourcegitcommit: 9f31cd41bd92e398717da5a69a074273e8c6f8a6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430263"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58473876"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -60,6 +60,7 @@ Algunas de las características que están disponibles en la versión comercial 
 * **Contenido de Power BI en Cortana**: los resultados de Power BI no aparecerán en los resultados de búsqueda de Cortana, que incluye los resultados para el contenido de Power BI (paneles, informes, aplicaciones), así como los resultados que muestran páginas del informe optimizadas para Cortana sobre palabras clave específicas.
 * **Uso compartido de usuario externo**: el uso compartido está permitido solo dentro de un inquilino de Power BI; a partir de junio de 2018, también se puede compartir con usuarios de fuera del inquilino de Power BI. Consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Métricas de uso para paneles e informes**: las métricas de uso no están disponibles para informes y paneles. Los clientes pueden usar los datos de registro de auditoría para obtener información de uso para el contenido de su organización.
+* **Flujos de datos**: los flujos de datos no están disponibles.
 
 Si tiene licencias gratis de **Power BI** asignadas a su cuenta, estas cuentas se ejecutan en una versión comercial del servicio **Power BI** y no forman parte de la oferta **Power BI para la Administración Pública de Estados Unidos**. Para esas cuentas gratis, pueden encontrar los siguientes problemas:
 

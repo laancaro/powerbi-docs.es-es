@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 2/9/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: 96faaf87c2aa04bdc1175f1b7cb78229bbb87a24
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: b65acda3ceb8d375cb34393828b74e191b2e5504
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383724"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489600"
 ---
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
@@ -32,12 +32,21 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 
-## <a name="february-2019"></a>Febrero de 2019
-* Cargas de trabajo y métricas de tamaño del conjunto de datos activo en la [aplicación Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
-* Exportación a PDF y suscripciones de correo electrónico a petición (service-report-subscribe.md).
-* Operaciones masivas en el Portal de administración.
+## <a name="march-2019"></a>Marzo de 2019
+* Disponibilidad general de Multi-Geo para Power BI Premium.
+* Soporte técnico para la administración y la edición de contenido de Power BI en Azure B2B.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
+### <a name="february-2019"></a>Febrero de 2019
+* Cargas de trabajo y métricas de tamaño del conjunto de datos activo en la [aplicación Capacity Monitoring](https://powerbi.microsoft.com/blog/new-monitoring-capabilities-for-power-bi-premium-capacities/).
+* Exportación en PDF de los informes de Power BI.
+* [Suscripciones de correo electrónico y a petición](service-report-subscribe.md).
+* Operaciones masivas en el Portal de administración.
+* Exportación filtrada para PPT y PDF.
+* [Configuración de ayuda y soporte técnico](https://powerbi.microsoft.com/en-us/blog/tailoring-help-and-support-for-power-bi-users/) en el portal de administración.
+* Experiencia de linaje de datos para los [flujos de datos](service-dataflows-overview.md).
+* Configuración de los objetos visuales personalizados certificados en el portal de administración.
+
 ### <a name="january-2019"></a>Enero de 2019
 * [Inserción de informes de Power BI seguros](service-embed-secure.md) en sitios web o portales internos.
 * Actualizaciones en el editor de [flujos de datos](service-dataflows-overview.md) con nuevos conectores y compatibilidad con consultas SQL nativas y transformaciones de Power Query Online.

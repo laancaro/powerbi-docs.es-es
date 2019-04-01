@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/22/2019
-ms.openlocfilehash: 254b0c5c2e5a9b39f5d04f002a2791f1cd432c52
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
+ms.openlocfilehash: 5a39c976a9b9812754ade2e30eac13aa922fd7f9
+ms.sourcegitcommit: 4aa99a8dde4e98909da888c151a71476f7bbfe81
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226213"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "58489577"
 ---
 # <a name="row-level-security-rls-in-power-bi-report-server"></a>Seguridad de nivel de fila (RLS) en Power BI Report Server
 
@@ -28,11 +28,11 @@ Puede configurar RLS para los informes que se han importado en Power BI con Powe
 
 De forma predeterminada, el filtrado de Seguridad de nivel de fila se lleva a cabo mediante filtros unidireccionales, independientemente de si las relaciones se establecen de forma unidireccional o bidireccional. Puede habilitar manualmente un filtro cruzado bidireccional con Seguridad de nivel de fila.
 
-- Seleccione la relación y marque la casilla de verificación  **Aplicar filtro de seguridad en ambas direcciones** . 
+- Seleccione la relación y marque la casilla **Aplicar filtro de seguridad en ambas direcciones**. 
 
     ![Aplicación del filtro de seguridad](media/row-level-security-report-server/rls-apply-security-filter.png)
 
-Active esta casilla al implementar  [Seguridad de nivel de fila dinámica](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) en función del nombre de usuario o el Id. de inicio de sesión. 
+Marque la casilla al implementar la [seguridad dinámica de nivel de fila](https://docs.microsoft.com/sql/analysis-services/supplemental-lesson-implement-dynamic-security-by-using-row-filters) en función del nombre de usuario o el id. de inicio de sesión. 
 
 Para obtener más información, vea las notas del producto [Filtrado cruzado bidireccional con DirectQuery en Power BI Desktop](../desktop-bidirectional-filtering.md) y [Protección del modelo semántico tabular de BI](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
@@ -46,7 +46,7 @@ Después de guardar el informe en Power BI Report Server, puede administrar la s
  Si el informe no tiene los roles necesarios, deberá abrirlo en Power BI Desktop, agregar o modificar los roles y volver a guardarlo en Power BI Report Server. 
 
 1. En Power BI Desktop, guarde el informe en Power BI Report Server. Deberá usar la versión de Power BI Desktop optimizada para Power BI Report Server.
-2. En Power BI Report Service, seleccione los puntos suspensivos (**…**) junto al informe. 
+2. En Power BI Report Server, seleccione los puntos suspensivos (**…**) que encontrará junto al informe. 
 
 3. Seleccione **Administrar** > **Seguridad de nivel de fila**. 
 
@@ -85,7 +85,7 @@ Estas son las limitaciones actuales para Seguridad de nivel de fila en los model
 
 Los usuarios que hayan elegido que los informes usen la función DAX username() podrán observar un comportamiento diferente; ahora, se devolverá el nombre principal de usuario (UPN), excepto al usar DirectQuery con la seguridad integrada.  Puesto que en este escenario no se respeta RLS, el comportamiento será el mismo.
 
-Solo puede definir RLS en conjuntos de datos creados con Power BI Desktop. Para habilitar RLS en conjuntos de datos creados con Excel, debe convertir primero los archivos en archivos de Power BI Desktop (PBIX). Obtenga más información sobre la [conversión de archivos de Excel](../desktop-import-excel-workbooks.md).
+Solo puede definir RLS en conjuntos de datos creados con Power BI Desktop. Para habilitar RLS en conjuntos de datos creados con Excel, debe convertir primero los archivos en archivos de Power BI Desktop (PBIX). Obtenga más información sobre la [conversión de archivos de Excel](../desktop-import-excel-workbooks.md).
 
 Solo se admiten las conexiones Extract, Transform, Load (ETL) y DirectQuery que usen credenciales almacenadas. Las conexiones dinámicas con Analysis Services y las conexiones DirectQuery que usen la autenticación integrada se gestionarán en el origen de datos subyacente. 
 
