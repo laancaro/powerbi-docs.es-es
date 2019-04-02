@@ -628,21 +628,21 @@ items:
         href: publisher-for-excel.md
     - name: Preparación de datos de autoservicio
       items:
-      - name: Preparación de datos de autoservicio con flujos de datos (versión preliminar)
+      - name: Preparación de datos de autoservicio con flujos de datos
         href: service-dataflows-overview.md
-      - name: Creación y uso de flujos de datos (versión preliminar)
+      - name: Creación y uso de flujos de datos
         href: service-dataflows-create-use.md
-      - name: Entidades calculadas con Power BI Premium (versión preliminar)
+      - name: Entidades calculadas con Power BI Premium
         href: service-dataflows-computed-entities-premium.md
-      - name: Conexión a orígenes de datos con flujos de datos (versión preliminar)
+      - name: Conexión a orígenes de datos con flujos de datos
         href: service-dataflows-data-sources.md
-      - name: Uso de flujos de datos con orígenes de datos locales (versión preliminar)
+      - name: Uso de flujos de datos con orígenes de datos locales
         href: service-dataflows-on-premises-gateways.md
-      - name: Vinculación de entidades entre flujos de datos (versión preliminar)
+      - name: Vinculación de entidades entre flujos de datos
         href: service-dataflows-linked-entities.md
-      - name: Uso de la actualización incremental con flujos de datos (versión preliminar)
+      - name: Uso de la actualización incremental con flujos de datos
         href: service-dataflows-incremental-refresh.md
-      - name: Recursos de desarrollador para flujos de datos (versión preliminar)
+      - name: Recursos de desarrollador para flujos de datos
         href: service-dataflows-developer-resources.md
       - name: Conexión a flujos de datos en Power BI Desktop
         href: desktop-connect-dataflows.md
@@ -654,9 +654,9 @@ items:
         href: service-dataflows-configure-workspace-storage-settings.md
       - name: Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
         href: service-dataflows-add-cdm-folder.md
-      - name: Integración de Machine Learning en Power BI
+      - name: Integración de Machine Learning en Power BI (versión preliminar)
         href: service-machine-learning-integration.md
-      - name: Uso de Cognitive Services en Power BI
+      - name: Uso de Cognitive Services en Power BI (versión preliminar)
         href: service-cognitive-services.md
       - name: Aprendizaje automático automatizado en Power BI (versión preliminar)
         href: service-machine-learning-automated.md
@@ -1331,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 1de602579c97a56c7db5b0b92a8b6bc9f1134ec6
-ms.sourcegitcommit: 6070b5726629dde6dee262f77e9957496405d501
+ms.openlocfilehash: 82627f07ebaca2c0d80444c979e660802b8dd561
+ms.sourcegitcommit: 8525b6365f3e224176730f4b8e5dae83f540a4ff
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/29/2019
-ms.locfileid: "58639377"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "58795760"
