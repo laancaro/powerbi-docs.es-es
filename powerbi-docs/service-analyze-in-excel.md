@@ -11,15 +11,15 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 20faef99f710ebbc3eacebe15b5101726b895688
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
+ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279298"
+ms.lasthandoff: 04/04/2019
+ms.locfileid: "58914176"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
-Puede que haya ocasiones en que quiera usar Excel para ver e interactuar con un conjunto de datos que tenga en Power BI. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
+Puede que en ocasiones prefiera usar Excel para ver un conjunto de datos que tenga en Power BI e interactuar con él. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
 
 ## <a name="requirements"></a>Requisitos
 Hay algunos requisitos para usar **Analizar en Excel**:
@@ -27,7 +27,8 @@ Hay algunos requisitos para usar **Analizar en Excel**:
 * **Analizar en Excel** es compatible con Microsoft Excel 2010 SP1 y versiones posteriores.
 * Las tablas dinámicas de Excel no admiten la agregación de campos numéricos mediante arrastrar y colocar. El conjunto de datos en Power BI *debe tener medidas definidas previamente*.
 * Algunas organizaciones podrían tener reglas de directiva de grupo que impiden la instalación de las actualizaciones necesarias de **Analizar en Excel** en Excel. Si no puede instalar las actualizaciones, consulte con su administrador.
-* **Analizar en Excel** requiere una licencia Pro. Para obtener más información sobre las diferencias de funcionalidad entre los tipos de licencia, eche un vistazo a [Características de Power BI por tipo de licencia](service-features-license-type.md). 
+* **Analizar en Excel** requiere que el conjunto de datos se encuentre en Power BI Premium o que el usuario tenga una licencia de Power BI Pro. Para obtener más información sobre las diferencias de funcionalidad entre los tipos de licencia, eche un vistazo a [Características de Power BI por tipo de licencia](service-features-license-type.md). 
+* Los usuarios pueden conectarse a conjuntos de datos a través de Analizar en Excel si disponen de permiso de lectura en el conjunto de datos subyacente.  Un usuario puede disponer de ese permiso de varias maneras, como si es miembro del área de trabajo que contiene el conjunto de datos, si tiene un informe o panel compartido con él que utiliza el conjunto de datos o si tiene permiso en una aplicación que contiene ese conjunto.
 
 ## <a name="how-does-it-work"></a>¿Cómo funciona?
 Al seleccionar **Analizar en Excel** en el botón de puntos suspensivos (...) asociado con un conjunto de datos o informe de **Power BI**, Power BI crea un archivo .ODC y lo descarga en su equipo mediante el explorador.
@@ -100,4 +101,4 @@ Cuando un usuario con el que ha compartido el libro lo abre, verá las tablas di
 Dado que los usuarios necesitarán que actualice el conjunto de datos y no se permite la actualización de conexiones externas en Excel Online, se recomienda que los usuarios abran el libro en la versión de escritorio de Excel de su equipo.
 
 ## <a name="troubleshooting"></a>Solución de problemas
-Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [Esta página proporciona soluciones para problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)
+Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [En esta página se ofrecen soluciones a problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)

@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.subservice: power-bi-developer
 ms.topic: conceptual
 ms.custom: ''
-ms.date: 02/05/2019
-ms.openlocfilehash: 8d91b6cc03bb142d6d4aa101f87d8e3c1e6f3196
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
+ms.date: 03/29/2019
+ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014424"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872556"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -111,7 +111,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
 3. Como administrador de Power BI, tendrá que habilitar la entidad de servicio en la **configuración de desarrollador** en el portal de administración de Power BI. Agregue el grupo de seguridad que ha creado en Azure AD a la sección **Grupos de seguridad específicos** de **Configuración de desarrollador**.
 
    > [!Important]
-   > Las entidades de servicio heredan de su grupo de seguridad los permisos correspondientes a todas las opciones de configuración del inquilino de Power BI. Para limitar los permisos, cree un grupo de seguridad dedicado para las entidades de servicio y agréguelo a la lista "Excepto grupos de seguridad específicos" correspondiente a la configuración habilitada y pertinente de Power BI.
+   > Las entidades de servicio tienen acceso a las configuraciones de inquilino que están habilitadas para toda la organización o para grupos de seguridad que tienen entidades de servicio como parte del grupo. Para restringir el acceso de entidades de servicio a determinada configuración de inquilino, permita el acceso únicamente a grupos de seguridad específicos o cree un grupo de seguridad dedicado con las entidades de servicio y exclúyalo.
 
     ![Portal de administración](media/embed-service-principal/admin-portal.png)
 
@@ -119,10 +119,12 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
 
 5. Agregue la entidad de servicio como un **administrador** a la nueva área de trabajo que ha creado. Puede administrar esta tarea a través de las [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o con el servicio Power BI.
 
+    ![Incorporación de una entidad de servicio a un área de trabajo](media/embed-service-principal/add-service-principal-in-the-UI.png)
+
 6. Ahora, elija insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
 
     * [Inserción de contenido mediante la aplicación de ejemplo](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [Inserción de contenido en una aplicación propia](embed-sample-for-customers.md#embed-content-within-your-application)
+    * [Inserción de contenido en la aplicación](embed-sample-for-customers.md#embed-content-within-your-application)
 
 7. Ahora ya está listo para [pasar a producción](embed-sample-for-customers.md#move-to-production).
 
@@ -171,9 +173,10 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
 * En las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no se puede usar la entidad de servicio.
 * No se admite la administración de [flujos de datos](../service-dataflows-overview.md).
+* La entidad de servicio no es compatible con las API de administración.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Registro de una aplicación](register-app.md)
-* [Power BI Embedded para los clientes](embed-sample-for-customers.md)
-* [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Registrar una aplicación](register-app.md)
+* [Power BI Embedded para los clientes](embed-sample-for-customers.md)
+* [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)

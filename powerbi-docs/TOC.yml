@@ -596,11 +596,11 @@ items:
         href: service-insights-optimize.md
     - name: Colaboración en Power BI
       items:
+      - name: Creación de nuevas áreas de trabajo
+        href: service-create-the-new-workspaces.md
       - name: Creación de áreas de trabajo de la aplicación
         href: service-create-workspaces.md
-      - name: Crear nuevas áreas de trabajo (versión preliminar)
-        href: service-create-the-new-workspaces.md
-      - name: Crear y compartir aplicaciones
+      - name: Publicación de aplicaciones de áreas de trabajo
         href: service-create-distribute-apps.md
       - name: Administración de almacenamiento de datos en áreas de trabajo
         href: service-admin-manage-your-data-storage-in-power-bi.md
@@ -882,18 +882,6 @@ items:
         href: developer/embedding.md
       - name: Qué es Power BI Embedded de Azure
         href: developer/azure-pbie-what-is-power-bi-embedded.md
-    - name: Inicios rápidos
-      items:
-      - name: Administración de capacidades en Azure
-        items:
-        - name: Creación de una capacidad en Azure
-          href: developer/azure-pbie-create-capacity.md
-        - name: Creación de una capacidad con Multi-Geo en Azure
-          href: developer/embedded-multi-geo.md
-        - name: Escalado de una capacidad en Azure
-          href: developer/azure-pbie-scale-capacity.md
-        - name: Pausa e inicio de una capacidad en Azure
-          href: developer/azure-pbie-pause-start.md
     - name: Tutoriales
       items:
       - name: Inserción de contenido para clientes
@@ -930,6 +918,8 @@ items:
         href: developer/get-azuread-access-token.md
       - name: Inserción de preguntas y respuestas
         href: developer/qanda.md
+      - name: Solución de problemas de una aplicación insertada
+        href: developer/embedded-troubleshoot.md
       - name: Administración de capacidades en Azure
         items:
         - name: Creación de una capacidad en Azure
@@ -940,8 +930,6 @@ items:
           href: developer/azure-pbie-scale-capacity.md
         - name: Pausa e inicio de una capacidad en Azure
           href: developer/azure-pbie-pause-start.md
-        - name: Solución de problemas de una aplicación insertada
-          href: developer/embedded-troubleshoot.md
       - name: Migración desde colecciones de área de trabajo
         items:
         - name: Cómo hacer una migración desde colecciones de área de trabajo de Power BI
@@ -1048,8 +1036,6 @@ items:
       items:
       - name: Inserción de datos en un conjunto de datos
         href: developer/walkthrough-push-data.md
-      - name: Registrar una aplicación con Azure AD
-        href: developer/walkthrough-push-data-register-app-with-azure-ad.md
       - name: Obtener un token de acceso de autenticación
         href: developer/walkthrough-push-data-get-token.md
       - name: Crear un conjunto de datos
@@ -1345,9 +1331,9 @@ items:
       href: service-admin-governance.md
     - name: Seguridad de Power BI
       href: service-admin-power-bi-security.md
-ms.openlocfilehash: 9790d4bc855411ed54ce12123d03f5ef731d4689
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
+ms.openlocfilehash: a804129b06b4eb92e67ae18251cbb9f950fe1beb
+ms.sourcegitcommit: ce59fa2b49658d67a2cbc77f81c53a8266a34e36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914222"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "59053447"

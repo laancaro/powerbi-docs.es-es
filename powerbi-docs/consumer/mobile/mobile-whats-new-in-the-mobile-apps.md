@@ -9,19 +9,29 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/08/2018
 ms.author: mshenhav
-ms.openlocfilehash: 7c17d41d4278c292e494fe6f7203a32d93f2714d
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
+ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
+ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826730"
+ms.lasthandoff: 04/03/2019
+ms.locfileid: "58872740"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
 
-* [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="march-2019"></a>Marzo de 2019
+
+### <a name="supporting-external-guest-users-in-power-bi-apps-ios-android"></a>Compatibilidad con usuarios externos invitados en aplicaciones de Power BI (iOS y Android)
+
+Puede acceder a contenido de Power BI compartido con usted de otra organización directamente desde la aplicación (también llamado B2B). Obtenga [aquí](https://powerbi.microsoft.com/blog/power-bi-mobile-apps-now-support-azure-ad-b2b-guest-users/) más información sobre B2B para aplicaciones móviles de Power BI.
+
+### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Mejora del modo de presentación de Windows con presentaciones (Windows)
+
+Con [presentación](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) puede utilizar pantallas públicas ubicadas en su oficina para ejecutar informes de Power BI en pantalla completa que roten automáticamente entre las páginas del informe.  
 
 ## <a name="january---february-2019"></a>Enero-febrero 2019
  
@@ -117,7 +127,7 @@ El Inicio de sesión único (SSO) es una de las características más solicitada
 
 Ya puede recibir informes con segmentaciones y filtros compartidos.
 
-**Compatibilidad con imagen de fondo**
+**Compatibilidad con imágenes de fondo**
 
 Al ver un informe en modo horizontal en el dispositivo móvil, puede ver las mismas imágenes de fondo que en Power BI en la Web.
 
@@ -305,7 +315,7 @@ Hemos mejorado la interacción táctil de segmentaciones con la segmentación de
 
 Ahora pueden tener conexiones con un máximo de cinco servidores de SQL Server Reporting Services (SSRS) al mismo tiempo.
 
-**Solicitar acceso a paneles** 
+**Solicitud de acceso a paneles** 
 
 Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar una solicitud de acceso directamente desde la aplicación móvil.
 
@@ -316,7 +326,7 @@ Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar
 Ahora es posible desplazarse en los gráficos de barras y columnas de un informe tocando el propio gráfico, en lugar de la barra de desplazamiento lateral.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Formulación de preguntas de sus datos con una versión preliminar de Preguntas y respuestas** 
+**Formulación de preguntas en los datos con una versión preliminar de Preguntas y respuestas** 
 
 Con Preguntas y respuestas puede formular preguntas sobre sus datos con sus propias palabras y Power BI le proporcionará las respuestas pertinentes. Ya hay disponible una sección de Preguntas y respuestas en el servicio de Power BI en http://powerbi.com. Ahora también está [disponible en la aplicación móvil de su iPhone o iPad](mobile-apps-ios-qna.md).
 
@@ -357,14 +367,14 @@ Lea en el [blog el resumen de características de aplicaciones móviles de dicie
 A fin de garantizar que pueda tener acceso a los datos más recientes sin conexión, llevamos a cabo una actualización de la aplicación en segundo plano para mantener al día la información empresarial, incluso si no la ha consultado durante cierto tiempo. Para asegurarse de que determinados paneles estén siempre actualizados, márquelos como favoritos. Obtenga más información sobre las [funciones sin conexión en las aplicaciones móviles de Power BI](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Anotar y compartir**
+**Anotaciones y recursos compartidos**
 
 Ahora puede anotar y compartir un icono, informe o visualización desde la aplicación móvil Power BI para iOS. 
 
 * [En iPhone](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [En iPad](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Solicitar acceso a paneles**
+**Solicitud de acceso a paneles**
 
 Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar una solicitud de acceso directamente desde la aplicación móvil.
 
