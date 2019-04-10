@@ -61,6 +61,8 @@ items:
         href: ../power-bi-visualizations-arcgis.md
     - name: Tareas comunes
       items:
+      - name: Exportación de datos a Excel
+        href: end-user-export.md
       - name: Búsqueda de propietarios de contenido y última fecha de actualización
         href: end-user-fresh.md
       - name: Diferentes formas de ampliar el contenido mediante los modos de pantalla completa y de foco
@@ -137,6 +139,8 @@ items:
         href: mobile/mobile-tiles-in-the-mobile-apps.md
       - name: Favoritos en las aplicaciones móviles
         href: mobile/mobile-apps-favorites.md
+      - name: Configuración de la interacción con los informes en las aplicaciones móviles (solo teléfonos)
+        href: mobile/mobile-app-single-tap.md
       - name: Establecer alertas de datos en las aplicaciones móviles de Power BI
         href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
       - name: Recibir notificaciones en las aplicaciones móviles de Power BI
@@ -175,6 +179,8 @@ items:
         href: mobile/mobile-app-ssrs-kpis-mobile-on-premises-reports.md
       - name: Visualización de informes optimizados para el teléfono
         href: mobile/mobile-apps-view-phone-report.md
+      - name: Acceso a contenido de una organización externa
+        href: mobile/mobile-apps-b2b.md
       - name: Escanear un código QR de Power BI desde el teléfono
         href: mobile/mobile-apps-qr-code.md
       - name: Anotación y uso compartido en las aplicaciones móviles
@@ -195,9 +201,9 @@ items:
     items:
     - name: Idiomas admitidos en las aplicaciones móviles
       href: mobile/mobile-apps-supported-languages.md
-ms.openlocfilehash: e32baf6ff64b485b1be29dea76bcbe864d2cdc59
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
+ms.openlocfilehash: 6f9f080de3711a6a1a28f49da0298a67932d87e5
+ms.sourcegitcommit: c0add3d749f7e714e23824a742e105e694e4c129
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56248985"
+ms.lasthandoff: 04/10/2019
+ms.locfileid: "59430291"
