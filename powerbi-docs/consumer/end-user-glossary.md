@@ -48,7 +48,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **assign (asignar)** [Power BI Premium] Trasladar un área de trabajo a una capacidad dedicada o desde dicha capacidad. No use el verbo “promover” para referirse al traslado de un área de trabajo a una capacidad dedicada porque tiene la connotación de que la capacidad dedicada es superior a la compartida.  
 
-## <a name="b"></a>N
+## <a name="b"></a>B
 
 **BI, business intelligence (BI, inteligencia empresarial)**
 
@@ -121,7 +121,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **environment (entorno)** [Power BI Desktop, Power BI Mobile, etc.] utilizan el entorno de Power BI. En clientes con varios inquilinos, use este término para hacer referencia a la elección del inquilino al que se va a conectar.
 En aquella documentación en que pueda servir a los analistas de empresas familiarizados con el término “inquilino”, se puede utilizar “Entorno Power BI (inquilino)” para ayudarles a reconocer que se trata del mismo concepto.
 
-## <a name="f"></a>V
+## <a name="f"></a>F
 
 **favorite, unfavorite (agregar a Favoritos, quitar de Favoritos)** Añadir a la lista de Favoritos para acceder rápidamente a paneles e informes visitados con frecuencia en Power BI. Cuando ya no necesite tenerlos a mano, puede quitarlos de Favoritos.
 
@@ -142,7 +142,7 @@ En aquella documentación en que pueda servir a los analistas de empresas famili
 ## <a name="h"></a>H
 **high-density visuals (objetos visuales de alta densidad)** Objetos visuales con más puntos de datos de los que Power BI puede representar. Power BI hace un muestreo de los datos para mostrar la forma y los valores atípicos.
 
-## <a name="i"></a>K
+## <a name="i"></a>I
 
 **insights (conclusiones)** Análisis de datos automáticos realizados mediante la ejecución de nuestros algoritmos de aprendizaje automático de conclusiones.
 
@@ -162,7 +162,7 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 **list page (página de lista)** o **lista de contenido** Una de las páginas de la sección para los elementos del panel de navegación izquierdo. Por ejemplo, Favoritos, Recientes, Mi área de trabajo, etc.
 
-## <a name="m"></a>L
+## <a name="m"></a>M
 
 **Mobile app (Aplicación móvil)**: aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
@@ -265,7 +265,7 @@ Vista desde varias perspectivas de un único conjunto de datos, con visualizacio
 
 **responsive visuals (objetos visuales con capacidad de respuesta)** Objetos visuales que cambian de forma dinámica para mostrar la máxima cantidad de datos y conclusiones, independientemente del tamaño de la pantalla.
 
-## <a name="s"></a>D
+## <a name="s"></a>S
 **SaaS**   
 
 **screenshot (captura de pantalla)** Las capturas de pantalla sencillas de los informes se pueden enviar por correo electrónico mediante la característica “enviar una captura de pantalla”.
@@ -298,7 +298,7 @@ Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir corr
 Los paneles de Power BI contienen iconos de un informe.
 
 
-## <a name="u"></a>S
+## <a name="u"></a>U
 
 
 ## <a name="v"></a>V
@@ -308,7 +308,7 @@ Los paneles de Power BI contienen iconos de un informe.
 
 **Visualizations pane (Panel de visualizaciones)** Nombre para las plantillas de visualización que se incluyen en el lienzo del informe compartido para Power BI Desktop y el servicio Power BI. Contiene plantillas pequeñas, también denominadas iconos, para cada tipo de visualización nativo.  
 
-## <a name="w"></a>M
+## <a name="w"></a>W
 
 **workbook (libro)** Libro de Excel que se usará como origen de datos. Los libros pueden contener un modelo de datos con una o varias tablas de datos cargadas mediante tablas vinculadas, Power Query o Power Pivot.
 
