@@ -10,18 +10,18 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 03/05/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91a4cf3ff4fef4530c7c45712a86419298da53f4
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
+ms.openlocfilehash: 3c9fd8877347ad0eebf7db059cc791583c89f353
+ms.sourcegitcommit: af2b2238fe77eaa1b2392a19a143a0250b8665cf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306513"
+ms.lasthandoff: 05/11/2019
+ms.locfileid: "65533704"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
 Use [SAML (Lenguaje de marcado de aserción de seguridad)](https://www.onelogin.com/pages/saml) para habilitar la conectividad de inicio de sesión único directa. La habilitación de SSO facilita la tarea de los paneles y los informes de Power BI para actualizar los datos de orígenes locales.
 
-## <a name="supported-data-sources"></a>Orígenes de datos compatibles
+## <a name="supported-data-sources"></a>Orígenes de datos admitidos
 
 Actualmente se admite SAP HANA con SAML. Para obtener más información acerca de cómo instalar y configurar el inicio de sesión único para SAP HANA con SAML, consulte el tema acerca de [SSO de SAML para la plataforma de BI a HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA) en la documentación de SAP HANA.
 
@@ -75,7 +75,7 @@ El certificado de IdP resultante es válido durante un año (vea la opción de d
 
     ![Configuración de SAML](media/service-gateway-sso-saml/configure-saml.png)
 
-1. Seleccione el proveedor de identidades que creó en el paso 2. Para **Identidad externa** , escriba el UPN del usuario de Power BI y, a continuación, seleccione **Agregar**.
+1. Seleccione el proveedor de identidades que creó en el paso 2. Para **identidad externa**, escriba el UPN del usuario de Power BI (normalmente la dirección de correo electrónico el usuario inicia sesión en Power BI con) y luego seleccione **agregar**. Tenga en cuenta que si ha configurado la puerta de enlace para usar la opción de configuración ADUserNameReplacementProperty debe escribir el valor que reemplazará el Power BI UPN del usuario original. Por ejemplo, si establece la ADUserNameReplacementProperty en SAMAccountName debe escribir SAMAccountName del usuario.
 
     ![Selección del proveedor de identidades](media/service-gateway-sso-saml/select-identity-provider.png)
 
