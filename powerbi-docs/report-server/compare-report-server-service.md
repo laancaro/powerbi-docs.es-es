@@ -2,20 +2,20 @@
 title: Comparación de Power BI Report Server y el servicio Power BI
 description: En este artículo se comparan las características de Power BI Report Server y del servicio Power BI.
 keywords: ''
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.date: 02/06/2019
-ms.openlocfilehash: ba10e13062e4071e5afcc5d395836c96ed1401fd
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
+ms.date: 05/22/2019
+ms.openlocfilehash: c4254420ae949b1fae6a1407cd045589c23da3c8
+ms.sourcegitcommit: bccbfc278ae85615dcfb7791d89e071a43d1ae23
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57327927"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "66187686"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -38,7 +38,7 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Distribuir grupos de informes con aplicaciones | No | Sí | [Crear y publicar aplicaciones con los paneles e informes](../service-create-distribute-apps.md) |
 | Paquetes de contenido | No | Sí | [Paquetes de contenido organizativo: Introducción](../service-organizational-content-pack-introduction.md) |
 | Conectarse a servicios como Salesforce | Sí | Sí | [Conéctese a los servicios que usa](../service-connect-to-services.md) con paquetes de contenido en el servicio Power BI. En Power BI Report Server, use conectores certificados para conectarse a los servicios. Vea [Orígenes de datos de los informes de Power BI en Power BI Report Server](data-sources.md) para obtener más información. |
-| Preguntas y respuestas | No | Sí | [Preguntas y respuestas en el servicio Power BI y Power BI Desktop](../consumer/end-user-q-and-a.md) 
+| Preguntas y respuestas | No | Sí | [Preguntas y respuestas en el servicio Power BI y Power BI Desktop](../power-bi-tutorial-q-and-a.md) 
 | Información rápida | No | Sí | [Generación automática de información sobre los datos con Power BI](../consumer/end-user-insights.md) |
 | Analizar en Excel | No | Sí | [Analizar en Excel](../service-analyze-in-excel.md) 
 | Informes paginados | Sí | Sí | Los [informes paginados están disponibles en el servicio Power BI](../paginated-reports-report-builder-power-bi.md), en la versión preliminar en una capacidad Premium. |

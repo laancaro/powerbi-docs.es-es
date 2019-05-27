@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: cd9a68d10e0da0aaa883dae1a3979eff6a6b4ce6
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: f14b6878d44510631822dd26458bdaa17c1fe3a0
+ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290737"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "65239600"
 ---
 # <a name="aggregations-in-power-bi-desktop-preview"></a>Agregaciones en Power BI Desktop (versión preliminar)
 
@@ -59,10 +59,10 @@ En su lugar, creamos la tabla **Sales Agg** como una tabla de agregación. Como 
 
 Supongamos que las tablas de dimensiones siguientes son las más usadas para las consultas con alto valor de negocio. Son las tablas que pueden filtrar **Sales Agg** mediante relaciones de *uno a varios* (o *varios a uno*).
 
-* Geografía
-* Cliente
+* Geography
+* Customer
 * Fecha
-* Subcategoría de producto
+* Product Subcategory
 * Categoría de producto
 
 La siguiente imagen muestra este modelo.
