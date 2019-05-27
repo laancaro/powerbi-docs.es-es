@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: ca4af083e616023196b7a983d6f04dcdd97826a9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279927"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514333"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher for Excel
 Con Microsoft **Power BI Publisher para Excel**, puede tomar instantáneas de sus datos más importantes en Excel, como tablas dinámicas, gráficos y rangos, y anclarlos a los paneles de Power BI.

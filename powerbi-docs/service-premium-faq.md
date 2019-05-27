@@ -1,8 +1,8 @@
 ---
 title: Preguntas más frecuentes sobre Power BI Premium
 description: Examinar una lista de las preguntas y respuestas más frecuentes acerca de la oferta Premium de Power BI.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 6aa9265a006135ad87a61979b39a709c874f8d48
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383346"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565382"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
-En este artículo se tratan las preguntas más frecuentes acerca de Power BI Premium. Para leer una introducción, consulte [¿Qué es Power BI Premium?](service-premium.md).
+En este artículo se tratan las preguntas más frecuentes acerca de Power BI Premium. Para leer una introducción, consulte [¿Qué es Power BI Premium?](service-premium-what-is.md).
 
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
@@ -84,7 +84,7 @@ Para más información, consulte [Introducción al servidor de informes de Power
 
 **Pasos siguientes**
 
-[¿Qué es Power BI Premium?](service-premium.md)
+[¿Qué es Power BI Premium?](service-premium-what-is.md)
 [Notas de la versión de Power BI Premium](service-premium-release-notes.md)
 [Notas del producto de Microsoft Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
 [Notas del producto: Planning a Power BI Enterprise Deployment (Planeación de una implementación de Power BI Enterprise)](https://aka.ms/pbienterprisedeploy)

@@ -1,20 +1,21 @@
 ---
 title: Entidad de servicio con Power BI
 description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory con una entidad de servicio para usarla con la inserción de contenido de Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
-ms.subservice: power-bi-developer
+ms.service: powerbi
+ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9b72c1c432e7fa560862452849491c12395d29d1
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
+ms.openlocfilehash: 5c97eacbdbf89a9ef828dad3a5da01e794952f15
+ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872556"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "65710511"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -124,7 +125,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
 6. Ahora, elija insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
 
     * [Inserción de contenido mediante la aplicación de ejemplo](embed-sample-for-customers.md#embed-content-using-the-sample-application)
-    * [Inserción de contenido en la aplicación](embed-sample-for-customers.md#embed-content-within-your-application)
+    * [Inserción de contenido en una aplicación propia](embed-sample-for-customers.md#embed-content-within-your-application)
 
 7. Ahora ya está listo para [pasar a producción](embed-sample-for-customers.md#move-to-production).
 
@@ -177,6 +178,6 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Registrar una aplicación](register-app.md)
-* [Power BI Embedded para los clientes](embed-sample-for-customers.md)
-* [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
+* [Registro de una aplicación](register-app.md)
+* [Power BI Embedded para los clientes](embed-sample-for-customers.md)
+* [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)

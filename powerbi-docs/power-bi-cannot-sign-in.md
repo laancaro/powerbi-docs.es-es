@@ -1,8 +1,8 @@
 ---
 title: No es posible ponerse en contacto con Soporte técnico de Power BI
 description: Soluciones alternativas para crear un caso de Power BI si un usuario no puede iniciar sesión
-author: markingmyname
-ms.author: maghan
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 1605293474a7cbfefb448d74127639153e29325c
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
+ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
+ms.sourcegitcommit: 2df541facab8a1621953e91dbbee18c7d4e9a3c3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57964626"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "64769831"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Solución de problemas de inicio de sesión de Power BI
 

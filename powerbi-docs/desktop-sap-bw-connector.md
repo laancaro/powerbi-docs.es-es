@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/14/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c45900d98dfa25dd991ae0cee1f165a41964c51e
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324777"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514672"
 ---
 # <a name="use-the-sap-bw-connector-in-power-bi-desktop"></a>Uso del conector de SAP BW en Power BI Desktop
 Con Power BI Desktop, puede acceder a los datos de **SAP Business Warehouse (BW)**.
@@ -225,7 +225,7 @@ En la tabla siguiente se detalla la compatibilidad actual para SAP BW.
 
 
 
-|Producto  |Modo  |Autenticación  |Conector  |Biblioteca de SNC  |Admitido  |
+|Product  |Modo  |Autenticación  |Conector  |Biblioteca de SNC  |Admitido  |
 |---------|---------|---------|---------|---------|---------|
 |Power BI Desktop     |Cualquiera         | Usuario / contraseña  | Servidor de aplicaciones | N/D  | Sí  |
 |Power BI Desktop     |Cualquiera         | Windows          | Servidor de aplicaciones | sapcrypto + gsskrb5/gx64krb5  | Sí  |

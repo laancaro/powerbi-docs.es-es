@@ -12,23 +12,24 @@ ms.service: powerbi
 ms.topic: quickstart
 ms.tgt_pltfrm: NA
 ms.workload: powerbi
-ms.date: 12/06/2018
+ms.date: 05/13/2019
 ms.author: mihart
-ms.openlocfilehash: 84ce069913b1c262ce4e91138f8496cf3f19dddd
-ms.sourcegitcommit: cd85d88fba0d9cc3c7a4dc03d2f35d2bd096759b
+ms.openlocfilehash: babdcebcdbc45ce3f7f737785ca4becab50cb3be
+ms.sourcegitcommit: 187f306438d53ba8742db2c7a5532f1acc81fa36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/12/2018
-ms.locfileid: "53280130"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65608273"
 ---
-<!-- once the sample aps are live, change this so consumers can follow along -->
+<!-- once the sample apps are live, change this so consumers can follow along -->
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Inicio rápido: más información sobre las capacidades de Power BI para ***consumidores***
 En esta guía de inicio rápido obtendrá información sobre cómo interactuar con Power BI para detectar información empresarial basada en datos. La información del artículo no pretende ser exhaustiva, sino un resumen rápido de muchas de las acciones disponibles para los **consumidores** de Power BI.
 
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="prerequisites"></a>Requisitos previos
-- Servicio Power BI (app.powerbi.com) <!-- app from AppSource -->
+- Servicio Power BI (app.powerbi.com)
+<!-- app from AppSource -->
 
 ## <a name="reading-view"></a>Vista de lectura
 La vista de lectura está disponible en el servicio Power BI para *consumidores* de informes. Cuando algún compañero comparta un informe con usted, podrá explorar el informe e interactuar con él en la Vista de lectura. 
@@ -185,7 +186,7 @@ Una visualización de Power BI se construye con datos provenientes de los conjun
 1. En el servicio Power BI, abra un informe y seleccione un objeto visual.  
 2. Para que se muestren los datos que hay detrás del objeto visual, seleccione los puntos suspensivos (...) y elija **Mostrar datos**.
    
-   ![Selección de Mostrar datos](./media/end-user-show-data/power-bi-show-data2.png)
+   ![Selección de Mostrar datos](./media/end-user-show-data/power-bi-explore-show-data.png)
 
 Aquí finaliza esta introducción rápida a algunas de las acciones que pueden realizar los **consumidores** con el servicio Power BI.  
 
