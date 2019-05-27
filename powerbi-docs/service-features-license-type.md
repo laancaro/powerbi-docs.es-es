@@ -11,12 +11,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 15a2e292aee04ed915611204e62a19d2836aa827
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274867"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "65554442"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Características del servicio Power BI por tipo de licencia
 
@@ -42,7 +42,7 @@ Esta es una lista de las características que admite el tipo de licencia por usu
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Si le interesa obtener más información acerca de Power BI Premium, vea [¿Qué es Microsoft Power BI Premium?](service-premium.md).
+Si le interesa obtener más información acerca de Power BI Premium, vea [¿Qué es Microsoft Power BI Premium?](service-premium-what-is.md).
 
 Para empezar a usar Power BI mediante el registro, consulte [Registro en Power BI como usuario individual](service-self-service-signup-for-power-bi.md).
 

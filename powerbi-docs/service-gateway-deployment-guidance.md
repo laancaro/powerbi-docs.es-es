@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5ebc5472ffcbd5d6b493b919b3e2965968261d20
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
+ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279858"
+ms.lasthandoff: 05/23/2019
+ms.locfileid: "66051152"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 
@@ -42,7 +42,7 @@ Hay una restricción en **Power BI** que solo permite *una* puerta de enlace por
 ### <a name="connection-type"></a>Tipo de conexión
 **Power BI** ofrece dos tipos de conexiones: **DirectQuery** e **Importación**. No todos los orígenes de datos admiten ambos tipos de conexión y varias razones pueden contribuir a elegir una frente a otra, como los requisitos de seguridad, rendimiento, límites de datos y tamaños de modelo de datos. Para más información sobre el tipo de conexión y orígenes de datos admitidos consulte la sección *lista de tipos de orígenes de datos disponibles* del artículo [Puerta de enlace de datos local](service-gateway-onprem.md).
 
-Dependiendo del tipo de conexión en uso, la utilización de la puerta de enlace puede ser diferente. Por ejemplo, es conveniente separar los orígenes de datos **DirectQuery** de los orígenes de datos de **Actualización programada** siempre que sea posible (suponiendo que están en diferentes informes y se pueden separar). Al hacerlo así evita que la puerta de enlace tenga miles de solicitudes de DirectQuery en cola, al mismo tiempo que la actualización programada de la mañana de un modelo de datos de gran tamaño que se usa para el panel principal de la compañía. Esto es lo que debe tener en cuenta para cada uno de ellos:
+Dependiendo de qué tipo de conexión se utiliza, el uso de la puerta de enlace puede ser diferente. Por ejemplo, es conveniente separar los orígenes de datos **DirectQuery** de los orígenes de datos de **Actualización programada** siempre que sea posible (suponiendo que están en diferentes informes y se pueden separar). Si lo hace, impide que la puerta de enlace tenga miles de **DirectQuery** solicitudes en cola, al mismo tiempo como actualización programada de la mañana de un modelo de datos de gran tamaño que se usa para el panel principal de la empresa. Esto es lo que debe tener en cuenta para cada uno de ellos:
 
 * Para **Actualización programada**: según el tamaño de la consulta y el número de actualizaciones que se producen al día, puede elegir entre permanecer con los requisitos mínimos de hardware recomendados o actualizar a una máquina de rendimiento superior. Si una consulta determinada no se dobla, las transformaciones se producen en el equipo de la puerta de enlace y, por lo tanto, la máquina de la puerta de enlace se beneficia de tener más RAM disponible.
 * Para **DirectQuery**: se enviará una consulta cada vez que cualquier usuario abre el informe o examine datos. Por lo que si prevé que más de 1.000 usuarios tendrán acceso a los datos simultáneamente, querrá asegurarse de que el equipo tiene componentes de hardware sólidos y eficaces. Más núcleos de CPU darán como resultado un mejor rendimiento para una conexión **DirectQuery**.

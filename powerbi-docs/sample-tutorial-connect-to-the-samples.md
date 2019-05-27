@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 63924dd4769b4ce452d2d8de4252228bb6d37d37
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 846f783e2a022504f192cf0c03179ce3f3c00e22
+ms.sourcegitcommit: 1dfabc8596ec2eb66ccccceb11419361f704b607
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275557"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "65625075"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conexión a los ejemplos en el servicio Power BI
 
@@ -78,7 +78,7 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
     ![Página del informe con un objeto visual coincidente resaltado](media/sample-tutorial-connect-to-the-samples/power-bi-report.png)
    
    > [!NOTE]
-   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](consumer/end-user-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar. Si el icono estaba [anclado desde Excel](service-dashboard-pin-tile-from-excel.md), Excel Online se habría abierto en Power BI.
+   > Si el icono se ha creado mediante [Preguntas y respuestas de Power BI](power-bi-tutorial-q-and-a.md), se abrirá la página de Preguntas y respuestas en su lugar. Si el icono estaba [anclado desde Excel](service-dashboard-pin-tile-from-excel.md), Excel Online se habría abierto en Power BI.
    > 
    > 
 1. De vuelta en la pestaña **Conjuntos de datos**, tiene varias opciones para explorar el conjunto de datos.  No podrá abrirla y ver todas las filas y columnas (como podría hacer en Power BI Desktop o Excel).  Cuando un usuario comparte un paquete de contenido con sus compañeros, normalmente lo que desea es compartir la información, no dar a sus compañeros acceso directo a los datos. Pero eso no significa que no pueda explorar el conjunto de datos.  
@@ -129,11 +129,9 @@ Ahora, explore el conjunto de datos, las relaciones y los informes por su cuenta
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)
 
-[Ejemplos del servicio Power BI](sample-datasets.md)
-
-[Orígenes de datos de Power BI](service-get-data.md)
+- [Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)
+- [Ejemplos del servicio Power BI](sample-datasets.md)
+- [Orígenes de datos de Power BI](service-get-data.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
-

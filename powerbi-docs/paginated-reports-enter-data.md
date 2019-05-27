@@ -1,7 +1,7 @@
 ---
 title: Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar)
 description: En este artículo, verá cómo puede escribir datos directamente en un informe paginado en el Generador de informes.
-author: markingmyname
+author: maggiesMSFT
 ms.author: maggies
 manager: kfile
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/19/2018
-ms.openlocfilehash: 27f8434b336c2d1281fb087d4e9acf83958f7329
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
+ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324999"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61424549"
 ---
 # <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar): Power BI
 
@@ -23,7 +23,7 @@ En este artículo, obtendrá información sobre una característica de la nueva 
 ## <a name="prerequisites"></a>Requisitos previos
 
 - Para escribir datos directamente en un informe paginado, instale la nueva versión del [Generador de informes desde el Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53613). 
-- Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](service-premium.md).
+- Para guardar el informe paginado en el servicio Power BI, necesita una [cuenta de Power BI Pro](service-self-service-signup-for-power-bi.md) y acceso de escritura a un área de trabajo en una [capacidad Premium de Power BI](service-premium-what-is.md).
 - Para guardar el informe paginado en un servidor de informes, necesita permisos para [editar el archivo RsReportServer.config](#upload-the-paginated-report-to-a-report-server).
 
 ## <a name="get-started"></a>Comenzar

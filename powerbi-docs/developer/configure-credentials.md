@@ -1,20 +1,20 @@
 ---
 title: Configuración de credenciales mediante programación para Power BI
 description: Procedimientos para configurar credenciales mediante programación para Power BI para la automatización
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/25/2019
-ms.openlocfilehash: 2b4e2f5a4e95b412459dd8fe8d497966e541b389
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
+ms.openlocfilehash: f93119a621330d673fd2cf6035e0416646bd5e6a
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56893132"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61380192"
 ---
 # <a name="configure-credentials-programmatically-for-power-bi"></a>Configuración de credenciales mediante programación para Power BI
 
@@ -54,7 +54,7 @@ Siga estos pasos para configurar las credenciales mediante programación para Po
 
 ### <a name="expired-on-premises-data-source-credentials-flow"></a>Flujo de credenciales del origen de datos local expirado
 
-1. [Siga los pasos 1 y 2 del escenario anterior](#configure-credential-flow-for-data-sources).
+1. [Siga los pasos 1 y 2 del escenario anterior](#configure-a-credential-flow-for-data-sources).
 
 2. Llame a [Get Gateway](https://docs.microsoft.com/rest/api/power-bi/gateways/getgateways) (Obtener puerta de enlace) para recuperar la clave pública de puerta de enlace.
 
