@@ -1,8 +1,8 @@
 ---
 title: Adquisición de Power BI Premium
 description: Obtenga información sobre cómo puede comprar Power BI Premium y habilitar el acceso a contenido para toda la organización.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 25e36334390ad88d7856124c67e275db5c7fcd1c
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
+ms.sourcegitcommit: 317980e9f40fb3ed6eeb91b92056f242bd814a2c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383017"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "65565282"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Adquisición de Power BI Premium
 
