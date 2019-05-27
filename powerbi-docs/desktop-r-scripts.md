@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 3337efa6bf7c1f3eafe389d28f083df377543bc5
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 188669525a210afc516cc9740d5d7e7c5682ea93
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279950"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514735"
 ---
 # <a name="run-r-scripts-in-power-bi-desktop"></a>Ejecución de scripts de R en Power BI Desktop
 Puede ejecutar scripts R directamente en **Power BI Desktop** e importar los conjuntos de datos resultantes en un modelo de datos de Power BI Desktop.

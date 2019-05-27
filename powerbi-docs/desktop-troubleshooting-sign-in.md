@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 7b34bd31592f59048899ccf04385d7b302fd3204
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
+ms.openlocfilehash: f81517bf4d7857b5c86b4fd8d801e989abb0399b
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223292"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65514463"
 ---
 # <a name="troubleshooting-sign-in-for-power-bi-desktop"></a>Solución de problemas de inicio de sesión en Power BI Desktop
 Puede haber ocasiones en que intente iniciar sesión en **Power BI Desktop** pero encuentre errores. Hay dos razones principales para problemas de inicio de sesión: **errores de autenticación de proxy** y **errores de redireccionamiento de dirección URL que no son HTTPS**. 

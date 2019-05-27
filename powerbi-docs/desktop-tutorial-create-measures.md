@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: ba9cc81c966ebadb2aaff8c339b8a151aef7b6fd
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
+ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287610"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "65513898"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Creación de medidas propias en Power BI Desktop
 Puede crear algunas de las soluciones de análisis de datos más eficaces en Power BI Desktop mediante el uso de medidas. Las medidas ayudan al realizar cálculos con los datos a medida que se interactúa con los informes. Este tutorial le ayudará a entender las medidas y a crear sus medidas básicas propias en Power BI Desktop.
