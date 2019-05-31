@@ -7,26 +7,26 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/07/2019
+ms.date: 04/19/2019
 ms.author: maggies
-ms.openlocfilehash: cd3a1f94aa4c965327ea3e5bcb7271326aa3514d
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 2b7b2630e665fca9013920718ff58dd973f01392
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56250045"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578560"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI (versión preliminar)
 
-Las nuevas *aplicaciones de plantilla* de Power BI permiten a los asociados de Power BI crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI. En este artículo es para los analistas de Power BI. Se explica cómo instalar, personalizar y distribuir una aplicación de plantilla creada por un asociado de Power BI. Si está interesado en crear aplicaciones de plantilla para distribuirlas usted mismo, vea [Creación de una plantilla de aplicación en Power BI](service-template-apps-create.md).
+¿Son un analista de Power BI? Si es así, este artículo explica cómo instalar *plantilla aplicaciones* para conectarse a muchos de los servicios que se usa para dirigir su negocio, como Salesforce, Microsoft Dynamics y Google Analytics. Puede modificar los paneles e informes para satisfacer las necesidades de su organización y distribuirlos después a sus compañeros de trabajo como un *aplicación*. 
 
 ![Aplicaciones de Power BI instaladas](media/service-template-apps-install-distribute/power-bi-get-apps.png)
 
-Cuando se instala una aplicación de plantilla creada por un asociado de Power BI, puede modificarla para satisfacer las necesidades de la organización y, después, distribuirla a sus compañeros como una aplicación.  
+Si está interesado en crear aplicaciones de plantilla para distribuirlas usted mismo, vea [Creación de una plantilla de aplicación en Power BI](service-template-apps-create.md). Asociados de Power BI pueden crear aplicaciones de Power BI con poca o ninguna codificación e implementarlas para los clientes de Power BI. 
 
 ## <a name="prerequisites"></a>Requisitos previos  
 
-Estos son los requisitos para instalar, personalizar y distribuir una aplicación de plantilla:  
+Estos son los requisitos para instalar, personalizar y distribuir una aplicación de plantilla: 
 
 - Una [licencia de Power BI Pro](service-self-service-signup-for-power-bi.md).
 - Familiaridad con los [conceptos básicos de Power BI](service-basic-concepts.md).
