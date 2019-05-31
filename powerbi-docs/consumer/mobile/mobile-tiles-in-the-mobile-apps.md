@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286413"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60978358"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -71,7 +71,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    * Pulse el gráfico para mover la barra en un gráfico de líneas, barras, columnas o burbujas y poder ver los valores de un punto concreto en la visualización.  
    * Pulsar el icono Compartir instantánea ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [anotar y compartir el icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con otros usuarios.
    * Pulsar el icono Abrir informe ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver el informe](mobile-reports-in-the-mobile-apps.md) en la aplicación móvil.
-3. A veces, el creador del panel ha agregado un vínculo a un icono. Por tanto, cuando pulse en los tres puntos en vertical (**...**) verá **Abrir vínculo** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
+3. A veces, el creador del panel ha agregado un vínculo a un icono. Por tanto, cuando pulse en los tres puntos en vertical ( **...** ) verá **Abrir vínculo** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-android-tile-link.png)
    

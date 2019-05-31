@@ -7,14 +7,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: resource
-ms.date: 12/06/2018
+ms.date: 05/14/2019
 ms.author: mihart
-ms.openlocfilehash: 91ac7e9990844f6e4f481473d402647a47249ba6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 4a67e7ef8171b3f342530d187590e9e018f584df
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662420"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66412910"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -71,7 +71,7 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **content list (lista de contenido)** Índice de contenido de una aplicación.
 
-**content pack (paquete de contenido)**: una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
+**content pack (paquete de contenido)** : una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (vista de contenido)**
 
@@ -142,6 +142,8 @@ En aquella documentación en que pueda servir a los analistas de empresas famili
 ## <a name="h"></a>H
 **high-density visuals (objetos visuales de alta densidad)** Objetos visuales con más puntos de datos de los que Power BI puede representar. Power BI hace un muestreo de los datos para mostrar la forma y los valores atípicos.
 
+**Inicio** la edad para los usuarios del servicio Power BI de aterrizaje predeterminada. No modifique nada. Se puede llamar Power BI Home o simplemente la casa.
+
 ## <a name="i"></a>I
 
 **insights (conclusiones)** Análisis de datos automáticos realizados mediante la ejecución de nuestros algoritmos de aprendizaje automático de conclusiones.
@@ -164,7 +166,7 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 ## <a name="m"></a>M
 
-**Mobile app (Aplicación móvil)**: aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
+**Mobile app (Aplicación móvil)** : aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
 **modeling (modelado)** [Power BI Desktop] Disponer de los datos que ha conectado para que estén listos para utilizar en Power BI. Esto incluye la creación de relaciones entre las tablas de varios orígenes de datos, crear medidas y asignar métricas.
 
@@ -219,7 +221,7 @@ Primera aparición: panel de navegación izquierdo. Siguientes menciones o en es
 
 **Power BI Report Server** Nueva oferta de marca de SSRS que se inicia con Power BI Premium para permitir que las organizaciones creen sistemas de BI híbridos y distribuidos (una combinación de implementaciones locales y en la nube). Embedded proporciona una manera localizada de almacenar y administrar informes de Power BI.
 
-**Power BI service (Servicio Power BI)**: un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../power-bi-overview.md)
+**Power BI service (Servicio Power BI)** : un servicio SaaS (software como servicio) en línea. Para más información, consulte [¿Qué es Power BI?](../power-bi-overview.md)
 
 **Power BI service connector (Conector del servicio Power BI)** Este conector permite a los usuarios de Power BI Desktop conectarse a conjuntos de datos en el servicio Power BI desde Desktop. Pueden crear un modelo una vez y reutilizarlo en muchos informes y paneles.
 
@@ -288,7 +290,7 @@ En dispositivos móviles, “compartir” puede hacer referencia a una funcional
 
 **streaming data (transmisión de datos)** Vea *streaming en tiempo real*.
 
-**subscriptions (suscripciones)**, **suscribirse**  
+**subscriptions (suscripciones)** , **suscribirse**  
 Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir correos electrónicos que contengan una instantánea. Se requiere una licencia de Power BI Pro.
 
 **summarization (resumen)** [Power BI Desktop] Operación que se aplica a los valores de una columna.

@@ -1,6 +1,6 @@
 ---
 title: Cuadros de texto y formas en informes de Power BI
-description: Documentación sobre cómo agregar y crear cuadros de texto y formas en un informe con el servicio Microsoft Power BI.
+description: Agregar y crear cuadros de texto y formas en un informe mediante el servicio Microsoft Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,20 +8,20 @@ featuredvideoid: _3q6VEBhGew
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf5cecc8df5c1e6c3057cab6eb41e40e934b1510
-ms.sourcegitcommit: 658b0de4f5a544d0906665b40925552804a61880
-ms.translationtype: HT
+ms.openlocfilehash: 26cca0f809f261144ad5e5ee5cfacae3de4f37a4
+ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/19/2019
-ms.locfileid: "54406555"
+ms.lasthandoff: 05/30/2019
+ms.locfileid: "66413013"
 ---
-# <a name="text-boxes-and-shapes-power-bi-reports"></a>Cuadros de texto y formas en informes de Power BI
-Con el servicio Power BI y Power BI Desktop se pueden agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
+# <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Cuadros de texto y formas en informes de Power BI
+Puede agregar cuadros de texto y formas a los informes mediante el servicio Power BI y Power BI Desktop. En ambos casos, debe tener permisos de edición para el informe. Si un informe se compartió con usted en el servicio Power BI, no tendrá permisos de edición. 
 
-Utilice en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe](guided-learning/visualizations.yml?tutorial-step=11) y, después, siga estos pasos para probarlas mediante el servicio Power BI.
+Utilice Power BI Desktop para [agregar imágenes estáticas a un informe](guided-learning/visualizations.yml?tutorial-step=11)y, a continuación, siga los pasos siguientes para probarlo usted mismo con el servicio Power BI en su lugar.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 
@@ -29,42 +29,43 @@ Utilice en su lugar Power BI Desktop para [agregar imágenes estáticas a un inf
 ## <a name="add-a-text-box-to-a-report"></a>Agregar un cuadro de texto a un informe
 1. Abra un informe en Vista de edición.
 
-2. Coloque el cursor en cualquier lugar en blanco del lienzo del informe y seleccione **Cuadro de texto**.
+2. Coloque el cursor en cualquier área en blanco del lienzo del informe y seleccione **cuadro de texto** en el menú superior.
    
-   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
-2. Escriba el texto en el cuadro de texto y, opcionalmente, dé formato a la fuente, el color y la alineación del texto. 
+   ![Seleccione el cuadro de texto](media/power-bi-reports-add-text-and-shapes/pbi_textbox.png)
+3. Escriba el texto en el cuadro de texto y, opcionalmente, establecer la alineación de texto, color y fuente de formato. 
    
-   ![](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
-3. Para colocar el cuadro de texto, seleccione el área gris de la parte superior y arrastre. Y para cambiar el tamaño del cuadro de texto, seleccione y arrastre cualquiera de los controladores del contorno. 
+   ![Escriba el texto](media/power-bi-reports-add-text-and-shapes/pbi_textbox2new.png)
+4. Para colocar el cuadro de texto, seleccione el área gris de la parte superior y arrastre. Para cambiar el tamaño del cuadro de texto, seleccione y arrastre cualquiera de los controladores del contorno. 
    
-   ![](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
+   ![Cuadro de texto posición](media/power-bi-reports-add-text-and-shapes/textboxsmaller.gif)
 
-4. Con el cuadro de texto aún seleccionado, agregue formato adicional en el panel VISUALIZACIONES. En este ejemplo, hemos dado formato al fondo y al borde. También puede crear una posición y un tamaño exactos para un cuadro de texto.  
+5. Con el cuadro de texto aún seleccionado, agregue formato adicional en el **visualizaciones** panel. En este ejemplo, nos hemos dado formato el fondo y el borde. También puede crear una posición y un tamaño exactos para un cuadro de texto.  
 
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
+   ![Cuadro de texto de formato](media/power-bi-reports-add-text-and-shapes/power-bi-borders.png)
 
-5. Para cerrar el cuadro de texto, seleccione cualquier espacio en blanco del lienzo del informe. 
+6. Para cerrar el cuadro de texto, seleccione cualquier espacio en blanco del lienzo del informe. 
 
-5. Seleccione el icono de anclaje ![](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) para anclar el cuadro de texto a un panel. 
+7. Seleccione el icono de anclaje  ![Icono de anclaje](media/power-bi-reports-add-text-and-shapes/pbi_pintile.png) Para anclar el cuadro de texto a un panel. 
 
 ## <a name="add-a-shape-to-a-report"></a>Agregar una forma a un informe
 1. Coloque el cursor en cualquier lugar del lienzo del informe y seleccione **Formas**.
    
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
-2. En la lista desplegable, seleccione una forma para agregarla al lienzo del informe. Vamos a agregar una flecha para dirigir la atención a la burbuja con la varianza total de ventas más alta. 
+   ![Seleccione las formas](media/power-bi-reports-add-text-and-shapes/power-bi-shapes.png)
+2. En la lista desplegable, seleccione una forma para agregarla al lienzo del informe. En este ejemplo, agregar una flecha para dirigir la atención a la burbuja con la varianza de ventas total más alta. 
    
    En el panel **Formato de forma**, personalice la forma. En este ejemplo, hemos creado una flecha roja con un borde rojo oscuro, girada 90 grados.
    
-   ![](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
-3. Para colocar la forma, seleccione el área gris en la parte superior y arrastre. Y, para cambiar el tamaño de la forma, seleccione y arrastre cualquiera de los controladores del contorno. Al igual que con el cuadro de texto, también puede crear una posición y un tamaño exactos para una forma.
+   ![Personalizar la forma](media/power-bi-reports-add-text-and-shapes/power-bi-arrrow.png)
+3. Para colocar la forma, seleccione el área gris en la parte superior y arrastre. Para cambiar el tamaño de la forma, seleccione y arrastre cualquiera de los controladores del contorno. Al igual que con el cuadro de texto, también puede crear una posición y un tamaño exactos para una forma.
 
-> **NOTA**: Las formas no se pueden anclar al panel, excepto como uno de los objetos visuales cuando se [ancla una página activa](service-dashboard-pin-live-tile-from-report.md). 
-> 
-> 
+   > [!NOTE]
+   > Las formas no se pueden anclar al panel, excepto como uno de los objetos visuales cuando se [ancla una página activa](service-dashboard-pin-live-tile-from-report.md). 
+   > 
+   > 
 
-### <a name="next-steps"></a>Pasos siguientes
+## <a name="next-steps"></a>Pasos siguientes
 [Agregar un hipervínculo a un cuadro de texto](service-add-hyperlink-to-text-box.md)
 
-[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
+[Conceptos básicos de los consumidores del servicio Power BI](consumer/end-user-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)

@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 9029d5b6268cacf17fc862a4c0a3d19f440f7de1
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007945"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61164089"
 ---
 # <a name="connect-to-lithium-with-power-bi"></a>Conexión a Lithium con Power BI
 Lithium entabla relaciones de confianza entre las mejores marcas del mundo y sus clientes, para ayudar a las personas a obtener respuestas y a compartir sus experiencias. Al conectar el paquete de contenido de Lithium a Power BI, puede medir las métricas clave sobre la comunidad en línea para contribuir a aumentar las ventas, reducir los costes de servicio y mejorar la lealtad. 
@@ -35,7 +35,7 @@ Conéctese al [paquete de contenido de Lithium](https://app.powerbi.com/getdata/
 3. Seleccione **Lithium** \> **Obtener**.
    
    ![](media/service-connect-to-lithium/lithiumconnect.png)
-4. Proporcione la dirección URL de la comunidad de Lithium. Tendrá el formato *https://community.yoursite.com*.
+4. Proporcione la dirección URL de la comunidad de Lithium. Tendrá el formato *https://community.yoursite.com* .
    
    ![](media/service-connect-to-lithium/params.png)
 5. Cuando se le solicite, escriba sus credenciales de Lithium. Seleccione **oAuth 2** como el mecanismo de autenticación, haga clic en **Iniciar sesión** y siga el flujo de autenticación de Lithium.
