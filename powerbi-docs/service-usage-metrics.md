@@ -12,11 +12,11 @@ ms.topic: conceptual
 ms.date: 12/19/2018
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 55415126ae4c87381f788729f6f4b23807ac6572
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174945"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61401152"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
 
@@ -159,7 +159,7 @@ Al deshabilitar las métricas de uso para toda la organización, los administrad
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de uso en nubes nacionales
 
-Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, y todo ello se combina con un modelo único para las regulaciones locales relativas a la prestación de servicios y al acceso, control y residencia de datos. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
+Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia como la versión global de Power BI, combinado con un modelo único para las regulaciones locales relativas prestación de servicios, residencia de datos, acceso y control. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

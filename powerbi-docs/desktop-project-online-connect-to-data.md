@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a1f55d09de68d5ac29b81c72f3b1dc6cf98c1597
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: b0dc84d7b2d8da0df8a9e61a43f35898d197c188
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289955"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513741"
 ---
 # <a name="project-online-connect-to-data-through-power-bi-desktop"></a>Project Online: conexión a los datos a través de Power BI Desktop
 Puede conectarse a los datos en Project Online a través de Power BI Desktop.
@@ -30,16 +30,16 @@ Puede conectarse a los datos en Project Online a través de Power BI Desktop.
 3. Elija **Fuente de OData** y seleccione **Conectar**.
 4. Escriba la dirección de su fuente de OData en el cuadro de la dirección URL y, a continuación, haga clic en Aceptar.
    
-   Si la dirección del sitio de Project Web App se parece a https://\<nombreinquilino\>.sharepoint.com/sites/pwa, la dirección que especifique para la fuente de OData será https://\<nombreinquilino\>.sharepoint.com/sites/pwa/\_api/Projectdata.
+   Si la dirección de su sitio de Project Web App se parece a *https://\<tenantname\>.sharepoint.com/sites/pwa*, entonces la dirección que especifique para la fuente de OData es *https://\<tenantname\>.sharepoint.com/sites/pwa/\_api/Projectdata*.
    
    En nuestro ejemplo, estamos usando https://contoso.sharepoint.com/sites/pwa/default.aspx
 5. Power BI Desktop le solicitará que realice la autenticación con su cuenta de Office 365. Seleccione la cuenta de la organización y, a continuación, escriba sus credenciales.
    
    ![](media/desktop-project-online-connect-to-data/image.png)
 
-Tenga en cuenta que la cuenta usada para conectarse a la fuente de OData debe tener como mínimo acceso de Visor de carteras al sitio de Project Web App. 
+La cuenta que use para conectarse a la fuente debe tener al menos de OData de tener acceso un visor de carteras al sitio de Project Web App. 
 
-Desde aquí, puede elegir a qué tablas le gustaría conectarse y crear una consulta.  ¿Desea una idea de cómo comenzar?  La siguiente entrada de blog muestra cómo crear un gráfico de evolución a partir de los datos de Project Online.  La entrada de blog se refiere al uso de Power Query para conectarse a Project Online, pero esto se aplica también a Power BI Desktop.
+Desde aquí, puede elegir a qué tablas le gustaría conectarse y crear una consulta.  ¿Desea una idea de cómo comenzar?  Entrada de blog siguiente muestra cómo crear una grabación de gráfico de los datos de Project Online.  La entrada de blog se refiere al uso de Power Query para conectarse a Project Online, pero esto se aplica también a Power BI Desktop.
 
-[Creación de gráficos de evolución para Project con PowerPivot y Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
+[Crear grabación de gráficos para Project con PowerPivot y Power Query](http://blogs.office.com/2014/03/24/creating-burndown-charts-for-project-using-power-pivot-and-power-query/)
 

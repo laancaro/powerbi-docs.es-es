@@ -10,11 +10,11 @@ ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
 ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: d0abedcf07f964418c9e5ea8d8ee3338b0b97a50
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "57695159"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61380454"
 ---
 # <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual personalizado de Power BI
 
@@ -211,7 +211,7 @@ Introduzca los valores de propiedad para el proyecto del objeto visual personali
 
 6. Guarde el archivo **pbiviz.json**.
 
-7. En el objeto **assets**, tenga en cuenta que el documento define una ruta de acceso a un icono. El icono es la imagen que aparece en el panel **_Visualizaciones_**. Debe ser un archivo **PNG**, *20 píxeles por 20 píxeles*.
+7. En el objeto **assets**, tenga en cuenta que el documento define una ruta de acceso a un icono. El icono es la imagen que aparece en el panel **_Visualizaciones_** . Debe ser un archivo **PNG**, *20 píxeles por 20 píxeles*.
 
 8. En el Explorador de Windows, copie el archivo icon.png y péguelo para reemplazar el archivo predeterminado ubicado en la carpeta assets.
 
@@ -239,7 +239,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 1. Abra **Power BI Desktop**, cree un nuevo informe con cualquier *conjunto de datos de ejemplo*
 
-2. En el panel **_Visualizaciones_**, seleccione los **puntos suspensivos** y, después, seleccione **Importar** desde archivo.
+2. En el panel **_Visualizaciones_** , seleccione los **puntos suspensivos** y, después, seleccione **Importar** desde archivo.
 
     ![Adición de viz personalizado a la aplicación de escritorio](media/custom-visual-develop-tutorial-format-options/add-custom-viz-to-desktop.png)
 
@@ -251,7 +251,7 @@ Ahora puede abrir el informe de Power BI Desktop e importar el objeto visual per
 
 6. Cuando se importó correctamente el objeto visual, seleccione **Aceptar**.
 
-7. Compruebe que el objeto visual se ha agregado al panel **_Visualizaciones_**.
+7. Compruebe que el objeto visual se ha agregado al panel **_Visualizaciones_** .
 
     ![Visualización del panel viz en PBI Desktop](media/custom-visual-develop-tutorial-format-options/view-in-desktop-viz-pane.png)
 

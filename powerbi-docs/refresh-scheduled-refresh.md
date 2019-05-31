@@ -1,21 +1,21 @@
 ---
 title: Configuración de actualización programada
 description: Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada.
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7eb09f92be6c49756513b095afbdb9f451753d30
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9df65c4f6872f2141d0047bb8779f490cec9d6c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289427"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61413890"
 ---
 # <a name="configuring-scheduled-refresh"></a>Configuración de la actualización programada
 
@@ -69,7 +69,7 @@ Si usa la puerta de enlace de datos local para actualizar los datos, no es preci
 ![](media/refresh-scheduled-refresh/data-source-credentials-egw.png)
 
 > [!NOTE]
-> Al conectarse a SharePoint local para la actualización de datos, Power BI solo admite los mecanismos de autenticación *Anonymous*, *Basic* y *Windows (NTLM o Kerberos)*. Power BI no admite *ADFS* ni ningún mecanismo de *autenticación basada en formularios* para la actualización de datos de los orígenes de datos de SharePoint local.
+> Al conectarse a SharePoint local para la actualización de datos, Power BI solo admite los mecanismos de autenticación *Anonymous*, *Basic* y *Windows (NTLM o Kerberos)* . Power BI no admite *ADFS* ni ningún mecanismo de *autenticación basada en formularios* para la actualización de datos de los orígenes de datos de SharePoint local.
 > 
 > 
 

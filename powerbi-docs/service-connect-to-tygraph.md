@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bafab0768df53390d0d36730b66d1221d9012c14
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54007876"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61169265"
 ---
 # <a name="connect-to-tygraph--with-power-bi"></a>Conexión a tyGraph con Power BI
 Vea y explore los datos de tyGraph en Power BI con el paquete de contenido de Power BI. Empiece por conectar a su cuenta de tyGraph y cargar el panel, los informes y el conjunto de datos. El contenido original incluye información como, por ejemplo, la medida de contratación activa (puntuación MAE) y los principales colaboradores. Personalice el contenido para resaltar la información que más le interese.  Los datos se actualizarán automáticamente según la programación que establezca.

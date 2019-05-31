@@ -1,20 +1,20 @@
 ---
 title: Configuración de la actualización programada de informes de Power BI
 description: Para actualizar los datos en el informe de Power BI, debe crear un plan de actualización programada.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 4ca6d7c5ed47433614dc194db7d09162d5e96eae
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f502ae89eb4c413dd900077272dbed5a4a9c4c6f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285723"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61219784"
 ---
 # <a name="how-to-configure-power-bi-report-scheduled-refresh"></a>Configuración de la actualización programada de informes de Power BI
 Para actualizar los datos en el informe de Power BI, debe crear un plan de actualización programada. Esto se realiza en el área *Administrar* de un informe de Power BI.

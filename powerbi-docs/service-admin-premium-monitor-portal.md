@@ -1,51 +1,123 @@
 ---
 title: Supervisión de las capacidades de Power BI Premium mediante el portal de administración
 description: Use el portal de administración de Power BI para supervisar las capacidades Premium.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 04/10/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 59097c07719e4bb8db188e8a86db377076aea7a9
-ms.sourcegitcommit: 54d44deb6e03e518ad6378656c769b06f2a0b6dc
-ms.translationtype: HT
+ms.openlocfilehash: 36b03a67e7c02702a70b6486880cc8eabf93e823
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "55794121"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564888"
 ---
 # <a name="monitor-capacities-in-the-admin-portal"></a>Supervisión de capacidades en el portal de administración
 
-En este artículo se describe cómo puede usar el área de configuración Capacidad del portal de administración para obtener una vista rápida del rendimiento de la capacidad.  Para obtener las métricas más detalladas sobre la capacidad, se recomienda usar la aplicación [Power BI Premium Capacity Metrics](service-admin-premium-monitor-capacity.md).
+El **mantenimiento** pestaña en el **la configuración de capacidad** área en el portal de administración proporciona un resumen acerca de las cargas de trabajo habilitados y la capacidad de métricas.  
 
-## <a name="capacity-metrics"></a>Métricas de capacidad
+![Ficha de estado de capacidad en el portal](media/service-admin-premium-monitor-portal/admin-portal-health.png)
 
-El área **Configuración de la capacidad** del Portal de administración proporciona cuatro medidores que indican las cargas colocadas y los recursos usados por la capacidad durante los últimos siete días. Estos cuatro iconos funcionan en una ventana de tiempo por horas que indica el número de horas en los últimos siete días que la métrica correspondiente estuvo por encima del 80 %. Esta métrica indica una posible degradación de la experiencia del usuario final.
+Si tiene métricas más completas, use la [métricas de capacidad de Power BI Premium](service-admin-premium-monitor-capacity.md) app. La aplicación proporciona exploración en profundidad y filtrado, y las métricas más detalladas de casi todos los aspectos que afectan al rendimiento de capacidad. Para obtener más información, consulte [las capacidades de supervisión Premium con la aplicación](service-admin-premium-monitor-capacity.md).
 
-![Uso en 7 días](media/service-admin-premium-monitor-capacity/usage-in-days.png)
+## <a name="system-metrics"></a>Métricas del sistema
+
+En el **mantenimiento** pestaña, en el nivel más alto, uso de CPU y uso de memoria proporcionan una vista rápida de las métricas más importantes de la capacidad. Estas métricas son acumulativas, incluidos todos habilitados de cargas de trabajo para la capacidad.
 
 | **Métrica** | **Descripción** |
 | --- | --- |
-| CPU |Número de veces que la CPU ha superado el 80 % del uso. |
-| Hiperpaginación de memoria |Representa la presión de memoria en los núcleos de back-end. Concretamente, se trata de una métrica que indica cuántas veces se han desalojado los modelos de la memoria debido a la presión que resulta del uso de varios conjuntos de datos. |
-| Uso de memoria |Uso medio de memoria representado en gigabytes (GB). |
-| DQ/s | Número de veces que el recuento de consultas de DirectQuery y conexiones dinámicas supera el 80 % del límite. <br>  El número total de consultas de DirectQuery y de conexión dinámica por segundo es limitado. Los límites son 30/s para P1, 60/s para P2 y 120/s para P3.  Las consultas de DirectQuery y las de conexión dinámica son acumulativas en las limitaciones anteriores. Por ejemplo, si tiene 15 consultas DirectQuery y 15 conexiones dinámicas en un segundo, habrá alcanzado el límite.<br> Esto se aplica igualmente a las conexiones en la nube y a las locales. |
-|  |  |
+| USO DE CPU | Uso promedio de CPU, como un porcentaje del total de CPU disponible. |
+| USO DE MEMORIA | Promedio de uso de memoria en gigabytes (GB).|
 
-Las métricas reflejan el uso durante la semana pasada.  Si quisiera obtener una vista más detallada de las métricas, no hay problema: solo tiene que hacer clic en cualquiera de los iconos de resumen.  Esto le llevará a gráficos detallados relativos a cada métrica de la capacidad Premium. El siguiente gráfico muestra los detalles de la métrica de CPU.
+## <a name="workload-metrics"></a>Métricas de carga de trabajo
 
-![Gráfico de uso detallado: CPU](media/service-admin-premium-monitor-capacity/premium-usage-detailed-chart-cpu.png)
+Para cada carga de trabajo habilitada para la capacidad. Se muestran el uso de CPU y uso de memoria.
 
-Estos gráficos se resumen hora a hora durante la última semana, y sirven para aislar eventos concretos relacionados con el rendimiento que han tenido lugar en la capacidad Premium.
+| **Métrica** | **Descripción** |
+| --- | --- |
+| USO DE CPU | Uso promedio de CPU, como un porcentaje del total de CPU disponible. |
+| USO DE MEMORIA | Promedio de uso de memoria en gigabytes (GB).|
 
-Los datos subyacentes de cualquiera de las métricas se pueden exportar también a un archivo csv.  Esta exportación le proporcionará información detallada en intervalos de tres minutos de cada día de la semana pasada.
+### <a name="detailed-workload-metrics"></a>Métricas de carga de trabajo detallado
+
+Cada carga de trabajo tiene métricas adicionales. El tipo de métricas que se muestran dependen de la carga de trabajo. Para ver métricas detalladas de las cargas de trabajo, haga clic en la expansión (flecha hacia abajo).
+
+![Expanda el estado de carga de trabajo](media/service-admin-premium-monitor-portal/admin-portal-health-expand.png)
+
+#### <a name="dataflows"></a>Flujos de datos
+
+##### <a name="dataflow-operations"></a>Operaciones de flujo de datos
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Recuento total | número total de actualizaciones de cada flujo de datos. |
+| Recuento de casos completados correctamente | Actualizaciones correctas totales para cada flujo de datos.|
+| Duración promedio (min) | duración media de la actualización del flujo de datos, en minutos. |
+| Duración máxima (min) | duración de la actualización de ejecución más larga del flujo de datos, en minutos. |
+| Tiempo promedio de espera (min) | retraso medio entre la hora programada y el inicio de una actualización del flujo de datos, en minutos. |
+| Tiempo de espera máximo (minutos) | tiempo de espera máximo del flujo de datos, en minutos.  |
+
+#### <a name="datasets"></a>Conjuntos de datos
+
+##### <a name="refresh"></a>Actualizar
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Recuento total | actualizaciones totales de cada conjunto de datos. |
+| Recuento de casos completados correctamente | Actualizaciones correctas totales para cada conjunto de datos. |
+| Recuento de errores | Total de actualizaciones con error para cada conjunto de datos. |
+| Tasa de éxito  | Número de actualizaciones correcta dividido entre las actualizaciones total para medir. Confiabilidad. |
+| Duración promedio (min) | duración media de la actualización del conjunto de datos, en minutos.  |
+| Duración máxima (min) | duración de la actualización de ejecución más larga del conjunto de datos, en minutos. |
+| Tiempo promedio de espera (min) | el retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos. |
+| Tiempo de espera máximo (minutos) | tiempo de espera máximo del conjunto de datos, en minutos. |
+
+##### <a name="query"></a>Consulta
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Recuento total | número total de consultas ejecutadas para el conjunto de datos. |
+| Duración promedio (ms) |duración media de consulta del conjunto de datos, en milisegundos.|
+| Duración máxima (ms) |duración de la consulta de ejecución más larga del conjunto de datos, en milisegundos. |
+| Tiempo promedio de espera (ms) |tiempo de espera de consulta promedio del conjunto de datos, en milisegundos. |
+| Tiempo de espera máximo (ms) |duración de la consulta con un tiempo de espera más largo en el conjunto de datos, en milisegundos. |
+
+##### <a name="eviction"></a>Expulsión
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Número de modelo | El número total de expulsiones de conjunto de datos para esta capacidad. Cuando una funcionalidad sufre la presión de la memoria, el nodo expulsa uno o varios conjuntos de datos de la memoria. Los conjuntos de datos que están inactivos (sin ninguna operación de consulta o actualización ejecutándose actualmente) se expulsan primero. A continuación, el orden de expulsión se basa en una medida de tipo LRU (el menos usado recientemente). |
+
+#### <a name="paginated-reports"></a>Informes paginados
+
+##### <a name="report-execution"></a>Ejecución de informes
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Recuento de ejecuciones  | El número de veces que se ejecutó el informe y ver los usuarios.|
+
+##### <a name="report-usage"></a>Uso de informes
+
+| **Métrica** | **Descripción** |
+| --- | --- |
+| Recuento de casos completados correctamente | El número de veces que se visualiza el informe por un usuario. |
+| Recuento de errores |El número de veces que se visualiza el informe por un usuario.|
+| Recuento de filas |número de filas de datos que hay en el informe. |
+| Duración de recuperación de datos (ms) |cantidad media de tiempo que se tarda en recuperar los datos del informe, en milisegundos. Las duraciones largas pueden indicar consultas lentas u otros problemas del origen de datos.  |
+| Duración del procesamiento (ms) |cantidad media de tiempo que se tarda en procesar los datos de un informe, en milisegundos. |
+| Duración de representación (ms) |cantidad media de tiempo que se tarda en representar un informe en el explorador, en milisegundos. |
+
+> [!NOTE]
+> Métricas detalladas para la **AI** carga de trabajo no están disponibles.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Ahora que sabe cómo supervisar las capacidades de Power BI Premium, aprenda más sobre las capacidades de optimización.
 
 > [!div class="nextstepaction"]
-> [Optimización y administración de recursos con capacidad Power BI Premium](service-premium-understand-how-it-works.md)
+> [Optimizar las capacidades de Power BI Premium](service-premium-capacity-optimize.md)

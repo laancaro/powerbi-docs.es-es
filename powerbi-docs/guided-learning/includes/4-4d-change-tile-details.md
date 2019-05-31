@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8fc17759ea38cc96c69e7639ed25172e782a9d4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264049"
+---
 Tras crear un panel, puede editar sus **iconos* en el servicio Power BI para realizar unos cuantos cambios de formato.
 
 Para realizar cambios en un icono, mantenga el puntero sobre él y seleccione el menú de los puntos suspensivos para mostrar la colección de iconos que le permiten realizar cambios.

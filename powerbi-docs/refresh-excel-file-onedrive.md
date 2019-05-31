@@ -1,21 +1,21 @@
 ---
 title: 'Actualización de un conjunto de datos creado a partir de un libro de Excel: nube'
 description: Actualización de un conjunto de datos creado a partir de un libro de Excel en OneDrive o SharePoint Online
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 57aa5afe32b8f65805ef4be71ded176f34aefd6e
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 2636eb92d3c86268acc19c05a6c791b62a58d43b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296027"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61414549"
 ---
 # <a name="refresh-a-dataset-created-from-an-excel-workbook-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos creado a partir de un libro de Excel en OneDrive o SharePoint Online
 Puede importar libros de Excel almacenados en el equipo local o en el almacenamiento en nube, como OneDrive para la Empresa o SharePoint Online. Aquí veremos las ventajas de usar el almacenamiento en nube para los archivos de Excel. Para obtener más información sobre cómo importar archivos de Excel en Power BI, vea [Obtención de datos de archivos de libro de Excel](service-excel-workbook-files.md).

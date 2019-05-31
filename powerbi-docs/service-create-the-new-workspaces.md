@@ -1,35 +1,36 @@
 ---
-title: Crear nuevas áreas de trabajo (versión preliminar) - Power BI
-description: Aprenda a crear las nuevas áreas de trabajo, colecciones de paneles e informes creados para proporcionar métricas clave a su organización.
+title: Crear nuevas áreas de trabajo - Power BI
+description: Obtenga información sobre cómo crear nuevas áreas de trabajo, colecciones de paneles, informes e informes paginados creados para proporcionar métricas claves para su organización.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/11/2019
+ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eba4e740f6fd08ffd60b95dfc437551dfb95e7b8
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d0c0781ea5d3864f1cf3627cd42d53cca632102d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54293719"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61142068"
 ---
-# <a name="create-the-new-workspaces-preview-in-power-bi"></a>Crear nuevas áreas de trabajo (versión preliminar) en Power BI
+# <a name="create-the-new-workspaces-in-power-bi"></a>Crear las nuevas áreas de trabajo en Power BI
 
-Power BI presentará una nueva experiencia de áreas de trabajo como versión preliminar. Las áreas de trabajo siguen siendo lugares donde colaborar con compañeros para crear colecciones de paneles e informes, que se pueden agrupar en *aplicaciones* y distribuir a toda la organización o a grupos o usuarios específicos. 
+Power BI presenta una nueva experiencia de área de trabajo. Las áreas de trabajo siguen siendo el lugar para colaborar con compañeros para crear colecciones de paneles, informes e informes paginados. A continuación, puede agrupar esa colección en un *aplicación* y distribuirlo a toda la organización o a grupos o usuarios específicos. 
 
-![Vista preliminar de las nuevas áreas de trabajo de Power BI](media/service-create-the-new-workspaces/power-bi-new-workspaces-preview.png)
-
-Ahora, con la versión preliminar de las nuevas áreas de trabajo puede hacer lo siguiente:
+Aquí es lo que es diferente. En las áreas de trabajo nueva, puede:
 
 - Asignar roles de área de trabajo a grupos de usuarios: grupos de seguridad, listas de distribución, grupos de Office 365 y usuarios.
 - Crear un área de trabajo en Power BI sin crear un grupo de Office 365.
 - Usar roles de las áreas de trabajo más granulares para flexibilizar la administración de permisos en un área de trabajo.
 
-Para más información, vea el artículo sobre las [nuevas áreas de trabajo (versión preliminar)](service-new-workspaces.md).
+> [!NOTE]
+> Para aplicar la seguridad de nivel de fila (RLS) para examinar el contenido de un área de trabajo de usuarios de Power BI Pro, seguir usando [las áreas de trabajo clásicos](service-create-workspaces.md). Seleccione el **miembros solo pueden ver contenido de Power BI** opción. También puede publicar una aplicación de Power BI a los usuarios o uso compartido para distribuir contenido. El rol de visor próximamente permitirá este escenario en el futuro en nuevas áreas de trabajo de experiencia de área de trabajo.
+
+Para obtener más información, consulte el [nuevas áreas de trabajo](service-new-workspaces.md) artículo.
 
 ## <a name="create-one-of-the-new-app-workspaces"></a>Creación de una de las nuevas áreas de trabajo de la aplicación
 
@@ -37,29 +38,111 @@ Para más información, vea el artículo sobre las [nuevas áreas de trabajo (ve
    
      ![Crear área de trabajo de la aplicación](media/service-create-the-new-workspaces/power-bi-create-app-workspace.png)
 
-2. En **Vista previa de las áreas de trabajo mejoradas**, seleccione **Probar ahora**.
+2. Crea un área de trabajo actualizada, automáticamente, a menos que decida **revertir a clásico**.
    
-     ![Vista previa de las áreas de trabajo mejoradas](media/service-create-the-new-workspaces/power-bi-preview-improved-workspaces.png)
+     ![Nueva experiencia de área de trabajo](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
+     
+     Si selecciona **revertir a clásico**, cree un área de trabajo basado en un grupo de Office 365. Use esta opción si necesita la **miembros solo pueden ver contenido de Power BI** opción para exigir la seguridad de nivel de fila (RLS) para los miembros del área de trabajo.
 
-2. Asigne un nombre al área de trabajo. Si el nombre no está disponible, puede editarlo para tener un identificador único.
+2. Asigne un nombre al área de trabajo. Si el nombre no está disponible, editarlo para proponer un nombre único.
    
-     La aplicación tendrá el mismo nombre que el área de trabajo.
+     La aplicación para el área de trabajo tendrá el mismo nombre y el icono como el área de trabajo.
    
-1. Si quiere, agregue una imagen. El tamaño del archivo debe ser inferior a 45 KB.
- 
-    ![Proporcione un nombre al área de trabajo y agregue una imagen.](media/service-create-the-new-workspaces/power-bi-name-workspace.png)
+1. Estos son algunos elementos opcionales que puede establecer para el área de trabajo:
+
+    Cargar un **imagen del área de trabajo**. Los archivos pueden tener formato .png o .jpg. Tamaño del archivo debe ser inferior a 45 KB.
+    
+    [Agregar un **lista de contactos**](#workspace-contact-list). De forma predeterminada, los administradores del área de trabajo son los contactos. 
+    
+    [Especifique un **OneDrive del área de trabajo** ](#workspace-onedrive) escribiendo simplemente el nombre de un grupo existente de 365 de Office, no la dirección URL. Ahora esta área de trabajo puede usar la ubicación de almacenamiento de archivos de ese grupo de Office 365. 
+
+    ![Especifique una ubicación de OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
+
+    Para asignar el área de trabajo a un **capacidad dedicada**, en el **Premium** ficha, seleccione **capacidad dedicada**.
+     
+    ![Capacidad dedicada](media/service-create-the-new-workspaces/power-bi-workspace-premium.png)
 
 1. Seleccione **Guardar**.
 
-    Aquí, en la pantalla de **bienvenida** del área de trabajo nueva, puede agregar datos. 
+    Power BI crea el área de trabajo y la abre. Esta aparece en la lista de áreas de trabajo de las que es miembro. 
+
+## <a name="workspace-contact-list"></a>Lista de contactos de área de trabajo
+
+La nueva lista de contactos de área de trabajo permite especificar qué usuarios reciben una notificación acerca de los problemas que se producen en el área de trabajo. De forma predeterminada, cualquier usuario o grupo especificado como un área de trabajo se notifica al administrador, pero se puede personalizar la lista. Los usuarios o grupos que aparecen en la lista de contactos se mostrará en la interfaz de usuario (UI) para ayudar a los usuarios obtención ayuda relacionada con el área de trabajo.
+
+1. Obtener acceso a la nueva **lista de contactos** establecer en uno de dos maneras:
+
+    En el **crear un área de trabajo** panel cuando se crea por primera vez.
+
+    En el panel de navegación izquierdo, seleccione la flecha situada junto a **las áreas de trabajo**, seleccione los puntos suspensivos (...) junto al nombre del área de trabajo > **configuración de área de trabajo**. El **configuración** se abre el panel.
+
+    ![Configuración del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-settings.png)
+
+2. En **avanzadas** > **lista de contactos**, acepte el valor predeterminado, **administradores del área de trabajo**, o agregar su propia lista de **determinados usuarios o grupos**. 
+3. Seleccione **Guardar**.
+
+## <a name="workspace-onedrive"></a>OneDrive del área de trabajo
+
+La característica de OneDrive del área de trabajo permite configurar un grupo de Office 365 está disponible para los usuarios del área de trabajo cuyo almacenamiento de archivo de biblioteca de documentos de SharePoint. Cree primero el grupo de Power BI. 
+
+Power BI no sincronizará los permisos de usuarios o grupos que están configurados para tener acceso de área de trabajo con la pertenencia al grupo de Office 365. El procedimiento recomendado es proporcionar el mismo grupo de Office 365, configura en este grupo de configuración de Office 365, cuyo almacenamiento de archivos [acceso al área de trabajo](#give-access-to-your-workspace). Administrar el acceso de área de trabajo mediante la administración de pertenencia del grupo de Office 365. 
+
+1. Obtener acceso a la nueva **OneDrive del área de trabajo** establecer en uno de dos maneras:
+
+    En el **crear un área de trabajo** panel cuando se crea por primera vez.
+
+    En el panel de navegación izquierdo, seleccione la flecha situada junto a **las áreas de trabajo**, seleccione los puntos suspensivos (...) junto al nombre del área de trabajo > **configuración de área de trabajo**. El **configuración** se abre el panel.
+
+    ![Configuración del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-settings.png)
+
+2. En **avanzadas** > **OneDrive del área de trabajo**, escriba el nombre del grupo de Office 365 que creó anteriormente. Power BI recogerá de forma automática para el grupo de OneDrive.
+
+    ![Especifique una ubicación de OneDrive](media/service-create-the-new-workspaces/power-bi-new-workspace-onedrive.png)
+
+3. Seleccione **Guardar**.
+
+### <a name="access-the-workspace-onedrive-location"></a>Obtener acceso a la ubicación de OneDrive del área de trabajo
+
+Después de configurar la ubicación de OneDrive, puede obtener desde diferentes lugares en el área de trabajo:
+
+- Seleccione **las áreas de trabajo** > *nombre de área de trabajo* > los puntos suspensivos ( **...** ) menú > **archivos**. 
+
+    ![Ubicación de los archivos del área de trabajo](media/service-new-workspaces/power-bi-new-workspace-files.png)
+
+- Seleccione los puntos suspensivos ( **...** ) menú en la esquina superior derecha del área de trabajo > **archivos**.
+
+    ![Ubicación de los archivos del área de trabajo](media/service-new-workspaces/power-bi-new-workspace-files-2.png)
+    
+- En el **obtener datos** > **archivos** experimentar. El **OneDrive – Business** entrada es OneDrive para la empresa. La segunda instancia de OneDrive es lo que se ha agregado.
+
+    ![Ubicación de los archivos del área de trabajo: obtención de datos](media/service-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
+
+## <a name="add-content-to-your-app-workspace"></a>Agregar contenido al área de trabajo de la aplicación
+
+Después de crear una nueva área de trabajo de experiencia de área de trabajo, es momento de agregar contenido a ella. Agregar contenido es similar en las áreas de trabajo nuevas y clásicas. Utilice el botón Crear o usar obtener datos para agregar contenido al área de trabajo.
+
+1. En el **bienvenida** pantalla del área de trabajo nueva, puede agregar contenido. 
 
     ![Pantalla de bienvenida del área de trabajo nueva](media/service-create-the-new-workspaces/power-bi-workspace-welcome-screen.png)
 
 1. Por ejemplo, seleccione **Ejemplos** > **Ejemplo de rentabilidad del cliente**.
 
-    Ahora, en la lista de contenido del área de trabajo, verá **Versión preliminar de las nuevas áreas de trabajo**. Dado que es un administrador, también verá una nueva acción, **Acceso**.
+> [!NOTE]
+> En las áreas de trabajo nuevo, no puede consumir paquetes de contenido organizativos o paquetes de contenido de terceros. Las aplicaciones están disponibles para todo el contenido de terceros de módulos usó anteriormente. Usar áreas de trabajo clásicos si tiene que seguir usando los paquetes de contenido. Paquetes de contenido están en desuso, por lo que es una práctica recomendada para usar aplicaciones en su lugar.
 
-    ![Lista de contenido de la versión preliminar de las áreas de trabajo](media/service-create-the-new-workspaces/power-bi-workspaces-preview-content-list.png)
+Al ver el contenido en una lista de contenido de un área de trabajo de la aplicación, el nombre del área de trabajo de la aplicación se muestra como el propietario.
+
+### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Conectarse a los servicios de terceros en nuevas áreas de trabajo
+
+En la nueva experiencia de áreas de trabajo, estamos llevando a cabo un cambio para que esté centrada en las *aplicaciones*. Las aplicaciones para servicios de terceros facilitan a los usuarios la obtención de datos de los servicios que usan, como Microsoft Dynamics CRM, Salesforce o Google Analytics.
+
+En la nueva experiencia de área de trabajo, no puede crear o consumir paquetes de contenido organizativos. En su lugar, puede usar las aplicaciones proporcionadas para conectarse a servicios de terceros, o pida a los equipos internos que proporcionen aplicaciones para cualquier paquete de contenido que usen actualmente. 
+
+## <a name="give-access-to-your-workspace"></a>Conceder acceso al área de trabajo
+
+1. En la lista de contenido del área de trabajo, porque es un administrador puede ver una nueva acción, **acceso**.
+
+    ![Lista de contenido de las áreas de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-content-list.png)
 
 1. Seleccione **Acceso**.
 
@@ -69,35 +152,15 @@ Para más información, vea el artículo sobre las [nuevas áreas de trabajo (ve
 
 9. Seleccione **Agregar** > **Cerrar**.
 
-1. Power BI crea el área de trabajo y la abre. Esta aparece en la lista de áreas de trabajo de las que es miembro. Dado que es un administrador, puede seleccionar los puntos suspensivos (...) para volver atrás y realizar cambios en la configuración del área de trabajo, agregar nuevos miembros o cambiar sus permisos.
-
-     ![Editar la configuración y el acceso para un área de trabajo](media/service-create-the-new-workspaces/power-bi-edit-workspace.png)
-
-## <a name="add-content-to-your-app-workspace"></a>Agregar contenido al área de trabajo de la aplicación
-
-Después de crear un área de trabajo de la aplicación con el estilo nuevo, es el momento de agregarle contenido. Agregar contenido es similar en las áreas de trabajo de estilo nuevo y antiguo, con una excepción. Mientras está en cualquier área de trabajo de la aplicación, puede cargar archivos o conectarse a archivos, como haría en Mi área de trabajo. En las áreas de trabajo nuevas, no se puede conectar a paquetes de contenido de la organización ni a paquetes de contenido de terceros, como Microsoft Dynamics CRM, Salesforce o Google Analytics. En las áreas de trabajo actuales, puede conectarse a paquetes de contenido.
-
-Al ver el contenido en una lista de contenido de un área de trabajo de la aplicación, el nombre del área de trabajo de la aplicación se muestra como el propietario.
-
-### <a name="connecting-to-third-party-services-in-new-workspaces-preview"></a>Conectarse a servicios de terceros en nuevas áreas de trabajo (versión preliminar)
-
-En la nueva experiencia de áreas de trabajo, estamos llevando a cabo un cambio para que esté centrada en las *aplicaciones*. Las aplicaciones para servicios de terceros facilitan a los usuarios la obtención de datos de los servicios que usan, como Microsoft Dynamics CRM, Salesforce o Google Analytics.
-Las aplicaciones de la organización ofrecen a los usuarios los datos internos que necesitan. Tenemos previsto agregar capacidades a las aplicaciones de la organización para que los usuarios puedan personalizar el contenido que encuentran dentro de las aplicaciones. Gracias a esta capacidad, se acabará con la necesidad de disponer de paquetes de contenido. 
-
-Con la versión preliminar de las nuevas áreas de trabajo, no se pueden crear ni usar paquetes de contenido de la organización. En su lugar, puede usar las aplicaciones proporcionadas para conectarse a servicios de terceros, o pida a los equipos internos que proporcionen aplicaciones para cualquier paquete de contenido que usen actualmente. 
 
 ## <a name="distribute-an-app"></a>Distribución de una aplicación
 
-Si el contenido está listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Puede crear una aplicación desde cada área de trabajo. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo. De lo contrario, pueden buscar e instalar la aplicación desde Microsoft AppSource, o bien puede enviarles un vínculo directo. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Vea [Publicar aplicaciones con los paneles e informes de Power BI](service-create-distribute-apps.md) para obtener más detalles.
+Si desea distribuir contenido oficial para una gran audiencia dentro de su organización, puede publicar una aplicación desde el área de trabajo.  Cuando el contenido está listo, elija qué paneles e informes que desea publicar y, a continuación, publicarlo como un *aplicación*. Puede crear una aplicación desde cada área de trabajo.
 
-## <a name="convert-old-app-workspaces-to-new-app-workspaces"></a>Convertir las áreas de trabajo de la aplicación antiguas en nuevas áreas de trabajo de la aplicación
-
-Durante el período de versión preliminar, no se puede convertir automáticamente las áreas de trabajo de aplicación antiguas en nuevas. Pero puede crear un área de trabajo de la aplicación nueva y publicar contenido en la nueva ubicación. 
-
-Cuando las nuevas áreas de trabajo estén disponibles con carácter general, puede decidir migrar automáticamente las antiguas. Tendrá que migrarlas en algún momento después de que estén disponibles con carácter general.
+Obtenga información sobre [publicar una aplicación de las nuevas áreas de trabajo](service-create-distribute-apps.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* Obtenga más información sobre cómo [organizar el trabajo en las nuevas áreas de trabajo (versión preliminar) en Power BI](service-new-workspaces.md)
-* [Crear las áreas de trabajo actuales](service-create-workspaces.md)
-* [Instalar y usar aplicaciones en Power BI](service-create-distribute-apps.md)
+* Obtenga información sobre [organizar el trabajo en la nueva experiencia de áreas de trabajo en Power BI](service-new-workspaces.md)
+* [Crear áreas de trabajo clásicos](service-create-workspaces.md)
+* [Publicar una aplicación de las nuevas áreas de trabajo en Power BI](service-create-distribute-apps.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

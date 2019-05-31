@@ -12,11 +12,11 @@ ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 4a30d01040daffa394ff884c38dda3dd66fa5809
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285815"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61140224"
 ---
 # <a name="pin-an-entire-report-page-as-a-live-tile-to-a-power-bi-dashboard"></a>Anclar una página de informe completa, como un icono dinámico, a un panel de Power BI
 Otra manera de agregar un nuevo [icono de panel](consumer/end-user-tiles.md) es anclar una página de informe completa. Se trata de una manera fácil de anclar más de una visualización a la vez.  Además, al anclar una página completa, los iconos son *dinámicos* y puede interactuar con ellos desde el panel. Los cambios realizados en cualquiera de las visualizaciones del editor de informes, como agregar un filtro o cambiar los campos utilizados en el gráfico, se reflejan también en el icono del panel.  

@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 378265939126fd7c96cb9334dac587fc80291e97
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57580114"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61051616"
 ---
 # <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceptos básicos para el ***cliente*** del servicio Power BI
 
@@ -104,7 +104,7 @@ Algunas de las visualizaciones que encontrará en Power BI son: cascada, cinta d
 
    ![Ocho objetos visuales de ejemplo](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Las visualizaciones también están disponibles desde la comunidad y se denominan *objetos visuales personalizados*. Si recibe un informe con un objeto visual que no reconoce, probablemente es un objeto visual personalizado. Si necesita ayuda para interpretar el objeto visual personalizado, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->busque el nombre del *diseñador* del informe o panel y póngase en contacto con él o ella.
+Las visualizaciones también están disponibles desde la comunidad y se denominan *objetos visuales personalizados*. Si recibe un informe con un objeto visual que no reconoce, probablemente es un objeto visual personalizado. Si necesita ayuda para interpretar el objeto visual personalizado, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->buscar el nombre del informe o panel *diseñador* y póngase en contacto con él o ella.
 
 **UNA** visualización en un informe...
 

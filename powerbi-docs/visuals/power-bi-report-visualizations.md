@@ -9,20 +9,20 @@ featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/21/2018
+ms.date: 05/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 83ef4aa17de5edb18bc6b9cff1b50c29596704f7
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d470a262bd8a5e6590746fb07889b1230f5cfc25
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292876"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375660"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
 Las visualizaciones (también conocidas como objetos visuales) muestran información que se ha descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales pueden ser [anclados desde los informes en los paneles](../service-dashboard-pin-tile-from-report.md).
 
-Es importante hacer distinción entre *creadores* del informe y *consumidores* del informe. La persona que crea o modifica el informe es un creador.  Los creadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un **consumidor** del informe. Podrá ver e interactuar con el informe y los objetos visuales, pero no podrá guardar los cambios.
+Es importante hacer la distinción entre informes *diseñadores* e informe *consumidores* si son la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y su conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en [la vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un **consumidor** del informe. Podrá ver e interactuar con el informe y los objetos visuales, pero no podrá guardar los cambios más importantes.
 
 Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel de VISUALIZACIONES de Power BI.
 
@@ -50,6 +50,11 @@ Intente [cambiar el tipo de visualización](power-bi-report-change-visualization
 ## <a name="pin-the-visualization"></a>Anclar la visualización
 
 En el servicio Power BI, cuando tenga la visualización que desea, puede [anclarla a un panel](../service-dashboard-pin-tile-from-report.md) como un icono. Si cambia la visualización que se usa en el informe después de anclarlo, el icono del panel no cambia: si era un gráfico de líneas, se mantiene como un gráfico de líneas, incluso si se cambia a un gráfico de anillos en el informe.
+
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+- Según el origen de datos y el número de campos (medidas o columnas), un objeto visual es posible que cargue lentamente.  Se recomienda limitar los objetos visuales para los campos de totales de 10 a 20, tanto por motivos de legibilidad y el rendimiento. 
+
+- El límite superior para los objetos visuales es 100 campos (medidas o columnas). Si no se puede cargar el objeto visual, reduzca el número de campos.   
 
 ## <a name="next-steps"></a>Pasos siguientes
 

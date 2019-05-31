@@ -1,20 +1,20 @@
 ---
 title: 'Tutorial: Exploración de Power BI Report Server en una máquina virtual'
 description: En este tutorial, va a crear una máquina virtual con Power BI Report Server ya instalado y explorará también el portal web.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
-ms.date: 05/18/2018
-ms.author: maghan
-ms.openlocfilehash: 098aa1cd2c031a200e3ce246890a467a6e15149d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.date: 05/06/2019
+ms.author: maggies
+ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325091"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65240124"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Exploración del portal web de Power BI Report Server en una máquina virtual
 En este tutorial, creara una máquina virtual de Azure con Power BI Report Server ya instalado, para que pueda experimentar con la visualización, edición y administración de KPI e informes paginados y de Power BI de ejemplo.
@@ -37,32 +37,38 @@ Para este tutorial, necesita una suscripción a Azure. Si no tiene una suscripci
 
 Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye con Power BI Report Server ya instalado.
 
-1. En Azure Marketplace, abra [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
+1. En Azure Marketplace, seleccione Power BI Report Server. Este vínculo abre directamente: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. Seleccione **Obtenerlo ahora**.
 3. Para aceptar los términos de uso y la directiva de privacidad del proveedor, seleccione **Continuar**.
 
-    ![Creación de una máquina virtual de Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-virtual-machine-create.png)
+4. Seleccione **Crear**.
 
-4. En el **Paso 1 Aspectos básicos**, en **Nombre de VM**, escriba **reportservervm**.
+    ![Creación de una máquina virtual de Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
+
+5. En **paso 1, aspectos básicos**, para **nombre de máquina virtual**, llámelo **reportservervm**.
+
+    El nombre de la máquina virtual Server de informes de Power BI no puede contener guiones.
 
 5. Cree un nombre de usuario y una contraseña.
 
-6. En **Grupo de recursos**, mantenga **Crear nuevo** y escriba **reportserverresourcegroup**.
+6. Para **grupo de recursos**, seleccione **crear nuevo**y llámelo **reportserverresourcegroup** > **Aceptar**.
 
     Si realiza los pasos de este tutorial más de una vez, necesitará proporcionar al grupo de recursos un nombre diferente. No puede usar el mismo nombre de grupo de recursos dos veces en la misma suscripción. 
 
-7. Mantenga los demás valores predeterminados > **Aceptar**.
-
     ![Asignación de nombre a la máquina virtual y al grupo de recursos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create-resource-group.png)
 
-8. En el **Paso 2 Configuración**, mantenga los valores predeterminados > **Aceptar**.
+7. Mantenga los demás valores predeterminados > **Aceptar**.
 
-9. En el **Paso 3 Resumen** > **Aceptar**.
+8. En **paso 2 configuración**, conserve los valores predeterminados > **Aceptar**.
+ 
+    El **cuenta de almacenamiento SQL** y **cuenta de almacenamiento de diagnósticos** valores también deben ser únicos. Si se desplaza por el tutorial varias veces, deberá darles nombres diferentes.
 
-10. En el **Paso 4**, revise los términos de uso y la directiva de privacidad > **Crear**.
+9. En **resumen del paso 3**, revise las selecciones > **Aceptar**.
 
-    El proceso de **envío de la implementación para Power BI Report Server** tarda varios minutos.
+10. En **paso 4 comprar**, revise los términos de la directiva de privacidad y de usuario > **crear**.
+
+    El **enviando implementación para Power BI Report Server** proceso puede tardar varios minutos.
 
 ## <a name="connect-to-your-virtual-machine"></a>Conexión a la máquina virtual
 
@@ -78,11 +84,13 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
     ![Conexión a la máquina virtual](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. En el cuadro de diálogo Conexión a Escritorio remoto, seleccione **Conectar**.
+5. En el **conectar a máquina virtual** panel, mantenga los valores predeterminados y seleccione **Descargar archivo RDP**.
+
+1. En el **conexión a Escritorio remoto** cuadro de diálogo, seleccione **Connect**.
 
 6. Escriba el nombre y la contraseña creados para la máquina virtual > **Aceptar**.
 
-7. El siguiente cuadro de diálogo indica que no se puede identificar la identidad del equipo remoto. Seleccione **Sí**.
+7. El siguiente cuadro de diálogo dice **la identidad del equipo remoto no se puede identificar**. Seleccione **Sí**.
 
    Ya está, ahora se abrirá la nueva máquina virtual.
 
@@ -90,15 +98,15 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
 Cuando se abre la máquina virtual, estos son los elementos que puede ver en el escritorio.
 
-![Se inicia la máquina virtual de Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-start-vm-numbered.png)
+![Se inicia la máquina virtual de Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-vm-5-numbers.png)
 
 |Número  |Qué significa  |
 |---------|---------|
-|![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Inicia SQL Server Data Tools para crear informes paginados (.RDL) |
-|![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Ejemplo de informes de Power BI (.PBIX)  |
-|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Vínculos a documentación de Power BI Report Server   |
-|![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Inicia Power BI Desktop optimizado para Power BI Report Server (marzo de 2018)  |
-|![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Abre el portal web de Power BI Report Server en el explorador   |
+|![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Ejemplo de informes de Power BI (.PBIX) |
+|![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Vínculos a documentación de Power BI Report Server |
+|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Se inicia Power BI Desktop optimizado para Power BI Report Server (de enero de 2019) |
+|![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre el portal web de Power BI Report Server en el explorador |
+|![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia SQL Server Data Tools para crear informes paginados (.RDL) |
 
 Haga doble clic en el icono del **portal web de Report Server**. El explorador abre `http://localhost/reports/browse`. En el portal web, verá varios archivos agrupados por tipo. 
 
@@ -117,7 +125,7 @@ Haga doble clic en el icono del **portal web de Report Server**. El explorador a
 ## <a name="tag-your-favorites"></a>Etiquetado de favoritos
 Puede etiquetar los informes y KPI que desee como favoritos. Son más fáciles de encontrar porque están recopilados en una única carpeta de Favoritos, en el portal web y en las aplicaciones móviles de Power BI. 
 
-1. Seleccione los puntos suspensivos (**…**) en la esquina superior derecha del KPI **Margen de beneficio** > **Agregar a Favoritos**.
+1. Seleccione los puntos suspensivos ( **…** ) en la esquina superior derecha del KPI **Margen de beneficio** > **Agregar a Favoritos**.
    
     ![Agregar a Favoritos](media/tutorial-explore-report-server-web-portal/power-bi-report-server-add-to-favorites.png)
 2. Seleccione **Favoritos** en la cinta de opciones del portal web para verlo junto con sus otros favoritos en la página Favoritos del portal web.
@@ -155,11 +163,9 @@ Puede visualizar informes de Power BI en el portal web e interactuar con ellos, 
 
 1. Seleccione **Permitir** para permitir que este sitio web abra un programa en el equipo. 
 
-     El informe se abre en Power BI Desktop. Tenga en cuenta el nombre de la barra superior, "Power BI Desktop (marzo de 2018)". Se trata de la versión optimizada para Power BI Report Server.
+     El informe se abre en Power BI Desktop. Tenga en cuenta el nombre de la barra superior, "Power BI Desktop (enero de 2019)". Se trata de la versión optimizada para Power BI Report Server.
 
-    ![Power BI Desktop](media/tutorial-explore-report-server-web-portal/power-bi-report-server-power-bi-desktop.png)
-
-     Use la versión de Power BI Desktop instalada en la máquina virtual. No puede pasar entre dominios para cargar un informe.
+    Use la versión de Power BI Desktop instalada en la máquina virtual. No puede pasar entre dominios para cargar un informe.
 
 3. En el panel Campos, expanda la tabla Clientes y arrastre el campo Ocupación a los filtros de nivel de informe.
 

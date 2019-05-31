@@ -1,20 +1,20 @@
 ---
 title: ¿Qué pueden hacer los desarrolladores con Power BI?
 description: Power BI ofrece una amplia gama de opciones para los desarrolladores. Desde inserción, pasando por objetos visuales personalizados y hasta conjuntos de datos de transmisión.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 63ee9ed96ed699d116b8d81b0cd612f76994a68d
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: d2e3ba69cde609638e54eaa1206714f0fb420d18
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872694"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61262721"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>¿Qué pueden hacer los desarrolladores con Power BI?
 

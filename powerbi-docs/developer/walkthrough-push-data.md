@@ -1,26 +1,26 @@
 ---
 title: Inserción de datos en un conjunto de datos
 description: Inserción de datos en un conjunto de datos de Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: 642a8e7dd118838b5ea12c8758841ee44a8e6595
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762269"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222160"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
-Con la API de Power BI, puede insertar datos en un conjunto de datos de Power BI. Por ejemplo, supongamos que quiere ampliar un flujo de trabajo de empresa existente para insertar datos clave en el conjunto de datos. En este caso, pongamos que quiere insertar un conjunto de datos de marketing de ventas que tiene una tabla de productos en un conjunto de datos.
+La API de Power BI le permite insertar datos en un conjunto de datos de Power BI. En este artículo, se muestra cómo insertar un conjunto de datos de Marketing de ventas que contiene una tabla de productos en un conjunto de datos existente.
 
-Antes de empezar a insertar datos en un conjunto de datos, necesita Azure Active Directory (Azure AD) y una [cuenta de Power BI](create-an-azure-active-directory-tenant.md).
+Antes de comenzar, se necesita Azure Active Directory (Azure AD) y un [cuenta de Power BI](create-an-azure-active-directory-tenant.md).
 
 ## <a name="steps-to-push-data-into-a-dataset"></a>Pasos para insertar datos en un conjunto de datos
 
@@ -34,7 +34,7 @@ La siguiente sección es una discusión general de las operaciones de la API de 
 
 ## <a name="power-bi-api-operations-to-push-data"></a>Operaciones de la API de Power BI para insertar datos
 
-Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, los iconos del panel se actualizan automáticamente con los datos actualizados. Para insertar datos se usa la operación [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets) junto con la operación [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows). Para buscar un conjunto de datos, se usa la operación [Obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets). Para cualquiera de estas operaciones, puede pasar un identificador de grupo para trabajar con un grupo. Use la operación [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) para obtener una lista de identificadores de grupo.
+Con la API de REST de Power BI, puede insertar orígenes de datos en Power BI. Cuando una aplicación agrega filas a un conjunto de datos, iconos del panel update automáticamente con los nuevos datos. Para insertar datos, utilice el [PostDataset](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postdataset) y [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows) operaciones. Para buscar un conjunto de datos, use el [obtener conjuntos de datos](https://docs.microsoft.com/rest/api/power-bi/datasets/getdatasets) operación. Puede pasar un identificador de grupo para que funcione con un grupo para cualquiera de estas operaciones. Para obtener una lista de identificadores de grupo, use la [obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups) operación.
 
 Estas son las operaciones para insertar datos en un conjunto de datos:
 
@@ -59,7 +59,7 @@ La cadena JSON para un conjunto de datos tiene el formato siguiente:
         ]
     }
 
-Por lo tanto, en nuestro ejemplo de conjunto de datos de marketing de ventas, pasaría una cadena JSON como en el ejemplo siguiente. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos y **Product** es el nombre de la tabla. Después de definir la tabla, debes definir el esquema de la tabla. Para el conjunto de datos **SalesMarketing**, el esquema de tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
+En nuestro ejemplo de conjunto de datos de Marketing de ventas, pasaría una cadena JSON como se muestra a continuación. En este ejemplo, **SalesMarketing** es el nombre del conjunto de datos, y **producto** es el nombre de tabla. Después de definir la tabla, defina el esquema de tabla. Para el conjunto de datos **SalesMarketing**, el esquema de tabla tiene las siguientes columnas: ProductID, Manufacturer, Category, Segment, Product e IsCompete.
 
 **Ejemplo de JSON de objeto de conjunto de datos**
 
@@ -105,10 +105,10 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 | **Tipo de datos** | **Restricciones** |
 | --- | --- |
 | Int64 |Int64.MaxValue e Int64.MinValue no están permitidos. |
-| Doble |Double.MaxValue y Double.MinValue no están permitidos. NaN no se admite. +Infinity y -Infinity no se admiten en algunas funciones (por ejemplo, Min, Max). |
+| Doble |Double.MaxValue y Double.MinValue no están permitidos. NaN no se admite. + Infinity y - Infinity no se admiten en algunas funciones (por ejemplo, Min, Max). |
 | Booleano |Ninguno |
-| Fecha y hora |Durante la carga de datos se cuantifican valores con fracciones de día a múltiplos enteros de 1/300 segundos (3,33 ms). |
-| Cadena |Actualmente permite hasta 128K caracteres. |
+| Fecha y hora |Durante la carga de datos se cuantifican valores con fracciones de día a múltiplos enteros de 1/300 segundos (3,33 ms). |
+| Cadena |Actualmente permite hasta 128 K caracteres. |
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI
 

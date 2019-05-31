@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 48e553ebd81632cb0baa9a2c9c6a761860c3c9c6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257122"
+---
 Con Power BI, resulta fácil analizar los datos de tiempo. Las herramientas de modelado de Power BI Desktop incluyen automáticamente campos generados que permiten desglosar por años, trimestres, meses y días con un solo clic.  
 
 Cuando se crea una visualización de tabla en el informe mediante un campo de fecha, Power BI Desktop incluye automáticamente desgloses por intervalo de tiempo. Por ejemplo, Power BI separa automáticamente el campo único de fecha de la tabla **Fecha** el año, trimestre, mes y día, tal y como se muestra en la siguiente imagen.
@@ -23,7 +31,7 @@ Para volver a fechas individuales en lugar usar la jerarquía de fechas, solo ha
 ![](media/2-6a-explore-time-based-data/2-6a_5.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-**Enhorabuena.** Ha completado esta sección del curso de **Aprendizaje guiado** de Power BI. Ahora que está familiarizado con el *modelado* de datos, está preparado para obtener información sobre toda la diversión que le espera en la siguiente sección: **Visualizaciones**.
+**Enhorabuena.** Ha completado esta sección del curso de **Aprendizaje guiado** de Power BI. Ahora que ya conoce *modelado* datos, está listo para obtener información acerca de la diversión espera en la sección siguiente: **Visualizaciones**.
 
 Como ya se ha mencionado, este curso amplía sus conocimientos siguiendo el flujo de trabajo habitual de Power BI:
 

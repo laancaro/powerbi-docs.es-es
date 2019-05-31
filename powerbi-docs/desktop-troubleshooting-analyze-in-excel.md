@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514557"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Solución de problemas de Analizar en Excel
@@ -47,7 +47,7 @@ Para descargar las bibliotecas más recientes de Excel, visite Power BI y selecc
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_1.png)
 
-En el cuadro de diálogo que aparece, seleccione **Descargar (versión preliminar)**.
+En el cuadro de diálogo que aparece, seleccione **Descargar (versión preliminar)** .
 
 ![](media/desktop-troubleshooting-analyze-in-excel/tshoot-analyze-excel_2.png)
 

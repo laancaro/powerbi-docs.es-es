@@ -1,5 +1,5 @@
 ---
-title: Uso Vista de modelo en Power BI Desktop (versión preliminar)
+title: Utilice la vista de modelado de Power BI Desktop
 description: Uso de Vista de modelo para ver conjuntos de datos complejos en un formato visual en Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -7,30 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/13/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ccb78c8d22fdb7b9fecbb202dca488c44d36a15d
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 1fdb6058a6306f63f53c770812f85ccd9f9113ea
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216318"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65941338"
 ---
-# <a name="modeling-view-in-power-bi-desktop-preview"></a>Vista de modelo en Power BI Desktop (versión preliminar)
+# <a name="modeling-view-in-power-bi-desktop"></a>Vista de modelado en Power BI Desktop
 
-Con la característica **Vista de modelo** de **Power BI Desktop**, puede ver y trabajar con conjuntos de datos complejos que contienen muchas tablas. Con Vista de modelo, puede hacer lo siguiente:
+Con la característica **Vista de modelo** de **Power BI Desktop**, puede ver y trabajar con conjuntos de datos complejos que contienen muchas tablas.
 
-
-## <a name="enabling-the-modeling-view-preview-feature"></a>Habilitación de la característica Vista de modelo en versión preliminar
-
-La característica Vista de modelo se encuentra en versión preliminar y debe estar habilitada en **Power BI Desktop**. Para habilitar Vista de modelo, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, luego, active la casilla **Vista de modelo**, como se muestra en la imagen siguiente.
-
-![Habilitar la característica Vista de modelo en versión preliminar de Power BI Desktop](media/desktop-modeling-view/modeling-view_01.png)
-
-Se le indicará que es necesario reiniciar **Power BI Desktop** para habilitar la característica en versión preliminar. 
-
-![Reiniciar Power BI Desktop para habilitar características en versión preliminar](media/desktop-modeling-view/modeling-view_01b.png)
 
 ## <a name="using-modeling-view"></a>Uso de Vista de modelo
 
@@ -66,9 +56,9 @@ Por ejemplo, podría cambiar el [modo de almacenamiento](desktop-storage-mode.md
 En los artículos siguientes se proporciona más información sobre los modelos de datos y también se describe DirectQuery de forma detallada.
 
 * [Agregaciones en Power BI Desktop (versión preliminar)](desktop-aggregations.md)
-* [Modelos compuestos en Power BI Desktop (versión preliminar)](desktop-composite-models.md)
+* [Modelos compuestos en Power BI Desktop](desktop-composite-models.md)
 * [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md)
-* [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md)
+* [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md)
 
 
 Artículos sobre DirectQuery:

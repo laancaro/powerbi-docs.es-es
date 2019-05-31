@@ -11,11 +11,11 @@ ms.date: 08/10/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008244"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61177258"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Conexión a Application Insights con Power BI
 Use Power BI para crear paneles personalizados eficaces a partir de la telemetría de [Application Insights](/azure/application-insights/app-insights-overview/). Visualice la telemetría de la aplicación de nuevas maneras. Combine las métricas de varias aplicaciones o servicios de componentes en un panel. Esta primera versión del paquete de contenido de Power BI para Application Insights incluye widgets para métricas comunes relacionadas con el uso, como usuarios activos, vista de página, sesiones, explorador, versión del explorador y el sistema operativo, y distribución geográfica de los usuarios en un mapa.

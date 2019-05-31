@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2019
+ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4c32f27a04b055eb67015d9c8308866b972c06a7
-ms.sourcegitcommit: 364ffa1178cdfb0a20acffc0fd79922ebc892d72
-ms.translationtype: HT
+ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/02/2019
-ms.locfileid: "57226098"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136386"
 ---
-# <a name="self-service-data-prep-in-power-bi-preview"></a>Preparación de datos de autoservicio en Power BI (versión preliminar)
+# <a name="self-service-data-prep-in-power-bi"></a>Preparación de datos de autoservicio en Power BI
 
 A medida que aumenta el volumen de datos, también se complica el desafío de limpiar y transformar dichos datos en información accionable y con un formato correcto. Queremos datos que estén listos para análisis, para rellenar objetos viduales, informes y paneles, a fin de que podamos convertir los volúmenes de datos rápidamente en información procesable. Con la **preparación de datos de autoservicio** para macrodatos en Power BI, puede convertir los datos en información de Power BI con tan solo unos clics.
 
@@ -26,10 +26,6 @@ A medida que aumenta el volumen de datos, también se complica el desafío de li
 Power BI presenta los **flujos de datos** para ayudar a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los flujos de datos se usan para ingerir, transformar, integrar y enriquecer macrodatos con la definición de conexiones de orígenes de datos, lógica de ETL, programas de actualizaciones y mucho más. Además, el nuevo motor de cálculo basado en modelos que forma parte de los flujos de datos facilita la administración del proceso de preparación de datos, porque resulta más determinista y menos engorroso para los analistas de datos y los creadores de informes. De forma similar a como las hojas de cálculo administran los recálculos de todas las fórmulas afectadas, los flujos de datos administran los cambios de una entidad o de un elemento de datos en nombre del usuario, automatizando las actualizaciones y aliviando lo que solían ser comprobaciones lógicas tediosas que consumían mucho tiempo incluso para una actualización de datos básica. Con los flujos de datos, las tareas que requerían el control de los científicos de datos y también muchas horas y días para completarse, ahora los analistas y los creadores de informes pueden administrarlas con tan solo unos clics. 
 
 Los datos se almacenan como entidades en [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) en Azure Data Lake Storage Gen2. Los flujos de datos se crean y administran en las áreas de trabajo de la aplicación mediante el servicio Power BI.  
-
-> [!NOTE]
-> La funcionalidad de flujos de datos se encuentra en versión preliminar y está sujeta a cambios y actualizaciones antes de la disponibilidad general.
-
  
 Los **flujos de datos**se han diseñado para usar**Common Data Service**, una colección estandarizada, modular y extensible de esquemas de datos publicados por Microsoft que están diseñados para facilitarle la compilación, el uso y el análisis de datos. Con este modelo, puede pasar de los orígenes de datos a los paneles de Power BI prácticamente sin hacer nada.
 
@@ -112,10 +108,10 @@ Al almacenar datos empresariales en formato estandarizado de **Common Data Servi
 En este artículo se proporciona información general sobre la preparación de datos de autoservicio para macrodatos en Power BI y las numerosas formas en que pueden usarse. En los siguientes artículos se ofrecen más detalles sobre escenarios de uso común de los flujos de datos. 
 
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
-* [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Integración de flujos de datos y Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:
 * [Información general sobre consultas en Power BI Desktop](desktop-query-overview.md)

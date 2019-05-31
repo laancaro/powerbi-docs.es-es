@@ -7,23 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 5bf9694c42a3a70fbc65085326a03618ae62a8f6
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 81449d7a07bec3c142930573154ecd13a0ceff49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324930"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141386"
 ---
-# <a name="connect-to-data-sources-for-power-bi-dataflows-preview"></a>Conectarse a orígenes de datos de flujos de datos de Power BI (versión preliminar)
+# <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectarse a orígenes de datos para los flujos de datos de Power BI
 
 Con los flujos de datos de Power BI, puede conectarse a numerosos orígenes de datos diferentes para crear flujos de datos o agregar nuevas entidades a un flujo de datos ya existente.
 
 En este artículo se enumeran los muchos orígenes de datos que existen para crear flujos de datos o agregar elementos a estos y, asimismo, se describe cómo crear flujos de datos usando esos orígenes de datos.
 
-Para obtener información general sobre cómo crear y utilizar flujos de datos, vea [Creación y uso de flujos de datos en Power BI (versión preliminar)](service-dataflows-create-use.md).
+Para obtener información general de cómo crear y utilizar flujos de datos, vea [creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md).
 
 ## <a name="create-a-dataflow-from-a-data-source"></a>Crear un flujo de datos a partir de un origen de datos
 
@@ -61,7 +61,7 @@ La categoría **Todas las categorías** incluye todos los tipos de orígenes de 
 
 La categoría **Archivo** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
-* Acceso
+* Obtener acceso
 * Excel
 * JSON
 * Texto o CSV
@@ -176,11 +176,11 @@ Eso es todo lo que se necesita para conectarse a orígenes de datos en los flujo
 
 En este artículo se ha explicado a qué orígenes de datos podemos conectarnos en relación con los flujos de datos. En los siguientes artículos se ofrecen más detalles sobre escenarios de uso común de los flujos de datos. 
 
-* [Preparación de datos de autoservicio en Power BI (versión preliminar)](service-dataflows-overview.md)
+* [Preparación de datos de autoservicio en Power BI](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 * [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:

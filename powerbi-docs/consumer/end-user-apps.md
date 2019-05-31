@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/21/2019
+ms.date: 05/11/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f5572d5b5a8a8d9d652eabce95edc16ea9a2d0c6
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 1b5891ce24c43b0a7416cd82cec3e9a10c1989bf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662144"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65608369"
 ---
 # <a name="apps-in-power-bi"></a>Aplicaciones de Power BI
 ## <a name="what-is-a-power-bi-app"></a>¿Qué es una aplicación de Power BI?
@@ -30,7 +30,7 @@ Las aplicaciones se organizan en la lista de contenido **Aplicaciones**.
 > Para usar la característica de aplicaciones, hace falta una licencia de Power BI Pro. <!-- add link to how to figure out your license -->
 
 ## <a name="app-designers-and-app-consumers"></a>***Diseñadores*** de aplicaciones y ***consumidores*** de aplicaciones
-En función de su rol, es posible que sea alguien que crea aplicaciones (diseñador) para su propio uso o para compartir con otros compañeros. O puede que sea alguien que recibe y descarga aplicaciones (consumidor) creadas por otros. Este artículo es para *consumidores de aplicaciones*.
+Dependiendo de su rol, es posible que alguien que crea aplicaciones (*diseñador*) para su propio uso o para compartir con compañeros de trabajo. O bien, es posible que alguien que recibe y descargas de aplicaciones (*consumidor*) creados por otros usuarios. Este artículo es para *consumidores de aplicaciones*.
 
 ## <a name="advantages-of-apps"></a>Ventajas de aplicaciones
 Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)) y en el dispositivo móvil. Después de instalar una aplicación, no tendrá que recordar los nombres de muchos paneles diferentes ya que se encontrarán todos juntos en una aplicación, en el explorador o en su dispositivo móvil.

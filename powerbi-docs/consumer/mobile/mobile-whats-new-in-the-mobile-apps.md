@@ -7,21 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/08/2018
+ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8755f48653097d5754c4c908f07ea91bdb3c0d53
-ms.sourcegitcommit: 3a05f34dbeabac62ea8c35c12a045284271971bc
-ms.translationtype: HT
+ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/03/2019
-ms.locfileid: "58872740"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65991057"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
 
-* [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
+* [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="april-2019"></a>Abril de 2019
+
+### <a name="key-influencers-visual"></a>Influenciadores clave visual 
+Influenciadores clave visual ahora está disponible en la aplicación móvil. Este objeto visual le permite realizar un análisis de los impulsores clave sobre los datos con tan solo unos derivaciones.
+
+### <a name="add-comments-to-report-content-android-and-ios"></a>Agregar comentarios al contenido del informe (Android e iOS)
+Ahora puede usar los comentarios para colaborar y compartir sus comentarios acerca de las páginas del informe y los objetos visuales. Obtenga más información sobre informes de comentarios en el servicio Power BI y Mobile [en este blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximizar la vista con el modo de pantalla completa (iOS y Android)
+Se ha agregado un botón nuevo que permiten controlar cuándo se debe centrarse en los datos quitando los encabezados del informe y pies de página y que proporciona el espacio máximo para ver los informes.
 
 ## <a name="march-2019"></a>Marzo de 2019
 
@@ -31,7 +42,20 @@ Puede acceder a contenido de Power BI compartido con usted de otra organizació
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Mejora del modo de presentación de Windows con presentaciones (Windows)
 
-Con [presentación](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) puede utilizar pantallas públicas ubicadas en su oficina para ejecutar informes de Power BI en pantalla completa que roten automáticamente entre las páginas del informe.  
+Con [presentación con diapositivas](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) muestra pública ubicado en la oficina puede usar para ejecutar informes de Power BI en pantalla completa que se automáticamente rotar entre las páginas del informe.  
+
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Compatibilidad con informes RS de PBI a través de la configuración de AD FS y WAP (solo iOS)
+
+Los informes de BI de Power (PBIX) hospedados en RS de PBI a través de configuración de AD FS ahora se puede acceder desde la aplicación de iOS de Power BI.
+
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Habilitar la interacción de punteo único con objetos visuales de informes
+
+Hemos cambiado la interacción de informe por lo que requerirá sólo un punteo en un objeto visual, botón o segmentación de datos para interactuar con sus datos de inmediato. Los usuarios ya no tendrán que pulsar en un objeto visual para seleccionarlo y vuelva a pulsar para interactuar con él, hará una sola pulsación ambos.
+
+![Interacción de punteo único](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+
+> [!NOTE]
+> Los usuarios existentes deberá activar este comportamiento en la configuración de aplicación. Para obtener más información, consulte el [cómo configurar la interacción de informe único punteo](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) artículo.
 
 ## <a name="january---february-2019"></a>Enero-febrero 2019
  
@@ -127,7 +151,7 @@ El Inicio de sesión único (SSO) es una de las características más solicitada
 
 Ya puede recibir informes con segmentaciones y filtros compartidos.
 
-**Compatibilidad con imágenes de fondo**
+**Compatibilidad con imagen de fondo**
 
 Al ver un informe en modo horizontal en el dispositivo móvil, puede ver las mismas imágenes de fondo que en Power BI en la Web.
 
@@ -264,7 +288,7 @@ Ahora puede establecer la configuración del proxy en la aplicación móvil de P
 Lea el [resumen de características de aplicaciones móviles de julio de 2017](https://powerbi.microsoft.com/blog/power-bi-service-and-mobile-july-feature-summary/#ios-preview)
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Nueva experiencia de Preguntas y respuestas en iOS (versión preliminar)**. En vez de recibir simplemente una respuesta a su pregunta, ahora puede usar el lenguaje natural para obtener información con ámbito. Incluso si no está seguro de lo que está buscando, Preguntas y respuestas expone proactivamente información pertinente para los datos. La nueva experiencia de Preguntas y respuestas en dispositivos móviles, desarrollada en colaboración con el equipo de Microsoft Research, presenta tecnologías eficaces de nuestro producto. Pruebe con nuestro tutorial, [Realización de preguntas acerca de sus datos en las aplicaciones móviles iOS](mobile-apps-ios-qna.md).
+**Nueva experiencia de Preguntas y respuestas en iOS (versión preliminar)** . En vez de recibir simplemente una respuesta a su pregunta, ahora puede usar el lenguaje natural para obtener información con ámbito. Incluso si no está seguro de lo que está buscando, Preguntas y respuestas expone proactivamente información pertinente para los datos. La nueva experiencia de Preguntas y respuestas en dispositivos móviles, desarrollada en colaboración con el equipo de Microsoft Research, presenta tecnologías eficaces de nuestro producto. Pruebe con nuestro tutorial, [Realización de preguntas acerca de sus datos en las aplicaciones móviles iOS](mobile-apps-ios-qna.md).
 
 ### <a name="responsive-visuals"></a>Objetos visuales con capacidad de respuesta
 **Objetos visuales con capacidad de respuesta para informes y paneles en teléfonos** Puede establecer los objetos visuales en el panel o informe para que tengan *capacidad de respuesta* y para que cambien de forma dinámica para mostrar la máxima cantidad de datos, independientemente del tamaño de la pantalla. Lea el [blog sobre objetos visuales con capacidad de respuesta](https://powerbi.microsoft.com/blog/power-bi-desktop-july-feature-summary-2/#responsiveVisuals).
@@ -315,7 +339,7 @@ Hemos mejorado la interacción táctil de segmentaciones con la segmentación de
 
 Ahora pueden tener conexiones con un máximo de cinco servidores de SQL Server Reporting Services (SSRS) al mismo tiempo.
 
-**Solicitud de acceso a paneles** 
+**Solicitar acceso a paneles** 
 
 Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar una solicitud de acceso directamente desde la aplicación móvil.
 
@@ -326,7 +350,7 @@ Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar
 Ahora es posible desplazarse en los gráficos de barras y columnas de un informe tocando el propio gráfico, en lugar de la barra de desplazamiento lateral.
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Formulación de preguntas en los datos con una versión preliminar de Preguntas y respuestas** 
+**Formulación de preguntas de sus datos con una versión preliminar de Preguntas y respuestas** 
 
 Con Preguntas y respuestas puede formular preguntas sobre sus datos con sus propias palabras y Power BI le proporcionará las respuestas pertinentes. Ya hay disponible una sección de Preguntas y respuestas en el servicio de Power BI en http://powerbi.com. Ahora también está [disponible en la aplicación móvil de su iPhone o iPad](mobile-apps-ios-qna.md).
 
@@ -367,14 +391,14 @@ Lea en el [blog el resumen de características de aplicaciones móviles de dicie
 A fin de garantizar que pueda tener acceso a los datos más recientes sin conexión, llevamos a cabo una actualización de la aplicación en segundo plano para mantener al día la información empresarial, incluso si no la ha consultado durante cierto tiempo. Para asegurarse de que determinados paneles estén siempre actualizados, márquelos como favoritos. Obtenga más información sobre las [funciones sin conexión en las aplicaciones móviles de Power BI](mobile-apps-offline-data.md).
 
 #### <a name="ios-devices"></a>Dispositivos iOS
-**Anotaciones y recursos compartidos**
+**Anotar y compartir**
 
 Ahora puede anotar y compartir un icono, informe o visualización desde la aplicación móvil Power BI para iOS. 
 
 * [En iPhone](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 * [En iPad](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md)
 
-**Solicitud de acceso a paneles**
+**Solicitar acceso a paneles**
 
 Ahora, si detecta un código QR de un panel al que no tiene acceso, puede enviar una solicitud de acceso directamente desde la aplicación móvil.
 

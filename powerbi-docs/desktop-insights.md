@@ -12,11 +12,11 @@ ms.date: 02/21/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 28db4891ad2ca67fefb0f6ec7d993977bbba7043
-ms.sourcegitcommit: 76772a361e6cd4dd88824b2e4b32af30656e69db
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/27/2019
-ms.locfileid: "56892261"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61297327"
 ---
 # <a name="use-insights-in-power-bi-desktop-to-explain-increases-and-decreases-seen-in-visuals-preview"></a>Uso de conclusiones en Power BI Desktop para explicar los aumentos y las disminuciones que hay en objetos visuales (versión preliminar)
 

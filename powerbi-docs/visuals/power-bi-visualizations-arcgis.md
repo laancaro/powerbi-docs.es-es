@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 ms.openlocfilehash: 49eb11698d05ee8877f78b6b3d4cbbc6ef403e75
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086733"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61137141"
 ---
 # <a name="interacting-with-arcgis-maps-in-power-bi"></a>Interactuación con mapas de ArcGIS en Power BI
 Este tema se escribe desde el punto de vista de una persona que *consume* un mapa de ArcGIS en el servicio Power BI, Desktop o para dispositivos móviles. Si un creador comparte un mapa de ArcGIS con usted, existen numerosas maneras de interactuar con el mapa.  Para más información acerca de cómo crear un mapa de ArcGIS, consulte el [tutorial de mapas ArcGIS de Esri](../visuals/power-bi-visualization-arcgis.md).

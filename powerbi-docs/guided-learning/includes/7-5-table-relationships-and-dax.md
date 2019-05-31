@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: cd6ea6fd52f929e2cd254214cf0e8c96e858f6c2
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555949"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61273631"
 ---
 Power BI le permite crear relaciones entre varias tablas, incluidas tablas que proceden de orígenes de datos completamente diferentes. Puede ver esas relaciones para cualquier modelo de datos en la vista **Relaciones** de Power BI Desktop.
 

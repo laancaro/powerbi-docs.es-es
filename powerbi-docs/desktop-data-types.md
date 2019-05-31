@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e8f659f0eb7b016f18e17ed88bc0ff1d5f928766
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216479"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61309026"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 

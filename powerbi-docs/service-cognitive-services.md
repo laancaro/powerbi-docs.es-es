@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/12/2019
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: f2921ac581416d519e224f10de53a24db442b969
-ms.sourcegitcommit: 06ae54ed221979939699c67d63aeccba8b9dfcda
-ms.translationtype: HT
+ms.openlocfilehash: 63de805b357fd5b4d15aeea2231dc952ec9e7077
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "57966454"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61182071"
 ---
 # <a name="cognitive-services-in-power-bi-preview"></a>Cognitive Services en Power BI (versión preliminar)
 
@@ -102,7 +102,7 @@ En este artículo se proporcionó información general del uso de Cognitive Serv
 
 Para más información sobre los flujos de datos, puede leer estos artículos:
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 * [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)

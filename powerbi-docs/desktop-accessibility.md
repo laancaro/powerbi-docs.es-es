@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e3dd7d9120b524dd09d6f0d60764385185210d83
-ms.sourcegitcommit: 89e9875e87b8114abecff6ae6cdc0146df40c82a
-ms.translationtype: HT
+ms.openlocfilehash: 54c842a91684eec1cf60eca4442592500d1bcb11
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/21/2019
-ms.locfileid: "58306306"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770417"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -144,6 +144,12 @@ En nuestro continuo esfuerzo por mejorar la accesibilidad, la lista anterior de 
 | Selección múltiple | Ctrl + Entrar o Ctrl + Espacio |
 | Clic con el botón derecho | <ul><li>Teclado de Windows: tecla de contexto de Windows + F10.  La clave de contexto de Windows está entre la tecla Alt de la izquierda y la tecla de flecha izquierda.</li><li>Otro teclado: Mayús+F10</li></ul> |
 | Borrar selección | Control + Mayús + C |
+
+### <a name="table--matrix-navigation"></a>Tabla de & navegación de la matriz
+| Para hacerlo           | Presione                |
+| :------------------- | :------------------- |
+| Mover el foco arriba o hacia abajo una celda (a través de todas las celdas en todas las áreas)  | Flecha key / presionada la tecla de flecha arriba |
+| Mover el foco hacia la izquierda / derecha de una celda (a través de todas las celdas en todas las áreas)  | Tecla de flecha izquierda / tecla de dirección derecha |
 
 ### <a name="pane-navigation"></a>Navegación por el panel
 | Para hacerlo           | Presione                |
