@@ -1,21 +1,21 @@
 ---
 title: Solución de problemas de escenarios de actualización
 description: Solución de problemas de escenarios de actualización
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/28/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 8535787cb66ad2dc897ff3a3e4ecaccddfaa80f0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: ce353ec70b933319faaabb0040c0df1a31103a27
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285125"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770522"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solución de problemas de escenarios de actualización
 Aquí puede encontrar información sobre distintos escenarios que pueden darse al actualizar datos en el servicio Power BI.
@@ -57,6 +57,9 @@ El tamaño máximo de los conjuntos de datos importados en el **servicio Power B
 
 ## <a name="scheduled-refresh-timeout"></a>Tiempo de espera de la actualización programada
 El tiempo de espera de la actualización programada de los conjuntos de datos importados se agotó después de dos horas. Este tiempo de espera se puede aumentar a cinco horas para los conjuntos de datos de las áreas de trabajo **Premium**. Si alcanza este límite, puede que deba considerar la posibilidad de reducir el tamaño o la complejidad del conjunto de datos, o la posibilidad de dividirlo en conjuntos más pequeños.
+
+## <a name="scheduled-refresh-failures"></a>Errores de actualización programada
+Si una actualización programada se produce un error en cuatro veces en una fila, se deshabilita la actualización de Power BI. Solucionar el problema subyacente y, a continuación, volver a habilitar la actualización programada.
 
 ## <a name="access-to-the-resource-is-forbidden"></a>El acceso al recurso queda prohibido  
 Este error puede producirse debido a que las credenciales almacenadas en caché han expirado. Para borrar la memoria caché del explorador web, inicie sesión en Power BI y vaya a https://app.powerbi.com?alwaysPromptForContentProviderCreds=true. De esta manera se fuerza la actualización de las credenciales. 

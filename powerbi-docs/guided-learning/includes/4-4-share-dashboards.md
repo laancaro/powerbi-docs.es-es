@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6755233733c4500865615c28850793aae7972d9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264062"
+---
 Ya hemos visto cómo lo ayuda Power BI a encontrar datos, a recopilarlos en un modelo de datos y a generar informes y visualizaciones sobre el uso de dichos datos. También hemos visto cómo puede publicar estos informes en el servicio Power BI y crear paneles que lo ayudarán a supervisar su información a lo largo del tiempo. Todas estas características son aún más eficaces si comparte la información con los demás miembros de la organización. Afortunadamente, compartir sus paneles es fácil.
 
 Para compartir un panel, ábralo en el servicio Power BI y seleccione el vínculo **Compartir** situado en la esquina superior derecha.

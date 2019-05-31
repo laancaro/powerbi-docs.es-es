@@ -1,24 +1,24 @@
 ---
 title: 'Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)'
 description: En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente en el generador de informes para crear un informe paginado. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: 15c7d9e922ef7041c6b0f021382cae8d2aca84e9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325252"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60990113"
 ---
 # <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)
 
-En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente del generador de informes para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI. Los informes paginados del servicio Power BI actualmente se encuentran en versión preliminar.
+En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. A continuación, usar a un asistente en el generador de informes de Power BI para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI. Los informes paginados del servicio Power BI actualmente se encuentran en versión preliminar.
 
 ![Informe paginado en el servicio Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ Estos son los pasos que se deben completar en este tutorial:
 
 > [!div class="checklist"]
 > * Cree una base de datos de ejemplo de Azure.
-> * Cree una matriz en el generador de informes con la ayuda de un asistente.
+> * Crear una matriz en el generador de informes de Power BI con la Ayuda de un asistente.
 > * Aplique formato al informe con títulos, números de página y encabezados de columna en cada página.
 > * Aplique formato a la moneda.
 > * Cargue el informe en el servicio Power BI.
@@ -37,18 +37,18 @@ Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azu
 
 Estos son los requisitos previos para crear el informe paginado:
 
-- Instale el [generador de informes desde el Centro de descarga de Microsoft](http://go.microsoft.com/fwlink/?LinkID=734968). 
+- Instalar [Power generador de informes de BI desde el centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - Siga la guía de inicio rápido [Creación de una instancia de ejemplo de Azure SQL Database en Azure Portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copie y guarde el valor en el cuadro **Nombre del servidor** en la pestaña **Introducción**. Recuerde el nombre de usuario y la contraseña que creó en Azure.
 
 Estos son los requisitos previos para cargar el informe paginado en el servicio Power BI:
 
 - Necesita una [licencia de Power BI Pro](service-admin-power-bi-pro-in-your-organization.md).
-- Necesita un área de trabajo de la aplicación en el servicio con una [capacidad Premium de Power BI](service-premium.md). Tiene un icono de diamante ![icono de diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto al nombre del área de trabajo.
+- Necesita un área de trabajo de la aplicación en el servicio con una [capacidad Premium de Power BI](service-premium-what-is.md). Tiene un icono de diamante ![icono de diamante Premium](media/paginated-reports-quickstart-aw/premium-diamond.png) junto al nombre del área de trabajo.
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creación de la matriz con un asistente
   
-1.  Inicie el generador de informes desde el equipo.  
+1.  Inicie el generador de informes de Power BI desde su equipo.  
   
      Se abre el cuadro de diálogo **Introducción**.  
   
@@ -107,8 +107,8 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
 10. En la página **Diseñar una consulta**, expanda SalesLT, expanda las tablas y seleccione estas tablas:
 
     - Dirección
-    - Cliente
-    - Producto
+    - Customer
+    - Product
     - ProductoCategoría
     - SalesOrderDetail
     - SalesOrderHeader
@@ -249,7 +249,7 @@ Si se dio cuenta cuando ejecutó el informe, los importes en dólares aún no te
 
     ![Seleccionar celdas con valores de moneda](media/paginated-reports-quickstart-aw/power-bi-paginated-select-money-cells.png)
 
-2. En la pestaña **Inicio**, seleccione el símbolo de moneda del símbolo del dólar (**$**), luego seleccione la flecha situada junto a **Estilos de marcador de posición** > **Valores de ejemplo**.
+2. En la pestaña **Inicio**, seleccione el símbolo de moneda del símbolo del dólar ( **$** ), luego seleccione la flecha situada junto a **Estilos de marcador de posición** > **Valores de ejemplo**.
  
     ![Mostrar los valores de ejemplo](media/paginated-reports-quickstart-aw/power-bi-paginated-format-currency.png)
 

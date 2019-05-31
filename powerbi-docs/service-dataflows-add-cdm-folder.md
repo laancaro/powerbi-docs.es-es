@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 3c5b33b4b056a5d2dfeeffd4c72ea878cf7d79c0
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 6d03097eb886813b934c75b61ddb056b55bde7b8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54280295"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61160999"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
 
@@ -30,9 +30,6 @@ Hay algunos requisitos para la creación de flujos de datos desde las carpetas d
 * Debe tener concedidos permisos de lectura y ejecución en todos los archivos y carpetas de la carpeta de CDS para agregarlos a Power BI.
 
 En las secciones siguientes se describe cómo crear un flujo de datos desde una carpeta de CDS.
-
-> [!NOTE]
-> La funcionalidad de flujos de datos se encuentra en versión preliminar y está sujeta a cambios y actualizaciones antes de la disponibilidad general.
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Crear un flujo de datos desde una carpeta de CDS
 
@@ -99,9 +96,9 @@ Para más información sobre flujos de datos, CDS y Azure Data Lake Storage Gen2
 Para información sobre los flujos de datos en general, consulte estos artículos:
 
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 
 Para más información sobre Azure Storage, puede leer estos artículos:
 * [Guía de seguridad de Azure Storage](https://docs.microsoft.com/azure/storage/common/storage-security-guide)

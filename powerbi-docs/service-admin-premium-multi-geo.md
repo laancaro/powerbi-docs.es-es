@@ -1,8 +1,8 @@
 ---
 title: Compatibilidad de Multi-Geo con Power BI Premium
 description: Obtenga información sobre cómo puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI.
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: dfa412e32c49e0b3de406f2665fcd9bd6d1a345e
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57571988"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65564943"
 ---
-# <a name="multi-geo-support-for-power-bi-premium"></a>Compatibilidad de Multi-Geo con Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar la compatibilidad con Multigeográficas Power BI Premium
 
 Multi-Geo es una característica de Power BI Premium que ayuda a que los clientes multinacionales aborden los requisitos de residencia de datos organizacionales, regionales o específicos del sector. Como cliente de Power BI Premium, puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI. Una geoárea (geografía) puede contener más de una región. Por ejemplo, Estados Unidos es una geoárea y Centro-oeste de EE. UU. y Centro-sur de EE. UU. son regiones de Estados Unidos. Puede elegir implementar contenido en cualquiera de las geoáreas siguientes:
 
@@ -35,7 +35,7 @@ Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por
 
 Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](developer/embedded-multi-geo.md).
 
-## <a name="using-multi-geo"></a>Uso de Multi-Geo
+## <a name="enable-and-configure"></a>Habilitar y configurar
 
 Para las capacidades nuevas, habilite Multi-Geo al seleccionar una región distinta de la región predeterminada en la lista desplegable.  Cada capacidad muestra la región donde está ubicada actualmente, como **Centro-oeste de EE. UU**.
 
@@ -68,7 +68,7 @@ Estos elementos permanecen en la región principal del inquilino:
 - Permisos
 - Credenciales de conjuntos de datos
 
-## <a name="view-capacity-regions"></a>Vista de regiones de capacidad
+## <a name="view-capacity-regions"></a>Capacidad de ver regiones
 
 En el Portal de administración, puede ver todas las capacidades del inquilino de Power BI y las regiones donde se ubican actualmente.
 
@@ -98,7 +98,7 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Power BI Premium: ¿Qué es?](service-premium.md)
+- [¿Qué es Power BI Premium?](service-premium-what-is.md)
 - [Multi-Geo para capacidades de Power BI Embedded](developer/embedded-multi-geo.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -1,5 +1,5 @@
 ---
-title: Recursos de desarrollador para flujos de datos de Power BI (versión preliminar)
+title: Recursos para desarrolladores sobre flujos de datos de Power BI
 description: Encuentre recursos de desarrollo y flujos de datos de Power BI.
 author: davidiseminger
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 20bd8cd06e2a183d284752dc378a8aa1440c3aef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9a4caed97881e176d075527c90ae8d5eff213676
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274706"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61136777"
 ---
-# <a name="developer-resources-for-power-bi-dataflows-preview"></a>Recursos de desarrollador para flujos de datos de Power BI (versión preliminar)
+# <a name="developer-resources-for-power-bi-dataflows"></a>Recursos para desarrolladores sobre flujos de datos de Power BI
 
 Hay muchas formas de usar flujos de datos sin código, mediante la creación de entidades en el servicio Power BI y la conexión a ellas y también mediante la conexión a ellas en Power BI Desktop. Muchas organizaciones desean tener la flexibilidad de desarrollar sus propias soluciones. En este artículo se proporciona información sobre la API de REST de Power BI y otros recursos para desarrolladores.
 
@@ -38,8 +38,8 @@ En este artículo se proporciona información sobre los recursos para desarrolla
 
 * [Preparación de datos de autoservicio con flujos de datos](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
 
 Para información sobre el desarrollo de CDS y los recursos del tutorial, consulte los siguientes artículos:
 * [Introducción a Common Data Service](https://docs.microsoft.com/powerapps/common-data-model/overview)

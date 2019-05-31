@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 7415008e3e1faf3aa2665c643523db2e861bfe85
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397603"
+---
 Junto con objetos visuales vinculados a datos, también puede agregar elementos estáticos, como cuadros de texto, imágenes y formas, para mejorar el diseño visual de los informes. Para agregar un elemento visual, seleccione **Cuadro de texto**, **Imagen** o **Formas** en la pestaña **Inicio**.
 
 ![](media/3-10-create-shapes-images/3-10_1.png)

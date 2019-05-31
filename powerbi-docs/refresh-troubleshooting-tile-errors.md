@@ -1,22 +1,22 @@
 ---
 title: Solución de problemas de errores de icono
 description: Errores comunes que pueden producirse cuando un icono intenta actualizarse en Power BI
-author: davidiseminger
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 12/06/2018
-ms.author: davidi
+ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: bfb6178908a9d6a4bcfe81f8d3d9771ac5b12b9d
-ms.sourcegitcommit: 88ac51106ec7d0ead8c2a1550a11afae0d502bb9
-ms.translationtype: HT
+ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "56086641"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66050993"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
@@ -64,6 +64,17 @@ Probablemente, se eliminó el campo o se le cambió el nombre. Puede quitar el c
 **No se pueden recuperar los datos para este objeto visual. Inténtelo de nuevo más tarde.**
 
 Este suele ser un problema transitorio. Si vuelve a intentarlo más tarde y se sigue mostrando este mensaje, póngase en contacto con el soporte técnico.
+
+**Los iconos siguen mostrando datos sin filtrar después de habilitar el inicio de sesión único (SSO).**
+
+Esto puede ocurrir si el conjunto de datos subyacente está configurado para usar el modo DirectQuery o una conexión dinámica a Analysis Services a través de una puerta de enlace de datos en el entorno local. En este caso, los iconos con mostrar los datos sin filtrar después de habilitar el inicio de sesión único para el origen de datos hasta que vence la próxima actualización de icono. En la siguiente actualización de icono, Power BI usa el inicio de sesión único como se ha configurado y los iconos se muestran los datos filtrados según la identidad del usuario. 
+
+Si desea ver los datos filtrados de forma inmediata, puede forzar una actualización de icono, seleccione el botón de puntos suspensivos (...) en la esquina superior derecha de un panel y seleccione **Actualizar iconos del panel**.
+
+Como propietario de un conjunto de datos, también puede cambiar la frecuencia de actualización de icono y establézcalo en 15 minutos para acelerar la actualización del icono. Seleccione el icono de engranaje en la esquina superior derecha del servicio Power BI y luego seleccione **configuración**. En el **configuración** página, seleccione el **conjuntos de datos** ficha. Expanda **actualización de caché programada** y cambiar **frecuencia de actualización**. Asegúrese de que restablecer la configuración original de la frecuencia de actualización después de que Power BI realiza la siguiente actualización de icono.
+
+> [!NOTE]
+> El **actualización de caché programada** sección solo está disponible para conjuntos de datos en modo de DirectQuery/LiveConnection. Conjuntos de datos en modo de importación no requieren una actualización de los iconos independientes porque los iconos se actualizan automáticamente durante la siguiente actualización de datos programada.
 
 ## <a name="contact-support"></a>Ponerse en contacto con soporte técnico
 Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](https://support.powerbi.com) para que lo investiguen con más detalle.

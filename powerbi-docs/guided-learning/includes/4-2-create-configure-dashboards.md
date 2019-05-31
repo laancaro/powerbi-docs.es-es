@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 94ff18339d2eb14faebf124786cab7f9ac66393e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264082"
+---
 Los **paneles** de Power BI son colecciones de una página de visualizaciones que se crean mediante el servicio Power BI. Puede crear paneles **anclando** visualizaciones de informes que haya creado y publicado con Power BI Desktop o que haya generado dentro del propio servicio Power BI. **Anclar** un objeto visual a un panel se parece mucho a clavar una foto en un tablón de corcho en la pared con una chincheta: consiste en fijar el objeto visual en un punto concreto para que los demás lo vean. Para anclar un objeto visual, abra el informe en el servicio Power BI. Mantenga el puntero sobre el objeto visual que desee anclar y seleccione el icono de la **chincheta**.
 
 ![](media/4-2-create-configure-dashboards/4-2_1.png)

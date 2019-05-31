@@ -11,10 +11,10 @@ ms.date: 02/13/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: 97718ee6411d0063aa145e768fd20d3ebb6024b6
-ms.sourcegitcommit: c9080e77ab705f1814a352c0dda6b10910a5018e
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/20/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65941441"
 ---
 # <a name="relationships-with-a-many-many-cardinality-in-power-bi-desktop"></a>Relaciones con una cardinalidad de varios a varios en Power BI Desktop
@@ -39,7 +39,7 @@ Por ejemplo, dos tablas podían tener una columna etiquetada como *País*, pero 
 
 ## <a name="use-relationships-with-a-many-many-cardinality"></a>Uso de *relaciones con una cardinalidad de varios a varios*
 
-Cuando define una relación entre dos tablas de Power BI, debe definir la cardinalidad de la relación. Por ejemplo, la relación entre *ProductSales* y *Product*, usando las columnas *ProductSales [ProductCode]* y *Product[ProductCode]*, se definiría como de *varios a uno*. La relación se define de esta manera porque hay muchas ventas para cada producto y la columna *(ProductCode)* en la tabla *Producto* es única. Al definir la cardinalidad de la relación como de *varios a uno*, *uno a varios* o *uno a uno*, Power BI la valida para ayudar a garantizar que la cardinalidad que seleccione coincida con los datos reales.
+Cuando define una relación entre dos tablas de Power BI, debe definir la cardinalidad de la relación. Por ejemplo, la relación entre *ProductSales* y *Product*, usando las columnas *ProductSales [ProductCode]* y *Product[ProductCode]* , se definiría como de *varios a uno*. La relación se define de esta manera porque hay muchas ventas para cada producto y la columna *(ProductCode)* en la tabla *Producto* es única. Al definir la cardinalidad de la relación como de *varios a uno*, *uno a varios* o *uno a uno*, Power BI la valida para ayudar a garantizar que la cardinalidad que seleccione coincida con los datos reales.
 
 Por ejemplo, echemos un vistazo al modelo simple que aparece en la imagen siguiente:
 

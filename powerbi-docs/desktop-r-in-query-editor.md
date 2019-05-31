@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57f95a35ff12d546d4fd03202d14212e0df9c78e
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513641"
 ---
 # <a name="using-r-in-query-editor"></a>Uso de R en el Editor de consultas
@@ -94,7 +94,7 @@ Existen algunas limitaciones para las consultas, que incluyen los scripts de R c
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_9.png)
 
-  Asegúrese de que el **Nivel de privacidad** esté establecido en *Público* y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, **Editar permisos...**.
+  Asegúrese de que el **Nivel de privacidad** esté establecido en *Público* y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, **Editar permisos...** .
 
   ![](media/desktop-r-in-query-editor/r-in-query-editor_10.png)    
 * Para habilitar la actualización programada de los objetos visuales o del conjunto de datos de R, debe habilitar **Actualización programada** y tener **Personal Gateway** instalado en el equipo que hospeda el libro y la instalación de R. Para obtener más información sobre ambos, consulte la sección anterior de este artículo y siga los vínculos que se proporcionan.

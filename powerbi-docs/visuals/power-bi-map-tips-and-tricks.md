@@ -12,11 +12,11 @@ ms.date: 02/26/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5ae83079ae0dffca42498644f4de628bc626bb5e
-ms.sourcegitcommit: d4d36b6b200f2693b545e4a3e66d94c77a3cfafb
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "57014470"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61411908"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapa de Power BI
 Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si Power BI intenta sin éxito crear por sí mismo la visualización del mapa, se muestra la ayuda de Bing Maps. 
@@ -49,7 +49,7 @@ Si tiene acceso al conjunto de datos que se usa para crear la visualización de 
 
 En Power BI Desktop, puede asegurarse de que los campos estén correctamente geocodificados estableciendo la *Categoría de datos* en los campos de datos. Seleccione la tabla deseada, vaya a la cinta de opciones **Avanzada** y, después, establezca la **Categoría de datos** como **Dirección**, **Ciudad**, **Continente**, **País o región**, **País**, **Código Postal**, **Estado** o **Provincia**. Estas categorías de datos ayudan a Bing a codificar correctamente los datos. Para más información, consulte [Categorización de datos en Power BI Desktop](../desktop-data-categorization.md). Si se conecta mediante Live Connect a SQL Server Analysis Services, debe establecer la categorización de datos fuera de Power BI mediante [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt).
 
-**2. Use más de una columna de ubicación.**    
+**2. Use más de una columna de ubicación.**     
  A veces, incluso establecer las categorías de datos para la representación en mapas no basta para que Bing adivine correctamente su intención. Algunas designaciones son ambiguas porque la ubicación existe en varios países o regiones. Por ejemplo, hay un ***Southampton*** en Inglaterra, Pensilvania y Nueva York.
 
 Power BI usa el [servicio de plantillas de dirección URL no estructurado](https://msdn.microsoft.com/library/ff701714.aspx) de Bing para obtener las coordenadas de latitud y longitud en función de un conjunto de valores de dirección para cualquier país. Si los datos no contienen suficientes datos de ubicación, agregue estas columnas y clasifíquelas adecuadamente.

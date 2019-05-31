@@ -1,29 +1,27 @@
 ---
 title: Supervise las capacidades de Power BI Premium con la aplicación Premium Capacity Metrics.
 description: Uso del Portal de administración de Power BI y la aplicación Power BI Premium Capacity Metrics
-author: minewiskan
-ms.author: owend
+author: mgblythe
+ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/25/2019
+ms.date: 03/27/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: ac6559ccc9e6dbdf8c4be0550d8522765a4a8b23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 5a8db746606e42b4e9b094dc6d17d6d2e0f08f67
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174922"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65565310"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Supervisión de capacidades Premium con la aplicación
 
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. Puede supervisar la capacidad en el portal de administración o con la aplicación **Power BI Premium Capacity Metrics**. En este artículo se describe el uso de la aplicación Premium Capacity Metrics. La aplicación proporciona la información más detallada del rendimiento de las capacidades. Para obtener una introducción de nivel superior del promedio de métricas de uso durante los últimos siete días, puede usar el portal de administración. Para obtener más información sobre la supervisión en el portal, vea [Supervisión de capacidades Premium en el portal de administración](service-admin-premium-monitor-portal.md).
 
-La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente.   
-**La versión más reciente de la aplicación es 1.10.1.2 (22 de febrero de 2019)**.   
-Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar. 
+La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de que está ejecutando la versión más reciente. Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar. 
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
@@ -39,7 +37,6 @@ Puede ir directamente a la [aplicación Premium Capacity Metrics](https://app.po
 
 Tenga paciencia. La instalación y actualización de las métricas tarda unos minutos. Si la aplicación muestra las métricas en blanco, presione F5 para actualizar el explorador.
 
-
 ## <a name="get-app-refresh-history"></a>Obtención del historial de actualización de la aplicación
 
 Para comprobar la última vez que se ha actualizado la aplicación Premium Capacity Metrics, haga clic en **Configuración** > **Conjuntos de datos** > **Power BI Premium Capacity Metrics** > **Historial de actualización**. 
@@ -52,7 +49,7 @@ Se muestra la última actualización, o bien haga clic en **Actualizar historial
 
 ## <a name="monitor-capacities-with-the-app"></a>Supervisión de capacidades con la aplicación
 
-Ahora que ha instalado la aplicación, puede ver las métricas para las capacidades de la organización. La aplicación proporciona un [Panel](#Dashboard) con resúmenes de métricas e [Informes](#Reports) de métricas detallados.
+Ahora que ha instalado la aplicación, puede ver las métricas para las capacidades de la organización. La aplicación proporciona un panel con resúmenes de las métricas e informes de métricas detalladas.
 
 ### <a name="dashboard"></a>Panel
 
@@ -136,6 +133,19 @@ En el panel se incluyen las métricas siguientes:
 | Memoria: promedio de los informes paginados (GB) | Consumo promedio de memoria por carga de trabajo de informes paginados en los últimos siete días. |
 |||
 
+#### <a name="ai-summary"></a>Resumen de inteligencia artificial
+
+| Métrica | Descripción |
+| --- | --- |
+| Total de actualizaciones | Número total de actualizaciones en los últimos siete días. |
+| Confiabilidad de la actualización (%) | Número de actualizaciones correctas dividido entre el número total de actualizaciones en los últimos siete días. |
+| Número máximo de CPU (%)| Consumo de CPU máximo la carga de trabajo de inteligencia artificial en los últimos siete días. |
+| Memoria máxima (GB) | Consumo de memoria máxima por la carga de trabajo de inteligencia artificial en los últimos siete días.|
+| Actualiza el tiempo de espera máximo (MS) | Cantidad máxima de tiempo antes de iniciar la actualización. |
+| Tiempo promedio de espera de las actualizaciones (MS)| Cantidad de tiempo promedio antes del inicio de la actualización. |
+| Actualiza la duración máxima (MS) | Cantidad máxima de tiempo de actualización completa. |
+| Duración media de las actualizaciones (MS)| Cantidad de tiempo promedio para completar la actualización. |
+| | |
 
 ### <a name="reports"></a>Informes
 
@@ -143,10 +153,11 @@ Los informes proporcionan métricas más detalladas. Para ver informes de las ca
 
 En la parte inferior del informe, hay cinco *pestañas*:
 
-[**Conjuntos de datos**](#datasets): proporciona métricas detalladas sobre el mantenimiento de los conjuntos de datos de Power BI dentro de las capacidades.   
-[**Informes paginados**](#paginated-reports): proporciona métricas detalladas sobre el mantenimiento de los informes paginados dentro de las capacidades.   
-[**Flujos de datos**](#dataflows): proporciona métricas de actualización detalladas de los flujos de datos dentro de las capacidades.   
-[**Consumo de recursos**](#resource-consumption): proporciona métricas de recursos detalladas, incluidos el uso elevado de memoria y CPU.    
+[**Conjuntos de datos**](#datasets): proporciona métricas detalladas sobre el mantenimiento de los conjuntos de datos de Power BI dentro de las capacidades.
+[**Informes paginados**](#paginated-reports): proporciona métricas detalladas sobre el mantenimiento de los informes paginados dentro de las capacidades.
+[**Flujos de datos**](#dataflows): proporciona métricas de actualización detalladas de los flujos de datos dentro de las capacidades.
+[**Inteligencia artificial** ](#ai) -proporciona métricas detalladas sobre el estado de las funciones de inteligencia artificial utilizadas en sus capacidades.
+[**Consumo de recursos**](#resource-consumption): proporciona métricas de recursos detalladas, incluidos el uso elevado de memoria y CPU.
 [**Identificadores e información**](#ids-and-info): nombres, identificadores y propietarios de las capacidades, las áreas de trabajo y las cargas de trabajo.
 
 Cada pestaña abre una página donde puede filtrar las métricas por capacidad e intervalo de fechas. Si no se selecciona ningún filtro, en el informe se muestran de forma predeterminada las métricas de la semana pasada de todas las capacidades que proporcionan métricas. 
@@ -159,7 +170,7 @@ La página Conjuntos de datos cuenta con diferentes *áreas*, entre las que se i
 
 | Sección del informe | Métricas |
 | --- | --- |
-| Actualizaciones |  Recuento total: actualizaciones totales de cada conjunto de datos.<br>  Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada conjunto de datos.<br>  Promedio de tiempo de espera: el retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos.<br>  Tiempo de espera máximo: tiempo de espera máximo del conjunto de datos, en minutos.<br>  Duración media: duración media de la actualización del conjunto de datos, en minutos.<br>  Duración máxima: duración de la actualización de ejecución más larga del conjunto de datos, en minutos. |
+| Actualizaciones |  Recuento total: actualizaciones totales de cada conjunto de datos.<br>  Confiabilidad: El porcentaje de las actualizaciones que completó para cada conjunto de datos.<br>  Promedio de tiempo de espera: el retraso medio entre la hora programada y el inicio de una actualización del conjunto de datos, en minutos.<br>  Tiempo de espera máximo: tiempo de espera máximo del conjunto de datos, en minutos.<br>  Duración media: duración media de la actualización del conjunto de datos, en minutos.<br>  Duración máxima: duración de la actualización de ejecución más larga del conjunto de datos, en minutos. |
 | Cinco conjuntos de datos principales por duración promedio (minutos) |  Los cinco conjuntos de datos con la duración promedio de actualización más larga, en minutos. |
 | Cinco conjuntos de datos principales por tiempo de espera promedio (minutos) |  Los cinco conjuntos de datos con el tiempo de espera promedio de actualización más largo, en minutos. |
 | Recuento de actualización cada hora y consumo de memoria (GB) |  Ejecuciones correctas, con errores y consumo de memoria, segmentadas en depósitos de una hora, notificadas en la hora UTC. |
@@ -213,12 +224,23 @@ La página Conjuntos de datos cuenta con diferentes *áreas*, entre las que se i
 
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
-| Actualizaciones |  Total: número total de actualizaciones de cada flujo de datos.<br>  Confiabilidad: el porcentaje de las actualizaciones que se han completado para cada flujo de datos.<br>  Promedio de tiempo de espera: retraso medio entre la hora programada y el inicio de una actualización del flujo de datos, en minutos.<br>  Tiempo de espera máximo: tiempo de espera máximo del flujo de datos, en minutos.<br>  Duración media: duración media de la actualización del flujo de datos, en minutos.<br>  Duración máxima: duración de la actualización de ejecución más larga del flujo de datos, en minutos. |
+| Actualizaciones |  Total: número total de actualizaciones de cada flujo de datos.<br>  Confiabilidad: El porcentaje de las actualizaciones que completó para cada flujo de datos.<br>  Promedio de tiempo de espera: retraso medio entre la hora programada y el inicio de una actualización del flujo de datos, en minutos.<br>  Tiempo de espera máximo: tiempo de espera máximo del flujo de datos, en minutos.<br>  Duración media: duración media de la actualización del flujo de datos, en minutos.<br>  Duración máxima: duración de la actualización de ejecución más larga del flujo de datos, en minutos. |
 | Duración promedio de la actualización de los cinco flujos de datos principales |  Los cinco flujos de datos con la duración promedio de actualización más larga, en minutos. |
 | Cinco flujos de datos principales por tiempo de espera promedio |  Los cinco flujos de datos con el tiempo de espera promedio de actualización más largo, en minutos. |
 | Tiempos de espera de actualización promedio por hora |  El tiempo promedio de espera de actualización, segmentado en depósitos horarios, notificados en la hora UTC. Varios picos con tiempos de espera de actualización largos son indicativos de un alto uso de la capacidad. |
 | Recuento de actualización cada hora y consumo de memoria |  Ejecuciones correctas, con errores y consumo de memoria, segmentadas en depósitos de una hora, notificadas en la hora UTC. |
 |  |  |
+
+### <a name="ai"></a>AI
+
+| **Sección de informe** | **Metrics** (Métricas) |
+| --- | --- |
+| Uso general | Recuento total: Número de funciones de inteligencia artificial en un área de trabajo o flujo de datos. <br> Confiabilidad: El porcentaje de las actualizaciones que se completó.<br> Promedio Tiempo de espera: El retraso promedio entre la hora programada y el inicio de una actualización, en milisegundos.<br> Tiempo de espera máximo: El tiempo de espera máximo, en milisegundos.<br> Promedio Duración: La duración media de una actualización, en milisegundos.<br> Duración máxima: La duración de la actualización de la ejecución más larga, en milisegundos.<br> Tamaño de entrada promedio: El promedio de tamaño, en bytes, de la función de inteligencia artificial ejecutada por una actualización de flujo de datos de entrada.<br> Tamaño promedio salida: El promedio de tamaño, en bytes, de la función de inteligencia artificial ejecutada por una actualización de flujo de datos de salida. |
+| Funciones de inteligencia artificial de 5 principales por promedio de duración | Las cinco funciones con el mayor promedio de actualización duración, en milisegundos. |
+| Funciones de inteligencia artificial de 5 principales por tamaño promedio de entrada | Tamaño en bytes de entrada de las cinco funciones con el mayor promedio de datos. |
+| Recuento de actualización cada hora y consumo de memoria | Ejecuciones correctas, con errores y consumo de memoria, segmentadas en depósitos de una hora, notificadas en la hora UTC. |
+| Duración promedio por hora | La duración media de una actualización, se dividen en cubos de una hora, se expresa en hora UTC. |
+| | |
 
 ### <a name="resource-consumption"></a>Consumo de recursos
 
@@ -274,7 +296,7 @@ Puede usar la aplicación Power BI Premium Capacity Metrics para supervisar las 
 
 1. Abra su capacidad en Azure Portal.
 
-1. Haga clic en **Control de acceso (IAM)** y, a continuación, agregue la aplicación **Power BI Premium** al rol de lector. Si no puede encontrar la aplicación por el nombre, también puede agregarla por el identificador de cliente: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
+1. Haga clic en **Control de acceso (IAM)** y, a continuación, agregue la aplicación **Power BI Premium** al rol de lector. Si no puede encontrar la aplicación por su nombre, también puede agregar mediante el identificador de cliente: `cb4dc29f-0bf4-402a-8b30-7511498ed654`.
 
     ![Permisos para Power BI Embedded](media/service-admin-premium-monitor-capacity/embedded-permissions.png)
 
@@ -285,4 +307,4 @@ Puede usar la aplicación Power BI Premium Capacity Metrics para supervisar las 
 ## <a name="next-steps"></a>Pasos siguientes
 
 > [!div class="nextstepaction"]
-> [Optimización y administración de recursos con capacidad Power BI Premium](service-premium-understand-how-it-works.md)
+> [Optimizar las capacidades de Power BI Premium](service-premium-capacity-optimize.md)

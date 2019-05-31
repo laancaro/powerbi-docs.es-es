@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: a98c06ac1e164328a9a88081e2b4b734b4d62ef1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256997"
+---
 Esta es la sección **Modelado** del curso de **Aprendizaje guiado** de Power BI. En esta sección se muestra cómo preparar, mediante Power BI Desktop, los datos conectados para poder utilizarlos. Con frecuencia, se conectará a más de un origen de datos para crear informes y necesitará que todos esos datos estén vinculados. Para ello, tendrá que recurrir al modelado.
 
 Si quiere establecer una conexión lógica entre distintos orígenes de datos, debe crear una **relación**. Una relación entre orígenes de datos permite que Power BI sepa cómo se relacionan entre sí esas tablas; de este modo, podrá crear informes y objetos visuales interesantes. En esta sección se explican las *relaciones* (aunque solo aquellas centradas en los datos) e incluso se muestra cómo crearlas cuando no exista ninguna.

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 9a0e87eca537fc8c22dffaad6a725dc949b2b121
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 02beb69148c347847f346c170651ef31ddd1e786
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275580"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60988021"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 Puede establecer una conexión dinámica a un conjunto de datos compartido en el servicio Power BI y crear muchos informes diferentes del mismo conjunto de datos. Es decir, puede generar el modelo de datos perfecta en Power BI Desktop, publicarlo en el servicio Power BI. Después, tanto usted como otros usuarios podrán crear varios informes diferentes (en archivos .pbix independientes) de ese mismo modelo de datos común. Esta característica se denomina "**Conexión dinámica al servicio Power BI**".
@@ -77,9 +77,8 @@ Cuando termina, **Power BI Desktop** indica que se ha realizado correctamente y 
 A continuación, vamos a ver cómo otros compañeros de equipo que tienen acceso al área de trabajo donde el informe (y el conjunto de datos) se publicó pueden conectarse al conjunto de datos y generar sus propios informes.
 
 ### <a name="establish-a-power-bi-service-live-connection-to-the-published-dataset"></a>Establecimiento de una conexión dinámica al servicio Power BI al conjunto de datos publicado
-Para establecer una conexión al informe publicado y crear el suyo propio basado en el conjunto de datos publicado, seleccione **Obtener datos** en la cinta de opciones **Inicio** de **Power BI Desktop** y elija **Servicio Power BI**. También puede hacerlo desde **Obtener datos > Servicios en línea > Servicio Power BI**.
+Para establecer una conexión con el informe publicado y crear su propio informe basado en el conjunto de datos publicado, seleccione **obtener datos** desde el **inicio** en la cinta de opciones **Power BI Desktop** , seleccione **Power BI** desde el panel izquierdo y, a continuación, seleccione **conjuntos de datos de Power BI**.
 
-![](media/desktop-report-lifecycle-datasets/report-lifecycle_08.png)
 
 Si no tiene una sesión iniciada en Power BI, se le pedirá que lo haga. Cuando haya iniciado sesión, verá una ventana que muestra las áreas de trabajo de las que es miembro, y puede seleccionar aquella que contenga el conjunto de datos a la que va a establecer una **conexión dinámica al servicio Power BI**.
 

@@ -1,36 +1,36 @@
 ---
-title: 'Creación de un nuevo informe a partir de un conjunto de datos '
-description: Creación de un informe de Power BI nuevo a partir de un conjunto de datos
+title: Creación de un informe a partir de un conjunto de datos
+description: Crear un informe de Power BI desde un conjunto de datos.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/24/2018
+ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: b46896a06c9d7ed66e643aa218ec7dbd3da8c9ee
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6b69c2b1fa811d395a26403de852c44af33491c7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216962"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770233"
 ---
-# <a name="create-a-new-report-in-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
-Ha leído [Informes en Power BI](consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay muchas formas distintas de crear un informe y en este artículo comenzaremos por crear un informe muy básico de un conjunto de datos de Excel mediante el servicio Power BI. Una vez que conozca los fundamentos de la creación de informes, la sección **Pasos siguientes** de la parte inferior le dirigirá a temas de informes más avanzados.  
+# <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Crear un informe en el servicio Power BI mediante la importación de un conjunto de datos
+Ha leído [Informes en Power BI](consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay diferentes maneras de crear un informe. En este artículo, comenzaremos por crear un informe básico en el servicio Power BI desde un conjunto de datos de Excel. Una vez que comprenda los conceptos básicos de la creación de un informe, consulte la [pasos siguientes](#next-steps) al final para obtener más información de los temas de informes avanzados.  
 
 ## <a name="prerequisites"></a>Requisitos previos
-> - Servicio Power BI (para la creación de informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md))  
-> - Conjunto de datos de ejemplo Retail Analysis
+- [Registrarse para el servicio Power BI](service-self-service-signup-for-power-bi.md). Para crear informes con Power BI Desktop, consulte [vista Informes de Desktop](desktop-report-view.md). 
+- [Descargue el conjunto de datos de Excel de ejemplo de análisis de minoristas](http://go.microsoft.com/fwlink/?LinkId=529778) y guárdelo en OneDrive para la empresa o localmente.
 
 ## <a name="import-the-dataset"></a>Importación del conjunto de datos
-Este método de creación de informes comienza con un conjunto de datos y un lienzo de informe en blanco. Para seguir el tutorial, [descargue el conjunto de datos de Excel Retail Analysis Sample](http://go.microsoft.com/fwlink/?LinkId=529778) y guárdelo en OneDrive para la Empresa (opción preferida) o localmente.
+Este método de creación de informes comienza con un conjunto de datos y un lienzo de informe en blanco. Puede seguir a lo largo del conjunto de datos de Excel de ejemplo de análisis de minoristas.
 
-1. El informe lo crearemos en un área de trabajo de un servicio Power BI, así que seleccione un área de trabajo existente o cree una nueva.
+1. Se deberá crear el informe en un área de trabajo del servicio Power BI, por lo que seleccione un área de trabajo o cree uno.
    
    ![Lista de áreas de trabajo de la aplicación](media/service-report-create-new/power-bi-workspaces2.png)
-2. En la parte inferior del panel de navegación izquierdo, seleccione **Obtener datos**.
+2. En la parte inferior del panel de navegación izquierdo, seleccione **obtener datos**.
    
    ![Obtener datos](media/service-report-create-new/power-bi-get-data3.png)
 3. Seleccione **Archivos** y navegue hasta la ubicación en que guardó el archivo Retail Analysis Sample.
@@ -46,8 +46,8 @@ Este método de creación de informes comienza con un conjunto de datos y un lie
    
    ![Editor de informes](media/service-report-create-new/power-bi-blank-report.png)
 
-> **SUGERENCIA**: Si nunca ha usado el lienzo de edición de informes o necesita que le recuerden cómo funciona, [realice un recorrido por el editor de informes ](service-the-report-editor-take-a-tour.md) antes de continuar.
-> 
+> [!TIP]
+> Si está familiarizado con el lienzo de edición del informe, o si necesita un actualizador, [un paseo por el editor de informes](service-the-report-editor-take-a-tour.md) antes de continuar. > 
 > 
 
 ## <a name="add-a-radial-gauge-to-the-report"></a>Adición de un medidor radial al informe
@@ -62,7 +62,7 @@ Una vez que ha importado el conjunto de datos, ha llegado el momento de responde
 3. Arrastre **Ventas** > **Ventas de este año** > **Objetivo** al área **Valor del objetivo**. Parece que estamos muy cerca de nuestro objetivo.
    
     ![Objeto visual de medidor con Objetivo como Valor del objetivo](media/service-report-create-new/power-bi-report-step3.png)
-4. Este sería un buen momento para [guardar el informe](service-report-save.md).
+4. Ahora sería un buen momento para guardar el informe.
    
    ![Menú Abrir](media/service-report-create-new/powerbi-save.png)
 
@@ -78,7 +78,7 @@ Nuestro director de marketing quiere que respondamos a varias preguntas más. Qu
    
     ![Editor de informes con gráfico de áreas activo](media/service-report-create-new/power-bi-report-step5.png)
 5. Para ordenar la visualización por período de tiempo, seleccione los puntos suspensivos y elija **Sort by Period**.
-6. Ahora vamos a agregar la segmentación de datos. Seleccione un área vacía en el lienzo y elija la plantilla ![icono de segmentación](media/service-report-create-new/power-bi-slicer-icon.png)    Segmentación. Así se agrega una segmentación de datos vacía al lienzo.
+6. Ahora vamos a agregar la segmentación de datos. Seleccione un área vacía en el lienzo y elija la plantilla ![icono de segmentación](media/service-report-create-new/power-bi-slicer-icon.png) Segmentación. Ahora tenemos una segmentación de datos vacía en el lienzo.
    
     ![el lienzo del informe](media/service-report-create-new/power-bi-report-step6.png)    
 7. En el panel Campos, seleccione **Distrito**  >  **Distrito**. Mueva la segmentación de datos y cámbiela de tamaño.

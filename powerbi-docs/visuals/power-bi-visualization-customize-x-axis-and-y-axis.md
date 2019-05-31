@@ -12,11 +12,11 @@ ms.date: 11/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 1bb6cfa195e3e6158259c9ff23cb3efdc3da4a09
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223315"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61068964"
 ---
 # <a name="customize-x-axis-and-y-axis-properties"></a>Personalización de las propiedades de los ejes X e Y
 En este tutorial conocerá multitud de formas diferentes de personalizar los ejes X e Y de los objetos visuales. No todos los objetos visuales pueden personalizarse o presentan ejes; por ejemplo, los gráficos circulares no los tienen. Además, las opciones de personalización, demasiadas como para abarcarlas en un único artículo, varían de un objeto visual a otro. Por lo tanto, echaremos un vistazo a algunas de las personalizaciones de ejes más utilizadas y nos familiarizaremos con la pestaña de formato de los objetos visuales del lienzo de informes de Power BI.  
@@ -120,7 +120,7 @@ Primero deberá crear un gráfico combinado que busca el impacto que el recuento
 ### <a name="add-titles-to-both-axes"></a>Incorporación de títulos a ambos ejes
 Cuando la visualización es complicada, resulta útil agregar títulos a los ejes.  Los títulos ayudan a sus colegas a comprender la historia que está contando su visualización.
 
-1. Cambie **Título** a **Activado** para **Eje Y (columna)** y **Eje Y (línea)**.
+1. Cambie **Título** a **Activado** para **Eje Y (columna)** y **Eje Y (línea)** .
 2. Establezca **Estilo** en **Mostrar solo el título**.
 
    ![](media/power-bi-visualization-customize-x-axis-and-y-axis/yaxissettings.png)    

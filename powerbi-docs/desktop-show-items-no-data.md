@@ -11,11 +11,11 @@ ms.date: 01/03/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279996"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61370503"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Característica Mostrar elementos sin datos de Power BI
 
@@ -36,7 +36,7 @@ Para empezar a entender cómo Power BI determina qué datos son pertinentes para
 |Azul     |Pequeño         |
 |Rojo     |Grande         |
 
-En este ejemplo, Power BI muestra las combinaciones de *[Color-Size]* que hay en la tabla *[Product]*. 
+En este ejemplo, Power BI muestra las combinaciones de *[Color-Size]* que hay en la tabla *[Product]* . 
 
 Ahora, veamos otra combinación:
 
@@ -59,9 +59,9 @@ Echemos un vistazo a un caso diferente:
 |Gloss     |Rojo         |
 |Matte     |Azul         |
 
-Como no hay ninguna medida explícita y las dos tablas están directamente relacionadas, Power BI trata de insertar una medida para restringir las combinaciones resultantes. En este caso, Power BI inserta una medida *CALCULATE(COUNTROWS('Product'))*, que no debe estar en blanco, ya que *Product* es la tabla común a ambas tablas.
+Como no hay ninguna medida explícita y las dos tablas están directamente relacionadas, Power BI trata de insertar una medida para restringir las combinaciones resultantes. En este caso, Power BI inserta una medida *CALCULATE(COUNTROWS('Product'))* , que no debe estar en blanco, ya que *Product* es la tabla común a ambas tablas.
 
-Por lo tanto, Power BI muestra las combinaciones que tengan entradas en la tabla Product, que excluye las combinaciones de *("None" + "Blue")* y *("Matte" + "Red")*.
+Por lo tanto, Power BI muestra las combinaciones que tengan entradas en la tabla Product, que excluye las combinaciones de *("None" + "Blue")* y *("Matte" + "Red")* .
 
 **4. Grupos de tablas diferentes pero no relacionadas**
 
@@ -134,8 +134,8 @@ Cómo aparece si está la característica **Mostrar elementos sin datos** activa
 
 Observe cómo *(Gloss-Red)* y *(None, en blanco)* se mostraban como combinaciones. Este es el motivo por el que aparecían:
 * Power BI primero tuvo en cuenta ProductStyle[Finish] y seleccionó todos los valores para mostrar, por lo que aparecieron Gloss, Matte y None.
-* Con cada uno de estos valores, Power BI seleccionó todas las entradas correspondientes de *Product[Color]*. 
-* Como *None* no se corresponde con ningún conjunto de datos *Product[Color]*, ese valor se muestra en blanco.
+* Con cada uno de estos valores, Power BI seleccionó todas las entradas correspondientes de *Product[Color]* . 
+* Como *None* no se corresponde con ningún conjunto de datos *Product[Color]* , ese valor se muestra en blanco.
 
 Es importante tener en cuenta que el mecanismo de selección de valores de las columnas depende del orden y puede considerarse como una operación *Combinación externa izquierda* entre tablas. Si se cambia el orden de las columnas, también cambiarán los resultados.
 

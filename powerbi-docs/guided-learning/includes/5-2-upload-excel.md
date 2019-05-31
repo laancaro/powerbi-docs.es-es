@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cff8e70e43496b264fd0dd549759f939bf90e33f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271528"
+---
 En primer lugar, en este tema echaremos un vistazo a cómo importar un archivo de libro de Excel que contiene una sencilla **tabla** desde una unidad local hasta Power BI. Después, aprenderá cómo empezar a explorar los datos de dicha tabla en Power BI generando un informe.
 
 ## <a name="make-sure-your-data-is-formatted-as-a-table"></a>Datos obligatoriamente con formato de tabla

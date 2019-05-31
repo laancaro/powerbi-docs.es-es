@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: fc403220ae45fda879802fe480853a3c94fd53c0
-ms.sourcegitcommit: 69c31c15020e2707f961697eeb05cb550c9968f6
-ms.translationtype: HT
+ms.openlocfilehash: ccd8569650bd4f3da1a05c0999ad510029e5ab49
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "58220963"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61138201"
 ---
-# <a name="using-computed-entities-on-power-bi-premium-preview"></a>Uso de entidades calculadas en Power BI Premium (versión preliminar)
+# <a name="using-computed-entities-on-power-bi-premium"></a>Uso de entidades calculadas en Power BI Premium
 
 Puede realizar **cálculos en almacenamiento** al usar **flujos de datos** con una suscripción de Power BI Premium. Esto le permite realizar cálculos en los flujos de datos existente y devolver resultados que le permiten centrarse en la creación y el análisis de informes. 
 
@@ -31,10 +31,6 @@ Hay dos formas de conectar los datos de flujos de datos a Power BI:
 * Uso de un flujo de datos externo
 
 En las secciones siguientes se describe cómo crear entidades calculadas de los datos de flujos de datos.
-
-> [!NOTE]
-> La funcionalidad de flujos de datos se encuentra en versión preliminar y está sujeta a cambios y actualizaciones antes de la disponibilidad general.
-
 
 ## <a name="how-to-create-computed-entities"></a>Creación de entidades calculadas 
 
@@ -89,8 +85,8 @@ En este artículo se describen las entidades calculadas y los flujos de datos di
 
 * [Preparación de datos de autoservicio con flujos de datos](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de flujos de datos con orígenes de datos locales (versión preliminar)](service-dataflows-on-premises-gateways.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 * [Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)](service-dataflows-configure-workspace-storage-settings.md)
 * [Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)](service-dataflows-add-cdm-folder.md)
 * [Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)](service-dataflows-connect-azure-data-lake-storage-gen2.md)

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514521"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
@@ -27,7 +27,7 @@ Puede crear todas las páginas de información en pantalla que quiera. Todas las
 Hay un montón de cosas interesantes que puede hacer con la información en pantalla para informes. Vea cómo crear información en pantalla y qué pasos debe seguir para configurarla.
 
 ## <a name="create-a-report-tooltip-page"></a>Crear una página de información en pantalla para informes
-Para empezar, cree una página de informe haciendo clic en el botón **+**, que está en la parte inferior del lienzo de **Power BI Desktop**, en el área de pestañas de la página. El botón está situado al lado de la última página del informe. 
+Para empezar, cree una página de informe haciendo clic en el botón **+** , que está en la parte inferior del lienzo de **Power BI Desktop**, en el área de pestañas de la página. El botón está situado al lado de la última página del informe. 
 
 ![Creación de una página de informe para la información en pantalla](media/desktop-tooltips/desktop-tooltips_02.png)
 

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 8762be72353aa779281d721ac8038b6e3dd16aa2
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454206"
 ---
 # <a name="use-inline-hierarchy-labels-in-power-bi-desktop"></a>Uso de etiquetas de jerarquía alineadas en Power BI Desktop
@@ -51,7 +51,7 @@ Ahora, veamos un gráfico distinto que usa datos que incluyen jerarquías inform
 
 ![Gráfico con jerarquía informal](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-top-expand.png)
 
-Si selecciona **Expandir al nivel siguiente**, se muestra el nivel siguiente con la visualización en línea de las etiquetas de jerarquía. De manera predeterminada, las jerarquías en línea se ordenan según el valor de la medida, en este caso, **Cantidad**. Con las etiquetas de jerarquía en línea habilitadas, puede optar por ordenar estos datos también según la jerarquía. Para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha (**…**) y, luego, seleccione **Ordenar por ProductName ShipCountry**, tal como se muestra en la imagen siguiente.
+Si selecciona **Expandir al nivel siguiente**, se muestra el nivel siguiente con la visualización en línea de las etiquetas de jerarquía. De manera predeterminada, las jerarquías en línea se ordenan según el valor de la medida, en este caso, **Cantidad**. Con las etiquetas de jerarquía en línea habilitadas, puede optar por ordenar estos datos también según la jerarquía. Para ello, seleccione los puntos suspensivos que se encuentran en la esquina superior derecha ( **…** ) y, luego, seleccione **Ordenar por ProductName ShipCountry**, tal como se muestra en la imagen siguiente.
 
 ![Gráfico con jerarquía informal ordenado de forma predeterminada](media/desktop-inline-hierarchy-labels/desktop-inline-hierarchy-labels-informal-sort-quantity.png)
 

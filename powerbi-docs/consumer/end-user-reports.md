@@ -8,63 +8,59 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 5/10/2018
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 42648c4b2ad82eb3091ee1aa9ca75af1c87edd42
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: 02652bd027d7dab8a40d77fb92c5aae8f09d8820
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662190"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65607906"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 ## <a name="what-is-a-power-bi-report"></a>¿Qué es un informe de Power BI?
-Un ***informe*** de Power BI es una vista de varias perspectivas de un conjunto de datos, con visualizaciones que representan diferentes resultados e información detallada de ese conjunto de datos.  Un informe puede tener una sola visualización o páginas enteras de visualizaciones. Dependiendo de su rol de trabajo, es posible que pueda *crear* informes o que pueda *consumir* o usar estos informes.
+Power BI ***informe*** es una vista de varias perspectivas en un conjunto de datos con objetos visuales que representan diferentes resultados e información de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas enteras de objetos visuales. Dependiendo de su rol de trabajo, es posible que alguien que *diseños* informes o que puede ser alguien que *consume* o utiliza los informes.
 
-![Página del informe](./media/end-user-reports/reportview.png)
+![Página del informe](./media/end-user-reports/power-bi-report.png)
 
-Este informe tiene 3 páginas (o pestañas) y actualmente estamos viendo la página "Información general de las ventas de la tienda". En esta página hay 6 diferentes visualizaciones y un título de página. Las visualizaciones se pueden *anclar* a los paneles y si se selecciona esa visualización anclada, se abre el informe desde la que se ancló.
+Este informe tiene seis páginas (o pestañas) y actualmente estamos viendo la página de opinión. En esta página hay 6 diferentes objetos visuales y un título de página.  
 
 Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md)
 
-Los informes son una característica del servicio Power BI y Power BI Desktop. La experiencia de trabajar con informes es prácticamente idéntica. Sin embargo, en el caso de los dispositivos móviles, no puede crear informes, pero puede [verlos, compartirlos y anotarlos](mobile/mobile-reports-in-the-mobile-apps.md).
+Existen dos informes para ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [informes móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="advantages-of-reports"></a>Ventajas de los informes
-Los informes se basan en un único conjunto de datos. Cada una de las visualizaciones de un informe representa un fragmento de información. Y las visualizaciones no son estáticas. Puede agregar y quitar datos, cambiar los tipos de visualización y aplicar filtros y segmentaciones de datos a medida que profundiza en estos para detectar información y buscar respuestas. Al igual que un panel, o incluso más, un informe es algo muy interactivo y personalizable, y las visualizaciones se actualizan según van cambiando los datos subyacentes.
+Un informe se basa en un único conjunto de datos. Los objetos visuales en un informe se crean por informe *diseñadores* y representa un fragmento de información. Y los objetos visuales no son estáticos; puede interactuar con los objetos visuales y filtros de medida que profundiza en los datos para detectar información y buscar respuestas. Al igual que un panel, pero más, de manera, un informe es sumamente interactivo y personalizable y actualizan los objetos visuales como los cambios de datos subyacente.
+
+### <a name="safely-interact-with-content"></a>Interacción segura con el contenido
+Como puede explora e interactuar con su contenido, filtrar, segmentar, suscribirse y exportar, descuide; el trabajo no afecta al conjunto de datos subyacente o el contenido compartido original (paneles, informes y aplicaciones).
+ 
+> [!NOTE]
+> Recuerde que no se puede dañar los datos. Power BI es un excelente lugar para que pueda explorar y experimentar sin preocuparse por "estropea" cualquier cosa.
+
+### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Guarde los cambios o revertir a la configuración predeterminada
+Eso no significa que no se puede guardar los cambios; puede, pero esos cambios solo afectan a la vista del contenido. Revertir a la vista predeterminada original es tan sencilla como seleccionar el restablecimiento a botón predeterminado.
 
 ## <a name="dashboards-versus-reports"></a>Paneles frente a informes
-Los [paneles](end-user-dashboards.md) suelen confundirse con informes, ya que son igualmente lienzos con visualizaciones. Pero hay algunas diferencias importantes.  
+[Paneles](end-user-dashboards.md) suelen confundirse con informes, ya que son igualmente lienzos con objetos visuales. Pero hay algunas diferencias importantes.  
 
 | **Funcionalidad** | **Paneles** | **Informes** |
 | --- | --- | --- |
 | Páginas |Una página |Una o varias páginas |
 | Orígenes de datos |Uno o varios informes y uno o varios conjuntos de datos por cada panel |Un único conjunto de datos por informe |
-| Disponible en Power BI Desktop |No |Sí, se pueden crear y ver informes en Desktop |
-| Anclaje |Se pueden anclar visualizaciones existentes (iconos) solo desde el panel actual en los demás paneles |Se pueden anclar visualizaciones (como iconos) en cualquiera de los paneles Se pueden anclar páginas de informes completas en cualquiera de los paneles |
-| Suscribirse |No es posible suscribirse a un panel |Es posible suscribirse a páginas de informes |
 | Filtrado |No es posible filtrar ni segmentar |Numerosas formas de filtrar, resaltar y segmentar |
 | Establecimiento de alertas |Se pueden crear alertas para enviarlas por correo electrónico cuando se cumplen determinadas condiciones |No |
 | Destacado |Se puede establecer un panel como panel "destacado" |No es posible crear un informe destacado |
-| Consultas en lenguaje natural |Disponible en el panel |No disponible en los informes |
-| Se puede cambiar el tipo de visualización |No. De hecho, si el propietario de un informe cambia el tipo de visualización en el informe, la visualización anclada en el panel no se actualizará |Sí |
-| Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos pero no se pueden ver tablas ni campos en el panel |Sí. Se pueden ver tablas, campos y valores del conjunto de datos |
-| Se pueden crear visualizaciones |Se limita a agregar widgets al panel mediante "Agregar icono" |Se pueden crear muchos tipos diferentes de objetos visuales, agregar objetos visuales personalizados, editarlos, etc. con permisos de edición |
-| Personalización |Se puede hacer una serie de cosas con las visualizaciones (iconos) como mover y organizar, cambiar el tamaño, agregar vínculos, cambiar el nombre, eliminar y mostrar en pantalla completa, pero los datos y visualizaciones en sí son de solo lectura |En la Vista de lectura, se puede publicar, insertar, filtrar, exportar, descargar como .pbix, ver contenido relacionado, generar códigos QR, analizar en Excel, etc.  En la Vista de edición, se puede hacer todo lo que se ha mencionado hasta ahora y mucho más. |
+| Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Puede exportar datos pero no pueden ver las tablas del conjunto de datos y campos en el propio panel. |Sí. Puede ver las tablas del conjunto de datos, campos y valores que tienen permisos para ver. |
+| Personalización |No  |Puede filtrar, exportar, ver contenido relacionado, agregar marcadores, generar códigos QR, analizar en Excel y mucho más.   |
+
+<!--| Available in Power BI Desktop |No |Yes, can create and view reports in Desktop |
+| Pinning |Can pin existing visuals (tiles) only from current dashboard to your other dashboards |Can pin visuals (as tiles) to any of your dashboards. Can pin entire report pages to any of your dashboards. | -->
 
 ## <a name="report-creators-and-report-consumers"></a>***Creadores*** de informes y ***consumidores*** de informes
-En función de su rol, es posible que sea alguien que crea informes para su propio uso o para compartir con compañeros de trabajo. Desea información sobre cómo crear y compartir informes. O bien, es posible que sea alguien que recibe los informes de otras personas. Desea información sobre cómo comprender e interactuar con los informes.
+Dependiendo de su rol, es posible que un *diseñador*, alguien que crea informes para su propio uso o para compartir con compañeros de trabajo. Desea información sobre cómo crear y compartir informes. O bien, es posible que sea alguien que recibe los informes de otras personas. Desea información sobre cómo comprender e interactuar con los informes. Si es un informe **consumidor**, estos vínculos son para usted. 
 
-Estos son algunos de los temas, por rol, que le ayudarán a comenzar.
-
-### <a name="if-you-will-be-creating-and-sharing-reports"></a>Si va a crear y compartir informes
-* Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
-* Dé un paseo por el [editor de informes](../service-the-report-editor-take-a-tour.md).
-* Aprenda a [crear un informe a partir de un conjunto de datos](../service-report-create-new.md).
-* [Aprenda a usar los filtros en el nivel de visualización, página e informe](end-user-report-filter.md)
-* Detecte las distintas formas en que puede [compartir un informe con compañeros](../service-share-dashboards.md).
-
-### <a name="if-you-will-be-receiving-and-consuming-reports"></a>Si va a recibir y consumir informes
 * Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
 * Aprenda a [abrir un informe](end-user-report-open.md) y manejar toda la interacción disponible en [Vista de lectura](end-user-reading-view.md).
 * Familiarícese con los informes viendo uno de nuestros [ejemplos](../sample-tutorial-connect-to-the-samples.md).  

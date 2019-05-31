@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: fa891e06c83a21ac8fea299f068e3b95ad019062
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265104"
+---
 Esta es la segunda sección del curso **Aprendizaje guiado** de Power BI, **Obtención de datos**. En esta sección se examinan las herramientas y características basadas en los datos de Power BI, con especial hincapié en Power BI Desktop. Muchas de estas herramientas también se aplican al servicio Power BI, por lo que esta sección tiene una doble función.
 
 Cuando se obtienen los datos, a veces estos no presentan el formato correcto o no están tan *limpios* como desea. Por este motivo, en esta sección se indica cómo obtener los datos y cómo limpiarlos (a veces se denomina *limpieza* o *transformación* de datos), y se ofrecen algunos trucos avanzados que pueden facilitar las tareas de obtención de estos.

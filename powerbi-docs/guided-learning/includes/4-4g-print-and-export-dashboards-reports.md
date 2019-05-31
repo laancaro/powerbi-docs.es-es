@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 87a55881a9b6551dc9c7814696aa8d8252482a09
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256942"
+---
 En ocasiones, es posible que tenga que llevar un informe o un panel impresos a una reunión para compartirlos con los demás asistentes. Con Power BI, dispone de varios métodos para crear copias impresas de los objetos visuales.
 
 En el servicio Power BI, seleccione el menú de los puntos suspensivos de la parte superior derecha del servicio y seleccione **Imprimir panel**.

@@ -11,11 +11,11 @@ ms.date: 04/11/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: 12ee21427f06f0bce373adffa7ef336de144a3a4
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290576"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234506"
 ---
 # <a name="interact-with-a-report-in-editing-view-in-power-bi-service"></a>Interacción con un informe en la vista de edición en el servicio Power BI
 Los informes pueden crearse y editarse en el servicio Power BI y en Power BI Desktop. En el servicio Power BI, los informes pueden crearse y editarse en la **vista de edición**. Y en Power BI Desktop, los informes pueden crearse y editarse en la [**vista de informes**](desktop-report-view.md). Este artículo trata la vista de edición en el servicio Power BI. 

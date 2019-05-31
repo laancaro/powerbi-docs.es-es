@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 605ef74cc97843cc475a677f5fa2ebdbdaec909a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264059"
+---
 Es posible que, a veces, cuando cree paneles, tenga más contenido que el que cabe en el lienzo. Hay unas cuantas soluciones que lo ayudarán a administrar la forma en que se visualiza el espacio del panel para que pueda ver todo el contenido.
 
 El método más sencillo para visualizar todo el panel en una pantalla es seleccionar el botón **Modo de pantalla completa** de la esquina superior derecha del panel.

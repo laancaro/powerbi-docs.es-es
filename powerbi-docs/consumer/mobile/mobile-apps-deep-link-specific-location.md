@@ -7,101 +7,110 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: ccb3b390b0654c7dc850cf66a7f0c9a7ec02f910
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54278409"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64906530"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
-Puede crear y usar un identificador uniforme de recursos (URI) para establecer un vínculo a una ubicación específica (es decir, un *vínculo profundo*) dentro de las aplicaciones móviles de Power BI en todas las plataformas móviles: iOS, dispositivos Android y Windows 10.
+Puede usar vínculos para tener acceso directamente a elementos específicos en Power BI: Informe, el panel y el icono.
 
-Los vínculos URI pueden apuntar directamente a paneles, mosaicos e informes.
+Existen principalmente dos escenarios de uso de vínculos en Power BI Mobile: 
 
-El destino del vínculo profundo determina el formato del URI. Siga estos pasos para crear vínculos profundos a ubicaciones diferentes. 
-
-## <a name="open-the-power-bi-mobile-app"></a>Abrir la aplicación móvil de Power BI
-Use este URI para abrir la aplicación móvil de Power BI en cualquier dispositivo:
-
-    mspbi://app/
+* Para abrir Power BI desde **fuera de la aplicación**y terrestre en contenido específico (panel/informes/aplicación). Esto suele ser un escenario de integración, cuando desee abrir Power BI Mobile desde otra aplicación. 
+* Para **vaya** dentro de Power BI. Se trata normalmente cuando desea crear una navegación personalizada en Power BI.
 
 
-## <a name="open-to-a-specific-dashboard"></a>Abrir en un panel específico
-Este URI abre la aplicación móvil de Power BI en un panel específico:
+## <a name="use-links-from-outside-of-power-bi"></a>Usar vínculos desde fuera de Power BI
+Cuando se usa un vínculo desde fuera de la aplicación de Power BI, desea asegurarse de que se abrirá la aplicación, y si la aplicación no está instalada en el dispositivo y, después, para ofrecer al usuario para instalarlo. Hemos creado un formato de vínculo especial para admitir exactamente eso. Este formato de vínculo, se asegurará de que el dispositivo está utilizando la aplicación para abrir el vínculo y, si la aplicación no está instalada en el dispositivo, ofrecerá al usuario que vaya a la tienda para obtenerlo.
 
-    mspbi://app/OpenDashboard?DashboardObjectId=<36-character-dashboard-id>
+El vínculo debe comenzar con el siguiente  
+```html
+https://app.powerbi.com/Redirect?[**QUERYPARAMS**]
+```
 
-Para buscar el identificador de objeto del panel de 36 caracteres, vaya al panel específico del servicio Power BI (https://powerbi.com). Por ejemplo, vea la sección resaltada de esta dirección URL:
+> [!IMPORTANT]
+> Si el contenido está hospedado en un centro de datos especial, como China, gobierno, etcetera. El vínculo debe comenzar con la dirección correcta de Power BI, como `app.powerbigov.us` o `app.powerbi.cn`.   
+>
 
-`https://powerbi.com/groups/me/dashboards/**61b7e871-cb98-48ed-bddc-6572c921e270**`
 
-Si el panel se encuentra en un grupo distinto de Mi área de trabajo, agregue `&GroupObjectId=<36-character-group-id>` antes o después del identificador del panel. Por ejemplo: 
+El **consulta PARAMS** son:
+* **acción** (obligatorio) = OpenApp / OpenDashboard / OpenTile / OpenReport
+* **appId** = si desea abrir un informe o panel que forman parte de una aplicación 
+* **groupObjectId** = si desea abrir un informe o panel que forman parte del área de trabajo (pero no en Mi área de trabajo)
+* **dashboardObjectId** = Id. de objeto de panel (si la acción es OpenDashboard o OpenTile)
+* **reportObjectId** = Id. de objeto de informe (si la acción es OpenReport)
+* **tileObjectId** = Id. de objeto de icono (si la acción es OpenTile)
+* **reportPage** = si desea abrir la sección de informe específico (si la acción es OpenReport)
+* **ctid** = elemento Id. de organización (relevante para el escenario de B2B. Esto se puede omitir si el elemento pertenece a la organización del usuario).
 
-mspbi://app/OpenDashboard?DashboardObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+**Ejemplos:**
 
-Observe la Y comercial (&) entre los dos.
+* Vínculo de abrir una aplicación 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenApp&appId=appidguid&ctid=organizationid
+  ```
 
-## <a name="open-to-a-specific-tile-in-focus"></a>Abrir en un icono concreto en modo de enfoque
-Este URI abre un icono específico en modo de enfoque en la aplicación móvil de Power BI:
+* Abrir el panel que forma parte de una aplicación 
+  ```html
+  https://app.powerbi.com/Redirect?action=OpenDashboard&appId=**appidguid**&dashboardObjectId=**dashboardidguid**&ctid=**organizationid**
+  ```
 
-    mspbi://app/OpenTile?DashboardObjectId=<36-character-dashboard-id>&TileObjectId=<36-character-tile-id>
+* Abra el informe que forma parte de un área de trabajo
+  ```html
+  https://app.powerbi.com/Redirect?Action=OpenReport&reportObjectId=**reportidguid**&groupObjectId=**groupidguid**&reportPage=**ReportSectionName**
+  ```
 
-Para buscar el identificador de objeto y de icono del panel de 36 caracteres, vaya al panel específico en el servicio Power BI (https://powerbi.com) y abra el icono en modo de enfoque. Por ejemplo, vea las secciones resaltadas de esta dirección URL:
+### <a name="how-to-get-the-right-link-format"></a>Cómo obtener el formato de vínculo derecho
 
-`https://powerbi.com/groups/me/dashboards/**3784f99f-b460-4d5e-b86c-b6d8f7ec54b7**/tiles/**565f9740-5131-4648-87f2-f79c4cf9c5f5**/infocus`
+#### <a name="links-of-apps-and-items-in-app"></a>Vínculos de las aplicaciones y elementos de la aplicación
 
-En el caso de este icono, el URI sería el siguiente:
+Para **aplicaciones e informes y paneles que forman parte de una aplicación**, es la manera más fácil de obtener el vínculo Ir al área de trabajo de aplicación y elija "Actualizar aplicación". Se abrirá la experiencia de "Aplicación de publicación" y, en la ficha acceso, encontrará un **vínculos** sección. Expansión que sección y verá una lista de la aplicación y todo su contenido vínculos puede utilizarse para tener acceso a ellos directamente.
 
-    mspbi://app/OpenTile?DashboardObjectId=3784f99f-b460-4d5e-b86c-b6d8f7ec54b7&TileObjectId=565f9740-5131-4648-87f2-f79c4cf9c5f5
+![Publicar los vínculos de aplicación de Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
-Observe la Y comercial (&) entre los dos.
+#### <a name="links-of-items-not-in-app"></a>Vínculos de elementos no en la aplicación 
 
-Si el panel se encuentra en un grupo distinto de Mi área de trabajo, agregue `&GroupObjectId=<36-character-group-id>`.
+Para los informes y paneles que no forman parte de una aplicación, deberá extraer el Id. de la dirección URL del elemento.
 
-## <a name="open-to-a-specific-report"></a>Abrir en un informe específico
-Este URI abre un informe específico en la aplicación móvil de Power BI:
+Por ejemplo, para buscar el carácter de 36 **panel** Id. de objeto, vaya al panel específico en el servicio Power BI 
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>
+```html
+https://app.powerbi.com/groups/me/dashboards/**dashboard guid comes here**?ctid=**organization id comes here**`
+```
 
-Para buscar el identificador de objeto del informe de 36 caracteres, vaya al informe específico en el servicio Power BI (https://powerbi.com). Por ejemplo, vea la sección resaltada de esta dirección URL:
+Para buscar el carácter de 36 **informe** Id. de objeto, navegue hasta el informe específico en el servicio Power BI.
+Este es un ejemplo de informe desde "Mi área de trabajo"
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300`
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**`
+```
+La dirección URL anterior también contiene página específica del informe **"ReportSection3"** .
 
-Si el informe se encuentra en un grupo distinto de Mi área de trabajo, agregue `&GroupObjectId=<36-character-group-id>` antes o después del identificador del informe. Por ejemplo: 
+Este es un ejemplo de un informe desde un área de trabajo (no mi área de trabajo)
 
-mspbi://app/OpenReport?ReportObjectId=e684af3a-9e7f-44ee-b679-b9a1c59b5d60 **&GroupObjectId=8cc900cc-7339-467f-8900-fec82d748248**
+```html
+https://app.powerbi.com/groups/**groupid comes here**/reports/**reportid comes here**/ReportSection1?ctid=**organizationid comes here**
+```
 
-Observe la Y comercial (&) entre los dos.
+## <a name="use-links-inside-power-bi"></a>Use los vínculos dentro de Power BI
 
-## <a name="open-to-a-specific-report-page"></a>Abrir en una página específica del informe
-Este URI abre una página específica del informe en la aplicación móvil de Power BI:
+Vínculos dentro de Power BI están trabajando en las aplicaciones móviles exactamente como en servicio Power BI.
 
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>&reportPage=ReportSection<number>
+Si desea agregar el vínculo a un informe que apunta a otro elemento de Power BI, simplemente copie esa dirección URL del elemento de la barra de direcciones del explorador. Obtenga más información sobre [cómo agregar un hipervínculo a un cuadro de texto en un informe](https://docs.microsoft.com/power-bi/service-add-hyperlink-to-text-box).
 
-La página del informe se denomina "ReportSection" y va seguida de un número. También en este caso, abra el informe en el servicio Power BI (https://powerbi.com) y vaya a la página específica del informe. 
+## <a name="use-report-url-with-filter"></a>Use la dirección URL del informe con filtro
+Igual que el servicio Power BI, Power BI Mobile apps también admiten dirección URL de informe que contiene un parámetro de consulta de filtro. Puede abrir un informe en la aplicación móvil de Power BI y filtrarlos a estado específico. Por ejemplo, esta dirección URL se abre el informe de ventas y filtrarlos por territorio
 
-Por ejemplo, vea la sección resaltada de esta dirección URL:
+```html
+https://app.powerbi.com/groups/me/reports/**report guid comes here**/ReportSection3?ctid=**organization id comes here**&filter=Store/Territory eq 'NC'
+```
 
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/ReportSection11`
-
-## <a name="open-in-full-screen-mode"></a>Abrir en modo de pantalla completa
-Agregue el parámetro en negrita para abrir un informe específico en modo de pantalla completa:
-
-    mspbi://app/OpenReport?ReportObjectId=<36-character-report-id>**&openFullScreen=true**
-
-Por ejemplo: 
-
-mspbi://app/OpenReport?ReportObjectId=500217de-50f0-4af1-b345-b81027224033&openFullScreen=true
-
-## <a name="add-context-optional"></a>Agregar contexto (opcional)
-También puede agregar contexto en la cadena. Si más adelante necesita ponerse en contacto con nosotros, podemos usar ese contexto para filtrar los datos de su aplicación. Agregue `&context=<app-name>` al vínculo.
-
-Por ejemplo, vea la sección resaltada de esta dirección URL: 
-
-`https://powerbi.com/groups/me/reports/df9f0e94-31df-450b-b97f-4461a7e4d300/&context=SlackDeepLink`
+Obtenga más información sobre [crear parámetros de consulta para filtrar informes](https://docs.microsoft.com/power-bi/service-url-filters).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvide votar por otras características que le gustaría ver en aplicaciones móviles de Power BI. 

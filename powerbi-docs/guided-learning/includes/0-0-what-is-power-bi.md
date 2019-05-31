@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 30cd80cbeafe2da4468a0049bfa0c34715bce0d3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051101"
+---
 Este es el curso de **Aprendizaje guiado** de Power BI. Este curso en línea de autoaprendizaje explica qué es Power BI de forma progresiva, para que pueda aumentar sus conocimientos desde lo más básico.
 
 El curso está diseñado para ofrecer orientación en fragmentos comprensibles, con un flujo lógico que lo ayuda a asimilar conceptos, detalles y ejemplos. También incluye una gran cantidad de objetos visuales y vídeos para contribuir a su aprendizaje.
@@ -23,7 +31,7 @@ Estos tres elementos, **Desktop**, el **servicio** y el destinado a **dispositiv
 ## <a name="how-power-bi-matches-your-role"></a>Adaptación de Power BI a su rol
 Es posible que la forma en que utilice Power BI dependa de su rol en un proyecto o equipo. Por tanto, otras personas con otros roles podrían utilizar Power BI de un modo distinto, lo cual es normal.
 
-Por ejemplo, podría darse el caso de que usted utilizara sobre todo el **servicio Power BI**, mientras que su compañero de trabajo, dedicado a procesar los números y crear informes empresariales, usara **Power BI Desktop** (y publicara informes de Desktop en el servicio Power PI, de forma que usted podría verlos). Por su parte, otra compañera que se dedica a las ventas podría utilizar principalmente la aplicación para móviles de Power BI para supervisar el progreso de sus cuotas de venta y profundizar en los detalles de los nuevos clientes potenciales.
+Por ejemplo, podría darse el caso de que usted utilizara sobre todo el **servicio Power BI**, mientras que su compañero de trabajo, dedicado a procesar los números y crear informes empresariales, usara **Power BI Desktop** (y publicara informes de Desktop en el servicio Power PI, de forma que usted podría verlos). Y otro compañero de trabajo, en las ventas, principalmente usaría aplicación de teléfono de Power BI para supervisar el progreso en las cuotas de venta y profundizar en los detalles del nuevo cliente potencial.
 
 También podría utilizar cada elemento de **Power BI** en distintos momentos, en función de su objetivo o su rol en un proyecto o trabajo determinados.
 

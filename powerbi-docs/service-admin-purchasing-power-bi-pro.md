@@ -11,11 +11,11 @@ ms.date: 10/21/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: 15cd5e021969a050937b9d67eb7695f4fcde07c0
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383095"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61188648"
 ---
 # <a name="purchase-and-assign-power-bi-pro-licenses"></a>Adquirir y asignar licencias de Power BI Pro
 
@@ -53,7 +53,7 @@ Siga estos pasos para adquirir licencias de Power BI Pro:
 
     ![Suscripción a Power BI](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-04.png)
 
-5. Mueva el puntero por encima del botón de puntos suspensivos (**...**) de la suscripción que quiera y seleccione **Comprar ahora**.
+5. Mueva el puntero por encima del botón de puntos suspensivos ( **...** ) de la suscripción que quiera y seleccione **Comprar ahora**.
 
     ![Comprar ahora](media/service-admin-purchasing-power-bi-pro/service-purchasing-power-bi-pro-05.png)
 

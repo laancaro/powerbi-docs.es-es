@@ -1,21 +1,21 @@
 ---
 title: Configuración de opciones de flujo de datos del área de trabajo
-description: Configure un área de trabajo de la aplicación en Power BI para almacenar los archivos de definición de flujo de datos y de datos en Azure Data Lake Storage Gen2.
+description: Configurar un área de trabajo de aplicación en Power BI para almacenar su definición de flujo de datos y archivos de datos en Azure Data Lake Storage Gen2
 author: davidiseminger
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/10/2018
+ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8c17a7b4ad455077d383eaff9b35a5d1004fce11
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 52ef3f57276e7f7560b9d7df7bc1be465d842eb3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223637"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61168611"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
 
@@ -52,9 +52,6 @@ A continuación, expanda el área **Avanzadas** del cuadro de diálogo **Crear �
 ![Configuración avanzada para la nueva área de trabajo](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
 Seleccione **Guardar** para crear el área de trabajo. Cualquier flujo de datos creado en esta área de trabajo ahora almacena su archivo de definición (Model.json) y sus datos en la cuenta de Azure Data Lake Storage Gen2 de su organización. 
-
-> [!NOTE]
-> La funcionalidad de flujos de datos se encuentra en versión preliminar y está sujeta a cambios y actualizaciones antes de la disponibilidad general.
 
 ## <a name="update-dataflow-storage-for-an-existing-workspace"></a>Actualizar el almacenamiento de flujo de datos de un área de trabajo existente
 

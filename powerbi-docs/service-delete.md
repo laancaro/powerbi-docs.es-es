@@ -11,11 +11,11 @@ ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216134"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61157821"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -109,7 +109,7 @@ Si ya no desea ser miembro de un área de trabajo de la aplicación, puede ***ab
 >
 
 1. Inicie el área de trabajo de la aplicación que desea quitar.
-2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Leave workspace (Abandonar área de trabajo)** > **Abandonar**.
+2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Leave workspace (Abandonar área de trabajo)**  > **Abandonar**.
 
       ![Abandonar área de trabajo](media/service-delete/power-bi-leave-workspace.png)
 

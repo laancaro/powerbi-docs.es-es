@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.component: powerbi-service
 ms.topic: conceptual
-ms.date: 02/04/2019
+ms.date: 04/26/2019
 ms.author: maggies
-ms.openlocfilehash: 445f5f087bd9589b18f798e8db40a63b0ddceafe
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 0ea8f19fa36bf1f9ceb5f8f0b92bd53ebdfa2a01
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56250110"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64578527"
 ---
 # <a name="what-are-power-bi-template-apps-preview"></a>¿Qué son las aplicaciones de plantilla de Power BI? (versión preliminar)
 
@@ -24,10 +24,10 @@ Las aplicaciones de plantilla reemplazan a los paquetes de contenido de servicio
 
 Crea aplicaciones de plantillas que permiten a los clientes conectarse y crear instancias con sus propias cuentas. Como expertos de dominio, pueden desbloquear los datos de forma que sus usuarios empresariales puedan consumirlos fácilmente.  
 
-Envía las aplicaciones de plantilla creadas por los asociados a Cloud Partner Portal. Después, las aplicaciones pasan a estar disponibles de forma pública en la galería de aplicaciones de Power BI (app.powerbi.com/getdata/services) y en Microsoft AppSource (appsource.microsoft.com). Este es un ejemplo de la experiencia de aplicación de plantilla pública.  
+Envíe sus aplicaciones de la plantilla a Cloud Partner Portal. Después, las aplicaciones pasan a estar disponibles de forma pública en la galería de aplicaciones de Power BI (app.powerbi.com/getdata/services) y en Microsoft AppSource (appsource.microsoft.com). Le presentamos una visión de alto nivel la experiencia de creación de aplicaciones pública.  
 
-## <a name="overview"></a>Información general
-El proceso general para desarrollar y enviar una plantilla de aplicación implica varias fases, y algunas pueden implicar más de una actividad al mismo tiempo.
+## <a name="process"></a>Proceso
+El proceso general para desarrollar y enviar una plantilla de aplicación implica varias fases. Algunas fases pueden incluir más de una actividad al mismo tiempo.
 
 
 | Fase | Power BI Desktop |  |Servicio Power BI  |  |Cloud Partner Portal  |

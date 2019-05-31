@@ -1,27 +1,27 @@
 ---
 title: Crear un conjunto de datos
 description: Tutorial - Inserción de datos en un conjunto de datos - Creación de un conjunto de datos en Power BI
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: f0815f3712992b26a69ac60aba6eecae8b60fde4
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216180"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710393"
 ---
 # <a name="step-3-create-a-dataset-in-power-bi"></a>Paso 3: Creación de un conjunto de datos en Power BI
 Este artículo forma parte de un tutorial paso a paso para [insertar datos en un conjunto de datos](walkthrough-push-data.md).
 
 En el **paso 2** de Insertar datos en un conjunto de datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), obtuvo un token para autenticarse en **Azure AD**. En este paso, el token se usa para llamar a la operación [PostDataSet](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
-Para realizar una llamada a un recurso de REST, se usa una dirección URL que localiza el recurso y se envía una cadena de notación de objetos JavaScript (JSON), que describe el conjunto de datos, al recurso del servicio Power BI. Un recurso de REST identifica la parte del servicio Power BI con la que quiere trabajar. Para insertar datos en el conjunto de datos, el recurso de destino es un **conjunto de datos**. La dirección URL que identifica un conjunto de datos es https://api.PowerBI.com/v1.0/myorg/datasets. Si inserta datos en un grupo, la dirección URL es https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Para realizar una llamada a un recurso de REST, se usa una dirección URL que localiza el recurso y se envía una cadena de notación de objetos JavaScript (JSON), que describe el conjunto de datos, al recurso del servicio Power BI. Un recurso de REST identifica la parte del servicio Power BI con la que quiere trabajar. Para insertar datos en el conjunto de datos, el recurso de destino es un **conjunto de datos**. La dirección URL que identifica un conjunto de datos es https://api.PowerBI.com/v1.0/myorg/datasets. Si va a insertar datos dentro de un grupo, la dirección url es https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Para autenticar una operación de REST de Power BI, debe agregar el token que obtuvo en [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md) a un encabezado de solicitud:
 
@@ -155,7 +155,7 @@ namespace walkthrough_push_data
             string resourceUri = "https://analysis.windows.net/powerbi/api";
 
             //OAuth2 authority Uri
-            string authorityUri = "https://login.microsoftonline.net/common/";
+            string authorityUri = "https://login.microsoftonline.com/common/";
 
             //Get access token:
             // To call a Power BI REST operation, create an instance of AuthenticationContext and call AcquireToken

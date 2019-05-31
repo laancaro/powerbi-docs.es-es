@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b1658a9351c05a8673c6cc582a4e54ad982791fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257082"
+---
 Power BI permite definir visualmente la relación entre tablas o elementos. Para obtener una vista esquemática de los datos, use la **vista de relaciones**, que se encuentra en el extremo izquierdo de la pantalla, junto al lienzo del informe.
 
 ![](media/2-2-manage-data-relationships/2-2_1.png)
@@ -16,7 +24,7 @@ Para obtener una vista más detallada de las relaciones de datos, seleccione **A
 
 ![](media/2-2-manage-data-relationships/2-2_4.png)
 
-Los valores posibles de Cardinalidad son *Varios a uno (:1)* y *Uno a uno (1:1)*. *Varios a uno (:1)* indica que se trata de una relación del tipo "dato a dimensión"; por ejemplo, una tabla de ventas con varias filas por producto que se están asociando a una tabla en la que se enumeran los productos con una fila para cada uno. *Uno a uno (1:1)* se utiliza habitualmente para vincular entradas individuales de las tablas de referencia.
+Los valores posibles de Cardinalidad son *Varios a uno (:1)* y *Uno a uno (1:1)* . *Varios a uno (:1)* indica que se trata de una relación del tipo "dato a dimensión"; por ejemplo, una tabla de ventas con varias filas por producto que se están asociando a una tabla en la que se enumeran los productos con una fila para cada uno. *Uno a uno (1:1)* se utiliza habitualmente para vincular entradas individuales de las tablas de referencia.
 
 De manera predeterminada, las relaciones se establecerán con el filtro cruzado en ambas direcciones. Si se establece el filtro cruzado en una sola dirección, se limitarán algunas de las funciones de modelado de la relación.
 

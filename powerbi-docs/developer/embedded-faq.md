@@ -1,20 +1,20 @@
 ---
 title: Preguntas más frecuentes acerca de Power BI Embedded
 description: Examinar una lista de las preguntas más frecuentes, y sus respuestas, acerca de Power BI Embedded.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: abc45f3c32ee5db81f71295268db85bfce23aafd
-ms.sourcegitcommit: 39bc75597b99bc9e8d0a444c38eb02452520e22b
-ms.translationtype: HT
+ms.date: 05/22/2019
+ms.openlocfilehash: 1bdc31d550573b926d45776307b8fcade95f0dc0
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "58430447"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66222170"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -25,43 +25,44 @@ ms.locfileid: "58430447"
 
 ### <a name="what-is-power-bi-embedded"></a>¿Qué es Power BI Embedded?
 
-[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) permite a los desarrolladores de aplicaciones insertar sorprendentes informes totalmente interactivos en aplicaciones sin el tiempo y los gastos que conlleva la creación de sus propias visualizaciones de datos y controles de principio a fin.
+[Microsoft Power BI Embedded (PBIE)](azure-pbie-what-is-power-bi-embedded.md) permite a los desarrolladores de aplicaciones insertar impactantes informes totalmente interactivos en sus aplicaciones sin tener que crear sus propias visualizaciones de datos y controles desde cero.
 
 ### <a name="who-is-the-target-audience-for-power-bi-embedded"></a>¿Quién es la público objetivo de Power BI Embedded?
 
-Los desarrolladores y las empresas de software que crean sus aplicaciones, a los que se les conoce como fabricantes de software independientes (ISV).
+Los desarrolladores y compañías de software, también conocido como independientes de software (ISV), codificación de aplicaciones.
 
 ### <a name="how-is-power-bi-embedded-different-from-power-bi-the-service"></a>¿En qué se diferencian Power BI Embedded del servicio Power BI?
 
-Power BI Embedded está previsto para los ISV o desarrolladores que compilan aplicaciones y desean insertar objetos visuales en dichas aplicaciones para ayudar a sus clientes a tomar decisiones sin generar ninguna solución de análisis desde el principio. El [análisis integrado](embedding.md) permite a los usuarios empresariales acceder a los datos empresariales y realizar consultas para generar información del uso de estos datos en la aplicación.
-
 Power BI es una solución de análisis de software como servicio que proporciona a las organizaciones una única vista de sus datos empresariales más importantes.
+
+Microsoft desarrolló Power BI Embedded para ISV que desean insertar objetos visuales en sus aplicaciones para ayudar a sus clientes a tomar decisiones de análisis. Esto le ahorra ISV de tener que crear la solución de su propio análisis propios. [Análisis insertados](embedding.md) permite a los usuarios de empresa tener acceso a datos empresariales y ejecutar consultas en ellos para generar información dentro de la aplicación.
+
 
 ### <a name="what-is-the-difference-between-power-bi-premium-and-power-bi-embedded"></a>¿En qué se diferencian Power BI Premium y Power BI Embedded?
 
-La capacidad de Power BI Premium está dirigida a las empresas, quienes desean una completa solución de inteligencia empresarial que proporcione una vista única de su organización, asociados, clientes y proveedores. Power BI Premium ayuda a las organizaciones a tomar decisiones. Power BI Premium es un producto SaaS e incluye la capacidad de que los usuarios consuman el contenido a través del portal de Power BI, un aplicación móvil y aplicaciones desarrolladas internamente.
+Power BI Premium está dirigida a las empresas que desean una completa solución de BI que proporciona una vista única de su organización, asociados, clientes y proveedores de capacidad. Power BI Premium ayuda a las organizaciones a tomar decisiones. Power BI Premium es un producto SaaS que permite a los usuarios consuman contenido a través de aplicaciones móviles, aplicaciones desarrolladas internamente, o en el portal de Power BI.
 
-Power BI Embedded es para aquellos ISV o desarrolladores que creen aplicaciones y deseen insertar objetos visuales en dichas aplicaciones. Power BI Embedded ayuda a los clientes tomar decisiones. Dado que Power BI Embedded es para desarrolladores de aplicaciones, los clientes de la aplicación pueden consumir contenido almacenado en la capacidad de Power BI Embedded, incluidos todos los usuarios de dentro o fuera de la organización. El contenido de la capacidad de Power BI Embedded no se puede compartir a través de la publicación en la Web con un solo clic ni de la publicación en SharePoint con un solo clic, y no es compatible con los informes de SSRS.
+Power BI Embedded es para los ISV que desean insertar objetos visuales en sus aplicaciones. Power BI Embedded ayuda a los clientes tomar decisiones. Dado que Power BI Embedded es para desarrolladores de aplicaciones, los clientes de la aplicación pueden consumir contenido almacenado en la capacidad de Power BI Embedded, incluidos todos los usuarios de dentro o fuera de la organización. No se puede compartir en Power BI Embedded contenido de la capacidad a través de un solo clic publicar en Web o con un solo clic a SharePoint.
 
 ### <a name="what-is-the-microsoft-recommendation-for-when-a-customer-should-buy-power-bi-premium-vs-power-bi-embedded"></a>¿A quiénes recomienda Microsoft comprar Power BI Premium y a quiénes Power BI Embedded?
 
-Microsoft recomienda que las empresas compren Power BI Premium, una solución autoservicio de inteligencia empresarial en la nube de nivel empresarial, y que los ISV compren Power BI Embedded, componentes de análisis integrado con tecnología de la nube. Sin embargo, no hay restricción alguna sobre qué producto puede comprar un cliente.
+Microsoft recomienda que las empresas compren Power BI Premium, un nivel empresarial, la solución de BI de autoservicio en la nube. Se recomienda que los ISV compren Power BI Embedded para sus componentes de análisis insertados con tecnología de nube. Sin embargo, un cliente tiene ninguna restricción sobre qué producto desea comprar.
 
-Puede haber algunos casos en los que un ISV (normalmente grande) desee utilizar una SKU P para lograr las ventajas adicionales del servicio Power BI preempaquetado en su organización, así como para insertarlo en sus aplicaciones. Es posible que algunas empresas decidan usar SKU A en Azure si solo les interesa la línea de creación de aplicaciones empresariales e inserción de análisis en ellas, pero no les interesa usar el servicio Power BI ya empaquetado.
+Puede haber algunos casos donde un ISV (normalmente grande), además de insertar una aplicación, desea usar una SKU P para lograr las ventajas adicionales del servicio Power BI preempaquetado dentro de su organización. Es posible que algunas empresas decidan usar SKU A en Azure si solo les interesa la línea de creación de aplicaciones empresariales e inserción de análisis en ellas, pero no les interesa usar el servicio Power BI ya empaquetado.
 
 ### <a name="how-many-embed-tokens-can-i-create"></a>¿Cuántos tokens de inserción puedo crear?
 
-Los tokens de inserción con licencia PRO están pensados para pruebas de desarrollo, de modo que el número de tokens de inserción que puede generar una cuenta maestra o una [entidad de servicio](embed-service-principal.md) de Power BI es limitado. Para realizar inserciones en un entorno de producción, [compre una capacidad](#technical). No hay ningún límite en la cantidad de tokens de inserción que se pueden generar cuando se compra una capacidad. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Power BI Embedded.
+Insertar tokens con licencia PRO están pensados para pruebas de desarrollo, por lo que la cuenta maestra de Power BI o [entidad de servicio](embed-service-principal.md) solo se puede generar un número limitado de tokens. Para realizar inserciones en un entorno de producción, [compre una capacidad](#technical). No hay ningún límite para cuántos tokens que puede generar cuando compra una capacidad de inserción. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures) (Características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Power BI Embedded.
 
 ## <a name="technical"></a>Preguntas técnicas
 
 ### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>¿En qué se diferencian las SKU A de Azure y las SKU EM de Office 365?
 
-PowerBI.com es una solución empresarial que incluye numerosas funcionalidades, como colaboración social, suscripción a correo electrónico y otras características, en una oferta de software como servicio.
+PowerBI.com es una empresa de Software como una solución de servicio (SaaS) con muchas capacidades como colaboración social, suscripción de correo electrónico y otras características. PowerBI.com ayuda a los ISV a administrar sus soluciones de análisis insertado contenido y configuración de nivel de inquilinos.
 
-Power BI Embedded es un conjunto de API que Microsoft pone a disposición de los desarrolladores para crear una solución de análisis insertado en una oferta de plataforma como servicio. En el caso de análisis insertado, debe usarse PowerBI.com para ayudar tanto a los ISV como a los desarrolladores a administrar el contenido de su solución de análisis insertado contenido y la configuración del nivel de los inquilinos.
+Power BI Embedded es una plataforma como servicio (PaaS) del conjunto de desarrolladores de API puede usar para crear una solución de análisis insertados.
 
-Esta es una lista parcial de las diferencias que puede utilizar con cada una de ellas.
+Esta es una lista parcial de diferencias de características.
 
 | Destacado | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
@@ -82,12 +83,12 @@ Esta es una lista parcial de las diferencias que puede utilizar con cada una de 
 |Casos de uso | Insertar contenido en su propia aplicación | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Compartir contenido con usuarios de Power BI mediante el [servicio Power BI](https://powerbi.microsoft.com/)  |
 |Facturación |Cada hora |Mensual |Mensualmente |
 |Asignación  |Sin asignación |Anualmente  |Mensual o anual |
-|Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede usar para insertar contenido en SharePoint Online y Microsoft Teams (se excluyen las aplicaciones móviles) |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
+|Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Puede usar para insertar contenido en SharePoint Online y Microsoft Teams (excluye la aplicación móvil) |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
 
 ### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>¿Cuáles son los requisitos previos para crear una capacidad de PBIE en Azure?
 
-* Inicie sesión en el directorio de la organización (no se admiten cuentas MSA).
-* Debe tener un inquilino de Power BI, es decir, al menos un usuario en su directorio debe estar registrado en Power BI. 
+* Inicie sesión en el directorio de su organización (no se admiten las cuentas de Microsoft).
+* Debe tener un inquilino de Power BI, es decir, al menos un usuario en el directorio ha registrado en Power BI. 
 * Debe tener una suscripción a Azure en el directorio de su organización.
 
 ### <a name="how-can-i-monitor-power-bi-embedded-capacity-consumption"></a>¿Cómo puedo supervisar el uso de funcionalidad de Power BI Embedded?
@@ -98,48 +99,48 @@ Esta es una lista parcial de las diferencias que puede utilizar con cada una de 
 
 * Con los [registros de diagnóstico de Azure](azure-pbie-diag-logs.md).
 
-### <a name="can-my-capacity-scale-automatically-to-adjust-to-the-consumption-of-my-app"></a>¿Mi capacidad se puede escalar de forma automática para ajustarse al consumo de mi aplicación?
+### <a name="can-my-capacity-scale-automatically-to-adjust-to-my-app-consumption"></a>¿Puede escalar automáticamente mi capacidad para ajustarse al consumo de mi aplicación?
 
-Aunque en la actualidad no hay escalado automático, todas las API están disponibles para escalarlas en cualquier momento.
+Aunque hay no ahora de escalado automático, todas las API están disponibles para escalar en cualquier momento.
 
 ### <a name="why-creatingscalingresuming-a-capacity-results-in-putting-the-capacity-into-a-suspended-state"></a>¿Por qué al crear, escalar o reanudar una capacidad, esta pasa a un estado suspendido?
 
-El aprovisionamiento de una capacidad (escalado/reanudación/creación) puede generar errores. El autor de la llamada de aprovisionamiento debe consultar el estado de aprovisionamiento (ProvisioningState) de una capacidad, usando para ello la API de obtención de detalles: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (Capacidades: Obtener detalles).
+Aprovisionamiento de capacidad (escala/reanudar o crear) puede producir un error. Puede usar la obtención de detalles API para comprobar el estado de aprovisionamiento de una capacidad: [Capacities - Get Details](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities/getdetails) (Capacidades: Obtener detalles).
 
 ### <a name="can-i-only-create-power-bi-embedded-capacities-in-a-specific-region"></a>¿Puedo crear solo las capacidades de Power BI Embedded en una región específica?
 
 Con la característica [Multi-Geo (versión preliminar)](embedded-multi-geo.md), puede adquirir una [capacidad de Power BI Embedded](azure-pbie-create-capacity.md) en una región distinta de la ubicación del inquilino principal de Power BI.
 
-### <a name="how-can-i-find-what-is-my-pbi-tenant-region"></a>¿Cómo puedo averiguar cuál es mi región de inquilino de PBI?
+### <a name="how-can-i-find-my-pbi-tenant-region"></a>¿Cómo puedo encontrar mi región del inquilino PBI?
 
-Puede usar el portal de PBI para saber cuál es su región de inquilino de PBI.
+Puede usar el portal de PBI para buscar la región del inquilino de PBI.
 
 [https://app.powerbi.com/](https://app.powerbi.com/) > ? > Acerca de Power BI
 
 ![Acerca de Power BI](media/embedded-faq/about-01.png)
 ![Región del inquilino](media/embedded-faq/tenant-location-01.png)
 
-### <a name="what-is-supported-by-the-cloud-solution-provider-csp-channel"></a>¿Qué admite el canal Proveedor de soluciones en la nube (CSP)?
+### <a name="what-does-the-cloud-solution-provider-csp-channel-support"></a>¿Qué admite el canal de proveedor de soluciones en la nube (CSP)?
 
 * Puede crear PBIE en su inquilino con el tipo de suscripción de CSP.
 * La cuenta de asociado puede iniciar sesión en el inquilino del cliente y adquirir PBIE para dicho inquilino especificando el usuario del inquilino de cliente como administrador de capacidad de Power BI.
 
 ### <a name="why-do-i-get-an-unsupported-account-message"></a>¿Por qué aparece un mensaje de cuenta no compatible?
 
-Power BI requiere que se registre con una cuenta de la organización. No se admite el intento de registrarse en Power BI con una cuenta Microsoft.
+Power BI requiere que se registre con una cuenta de la organización. No se admite al intentar iniciar sesión en Power BI mediante una cuenta de Microsoft.
 
-### <a name="can-i-use-apis-to-create--manage-azure-capacities"></a>¿Puedo usar API para crear y administrar las capacidades de Azure?
+### <a name="can-i-use-apis-to-create-and-manage-azure-capacities"></a>¿Puedo usar las API para crear y administrar las capacidades de Azure?
 
-Sí, hay cmdlets de Powershell y API de Azure Resource Manager que puede usar para crear y administrar recursos de PBIE.
+Sí, hay cmdlets de Powershell y API de REST de Azure Resource Manager puede usar para crear y administrar recursos PBIE.
 
-* API de REST: https://docs.microsoft.com/rest/api/power-bi-embedded/
-* Cmdlets de PowerShell: https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/
+* [API de REST](https://docs.microsoft.com/rest/api/power-bi-embedded/)
+* [Cmdlets de PowerShell](https://docs.microsoft.com/powershell/module/azurerm.powerbiembedded/)
 
 ### <a name="what-is-the-pbi-embedded-dedicated-capacity-role-in-a-pbi-embedded-solution"></a>¿Qué es el rol de capacidad dedicada de PBI Embedded en una solución de PBI Embedded?
 
-Para [promover la solución a producción](embed-sample-for-customers.md#move-to-production), es necesario que el contenido de Power BI (el área de trabajo de la aplicación) que se usa en la aplicación se asigne a una capacidad de Power BI Embedded (SKU A).
+Para [promueva su solución a producción](embed-sample-for-customers.md#move-to-production), debe asignar el contenido de Power BI (área de trabajo de aplicación) que usa la aplicación a una capacidad de Power BI Embedded (un SKU).
 
-### <a name="what-are-the-azure-regions-pbi-embedded-is-available"></a>¿Cuáles son las regiones de Azure en las que PBI Embedded está disponible?
+### <a name="in-what-azure-regions-is-pbi-embedded-available"></a>¿En qué regiones de Azure está incrustado PBI disponible?
 
 [PAM](https://ecosystemmanager.azurewebsites.net/home) (EcoManager). Consulte el administrador de disponibilidad de productos.
 
@@ -155,19 +156,19 @@ Para [promover la solución a producción](embed-sample-for-customers.md#move-to
 * Canadá (1): Centro de Canadá
 * Reino Unido (1): Sur de Reino Unido
 
-### <a name="what-is-the-authentication-model-for-power-bi-embedded"></a>¿Qué es el modelo de autenticación para Power BI Embedded?
+### <a name="what-is-power-bi-embeddeds-authentication-model"></a>¿Qué es modelo de autenticación del Power BI Embedded?
 
-En Power BI Embedded se sigue usando Azure AD para la autenticación del usuario maestro (un usuario con licencia de Power BI Pro designado), o bien con la [entidad de servicio](embed-service-principal.md) para autenticar la aplicación dentro de Power BI.  
+Power BI Embedded sigue usando Azure AD para la autenticación de usuario maestro (un usuario de Power BI Pro con licencia designado) o con [serviceprincipal](embed-service-principal.md) para autenticar la aplicación dentro de Power BI.  
 
-La autenticación y la autorización de los usuarios de la aplicación las implementa el ISV, ya que el ISV puede implementar su autenticación para sus aplicaciones.
+ Un ISV puede implementar su propia autenticación y autorización para sus aplicaciones.
 
-Si ya tiene un inquilino de Azure AD, puede usar su directorio existente, o bien puede crear un nuevo inquilino de Azure AD para la seguridad del contenido de las aplicaciones insertadas.
+Puede usar el directorio existente si ya tiene un inquilino de Azure AD. También puede crear un nuevo inquilino de Azure AD para la seguridad del contenido de aplicación insertada.
 
 Para obtener un token de AAD, puede usar una de las [bibliotecas de autenticación de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-authentication-libraries). Existen bibliotecas de cliente para varias plataformas.
 
 ### <a name="my-application-already-uses-aad-for-user-authentication-how-can-we-use-this-identity-when-authenticating-to-power-bi-in-a-user-owns-data-scenario"></a>Mi aplicación ya usa AAD para la autenticación de usuario. ¿Cómo se puede usar esta identidad al autenticarse en Power BI en un escenario en el que el usuario posee los datos?
 
-Es el flujo típico en nombre de otra persona de OAuth (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). La aplicación debe configurarse para requerir permisos al servicio Power BI (con los ámbitos necesarios correspondientes). Una vez que tenga un token de usuario en la aplicación, solo tiene que llamar al método AcquireTokenAsync de API de ADAL usando ese token de acceso de usuario y especificar la dirección URL del recurso de Power BI como identificador de recurso. Consulte el siguiente fragmento de código que muestra cómo llevar esto a cabo:
+Es estándar en nombre del flujo de OAuth (<https://docs.microsoft.com/azure/active-directory/develop/web-api>). Deberá configurar la aplicación para que requiera permisos de Power BI service (con los ámbitos necesarios). Una vez que un token de usuario a la aplicación, basta con llamar a ADAL API AcquireTokenAsync mediante el acceso de usuario del token y especifique la dirección URL de recursos de Power BI como el identificador de recurso:
 
 ```csharp
 var context = new AD.AuthenticationContext(authorityUrl);
@@ -176,9 +177,15 @@ var clientAssertion = new AD.ClientAssertionCertificate(MyAppId, MyAppCertificat
 var authenticationResult = await context.AcquireTokenAsync(resourceId, clientAssertion, userAssertion);
 ```
 
+### <a name="what-object-id-is-the-service-principal-object-id"></a>¿Qué objeto que es el Id. de objeto de entidad de servicio?
+
+El *Id. de objeto* desde la pantalla principal de una aplicación registrada es el identificador de objeto para la aplicación.
+
+El objeto de identificador se encuentra en la *aplicación administrada en directorio local > propiedades* sección es el identificador de objeto de entidad de servicio debe usar. Este Id. de objeto es para hacer referencia a una entidad de servicio para las operaciones o realizar cambios en el objeto de entidad de servicio identificador. Como la aplicación de una entidad de servicio como un administrador a un área de trabajo.
+
 ### <a name="how-is-power-bi-embedded-different-from-other-azure-services"></a>¿En qué se diferencia Power BI Embedded de otros servicios de Azure?
 
-El ISV o programador debe tener una cuenta de Power BI para poder comprar Power BI Embedded en Azure. La región de implementación de Power BI Embedded determina la cuenta de Power BI. Administre su recurso de Power BI Embedded en Azure para:
+Debe tener una cuenta de Power BI antes de adquirir Power BI Embedded en Azure. La región de Power BI Embedded implementado determina su cuenta de Power BI. Administre su recurso de Power BI Embedded en Azure para:
 
 * Escalar y reducir verticalmente
 * Agregar administradores de capacidad
@@ -186,29 +193,29 @@ El ISV o programador debe tener una cuenta de Power BI para poder comprar Power 
 
 Utilice PowerBI.com para asignar o desasignar áreas de trabajo a su capacidad de Power BI Embedded.
 
-### <a name="what-deploy-regions-are-supported"></a>¿Qué regiones de implementación son compatibles?
+### <a name="what-are-the-supported-deploy-regions"></a>¿Cuáles son las admitidas implementa regiones?
 
 Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, India occidental, Japón Oriental, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Asia Suroriental, Sur de Reino Unido, Europa Occidental, Oeste de EE. UU. y Oeste de EE. UU. 2.
 
-### <a name="what-type-of-content-pack-data-can-be-embedded"></a>¿Qué tipo de datos de paquetes de contenido se puede insertar?
+### <a name="what-content-pack-data-types-can-you-embed"></a>¿Qué tipos de datos del paquete de contenido puede insertar?
 
-Los **paneles** e **iconos** que se crean a partir de conjuntos de datos de paquetes de contenido *no se pueden* insertar, pero *sí* los **informes** generados a partir de un conjunto de datos de paquetes de contenido.
+Le *no* incrustar **paneles** y **iconos** crea a partir de conjuntos de datos del paquete de contenido. Sin embargo, le *puede* incrustar **informes** crea a partir de un conjunto de datos del paquete de contenido.
 
-### <a name="what-is-the-difference-between-using-rls-vs-javascript-filters"></a>¿Cuál es la diferencia entre usar RLS y filtros de JavaScript?
+### <a name="what-is-the-difference-between-using-row-level-security-rls-vs-javascript-filters"></a>¿Qué es la diferencia entre el uso de vs de seguridad de nivel de fila (RLS). filtros de JavaScript?
 
-A menudo hay confusión en torno a cuándo usar  RLS y cuándo filtros de JavaScript, ya que un método trata sobre cómo controlar lo que puede ver un usuario específico y el otro va sobre la optimización de la vista del usuario.
+Suele haber confusión en torno al usar RLS frente a filtros de JavaScript, porque es un método acerca de cómo controlar lo que puede ver un usuario específico y el otro es sobre la optimización de la vista del usuario.
 
 En RLS, el desarrollador de ISV controla el filtrado de datos como parte de la creación del modelo y la generación de tokens de inserción. El usuario final ve solo lo que el ISV permite que vea el usuario. En este caso, el usuario puede elegir ver menos de lo que se filtra, pero no podrá omitir la configuración de RLS y ver más de lo que se permite.
 
-Para el filtrado en el lado cliente (JavaScript), el ISV puede decidir lo que ve el usuario final en la vista inicial, pero no puede controlar los cambios que el usuario final podría aplicar a la propia vista. Aunque el filtrado de datos puede producirse en el back-end, se desencadena mediante el código de cliente de JavaScript y, por tanto, los usuarios finales pueden cambiarlo, luego no puede considerarse seguro.
+Filtrado de lado cliente (JavaScript), el ISV puede decidir lo que ve el usuario final en la vista inicial, pero no pueden controlar los cambios que el usuario final puede aplicar a la propia vista. Puesto que el usuario del código de cliente de Javascript puede desencadenar el filtrado en el back-end de datos, no puede considerarse segura.
 
 Para más información, consulte [RLS frente a los filtros de JavaScript](embedded-row-level-security.md#using-rls-vs-javascript-filters).
 
 ### <a name="how-do-i-manage-permissions-for-service-principals-with-power-bi"></a>¿Cómo se administran los permisos para las entidades de servicio con Power BI?
 
-Después de habilitar la [entidad de servicio](embed-service-principal.md) para usarla con Power BI, los permisos de AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
+Una vez que habilite [serviceprincipal](embed-service-principal.md) para usar con Power BI, los permisos de AD de la aplicación no surten efecto ya. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
 
-Las entidades de servicio heredan de su grupo de seguridad los permisos correspondientes a todas las opciones de configuración del inquilino de Power BI. Para limitar los permisos, cree un grupo de seguridad dedicado para las entidades de servicio y agréguelo a la lista "Excepto grupos de seguridad específicos" correspondiente a la configuración habilitada y pertinente de Power BI.
+Las entidades de servicio heredan de su grupo de seguridad los permisos correspondientes a todas las opciones de configuración del inquilino de Power BI. Para restringir los permisos, crear un grupo de seguridad dedicado para las entidades de servicio y agregarlo a la **excepto los grupos de seguridad específicos** lista para la configuración de Power BI pertinente, habilitada.
 
 Esto es importante cuando se agrega la entidad de servicio como un **administrador** a la nueva área de trabajo. Puede administrar esta tarea a través de las [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o con el servicio Power BI.
 
@@ -216,7 +223,7 @@ Esto es importante cuando se agrega la entidad de servicio como un **administrad
 
 El **[identificador de aplicación](embed-sample-for-customers.md#application-id)** se usa para crear el token de acceso cuando se pasa el identificador de aplicación para la autenticación.
 
-Para hacer referencia a una entidad de servicio para operaciones o realizar cambios, use el **[identificador de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id)**; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
+Para hacer referencia a una entidad de servicio para operaciones o realizar cambios, use el **[identificador de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id)** ; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
 
 ### <a name="can-you-manage-an-on-premises-data-gateway-with-service-principal"></a>¿Se puede administrar una puerta de enlace de datos local con la entidad de servicio?
 
@@ -242,9 +249,9 @@ Además, tampoco se puede consumir contenido como un usuario en las aplicaciones
 
 Power BI Embedded está disponible a través de Azure.
 
-### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-of-the-benefits-of-power-bi-embedded-in-azure"></a>¿Qué ocurre si ya he adquirido Power BI Premium y ahora deseo algunas de las ventajas de Power BI Embedded en Azure?
+### <a name="what-happens-if-i-already-purchased-power-bi-premium-and-now-i-want-some-power-bi-embedded-in-azure-benefits"></a>¿Qué ocurre si ya he adquirido Power BI Premium y ahora deseo algunas Power BI Embedded en las ventajas de Azure?
 
-Los clientes siguen pagando todas las compras de Power BI Premium que realicen hasta el final del plazo de su contrato actual y, luego, pueden cambiar sus compras de Power BI Premium si fuera necesario.
+Los clientes seguirán pagando conforme para las compras de Power BI Premium existentes hasta el final del término de contrato actual y, a continuación, en ese momento, pueden cambiar sus compras de Power BI Premium según sea necesario.
 
 ### <a name="do-i-still-have-to-buy-power-bi-premium-to-get-access-to-power-bi-embedded"></a>¿Hay que comprar Power BI Premium para obtener acceso a Power BI Embedded?
 
@@ -252,17 +259,17 @@ No, Power BI Embedded incluye la capacidad basada en Azure que necesita para imp
 
 ### <a name="whats-the-purchase-commitment-for-power-bi-embedded"></a>¿Cuál es el compromiso de compra de Power BI Embedded?
 
-Los clientes pueden cambiar su uso cada hora. No hay compromiso mensual o anual para el servicio Power BI Embedded.
+Los clientes pueden cambiar su uso cada hora. No hay ningún compromiso mensual o anual para el servicio Power BI Embedded.
 
 ### <a name="how-does-the-usage-of-power-bi-embedded-show-up-on-my-bill"></a>¿Cómo se muestra el uso de Power BI Embedded en mi factura?
 
-Power BI Embedded factura a un precio por hora predecible en función del tipo de nodos. Mientras el recurso esté activo, se le factura aunque no se use. Para detener la facturación, tendrá que pausar el recurso de forma activa.
+Power BI Embedded factura a un precio por hora predecible en función del tipo de nodos. Se le facturará siempre que el recurso esté activo, incluso si no hay ningún uso. Debe pausar el recurso para detener la facturación.
 
 ### <a name="who-needs-a-power-bi-pro-license-for-power-bi-embedded-and-why"></a>¿Quién necesita una licencia de Power BI Pro para Power BI Embedded y por qué?
 
-Los desarrolladores que necesiten usar las API REST, deben tener una licencia de Power BI Pro o una [entidad de servicio](embed-service-principal.md). Los analistas que necesiten agregar informes a un área de trabajo de Power BI deben tener una licencia de Power BI Pro o usar una entidad de servicio. Los administradores de inquilinos que necesitan administrar el inquilino de Power BI y la capacidad, deben tener una licencia de Power BI Pro.
+Necesita una licencia de Power BI Pro o [serviceprincipal](embed-service-principal.md) para usar las API de REST. Para agregar informes a un área de trabajo de Power BI, un analista que necesita una licencia de Power BI Pro o el servicio principal. Para administrar el inquilino de Power BI y la capacidad, se requiere un administrador tiene una licencia de Power BI Pro.
 
-Como Power BI Embedded permite el uso del portal de Power BI para administrar y validar contenido insertado, se necesita la licencia de Power BI Pro para autenticar la aplicación en PowerBI.com con el fin de obtener acceso a los informes de los repositorios correctos.
+Dado que Power BI Embedded permite el uso de portal de Power BI para administrar y validar contenido insertado, la licencia de Power BI Pro es necesario para autenticar la aplicación en PowerBI.com para obtener acceso a los informes de los repositorios correctos.
 
 Pero para [crear o editar informes insertados](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Create-Report-in-Embed-View) dentro de la aplicación, el usuario final no necesita una licencia Pro, porque no es imprescindible ser un usuario de Power BI.
 
@@ -272,21 +279,21 @@ Sí, puede usar sus [créditos de Azure](https://azure.microsoft.com/free/) para
 
 ### <a name="can-i-get-a-trial-experience-for-power-bi-embedded-in-azure"></a>¿Puedo usar una versión de evaluación gratuita de Power BI Embedded en Azure?
 
-Puesto que Power BI Embedded forma parte de Azure, se puede usar el servicio con el [crédito de 200 dólares que se recibe al suscribirse a Azure](https://azure.microsoft.com/free/).
+Puesto que Power BI Embedded es una parte de Azure, es posible usar el servicio con el [crédito de 200 dólares que recibió al registrarse para Azure](https://azure.microsoft.com/free/).
 
 ### <a name="is-power-bi-embedded-available-for-national-clouds-us-government-germany-china"></a>¿Power BI Embedded está disponible para nubes nacionales (Gobierno de EE. UU., Alemania, China)?
 
-Power BI Embedded también está disponible para las [nubes nacionales](embed-sample-for-customers-national-clouds.md).
+Power BI Embedded también está disponible para [nubes nacionales](embed-sample-for-customers-national-clouds.md).
 
 ### <a name="is-power-bi-embedded-available-for-non-profits-and-educational"></a>¿Está Power BI Embedded disponible para entidades educativas y sin ánimo de lucro?
 
-Las entidades sin ánimo de lucro y educativas pueden comprar Azure. No hay precios especiales para estos tipos de clientes en Azure.
+No hay ningún precios para entidades sin ánimo de lucro y educativas de Azure especial.
 
 ## <a name="power-bi-workspace-collection"></a>Colección de áreas de trabajo de Power BI
 
 ### <a name="what-is-power-bi-workspace-collection"></a>¿Qué es la colección de áreas de trabajo de Power BI?
 
-**Colección de áreas de trabajo de Power BI** (**Power BI Embedded**, versión 1) es una solución basada en el recurso de Azure **Colección de áreas de trabajo de Power BI**. Esta solución le permite crear aplicaciones de **Power BI Embedded** para sus clientes con contenido de Power BI en la solución **Colección de áreas de trabajo de Power BI**, API dedicadas y claves de colecciones de áreas de trabajo para autenticar la aplicación en Power BI.
+**Colección de área de trabajo de BI de Power** (**Power BI Embedded** versión 1) es una solución basada en la **colección de área de trabajo de Power BI** recursos de Azure. Esta solución le permite crear aplicaciones de **Power BI Embedded** para sus clientes con contenido de Power BI en la solución **Colección de áreas de trabajo de Power BI**, API dedicadas y claves de colecciones de áreas de trabajo para autenticar la aplicación en Power BI.
 
 ### <a name="can-i-migrate-from-power-bi-workspace-collection-to-power-bi-embedded"></a>¿Puedo migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded?
 
@@ -301,27 +308,26 @@ Las entidades sin ánimo de lucro y educativas pueden comprar Azure. No hay prec
 
 Para más información, vea [Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded](https://docs.microsoft.com/power-bi/developer/migrate-from-powerbi-embedded).
 
-### <a name="is-power-bi-workspace-collection-on-a-path-to-be-deprecated"></a>¿La colección de áreas de trabajo de Power BI está en una ruta de acceso en desuso?
+### <a name="is-power-bi-workspace-collection-on-a-deprecation-path"></a>¿Es la colección de área de trabajo de Power BI en una ruta de degradación?
 
-Sí, pero los clientes que ya usan la solución de la **colección de áreas de trabajo de Power BI** pueden seguir usándola hasta que esté en desuso. Los clientes también pueden crear colecciones de áreas de trabajo y cualquier aplicación de **Power BI Embedded** en las que todavía se use la solución **Colección de áreas de trabajo de Power BI**.
+Sí, pero los clientes que ya está usando el **colección de área de trabajo de Power BI** solución puede seguir usándolo hasta que la degradación. Los clientes también pueden crear colecciones de áreas de trabajo y cualquier aplicación de **Power BI Embedded** en las que todavía se use la solución **Colección de áreas de trabajo de Power BI**.
 
-Pero esto también supone que las características nuevas no se agregan a todas las soluciones de la **Colección de áreas de trabajo de Power BI** y que se anima a los clientes a planear la migración a la nueva solución **Power BI Embedded**.
+Sin embargo, esto también significa que no se agregan nuevas características a una **colección de área de trabajo de Power BI** soluciones. Le animamos a los clientes a planear su migración a la nueva **Power BI Embedded** solución.
 
 ### <a name="when-is-power-bi-workspace-collection-support-discontinued"></a>¿Cuándo se interrumpe el soporte para la colección de áreas de trabajo de Power BI?
 
 Los clientes que ya usan la solución de las **colecciones de áreas de trabajo de Power BI** pueden seguir usándola hasta el final de junio de 2018 o hasta que finalice su contrato de soporte técnico.
 
-### <a name="in-what-regions-can-pbi-workspace-collection-be-created"></a>¿En qué regiones se pueden crear colecciones de áreas de trabajo de Power BI?
+### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>¿En qué regiones puedo crear una colección de área de trabajo de PBI?
 
 Las regiones disponibles son Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, Japón Oriental, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Asia Suroriental, Sur de Reino Unido, Europa Occidental, India occidental y Oeste de EE. UU.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>¿Por qué debo migrar de la Colección de áreas de trabajo de Power BI a Power BI Embedded?
 
-Algunas características y funcionalidades nuevas de la solución **Power BI Embedded** no se pueden usar con la **Colección de áreas de trabajo de Power BI**.
+Hay algunas nuevas **Power BI Embedded** sus características y funcionalidades que no se puede hacer con **colección de área de trabajo de Power BI**.
 
 Algunas de las características son:
-
-* Se admiten todos los orígenes de datos de PBI, en lugar de los dos que se incluyen en la **colección de áreas de trabajo de Power BI**. 
+* Se admiten todos los orígenes de datos PBI. Solo dos **colección de área de trabajo de Power BI** se admiten orígenes de datos. 
 * Las nuevas características como Preguntas y respuestas, actualizaciones, marcadores, inserción de paneles e iconos y menús personalizados solo se admiten en la solución **Power BI Embedded**.
 * Modelo de facturación de capacidad.
 

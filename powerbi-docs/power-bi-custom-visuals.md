@@ -8,26 +8,26 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2018
+ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ed61d865756748ccd4e60f54de4a4b1b9adcef8d
-ms.sourcegitcommit: ac63b08a4085de35e1968fa90f2f49ea001b50c5
-ms.translationtype: HT
+ms.openlocfilehash: 3fd2f3e47c9b6dd2144ed5a66d45e65a00c5b92e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "57980344"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051258"
 ---
 # <a name="custom-visuals-in-power-bi"></a>Elementos visuales personalizados en Power BI
 
-Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Estos objetos visuales se muestran en el panel **Visualizaciones**. Al descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/) o abrir el [servicio Power BI](https://app.powerbi.com), este conjunto de objetos visuales ya está incluido.
+Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Aparecen los iconos para estos objetos visuales en el **visualizaciones** panel. Estos objetos visuales están empaquetados previamente al descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/) o abra el [servicio Power BI](https://app.powerbi.com).
 
 ![visualizaciones](media/power-bi-custom-visuals/power-bi-visualizations.png)
 
-Pero no solo puede usar este conjunto de objetos visuales; seleccione el botón de puntos suspensivos y se abrirá otro origen de objetos visuales de informe, los *objetos visuales personalizados*.
+Sin embargo, no está limitado a este conjunto de objetos visuales. Si selecciona el botón de puntos suspensivos (...) en la parte inferior, otra fuente de objetos visuales de informes, se convierte en disponible -*objetos visuales personalizados*.
 
-Los desarrolladores son quienes crean los objetos visuales personalizados, por medio del SDK de los objetos visuales personalizados, para permitir a los usuarios de empresas ver sus datos de la manera que mejor se adapte a sus organizaciones. Los autores de informes pueden así importar los archivos de objetos visuales personalizados en sus informes y utilizarlos como cualquier otro objeto visual de Power BI. A los objetos visuales personalizados se les concede la máxima prioridad en Power BI y es posible filtrarlos, resaltarlos, editarlos, compartirlos, etc.
+Los desarrolladores crear elementos visuales personalizados con el SDK de los objetos visuales personalizados. Estos objetos visuales permiten a los usuarios verán que sus datos de forma que mejor se adapte a su negocio. Los autores de informes, a continuación, pueden importar los archivos visuales personalizados en sus informes y utilizarlos como lo harían los demás objetos visuales de Power BI. Los objetos visuales personalizados son ciudadanos de primera clase en Power BI y se pueden filtrar, resaltado, editado, compartidos y así sucesivamente.
 
-Los objetos visuales personalizados pueden tener el formato de tres canales de implementación:
+Los objetos visuales personalizados se implementan de tres maneras:
 
 * Archivos de objetos visuales personalizados
 * Objetos visuales de la organización
@@ -35,33 +35,33 @@ Los objetos visuales personalizados pueden tener el formato de tres canales de i
 
 ## <a name="custom-visual-files"></a>Archivos de objetos visuales personalizados
 
-Los objetos visuales personalizados son paquetes que contienen código para representar los datos que reciben. Cualquiera puede crear un objeto visual personalizado y empaquetarlo como un archivo `.pbiviz` único, que puede importarse en un informe de Power BI.
+Los objetos visuales personalizados son paquetes que contienen código para representar los datos que se reciben. Cualquier persona puede crear un objeto visual personalizado y empaquetarlo como un único `.pbiviz` archivo, que puede importarse en un informe de Power BI.
 
 > [!WARNING]
-> Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y el origen del objeto visual personalizado antes de implementarlo en su informe.
+> Un objeto visual personalizado podría contener código con riesgos de privacidad o seguridad. Asegúrese de que confía en el autor y el origen del objeto visual personalizado antes de importarla a un informe.
 
 ## <a name="organizational-visuals"></a>Objetos visuales de la organización
 
-Los administradores de Power BI pueden implementar objetos visuales personalizados en su organización, de manera que los autores de informes pueden detectarlos fácilmente y usar objetos visuales personalizados que el administrador haya aprobado para su uso dentro de la organización. Esto confiere al administrador el control de elegir objetos visuales personalizados específicos para implementar en la organización, así como una manera fácil de administrar esos objetos visuales (por ejemplo, actualizar la versión, deshabilitar/habilitar). Para el autor del informe, es un método sencillo para detectar objetos visuales que son únicos para la organización, así como un medio fluido para actualizar esos objetos visuales.
+Administradores de Power BI aprobación e implementación los objetos visuales personalizados en su organización, lo que los autores de informes fácilmente pueden detectar, actualizar y usar. Los administradores pueden administrar fácilmente (por ejemplo, versión de actualización, habilitar o deshabilitar) estos objetos visuales.
 
-Para obtener más información acerca de los objetos visuales de organización, [lea este artículo sobre los objetos visuales de organización](power-bi-custom-visuals-organization.md).
+ [Obtenga más información sobre objetos visuales de organización](power-bi-custom-visuals-organization.md).
 
 ## <a name="marketplace-visuals"></a>Objetos visuales de Marketplace
 
-Los miembros de la comunidad, así como Microsoft, han aportado sus objetos visuales personalizados para el beneficio del público y los han publicado en el Marketplace de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Estos objetos visuales pueden descargarse y agregarse a los informes de Power BI. Todos estos objetos visuales personalizados se han probado y aprobado por Microsoft en términos de funcionalidad y calidad.
+Miembros de la Comunidad y Microsoft han aportado sus objetos visuales personalizados para beneficio pública y los han publicado los [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) marketplace. Puede descargar estos objetos visuales de agregan a los informes de Power BI. Microsoft ha probado y aprobado estos objetos visuales personalizados para la funcionalidad y calidad.
 
-¿Qué es [AppSource](developer/office-store.md)? En pocas palabras, es el lugar donde podrá encontrar aplicaciones, complementos y extensiones para su software de Microsoft. [AppSource](https://appsource.microsoft.com/) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365, Cortana y Power BI con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
+¿Qué es [AppSource](developer/office-store.md)? Es el lugar donde puede encontrar las aplicaciones, complementos y extensiones para el software de Microsoft. [AppSource](https://appsource.microsoft.com/) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365, Cortana y Power BI, con soluciones que les ayudan a realizar el trabajo más eficazmente, insightfully y atractiva que antes.
 
 ### <a name="certified-visuals"></a>Objetos visuales certificados
 
-Los objetos visuales certificados por Power BI son objetos visuales de Marketplace que han superado pruebas rigurosas adicionales para la calidad y se admiten en escenarios adicionales, como [suscripciones de correo electrónico](https://docs.microsoft.com/power-bi/service-report-subscribe) y [exportación a PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
+Los objetos visuales son objetos visuales de marketplace que han superado las pruebas de calidad rigurosa adicionales y se admiten en escenarios adicionales, como certificados por Power BI [suscripciones de correo electrónico](https://docs.microsoft.com/power-bi/service-report-subscribe), y [exportar a PowerPoint](https://docs.microsoft.com/power-bi/service-publish-to-powerpoint).
 Para ver la lista de objetos visuales personalizados certificados o para enviar su propia lista, consulte [Certified custom visuals](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified) (Objetos visuales personalizados certificados).
 
-¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a AppSource? Vea [Desarrollo de objetos visuales personalizados de Power BI](developer/custom-visual-develop-tutorial.md) y vea cómo [publicar objetos visuales personalizados en AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals).
+¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a AppSource? Consulte [desarrollar un objeto visual personalizado de Power BI](developer/custom-visual-develop-tutorial.md) y aprenda cómo [publicar objetos visuales personalizados en AppSource](https://docs.microsoft.com/power-bi/developer/office-store).
 
 ### <a name="import-a-custom-visual-from-a-file"></a>Importar un objeto visual personalizado de un archivo
 
-1. En la parte inferior del panel Visualizaciones, seleccione los puntos suspensivos.
+1. Seleccione el botón de puntos suspensivos en la parte inferior de la **visualizaciones** panel.
 
     ![visualizaciones2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -69,17 +69,17 @@ Para ver la lista de objetos visuales personalizados certificados o para enviar 
 
     ![importar desde archivo](media/power-bi-custom-visuals/power-bi-custom-visual-import-from-file.png)
 
-3. En el menú Abrir archivo, seleccione el archivo `.pbiviz` que quiere importar y luego Abrir. El icono del objeto visual personalizado se agrega a la parte inferior del panel de visualizaciones y ya se puede usar en el informe.
+3. En el menú Abrir archivo, seleccione el `.pbiviz` archivo que desea importar y, a continuación, seleccione **abierto**. Icono del objeto visual personalizado se agrega a la parte inferior de la **visualizaciones** panel y ahora está disponible para su uso en el informe.
 
     ![cv importado](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
 ### <a name="import-organizational-visuals"></a>Importación de objetos visuales de la organización
 
-1. En la parte inferior del panel Visualizaciones, seleccione los puntos suspensivos.
+1. Seleccione el botón de puntos suspensivos en la parte inferior de la **visualizaciones** panel.
 
     ![organización visual 1](media/power-bi-custom-visuals/power-bi-visual-org-01.png)
 
-2. En el menú desplegable, seleccione Importar de Marketplace.
+2. En el menú desplegable, seleccione **Importar de Marketplace**.
 
     ![organización visual 2](media/power-bi-custom-visuals/power-bi-visual-org-02.png)
 
@@ -91,17 +91,17 @@ Para ver la lista de objetos visuales personalizados certificados o para enviar 
 
     ![organización visual 4](media/power-bi-custom-visuals/power-bi-visual-org-04.png)
 
-5. Para importar el objeto visual personalizado, seleccione **Agregar**. El icono del objeto visual personalizado se agrega a la parte inferior del panel de visualizaciones y ya se puede usar en el informe.
+5. Seleccione **agregar** para importar el objeto visual personalizado. El icono se agrega a la parte inferior de la **visualizaciones** panel y ahora está disponible para su uso en el informe.
 
     ![organización visual 5](media/power-bi-custom-visuals/power-bi-visual-org-05.png)
 
 ## <a name="download-or-import-custom-visuals-from-microsoft-appsource"></a>Descargar o importar objetos visuales personalizados desde Microsoft AppSource
 
-Tiene dos opciones para descargar e importar objetos visuales personalizados; desde Power BI y desde el sitio web de AppSource.
+Tiene dos opciones para descargar e importar objetos visuales personalizados: desde dentro de Power BI y de la [sitio Web de AppSource](https://appsource.microsoft.com/).
 
 ### <a name="import-custom-visuals-from-within-power-bi"></a>Importar objetos visuales personalizados desde Power BI
 
-1. En la parte inferior del panel Visualizaciones, seleccione los puntos suspensivos.
+1. Seleccione el botón de puntos suspensivos en la parte inferior de la **visualizaciones** panel.
 
     ![visualizaciones 2](media/power-bi-custom-visuals/power-bi-visualizations2.png)
 
@@ -125,7 +125,7 @@ Tiene dos opciones para descargar e importar objetos visuales personalizados; de
 
     ![Opiniones](media/power-bi-custom-visuals/power-bi-reviews.png)
 
-7. Importe el objeto visual personalizado mediante Agregar. El icono del objeto visual personalizado se agrega a la parte inferior del panel de visualizaciones y ya se puede usar en el informe.
+7. Seleccione **agregar** para importar el objeto visual personalizado. El icono se agrega a la parte inferior de la **visualizaciones** panel y ahora está disponible para su uso en el informe.
 
     ![objeto visual importado](media/power-bi-custom-visuals/power-bi-custom-visual-imported.png)
 
@@ -135,15 +135,15 @@ Tiene dos opciones para descargar e importar objetos visuales personalizados; de
 
     ![AppSource](media/power-bi-custom-visuals/power-bi-appsource-apps.png)
 
-2. Vaya a la [página de resultados de aplicaciones](https://appsource.microsoft.com/marketplace/apps), donde puede ver las aplicaciones principales de cada categoría, entre ellas *Power BI apps* (Aplicaciones de Power BI). Pero estamos buscando objetos visuales personalizados, así que vamos a restringir los resultados. Seleccione **Power BI visuals** (Objetos visuales de Power BI) en la lista de navegación izquierda.
+2. Vaya a la [página de resultados de aplicaciones](https://appsource.microsoft.com/marketplace/apps), donde puede ver las aplicaciones principales de cada categoría, entre ellas *Power BI apps* (Aplicaciones de Power BI). Estamos buscando objetos visuales personalizados, así que vamos a seleccionar **objetos visuales de Power BI** en la lista de navegación izquierdo para limitar los resultados.
 
     ![Objetos visuales de AppSource](media/power-bi-custom-visuals/power-bi-appsource-visuals.png)
 
-3. AppSource muestra un icono para cada objeto visual personalizado.  Cada mosaico tiene una instantánea del objeto visual personalizado y proporciona una breve descripción y un vínculo de descarga. Para ver información más detallada, seleccione el icono.
+3. AppSource muestra un icono para cada objeto visual personalizado.  Cada icono tiene una instantánea visual personalizada con una breve descripción y un vínculo de descarga. Para ver información más detallada, seleccione el icono.
 
     ![Objeto visual Select personalizado](media/power-bi-custom-visuals/powerbi-custom-select-visual.png)
 
-4. En dicha página puede ver capturas de pantalla, vídeos, descripción detallada, etc. Para descargar el objeto visual personalizado, seleccione **Obtener** y acepte los Términos de uso.
+4. En dicha página puede ver capturas de pantalla, vídeos, descripción detallada, etc. Seleccione **obtenerla ahora** para descargar el objeto visual personalizado y, a continuación, acepte los términos de uso.
 
     ![Obtener AppSource](media/power-bi-custom-visuals/power-bi-appsource-get.png)
 
@@ -151,25 +151,25 @@ Tiene dos opciones para descargar e importar objetos visuales personalizados; de
 
     ![Descargar](media/power-bi-custom-visuals/powerbi-custom-download.png)
 
-    La página de descarga también incluye instrucciones para importar el objeto visual personalizado en Power BI Desktop y el servicio Power BI.
+    La página de descarga también incluye instrucciones sobre cómo importar el objeto visual personalizado en Power BI Desktop y el servicio Power BI.
 
     También puede descargar un informe de ejemplo que incluye el objeto visual personalizado y muestra sus funcionalidades.
 
     ![Probar muestra](media/power-bi-custom-visuals/powerbi-custom-try-sample.png)
 
-6. Guarde el archivo ".pbiviz" y luego abra Power BI.
+6. Guardar el `.pbiviz` de archivo y, a continuación, abra Power BI.
 
-7. Importe el archivo ".pbiviz" en su informe (consulte la sección [Importar un objeto visual personalizado de un archivo](#import-a-custom-visual-from-a-file) anterior).
+7. Importar el `.pbiviz` archivo en el informe. (consulte la sección [Importar un objeto visual personalizado de un archivo](#import-a-custom-visual-from-a-file) anterior).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
 * Un objeto visual personalizado se agrega a un informe específico cuando se importa. Si desea usar el objeto visual en otro informe, debe importarlo también en dicho informe. Cuando se guarda un informe con un objeto visual personalizado mediante la opción **Guardar como** , se guarda una copia del objeto visual personalizado con el nuevo informe.
 
-* Si no ve el panel **Visualizaciones**, significa que no tiene permisos de edición para el informe.  Solo se pueden agregar objetos visuales personalizados a los informes que puede editar, no a los informes que se han compartido con usted.
+* Si no ve una **visualizaciones** panel, lo que significa que no tiene informes permisos de edición.  Solo se pueden agregar objetos visuales personalizados a los informes que puede editar, no a los informes que se han compartido con usted.
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-Para obtener información sobre cómo solucionar problemas, visite [Troubleshooting your Power BI custom visuals](power-bi-custom-visuals-troubleshoot.md) (Solución de problemas con objetos visuales personalizados de Power BI).
+Para solucionar problemas, consulte [solución de problemas de los objetos visuales personalizados de Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
@@ -177,6 +177,6 @@ Para obtener más información y respuestas a las preguntas, visite las [pregunt
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Visualizaciones en Power BI](visuals/power-bi-report-visualizations.md)
+* [Visualizaciones en informes de Power BI](visuals/power-bi-report-visualizations.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).

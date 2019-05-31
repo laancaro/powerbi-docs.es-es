@@ -8,26 +8,23 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/20/2017
+ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5aac4b32fc90720af4954dff2afa61243b1f1587
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.openlocfilehash: 449d47606829c8555e0b64e7f07d1b414b99fea7
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249054"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375232"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Solución de problemas de Cortana para Power BI
-Este artículo forma parte de una serie. Si no lo ha hecho ya, le recomendamos que lea los siguientes tres artículos:
+Este artículo forma parte de una serie. 
 
-**Artículo 1**: [explicación de cómo Cortana y Power BI trabajan de forma conjunta para realizar búsquedas en los paneles e informes de Power BI](service-cortana-intro.md)
+> [!IMPORTANT]
+> Integración de Cortana está en desuso en Power BI. A partir del 11 de junio, Cortana ya no funcionará para los paneles e informes.
 
-**Artículo 2**: [para realizar búsquedas en informes, habilite la integración de Cortana, Power BI y Windows](service-cortana-enable.md)
-
-**Artículo 3**: [para realizar búsquedas en informes: cree *tarjetas de respuestas de Cortana*](service-cortana-answer-cards.md) especiales
-
-Si sigue teniendo problemas para conseguir que Cortana se integre con Power BI, ha llegado al lugar adecuado. Siga los pasos siguientes para diagnosticar y corregir el problema.
+Si tiene problemas para conseguir que Cortana se integre con Power BI, ha venido al lugar adecuado. Siga los pasos siguientes para diagnosticar y corregir el problema.
 
 ## <a name="why-doesnt-cortana-find-answers-from-my-power-bi-reports-or-dashboards"></a>¿Por qué Cortana no encuentra respuestas en mis informes y paneles de Power BI?
 1. ¿Tiene cuenta de Power BI?  Si no es así, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/get-started/).

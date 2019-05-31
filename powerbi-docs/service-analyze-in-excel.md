@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: da6ec79a821e7aa9659843d0461ca6ac0b11706d
-ms.sourcegitcommit: de0b72915183a8a784d3227838bd704c1c209422
-ms.translationtype: HT
+ms.openlocfilehash: 7ccbfee788bbada580c02544a4af4b1b25c1a169
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/04/2019
-ms.locfileid: "58914176"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65514218"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Puede que en ocasiones prefiera usar Excel para ver un conjunto de datos que tenga en Power BI e interactuar con él. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
@@ -28,7 +28,7 @@ Hay algunos requisitos para usar **Analizar en Excel**:
 * Las tablas dinámicas de Excel no admiten la agregación de campos numéricos mediante arrastrar y colocar. El conjunto de datos en Power BI *debe tener medidas definidas previamente*.
 * Algunas organizaciones podrían tener reglas de directiva de grupo que impiden la instalación de las actualizaciones necesarias de **Analizar en Excel** en Excel. Si no puede instalar las actualizaciones, consulte con su administrador.
 * **Analizar en Excel** requiere que el conjunto de datos se encuentre en Power BI Premium o que el usuario tenga una licencia de Power BI Pro. Para obtener más información sobre las diferencias de funcionalidad entre los tipos de licencia, eche un vistazo a [Características de Power BI por tipo de licencia](service-features-license-type.md). 
-* Los usuarios pueden conectarse a conjuntos de datos a través de Analizar en Excel si disponen de permiso de lectura en el conjunto de datos subyacente.  Un usuario puede disponer de ese permiso de varias maneras, como si es miembro del área de trabajo que contiene el conjunto de datos, si tiene un informe o panel compartido con él que utiliza el conjunto de datos o si tiene permiso en una aplicación que contiene ese conjunto.
+* Los usuarios pueden conectarse a conjuntos de datos a través de analizar en Excel, si dispone de permiso de lectura en el conjunto de datos subyacente.  Un usuario puede disponer de ese permiso de varias maneras, como si es miembro del área de trabajo que contiene el conjunto de datos, si tiene un informe o panel compartido con él que utiliza el conjunto de datos o si tiene permiso en una aplicación que contiene ese conjunto.
 
 ## <a name="how-does-it-work"></a>¿Cómo funciona?
 Al seleccionar **Analizar en Excel** en el botón de puntos suspensivos (...) asociado con un conjunto de datos o informe de **Power BI**, Power BI crea un archivo .ODC y lo descarga en su equipo mediante el explorador.
@@ -47,7 +47,7 @@ En Power BI, seleccione el botón de puntos suspensivos (...) junto a un informe
 ![](media/service-analyze-in-excel/power-bi-analyze-menu.png)
 
 ### <a name="install-excel-updates"></a>Instalación de actualizaciones de Excel
-La primera vez que use **Analizar en Excel**, será necesario instalar actualizaciones para las bibliotecas de Excel. Se le pedirá que descargue y ejecute actualizaciones de Excel (lo que inicia la instalación del paquete de instalación de Windows *SQL_AS_OLEDDB.msi*). Este paquete instala el **proveedor Microsoft AS OLE DB para SQL Server 2016 RC0 (versión preliminar)**.
+La primera vez que use **Analizar en Excel**, será necesario instalar actualizaciones para las bibliotecas de Excel. Se le pedirá que descargue y ejecute actualizaciones de Excel (lo que inicia la instalación del paquete de instalación de Windows *SQL_AS_OLEDDB.msi*). Este paquete instala el **proveedor Microsoft AS OLE DB para SQL Server 2016 RC0 (versión preliminar)** .
 
 > [!NOTE]
 > Asegúrese de activar **No volver a mostrar** en el cuadro de diálogo **Instalar actualizaciones de Excel**. La instalación solo se debe instalar una vez.
@@ -101,4 +101,4 @@ Cuando un usuario con el que ha compartido el libro lo abre, verá las tablas di
 Dado que los usuarios necesitarán que actualice el conjunto de datos y no se permite la actualización de conexiones externas en Excel Online, se recomienda que los usuarios abran el libro en la versión de escritorio de Excel de su equipo.
 
 ## <a name="troubleshooting"></a>Solución de problemas
-Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [En esta página se ofrecen soluciones a problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)
+Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [Esta página proporciona soluciones para problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)

@@ -1,20 +1,20 @@
 ---
 title: Publicación de un informe paginado en el servicio Power BI (versión preliminar)
 description: En este tutorial, aprenderá a publicar un informe paginado en el servicio Power BI cargándolo desde el equipo local.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 58fc7a6b8ebc5519c1c4bb1835758ca94ba225d2
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 93b712d385b78ea806e57769da72bdf41fbaefc3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174554"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61424113"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service-preview"></a>Publicación de un informe paginado en el servicio Power BI (versión preliminar)
 
@@ -26,7 +26,7 @@ Si el origen de datos del informe es local, entonces deberá [crear una puerta d
 
 Si el área de trabajo no tiene el icono de diamante ![Icono de diamante de capacidad Premium de Power BI](media/paginated-reports-save-to-power-bi-service/premium-diamond.png) junto al nombre, deberá agregar el área de trabajo a una capacidad Premium. 
 
-1. Seleccione **Áreas de trabajo**, seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
+1. Seleccione **Áreas de trabajo**, seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo y después seleccione **Editar área de trabajo**.
 
     ![Selección de Editar área de trabajo](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-edit-workspace.png)
 

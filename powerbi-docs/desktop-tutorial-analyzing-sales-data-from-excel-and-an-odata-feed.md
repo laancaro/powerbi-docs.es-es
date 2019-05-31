@@ -11,11 +11,11 @@ ms.date: 05/21/2018
 ms.author: v-thepet
 LocalizationGroup: Learn more
 ms.openlocfilehash: 94e40681d065591db008f8a9062d851e0bd83f61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54285769"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61368788"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinación de datos de ventas de Excel y una fuente de OData
 
@@ -114,7 +114,7 @@ El Editor de Power Query le permite crear cálculos y campos personalizados para
    
 2. En el cuadro de diálogo **Columna personalizada**, escriba **LineTotal** en el campo **Nuevo nombre de columna**.
 
-3. En el campo **Fórmula de columna personalizada** después de **=**, escriba **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]**. (También puede seleccionar los nombres de campo en el cuadro de desplazamiento **Columnas disponibles** y seleccionar **<< Insertar**, en lugar de escribirlos). 
+3. En el campo **Fórmula de columna personalizada** después de **=** , escriba **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (También puede seleccionar los nombres de campo en el cuadro de desplazamiento **Columnas disponibles** y seleccionar **<< Insertar**, en lugar de escribirlos). 
 3. Seleccione **Aceptar**.
    
    ![Cuadro de diálogo Columna personalizada](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/11.png)
@@ -208,7 +208,7 @@ En primer lugar, cree un gráfico de columnas apiladas que utilice campos de las
    
 2. Seleccione **ProductName** en **Products** en el panel **Campos**, o bien arrástrelo hasta el gráfico, para mostrar la cantidad de cada producto pedido. 
    
-3. Para ordenar los productos según los más pedidos o los menos pedidos, seleccione los puntos suspensivos **Más opciones** (**...**) en la parte superior derecha de la visualización y luego seleccione **Ordenar por cantidad**.
+3. Para ordenar los productos según los más pedidos o los menos pedidos, seleccione los puntos suspensivos **Más opciones** ( **...** ) en la parte superior derecha de la visualización y luego seleccione **Ordenar por cantidad**.
    
 4. Use los controladores de las esquinas del gráfico para ampliarlo, para que aparezcan más nombres de productos. 
    

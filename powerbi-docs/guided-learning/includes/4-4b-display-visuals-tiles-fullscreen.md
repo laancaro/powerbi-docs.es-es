@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d44e24e1f81ab03e85438ef8e5505c308b01e1d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264042"
+---
 Cuando examina los paneles o informes de Power BI en el servicio, a veces es útil centrarse en un gráfico o visualización individuales. Puede hacerlo de dos formas diferentes.
 
 En un panel, mantenga el puntero sobre un icono para ver unas cuantas opciones distintas en la esquina superior derecha. Si selecciona el menú de los puntos suspensivos, verá una colección de iconos que representan las acciones que puede realizar en el icono.

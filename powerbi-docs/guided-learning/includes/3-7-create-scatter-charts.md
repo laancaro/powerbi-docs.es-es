@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: cab4d5f47c7e0518bae3c11b3f298802cb67f6d7
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397643"
+---
 Si quiere comparar dos medidas distintas, como los ingresos por ventas y las unidades, es habitual utilizar un gráfico de dispersión.
 
 ![](media/3-7-create-scatter-charts/3-7_1.png)

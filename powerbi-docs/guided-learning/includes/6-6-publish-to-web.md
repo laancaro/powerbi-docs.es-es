@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: eeb063707e9a81b3d3551dd4e79e9da01bfe7178
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257133"
+---
 En esta lección, aprenderemos a compartir un informe de Power BI en una página web , o a compartirlo por correo electrónico, en tan solo unos pasos sencillos. Esta característica de Power BI a menudo se conoce como **Publicar en la web** y resulta fácil de usar y administrar.
 
 En Power BI, seleccione el informe que desea compartir para que aparezca en el lienzo. A continuación, en el menú, seleccione **Archivo > Publicar en la web**.

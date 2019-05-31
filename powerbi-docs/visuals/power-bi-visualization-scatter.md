@@ -12,11 +12,11 @@ ms.date: 10/24/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 26dd55f1084d62f9506b02c5852f0396adba305a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290323"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61070740"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
@@ -61,7 +61,7 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
  
 2. En el panel Campos, seleccione los siguientes campos:
    - **Ventas** > **Ventas por metro cuadrado**
-   - **Ventas** > **% de varianza de ventas total**
+   - **Ventas** >  **% de varianza de ventas total**
    - **Distrito** > **Distrito**
 
      ![](media/power-bi-visualization-scatter/power-bi-bar-chart.png)

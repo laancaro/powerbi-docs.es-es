@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: bc5033df204fafcc7316d6708d7b39429e8e9cba
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216594"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61053503"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo detallado en una visualización de Power BI
 
@@ -191,7 +191,7 @@ Además de la visualización, se puede ver la jerarquía reflejada en los datos 
 Observe que los datos son los mismos para los informes trimestrales y anuales, pero que después de explorar en profundidad al nivel de detalle especificado para **Valores**, puede ver cómo el informe se vuelve más específico y el informe "todos los meses" tiene más datos.
 
 
-|Modo expandido|Año|Trimestre|Mes|Día|
+|Modo expandido|Year|Trimestre|Mes|Day|
 | ---|:---:|:---:|:---:|---|
 |Único|![un solo año](./media/end-user-drill/power-bi-hierarchical-year.png)|![un solo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![un solo mes](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![un solo día](media/end-user-drill/power-bi-hierarchical-one-day.png)|
 |Todo|![todos los años](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos los trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos los meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos los días](media/end-user-drill/power-bi-hierarchical-all-day.png)|

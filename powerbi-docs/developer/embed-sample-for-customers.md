@@ -1,21 +1,21 @@
 ---
 title: Análisis integrado para insertar contenido de Power BI en una aplicación para los clientes
 description: Aprenda a integrar, o insertar, un informe, un panel o un icono, en una aplicación web mediante las API de Power BI para realizar análisis integrados para los clientes. Aprenda a integrar Power BI en su aplicación mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.topic: tutorial
 ms.service: powerbi
-ms.component: powerbi-developer
+ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 02/05/2019
-ms.openlocfilehash: 5bb4a739b6a333ecaf0ddc3ee2596fc210033470
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.date: 04/02/2019
+ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174968"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65710950"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -192,23 +192,19 @@ Para obtener **ApplicationSecret**, siga estos pasos:
 
 2. En el panel de navegación de la izquierda, haga clic en **Todos los servicios** y después en **Registros de aplicaciones**.
 
-    ![Búsqueda de registros de aplicaciones](media/embed-sample-for-your-organization/embed-sample-for-your-organization-003.png)
+    ![Búsqueda de registros de aplicaciones](media/embed-sample-for-customers/embed-sample-for-customers-003.png)
 
 3. Seleccione la aplicación que necesite usar **ApplicationSecret**.
 
-    ![Elección de una aplicación](media/embed-sample-for-your-organization/embed-sample-for-your-organization-006.png)
+    ![Elección de una aplicación](media/embed-sample-for-customers/embed-sample-for-customers-0038.png)
 
-4. Seleccione **Configuración**.
+4. Seleccione **certificados y secretos** en **administrar**.
 
-    ![Selección de Configuración](media/embed-sample-for-your-organization/embed-sample-for-your-organization-038.png)
-
-5. Seleccione **Claves**.
-
-    ![Selección de Claves](media/embed-sample-for-your-organization/embed-sample-for-your-organization-039.png)
+5. Seleccione **nuevos secretos de cliente**.
 
 6. Escriba un nombre en el cuadro **Descripción** y seleccione una duración. Después, haga clic en **Guardar** para obtener el **valor** para la aplicación. Cuando se cierra el panel **Claves** después de guardar el valor de clave, el campo de valor solo se muestra como oculto. En ese momento, no puede recuperar el valor de clave. Si pierde el valor de clave, cree uno nuevo en Azure Portal.
 
-    ![Valor de clave](media/embed-sample-for-your-organization/embed-sample-for-your-organization-031.png)
+    ![Valor de clave](media/embed-sample-for-customers/embed-sample-for-customers-042.png)
 
 ### <a name="tenant"></a>Inquilino
 
@@ -369,7 +365,7 @@ Use la tabla siguiente para determinar qué capacidad de Power BI Embedded se ad
 | A5 |16 núcleos virtuales |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |
 | A6 |32 núcleos virtuales |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |
 
-**_Las SKU de Azure no permiten acceder al contenido de Power BI mediante una licencia gratuita de Power BI._**
+**_Las SKU de Azure no permiten acceder al contenido de Power BI mediante una licencia gratuita de Power BI._ **
 
 El uso de tokens de inserción con licencias PRO está pensado para pruebas de desarrollo, de modo que el número de tokens de inserción que puede generar una cuenta maestra o una entidad de servicio de Power BI es limitado. Se necesita una capacidad dedicada para realizar inserciones en un entorno de producción. No hay ningún límite en cuanto a la cantidad de tokens de inserción que puede generar con una capacidad dedicada. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Power BI Embedded. El porcentaje de uso depende de la cuenta maestra.
 

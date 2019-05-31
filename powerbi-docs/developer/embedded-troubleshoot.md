@@ -1,20 +1,20 @@
 ---
 title: Solución de problemas de una aplicación insertada
 description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al insertar contenido desde Power BI.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: ebe536aad292fbd780d937cd4b35812afaedbdda
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
-ms.translationtype: HT
+ms.openlocfilehash: 43cb59853e884b1e3e6a49c328aa3385e88b62fc
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174830"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770470"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -109,7 +109,7 @@ Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dir
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Error de autenticación AADSTS70002 o AADSTS50053
 
-**_(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_**
+** _(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_ **
 
 Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
 
@@ -161,7 +161,7 @@ Para comprobar cuál es, pruebe lo siguiente.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: La concesión requiere permiso de administrador
 
-**_Síntomas:_**<br>
+**_Síntomas:_ **<br>
 Cuando un usuario sin derechos administrativos intenta iniciar sesión en una aplicación por primera vez y da su consentimiento, obtiene uno de los errores siguientes:
 
 * La prueba de consentimiento necesita permiso para acceder a los recursos de la organización que solo un administrador puede conceder. Póngase en contacto con un administrador que conceda permisos en esta aplicación para poder usarla.
@@ -171,10 +171,10 @@ Cuando un usuario sin derechos administrativos intenta iniciar sesión en una ap
 
 Un usuario administrador puede iniciar sesión y conceder el consentimiento correctamente.
 
-**_:_**<br>
+** _:_ **<br>
 El consentimiento de usuario está deshabilitado en este inquilino.
 
-**_Existen varias correcciones viables:_**
+**_Existen varias correcciones viables:_ **
 
 *Habilitar el consentimiento de usuario en todo el inquilino (todos los usuarios, todas las aplicaciones)*
 
@@ -184,6 +184,10 @@ El consentimiento de usuario está deshabilitado en este inquilino.
     ![Corrección de la prueba de consentimiento](media/embedded-troubleshoot/consent-test-02.png)
 
 *Conceda permisos* a la aplicación por un administrador, ya sea para todo el inquilino o para un usuario específico.
+
+### <a name="cs1061-error"></a>Error de CS1061
+
+Descargar [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) si experimenta un "'AuthenticationContext' no contiene una definición para 'AcquireToken' y no accesible 'AcquireToken' acepte un primer argumento de tipo ' AuthenticationContext' se encontró (¿falta un uso de la directiva o una referencia de ensamblado?) "error.
 
 ## <a name="data-sources"></a>Orígenes de datos
 

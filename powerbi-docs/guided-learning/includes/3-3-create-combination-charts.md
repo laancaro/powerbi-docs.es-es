@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: c7af7eb4a75ebe22416dba74a40c2edcf00c1194
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397783"
+---
 Cuando desee visualizar dos medidas que tengan escalas muy distintas, como ingresos y unidades, los **gráficos combinados** muestran una línea y una barra con distintas escalas de eje, lo cual es muy práctico. De manera predeterminada, Power BI admite muchos tipos distintos de gráficos combinados, incluidos los populares gráficos de **líneas** y de **columnas apiladas**.
 
 ![](media/3-3-create-combination-charts/3-3_1.png)

@@ -11,19 +11,19 @@ ms.topic: conceptual
 ms.date: 01/22/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cce99c8a0e0908ef901408cbb19397fa098bac38
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d7a8c1600de65ba39b075d89f3c2d95e0b0c7cde
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54289610"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051232"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalización de los títulos, las leyendas y los fondos de las visualizaciones
 En este tutorial obtendrá información sobre diferentes formas de personalizar las visualizaciones.   Hay tantas opciones para personalizar las visualizaciones que la mejor manera para obtener información acerca de todas ellas es explorando el panel de formato (seleccione el icono del rodillo de pintura).  Para ayudarle a comenzar, este artículo muestra cómo personalizar un título de visualización, la leyenda y el fondo.  
 
 No todas las visualizaciones se pueden personalizar; [consulte la lista completa](#list).  
 
-Vea a Amanda personalizar visualizaciones en el informe (avance el vídeo hasta el minuto 4:50). A continuación, siga las instrucciones que aparecen debajo del vídeo para intentarlo con sus propios datos.
+Avance rápido hasta 4:50 en el vídeo para ver una demostración de cómo personalizar las visualizaciones. A continuación, siga las instrucciones que aparecen debajo del vídeo para intentarlo con sus propios datos.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IkJda4O7oGs" frameborder="0" allowfullscreen></iframe>
 

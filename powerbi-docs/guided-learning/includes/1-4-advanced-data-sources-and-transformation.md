@@ -1,10 +1,10 @@
 ---
 ms.openlocfilehash: 9eff90168ea221a269a8b5ded712645cca01cd9f
-ms.sourcegitcommit: c09241803664643e1b2ba0c150e525e1262ca466
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/08/2019
-ms.locfileid: "54083976"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61265082"
 ---
 En este artículo, analizaremos algunas técnicas avanzadas de importación y limpieza de datos para **Power BI Desktop**. Una vez que haya dado forma a los datos en el **Editor de consultas** y los haya agregado a **Power BI Desktop**, podrá consultarlos de distintas maneras. Hay tres vistas en Power BI Desktop: la vista **Informe**, la vista **Datos** y la vista **Relaciones**. Puede ver cada una de ellas seleccionando su icono en el lado superior izquierdo del lienzo. En la siguiente imagen, está seleccionada la vista **Informe**. La barra amarilla situada junto al icono indica qué vista está activa.
 

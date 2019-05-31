@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 9aac366f04d53da56b62c10fdb85229d0d412834
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397703"
+---
 Cuando agregue un campo *Fecha* a un objeto visual en el cubo del campo *Eje*, Power BI agrega automáticamente una jerarquía de tiempo en la que se incluyen los valores *Año*, *Trimestre*, *Mes* y *Día*. Así, Power BI posibilita que los objetos visuales disfruten de una interacción basada en tiempo con las personas que ven sus informes y permite que los usuarios exploren en profundidad esos distintos niveles temporales.
 
 ![](media/3-11g-visual-hierarchies-drilling/3-11g_1.png)

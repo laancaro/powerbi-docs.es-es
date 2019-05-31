@@ -11,10 +11,10 @@ ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: b11e908650379913d00673215e3eaf25d712b122
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/07/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239474"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso de tablas calculadas en Power BI Desktop
@@ -24,7 +24,7 @@ La mayoría de las veces, importa los datos en el modelo desde un origen de dato
 
 A diferencia de las tablas creadas como parte de una consulta, las tablas calculadas creadas en la vista de informes o la vista de datos se basan en datos cargados previamente en el modelo. Por ejemplo, puede optar por unir o realizar una combinación cruzada de dos tablas.
 
-Igual que con las tablas normales, las tablas calculadas pueden tener relaciones con otras tablas. Las columnas de la tabla calculada tienen tipos de datos y formato, y pueden pertenecer a una categoría de datos. Puede asignar el nombre que desee a las columnas y agregarlas a la visualización de un informe, igual que cualquier otro campo.  Las tablas calculadas vuelven a calcularse si alguna de las tablas desde la que se extraen datos se actualiza de alguna forma.
+Igual que con las tablas normales, las tablas calculadas pueden tener relaciones con otras tablas. Las columnas de la tabla calculada tienen tipos de datos y formato, y pueden pertenecer a una categoría de datos. Puede asignar el nombre que desee a las columnas y agregarlas a la visualización de un informe, igual que cualquier otro campo. Las tablas calculadas vuelven a calcularse si alguna de las tablas desde la que se extraen datos se actualiza de alguna forma.
 
 Las tablas calculadas calculan los resultados usando [expresiones de análisis de datos](https://msdn.microsoft.com/library/gg413422.aspx) (DAX), un lenguaje de fórmulas diseñado para trabajar con datos relacionales como en Power BI Desktop. DAX incluye una biblioteca de más de 200 funciones, operadores y construcciones, lo que ofrece una gran flexibilidad al momento de crear formulas para calcular los resultados de casi cualquier necesidad de análisis de datos.
 

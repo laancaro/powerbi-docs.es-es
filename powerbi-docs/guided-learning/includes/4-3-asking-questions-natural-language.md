@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 2a0ec80120e30d8d652eb2bd28461b9f88f7610a
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264039"
+---
 Power BI incluye un motor de reconocimiento de idioma eficaz que le permite plantear preguntas a sus datos mediante frases y preguntas conversacionales. Por lo tanto, además de crear informes y visualizaciones con Power BI, puede crear diagramas y gráficos con solo formular preguntas sencillas.
 
 Para plantear una pregunta sobre sus datos, abra un panel en Power BI y, en la parte superior de la pantalla, verá un cuadro de entrada en el que podrá formular preguntas acerca de los datos mostrados. A esta característica se le suele llamar *Preguntas y respuestas*, o más a menudo, esta característica es solo conoce como **Preguntas y respuestas**.

@@ -2,20 +2,20 @@
 title: ¿Qué es Power BI Report Server?
 description: Obtenga información general de Power BI Report Server para saber cómo se adapta a SQL Server Reporting Services (SSRS) y al resto de servicios de Power BI.
 keywords: ''
-author: markingmyname
-ms.author: maghan
-ms.date: 11/20/2018
+author: maggiesMSFT
+ms.author: maggies
+ms.date: 05/22/2019
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
-ms.openlocfilehash: cd3dbc21c094c0db3f8d32d8d976339a1d1061f4
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: 37751117853c8bca686585992108c006c6c76b70
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56325183"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187468"
 ---
 # <a name="what-is-power-bi-report-server"></a>¿Qué es Power BI Report Server?
 
@@ -24,10 +24,10 @@ Power BI Report Server es un servidor de informes local con un portal web en el 
 ![Portal web del servidor de informes de Power BI](media/get-started/power-bi-report-server-overview.png)
 
 ## <a name="comparing-power-bi-report-server"></a>Comparación de Power BI Report Server 
-Power BI Report Server es similar a SQL Server Reporting Services y al servicio en línea Power BI, pero con algunas diferencias. Al igual que el servicio Power BI, Power BI Report Server hospeda informes de Power BI (.PBIX) y archivos de Excel. Al igual que Reporting Services, Power BI Report Server es local y hospeda los informes paginados (.RDL). Power BI Report Server es un superconjunto de Reporting Services: todo lo que puede hacer en Reporting Services, puede hacerlo con Power BI Report Server, además de tener compatibilidad con los informes de Power BI. Vea [Comparación de Power BI Report Server y el servicio Power BI](compare-report-server-service.md) para obtener información detallada.
+Power BI Report Server es similar a SQL Server Reporting Services y al servicio en línea Power BI, pero con algunas diferencias. Al igual que el servicio Power BI, Power BI Report Server hospeda los informes de Power BI (. PBIX) archivos de Excel y los informes paginados (. RDL). Al igual que Reporting Services, Power BI Report Server es local. Características de Power BI Report Server son un superconjunto de Reporting Services: todo lo que puede hacer en Reporting Services, que puede hacer con Power BI Report Server, junto con el soporte técnico para los informes de Power BI. Vea [Comparación de Power BI Report Server y el servicio Power BI](compare-report-server-service.md) para obtener información detallada.
 
 ## <a name="licensing-power-bi-report-server"></a>Licencias de Power BI Report Server
-Microsoft Power BI Report Server está disponible en dos licencias diferentes: [Power BI Premium](../service-premium.md) y [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licencia de Power BI Premium, puede crear una implementación híbrida en la que se combine la nube y un entorno local.  
+Microsoft Power BI Report Server está disponible en dos licencias diferentes: [Power BI Premium](../service-premium-what-is.md) y [SQL Server Enterprise Edition](https://www.microsoft.com/sql-server/sql-server-2017-editions) con Software Assurance. Con una licencia de Power BI Premium, puede crear una implementación híbrida en la que se combine la nube y un entorno local.  
 
 > [!NOTE]
 > Para Power BI Premium, Power BI Report Server solo se incluye con las SKU P. No se incluye con las SKU EM.
@@ -48,14 +48,14 @@ Cree informes de Power BI (.PBIX) con la versión de Power BI Desktop optimizada
 
 Un informe de Power BI es una vista de varias perspectivas de un modelo de datos, con visualizaciones que representan diferentes hallazgos e información detallada de ese modelo de datos.  Un informe puede tener una sola visualización o páginas enteras de visualizaciones. Dependiendo de su rol, puede leer y explorar los informes, o puede crearlos para otras personas.
 
-Instale [Power BI Desktop optimizado para Power BI Report Server](quickstart-create-powerbi-report.md).
+Obtenga información sobre [instalar Microsoft Power BI Desktop](install-powerbi-desktop.md).
 
 ## <a name="paginated-reports"></a>Informes paginados
 Los informes paginados (.RDL) son informes con estilo de documento con visualizaciones, en los que las tablas se expanden horizontalmente y verticalmente para mostrar todos sus datos, avanzando de una página a otra según sea necesario. Son excelentes para generar documentos de diseño fijo y apariencia perfecta, optimizados para la impresión, como los archivos PDF y de Word. 
 
 ![Informes paginados en Power BI Report Server](media/get-started/paginated-reports.png)
 
-Para crear informes de aspecto moderno mediante el [Generador de informes](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o el Diseñador de informes en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt). 
+Puede crear informes paginados con [Report Builder](https://docs.microsoft.com/sql/reporting-services/report-builder/report-builder-in-sql-server-2016) o el Diseñador de informes en [SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/reporting-services/tools/reporting-services-in-sql-server-data-tools-ssdt).
 
 ## <a name="reporting-services-mobile-reports"></a>Informes móviles de Reporting Services
 Los informes móviles se conectan a datos locales y tienen un diseño dinámico que se adapta a diferentes dispositivos y distintas maneras de contenerlos. Puede crearlos con el Publicador de informes móviles de Microsoft SQL Server.

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 1db5f34ce7a08b32b665409322836eba483be927
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397684"
+---
 Power BI tiene propiedades que puede asignar a campos de su modelo, las cuales pueden ayudar a generar informes de los datos, así como visualizarlos y presentarlos, con mayor claridad. Por ejemplo, en ocasiones querrá sacar un promedio de una lista de números, pero Power BI suma la lista automáticamente. Con Power BI, puede ajustar cómo se resumen esas listas de números.
 
 ## <a name="numeric-control-over-summarization"></a>Control numérico sobre el resumen

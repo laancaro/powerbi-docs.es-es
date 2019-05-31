@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e3d62b182f9b142f912a608bee693b7356b1a68d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257008"
+---
 En esta lección, empezamos creando un *grupo*. Un **grupo** se define como un conjunto de usuarios que tienen acceso a datos, informes y paneles específicos.
 
 Los grupos de Power BI se basan en los grupos de Office 365, por lo que si ya utiliza esta opción para administrar su grupo de correo electrónico, calendario y documentos, comprobará que Power BI ofrece las mismas funciones y mucho más. Al crear un grupo en Power BI, realmente lo crea en Office 365.

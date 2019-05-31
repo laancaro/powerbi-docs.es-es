@@ -1,20 +1,20 @@
 ---
 title: Acceso a conjuntos de datos compartidos como fuentes de OData en Power BI Report Server
 description: Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/05/2018
-ms.author: maghan
-ms.openlocfilehash: cf322fc518185d87021f2df3d4573805315e625f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 7505860f7eedf62fe4384fea051a2731a932fce9
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54295360"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64769873"
 ---
 # <a name="accessing-shared-datasets-as-odata-feeds-in-power-bi-report-server"></a>Acceso a conjuntos de datos compartidos como fuentes de OData en Power BI Report Server
 Puede tener acceso a conjuntos de datos compartidos desde Power BI Desktop con una fuente de OData.

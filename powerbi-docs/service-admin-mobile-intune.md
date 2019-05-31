@@ -11,10 +11,10 @@ ms.date: 11/01/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d28a27d69d6e8799f08ddaa05e734ded62150c8f
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710934"
 ---
 # <a name="configure-mobile-apps-with-microsoft-intune"></a>Configurar aplicaciones móviles con Microsoft Intune
@@ -50,11 +50,11 @@ La dirección URL de la aplicación para iOS debe obtenerse en iTunes.
 
     ![Dirección URL de la aplicación de iTunes](media/service-admin-mobile-intune/itunes-url.png)
 
-El aspecto debería ser similar al siguiente: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8*.
+El aspecto debería ser similar al siguiente: *https://itunes.apple.com/us/app/microsoft-power-bi/id929738808?mt=8* .
 
 ### <a name="get-android-url"></a>Obtener dirección URL en Android
 
-Puede obtener la dirección URL de Google Play desde la [página de Power BI Mobile](https://powerbi.microsoft.com/mobile/). Seleccione **Descargar de Google Play** para acceder a la página de la aplicación. Puede copiar la dirección URL de la barra de direcciones del explorador. El aspecto debería ser similar al siguiente: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim*.
+Puede obtener la dirección URL de Google Play desde la [página de Power BI Mobile](https://powerbi.microsoft.com/mobile/). Seleccione **Descargar de Google Play** para acceder a la página de la aplicación. Puede copiar la dirección URL de la barra de direcciones del explorador. El aspecto debería ser similar al siguiente: *https://play.google.com/store/apps/details?id=com.microsoft.powerbim* .
 
 ## <a name="step-2-create-a-mobile-application-management-policy"></a>Paso 2: Crear una directiva de administración de aplicaciones móviles
 

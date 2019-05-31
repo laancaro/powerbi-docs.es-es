@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 54108b8d4fd02730cb1aa027d2fefbad2bbfd9fb
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513125"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obtención de datos de archivos de libro de Excel
@@ -119,7 +119,7 @@ El uso de la característica de Excel 2016 **Publicar en Power BI** es lo mismo 
 ## <a name="troubleshooting"></a>Solución de problemas
 ¿El archivo de libro es demasiado grande? Consulte [Reducir el tamaño de un libro de Excel para verlo en Power BI](reduce-the-size-of-an-excel-workbook.md)
 
-Actualmente, al elegir Importar, Power BI solo importa datos que formen parte de una tabla con nombre o un modelo de datos. Como consecuencia, si el libro no contiene tablas con nombre, hojas de Power View o modelos de datos de Excel, podría ver este error: **"No se encontraron datos en el libro de Excel"**. En [este artículo](service-admin-troubleshoot-excel-workbook-data.md) se explica cómo corregir y volver a importar el libro.
+Actualmente, al elegir Importar, Power BI solo importa datos que formen parte de una tabla con nombre o un modelo de datos. Como consecuencia, si el libro no contiene tablas con nombre, hojas de Power View o modelos de datos de Excel, podría ver este error: **"No se encontraron datos en el libro de Excel"** . En [este artículo](service-admin-troubleshoot-excel-workbook-data.md) se explica cómo corregir y volver a importar el libro.
 
 ## <a name="next-steps"></a>Pasos siguientes
 **Exploración de los datos**: cuando obtenga datos e informes del archivo en Power BI, será el momento de explorarlos. Simplemente haga clic con el botón derecho en el nuevo conjunto de datos y, a continuación, haga clic en Explorar. Si elige conectarse a un archivo de libro en OneDrive en el paso 4, el libro aparecerá en Informes. Al hacer clic en él, se abrirá en Power BI, tal como lo haría si estuviera en Excel Online.

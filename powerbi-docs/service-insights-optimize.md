@@ -11,11 +11,11 @@ ms.date: 03/02/2017
 ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 2d2a0cca984776ea67fca45b39f91e280fe02afa
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215168"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61235039"
 ---
 # <a name="optimize-your-data-for-power-bi-quick-insights"></a>Optimizar los datos para Power BI Quick Insights
 ¿Quiere mejorar los resultados de información rápida?  Si es propietario de un conjunto de datos, pruebe esto:

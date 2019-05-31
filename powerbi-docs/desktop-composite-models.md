@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/12/2018
+ms.date: 05/09/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 734af04ae515b1cae19b5afc99166619a85ab828
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: f3d67d0b57f2f04a31d99fb36476871c164aad4d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290476"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65533598"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usar modelos compuestos en Power BI Desktop
 
-Anteriormente en Power BI Desktop, cuando se usaba DirectQuery en un informe, no se permitía usar ninguna otra conexión de datos en ese informe, ya fuese que se tratara de DirectQuery o importación. Con los modelos compuestos esa restricción ya no existe. Un informe puede incluir sin problemas conexiones de datos de más de una conexión de datos de DirectQuery o de importación, en la combinación de su preferencia.
+Anteriormente en Power BI Desktop, cuando se usa DirectQuery en un informe, ninguna otra conexión de datos - si DirectQuery o importación: se permite para el informe. Con los modelos compuestos esa restricción ya no existe. Un informe puede incluir sin problemas conexiones de datos de más de una conexión de datos de DirectQuery o de importación, en la combinación de su preferencia.
 
 ![Modelos compuestos en Power BI Desktop](media/desktop-composite-models/composite-models_01.png)
 
@@ -39,7 +39,7 @@ Con los modelos compuestos puede conectarse a una gran variedad de orígenes de 
 * Mediante la importación de datos a Power BI, que es la manera más común para obtener datos.
 * Mediante una conexión directa a los datos en su repositorio de origen inicial con DirectQuery. Para obtener más información acerca de DirectQuery, vea [Uso de DirectQuery en Power BI](desktop-directquery-about.md).
 
-Usar DirectQuery con los *modelos compuestos* posibilita crear un modelo de Power BI (como un archivo *.pbix* de Power BI Desktop único) que tiene como resultado uno de los siguientes o ambos:
+Cuando se usa DirectQuery, *modelos compuestos* hacen posible crear un modelo de Power BI (como una sola *.pbix* archivo de Power BI Desktop) que realiza una o ambas de las siguientes acciones:
 
 * Combina los datos de uno o varios orígenes de DirectQuery.
 * Combina los datos de orígenes de DirectQuery e importa los datos.
@@ -52,8 +52,6 @@ Por ejemplo, mediante el uso de modelos compuestos, puede crear un modelo que co
 
 Un modelo que combina datos de más de un origen de DirectQuery o que combina DirectQuery con datos importados se conoce como un *modelo compuesto*.
 
-> [!NOTE]
-> A partir de la versión de octubre de 2018 de Power BI Desktop, *puede* publicar modelos compuestos en el servicio Power BI. Para la actualización programada y la actualización del icono del panel, los modelos compuestos en el servicio Power BI se comportan de la misma manera que los modelos de importación. 
 
 Puede crear relaciones entre tablas como siempre lo ha hecho, incluso cuando esas tablas provienen de distintos orígenes, con estas restricciones: se debe definir que toda relación proveniente de distintos orígenes tenga una cardinalidad de *varios a varios*, independientemente de su cardinalidad real. De ese modo, el comportamiento de dichas relaciones es el mismo que el normal para las relaciones de *varios a varios*, tal como se describe en [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md). 
 
@@ -90,7 +88,7 @@ Del mismo modo, en la vista **Relaciones** en Power BI Desktop, ahora veremos un
 
 ![Vista de relaciones de las tablas](media/desktop-composite-models/composite-models_08.png)
 
-Ahora necesitamos relacionar estas tablas con las otras en el modelo. Como siempre, creamos una relación entre la tabla **Bike** (Bicicleta) de SQL Server y la tabla **ProductManagers** importada. Es decir, la relación se establece entre *Bike[ProductName]* y *ProductManagers[ProductName]*. Como se ha explicado anteriormente, todas las relaciones entre el origen deben tener la cardinalidad de *varios a varios* predeterminada. 
+Ahora necesitamos relacionar estas tablas con las otras en el modelo. Como siempre, creamos una relación entre la tabla **Bike** (Bicicleta) de SQL Server y la tabla **ProductManagers** importada. Es decir, la relación se establece entre *Bike[ProductName]* y *ProductManagers[ProductName]* . Como se ha explicado anteriormente, todas las relaciones entre el origen deben tener la cardinalidad de *varios a varios* predeterminada. 
 
 ![Ventana Crear diálogo](media/desktop-composite-models/composite-models_09.png)
 
@@ -102,7 +100,7 @@ Ahora podemos crear objetos visuales mediante cualquiera de los campos de la lis
 
 ![El panel Campos](media/desktop-composite-models/composite-models_11.png)
 
-En el ejemplo siguiente se muestra un caso común de una tabla de *dimensiones*, como *Product* (Producto) o *Customer* (Cliente), que se extiende con algunos datos adicionales que se importan desde otro lugar. También es posible hacer que las tablas usen DirectQuery para conectarse a diversos orígenes. Para continuar con el ejemplo, imaginemos que *Sales Targets* (Objetivos de ventas) por *Country* (País) y *Period* (Período) se almacenan en una base de datos departamental independiente. Como es habitual, puede usar *GetData* para conectarse a esos datos, tal como se muestra en la siguiente imagen: 
+En el ejemplo siguiente se muestra un caso común de un *dimensión* tabla - como *producto* o *cliente* -que se extiende con algunos datos adicionales que se importó desde otro lugar. También es posible hacer que las tablas usen DirectQuery para conectarse a diversos orígenes. Para continuar con el ejemplo, imaginemos que *Sales Targets* (Objetivos de ventas) por *Country* (País) y *Period* (Período) se almacenan en una base de datos departamental independiente. Como es habitual, puede usar *GetData* para conectarse a esos datos, tal como se muestra en la siguiente imagen: 
 
 ![La ventana Navegador](media/desktop-composite-models/composite-models_12.png)
 
@@ -124,7 +122,7 @@ El modo de almacenamiento también se puede ver en la información sobre herrami
 
 ![Información en pantalla que muestra el modo de almacenamiento](media/desktop-composite-models/composite-models_16.png)
 
-En el caso de los archivos de Power BI Desktop (.*.pbix*) que contengan tablas DirectQuery e Importación, la barra de estado mostrará un modo de almacenamiento denominado **Combinado**. Puede hacer clic en ese término en la barra de estado y cambiar fácilmente todas las tablas para importación.
+En el caso de los archivos de Power BI Desktop (. *.pbix*) que contengan tablas DirectQuery e Importación, la barra de estado mostrará un modo de almacenamiento denominado **Combinado**. Puede hacer clic en ese término en la barra de estado y cambiar fácilmente todas las tablas para importación.
 
 Para obtener más información sobre el modo de almacenamiento, vea [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md).  
 
@@ -154,7 +152,7 @@ Por motivos similares, se debe tener cuidado al abrir un archivo de Power BI Des
 
 Siempre se debe considerar el rendimiento al usar DirectQuery, principalmente para garantizar que el origen de back-end tenga los recursos suficientes para proporcionar una buena experiencia para los usuarios. Para que la experiencia se considere buena, los objetos visuales deben actualizarse en cinco segundos o menos. También debe seguir el consejo sobre el rendimiento que aparece en el artículo [Uso de DirectQuery en Power BI](desktop-directquery-about.md). 
 
-El uso de modelos compuestos agrega consideraciones de rendimiento adicionales. Un solo objeto visual puede producir que se envíen consultas a varios orígenes, lo que a menudo pasa los resultados de una consulta a un segundo origen. Esta situación puede generar las siguientes formas de ejecución:
+El uso de modelos compuestos agrega consideraciones de rendimiento adicionales. Puede dar lugar a un solo objeto visual en el envío de consultas para varios orígenes, que a menudo pasan los resultados de una consulta a través a un segundo origen. Esta situación puede generar las siguientes formas de ejecución:
 
 * **Consulta SQL con un gran número de valores literales**: por ejemplo, un objeto visual que solicita el valor *Sales Amount* (Cantidad de ventas) total para un conjunto de *Product Managers* (Administradores de productos) seleccionado primero tendría que determinar qué *Products* (Productos) administraban. Esta secuencia debe realizase antes de que el objeto visual envíe una consulta SQL que incluya todos los identificadores de producto en una cláusula *WHERE*.
 
@@ -162,7 +160,7 @@ El uso de modelos compuestos agrega consideraciones de rendimiento adicionales. 
 
 * **Varias consultas SQL, una por grupo por valor**: cuando la agregación usa **DistinctCount** (Recuento continuo) y la agrupa por una columna desde otro origen y si el origen externo no admite pasar de manera eficaz varios valores literales que definen la agrupación, es necesario enviar una consulta SQL por grupo por valor. 
 
-   Por ejemplo, un objeto visual que solicita un recuento distinto de *CustomerAccountNumber* (Número de cuenta de cliente) (desde la tabla de SQL Server) por *Product Manager* (Administrador de productos) (importado desde una hoja de cálculo) debería pasar los detalles de la tabla *Product Managers* (Administradores de productos) en la consulta enviada a SQL Server. Esta acción es inviable a través de otros orígenes (por ejemplo, Redshift). En su lugar, habría una consulta SQL enviada por *Sales Manager* (Administrador de ventas) (hasta algún límite práctico, momento en el cual se generaría un error en la consulta). 
+   Por ejemplo, un objeto visual que solicita un recuento distinto de *CustomerAccountNumber* (Número de cuenta de cliente) (desde la tabla de SQL Server) por *Product Manager* (Administrador de productos) (importado desde una hoja de cálculo) debería pasar los detalles de la tabla *Product Managers* (Administradores de productos) en la consulta enviada a SQL Server. Esta acción es inviable a través de otros orígenes (por ejemplo, Redshift). En su lugar, podría haber una consulta SQL enviada por *jefe de ventas* : hasta un límite práctico, momento en que se producirá un error en la consulta. 
 
 Cada uno de estos casos tiene sus propias implicaciones en el rendimiento y los detalles exactos varían en función de cada origen de datos. Aunque la cardinalidad de las columnas usadas en la relación que combina ambos orígenes permanece baja (unos pocos miles), el rendimiento no debería verse afectado. A medida que crece esta cardinalidad, debe prestar más atención a la repercusión en el rendimiento resultante. Aplique estas instrucciones a modo de regla general. 
 
@@ -170,7 +168,9 @@ Además, el uso de las relaciones de *varios a varios* significa que se deben en
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
-Existen algunas limitaciones para esta versión de los modelos compuestos.
+Esta versión de modelos compuestos presenta algunas limitaciones:
+
+Actualmente, [actualización incremental](service-premium-incremental-refresh.md) es compatible con los modelos compuestos conectando a solo orígenes de datos SQL, Oracle y Teradata.
 
 Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar con los modelos compuestos:
 
@@ -187,8 +187,8 @@ Las limitaciones existentes de DirectQuery siguen aplicándose cuando se usan lo
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para obtener más información sobre los modelos compuestos y DirectQuery, consulte los siguientes artículos:
-* [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md)
-* [Modo de almacenamiento en Power BI Desktop (versión preliminar)](desktop-storage-mode.md)
+* [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md)
+* [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md)
 * [Uso de DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos admitidos por DirectQuery en Power BI](desktop-directquery-data-sources.md)
 

@@ -11,11 +11,11 @@ ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Reports
 ms.openlocfilehash: a4bc58a5be385e22c68aa29a8a366231c8434bba
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283975"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61407320"
 ---
 # <a name="save-a-report-in-power-bi-service-and-power-bi-desktop"></a>Almacenamiento de un informe en el servicio Power BI y en Power BI Desktop
 Después de cambiar un informe en Power BI, puede guardarlo, guardarlo con un nombre nuevo o simplemente cerrarlo sin guardar los cambios. Supongamos que abre el informe, crea una visualización y la ancla al panel. Si la cierra ahora sin guardar los cambios, el icono permanecerá el panel, pero la visualización no se guarda en el informe. Al hacer clic en ese icono en el panel, se abre el informe, pero la visualización ya no existe.

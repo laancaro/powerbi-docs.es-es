@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d6424f63d992eaa7c8a4a8a5f76765b6aeb6104d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264069"
+---
 Cuando trabaja con un panel, un informe o un conjunto de datos en el servicio Power BI, puede hacer que Power BI busque información rápida en los datos. En Power BI, en la sección **Conjuntos de datos** del panel izquierdo, seleccione el menú de los *puntos suspensivos* que se encuentra al lado del conjunto de datos que le interesa. Aparecerá un menú de opciones y, en el extremo derecho, verá una opción denominada **Información rápida**.
 
 ![](media/4-1a-quick-insights/4-1a_1.png)

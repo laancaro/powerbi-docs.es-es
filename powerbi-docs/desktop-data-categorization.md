@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 5b6bbf7a203d8e87d129b6336be4f4531ae34107
-ms.sourcegitcommit: 2116af72f435cd30f1401bb9c7afdcbc76b1c3ce
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454482"
 ---
 # <a name="data-categorization-in-power-bi-desktop"></a>Categorización de datos en Power BI Desktop
@@ -33,7 +33,7 @@ Sin embargo, existen algunos casos que son un poco más difíciles, como la ubic
 **Para especificar una categoría de datos**
 
 1. En la vista de informes o vista de datos, en la lista de **campos** , seleccione el campo que desee ordenar por una categorización diferente.
-2. En la pestaña **Modelado** de la barra de herramientas, haga clic en la lista desplegable **Categoría de datos:**.  De esta forma, se muestra la lista de categorías de datos posibles que puede elegir para la columna.  Algunas selecciones pueden deshabilitarse si no funcionan con el tipo de datos actual de la columna.  Por ejemplo, si una columna es un tipo de datos binarios, Power BI Desktop no le permitirá elegir categorías de datos geográficos. 
+2. En la pestaña **Modelado** de la barra de herramientas, haga clic en la lista desplegable **Categoría de datos:** .  De esta forma, se muestra la lista de categorías de datos posibles que puede elegir para la columna.  Algunas selecciones pueden deshabilitarse si no funcionan con el tipo de datos actual de la columna.  Por ejemplo, si una columna es un tipo de datos binarios, Power BI Desktop no le permitirá elegir categorías de datos geográficos. 
 
 ![](media/desktop-data-categorization/datacategorization.gif)
 

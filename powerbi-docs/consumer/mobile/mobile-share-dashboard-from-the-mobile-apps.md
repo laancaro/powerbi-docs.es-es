@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69532ea9ad98edc7655fb77aec13b69eec6566bf
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 75d315463601110dee61d293a7a41abbf30aaa2d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283676"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61274657"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:
@@ -23,7 +23,7 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |Dispositivos de Windows 10 |
 
-Con una [licencia de Power BI Pro](../../service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../service-premium.md).
+Con una [licencia de Power BI Pro](../../service-features-license-type.md), puede invitar a otros usuarios a ver sus paneles e informes si comparte vínculos desde las aplicaciones móviles de Power BI. Puede compartir con cualquier usuario, ya sea dentro o fuera de su organización, que tenga o no una cuenta de correo corporativa. Sí necesitarán tener también una licencia de Power BI Pro o que el contenido esté en una [capacidad Premium](../../service-premium-what-is.md).
 
 Desde las aplicaciones móviles de Power BI para iOS y Android, también puede [anotar y compartir una instantánea de un icono, un informe o un objeto visual](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con cualquier persona. 
 

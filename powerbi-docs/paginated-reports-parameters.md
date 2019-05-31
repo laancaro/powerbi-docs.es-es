@@ -1,26 +1,26 @@
 ---
 title: Creación de parámetros de informes paginados en el servicio Power BI (versión preliminar)
 description: En este artículo, obtendrá información sobre cómo crear parámetros de informes paginados en el servicio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 2240d2bf622122527d4d052a9d7098be648e368d
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: d58d1c84199c698089f4b3abccb26f9dbaea76d6
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324630"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987704"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service-preview"></a>Creación de parámetros de informes paginados en el servicio Power BI (versión preliminar)
 
 En este artículo, obtendrá información sobre cómo crear parámetros de informes paginados en el servicio Power BI.  Un parámetro de informe proporciona una manera de elegir los datos de informe y variar la presentación de los informes. Puede proporcionar un valor predeterminado y una lista de valores disponibles, y los lectores del informe pueden cambiar la selección.  
 
-La siguiente ilustración muestra la vista de diseño del generador de informes para un informe con los parámetros @BuyingGroup, @Customer, @FromDate y @ToDate. 
+La siguiente ilustración muestra la vista Diseño en el generador de informes de Power BI para un informe con los parámetros @BuyingGroup, @Customer, @FromDate, y @ToDate. 
   
 ![Parámetros en el generador de informes](media/paginated-reports-parameters/power-bi-paginated-parameters-report-builder.png)
   
@@ -37,7 +37,7 @@ La siguiente ilustración muestra la vista de diseño del generador de informes 
   
 ## <a name="create-or-edit-a-report-parameter"></a>Creación o edición del parámetro de un informe  
   
-1.  Abra el informe paginado en el generador de informes.
+1.  Abra el informe paginado en el generador de informes de Power BI.
 
 1. En el panel **Datos de informe**, haga clic con el botón derecho en el nodo **Parámetros** > **Agregar parámetro**. Se abre el cuadro de diálogo **Propiedades de parámetro de informe**.  
   

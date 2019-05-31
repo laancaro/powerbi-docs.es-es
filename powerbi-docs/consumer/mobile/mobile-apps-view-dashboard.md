@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
 ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54279237"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61141636"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -87,7 +87,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
    * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-dashboard-ios-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
-3. Puede compartir un panel desde el área de trabajo. Pulse el botón de puntos suspensivos (**...**) en la esquina inferior derecha del icono de panel y, después, **Invitar a otros**.
+3. Puede compartir un panel desde el área de trabajo. Pulse el botón de puntos suspensivos ( **...** ) en la esquina inferior derecha del icono de panel y, después, **Invitar a otros**.
    
    ![Icono de invitación](./media/mobile-apps-view-dashboard/power-bi-ipad-tile-invite-others.png)
 4. También puede pulsar un panel para abrirlo y ver los iconos en ese panel. En el panel puede interactuar con él:

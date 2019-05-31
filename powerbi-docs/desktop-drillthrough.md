@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: dffcf8fb3daa7559abd4d3b999ea3a73392d0eb9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 7c9d400b196366609caebe9f79bb9a8130a4ad11
+ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54283125"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66375164"
 ---
 # <a name="use-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles en Power BI Desktop
 Con la **obtención de detalles** en **Power BI Desktop**, puede crear una página en el informe que se centra en una entidad específica, como un proveedor, un cliente o un fabricante. Los usuarios pueden hacer clic con el botón derecho en un punto de datos de otras páginas de informe. A continuación, pueden ofrecer la obtención de detalles en la página seleccionada para obtener información que se filtra para ese contexto.
@@ -81,5 +81,6 @@ Eso es todo lo necesario para usar la **obtención de detalles** en los informes
 
 Puede que también esté interesado en los siguientes artículos:
 
-* [Uso de segmentaciones de datos en Power BI Desktop](visuals/desktop-slicers.md)
+* [Usar la obtención de detalles entre informes en Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Uso de segmentaciones de datos en Power BI Desktop](visuals/power-bi-visualization-slicers.md)
 

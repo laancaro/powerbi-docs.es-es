@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: c508a97d10c1ac16df5c5a006900257d7003ed43
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274982"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61200400"
 ---
 # <a name="download-the-financial-sample-workbook-for-power-bi"></a>Descarga del libro de ejemplos financieros para Power BI
 ¿Necesita algunos datos para probar con el servicio Power BI? Tenemos un libro de Excel sencillo con datos financieros de ejemplo que está disponible para su descarga.  Aquí se muestra cómo hacerlo:

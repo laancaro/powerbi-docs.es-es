@@ -1,20 +1,20 @@
 ---
 title: Orígenes de datos insertados para informes paginados en el servicio Power BI (versión preliminar)
 description: En este artículo, obtendrá información sobre cómo crear y modificar un origen de datos insertado en un informe paginado en el servicio Power BI.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/05/2018
-ms.openlocfilehash: 340b4d26b8beed4dfda5f7af4dc949088f3857ae
-ms.sourcegitcommit: d2805894fd372c35e11d519f724de2be98407fda
-ms.translationtype: HT
+ms.date: 05/16/2019
+ms.openlocfilehash: 4dd9ad935a9f7b286aa64d977a78364f2aed0e0f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "59070031"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853396"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service-preview"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI (versión preliminar)
 
@@ -23,13 +23,19 @@ En este artículo, obtendrá información sobre cómo crear y modificar un orige
 - Azure SQL Database y Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
+- Oracle 
+- Teradata 
+
+Para estos orígenes de datos, use el [conexión de SQL Server Analysis Services](service-premium-connect-tools.md) opción:
+
 - Azure Analysis Services
+- Conjuntos de datos de Power BI Premium
 
 Los informes paginados se conectan a orígenes de datos locales mediante una puerta de enlace. Configure la puerta de enlace después de publicar el informe en el servicio Power BI. Obtenga más información sobre las [puertas de enlace de Power BI](service-gateway-getting-started.md). 
 
 ## <a name="create-an-embedded-data-source"></a>Creación de un origen de datos insertados
   
-1. Abra el generador de informes.
+1. Abra el generador de informes de BI energía.
 
 1. En la barra de herramientas del panel Datos de informe, seleccione **Nuevo** > **Orígenes de datos**. Se abre el cuadro de diálogo **Propiedades del origen de datos**.
 
@@ -62,4 +68,4 @@ Los informes paginados se conectan a orígenes de datos locales mediante una pue
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Creación de un conjunto de datos insertado para un informe paginado en el servicio Power BI](paginated-reports-create-embedded-dataset.md)
-- [¿Qué son los informes paginados en Power BI Premium? (Versión preliminar)](paginated-reports-report-builder-power-bi.md)
+- [¿Qué son los informes paginados en Power BI Premium? (versión preliminar)](paginated-reports-report-builder-power-bi.md)

@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: ef29c6b73a9a430fda35c2274dd278d11bd29dcc
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: f32a5704d611153e5b4a0f3a485f2a4a25f93e8b
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661960"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61059958"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 * Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
@@ -31,8 +31,9 @@ Power BI Pro es una licencia individual que permite acceder a todo el contenido 
 Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable y admitir volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium también permite una amplia distribución de contenido por parte de los usuarios de Pro sin solicitar licencias por usuario para los destinatarios que ven el contenido.
 
 ## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>¿Qué ocurre si mi licencia de Power BI Pro expira?
-Hay un período de gracia de 30 días después de que expira una licencia de Power BI Pro.
-Power BI Pro tiene el mismo ciclo de vida de suscripción que Office 365. Para más información, consulte [¿Qué pasa con mis datos y mi acceso cuando termina mi suscripción de Office 365 para empresas?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
+Hay un período de gracia después de que expire una licencia de Power BI Pro. Las licencias que forman parte de una compra de licencia por volumen disponen de un período de gracia de 90 días. Si compró la licencia directamente, el período de gracia es de 30 días.
+
+Power BI Pro tiene el mismo ciclo de vida de suscripción que Office 365. Para obtener más información, consulte [¿qué ocurre con mis datos y el acceso cuando termina mi Office 365 para la suscripción de empresa?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3).
 
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>¿Y si tengo preguntas sobre Power BI Premium?
 Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ](../service-premium-faq.md) (Preguntas frecuentes de Power BI Premium).
@@ -90,11 +91,6 @@ Esta es una lista completa de las [regiones y los idiomas que admite Power BI](.
 Las licencias de Power BI Pro se pueden adquirir directamente, o bien a través de un representante de [www.powerbi.com](http://www.powerbi.com).
 
 También puede buscar un [partner de Microsoft](https://partner.microsoft.com/) que le ayude con la implementación de Power BI.
-
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>¿Qué ocurre si mi licencia de Power BI Pro expira?
-Hay un período de gracia después de que expire una licencia de Power BI Pro. Las licencias que forman parte de una compra de licencia por volumen disponen de un período de gracia de 90 días. Si compró la licencia directamente, el período de gracia es de 30 días.
-
-Power BI Pro tiene el mismo ciclo de vida de suscripción que Office 365. Para más información, consulte [¿Qué pasa con mis datos y mi acceso cuando termina mi suscripción de Office 365 para empresas?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>¿Cumple Power BI los requisitos de cumplimiento nacionales, regionales y específicos del sector?
 Obtenga más información sobre el cumplimiento de Power BI en el [Centro de confianza de Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c8a96918049f2f1898ab80a9368a8d2f0a8fe53a
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54286146"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454477"
 ---
 # <a name="data-view-in-power-bi-desktop"></a>Vista de datos en Power BI Desktop
 La **vista de datos** le permite inspeccionar, explorar y analizar los datos de su modelo de **Power BI Desktop**. Es diferente de cómo ve las tablas, columnas y datos en el **Editor de consultas**. Con la vista de datos, ve los datos *después* de que se hayan cargado en el modelo.
@@ -28,7 +28,7 @@ Eche un vistazo más de cerca a algunos de los elementos de la **vista de datos*
 
 1. **Icono de vista de datos**: seleccione este icono para entrar en la vista de datos.
 
-2. **Cuadrícula de datos**: se muestra la tabla seleccionada y todas las columnas y filas que contiene. Las columnas ocultas de la **vista de informe** están atenuadas. Puede hacer clic con el botón derecho en una columna de opciones.
+2. **Cuadrícula de datos**: se muestra la tabla seleccionada y todas las columnas y filas que contiene. Las columnas ocultas de la **vista de informe** están atenuadas. Puede hacer clic en una columna de opciones.
 
 3. **Cinta de opciones de modelado**: aquí puede administrar relaciones, crear cálculos y cambiar el tipo de datos, el formato y la categoría de datos de una columna.
 

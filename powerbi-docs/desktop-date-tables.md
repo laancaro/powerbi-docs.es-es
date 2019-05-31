@@ -7,19 +7,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8da4922245a1d02484988dd26da68afceaa1fc2c
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9bbe302c7187419abae556bb34f991efa1fdae00
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275647"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65454379"
 ---
 # <a name="set-and-use-date-tables-in-power-bi-desktop"></a>Configuración y uso de tablas de fechas en Power BI Desktop
 
-**Power BI Desktop** funciona en segundo plano para identificar automáticamente las tablas como **tablas de fechas** y, a continuación, crea jerarquías de fechas y otros metadatos propicios para su modelo de forma automática. Luego puede usar dichas jerarquías integradas para crear características de informes como elementos visuales, tablas, medidas rápidas, segmentaciones, etc. Para ello, Power BI Desktop crea tablas ocultas de manera automática que luego el usuario puede utilizar para sus informes y expresiones de DAX.
+**Power BI Desktop** funciona en segundo plano para identificar automáticamente las columnas que representan las fechas y, a continuación, crea jerarquías de fechas y otros metadatos propicios para su modelo en su nombre. Luego puede usar dichas jerarquías integradas para crear características de informes como elementos visuales, tablas, medidas rápidas, segmentaciones, etc. Para ello, Power BI Desktop crea tablas ocultas de manera automática que luego el usuario puede utilizar para sus informes y expresiones de DAX.
 
 Muchos analistas de datos prefieren crear sus propias tablas de fechas, lo cual es perfectamente válido. En **Power BI Desktop**, puede especificar la tabla que quiera para que su modelo la use como **tabla de fechas** y, después, crear objetos visuales, tablas, medidas rápidas, etc. relacionados con las fechas utilizando los datos de fechas de la tabla. Cuando se especifique su propia tabla de fechas, tendrá el control de las jerarquías de fechas creadas en su modelo, y las usará en las **medidas rápidas** y otras operaciones que utilizan la tabla de fechas de su modelo. 
 
@@ -52,7 +52,7 @@ Una vez especificada una tabla de fechas, puede seleccionar qué columna de la t
 
 ![](media/desktop-date-tables/date-tables_03.png)
 
-Es importante tener en cuenta que, cuando especifique su propia tabla de fechas, **Power BI Desktop** no creará automáticamente las jerarquías que de otro modo generaría en el modelo de manera automática. Si más adelante anula la selección de la tabla de fechas (y deja de tener una tabla de fechas configurada de manera manual), Power BI Desktop volverá a crear las tablas de fechas integradas creadas automáticamente para las columnas de fecha en la tabla.
+Es importante tener en cuenta que, cuando especifique su propia tabla de fechas, **Power BI Desktop** no creará automáticamente las jerarquías que de otro modo generaría en el modelo de manera automática. Si más adelante anule la selección de la tabla de fechas (y ya no tiene una tabla de fechas configurada manualmente), Power BI Desktop vuelve a crear las tablas de fechas integradas creadas automáticamente para usted, para las columnas de fecha en la tabla.
 
 También es importante tener en cuenta que cuando se marca una tabla como tabla de fechas, se quita la tabla de fechas integrada (creada automáticamente) que creó Power BI Desktop, y los objetos visuales o expresiones de DAX que creó anteriormente con base en esas tablas integradas dejarán de funcionar correctamente. 
 

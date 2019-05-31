@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 4e3b465648d5b827d1ed53550207879f555c38f9
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 8d690e8fd19ab988192c2aa36053416d2bb3d45c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284113"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61403447"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -48,7 +48,7 @@ En este vídeo se muestra el editor de informes en Power BI Desktop.
 
 ## <a name="collaborating-in-the-power-bi-service"></a>Colaboración en el servicio Power BI
 
-Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, acto seguido, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de informes los visualizan en el servicio Power BI en [la vista de lectura](consumer/end-user-reading-view.md), no en la vista de edición, dado que carecen de acceso a todas las características disponibles para los creadores de informes. 
+Después de crear los informes, puede guardarlos en un *área de trabajo* en el **servicio Power BI**, donde puede colaborar con sus compañeros. Los *paneles* se crean a partir de estos informes y, acto seguido, esos paneles e informes se comparten con los consumidores de informes dentro y fuera de la organización. Los consumidores de informes los visualizan en el servicio Power BI en [la vista de lectura](consumer/end-user-reading-view.md), no en la vista de edición, No tiene acceso a todas las características disponibles para los creadores de informes. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

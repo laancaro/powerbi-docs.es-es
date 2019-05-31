@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 29a274bb847c6c0395d3cdba868024ded326290e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397644"
+---
 Cuando tenga varias visualizaciones en la misma página del informe, la selección de un segmento concreto haciendo clic en él o usando una segmentación repercutirá en todos los objetos visuales de la página. En algunos casos, no obstante, quizás desee segmentar únicamente objetos visuales específicos. Esto es así cuando se usan elementos como gráficos de dispersión, en los que si se limitan los datos a un segmento concreto, se perderá información importante. Por suerte, Power BI Desktop permite controlar cómo fluyen las interacciones entre objetos visuales.
 
 Para cambiar la interacción entre las visualizaciones, seleccione **Editar** en la sección Objetos visuales de la cinta de opciones **Inicio** para activar el **modo de edición**.

@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514533"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Creación de columnas calculadas en Power BI Desktop
@@ -44,7 +44,7 @@ En su informe de ventas, desea mostrar categorías y subcategorías de producto 
     
     ![Barra de fórmulas](media/desktop-tutorial-create-calculated-columns/create3.png)
     
-2.  De forma predeterminada, a una nueva columna calculada se le denomina simplemente Columna. Si no cambia su nombre, las nuevas columnas adicionales se denominarán Columna 2, Columna 3 y así sucesivamente. Desea que la columna sea más fácil de identificar, por lo que el nombre **Columna** ya está resaltado en la barra de fórmulas; cambie su nombre escribiendo **ProductFullCategory** y luego escriba un signo igual (**=**).
+2.  De forma predeterminada, a una nueva columna calculada se le denomina simplemente Columna. Si no cambia su nombre, las nuevas columnas adicionales se denominarán Columna 2, Columna 3 y así sucesivamente. Desea que la columna sea más fácil de identificar, por lo que el nombre **Columna** ya está resaltado en la barra de fórmulas; cambie su nombre escribiendo **ProductFullCategory** y luego escriba un signo igual ( **=** ).
     
 3.  Quiere que los valores de la nueva columna empiecen con el nombre ProductCategory. Dado que esta columna está en una tabla diferente pero relacionada, vamos a usar la función [RELATED](https://msdn.microsoft.com/library/ee634202.aspx) para ayudarle a conseguir su objetivo.
     
@@ -56,19 +56,19 @@ En su informe de ventas, desea mostrar categorías y subcategorías de producto 
     
     ![Elección de ProductCategory](media/desktop-tutorial-create-calculated-columns/create5.png)
     
-4.  Desea la columna **ProductCategory** de la tabla **ProductCategory**. Seleccione **ProductCategory[ProductCategory]**, presione **Intro** y escriba un paréntesis de cierre.
+4.  Desea la columna **ProductCategory** de la tabla **ProductCategory**. Seleccione **ProductCategory[ProductCategory]** , presione **Intro** y escriba un paréntesis de cierre.
     
     > [!TIP]
     > Los errores de sintaxis suelen producirse por un paréntesis de cierre ausente o que no viene al caso, aunque a veces Power BI Desktop lo agregará automáticamente.
     
-4. Desea guiones y espacios para separar ProductCategories y ProductSubcategories en los nuevos valores, así que después del paréntesis de cierre de la primera expresión, escriba un espacio, una Y comercial (**&**), comillas dobles (**"**), espacio, guion (**-**), otro espacio, otras comillas dobles y otra Y comercial. La fórmula debe tener el siguiente aspecto:
+4. Desea guiones y espacios para separar ProductCategories y ProductSubcategories en los nuevos valores, así que después del paréntesis de cierre de la primera expresión, escriba un espacio, una Y comercial ( **&** ), comillas dobles ( **"** ), espacio, guion ( **-** ), otro espacio, otras comillas dobles y otra Y comercial. La fórmula debe tener el siguiente aspecto:
     
     `ProductFullCategory = RELATED(ProductCategory[ProductCategory]) & " - " &`
     
     > [!TIP]
     > Si necesita más espacio, seleccione el botón de contenido adicional hacia abajo situado en el lado derecho de la barra de fórmulas para expandir el editor de fórmulas. En el editor, presione **Alt + Intro** para bajar una línea y el **tabulador** para mover cosas.
     
-5.  Por último, escriba otro corchete de apertura (**[**) y luego seleccione la columna **[ProductSubcategory]** para terminar la fórmula. 
+5.  Por último, escriba otro corchete de apertura ( **[** ) y luego seleccione la columna **[ProductSubcategory]** para terminar la fórmula. 
     
     ![Elección de ProductSubcategory](media/desktop-tutorial-create-calculated-columns/create6.png)
     
@@ -102,19 +102,19 @@ Afortunadamente, la tabla Stores tiene una columna denominada **Status**, con va
 
 1.  Cree una nueva columna calculada en la tabla **Stores** y llámela **Active StoreName** en la barra de fórmulas.
     
-2.  Después del signo **=**, comience a escribir **IF**. La lista de sugerencias mostrará qué puede agregar. Seleccione **IF**.
+2.  Después del signo **=** , comience a escribir **IF**. La lista de sugerencias mostrará qué puede agregar. Seleccione **IF**.
     
     ![Selección de IF](media/desktop-tutorial-create-calculated-columns/if1.png)
     
-3.  El primer argumento para IF es una prueba lógica de si el estado de una tienda es "On". Escriba un corchete de apertura **[**, que enumera las columnas de la tabla Stores, y seleccione **[Status]**.
+3.  El primer argumento para IF es una prueba lógica de si el estado de una tienda es "On". Escriba un corchete de apertura **[** , que enumera las columnas de la tabla Stores, y seleccione **[Status]** .
     
     ![Selección de Status](media/desktop-tutorial-create-calculated-columns/if2.png)
     
-4.  Justo después de **[Status]**, escriba **= "On"** y luego escriba una coma (**,**) para finalizar el argumento. La información sobre herramientas sugiere que ahora debe agregar un valor que se devuelve cuando el resultado es TRUE.
+4.  Justo después de **[Status]** , escriba **= "On"** y luego escriba una coma ( **,** ) para finalizar el argumento. La información sobre herramientas sugiere que ahora debe agregar un valor que se devuelve cuando el resultado es TRUE.
     
     ![Incorporación del valor TRUE](media/desktop-tutorial-create-calculated-columns/if3.png)
     
-5.  Si el estado de la tienda es "On", quiere que aparezca el nombre de la misma. Escriba un corchete de apertura (**[**), la columna **[StoreName]** y luego escriba otra coma. La información sobre herramientas ahora indica que debe agregar un valor que se devuelve cuando el resultado es FALSE. 
+5.  Si el estado de la tienda es "On", quiere que aparezca el nombre de la misma. Escriba un corchete de apertura ( **[** ), la columna **[StoreName]** y luego escriba otra coma. La información sobre herramientas ahora indica que debe agregar un valor que se devuelve cuando el resultado es FALSE. 
     
     ![Incorporación del valor FALSE](media/desktop-tutorial-create-calculated-columns/if4.png)
     

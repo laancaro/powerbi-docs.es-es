@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 50cdaded75f81828542afa10abf104079d09ebd8
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397723"
+---
 De manera predeterminada, los encabezados de columna solo se muestran en los informes si contienen datos. Por ejemplo, si estuviera mostrando los ingresos por país y no se hubiera producido ninguna venta en Noruega, dicho país nórdico no aparecerá por ninguna parte en la visualización.
 
 Para mostrar categorías vacías, haga clic en la flecha abajo del campo que desee cambiar en el panel **Visualizaciones** y seleccione **Mostrar elementos sin datos**.

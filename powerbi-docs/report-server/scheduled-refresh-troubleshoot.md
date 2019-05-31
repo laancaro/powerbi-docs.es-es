@@ -1,20 +1,20 @@
 ---
 title: Solucionar problemas de actualización programada en Power BI Report Server
 description: En este artículo se describen los recursos disponibles para solucionar problemas con la actualización programada en Power BI Report Server.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 3aa4047f5a4b0146c534a5734d8d13a42c46fe58
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: f4638250cb2ae245dc9ce222e43c7a87de6e395d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287816"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61200305"
 ---
 # <a name="troubleshoot-scheduled-refresh-in-power-bi-report-server"></a>Solucionar problemas de actualización programada en Power BI Report Server
 En este artículo se describen los recursos disponibles para solucionar problemas con la actualización programada en Power BI Report Server.
@@ -25,7 +25,7 @@ Cuando surjan nuevos problemas, este artículo se actualizará con información 
 Estos son los problemas más comunes que puede encontrar al intentar programar la actualización de un informe. 
 
 ### <a name="driver-related-problems"></a>Problemas relacionados con el controlador
-La conexión a distintos orígenes de datos puede requerir controladores de terceros que deben instalarse para poder conectarse correctamente. No solo tendría que instalarlos en el equipo en el que usa Power BI Desktop, sino que también debe asegurarse de que el controlador está instalado en el servidor de informes.
+La conexión a distintos orígenes de datos puede requerir controladores de terceros que se deben instalar para poder conectarse correctamente. No solo tendría que instalarlos en el equipo en el que usa Power BI Desktop, sino que también debe asegurarse de que el controlador está instalado en el servidor de informes.
 
 El controlador también puede venir en versiones de 32 bits y 64 bits. Asegúrese de instalar al controlador de 64 bits, ya que Power BI Report Server es de 64 bits.
 
@@ -60,7 +60,7 @@ La configuración siguiente puede utilizarse para afectar a la actualización pr
 
 **Configuración en el archivo rsreportserver.config:**
 
-```
+```xml
 <Configuration>
     <Service>
         <PollingInterval>10</PollingInterval>
@@ -145,7 +145,7 @@ Las entradas del registro de ejecución de informes de Power BI son distintas de
     * **SaveToCatalog**: cada vez que se guarda el modelo de datos en el catálogo.
 
 ## <a name="analysis-services"></a>Analysis Services
-Puede haber ocasiones en las que desee modificar Analysis Services para problemas de diagnóstico o ajustar los límites de memoria.
+Puede haber ocasiones en las que quiera modificar Analysis Services para diagnosticar problemas o ajustar los límites de memoria.
 
 > [!IMPORTANT]
 > Esta configuración se restablecerá cada vez que actualice el servidor de informes. Asegúrese de mantener una copia de los cambios y volver a aplicarlos si es necesario.

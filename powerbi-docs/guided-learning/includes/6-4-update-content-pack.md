@@ -1,18 +1,26 @@
-En esta lección, editaremos el paquete de contenido original que creamos previamente y comprobaremos como esas actualizaciones se aplican a las versiones de los usuarios que se hayan conectado a él.
+---
+ms.openlocfilehash: 843b841e10f4b32858722322c1d62beee7552e1f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65853655"
+---
+En esta lección, se le va a editar la aplicación original que se ha creado previamente y vea cómo que las actualizaciones de las personas que se hayan conectado a él.
 
 He regresado a Mi área de trabajo y voy a editar el panel original.
 
 ![Uso compartido y colaboración en Power BI](./media/6-4-update-content-pack/pbi_learn06_04myworkspace.png)
 
-Cada vez que efectúo un cambio en el panel, este aviso me recuerda que he cambiado algo que he compartido con otras personas en un paquete de contenido y me insta a que actualice la versión compartida.
+Cada vez que efectúo un cambio en el panel, obtengo este recordatorio que he cambiado algo que he compartido con otros usuarios en una aplicación, y me insta a actualizar la versión compartida.
 
 ![Uso compartido y colaboración en Power BI](./media/6-4-update-content-pack/pbi_learn06_04uvmadechanges.png)
 
-Regreso al icono de configuración y selecciono **Ver paquete de contenido** para acceder a los paquetes de contenido que ya he publicado.
+Volver atrás en el icono de configuración y seleccione **ver la aplicación** para ver las aplicaciones que ya he publicado.
 
 ![Uso compartido y colaboración en Power BI](./media/6-4-update-content-pack/pbi_learn06_04viewcontpk.png)
 
-Ahora veo el paquete de contenido que he creado. Este pequeño icono indica que he cambiado algo en el paquete de contenido y que debo editarlo para que los otros usuarios puedan ver los cambios.
+Veo que la aplicación que he realizado. Este pequeño icono indica que he cambiado algo en la aplicación y deba editar la aplicación para que otros usuarios puedan ver los cambios.
 
 ![Uso compartido y colaboración en Power BI](./media/6-4-update-content-pack/pbi_learn06_04updatecontpk.png)
 
@@ -20,9 +28,9 @@ Cuando selecciono **Editar**, regresó de nuevo a la pantalla en la que puedo ev
 
 ![Uso compartido y colaboración en Power BI](./media/6-4-update-content-pack/pbi_learn06_04contpksuccess.png)
 
-Power BI adopta los cambios y publica el paquete de contenido actualizado en la galería de paquetes de contenido.
+Power BI adopta los cambios y publica la aplicación actualizada en la Galería de aplicaciones.
 
-Cualquiera que se haya conectado a mi paquete de contenido recibe un mensaje en el que se informa de que el paquete de contenido ha cambiado y le pregunta si desea aceptar los cambios o conservar la versión anterior.
+Cualquier persona que se ha conectado a mi aplicación obtiene un mensaje que la aplicación ha cambiado y pregunta si desea aceptar los cambios o conservar la versión anterior.
 
-Como propietario del paquete de contenido, puede administrar las versiones que utilizan sus compañeros.
+Por lo tanto como propietario de la aplicación, puede administrar las versiones que utilizan sus compañeros.
 

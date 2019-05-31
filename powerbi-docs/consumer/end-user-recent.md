@@ -13,11 +13,11 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661472"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61054918"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
 El contenido reciente son los últimos elementos visitados en el servicio Power BI, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros en todas las áreas de trabajo.
@@ -37,7 +37,7 @@ Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo*
 
 ![Visualización de todo el contenido reciente](./media/end-user-recent/power-bi-recent-list.png)
 
-Desde aquí puede interactuar con el contenido como haría en cada pestaña [**Paneles**](end-user-dashboards.md), [ **Informes**](end-user-reports.md) y **Libros** y en la pantalla <!--[**Apps**](end-user-apps.md)--> de las aplicaciones.
+Desde aquí puede interactuar con el contenido como lo haría en cada [ **paneles**](end-user-dashboards.md), [ **informes**](end-user-reports.md), y  **Libros** pestañas y en las aplicaciones <!--[**Apps**](end-user-apps.md)--> pantalla.
 
 ## <a name="next-steps"></a>Pasos siguientes
 <!--[Power BI service Apps](end-user-apps.md)-->

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: f81300becc8a79b8a169aebe2ce3c56991c03262
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61256994"
+---
 Esta es la sección **Publicación y uso compartido** del curso de **Aprendizaje guiado** de Power BI.
 
 Ahora que ha descubierto el modo en que Excel y Power BI funcionan juntos sin problemas y se ha familiarizado con todo lo relativo a los elementos visuales que puede crear en los informes y los paneles, seguramente desee compartirlos con sus compañeros y amigos. Con Power BI, **publicar y compartir** son tareas fáciles.

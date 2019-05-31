@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: b7f2dbd4fa58e86598c0258c432d31cf2f775ecf
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260606"
+---
 Vamos a repasar rápidamente lo que hemos aprendido en esta primera sección.
 
 **Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para convertir los datos en información interactiva. Puede usar datos de orígenes básicos únicos, como un libro de Excel, o extraerlos de varias bases de datos y orígenes en la nube para crear informes y conjuntos de datos complejos. Power BI puede ser tan sencillo como desee o tan complejo como lo exija su empresa internacional.

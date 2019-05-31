@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/28/2018
+ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a0a590f6029d273944f3e1fa9e537eec3e38bf97
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216456"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65513757"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Conectarse a los datos mediante las interfaces genéricas de Power BI Desktop
 **Power BI Desktop** permite conectarse a un gran número de orígenes de datos distintos gracias a los conectores de datos que lleva integrados, como por ejemplo las **bases de datos de Access** y los recursos de **Zendesk**, tal como se puede ver en la ventana **Obtener datos**. También es posible conectarse a muchos *otros* tipos de orígenes de datos a través de las interfaces genéricas (como **ODBC** o **API de REST**) integradas en **Power BI Desktop**, con lo que se amplían aún más las opciones de conectividad.
@@ -23,7 +23,7 @@ ms.locfileid: "56216456"
 ![](media/desktop-connect-using-generic-interfaces/generic-data-interfaces_1.png)
 
 ## <a name="power-bi-desktop-data-interfaces"></a>Interfaces de datos de Power BI Desktop
-**Power BI Desktop** incluye una colección cada vez mayor de conectores de datos cuya finalidad es establecer conexión con un origen de datos específico. Por ejemplo, durante la secuencia de conexión, el conector de datos **Lista de SharePoint** proporciona campos específicos e información complementaria que están diseñados para **Listas de SharePoint**, que es lo que ocurre con otros orígenes de datos que se muestran en la ventana que aparece al seleccionar **Obtener datos > Más...**, como figura en la imagen anterior.
+**Power BI Desktop** incluye una colección cada vez mayor de conectores de datos cuya finalidad es establecer conexión con un origen de datos específico. Por ejemplo, durante la secuencia de conexión, el conector de datos **Lista de SharePoint** proporciona campos específicos e información complementaria que están diseñados para **Listas de SharePoint**, que es lo que ocurre con otros orígenes de datos que se muestran en la ventana que aparece al seleccionar **Obtener datos > Más...** , como figura en la imagen anterior.
 
 Además, **Power BI Desktop** permite usar una de las interfaces de datos genéricas enumeradas a continuación para conectarse a orígenes de datos que no aparecen en las listas de la ventana **Obtener datos**:
 
@@ -52,7 +52,7 @@ En la lista siguiente se detallan algunos ejemplos de orígenes de datos a los q
 | ODBC |Couchbase DB |[Couchbase y Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
 | ODBC |DynamoDB |[Controlador ODBC de DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
 | ODBC |Google BigQuery |[Controlador ODBC de BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |Hbase |[Controlador ODBC de Hbase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |HBase |[Controlador ODBC de HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
 | ODBC |Hive |[Controlador ODBC de Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Información de IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
 | ODBC |Presto |[Controlador ODBC de Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |

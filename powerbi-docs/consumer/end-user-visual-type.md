@@ -1,75 +1,75 @@
 ---
-title: Tipos de visualización en Power BI para los consumidores
-description: Tipos de visualización en el servicio Power BI
+title: Tipos de objetos visuales en Power BI para los consumidores
+description: Tipos de objetos visuales en el servicio Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/21/2019
+ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: ea86970565717d5dae8db865a65765f2c8245bad
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662397"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65711086"
 ---
-# <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
-Encontrará las visualizaciones en informes, paneles, aplicaciones y preguntas y respuestas. Algunos de estos tipos de visualización se empaquetan con Power BI, y algunas son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores de informes* agregarlos a aplicaciones, paneles e informes de Power BI. 
+# <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
+Encontrará los objetos visuales en informes, paneles, aplicaciones y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI, y algunas son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores de informes* agregarlos a aplicaciones, paneles e informes de Power BI. 
 
-En este artículo se proporciona información general sobre las visualizaciones que se empaquetan con Power BI.  Son las visualizaciones que encontrará con mayor frecuencia. 
+En este artículo es una visión general de los objetos visuales que se empaquetan con Power BI.  Estos son los objetos visuales que nos encontramos con mayor frecuencia. 
 
 > [!NOTE]
 > Para obtener información sobre los objetos visuales personalizados, búsquelos en la sección **Power BI visuals** (Objetos visuales de Power BI) de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
 
-## <a name="list-of-visualizations-available-in-power-bi"></a>Lista de visualizaciones disponibles en Power BI
-Todas estas visualizaciones se pueden encontrar en las aplicaciones, informes y paneles de Power BI, y [especificadas en Preguntas y respuestas](#qna). Para obtener información sobre cómo interactuar con las visualizaciones, vea [Interacción con visualizaciones en informes, paneles y aplicaciones](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Lista de objetos visuales disponibles en Power BI
+Todos estos objetos visuales se pueden encontrar en aplicaciones de Power BI, paneles, informes y [especificados en preguntas y respuestas](end-user-q-and-a.md). Para obtener información sobre cómo interactuar con objetos visuales, vea [interactuar con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de áreas: básico (en capa) y de área apilada
-![gráfico de áreas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/basicareamapsmall.png)
+![gráfico de áreas](media/end-user-visual-type/basic-area-map-small.png)
 
 El gráfico de área básico se basa en el gráfico de líneas con el área entre el eje y la línea rellena. Los gráficos de área destacan la magnitud del cambio con el tiempo y se pueden usar para llamar la atención sobre el valor total en una tendencia. Por ejemplo, se pueden trazar datos que representan el beneficio en el tiempo en un gráfico de área para destacar el beneficio total.
 
 ### <a name="bar-and-column-charts"></a>Gráficos de barras y columnas
-![gráfico de columnas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bar.png)
+![gráfico de columnas](media/end-user-visual-type/pbi-nancy-viz-bar.png)
 
- ![gráfico de barras](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_col.png)
+ ![gráfico de barras](media/end-user-visual-type/pbi-nancy-viz-col.png)
 
 Los gráficos de barras son el estándar para buscar un valor concreto en categorías diferentes.
 
 ### <a name="cards-single-number"></a>Tarjetas: número único
-![tarjeta de número único](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_card.png)
+![tarjeta de número único](media/end-user-visual-type/pbi-nancy-viz-card.png)
 
 En las tarjetas de número único se muestra un solo hecho, un único punto de datos. A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades.  
 
 ### <a name="cards-multi-row"></a>Tarjetas: de varias filas
-![tarjeta de varias filas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/multi-row-card.png)
+![tarjeta de varias filas](media/end-user-visual-type/multi-row-card.png)
 
 En las tarjetas de varias filas se muestran uno o varios puntos de datos, uno por fila.
 
 
 ### <a name="combo-charts"></a>Gráficos combinados
-![gráfico combinado](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/combosmall.png)
+![gráfico combinado](media/end-user-visual-type/combo-small.png)
 
 Un gráfico combinado combina un gráfico de columnas y un gráfico de líneas. La combinación de los dos gráficos en uno permite realizar una comparación más rápida de los datos. Los gráficos combinados pueden tener uno o dos ejes Y, por lo que debe fijarse con atención. 
 
 Los gráficos combinados son una excelente opción:
 - Si tiene un gráfico de líneas y un gráfico de columnas con el mismo eje X.
 - Para comparar varias medidas con distintos intervalos de valores.
-- Para ilustrar la correlación entre dos medidas en una visualización.
+- Para ilustrar la correlación entre dos medidas en un objeto visual
 - Para comprobar si una medida cumple el objetivo que se define mediante otra medida.
 - Para ahorrar espacio en el lienzo.
 
 ### <a name="doughnut-charts"></a>Gráficos de anillos
-![gráfico de anillos](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/donutsmall.png)
+![gráfico de anillos](media/end-user-visual-type/donut-small.png)
 
 Los gráficos de anillos son similares a los gráficos circulares.  Muestran la relación de las partes con el todo. La única diferencia es que el centro está en blanco y deja espacio para un icono o una etiqueta.
 
 ### <a name="funnel-charts"></a>Gráficos de embudo
-![gráfico de embudo](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_funnel.png)
+![gráfico de embudo](media/end-user-visual-type/pbi-nancy-viz-funnel.png)
 
 Los embudos ayudan a visualizar un proceso que tiene fases y elementos que fluyen de forma secuencial de una fase a la siguiente.  Un ejemplo es un proceso de ventas que empieza con clientes potenciales y termina con la realización de la compra.
 
@@ -86,7 +86,7 @@ Los gráficos de embudo son una excelente opción:
 - Para realizar el seguimiento del progreso y el éxito de las campañas de marketing y publicidad de click-through.
 
 ### <a name="gauge-charts"></a>Gráficos de medidor
-![gráfico de medidor](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/gauge_m.png)
+![gráfico de medidor](media/end-user-visual-type/gauge-m.png)
 
 Un gráfico de medidor radial tiene un arco circular y muestra un único valor que mide el progreso hacia un objetivo o KPI. El valor del objetivo se representa mediante la línea (aguja). El progreso hacia ese objetivo se representa mediante el sombreado. Y el valor que representa el progreso se muestra en negrita dentro del arco. Todos los valores posibles están repartidos por igual a lo largo del arco, del mínimo (valor más a la izquierda) al máximo (valor más a la derecha).
 
@@ -99,14 +99,14 @@ Los medidores radiales son una excelente opción para:
 - Mostrar información que se pueda analizar y comprender rápidamente.
 
  ### <a name="key-influencers-chart"></a>Gráfico de influenciadores clave
-![influenciadores clave](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-influencer.png)
+![influenciadores clave](media/end-user-visual-type/power-bi-influencer.png)
 
 En un gráfico de influenciadores clave se muestran los mayores colaboradores a un resultado o valor seleccionado.
 
 El gráfico de influenciadores clave es una gran elección para ayudarle a comprender los factores que afectan a una métrica clave. Por ejemplo, *qué influye a los clientes para realizar un segundo pedido*o*por qué las ventas fueron tan altas el junio pasado*. 
 
 ### <a name="kpis"></a>KPI
-![kpi](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-kpi.png)
+![kpi](media/end-user-visual-type/power-bi-kpi.png)
 
 Un indicador clave de rendimiento (KPI) es una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. 
 
@@ -115,42 +115,42 @@ Los KPI son una excelente opción:
 - para medir la distancia hasta un objetivo (¿cuánto adelanto o retraso tengo?)
 
 ### <a name="line-charts"></a>Gráficos de líneas
-![gráfico de líneas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_line.png)
+![gráfico de líneas](media/end-user-visual-type/pbi-nancy-viz-line.png)
 
 Los gráficos de líneas resaltan la forma general de toda una serie de valores, normalmente a lo largo del tiempo.
 
 ### <a name="maps-basic-maps"></a>Mapas: mapas básicos
-![mapa básico](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi-nancy_viz_map.png)
+![mapa básico](media/end-user-visual-type/pbi-nancy-viz-map.png)
 
 Un mapa básico se usa para asociar información cuantitativa y de categorías con ubicaciones espaciales.
 
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
-![mapa de ArcGIS](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-esri-map-theme2.png)
+![mapa de ArcGIS](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Las opciones disponibles para mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia crean magníficas visualizaciones informativas de mapas. La combinación de capas de datos relevantes (como datos del censo) en un mapa con el análisis espacial transmite una comprensión más profunda de los datos en la visualización.
+Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Las opciones disponibles para mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia crea objetos visuales de magníficas informativas de mapas. La combinación de capas de datos relevantes (por ejemplo, los datos del censo) en un mapa con el análisis espacial transmite una comprensión más profunda de los datos en el objeto visual.
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
-![mapa coroplético](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_filledmap.png)
+![mapa coroplético](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
 
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región. Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).
 
 ### <a name="maps-shape-maps"></a>Mapas: mapas de formas
-![mapa de formas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-shape-map2.png)
+![mapa de formas](media/end-user-visual-type/power-bi-shape-map2.png)
 
 Los mapas de formas comparan las regiones de un mapa mediante colores. A diferencia del objeto visual M\mapa, los mapas de formas no pueden mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
 ### <a name="matrix"></a>Matriz
-![matriz](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/matrix.png)
+![matriz](media/end-user-visual-type/matrix.png)
 
 El objeto visual de matriz es un tipo de objeto visual de tabla (vea "Tabla" más abajo) que es compatible con un diseño escalonado. A menudo, los diseñadores de informes incluyen matrices en informes y paneles para permitir a los usuarios seleccionar uno o varios elementos (filas, columnas, celdas) de la matriz para realizar el resaltado cruzado de otros objetos visuales de una página del informe.  
 
 ### <a name="pie-charts"></a>Gráficos circulares
-![gráfico circular](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_pie.png)
+![gráfico circular](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 Los gráficos circulares muestran la relación de las partes con un todo. 
 
 ### <a name="ribbon-chart"></a>Gráfico de la barra de herramientas
-![gráfico de la barra de herramientas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-ribbon.png)
+![gráfico de la barra de herramientas](media/end-user-visual-type/power-bi-ribbon.png)
 
 Los gráficos de la barra de herramientas muestran qué categoría de datos tiene la clasificación más alta (el valor mayor). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo.
 
@@ -159,21 +159,21 @@ Los gráficos de la barra de herramientas muestran qué categoría de datos tien
 
 Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostrar un conjunto de datos numéricos en un eje horizontal y otro conjunto de valores numéricos a lo largo de un eje vertical. El gráfico muestra puntos en la intersección de un valor numérico x e y, y combina estos valores en puntos de datos únicos. Estos puntos de datos pueden estar distribuidos uniformemente o de forma desigual entre el eje horizontal, en función de los datos.
 
-![gráfico de burbujas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_bubble.png)
+![gráfico de burbujas](media/end-user-visual-type/pbi-nancy-viz-bubble.png)
 
 Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo tamaño representa una dimensión adicional de los datos.
 
 Un gráfico de trazado de puntos es similar a un gráfico de burbujas y a un gráfico de dispersión, con la excepción de que puede trazar datos numéricos o categóricos a lo largo del eje X.
 
 ### <a name="scatter-high-density"></a>Dispersión de alta densidad
-![dispersión de alta densidad](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/density-scatter.png)
+![dispersión de alta densidad](media/end-user-visual-type/density-scatter.png)
 
-Por definición, se muestrean los datos de alta densidad para crear visualizaciones de forma razonablemente rápida que responden a interactividad. En el muestreo de alta densidad se usa un algoritmo que elimina los puntos que se superponen y se asegura de que todos los puntos del conjunto de datos se representan en el objeto visual. No traza solamente una muestra representativa de los datos.  
+Por definición, los datos de alta densidad se muestrean para crear objetos visuales de forma razonablemente rápida que responden a interactividad. En el muestreo de alta densidad se usa un algoritmo que elimina los puntos que se superponen y se asegura de que todos los puntos del conjunto de datos se representan en el objeto visual. No traza solamente una muestra representativa de los datos.  
 
 Esto garantiza la mejor combinación de capacidad de respuesta, representación y conservación de los puntos importantes en el conjunto de datos.
 
 ### <a name="slicers"></a>Segmentaciones
-![segmentación](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_slicer.png)
+![segmentación](media/end-user-visual-type/pbi-slicer.png)
 
 Una segmentación de datos es un gráfico independiente que se puede usar para filtrar el resto de objetos visuales de la página. Las segmentaciones de datos se presentan en muchos formatos diferentes (categoría, intervalo, fecha, etc.) y pueden tener un formato que permita la selección de un solo valor, de varios o de todos los valores disponibles. 
 
@@ -184,13 +184,13 @@ Las segmentaciones de datos son una excelente opción para:
 - Crear informes más enfocados mediante la colocación de las segmentaciones de datos junto a objetos visuales importantes.
 
 ### <a name="standalone-images"></a>Imágenes independientes
-![imágenes independientes](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_image.png)
+![imágenes independientes](media/end-user-visual-type/pbi-nancy-viz-image.png)
 
 Una imagen independiente es un gráfico que se ha agregado a un informe o panel. 
 
 
 ### <a name="tables"></a>Tablas
-![gráfico de tabla](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/tabletype.png)
+![gráfico de tabla](media/end-user-visual-type/table-type.png)
 
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, en esta tabla se muestran cinco medidas distintas para Categoría.
 
@@ -200,7 +200,7 @@ Las tablas son una excelente opción:
 - Para mostrar datos numéricos por categorías
 
 ### <a name="treemaps"></a>Gráficos de rectángulos
-![gráfico de rectángulos](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/pbi_nancy_viz_tree.png)
+![gráfico de rectángulos](media/end-user-visual-type/pbi-nancy-viz-tree.png)
 
 Los gráficos de rectángulos son gráficos de rectángulos coloreados, cuyo tamaño representa el valor.  Puede ser jerárquicos, con rectángulos anidados dentro de los rectángulos principales. El espacio dentro de cada rectángulo se asigna en función del valor que se va a medir. Y los rectángulos se organizan por tamaño desde la esquina superior izquierda (mayor) a la inferior derecha (menor).
 
@@ -213,7 +213,7 @@ Los gráficos de rectángulos son una excelente opción:
 - Para detectar patrones, valores atípicos, colaboradores más importantes y excepciones.
 
 ### <a name="waterfall-charts"></a>Gráficos de cascada
-![gráfico de cascada](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/waterfallsmall.png)
+![gráfico de cascada](media/end-user-visual-type/waterfall-small.png)
 
 Los gráficos de cascada muestran un total acumulado a medida que se suman o se restan valores. Son útiles para comprender cómo afecta una serie de cambios positivos y negativos a un valor inicial (por ejemplo, ingresos netos).
 
@@ -226,13 +226,14 @@ Los gráficos de cascada son una excelente opción:
 - Para ilustrar la plantilla inicial y final de su empresa en un año.
 - Para visualizar la cantidad de dinero que genera y gasta cada mes, y el saldo corriente de su cuenta.
 
-## <a name="tell-qa-which-visualization-to-use"></a>Indica a Preguntas y respuestas qué visualización usar
-Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Power BI, puede especificar el tipo de visualización en la consulta.  Por ejemplo:
+## <a name="qna"></a>Indicar a preguntas y respuestas qué objeto visual se use
+Al escribir consultas en lenguaje natural con preguntas de Power BI, puede especificar el tipo de objeto visual en la consulta.  Por ejemplo:
+
 
 "***ventas por estado en un gráfico de rectángulos***"
 
-![Sesión de preguntas y respuestas](../visuals/media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Sesión de preguntas y respuestas](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Interacción con visualizaciones en informes, paneles y aplicaciones](end-user-visualizations.md)    
+[Interactuar con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)    
 [The right visual reference from sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)

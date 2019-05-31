@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d600581b9d1df8c8436da45e9629fccb79873c21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260621"
+---
 Como hemos visto, el flujo de trabajo habitual de Power BI consiste en crear un informe en Power BI Desktop, publicarlo en el servicio Power BI y, después, compartirlo con otros usuarios para que puedan verlo en el servicio o en una aplicación móvil.
 
 Sin embargo, algunas personas empiezan en el servicio Power BI, por lo que vamos a echar un vistazo al servicio y descubrir una forma sencilla y popular de crear objetos visuales rápidamente en Power BI: los *paquetes de contenido*.

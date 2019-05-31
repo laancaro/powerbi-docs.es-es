@@ -12,10 +12,10 @@ ms.date: 05/08/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 57a285b075b17b2229ec4267a476cdd4b86ea7ad
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513607"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
@@ -32,10 +32,10 @@ Durante este tutorial, los pasos siguientes se describen en detalle, lo que le a
 * Crear un nuevo panel basado en el informe y, finalmente,
 * Compartir el panel con sus compañeros
 
-Para seguir los pasos de este tutorial, necesita la base de datos **AdventureworksDW2012**, que puede descargar del **[repositorio](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)**.
+Para seguir los pasos de este tutorial, necesita la base de datos **AdventureworksDW2012**, que puede descargar del **[repositorio](https://github.com/Microsoft/sql-server-samples/releases/tag/adventureworks)** .
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Tarea 1: Crear la tabla de seguridad del usuario y definir la relación de los datos
-Hay muchos artículos publicados que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)**. Para nuestro ejemplo seguiremos el artículo [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (Implementar la seguridad dinámica mediante filtros de fila). En los siguientes pasos se describe la primera tarea de este tutorial:
+Hay muchos artículos publicados que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)** . Para nuestro ejemplo seguiremos el artículo [Implement Dynamic Security by Using Row Filters](https://msdn.microsoft.com/library/hh479759.aspx) (Implementar la seguridad dinámica mediante filtros de fila). En los siguientes pasos se describe la primera tarea de este tutorial:
 
 1. Para nuestro ejemplo, usamos la base de datos relacional **AdventureworksDW2012**. En esa base de datos, cree la tabla **DimUserSecurity**, tal y como se muestra en la siguiente imagen. En este ejemplo, usamos SQL Server Management Studio (SSMS) para crear la tabla.
    
@@ -56,7 +56,7 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
 5. Tenga en cuenta que la imagen anterior muestra información como qué usuario es responsable de qué región de ventas. Esos datos se muestran debido a la relación que hemos creado en el **Paso 2**. Además, tenga en cuenta que el usuario **Jon Doe es parte de la región de ventas de Australia**. Volveremos a John Doe en tareas y pasos futuros.
 
 ## <a name="task-2-create-the-tabular-model-with-facts-and-dimension-tables"></a>Tarea 2: Crear el modelo tabular con tablas de hechos y dimensiones
-1. Una vez que el almacenamiento de datos relacionales está en su sitio, es el momento de definir el modelo tabular. El modelo se puede crear con **SQL Server Data Tools (SSDT)**. Para obtener más información sobre cómo definir un modelo tabular, consulte [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Crear un proyecto de modelo tabular).
+1. Una vez que el almacenamiento de datos relacionales está en su sitio, es el momento de definir el modelo tabular. El modelo se puede crear con **SQL Server Data Tools (SSDT)** . Para obtener más información sobre cómo definir un modelo tabular, consulte [Create a New Tabular Model Project](https://msdn.microsoft.com/library/hh231689.aspx) (Crear un proyecto de modelo tabular).
 2. Importe todas las tablas necesarias en el modelo tal y como se muestra a continuación.
    
     ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/ssdt_model.png)
@@ -70,7 +70,7 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
 6. En este paso, usamos la función **LOOKUPVALUE** para devolver valores para una columna en la que el nombre de usuario de Windows es el mismo que el nombre de usuario devuelto por la función **USERNAME**. Después, se pueden restringir las consultas en las que los valores devueltos por **LOOKUPVALUE** coinciden con los valores de la misma tabla o de la tabla relacionada. En la columna **Filtro DAX**, escriba la siguiente fórmula:
    
        =DimSalesTerritory[SalesTerritoryKey]=LOOKUPVALUE(DimUserSecurity[SalesTerritoryID], DimUserSecurity[UserName], USERNAME(), DimUserSecurity[SalesTerritoryID], DimSalesTerritory[SalesTerritoryKey])
-    En esta fórmula, la función **LOOKUPVALUE** devuelve todos los valores de la columna **DimUserSecurity[SalesTerritoryID]**, donde **DimUserSecurity[UserName]** es igual que el nombre de usuario de Windows que ha iniciado sesión actualmente y **DimUserSecurity[SalesTerritoryID]** es el mismo que **DimSalesTerritory[SalesTerritoryKey]**.
+    En esta fórmula, la función **LOOKUPVALUE** devuelve todos los valores de la columna **DimUserSecurity[SalesTerritoryID]** , donde **DimUserSecurity[UserName]** es igual que el nombre de usuario de Windows que ha iniciado sesión actualmente y **DimUserSecurity[SalesTerritoryID]** es el mismo que **DimSalesTerritory[SalesTerritoryKey]** .
    
     > [!IMPORTANT]
     > Tenga en cuenta que la función DAX [USERELATIONSHIP](https://msdn.microsoft.com/query-bi/dax/userelationship-function-dax) no se admite cuando se utiliza la seguridad a nivel de fila.
@@ -129,7 +129,7 @@ Hay muchos artículos publicados que describen cómo definir la seguridad de niv
 
 ## <a name="task-6-understanding-what-happens-behind-the-scenes"></a>Tarea 6: Comprender qué sucede en segundo plano
 1. En esta tarea se supone que está familiarizado con SQL Profiler, ya que tiene que capturar un seguimiento de SQL Server Profiler en la instancia tabular local de SSAS.
-2. La sesión se inicializa tan pronto como el usuario (Jon Doe, en este caso) obtiene acceso al panel en el servicio Power BI. Puede ver que el rol **salesterritoryusers** tiene efecto inmediato con el nombre de usuario vigente como **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>**.
+2. La sesión se inicializa tan pronto como el usuario (Jon Doe, en este caso) obtiene acceso al panel en el servicio Power BI. Puede ver que el rol **salesterritoryusers** tiene efecto inmediato con el nombre de usuario vigente como **<EffectiveUserName>jondoe@moonneo.com</EffectiveUserName>** .
    
        <PropertyList><Catalog>DefinedSalesTabular</Catalog><Timeout>600</Timeout><Content>SchemaData</Content><Format>Tabular</Format><AxisFormat>TupleFormat</AxisFormat><BeginRange>-1</BeginRange><EndRange>-1</EndRange><ShowHiddenCubes>false</ShowHiddenCubes><VisualMode>0</VisualMode><DbpropMsmdFlattened2>true</DbpropMsmdFlattened2><SspropInitAppName>PowerBI</SspropInitAppName><SecuredCellValue>0</SecuredCellValue><ImpactAnalysis>false</ImpactAnalysis><SQLQueryMode>Calculated</SQLQueryMode><ClientProcessID>6408</ClientProcessID><Cube>Model</Cube><ReturnCellProperties>true</ReturnCellProperties><CommitTimeout>0</CommitTimeout><ForceCommitTimeout>0</ForceCommitTimeout><ExecutionMode>Execute</ExecutionMode><RealTimeOlap>false</RealTimeOlap><MdxMissingMemberMode>Default</MdxMissingMemberMode><DisablePrefetchFacts>false</DisablePrefetchFacts><UpdateIsolationLevel>2</UpdateIsolationLevel><DbpropMsmdOptimizeResponse>0</DbpropMsmdOptimizeResponse><ResponseEncoding>Default</ResponseEncoding><DirectQueryMode>Default</DirectQueryMode><DbpropMsmdActivityID>4ea2a372-dd2f-4edd-a8ca-1b909b4165b5</DbpropMsmdActivityID><DbpropMsmdRequestID>2313cf77-b881-015d-e6da-eda9846d42db</DbpropMsmdRequestID><LocaleIdentifier>1033</LocaleIdentifier><EffectiveUserName>jondoe@moonneo.com</EffectiveUserName></PropertyList>
 3. Según la solicitud de nombre de usuario vigente, Analysis Services convierte la solicitud a la credencial real de moonneo\jondoe después de consultar Active Directory local. Una vez que **Analysis Services** obtiene la credencial real de Active Directory, según el acceso y los permisos de los que dispone el usuario para los datos, **Analysis Services** devuelve solo los datos para los que tiene permiso.

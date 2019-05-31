@@ -11,11 +11,11 @@ ms.date: 01/16/2019
 ms.author: mihart
 LocalizationGroup: Share your work
 ms.openlocfilehash: a0cf919d184946b23cb9ebc4ddfc24e0652c64d7
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56661855"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61064157"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 Ahora que tiene [conocimientos básicos sobre las aplicaciones](end-user-apps.md), vamos a aprender a abrirlas e interactuar con ellas. 

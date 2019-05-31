@@ -1,20 +1,20 @@
 ---
 title: 'Informes paginados en Power BI: Preguntas frecuentes (versión preliminar)'
 description: En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF.
-author: markingmyname
-ms.author: maghan
+author: maggiesMSFT
+ms.author: maggies
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: d248bbf8374b64c947fa872f6294ae0d1195ede9
-ms.sourcegitcommit: 91ac6185f7026ddbaa925dc54057bb742b4fa411
-ms.translationtype: HT
+ms.openlocfilehash: cedf72585d7aa4f2ece39739dc0bdba33ca66e21
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/16/2019
-ms.locfileid: "56324747"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60987794"
 ---
 # <a name="paginated-reports-in-power-bi-faq-preview"></a>Informes paginados en Power BI: Preguntas frecuentes (versión preliminar)
 
@@ -63,7 +63,7 @@ Sí, la supervisión está disponible como una nueva pestaña con los mismos det
 
 ### <a name="do-i-need-a-pro-license-to-create-and-publish-paginated-reports"></a>¿Necesito una licencia Pro para crear y publicar informes paginados?
 
-Sí. No se pueden cargar informes en el área de trabajo sin una licencia Pro. Puede descargar y probar el generador de informes sin la licencia de Pro, pero no publicar los informes paginados que cree. 
+Sí. No se pueden cargar informes en el área de trabajo sin una licencia Pro. Le recomendamos que descargue y use el generador de informes de Power BI incluso sin la licencia de Pro, pero no se puede publicar los informes paginados creados sin él. 
 
 ### <a name="what-if-i-have-a-paginated-report-in-a-workspace-and-the-paginated-report-workload-is-turned-off"></a>¿Qué ocurre si tengo un informe paginado en un área de trabajo y se desactiva la carga de trabajo del informe paginado?
 
@@ -85,13 +85,13 @@ Los informes paginados son los más convenientes para escenarios que requieren u
 
 Los informes de Power BI están optimizados para la exploración e interactividad.  Un informe de ventas donde diferentes vendedores desean segmentar los datos en el mismo informe por región, sector y cliente específicos y ver cómo cambian las cifras se representaría mejor como un informe de Power BI.
 
-### <a name="the-documentation-says-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>En esta documentación se indica que el generador de informes es la herramienta de creación preferida. ¿Puedo crear informes paginados de SQL Server Data Tools para Power BI?
+### <a name="the-documentation-says-power-bi-report-builder-is-the-preferred-authoring-tool-can-i-create-paginated-reports-in-sql-server-data-tools-for-power-bi"></a>La documentación indica que el generador de informes de Power BI es la herramienta de creación preferida. ¿Puedo crear informes paginados de SQL Server Data Tools para Power BI?
 
 Sí, pero el servicio Power BI solo permite cargar un solo elemento a la vez, por lo que muchos de los escenarios que los autores usan con SQL Server Data Tools (SSDT) aún no son compatibles. Consulte la [lista de características compatibles](#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi) completa disponible más adelante en este artículo de preguntas frecuentes.  
 
 ### <a name="what-versions-of-report-builder-do-you-support"></a>¿Qué versiones del generador de informes se admiten?
 
-Use la última versión del generador de informes de SQL Server 2016 para crear y publicar los informes en el servicio Power BI. [Instalación del generador de informes desde el Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53613)
+Recientemente, publicamos el generador de informes de Power BI como la principal herramienta de creación para los informes paginados en el servicio Power BI. Instalar [Power generador de informes de BI desde el centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513).
 
 ### <a name="how-do-i-move-existing-reports-i-have-saved-in-sql-server-reporting-services-to-power-bi"></a>¿Cómo se pueden mover a Power BI los informes existentes guardados en SQL Server Reporting Services?
 
@@ -99,7 +99,7 @@ Debe descargar el informe del servidor y luego cargarlo en Power BI mediante el 
 
 ### <a name="can-i-open-reports-and-publish-directly-to-the-service"></a>¿Puedo abrir informes y publicarlos directamente en el servicio?
 
-En este momento, no. Vamos a agregar compatibilidad para abrir los informes y publicarlos directamente en el servicio desde el generador de informes en algún momento, igual que con Power BI Desktop.
+En este momento, no. Estamos agregando compatibilidad para abrir informes y publicarlos directamente al servicio Power BI del generador de informes antes de GA, igual que con Power BI Desktop.
 
 ### <a name="what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi"></a>¿Qué características de los informes paginados de SSRS no son compatibles aún en Power BI?
 
@@ -118,17 +118,27 @@ Obtiene un mensaje si intenta cargar un archivo que tiene una característica in
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>¿Qué orígenes de datos se admiten actualmente para los informes paginados?
 
-Se admiten modelos tabulares (DAX) y multidimensionales (MDX) de Azure SQL Database, SQL Server y SQL Server Analysis Services (SSAS) mediante la puerta de enlace local.
+Se admite el origen de datos siguientes: 
+
+- Conjuntos de datos de Power BI Premium
+- Azure Analysis Services (a través de inicio de sesión único (SSO))
+- Azure SQL Database
+- SQL Server*
+- SQL Server Analysis Services (SSAS) tabular (DAX) y los modelos multidimensionales (MDX) * 
+- Oracle* 
+- Teradata* 
+
+* requiere la puerta de enlace local.
 
 Al acceder a SSAS a través de la puerta de enlace, el usuario cuyas credenciales están almacenadas necesita permisos elevados en SSAS para trabajar a través de la puerta de enlace.
 
 ### <a name="what-authentication-methods-do-you-support"></a>¿Qué métodos de autenticación se admiten?
 
-Actualmente, deberá almacenar un nombre de usuario y una contraseña con el origen de datos en el portal o la puerta de enlace.  Los métodos de autenticación adicionales para admitir características como la seguridad de nivel de fila se encontrarán disponibles más adelante en la versión preliminar.
+Admitimos el inicio de sesión único para los orígenes de datos de Azure Analysis Services y Power BI Premium.  Para los demás orígenes de datos, actualmente debe almacenar un nombre de usuario y una contraseña con el origen de datos en el portal o la puerta de enlace.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>¿Puedo usar un conjunto de datos de Power BI como origen de datos de mi informe paginado?
 
-No, pero se prevé que sea compatible pronto.
+Sí, ahora se admiten conjuntos de datos de Power BI Premium como orígenes de datos para los informes paginados.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>¿Se pueden usar procedimientos almacenados a través de la puerta de enlace?
 
@@ -140,7 +150,7 @@ Puede exportar a Microsoft Excel, Microsoft Word, Microsoft PowerPoint, PDF, MHT
 
 ### <a name="can-i-print-paginated-reports"></a>¿Puedo imprimir informes paginados?
 
-Sí, la impresión está disponible para los informes paginados e incluye una experiencia de vista previa de impresión nueva y mejorada. 
+Sí, la impresión está disponible para los informes paginados, incluida una experiencia de vista previa de impresión nuevas y mejoradas. 
 
 ### <a name="are-e-mail-subscriptions-available-yet-for-paginated-reports"></a>¿Ya están disponibles las suscripciones de correo electrónico para los informes paginados?
 
@@ -168,15 +178,11 @@ Todavía no, pero planeamos admitir este escenario sin duda alguna.
 
 ### <a name="can-i-share-my-paginated-report-content-through-a-power-bi-app"></a>¿Puedo compartir el contenido de un informe paginado mediante una aplicación de Power BI?
 
-Actualmente, puede compartir informes paginados individuales con otros usuarios mediante la acción de compartir del portal o a través de la barra de herramientas. Aún no admitimos el uso compartido en una aplicación, pero esperamos que pronto sí se pueda. 
+Sí, se admiten informes paginados para implementarse con las aplicaciones de las áreas de trabajo v1 y v2. 
 
 ### <a name="will-other-report-specific-features-in-power-bi-like-pinning-to-report-tiles-to-dashboards-work-with-paginated-reports"></a>¿Otras características específicas de informes de Power BI, como el anclaje de los iconos de informes en los paneles, funcionan con los informes paginados?
 
 Planeamos que los informes admitan lo máximo posible los mismos escenarios importantes en el servicio.  Lo ideal es que, aunque la herramienta de creación es diferente, desde la perspectiva del consumidor, es simplemente otro informe en su lista en el portal. No les preocupa cómo se creó, ya que pueden hacer lo que necesitan.  Un buen ejemplo de esta paridad de características es la compatibilidad planeada con los comentarios. Aunque la propia característica puede funcionar de forma ligeramente diferente para cada tipo de informe, podrá utilizar comentarios para ambos.
-
-### <a name="are-you-planning-to-create-a-new-authoring-tool-for-paginated-reports-in-the-power-bi-service--we-cant-do-everything-we-need-to-with-report-builder-today"></a>¿Planea crear una herramienta de creación de informes paginados en el servicio Power BI?  Actualmente, no podemos hacer todo lo que necesitamos con el generador de informes.
-
-Todavía estamos estudiando diferentes opciones para el sistema de herramientas de los informes paginados en Power BI. 
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>¿Se prevé alguna herramienta de migración para que los clientes de SSRS puedan mover los informes y recursos existentes a Power BI?
 
@@ -196,5 +202,5 @@ No, actualmente no puede buscar los informes paginados desde la sección de inic
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Instalación del generador de informes desde el Centro de descarga de Microsoft](https://www.microsoft.com/download/details.aspx?id=53613)
+- [Instalar al generador de informes de BI energía desde el centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)

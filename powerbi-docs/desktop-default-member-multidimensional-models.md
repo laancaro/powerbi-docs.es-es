@@ -11,11 +11,11 @@ ms.date: 01/10/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 01b0cdf70c985169d474a130ed4ad846ad708963
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284757"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61308876"
 ---
 # <a name="default-member-in-multidimensional-models-in-power-bi"></a>Miembro predeterminado en los modelos multidimensionales en Power BI
 
@@ -36,7 +36,7 @@ Por ejemplo, imagine que tenemos una columna *Currency* que tiene el miembro pre
 * En este caso de ejemplo, si tenemos una tarjeta que muestra *Total Sales*, el valor tendrá el miembro predeterminado aplicado y vemos las ventas que corresponden a "USD".
 * Si arrastramos *Currency* al panel de la tarjeta de filtro, vemos *USD* como valor predeterminado seleccionado. El valor de *Total Sales* sigue siendo el mismo, porque está aplicado el miembro predeterminado.
 * Sin embargo, si desactivamos el valor *USD* de la tarjeta de filtro, el miembro predeterminado *Currency* se elimina y ahora *Total Sales* refleja todas las monedas.
-* Por lo tanto, cuando se selecciona otro valor en la tarjeta de filtro (supongamos que seleccionamos *EURO*) junto con el miembro predeterminado, *Total Sales* refleja el filtro *Currency IN {USD, EURO}*.
+* Por lo tanto, cuando se selecciona otro valor en la tarjeta de filtro (supongamos que seleccionamos *EURO*) junto con el miembro predeterminado, *Total Sales* refleja el filtro *Currency IN {USD, EURO}* .
 
 ## <a name="grouping-behavior"></a>Comportamiento de agrupación
 

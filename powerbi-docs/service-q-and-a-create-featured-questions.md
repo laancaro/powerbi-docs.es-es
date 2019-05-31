@@ -1,38 +1,36 @@
 ---
-title: Cómo crear las preguntas destacadas para Preguntas y respuestas de Power BI
+title: Crear las preguntas destacadas para Preguntas y respuestas de Power BI
 description: Documentación sobre cómo crear preguntas destacadas para Preguntas y respuestas de Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
-featuredvideoid: E1mIAyEXuF4
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/01/2018
+ms.date: 05/14/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 7e57233dac635cadf8f1dc31b4956b4f8e503083
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: b0c939b6b4f3b69a2abcfbbbdc63bd2ccaec44ad
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54284021"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "65625327"
 ---
 # <a name="create-featured-questions-for-power-bi-qa"></a>Crear las preguntas destacadas para Preguntas y respuestas de Power BI
-Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas.  Preguntas y respuestas de Power BI mostrará esas preguntas a los compañeros que usan (*consumen*) el conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
+Si tiene un conjunto de datos, puede agregarle sus propias preguntas destacadas. Power BI Q & A mostrará esas preguntas a los compañeros que consumen los informes basados en ese conjunto de datos.  Las preguntas destacadas proporcionan a los compañeros ideas acerca de los tipos de preguntas que pueden hacer sobre el conjunto de datos. Usted elige las preguntas destacadas que agrega: puede agregar preguntas comunes, preguntas que muestren resultados interesantes o preguntas difíciles de expresar.
 
-Vea cómo Will agrega algunas preguntas destacadas a Preguntas y respuestas de Power BI y luego las usa para explorar su conjunto de datos. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/E1mIAyEXuF4" frameborder="0" allowfullscreen></iframe>
 
 > [!NOTE]
-> Las preguntas destacadas de Preguntas y respuestas están disponibles para su uso en la [aplicación Microsoft Power BI para iOS en dispositivos iPad, iPhone y iPod Touch](consumer/mobile/mobile-apps-ios-qna.md) y en la versión preliminar de Preguntas y respuestas de Power BI Desktop. Sin embargo, la creación de preguntas solo está disponible en el servicio Power BI (app.powerbi.com).
+> Preguntas destacadas de preguntas y respuestas están disponibles para su uso en el [aplicación Microsoft Power BI para iOS en iPad, iPhone y iPod Touch dispositivos](consumer/mobile/mobile-apps-ios-qna.md) y Power BI Desktop preguntas y respuestas. Creación de las preguntas solo está disponible en el servicio Power BI (app.powerbi.com).
 > 
 
-Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).
+## <a name="create-a-featured-question"></a>Crear una pregunta destacada
+
+Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md). Siga estas instrucciones paso a paso para intente explorar un conjunto de datos usted mismo.
 
 1. Seleccione el cuadro de preguntas y respuestas en el panel.   Observe que Preguntas y respuestas ya se usó para ver una lista de términos que aparecen en el conjunto de datos.
-2. Para agregar preguntas a esta lista, seleccione el icono de engranaje de la esquina superior derecha de Power BI.  
+2. Para agregar a esta lista, seleccione el icono de engranaje en la esquina superior derecha de Power BI.  
    ![Icono de engranaje](media/service-q-and-a-create-featured-questions/pbi_gearicon2.jpg)
 3. Seleccione **Configuración** &gt; **Conjuntos de datos** &gt; **Ejemplo de análisis de minoristas** &gt; **Preguntas y respuestas destacadas**.  
 4. Seleccione **Agregar una pregunta**.
@@ -41,14 +39,16 @@ Este artículo usa el [ejemplo de análisis de minoristas](sample-datasets.md).
 5. Escriba la pregunta en el cuadro de texto y seleccione **Aplicar**.   También puede seleccionar **Agregar una pregunta**para agregar otra pregunta.  
    ![Panel Preguntas destacadas de Preguntas y respuestas](media/service-q-and-a-create-featured-questions/power-bi-type-featured-question.png)
 6. Vuelva al panel de Power BI para recuperar el Ejemplo de análisis de venta directa y coloque el cursor en el cuadro de pregunta de Preguntas y respuestas.   
-   ![Cuadro de pregunta de Preguntas y respuestas](media/service-q-and-a-create-featured-questions/power-bi-featured-q.png)
+   ![Preguntas y respuestas en un cuadro de pregunta con la pregunta destacada](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question-to-start.png)
 7. La nueva pregunta destacada, **Ventas por territorio como mapa**, es la primera de la lista. Selecciónela.  
 8. La respuesta se muestra como una visualización de mapa coroplético.  
-   ![Visualización de mapa](media/service-q-and-a-create-featured-questions/power-bi-filled-map.png)
+   ![Preguntas y respuestas destacadas pregunta: visualización de mapa](media/service-q-and-a-create-featured-questions/power-bi-qna-featured-question.png)
 
-### <a name="next-steps"></a>Pasos siguientes
-[Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)  
-[Tutorial: Introducción a Preguntas y respuestas de Power BI](power-bi-visualization-introduction-to-q-and-a.md)  
-[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)  
+## <a name="next-steps"></a>Pasos siguientes
+
+- [Preguntas y respuestas para los consumidores](consumer/end-user-q-and-a.md)  
+- [Uso de preguntas y respuestas en paneles e informes](power-bi-tutorial-q-and-a.md)  
+- [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)  
+
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

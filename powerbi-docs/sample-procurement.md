@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287357"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61234027"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo
 
@@ -72,9 +72,9 @@ Veamos primero las tendencias de gastos por categoría y ubicación.
 Aspectos a tener en cuenta:
 
 * En el gráfico de líneas **Total de facturas por mes y categoría**: La categoría **Directa** presenta gastos bastante coherentes, **Logística** experimenta un pico en diciembre y **Otros** un pico en febrero.
-* En el mapa **Total factura por país o región**: La mayoría de nuestros gastos se sitúan en los Estados Unidos.
+* En el mapa **Total factura por país o región**: La mayoría de los gastos es en los Estados Unidos.
 * En el gráfico de columnas **Total de facturas por subcategoría**: **Hardware** y **Bienes y servicios indirectos** son las mayores categorías de gastos.
-* En el gráfico Total de facturas por nivel: La mayor parte de nuestra actividad se realiza con nuestros proveedores de Nivel 1 (los 10 mejores). Esto ayuda a administrar mejor las relaciones con los proveedores.
+* En el gráfico Total de facturas por nivel: Se realiza la mayor parte de nuestro negocio con nuestros proveedores de nivel 1 (10 principales). Esto ayuda a administrar mejor las relaciones con los proveedores.
 
 ## <a name="spending-in-mexico"></a>Gastos de México
 Vamos a examinar las áreas de gasto en México.

@@ -1,18 +1,18 @@
 ---
 title: Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI
 description: Aprenda a migrar de la colección de áreas de trabajo de Power BI a Power BI Embedded y aproveche los avances para la inserción en aplicaciones.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 23907633ec92a172a9cdd392ad62b43d367260b3
-ms.sourcegitcommit: 80961ace38ff9dac6699f81fcee0f7d88a51edf4
-ms.translationtype: HT
+ms.openlocfilehash: 7f05da6d49a1aeddedfe145bebf0324e3af51572
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56223614"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61270482"
 ---
 # <a name="how-to-migrate-power-bi-workspace-collection-content-to-power-bi-embedded"></a>Migración de contenido de la colección de áreas de trabajo de Power BI a Power BI Embedded
 
@@ -131,7 +131,7 @@ Los conjuntos de datos almacenados en caché hacen referencia a los archivos PBI
 3. Guarde los archivos PBIX.
 4. Llame a Import PBIX para importar los archivos PBIX al área de trabajo de SaaS.
 5. Actualice la cadena de conexión mediante una llamada a - POST https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.SetAllConnections.
-6. Obtenga el identificador de GW y el identificador de origen de datos mediante una llamada a - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources.
+6. Obtenga los identificadores de GW y el origen de datos mediante una llamada a - GET https://api.powerbi.com/v1.0/myorg/datasets/{dataset_id}/Default.GetBoundGatewayDataSources
 7. Actualice las credenciales del usuario mediante una llamada a - PATCH https://api.powerbi.com/v1.0/myorg/gateways/{gateway_id}/datasources/{datasource_id}.
 
 #### <a name="old-dataset--reports"></a>Informes y conjuntos de datos antiguos
@@ -200,7 +200,7 @@ Debería hacer una limpieza dentro de Azure.
 [Herramienta de migración de la colección de áreas de trabajo de Power BI](migrate-tool.md)  
 [Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI](migrate-code-snippets.md)  
 [Procedimiento para insertar paneles, informes e iconos de Power BI](embedding-content.md)  
-[¿Qué es Power BI Premium?](../service-premium.md)  
+[¿Qué es Power BI Premium?](../service-premium-what-is.md)  
 [Repositorio Git de la API de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript)  
 [Repositorio Git de C# de Power BI](https://github.com/Microsoft/PowerBI-CSharp)  
 [Ejemplo de inserción de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  

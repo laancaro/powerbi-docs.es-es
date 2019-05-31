@@ -1,20 +1,20 @@
 ---
 title: Compatibilidad de Multi-Geo con Power BI Embedded
 description: Conozca cómo puede implementar contenido en centros de datos situados en regiones distintas de la región principal de Power BI Embedded.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: d139f96b6aec2db23b2eabc54c3fa326e4762766
-ms.sourcegitcommit: bd1f0178fd9df152f9e9be57da415829f42116e9
-ms.translationtype: HT
+ms.openlocfilehash: 57f01a458bad36c73a01adb1bc62bfd5a055a337
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57572034"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61345006"
 ---
 # <a name="multi-geo-support-for-power-bi-embedded"></a>Compatibilidad de Multi-Geo con Power BI Embedded
 
@@ -66,11 +66,11 @@ Es importante tener en cuenta que si decide eliminar una capacidad sin volver a 
 
 Para que sea posible la administración de capacidades con Multi-Geo mediante API, se han realizado algunos cambios en las API existentes:
 
-1. **[Get Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)**: la API devuelve una lista de capacidades con acceso al usuario. La respuesta incluye ahora una propiedad adicional denominada "region", que especifica la ubicación de la capacidad.
+1. **[Get Capacities](https://docs.microsoft.com/rest/api/power-bi/capacities/getcapacities)** : la API devuelve una lista de capacidades con acceso al usuario. La respuesta incluye ahora una propiedad adicional denominada "region", que especifica la ubicación de la capacidad.
 
-2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)**: la API permite asignar un área de trabajo determinada a una capacidad. Esta operación no permite asignar áreas de trabajo a una capacidad fuera de la región principal ni mover áreas de trabajo entre capacidades de diferentes regiones. Para realizar esta operación, el usuario o la [entidad de servicio](embed-service-principal.md) todavía necesita permisos de administrador en el área de trabajo, y permisos de administración o asignación en la capacidad de destino.
+2. **[Assign To Capacity](https://docs.microsoft.com/rest/api/power-bi/capacities)** : la API permite asignar un área de trabajo determinada a una capacidad. Esta operación no permite asignar áreas de trabajo a una capacidad fuera de la región principal ni mover áreas de trabajo entre capacidades de diferentes regiones. Para realizar esta operación, el usuario o la [entidad de servicio](embed-service-principal.md) todavía necesita permisos de administrador en el área de trabajo, y permisos de administración o asignación en la capacidad de destino.
 
-3. **[API de Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)**: todas las operaciones de API de Azure Resource Manager, como *Crear* y *Eliminar*, admiten Multi-Geo.
+3. **[API de Azure Resource Manager](https://docs.microsoft.com/rest/api/power-bi-embedded/capacities)** : todas las operaciones de API de Azure Resource Manager, como *Crear* y *Eliminar*, admiten Multi-Geo.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 
