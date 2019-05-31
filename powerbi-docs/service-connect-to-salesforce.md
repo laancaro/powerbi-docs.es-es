@@ -11,14 +11,14 @@ ms.date: 05/30/2018
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: ca035762f16d2e8e6c7ffb59220a2457daf10545
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430818"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61172170"
 ---
 # <a name="connect-to-salesforce-with-power-bi"></a>Conexión a Salesforce con Power BI
-Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Al crear esta conexión, se recuperan los datos y se proporciona automáticamente un panel de información y los informes relacionados en función de sus datos. 
+Power BI le permite conectarse fácilmente a su cuenta de Salesforce.com. Al crear esta conexión, se recuperan los datos y se proporciona automáticamente un panel de información y los informes relacionados en función de sus datos.
 
 Conéctese al [paquete de contenido de Salesforce](https://app.powerbi.com/getdata/services/salesforce) para Power BI o lea más sobre la [integración de Salesforce](https://powerbi.microsoft.com/integrations/salesforce) con Power BI.
 

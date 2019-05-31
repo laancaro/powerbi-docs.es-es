@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: ea958349988cade1045e80b073254ab1f29bbe9e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264072"
+---
 En los temas anteriores, hemos analizado cómo se puede utilizar Power BI para conectarse a orígenes de datos y cómo actualizar manualmente los conjuntos de datos en el servicio Power BI. Sin embargo, realizar actualizaciones manuales todo el tiempo cada vez que sus datos cambien no es algo deseable, por lo que puede usar Power BI para configurar una actualización programada que se conectará a los orígenes de datos y publicarlos en el servicio Power BI automáticamente. De este modo, también podrá conectar el servicio a todo tipo de orígenes de datos locales, incluidos archivos de Excel, bases de datos de Access, bases de datos SQL y muchos más.
 
 El sistema que le permite conectar los orígenes de datos locales al servicio Power BI se llama la **puerta de enlace de datos**. Se trata de una pequeña aplicación que se ejecuta en el equipo y utiliza una programación predeterminada para conectarse a los datos, recopilar todas las actualizaciones e insertarlas en el servicio Power BI. La **puerta de enlace personal** es una versión de la **puerta de enlace de datos** que se puede utilizar sin ninguna configuración del administrador.

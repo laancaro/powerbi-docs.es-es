@@ -11,11 +11,11 @@ ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275994"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61394120"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Muestreo de alta densidad en los gráficos de dispersión de Power BI
 Desde la versión de septiembre de 2017 de **Power BI Desktop** y las actualizaciones del **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora cómo se representan los datos de alta densidad en los gráficos de dispersión.

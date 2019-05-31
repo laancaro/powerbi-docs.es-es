@@ -11,11 +11,11 @@ ms.date: 06/23/2018
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 0a71a0e0fe7af3c074c94ab26083839ff114f815
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56216111"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61232790"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo
 
@@ -60,7 +60,7 @@ También puede [descargar únicamente el conjunto de datos (libro de Excel)](htt
 ## <a name="the-it-spend-analysis-sample-dashboard"></a>El panel de ejemplo de análisis de gasto en TI
 Los dos iconos de números del panel, el **% de desviación del planeamiento** y el **% de desviación del último cálculo del tercer trimestre**nos aportan una visión general de la calidad de nuestro trabajo con respecto al planeamiento y el cálculo del último trimestre (LE3 = último cálculo del tercer trimestre). En términos generales, tenemos una desviación del 6 % del planeamiento. Exploremos la causa de esta desviación: cuándo, dónde y qué categoría.
 
-## <a name="ytd-it-spend-trend-analysis-page"></a>Página de "Análisis de tendencia de gasto en TI hasta la fecha" 
+## <a name="ytd-it-spend-trend-analysis-page"></a>Página de "Análisis de tendencia de gasto en TI hasta la fecha"
 Al seleccionar el icono del panel **% de desviación del planeamiento por región de venta**, irá a la página "Análisis de tendencias de gasto en TI" del informe de ejemplo de análisis de gastos de TI. Vemos de un vistazo que tenemos una desviación positiva en Estados Unidos y Europa y una desviación negativa en Canadá, Latinoamérica y Australia. EE. UU. tenía alrededor de un 6 % de desviación positiva en el último cálculo, mientras que Australia tiene alrededor de un 7 % de desviación negativa en el último cálculo.
 
 ![](media/sample-it-spend/it2.png)

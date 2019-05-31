@@ -1,20 +1,20 @@
 ---
 title: Solución de problemas de la actualización programada en Power BI Report Server
 description: Los informes de Power BI pueden conectarse a orígenes de datos diferentes. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos.
-author: markingmyname
+author: mgblythe
 manager: kfile
-ms.reviewer: ''
+ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: 81bd3dc166a92f7be6fe9081f4b88feedc7514d3
-ms.sourcegitcommit: ccbe76a0a43c5c5e87354a33e617bf3cb291608e
-ms.translationtype: HT
+ms.author: mblythe
+ms.openlocfilehash: ca2c37a93652bf0f622c7154fe8438faf4c70ac1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/18/2019
-ms.locfileid: "54394754"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66051020"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -34,6 +34,7 @@ Cuando se usa la actualización programada para los informes de Power BI, están
 * El modelo de datos se carga en una instancia de Analysis Services.
 * Para algunos orígenes de datos, el motor de mashup de Power Query se utiliza para conectarse a orígenes de datos y transformar los datos. Otros orígenes de datos pueden estar conectados a directamente desde un servicio de Analysis Services que se utiliza para hospedar los modelos de datos para Power BI Report Server.
 * Los nuevos datos se cargan en el modelo de datos de Analysis Services.
+* En una configuración de escalado horizontal, el modelo de datos se puede replicar en todos los nodos.
 * Analysis Services procesa los datos y ejecuta cualquier cálculo necesario.
 
 Power BI Report Server mantiene una cola de eventos para todas las operaciones programadas. Sondea la cola a intervalos regulares para detectar nuevos eventos. De forma predeterminada, la cola se examina a intervalos de 10 segundos. Puede cambiar el intervalo modificando las opciones de configuración **PollingInterval**, **IsNotificationService** y **IsEventService** en el Archivo RSReportServer.config. **IsDataModelRefreshService** también se puede usar para establecer si un servidor de informes procesa eventos programados.

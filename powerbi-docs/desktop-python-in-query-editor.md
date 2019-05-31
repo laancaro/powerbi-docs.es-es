@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Connect to data
 ms.openlocfilehash: 28463c065c965b90beb32feabcd5de029311c612
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56217054"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61287848"
 ---
 # <a name="using-python-in-query-editor"></a>Uso de Python en el Editor de consultas
 En el **Editor de consultas** de Power BI Desktop, puede usar **Python**, un lenguaje de programación usado ampliamente por estadistas, científicos de datos y analistas de datos. Esta integración de Python en el **Editor de consultas** permite limpiar datos con Python y realizar acciones avanzadas, como analizar y dar forma a los datos en conjuntos de datos, incluida la operación de completar datos que faltan, las predicciones y la agrupación en clústeres, por nombrar algunas. **Python** es un lenguaje eficaz y se puede usar en el **Editor de consultas** para preparar el modelo de datos y crear informes.
@@ -91,7 +91,7 @@ Existen algunas limitaciones para las consultas que incluyen scripts de Python c
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-9.png)
   
-  Asegúrese de que el **Nivel de privacidad** esté establecido en *Público* y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, **Editar permisos...**.
+  Asegúrese de que el **Nivel de privacidad** esté establecido en *Público* y, desde el cuadro de diálogo **Configuración de origen de datos**, seleccione primero los orígenes de datos, o solo uno, y, después, **Editar permisos...** .
   
   ![](media/desktop-python-in-query-editor/python-in-query-editor-10.png)    
 * Para habilitar la actualización programada de los objetos visuales o del conjunto de datos de Python, debe habilitar **Actualización programada** y tener **puerta de enlace personal** instalada en el equipo que hospeda el libro y la instalación de Python. Para obtener más información sobre ambos, consulte la sección anterior de este artículo y siga los vínculos que se proporcionan.

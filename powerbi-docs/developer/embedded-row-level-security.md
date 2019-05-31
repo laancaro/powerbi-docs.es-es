@@ -1,20 +1,20 @@
 ---
 title: Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 description: Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación.
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: fdc4e90c65ef02f7416ffce9a41b0b2ed028abc8
-ms.sourcegitcommit: e9c45d6d983e8cd4cb5af938f838968db35be0ee
-ms.translationtype: HT
+ms.date: 03/27/2019
+ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "57328019"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61354142"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -49,7 +49,7 @@ Estos son algunos aspectos que debe observar con este esquema:
 
 * Todas las medidas, como **Total Sales**, se almacenan en la tabla de hechos **Sales**.
 * Hay cuatro tablas de dimensiones relacionadas adicionales: **Item**, **Time**, **Store** y **District**.
-* Las flechas de las líneas de relación indican de qué forma los filtros pueden fluir de una tabla a otra. Por ejemplo, si se coloca un filtro en **Time[Date]**, en el esquema actual solo se filtrarían los valores de la tabla **Sales**. Ninguna otra tabla se ve afectada por este filtro ya que todas las flechas de las líneas de relación apuntan a la tabla de ventas y no fuera.
+* Las flechas de las líneas de relación indican de qué forma los filtros pueden fluir de una tabla a otra. Por ejemplo, si se coloca un filtro en **Time[Date]** , en el esquema actual solo se filtrarían los valores de la tabla **Sales**. Ninguna otra tabla se ve afectada por este filtro ya que todas las flechas de las líneas de relación apuntan a la tabla de ventas y no fuera.
 * La tabla **District** indica quién es el jefe de cada distrito:
   
     ![Filas dentro de la tabla District](media/embedded-row-level-security/powerbi-embedded-district-table.png)
@@ -64,7 +64,7 @@ Le mostramos cómo:
 2. Cree un nuevo rol llamado **Manager**.
 
     ![Creación de un nuevo rol](media/embedded-row-level-security/powerbi-embedded-new-role.png)
-3. En la tabla **District**, escriba esta expresión DAX: **[District Manager] = USERNAME()**.
+3. En la tabla **District**, escriba esta expresión DAX: **[District Manager] = USERNAME()** .
 
     ![Instrucción DAX para regla de RLS](media/embedded-row-level-security/powerbi-embedded-new-role-dax.png)
 4. Para asegurarse de que las reglas funcionen, en la pestaña **Modelado**, seleccione **Ver como roles** y, luego, el rol **Administrador** que acaba de crear, junto con **Otros usuarios**. Escriba **AndrewMa** como usuario.
@@ -83,9 +83,9 @@ La aplicación autentica y autoriza a los usuarios y los tokens de inserción se
 
 La API acepta una lista de identidades con la indicación de los conjuntos de datos pertinentes. Para que RLS funcione, debe pasar los siguientes elementos como parte de la identidad.
 
-* **nombre de usuario (obligatorio)**: una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario. El nombre de usuario se puede crear con caracteres *ASCII*.
-* **roles (obligatorio)**: una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
-* **conjunto de datos (obligatorio)**: el conjunto de datos que es aplicable al artefacto que se va a insertar.
+* **nombre de usuario (obligatorio)** : una cadena que se puede usar para ayudar a identificar el usuario al aplicar reglas de RLS. Se puede mostrar un único usuario. El nombre de usuario se puede crear con caracteres *ASCII*.
+* **roles (obligatorio)** : una cadena que contiene los roles que se seleccionarán al aplicar reglas de seguridad de nivel de fila. Si se pasa más de un rol, se deben pasar como una matriz de cadenas.
+* **conjunto de datos (obligatorio)** : el conjunto de datos que es aplicable al artefacto que se va a insertar.
 
 Puede crear el token de inserción mediante el método **GenerateTokenInGroup** de **PowerBIClient.Reports**.
 
@@ -145,9 +145,9 @@ La característica CustomData solo funciona con modelos que residen en **Azure A
 
 La característica CustomData permite agregar un filtro de fila al visualizar datos de Power BI en su aplicación cuando se usa **Azure Analysis Services** como origen de datos (visualización de datos de Power BI conectados a Azure Analysis Services en la aplicación).
 
-La característica CustomData permite pasar texto sin formato (cadena) mediante la propiedad de cadena de conexión CustomData. Analysis Services usa este valor mediante la función *CUSTOMDATA()*.
+La característica CustomData permite pasar texto sin formato (cadena) mediante la propiedad de cadena de conexión CustomData. Analysis Services usa este valor mediante la función *CUSTOMDATA()* .
 
-La única manera de tener RLS dinámica (que usa valores dinámicos para la evaluación del filtro) en **Azure Analysis Services** es usar la función *CUSTOMDATA()*.
+La única manera de tener RLS dinámica (que usa valores dinámicos para la evaluación del filtro) en **Azure Analysis Services** es usar la función *CUSTOMDATA()* .
 
 Se puede usar dentro de la consulta DAX de rol y también sin ningún rol en una consulta DAX de medida.
 La característica CustomData forma parte de la funcionalidad de generación de tokens para los siguientes artefactos: panel, informe e icono. Los paneles pueden tener varias identidades CustomData (una por icono o modelo).
@@ -205,7 +205,7 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
     ![Creación de un rol: establecimiento de la configuración de pertenencia](media/embedded-row-level-security/azure-analysis-services-database-create-role-membership.png)
 
-5. Establezca la consulta DAK de **filtros de fila** mediante la función *CUSTOMDATA()*.
+5. Establezca la consulta DAK de **filtros de fila** mediante la función *CUSTOMDATA()* .
 
     ![Creación de un rol: establecimiento de filtros de fila](media/embedded-row-level-security/azure-analysis-services-database-create-role-row-filters.png)
 
@@ -214,6 +214,8 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
     ![Ejemplo de informe de PBI](media/embedded-row-level-security/rls-sample-pbi-report.png)
 
 7. Use las API de Power BI para utilizar la característica CustomData en su aplicación.  Al generar un token con la característica Customdata, es necesario tener un nombre de usuario. El nombre de usuario debe ser igual que el UPN del usuario maestro. El usuario maestro debe ser miembro de los roles que ha creado. Si no se especifica ningún rol, todos los roles de los que es miembro el usuario maestro se usan para la evaluación de RLS.
+
+    Cuando se trabaja con un [serviceprincipal](embed-service-principal.md), también deberá seguir los pasos anteriores en lugar de usar una cuenta maestra. Al generar el token de inserción, use el [Id. de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id) como el nombre de usuario.
 
     > [!Note]
     > Cuando esté listo para implementar la aplicación en producción, la opción o el campo de la cuenta de usuario maestro no deben ser visible para el usuario final.

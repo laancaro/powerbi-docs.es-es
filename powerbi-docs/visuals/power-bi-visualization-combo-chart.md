@@ -8,15 +8,15 @@ featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/27/2018
+ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 896c415028b99db8662e93b5d709b76520996fef
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: e461480f53f4a97aeb4282e64a8a03eb8e1418d1
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275764"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "66187757"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
 En Power BI, un gráfico combinado es una visualización única que combina un gráfico de líneas y un gráfico de columnas. La combinación de los dos gráficos en uno permite realizar una comparación más rápida de los datos.
@@ -52,7 +52,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 
     b.  Arrastre **Ventas** \> **Margen bruto de este año** al área **Valor**.
 
-    c.  Seleccione **Time** \> **FiscalMonth** para agregarlo al área **Eje**.
+    c. Seleccione **Time** \> **FiscalMonth** para agregarlo al área **Eje**.
 
     ![](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Haga clic en los puntos suspensivos (...) de la esquina superior derecha de la visualización y seleccione **Ordenar por > MesFiscal**. Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**.
@@ -71,7 +71,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 ## <a name="create-a-combo-chart-with-two-axes"></a>Crear un gráfico combinado con dos ejes
 En esta tarea, compararemos el margen bruto y las ventas.
 
-1. Cree un nuevo gráfico de líneas que realice un seguimiento del **porcentaje de margen bruto del último año** por **mes**. Haga clic en los puntos suspensivos para ordenar por **Mes** y **Ascendente**.  
+1. Crear un nuevo gráfico de líneas que realice el seguimiento **porcentaje de margen bruto** por **FiscalMonth**. Haga clic en los puntos suspensivos para ordenar por **Mes** y **Ascendente**.  
 En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un máximo de un 45 %, en julio descendió y luego volvió a alcanzar otro máximo en agosto. ¿Se verá un patrón similar en las ventas del año anterior y este año?
 
    ![](media/power-bi-visualization-combo-chart/combo1_new.png)
@@ -83,22 +83,22 @@ En enero el porcentaje de margen bruto fue de un 35 %, en abril alcanzó un má
    ![](media/power-bi-visualization-combo-chart/converttocombo_new.png)
 4. Arrastre el **Porcentaje de margen bruto del último año** de **Valores de columnas** a **Valores de líneas**. Power BI crea dos ejes, lo que permite escalar los conjuntos de datos de forma distinta; el izquierdo mide ventas en dólares y el derecho mide porcentajes. Y vemos la respuesta a nuestra pregunta; sí, vemos un patrón similar.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-combochart.png)    
+   ![](media/power-bi-visualization-combo-chart/power-bi-clustered-combo.png)    
 
 ## <a name="add-titles-to-the-axes"></a>Agregar títulos a los ejes
 1. Seleccione el icono del rodillo de pintura ![](media/power-bi-visualization-combo-chart/power-bi-paintroller.png) para abrir el panel Formato.
 2. Seleccione la flecha hacia abajo para expandir las opciones del **eje Y** .
-3. Para **Eje Y (columna)**, establezca **Posición** como **Izquierda**, **Título** como **Activado**, **Estilo** como **Mostrar solo el título** y **Mostrar** como **Millones**.
+3. Para **eje y (columna)** , establezca **posición** a **izquierda**, establezca **título** a **en**,  **Estilo** a **mostrar solo el título**, y **mostrar unidades** como **millones**.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-y-axis-column.png)
-4. En el **Eje Y (columna)**, desplácese hacia abajo y asegúrese también de que la opción **Mostrar secundario** esté **activada**. Muestra opciones para dar formato a la parte de gráfico de líneas del gráfico combinado.
+   ![](media/power-bi-visualization-combo-chart/power-bi-open-y.png)
+4. En **eje y (columna)** , desplácese hacia abajo hasta que vea **mostrar secundario**. Como hay tantas opciones para los ejes Y, es posible que deba usar dos barras de desplazamiento. La sección secundaria Show muestra opciones para dar formato a la parte del gráfico de línea del gráfico combinado.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-show-secondary.png)
-5. Para **Eje Y (línea)**, deje **Posición** como **Derecha**, establezca **Título** como **Activado** y **Estilo** como **Mostrar solo el título**.
+   ![](media/power-bi-visualization-combo-chart/power-bi-secondary.png)
+5. Para **Eje Y (línea)** , deje **Posición** como **Derecha**, establezca **Título** como **Activado** y **Estilo** como **Mostrar solo el título**.
 
    El gráfico combinado ahora muestra los dos ejes, ambos con títulos.
 
-   ![](media/power-bi-visualization-combo-chart/power-bi-titles-on.png)
+   ![](media/power-bi-visualization-combo-chart/power-bi-2-titles.png)
 
 6. Si lo desea, modifique la fuente, tamaño y color del texto y establezca otras opciones de formato para mejorar la legibilidad del gráfico y la presentación.
 

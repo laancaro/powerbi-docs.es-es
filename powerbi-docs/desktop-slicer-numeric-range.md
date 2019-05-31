@@ -11,11 +11,11 @@ ms.date: 01/02/2019
 ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 68467894850248d6acb841dc2ed651f595f19b95
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54287057"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61364089"
 ---
 # <a name="use-the-numeric-range-slicer-in-power-bi-desktop"></a>Uso de la segmentación de intervalos numéricos en Power BI Desktop
 Gracias a la **segmentación de intervalos numéricos**, puede aplicar todo tipo de filtros a cualquier columna numérica del modelo de datos. Puede filtrar **entre** números, o por un número **menor o igual que** o **mayor o igual que** otro número. Aunque esto puede parecer demasiado simple, es una manera muy eficaz de filtrar los datos.

@@ -11,11 +11,11 @@ ms.date: 06/18/2018
 ms.author: otarb
 LocalizationGroup: Create reports
 ms.openlocfilehash: 7390f029144e5cb37830921071ad5c2c678b2d4d
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54275488"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61285743"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Creación de objetos visuales de Power BI con Python
 Con **Power BI Desktop**, puede usar **Python** para visualizar los datos.

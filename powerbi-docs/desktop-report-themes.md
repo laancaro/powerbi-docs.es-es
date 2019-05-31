@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2018
+ms.date: 04/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: f30ff44fbc4d99818661abc53cb99bb96cfde673
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.openlocfilehash: 5f0f09c3f64795ca0530bbe5ec5cec09de6c7b53
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215744"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60989403"
 ---
 # <a name="use-report-themes-in-power-bi-desktop"></a>Uso de los temas para los informes en Power BI Desktop
 Con **Temas para informes** puede aplicar un tema de color a todo el informe como, por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color. Al aplicar un **tema para informes**, todos los objetos visuales del informe usan los colores del tema seleccionado. Hay algunas excepciones que se describen más adelante en este artículo.
@@ -24,21 +24,7 @@ Con **Temas para informes** puede aplicar un tema de color a todo el informe com
 
 Al aplicar un **tema para informes**, necesita un archivo JSON que usa una estructura básica. A continuación, puede importar este archivo JSON en Power BI Desktop y aplicarlo a un informe. La estructura del archivo JSON y el proceso de importación es rápido y sencillo (solo son necesarios algunos clics).
 
-A partir de la versión de septiembre de 2017 de **Power BI Desktop**, puede definir aún más elementos de temas para informes mediante el uso de un archivo JSON. También puede personalizar y normalizar casi todos los elementos. Para personalizar, se utiliza el archivo JSON, que se ajusta manualmente en el panel **Formato**. El objetivo de la versión de septiembre de 2017 y versiones posteriores es ofrecer el control total de la apariencia y el comportamiento de los informes a un nivel granular.
-
-### <a name="enable-report-themes"></a>Habilitar los temas para los informes
-A partir de la versión de agosto de 2018 de **Power BI Desktop**, la creación de temas para los informes está disponible con carácter general y no tiene que habilitarse. 
-
-Si usa una versión anterior de **Power BI Desktop**, puede habilitarla como una característica en vista previa realizando los pasos siguientes: 
-
-1. Seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa**. 
-2. A continuación, active la casilla junto a **Temas personalizados para los informes**. 
-
-Deberá reiniciar **Power BI Desktop** después de realizar la selección.
-
-![Temas personalizados para los informes](media/desktop-report-themes/report-themes_2.png)
-
-Siempre se recomienda actualizar a la última versión de **Power BI Desktop**, que se puede obtener desde un vínculo en [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
+También puede personalizar y normalizar casi todos los elementos. Para personalizar, se utiliza el archivo JSON, que se ajusta manualmente en el panel **Formato**. El objetivo es proporcionarle control completo sobre cómo los informes de apariencia y el comportamiento a un nivel granular.
 
 ## <a name="how-report-themes-work"></a>Funcionamiento de los temas para informes
 Para aplicar un tema para informes a un informe de Power BI Desktop, seleccione entre los temas de informes integrados que hay disponibles o importe un tema personalizado.
@@ -113,7 +99,7 @@ Este es el texto del archivo *St Patricks Day.json* que puede usar para crear un
 
 Desde allí puede escribir su propio código hexadecimal de color para los colores seleccionados.
 
-A partir de la versión de septiembre de 2017 de **Power BI Desktop**, el archivo JSON puede ser mucho más elaborado. En el archivo JSON, solo definirá el formato que desea aplicar, y cualquier otra cosa *no* especificada en el archivo JSON simplemente volverá a la configuración predeterminada de Power BI.
+En el archivo JSON, solo definirá el formato que desea aplicar, y cualquier otra cosa *no* especificada en el archivo JSON simplemente volverá a la configuración predeterminada de Power BI.
 
 Son muchas las ventajas de crear un archivo JSON. Por ejemplo, puede especificar que todos los gráficos utilicen un tamaño de fuente de 12 o que ciertos objetos visuales utilicen una familia de fuentes determinada. También puede desactivar las etiquetas de datos para tipos de gráficos específicos.
 
@@ -230,7 +216,7 @@ Los valores booleanos son *true* o *false*. Las cadenas deben ir entre comillas 
 | medidor |
 | hundredPercentStackedBarChart |
 | hundredPercentStackedColumnChart |
-| image |
+| imagen |
 | kpi |
 | lineChart |
 | lineClusteredColumnComboChart |

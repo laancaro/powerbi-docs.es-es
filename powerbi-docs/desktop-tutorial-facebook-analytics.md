@@ -11,10 +11,10 @@ ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
 ms.openlocfilehash: f945c46d96bea4e0326c99f7fcb881f495ba560f
-ms.sourcegitcommit: 10a87c016f497dbeba32f94ed1f3688a70816fea
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/09/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65513689"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análisis de Facebook mediante Power BI Desktop
@@ -23,9 +23,9 @@ En este tutorial aprenderá a importar datos desde Facebook y a usarlos en Power
 
 ## <a name="connect-to-a-facebook-page"></a>Conexión a una página de Facebook
 
-En este tutorial se usan datos de la [página de Microsoft Power BI en Facebook](https://www.facebook.com/microsoftbi) (*https://www.facebook.com/microsoftbi*). No necesita ninguna credencial especial para conectarse e importar datos de esta página, excepto una cuenta personal de Facebook.
+En este tutorial se usan datos de la [página de Microsoft Power BI en Facebook](https://www.facebook.com/microsoftbi) ( *https://www.facebook.com/microsoftbi* ). No necesita ninguna credencial especial para conectarse e importar datos de esta página, excepto una cuenta personal de Facebook.
 
-1. Abra Power BI Desktop y seleccione **Obtener datos** en el cuadro de diálogo **Introducción** o bien, en la pestaña de la cinta de opciones **Inicio**, seleccione **Obtener datos** y, luego, seleccione **Más...**.
+1. Abra Power BI Desktop y seleccione **Obtener datos** en el cuadro de diálogo **Introducción** o bien, en la pestaña de la cinta de opciones **Inicio**, seleccione **Obtener datos** y, luego, seleccione **Más...** .
    
 2. En el cuadro de diálogo **Obtener datos**, seleccione **Facebook** en el grupo **Servicios en línea** y, luego, seleccione **Conectar**.
    
@@ -220,7 +220,7 @@ Puede decir dar al gráfico un título más descriptivo y atractivo.
 1. Con el gráfico seleccionado, seleccione el icono de **formato** y seleccione la flecha desplegable para expandir el **título**.
 2. Cambie el **texto del título** a **Comentarios por publicación**. 
 3. Seleccione la flecha desplegable que está junto a **Color de fuente** y seleccione un color verde que coincida con las barras verdes de la visualización.
-4. Aumente el **tamaño del texto** a **10** y cambie la **familia de fuentes** a **Segoe (negrita)**.
+4. Aumente el **tamaño del texto** a **10** y cambie la **familia de fuentes** a **Segoe (negrita)** .
 
 ![Formato del título del gráfico](media/desktop-tutorial-facebook-analytics/formatting1.png)
 

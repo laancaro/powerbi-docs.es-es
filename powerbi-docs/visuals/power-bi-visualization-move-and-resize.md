@@ -11,11 +11,11 @@ ms.date: 03/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: cd5026a1bb3bca4781be1e3f61b4a71364190f8a
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215904"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61135867"
 ---
 # <a name="move-and-resize-a-visualization-in-a-report-in-power-bi-service-and-power-bi-desktop"></a>Traslado y cambio de tamaño de una visualización en un informe del servicio Power BI y en Power BI Desktop
 Solo los creadores y propietarios de informes pueden trasladar y cambiar el tamaño de visualizaciones. En el servicio Power BI (app.powerbi.com), esto significa abrir el informe en la [Vista de edición](../consumer/end-user-reading-view.md).

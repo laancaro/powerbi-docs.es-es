@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e2745c211dbb9f855bcf90589f0fbbe65857b3a3
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61397683"
+---
 Power BI Desktop permite controlar el diseño y el formato de las páginas de sus informes, como el tamaño y la orientación.
 
 Utilice el menú **Vista de página** de la pestaña Inicio para cambiar el modo en el que las páginas de sus informes se escalan. Entre las opciones disponibles se incluyen **Ajustar a la página** (valor predeterminado), **Ajustar al ancho** y **Tamaño real**.

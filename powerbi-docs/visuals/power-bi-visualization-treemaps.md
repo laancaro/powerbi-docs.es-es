@@ -12,11 +12,11 @@ ms.date: 08/23/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 892e056413212e319815341eb9ae95262ed54d46
-ms.sourcegitcommit: 5e83fa6c93a0bc6599f76cc070fb0e5c1fce0082
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "56215421"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61276912"
 ---
 # <a name="treemaps-in-power-bi"></a>Gráficos de rectángulos en Power BI
 Los gráficos de rectángulos muestran los datos jerárquicos como un conjunto de rectángulos anidados.  Cada nivel de la jerarquía se representa mediante un rectángulo de color (llamado "rama") que contiene otros rectángulos ("hojas").  El espacio dentro de cada rectángulo se asigna en función del valor que se va a medir. Y los rectángulos se organizan por tamaño desde la esquina superior izquierda (mayor) a la inferior derecha (menor).

@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 0e29076a33a17b6097fd3fbf1db411f97ff45818
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61271519"
+---
 Está en la sección **Power BI y Excel** del curso de **Aprendizaje guiado** de Power BI.
 
 Lo más probable es que ya haya utilizado **Excel** antes. Es posible que lo utilizara para generar o ver informes, o para crear gráficos circulares u otros objetos visuales. O quizás utilizara **Power Pivot** o **Power Query** para crear soluciones un poco más técnicas. Si es así, tanto usted como sus libros se sentirán como en casa en Power BI.

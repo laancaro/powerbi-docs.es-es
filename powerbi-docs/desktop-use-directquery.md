@@ -11,11 +11,11 @@ ms.date: 02/28/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 883a58f63e4978770db8bb1cc4630e7ff9caea9a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/07/2019
-ms.locfileid: "57555676"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61348880"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con **Power BI Desktop**, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en **Power BI Desktop**. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante **DirectQuery**.

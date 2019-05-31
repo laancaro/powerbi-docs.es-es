@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: dda23e6b41613e76d5507d272e792f9f9130f982
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: d900d8622f086ef28f39ee050e9e9f1639dfd53d
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54282250"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61231614"
 ---
 # <a name="manage-your-app-workspace-in-power-bi-and-office-365"></a>Administración del área de trabajo de la aplicación en Power BI y Office 365
 Como creador o administrador de un [área de trabajo de la aplicación en Power BI](service-create-distribute-apps.md) u Office 365, administra algunos aspectos de ella en Power BI. Otros aspectos que administra en Office 365. 
@@ -36,10 +36,10 @@ Como creador o administrador de un [área de trabajo de la aplicación en Power 
 * Ver la dirección de correo electrónico del grupo.
 * Eliminar el grupo.
 
-Necesita una [licencia de Power BI Pro](service-features-license-type.md) para ser administrador o miembro de un área de trabajo de aplicación. Los usuarios de la aplicación necesitan también una licencia de Power BI Pro, a menos que el área de trabajo de la aplicación se encuentre en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
+Necesita una [licencia de Power BI Pro](service-features-license-type.md) para ser administrador o miembro de un área de trabajo de aplicación. Los usuarios de la aplicación necesitan también una licencia de Power BI Pro, a menos que el área de trabajo de la aplicación se encuentre en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium-what-is.md) (¿Qué es Power BI Premium?)
 
 ## <a name="edit-your-app-workspace-in-power-bi"></a>Edición del área de trabajo de la aplicación en Power BI
-1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo > **Editar área de trabajo**. 
+1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo > **Editar área de trabajo**. 
    
    ![Editar áreas de trabajo en Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
@@ -53,14 +53,14 @@ Necesita una [licencia de Power BI Pro](service-features-license-type.md) para s
 3. Seleccione **Guardar** o **Cancelar**.
 
 ## <a name="edit-power-bi-app-workspace-properties-in-office-365"></a>Edición de propiedades del área de trabajo de la aplicación de Power BI en Office 365
-1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos (**...**) junto al nombre del área de trabajo > **Miembros**. 
+1. En el servicio Power BI, seleccione la flecha situada junto a **Áreas de trabajo** > seleccione el botón de puntos suspensivos ( **...** ) junto al nombre del área de trabajo > **Miembros**. 
    
    ![Editar áreas de trabajo en Power BI](media/service-manage-app-workspace-in-power-bi-and-office-365/power-bi-app-ellipsis.png)
    
    Se abre la vista de grupo de Outlook para Office 365 de su área de trabajo de la aplicación.
    
    Puede que tenga que iniciar sesión en la cuenta de trabajo.
-2. Pulse el botón de puntos suspensivos (**...**) junto al nombre de un miembro para convertir ese miembro en administrador o eliminar el miembro del área de trabajo de la aplicación. 
+2. Pulse el botón de puntos suspensivos ( **...** ) junto al nombre de un miembro para convertir ese miembro en administrador o eliminar el miembro del área de trabajo de la aplicación. 
    
    ![Editar un grupo de Office 365](media/service-manage-app-workspace-in-power-bi-and-office-365/pbi_managegroupo365.png)
 

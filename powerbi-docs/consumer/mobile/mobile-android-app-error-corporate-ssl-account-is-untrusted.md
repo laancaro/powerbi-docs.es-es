@@ -11,11 +11,11 @@ ms.topic: conceptual
 ms.date: 05/18/2018
 ms.author: mshenhav
 ms.openlocfilehash: de103412e21e0d26d20058e2d4e1fb9a8a5449bf
-ms.sourcegitcommit: a054782370dec56d49bb205ee10b7e2018f22693
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/22/2019
-ms.locfileid: "56662328"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61341360"
 ---
 # <a name="fixing-corporate-ssl-certificate-is-untrusted---power-bi"></a>Corrección del problema de "su certificado SSL corporativo no es de confianza" - Power BI
 Al iniciar sesión en la aplicación móvil de Android para Microsoft Power BI, podría ver el mensaje "No se pudo realizar la autenticación porque este dispositivo considera que su certificado SSL corporativo no es de confianza. Póngase en contacto con el administrador de TI de su compañía". 

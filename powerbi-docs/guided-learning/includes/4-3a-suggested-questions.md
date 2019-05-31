@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 4a9d873632853a69c835d7326653102107dd239f
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61264052"
+---
 Con Power BI, puede agregar sus propias sugerencias de preguntas para los demás usuarios que utilicen el cuadro de consulta en lenguaje natural de un panel, al que se le suele llamar "el cuadro **Preguntas y respuestas**". Estas sugerencias de preguntas son las que verán los usuarios cuando hagan clic en el cuadro de entrada en la parte superior de un panel.
 
 ![](media/4-3a-suggested-questions/4-3a_1.png)

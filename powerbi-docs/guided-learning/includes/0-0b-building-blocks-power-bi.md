@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: 8d9388977c088c51094cf2835c8dab9e7d019a59
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61260609"
+---
 Todo lo que haga en Power BI puede dividirse en unos pocos **bloques de creación** básicos. Una vez que los comprenda, podrá partir de cada uno de ellos para crear informes elaborados y complejos. Al fin y al cabo, incluso los objetos en apariencia complejos se crean a partir de bloques de creación básicos; por ejemplo, los edificios se construyen con madera, acero, hormigón y cristal. Los automóviles, por su parte, se fabrican con metal, tejidos y goma. Por supuesto, los edificios y automóviles pueden ser básicos o más elaborados, en función de cómo se organicen esos bloques de creación básicos.
 
 Vamos a echar un vistazo a estos bloques de creación básicos, analizar algunos elementos sencillos que pueden compilarse con ellos y, por último, descubrir cómo se pueden crear también elementos complejos.

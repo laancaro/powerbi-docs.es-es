@@ -11,11 +11,11 @@ ms.date: 11/02/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: d2eeab8241de06f9a4d0e654696173d076e01ad2
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54292370"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187063"
 ---
 # <a name="power-bi-archived-workspace"></a>Área de trabajo de archivado de Power BI
 
@@ -29,9 +29,9 @@ Power BI no elimina el contenido de su área de trabajo de archivado. Puede cont
 
 * **OneDrive para la Empresa**: en los conjuntos de datos del área de trabajo de archivado, ya no puede obtener o actualizar datos desde OneDrive para la Empresa.  Si intenta conectarse a este origen, recibirá una advertencia.
 
-* **Uso compartido de paneles**: No puede compartir paneles con otros usuarios desde el área de trabajo de archivado.  Los usuarios que ya tienen acceso podrán seguir viendo paneles compartidos si acceden a su área de trabajo de archivado.
+* **Uso compartido de paneles**: No se puede compartir paneles con otros usuarios de su área de trabajo de archivado.  Los usuarios que ya tienen acceso podrán seguir viendo paneles compartidos si acceden a su área de trabajo de archivado.
 
-* **Creación de grupos**: No puede crear grupos en el área de trabajo de archivado.
+* **Creación de grupos**: No se puede crear grupos en el área de trabajo de archivado.
 
 * **Acceso en aplicaciones móviles de Power BI**: a pesar de que aún puede seguir viendo contenido en la Web en el área de trabajo de archivado, este contenido ya no aparece en las aplicaciones móviles de Power BI.
 

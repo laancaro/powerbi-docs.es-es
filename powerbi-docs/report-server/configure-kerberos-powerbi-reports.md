@@ -1,20 +1,20 @@
 ---
 title: Configuración de Kerberos para el uso de informes de Power BI
 description: Aprenda a configurar el servidor de informes para la autenticación Kerberos en los orígenes de datos que se utilizan en los informes de Power BI para un entorno distribuido.
-author: markingmyname
+author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
-ms.author: maghan
-ms.openlocfilehash: b9fcd2dbd664ac4f119c3f00c3d1a173b9251bd3
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.author: maggies
+ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296209"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "64770708"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -63,7 +63,7 @@ En el archivo rsreportserver.config, puede ir a la sección **Authentication/Aut
 
 Hay que asegurarse de que aparezca RSWindowsNegotiate y de que sea el primero en la lista de tipos de autenticación. El aspecto debería ser similar al siguiente.
 
-```
+```xml
 <AuthenticationTypes>
     <RSWindowsNegotiate/>
     <RSWindowsNTLM/>

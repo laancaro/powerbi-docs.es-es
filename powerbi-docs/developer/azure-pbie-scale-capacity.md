@@ -2,20 +2,20 @@
 title: Escalar una capacidad de Power BI Embedded | Microsoft Docs
 description: En este artículo se explica cómo escalar una capacidad de Power BI Embedded en Microsoft Azure.
 services: power-bi-embedded
-author: markingmyname
-ms.author: maghan
+author: rkarlin
+ms.author: rkarlin
 manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: 862e2dceb261e9f89480f50320bd0e1ce6a27931
-ms.sourcegitcommit: 0abcbc7898463adfa6e50b348747256c4b94e360
-ms.translationtype: HT
+ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "55762292"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61388518"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Escalar una capacidad de Power BI Embedded en Azure Portal
 
@@ -30,7 +30,7 @@ Se da por supuesto que ya ha creado una capacidad de Power BI Embedded, pero si 
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com/).
 
-2. Seleccione **All services (Todos los servicios)** > **Power BI Embedded** para ver las capacidades.
+2. Seleccione **All services (Todos los servicios)**  > **Power BI Embedded** para ver las capacidades.
 
     ![Todos los servicios en Azure Portal](media/azure-pbie-scale-capacity/azure-portal-more-services.png)
 

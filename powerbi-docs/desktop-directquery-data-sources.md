@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/01/2018
+ms.date: 04/10/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 84e40e9fbce07716a2250a58bfcbd396a40d2842
-ms.sourcegitcommit: 796bf513bf8669676e2a44627b56221b1629a6a8
-ms.translationtype: HT
+ms.openlocfilehash: 3bb7de9685a1e0fc9fa423328ad9e1e5faa53603
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "56826569"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61305464"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 
@@ -24,26 +24,29 @@ ms.locfileid: "56826569"
 Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 
 * Amazon Redshift
-* Azure HDInsight Spark (Beta)
+* AtScale (Beta)
+* Azure HDInsight Spark
 * Azure SQL Database
 * Azure SQL Data Warehouse
-* Google BigQuery (beta)
+* Google BigQuery
+* HDInsight Interactive Query
 * Base de datos IBM DB2
-* IBM Netezza (Beta)
+* IBM Netezza
 * Impala (versión 2.x)
 * Base de datos de Oracle (versión 12 y versiones posteriores)
+* Oracle Essbase
 * Servidor de aplicaciones de SAP Business Warehouse
-* Servidor de mensajería de SAP Business Warehouse (Beta)
+* Servidor de mensajería de SAP Business Warehouse
 * SAP HANA
 * Snowflake
-* Spark (Beta) (versión 0.9 y versiones posteriores)
+* Spark (versión 0.9 y versiones posteriores)
 * SQL Server
 * Base de datos de Teradata
-* Vertica (Beta)
+* Vertica
 
 Los orígenes de datos en los que aparece **(Beta)** o **(Versión preliminar)** después del nombre están sujetos a cambios y no se pueden usar en entornos de producción. Es posible que tampoco se admitan después de publicar un informe en el **servicio Power BI**, lo que implica que se puede producir un error al abrir un informe publicado o explorar el conjunto de datos.
 
-La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de **versión preliminar** para poder usarse. Para habilitar un conector de datos **(versión preliminar)**, vaya a **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y, después, seleccione **Características de versión preliminar**.
+La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de **versión preliminar** para poder usarse. Para habilitar un conector de datos **(versión preliminar)** , vaya a **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y, después, seleccione **Características de versión preliminar**.
 
 > [!NOTE]
 > Las consultas de DirectQuery para SQL Server necesitan autenticación mediante las credenciales de autenticación de Windows actuales o las credenciales de la base de datos para establecer el acceso. No se admiten credenciales alternativas.

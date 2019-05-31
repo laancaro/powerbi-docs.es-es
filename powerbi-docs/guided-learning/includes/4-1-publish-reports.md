@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: d39f9a6a974e194c38c2f4e9bf69314ff6d0cec2
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
+ms.contentlocale: es-ES
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61257075"
+---
 Publicar informes en el servicio Power BI es rápido y fácil.
 
 Una vez que haya completado la creación del informe en **Power BI Desktop**, solo tiene que seleccionar el botón **Publicar** de la pestaña **Inicio** de Power BI Desktop y el proceso comenzará.

@@ -1,5 +1,5 @@
 ---
-title: Formas de compartir el trabajo
+title: Formas de compartir el trabajo en Power BI
 description: En Power BI, puede compartir paneles, informes, iconos y aplicaciones de distintas maneras, y colaborar en ellos. Cada una tiene sus ventajas.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 04/15/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: cd2413c8f9387a5ebc7de758108e382265c3af42
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 10f287c72cbdec8885952dd7cec766420eabfb2e
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54290442"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61235142"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de compartir el trabajo en Power BI
 
@@ -29,7 +29,7 @@ En este artículo, comparamos estas opciones de colaboración y uso compartido e
 * Imprimir informes.
 * Insertar informes en portales seguros o sitios web públicos.
 
-Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
+Con independencia de la opción que se elija, para compartir un panel se necesita una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium-what-is.md). Los requisitos de licencia para los compañeros que ven sus paneles varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
 ![Aplicaciones en el servicio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
 
@@ -37,7 +37,7 @@ Con independencia de la opción que se elija, para compartir un panel se necesit
 
 ## <a name="collaborate-with-coworkers-in-a-workspace"></a>Colaborar con compañeros en un área de trabajo
 
-Cuando los equipos trabajan juntos, necesitan tener acceso a los mismos documentos para poder colaborar con rapidez. Las áreas de trabajo de Power BI proporcionan un lugar donde los equipos se reúnen para compartir la propiedad y administración de paneles, informes, conjuntos de datos y libros que son importantes para ellos. A veces, los usuarios de Power BI organizan sus áreas de trabajo según las estructuras de la organización, mientras que otras veces las crean para proyectos específicos. Además, otras organizaciones usan varias áreas de trabajo para almacenar diferentes versiones de los informes o paneles que usan. 
+Cuando los equipos trabajan juntos, necesitan tener acceso a los mismos documentos para poder colaborar con rapidez. En las áreas de trabajo de Power BI, los equipos reúnen para compartir la propiedad y administración de sus paneles, informes, conjuntos de datos y libros. A veces, los usuarios de Power BI organizan sus áreas de trabajo según las estructuras de la organización, mientras que otras veces las crean para proyectos específicos. Además, otras organizaciones usan varias áreas de trabajo para almacenar diferentes versiones de los informes o paneles que usan. 
 
 Las áreas de trabajo proporcionan roles que determinan los permisos que tienen sus compañeros de trabajo. Puede usar esos roles para determinar quién puede administrar toda el área de trabajo, o bien proporcionar contenido en ella.
 
@@ -45,11 +45,16 @@ Las áreas de trabajo proporcionan roles que determinan los permisos que tienen 
 
 Algunos usuarios simplemente colocan contenido en Mi área de trabajo y lo comparten. Las áreas de trabajo son mejores para la colaboración que Mi área de trabajo, ya que proporcionan copropiedad de contenido. Usted y todo su equipo pueden realizar actualizaciones o asignar acceso a otros usuarios fácilmente. Es mejor que Mi área de trabajo lo usen usuarios para contenido personal o de uso único.
 
-Imaginemos que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. Si un compañero de trabajo específico necesita ser propietario del panel y mantenerlo actualizado, o si necesita acceso a todo el contenido del área de trabajo, puede que sea mejor agregarlo al área de trabajo. Si su compañero solo necesita ver ese panel y no todo el contenido del área de trabajo, también puede elegir entre un conjunto de alternativas. Si el panel forma parte de un conjunto mayor de contenido que necesita distribuir a muchos compañeros, entonces, probablemente la mejor opción sea publicar una aplicación. Pero si su compañero solo necesita ese panel, entonces lo mejor sería compartir el panel.
+Imaginemos que ha terminado un panel que tiene que compartir con sus compañeros. ¿Cuál es la mejor manera para concederles acceso a él? La respuesta depende de una serie de factores. 
+
+- Si los compañeros tienen que mantener actualizado el panel, o necesitan tener acceso a todo el contenido del área de trabajo, considere la posibilidad de agregarlos al área de trabajo. 
+- Si sus compañeros únicamente necesitan ver ese panel y no todo el contenido del área de trabajo, vuelva a tener alternativas. 
+- Si el panel forma parte de un conjunto mayor de contenido que necesita distribuir a muchos compañeros, entonces, probablemente la mejor opción sea publicar una aplicación. 
+- Sin embargo, si los compañeros de trabajo y solo necesitan que un panel, a continuación, compartir el panel podría ser la mejor solución.
 
 Obtenga más información sobre la [creación de áreas de trabajo](service-create-workspaces.md).
 
-**¿Sabía qué?** Power BI está realizando una versión preliminar de una nueva experiencia de áreas de trabajo. Lea [Crear nuevas áreas de trabajo (versión preliminar)](service-create-the-new-workspaces.md) para ver cómo cambiarán las áreas de trabajo en el futuro. 
+**¿Sabía qué?** Power BI tiene una nueva experiencia de área de trabajo. Lectura [crear las nuevas áreas de trabajo](service-create-the-new-workspaces.md) para ver cómo cambian las áreas de trabajo. 
 
 ## <a name="distribute-data-and-insights-by-creating-an-app"></a>Distribuir datos e información mediante la creación de una aplicación
 
@@ -61,7 +66,7 @@ Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://p
 
 Después de instalar una aplicación, pueden verla en sus exploradores o dispositivos móviles.
 
-Para que los usuarios vean la aplicación, deben tener también una licencia de Power BI Pro o la aplicación debe estar almacenada en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
+Para que los usuarios vean la aplicación, deben tener también una licencia de Power BI Pro o la aplicación debe estar almacenada en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium-what-is.md) (¿Qué es Power BI Premium?)
 
 También puede publicar aplicaciones para aquellos que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no pueden compartirlo con otros usuarios.
 
@@ -71,7 +76,7 @@ Supongamos que ha finalizado un panel y un informe en su propia área de trabajo
 
 ![Icono de uso compartido](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
 
-Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](service-premium.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el panel y en los informes, a menos que se aplique la seguridad de nivel de fila (RLS) al conjunto de datos subyacente. Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
+Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](service-premium-what-is.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el panel y en los informes, a menos que se aplique la seguridad de nivel de fila (RLS) al conjunto de datos subyacente. Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
 
 También puede compartir con usuarios que no pertenezcan a su organización. Pueden ver el panel o el informe e interactuar con él, pero no pueden compartirlo. 
 
@@ -83,7 +88,7 @@ En las aplicaciones móviles de Power BI para dispositivos iOS y Android, puede 
 
 ![Anotación y uso compartido en las aplicaciones móviles](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-iphone-annotate.png)
 
-Estará compartiendo una instantánea del icono, el informe o el objeto visual, y los destinatarios lo verán exactamente igual que cuando envió el correo. El correo electrónico también contiene un vínculo al panel o el informe. Si tienen una licencia de Power BI Pro, o el contenido ya está en una [capacidad premium](service-premium.md), y ya ha compartido el objeto con ellos, pueden abrirlo. Puede enviar instantáneas de iconos a cualquier persona, no solo a compañeros del mismo dominio de correo electrónico.
+Estará compartiendo una instantánea del icono, el informe o el objeto visual, y los destinatarios lo verán exactamente igual que cuando envió el correo. El correo electrónico también contiene un vínculo al panel o el informe. Si tienen una licencia de Power BI Pro, o el contenido ya está en una [capacidad premium](service-premium-what-is.md), y ya ha compartido el objeto con ellos, pueden abrirlo. Puede enviar instantáneas de iconos a cualquier persona, no solo a compañeros del mismo dominio de correo electrónico.
 
 Más información sobre cómo [anotar y compartir iconos, informes y objetos visuales](consumer/mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) desde aplicaciones móviles de iOS y Android.
 
@@ -96,8 +101,12 @@ Puede imprimir todo un panel, un icono de panel, una página de informe o una vi
 ## <a name="embed-reports-in-secure-portals-or-public-websites"></a>Inserción de informes en portales seguros o sitios web públicos
 
 Puede insertar informes de Power BI en zonas de portales o sitios web en las que los usuarios esperen encontrarlos.  
+Las opciones **Insertar en SharePoint Online** e **Insertar** del servicio Power BI permiten insertar informes para los usuarios internos de forma segura. 
 
-Las opciones **Insertar en SharePoint Online** e **Insertar** del servicio Power BI permiten insertar informes para los usuarios internos de forma segura. La opción Insertar de SharePoint Online funciona con el elemento web de Power BI para SharePoint Online y proporciona una experiencia de inicio de sesión único con opciones de control sobre la forma de insertar un informe. Dicha opción también funciona en cualquier portal o sitio web que sea compatible con la inserción de contenido mediante una URL o un iFrame. Ambas opciones garantizan que todos los permisos y la seguridad de los datos se apliquen antes de que un usuario pueda ver el contenido. La persona que consulta el informe necesita la licencia pertinente. Obtenga más información sobre las opciones [Insertar en SharePoint Online](service-embed-report-spo.md) e [Insertar](service-embed-secure.md) de Power BI.
+- **Insertar en SharePoint Online** funciona con el elemento web de Power BI para SharePoint Online. Proporciona una experiencia de inicio de sesión único con control sobre cómo se incrusta el informe. 
+- **Incrustar** funciona con cualquier portal o sitio Web que admite la incrustación de contenido mediante una dirección URL o un iFrame. 
+
+Cualquier opción que elijas, Power BI aplica todos los permisos y seguridad de los datos antes de que los usuarios pueden ver el contenido. La persona que consulta el informe necesita la licencia pertinente. Obtenga más información sobre [insertar en SharePoint Online](service-embed-report-spo.md) y [Embed](service-embed-secure.md) opción en Power BI.
 
 Con la opción **Publicar en la Web**, puede publicar informes de Power BI en todo Internet mediante la inserción de visualizaciones interactivas en entradas de blog, sitios web, redes sociales y otras comunicaciones en línea, en cualquier dispositivo. Todos los usuarios de Internet pueden ver los informes y no se puede controlar quién puede ver lo que ha publicado. No necesitan una licencia de Power BI. La publicación en la Web está disponible solo para los informes que puede editar. No se pueden publicar informes en la Web si están compartidos con usted o si se encuentran en una aplicación. Más información sobre la [publicación en la Web](service-publish-to-web.md).
 

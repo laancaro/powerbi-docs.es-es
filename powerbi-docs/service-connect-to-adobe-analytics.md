@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: bcd92dc0288fc347c5f5931d40b94cf769f5293f
-ms.sourcegitcommit: 8207c9269363f0945d8d0332b81f1e78dc2414b0
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "56249031"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61180343"
 ---
 # <a name="connect-to-adobe-analytics-with-power-bi"></a>Conexión a Adobe Analytics con Power BI
 Para conectarse a Adobe Analytics a través de Power BI, empiece por conectarse a su cuenta de Adobe Analytics Marketing Cloud. Aparece una aplicación con un panel de Power BI y un conjunto de informes de Power BI que proporcionan información acerca del tráfico de su sitio y las dimensiones de usuarios. Los datos se actualizan automáticamente una vez al día. Puede interactuar con el panel y los informes, pero no puede guardar los cambios.

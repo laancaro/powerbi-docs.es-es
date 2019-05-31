@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: a12f2821108c5becaf054680e4395295f0979f0b
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008497"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61171708"
 ---
 # <a name="connect-to-uservoice-with-power-bi"></a>Conexión a UserVoice con Power BI
 Explorar y realizar un seguimiento de los datos de UserVoice es fácil con Power BI y el paquete de contenido de UserVoice. Power BI recupera los datos, incluidos los vales, las sugerencias y las calificaciones de satisfacción para, a continuación, crear un panel e informes basados en los datos listos para usar.
@@ -72,7 +72,7 @@ Si ve este error tras especificar la dirección URL de UserVoice. Asegúrese de 
 
 Si recibe el error "Error de inicio de sesión" después de usar sus credenciales de UserVoice para iniciar sesión, la cuenta que está usando no tiene permisos para recuperar los datos de UserVoice de su cuenta. Compruebe que se trata de una cuenta de administrador y vuelva a intentarlo.
 
-"**¡Vaya! Algo ha salido mal**"
+" **¡Vaya! Algo ha salido mal**"
 
 Si recibe este mensaje de error mientras se cargan los datos, asegúrese de que su cuenta de UserVoice no ha superado su cuota de uso mensual de API. Si todo está correcto, pruebe conectándose de nuevo. Si el problema persiste, póngase en contacto con el servicio de soporte técnico de Power BI en [https://community.powerbi.com](https://community.powerbi.com/).
 

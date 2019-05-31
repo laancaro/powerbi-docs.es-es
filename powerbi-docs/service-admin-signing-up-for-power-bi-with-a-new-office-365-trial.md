@@ -11,11 +11,11 @@ ms.date: 10/31/2018
 ms.author: mblythe
 LocalizationGroup: Administration
 ms.openlocfilehash: ad049837dff46058cf703d58720129e1e0742555
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430473"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61187220"
 ---
 # <a name="signing-up-for-power-bi-with-a-new-office-365-trial"></a>Registro en Power BI con una nueva prueba de Office 365
 
