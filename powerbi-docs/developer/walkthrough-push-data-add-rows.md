@@ -10,10 +10,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: a355f09984bc454f74dfab8ef137e29fd5aed110
-ms.sourcegitcommit: a284c38d42dd8042e468e10c0157f30918c2bdd1
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/16/2019
+ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710414"
 ---
 # <a name="step-5-add-rows-to-a-power-bi-table"></a>Paso 5: Agregar filas a una tabla de Power BI
@@ -311,7 +311,7 @@ A continuación se muestra la [lista de código completa](#code).
     }
 ```
 
-A pesar de que en el código anterior se ha especificado **_//Get the first id_**, lo correcto es buscar el conjunto de datos por nombre.
+A pesar de que en el código anterior se ha especificado ** _//Get the first id_** , lo correcto es buscar el conjunto de datos por nombre.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Insertar datos en un panel de Power BI](walkthrough-push-data.md)  
