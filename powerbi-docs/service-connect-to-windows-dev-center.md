@@ -11,11 +11,11 @@ ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
 ms.openlocfilehash: 81498dff9c70deaf8135faf244db96509b1cf18d
-ms.sourcegitcommit: 750f0bfab02af24c8c72e6e9bbdd876e4a7399de
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2019
-ms.locfileid: "54008842"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "61164152"
 ---
 # <a name="connect-to-windows-dev-center-with-power-bi"></a>Conexión a Windows Dev Center con Power BI
 Explore y supervise los datos de análisis de aplicaciones del Centro de desarrollo de Windows en Power BI con el paquete de contenido para Power BI. Los datos se actualizarán automáticamente una vez al día.
@@ -66,7 +66,7 @@ Este paquete de contenido requiere tener al menos una aplicación publicada en l
 ## <a name="finding-parameters"></a>Búsqueda de parámetros
 Para encontrar el identificador de una aplicación, vaya a la página Identidad de la aplicación en Administración de aplicaciones.
 
-El identificador de la aplicación está al final de la dirección URL de la Tienda Windows 10, https://www.microsoft.com/store/apps/ **{applicationId}**.
+El identificador de la aplicación está al final de la dirección URL de la Tienda Windows 10, https://www.microsoft.com/store/apps/ **{applicationId}** .
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a Power BI](service-get-started.md)

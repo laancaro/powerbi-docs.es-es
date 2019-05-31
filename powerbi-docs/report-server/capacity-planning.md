@@ -10,11 +10,11 @@ ms.topic: conceptual
 ms.date: 3/5/2018
 ms.author: pashah
 ms.openlocfilehash: c479b2600dad31756101c57ba2b1c5fc7fa19b2f
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54296671"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "60976758"
 ---
 # <a name="capacity-planning-guidance-for-power-bi-report-server"></a>Instrucciones para el planeamiento de la capacidad de Power BI Report Server
 Power BI Report Server es una solución de informes empresariales y BI con características de autoservicio que los clientes pueden implementar en sus instalaciones, detrás de su firewall. En ella se combinan la funcionalidad de informe interactivo de Power BI Desktop con la plataforma de servidor local de SQL Server Reporting Services. Con el uso intensivo y creciente de análisis e informes dentro de las empresas, elaborar un presupuesto para la infraestructura de hardware y las licencias de software necesarias para extenderla a una base de usuarios empresariales puede ser un verdadero desafío. Este documento pretende ofrecer instrucciones sobre el planeamiento de la capacidad de Power BI Report Server mediante el uso compartido de los resultados de numerosas ejecuciones de pruebas de carga en un servidor de informes. Aunque los informes, consultas y patrones de uso de las organizaciones pueden variar ampliamente, los resultados presentados en este documento, junto con las pruebas reales usadas y una descripción detallada de cómo se ejecutaban, sirven como punto de referencia para cualquiera en las primeras etapas del proceso de planeamiento de la implementación de Power BI Report Server.
@@ -66,7 +66,7 @@ Hay 2 perfiles de carga de trabajo que se usan en las pruebas: Power BI Report H
 | --- | --- | --- |
 | **Representación de informes de Power BI** |60 % |10 % |
 | **Representación de informes paginados (RDL)** |30 % |60 % |
-| **Representación de informes móviles** |5 % |20 % |
+| **Representación de informes móviles** |5 % |20 % |
 | **Operaciones del portal web** |5 % |10 % |
 
 ### <a name="user-load"></a>Carga de usuarios
