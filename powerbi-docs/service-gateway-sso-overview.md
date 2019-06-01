@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/15/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfd40c991f461e57f2f1d2de8a46b3627aa7fbc1
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
-ms.translationtype: HT
+ms.openlocfilehash: 9e91c162c9b748fd0ef122aed8fc7ffee6dba5fc
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54274223"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448287"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Introducción al inicio de sesión único (SSO) para puertas de enlace de Power BI
 
@@ -29,6 +29,7 @@ Actualmente se admiten estos orígenes de datos:
 * Teradata ([Kerberos](service-gateway-sso-kerberos.md))
 * Spark ([Kerberos](service-gateway-sso-kerberos.md))
 * Impala ([Kerberos](service-gateway-sso-kerberos.md))
+* También es posible que el inicio de sesión único [otros orígenes de datos](desktop-directquery-data-sources.md#single-sign-on-sso-for-directquery-sources) sin usar una puerta de enlace de datos
 
 Cuando un usuario interactúa con un informe de DirectQuery en el servicio Power BI, cada operación de filtro cruzado, división, ordenación y edición de informes puede dar lugar a consultas que se ejecutan en vivo en el origen de datos local subyacente.  Cuando se configura SSO para el origen de datos, las consultas se ejecutan bajo la identidad del usuario que interactúa con Power BI (es decir, a través de la experiencia web o aplicaciones móviles de Power BI). Por lo tanto, cada usuario ve los datos para los que tiene permisos en el origen de datos subyacente: con el inicio de sesión único configurado, no hay ningún almacenamiento en caché de datos compartido entre distintos usuarios.
 
