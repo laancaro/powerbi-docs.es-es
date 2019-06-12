@@ -681,9 +681,9 @@
               href: service-dataflows-configure-workspace-storage-settings.md
             - name: Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
               href: service-dataflows-add-cdm-folder.md
-            - name: "Integración de Machine\_Learning en Power\_BI (versión preliminar)"
+            - name: Integración de Machine Learning en Power BI
               href: service-machine-learning-integration.md
-            - name: Uso de Cognitive Services en Power BI (versión preliminar)
+            - name: Uso de Cognitive Services en Power BI
               href: service-cognitive-services.md
             - name: Aprendizaje automático automatizado en Power BI (versión preliminar)
               href: service-machine-learning-automated.md
@@ -745,8 +745,6 @@
               href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Solución de problemas de origen de datos no admitido para la actualización
               href: service-admin-troubleshoot-unsupported-data-source-for-refresh.md
-            - name: Solución de problemas de valores anidados devueltos como texto
-              href: service-troubleshooting-nested-values.md
             - name: Solución de problemas de actualización programada de bases de datos SQL de Azure
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: 'Error: Datos no encontrados en el libro de Excel'
@@ -927,6 +925,8 @@
           href: service-premium-incremental-refresh.md
         - name: Configuración de la replicación geográfica
           href: service-admin-premium-multi-geo.md
+        - name: Uso de claves de cifrado propias
+          href: service-encryption-byok.md
         - name: Reinicio de una capacidad Premium
           href: service-admin-premium-restart.md
         - name: Conexión a conjuntos de datos con herramientas y aplicaciones cliente
