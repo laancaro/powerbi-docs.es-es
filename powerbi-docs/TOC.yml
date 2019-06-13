@@ -257,8 +257,6 @@
               href: desktop-add-column-from-example.md
             - name: Adición de una columna personalizada
               href: desktop-add-custom-column.md
-            - name: Creación de objetos visuales que reaccionan en Power BI
-              href: visuals/desktop-create-responsive-visuals.md
             - name: Uso de etiquetas de jerarquía alineadas en Power BI Desktop
               href: desktop-inline-hierarchy-labels.md
             - name: Uso de la segmentación de rango numérico
@@ -689,24 +687,6 @@
               href: service-machine-learning-automated.md
         - name: Informes paginados en Power BI
           items:
-            - name: ¿Qué son los informes paginados? (Versión preliminar)
-              href: paginated-reports-report-builder-power-bi.md
-            - name: Preguntas frecuentes sobre los informes paginados (versión preliminar)
-              href: paginated-reports-faq.md
-            - name: Creación y carga de un informe paginado (versión preliminar)
-              href: paginated-reports-quickstart-aw.md
-            - name: Desplazamiento por la vista Diseño del informe (versión preliminar)
-              href: paginated-reports-report-design-view.md
-            - name: Escritura directa de datos en un informe paginado (versión preliminar)
-              href: paginated-reports-enter-data.md
-            - name: Creación de un origen de datos insertados (versión preliminar)
-              href: paginated-reports-embedded-data-source.md
-            - name: Creación de un conjunto de datos insertado (versión preliminar)
-              href: paginated-reports-create-embedded-dataset.md
-            - name: Creación de parámetros (versión preliminar)
-              href: paginated-reports-parameters.md
-            - name: Publicación de un informe paginado (versión preliminar)
-              href: paginated-reports-save-to-power-bi-service.md
             - name: Vista de un informe paginado (versión preliminar)
               href: paginated-reports-view-power-bi-service.md
             - name: Interactuación con los parámetros (versión preliminar)
@@ -931,6 +911,52 @@
           href: service-admin-premium-restart.md
         - name: Conexión a conjuntos de datos con herramientas y aplicaciones cliente
           href: service-premium-connect-tools.md
+- name: "Generador de informes paginados de Power\_BI"
+  items:
+    - name: Información general
+      items:
+        - name: ¿Qué son los informes paginados?
+          href: paginated-reports-report-builder-power-bi.md
+        - name: "Generador de informes en Power\_BI"
+          href: report-builder-power-bi.md
+    - name: Tutoriales
+      items:
+        - name: Creación de un informe paginado e interacción de carga
+          href: paginated-reports-quickstart-aw.md
+    - name: Conceptos
+      items:
+        - name: Desplazamiento por la vista Diseño del informe
+          href: paginated-reports-report-design-view.md
+        - name: Planeación de un informe
+          href: report-builder-planning-report.md
+        - name: Datos del generador de informes
+          href: report-builder-data.md
+        - name: Sugerencias de diseño
+          href: report-builder-design-tips.md
+        - name: 'Tablas, matrices y listas'
+          href: report-builder-tables-matrices-lists.md
+        - name: Parámetros
+          href: report-builder-parameters.md
+        - name: Expresiones
+          href: report-builder-expressions.md
+        - name: Ejemplos de expresiones
+          href: report-builder-expression-examples.md
+        - name: Vista previa de los informes
+          href: report-builder-previewing-reports.md
+        - name: Preguntas frecuentes sobre los informes paginados
+          href: paginated-reports-faq.md
+    - name: Procedimiento
+      items:
+        - name: Escritura directa de datos en un informe paginado
+          href: paginated-reports-enter-data.md
+        - name: Creación de un origen de datos insertados
+          href: paginated-reports-embedded-data-source.md
+        - name: Creación de un conjunto de datos insertados
+          href: paginated-reports-create-embedded-dataset.md
+        - name: Creación de parámetros
+          href: paginated-reports-parameters.md
+        - name: Publicación de un informe paginado
+          href: paginated-reports-save-to-power-bi-service.md
 - name: Power BI para desarrolladores
   items:
     - name: ¿Qué pueden hacer los desarrolladores con Power BI?
