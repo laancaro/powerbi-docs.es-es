@@ -1,6 +1,6 @@
 ---
 title: Incorporación de hipervínculos a una tabla
-description: Use Power BI Desktop para crear hipervínculos. A continuación, use Power BI Desktop o el servicio Power BI para agregar los hipervínculos a las tablas de informe y matrices.
+description: Use Power BI Desktop para crear hipervínculos. Luego, use Power BI Desktop o el servicio Power BI para agregar esos hipervínculos a las tablas y matrices de informes.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9611d8cd45eba89854fd6cbb485c52097f77f4c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 386c52908d54833e350a7b1a6d846f78c7b88c6d
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421684"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721381"
 ---
 # <a name="add-hyperlinks-to-a-table"></a>Incorporación de hipervínculos a una tabla
 En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. Luego, use el servicio Desktop o Power BI para agregar esos hipervínculos a las tablas y matrices de informes. 
@@ -24,11 +24,11 @@ En este tema se explica cómo usar Power BI Desktop para crear hipervínculos. L
 ![Tabla con hipervínculos](media/power-bi-hyperlinks-in-tables/hyperlinkedtable.png)
 
 > [!NOTE]
-> Puede crear hipervínculos en [los iconos de paneles](service-dashboard-edit-tile.md) y [cuadros de texto en los paneles](service-dashboard-add-widget.md) sobre la marcha mediante el servicio Power BI. Puede crear hipervínculos en [cuadros de texto en informes](service-add-hyperlink-to-text-box.md) sobre la marcha mediante el servicio Power BI y Power BI Desktop.
+> Puede crear hipervínculos de los [iconos de los paneles](service-dashboard-edit-tile.md) y los [cuadros de texto de los paneles](service-dashboard-add-widget.md) sobre la marcha mediante el servicio Power BI. Puede crear hipervínculos de los [cuadros de texto de los informes](service-add-hyperlink-to-text-box.md) sobre la marcha con el servicio Power BI y Power BI Desktop.
 > 
 
 ## <a name="to-create-a-hyperlink-in-a-table-or-matrix-using-power-bi-desktop"></a>Crear un hipervínculo de una tabla o matriz con Power BI Desktop
-Puede crear hipervínculos en tablas y matrices en Power BI Desktop, pero no en el servicio Power BI. También puede crear hipervínculos en Power Pivot para Excel antes de importar el libro en Power BI. Ambos métodos se describen a continuación.
+Puede crear hipervínculos de tablas y matrices en Power BI Desktop, pero no en el servicio Power BI. También puede crear hipervínculos en Power Pivot para Excel antes de importar el libro en Power BI. Ambos métodos se describen a continuación.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-power-bi-desktop"></a>Crear un hipervínculo de tabla o matriz en Power BI Desktop
 El procedimiento para agregar un hipervínculo depende de si ha importado los datos o los ha conectado mediante DirectQuery. Ambos escenarios se describen a continuación.
@@ -55,7 +55,7 @@ El procedimiento para agregar un hipervínculo depende de si ha importado los da
 
     Expanda **Valores**, busque el **icono de la dirección URL** y **actívelo**.
 
-    ![Activar el icono de dirección URL](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
+    ![Activación del icono de la dirección URL](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
 1. (Opcional) [Publique el informe desde Desktop en el servicio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) y abra el informe en el servicio Power BI. Los hipervínculos también funcionará en el servicio.
 
@@ -99,7 +99,7 @@ R: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones en informes de Power BI](visuals/power-bi-report-visualizations.md)
 
-[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
+[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

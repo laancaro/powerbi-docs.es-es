@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.custom: ''
 ms.date: 12/17/2018
-ms.openlocfilehash: 9c5d2665f012881f951a186c3ec8c9fd94031a28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0fcb3451249c121281790dca77bd6008c39deaef
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60977211"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66497929"
 ---
 # <a name="frequently-asked-questions-about-power-bi-custom-visuals"></a>Preguntas más frecuentes acerca de los objetos visuales personalizados de Power BI
 
@@ -84,7 +84,7 @@ Para certificar un objeto visual personalizado, debe estar en nuestros servidore
  
 ### <a name="how-long-does-it-take-to-certify-my-visual"></a>¿Cuánto se tarda en certificar el objeto visual?
 
-Para la versión actualizada puede tardar hasta dos semanas. Para un envío nuevo (la primera certificación) puede tardar hasta tres semanas. 
+Para la versión actualizada puede tardar hasta tres semanas. Para un envío nuevo (la primera certificación) puede tardar hasta cuatro semanas. 
 
 ### <a name="does-the-certification-process-ensure-that-no-data-leakage-occurs"></a>¿El proceso de certificación garantiza que no se produzca ninguna pérdida de datos?
 

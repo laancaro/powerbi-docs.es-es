@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 896e58b95f253c403bf7cd4bc3e1c069b3628f69
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 69b40b81677de8af259f9c8ce871c39f5303c09a
+ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770255"
+ms.lasthandoff: 05/31/2019
+ms.locfileid: "66448430"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -40,7 +40,7 @@ Estas restricciones y notas pueden cambiar mientras seguimos mejorando las exper
 
 La manera más sencilla de cambiar entre SQL Data Warehouse y Power BI es con el botón **Abrir en Power BI** en Azure Portal. Este botón le permite comenzar a crear sin ningún problema nuevos paneles en Power BI.
 
-1. Para comenzar, vaya a su la instancia de SQL Data Warehouse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en el Portal de vista previa de Azure en este momento.
+1. Para comenzar, vaya a su la instancia de SQL Data Warehouse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en Azure Portal en este momento.
 
 2. Haga clic en el botón **Abrir en Power BI** .
 
@@ -56,7 +56,7 @@ SQL Data Warehouse también se muestra en la página Obtener datos de Power BI.
 
 1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
 
-    ![Botón obtener datos](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
+    ![Botón Obtener datos](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
 2. En **Bases de datos**, seleccione **Obtener**.
 
@@ -64,13 +64,13 @@ SQL Data Warehouse también se muestra en la página Obtener datos de Power BI.
 
 3. Seleccione **SQL Data Warehouse**\>**Conectar**.
 
-    ![Conexión de Azure SQL Data Warehouse con direct](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
+    ![Azure SQL Data Warehouse con conexión directa](media/service-azure-sql-data-warehouse-with-direct-connect/azuresqldatawarehouseconnect.png)
 
-4. Escriba la información necesaria para conectarse. La sección **Búsqueda de parámetros** siguiente muestra dónde se encuentran estos datos en Azure Portal.
+4. Escriba la información necesaria para conectarse. En la sección **Búsqueda de parámetros** siguiente se muestra dónde se encuentran estos datos en Azure Portal.
 
     ![Nombre del servidor](media/service-azure-sql-data-warehouse-with-direct-connect/servername.png)
 
-    ![Nombre de servidor avanzada](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
+    ![Opciones avanzadas de Nombre del servidor](media/service-azure-sql-data-warehouse-with-direct-connect/servernamewithadvanced.png)
 
     ![Nombre de usuario](media/service-azure-sql-data-warehouse-with-direct-connect/username.png)
 
@@ -87,12 +87,14 @@ SQL Data Warehouse también se muestra en la página Obtener datos de Power BI.
 
 ## <a name="finding-parameter-values"></a>Buscar valores de parámetro
 
-El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en el Portal de vista previa de Azure en este momento.
+El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal. Tenga en cuenta que SQL Data Warehouse solo está presente en Azure Portal en este momento.
 
 ![Azure Portal](media/service-azure-sql-data-warehouse-with-direct-connect/azureportal.png)
 
 > [!NOTE]
 > Si su inquilino de Power BI está en la misma región que Azure SQL Data Warehouse, no habrá ningún cargo de salida. Para encontrar la ubicación de su inquilino de Power BI, use [estas instrucciones](https://docs.microsoft.com/power-bi/service-admin-where-is-my-tenant-located).
+
+[!INCLUDE [direct-query-sso](includes/direct-query-sso.md)]
 
 ## <a name="next-steps"></a>Pasos siguientes
 

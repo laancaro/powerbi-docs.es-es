@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 01/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 06b60e5d493532efbdb49932ace48897e17961c1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 7eb30d00cdb03c0f0f879d0cb4b0ab152d1dae37
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61238871"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721511"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service-apppowerbicom"></a>Tutorial: Introducción al servicio Power BI (app.powerbi.com)
 Este tutorial le ayudará a empezar a trabajar con el ***servicio Power BI***. Para entender cómo el servicio Power BI se complementa con otras ofertas de Power BI, le recomendamos que lea [¿Qué es Power BI?](power-bi-overview.md) en primer lugar.
@@ -53,7 +53,7 @@ Visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playl
 > 
 
 ## <a name="what-is-the-power-bi-service"></a>¿Qué es el servicio Power BI?
-Para hacer referencia al servicio Microsoft Power BI en ocasiones se usa el término Power BI en línea o, simplemente, la URL (app.powerbi.com). Power BI es un servicio que le permite a mantenerse al día con la información más importante para usted.  Además, los ***paneles*** del servicio Power BI le ayudan a tomar el pulso de su empresa.  Los paneles muestran ***iconos*** en los que puede abrir ***informes*** para seguir explorando.  Conéctese a varios ***conjuntos de datos*** para reunir todos los datos relevantes en un solo lugar. ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](consumer/end-user-basic-concepts.md).
+Para hacer referencia al servicio Microsoft Power BI en ocasiones se usa el término Power BI en línea o, simplemente, la URL (app.powerbi.com). Power BI es un servicio que le permite a mantenerse al día con la información más importante para usted.  Además, los ***paneles*** del servicio Power BI le ayudan a tomar el pulso de su empresa.  Los paneles muestran ***iconos*** en los que puede abrir ***informes*** para seguir explorando.  Conéctese a varios ***conjuntos de datos*** para reunir todos los datos relevantes en un solo lugar. ¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Vea [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md).
 
 Si tiene datos importantes en archivos de Excel o CSV, puede crear un panel de Power BI para mantenerse informado en cualquier lugar y compartir recomendaciones con otros usuarios.  ¿Tiene una suscripción a una aplicación de SaaS como Salesforce?  Arranque con ventaja conectándose a Salesforce para crear automáticamente un panel a partir de los datos, o bien [compruebe todas las demás aplicaciones de SaaS](service-get-data.md) a las que pueda conectarse. Si forma parte de una organización, consulte si se ha publicado alguna [aplicación](service-create-distribute-apps.md) para usted.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6f3a335bea711f1785f498caf7fbc828abb01c18
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1eed656b768b7e05b8fc9d97557cb2a43755d336
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172517"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721150"
 ---
 # <a name="connect-to-intelliboard-with-power-bi"></a>Conexión a IntelliBoard con Power BI
 IntelliBoard ofrece acceso simplificado a los datos del sistema de administración de aprendizaje Moodle mediante los servicios de informes. El paquete de contenido de IntelliBoard para Power BI ofrece análisis adicional, incluidas las métricas de sus cursos, los usuarios registrados, el rendimiento general y la actividad LMS.
@@ -68,5 +68,5 @@ Se requiere una cuenta de IntelliBoard con permisos para las tablas anteriores p
 ## <a name="next-steps"></a>Pasos siguientes
 [¿Qué es Power BI?](power-bi-overview.md)
 
-[Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)
+[Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 

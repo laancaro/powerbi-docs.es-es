@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 8fa11926a66b5e295ee23fa6c5b90bfedb2b9761
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66375089"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720342"
 ---
 # <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
 
@@ -120,7 +120,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
 
 5. Agregue la entidad de servicio como un **administrador** a la nueva área de trabajo que ha creado. Puede administrar esta tarea a través de las [API](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser) o con el servicio Power BI.
 
-    ![Agregar a una entidad de servicio como un administrador a un área de trabajo](media/embed-service-principal/add-service-principal-in-the-UI.png)
+    ![Incorporación de una entidad de servicio como administrador a un área de trabajo](media/embed-service-principal/add-service-principal-in-the-UI.png)
 
 6. Ahora, elija insertar el contenido en una aplicación de ejemplo o en una aplicación propia.
 
@@ -168,17 +168,17 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 
 * La entidad de servicio solo funciona con las [nuevas áreas de trabajo de la aplicación](../service-create-the-new-workspaces.md).
 * Cuando se usa la entidad de servicio, no se admite **Mi área de trabajo**.
-* Para pasar a producción, se necesita capacidad Premium dedicada.
+* Para pasar a producción, se necesita capacidad dedicada.
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.
 * Se necesitan derechos de administrador de Power BI para habilitar la entidad de servicio en la configuración de desarrollador en el portal de administración de Power BI.
 * No se puede instalar ni administrar una puerta de enlace de datos local con la entidad de servicio.
 * En las aplicaciones de [inserción para la organización](embed-sample-for-your-organization.md) no se puede usar la entidad de servicio.
 * No se admite la administración de [flujos de datos](../service-dataflows-overview.md).
-* Entidad de servicio no admite actualmente las API de administración.
+* Actualmente la entidad de servicio no admite ninguna API de administración.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Registro de una aplicación](register-app.md)
 * [Power BI Embedded para los clientes](embed-sample-for-customers.md)
 * [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Seguridad de nivel de fila con la puerta de enlace de datos local con la entidad de servicio (versión preliminar)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio (versión preliminar)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)

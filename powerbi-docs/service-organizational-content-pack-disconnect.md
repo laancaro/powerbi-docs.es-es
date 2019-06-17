@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4c9e6a925a783d810bc4d097ec18806c3d33d99
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 62bec222a3f948612db63c386e10c0afe9762bb4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61226571"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66721431"
 ---
 # <a name="remove-your-connection-to-a-power-bi-organizational-content-pack"></a>Eliminación de la conexión a un paquete de contenido organizativo de Power BI
 
@@ -36,6 +36,6 @@ Al quitar el conjunto de datos se quitan todos los informes asociados y los pane
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción a los paquetes de contenido organizativos](service-organizational-content-pack-introduction.md) 
 * [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md) 
-* [Conceptos básicos de Power BI](consumer/end-user-basic-concepts.md)  
+* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)  
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

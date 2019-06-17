@@ -1,6 +1,6 @@
 ---
-title: Suscribirse a usted y a otros a informes y paneles - Power BI
-description: Obtenga información sobre cómo suscribirse a usted y a otros a una instantánea de una página de informe de Power BI, panel o informe paginado.
+title: 'Suscripción personal y de otros usuarios a informes y paneles: Power BI'
+description: Obtenga información sobre cómo se pueden suscribir usted y otros usuarios a una instantánea de una página del informe, un panel o un informe paginado de Power BI.
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -11,16 +11,16 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a344e3cdd93fbd237387b61fb4735b41f22625e3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991132"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498061"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
-Puede suscribirse usted y sus compañeros a las páginas de informes, paneles e informes paginados que más le interesen. Power BI envía un correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o diariamente después de la actualización de los datos iniciales.  Si elige diariamente o semanalmente, puede elegir la hora que le gustaría tener la suscripción que se ejecute.  En resumen, puede establecer hasta 24 suscripciones distintas por día para cada página de informe y panel.
+Tanto usted como sus compañeros de trabajo pueden suscribirse a las páginas del informe, paneles e informes paginados que más le interesen. Power BI envía por correo una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o diariamente después de la actualización de los datos iniciales.  Si se elige la frecuencia diaria o semanal, se puede elegir la hora a la que le gustaría que se ejecutara la suscripción.  En resumen, puede establecer hasta 24 suscripciones distintas por día para cada página de informe y panel.
 
 ![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -30,13 +30,12 @@ Solo se pueden crear suscripciones en el servicio Power BI. Recibirá un correo 
 
 - **Crear** una suscripción es una característica de Power BI Pro.
 - No necesita permisos de edición para el contenido (panel o informe) para crear una suscripción personal, pero debe tener permisos de edición para crear una para otro usuario. 
-- A partir de enero de 2019, ya no es necesario configurar la actualización del conjunto de datos para ejecutar una suscripción.  Se ejecuta de forma independiente a las actualizaciones programadas que haya configurado.  
 
-## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Suscribirse a un panel, una página del informe o un informe paginado
+## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Suscripción a un panel, una página del informe o un informe paginado
 
-Si se suscribe a un panel, informe, o informe paginado, el proceso es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
+El proceso de suscripción a un panel, un informe o un informe paginado es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
 
-Suscribirse a informes paginados es un poco diferente. Consulte [suscribirse usted mismo y a otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md) para obtener más información.
+La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md).
  
 ![Selección del icono de suscripción](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -64,7 +63,7 @@ Suscribirse a informes paginados es un poco diferente. Consulte [suscribirse ust
 7. Haga clic en **Guardar y cerrar**. Los que se hayan suscrito reciben un correo electrónico y una instantánea de la página de panel o informe para la frecuencia y la hora que se hayan seleccionado. En total, puede crear hasta 24 suscripciones por informe o panel, y pueden proporcionar destinatarios, horas y frecuencias únicos para cada suscripción.  Todas las suscripciones establecidas en **Tras la actualización de los datos** para el informe o panel solo enviarán un correo electrónico después de la primera actualización programada.   
       
    > [!TIP]
-   > ¿Quiere enviar el correo electrónico desde una suscripción al instante o a petición en cualquier momento? Haga clic en **Ejecutar ahora** para las suscripciones del panel o informe que quiera enviar. Verá una notificación en la que se indica que hay un correo electrónico en camino para todos los usuarios de esa suscripción concreta.  Puede hacerlo con tanta frecuencia como sea necesario. No cuenta para el límite de 24 ejecuciones de suscripción programadas diariamente por informe o panel. No se desencadena una actualización de datos del conjunto de datos subyacente. 
+   > ¿Quiere enviar el correo electrónico desde una suscripción al instante o a petición en cualquier momento? Haga clic en **Ejecutar ahora** para las suscripciones del panel o informe que quiera enviar. Verá una notificación en la que se indica que hay un correo electrónico en camino para todos los usuarios de esa suscripción concreta.  Puede hacer esto tantas veces como quiera. No cuenta para el límite de 24 ejecuciones de suscripción programadas diariamente por informe o panel. Esto NO desencadena una actualización de datos del conjunto de datos subyacente. 
    > 
    > 
    
@@ -87,10 +86,11 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-* Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios.  No se bloquean las suscripciones a los paneles a través de estos número de mosaicos. Sin embargo, se consideran no compatible si tiene problemas. Considere la posibilidad de modificarlas en consecuencia para que se encuentren dentro de un intervalo admitido.
-* Al configurar las suscripciones de correo electrónico, tenga en cuenta que hay un retraso entre cuando se inicia el trabajo de suscripción y la hora exacta que se envía el correo electrónico.  Para minimizar el retraso entre los dos, configure una hora diferente para la actualización de datos programada que cuando la suscripción de correo electrónico está programada para ejecutarse.
-* Para suscripciones de correo electrónico del panel, si dispone de los iconos de seguridad de nivel de fila (RLS) aplicada, no muestran los iconos.  
-* Para las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, puede crear una suscripción para usted mismo. No se puede suscribir a otros a un informe con la seguridad de nivel de fila (RLS) aplicada.
+* Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios.  Las suscripciones a los paneles a través de estos números de iconos no están bloqueadas. Sin embargo, si se tienen incidencias se consideran no compatibles. Considere la posibilidad de modificarlas según corresponda para que estén comprendidas entre un rango admitido.
+* En este momento es cuando se inicia el trabajo de la suscripción. En determinados escenarios es posible que el correo tarde unos minutos en entregarse a la bandeja de entrada.
+* En raras ocasiones, puede que las suscripciones de correo tarden más de quince minutos en entregarse a los destinatarios. Si esto ocurre, se recomienda ejecutar la actualización de datos y la suscripción de correo en momentos distintos para garantizar la entrega puntual. Si la incidencia persiste, póngase en contacto con el soporte técnico de Power BI.
+* En las suscripciones de correo de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, ese icono no se muestra.  
+* En cuanto a las suscripciones de correo de informe, si el conjunto de datos usa RLS, podrá crear una suscripción para usted. No puede suscribir a otros usuarios a un informe que tenga aplicada la seguridad de nivel de fila (RLS).
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
 * Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.
 * En estos momentos, al suscribir a otros usuarios, no se admiten las suscripciones de correo electrónico relativas a informes o paneles que usen conjuntos de datos con conexión dinámica.
@@ -105,6 +105,6 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Suscribirse a usted y otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md)
+- [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)    
 - [Leer la entrada del blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

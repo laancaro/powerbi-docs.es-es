@@ -11,52 +11,52 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c8789d47ed1b67f9fd6808865514120457a29dfe
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ec70f4c9d6f3e6f51210a32f7efac7f160f462cb
+ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051262"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "66498019"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
 Con el nuevo elemento web de informes de Power BI para SharePoint Online, puede insertar fácilmente informes de Power BI interactivos en páginas de SharePoint Online.
 
-Cuando se usa el nuevo **insertar en SharePoint Online** opción, los informes insertados están completamente seguros, por lo que puede crear fácilmente portales internos seguros.
+Con la nueva opción **Insertar en SharePoint Online**, los informes insertados están completamente seguros para que pueda crear fácilmente portales internos seguros.
 
 ## <a name="requirements"></a>Requisitos
 
-Para **insertar en SharePoint Online** informes funcione, es necesario lo siguiente:
+Para que los informes de **Insertar en SharePoint Online** funcionen, se necesita lo siguiente:
 
-* Una licencia de Power BI Pro o una [capacidad de Power BI Premium (EM o SKU P)](service-premium-what-is.md) con una licencia de Power BI.
+* Una licencia de Power BI Pro o una [capacidad Power BI Premium (EM o P SKU)](service-premium-what-is.md) con una licencia de Power BI.
 * El elemento web de Power BI para SharePoint Online requiere [páginas modernas](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
 
 ## <a name="embed-your-report"></a>Insertar un informe
-Para insertar un informe en SharePoint Online, debe obtener la dirección URL de informe y su uso con nuevo elemento web de Power BI del SharePoint en línea.
+Para insertar un informe en SharePoint Online, se debe obtener la dirección URL del informe y usarla con el elemento web de Power BI de SharePoint Online.
 
-### <a name="get-a-report-url"></a>Obtener una dirección URL de informe
+### <a name="get-a-report-url"></a>Obtención e una dirección URL del informe
 
 1. En Power BI, vea el informe.
 
-2. Seleccione el **archivo** menú desplegable, seleccione **insertar en SharePoint Online**.
+2. Seleccione el menú desplegable **Archivo** y luego seleccione **Insertar en SharePoint Online**.
 
     ![Menú Abrir](media/service-embed-report-spo/powerbi-file-menu.png)
 
-3. Copie la dirección URL de informe desde el cuadro de diálogo.
+3. Copie la dirección URL del informe desde el cuadro de diálogo.
 
     ![Inserción de vínculo](media/service-embed-report-spo/powerbi-embed-link-sharepoint.png)
 
 ### <a name="add-the-power-bi-report-to-a-sharepoint-online-page"></a>Agregar el informe de Power BI a una página de SharePoint Online
 
-1. Abra la página de destino en SharePoint Online y seleccione **editar**.
+1. Abra la página de destino en SharePoint Online y seleccione **Editar**.
 
     ![Página de ediciones de SharePoint](media/service-embed-report-spo/powerbi-sharepoint-edit-page.png)
 
-    O bien, en Sharepoint Online, seleccione **+ nuevo** para crear una nueva página de sitio moderna.
+    O bien, seleccione **+ Nuevo** en SharePoint Online para crear una nueva página de sitio moderna.
 
     ![Nueva página de SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-page.png)
 
-2. Seleccione el **+** lista desplegable y, a continuación, seleccione el **Power BI**.
+2. Seleccione el menú desplegable **+** y, después, seleccione el elemento web **Power BI**.
 
     ![Nuevo elemento web de SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-web-part.png)
 
@@ -64,7 +64,7 @@ Para insertar un informe en SharePoint Online, debe obtener la dirección URL de
 
     ![Nuevo informe de SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-report.png)  
 
-4. Pegue la dirección URL de informe copiado previamente en el **vínculo de informe de Power BI** panel. El informe se carga automáticamente.
+4. Pegue la dirección URL del informe copiado previamente en el panel **Vínculo de informe de Power BI**. El informe se carga automáticamente.
 
     ![Nuevas propiedades del elemento web de SharePoint](media/service-embed-report-spo/powerbi-sharepoint-new-web-part-properties.png)
 
@@ -74,30 +74,30 @@ Para insertar un informe en SharePoint Online, debe obtener la dirección URL de
 
 ## <a name="grant-access-to-reports"></a>Concesión de acceso a los informes
 
-Insertar un informe en SharePoint Online no asignar automáticamente a los usuarios permiso para ver el informe, debe establecer permisos para ver en Power BI.
+Insertar un informe en SharePoint Online no da a los usuarios permiso para ver el informe de forma automática: se necesitan establecer permisos de vista en Power BI.
 
 > [!IMPORTANT]
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
-Hay dos formas de proporcionar acceso a los informes en Power BI. Es la primera forma, si usa un grupo de Office 365 para crear el sitio de grupo SharePoint Online mostrar al usuario como miembro de la **área de trabajo de aplicación dentro del servicio Power BI** y **página de SharePoint**. Para obtener más información, vea [Administración de un área de trabajo de la aplicación](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Hay dos formas de proporcionar acceso a los informes en Power BI. La primera, si se usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, es enumerar a los usuarios como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. Para obtener más información, vea [Administración de un área de trabajo de la aplicación](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
-La segunda consiste en Insertar un informe dentro de una aplicación y compartirlo directamente con los usuarios:  
+La segunda consiste en insertar un informe en una aplicación y compartirla directamente con los usuarios:  
 
-1. El autor (debe ser un usuario Pro) crea un informe en un área de trabajo de aplicación. Para compartir con **usuarios gratuitos de Power BI**, el área de trabajo debe establecerse como un **área de trabajo Premium**.
+1. El autor, que debe ser un Usuario Pro, crea un informe en un área de trabajo de la aplicación. Para compartirla con *usuarios gratuitos de Power BI*, el área de trabajo de la aplicación debe establecerse como un *área de trabajo Premium*.
 
-2. El autor publica la aplicación y lo instala. El autor debe asegurarse de que instale la aplicación para tener acceso a la dirección URL de informe que se usa para insertar en SharePoint Online.
+2. El autor publica la aplicación y la instala. El autor debe instalar la aplicación para que tenga acceso a la dirección URL del informe que se usa para la inserción en SharePoint Online.
 
-3. Ahora todos los usuarios finales también necesitan instalar la aplicación. También puede usar el **instala la aplicación automáticamente** característica, que se puede habilitar en el [portal de administración de Power BI](service-admin-portal.md), para que la aplicación instalada previamente para los usuarios finales.
+3. Ahora todos los usuarios finales también necesitan instalar la aplicación. También se puede usar la característica **Instalar la aplicación automáticamente**, que se puede habilitar en el [portal de administración de Power BI](service-admin-portal.md), con el fin de tener la aplicación preinstalada para los usuarios finales.
 
    ![Instalar aplicación automáticamente](media/service-embed-report-spo/install-app-automatically.png)
 
 4. El autor abre la aplicación y accede al informe.
 
-5. El autor de la copia la dirección URL de informe desde el informe de la aplicación instalada. **No use la dirección URL del informe original desde el área de trabajo.**
+5. El autor copia la dirección URL del informe insertado desde el informe que ha instalado la aplicación. No use la dirección URL del informe original desde el área de trabajo de la aplicación.
 
 6. Cree un sitio del equipo en SharePoint Online.
 
-7. Agregue la URL del informe copiado previamente para el elemento web de Power BI.
+7. Agregue la dirección URL del informe copiada anteriormente en el elemento web de Power BI.
 
 8. Agregue todos los usuarios finales o grupos que van a consumir los datos en la página de SharePoint Online y en la aplicación de Power BI que creó.
 
@@ -108,36 +108,36 @@ Ahora el usuario final puede ir al sitio del equipo en SharePoint Online y ver l
 
 ## <a name="multi-factor-authentication"></a>Autenticación multifactor
 
-Si el entorno de Power BI exige que inicie sesión con la autenticación multifactor, es posible que se le pida que inicie sesión con un dispositivo de seguridad para verificar su identidad. Esto ocurre si no han iniciado sesión SharePoint Online mediante la autenticación multifactor, pero su entorno de Power BI requiere un dispositivo de seguridad para validar una cuenta.
+Si el entorno de Power BI exige que inicie sesión con la autenticación multifactor, es posible que se le pida que inicie sesión con un dispositivo de seguridad para verificar su identidad. Esto ocurre si no se ha iniciado sesión en SharePoint Online mediante la autenticación multifactor, pero el entorno de Power BI requiere un dispositivo de seguridad para validar una cuenta.
 
 > [!NOTE]
-> Azure Active Directory 2.0 no admite la autenticación multifactor, los usuarios verán un mensaje de error. Si el usuario inicia sesión de nuevo en SharePoint Online con su dispositivo de seguridad, podría ver el informe.
+> Power BI no admite todavía la autenticación multifactor con Azure Active Directory 2.0: los usuarios verán un mensaje de error. Si el usuario inicia sesión de nuevo en SharePoint Online con su dispositivo de seguridad, podría ver el informe.
 
 ## <a name="web-part-settings"></a>Configurar el elemento web
 
-A continuación se muestran los valores que puede ajustar para el elemento web de Power BI para SharePoint Online.
+Debajo se muestran la configuración que se puede ajustar para el elemento web de Power BI en SharePoint Online.
 
 ![Propiedades de elementos web del procedimiento almacenado](media/service-embed-report-spo/powerbi-sharepoint-web-part-properties.png)
 
 | Propiedad | Descripción |
 | --- | --- |
-| Nombre de página |Establece la página de predeterminada del elemento web. Seleccione un valor en la lista desplegable. Si no se muestra ninguna página, el informe contiene una página o la dirección URL que pegó contiene un nombre de página. Quite la sección del informe de la dirección URL para seleccionar una página específica. |
-| Pantalla |Ajusta cómo encaja el informe dentro de la página de SharePoint Online. |
+| Nombre de página |Establece la página predeterminada del elemento web. Seleccione un valor en la lista desplegable. Si no se muestra ninguna página, el informe contiene una página o la dirección URL que pegó contiene un nombre de página. Quite la sección del informe de la dirección URL para seleccionar una página específica. |
+| Pantalla |Regula cómo se ajusta el informe en la página de SharePoint Online. |
 | Mostrar panel de navegación |Muestra u oculta el panel de navegación de páginas. |
 | Mostrar el panel de filtro |Muestra u oculta el panel de filtro. |
 
 ## <a name="reports-that-do-not-load"></a>Informes que no se cargan
 
-Si el informe no se carga en el elemento web de Power BI, verá el mensaje siguiente:
+Si el informe no se carga en el elemento web de Power BI, puede que se vea el mensaje siguiente:
 
-![Este contenido no está disponible mensaje](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
+![Mensaje que muestra que este contenido no está disponible.](media/service-embed-report-spo/powerbi-sharepoint-report-not-found.png)
 
 Normalmente, hay dos razones para este mensaje.
 
-1. No tiene acceso a los informes.
+1. No se tiene acceso a los informes.
 2. El informe se eliminó.
 
-Póngase en contacto con el propietario de la página de SharePoint Online para ayudar a resolver el problema.
+Póngase en contacto con el propietario de la página de SharePoint Online para que le ayude a resolver la incidencia.
 
 ## <a name="licensing"></a>Licencias
 
@@ -151,7 +151,7 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
   
   1. Cierre sesión en SharePoint e iníciela de nuevo. Asegúrese de cerrar todas las ventanas del explorador antes de iniciar sesión.
 
-  2. Si su cuenta de usuario requiere autenticación multifactor (MFA), a continuación, inicie sesión en SharePoint con el dispositivo MFA (aplicación de teléfono, tarjeta inteligente, etcetera.).
+  2. Si la cuenta de usuario requiere autenticación multifactor (MFA), inicie sesión en SharePoint con el dispositivo de MFA (aplicación de teléfono, tarjeta inteligente, etc.).
   
   3. No se admiten las cuentas de invitado de Azure B2B. Los usuarios ven el logotipo de Power BI que muestra que el componente se está cargando, pero el informe no aparece.
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2018
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: e4cb314af1522c71de85e4576572acbb1d2e88b3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 04676ee789b90eb09cbed3bafb623e8e9b89e4e4
+ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61239628"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "66720877"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de minoristas para Power BI: Dar un paseo
 
@@ -165,5 +165,5 @@ Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Pregunt
 * [Descargar un archivo ZIP con todos los archivos de ejemplo](http://go.microsoft.com/fwlink/?LinkId=535020)    
 * [Descargar el libro de Excel para este ejemplo de Power BI](http://go.microsoft.com/fwlink/?LinkId=529778)    
 * [Obtener datos (para Power BI)](service-get-data.md)    
-* [Power BI: Conceptos básicos](consumer/end-user-basic-concepts.md)    
+* [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)    
 * ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
