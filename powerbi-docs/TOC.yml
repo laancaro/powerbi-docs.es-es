@@ -703,6 +703,8 @@
               href: service-template-apps-tips.md
             - name: Instalación y distribución de aplicaciones plantilla
               href: service-template-apps-install-distribute.md
+            - name: "Actualización, eliminación y extracción de una aplicación de plantilla de Power\_BI"
+              href: service-template-update-delete-extract.md
         - name: Solucionar problemas
           items:
             - name: ¿Olvidó su contraseña de Power BI?
