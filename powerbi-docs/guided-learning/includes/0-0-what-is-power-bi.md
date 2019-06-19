@@ -31,7 +31,7 @@ Estos tres elementos, **Desktop**, el **servicio** y el destinado a **dispositiv
 ## <a name="how-power-bi-matches-your-role"></a>Adaptación de Power BI a su rol
 Es posible que la forma en que utilice Power BI dependa de su rol en un proyecto o equipo. Por tanto, otras personas con otros roles podrían utilizar Power BI de un modo distinto, lo cual es normal.
 
-Por ejemplo, podría darse el caso de que usted utilizara sobre todo el **servicio Power BI**, mientras que su compañero de trabajo, dedicado a procesar los números y crear informes empresariales, usara **Power BI Desktop** (y publicara informes de Desktop en el servicio Power PI, de forma que usted podría verlos). Y otro compañero de trabajo, en las ventas, principalmente usaría aplicación de teléfono de Power BI para supervisar el progreso en las cuotas de venta y profundizar en los detalles del nuevo cliente potencial.
+Por ejemplo, podría darse el caso de que usted utilizara sobre todo el **servicio Power BI**, mientras que su compañero de trabajo, dedicado a procesar los números y crear informes empresariales, usara **Power BI Desktop** (y publicara informes de Desktop en el servicio Power BI, de forma que usted podría verlos). Y otro compañero de trabajo, en las ventas, principalmente usaría aplicación de teléfono de Power BI para supervisar el progreso en las cuotas de venta y profundizar en los detalles del nuevo cliente potencial.
 
 También podría utilizar cada elemento de **Power BI** en distintos momentos, en función de su objetivo o su rol en un proyecto o trabajo determinados.
 
