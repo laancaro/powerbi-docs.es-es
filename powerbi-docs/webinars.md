@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
+ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750996"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "67389553"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -23,10 +23,6 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
 Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones en directo de preguntas y respuestas.
-
-**Microsoft se ejecuta en Power BI: Uso de Power BI en la tesorería moderna**
-<br>con Pankaj Gudimella y Guru Kirthigavasan
-<br>[Regístrese para verlo el 25 de junio, 10:00 A.M.-11:00 A.M. PST](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Power BI: Cómo obtener información sobre los datos de recursos humanos de Workday**
 <br>con Iman Eftekhari y Julia Paton de Agile Analytics y Shahram Karimi de QBE Insurance
@@ -61,6 +57,10 @@ Empiece por estos seminarios web a petición populares
 **Microsoft Runs on Power BI – Financial Planning & Analysis Made Easy** (Microsoft funciona con Power BI: planificación financiera y análisis simplificados)
 <br>de Cory Hrncirik y Miguel Martinez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-OnDemandRegistration.html?Is=Website)
+
+**Microsoft se ejecuta en Power BI: Uso de Power BI en la tesorería moderna**
+<br>con Pankaj Gudimella y Guru Kirthigavasan
+<br>[Registrarse y ver ahora](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
 
 **Supercharge Your Applications Using the Power BI JavaScript API** (Potenciar sus aplicaciones con la API de JavaScript para Power BI)
 <br>de Nimrod Shalit
@@ -141,17 +141,9 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Stephen Cracknell y Stuart Macanliss (US Medical IT)
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Proven-Techniques-for-Building-Effective-Dashboards-Registration.html?Is=Website)
 
-**Boost Your BI with Location Intelligence** (Mejora de la inteligencia empresarial con inteligencia de ubicación)
-<br>Por Scott Ball de Esri y Enrique Plaza de Microsoft
-<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
-
 **Applied Intelligence for Sales & Services** (Inteligencia aplicada a ventas y servicios)
 <br>de Ed Bobrin, de Avanade
 <br>[Registrarse y ver ahora](https://info.microsoft.com/applied-intelligence-for-sales-service.html?Is=Website)
-
-**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 hábitos de un responsable de tendencias: Rohit Bhargava)
-<br>de Rohit Bhargava de Non-Obvious
-<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 **Manufacturers: Your industry is going through a digital transformation - Maintain leadership by leveraging analytics to maximize profitability** (Fabricantes: el sector está experimentando una transformación digital. Mantenga el liderazgo sacando el máximo partido a los análisis para aumentar la rentabilidad)
 <br>de Jon Thompson (Blue Margin) y Jim Pastor (Elgin Fastener Group)
@@ -160,6 +152,14 @@ Vea las sesiones grabadas en cualquier momento
 **Visualize public or private datasets with the new Power BI and data.world connector** (Visualización de los conjuntos de datos públicos o privados con el nuevo conector de Power BI y data.world)
 <br>de Patrick McGarry y Miguel Martínez
 <br>[Registrarse y ver ahora](https://info.microsoft.com/data-world-connector-powerbi.html?Is=Website)
+
+**Boost Your BI with Location Intelligence** (Mejora de la inteligencia empresarial con inteligencia de ubicación)
+<br>Por Scott Ball de Esri y Enrique Plaza de Microsoft
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-ondeamnd-boost-powerbi-with-arcgis.html?Is=Website)
+
+**5 Habits of a Successful Trend Curator - Rohit Bhargava** (5 hábitos de un responsable de tendencias: Rohit Bhargava)
+<br>de Rohit Bhargava de Non-Obvious
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-5-Habits-of-a-Successful-Trend-Curator-Video.html?LCID=EN-US)
 
 ### <a name="community"></a>Comunidad ###
 
