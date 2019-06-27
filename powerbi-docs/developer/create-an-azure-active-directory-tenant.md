@@ -1,6 +1,6 @@
 ---
 title: Crear un inquilino de Azure Active Directory para su uso con Power BI
-description: Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para su uso con su aplicación personalizada mediante la API de REST de Power BI.
+description: Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para una aplicación personalizada que llama a las API REST de Power BI.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -8,35 +8,33 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 11/30/2017
-ms.openlocfilehash: ae3d15cce7c0beb8122542e3768a0ec10ca0a1ae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 05/28/2019
+ms.openlocfilehash: 73dddd00b6f811cd29c76c97b04136358d6e6b7a
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61381778"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809208"
 ---
 # <a name="create-an-azure-active-directory-tenant-to-use-with-power-bi"></a>Crear un inquilino de Azure Active Directory para su uso con Power BI
 
-Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para su uso con su aplicación personalizada mediante la API de REST de Power BI.
+Aprenda a crear un nuevo inquilino de Azure Active Directory (Azure AD) para una aplicación personalizada que llama a las [API REST de Power BI](rest-api-reference.md).
 
-Un inquilino representa una organización dentro de Azure Active Directory. Es una instancia dedicada del servicio de Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune u Office 365. Cada inquilino de Azure AD es distinto e independiente de otros inquilinos de Azure AD.
+Un inquilino representa a una organización en Azure Active Directory. Es una instancia dedicada del servicio de Azure AD que una organización recibe y posee cuando se suscribe a un servicio en la nube de Microsoft como Azure, Microsoft Intune u Office 365. Cada inquilino de Azure AD es distinto e independiente de otros inquilinos de Azure AD.
 
-Una vez que tenga un inquilino de Azure AD, puede definir una aplicación y asignar permisos para que la aplicación pueda hacer uso de las API de REST de Power BI.
+Una vez que tenga un inquilino de Azure AD, puede definir una aplicación y asignar permisos para que la aplicación pueda llamar a las [API REST de Power BI](rest-api-reference.md).
 
-Es posible que su organización ya tenga un inquilino de Azure AD que puede usar para la aplicación. Puede hacer uso de ese inquilino para las necesidades de su aplicación o puede crear un nuevo inquilino específicamente para ella. Este artículo explica cómo crear un nuevo inquilino.
+Es posible que su organización ya tenga un inquilino de Azure AD que puede usar para la aplicación. También puede crear un nuevo inquilino específicamente para la aplicación. Este artículo explica cómo crear un nuevo inquilino.
 
 ## <a name="create-an-azure-active-directory-tenant"></a>Crear un inquilino de Azure Active Directory
 
-Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD. Para ello, necesita un directorio en Azure AD. Este es el inquilino. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá crear uno](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización. Esto le permitirá mantener las cosas de forma independiente.
+Para integrar Power BI en su aplicación personalizada, debe definir primero una aplicación en Azure AD, lo que requiere un directorio de Azure AD. Este directorio es su *inquilino*. Si su organización aún no tiene un inquilino porque no usa Power BI u Office 365, [deberá configurar un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant). También deberá crear uno si no desea que la aplicación se combine con el inquilino de su organización para mantener los elementos aislados. O bien, puede crear un inquilino solo con fines de prueba.
 
-O bien, puede crear un inquilino solo con fines de prueba.
-
-Para crear un nuevo inquilino de Azure AD, realice lo siguiente.
+Para crear un nuevo inquilino de Azure AD:
 
 1. Vaya a [Azure Portal](https://portal.azure.com) e inicie sesión con una cuenta que tenga una suscripción de Azure.
 
-2. Seleccione el **icono del signo más (+)** y busque *Azure Active Directory*.
+2. Seleccione el **icono del signo más (+)** y busque **Azure Active Directory**.
 
     ![Icono de signo más (+)](media/create-an-azure-active-directory-tenant/new-directory.png)
 
@@ -46,53 +44,58 @@ Para crear un nuevo inquilino de Azure AD, realice lo siguiente.
 
 4. Seleccione **Crear**.
 
-5. Proporcione un **nombre para la organización** junto con el **nombre de dominio inicial**. Después, seleccione **Crear**. Con ello, se creará el directorio.
+5. Proporcione un **Nombre de organización** y un **Nombre de dominio inicial**. Después, seleccione **Crear**. Se ha creado el directorio.
 
     ![Organización y dominio](media/create-an-azure-active-directory-tenant/organization-and-domain.png)
 
    > [!NOTE]
-   > El dominio inicial va a formar parte de onmicrosoft.com. Posteriormente puede agregar otros nombres de dominio. El directorio de un inquilino puede tener varios dominios asignados a él.
+   > El dominio inicial es parte de onmicrosoft.com. Posteriormente puede agregar otros nombres de dominio. El directorio de un inquilino puede tener varios dominios asignados a él.
 
-6. Una vez completada la creación del directorio, active la casilla de información para administrar el nuevo directorio.
+6. Una vez completada la creación del directorio, seleccione el cuadro de información para administrarlo.
 
-Ahora ya se ha creado su directorio. A continuación, vamos a agregar un usuario al inquilino.
+A continuación, va a agregar los usuarios del inquilino.
 
-## <a name="create-some-users-in-your-azure-active-directory-tenant"></a>Creación de algunos usuarios en el inquilino de Azure Active Directory
+## <a name="create-azure-active-directory-tenant-users"></a>Creación de los usuarios de un inquilino de Azure Active Directory
 
-Ahora que tenemos un directorio, vamos a crear al menos dos usuarios. Uno que sea un administrador global del inquilino y otro que va a ser nuestro usuario maestro para realizar la inserción. Considere esto como una cuenta de servicio.
+Ahora que tiene un directorio, vamos a crear al menos dos usuarios. Uno es un administrador global del inquilino y otro es un usuario maestro para la inserción. Se puede considerar este último como una cuenta de servicio.
 
-1. En Azure Portal, asegúrese de que está en la salida de Azure Active Directory.
+1. En Azure Portal, asegúrese de que está en el menú emergente de Azure Active Directory.
 
     ![](media/create-an-azure-active-directory-tenant/aad-flyout.png)
 
     Si no lo está, seleccione el icono de Azure Active Directory en la barra de servicios situada a la izquierda.
 
     ![](media/create-an-azure-active-directory-tenant/aad-service.png)
-2. En **Administrar**, seleccione **Usuarios y grupos**.
+
+2. En **Administrar**, seleccione **Usuarios**.
 
     ![](media/create-an-azure-active-directory-tenant/users-and-groups.png)
+
 3. Seleccione **Todos los usuarios** y, a continuación, seleccione **+ Nuevo usuario**.
-4. Proporcione un nombre y un nombre de usuario para este usuario. Este será el administrador global del inquilino. Puede que también desee cambiar el **Rol del directorio** a *Administrador global*. También puede mostrar la contraseña temporal. Cuando haya terminado, seleccione **Crear**.
+
+4. Proporcione un **Nombre** y un **Nombre de usuario** para el administrador global del inquilino. Cambie el **Rol del directorio** a **Administrador global**. También puede mostrar la contraseña temporal. Cuando haya terminado, seleccione **Crear**.
 
     ![](media/create-an-azure-active-directory-tenant/global-admin.png)
 
-5. Deberá hacer lo mismo de nuevo con un usuario normal del inquilino. Esto se puede utilizar para la cuenta de inserción maestra. En esta ocasión, para **Rol del directorio**, se seleccionará *Usuario*. No olvide anotar la contraseña. Después, seleccione **Crear**.
+5. Realice lo mismo para un usuario del inquilino normal. Puede usar esta cuenta para la cuenta de inserción maestra. En esta ocasión, para **Rol del directorio**, déjelo como **Usuario**. Anote la contraseña y, a continuación, seleccione **Crear**.
 
     ![](media/create-an-azure-active-directory-tenant/pbiembed-user.png)
-6. Regístrese en Power BI con la cuenta de usuario que creó en el paso 5. Puede hacerlo yendo a [powerbi.com](https://powerbi.microsoft.com/get-started/) y seleccionando **Probar gratis** en *Power BI: Colaboración y uso compartido en la nube*.
+
+6. Regístrese en Power BI con la cuenta de usuario que creó en el paso 5. Vaya a [powerbi.com](https://powerbi.microsoft.com/get-started/) y seleccione **Probar gratis** en **Power BI: colaboración y uso compartido en la nube**.
 
     ![](media/create-an-azure-active-directory-tenant/try-powerbi-free.png)
 
-    Al registrarse,se le pedirá que pruebe Power BI Pro gratis durante 60 días. Puede participar para convertirse en un usuario Pro. Ahora también puede empezar a desarrollar una solución insertada si es lo que desea.
+    Al registrarse, se le pedirá que pruebe Power BI Pro gratis durante 60 días. Puede optar por convertirse en un usuario Pro, le ofrece la opción de [empezar a desarrollar una solución insertada](embedding-content.md).
 
    > [!NOTE]
-   > Asegúrese de que se registra con la dirección de correo electrónico que proporcionó para la cuenta de usuario.
+   > Asegúrese de que se registra con la dirección de correo electrónico de la cuenta de usuario.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que tiene un inquilino de Azure AD, puede usarlo para probar los elementos dentro de Power BI, o puede seguir avanzando para insertar paneles e informes de Power BI en la aplicación. Para más información acerca de la inserción de elementos, consulte [Procedimiento para insertar paneles, informes e iconos de Power BI](embedding-content.md).
+Ahora que tiene un inquilino de Azure AD, puede usarlo para probar los elementos de Power BI. También puede insertar informes y paneles de Power BI en la aplicación. Para más información, consulte [Procedimiento para insertar paneles, informes e iconos de Power BI](embedding-content.md).
 
-[¿Qué es un directorio de Azure AD?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis)  
-[Cómo obtener un inquilino de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
+[¿Qué es Azure Active Directory?](https://docs.microsoft.com/azure/active-directory/active-directory-whatis) 
+ 
+[Inicio rápido: Configuración de un entorno de desarrollo](https://docs.microsoft.com/azure/active-directory/develop/active-directory-howto-tenant)  
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

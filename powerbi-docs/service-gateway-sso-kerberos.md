@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2018
 LocalizationGroup: Gateways
-ms.openlocfilehash: eb50d8096c448e1a01533a7d8570e9dcc716ef23
-ms.sourcegitcommit: 8fda7843a9f0e8193ced4a7a0e5c2dc5386059a6
+ms.openlocfilehash: d8cebda3ad0db9fba48804fb8d2dd029c1c07f8d
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/18/2019
-ms.locfileid: "58174991"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809282"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -146,7 +146,7 @@ Por último, en la máquina que ejecuta el servicio de puerta de enlace (**PBIEg
 
     Haga clic con el botón derecho y abra **Propiedades**. Compruebe la lista de cuentas. Debe incluir la cuenta de servicio de la puerta de enlace (**PBIEgwTest\GatewaySvc**).
 
-1. En la lista de directivas de **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)**. Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
+1. En la lista de directivas de **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)** . Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
 
 1. Reinicie el proceso del servicio de la **puerta de enlace de datos local**.
 
@@ -195,9 +195,7 @@ Esta guía trata de ser lo más completa posible. Si ya ha completado algunos de
 ### <a name="set-up-gsskrb5-on-client-machines-and-the-sap-bw-server"></a>Configuración de gsskrb5 en equipos clientes y en el servidor SAP BW
 
 > [!NOTE]
-> SAP ya no ofrece soporte técnico activo para `gsskrb5`. Para obtener más información, consulte la [nota 352295 de SAP](https://launchpad.support.sap.com/#/notes/352295). Tenga en cuenta también que `gsskrb5` no permite conexiones SSO entre la puerta de enlace de datos y los servidores de mensajería SAP BW. Solo es posible establecer la conexión con los servidores de aplicaciones SAP BW.
-
-`gsskrb5` debe estar en uso en el cliente y el servidor para completar una conexión SSO a través de la puerta de enlace. La biblioteca común de criptografía (sapcrypto) no se admite actualmente.
+> SAP ya no ofrece soporte técnico activo para `gsskrb5`. Para obtener más información, consulte la [nota 352295 de SAP](https://launchpad.support.sap.com/#/notes/352295). Tenga en cuenta también que `gsskrb5` no permite conexiones SSO entre la puerta de enlace de datos y los servidores de mensajería SAP BW. Solo es posible establecer la conexión con los servidores de aplicaciones SAP BW. `gsskrb5` debe estar en uso en el cliente y el servidor para completar una conexión SSO a través de la puerta de enlace. Ahora se admite la biblioteca común de criptografía (sapcrypto) para SAP BW.
 
 1. Descargue `gsskrb5` - `gx64krb5` desde [SAP Note 2115486](https://launchpad.support.sap.com/) (es necesario ser usuario-s de SAP). Asegúrese de que tiene al menos la versión 1.0.11.x de gsskrb5.dll y gx64krb5.dll.
 

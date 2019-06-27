@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/11/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 163fc60052c4124e7c6cbac60f1486a185c35f17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0789d7e77e3ae501cc2aec92c366c9c2608edd52
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394855"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839407"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
@@ -27,15 +27,15 @@ Puede probar el control **Mapa de formas** con los mapas que se proporcionan en 
 
 El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, active la casilla **Dar forma a objeto visual de mapa**. Deberá reiniciar Power BI Desktop después de realizar la selección.
 
-![](media/desktop-shape-map/shape-map_1a.png)
+![Habilitar la característica de vista previa del Mapa de formas](media/desktop-shape-map/power-bi-preview-features.png)
 
-Una vez esté habilitado el **mapa de formas**, haga clic en el control **Mapa de formas** del panel **Visualizaciones**.
+Una vez esté habilitado el **Mapa de formas**, seleccione el icono **Mapa de formas** del panel **Visualizaciones**.
 
-![](media/desktop-shape-map/shape-map_2.png)
+![Seleccionar la plantilla para el mapa de formas](media/desktop-shape-map/power-bi-shape-map-template2.png)
 
 Power BI Desktop crea un lienzo de diseño del objeto visual **Mapa de formas** vacío.
 
-![](media/desktop-shape-map/shape-map_3.png)
+![Aparece un mapa de formas vacío en el lienzo](media/desktop-shape-map/shape-map-3.png)
 
 Siga los siguientes pasos para crear un **mapa de formas**:
 
@@ -46,26 +46,23 @@ Siga los siguientes pasos para crear un **mapa de formas**:
    > 
    > 
 
-   ![](media/desktop-shape-map/shape-map_3a.png)
+   ![Crear el mapa de formas](media/desktop-shape-map/shape-map-3a.png)
 2. En el panel de configuración **Formato**, expanda **Forma** y seleccione de la lista desplegable de **Mapas estándares** para mostrar los datos. En este momento, la representación aparece como se muestra en la imagen siguiente.
 
-   ![](media/desktop-shape-map/shape-map_3b.png)
+   ![Abrir el panel de formato y seleccionar Forma](media/desktop-shape-map/shape-map-3b-new.png)
 
    > [!NOTE]
    > En la sección **Claves de región** al final de este artículo hay una colección de tablas que tienen claves de regiones de mapa que puede usar para probar el objeto visual **Mapa de formas**.
    > 
    > 
-3. Después, puede modificar la proyección del mapa y la configuración del zoom, así como los colores de los puntos de datos, desde el panel de configuración **Formato**. También puede modificar la configuración del zoom. Por ejemplo, puede cambiar los colores, establecer máximos y mínimos, etc.
-
-   ![](media/desktop-shape-map/shape-map_3d.png)
-4. También puede agregar una columna de datos de categoría al depósito **Leyenda** y clasificar las regiones de mapa según categorías.
+3. A continuación, puede modificar el mapa mediante las opciones de formato, como **Color predeterminado**, **Zoom** y muchas más. Y también puede agregar una columna de datos de categoría al depósito **Leyenda** y clasificar las regiones del mapa según categorías.
 
 ## <a name="use-custom-maps"></a>Usar mapas personalizados
 Puede usar mapas personalizados con **Mapa de formas** siempre que tengan el formato **TopoJSON**. Si el mapa tiene otro formato, puede usar herramientas en línea, como [**Conformador de mapa**](http://mapshaper.org/), para convertir los *archivos de forma* o los mapas *GeoJSON* al formato **TopoJSON**.
 
 Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap al informe y algunos datos a los cubos *Ubicación* y *Saturación de color*. Después, en el panel **Visualizaciones**, con la sección **Formato** seleccionada (que se muestra como (1) en la imagen siguiente), expanda la sección **Forma** y seleccione **+ Agregar mapa**.
 
-![](media/desktop-shape-map/shape-map_6.png)
+![Abrir el panel de formato y seleccionar Agregar mapa](media/desktop-shape-map/shape-map-6-new.png)
 
 ## <a name="sample-custom-map"></a>Ejemplo de mapa personalizado
 *Offices of the United States Attorneys* publica un informe fiscal anual con datos sobre litigios y la cantidad de procesos judiciales.  Todos sus informes se encuentran en este vínculo:
@@ -74,11 +71,11 @@ https://www.justice.gov/usao/resources/annual-statistical-reports
 
 Como los estados se pueden dividir en varios distritos, es necesario usar un mapa de formas personalizado.  Si importamos el mapa **TopoJSON** de los distritos judiciales de Estados Unidos en **Power BI Desktop**, conseguimos visualizar los datos anuales de los abogados por distrito fiscal.  En la imagen de abajo se muestra un ejemplo de este mapa.
 
-![](media/desktop-shape-map/shape-map_7a.png)
+![Mapa de formas personalizado](media/desktop-shape-map/shape-map-7a.png)
 
 Puede hacer otras cosas interesantes con los mapas de estados individuales y mostrar más detalles en función de los distritos que contiene. 
 
-![](media/desktop-shape-map/shape-map_7b.png)
+![Mapa de formas de Texas](media/desktop-shape-map/shape-map-7b.png)
 
 Si quiere probar con este conjunto de datos y visualización, en este vínculo podrá descargar el archivo PBIX original que se usó para generar este informe.
 
@@ -87,11 +84,11 @@ Si quiere probar con este conjunto de datos y visualización, en este vínculo p
 ## <a name="getting-map-data"></a>Obtener datos de mapa
 Para obtener rápidamente datos en un modelo para que pueda probar **Mapa de formas**, puede copiar una de las tablas al final de este artículo y luego seleccionar **Especificar datos** en la cinta **Inicio**.
 
-![](media/desktop-shape-map/shape-map_4.png)
+![En Desktop, seleccionar Especificar datos](media/desktop-shape-map/shape-map-4-new.png)
 
 Si los datos tienen varias columnas, deberá usar un editor como Excel para pegar los datos y después copiar cada columna de datos por separado. Después, puede pegar los datos en Power BI Desktop. La fila superior se identifica automáticamente como encabezado.
 
-![](media/desktop-shape-map/shape-map_5.png)
+![Crear el panel de tabla](media/desktop-shape-map/shape-map-5.png)
 
 Puede especificar una nueva columna al escribir un nuevo nombre de columna (en la columna en blanco a la derecha) y luego agregar valores en cada celda, igual que puede hacer en Excel. Cuando termine, seleccione **Cargar** y la tabla se agrega al modelo de datos para Power BI Desktop.
 

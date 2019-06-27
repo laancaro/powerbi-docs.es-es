@@ -1,3 +1,11 @@
+---
+ms.openlocfilehash: e24218e2a465619fdfbfc279d3cc45370202dd6e
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814904"
+---
 ## <a name="sign-in-account"></a>Cuenta de inicio de sesión
 
 Los usuarios inician sesión con una cuenta profesional o educativa. Esta cuenta es la **cuenta de la organización**. Si se suscribió a una oferta de Office 365 y no proporcionó la dirección de correo profesional real, se podría parecer a nancy@contoso.onmicrosoft.com. La cuenta se almacena en un inquilino de Azure Active Directory (AAD). En la mayoría de los casos, el UPN de la cuenta AAD coincidirá con la dirección de correo.
@@ -15,33 +23,40 @@ Si tiene problemas de autenticación con el servidor proxy, pruebe a cambiar la 
 
 La puerta de enlace crea una conexión de salida a Azure Service Bus. Se comunica en los puertos de salida: TCP 443 (valor predeterminado), 5671, 5672 y 9350 al 9354.  La puerta de enlace no requiere puertos de entrada.
 
-Se recomienda añadir a la lista de permitidos de su firewall las direcciones IP de su región de datos. Puede descargar la [lista de direcciones IP de los centros de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653), que se actualiza semanalmente. La puerta de enlace usará la dirección IP junto con el nombre de dominio completo (FQDN) para comunicarse con Azure Service Bus. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
+Se recomienda agregar a la lista de permitidos de su firewall las direcciones IP de su región de datos. Puede descargar la [lista de direcciones IP de los centros de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653), que se actualiza semanalmente. O bien puede obtener la lista de los puertos necesarios al realizar la [prueba de puerto de red](../service-gateway-onprem-tshoot.md#network-ports-test) en la aplicación de puerta de enlace de datos en el entorno local. La puerta de enlace usará la dirección IP junto con el nombre de dominio completo (FQDN) para comunicarse con Azure Service Bus. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
+
 
 > [!NOTE]
 > Las direcciones IP que se muestran en la lista de direcciones IP del Centro de datos de Azure están en la notación CIDR. Por ejemplo, 10.0.0.0/24 no significa “de 10.0.0.0 a de 10.0.0.24”. Obtenga más información sobre la [notación CIDR](http://whatismyipaddress.com/cidr).
 
 Aquí se muestra una lista de los nombres de dominio completos utilizados por la puerta de enlace.
 
-| Nombres de dominio | Puertos de salida | Descripción |
-| --- | --- | --- |
-| *.download.microsoft.com |80 |HTTP usado para descargar al instalador. |
-| *.powerbi.com |443 |HTTPS |
-| *.analysis.windows.net |443 |HTTPS |
-| *.login.windows.net |443 |HTTPS |
-| *.servicebus.windows.net |5671-5672 |Advanced Message Queuing Protocol (AMQP) |
-| *.servicebus.windows.net |443, 9350-9354 |Escuchas en Service Bus Relay sobre TCP (requiere el puerto 443 para la adquisición de tokens de Access Control) |
-| *.frontend.clouddatahub.net |443 |HTTPS |
-| *.core.windows.net |443 |HTTPS |
-| login.microsoftonline.com |443 |HTTPS |
-| *.msftncsi.com |443 |Se utiliza para probar la conectividad con Internet si el servicio Power BI no puede alcanzar la puerta de enlace. |
-| *.microsoftonline-p.com |443 |Se utiliza para realizar la autenticación en función de la configuración. |
+| Nombres de dominio | Puertos de salida | Descripción |  |
+|-----------------------------|----------------|--------------------------------------------------------------------------------------------------------------------|---|
+| *.download.microsoft.com | 80 | Se utiliza para descargar al instalador. También lo usa la aplicación de la puerta de enlace de datos para comprobar la versión y la región de la puerta de enlace. |  |
+| *.powerbi.com | 443 | Se utiliza para identificar el clúster de Power BI pertinente. |  |
+| *.analysis.windows.net | 443 | Se utiliza para identificar el clúster de Power BI pertinente. |  |
+| *.login.windows.net | 443 | Se utiliza para autenticar la aplicación de la puerta de enlace de datos con Azure Active Directory / OAuth2. |  |
+| *.servicebus.windows.net | 5671-5672 | Se utiliza para el protocolo Advanced Message Queuing Protocol (AMQP). |  |
+| *.servicebus.windows.net | 443, 9350-9354 | Utilizado por los clientes de escucha en Service Bus Relay sobre TCP (requiere el puerto 443 para la adquisición de tokens de control de acceso). |  |
+| *.frontend.clouddatahub.net | 443 | En desuso: ya no es necesario. Se eliminará de la documentación en el futuro. |  |
+| *.core.windows.net | 443 | Utilizado por los flujos de datos en Power BI para escribir datos en Azure Data Lake. |  |
+| login.microsoftonline.com | 443 | Se utiliza para autenticar la aplicación de la puerta de enlace de datos con Azure Active Directory / OAuth2. |  |
+| *.msftncsi.com | 443 | Se utiliza para probar la conectividad con Internet y si el servicio Power BI no puede alcanzar la puerta de enlace. |  |
+| *.microsoftonline-p.com | 443 | Se utiliza para autenticar la aplicación de la puerta de enlace de datos con Azure Active Directory / OAuth2. |  |
+| | |
 
 > [!NOTE]
-> El tráfico que va a visualstudio.com o visualstudioonline.com es de información de la aplicación y no es necesaria para que funcione la puerta de enlace.
+> Una vez que la puerta de enlace está instalada y registrada, los únicos puertos y direcciones IP requeridas son los que necesita Azure Service Bus (servicebus.windows.net anterior). Puede obtener la lista de los puertos necesarios al realizar la [prueba de puerto de red](../service-gateway-onprem-tshoot.md#network-ports-test) en la aplicación de puerta de enlace de datos en el entorno local.
 
 ## <a name="forcing-https-communication-with-azure-service-bus"></a>Forzar la comunicación HTTPS con Azure Service Bus
 
-Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a través de HTTPS en vez de TCP directo. El uso de HTTPS puede afectar al rendimiento. Para ello, modifique el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, para lo que debe cambiar el valor de `AutoDetect` a `Https`, como se muestra en el fragmento de código que se encuentra inmediatamente después de este párrafo. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\On-premises data gateway*.
+Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a través de HTTPS en vez de TCP directo.
+
+> [!NOTE]
+> A partir de la versión de junio de 2019, el valor predeterminado de las nuevas instalaciones (no las actualizaciones) es HTTPS en lugar de TCP, según las recomendaciones de Azure Service Bus.
+
+Para forzar la comunicación sobre HTTPS, modifique el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, para lo que debe cambiar el valor de `AutoDetect` a `Https`, como se muestra en el fragmento de código que se encuentra inmediatamente después de este párrafo. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\On-premises data gateway*.
 
 ```xml
 <setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">

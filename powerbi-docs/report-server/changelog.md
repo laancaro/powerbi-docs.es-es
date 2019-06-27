@@ -1,7 +1,7 @@
 ---
 title: Registro de cambios del servidor de informes de Power BI
 description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
-ms.author: jtarquino
+ms.author: jaimeta
 author: jtarquino
 manager: kfile
 ms.reviewer: maggies
@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: bb25bfb9b3278ef5eccfd54436a6de430d17677d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65990618"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751116"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -25,31 +25,31 @@ Para obtener información detallada sobre las nuevas características, consulte 
 ## <a name="may-2019"></a>Mayo de 2019
 
 - **Servidor de informes de Power BI**          
-    - *Versión 1.5.7074.36177 (compilación 15.0.1102.371), publicado: 21 de mayo de 2019*
+    - *Versión 1.5.7074.36177 (compilación 15.0.1102.371), fecha de publicación: 21 de mayo de 2019*
         - Correcciones de errores
             - Informes paginados
-                - Corrección para habilitar siempre la incrustación de fuentes de pdf.
-                - Corrección para establecer las cookies enviadas a través de https como seguro
-                - Solucionar problemas con el servidor pop SAI (UPS) debido a errores de script
-                - Corrección de problemas de visualización con la aplicación móvil en teléfonos con Android
-                - Corrección de navegador de tiempo de informe móvil mostrar los números de semana correcto, independientemente del inicio del año Fiscal
-                - Se agregó 'RestrictedResourceMimeTypeForUpload' prohibido propiedad configurable para los administradores especificar los tipos mime
+                - Corrección para habilitar siempre la inserción de fuentes de PDF.
+                - Corrección para establecer las cookies enviadas sobre HTTPS como seguras.
+                - Corrección de incidencias con los elementos emergentes debido a errores de script.
+                - Corrección de incidencias de visualización con la aplicación móvil en teléfonos con Android.
+                - Corrección del navegador de tiempo del informe móvil para mostrar los números de semana correctos, independientemente del inicio del año fiscal.
+                - Se ha agregado la propiedad configurable "RestrictedResourceMimeTypeForUpload" para que los administradores puedan especificar los tipos mime prohibidos.
          - Características
-            - Agregar compatibilidad con objetos visuales de confianza a PBIRS
+            - Se ha agregado compatibilidad con los objetos visuales de confianza a PBIRS.
 
 - **Power BI Desktop (optimizado para Power BI Report Server)**
-    - *Versión: 2.69.5467.1801 (mayo de 2019), publicado: 21 de mayo de 2019*
+    - *Versión: 2.69.5467.1801 (mayo de 2019), publicada el: 21 de mayo de 2019*
         - Correcciones de errores
-            - Corrección para evitar la reentrada de credenciales durante la carga PBIX PBIRS
-            - Correcciones de apertura de documentos con # en el nombre de archivo
-            - Agregó un vínculo de navegación hacia atrás en la ventana de selección de PBIRS más fácil
-            - Corrección para el modo de contraste alto en PBIRS para mostrar botón Atrás, mostrar visuales mensajes de advertencia.
-            - Correcciones de la interfaz de usuario al panel de selección, el escalado del lienzo.
+            - Corrección para evitar la reentrada de credenciales durante la carga de PBIX a PBIRS.
+            - Correcciones en la apertura de documentos con # en el nombre de archivo.
+            - Se ha agregado un vínculo más sencillo para la navegación hacia atrás en la ventana de selección de PBIRS.
+            - Corrección para el modo de Alto contraste en PBIRS para mostrar el botón Atrás, que muestra mensajes visuales de advertencia.
+            - Correcciones de la interfaz de usuario en el panel de selección, escalado del lienzo.
 
 ## <a name="january-2019"></a>Enero de 2019
 
 - **Servidor de informes de Power BI**          
-    - *Versión 1.4.7024.16477 (compilación 15.0.1102.299), publicado: 28 de marzo de 2019*
+    - *Version 1.4.7024.16477 (Compilación 15.0.1102.299), publicada el: 28 de marzo de 2019*
         - Correcciones de errores
             - Informes de Power BI
                 - Corrección del problema con las credenciales básicas al usar una consulta directa en SAP Hana y SAP BW

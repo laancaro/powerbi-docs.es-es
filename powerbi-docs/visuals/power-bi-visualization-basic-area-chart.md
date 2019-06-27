@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 02d81a4ebb92ec199887109c7f2d9afcb6449eda
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe1d2a6f086831a4ae6bd78d8669dce9459bffad
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61393282"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839846"
 ---
 # <a name="basic-area-chart"></a>Gráficos de área básicos
 El gráfico de área básico (también conocido como gráfico de área en capas) se basa en el gráfico de líneas. El área situada entre el eje y la línea se rellena con colores para indicar el volumen. 
@@ -40,7 +40,7 @@ Para continuar, inicie sesión en Power BI y seleccione **Obtener datos \> Ejemp
  
 
 1. En el panel "Ejemplo de análisis de minoristas", seleccione el informe **Total de tiendas** para abrir el informe "Ejemplo de análisis de minoristas".
-2. Seleccione **Editar informe** para abrir el informe en la Vista de edición.
+2. Seleccione **Editar** para abrir el informe en la vista de edición.
 3. Agregue una nueva página del informe mediante el icono de signo de suma de color amarillo (+) de la parte inferior del informe.
 4. Cree un gráfico de área que muestra las ventas de este año y las ventas del año pasado por mes.
    

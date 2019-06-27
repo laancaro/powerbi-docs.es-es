@@ -1,5 +1,5 @@
 ---
-title: Visualizaciones de tarjeta (también conocidas como iconos grandes de números)
+title: Visualizaciones de tarjeta (iconos grandes de números)
 description: Creación de una visualización de tarjeta en Power BI
 author: mihart
 manager: kvivek
@@ -7,20 +7,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/26/2018
+ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 164385fc232774999a21e1870b02fcb59b74ad50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3b773d7c28cb4528edb59a92e07874b53fc9c20
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61153271"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66840054"
 ---
 # <a name="card-visualizations"></a>Visualizaciones de tarjeta
 A veces, un único número es lo más importante que desea seguir en el panel o informe de Power BI, como las ventas totales, la cuota de mercado interanual o el total de oportunidades. Este tipo de visualización se denomina una *tarjeta*. Al igual que con casi todas las visualizaciones nativas de Power BI, se pueden crear tarjetas con el editor de informes o mediante Preguntas y respuestas.
 
-![visualización de tarjetas](media/power-bi-visualization-card/pbi_opptuntiescard.png)
+![visualización de tarjetas](media/power-bi-visualization-card/pbi-opptuntiescard.png)
 
 ## <a name="create-a-card-using-the-report-editor"></a>Creación de una tarjeta con el editor de informes
 Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
@@ -29,11 +29,11 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 
     Power BI crea un gráfico de columnas con un solo número.
 
-   ![](media/power-bi-visualization-card/pbi_rptnumbertilechart.png)
+   ![](media/power-bi-visualization-card/pbi-rptnumbertilechart.png)
 2. En el panel Visualizaciones, seleccione el icono Tarjeta.
 
    ![](media/power-bi-visualization-card/power-bi-templates.png)
-6. Mantenga el puntero sobre la tarjeta y seleccione el icono de anclaje ![](media/power-bi-visualization-card/pbi_pintile.png) para agregar la visualización al panel.
+6. Mantenga el puntero sobre la tarjeta y seleccione el icono de anclaje ![](media/power-bi-visualization-card/pbi-pintile.png) para agregar la visualización al panel.
 
    ![](media/power-bi-visualization-card/power-bi-pin-icon.png)
 7. Ancle el icono a un panel existente o a un nuevo panel.
@@ -49,9 +49,9 @@ Estas instrucciones usan el Ejemplo de análisis de minoristas. Para poder conti
 
 
 ## <a name="create-a-card-from-the-qa-question-box"></a>Creación de una tarjeta a partir del cuadro de Preguntas y respuestas
-El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI desde un panel o informe, y en la vista de informe de Desktop. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) para la versión preliminar de Preguntas y respuestas para los informes de Desktop.
+El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjeta. El cuadro de Preguntas y respuestas está disponible en el servicio Power BI desde un panel o informe, y en la vista de informe de Desktop. Los pasos siguientes describen la creación de una tarjeta desde un panel del servicio Power BI. Si desea crear una tarjeta mediante Preguntas y respuestas en Power BI Desktop, [siga estas instrucciones](https://powerbi.microsoft.com/blog/power-bi-desktop-december-feature-summary/#QandA) para usar Preguntas y respuestas para informes de Power BI Desktop.
 
-1. Cree un [panel](../service-dashboards.md) y [obtenga los datos](../service-get-data.md). Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
+Aquí se usa el [ejemplo Análisis de oportunidades](../sample-opportunity-analysis.md).
 
 1. En la parte superior del panel, comience a escribir lo que quiere saber acerca de los datos en el cuadro de pregunta. 
 
@@ -60,17 +60,17 @@ El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjet
 > [!TIP]
 > Desde un informe del servicio Power BI, en la vista de Edición, haga clic en **Hacer una pregunta** en la barra de menús superior. En un informe de Power BI Desktop, busque algún espacio abierto de un informe y haga doble clic para abrir un cuadro de pregunta.
 
-3. Por ejemplo, escriba "número de oportunidades" en el cuadro de pregunta.
+2. Por ejemplo, escriba "número de oportunidades" en el cuadro de pregunta.
 
    ![](media/power-bi-visualization-card/power-bi-q-and-a.png)
 
    El cuadro de pregunta le ayuda con sugerencias y nuevas instrucciones y, por último, muestra el número total.  
-4. Seleccione el icono de anclaje ![](media/power-bi-visualization-card/pbi_pintile.png) en la esquina superior derecha para agregar la tarjeta a un panel.
+4. Seleccione el icono de anclaje ![](media/power-bi-visualization-card/pbi-pintile.png) en la esquina superior derecha para agregar la tarjeta a un panel.
 
    ![](media/power-bi-visualization-card/power-bi-pin.png)
 5. Ancle la tarjeta, como un icono, a un panel existente o a un nuevo panel.
 
-   * Panel existente: seleccione el nombre del panel en la lista desplegable. Las opciones se limitarán a esos paneles que estén dentro del área de trabajo actual.
+   * Panel existente: seleccione el nombre del panel en la lista desplegable. Las opciones se limitarán solo a esos paneles que estén dentro del área de trabajo actual.
    * Nuevo panel: escriba el nombre del nuevo panel y se agregará al área de trabajo actual.
 6. Seleccione **Anclar**.
 
@@ -79,31 +79,36 @@ El cuadro de Preguntas y respuestas es la manera más fácil de crear una tarjet
    ![](media/power-bi-visualization-card/power-bi-success2.png)
 7. Seleccione **Ir al panel** para ver el nuevo icono. Allí, puede [cambiar el nombre, cambiar el tamaño, agregar un hipervínculo y cambiar la posición del icono](../service-dashboard-edit-tile.md) en el panel, entre otras cosas.
 
-   ![](media/power-bi-visualization-card/power-bi-pinned.png)
+   ![](media/power-bi-visualization-card/power-bi-pinned-2.png)
 
-## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-- Si no ve un cuadro de pregunta, póngase en contacto con el administrador del sistema o del inquilino.    
-- Si está utilizando Desktop y hace doble clic en un espacio vacío de un informe, no se abrirá Preguntas y respuestas, ya que debe habilitarlas.  Seleccione **Archivo > Opciones y configuración > Opciones > Características en vista previa > Preguntas y respuestas** y reinicie Desktop.
+
+
 
 ## <a name="format-a-card"></a>Formateo de una tarjeta
 Tiene muchas opciones para cambiar las etiquetas, el texto, el color, etc. La mejor manera de aprender consiste en crear una tarjeta y explorar el panel de formato. A continuación se indican solo algunas de las opciones de formato disponibles. 
 
-1. Para empezar, haga clic en el icono de rodillo para abrir el panel Formato. 
+El panel de formato está disponible cuando se interactúa con la tarjeta en un informe. Si realiza cambios en una tarjeta en un informe, vuelva a anclarlo para ver los cambios en el panel. 
 
-    ![Tarjeta con el rodillo resaltado](media/power-bi-visualization-card/power-bi-format-card.png)
-2. Expanda **Etiqueta de datos** y cambie el color, el tamaño y la familia de fuentes. Si tuviera miles de tiendas, podría usar **Mostrar unidades** para mostrar el número de tiendas por miles y controlar también las posiciones decimales. Por ejemplo, 125,8 K en lugar de 125 832,00.
+1. Para empezar, seleccione el icono de rodillo para abrir el panel de formato. 
+
+    ![Tarjeta con el rodillo resaltado](media/power-bi-visualization-card/power-bi-format-card-2.png)
+2. Con la tarjeta seleccionada, expanda **Etiqueta de datos** y cambie el color, el tamaño y la familia de las fuentes. Si tuviera miles de tiendas, podría usar **Mostrar unidades** para mostrar el número de tiendas por miles y controlar también las posiciones decimales. Por ejemplo, 125,8 K en lugar de 125 832,00.
 
 3.  Expanda **Etiqueta de categoría** y cambie el color y el tamaño.
 
-    ![Color azul oscuro seleccionado](media/power-bi-visualization-card/power-bi-card-format.png)
+    ![Color azul oscuro seleccionado](media/power-bi-visualization-card/power-bi-card-format-2.png)
 
 4. Expanda **Fondo** y mueva el control deslizante a la posición de activado.  Ahora puede cambiar el color de fondo y la transparencia.
 
-    ![Control deslizante establecido en activado](media/power-bi-visualization-card/power-bi-format-color.png)
+    ![Control deslizante establecido en activado](media/power-bi-visualization-card/power-bi-format-color-2.png)
 
 5. Siga explorando las opciones de formato hasta que la tarjeta esté exactamente cómo le gustaría. 
 
-    ![Tarjeta después de aplicar todo el formato](media/power-bi-visualization-card/power-bi-formatted.png)
+    ![Tarjeta después de aplicar todo el formato](media/power-bi-visualization-card/power-bi-formatted-2.png)
+
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+Si no ve un cuadro de pregunta, póngase en contacto con el administrador del sistema o del inquilino.    
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Gráficos combinados en Power BI](power-bi-visualization-combo-chart.md)

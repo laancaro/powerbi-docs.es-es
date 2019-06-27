@@ -1,43 +1,43 @@
 ---
-title: Auto instalar aplicaciones de Power BI cuando inserte contenido para su organización
-description: Obtenga información sobre cómo automáticamente aplicaciones de instalación de Power BI cuando inserte contenido para su organización.
+title: Instalación automática de aplicaciones de Power BI al insertar contenido para la organización
+description: Obtenga información sobre la instalación automática de aplicaciones de Power BI al insertar contenido para la organización.
 ms.subservice: powerbi-developer
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
-ms.topic: how-to
+ms.topic: conceptual
 ms.service: powerbi
 ms.custom: ''
 ms.date: 04/16/2019
-ms.openlocfilehash: bb9ba5531c2a23f15ccbf98261e246ab7080aecb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 50040731ec5602dc38d9d323fe916e4e2e239d27
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61376221"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751052"
 ---
-# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalar aplicaciones de Power BI automáticamente al insertar contenido para su organización
+# <a name="auto-install-power-bi-apps-when-embedding-for-your-organization"></a>Instalación automática de aplicaciones de Power BI al insertar contenido para la organización
 
-Para insertar contenido desde una aplicación, debe tener el usuario que se insertan [acceso a la aplicación](../service-create-distribute-apps.md). Si la aplicación se instala para el usuario, a continuación, insertar funciona sin problemas. Para obtener más información, consulte [incrustar informes o paneles de la aplicación](embed-from-apps.md). Es posible definir en PowerBI.com que todas las aplicaciones pueden [instala automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel del inquilino y se aplica a todas las aplicaciones.
+Para insertar contenido desde una aplicación, el usuario que realiza la inserción debe tener [acceso a la aplicación](../service-create-distribute-apps.md). Si el usuario tiene instalada la aplicación, la inserción funciona sin problemas. Para más información, consulte [Inserción de informes o paneles desde una aplicación](embed-from-apps.md). En PowerBI.com, se puede definir que todas las aplicaciones se puedan [instalar automáticamente](https://powerbi.microsoft.com/blog/automatically-install-apps/). Sin embargo, esta acción se realiza en el nivel de inquilino y se aplica a todas las aplicaciones.
 
-## <a name="auto-install-app-on-embedding"></a>Instalar automáticamente la aplicación de incrustación
+## <a name="auto-install-app-on-embedding"></a>Instalación automática de aplicaciones al insertar contenido
 
-Si un usuario tiene acceso a una aplicación, pero no está instalada la aplicación, insertar, a continuación, se produce un error. Para evitar estos errores al insertar desde una aplicación, puede permitir instalación automática de la aplicación tras la inserción. Esta acción significa que si no está instalada la aplicación que el usuario intenta insertar, se instala automáticamente para usted. Por lo que el contenido que desea se incrusta inmediatamente, lo que resulta en una experiencia fluida para el usuario.
+Si un usuario tiene acceso a una aplicación pero la aplicación no está instalada, se produce un error en la inserción. Para evitar estos errores al insertar desde una aplicación, puede permitir la instalación automática de la aplicación en la inserción. Esta acción significa que si la aplicación que el usuario intenta insertar no está instalada, se instala automáticamente. Por tanto, el contenido se inserta inmediatamente, lo que resulta en una experiencia fluida para el usuario.
 
-## <a name="embed-for-power-bi-users-user-owns-data"></a>Inserción para usuarios de Power BI (usuario posee los datos)
+## <a name="embed-for-power-bi-users-user-owns-data"></a>Inserción para usuarios de Power BI (el usuario es propietario de los datos)
 
-Para permitir la instalación automática de aplicaciones para los usuarios, debe conceder el permiso "Crear contenido" de la aplicación cuando [registrando su aplicación](register-app.md#register-with-the-power-bi-application-registration-tool), o agréguela si ha registrado la aplicación.
+Para permitir la instalación automática de aplicaciones para los usuarios, debe conceder el permiso "Crear contenido" a la aplicación en el momento del [registro de la aplicación](register-app.md#register-with-the-power-bi-application-registration-tool) o bien agregarlo si ya ha registrado la aplicación.
 
-![Aplicación de registro crea contenido](media/embed-auto-install-app/register-app-create-content.png)
+![Crear contenido en el registro de la aplicación](media/embed-auto-install-app/register-app-create-content.png)
 
-A continuación, deberá proporcionar el identificador de aplicación en la dirección URL. Para proporcionar el identificador de aplicación, el creador de la aplicación en primer lugar debe instalar la aplicación, a continuación, utilice una de las [API de Rest de Power BI](https://docs.microsoft.com/rest/api/power-bi/) llamadas - [obtener informes](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) o [obtener paneles](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). A continuación, el creador de la aplicación debe tomar la dirección Url de la respuesta de API de REST. El identificador de aplicación aparece en la dirección URL si el contenido procede de una aplicación.  Una vez que la dirección URL de inserción, se puede usar para insertar con regularidad.
+A continuación, debe proporcionar el identificador de aplicación en la dirección URL de inserción. Para proporcionar el identificador de aplicación, el creador de la aplicación primero debe instalar la aplicación y, a continuación, usar una de las llamadas a la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/) admitidas: [Get Reports](https://docs.microsoft.com/rest/api/power-bi/reports/getreports) o [Get Dashboards](https://docs.microsoft.com/rest/api/power-bi/dashboards/getdashboards). A continuación, el creador de la aplicación debe tomar la dirección URL de inserción de la respuesta de la API REST. El identificador de aplicación aparece en la dirección URL si el contenido procede de una aplicación.  Una vez que tiene la dirección URL de inserción, se puede usar para la inserción de forma normal.
 
-## <a name="secure-embed"></a>Proteger incrustar
+## <a name="secure-embed"></a>Protección de la inserción
 
-Para usar la instalación automática de aplicaciones, el creador de la aplicación en primer lugar debe instalar la aplicación, a continuación, vaya a la aplicación en PowerBI.com, navegue hasta el informe y obtener el vínculo de manera habitual. Todos los usuarios con acceso a la aplicación que puede usar el vínculo pueden incrustar el informe.
+Para usar la instalación automática de aplicaciones, el creador de la aplicación debe instalar la aplicación, ir a la aplicación en PowerBI.com, ir hasta el informe y obtener el vínculo de la manera habitual. Los demás usuarios con acceso a la aplicación que pueden usar el vínculo, pueden insertar el informe.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-* Solo puede insertar informes y paneles para este escenario.
+* Solo puede insertar informes y paneles en este escenario.
 
-* Esta característica no se admite para la aplicación posee los datos y escenarios de inserción de SharePoint.
+* Esta característica no se admite actualmente para escenarios en los que la aplicación es propietaria de los datos y en la inserción de SharePoint.

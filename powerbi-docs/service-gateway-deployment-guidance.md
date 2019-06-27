@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 12/06/2017
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: e3092c320008df760ef72408c93f601dde26cdef
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
-ms.translationtype: MT
+ms.openlocfilehash: f06632e80bad8796ded3e3616836832967435b24
+ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051152"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66809251"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 
@@ -42,7 +42,7 @@ Hay una restricción en **Power BI** que solo permite *una* puerta de enlace por
 ### <a name="connection-type"></a>Tipo de conexión
 **Power BI** ofrece dos tipos de conexiones: **DirectQuery** e **Importación**. No todos los orígenes de datos admiten ambos tipos de conexión y varias razones pueden contribuir a elegir una frente a otra, como los requisitos de seguridad, rendimiento, límites de datos y tamaños de modelo de datos. Para más información sobre el tipo de conexión y orígenes de datos admitidos consulte la sección *lista de tipos de orígenes de datos disponibles* del artículo [Puerta de enlace de datos local](service-gateway-onprem.md).
 
-Dependiendo de qué tipo de conexión se utiliza, el uso de la puerta de enlace puede ser diferente. Por ejemplo, es conveniente separar los orígenes de datos **DirectQuery** de los orígenes de datos de **Actualización programada** siempre que sea posible (suponiendo que están en diferentes informes y se pueden separar). Si lo hace, impide que la puerta de enlace tenga miles de **DirectQuery** solicitudes en cola, al mismo tiempo como actualización programada de la mañana de un modelo de datos de gran tamaño que se usa para el panel principal de la empresa. Esto es lo que debe tener en cuenta para cada uno de ellos:
+En función del tipo de conexión en uso, la utilización de la puerta de enlace puede ser diferente. Por ejemplo, es conveniente separar los orígenes de datos **DirectQuery** de los orígenes de datos de **Actualización programada** siempre que sea posible (suponiendo que están en diferentes informes y se pueden separar). Al hacerlo así evita que la puerta de enlace tenga miles de solicitudes de **DirectQuery** en cola, al mismo tiempo que la actualización programada de la mañana de un modelo de datos de gran tamaño que se usa para el panel principal de la compañía. Esto es lo que debe tener en cuenta para cada uno de ellos:
 
 * Para **Actualización programada**: según el tamaño de la consulta y el número de actualizaciones que se producen al día, puede elegir entre permanecer con los requisitos mínimos de hardware recomendados o actualizar a una máquina de rendimiento superior. Si una consulta determinada no se dobla, las transformaciones se producen en el equipo de la puerta de enlace y, por lo tanto, la máquina de la puerta de enlace se beneficia de tener más RAM disponible.
 * Para **DirectQuery**: se enviará una consulta cada vez que cualquier usuario abre el informe o examine datos. Por lo que si prevé que más de 1.000 usuarios tendrán acceso a los datos simultáneamente, querrá asegurarse de que el equipo tiene componentes de hardware sólidos y eficaces. Más núcleos de CPU darán como resultado un mejor rendimiento para una conexión **DirectQuery**.
@@ -104,14 +104,34 @@ La puerta de enlace crea una conexión de salida con **Azure Service Bus**. La p
 
 La puerta de enlace *no* requiere puertos de entrada. Todos los puertos necesarios se enumeran en la lista anterior.
 
-Se recomienda añadir a la lista blanca de su firewall las direcciones IP de su región de datos. Puede descargar la lista de direcciones IP, que se encuentran en la [lista de direcciones IP del centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Esa lista se actualiza semanalmente. La puerta de enlace usará la dirección IP especificada junto con el nombre de dominio completo (FQDN) para comunicarse con **Azure Service Bus**. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
+Se recomienda agregar a la lista de permitidos de su firewall las direcciones IP de su región de datos. Puede descargar la lista de direcciones IP, que se encuentran en la [lista de direcciones IP del centro de datos de Microsoft Azure](https://www.microsoft.com/download/details.aspx?id=41653). Esa lista se actualiza semanalmente. La puerta de enlace usará la dirección IP especificada junto con el nombre de dominio completo (FQDN) para comunicarse con **Azure Service Bus**. Si fuerza a la puerta de enlace a comunicarse mediante HTTPS, usará estrictamente solo FQDN y no se producirá ninguna comunicación mediante direcciones IP.
 
 #### <a name="forcing-https-communication-with-azure-service-bus"></a>Forzar la comunicación HTTPS con Azure Service Bus
-Puede obligar a la puerta de enlace a comunicarse con **Azure Service Bus** a través de HTTPS en vez de TCP directo. Si lo hace, se reducirá ligeramente el rendimiento. También puede forzar la puerta de enlace a comunicarse con el **Azure Service Bus** mediante HTTPS a través de la interfaz de usuario de la puerta de enlace (desde la versión de marzo de 2017 de la puerta de enlace).
 
-Para hacerlo, en la puerta de enlace, seleccione **Red** y cambie **Modo de conectividad de Azure Service Bus** a **Activado**.
+Puede obligar a la puerta de enlace a comunicarse con Azure Service Bus a través de HTTPS en vez de TCP directo.
 
-![](media/service-gateway-deployment-guidance/powerbi-gateway-deployment-guidance_04.png)
+> [!NOTE]
+> A partir de la versión de junio de 2019, el valor predeterminado de las nuevas instalaciones (no las actualizaciones) es HTTPS en lugar de TCP, según las recomendaciones de Azure Service Bus.
+
+Para forzar la comunicación sobre HTTPS, modifique el archivo *Microsoft.PowerBI.DataMovement.Pipeline.GatewayCore.dll.config*, para lo que debe cambiar el valor de `AutoDetect` a `Https`, como se muestra en el fragmento de código que se encuentra inmediatamente después de este párrafo. Este archivo se encuentra, de forma predeterminada, en *C:\Archivos de programa\On-premises data gateway*.
+
+```xml
+<setting name="ServiceBusSystemConnectivityModeString" serializeAs="String">
+    <value>Https</value>
+</setting>
+```
+
+El valor del parámetro *ServiceBusSystemConnectivityModeString* distingue mayúsculas de minúsculas. Los valores válidos son *AutoDetect* y *Https*.
+
+Como alternativa, puede forzar a la puerta de enlace a adoptar este comportamiento mediante la interfaz de usuario de la puerta de enlace. En la interfaz de usuario de la puerta de enlace, seleccione **Red** y cambie **Modo de conectividad de Azure Service Bus** a **Activado**.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_01.png)
+
+Una vez cambiado, al seleccionar **Aplicar** (un botón solo aparece cuando se realiza un cambio), el *servicio de puerta de enlace Windows* se reinicia automáticamente, por lo que el cambio puede surtir efecto.
+
+Para referencias futuras puede reiniciar el servicio de *puerta de enlace de Windows* desde el mismo cuadro de diálogo de la interfaz de usuario si selecciona **Configuración del servicio** y *Reiniciar ahora*.
+
+![](./includes/media/gateway-onprem-accounts-ports-more/gw-onprem_02.png)
 
 ### <a name="additional-guidance"></a>Instrucciones adicionales
 Esta sección proporciona instrucciones adicionales para implementar y administrar puertas de enlace.

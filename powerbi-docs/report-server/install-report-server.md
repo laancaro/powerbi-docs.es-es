@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 02104acdbff6e6a1a4e785553b689a3e74183a4d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187731"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839453"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -22,11 +22,11 @@ Aprenda a instalar un servidor de informes de Power BI.
 
 ## <a name="download-power-bi-report-server"></a>Descargar Power BI Report Server
 
-[Descargar Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) desde el centro de descarga de Microsoft.
+[Descargue Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) desde el centro de descarga de Microsoft.
 
-También hay una versión de prueba gratuita. En el [local informes con Power BI Report Server](https://powerbi.microsoft.com/report-server/) página, seleccione **descargar evaluación gratuita**.
+También hay una versión de prueba gratuita. En la página [Generación local de informes con Power BI Report Server](https://powerbi.microsoft.com/report-server/), seleccione **Descargar evaluación gratuita**.
 
-## <a name="before-you-install"></a>Antes de instalar
+## <a name="before-you-install"></a>Antes de la instalación
 
 Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requisitos de hardware y software para instalar el servidor de informes de Power BI](system-requirements.md).
 
@@ -35,12 +35,12 @@ Antes de instalar Power BI Report Server, se recomienda que revise el tema [Requ
 
 ### <a name="power-bi-report-server-product-key"></a>Clave de producto del servidor de informes de Power BI
 
-Puede obtener la clave de producto para Power BI Report Server de dos orígenes diferentes:
+Puede obtener la clave de producto de Power BI Report Server de dos orígenes diferentes:
 
 - Power BI Premium
 - Software Assurance (SA) de SQL Server Enterprise
 
-Siga leyendo para obtener más información.
+Siga leyendo para más información.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
@@ -75,8 +75,8 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
     ![Edición 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
-    En caso contrario, escriba la clave de producto que obtuvo en el servicio Power BI o en el centro de servicio de licencias por volumen. Para obtener más información sobre cómo obtener la clave de producto, consulte el [antes de instalar](#before-you-install) sección anterior.
-4. Lea y acepte los términos de licencia y condiciones, seleccione **siguiente**.
+    En caso contrario, escriba la clave de producto que obtuvo en el servicio Power BI o en el Centro de servicio de licencias por volumen. Para más información sobre cómo conseguir la clave de producto, consulte la sección anterior [Antes de la instalación](#before-you-install).
+4. Lee y acepte los términos y condiciones de la licencia y seleccione **Siguiente**.
 
     ![Términos de la licencia](media/install-report-server/pbireportserver-eula.png)
 5. Debe tener un motor de base de datos disponible para almacenar la base de datos del servidor de informes. Seleccione **Siguiente** para instalar solo el servidor de informes.
@@ -92,7 +92,7 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
     ![Configurar el servidor de informes](media/install-report-server/pbireportserver-configure.png)
 
-## <a name="configure-your-report-server"></a>Configurar el servidor de informes
+## <a name="configure-your-report-server"></a>Configuración del servidor de informes
 
 Después de seleccionar **Configurar el servidor de informes** en el programa de instalación, aparece el Administrador de configuración de Reporting Services. Para más información, consulte [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) (Administrador de configuración de Reporting Services).
 
@@ -153,7 +153,7 @@ Debe abrir el puerto TCP que haya configurado para la dirección URL del servici
 [Información general de administrador](admin-handbook-overview.md)  
 [Ubicación de la clave de producto del servidor de informes](find-product-key.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
-[Verify a reporting services installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Comprobar una instalación de Reporting Services)  
+[Verify a Reporting Services Installation](https://docs.microsoft.com/sql/reporting-services/install-windows/verify-a-reporting-services-installation) (Comprobar una instalación de Reporting Services)  
 [Configure the report server service account](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-the-report-server-service-account-ssrs-configuration-manager) (Configurar la cuenta de servicio del servidor de informes)  
 [Configure report server URLs](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-report-server-urls-ssrs-configuration-manager) (Configurar direcciones URL del servidor de informes)  
 [Configure a report server database connection](https://docs.microsoft.com/sql/reporting-services/install-windows/configure-a-report-server-database-connection-ssrs-configuration-manager) (Configurar una conexión de base de datos del servidor de informes)  

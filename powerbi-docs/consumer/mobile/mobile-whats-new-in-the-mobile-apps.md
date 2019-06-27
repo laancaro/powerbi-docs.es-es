@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 967af5bc560d5312cd26964e5ca6b2b7eafd60d7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d491855a268c57d7958d52b7c1e9e9191c28601e
+ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65991057"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67038898"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -23,16 +23,45 @@ Para obtener información sobre novedades, vea:
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
 
+## <a name="may-2019"></a>Mayo de 2019
+
+### <a name="siri-shortcuts-support-ios"></a>Compatibilidad con los accesos directos de Siri (iOS)
+Los usuarios pueden crear accesos directos de Siri a sus paneles e informes de Power BI y abrirlos directamente desde la interfaz de voz de Siri. [Aprenda a usar accesos directos de Siri en una aplicación iOS de Power BI](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+### <a name="device-search-ios"></a>Búsqueda de dispositivos (iOS)
+Integración de Power BI con la búsqueda en dispositivos iOS (Spotlight). La búsqueda de contenido en iPhone o iPad ahora incluye también los elementos de Power BI. Cuando los usuarios usen la búsqueda nativa del dispositivo, se mostrarán también en los resultados los informes, los paneles, las áreas de trabajo y los usuarios de Power BI que cumplen los criterios de búsqueda. [Visite esta entrada de blog para más información](https://powerbi.microsoft.com/blog/introducing-siri-integration-with-power-bi-mobile-ios-app-preview/).
+
+
+### <a name="single-tap-report-interaction---ga"></a>Interacción con informes con una única pulsación: disponibilidad general
+
+La pulsación única está ahora en versión de disponibilidad general y se convertirá en la interacción táctil predeterminada para los nuevos usuarios. Los usuarios podrán desactivarla y tener la doble pulsación en la configuración de la aplicación.
+
+### <a name="enhanced-conditional-access-protection-ios-android"></a>Protección de acceso condicional mejorada (iOS y Android)
+
+Integración con la [nueva funcionalidad de acceso condicional basado en la protección de aplicaciones](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) de AAD para aumentar la seguridad al limitar el acceso a Power BI antes de aplicar la directiva de aplicación.
+
+### <a name="device-protection-ios"></a>Protección de dispositivos (iOS)
+
+Los usuarios pueden usar la protección de dispositivos integrada para proteger Power BI mediante la solicitud de la identificación Face ID, Touch ID o un código de acceso para acceder a Power BI. El usuario puede controlar este aspecto mediante la configuración de la aplicación y también los administradores mediante Intune y cualquier otra herramienta MDM. [Más información](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-ios-native-secure-access).
+
+### <a name="one-page-report-slideshow-windows"></a>Presentación de informes de una página (Windows)
+
+Se admite la actualización automática también para los informes de una página en una presentación. Por lo tanto, si se actualiza el origen de datos subyacente al informe, se recogerá para actualizar los datos de la página.
+
+
 ## <a name="april-2019"></a>Abril de 2019
 
-### <a name="key-influencers-visual"></a>Influenciadores clave visual 
-Influenciadores clave visual ahora está disponible en la aplicación móvil. Este objeto visual le permite realizar un análisis de los impulsores clave sobre los datos con tan solo unos derivaciones.
+### <a name="key-influencers-visual"></a>Objeto visual de influenciadores clave 
 
-### <a name="add-comments-to-report-content-android-and-ios"></a>Agregar comentarios al contenido del informe (Android e iOS)
-Ahora puede usar los comentarios para colaborar y compartir sus comentarios acerca de las páginas del informe y los objetos visuales. Obtenga más información sobre informes de comentarios en el servicio Power BI y Mobile [en este blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+El objeto visual de influenciadores clave ahora está disponible en la aplicación móvil. Este objeto visual le permite realizar un análisis de los impulsores clave de los datos con tan solo unas pulsaciones.
 
-### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximizar la vista con el modo de pantalla completa (iOS y Android)
-Se ha agregado un botón nuevo que permiten controlar cuándo se debe centrarse en los datos quitando los encabezados del informe y pies de página y que proporciona el espacio máximo para ver los informes.
+### <a name="add-comments-to-report-content-android-and-ios"></a>Adición de comentarios al contenido del informe (Android e iOS)
+
+Ahora puede usar comentarios para colaborar y compartir sus propios comentarios en las páginas del informe y los objetos visuales. Más información sobre la inclusión de comentarios en informes en el servicio Power BI y para dispositivos móviles[en este blog](https://powerbi.microsoft.com/blog/announcing-report-commenting-for-power-bi-service-and-mobile/). 
+
+### <a name="maximize-the-view-with-full-screen-mode-android-and-ios"></a>Maximización de la vista con el modo de pantalla completa (iOS y Android)
+
+Se ha agregado un botón nuevo que permite controlar cuándo se debe centrar en los datos mediante la eliminación de los encabezados y pies de página del informe, lo que proporciona el máximo espacio para ver los informes.
 
 ## <a name="march-2019"></a>Marzo de 2019
 
@@ -42,20 +71,20 @@ Puede acceder a contenido de Power BI compartido con usted de otra organizació
 
 ### <a name="enhancing-windows-presentation-mode-with-slideshow-windows"></a>Mejora del modo de presentación de Windows con presentaciones (Windows)
 
-Con [presentación con diapositivas](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) muestra pública ubicado en la oficina puede usar para ejecutar informes de Power BI en pantalla completa que se automáticamente rotar entre las páginas del informe.  
+Con la [presentación](https://powerbi.microsoft.com/blog/enhancing-presentation-mode-with-slideshow-in-windows-power-bi-app/) puede utilizar pantallas públicas ubicadas en su oficina para ejecutar informes de Power BI en pantalla completa que roten automáticamente entre las páginas del informe.  
 
-### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Compatibilidad con informes RS de PBI a través de la configuración de AD FS y WAP (solo iOS)
+### <a name="supporting-pbi-rs-reports-over-adfs-and-wap-configuration-ios-only"></a>Compatibilidad con informes de PBI-RS mediante la configuración de ADFS y WAP (solo iOS)
 
-Los informes de BI de Power (PBIX) hospedados en RS de PBI a través de configuración de AD FS ahora se puede acceder desde la aplicación de iOS de Power BI.
+Ahora es posible acceder a los informes de Power BI (PBIX) hospedados en PBI-RS mediante la configuración de ADFS desde la aplicación iOS de Power BI.
 
-### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Habilitar la interacción de punteo único con objetos visuales de informes
+### <a name="enabling-single-tap-interaction-with-report-visuals"></a>Habilitación de la interacción de una sola pulsación con los objetos visuales del informe
 
-Hemos cambiado la interacción de informe por lo que requerirá sólo un punteo en un objeto visual, botón o segmentación de datos para interactuar con sus datos de inmediato. Los usuarios ya no tendrán que pulsar en un objeto visual para seleccionarlo y vuelva a pulsar para interactuar con él, hará una sola pulsación ambos.
+Hemos cambiado la interacción del informe para que solo requiera una pulsación en un objeto visual, botón o segmentación para interactuar con sus datos de inmediato. Los usuarios ya no tendrán que pulsar en un objeto visual para seleccionarlo y volver a pulsar para interactuar con él, una sola pulsación realizará ambas acciones.
 
-![Interacción de punteo único](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
+![Interacción de una sola pulsación](./media/mobile-whats-new-in-the-mobile-apps/single-tap-2.gif)
 
 > [!NOTE]
-> Los usuarios existentes deberá activar este comportamiento en la configuración de aplicación. Para obtener más información, consulte el [cómo configurar la interacción de informe único punteo](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap) artículo.
+> Los usuarios existentes deberán activar este comportamiento en la configuración de la aplicación. Para más información, consulte el artículo [Cómo configurar la interacción de una sola pulsación con el informe](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-app-single-tap).
 
 ## <a name="january---february-2019"></a>Enero-febrero 2019
  

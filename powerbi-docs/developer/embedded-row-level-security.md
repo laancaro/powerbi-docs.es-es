@@ -8,13 +8,13 @@ ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.openlocfilehash: 4fc35b88496674206437507ae866e9eb8cb5dd39
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/10/2019
+ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61354142"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823401"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -215,7 +215,7 @@ Estos son los pasos para comenzar a configurar la característica CustomData() c
 
 7. Use las API de Power BI para utilizar la característica CustomData en su aplicación.  Al generar un token con la característica Customdata, es necesario tener un nombre de usuario. El nombre de usuario debe ser igual que el UPN del usuario maestro. El usuario maestro debe ser miembro de los roles que ha creado. Si no se especifica ningún rol, todos los roles de los que es miembro el usuario maestro se usan para la evaluación de RLS.
 
-    Cuando se trabaja con un [serviceprincipal](embed-service-principal.md), también deberá seguir los pasos anteriores en lugar de usar una cuenta maestra. Al generar el token de inserción, use el [Id. de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id) como el nombre de usuario.
+    Cuando trabaje con una [entidad de servicio](embed-service-principal.md) también deberá seguir los pasos anteriores en lugar de usar una cuenta maestra. Al generar el token de inserción, use el [identificador de objeto de la entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id) como el nombre de usuario.
 
     > [!Note]
     > Cuando esté listo para implementar la aplicación en producción, la opción o el campo de la cuenta de usuario maestro no deben ser visible para el usuario final.
@@ -310,7 +310,7 @@ El valor proporcionado en el blob de identidad debe ser un token de acceso váli
 
    ![Registro de la aplicación](media/embedded-row-level-security/token-based-app-reg-azure-portal.png)
 
-## <a name="on-premises-data-gateway-with-service-principal-preview"></a>Puerta de enlace de datos local con entidad de servicio (versión preliminar)
+## <a name="on-premises-data-gateway-with-service-principal"></a>Puerta de enlace de datos local con entidad de servicio
 
 Los clientes que configuran la seguridad de nivel de fila (RLS) con un origen de datos de conexión dinámica local de SQL Server Analysis Services (SSAS) pueden disfrutar de la nueva funcionalidad de [entidad de servicio](embed-service-principal.md) para administrar usuarios y su acceso a los datos de SSAS cuando se integra con **Power BI Embedded**.
 

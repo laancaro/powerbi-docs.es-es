@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 06/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f045e9076cdd8552d6e35e72b9c5f6e2319add68
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b689a4d0718c92608fe7fc0cdb34d27803015269
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65853453"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823531"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -118,7 +118,7 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
-* Explorador de datos de Azure (Kusto)
+* Azure Data Explorer (Kusto)
 * Azure Cost Management (Beta)
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
@@ -133,7 +133,7 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (local)
-* Common Data Service para aplicaciones (Beta)
+* Common Data Service
 * Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,8 +161,11 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Webtrends (Beta)
 * Zendesk (Beta)
 * Origen de datos de Emigo (Beta)
-* IndustrialAppStore (Beta)
+* Entersoft Business Suite (Beta)
+* Industrial App Store
+* Intune Data Warehouse (Beta)
 * Microsoft Graph Security (Beta)
+* Quick Base
 * TeamDesk (Beta)
 
 La imagen siguiente muestra la ventana **Obtener datos** para **Online Services**
@@ -182,15 +185,14 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 * Script de Python
 * ODBC
 * OLE DB
-* BI360 - presupuestaria & Financial Reporting (Beta)
+* BI360: informes presupuestarios y financieros (Beta)
 * Denado
-* Cuadrícula de información (Beta)
+* Information Grid (Beta)
 * Paxata 
 * QubolePresto (Beta)
-* Quick Base (Beta)
 * Roamler (Beta)
 * SurveyMonkey (Beta)
-* Tenforce (Beta)
+* Tenforce (Smart)List (Beta)
 * Dimensiones de Workforce (Beta)
 * Consulta en blanco
 

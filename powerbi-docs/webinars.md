@@ -1,20 +1,20 @@
 ---
 title: Seminarios web de Power BI
 description: Seminarios web de Power BI
-author: maikelson
+author: v-tatero
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/26/2018
-ms.author: maikelson
-ms.openlocfilehash: a2db3f8c88231663ecb115c4609d3af177d96292
-ms.sourcegitcommit: 9da792d470dfe43dc6e15ddef5d471f3f6c50970
+ms.date: 06/01/2019
+ms.author: v-tatero
+ms.openlocfilehash: 1050cf5ee5060a19e4f38b98fb6766b6e5510451
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66453788"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66750996"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -22,7 +22,15 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
+Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones en directo de preguntas y respuestas.
+
+**Microsoft se ejecuta en Power BI: Uso de Power BI en la tesorería moderna**
+<br>con Pankaj Gudimella y Guru Kirthigavasan
+<br>[Regístrese para verlo el 25 de junio, 10:00 A.M.-11:00 A.M. PST](https://info.microsoft.com/Microsoft-Runs-on-Power-BI-Using-Power-BI-in-Modern-Treasury-Registration.html?LCID=EN-US)
+
+**Power BI: Cómo obtener información sobre los datos de recursos humanos de Workday**
+<br>con Iman Eftekhari y Julia Paton de Agile Analytics y Shahram Karimi de QBE Insurance
+<br>[Regístrese para verlo el 27 de junio, 1:30 P.M.-2:30 P.M. PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

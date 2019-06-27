@@ -1,5 +1,5 @@
 ---
-title: Descripción de la vista de diseño de informe en los informes paginados (versión preliminar)
+title: Descripción de la vista de diseño de informe en los informes paginados
 description: La vista de diseño de informe del generador de informes es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 11/05/2018
-ms.openlocfilehash: 2e9c402c09bc6f504729b8d6057ef5052f489f41
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 76c12cf411f49fda9f9fe042a6d1aafa457bf914
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61423361"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839540"
 ---
-# <a name="getting-around-in-report-design-view-for-paginated-reports-preview"></a>Descripción de la vista de diseño de informe en los informes paginados (versión preliminar)
+# <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Descripción de la vista de diseño de informe en los informes paginados
 
-Vista de diseño del informe en el generador de informes de Power BI es el espacio de diseño para crear informes paginados que se pueden publicar en el servicio Power BI. La superficie de diseño está en el centro del generador de informes, con la cinta de opciones y los paneles a su alrededor. La superficie de diseño es donde se agregan y organizan los elementos de informe. En este artículo se explican los paneles que se usan para agregar, seleccionar y organizar los recursos de informe y cambiar las propiedades de los elementos del informe.  
+La vista de diseño de informe del Generador de informes de Power BI es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI. La superficie de diseño está en el centro del generador de informes, con la cinta de opciones y los paneles a su alrededor. La superficie de diseño es donde se agregan y organizan los elementos de informe. En este artículo se explican los paneles que se usan para agregar, seleccionar y organizar los recursos de informe y cambiar las propiedades de los elementos del informe.  
 
 ![Vista de diseño de informe del generador de informes](media/paginated-reports-report-design-view/power-bi-paginated-report-design-view.png)
 
@@ -109,7 +109,7 @@ La barra de estado del informe actual muestra el nombre del servidor al que est�
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[¿Qué son los informes paginados en Power BI Premium? (versión preliminar)](paginated-reports-report-builder-power-bi.md) 
+[¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md) 
 
   
   

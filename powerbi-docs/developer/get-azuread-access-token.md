@@ -8,27 +8,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 02/05/2019
-ms.openlocfilehash: a38547807fbbcf3c76366f32caa46945e57ca8bc
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/04/2019
+ms.openlocfilehash: f0e8a9931248860e11f783d04fead6172559afc1
+ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710319"
+ms.lasthandoff: 06/07/2019
+ms.locfileid: "66814270"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obtención de un token de acceso de Azure AD para la aplicación de Power BI
 
-Obtenga información sobre cómo puede autenticar a los usuarios en la aplicación de Power BI y recuperar un token de acceso para usarlo con la API REST.
+Este artículo muestra cómo puede autenticar a los usuarios en la aplicación de Power BI y recuperar un token de acceso para usarlo con la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/).
 
-Para poder llamar a la API de REST de Power BI, es preciso obtener un **token de acceso de autenticación** de Azure Active Directory (token de acceso). Un **token de acceso** se usa para permitir el acceso de la aplicación a los paneles, iconos e informes de **Power BI**. Para obtener información acerca del flujo del **token de acceso** de Azure Active Directory, consulte [Flujo de concesión de código de autorización de Azure AD](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
+Antes de que la aplicación llame a la API REST, es preciso obtener un **token de acceso de autenticación** de Azure Active Directory (Azure AD). La aplicación usa un token para acceder a los paneles, iconos e informes de Power BI. Para más información, consulte [Autorización del acceso a aplicaciones web de Azure Active Directory mediante el flujo de concesión de código OAuth 2.0](https://docs.microsoft.com/azure/active-directory/develop/v1-protocols-oauth-code).
 
-En función de cómo vaya a insertar el contenido, el token de acceso se recupera de forma diferente. En este artículo se usan dos enfoques distintos.
+En función de cómo vaya a insertar el contenido, el token de acceso se recupera de forma diferente. En este artículo se muestran dos enfoques diferentes.
 
 ## <a name="access-token-for-power-bi-users-user-owns-data"></a>Token de acceso para usuarios de Power BI (el usuario es propietario de los datos)
 
-Este ejemplo tiene validez cuando los usuarios inician sesión de forma manual en Azure AD con su inicio de sesión de la organización. Esta tarea se usa cuando se inserta contenido para los usuarios de Power BI que acceden al contenido que tiene acceso al servicio Power BI.
+Este ejemplo tiene validez cuando los usuarios inician sesión de forma manual en Azure AD con su inicio de sesión de la organización. Esta tarea se utiliza para insertar contenido para los usuarios que tienen acceso al servicio Power BI.
 
-### <a name="get-an-authorization-code-from-azure-ad"></a>Obtener un código de autorización de Azure AD
+### <a name="get-an-azure-ad-authorization-code"></a>Obtención de un código de autorización de Azure AD
 
 El primer paso para obtener un **token de acceso** consiste en obtener un código de autorización de **Azure AD**. Cree una cadena de consulta con las propiedades siguientes y vuelva a **Azure AD**.
 
@@ -54,7 +54,7 @@ var @params = new NameValueCollection
 };
 ```
 
-Después de crear una cadena de consulta, vuelva a **Azure AD** para obtener un **código de autorización**.  A continuación se muestra un método de C# completo para crear una cadena de consulta de **código de autorización** y volver a **Azure AD**. Después obtendrá un **token de acceso** con el **código de autorización**.
+Después de crear una cadena de consulta, vuelva a **Azure AD** para obtener un **código de autorización**.  A continuación se muestra un método de C# completo para crear una cadena de consulta de **código de autorización** y volver a **Azure AD**. A continuación, use el **código de autorización** para obtener un **token de acceso**.
 
 En redirect.aspx.cs, se llama a [AuthenticationContext.AcquireTokenByAuthorizationCode](https://docs.microsoft.com/dotnet/api/microsoft.identitymodel.clients.activedirectory.authenticationcontext.acquiretokenbyauthorizationcodeasync?view=azure-dotnet#Microsoft_IdentityModel_Clients_ActiveDirectory_AuthenticationContext_AcquireTokenByAuthorizationCodeAsync_System_String_System_Uri_Microsoft_IdentityModel_Clients_ActiveDirectory_ClientCredential_System_String_) para generar el token.
 
@@ -98,9 +98,9 @@ protected void signInButton_Click(object sender, EventArgs e)
 
 ### <a name="get-an-access-token-from-authorization-code"></a>Obtener un token de acceso del código de autorización
 
-Ahora debe tener un código de autorización de Azure AD. Una vez que **Azure AD** vuelve a su aplicación web con un **código de autorización**, utiliza el **código de autorización** para obtener un token de acceso. A continuación se muestra un ejemplo de C# que se puede usar en la página de redireccionamiento y el evento Page_Load de la página default.aspx.
+Una vez que **Azure AD** le devuelve a la aplicación web con un **código de autorización**, puede utilizarlo para obtener un token de acceso. A continuación se muestra un ejemplo de C# que se puede usar en la página de redireccionamiento y en el evento `Page_Load` de la página default.aspx.
 
-El espacio de nombres **Microsoft.IdentityModel.Clients.ActiveDirectory** se puede recuperar del paquete NuGet [Biblioteca de autenticación de Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
+Puede recuperar el espacio de nombres **Microsoft.IdentityModel.Clients.ActiveDirectory** del paquete NuGet [Biblioteca de autenticación de Active Directory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/).
 
 ```powershell
 Install-Package Microsoft.IdentityModel.Clients.ActiveDirectory
@@ -165,11 +165,11 @@ protected void Page_Load(object sender, EventArgs e)
 
 ## <a name="access-token-for-non-power-bi-users-app-owns-data"></a>Token de acceso para usuarios que no sean de Power BI (la aplicación es propietaria de los datos)
 
-Este enfoque se usa normalmente para aplicaciones del tipo ISV en las que la aplicación es propietaria del acceso a los datos. Los usuarios no son necesariamente usuarios de Power BI, y la aplicación controla la autenticación y el acceso de los usuarios finales.
+Este enfoque se usa normalmente para aplicaciones del tipo proveedor de software independiente (ISV) en las que la aplicación es propietaria del acceso a los datos. Los usuarios no son necesariamente usuarios de Power BI y la aplicación controla la autenticación y el acceso de los usuarios.
 
 ### <a name="access-token-with-a-master-account"></a>Token de acceso con una cuenta maestra
 
-Para este enfoque, se usa una sola cuenta *maestra* que es un usuario de Power BI Pro. Las credenciales de esta cuenta se almacenan con la aplicación. La aplicación se autentica en Azure AD con esas credenciales almacenadas. El código de ejemplo que se muestra a continuación proviene del [ejemplo de App owns data](https://github.com/guyinacube/PowerBI-Developer-Samples)
+Para este enfoque, se usa una sola cuenta *maestra* que es un usuario de Power BI Pro. Las credenciales de la cuenta se almacenan con la aplicación. La aplicación se autentica en Azure AD con las credenciales almacenadas. El código de ejemplo que se muestra a continuación proviene del [ejemplo de App owns data](https://github.com/guyinacube/PowerBI-Developer-Samples)
 
 ### <a name="access-token-with-service-principal"></a>Token de acceso con la entidad de servicio
 
@@ -199,10 +199,12 @@ m_tokenCredentials = new TokenCredentials(authenticationResult.AccessToken, "Bea
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-* Descargar [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) si experimenta un "'AuthenticationContext' no contiene una definición para 'AcquireToken' y no accesible 'AcquireToken' acepte un primer argumento de tipo ' AuthenticationContext' se encontró (¿falta un uso de la directiva o una referencia de ensamblado?) "error.
+Mensaje de error: "AuthenticationContext no contiene una definición para AcquireToken y no se encontró ningún elemento AcquireToken accesible que acepte un primer argumento del tipo AuthenticationContext (¿falta una directiva de uso o una referencia de ensamblado?)".
+
+   Pruebe a descargar [Microsoft.IdentityModel.Clients.ActiveDirectory](https://www.nuget.org/packages/Microsoft.IdentityModel.Clients.ActiveDirectory/2.22.302111727) si aparece este error.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que tiene el token de acceso, puede llamar a la API de REST de Power BI para insertar contenido. Para obtener información sobre cómo insertar contenido, vea [Inserción de contenido de Power BI](embed-sample-for-customers.md#embed-content-within-your-application).
+Ahora que tiene el token de acceso, puede llamar a la API de REST de Power BI para insertar contenido. Para obtener información, consulte [Cómo insertar el contenido de Power BI](embed-sample-for-customers.md#embed-content-within-your-application).
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

@@ -7,19 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 06/07/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5e4b41b36dfbf6cca14a348268b96eaad21b00e
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
+ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461865"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66816646"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)
 
 La inteligencia empresarial es una actividad de colaboración. Es importante establecer conjuntos de datos estandarizados que puedan ser el "único origen de la verdad". La detección y reutilización de esos conjuntos de datos estandarizados es fundamental. Cuando los expertos en modelos de datos de la organización crean y comparten conjuntos de datos optimizados, los creadores de informes pueden comenzar con esos conjuntos de datos para generar informes precisos. Después, la organización contará con datos coherentes para tomar decisiones, y una cultura de datos en buen estado.
+
+![Selección de un conjunto de datos compartido](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
 Power BI hace que para los creadores de conjuntos de datos sea más fácil certificarlos o promocionarlos para que otros usuarios los puedan detectar. Después, los autores de informes encuentran conjuntos de datos oficiales de calidad que pueden usar en cualquier parte de Power BI. Los propietarios de conjuntos de datos pueden mantener el control de quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
 

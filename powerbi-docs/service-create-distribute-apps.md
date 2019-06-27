@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 67678a150b4fce802bef2b287211cf438b832e82
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
+ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66459573"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "66826607"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -61,9 +61,17 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
    
      ![Navegación de la aplicación](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
-5. En **Permiso**, decida quién tiene acceso a la aplicación y qué puede hacer con ella. 
+5. En **Permisos**, decida quién tiene acceso a la aplicación y qué puede hacer con ella. 
     - En [Áreas de trabajo clásicas](service-create-workspaces.md): todas las personas de la organización, usuarios específicos o grupos de seguridad de Azure Active Directory (AAD).
-    - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de AAD y listas de distribución, y grupos de Office 365.
+    - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de AAD y listas de distribución, y grupos de Office 365. Todos los usuarios del área de trabajo reciben automáticamente acceso a la aplicación para el área de trabajo.
+    - Puede permitir que los usuarios de la aplicación se conecten a los conjuntos de datos subyacentes a la aplicación con el permiso de creación. Estos conjuntos de datos aparecerán en las experiencias de búsqueda de conjuntos de datos.
+    - Puede permitir que los usuarios de la aplicación hagan una copia de los informes de esta aplicación en su área de trabajo. 
+    
+    >[!IMPORTANT]
+    >Si la aplicación se basa en conjuntos de datos de otras áreas de trabajo, es responsabilidad suya asegurarse de que todos los usuarios de la aplicación tienen acceso a los conjuntos de datos subyacentes.
+> 
+>     
+
 
 6. Puede instalar la aplicación de forma automática para los destinatarios, si el administrador de Power BI ha habilitado esta opción automáticamente en el Portal de administración de Power BI. Obtenga más información sobre [la instalación automática de una aplicación](#automatically-install-apps-for-end-users) en este artículo.
 
@@ -151,6 +159,14 @@ Estos son aspectos que debe tener en cuenta al publicar aplicaciones para los us
 * Intente no abrumar a los usuarios. Tenga cuidado de no insertar demasiadas aplicaciones para que los usuarios perciban que las aplicaciones preinstaladas son útiles. Es mejor controlar quién puede insertar aplicaciones para los usuarios finales a fin de coordinar la programación. Establezca un punto de contacto para insertar las aplicaciones de la organización para los usuarios finales.
 
 * A los usuarios invitados que no hayan aceptado una invitación no se les instalarán las aplicaciones de forma automática.  
+
+## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Concesión de permiso a los usuarios para conectarse a los conjuntos de datos subyacentes a la aplicación
+Si activa la opción para permitir que todos los usuarios se conecten a los conjuntos de datos subyacentes a la aplicación, los usuarios de la aplicación reciben el permiso de creación en el conjunto de datos subyacente. Esto permite a los usuarios [usar los conjuntos de datos de la aplicación en distintas áreas de trabajo](service-datasets-across-workspaces.md) para buscar dichos conjuntos de datos en Power BI Desktop y el servicio obtiene experiencias de datos y para crear informes y paneles con estos conjuntos de datos. 
+
+Cuando desactiva esta opción, los usuarios nuevos que agregue a la aplicación ya no tendrán los permisos de creación. Sin embargo, los permisos existentes en los conjuntos de datos subyacentes no cambian. Puede usar la interfaz de usuario proporcionada para eliminar el permiso de creación manualmente de los usuarios de la aplicación que ya no deban tenerlo. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Permitir a los usuarios hacer una copia de los informes de la aplicación
+Activando la opción **Permitir a los usuarios hacer una copia de los informes de esta aplicación**, permitirá que los usuarios guarden cualquiera de los informes de la aplicación en sus áreas de trabajo. A continuación, los usuarios pueden personalizar los informes según sus necesidades específicas. Esta opción requiere que la opción **Permitir que todos los usuarios se conecten a los conjuntos de datos subyacentes a la aplicación mediante el permiso de creación** esté habilitada. Esta funcionalidad se comporta como la nueva funcionalidad [copiar informes desde otras áreas de trabajo](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Cancelar la publicación de una aplicación
 Cualquier miembro de un área de trabajo de la aplicación puede cancelar la publicación de la aplicación.

@@ -10,14 +10,14 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 1b0386d523e4a89b7687506564f575e31b55f2e7
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 97903b4e6f906f2cb09f6285832ad6eb9a5a8dca
+ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720342"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "66823303"
 ---
-# <a name="service-principal-with-power-bi-preview"></a>Entidad de servicio con Power BI (versión preliminar)
+# <a name="service-principal-with-power-bi"></a>Entidad de servicio con Power BI
 
 Con una **entidad de servicio**, puede insertar contenido de Power BI en una aplicación y usar la automatización con Power BI mediante un token **de solo aplicación**. La entidad de servicio es útil cuando se usa **Power BI Embedded** o al **automatizar procesos y tareas de Power BI**.
 
@@ -94,7 +94,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
    > [!Important]
    > Después de habilitar la entidad de servicio para usarla con Power BI, los permisos de AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
 
-2. Cree un [grupo de seguridad en Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) y agregue a ese grupo la aplicación que ha creado. Puede crear un grupo de seguridad de AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Recomendado**: cree un [grupo de seguridad en Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) y agregue la aplicación que ha creado a ese grupo de seguridad. Puede crear un grupo de seguridad de AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     A continuación se muestra un script de ejemplo para crear un grupo de seguridad y agregarle una aplicación.
 
@@ -109,7 +109,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
     Add-AzureADGroupMember -ObjectId $($group.ObjectId) -RefObjectId $($sp.ObjectId)
     ```
 
-3. Como administrador de Power BI, tendrá que habilitar la entidad de servicio en la **configuración de desarrollador** en el portal de administración de Power BI. Agregue el grupo de seguridad que ha creado en Azure AD a la sección **Grupos de seguridad específicos** de **Configuración de desarrollador**.
+3. Como administrador de Power BI, tendrá que habilitar la entidad de servicio en la **configuración de desarrollador** en el portal de administración de Power BI. Agregue el grupo de seguridad que ha creado en Azure AD a la sección de grupos de seguridad específicos en la **Configuración del desarrollador**. También puede habilitar el acceso de la entidad de servicio a toda la organización. En ese caso, no es necesario el paso 2.
 
    > [!Important]
    > Las entidades de servicio tienen acceso a las configuraciones de inquilino que están habilitadas para toda la organización o para grupos de seguridad que tienen entidades de servicio como parte del grupo. Para restringir el acceso de entidades de servicio a determinada configuración de inquilino, permita el acceso únicamente a grupos de seguridad específicos o cree un grupo de seguridad dedicado con las entidades de servicio y exclúyalo.
@@ -181,4 +181,4 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 * [Registro de una aplicación](register-app.md)
 * [Power BI Embedded para los clientes](embed-sample-for-customers.md)
 * [Objetos de aplicación y de entidad de servicio de Azure Active Directory](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals)
-* [Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio (versión preliminar)](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal-preview)
+* [Seguridad de nivel de fila mediante puerta de enlace de datos local con entidad de servicio](embedded-row-level-security.md#on-premises-data-gateway-with-service-principal)

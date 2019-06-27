@@ -1,5 +1,5 @@
 ---
-title: 'Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)'
+title: 'Tutorial: Creación de un informe paginado y su carga en el servicio Power BI'
 description: En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente en el generador de informes para crear un informe paginado. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: tutorial
 ms.date: 11/06/2018
-ms.openlocfilehash: e7baff9a6427578266e08e7bde91be664e46edb9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 44af74b722e5d21c7475a382f8097f453854230d
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "60990113"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839736"
 ---
-# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service-preview"></a>Tutorial: Crear un informe paginado y cargarlo en el servicio Power BI (versión preliminar)
+# <a name="tutorial-create-a-paginated-report-and-upload-it-to-the-power-bi-service"></a>Tutorial: Creación de un informe paginado y su carga en el servicio Power BI
 
-En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. A continuación, usar a un asistente en el generador de informes de Power BI para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI. Los informes paginados del servicio Power BI actualmente se encuentran en versión preliminar.
+En este tutorial, se conecta a una instancia de ejemplo de Azure SQL Database. Después, se usa un asistente del Generador de informes de Power BI para crear un informe paginado con una tabla que se ajusta a varias páginas. Luego se carga el informe paginado en un área de trabajo con una capacidad Premium en el servicio Power BI.
 
 ![Informe paginado en el servicio Power BI](media/paginated-reports-quickstart-aw/power-bi-paginated-report-service.png)
 
@@ -26,7 +26,7 @@ Estos son los pasos que se deben completar en este tutorial:
 
 > [!div class="checklist"]
 > * Cree una base de datos de ejemplo de Azure.
-> * Crear una matriz en el generador de informes de Power BI con la Ayuda de un asistente.
+> * Cree una matriz en el Generador de informes de Power BI con la ayuda de un asistente.
 > * Aplique formato al informe con títulos, números de página y encabezados de columna en cada página.
 > * Aplique formato a la moneda.
 > * Cargue el informe en el servicio Power BI.
@@ -37,7 +37,7 @@ Si no tiene ninguna suscripción a Azure, cree una [cuenta gratuita](https://azu
 
 Estos son los requisitos previos para crear el informe paginado:
 
-- Instalar [Power generador de informes de BI desde el centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
+- Instale el [Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513). 
 
 - Siga la guía de inicio rápido [Creación de una instancia de ejemplo de Azure SQL Database en Azure Portal](https://docs.microsoft.com/azure/sql-database/sql-database-get-started-portal). Copie y guarde el valor en el cuadro **Nombre del servidor** en la pestaña **Introducción**. Recuerde el nombre de usuario y la contraseña que creó en Azure.
 
@@ -48,7 +48,7 @@ Estos son los requisitos previos para cargar el informe paginado en el servicio 
 
 ## <a name="create-the-matrix-with-a-wizard"></a>Creación de la matriz con un asistente
   
-1.  Inicie el generador de informes de Power BI desde su equipo.  
+1.  Inicie el Generador de informes de Power BI desde el equipo.  
   
      Se abre el cuadro de diálogo **Introducción**.  
   
@@ -287,7 +287,7 @@ Una mejora más del formato antes de publicar el informe en el servicio Power BI
 
 Ahora que ha creado este informe paginado, es el momento de cargarlo en el servicio Power BI.
 
-1. En el panel de navegación izquierdo (http://app.powerbi.com)) del servicio Power BI, seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**.
+1. En el panel de navegación izquierdo (http://app.powerbi.com) ) del servicio Power BI, seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**.
 
 2. Asigne al área de trabajo el nombre **Azure AW** u otro nombre exclusivo. Es el único miembro por ahora. 
 
@@ -329,5 +329,5 @@ Ahora que ha creado este informe paginado, es el momento de cargarlo en el servi
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[¿Qué son los informes paginados en Power BI Premium? (versión preliminar)](paginated-reports-report-builder-power-bi.md)
+[¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 

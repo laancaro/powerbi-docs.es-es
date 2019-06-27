@@ -1,5 +1,5 @@
 ---
-title: Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar)
+title: Escritura directa de datos en un informe paginado en el Generador de informes
 description: En este artículo, verá cómo puede escribir datos directamente en un informe paginado en el Generador de informes.
 author: maggiesMSFT
 ms.author: maggies
@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 11/19/2018
-ms.openlocfilehash: 3237f4751083f374ac00a959f226429b17757b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/06/2019
+ms.openlocfilehash: fd000ffd0d47935f36e72f6d0000d548623edf0a
+ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61424549"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "66839086"
 ---
-# <a name="enter-data-directly-in-a-paginated-report-in-report-builder-preview---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes (versión preliminar): Power BI
+# <a name="enter-data-directly-in-a-paginated-report-in-report-builder---power-bi"></a>Escritura directa de datos en un informe paginado en el Generador de informes: Power BI
 
 En este artículo, obtendrá información sobre una característica de la nueva versión del Generador de informes de SQL Server 2016 que le permite escribir datos directamente en un informe RDL como un conjunto de datos insertado.  Esta característica es similar a Power BI Desktop. Puede escribir los datos directamente en un conjunto de datos del informe o pegarlos desde otro programa como Microsoft Excel. Después de escribir los datos para crear un conjunto de datos, puede usarlo tal como lo haría con cualquier otro conjunto de datos insertado que haya creado. Además, puede agregar más de una tabla y usar una como un filtro de la otra. Esta característica es especialmente útil para conjuntos de datos pequeños y estáticos que puede que deba usar en el informe, como los parámetros de informe.
  
@@ -76,7 +76,7 @@ Puede usar el conjunto de datos como base para las visualizaciones de datos en e
 
 ## <a name="upload-the-paginated-report-to-the-power-bi-service"></a>Carga del informe paginado en el servicio Power BI
 
-Ahora que se admiten informes paginados en el servicio Power BI en versión preliminar, puede cargar el informe paginado en una capacidad Premium. Vea [Carga de un informe paginado](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) para obtener más información.
+Ahora que se admiten informes paginados en el servicio Power BI, puede cargar el informe paginado en una capacidad Premium. Vea [Carga de un informe paginado](paginated-reports-save-to-power-bi-service.md#upload-a-paginated-report) para obtener más información.
 
 ## <a name="upload-the-paginated-report-to-a-report-server"></a>Carga del informe paginado en un servidor de informes
 
@@ -98,5 +98,5 @@ Eso es todo, ya puede publicar informes que usen esta nueva funcionalidad en su 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [¿Qué son los informes paginados en Power BI Premium? (versión preliminar)](paginated-reports-report-builder-power-bi.md)
+- [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
 - [¿Qué es Power BI Report Server?](report-server/get-started.md)
