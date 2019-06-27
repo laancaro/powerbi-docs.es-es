@@ -10,14 +10,15 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 083d78552c124c3a53d669357678fb473dfcd5f2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0a80a75765d6e25f42163953e28b544171e8fdb2
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514557"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408335"
 ---
 # <a name="troubleshooting-analyze-in-excel"></a>Solución de problemas de Analizar en Excel
+
 Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. Esta página proporciona soluciones para problemas comunes al utilizar Analizar en Excel.
 
 > [!NOTE]
@@ -57,8 +58,6 @@ Puede descargar la versión más reciente de las bibliotecas del proveedor OLE D
 Si las bibliotecas de cliente de proveedor OLE DB de Excel están actualizadas, verá un cuadro de diálogo similar al siguiente:
 
 ![](media/desktop-troubleshooting-analyze-in-excel/troubleshoot-analyze-excel_3.png)
-
-C:\Users\davidi\Desktop\powerbi-Content-pr\articles\media\powerbi-Desktop-Troubleshooting-ANALYZE-in-Excel
 
 Como alternativa, si la nueva versión que está instalando es más reciente que la versión en el equipo, aparecerá el cuadro de diálogo siguiente:
 
