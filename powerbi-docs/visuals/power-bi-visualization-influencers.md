@@ -1,340 +1,340 @@
 ---
 title: Tutorial de visualizaciones de influenciadores clave
-description: 'Tutorial: Crear una visualización de influenciadores clave en Power BI'
+description: 'Tutorial: Creación de una visualización de influenciadores clave en Power BI'
 author: mihart
 manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
-ms.component: powerbi-service
+ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8d2d6755d01a8ea9d5dad9813fcd7f4b4c1f8232
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
+ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051614"
+ms.lasthandoff: 06/06/2019
+ms.locfileid: "66751256"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
-Los influenciadores clave visuales le ayudará a comprender los factores de esa unidad una métrica que le interesa. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, suponga que desea averiguar qué influencias de rotación de empleados, que es también conocida como renovación. Uno de los factores podría ser la longitud de contrato de empleo, y otro factor que podría ser la edad del empleado. 
+El objeto visual de influenciador clave le ayudará a reconocer los factores que controlan una métrica de su interés. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, suponga que desea averiguar qué influye en la rotación de los empleados, lo que también se conoce como abandono. La duración del contrato de empleo puede ser uno de los factores, mientras que otro puede ser la edad del empleado. 
  
-## <a name="when-to-use-key-influencers"></a>Cuándo usar a influenciadores clave 
-El objeto visual de influenciadores clave es una excelente opción si desea: 
-- Vea qué factores afectan a la métrica que se está analizada.
-- Compare la importancia relativa de estos factores. Por ejemplo, ¿los contratos a corto plazo tienen más impacto en el abandono que los contratos a largo plazo? 
+## <a name="when-to-use-key-influencers"></a>Cuándo se deben usar los influenciadores clave 
+El objeto visual de influenciador clave es una excelente opción si desea: 
+- Ver qué factores afectan a la métrica que se está analizando.
+- Comparar la importancia relativa de estos factores. Por ejemplo, ¿los contratos a corto plazo tienen más impacto en el abandono que los contratos a largo plazo? 
 
 ## <a name="key-influencer-requirements"></a>Requisitos de los influenciadores clave 
-La métrica que analiza debe ser un campo de categoría o numérico (agregados y las medidas no todavía admiten).
+La métrica que analice debe ser un campo categórico o numérico (aún no se admiten agregados ni medidas).
 
-## <a name="features-of-the-key-influencers-visual"></a>Características de los influenciadores clave visuales
+## <a name="features-of-the-key-influencers-visual"></a>Características del objeto visual de influenciador clave
 
-![Número de características](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
+![Características numeradas](media/power-bi-visualization-influencers/power-bi-ki-numbers-new.png)
 
-1. **Pestañas**: Seleccione una ficha para cambiar entre vistas. **Clave influenciadores** muestra los principales colaboradores en el valor de métrica seleccionado. **Principales segmentos** muestra los segmentos principales que contribuyen al valor de métrica seleccionado. Un *segmento* está formado por una combinación de valores. Por ejemplo, un segmento podría ser los consumidores que han sido los clientes durante al menos 20 años y residen en la región Oeste. 
+1. **Pestañas**: seleccione una pestaña para alternar entre las vistas. La opción **Influenciadores clave** muestra los principales factores que contribuyen al valor de la métrica seleccionada. La opción **Segmentos principales** muestra los segmentos principales que contribuyen al valor de la métrica seleccionada. Un *segmento* está formado por una combinación de valores. Por ejemplo, un segmento puede estar integrado por los consumidores que han sido clientes durante veinte años como mínimo y residen en la región occidental. 
 
-2. **Cuadro de lista desplegable**: El valor de la métrica está investigando. En este ejemplo, examine la métrica **clasificación**. El valor seleccionado es **bajo**.
+2. **Cuadro de lista desplegable**: el valor de la métrica que se está investigando. En este ejemplo, veamos la métrica **Calificación**. El valor seleccionado es **Baja**.
 
-3. **Redefinición**: Le ayuda a interpretar el objeto visual en el panel izquierdo.
+3. **Redefinición**: nos ayuda a interpretar el objeto visual en el panel izquierdo.
 
-4. **Panel izquierdo**: El panel izquierdo contiene un objeto visual. En este caso, el panel izquierdo muestra una lista de los influenciadores clave superiores.
+4. **Panel izquierdo**: el panel izquierdo contiene un objeto visual. En este caso, el panel izquierdo muestra una lista de los principales influenciadores clave.
 
-5. **Redefinición**: Le ayuda a interpretar el objeto visual en el panel derecho.
+5. **Redefinición**: nos ayuda a interpretar el objeto visual en el panel derecho.
 
-6. **Panel derecho**: El panel derecho contiene un objeto visual. En este caso, el gráfico de columnas muestra todos los valores para la persona con influencia clave **tema** que seleccionó en el panel izquierdo. El valor específico de **facilidad de uso** en el panel izquierdo se muestra en verde. Todos los valores de **tema** se muestran en color negro.
+6. **Panel derecho**: el panel derecho contiene un objeto visual. En este caso, el gráfico de columnas muestra todos los valores del influenciador clave, **Tema**, que está seleccionado en el panel izquierdo. El valor específico de **facilidad de uso** en el panel izquierdo se muestra en verde. Todos los valores de **Tema** se muestran en color negro.
 
-7. **Línea promedio**: Se calcula el promedio para todos los otros valores posibles para **tema** excepto **facilidad de uso**. Por lo tanto, el cálculo se aplica a todos los valores de color negro. Indica qué porcentaje de los demás **temas** le dio la clasificación de gravedad baja. En otras palabras, cuando se especifica una clasificación por un cliente, ese cliente también describe el motivo o el tema para la clasificación. Algunos de estos temas son la facilidad de uso, velocidad y seguridad. 
+7. **Línea promedio**: el promedio se calcula para todos los otros valores posibles de **Tema**, excepto **facilidad de uso**. Por lo tanto, el cálculo se aplica a todos los valores de color negro. Nos indica qué porcentaje de los demás **Temas** ha dado como resultado una calificación baja. En otras palabras, cuando un cliente da una calificación, el cliente también describe el motivo o el tema de la calificación. Algunos de estos temas son la facilidad de uso, la velocidad, la seguridad, etc. 
 
-   **Tema es la facilidad de uso** es la persona con influencia clave segunda mayor para la clasificación de gravedad baja, según el objeto visual en el panel izquierdo. Si calcula la media de todos los temas y su contribución a una clasificación de **baja**, obtendrá el resultado se muestra en rojo. De todos los demás temas dado, sólo 11.35% son mayor que **facilidad de uso**.
+   **Tema es facilidad de uso** corresponde al segundo influenciador clave más importante para una calificación baja, según el objeto visual en el panel izquierdo. Si hacemos un promedio de todos los otros temas y su contribución a una calificación **baja**, obtenemos el resultado que se muestra en rojo. De todos los demás temas dados, solo el 11,35 % son mayores que **facilidad de uso**.
 
-8. **Casilla de verificación**: **Mostrar solo los valores que son personas con influencia**.
+8. **Casilla de verificación**: **Mostrar solo los valores que son influenciadores**.
 
 ## <a name="create-a-key-influencers-visual"></a>Creación de un objeto visual de influenciadores clave 
  
-Vea este vídeo para aprender a crear a un influenciadores clave visual. A continuación, siga estos pasos para crear uno. 
+Vea este vídeo para aprender a crear a objetos visuales de influenciador clave. A continuación, siga estos pasos para crear uno. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-El jefe de producto desea averiguar que factores clientes potenciales a los clientes para dejar las revisiones negativo sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+El director de producto quiere averiguar qué factores conducen a los clientes a dejar reseñas negativas sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
 
 > [!NOTE]
-> El conjunto de datos de comentarios del cliente es S. Moro, P. Cortez y P. Rita basándose en [Moro et al, 2014]. "Un controladas por datos enfoque para predecir el éxito del banco Telemarketing." *Compatibilidad con sistemas de decisión*, Elsevier, 62:22-31, junio de 2014. 
+> El conjunto de datos de comentarios del cliente se basa en [Moro et al., 2014] S. Moro, P. Cortez y P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." *Decision Support Systems*, Elsevier, 62:22-31, junio de 2014. 
 
-1. Abra el informe y seleccione el **clave influenciadores** icono. 
+1. Abra el informe y seleccione el icono **Influenciadores clave**. 
 
     ![En el panel Visualizaciones, seleccione la plantilla Influenciadores clave](media/power-bi-visualization-influencers/power-bi-template-new.png)
 
-2. Mover la métrica que desea investigar en el **analizar** campo. El **analizar** campo admite variables de contiguos, o categoría. Para ver lo que impulsa un cliente calificación del servicio sea baja, seleccione **tabla Customer** > **clasificación**. 
-3. Campos de movimiento que cree que podrían influir en **clasificación** en el **explican por** campo. Puede mover tantos campos como desee. En este caso, comience con:
+2. Mueva la métrica que quiera investigar al campo **Analizar**. El campo **Analizar** admite solo variables categóricas (no continuas). Para ver lo que impulsa a un cliente a dejar una calificación baja del servicio, seleccione **Tabla de clientes** > **Calificación**. 
+3. Mueva los campos que piensa que podrían influir en el valor de **Calificación** a la sección **Explicar por**. Puede mover tantos campos como desee. En este caso, comience con:
     - País-región 
     - Rol en la organización 
     - Tipo de suscripción 
     - Tamaño de la empresa 
     - Tema 
-1. Para centrarse en las clasificaciones negativo, seleccione **baja** en el **lo que influye en la clasificación sea** cuadro de lista desplegable.  
+1. Para centrarse en las calificaciones negativas, seleccione **Baja** en el cuadro desplegable **Qué influye en la calificación para que sea**.  
 
-    ![Seleccione baja en el cuadro de lista desplegable](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
+    ![Valor Bajo en el cuadro desplegable](media/power-bi-visualization-influencers/power-bi-key-influencers.png)
 
-El análisis se ejecuta en el nivel de tabla del campo que se está analizando. En este caso, tiene la **clasificación** métrica. Esta métrica se define en un nivel de cliente. Cada cliente le ha concedido una puntuación alta o una puntuación baja. Todos los factores explicativos deben definirse en el nivel de cliente para el objeto visual hacer uso de los mismos. 
+El análisis se ejecuta en el nivel de tabla del campo que se está analizando. En este caso, es la métrica **Calificación**. Esta métrica se define en el nivel de cliente. A cada cliente se le ha concedido una puntuación alta o una puntuación baja. Todos los factores explicativos deben estar definidos en el nivel de cliente para que el objeto visual haga uso de ellos. 
 
-En el ejemplo anterior, todos los factores explicativos tienen un uno a uno o una relación de varios a uno con la métrica. En este caso, cada puntuación tiene exactamente un tema asociado con él. Este tema fue el tema principal de la revisión del cliente. De forma similar, los clientes proceden de un país, tener un tipo de pertenencia y realizar un rol en su organización. Los factores explicativos ya son atributos de un cliente, y no se necesita ninguna transformación. El objeto visual puede hacer un uso inmediato de ellos. 
+En el ejemplo anterior, todos los factores explicativos tienen una relación de uno a uno o de varios a uno con la métrica. En este caso, cada puntuación tiene exactamente un tema asociado. Este tema fue el tema principal de la revisión del cliente. De forma similar, los clientes proceden de un país y tienen un tipo de pertenencia y un rol en su organización. Los factores explicativos ya son, por tanto, atributos de un cliente y no se necesita ninguna transformación. El objeto visual puede hacer un uso inmediato de ellos. 
 
-Más adelante en el tutorial, examine los ejemplos más complejos que tienen relaciones uno a varios. En esos casos, las columnas deben en primer lugar, se agregan hasta el nivel de cliente antes de poder ejecutar el análisis. 
+Más adelante en el tutorial veremos ejemplos más complejos donde hay relaciones de uno a varios. En esos casos, las columnas deben agregarse primero de forma descendente hasta el nivel de cliente para poder ejecutar el análisis. 
 
-Las medidas y agregados que se utilizan como factores explicativos también se evalúan en el nivel de tabla de la **analizar** métrica. Más adelante en este artículo se muestran algunos ejemplos. 
+Las medidas y los agregados que se utilizan como factores explicativos también se evalúan en el nivel de tabla de la métrica **Analizar**. Más adelante en este artículo se muestran algunos ejemplos. 
 
-## <a name="interpret-categorical-key-influencers"></a>Interpretar a categorías influenciadores clave 
-Echemos un vistazo a los influenciadores clave para las calificaciones bajas. 
+## <a name="interpret-categorical-key-influencers"></a>Interpretación de los influenciadores clave categóricos 
+Echemos un vistazo a los influenciadores clave de las calificaciones bajas. 
 
-### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Principales único factor que influye en la probabilidad de clasificación de gravedad baja
+### <a name="top-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Principal factor único que influye en la probabilidad de una calificación baja
 
-La organización en este ejemplo tiene tres roles: consumidor, el administrador y el publicador. Un consumidor es el factor superior que contribuye a la clasificación de gravedad baja. 
+La organización de este ejemplo tiene tres roles: consumidor, administrador y publicador. Ser un consumidor es el factor principal que contribuye a una calificación baja. 
 
-![Seleccione el rol en la organización es consumidor](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
+![Selección de Rol en la organización es consumidor](media/power-bi-visualization-influencers/power-bi-role-consumer.png)
 
 
-Más concretamente, los consumidores son 2,57 veces más probables que asigne una puntuación negativa a su servicio. Los influenciadores clave de gráfico listas **rol en la organización es consumidor** primero en la lista de la izquierda. Seleccionando **rol en la organización es consumidor**, Power BI muestra detalles adicionales en el panel derecho. Se muestra el efecto comparativo de cada rol en la probabilidad de clasificación de gravedad baja.
+Más concretamente, existe una probabilidad 2,57 veces mayor de que nuestros clientes nos den una puntuación negativa. El gráfico de influenciadores clave indica **Rol en la organización es consumidor** en primer lugar en la lista de la izquierda. Al seleccionar **Rol en la organización es consumidor**, Power BI muestra detalles adicionales en el panel derecho. Se muestra el efecto comparativo de cada rol en la probabilidad de una calificación baja.
   
-- % de 14.93 de los consumidores darán una puntuación baja. 
-- En promedio, todos los demás roles proporcionan una puntuación baja 5.78% del tiempo.
-- Los consumidores son 2,57 veces más probables dar una puntuación baja en comparación con todas las demás funciones. Puede determinarlo dividiendo la barra verde mediante la línea de puntos roja. 
+- Un 14,93 % de los consumidores da una puntuación baja. 
+- De promedio, todos los demás roles dan una puntuación baja en el 5,78 % de las ocasiones.
+- Existe una probabilidad 2,57 veces mayor de que los consumidores den una puntuación baja en comparación con todos los demás roles. Para determinarlo, divida la barra verde por la línea roja de puntos. 
 
-### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Segundo factor único que influye en la probabilidad de clasificación de gravedad baja
+### <a name="second-single-factor-that-influences-the-likelihood-of-a-low-rating"></a>Segundo factor único que influye en la probabilidad de una calificación baja
 
-Los influenciadores clave visuales compara y clasifica los factores de muchas variables diferentes. La segunda persona con influencia tiene nada que ver con **rol en Org**. Seleccione la segunda persona con influencia en la lista, que es **tema es la facilidad de uso**. 
+El objeto visual de influenciador clave puede comparar y clasificar los factores de muchas variables diferentes. El segundo influenciador clave no tiene nada que ver con **Rol en la organización**. Seleccione el segundo influenciador de la lista, que es **Tema es facilidad de uso**. 
 
-![Seleccione el tema es la facilidad de uso](media/power-bi-visualization-influencers/power-bi-theme.png)
+![Selección de Tema es facilidad de uso](media/power-bi-visualization-influencers/power-bi-theme.png)
 
-El segundo factor más importante se relaciona con el tema de revisión del cliente. Los clientes que se comentó sobre la facilidad de uso del producto eran 2,55 veces más probables dar una puntuación baja en comparación con los clientes que se comentó en otros temas, como la confiabilidad, el diseño o la velocidad. 
+El segundo factor más importante está relacionado con el tema de la reseña del cliente. Los clientes que han hecho algún comentario sobre la facilidad de uso del producto tienen una probabilidad 2,55 veces superior de dar una puntuación baja en comparación con los clientes que han hecho comentarios sobre otros temas, como la confiabilidad, el diseño o la velocidad. 
 
-Entre los objetos visuales, la media, lo que se muestra en la línea de puntos rojos, cambia de 5.78% 11.34%. El promedio es dinámico, porque se basa en el promedio de todos los demás valores. Para la primera persona con influencia, el promedio excluir del rol de cliente. Para la segunda persona con influencia, había excluido el tema de facilidad de uso. 
+Entre los objetos visuales, el promedio (línea discontinua roja) ha cambiado del 5,78 % al 11,34 %. El promedio es dinámico, porque se basa en el promedio de todos los demás valores. Para el primer influenciador, en el promedio se excluyó el rol de cliente. Para el segundo influenciador, se excluyó el tema de facilidad de uso. 
  
-Seleccione el **mostrar solo los valores que son personas con influencia** casilla de verificación para filtrar usando solo los valores destacados. En este caso, son los roles que controlan una puntuación baja. Los temas de doce se reducen a los cuatro que Power BI identificado como los temas que controlan las calificaciones bajas. 
+Active la casilla **Mostrar solo los valores que son influenciadores** para filtrar usando solo los valores destacados. En este caso, son los roles que impulsan una puntuación baja. Los doce temas se reducen a los cuatro que Power BI ha identificado como los temas que impulsan las calificaciones bajas. 
 
-![Seleccione la casilla de verificación](media/power-bi-visualization-influencers/power-bi-only-show.png)
+![Casilla seleccionada](media/power-bi-visualization-influencers/power-bi-only-show.png)
 
-## <a name="interact-with-other-visuals"></a>Interactuar con otros objetos visuales 
+## <a name="interact-with-other-visuals"></a>Interacción con otros objetos visuales 
  
-Cada vez que se selecciona otro objeto visual en el lienzo, filtro o una segmentación de datos, los influenciadores clave visuales vuelve a ejecutar el análisis en la parte de datos nueva. Por ejemplo, puede mover **tamaño de la compañía** en el informe y utilizarlo como una segmentación de datos. Úselo para ver si los influenciadores clave para los clientes de empresa son diferentes de la población general. Un tamaño de la empresa enterprise es mayor que 50.000 empleados.
+Cada vez que un usuario selecciona una segmentación, un filtro u otro objeto visual en el lienzo, el objeto visual de influenciador clave vuelve a ejecutar el análisis en la parte de datos nueva. Por ejemplo, vamos a mover **Tamaño de la empresa** al informe y a utilizarlo como segmentación. Úselo para ver si los influenciadores clave de nuestros clientes de empresa de gran tamaño difieren de los de la población general. Una empresa de gran tamaño tiene más de 50 000 empleados.
  
-Seleccionar **> 50.000** vuelve a ejecutar el análisis y puede ver que las personas con influencia cambiado. Para los clientes de empresa de gran tamaño, la persona con influencia superior para las calificaciones bajas tiene un tema relacionado con la seguridad. Es posible que desee investigar más para ver si hay características de seguridad específicos que son habituados a los clientes grandes. 
+Al seleccionar **>50 000** se vuelve a ejecutar el análisis y podemos ver que los influenciadores han cambiado. Para los clientes de empresas de gran tamaño, el mayor influenciador para las calificaciones bajas tiene un tema relacionado con la seguridad. Quizás quiera investigarlo en profundidad para ver si hay características de seguridad específicas con las que los clientes de gran tamaño no se sienten satisfechos. 
 
-![Segmento de tamaño de la empresa](media/power-bi-visualization-influencers/power-bi-filter.png)
+![Segmentación por tamaño de empresa](media/power-bi-visualization-influencers/power-bi-filter.png)
 
-## <a name="interpret-continuous-key-influencers"></a>Interpretar a continua influenciadores clave 
+## <a name="interpret-continuous-key-influencers"></a>Interpretación de los influenciadores clave continuos 
  
-Hasta ahora, ha visto cómo usar el objeto visual para explorar los campos de categorías diferentes cómo influyen las calificaciones bajas. También es posible que haya factores continuous como edad, altura y el precio en el **explican por** campo. Echemos un vistazo a lo que sucede cuando **antigüedad** se mueve de la tabla customer en **explican por**. Antigüedad muestra cuánto tiempo un cliente ha usado el servicio. 
+Hasta ahora hemos visto cómo usar el objeto visual para explorar cómo influyen los distintos campos categóricos en las calificaciones bajas. También es posible que haya factores continuos, como la edad, la altura y el precio, en el campo **Explicar por**. Veamos lo que sucede si movemos **Antigüedad** de la tabla de cliente a **Explicar por**. La antigüedad muestra el tiempo que el cliente ha usado el servicio. 
  
-A medida que aumenta la permanencia, también aumenta la probabilidad de recibir una clasificación inferior. Esta tendencia sugiere que los clientes a largo plazo es más probable dar una puntuación negativa. Esta información es interesante y otro que desee realizar un seguimiento más adelante. 
+A medida que la antigüedad aumenta, también aumenta la probabilidad de recibir una calificación inferior. Esta tendencia sugiere que es más probable que los clientes más antiguos den una puntuación negativa. Esta información es interesante y tal quiera realizar un seguimiento más adelante. 
  
-La visualización muestra que cada vez antigüedad sube por 13.44 meses, en promedio la probabilidad de clasificación de gravedad baja aumenta en 1,23 veces. En este caso, 13,44 meses representa la desviación estándar de la antigüedad. Por lo que la información que reciba examina cómo aumentar la permanencia en una cantidad estándar, que es la desviación estándar de antigüedad, afecta a la probabilidad de recibir una clasificación de gravedad baja. 
+La visualización muestra que cada vez que antigüedad sube 13,44 meses, la probabilidad de una calificación baja aumenta 1,23 veces como promedio. En este caso, 13,44 meses representa la desviación estándar de la antigüedad. Por lo tanto, la información que recibe examina cómo el aumento de la antigüedad en una cantidad estándar (la desviación estándar de la antigüedad) afecta a la probabilidad de recibir una calificación baja. 
  
-El gráfico de dispersión en el panel derecho traza el porcentaje medio de las calificaciones bajas para cada valor de antigüedad. Resalta la pendiente con una línea de tendencia.
+El gráfico de dispersión del panel derecho traza el porcentaje promedio de las calificaciones bajas para cada valor de antigüedad. Resalta la pendiente con una línea de tendencia.
 
 
-![Gráfico de dispersión de antigüedad](media/power-bi-visualization-influencers/power-bi-tenure.png)
+![Gráfico de dispersión para Antigüedad](media/power-bi-visualization-influencers/power-bi-tenure.png)
 
-## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretar las medidas y agregados como influenciadores clave 
+## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretación de medidas o agregados como influenciadores clave 
  
-Puede usar las medidas y agregados como factores explicativos dentro de su análisis. Por ejemplo, es posible que desea ver qué efecto tiene el número de incidencias de soporte técnico al cliente o la duración media de un vale abierto en la puntuación de recepción. 
+Puede usar también medidas y agregados como factores explicativos dentro de su análisis. Por ejemplo, quizás quiera ver lo que afecta al número de incidencias de soporte técnico del cliente o el efecto que la duración media de una incidencia abierta tiene en la puntuación que recibe. 
  
-En este caso, desea ver si el número de incidencias de soporte técnico que un cliente tiene influye en la puntuación proporcionan. Ahora incorporar **Id. de vale de soporte técnico** desde la tabla de vales de soporte técnico. Dado que un cliente puede tener varios incidencias de soporte técnico, agregar el identificador para el nivel de cliente. Agregación es importante porque el análisis se ejecuta en el nivel de cliente, por lo que todos los controladores deben definirse en ese nivel de granularidad. 
+En este caso, queremos ver si el número de incidencias de soporte técnico que tiene un cliente influye en la puntuación que da. Ahora, tome el **Identificador de incidencia de soporte técnico** de la tabla Incidencia de soporte técnico. Como un cliente puede tener varias incidencias de soporte técnico, es necesario agregar el identificador en el nivel de cliente. Esta agregación es importante porque el análisis se ejecuta en el nivel de cliente, de modo que todos los controladores deben definirse en ese nivel de granularidad. 
  
-Veamos el recuento de identificadores. Cada fila del cliente tiene un recuento de incidencias de soporte técnico asociado con él. En este caso, como el número de aumentos de vales de soporte técnico, la probabilidad de la clasificación que se aumenta bajo 5.51 veces. El objeto visual de la derecha muestra el número promedio de incidencias de soporte técnico por distintas **clasificación** valores que se evalúa en el nivel de cliente. 
+Veamos el número de identificadores. Cada fila del cliente tiene un número de incidencias de soporte técnico asociado con él. En este caso, vemos que a medida que el número de incidencias de soporte técnico aumenta, la probabilidad de que la calificación sea baja es 5,51 veces superior. El objeto visual de la derecha nos muestra el número medio de incidencias de soporte técnico por los diferentes valores de **Calificación** que se evalúan en el nivel de cliente. 
 
-![influencia de Id. de vale de soporte técnico](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
+![Influencia del identificador de incidencia de soporte técnico](media/power-bi-visualization-influencers/power-bi-support-ticket.png)
 
 
 ## <a name="interpret-the-results-top-segments"></a>Interpretar los resultados: Segmentos principales 
  
-Puede usar el **clave influenciadores** tab para evaluar cada factor de forma individual. También puede usar el **principales segmentos** pestaña para ver cómo una combinación de factores afecta a la métrica que está analizando. 
+Puede usar la pestaña **Influenciadores clave** para evaluar cada factor de forma individual. También puede usar la pestaña **Principales segmentos** para ver cómo una combinación de factores afecta a la métrica que está analizando. 
  
-Segmentos principales inicialmente muestran información general de todos los segmentos que ha descubierto Power BI. El ejemplo siguiente se muestra que se encontraron seis segmentos. Estos segmentos se clasifican según el porcentaje de las calificaciones bajas dentro del segmento. Segmento 1, por ejemplo, tiene 74.3% las clasificaciones de cliente que están bajo mínimos. Cuanto mayor sea la burbuja, mayor será la proporción de clasificaciones bajas. Representa el tamaño de la burbuja de cuántos clientes se encuentran dentro del segmento. 
+Segmentos principales muestra inicialmente una información general de todos los segmentos que ha detectado Power BI. El ejemplo siguiente muestra que se han encontrado seis segmentos. Estos segmentos se clasifican según el porcentaje de calificaciones bajas dentro del segmento. Vemos que el segmento 1, por ejemplo, tiene un 74,3 % de las calificaciones de cliente bajas. Cuanto mayor sea la burbuja, mayor será la proporción de clasificaciones bajas. El tamaño de la burbuja representa el número de clientes que se encuentran dentro del segmento. 
 
-![Seleccione la pestaña segmentos principales](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
+![Selección de la pestaña Segmentos principales](media/power-bi-visualization-influencers/power-bi-top-segments-tab.png)
 
-Al seleccionar una burbuja se profundiza en los detalles del segmento. Si selecciona 1 segmento, por ejemplo, encontrará que se compone de los clientes relativamente establecidos. Se ha estado a los clientes de más de 29 meses y tienen más de cuatro incidencias de soporte técnico. Por último, no son los publicadores, para que sean los consumidores o los administradores. 
+Al seleccionar una burbuja se profundiza en los detalles del segmento. Si selecciona el segmento 1, por ejemplo, encontrará que se compone de clientes relativamente establecidos. Han sido clientes durante más de 29 meses y tienen más de cuatro incidencias de soporte técnico. Por último, no son editores, por lo que son consumidores o administradores. 
  
-En este grupo, 74.3% de los clientes le asignó una puntuación baja. El cliente promedio dio una baja clasificación del 11,7% del tiempo, por lo que este segmento tiene una mayor proporción de las calificaciones bajas. Es 63 en puntos de porcentaje más alto. Segmento 1 también contiene aproximadamente 2,2% de los datos, por lo que representa una parte de la población direccionable. 
+En este grupo, el 74,3 % de los clientes asignó una calificación baja. El cliente promedio dio una calificación baja el 11,7 % de las veces, por lo que este segmento tiene una proporción mayor de calificaciones bajas. Su porcentaje es 63 puntos mayor. El segmento 1 contiene aproximadamente el 2,2 % de los datos, por lo que representa una parte de la población que puede corregirse. 
 
-![Seleccione el primer segmento superior](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
+![Selección del primer segmento principal](media/power-bi-visualization-influencers/power-bi-top-segments2.png)
 
 ## <a name="working-with-numerical-data"></a>Trabajar con datos numéricos
 
-Si mueve un campo numérico en el **analizar** campo, tiene la opción de cómo administrar ese escenario. Puede cambiar el comportamiento del objeto visual, vaya a la **panel formato** y cambiar entre **categorías de tipo de análisis** y **tipo análisis continuo**.
+Si mueve un campo numérico al campo **Analizar**, puede elegir cómo administrar ese escenario. Para cambiar el comportamiento del objeto visual, puede ir al **Panel de formato** y cambiar entre **Tipo de análisis categórico** y **Tipo de análisis continuo**.
 
-![Cambiar de categorías a continua](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
+![Cambiar de categórico a continuo](media/power-bi-visualization-influencers/power-bi-ki-formatting.png)
 
-Un **categorías de tipo de análisis** se comporta como se describió anteriormente. ¿Por ejemplo, si se han llevado a las puntuaciones de encuesta comprendido entre 1 y 10, podría pedir 'Lo que afecta a las puntuaciones de encuesta debe ser 1'?
+El **Tipo de análisis categórico** se comporta tal y como se describió anteriormente. Por ejemplo, si está viendo puntuaciones de encuestas entre 1 y 10, podría preguntarse "¿Qué hace que una puntuación en una encuesta sea 1?"
 
-Un **tipo análisis continuo** cambia la pregunta a una continua. ¿En el ejemplo anterior, nuestra nueva pregunta sería 'Lo que afecta a las puntuaciones de encuesta para aumentar o disminuir'?
+El **Tipo de análisis continuo** cambia la pregunta a una continua. En el ejemplo anterior, la nueva pregunta sería "¿Qué hace que las puntuaciones de la encuesta aumenten o disminuyan?".
 
-Esta distinción es muy útil cuando se tiene una gran cantidad de valores únicos en el campo que se va a analizar. En el ejemplo siguiente, nos centramos en los precios de la casa. No es muy significativo para solicitar "Lo que influye en el precio de casa sea 156,214?" ya que es muy específica y se es probable que no tenemos datos suficientes para inferir un patrón.
+Esta distinción es muy útil cuando se tiene una gran cantidad de valores únicos en el campo que se va a analizar. En el ejemplo siguiente, consultamos precios de casas. No es muy significativo preguntar "¿Qué hace que el precio de la casa sea 156 214?" porque es muy específica y es probable que no tengamos datos suficientes para inferir un patrón.
 
-¿En su lugar, nos conviene pregunte, 'Lo que influye en el precio de casa para aumentar'? que nos permite tratar los precios de la casa como un intervalo en lugar de valores distintos.
+En su lugar, nos conviene preguntar, "¿Qué hace que el precio de la casa aumente?" para tratar los precios de la casa como un intervalo en lugar de valores distintos.
 
-![Pregunta numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+![Pregunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
 ## <a name="interpret-the-results-key-influencers"></a>Interpretar los resultados: Influenciadores clave 
 
-En este escenario, nos centramos en 'Lo que influye en el precio de casa para aumentar'. Estamos examinando una serie de factores explicativas que pueden afectar a un precio de la casa como **año creado** (año se compiló la casa), **KitchenQual** (calidad cocina) y **YearRemodAdd** (año que rediseñó la casa). 
+En este escenario, vemos "¿Qué hace que el precio de la casa aumente?". Estamos viendo una serie de factores explicativos que pueden afectar al precio de la casa, como **YearBuilt** (año en que se construyó la casa), **KitchenQual** (calidad de la cocina) y **YearRemodAdd** (año de reforma). 
 
-En el ejemplo siguiente, nos centramos en nuestra persona con influencia superior que es el que se va a excelente de calidad de cocina. Los resultados son muy similares a las que vimos cuando nos estábamos analizar las métricas de categorías con algunas diferencias importantes:
+En el ejemplo siguiente, miramos al principal influenciador, que es que la calidad de la cocina sea excelente. Los resultados son muy similares a los que vimos cuando analizamos las métricas categóricas, con algunas diferencias importantes:
 
-- El gráfico de columnas de la derecha es mirar los promedios, en lugar de porcentajes. Por lo tanto nos muestra lo que el precio promedio casa de una casa con una cocina excelente es (barra verde) en comparación con el precio medio de enrutamiento de una casa sin una cocina excelente (línea de puntos)
-- El número de la burbuja sigue siendo la diferencia entre la línea de puntos rojos y la barra de color verde, pero se expresa como un número ($158. 49K) en lugar de una probabilidad (1.93 x). Etc. promedio, casas con cocinas excelente son casi $160 KB más costoso que casas sin cocinas excelente.
+- El gráfico de columnas de la derecha mira los promedios en lugar de los porcentajes. Por lo tanto, nos muestra que el precio promedio de una casa con una cocina excelente es (barra verde) en comparación con el precio medio de una casa sin una cocina excelente (línea de puntos)
+- El número de la burbuja sigue siendo la diferencia entre la línea de puntos rojos y la barra de color verde, pero se expresa como un número (158 490 USD) en lugar de una probabilidad (1,93x). Eso quiere decir que, de media, las casas con cocinas excelentes son casi 160 000 USD más caras que las casas sin cocinas excelentes.
 
-![Influenciadores categorías destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
+![Influenciadores categóricos de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-categorical.png)
 
-En el ejemplo siguiente, examinamos el impacto un factor continua (año rediseñó casa) tiene sobre el precio de la casa. Las diferencias en comparación con cómo se analizan a influenciadores continua de las métricas de categorías son los siguientes:
+En el ejemplo siguiente, examinamos el impacto que un factor continuo (año en que se reformó la casa) tiene sobre el precio de la casa. Estas son las diferencias respecto a cómo se analizan los influenciadores continuos de las métricas categóricas:
 
--   El gráfico de dispersión en el panel derecho traza el precio medio de enrutamiento para cada valor distinto del año Remodelado. 
--   El valor de la burbuja muestra cuánto el promedio de enrutamiento aumenta el precio (en este caso 2 USD. 87k) cuando el año de la casa estaba Remodelado aumenta por la desviación estándar (en este caso 20 años)
+-   El gráfico de dispersión del panel derecho traza el precio medio de la casa para cada valor distinto del año de reforma. 
+-   El valor de la burbuja muestra cuánto aumenta el promedio del precio de la casa (en este caso, 2870 USD) cuando el año de reforma de la casa aumenta la desviación estándar (en este caso 20 años).
 
-![Influenciadores de destino numérico continuo](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
+![Influenciadores continuos de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-continuous.png)
 
-Por último, en el caso de las medidas que estamos examinando el medio año se creó una casa. El análisis aquí es como sigue:
+Por último, en el caso de las medidas, estamos examinando el promedio del año en que construyó la casa. Aquí, el análisis es el siguiente:
 
--   El gráfico de dispersión en el panel derecho traza el precio medio de enrutamiento para cada valor distinto en la tabla
--   El valor de la burbuja muestra cuánto el promedio de enrutamiento aumenta el precio (en este caso, $1. 35K) cuando aumenta el año promedio por su desviación estándar (en este caso 30 años)
+-   El gráfico de dispersión del panel derecho traza el precio medio de la casa para cada valor distinto de la tabla.
+-   El valor de la burbuja muestra cuánto aumenta el promedio del precio de la casa (en este caso, 1350 USD) cuando el promedio del año aumenta la desviación estándar (en este caso 30 años).
 
-![Destino numérico mide influenciadores](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
+![Influenciadores de medidas de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-measures.png)
 
 ## <a name="interpret-the-results-top-segments"></a>Interpretar los resultados: Segmentos principales
 
-Segmentos principales para destinos numéricos muestran a grupos donde la casa los precios de Media son mayores que en el conjunto de datos general. Por ejemplo, a continuación podemos ver que **1 segmento** se compone de casas donde **GarageCars** (número de automóviles puede ajustarse el garaje) es mayor que 2 y el **RoofStyle** es Hip. Casas con estas características tienen un precio promedio de $355K en comparación con la media general de los datos que es de $180 KB.
+Los segmentos principales para destinos numéricos muestran a grupos donde la casa los precios de Media son mayores que en el conjunto de datos general. Por ejemplo, a continuación vemos que **Segmento 1** se compone de casas en las que **GarageCars** (número de plazas de garaje) es mayor que 2 y **RoofStyle** (estilo de tejado) es Hip (a dos aguas). Las casas con estas características tienen un precio promedio de 355 000 USD en comparación con el promedio general de los datos, que es de 180 000 USD.
 
-![Destino numérico mide influenciadores](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
+![Influenciadores de medidas de destino numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-segments.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas 
  
 **¿Cuáles son las limitaciones de la versión preliminar?** 
  
-Los influenciadores clave visuales está actualmente en versión preliminar pública, y tiene algunas limitaciones. La funcionalidad que no está disponible actualmente incluye: 
-- Análisis de métricas que están agregados o medidas.
-- Consumiendo el objeto visual en Power BI Embedded.
-- Consumiendo el objeto visual en aplicaciones móviles de Power BI.
+El objeto visual de influenciador clave está actualmente en versión preliminar pública y tiene algunas limitaciones. Entre la funcionalidad que actualmente no está disponible se incluye lo siguiente: 
+- Análisis de las métricas que son agregados o medidas.
+- Consumo del objeto visual en Power BI Embedded.
+- Consumo del objeto visual en aplicaciones móviles de Power BI.
 - Compatibilidad con RLS.
-- Compatibilidad con Direct Query.
-- Compatibilidad con la conexión en vivo.
+- Compatibilidad con consultas directas.
+- Compatibilidad con conexiones dinámicas.
 
-![Pregunta numérico](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
+![Pregunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
-**Veo un error que se encontraron ninguna influenciadores o segmentos. ¿Por qué?** 
+**Un error me indica que no se encontraron influenciadores o segmentos. ¿Por qué?** 
 
-![No se encontró el error de personas con influencia](media/power-bi-visualization-influencers/power-bi-error1.png)
+![Error: No se encuentran influenciadores](media/power-bi-visualization-influencers/power-bi-error1.png)
 
 
-Este error se produce cuando se incluyen los campos de **explican por** pero no se encontraron ningún influenciadores. 
-- Incluye la métrica que se ha analizando en **analizar** y **explican por**. Quítelo de **explican por**. 
-- Los campos explicativos tienen demasiadas categorías con pocas observaciones. Esta situación dificulta la visualización determinar los factores que son personas con influencia. Es difícil generalizar según solo algunas observaciones. Si está analizando un campo numérico es posible que desee cambiar de **Analysis categorías** a **análisis continuo** en el **panel formato** bajo el  **Análisis** tarjeta.
-- Los factores explicativos tienen suficiente observaciones para generalizar, pero la visualización no encontró cualquier correlaciones significativas al informe.
+Este error se produce cuando se han incluido campos en **Explicar por** pero no se han encontrado influenciadores. 
+- La métrica que se estaba analizando se ha incluido en **Analizar** y en **Explicar por**. Quítela de **Explicar por**. 
+- Los campos explicativos tienen demasiadas categorías con pocas observaciones. Esta situación dificulta la visualización para determinar qué factores son influenciadores. Es difícil generalizar solo con unas pocas observaciones. Si está analizando un campo numérico, quizás quiera cambiar de **Análisis categórico** a **Análisis continuo** en **Panel de formato**, en la tarjeta **Análisis**.
+- Los factores explicativos tienen un número suficiente de observaciones para realizar generalizaciones, pero la visualización no ha buscado ninguna correlación significativa sobre la cual informar.
  
-**Veo un error que la métrica que estoy analizando no tiene suficientes datos para ejecutar el análisis en. ¿Por qué?** 
+**Veo un error que indica que la métrica que estoy analizando no tiene suficientes datos para que se ejecute el análisis a partir de ella. ¿Por qué?** 
 
-![No hay suficientes error de datos](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
+![No hay suficientes datos](media/power-bi-visualization-influencers/power-bi-not-enough-data.png)
 
-La visualización funciona examinando los patrones en los datos de un grupo en comparación con otros grupos. Por ejemplo, busca los clientes que le proporcionó las calificaciones bajas en comparación a los clientes que le proporcionó conducen a calificaciones altas. Si los datos en el modelo tienen solo algunas observaciones, son difíciles de encontrar patrones. Si la visualización no tiene suficientes datos para buscar fuentes de influencia significativas, indica que se necesitan más datos para ejecutar el análisis. 
+La visualización funciona examinando los patrones en los datos de un grupo en comparación con otros grupos. Por ejemplo, busca los clientes que asignaron calificaciones bajas en comparación con los clientes que asignaron calificaciones altas. Si los datos del modelo tienen muy pocas observaciones, resulta difícil encontrar patrones. Si la visualización no tiene suficientes datos para buscar influenciadores significativos, esto indica que se necesitan más datos para ejecutar el análisis. 
 
-Recomendamos que tenga al menos 100 observaciones del estado seleccionado. En este caso, el estado es los clientes que renovación. También necesita al menos 10 observaciones de los Estados que utiliza para la comparación. En este caso, el estado de la comparación es los clientes que no la renovación.
+Recomendamos que tenga al menos 100 observaciones del estado seleccionado. En este caso, el estado es los clientes que abandonaron. También necesita al menos 10 observaciones de los estados que utiliza para la comparación. En este caso, el estado de comparación es los clientes que no abandonaron.
 
-Si está analizando un campo numérico es posible que desee cambiar de **Analysis categorías** a **análisis continuo** en el **panel formato** bajo el  **Análisis** tarjeta.
+Si está analizando un campo numérico, quizás quiera cambiar de **Análisis categórico** a **Análisis continuo** en **Panel de formato**, en la tarjeta **Análisis**.
 
-**Aparece un error que un campo en *explican por* inequívocamente no están relacionados con la tabla que contiene la métrica que estoy analizando. ¿Por qué?**
+**Veo un error que indica que un campo en *Explicar por* no está relacionado de forma exclusiva con la tabla que contiene la métrica que estoy analizando. ¿Por qué?**
  
-El análisis se ejecuta en el nivel de tabla del campo que se está analizando. Por ejemplo, si analiza los comentarios del cliente para el servicio, podría tener una tabla que indica si un cliente indicó una calificación alta o baja una clasificación. En este caso, el análisis se está ejecutando en el nivel de tabla de cliente. 
+El análisis se ejecuta en el nivel de tabla del campo que se está analizando. Por ejemplo, si analiza los comentarios de los clientes acerca del servicio, podría obtener una tabla que indique si un cliente ha dado una calificación alta o baja. En este caso, el análisis se ejecuta en el nivel de tabla del cliente. 
 
-Si tiene una tabla relacionada que se define en un nivel más granular que la tabla que contiene la métrica, verá este error. Este es un ejemplo: 
+Si tiene una tabla relacionada que está definida en un nivel más pormenorizado que la tabla que contiene su métrica, le aparece este error. Este es un ejemplo: 
  
-- Analiza lo que impulsa a los clientes para proporcionar a las calificaciones bajas de su servicio.
-- Desea ver si el dispositivo en el que el cliente ya está consumiendo el servicio influye en las revisiones que se proporcionan.
+- Analiza qué hace que los clientes den calificaciones bajas a su servicio.
+- Quiere ver si el dispositivo en el cual el cliente está consumiendo el servicio influye en las reseñas que aporta.
 - Un cliente puede consumir el servicio de varias maneras diferentes.
-- En el ejemplo siguiente, cliente 10000000 usa un explorador y una tableta para interactuar con el servicio.
+- En el ejemplo siguiente, el cliente 10000000 usa un navegador y una tableta para interactuar con el servicio.
 
-![Una tabla relacionada definida en un nivel más granular que la tabla que contiene su métrica.](media/power-bi-visualization-influencers/power-bi-error2.png)
+![Una tabla relacionada que está definida en un nivel más pormenorizado que la tabla que contiene su métrica.](media/power-bi-visualization-influencers/power-bi-error2.png)
 
-Si intenta usar la columna de dispositivo como un factor explicativo, consulte el siguiente error: 
+Si intenta usar la columna de dispositivo como un factor explicativo, verá el siguiente error: 
 
-![Error de una columna incorrecta](media/power-bi-visualization-influencers/power-bi-error3.png)
+![Columna incorrecta](media/power-bi-visualization-influencers/power-bi-error3.png)
 
-Este error aparece porque el dispositivo no está definido en el nivel de cliente. Un cliente puede consumir el servicio en varios dispositivos. Para que la visualización en busca de patrones, el dispositivo debe ser un atributo del cliente. Existen varias soluciones que dependen de su comprensión de la empresa: 
+Este error aparece porque el dispositivo no está definido en el nivel de cliente. Un cliente puede consumir el servicio en varios dispositivos. Para que la visualización encuentre patrones, el dispositivo debe ser un atributo del cliente. Existen varias soluciones que dependen de cuánto conozca su empresa: 
  
-- Puede cambiar el resumen de dispositivos para contar. Por ejemplo, usar recuento si el número de dispositivos puede afectar a la puntuación que le ofrece un cliente. 
-- Puede dinamizar la columna de dispositivo para ver si utilizar el servicio en un dispositivo específico influye en la clasificación de un cliente.
+- Puede cambiar el resumen de dispositivos para contar. Por ejemplo, use el recuento si el número de dispositivos puede afectar a la puntuación que da un cliente. 
+- Puede dinamizar la columna de dispositivo para ver si utilizar el servicio en un dispositivo específico influye en la calificación de un cliente.
  
-En este ejemplo, los datos se dinamiza para crear nuevas columnas para el explorador, móvil y de tablet PC. Ahora puede usar estos dispositivos específicos en **explican por**. Todos los dispositivos resultan para ser personas con influencia, y el explorador tiene el mayor efecto en la puntuación del cliente.
+En este ejemplo se han dinamizado los datos para crear nuevas columnas para navegador, móvil y tableta. Ahora puede usar estos dispositivos específicos en **Explicar por**. Descubrimos que todos los dispositivos son influenciadores y que el navegador tiene el mayor impacto en la puntuación del cliente.
 
-Más concretamente, los clientes que no usan el explorador para consumir el servicio son 3,79 veces más probables dar una puntuación baja a los clientes que realizan. Detalles inferior en la lista, para dispositivos móviles a la inversa es true. Los clientes que usan la aplicación móvil están más probable que asigne a una puntuación baja a los clientes que no. 
+Más concretamente, los clientes que no usan el navegador para consumir el servicio tienen una probabilidad 3,79 veces superior de asignar una puntuación baja que quienes sí lo usan. Más abajo en la lista, para dispositivos móviles, se cumple lo contrario. Los clientes que usan una aplicación móvil tienen una mayor probabilidad de dar una puntuación baja que aquellos que no la usan. 
 
 ![Resuelto](media/power-bi-visualization-influencers/power-bi-error3-solution.png)
 
-**Ver una advertencia que las medidas no se hayan incluido en mi análisis. ¿Por qué?** 
+**Veo una advertencia que indica que las medidas no se han incluido en mi análisis. ¿Por qué?** 
 
-![Las medidas no incluyen el error](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
+![Error: Medidas no incluidas](media/power-bi-visualization-influencers/power-bi-measures-not-included.png)
 
 
-El análisis se ejecuta en el nivel de tabla del campo que se está analizando. Si analiza el abandono de clientes, podría tener una tabla que indica si un cliente renovados o no. En este caso, el análisis se ejecuta en el nivel de tabla de cliente.
+El análisis se ejecuta en el nivel de tabla del campo que se está analizando. Si está analizando el abandono de clientes, puede tener una tabla que le indique si un cliente ha abandonado o no. En este caso, el análisis se ejecuta en el nivel de tabla del cliente.
  
-Las medidas y agregados son analizados en el nivel de tabla de forma predeterminada. Si hubiera una medida para su gasto mensual promedio, se podría analizar en el nivel de tabla de cliente. 
+Las medidas y los agregados se analizan en este nivel de tabla, de forma predeterminada. Si tuviéramos una medida para el gasto mensual promedio, se analizaría en el nivel de tabla de cliente. 
 
-Si la tabla de cliente no tiene un identificador único, no se puede evaluar la medida y el análisis se pasa por alto. Para evitar esta situación, asegúrese de que la tabla con la métrica tiene un identificador único. En este caso, es la tabla customer y el identificador único es el identificador de cliente. También es fácil agregar una columna de índice mediante Power Query.
+Si la tabla de cliente no tiene un identificador único, no es posible evaluar la medida y el análisis la pasa por alto. Para evitar esta situación, asegúrese de que la tabla con la métrica tiene un identificador único. En este caso, es la tabla de clientes y el identificador único es el identificador de cliente. También es muy fácil agregar una columna de índice con Power Query.
  
-**Puedo ver una advertencia de que la métrica que estoy analizando tiene más de 10 valores únicos y que esta cantidad podría afectar a la calidad del análisis. ¿Por qué?** 
+**Veo una advertencia que indica que la métrica que estoy analizando tiene más de 10 valores únicos y que esto puede afectar a la calidad del análisis. ¿Por qué?** 
 
-La visualización de inteligencia artificial puede analizar los campos de categorías y los campos numéricos. En el caso de los campos de categorías, un ejemplo puede ser el abandono es Sí o No, y la satisfacción del cliente es alta, Media o baja. Aumentar el número de categorías para analizar significa que hay menos observaciones por categoría. Esta situación dificulta la visualización buscar patrones en los datos. 
+La visualización de inteligencia artificial puede analizar los campos categóricos y los campos numéricos. En el caso de los campos categóricos, un ejemplo puede ser Abandono es Sí o No, y Satisfacción del cliente es Alta, Media o Baja. Aumentar el número de categorías para analizar significa que se realizan menos observaciones por categoría. Esto hace que a la visualización le resulte más difícil encontrar patrones en los datos. 
 
-Al analizar los campos numéricos tienen una elección entre el tratamiento de los campos numéricos como texto en cuyo caso se ejecutará el mismo análisis como lo haría para datos categóricos (**categorías Analysis**). Si tiene una gran cantidad de distintos valores, le recomendamos que cambie el análisis a **análisis continuo** como eso significa que podemos deducir los patrones de cuando los números de aumentar o disminuir en lugar de tratarlas como distintos valores. Puede cambiar de **Analysis categorías** a **análisis continuo** en el **panel de formato** bajo el **Analysis** tarjeta.
+Al analizar los campos numéricos, tiene la opción de tratar los campos numéricos como texto, en cuyo caso se ejecutará el mismo análisis que usaría con los datos categóricos (**Análisis categóricos**). Si tiene muchos valores distintos, le recomendamos que cambie el análisis a **Análisis continuo** porque eso significa que podemos deducir los patrones cuando los números aumentan o disminuyen, en lugar de tratarlos como valores distintos. Puede cambiar de **Análisis categórico** a **Análisis continuo** en **Panel de formato**, en la tarjeta **Análisis**.
 
-Para buscar a los influenciadores más seguros, le recomendamos que agrupe valores similares en una sola unidad. Por ejemplo, si tiene una métrica por precio, seguramente obtener mejores resultados mediante la agrupación de los precios similar en alta, Media y baja categorías frente al uso de puntos de precio individuales. 
+Para buscar influenciadores más sólidos, se recomienda agrupar valores similares en una sola unidad. Por ejemplo, si tiene una métrica para el precio, es probable que obtenga mejores resultados mediante la agrupación de precios similares en algo parecido a categorías como Alto, Medio o Bajo, frente al uso de puntos de precio individuales. 
 
-![Más de 10 factores exclusivos de advertencia](media/power-bi-visualization-influencers/power-bi-error4.png)
+![Advertencia: Más de 10 factores exclusivos](media/power-bi-visualization-influencers/power-bi-error4.png)
 
 
-**Hay factores de Mis datos que parece indicar que deberían influenciadores clave, pero no lo son. ¿Cómo puede suceder esto?**
+**Hay factores en mis datos que parecen indicar que son influenciadores clave, pero no lo son. ¿Cómo puede suceder esto?**
 
-En el ejemplo siguiente, los clientes que son los consumidores de la unidad las calificaciones bajas, con 14.93% de las clasificaciones que sean bajos. El rol de administrador también tiene una proporción elevada de las calificaciones bajas, 13.42%, pero no se considera una persona con influencia. 
+En el ejemplo siguiente, los clientes que son consumidores dan calificaciones bajas, con 14,93 % de las calificaciones bajas. El rol de administrador también tiene una proporción alta de calificaciones bajas (un 13,42 %) pero no se considera un influenciador. 
 
-La razón de esta decisión es que la visualización también tiene en cuenta el número de puntos de datos cuando encuentra personas con influencia. El siguiente ejemplo tiene más de 29,000 consumidores y administradores de menos de 10 veces, aproximadamente 2,900. 390 solo de ellos le asignó una puntuación baja. El objeto visual no tiene suficientes datos para determinar si se encontró un patrón con las clasificaciones de administrador o si es simplemente una oportunidad de encontrar. 
+La razón de esta decisión es que la visualización también tiene en cuenta el número de puntos de datos cuando encuentra personas con influencia. El siguiente ejemplo tiene más de 29 000 consumidores y 10 veces menos administradores, aproximadamente 2900. Además, solo 390 de ellos dieron una calificación baja. El objeto visual no tiene suficientes datos para determinar si realmente ha encontrado un patrón en las calificaciones de administrador o si es simplemente un hallazgo casual. 
 
-![Cómo se determinan los influenciadores](media/power-bi-visualization-influencers/power-bi-error5.png)
+![Procedimiento para determinar los influenciadores](media/power-bi-visualization-influencers/power-bi-error5.png)
 
-**¿Cómo calcular los influenciadores clave para el análisis de categorías?**
+**¿Cómo calcula los influenciadores clave para el análisis categórico?**
 
-En segundo plano, se usa la visualización de inteligencia artificial [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar una regresión logística para calcular los influenciadores clave. Una regresión logística es un modelo estadístico que compara los distintos grupos entre sí. 
+En segundo plano, la visualización de inteligencia artificial usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar una regresión logística para calcular los influenciadores clave. Una regresión logística es un modelo estadístico que compara los distintos grupos entre sí. 
 
-Si desea ver lo que impulsa las calificaciones bajas, la regresión logística examina cómo los clientes que le asignó una puntuación baja se diferencian de los clientes que le asignó una puntuación más alta. Si tiene varias categorías, como las puntuaciones altos, neutras y bajos, observa cómo los clientes que le asignó una puntuación baja se diferencian de los clientes que no asigne una clasificación de gravedad baja. ¿En este caso, cómo los clientes que le asignó una puntuación baja se diferencia de los clientes que le asignó una calificación alta o una clasificación neutra? 
+Si quiere ver lo que genera las calificaciones bajas, la regresión logística se centrará en cómo los clientes que han dado una puntuación baja difieren de los que han dado una puntuación alta. Si tiene varias categorías, como las puntuaciones altas, neutras y bajas, examina en qué se diferencian los clientes que le dieron una calificación baja de los clientes que no. En este caso, ¿en qué se diferencian los clientes que le dieron una puntuación baja se diferencia de los clientes que le dieron una calificación alta o neutra? 
  
-La regresión logística busca patrones en los datos y busca cómo los clientes que le asignó una clasificación de gravedad baja pueden diferir de los clientes que le asignó una calificación alta. Por ejemplo, podría encontrar que los clientes con más de incidencias de soporte técnico proporcionan un porcentaje superior de las calificaciones bajas de los clientes con pocos o ningún incidencias de soporte técnico.
+La regresión logística busca patrones en los datos, centrándose en las diferencias entre los clientes que han dado una calificación baja y los clientes que han dado una calificación alta. Podría ser, por ejemplo, que los clientes que tienen más incidencias de soporte técnico dan un porcentaje mucho mayor de calificaciones bajas que los que tienen pocas incidencias de soporte técnico, o ninguna.
  
-La regresión logística también tiene en cuenta cuántos puntos de datos están presentes. Por ejemplo, si los clientes que desempeñan un rol de administrador puntuarlos proporcionalmente más negativo, pero hay solo unos pocos administradores, este factor no se considera influyente. Esta determinación se realiza porque no hay suficientes puntos de datos disponibles para deducir un modelo. Una prueba estadística, conocida como una prueba wald lo, se usa para determinar si un factor se considera una persona con influencia. El objeto visual utiliza un valor p de 0,05 para determinar el umbral. 
+La regresión logística también tiene en cuenta cuántos puntos de datos están presentes. Si, por ejemplo, los clientes que desempeñan un rol de administrador dan, proporcionalmente, puntuaciones más negativas pero solo son una serie limitada de administradores, no se considera un factor influyente. Esta determinación se realiza porque no hay suficientes puntos de datos disponibles para deducir un modelo. Se usa una prueba estadística (prueba de Wald) para determinar si un factor se considera un influenciador. El objeto visual utiliza un valor p de 0,05 para determinar el umbral. 
 
-**¿Cómo calcular los influenciadores clave para el análisis numérico?**
+**¿Cómo se calculan los influenciadores clave para el análisis numérico?**
 
-En segundo plano, se usa la visualización de inteligencia artificial [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar una regresión lineal para calcular los influenciadores clave. Una regresión lineal es un modelo estadístico que estudia cómo cambia el resultado del campo que está analizando según sus factores explicativos.
+En segundo plano, la visualización de inteligencia artificial usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar una regresión lineal para calcular los influenciadores clave. Una regresión lineal es un modelo estadístico que estudia cómo cambia el resultado del campo que está analizando según sus factores explicativos.
 
-Por ejemplo, si estamos analizando los precios de casa, será una regresión lineal en el impacto que tiene que una cocina excelente tendrá en el precio de la casa. ¿Casas con cocinas excelente generalmente tienen precios casa mayor o menor en comparación con las casas sin cocinas excelente?
+Por ejemplo, si estamos analizando precios de casas, la regresión lineal mirará el impacto que tiene una cocina excelente en el precio de la casa. ¿Las casas con cocinas excelentes generalmente tienen precios mayores o menores en comparación con las casas sin cocinas excelentes?
 
-La regresión lineal también tiene en cuenta el número de puntos de datos. Por ejemplo, si las casas de tenis tienen precios más altos pero tenemos que muy pocas casas que tienen una pista de tenis, este factor no se considera influyente. Esta determinación se realiza porque no hay suficientes puntos de datos disponibles para deducir un modelo. Una prueba estadística, conocida como una prueba wald lo, se usa para determinar si un factor se considera una persona con influencia. El objeto visual utiliza un valor p de 0,05 para determinar el umbral. 
+La regresión lineal también tiene en cuenta el número de puntos de datos. Por ejemplo, si las casas con pista de tenis tienen precios más altos pero hay muy pocas casas con pista de tenis, este factor no se considera influyente. Esta determinación se realiza porque no hay suficientes puntos de datos disponibles para deducir un modelo. Se usa una prueba estadística (prueba de Wald) para determinar si un factor se considera un influenciador. El objeto visual utiliza un valor p de 0,05 para determinar el umbral. 
 
 **¿Cómo se calculan los segmentos?**
 
-En segundo plano, se usa la visualización de inteligencia artificial [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar un árbol de decisión para buscar los subgrupos interesantes. El objetivo del árbol de decisión es acabar con un subgrupo de puntos de datos relativamente alta de la métrica que le interesa. Podría tratarse de clientes con las calificaciones bajas o casas con los precios altos.
+En segundo plano, la visualización de inteligencia artificial usa [ML.NET](https://dotnet.microsoft.com/apps/machinelearning-ai/ml-dotnet) para ejecutar un árbol de decisión para buscar los subgrupos interesantes. El objetivo final del árbol de decisión es un subgrupo de puntos de datos relativamente alto en la métrica en la cual estamos interesados. Podría tratarse de clientes con calificaciones bajas o casas con precios altos.
 
-El árbol de decisión toma cada factor explicativo e intenta motivo el factor que le ofrece mejor *dividir*. ¿Por ejemplo, si filtra los datos para incluir a solo los clientes de grandes empresas, separará nuestros clientes que le proporcionó una calificación alta frente a la clasificación de gravedad baja? ¿O tal vez es mejor para filtrar los datos para incluir a solo los clientes con comentarios sobre la seguridad? 
+El árbol de decisión toma cada factor explicativo e intenta razonar qué factor le dará la mejor *división*. Por ejemplo, si filtramos los datos para incluir a solo a los clientes de las empresa de gran tamaño, ¿se diferenciarán los clientes que nos han dado una calificación alta y los que han dado una calificación baja? ¿O quizás será mejor si filtramos los datos para incluir solo a los clientes que han realizado comentarios sobre la seguridad? 
 
-Después de que el árbol de decisión realiza una división, toma el subgrupo de datos y determina la división siguiente recomendada para los datos. En este caso, el subgrupo está los clientes que se comentó sobre seguridad. Después de cada división, también tiene en cuenta si tiene suficientes puntos de datos de ese grupo para ser lo suficientemente representativos para deducir un patrón de o si es una anomalía en los datos y no un segmento real. Se aplica otra estadística de prueba para comprobar la importancia estadística de la condición de división con el valor p de 0,05. 
+Después de que el árbol de decisión realiza una división, toma el subgrupo de datos y determina la división siguiente recomendada para esos datos. En este caso, el subgrupo son los clientes que enviaron comentarios sobre seguridad. Después de cada división, también tiene en cuenta si tiene suficientes puntos de datos para que este sea un grupo representativo a partir del cual se puede deducir un patrón o si simplemente puede ser una anomalía en los datos y, por lo tanto, no un segmento real. Se aplica otra prueba estadística para comprobar la importancia estadística de la condición de división, con un valor p de 0,05. 
 
-Cuando finalice el árbol de decisión, toma todas las divisiones, como comentarios de seguridad y grandes empresas y crea los filtros de Power BI. Esta combinación de filtros se empaqueta como un segmento en el objeto visual. 
+Cuando finaliza la ejecución del árbol de decisión, toma todas las divisiones (comentarios de seguridad, empresa de gran tamaño) y crea los filtros de Power BI. Esta combinación de filtros se empaqueta como un segmento en el objeto visual. 
  
-**¿Por qué ciertos factores se convierten en influenciadores o deje de serlo influenciadores a medida que me desplazo más campos en el *explican por* campo?**
+**¿Por qué ciertos factores se convierten en influenciadores o dejan de ser influenciadores a medida que muevo más campos a *Explicar por*?**
 
-La visualización evalúa todos los factores explicativos conjuntamente. Un factor podría ser una persona con influencia por sí mismo, pero cuando se considera con otros factores que no. Suponga que desea analizar lo que impulsa un precio de casa sea alta, con el tamaño de la casa como factores explicativas y dormitorios:
+La visualización evalúa todos los factores explicativos conjuntamente. Un factor podría ser un influenciador pero, cuando se considera con otros factores, podría no serlo. Supongamos que quiere analizar qué es lo que hace que el precio de una casa sea alto, siendo el tamaño de la casa y los dormitorios los factores explicativos:
 
-- Por sí mismo, dormitorios más podrían ser un controlador para los precios de casa sea alta.
-- Tamaño de casa incluidos en el análisis significa que ahora Examinemos lo que ocurre en dormitorios, mientras que el tamaño de casa permanece constante.
-- Si el tamaño de la casa se fija en 1.500 pies cuadrados, no es probable que un aumento continuo en el número de dormitorios aumentará considerablemente el precio de la casa. 
-- Dormitorios podrían no ser tan importantes de un factor que tenía antes de que se consideró como el tamaño de la casa. 
+- Por sí mismo, una cantidad mayor de dormitorios puede ser un impulsor para que los precios de las casas sean altos.
+- La inclusión del tamaño de la casa en el análisis significa que ahora veremos lo que ocurre con los dormitorios si el tamaño de la casa se mantiene constante.
+- Si el tamaño de la casa se fija en 150 metros cuadrados, no es probable que un aumento continuo en el número de dormitorios aumente considerablemente el precio de la casa. 
+- Los dormitorios podrían no ser un factor tan importante como era cuando se tenía en cuenta el tamaño de la casa. 
 
 
 
