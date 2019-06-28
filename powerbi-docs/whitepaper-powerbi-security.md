@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: e75810d18b39619d249c3acd9a9140b3d19d5f35
-ms.sourcegitcommit: ec5b6a9f87bc098a85c0f4607ca7f6e2287df1f5
+ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "66051330"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418698"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -46,7 +46,7 @@ Cada implementación de Power BI consta de dos clústeres: un front-end web (**W
 
 ![WFE y back-end](media/whitepaper-powerbi-security/powerbi-security-whitepaper_01.png)
 
-Power BI usa Azure Active Directory (**AAD**) para la autenticación y administración de cuentas. Power BI también usa **Azure Traffic Manager (ATM)** para dirigir el tráfico del usuario al centro de datos más cercano, según el registro DNS del cliente que se intenta conectar, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa el WFE geográficamente más cercano para distribuir eficazmente el contenido estático es necesario y los archivos a los usuarios, a excepción de los objetos visuales personalizados que se entregan mediante la **Azure Content Delivery Network (CDN)**.
+Power BI usa Azure Active Directory (**AAD**) para la autenticación y administración de cuentas. Power BI también usa **Azure Traffic Manager (ATM)** para dirigir el tráfico del usuario al centro de datos más cercano, según el registro DNS del cliente que se intenta conectar, durante el proceso de autenticación y para descargar archivos y contenido estático. Power BI usa el WFE geográficamente más cercano para distribuir eficazmente el contenido estático es necesario y los archivos a los usuarios, a excepción de los objetos visuales personalizados que se entregan mediante la **Azure Content Delivery Network (CDN)** .
 
 ### <a name="the-wfe-cluster"></a>El clúster WFE
 
@@ -137,7 +137,7 @@ La autenticación de usuarios en el servicio Power BI consta de una serie de sol
 
 La secuencia de autenticación del usuario para el servicio Power BI se produce como se describe en los pasos siguientes, que se ilustran en las imágenes siguientes.
 
-1. Un usuario inicia una conexión al servicio Power BI desde un explorador, ya sea escribiendo la dirección de Power BI en la barra de direcciones (como https://app.powerbi.com) o haciendo clic en _Iniciar sesión_ en la página de aterrizaje de Power BI https://powerbi.microsoft.com)). La conexión se establece mediante TLS 1.2 y HTTPS, y toda la comunicación posterior entre el explorador y el servicio Power BI usa HTTPS. La solicitud se envía a **Azure Traffic Manager**.
+1. Un usuario inicia una conexión al servicio Power BI desde un explorador, ya sea escribiendo la dirección de Power BI en la barra de direcciones (como https://app.powerbi.com) o haciendo clic en _Iniciar sesión_ en la página de aterrizaje de Power BI https://powerbi.microsoft.com) ). La conexión se establece mediante TLS 1.2 y HTTPS, y toda la comunicación posterior entre el explorador y el servicio Power BI usa HTTPS. La solicitud se envía a **Azure Traffic Manager**.
 
 2. **Azure Traffic Manager** comprueba el registro DNS del usuario para determinar el centro de datos más cercano donde se ha implementado Power BI, y responde al DNS con la dirección IP del clúster WFE al que se debe enviar al usuario.
 
@@ -167,7 +167,7 @@ En el servicio Power BI, los datos están _en reposo_ (datos disponibles para un
 
 El servicio Power BI también administra los datos de otra forma en función de si se accede a ellos mediante **DirectQuery** o importación. Por tanto, hay dos categorías de datos de usuario para Power BI: los datos a los que se accede con DirectQuery y los datos a los que no se accede con DirectQuery.
 
-**DirectQuery** es una consulta para la que se ha traducido la consulta de un usuario de Power BI del lenguaje Expresiones de análisis de datos (DAX) de Microsoft (que es el que se usa en Power BI y otros productos de Microsoft para crear consultas) al lenguaje de datos nativo del origen de datos (por ejemplo, T-SQL u otros lenguajes de base de datos nativos). Los datos asociados con DirectQuery se almacenan solo por referencia, lo que significa que los datos de origen no se almacenan en Power BI cuando DirectQuery no está activa (excepto los datos de visualización que se usan para mostrar paneles e informes, como se describe en la sección _Datos en curso (movimiento de datos)_, a continuación). En su lugar, se almacenan referencias a los datos de DirectQuery, que permiten acceder a esos datos cuando se ejecuta DirectQuery. Una instancia de DirectQuery contiene toda la información necesaria para ejecutar la consulta, incluida la cadena de conexión y las credenciales que se usan para acceder a los orígenes de datos, lo que permite a DirectQuery conectarse a los orígenes de datos incluidos para la actualización automática. Con DirectQuery, la información del modelo de datos subyacente se incorpora a DirectQuery.
+**DirectQuery** es una consulta para la que se ha traducido la consulta de un usuario de Power BI del lenguaje Expresiones de análisis de datos (DAX) de Microsoft (que es el que se usa en Power BI y otros productos de Microsoft para crear consultas) al lenguaje de datos nativo del origen de datos (por ejemplo, T-SQL u otros lenguajes de base de datos nativos). Los datos asociados con DirectQuery se almacenan solo por referencia, lo que significa que los datos de origen no se almacenan en Power BI cuando DirectQuery no está activa (excepto los datos de visualización que se usan para mostrar paneles e informes, como se describe en la sección _Datos en curso (movimiento de datos)_ , a continuación). En su lugar, se almacenan referencias a los datos de DirectQuery, que permiten acceder a esos datos cuando se ejecuta DirectQuery. Una instancia de DirectQuery contiene toda la información necesaria para ejecutar la consulta, incluida la cadena de conexión y las credenciales que se usan para acceder a los orígenes de datos, lo que permite a DirectQuery conectarse a los orígenes de datos incluidos para la actualización automática. Con DirectQuery, la información del modelo de datos subyacente se incorpora a DirectQuery.
 
 Una consulta de un conjunto de datos de importación consta de una colección de consultas DAX que _no_ se traducen directamente al lenguaje nativo de ningún origen de datos subyacente. Las consultas de importación no incluyen credenciales para los datos subyacentes, y estos se cargan en el servicio Power BI a menos que sean datos locales a los que se accede a través de una instancia de [Power BI Gateway](service-gateway-onprem.md), en cuyo caso la consulta solo almacena referencias a datos locales.
 
@@ -380,7 +380,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Cómo se conectan los usuarios y obtienen acceso a los orígenes de datos mientras usan Power BI?**
 
-* **Credenciales de Power BI y credenciales del dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En las organizaciones que usan direcciones de correo electrónico de trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en recursos de trabajo, como _david@contoso.com_), la asignación se puede producir sin problemas; en las organizaciones que no han usado direcciones de correo electrónico de trabajo (como _david@contoso.onmicrosoft.com_), se debe establecer la asignación de directorios con el fin de permitir el acceso a los recursos locales mediante credenciales de inicio de sesión de Power BI.
+* **Credenciales de Power BI y credenciales del dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En las organizaciones que usan direcciones de correo electrónico de trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en recursos de trabajo, como _david@contoso.com_ ), la asignación se puede producir sin problemas; en las organizaciones que no han usado direcciones de correo electrónico de trabajo (como _david@contoso.onmicrosoft.com_ ), se debe establecer la asignación de directorios con el fin de permitir el acceso a los recursos locales mediante credenciales de inicio de sesión de Power BI.
 
 * **SQL Server Analysis Services y Power BI:** Para las organizaciones que usan un entorno local de SQL Server Analysis Services, Power BI ofrece la puerta de enlace de datos local de Power BI (que es una **puerta de enlace**, como se hace indicado en las secciones anteriores).  La puerta de enlace de datos local de Power BI puede exigir la seguridad de nivel de rol (RLS) en los orígenes de datos. Para más información sobre RLS, vea **Autenticación de usuarios en orígenes de datos** anteriormente en este documento. También puede leer un artículo exhaustivo sobre [Power BI Gateway](service-gateway-manage.md).
 
@@ -402,7 +402,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Qué sucede con la seguridad basada en roles, el uso compartido de informes o paneles, y las conexiones de datos? ¿Cómo funciona en términos de acceso a los datos, visualización de paneles, acceso o actualización de informes?**
 
-* Para los orígenes de datos habilitados que **no admiten la seguridad de nivel de rol (RLS)**, si un panel, informe o modelo de datos se comparte con otros usuarios a través de Power BI, los datos estarán disponibles para verlos e interactuar con ellos para los usuarios con los que se hayan compartido. Power BI *no* vuelve a autenticar a los usuarios en el origen inicial de los datos; una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos.
+* Para los orígenes de datos habilitados que **no admiten la seguridad de nivel de rol (RLS)** , si un panel, informe o modelo de datos se comparte con otros usuarios a través de Power BI, los datos estarán disponibles para verlos e interactuar con ellos para los usuarios con los que se hayan compartido. Power BI *no* vuelve a autenticar a los usuarios en el origen inicial de los datos; una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos.
 
   Cuando se realizan conexiones de datos a un origen de datos compatible con **RLS**, como un origen de datos de Analysis Services, solo se almacenan en caché en Power BI los datos de paneles. Cada vez que se ve o se accede a un informe o conjunto de datos en Power BI en el que se usan datos procedentes del origen de datos compatible con RLS, el servicio Power BI accede al origen de datos para obtener datos en función de las credenciales del usuario, y si existen permisos suficientes, los datos se cargan en el modelo de datos o informe para ese usuario. Si se produce un error de autenticación, el usuario verá un error.
 
@@ -426,14 +426,11 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **Cuando se trabaja con la puerta de enlace de datos local, ¿cómo se usan las claves de recuperación y dónde se almacenan? ¿Qué sucede con la administración segura de credenciales?**
 
-* Durante la instalación y configuración de puertas de enlace, el administrador escribe una **clave de recuperación** de puerta de enlace. Esa **clave de recuperación** se usa para generar dos conjuntos de claves mucho más seguras:
+* Durante la instalación y configuración de puertas de enlace, el administrador escribe una **clave de recuperación** de puerta de enlace. Que **clave de recuperación** se usa para generar una fuerte **AES** clave simétrica. Un **RSA** clave asimétrica también se crea al mismo tiempo.
 
-  - Una clave asimétrica **RSA**.
-  - Una clave simétrica **AES**.
+    Esas claves generadas (**RSA** y **AES**) se almacenan en un archivo que se encuentra en el equipo local. Ese archivo también se cifra. El contenido del archivo solo lo puede descifrar ese equipo Windows concreto, y solo mediante esa cuenta de servicio de puerta de enlace concreta.
 
-  Esas claves generadas (**RSA** y **AES**) se almacenan en un archivo que se encuentra en el equipo local. Ese archivo también se cifra. El contenido del archivo solo lo puede descifrar ese equipo Windows concreto, y solo mediante esa cuenta de servicio de puerta de enlace concreta.
-
-  Cuando un usuario escribe las credenciales del origen de datos en la interfaz de usuario del servicio Power BI, las credenciales se cifran con la clave pública en el explorador. La puerta de enlace vuelve a cifrar las credenciales (ya cifradas) con una clave simétrica AES antes de que los datos se almacenen en Power BI. Con este proceso, el servicio Power BI nunca tiene acceso a los datos sin cifrar.
+    Cuando un usuario escribe las credenciales del origen de datos en la interfaz de usuario del servicio Power BI, las credenciales se cifran con la clave pública en el explorador. La puerta de enlace descifra las credenciales mediante la clave privada RSA y volver a cifrarlas con una clave simétrica AES antes de que los datos se almacenan en el servicio Power BI. Con este proceso, el servicio Power BI nunca tiene acceso a los datos sin cifrar.
 
 **¿Qué protocolos de comunicación usa la puerta de enlace de datos local y cómo se protegen?**
 
