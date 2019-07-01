@@ -1,22 +1,22 @@
 ---
-title: ¿Qué son las aplicaciones de plantilla de Power BI? (versión preliminar)
+title: ¿Qué son las aplicaciones de plantilla de Power BI?
 description: Este artículo es una introducción del programa de aplicaciones de plantilla de Power BI. Obtenga información sobre cómo crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/26/2019
-ms.author: maggies
-ms.openlocfilehash: 600e2ed603773cada415f603202cc72f22e0d25b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/24/2019
+ms.author: tebercov
+ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751104"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408213"
 ---
-# <a name="what-are-power-bi-template-apps-preview"></a>¿Qué son las aplicaciones de plantilla de Power BI? (versión preliminar)
+# <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
 Las nuevas *aplicaciones de plantilla* de Power BI permiten a los asociados de Power BI crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.  Este artículo es una introducción del programa de aplicaciones de plantilla de Power BI.
 
@@ -37,7 +37,7 @@ El proceso general para desarrollar y enviar una aplicación de plantilla implic
 | **Tres** | |  | Promover el paquete de prueba a preproducción para la validación fuera del inquilino de Power BI y enviarlo a AppSource.  |  | Con el paquete de preproducción, crear una oferta de aplicación de plantilla de Power BI e iniciar el proceso de validación. |
 | **Cuatro** | |  | Promover el paquete de preproducción a producción. |  | Publicar |
 
-## <a name="requirements"></a>Requisitos
+## <a name="before-you-begin"></a>Antes de empezar
 
 Para crear la aplicación de plantilla, necesita permisos para crear una. Vea la configuración de aplicaciones de plantilla en el portal de administración de Power BI para obtener más información. 
 
@@ -66,9 +66,11 @@ Estos son los pasos generales.
 
 ## <a name="requirements"></a>Requisitos
 
-Para crear la aplicación de plantilla, necesita permisos para crear una. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings-preview) de Power BI para obtener más información. 
+Para crear la aplicación de plantilla, necesita permisos para crear una. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información. 
 
 Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, debe cumplir los requisitos para [convertirse en anunciante de Cloud Marketplace](https://docs.microsoft.com/azure/marketplace/become-publisher).
+ > [!NOTE] 
+ > Los envíos de aplicaciones de plantilla se administran en [Cloud Partner Portal](https://cloudpartner.azure.com). Use la misma cuenta de registro de Microsoft Developer Center para iniciar sesión. Debe tener una sola cuenta de Microsoft para sus ofertas de AppSource. Las cuentas no deben ser específicas de servicios u ofertas individuales.
 
 ## <a name="tips"></a>Sugerencias 
 
@@ -78,7 +80,7 @@ Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, 
 - Considere la posibilidad de ofrecer más de una aplicación de plantilla para escenarios únicos independientes. 
 - Habilite la personalización de datos, por ejemplo admita la configuración personalizada de parámetros y conexiones mediante el instalador.
 
-Vea [Sugerencias para crear aplicaciones de plantilla en Power BI (versión preliminar)](service-template-apps-tips.md) para obtener más sugerencias.
+Vea [Sugerencias para crear aplicaciones de plantilla en Power BI](service-template-apps-tips.md) para obtener más sugerencias.
 
 ## <a name="support"></a>Soporte técnico
 Para obtener soporte técnico durante el desarrollo, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Supervisamos y administramos de forma activa este sitio. Los incidentes del cliente encuentran rápidamente la forma de llegar al equipo adecuado.

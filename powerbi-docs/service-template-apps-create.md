@@ -1,22 +1,22 @@
 ---
-title: Creación de aplicaciones de plantilla en Power BI (versión preliminar)
+title: Creación de aplicaciones de plantilla en Power BI
 description: Cómo crear aplicaciones de plantilla en Power BI que puede distribuir a cualquier cliente de Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/22/2019
-ms.author: maggies
-ms.openlocfilehash: 2dc9ae7eb7ecd82cdd6c9ea7ddbc6aa1fc70ca8b
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751196"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264549"
 ---
-# <a name="create-a-template-app-in-power-bi-preview"></a>Creación de una aplicación de plantilla en Power BI (versión preliminar)
+# <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
 Las nuevas *aplicaciones de plantilla* de Power BI permiten a los asociados de Power BI crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.  Este artículo contiene instrucciones paso a paso para crear una aplicación de plantilla de Power BI.
 
@@ -31,20 +31,7 @@ Estos son los requisitos para crear una aplicación la plantilla:
 - Una [licencia de Power BI Pro](service-self-service-signup-for-power-bi.md).
 - Una [instalación de Power BI Desktop](desktop-get-the-desktop.md) (opcional).
 - Estar familiarizado con los [conceptos básicos de Power BI](service-basic-concepts.md).
-- Permisos para crear una aplicación de plantilla. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings-preview) de Power BI para obtener más información.
-
-## <a name="enable-app-developer-mode"></a>Habilitación del modo de desarrollador de aplicaciones
-
-Para crear una aplicación de plantilla que se pueda distribuir a otros inquilinos de Power BI, tendrá que estar en modo de desarrollador de aplicaciones. En caso contrario, simplemente se crea una aplicación para los consumidores de Power BI en su propia organización.
-
-1. Abra el servicio Power BI en un explorador.
-2. Vaya a **Configuración** > **General** > **Desarrollador** > **Habilitar modo de desarrollo de aplicaciones de plantilla**.
-
-    ![Habilitación de las aplicaciones de plantilla](media/service-template-apps-create/power-bi-dev-template-app.png)
-
-    Si no ve esta opción, póngase en contacto con el administrador de Power BI para que le conceda [permisos para el desarrollo de aplicaciones de plantilla](service-admin-portal.md#template-apps-settings-preview) en el portal de administración.
-
-3. Seleccione **Aplicar**.
+- Permisos para compartir una aplicación de plantilla públicamente. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
 
 ## <a name="create-the-template-app-workspace"></a>Creación del área de trabajo de la aplicación de plantilla
 
@@ -54,9 +41,9 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 
     ![Crear área de trabajo de la aplicación](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. En **Crear un área de trabajo**, en **Vista previa de las áreas de trabajo mejoradas**, haga clic en **Intentar ahora**.
+2. En **Crear un área de trabajo de aplicación**, seleccione **Actualizar a nueva**.
 
-    ![Prueba de las nuevas áreas de trabajo](media/service-template-apps-create/power-bi-try-now-new-workspace.png)
+    ![Prueba de las nuevas áreas de trabajo](media/service-template-apps-create/power-bi-upgrade-new.png)
 
 3. Proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo de la aplicación.
 
@@ -70,13 +57,13 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 
 ## <a name="create-the-content-in-your-template-app"></a>Creación del contenido en la plantilla de aplicación
 
-Como sucede con un área de trabajo de la aplicación estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  En esta versión de versión preliminar de las aplicaciones de plantilla, solo se admite uno de cada tipo: un conjunto de datos, un informe y un panel.
+Como sucede con un área de trabajo de la aplicación estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  
 
 - [Cree el contenido de Power BI](power-bi-creator-landing.md) en el área de trabajo de la aplicación.
 
 Si va a usar parámetros en Power Query, asegúrese de que tengan tipos bien definidos (por ejemplo, Texto). Los tipos Todo y Binario no se admiten.
 
-En [Sugerencias para la creación de aplicaciones de plantilla en Power BI (versión preliminar)](service-template-apps-tips.md) se proporcionan sugerencias que puede tener en cuenta al crear informes y paneles para la aplicación de plantilla.
+En [Sugerencias para la creación de aplicaciones de plantilla en Power BI](service-template-apps-tips.md) se proporcionan sugerencias que puede tener en cuenta al crear informes y paneles para la aplicación de plantilla.
 
 ## <a name="create-the-test-template-app"></a>Creación de la aplicación de plantilla de prueba
 
@@ -174,10 +161,10 @@ A continuación se analizan las fases:
 10. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel **Administración de versiones** y seleccione **Promover aplicación**. 
 
     ![Promoción de la aplicación a preproducción](media/service-template-apps-create/power-bi-template-app-promote.png)
-
     >[!NOTE]
     > Cuando se promueve la aplicación, esta pasa a estar públicamente disponible fuera de la organización.
 
+    Si no ve esta opción, póngase en contacto con el administrador de Power BI para que le conceda [permisos para el desarrollo de aplicaciones de plantilla](service-admin-portal.md#template-apps-settings) en el portal de administración.
 11. Haga clic en **Promover** para confirmar la elección.
 12. Copie esta nueva dirección URL para compartir fuera del inquilino con el fin de realizar pruebas. Este vínculo también es el que se envía para comenzar el proceso de distribución de la aplicación en AppSource mediante la creación de una [nueva oferta de Cloud Partner Portal](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-publish-offer). Solo debe enviar a Cloud Partner Portal vínculos del entorno de preproducción. Solo después de que la aplicación se apruebe y reciba la notificación de que está publicada en AppSource podrá promover este paquete a producción en Power BI.
 13. Cuando la aplicación esté lista para producción o para compartirla a través de AppSource, vuelva al panel **Release Management** y haga clic en **Promover aplicación** junto a **Preproducción**.
@@ -188,25 +175,6 @@ A continuación se analizan las fases:
     ![Aplicación en producción](media/service-template-apps-create/power-bi-template-app-production.png)
 
 Para hacer que la aplicación esté disponible a miles de usuarios de Power BI en todo el mundo, le animamos a enviarla a AppSource. Vea [Oferta de aplicación de Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer) para obtener más información.
-
-## <a name="update-your-app"></a>Actualización de la aplicación
-
-Ahora que la aplicación está en producción, puede empezar de nuevo en la fase de prueba, sin interrumpir la aplicación en producción.
-
-1. En el panel **Release Management**, haga clic en **Crear aplicación**.
-2. Vuelva a realizar el proceso de creación de la aplicación.
-3. Después de establecer **Personalización de marca**, **Contenido**, **Control** y **Acceso**, vuelva a hacer clic en **Crear aplicación**.
-4. Haga clic en **Cerrar** y vuelva a **Release Management**.
-
-   Ahora verá que tiene dos versiones: la versión en producción, además de una nueva versión de prueba.
-
-    ![Dos versiones de una aplicación de plantilla](media/service-template-apps-create/power-bi-template-app-2-versions.png)
-
-5. Cuando esté listo para promover la aplicación al entorno de preproducción para realizar más pruebas fuera del inquilino, vuelva al panel Release Management y seleccione **Promover aplicación** junto a **Pruebas**.
-6. El vínculo ya está disponible, vuelva a enviarlo a Cloud Partner Portal según los pasos descritos en [Actualizar una oferta de aplicación de Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-update-existing-offer).
-
->[!NOTE]
->Solo debe promover la aplicación a la fase de producción después de que la aplicación sea aprobada por Cloud Partner Portal y la haya publicado.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

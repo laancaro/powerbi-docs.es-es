@@ -1,22 +1,22 @@
 ---
-title: 'Distribución de aplicaciones de plantilla en la organización: Power BI (versión preliminar)'
+title: 'Distribución de aplicaciones de plantilla en la organización: Power BI'
 description: Obtenga información sobre cómo instalar, personalizar y distribuir aplicaciones de plantilla de la organización en Power BI.
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 0671dfb324b3d66a9dee9585f94d3cb6825fb5eb
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.date: 06/10/2019
+ms.author: tebercov
+ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751240"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264536"
 ---
-# <a name="install-and-distribute-template-apps-in-your-organization---power-bi-preview"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI (versión preliminar)
+# <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI
 
 ¿Es un analista de Power BI? Si es así, este artículo explica cómo instalar *aplicaciones de plantilla* para conectarse a muchos de los servicios que usa para dirigir su negocio, como Salesforce, Microsoft Dynamics y Google Analytics. Puede modificar los paneles e informes para satisfacer las necesidades de su organización y distribuirlos después a sus compañeros de trabajo como una *aplicación*. 
 
@@ -55,14 +55,13 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
 
 3. Examine o busque la aplicación, y después haga clic en **Obtenerla ahora**.
 
-2. En el cuadro de diálogo, haga clic en **Instalar**.
+4. En el cuadro de diálogo, haga clic en **Instalar**.
 
-    Si tiene una licencia de Power BI Pro, la aplicación se instala con su área de trabajo de la aplicación asociada. La aplicación se personaliza en el área de trabajo asociada.
+    ![Instalación de una aplicación](media/service-template-apps-install-distribute/power-install-dialog.png) Si tiene una licencia de Power BI Pro, la aplicación se instala con su área de trabajo de la aplicación asociada. La aplicación se personaliza en el área de trabajo asociada.
 
-    Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista. 
-
-3. Haga clic en **Ir a la aplicación**.
-4. En **Empezar a trabajar con la nueva aplicación**, seleccione una de las tres opciones:
+    Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista.
+4. Haga clic en **Ir a la aplicación**.
+5. En **Empezar a trabajar con la nueva aplicación**, seleccione una de las tres opciones:
 
     ![Empezar a trabajar con la aplicación](media/service-template-apps-create/power-bi-template-app-get-started.png)
 
@@ -70,13 +69,22 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
     - **Conectar datos**: cambie el origen de datos de los datos de ejemplo al suyo propio. Puede volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-tips.md#known-limitations) en el artículo sobre sugerencias para aplicaciones de plantilla. 
     - **Ir a área de trabajo** (opción más avanzada): puede realizar cualquier cambio permitido por el desarrollador de la aplicación.
 
-    O bien, omita este cuadro de diálogo y acceda a un área de trabajo asociada directamente a través de **Áreas de trabajo** en el panel de navegación de la izquierda.   
+    O bien, omita este cuadro de diálogo y acceda a un área de trabajo asociada directamente a través de **Áreas de trabajo** en el panel de navegación de la izquierda.
+    >[!NOTE]
+    >Instalación de una aplicación de plantilla instalada tanto en una *aplicación de organización* como en una *aplicación de área de trabajo*. Obtenga más información sobre la [distribución de aplicaciones en Power BI](service-create-distribute-apps.md).
  
-5. Antes de compartirla con lo compañeros de trabajo, le interesará conectarse a sus propios datos. También querrá modificar el informe o el panel para que funcione para la organización. Además, en este momento puede agregar otros informes o paneles.
+6. Antes de compartirla con lo compañeros de trabajo, le interesará conectarse a sus propios datos. También querrá modificar el informe o el panel para que funcione para la organización. Además, en este momento puede agregar otros informes o paneles.
+
+   Si selecciona un vínculo de instalación de una aplicación que no figure en AppSource, se le mostrará el cuadro de diálogo de validación, en el que deberá confirmar su elección.
+
+   ![Instalar aplicación](media/service-template-apps-install-distribute/power-install-unvalidated-dialog.png)
+
+   >[!NOTE]
+   >Para instalar aplicaciones de la plantilla que no figuren en AppSource, deberá solicitar permiso al administrador. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
 
 ## <a name="update-and-distribute-the-app"></a>Actualización y distribución de la aplicación
 
-Después de actualizar la aplicación para la organización, está listo para publicarla. Los pasos son los mismos que para publicar cualquier otra aplicación. 
+Después de actualizar la aplicación para la organización, está listo para publicarla. Los pasos son los mismos que para publicar cualquier otra aplicación.
 
 1. Cuando haya terminado la personalización, en la lista de áreas de trabajo seleccione **Actualizar aplicación** en la esquina superior derecha.  
 
@@ -106,6 +114,6 @@ Después de actualizar la aplicación para la organización, está listo para pu
 
 
 
-  
+￼ 
 
  

@@ -9,18 +9,20 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 7b687fd67f844e000811ae00a53772ab9403ab90
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3dcc8211f6752d272d550dfaff343374866187c9
+ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66838947"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "67345500"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI
 
 En este artículo, obtendrá información sobre cómo crear y modificar un origen de datos insertado en un informe paginado en el servicio Power BI. Defina un origen de datos insertado en un único informe y úselo solo en dicho informe. Actualmente, los informes paginados que se publican en el servicio Power BI necesitan conjuntos de datos insertados y orígenes de datos insertados, y se pueden conectar a estos orígenes de datos:
 
-- Azure SQL Database y Data Warehouse
+- Azure Analysis Services
+- Azure SQL Database y 
+- Azure SQL Data Warehouse
 - SQL Server
 - SQL Server Analysis Services
 - Oracle 
@@ -28,7 +30,6 @@ En este artículo, obtendrá información sobre cómo crear y modificar un orige
 
 Para los siguientes orígenes de datos, use la opción [Conexión de SQL Server Analysis Services](service-premium-connect-tools.md):
 
-- Azure Analysis Services
 - Conjuntos de datos de Power BI Premium
 
 Los informes paginados se conectan a los orígenes de datos locales mediante una [puerta de enlace de Power BI](service-gateway-getting-started.md). Configure la puerta de enlace después de publicar el informe en el servicio Power BI.
@@ -66,6 +67,30 @@ Consulte [Datos del informe en el Generador de informes de Power BI](report-bui
 5.  Seleccione **Aceptar**.  
   
      El origen de datos aparece en el panel Datos de informe.  
+     
+## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
+
+Los informes paginados que se conectan a los conjuntos de datos de Power BI siguen las reglas para los conjuntos de datos compartidos en Power BI con algunos cambios menores.  Para que los usuarios puedan ver correctamente los informes paginados con conjuntos de datos de Power BI, así como para garantizar que la seguridad en el nivel de fila (RLS) esté habilitada y que se aplique a los usuarios, asegúrese de que sigue estas reglas:
+
+### <a name="classic-apps-and-app-workspaces"></a>Aplicaciones y áreas de trabajo de aplicación clásicos
+
+- .rdl en la misma área de trabajo que el conjunto de datos (mismo propietario): Admitido
+- .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido
+- .rdl compartido: debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Aplicación compartida: debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- .rdl en la misma área de trabajo que el conjunto de datos (usuario distinto): Admitido
+- .rdl en una misma área de trabajo distinta a la del conjunto de datos (usuario distinto): debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Seguridad en el nivel de rol: para aplicarla, debe crear los permisos asignados a cada usuario que esté viendo el informe de nivel de conjunto de datos.
+
+### <a name="new-experience-apps-and-app-workspaces"></a>Nueva experiencia de aplicaciones y áreas de trabajo de aplicación
+
+- .rdl en la misma área de trabajo que el conjunto de datos: Admitido
+- .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido
+- .rdl compartido: debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Aplicación compartida: debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- .rdl en la misma área de trabajo que el conjunto de datos (usuario distinto): se admite.
+- .rdl en una área de trabajo distinta a la del conjunto de datos (usuario distinto): debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Seguridad en el nivel de rol: para aplicarla, debe crear los permisos asignados a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

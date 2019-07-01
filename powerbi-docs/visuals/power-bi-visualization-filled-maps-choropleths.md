@@ -8,15 +8,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2fa8fa5248ee1e4330804205b2cedb64021b1913
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
+ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839820"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "67299364"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos en Power BI
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región.  Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).    
@@ -70,10 +70,10 @@ En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
 1. En el panel Campos, seleccione el campo **Zona geográfica** \> **Estado**.    
 
    ![Marca de verificación amarilla junto a Estado](media/power-bi-visualization-filled-maps-choropleths/power-bi-state.png)
-5. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un mapa coroplético. Observe que **Estado** está ahora en el área **Ubicación**. Bing Maps usa el campo del área **Ubicación** para crear el mapa.  La ubicación puede ser una gran variedad de ubicaciones válidas: países, estados, provincias, ciudades, códigos postales, etc. Bing Maps proporciona mapas coropléticos para ubicaciones en todo el mundo. Sin una entrada válida en el área Ubicación, Power BI no puede crear el mapa coroplético.  
+2. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un mapa coroplético. Observe que **Estado** está ahora en el área **Ubicación**. Bing Maps usa el campo del área **Ubicación** para crear el mapa.  La ubicación puede ser una gran variedad de ubicaciones válidas: países, estados, provincias, ciudades, códigos postales, etc. Bing Maps proporciona mapas coropléticos para ubicaciones en todo el mundo. Sin una entrada válida en el área Ubicación, Power BI no puede crear el mapa coroplético.  
 
    ![Plantillas con el icono de mapa coroplético resaltado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
-6. Filtre el mapa para mostrar solo el territorio continental de Estados Unidos.
+3. Filtre el mapa para mostrar solo el territorio continental de Estados Unidos.
 
    a.  En la parte inferior del panel Visualizaciones, busque el área **Filtros** .
 
@@ -83,21 +83,24 @@ En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
    c.  Coloque una marca de verificación junto a **Todos** y quite la marca de verificación junto a **AK**.
 
    ![Lista desplegable de estados con (Todos) y AK sin seleccionar](media/power-bi-visualization-filled-maps-choropleths/img005.png)
-7. Seleccione **SalesFact** \> **Opinión** para agregarlo al área **Saturación de color**. El campo en el área **Saturación de color** controla el sombreado del mapa.  
-   ![Opinión en el área del campo Saturación de color](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map.png)
-8. El mapa coroplético se sombrea en color verde y rojo; el rojo representa los números de opinión más bajos y el verde la opinión más alta y más positiva.  Aquí hemos resaltado el estado de Wyoming (WY) y vemos que la opinión es muy buena, 74.  
-   ![Cuadro de diálogo negro que muestra el estado y la opinión](media/power-bi-visualization-filled-maps-choropleths/power-bi-wy.png)
-9. [Guarde el informe](../service-report-save.md).
-##    <a name="adjust-the-color-formatting"></a>Ajuste del formato de color
-Power BI le proporciona mucho control sobre la apariencia del mapa coroplético.
-1. Seleccione el icono del rodillo de pintura para abrir el panel de formato.
+4. Seleccione el icono del rodillo de pintura para abrir el panel de formato y elija **Colores de datos**.
 
-    ![Panel de formato](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-colors.png)
+    ![Panel de formato en el que se muestra la opción Colores de datos](media/power-bi-visualization-filled-maps-choropleths/power-bi-data-color.png)
 
-2. Haga clic en **Colores de datos** para mostrar las opciones de color.
-3. Establezca los colores Mínimo y Máximo en amarillo y azul. Y agregue los valores Mínimo y Máximo, en función de los datos. Practique con estos controles hasta que obtenga el aspecto que quiera. 
+5. Seleccione los tres puntos verticales y elija **Formato condicional**.
 
-    ![Colores no divergentes](media/power-bi-visualization-filled-maps-choropleths/power-bi-color.png)
+    ![Botón de formato condicional de Colores de datos](media/power-bi-visualization-filled-maps-choropleths/power-bi-conditional-formatting.png)
+
+6. Utilice la pantalla **Color predeterminado: Colores de datos** para determinar los tonos de su mapa coroplético. Las opciones disponibles incluyen en qué campo se basarán los tonos y cómo se aplicarán. En este ejemplo se usa el campo **SalesFact** > **Sentiment**; se establece el valor inferior de opinión como rojo, mientras que el superior es verde. Los valores que se encuentren entre el valor superior y el mínimo se representarán con tonalidades de rojo y verde. En la ilustración de la parte inferior de la pantalla se muestra la gama de colores que se usará. 
+
+    ![Panel de color predeterminado con una opinión seleccionada](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment.png)
+
+7. El mapa coroplético se sombrea en color verde y rojo; el rojo representa los números de opinión más bajos y el verde la opinión más alta y más positiva.  Para mostrar detalles adicionales, arrastre un campo al área de información sobre herramientas.  Aquí se ha agregado **Diferencia de opinión** y se resaltado el estado de Idaho (ID). Tal como puede apreciarse, la diferencia es baja (6).
+   ![Mapa coroplético en el que se muestra información sobre herramientas de Idaho](media/power-bi-visualization-filled-maps-choropleths/power-bi-filled-map-idaho.png)
+
+10. [Guarde el informe](../service-report-save.md).
+
+Power BI le proporciona un amplio control de la apariencia de su mapa coroplético. Practique con estos controles de colores de datos hasta que obtenga el aspecto que desee. 
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
 Para más información acerca de cómo usar el panel Filtros, consulte [Agregar un filtro a un informe](../power-bi-report-add-filter.md).
