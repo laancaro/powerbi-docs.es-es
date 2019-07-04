@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 3465d9280af84a97ebf2ea5ec90ff60daf9e96fa
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: ec50369715efdd7bcb9ab764a3240acceb72508e
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389553"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418659"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -22,11 +22,7 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Regístrese si quiere escuchar a los expertos en Power BI y participar en sesiones en directo de preguntas y respuestas.
-
-**Power BI: Cómo obtener información sobre los datos de recursos humanos de Workday**
-<br>con Iman Eftekhari y Julia Paton de Agile Analytics y Shahram Karimi de QBE Insurance
-<br>[Regístrese para verlo el 27 de junio, 1:30 P.M.-2:30 P.M. PST](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
+Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -128,6 +124,10 @@ Vea las sesiones grabadas en cualquier momento
 
 ### <a name="partner-solutions-series"></a>Serie Partner Solutions (Soluciones para asociados) ###
 [Vea esta serie](https://info.microsoft.com/ww-landing-PartnerWebinarSeriesPage.html)
+
+**Power BI: Cómo obtener información sobre los datos de recursos humanos de Workday**
+<br>con Iman Eftekhari y Julia Paton de Agile Analytics y Shahram Karimi de QBE Insurance
+<br>[Registrarse y ver ahora](https://info.microsoft.com/How-to-Get-insights-from-Your-Workday-HR-Data-Registration.html?Lcid=en-us)
 
 **Achieving a Win-Win for Consumer Product Goods Manufacturers and Retailers** (Lograr unos resultados satisfactorios para los fabricantes y distribuidores de bienes de consumo)
 <br>de Liz McCreesh de Thorogood

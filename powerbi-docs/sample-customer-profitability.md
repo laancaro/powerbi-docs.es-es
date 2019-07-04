@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 70f47e4885b3abeb6ee17bea23dec35a230d57ec
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349402"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418763"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo
 
-## <a name="overview-of-the-customer-profitability-sample"></a>Información general del ejemplo Customer Profitability
 El paquete de contenido de ejemplo Rentabilidad del cliente contiene un panel, un informe y un conjunto de datos de una compañía que fabrica materiales de marketing. Este panel lo creó un director financiero para ver las métricas clave relacionadas con los cinco gerentes de unidad de negocio (ejecutivos), los productos, los clientes y los márgenes brutos (GM). Así, de un vistazo, puede ver los factores que afectan a la rentabilidad.
 
 ![Panel del Ejemplo de rentabilidad del cliente](media/sample-customer-profitability/power-bi-dash.png)
@@ -203,9 +202,8 @@ Echemos un vistazo al sector Distribución.
 
     Podemos explorar otros sectores de forma similar e incluso agregar clientes a nuestros elementos visuales para entender los motivos del rendimiento de Valery.
 
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles, la sección Preguntas y respuestas y los informes de Power BI pueden proporcionar información detallada de los clientes. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
 
-[Ejemplos de Power BI](sample-datasets.md)  
