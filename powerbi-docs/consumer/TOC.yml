@@ -174,6 +174,8 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Anotación y uso compartido en las aplicaciones móviles
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
+            - name: Escanear un código de barras desde la aplicación del iPhone
+              href: mobile/mobile-apps-scan-barcode-iphone.md
         - name: iOS
           items:
             - name: Introducción a la aplicación de iOS
@@ -188,8 +190,6 @@
               href: mobile/mobile-apps-iOS-search-integration.md
             - name: Aplicación Power BI en Apple Watch
               href: mobile/mobile-apple-watch.md
-            - name: Escanear un código de barras desde la aplicación del iPhone
-              href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Configuración mediante la administración de dispositivos móviles
               href: mobile/mobile-app-configuration.md
         - name: Dispositivos Android
