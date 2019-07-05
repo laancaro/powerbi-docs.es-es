@@ -8,36 +8,38 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2acdada1a0b6955fb7d85f445bdbf5895b795bb4
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 5d704e32a9e5f85f280e17042ae4eb799058d739
+ms.sourcegitcommit: 7d52401f50944feaaa112c84113ee47f606dbf68
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751172"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "67124001"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos almacenado en OneDrive o SharePoint Online
-Importar archivos desde OneDrive o SharePoint Online en el servicio Power BI es una excelente manera de asegurarse de que el trabajo que está realizando en **Power BI Desktop** permanece sincronizado con el servicio Power BI.
+Importar archivos desde OneDrive o SharePoint Online en el servicio Power BI es una excelente manera de asegurarse de que el trabajo que está realizando en Power BI Desktop permanece sincronizado con el servicio Power BI.
 
 ## <a name="advantages-of-storing-a-power-bi-desktop-file-on-onedrive-or-sharepoint-online"></a>Ventajas de almacenar un archivo de Power BI Desktop en OneDrive o SharePoint Online
-Cuando almacena un archivo de **Power BI Desktop** en OneDrive o SharePoint Online, todos los datos cargados en el modelo del archivo se importan en el conjunto de datos y los informes creados en el archivo se cargan en **Informes** en el servicio Power BI. Cuando realiza cambios en el archivo en OneDrive o SharePoint Online, como agregar nuevas medidas, cambiar nombres de columna o editar visualizaciones, cuando guarde el archivo, esos cambios se actualizarán en el servicio Power BI también, por lo general en un plazo aproximado de una hora.
+Cuando almacena un archivo de Power BI Desktop en OneDrive o SharePoint Online, todos los datos cargados en el modelo del archivo se importan en el conjunto de datos. Los informes creados en el archivo se cargan en **Informes** en el servicio Power BI. Supongamos que realiza cambios en el archivo en OneDrive o SharePoint Online. Estos cambios pueden incluir la adición de nuevas medidas, el cambio de los nombres de columnas o la edición de visualizaciones. Una vez que guarde el archivo, el servicio Power BI sincroniza también esos cambios, por lo general en una hora.
 
-Para realizar una actualización manual única directamente en Power BI Desktop, seleccione Actualizar en la cinta de opciones Inicio. Cuando se selecciona Actualizar aquí, los datos del modelo del *archivo* se actualizan con los datos actualizados del origen de datos original. Este tipo de actualización, que se realiza completamente desde la aplicación Power BI Desktop, es diferente de una actualización manual o programada en Power BI y es importante comprender la diferencia.
+Para realizar una actualización manual única directamente en Power BI Desktop, seleccione **Actualizar** en la cinta de opciones **Inicio**. Cuando se selecciona **Actualizar**, se actualiza el modelo del archivo con los datos actualizados del origen de datos original. Este tipo de actualización ocurre por completo dentro de la propia aplicación de Power BI Desktop. Es diferente de una actualización programada o manual en Power BI, y es importante comprender la diferencia.
 
 ![](media/refresh-desktop-file-onedrive/pbix-refresh.png)
 
-Al importar el archivo de Power BI Desktop desde OneDrive o SharePoint Online, los datos y otra información acerca del modelo se cargan en un conjunto de datos en Power BI. En el servicio Power BI (no en Power BI Desktop), los datos se actualizan en el conjunto de datos porque en él se basan los informes del servicio Power BI. Dado que los orígenes de datos son externos, puede actualizar manualmente el conjunto de datos mediante **Actualizar ahora**, o bien puede configurar una programación de actualización mediante **Programar actualización**.
+Al importar el archivo de Power BI Desktop desde OneDrive o SharePoint Online, los datos y otra información acerca del modelo se cargan en un conjunto de datos en Power BI. Desea actualizar el conjunto de datos en el servicio Power BI porque eso es en lo que se basan los informes. Dado que los orígenes de datos son externos, puede actualizar manualmente el conjunto de datos mediante **Actualizar ahora** o bien puede configurar una programación de actualización mediante **Programar actualización**. 
 
-Al actualizar el conjunto de datos, Power BI no se conecta al archivo en OneDrive o SharePoint Online para consultar los datos actualizados. Usa la información del conjunto de datos para conectarse directamente a los orígenes de datos para consultar los datos actualizados que luego carga en el conjunto de datos. Estos datos actualizados en el conjunto de datos no se vuelven a sincronizar con el archivo en OneDrive o SharePoint Online.
+![](media/refresh-desktop-file-onedrive/powerbi-service-refresh.png)
+
+Al actualizar el conjunto de datos, Power BI no se conecta al archivo en OneDrive o SharePoint Online para consultar los datos actualizados. Utiliza la información del conjunto de datos para conectarse directamente a los orígenes de datos y consultar los datos actualizados. A continuación, carga datos en el conjunto de datos. Estos datos actualizados en el conjunto de datos no se vuelven a sincronizar con el archivo en OneDrive o SharePoint Online.
 
 ## <a name="whats-supported"></a>¿Qué es compatible?
-En Power BI, se admite la actualización inmediata y la programación de actualización para los conjuntos de datos creados a partir de archivos de Power BI Desktop importados desde una unidad local, y se usa Obtener datos o el Editor de consultas para conectarse a cualquiera de los siguientes orígenes de datos y cargar datos de ellos:
+Power BI admite las opciones **Actualizar** y **Programar actualización** para los conjuntos de datos creados a partir de archivos de Power BI Desktop importados desde una unidad local donde usa **Obtener datos** o el **Editor de consultas** para conectarse a cualquiera de los siguientes orígenes de datos y cargar datos de ellos.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
-* Todos los orígenes de datos en línea que se muestran en Obtener datos y en el Editor de consultas de Power BI Desktop.
-* Todos los orígenes de datos locales que se muestran en Obtener datos y en el Editor de consultas de Power BI Desktop, excepto el archivo Hadoop (HDFS) y Microsoft Exchange.
+* Todos los orígenes de datos en línea que se muestran en **Obtener datos** y en el **Editor de consultas** de Power BI Desktop.
+* Todos los orígenes de datos locales que se muestran en **Obtener datos** y en el **Editor de consultas** de Power BI Desktop, excepto el archivo Hadoop (HDFS) y Microsoft Exchange.
 
 <!-- Refresh Data sources-->
 [!INCLUDE [refresh-datasources](./includes/refresh-datasources.md)]
@@ -48,33 +50,34 @@ En Power BI, se admite la actualización inmediata y la programación de actuali
 > 
 
 ## <a name="onedrive-or-onedrive-for-business-whats-the-difference"></a>OneDrive o OneDrive para la Empresa. ¿Cuál es la diferencia?
-Si tiene OneDrive personal y OneDrive para la Empresa, se recomienda que mantenga los archivos que quiere importar en Power BI en OneDrive para la Empresa. Esta es la razón: es probable que use dos cuentas diferentes para iniciar sesión en ambos.
+Si tiene OneDrive personal y OneDrive para la Empresa, debería mantener los archivos que quiere importar en Power BI en OneDrive para la Empresa. Esta es la razón: es probable que use dos cuentas diferentes para iniciar sesión en ambos.
 
-La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problemas, ya la cuenta que se usa para iniciar sesión en Power BI suele ser la misma que se usa para hacerlo en OneDrive para la Empresa. No obstante, con OneDrive personal, es probable que inicie sesión con otra [cuenta Microsoft](https://account.microsoft.com).
+La conexión a OneDrive para la Empresa en Power BI es fácil porque su cuenta de Power BI suele coincidir con su cuenta de OneDrive para la Empresa. Con OneDrive personal, normalmente inicia sesión con otra [cuenta Microsoft](https://account.microsoft.com).
 
-Si inicia sesión con su cuenta Microsoft, asegúrese de seleccionar Mantener la sesión iniciada. Posteriormente, Power BI podrá sincronizar todas las actualizaciones que realice en el archivo en Power BI Desktop con los conjuntos de datos de Power BI.  
-    ![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+Si inicia sesión con su cuenta Microsoft, asegúrese de seleccionar **Mantener la sesión iniciada**. Posteriormente, Power BI podrá sincronizar todas las actualizaciones que realice en el archivo en Power BI Desktop con los conjuntos de datos de Power BI.
 
-Si realiza cambios en el archivo en OneDrive que no se pueden sincronizar con el conjunto de datos o los informes de Power BI porque podrían haber cambiado sus credenciales de la cuenta Microsoft, deberá conectarse al archivo e importarlo de nuevo desde OneDrive personal.
+![](media/refresh-desktop-file-onedrive/refresh_signin_keepmesignedin.png)
+
+Si ha cambiado sus credenciales de Microsoft, no puede sincronizar los cambios entre el archivo en OneDrive y el conjunto de datos en Power BI. Tendrá que conectarse a OneDrive e importar el archivo de nuevo desde ahí.
 
 ## <a name="how-do-i-schedule-refresh"></a>¿Cómo se programa una actualización?
-Si configura una programación de actualización, Power BI se conectará directamente a los orígenes de datos con la información de conexión y las credenciales del conjunto de datos para consultar los datos actualizados y, luego, cargar los datos actualizados en el conjunto de datos. También se actualizan las visualizaciones de informes y paneles basadas en ese conjunto de datos en el servicio Power BI.
+Al configurar una programación de actualización, Power BI se conecta directamente a los orígenes de datos. Power BI usa la información de conexión y las credenciales del conjunto de datos para consultar los datos actualizados. A continuación, Power BI carga los datos actualizados en el conjunto de datos. Luego actualiza las visualizaciones de informes y los paneles basados en ese conjunto de datos en el servicio Power BI.
 
-Para más información sobre cómo configurar la actualización programada, consulte [Configuring scheduled refresh](refresh-scheduled-refresh.md) (Configuración de actualización programada).
+Para más información sobre cómo configurar la actualización programada, consulte [Configuración de actualización programada](refresh-scheduled-refresh.md).
 
 ## <a name="when-things-go-wrong"></a>Si se produce algún problema
-Si las cosas no van bien, suele ser porque Power BI no puede iniciar sesión en los orígenes de datos o, si el conjunto de datos se conecta a un origen de datos local, la puerta de enlace está sin conexión. Asegúrese de que Power BI puede iniciar sesión en los orígenes de datos. Si cambia una contraseña que usa para iniciar sesión en un origen de datos o se le cierra la sesión a Power BI de un origen de datos, asegúrese de intentar iniciar sesión en los orígenes de datos en Credenciales del origen de datos.
+Si se produce algún problema, suele ser porque Power BI no puede iniciar sesión en los orígenes de datos. Es posible que también se produzcan problemas si el conjunto de datos intenta conectarse a un origen de datos local pero la puerta de enlace está sin conexión. Para evitar estos problemas, asegúrese de que Power BI puede iniciar sesión en los orígenes de datos. Intente iniciar sesión en los orígenes de datos en **Credenciales del origen de datos**. A veces, cambia la contraseña que usa para iniciar sesión en un origen de datos o Power BI cierra la sesión desde un origen de datos.
 
-Si está realizando cambios en el archivo de Power BI Desktop en OneDrive y, al guardarlos, no se reflejan en Power BI en un plazo aproximado de una hora, podría ser porque Power BI no puede conectarse a OneDrive. Intente conectarse de nuevo al archivo en OneDrive. Si se le pide que inicie sesión, asegúrese de seleccionar Mantener la sesión iniciada. Dado que Power BI no pudo conectarse a OneDrive para la sincronización con el archivo, deberá volver a importar el archivo.
+Si guarda los cambios en el archivo de Power BI Desktop en OneDrive y no los ve en Power BI en un plazo aproximado de una hora, podría ser porque Power BI no puede conectarse a OneDrive. Intente conectarse de nuevo al archivo en OneDrive. Si se le pide que inicie sesión, asegúrese de seleccionar **Mantener la sesión iniciada**. Dado que Power BI no pudo conectarse a OneDrive para la sincronización con el archivo, deberá volver a importar el archivo.
 
 Asegúrese de dejar seleccionada la opción **Enviar un correo con los errores de actualización** . Si no se puede realizar una actualización programada, deseará saberlo inmediatamente.
 
 ## <a name="troubleshooting"></a>Solución de problemas
-A veces, la actualización de datos no funciona según lo previsto. Normalmente se trata de un problema relacionado con una puerta de enlace. Consulte en los artículos de solución de problemas relacionados con la puerta de enlace las herramientas y los problemas conocidos.
+A veces, la actualización de datos no funciona según lo previsto. Normalmente encontrará problemas con la actualización de datos cuando esté conectado con una puerta de enlace. Consulte en los artículos de solución de problemas relacionados con la puerta de enlace las herramientas y los problemas conocidos.
 
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)
 
 [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
 

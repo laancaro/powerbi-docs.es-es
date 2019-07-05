@@ -1,6 +1,6 @@
 ---
-title: 'Servicio Power BI: conceptos básicos para consumidores'
-description: Aplicaciones del servicio Power BI, áreas de trabajo, paneles, informes, conjuntos de datos y libros.
+title: 'Servicio Power BI: conceptos básicos para consumidores'
+description: Aplicaciones del servicio Power BI, áreas de trabajo, paneles, informes, conjuntos de datos y libros.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -9,171 +9,212 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8172934357c24516a40a670c68e008521bd4d82d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61051616"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264723"
 ---
-# <a name="basic-concepts-for-power-bi-service-consumers"></a>Conceptos básicos para el ***cliente*** del servicio Power BI
+# <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceptos básicos para consumidores de Power BI
 
-## <a name="power-bi-consumers-and-designers"></a>*Consumidores* y *diseñadores* de Power BI
-En este artículo se asume que ha leído la [introducción a Power BI](../power-bi-overview.md) y se ha identificado como ***consumidor*** de Power BI. Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
+En este artículo se asume que ha leído la [introducción a Power BI](../power-bi-overview.md) y se ha identificado como ***consumidor*** de Power BI. Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
 
-Sin duda, oirá el término "Power BI Desktop" o simplemente "Desktop", se trata de una herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted. Es importante saber que existen otras herramientas de Power BI, pero dado que usted es un consumidor, solo trabajará con el servicio Power BI. Y este artículo se aplica solo al servicio Power BI.
+Seguro que ha oído hablar de "Power BI Desktop" o simplemente de "Desktop". Es la herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted. Es importante saber que existen otras herramientas de Power BI. Mientras sea consumidor, solo trabajará con el servicio Power BI. Este artículo se aplica solo al servicio Power BI.
 
 ## <a name="terminology-and-concepts"></a>Terminología y conceptos
-En este artículo no es un recorrido visual por Power BI, ni un tutorial práctico. Es más bien un artículo de introducción que esperamos que le ayudará a sentirse cómodo con los conceptos y la terminología de Power BI. Es una forma de conocer la jerga y familiarizarse con el entorno. Para realizar un recorrido por el servicio Power BI y su navegación, visite [Realizar un paseo](end-user-experience.md).
 
-## <a name="open-power-bi-service-for-the-first-time"></a>Abrir el servicio Power BI por primera vez
-La mayor parte de los consumidores de Power BI obtienen el servicio Power B porque 1) su empresa compra licencias y 2) un administrador asigna las licencias a empleados como usted.
+En este artículo no es un recorrido visual por Power BI, ni un tutorial práctico. Es más bien un artículo de introducción que le ayudará a sentirse cómodo con los conceptos y la terminología de Power BI. Le ayudará a conocer la jerga y familiarizarse con el entorno. Para hacer un recorrido por el servicio Power BI y su navegación, vaya a [Inicio rápido: Moverse por el servicio Power BI](end-user-experience.md).
 
-Para empezar, simplemente abra un explorador y escriba **app.powerbi.com**. La primera vez que abra el servicio Power BI, verá algo parecido a esto.
+## <a name="open-the-power-bi-service-for-the-first-time"></a>Apertura del servicio Power BI por primera vez
 
-![Pantalla de bienvenida del servicio Power BI](media/end-user-basic-concepts/power-bi-open.png)
+La mayor parte de los consumidores de Power BI obtienen el servicio Power BI porque 1) su empresa compra licencias y 2) un administrador asigna las licencias a empleados como usted.
 
-Con el uso de Power BI, podrá personalizar lo que vea cada vez que abra el sitio web.  Por ejemplo, a algunos usuarios les gusta que Power BI abra la página principal, mientras que otros quieren ver en primer lugar su panel preferido. No se preocupe, le enseñaremos cómo hacerlo.
-- [Vista previa de la página principal](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search)    
-- [Establecer el contenido como **destacado**](end-user-featured.md)
+Para empezar, abra un explorador y escriba **app.powerbi.com**. La primera vez que abra el servicio Power BI, verá algo parecido a esto:
 
-![Muestra la vista de página principal y la vista de panel](media/end-user-basic-concepts/power-bi-first.png)
+![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-basic-concepts/power-bi-open.png)
 
-Pero antes de entrar mucho más en materia, vamos a realizar una copia de seguridad y a comentar los bloques de creación que conforman el servicio Power BI.
+Con el uso de Power BI, podrá personalizar lo que vea cada vez que abra el sitio web. Por ejemplo, a algunos usuarios les gusta que Power BI abra la página **principal**, mientras que otros quieren ver en primer lugar su panel preferido. No se preocupe, este artículo le mostrará cómo personalizar su experiencia.
 
-## <a name="power-bi-content"></a>Contenido de ***Power BI***
-### <a name="introduction-to-building-blocks"></a>Introducción a los bloques de creación
-Para un consumidor de Power BI, los cinco bloques de creación son: ***visualizaciones***, ***paneles***, ***informes***, ***aplicaciones*** y ***conjuntos de datos***. A veces se hace referencia a ellos como ***contenido*** de *Power BI*, y dicho *contenido* se encuentra en las ***áreas de trabajo***. Un flujo de trabajo típico implica todos estos bloques de creación:  un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea  *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* , como usted, (de color negro en el diagrama siguiente) en forma de *aplicaciones* u otros tipos de contenido compartido.
+- [Introducing Power BI Home & Global Search](https://powerbi.microsoft.com/blog/introducing-power-bi-home-and-global-search) (Introducción al inicio y la búsqueda global de Power BI)
 
-![diagrama de flujo, básico](media/end-user-basic-concepts/power-bi-workflow.png)
+- [Paneles destacados en el servicio Power BI](end-user-featured.md)
 
-En su concepto más básico.
-* ![Icono de visualización ](media/end-user-basic-concepts/visual.png) Una ***visualización*** (u *objeto visual*) es un tipo de gráfico generado por *diseñadores* de Power BI mediante los datos de los *informes* y los *conjuntos de datos*. Por lo general, los *diseñadores* crean los objetos visuales en Power BI Desktop.
+![Captura de pantalla que muestra la vista de página principal y la vista de panel.](media/end-user-basic-concepts/power-bi-first.png)
 
-    Para obtener más información, consulte [Visualizaciones para *consumidores* de Power BI](end-user-visualizations.md)
+Pero antes de entrar mucho más en materia, vamos a realizar una copia de seguridad y a comentar los bloques de creación que conforman el servicio Power BI.
 
-* ![Icono de base de datos ](media/end-user-basic-concepts/power-bi-dataset-icon.png) Un *conjunto de datos* es un contenedor de datos. Por ejemplo, puede ser un archivo Excel de la Organización Mundial de la Salud, una base de datos de clientes propiedad de la empresa o un archivo de Salesforce.  
-
-* ![Icono de panel ](media/end-user-basic-concepts/dashboard.png) Un *panel* es una sola pantalla con gráficos, texto y objetos visuales interactivos. Un panel recopila las métricas más importantes, en una pantalla, para contar una historia o responder a una pregunta. El contenido del panel proviene de uno o varios informes y uno o varios conjuntos de datos.
-
-    Para obtener más información, consulte [Paneles para *consumidores* de Power BI](end-user-dashboards.md)
-
-* ![Icono de informe ](media/end-user-basic-concepts/report.png) Un *informe* es una o más páginas de gráficos, texto y objetos visuales interactivos que forman un único informe. Un informe se basa en un único conjunto de datos. Las páginas de un informe a menudo se organizan para centrarse en cada área central de interés o para responder a una única pregunta.
-
-    Para obtener más información, consulte [Informes para *consumidores* de Power BI](end-user-reports.md)
-
-* ![Icono de aplicación ](media/end-user-basic-concepts/app.png) Una *aplicación* es un recurso de los *diseñadores* que sirve para agrupar y compartir paneles e informes relacionados entre sí. Los *consumidores* reciben algunas aplicaciones automáticamente, pero pueden ir a buscar otras creadas por sus compañeros o por la comunidad. Por ejemplo, los servicios externos que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen aplicaciones de Power BI.
-
-Para ser más específicos, si es un nuevo usuario y ha iniciado sesión en Power BI por primera vez, todavía no tiene paneles, informes o aplicaciones.
 _______________________________________________________
 
+## <a name="power-bi-content"></a>Contenido de Power BI
 
+### <a name="introduction-to-building-blocks"></a>Introducción a los bloques de creación
+
+Para un consumidor de Power BI, los cinco bloques de creación son: ***visualizaciones***, ***paneles***, ***informes***, ***aplicaciones*** y ***conjuntos de datos***. A veces se hace referencia a ellos como ***contenido*** de *Power BI*, y dicho *contenido* se encuentra en las ***áreas de trabajo***. Un flujo de trabajo típico implica todos estos bloques de creación: un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* como usted, (de color negro en el diagrama siguiente). El *diseñador* los comparte en forma de *aplicaciones* u otros tipos de contenido compartido.
+
+![Un gráfico de flujo de trabajo básico de Power BI.](media/end-user-basic-concepts/power-bi-workflow.png)
+
+En su concepto más básico:
+
+- ![Captura de pantalla del icono de visualización.](media/end-user-basic-concepts/visual.png) una ***visualización*** (u *objeto visual*) es un tipo de gráfico creado por *diseñadores* de Power BI. Los objetos visuales muestran los datos de *informes* y *conjuntos de datos*. Por lo general, los *diseñadores* crean los objetos visuales en Power BI Desktop.
+
+    Para obtener más información, consulte [Interactuar con objetos visuales de informes, paneles y aplicaciones](end-user-visualizations.md).
+
+- ![Captura de pantalla del icono de la base de datos.](media/end-user-basic-concepts/power-bi-dataset-icon.png) Un *conjunto de datos* es un contenedor de datos. Por ejemplo, podría ser un archivo de Excel de la Organización Mundial de la Salud. También podría ser una base de datos de clientes de la empresa o un archivo de Salesforce.  
+
+- ![Captura de pantalla del icono del panel.](media/end-user-basic-concepts/dashboard.png) Un *panel* es una sola pantalla con gráficos, texto y objetos visuales interactivos. Un panel recopila las métricas más importantes, en una pantalla, para contar una historia o responder a una pregunta. El contenido del panel proviene de uno o varios informes y uno o varios conjuntos de datos.
+
+    Para obtener más información, consulte [Panel para los consumidores del servicio Power BI](end-user-dashboards.md).
+
+- ![Captura de pantalla del icono de informe.](media/end-user-basic-concepts/report.png) Un *informe* es una o más páginas de gráficos, texto y objetos visuales interactivos que forman un único informe. Power BI basa un informe en un único conjunto de datos. A menudo, el servicio organiza las páginas de un informe para abordar un área central de interés o para responder a una única pregunta.
+
+    Para obtener más información, consulte [Informes en Power BI](end-user-reports.md).
+
+- ![Captura de pantalla del icono de aplicación.](media/end-user-basic-concepts/app.png) Una *aplicación* es un recurso de los *diseñadores* que sirve para agrupar y compartir paneles e informes relacionados entre sí. Los *consumidores* reciben algunas aplicaciones automáticamente, pero pueden ir a buscar otras creadas por sus compañeros o por la comunidad. Por ejemplo, los servicios externos que puede que ya esté usando, como Google Analytics y Microsoft Dynamics CRM, ofrecen aplicaciones de Power BI.
+
+Para ser más específicos, si es un nuevo usuario y ha iniciado sesión en Power BI por primera vez, no verá paneles, informes ni aplicaciones.
+
+_______________________________________________________
 
 ## <a name="datasets"></a>Conjuntos de datos
-Un *conjunto de datos* es una colección de datos que los *diseñadores* importan o a la cual se conectan y, a continuación, usan para crear informes y paneles. Como consumidor, no interactuará directamente con los conjuntos de datos, pero es interesante entender cómo encajan en una perspectiva más amplia.  
 
-Cada conjunto de datos representa un origen de datos, por ejemplo, un libro de Excel en OneDrive, un conjunto de datos tabulares locales de SSAS o una base de datos de Salesforce. Se admiten muchos orígenes de datos diferentes.
+Un *conjunto de datos* es una colección de datos que los *diseñadores* importan o a la cual se conectan y, a continuación, usan para crear informes y paneles. Como consumidor, no interactuará directamente con los conjuntos de datos, pero sigue siendo interesante entender cómo encajan estos en una perspectiva más amplia.  
 
-Cuando un diseñador comparte una aplicación con un usuario, este puede ver qué conjuntos de datos se incluyen con la aplicación.
+Cada conjunto de datos representa un único origen de datos. Por ejemplo, el origen podría ser un libro de Excel en OneDrive, un conjunto de datos tabular local de SQL Server Analysis Services o un conjunto de datos de Salesforce. Power BI admite muchos orígenes de datos diferentes.
 
-![Aplicaciones seleccionadas y flecha que apunta a la sección Conjuntos de datos del lienzo](media/end-user-basic-concepts/power-bi-dataset-list.png)
+Cuando un diseñador comparte una aplicación con usted, puede ver qué conjuntos de datos incluyó el diseñador con la aplicación.
 
-**Un único** conjunto de datos...
+![Captura de pantalla de la interfaz de usuario de Power BI que muestra las aplicaciones seleccionadas y una flecha que apunta a la sección de conjuntos de datos en el lienzo.](media/end-user-basic-concepts/power-bi-dataset-list.png)
 
-* se puede usar una y otra vez
-* se puede usar en muchos informes diferentes
-* Las visualizaciones de ese conjunto de datos se pueden mostrar en muchos paneles diferentes
+El conjunto de datos...
 
-  ![Relaciones varios a uno de conjunto de datos](media/end-user-basic-concepts/drawing2.png)
+- se puede usar una y otra vez por un diseñador de informes para crear paneles e informes.
 
-Además, los conjuntos de datos de otras áreas de trabajo pueden utilizarse para crear contenido (informes, paneles) en el área de trabajo. Estos conjuntos de datos se muestran mediante el icono del conjunto de datos al que se hace referencia:
+- se puede usar para crear muchos informes diferentes.
 
-![icono de base de datos con vínculo](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
+- los objetos visuales de ese conjunto de datos pueden aparecer en muchos paneles diferentes.
+
+  ![Un gráfico que muestra un conjunto de datos con relaciones de varios a uno](media/end-user-basic-concepts/drawing2.png)
+
+Además, los diseñadores pueden utilizar conjuntos de datos de otras áreas de trabajo para crear contenido (informes, paneles) en el área de trabajo. Power BI muestra estos conjuntos de datos mediante el icono del conjunto de datos al que se hace referencia:
+
+![Captura de pantalla del icono de una base de datos con vínculo.](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 En el siguiente bloque de creación, visualizaciones.
-__________________________________________________________
+
+_______________________________________________________
 
 ## <a name="visualizations"></a>Visualizaciones
-Las visualizaciones (también conocidas como objetos visuales) muestran información que se ha descubierto en los datos. Las visualizaciones facilitan la interpretación de la información, ya que su cerebro puede entender una imagen más rápidamente que una hoja de cálculo de cifras, por ejemplo.
 
-Algunas de las visualizaciones que encontrará en Power BI son: cascada, cinta de opciones, gráfico de rectángulos, circular, embudo, tarjeta, dispersión y medidor. Consulte la [lista completa de visualizaciones incluidas en Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
+Las visualizaciones (también conocidas como objetos visuales) muestran la información que Power BI ha descubierto en los datos. Las visualizaciones facilitan la interpretación de la información, ya que su cerebro puede entender una imagen más rápidamente que una hoja de cálculo de cifras.
 
+Algunas de las visualizaciones que encontrará en Power BI son: cascada, cinta de opciones, gráfico de rectángulos, circular, embudo, tarjeta, dispersión y medidor:
 
-   ![Ocho objetos visuales de ejemplo](media/end-user-basic-concepts/power-bi-visuals.png)
+   ![Captura de pantalla de ocho elementos visuales de ejemplo.](media/end-user-basic-concepts/power-bi-visuals.png)
 
-Las visualizaciones también están disponibles desde la comunidad y se denominan *objetos visuales personalizados*. Si recibe un informe con un objeto visual que no reconoce, probablemente es un objeto visual personalizado. Si necesita ayuda para interpretar el objeto visual personalizado, <!--[look up the name of the report or dashboard *designer*](end-user-owner.md)-->buscar el nombre del informe o panel *diseñador* y póngase en contacto con él o ella.
+Consulte la [lista completa de visualizaciones incluidas en Power BI](../power-bi-visualization-types-for-reports-and-q-and-a.md).
 
-**UNA** visualización en un informe...
+Las visualizaciones llamadas *objetos visuales personalizados* también están disponibles desde la comunidad. Si recibe un informe con un objeto visual que no reconoce, probablemente es un objeto visual personalizado. Si necesita ayuda para interpretar el objeto visual personalizado, busque el nombre del *diseñador* del informe o panel y póngase en contacto con él o ella.
 
-* puede utilizarse una y otra vez en el mismo informe mediante copiar y pegar.
-* puede utilizarse en muchos paneles diferentes
-__________________________________________________
+Una visualización en un informe...
+
+- puede aparecer varias veces en el mismo informe.
+
+- puede aparecer en muchos paneles diferentes.
+
+_______________________________________________________
+
 ## <a name="reports"></a>Informes
+
 Un informe de Power BI se compone de una o más páginas de visualizaciones, gráficos y texto. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los *diseñadores* comparten informes con los *consumidores* que [interactúan con los informes en la *Vista de lectura*](end-user-reading-view.md).
 
-![informe con pestañas](media/end-user-basic-concepts/power-bi-report2.png)
+![Captura de pantalla de un informe con pestañas.](media/end-user-basic-concepts/power-bi-report2.png)
 
-**UN** informe...
+Un informe...
 
-* se puede asociar con varios paneles (los iconos anclados desde ese informe pueden aparecer en varios paneles).
-* se crea con los datos de un único conjunto de datos.  
-* puede formar parte de varias aplicaciones
+- se puede asociar con varios paneles (los iconos anclados desde ese informe pueden aparecer en varios paneles).
 
-  ![dibujo de relación de un informe](media/end-user-basic-concepts/drawing5.png)
+- se puede crear con los datos de un único conjunto de datos.  
 
-________________________________________________
+- puede formar parte de varias aplicaciones.
+
+  ![Gráfico que muestra las relaciones de un informe.](media/end-user-basic-concepts/drawing5.png)
+
+_______________________________________________________
 
 ## <a name="dashboards"></a>Paneles
-Un panel representa una vista personalizada de un subconjunto de los conjuntos de datos subyacentes. Los *diseñadores* crean paneles y los comparten con los *consumidores*; ya sea individualmente o como parte de una aplicación. Un panel es un lienzo individual que contiene *iconos*, gráficos y texto.
 
-  ![panel de ejemplo](media/end-user-basic-concepts/power-bi-dashboard.png)
+Un panel representa una vista personalizada de un subconjunto de los conjuntos de datos subyacentes. Los *diseñadores* crean paneles y los comparten con los *consumidores*; ya sea individualmente o como parte de una aplicación. Un panel es un lienzo individual que tiene *iconos*, gráficos y texto.
 
-Un icono es una representación de un objeto visual que un *diseñador* *ancla*, por ejemplo, de un informe a un panel.  Cada icono anclado muestra una [visualización](end-user-visualizations.md) creada a partir de un conjunto de datos y anclada al panel. Un icono puede contener también una página de informe completa y puede contener datos de streaming en vivo o un vídeo. El *diseñador* puede agregar iconos al panel de muchas maneras; demasiadas para tratarlas en este tema de información general. Para más información, vea [Iconos del panel en Power BI](end-user-tiles.md).
+  ![Captura de pantalla de un panel de ejemplo](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Desde la perspectiva de un consumidor, no se pueden editar los paneles. Sin embargo, en relación con un panel, puede agregar comentarios, ver datos relacionados, establecerlo como favorito, subscribirse, etc.
+Un icono es una representación de un objeto visual que un *diseñador* *ancla*, por ejemplo, de un informe a un panel. Cada icono anclado muestra una [visualización](end-user-visualizations.md) que creó Power BI a partir de un conjunto de datos y ancló al panel. Un icono puede contener también una página de informe completa y puede contener datos de streaming en vivo o un vídeo. Los *diseñadores* tienen muchas maneras de agregar iconos a los paneles. Son demasiadas para tratarlas todas en este artículo de información general. Para más información, vea [Iconos del panel en Power BI](end-user-tiles.md).
+
+Los consumidores no pueden modificar los paneles. Sin embargo, en relación con un panel, puede agregar comentarios, ver datos relacionados, establecerlo como favorito, subscribirse, etc.
 
 ¿Qué finalidades tienen los paneles?  A continuación se indican algunas:
 
-* para observar de un solo vistazo toda la información necesaria para tomar decisiones
-* para supervisar la información más importante sobre su empresa
-* para garantizar que todos los compañeros estén en la misma sintonía, es decir, que vean y usen la misma información
-* para supervisar el correcto funcionamiento de un negocio, producto, unidad de negocio, campaña de marketing, etc.
-* para crear una vista personalizada de un panel más grande (con las métricas importantes para usted)
+- Observar de un solo vistazo toda la información necesaria para tomar decisiones
+
+- Supervisar la información más importante sobre su empresa
+
+- Garantizar que todos los compañeros estén en la misma sintonía, es decir, que vean y usen la misma información
+
+- Supervisar el correcto funcionamiento de un negocio, producto, unidad de negocio, campaña de marketing, etc.
+
+- para crear una vista personalizada de un panel más grande (con las métricas importantes para usted)
 
 **UN** panel...
 
-* puede mostrar visualizaciones de muchos conjuntos de datos diferentes
-* puede mostrar visualizaciones de muchos informes diferentes
-* puede mostrar visualizaciones ancladas desde otras herramientas (por ejemplo, Excel)
+- puede mostrar visualizaciones de muchos conjuntos de datos diferentes
 
-  ![dibujo de relación de un panel](media/end-user-basic-concepts/drawing1.png)
+- puede mostrar visualizaciones de muchos informes diferentes
 
-________________________________________________
+- puede mostrar visualizaciones ancladas desde otras herramientas (por ejemplo, Excel)
+
+  ![Un gráfico de relaciones de un panel.](media/end-user-basic-concepts/drawing1.png)
+
+_______________________________________________________
 
 ## <a name="apps"></a>Aplicaciones
+
 Estas colecciones de paneles e informes organizan contenido relacionado entre sí en un único paquete. Los *diseñadores* de Power BI los compilan y comparten con usuarios, grupos, toda una organización o el público. Como consumidor, puede estar seguro de que usted y sus compañeros están trabajando con los mismos datos; una única versión de confianza del contenido real.
 
-![Aplicaciones seleccionadas en el panel de navegación izquierdo](media/end-user-basic-concepts/power-bi-app.png)
+![Captura de pantalla de las aplicaciones seleccionadas en el panel izquierdo de Power BI.](media/end-user-basic-concepts/power-bi-app.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI (https://powerbi.com)) y en el dispositivo móvil. Después de instalar una aplicación, no tendrá que recordar los nombres de muchos paneles diferentes ya que se encontrarán todos juntos en una aplicación, en el explorador o en su dispositivo móvil.
+Es muy fácil buscar e instalar aplicaciones en el [servicio Power BI](https://powerbi.com) y en el dispositivo móvil. Después de instalar una aplicación, no tiene que recordar los nombres de muchos paneles diferentes. Estarán todos agrupados en una aplicación, en el explorador o en el dispositivo móvil.
 
 Esta aplicación tiene tres paneles relacionados y tres informes relacionados que componen una sola aplicación.
 
-![contenido relacionado de la aplicación seleccionada](media/end-user-basic-concepts/power-bi-app-list.png)
+![Captura de pantalla del contenido relacionado de la aplicación seleccionada.](media/end-user-basic-concepts/power-bi-app-list.png)
 
-En el caso de las aplicaciones, siempre que el autor de la aplicación publique actualizaciones, verá los cambios automáticamente. El autor controla la frecuencia de actualización de los datos, por lo que no tiene que preocuparse de mantenerlos actualizados.
+En el caso de las aplicaciones, siempre que el autor de la aplicación publique actualizaciones, verá los cambios automáticamente. El autor controla además la programación de la frecuencia con que Power BI actualiza los datos. No tiene que preocuparse de mantenerlos al día.
 
-Puede obtener aplicaciones de varias maneras diferentes. El diseñador de una aplicación puede instalarla automáticamente en su cuenta de Power BI, enviarle un vínculo directo a una aplicación. También puede buscarla usted en Microsoft AppSource, donde verá todas las aplicaciones a las que puede acceder. En Power BI en el dispositivo móvil, solo podrá instalar aplicaciones desde un vínculo directo y no desde AppSource. Si el diseñador de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
+Puede obtener aplicaciones de varias maneras diferentes:
 
-Una vez que la aplicación está instalada, simplemente selecciónela en la lista de aplicaciones y seleccione el panel o informe que quiere abrir y explorar en primer lugar.   
+- El diseñador de la aplicación puede instalarla automáticamente en su cuenta de Power BI.
 
-Espero que este artículo le aporte una perspectiva de los bloques de creación que conforman el servicio Power BI para los consumidores.
+- El diseñador de la aplicación puede enviarle un vínculo directo a ella.
+
+- Puede buscarla en [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi), donde verá todas las aplicaciones que puede usar.
+
+En Power BI en el dispositivo móvil, solo podrá instalar aplicaciones desde un vínculo directo y no desde AppSource. Si el diseñador de la aplicación la instala automáticamente, podrá verla en la lista de aplicaciones.
+
+Una vez que la aplicación está instalada, simplemente selecciónela en la lista de aplicaciones y seleccione el panel o informe que quiere abrir y explorar en primer lugar.
+
+Espero que este artículo le aporte una perspectiva de los bloques de creación que conforman el servicio Power BI para los consumidores.
 
 ## <a name="next-steps"></a>Pasos siguientes
-- Revisar y marcar el [glosario](end-user-glossary.md)    
-- Dar un [paseo por el servicio Power BI](end-user-experience.md)
-- Leer la [Introducción general de Power BI escrita especialmente para consumidores](end-user-consumer.md)    
-- Vea un vídeo en el cual Will da un repaso a los conceptos básicos y muestra el servicio Power BI. <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>
+
+- Revisar y marcar el [glosario](end-user-glossary.md)
+
+- Haga un [recorrido por el servicio Power BI](end-user-experience.md).
+
+- Leer la [Introducción general de Power BI escrita especialmente para consumidores](end-user-consumer.md)
+
+- Vea un vídeo en el cual Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>

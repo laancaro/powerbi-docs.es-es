@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e2412fe72d62549277001b64121ecf9db2ea5502
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 5633370259662141296550aa3d5d2343ac4fedaa
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239553"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408550"
 ---
 # <a name="add-a-custom-column-in-power-bi-desktop"></a>Agregar una columna personalizada en Power BI Desktop
 Puede agregar fácilmente una nueva columna personalizada de datos al modelo mediante el **Editor de consultas** de **Power BI Desktop**. Puede crear y cambiar el nombre de la columna personalizada mediante sencillos botones para crear [fórmulas M](https://msdn.microsoft.com/library/mt270235.aspx) que definan la columna personalizada. La fórmula M tiene un [conjunto de contenido de referencia de función completo](https://msdn.microsoft.com/library/mt779182.aspx). 
@@ -68,6 +68,5 @@ El **Editor avanzado** le proporciona un control total sobre la consulta.
 Hay otras maneras de crear una columna personalizada, incluida la creación de una columna basada en los ejemplos que proporcione al **Editor de consultas**. Consulte el artículo siguiente para más información acerca de cómo crear columnas personalizadas a partir de ejemplos:
 
 * [Incorporación de una columna a partir de un ejemplo en Power BI Desktop](desktop-add-column-from-example.md)
-* [Introducción al lenguaje de fórmulas M](https://msdn.microsoft.com/library/mt270235.aspx)
-* [Referencia de funciones M](https://msdn.microsoft.com/library/mt779182.aspx)  
+* [Referencia de Power Query M](/powerquery-m/power-query-m-reference)  
 

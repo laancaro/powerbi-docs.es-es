@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/20/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b1d0914f146ea56697ada2a64c59744690595054
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: e7b2f03d561faa7df582b4ad5a975d09d617f98f
+ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498061"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "67264627"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -28,8 +28,12 @@ Solo se pueden crear suscripciones en el servicio Power BI. Recibirá un correo 
 
 ## <a name="requirements"></a>Requisitos
 
-- **Crear** una suscripción es una característica de Power BI Pro.
-- No necesita permisos de edición para el contenido (panel o informe) para crear una suscripción personal, pero debe tener permisos de edición para crear una para otro usuario. 
+La **creación** de una suscripción puede hacerse por:
+
+- Usuarios con una licencia de Power BI Pro
+- Los usuarios que ven contenido en un área de trabajo o aplicación Premium también pueden suscribirse al contenido que se encuentra allí, incluso sin una licencia Power BI Pro.
+
+No necesita permisos de edición para el contenido (panel o informe) para crear una suscripción personal, pero debe tener permisos de edición para crear una para otro usuario. 
 
 ## <a name="subscribe-to-a-dashboard-report-page-or-paginated-report"></a>Suscripción a un panel, una página del informe o un informe paginado
 
@@ -87,8 +91,7 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
 * Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios.  Las suscripciones a los paneles a través de estos números de iconos no están bloqueadas. Sin embargo, si se tienen incidencias se consideran no compatibles. Considere la posibilidad de modificarlas según corresponda para que estén comprendidas entre un rango admitido.
-* En este momento es cuando se inicia el trabajo de la suscripción. En determinados escenarios es posible que el correo tarde unos minutos en entregarse a la bandeja de entrada.
-* En raras ocasiones, puede que las suscripciones de correo tarden más de quince minutos en entregarse a los destinatarios. Si esto ocurre, se recomienda ejecutar la actualización de datos y la suscripción de correo en momentos distintos para garantizar la entrega puntual. Si la incidencia persiste, póngase en contacto con el soporte técnico de Power BI.
+* En raras ocasiones, puede que las suscripciones de correo tarden más de quince minutos en entregarse a los destinatarios. Si esto ocurre, se recomienda ejecutar la actualización de datos y la suscripción de correo electrónico a otras horas para garantizar la entrega puntual. Si la incidencia persiste, póngase en contacto con el soporte técnico de Power BI.
 * En las suscripciones de correo de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, ese icono no se muestra.  
 * En cuanto a las suscripciones de correo de informe, si el conjunto de datos usa RLS, podrá crear una suscripción para usted. No puede suscribir a otros usuarios a un informe que tenga aplicada la seguridad de nivel de fila (RLS).
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.

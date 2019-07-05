@@ -8,15 +8,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/24/2018
+ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 071b45a4ad9cbd9c753c44de5c55a352767bccbf
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
+ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61068176"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "67161124"
 ---
 # <a name="funnel-charts"></a>Gráficos de embudo
 Los gráficos de embudo ayudan a visualizar un proceso lineal con fases secuenciales conectadas. Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las fases: cliente potencial \> cliente potencial calificado \> prospecto \> contrato \> cierre.  De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
@@ -53,7 +53,7 @@ Vea este vídeo para ver cómo Guillermo crea un gráfico de embudo con el Ejemp
 
 Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades que cada uno de nosotros tiene en nuestras fases de ventas.
 
-Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
+Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
 
 1. Comience en una página de informe en blanco y seleccione el campo **SalesStage** \> **Fase de ventas**. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
    
@@ -61,7 +61,7 @@ Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder co
 2. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un embudo. Observe que la **Fase de ventas** también esté en el **Grupo** . 
 3. En el panel **Campos**, seleccione **Hecho** \> **Recuento de oportunidades**.
    
-    ![Creación del gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel.png)
+    ![Creación del gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Al mantener el mouse sobre una barra se muestra una gran cantidad de información.
    
    * El nombre de la fase

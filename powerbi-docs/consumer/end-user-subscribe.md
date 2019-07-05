@@ -1,6 +1,6 @@
 ---
-title: Suscripción personal y de otros usuarios a informes y paneles
-description: Obtenga información sobre cómo usted y sus compañeros se pueden suscribir a una instantánea enviada por correo electrónico de un informe o un panel de Power BI.
+title: Suscripción personal a informes y paneles
+description: Aprenda a suscribirse a una instantánea enviada por correo electrónico de un informe y panel de Power BI.
 author: mihart
 ms.author: mihart
 manager: kvivek
@@ -9,16 +9,16 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/11/2019
+ms.date: 06/26/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: d452b036c7890d59e27df328ae12ad7f5b3b8dbb
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66497961"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408518"
 ---
-# <a name="subscribe-to-a-report-or-dashboard-in-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
+# <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o cuando se actualicen los datos. Incluso puede establecer una hora concreta a la que Power BI envíe los mensajes de correo electrónico o hacer que se ejecute al instante.  
 
 El correo electrónico y la instantánea usarán el idioma establecido en la configuración de Power BI (consulte [Idiomas y países o regiones admitidos para Power BI](../supported-languages-countries-regions.md)). Si no se ha definido ningún idioma, Power BI usa el idioma de acuerdo con la configuración regional del explorador actual. Para ver o establecer las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](./media/end-user-subscribe/power-bi-settings-icon.png) > **Configuración > General > Idioma**. 
@@ -29,7 +29,7 @@ Cuando reciba el correo electrónico, incluye un vínculo para "ir al informe o 
 
 
 ## <a name="requirements"></a>Requisitos
-**Crear** una suscripción es una característica de Power BI Pro.   
+**Crear** una suscripción para usted mismo requiere una licencia de Power BI Pro. Los usuarios que ven contenido en un área de trabajo o aplicación Premium también pueden suscribirse al contenido que se encuentra allí, incluso sin una licencia Power BI Pro. **Suscribir a otros usuarios** solo está disponible para el propietario del panel. 
 
 ## <a name="subscribe-to-a-dashboard-or-a-report-page"></a>Suscribirse a un panel o una página de informe
 El proceso de suscripción a un panel o un informe es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
@@ -41,15 +41,13 @@ El proceso de suscripción a un panel o un informe es similar. El mismo botón p
    
    ![Icono de suscripción](./media/end-user-subscribe/power-bi-subscribe-icon.png)
 
-   ![Ventana de suscripción](./media/end-user-subscribe/power-bi-emails-newer.png)
+   ![Ventana de suscripción](./media/end-user-subscribe/power-bi-emails-newest.png)
     
     La pantalla de la izquierda aparece cuando esté en un panel y haga clic en **Suscribirse**. La pantalla de la derecha aparece cuando esté en una página de informe y haga clic en **Suscribirse**. Para suscribirse a más de una página de un informe, seleccione **Agregar otra suscripción** y seleccione una página diferente. 
 
 4. Use el control deslizante amarillo para activar y desactivar la suscripción.  Aunque el control deslizante se establezca en desactivado, la suscripción no se elimina. Para eliminarla, seleccione el icono de papelera.
 
-4. La dirección de correo electrónico se agrega de forma automática al campo **Suscribirse**. Para suscribir a otros usuarios de la organización, agregue también sus direcciones de correo electrónico aquí. 
-
-5. Opcionalmente, agregue los detalles del mensaje de correo electrónico. 
+5. Opcionalmente, agregue un asunto y los detalles del mensaje de correo electrónico. 
 
 5. Seleccione una **Frecuencia** para la suscripción.  Puede elegir Diaria, Semanal o Tras la actualización de los datos (una vez al día).  Para recibir el correo electrónico de suscripción solo en días concretos, seleccione **Semanal** y elija los días en los que quiera recibirlo.  Por ejemplo, si le gustaría recibir el correo electrónico de suscripción solo los días laborables, seleccione **Semanal** para la frecuencia y desactive las casillas para Sáb. y Dom.   
 
@@ -59,7 +57,7 @@ El proceso de suscripción a un panel o un informe es similar. El mismo botón p
 
 8. Para revisar la suscripción y probarla, haga clic en **Ejecutar ahora**.  Esto envía el correo electrónico de inmediato. 
 
-8. Si todo es correcto, haga clic en **Guardar y cerrar** para guardar la suscripción. Usted y sus compañeros de trabajo recibirán un correo electrónico y la instantánea del panel o informe en la programación que haya establecido. Todas las suscripciones en las que la frecuencia se ha establecido en **Tras la actualización de los datos** solo enviarán un correo electrónico después de la primera actualización programada de ese día.
+8. Si todo es correcto, haga clic en **Guardar y cerrar** para guardar la suscripción. Recibirá un correo electrónico y la instantánea del panel o informe en la programación que haya establecido. Todas las suscripciones en las que la frecuencia se ha establecido en **Tras la actualización de los datos** solo enviarán un correo electrónico después de la primera actualización programada de ese día.
    
    ![Instantánea del panel por correo electrónico](media/end-user-subscribe/power-bi-subscribe-email.png)
    

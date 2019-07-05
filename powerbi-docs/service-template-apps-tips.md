@@ -1,22 +1,22 @@
 ---
-title: Sugerencias para crear aplicaciones de plantilla en Power BI (versión preliminar)
+title: Sugerencias para crear aplicaciones de plantilla en Power BI
 description: Sugerencias sobre la creación de consultas, modelos de datos, informes y paneles para crear aplicaciones de plantilla de calidad
-author: maggiesMSFT
+author: teddybercovitz
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/19/2019
-ms.author: maggies
-ms.openlocfilehash: 83049a16ecd42b41375da57a5a99a374596a9846
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 06/26/2019
+ms.author: tebercov
+ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514861"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408352"
 ---
-# <a name="tips-for-authoring-template-apps-in-power-bi-preview"></a>Sugerencias para crear aplicaciones de plantilla en Power BI (versión preliminar)
+# <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
 Cuando se [crea la aplicación de plantilla](service-template-apps-create.md) en Power BI, parte del proceso es la logística para crear el área de trabajo, las pruebas y la producción. Pero la otra parte importante es, obviamente, la creación del informe y el panel. El proceso de creación se puede desglosar en cuatro componentes principales. Trabajar en estos componentes le ayudará a crear la mejor aplicación de plantilla posible:
 
@@ -24,7 +24,7 @@ Cuando se [crea la aplicación de plantilla](service-template-apps-create.md) en
 * En el **modelo de datos**, crea [relaciones](desktop-create-and-manage-relationships.md), [medidas](desktop-measures.md) y mejoras de preguntas y respuestas.  
 * Las **[páginas de informes](desktop-report-view.md)** incluyen objetos visuales y filtros para proporcionar información sobre los datos.  
 * Los **[paneles](consumer/end-user-dashboards.md)** y los [iconos](service-dashboard-create.md) ofrecen una visión general de la información incluida.
-* Datos de ejemplo hace que la aplicación que sea reconocible inmediatamente después de la instalación.
+* Los datos de ejemplo hacen que la aplicación se pueda descubrir inmediatamente después de la instalación.
 
 Puede estar familiarizado con cada una de las partes de las características de Power BI existentes. Al compilar una aplicación de plantilla, hay aspectos adicionales que tener en cuenta para cada componente. Vea las secciones siguientes para obtener más detalles.
 
@@ -36,12 +36,10 @@ Para las aplicaciones de plantilla, se usan consultas desarrolladas en Power BI 
 ### <a name="connect-to-your-api"></a>Conexión con la API
 Para empezar, debe conectarse a la API desde Power BI Desktop para comenzar a generar las consultas.
 
-Puede usar los conectores de datos que están disponibles de serie en Power BI Desktop para conectarse a su API. Puede usar el conector de datos web (Obtener datos -> Web) para conectarse a la API de REST o el conector de OData (Obtener datos -> Fuente OData) para conectarse a la fuente OData. Estos conectores solo funcionan de serie si la API es compatible con la autenticación básica.
+Puede usar los conectores de datos que están disponibles en Power BI Desktop para conectarse a la API. Puede usar el conector de datos web (Obtener datos -> Web) para conectarse a la API de REST o el conector de OData (Obtener datos -> Fuente OData) para conectarse a la fuente OData.
 
 > [!NOTE]
-> Si la API usa cualquier otro tipo de autenticación, como OAuth 2.0 o la clave de la API web, tendrá que desarrollar un conector de datos propio para permitir que Power BI Desktop se conecte y autentique correctamente con la API. El conector personalizado debe agregarse al servicio PBI para que sea accesible por el instalador de aplicaciones de la plantilla. <br> Para más información sobre cómo desarrollar un conector de datos propio para la aplicación de plantilla, consulte la [documentación sobre conectores de datos](https://aka.ms/DataConnectors). 
->
->
+> Actualmente las aplicaciones de plantilla no admiten los conectores personalizados; se recomienda explorar el uso de Odatafeed Auth 2.0 como mitigación para algunos de los casos de uso de la conexión o enviar el conector para su certificación. Para más información sobre cómo desarrollar un conector y certificarlo, consulte la [documentación sobre conectores de datos](https://aka.ms/DataConnectors).
 
 ### <a name="consider-the-source"></a>Tenga en cuenta el origen
 Las consultas definen los datos que se incluyen en el modelo de datos. Dependiendo del tamaño de su sistema, estas consultas también deben incluir filtros para asegurarse de que los clientes están tratando con un tamaño administrable que se ajusta a su escenario de negocio.
@@ -115,41 +113,41 @@ Para crear un panel para la aplicación de plantilla, simplemente cargue el arch
 * Todos los iconos del panel deben tener títulos y subtítulos adecuados.  
 * Considere la posibilidad de crear agrupaciones en el panel para diferentes escenarios, ya sea de forma horizontal o vertical.  
 
-## <a name="sample-data"></a>datos de ejemplo
-Las aplicaciones de la plantilla, como parte de la fase de creación de la aplicación, ajusta los datos de la memoria caché en el área de trabajo como parte de la aplicación:
+## <a name="sample-data"></a>Datos de ejemplo
+Las aplicaciones de plantilla, como parte de la etapa de creación de aplicaciones, ajustan los datos de la caché en el área de trabajo como parte de la aplicación:
 
-* Permite que el programa de instalación comprender la funcionalidad y el propósito de la aplicación antes de conectarse a datos.
-* Crea una experiencia que impulsa el instalador para explorar aún más las capacidades de la aplicación, lo que conduce a la conexión del conjunto de datos de aplicación.
+* Permite al instalador entender la funcionalidad y el propósito de la aplicación antes de conectar los datos.
+* Crea una experiencia que lleva al instalador a explorar más a fondo las funcionalidades de la aplicación, lo que lleva a conectar el conjunto de datos de la aplicación.
 
 Se recomienda tener datos de ejemplo de calidad antes de crear la aplicación. Asegúrese de que el informe de la aplicación y los paneles se rellenan con datos.
 
 ## <a name="publishing-on-appsource"></a>Publicación en AppSource
-Las aplicaciones de la plantilla se pueden publicar en AppSource, siga estas directrices antes de enviar su aplicación en AppSource:
+Las aplicaciones de plantilla pueden publicarse en AppSource, siga estas pautas antes de enviar la aplicación a AppSource:
 
-* Asegúrese de crear una aplicación de la plantilla con atractivas de datos de ejemplo que pueden ayudar al programa de instalación para comprender lo que puede hacer la aplicación (no aprobados informe vacío y el panel).
-Las aplicaciones de la plantilla compatible con aplicaciones solo de datos de ejemplo, asegúrese de que comprobar la casilla de verificación de aplicación estática. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Tiene instrucciones para el equipo de validación seguir que incluye las credenciales y parámetros que son necesarios para conectarse a datos.
-* Aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Asegúrese de crear una aplicación de plantilla con datos de ejemplo atractivos que puedan ayudar al instalador a comprender lo que puede hacer la aplicación (los informes y paneles vacíos no están aprobados).
+Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, asegúrese de marcar la casilla de aplicaciones estáticas. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* Dé indicaciones para que el equipo de validación las siga, que incluyen las credenciales y los parámetros necesarios para conectarse a los datos.
+* La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Página de inicio configurado. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* Asegúrese de seguir la documentación [oferta de aplicación de Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
-* En caso de un panel forma parte de la aplicación, asegúrese de que no está vacío.
-* Instalar la aplicación mediante el vínculo de la aplicación antes de enviarlo, asegúrese de que puede conectar el conjunto de datos y la experiencia de aplicación es como se planeó.
-* Antes de cargar bpix en el área de trabajo de aplicación de plantilla, asegúrese de descargar las conexiones innecesarias.
-* Siga Power BI [procedimientos recomendados para los objetos visuales e informes de diseño](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) para lograr el máximo impacto en los usuarios y obtener la aprobación para la distribución.
+* Asegúrese de seguir la documentación en la [oferta de la aplicación Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
+* En caso de que un panel forme parte de la aplicación, asegúrese de que no esté vacío.
+* Instale la aplicación mediante el vínculo de la aplicación antes de enviarla, asegúrese de que puede conectar el conjunto de datos y que la experiencia de la aplicación es la que planeó.
+* Antes de cargar bpix en el área de trabajo de la aplicación de plantilla, asegúrese de descargar cualquier conexión innecesaria.
+* Siga los [procedimientos recomendados de diseño para informes y objetos visuales](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
 | Destacado | Limitación conocida |
 |---------|---------|
 |Contenido:  Conjuntos de datos   | Debe haber exactamente un conjunto de datos. Solo se permiten los conjuntos de datos creados en Power BI Desktop (archivos .pbix). <br>No se admiten: conjuntos de datos de otras aplicaciones de plantilla, conjuntos de datos de varias áreas de trabajo, informes paginados (archivos .rdl), libros de Excel. |
-|Contenido: Paneles | No se permiten los iconos en tiempo real (en otras palabras, no se admiten para la inserción o de conjuntos de datos de transmisión por secuencias) |
+|Contenido: Paneles | No se admiten los iconos en tiempo real (en otras palabras, no se admiten para los conjuntos de datos de inserción o streaming). |
 |Contenido: Flujos de datos | No se admiten: Flujos de datos |
 |Contenido de archivos | Solo se admiten archivos PBIX. <br>No se admiten: archivos .rdl (informes paginados), libros de Excel.   |
-| Orígenes de datos | Se permiten los orígenes de datos admitidos para la actualización de datos programada en la nube. <br>No se admiten: <li> DirectQuery</li><li>Conexiones dinámicas (no Azure AS).</li> <li>(No se admiten las puertas de enlace personales y empresariales) de orígenes de datos locales</li> <li>En tiempo real (no se admiten para el conjunto de datos de inserción)</li> <li>Modelos compuestos</li></ul> |
+| Orígenes de datos | Se permiten los orígenes de datos admitidos para la actualización de datos programada en la nube. <br>No se admiten: <li> DirectQuery</li><li>Conexiones dinámicas (no Azure AS).</li> <li>Orígenes de datos locales (no se admiten las puertas de enlace personales y empresariales)</li> <li>Tiempo real (no se admite para los conjuntos de datos de inserción)</li> <li>Modelos compuestos</li></ul> |
 | Conjunto de datos: entre áreas de trabajo | No se admiten los conjuntos de datos entre áreas de trabajo  |
 | Parámetros de consulta | No se admiten: los parámetros de tipo "Todo" o "Binario" bloquean la operación de actualización del conjunto de datos. |
 | Objetos visuales personalizados | Solo se admiten los objetos visuales personalizados disponibles públicamente. No se admiten los [objetos visuales personalizados de la organización](power-bi-custom-visuals-organization.md). |
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[¿Qué son las aplicaciones de plantilla de Power BI? (versión preliminar)](service-template-apps-overview.md)
+[¿Qué son las aplicaciones de plantilla de Power BI?](service-template-apps-overview.md)

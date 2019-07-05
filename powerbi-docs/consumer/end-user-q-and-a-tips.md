@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 06/26/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 97beaa749855d29f0ac559776a99f4be851489fb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
+ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61048143"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67408191"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
@@ -62,27 +62,27 @@ La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los ti
 |**Intervalo**     |      mayor, más, más grande, superior, sobre, >, menos, más pequeño, menor, bajo, <, al menos, no menor que, > =, como máximo, no más de, <=, en, entre, en el intervalo de, desde, más adelante, anteriormente, antes, después, en, más tarde que, después, desde, a partir de, terminando con           |
 |        |         |
 **Horas**  |a. m., p. m., en punto, mediodía, medianoche, hora, minuto, segundo, hh:mm:ss  |
-|  |  Ejemplos: 10 p. m., 10:35 p. m., 10:35:15 p. m., 10 en punto, mediodía, medianoche, hora, minuto, segundo.  |
+|  |  Ejemplos: 10 p. m., 10:35 p. m., 10:35:15 p. m., 10 en punto, mediodía, medianoche, hora, minuto, segundo.  |
 |  |  |
 |**Principales N**     |     (orden, clasificación): superior, inferior, primero, último, siguiente, más antiguo, más reciente, siguiente            |
 |        |         |
-|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esto son los [objetos visuales personalizados](../power-bi-custom-visuals.md) que haya agregado manualmente en el panel Visualización.  |
+|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales personalizados](../power-bi-custom-visuals.md) que haya agregado manualmente en el panel Visualización.  |
 |  |  Ejemplo: mostrar distritos por mes y el total de ventas como gráfico de barras               |
 |        |         |
 |**Qu (relación, calificado)**  | cuándo, dónde, qué, a quién, quién, cuántos, cuánto, cuántas veces, con qué frecuencia, importe, número, cantidad, cuánto tiempo, qué                |
 
 ## <a name="qa-helps-you-phrase-the-question"></a>Preguntas y respuestas le ayuda a formular la pregunta
-Preguntas y respuestas hará todo lo posible para comprender y responder a la pregunta que se le pida. Puede hacerlo de varias maneras. En todas ellas, puede aceptar la acción en su totalidad o en parte, o bien, rechazarla. A medida que escribe su pregunta, Preguntas y respuestas:
+Preguntas y respuestas hará todo lo posible para comprender y responder a la pregunta que se le pida. Trata de comprender de varias maneras. Para todas estas expresiones, puede aceptar la acción en su totalidad o en parte, o bien, rechazarla. A medida que escribe su pregunta, Preguntas y respuestas:
 
-* completa automáticamente las palabras y preguntas. Usa diversas estrategias, como la opción de Autocompletar palabras reconocidas y preguntas usadas previamente que devolvieron respuestas válidas. Si hay más de una opción de Autocompletar, se muestra en una lista desplegable.
+* completa automáticamente las palabras y preguntas. Usa diversas estrategias, como la opción de Autocompletar palabras reconocidas, preguntas almacenadas y preguntas usadas previamente que devolvieron respuestas válidas. Si hay más de una opción de Autocompletar, se muestra en una lista desplegable.
 * corrige la ortografía.
-* proporciona una vista previa de la respuesta en forma de una visualización. La visualización se actualiza a medida que escribe y edita la pregunta (no espera a que presione ENTRAR).
+* proporciona una vista previa de la respuesta en forma de un objeto visual. El objeto visual se actualiza a medida que escribe y edita la pregunta (no espera a que presione ENTRAR).
 * sugiere términos de reemplazo de los conjuntos de datos subyacentes cuando mueve el mouse en el cuadro de pregunta.
 * redefine la pregunta en función de los datos de los conjuntos de datos subyacentes. Preguntas y respuestas reemplaza las palabras utilizadas con sinónimos de los conjuntos de datos subyacentes. Leyendo la redefinición, sabrá si Preguntas y respuestas comprendió su pregunta o no. 
 * atenúa palabras que no comprende.
 
 ## <a name="dont-stop-now"></a>No se detenga ahora
-Cuando Preguntas y respuestas muestre los resultados, mantenga el curso de la conversación. Use las características interactivas de la visualización y de Preguntas y respuestas para obtener más información.
+Cuando Preguntas y respuestas muestre los resultados, mantenga el curso de la conversación. Use las características interactivas del objeto visual y de Preguntas y respuestas para obtener más información.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Volver a [Preguntas y respuestas en Power BI](end-user-q-and-a.md)  
