@@ -683,9 +683,9 @@
               href: service-machine-learning-automated.md
         - name: Informes paginados en Power BI
           items:
-            - name: Vista de un informe paginado (versión preliminar)
+            - name: Visualización de un informe paginado
               href: paginated-reports-view-power-bi-service.md
-            - name: Interactuación con los parámetros (versión preliminar)
+            - name: Interactuación con los parámetros
               href: paginated-reports-view-parameters.md
             - name: Suscripción personal o de otros usuarios
               href: paginated-reports-subscriptions.md
