@@ -10,16 +10,15 @@ ms.topic: conceptual
 ms.date: 06/20/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3fc93f255d6645ffa6f15676b9a70f24326fcfdc
-ms.sourcegitcommit: a2c4f912af1729fdfdf20369bf3eff67c3927eec
+ms.openlocfilehash: eea93888cf3a8ea5c7ca7b6eb9389cbabc79dc9c
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67349204"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418725"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo
 
-## <a name="overview-of-the-it-spend-analysis-sample"></a>Introducción al Ejemplo de análisis de gastos de TI
 El paquete de contenido Ejemplo de análisis de gastos de TI contiene un panel, informe y conjunto de datos que analizan los costos planeados frente a los costos reales de un departamento de TI. Esta comparación nos ayuda a comprender la calidad del planeamiento anual y de la investigación de las áreas con enormes desviaciones del planeamiento que ha realizado la empresa. La empresa de este ejemplo pasa por un ciclo de planeamiento anual y produce trimestralmente un nuevo último cálculo que ayuda a analizar los cambios del gasto en TI durante el año fiscal.
 
 ![Panel del Ejemplo de análisis de gastos de TI](media/sample-it-spend/it1.png)
@@ -124,7 +123,7 @@ Seleccione **Editar informe** en la esquina superior izquierda para explorar en 
 * Cambie el tipo de visualización para cada gráfico.
 * Ancle gráficos de interés al panel.
 
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de gasto en TI. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
