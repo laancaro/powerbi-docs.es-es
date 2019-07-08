@@ -1,5 +1,5 @@
 ---
-title: 'Organización del trabajo en las nuevas áreas de trabajo: Power BI'
+title: Organización del trabajo en las nuevas áreas de trabajo en Power BI
 description: Obtenga información sobre las nuevas áreas de trabajo, que son colecciones de paneles e informes creadas para proporcionar métricas clave a su organización.
 author: maggiesMSFT
 manager: kfile
@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/18/2019
+ms.date: 06/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 419cd2137b8924f153009843d6f60db594219059
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345535"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418660"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -135,7 +135,7 @@ Algunas características funcionan de manera diferente en las áreas de trabajo 
 - Posibilidad de que los miembros puedan volver a compartir o no: se ha reemplazado por el rol de Colaborador
 - Áreas de trabajo de solo lectura: en lugar de conceder a los usuarios acceso de solo lectura a un área de trabajo, se asigna a los usuarios el rol Visor, que permite un acceso similar al de solo lectura al contenido de un área de trabajo.
 - Los usuarios sin una licencia Pro pueden acceder al área de trabajo si esta tiene una capacidad de Power BI Premium, incluso si los usuarios solo tienen el rol Visor.
-- Para permitir que los usuarios con el rol Visor exporten datos, asegúrese de que tengan permiso de compilación en los conjuntos de datos en el área de trabajo.
+- Para permitir que los usuarios con el rol Visor exporten datos, asegúrese de que tengan permiso de compilación en los conjuntos de datos en el área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 - Ausencia del botón **Abandonar área de trabajo**.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
