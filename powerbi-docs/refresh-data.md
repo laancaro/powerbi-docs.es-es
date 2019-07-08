@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 24a559fe35291c5256a5280b3c7d63d110868f4a
-ms.sourcegitcommit: 69a0e340b1bff5cbe42293eed5daaccfff16d40a
+ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/13/2019
-ms.locfileid: "67039211"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418797"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -34,7 +34,7 @@ Para entender cómo actualiza Power BI los conjuntos de datos, informes y panel
 
 ### <a name="storage-modes-and-dataset-types"></a>Modos de almacenamiento y tipos de conjuntos de datos
 
-Un conjunto de datos de Power BI puede funcionar en uno de los siguientes modos para acceder a los datos en distintos orígenes de datos. Para más información, consulte [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
+Un conjunto de datos de Power BI puede funcionar en uno de los siguientes modos para acceder a los datos en distintos orígenes de datos. Para obtener más información, consulte [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
 
 - Modo de importación
 - Modo DirectQuery
@@ -234,7 +234,7 @@ Hay dos maneras de configurar una puerta de enlace de datos para que admita la c
 
 ![Actualización mediante un clúster de puerta de enlace](media/refresh-data/refresh-gateway-cluster.png)
 
-Si activa la casilla **Permitir que los orígenes de datos en la nube del cliente se actualicen mediante este clúster de puerta de enlace** en la configuración de la puerta de enlace, tal y como muestra la captura de pantalla anterior, Power BI puede usar la configuración definida por el usuario para el origen en la nube en **Credenciales de origen de datos**, en la configuración del conjunto de datos. Esto ayuda a reducir la sobrecarga de la configuración de la puerta de enlace. Por otro lado, si desea tener mayor control sobre las conexiones que establece la puerta de enlace, no debe activar esta casilla. En este caso, debe agregar a la puerta de enlace una definición explícita para cada origen de datos en la nube que quiera admitir. También es posible activar la casilla y agregar las definiciones de origen de datos explícitas para los orígenes en la nube a una puerta de enlace. En este caso, la puerta de enlace usa las definiciones de origen de datos de todos los orígenes que coincidan.
+Si activa la casilla **Permitir que los orígenes de datos en la nube del usuario se actualicen mediante el clúster de esta puerta de enlace** en la configuración de la puerta de enlace, tal y como se muestra en la captura de pantalla anterior, Power BI puede usar la configuración que ha definido el usuario para el origen en la nube en **Credenciales del origen de datos**, en la configuración del conjunto de datos. Esto ayuda a reducir la sobrecarga de la configuración de la puerta de enlace. Por otro lado, si desea tener mayor control sobre las conexiones que establece la puerta de enlace, no debe activar esta casilla. En este caso, debe agregar a la puerta de enlace una definición explícita para cada origen de datos en la nube que quiera admitir. También es posible activar la casilla y agregar las definiciones de origen de datos explícitas para los orígenes en la nube a una puerta de enlace. En este caso, la puerta de enlace usa las definiciones de origen de datos de todos los orígenes que coincidan.
 
 ### <a name="configuring-query-parameters"></a>Configuración de los parámetros de consulta
 
@@ -272,7 +272,7 @@ La sección **Actualización programada** es donde se definen la frecuencia y la
 
 ![Configuración de actualización programada](media/refresh-data/configure-scheduled-refresh.png)
 
-Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración de un origen de datos y una puerta de enlace, realice una actualización a petición con la opción Actualizar ahora, situada en el menú de conjunto de datos del panel de navegación izquierdo. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, tal y como se explicó anteriormente en este artículo.
+Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación izquierdo. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, tal y como se explicó anteriormente en este artículo.
 
 Tenga en cuenta también que la hora de actualización configurada puede no ser la hora exacta cuando se inicia el siguiente proceso programado en Power BI. Power BI inicia las actualizaciones programadas en cuanto puede. El objetivo es iniciar la actualización en un plazo de 15 minutos desde la franja de tiempo programada, pero puede producirse un retraso de hasta una hora si el servicio no puede asignar antes los recursos necesarios.
 
@@ -283,7 +283,7 @@ Tenga en cuenta también que la hora de actualización configurada puede no ser 
 
 De forma predeterminada, Power BI envía notificaciones de error de actualización a través de correo electrónico al propietario del conjunto de datos para que el propietario puede actuar de manera oportuna en caso de que se produzcan errores de actualización. Power BI también envía una notificación cuando el servicio deshabilita la programación debido a errores consecutivos. Microsoft recomienda que deje activada la casilla **Enviar un correo con los errores de actualización**.
 
-Tenga en cuenta que Power BI no solo envía notificaciones de errores de actualización, sino también cuando el servicio detiene una actualización programada debido a su inactividad. Power BI considera que un conjunto de datos está inactivo cuando ningún usuario ha visitado un panel o informe generado para el conjunto de datos en un plazo de dos meses. En este caso, Power BI envía un mensaje de correo electrónico al propietario del conjunto de datos que indica que el servicio ha deshabilitado la programación de actualización del conjunto de datos. Consulte la siguiente captura de pantalla para ver un ejemplo de dicha notificación.
+Tenga en cuenta que Power BI no solo envía notificaciones de errores de actualización, sino también cuando el servicio detiene una actualización programada debido a su inactividad. Power BI considera que un conjunto de datos está inactivo cuando ningún usuario ha visitado un panel o informe generado para el conjunto de datos en un plazo de dos meses. En este caso, Power BI envía un mensaje de correo electrónico al propietario del conjunto de datos en el que se indica que el servicio ha pausado la programación de actualización del conjunto de datos. Consulte la siguiente captura de pantalla para ver un ejemplo de dicha notificación.
 
 ![Correo electrónico de actualización en pausa](media/refresh-data/email-paused-refresh.png)
 
