@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 2760731e7be1216c4ec8755884467eca9d7eb4c4
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
+ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418797"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67561828"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -177,6 +177,8 @@ Microsoft recomienda usar una puerta de enlace de datos de empresa en lugar de u
 Conectar un conjunto de datos a una puerta de enlace de empresa es relativamente sencillo si es un administrador de puertas de enlace. Con permisos de administrador, puede actualizar rápidamente la puerta de enlace y agregar los orígenes de datos que falten. De hecho, puede agregar un origen de datos que falte a la puerta de enlace directamente desde la página de configuración del conjunto de datos. Expanda el botón de alternancia para ver los orígenes de datos y seleccione el vínculo **Agregar a la puerta de enlace**, tal y como se muestra en la captura de pantalla siguiente. Si no es un administrador de puertas de enlace, use la información de contacto que se muestra para enviar una solicitud a un administrador de puertas de enlace para agregar la definición de origen de datos necesaria.
 
 ![Agregar a la puerta de enlace](media/refresh-data/add-to-gateway.png)
+
+Asegúrese de asignar la definición del origen de datos correcto al origen de datos. Como se muestra en la captura de pantalla anterior, los administradores de la puerta de enlace pueden crear varias definiciones en función de una puerta de enlace única al conectarse al mismo origen de datos, cada uno con credenciales distintas. En el ejemplo mostrado, el propietario de un conjunto de datos del departamento de ventas elegiría la definición del origen de datos AdventureWorksProducts-Sales, mientras que el propietario de un conjunto de datos del departamento de soporte técnico asignaría el conjunto de datos a la definición del origen de datos AdventureWorksProducts-Support. Si los nombres de la definición de los orígenes de datos no son intuitivos, póngase en contacto con el administrador de la puerta de enlace para aclarar qué definición debe elegir.
 
 > [!NOTE]
 > Un conjunto de datos solo puede usar una conexión de puerta de enlace. En otras palabras, no se puede acceder a orígenes de datos locales a través de varias conexiones de puerta de enlace. Por lo tanto, debe agregar todas las definiciones de origen de datos necesarias a la misma puerta de enlace.
