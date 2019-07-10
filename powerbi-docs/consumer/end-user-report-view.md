@@ -8,43 +8,52 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/10/2018
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: e2d3bec59078577e2b4d4595c0925753b2cbb53a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d740dd012c6041893a2fa5fc5f1a97a74dcf1566
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65608199"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532410"
 ---
-# <a name="change-the-display-of-a-report-page"></a>Cambiar la presentación de una página de informe
-Los informes se ven en muchos dispositivos diferentes con diferentes tamaños de pantalla y relaciones de aspecto.  Cambiar la forma en que se muestra una página de informe para satisfacer sus necesidades.    
+# <a name="change-the-display-of-a-report-page"></a>Cambio de la pantalla de una página del informe
 
-![informe de muestra en el lienzo](media/end-user-report-view/power-bi-report.png)
+Las personas ven los informes en muchos dispositivos diferentes, con distintos tamaños de pantalla y relaciones de aspecto. Cambie la forma en que se muestra una página del informe para satisfacer sus necesidades.
 
-## <a name="explore-the-view-menu"></a>Explore el menú Ver
-Las opciones en el menú Vista ofrecen flexibilidad para mostrar las páginas del informe en el tamaño y el ancho que elija.
+![Captura de pantalla de cómo se muestra un informe en el lienzo.](media/end-user-report-view/power-bi-report.png)
 
-- Supongamos que está viendo un informe en un dispositivo pequeño y resulta difícil ver los títulos y leyendas.  Seleccione **vista** > **tamaño real** para aumentar el tamaño de página del informe. Use las barras de desplazamiento para moverse por el informe. 
+## <a name="explore-the-view-menu"></a>Exploración del menú Vista
 
-    ![el informe se muestra en el lienzo, con dos barras de desplazamiento](media/end-user-report-view/power-bi-actual-size-new.png)
+![Captura de pantalla de las opciones del menú desplegable Vista.](media/end-user-report-view/power-bi-view-menu.png)
 
 
-- Otra opción consiste en ajustar el informe para el ancho de pantalla seleccionando **ajustar al ancho**. Esto puede requerir todavía el uso de una barra de desplazamiento vertical.
+Las opciones del menú **Vista** le proporcionan flexibilidad para mostrar las páginas del informe en el tamaño y el ancho que elija:
 
-  ![informe de muestra con el ancho del lienzo completo](media/end-user-report-view/power-bi-fit-to-width-new.png)
+- Imagine que está viendo un informe en un dispositivo pequeño y le resulta difícil ver los títulos y las leyendas.  Seleccione **Vista** > **Tamaño real** para aumentar el tamaño de la página del informe. Use las barras de desplazamiento para moverse por el informe.
 
-- Si no desea que las barras de desplazamiento, pero desea hacer el mejor uso de su tamaño de la pantalla.  Seleccione **ajustar a la página**.
+    ![Captura de pantalla de un informe ajustado en Tamaño real con dos barras de desplazamiento destacadas.](media/end-user-report-view/power-bi-actual-size-new.png)
 
-   ![Muestra el informe sin barras de desplazamiento](media/end-user-report-view/power-bi-fit-to-width.png)
+- Otra opción consiste en ajustar el informe al ancho de la pantalla; para ello, seleccione **Ajustar al ancho**. Puesto que solo se trata del ancho y no del alto, es posible que aún tenga que usar la barra de desplazamiento vertical.
 
-   
-- La última opción, **pantalla completa**, muestra la página del informe sin barras de menús y los encabezados. Pantalla completa puede ser una buena elección para pantallas pequeñas, donde son difíciles de ver los detalles.  Pantalla completa también puede ser una buena opción al proyectar las páginas del informe en las pantallas grandes que las personas a ver pero no interactuar.  
+  ![Captura de pantalla de un informe establecido en Ajustar al ancho con la barra de desplazamiento vertical destacada.](media/end-user-report-view/power-bi-fit-to-width-new.png)
 
-    ![informe aparece en pantalla completa](media/end-user-report-view/power-bi-full-screen.png)
+- Si no quiere ninguna barra de desplazamiento, pero quiere usar el tamaño de la pantalla de la forma más eficaz, seleccione **Ajustar a la página**.
 
-Cuando se cierra el informe, la configuración de vista no se guarda, pero revertir al valor predeterminado. Si es importante guardar esta configuración, utilice [marcadores](end-user-bookmarks.md). 
+   ![Captura de pantalla de un informe establecido en Ajustar a la página.](media/end-user-report-view/power-bi-fit-to-width.png)
+
+- También puede elegir entre cuatro **Colores de alto contraste**: Alto contraste 1, Alto contraste 2, Negro de alto contraste y Blanco de alto contraste. Es una característica de accesibilidad que puede usar para que las personas que tengan problemas de visión puedan ver mejor los informes:
+
+    ![Captura de pantalla de un informe establecido en Alto contraste 1.](media/end-user-report-view/power-bi-high-contrast-1.png)![Captura de pantalla de un informe establecido en Alto contraste 2.](media/end-user-report-view/power-bi-high-contrast-2.png)
+    ![Captura de pantalla de un informe establecido en Negro de alto contraste.](media/end-user-report-view/power-bi-high-contrast-black.png)![Captura de pantalla de un informe establecido en Blanco de alto contraste.](media/end-user-report-view/power-bi-high-contrast-white.png)
+
+- La última opción, **Pantalla completa**, muestra la página del informe sin barras de menús ni encabezados. La pantalla completa puede ser una buena elección para pantallas pequeñas, donde es difícil ver los detalles.  La pantalla completa también puede ser una buena opción al proyectar páginas del informe en pantallas grandes para que las personas las vean, pero no interactúen con ellas.  
+
+    ![Informe en pantalla completa](media/end-user-report-view/power-bi-full-screen.png)
+
+Cuando sale del informe, la configuración de **Vista** no se guarda, sino que vuelve al valor predeterminado. Si le parece importante guardar esta configuración, use [marcadores](end-user-bookmarks.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Crear informes para Cortana](../service-cortana-answer-cards.md)
+
+* [Ver el panel Filtros del informe](end-user-report-filter.md)

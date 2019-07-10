@@ -9,14 +9,14 @@ ms.author: mblythe
 manager: kfile
 ms.reviewer: ''
 ms.custom: ''
-ms.date: 06/20/2018
+ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 5365c076b75d0989df8db15c1dc16f4e11bc3f09
-ms.sourcegitcommit: c539726c9c180e899a8a34443e3fda2b9848beb2
+ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
+ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "66448400"
+ms.lasthandoff: 06/29/2019
+ms.locfileid: "67468081"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 
@@ -26,12 +26,12 @@ Con DirectQuery, las consultas se envían a Azure SQL Database a medida que expl
 
 **Notas:**
 
-* Especifique el nombre completo del servidor cuando se conecte (consulte más abajo para obtener más detalles)
-* Asegúrese de que las reglas de firewall para la base de datos están configuradas en "[Permitir el acceso a los servicios de Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)"
-* Cada acción, como seleccionar una columna o agregar un filtro, enviará una consulta a la base de datos
-* Los iconos se actualizan cada hora (no es necesario programar la actualización). Se puede ajustar en la configuración avanzada al conectarse.
+* Especifique el nombre completo del servidor cuando se conecte (consulte a continuación para obtener más detalles).
+* Asegúrese de que las reglas de firewall de la base de datos están configuradas en "[Permitir el acceso a servicios de Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Cada acción, como seleccionar una columna o agregar un filtro, enviará una consulta a la base de datos.
+* Los iconos se actualizan cada hora (no es necesario programar la actualización). Puede ajustar la frecuencia de actualización en la configuración avanzada al conectarse.
 * Preguntas y respuestas no está disponible para conjuntos de datos de DirectQuery.
-* Los cambios de esquema no se recogen automáticamente
+* Los cambios de esquema no se capturan automáticamente.
 
 Estas restricciones y notas pueden cambiar mientras seguimos mejorando las experiencias. A continuación, se detallan los pasos para conectarse.
 
@@ -42,11 +42,11 @@ Estas restricciones y notas pueden cambiar mientras seguimos mejorando las exper
 
 Para conectarse a Azure SQL Database mediante DirectQuery, debe usar Power BI Desktop. Este enfoque proporciona más flexibilidad y capacidades. Los informes creados mediante Power BI Desktop se pueden publicar en el servicio Power BI. Puede obtener más información sobre cómo conectarse a [Azure SQL Database mediante DirectQuery](desktop-use-directquery.md) en Power BI Desktop.
 
-## <a name="finding-parameter-values"></a>Buscar valores de parámetro
+## <a name="find-parameter-values"></a>Búsqueda de valores de parámetro
 
-El nombre completo del servidor y el nombre de la base de datos pueden encontrarse en Azure Portal.
+Puede encontrar el nombre completo del servidor y el nombre de la base de datos en Azure Portal.
 
-![Nueva actualización de puerto de Azure](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
+![Nueva actualización de Azure Portal](media/service-azure-sql-database-with-direct-connect/azureportnew_update.png)
 
 ![Actualización de Azure Portal](media/service-azure-sql-database-with-direct-connect/azureportal_update.png)
 
@@ -58,4 +58,4 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 * [¿Qué es Power BI?](power-bi-overview.md)  
 * [Obtener datos para Power BI](service-get-data.md)  
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Consulte la comunidad de Power BI](http://community.powerbi.com/)

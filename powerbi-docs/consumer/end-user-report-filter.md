@@ -1,6 +1,6 @@
 ---
 title: Paseo por el panel de filtros de informe
-description: Cómo agregar un filtro a un informe en el servicio Power BI para consumidores
+description: Procedimiento para agregar un filtro a un informe en el servicio Power BI para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -8,104 +8,124 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/30/2019
+ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dcf62925d8e5eef07fb6295f8d8141413947f8fb
-ms.sourcegitcommit: d88cc6a87d4ba82ad2c4d496a3634f927e4ac529
-ms.translationtype: MT
+ms.openlocfilehash: ef7e4f556832f1323043a80cf219678a16511c9e
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "66413127"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67532788"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
-En este artículo echa un vistazo en el panel de filtros de informe en el servicio Power BI. Utilice los filtros para descubrir nuevas perspectivas en los datos.
 
-Hay muchas maneras diferentes de filtrar los datos en Power BI, por eso es recomendable leer primero el artículo [Filtros y resaltado](../power-bi-reports-filters-and-highlighting.md).
+En este artículo se analiza el panel **Filtros** del informe en el servicio Power BI. Use los filtros para descubrir nuevas conclusiones en los datos.
 
-![informar en el explorador](media/end-user-report-filter/power-bi-browser-new2.png)
+Hay muchas formas diferentes de filtrar los datos en Power BI. Para obtener más información sobre los filtros, vea [Filtros y resaltado en informes de Power BI](../power-bi-reports-filters-and-highlighting.md).
+
+![Captura de pantalla de un informe en el explorador con una flecha que apunta a la opción Filtros.](media/end-user-report-filter/power-bi-browser-new2.png)
 
 ## <a name="working-with-the-report-filters-pane"></a>Trabajar con el panel Filtros de informes
-Cuando algún compañero comparta un informe con usted, asegúrese de buscar el panel **Filtros**. A veces se contrae en el borde derecho del informe. Selecciónelo para expandirlo.   
 
-![informar en el explorador](media/end-user-report-filter/power-bi-filter-pane.png)
+Cuando algún compañero comparta un informe con usted, asegúrese de buscar el panel **Filtros**. A veces se contrae en el borde derecho del informe. Selecciónelo para expandirlo.
 
-El panel Filtros contiene filtros que el *diseñador* de informes ha agregado al informe. *Los consumidores* como usted, puede interactuar con los filtros existentes y guarde los cambios, pero no se puede agregar nuevos filtros para el informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó dos filtros de nivel de página: Segmento y el año de ejecución. Puede cambiar estos filtros e interactuar con ellos, pero no agregar un tercer filtro de nivel de página.
+![Captura de pantalla del informe con el panel Filtros expandido.](media/end-user-report-filter/power-bi-filter-pane.png)
 
-En el servicio Power BI, informes de conservar los cambios que realice en el panel filtros y dichos cambios se aplican a través de la versión móvil del informe. Para restablecer los valores predeterminados del diseñador en el panel Filtro, seleccione **Restablecer valores predeterminados** en la barra de menús superior.  
+El panel **Filtros** contiene filtros que el *diseñador* de informes ha agregado al informe. Los *consumidores*, como usted, pueden interactuar con los filtros existentes y guardar los cambios, pero no pueden agregar nuevos filtros al informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó dos filtros de nivel de página: **Segmento** y **Año**. Puede cambiar estos filtros e interactuar con ellos, pero no puede agregar un tercer filtro de nivel de página.
 
-![Restablecer valores predeterminados](media/end-user-report-filter/power-bi-reset-to-default.png)   
+En el servicio Power BI, los informes conservan los cambios que haga en el panel **Filtros**. El servicio lleva esos cambios mediante la versión móvil del informe.
 
-## <a name="view-all-the-filters-for-a-report-page"></a>Ver todos los filtros de una página de informe
-El panel filtros muestra todos los filtros que se agregan al informe mediante el *diseñador*. El panel de filtros también es el área donde puede ver información acerca de los filtros e interactuar con ellos. Puede guardar los cambios que realizan o utilizan **Restablecer valores predeterminados** para revertir a la configuración del filtro original.
+Para restablecer los valores predeterminados del diseñador en el panel **Filtro**, seleccione ![Captura de pantalla de la opción Restablecer valores predeterminados.](media/end-user-report-filter/power-bi-reset.png) en la barra de menú superior.
 
-Si hay cambios que le gustaría guardar, también puede crear un marcador personal.  Para obtener más información, consulte [agregar un marcador a un informe](end-user-bookmarks.md).
+## <a name="view-all-the-filters-for-a-report-page"></a>Ver todos los filtros de la página de un informe
 
-Hay varios tipos de filtros de informe que se muestran y administran en el panel filtros, las que se aplican a un objeto visual, a una página del informe y a todo el informe.
+En el panel **Filtros** se muestran todos los filtros que ha agregado el diseñador al informe. El panel **Filtros** también es el área donde puede ver información sobre los filtros e interactuar con ellos. Puede guardar los cambios que haga o usar la opción **Restablecer valores predeterminados** para volver a la configuración original del filtro.
 
-En este ejemplo, hemos seleccionado un objeto visual que tiene 2 filtros. La página del informe también tiene filtros, que se muestran bajo el **filtros en esta página** encabezado. Y todo el informe tiene un filtro de fecha.
+Si quiere guardar algún cambio, también puede crear un marcador personal.  Para obtener más información, consulte [¿Qué son los marcadores?](end-user-bookmarks.md)
 
-![lista de filtros](media/end-user-report-filter/power-bi-all-filters2.png)
+En el panel **Filtros** se muestran y administran varios tipos de filtros de informe. Se pueden aplicar a un objeto visual, a una página de informe y a todo el informe.
 
-Algunos de los filtros tienen la palabra **Todo** junto a ellos, lo que indica que se incluyen como filtro todos los valores.  Por ejemplo, **Segment(All)** en la captura de pantalla anterior nos indica que esta página del informe incluye datos acerca de todos los segmentos de producto.  Por otro lado, el nivel de página de filtro de **la región Oeste es** nos indica que la página del informe solo incluye los datos de la región Oeste.
+En este ejemplo, hemos seleccionado un objeto visual que cuenta con dos filtros. La página del informe también tiene filtros, que aparecen debajo del encabezado **Filtros de esta página**. Además, todo el informe tiene un filtro de **Fecha**.
+
+![Captura de pantalla de un informe con una visualización y sus filtros relacionados destacados.](media/end-user-report-filter/power-bi-all-filters2.png)
+
+Algunos de los filtros tienen **(Todos)** junto a ellos. **(Todos)** implica que se incluyen todos los valores en el filtro. En la captura de pantalla anterior, **Segmento(Todos)** indica que esta página del informe incluye datos sobre todos los segmentos de productos. Si selecciona el filtro de nivel de página **Región es Oeste**, la página del informe solo incluye los datos de la región Oeste.
 
 Cualquier persona que vea este informe puede interactuar con estos filtros.
 
 ### <a name="view-only-those-filters-applied-to-a-visual"></a>Ver solo esos filtros aplicados a un objeto visual
-Para obtener una visión más detallada de los filtros aplicados a un objeto visual específico, mantenga el mouse sobre el objeto visual para mostrar el icono de filtro ![icono](media/end-user-report-filter/power-bi-filter-icon.png). Seleccione ese icono de filtro para ver un elemento emergente con todas las segmentaciones, filtros y así sucesivamente, que afectan a ese objeto visual. Los filtros en la ventana emergente son los mismos filtros que se muestra en el **filtros** panel. 
 
-![lista de filtros](media/end-user-report-filter/power-bi-hover-visual-filter.png)
+Para obtener un análisis más detallado de los filtros aplicados a un objeto visual específico, mueva el puntero sobre el objeto visual para mostrar el icono de filtro ![Captura de pantalla del icono de filtro.](media/end-user-report-filter/power-bi-filter-icon.png). Seleccione ese icono de filtro para ver una ventana emergente con todos los filtros, las segmentaciones, etc., que afectan a ese objeto visual. Los filtros de la ventana emergente son los mismos que se muestran en el panel **Filtros**.
 
- 
-Estos son los tipos de filtros que puede mostrar esta vista:
+![Captura de pantalla de una lista de filtros con flechas que apuntan a dónde se encuentran esos filtros en el panel Filtros.](media/end-user-report-filter/power-bi-hover-visual-filter.png)
+
+Estos son los tipos de filtros que se pueden mostrar en esta vista:
+
 - Filtros básicos
+
 - Segmentaciones
+
 - Resaltado cruzado
+
 - Filtrado cruzado
+
 - Filtros avanzados
+
 - N filtros principales
+
 - Filtros de fecha relativa
+
 - Segmentaciones de sincronización
+
 - Filtros de inclusión o exclusión
+
 - Filtros que se pasan mediante una dirección URL
 
+En el ejemplo siguiente:
 
+1. Podemos ver que se ha aplicado un filtro cruzado al gráfico de columnas.
 
-En el ejemplo, a continuación:
-1. Podemos ver que el gráfico de columnas ha sido un filtrado cruzado.
-2. **Incluye** nos indica que es el filtro cruzado para **segmento**, y se incluyen tres. 
-3. Se ha aplicado una segmentación de datos para **trimestre**.
-4. **Región** es un filtro aplicado a esta página del informe, y
-5. **isVanArsdel** y **año** son filtros aplicados a este objeto visual.
+1. **Incluido** nos indica que el filtro cruzado es para **Segmento**, y que se incluyen tres.
 
+1. Se ha aplicado una segmentación a **Trimestre**.
 
-![lista de filtros](media/end-user-report-filter/power-bi-visual-pop-up.png)
+1. **Región** es un filtro que se ha aplicado a esta página del informe.
+
+1. E **isVanArsdel** y **Año** son filtros que se han aplicado a este objeto visual.
+
+![Captura de pantalla de un informe y sus filtros con la lista de filtros numerados para que coincida con la lista numerada anterior.](media/end-user-report-filter/power-bi-visual-pop-up.png)
 
 ### <a name="search-in-a-filter"></a>Búsqueda en un filtro
-A veces, un filtro puede tener una larga lista de valores. Utilice el cuadro de búsqueda para buscar y seleccionar el valor que desee. 
 
-![Búsqueda en un filtro](media/end-user-report-filter/power-bi-fiter-search.png)
+A veces, un filtro puede tener una lista larga de valores. Use el cuadro de búsqueda para buscar y seleccionar el valor que quiera.
+
+![Captura de pantalla del procedimiento para buscar en un filtro.](media/end-user-report-filter/power-bi-fiter-search.png)
 
 ### <a name="display-filter-details"></a>Mostrar detalles del filtro
-Para entender un filtro, eche un vistazo a los valores disponibles y los recuentos.  Ver los detalles del filtro por encima de él y seleccione la flecha situada junto al nombre de filtro. 
-  
-![muestra Lindseys seleccionado](media/end-user-report-filter/power-bi-expand-filter.png)
 
-### <a name="change-filter-selections"></a>Cambiar las selecciones de filtro
-Es una manera de buscar información sobre los datos interactuar con los filtros. Puede cambiar las selecciones de filtro mediante la flecha desplegable situada junto al nombre de campo.  Según el filtro y el tipo de datos que se está filtrados, sus opciones estará comprendida entre selecciones simple de una lista para identificar los intervalos de fechas o números. En el filtro avanzado a continuación, hemos cambiado el filtro **Total de unidades de YTD** en el gráfico de rectángulos para estar entre 2000 y 3000. Tenga en cuenta que esto quita Prirum desde el gráfico de rectángulos. 
+Para comprender un filtro, eche un vistazo a los valores y recuentos disponibles.  Para ver los detalles del filtro, mueva el puntero sobre él y seleccione la flecha situada junto al nombre del filtro.
   
-![muestra Fashions Direct seleccionado](media/end-user-report-filter/power-bi-filter-treemap.png)
+![Captura de pantalla de un filtro que muestra la región Oeste seleccionada.](media/end-user-report-filter/power-bi-expand-filter.png)
+
+### <a name="change-filter-selections"></a>Cambiar las selecciones de filtros
+
+Una forma de buscar conclusiones sobre los datos es interactuar con los filtros. Puede cambiar las selecciones de filtros mediante la flecha desplegable situada junto al nombre del campo.  En función del filtro y el tipo de datos que esté filtrando Power BI, sus opciones variarán desde selecciones simples de una lista hasta identificar intervalos de fechas o números. En el filtro avanzado que se muestra a continuación, hemos cambiado el filtro **Total de unidades hasta la fecha** del gráfico de rectángulos para estar entre 2000 y 3000. Fíjese en que este cambio elimina Prirum del gráfico de rectángulos.
+  
+![Captura de pantalla de un informe y sus filtros en el que se muestra Fashions Direct seleccionado.](media/end-user-report-filter/power-bi-filter-treemap.png)
 
 > [!TIP]
-> Para seleccionar más de un valor de filtro a la vez, mantenga presionada la tecla CTRL. Mayoría de los filtros admite la selección múltiple. 
+> Para seleccionar más de un valor de filtro a la vez, mantenga presionada la tecla CTRL. La mayoría de los filtros admiten la selección múltiple.
 
-### <a name="reset-filter-to-default"></a>Restablecer valores predeterminados de filtro
-Si desea salir de todos los cambios realizados en los filtros, seleccionados **Restablecer valores predeterminados** desde la barra de menús superior.  Esto revierte los filtros a su estado original, según lo establecido por el informe *diseñador*. 
+### <a name="reset-filter-to-default"></a>Restablecer los valores predeterminados del filtro
 
-![Restablecer valores predeterminados](media/end-user-report-filter/power-bi-reset-to-default.png)
-    
+Si quiere eliminar todos los cambios que ha realizado en los filtros, seleccione **Restablecer valores predeterminados** en la barra de menús superior.  Esta selección devuelve los filtros a su estado original, según lo establecido en el diseñador de informes.
+
+![Captura de pantalla de la opción Restablecer valores predeterminados.](media/end-user-report-filter/power-bi-reset.png)
+
 ### <a name="clear-a-filter"></a>Borrado de un filtro
-Si hay solo un filtro que le gustaría establecer **(All)** , desactívela seleccionando el icono de borrador ![ icono de borrador ](media/end-user-report-filter/power-bi-eraser-icon.png) junto al nombre del filtro.
+
+Si solo quiere establecer un filtro en **(Todos)** , bórrelo; para ello, seleccione el icono de borrador ![Captura de pantalla del icono de borrador.](media/end-user-report-filter/power-bi-eraser-icon.png) que está junto al nombre del filtro.
   
 <!--  too much detail for consumers
 
@@ -145,4 +165,5 @@ If the field values represent date or time, you can specify a start/end time whe
 -->
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Obtener información sobre cómo y por qué cambiar el filtro cruzado y el resaltado cruzado entre los objetos visuales en una página de informe](end-user-interactions.md)
+
+Obtenga información sobre cómo y por qué [los objetos visuales se aplican el filtro cruzado y el resaltado cruzado entre ellos en una página de informe](end-user-interactions.md).

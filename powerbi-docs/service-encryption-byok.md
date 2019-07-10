@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 5c93a50ce481c5fad899c1911b30100dca7cb841
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 96939c3ad29418ad868175dfd8093847ab427187
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264503"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498971"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traiga sus propias claves de cifrado para Power BI (versión preliminar)
 
@@ -103,13 +103,22 @@ Para habilitar BYOK, debe ser un administrador del inquilino del servicio Power�
 Add-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
 ```
 
+Para agregar varias claves, ejecute `Add-PowerBIEncryptionKey` con valores diferentes para -`-Name` y `-KeyVaultKeyUri`. 
+
 El cmdlet acepta dos parámetros de modificador que afectan al cifrado de las capacidades actuales y futuras. Ninguno de los modificadores está establecido de forma predeterminada:
 
-- `-Activate`: indica que esta clave se usará para todas las capacidades existentes en el inquilino.
+- `-Activate`: indica que esta clave se usará para todas las capacidades existentes en el inquilino que aún no están cifradas.
 
 - `-Default`: indica que esta clave es ahora la predeterminada para todo el inquilino. Cuando se crea una nueva capacidad, dicha capacidad hereda esta clave.
 
-Si especifica `-Default`, todas las capacidades creadas en este inquilino desde este momento se cifrarán con la clave especificada (o una clave predeterminada actualizada). No se puede deshacer la operación predeterminada, por lo que se pierde la opción de crear una capacidad Premium que no use BYOK en el inquilino.
+> [!IMPORTANT]
+> Si especifica `-Default`, todas las capacidades creadas en el inquilino desde este momento se cifrarán con la clave especificada (o una clave predeterminada actualizada). No se puede deshacer la operación predeterminada, por lo que se pierde la opción de crear una capacidad Premium en el inquilino que no use BYOK.
+
+Después de habilitar BYOK en el inquilino, use [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para establecer la clave de cifrado de una o varias capacidades de Power BI:
+
+```powershell
+Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
+```
 
 Tiene el control sobre el uso de BYOK en el inquilino. Por ejemplo, para cifrar una sola capacidad, llame a `Add-PowerBIEncryptionKey` sin `-Activate` o `-Default`. A continuación, llame a `Set-PowerBICapacityEncryptionKey` para la capacidad en la que desea habilitar BYOK.
 
@@ -136,12 +145,6 @@ Power BI proporciona cmdlets adicionales para ayudar a administrar BYOK en el i
     ```
 
     Tenga en cuenta que el cifrado se habilita en el nivel de capacidad, pero el estado de cifrado se obtiene en el nivel de conjunto de datos del área de trabajo especificada.
-
-- Utilice [`Set-PowerBICapacityEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/set-powerbicapacityencryptionkey) para actualizar la clave de cifrado de la capacidad de Power BI:
-
-    ```powershell
-    Set-PowerBICapacityEncryptionKey-CapacityId 08d57fce-9e79-49ac-afac-d61765f97f6f -KeyName 'Contoso Sales'
-    ```
 
 - Utilice [`Switch-PowerBIEncryptionKey`](/powershell/module/microsoftpowerbimgmt.admin/switch-powerbiencryptionkey) para cambiar (o _rotar_) la versión de la clave que se usa para el cifrado. El cmdlet simplemente actualiza el valor de `-KeyVaultKeyUri` de la clave especificada en la opción `-Name`:
 

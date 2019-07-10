@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 05/10/2019
+ms.date: 07/03/2019
 ms.author: mblythe
 LocalizationGroup: Premium
-ms.openlocfilehash: ee5ec87e04517ce93589b371e97116acbcb02e87
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: c743f56de101cb63db2357acf869aba80162c181
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408583"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559024"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Actualizaciones incrementales en Power BI Premium
 
@@ -163,4 +163,4 @@ in
 
 ## <a name="limitations"></a>Limitaciones
 
-En estos momentos, para [modelos compuestos](desktop-composite-models.md), la actualización incremental solo es compatible con orígenes de datos de SQL, Oracle y Teradata.
+En estos momentos, para [modelos compuestos](desktop-composite-models.md), la actualización incremental solo es compatible con orígenes de datos de SQL Server, Azure SQL Database, SQL Data Warehouse, Oracle y Teradata.

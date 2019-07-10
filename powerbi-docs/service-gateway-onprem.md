@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 06/05/2018
-ms.openlocfilehash: f477cbd5f2d767333c16a43308b4793527665806
-ms.sourcegitcommit: a36f82224e68fdd3489944c9c3c03a93e4068cc5
+ms.openlocfilehash: 7e2e0e7a980c72f203f93baf552685dce6f43bbd
+ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2019
-ms.locfileid: "55430795"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "67418812"
 ---
 # <a name="on-premises-data-gateway"></a>Puerta de enlace de datos local
 
@@ -79,7 +79,7 @@ Una vez completada la instalación, debe ir a los conjuntos de datos en Power BI
 
 ## <a name="storing-encrypted-credentials-in-the-cloud"></a>Almacenar credenciales cifradas en la nube
 
-Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las credenciales de ese origen de datos. Todas las consultas que se realicen al origen de datos se ejecutarán con estas credenciales. Las credenciales se cifran de forma segura mediante el cifrado asimétrico, para que no se puedan descifrar en la nube, antes de almacenarse en la nube. Las credenciales se envían a la máquina, que ejecuta la puerta de enlace, de forma local para descifrarse cuando se accede a los orígenes de datos.
+Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las credenciales de ese origen de datos. Todas las consultas que se realicen al origen de datos se ejecutarán con estas credenciales. Las credenciales se cifran de forma segura mediante el cifrado simétrico, para que no se puedan descifrar en la nube, antes de almacenarse en la nube. Las credenciales se envían a la máquina, que ejecuta la puerta de enlace, de forma local para descifrarse cuando se accede a los orígenes de datos.
 
 <!-- Account and Port information -->
 [!INCLUDE [gateway-onprem-accounts-ports-more](./includes/gateway-onprem-accounts-ports-more.md)]

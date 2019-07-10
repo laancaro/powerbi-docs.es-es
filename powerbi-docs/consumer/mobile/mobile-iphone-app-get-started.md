@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b0de20cc32c32360f4f37c70e673dba01740a860
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
+ms.sourcegitcommit: 63a697c67e1ee37e47b21047e17206e85db64586
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137538"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67498986"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos iOS
 La aplicación Microsoft Power BI para iOS en su iPhone, iPad o iPod Touch proporciona la experiencia de BI móvil para Power BI, Power BI Report Server y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. Y manténgase al día y a tiempo con los datos en su [Apple Watch](mobile-apple-watch.md).  
@@ -33,7 +33,7 @@ Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-n
 ## <a name="download-the-app"></a>Descargar la aplicación
 [Descarga de la aplicación de iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Descargue la aplicación de iOS") desde App Store de Apple para su iPhone, iPad o iPod Touch.
 
-Puede ejecutar la aplicación Power BI para iOS en iPhone 5 y superior, con iOS 10 o posterior. También puede ejecutarla en un iPad o un iPod Touch con iOS 10 o una versión posterior. 
+Puede ejecutar la aplicación Power BI para iOS en cualquier dispositivo con iOS 11 o una versión posterior. 
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Suscribirse al servicio Power BI
 Si aún no se ha registrado, vaya a [powerbi.com](https://powerbi.microsoft.com/get-started/) y, en **Power BI: colaboración y uso compartido en la nube**, seleccione **Probar gratis**.

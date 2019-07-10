@@ -1,16 +1,37 @@
+---
+title: 'Creación de un área de trabajo: Power BI'
+description: Procedimiento para crear un área de trabajo, incluido
+services: powerbi
+author: maggiesMSFT
+ms.service: powerbi
+ms.topic: include
+ms.date: 04/04/2019
+ms.author: maggies
+ms.custom: include file
+ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
+ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.translationtype: HT
+ms.contentlocale: es-ES
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "67534728"
+---
 1. Comience por crear el área de trabajo. Seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**. 
    
      ![Crear área de trabajo de la aplicación](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
    
-    Este será el lugar para colocar el contenido en el que está colaborando con sus compañeros.
+    Aquí colocará el contenido en el que está colaborando con sus compañeros.
 
-2. Asigne un nombre al área de trabajo. Si el **Id. de área de trabajo** correspondiente no está disponible, puede editarlo para tener un identificador único.
+2. En el banner **Va a crear un área de trabajo actualizada**, haga clic en **Revertir al área de trabajo clásica**. 
+
+    ![Opción Revertir al área de trabajo clásica](media/powerbi-service-create-app-workspace/power-bi-revert-classic-workspace.png)
+
+3. Asigne un nombre al área de trabajo. Si el **Id. de área de trabajo** correspondiente no está disponible, puede editarlo para tener un identificador único.
    
-     Este será también el nombre de la aplicación.
+     La aplicación tendrá el mismo nombre.
    
      ![Asignar un nombre al área de trabajo](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-name.png)
 
-3. Tiene que establecer algunas opciones. Si elige **Pública**, cualquier persona de la organización puede ver el contenido del área de trabajo. **Privada**, por otro lado, significa que solo los miembros del área de trabajo pueden ver su contenido.
+3. Tiene que establecer algunas opciones. Si elige **Pública**, cualquier persona de la organización puede ver el contenido del área de trabajo. **Privada** significa que solo los miembros del área de trabajo pueden ver su contenido.
    
      ![Establecer privado o público](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-private-public.png)
    

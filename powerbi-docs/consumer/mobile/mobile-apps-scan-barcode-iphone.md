@@ -1,5 +1,5 @@
 ---
-title: Escanear un código de barras con un iPhone desde la aplicación móvil de Power BI
+title: Escanear un código de barras desde la aplicación móvil de Power BI
 description: Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
 author: mshenhav
 manager: kfile
@@ -9,21 +9,28 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 10/13/2017
 ms.author: mshenhav
-ms.openlocfilehash: 3fd2d4888f76490a01c0742e68e6820c7055326e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 432b65f8d7f461ac1942cf8996f9cc67e756fc7f
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61137323"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559000"
 ---
-# <a name="scan-a-barcode-with-your-iphone-from-the-power-bi-mobile-app"></a>Escanear un código de barras con su iPhone desde la aplicación móvil de Power BI
+# <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Escanear un código de barras con su dispositivo desde la aplicación móvil de Power BI
 Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
 
-![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Se aplica a:
+
+| ![iPhone](./media/mobile-apps-quickstart-view-dashboard-report/iphone-logo-30-px.png) | ![Android](./media/mobile-apps-quickstart-view-dashboard-report/android-logo-30-px.png) | 
+|:--- |:--- |
+| iPhone | Android (teléfono o tableta) | 
 
 Suponga que un compañero ha [etiquetado un campo de código de barras en un informe de Power BI Desktop](../../desktop-mobile-barcodes.md) y ha compartido el informe con usted. 
 
-Al escanear un código de barras de producto con el escáner en la aplicación Power BI en su iPhone, verá el informe (o una lista de informes) con ese código de barras. Puede abrir el informe en el iPhone, filtrado por ese código de barras.
+![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-scanner.png)
+
+Al escanear el código de barras de un producto con el escáner en la aplicación Power BI en su dispositivo, verá el informe (o una lista de informes) con ese código de barras. Puede abrir ese informe filtrado por ese código de barras.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Escanear un código de barras con el escáner de Power BI
 1. En la aplicación móvil de Power BI, abra el menú de navegación principal ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) en la parte superior izquierda. 
@@ -34,10 +41,10 @@ Al escanear un código de barras de producto con el escáner en la aplicación P
 4. Apunte el escáner a un código de barras de un producto. 
    
     Verá una lista de los informes asociados a ese código de barras.
-5. Pulse el nombre del informe para abrirlo en el iPhone, filtrado automáticamente por ese código de barras.
+5. Pulse el nombre del informe para abrirlo en el dispositivo, filtrado automáticamente por ese código de barras.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrar por otros códigos de barras en un informe
-Mientras mira un informe filtrado por un código de barras en el iPhone, puede querer filtrar el mismo informe por un código de barras diferente.
+Mientras mira un informe filtrado por un código de barras en el dispositivo, puede querer filtrar el mismo informe por otro código de barras.
 
 * Si el icono de código de barras tiene un filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-filtered-icon-black.png), el filtro está activo y el informe ya está filtrado por un código de barras. 
 * Si el icono no contiene un filtro ![](media/mobile-apps-scan-barcode-iphone/power-bi-barcode-unfiltered-icon.png), el filtro no está activo y el informe no está filtrado por un código de barras. 

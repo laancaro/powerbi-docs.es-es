@@ -11,12 +11,12 @@ ms.date: 04/18/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5d9e468ecf3bf1fdc2e138ac06202820bbd96bcf
-ms.sourcegitcommit: 57a12aa42c8549debc60ff1c8e78533dc42e1b86
-ms.translationtype: MT
+ms.openlocfilehash: 8acc0e403c983de79657cd01a7aa7f458bfb01ad
+ms.sourcegitcommit: 9278540467765043d5cb953bcdd093934c536d6d
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66469808"
+ms.lasthandoff: 07/03/2019
+ms.locfileid: "67559051"
 ---
 # <a name="manage-a-power-bi-on-premises-gateway"></a>Administración de una puerta de enlace local de Power BI
 
@@ -31,6 +31,8 @@ Si acaba de instalar una puerta de enlace, se recomienda que después [agregue u
 
 Power BI admite muchos orígenes de datos locales, y cada uno tiene sus propios requisitos. Una puerta de enlace se puede usar para un único origen de datos, o bien para varios. En este ejemplo, vamos a mostrarle cómo agregar SQL Server como un origen de datos, pero los pasos son similares para otros orígenes de datos.
 
+> [!NOTE]
+> Ahora, los administradores de puertas de enlace pueden crear varios orígenes de datos que se conectan al mismo origen, cada uno con una credencial distinta, y agregar usuarios a cada uno de estos orígenes de datos según su nivel de acceso.
 
 ### <a name="add-a-data-source"></a>Elegir un origen de datos
 
@@ -53,7 +55,12 @@ Power BI admite muchos orígenes de datos locales, y cada uno tiene sus propios 
 
 1. Para SQL Server, elegiría un **Método de autenticación** de **Windows** o **Básico** (Autenticación de SQL).  Si elige **Básico**, escriba las credenciales del origen de datos.
 
-1. En **Configuración avanzada**, puede configurar el [nivel de privacidad](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) del origen de datos (no se aplica a [DirectQuery](desktop-directquery-about.md)).
+1. Si este origen de datos no está disponible actualmente o funciona con lentitud, seleccione **Omitir conexión de prueba**. En caso contrario, se puede producir un error al crear el origen de datos.
+
+    > [!NOTE]
+    > No se puede omitir la conexión de prueba en Analysis Services.
+
+1. En **Configuración avanzada**, si quiere puede configurar el [nivel de privacidad](https://support.office.com/article/Privacy-levels-Power-Query-CC3EDE4D-359E-4B28-BC72-9BEE7900B540) del origen de datos (no se aplica a [DirectQuery](desktop-directquery-about.md)).
 
     ![Configuración avanzada](media/service-gateway-manage/advanced-settings.png)
 
@@ -74,7 +81,7 @@ Para quitar un origen de datos, vaya al origen de datos y luego seleccione **Qui
 
 ## <a name="manage-users-and-administrators"></a>Administración de usuarios y administradores
 
-Después de agregar un origen de datos a una puerta de enlace, conceda acceso a los usuarios y grupos de seguridad al origen de datos específico (no a toda la puerta de enlace). La lista de usuarios del origen de datos controla solo a quién se le permite publicar informes que incluyen datos del origen de datos. Los propietarios de informes pueden crear paneles, paquetes de contenido y aplicaciones y compartirlos con otros usuarios.
+Después de agregar un origen de datos a una puerta de enlace, conceda acceso a los usuarios y grupos de seguridad habilitados para correo electrónico al origen de datos específico (no a toda la puerta de enlace). La lista de usuarios del origen de datos controla solo a quién se le permite publicar informes que incluyen datos del origen de datos. Los propietarios de informes pueden crear paneles, paquetes de contenido y aplicaciones y compartirlos con otros usuarios.
 
 También puede conceder acceso administrativo a los usuarios y grupos de seguridad a la puerta de enlace.
 
@@ -98,14 +105,14 @@ Y eso es todo. Recuerde que debe agregar usuarios a cada origen de datos al que 
 
 ### <a name="remove-users-from-a-data-source"></a>Eliminación de usuarios de un origen de datos
 
-En la pestaña **Usuarios** del origen de datos, puede quitar usuarios y grupos de seguridad que usan este origen de datos.
+En la pestaña **Usuarios** del origen de datos, puede quitar usuarios y grupos de seguridad habilitados para correo electrónico que usan este origen de datos.
 
 ![Quitar usuario](media/service-gateway-manage/remove-user.png)
 
 
 ### <a name="add-and-remove-administrators"></a>Adición y eliminación de administradores
 
-En la pestaña **Administradores** de la puerta de enlace, agregue y quite usuarios o grupos de seguridad que pueden administrar la puerta de enlace.
+En la pestaña **Administradores** de la puerta de enlace, agregue y quite usuarios o grupos de seguridad habilitados para correo electrónico que pueden administrar la puerta de enlace.
 
 ![Pestaña Administradores](media/service-gateway-manage/administrators-tab.png)
 
