@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 6aebc45f2341f098f0f54dad66652967077c2a08
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823401"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596567"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -287,7 +287,7 @@ public IdentityBlob(string value);
 
 ### <a name="token-based-identity-rest-api-usage"></a>Uso de API REST de identidad basada en token
 
-Si llama a la [API REST](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetoken#definitions), puede agregar un blob de identidad dentro de cada identidad.
+Si llama a la [API REST](/rest/api/power-bi/embedtoken/reports_generatetokeningroup#definitions), puede agregar un blob de identidad dentro de cada identidad.
 
 ```JSON
 {
