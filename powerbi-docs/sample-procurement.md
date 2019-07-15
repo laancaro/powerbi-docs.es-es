@@ -7,137 +7,140 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/23/2018
+ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 18b99bf86f49f1355d4ab9f20ff6e8a83c89731d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 17a4a3770cb2c3e2adff2bcce64c3e101688e002
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61234027"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791860"
 ---
 # <a name="procurement-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de adquisiciones para Power BI: Dar un paseo
 
-## <a name="overview-of-the-procurement-analysis-sample"></a>Introducción al Ejemplo de análisis de adquisiciones
-En este panel de ejemplo del sector y en el informe subyacente se analizan los gastos que tiene una empresa de fabricación en proveedores por categoría y ubicación. En el ejemplo, exploramos estas áreas:
+El paquete de contenido de ejemplo de análisis de adquisiciones contiene un panel, un informe y un conjunto de datos que permiten analizar el gasto de un fabricante en proveedores por categoría y ubicación. En el ejemplo, exploramos estas áreas:
 
 * Quiénes son los mejores proveedores
 * En qué categorías se realiza el mayor gasto
 * Qué proveedores nos ofrecen el mayor descuento y cuándo
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce ([www.obvience.com)](http://www.obvience.com/).
+![Panel del Ejemplo de análisis de adquisiciones](media/sample-procurement/procurement1.png)
 
-![](media/sample-procurement/procurement1.png)
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
-## <a name="prerequisites"></a>Requisitos previos
+En este tutorial se explora el paquete de contenido de ejemplo de análisis de adquisiciones del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
- Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](https://docs.microsoft.com/power-bi/sample-procurement#get-the-content-pack-for-this-sample), un [archivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix) o un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529784).
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo del servicio Power BI. 
+
+## <a name="get-the-sample"></a>Obtención del ejemplo
+
+Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](#get-the-content-pack-for-this-sample), un [archivo .pbix](#get-the-pbix-file-for-this-sample) o un [libro de Excel](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
 
-1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
+1. Abra el servicio Power BI (app.powerbi.com), inicie sesión y abra el área de trabajo donde desea guardar el ejemplo. 
+
+    Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
+
 2. En la esquina inferior izquierda, seleccione **Obtener datos**.
-   
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. En la página que aparece, seleccione el icono **Ejemplos**.
-   
-   ![](media/sample-datasets/power-bi-samples-icon.png)
+
+    ![Seleccionar Obtener datos](media/sample-datasets/power-bi-get-data.png)
+3. En la página **Obtener datos**, seleccione **Ejemplos**.
+
 4. Seleccione el **Ejemplo de análisis de adquisiciones** y elija **Conectar**.  
   
-   ![Obtener datos](media/sample-procurement/procurement1a.png)
+   ![Conectarse al ejemplo](media/sample-procurement/procurement1a.png)
    
-5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
+5. Power BI importa el paquete de contenido y agrega un panel, un informe y un conjunto de datos nuevos en el área de trabajo actual.
    
-   ![Asterisco](media/sample-procurement/procurement1b.png)
+   ![Entrada del Ejemplo de análisis de adquisiciones](media/sample-procurement/procurement-entry.png)
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está diseñado para su uso con Power BI Desktop. 
-
- * [Ejemplo de análisis de adquisiciones](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix)
+Como alternativa, puede descargar el Ejemplo de análisis de adquisiciones como un [archivo .pbix](http://download.microsoft.com/download/D/5/3/D5390069-F723-413B-8D27-5888500516EB/Procurement%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
-También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529784) para este ejemplo. El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
+
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529784). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 
 ## <a name="spending-trends"></a>Tendencias de gastos
 Veamos primero las tendencias de gastos por categoría y ubicación.  
 
-1. En el área de trabajo, abra la pestaña **Paneles** y seleccione el panel de análisis de adquisiciones.
-2. Seleccione el icono del panel **Total factura por país o región**. Se abre la página "Resume de gastos" del informe "Ejemplo de análisis de compras".
+1. En el área de trabajo donde guardó el ejemplo, abra la pestaña **Paneles** y elija el panel **Ejemplo de análisis de adquisiciones**. 
+2. Seleccione el icono del panel **Total Invoice by Country/Region**, que se abre en la página **Spend Overview** del informe **Ejemplo de análisis de adquisiciones**.
 
-    ![](media/sample-procurement/procurement2.png)
+    ![Página Spend Overview](media/sample-procurement/procurement2.png)
 
-Aspectos a tener en cuenta:
+Tenga en cuenta los siguientes detalles:
 
-* En el gráfico de líneas **Total de facturas por mes y categoría**: La categoría **Directa** presenta gastos bastante coherentes, **Logística** experimenta un pico en diciembre y **Otros** un pico en febrero.
-* En el mapa **Total factura por país o región**: La mayoría de los gastos es en los Estados Unidos.
-* En el gráfico de columnas **Total de facturas por subcategoría**: **Hardware** y **Bienes y servicios indirectos** son las mayores categorías de gastos.
-* En el gráfico Total de facturas por nivel: Se realiza la mayor parte de nuestro negocio con nuestros proveedores de nivel 1 (10 principales). Esto ayuda a administrar mejor las relaciones con los proveedores.
+* En el gráfico de líneas **Total Invoice by Month and Category**, la categoría **Direct** presenta gastos constantes, **Logistics** experimenta un pico en diciembre y **Other**, un pico en febrero.
+* En el mapa **Total Invoice by Country/Region**, la mayor parte de los gastos corresponden a Estados Unidos.
+* En el gráfico de columnas **Total Invoice by Sub Category**, las categorías que muestran unos gastos mayores son **Hardware** y **Indirect Goods & Services**.
+* En el gráfico de barras **Total Invoice by Tier**, la mayor parte de los negocios se llevan a cabo con nuestros proveedores de nivel 1 (10 principales). De este modo, podremos administrar mejor las relaciones con proveedores.
 
 ## <a name="spending-in-mexico"></a>Gastos de México
 Vamos a examinar las áreas de gasto en México.
 
-1. En el gráfico circular, seleccione la burbuja **México** en el mapa. Observe que, en el gráfico de columnas "Total Invoice by Sub Category", la mayoría de los datos se encuentran en la subcategoría **Indirect Goods & Services**.
+1. En el mapa **Total Invoice by Country/Region**, seleccione la burbuja **Mexico**. Observe que, en el gráfico de columnas **Total Invoice by Sub Category**, la mayoría del gasto se encuentra en la subcategoría **Indirect Goods & Services**.
 
-   ![](media/sample-procurement/pbi_procsample_spendmexico.png)
+   ![Seleccione Mexico en la página de información general de gasto](media/sample-procurement/pbi_procsample_spendmexico.png)
 2. Explore en profundidad la columna **Indirect Goods & Services**:
 
-   * Seleccione la flecha de exploración en profundidad ![](media/sample-procurement/pbi_drilldown_icon.png) de la esquina superior derecha del gráfico.
+   * En el gráfico **Total Invoice by Sub Category**, seleccione la flecha de exploración en profundidad ![Flecha de exploración en profundidad](media/sample-procurement/pbi_drilldown_icon.png), que encontrará en la esquina superior derecha del gráfico.
    * Seleccione la columna **Indirect Goods & Services**.
 
-      El gasto más elevado de esta categoría es, con diferencia, el de Sales & Marketing.
+      Como puede ver, sin duda el gasto más alto es el de la subcategoría **Sales & Marketing**.
    * Seleccione **Mexico** en el mapa de nuevo.
 
-      El gasto más elevado de esta categoría en México corresponde a Maintenance & Repair.
+      Para México, el mayor gasto es el de la subcategoría **Maintenance & Repair**.
 
-      ![](media/sample-procurement/pbi_procsample_drill_mexico.png)
+      ![Exploración en profundidad de Indirect Goods & Services para México](media/sample-procurement/pbi_procsample_drill_mexico.png)
 3. Seleccione la flecha arriba de la esquina superior izquierda del gráfico para volver a agrupar los datos.
-4. Seleccione de nuevo la flecha para desactivar la exploración en profundidad.  
-5. Seleccione **Power BI** en la barra de navegación superior para volver al área de trabajo.
+4. Seleccione de nuevo la flecha de exploración en profundidad para desactivar la opción en cuestión.  
+5. En la barra de navegación superior, seleccione **Ejemplo de análisis de adquisiciones** para volver al panel.
 
 ## <a name="evaluate-different-cities"></a>Evaluar las diferentes ciudades
 Se puede usar el resaltado para evaluar diferentes ciudades.
 
-1. Seleccione el icono del panel **Total factura y % descuento por mes**. El informe se abre en la página "Análisis de descuento".
-2. Seleccione las distintas ciudades en el gráfico de rectángulos **Total Invoice by City** para ver cómo se comparan. Casi todas las facturas de Miami son de proveedores del nivel 1.
+1. Seleccione el icono del panel **Total Invoice, Discount % By Months**, que se abre en la página **Discount analysis** del informe **Ejemplo de análisis de adquisiciones**.
+2. En el gráfico de rectángulos **Total Invoice by City**, seleccione cada ciudad en cuestión para ver una comparación. Observe que casi todas las facturas de Miami son de proveedores del nivel 1.
 
-   ![](media/sample-procurement/pbi_procsample_miamitreemap2.png)
+   ![Ciudad frente a porcentaje de descuento por nivel](media/sample-procurement/pbi_procsample_miamitreemap2.png)
 
 ## <a name="vendor-discounts"></a>Descuentos de proveedor
-Vamos a examinar los descuentos disponibles de los proveedores, así como los períodos de tiempo en los que conseguimos mayores descuentos
-
-![](media/sample-procurement/procurement4.png)
-
-En concreto, estas preguntas:
-
-* ¿Varían los descuentos cada mes o son siempre los mismos?
+Vamos a examinar los descuentos disponibles de los proveedores, así como los períodos de tiempo en los que conseguimos mayores descuentos:
+* ¿Los descuentos son diferentes cada mes o no cambian?
 * ¿Obtienen algunas ciudades más descuentos que otras?
 
-### <a name="discount-by-month"></a>Descuento por mes
-Si examinamos el gráfico combinado **Total Invoice and Discount % by Month** , vemos que **febrero** es el mes más ocupado y **septiembre** el menos ocupado. Ahora examinemos el porcentaje de descuento durante estos meses.
-Observe que cuando el volumen crece, el descuento se reduce y que cuando el volumen baja, el descuento aumenta. Cuando más descuento necesitemos, peor es el trato que obtenemos.
+![Página Discount analysis](media/sample-procurement/procurement4.png)
 
-![](media/sample-procurement/procurement5.png)
+### <a name="discount-by-month"></a>Descuento por mes
+Si examina el gráfico combinado **Total Invoice and Discount % by Month** , vemos que febrero es el mes más ocupado, mientras que septiembre es el menos ocupado. 
+
+Examine el porcentaje de descuento durante estos meses: cuando se aumenta el volumen, el descuento se reduce; cuando queda poco volumen, el descuento aumenta. Cuanto más necesitemos el descuento, peor es el trato que obtenemos.
+
+![Gráfico de porcentaje de total de facturas y descuento por mes](media/sample-procurement/procurement5.png)
 
 ### <a name="discount-by-city"></a>Descuento por ciudad
-Otra área para explorar es el descuento por ciudad. Seleccione cada ciudad en el gráfico de rectángulos y vea cómo cambian los demás gráficos.
+Otra área para explorar es el descuento por ciudad. Seleccione cada ciudad en el gráfico de rectángulos y vea cómo cambian los demás gráficos:
 
-* St. Louis, Missouri experimentó un aumento importante en el total de la factura en febrero y un importante retroceso en los ahorros por descuentos en abril.
-* Ciudad de México, México tiene el mayor % de descuento (11,05 %) y Atlanta, GA el menor (0,08 %).
+* San Luis tuvo un pico grande en el total de facturas en febrero y una gran caída en ahorros por descuento en abril.
+* Ciudad de México tiene el mayor porcentaje de descuento (11,05 %), mientras que Atlanta tiene el menor (0,08 %).
 
-![](media/sample-procurement/procurement6.png)
+![Gráficos de descuento para Ciudad de México](media/sample-procurement/procurement6.png)
 
 ### <a name="edit-the-report"></a>Editar el informe
-Seleccione **Editar informe** en la esquina superior izquierda y examínelo en la Vista de edición.
+Seleccione **Editar informe** en la esquina superior izquierda y examínelo en la vista de edición:
 
 * Vea cómo se crean las páginas.
 * Agregue páginas y gráficos basados en los mismos datos.
 * Cambie el tipo de visualización de un gráfico; por ejemplo, cambie el gráfico de rectángulos por un gráfico de anillos.
-* Ánclelos al panel.
-
-Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Si los guarda, siempre puede ir a **Obtener datos** para obtener una copia nueva de este ejemplo.
+* Puede anclar gráficos al panel.
 
 ## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
-Esperamos que este paseo le haya mostrado cómo los paneles y los informes de Power BI pueden proporcionar ideas claras sobre los datos de adquisiciones. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
+Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
+
+Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
+
