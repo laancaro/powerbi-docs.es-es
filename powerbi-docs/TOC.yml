@@ -723,10 +723,6 @@
               href: service-admin-troubleshooting-scheduled-refresh-azure-sql-databases.md
             - name: Solución de problemas con los errores de los iconos
               href: refresh-troubleshooting-tile-errors.md
-            - name: Solución de problemas con la puerta de enlace de datos local
-              href: service-gateway-onprem-tshoot.md
-            - name: "Solución de problemas con Power\_BI Gateway - Personal"
-              href: service-admin-troubleshooting-power-bi-personal-gateway.md
             - name: Solución de problemas con la función Analizar en Excel
               href: desktop-troubleshooting-analyze-in-excel.md
             - name: 'Error: Datos no encontrados en el libro de Excel'
@@ -1279,38 +1275,38 @@
   items:
     - name: Información general
       items:
-        - name: ¿Qué son las puertas de enlace de Power BI?
-          href: service-gateway-getting-started.md
-    - name: Tutoriales
-      items:
-        - name: Conexión a datos de SQL Server
-          href: service-gateway-sql-tutorial.md
+        - name: ¿Qué es una puerta de enlace de datos local?
+          href: service-gateway-onprem.md
     - name: Conceptos
       items:
         - name: Instrucciones para implementar una puerta de enlace de datos
           href: service-gateway-deployment-guidance.md
         - name: Preguntas más frecuentes sobre la puerta de enlace de datos local
-          href: service-gateway-onprem-faq.md
+          href: service-gateway-power-bi-faq.md
     - name: Procedimiento
       items:
-        - name: Instalación de puertas de enlace
-          href: service-gateway-install.md
-        - name: Administrar puertas de enlace
-          href: service-gateway-manage.md
-        - name: Supervisión del rendimiento de las puertas de enlace
-          href: service-gateway-performance-monitoring.md
-        - name: 'Administrar el origen de datos de su empresa: Analysis Services'
-          href: service-gateway-enterprise-manage-ssas.md
-        - name: 'Administrar el origen de datos de su empresa: SAP HANA'
-          href: service-gateway-enterprise-manage-sap.md
-        - name: 'Administrar origen de datos empresarial: SQL'
-          href: service-gateway-enterprise-manage-sql.md
-        - name: 'Administrar el origen de datos: Oracle'
-          href: service-gateway-onprem-manage-oracle.md
-        - name: 'Administrar el origen de datos de su empresa: importación o actualización programada'
-          href: service-gateway-enterprise-manage-scheduled-refresh.md
-        - name: Combinación de orígenes de datos locales y en la nube
-          href: service-gateway-mashup-on-premises-cloud.md
+        - name: Detalles sobre la puerta de enlace de datos local
+          href: service-gateway-onprem-indepth.md
+        - name: Puerta de enlace de datos local (modo personal)
+          href: service-gateway-personal-mode.md
+        - name: Administración de usuarios y administradores
+          href: service-gateway-manage-admins.md
+        - name: Administración de orígenes de datos
+          items:
+            - name: Administración de orígenes de datos
+              href: service-gateway-data-sources.md
+            - name: 'Administrar el origen de datos de su empresa: Analysis Services'
+              href: service-gateway-enterprise-manage-ssas.md
+            - name: 'Administrar el origen de datos de su empresa: SAP HANA'
+              href: service-gateway-enterprise-manage-sap.md
+            - name: 'Administrar origen de datos empresarial: SQL'
+              href: service-gateway-enterprise-manage-sql.md
+            - name: 'Administrar el origen de datos: Oracle'
+              href: service-gateway-onprem-manage-oracle.md
+            - name: 'Administrar el origen de datos de su empresa: importación o actualización programada'
+              href: service-gateway-enterprise-manage-scheduled-refresh.md
+            - name: Combinación de orígenes de datos locales y en la nube
+              href: service-gateway-mashup-on-premises-cloud.md
         - name: Habilitar el inicio de sesión único (SSO)
           items:
             - name: 'Inicio de sesión único (SSO): información general'
@@ -1321,24 +1317,16 @@
               href: service-gateway-sso-kerberos-resource.md
             - name: 'Inicio de sesión único (SSO): SAML'
               href: service-gateway-sso-saml.md
-        - name: Configuración de proxy
-          href: service-gateway-proxy.md
-        - name: Clústeres de alta disponibilidad para puerta de enlace de datos local
-          href: service-gateway-high-availability-clusters.md
-        - name: Puerta de enlace de datos local
-          href: service-gateway-onprem.md
-        - name: Detalles sobre la puerta de enlace de datos local
-          href: service-gateway-onprem-indepth.md
-        - name: Puerta de enlace de datos local (modo personal)
-          href: service-gateway-personal-mode.md
-        - name: Conectores personalizados
-          href: service-gateway-custom-connectors.md
-        - name: Solución de problemas con la puerta de enlace de datos local
+        - name: Solución de problemas de la puerta de enlace
           href: service-gateway-onprem-tshoot.md
+        - name: Solución de problemas de la puerta de enlace (modo personal)
+          href: service-admin-troubleshooting-power-bi-personal-gateway.md
+        - name: Uso de conectores personalizados
+          href: service-gateway-custom-connectors.md
     - name: Recursos
       items:
         - name: Actualizaciones mensuales de las puertas de enlace
-          href: service-gateway-monthly-updates.md
+          href: 'https://review.docs.microsoft.com/data-integration/gateway/service-gateway-monthly-updates?branch=master'
 - name: Administración
   items:
     - name: Información general
