@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 99769b78060756c557223dd366da550ad3e11056
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461290"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567457"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo (versión preliminar)
 
@@ -51,7 +51,7 @@ De este modo, los miembros del área de trabajo pueden saber en qué paneles e i
 
 ## <a name="find-an-endorsed-dataset"></a>Búsqueda un conjunto de datos aprobado
 
-Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del conjunto de datos pueden *promocionar* un conjunto de datos que le recomienden. El administrador de inquilinos de Power BI puede designar expertos en la organización que pueden *certificar* conjuntos de datos para todos los usuarios. En los conjuntos de datos promocionados y certificados se muestran *distintivos* que puede ver tanto al buscar un conjunto de datos como en la lista de conjuntos de datos de un área de trabajo. 
+Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del conjunto de datos pueden *promocionar* un conjunto de datos que le recomienden. Además, el administrador de inquilinos de Power BI puede designar expertos en la organización que pueden *certificar* conjuntos de datos para todos los usuarios. En los conjuntos de datos promocionados y certificados se muestran *distintivos* que puede ver tanto al buscar un conjunto de datos como en la lista de conjuntos de datos de un área de trabajo. El nombre de la persona que certificó un conjunto de datos se muestra en una información sobre herramientas durante la experiencia de detección de conjuntos de datos. Mantenga el mouse sobre la etiqueta **Certificado** y véalo.
 
 - En el servicio Power BI: **Obtener datos** > **Conjuntos de datos publicados**.
 - En Power BI Desktop: **Obtener datos** > **Conjuntos de datos de Power BI**.

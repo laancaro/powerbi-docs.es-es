@@ -7,21 +7,21 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 366f80ccb1db2d226a80528da610b15082c44ed6
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461382"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567350"
 ---
 # <a name="promote-your-dataset-preview"></a>Promoción del conjunto de datos (versión preliminar)
 
 Ahora los creadores de informes de Power BI pueden tener acceso a muchos conjuntos de datos distintos, por lo que las empresas necesitan orientarlos a los que sean de confianza y alta calidad. Power BI proporciona dos maneras de *promocionar* los conjuntos de datos:
 
-- **Promoción**: como propietario del conjunto de datos puede promocionar conjuntos de datos propios cuando estén listos para su uso generalizado. La promoción admite la distribución colaborativa de los conjuntos de datos dentro de las organizaciones. Este artículo se centra en la promoción del conjunto de datos.
+- **Promoción**: como propietario del conjunto de datos puede promocionar conjuntos de datos propios cuando estén listos para su uso generalizado. Cualquier miembro del área de trabajo con permisos de escritura puede promover un conjunto de datos. No hay ninguna restricción sobre quién puede promover un conjunto de datos. La promoción admite la distribución colaborativa de los conjuntos de datos dentro de las organizaciones. Este artículo se centra en la promoción del conjunto de datos.
 - **Certificación**: puede solicitar la certificación de un conjunto de datos promocionado. Un grupo seleccionado de usuarios definidos en la configuración del administrador de inquilinos **Certificación del conjunto de datos** decide qué conjuntos de datos se van a certificar. Vea [Certificación de conjuntos de datos (versión preliminar)](service-datasets-certify.md) para obtener más información.
 
 ## <a name="promote-a-dataset"></a>Promoción de un conjunto de datos

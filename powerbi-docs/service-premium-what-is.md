@@ -8,28 +8,29 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 04/22/2019
+ms.date: 07/06/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1c2f867140c5a717c80d39db75b3a54e40bd1e34
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 21518d2c5160c8e5a696c193d3d6f4d352a02271
+ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721057"
+ms.lasthandoff: 07/05/2019
+ms.locfileid: "67596553"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
 Power BI Premium proporciona recursos dedicados y mejorados para ejecutar el servicio Power BI en la organización. Por ejemplo:
 
-- Mayor escalabilidad y rendimiento
-- Flexibilidad de otorgar licencias por capacidad
-- Unificar la inteligencia empresarial y las características de autoservicio
-- Ampliar la inteligencia empresarial local con Power BI Report Server
-- Admitir la residencia de datos por región (Multi-Geo)
-- Compartir datos con cualquier usuario sin tener que comprar una licencia por usuario
+> [!div class="checklist"]
+> * Mayor escalabilidad y rendimiento
+> * Flexibilidad de otorgar licencias por capacidad
+> * Unificar la inteligencia empresarial y las características de autoservicio
+> * Ampliar la inteligencia empresarial local con Power BI Report Server
+> * Admitir la residencia de datos por región (Multi-Geo)
+> * Compartir datos con cualquier usuario sin tener que comprar una licencia por usuario
 
-Este artículo no está pensado para proporcionar información detallada sobre todas las características de Power BI Premium; de hecho, solo abarca la superficie. Si es necesario, se proporcionan vínculos a otros artículos con información más detallada.
+En este artículo se presentan las características principales de Power BI Premium. Si es necesario, se proporcionan vínculos a otros artículos con información más detallada.
 
 ## <a name="subscriptions-and-licensing"></a>Suscripciones y licencias
 
@@ -52,7 +53,7 @@ Los administradores compran las suscripciones de Power BI Premium en el Centro d
 
 Con Power BI Premium, se obtienen *capacidades dedicadas*. A diferencia de una capacidad compartida donde las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes, una capacidad dedicada es para uso exclusivo de una organización. Se aísla con recursos informáticos dedicados que proporcionan un rendimiento confiable y coherente para el contenido hospedado. 
 
-Las áreas de trabajo residen dentro de las capacidades. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Se pueden crear áreas de trabajo adicionales para permitir la colaboración y la implementación, y se denominan **áreas de trabajo de la aplicación**. De forma predeterminada, las áreas de trabajo, incluidas las personales, se crean en la capacidad compartida. Cuando tiene capacidades Premium, Mis áreas de trabajo y las áreas de trabajo de la aplicación se pueden asignar a las capacidades Premium.
+Las áreas de trabajo residen dentro de las capacidades. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Pueden crearse áreas de trabajo adicionales, llamadas **áreas de trabajo de la aplicación** para posibilitar la colaboración. De forma predeterminada, las áreas de trabajo, incluidas las personales, se crean en la capacidad compartida. Cuando tiene capacidades Premium, Mis áreas de trabajo y las áreas de trabajo de la aplicación se pueden asignar a las capacidades Premium.
 
 ### <a name="capacity-nodes"></a>Nodos de capacidad
 
@@ -60,7 +61,7 @@ Como se describe en la sección [Suscripciones y licencias](#subscriptions-and-l
 
 El procesamiento se consigue mediante un número determinado de núcleos virtuales, que se divide por igual entre el back-end y el front-end.
 
-Los **núcleos virtuales de back-end** son responsables de funciones básicas de Power BI, como el procesamiento de consultas, la administración de caché, la ejecución de servicios R, la actualización del modelo, el procesamiento de lenguaje natural (Preguntas y respuestas) y la representación de informes e imágenes en el lado servidor. A los núcleos de back-end se les asigna una cantidad fija de memoria que se usa principalmente para hospedar modelos, también conocidos como conjuntos de datos activos.
+Los **núcleos virtuales de back-end** son responsables de funciones básicas de Power BI, como el procesamiento de consultas, la administración de caché, la ejecución de servicios R, la actualización del modelo, el procesamiento de lenguaje natural (Preguntas y respuestas) y la representación de informes e imágenes en el lado servidor. A los núcleos virtuales de back-end se les asigna una cantidad fija de memoria que se usa principalmente para hospedar modelos, también conocidos como "conjuntos de datos activos".
 
 Los **núcleos virtuales de front-end** son responsables de la administración de documentos de informes, paneles y servicios web, la administración de derechos de acceso, la programación, las API, las cargas y descargas, y en general de todo lo relacionado con las experiencias del usuario.
 
@@ -102,7 +103,7 @@ Por tanto, los modelos de importación se cargan en la memoria y se quitan de el
 
 La eliminación de un modelo de la memoria se denomina *expulsión*. Es una operación que Power BI puede realizar rápidamente según el tamaño de los modelos. Si la capacidad no experimenta presión de memoria, los modelos simplemente se cargan en memoria y permanecerán allí. Pero cuando no hay memoria suficiente disponible para cargar un modelo, el servicio Power BI primero tiene que liberar memoria. Para liberar memoria, detecta los modelos que han quedado inactivos mediante la búsqueda de los que no se han usado en los últimos tres minutos \[[1](#endnote-1)\] y después los expulsa. Si no hay ningún modelo inactivo para expulsar, el servicio Power BI busca los que se han cargado para las operaciones en segundo plano. Como último recurso, después de 30 segundos de intentos fallidos \[[1](#endnote-1)\], se produce un error en la operación interactiva. En este caso, se notifica el error al usuario del informe con una sugerencia de que vuelva a intentarlo en breve. En algunos casos, es posible que los modelos se descarguen de la memoria debido a operaciones de servicio.
 
-Es importante resaltar que la expulsión del conjunto de datos es un comportamiento normal y esperado. El objetivo es maximizar el uso de memoria mediante la carga y descarga de modelos cuyos tamaños combinados pueden superar la memoria disponible. Esto es así por diseño y es completamente transparente para los usuarios del informe. Las tasas de expulsión altas no significan necesariamente que la capacidad no tenga los recursos suficientes. Pero pueden convertirse en un problema si la capacidad de respuesta de la consulta o la actualización se ve afectada debido a las altas tasas de expulsión.
+Es importante resaltar que la expulsión del conjunto de datos es un comportamiento normal y esperado. El objetivo es maximizar el uso de memoria mediante la carga y descarga de modelos cuyos tamaños combinados pueden superar la memoria disponible. Esto es así de forma predeterminada y es completamente transparente para los usuarios del informe. Las tasas de expulsión altas no significan necesariamente que la capacidad no tenga los recursos suficientes. Pero pueden convertirse en un problema si la capacidad de respuesta de la consulta o la actualización se ve afectada debido a las altas tasas de expulsión.
 
 En las actualizaciones de modelos de importación siempre se usa mucha memoria, ya que los modelos se deben cargar en la memoria. Se necesita memoria adicional para el procesamiento. Una actualización completa puede usar aproximadamente el doble de memoria requerida por el modelo. Esto garantiza que el modelo se pueda consultar incluso mientras se procesa, porque se envían consultas al modelo existente, hasta que se haya completado la actualización y los datos del modelo nuevo están disponibles. La actualización incremental requerirá menos memoria y se completará más rápidamente, por lo que puede reducir significativamente la presión sobre los recursos de la capacidad. Las actualizaciones también pueden hacer un uso intensivo de la CPU para los modelos, especialmente aquellos con transformaciones complejas de Power Query, o bien tablas o columnas calculadas que son complejas o se basan en tablas de gran tamaño.
 
@@ -175,7 +176,7 @@ La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix
    |P2    | < 6 GB        |
    |P3, P4, P5    | hasta 10 GB   |
 
-La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. Tenga en cuenta que la publicación de grandes modelos para A y SKU EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de modelos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera. 
+La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. La publicación de grandes modelos para A y SKU EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de modelos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera. 
 
 Los archivos .pbix representan datos en un *estado muy comprimido*. Los datos probablemente se expandirán varias veces al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
 
@@ -203,7 +204,7 @@ Para más información, vea [¿Qué son los informes paginados en Power BI Premi
 
 ## <a name="power-bi-report-server"></a>Power BI Report Server
  
-Incluido con Power BI Premium, Power BI Report Server es un servidor de informes *local* con un portal web. Puede crear el entorno de BI en almacenamiento local y distribuir los informes detrás del firewall de la organización. Report Server proporciona a los usuarios acceso a informes enriquecidos e interactivos, así como a funciones de creación de informes empresariales de SQL Server Reporting Services. Los usuarios pueden explorar datos visuales y descubrir rápidamente patrones para tomar mejores decisiones con más rapidez. Report Server proporciona gobernanza bajo sus propias condiciones. Cuando llegue el momento, Power BI Report Server facilita la migración a la nube, donde la organización puede aprovechar al máximo toda la funcionalidad de Power BI Premium.
+Power BI Report Server, que se incluye con Power BI Premium, es un servidor de informes *local* con un portal web. Puede crear el entorno de BI en almacenamiento local y distribuir los informes detrás del firewall de la organización. Report Server proporciona a los usuarios acceso a informes enriquecidos e interactivos, así como a funciones de creación de informes empresariales de SQL Server Reporting Services. Los usuarios pueden explorar datos visuales y descubrir rápidamente patrones para tomar mejores decisiones con más rapidez. Report Server proporciona gobernanza bajo sus propias condiciones. Cuando llegue el momento, Power BI Report Server facilita la migración a la nube, donde la organización puede aprovechar al máximo toda la funcionalidad de Power BI Premium.
 
 Para más información, vea [Power BI Report Server](report-server/get-started.md).
 

@@ -7,15 +7,15 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/20/2019
+ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: af20d5842664311a0d543ee189ef671f7865058b
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418763"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67792002"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo
 
@@ -23,17 +23,21 @@ El paquete de contenido de ejemplo Rentabilidad del cliente contiene un panel, u
 
 ![Panel del Ejemplo de rentabilidad del cliente](media/sample-customer-profitability/power-bi-dash.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido o app, libro de Excel o archivo .pbix de Power BI Desktop. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
-Este tutorial usa el servicio Power BI y el paquete de contenido de ejemplo Rentabilidad del cliente. Debido a que las experiencias del informe son tan similares, también puede seguir utilizando Power BI Desktop y el archivo .pbix de ejemplo. 
+Este tutorial usa el paquete de contenido de ejemplo Rentabilidad del cliente del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
-## <a name="prerequisites"></a>Requisitos previos
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en la sección Mi área de trabajo del servicio Power BI. 
+
+## <a name="get-the-sample"></a>Obtención del ejemplo
 
 Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](#get-the-content-pack-for-this-sample), un [archivo .pbix](#get-the-pbix-file-for-this-sample) o un [libro de Excel](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
 
 1. Abra el servicio Power BI (app.powerbi.com), inicie sesión y abra el área de trabajo donde desea guardar el ejemplo.
+
+   Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
 
 2. En la esquina inferior izquierda, seleccione **Obtener datos**.
 
@@ -135,7 +139,7 @@ Analicemos en detalle dos de los miembros del equipo y veamos qué información 
 1. En el segmento **Ejecutivo** que aparece a la izquierda, seleccione el nombre de Andrew para filtrar la página del informe de forma que solo muestre los datos de Andrew:
 
    * Para ver rápidamente un KPI, consulte el valor de **Estado de los ingresos (total del año)** de Andrew; es verde, lo que significa que sus resultados son buenos.
-   * El gráfico **% de variación de ingresos del presupuesto por mes y ejecutivo** muestra que, salvo un descenso en febrero, el rendimiento general de Andrew es bueno. Su principal zona de actuación es la región oriental y trata con 49 clientes y cinco productos (de un total de siete). Su porcentaje de margen bruto no es ni el mayor ni el menor.
+   * El gráfico **% de variación de ingresos del presupuesto por mes y ejecutivo** muestra que, salvo un descenso en febrero, el rendimiento de Andrew es bueno. Su principal zona de actuación es la región oriental y trata con 49 clientes y cinco productos (de un total de siete). Su porcentaje de margen bruto no es ni el mayor ni el menor.
    * El gráfico **Ingresos totales del año y porcentaje de variación de ingresos sobre el presupuesto por mes** muestra un caso de beneficios constantes. Sin embargo, si aplica un filtro seleccionando el cuadrado de **Central** en el gráfico de rectángulos de la región, observa que Andrew tiene ingresos en marzo y solo en Indiana. ¿Es un hecho intencionado o debe investigarse más?
 
 2. Pasamos a Valery. En el segmento **Ejecutivo**, seleccione el nombre de Valery para filtrar la página del informe de forma que solo muestre los datos relativos a ella. 
@@ -205,5 +209,5 @@ Echemos un vistazo al sector Distribución.
 ## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-Esperamos que este paseo le haya mostrado cómo los paneles, la sección Preguntas y respuestas y los informes de Power BI pueden proporcionar información detallada de los clientes. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
+Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
 

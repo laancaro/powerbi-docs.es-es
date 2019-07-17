@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d893088978d7a412d0e005ca7b3280824974c76c
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 17a8e1c9e0d46a56d6b6ff3e46c0fda6da8ffe12
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816646"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567846"
 ---
 # <a name="use-datasets-across-workspaces-preview"></a>Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)
 
@@ -23,7 +23,7 @@ La inteligencia empresarial es una actividad de colaboración. Es importante est
 
 ![Selección de un conjunto de datos compartido](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-Power BI hace que para los creadores de conjuntos de datos sea más fácil certificarlos o promocionarlos para que otros usuarios los puedan detectar. Después, los autores de informes encuentran conjuntos de datos oficiales de calidad que pueden usar en cualquier parte de Power BI. Los propietarios de conjuntos de datos pueden mantener el control de quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
+En Power BI, los creadores de conjuntos de datos pueden *certificar* o *promover* conjuntos de datos para que otros usuarios los puedan detectar. De este modo, los autores de informes saben qué conjunto de datos son de alta calidad y oficiales, y pueden usar estos conjuntos de datos siempre que se creen en Power BI. Los propietarios de conjuntos de datos pueden mantener el control de quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Uso compartido de conjuntos de datos y la nueva experiencia de área de trabajo
 

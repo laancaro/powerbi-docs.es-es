@@ -7,121 +7,135 @@ ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/20/2018
+ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 7f7b9d09b3761a5a02bdf4f706c6470b7d8cf2b6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 41d35eb9e078a63e499bb65dead05fe7dbbc2985
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61231391"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791895"
 ---
 # <a name="opportunity-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de oportunidades para Power BI: Dar un paseo
 
-## <a name="overview-of-the-opportunity-analysis-sample"></a>Introducción al Ejemplo de análisis de oportunidades
-El **Ejemplo de análisis de oportunidades** contiene un panel (y un informe asociado) para una empresa de software que tiene dos canales de ventas: el de la *venta directa* y *a través de asociados*. La jefa de ventas creó este panel para hacer un seguimiento de las oportunidades y los ingresos por región, tamaño del acuerdo y canal.
+El paquete de contenido del ejemplo del análisis de oportunidades contiene un panel, un informe y un conjunto de datos para una empresa de software que tiene dos canales de ventas: el de la *venta directa* y *a través de asociados*. La jefa de ventas creó este panel para hacer un seguimiento de las oportunidades y los ingresos por región, tamaño del acuerdo y canal.
 
-El jefe de ventas se basa en dos medidas de ingresos:
+Este ejemplo se basa en dos medidas de ingresos:
 
-* **Ingresos** : la estimación de los ingresos que calcula el vendedor.
-* **Ingresos factorizados** : se calculan aplicando la fórmula Ingresos x % de probabilidad y generalmente se aceptan como predicción más exacta de los ingresos por ventas reales. La ***fase de ventas*** actual del acuerdo es el factor que determina la probabilidad.
+* Ingresos: la estimación de un vendedor con respecto a cuáles serán los ingresos.
+* Ingresos factorizados: se calculan aplicando la fórmula Ingresos x % de probabilidad y se aceptan como predicción más exacta de los ingresos por ventas reales. La *fase de ventas* actual del acuerdo es el factor que determina la probabilidad:
   * Cliente potencial: 10 %  
   * Aprobación: 20 %  
   * Solución: 40 %  
   * Propuesta: 60 %  
   * Finalización: 80 %
 
-  ![](media/sample-opportunity-analysis/opportunity1.png)
+![Panel del ejemplo de análisis de oportunidades](media/sample-opportunity-analysis/opportunity1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Estos son datos reales y anónimos de obviEnce ([www.obvience.com)](http://www.obvience.com/).
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
-## <a name="prerequisites"></a>Requisitos previos
+En este tutorial se explora el paquete de contenido del ejemplo de análisis de oportunidades del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
- Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](https://docs.microsoft.com/power-bi/sample-opportunity-analysis#get-the-content-pack-for-this-sample), un [archivo .pbix](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix) o un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529782).
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo del servicio Power BI. 
+
+## <a name="get-the-sample"></a>Obtención del ejemplo
+
+Para poder usar el ejemplo, primero debe descargarlo como un [paquete de contenido](#get-the-content-pack-for-this-sample), un [archivo .pbix](#get-the-pbix-file-for-this-sample) o un [libro de Excel](#get-the-excel-workbook-for-this-sample).
 
 ### <a name="get-the-content-pack-for-this-sample"></a>Obtención del paquete de contenido de este ejemplo
 
-1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
+1. Abra el servicio Power BI (app.powerbi.com), inicie sesión y abra el área de trabajo donde desea guardar el ejemplo. 
+
+    Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
+
 2. En la esquina inferior izquierda, seleccione **Obtener datos**.
-   
-    ![](media/sample-datasets/power-bi-get-data.png)
-3. En la página que aparece, seleccione el icono **Ejemplos**.
-   
-   ![](media/sample-datasets/power-bi-samples-icon.png)
-4. Seleccione el **Ejemplo de análisis de oportunidades** y elija **Conectar**.  
-  
-   ![Obtener datos](media/sample-opportunity-analysis/opportunity-connect.png)
-   
-5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual. El contenido nuevo viene indicado con un asterisco amarillo. 
-   
-   ![Asterisco](media/sample-opportunity-analysis/opportunity-asterisk.png)
-  
+
+    ![Seleccionar Obtener datos](media/sample-datasets/power-bi-get-data.png)
+3. En la página **Obtener datos**, seleccione **Ejemplos**.
+
+4. Seleccione **Ejemplo de análisis de oportunidades** y, luego, elija **Conectar**.  
+
+   ![Conectarse al ejemplo](media/sample-opportunity-analysis/opportunity-connect.png)
+5. Power BI importa el paquete de contenido y agrega un panel, un informe y un conjunto de datos nuevos en el área de trabajo actual.
+
+   ![Entrada del ejemplo de análisis de oportunidades](media/sample-opportunity-analysis/opportunity-entry.png)
+
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el ejemplo como un archivo .pbix, que está diseñado para su uso con Power BI Desktop. 
-
- * [Ejemplo de análisis de oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix)
+Como alternativa, puede descargar el Ejemplo de análisis de oportunidades como un [archivo .pbix](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
-También puede [descargar únicamente el conjunto de datos (libro de Excel)](http://go.microsoft.com/fwlink/?LinkId=529782) para este ejemplo. El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar seleccione **Power Pivot > Administrar**.
 
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529782). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>¿Qué indica el panel?
-La jefa de ventas creó un panel para realizar el seguimiento de las métricas que considera más importantes. Cuando ve algo interesante, puede seleccionar un icono para profundizar en los datos.
+La jefa de ventas creó un panel para realizar el seguimiento de las métricas que considera más importantes. Si encuentra algo interesante, puede seleccionar un icono para examinar los datos:
 
-1. Los ingresos de la empresa ascienden a los 2.000 millones de dólares y, los ingresos factorizados, a 461.
-2. El recuento de oportunidades y los ingresos siguen un patrón de embudo conocido, en el que los totales van disminuyendo en cada una de las fases subsiguientes.
-3. La mayoría de nuestras oportunidades se encuentran en la región Este.
-4. Las oportunidades grandes generan más ingresos que las medianas o las pequeñas.
-5. Los acuerdos grandes con los asociados generan más ingresos: 8 millones de dólares de media, frente a los 6 millones de las ventas directas.
+- Los ingresos de la empresa ascienden a los 2.000 millones de dólares y, los ingresos factorizados, a 461.
+- El recuento de oportunidades y los ingresos siguen un patrón de embudo conocido, en el que los totales van disminuyendo con cada una de las fases subsiguientes.
+- La mayoría de nuestras oportunidades se encuentran en la región Este.
+- Las oportunidades grandes generan más ingresos que las medianas o las pequeñas.
+- Los acuerdos a través de asociados de gran tamaño generan más ingresos: USD 8 millones en promedio en comparación con los USD 6 millones correspondientes a las ventas directas.
 
-Puesto que el esfuerzo para cerrar un acuerdo es el mismo, independientemente de si este se clasifica como grande, mediano o pequeño, nuestra empresa debe profundizar en los datos para obtener más información sobre las grandes oportunidades.
+Como el esfuerzo para cerrar un acuerdo es el mismo, independientemente de si este se clasifica como grande, mediano o pequeño, nuestra empresa debe analizar los datos para obtener más información sobre las grandes oportunidades.
 
-Seleccione el icono **Recuento de oportunidades por fase de ventas controlada por los asociados** para abrir la página 1 del informe.  
-![](media/sample-opportunity-analysis/opportunity2.png)
+1. En el área de trabajo donde guardó el ejemplo, abra la pestaña **Paneles** y elija el panel **Ejemplo de análisis de oportunidades**.
+
+2. Seleccione el icono **Opportunity Count by Partner Driven, Sales Stage** (Recuento de oportunidades por fase de ventas, controladas por asociado) para abrir la primera página del informe Ejemplo de análisis de oportunidad. 
+
+    ![Icono Recuento de oportunidades por fase de ventas, controladas por asociado](media/sample-opportunity-analysis/opportunity2.png)
 
 ## <a name="explore-the-pages-in-the-report"></a>Consultar las páginas del informe
-### <a name="page-1-of-our-report-is-titled-opportunity-count-overview"></a>La página 1 del informe se titula "Información general sobre el recuento de oportunidades".
-![](media/sample-opportunity-analysis/opportunity3.png)
 
+Para ver cada página del informe, seleccione las pestañas de página que aparecen en la parte inferior.
+
+### <a name="opportunity-count-overview-page"></a>Página Información general sobre el recuento de oportunidades
+![Página Recuento de oportunidades](media/sample-opportunity-analysis/opportunity3.png)
+
+Tenga en cuenta los siguientes detalles:
 * El Este es la mayor región en cuanto a recuentos de oportunidades.  
-* En el gráfico circular, seleccione una región para filtrar la página. En cada una de las regiones, los asociados buscan oportunidades considerablemente mayores.   
-* El gráfico de columnas del recuento de oportunidades por su tamaño y por el control de los asociados muestra claramente que son estos quienes controlan la mayor parte de las grandes oportunidades, y que no ocurre lo mismo con las pequeñas y las medianas oportunidades.
-* Seleccione las distintas fases de ventas en el gráfico de barras de la parte inferior izquierda para ver la diferencia en el recuento regional. Observe que, aunque el Este es nuestra mayor región en lo concerniente a recuentos, en las fases de solución, propuesta y finalización, las tres regiones registran recuentos comparables. Esto significa que cerramos un porcentaje mayor de acuerdos en el Centro y el Oeste.
+* En el gráfico circular **Recuento de oportunidades por región**, seleccione cada región por separado para filtrar la página por región. En cada una de las regiones, observe que los asociados buscan oportunidades considerablemente mayores.   
+* El gráfico de columnas **Recuento de oportunidades por su tamaño y por el control de los asociados** muestra que son estos quienes controlan la mayor parte de las grandes oportunidades, y que no ocurre lo mismo con las pequeñas y medianas oportunidades.
+* En el gráfico de barras **Recuento de oportunidades por fase de ventas**, seleccione cada **fase de ventas** por separado para ver la diferencia en el recuento regional. Tenga en cuenta que si bien la región Este tiene el mayor recuento de oportunidades, las tres regiones en las fases de ventas de Solución, Propuesta y Finalización tienen recuentos comparables. Este resultado implica que cerramos un mayor porcentaje de acuerdos en las regiones Central y Oeste.
 
-### <a name="page-2-of-our-report-is-titled-revenue-overview"></a>La página 2 del informe se titula "Información general sobre los ingresos".
-En esta página se examinan los datos de manera similar, pero desde la perspectiva de los ingresos (no de los recuentos).  
-![](media/sample-opportunity-analysis/opportunity4.png)
+### <a name="revenue-analysis-page"></a>Página Análisis de ingresos
+En esta página se examinan los datos de manera similar, pero usa una perspectiva de los ingresos (no de los recuentos).  
 
-* El Este es la región más grande, no solo en lo que respecta al recuento de oportunidades, sino también a ingresos.  
-* Si aplica el filtro Controlado por los asociados (seleccione **Sí** en la leyenda de la esquina superior derecha), aparecerán unos ingresos de 1.500 y 294 millones de dólares. Compare esto con los 644.000 y los 166 millones de dólares correspondientes a los ingresos que controlan los no asociados.  
-* Los ingresos medios de las cuentas grandes son mayores (8 millones) en el caso de las oportunidades controladas por los asociados (los ingresos medios de los negocios no controlados por los asociados no superan los 6 millones).  
-* En el caso de los negocios controlados por los asociados, los ingresos medios de las grandes oportunidades casi duplican los correspondientes a las oportunidades de tamaño medio (4 millones).  
+![Página Información general de los ingresos](media/sample-opportunity-analysis/opportunity4.png)
+
+Tenga en cuenta los siguientes detalles:
+* La región Este es la más grande, no solo en términos del recuento de oportunidades, sino también de los ingresos.  
+* Si filtra el gráfico **Ingresos por fase de ventas y controlados por asociado** seleccionando **Sí** para **Controlados por asociado**, verá ingresos de USD 1500 millones e ingresos factorizados de USD 294 millones. Compare estos montos con los USD 644 millones y los USD 166 millones de los ingresos no controlados por los asociados. 
+* Los ingresos promedio de las cuentas grandes son mayores (8 millones) en el caso de las oportunidades controladas por los asociados, en comparación con los 6 millones de una empresa no controlada por los asociados.  
+* En el caso de los negocios controlados por los asociados, los ingresos promedio de las grandes oportunidades casi duplican los correspondientes a las oportunidades de tamaño medio.  
 * Los ingresos medios de los negocios pequeños y medianos son comparables en ambos tipos de negocios (los que están controlados por los asociados y los que no).   
 
-Claramente, nuestros asociados están obteniendo mejores resultados con las ventas a los clientes.  Tendría sentido canalizar más acuerdos a través de nuestros asociados.
+Claramente, nuestros asociados están obteniendo mejores resultados con las ventas a los clientes que quienes no son asociados. Tendría sentido canalizar más acuerdos a través de nuestros asociados.
 
-### <a name="page-3-of-our-report-is-titled-region-stage-counts"></a>La página 3 del informe se titula "Recuentos por fase y región".
-En esta página se examinan datos similares, desglosados por región y fase.  
-![](media/sample-opportunity-analysis/opportunity5.png)
+### <a name="opportunity-count-by-region-and-stage"></a>Recuento de oportunidades por región y fase
+En esta página del informe se analizan los datos de una manera similar a cómo se analizan los datos en la página anterior, pero se desglosan por región y fase. 
 
-* Si aplica el filtro Este (seleccione **Este** en el gráfico circular), verá que las oportunidades de la zona se dividen en dos grupos (las que están controladas por los asociados y las que no) de dimensiones prácticamente idénticas.
+![Página Recuentos por región y fase](media/sample-opportunity-analysis/opportunity5.png)
+
+Tenga en cuenta los siguientes detalles:
+* Si selecciona **Este** en el gráfico circular **Recuento de oportunidades por región** para filtrar por la región Este, verá que las oportunidades de esta región se dividen casi por igual entre las oportunidades controladas por los asociados y las que no están controladas por los asociados.
 * Las grandes oportunidades son más comunes en la región Central, las pequeñas en la región Este y, las medianas, en la región Oeste.
 
-### <a name="page-4-of-our-report-is-titled-upcoming-opportunities"></a>La página 4 del informe se titula "Próximas oportunidades".
-Una vez más se analizan factores similares, pero esta vez desde la perspectiva de la fecha y la hora.  
-![](media/sample-opportunity-analysis/opportunity6.png)
+### <a name="upcoming-opportunities-by-month-page"></a>Página Próximas oportunidades por mes
+En esta página se analizan factores similares, pero desde una perspectiva de fecha y hora. 
+ 
+![Página Próximas oportunidades](media/sample-opportunity-analysis/opportunity6.png)
 
 Nuestra directora financiera usa esta página para administrar la carga de trabajo. La posibilidad de consultar las oportunidades de ingresos por fase de ventas y mes le permite efectuar una planeación adecuada.
 
-* Los ingresos medios más elevados son los de la fase de finalización. Es prioritario cerrar estos acuerdos.
-* Si aplica el filtro de un mes (seleccionando el nombre del mes en la segmentación de la izquierda), verá que enero cuenta con una proporción elevada de grandes acuerdos en la fase de finalización, con unos ingresos factorizados de 75 millones de dólares. Febrero, en cambio, cuenta principalmente con acuerdos medianos en la fase de solución y propuesta.
-* En general, las cifras de los ingresos factorizados fluctúan en función de la fase de ventas, el número de oportunidades y el tamaño del acuerdo. Para obtener más información detallada, filtre los factores con el panel de filtros de la derecha.
-
-Se trata de un entorno seguro en el que experimentar. Siempre puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
+Tenga en cuenta los siguientes detalles:
+* Los ingresos promedio más elevados son los de la fase de finalización de venta. Es prioritario cerrar estos acuerdos.
+* Si se filtra por mes (seleccionando un mes en la segmentación **Mes**), verá que en enero hay una alta proporción de grandes acuerdos en la fase de finalización de ventas con ingresos factorizados de USD 75 millones. Por otro lado, en febrero se observa la mayor parte de los acuerdos medios en las fases de solución y propuesta.
+* En general, las cifras de los ingresos factorizados fluctúan en función de la fase de ventas, el número de oportunidades y el tamaño del acuerdo. Agregue filtros para estos factores mediante el panel **Filtrar** que se encuentra a la derecha para obtener información detallada.
 
 ## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
-Esperamos que en este paseo haya aprendido cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecerle información sobre los datos para el seguimiento de oportunidades. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Más información sobre [cómo empezar a usar Power BI](service-get-started.md).
+Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-[Descargar ejemplos](sample-datasets.md)  
+Esperamos que este recorrido le haya mostrado cómo los paneles de Power BI, las preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
+

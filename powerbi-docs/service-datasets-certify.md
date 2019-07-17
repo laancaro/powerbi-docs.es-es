@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e790afee5b57b73a756ca3c1afd564b00e778186
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 915fb9d10b69142621554f29a7fd77e7a41932e5
+ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461336"
+ms.lasthandoff: 07/04/2019
+ms.locfileid: "67567335"
 ---
 # <a name="certify-datasets-preview"></a>Certificación de conjuntos de datos (versión preliminar)
 
@@ -23,8 +23,8 @@ Su organización puede certificar los conjuntos de datos que son un origen fided
 
 En la actualidad, los usuarios de Power BI pueden tener acceso a muchos conjuntos de datos distintos, por lo que las empresas necesitan orientarlos a los que sean de confianza y alta calidad. Power BI proporciona dos maneras de *promocionar* los conjuntos de datos:
 
-- **Promoción**: los propietarios de conjuntos de datos pueden promocionar sus propios conjuntos de datos cuando estén listos para su uso generalizado. Vea [Promoción del conjunto de datos](service-datasets-promote.md) para obtener más información. 
-- **Certificación**: los propietarios de conjuntos de datos pueden solicitar la certificación de un conjunto de datos promocionado. Un grupo seleccionado de usuarios definidos en la configuración del administrador de inquilinos **Certificación del conjunto de datos** decide qué conjuntos de datos se van a certificar.
+- **Promoción**: los propietarios de conjuntos de datos y otros usuarios de un área de trabajo pueden promover sus propios conjuntos de datos cuando estén listos para su uso generalizado. Vea [Promoción del conjunto de datos](service-datasets-promote.md) para obtener más información. 
+- **Certificación**: los propietarios de conjuntos de datos pueden solicitar la certificación de un conjunto de datos promocionado. Un grupo seleccionado de usuarios definidos en la configuración del administrador de inquilinos **Certificación del conjunto de datos** decide qué conjuntos de datos se van a certificar. El nombre de la persona que certificó un conjunto de datos se muestra en una información sobre herramientas durante la experiencia de detección de conjuntos de datos. Mantenga el mouse sobre la etiqueta **Certificado** y véalo.
 
 ## <a name="certify-a-dataset"></a>Certificación de un conjunto de datos
 

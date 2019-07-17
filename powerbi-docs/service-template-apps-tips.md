@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 59d581697091df68df827ec699c8999a6993daef
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
+ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408352"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "67791824"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -126,6 +126,7 @@ Las aplicaciones de plantilla pueden publicarse en AppSource, siga estas pautas 
 
 * Asegúrese de crear una aplicación de plantilla con datos de ejemplo atractivos que puedan ayudar al instalador a comprender lo que puede hacer la aplicación (los informes y paneles vacíos no están aprobados).
 Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, asegúrese de marcar la casilla de aplicaciones estáticas. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
+* En general, solo una aplicación con funcionalidad valiosa se puede aprobar para su uso general en AppSource. Una aplicación con contenido de datos de ejemplo solo debe tener valor de orientación o estadístico.
 * Dé indicaciones para que el equipo de validación las siga, que incluyen las credenciales y los parámetros necesarios para conectarse a los datos.
 * La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Página de inicio configurado. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
