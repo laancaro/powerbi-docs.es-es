@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/02/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 9aa80c336fa7918632b71b25f8f57b2798fa52e5
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: dd656f81cb0fdb32f9637f969ef538e263e20053
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418698"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68272005"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -355,8 +355,8 @@ En la tabla siguiente se muestra la compatibilidad de autenticación basada en c
 
 | **Compatibilidad con CBA** | **iOS** | **Android** | **Windows** |
 | --- | --- | --- | --- |
-| **Power BI** (inicio de sesión en el servicio) | Admitido | Admitido | No admitido |
-| **SSRS ADFS** (conectarse al servidor SSRS) | No admitido | Admitido | No admitido |
+| **Power BI** (inicio de sesión en el servicio) | Admitido | Admitido | No compatible |
+| **SSRS ADFS** (conectarse al servidor SSRS) | No compatible | Compatible | No compatible |
 
 Las aplicaciones Power BI Mobile se comunican activamente con el servicio Power BI. Se usan datos de telemetría para recopilar estadísticas de uso y datos similares de las aplicaciones móviles, que se transmiten a los servicios que se usan para supervisar el uso y la actividad; no se envían datos personales con los datos de telemetría.
 
@@ -382,7 +382,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 * **Credenciales de Power BI y credenciales del dominio:** Los usuarios inician sesión en Power BI mediante una dirección de correo electrónico; cuando un usuario intenta conectarse a un recurso de datos, Power BI pasa la dirección de correo electrónico de inicio de sesión de Power BI como credenciales. Para los recursos conectados a un dominio (ya sea local o basado en la nube), el servicio de directorio compara el correo electrónico de inicio de sesión con un _Nombre principal de usuario_ ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525(v=vs.85).aspx)) para determinar si existen credenciales suficientes para permitir el acceso. En las organizaciones que usan direcciones de correo electrónico de trabajo para iniciar sesión en Power BI (el mismo correo electrónico que usan para iniciar sesión en recursos de trabajo, como _david@contoso.com_ ), la asignación se puede producir sin problemas; en las organizaciones que no han usado direcciones de correo electrónico de trabajo (como _david@contoso.onmicrosoft.com_ ), se debe establecer la asignación de directorios con el fin de permitir el acceso a los recursos locales mediante credenciales de inicio de sesión de Power BI.
 
-* **SQL Server Analysis Services y Power BI:** Para las organizaciones que usan un entorno local de SQL Server Analysis Services, Power BI ofrece la puerta de enlace de datos local de Power BI (que es una **puerta de enlace**, como se hace indicado en las secciones anteriores).  La puerta de enlace de datos local de Power BI puede exigir la seguridad de nivel de rol (RLS) en los orígenes de datos. Para más información sobre RLS, vea **Autenticación de usuarios en orígenes de datos** anteriormente en este documento. También puede leer un artículo exhaustivo sobre [Power BI Gateway](service-gateway-manage.md).
+* **SQL Server Analysis Services y Power BI:** Para las organizaciones que usan un entorno local de SQL Server Analysis Services, Power BI ofrece la puerta de enlace de datos local de Power BI (que es una **puerta de enlace**, como se hace indicado en las secciones anteriores).  La puerta de enlace de datos local de Power BI puede exigir la seguridad de nivel de rol (RLS) en los orígenes de datos. Para más información sobre RLS, vea **Autenticación de usuarios en orígenes de datos** anteriormente en este documento. Para obtener más información acerca de las puertas de enlace, consulte [puerta de enlace de datos local](service-gateway-onprem.md).
 
   Además, las organizaciones pueden usar Kerberos para el **inicio de sesión único** (SSO) y conectarse sin problemas desde Power BI a orígenes de datos locales como SQL Server, SAP HANA y Teradata. Para obtener más información y los requisitos de configuración específicos, vea [**Uso de Kerberos para el inicio de sesión único desde Power BI en orígenes de datos locales**](https://docs.microsoft.com/power-bi/service-gateway-kerberos-for-sso-pbi-to-on-premises-data).
 
@@ -422,7 +422,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Qué puertos se usan en la puerta de enlace de datos local y en la puerta de enlace de datos (modo personal)? ¿Hay algún nombre de dominio que se deba permitir con fines de conectividad?**
 
-* La respuesta detallada a esta pregunta está disponible en el vínculo siguiente: [Power BI Gateway](service-gateway-manage.md)
+* La respuesta detallada a esta pregunta está disponible en el vínculo siguiente: [Puertos de la puerta de enlace](/data-integration/gateway/service-gateway-communication#ports)
 
 **Cuando se trabaja con la puerta de enlace de datos local, ¿cómo se usan las claves de recuperación y dónde se almacenan? ¿Qué sucede con la administración segura de credenciales?**
 
@@ -438,7 +438,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
   - **AMQP 1.0 - TCP + TLS**: este protocolo requiere que se abran los puertos 443, 5671 y 5672 y 9350-9354 para la comunicación saliente. Es el protocolo preferido, porque tiene una menor sobrecarga de comunicación.
 
-  - **HTTPS - WebSockets a través de HTTPS + TLS**: este protocolo solo usa el puerto 443. WebSocket se inicia con un único mensaje HTTP CONNECT. Una vez que se ha establecido el canal, la comunicación es esencialmente TCP+TLS. Puede forzar a la puerta de enlace para que use este protocolo si modifica una configuración, como se describe en el [artículo Puerta de enlace de datos local](service-gateway-manage.md).
+  - **HTTPS - WebSockets a través de HTTPS + TLS**: este protocolo solo usa el puerto 443. WebSocket se inicia con un único mensaje HTTP CONNECT. Una vez que se ha establecido el canal, la comunicación es esencialmente TCP+TLS. Puede forzar la puerta de enlace para usar este protocolo mediante la modificación de una configuración que se describe en el [artículo de puerta de enlace local](/data-integration/gateway/service-gateway-communication#force-https-communication-with-azure-service-bus).
 
 **¿Cuál es el rol de Azure CDN en Power BI?**
 
@@ -486,10 +486,9 @@ Para obtener más información sobre Power BI, vea los recursos siguientes.
 
 - [Grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654247)
 - [Introducción a Power BI Desktop](https://support.powerbi.com/knowledgebase/articles/471664)
-- [Power BI Gateway](service-gateway-manage.md)
 - [Información general sobre la API REST de Power BI](https://msdn.microsoft.com/library/dn877544.aspx)
 - [Referencia de la API de Power BI](https://msdn.microsoft.com/library/mt147898.aspx)
-- [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-manage.md)
+- [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)
 - [Power BI y ExpressRoute](service-admin-power-bi-expressroute.md)
 - [Nubes nacionales de Power BI](https://powerbi.microsoft.com/clouds/)
 - [Power BI Premium](https://aka.ms/pbipremiumwhitepaper)
