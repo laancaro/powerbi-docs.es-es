@@ -1289,8 +1289,6 @@
           href: service-gateway-onprem-indepth.md
         - name: Puerta de enlace de datos local (modo personal)
           href: service-gateway-personal-mode.md
-        - name: Administración de usuarios y administradores
-          href: service-gateway-manage-admins.md
         - name: Administración de orígenes de datos
           items:
             - name: Administración de orígenes de datos
