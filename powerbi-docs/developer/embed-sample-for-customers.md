@@ -12,7 +12,7 @@ ms.custom: seodec18
 ms.date: 04/02/2019
 ms.openlocfilehash: e945e19505d7342cf3ba2236b4811e87a69730ab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710950"
@@ -365,7 +365,7 @@ Use la tabla siguiente para determinar qué capacidad de Power BI Embedded se ad
 | A5 |16 núcleos virtuales |8 núcleos, 50 GB de RAM |8 núcleos |60 por segundo |
 | A6 |32 núcleos virtuales |16 núcleos, 100 GB de RAM |16 núcleos |120 por segundo |
 
-**_Las SKU de Azure no permiten acceder al contenido de Power BI mediante una licencia gratuita de Power BI._ **
+**_Las SKU de Azure no permiten acceder al contenido de Power BI mediante una licencia gratuita de Power BI._**
 
 El uso de tokens de inserción con licencias PRO está pensado para pruebas de desarrollo, de modo que el número de tokens de inserción que puede generar una cuenta maestra o una entidad de servicio de Power BI es limitado. Se necesita una capacidad dedicada para realizar inserciones en un entorno de producción. No hay ningún límite en cuanto a la cantidad de tokens de inserción que puede generar con una capacidad dedicada. Vaya a [Available Features](https://docs.microsoft.com/rest/api/power-bi/availablefeatures/getavailablefeatures) (Características disponibles) para comprobar el valor de uso que indica el porcentaje de uso actual de Power BI Embedded. El porcentaje de uso depende de la cuenta maestra.
 

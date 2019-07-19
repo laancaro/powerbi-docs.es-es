@@ -110,7 +110,7 @@ Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dir
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Error de autenticación AADSTS70002 o AADSTS50053
 
-** _(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_ **
+** _(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_**
 
 Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
 
@@ -162,7 +162,7 @@ Para comprobar cuál es, pruebe lo siguiente.
 
 ### <a name="aadsts90094-the-grant-requires-admin-permission"></a>AADSTS90094: La concesión requiere permiso de administrador
 
-**_Síntomas:_ **<br>
+**_Síntomas:_**<br>
 Cuando un usuario sin derechos administrativos intenta iniciar sesión en una aplicación por primera vez y da su consentimiento, obtiene uno de los errores siguientes:
 
 * La prueba de consentimiento necesita permiso para acceder a los recursos de la organización que solo un administrador puede conceder. Póngase en contacto con un administrador que conceda permisos en esta aplicación para poder usarla.
@@ -172,10 +172,10 @@ Cuando un usuario sin derechos administrativos intenta iniciar sesión en una ap
 
 Un usuario administrador puede iniciar sesión y conceder el consentimiento correctamente.
 
-** _:_ **<br>
+** _:_**<br>
 El consentimiento de usuario está deshabilitado en este inquilino.
 
-**_Existen varias correcciones viables:_ **
+**_Existen varias correcciones viables:_**
 
 *Habilitar el consentimiento de usuario en todo el inquilino (todos los usuarios, todas las aplicaciones)*
 
