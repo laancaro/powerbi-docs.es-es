@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: 6e28af5a03fd799f088d428f16621358c2a4f7c5
-ms.sourcegitcommit: e48ef4c88e4a1a0b259bf899d85d520c4edd5751
+ms.openlocfilehash: eec8f3b74646fa7f783888b95e95c1ed8d922260
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66823318"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270995"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -26,7 +26,7 @@ En este artículo se examinan algunos problemas comunes que pueden encontrarse a
 
 [Fiddler](http://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP.  Puede ver el tráfico con las API de Power BI desde la máquina cliente. Esta herramienta puede mostrar errores y otra información relacionada.
 
-![Seguimiento de Fiddler](../includes/media/gateway-onprem-tshoot-tools-include/fiddler.png)
+![Seguimiento de Fiddler](media/embedded-troubleshoot/fiddler.png)
 
 ### <a name="f12-in-browser-for-front-end-debugging"></a>F12 en el explorador para la depuración del servidor front-end.
 
@@ -110,7 +110,7 @@ Para resolver este problema, debe quitar "oauth2/authorize/" del final de la dir
 
 ### <a name="authentication-failed-with-aadsts70002-or-aadsts50053"></a>Error de autenticación AADSTS70002 o AADSTS50053
 
-** _(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_**
+**_(AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos)_**
 
 Si usa Power BI Embedded y recurre a la autenticación directa de Azure AD, y recibe mensajes de registro como ***error:unauthorized_client,error_description:AADSTS70002: Error al validar las credenciales. AADSTS50053: Ha intentado iniciar sesión demasiadas veces con un identificador de usuario o una o contraseña incorrectos***, se debe a que la autenticación directa dejó de usarse de forma predeterminada el 14 de junio de 2018.
 
@@ -172,7 +172,7 @@ Cuando un usuario sin derechos administrativos intenta iniciar sesión en una ap
 
 Un usuario administrador puede iniciar sesión y conceder el consentimiento correctamente.
 
-** _:_**<br>
+**_:_**<br>
 El consentimiento de usuario está deshabilitado en este inquilino.
 
 **_Existen varias correcciones viables:_**
