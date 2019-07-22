@@ -55,7 +55,7 @@
           href: desktop-latest-update.md
         - name: Modelado de vistas en Power BI Desktop
           href: desktop-modeling-view.md
-        - name: Agregaciones en Power BI Desktop (versión preliminar)
+        - name: "Agregaciones en Power\_BI Desktop"
           href: desktop-aggregations.md
         - name: Modelos compuestos en Power BI Desktop
           href: desktop-composite-models.md
@@ -175,11 +175,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery y SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Configuración de Asumir integridad referencial en Power BI Desktop
+            - name: Asumir la configuración de la integridad referencia en Power BI Desktop
               href: desktop-assume-referential-integrity.md
             - name: Uso del conector de SAP BW en Power BI Desktop
               href: desktop-sap-bw-connector.md
-            - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
+            - name: Uso de vínculos de OneDrive para la Empresa en Power BI Desktop
               href: desktop-use-onedrive-business-links.md
             - name: 'Servicio de terceros: Conector de Facebook para Power BI Desktop'
               href: service-facebook-connector.md
@@ -221,7 +221,7 @@
               href: desktop-export-to-pdf.md
             - name: Preguntas y respuestas en Power BI Desktop
               href: desktop-qna-in-reports.md
-            - name: Panel de análisis en Power BI Desktop
+            - name: Panel Análisis en Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Uso de las conclusiones para explicar los aumentos y las disminuciones
               href: desktop-insights.md
@@ -234,7 +234,7 @@
             - name: Tipos de filtros
               href: power-bi-report-filter-types.md
             - name: Pruebe la nueva experiencia de filtro
-              href: power-bi-report-filter-preview.md
+              href: power-bi-report-filter.md
             - name: Uso de medidas rápidas
               href: desktop-quick-measures.md
             - name: Uso de parámetros What if
@@ -349,7 +349,7 @@
               href: visuals/power-bi-visualization-scatter.md
             - name: Gráficos de dispersión de alta densidad
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Usar mapas de formas en Power BI Desktop (versión preliminar)
+            - name: Uso de mapas de formas en Power BI Desktop (versión preliminar)
               href: visuals/desktop-shape-map.md
             - name: Segmentaciones de datos en Power BI
               href: visuals/power-bi-visualization-slicers.md
@@ -453,6 +453,8 @@
               href: service-support-options.md
             - name: 10 sugerencias para obtener ayuda
               href: service-tips-for-finding-help.md
+            - name: Notificaciones de interrupción del servicio
+              href: service-interruption-notifications.md
         - name: Amplíe Power BI
           items:
             - name: Microsoft Flow y Power BI
@@ -645,7 +647,7 @@
               href: service-publish-to-web.md
             - name: Compartir un panel que se vincula a un libro de Excel en OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher para Excel
+            - name: Power BI Publisher for Excel
               href: publisher-for-excel.md
         - name: Preparación de datos de autoservicio
           items:
@@ -685,6 +687,8 @@
           items:
             - name: Visualización de un informe paginado
               href: paginated-reports-view-power-bi-service.md
+            - name: Orígenes de datos compatibles
+              href: paginated-reports-data-sources.md
             - name: Interactuación con los parámetros
               href: paginated-reports-view-parameters.md
             - name: Suscripción personal o de otros usuarios
@@ -1059,7 +1063,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Objetos visuales personalizados
+    - name: Elementos visuales personalizados
       items:
         - name: Información general
           items:
