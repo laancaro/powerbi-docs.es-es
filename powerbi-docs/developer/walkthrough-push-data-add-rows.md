@@ -311,7 +311,7 @@ A continuación se muestra la [lista de código completa](#code).
     }
 ```
 
-A pesar de que en el código anterior se ha especificado ** _//Get the first id_** , lo correcto es buscar el conjunto de datos por nombre.
+A pesar de que en el código anterior se ha especificado **_//Get the first id_** , lo correcto es buscar el conjunto de datos por nombre.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Insertar datos en un panel de Power BI](walkthrough-push-data.md)  
