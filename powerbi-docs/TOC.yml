@@ -73,7 +73,7 @@
           href: desktop-data-source-prerequisites.md
         - name: Miembro predeterminado en los modelos multidimensionales en Power BI
           href: desktop-default-member-multidimensional-models.md
-        - name: Preguntas frecuentes sobre los objetos visuales personalizados
+        - name: Preguntas frecuentes sobre los objetos visuales
           href: power-bi-custom-visuals-faq.md
     - name: Procedimiento
       items:
@@ -175,11 +175,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery y SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Asumir la configuración de la integridad referencia en Power BI Desktop
+            - name: Configuración de Asumir integridad referencial en Power BI Desktop
               href: desktop-assume-referential-integrity.md
             - name: Uso del conector de SAP BW en Power BI Desktop
               href: desktop-sap-bw-connector.md
-            - name: Uso de vínculos de OneDrive para la Empresa en Power BI Desktop
+            - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
               href: desktop-use-onedrive-business-links.md
             - name: 'Servicio de terceros: Conector de Facebook para Power BI Desktop'
               href: service-facebook-connector.md
@@ -221,7 +221,7 @@
               href: desktop-export-to-pdf.md
             - name: Preguntas y respuestas en Power BI Desktop
               href: desktop-qna-in-reports.md
-            - name: Panel Análisis en Power BI Desktop
+            - name: Panel de análisis en Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Uso de las conclusiones para explicar los aumentos y las disminuciones
               href: desktop-insights.md
@@ -349,7 +349,7 @@
               href: visuals/power-bi-visualization-scatter.md
             - name: Gráficos de dispersión de alta densidad
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Uso de mapas de formas en Power BI Desktop (versión preliminar)
+            - name: Usar mapas de formas en Power BI Desktop (versión preliminar)
               href: visuals/desktop-shape-map.md
             - name: Segmentaciones de datos en Power BI
               href: visuals/power-bi-visualization-slicers.md
@@ -647,7 +647,7 @@
               href: service-publish-to-web.md
             - name: Compartir un panel que se vincula a un libro de Excel en OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher for Excel
+            - name: Power BI Publisher para Excel
               href: publisher-for-excel.md
         - name: Preparación de datos de autoservicio
           items:
@@ -1063,52 +1063,74 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Elementos visuales personalizados
+    - name: Objetos visuales personalizados
       items:
         - name: Información general
           items:
-            - name: Elementos visuales personalizados en Power BI
+            - name: Objetos visuales en Power BI
               href: power-bi-custom-visuals.md
         - name: Tutoriales
           items:
-            - name: Desarrollo de objetos visuales personalizados de Power BI
+            - name: Desarrollo de un objeto visual de Power BI
               href: developer/custom-visual-develop-tutorial.md
             - name: Adición de opciones de formato
               href: developer/custom-visual-develop-tutorial-format-options.md
+            - name: Adición de pruebas unitarias para el proyecto de objetos visuales
+              href: developer/visuals/unit-tests-introduction.md
         - name: Conceptos
           items:
-            - name: Objetos visuales personalizados para organizaciones en Power BI
+            - name: Objetos visuales para organizaciones en Power BI
               href: power-bi-custom-visuals-organization.md
             - name: Instrucciones para objetos visuales de Power BI
               href: developer/guidelines-powerbi-visuals.md
-            - name: Preguntas frecuentes sobre los objetos visuales personalizados
+            - name: Preguntas frecuentes sobre los objetos visuales
               href: power-bi-custom-visuals-faq.md
             - name: Uso de funcionalidades
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/capabilities/'
+              href: developer/visuals/capabilities.md
             - name: Asignaciones de vistas de datos
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/dataviewmappings/'
+              href: developer/visuals/dataview-mappings.md
             - name: Objetos y propiedades
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/objects-and-properties/'
+              href: developer/visuals/objects-properties.md
             - name: Modo de edición avanzada
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/advanced-edit-mode/'
-            - name: Migración a la guía de API con versiones
-              href: 'https://microsoft.github.io/PowerBI-visuals/docs/concepts/migrating-to-versioned-api-guide/'
+              href: developer/visuals/advanced-edit-mode.md
         - name: Procedimiento
           items:
-            - name: Obtención de un objeto visual personalizado certificado
+            - name: Obtención de un objeto visual certificado
               href: power-bi-custom-visuals-certified.md
             - name: Publicar objetos visuales personalizados en AppSource
               href: developer/office-store.md
             - name: Usar objetos visuales personalizados con tecnología R en Power BI
               href: desktop-r-powered-custom-visuals.md
-            - name: Solucionar problemas
-              items:
-                - name: Solución de problemas de desarrollo de objetos visuales personalizados
-                  href: power-bi-custom-visuals-troubleshoot.md
+            - name: Interacciones de objetos visuales
+              href: developer/visuals/visuals-interactions.md
+            - name: Adición de información sobre herramientas de los objetos visuales
+              href: developer/visuals/add-tooltips.md
+            - name: Adición del panel de análisis
+              href: developer/visuals/analytics-pane.md
+            - name: Filtro de objetos visuales
+              href: developer/visuals/filter-api.md
+            - name: Captura de más datos
+              href: developer/visuals/fetch-more-data.md
+            - name: Adición de compatibilidad con marcadores
+              href: developer/visuals/bookmarks-support.md
+            - name: Resaltado de datos en objetos visuales
+              href: developer/visuals/highlight.md
+            - name: Adición de compatibilidad con el modo de contraste alto
+              href: developer/visuals/high-contrast-support.md
+            - name: Habilitación de segmentaciones de sincronización
+              href: developer/visuals/enable-sync-slicers.md
+            - name: Solución de problemas con los objetos visuales de Power BI
+              href: power-bi-custom-visuals-troubleshoot.md
         - name: Referencia
           items:
-            - name: API
-              href: 'https://microsoft.github.io/PowerBI-visuals/api/references/ivisualhost/'
+            - name: Página de aterrizaje
+              href: developer/visuals/landing-page.md
+            - name: Inicio de URL
+              href: developer/visuals/launch-url.md
+            - name: Representación de eventos
+              href: developer/visuals/event-service.md
+            - name: Ordenación
+              href: developer/visuals/sort-options.md
         - name: Recursos
           items:
             - name: Centro de desarrollo
@@ -1117,6 +1139,8 @@
               href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
             - name: Repositorio Git de objetos visuales personalizados
               href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: Creación de un certificado SSL
+              href: developer/visuals/create-ssl-certificate.md
     - name: Automatización
       items:
         - name: Información general
