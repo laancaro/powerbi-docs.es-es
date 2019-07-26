@@ -44,13 +44,13 @@ Al ver un informe que tiene parámetros, la barra de herramientas del visor de i
   
 1. **Panel de parámetros** La barra de herramientas del visor de informes muestra un aviso y un valor predeterminado para cada parámetro. Puede personalizar el diseño de parámetros en el panel de parámetros.  
   
-2. **Parámetro @SalesDate** El parámetro @SalesDate es del tipo de datos **DateTime**. El mensaje Seleccione la fecha aparece junto al cuadro de texto. Para modificar la fecha, escriba una nueva fecha en el cuadro de texto o utilice el control de calendario.  
+2. **@SalesDate parámetro** el parámetro @SalesDate es de tipo de datos **DateTime**. El mensaje Seleccione la fecha aparece junto al cuadro de texto. Para modificar la fecha, escriba una nueva fecha en el cuadro de texto o utilice el control de calendario.  
   
-3. **Parámetro @ShowAll** El parámetro @ShowAll es de tipo de datos **Boolean**. Use los botones de radio para especificar **True** o **False**.  
+3. **@ShowAll parámetro** el parámetro @ShowAll es de tipo de datos **booleano**. Use los botones de radio para especificar **True** o **False**.  
   
 4. **Control Mostrar u ocultar el área de parámetros** En la barra de herramientas del visor de informes, haga clic en esta flecha para mostrar u ocultar el panel de parámetros.  
   
-5. **Parámetro @CategoryQuota** El parámetro @CategoryQuota es del tipo de datos **Float**, por lo que tendrá un valor numérico.  @CategoryQuota está establecido para permitir varios valores.  
+5. **@CategoryQuota parámetro** el parámetro @CategoryQuota es de tipo de datos **Float**, por lo que tendrá un valor numérico.  @CategoryQuota está establecido para permitir varios valores.  
   
 6. **Ver informe** Después de escribir los valores de los parámetros, haga clic en **Ver informe** para ejecutar el informe. Si todos los parámetros tienen valores predeterminados, el informe se ejecuta automáticamente en la primera vista.  
   
