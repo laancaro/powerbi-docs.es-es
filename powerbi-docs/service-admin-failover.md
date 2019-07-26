@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 01/30/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: a5f3f5003eb1d22b0667698691471150f04553d8
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b3fa7fd07a4c7f1992623871ed408b959582a125
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61196920"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270609"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -65,7 +65,7 @@ Las instancias del servicio Power BI vuelven a su región original cuando se res
 Si la solución de Power BI que se usa en la organización implica uno de los elementos siguientes, debe tomar ciertas medidas para garantizar que la solución sigue teniendo alta disponibilidad:
 
 - Si en la organización se usa Power BI Premium, debe asegurarse de que la capacidad Premium tiene el tamaño para satisfacer las demandas de carga de la implementación.  Las [notas del producto de planeación e implementación de Power BI Premium](https://aka.ms/Premium-Capacity-Planning-Deployment) y la [aplicación Premium Capacity Metrics de Power BI](service-admin-premium-monitor-capacity.md) pueden ayudar a planear y satisfacer este requisito. Periódicamente se agregan características nuevas a la aplicación de métricas y al portal de administración de Power BI para que sirvan de ayuda.
-- Si en la organización se accede a orígenes de datos locales mediante la puerta de enlace local de Power BI, debe configurar la puerta de enlace [como se describe en este artículo](service-gateway-high-availability-clusters.md) para admitir la alta disponibilidad. Siga estas instrucciones si va a actualizar informes en modo de importación o va a acceder a datos o modelos de datos mediante DirectQuery o Live Connect.
+- Si en la organización se accede a orígenes de datos locales mediante la puerta de enlace de datos local, tendrá que configurar la puerta de enlace [como se describe en este artículo](/data-integration/gateway/service-gateway-high-availability-clusters) para admitir la alta disponibilidad. Siga estas instrucciones si va a actualizar informes en modo de importación o va a acceder a datos o modelos de datos mediante DirectQuery o Live Connect.
 
 ## <a name="will-gateways-function-when-in-failover-mode"></a>¿Las puertas de enlace funcionarán en el modo de conmutación por error?
 

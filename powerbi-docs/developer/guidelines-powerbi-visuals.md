@@ -8,15 +8,41 @@ ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
-ms.date: 03/10/2019
-ms.openlocfilehash: cf9a613e82b4f5b7ce9cc67f5b920760d01ccbf7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.date: 07/16/2019
+ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343154"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271181"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
+Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual en AppSource para que otros usuarios lo detecten y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios. 
+
+## <a name="context-menu"></a>Menú contextual
+El menú contextual es el que se muestra cuando el usuario mantiene el mouse sobre un objeto visual.
+En todos los objetos visuales de Power BI se debe habilitar el menú contextual para ofrecer una experiencia unificada. Consulte [este artículo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para obtener información sobre cómo agregar un menú contextual.
+
+
+## <a name="logo-guidelines"></a>Instrucciones para los logotipos
+
+En esta sección se describen las especificaciones para agregar logotipos en objetos visuales.
+
+> [!IMPORTANT]
+> Los logotipos se permiten *solo en el modo de edición*. Los logotipos *no* se pueden mostrar en el modo de visualización.
+
+![Definiciones](media/guidelines-powerbi-visuals/definitions.png)
+
+![Cosas a tener en cuenta](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+
+![Cosas que hay que evitar](media/guidelines-powerbi-visuals/things-to-avoid.png)
+
+![Tamaño y formato](media/guidelines-powerbi-visuals/size-and-format.png)
+
+![Márgenes y tamaño](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+
+![Modo de edición](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+
 
 ## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
 
@@ -36,31 +62,13 @@ Los desarrolladores cargan sus objetos visuales de IAP en AppSource mediante el 
 
 ## <a name="what-is-a-power-bi-visual-with-iap-features"></a>¿Qué es un objeto visual de Power BI con características de IAP?
 
-Un objeto visual de IAP es un objeto visual **gratuito** que ofrece **características gratuitas**. También tiene algunas características avanzadas para las que pueden aplicarse cargos adicionales que las activen. En la descripción del objeto visual, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
+Un objeto visual de IAP es un objeto visual *gratuito* que ofrece *características gratuitas*. También tiene algunas características avanzadas para las que pueden aplicarse cargos adicionales que las activen. En la descripción del objeto visual, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
 
 Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
 
 > [!NOTE]
 > Las marcas de agua no se permiten en las características gratuitas ni los objetos visuales gratuitos. Las marcas de agua solo pueden usarse en las características de pago que se usan sin una licencia válida. Se recomienda mostrar una ventana emergente con toda la información relacionada con la licencia si se usan las características de pago avanzadas sin una licencia válida.  
 
-## <a name="logo-guidelines"></a>Instrucciones para los logotipos
-
-En esta sección se describen las especificaciones para agregar logotipos en objetos visuales.
-
-> [!IMPORTANT]
-> Los logotipos se permiten **solo en el modo de edición**. Los logotipos **no** se pueden mostrar en el modo de visualización.
-
-![Definiciones](media/guidelines-powerbi-visuals/definitions.png)
-
-![Cosas a tener en cuenta](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
-
-![Cosas que hay que evitar](media/guidelines-powerbi-visuals/things-to-avoid.png)
-
-![Tamaño y formato](media/guidelines-powerbi-visuals/size-and-format.png)
-
-![Márgenes y tamaño](media/guidelines-powerbi-visuals/margins-and-sizes.png)
-
-![Modo de edición](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 

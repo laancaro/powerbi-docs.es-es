@@ -7,24 +7,32 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 06/06/2018
+ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7b863af882604be8c2c59fd21f26cd8441f9e170
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
+ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54272662"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68352175"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Combinar o anexar orígenes de datos locales o en la nube
 
-La puerta de enlace de datos local le permite combinar o anexar orígenes de datos locales o en la nube en la misma consulta. Es útil cuando quiere mezclar datos de varios orígenes sin tener que usar consultas independientes.
+[!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
+
+La puerta de enlace de datos local permite combinar o anexar orígenes de datos locales o en la nube en la misma consulta. Es útil cuando se quieren combinar datos de varios orígenes sin tener que usar consultas independientes.
+
+>[!NOTE]
+>Este artículo solo se aplica a los conjuntos de datos que tienen orígenes de datos locales y en la nube combinados o anexados en una sola consulta. Para los conjuntos de datos que incluyen consultas independientes (una conectada a un origen de datos local y la otra a uno en la nube) la consulta en la que se usa el origen de datos en la nube no se ejecutará mediante la puerta de enlace.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- Una [puerta de enlace instalada](service-gateway-install.md) en un equipo local.
+- Una [puerta de enlace instalada](/data-integration/gateway/service-gateway-install) en un equipo local.
 - Un archivo de Power BI Desktop con consultas que combinan orígenes de datos locales y en la nube.
+
+>[!NOTE]
+>Para acceder a orígenes de datos en la nube, debe asegurarse de que la puerta de enlace tenga acceso a esos orígenes de datos.
 
 1. En la esquina superior derecha del servicio Power BI, seleccione el icono del engranaje ![Icono de engranaje de configuración](media/service-gateway-mashup-on-premises-cloud/icon-gear.png) > **Administrar puertas de enlace**.
 
@@ -46,10 +54,11 @@ La puerta de enlace de datos local le permite combinar o anexar orígenes de dat
 
    - En **Credenciales del origen de datos**, edite las credenciales del origen de datos en la nube según sea necesario.
 
+    Asegúrese de que los niveles de privacidad de los orígenes de datos locales y en la nube están configurados correctamente para asegurarse de que las combinaciones se administran de forma segura.
+
      ![Configuración del conjunto de datos](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
 7. Con las credenciales en la nube establecidas, ahora puede actualizar el conjunto de datos con la opción **Actualizar ahora** o programarlo para que se actualice periódicamente.
-
 
 ## <a name="next-steps"></a>Pasos siguientes
 

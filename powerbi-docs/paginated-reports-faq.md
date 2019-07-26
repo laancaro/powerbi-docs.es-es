@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/18/2019
-ms.openlocfilehash: 10ac6ed9f49241103d03f2667ccc8db5d619db6c
-ms.sourcegitcommit: a42c6758aa255c21ece6366a3257b0dd82f3606b
+ms.date: 07/15/2019
+ms.openlocfilehash: 10135e0fa725cd4093802cd1416cab302174e21d
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/24/2019
-ms.locfileid: "67345525"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68270796"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES 
 
@@ -119,10 +119,10 @@ Obtiene un mensaje si intenta cargar un archivo que tiene una característica in
 
 Se admite el origen de datos siguiente: 
 
-- Conjuntos de datos de Power BI Premium
+- Conjuntos de datos de Power BI (a través del inicio de sesión único (SSO))
 - Azure Analysis Services (mediante inicio de sesión único (SSO) y oAuth)
 - Azure SQL Data Warehouse
-- Azure SQL Database (nombre de usuario/contraseña y oAuth)
+- Azure SQL Database (nombre de usuario y contraseña, SSO y oAuth)
 - SQL Server*
 - Modelos tabulares (DAX) y multidimensionales (MDX) de SQL Server Analysis Services (SSAS)* 
 - Oracle* 
@@ -134,11 +134,11 @@ Al acceder a SSAS a través de la puerta de enlace, el usuario cuyas credenciale
 
 ### <a name="what-authentication-methods-do-you-support"></a>¿Qué métodos de autenticación se admiten?
 
-Admitimos el inicio de sesión único de Azure Analysis Services y orígenes de datos de Power BI Premium, y admitimos oAuth y el inicio de sesión único de Azure SQL Database.  Con otros orígenes de datos, actualmente debe almacenar un nombre de usuario y una contraseña con el origen de datos en el portal o la puerta de enlace.  
+Se admite SSO para los orígenes de datos de Azure Analysis Services, Azure SQL Database y Power BI.  También se admite OAuth para Azure SQL Database y Azure Analysis Services.  Con otros orígenes de datos, actualmente debe almacenar un nombre de usuario y una contraseña con el origen de datos en el portal o la puerta de enlace.  
 
 ### <a name="can-i-use-a-power-bi-dataset-as-a-data-source-for-my-paginated-report"></a>¿Puedo usar un conjunto de datos de Power BI como origen de datos de mi informe paginado?
 
-Sí, se admiten conjuntos de datos de Power BI Premium como orígenes de datos para los informes paginados.
+Sí, se admiten conjuntos de datos de Power BI como orígenes de datos para los informes paginados.
 
 ### <a name="can-i-use-stored-procedures-through-the-gateway"></a>¿Se pueden usar procedimientos almacenados a través de la puerta de enlace?
 
@@ -179,10 +179,6 @@ Planeamos que los informes admitan lo máximo posible los mismos escenarios impo
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>¿Se prevé alguna herramienta de migración para que los clientes de SSRS puedan mover los informes y recursos existentes a Power BI?
 
 Estamos evaluando distintas opciones para permitir mover el contenido a Power BI de forma automática, pero esto no estará disponible hasta después de la disponibilidad general.
-
-### <a name="will-i-ever-be-able-to-create-both-paginated-reports-and-power-bi-reports-in-a-single-authoring-tool"></a>¿Alguna vez será posible crear tanto los informes paginados como los informes de Power BI en una única herramienta de creación?
-
-Aunque hemos estado viendo formas de habilitar este escenario, por el momento no está en nuestros planes.
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>¿Existe un control del visor de informes para los informes paginados en el servicio Power BI?
 

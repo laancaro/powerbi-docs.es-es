@@ -10,42 +10,49 @@ ms.topic: conceptual
 ms.date: 10/16/2017
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: dd6698cab5b9fed407e6e8f45ceb160209a38fae
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6ada87813593fd0f06d7870fa1727bc35fe7d47
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61146866"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324929"
 ---
-# <a name="connect-to-project-online-with-power-bi"></a>Conexión a Project Online con Power BI
-Microsoft Project Online es una solución flexible en línea para la administración de la cartera de proyectos (PPM) y el trabajo diario. Project Online ofrece a las organizaciones una introducción, así como priorizar las inversiones de la cartera de proyectos y ofrecer el valor empresarial previsto. El paquete de contenido de Project Online para Power BI le permite desbloquear información de Project Online para facilitar la administración de proyectos, carteras y recursos.
+# <a name="connect-to-project-web-app-with-power-bi"></a>Conexión a Project Web App con Power BI
+Microsoft Project Web App es una solución flexible en línea para la administración de cartera de proyectos (PPM) y el trabajo diario. Project Web App permite a las organizaciones dar el primer paso, priorizar las inversiones de la cartera de proyectos y ofrecer el valor empresarial previsto. La aplicación de plantilla Project Web App para Power BI permite desbloquear información de Project Web App para facilitar la administración de proyectos, carteras y recursos.
 
-Conéctese al [paquete de contenido de Project Online](https://app.powerbi.com/getdata/services/project-online) para Power BI.
+Conéctese a la [aplicación de plantilla de Project Web App](https://appsource.microsoft.com/product/power-bi/pbi_msprojectonline.pbi-microsoftprojectwebapp) para Power BI.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
-1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.
-   
-    ![](media/service-connect-to-project-online/getdata.png)
+
+   ![](media/service-connect-to-project-online/GetApps.png)
+1. Seleccione **Aplicaciones** en el panel de navegación de la izquierda > seleccione **Obtener aplicaciones** en la esquina superior derecha.
 2. En el cuadro **Servicios** , seleccione **Obtener**.
    
-   ![](media/service-connect-to-project-online/services.png)
-3. Seleccione **Microsoft Project Online** \> **Obtener**.
+   ![](media/service-connect-to-project-online/AppSource.png)
+3. En AppSource, seleccione la pestaña **Aplicaciones** y busque o seleccione **Microsoft Project Web App**.
+   
+4. Recibirá un mensaje que dice: **¿Quiere instalar esta aplicación de Power BI?** ; seleccione **Instalar**. 
+
+   ![](media/service-connect-to-project-online/ProjectTile.png)
+5. En el panel **Aplicaciones**, seleccione el icono **Microsoft Project Web App**. 
+   
+   ![](media/service-connect-to-project-online/getstarted.png)
+6. En **Empezar a trabajar con la nueva aplicación**, seleccione **Conectar datos**.
    
    ![](media/service-connect-to-project-online/mproject.png)
-4. En el cuadro de texto **Dirección URL de Project Web App** , escriba la dirección URL de Project Web App (PWA) a la que desea conectarse y seleccione **Siguiente**. Tenga en cuenta que puede diferir del ejemplo si tiene un dominio personalizado. En el cuadro de texto **Idioma del sitio de Project Web App**, escriba el número correspondiente a su idioma del sitio de Project Web App. Escriba "1" para inglés, "2" para francés, "3" para alemán, "4" para portugués (Brasil), "5" para portugués (Portugal) y "6" para español. 
+7. En el cuadro de texto **Dirección URL de Project Web App**, escriba la dirección URL de Project Web App (PWA) a la que quiera conectarse.  Tenga en cuenta que puede diferir del ejemplo si tiene un dominio personalizado. En el cuadro de texto **Idioma del sitio de Project Web App**, escriba el número correspondiente a su idioma del sitio de Project Web App. Escriba "1" para inglés, "2" para francés, "3" para alemán, "4" para portugués (Brasil), "5" para portugués (Portugal) y "6" para español. 
    
-    ![](media/service-connect-to-project-online/params.png)
-5. En Método de autenticación, seleccione **oAuth2** \> **Iniciar sesión**. Cuando se le solicite, escriba sus credenciales de Project Online y siga el proceso de autenticación.
-   
-    ![](media/service-connect-to-project-online/creds.png)
+   ![](media/service-connect-to-project-online/params.png)
+8. En Método de autenticación, seleccione **oAuth2** \> **Iniciar sesión**. Cuando se le solicite, escriba las credenciales de Project Web App y siga el proceso de autenticación.
+
     
 Tenga en cuenta que debe tener los permisos de Visor de carteras, Administrador de carteras o Administrador para la instancia de Project Web App a la que se está conectando.
 
-6. Verá una notificación que indica que se están cargando los datos. Dependiendo del tamaño de la cuenta, puede tardar cierto tiempo. Una vez que Power BI importe los datos, verá un nuevo panel, 13 informes y el conjunto de datos en el panel de navegación izquierdo. Este es el panel predeterminado que creó Power BI para mostrar los datos. Puede modificar este panel para que muestre los datos de la forma que desee.
+9. Verá una notificación que indica que se están cargando los datos. Dependiendo del tamaño de la cuenta, puede tardar cierto tiempo. Después de que Power BI importe los datos, verá el contenido de la nueva área de trabajo. Es posible que tenga que actualizar el conjunto de datos para obtener las actualizaciones más recientes. 
 
-   ![](media/service-connect-to-project-online/dashboard2.png)
+Una vez que Power BI importe los datos, verá el informe con 13 páginas y el conjunto de datos en el panel de navegación de la izquierda. 
 
-7. Cuando los paneles e informes estén listos, continúe y empiece a explorar los datos de Project Online. El paquete de contenido incluye 13 informes muy completos y detallados con información general sobre carteras (6 informes), información general sobre recursos (5 informes) y el estado de los proyectos (2 informes). 
+10. Cuando los informes estén listos, continúe y empiece a explorar los datos de Project Web App. La aplicación de plantilla incluye 13 informes muy completos y detallados con información general sobre carteras (6 páginas de informe), información general sobre recursos (5 páginas de informe) y el estado del proyecto (2 páginas de informe). 
 
    ![](media/service-connect-to-project-online/report1.png)
    
@@ -55,12 +62,9 @@ Tenga en cuenta que debe tener los permisos de Visor de carteras, Administrador 
 
 **¿Qué más?**
 
-* Pruebe a [hacer una pregunta en el cuadro de preguntas y respuestas](consumer/end-user-q-and-a.md), en la parte superior del panel.
-* [Cambie los iconos](service-dashboard-edit-tile.md) en el panel.
-* [Seleccione un icono](consumer/end-user-tiles.md) para abrir el informe subyacente.
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
-**Expansión del paquete de contenido**
+**Expansión de la aplicación de plantilla**
 
 Descargue el [archivo PBIT de GitHub](https://github.com/OfficeDev/Project-Power-BI-Content-Packs) para seguir personalizando y actualizando el paquete de contenido.
 

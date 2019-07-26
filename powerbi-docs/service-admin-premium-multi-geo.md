@@ -10,14 +10,14 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7735ce3d6d28f51ca95efbe12394c2e0cb2cba29
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
+ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65564943"
+ms.lasthandoff: 07/17/2019
+ms.locfileid: "68289828"
 ---
-# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configurar la compatibilidad con Multigeográficas Power BI Premium
+# <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
 Multi-Geo es una característica de Power BI Premium que ayuda a que los clientes multinacionales aborden los requisitos de residencia de datos organizacionales, regionales o específicos del sector. Como cliente de Power BI Premium, puede implementar contenido en centros de datos de regiones distintas de la región principal del inquilino de Power BI. Una geoárea (geografía) puede contener más de una región. Por ejemplo, Estados Unidos es una geoárea y Centro-oeste de EE. UU. y Centro-sur de EE. UU. son regiones de Estados Unidos. Puede elegir implementar contenido en cualquiera de las geoáreas siguientes:
 
@@ -35,7 +35,7 @@ Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por
 
 Multi-Geo ahora está también disponible en Power BI Embedded. Más información en [Compatibilidad de Multi-Geo con Power BI Embedded](developer/embedded-multi-geo.md).
 
-## <a name="enable-and-configure"></a>Habilitar y configurar
+## <a name="enable-and-configure"></a>Habilitación y configuración
 
 Para las capacidades nuevas, habilite Multi-Geo al seleccionar una región distinta de la región predeterminada en la lista desplegable.  Cada capacidad muestra la región donde está ubicada actualmente, como **Centro-oeste de EE. UU**.
 
@@ -68,7 +68,7 @@ Estos elementos permanecen en la región principal del inquilino:
 - Permisos
 - Credenciales de conjuntos de datos
 
-## <a name="view-capacity-regions"></a>Capacidad de ver regiones
+## <a name="view-capacity-regions"></a>Vista de regiones de capacidad
 
 En el Portal de administración, puede ver todas las capacidades del inquilino de Power BI y las regiones donde se ubican actualmente.
 
@@ -94,7 +94,7 @@ Puede quitar áreas de trabajo de la capacidad Multi-Geo de una de estas dos man
 - Una consulta en caché almacenada en una región remota permanece en esa región en reposo. Sin embargo, otros datos en tránsito pueden ir y venir entre distintas geografías.
 - Al mover datos de una región a otra en un entorno de Multi-Geo, los datos de origen pueden permanecer en la región desde donde se movieron los datos durante hasta 30 días. Durante ese período, los usuarios finales no tienen acceso a ellos. Se quitan de esta región y se destruyen durante el período de 30 días.
 - En términos generales, Multi-Geo no genera un mejor rendimiento. La carga de informes y paneles sigue implicando solicitudes de metadatos a la región principal.
-- La característica [flujos de datos](service-dataflows-overview.md) (en versión preliminar) no se admite en Multi-GEO actualmente.
+- En la actualidad la característica [flujos de datos](service-dataflows-overview.md) no se admite en Multi-GEO.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

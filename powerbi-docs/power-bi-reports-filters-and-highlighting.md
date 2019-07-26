@@ -10,25 +10,25 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 8084b8dbbc27c856633d84c6628727dcd426964d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4584ad0f8c083a765b1a1a9943496b40a3ed4bdf
+ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66187555"
+ms.lasthandoff: 07/19/2019
+ms.locfileid: "68342164"
 ---
 # <a name="filters-and-highlighting-in-power-bi-reports"></a>Filtros y resaltado en informes de Power BI
- Este artículo presenta en el filtrado y resaltado en el servicio Power BI. aunque la experiencia es casi exactamente la misma que en Power BI Desktop. Los *filtros* eliminan todos los datos excepto aquellos en los que desea centrarse. *Resaltado* no está filtrado. No elimina los datos, pero en su lugar, resalta un subconjunto de los datos visibles; los datos que no están resaltados permanecen visibles pero atenuados.
+ En este artículo se presentan el filtrado y el resaltado en el servicio Power BI. aunque la experiencia es casi exactamente la misma que en Power BI Desktop. Los *filtros* eliminan todos los datos excepto aquellos en los que desea centrarse. El *resaltado* no es el filtrado. No elimina los datos, sino que resalta un subconjunto de los datos visibles; los datos que no se resaltan permanecen visibles pero atenuados.
 
 Hay muchas formas distintas de filtrar y resaltar informes en Power BI. Colocar toda la información en un artículo podría ser confuso, por lo que se han realizado las siguientes divisiones:
 
-* Introducción a los filtros y resaltado, el artículo que está leyendo ahora.
-* Cómo [crear y usar filtros en la vista de edición](power-bi-report-add-filter.md) en los informes de Power BI Desktop y el servicio Power BI. Si dispone de permisos de edición en un informe, puede crear, modificar y eliminar filtros en él.
-* Cómo los objetos visuales [filtrar y resaltar en un informe compartido con usted](consumer/end-user-interactions.md), en la vista de lectura en el servicio Power BI de informes. Sus posibilidades son más limitadas, pero dispone de un amplio abanico de opciones de filtrado y resaltado.  
-* Un repaso detallado de la [de filtrado y resaltado de controles disponibles en la vista de edición](power-bi-report-add-filter.md) en Power BI Desktop y el servicio Power BI. El artículo tiene una visión detallada de los tipos de filtros de fecha y hora, numérico y el texto. También cubre las diferencias entre las opciones básicas y avanzadas.
+* Introducción a los filtros y el resaltado, el artículo que está leyendo ahora.
+* Procedimientos para [crear y usar filtros en la vista de edición](power-bi-report-add-filter.md) en informes de Power BI Desktop y el servicio Power BI. Si dispone de permisos de edición en un informe, puede crear, modificar y eliminar filtros en él.
+* Cómo los objetos visuales [filtran y resaltan en un informe compartido con usted](consumer/end-user-interactions.md), en la vista de lectura del informe en el servicio Power BI. Sus posibilidades son más limitadas, pero dispone de un amplio abanico de opciones de filtrado y resaltado.  
+* Un paseo detallado por los [controles de filtro y resaltado disponibles en la vista de edición](power-bi-report-add-filter.md) de Power BI Desktop y el servicio Power BI. En este artículo se analizan en profundidad los tipos de filtros, como los de fecha y hora, numéricos y de texto. También se describen las diferencias entre las opciones básicas y avanzadas.
 * Una vez que haya aprendido el funcionamiento predeterminado de los filtros y resaltados, [obtenga más información sobre cómo cambiar el modo en el que las visualizaciones de una página se filtran y resaltan entre ellas](service-reports-visual-interactions.md).
 
-**¿Sabía qué?** Power BI tiene una nueva experiencia de filtro, actualmente en versión preliminar. Aprenda más sobre la [nueva experiencia de filtro en los informes de Power BI](power-bi-report-filter-preview.md).
+**¿Sabía qué?** Power BI tiene una nueva experiencia de filtro, actualmente en versión preliminar. Aprenda más sobre la [nueva experiencia de filtro en los informes de Power BI](power-bi-report-filter.md).
 
 ![Nueva experiencia de filtro](media/power-bi-reports-filters-and-highlighting/power-bi-filter-reading.png)
 
@@ -67,32 +67,32 @@ Así pues, esta página del informe tiene seis filtros de nivel de página y un 
 
 Cada objeto visual puede tener filtros para todos los campos en el objeto visual, y un autor de informes puede agregar más. En la siguiente imagen, el gráfico de burbujas tiene seis filtros.
 
-![Filtro de nivel de objeto Visual](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
+![Filtro de nivel de objeto visual](media/power-bi-reports-filters-and-highlighting/power-bi-filter-visual-level.png)
 
 En la vista de lectura puede modificar los filtros existentes para explorar los datos. Los cambios que realice se guardan con el informe, aunque se abra en una aplicación móvil. Vea cómo se hace con [un paseo por el panel Filtros del informe](consumer/end-user-report-filter.md).
 
 Cuando se cierra el informe, se guardan los filtros. Para deshacer el filtrado y volver a los valores predeterminados de filtrado, segmentación, obtención de detalles y ordenación establecidos por el autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
 
-![Restablecer en el icono predeterminado](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
+![Icono Restablecer valores predeterminados](media/power-bi-reports-filters-and-highlighting/power-bi-reset-to-default.png)
 
 ### <a name="filters-in-editing-view"></a>Filtros en la vista de edición
 Si dispone de permisos de propietario sobre un informe y lo abre en la vista de edición, verá que **Filtros** solo es uno de los varios paneles de edición disponibles.
 
-![Panel de filtros en la vista de edición](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
+![Panel Filtros en la vista de edición](media/power-bi-reports-filters-and-highlighting/power-bi-add-filter-editing-view.png)
 
 Como en el caso de la vista de lectura, esta página del informe tiene seis filtros de nivel de página y un filtro de nivel de informe. Al seleccionar el gráfico se burbujas, veremos que tiene seis filtros de nivel de objeto visual aplicados.
 
 Se puede hacer más con los filtros y el resaltado en la vista de edición. Principalmente, se pueden agregar nuevos filtros. Obtenga información sobre cómo [agregar un filtro a un informe](power-bi-report-add-filter.md) y mucho más.
 
-## <a name="ad-hoc-highlighting"></a>Resaltado de ad hoc
-Seleccione una etiqueta de eje o de valor en un objeto visual para resaltar los demás objetos visuales en la página. Para quitar el resaltado, seleccione el valor nuevo o seleccione cualquier espacio vacío del mismo objeto Visual. Resaltado es un divertido para explorar rápidamente los impactos de datos. Para profundizar en el funcionamiento de este tipo de resaltado cruzado, vea [Interacciones de objetos visuales](service-reports-visual-interactions.md).
+## <a name="ad-hoc-highlighting"></a>Resaltado ad hoc
+Seleccione un valor o una etiqueta de eje en un objeto visual para resaltar los otros objetos visuales de la página. Para quitar el resaltado, vuelva a seleccionar el valor, o bien seleccione cualquier espacio vacío en el mismo objeto visual. El resaltado es una forma muy interesante de explorar rápidamente el impacto sobre los datos. Para profundizar en el funcionamiento de este tipo de resaltado cruzado, vea [Interacciones de objetos visuales](service-reports-visual-interactions.md).
 
 ![Resaltado cruzado](media/power-bi-reports-filters-and-highlighting/power-bi-adhoc-filter.gif)
 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[La nueva experiencia de filtro en los informes de Power BI](power-bi-report-filter-preview.md)
+[La nueva experiencia de filtro en los informes de Power BI](power-bi-report-filter.md)
 
 [Incorporación de un filtro a un informe (en la vista de edición)](power-bi-report-add-filter.md)
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/21/2019
 ms.author: mshenhav
-ms.openlocfilehash: bee60dd6f3254b049f2445e6e985c625933caf5b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 49ee06d544e409cadc6728d286cb841f5f4adec4
+ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565583"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68230263"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -32,78 +32,85 @@ Un informe de Power BI es una vista interactiva de los datos, con objetos visual
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Apertura de un informe de Power BI en la aplicación móvil
 Los informes de Power BI se almacenan en distintos lugares de la aplicación móvil, en función de su procedencia. Pueden estar en Aplicaciones, Compartido conmigo, Áreas de trabajo (incluidos Mi área de trabajo) o en un servidor de informes. A veces se desplaza por un panel relacionado para llegar a un informe y a veces aparecen en una lista.
 
-En las listas y menús, encontrará un icono junto al nombre de informe, le ayuda a comprender que este elemento es un informe. 
+En listas y menús, encontrará un icono junto al nombre de un informe, lo que le ayudará a entender que este elemento es un informe. 
 
-![informes en Mi área de trabajo](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
+![Informes en Mi área de trabajo](./media/mobile-reports-in-the-mobile-apps/reports-my-workspace.png) 
 
-Hay dos iconos de informes en aplicaciones móviles de Power BI:
+En las aplicaciones móviles de Power BI Mobile hay dos iconos para los informes:
 
-* ![Icono de informe](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un informe que se presentará en orientación horizontal en la aplicación y será el mismo aspecto en el explorador.
+* ![Icono de informe](./media/mobile-reports-in-the-mobile-apps/report-default-icon.png) indica un informe que se presentará en orientación horizontal en la aplicación y tendrá el mismo aspecto que en el explorador.
 
-* ![Icono de informe de teléfono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un informe que tenga al menos una página de informe optimizado de teléfono que se presentan en vertical. 
+* ![Icono de informe de teléfono](./media/mobile-reports-in-the-mobile-apps/report-phone-icon.png) indica un informe que tiene al menos una página de informe optimizada para teléfono, que se presentará en orientación vertical. 
 
-Nota: Mantiene el teléfono en horizontal, siempre obtendrá el diseño horizontal, incluso si la página del informe tiene el diseño de teléfono. 
+Nota: Si mantiene el teléfono en horizontal, siempre obtendrá el diseño horizontal, incluso si la página del informe tiene diseño de teléfono. 
 
-Para llegar a un informe desde un panel, pulse el botón de puntos suspensivos (...) en la esquina superior derecha de un icono > **abrir informe**.
+Para obtener un informe desde un panel, pulse el botón de puntos suspensivos (...) en la esquina superior derecha de un icono > **Abrir informe**.
   
   ![Abrir informe](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
   No todos los iconos tienen la opción de abrirse en un informe. Por ejemplo, los iconos que ha creado cuando hace una pregunta en el cuadro de preguntas y respuestas no abren informes al pulsar en ellos. 
   
-## <a name="interacting-with-reports"></a>Interactuar con los informes
-Una vez que un informe abierto en la aplicación, puede empezar a trabajar con él. Hay muchas cosas que puede hacer con el informe y sus datos. En el pie de página encontrará acciones que puede realizar en el informe y pulsar y pulsar long en los datos mostrados en el informe también puede segmentar y desglosar los datos.
+## <a name="interacting-with-reports"></a>Interacción con los informes
+Una vez que haya abierto un informe en la aplicación, puede empezar a trabajar con él. Hay muchas cosas que puede hacer con el informe y sus datos. En el pie de página del informe encontrará acciones que puede realizar en el informe, y al realizar una pulsación y una pulsación larga en los datos mostrados en el informe también puede segmentarlos.
 
-### <a name="using-tap-and-long-tap"></a>Uso de pulse y cuánto tiempo
-Haga clic en TAP igual a un mouse. Por lo que si desea cross, resalte el informe basado en un punto de datos, pulse en ese punto de datos.
-Pulsar en un valor de la segmentación de datos, hace que ese valor seleccionado y el resto del informe de la segmentación por ese valor. Pulsar en un vínculo, botón o un marcador se activará según la acción definida por el autor.
+### <a name="using-tap-and-long-tap"></a>Uso de pulsaciones y pulsaciones largas
+La pulsación equivale a un clic del mouse. Por tanto, si quiere resaltar el informe en función de un punto de datos, pulse en ese punto de datos.
+Al pulsar en un valor de segmentación, se selecciona ese valor y el resto del informe se segmenta por ese valor. Al pulsar en un vínculo, botón o marcador se activará en función de la acción definida por el autor.
 
-Probablemente ha observado que, al pulsar en un objeto visual, aparece un borde. En la esquina superior derecha del borde, no hay puntos suspensivos (...). Puntear en ella, aparecerá un menú con las acciones que puede hacer en ese objeto visual.
+Probablemente haya observado que al pulsar en un objeto visual aparece un borde. En la esquina superior derecha del borde hay un botón de puntos suspensivos (...). Al pulsarlo se abrirá un menú con las acciones que puede realizar en ese objeto visual.
 
-![objeto visual de informe y el menú](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
+![Objeto visual y menú del informe](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
-### <a name="tooltip-and-drill-actions"></a>Acciones de obtención de detalles e información sobre herramientas
+### <a name="tooltip-and-drill-actions"></a>Acciones Información sobre herramientas y Obtener detalles
 
-Al tiempo tocar (tap y hold) un punto de datos, una información sobre herramientas aparecerá presentar los valores que representa este punto de datos. 
+Al realizar una pulsación larga (pulsar y mantener presionado) en un punto de datos, se mostrará una información sobre herramientas con los valores que representa este punto de datos. 
 
-![información sobre herramientas de informe](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
+![Información sobre herramientas del informe](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
 
-Los autores de informes pueden definir las jerarquías en los datos y las relaciones entre las páginas del informe. Permite explorar en profundidad; exploración de jerarquía y obtención de detalles de otra página del informe desde un objeto visual y un valor. Por lo tanto, cuando pulse larga en un valor, además de la información sobre herramientas, las opciones de obtención de detalles pertinentes se mostrarán en el pie de página. 
+Si el autor del informe ha configurado la información sobre herramientas de la página del informe, la información sobre herramientas predeterminada se reemplazará por la de la página del informe.
 
-![acciones de obtención de detalles del informe](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
+![Información sobre herramientas de la página del informe](./media/mobile-reports-in-the-mobile-apps/report-page-tooltip.png)
 
-Con la *obtención de detalles*, al pulsar una parte específica de un objeto visual, Power BI le mostrará otra página del informe y la filtrará según el valor que haya pulsado.  El autor de un informe puede definir una o más opciones de exploración de varias páginas, de modo que cada opción dirija a una página diferente. En ese caso, podrá elegir en qué página quiere obtener detalles. El botón Atrás le lleva a la página anterior del informe.
+> [!NOTE]
+> La información sobre herramientas de informes se admite para dispositivos con un tamaño superior a 640 píxeles y 320 de ventanilla. Si el dispositivo es más pequeño, la aplicación usa la información sobre herramientas predeterminada.
+
+Los autores de informes pueden definir jerarquías en los datos y las relaciones entre las páginas del informe. La jerarquía permite explorar en profundidad, rastrear agrupando datos y obtener detalles de otra página de informe desde un objeto visual y un valor. Por tanto, al realizar una pulsación larga en un valor, además de la información sobre herramientas, en el pie de página aparecen las opciones de exploración pertinentes. 
+
+![Acciones de obtención de detalles del informe](./media/mobile-reports-in-the-mobile-apps/report-drill-actions.png)
+
+Con la *obtención de detalles*, al pulsar una parte específica de un objeto visual, Power BI le mostrará otra página del informe y la filtrará según el valor que haya pulsado.  El autor de un informe puede definir una o más opciones de exploración de varias páginas, de modo que cada opción dirija a una página diferente. En ese caso, podrá elegir en qué página quiere obtener detalles. El botón Atrás lo dirigirá de vuelta a la página de informe anterior.
 
 Obtenga información sobre cómo [agregar la obtención de detalles a Power BI Desktop](../../desktop-drillthrough.md).
    
    > [!IMPORTANT]
-   > En la aplicación móvil de Power BI, exploración en profundidad en los objetos visuales matriz y tabla está habilitada a través solo un valor de celda y no por los encabezados de fila y columna.
+   > En la aplicación Power BI Mobile, la obtención de detalles en objetos visuales de matriz y tabla solo se habilita a través de un valor de celda, no por los encabezados de columna y de fila.
    
    
    
-### <a name="using-the-actions-in-the-report-footer"></a>Uso de las acciones en el pie del informe
-El pie del informe tiene acciones que puede realizar en la página del informe actual o en todo el informe. El pie de página tiene un acceso rápido a las acciones más útiles y todas las acciones que pueden ser el acceso desde los puntos suspensivos (...).
+### <a name="using-the-actions-in-the-report-footer"></a>Uso de las acciones en el pie de página del informe
+El pie de página del informe tiene acciones que puede realizar en la página del informe actual o en todo el informe. El pie de página tiene acceso rápido a las acciones más útiles y se puede acceder a todas las acciones desde los puntos suspensivos (...).
 
-![pie de informe](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
+![Pie de página del informe](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
-Las acciones que puede realizar en el pie de página son:
-1) Restablecer el filtro de informe y entre las selecciones resaltado a su estado original.
-2) Abra el panel de conversación para ver o agregar comentarios en este informe.
-3) Abra el panel de filtro para ver y modificar el filtro aplicado actualmente en el informe.
-4) Enumera todas las páginas de este informe. Pulsar en el nombre de la página cargará y presentar esa página.
-Moverse entre las páginas de informe puede hacerse pasar el dedo desde el borde de la pantalla hasta el centro.
-5) Ver todas las acciones de informe.
+Las acciones que puede realizar desde el pie de página son las siguientes:
+1) Restablecer el filtro de informe y las selecciones de resaltado cruzado a su estado original.
+2) Abrir el panel de conversación para ver o agregar comentarios en este informe.
+3) Abrir el panel de filtro para ver y modificar el filtro aplicado actualmente en el informe.
+4) Enumerar todas las páginas de este informe. Al pulsar en el nombre de la página se cargará y presentará esa página.
+Para desplazarse entre las páginas del informe, puede deslizar el dedo desde el borde de la pantalla hasta el centro.
+5) Ver todas las acciones del informe.
 
-#### <a name="all-report-actions"></a>Todas las acciones de informe
-Pulsar en el... opción en el pie del informe, mostrará todas las acciones que puede realizar en un informe. 
+#### <a name="all-report-actions"></a>Todas las acciones del informe
+Al pulsar en la opción ... del pie de página del informe se muestran todas las acciones que se pueden realizar en un informe. 
 
-![todas las acciones de informe](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Todas las acciones del informe](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
 
-Algunas de las acciones podrían estar deshabilitada, ya que son dependientes de las capacidades de informe específico.
+Es posible que algunas de las acciones estén deshabilitadas, ya que dependen de las funciones específicas del informe.
 Por ejemplo:
-1) **Filtrar por ubicación actual** está habilitada si los datos en el informe se ha clasificado por el autor con datos geográficos. [Aprenda a identificar datos geográficos en el informe](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
-2) **Detección para filtrar el informe por código de barras** está habilitada sólo si el conjunto de datos en el informe se ha etiquetado como código de barras. [Cómo etiquetar códigos de barras en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
-3) **Invitar a** está habilitada sólo si tiene permiso para compartir este informe con otros usuarios. Tendrá permiso solo si es el propietario del informe o si se le asignó el permiso de volver a compartir el propietario.
-4) **Anotar y compartir** puede deshabilitar si hay un [directiva de protección Intune](https://docs.microsoft.com/intune/app-protection-policies) en su organización, que prohíbe el uso compartido de aplicación móvil de Power BI. 
+1) **Filtrar por la ubicación actual** está habilitado si el autor ha clasificado los datos del informe con datos geográficos. [Obtenga información sobre cómo identificar datos geográficos en el informe](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
+2) **Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como código de barras. [Etiquetado de códigos de barras en Power BI Desktop para las aplicaciones móviles](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes). 
+3) **Invitar** solo está habilitado si tiene permiso para compartir este informe con otros usuarios. Solo tendrá permiso si es el propietario del informe o si el propietario le ha proporcionado permiso para volver a compartirlo.
+4) Es posible que **Anotar y compartir** esté deshabilitado si hay una [directiva de protección de Intune](https://docs.microsoft.com/intune/app-protection-policies) en la organización que prohíbe el uso compartido desde la aplicación Power BI Mobile. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)

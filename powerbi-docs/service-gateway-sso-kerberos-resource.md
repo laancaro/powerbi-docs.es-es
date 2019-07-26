@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 01/08/2018
+ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6da5d89ae1ad3b98a879e4d99a10aa69224e1c46
-ms.sourcegitcommit: 20ae9e9ffab6328f575833be691073de2061a64d
+ms.openlocfilehash: 6dc530305634b44415ddccb9c42952c0bfbe2e5f
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "58383369"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271922"
 ---
 # <a name="use-resource-based-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos basado en recursos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -23,7 +23,7 @@ Use la [delegación restringida de Kerberos basada en recursos](/windows-server/
 
 ## <a name="preparing-for-resource-based-kerberos-constrained-delegation"></a>Preparación de la delegación restringida de Kerberos basada en recursos
 
-Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los _nombres principales de servicio_ (SPN) y la configuración de delegación de cuentas de servicio. 
+Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los _nombres principales de servicio_ (SPN) y la configuración de delegación de cuentas de servicio.
 
 ### <a name="prerequisite-1-operating-system-requirements"></a>Requisito previo 1: requisitos del sistema operativo
 
@@ -31,7 +31,7 @@ La delegación restringida basada en recursos solo puede configurarse en un cont
 
 ### <a name="prerequisite-2-install-and-configure-the-on-premises-data-gateway"></a>Requisito previo 2: instalación y configuración de la puerta de enlace de datos local
 
-Esta versión de la puerta de enlace de datos local admite la actualización in situ, así como la _adquisición de la configuración_ de las puertas de enlace existentes.
+La puerta de enlace de datos local admite la actualización local, así como la _adquisición de la configuración_ de las puertas de enlace existentes.
 
 ### <a name="prerequisite-3-run-the-gateway-windows-service-as-a-domain-account"></a>Requisito previo 3: ejecución del servicio de Windows de puerta de enlace como cuenta de dominio
 
@@ -39,7 +39,7 @@ En una instalación estándar, la puerta de enlace se ejecuta como una cuenta de
 
 ![Cuenta de dominio](media/service-gateway-sso-kerberos-resource/domain-account.png)
 
-Para habilitar la **delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que Azure AD ya esté sincronizado con su Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Si necesita cambiar la cuenta a una cuenta de dominio, consulte [Cambio de la puerta de enlace a una cuenta de dominio](service-gateway-sso-kerberos.md).
+Para habilitar la **delegación restringida de Kerberos, debe ejecutar la puerta de enlace como una cuenta de dominio, a menos que Azure AD ya esté sincronizado con su Active Directory local (mediante Azure AD DirSync o Azure AD Connect). Si necesita cambiar la cuenta a una cuenta de dominio, vea [Cambio de la cuenta de servicio de puerta de enlace](/data-integration/gateway/service-gateway-service-account).
 
 Si Azure AD DirSync / Connect está configurado y las cuentas de usuario están sincronizadas, el servicio de puerta de enlace no necesita realizar búsquedas de AD locales en tiempo de ejecución. Puede usar al SID de servicio local (en lugar de requerir una cuenta de dominio) para el servicio de puerta de enlace. Los pasos de configuración de la delegación restringida de Kerberos que se describen en este artículo son los mismos que esa configuración (simplemente se aplican al objeto informático de la puerta de enlace de Active Directory, en lugar de la cuenta de dominio).
 
@@ -51,9 +51,9 @@ Aunque es técnicamente posible para un administrador de dominio otorgar derecho
 
 Para configurar correctamente el sistema, es necesario configurar o validar los dos elementos siguientes:
 
-1. Si es necesario, configure un SPN para la cuenta de dominio del servicio de puerta de enlace.
+* Si es necesario, configure un SPN para la cuenta de dominio del servicio de puerta de enlace.
 
-1. Configure las opciones de delegación en la cuenta de dominio del servicio de puerta de enlace.
+* Configure las opciones de delegación en la cuenta de dominio del servicio de puerta de enlace.
 
 Tenga en cuenta que debe ser un administrador de dominio para realizar esos dos pasos de configuración.
 
@@ -61,15 +61,15 @@ En las siguientes secciones se describen estos pasos.
 
 ### <a name="configure-an-spn-for-the-gateway-service-account"></a>Configuración de un SPN para la cuenta de servicio de la puerta de enlace
 
-En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad de servicio para la cuenta de dominio que se usa como la cuenta de servicio de la puerta de enlace, pero siguiendo estos pasos:
+En primer lugar, determine si ya se ha creado un SPN para la cuenta de dominio que se usa como cuenta de servicio de la puerta de enlace, pero siguiendo estos pasos:
 
 1. Como administrador de dominio, inicie **Usuarios y equipos de Active Directory**.
 
-1. Haga clic con el botón derecho en el dominio, seleccione **Buscar** y escriba el nombre de la cuenta de servicio de la puerta de enlace
+1. Haga clic con el botón derecho en el dominio, seleccione **Buscar** y escriba el nombre de la cuenta de servicio de la puerta de enlace.
 
 1. En el resultado de la búsqueda, haga clic con el botón derecho en la cuenta de servicio de la puerta de enlace y seleccione **Propiedades**.
 
-1. Si la pestaña **Delegación** está visible en el cuadro de diálogo **Propiedades**, ya se ha creado un SPN y puede pasar a la siguiente subsección sobre cómo configurar la delegación.
+1. Si la pestaña **Delegación** es visible en el cuadro de diálogo **Propiedades**, ya se ha creado un SPN y puede pasar a la subsección siguiente sobre cómo [configurar la delegación](#configure-delegation-settings).
 
     Si no hay pestaña **Delegación** en el cuadro de diálogo **Propiedades**, puede crear manualmente un SPN en dicha cuenta, lo cual agrega la pestaña **Delegación** (esa es la manera más fácil de configurar la delegación). Puede crear un SPN utilizando la [herramienta setspn](https://technet.microsoft.com/library/cc731241.aspx) que viene con Windows (necesita derechos de administrador de dominio para crear el SPN).
 
@@ -83,10 +83,10 @@ En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad 
 
 En los pasos siguientes, se asume que disponemos de un entorno local con dos equipos en dominios diferentes: un equipo de puerta de enlace y un servidor de bases de datos que ejecuta SQL Server. Para este ejemplo, supongamos también la configuración y los nombres siguientes:
 
-- Nombre de la máquina de la puerta de enlace: **PBIEgwTestGW**
-- Cuenta de servicio de puerta de enlace: **PBIEgwTestFrontEnd\GatewaySvc** (nombre para mostrar de la cuenta: Gateway Connector)
-- Nombre de la máquina del origen de datos de SQL Server: **PBIEgwTestSQL**
-- Cuenta de servicio del origen de datos de SQL Server: **PBIEgwTestBackEnd\SQLService**
+* Nombre de la máquina de la puerta de enlace: **PBIEgwTestGW**
+* Cuenta de servicio de puerta de enlace: **PBIEgwTestFrontEnd\GatewaySvc** (nombre para mostrar de la cuenta: Gateway Connector)
+* Nombre de la máquina del origen de datos de SQL Server: **PBIEgwTestSQL**
+* Cuenta de servicio del origen de datos de SQL Server: **PBIEgwTestBackEnd\SQLService**
 
 Con esos nombres y configuración de ejemplo, use estos los pasos de configuración:
 
@@ -102,7 +102,7 @@ Con esos nombres y configuración de ejemplo, use estos los pasos de configuraci
 
     ![Propiedades del grupo](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-1. Abra el símbolo del sistema y ejecute los siguientes comandos en el controlador de dominio para el dominio **PBIEgwTestBack final** para actualizar el atributo msDS-AllowedToActOnBehalfOfOtherIdentity de la cuenta de servicio de back-end:
+1. Abra un símbolo del sistema y ejecute los comandos siguientes en el controlador de dominio para el dominio **PBIEgwTestBack final** para actualizar el atributo msDS-AllowedToActOnBehalfOfOtherIdentity de la cuenta de servicio de back-end:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
@@ -125,7 +125,7 @@ Por último, en la máquina que ejecuta el servicio de puerta de enlace (**PBIEg
 
 1. Haga clic con el botón derecho y abra las **Propiedades** de **Suplantar a un cliente tras la autenticación** y compruebe la lista de cuentas. Debe incluir la cuenta de servicio de la puerta de enlace (**PBIEgwTestFront-end**  **\GatewaySvc**).
 
-1. En la lista de directivas en **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)**. Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
+1. En la lista de directivas en **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)** . Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
 
 1. Reinicie el proceso del servicio de la **puerta de enlace de datos local**.
 
@@ -139,10 +139,10 @@ Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerbe
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para más información sobre la **Puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
+Para más información acerca de la **puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
 
-- [On-premises Data Gateway (Puerta de enlace de datos local)](service-gateway-onprem.md)
-- [DirectQuery en Power BI](desktop-directquery-about.md)
-- [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)
-- [DirectQuery y SAP BW](desktop-directquery-sap-bw.md)
-- [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)
+* [¿Qué es una puerta de enlace de datos local?](/data-integration/gateway/service-gateway-onprem.md)
+* [DirectQuery en Power BI](desktop-directquery-about.md)
+* [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)
+* [DirectQuery y SAP BW](desktop-directquery-sap-bw.md)
+* [DirectQuery y SAP HANA](desktop-directquery-sap-hana.md)

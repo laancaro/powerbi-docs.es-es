@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 1e5f4a4fda8c6d11ead487ce2891e5c085463b75
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 81e079be6c8bec27c006c68eccb3ea1091b813df
+ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839600"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "68271214"
 ---
 # <a name="publish-a-paginated-report-to-the-power-bi-service"></a>Publicación de un informe paginado en el servicio Power BI
 
@@ -79,7 +79,7 @@ Al igual que cualquier otro informe de Power BI, si el origen de datos del infor
 
    ![Administración del informe paginado](media/paginated-reports-save-to-power-bi-service/power-bi-paginated-manage.png)
 
-1. Consulte el artículo del servicio Power BI [Instalación de una puerta de enlace](service-gateway-install.md) para obtener detalles y conocer los pasos siguientes.
+1. Vea el artículo del servicio Power BI [Qué es una puerta de enlace de datos local](service-gateway-onprem.md) para obtener detalles y conocer los pasos siguientes.
 
 ### <a name="gateway-limitations"></a>Limitaciones de la puerta de enlace
 

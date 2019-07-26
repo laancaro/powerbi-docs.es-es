@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 0013080f3640c4c4d3d717104dcc069ccce3923a
-ms.sourcegitcommit: 952afd75fe8ddcf9350bd9aae88e1a4c438d0f3e
+ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67561828"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68325030"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -55,7 +55,7 @@ Como Power BI almacena en caché los datos, el tamaño de los conjuntos de dato
 | --- | --- |
 | Compartido, A1, A2 o A3 | 1 GB |
 | A4 o P1 | 3 GB |
-| A4 o P2 | 6 GB |
+| A5 o P2 | 6 GB |
 | A6 o P3 | 10 GB |
 | | |
 
@@ -160,7 +160,7 @@ Independientemente de los modos de almacenamiento, ninguna actualización de dat
 
 ### <a name="connecting-to-on-premises-data-sources"></a>Conexión a orígenes de datos locales
 
-Si su conjunto de datos usa un origen de datos al que Power BI no puede acceder mediante una conexión de red directa, debe configurar una conexión de puerta de enlace para este conjunto de datos antes de habilitar una programación de actualizaciones o de realizar una actualización de datos a petición. Para más información acerca de las puertas de enlace de datos y cómo funcionan, consulte [¿Qué son las puertas de enlace de datos locales?](service-gateway-getting-started.md)
+Si su conjunto de datos usa un origen de datos al que Power BI no puede acceder mediante una conexión de red directa, debe configurar una conexión de puerta de enlace para este conjunto de datos antes de habilitar una programación de actualizaciones o de realizar una actualización de datos a petición. Para más información acerca de las puertas de enlace de datos y cómo funcionan, consulte [¿Qué son las puertas de enlace de datos locales?](service-gateway-onprem.md)
 
 Tiene las siguientes opciones:
 
@@ -174,7 +174,10 @@ Tiene las siguientes opciones:
 
 Microsoft recomienda usar una puerta de enlace de datos de empresa en lugar de una puerta de enlace personal para conectar un conjunto de datos a un origen de datos local. Asegúrese de que la puerta de enlace esté configurada correctamente, lo que significa que debe tener las últimas actualizaciones y todas las definiciones de origen de datos necesarias. Una definición de origen de datos proporciona a Power BI la información de conexión de un origen determinado, incluidos los puntos de conexión, el modo de autenticación y las credenciales. Para más información acerca de cómo administrar los orígenes de datos en una puerta de enlace, consulte [Administrar el origen de datos: importación o actualización programadas](service-gateway-enterprise-manage-scheduled-refresh.md).
 
-Conectar un conjunto de datos a una puerta de enlace de empresa es relativamente sencillo si es un administrador de puertas de enlace. Con permisos de administrador, puede actualizar rápidamente la puerta de enlace y agregar los orígenes de datos que falten. De hecho, puede agregar un origen de datos que falte a la puerta de enlace directamente desde la página de configuración del conjunto de datos. Expanda el botón de alternancia para ver los orígenes de datos y seleccione el vínculo **Agregar a la puerta de enlace**, tal y como se muestra en la captura de pantalla siguiente. Si no es un administrador de puertas de enlace, use la información de contacto que se muestra para enviar una solicitud a un administrador de puertas de enlace para agregar la definición de origen de datos necesaria.
+Conectar un conjunto de datos a una puerta de enlace de empresa es relativamente sencillo si es un administrador de puertas de enlace. Con permisos de administrador, puede actualizar rápidamente la puerta de enlace y agregar los orígenes de datos que falten. De hecho, puede agregar un origen de datos que falte a la puerta de enlace directamente desde la página de configuración del conjunto de datos. Expanda el botón de alternancia para ver los orígenes de datos y seleccione el vínculo **Agregar a la puerta de enlace**, tal y como se muestra en la captura de pantalla siguiente. Por otro lado, si no es un administrador de puerta de enlace, debe ponerse en contacto con el administrador de la puerta de enlace para agregar la definición del origen de datos necesario.
+
+> [!NOTE]
+> Solo los administradores de puerta de enlace pueden agregar orígenes de datos a una puerta de enlace. Además, asegúrese de que el administrador de la puerta de enlace agrega su cuenta de usuario a la lista de usuarios con permisos para usar el origen de datos. La página de configuración del conjunto de datos solo permite seleccionar una puerta de enlace empresarial con un origen de datos coincidente para el que tenga permiso de uso.
 
 ![Agregar a la puerta de enlace](media/refresh-data/add-to-gateway.png)
 
@@ -284,6 +287,8 @@ Tenga en cuenta también que la hora de actualización configurada puede no ser 
 ### <a name="getting-refresh-failure-notifications"></a>Obtención de notificaciones de error de actualización
 
 De forma predeterminada, Power BI envía notificaciones de error de actualización a través de correo electrónico al propietario del conjunto de datos para que el propietario puede actuar de manera oportuna en caso de que se produzcan errores de actualización. Power BI también envía una notificación cuando el servicio deshabilita la programación debido a errores consecutivos. Microsoft recomienda que deje activada la casilla **Enviar un correo con los errores de actualización**.
+
+También es buena idea especificar destinatarios adicionales mediante el cuadro de texto **Enviar un correo a estos usuarios en caso de error de la actualización**. Además del propietario del conjunto de datos, los destinatarios especificados reciben notificaciones de error de actualización. Puede ser un compañero que se encargue de los conjuntos de datos mientras está de vacaciones. También podría ser el alias de correo electrónico del equipo de soporte técnico que se ocupa de los problemas de actualización del departamento o la organización. El envío de notificaciones de error de actualización a otros usuarios además del propietario del conjunto de datos es útil para garantizar que los problemas se detectan y se abordan a tiempo.
 
 Tenga en cuenta que Power BI no solo envía notificaciones de errores de actualización, sino también cuando el servicio detiene una actualización programada debido a su inactividad. Power BI considera que un conjunto de datos está inactivo cuando ningún usuario ha visitado un panel o informe generado para el conjunto de datos en un plazo de dos meses. En este caso, Power BI envía un mensaje de correo electrónico al propietario del conjunto de datos en el que se indica que el servicio ha pausado la programación de actualización del conjunto de datos. Consulte la siguiente captura de pantalla para ver un ejemplo de dicha notificación.
 

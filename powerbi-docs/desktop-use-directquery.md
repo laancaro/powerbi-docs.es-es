@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 07/18/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: bf41700b367b7c3c2302eeec9c03b93fa294ed3f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 775abf014f571b508832c5cb9a52a62aad455a7b
+ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61348880"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "68324790"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con **Power BI Desktop**, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en **Power BI Desktop**. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante **DirectQuery**.
@@ -50,12 +50,10 @@ Actualmente, existen algunas limitaciones en el uso de **DirectQuery**:
 
 * Todas las tablas deben proceder de una única base de datos, a menos que use [modelos compuestos](desktop-composite-models.md).
 * Si la consulta del **Editor de consultas** es demasiado compleja, se producirá un error. Para corregir el error debe eliminar el paso problemático en el **Editor de consultas** o *importar* los datos, en lugar de usar **DirectQuery**. En el caso de los orígenes multidimensionales, como SAP Business Warehouse, no hay **Editor de consultas**
-* El filtrado de relaciones se limita a una dirección única, en lugar de ambas direcciones (aunque se puede habilitar el filtrado cruzado en ambas direcciones para **DirectQuery** como una característica de Versión preliminar). En el caso de los orígenes multidimensionales como SAP Business Warehouse, no hay relaciones definidas en el modelo
+* El filtrado de relaciones se limita a una dirección única, en lugar de ambas direcciones (aunque se puede habilitar el filtrado cruzado en ambas direcciones para **DirectQuery**). En el caso de los orígenes multidimensionales como SAP Business Warehouse, no hay relaciones definidas en el modelo
 * Las funcionalidades de inteligencia de tiempo no están disponibles en **DirectQuery**. Por ejemplo, un tratamiento especial de columnas de fecha (año, trimestre, mes, día, etc.) no se admite en el modo **DirectQuery**.
-* De forma predeterminada, las limitaciones se aplican a las expresiones DAX permitidas en las medidas. Consulte el párrafo siguiente (después de esta lista con viñetas) para más información.
+* Para asegurarse de que las consultas enviadas al origen de datos subyacente tienen un rendimiento aceptable, se aplican limitaciones a las expresiones DAX que se permiten en las medidas.
 * Hay un límite de fila de un millón para la devolución de datos cuando se usa **DirectQuery**. Esto no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante **DirectQuery**, solo las filas devueltas. Por ejemplo, puede agregar 10 millones de filas con la consulta que se ejecuta en el origen de datos, y devolver con exactitud los resultados de esa agregación a Power BI con **DirectQuery** siempre que la cantidad de datos devuelta a Power BI sea inferior a 1 millón de filas. Si **DirectQuery** devuelve más de 1 millón de filas, Power BI devuelve un error.
-
-Para asegurarse de que las consultas enviadas al origen de datos subyacente tengan un rendimiento aceptable, se aplican limitaciones a las medidas de forma predeterminada. Los usuarios avanzados pueden optar por omitir esta limitación. Para ello, deben seleccionar **Archivo > Opciones y configuración >Opciones** y, luego, **DirectQuery**. Después deberán seleccionar la opción *Permitir medidas sin restricciones en el modo DirectQuery*. Si se selecciona esta opción, se puede usar cualquier expresión DAX que sea válida para una medida. Los usuarios deben tener en cuenta, sin embargo, que algunas expresiones que funcionan muy bien al importar datos pueden derivar en consultas muy lentas para el origen de back-end en el modo DirectQuery.
 
 ## <a name="important-considerations-when-using-directquery"></a>Consideraciones importantes al utilizar DirectQuery
 Deben tenerse en cuenta los tres puntos siguientes al usar **DirectQuery**:
