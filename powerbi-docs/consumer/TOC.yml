@@ -8,6 +8,8 @@
           href: end-user-consumer.md
         - name: Conceptos básicos y terminología para los consumidores de Power BI
           href: end-user-basic-concepts.md
+        - name: Navegar por la "nueva apariencia"
+          href: ../service-new-look.md
     - name: Inicios rápidos
       items:
         - name: Obtener información básica sobre Power BI
