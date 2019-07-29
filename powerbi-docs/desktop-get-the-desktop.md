@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 5e5d143c21ad726e7cdb8a4bc99903238916bb64
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9fa79bc17e87863d094afbc479d664c8bbf9daaf
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454529"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590487"
 ---
 # <a name="get-power-bi-desktop"></a>Obtener Power BI Desktop
 **Power BI Desktop** le permite crear consultas, modelos e informes avanzados para visualizar datos. Con **Power BI Desktop**, puede crear modelos de datos, crear informes y compartir su trabajo mediante su publicación en el servicio Power BI.  La descarga de **Power BI Desktop** es gratuita.
@@ -93,7 +93,7 @@ En la siguiente lista, se describen los requisitos mínimos para ejecutar **Powe
 
 * Windows 7 y Windows Server 2008 R2 o posterior
 * .NET 4.5
-* Internet Explorer 9 o posterior
+* Internet Explorer 10 o posterior
 * **Memoria (RAM):** Al menos 1 GB disponible; se recomienda 1,5 GB o más.
 * **Pantalla:** Se recomienda al menos 1440 x 900 o 1600 x 900 (16:9). No se recomiendan las resoluciones inferiores a 1024 x 768 o 1280 x 800, ya que ciertos controles (por ejemplo, para cerrar la pantalla de inicio) solo se muestran en resoluciones superiores a esta.
 * **Configuración de la pantalla de Windows:** Si la configuración de pantalla está establecida para cambiar el tamaño del texto, las aplicaciones u otros elementos en más de 100 %, quizás no vea ciertos cuadros de diálogo que deben cerrarse o en los que debe actuar para continuar usando **Power BI Desktop**. Si se produce este problema, compruebe la **configuración de su pantalla** en **Configuración > Sistema > Pantalla** en Windows, y use el control deslizante para devolver la configuración de pantalla al 100 %.

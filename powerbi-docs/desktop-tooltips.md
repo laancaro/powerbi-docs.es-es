@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c074d6aa4fc7bdc530aa52f125f7f3d898b402c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f18ed2b0e370ad4617b7eccae4fbf043233fe4c0
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514521"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590522"
 ---
 # <a name="create-tooltips-based-on-report-pages-in-power-bi-desktop"></a>Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop
 Puede crear **información en pantalla para informes** enriquecida visualmente que aparezca cuando mantenga el puntero encima de objetos visuales, en función de las páginas de informe que cree en **Power BI Desktop**. Mediante la creación de una página de informe que sirva como información en pantalla, la información personalizada puede incluir objetos visuales, imágenes y cualquier otra colección de elementos que cree en la página del informe. 
@@ -113,7 +113,6 @@ Cuando un objeto visual tiene un resaltado cruzado en un informe, la informació
 Hay algunas limitaciones y consideraciones que debe tener en cuenta en relación con la **información sobre herramientas**.
 
 * A partir de la versión de diciembre de 2018 de **Power BI Desktop**, los objetos visuales de botón también admiten información sobre herramientas.
-* La información en pantalla para informes no se admite al visualizar informes en aplicaciones móviles. 
 * La información en pantalla para informes no se admite para los objetos visuales personalizados. 
 * Los clústeres no se admiten actualmente como campos que se puedan mostrar en la información en pantalla para informes. 
 * A la hora de elegir un campo que se mostrará en la información en pantalla para informes, al usar un campo en vez de una categoría, los objetos visuales que contengan ese campo solo mostrarán la información en pantalla especificada cuando el resumen coincida con el campo seleccionado. 

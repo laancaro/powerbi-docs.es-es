@@ -1,5 +1,5 @@
 ---
-title: Elementos visuales personalizados en Power BI
+title: Objetos visuales en Power BI
 description: Visualizaciones personalizadas en Power BI
 author: sranins
 ms.author: rasala
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 23436fb8e21e1be3a863986a773d7d969da65122
-ms.sourcegitcommit: 24781cdab5fbe43fc14248db636169cc54ef6721
+ms.openlocfilehash: 68048968bf6a3f85f2bc24e55fd1288073be1d56
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "66498036"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415408"
 ---
-# <a name="custom-visuals-in-power-bi"></a>Elementos visuales personalizados en Power BI
+# <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
 Al crear o editar un informe de Power BI, puede usar muchos tipos diferentes de objetos visuales. Los iconos para estos objetos visuales aparecen en el panel **Visualizaciones**. Al descargar [Power BI Desktop](https://powerbi.microsoft.com/desktop/) o abrir el [servicio Power BI](https://app.powerbi.com), estos objetos visuales están previamente empaquetados.
 

@@ -1,20 +1,20 @@
 ---
 title: Orígenes de datos admitidos para informes paginados de Power BI
 description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para los informes paginados en el servicio Power BI y cómo conectarse a orígenes de datos de Azure SQL Database.
-author: maggiesMSFT
-ms.author: maggies
+author: onegoodsausage
+ms.author: andremi
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: 91ddcfca56ac7c08736c35c7232df04082e4e921
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352985"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462330"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
