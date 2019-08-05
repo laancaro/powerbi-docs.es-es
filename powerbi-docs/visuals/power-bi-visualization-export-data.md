@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d001c75d006838f46ce40a8f81bad0a9a058b148
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299442"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523349"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 
@@ -150,9 +150,9 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 
 - Para exportar los datos de un objeto visual, debe tener [permiso de compilación para el conjunto de datos subyacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
 
--  El número máximo de filas que **Power BI Desktop** y el **servicio Power BI** pueden exportar a *.csv* es 30 000.
+-  El número máximo de filas que **Power BI Desktop** y el **servicio Power BI** pueden exportar desde un **informe de modo de importación** a un archivo *.csv* es 30 000.
 
-- El número máximo de filas que las aplicaciones pueden exportar a un archivo *.xlsx* es 150 000.
+- El número máximo de filas que las aplicaciones pueden exportar desde un **informe de modo de importación** a un archivo *.xlsx* es 150 000.
 
 - La exportación mediante *Datos subyacentes* no funcionará si:
 
@@ -166,7 +166,7 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 
 - La exportación utilizando *Datos subyacentes* no funcionará si habilita la opción *Mostrar elementos sin datos* para la visualización que Power BI está exportando.
 
-- Cuando use DirectQuery, la cantidad máxima de datos que Power BI puede exportar es de 16 MB. Un resultado no deseado puede ser que exporte menos que el número máximo de filas. Esto es probable si:
+- Cuando use DirectQuery, la cantidad máxima de datos que Power BI puede exportar es 16 MB de datos sin comprimir. Un resultado no deseado puede ser que exporte menos que el número máximo de filas. Esto es probable si:
 
     - Hay muchas columnas.
 

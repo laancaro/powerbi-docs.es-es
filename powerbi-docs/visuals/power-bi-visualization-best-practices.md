@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7d716c79146a0d53d261dba514aacb8787ca2fa3
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 53a8847f96d6aa3143e91cab07029a8e0f6afc85
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299733"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523742"
 ---
 # <a name="best-design-practices-for-reports-and-visuals"></a>Prácticas recomendadas de diseño para informes y elementos visuales
 
@@ -1007,7 +1007,7 @@ Para obtener más información sobre los gráficos de rectángulos:
 
 En general, los gráficos de líneas, columnas o barras serán adecuados para fines más generales. Se entiende que los gráficos de anillos o circulares resultan difíciles de interpretar correctamente. De hecho, a menudo pueden distorsionar los datos. Evítelos siempre que sea posible. Stephen Few describe de forma excelente la historia y los peligros en [Save the Pies for Dessert](https://www.perceptualedge.com/articles/08-21-07.pdf).
 
-Explica la única vez en que los gráficos circulares pueden ser útiles: al comparar las relaciones de una parte con un entero. Rara vez es mejor que un gráfico de barras apiladas 100 %.
+Stephen explica el único caso en el que los gráficos circulares pueden ser útiles: al comparar las relaciones de una parte con el todo. Rara vez es mejor que un gráfico de barras apiladas 100 %.
 
 Otro artículo interesante (con una animación) sobre los gráficos circulares se encuentra en el [sitio de Darkhorse Analytics](http://www.darkhorseanalytics.com/blog/salvaging-the-pie).
 

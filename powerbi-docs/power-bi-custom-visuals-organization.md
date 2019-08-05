@@ -1,6 +1,6 @@
 ---
-title: Objetos visuales personalizados de la organización en Power BI
-description: Uso, administración y creación de objetos visuales personalizados de organización en Power BI
+title: Objetos visuales de la organización en Power BI
+description: Uso, administración y creación de objetos visuales de la organización en Power BI
 author: sranins
 ms.author: rasala
 manager: kfile
@@ -10,14 +10,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 157b20107a5be106ac97e0cb927b1e496e1ba115
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 9775b7cd1eb936019051ae952bc270924061daaa
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421905"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415337"
 ---
-# <a name="organizational-custom-visuals-in-power-bi"></a>Objetos visuales personalizados de la organización en Power BI
+# <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
 Puede usar objetos visuales personalizados en Power BI para crear un único tipo de objeto visual adaptado a sus necesidades. Son los desarrolladores quienes crean estos objetos visuales personalizados cuando la gran cantidad de objeto visuales incluidos en Power BI no satisface del todo sus necesidades.
 

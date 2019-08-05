@@ -12,16 +12,16 @@ ms.topic: quickstart
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 86c8297c9a55f2b59e7c01390ff15bb3b2d4bf2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61049397"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523040"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
-Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo al **servicio Power BI**. Tal y como se ha mencionado anteriormente, puede que una persona de su equipo dedique todo su tiempo a **Power BI Desktop** para combinar datos y elaborar informes para otros usuarios, mientras que usted, por otro lado, se dedique plenamente a usar el servicio Power BI, para ver el contenido creado por otros usuarios e interactuar con él (experiencia de **consumo**). En este inicio rápido importaremos datos de ejemplo y los usaremos para obtener información básica sobre el servicio Power BI. 
+Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo al **servicio Power BI**. Tal y como se ha mencionado anteriormente, puede que una persona de su equipo dedique todo su tiempo en **Power BI Desktop** a reunir datos y elaborar informes para otros usuarios, mientras que usted, por otro lado, se dedique plenamente a usar el servicio Power BI, para ver el contenido creado por otros usuarios e interactuar con él (experiencia de **consumo**). En este inicio rápido importaremos datos de ejemplo y los usaremos para obtener información básica sobre el servicio Power BI. 
  
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -61,7 +61,7 @@ Si es un usuario nuevo, solo verá un área de trabajo, **Mi área de trabajo**.
 
 ![Breve vídeo de área de trabajo](./media/end-user-experience/nav.gif)
 
-Dentro de esas pestañas (también conocidas como *vistas de contenido*), verá información sobre el contenido, así como las acciones que puede realizar en relación con ese contenido.  Por ejemplo, en la pestaña Paneles puede, entre otras muchas cosas, abrir un panel, buscar y ordenar.
+Dentro de esas pestañas (también denominadas *vistas de contenido*), verá información sobre el contenido, así como las acciones que puede realizar en relación con ese contenido.  Por ejemplo, en la pestaña Paneles puede, entre otras muchas cosas, abrir un panel, buscar y ordenar.
 
 ![Pestaña Paneles](./media/end-user-experience/power-bi-dashboard-tab.png)
 

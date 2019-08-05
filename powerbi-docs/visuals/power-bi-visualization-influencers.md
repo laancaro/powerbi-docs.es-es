@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cf07318b5866d3f893d745fc8a8bba85cc9680d9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d41fc5991a95b51f71d0db522d4de84454de4ca2
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751256"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590597"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
 El objeto visual de influenciador clave le ayudará a reconocer los factores que controlan una métrica de su interés. Analiza los datos, clasifica los factores que son importantes y los muestra como influenciadores clave. Por ejemplo, suponga que desea averiguar qué influye en la rotación de los empleados, lo que también se conoce como abandono. La duración del contrato de empleo puede ser uno de los factores, mientras que otro puede ser la edad del empleado. 
@@ -132,8 +132,13 @@ La visualización muestra que cada vez que antigüedad sube 13,44 meses, la prob
  
 El gráfico de dispersión del panel derecho traza el porcentaje promedio de las calificaciones bajas para cada valor de antigüedad. Resalta la pendiente con una línea de tendencia.
 
-
 ![Gráfico de dispersión para Antigüedad](media/power-bi-visualization-influencers/power-bi-tenure.png)
+
+## <a name="binned-continuous-key-influencers"></a>Influenciadores clave continuos discretizados
+
+En algunos casos, es posible que vea que los factores continuos se han convertido automáticamente en factores categóricos. Esto se debe a que nos dimos cuenta de que la relación entre las variables no es lineal y, por tanto, no podemos describir la relación como simplemente ascendente o descendente, como hemos hecho en el ejemplo anterior.
+
+Hemos realizado pruebas de correlación para determinar hasta qué punto el influenciador es lineal con respecto al objetivo. Si el objetivo es continuo, se ejecuta la correlación de Pearson y, si es categórico, se ejecutan pruebas de correlación biserial puntual. Asimismo, si se detecta que la relación no es suficientemente lineal, realizamos una discretización supervisada y generamos un máximo de cinco intervalos. Para averiguar qué intervalos tienen más sentido, usamos un método de discretización supervisado, que examina la relación entre el factor explicativo y el objetivo que se analiza.
 
 ## <a name="interpret-measures-and-aggregates-as-key-influencers"></a>Interpretación de medidas o agregados como influenciadores clave 
  
@@ -209,15 +214,14 @@ Los segmentos principales para destinos numéricos muestran a grupos donde la ca
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas 
  
-**¿Cuáles son las limitaciones de la versión preliminar?** 
+**¿Cuáles son las limitaciones del objeto visual?** 
  
-El objeto visual de influenciador clave está actualmente en versión preliminar pública y tiene algunas limitaciones. Entre la funcionalidad que actualmente no está disponible se incluye lo siguiente: 
-- Análisis de las métricas que son agregados o medidas.
-- Consumo del objeto visual en Power BI Embedded.
-- Consumo del objeto visual en aplicaciones móviles de Power BI.
-- Compatibilidad con RLS.
-- Compatibilidad con consultas directas.
-- Compatibilidad con conexiones dinámicas.
+El objeto visual de los influenciadores clave tiene algunas limitaciones:
+
+- No se admite DirectQuery.
+- No se admite la conexión dinámica a Azure Analysis Services ni SQL Server Analysis Services.
+- No se admite la opción Publicar en la web.
+- Se requiere .NET Framework 4.6 o una versión posterior.
 
 ![Pregunta numérica](media/power-bi-visualization-influencers/power-bi-ki-numeric-question.png)
 
@@ -263,7 +267,7 @@ Este error aparece porque el dispositivo no está definido en el nivel de client
 - Puede cambiar el resumen de dispositivos para contar. Por ejemplo, use el recuento si el número de dispositivos puede afectar a la puntuación que da un cliente. 
 - Puede dinamizar la columna de dispositivo para ver si utilizar el servicio en un dispositivo específico influye en la calificación de un cliente.
  
-En este ejemplo se han dinamizado los datos para crear nuevas columnas para navegador, móvil y tableta. Ahora puede usar estos dispositivos específicos en **Explicar por**. Descubrimos que todos los dispositivos son influenciadores y que el navegador tiene el mayor impacto en la puntuación del cliente.
+En este ejemplo, los datos se han dinamizado para crear otras columnas para un explorador, dispositivos móviles y tabletas; asegúrese de eliminar y volver a crear las relaciones en la vista de modelado después de dinamizar los datos. Ahora puede usar estos dispositivos específicos en **Explicar por**. Descubrimos que todos los dispositivos son influenciadores y que el navegador tiene el mayor impacto en la puntuación del cliente.
 
 Más concretamente, los clientes que no usan el navegador para consumir el servicio tienen una probabilidad 3,79 veces superior de asignar una puntuación baja que quienes sí lo usan. Más abajo en la lista, para dispositivos móviles, se cumple lo contrario. Los clientes que usan una aplicación móvil tienen una mayor probabilidad de dar una puntuación baja que aquellos que no la usan. 
 

@@ -1,6 +1,6 @@
 ---
-title: Agregar comentarios a los paneles e informes
-description: Este documento muestra cómo agregar comentarios a un panel, informe u objeto visual y cómo usar los comentarios para tener las conversaciones con colaboradores.
+title: Adición de comentarios en paneles e informes
+description: En este documento se explica cómo agregar comentarios en un panel, un informe o un objeto visual, y cómo usar los comentarios para mantener conversaciones con los colaboradores.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -12,31 +12,31 @@ ms.topic: conceptual
 ms.date: 04/30/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: a633095ba3139c056bf55989149cd9fd379710b9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65100815"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522792"
 ---
-# <a name="add-comments-to-a-dashboard-or-report"></a>Agregar comentarios a un panel o informe
-Agregar un comentario personal o iniciar una conversación sobre un panel o informe con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *consumidor* de colaborar con otros. 
+# <a name="add-comments-to-a-dashboard-or-report"></a>Adición de comentarios en un panel o informe
+Agregue un comentario personal o empiece una conversación sobre un panel o informe con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *consumidor* de colaborar con otros. 
 
 ![vídeo sobre los comentarios](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>Cómo usar la característica Comentarios
-Los comentarios se pueden agregar a todo un panel, los objetos visuales individuales en un panel, una página del informe y objetos visuales individuales en una página del informe. Agregar un comentario general o un comentario dirigido a los compañeros de trabajo específicos.  
+Se pueden agregar comentarios en un panel completo, en una página de un informe o en objetos visuales concretos del panel o la página en cuestión. Agregue un comentario general o un comentario dirigido a compañeros específicos.  
 
-Cuando se agrega un comentario a un informe, Power BI captura los valores de filtro y segmentación de datos actuales. Esto significa que cuando se selecciona o responder a un comentario, en la página del informe o visual de informe puede cambiar para mostrar el filtro y selecciones de segmentación de datos que estaban activas cuando fue el primero el comentario agregan.  
+Al agregar un comentario en un informe, Power BI captura los valores actuales de filtro y segmentación de datos. Esto significa que, al seleccionar un comentario o responder a él, la página o el objeto visual del informe pueden cambiar para mostrar la selección de filtros y la segmentación de datos que estaban activas al agregar el comentario inicialmente.  
 
-![informe con el vídeo de filtros](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
+![Vídeo que muestra un informe con filtros](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-¿Por qué es importante? Supongamos que un compañero de trabajo aplicó un filtro que revele información interesante que desea compartir con el equipo. Sin filtro seleccionado, el comentario no tienen sentido. 
+¿Por qué esto es importante? Supongamos que un compañero ha aplicado un filtro que revela información interesante que quiere compartir con el equipo. Sin ese filtro seleccionado, es posible que el comentario no tenga sentido. 
 
-### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Agregar un comentario general a un panel o informe
-Los procesos para agregar comentarios a un panel o informe son similares. En este ejemplo, estamos usando un panel. 
+### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adición de un comentario general en un panel o informe
+Los procesos para agregar comentarios en un panel o informe son similares. En este ejemplo, usaremos un panel. 
 
-1. Abrir un panel de Power BI o el informe y seleccione el **comentarios** icono. Se abre el cuadro de diálogo Comentarios.
+1. Abra un panel de Power BI y seleccione el icono **Comentarios**. Se abre el cuadro de diálogo Comentarios.
 
     ![icono de comentarios](media/end-user-comment/power-bi-comment-icon.png)
 
@@ -52,7 +52,7 @@ Los procesos para agregar comentarios a un panel o informe son similares. En est
 
     ![Comentario con respuesta](media/end-user-comment/power-bi-response.png)
 
- 3. Si desea agregar un comentario que no forma parte de un subproceso existente, escriba el comentario en el campo de texto superior.
+ 3. Si quiere agregar un comentario que no forme parte de ningún hilo de comentarios, escriba el comentario en el campo de texto superior.
 
     ![Icono de respuesta a comentarios](media/end-user-comment/power-bi-new-comment.png)
 
@@ -60,15 +60,15 @@ Los procesos para agregar comentarios a un panel o informe son similares. En est
 
     ![Conversaciones de comentarios](media/end-user-comment/power-bi-comment-conversation.png)
 
-### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Agregar un comentario a un panel específico o un informe visual
-Además de agregar comentarios a todo un panel o a una página de informe completa, puede agregar comentarios a los iconos de panel individual y objetos visuales de informes individuales. Los procesos son similares, y en este ejemplo, usamos un informe.
+### <a name="add-a-comment-to-a-specific-dashboard-or-report-visual"></a>Adición de un comentario en objeto visual de un panel o informe concreto
+Además de agregar comentarios en un panel completo o en toda una página de un informe, puede agregar comentarios en iconos u objetos visuales concretos del panel o informe en cuestión. Los procesos son similares; en este ejemplo usaremos un informe.
 
 1. Mantenga el mouse encima del objeto visual y seleccione los tres puntos (...).    
 2. En la lista desplegable, seleccione **Agregar un comentario**.
 
     ![Agregar un comentario es la primera elección](media/end-user-comment/power-bi-comment-report.png)  
 
-3.  El **comentarios** abre el cuadro de diálogo y los demás objetos visuales en la página están atenuados. El objeto visual aún no tiene comentarios. 
+3.  Se abre el cuadro de diálogo **Comentarios**, y los demás objetos visuales de la página aparecen atenuados. El objeto visual aún no tiene comentarios. 
 
     ![Agregar un comentario para mí](media/end-user-comment/power-bi-comment-bar.png)  
 
@@ -76,18 +76,18 @@ Además de agregar comentarios a todo un panel o a una página de informe comple
 
     ![Agregar un comentario para mí](media/end-user-comment/power-bi-comment-june.png)  
 
-    - En un informe de página, seleccione un comentario que se realizó en un objeto visual, resalta ese objeto visual (véase más arriba).
+    - Al seleccionar un comentario escrito en un objeto visual, en la página del informe, dicho objeto visual queda resaltado (ver arriba).
 
-    - En un panel, el icono de gráfico ![comentario con icono de gráfico](media/end-user-comment/power-bi-comment-chart-icon.png) nos permite saber que un comentario está asociado a un objeto visual específico. Los comentarios que se aplican a todo el panel no tienen un icono especial. Seleccione el icono de gráfico resalta el objeto visual relacionado en el panel.
+    - En un panel, el icono de gráfico ![comentario con icono de gráfico](media/end-user-comment/power-bi-comment-chart-icon.png) nos permite saber que un comentario está asociado a un objeto visual específico. Los comentarios que se aplican a todo el panel no tienen ningún icono especial. Al seleccionar el icono de gráfico, el objeto visual relacionado queda resaltado en el panel.
 
         ![objeto visual relacionado resaltado](media/end-user-comment/power-bi-comment-highlight2.png)
 
 5. Seleccione **Cerrar** para volver al panel o al informe.
 
 ### <a name="get-your-colleagues-attention-by-using-the--sign"></a>Llamar la atención de sus compañeros mediante el signo @
-Si está creando un panel, icono, informe o comentario visual, agarre atención de sus compañeros de trabajo mediante el uso de la "\@" símbolos.  Cuando escriba el "\@" símbolos, Power BI abre una lista desplegable donde puede buscar y seleccionar personas de su organización. Cualquier nombre comprobado precedido por el símbolo "\@" se muestra en una fuente de color azul. 
+Ya sea que cree un comentario de panel, de informe, de icono o de objeto visual, puede captar la atención de sus compañeros mediante el símbolo "\@".  Cuando se escribe el símbolo "\@", Power BI abre una lista desplegable donde puede buscar y seleccionar personas de la organización. Cualquier nombre comprobado precedido por el símbolo "\@" se muestra en una fuente de color azul. 
 
-Esta es una conversación que estoy manteniendo con el *diseñador* de la visualización. Usa el símbolo @ para asegurarse de que veo el comentario. Así sé que este comentario es para mí. Al abrir este panel de la aplicación en Power BI, selecciono **Comentarios** en el encabezado. El panel **Comentarios** se muestra en nuestra conversación.
+Esta es una conversación que estoy manteniendo con el *diseñador* de la visualización. Usa el símbolo @ para asegurarse de que vea el comentario. Así sé que este comentario es para mí. Al abrir este panel de la aplicación en Power BI, selecciono **Comentarios** en el encabezado. El panel **Comentarios** se muestra en nuestra conversación.
 
 ![Agregar una mención en el comentario](media/end-user-comment/power-bi-comment-convo.png)  
 

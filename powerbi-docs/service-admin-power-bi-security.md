@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/11/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: b70d23d7f4f5dfab9273319ad890a21c9b74ead2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: df2e31ea9c8030e00001081e5fbe280605188bc5
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61187391"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523298"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
@@ -56,7 +56,7 @@ La seguridad de la plataforma de Power BI también incluye una seguridad de ento
 
 Para más información, visite el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter).
 
-Como se describió anteriormente en este artículo, los servidores de Active Directory locales usan el inicio de sesión de un usuario en Power BI para realizar la asignación a UPN para las credenciales. Sin embargo, es **importante** tener en cuenta que los usuarios son responsables de los datos que comparten: si un usuario se conecta a orígenes de datos utilizando sus credenciales y, a continuación, comparte un informe (o panel o un conjunto de datos) basándose en los datos, los usuarios con los que se comparte el panel no se autentican con el origen de datos original y se les concederá acceso al informe.
+Como se describió anteriormente en este artículo, los servidores de Active Directory locales usan el inicio de sesión de un usuario en Power BI para realizar la asignación a UPN para las credenciales. Sin embargo, es **importante** tener en cuenta que los usuarios son responsables de los datos que comparten: si un usuario se conecta a orígenes de datos con sus credenciales y luego comparte un informe (panel o conjunto de datos) en función de esos datos, los usuarios con los que se comparte el panel no se autentican en el origen de datos original y se les concederá acceso al informe.
 
 Una excepción son las conexiones a **SQL Server Analysis Services** mediante una **puerta de enlace de datos local**; los paneles se almacenan en caché en Power BI, pero el acceso a los conjuntos de datos o los informes subyacentes inicia la autenticación del usuario que intenta acceder al informe (o conjunto de datos) y solo se concede acceso si el usuario tiene credenciales suficientes para acceder a los datos. Para más información, consulte la página [Detalles sobre la puerta de enlace de datos local](service-gateway-onprem-indepth.md).
 

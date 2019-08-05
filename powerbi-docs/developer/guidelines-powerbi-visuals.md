@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 07/16/2019
-ms.openlocfilehash: ea1ae18f877793da9ac47023c236ba8a24f78ccf
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 6a2fce59171ec36241cd5de03d41f6a27f54c664
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271181"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380215"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual en AppSource para que otros usuarios lo detecten y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios. 
@@ -26,7 +26,7 @@ En todos los objetos visuales de Power BI se debe habilitar el menú contextual 
 
 ## <a name="logo-guidelines"></a>Instrucciones para los logotipos
 
-En esta sección se describen las especificaciones para agregar logotipos en objetos visuales.
+En esta sección se describen las especificaciones para agregar logotipos en objetos visuales. Los logotipos no son obligatorios. Si se agregan, deben seguir estas instrucciones. 
 
 > [!IMPORTANT]
 > Los logotipos se permiten *solo en el modo de edición*. Los logotipos *no* se pueden mostrar en el modo de visualización.

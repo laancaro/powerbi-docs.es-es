@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: c7a2b3580516c563d8a2a6d79fdc48d241e89849
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 805e052a2d5b493705c604d1817fc03c0a8b5376
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239892"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522192"
 ---
 # <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso de columnas calculadas en Power BI Desktop
 Con las columnas calculadas, se pueden agregar nuevos datos a una tabla ya existente en el modelo. Pero en lugar de consultar y cargar los valores en la nueva columna desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de columna. En Power BI Desktop, las columnas calculadas se crean mediante la característica Nueva columna en la vista de informe.
@@ -31,23 +31,23 @@ Las columnas calculadas calculan los resultados usando [expresiones de análisis
 Las fórmulas DAX son muy similares a las fórmulas de Excel. De hecho, DAX tiene muchas de las mismas funciones que Excel. Las funciones de DAX, sin embargo, están diseñadas para trabajar con datos segmentados de forma interactiva o filtrados en un informe, como en Power BI Desktop. A diferencia de Excel, donde puede tener una fórmula diferente para cada fila de una tabla, cuando se crea una fórmula DAX para una nueva columna, esta calculará un resultado para cada fila de la tabla. Los valores de columna se calculan varias veces, según sea necesario, como cuando se actualizan los datos subyacentes y los valores cambian.
 
 ## <a name="lets-look-at-an-example"></a>Veamos un ejemplo
-Juan es un administrador de envío de Contoso. Desea crear un informe que muestre el número de envíos a diferentes ciudades. Tiene una tabla de Geography con campos independientes para las ciudades y los estados. Pero, Juan desea que en sus informes se muestren la ciudad y el estado como un valor único en la misma fila. En este momento la tabla Geography de Juan no tiene el campo que él quiere.
+Juan es administrador de envíos en Contoso y quiere crear un informe que muestre el número de envíos a diferentes ciudades. Juan tiene una tabla Geography con campos independientes para las ciudades y los estados. Pero, Juan quiere que en sus informes se muestren la ciudad y el estado como un valor único en la misma fila. En este momento la tabla Geography de Juan no tiene el campo que necesita.
 
 ![](media/desktop-calculated-columns/calccolinpbid_cityandstatefields.png)
 
-Pero con una columna calculada, Juan puede simplemente reunir, o concatenar, las ciudades de la columna City con los estados de la columna State.
+Pero con una columna calculada, Juan puede reunir, o concatenar, las ciudades de la columna City con los estados de la columna State.
 
-Juan hace clic con el botón secundario en la tabla Geography y, a continuación, hace clic en Nueva columna. Después especifica la siguiente fórmula DAX en la barra de fórmulas:
+Juan hace clic con el botón secundario en la tabla Geography y, a continuación, hace clic en Nueva columna. Después, Juan especifica la siguiente fórmula DAX en la barra de fórmulas:
 
 ![](media/desktop-calculated-columns/calccolinpbid_formula.png)
 
 Esta fórmula simplemente crea una nueva columna denominada CityState, y para cada fila de la tabla Geography, toma los valores de la columna City, agrega una coma y un espacio y, a continuación, concatena los valores de la columna State.
 
-Ahora Juan tiene el campo que desea.
+Ahora Juan tiene el campo que quiere.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatefield.png)
 
-Puede agregarlo al lienzo de su informe junto con el número de envíos. En poco tiempo y con el mínimo esfuerzo, Juan tiene los campos de ciudad y estado, que puede agregar a casi cualquier tipo de visualización. Juan puede ver que cuando crea una visualización de mapa, Power BI Desktop sabe cómo leer los valores de ciudad y estado en la columna nueva.
+Puede agregarlo al lienzo de su informe junto con el número de envíos. En poco tiempo y con el mínimo esfuerzo, Juan tiene un campo de ciudad y estado, que puede agregar a casi cualquier tipo de visualización. Juan puede ver que cuando se crea una visualización de mapa, Power BI Desktop sabe cómo leer los valores de ciudad y estado de la nueva columna.
 
 ![](media/desktop-calculated-columns/calccolinpbid_citystatemap.png)
 

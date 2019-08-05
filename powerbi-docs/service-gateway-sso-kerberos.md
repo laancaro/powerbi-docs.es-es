@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a0ec90d3f6a1de5a542da7ee98f956dfcef67b1
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 3c6ba802427fc33e3be6f91fc59c158d18975677
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325156"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523555"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -170,9 +170,96 @@ Después de completar todos los pasos de configuración, puede utilizar la pági
 
 Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si todavía no se pudo cargar el informe, póngase en contacto con el administrador del dominio para investigar en profundidad.
 
-## <a name="configure-sap-bw-for-sso"></a>Configuración de SAP BW para SSO
+## <a name="configure-sap-bw-for-sso-using-commoncryptolib"></a>Configuración de SAP BW para SSO con CommonCryptoLib
 
 Ahora que comprende el funcionamiento de Kerberos con una puerta de enlace, puede configurar SSO para SAP Business Warehouse (SAP BW). En los siguientes pasos se asume que está [preparado para la delegación restringida de Kerberos](#prepare-for-kerberos-constrained-delegation), tal como se describe anteriormente en este artículo.
+
+> [!NOTE]
+> Estas instrucciones cubren la configuración de SSO para servidores de **aplicaciones** de SAP BW. Microsoft no admite actualmente conexiones SSO para servidores de **mensajes** de SAP BW.
+
+1. Asegúrese de que el servidor de BW está configurado correctamente para el SSO de Kerberos. Si es así, debería poder usar SSO para acceder al servidor de BW con una herramienta de SAP como SAP GUI. Para obtener más información sobre los pasos de configuración, consulte [SAP Single Sign-On: Authenticate with Kerberos/SPNEGO](https://blogs.sap.com/2017/07/27/sap-single-sign-on-authenticate-with-kerberosspnego/) (Inicio de sesión único de SAP: Autenticarse con Kerberos/SPNEGO). El servidor de BW debe usar CommonCryptoLib como biblioteca de SNC y tener un nombre de SNC que empiece por "CN =", como "CN=BW1". Para obtener más información sobre los requisitos de nombre de SNC, consulte [SNC Parameters for Kerberos Configuration](https://help.sap.com/viewer/df185fd53bb645b1bd99284ee4e4a750/3.0/en-US/360534094511490d91b9589d20abb49a.html) (Parámetros de SNC para la configuración de Kerberos) (el parámetro snc/identity/as).
+
+1. Si aún no lo ha hecho, complete los pasos que se describen en [Preparación de la delegación restringida de Kerberos](https://docs.microsoft.com/power-bi/service-gateway-sso-kerberos#prepare-for-kerberos-constrained-delegation). Asegúrese de que el usuario del servicio de puerta de enlace está configurado para presentar credenciales delegadas al usuario del servicio que representa el servidor de aplicaciones de BW en el entorno de Active Directory.
+
+1. Si aún no lo ha hecho, instale la versión x64 del [conector .NET de SAP](https://support.sap.com/en/product/connectors/msnet.html) en el equipo en el que se ha instalado la puerta de enlace. Puede comprobar si el componente se ha instalado intentando conectarse al servidor de BW en Power BI Desktop. Si no puede conectarse con la implementación 2.0, el conector .NET no está instalado.
+
+1. Asegúrese de que Secure Login Client (SLC) de SAP no se esté ejecutando en el equipo en el que está instalada la puerta de enlace. SLC almacena en caché los vales de Kerberos de forma que puede interferir con la posibilidad de que la puerta de enlace use Kerberos para SSO. Si SLC está instalado, desinstálelo o asegúrese de salir de SAP Secure Login Client: haga clic con el botón derecho en el icono de la bandeja del sistema y seleccione Log Out and Exit (Cerrar sesión y Salir) antes de intentar una conexión SSO mediante la puerta de enlace. No se admite el uso de SLC en máquinas con Windows Server. Para obtener más información, consulte la [nota 2780475 de SAP](https://launchpad.support.sap.com/#/notes/2780475) (se requiere s-user).
+
+    ![SAP Secure Login Client](media/service-gateway-sso-kerberos/sap-secure-login-client.png)
+
+    Si desinstala SLC o selecciona **Log Out** (Cerrar sesión) y **Exit** (Salir), abra una ventana de comandos y escriba `klist purge` para borrar cualquier vale de Kerberos almacenado en caché antes de intentar una conexión SSO a través de la puerta de enlace.
+
+1. Descargue CommonCryptoLib (sapcrypto.dll) versión **8.5.25 o superior** desde SAP Launchpad y cópielo en una carpeta de la máquina de la puerta de enlace. En el mismo directorio donde copió sapcrypto.dll, cree un archivo denominado sapcrypto.ini con el siguiente contenido:
+
+    ```
+    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ```
+
+    El archivo .ini contiene información de configuración requerida por CommonCryptoLib para habilitar el inicio de sesión único en el escenario de puerta de enlace.
+
+    > [!NOTE]
+    > Estos archivos se deben almacenar en la misma ubicación; en otras palabras, _/path/to/sapcrypto/_ debe contener tanto sapcrypto.ini como sapcrypto.dll.
+
+    Tanto el usuario del servicio de puerta de enlace como el usuario de Active Directory (AD) que el usuario del servicio va a suplantar necesitan permisos de lectura y ejecución para ambos archivos. Se recomienda conceder permisos para los archivos .ini y .dll al grupo de usuarios autenticados. A efectos de prueba, también puede conceder estos permisos explícitamente al usuario del servicio de puerta de enlace y al usuario suplantado. En la captura de pantalla siguiente se ha concedido al grupo de usuarios autenticados permisos de **lectura y ejecución** en sapcrypto.dll:
+
+    ![Usuarios autenticados](media/service-gateway-sso-kerberos/authenticated-users.png)
+
+1. Si no tiene un origen de datos de SAP Business Warehouse Server, agregue un origen de datos en la página **Administrar puertas de enlace** del servicio Power BI. Si ya tiene un origen de datos de BW asociado a la puerta de enlace por la que quiere que pase la conexión SSO, prepárese para editarlo.
+
+    Como **Biblioteca de SNC**, seleccione la variable de entorno **SNC\_LIB o SNC\_LIB\_64** o **Personalizada**. Si selecciona la opción **SNC\_LIB**, debe establecer el valor de la variable de entorno SNC\_LIB\_64 de la máquina de la puerta de enlace en la ruta de acceso absoluta de la copia de sapcrypto.dll de la máquina de la puerta de enlace, como, por ejemplo, C:\Users\Test\Desktop\sapcrypto.dll. Si elige **Personalizada**, pegue la ruta de acceso absoluta al archivo sapcrypto.dll en el campo Ruta de biblioteca SNC personalizada que aparece en la página **Administrar puertas de enlace**.
+
+    En **Configuración avanzada**, asegúrese de que la casilla **Usar un SSO mediante Kerberos en las consultas de DirectQuery** está activada. El nombre de usuario que especifique solo debe tener permiso para conectarse al servidor de BW y se usa principalmente para probar la conexión del origen de datos después de haberla creado. El usuario también se usa para actualizar los informes creados a partir de conjuntos de datos basados en la importación si tiene alguno. Si selecciona **autenticación básica**, debe proporcionar un usuario de BW. Si selecciona autenticación de **Windows**, debe especificar un usuario de Active Directory de Windows que esté asignado a un usuario de BW a través de la transacción SU01 en SAP GUI. El resto de los campos (**Número de sistema **,** Id. de cliente **,** Nombre de asociado de SNC**, etc.) deben coincidir con la información que especificaría en Power BI Desktop para conectarse a su servidor de BW a través de SSO. Seleccione **Aplicar** y asegúrese de que la conexión de prueba se ha realizado correctamente.
+
+    ![Método de autenticación](media/service-gateway-sso-kerberos/authentication-method.png)
+
+1. Cree una variable de entorno del sistema CCL\_PROFILE y apunte a ella en sapcrypto.ini:
+
+    ![Variable de entorno del sistema CCL\_PROFILE](media/service-gateway-sso-kerberos/ccl-profile-variable.png)
+
+    Recuerde que los archivos .dll e .ini de sapcrypto deben estar en la misma ubicación. En el ejemplo mostrado anteriormente, donde sapcrypto.ini se encuentra en el escritorio, sapcrypto.dll también se debe encontrar en el escritorio.
+
+1. Reinicie el servicio de puerta de enlace:
+
+    ![Reinicio del servicio de puerta de enlace](media/service-gateway-sso-kerberos/restart-gateway-service.png)
+
+1. Publique un informe de BW **basado en DirectQuery** desde Power BI Desktop. Este informe debe utilizar datos que sean accesibles para el usuario de BW que está asignado al usuario de Azure Active Directory (AAD) que inicia sesión en el servicio Power BI. Debe usar DirectQuery en lugar de la importación, debido a la forma en que funciona la actualización. Al actualizar los informes basados en la importación, la puerta de enlace usa las credenciales especificadas en los campos **Nombre de usuario** y **Contraseña** al crear el origen de datos de BW. En otras palabras, **no** se usa el SSO de Kerberos. Además, al publicar, asegúrese de seleccionar la puerta de enlace que ha configurado para el SSO de BW si tiene varias puertas de enlace. En el servicio Power BI debería poder actualizar el informe o crear un informe basado en el conjunto de datos publicado.
+
+### <a name="troubleshooting"></a>Solución de problemas
+
+Si no puede actualizar el informe en el servicio Power BI, puede usar el seguimiento de puerta de enlace, el seguimiento de CPIC y de CommonCryptoLib para ayudar a diagnosticar el problema. El seguimiento de CPIC y CommonCryptoLib son productos de SAP, por lo que Microsoft no puede ofrecer ninguna compatibilidad directa con ellos. En el caso de usuarios de Active Directory a los que se concederá acceso SSO a BW, algunas configuraciones de Active Directory podrían requerir que los usuarios sean miembros del grupo de administradores en la máquina donde está instalada la puerta de enlace.
+
+1. **Registros de puerta de enlace:** Simplemente reproduzca el problema, abra la [aplicación de puerta de enlace](https://docs.microsoft.com/data-integration/gateway/service-gateway-app), vaya a la pestaña **Diagnóstico** y seleccione **Exportar registros**:
+
+    ![Exportación de registros de puerta de enlace](media/service-gateway-sso-kerberos/export-gateway-logs.png)
+
+1. **Seguimiento de CPIC:** Para habilitar el seguimiento de CPIC, establezca dos variables de entorno: CPIC\_TRACE y CPIC\_TRACE\_DIR. La primera variable establece el nivel de seguimiento y la segunda el directorio del archivo de seguimiento. El directorio debe ser una ubicación en la que puedan escribir los miembros del grupo de usuarios autenticados. Establezca CPIC\_TRACE en 3 y CPIC\_TRACE\_DIR en el directorio en el que desee realizar el seguimiento de los archivos escritos.
+
+    ![Seguimiento de CPIC](media/service-gateway-sso-kerberos/cpic-tracing.png)
+
+    Reproduzca el problema y compruebe que CPIC\_TRACE\_DIR contiene archivos de seguimiento.
+
+1. **Seguimiento de CommonCryptoLib:** Active el seguimiento de CommonCryptoLib agregando dos líneas al archivo sapcrypto.ini que creó anteriormente:
+
+    ```
+    ccl/trace/level=5
+    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ```
+
+    Asegúrese de cambiar la opción _ccl/trace/directory_ por una ubicación en la que los miembros del grupo usuarios autenticados pueden escribir. También puede crear otro archivo .ini para cambiar este comportamiento. En el mismo directorio en que están sapcrypto.ini y sapcrypto.dll, cree un archivo denominado sectrace.ini con el contenido siguiente.  Reemplace la opción DIRECTORY por una ubicación en la máquina en la que el usuario autenticado pueda escribir:
+
+    ```
+    LEVEL = 5
+    
+    DIRECTORY = \\<drive\\>:\logs\sectrace
+    ```
+
+    Ahora, reproduzca el problema y compruebe que la ubicación a la que apunta DIRECTORY contiene archivos de seguimiento. Asegúrese de desactivar el seguimiento de CPIC y CCL cuando haya terminado.
+
+    Para obtener más información sobre el seguimiento de CommonCryptoLib, consulte la [nota 2491573 de SAP](https://launchpad.support.sap.com/#/notes/2491573) (se requiere s-user).
+
+## <a name="configure-sap-bw-for-sso-using-gsskrb5gx64krb5"></a>Configuración de SAP BW para SSO con gsskrb5/gx64krb5
+
+Si no puede usar CommonCryptoLib como biblioteca SNC, puede usar gsskrb5/gx64krb5 en su lugar. Sin embargo, los pasos de configuración son significativamente más complejos y SAP ya no ofrece compatibilidad con gsskrb5.
 
 Esta guía trata de ser lo más completa posible. Si ya ha completado algunos de estos pasos, puede omitirlos. Por ejemplo, es posible que ya haya creado un usuario del servicio para el servidor SAP BW y que le haya asignado un SPN, o bien que ya haya instalado la biblioteca `gsskrb5`.
 
