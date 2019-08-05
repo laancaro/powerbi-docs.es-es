@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 8600dce5012abb41c37b202dcc8eb204da11fa33
-ms.sourcegitcommit: acd9f8212c9b0c6d3d8c4d56bba3c285246f3122
+ms.openlocfilehash: a7e26fd96066ce35e7d61443a8d7c32c64011d5e
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68230196"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665429"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -649,8 +649,6 @@ Lea el [blog de Power BI Mobile Apps de marzo de 2016](https://powerbi.microsoft
 Vea los paneles en [modo horizontal en teléfonos con Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone). 
 
 #### <a name="power-bi-app-for-windows-10-devices"></a>Aplicación de Power BI para dispositivos con Windows 10
-Vea los paneles en [modo horizontal en teléfonos con Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device).
-
 Vea los [informes en teléfonos con Windows 10](mobile-reports-in-the-mobile-apps.md).
 
 [Conclusiones más rápidas en los paneles de aplicaciones de Windows 10 Mobile](mobile-tiles-in-the-mobile-apps.md): comparta una instantánea de icono o abra un informe directamente desde el panel.

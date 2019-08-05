@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 02/05/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: fcef4b7bc9feaee0912a8e0e9ea8098d52c66e3a
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: f29ce1ce05db80378eee81293d92484fb4f58f45
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289828"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665407"
 ---
 # <a name="configure-multi-geo-support-for-power-bi-premium"></a>Configuración de compatibilidad con Multi-Geo en Power BI Premium
 
@@ -30,6 +30,7 @@ Multi-Geo es una característica de Power BI Premium que ayuda a que los cliente
 - India
 - Asia Pacífico
 - Australia
+- África
 
 Multi-Geo no está disponible para Power BI Alemania, Power BI China operado por 21Vianet o Power BI para la Administración Pública de Estados Unidos.
 
