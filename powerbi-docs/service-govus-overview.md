@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/06/2019
+ms.date: 07/26/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 554a5de238af650ab4009669d55a2fadedd4a29f
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
+ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809144"
+ms.lasthandoff: 07/27/2019
+ms.locfileid: "68590435"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -48,8 +48,7 @@ Azure se distribuye entre varias nubes. De forma predeterminada, se permite a lo
 * USGov Texas
 * USGov Arizona
 
-En la nube pública, los espacios de direcciones IP están disponibles pero, en la nube del gobierno, debe abrir una incidencia de soporte técnico de Azure para solicitar los intervalos IP para los centros de datos de lista anterior. 
-
+En la nube pública, hay disponibles espacios de IP. Para la nube de administraciones públicas, descargue y vea la [Documentación del servicio Azure Government](https://www.microsoft.com/download/details.aspx?id=57063) para obtener la información más reciente.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitaciones del servicio Power BI para la Administración Pública de Estados Unidos
 Algunas de las características que están disponibles en la versión comercial del **servicio Power BI** *no* están disponibles en el **servicio Power BI** para clientes de la Administración Pública de Estados Unidos. El equipo de Power BI está trabajando activamente para que estas características estén disponibles para los clientes de la Administración Pública de Estados Unidos y actualizará este artículo en cuanto estén disponibles.

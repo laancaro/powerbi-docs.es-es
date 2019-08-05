@@ -10,24 +10,24 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 333403ca74c5c5a13c94cbd41100915c7260e304
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: ddda7d6aaacbcde2d71371b316d14a9cd411bd43
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67792002"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523427"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo
 
-El paquete de contenido de ejemplo Rentabilidad del cliente contiene un panel, un informe y un conjunto de datos de una compañía que fabrica materiales de marketing. Este panel lo creó un director financiero para ver las métricas clave relacionadas con los cinco gerentes de unidad de negocio (ejecutivos), los productos, los clientes y los márgenes brutos (GM). Así, de un vistazo, puede ver los factores que afectan a la rentabilidad.
+El paquete de contenido de ejemplo Rentabilidad del cliente contiene un panel, un informe y un conjunto de datos de una compañía que fabrica materiales de marketing. Este panel lo ha creado un director de seguridad para ver las métricas clave relacionadas con los cinco responsables de unidad de negocio (directivos), los productos, los clientes y los márgenes brutos. A simple vista, puede ver los factores que afectan a la rentabilidad.
 
 ![Panel del Ejemplo de rentabilidad del cliente](media/sample-customer-profitability/power-bi-dash.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Lo ha creado [obviEnce](http://www.obvience.com/) con datos reales, que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 Este tutorial usa el paquete de contenido de ejemplo Rentabilidad del cliente del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
-Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en la sección Mi área de trabajo del servicio Power BI. 
+Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Power BI. Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en la sección Mi área de trabajo del servicio Power BI. 
 
 ## <a name="get-the-sample"></a>Obtención del ejemplo
 
@@ -37,7 +37,7 @@ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de conteni
 
 1. Abra el servicio Power BI (app.powerbi.com), inicie sesión y abra el área de trabajo donde desea guardar el ejemplo.
 
-   Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
+   Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
 
 2. En la esquina inferior izquierda, seleccione **Obtener datos**.
 
@@ -66,7 +66,7 @@ En el área de trabajo donde guardó el ejemplo, busque el panel Rentabilidad de
 ![Panel del Ejemplo de rentabilidad del cliente](media/sample-customer-profitability/power-bi-dash.png)
 
 ### <a name="company-wide-dashboard-tiles"></a>Iconos del panel relativos a la compañía
-1. Abra un panel en el servicio Power BI. Los iconos del panel proporcionan a la directora financiera una visión de las métricas de empresa de alto nivel importantes para ella. Si encuentra algo interesante, puede seleccionar un icono para profundizar en los datos.
+1. Abra un panel en el servicio Power BI. Los iconos del panel proporcionan al director de seguridad información general sobre las métricas más importantes de la compañía. Si ven algo interesante, pueden seleccionar un icono para explorar en profundidad los datos.
 
 2. Revise los iconos situados a la izquierda del panel.
 
@@ -81,7 +81,7 @@ En el área de trabajo donde guardó el ejemplo, busque el panel Rentabilidad de
    - El total de ingresos al año se aproxima al presupuesto.
 
 ### <a name="manager-specific-dashboard-tiles"></a>Iconos del panel específicos de los gerentes
-Los iconos del lado derecho del panel proporcionan un panel del equipo. La directora financiera tiene que realizar un seguimiento de los gerentes y estos iconos le ofrecen una visión general de alto nivel de los beneficios, con el porcentaje de margen bruto. Si la tendencia del porcentaje de margen bruto de cualquiera de los gerentes le resulta inesperada, podrá investigarlo con mayor detalle.
+Los iconos del lado derecho del panel proporcionan un panel del equipo. El director de seguridad necesita realizar un seguimiento de sus gerentes, y estos iconos les proporcionan información general sobre las ganancias mediante el porcentaje de margen bruto. Si la tendencia del porcentaje de margen bruto de cualquiera de los gerentes le resulta inesperada, podrá investigarlo con mayor detalle.
 
 ![Porcentaje de margen bruto para administradores](media/sample-customer-profitability/power-bi-manager2.png)
 
@@ -89,7 +89,7 @@ Mediante el análisis de los iconos del panel específicos del administrador, po
 
 - Todos los ejecutivos, excepto Carlos, ya han superado su objetivo de ventas. Pero las ventas reales de Carlos son las más elevadas.
 - El porcentaje de margen bruto de Annelie es el más bajo, si bien se observa un incremento continuado desde marzo.
-- Por otro lado, el porcentaje de margen bruto de Valery se ha reducido considerablemente.
+- En cambio, el porcentaje de margen bruto de Valery se ha reducido considerablemente.
 - Andrew ha tenido un año inestable.
 
 ## <a name="explore-the-dashboards-underlying-data"></a>Exploración de los datos subyacentes del panel
@@ -106,7 +106,7 @@ Dos iconos en este panel, **Target vs Actual** y **Year Over Year Revenue Growth
 
     a. En el control deslizante **Executive**, seleccione **Carlos Grilo**.   
 
-    b. La primera tabla dinámica nos indica que el crecimiento de los ingresos de Carlos relativos a su principal producto, Primus, han caído un 152 % desde el año pasado. Y el gráfico de la **variación interanual** muestra que durante la mayoría de los meses está por debajo del presupuesto.  
+    b. La primera tabla dinámica nos indica que el crecimiento de los ingresos de Carlos relativos a su principal producto, Primus, han caído un 152 % desde el año pasado. En el gráfico **Varianza de ingresos interanual**, se muestra que Carlos ha estado por debajo del presupuesto en la mayoría de los meses.  
 
     ![Tabla dinámica](media/sample-customer-profitability/power-bi-pivotchart.png)
 
@@ -139,23 +139,23 @@ Analicemos en detalle dos de los miembros del equipo y veamos qué información 
 1. En el segmento **Ejecutivo** que aparece a la izquierda, seleccione el nombre de Andrew para filtrar la página del informe de forma que solo muestre los datos de Andrew:
 
    * Para ver rápidamente un KPI, consulte el valor de **Estado de los ingresos (total del año)** de Andrew; es verde, lo que significa que sus resultados son buenos.
-   * El gráfico **% de variación de ingresos del presupuesto por mes y ejecutivo** muestra que, salvo un descenso en febrero, el rendimiento de Andrew es bueno. Su principal zona de actuación es la región oriental y trata con 49 clientes y cinco productos (de un total de siete). Su porcentaje de margen bruto no es ni el mayor ni el menor.
+   * El gráfico **% de variación de ingresos del presupuesto por mes y ejecutivo** muestra que, salvo un descenso en febrero, el rendimiento de Andrew es bueno. La región más dominante de Andrew es la región este, con 49 clientes y cinco de los siete productos. El porcentaje de margen bruto de Andrew no es el más alto ni el más bajo.
    * El gráfico **Ingresos totales del año y porcentaje de variación de ingresos sobre el presupuesto por mes** muestra un caso de beneficios constantes. Sin embargo, si aplica un filtro seleccionando el cuadrado de **Central** en el gráfico de rectángulos de la región, observa que Andrew tiene ingresos en marzo y solo en Indiana. ¿Es un hecho intencionado o debe investigarse más?
 
-2. Pasamos a Valery. En el segmento **Ejecutivo**, seleccione el nombre de Valery para filtrar la página del informe de forma que solo muestre los datos relativos a ella. 
+2. Pasamos a Valery. En el segmento **Ejecutivo**, seleccione el nombre de Valery para filtrar la página del informe y mostrar únicamente los datos relacionados con ella. 
 
    ![Datos de Valery](media/sample-customer-profitability/customer3.png)
 
    * Observe el KPI en rojo de **Estado de los ingresos (total de año)** . Sin duda, es necesario investigar más este elemento.
-   * Su variación de ingresos también es preocupante, porque no cumple los márgenes de ingresos.
+   * La varianza de ingresos de Valery también ofrece un panorama preocupante; Valery no está cumpliendo con los márgenes de ingresos establecidos.
    * Valery solo tiene nueve clientes, trata únicamente con dos productos y trabaja casi de forma exclusiva con clientes de la región norte. Esta especialización puede explicar las grandes fluctuaciones de sus métricas.
-   * Al seleccionar el cuadrado **Norte** en el gráfico de rectángulos vemos que el margen bruto de Valery para la región norte es coherente con su margen global.
-   * Al seleccionar los otros cuadrados de **Total de ingresos por región**, la historia que cuenta es interesante: el porcentaje de margen bruto varía entre el 23 % y el 79 %. Sus cifras de ingresos en todas las regiones, excepto en la región norte, son muy estacionales.
+   * Al seleccionar el cuadrado **norte** en el gráfico de rectángulos, vemos que el margen bruto de Valery para la región norte es coherente con su margen general.
+   * Al seleccionar los otros cuadrados de **Total de ingresos por región**, la historia que cuenta es interesante: el porcentaje de margen bruto varía entre el 23 % y el 79 %. Sus cifras de ingresos en todas las regiones, excepto en la región norte, son altamente estacionales.
 
 3. Siga profundizando para averiguar por qué los resultados en la zona de Valery no son buenos. Mire las regiones, el resto de las unidades de negocio y la página siguiente del informe: **Análisis de margen de la industria**.
 
 ### <a name="industry-margin-analysis"></a>Análisis de margen de la industria
-Esta página del informe ofrece un segmento de datos distinto. Se examina el margen bruto de todo el sector desglosado por segmento. La directora financiera usa esta página para comparar las métricas de la compañía y de las unidades de negocio con las métricas del sector de forma que le ayude a explicar las tendencias y la rentabilidad. Tal vez se pregunte por qué el gráfico **Porcentaje de margen bruto por mes y ejecutivo** está en esta página, aunque es específico del equipo. Al incluirlo aquí podemos filtrar la página por gerente de unidad de negocios.  
+Esta página del informe ofrece un segmento de datos distinto. Se examina el margen bruto de todo el sector desglosado por segmento. El director de seguridad usa esta página para comparar las métricas de la compañía y de las unidades de negocio con las métricas del sector, con el fin de que obtener información para explicar las tendencias y la rentabilidad. Tal vez se pregunte por qué el gráfico **Porcentaje de margen bruto por mes y ejecutivo** está en esta página, aunque es específico del equipo. Al incluirlo aquí podemos filtrar la página por gerente de unidad de negocios.  
 
 ![Página del informe de análisis de margen de la industria](media/sample-customer-profitability/customer6.png)
 
@@ -165,10 +165,10 @@ Esta página del informe ofrece un segmento de datos distinto. Se examina el mar
 
 3. Al seleccionar cada administrador en el gráfico, tenga en cuenta los siguientes detalles:
    * La zona de influencia de Andrew abarca muchos segmentos distintos de la industria con un porcentaje de margen bruto y de variación muy amplio (sobre todo positivo).
-   * El gráfico de Annelie es similar, salvo que se concentra solo en unos pocos segmentos industriales, sobre todo en el segmento federal, y se centra en el producto Gladius.
-   * Carlos está claramente centrado en el segmento de servicios, con beneficios importantes. Ha mejorado enormemente el porcentaje de variación para el segmento de alta tecnología y un nuevo segmento para él, el industrial, ha obtenido unos resultados extraordinariamente buenos en comparación con el presupuesto.
-   * Tina trabaja con pocos segmentos y tiene el porcentaje más alto de margen bruto, pero el hecho de que el tamaño de sus burbujas sea más bien pequeño muestra que su impacto en los resultados de la compañía es mínimo.
-   * Valery, que es responsable de un solo producto, trabaja solamente en cinco segmentos de la industria. Su influencia en el sector es estacional, pero siempre genera una burbuja de gran tamaño, lo que indica un impacto significativo en los resultados de la compañía. ¿Explican los segmentos de la industria su rendimiento negativo?
+   * El gráfico de Annelie es similar, excepto que se solo centra en unos pocos segmentos del sector, sobre todo en el segmento federal y en el producto Gladius.
+   * Carlos está claramente centrado en el segmento de servicios, con beneficios importantes. Carlos ha mejorado en gran medida el porcentaje de variación para el segmento de alta tecnología; además, en un nuevo segmento para él (el industrial), ha obtenido unos resultados extraordinariamente buenos en comparación con el presupuesto.
+   * Tina trabaja con pocos segmentos y tiene el porcentaje de margen bruto más alto, pero el hecho de que el tamaño de sus burbujas sea más bien pequeño muestra que su impacto en los resultados de la compañía es mínimo.
+   * Valery, que es responsable de un solo producto, trabaja solamente en cinco segmentos de la industria. Su influencia en el sector es estacional, pero siempre genera una burbuja de gran tamaño, lo que indica un impacto importante en los resultados de la compañía. ¿Explican los segmentos del sector su rendimiento negativo?
 
 ### <a name="executive-scorecard"></a>Cuadro de mandos ejecutivo
 Esta página se formatea como una Tarjeta de respuestas de Cortana. Para más información, consulte [Creación de una página de respuesta personalizada para Cortana](service-cortana-answer-cards.md).
@@ -209,5 +209,5 @@ Echemos un vistazo al sector Distribución.
 ## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
-Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
+Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).
 

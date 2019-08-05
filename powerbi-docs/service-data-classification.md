@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/10/2017
 ms.author: amac
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b7d9bdf0982ea7ad4f57225e5a1eaf8c9da90b50
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e687c72ae058f56ca4f528783c5e2326d82db6bb
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140968"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523147"
 ---
 # <a name="dashboard-data-classification"></a>Clasificación de datos del panel
 Cada panel es diferente y, según el origen de datos al que se conecte, probablemente encontrará que usted y los compañeros con los que lo comparte deberán tomar diferentes precauciones en función de la confidencialidad de los datos. Algunos paneles nunca deberían compartirse con personas de fuera de su empresa o imprimirse, mientras que otros pueden compartirse libremente. Si usa la clasificación de los datos del panel, podrá informar a los usuarios que ven los paneles sobre el nivel de seguridad que debe utilizarse. Puede etiquetar sus paneles con clasificaciones definidas por el departamento informático de su empresa para que todos los usuarios que vean el contenido tengan el mismo nivel de conocimiento acerca de la confidencialidad de los datos.
@@ -45,7 +45,7 @@ Los administradores también pueden establecer la dirección URL de una etiqueta
 ## <a name="setting-a-dashboards-classification"></a>Configurar la clasificación de un panel
 Si la clasificación de datos está activada para su empresa, todos los paneles se inician con un tipo de clasificación predeterminado; no obstante, como propietario de un panel, puede cambiar la clasificación para que coincida con el nivel de seguridad que quiera para los paneles.
 
-Para cambiar el tipo de clasificación, haga lo siguiente.
+Para cambiar el tipo de clasificación, siga este procedimiento:
 
 1. Vaya a la configuración del panel seleccionando los **puntos suspensivos** junto al nombre del panel y seleccione **Configuración**.
    
@@ -58,7 +58,7 @@ Para cambiar el tipo de clasificación, haga lo siguiente.
 Después de aplicar el cambio, cualquier persona con quien haya compartido el panel verá la actualización la próxima vez que lo vuelva a cargar.
 
 ## <a name="working-with-data-classification-tags-as-an-admin"></a>Trabajar con etiquetas de clasificación de datos como administrador
-El administrador global de una organización configura su clasificación de datos. Para activar la clasificación de datos, haga lo siguiente.
+El administrador global de una organización configura su clasificación de datos. Para activar la clasificación de datos, siga este procedimiento:
 
 1. Seleccione el icono de engranaje de configuración y seleccione **Portal de administración**.
    
@@ -79,7 +79,7 @@ Una vez que rellene el formulario con los tipos de clasificación, seleccione **
 
 ![](media/service-data-classification/filled_in_classification_form.png)
 
-En este punto, la clasificación predeterminada se asignará a todos los paneles y los propietarios del panel podrán actualizar el tipo de clasificación a uno adecuado para su contenido. Puede volver a este punto en el futuro para agregar o quitar tipos de clasificación o para cambiar el valor predeterminado.  
+En este momento, se asignará la clasificación predeterminada a todos los paneles. Los propietarios de los paneles ya pueden cambiar el tipo de clasificación al más adecuado para su contenido. Puede volver a este punto en el futuro para agregar o quitar tipos de clasificación o para cambiar el valor predeterminado.  
 
 > [!NOTE]
 > Debe recordar algunas cuestiones importantes cuando vuelva a realizar cambios:

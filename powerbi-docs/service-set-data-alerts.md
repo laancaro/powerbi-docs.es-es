@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/28/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0efbcf61eea82dd1db016917c7fa7c53e06c8a66
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a26cd6d654f9378d9fa09ae46b64762213b26089
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61407618"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522989"
 ---
 # <a name="data-alerts-in-power-bi-service"></a>Alertas de datos en el servicio Power BI
 Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
@@ -33,7 +33,7 @@ Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las 
 > 
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Establecer alertas en el servicio Power BI
-Observe cómo Amanda agrega algunas alertas a los iconos de su panel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
+Vea cómo Amanda agrega varias alertas a los iconos del panel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

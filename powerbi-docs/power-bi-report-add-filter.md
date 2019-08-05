@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 903883290def07ee6467dbebab1c7b31dec80b74
-ms.sourcegitcommit: dc0258bb4f647ff646c6fff2aaffa29b413aa2df
+ms.openlocfilehash: dcc273dd6bf356d9149086b38b9126e721fe63a2
+ms.sourcegitcommit: 390dc3716d5c83385bedde63dd152431a77020e2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68342178"
+ms.lasthandoff: 07/22/2019
+ms.locfileid: "68380253"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Incorporación de un filtro a un informe en Power BI
 
@@ -76,6 +76,8 @@ Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, p
     El objeto visual cambia para reflejar el nuevo filtro. Si guarda el informe con el filtro, los lectores de informes verán el objeto visual filtrado para empezar a trabajar con él y podrán interactuar con el filtro en la vista de lectura y activar o desactivar valores.
      
     ![El objeto visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results.png)
+    
+    Al aplicar el filtro en un campo usado en el objeto visual donde se agrega el campo (por ejemplo, una suma, una media o un recuento), se filtra el valor *agregado* en cada punto de datos. Por lo tanto, al pedir que se filtre el objeto visual anterior donde las **ventas de este año > 500 000**, solo se mostrará el punto de datos **13: Charleston Fashion Direct** en el resultado. Los filtros de las [medidas del modelo](desktop-measures.md) siempre se aplican en el valor agregado del punto de datos.
 
 ### <a name="filter-with-a-field-thats-not-in-the-visual"></a>Filtrar con un campo que no está en el objeto visual
 
@@ -94,6 +96,8 @@ Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel
     ![El objeto visual filtrado](media/power-bi-report-add-filter/power-bi-search-visual-filter-results-2.png)
 
     Si guarda el informe con este filtro, los lectores de informes pueden interactuar con el filtro **District Manager** en la vista de lectura y activar o desactivar valores.
+    
+    Si arrastra una *columna numérica* al panel del filtro para crear un filtro de nivel visual, el filtro se aplicará en las *filas de datos subyacentes*. Por ejemplo, al agregar un filtro al campo **Costo unitario** y establecerlo donde **Costo unitario** > 20, solo se mostrarán los datos de las filas de productos donde el costo unitario sea mayor que 20, independientemente del costo unitario total de los puntos de datos mostrados en el objeto visual.
 
 ## <a name="add-a-filter-to-an-entire-page"></a>Agregar un filtro a una página completa
 
@@ -158,10 +162,6 @@ Veamos cómo funciona el filtro de obtención de detalles.
 1. Seleccione la flecha Atrás para volver a la página anterior del informe.
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-
-- Hay situaciones en las que el filtro de nivel de objeto visual y el filtro de nivel de página pueden devolver resultados diferentes.  Por ejemplo, al agregar un filtro de nivel de objeto visual, Power BI filtra los resultados agregados.  La agregación predeterminada es la suma, pero puede [cambiar el tipo de agregación](service-aggregates.md).  
-
-    Después, cuando agrega un filtro de nivel de página, Power BI filtra sin ninguna agregación.  El motivo es que una página puede tener varios objetos visuales, cada uno de los cuales puede usar diferentes tipos de agregaciones.  Por lo tanto, el filtro se aplica en cada fila de datos.
 
 - Si no ve el panel Campos, asegúrese de que se encuentra en la [vista de edición](service-interact-with-a-report-in-editing-view.md) del informe.    
 - Si ha realizado muchos cambios en los filtros y quiere volver a la configuración predeterminada del autor del informe, seleccione **Restablecer valores predeterminados** en la barra de menús superior.

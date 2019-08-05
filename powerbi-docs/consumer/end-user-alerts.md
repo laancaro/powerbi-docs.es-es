@@ -12,15 +12,15 @@ ms.topic: tutorial
 ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cd92374a23a2ee7023c75cfb2612c00d513e9895
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64da077e079ca3df11ce2a89da546e24865eaf0e
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61065844"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522879"
 ---
 # <a name="tutorial-set-data-alerts-in-power-bi-service"></a>Tutorial: Establecer alertas en el servicio Power BI
-Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos. 
+Establezca alertas que le envíen notificaciones cada vez que los datos de sus paneles cambien más allá de los límites establecidos.  
 
 Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro o si se ha compartido con usted un panel desde una [capacidad Premium](../service-premium-what-is.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo sobre medidores, KPI y tarjetas. Las alertas se pueden establecer en objetos visuales creados a partir de conjuntos de datos de streaming que se hayan anclado desde un informe a un panel, pero no se pueden establecer en iconos de streaming creados directamente en el panel a través de **Agregar icono** > **Datos de transmisión personalizados**. 
 
@@ -44,7 +44,7 @@ En este artículo se tratan los temas siguientes:
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="set-data-alerts-in-power-bi-service"></a>Establecer alertas en el servicio Power BI
-Observe cómo Amanda agrega algunas alertas a los iconos de su panel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
+Vea cómo Amanda agrega varias alertas a los iconos del panel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbL2-HJ8clE" frameborder="0" allowfullscreen></iframe>
 

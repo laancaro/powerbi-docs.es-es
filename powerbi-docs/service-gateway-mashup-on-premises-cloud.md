@@ -10,21 +10,21 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 39f5a01a396e45207777b1a5e58e73808ddf3f88
-ms.sourcegitcommit: a58461fe7dfa65c751490b52de5fc73f8e69a17f
+ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/19/2019
-ms.locfileid: "68352175"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462205"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Combinar o anexar orígenes de datos locales o en la nube
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-La puerta de enlace de datos local permite combinar o anexar orígenes de datos locales o en la nube en la misma consulta. Es útil cuando se quieren combinar datos de varios orígenes sin tener que usar consultas independientes.
+Use la puerta de enlace de datos local para combinar o anexar orígenes de datos locales o en la nube en la misma consulta. Esta solución es útil cuando se quieren combinar datos de varios orígenes sin tener que usar consultas independientes.
 
 >[!NOTE]
->Este artículo solo se aplica a los conjuntos de datos que tienen orígenes de datos locales y en la nube combinados o anexados en una sola consulta. Para los conjuntos de datos que incluyen consultas independientes (una conectada a un origen de datos local y la otra a uno en la nube) la consulta en la que se usa el origen de datos en la nube no se ejecutará mediante la puerta de enlace.
+>Este artículo solo se aplica a los conjuntos de datos que tienen orígenes de datos locales y en la nube combinados o anexados en una sola consulta. Para los conjuntos de datos que tienen consultas separadas (una que se conecta a un origen de datos local y otra a un origen de datos en la nube), la puerta de enlace no ejecuta la consulta del origen de datos en la nube.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
@@ -51,14 +51,13 @@ La puerta de enlace de datos local permite combinar o anexar orígenes de datos 
 6. En la página **Configuración del conjunto de datos** del conjunto de datos nuevo:
 
    - Para el origen local, seleccione la puerta de enlace asociada a este origen de datos.
-
-   - En **Credenciales del origen de datos**, edite las credenciales del origen de datos en la nube según sea necesario.
+   - En **Credenciales de origen de datos**, edite las credenciales del origen de datos en la nube según sea necesario.
 
     Asegúrese de que los niveles de privacidad de los orígenes de datos locales y en la nube están configurados correctamente para asegurarse de que las combinaciones se administran de forma segura.
 
      ![Configuración del conjunto de datos](media/service-gateway-mashup-on-premises-cloud/dataset-settings.png)
 
-7. Con las credenciales en la nube establecidas, ahora puede actualizar el conjunto de datos con la opción **Actualizar ahora** o programarlo para que se actualice periódicamente.
+7. Con el conjunto de credenciales de nube, ahora puede actualizar el conjunto de datos con la opción **Actualizar ahora**. O bien puede programarlo para que se actualice periódicamente.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

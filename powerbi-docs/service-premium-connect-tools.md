@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/18/2019
+ms.date: 07/24/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 48513ea163847ee3bf1df07151e9985c5bce9656
-ms.sourcegitcommit: 5f22dcda8885d840b7da344d38e89329d02b14fb
+ms.openlocfilehash: 4c39cf5a60786f7cc1748155ce7004254d40ad00
+ms.sourcegitcommit: ebac79f8c2871d4a7e54c1e99ce6d2409345b060
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/18/2019
-ms.locfileid: "67235076"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68475636"
 ---
 # <a name="connect-to-datasets-with-client-applications-and-tools-preview"></a>Conexión a conjuntos de datos con herramientas y aplicaciones cliente (versión preliminar)
 
-Las áreas de trabajo y los conjuntos de datos de Power BI Premium admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros. 
+Las áreas de trabajo y los conjuntos de datos de Power BI Premium admiten conexiones *de solo lectura* desde herramientas y aplicaciones cliente de Microsoft y de terceros. De forma predeterminada, las conexiones están habilitadas.
 
 > [!NOTE]
 > En este artículo está pensado solo para presentar la conectividad de solo lectura a áreas de trabajo y conjuntos de datos de Power BI Premium. *No* está pensado para proporcionar información detallada sobre programación, herramientas y aplicaciones específicas, arquitectura y administración de áreas de trabajo y conjuntos de datos. Los temas que se describen aquí requieren un conocimiento sólido de la administración y arquitectura de base de datos de modelos tabulares de Analysis Services.
@@ -104,6 +104,10 @@ Los conjuntos de datos siguientes no se admiten en el servicio Power BI:
 ### <a name="roles-and-role-memberships"></a>Roles y pertenencias a roles
 
 Actualmente, los roles de modelo y las pertenencias a roles no son detectables ni se muestran mediante el uso de puntos de conexión XMLA.
+
+## <a name="disable-connectivity"></a>Deshabilitar la conectividad
+
+De forma predeterminada, la conectividad con puntos de conexión XMLA está habilitada para la carga de trabajo de los conjuntos de datos. Puede deshabilitar la conectividad en [Configuración de carga de trabajo](service-admin-premium-workloads.md#workload-settings).
 
 ## <a name="audit-logs"></a>Registros de auditoría 
 

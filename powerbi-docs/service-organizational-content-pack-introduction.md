@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: da5a36454e52891df7906b444b29b4df2db44d7f
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: b9c308e0593ac207e323df5b78619f0279f95594
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721200"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523431"
 ---
 # <a name="intro-to-organizational-content-packs-in-power-bi"></a>Paquetes de contenido organizativos en Power BI: introducción
 > [!NOTE]
@@ -50,27 +50,27 @@ El ciclo de vida tiene un aspecto similar al siguiente:
 1. En Power BI Pro, Nate crea un paquete de contenido y lo publica en el grupo de distribución Marketing. La configuración de actualización se hereda con el conjunto de datos y solo Nate puede cambiarla.
    
    > [!NOTE]
-   > Si crea el paquete de contenido desde un [área de trabajo de aplicaciones de Power BI](service-create-distribute-apps.md) al que pertenece, aunque salga de dicho área de trabajo, el resto de usuarios del mismo pueden asumir su propiedad.
+   > Si crea el paquete de contenido desde un [área de trabajo de aplicaciones de Power BI](service-create-distribute-apps.md) al que pertenece, aunque salga de dicha área de trabajo, el resto de los usuarios podrán asumir su propiedad.
    > 
    > 
 2. Nate envía un correo electrónico al grupo de distribución, informándoles acerca del nuevo paquete de contenido.
-3. En Power BI Pro, Jane, miembro del grupo Marketing, busca este paquete de contenido en AppSource y se conecta a él. Ahora tiene una copia de solo lectura.  Ella sabe que es de solo lectura porque en el panel de navegación izquierdo aparece un icono de uso compartido a la izquierda del nombre del panel y el nombre del informe. Y cuando se selecciona el panel, un icono de candado avisa a Julia de que está viendo un panel de paquete de contenido. 
-4. Supongamos que decide personalizarlo. Ahora tiene su propia copia de los paneles e informes. Su trabajo no afecta al origen, al paquete de contenido original o a otros miembros del grupo de distribución. Ahora trabaja en su propia copia de los paneles e informes.
-5. Nuria realiza las actualizaciones en el panel y, cuando está listo, publica una nueva versión del paquete de contenido.
+3. En Power BI Pro, Jane (que pertenece al grupo Distribución de marketing), busca este paquete de contenido en AppSource y se conecta a él. Ahora, tiene una copia de solo lectura. Sabe que es de solo lectura porque en el panel de navegación izquierdo se muestra un icono de uso compartido a la izquierda del nombre del panel y el nombre del informe. Y, cuando Jane seleccione el panel, un icono de candado le permite saber que busca un panel de paquete de contenido. 
+4. Digamos que Jane decide personalizarlo. Ahora, tendrá su propia copia del panel y los informes. Su trabajo no afectará al origen, al paquete de contenido original ni a otros miembros del grupo de distribución. Ahora, cada uno trabaja en su propia copia del panel y el informe.
+5. Nate realiza cambios en el panel y, cuando está listo, publica una nueva versión del paquete de contenido.
    
-   * Julio, otro miembro del grupo de distribución, no personalizó el paquete de contenido original. Los cambios nuevos se aplican automáticamente a su versión del paquete de contenido.  
-   * Jane personalizó el paquete de contenido. Recibe una notificación de que hay una nueva versión.  Puede ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada. Ahora tendrá dos versiones: su versión personalizada y el paquete de contenido actualizado.
+   * Julio, otro miembro del grupo de distribución, no personalizó el paquete de contenido original. Los cambios nuevos se aplican automáticamente en su versión del paquete de contenido.  
+   * Jane personalizó el paquete de contenido. Jane recibe una notificación de que hay una nueva versión.  Puede ir a AppSource y obtener el paquete de contenido actualizado sin perder su versión personalizada. Jane tiene ahora dos versiones: la versión personalizada y el paquete de contenido actualizado.
 6. Imaginemos que Nate cambia la configuración de seguridad. Julio y Jane ya no tienen acceso al contenido. Digamos que se les ha eliminado del grupo de distribución Marketing.
    
    * Julio no personalizó el paquete de contenido original, por lo que el contenido se quita automáticamente. 
-   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los icono del paquete de contenido original habrán desaparecido, pero aún aparecerán los iconos que ancló desde otros informes (que todavía tiene permiso para usar). Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en su panel de navegación izquierdo).
+   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes (que todavía tiene permiso para usar). Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación izquierdo).
 7. O bien, Nate elimina el paquete de contenido.
    
    * Julio no personalizó el paquete de contenido original, por lo que el contenido se quita automáticamente. 
-   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los icono del paquete de contenido original habrán desaparecido, pero aún aparecerán los iconos que ancló desde otros informes. Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en su panel de navegación izquierdo).
+   * Jane personalizó el paquete de contenido. La próxima vez que abra el panel, todos los iconos del paquete de contenido original habrán desaparecido, pero aún se mostrarán los iconos que ancló desde otros informes. Los informes y el conjunto de datos asociados ya no están disponibles (y no aparecen en el panel de navegación izquierdo).
 
 ## <a name="data-security"></a>Seguridad de los datos
-Todos los miembros del grupo de distribución tienen los mismos permisos con respecto a los datos que el creador del paquete de contenido. La única excepción son los conjuntos de datos tabulares de instancias locales de SQL Server Analysis Services (SSAS). Dado que los informes y paneles se conectan de forma dinámica al modelo SSAS local, se usan las credenciales de cada miembro individual del grupo de distribución para determinar a qué datos puede acceder.
+Todos los miembros del grupo de distribución tienen los mismos permisos con respecto a los datos que el creador del paquete de contenido. La única excepción son los conjuntos de datos tabulares de instancias locales de SQL Server Analysis Services (SSAS). Como los informes y paneles se conectan de forma dinámica al modelo de SSAS local, se usan las credenciales de cada miembro del grupo de distribución para determinar a qué datos pueden acceder.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Creación y publicación de un paquete de contenido organizativo](service-organizational-content-pack-create-and-publish.md)

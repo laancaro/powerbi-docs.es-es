@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 7c7d3b04b8c954ae220fb8b157b183f615abd39c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 641d1ac2c1bbcb9d143afdc04652b4c12b6e775f
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239474"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522228"
 ---
 # <a name="using-calculated-tables-in-power-bi-desktop"></a>Uso de tablas calculadas en Power BI Desktop
 Con las tablas calculadas, puede agregar una nueva tabla al modelo. Sin embargo, en lugar de consultar y cargar los valores en las columnas de la nueva tabla desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de la tabla. En Power BI Desktop, las tablas calculadas se crean mediante la característica Nueva columna en la vista de informe o la vista de datos.
@@ -39,7 +39,7 @@ Juan, administrador de proyectos en Contoso, tiene una tabla con los empleados d
 
  ![](media/desktop-calculated-tables/calctables_swempl.png)
 
-Combinar estas dos tablas con una tabla calculada es bastante sencillo. Aunque Juan puede crear una tabla calculada en la vista de informes o la vista de datos, es un poco más fácil hacerlo en la vista de datos porque puede ver de inmediato la nueva tabla calculada.
+Combinar estas dos tablas con una tabla calculada es bastante sencillo. Aunque Jeff puede crear una tabla calculada en la vista de informes o la vista de datos, es algo más fácil hacerlo en la vista de datos porque puede ver de inmediato la nueva tabla calculada.
 
 En **Vista de datos**, en la pestaña **Modelado** , Juan hace clic en **Nueva tabla**. Aparece una barra de fórmulas.
 
@@ -53,7 +53,7 @@ Se crea una nueva tabla denominada Empleados de la región del oeste.
 
  ![](media/desktop-calculated-tables/calctables_westregionempl.png)
 
-La nueva tabla de Empleados de la región del oeste de Juan aparece como cualquier otra tabla en la lista de campos. Puede crear relaciones con otras tablas, agregar medidas y columnas calculadas, y agregar cualquiera de sus campos a los informes como cualquier otra tabla.
+La nueva tabla de Empleados de la región del oeste de Juan aparece como cualquier otra tabla en la lista de campos. Puede crear relaciones con otras tablas, agregar medidas y columnas calculadas, y agregar cualquiera de sus campos a los informes, igual que en cualquier otra tabla.
 
  ![](media/desktop-calculated-tables/calctables_fieldlist.png)
 

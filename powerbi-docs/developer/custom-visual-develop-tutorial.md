@@ -1,5 +1,5 @@
 ---
-title: Desarrollo de objetos visuales personalizados de Power BI
+title: Desarrollar un objeto visual de Power BI
 description: Un tutorial sobre cómo desarrollar un objeto visual personalizado de Power BI
 author: sranins
 ms.author: rasala
@@ -9,14 +9,14 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: d21a0ab1bada981a563e04ba26815f661664f51a
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
+ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161237"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "68415439"
 ---
-# <a name="tutorial-developing-a-power-bi-custom-visual"></a>Tutorial: Desarrollo de objetos visuales personalizados de Power BI
+# <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desarrollar un objeto visual de Power BI
 
 Permitimos que los desarrolladores agreguen fácilmente a Power BI objetos visuales personalizados para usarlos en los paneles e informes. Para ayudarle a comenzar, hemos publicado en GitHub el código de todas nuestras visualizaciones.
 
@@ -79,35 +79,35 @@ Ahora tiene que instalar el paquete **pbiviz**.
     pbiviz --install-cert
     ```
 
-  Devuelve un resultado que genera una *frase de contraseña*. En este caso, la *frase de contraseña* es **_15105661266553327_** inicia el Asistente para importar certificados.
+    Devuelve un resultado que genera una *frase de contraseña*. En este caso, la *frase de contraseña* es **_15105661266553327_** . También inicia el Asistente para importar certificados.
 
-  ![Certificado creado a través de PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
+    ![Certificado creado a través de PowerShell](media/custom-visual-develop-tutorial/cert-create.png)
 
-3. En el Asistente para importar certificados, compruebe que la ubicación del almacén se establece en el usuario actual. Después, seleccione *Siguiente*.
+2. En el Asistente para importar certificados, compruebe que la ubicación del almacén se establece en el usuario actual. Después, seleccione *Siguiente*.
 
       ![Instalación del certificado](media/custom-visual-develop-tutorial/install-cert-PowerShell.png)
 
-4. En el paso **Archivo para importar**, seleccione *Siguiente*.
+3. En el paso **Archivo para importar**, seleccione *Siguiente*.
 
-5. En el paso **Protección de clave privada**, en el cuadro de contraseña, pegue la frase de contraseña que ha recibido al crear el certificado.  De nuevo, en este caso es **_15105661266553327_** .
+4. En el paso **Protección de clave privada**, en el cuadro de contraseña, pegue la frase de contraseña que ha recibido al crear el certificado.  De nuevo, en este caso es **_15105661266553327_** .
 
       ![Copia de la frase de contraseña](media/custom-visual-develop-tutorial/cert-install-wizard-show-passphrase.png)
 
-6. En el paso **Almacén de certificados**, seleccione la opción **Colocar todos los certificados en el siguiente almacén**. Después, seleccione *Examinar*.
+5. En el paso **Almacén de certificados**, seleccione la opción **Colocar todos los certificados en el siguiente almacén**. Después, seleccione *Examinar*.
 
       ![Todos los certificados del siguiente almacén](media/custom-visual-develop-tutorial/all-certs-in-the-following-store.png)
 
-7. En la ventana **Seleccionar almacén de certificados**, seleccione **Entidades de certificación raíz de confianza** y luego seleccione *Aceptar*. A continuación, seleccione *Siguiente* en la pantalla **Almacén de certificados**.
+6. En la ventana **Seleccionar almacén de certificados**, seleccione **Entidades de certificación raíz de confianza** y luego seleccione *Aceptar*. A continuación, seleccione *Siguiente* en la pantalla **Almacén de certificados**.
 
       ![Certificado de raíz de confianza](media/custom-visual-develop-tutorial/trusted-root-cert.png)
 
-8. Para completar la importación, seleccione **Finalizar**.
+7. Para completar la importación, seleccione **Finalizar**.
 
-9. Si recibe una advertencia de seguridad, seleccione **Sí**.
+8. Si recibe una advertencia de seguridad, seleccione **Sí**.
 
     ![Advertencia de seguridad](media/custom-visual-develop-tutorial/cert-security-warning.png)
 
-10. Cuando se le notifique que la importación se ha realizado correctamente, seleccione **Aceptar**.
+9. Cuando se le notifique que la importación se ha realizado correctamente, seleccione **Aceptar**.
 
     ![Importación correcta del certificado](media/custom-visual-develop-tutorial/cert-import-successful.png)
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 4395884dfbc7ef5ebfb0df34e416d69ee553ebd3
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514152"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523208"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas en Power BI Desktop
 
@@ -41,13 +41,13 @@ Las medidas calculan un resultado a partir de una fórmula de expresiones. Al cr
 Las fórmulas DAX son muy similares a las fórmulas de Excel. DAX incluso tiene muchas de las mismas funciones que Excel, como FECHA, SUMA e IZQUIERDA. Sin embargo, las funciones de DAX están diseñadas para trabajar con datos relacionales como los que tenemos en Power BI Desktop.
 
 ## <a name="lets-look-at-an-example"></a>Veamos un ejemplo
-Jan es jefa de ventas de Contoso. Le han pedido que presente las proyecciones de ventas de los distribuidores para el próximo año fiscal. Jan decide que basará las estimaciones en las cifras de ventas del año pasado, agregando un seis por ciento anual, resultante de las distintas promociones programadas para los próximos seis meses.
+Jan es jefa de ventas de Contoso. Le han pedido que presente los pronósticos de ventas de los revendedores para el próximo año fiscal. Jan decide que basará las estimaciones en las cifras de ventas del año pasado, agregando un seis por ciento anual, resultante de las distintas promociones programadas para los próximos seis meses.
 
-Para informar de las estimaciones, Jan importa datos de las ventas del año pasado en Power BI Desktop. Busca el campo SalesAmount de la tabla de ventas de distribuidores. Debido a que los datos importados únicamente contienen los importes de las ventas del año pasado, Jan cambia el nombre del campo SalesAmount a Last Years Sales (Ventas del año pasado). Después, Jan arrastra el campo Ventas de los últimos años al lienzo del informe. Aparece en una visualización de gráfico como un valor único, que es la suma de las ventas de todos los distribuidores durante el año pasado.
+Para informar de las estimaciones, Jan importa datos de las ventas del año pasado en Power BI Desktop. Busca el campo SalesAmount de la tabla Ventas de revendedor. Debido a que los datos importados únicamente contienen los importes de las ventas del año pasado, Jan cambia el nombre del campo SalesAmount a Last Years Sales (Ventas del año pasado). Después, Jan arrastra el campo Ventas de los últimos años al lienzo del informe. Aparece en una visualización de gráfico como un valor único, que es la suma de las ventas de todos los distribuidores durante el año pasado.
 
-Jan observa que, incluso cuando no especificó un cálculo, este se aplicó de manera automática. Power BI Desktop creó su propia medida con la suma de todos los valores de las ventas de los últimos años.
+Jan se da cuenta de que, aunque no ha especificado un cálculo, se ha proporcionado uno automáticamente. Power BI Desktop creó su propia medida con la suma de todos los valores de las ventas de los últimos años.
 
-Sin embargo, Jan necesita una medida para calcular las previsiones de ventas para el año siguiente, que se basarán en las ventas del año anterior multiplicadas por 1,06 para tener en cuenta el aumento del 6 % previsto en los negocios. Para este cálculo, creará su propia medida. Mediante la característica Nueva medida, crea una nueva medida y a continuación introduce la siguiente fórmula DAX:
+Sin embargo, Jan necesita una medida para calcular las previsiones de ventas para el año siguiente, que se basarán en las ventas del año anterior multiplicadas por 1,06 para tener en cuenta el aumento del 6 % previsto en los negocios. Para este cálculo, Jan creará su propia medida. Con la característica “Nueva medida”, crea una medida y, después, agrega la siguiente fórmula DAX:
 
     Projected Sales = SUM('Sales'[Last Years Sales])*1.06
 
@@ -55,7 +55,7 @@ Después Jan arrastra hacia el gráfico la nueva medida Ventas previstas.
 
 ![](media/desktop-measures/measuresinpbid_lastyearsales.png)
 
-Rápidamente y con el mínimo esfuerzo, ahora Jan tiene una medida para calcular las ventas previstas. Para analizar más a fondo las previsiones, Jan tiene la opción de filtrar por distribuidores específicos o agregar otros campos a su informe.
+Rápidamente y con el mínimo esfuerzo, ahora Jan tiene una medida para calcular las ventas previstas. Jan puede analizar con más detalle los pronósticos al filtrar por revendedores específicos o agregar otros campos al informe.
 
 ## <a name="data-categories-for-measures"></a>Categorías de datos de medidas
 
