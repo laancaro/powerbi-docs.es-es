@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c6ba802427fc33e3be6f91fc59c158d18975677
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523555"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624048"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -28,7 +28,7 @@ Actualmente se admiten estos orígenes de datos:
 * SQL Server
 * SAP HANA
 * SAP BW
-* Teradata
+* Teradatos
 * Spark
 * Impala
 
@@ -469,7 +469,7 @@ El resultado es que la puerta de enlace no puede suplantar al usuario de origen 
 
 Para más información acerca de la **puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
 
-* [¿Qué es una puerta de enlace de datos local?](/data-integration/gateway/service-gateway-getting-started)
+* [¿Qué es una puerta de enlace de datos local?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery y SAP BW](desktop-directquery-sap-bw.md)
