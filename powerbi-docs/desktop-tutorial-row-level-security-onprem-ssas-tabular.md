@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 28fe39788dab6f22845d3ffcb7115fb1da5cb268
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826660"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523233"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 
@@ -144,7 +144,7 @@ Una vez que el modelo tabular está implementado y listo para su uso, debe agreg
    
    En el rol de **Director de ventas**, Sumit puede ver los datos de todas las regiones de ventas. Sumit crea este informe (el informe creado en los pasos de las tareas anteriores) y lo publica en el servicio Power BI.
    
-   Una vez que Sumit publica el informe, crea un panel en el servicio Power BI llamado **TabularDynamicSec** que se basa en ese informe. En la siguiente imagen, observe que Sumit puede ver los datos correspondientes a todas las regiones de ventas.
+   Una vez que Sumit publica el informe, el siguiente paso consiste en crear un panel en el servicio Power BI llamado **TabularDynamicSec** que se basa en ese informe. En la siguiente imagen, observe que Sumit puede ver los datos correspondientes a todas las regiones de ventas.
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/donut_chart_1.png)
 
@@ -154,7 +154,7 @@ Una vez que el modelo tabular está implementado y listo para su uso, debe agreg
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/pbi_dashboard.png)
 
-3. Cuando Jon Doe inicia sesión en el servicio **Power BI** y ve el panel compartido que ha creado Sumit, debería ver **solo** las ventas de su región. 
+3. Cuando Jon Doe inicia sesión en el servicio **Power BI** y ve el panel compartido que ha creado Sumit, **solo** deberían ser visibles las ventas de su región. 
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 

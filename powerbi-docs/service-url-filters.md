@@ -11,12 +11,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 04/24/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: cf640be131e1bffb571ad3c2ae2713dee1c4c0ca
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1d1371fa63af51f50a631739e4b2eed5550dc7ee
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66051288"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68523319"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -28,7 +28,7 @@ Al abrir un informe en el servicio Power BI, cada página del informe tiene su p
 
 Supongamos que está trabajando en Power BI Desktop. Ahora quiere crear un informe con vínculos a otros informes de Power BI, pero solo quiere mostrar parte de la información de los otros informes. En primer lugar, filtre los informes con parámetros de cadena de consulta y guarde las direcciones URL. Luego, cree una tabla en Desktop con estas nuevas direcciones URL de informe.  Por último, publique y comparta el informe.
 
-Otro uso de los parámetros de cadena de consulta es para un usuario que va a crear una solución avanzada de Power BI.  Con DAX, crea un informe que genera una dirección URL de informe filtrada basada dinámicamente en la selección que hace su cliente en el informe actual. Cuando los clientes seleccionan la dirección URL, solo ven la información que esperan. 
+Otro uso de los parámetros de cadena de consulta es para un usuario que va a crear una solución avanzada de Power BI.  Con DAX, crea un informe que genera una dirección URL de informe filtrada que se basa de forma dinámica en la selección que hace su cliente en el informe actual. Cuando los clientes seleccionan la dirección URL, solo ven la información que esperan. 
 
 ## <a name="query-string-parameter-syntax-for-filtering"></a>Sintaxis de parámetro de cadena de consulta para filtrar
 
@@ -43,11 +43,11 @@ URL?filter=***Tabla***/***Campo*** eq '***valor***'
 
 ### <a name="reports-in-apps"></a>Informes en aplicaciones
 
-Si desea agregar un filtro de dirección URL a un informe en una aplicación, el formato es un poco diferente. Los vínculos a los informes de una aplicación tienen un parámetro de consulta (ctid) que se agrega a la dirección URL. Separe los parámetros de consulta con una y comercial (&). Mantener "? filtro =" y mover el parámetro ctid al final de la dirección URL, precedido por una y comercial (&). 
+Si desea agregar un filtro de dirección URL a un informe en una aplicación, el formato es un poco diferente. Los vínculos a los informes de una aplicación tienen un parámetro de consulta (ctid) que se agrega a la dirección URL. Separe los parámetros de consulta con una Y comercial (&). Mantenga "?filter=" y mueva el parámetro ctid al final de la dirección URL, precedido por una Y comercial (&). 
 
 Al igual que en este ejemplo:
 
-app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq '*value*&'ctid=*ctid*
+app.powerbi.com/groups/me/apps/*app-id*/reports/*report-id*/ReportSection?filter=*Table*/*Field* eq "*value*&"ctid=*ctid*
 
 ### <a name="field-types"></a>Tipos de campos
 
@@ -83,7 +83,7 @@ Para filtrar el informe para que solo muestre los datos de tiendas de "NC" (Caro
 
 El informe se filtra por North Carolina; todas las visualizaciones de la página del informe solo muestran datos de Carolina del Norte.
 
-![Informe filtrada por Carolina del Norte](media/service-url-filters/power-bi-report4.png)
+![Informe filtrado para Carolina del Norte](media/service-url-filters/power-bi-report4.png)
 
 ## <a name="filter-on-multiple-fields"></a>Filtrado por varios campos
 
@@ -133,9 +133,9 @@ Un filtro de dirección URL de Power BI puede incluir números en los siguientes
 
 ### <a name="date-data-types"></a>Tipos de datos de fecha
 
-Power BI admite OData V3 y V4 para tipos de datos **Date** y **DateTimeOffset**.  Se representan las fechas con el formato EDM (2019-02-12T00:00:00), por lo que cuando se especifica una fecha como 'Aaaa-MM-DD', Power BI lo interpreta como ' aaaa-MM-DDT00:00:00'.
+Power BI admite OData V3 y V4 para tipos de datos **Date** y **DateTimeOffset**.  Las fechas se representan con el formato EDM (2019-02-12H00:00:00), por lo que al especificar una fecha como "AAAA-MM-DD", Power BI la interpreta como "AAAA-MM-DDH00:00:00".
 
-Por qué importa esta distinción Supongamos que crea un parámetro de cadena de consulta **gt de fecha y la tabla ' 08-2018-03'** .  La duda es si los resultados incluyen el 3 de agosto de 2018 o empiezan con el 4 de agosto 2018. Puesto que Power BI convierte la consulta a **gt de fecha y la tabla "2018-08-03T00:00:00'** , los resultados incluyen las fechas que tienen una parte de hora distinto de cero, ya que esas fechas es mayores que **" 2018-08-03T00:00:00'** .
+Por qué importa esta distinción Imagine que crea un parámetro de cadena de consulta **Table/Date gt "2018-08-03"** .  La duda es si los resultados incluyen el 3 de agosto de 2018 o empiezan con el 4 de agosto 2018. Como Power BI convierte la consulta en **Table/Date gt "2018-08-03T00:00:00"** , los resultados incluyen todas las fechas con una parte de hora distinta de cero, ya que esas fechas serían mayores que **"2018-08-03T00:00:00"** .
 
 ## <a name="special-characters-in-url-filters"></a>Caracteres especiales en filtros de URL
 
@@ -177,7 +177,7 @@ Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de
 
 * Cuando se usa el operador *in*, los valores a la derecha de *in* deben ser una lista separada por comas entre paréntesis.    
 * En Power BI Report Server, puede [pasar parámetros de informes](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) incluyéndolos en una URL de informe. Estos parámetros de URL no tienen prefijo porque se pasan directamente al motor de procesamiento de informes.
-* Filtrado de cadena de consulta no funciona con [publicar en web](service-publish-to-web.md) o [exportar a PDF](consumer/end-user-pdf.md).
+* El filtrado de cadenas de consulta no funciona con [Publicar en la web](service-publish-to-web.md) ni [Exportar a PDF](consumer/end-user-pdf.md).
 * La [inserción de un elemento web de informes en SharePoint Online](service-embed-report-spo.md) no admite los filtros de direcciones URL.
 * El tipo de datos long es (2^53-1) debido a las limitaciones de Javascript.
 * Los filtros de dirección URL de informe tienen un límite de diez expresiones (diez filtros conectados mediante AND).

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/28/2018
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: cd75aebb09c7b6c54c1ff3f68635bfd5033c7f80
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d613085e47477500390ac6111887df89a802ea0b
+ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721463"
+ms.lasthandoff: 07/26/2019
+ms.locfileid: "68522875"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-no-time"></a>Del libro de Excel a un informe sorprendente al instante
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Sin embargo, los datos más recientes se encuentran en varios sistemas de terceros y en archivos de su portátil. En el pasado, el hecho de crear objetos visuales y dar formato a un informe llevaba horas. Está empezando a sentirse ansioso.

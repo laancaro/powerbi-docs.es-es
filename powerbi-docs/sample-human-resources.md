@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bf10d6a87cb97e1c1ca5164580d0aa556ffc86fc
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
+ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791964"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "68462347"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: Dar un paseo
 
@@ -27,7 +27,7 @@ El paquete de contenido Ejemplo de recursos humanos contiene un panel, informe y
 
 ![Panel del Ejemplo de recursos humanos](media/sample-human-resources/hr1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se creó con datos reales de [obviEnce](http://www.obvience.com/) que son anónimos. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 En este tutorial se explica el paquete de contenido de ejemplo de recursos humanos del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 

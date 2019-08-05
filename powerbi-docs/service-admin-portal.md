@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 06/27/2019
+ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: a871a7475dd8282f9ce63646c371182548504357
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
+ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67568140"
+ms.lasthandoff: 07/25/2019
+ms.locfileid: "68501777"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -133,7 +133,7 @@ Para usar los registros de auditoría, asegúrese de que la opción [**Crear reg
 
 La pestaña **Configuración de inquilinos** permite controlar de manera pormenorizada las características que están disponibles para su organización. Si le preocupa la información confidencial, algunas de nuestras características pueden no ser adecuadas para su organización, o puede que solo quiera que una determinada característica esté disponible para un grupo concreto.
 
-En la imagen siguiente se muestran las dos primeras secciones de la pestaña **Configuración de inquilinos**.
+En la imagen siguiente se muestran varias opciones de la pestaña **Configuración de inquilinos**.
 
 ![Configuración de inquilinos](media/service-admin-portal/powerbi-admin-tenant-settings.png)
 
@@ -169,6 +169,10 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 Los usuarios de la organización pueden obtener acceso a recursos de ayuda y soporte técnico internos desde el menú Ayuda de Power BI. Concretamente, estos parámetros cambian el comportamiento de los elementos de menú Saber más, Comunidad y Obtener ayuda.
 
 También es posible especificar una dirección URL para llevar a los usuarios a una solución personalizada para requisitos de licencias. Este parámetro personaliza la dirección URL de destino del botón Actualizar cuenta que encontrará un usuario sin licencia de Power BI Pro en el cuadro de diálogo Actualizar a Power BI Pro, así como en la página Administrar almacenamiento personal.
+
+### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
+
+Los grupos de seguridad habilitados para correo recibirán notificaciones por correo electrónico si este inquilino se ve afectado por una interrupción del servicio o un incidente. Más información sobre [Notificaciones de interrupción del servicio](service-interruption-notifications.md).
 
 ## <a name="workspace-settings"></a>Configuración del área de trabajo
 
