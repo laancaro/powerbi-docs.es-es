@@ -7,25 +7,25 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: d46fa8be055186d2430ca4d3c387fae93b91acc3
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523208"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730108"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas en Power BI Desktop
 
 **Power BI Desktop** le ayuda a crear información sobre sus datos en unos cuantos clics. Pero a veces los datos simplemente no incluyen todo lo que necesita para responder algunas de las preguntas más importantes. En esos casos, las medidas pueden ser de ayuda.
 
-Las medidas se usan en algunos de los análisis de datos más comunes. Por ejemplo, sumas, promedios, valores mínimos o máximos, recuentos o cálculos más avanzados creados mediante una fórmula DAX. Los resultados calculados de las medidas cambian constantemente en respuesta a la interacción con los informes, lo que permite la exploración rápida y dinámica de datos ad hoc. Analicemos la cuestión más detenidamente.
+Las medidas se usan en algunos de los análisis de datos más comunes. Los resúmenes simples, como sumas, promedios, mínimo, máximo y recuentos, se pueden establecer a través de la lista de campos, como se describe en el vídeo [Opciones de resumen y categoría](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16). Puede crear cálculos más avanzados mediante una fórmula DAX. Los resultados calculados de las medidas cambian constantemente en respuesta a la interacción con los informes, lo que permite la exploración rápida y dinámica de datos ad hoc. Analicemos la cuestión más detenidamente.
 
 ## <a name="understanding-measures"></a>Descripción de las medidas
 
-En **Power BI Desktop**, las medidas se crean y se utilizan en la **Vista de informes** o la **Vista de datos**. Las medidas que cree aparecerán en la lista de campos con un icono de calculadora. Puede asignar el nombre que desee a las medidas y agregarlas a una visualización nueva o existente como cualquier otro campo.
+En **Power BI Desktop**, las medidas se crean y muestran en **Vista de informes** o **Vista de datos**. Las medidas que cree aparecerán en la lista de campos con un icono de calculadora. Puede asignar el nombre que desee a las medidas y agregarlas a una visualización nueva o existente como cualquier otro campo.
 
 ![](media/desktop-measures/measuresinpbid_measinfieldlist.png)
 
@@ -64,6 +64,25 @@ También puede elegir categorías de datos de medidas.
 Entre otras cosas, esto le permite usar medidas para crear direcciones URL de forma dinámica y marcar la categoría de datos como una URL web. 
 
 Puede crear tablas que muestren las medidas como URL web y en las que pueda hacer clic en la dirección URL que se crea según su selección. Esto es especialmente útil si quiere vincular a otros informes de Power BI con [parámetros de filtro de URL](service-url-filters.md).
+
+
+## <a name="organizing-your-measures"></a>Organización de las medidas
+
+Las medidas tienen una tabla *Inicio* que define dónde se encuentran en la lista de campos. Puede cambiar su ubicación eligiendo una ubicación de las tablas en el modelo.
+
+![Selección de una tabla para la medida](media/desktop-measures/measures-03.png)
+
+También puede organizar los campos de una tabla en *carpetas para mostrar*. Seleccione **Vista de modelo** en el lado izquierdo de la ventana de Power BI Desktop y luego seleccione el campo que desea mover de la lista de campos disponibles que se muestra en el lienzo. En el panel de propiedades aparece un cuadro de texto para **Carpeta para mostrar**. Al escribir un nombre en el campo **Carpeta para mostrar**, se crea la carpeta y se mueve el campo seleccionado a esa carpeta.
+
+![Creación de un campo para las medidas](media/desktop-measures/measures-04.gif)
+
+Puede crear subcarpetas mediante un carácter de barra diagonal inversa. Por ejemplo *Finance\Currencies* crea una carpeta *Finance* y, dentro de ella, una carpeta *Currencies*.
+
+Puede hacer que un campo aparezca en varias carpetas mediante un punto y coma para separar los nombres de carpeta. Por ejemplo, *Products\Names;Departments* hace que el campo aparezca en una carpeta *Departments*, así como en una carpeta *Names* dentro de una carpeta *Products*.
+
+Por último, puede crear una tabla especial que contenga solo las medidas que siempre aparecen en la parte superior de **Lista de campos**. Para ello, cree una tabla con una sola columna. Puede usar **Especificar datos** para crear esa tabla. Luego, mueva las medidas a esa tabla. Por último, oculte la columna (no la tabla) que creó. Deberá cerrar y volver a abrir **Lista de campos** para que Power BI Desktop la muestre correctamente; para ello haga clic en el botón de contenido adicional de la parte superior de **Lista de campos**.
+
+![Organización de medidas y mantenerlas en la parte superior de la lista de campos](media/desktop-measures/measures-05.png)
 
 ## <a name="learn-more"></a>Más información
 Por ahora, solamente le dimos una rápida introducción a las medidas, pero hay mucho más información que puede ayudarle a aprender a crear sus propios. Asegúrese de consultar el [Tutorial: Crear medidas propias en Power BI Desktop](desktop-tutorial-create-measures.md), donde puede descargar un archivo de ejemplo y obtener lecciones paso a paso sobre cómo crear más medidas.  

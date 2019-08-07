@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 06/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: d1a057f56237a0609f3330d4728c7dfcded84a71
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 1e836dd9fe4be1c0267a0ba4008c2455cf59e2e2
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391121"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665378"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traiga sus propias claves de cifrado para Power BI (versión preliminar)
 
@@ -64,6 +64,9 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
     ![Componentes del archivo PBIX](media/service-encryption-byok/service-principal.png)
 
 1. Seleccione **Aceptar** y, a continuación, seleccione **Guardar**.
+
+> [!NOTE]
+> Para revocar el acceso de Power BI a los datos en el futuro, quite los derechos de acceso a esta entidad de servicio de Azure Key Vault.
 
 ### <a name="create-an-rsa-key"></a>Creación de una clave RSA
 

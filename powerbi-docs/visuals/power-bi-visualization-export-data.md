@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/19/2019
+ms.date: 07/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 86a3faf2095ff5100bc372a68b7d56861eb94806
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523349"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730082"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 
@@ -79,6 +79,8 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
     ![Captura de pantalla de la pantalla Exportar datos con las opciones Datos resumidos, xlsx y Exportar resaltadas.](media/power-bi-visualization-export-data/power-bi-export-data5.png)
 
     Si aplicó filtros a la visualización, los datos exportados se exportarán como filtrados. Cuando seleccione **Exportar**, el explorador le pedirá que guarde el archivo. Una vez que lo haya guardado, abra el archivo en Excel.
+    
+    Se exportan todos los datos usados por la jerarquía, no solo los datos usados para el nivel de detalle actual para el objeto visual. Por ejemplo, si la visualización todavía no se ha explorado en profundidad desde el nivel superior, los datos exportados incluirán todos los datos de la jerarquía, no solo los datos usados para crear el objeto visual en su nivel explorado actualmente.
 
     **Datos resumidos**: seleccione esta opción si quiere exportar los datos de lo que ve en ese objeto visual.  Este tipo de exportación muestra únicamente los datos (columnas y medidas) que eligió para crear el objeto visual.  Si el objeto visual tiene un agregado, se exportarán los datos agregados. Por ejemplo, si tiene un gráfico de barras que muestra cuatro barras, obtendrá cuatro filas de datos. Los datos resumidos están disponibles como *.xlsx* y *.csv*.
 
@@ -92,6 +94,8 @@ Para poder continuar, abra el [informe de ejemplo de análisis de adquisiciones]
     > Según la configuración del informe, puede o no puede tener la opción para exportar los datos subyacentes.
 
     Si aplicó filtros a la visualización, los datos exportados se exportarán como filtrados. Cuando seleccione **Exportar**, el explorador le pedirá que guarde el archivo. Una vez que lo haya guardado, abra el archivo en Excel.
+    
+    Se exportan todos los datos usados por la jerarquía, no solo los datos usados para el nivel de detalle actual para el objeto visual. Por ejemplo, si la visualización todavía no se ha explorado en profundidad desde el nivel superior, los datos exportados incluirán todos los datos de la jerarquía, no solo los datos usados para crear el objeto visual en su nivel explorado actualmente.
 
     >[!WARNING]
     >Al exportarse los datos subyacentes, se permite a los usuarios ver todos los datos detallados, es decir, todas las columnas de los datos. Los administradores del servicio Power BI pueden desactivar esta opción para su organización. Si es el propietario de un conjunto de datos, puede establecer las columnas de propiedad en **ocultas** para que no aparezcan en la lista **Campo** en el servicio de escritorio o Power BI.

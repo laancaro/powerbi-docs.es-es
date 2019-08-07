@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1a2415ba840a1b88f4c7a215a520d0cc88f70e49
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: e5a4e862c89d08b4e277cb4abae934f3fd47141e
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462205"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757633"
 ---
 # <a name="merge-or-append-on-premises-and-cloud-data-sources"></a>Combinar o anexar orígenes de datos locales o en la nube
 
@@ -61,4 +61,4 @@ Use la puerta de enlace de datos local para combinar o anexar orígenes de datos
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para obtener más información sobre la actualización de datos para las puertas de enlace, vea [Uso del origen de datos para actualización programada](service-gateway-enterprise-manage-scheduled-refresh.md#using-the-data-source-for-scheduled-refresh).
+Para más información sobre la actualización de datos para las puertas de enlace, vea [Uso del origen de datos para actualización programada](service-gateway-enterprise-manage-scheduled-refresh.md#use-the-data-source-for-scheduled-refresh).

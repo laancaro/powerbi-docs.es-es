@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 751bcb5ee3b383853f0087bab406d59a2271b588
-ms.sourcegitcommit: 4595a6231615d253aead315cb3f85472e2f189e6
+ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
+ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/25/2019
-ms.locfileid: "68501777"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "68757735"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -375,7 +375,7 @@ Los usuarios de la organización pueden consultar las métricas de uso de los pa
 
 Las métricas de uso de creadores de contenido revelan los nombres para mostrar y las direcciones de correo electrónico de los usuarios que acceden al contenido. [Más información](service-usage-metrics.md)
 
-Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si prefiere no incluir esta información de algunos los usuarios, incluso de ninguno de ellos, deshabilite la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta aparecerá en el informe como *Sin nombre*.
+Los datos por usuario están habilitados de forma predeterminada en las métricas de uso, mientras que el informe de métricas incluye información sobre la cuenta del creador de contenido. Si no desea recopilar esta información para todos los usuarios, puede deshabilitar la característica para los grupos de seguridad en cuestión o para toda la organización. En tal caso, la información de la cuenta de los usuarios excluidos aparecerá en el informe como *Sin nombre*.
 
 ## <a name="dashboard-settings"></a>Configuración del panel
 
@@ -432,7 +432,7 @@ Controle qué usuarios de la organización pueden descargar e instalar aplicacio
 
 ![Portal de administración de Power BI, opción Instalar aplicaciones de plantilla](media/service-admin-portal/power-bi-admin-portal-template-app-settings-installer-nonappsource.png)
 
-## <a name="capacity-settings"></a>Configuración de capacidad
+## <a name="capacity-settings"></a>Configuración de la capacidad
 
 ### <a name="power-bi-premium"></a>Power BI Premium
 
