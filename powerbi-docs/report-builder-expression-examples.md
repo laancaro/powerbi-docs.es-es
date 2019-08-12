@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: db0ea02237a2279c26f2c47cecd3bae794a5cba4
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840312"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68624153"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
 Las expresiones se usan con frecuencia en los informes paginados del Generador de informes paginados de Power BI para controlar el aspecto del contenido y los informes. Las expresiones se escriben en Microsoft Visual Basic y pueden usar funciones integradas, código personalizado, variables de informe y grupo, y variables definidas por el usuario. Las expresiones comienzan con un signo igual (=).   
@@ -40,7 +40,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
 ##  <a name="VisualBasicFunctions"></a> Funciones de Visual Basic  
  Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para más información, consulte [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) en MSDN.  
   
- .NET Framework proporciona muchas opciones de formato personalizado, por ejemplo, formatos de fecha específicos. Para más información, consulte [Aplicación de formatos a tipos](https://go.microsoft.com/fwlink/?LinkId=112024) en MSDN.  
+ .NET Framework proporciona muchas opciones de formato personalizado, por ejemplo, formatos de fecha específicos. Para más información, consulte [Aplicar formato a tipos en .NET](/dotnet/standard/base-types/formatting-types).  
   
 ### <a name="math-functions"></a>Funciones matemáticas  
   

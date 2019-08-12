@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cf9b3335b10b7a2cd3abcc3f02c651ed4416184e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269946"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623830"
 ---
 # <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
 
@@ -22,7 +22,7 @@ Aprenda a publicar objetos visuales personalizados en AppSource para que otros u
 
 Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para obtener más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md).
 
-   ![Tienda Office](media/office-store/AppSource_01.jpg)
+   ![Tienda Office](media/office-store/appsource-01.png)
 
 ## <a name="what-is-appsource"></a>¿Qué es AppSource?
 
@@ -30,7 +30,7 @@ Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppS
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 
-Cuando haya terminado leer nuestra [directrices de los objetos visuales de Power BI](guidelines-powerbi-visuals.md), codificación y [probar el objeto visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y lo haya empaquetado en un archivo pbiviz, también debe tener lo siguiente preparado para su envío.
+Cuando acabe de leer nuestras [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md), de programar, de [probar su objeto visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y de empaquetarlo en un archivo pbiviz, también debe tener lo siguiente listo para enviarlo.
 
 | Artículo | Obligatoria | Descripción |
 | --- | --- | --- |

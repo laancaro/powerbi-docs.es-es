@@ -1,22 +1,23 @@
 ---
 title: Planeamiento de un informe en el Generador de informes de Power BI
 description: El Generador de informes paginados de Power BI le permite crear muchos tipos de informes paginados. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero.
-ms.date: 06/06/2019
+ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: fd4a318d7a61f6f2298de6b9d5d23ad2ae063d28
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
+ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840519"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68623876"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planeamiento de un informe en el Generador de informes de Power BI
-  El Generador de informes paginados de Power BI le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, tendencias de ventas y marketing, informes operativos o paneles. También puede crear informes que aprovechen las ventajas del texto con formato enriquecido, como pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean con combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero. Estas son algunas cosas que es posible que desee considerar antes de empezar:  
+
+El Generador de informes paginados de Power BI le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, tendencias de ventas y marketing, informes operativos o paneles. También puede crear informes que aprovechen las ventajas del texto con formato enriquecido, como pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean con combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero. Estas son algunas cosas que es posible que desee considerar antes de empezar:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>¿En qué formato desea que aparezca el informe?
   
@@ -36,7 +37,7 @@ Es posible que desee restringir el ámbito del informe a ubicaciones o usuarios 
   
 ## <a name="do-you-need-to-create-calculations"></a>¿Necesita crear cálculos? 
   
-     Sometimes, your data source and datasets do not contain the exact fields that you need for your report. In that situation, you might have to create your own calculated fields. For example, you might want to multiply the price per unit times the quantity to get a line item sales amount. Expressions are also used to provide conditional formatting and other advanced features. For more information, see [Expressions in Power BI Report Builder](report-builder-expressions.md).  
+A veces, el origen de datos y los conjuntos de datos no contienen los campos exactos que necesita para el informe. En esa situación, es posible que tenga que crear sus propios campos calculados. Por ejemplo, puede que quiera multiplicar el precio por unidad por la cantidad para obtener un importe de venta de un artículo de línea. Las expresiones también se usan para proporcionar un formato condicional y otras características avanzadas. Para más información, consulte [Expresiones en el Generador de informes de Power BI](report-builder-expressions.md).  
   
 ## <a name="do-you-want-to-hide-report-items-initially"></a>¿Desea ocultar inicialmente los elementos del informe?
   
@@ -44,7 +45,7 @@ Tenga en cuenta si desea ocultar los elementos del informe, incluyendo las regio
   
 ## <a name="how-are-you-going-to-deliver-your-report"></a>¿Cómo va a distribuir el informe?  
   
-     You can save your report to your local computer and continue to work on it, or run it locally for your own information. However, to share your report with others, you need to save the report to Power BI. Saving it to Power BI lets others run it whenever they want to. Alternatively, you can set up a subscription and e-mail delivery of the report to other individuals. You can have the report delivered in a specific export format if you prefer. 
+Puede guardar el informe en el equipo local y continuar trabajando en él o ejecutarlo localmente para obtener su propia información. Sin embargo, para compartir el informe con otros usuarios, debe guardarlo en Power BI. Guardarlo en Power BI permite que otros lo ejecuten siempre que quieran. Como alternativa, puede configurar una suscripción y la entrega de correo electrónico del informe a otras personas. Si lo prefiere, puede hacer que el informe se entregue en un formato de exportación específico. 
   
 ## <a name="next-steps"></a>Pasos siguientes
 
