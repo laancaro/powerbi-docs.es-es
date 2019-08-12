@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d9e670d2567181a0dc99c23997ac3bc2d35f3c9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 2c21792f97445b336709038f7ec2ec39d041312b
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271594"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68730048"
 ---
 # <a name="manage-your-data-source---sql-server"></a>Administrar el origen de datos: SQL Server
 
@@ -37,7 +37,7 @@ Después, deberá rellenar la información del origen de datos que incluye el **
 También tendrá que elegir un **Método de autenticación**. Puede ser **Windows** o **Básico**. Le interesará elegir **Básico** si va a usar la autenticación de SQL en lugar de la de Windows. A continuación, escriba las credenciales que se usarán para este origen de datos.
 
 > [!NOTE]
-> Todas las consultas al origen de datos se ejecutarán con estas credenciales, a menos que se haya configurado el inicio de sesión único de Kerberos y esté habilitado para el origen de datos. Con el inicio de sesión único, los conjuntos de datos de importación usan las credenciales almacenadas, pero los conjuntos de datos de DirectQuery utilizan el usuario actual de Power BI para ejecutar las consultas mediante inicio de sesión único. Para más información, sobre cómo se almacenan las credenciales, vea [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#storing-encrypted-credentials-in-the-cloud), o bien el artículo en el que se describe el [Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales](service-gateway-sso-kerberos.md).
+> Todas las consultas al origen de datos se ejecutarán con estas credenciales, a menos que se haya configurado el inicio de sesión único de Kerberos y esté habilitado para el origen de datos. Con el inicio de sesión único, los conjuntos de datos de importación usan las credenciales almacenadas, pero los conjuntos de datos de DirectQuery utilizan el usuario actual de Power BI para ejecutar las consultas mediante inicio de sesión único. Para más información sobre cómo se almacenan las credenciales, vea [Almacenamiento de credenciales cifradas en la nube](service-gateway-data-sources.md#store-encrypted-credentials-in-the-cloud), o bien el artículo en el que se describe el [Uso de Kerberos para el SSO (inicio de sesión único) de Power BI en orígenes de datos locales](service-gateway-sso-kerberos.md).
 
 ![Rellene la configuración del origen de datos](media/service-gateway-enterprise-manage-sql/datasourcesettings3.png)
 

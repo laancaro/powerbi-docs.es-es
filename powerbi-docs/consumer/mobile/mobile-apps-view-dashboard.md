@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
+ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: dc117c9b17e9d20d1e5be6e6fedd18cb7aa3ae61
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4629b78379ba87d58c31f8102b855e1f62565abd
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61141636"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665518"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
 
-| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | ![Dispositivos de Windows 10](./media/mobile-apps-view-dashboard/win-10-logo-50-px.png) |
+| ![iPhone](./media/mobile-apps-view-dashboard/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-view-dashboard/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-view-dashboard/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-view-dashboard/android-tablet-logo-50-px.png) | 
 |:--- |:--- |:--- |:--- |:--- |
-| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Teléfonos Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tabletas Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |[Dispositivos Windows 10](mobile-apps-view-dashboard.md#view-dashboards-on-your-windows-10-device) |
+| [iPhones](mobile-apps-view-dashboard.md#view-dashboards-on-your-iphone) |[iPads](mobile-apps-view-dashboard.md#view-dashboards-on-your-ipad) |[Teléfonos Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-phone) |[Tabletas Android](mobile-apps-view-dashboard.md#view-dashboards-on-your-android-tablet) |
 
 Los paneles sirven como portal para ver los procesos y el ciclo de vida de su empresa. Un panel es un recurso de información general, un lugar único para supervisar el estado actual de los datos.
 
@@ -145,45 +145,6 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
     ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-android-tablet-breadcrumb.png)
 
     Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
-
-## <a name="view-dashboards-on-your-windows-10-device"></a>Ver paneles en un dispositivo con Windows 10
-1. Abra la aplicación de Power BI en el dispositivo con Windows 10 e inicie sesión.
-   
-   ¿Necesita [descargar la aplicación](http://go.microsoft.com/fwlink/?LinkID=526478) primero?
-2. Pulse un panel para abrirlo.   
-   
-   ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-windows-10-device-dashboard-home.png)
-   
-   * Las estrellas negras muestran cuáles son los paneles favoritos. 
-   * La notación debajo de cada nombre de panel (en este ejemplo, **MBI**) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
-   
-   Los paneles de Power BI tienen un aspecto un poco distinto en los teléfonos con Windows 10. Todos los iconos aparecen de la misma anchura y están ordenados uno tras otro de arriba hacia abajo.
-   
-   ![Vista vertical del panel](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-0928.png)
-   
-    También puede girar el teléfono lateralmente para ver los paneles en modo horizontal en su teléfono.
-   
-   > [!TIP]
-   > Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../service-create-dashboard-mobile-phone-view.md) en modo vertical. 
-   > 
-   > 
-3. En el panel puede hacer lo siguiente:
-   
-   * [Pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo e interactuar con él.
-   * Pulse el icono **Pantalla completa** ![Icono Pantalla completa](./media/mobile-apps-view-dashboard/power-bi-windows-10-full-screen-icon.png) para presentar el panel de Power BI sin bordes o menús, como la vista **Presentación con diapositivas** en PowerPoint.
-   * Pulse el icono **Invitar** ![Icono Invitar](./media/mobile-apps-view-dashboard/pbi_andr_inviteicon.png) para [compartir el panel](mobile-share-dashboard-from-the-mobile-apps.md) con un compañero.
-   * Toque la estrella ![Estrella de favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [convertir el panel en favorito](mobile-apps-favorites.md).
-   * Pulse el icono **Anclar a Inicio** para [anclar el panel a la pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md). 
-4. Para volver a la página principal de paneles, pulsa el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**:
-   
-    ![Ruta de navegación](./media/mobile-apps-view-dashboard/power-bi-windows-10-dashboard-breadcrumb.png)
-
-### <a name="view-dashboards-in-landscape-mode-on-your-windows-10-phone"></a>Ver paneles en modo horizontal en un teléfono con Windows 10
-Gire el teléfono para poder ver los paneles en modo horizontal. El diseño del panel cambia de una serie de iconos a una vista de todo el panel: se ven todos los iconos del panel dispuestos como en el servicio Power BI.
-
-![Vista horizontal del panel](./media/mobile-apps-view-dashboard/pbi_iph_landscape.png)
-
-Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.
 
 ## <a name="create-a-phone-view-of-a-dashboard-in-the-power-bi-service"></a>Crear una vista de teléfono de un panel en el servicio Power BI
 Si es el propietario del panel, *en el servicio Power BI* puede crear una vista del panel específicamente para teléfonos en modo vertical. 

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 03/31/2018
-ms.openlocfilehash: d7d3bf85661284835271b68c476ee53ec2c474bc
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 031274f4f35ef1e36ec17648c2cbf967f5436020
+ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751116"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "68729812"
 ---
 # <a name="changelog-for-power-bi-report-server"></a>Registro de cambios del servidor de informes de Power BI
 
@@ -45,6 +45,10 @@ Para obtener información detallada sobre las nuevas características, consulte 
             - Se ha agregado un vínculo más sencillo para la navegación hacia atrás en la ventana de selección de PBIRS.
             - Corrección para el modo de Alto contraste en PBIRS para mostrar el botón Atrás, que muestra mensajes visuales de advertencia.
             - Correcciones de la interfaz de usuario en el panel de selección, escalado del lienzo.
+
+    - *Versión: 2.69.5467.5201 (mayo de 2019), publicada el: 30 de julio de 2019*
+        - Correcciones de errores
+            - Corrección del registro de telemetría incorrecta
 
 ## <a name="january-2019"></a>Enero de 2019
 
@@ -93,8 +97,11 @@ Para obtener información detallada sobre las nuevas características, consulte 
         - Los iconos de acceso directo y los anclados siguen estando después de desinstalar Power BI Report Server
         - Corrección para anclar Power BI Report Server en el menú de inicio proporcionando texto en negro sobre un icono negro
 
-    - *Versión: 2.65.5313.1421 (enero de 2019), fecha de publicación: 22 de enero de 2019*
-        - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2019).  
+    - *Versión: 2.65.5313.1421 (enero de 2019), fecha de publicación: 22 de enero de 2019* (nueva compilación y nueva versión)
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2019). 
+    - *Versión: 2.65.5313.5141 (enero de 2019), fecha de publicación: 31 de julio de 2019* (nueva compilación y nueva versión)
+        - Correcciones de errores
+            - Corrección del registro de telemetría incorrecta
 
 ## <a name="august-2018"></a>Agosto de 2018
 

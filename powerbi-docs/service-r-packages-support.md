@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 76361bba2690e0ab6ae8fa49008d7a6accae900e
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 60d97d8b2226e9a3f9aba2bf043bd9c6aade161a
+ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325065"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "68665308"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación R](https://www.r-project.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de R (y con el tiempo se van admitiendo más), pero algunos no.
@@ -29,6 +29,7 @@ Los paquetes R admitidos para el **servicio Power BI** se encuentran en la sigui
 ## <a name="requirements-and-limitations-of-r-packages"></a>Requisitos y limitaciones de los paquetes R
 Hay una serie de requisitos y limitaciones para los paquetes R:
 
+* Tiempo de ejecución actual de R: Microsoft R 3.4.4
 * El servicio Power BI, en su mayor parte, es compatible con los paquetes R con licencias de software gratuitas y de código abierto como GPL-2, GPL-3, MIT+, etc.
 * El servicio Power BI admite paquetes publicados en CRAN. El servicio no es compatible con paquetes R personalizados o privados. Animamos a los usuarios a que pongan sus paquetes privados a disposición de CRAN antes de solicitar que el paquete esté disponible en el servicio Power BI.
 * **Power BI Desktop** tiene dos variaciones para los paquetes de R:
