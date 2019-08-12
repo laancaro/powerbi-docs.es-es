@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: 6e3bed0cf8dda765722c0076086f59a91f1f380d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
+ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770795"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68808217"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -202,7 +202,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 | Azure SQL Database |No |No |Sí |No |No |
 | Azure SQL Data Warehouse |No |No |Sí |No |No |
 | Base de datos de Oracle |No |No |Sí |Sí |Sí |
-| Servidor de SAP Business Warehouse |No |No |Sí |No |Sí |
+| Servidor de SAP Business Warehouse |No |No |Sí |No |No |
 | Base de datos SAP HANA |No |No |Sí |Sí |No |
 | Base de datos de Teradata |No |No |Sí |Sí |Sí |
 
