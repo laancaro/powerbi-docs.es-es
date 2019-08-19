@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: d6961007c3f7185b954188fa7bd7866d80a7f85a
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523397"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490323"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -38,7 +38,6 @@ En este artículo se tratan las preguntas más frecuentes para la administració
 
 * [¿Cómo cambiará esto la manera de administrar identidades para usuarios de mi organización hoy?](#how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today)
 * [¿Cómo se administra Power BI?](#how-do-we-manage-power-bi)
-* [¿Cuál es el proceso para administrar un inquilino creado por Microsoft para mis usuarios?](#what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users)
 * [Si dispongo de varios dominios, ¿puedo controlar el inquilino de Office 365 al que se agregan usuarios?](#if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to)
 * [¿Cómo quito Power BI para los usuarios que ya están suscritos?](#how-do-i-remove-power-bi-for-users-that-already-signed-up)
 * [¿Cómo sé cuándo nuevos usuarios se han unido a mi inquilino?](#how-do-i-know-when-new-users-have-joined-my-tenant)
@@ -173,18 +172,6 @@ Hay tres escenarios que se podrían aplicarse a los usuarios de su organización
 Power BI proporciona un portal de administración que permite ver estadísticas de uso, proporciona un vínculo al Centro de administración de Microsoft 365 para administrar usuarios y grupos, y ofrece la posibilidad de controlar la configuración de todos los inquilinos.
 
 Para usar al portal de administración de Power BI, debe marcar la cuenta como **Administrador global** dentro de Office 365 o Azure Active Directory, o bien alguien debe asignar el rol de administrador del servicio Power BI a la cuenta de usuario. Para más información, vea [Descripción del rol de administrador de Power BI](service-admin-role.md) y [Portal de administración de Power BI](service-admin-portal.md).
-
-### <a name="what-is-the-process-to-manage-a-tenant-created-by-microsoft-for-my-users"></a>¿Cuál es el proceso para administrar un inquilino creado por Microsoft para mis usuarios?
-
-Cuando un usuario de autoservicio se suscribe a un servicio en la nube que usa Azure AD, el servicio lo agrega a un directorio de Azure AD no administrado en función de su dominio de correo electrónico. Puede reclamar y administrar el inquilino que alguien haya creado mediante un proceso conocido como *adquisición de administrador*. El tipo de adquisición que realice dependerá de si existe un inquilino administrado asociado al dominio:
-
-* Utilice una *adquisición interna* para crear otro inquilino administrado para el dominio.
-
-* Utilice una *adquisición externa* para mover el dominio a un inquilino administrado existente.
-
-Para más información, vea [Adquisición de un directorio no administrado como administrador en Azure Active Directory](/azure/active-directory/users-groups-roles/domains-admin-takeover).
-
-Al realizar una adquisición externa, el servicio coloca el contenido de Power BI que se ha creado antes de la adquisición en un [área de trabajo de archivado de Power BI](service-admin-power-bi-archived-workspace.md). Debe migrar manualmente cualquier contenido que quiera utilizar en el nuevo inquilino.
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-office-365-tenant-that-users-get-added-to"></a>Si dispongo de varios dominios, ¿puedo controlar el inquilino de Office 365 al que se agregan usuarios?
 
