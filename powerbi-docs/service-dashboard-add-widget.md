@@ -1,5 +1,5 @@
 ---
-title: Adición de imagen, texto, vídeo y datos de transmisión al panel
+title: Adición de imágenes, vídeos y mucho más al panel
 description: Documentación sobre cómo usar el widget Agregar icono para agregar un icono de imagen, vídeo, cuadro de texto, código web y datos de transmisión a un panel.
 author: maggiesMSFT
 manager: kfile
@@ -8,103 +8,198 @@ featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 03/02/2018
+ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 1a1cb84d889b5f4df4ec53ee9a2a53b95a5daf8a
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
+ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67533171"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68832559"
 ---
-# <a name="add-image-text-video-and-more-to-your-dashboard"></a>Agregar imagen, texto, vídeo y mucho más al panel
+# <a name="add-images-videos-and-more-to-your-dashboard"></a>Adición de imágenes, vídeos y mucho más al panel
+
+Al agregar un icono al panel, puede colocar una imagen, un cuadro de texto, un vídeo, datos de streaming o código web en el panel. 
+
+Vea cómo Amanda agrega iconos a un panel.
+
+   
 <iframe width="560" height="315" src="https://www.youtube.com/embed/e2PD8m1Q0vU" frameborder="0" allowfullscreen></iframe>
 
 
-## <a name="add-tile"></a>Agregar icono
-El control **Agregar icono** permite agregar directamente una imagen, un cuadro de texto, un vídeo, datos de transmisión o código web al panel.
+## <a name="add-an-image-video-or-other-tile"></a>Adición de una imagen, un vídeo u otro icono
+Puede agregar una imagen, un cuadro de texto, un vídeo, datos de transmisión o código web directamente al panel.
 
-1. Seleccione **Agregar icono** en la barra de menús superior. En función de las limitaciones de espacio, es posible que solo vea el signo más ![signo más](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
+1. Seleccione **Agregar icono** en la barra de menús superior del panel. En función de las limitaciones de espacio, es posible que solo vea el signo más ![signo más](media/service-dashboard-add-widget/power-bi-add-tile-icon-small.png).
    
     ![Icono de Agregar icono](media/service-dashboard-add-widget/power-bi-add-tile-icon.png)
-2. Seleccione el tipo de icono que desea agregar: **Imagen**, **Cuadro de texto**, **Vídeo**, **Contenido web** o **Datos de transmisión personalizados**.
+2. Seleccione el tipo de icono que desea agregar: 
+
+    **[Contenido web](#add-web-content)**
+
+    **[Imagen](#add-an-image)**
+
+    **[Cuadro de texto](#add-a-text-box-or-dashboard-heading)**
+
+    **[Vídeo](#add-a-video)**
+
+    **[Datos de transmisión personalizados](#add-streaming-data)**
    
     ![Ventana Agregar icono](media/service-dashboard-add-widget/power-bi-add-tile.png)
 
 ## <a name="add-an-image"></a>Agregar una imagen
-Supongamos que desea incluir el logotipo de su empresa, u otra imagen, en el panel. Debe guardar el archivo de imagen en línea y vincularse a él. Asegúrese de que no se necesitan credenciales especiales para tener acceso al archivo de imagen. Por ejemplo, OneDrive y SharePoint requieren autenticación, por lo que las imágenes almacenadas allí no se puede agregar a un panel de esta manera.  
+Si quiere agregar el logotipo de su empresa u otra imagen al panel, guarde el archivo de imagen en línea y establezca un vínculo a él. Asegúrese de que no se necesitan credenciales de seguridad para acceder al archivo de imagen. Por ejemplo, ya que OneDrive y SharePoint requieren autenticación, las imágenes almacenadas allí no se pueden agregar a un panel de esta manera.  
 
-1. Seleccione **Imagen** > **Siguiente**.
-2. Agregue información de la imagen a la ventana **Agregar icono de imagen**.
+1. En la ventana **Agregar icono**, seleccione **Imagen** > **Siguiente**.
+
+2. En la ventana **Agregar icono de imagen**, agregue la información de la imagen:   
    
-    ![Ventana Agregar icono de imagen](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
-   
-   * Para mostrar un título sobre la imagen, seleccione *Mostrar el título y el subtítulo* y escriba un título y/o un subtítulo.
-   * Escriba la dirección URL de la imagen.
-   * Para convertir el icono en un hipervínculo, seleccione **Establecer vínculo personalizado** y escriba la dirección URL.  Cuando los compañeros haga clic en la imagen o el título, se les dirigirá a esta dirección URL.
-   * Seleccione **Aplicar**.  En el panel, cambie el tamaño de la imagen y muévala según sea necesario.
+   a. Para mostrar un título sobre la imagen, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**.
+
+   b. Escriba la **URL** de la imagen.
+
+   c. Para convertir el icono en un hipervínculo, seleccione **Establecer vínculo personalizado** y escriba la **URL**. 
+
+      Cuando los compañeros hagan clic en la imagen o el título, se les dirigirá a esta URL.
+
+   d. Seleccione **Aplicar**. 
+
+      ![Ventana Agregar icono de imagen](media/service-dashboard-add-widget/pbi-widget-add-image-new.png)
+
+3. En el panel, cambie el tamaño de la imagen y muévala según sea necesario.
      
-     ![Imagen sobre el panel](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
+     ![Imagen en el panel](media/service-dashboard-add-widget/power-bi-add-image-dash.png)
 
 ## <a name="add-a-text-box-or-dashboard-heading"></a>Agregar un cuadro de texto o un encabezado de panel
-1. Seleccione **Cuadro de texto > Siguiente**.
-   
-   > **NOTA**: Para agregar un encabezado de panel, escriba el encabezado en el cuadro de texto y aumente el tamaño de la fuente.
-   > 
+
+Para agregar un encabezado de panel, escriba el encabezado en el cuadro de texto y aumente el tamaño de la fuente.
+
+1. En la ventana **Agregar icono**, seleccione **Cuadro de texto** > **Siguiente**.
+
 2. Dé formato al cuadro de texto:
    
-   * Para mostrar un título sobre el cuadro de texto, seleccione **Mostrar el título y el subtítulo** y escriba un título y/o un subtítulo.
-   * Especificar y formatee el contenido del cuadro de texto.  
-   * De manera opcional, establezca un vínculo personalizado para el título. Un vínculo personalizado puede ser un sitio externo o un panel o informe del área de trabajo. Sin embargo, en este ejemplo se agregaron hipervínculos en el texto del cuadro, por lo que debe dejar desactivada la opción **Establecer vínculo personalizado**.
+   a. Para mostrar un título sobre el cuadro de texto, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**.
+
+   b. Especifique el **contenido** del cuadro de texto y aplíquele formato.  
+
+   c. De manera opcional, establezca un vínculo personalizado para el título. Un vínculo personalizado puede ser un sitio externo o un panel o informe del área de trabajo. En cambio, en este ejemplo se han agregado hipervínculos en el texto del cuadro, por lo que debe dejar desactivada la opción **Establecer vínculo personalizado**.
+
+   d. Seleccione **Aplicar**. 
 
      ![Ventana Agregar icono de cuadro de texto](media/service-dashboard-add-widget/power-bi-add-textbox.png)
    
-3. Seleccione **Aplicar**.  En el panel, cambie el tamaño del cuadro de texto y muévalo según sea necesario.
+3. En el panel, cambie el tamaño del cuadro de texto y muévalo según sea necesario.
    
    ![Panel con imagen y cuadro de texto](media/service-dashboard-add-widget/pbi-widget-text-added-new.png)
 
 ## <a name="add-a-video"></a>Agregar un vídeo
 Al agregar un icono de vídeo de YouTube o Vimeo al panel, el vídeo se reproduce en el panel.
 
-1. Seleccione **Vídeo > Siguiente**.
-2. Agregue información del vídeo al panel **Agregar icono de vídeo**.
+1. En la ventana **Agregar icono**, seleccione **Vídeo** > **Siguiente**.
+2. Agregue la información del vídeo en la ventana **Agregar icono de vídeo**:   
    
-    ![Ventana Agregar icono de vídeo](media/service-dashboard-add-widget/power-bi-add-video-new.png)
-   
-   * Para mostrar un título y un subtítulo sobre el icono de vídeo, seleccione *Mostrar el título y el subtítulo* y escriba un título y/o un subtítulo. En este ejemplo, agregaremos un subtítulo y lo convertiremos en un hipervínculo a la lista de reproducción completa en YouTube.
-   * Escriba la dirección URL del vídeo.
-   * Agregue un hipervínculo para el título y el subtítulo.  Después de que sus compañeros vean el vídeo insertado, es posible que quiera que vean la lista de reproducción completa en YouTube (agregue aquí un vínculo a la lista de reproducción).
-   * Seleccione **Aplicar**.  En el panel, cambie el tamaño del vídeo y muévalo según sea necesario.
+   a. Para mostrar un título y un subtítulo sobre el icono de vídeo, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**. En este ejemplo, agregaremos un **subtítulo** y lo convertiremos en un hipervínculo a la lista de reproducción completa de YouTube.
+
+   b. Escriba la **URL del vídeo**.
+
+   c. Agregue un hipervínculo al **título** y al **subtítulo**, de modo que sus compañeros puedan ver la lista de reproducción completa en YouTube después de ver el vídeo insertado. Para ello, en **Funcionalidad**, seleccione **Establecer vínculo personalizado** y escriba la **URL** de la lista de reproducción.
+
+   d. Seleccione **Aplicar**.  
+
+   ![Ventana Agregar icono de vídeo](media/service-dashboard-add-widget/power-bi-add-video-new.png)
+
+3. En el panel, cambie el tamaño del vídeo y muévalo según sea necesario.
      
-      ![Panel con icono de vídeo agregado](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
-3. Seleccione el icono de vídeo para reproducir el vídeo.
-4. Seleccione el subtítulo para visitar la lista de reproducción en YouTube.
+   ![Panel con el icono de vídeo agregado](media/service-dashboard-add-widget/pbi-widget-video-added-new.png)
+4. Seleccione el icono de vídeo para reproducir el vídeo.
+5. Seleccione el subtítulo para visitar la lista de reproducción en YouTube.
 
 ## <a name="add-streaming-data"></a>Agregar datos de transmisión
+Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o datos de sensores, a un icono en el panel. Power BI ha creado una integración para obtener los datos de PubNub. Aquí se explica cómo funciona.
+   
+
+Puede usar PubNub para agregar datos de streaming, como fuentes de Twitter o datos de sensores, a un icono en el panel. Power BI ha creado una integración para obtener los datos de PubNub. Aquí se explica cómo funciona. 
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/kOuINwgkEkQ" frameborder="0" allowfullscreen></iframe>
 
+1. En la ventana **Agregar icono**, seleccione **Datos de transmisión personalizados** > **Siguiente**.
+2. Seleccione **Agregar conjunto de datos de streaming**.
+3. Cree un **Nuevo conjunto de datos de transmisión** con la API de Power BI o PubNub.
+4. Rellene los campos correspondientes a **Nombre del conjunto de datos**, **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
+5. Seleccione **Siguiente**.
+    Verá los campos que están disponibles en el conjunto de datos, con sus tipos de datos y formato JSON.
+6. Seleccione **Conectar**.
+    Ha creado un conjunto de datos de streaming.
+7. Vuelva al panel y seleccione de nuevo **Agregar icono** > **Datos de transmisión personalizados** > **Siguiente**.
+8. Seleccione el conjunto de datos de sensor que ha creado > **Siguiente**.
+9. Seleccione el tipo de objeto visual que quiera. A menudo, un gráfico de líneas funciona bien con estos datos.
+10. Seleccione el **eje**, la **leyenda** y los **valores**.
+11. Decida el período de tiempo que quiera mostrar, ya sea en segundos, minutos u horas.
+12. Seleccione **Siguiente**.
+13. Si quiere, asígnele un **título** y un **subtítulo**.
+14. Ánclelo al panel.
+
+
+1. En la ventana **Agregar icono**, seleccione **Datos de transmisión personalizados** > **Siguiente**.
+
+2. Seleccione **Agregar conjunto de datos de streaming**.
+
+3. Cree un **Nuevo conjunto de datos de transmisión** con la API de Power BI o PubNub.
+
+4. Rellene los campos correspondientes a **Nombre del conjunto de datos**, **Clave de suscripción** y **Nombre del canal**. Si se trata de una conexión segura, también tiene una clave de autorización. Puede usar los valores de ejemplo de PubNub para probarlo.
+
+5. Seleccione **Siguiente**.
+
+   Verá los campos que están disponibles en el conjunto de datos, con sus tipos de datos y formato JSON.
+
+6. Seleccione **Conectar**.
+
+   Ha creado un conjunto de datos de streaming.
+
+7. Vuelva al panel y seleccione de nuevo **Agregar icono** > **Datos de transmisión personalizados** > **Siguiente**.
+
+8. Seleccione el conjunto de datos de sensor que ha creado > **Siguiente**.
+
+9. Seleccione el tipo de objeto visual que quiera. A menudo, un gráfico de líneas funciona bien con estos datos.
+
+10. Seleccione el **eje**, la **leyenda** y los **valores**.
+
+11. Decida el período de tiempo que quiera mostrar, ya sea en segundos, minutos u horas.
+
+12. Seleccione **Siguiente**.
+
+13. Si quiere, asígnele un **título** y un **subtítulo**.
+
+14. Ánclelo al panel.
+
 ## <a name="add-web-content"></a>Agregar contenido web
-Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono al panel. Escriba el código para insertar manualmente o cópielo y péguelo desde sitios como Twitter, YouTube, embed.ly, etc.
+Puede pegar o escribir cualquier contenido HTML, como un icono, en el informe o el panel. Escriba el código para insertar manualmente o cópielo y péguelo desde sitios como Twitter, YouTube, embed.ly, etc.
 
-1. Seleccione **Contenido web > Siguiente**.
-2. Agregue información al panel **Agregar icono de contenido web**.
+1. En la ventana **Agregar icono**, seleccione **Contenido web** > **Siguiente**.
+
+2. Agregue información a la ventana **Agregar icono de contenido web**:
    
-    ![Ventana Agregar icono de contenido web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
+   a. Para mostrar un título sobre el icono, seleccione **Mostrar el título y el subtítulo** y escriba un **título** y, si quiere, un **subtítulo**.
+
+   b. Escriba el código para insertar. En este ejemplo, vamos a copiar y pegar una fuente de Twitter.
+
+   c. Seleccione **Aplicar**.
+
+   ![Ventana Agregar icono de contenido web](media/service-dashboard-add-widget/power-bi-add-web-content.png)
    
-   * Para mostrar un título sobre la imagen, seleccione *Mostrar el título y el subtítulo* y escriba un título y/o un subtítulo.
-   * Escriba el código para insertar. En este ejemplo, vamos a copiar y pegar una fuente de Twitter.
-3. Seleccione **Aplicar**.  En el panel, cambie el tamaño del icono de contenido web y muévalo según sea necesario.
+
+3. En el panel, cambie el tamaño del icono de contenido web y muévalo según sea necesario.
      
-      ![Panel con cuatro iconos](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
+   ![Panel con cuatro iconos](media/service-dashboard-add-widget/pbi-widget-code-added-new.png)
 
-## <a name="tips-for-embedding-web-content"></a>Sugerencias para insertar contenido web
-* Para iframes, use un origen seguro. Si escribe el código para insertar del iframe y obtiene un icono en blanco, compruebe si está usando **http** para el origen del iframe.  Si es así, cámbielo por **https**.
+### <a name="tips-for-embedding-web-content"></a>Sugerencias para insertar contenido web
+* Para iframes, use un origen seguro. Si escribe el código para insertar del iframe y obtiene un icono en blanco, compruebe que no esté usando *http* para el origen del iframe. Si lo está usando, cámbielo por *https*.
   
   ```html
   <iframe src="https://xyz.com">
   ```
-* Edite la información de ancho y alto. Este código para insertar inserta un vídeo y establece el reproductor de vídeo en 560 x 315 píxeles.  Este tamaño no cambiará al modificar el tamaño del icono.
+* Edite la información de ancho y alto. El código para insertar inserta un vídeo y establece el reproductor de vídeo en 560 × 315 píxeles. Este tamaño no cambia al modificar el tamaño del icono.
   
   ```html
   <iframe width="560" height="315"
@@ -112,14 +207,14 @@ Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono a
    allowfullscreen></iframe>
   ```
   
-  Si desea que el reproductor cambie de tamaño para ajustarse al tamaño del icono, establezca el ancho y el alto en 100 %.
+  Si quiere que el reproductor cambie de tamaño para ajustarse al tamaño del icono, establezca el ancho y el alto en el 100 %.
   
   ```html
   <iframe width="100%" height="100%"
   src="https://www.youtube.com/embed/Cle_rKBpZ28" frameborder="0"
    allowfullscreen></iframe>
   ```
-* Este código inserta un tweet y conserva, como vínculos independientes en el panel, los vínculos del podcast de **AFK**, **la página de Twitter de \@GuyInACube**, **Seguir**, **#analytics**, **responder**, **retwittear** y **me gusta**.  Al seleccionar el icono, se abrirá el podcast en Twitter.
+* Este código inserta un tweet y conserva, como vínculos independientes en el panel, los vínculos del podcast de AFK, la página de Twitter de \@GuyInACube, Seguir, #analytics, responder, retwittear y me gusta.  Al seleccionar el icono, se abrirá el podcast en Twitter.
   
   ```html
   <blockquote class="twitter-tweet" data-partner="tweetdeck">
@@ -135,21 +230,21 @@ Pegue o escriba en cualquier contenido HTML.  Power BI lo agrega como un icono a
   ```
 
 ## <a name="edit-a-tile"></a>Editar un icono
-Para realizar cambios en un icono...
+Para realizar cambios en un icono existente:
 
-1. Mantenga el puntero sobre la esquina superior derecha del icono y seleccione los puntos suspensivos.
+1. Mueva el puntero sobre la esquina superior derecha del icono y seleccione los puntos suspensivos (...).
    
     ![Selección de botón de puntos suspensivos de icono](media/service-dashboard-add-widget/pbi_ellipses.png)
-2. Seleccione el icono de edición para volver a abrir el panel **Detalles del icono** y realice cambios.
+2. Seleccione **Editar detalles** para mostrar la ventana **Detalles del icono** y realizar cambios.
    
-    ![Icono de Lápiz (Editar)](media/service-dashboard-add-widget/pbi-edit.png)
+    ![Editar detalles](media/service-dashboard-add-widget/pbi-edit.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-* Para facilitar el movimiento del icono en el panel, agregue un título y/o un subtítulo.
-* Si desea insertar contenido de un sitio web, pero el sitio web no proporciona código para insertar que se pueda copiar y pegar, consulte embed.ly para generar el código para insertar más fácilmente.
+* Para que le resulte más fácil mover el icono en el panel, agregue un título y, si quiere, un subtítulo.
+* Si quiere insertar contenido de un sitio web, pero este no proporciona código para insertar que se pueda copiar y pegar, vaya a embed.ly para generar el código para insertar más fácilmente.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Iconos de panel](consumer/end-user-tiles.md)
+[Introducción a los iconos del panel para los diseñadores de Power BI](service-dashboard-tiles.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
 
