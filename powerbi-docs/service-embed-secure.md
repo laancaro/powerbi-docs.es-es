@@ -1,6 +1,6 @@
 ---
 title: Inserción de informes en un sitio web o portal seguro
-description: Power BI inserta característica permite a los usuarios fácilmente e insertar informes de forma segura en los portales web interno.
+description: La característica de inserciones de Power BI permite a los usuarios insertar de forma fácil y segura informes en portales web internos.
 author: rkarlin
 ms.author: rkarlin
 manager: kfile
@@ -10,18 +10,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: bf9d7bcdf6ddaf7d0063843a5314233989b2dadd
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222238"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867105"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
-Con el nuevo **Embed** informa de la opción para Power BI, puede insertar forma fácil y segura informes en los portales web interno. Estos portales pueden ser **basado en la nube** o **hospedadas localmente**, como SharePoint 2019. Informes insertados respeten todos los elemento permisos y seguridad de datos a través de [nivel de fila (RLS) seguridad](service-admin-rls.md). Proporciona sin código insertar en cualquier portal que acepta una dirección URL o un iFrame. 
+Con la nueva opción **Insertar** para los informes de Power BI, puede insertar de forma fácil y segura informes en portales web internos. Estos portales pueden estar **basados en la nube** u **hospedados en un entorno local**, como una instancia de SharePoint 2019. Los informes insertados de esta manera respetan todos los permisos del elemento y la seguridad de los datos mediante la [seguridad de nivel de fila (RLS)](service-admin-rls.md). Permiten realizar inserciones sin código en cualquier portal que acepte una dirección URL o un iFrame. 
 
-El **Embed** opción admite [los filtros de URL](service-url-filters.md) y configuración de la URL. Permite integrar con los portales de utilizando un enfoque de poca cantidad de código que requiere solo HTML y JavaScript conocimientos básicos.
+La opción **Insertar** también admite la configuración de direcciones URL y [filtros de direcciones URL](service-url-filters.md). Esto le permite realizar la integración con portales mediante un método en el que se usa código de forma limitada y para el que solo se necesitan conocimientos básicos de HTML y JavaScript.
 
 ## <a name="how-to-embed-power-bi-reports-into-portals"></a>Cómo **insertar** informes de Power BI en portales
 
@@ -29,46 +29,46 @@ El **Embed** opción admite [los filtros de URL](service-url-filters.md) y confi
 
     ![Opción de lista desplegable de opciones de inserción segura](media/service-embed-secure/secure-embed-drop-down-menu.png)
 
-2. Seleccione el **Embed** opción para abrir un cuadro de diálogo que proporciona un vínculo y un iFrame que puede usar para insertar el informe de forma segura.
+2. Seleccione la opción **Insertar** para abrir un cuadro de diálogo que proporciona un vínculo y un iFrame que puede usar para insertar el informe de forma segura.
 
     ![Cuadro de diálogo con la opción Insertar](media/service-embed-secure/secure-embed-code-dialog.png)
 
-3. Si un usuario abre una dirección URL de informe directamente, o uno incrustado en un portal web, el acceso de informes requiere autenticación. Si un usuario ha no iniciado sesión en Power BI en su sesión del explorador, aparecerá la siguiente pantalla. Cuando selecciona **inicio de sesión**, se puede abrir una nueva ventana del explorador o la pestaña. Hacer que comprueben de bloqueadores de elementos emergentes si no pedirá que inicie sesión.
+3. Si un usuario abre directamente la URL de un informe, o bien una URL insertada en un portal web, tendrá que autenticarse para acceder al informe. Se mostrará la pantalla siguiente si un usuario no ha iniciado sesión en Power BI en la sesión del explorador. Al seleccionar **Iniciar sesión**, puede que se abra una nueva pestaña o ventana del explorador. Si los usuarios no ven un mensaje de inicio de sesión, pídales que comprueben si hay bloqueadores de elementos emergentes activos.
 
     ![Iniciar sesión para ver el informe](media/service-embed-secure/secure-embed-sign-in.png)
 
-4. Después de que el usuario ha iniciado sesión, se abre el informe muestra los datos y permite la navegación de página y la configuración del filtro. Solo los usuarios que tienen permiso de vista pueden ver el informe en Power BI. Todos los [nivel de fila (RLS) seguridad](service-admin-rls.md) también se aplican las reglas. Por último, el usuario debe tener la licencia correcta: necesita una licencia de Power BI Pro o el informe debe estar en un área de trabajo que tenga una capacidad de Power BI Premium. El usuario debe iniciar sesión cada vez que abran una nueva ventana del explorador. Sin embargo, cuando haya iniciado sesión, otros informes de cargan automáticamente.
+4. Cuando el usuario inicie la sesión, se abrirá el informe con los datos y se permitirá la navegación de páginas y la configuración de filtros. Solo los usuarios que tengan permiso de vista podrán ver el informe en Power BI. También se aplican todas las reglas de [seguridad de nivel de fila (RLS)](service-admin-rls.md). Por último, el usuario debe tener la licencia correcta: necesita una licencia de Power BI Pro o el informe debe estar en un área de trabajo que tenga una capacidad de Power BI Premium. El usuario tendrá que iniciar sesión cada vez que abra una nueva ventana del explorador. Pero, después de iniciar la sesión, otros informes se cargarán automáticamente.
 
     ![Informe de inserción](media/service-embed-secure/secure-embed-report.png)
 
-5. Cuando se usa un iFrame, es posible que deba editar la **alto** y **ancho** para que quepan en la página web de su portal.
+5. Al usar un iFrame, puede que tenga que editar el **alto** y el **ancho** para que se adapte al tamaño de la página web del portal.
 
     ![Establecimiento del alto y ancho](media/service-embed-secure/secure-embed-size.png)
 
-## <a name="granting-report-access"></a>Conceder acceso a los informes
+## <a name="granting-report-access"></a>Concesión de acceso a informes
 
-El **Embed** opción automáticamente no permite a los usuarios para ver el informe. Ver los permisos se establecen en el servicio Power BI.
+La opción **Insertar** no permite a los usuarios ver el informe automáticamente. Los permisos de vista se establecen en el servicio Power BI.
 
-En el servicio Power BI, puede compartir informes incrustados con usuarios que requieren acceso. Si usa un grupo de Office 365, puede enumerar el usuario como un miembro del área de trabajo de aplicación. Para obtener más información, vea cómo [administrar el área de trabajo de aplicación en Power BI y Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+En el servicio Power BI, puede compartir informes insertados y solicitar que los usuarios inicien la sesión. Si usa un grupo de Office 365, puede mostrar una lista al usuario como un miembro del área de trabajo de la aplicación. Para obtener más información, vea cómo [administrar el área de trabajo de la aplicación en Power BI y en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Licencias
 
-Para ver el informe insertado, los usuarios necesitan una licencia de Power BI Pro o el contenido debe estar en un área de trabajo que se encuentra en un [capacidad de Power BI Premium (EM o SKU P)](service-admin-premium-purchase.md).
+Para ver el informe insertado, los usuarios necesitan tener una licencia de Power BI Pro, o bien el contenido tiene que estar en un área de trabajo con [capacidad de Power BI Premium (SKU EM o P).](service-admin-premium-purchase.md)
 
 ## <a name="customize-your-embed-experience-using-url-settings"></a>Personalización de la experiencia de inserción con la configuración de direcciones URL
 
-Puede personalizar la experiencia del usuario mediante la configuración de la dirección URL entrada. En el iFrame proporcionado, puede actualizar la dirección de URL **src** configuración.
+Puede personalizar la experiencia del usuario mediante la configuración de entrada de la URL de inserción. En el iFrame especificado, puede actualizar la configuración de **src** de la URL.
 
 | Propiedad  | Descripción  |  |  |  |
 |--------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---|---|---|
-| pageName  | Puede usar el **pageName** parámetro de cadena para establecer qué página del informe para abrir consulta. Puede encontrar este valor al final de la dirección URL de informe al ver un informe en el servicio Power BI, tal como se muestra a continuación. |  |  |  |
-| Filtros de direcciones URL  | Puede usar [los filtros de URL](service-url-filters.md) en la dirección URL que recibió de la interfaz de usuario de Power BI para filtrar el contenido de inserción. De este modo, puede compilar integraciones de código reducido con una experiencia básica de HTML y JavaScript.  |  |  |  |
+| pageName  | Puede usar el parámetro de cadena de consulta **pageName** para establecer la página en la que se abrirá el informe. Este valor aparece al final de la dirección URL de un informe al visualizarlo en el servicio Power BI, como se muestra a continuación. |  |  |  |
+| Filtros de direcciones URL  | Puede usar [filtros de direcciones URL](service-url-filters.md) en la dirección URL de inserción que ha recibido de la interfaz de usuario de Power BI para filtrar el contenido de la inserción. De este modo, puede compilar integraciones de código reducido con una experiencia básica de HTML y JavaScript.  |  |  |  |
 
-## <a name="set-which-page-opens-for-an-embedded-report"></a>Conjunto de página que se abre para un informe incrustado 
+## <a name="set-which-page-opens-for-an-embedded-report"></a>Configuración de la página en que se abrirá un informe insertado 
 
-Puede encontrar el **pageName** valor al final de la URL informe al ver un informe en el servicio Power BI.
+El valor de **pageName** aparece al final de la dirección URL de un informe al visualizarlo en el servicio Power BI.
 
-1. Abra el informe desde el servicio Power BI en el explorador web y, a continuación, copie la dirección URL de la barra de direcciones.
+1. Abra el informe del servicio Power BI en el explorador web y copie la dirección URL de la barra de direcciones.
 
     ![Sección del informe](media/service-embed-secure/secure-embed-report-section.png)
 
@@ -78,17 +78,17 @@ Puede encontrar el **pageName** valor al final de la URL informe al ver un infor
 
 ## <a name="filter-report-content-using-url-filters"></a>Filtrado del contenido de informes con filtros de direcciones URL 
 
-Puede usar [los filtros de URL](service-url-filters.md) para proporcionar vistas diferentes de informes. Por ejemplo, la dirección URL siguiente filtra el informe para mostrar los datos del sector energético.
+Puede usar [filtros de direcciones URL](service-url-filters.md) para proporcionar distintas vistas de informes. Por ejemplo, la dirección URL siguiente filtra el informe para mostrar los datos del sector energético.
 
 El uso de **pageName** con [filtros de direcciones URL](service-url-filters.md) puede ser eficaz. Puede crear experiencias con HTML y JavaScript básicos.
 
-Por ejemplo, este es un botón que puede agregar a una página HTML:
+Por ejemplo, puede agregar el siguiente botón a una página HTML:
 
 ```html
 <button class="textLarge" onclick='show("ReportSection", "Energy");' style="display: inline-block;">Show Energy</button>
 ```
 
-Cuando se selecciona, el botón llama a una función para actualizar el iFrame con una dirección URL actualizada, que incluye el filtro de la industria energética.
+Al seleccionar el botón, se llama a una función para actualizar el iFrame con una dirección URL actualizada, que incluye el filtro “Sector energético”.
 
 ```javascript
 function show(pageName, filterValue)
@@ -124,20 +124,22 @@ Puede agregar tantos botones como quiera para crear una experiencia personalizad
 
 * La inserción segura funciona en informes publicados en el servicio Power BI.
 
-* El usuario debe iniciar sesión ver el informe cada vez que abra una nueva ventana del explorador.
+* El usuario tendrá que iniciar sesión para ver el informe cada vez que abra una nueva ventana del explorador.
 
-* Algunos exploradores requieren que actualice la página de inicio de sesión, especialmente cuando se usa en los modos de InPrivate o Incognito.
+* Algunos exploradores requieren que se actualice la página después de iniciar sesión, especialmente cuando se usan los modos InPrivate o Incognito.
 
-* Para lograr una experiencia de inicio de sesión único, use la inserción en la opción de SharePoint Online o crear una integración personalizada mediante el [usuario posee los datos](developer/embed-sample-for-your-organization.md) incrustación de método. 
+* Para lograr una experiencia de inicio de sesión único, use la opción “Insertar en SharePoint Online”, o bien cree una integración personalizada con el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
 
-* La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Para la API de JavaScript de Power BI, use el [usuario posee los datos](developer/embed-sample-for-your-organization.md) incrustación de método. 
+* La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
+
+* La vigencia del token de autenticación depende de la configuración de AAD. Cuando expire el token de autenticación, el usuario tendrá que actualizar el explorador para obtener un token de autenticación actualizado. La vigencia predeterminada es de una hora, pero puede que en su organización sea más larga o corta.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Formas de compartir su trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+* [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 
-* [Filtrar un informe con parámetros de cadena de consulta en la dirección URL](service-url-filters.md)
+* [Filtro de un informe con parámetros de cadena de consulta en la URL](service-url-filters.md)
 
-* [Insertar elemento web de informes en SharePoint Online](service-embed-report-spo.md)
+* [Insertar el elemento web de informes en SharePoint Online](service-embed-report-spo.md)
 
-* [Publicar en Web de Power BI](service-publish-to-web.md)
+* [Publicar en la web de Power BI](service-publish-to-web.md)

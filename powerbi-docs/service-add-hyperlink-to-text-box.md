@@ -1,6 +1,6 @@
 ---
 title: Agregar un hipervínculo a un cuadro de texto de un informe
-description: Incorporación de un hipervínculo a un cuadro de texto del servicio Power BI y de Power BI Desktop
+description: Agregar un hipervínculo a un cuadro de texto en Power BI Desktop y en el servicio Power BI
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,52 +8,60 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2019
+ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6484046f6c69f47e01e14b56c38c4c9a5871b28b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 0ceb1749fcbf78ac844ca1c6e4b3f08a6f4c5d3f
+ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61199562"
+ms.lasthandoff: 08/06/2019
+ms.locfileid: "68832408"
 ---
 # <a name="add-a-hyperlink-to-a-text-box-in-a-report"></a>Agregar un hipervínculo a un cuadro de texto de un informe
-Puede agregar cuadros de texto a informes, anclarlos a paneles de informes y agregarlos directamente a paneles. Sin importar dónde esté el cuadro de texto, siempre podrá agregarle un hipervínculo.  
+Puede agregar un cuadro de texto a un informe en Power BI Desktop o en el servicio Power BI. Puede anclar un cuadro de texto desde un informe a un panel, o bien puede agregar un cuadro de texto directamente a un panel. Sin importar dónde esté el cuadro de texto, siempre podrá agregarle un hipervínculo. En este artículo, se muestra cómo agregar un hipervínculo a un cuadro de texto en un informe. 
 
-> **NOTA**: Para más información sobre los hipervínculos en matrices y tablas de Power BI, consulte [Hipervínculos en tablas](power-bi-hyperlinks-in-tables.md). Para más información sobre cómo agregar cuadros de texto a su **panel**, consulte [Agregar un icono directamente desde el panel ](service-dashboard-add-widget.md). 
-> 
-> 
+
+Vea cómo Will Thompson crea un cuadro de texto y agrega un hipervínculo a este. 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew#t=0m55s" frameborder="0" allowfullscreen></iframe>
 
+Para obtener más información sobre los hipervínculos en matrices y tablas de Power BI, vea [Incorporación de hipervínculos a una tabla](power-bi-hyperlinks-in-tables.md). Para obtener información sobre cómo agregar cuadros de texto a un panel, vea [Agregar imagen, texto, vídeo y mucho más al panel](service-dashboard-add-widget.md). 
 
-## <a name="to-add-a-hyperlink-to-a-text-box-in-a-report"></a>Para agregar un hipervínculo a un cuadro de texto de un informe
-1. [Cree un cuadro de texto y agregue texto](power-bi-reports-add-text-and-shapes.md). 
-2. Seleccione el texto existente o agregue texto nuevo que se usará como hipervínculo.
+## <a name="to-add-a-hyperlink-to-a-text-box"></a>Para agregar un hipervínculo a un cuadro de texto
+1. Abra un informe, [cree un cuadro de texto](power-bi-reports-add-text-and-shapes.md) y, después, agregue texto. 
+2. Seleccione el texto existente o agregue texto nuevo que se usará como hipervínculo. 
+
+   Se mostrará el menú del cuadro de texto.
    
    ![Selección de texto en el cuadro de texto](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-new.png)
-3. Seleccione el icono de hipervínculo ![Icono de hipervínculo](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png).
+3. Seleccione el icono de hipervínculo ![Icono de hipervínculo](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-icon.png) en el menú del cuadro de texto.
+
+   El campo de hipervínculo se mostrará en el menú del cuadro de texto.
+
 4. Escriba o pegue la dirección URL en el campo de hipervínculo y seleccione **Listo**.
    
    ![Escritura o pegado de la dirección URL en el campo de hipervínculo](media/service-add-hyperlink-to-text-box/power-bi-add-link.png)
-5. Pruebe el vínculo.  
-   
-   ![Prueba del vínculo](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
-   
-   * Coloque el cursor en cualquier lugar en el texto resaltado para mostrar la dirección URL.  
-     
-      ![Colocación del cursor en cualquier lugar en el texto resaltado](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
-   * Seleccione la dirección URL para abrir la página en una ventana de explorador nueva.
+5. Pruebe el vínculo:  
 
-## <a name="to-remove-the-hyperlink-but-leave-the-text"></a>Para quitar el hipervínculo del texto y dejar el texto
-1. En el cuadro de texto, seleccione el hipervínculo para resaltarlo y
+   a. Coloque el cursor en cualquier lugar del nuevo hipervínculo del cuadro de texto para mostrar la URL en el campo de hipervínculo.  
+     
+      ![Hipervínculo en un cuadro de texto](media/service-add-hyperlink-to-text-box/power-bi-test-link.png)
+   
+      ![URL en un campo de hipervínculo](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-edit.png)
+
+   b. Seleccione la URL en el campo de hipervínculo para abrir la página en una nueva ventana del explorador.
+
+## <a name="to-remove-the-hyperlink"></a>Para quitar un hipervínculo
+1. En el cuadro de texto, seleccione el hipervínculo para resaltarlo.
    
      ![Eliminación del hipervínculo](media/service-add-hyperlink-to-text-box/power-bi-hyperlink-remove.png)
-2. elija **Quitar**. 
+2. Seleccione **Quitar** en el menú del cuadro de texto. 
+
+   Power BI Desktop quitará el hipervínculo, pero mantendrá el texto.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Cuadros de texto en informes de Power BI](power-bi-reports-add-text-and-shapes.md)
+[Cuadros de texto y formas en informes de Power BI](power-bi-reports-add-text-and-shapes.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
 

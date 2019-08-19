@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3a5b6b89984064101b683532cbfb77ae5540c307
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
+ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730259"
+ms.lasthandoff: 08/09/2019
+ms.locfileid: "68867070"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local: Power BI
 
@@ -23,9 +23,9 @@ ms.locfileid: "68730259"
 
 ## <a name="power-bi"></a>Power BI
 
-**Pregunta:** ¿Necesito actualizar la puerta de enlace personal? 
+**Pregunta:** ¿Necesito actualizar la puerta de enlace de datos local (modo personal)?
 
-**Respuesta:** No, puede seguir usando la puerta de enlace personal para Power BI.
+**Respuesta:** No, puede seguir usando la puerta de enlace (modo personal) para Power BI.
 
 **Pregunta:** ¿Hay algún permiso necesario especial para instalar la puerta de enlace y administrarla en el servicio Power BI?
 
@@ -41,7 +41,7 @@ ms.locfileid: "68730259"
 
 **Pregunta:** ¿Por qué no puedo conectarme a mi servidor de Oracle? 
 
-**Respuesta:** Es posible que tenga que instalar el cliente de Oracle y configurar el archivo tnsnames.ora con la información correcta del servidor. Se trata de una instalación independiente fuera de la puerta de enlace. Para más información, consulte [Instalación del cliente de Oracle](service-gateway-onprem-manage-oracle.md#installing-the-oracle-client).
+**Respuesta:** Es posible que tenga que instalar el cliente de Oracle y configurar el archivo tnsnames.ora con la información correcta del servidor. Se trata de una instalación independiente fuera de la puerta de enlace. Para obtener más información, vea [Instalación del cliente de Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
 
 **Pregunta:** ¿Funcionará la puerta de enlace con Azure ExpressRoute? 
 
