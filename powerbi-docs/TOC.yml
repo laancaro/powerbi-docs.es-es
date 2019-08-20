@@ -55,6 +55,8 @@
           href: desktop-latest-update.md
         - name: Agrupación de los objetos visuales en Power BI Desktop
           href: desktop-grouping-visuals.md
+        - name: Uso de plantillas en Power BI Desktop
+          href: desktop-templates.md
         - name: Modelado de vistas en Power BI Desktop
           href: desktop-modeling-view.md
         - name: "Agregaciones en Power\_BI Desktop"
