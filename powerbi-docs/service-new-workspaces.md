@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a3982716ac2eb64f7512ba6ef606af299f1c5f46
-ms.sourcegitcommit: 8dee40f07d284ec84a8afa0100359f146e1dd88b
+ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67418660"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530486"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -36,7 +36,7 @@ Con las nuevas áreas de trabajo puede hacer lo siguiente:
 Cuando crea una de las nuevas áreas de trabajo, no crea un grupo de Office 365 subyacente, asociado. Toda la administración del área de trabajo se realiza en Power BI, no en Office 365. En la nueva experiencia de áreas de trabajo, ahora puede agregar un grupo de Office 365 en la lista de acceso del área de trabajo para seguir administrando el acceso de los usuarios al contenido a través de grupos de Office 365.
 
 ## <a name="administering-new-workspace-experience-workspaces"></a>Administración de áreas de trabajo de la nueva experiencia de áreas de trabajo
-La administración de las áreas de trabajo de la nueva experiencia de áreas de trabajo está ahora en Power BI. Los administradores de Power BI deciden qué usuarios de una organización pueden crear áreas de trabajo. También pueden administrar y recuperar áreas de trabajo. Para ello necesitan usar el portal de administración de Power BI o los cmdlets de PowerShell. Para las áreas de trabajo clásicas basadas en grupos de Office 365, la administración continúa ocurriendo en el portal de administración de Office 365 y en Azure Active Directory.
+La administración de las áreas de trabajo de la nueva experiencia de áreas de trabajo está ahora en Power BI. Los administradores de Power BI deciden qué usuarios de una organización pueden crear áreas de trabajo. También pueden administrar y recuperar áreas de trabajo mediante el portal de administración de Power BI o cmdlets de PowerShell. Para las áreas de trabajo clásicas basadas en grupos de Office 365, la administración continúa ocurriendo en el portal de administración de Office 365 y en Azure Active Directory.
 
 En **Configuración del área de trabajo**, en el portal de administración, los administradores pueden usar la opción Creación de áreas de trabajo (nueva experiencia de áreas de trabajo) para permitir que todos los usuarios de una organización (o ninguno de ellos) creen nuevas áreas de trabajo de experiencia de áreas de trabajo. También pueden restringir la creación de estas áreas a miembros de grupos de seguridad específicos.
 
@@ -59,9 +59,9 @@ Para conceder acceso a una nueva área de trabajo, agregue grupos de usuarios o 
 
 Los roles le permiten administrar quién puede hacer qué en un área de trabajo, para que los equipos puedan colaborar. Las nuevas áreas de trabajo le permiten asignar roles a usuarios y grupos de usuarios: grupos de seguridad, grupos de Office 365 y listas de distribución. 
 
-Al asignar roles a un grupo de usuarios, cada uno de ellos tiene acceso al contenido. Si anida grupos de usuarios, todos los usuarios contenidos tienen permiso. Un usuario que se encuentra en varios grupos de usuarios con distintos roles obtiene el nivel de permiso mayor concedido a ellos. 
+Al asignar roles a un grupo de usuarios, cada uno de ellos tiene acceso al contenido. Si anida grupos de usuarios, todos los usuarios contenidos tienen permiso.
 
-Las nuevas áreas de trabajo ofrecen cuatro roles: administradores, miembros, colaboradores y visores.
+Estas son las funciones de los cuatro roles: administradores, miembros, colaboradores y visores.
 
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -74,23 +74,26 @@ Las nuevas áreas de trabajo ofrecen cuatro roles: administradores, miembros, co
 | Crear, editar y eliminar contenido en el área de trabajo.  |  X | X  | X  |   |
 | Publicar informes en el área de trabajo, eliminar contenido.  |  X | X  | X  |   |
 | Ver un elemento. |  X | X  | X  | X  |
- 
+| Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo. |  X | X  | X  | X <sup>1</sup>  |
+| Copiar un informe. | X | X | X | X <sup>1</sup> |
+
+**1** requiere una licencia de Power BI Pro y el [permiso de compilación de conjuntos de datos](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
 ## <a name="licensing"></a>Licencias
 Todos los usuarios que agregue a un área de trabajo en la capacidad compartida necesitan una licencia de Power BI Pro. En el área de trabajo, estos usuarios pueden colaborar en paneles e informes que planee publicar para un público más amplio, o incluso para toda la organización. 
 
 Si quiere distribuir contenido a otros usuarios dentro de la organización, puede asignar licencias de Power BI Pro a los usuarios o colocar el área de trabajo en una capacidad de Power BI Premium.
 
-Cuando el área de trabajo está en una capacidad de Power BI Premium, los usuarios con el rol Visor pueden acceder al área de trabajo incluso si no tienen una licencia de Power BI Pro. Sin embargo, si asigna un rol superior a estos usuarios, como Administrador, Miembro o Colaborador, no podrán acceder al área de trabajo. Se les pedirá que inicien una prueba Pro cuando intenten acceder al área de trabajo. Para aprovechar la capacidad del rol Visor para los usuarios sin licencias Pro, asegúrese de que los usuarios de dicho rol no están en otros roles de área de trabajo, ya sea individualmente o a través de un grupo de usuarios. 
+Cuando el área de trabajo está en una capacidad de Power BI Premium, los usuarios con el rol Visor pueden acceder al área de trabajo incluso si no tienen una licencia de Power BI Pro. Pero si asigna un rol superior a estos usuarios, como Administrador, Miembro o Colaborador, se les solicitará que inicien una Prueba de Pro al intentar acceder al área de trabajo. Para aprovechar la capacidad del rol Visor para los usuarios sin licencias Pro, asegúrese de que los usuarios de dicho rol no están en otros roles de área de trabajo, ya sea individualmente o a través de un grupo de usuarios. 
 
 > [!NOTE]
 > La publicación de informes en la nueva experiencia de áreas de trabajo tiene el cumplimiento más estricto de las reglas de licencia existentes. Los usuarios que intentan publicar desde Power BI Desktop u otras herramientas cliente sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo.".
 
-## <a name="how-are-the-new-workspaces-different-from-current-workspaces"></a>¿En qué se diferencian las áreas de trabajo nuevas y las actuales?
+## <a name="how-the-new-workspaces-are-different"></a>Cómo se diferencian las nuevas áreas de trabajo
 
-Con las nuevas áreas de trabajo, algunas características se están rediseñando. Estos son algunos de los cambios que puede esperar que sean definitivos. 
+Con las nuevas áreas de trabajo, se han rediseñado algunas características. Estos son algunos de los cambios que puede esperar que sean definitivos. 
 
-* La creación de estas áreas de trabajo no creará grupos de Office 365, como sí los crean las áreas de trabajo clásicas. Sin embargo, ahora puede usar un grupo de Office 365 para proporcionar a los usuarios acceso al área de trabajo mediante la asignación de un rol. 
+* La creación de estas áreas de trabajo no crea grupos de Office 365, como sí hacen las áreas de trabajo clásicas. Sin embargo, ahora puede usar un grupo de Office 365 para proporcionar a los usuarios acceso al área de trabajo mediante la asignación de un rol. 
 * En las áreas de trabajo clásicas solo puede agregar usuarios individuales a las listas de miembros y administradores. En las áreas de trabajo nuevas, puede agregar varios grupos de seguridad de AD, listas de distribución o grupos de Office 365 a estas listas para facilitar la administración de usuarios. 
 - Puede crear un paquete de contenido de la organización desde un área de trabajo clásica, pero no desde las áreas de trabajo nuevas.
 - Puede consumir un paquete de contenido de la organización desde un área de trabajo clásica. pero no desde las áreas de trabajo nuevas.

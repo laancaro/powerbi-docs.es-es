@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 5391fee3c5a05d1c34cac4f3a097a0577ce5d191
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462386"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68962233"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de minoristas para Power BI: Dar un paseo
 
@@ -23,7 +23,7 @@ El paquete de contenido del ejemplo de análisis de minoristas contiene un panel
 
 ![Panel del ejemplo de análisis de minoristas](media/sample-retail-analysis/retail1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Lo ha creado [obviEnce](http://www.obvience.com/) con datos reales, que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales anonimizados. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 En este tutorial se explora el paquete de contenido de ejemplo de análisis de minoristas del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
@@ -92,10 +92,10 @@ Si desea ver el origen de datos de este ejemplo, también está disponible como 
 ## <a name="review-a-tile-created-with-power-bi-qa"></a>Revisar un icono creado con Preguntas y respuestas de Power BI
 Seamos más específicos.
 
-1. Agregue la pregunta a *ventas de este año **por distrito***. Observe el resultado: Preguntas y respuestas coloca automáticamente la respuesta en un gráfico de barras y sugiere otras frases:
+1. Agregue la pregunta a _ventas de este año **por distrito**_ . Observe el resultado: Preguntas y respuestas coloca automáticamente la respuesta en un gráfico de barras y sugiere otras frases:
 
    ![Ventas de este año por distrito en Preguntas y respuestas](media/sample-retail-analysis/retail8.png)
-2. Ahora, cambie la pregunta a *ventas de este año **por código postal y cadena***.
+2. Ahora, cambie la pregunta a _ventas de este año **por código postal y cadena**_ .
 
    Observe cómo Power BI responde a la pregunta a medida que se escribe y muestra el gráfico correspondiente.
 3. Experimente con más preguntas y observe qué tipo de resultados obtiene.

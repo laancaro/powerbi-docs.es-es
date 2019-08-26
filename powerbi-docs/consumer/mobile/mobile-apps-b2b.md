@@ -1,6 +1,6 @@
 ---
-title: Ver Power BI contenido como un usuario externo invitado (Azure AD B2B)
-description: Usar aplicaciones móviles de Power BI para ver contenido compartido con usted de organización externa.
+title: Visualización del contenido de Power BI como usuario invitado externo (Azure AD B2B)
+description: Use aplicaciones móviles de Power BI para ver el contenido compartido con usted desde la organización externa.
 author: mshenhav
 manager: kfile
 ms.reviewer: ''
@@ -9,16 +9,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: a15da4349ce97e34c8321909abc862e424b2839c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61338776"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490364"
 ---
-# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Ver el contenido de Power BI compartido con usted desde una organización externa
+# <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualización del contenido de Power BI compartido con usted desde una organización externa
 
-Power BI se integra con Azure Active Directory business-to-business (B2B de Azure AD) para permitir una distribución segura de contenido de Power BI a usuarios invitados ajenos a su organización. Y los usuarios externos invitados pueden usar la aplicación móvil de Power BI para tener acceso a ese contenido de Power BI compartido con ellos. 
+Power BI se integra con Azure Active Directory business-to-business (Azure AD B2B) para permitir una distribución segura del contenido de Power BI a los usuarios invitados de fuera de la organización. Los usuarios invitados externos pueden usar la aplicación móvil de Power BI para acceder a ese contenido de Power BI compartido con ellos. 
 
 
 Se aplica a:
@@ -27,28 +27,30 @@ Se aplica a:
 |:--- |:--- |:--- |:--- |
 | iPhone |iPad |Teléfonos Android |Tabletas Android |
 
-## <a name="accessing-shared-content"></a>Tener acceso al contenido compartido
+## <a name="accessing-shared-content"></a>Acceder al contenido compartido
 
-**En primer lugar, se necesita a alguien de una organización externa para compartir un elemento con usted.** Cuando alguien [comparte un elemento con usted](../../service-share-dashboards.md), desde la misma organización o de una organización externa, recibirá un correo electrónico con un vínculo al elemento compartido. Siga este vínculo en el dispositivo móvil, abre la aplicación móvil de Power BI. Si la aplicación reconoce que se ha compartido el elemento de una organización externa, la aplicación vuelve a conectarse a dicha organización con su identidad. La aplicación, a continuación, carga todos los elementos que se han compartido con usted de dicha organización.
+**En primer lugar, necesita que un usuario de una organización externa comparta un elemento con usted.** Cuando alguien [comparte un elemento con usted](../../service-share-dashboards.md), ya sea desde la misma organización o desde una organización externa, recibe un correo electrónico con un vínculo a ese elemento compartido. Al seguir ese vínculo en el dispositivo móvil, se abre la aplicación móvil de Power BI. Si la aplicación reconoce que el elemento se ha compartido desde una organización externa, la aplicación se vuelve a conectar a esa organización con su identidad. Luego la aplicación carga todos los elementos que se han compartido con usted desde esa organización.
 
-![Power BI abrir elemento compartido desde el correo electrónico ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI abre un elemento compartido desde el correo electrónico ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
 
 > [!NOTE]
-> Si se trata del primer elemento compartido con usted como usuario externo invitado, debe reclamar la invitación de un explorador. Puede no puede reclamar la invitación de la aplicación Power BI.
+> Si este es el primer elemento que se comparte con usted como usuario invitado externo, debe reclamar la invitación en un explorador. No se puede reclamar la invitación en la aplicación de Power BI.
 
-Mientras está conectado a una organización externa, aparece un encabezado de color negro en la aplicación. Este encabezado indica que no están conectados a su organización principal. Para conectarse a su organización principal, salga del modo de invitado.
+Siempre que esté conectado a una organización externa, aparece un encabezado negro en la aplicación. Este encabezado indica que no está conectado a la organización principal. Para volver a conectarse a la organización principal, salga del modo invitado.
 
 ![Encabezado de usuario invitado de Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
 
-Aunque debe tener un vínculo de artefacto de Power BI para conectarse a una organización externa, una vez que se activa la aplicación, puede tener acceso a todos los elementos que se hayan compartido contigo (no solo el elemento que abrió desde el correo electrónico). Para ver todos los elementos son accesibles en la organización externa, vaya al menú de aplicación y seleccione **compartido conmigo**. En **aplicaciones** buscar aplicaciones que pueden usar también.
+Aunque necesite tener un vínculo de artefacto de Power BI para conectarse a una organización externa, una vez que la aplicación cambie, puede acceder a todos los elementos compartidos con usted (no solo el elemento abierto desde el correo electrónico). Para ver todos los elementos a los que puede acceder en la organización externa, vaya al menú de la aplicación y seleccione **Compartido conmigo**. En **Aplicaciones**, también se encuentran las aplicaciones que puede usar.
 
-![Menú de la aplicación Power BI como usuario externo invitado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menú de aplicación de Power BI como usuario externo invitado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
 
 ## <a name="limitations"></a>Limitaciones
 
-- Acceso condicional y otras directivas de Intune no se admiten en Azure AD B2B y en Power BI mobile. Esto significa que la aplicación aplica solo las directivas de la organización principal, si existen.
-- Se reciben notificaciones de inserción desde el sitio de la organización principal solo (incluso cuando está conectado el usuario como invitado a una organización externa). Apertura de la notificación de volver a conecta la aplicación al sitio de la organización principal del usuario.
-- Si el usuario cierra la aplicación, al volver a abrir la aplicación se conecta automáticamente a la organización principal del usuario.
-- Cuando se conecta a una organización externa, algunas acciones están deshabilitadas: favorito elementos, las alertas de datos, comentarios y el uso compartido.
-- Datos sin conexión no están disponibles mientras está conectado a una organización externa.
-- Si tiene la aplicación de Portal de empresa instalada en el dispositivo, se debe inscribir su dispositivo.
+- Los usuarios deben tener una cuenta de Power BI activa y un inquilino principal.
+- Los usuarios deben iniciar sesión en su inquilino principal de Power BI para poder acceder al contenido compartido con ellos desde un inquilino externo.
+- En Azure AD B2B y Power BI Mobile no se admiten las directivas de acceso condicional ni otras de Intune. Esto significa que la aplicación solo aplica las directivas de la organización principal, si las hubiera.
+- Las notificaciones de inserción solo se reciben desde el sitio de la organización principal (aunque el usuario esté conectado como invitado a una organización externa). Al abrir la notificación se vuelve a conectar la aplicación al sitio de la organización principal del usuario.
+- Si el usuario cierra la aplicación, cuando se vuelve a abrir, se conecta automáticamente a la organización principal del usuario.
+- Al conectarse a una organización externa, algunas acciones están deshabilitadas: elementos favoritos, alertas de datos, comentarios y uso compartido.
+- Los datos sin conexión no están disponibles mientras se está conectado a una organización externa.
+- Si tiene la aplicación Portal de empresa instalada en el dispositivo, el dispositivo debe estar inscrito.

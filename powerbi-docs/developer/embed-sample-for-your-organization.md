@@ -10,12 +10,12 @@ ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: ce13b161f0a9bf5291f2c0d127106b0db2c6fa29
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: 1c110022c27cf0e213484619a750140a63a7d0dc
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808253"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490382"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -35,7 +35,7 @@ Para empezar, es necesario que tenga:
 * Una [cuenta de Power BI Pro](../service-self-service-signup-for-power-bi.md).
 * Una suscripción a [Microsoft Azure](https://azure.microsoft.com/).
 * Debe tener configurado un [inquilino de Azure Active Directory](create-an-azure-active-directory-tenant.md) propio.
-* Para insertar informes paginados, necesita al menos una capacidad A4/P1. Vea [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
+* Para insertar informes paginados, necesita al menos una capacidad P1. Vea [¿Qué tamaño de capacidad Premium se necesita para los informes paginados?](../paginated-reports-faq.md#what-size-premium-capacity-do-i-need-for-paginated-reports)
 
 Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 
@@ -45,7 +45,7 @@ Si no tiene una suscripción a Azure, cree una [cuenta gratuita](https://azure.m
 
 Antes de empezar a insertar informes, paneles o iconos en la aplicación, debe asegurarse de que su entorno permita la inserción con Power BI.
 
-Puede seguir los pasos de la [herramienta de configuración de integración](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que sirve para crear un entorno e insertar un informe. En el caso de insertar un informe paginado, debe asignar al menos la capacidad A4/P1 al área de trabajo de la aplicación creada.
+Puede seguir los pasos de la [herramienta de configuración de integración](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que sirve para crear un entorno e insertar un informe. En el caso de insertar un informe paginado, debe asignar al menos un capacidad P1 al área de trabajo de la aplicación creada.
 
 Si prefiere configurar el entorno manualmente, siga los pasos que se indican más adelante.
 
@@ -83,7 +83,7 @@ Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Creación y publicación de informes paginados
 
-Puede crear informes paginados mediante el [Generador de informes de Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Después, puede [cargar el informe](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) en un área de trabajo de la aplicación asignada que tenga como mínimo una capacidad de A4/P1. El usuario final que cargue el informe necesita tener una licencia de Power BI Pro para publicar en un área de trabajo de la aplicación.
+Puede crear los informes paginados con el [Generador de informes de Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Después, puede [cargar el informe](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) a un área de trabajo de la aplicación asignada al menos a una capacidad P1. El usuario final que cargue el informe necesita tener una licencia de Power BI Pro para publicar en un área de trabajo de la aplicación.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Inserción del contenido mediante la aplicación de ejemplo
 
@@ -152,9 +152,6 @@ Rellene la información de **reportId** con el GUID de informe de Power BI. Pued
 URL del informe de Power BI <br>
 
 ![Valor reportId de PBI](media/embed-sample-for-your-organization/embed-sample-for-your-organization-041.png)
-
-URL del informe paginado <br>
-
 
 
 URL del informe paginado<br>
@@ -384,7 +381,7 @@ Ahora que ya ha terminado de desarrollar la aplicación, es el momento de propor
 
 ### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
 
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. En el caso de los informes paginados, debe hacer una copia de seguridad del área de trabajo de la aplicación con la capacidad A4/P1 como mínimo. Puede crear una capacidad dedicada mediante el uso de [Power BI Premium](../service-premium-what-is.md).
+Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. En el caso de los informes paginados, debe hacer una copia de seguridad del área de trabajo de la aplicación con al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../service-premium-what-is.md).
 
 En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -425,7 +422,7 @@ Los administradores globales o los administradores de servicios de Power BI pued
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En este tutorial, ha obtenido información sobre cómo insertar contenido de Power BI en una aplicación mediante la cuenta de la organización de Power BI. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones. También puede intentar insertar contenido de Power BI de sus clientes (no se admite todavía para insertar informes paginados):
+En este tutorial, ha obtenido información sobre cómo insertar contenido de Power BI en una aplicación mediante la cuenta de la organización de Power BI. Ahora puede intentar insertar contenido de Power BI en una aplicación mediante aplicaciones. También puede intentar insertar contenido de Power BI para los clientes (todavía no se admite para insertar informes paginados):
 
 > [!div class="nextstepaction"]
 > [Insertar desde aplicaciones](embed-from-apps.md)

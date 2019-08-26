@@ -6,23 +6,23 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/20/2019
+ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: eccda071b6c6abc92640024c3587bafa71038dee
-ms.sourcegitcommit: c122c1a8c9f502a78ccecd32d2708ab2342409f0
+ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "66826607"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530585"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
-En Power BI, puede crear contenido empaquetado oficial y luego distribuirlo a un público amplio como una *aplicación*. Cree aplicaciones en *áreas de trabajo de la aplicación*, donde puede colaborar en contenido de Power BI con sus compañeros. Después, puede publicar las aplicaciones terminadas en grandes grupos de usuarios de su organización. 
+En Power BI, puede crear contenido empaquetado oficial y luego distribuirlo a un público amplio como una *aplicación*. Las aplicaciones se crean en *áreas de trabajo*, donde puede colaborar en contenido de Power BI con compañeros de trabajo. Después, puede publicar las aplicaciones terminadas en grandes grupos de usuarios de su organización. 
 
 ![Aplicaciones de Power BI](media/service-create-distribute-apps/power-bi-new-apps.png)
 
-Los usuarios empresariales suelen necesitar varios paneles e informes de Power BI para hacer funcionar sus negocios. Con las aplicaciones de Power BI, puede crear colecciones de paneles e informes y publicar estas aplicaciones para toda la organización o para grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre estas colecciones con las aplicaciones.
+Los usuarios empresariales suelen necesitar varios paneles e informes de Power BI para hacer funcionar sus negocios. Con las aplicaciones de Power BI, puede crear colecciones de paneles e informes, y publicarlas para toda la organización o para grupos o usuarios específicos. Los creadores de informes o los administradores verán lo fácil que es administrar permisos sobre estas colecciones con las aplicaciones.
 
 Los usuarios empresariales obtienen las aplicaciones de varias maneras diferentes:
 
@@ -30,13 +30,13 @@ Los usuarios empresariales obtienen las aplicaciones de varias maneras diferente
 - Les puede enviar un vínculo directo.
 - Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo.
 
-Puede crear la aplicación con su propia navegación integrada, para que los usuarios puedan desplazarse con facilidad por el contenido. No pueden modificar el contenido de la aplicación. Pueden interactuar con ella en el servicio Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](consumer/end-user-apps.md).
+Puede crear la aplicación con su propia navegación integrada, para que los usuarios puedan desplazarse con facilidad por el contenido. No pueden modificar el contenido de la aplicación. Pueden interactuar con ella en el servicio Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. También puede concederles permisos de compilación para conectarse a los conjuntos de datos subyacentes y crear copias de los informes en la aplicación. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
 
 ## <a name="licenses-for-apps"></a>Licencias para aplicaciones
 Para crear o actualizar una aplicación necesita una licencia de Power BI Pro. Los *consumidores* de la aplicación tienen dos opciones.
 
-* Opción 1: todos los usuarios empresariales necesitan licencias de **Power BI Pro** para ver la aplicación. 
-* Opción 2: si el área de trabajo de la aplicación reside en una capacidad de Power BI Premium, los usuarios de la organización con la versión gratuita pueden ver el contenido de la aplicación. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
+* **Opción 1** El área de trabajo de esta aplicación *no* está en una capacidad de Power BI Premium: todos los usuarios empresariales necesitan licencias de Power BI Pro para ver la aplicación. 
+* **Opción 2** El área de trabajo de esta aplicación *está* en una capacidad de Power BI Premium: los usuarios empresariales de la organización sin licencias de Power BI Pro pueden ver el contenido de la aplicación. Pero no pueden copiar los informes ni crear informes basados en los conjuntos de datos subyacentes. Para más información, lea [What is Power BI Premium?](service-premium.md) (¿Qué es Power BI Premium?)
 
 ## <a name="publish-your-app"></a>Publicar su aplicación
 Cuando los paneles e informes en el área de trabajo estén listos, elija cuáles quiere publicar y luego publíquelos como una aplicación. 
@@ -57,21 +57,19 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
    
      ![Compilación de la aplicación](media/service-create-distribute-apps/power-bi-apps-build-your-apps.png)
 
-4. En **Navegación**, seleccione el contenido que se va a publicar como parte de la aplicación. Después, agregue navegación de la aplicación, para organizar el contenido en secciones. Vea [Diseño de la experiencia de navegación de la aplicación](#design-the-navigation-experience-for-your-app) en este artículo para obtener más información.
+4. En **Navegación**, seleccione el contenido que se va a publicar como parte de la aplicación. Después, agregue navegación de la aplicación, para organizar el contenido en secciones. Vea [Diseño de la experiencia de navegación de la aplicación](#design-the-navigation-experience) en este artículo para obtener más información.
    
      ![Navegación de la aplicación](media/service-create-distribute-apps/power-bi-apps-navigation.png)
 
 5. En **Permisos**, decida quién tiene acceso a la aplicación y qué puede hacer con ella. 
     - En [Áreas de trabajo clásicas](service-create-workspaces.md): todas las personas de la organización, usuarios específicos o grupos de seguridad de Azure Active Directory (AAD).
     - En las [áreas de trabajo de la nueva experiencia](service-create-the-new-workspaces.md): usuarios específicos, grupos de seguridad de AAD y listas de distribución, y grupos de Office 365. Todos los usuarios del área de trabajo reciben automáticamente acceso a la aplicación para el área de trabajo.
-    - Puede permitir que los usuarios de la aplicación se conecten a los conjuntos de datos subyacentes a la aplicación con el permiso de creación. Estos conjuntos de datos aparecerán en las experiencias de búsqueda de conjuntos de datos.
-    - Puede permitir que los usuarios de la aplicación hagan una copia de los informes de esta aplicación en su área de trabajo. 
+    - Puede permitir que los usuarios de la aplicación se conecten a los conjuntos de datos subyacentes de la aplicación si les asigna el permiso de compilación. Verán estos conjuntos de datos cuando busquen conjuntos de datos compartidos. Lea más sobre [cómo permitir que los usuarios se conecten a los conjuntos de datos de la aplicación](#allow-users-to-connect-to-datasets) en este artículo.
+    - Los usuarios con el permiso de compilación también pueden tener permiso para copiar informes desde esta aplicación en otra área de trabajo. Lea más sobre [cómo permitir que los usuarios copien datos en la aplicación](#allow-users-to-copy-reports) en este artículo.
     
     >[!IMPORTANT]
     >Si la aplicación se basa en conjuntos de datos de otras áreas de trabajo, es responsabilidad suya asegurarse de que todos los usuarios de la aplicación tienen acceso a los conjuntos de datos subyacentes.
-> 
->     
-
+    >
 
 6. Puede instalar la aplicación de forma automática para los destinatarios, si el administrador de Power BI ha habilitado esta opción automáticamente en el Portal de administración de Power BI. Obtenga más información sobre [la instalación automática de una aplicación](#automatically-install-apps-for-end-users) en este artículo.
 
@@ -84,26 +82,26 @@ Cuando los paneles e informes en el área de trabajo estén listos, elija cuále
 Puede enviar ese vínculo directo a los usuarios con los que la ha compartido, o bien pueden encontrar la aplicación en la pestaña Aplicaciones, en **Descargar y explorar más aplicaciones de AppSource**. Obtenga información sobre la [experiencia de aplicación para usuarios empresariales](consumer/end-user-apps.md).
 
 ## <a name="change-your-published-app"></a>Cambiar la aplicación publicada
-Después de publicar la aplicación, puede que desee cambiarla o actualizarla. Es fácil actualizarla si es un administrador o miembro de la nueva área de trabajo de la aplicación. 
+Después de publicar la aplicación, puede que desee cambiarla o actualizarla. Es fácil actualizarla si es un administrador o miembro de la nueva área de trabajo. 
 
-1. Abra el área de trabajo de aplicación que corresponde a la aplicación. 
+1. Abra el área de trabajo que se corresponde a la aplicación. 
    
      ![Abrir área de trabajo](media/service-create-distribute-apps/power-bi-apps-open-workspace.png)
 
 2. Realice los cambios que quiera en los paneles o informes.
  
-     El área de trabajo de aplicación es el área de ensayo, por lo que los cambios no se envían en directo a la aplicación hasta que la vuelva a publicar. Esto le permite realizar cambios sin que ello afecte a las aplicaciones publicadas.  
+     El área de trabajo es el área de ensayo, por lo que los cambios no se envían en directo a la aplicación hasta que la vuelva a publicar. Esto le permite realizar cambios sin que ello afecte a las aplicaciones publicadas.  
  
     > [!IMPORTANT]
     > Si quita un informe y actualiza la aplicación, incluso si vuelve a agregar el informe a la aplicación, los consumidores de la aplicación perderán todas las personalizaciones, como marcadores, comentarios, etc.  
  
-3. Vuelva a la lista de contenidos del área de trabajo de la aplicación y seleccione **Actualizar aplicación** en la esquina superior derecha.
+3. Vuelva a la lista de contenidos del área de trabajo y seleccione **Actualizar aplicación** en la esquina superior derecha.
    
 1. Si es necesario, actualice **Instalación**, **Navegación** y **Permisos**, y después seleccione **Actualizar aplicación**.
    
 Las personas para las que ha publicado la aplicación ven automáticamente la versión actualizada de la aplicación. 
 
-## <a name="design-the-navigation-experience-for-your-app"></a>Diseño de la experiencia de navegación de la aplicación
+## <a name="design-the-navigation-experience"></a>Diseño de la experiencia de navegación
 La opción **Nuevo generador de navegación** permite crear una navegación personalizada para la aplicación. La navegación personalizada hace que la búsqueda y el uso del contenido de la aplicación resulten más fáciles para los usuarios. En las aplicaciones existentes esta opción está desactivada y en las nuevas está activada de forma predeterminada.
 
 Cuando la opción está desactivada, puede seleccionar que la **Página de aterrizaje de la aplicación** sea **Contenido específico** (por ejemplo, un panel o un informe), o bien seleccionar **Ninguno** para mostrar al usuario una lista de contenido básico.
@@ -156,31 +154,36 @@ Estos son aspectos que debe tener en cuenta al publicar aplicaciones para los us
 
 * Si los usuarios no ven inmediatamente la aplicación en la lista Aplicaciones, tendrán que actualizar o cerrar y volver a abrir el explorador.
 
-* Intente no abrumar a los usuarios. Tenga cuidado de no insertar demasiadas aplicaciones para que los usuarios perciban que las aplicaciones preinstaladas son útiles. Es mejor controlar quién puede insertar aplicaciones para los usuarios finales a fin de coordinar la programación. Establezca un punto de contacto para insertar las aplicaciones de la organización para los usuarios finales.
+* Intente no abrumar a los usuarios. Tenga cuidado de no insertar demasiadas aplicaciones para que los usuarios perciban que las aplicaciones preinstaladas les son útiles. Es mejor controlar quién puede insertar aplicaciones para los usuarios finales a fin de coordinar la programación. Establezca un punto de contacto para insertar las aplicaciones de la organización para los usuarios finales.
 
 * A los usuarios invitados que no hayan aceptado una invitación no se les instalarán las aplicaciones de forma automática.  
 
-## <a name="allowing-users-to-connect-to-the-apps-underlying-datasets"></a>Concesión de permiso a los usuarios para conectarse a los conjuntos de datos subyacentes a la aplicación
-Si activa la opción para permitir que todos los usuarios se conecten a los conjuntos de datos subyacentes a la aplicación, los usuarios de la aplicación reciben el permiso de creación en el conjunto de datos subyacente. Esto permite a los usuarios [usar los conjuntos de datos de la aplicación en distintas áreas de trabajo](service-datasets-across-workspaces.md) para buscar dichos conjuntos de datos en Power BI Desktop y el servicio obtiene experiencias de datos y para crear informes y paneles con estos conjuntos de datos. 
+## <a name="allow-users-to-connect-to-datasets"></a>Permitir a los usuarios conectarse a conjuntos de datos
 
-Cuando desactiva esta opción, los usuarios nuevos que agregue a la aplicación ya no tendrán los permisos de creación. Sin embargo, los permisos existentes en los conjuntos de datos subyacentes no cambian. Puede usar la interfaz de usuario proporcionada para eliminar el permiso de creación manualmente de los usuarios de la aplicación que ya no deban tenerlo. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Al activar la opción para **permitir que los usuarios se conecten a los conjuntos de datos subyacentes de la aplicación**, asigna a los usuarios de la aplicación el *permiso de compilación* en esos conjuntos de datos. Con este permiso, pueden realizar varias acciones clave:
 
-## <a name="allowing-users-to-make-a-copy-of-the-reports-in-the-app"></a>Permitir a los usuarios hacer una copia de los informes de la aplicación
-Activando la opción **Permitir a los usuarios hacer una copia de los informes de esta aplicación**, permitirá que los usuarios guarden cualquiera de los informes de la aplicación en sus áreas de trabajo. A continuación, los usuarios pueden personalizar los informes según sus necesidades específicas. Esta opción requiere que la opción **Permitir que todos los usuarios se conecten a los conjuntos de datos subyacentes a la aplicación mediante el permiso de creación** esté habilitada. Esta funcionalidad se comporta como la nueva funcionalidad [copiar informes desde otras áreas de trabajo](service-datasets-copy-reports.md).
+- [Usar los conjuntos de datos de la aplicación](service-datasets-across-workspaces.md) como base para sus informes.
+- Buscar estos conjuntos de datos en Power BI Desktop y en la experiencia de obtención de datos en el servicio Power BI.
+- Crear informes y paneles basados en estos conjuntos de datos.
+
+Al desactivar esta opción, los usuarios nuevos que agregue a la aplicación ya no tendrán el permiso de compilación. Pero para los usuarios de la aplicación existentes, los permisos en los conjuntos de datos subyacentes no cambian. Puede eliminar de forma manual el permiso de compilación de los usuarios de la aplicación que ya no deban tenerlo. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+
+## <a name="allow-users-to-copy-reports"></a>Permitir a los usuarios copiar informes
+
+Al activar la opción **Permitir a los usuarios hacer una copia de los informes de esta aplicación**, los usuarios pueden guardar cualquiera de los informes de la aplicación en sus áreas de trabajo o en otra. Para hacer una copia, los usuarios necesitan una licencia Pro, incluso si el informe original se encuentra en un área de trabajo de una capacidad Premium. A continuación, los usuarios pueden personalizar los informes según sus necesidades específicas. Tendrá que seleccionar primero la opción **Permite que los usuarios se conecten a los conjuntos de datos subyacentes de la aplicación mediante el permiso de compilación**. Al seleccionar estas opciones, se habilita la nueva función de [copia de informes desde otras áreas de trabajo](service-datasets-copy-reports.md).
 
 ## <a name="unpublish-an-app"></a>Cancelar la publicación de una aplicación
-Cualquier miembro de un área de trabajo de la aplicación puede cancelar la publicación de la aplicación.
+Cualquier miembro de un área de trabajo puede cancelar la publicación de la aplicación.
 
 >[!IMPORTANT]
 >Cuando cancela la publicación de una aplicación, los usuarios de la aplicación pierden sus personalizaciones. Pierden todos los marcadores personales, comentarios o suscripciones asociados al contenido de la aplicación. Cancele la publicación de una aplicación solo si es necesario quitarla.
 > 
-> 
 
-* En un área de trabajo de la aplicación, seleccione el botón de puntos suspensivos ( **…** ) en la esquina superior derecha > **Unpublish app** (Cancelar publicación de aplicación).
+* En un área de trabajo, seleccione el botón de puntos suspensivos ( **…** ) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
   
      ![Cancelar publicación de la aplicación](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
-Esta acción desinstala la aplicación para todos los usuarios para los que se haya publicado, los cuales dejarán de tener acceso a ella. No se elimina el área de trabajo de la aplicación ni su contenido.
+Esta acción desinstala la aplicación para todos los usuarios para los que se haya publicado, los cuales dejarán de tener acceso a ella. No se elimina el área de trabajo ni su contenido.
 
 ## <a name="view-your-published-app"></a>Visualización de la aplicación publicada
 
@@ -189,7 +192,7 @@ Cuando los consumidores de la aplicación la abran, verán el panel de navegaci�
 ![Aplicación con navegación](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Crear área de trabajo de la aplicación](service-create-workspaces.md)
+* [Crear un área de trabajo](service-create-workspaces.md)
 * [Instalar y usar aplicaciones en Power BI](consumer/end-user-apps.md)
 * [Conectarse a los servicios con los paquetes de contenido de Power BI](service-connect-to-services.md)
 * [Portal de administración de Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)

@@ -1,38 +1,39 @@
 ---
-title: Insertar un informe mediante un elemento iFrame
-description: Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
+title: Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
+description: En este artículo se muestra como insertar un informe de Power BI Report Server en un elemento iFrame en SharePoint Server
 author: maggiesMSFT
 ms.author: maggies
-ms.date: 05/04/2018
-ms.topic: quickstart
+ms.date: 08/12/2019
+ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
 manager: kfile
-ms.openlocfilehash: ca26770c652c12573bf28e24b218b214bf1196fa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: e1787863d2b5db50cdb9a8d09907fbee6623972f
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769868"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994997"
 ---
-# <a name="quickstart-embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inicio rápido: Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
+# <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
 
-En este inicio rápido obtendrá información sobre cómo insertar un informe de Power BI Report Server mediante el uso de un elemento iFrame en una página de SharePoint. Si trabaja con SharePoint Online, Power BI Report Server debe ser de acceso público. En SharePoint Online, el elemento web de Power BI que funciona con el servicio Power BI no funcionará con Power BI Report Server. 
+En este artículo, obtendrá información sobre cómo insertar un informe de Power BI Report Server mediante un elemento iFrame en una página de SharePoint. Si trabaja con SharePoint Online, Power BI Report Server debe ser de acceso público. En SharePoint Online, el elemento web de Power BI que funciona con el servicio Power BI no funcionará con Power BI Report Server.  
 
 ![Ejemplo de iFrame](media/quickstart-embed/quickstart_embed_01.png)
+
 ## <a name="prerequisites"></a>Requisitos previos
-* Debe tener [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
-* Necesitará tener instalado [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md).
-* Debe tener un entorno de [SharePoint](https://docs.microsoft.com/sharepoint/install/install) instalado y configurado.
+* [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
+* [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md) instalado.
+* Un entorno de [SharePoint](https://docs.microsoft.com/sharepoint/install/install) instalado y configurado.
 
-## <a name="creating-the-power-bi-report-server-report-url"></a>Creación de la dirección URL del informe de Power BI Report Server
+## <a name="create-the-power-bi-report-url"></a>Creación de la dirección URL del informe de Power BI
 
-1. Descargue el ejemplo de GitHub: [demostración de blog](https://github.com/Microsoft/powerbi-desktop-samples).
+1. Descargue el ejemplo de GitHub: [Blog Demo](https://github.com/Microsoft/powerbi-desktop-samples) (Demostración de blog). Seleccione **Clonar o descargar** y, después **Descargar ZIP**.
 
-    ![Descargar archivo PBIX de ejemplo](media/quickstart-embed/quickstart_embed_14.png)
+    ![Descarga del archivo PBIX de ejemplo](media/quickstart-embed/quickstart_embed_14.png)
 
-2. Abra el archivo PBIX de ejemplo desde GitHub en **Power BI Desktop optimizado para Power BI Report Server**.
+2. Descomprima el archivo y abra el archivo .pbix de ejemplo en Power BI Desktop optimizado para Power BI Report Server.
 
     ![Herramienta de PBI RS Desktop](media/quickstart-embed/quickstart_embed_02.png)
 
@@ -40,49 +41,45 @@ En este inicio rápido obtendrá información sobre cómo insertar un informe de
 
     ![Guardar en PBI RS](media/quickstart-embed/quickstart_embed_03.png)
 
-4. Vea el informe en el **portal web**.
+4. Vea el informe en el portal web de Power BI Report Server.
 
     ![Portal web](media/quickstart-embed/quickstart_embed_04.png)
 
-### <a name="capturing-the-url-parameter"></a>Captura del parámetro de dirección URL
+### <a name="capture-the-url-parameter"></a>Captura del parámetro de dirección URL
 
-Cuando tenga la dirección URL, puede crear un iFrame en una página de SharePoint para hospedar el informe. Para cualquier dirección URL de informes de Power BI Report Server, puede agregar un parámetro de cadena de consulta de `?rs:embed=true` para insertar el informe en un elemento iFrame. 
+Cuando tenga la dirección URL, puede crear un elemento iFrame en una página de SharePoint para hospedar el informe. Para cualquier dirección URL de informe de Power BI Report Server, agregue el parámetro de cadena de consulta siguiente para insertar el informe en un elemento iFrame de SharePoint: `?rs:embed=true`.
 
    Por ejemplo:
     ``` 
     http://myserver/reports/powerbi/Sales?rs:embed=true
     ```
-## <a name="embedding-a-power-bi-report-server-report-in-a-sharepoint-iframe"></a>Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint
+## <a name="embed-the-report-in-a-sharepoint-iframe"></a>Inserción del informe en un elemento iFrame de SharePoint
 
 1. Vaya a la página **Contenidos del sitio** de SharePoint.
 
-    ![Página de contenidos del sitio](media/quickstart-embed/quickstart_embed_05.png)
+    ![Página Contenidos del sitio](media/quickstart-embed/quickstart_embed_05.png)
 
 2. Elija la página donde desea agregar el informe.
 
-    ![Aplicación de página de contenidos del sitio](media/quickstart-embed/quickstart_embed_06.png)
+    ![Aplicación de la página Contenidos del sitio](media/quickstart-embed/quickstart_embed_06.png)
 
-3. Seleccione el icono de engranaje en la parte superior derecha y seleccione **Editar página**.
+3. Seleccione el icono de engranaje en la parte superior derecha y, después, seleccione **Editar página**.
 
     ![Opción Editar página](media/quickstart-embed/quickstart_embed_07.png)
 
-4. Seleccione **Agregar elemento web**.
+4. Seleccione **Agregar un elemento web**.
 
-    ![Agregar elemento web](media/quickstart-embed/quickstart_embed_08.png)
+5. En **Categorías**, seleccione **Multimedia y contenido**. En **Elementos**, seleccione **Editor de contenido** y después **Agregar**.
 
-5. En **Categorías**, seleccione **Medios y contenido**, en **Elementos**, seleccione **Editor de contenido** y, a continuación, seleccione **Agregar**.
-
-    ![Seleccionar elemento web en el editor de contenido](media/quickstart-embed/quickstart_embed_09.png) ![Seleccionar Agregar](media/quickstart-embed/quickstart_embed_091.png)
+    ![Selección del elemento web Editor de contenido](media/quickstart-embed/quickstart_embed_09.png)
 
 6. Seleccione **Click here to add new content** (Haga clic aquí para agregar contenido nuevo).
 
-    ![Agregar contenido nuevo](media/quickstart-embed/quickstart_embed_10.png)
-
-7. En la cinta de opciones, seleccione la pestaña **Aplicar formato al texto** y luego seleccione **Editar origen**.
+7. En el menú superior, seleccione **Formato de texto** y después **Editar origen**.
 
      ![Editar origen](media/quickstart-embed/quickstart_embed_11.png)
 
-8. En la ventana Editar origen, pegue el código del elemento iFrame y seleccione Aceptar.
+8. En la ventana **Editar origen**, pegue el código del elemento iFrame en **Código fuente HTML** y, después, seleccione **Aceptar**.
 
     ![Código de iFrame](media/quickstart-embed/quickstart_embed_12.png)
 
@@ -91,17 +88,17 @@ Cuando tenga la dirección URL, puede crear un iFrame en una página de SharePoi
      <iframe width="800" height="600" src="http://myserver/reports/powerbi/Sales?rs:embed=true" frameborder="0" allowFullScreen="true"></iframe>
      ```
 
-9. En la cinta de opciones, seleccione la pestaña **Página** y luego seleccione **Detener la edición**.
+9. En el menú superior, seleccione **Página** y después **Detener la edición**.
 
     ![Detener la edición](media/quickstart-embed/quickstart_embed_13.png)
 
-10. Ahora debería ver el informe en la página.
+    El informe aparece en la página.
 
     ![Ejemplo de iFrame](media/quickstart-embed/quickstart_embed_01.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Inicio rápido: Creación de un informe de Power BI para Power BI Report Server](quickstart-create-powerbi-report.md)  
-[Inicio rápido: Creación de un informe paginado para Power BI Report Server](quickstart-create-paginated-report.md)  
+- [Creación de un informe de Power BI para Power BI Report Server](quickstart-create-powerbi-report.md).  
+- [Creación de un informe paginado para Power BI Report Server](quickstart-create-paginated-report.md).  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/) 
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/). 

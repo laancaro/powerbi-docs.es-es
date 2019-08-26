@@ -7,29 +7,31 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/15/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d8e77d8fe4ebea5b457ba282014bb8dc738191a
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: 5004b55fa48cdf98aedd019749b738352d68c4cd
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68324840"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560869"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
 
 Para conectarse a datos, seleccione **Obtener datos** desde la cinta de opciones **Inicio** . Al seleccionar la flecha abajo o el texto **Obtener datos** en el botón, se muestra el menú de tipos de datos **Más comunes** en la siguiente imagen:
 
-![Obtener datos en Power BI Desktop](media/desktop-data-sources/data-sources_01.png)
+![Obtener datos en Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
 Al seleccionar **Más…** en el menú **Más comunes**, se muestra la ventana **Obtener datos**. También puede abrir la ventana **Obtener datos** (y omitir el menú **Más comunes** ) seleccionando el icono **Obtener datos** **directamente** .
 
-![Botón Obtener datos](media/desktop-data-sources/data-sources_02.png)
+![Botón Obtener datos](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción.
+> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción. 
+
+> Además, es posible que los orígenes de datos marcados como *Beta* o *Versión preliminar* para **Power BI Desktop** no estén disponibles para su uso en el **servicio Power BI** u otros servicios de Microsoft hasta que el origen de datos esté disponible con carácter general (GA).
 
 ## <a name="data-sources"></a>Orígenes de datos
 Los tipos de datos se organizan en las categorías siguientes:
@@ -56,7 +58,7 @@ La categoría **Archivo** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Archivo**.
 
-![Obtener datos > Archivo](media/desktop-data-sources/data-sources_03.png)
+![Obtener datos > Archivo](media/desktop-data-sources/data-sources-03.png)
 
 La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 
@@ -95,16 +97,18 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos**.
 
-![Obtener datos > Bases de datos](media/desktop-data-sources/data-sources_04.png)
+![Obtener datos > Bases de datos](media/desktop-data-sources/data-sources-04.png)
 
-La categoría **Power BI** proporciona las siguientes conexiones de datos:
+La categoría **Power Platform** proporciona las conexiones de datos siguientes:
 
 * Conjuntos de datos de Power BI
 * Flujos de datos de Power BI
+* Common Data Service
+* Flujos de entrada de Power Platform (Beta)
 
-La siguiente imagen muestra la ventana **Obtener datos** para **Power BI**.
+En la imagen siguiente se muestra la ventana **Obtener datos** para **Power Platform**.
 
-![Obtener datos > Power BI](media/desktop-data-sources/data-sources_05.png)
+![Obtener datos > Power BI](media/desktop-data-sources/data-sources-05.png)
 
 La categoría **Azure** proporciona las siguientes conexiones de datos:
 
@@ -113,7 +117,7 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Base de datos de Azure Analysis Services
 * Azure Blob Storage
 * Azure Table Storage
-* Azure Cosmos DB (beta)
+* Azure Cosmos DB
 * Azure Data Lake Storage Gen2 (Beta)
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
@@ -124,7 +128,7 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
 
-![Obtener datos > Azure](media/desktop-data-sources/data-sources_06.png)
+![Obtener datos > Azure](media/desktop-data-sources/data-sources-06.png)
 
 La categoría **Online Services** proporciona las siguientes conexiones de datos:
 
@@ -134,7 +138,6 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Dynamics NAV
 * Dynamics 365 Business Central
 * Dynamics 365 Business Central (local)
-* Common Data Service
 * Microsoft Azure Consumption Insights (Beta)
 * Azure DevOps (Beta)
 * Azure DevOps Server (Beta)
@@ -161,6 +164,7 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * tyGraph (Beta)
 * Webtrends (Beta)
 * Zendesk (Beta)
+* Dynamics 365 Customer Insights (Beta)
 * Origen de datos de Emigo (Beta)
 * Entersoft Business Suite (Beta)
 * Industrial App Store
@@ -168,11 +172,11 @@ La categoría **Online Services** proporciona las siguientes conexiones de datos
 * Microsoft Graph Security (Beta)
 * Quick Base
 * TeamDesk (Beta)
-* Dynamics 365 Customer Insights (Beta)
+
 
 La imagen siguiente muestra la ventana **Obtener datos** para **Online Services**
 
-![Obtener datos > Online Services](media/desktop-data-sources/data-sources_07.png)
+![Obtener datos > Online Services](media/desktop-data-sources/data-sources-07.png)
 
 La categoría **Otros** proporciona las siguientes conexiones de datos:
 
@@ -200,7 +204,7 @@ La categoría **Otros** proporciona las siguientes conexiones de datos:
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 
-![Obtener datos > Otros](media/desktop-data-sources/data-sources_08.png)
+![Obtener datos > Otros](media/desktop-data-sources/data-sources-08.png)
 
 > [!NOTE]
 > En este momento, no es posible conectarse a orígenes de datos personalizados que se protegen mediante Azure Active Directory.
@@ -208,15 +212,15 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Otros**.
 ## <a name="connecting-to-a-data-source"></a>Conectarse a un origen de datos
 Para conectarse a un origen de datos, seleccione el origen de datos en la ventana **Obtener datos** y seleccione **Conectar**. En la siguiente imagen, la opción **Web** está seleccionada en la categoría de conexión de datos **Otros** .
 
-![Conectar a Web](media/desktop-data-sources/data-sources_08.png)
+![Conectar a Web](media/desktop-data-sources/data-sources-08.png)
 
 Se muestra una ventana de conexión, específica al tipo de conexión de datos. Si se necesitan credenciales, se le pedirá que las proporcione. La siguiente imagen muestra una dirección URL que se escribió para conectarse a un origen de datos web.
 
-![Entrada de dirección URL web](media/desktop-data-sources/datasources_fromwebbox.png)
+![Entrada de dirección URL web](media/desktop-data-sources/datasources-fromwebbox.png)
 
 Cuando se escribe la información de conexión de recurso o la dirección URL, seleccione **Aceptar**. Power BI Desktop realiza la conexión al origen de datos y presenta los orígenes de datos disponibles en el **Navegador**.
 
-![Pantalla de navegador](media/desktop-data-sources/datasources_fromnavigatordialog.png)
+![Pantalla de navegador](media/desktop-data-sources/datasources-fromnavigatordialog.png)
 
 Puede cargar los datos seleccionando el botón **Cargar** situado en la parte inferior del panel **Navegador** , o bien editar la consulta antes de cargar datos seleccionando el botón **Editar** .
 

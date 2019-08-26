@@ -7,19 +7,22 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/03/2019
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2db4c23b50071e387913ed79b4d01daeafb928a4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: af0ffa5a879a2249c34ac73895103dfdf63e4d27
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567423"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530615"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copia de informes desde otras áreas de trabajo (versión preliminar)
 
-Cuando encuentre un informe que le guste en un área de trabajo o una aplicación, puede realizar una copia y después guardarlo en otra área de trabajo. Después, puede modificar ese informe mediante la adición o eliminación de objetos visuales y otros elementos. No tiene que preocuparse de crear el modelo de datos. Ya se ha creado de forma automática. Y resulta mucho más fácil modificar un informe existente que empezar desde cero. Sin embargo, no puede publicar su copia del informe en una aplicación desde la nueva área de trabajo. Vea la lista de otras [consideraciones y limitaciones](service-datasets-across-workspaces.md#considerations-and-limitations) en el artículo "Uso de conjuntos de datos entre áreas de trabajo".
+Si encuentra un informe que le gusta en un área de trabajo o una aplicación, puede realizar una copia y guardarlo en otra área de trabajo. Luego puede modificar la copia del informe mediante la incorporación o eliminación de objetos visuales y otros elementos. No tiene que preocuparse de crear el modelo de datos. Ya se ha creado de forma automática. Y resulta mucho más fácil modificar un informe existente que empezar desde cero. Pero si se crea una aplicación desde la nueva área de trabajo, a veces no es posible publicar la copia del informe en la aplicación. Vea [Consideraciones y limitaciones en el artículo "Uso de conjuntos de datos entre áreas de trabajo"](service-datasets-across-workspaces.md#considerations-and-limitations) para obtener detalles.
+
+> [!NOTE]
+> Para realizar una copia se necesita una licencia Pro, aunque el informe original se encuentre en un área de trabajo de una capacidad Premium.
 
 ## <a name="save-a-copy-of-a-report"></a>Guardado de una copia de un informe
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: ecd58ca21e7fb6c5fb0bc2d3410788e2563efa9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d1739d97b0741c67e29ed7ab9a35a70bf4fdc484
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65454520"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654839"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
@@ -130,7 +130,7 @@ Para empezar, la mayoría de las clasificaciones se presentaron en el **Editor d
 
 También puede cambiar, o *transformar,* las columnas de texto a encabezado desde la cinta **Transformar** . Esta es la cinta de opciones **Transformar** , con una flecha que señala hacia el botón **Tipo de datos** , que permite transformar el tipo de datos actual.
 
- ![](media/desktop-getting-started/shapecombine_changetype.png)
+ ![](media/desktop-getting-started/shapecombine-changetype-b.png)
 
 Tenga en cuenta que en la **Configuración de consulta**, los **Pasos aplicados** reflejan los cambios realizados. Si desea quitar cualquier paso del proceso de forma, simplemente seleccione el paso y, a continuación, seleccione la **X** a la izquierda del paso.
 

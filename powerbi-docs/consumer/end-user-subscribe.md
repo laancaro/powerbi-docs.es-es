@@ -9,14 +9,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 08/12/2019
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 85976d191fba627b75f8b415acc312817d11ed34
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
+ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408518"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68961676"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
 Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o cuando se actualicen los datos. Incluso puede establecer una hora concreta a la que Power BI envíe los mensajes de correo electrónico o hacer que se ejecute al instante.  
@@ -76,6 +76,7 @@ Una suscripción finalizará si expira la licencia de Pro, el propietario elimin
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * Es posible que los paneles con más de 25 iconos anclados, o bien con 4 páginas de informes activos ancladas, no se representen totalmente en los correos electrónicos de la suscripción enviados a los usuarios. Se recomienda contactar con el diseñador del panel y pedirle que reduzca los iconos anclados a menos de 25 y los informes activos anclados a menos de 4 para asegurarse de que el correo electrónico se representa de forma correcta.  
 * En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, dicho icono no se mostrará.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
+* Si los vínculos del correo electrónico (al contenido) dejan de funcionar, es posible que el contenido se haya eliminado. En el correo electrónico, debajo de la captura de pantalla, puede ver si se ha suscrito personalmente o si alguien lo ha hecho por usted. Si lo ha hecho otra persona, pídale que cancele los mensajes de correo electrónico o que vuelva a suscribirle.
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y cambia de nombre, tendrá que volver a crear la suscripción.
 * Si no puede usar la característica de suscripción, póngase en contacto con el administrador del sistema. Es posible que la organización haya desactivado esta característica por razones de autenticación o de otro tipo.  
 * Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](../power-bi-custom-visuals.md).  La excepción son los objetos visuales personalizados que se han [certificado](../power-bi-custom-visuals-certified.md).  

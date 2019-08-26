@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bea8b954cb1c0743745ef6d3bf9d48aa8513f2fe
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624048"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655170"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -28,7 +28,7 @@ Actualmente se admiten estos orígenes de datos:
 * SQL Server
 * SAP HANA
 * SAP BW
-* Teradatos
+* Teradata
 * Spark
 * Impala
 
@@ -192,7 +192,7 @@ Ahora que comprende el funcionamiento de Kerberos con una puerta de enlace, pued
 1. Descargue CommonCryptoLib (sapcrypto.dll) versión **8.5.25 o superior** desde SAP Launchpad y cópielo en una carpeta de la máquina de la puerta de enlace. En el mismo directorio donde copió sapcrypto.dll, cree un archivo denominado sapcrypto.ini con el siguiente contenido:
 
     ```
-    ccl/snc/enable\_kerberos\_in\_client\_role = 1
+    ccl/snc/enable_kerberos_in_client_role = 1
     ```
 
     El archivo .ini contiene información de configuración requerida por CommonCryptoLib para habilitar el inicio de sesión único en el escenario de puerta de enlace.
@@ -242,7 +242,7 @@ Si no puede actualizar el informe en el servicio Power BI, puede usar el seguim
 
     ```
     ccl/trace/level=5
-    ccl/trace/directory=\\<drive\\>:\logs\sectrace
+    ccl/trace/directory=<drive>:\logs\sectrace
     ```
 
     Asegúrese de cambiar la opción _ccl/trace/directory_ por una ubicación en la que los miembros del grupo usuarios autenticados pueden escribir. También puede crear otro archivo .ini para cambiar este comportamiento. En el mismo directorio en que están sapcrypto.ini y sapcrypto.dll, cree un archivo denominado sectrace.ini con el contenido siguiente.  Reemplace la opción DIRECTORY por una ubicación en la máquina en la que el usuario autenticado pueda escribir:
@@ -250,7 +250,7 @@ Si no puede actualizar el informe en el servicio Power BI, puede usar el seguim
     ```
     LEVEL = 5
     
-    DIRECTORY = \\<drive\\>:\logs\sectrace
+    DIRECTORY = <drive>:\logs\sectrace
     ```
 
     Ahora, reproduzca el problema y compruebe que la ubicación a la que apunta DIRECTORY contiene archivos de seguimiento. Asegúrese de desactivar el seguimiento de CPIC y CCL cuando haya terminado.

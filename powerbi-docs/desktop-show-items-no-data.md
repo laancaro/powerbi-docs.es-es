@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/03/2019
+ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a687e42ef2963ce5e85bd1e0be72c2562afa5b6c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
+ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61370503"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69560835"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Característica Mostrar elementos sin datos de Power BI
 
@@ -25,7 +25,7 @@ Power BI permite visualizar todo tipo de datos desde diversos orígenes. Al crea
 
 ## <a name="determining-relevant-data"></a>Determinación de los datos pertinentes
 
-Para empezar a entender cómo Power BI determina qué datos son pertinentes para mostrar, veamos una tabla como ejemplo simple. Con el modelo representado en la sección de ejemplos, que se encuentra al final de este artículo, considere la posibilidad de crear una tabla con las siguientes opciones:
+Para empezar a entender cómo Power BI determina qué datos son pertinentes para mostrar, veamos una tabla como ejemplo simple. Con el modelo representado en la sección [Modelo de datos de ejemplo](#example-data-model) (al final de este artículo) considere la posibilidad de crear una tabla con las opciones siguientes:
 
 **1. Grupos de la misma tabla:** *Product[Color] - Product[Size]*
 
@@ -152,6 +152,25 @@ Cómo aparece si está la característica **Mostrar elementos sin datos** activa
 |Rojo     |Gloss         |         |
 
 En este caso, observe cómo *ProductStyle[Finish]=None* no se muestra en la tabla. Esto se debe a que, en este caso, Power BI seleccionó primero todos los valores de *Color* de la tabla *Product*. Después, para cada color, Power BI eligió los valores de *Finish* correspondientes que contenían datos. Como *None* no se muestra en ninguna combinación de *Color*, no se seleccionó.
+
+
+## <a name="power-bi-visual-behavior"></a>Comportamiento de los objetos visuales de Power BI
+
+Cuando **Mostrar elementos sin datos** está habilitado en un campo de un objeto visual, la característica se habilita de forma automática para todos los demás campos que se encuentran en ese mismo *cubo de objeto visual* o jerarquía. Un cubo o jerarquía de objeto visual puede ser su **Eje** o **Leyenda**, o bien **Categoría**, **Filas** o **Columnas**.
+
+![Campos del eje y la leyenda](media/desktop-show-items-no-data/show-items-no-data-04.png)
+
+Por ejemplo, en un objeto visual de matriz con cuatro campos en el depósito **Filas**, si en uno de ellos está habilitado **Mostrar elementos sin datos**, estará habilitado en todos los elementos de la matriz. En la imagen siguiente, la opción **Mostrar elementos sin datos** está habilitada en el primer campo del cubo **Filas**, el campo *SupplierID*. En los demás campos del cubo **Filas** también está habilitada de forma automática.
+
+![Los campos del mismo objeto visual habilitan Mostrar elementos sin datos de forma automática](media/desktop-show-items-no-data/show-items-no-data-05.png)
+
+Por el contrario, el campo *Continente* que se muestra en el cubo **Columnas** *no* tiene habilitada de forma automática la opción **Mostrar elementos sin datos**. 
+
+Este comportamiento visual se suele ver cuando se convierte un objeto visual a otro tipo, por ejemplo al convertir un objeto visual de matriz en uno de tabla. En estas conversiones, la opción **Mostrar elementos sin datos** se habilita de forma automática para cualquier campo que se haya movido a un cubo que tenga un campo con la característica habilitada. En el ejemplo anterior, si *SupplierID* tiene habilitada la característica **Mostrar elementos sin datos** y el objeto visual se convierte en una tabla, el campo *Continente* del cubo **Columnas** se mueve (junto con los campos del cubo **Filas**) al único cubo que se usa en un objeto visual de tabla: **Valores**. Por tanto, todos los campos del cubo **Valores** tendrán habilitada la característica **Mostrar elementos sin datos**.
+
+### <a name="exporting-data"></a>Exportación de datos
+
+Cuando se usa la característica **Exportar datos resumidos**, el comportamiento de la característica **Mostrar elementos sin datos** es el mismo que si la exportación se hubiera convertido en un objeto visual de tabla. Por tanto, al exportar un objeto visual como matriz de gráficos, es posible que los datos exportados tengan un aspecto diferente al mostrado por el objeto visual. Esto se debe a que la conversión a un objeto visual de tabla, como parte del proceso de exportación, habilitaría **Mostrar elementos sin datos** para todos los campos que se van a exportar. 
 
 ## <a name="example-data-model"></a>Modelo de datos de ejemplo
 

@@ -1,5 +1,5 @@
 ---
-title: 'Creación y uso compartido de los conjuntos de datos (versión preliminar): Power BI'
+title: Uso compartido de un conjunto de datos (versión preliminar)
 description: Como propietario de un conjunto de datos, puede crear y compartir los conjuntos de datos para que otros usuarios puedan usarlos. Obtenga información acerca de cómo puede mantener el control sobre quién tiene acceso a los datos mediante el permiso de compilación.
 author: maggiesMSFT
 manager: kfile
@@ -7,17 +7,17 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 22339b3d5062c01b3795086eede24ed6a8e7d7e7
-ms.sourcegitcommit: 7c426a5209d4fdd1360fc3d0442d57991be1984d
+ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
+ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "66461773"
+ms.lasthandoff: 08/16/2019
+ms.locfileid: "69530518"
 ---
-# <a name="create-and-share-datasets-preview"></a>Creación y uso compartido de los conjuntos de datos (versión preliminar)
+# <a name="share-a-dataset-preview"></a>Uso compartido de un conjunto de datos (versión preliminar)
 
 Como creador de *modelos de datos* en Power BI Desktop, puede compartirlos como *conjuntos de datos* en el servicio Power BI. Después, los creadores de informes pueden detectar fácilmente y volver a usar los conjuntos de datos que ha compartido. Obtenga información sobre cómo compartirlos, y cómo controlar quién tiene acceso a los datos mediante el permiso de compilación.
 
@@ -31,7 +31,7 @@ Como creador de *modelos de datos* en Power BI Desktop, puede compartirlos como 
     
     Otros miembros de esta área de trabajo ya pueden crear informes en otras áreas de trabajo en función de este conjunto de datos.
 
-1. Ahora puede [crear una aplicación](service-create-distribute-apps.md) desde esta área de trabajo. Al hacerlo, especifique quién tiene permisos y qué puede hacer en la página **Permisos**.
+1. También puede [publicar una aplicación](service-create-distribute-apps.md) desde esta área de trabajo. Al hacerlo, especifique quién tiene permisos y qué puede hacer en la página **Permisos**.
 
     > [!NOTE]
     > Si selecciona **Toda la organización**, nadie de la organización tendrá permisos de compilación. Este problema ya se conoce. En su lugar, especifique direcciones de correo electrónico en **Grupos o usuarios específicos**.  Si quiere que toda la organización tenga permisos de compilación, especifique un alias de correo electrónico para toda la organización.
@@ -46,6 +46,8 @@ El tipo de permiso de compilación solo es relevante para los conjuntos de datos
 
 Los usuarios obtienen permisos de compilación de diferentes maneras:
 
+- Si es miembro de un área de trabajo con, al menos, un rol Colaborador, tiene automáticamente permiso de compilación para un conjunto de datos y permiso para copiar un informe.
+ 
 - Un miembro del área de trabajo en la que reside el conjunto de datos puede asignar el permiso a usuarios o grupos de seguridad específicos en el Centro de permisos. Seleccione los puntos suspensivos (…) junto al conjunto de datos > **Administrar permisos**.
 
     ![Selección de los puntos suspensivos](media/service-datasets-build-permissions/power-bi-dataset-manage-permissions.png)
@@ -54,13 +56,13 @@ Los usuarios obtienen permisos de compilación de diferentes maneras:
 
     ![Centro de permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions.png)
 
-- Un administrador o miembro del área de trabajo donde reside el conjunto de datos puede decidir durante la publicación de la aplicación que los usuarios con permiso para la aplicación también obtienen el permiso de compilación para los conjuntos de datos subyacentes. Vea [Pasos para compartir el conjunto de datos](#steps-to-sharing-your-dataset) para más información.
+- Un administrador o miembro del área de trabajo donde reside el conjunto de datos puede decidir durante la publicación de la aplicación que los usuarios con permiso para la aplicación también obtienen el permiso de compilación para los conjuntos de datos subyacentes. Vea [Pasos para compartir el conjunto de datos](#steps-to-sharing-your-dataset) en este artículo para obtener detalles.
 
 - Imagine que dispone de los permisos Volver a compartir y Compilar en un conjunto de datos. Al compartir un informe o panel creado sobre ese conjunto de datos, puede especificar que los destinatarios también obtienen el permiso de compilación para el conjunto de datos subyacente.
 
     ![Permisos de compilación](media/service-datasets-build-permissions/power-bi-share-report-allow-users.png)
 
-Puede quitar los permisos de compilación de los usuarios de un conjunto de datos. Si lo hace, podrán seguir viendo el informe creado en el conjunto de datos compartido, pero ya no podrán editarlo.
+Puede quitar los permisos de compilación de un usuario para un conjunto de datos. Si lo hace, podrán seguir viendo el informe creado en el conjunto de datos compartido, pero ya no podrán editarlo.
 
 ## <a name="more-granular-permissions"></a>Permisos más pormenorizados
 

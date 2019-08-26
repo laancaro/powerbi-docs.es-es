@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: af3c22197e4d6783787bd72c9cf010bf6db64bc1
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 62b5498558b2c89a23e2ed2caf3dacdf343d3a79
+ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68270969"
+ms.lasthandoff: 08/15/2019
+ms.locfileid: "69490352"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -66,9 +66,10 @@ Esta es una lista parcial de las diferencias de características.
 
 | Destacado | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | (SKU A) | (SKU EM) | (SKU P) |
-| Inserción de artefactos desde un área de trabajo de la aplicación de Power BI | Capacidad de Azure | Capacidad de Office 365 | Capacidad de Office 365 |
-| Consumir informes de Power BI en una aplicación insertada | Sí | Sí | Sí |
+|   | SKU A: capacidad de Azure | SKU EM: capacidad de O365 | SKU P: capacidad de O365 |
+| Inserción de artefactos desde un área de trabajo de la aplicación de Power BI | Sí | Sí | Sí |
+| Consumir informes de Power BI en una aplicación insertada: SaaS | No | Sí | Sí |
+| Consumir informes de Power BI en una aplicación insertada: PaaS | Sí | Sí | Sí |
 | Consumir informes de Power BI en SharePoint | No | Sí | Sí |
 | Consumir informes de Power BI en Dynamics | No | Sí | Sí |
 | Consumir informes de Power BI en Teams (excluye la aplicación móvil) | No | Sí | Sí |

@@ -181,11 +181,11 @@
               href: desktop-directquery-sap-bw.md
             - name: DirectQuery y SAP HANA
               href: desktop-directquery-sap-hana.md
-            - name: Asumir la configuración de la integridad referencia en Power BI Desktop
+            - name: Configuración de Asumir integridad referencial en Power BI Desktop
               href: desktop-assume-referential-integrity.md
             - name: Uso del conector de SAP BW en Power BI Desktop
               href: desktop-sap-bw-connector.md
-            - name: Uso de vínculos de OneDrive para la Empresa en Power BI Desktop
+            - name: Usar vínculos de OneDrive para la Empresa en Power BI Desktop
               href: desktop-use-onedrive-business-links.md
             - name: 'Servicio de terceros: Conector de Facebook para Power BI Desktop'
               href: service-facebook-connector.md
@@ -227,7 +227,7 @@
               href: desktop-export-to-pdf.md
             - name: Preguntas y respuestas en Power BI Desktop
               href: desktop-qna-in-reports.md
-            - name: Panel Análisis en Power BI Desktop
+            - name: Panel de análisis en Power BI Desktop
               href: desktop-analytics-pane.md
             - name: Uso de las conclusiones para explicar los aumentos y las disminuciones
               href: desktop-insights.md
@@ -355,7 +355,7 @@
               href: visuals/power-bi-visualization-scatter.md
             - name: Gráficos de dispersión de alta densidad
               href: visuals/desktop-high-density-scatter-charts.md
-            - name: Uso de mapas de formas en Power BI Desktop (versión preliminar)
+            - name: Usar mapas de formas en Power BI Desktop (versión preliminar)
               href: visuals/desktop-shape-map.md
             - name: Segmentaciones de datos en Power BI
               href: visuals/power-bi-visualization-slicers.md
@@ -655,7 +655,7 @@
               href: service-publish-to-web.md
             - name: Compartir un panel que se vincula a un libro de Excel en OneDrive
               href: service-share-dashboard-that-links-to-excel-onedrive.md
-            - name: Power BI Publisher for Excel
+            - name: Power BI Publisher para Excel
               href: publisher-for-excel.md
         - name: Preparación de datos de autoservicio
           items:
@@ -1065,7 +1065,7 @@
               href: 'https://go.microsoft.com/fwlink/?linkid=848280'
             - name: Stack Overflow
               href: 'https://go.microsoft.com/fwlink/?linkid=848281'
-    - name: Elementos visuales personalizados
+    - name: Objetos visuales personalizados
       items:
         - name: Información general
           items:
@@ -1426,3 +1426,5 @@
       href: guidance/star-schema.md
     - name: Reducción del tamaño del modelo de datos
       href: guidance/import-modeling-data-reduction.md
+    - name: La función DIVIDE frente al operador de división (/)
+      href: guidance/dax-divide-function-operator.md

@@ -1,6 +1,6 @@
 ---
 title: Introducción a los iconos del panel para los diseñadores de Power BI
-description: Todo acerca de los iconos de paneles en Power BI. Se incluyen los iconos que se crean desde informes de SQL Server Reporting Services (SSRS).
+description: En este artículo se describen los iconos de panel en Power BI, que incluye los que se crean a partir de informes de SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
 manager: kfile
 ms.reviewer: ''
@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/21/2018
+ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c8b5728c951bc1a25e71da8885997814c5485cd4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
+ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61140402"
+ms.lasthandoff: 08/13/2019
+ms.locfileid: "68994872"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introducción a los iconos del panel para los diseñadores de Power BI
 
@@ -26,17 +26,17 @@ Un icono es una instantánea de sus datos, anclado en el panel. Un icono se pued
 
 Los paneles y los iconos de paneles son una característica del servicio Power BI y no de Power BI Desktop. No puede crear paneles en dispositivos móviles, pero puede [verlos y compartirlos](mobile-apps-view-dashboard.md) allí.
 
-Además de anclarlos, puede crear iconos independientes directamente en el panel mediante [Agregar icono](service-dashboard-add-widget.md). Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
+Además de anclar iconos, puede crear iconos independientes directamente en el panel mediante el control [Agregar icono](service-dashboard-add-widget.md). Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
 
-¿Necesita ayuda para comprender los bloques de creación que conforman Power BI?  Consulte [Power BI: conceptos básicos](service-basic-concepts.md).
+¿Necesita ayuda para comprender los bloques de creación que conforman Power BI? Vea [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md).
 
 > [!NOTE]
 > Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si ancló un gráfico de líneas desde un informe y luego cambió el gráfico de líneas a un gráfico de barras, el icono del panel seguirá mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 > 
 > 
 
-## <a name="pin-a-tile-from"></a>Anclar un icono desde...
-Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Los iconos se pueden anclar desde:
+## <a name="pin-a-tile"></a>Anclar un icono
+Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Puede anclar iconos desde:
 
 * [Preguntas y respuestas de Power BI](service-dashboard-pin-tile-from-q-and-a.md)
 * [Un informe](service-dashboard-pin-tile-from-report.md)
@@ -44,69 +44,63 @@ Existen muchas maneras diferentes de agregar (anclar) un icono al panel. Los ico
 * [Un libro de Excel en OneDrive para la Empresa](service-dashboard-pin-tile-from-excel.md)
 * [Power BI Publisher para Excel](publisher-for-excel.md)
 * [Quick Insights (Información rápida)](service-insights.md)
-* [Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
+* [Un informe paginado local en Power BI Report Server o SQL Server Reporting Services](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards)
 
-Asimismo, los iconos independientes de imágenes, cuadros de texto, vídeos, datos de transmisión y contenido web se pueden crear directamente en el panel mediante [Agregar icono](service-dashboard-add-widget.md).
+Puede crear iconos independientes para imágenes, cuadros de texto, vídeos, datos de streaming y contenido web directamente en el panel mediante el control [Agregar icono](service-dashboard-add-widget.md).
 
   ![Icono de Agregar icono](media/service-dashboard-tiles/add_widgetnew.png)
 
-## <a name="interacting-with-tiles-on-a-dashboard"></a>Interactuar con los iconos en un panel
+## <a name="interact-with-tiles-on-a-dashboard"></a>Interactuar con los iconos en un panel
+Después de agregar un icono a un panel, puede moverlo y cambiarlo de tamaño, o bien modificar su apariencia y comportamiento.
+
 ### <a name="move-and-resize-a-tile"></a>Mover un icono y cambiar su tamaño
-Capte un icono y [muévalo por el panel](service-dashboard-edit-tile.md). Mantenga el puntero sobre el controlador ![controlador](media/service-dashboard-tiles/resize-handle.jpg) y selecciónelo para cambiar el tamaño del icono.
+Capte un icono y [muévalo por el panel](service-dashboard-edit-tile.md). Mantenga el puntero y seleccione el controlador ![controlador de icono](media/service-dashboard-tiles/resize-handle.jpg) para cambiar el tamaño del icono.
 
 ### <a name="hover-over-a-tile-to-change-the-appearance-and-behavior"></a>Mantener el puntero sobre un icono para cambiar la apariencia y comportamiento
 1. Mantenga el puntero sobre el icono para que se muestren los puntos suspensivos.
    
-    ![Icono de botón de puntos suspensivos](media/service-dashboard-tiles/ellipses_new.png)
-2. Seleccione los puntos suspensivos (...) para abrir el menú de acciones del icono.
+    ![Puntos suspensivos de icono](media/service-dashboard-tiles/ellipses_new.png)
+2. Seleccione los puntos suspensivos para abrir el menú de acciones del icono.
    
-    ![Icono de botón de puntos suspensivos](media/service-dashboard-tiles/power-bi-tile-menu.png)
+    ![Icono de puntos suspensivos](media/service-dashboard-tiles/power-bi-tile-menu.png)
    
     Desde aquí, puede:
    
-   * [Abrir el informe que se ha usado para crear este icono ](service-reports.md) ![icono de informe](media/service-dashboard-tiles/chart-icon.jpg)  
-   
-   * [Abrir la hoja de cálculo que se ha usado para crear este icono ](service-reports.md) ![icono de hoja de cálculo](media/service-dashboard-tiles/power-bi-open-worksheet.png)  
-     
-    * [Ver en modo de enfoque](service-focus-mode.md) ![icono de enfoque](media/service-dashboard-tiles/fullscreen-icon.jpg)  
-     * [Exportar los datos usados en el icono](visuals/power-bi-visualization-export-data.md) ![icono de exportación de datos](media/service-dashboard-tiles/export-icon.png)
-     * [Edición del título y el subtítulo, incorporación de un hipervínculo](service-dashboard-edit-tile.md) ![Icono de edición](media/service-dashboard-tiles/pencil-icon.jpg)
-     * [Ejecutar información ](service-insights.md) ![icono de información](media/service-dashboard-tiles/power-bi-insights.png)
-     * [Anclar el icono a otro panel](service-pin-tile-to-another-dashboard.md)
-       ![icono de anclaje](media/service-dashboard-tiles/pin-icon.jpg)
-     * [Quitar el icono](service-dashboard-edit-tile.md)
-     ![icono de eliminación](media/service-dashboard-tiles/trash-icon.png)
-3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.
+     * [Agregar comentarios al panel](consumer/end-user-comment.md).
+     * [Abrir el informe que se ha usado para crear este icono](service-reports.md).  
+     * [Ver en el modo de enfoque](service-focus-mode.md).   
+     * [Exportar los datos que se usan en el icono](visuals/power-bi-visualization-export-data.md).
+     * [Editar el título y el subtítulo, y agregar un hipervínculo](service-dashboard-edit-tile.md). 
+     * [Ejecutar información detallada](service-insights.md). 
+     * [Anclar el icono a otro panel](service-pin-tile-to-another-dashboard.md).
+     * [Eliminar el icono](service-dashboard-edit-tile.md).
 
-### <a name="select-click-a-tile"></a>Seleccionar (hacer clic en) un icono
-Al seleccionar un icono, lo que sucede después depende de cómo lo ha creado. Además, si tiene un [vínculo personalizado](service-dashboard-edit-tile.md), al seleccionar el icono se le lleva a ese vínculo. En caso contrario, al seleccionar el icono se le dirige al informe, al libro de Excel Online, al informe local de Reporting Services o a la pregunta de Preguntas y respuestas que se ha usado para crear el icono.
+3. Para cerrar el menú de acciones, seleccione un área en blanco en el panel.
+
+### <a name="select-a-tile"></a>Selección de un icono
+Al seleccionar un icono, lo que sucede después depende de cómo lo ha creado. En caso contrario, al seleccionar el icono se le dirige al informe, al libro de Excel Online, al informe local de Reporting Services o a la pregunta de Preguntas y respuestas que se ha usado para crear el icono. O bien, si tiene un [vínculo personalizado](service-dashboard-edit-tile.md), al seleccionar el icono se le lleva a ese vínculo.
 
 > [!NOTE]
-> La excepción son los iconos de vídeo creados directamente en el panel con **Agregar icono**. Al seleccionar un icono de vídeo (que se creó de este modo), el vídeo se reproduce directamente en el panel.   
+> Una excepción son los iconos de vídeo creados directamente en el panel mediante **Agregar icono**. Al seleccionar un icono de vídeo (que se haya creado de este modo), el vídeo se reproduce directamente en el panel.   
 > 
 > 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
-* Si el informe usado para crear la visualización no se guardó, al seleccionar el icono no se realizará ninguna acción.
+* Si el informe que se ha usado para crear la visualización no se ha guardado, al seleccionar el icono no se realizará ninguna acción.
 * Si el icono se ha creado desde un libro de Excel Online, debe tener al menos permisos de lectura para ese libro. De lo contrario, al seleccionar el icono no se abrirá el libro en Excel Online.
-* Imagine que crea un icono directamente en el panel mediante **Agregar icono** y establece un hipervínculo personalizado para él. Si es así, al seleccionar el título, el subtítulo o el icono, se abre esa URL. De lo contrario, de forma predeterminada, al seleccionar un icono creado directamente en el panel para una imagen, un código web o un cuadro de texto, no sucede nada.
-* Si no tiene permiso para el informe de Reporting Services, al seleccionar un icono creado desde un informe de Reporting Services, se le dirigirá a una página en la que se le indicará que no tiene acceso (rsAccessDenied).
-* Si no tiene acceso a la red donde se encuentra el servidor de Reporting Services, al seleccionar un icono creado desde Reporting Services, se le dirigirá a una página en la que se le indicará que no se encuentra el servidor (HTTP 404). El dispositivo debe tener acceso de red al servidor de informes para ver el informe.
-* Si la visualización original usada para crear el icono cambia, no se produce ningún cambio en el icono.  Por ejemplo, si ancla un gráfico de líneas desde un informe y luego cambia el gráfico de líneas a un gráfico de barras, el icono del panel sigue mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
+* Imagine que crea un icono directamente en el panel mediante **Agregar icono** y establece un hipervínculo personalizado para él. En ese caso, al seleccionar el título, el subtítulo o el icono, se abre esa dirección URL. De lo contrario, de forma predeterminada, al seleccionar un icono creado directamente en el panel para una imagen, un código web o un cuadro de texto, no sucede nada.
+* Los iconos se pueden crear desde informes paginados locales en Power BI Report Server o SQL Server Reporting Services. Si no tiene permiso para acceder al informe local, al seleccionar el icono se le llevará a una página en la que se indica que no tiene acceso (rsAccessDenied).
+* Imagine que selecciona un icono creado desde un informe paginado local en Power BI Report Server o SQL Server Reporting Services. Si no tiene acceso a la red donde se encuentra el servidor de informes, al seleccionar un icono creado desde ese informe paginado se le dirigirá a una página en la que se le indica que no se encuentra el servidor (HTTP 404). El dispositivo debe tener acceso de red al servidor de informes para ver el informe.
+* Si cambia la visualización original usada para crear el icono, no se produce ningún cambio en el icono. Por ejemplo, si ancla un gráfico de líneas desde un informe y luego cambia el gráfico de líneas a un gráfico de barras, el icono del panel sigue mostrando un gráfico de líneas. Los datos se actualizan, pero no el tipo de visualización.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Crear una tarjeta (icono grande de número) para el panel](power-bi-visualization-card.md)
+- [Creación de una tarjeta (icono grande de número) para el panel](power-bi-visualization-card.md)
+- [Introducción a los paneles para los diseñadores de Power BI](service-dashboards.md)  
+- [Actualizar datos en Power BI](refresh-data.md)
+- [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
+- [Integración de iconos de Power BI en documentos de Office](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-[Paneles en Power BI](service-dashboards.md)  
-
-[Actualización de datos](refresh-data.md)
-
-[Power BI: Conceptos básicos](service-basic-concepts.md)
-
-[Exportar un icono a PowerPoint](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
-
-[Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
 
