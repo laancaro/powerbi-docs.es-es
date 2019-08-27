@@ -27,11 +27,11 @@ Además, puede permitir que usuarios invitados de fuera de la organización edit
 
 Asegúrese de habilitar la característica [Compartir contenido con usuarios externos](service-admin-portal.md#export-and-sharing-settings) en el portal de administración de Power BI antes de invitar a usuarios invitados.
 
-También puede usar la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Le permite seleccionar qué usuario invitado puede ver y crear contenido en áreas de trabajo, incluida la exploración del servicio Power BI de su organización.
+También puede usar la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Esta característica permite seleccionar qué usuario invitado puede ver y crear contenido en áreas de trabajo, incluida la exploración del servicio Power BI de su organización.
 
 ## <a name="who-can-you-invite"></a>¿A quién puede invitar?
 
-Puede invitar a usuarios invitados con cualquier dirección de correo electrónico, incluidas las cuentas personales como gmail.com, outlook.com y hotmail.com. En Azure AD B2B, estas direcciones se denominan *identidades sociales*.
+Puede invitar a usuarios con cualquier dirección de correo electrónico, incluidas las cuentas personales como gmail.com, outlook.com y hotmail.com. En Azure AD B2B, estas direcciones se denominan *identidades sociales*.
 
 ## <a name="invite-guest-users"></a>Invitar a usuarios externos
 
@@ -81,7 +81,7 @@ Si se usa la característica [Permitir a los usuarios externos editar y administ
 
 ### <a name="use-power-bi-premium"></a>Usar Power BI Premium
 
-Asignar el área de trabajo de la aplicación a una [funcionalidad de Power BI Premium](service-premium-what-is.md) permite al usuario invitado usar la aplicación sin necesidad de una licencia de Power BI Pro. Power BI Premium también permite que las aplicaciones saquen partido a otras funcionalidades como una mayor frecuencia de actualización, capacidad dedicada y tamaños de modelo grandes.
+Asignar el área de trabajo de la aplicación a una [capacidad de Power BI Premium](service-premium-what-is.md) permite al usuario invitado usar la aplicación sin necesidad de una licencia de Power BI Pro. Power BI Premium también permite que las aplicaciones saquen partido a otras funcionalidades como una mayor frecuencia de actualización, capacidad dedicada y tamaños de modelo grandes.
 
 ![Diagrama de la experiencia del usuario invitado con Power BI Premium.](media/service-admin-azure-ad-b2b/license-approach-1.png)
 
@@ -111,7 +111,7 @@ Para ayudar a estos usuarios a iniciar sesión en Power BI, proporcióneles la 
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-* De forma predeterminada, Azure AD B2B permite a los invitados externos solo usar el contenido. Los invitados de Azure AD B2B externos pueden ver aplicaciones, paneles, informes, exportar los datos y crear suscripciones de correo electrónico para los paneles e informes. No pueden acceder a áreas de trabajo ni publicar su propio contenido. Sin embargo, estas restricciones no se aplican a los usuarios invitados que tienen acceso mediante la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
+* De forma predeterminada, Azure AD B2B solo permite a los invitados externos usar el contenido. Los invitados de Azure AD B2B externos pueden ver aplicaciones, paneles, informes, exportar los datos y crear suscripciones de correo electrónico para los paneles e informes. No pueden acceder a áreas de trabajo ni publicar su propio contenido. Sin embargo, estas restricciones no se aplican a los usuarios invitados que tienen acceso mediante la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization).
 
 * Hay algunas experiencias que no están disponibles para los usuarios invitados mediante la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization). Para actualizar o publicar informes, necesitan usar la interfaz de usuario web del servicio Power BI, incluido Obtener datos para cargar archivos de Power BI Desktop.  Las siguientes experiencias no se admiten:
     * Publicación directa desde Power BI Desktop en el servicio Power BI
@@ -131,7 +131,7 @@ Para ayudar a estos usuarios a iniciar sesión en Power BI, proporcióneles la 
 
 * Esta característica no está disponible actualmente en el componente web de los informes de SharePoint Online de Power BI.
 
-* Hay opciones de Active Directory que pueden limitar lo que los usuarios invitados externos pueden hacer dentro de la organización. y que también se aplican al entorno de Power BI. En la siguiente documentación se tratan las opciones:
+* Hay opciones de Active Directory que pueden limitar lo que los usuarios invitados externos pueden hacer dentro de la organización. Estas opciones también se aplican al entorno de Power BI. En la siguiente documentación se tratan las opciones:
     * [Administrar la configuración de colaboración externa](/azure/active-directory/b2b/delegate-invitations#configure-b2b-external-collaboration-settings)
     * [Permitir o bloquear invitaciones a los usuarios de B2B de organizaciones específicas](https://docs.microsoft.com/azure/active-directory/b2b/allow-deny-list)  
 

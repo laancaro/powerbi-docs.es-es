@@ -39,7 +39,7 @@ Power BI Premium es una suscripción de Office 365 de nivel de inquilino disponi
 - SKU **EM** (EM1-EM3) para la inserción, que requieren un compromiso anual que se factura mensualmente. Las SKU EM1 y EM2 solo están disponibles a través de planes de licencias por volumen. No se pueden comprar directamente.
 - SKU **P** (P1-P3) para la inserción y las funciones empresariales, que requieren un compromiso mensual o anual, se facturan mensualmente e incluyen una licencia para instalar Power BI Report Server en el entorno local.
 
-Un enfoque alternativo consiste en comprar una suscripción a **Azure Power BI Embedded**, que tiene una sola familia de SKU **A** (A1-A6) únicamente para fines de inserción y pruebas de capacidad. Todas las SKU proporcionan núcleos virtuales para crear las capacidades, pero las SKU EM están restringidas para la inserción a menor escala. Las SKU EM1, EM2, A1 y A2 con menos de cuatro núcleos virtuales no se ejecutan en infraestructura dedicada.
+Un enfoque alternativo consiste en comprar una suscripción a **Azure Power BI Embedded**, que tiene una sola familia de SKU **A** (A1-A6) únicamente para fines de inserción y pruebas de capacidad. Todas las SKU proporcionan núcleos virtuales para crear las capacidades, pero las SKU EM están restringidas para la inserción a menor escala. Las SKU EM1, EM2, A1 y A2 que tienen menos de cuatro núcleos virtuales no se ejecutan en una infraestructura dedicada.
 
 Aunque este artículo se centra en las SKU P, gran parte de lo que se describe también es relevante para las SKU A. A diferencia de las SKU de suscripción Premium, las de Azure no requieren ningún compromiso de tiempo y se facturan por hora. Ofrecen elasticidad completa que permite escalar y reducir verticalmente, pausar, reanudar y eliminar. 
 
@@ -176,7 +176,7 @@ La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix
    |P2    | < 6 GB        |
    |P3, P4, P5    | hasta 10 GB   |
 
-La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. La publicación de grandes modelos para A y SKU EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de modelos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera. 
+La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. La publicación de grandes modelos para SKU A y EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de modelos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera. 
 
 Los archivos .pbix representan datos en un *estado muy comprimido*. Los datos probablemente se expandirán varias veces al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
 
