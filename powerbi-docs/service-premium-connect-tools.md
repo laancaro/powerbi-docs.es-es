@@ -27,7 +27,7 @@ Las áreas de trabajo y los conjuntos de datos de Power BI Premium admiten conex
 
 ## <a name="protocol"></a>Protocolo
 
-En Power BI Premium se usa el protocolo [XML for Analysis](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference) (XMLA) para las comunicaciones entre las aplicaciones cliente y el motor que administra las áreas de trabajo y los conjuntos de datos. Estas comunicaciones se realizan a través de lo que normalmente se denominan puntos de conexión XMLA. XMLA es el mismo protocolo de comunicación que usa el motor de Microsoft Analysis Services, que internamente, ejecuta el modelado semántico, el gobierno, el ciclo de vida y la administración de datos de Power BI. 
+En Power BI Premium se usa el protocolo [XML for Analysis](https://docs.microsoft.com/bi-reference/xmla/xml-for-analysis-xmla-reference) (XMLA) para las comunicaciones entre las aplicaciones cliente y el motor que administra las áreas de trabajo y los conjuntos de datos. Estas comunicaciones se realizan a través de lo que normalmente se denominan puntos de conexión XMLA. XMLA es el mismo protocolo de comunicación que usa el motor de Microsoft Analysis Services, que internamente, ejecuta el modelado semántico, la gobernanza, el ciclo de vida y la administración de datos de Power BI. 
 
 La gran mayoría de las aplicaciones cliente y las herramientas no se comunican de forma explícita con el motor mediante puntos de conexión XMLA. En su lugar, usan bibliotecas de cliente como MSOLAP, ADOMD y AMO como intermediarias entre la aplicación cliente y el motor, que se comunica de forma exclusiva mediante XMLA.
 
