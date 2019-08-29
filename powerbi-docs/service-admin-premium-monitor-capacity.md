@@ -10,25 +10,25 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 0ef74a776e7220477a36d652ce1a48ebbf60c267
-ms.sourcegitcommit: 850e7883e21190151684e32f4d957beecd08e959
+ms.openlocfilehash: b57f444f11c9592d80ffccf7a80be5fa9c7dcf3b
+ms.sourcegitcommit: c2197c3ad1d747b4ad490ab75771a0d32d0ae208
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/20/2019
-ms.locfileid: "68362727"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "70008115"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Supervisión de capacidades Premium con la aplicación
 
 La supervisión de las capacidades es esencial para tomar decisiones fundamentadas sobre el uso óptimo de los recursos de capacidad Premium. Puede supervisar la capacidad en el portal de administración o con la aplicación **Power BI Premium Capacity Metrics**. En este artículo se describe el uso de la aplicación Premium Capacity Metrics. La aplicación proporciona la información más detallada del rendimiento de las capacidades. Para obtener una introducción de nivel superior del promedio de métricas de uso durante los últimos siete días, puede usar el portal de administración. Para obtener más información sobre la supervisión en el portal, vea [Supervisión de capacidades Premium en el portal de administración](service-admin-premium-monitor-portal.md).
 
-La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente. Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar. 
+La aplicación se actualiza periódicamente con nuevas características y funcionalidades. Asegúrese de ejecutar la versión más reciente. Si ya tiene instalada una versión anterior de la aplicación, se recomienda eliminarla de las aplicaciones y, después, presionar CTRL+F5 para actualizar.
 
 ## <a name="install-the-app"></a>Instalación de la aplicación
 
 Puede ir directamente a la [aplicación Premium Capacity Metrics](https://app.powerbi.com/groups/me/getapps/services/capacitymetrics), o bien instalarla como hace con otras aplicaciones en Power BI.
 
+1. En Power BI, haga clic en **Aplicaciones**.
 
-1. En Power BI, haga clic en **Aplicaciones**.   
     ![Ir a Aplicaciones](media/service-admin-premium-monitor-capacity/apps.png)
 
 2. En el lado derecho, haga clic en **Obtener aplicaciones**.
@@ -59,7 +59,7 @@ Para ver un panel donde se resuman las métricas clave de las capacidades para l
 
 En el panel se incluyen las métricas siguientes:
 
-#### <a name="top"></a>Principales
+#### <a name="top"></a>Top
 
 | Métrica | Descripción |
 | --- | --- |
@@ -245,7 +245,7 @@ La página Conjuntos de datos cuenta con diferentes *áreas*, entre las que se i
 | **Sección de informe** | **Metrics** (Métricas) |
 | --- | --- |
 | Consumo de CPU |  Consumo de carga de trabajo como porcentaje de la capacidad total de CPU. Se muestra cada hora, para los siete días anteriores. |
-| Consumo de memoria |  Consumo de memoria en GB por carga de trabajo (líneas continuas) superpuesto con los límites de la carga de trabajo (línea de puntos). Se muestra cada hora, para los siete días anteriores. |
+| Consumo de memoria |  Consumo de memoria máximo durante la hora en GB por carga de trabajo (líneas continuas) superpuesto con los límites de la carga de trabajo (línea de puntos). Se muestra cada hora, para los siete días anteriores. |
 |  |  |
 
 ### <a name="ids-and-info"></a>Identificadores e información

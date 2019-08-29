@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 6a1ce47d7af41df51b7c439240f3e9db0dd28397
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757735"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69655148"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -184,11 +184,11 @@ El portal de administración tiene otra sección de configuración sobre las ár
 
 En el portal de administración, también controla qué usuarios tienen permisos para distribuir aplicaciones a la organización. Consulte [Publicación de paquetes de contenido y aplicaciones en toda la organización](#publish-content-packs-and-apps-to-the-entire-organization) en este artículo para obtener detalles.
 
-## <a name="export-and-sharing-settings"></a>Exportar y compartir configuración
+## <a name="export-and-sharing-settings"></a>Configuración de exportación y uso compartido
 
 ### <a name="share-content-with-external-users"></a>Compartir contenido con usuarios externos
 
-Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización. [Más información](service-share-dashboards.md#share-a-dashboard-or-report-with-people-outside-your-organization)
+Los usuarios de la organización pueden compartir paneles con usuarios de fuera de la organización. Obtenga más información sobre el [uso compartido externo](service-share-dashboards.md#share-a-dashboard-or-report-outside-your-organization).
 
 ![Opción de usuarios externos](media/service-admin-portal/powerbi-admin-sharing-external-02.png)
 
@@ -196,7 +196,7 @@ En la imagen siguiente se muestra el mensaje que aparece al compartir con un usu
 
 ![Compartir con usuarios externos](media/service-admin-portal/powerbi-admin-sharing-external.png)  
 
-### <a name="publish-to-web"></a>Publicar en la web
+### <a name="publish-to-web"></a>Publicar en Web
 
 Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
 
@@ -386,7 +386,7 @@ Los usuarios de la organización pueden etiquetar paneles con clasificaciones qu
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
-## <a name="developer-settings"></a>Configuración del desarrollador
+## <a name="developer-settings"></a>Configuración de desarrollador
 
 ### <a name="embed-content-in-apps"></a>Insertar contenido en las aplicaciones
 

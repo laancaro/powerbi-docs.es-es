@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7965751740384c5a5f1cc663389a559e0c1bd1c0
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: e28306532714369830df46304aa4a1ebff67bd8f
+ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69563675"
+ms.lasthandoff: 08/23/2019
+ms.locfileid: "69985642"
 ---
 # <a name="using-templates-in-power-bi-desktop"></a>Uso de plantillas en Power BI Desktop
 
@@ -70,7 +70,10 @@ Una vez especificados los parámetros y los datos, se crea un informe que contie
 Ya está. Crear y usar plantillas de informe en Power BI Desktop es fácil, lo que permite reproducir fácilmente diseños atractivos y otros aspectos del informe y compartirlos con otros usuarios.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
+También podría interesarle obtener información sobre los **parámetros de consulta**:
+* [¿Usa parámetros de consulta en Power BI Desktop?](https://docs.microsoft.com/power-query/power-query-query-parameters)
+
+Además, con Power BI Desktop puede hacer todo tipo de cosas. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
 
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 * [Información general sobre consultas con Power BI Desktop](desktop-query-overview.md)

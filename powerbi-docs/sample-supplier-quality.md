@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 75e5a6387574c6cc4a9620955a3e7c15479830c2
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
+ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391247"
+ms.lasthandoff: 08/19/2019
+ms.locfileid: "69621307"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo
 
@@ -28,7 +28,7 @@ Este ejemplo tiene dos objetivos principales:
 
 ![Panel del ejemplo de análisis de calidad de proveedores](media/sample-supplier-quality/supplier1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Lo ha creado [obviEnce](http://www.obvience.com/) con datos reales, que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales anonimizados. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 En este tutorial, se explora el paquete de contenido de ejemplo de análisis de calidad de proveedores en el servicio de Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
@@ -144,7 +144,7 @@ El tipo material que se gestiona mejor es el que presenta un menor tiempo de ina
     Había muchos más defectos en las materias primas en 2014 que en 2013.  
 
     ![Pregunta (de Preguntas y respuestas): Mostrar tipos de material, año y cantidad total de defectos](media/sample-supplier-quality/supplier12.png)  
-6. Ahora, cambie la pregunta a: *Mostrar tipos de material, año y total de **minutos de inactividad***.  
+6. Ahora, cambie la pregunta a: _Mostrar tipos de material, año y total de **minutos de inactividad**_ .  
 
    ![Pregunta (de Preguntas y respuestas): Mostrar tipos de material, año y total de minutos de inactividad](media/sample-supplier-quality/supplier13.png)
 
@@ -169,7 +169,7 @@ Echemos un vistazo ahora a otro icono del panel relacionado con la cantidad tota
 4. Para explorar los meses atípicos, vea los minutos de inactividad en octubre por tipo de material, ubicación de la planta, categoría, etc. Para ello, realice preguntas como *Total de minutos de inactividad en octubre por planta*. 
 5. Seleccione **Salir de preguntas y respuestas** en la esquina superior izquierda para volver al panel.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conectarse a sus datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).

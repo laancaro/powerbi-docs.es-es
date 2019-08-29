@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 02/05/2019
+ms.date: 08/19/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 92b515cfa9c4d3ca796d48ac90415cc0d1d5d5a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 747ff7788ce30f5d4f61c48cc70a737bc74cd612
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565382"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654286"
 ---
 # <a name="power-bi-premium-faq"></a>Preguntas más frecuentes sobre Power BI Premium
 
@@ -76,9 +76,9 @@ Power BI Premium está disponible como un complemento de Power BI Pro. Office 36
 
 **¿Que es el servidor de informes de Power BI? ¿Significa esto que está Power BI está disponible de forma local?**
 
-El servidor de informes de Power BI es un servidor local que permite la implementación y distribución de informes interactivos de Power BI e informes paginados, únicamente dentro de los límites de firewall de la organización. Power BI Report Server está disponible mediante Power BI Premium o como una de las ventajas para los clientes con SQL Server Enterprise Edition con Software Assurance. Pida más información a su representante de ventas de Microsoft.
+El servidor de informes de Power BI es un servidor local que permite la implementación y distribución de informes interactivos de Power BI e informes paginados, únicamente dentro de los límites de firewall de la organización. Power BI Report Server está disponible mediante Power BI Premium o como una de las ventajas para los clientes con SQL Server Enterprise Edition con Software Assurance. Para obtener información sobre las licencias, consulte [Licencias de Power BI Report Server](report-server/get-started.md#licensing-power-bi-report-server). Pida más información a su representante de ventas de Microsoft.
 
-Con Power BI Premium, se puede implementar localmente el mismo número de núcleos virtuales que una organización aprovisiona en la nube mediante Power BI Report Server. No hay ninguna necesidad de dividir la capacidad. Las organizaciones pueden elegir Power BI en la nube o conservar los informes en un almacenamiento local con el servidor de informes de Power BI, y trasladarse a la nube a su ritmo.
+Con Power BI Premium, se puede implementar localmente el mismo número de núcleos virtuales que una organización aprovisiona en la nube mediante Power BI Report Server. No hay ninguna necesidad de dividir la capacidad. Las organizaciones pueden elegir Power BI en la nube o conservar los informes en un almacenamiento local con el servidor de informes de Power BI, y trasladarse a la nube a su ritmo.
 
 Para más información, consulte [Introducción al servidor de informes de Power BI](report-server/get-started.md).
 

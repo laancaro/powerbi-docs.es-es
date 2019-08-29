@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 17c3322ed5f24d106412bafb9c4235ee15a626aa
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: c5b880132255fbdf37996273dc6c70029e548df6
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530518"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654888"
 ---
 # <a name="share-a-dataset-preview"></a>Uso compartido de un conjunto de datos (versión preliminar)
 
@@ -42,7 +42,7 @@ Como creador de *modelos de datos* en Power BI Desktop, puede compartirlos como 
 
 ## <a name="build-permissions-for-shared-datasets"></a>Permisos de compilación para conjuntos de datos compartidos
 
-El tipo de permiso de compilación solo es relevante para los conjuntos de datos. Con él, los usuarios pueden crear contenido en un conjunto de datos, como informes, paneles, iconos anclados de Preguntas y respuestas, y detección de información. También pueden crear contenido en el conjunto de datos fuera de Power BI, como hojas de Excel a través de Analizar en Excel, XMLA y exportar.
+El tipo de permiso de compilación solo es relevante para los conjuntos de datos. Con él, los usuarios pueden crear contenido en un conjunto de datos, como informes, paneles, iconos anclados de Preguntas y respuestas, y detección de información. También pueden crear contenido en el conjunto de datos fuera de Power BI, como hojas de Excel a través de Analizar en Excel, XMLA y la exportación de datos subyacentes.
 
 Los usuarios obtienen permisos de compilación de diferentes maneras:
 
@@ -72,7 +72,7 @@ Con este permiso de compilación más pormenorizado, puede elegir quién puede v
 
 Si el conjunto de datos se usa en un informe fuera del área de trabajo del conjunto de datos, no se podrá eliminar. En su lugar, verá un mensaje de error.
 
-Puede quitar los permisos de compilación. Si lo hace, los usuarios cuyos permisos se han revocado aún pueden ver el informe, pero ya no podrán editarlo.
+Puede quitar los permisos de compilación. Si lo hace, los usuarios cuyos permisos se hayan revocado aún podrán ver el informe, pero ya no podrán editarlo ni exportar datos subyacentes. Los usuarios con permiso de solo lectura podrán seguir exportando los datos resumidos. 
 
 ## <a name="track-your-dataset-usage"></a>Seguimiento del uso del conjunto de datos
 

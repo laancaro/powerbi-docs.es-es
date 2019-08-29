@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/26/2019
+ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f84e2f95c8ae209828eb1c21f34253015e07aefa
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
+ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61364360"
+ms.lasthandoff: 08/20/2019
+ms.locfileid: "69654732"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de almacenamiento en Power BI Desktop
 
@@ -62,6 +62,10 @@ Existen tres valores para el modo de almacenamiento:
 * **Dual**: las tablas duales pueden actuar como tablas almacenadas en caché o como no almacenadas en caché, en función del contexto de la consulta enviada al conjunto de datos de Power BI. En algunos casos, puede satisfacer las consultas a partir de datos en caché. Sin embargo, en otros casos puede hacerlo ejecutando una consulta a petición al origen de datos.
 
 El hecho de cambiar una tabla a **Importación** es una operación *irreversible*. Esta propiedad no se puede cambiar a DirectQuery o Dual.
+
+> [!NOTE]
+> Puede usar el modo de almacenamiento *Dual* en Power BI Desktop y en el servicio Power BI.
+
 
 ## <a name="constraints-on-directquery-and-dual-tables"></a>Restricciones en las tablas de DirectQuery y las tablas duales
 
