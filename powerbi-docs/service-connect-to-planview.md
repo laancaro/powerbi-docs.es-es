@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 6095faca7fd0d7d42fd6b3871c9e45658a32a14f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 64b8b0cce79e2c859ea4d926e1f0d3dfc0c1b83b
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61163130"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185844"
 ---
 # <a name="connect-to-planview-enterprise-with-power-bi"></a>Conexión a Planview Enterprise con Power BI
 El paquete de contenido de Planview Enterprise permite visualizar los datos de administración de recursos y del trabajo de una forma totalmente nueva directamente en Power BI. Utilice sus credenciales de inicio de sesión de Planview Enterprise para ver de forma interactiva el gasto de la inversión de cartera, comprender dónde supera el presupuesto y dónde no lo alcanza, y averiguar el grado de alineación de sus proyectos con las prioridades estratégicas corporativas. También puede ampliar el panel integrado y los informes para obtener la información más importante para usted.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conéctese al [paquete de contenido de Planview Enterprise en Power BI](https://app.powerbi.com/getdata/services/planview-enterprise)
 

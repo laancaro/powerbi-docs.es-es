@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 73a469c1625d24c20deaa01237c10dd6459db65c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 497f3e76275f957599e80eadfd92b9073fca2ebb
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720515"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185555"
 ---
 # <a name="connect-to-alpine-metrics-sales-predictions-with-power-bi"></a>Conexión a Alpine Metrics Sales Predictions con Power BI
 Alpine Metrics proporciona una moderna optimización del proceso de ventas predictivo en la nube y a petición para organizaciones de ventas grandes y pequeñas. El paquete de contenido de predicciones de ventas de Alpine Metrics para Power BI incluye métricas como las ventas y los riesgos potenciales y previstos, lo que permite un conocimiento más profundo hacia el futuro de su negocio. 
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conéctese al [paquete de contenido de predicciones de ventas de Alpine Metrics](https://app.powerbi.com/getdata/services/alpine-metrics) para Power BI.
 

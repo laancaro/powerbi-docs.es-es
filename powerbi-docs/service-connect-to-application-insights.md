@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 08/10/2018
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3f0a23c2bdb97c6fbc75981c40cb92c529550b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3a41b237ccc4e249d85385b54860f60460efbb31
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61177258"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70186132"
 ---
 # <a name="connect-to-application-insights-with-power-bi"></a>Conexión a Application Insights con Power BI
 Use Power BI para crear paneles personalizados eficaces a partir de la telemetría de [Application Insights](/azure/application-insights/app-insights-overview/). Visualice la telemetría de la aplicación de nuevas maneras. Combine las métricas de varias aplicaciones o servicios de componentes en un panel. Esta primera versión del paquete de contenido de Power BI para Application Insights incluye widgets para métricas comunes relacionadas con el uso, como usuarios activos, vista de página, sesiones, explorador, versión del explorador y el sistema operativo, y distribución geográfica de los usuarios en un mapa.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conéctese al [paquete de contenido de Application Insights para Power BI](https://app.powerbi.com/getdata/services/application-insights).
 

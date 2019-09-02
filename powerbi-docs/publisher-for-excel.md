@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 152b8f3bffa25a66d08af4806f9c7f1fe9bc90f7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 4e9efa729b9dc4ac645bc8d3ff7df92cafc929e4
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514333"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200972"
 ---
 # <a name="power-bi-publisher-for-excel"></a>Power BI Publisher for Excel
 Con Microsoft **Power BI Publisher para Excel**, puede tomar instantáneas de sus datos más importantes en Excel, como tablas dinámicas, gráficos y rangos, y anclarlos a los paneles de Power BI.
@@ -32,7 +32,7 @@ Al anclar un elemento desde Excel, se agrega un nuevo icono a un panel nuevo o e
 ## <a name="download-and-install"></a>Descarga e instalación
 Power BI Publisher for Excel es un complemento que puede descargar e instalar en las versiones de escritorio de Microsoft Excel 2007 y versiones posteriores.
 
-[Descargar Power BI Publisher para Excel](http://go.microsoft.com/fwlink/?LinkId=715729)
+[Descargar Power BI Publisher para Excel](https://www.microsoft.com/download/details.aspx?id=50729)
 
 Una vez instalado el publicador, verá una nueva cinta **Power BI** en Excel, donde puede iniciar (y cerrar) sesión en Power BI, anclar elementos a los paneles y administrar los elementos que están anclados.
 

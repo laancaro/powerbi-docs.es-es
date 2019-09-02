@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e7db66dfb79cd0348967369d92e7b13c698d8f71
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 98be77e2cfe53e535dd322317246549a6b4324a4
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61180900"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185961"
 ---
 # <a name="connect-to-clickdimensions-with-power-bi"></a>Conexión a ClickDimensions con Power BI
 El paquete de contenido de ClickDimensions para Power BI permite a los usuarios utilizar datos de marketing de ClickDimensions en Power BI, de forma que los equipos de administración obtienen información detallada del éxito de sus esfuerzos de ventas y marketing. Visualice y analice las interacciones de correo electrónico, las visitas web y los envíos de formularios en los paneles e informes de Power BI.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conéctese al [paquete de contenido de ClickDimensions](https://app.powerbi.com/getdata/services/click-dimensions) para Power BI.
 

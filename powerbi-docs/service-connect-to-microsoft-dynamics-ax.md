@@ -7,18 +7,20 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 688f0e9bc1070c1cd9605a508d2086f52f7e5730
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6a13c7fa6e1c33c3a839b4c835c991c143b77072
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61174413"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185871"
 ---
 # <a name="connect-to-microsoft-dynamics-ax-content-pack-with-power-bi"></a>Conexión al paquete de contenido de Microsoft Dynamics AX con Power BI
 Microsoft Dynamics AX tiene tres paquetes de contenido de Power BI destinados a diferentes usuarios empresariales. El paquete de contenido de rendimiento financiero, diseñado específicamente para directores financieros, proporciona acceso a información detallada sobre el rendimiento financiero de su organización. El paquete de contenido de rendimiento de canal minorista está destinado a administradores de canal y se centra en el rendimiento de las ventas para predecir tendencias y revelar información detallada mediante el uso directo de los datos de venta minorista y comercio. La administración de costos está diseñada para directores generales y directores financieros y proporciona detalles sobre el rendimiento de las operaciones.
+
+[!INCLUDE [include-short-name](./includes/service-deprecate-content-packs.md)]
 
 Conéctese al paquete de contenido de [rendimiento de canal minorista](https://app.powerbi.com/getdata/services/dynamics-ax-retail-channel-performance), [rendimiento financiero](https://app.powerbi.com/getdata/services/dynamics-ax-financial-performance) o [administración de costos](https://app.powerbi.com/getdata/services/dynamics-ax-cost-management) de Microsoft Dynamics AX para Power BI.
 
