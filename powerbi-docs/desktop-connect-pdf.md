@@ -1,5 +1,5 @@
 ---
-title: Conectarse a un archivo PDF en Power BI Desktop
+title: Conexión a un archivo PDF en Power BI Desktop
 description: Conéctese fácilmente a archivos PDF y úselos en Power BI Desktop
 author: davidiseminger
 manager: kfile
@@ -10,30 +10,30 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0c63a62edfce62a5cee13bef3c68014027313e8b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513967"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160269"
 ---
-# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Conectarse a un archivo PDF en Power BI Desktop
+# <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Conexión a un archivo PDF en Power BI Desktop
 En Power BI Desktop, puede conectarse a un **archivo PDF** y usar los datos incluidos del archivo, como con cualquier otro origen de datos en Power BI Desktop.
 
-![Conectarse a datos en archivos PDF](media/desktop-connect-pdf/connect-pdf_04.png)
+![Conectarse a datos en archivos PDF](media/desktop-connect-pdf/connect-pdf-04.png)
 
 En las secciones siguientes se describe cómo conectarse a un **archivo PDF**, seleccionar datos y enviarlos a **Power BI Desktop**.
 
 Siempre se recomienda actualizar a la versión más reciente de **Power BI Desktop**, que se puede obtener desde un vínculo en [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
 ## <a name="connect-to-a-pdf-file"></a>Conectarse a un archivo PDF
-Para conectarse a un archivo **PDF**, seleccione **Get Data** (Obtener datos) en la cinta **Inicio** de Power BI Desktop. Seleccione **Archivo** en las categorías de la izquierda para mostrar **PDF (beta)** .
+Para conectarse a un archivo **PDF**, seleccione **Get Data** (Obtener datos) en la cinta **Inicio** de Power BI Desktop. Seleccione **Archivo** en las categorías de la izquierda y verá **PDF**.
 
-![Seleccionar PDF en Get Data (Obtener datos)](media/desktop-connect-pdf/connect-pdf_01.png)
+![Seleccionar PDF en Get Data (Obtener datos)](media/desktop-connect-pdf/connect-pdf-01.png)
 
 Se le pedirá que indique la ubicación del archivo PDF que quiere usar. Después de indicar la ubicación del archivo y de cargarse el archivo PDF, aparece una ventana de **Navegador**, en la que se muestran los datos disponibles del archivo, desde donde puede seleccionar uno o varios elementos para importarlos y usarlos en **Power BI Desktop**.
 
-![Conectarse a datos en archivos PDF](media/desktop-connect-pdf/connect-pdf_04.png)
+![Conectarse a datos en archivos PDF](media/desktop-connect-pdf/connect-pdf-04.png)
 
 Al activar una casilla junto a elementos detectados en el archivo PDF, estos se muestran en el panel derecho. Cuando esté listo para importar, seleccione el botón **Cargar** para introducir los datos en **Power BI Desktop**.
 

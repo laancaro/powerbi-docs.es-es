@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/29/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: d6d6ca0b9a1a2ec312a9168aad7a7cc93981e396
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816719"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200955"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Orígenes de datos del servicio Power BI
 Los datos son la esencia de Power BI. Supongamos que va a explorar datos. Puede hacerlo creando gráficos y paneles o planteando preguntas con **preguntas y respuestas**. Las visualizaciones y respuestas que vea obtienen los datos subyacentes de un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? Proceden de un origen de datos.
@@ -46,7 +46,7 @@ La sección **Crear contenido** contiene las opciones que necesita para crear e 
 ### <a name="files"></a>Archivos
 ![](media/service-get-data/pbi_getdata_files.png)
 
-**Excel** ( *.xlsx*, *.xlsm*): Excel es único. En Excel, un libro puede incluir diferentes tipos de datos. Por ejemplo, puede incluir datos que ha escrito usted mismo en hojas de cálculo. También puede incluir los datos que ha consultado y cargado de orígenes de datos externos mediante Power Query. Power Query está disponible mediante **Obtener y transformar** en Excel 2016 o Power Pivot. Puede importar datos de tablas en hojas de cálculo o importar datos de un modelo de datos. Para más información, consulte [Obtener datos de archivos en Power BI](service-get-data-from-files.md).
+**Excel** ( *.xlsx*, *.xlsm*): en Excel, un libro puede incluir diferentes tipos de datos. Por ejemplo, puede incluir datos que ha escrito usted mismo en hojas de cálculo. También puede incluir los datos que ha consultado y cargado de orígenes de datos externos mediante Power Query. Power Query está disponible mediante **Obtener y transformar** en Excel 2016 o Power Pivot. Puede importar datos de tablas en hojas de cálculo o importar datos de un modelo de datos. Para más información, consulte [Obtener datos de archivos en Power BI](service-get-data-from-files.md).
 
 **Power BI Desktop** ( *.pbix*): puede usar Power BI Desktop para consultar y cargar datos desde orígenes de datos externos, y para crear informes. También puede ampliar el modelo de datos con medidas y relaciones, o importar el archivo de Power BI Desktop en su sitio de Power BI. Power BI Desktop está más indicado para los usuarios más avanzados. Normalmente, estos usuarios conocen bien sus orígenes de datos. También conocen los conceptos de consulta, transformación y modelado de los datos. Para más información, consulte [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md).
 
@@ -102,9 +102,9 @@ Si guarda los archivos en OneDrive para la Empresa o en sitios de grupo de Share
 
 Los paquetes de contenido de los servicios se actualizan automáticamente. En la mayoría de los casos, se actualizan una vez al día. Puede actualizarlos manualmente, pero si ve o no los datos actualizados dependerá del proveedor de servicios. Las actualizaciones de paquetes de contenido de las personas de su organización dependerán de los orígenes de datos utilizados. También dependerán de cómo ha configurado la actualización la persona que creó el paquete de contenido.
 
-Un elemento distintivo de Azure SQL Database, Azure SQL Data Warehouse y Spark en HDInsight de Azure es que son orígenes de datos en la nube. El servicio Power BI también está en la nube por lo que puede conectarse a ellos dinámicamente mediante **DirectQuery**. Lo que ve en Power BI está siempre sincronizado y no es necesario programar la actualización.
+Azure SQL Database, Azure SQL Data Warehouse y Spark en HDInsight de Azure son orígenes de datos en la nube. El servicio Power BI también está en la nube por lo que puede conectarse a ellos dinámicamente mediante **DirectQuery**. Lo que ve en Power BI está siempre sincronizado y no es necesario programar la actualización.
 
-SQL Server Analysis Services es único. Cuando se conecta a él desde Power BI, es una conexión dinámica igual que una base de datos de Azure en la nube. La diferencia es que la base de datos está en un servidor de su organización. Este tipo de conexión requiere una puerta de enlace de Power BI, que normalmente configura un departamento de TI.
+Cuando se conecta a SQL Server Analysis Services desde Power BI, se trata de una conexión dinámica, igual que una base de datos de Azure en la nube. La diferencia es que la base de datos está en un servidor de su organización. Este tipo de conexión requiere una puerta de enlace de Power BI, que normalmente configura un departamento de TI.
 
 La actualización de los datos es una parte muy importante de Power BI, y es un tema demasiado extenso para tratarlo aquí. Si quiere obtener una descripción completa, consulte [Actualizar datos en Power BI](refresh-data.md).
 

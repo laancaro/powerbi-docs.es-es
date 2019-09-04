@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/31/2019
+ms.date: 08/29/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: dae93a2555101a42f072158f8536319783b3f973
-ms.sourcegitcommit: aef57ff94a5d452d6b54a90598bd6a0dd1299a46
+ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66809117"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159941"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 
@@ -34,6 +34,7 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 * Base de datos IBM DB2
 * IBM Netezza
 * Impala (versión 2.x)
+* MarkLogic
 * Base de datos de Oracle (versión 12 y versiones posteriores)
 * Oracle Essbase
 * Servidor de aplicaciones de SAP Business Warehouse
@@ -47,7 +48,7 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 
 Los orígenes de datos en los que aparece **(Beta)** o **(Versión preliminar)** después del nombre están sujetos a cambios y no se pueden usar en entornos de producción. Es posible que tampoco se admitan después de publicar un informe en el **servicio Power BI**, lo que implica que se puede producir un error al abrir un informe publicado o explorar el conjunto de datos.
 
-La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de **versión preliminar** para poder usarse. Para habilitar un conector de datos **(versión preliminar)**, vaya a **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y, después, seleccione **Características de versión preliminar**.
+La única diferencia entre los orígenes de datos **(beta)** y **(versión preliminar)** es que los segundos deben habilitarse como una característica de **versión preliminar** para poder usarse. Para habilitar un conector de datos **(versión preliminar)** , vaya a **Power BI Desktop**, vaya a **Archivo > Opciones y configuración > Opciones** y, después, seleccione **Características de versión preliminar**.
 
 > [!NOTE]
 > Las consultas de DirectQuery para SQL Server necesitan autenticación mediante las credenciales de autenticación de Windows actuales o las credenciales de la base de datos para establecer el acceso. No se admiten credenciales alternativas.
@@ -87,7 +88,7 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - SAP BW
 - Spark
 - SQL Server
-- Teradata
+- Teradatos
 
 > [!Note]
 > No se admite Azure Multi-Factor Authentication (MFA). Los usuarios que quieran usar SSO con DirectQuery se deben excluir de MFA.

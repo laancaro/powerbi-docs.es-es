@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/17/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d67ca5a4c8014dc295f3ffc458eca3dc5496282a
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 14e57f5b19fe4dccea9aa47d21c959eaf93a45ae
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307328"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185700"
 ---
 # <a name="accessibility-in-power-bi-desktop-reports"></a>Accesibilidad a informes de Power BI Desktop
 Power BI presenta características que permiten a las personas con discapacidades usar los informes de Power BI e interactuar con ellos con más facilidad. Estas características incluyen la capacidad de interactuar con el informe mediante el teclado o un lector de pantalla, la tabulación para centrar la atención en varios objetos de una página y el uso apropiado de marcadores en las visualizaciones.
@@ -75,6 +75,9 @@ Las siguientes sugerencias pueden ayudarlo a crear informes de **Power BI Deskto
 * Proporcione texto alternativo para todos los objetos de un informe. Esto garantiza que los consumidores del informe sepan lo que intenta comunicar con un objeto visual. Incluso ayuda si no pueden ver el objeto visual, la imagen, la forma o el cuadro de texto. Para proporcionar texto alternativo para cualquier objeto de un informe de **Power BI Desktop**, seleccione el objeto (como un objeto visual, una forma, etc.) y, en el panel **Visualizaciones**, seleccione la sección **Formato**. Después, expanda **General**, desplácese hacia abajo y rellene el cuadro de texto **Texto alternativo**.
   
   ![El texto alternativo para cualquier objeto de un informe se puede agregar en Visualizaciones > Formato > General > cuadro Texto alternativo.](media/desktop-accessibility/accessibility-02.png)
+  
+  También se puede cambiar dinámicamente el texto alternativo con una expresión, por ejemplo, reflejando los filtros que se aplican a un objeto visual. Una expresión se establece de la misma forma que lo haría para el título de un objeto visual. [Formato condicional para títulos de objetos visuales](desktop-conditional-format-visual-titles.md)
+  
 * Asegúrese de que los informes tengan suficiente contraste entre el texto y los colores de fondo. Hay varias herramientas, como [Colour Contrast Analyser](https://developer.paciellogroup.com/resources/contrastanalyser/), que se pueden usar para comprobar los colores del informe. 
 * Use tamaños de texto y fuentes que sean fácilmente legibles. El texto o las fuentes de pequeño tamaño podrían ser difíciles de leer y poco prácticos de cara a la accesibilidad.
 * Incluya un título, etiquetas de eje y etiquetas de datos en todos los objetos visuales.

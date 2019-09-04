@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 02/22/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: b28c4ea9b4cacc77a7f98af5bfc006670f40af94
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 3dce16287c9cdcb7882e332e338137f7598b4010
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61315016"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200896"
 ---
 # <a name="connect-to-an-oracle-database"></a>Conectarse a una base de datos de Oracle
 Para conectarse a una base de datos de Oracle con **Power BI Desktop**, el software cliente de Oracle correcto debe estar instalado en el equipo donde se ejecuta Power BI Desktop. El software cliente de Oracle que usa depende de la versión que Power BI Desktop que tiene instalada: puede ser la versión de **32 bits** o la de **64 bits**.
@@ -64,3 +64,5 @@ Si ha descargado Power BI Desktop desde Microsoft Store, es posible que no pueda
 * Descargue Power BI Desktop desde https://powerbi.microsoft.com/desktop.
 
 * Para usar la versión disponible en Microsoft Store, copie el archivo oraons.dll que encontrará en _12.X.X\client_X_ en _12.X.X\client_X\bin_, en su equipo local. La X representa el directorio y los números de versión.
+
+Si se muestra el mensaje *Referencia de objeto no establecida* en Power BI Gateway al conectarse a una base de datos de Oracle, es posible que pueda resolver el problema siguiendo las instrucciones que se encuentran en el artículo [Administrar el origen de datos: Oracle](service-gateway-onprem-manage-oracle.md).

@@ -7,18 +7,21 @@ ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
+ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 4131758dad29b28de56e3ac450bed22d64c25e46
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 66dcbd76d76de04675204674626c2942aef515fa
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61172849"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70201007"
 ---
 # <a name="connect-to-marketo-with-power-bi"></a>Conexión a Marketo con Power BI
 El paquete de contenido de Power BI para Marketo permite obtener información sobre la cuenta de Marketo con datos de clientes potenciales y sus actividades. Al crear esta conexión, recupera sus datos y proporciona automáticamente un panel e informes relacionados basados en dichos datos.
+
+>[!IMPORTANT]
+>El 4 de septiembre de 2019 quedará en desuso este paquete de contenido. Si instaló este paquete de contenido antes de esta fecha, seguirá funcionando pero no podrá instalar uno nuevo después. Las aplicaciones de plantilla reemplazan a los paquetes de contenido del servicio.
 
 Conéctese al [paquete de contenido de Marketo](https://app.powerbi.com/getdata/services/marketo) para Power BI.
 

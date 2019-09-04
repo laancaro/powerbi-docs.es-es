@@ -10,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 757a2ca5a88e8ee98aa1c460c30e001f14bc6789
-ms.sourcegitcommit: 88e2a80b95b3e735689e75da7c35d84e24772e13
+ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "66814345"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160377"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinación de datos de ventas de Excel y una fuente de OData
 
@@ -119,7 +119,7 @@ El Editor de Power Query le permite crear cálculos y campos personalizados para
    
 2. En el cuadro de diálogo **Columna personalizada**, escriba **LineTotal** en el campo **Nuevo nombre de columna**.
 
-3. En el campo **Fórmula de columna personalizada**, después de **=, escriba **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (También puede seleccionar los nombres de campo en el cuadro de desplazamiento **Columnas disponibles** y seleccionar **<< Insertar**, en lugar de escribirlos). 
+3. En el campo **Fórmula de columna personalizada**, después de *=* , escriba **[Order_Details.UnitPrice]** \* **[Order_Details.Quantity]** . (También puede seleccionar los nombres de campo en el cuadro de desplazamiento **Columnas disponibles** y seleccionar **<< Insertar**, en lugar de escribirlos). 
 
 4. Seleccione **Aceptar**.
    

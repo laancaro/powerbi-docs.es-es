@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 7a25a9cc220dcb9f4620b7fb77e6bac264a47256
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 848019a020e4a91e80caf342acb15c0d9b7e3121
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514760"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160234"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
@@ -36,7 +36,7 @@ La siguiente tabla muestra la correspondencia entre los objetos multidimensional
 | --- | --- |
 | Cubo |Modelo |
 | Dimensión de cubo |Tabla |
-| Atributos de dimensión (Keys), Name |Columnas |
+| Atributos de dimensión (Keys), Name |Columns |
 | Grupo de medida |Tabla |
 | Medida |Medida |
 | Medidas sin grupo de medida asociado |En la tabla llamada *Medidas* |
@@ -78,7 +78,8 @@ Los modelos multidimensionales admiten la seguridad en el nivel de celdas y dime
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Existen ciertas limitaciones en el uso de **SSAS MD**:
 
-* Los servidores deben ejecutar SQL Server 2012 SP1 CU4 o versiones posteriores de Analysis Services para que el conector SSAS MD de Power BI Desktop funcione correctamente.
+* Los servidores deben ejecutar SQL Server 2012 SP1 CU4 o versiones posteriores de Analysis Services para que el conector SSAS MD de Power BI Desktop funcione correctamente.
+* Solo las ediciones Enterprise y BI de SQL Server 2012 y SQL Server 2014 admiten conexiones dinámicas. En el caso de la versión estándar de SQL Server, se necesita SQL Server 2016 o posterior para las conexiones dinámicas.
 * Las *acciones* y los *conjuntos con nombre* no se exponen en Power BI, pero todavía puede conectarse a los cubos que, del mismo modo, contengan *acciones* o *conjuntos con nombre* y crear objetos visuales e informes.
 * Puede que detecte un problema por el que Power BI muestra los metadatos de un modelo SSAS, pero no puede recuperar los datos del modelo. Esto puede ocurrir si tiene instalada en el sistema la versión de 32 bits del proveedor MSOLAP, en vez de la versión de 64 bits. El problema debería resolverse instalando la versión de 64 bits.
 * No puede crear medidas de "nivel de informe" al crear un informe conectado en directo a un modelo multidimensional SSAS. Las únicas medidas que están disponibles son las que se definen en el modelo MD.

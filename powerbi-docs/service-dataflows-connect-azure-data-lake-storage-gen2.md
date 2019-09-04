@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 04/15/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8000397e5d8f26847349c35b541aa82c5907292e
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621253"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70160366"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
 
@@ -115,19 +115,19 @@ Para buscar las aplicaciones de inquilino, siga estos pasos:
 
     ![Buscar aplicaciones de Power](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07.jpg)
 
-5. Seleccione y copie los identificadores de objeto del servicio Power BI y Power Query Online de los resultados de la búsqueda. Prepárese para pegar esos valores en los pasos subsiguientes.
+5. Seleccione y copie los identificadores de objeto del servicio Power BI Premium y Power Query Online de los resultados de la búsqueda. Prepárese para pegar esos valores en los pasos subsiguientes.
 
-7. A continuación, use el **Explorador de Azure Storage** para desplazarse hasta el sistema de archivos *powerbi* que creó en la sección anterior. Siga las instrucciones de la sección [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Administración del acceso) del artículo [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Establecimiento de permisos de nivel de archivo y directorio mediante el Explorador de Azure Storage).
+6. A continuación, use el **Explorador de Azure Storage** para desplazarse hasta el sistema de archivos *powerbi* que creó en la sección anterior. Siga las instrucciones de la sección [Managing access](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer#managing-access) (Administración del acceso) del artículo [Set file and directory level permissions using Azure Storage explorer](https://docs.microsoft.com/azure/storage/blobs/data-lake-storage-how-to-set-permissions-storage-explorer) (Establecimiento de permisos de nivel de archivo y directorio mediante el Explorador de Azure Storage).
 
-8. Para cada uno de los identificadores de objeto de Power BI recopilados en el paso 5, asigne acceso de **lectura**, **escritura** y **ejecución** y listas de control de acceso predeterminadas al sistema de archivos *powerbi*.
+7. Para cada uno de los identificadores de objeto de Power BI Premium recopilados en el paso 5, asigne acceso de **lectura**, **escritura** y **ejecución** y listas de control de acceso predeterminadas al sistema de archivos *powerbi*.
 
    ![para ambos, asignar los tres](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07a.jpg)
 
-9. Para el identificador de objeto en línea de Power Query recopilado en el paso 4, asigne acceso de **escritura** y **ejecución** y listas de control de acceso predeterminadas al sistema de archivos *powerbi*.
+8. Para el identificador de objeto en línea de Power Query recopilado en el paso 4, asigne acceso de **escritura** y **ejecución** y listas de control de acceso predeterminadas al sistema de archivos *powerbi*.
 
    ![a continuación, asignar escritura y ejecución](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07b.jpg)
 
-10. Además, para **Otros**, asigne también acceso de **ejecución** y listas ACL predeterminadas.
+9. Además, para **Otros**, asigne también acceso de **ejecución** y listas ACL predeterminadas.
 
     ![por último, para otros, asignar ejecución](media/service-dataflows-connect-azure-data-lake-storage-gen2/dataflows-connect-adlsg2_07c.jpg)
 

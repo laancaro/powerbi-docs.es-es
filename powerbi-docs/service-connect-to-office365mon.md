@@ -1,29 +1,29 @@
 ---
 title: Conexión a Office365Mon con Power BI
 description: Office365Mon para Power BI
-author: SarinaJoan
+author: teddybercovitz
 manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
 ms.topic: conceptual
-ms.date: 10/16/2017
-ms.author: sarinas
+ms.date: 8/29/2019
+ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: cce886edbed00075efaa43bae9c8a712929e8b9a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
+ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61170264"
+ms.lasthandoff: 08/29/2019
+ms.locfileid: "70159900"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Conexión a Office365Mon con Power BI
-Analizar los datos de rendimiento de estado e interrupciones de Office 365 es fácil con Power BI y el paquete de contenido de Office365Mon. Power BI recupera los datos (incluidos los de sondeo de estado e interrupciones) y, a continuación, crea un panel integrado e informes basados en esos datos.
+Analizar los datos de rendimiento de estado e interrupciones de Office 365 es fácil con Power BI y la plantilla de aplicación Office365Mon. Power BI recupera los datos (incluidos los de sondeo de estado e interrupciones) y, a continuación, crea un panel integrado e informes basados en esos datos.
 
-Conéctese al [paquete de contenido de Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI
+Conéctese a la [aplicación de plantilla Office365Mon](https://app.powerbi.com/groups/me/getdata/services/office365mon) para Power BI.
 
 >[!NOTE]
->Se necesita una cuenta de administrador de Office365Mon para conectarse al paquete de contenido de Power BI y cargarlo.
+>Se necesita una cuenta de administrador de Office365Mon para conectarse a la aplicación de plantilla de Power BI y cargarla.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
 1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.

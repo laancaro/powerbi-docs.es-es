@@ -8,19 +8,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/15/2019
-ms.openlocfilehash: 2d48892450bbf6ab09a4bc88cd2be9a58bbdc863
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.date: 08/29/2019
+ms.openlocfilehash: 4b0ead5697dc94497609ac925a0a46142584f0ba
+ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307084"
+ms.lasthandoff: 08/30/2019
+ms.locfileid: "70185616"
 ---
 # <a name="subscribe-yourself-and-others-to-paginated-reports-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes paginados en el servicio Power BI 
 
 Ahora puede configurar suscripciones de correo electrónico para usted y otros usuarios para los informes paginados en el servicio Power BI. En general, el proceso es el mismo que para la [suscripción a informes y paneles en el servicio Power BI](service-report-subscribe.md). En este artículo se detallan las diferencias y consideraciones. 
 
-En la configuración de las suscripciones, elija la frecuencia con la que desea recibir los correos electrónicos: diaria, semanal o cada hora. Si se elige la frecuencia diaria o semanal, se puede elegir la hora a la que le gustaría que se ejecutara la suscripción. En resumen, puede establecer hasta 24 suscripciones distintas por día para cada informe. 
+En la configuración de las suscripciones, elija la frecuencia con la que quiere recibir los correos electrónicos: diaria, semanal, mensual o cada hora. También puede elegir las horas a las que quiere que se ejecute la suscripción. En resumen, puede establecer hasta 24 suscripciones distintas para cada informe. 
 
 ## <a name="considerations-for-paginated-report-subscriptions"></a>Consideraciones sobre las suscripciones a informes paginados 
 

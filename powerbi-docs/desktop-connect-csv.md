@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f1e02197f36da66a64fac95209fe8fabaa67b6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8eecbfdaa948163ab6d0623a70f237d479fcdb88
+ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514176"
+ms.lasthandoff: 08/31/2019
+ms.locfileid: "70200929"
 ---
 # <a name="connect-to-csv-files-in-power-bi-desktop"></a>Conectarse a archivos CSV en Power BI Desktop
 Conectarse a un archivo de valores separados por comas (*CSV*) de Power BI Desktop es muy similar a conectarse a un libro de Excel. Ambos métodos son fáciles y en este artículo se indican los pasos para conectarse a cualquier archivo CSV al que tenga acceso.
@@ -44,6 +44,10 @@ Después de cargar los datos en Power BI Desktop, puede ver la tabla y sus colum
 Eso es todo lo que tiene que hacer: los datos del archivo CSV están ahora en Power BI Desktop.
 
 Puede usar esos datos en Power BI Desktop para crear objetos visuales, informes, o para interactuar con cualquier otro dato con el que quiera conectarse e importar, como libros de Excel, bases de datos o cualquier otro origen de datos.
+
+> [!IMPORTANT]
+> Al importar un archivo CSV, Power BI Desktop genera *columnas=x* (donde *x* es el número de columnas del archivo CSV durante la importación inicial) como parte de un paso en el Editor de Power Query. Si posteriormente agrega más columnas y se ha configurado el origen de datos para actualizarse, no se actualizarán las columnas que superen el número de columnas inicial *x*. 
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Hay todo tipo de datos a los que puede conectarse con Power BI Desktop. Para obtener más información sobre orígenes de datos, consulte los siguientes recursos:
