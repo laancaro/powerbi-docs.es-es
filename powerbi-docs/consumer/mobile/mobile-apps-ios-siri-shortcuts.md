@@ -1,7 +1,7 @@
 ---
 title: Integración de aplicaciones móviles de Power BI con los accesos directos de Siri
 description: Cómo usar accesos directos de Siri para acceder directamente al contenido de Power BI que necesita.
-author: michalfo
+author: KesemSharabi
 manager: mshenhav
 ms.reviewer: ''
 ms.service: powerbi
@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 0fd94e7e8f1ea54dd6544eb5c0da13c90808d7e2
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816809"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391492"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Uso de accesos directos de Siri en una aplicación iOS de Power BI Mobile (versión preliminar)
 
