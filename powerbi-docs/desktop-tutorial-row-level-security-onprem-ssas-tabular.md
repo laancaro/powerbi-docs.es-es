@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bfcb218f92c2b6e8a3349261e15e6b71b9512b2
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: bbd40173bd10abf312ff382a9452f7636234bc95
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523233"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751692"
 ---
 # <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
 
@@ -35,7 +35,7 @@ Este tutorial requiere la base de datos [**AdventureworksDW2012**](https://githu
 
 ## <a name="task-1-create-the-user-security-table-and-define-data-relationship"></a>Tarea 1: Crear la tabla de seguridad del usuario y definir la relación de los datos
 
-Puede encontrar muchos artículos que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)** . Para nuestro ejemplo seguiremos el artículo [Implementar seguridad dinámica utilizando filtros de fila](https://msdn.microsoft.com/library/hh479759.aspx). 
+Puede encontrar muchos artículos que describen cómo definir la seguridad de nivel de fila dinámica con el modelo **tabular de SQL Server Analysis Services (SSAS)** . Para nuestro ejemplo seguiremos el artículo [Implementar seguridad dinámica utilizando filtros de fila](https://docs.microsoft.com/analysis-services/tutorial-tabular-1200/supplemental-lesson-implement-dynamic-security-by-using-row-filters). 
 
 Estos pasos requieren el uso de la base de datos relacional **AdventureworksDW2012**.
 

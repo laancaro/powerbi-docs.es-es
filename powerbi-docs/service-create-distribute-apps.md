@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: ed3a65e25694c23e1852a554742e0f8a6e6ff668
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 5d0ace5c2986b30436838d33037ae3019bd8bdce
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530585"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751571"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -127,7 +127,7 @@ Estos son aspectos generales que deben tenerse en cuenta al usar el nuevo Genera
 Al agregar vínculos a la navegación de la aplicación y seleccionar la opción Área de contenido:
 * Asegúrese de que el vínculo se puede insertar. Algunos servicios bloquean la inserción de su contenido en sitios de terceros como Power BI.
 * No se admite la inserción de contenido del servicio Power BI, como informes o paneles en otras áreas de trabajo. 
-* Inserte contenido de Power BI Report Server a través de su dirección URL de inserción de contenido nativa desde una implementación local. Siga los pasos descritos en [Creación de la dirección URL de Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#creating-the-power-bi-report-server-report-url) para obtener la dirección URL. Tenga en cuenta que se aplican las reglas de autenticación convencionales, de modo que para ver el contenido se necesita una conexión VPN al servidor local. 
+* Inserte contenido de Power BI Report Server a través de su dirección URL de inserción de contenido nativa desde una implementación local. Siga los pasos descritos en [Creación de la dirección URL de Power BI Report Server](https://docs.microsoft.com/power-bi/report-server/quickstart-embed#create-the-power-bi-report-url) para obtener la dirección URL. Tenga en cuenta que se aplican las reglas de autenticación convencionales, de modo que para ver el contenido se necesita una conexión VPN al servidor local. 
 * Se muestra una advertencia de seguridad en la parte superior del contenido insertado para indicar que no está en Power BI.
 
 
