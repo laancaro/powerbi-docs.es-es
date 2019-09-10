@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e25a004098c5bfe5cf607f5ee4b26dfda09d792d
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9add7ce3c5caf675fde15fd15eea03d9d9b49d9b
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530486"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70750900"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -61,7 +61,7 @@ Los roles le permiten administrar quién puede hacer qué en un área de trabajo
 
 Al asignar roles a un grupo de usuarios, cada uno de ellos tiene acceso al contenido. Si anida grupos de usuarios, todos los usuarios contenidos tienen permiso.
 
-Estas son las funciones de los cuatro roles: administradores, miembros, colaboradores y visores.
+Estas son las funciones de los cuatro roles: administradores, miembros, colaboradores y visores. Todas estas funciones, excepto la última, requieren una licencia de Power BI Pro.
 
 |Funcionalidad   | Administrador  | Miembro  | Colaborador  | Visor |
 |---|---|---|---|---|
@@ -73,9 +73,9 @@ Estas son las funciones de los cuatro roles: administradores, miembros, colabora
 | Permitir que otros usuarios vuelvan a compartir elementos. |  X | X  |   |   |
 | Crear, editar y eliminar contenido en el área de trabajo.  |  X | X  | X  |   |
 | Publicar informes en el área de trabajo, eliminar contenido.  |  X | X  | X  |   |
-| Ver un elemento. |  X | X  | X  | X  |
 | Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo. |  X | X  | X  | X <sup>1</sup>  |
 | Copiar un informe. | X | X | X | X <sup>1</sup> |
+| Ver un elemento e interactuar con él. |  X | X  | X  | X  |
 
 **1** requiere una licencia de Power BI Pro y el [permiso de compilación de conjuntos de datos](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). 
  
@@ -134,7 +134,7 @@ Limitaciones que se deben tener en cuenta:
 
 Algunas características funcionan de manera diferente en las áreas de trabajo actuales y en las áreas de trabajo nuevas. Estas diferencias son intencionadas, basadas en los comentarios recibidos de los clientes, y permiten un enfoque más flexible para la colaboración con las áreas de trabajo:
 
-- Cumplimiento de licencias: la publicación de informes en la nueva experiencia de áreas de trabajo aplica las reglas de licencia existentes que requieren una licencia de Power BI Pro para los usuarios que colaboran en áreas de trabajo o comparten contenido con otros usuarios en el servicio Power BI. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo.".
+- Cumplimiento de licencias: la publicación de informes en la nueva experiencia de áreas de trabajo aplica las reglas de licencia existentes que requieren una licencia de Power BI Pro para los usuarios que colaboran en áreas de trabajo o comparten contenido con otros usuarios en el servicio Power BI. Los usuarios sin una licencia Pro ven el error "Solo los usuarios con licencias de Power BI Pro pueden publicar en esta área de trabajo".
 - Posibilidad de que los miembros puedan volver a compartir o no: se ha reemplazado por el rol de Colaborador
 - Áreas de trabajo de solo lectura: en lugar de conceder a los usuarios acceso de solo lectura a un área de trabajo, se asigna a los usuarios el rol Visor, que permite un acceso similar al de solo lectura al contenido de un área de trabajo.
 - Los usuarios sin una licencia Pro pueden acceder al área de trabajo si esta tiene una capacidad de Power BI Premium, incluso si los usuarios solo tienen el rol Visor.

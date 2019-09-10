@@ -6,16 +6,16 @@ manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
-ms.topic: overview
+ms.topic: conceptual
 ms.date: 02/08/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 4b4bc6398466b4c603126efed5b6591c9c3ad6c0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: dbad2927b64966a459086531fbfbf3e3e5de2eab
+ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61059918"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70751656"
 ---
 # <a name="your-content-is-up-to-date"></a>Su contenido está actualizado
 Como *consumidor*, interactúa con contenido creado por *diseñadores* y compartido con su usuario. Puede que se pregunte si ese contenido está actualizado o simplemente quiera saber cuándo se ha actualizado por última vez ese contenido. Saber que trabaja con el contenido más actualizado le dará confianza.  
@@ -82,7 +82,7 @@ Si un diseñador elimina una aplicación, los paneles e informes asociados a ell
 Otra forma de mantenerse actualizado es suscribirse a un informe o panel. En lugar de tener que iniciar sesión y abrir un informe o panel, le indica a Power BI que le envíe una instantánea según una programación personalizada.  Para obtener más información, vea [Suscripción a paneles e informes](end-user-subscribe.md).
 
 ## <a name="set-data-alerts"></a>Establecer alertas de datos
-¿Quiere recibir notificaciones si los datos cambian por encima o por debajo de un límite que especifique? [Cree una alerta de datos](end-user-alerts.md).  Es fácil mantenerse actualizado mediante alertas de datos. Con las alertas de datos, le indica a Power BI que le envíe un correo electrónico si un valor en un informe supera un umbral específico.  Por ejemplo, si el inventario tiene menos de 25 unidades o si las ventas superan los objetivos.  
+¿Quiere recibir notificaciones si los datos cambian por encima o por debajo de un límite que especifique? [Cree una alerta de datos](end-user-alerts.md).  Es fácil mantenerse actualizado mediante alertas de datos. Con las alertas de datos, le indica a Power BI que le envíe un correo electrónico en caso de que un valor en un informe supere un umbral específico.  Por ejemplo, si el inventario tiene menos de 25 unidades o si las ventas superan los objetivos.  
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Creación de una alerta de datos](end-user-alerts.md)    
