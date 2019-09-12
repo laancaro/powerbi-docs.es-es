@@ -1,6 +1,6 @@
 ---
-title: Compatibilidad con el modo de contraste alto
-description: Agregar compatibilidad con el modo de contraste alto a objetos visuales de Power BI
+title: Compatibilidad con el modo de contraste alto en objetos visuales de Power BI
+description: En este artículo se describe cómo agregar compatibilidad con el modo de contraste alto a objetos visuales de Power BI.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,28 +9,20 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cb77ea012fdfdbd5be62c58c6f9b94a0355db1a9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f7f1a2277b3cdf38554039136010ab60c8f09bae
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424939"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237190"
 ---
-# <a name="high-contrast-mode-support"></a>Compatibilidad con el modo de contraste alto
+# <a name="high-contrast-mode-support-in-power-bi-visuals"></a>Compatibilidad con el modo de contraste alto en objetos visuales de Power BI
 
-La configuración de *contraste alto* de Windows mejora la visualización del texto y las aplicaciones al usar colores más definidos.
-Obtenga más información sobre la [compatibilidad con contraste alto en Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
+La configuración de *contraste alto* de Windows mejora la visualización del texto y las aplicaciones al mostrar colores más definidos. En este artículo se explica cómo agregar compatibilidad con el modo de contraste alto a objetos visuales de Power BI. Para obtener más información, consulte [Compatibilidad con el contraste alto en Power BI](https://powerbi.microsoft.com/blog/power-bi-desktop-june-2018-feature-summary/#highContrast).
 
-Para agregar la compatibilidad con contraste alto a un objeto visual, se necesita lo siguiente:
+Para ver una implementación de la compatibilidad con el contraste alto, vaya al [repositorio de objetos visuales PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6).
 
-1. Al iniciar: detecte si Power BI está en el modo de contraste alto y, si es así, obtenga los colores de contraste alto actuales.
-2. En cada actualización: cambie la forma en que se representa el objeto visual para que sea más fácil de ver.
-
-El objeto visual PowerBI-visuals-sampleBarChart tiene la implementación de compatibilidad con contraste alto.
-
-Para obtener más información, vea el [Repositorio de objetos visuales de PowerBI-visuals-sampleBarChart](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/commit/61011c82b66ca0d3321868f1d089c65101ca42e6).
-
-## <a name="on-init"></a>Al iniciar
+## <a name="on-initialization"></a>En la inicialización
 
 El miembro de colorPalette de `options.host` tiene varias propiedades para el modo de contraste alto. Use estas propiedades para determinar si el modo de contraste alto está activo y, de ser así, qué colores usar.
 
@@ -40,7 +32,7 @@ Si `host.colorPalette.isHighContrast` es `true`, se activará el modo de contras
 
 ### <a name="get-high-contrast-colors"></a>Obtener colores de contraste alto
 
-En el modo de contraste alto, el objeto visual tiene que limitarse a los colores siguientes:
+En el modo de contraste alto, el objeto visual tiene que limitarse a los siguientes valores:
 
 * El color de **primer plano** se usa para dibujar cualquier línea, icono, texto y contorno o relleno de formas.
 * El color de **fondo** se usa para el fondo, y como color de relleno de las formas con contorno.
@@ -50,7 +42,7 @@ En el modo de contraste alto, el objeto visual tiene que limitarse a los colores
 > [!NOTE]
 > Si necesita un color secundario, el color de primer plano puede usarse con cierta opacidad (los objetos visuales nativos de Power BI usan un 40 % de opacidad). Use esta opción con moderación para asegurarse de que los detalles visuales puedan verse fácilmente.
 
-Puede guardar estos valores durante la inicialización:
+Durante la inicialización, puede almacenar los siguientes valores:
 
 ```typescript
 private isHighContrast: boolean;
@@ -78,24 +70,24 @@ O bien puede guardar el objeto `host` durante la inicialización y acceder a las
 
 ## <a name="on-update"></a>Al actualizar
 
-Las implementaciones específicas de la compatibilidad con contraste alto varían según el objeto visual y dependen de los detalles del diseño gráfico. Normalmente, el modo de contraste alto necesita un diseño ligeramente distinto al predeterminado para asegurarse de que los detalles importantes puedan distinguirse fácilmente con los colores limitados.
+Las implementaciones específicas de la compatibilidad con contraste alto varían según el objeto visual y dependen de los detalles del diseño gráfico. Para asegurarse de que los detalles importantes puedan distinguirse fácilmente con los colores limitados, el modo de contraste alto suele necesitar un diseño ligeramente distinto al del modo predeterminado.
 
-Estas son algunas directrices que siguen los objetos visuales nativos de Power BI:
+Los objetos visuales nativos de Power BI siguen estas normas:
 
 * Todos los puntos de datos usan el mismo color (primer plano).
-* Todo el texto, los ejes, las flechas, las líneas, etc., usan el color de primer plano.
+* Todo el texto, los ejes, las flechas, las líneas, etc. usan el color de primer plano.
 * Las formas gruesas se dibujan como contornos, con trazos gruesos (como mínimo, de dos píxeles) y relleno del color de fondo.
-* Cuando corresponde, los puntos de datos se distinguen mediante varias formas de marcadores, y las líneas de datos se distinguen mediante el uso de distintas líneas discontinuas.
+* Si los puntos de datos son relevantes, se distinguen mediante varias formas de marcadores. Las líneas de datos se distinguen mediante el uso de distintas líneas discontinuas.
 * Al resaltar un elemento de datos, el resto de los elementos cambian su opacidad a 40 %.
 * Para las segmentaciones, los elementos de filtro activos usan el color seleccionado del primer plano.
 
-Por ejemplo, en el gráfico de barras, todas las barras se dibujan con un contorno de primer plano de dos píxeles de grosor y con relleno de fondo. Compare el aspecto con los colores predeterminados y con un par de temas de contraste alto:
+En el siguiente gráfico de barras de ejemplo, todas las barras se dibujan con un contorno de primer plano de dos píxeles de grosor y con relleno de fondo. Compare el aspecto con los colores predeterminados y con un par de temas de contraste alto:
 
 ![Gráfico de barras de ejemplo con colores estándar](./media/hc-samplebarchart-standard.png)
 ![Gráfico de barras de ejemplo con el tema de color *Oscuro 2*](./media/hc-samplebarchart-dark2.png)
 ![Gráfico de barras de ejemplo con el tema de color *Blanco*](./media/hc-samplebarchart-white.png)
 
-En la función `visualTransform`, se ha cambiado un valor para admitir el contraste alto, al que se realiza una llamada como parte de la representación durante `update`:
+En la siguiente sección se muestra un lugar de la función `visualTransform` que se ha cambiado para admitir el contraste alto. Se le llama como parte de la representación durante la actualización.
 
 ### <a name="before"></a>Antes
 

@@ -1,32 +1,32 @@
 ---
-title: Tipos de objetos visuales en Power BI para los consumidores
-description: Tipos de objetos visuales en el servicio Power BI
+title: Tipos de objetos visuales en Power BI para los consumidores
+description: Tipos de objetos visuales en el servicio Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: acee7e78a19986a0f83e13836ba6d77f7c35fdce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65711086"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302508"
 ---
-# <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
-Encontrará los objetos visuales en informes, paneles, aplicaciones y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI, y algunas son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores de informes* agregarlos a aplicaciones, paneles e informes de Power BI. 
+# <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
+Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
 
-En este artículo es una visión general de los objetos visuales que se empaquetan con Power BI.  Estos son los objetos visuales que nos encontramos con mayor frecuencia. 
+En este artículo se proporciona información general sobre los objetos visuales que se empaquetan con el servicio Power BI.  Estos son los objetos visuales que encontrará con mayor frecuencia. Para obtener información detallada sobre cualquiera de estos objetos visuales, vea la [documentación del *diseñador* de informes de Power BI sobre los tipos de objetos visuales](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 > [!NOTE]
 > Para obtener información sobre los objetos visuales personalizados, búsquelos en la sección **Power BI visuals** (Objetos visuales de Power BI) de [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Para cada objeto visual, encontrará una descripción, información sobre el creador y capturas de pantalla o un vídeo. 
 
-## <a name="list-of-visuals-available-in-power-bi"></a>Lista de objetos visuales disponibles en Power BI
-Todos estos objetos visuales se pueden encontrar en aplicaciones de Power BI, paneles, informes y [especificados en preguntas y respuestas](end-user-q-and-a.md). Para obtener información sobre cómo interactuar con objetos visuales, vea [interactuar con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)
+## <a name="list-of-visuals-available-in-power-bi"></a>Lista de objetos visuales disponibles en Power BI
+Todos estos objetos visuales se pueden encontrar en informes y paneles de Power BI, así como [especificados en Preguntas y respuestas](end-user-q-and-a.md). Para obtener información sobre cómo interactuar con los objetos visuales, vea [Interacción con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md).
 
 ### <a name="area-charts-basic-layered-and-stacked"></a>Gráficos de áreas: básico (en capa) y de área apilada
 ![gráfico de áreas](media/end-user-visual-type/basic-area-map-small.png)
@@ -59,7 +59,7 @@ Un gráfico combinado combina un gráfico de columnas y un gráfico de líneas. 
 Los gráficos combinados son una excelente opción:
 - Si tiene un gráfico de líneas y un gráfico de columnas con el mismo eje X.
 - Para comparar varias medidas con distintos intervalos de valores.
-- Para ilustrar la correlación entre dos medidas en un objeto visual
+- Para ilustrar la correlación entre dos medidas en un objeto visual.
 - Para comprobar si una medida cumple el objetivo que se define mediante otra medida.
 - Para ahorrar espacio en el lienzo.
 
@@ -76,14 +76,6 @@ Los embudos ayudan a visualizar un proceso que tiene fases y elementos que fluye
 Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las fases: Cliente potencial > Cliente potencial calificado > Posible cliente > Contrato > Cierre. De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
 Cada fase del embudo representa un porcentaje del total. Por lo tanto, en la mayoría de los casos, un gráfico de embudo tiene la forma de embudo: la primera fase es la más grande y cada fase posterior es menor que su predecesora. Los embudos en forma de pera también son útiles, porque pueden identificar un problema en el proceso. Pero por lo general, la primera fase, la fase de "entrada", es la de mayor tamaño.
 
-Los gráficos de embudo son una excelente opción:
-- Cuando los datos son secuenciales y se mueven por al menos 4 fases.
-- Cuando se espera que el número de "elementos" de la primera fase sea mayor que el número de la fase final.
-- Para calcular el potencial (ingresos, ventas, ofertas, etc.) por fases.
-- Para calcular las tasas de conversión y retención y realizar un seguimiento de las mismas.
-- Para mostrar cuellos de botella en un proceso lineal.
-- Para realizar el seguimiento del flujo de trabajo de un carro de la compra.
-- Para realizar el seguimiento del progreso y el éxito de las campañas de marketing y publicidad de click-through.
 
 ### <a name="gauge-charts"></a>Gráficos de medidor
 ![gráfico de medidor](media/end-user-visual-type/gauge-m.png)
@@ -127,7 +119,7 @@ Un mapa básico se usa para asociar información cuantitativa y de categorías c
 ### <a name="maps-arcgis-maps"></a>Mapas: Mapas de ArcGIS
 ![mapa de ArcGIS](media/end-user-visual-type/power-bi-esri-map-theme2.png)
 
-Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Las opciones disponibles para mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia crea objetos visuales de magníficas informativas de mapas. La combinación de capas de datos relevantes (por ejemplo, los datos del censo) en un mapa con el análisis espacial transmite una comprensión más profunda de los datos en el objeto visual.
+Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Las opciones disponibles para mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia crean magníficos objetos visuales informativos de mapas. La combinación de capas de datos relevantes (como datos del censo) en un mapa con el análisis espacial transmite una comprensión más profunda de los datos del objeto visual.
 
 ### <a name="maps-filled-maps-choropleth"></a>Mapas: mapas coropléticos
 ![mapa coroplético](media/end-user-visual-type/pbi-nancy-viz-filledmap.png)
@@ -137,7 +129,7 @@ Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las difer
 ### <a name="maps-shape-maps"></a>Mapas: mapas de formas
 ![mapa de formas](media/end-user-visual-type/power-bi-shape-map2.png)
 
-Los mapas de formas comparan las regiones de un mapa mediante colores. A diferencia del objeto visual M\mapa, los mapas de formas no pueden mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
+Los mapas de formas comparan las regiones de un mapa mediante colores. Un mapa de formas no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
 ### <a name="matrix"></a>Matriz
 ![matriz](media/end-user-visual-type/matrix.png)
@@ -163,12 +155,16 @@ Un gráfico de dispersión siempre tiene dos ejes de valores con el fin de mostr
 
 Un gráfico de burbujas reemplaza los puntos de datos con burbujas, cuyo tamaño representa una dimensión adicional de los datos.
 
-Un gráfico de trazado de puntos es similar a un gráfico de burbujas y a un gráfico de dispersión, con la excepción de que puede trazar datos numéricos o categóricos a lo largo del eje X.
+
+
+Un gráfico de trazado de puntos es similar a un gráfico de burbujas y a un gráfico de dispersión, con la excepción de que puede trazar datos numéricos o categóricos a lo largo del eje X. En este ejemplo se usan cuadrados en lugar de círculos y se trazan las ventas a lo largo del eje X.
+
+![gráfico de trazado de puntos](media/end-user-visual-type/power-bi-dot-plot-squares.png)
 
 ### <a name="scatter-high-density"></a>Dispersión de alta densidad
 ![dispersión de alta densidad](media/end-user-visual-type/density-scatter.png)
 
-Por definición, los datos de alta densidad se muestrean para crear objetos visuales de forma razonablemente rápida que responden a interactividad. En el muestreo de alta densidad se usa un algoritmo que elimina los puntos que se superponen y se asegura de que todos los puntos del conjunto de datos se representan en el objeto visual. No traza solamente una muestra representativa de los datos.  
+Por definición, se muestrean los datos de alta densidad para crear objetos visuales de forma razonablemente rápida que responden a la interactividad. En el muestreo de alta densidad se usa un algoritmo que elimina los puntos que se superponen y se asegura de que todos los puntos del conjunto de datos se representan en el objeto visual. No traza solamente una muestra representativa de los datos.  
 
 Esto garantiza la mejor combinación de capacidad de respuesta, representación y conservación de los puntos importantes en el conjunto de datos.
 
@@ -220,14 +216,14 @@ Los gráficos de cascada muestran un total acumulado a medida que se suman o se 
 Las columnas están codificadas por color para identificar rápidamente los aumentos y las disminuciones. Las columnas de valores iniciales y finales a menudo comienzan en el eje horizontal, mientras que los valores intermedios son columnas flotantes. Debido a este "aspecto", los gráficos de cascada también se denominan gráficos de puente.
 
 Los gráficos de cascada son una excelente opción:
-- Cuando la medida sufre cambios a lo largo de una serie temporal o en distintas categorías.
+- Cuando la medida sufre cambios con el paso del tiempo o en distintas categorías.
 - Para auditar los cambios más importantes que contribuyen al valor total.
 - Para trazar el beneficio anual de la compañía mostrando varias fuentes de ingresos y obtener la ganancia total (o pérdida).
 - Para ilustrar la plantilla inicial y final de su empresa en un año.
 - Para visualizar la cantidad de dinero que genera y gasta cada mes, y el saldo corriente de su cuenta.
 
-## <a name="qna"></a>Indicar a preguntas y respuestas qué objeto visual se use
-Al escribir consultas en lenguaje natural con preguntas de Power BI, puede especificar el tipo de objeto visual en la consulta.  Por ejemplo:
+## <a name="qna"></a>Indicación a Preguntas y respuestas de qué objeto visual usar
+Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Power BI, puede especificar el tipo de objeto visual en la consulta.  Por ejemplo:
 
 
 "***ventas por estado en un gráfico de rectángulos***"
@@ -235,5 +231,5 @@ Al escribir consultas en lenguaje natural con preguntas de Power BI, puede espec
 ![Sesión de preguntas y respuestas](media/end-user-visual-type/qa-treemap.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Interactuar con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)    
+[Interacción con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)    
 [The right visual reference from sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)

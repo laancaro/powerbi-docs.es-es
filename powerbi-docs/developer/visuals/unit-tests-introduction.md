@@ -1,6 +1,6 @@
 ---
-title: Introducción a las pruebas unitarias
-description: Cómo escribir pruebas unitarias para un proyecto de objetos visuales de Power BI
+title: Introducción a las pruebas unitarias en proyectos de objetos visuales de Power BI
+description: En este artículo se describe cómo escribir pruebas unitarias en proyectos visuales de Power BI
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,31 +9,29 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: 4b16eaad9b541bf6e5d8df49ffda99d9bbd5bbf2
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: f0040ef53fbbce8c7133e5f645bcbddb0bbfadea
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424548"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236718"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adición de pruebas unitarias en proyectos de objetos visuales de Power BI
 
-En este tutorial se describen los conceptos básicos de la escritura de pruebas unitarias para los objetos visuales de Power BI.
+En este artículo se describen los conceptos básicos de la escritura de pruebas unitarias para los objetos visuales de Power BI, y se indica cómo hacer lo siguiente:
 
-En este tutorial, tendremos en cuenta lo siguiente:
-
-* Cómo usar karma.js de Test Runner, marco de pruebas: jasmine.js
-* Cómo usar el paquete powerbi-visuals-utils-testutils
-* Cómo ayuda el establecimiento de objetos ficticios y emulaciones a simplificar las pruebas unitarias de objetos visuales de Power BI
+* Configurar el marco de pruebas de ejecutor de pruebas de JavaScript de Karma, Jasmine.
+* Usar el paquete powerbi-visuals-utils-testutils.
+* Usar objetos ficticios y emulaciones para ayudar a simplificar las pruebas unitarias de objetos visuales de Power BI.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-* Tener un proyecto de objetos visuales de Power BI
-* Haber configurado el entorno de Node.JS
+* Un proyecto de objetos visuales de Power BI instalado.
+* Un entorno de Node.js configurado.
 
-## <a name="install-and-configure-karmajs-and-jasmine"></a>Instalación y configuración de karma.js y Jasmine
+## <a name="install-and-configure-the-karma-javascript-test-runner-and-jasmine"></a>Instalación y configuración del ejecutor de pruebas de JavaScript de Karma y Jasmine
 
-Agregue las bibliotecas necesarias a package.json en la sección `devDependencies`:
+Agregue las bibliotecas necesarias al archivo *package.json* en la sección `devDependencies`:
 
 ```json
 "@babel/polyfill": "^7.2.5",
@@ -67,19 +65,19 @@ Agregue las bibliotecas necesarias a package.json en la sección `devDependenci
 "webpack": "4.26.0"
 ```
 
-Consulte la descripción siguiente para obtener más información sobre el paquete.
+Para obtener más información sobre el paquete, consulte la descripción en:
 
-Guarde `package.json` y ejecútelo en la línea de comandos en la ubicación de `package.json`:
+Guarde el archivo *package.json* y, en la ubicación `package.json`, ejecute el siguiente comando:
 
 ```cmd
 npm install
 ```
 
-El administrador de paquetes instalará todos los nuevos paquetes agregados a `package.json`
+El administrador de paquetes instala todos los paquetes nuevos que se han agregado a *package.json*.
 
-Para ejecutar pruebas unitarias, es necesario definir el archivo config de Test Runner y `webpack`. El ejemplo de config se encuentra aquí
+Para ejecutar pruebas unitarias, configure el ejecutor de pruebas y la configuración `webpack`.
 
-Ejemplo de `test.webpack.config.js`:
+El siguiente código es un ejemplo del archivo *test.webpack.config.js*:
 
 ```typescript
 const path = require('path');
@@ -147,7 +145,7 @@ module.exports = {
 };
 ```
 
-Ejemplo de `karma.conf.ts`:
+El siguiente código es un ejemplo del archivo *karma.conf.ts*:
 
 ```typescript
 "use strict";
@@ -250,33 +248,31 @@ module.exports = (config: Config) => {
 };
 ```
 
-Puede modificar esta configuración si es necesario.
+Si es necesario, puede modificar esta configuración.
 
-Algunos valores de `karma.conf.js`:
+El código de *karma.conf.js* contiene la siguiente variable:
 
-* La variable `recursivePathToTests` ubica el lugar del código de las pruebas.
+* `recursivePathToTests`: busca el código de prueba.
 
-* La variable `srcRecursivePath` ubica el código JS de salida después de la compilación.
+* `srcRecursivePath`: busca el código JavaScript de salida después de la compilación.
 
-* La variable `srcCssRecursivePath` ubica el CSS de salida después de compilar el archivo LESS con estilos.
+* `srcCssRecursivePath`: busca el CSS de salida después de compilar el archivo LESS con estilos.
 
-* La variable `srcOriginalRecursivePath` ubica el código fuente del objeto visual.
+* `srcOriginalRecursivePath`: busca el código fuente del objeto visual.
 
-* `coverageFolder`: variable que determina un lugar en el que se va a crear el informe de cobertura.
+* `coverageFolder`: determina dónde se creará el informe de cobertura.
 
-Algunas propiedades de config:
+El archivo de configuración incluye las siguientes propiedades:
 
-* `singleRun: true`: pruebas que se ejecutan en el sistema de CI. Y es suficiente para una sola vez.
-Puede cambiar a `false` para depurar las pruebas. Karma mantendrá el explorador en ejecución y le permitirá usar la consola para la depuración.
+* `singleRun: true`: las pruebas se ejecutan en un sistema de integración continua (CI) o se pueden ejecutar una vez. Puede cambiar la configuración a *false* para depurar las pruebas. Karma mantiene el explorador en ejecución para que pueda usar la consola para la depuración.
 
-* `files: [...]`: en esta matriz, puede establecer los archivos que se van a cargar en el explorador.
-Normalmente, hay archivos de código fuente, casos de prueba, bibliotecas (Jasmine, utilidades de prueba). Puede agregar otros archivos a la lista si es necesario.
+* `files: [...]`: en esta matriz, puede especificar los archivos que se van a cargar en el explorador. Normalmente, hay archivos de código fuente, casos de prueba y bibliotecas (Jasmine y utilidades de prueba). Puede agregar archivos adicionales a la lista, según sea necesario.
 
-* `preprocessors`: en esta sección de config se definen las acciones que se ejecutan antes de la ejecución de pruebas unitarias. Hay precompilación de typescript para JS y preparación de archivos del mapa de origen y se genera el informe de cobertura de código. Puede deshabilitar `coverage` para depurar las pruebas. La cobertura genera código adicional para comprobar el código de la cobertura de la prueba y complicará las pruebas de depuración.
+* `preprocessors`: en esta sección, se configuran las acciones que se ejecutan antes de que se ejecuten las pruebas unitarias. Se encargan de precompilar el TypeScript para JavaScript, preparar los archivos del mapa de origen y generar el informe de cobertura de código. Puede deshabilitar `coverage` al depurar las pruebas. La cobertura genera código adicional para comprobar el código de la cobertura de la prueba, lo que complica las pruebas de depuración.
 
-**Descripción de todas las configuraciones que puede encontrar en la [documentación](https://karma-runner.github.io/1.0/config/configuration-file.html) de karma.js**
+Para obtener descripciones de todas las configuraciones de Karma, vaya a la página del [archivo de configuración de Karma](https://karma-runner.github.io/1.0/config/configuration-file.html).
 
-Para un uso conveniente, puede agregar el comando de prueba a `scripts`:
+Para su comodidad, puede agregar un comando de prueba en `scripts`:
 
 ```json
 {
@@ -292,15 +288,15 @@ Para un uso conveniente, puede agregar el comando de prueba a `scripts`:
 }
 ```
 
-Por lo tanto, está listo para empezar a escribir las pruebas unitarias.
+Ya puede empezar a escribir las pruebas unitarias.
 
-## <a name="simple-unit-test-for-check-dom-element-of-the-visual"></a>Prueba unitaria simple para comprobar el elemento DOM del objeto visual
+## <a name="check-the-dom-element-of-the-visual"></a>Comprobación del elemento DOM del objeto visual
 
-Para probar el objeto visual, debemos crear una instancia de objeto visual.
+Para probar el objeto visual, primero hay que crear una instancia de objeto visual.
 
-### <a name="creating-visual-instance-builder"></a>Creación del generador de instancias de objeto visual
+### <a name="create-a-visual-instance-builder"></a>Creación de un generador de instancias de objeto visual
 
-Agregue el archivo `visualBuilder.ts` a la carpeta `test` con el código siguiente:
+Agregue un archivo *visualBuilder.ts* a la carpeta *test* con el siguiente código:
 
 ```typescript
 import {
@@ -329,13 +325,13 @@ export class BarChartBuilder extends VisualBuilderBase<VisualClass> {
 }
 ```
 
-Hay un método `build` para crear una instancia del objeto visual. `mainElement` es un método get, que devuelve una instancia del elemento DOM "root" del objeto visual. El captador es opcional, pero facilita la escritura de la prueba unitaria.
+Hay un método `build` para crear una instancia del objeto visual. `mainElement` es un método get, que devuelve una instancia del elemento de Document Object Model (DOM) "root" del objeto visual. El captador es opcional, pero facilita la escritura de la prueba unitaria.
 
-Por lo que tenemos el generador de una instancia de objeto visual. Vamos a escribir el caso de prueba. Será un caso de prueba para comprobar los elementos SVG que se crean al mostrar el objeto visual.
+Ya tiene una compilación de una instancia de su objeto visual. Vamos a escribir el caso de prueba. El caso de prueba examina los elementos SVG que se crean cuando se muestra el objeto visual.
 
-### <a name="creating-typescript-file-to-write-test-cases"></a>Creación de un archivo typescript para escribir casos de prueba
+### <a name="create-a-typescript-file-to-write-test-cases"></a>Creación de un archivo TypeScript para escribir casos de prueba
 
-Agregue el archivo `visualTest.ts` para los casos de prueba con estos códigos:
+Agregue un archivo *visualTest.ts* para los casos de prueba mediante el código siguiente:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -362,40 +358,36 @@ describe("BarChart", () => {
 });
 ```
 
-Hay llamadas de varios métodos.
+Se llama a varios métodos:
 
-* El método [`describe`](https://jasmine.github.io/api/2.6/global.html#describe) describe el caso de prueba. En un contexto de Jasmine Framework, a menudo se denomina conjunto o grupo de especificaciones.
+* [`describe`](https://jasmine.github.io/api/2.6/global.html#describe): describe un caso de prueba. En el contexto del marco de Jasmine, se suele describir un conjunto o un grupo de especificaciones.
 
-* Se llamará al método `beforeEach` antes de cada llamada del método `it`, que se define dentro del método [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach).
+* `beforeEach`: se le llama antes de cada llamada al método `it`, que se define en el método [`describe`](https://jasmine.github.io/api/2.6/global.html#beforeEach).
 
-* `it` define una especificación única. El método [`it`](https://jasmine.github.io/api/2.6/global.html#it) debe contener uno o varios `expectations`.
+* [`it`](https://jasmine.github.io/api/2.6/global.html#it): define una especificación única. El método `it` debe contener uno o varios `expectations`.
 
-* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): método que crea una expectativa para una especificación. Una especificación se realizará correctamente si se superan todas las expectativas sin errores.
+* [`expect`](https://jasmine.github.io/api/2.6/global.html#expect): crea una expectativa para una especificación. Una especificación se realiza correctamente si se superan todas las expectativas sin errores.
 
-* `toBeInDOM`: es uno de los métodos de buscadores de coincidencias. En la [documentación](https://jasmine.github.io/api/2.6/matchers.html) de Jasmine Framework se puede leer sobre los buscadores de coincidencias existentes.
+* `toBeInDOM`: uno de los métodos de *buscadores de coincidencias*. Para obtener más información sobre los buscadores de coincidencias, vea [Jasmine Namespace: matchers](https://jasmine.github.io/api/2.6/matchers.html) (Espacio de nombres de Jasmine: buscadores de coincidencias).
 
-**Obtenga más información sobre Jasmine Framework en la [documentación](https://jasmine.github.io/) oficial.**
-
-Después, puede ejecutar la prueba unitaria escribiendo un comando en la herramienta de línea de comandos.
-
-Esta prueba comprueba que se ha creado el elemento SVG raíz de los objetos visuales.
+Para obtener más información sobre Jasmine, consulte la [página de documentación del marco de Jasmine](https://jasmine.github.io/).
 
 ### <a name="launch-unit-tests"></a>Inicio de pruebas unitarias
 
-Para ejecutar la prueba unitaria, puede escribir este comando en la herramienta de línea de comandos.
+Esta prueba comprueba que se ha creado el elemento SVG raíz de los objetos visuales. Para ejecutar la prueba unitaria, escriba el siguiente comando en la herramienta de línea de comandos:
 
 ```cmd
 npm run test
 ```
 
-`karma.js` ejecuta el explorador Chrome y ejecutará el caso de prueba.
+`karma.js` ejecuta el caso de prueba en el explorador Chrome.
 
-![Inicio de KarmaJS en Chrome](./media/karmajs-chrome.png)
+![JavaScript de Karma abierto en Chrome](./media/karmajs-chrome.png)
 
 > [!NOTE]
-> Google Chrome debe instalarse localmente.
+> Debe instalar Google Chrome de forma local.
 
-En la línea de comandos, obtendrá el siguiente resultado:
+En la ventana de la línea de comandos, obtendrá el siguiente resultado:
 
 ```cmd
 > karma start
@@ -418,7 +410,7 @@ Lines        : 20.85% ( 44/211 )
 
 ### <a name="how-to-add-static-data-for-unit-tests"></a>Cómo agregar datos estáticos para pruebas unitarias
 
-Cree el archivo `visualData.ts` en la carpeta `test`. Con estos códigos:
+Cree el archivo *visualData.ts* en la carpeta *test* con el siguiente código:
 
 ```typescript
 import powerbi from "powerbi-visuals-api";
@@ -458,19 +450,19 @@ export class SampleBarChartDataBuilder extends TestDataViewBuilder {
 }
 ```
 
-La clase `SampleBarChartDataBuilder` se amplía `TestDataViewBuilder` e implementa el método `getDataView`abstracto.
+La clase `SampleBarChartDataBuilder` amplía `TestDataViewBuilder` e implementa el método abstracto `getDataView`.
 
 Al colocar datos en cubos de campos de datos, Power BI genera un objeto `dataview` categórico basado en los datos.
 
-![Cubos de campos](./media/fields-buckets.png)
+![Cubos de campos de datos](./media/fields-buckets.png)
 
-En las pruebas unitarias, no tiene funciones principales de Power BI para reproducirlo. Sin embargo, debe asignar los datos estáticos al objeto `dataview` categórico. Y la clase `TestDataViewBuilder` le ayudará en ello.
+En las pruebas unitarias, no tiene funciones principales de Power BI para reproducir los datos, pero debe asignar los datos estáticos al objeto `dataview` categórico. La clase `TestDataViewBuilder` puede ayudarle a asignarlos.
 
-[Más información sobre DataViewMapping](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md)
+Para obtener más información sobre la asignación de vistas de datos, vea [DataViewMappings](https://github.com/Microsoft/PowerBI-visuals/blob/master/Capabilities/DataViewMappings.md).
 
-En el método `getDataView`, solo tiene que llamar al método `createCategoricalDataViewBuilder` con los datos.
+En el método `getDataView`, llame al método `createCategoricalDataViewBuilder` con los datos.
 
-En `sampleBarChart` el archivo [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) del objeto visual, tenemos unos objetos dataRoles y dataViewMapping:
+En el archivo [capabilities.json](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/capabilities.json#L2) del objeto visual `sampleBarChart`, tenemos objetos dataRoles y dataViewMapping:
 
 ```json
 "dataRoles": [
@@ -549,13 +541,13 @@ Para generar la misma asignación, debe establecer los siguientes parámetros en
 ], columnNames)
 ```
 
-Donde `this.valuesCategory` es la matriz de categorías
+Donde `this.valuesCategory` es una matriz de categorías:
 
 ```ts
 public valuesCategory: string[] = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
 ```
 
-y `this.valuesMeasure`, la matriz de medida para cada categoría. Ejemplo:
+Y `this.valuesMeasure` es una matriz de medida para cada categoría:
 
 ```ts
 public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 376074.57, 814724.34, 570921.34];
@@ -563,7 +555,7 @@ public valuesMeasure: number[] = [742731.43, 162066.43, 283085.78, 300263.49, 37
 
 Ahora puede usar la clase `SampleBarChartDataBuilder` en la prueba unitaria.
 
-La clase `ValueType` se define en el paquete `powerbi-visuals-utils-testutils`. Y el método `createCategoricalDataViewBuilder` requiere la biblioteca `lodash`.
+La clase `ValueType` se define en el paquete powerbi-visuals-utils-testutils. Y el método `createCategoricalDataViewBuilder` requiere la biblioteca `lodash`.
 
 Agregue estos paquetes a las dependencias.
 
@@ -582,7 +574,7 @@ npm install
 
 para instalar la biblioteca `lodash-es`.
 
-Ahora puede volver a ejecutar la prueba unitaria. Debe obtener esta salida:
+Ahora puede volver a ejecutar la prueba unitaria. Debe obtener el siguiente resultado:
 
 ```cmd
 > karma start
@@ -603,27 +595,25 @@ Lines        : 52.83% ( 112/212 )
 ================================================================================
 ```
 
-Además, debe ver el explorador Chrome iniciado con el objeto visual.
+El objeto visual se abre en el explorador Chrome, como se muestra a continuación:
 
 ![La prueba unitaria se inicia en Chrome](./media/karmajs-chrome-ut-runned.png)
 
-Aumente la atención en el resumen de la cobertura. Abra `coverage\index.html` para obtener más información sobre la cobertura de código actual
+En el resumen se muestra que la cobertura ha aumentado. Para obtener más información sobre la cobertura de código actual, abra `coverage\index.html`.
 
 ![Índice de cobertura de la prueba unitaria](./media/code-coverage-index.png)
 
-O en el ámbito de la carpeta `src`
+O examine el ámbito en la carpeta `src`:
 
 ![Cobertura de la carpeta src](./media/code-coverage-src-folder.png)
 
-En el ámbito del archivo, puede examinar el código fuente. Las utilidades `Coverage` marcarían el fondo de las filas en rojo si no se ejecutara un código durante la ejecución de pruebas unitarias.
+En el ámbito del archivo, puede ver el código fuente. Las utilidades de `Coverage` resaltan la fila en rojo si no se ha ejecutado un código determinado durante las pruebas unitarias.
 
-![Convergencia de código del archivo visual.ts](./media/code-coverage-visual-src.png)
+![Cobertura de código del archivo visual.ts](./media/code-coverage-visual-src.png)
 
 > [!IMPORTANT]
-> Sin embargo, la cobertura de código no significa que tenga una buena cobertura de funcionalidad de objeto visual. Una prueba unitaria simple proporciona más del 96 % de la cobertura en `src\visual.ts`.
+> La cobertura de código no implica que tenga una buena cobertura de funcionalidad del objeto visual. Una prueba unitaria simple proporciona más del 96 % de la cobertura en `src\visual.ts`.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Cuando el objeto visual esté listo, puede enviarlo a publicación.
-
-[Más información sobre la publicación de objetos visuales en AppSource](../office-store.md)
+Cuando el objeto visual esté listo, puede enviarlo a publicación. Para obtener más información, consulte [Publicar objetos visuales personalizados en AppSource](../office-store.md).

@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 09/04/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5455a5f3b4bda6cf6d63825222822c4acfa5f03a
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 59c55d2e9322b0b7d76a35f4eec0863efe4959e0
+ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159941"
+ms.lasthandoff: 09/04/2019
+ms.locfileid: "70302656"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 
@@ -29,14 +29,16 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 * Azure HDInsight Spark
 * [Azure SQL Database](service-azure-sql-database-with-direct-connect.md)
 * [Azure SQL Data Warehouse](service-azure-sql-data-warehouse-with-direct-connect.md)
+* Denodo
 * Google BigQuery
 * HDInsight Interactive Query
-* Base de datos IBM DB2
+* IBM DB2 (proveedor de Microsoft)
 * IBM Netezza
 * Impala (versión 2.x)
 * MarkLogic
 * Base de datos de Oracle (versión 12 y versiones posteriores)
 * Oracle Essbase
+* PostgreSQL
 * Servidor de aplicaciones de SAP Business Warehouse
 * Servidor de mensajería de SAP Business Warehouse
 * SAP HANA
@@ -65,15 +67,24 @@ La tabla siguiente especifica si se requiere una **puerta de enlace de datos loc
 | Azure SQL Data Warehouse |No |
 | Google BigQuery |No |
 | IBM Netezza |Sí |
+| IBM DB2 (proveedor de IBM) |Sí |
+| IBM DB2 (proveedor de Microsoft) |No |
+| Base de datos Informix de IBM |No |
 | Impala (versión 2.x) |Sí |
+| MySQL |Sí |
+| ODBC |Sí |
 | Base de datos de Oracle |Sí |
+| PostgreSQL |Sí |
 | Servidor de aplicaciones de SAP Business Warehouse |Sí |
 | Servidor de mensajería de SAP Business Warehouse |Aún no se admite en el **servicio Power BI** |
 | SAP HANA |Sí |
 | Snowflake |Sí |
 | Spark (Beta), versiones 0.9 y posteriores |Sí |
 | SQL Server |Sí |
+| Sybase |Sí |
 | Base de datos de Teradata |Sí |
+| Vertica |Sí |
+
 
 ## <a name="single-sign-on-sso-for-directquery-sources"></a>Inicio de sesión único (SSO) para orígenes de DirectQuery
 

@@ -10,12 +10,12 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/25/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 436040f11534ede9d2e42e4f939d24a19e3d1c24
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5445326f302f5ffef39ab387b3a22a336efb6550
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655170"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391878"
 ---
 # <a name="use-kerberos-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
 
@@ -28,7 +28,7 @@ Actualmente se admiten estos orígenes de datos:
 * SQL Server
 * SAP HANA
 * SAP BW
-* Teradata
+* Teradatos
 * Spark
 * Impala
 
@@ -377,7 +377,7 @@ Si detecta algún problema, siga estos pasos para solucionar problemas de instal
 
 ### <a name="add-registry-entries-to-the-gateway-machine"></a>Adición de entradas del Registro a la máquina de puerta de enlace
 
-Agregue las entradas del registro necesarias en el registro del equipo en el cual está instalada la puerta de enlace. Estos son los comandos que hay que ejecutar:
+Agregue las entradas del registro necesarias al registro del equipo en el que está instalada la puerta de enlace, así como a las máquinas que se van a conectar desde Power BI Desktop. Estos son los comandos que hay que ejecutar:
 
 1. REG ADD HKLM\SOFTWARE\Wow6432Node\SAP\gsskrb5 /v ForceIniCredOK /t REG\_DWORD /d 1 /f
 

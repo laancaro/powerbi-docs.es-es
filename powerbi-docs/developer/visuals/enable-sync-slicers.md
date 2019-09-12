@@ -1,6 +1,6 @@
 ---
-title: Habilitación de segmentaciones de sincronización
-description: Cómo agregar la característica Segmentaciones de sincronización para objetos visuales de Power BI
+title: Habilitación de la característica Segmentaciones de sincronización en objetos visuales de Power BI
+description: En este artículo se describe cómo agregar la característica Segmentaciones de sincronización a objetos visuales de Power BI.
 author: EugeneElkin
 ms.author: v-evelk
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 9966475e8bcaccad2090451b47ef09ef0a9af125
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 4d7b73a5d06f34fd197464d4444d0e19d6c1c026
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425031"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237216"
 ---
-# <a name="sync-slicers"></a>Segmentaciones de sincronización
+# <a name="sync-slicers-in-power-bi-visuals"></a>Segmentaciones de sincronización en objetos visuales de Power BI
 
-Para admitir [Segmentaciones de sincronización](https://docs.microsoft.com/power-bi/desktop-slicers), el objeto visual de segmentación de datos personalizado debe usar la API 1.13 o una versión posterior.
+Para admitir la característica [Segmentaciones de sincronización](https://docs.microsoft.com/power-bi/desktop-slicers), el objeto visual de segmentación personalizado debe usar la versión de API 1.13 o posterior.
 
-El segundo aspecto necesario es la opción habilitada en `capabilities.json` (vea un ejemplo a continuación).
+Además, debe habilitar la opción en el archivo *capabilities.json*, tal y como se muestra en el código siguiente:
 
 ```json
 {
@@ -34,11 +34,11 @@ El segundo aspecto necesario es la opción habilitada en `capabilities.json` (ve
 }
 ```
 
-Después de los cambios en `capabilities.json`, puede ver el panel de opciones de Segmentaciones de sincronización al hacer clic en el objeto visual de segmentación de datos personalizado.
+Después de actualizar el archivo *capabilities.json*, puede ver el panel de opciones **Segmentaciones de sincronización** al seleccionar el objeto visual de segmentación personalizado.
 
 > [!NOTE]
-> Si la segmentación de datos tiene más de un campo (categoría o medida), se deshabilitará la característica porque las segmentaciones de sincronización no admiten varios campos.
+> La característica Segmentaciones de sincronización no admite más de un campo. Si su segmentación tiene más de un campo (**Categoría** o **Medida**), la característica se deshabilita.
 
-![Panel de segmentaciones de sincronización](./media/sync-slicers-panel.png)
+![Panel "Segmentaciones de sincronización"](./media/sync-slicers-panel.png)
 
-En el panel, puede ver que la visibilidad de la segmentación de datos y su filtración se pueden aplicar en varias páginas del informe.
+En el panel **Segmentaciones de sincronización**, puede ver que la visibilidad de la segmentación y su filtración se pueden aplicar en varias páginas del informe.

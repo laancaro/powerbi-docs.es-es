@@ -1,6 +1,6 @@
 ---
-title: Página de aterrizaje
-description: Cómo agregar una página de aterrizaje a objetos visuales de Power BI
+title: Adición de una página de aterrizaje a los objetos visuales de Power BI
+description: En este artículo se describe cómo agregar una página de aterrizaje a objetos visuales de Power BI.
 author: sranins
 ms.author: rasala
 manager: rkarlin
@@ -9,16 +9,16 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 44cc9314b31803c97d3203d4aab846685d8f88fa
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: d15c52134fe3c8638625e50a1374867a4abed3c1
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68424893"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70236693"
 ---
-# <a name="landing-page"></a>Página de aterrizaje
+# <a name="add-a-landing-page-to-your-power-bi-visuals"></a>Adición de una página de aterrizaje a los objetos visuales de Power BI
 
-Con la API 2.3.0, puede agregar una página de aterrizaje al objeto visual; para ello, agregue `supportsLandingPage` a la funcionalidad y establézcala en true, hará que el objeto visual se inicialice y actualice incluso antes de agregarle datos (lo que significa que ya no mostrará una marca de agua) para que usted pueda diseñar su propia página de aterrizaje y mostrarla en el objeto visual mientras no tenga datos.
+Con la API 2.3.0, puede agregar una página de aterrizaje a los objetos visuales de Power BI. Para ello, agregue `supportsLandingPage` a las funcionalidades y establézcalo en true. Esta acción inicializa y actualiza el objeto visual antes de agregarle datos. Dado que el objeto visual ya no muestra una marca de agua, puede diseñar su propia página de aterrizaje para que se muestre en el objeto visual siempre que no tenga datos.
 
 ```typescript
 export class BarChart implements IVisual {
@@ -57,6 +57,6 @@ export class BarChart implements IVisual {
     }
 ```
 
-Ejemplo
+En la imagen siguiente se muestra una página de aterrizaje de ejemplo:
 
 ![captura de pantalla de la página de aterrizaje](./media/landing-page.png)

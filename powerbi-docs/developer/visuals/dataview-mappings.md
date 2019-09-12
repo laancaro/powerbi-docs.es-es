@@ -1,6 +1,6 @@
 ---
-title: Asignaciones de vistas de datos
-description: Forma en que Power BI transforma los datos antes de pasarlos a objetos visuales
+title: Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
+description: En este artículo se describe cómo transforma Power BI los datos antes de pasarlos en objetos visuales.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,19 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: ff70b2f12921694617a736164484df1326471eea
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425192"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237225"
 ---
-# <a name="data-view-mappings-in-power-bi-visuals"></a>Asignaciones de vistas de datos en objetos visuales de Power BI
+# <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 
-Un elemento `dataViewMappings` describe cómo se relacionan los roles de datos entre sí y le permite especificar requisitos condicionales para estos.
-Hay una sección para cada `dataMappings`.
+En este artículo se explica la asignación de vista de datos, se describe cómo se relacionan los roles de datos entre sí y le permite especificar requisitos condicionales para estos. En el artículo también se describe cada tipo de `dataMappings`.
 
-Cada asignación válida producirá un elemento `DataView`, pero actualmente solo se admite una consulta por objeto visual, por lo que solo obtendrá un elemento `DataView` en la mayoría de las situaciones. Pero puede proporcionar varias asignaciones de datos con diferentes condiciones, lo que está permitido.
+Cada asignación válida genera una vista de datos, pero actualmente solo se permite ejecutar una consulta por objeto visual. Normalmente, solo obtiene una vista de datos, pero puede proporcionar varias asignaciones de datos en determinadas condiciones, lo que permite lo siguiente:
 
 ```json
 "dataViewMappings": [
@@ -35,10 +34,10 @@ Cada asignación válida producirá un elemento `DataView`, pero actualmente sol
 ]
 ```
 
-> [!NOTE]
-> Es importante tener en cuenta que Power BI solo creará una asignación a un elemento DataView si la asignación válida se rellena en `dataViewMappings`.
+Power BI solo creará una asignación a una vista de datos si la asignación válida se rellena en `dataViewMappings`.
 
-Es decir, si `categorical` se define en `dataViewMappings` (pero no en otras asignaciones como `table`, `single`, etc.), como en el ejemplo siguiente:
+En otras palabras, `categorical` podría definirse en `dataViewMappings`, pero otras asignaciones, como `table` o `single`, podrían no estar definidas. Por ejemplo:
+
 ```json
 "dataViewMappings": [
     {
@@ -47,7 +46,8 @@ Es decir, si `categorical` se define en `dataViewMappings` (pero no en otras asi
 ]
 ```
 
-Power BI generará un elemento `DataView` con una sola asignación de `categorical` (`table` y otras asignaciones serán `undefined`):
+Power BI genera una vista de datos con una sola asignación `categorical`, y `table` y otras asignaciones no están definidas:
+
 ```javascript
 {
     "categorical": {
@@ -60,16 +60,16 @@ Power BI generará un elemento `DataView` con una sola asignación de `categoric
 
 ## <a name="conditions"></a>Condiciones
 
-Describe las condiciones de una asignación de datos específica. Puede proporcionar varios conjuntos de condiciones y, si los datos coinciden con uno de los conjuntos de condiciones descritos, el objeto visual aceptará los datos como válidos.
+En esta sección se describen las condiciones de una asignación de datos específica. Puede proporcionar varios conjuntos de condiciones y, si los datos coinciden con uno de los conjuntos de condiciones descritos, el objeto visual acepta los datos como válidos.
 
-Actualmente, se puede especificar un valor mínimo y máximo para cada campo. Representa el número de campos que pueden estar enlazados a ese rol de datos. 
+Actualmente, se puede especificar un valor mínimo y máximo para cada campo. El valor representa el número de campos que pueden estar enlazados a ese rol de datos. 
 
 > [!NOTE]
 > Si se omite un rol de datos en la condición, puede tener cualquier número de campos.
 
 ### <a name="example-1"></a>Ejemplo 1
 
-Puede arrastrar varios campos a cada rol de datos. En este ejemplo, limitaremos la categoría a un campo de datos y mediremos dos campos de datos.
+Puede arrastrar varios campos a cada rol de datos. En este ejemplo, limitará la categoría a un campo de datos y la medida a dos campos de datos.
 
 ```json
 "conditions": [
@@ -79,7 +79,9 @@ Puede arrastrar varios campos a cada rol de datos. En este ejemplo, limitaremos 
 
 ### <a name="example-2"></a>Ejemplo 2
 
-En este ejemplo, se necesita una de las dos condiciones. Puede usarse un único campo de datos de categoría y solo dos medidas, o bien dos categorías y solo una medida.
+En este ejemplo, se necesita una de estas dos condiciones:
+* Exactamente un campo de datos de categoría y exactamente dos medidas.
+* Exactamente dos categorías y exactamente una medida.
 
 ```json
 "conditions": [
@@ -90,9 +92,9 @@ En este ejemplo, se necesita una de las dos condiciones. Puede usarse un único 
 
 ## <a name="single-data-mapping"></a>Asignación de datos única
 
-La asignación de datos única es la forma más simple de asignación de datos. Admite un solo campo de medida y proporciona el total. Si el campo es numérico, proporcionará la suma. De lo contrario, proporcionará un recuento de valores únicos.
+La asignación de datos única es la forma más simple de asignación de datos. Admite un solo campo de medida y proporciona el total. Si el campo es numérico, proporciona la suma. De lo contrario, proporciona un recuento de valores únicos.
 
-Para usar la asignación de datos individuales, es necesario definir el nombre del rol de datos que quiera asignar. Esta asignación solo funcionará con un único campo de medida. Si se asigna un segundo campo, no se generará ninguna vista de datos. Por lo tanto, también le recomendamos que incluya una condición que limite los datos a un único campo.
+Para usar la asignación de datos única, es necesario definir el nombre del rol de datos que quiera asignar. Esta asignación solo funciona con un único campo de medida. Si se asigna un segundo campo, no se genera ninguna vista de datos, por lo que también es recomendable incluir una condición que limite los datos a un solo campo.
 
 > [!NOTE]
 > Esta asignación de datos no se puede usar con ninguna otra asignación de datos. Su objetivo es reducir los datos a un único valor numérico.
@@ -110,7 +112,7 @@ Para usar la asignación de datos individuales, es necesario definir el nombre d
 }  
 ```
 
-La vista de datos resultante seguirá conteniendo otros tipos (tabla, categórico, etc.), pero cada asignación solo contendrá el valor individual. El procedimiento recomendado es simplemente acceder al valor único.
+La vista de datos resultante sigue conteniendo los otros tipos (tabla, categórico, etc.), pero cada asignación solo contiene el valor único. El procedimiento recomendado es acceder solo al valor único.
 
 ```JSON
 {
@@ -135,7 +137,7 @@ La asignación de datos categóricos se usa para obtener una o dos agrupaciones 
 
 ### <a name="example-4"></a>Ejemplo 4
 
-Esta es la definición del ejemplo anterior en Roles de datos.
+Esta es la definición del ejemplo anterior de los roles de datos:
 
 ```json
 "dataRole":[
@@ -152,7 +154,7 @@ Esta es la definición del ejemplo anterior en Roles de datos.
 ]
 ```
 
-Ahora, para la asignación:
+Esta es la asignación:
 
 ```json
 "dataViewMappings": {
@@ -169,14 +171,14 @@ Ahora, para la asignación:
 }
 ```
 
-Es un ejemplo sencillo; en definitiva, dice lo siguiente: “Quiero asignar mi rol de datos `category` para que, en todos los campos que arrastre a `category`, sus datos se asignen a `categorical.categories`. Además, también quiero asignar mi rol de datos `measure` a `categorical.values`”.
+Es un ejemplo sencillo. Dice lo siguiente: "Quiero asignar mi rol de datos `category` para que, en todos los campos que arrastre a `category`, sus datos se asignen a `categorical.categories`. Además, también quiero asignar mi rol de datos `measure` a `categorical.values`".
 
-* **for…in**: quiero que se incluyan en la consulta de datos todos los elementos de este rol de datos.
-* **bind…to**: produce el mismo resultado que for…in, pero espera que el rol de datos tenga una condición que restrinja a un único campo.
+* **for...in**: quiero que se incluyan en la consulta de datos todos los elementos de este rol de datos.
+* **bind...to**: produce el mismo resultado que *for...in*, pero espera que el rol de datos tenga una condición que lo restrinja a un único campo.
 
 ### <a name="example-5"></a>Ejemplo 5
 
-En este ejemplo, usaremos los dos primeros roles de datos del ejemplo anterior y, además, definiremos `grouping` y `measure2`.
+En este ejemplo, se usan los dos primeros roles de datos del ejemplo anterior y, además, se definen `grouping` y `measure2`.
 
 ```json
 "dataRole":[
@@ -203,7 +205,7 @@ En este ejemplo, usaremos los dos primeros roles de datos del ejemplo anterior y
 ]
 ```
 
-Ahora, para la asignación:
+Esta es la asignación:
 
 ```json
 "dataViewMappings":{
@@ -224,11 +226,11 @@ Ahora, para la asignación:
 }
 ```
 
-Aquí, la diferencia es la forma en que asignamos valores categóricos. Decimos lo siguiente: “Quiero asignar los roles de datos `measure` y `measure2` para que se agrupen según el rol de datos `grouping`”.
+Aquí, la diferencia es la forma en que asignamos valores categóricos. Decimos lo siguiente: "Quiero asignar los roles de datos `measure` y `measure2` para que se agrupen según el rol de datos `grouping`".
 
 ### <a name="example-6"></a>Ejemplo 6
 
-Aquí están los roles de datos.
+Estos son los roles de datos:
 
 ```json
 "dataRoles": [
@@ -250,7 +252,7 @@ Aquí están los roles de datos.
 ]
 ```
 
-Esta es la asignación de vistas de datos.
+Esta es la asignación de vista de datos:
 
 ```json
 "dataViewMappings": [
@@ -277,7 +279,7 @@ Esta es la asignación de vistas de datos.
 ]
 ```
 
-El elemento `dataview` de categoría podría visualizarse de esta forma:
+La vista de datos categóricos podrían visualizarse de esta forma:
 
 | Categórica |  |  | | | |
 |-----|-----|------|------|------|------|
@@ -288,7 +290,7 @@ El elemento `dataview` de categoría podría visualizarse de esta forma:
 | México | | 300 | x | x | x |
 | Reino Unido | | x | x | 75 | x |
 
-Power BI generará la vista de datos categóricos. Es el conjunto de categorías.
+Power BI lo genera como la vista de datos categóricos. Es el conjunto de categorías.
 
 ```JSON
 {
@@ -310,7 +312,7 @@ Power BI generará la vista de datos categóricos. Es el conjunto de categorías
 }
 ```
 
-Cada categoría también se asigna a un conjunto de valores. Cada uno de estos valores se agrupa por series, que son años.
+Cada categoría también se asigna a un conjunto de valores. Cada uno de estos valores se agrupa por series, que se expresan como años.
 
 Por ejemplo, las ventas de Canadá en 2013 son nulas, mientras que las ventas de Canadá en 2014 equivalen a 50.
 
@@ -393,7 +395,7 @@ Con las funciones especificadas:
 ]
 ```
 
-La tabla `dataview` podría visualizarse de esta manera.  
+Puede visualizar la vista de datos de tabla como se muestra a continuación:  
 
 | País| Año | Ventas |
 |-----|-----|------|
@@ -405,7 +407,7 @@ La tabla `dataview` podría visualizarse de esta manera.
 | Reino Unido | 2014 | 150 |
 | EE. UU. | 2015 | 75 |
 
-Power BI generará la vista de datos de la tabla. No dé por hecho que hay un orden.
+Power BI muestra los datos como la vista de datos de tabla. No debe asumir que los datos están ordenados.
 
 ```JSON
 {
@@ -452,13 +454,13 @@ Power BI generará la vista de datos de la tabla. No dé por hecho que hay un or
 }
 ```
 
-Para agregar datos, seleccione un campo y haga clic en Suma.  
+Puede agregar los datos si selecciona el campo que quiera y después selecciona Suma.  
 
 ![Agregación de datos](./media/data-aggregation.png)
 
 ## <a name="matrix-data-mapping"></a>Asignación de datos de matriz
 
-La asignación de datos de matriz es similar a la asignación de datos de tabla, pero las filas se presentan jerárquicamente. Además, uno de los valores de `dataRole` se puede usar como un valor de encabezado de columna.
+La asignación de datos de matriz es similar a la asignación de datos de tabla, pero las filas se presentan jerárquicamente. Cualquiera de los valores de los roles de datos se puede usar como un valor de encabezado de columna.
 
 ```json
 {
@@ -510,11 +512,11 @@ La asignación de datos de matriz es similar a la asignación de datos de tabla,
 }
 ```
 
-Power BI crea una estructura jerárquica de datos. En la raíz del árbol, se incluyen los datos de la primera columna del rol de datos `Category`, con elementos secundarios de la segunda columna del rol de datos.
+Power BI crea una estructura de datos jerárquica. La raíz de la jerarquía de árbol incluye los datos de la columna **Elementos principales** del rol de datos `Category`, con elementos secundarios de la columna **Elementos secundarios** de la tabla de roles de datos.
 
 Conjunto de datos:
 
-| Elementos principales | Elementos secundarios | Subelementos secundarios | Columnas | Valores |
+| Elementos principales | Elementos secundarios | Elementos descendientes del secundario | Columns | Valores |
 |-----|-----|------|-------|-------|
 | Principal1 | Secundario1 | Subelemento secundario1 | Col1 | 5 |
 | Principal1 | Secundario1 | Subelemento secundario1 | Col2 | 6 |
@@ -533,11 +535,11 @@ Conjunto de datos:
 | Principal2 | Secundario3 | Subelemento secundario8 | Col1 | 10 |
 | Principal2 | Secundario3 | Subelemento secundario8 | Col2 | 13 |
 
-El objeto visual de la matriz principal de Power BI lo representa como una tabla.
+El objeto visual de la matriz principal de Power BI representa los datos como una tabla.
 
 ![Objeto visual Matriz](./media/matrix-visual-smaple.png)
 
-El objeto visual obtiene la estructura de datos como se describe a continuación (solo se presentan las dos primeras filas):
+El objeto visual obtiene su estructura de datos tal y como se describe en el código siguiente (aquí solo se muestran las dos primeras filas de la tabla):
 
 ```json
 {
@@ -614,9 +616,9 @@ El objeto visual obtiene la estructura de datos como se describe a continuación
 
 ## <a name="data-reduction-algorithm"></a>Algoritmo de reducción de datos
 
-Se puede aplicar un elemento `DataReductionAlgorithm` para controlar la cantidad de datos recibidos en el elemento DataView.
+Para controlar la cantidad de datos que se van a recibir en la vista de datos, puede aplicar un algoritmo de reducción de datos.
 
-De forma predeterminada, todos los objetos visuales personalizados tienen aplicado el elemento DataReductionAlgorithm con el valor de “count” establecido en 1000 puntos de datos. Esto equivale a establecer las propiedades siguientes en el archivo capabilities.json:
+De forma predeterminada, todos los objetos visuales personalizados tienen aplicado el algoritmo de reducción de datos principal con el valor de *count* establecido en 1000 puntos de datos. Esto equivale a establecer las siguientes propiedades en el archivo *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -626,23 +628,23 @@ De forma predeterminada, todos los objetos visuales personalizados tienen aplica
 }
 ```
 
-Puede modificar el valor de “count” a cualquier valor entero hasta 30 000. Los objetos visuales personalizados basados en R admiten hasta 150 000 filas.
+Puede modificar el valor de *count* por cualquier valor entero hasta 30 000. Los objetos visuales personalizados basados en R admiten hasta 150 000 filas.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipos de algoritmos de reducción de datos
 
-Hay cuatro tipos de opciones de configuración de `DataReductionAlgorithm`:
+Hay cuatro tipos de valores del algoritmo de reducción de datos:
 
-* `top`: si quiere limitar los datos a los valores obtenidos de la parte superior del conjunto de datos. Los primeros valores superiores de “count” se obtendrán del conjunto de datos.
-* `bottom`: si quiere limitar los datos a valores obtenidos de la parte inferior del conjunto de datos. Los últimos valores de “count” se obtendrán del conjunto de datos.
-* `sample`: reduzca el conjunto de datos mediante un sencillo algoritmo de muestreo limitado a un número de elementos de “count”. Significa que se incluyen el primer y último elemento, y un número de elementos de “count” que tienen intervalos iguales entre ellos.
-Por ejemplo, si tiene un conjunto de datos [0, 1, 2 … 100] y un elemento `count: 9`, recibirá los valores siguientes [0, 10, 20… 100]
-* `window`: carga una “ventana” de puntos de datos que contiene elementos de “count”. Actualmente, `top` y `window` son equivalentes. Estamos trabajando para admitir por completo una configuración de asignación de períodos de tiempo.
+* `top`: si quiere limitar los datos a los valores obtenidos de la parte superior del conjunto de datos. Los primeros valores superiores de *count* se obtendrán del conjunto de datos.
+* `bottom`: si quiere limitar los datos a valores obtenidos de la parte inferior del conjunto de datos. Los últimos valores de "count" se obtendrán del conjunto de datos.
+* `sample`: reduzca el conjunto de datos mediante un sencillo algoritmo de muestreo limitado a un número de elementos de *count*. Esto significa que se incluyen el primer y último elemento, y un número de elementos de *count* que tienen intervalos iguales entre ellos.
+Por ejemplo, si tiene un conjunto de datos [0, 1, 2 … 100] y un valor de *count* de 9, recibirá los valores [0, 10, 20 ... 100].
+* `window`: carga una *ventana* de puntos de datos que contiene elementos de *count*. Actualmente, `top` y `window` son equivalentes. Estamos trabajando para admitir totalmente una configuración basada en ventanas.
 
 ## <a name="data-reduction-algorithm-usage"></a>Uso de algoritmos de reducción de datos
 
-`DataReductionAlgorithm` se puede usar en asignaciones de `dataview` de matriz, tabla o categoría.
+El algoritmo de reducción de datos se puede usar en una asignación de vista de datos de matriz, de tabla o categóricos.
 
-Se puede establecer en `categories` o en una sección de grupo de `values` para asignaciones de datos categóricos.
+Puede establecer el algoritmo en `categories` o en una sección de grupo de `values` para la asignación de datos categóricos.
 
 ### <a name="example-8"></a>Ejemplo 8
 
@@ -677,7 +679,7 @@ Se puede establecer en `categories` o en una sección de grupo de `values` para 
 }
 ```
 
-El algoritmo de reducción de datos se puede aplicar a la sección `rows` de la asignación de la tabla `dataview`.
+Puede aplicar el algoritmo de reducción de datos a la sección `rows` de la tabla de asignación de vistas de datos.
 
 ### <a name="example-9"></a>Ejemplo 9
 
@@ -700,4 +702,4 @@ El algoritmo de reducción de datos se puede aplicar a la sección `rows` de la 
 ]
 ```
 
-El algoritmo de reducción de datos se puede aplicar a las secciones `rows` o `columns` de la asignación `matrix` `dataview`.
+Puede aplicar el algoritmo de reducción de datos a las secciones `rows` y `columns` de la matriz de asignación de vistas de datos.

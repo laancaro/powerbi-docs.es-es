@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 04/10/2019
+ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 00ff6a901ef4056e15ccc0087f0783826b1a64b2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61309026"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391789"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -44,7 +44,7 @@ Power BI Desktop admite tres tipos de números:
 
 **Número decimal fijo** : tiene una ubicación fija para el separador decimal. El separador decimal siempre tiene cuatro dígitos a la derecha y permite 19 dígitos de importancia.  El valor más grande que puede representar es 922.337.203.685.477,5807 (positivo o negativo).  El tipo de número decimal fijo es útil en casos donde el redondeo podría producir errores.  Cuando se trabaja con muchos números que tienen valores fraccionarios pequeños, a veces pueden acumularse y hacer que un número sea ligeramente inferior.  Puesto que se truncan los valores que superan los cuatro dígitos a la derecha del separador decimal, el tipo de decimal fijo puede ayudarle a evitar estos tipos de errores.   Si está familiarizado con SQL Server, este tipo de datos se corresponde con un decimal de SQL Server (19.4), o con el tipo de datos de moneda en Power Pivot. 
 
-**Número entero** : representa un valor entero de 64 bits (8 bytes). Puesto que es un entero, no tiene dígitos a la derecha del separador decimal. Permite 19 dígitos; números enteros positivos o negativos entre -9.223.372.036.854.775.808 (-2^63) y 9.223.372.036.854.775.807 (2^63-1).  Puede representar el mayor número posible de los distintos tipos de datos numéricos.  Como ocurre con el tipo de decimal fijo, el tipo de número entero puede usarse en casos en los que tenga que controlar el redondeo. 
+**Número entero** : representa un valor entero de 64 bits (8 bytes). Puesto que es un entero, no tiene dígitos a la derecha del separador decimal. Permite 19 dígitos; números enteros positivos o negativos entre -9,223,372,036,854,775,807 (-2^63+1) y 9,223,372,036,854,775,806 (2^63-2). Puede representar el mayor número posible de los distintos tipos de datos numéricos.  Como ocurre con el tipo de decimal fijo, el tipo de número entero puede usarse en casos en los que tenga que controlar el redondeo. 
 
 > [!NOTE]
 >  El modelo de datos de Power BI Desktop admite valores enteros de 64 bits, pero, dadas las limitaciones de JavaScript, el número más grande que los objetos visuales pueden expresar con seguridad es el 9 007 199 254 740 991 (2^53-1). Si en su modelo de datos trabaja con números más grandes, puede reducir el tamaño mediante cálculos antes de agregarlos a un objeto visual. 

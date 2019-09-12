@@ -1,6 +1,6 @@
 ---
-title: Marcadores
-description: Un objeto visual de Power BI puede controlar el cambio de marcadores.
+title: Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
+description: Los objetos visuales de Power BI pueden controlar el cambio de marcadores.
 author: zBritva
 ms.author: v-ilgali
 manager: rkarlin
@@ -9,57 +9,54 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 90e3fc73cd49a5c84a5c2acc68a8cf5e0e4aa42b
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425514"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237285"
 ---
-# <a name="add-bookmarks-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
+# <a name="add-bookmark-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 
-Los marcadores de los informes de Power BI permiten capturar la vista configurada de una página de informe, el estado de selección y el estado de filtrado del objeto visual. Sin embargo, los objetos visuales personalizados requieren una acción más para admitir los marcadores y poder aplicar los cambios correctamente.
+Con los marcadores de los informes de Power BI, puede capturar una vista configurada de una página de informes, el estado de selección y el estado de filtrado del objeto visual. Con todo, los objetos visuales personalizados requieren una acción más para admitir los marcadores y poder reaccionar correctamente a los cambios.
 
-Obtenga más información sobre los marcadores en la [documentación](https://docs.microsoft.com/power-bi/desktop-bookmarks).
+Para obtener más información sobre los marcadores, consulte [Uso de marcadores para compartir información detallada y crear historias en Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
 ## <a name="report-bookmarks-support-in-your-visual"></a>Compatibilidad de los marcadores de un informe en un objeto visual
 
-Si el objeto visual filtra elementos del mismo tipo o interactúa con ellos, o bien si selecciona puntos de datos, hay que restaurar el estado de las propiedades.
+Si el objeto visual interactúa con otros objetos visuales, selecciona puntos de datos o filtra otros objetos visuales, tiene que restaurar el estado de las propiedades.
 
-## <a name="how-to-add-report-bookmarks-support"></a>Cómo agregar compatibilidad con los marcadores de un informe
+## <a name="add-report-bookmarks-support"></a>Adición de la compatibilidad con los marcadores de un informe
 
-1. Instale (o actualice) la utilidad necesaria, `powerbi-visuals-utils-interactivityutils` (https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/) ), versión 3.0.0 o posterior. Contiene clases adicionales para la manipulación con selección de estado o filtro. Se necesita para los objetos visuales de filtro y cualquiera que use el módulo `InteractivityService`.
+1. Instale (o actualice) la utilidad requerida: [powerbi-visuals-utils-interactivityutils](https://github.com/Microsoft/PowerBI-visuals-utils-interactivityutils/), versión 3.0.0 o posteriores. Contiene clases adicionales para la manipulación con el filtro o la selección de estado. Se necesita para los objetos visuales de filtro y cualquiera que use `InteractivityService`.
 
-2. Actualice la API de los objetos visuales a la versión 1.11.0 para usar `registerOnSelectCallback`, en el caso de `SelectionManager`. Se necesita para los objetos visuales que no sean de filtro y usen `SelectionManager` estándar, en lugar de `InteractivityService`.
+2. Actualice la API del objeto visual a la versión 1.11.0 para usar `registerOnSelectCallback` en una instancia de `SelectionManager`. Se necesita para los objetos visuales que no sean de filtro y que usen `SelectionManager` estándar en lugar de `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-the-report-bookmarks-scenario"></a>Interacción de los objetos visuales personalizados con Power BI en los marcadores de un informe
+### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interacción de los objetos visuales personalizados con Power BI en los marcadores de un informe
 
-Veamos el siguiente ejemplo: Un usuario crea varios marcadores en la página del informe, con un estado de selección diferente en cada marcador.
+Veamos el siguiente escenario: quiere crear varios marcadores en la página de informes, con un estado de selección diferente en cada marcador.
 
-En primer lugar, el usuario selecciona un punto de datos en el objeto visual. El objeto visual interactúa con Power BI y otros objetos visuales y pasa las selecciones al host. Luego, el usuario selecciona "Agregar" en `Bookmark panel` y Power BI guarda las selecciones actuales del nuevo marcador.
+En primer lugar, seleccionará un punto de datos en el objeto visual. El objeto visual interactúa con Power BI y otros objetos visuales y pasa las selecciones al host. Luego, seleccione **Agregar** en el panel **Marcador** y Power BI guarda las selecciones actuales del nuevo marcador.
 
-Esto ocurre cada vez que el usuario cambia la selección y agrega nuevos marcadores.
-Una vez creados, el usuario puede cambiar de un marcador a otro.
+Esto ocurre cada vez que usted cambia la selección y agrega nuevos marcadores. Después de crear los marcadores, puede cambiar entre ellos.
 
-Cuando los usuarios seleccionan un marcador, Power BI restaura el estado de selección o filtro guardado y lo pasa a los objetos visuales. El resto de objetos visuales quedarán resaltados o filtrarán según el estado almacenado en el marcador. El host de Power BI es responsable de las acciones. El objeto visual es responsable de reflejar correctamente el nuevo estado de selección (por ejemplo, cambiar el color de los puntos de datos representados).
+Al seleccionar un marcador, Power BI restaura el estado de selección o filtro guardado y lo pasa a los objetos visuales. Los demás objetos visuales se resaltan o filtran según el estado almacenado en el marcador. El host de Power BI es responsable de las acciones. El objeto visual es responsable de reflejar correctamente el nuevo estado de selección (por ejemplo, cambiar el color de los puntos de datos representados).
 
-El nuevo estado de selección se comunica al objeto visual a través del método `update`. El argumento `options` contendrá una propiedad especial, `options.jsonFilters`. Se trata de JSONFilter, una propiedad que puede contener `Advanced Filter` y `Tuple Filter`.
+El nuevo estado de selección se comunica al objeto visual a través del método `update`. El argumento `options` contiene una propiedad especial, `options.jsonFilters`. Su propiedad JSONFilter puede contener `Advanced Filter` y `Tuple Filter`.
 
-El objeto visual debe restaurar los valores de filtro para mostrar el estado correspondiente del objeto visual para el marcador seleccionado.
+El objeto visual debe restaurar los valores de filtro para mostrar el estado correspondiente del objeto visual para el marcador seleccionado. O bien, si el objeto visual solo usa selecciones, puede utilizar la llamada a la función de devolución de llamada especial como el método `registerOnSelectCallback` de ISelectionManager.
 
-O bien, usar el método `registerOnSelectCallback` registrado de la función de devolución de llamada especial de ISelectionManager, si el objeto visual solo usa selecciones.
+### <a name="visuals-with-selection"></a>Objetos visuales con selecciones
 
-### <a name="visuals-with-selections"></a>Objetos visuales con selecciones
+Si el objeto visual interactúa con otros objetos visuales mediante [Selection](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), puede agregar marcadores de una de estas dos maneras:
 
-Si los objetos visuales interactúan con otros objetos visuales mediante [selecciones](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/Selection.md), tiene dos maneras de agregar marcadores.
+* Si el objeto visual aún no ha usado [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md), puede utilizar el método `FilterManager.restoreSelectionIds`.
 
-* Puede usar el método `FilterManager.restoreSelectionIds` si **no ha usado[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** antes en el objeto visual.
+* Si el objeto visual ya ha usado [InteractivityService](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md) para administrar selecciones, debe utilizar el método `applySelectionFromFilter` en la instancia de `InteractivityService`.
 
-* Si el objeto visual ya utiliza **[`InteractivityService`](https://github.com/Microsoft/powerbi-visuals-utils-interactivityutils/blob/master/docs/api/interactivityService.md)** para administrar selecciones, debe emplear el método `applySelectionFromFilter` en el caso de `InteractivityService`.
+#### <a name="use-iselectionmanagerregisteronselectcallback"></a>Uso de ISelectionManager.registerOnSelectCallback
 
-#### <a name="using-iselectionmanagerregisteronselectcallback"></a>Uso de `ISelectionManager.registerOnSelectCallback`
-
-Cuando un usuario hace clic en un marcador, Power BI llama al método `callback` del objeto visual con las selecciones correspondientes. 
+Al seleccionar un marcador, Power BI llama al método `callback` del objeto visual con las selecciones correspondientes. 
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -69,7 +66,7 @@ this.selectionManager.registerOnSelectCallback(
 );
 ```
 
-Supongamos que tiene un punto de datos en el objeto visual creado en el método [`'visualTransform'`](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74).
+Supongamos que tiene un punto de datos en el objeto visual que ha creado en el método [visualTransform](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/master/src/barChart.ts#L74).
 
 Además, `datapoints` tiene el siguiente aspecto:
 
@@ -84,9 +81,9 @@ visualDataPoints.push({
 });
 ```
 
-Por lo tanto, tiene `visualDataPoints` como puntos de datos y una matriz `ids` que ha pasado a la función `callback`.
+Ahora tiene `visualDataPoints` como puntos de datos y la matriz `ids` que ha pasado a la función `callback`.
 
-En este punto, el objeto visual debe comparar la matriz de `ISelectionId[]` con la selección de la matriz `visualDataPoints` y marcar como seleccionados los puntos de datos que correspondan.
+En este punto, el objeto visual debe comparar la matriz de `ISelectionId[]` con la selección de la matriz de `visualDataPoints` y marcar como seleccionados los puntos de datos que correspondan.
 
 ```typescript
 this.selectionManager.registerOnSelectCallback(
@@ -104,17 +101,19 @@ this.selectionManager.registerOnSelectCallback(
 
 Tras actualizarlos, los puntos de datos reflejarán el estado de selección actual almacenado en el objeto `filter`. Luego, cuando los puntos de datos se representen, el estado de selección del objeto visual personalizado coincidirá con el del marcador.
 
-### <a name="using-interactivityservice-for-control-selections-in-the-visual"></a>Uso de `InteractivityService` para el control de selecciones en el objeto visual
+### <a name="use-interactivityservice-for-control-selections-in-the-visual"></a>Uso de InteractivityService para el control de selecciones en el objeto visual
 
-Si el objeto visual usa `InteractivityService`, no hay que hacer nada más para admitir los marcadores en el objeto visual.
+Si el objeto visual usa `InteractivityService`, no tiene que hacer nada más para admitir los marcadores en el objeto visual.
 
-La utilidad controlará el estado de selección del objeto visual cuando el usuario seleccione los marcadores.
+Al seleccionar marcadores, la utilidad controla el estado de selección del objeto visual.
 
-### <a name="visuals-with-filter"></a>Objetos visuales con filtro
+### <a name="visuals-with-a-filter"></a>Objetos visuales con un filtro
 
-Supongamos que el objeto visual crea un filtro de datos por intervalo de fechas. Por lo tanto, tenemos `startDate` y `endDate` como inicio y fin del intervalo.
+Supongamos que el objeto visual crea un filtro de datos por intervalo de fechas. Tiene `startDate` y `endDate` como las fechas de inicio y finalización del intervalo.
+
 El objeto visual crea un filtro avanzado y llama al método de host `applyJsonFilter` para filtrar los datos según las condiciones pertinentes.
-`target` es la tabla del filtrado.
+
+El destino es la tabla que se usa para filtrar.
 
 ```typescript
 import { AdvancedFilter } from "powerbi-models";
@@ -145,7 +144,7 @@ this.host.applyJsonFilter(
 );
 ```
 
-Cada vez que un usuario hace clic en un marcador, el objeto visual personalizado recibe una llamada de `update`.
+Cada vez que selecciona un marcador, el objeto visual personalizado recibe una llamada de `update`.
 
 El objeto visual personalizado debe comprobar el filtro en el objeto:
 
@@ -176,21 +175,21 @@ if (jsonFilters
 }
 ```
 
-Después, el objeto visual debe cambiar su estado interno, los puntos de datos y los objetos de visualización (líneas, rectángulos, etc.), para reflejar las condiciones actuales.
+Después, el objeto visual debe cambiar su estado interno para reflejar las condiciones actuales. El estado interno incluye los puntos de datos y los objetos de visualización (líneas, rectángulos, etc.).
 
 > [!IMPORTANT]
-> En el caso de los marcadores de informe, el objeto visual no tiene que llamar a `applyJsonFilter` para filtrar otros objetos visuales, puesto que ya estarán filtrados por Power BI.
+> En el caso de los marcadores de informe, el objeto visual no tiene que llamar a `applyJsonFilter` para filtrar los demás objetos visuales. Power BI se encargará de filtrarlos.
 
-El objeto visual de segmentación de escala de tiempo cambia el selector de intervalo a los intervalos de datos correspondientes.
+El objeto visual de segmentación de la escala de tiempo cambia el selector de intervalo a los intervalos de datos correspondientes.
 
 Para obtener más información, consulte el [repositorio de segmentación de escala de tiempo](https://github.com/Microsoft/powerbi-visuals-timeline/commit/606f1152f59f82b5b5a367ff3b117372d129e597?diff=unified#diff-b6ef9a9ac3a3225f8bd0de84bee0a0df).
 
-### <a name="filter-state-to-save-visual-properties-in-bookmarks"></a>Estado del filtro para guardar propiedades del objeto visual en los marcadores
+### <a name="filter-the-state-to-save-visual-properties-in-bookmarks"></a>Filtro del estado para guardar las propiedades del objeto visual en los marcadores
 
-La propiedad `filterState` crea una propiedad de una parte del filtrado. El objeto visual puede almacenar distintos valores en marcadores.
+La propiedad `filterState` crea una propiedad de una parte del filtrado. El objeto visual puede almacenar varios valores en marcadores.
 
-Para guardar el valor de la propiedad como estado del filtro, la propiedad del objeto debe marcarse como `"filterState": true` en `capabilities.json`.
+Para guardar el valor de la propiedad como un estado de filtro, marque la propiedad del objeto como `"filterState": true` en el archivo *capabilities.json*.
 
-Ejemplo: `Timeline Slicer` almacena los valores de la propiedad `Granularity` en el filtro. También permite modificar la granularidad actual al cambiar los marcadores por usuario.
+Por ejemplo, la segmentación de la escala de tiempo almacena los valores de la propiedad `Granularity` en un filtro. Permite cambiar la granularidad actual mientras cambia los marcadores.
 
 Para obtener más información, consulte el [repositorio de segmentación de escala de tiempo](https://github.com/microsoft/powerbi-visuals-timeline/commit/8b7d82dd23cd2bd71817f1bc5d1e1732347a185e#diff-290828b604cfa62f1cb310f2e90c52fdR334).

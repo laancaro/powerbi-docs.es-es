@@ -4,20 +4,19 @@ description: En este tema se ofrece una explicación para los consumidores y los
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 8/28/2018
+ms.date: 08/28/2018
 ms.author: mihart
-ms.openlocfilehash: 0896d397c7cc78ce36109cf1c975b34d081169a1
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184709"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391754"
 ---
-# <a name="view-a-report-in-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
+# <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
 Un informe consta de una o varias páginas de objetos visuales. Los *diseñadores* de Power BI crean los informes y [los comparten con los *consumidores* directamente](end-user-shared-with-me.md) o como parte de una [aplicación](end-user-apps.md). 
 
 Hay muchas maneras diferentes de abrir un informe; aquí le mostraremos dos de ellas: desde la Página principal y desde un panel. 
@@ -31,7 +30,7 @@ Vamos a abrir un informe que se ha compartido con usted directamente y, a contin
    ![Página principal](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Apertura de un informe que se ha compartido con usted
-Los *diseñadores* de Power BI pueden compartir un informe directamente con usted. El contenido que se comparte de este modo se muestra en el contenedor **Compartido conmigo** de la barra de navegación y en la sección **Compartido conmigo** del lienzo Página principal.
+Los *diseñadores* de Power BI pueden compartir un informe individual directamente con usted mediante un vínculo en el correo electrónico o si lo agregan a su inicio de Power BI. El contenido que se comparte de este modo se muestra en el contenedor **Compartido conmigo** de la barra de navegación y en la sección **Compartido conmigo** del lienzo Página principal.
 
 1. Abra el servicio Power BI (app.powerbi.com).
 
@@ -45,13 +44,13 @@ Los *diseñadores* de Power BI pueden compartir un informe directamente con uste
 
 4. Simplemente seleccione la *tarjeta* del informe para abrirlo.
 
-   ![Página del informe](./media/end-user-report-open/power-bi-report-open.png)
+   ![Página del informe](./media/end-user-report-open/power-bi-open.png)
 
 5. Observe las pestañas de la parte izquierda.  Cada pestaña representa una *página* del informe. Ahora está abierta la página *Growth Opportunity* (Oportunidades de crecimiento). Seleccione la pestaña *YTD Category* (Categoría del año actual) para abrir la página del informe. 
 
    ![pestañas de las páginas de informes](./media/end-user-report-open/power-bi-ytd.png)
 
-6. Ahora se ve la página de informe completa. Para cambiar la presentación (zoom) de la página, seleccione la lista desplegable Vista en la esquina superior derecha ( **>** ) y elija **Tamaño real**.
+6. Ahora se ve la página de informe completa. Para cambiar la presentación (zoom) de la página, seleccione la lista desplegable Vista en la esquina superior derecha y elija **Tamaño real**.
 
    ![cambiar zoom](./media/end-user-report-open/power-bi-fit-new.png)
 
@@ -66,7 +65,7 @@ Si ha recibido aplicaciones de compañeros de trabajo o de AppSource, esas aplic
 
    ![Página principal](./media/end-user-report-open/power-bi-my-apps.png)
 
-8. Seleccione una de las aplicaciones para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel, un informe o la lista de contenido de una aplicación. Si al seleccionar la aplicación:
+8. Seleccione una de las aplicaciones para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Si al seleccionar la aplicación:
     - se abre el informe, ya ha terminado.
     - se abre un panel, vea ***Apertura de un informe desde un panel***, a continuación.
 
@@ -95,5 +94,5 @@ Conforme se vaya familiarizando con la navegación por el servicio Power BI, des
 - Y más
 
 ## <a name="next-steps"></a>Pasos siguientes
-Hay [muchas formas de interactuar con un informe](end-user-reading-view.md).  Empiece a explorar seleccionando cada una de las pestañas en el lateral del lienzo del informe.
+[Abrir y ver un panel](end-user-dashboard-open.md)
 

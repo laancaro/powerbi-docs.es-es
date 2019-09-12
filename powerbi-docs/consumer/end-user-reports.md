@@ -1,30 +1,29 @@
 ---
-title: Visualización de un informe de Power BI
-description: Informes en Power BI
+title: Informes en el servicio Power BI
+description: Informes en el servicio Power BI para consumidores
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 08/24/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 9a844ff813435328df63240aa46aff3430117f6e
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
+ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67532152"
+ms.lasthandoff: 09/06/2019
+ms.locfileid: "70391331"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 
 Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser alguien que *consume* o usa informes.
 
-![Captura de pantalla de la página de un informe.](./media/end-user-reports/power-bi-report.png)
+![Captura de pantalla de la página de un informe.](./media/end-user-reports/power-bi-reports.png)
 
-Este informe tiene cuatro páginas (o pestañas) y actualmente está viendo la página **Opinión**. En esta página hay cinco objetos visuales diferentes y un título de página.
+Este informe tiene seis páginas (o pestañas) y actualmente está viendo la página **Opinión**. En esta página hay cinco objetos visuales diferentes y un título de página. En el panel *Filtros* se muestra un filtro aplicado a todas las páginas del informe. Para contraer el panel Filtros, seleccione la flecha ( **>** ).
 
 Si no está familiarizado con Power BI, puede obtener una buena base si lee [Conceptos básicos para consumidores de Power BI](end-user-basic-concepts.md). Los informes se pueden ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [Exploración de informes en las aplicaciones móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -42,6 +41,8 @@ Conforme explora e interactúa con el contenido (mediante el filtrado, la segmen
 ### <a name="save-your-changes-or-revert-to-the-default-settings"></a>Guardado de los cambios o vuelta a la configuración predeterminada
 
 Eso no significa que no se puedan guardar los cambios. Sí se puede, pero esos cambios solo afectan a su vista del contenido. Para volver a la vista predeterminada original del informe, seleccione **Restablecer valores predeterminados**.
+
+![Captura de pantalla del icono Volver al valor predeterminado.](./media/end-user-reports/power-bi-reset.png)
 
 ## <a name="dashboards-versus-reports"></a>Paneles frente a informes
 
@@ -76,6 +77,5 @@ O bien, es posible que sea un *consumidor*, alguien que recibe los informes de o
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[¿Qué es Power BI?](../power-bi-overview.md)
-
-[Conceptos básicos para consumidores de Power BI](end-user-basic-concepts.md)
+[Abrir y ver un informe](end-user-report-open.md)    
+[Paneles en el servicio Power BI](end-user-dashboards.md)

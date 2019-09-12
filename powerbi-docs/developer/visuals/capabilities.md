@@ -1,6 +1,6 @@
 ---
-title: Funciones
-description: Funciones y propiedades de objetos visuales de Power BI
+title: Funcionalidades y propiedades de objetos visuales de Power BI
+description: En este artículo se describen las funcionalidades y propiedades de los objetos visuales de Power BI.
 author: asander
 ms.author: asander
 manager: rkarlin
@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: f6bb4293a44f98f2f8098fb197c7b406b618d211
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5c32a1679f09e05d134da7f27ffa0cee90d75fab
+ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68425468"
+ms.lasthandoff: 09/03/2019
+ms.locfileid: "70237299"
 ---
-# <a name="power-bi-visual-capabilities"></a>Funciones de objetos visuales de Power BI
+# <a name="capabilities-and-properties-of-power-bi-visuals"></a>Funcionalidades y propiedades de objetos visuales de Power BI 
 
-Las funciones proporcionan información al host sobre el objeto visual. Todas las propiedades del modelo de funciones son `optional`
+Usará las funcionalidades para proporcionar información al host sobre el objeto visual. Todas las propiedades del modelo de funcionalidades son `optional`.
 
-Los objetos raíz de las funciones del objeto visual son `dataRoles`, `dataViewMappings`, etc.
+Los objetos raíz de las funcionalidades de un objeto visual son `dataRoles`, `dataViewMappings`, etc.
 
 ```json
 {
@@ -34,29 +34,29 @@ Los objetos raíz de las funciones del objeto visual son `dataRoles`, `dataViewM
 
 ```
 
-## <a name="define-the-data-fields-your-visual-expects---dataroles"></a>Definir los campos de datos que espera el objeto visual: `dataRoles`
+## <a name="define-the-data-fields-that-your-visual-expects-dataroles"></a>Definición de los campos de datos que espera el objeto visual: dataRoles
 
-Para definir los campos que se pueden enlazar a los datos, usamos `dataRoles`, que obtiene una matriz de objetos de `DataViewRole` para definir todas las propiedades necesarias.
+Para definir los campos que se pueden enlazar con los datos, use `dataRoles`. `dataRoles` toma una matriz de objetos `DataViewRole` que define todas las propiedades necesarias.
 
 ### <a name="properties"></a>Propiedades
 
-* **name**: el nombre interno del campo de datos (tiene que ser único).
-* **kind**: el tipo de campo:
-    * `Grouping`: valores discretos usados para la agrupación de campos de medida.
+* **name**: nombre interno de este campo de datos (tiene que ser único).
+* **kind**: tipo de campo:
+    * `Grouping`: valores discretos que se usan para agrupar campos de medida.
     * `Measure`: valores de datos numéricos.
-    * `GroupingOrMeasure`: puede usarse como una agrupación o como una medida.
-* **displayName**: el nombre que se muestra al usuario en el panel de propiedades.
-* **description**: una descripción breve del campo (opcional).
-* **requiredTypes**: el tipo de datos necesario para este rol de datos. Cualquier valor que no coincida se establecerá en nulo (opcional).
-* **preferredTypes**: el tipo de datos preferido para este rol de datos (opcional).
+    * `GroupingOrMeasure`: valores que se pueden usar como una agrupación o una medida.
+* **displayName**: nombre que se muestra al usuario en el panel **Propiedades**.
+* **description**: descripción breve del campo (opcional).
+* **requiredTypes**: tipo de datos necesario para este rol de datos. Los valores que no coinciden se establecen en null (opcional).
+* **preferredTypes**: tipo de datos preferido para este rol de datos (opcional).
 
-### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>Tipos de datos válidos en “requiredTypes” y “preferredTypes”
+### <a name="valid-data-types-in-requiredtypes-and-preferredtypes"></a>Tipos de datos válidos en requiredTypes y preferredTypes
 
-* **bool**: un valor booleano.
-* **integer**: un valor entero (número entero).
-* **numeric**: un valor numérico.
-* **text**: un valor de texto.
-* **geography**: un dato geográfico.
+* **bool**: valor booleano.
+* **integer**: valor entero (número entero).
+* **numeric**: valor numérico.
+* **text**: valor de texto.
+* **geography**: datos geográficos.
 
 ### <a name="example"></a>Ejemplo
 
@@ -157,15 +157,15 @@ Para definir los campos que se pueden enlazar a los datos, usamos `dataRoles`, q
 ]
 ```
 
-Los roles de datos anteriores crearían los campos siguientes.
+Los roles de datos anteriores crearían los campos que se muestran en la siguiente imagen:
 
-![Mostrar el rol de datos](./media/data-role-display.png)
+![Campos de roles de datos](./media/data-role-display.png)
 
-## <a name="define-how-you-want-the-data-mapped---dataviewmappings"></a>Definir cómo quiere que se asignen los datos: `dataViewMappings`
+## <a name="define-how-you-want-the-data-mapped-dataviewmappings"></a>Definición de la forma en que se quieren asignar los datos: dataViewMappings
 
-Un elemento DataViewMapping describe cómo se relacionan los roles de datos entre sí y le permite especificar requisitos condicionales para estos.
+Una propiedad DataViewMappings describe cómo se relacionan los roles de datos entre sí y le permite especificar requisitos condicionales para estos.
 
-La mayoría de los objetos visuales proporcionan una sola asignación, pero puede proporcionar varios elementos dataViewMappings. Cada asignación válida generará un elemento DataView. 
+La mayoría de los objetos visuales proporcionan una sola asignación, pero puede proporcionar varios elementos dataViewMappings. Cada asignación válida genera una vista de datos. 
 
 ```json
 "dataViewMappings": [
@@ -179,13 +179,11 @@ La mayoría de los objetos visuales proporcionan una sola asignación, pero pued
 ]
 ```
 
-[Más información sobre DataViewMappings](dataview-mappings.md)
+Para obtener más información, consulte [Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI](dataview-mappings.md).
 
-## <a name="define-property-pane-options---objects"></a>Definir opciones del panel de propiedades: `objects`
+## <a name="define-property-pane-options-objects"></a>Definición de las opciones del panel de propiedades: objetos
 
-Los objetos describen propiedades personalizables asociadas al objeto visual.
-Cada objeto puede tener varias propiedades, y cada propiedad tiene un tipo asociado.
-Los tipos hacen referencia a lo que será la propiedad. A continuación, encontrará más información sobre los distintos tipos.
+Los objetos describen propiedades personalizables que están asociadas al objeto visual. Cada objeto puede tener varias propiedades y cada propiedad tiene un tipo asociado. Los tipos hacen referencia a lo que será la propiedad. 
 
 ```json
 "objects": {
@@ -196,24 +194,22 @@ Los tipos hacen referencia a lo que será la propiedad. A continuación, encontr
 }
 ```
 
-[Más información sobre los objetos](objects-properties.md)
+Para obtener más información, vea [Objetos y propiedades de objetos visuales de Power BI](objects-properties.md).
 
-## <a name="handle-partial-highlighting---supportshighlight"></a>Controlar el resaltado parcial: `supportsHighlight`
+## <a name="handle-partial-highlighting-supportshighlight"></a>Control del resaltado parcial: supportsHighlight
 
-De forma predeterminada, este valor es falso, lo que significa que sus “Valores” se filtrarán automáticamente al seleccionar un elemento en la página; a su vez, se actualizará el objeto visual para mostrar solo el valor seleccionado. Para mostrar todos los datos, pero solo resaltar los elementos seleccionados, necesita establecer `supportsHighlight` en “true” en el archivo capabilities.json.
+De forma predeterminada, este valor se establece en `false`, lo que significa que los valores se filtran automáticamente cuando se selecciona algo en la página. Este filtrado automático, a su vez, actualiza el objeto visual para mostrar solo el valor seleccionado. Si quiere mostrar todos los datos, pero solo resaltar los elementos seleccionados, necesita establecer `supportsHighlight` en `true` en el archivo *capabilities.json*.
 
-[Más información sobre el resaltado](highlight.md)
+Para obtener más información, consulte [Resaltado de puntos de datos en objetos visuales de Power BI](highlight.md).
 
-## <a name="handle-advanced-edit-mode---advancededitmodesupport"></a>Controlar el modo de edición avanzada: `advancedEditModeSupport`
+## <a name="handle-advanced-edit-mode-advancededitmodesupport"></a>Control del modo de edición avanzada: advancedEditModeSupport
 
-Un objeto visual puede declarar su compatibilidad con el modo de edición avanzada.
-De forma predeterminada, un objeto visual no admite el modo de edición avanzada, a menos que se indique lo contrario en el archivo JSON de funciones.
+Un objeto visual puede declarar su compatibilidad con el modo de edición avanzada. De forma predeterminada, un objeto visual no admite el modo de edición avanzada, a menos que se indique lo contrario en el archivo *capabilities.json*.
 
-[Más información sobre advancedEditModeSupport](advanced-edit-mode.md)
+Para obtener más información, consulte [Modo de edición avanzada en objetos visuales de Power BI](advanced-edit-mode.md).
 
-## <a name="data-sorting-options-for-visual---sorting"></a>Opciones de ordenación de datos para objetos visuales: `sorting`
+## <a name="data-sorting-options-for-visual-sorting"></a>Opciones de ordenación de datos para objetos visuales: ordenación
 
-Un objeto visual puede definir su comportamiento de ordenación mediante sus funciones.
-De forma predeterminada, un objeto visual no permite que se modifique su criterio de ordenación, a menos que se indique lo contrario en el archivo capabilities.json.
+Un objeto visual puede definir su comportamiento de ordenación mediante sus funciones. De forma predeterminada, un objeto visual no permite que se modifique su criterio de ordenación, a menos que se indique lo contrario en el archivo *capabilities.json*.
 
-[Más información sobre la ordenación](sort-options.md)
+Para obtener más información, consulte [Opciones de ordenación para objetos visuales de Power BI](sort-options.md).
