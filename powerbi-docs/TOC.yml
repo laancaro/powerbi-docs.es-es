@@ -283,6 +283,8 @@
               href: service-add-hyperlink-to-text-box.md
             - name: Hipervínculos en tablas
               href: power-bi-hyperlinks-in-tables.md
+            - name: Mostrar imágenes en tablas
+              href: power-bi-images-tables.md
             - name: Cadenas de formato personalizado
               href: desktop-custom-format-strings.md
             - name: Formato condicional de tabla
@@ -569,8 +571,6 @@
               href: service-create-dashboard-mobile-phone-view.md
             - name: Crear un código QR para un icono
               href: service-create-qr-code-for-tile.md
-            - name: Agregar una imagen a un panel
-              href: service-dashboard-add-image.md
             - name: Clasificación de datos del panel
               href: service-data-classification.md
             - name: Temas de panel
