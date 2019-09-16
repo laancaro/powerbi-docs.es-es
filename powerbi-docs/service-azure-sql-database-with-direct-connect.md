@@ -11,12 +11,12 @@ ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/13/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: 2363b9da3ac46ce9fd49f19a00950a4a3cf23502
-ms.sourcegitcommit: 30ee81f8c54fd7e4d47d7e3ffcf0e6c3bb68f6c2
+ms.openlocfilehash: 96bf1a8d95f26014be09a32c1e83fb2af90f9fc0
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "67468081"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "70986983"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 
@@ -27,7 +27,7 @@ Con DirectQuery, las consultas se envían a Azure SQL Database a medida que expl
 **Notas:**
 
 * Especifique el nombre completo del servidor cuando se conecte (consulte a continuación para obtener más detalles).
-* Asegúrese de que las reglas de firewall de la base de datos están configuradas en "[Permitir el acceso a servicios de Azure](https://msdn.microsoft.com/library/azure/ee621782.aspx)".
+* Asegúrese de que las reglas de firewall de la base de datos están configuradas en "[Permitir el acceso a servicios de Azure](https://docs.microsoft.com/azure/sql-database/sql-database-networkaccess-overview#allow-azure-services)".
 * Cada acción, como seleccionar una columna o agregar un filtro, enviará una consulta a la base de datos.
 * Los iconos se actualizan cada hora (no es necesario programar la actualización). Puede ajustar la frecuencia de actualización en la configuración avanzada al conectarse.
 * Preguntas y respuestas no está disponible para conjuntos de datos de DirectQuery.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 5a5dca5c3fb4b3b375d3fbb603703e8aaaf91c6c
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: e02d50a7990eb90405d6a864fe294fee8e946e10
+ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023432"
+ms.lasthandoff: 09/12/2019
+ms.locfileid: "70936260"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -22,9 +22,7 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-**Uso de Power BI con Dynamics 365 Finance and Operations**
-<br>por Kevin Horlock
-<br>[Regístrese para verlo el 11 de septiembre](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
+Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -51,6 +49,10 @@ Empiece por estos seminarios web a petición populares
 **Refuerce sus conocimientos de modelado de datos con Power BI**
 <br>de Kasper de Jonge
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Strengthen-Your-Data-Modeling-Skills-with-PowerBI-Registration.html?Is=Website)
+
+**Uso de Power BI con Dynamics 365 Finance and Operations**
+<br>por Kevin Horlock
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-Using-Power-BI-with-Dynamics-365-Finance-and-Operations.html?LCID=EN-US)
 
 **Microsoft Runs on Power BI – Financial Planning & Analysis Made Easy** (Microsoft funciona con Power BI: planificación financiera y análisis simplificados)
 <br>de Cory Hrncirik y Miguel Martinez
