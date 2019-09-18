@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
 ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "69985742"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
@@ -26,7 +26,7 @@ Se aplica a:
 Un informe de Power BI es una vista interactiva de los datos, con objetos visuales que describen distintas conclusiones e información de dichos datos. Ver informes en las aplicaciones móviles de Power BI es el tercer paso de un proceso de tres pasos:
 
 1. [Crear informes en Power BI Desktop](../../desktop-report-view.md). Puede incluso [optimizar un informe para teléfonos](mobile-apps-view-phone-report.md) en Power BI Desktop.
-2. Publicar esos informes en el servicio Power BI [(https://powerbi.com)](https://powerbi.com) o [Power BI Report Server](../../report-server/get-started.md).  
+2. Publique esos informes en el servicio Power BI [(https://powerbi.com)](https://powerbi.com) o [Power BI Report Server](../../report-server/get-started.md).  
 3. Interactuar con los informes en las aplicaciones móviles de Power BI.
 
 ## <a name="open-a-power-bi-report-in-the-mobile-app"></a>Apertura de un informe de Power BI en la aplicación móvil

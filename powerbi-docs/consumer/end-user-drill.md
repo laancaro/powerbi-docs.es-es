@@ -13,10 +13,10 @@ ms.date: 6/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 29823a2f1ca7f1448df54282e0ce081310974eb3
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "67265265"
 ---
 # <a name="drill-mode-in-a-visualization-in-power-bi"></a>Modo detallado en una visualización de Power BI
@@ -49,7 +49,7 @@ Las fechas son un tipo único de jerarquía. Cuando agrega un campo de fechas a 
     | Área | Campo |
     | ---- | ----- |
     | Valor |Ventas<br>\|\_ Unidades totales de este año |
-    | Agrupar | Tienda<br>\|\_ Territorio<br>\|\_ Ciudad<br>\|\_ Código postal<br>\|\_ Nombre
+    | Grupo | Tienda<br>\|\_ Territorio<br>\|\_ Ciudad<br>\|\_ Código postal<br>\|\_ Nombre
 
     El treemap tiene una jerarquía formada por el territorio, la ciudad, el código postal y el nombre de la ciudad. Cada territorio tiene una o varias ciudades, cada ciudad tiene uno o más códigos postales, etc. De forma predeterminada, la visualización muestra solo los datos de territorio, porque *Territory* (Territorio) aparece en primer lugar en la lista.
 
@@ -228,7 +228,7 @@ Además de la visualización, se puede ver la jerarquía reflejada en los datos 
 |Modo expandido|Año|Trimestre|Mes|Día|
 | --- |:---:|:---:|:---:|---|
 |Único|![un solo año](./media/end-user-drill/power-bi-hierarchical-year.png)|![un solo trimestre](media/end-user-drill/power-bi-hierarchical-quarter.png)|![un solo mes](./media/end-user-drill/power-bi-hierarchical-one-month.png)|![un solo día](media/end-user-drill/power-bi-hierarchical-one-day.png)|
-|Todo|![todos los años](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos los trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos los meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos los días](media/end-user-drill/power-bi-hierarchical-all-day.png)|
+|Todos|![todos los años](./media/end-user-drill/power-bi-hierarchical-year.png)|![todos los trimestres](media/end-user-drill/power-bi-hierarchical-quarter.png)|![todos los meses](./media/end-user-drill/power-bi-hierarchical-all-month.png)|![todos los días](media/end-user-drill/power-bi-hierarchical-all-day.png)|
 
 Tenga en cuenta que los datos son los mismos para los informes de **trimestre** y **año**. Después de explorar en profundidad al nivel de detalle especificado para **Valores**, puede ver cómo el informe único se vuelve más específico y el informe "todos los meses" tiene más datos.
 
@@ -260,7 +260,7 @@ Además de la visualización, se puede ver la jerarquía reflejada en los datos 
 | Modo expandido|Territorio|Ciudad|Postal|Nombre|
 | ---|:---:|:---:|:---:|---|
 |Único|![un solo territorio](./media/end-user-drill/power-bi-hierarchical-territory.png)|![una sola ciudad](media/end-user-drill/power-bi-hierarchical-one-territory-city.png)|![un solo código postal](./media/end-user-drill/power-bi-hierarchical-one-territory-city-postal.png)|![un solo nombre](media/end-user-drill/power-bi-hierarchical-one-territory-city-postal-name.png)|
-|Todo|![todos los territorios](./media/end-user-drill/power-bi-hierarchical-territory.png)|![todas las ciudades](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![todos los códigos postales](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![todos los nombres](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
+|Todos|![todos los territorios](./media/end-user-drill/power-bi-hierarchical-territory.png)|![todas las ciudades](media/end-user-drill/power-bi-hierarchical-all-territory-city.png)|![todos los códigos postales](./media/end-user-drill/power-bi-hierarchical-all-territory-city-postal.png)|![todos los nombres](media/end-user-drill/power-bi-hierarchical-all-territory-city-postal-name.png)|
 
  Al explorar en profundidad, puede ver cómo el informe **único** se vuelve más específico y que el informe de **todos los territorios** tiene más datos.
 

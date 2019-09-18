@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: abc9671338e916671f243093bad455ed0cb4ef7e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61062091"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Mostrar el contenido con más detalle: modo de enfoque y modo de pantalla completa
@@ -28,7 +28,7 @@ El modo de enfoque y el modo de pantalla completa son dos maneras diferentes par
 |Contenido    | Modo de enfoque  |Modo de pantalla completa  |
 |---------|---------|----------------------|
 |Panel     |   No es posible     | sí |
-|Página de informe   | No es posible  | sí|
+|Página del informe   | No es posible  | sí|
 |Visualización de informe | sí    | sí |
 |Icono del panel | sí    | sí |
 |Windows 10 Mobile | No es posible | Sí |
