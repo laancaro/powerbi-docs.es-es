@@ -1,5 +1,5 @@
 ---
-title: Mostrar los datos que se usan para crear el objeto visual
+title: Visualización de los datos usados para crear el objeto visual
 description: En este documento se explica cómo los consumidores de Power BI pueden "ver" los datos usados para crear un objeto visual.
 author: mihart
 manager: kvivek
@@ -12,18 +12,18 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 5b36ded0863685726f9af3104b43c507b9a3c4d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65607996"
 ---
-# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Mostrar los datos que se usan para crear el objeto visual
+# <a name="show-the-data-that-was-used-to-create-the-visual"></a>Visualización de los datos usados para crear el objeto visual
 
-Un objeto visual de Power BI se construye con datos de conjuntos de datos subyacente. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Al seleccionar **mostrar datos**, Power BI muestra los datos por debajo (o junto a) el objeto visual.
+Un objeto visual de Power BI se crea con datos provenientes de conjuntos de datos subyacentes. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos**, Power BI muestra los datos que están situados debajo de (o junto a) el objeto visual.
 
 
-1. En el servicio Power BI, [abrir un informe](end-user-report-open.md) y seleccione un objeto visual.  
+1. En el servicio Power BI, [abra un informe](end-user-report-open.md) y seleccione un objeto visual.  
 2. Para que se muestren los datos que hay detrás del objeto visual, seleccione los puntos suspensivos (...) y elija **Mostrar datos**.
    
    ![seleccionar Mostrar datos](./media/end-user-show-data/power-bi-explore-show-data-newer.png)

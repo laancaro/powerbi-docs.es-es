@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 04/22/2019
 ms.author: mshenhav
 ms.openlocfilehash: 79ca47f83bb39ab9d6df141b5a26dcb54e00c72c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65101002"
 ---
 # <a name="view-power-bi-reports-optimized-for-your-phone"></a>Ver informes de Power BI optimizados para el teléfono
@@ -24,7 +24,7 @@ Se aplica a:
 |:--- |:--- |
 | iPhone |Teléfonos Android |
 
-Al ver un informe de Power BI en su teléfono, Power BI comprueba si el informe se ha optimizado para teléfonos. Si es así, Power BI abre automáticamente el informe optimizado en la vista vertical.
+Cuando se ve un informe de Power BI en el teléfono, Power BI comprueba si dicho informe se ha optimizado para teléfonos. Si es así, Power BI abre automáticamente el informe optimizado en vista vertical.
 
 ![Informe en modo vertical](./media/mobile-apps-view-phone-report/07-power-bi-phone-report-portrait.png)
 
@@ -38,7 +38,7 @@ Las restantes características de los informes de Power BI funcionan en los info
 * [Informes de teléfonos Android](mobile-reports-in-the-mobile-apps.md).
 
 ## <a name="filter-the-report-page-on-a-phone"></a>Filtrado de la página del informe en un teléfono
-Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea el informe en un teléfono, podrá usar esos filtros. El informe se abre en el teléfono, filtrado según los valores que se está filtrados en el informe en la web. Verá un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.Puede cambiar los filtros en el teléfono.
+Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea el informe en un teléfono, podrá usar esos filtros. El informe se abre en el teléfono, filtrado por los valores que se filtran en el informe en Internet. Verá un mensaje que indica que hay filtros activos en la página. Puede cambiar los filtros en el teléfono.Puede cambiar los filtros en el teléfono.
 
 1. Pulse el icono de filtro ![Icono de filtro en el teléfono](./media/mobile-apps-view-phone-report/power-bi-phone-filter-icon.png) en la parte inferior de la página. 
 2. Use el filtrado básico o avanzado para ver los resultados que le interesan.
@@ -46,7 +46,7 @@ Si un informe optimizado para el teléfono tiene filtros definidos, cuando vea e
     ![Filtro avanzado de informes de teléfono de Power BI](./media/mobile-apps-view-phone-report/power-bi-iphone-advanced-filter-toronto.gif)
 
 ## <a name="cross-highlight-visuals"></a>Objetos visuales de resaltado cruzado
-Los objetos visuales en vertical de resaltado cruzado vista funciona del modo que en el servicio Power BI y en los teléfonos en la vista horizontal: al seleccionar los datos de un objeto visual, se resaltan los datos relacionados en los demás objetos visuales de la página.
+Los objetos visuales de resaltado cruzado en vista vertical funcionan igual que en el servicio Power BI y en los teléfonos en vista horizontal: al seleccionar los datos de un objeto visual, se resaltan los datos relacionados en los demás objetos visuales de la página.
 
 Lea más sobre el [filtrado y resaltado en Power BI](../../power-bi-reports-filters-and-highlighting.md).
 
@@ -56,13 +56,13 @@ En los informes de teléfono cuando se selecciona un objeto visual, el informe d
 Con el objeto visual seleccionado, puede hacer tareas como desplazarse dentro del objeto visual. Para anular la selección de un objeto visual, solo tiene que tocar en cualquier lugar fuera del área visual.
 
 ## <a name="open-visuals-in-focus-mode"></a>Abrir objetos visuales en modo de enfoque
-Informes de teléfono ofrecen también un modo de enfoque: Obtener una vista más grande de una sola visual y explorarlo más fácilmente.
+Los informes de teléfono también ofrecen un modo de enfoque: se obtiene una vista más amplia de un solo objeto visual y se explora con más facilidad.
 
 * En un informe para móviles, pulse los puntos suspensivos ( **...** ) en la esquina superior derecha de un objeto visual > **Ampliar al modo enfocado**.
   
     ![Ampliar al modo enfocado](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
 
-¿Qué en modo de enfoque incluye al lienzo del informe y viceversa. Por ejemplo, si resalta un valor en un objeto visual y luego volver a todo el informe, el informe se filtra para el valor resaltado en el objeto visual.
+Lo que se hace en el modo de enfoque se trasmite al lienzo del informe y viceversa. Por ejemplo, si resalta un valor en un objeto visual y después vuelve al informe completo, este se filtra por el valor resaltado en el objeto visual.
 
 Algunas acciones solo son posibles en el modo de enfoque debido a restricciones de tamaño de pantalla:
 
@@ -74,23 +74,23 @@ Algunas acciones solo son posibles en el modo de enfoque debido a restricciones 
   
     ![Revertir](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
   
-    Revertir está disponible en el nivel de informe, desactive la exploración de todos los objetos visuales, o en el nivel visual, borrar la exploración del objeto visual seleccionado.   
+    Revertir está disponible en el nivel de informe, donde borra la exploración de todos los objetos visuales, o en el nivel de objeto visual, donde quita la exploración del objeto visual seleccionado.   
 
 ## <a name="drill-down-in-a-visual"></a>Exploración en profundidad en un objeto visual
 Si los niveles de jerarquía se definen en un objeto visual, es posible profundizar en la información detallada que se muestran en dicho objeto y, después, realizar una copia de seguridad. Se puede [agregar una exploración en profundidad a un objeto visual](../end-user-drill.md) tanto en el servicio Power BI como en Power BI Desktop.
 
-Hay algunos tipos de exploración en profundidad:
+Hay pocos tipos de exploración en profundidad:
 
 ### <a name="drill-down-on-a-value"></a>Exploración en profundidad de un valor
-1. Pulse largo (tap y hold) en un punto de datos en un objeto visual.
-2. Se mostrará información sobre herramientas y, si se define la jerarquía, el pie de página de información sobre herramientas mostrará exploración en profundidad y la flecha arriba.
-3. Puntee en la flecha hacia abajo para explorar en profundidad
+1. Pulse durante un tiempo (pulse y mantenga) en un punto de datos de un objeto visual.
+2. Aparece la información sobre herramientas y, si la jerarquía está definida, el pie de página de la información sobre herramientas muestra la flecha hacia abajo y hacia arriba para explorar en profundidad.
+3. Pulse en la flecha hacia abajo para explorar en profundidad
 
-    ![Pulse en profundidad](././media/mobile-apps-view-phone-report/report-drill-down.png)
+    ![Pulsado en Explorar en profundidad](././media/mobile-apps-view-phone-report/report-drill-down.png)
     
-4. Puntee en la flecha arriba para rastrear agrupando datos.
+4. Pulse en la flecha hacia arriba para resumir.
 
-### <a name="drill-to-next-level"></a>Obtener detalles del siguiente nivel
+### <a name="drill-to-next-level"></a>Exploración al nivel siguiente
 1. En un informe de un móvil, pulse los puntos suspensivos ( **...** ) en la esquina superior derecha > **Ampliar al modo enfocado**.
    
     ![Ampliar al modo enfocado](././media/mobile-apps-view-phone-report/power-bi-phone-report-focus-mode.png)
@@ -114,20 +114,20 @@ Hay algunos tipos de exploración en profundidad:
     ![Revertir](././media/mobile-apps-view-phone-report/power-bi-phone-report-revert-levels.png)
 
 ## <a name="drill-through-from-a-value"></a>Obtención de detalles de un valor
-Obtención de detalles conecta a los valores en una página del informe, con otras páginas del informe. Al explorar a través de un punto de datos a otra página del informe, los valores de punto de datos se usan para filtrar el drilled a través de la página, o va a estar en el contexto de los datos seleccionados.
-Los autores de informes pueden [definir la obtención de detalles](https://docs.microsoft.com/power-bi/desktop-drillthrough) cuando crea el informe.
+La obtención de detalles conecta valores de una página de informe con otras páginas de informe. Al obtener detalles de un punto de datos a otra página de informe, los valores del punto de datos se usan para filtrar la página cuyos detalles se han obtenido, o está en el contexto de los datos seleccionados.
+Los autores de informes pueden [definir la obtención de detalles](https://docs.microsoft.com/power-bi/desktop-drillthrough) al crear el informe.
 
-1. Pulse largo (tap y hold) en un punto de datos en un objeto visual.
-2. Se mostrará información sobre herramientas y, si se ha definido la obtención de detalles, el pie de página de información sobre herramientas mostrará flecha de obtención de detalles.
-3. Puntee en la flecha de obtención de detalles
+1. Pulse durante un tiempo (pulse y mantenga) en un punto de datos de un objeto visual.
+2. Aparece la información sobre herramientas y, si la obtención de detalles está definida, el pie de página de la información sobre herramientas muestra la flecha de obtención de detalles.
+3. Pulse en la flecha para obtener detalles
 
-    ![Puntee en la obtención de detalles](././media/mobile-apps-view-phone-report/report-drill-through1.png)
+    ![Pulsado en Obtener detalles](././media/mobile-apps-view-phone-report/report-drill-through1.png)
 
-4. Elija qué página del informe para obtener detalles
+4. Seleccione la página de informe cuyos detalles se van a obtener
 
-    ![Elija la página del informe](././media/mobile-apps-view-phone-report/report-drill-through2.png)
+    ![Seleccionar página del informe](././media/mobile-apps-view-phone-report/report-drill-through2.png)
 
-5. Use el botón Atrás, en el encabezado de la aplicación para volver a la página que comenzó.
+5. Use el botón Atrás en el encabezado de la aplicación para volver a la página desde la que ha empezado.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

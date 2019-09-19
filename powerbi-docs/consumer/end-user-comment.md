@@ -9,15 +9,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 04/30/2019
+ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 2796b29ee553ece77846f5edc8af4b2523fd48c6
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: d09ada0d3309a9cb2b93a8cd4fa3d6740e69ba77
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522792"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073549"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adición de comentarios en un panel o informe
 Agregue un comentario personal o empiece una conversación sobre un panel o informe con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *consumidor* de colaborar con otros. 
@@ -25,16 +25,18 @@ Agregue un comentario personal o empiece una conversación sobre un panel o info
 ![vídeo sobre los comentarios](media/end-user-comment/comment.gif)
 
 ## <a name="how-to-use-the-comments-feature"></a>Cómo usar la característica Comentarios
-Se pueden agregar comentarios en un panel completo, en una página de un informe o en objetos visuales concretos del panel o la página en cuestión. Agregue un comentario general o un comentario dirigido a compañeros específicos.  
+Se pueden agregar comentarios a un panel completo, a objetos visuales individuales en un panel, a una página de informe, a un informe paginado y a objetos visuales individuales en una página de informe. Agregue un comentario general o un comentario dirigido a compañeros específicos.  
 
 Al agregar un comentario en un informe, Power BI captura los valores actuales de filtro y segmentación de datos. Esto significa que, al seleccionar un comentario o responder a él, la página o el objeto visual del informe pueden cambiar para mostrar la selección de filtros y la segmentación de datos que estaban activas al agregar el comentario inicialmente.  
 
 ![Vídeo que muestra un informe con filtros](media/end-user-comment/comment-reports-with-filters/comment-reports-with-filters.gif)
 
-¿Por qué esto es importante? Supongamos que un compañero ha aplicado un filtro que revela información interesante que quiere compartir con el equipo. Sin ese filtro seleccionado, es posible que el comentario no tenga sentido. 
+¿Por qué esto es importante? Supongamos que un compañero ha aplicado un filtro que revela información interesante que quiere compartir con el equipo. Sin ese filtro seleccionado, es posible que el comentario no tenga sentido.
+
+Si está usando un informe paginado, solo puede dejar un comentario general sobre el informe.  No se permite dejar comentarios sobre objetos visuales de informes individuales.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adición de un comentario general en un panel o informe
-Los procesos para agregar comentarios en un panel o informe son similares. En este ejemplo, usaremos un panel. 
+Los procesos para agregar comentarios en un panel o informe son similares.  En este ejemplo, usaremos un panel. 
 
 1. Abra un panel de Power BI y seleccione el icono **Comentarios**. Se abre el cuadro de diálogo Comentarios.
 

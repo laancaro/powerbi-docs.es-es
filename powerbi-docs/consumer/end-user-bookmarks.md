@@ -1,5 +1,5 @@
 ---
-title: Información general de los marcadores en los informes del servicio de Power BI
+title: Información general sobre los marcadores en los informes del servicio Power BI
 description: Tema de información general de la documentación acerca de las consultas en lenguaje natural de Preguntas y respuestas de Power BI.
 author: mihart
 manager: kvivek
@@ -12,33 +12,33 @@ ms.date: 05/10/2019
 ms.author: mihart
 LocalizationGroup: Create reports
 ms.openlocfilehash: 55fafb00135908dc4f82151b96ed04d2cf2568da
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608308"
 ---
-# <a name="what-are-bookmarks"></a>¿Cuáles son los marcadores?
-Marcadores capturan la vista configurada actualmente de una página del informe, incluidos los filtros, las segmentaciones de datos y el estado de los objetos visuales. Cuando se selecciona un marcador, Power BI le devuelve a esa vista. Hay dos tipos de marcadores: aquellos cree usted mismo y aquellos creados por el informe *diseñadores*.
+# <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
+Los marcadores capturan la vista configurada actual de una página de informe, incluidos los filtros, las segmentaciones y el estado de los objetos visuales. Al seleccionar un marcador, Power BI lleva de vuelta a esa vista. Hay dos tipos de marcadores: los que crea el usuario y los creados por *diseñadores* de informes.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 
-Hay muchos usos para marcadores. Supongamos que descubre información interesante y desea mantenerlos: crear un marcador para poder regresar más adelante. Debe dejar y desea conservar el trabajo actual, cree un marcador. Incluso puede crear un marcador en la vista predeterminada del informe, por lo que cada vez que se devuelven, que se abre en primer lugar la vista de página del informe. 
+Los marcadores tienen muchos usos. Imagine que descubre algo interesante y quiere conservarlo: cree un marcador para poder volver más adelante. Si tiene que dejar el trabajo actual pero quiere conservarlo, cree un marcador. Incluso puede convertir un marcador en la vista predeterminada del informe para que, cada vez que vuelva, se abra en primer lugar esa vista de la página del informe. 
 
-También puede crear una colección de marcadores, organizarlos en el orden que desee y, posteriormente, recorrer cada marcador en una presentación para resaltar una serie de informaciones que contar una historia.  
+También puede crear una colección de marcadores, organizarlos en el orden que quiera y, posteriormente, usarlos en una presentación para resaltar una serie de informaciones que cuentan una historia.  
 
-![Mostrar panel Marcadores seleccionándolo en la cinta de opciones.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
+![Vista del panel Marcadores al seleccionarlo en la cinta.](media/end-user-bookmarks/power-bi-bookmarks-pane.png)
 
 ## <a name="using-bookmarks"></a>Uso de marcadores
-Para abrir el panel marcadores, seleccione **marcadores** desde la barra de menús. Para volver a la vista original publicada del informe, seleccione **Restablecer valores predeterminados**.
+Para abrir el panel Marcadores, seleccione **Marcadores** en la barra de menús. Para volver a la vista publicada original del informe, seleccione **Restablecer valores predeterminados**.
 
 ### <a name="report-bookmarks"></a>Informar de marcadores
-Si el informe *diseñador* incluye marcadores de informe, encontrará en el **notificar marcadores** encabezado. 
+Si el *diseñador* del informe ha incluido marcadores de informe, los puede encontrar en el encabezado **Informar de marcadores**. 
 
-![Mostrar marcadores de informe.](media/end-user-bookmarks/power-bi-report-bookmark.png)
+![Vista de Informar de marcadores.](media/end-user-bookmarks/power-bi-report-bookmark.png)
 
-Seleccione un marcador para cambiar a esa vista de informe. 
+Seleccione un marcador para ir a esa vista de informe. 
 
-![Vídeo que muestra el informe de marcadores que se selecciona.](media/end-user-bookmarks/power-bi-bookmarks.gif)
+![Vídeo en el que se muestra cómo se selecciona Informar de marcadores.](media/end-user-bookmarks/power-bi-bookmarks.gif)
 
 ### <a name="personal-bookmarks"></a>Marcadores personales
 
@@ -53,15 +53,15 @@ Cuando crea un marcador, los siguientes elementos se guardan con él:
 * Visibilidad (de un objeto, mediante el panel **Selección**)
 * Los modos de enfoque o de **Destacados** de cualquier objeto visible
 
-Configure una página de informe de la forma en que desee que aparezca en el marcador. Una vez que la página del informe y los objetos visuales estén organizados a su gusto, seleccione **Agregar** en el panel **Marcadores** para agregar un marcador. En este ejemplo, hemos agregado algunos filtros de fecha y región. 
+Configure una página de informe de la forma en que desee que aparezca en el marcador. Una vez que la página del informe y los objetos visuales estén organizados a su gusto, seleccione **Agregar** en el panel **Marcadores** para agregar un marcador. En este ejemplo se han agregado algunos filtros para región y fecha. 
 
-![Agregar marcadores Personal.](media/end-user-bookmarks/power-bi-add-personal.png)
+![Incorporación de marcadores personales.](media/end-user-bookmarks/power-bi-add-personal.png)
 
-**Power BI** crea un marcador y le da un nombre genérico o un nombre que especifique. También puede *cambiar el nombre de*, *eliminar*, o *actualizar* un marcador, seleccione el botón de puntos suspensivos situado junto al nombre del marcador y luego seleccione una acción en el menú que aparece.
+**Power BI** crea un marcador y le da un nombre genérico o el que especifique el usuario. Puede *cambiar de nombre*, *eliminar* o *actualizar* un marcador si selecciona los puntos suspensivos junto al nombre del marcador y luego selecciona una acción en el menú que aparece.
 
-Una vez que tenga un marcador, puede mostrarlo simplemente seleccionando el marcador en el **marcadores** panel. 
+Una vez que tiene un marcador, puede mostrarlo con solo seleccionarlo en el panel **Marcadores**. 
 
-![Agregar marcadores Personal.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
+![Incorporación de marcadores personales.](media/end-user-bookmarks/power-bi-personal-bookmark.png)
 
 
 <!--
@@ -77,7 +77,7 @@ The order of your bookmarks can become important when you use the **View** featu
 -->
 
 ## <a name="bookmarks-as-a-slide-show"></a>Marcadores como una presentación con diapositivas
-Para presentar o ver los marcadores, en orden, seleccione **vista** desde el **marcadores** panel para empezar una presentación.
+Para presentar o ver marcadores en orden, seleccione **Vista** en el panel **Marcadores** para iniciar una presentación de diapositivas.
 
 Cuando está en el modo **Vista**, hay algunas características a tener en cuenta:
 
@@ -85,7 +85,7 @@ Cuando está en el modo **Vista**, hay algunas características a tener en cuent
 2. La barra de título del marcador tiene flechas que le permiten moverse al marcador siguiente o al anterior.
 3. Puede salir del modo **Vista** seleccionando **Salir** en el panel **Marcadores** o la **X** que se encuentra en la barra de título del marcador. 
 
-![Presentación de marcador](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
+![Presentación de marcadores](media/end-user-bookmarks/power-bi-bookmark-slideshow.png)
 
 Cuando está en modo **Vista**, puede cerrar el panel **Marcadores** (haciendo clic en la X en ese panel) para proporcionar más espacio para la presentación. Siempre que esté en el modo **Vista**, todos los objetos visuales serán interactivos y estarán disponibles para realizar el resaltado cruzado, al igual que lo estarían en caso contrario si interactúa con ellos. 
 
@@ -155,7 +155,7 @@ En esta versión de los **marcadores** hay algunas limitaciones y consideracione
 * La mayoría de objetos visuales personalizados deben funcionar bien con marcadores. Si experimenta problemas con marcadores y un objeto visual personalizado, póngase en contacto con el creador de ese objeto visual personalizado y pídale que haga los marcadores compatibles con su objeto visual. 
 * Si agrega un objeto visual en una página de informe después de crear un marcador, se mostrará el objeto visual en su estado predeterminado. Esto también significa que si se introduce una segmentación de datos en una página en la que previamente creó marcadores, la segmentación de datos se comportará según su estado predeterminado.
 * Si se desplaza por los objetos visuales después de haber creado un marcador se reflejará en este. 
-* Por lo general, los marcadores no se verán afectados si el informe *diseñador* actualiza o vuelve a publicar el informe. Sin embargo, si el diseñador realiza cambios significativos en el informe, como la eliminación de los campos que usa un marcador y, a continuación, recibirá un mensaje de error la próxima vez que intenta abrir ese marcador. 
+* Por lo general, los marcadores no se ven afectados si el *diseñador* del informe lo actualiza o lo vuelve a publicar. Pero si realiza cambios importantes en el informe, como quitar campos usados por un marcador, se recibe un mensaje de error la siguiente vez que se intenta abrir ese marcador. 
 
 <!--
 ## Next steps

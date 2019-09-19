@@ -13,10 +13,10 @@ ms.date: 12/06/2018
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "61054918"
 ---
 # <a name="recent-content-in-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
@@ -37,7 +37,7 @@ Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo*
 
 ![Visualización de todo el contenido reciente](./media/end-user-recent/power-bi-recent-list.png)
 
-Desde aquí puede interactuar con el contenido como lo haría en cada [ **paneles**](end-user-dashboards.md), [ **informes**](end-user-reports.md), y  **Libros** pestañas y en las aplicaciones <!--[**Apps**](end-user-apps.md)--> pantalla.
+Desde aquí puede interactuar con el contenido como haría en las pestañas individuales [**Paneles**](end-user-dashboards.md), [**Informes**](end-user-reports.md) y **Libros** y en la pantalla de las aplicaciones <!--[**Apps**](end-user-apps.md)--> .
 
 ## <a name="next-steps"></a>Pasos siguientes
 <!--[Power BI service Apps](end-user-apps.md)-->

@@ -13,36 +13,36 @@ ms.date: 05/28/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
 ms.openlocfilehash: c6da58ff5902a95c0e032cd4ed30a6ef0cae1e55
-ms.sourcegitcommit: 8bf2419b7cb4bf95fc975d07a329b78db5b19f81
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "66374994"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
-Al marcar contenido un *favorito*, podrá acceder a él rápidamente desde el **favoritos** lista de contenido y de **Power BI Home**  >   **Favoritos y frecuentes**.  Los favoritos son normalmente contenidos que visitan con más frecuencia y se identifican con una estrella amarilla.
+Cuando se convierte contenido en *favorito*, se puede acceder a él rápidamente desde la lista de contenido **Favoritos** y desde **Inicio de Power BI** > **Favoritos y frecuentes**.  Los favoritos suelen ser contenido que se visita con más frecuencia y se identifican con una estrella amarilla.
 
    ![Icono de favorito](./media/end-user-favorite/power-bi-favorite-nav.png)
 
    ![Icono de favorito](./media/end-user-favorite/power-bi-home.png)
 
-También puede seleccionar un solo panel como un [panel destacado](end-user-featured.md) en el servicio Power BI.
+También puede seleccionar un solo panel como [panel destacado](end-user-featured.md) en el servicio Power BI.
 
 ## <a name="add-a-dashboard-or-report-as-a-favorite"></a>Agregar un panel o informe como *favorito*
 
 1. Abra un panel o informe que use con frecuencia. El contenido que se ha compartido con usted también puede marcarse como *favorito*.
 
-2. En la cinta de opciones superior del servicio Power BI, seleccione **favorito** o la estrella ![icono de estrella](./media/end-user-favorite/power-bi-favorite-icon.png) icono.
+2. En la cinta superior del servicio Power BI, seleccione **Favorito** o el icono de estrella ![icono de estrella](./media/end-user-favorite/power-bi-favorite-icon.png).
    
    ![Icono de favorito](./media/end-user-favorite/powerbi-dashboard-favorite.png)
    
-   Puede marcar también como favorito un panel o informe desde cualquier lugar, verá el icono de estrella, como principal, recientes, las aplicaciones y compartido conmigo. 
+   También puede convertir en favorito un panel o un informe desde cualquier lugar en el que vea el icono de estrella, como Inicio, Recientes, Aplicaciones y Compartido conmigo. 
    
    ![Pestaña Paneles con estrella amarilla](./media/end-user-favorite/power-bi-recent.png)
 
 ## <a name="add-an-app-as-a-favorite"></a>Agregar una aplicación como *favorita*
 
-1. En el panel de navegación, seleccione **aplicaciones**.
+1. En el panel de navegación, seleccione **Aplicaciones**.
 
    ![panel](./media/end-user-favorite/power-bi-favorite-apps.png)
 
@@ -51,10 +51,10 @@ También puede seleccionar un solo panel como un [panel destacado](end-user-feat
    ![Puntero sobre una aplicación](./media/end-user-favorite/power-bi-favorite-app.png)
 
 ## <a name="working-with-favorites"></a>Uso de *Favoritos*
-1. Para obtener acceso a sus favoritos, seleccione la flecha flotante situada a la derecha del **favoritos**.  Ahí puede seleccionar un elemento favorito para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **ver todo** para abrir el contenido de la lista Favoritos (vea #2, a continuación). 
+1. Para acceder a los favoritos, seleccione la flecha de control flotante situada a la derecha de **Favoritos**.  Ahí puede seleccionar un elemento favorito para abrirlo. Solo se enumeran cinco favoritos (en orden alfabético). Si tiene más de cinco, seleccione **Ver todo** para abrir la lista de contenido Favoritos (vea el punto 2 a continuación). 
    
    ![Ventana flotante de favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Para ver **todas** el contenido que se ha agregado como favoritos, en el panel de navegación, seleccione **favoritos** o los favoritos ![icono de estrella](./media/end-user-favorite/power-bi-favorites-icon.png) icono.  
+2. Para ver **todo** el contenido que ha agregado como favorito, seleccione **Favoritos** en el panel de navegación o el icono Favoritos ![icono de estrella](./media/end-user-favorite/power-bi-favorites-icon.png).  
    
     ![Ventana Agregar a Favoritos](./media/end-user-favorite/power-bi-favorites-screen.png)
    
@@ -73,7 +73,7 @@ También puede seleccionar un solo panel como un [panel destacado](end-user-feat
 > 
 > 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
-En este momento, puede favoritos una aplicación y esta automáticamente favoritos de todos los informes y paneles para esa aplicación. No es posible que aplicaciones individuales favoritos informes o paneles. 
+De momento, puede convertir una aplicación en favorita y esto convierte automáticamente en favoritos a todos los informes y paneles de esa aplicación. No es posible convertir en favoritos a informes o paneles de aplicación individuales. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)

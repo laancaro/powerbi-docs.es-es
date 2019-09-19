@@ -13,10 +13,10 @@ ms.date: 05/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608689"
 ---
 # <a name="featured-dashboards-in-power-bi-service"></a>Paneles destacados en el servicio Power BI
@@ -25,11 +25,11 @@ Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros
 
 ![Icono de Establecer como destacado](./media/end-user-featured/power-bi-dropdown.png)
 
-Al seleccionar un panel como *destacados*, cada vez que abra el servicio Power BI, se abrirá mostrando ese panel.  
+Al seleccionar un panel como *destacado*, cada vez que se abre el servicio Power BI, lo hace mostrando ese panel.  
 
 También puede seleccionar algunos paneles para establecerlos como *favoritos*. Consulte [Paneles favoritos](end-user-favorite.md).
 
-Si aún no ha configurado un panel destacado, Power BI se abrirá en el último panel que haya usado o a Power BI página principal.  
+Si aún no ha establecido un panel destacado, Power BI se abre en el último panel usado o en Inicio de Power BI.  
 
 ### <a name="to-set-a-dashboard-as-featured"></a>Para establecer un panel como **destacado**
 Observe cómo Amanda crea un panel destacado y, luego, siga las instrucciones que aparecen debajo del vídeo para intentarlo.
@@ -39,7 +39,7 @@ Observe cómo Amanda crea un panel destacado y, luego, siga las instrucciones qu
 
 
 1. Abra el panel que desee establecer como *destacado*. 
-2. En la barra de menús superior, seleccione el botón de puntos suspensivos (...) y elija **establecer como destacado**.  
+2. En la barra de menús superior, seleccione los puntos suspensivos (...) y luego **Establecer como destacado**.  
    
     ![Icono de Establecer como destacado](./media/end-user-featured/power-bi-dropdown.png)
 3. Confirme la selección.
@@ -60,9 +60,9 @@ Por supuesto, si cambia de opinión más adelante, puede establecer un nuevo pan
 Si decide que no desea que haya ningún panel designado como destacado, esta es la forma de hacer que un panel deje de serlo.
 
 1. Abra el panel destacado actualmente.
-2. En la barra de menús superior, seleccione el botón de puntos suspensivos (...) y elija **deshabilitar destacado**.
+2. En la barra de menús superior, seleccione los puntos suspensivos (...) y luego **Deshabilitar destacado**.
 
-    ![Deshabilitar Panel destacado seleccionado](./media/end-user-featured/power-bi-unfeature-newer.png)
+    ![Panel Deshabilitar destacado seleccionado](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>Pasos siguientes
 [Paneles favoritos](end-user-favorite.md)

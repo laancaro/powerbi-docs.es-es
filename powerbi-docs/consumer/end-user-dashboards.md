@@ -12,10 +12,10 @@ ms.date: 05/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
+ms.lasthandoff: 09/16/2019
 ms.locfileid: "65608333"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panel para los consumidores del servicio Power BI
@@ -24,7 +24,7 @@ Un ***panel*** de Power BI tiene una sola página, a menudo denominada lienzo, q
 
 ![panel](media/end-user-dashboards/power-bi-dashboard2.png)
 
-Las visualizaciones que se ven en el panel se denominan *iconos* y son *anclado* al panel de informe *diseñadores*. En la mayoría de los casos, al seleccionar un icono le lleva a la página del informe donde se creó la visualización. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
+Las visualizaciones que se ven en el panel se denominan *iconos* y los *diseñadores* de informes se encargan de *anclarlas* al panel. En la mayoría de los casos, al seleccionar un icono, accede a la página del informe donde se ha creado la visualización. Si no está familiarizado con Power BI, puede obtener una buena base leyendo [Conceptos básicos de Power BI](end-user-basic-concepts.md).
 
 > [!NOTE]
 > Los paneles se pueden [ver y compartir en dispositivos móviles](mobile/mobile-apps-view-dashboard.md).
@@ -39,7 +39,7 @@ Las visualizaciones de un panel proceden de informes y cada informe se basa en u
 ## <a name="advantages-of-dashboards"></a>Ventajas de los paneles
 Los paneles son una magnífica manera de supervisar su empresa, buscar respuestas y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios y de un informe subyacente o de varios. En un panel se pueden combinar datos locales y en la nube, de forma que se proporciona una vista consolidada, con independencia de dónde residan los datos.
 
-Un panel no es simplemente una bonita imagen; es interactivo y los iconos se actualizan según los cambios de datos subyacente.
+Un panel no es simplemente una imagen bonita; es interactivo y los iconos se actualizan a medida que cambian los datos subyacentes.
 
 ## <a name="dashboards-versus-reports-for-power-bi-consumers"></a>Paneles frente a informes para ***consumidores*** de Power BI
 Los informes suelen confundirse con paneles, ya que son igualmente lienzos con visualizaciones. Sin embargo, hay algunas diferencias importantes desde el punto de vista de los *consumidores* de Power BI.
