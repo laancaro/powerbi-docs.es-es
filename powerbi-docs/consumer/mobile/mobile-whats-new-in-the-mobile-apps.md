@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: 5b0921689a923b5c787a5e4208fe35a863372878
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 5697fd79551d238f095696dcc940afb8ea330d11
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030160"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841368"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -25,7 +25,15 @@ Para obtener información sobre novedades, vea:
 
 ## <a name="august-2019"></a>Agosto de 2019
 
-### <a name="secured-access-with-azure-active-directory-ad-application-proxy"></a>Acceso seguro con Azure Active Directory (AD) Application Proxy
+### <a name="introducting-power-bi-mobile-new-look-preview-ios-and-android"></a>Introducción a la nueva apariencia de Power BI Mobile (versión preliminar) (iOS y Android)
+
+La aplicación se ha actualizado y se han incorporado nuevas experiencias. Así, se ha agregado una página principal que proporciona acceso rápido al contenido de uso más común y nuevas barras de navegación que le brindan una manera sencilla de navegar por la aplicación. Con las experiencias nuevas y actualizadas, ahora es más rápido y fácil encontrar lo que necesita, cuando lo necesita.
+Dado que la nueva apariencia está en versión preliminar, deberá activarla para disfrutar de ella.
+Lea más sobre la [nueva apariencia de Power BI Mobile](https://powerbi.microsoft.com/blog/introducing-power-bi-mobile-apps-new-look-preview/).
+
+![Nueva apariencia de Power BI Mobile](./media/mobile-whats-new-in-the-mobile-apps/power-bi-mobile-new-look2.gif)
+
+### <a name="secured-access-with-azure-active-directory-ad-application-proxy-ios-and-android"></a>Acceso seguro con el proxy de aplicación de Azure Active Directory (AD) (iOS y Android)
 
 Hemos colaborado con el equipo de Azure Active Directory para integrar aplicaciones móviles de Power BI con Azure Active Directory (AAD) Application Proxy. Con esta configuración puede conectarse al servidor de informes hospedado dentro de los límites de la empresa desde la aplicación Power BI Mobile, sin necesidad de establecer una configuración local compleja. Obtenga más información sobre la [integración de Power BI Mobile y Azure Active Directory Application Proxy](https://powerbi.microsoft.com/blog/access-on-prem-report-server-from-your-power-bi-mobile-app-with-azure-active-directory-application-proxy/). Aprenda a [configurar Azure Active Directory (AAD) Application Proxy y Power BI](https://docs.microsoft.com/en-us/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi).
 
@@ -36,7 +44,7 @@ Hemos colaborado con el equipo de Azure Active Directory para integrar aplicacio
 Ahora se admite la información en pantalla para informes al visualizar los informes en la aplicación móvil. Simplemente mantenga presionado un objeto visual que tenga una información sobre herramientas de informe vinculada para que se muestre.  
 
 ![Información sobre herramientas del lienzo del informe](./media/mobile-whats-new-in-the-mobile-apps/report-canvas-tooltip.png)
-
+ 
 > [!NOTE]
 > La información sobre herramientas de informes se admite para dispositivos con un tamaño superior a 640 píxeles y 320 de ventanilla. Los dispositivos más pequeños usan la información sobre herramientas predeterminada.
 

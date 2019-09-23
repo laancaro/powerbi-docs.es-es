@@ -8,14 +8,14 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/07/2019
+ms.date: 09/06/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 00574228fbfa8954b8cfb9cb026a9230eb1bd73e
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 31310900b91924e639ce10a13aef3da996598502
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816548"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841745"
 ---
 # <a name="ways-to-share-your-work-in-power-bi"></a>Formas de compartir el trabajo en Power BI
 
@@ -31,7 +31,7 @@ Ha creado paneles e informes, quizá incluso haya colaborado en ellos con sus co
 
 Con independencia de la opción que se elija, para compartir el contenido se necesita una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad Premium](service-premium-what-is.md). Los requisitos de licencia para los compañeros que ven su contenido varían en función de la opción que elija. En las secciones siguientes puede encontrar más detalles. 
 
-![Aplicaciones en el servicio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-home-blog.png)
+![Aplicaciones en el servicio Power BI](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-new-look.png)
 
 *Aplicaciones en el servicio Power BI*
 
@@ -41,7 +41,7 @@ Cuando los equipos trabajan juntos, necesitan tener acceso a los mismos document
 
 Las áreas de trabajo proporcionan roles que determinan los permisos que tienen sus compañeros de trabajo. Puede usar esos roles para determinar quién puede administrar toda el área de trabajo, editar su contenido y distribuirlo.
 
-![Áreas de trabajo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-apps-workspaces.png)
+![Áreas de trabajo](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-workspace.png)
 
 Naturalmente, podría colocar contenido en Mi área de trabajo y compartirlo desde allí. Pero las áreas de trabajo son mejores para la colaboración que Mi área de trabajo, ya que permiten compartir la propiedad del contenido. Usted y todo su equipo pueden realizar actualizaciones o asignar acceso a otros usuarios fácilmente. Es mejor que Mi área de trabajo lo usen usuarios para contenido personal o de uso único.
 
@@ -55,21 +55,23 @@ Power BI tiene una nueva experiencia de áreas de trabajo. Consulte [Creación 
 
 ## <a name="distribute-insights-in-an-app"></a>Distribución de información en una aplicación
 
-Supongamos que desea distribuir el panel a un público amplio en la organización. Junto con sus compañeros ha creado un *área de trabajo* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora ya puede seleccionar los paneles e informes que desee y publicarlos como una aplicación &#151; para un grupo para toda la organización.
+Supongamos que desea distribuir el panel a un público amplio en la organización. Junto con sus compañeros ha creado un *área de trabajo* y luego ha creado y refinado en ella paneles, informes y conjuntos de datos. Ahora seleccionará los paneles e informes que desee y los publicará como una aplicación, para un grupo o para toda la organización.
 
-![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-app-publish-600.png)
+![Icono de publicar aplicación](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-publish-app.png)
 
-Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md).
+Es muy fácil buscar e instalar aplicaciones en el servicio Power BI ([https://app.powerbi.com](https://app.powerbi.com)). Puede enviar a los usuarios de la empresa un vínculo directo a la aplicación, o bien pueden buscarla en AppSource. Si el administrador de Power BI le concede permisos, puede instalar una aplicación automáticamente en las cuentas de Power BI de sus compañeros de trabajo. Obtenga más información sobre cómo [publicar aplicaciones](service-create-distribute-apps.md).
 
 Después de instalar una aplicación, pueden verla en sus exploradores o dispositivos móviles.
 
 Para que los usuarios vean la aplicación, deben tener también una licencia de Power BI Pro o la aplicación debe estar almacenada en una capacidad de Power BI Premium. Para más información, lea [What is Power BI Premium?](service-premium-what-is.md) (¿Qué es Power BI Premium?)
 
-También puede publicar aplicaciones para aquellos que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no pueden compartirlo con otros usuarios. Ahora puede crear *aplicaciones de plantilla* e implementarlas en cualquier cliente de Power BI.
+También puede publicar aplicaciones para personas que no pertenecen a su organización. Pueden ver el contenido de la aplicación e interactuar con él, pero no pueden compartirlo con otros usuarios. Ahora puede crear *aplicaciones de plantilla* e implementarlas en cualquier cliente de Power BI.
 
 ## <a name="share-a-dataset"></a>Compartir un conjunto de datos
 
 Siendo realistas, algunas personas están más especializadas en la creación de modelos de datos de alta calidad y bien diseñados en sus informes. Tal vez sea usted esa persona. Toda la organización puede beneficiarse del uso de dichos modelos de datos bien diseñados. Los *conjuntos de datos compartidos* cumplen ese rol. Cuando se crea un informe con un modelo de datos que debería usar todo el mundo, puede guardar dicho informe en el servicio Power BI y dar permiso para usarlo a las personas adecuadas. A continuación, estas personas pueden crear sus informes a partir del conjunto de datos. De este modo, todos los usuarios basan sus informes en los mismos datos y ven la misma "versión de la verdad".
+
+![Búsqueda de un conjunto de datos compartido](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-shared-datasets.png)
 
 Más información sobre la [creación y uso de conjuntos de datos compartidos](service-datasets-across-workspaces.md).
 
@@ -77,9 +79,9 @@ Más información sobre la [creación y uso de conjuntos de datos compartidos](s
 
 Supongamos que ha finalizado un panel y un informe en su propia área de trabajo o en un área de trabajo y quiere que otras personas tengan acceso a ellos. Una manera de hacerlo es *compartirlo*. 
 
-![Icono de uso compartido](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-in-situ.png)
+![Uso compartido de un informe](media/service-how-to-collaborate-distribute-dashboards-reports/power-bi-share-report.png)
 
-Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](service-premium-what-is.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el panel y en los informes, a menos que se aplique la seguridad de nivel de fila (RLS) al conjunto de datos subyacente. Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
+Para compartir el contenido necesitará una licencia de Power BI Pro (y aquellos con quienes lo comparta, también) o que el contenido esté en un área de trabajo de una [capacidad Premium](service-premium-what-is.md). Cuando comparte un panel o un informe con otras personas, los destinatarios pueden verlo e interactuar con él, pero no pueden modificarlo. Ellos ven los mismos datos que usted ve en el panel y en los informes, a menos que se aplique la seguridad de nivel de fila (RLS) al conjunto de datos subyacente. Los compañeros con los que los comparte pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. 
 
 También puede compartir con usuarios que no pertenezcan a su organización. Pueden ver el panel o el informe e interactuar con él, pero no pueden compartirlo. 
 

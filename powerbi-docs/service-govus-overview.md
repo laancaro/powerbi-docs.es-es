@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/26/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 531cb34379c984a26e983db7acfc9b4deebf68b9
-ms.sourcegitcommit: 0332efe8f83cb55a9b8ea011db7c99e9b4568118
+ms.openlocfilehash: d491ca460d8393e9da308c826e69aad454d0e766
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/27/2019
-ms.locfileid: "68590435"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841636"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -48,7 +48,7 @@ Azure se distribuye entre varias nubes. De forma predeterminada, se permite a lo
 * USGov Texas
 * USGov Arizona
 
-En la nube pública, hay disponibles espacios de IP. Para la nube de administraciones públicas, descargue y vea la [Documentación del servicio Azure Government](https://www.microsoft.com/download/details.aspx?id=57063) para obtener la información más reciente.
+En la nube pública, hay disponibles espacios de IP. En el caso de la nube de administración pública, descargue y vea la [Documentación del servicio Azure Government](https://www.microsoft.com/download/details.aspx?id=57063) para conocer la información más reciente.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitaciones del servicio Power BI para la Administración Pública de Estados Unidos
 Algunas de las características que están disponibles en la versión comercial del **servicio Power BI** *no* están disponibles en el **servicio Power BI** para clientes de la Administración Pública de Estados Unidos. El equipo de Power BI está trabajando activamente para que estas características estén disponibles para los clientes de la Administración Pública de Estados Unidos y actualizará este artículo en cuanto estén disponibles.
@@ -85,13 +85,13 @@ Las siguientes preguntas y respuestas se proporcionan como ayuda para que obteng
 
 **Respuesta:** El registro (a menudo denominado *incorporación*) puede diferir en función de su licencia existente y de la suscripción. Consulte el artículo [Registro en Power BI para la Administración Pública de Estados Unidos](service-govus-signup.md) para obtener más información.
 
-**Pregunta:** ¿La dirección URL para conectarse a **Power BI** para la Administración Pública de Estados Unidos y la dirección URL de la versión comercial de **Power BI** son diferentes?
+**Pregunta:** ¿La dirección URL para conectarse a **Power BI** para la Administración Pública de Estados Unidos y la dirección URL de la versión comercial de **Power BI** son diferentes? ¿Hay una dirección URL diferente para los clientes de Government Community Cloud High (GCC High)?
 
 **Respuesta:** Sí, las direcciones URL son diferentes. En la tabla siguiente se muestra cada dirección URL:
 
-| Dirección URL de la versión comercial | Dirección URL de la versión de la Administración Pública de Estados Unidos |
-| --- | --- |
-| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) |
+| Dirección URL de la versión comercial | Dirección URL de la versión de la Administración Pública de Estados Unidos | Dirección URL del gobierno de EE. UU. para GCC High |
+| --- | --- | --- |
+| https://app.powerbi.com/ |[https://app.powerbigov.us](https://app.powerbigov.us) | [https://app.high.powerbigov.us](https://app.high.powerbigov.us) |
 
 **Pregunta:** Mi cuenta se aprovisiona en más de una nube nacional. Al usar **Power BI Desktop**, ¿cómo puedo seleccionar la nube a la que me quiero conectar?
 

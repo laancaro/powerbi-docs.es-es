@@ -903,6 +903,8 @@
       items:
         - name: Adquisición de Power BI Premium
           href: service-admin-premium-purchase.md
+        - name: Configuración y administración de capacidades
+          href: service-admin-premium-manage.md
         - name: Configuración de las cargas de trabajo
           href: service-admin-premium-workloads.md
         - name: Supervisión de capacidades con la aplicación

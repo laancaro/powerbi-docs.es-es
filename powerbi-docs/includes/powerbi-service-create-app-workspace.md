@@ -5,19 +5,19 @@ services: powerbi
 author: maggiesMSFT
 ms.service: powerbi
 ms.topic: include
-ms.date: 04/04/2019
+ms.date: 09/10/2019
 ms.author: maggies
 ms.custom: include file
-ms.openlocfilehash: bbd1f47b2d798e662f84f009b3260a11d39cb23d
-ms.sourcegitcommit: e67bacbfc5638ee97e3d2e0e7f5bd2d9aac78f9c
+ms.openlocfilehash: 1e64237490e45cfcf9a9a0102f3e03ecab138ce2
+ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "67534728"
+ms.lasthandoff: 09/11/2019
+ms.locfileid: "70903940"
 ---
-1. Comience por crear el área de trabajo. Seleccione **Áreas de trabajo** > **Crear área de trabajo de la aplicación**. 
+1. Comience por crear el área de trabajo. Seleccione **Áreas de trabajo** > **Crear un área de trabajo**. 
    
-     ![Crear área de trabajo de la aplicación](media/powerbi-service-create-app-workspace/power-bi-create-app-workspace.png)
+     ![Crear área de trabajo](media/powerbi-service-create-app-workspace/power-bi-workspace-create.png)
    
     Aquí colocará el contenido en el que está colaborando con sus compañeros.
 
@@ -41,7 +41,7 @@ ms.locfileid: "67534728"
    
      ![Establecer edición o solo lectura](media/powerbi-service-create-app-workspace/power-bi-apps-create-workspace-members-edit.png)
    
-     Solo debe agregar personas al área de trabajo de aplicación para que puedan modificar el contenido. Si solo van a ver el contenido, no las agregue al área de trabajo. Puede incluirlas cuando publique la aplicación.
+     Agregue solo personas al área de trabajo para que puedan modificar el contenido. Si solo van a ver el contenido, no las agregue al área de trabajo. Puede incluirlas cuando publique la aplicación.
 
 5. Agregue las direcciones de correo electrónico de las personas que desea que tengan acceso al área de trabajo y seleccione **Agregar**. No se pueden agregar alias de grupo, solo individuales.
 
@@ -55,5 +55,5 @@ ms.locfileid: "67534728"
 
 Power BI crea el área de trabajo y la abre. Aparece en la lista de áreas de trabajo de las que es miembro. Dado que es un administrador, puede seleccionar los puntos suspensivos (...) para volver atrás y realizar cambios, agregar nuevos miembros o cambiar sus permisos.
 
-![Editar área de trabajo](media/powerbi-service-create-app-workspace/power-bi-apps-edit-workspace-ellipsis.png)
+![Editar área de trabajo](media/powerbi-service-create-app-workspace/power-bi-workspace-old-settings.png)
 

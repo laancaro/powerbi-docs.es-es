@@ -8,13 +8,13 @@ ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
-ms.date: 08/29/2019
-ms.openlocfilehash: bda35bfb4690d8109f7bd611e3d319278d235f33
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.date: 09/10/2019
+ms.openlocfilehash: e2a325a8a59b35ad1fcd477fd2d0891b3591ee88
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70302667"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877836"
 ---
 # <a name="url-parameters-in-paginated-reports-in-power-bi"></a>Parámetros de dirección URL en informes paginados en Power BI
 
@@ -68,7 +68,8 @@ Puede usar los siguientes parámetros como parte de una URL para configurar la a
 
 ### <a name="report-commands-rdl"></a>Comandos de informe (`rdl:`) 
 
-**Formato de exportación** Especifica el formato en el que se va a representar y exportar un informe. Valores disponibles: 
+**Formato de exportación** Especifica el formato en el que se va a representar y exportar un informe. Valores disponibles:
+ 
 - PPTX (PowerPoint)
 - MHTML 
 - IMAGEN 
@@ -77,6 +78,79 @@ Puede usar los siguientes parámetros como parte de una URL para configurar la a
 - CSV 
 - PDF 
 - XML 
+
+**Información del dispositivo**: puede especificar parámetros de salida adicionales para los siguientes formatos de exportación. 
+
+PDF:
+
+- rdl:AccessiblePDF=true/false
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:HumanReadablePDF=true/false
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+    - rdl:StartPage=integer
+    
+CSV:
+
+- rdl:Encoding=string
+- rdl:ExcelMode=true/false
+- rdl:FieldDelimiter=string
+- rdl:FileExtension=string
+- rdl:NoHeader=true/false
+- rdl:Qualifier=string
+- rdl:RecordDelimiter=string
+- rdl:SuppressLineBreaks=true/false
+    - rdl:UseFormattedValues=true/false
+    
+WORDOPENXML (WORD):
+
+- rdl:AutoFit=string -> True/False/Never/Default
+- rdl:ExpandToggles=true/false
+- rdl:FixedPageWidth=true/false
+- rdl:OmitHyperlinks=true/false
+- rdl:OmitDrillthroughs=true/false
+
+EXCELOPENXML (EXCEL):
+
+- rdl:OmitDocumentMap=true/false
+- rdl:OmitFormulas=true/false
+    - rdl:SimplePageHeaders=true/false
+    
+PPTX (PowerPoint):
+ 
+- rdl:Columns=integer
+- rdl:ColumnSpacing=decimal(in)
+- rdl:DpiX=integer
+- rdl:DpiY=integer
+- rdl:EndPage=integer
+- rdl:MarginBottom=decimal(in)
+- rdl:MarginLeft=decimal(in)
+- rdl:MarginRight=decimal(in)
+- rdl:MarginTop=decimal(in)
+- rdl:PageHeight=decimal(in)
+- rdl:PageWidth=decimal(in)
+- rdl:StartPage=integer
+    - rdl:UseReportPageSize=true/false
+
+XML:
+
+- rdl:XSLT=string
+- rdl:MIMEType=string
+- rdl:UseFormattedValues=true/false
+- rdl:Indented=true/false
+- rdl:OmitNamespace=true/false
+- rdl:OmitSchema=true/false
+- rdl:Encoding=string
+- rdl:FileExtension=string
+- rdl:Schema=true/false
 
 ## <a name="next-steps"></a>Pasos siguientes
 

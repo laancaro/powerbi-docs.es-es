@@ -7,23 +7,27 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/24/2019
+ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: c13398ff08722c54a9f0c373a1c103e4d684c9bb
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391331"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903726"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
 
-Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser alguien que *consume* o usa informes.
+Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser alguien que *consume* o usa informes. Este artículo es para *consumidores*.
 
-![Captura de pantalla de la página de un informe.](./media/end-user-reports/power-bi-reports.png)
+![Captura de pantalla de la página de un informe.](./media/end-user-reports/power-bi-report.png)
 
-Este informe tiene seis páginas (o pestañas) y actualmente está viendo la página **Opinión**. En esta página hay cinco objetos visuales diferentes y un título de página. En el panel *Filtros* se muestra un filtro aplicado a todas las páginas del informe. Para contraer el panel Filtros, seleccione la flecha ( **>** ).
+A. Este informe tiene seis páginas (o pestañas) y actualmente está viendo la página **Opinión**.    
+B. En esta página hay cinco objetos visuales diferentes y un título de página.    
+C. En el panel *Filtros* se muestra un filtro aplicado a todas las páginas del informe. Para contraer el panel Filtros, seleccione la flecha ( **>** ).    
+D. En el banner de Power BI se muestra el nombre del informe y la fecha de la última actualización. Seleccione la flecha para abrir un menú que muestre también el nombre del propietario del informe.    
+E. La barra de acciones contiene las acciones que puede realizar en este informe.  Por ejemplo, puede agregar un comentario, ver un marcador o exportar datos del informe.  Seleccione los puntos suspensivos (...) para mostrar una lista de funciones de informe adicionales.    
 
 Si no está familiarizado con Power BI, puede obtener una buena base si lee [Conceptos básicos para consumidores de Power BI](end-user-basic-concepts.md). Los informes se pueden ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [Exploración de informes en las aplicaciones móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 
@@ -68,9 +72,9 @@ En función de su rol, es posible que sea un *diseñador*, alguien que crea info
 O bien, es posible que sea un *consumidor*, alguien que recibe los informes de otras personas. Querrá obtener información sobre cómo comprender los informes e interactuar con ellos. Si es un *consumidor* de informes, estos vínculos son para usted:
 
 * Comience con un [paseo por el servicio Power BI](end-user-basic-concepts.md) para saber dónde se encuentran los informes y las herramientas de informes.
-* Aprenda a [abrir un informe](end-user-report-open.md) y manejar toda la interacción disponible en [Vista de lectura](end-user-reading-view.md).
+* Aprenda a [abrir un informe](end-user-report-open.md) y conozca todas las [interacciones disponibles para los consumidores](end-user-reading-view.md).
 * Familiarícese con los informes viendo uno de nuestros [ejemplos](../sample-tutorial-connect-to-the-samples.md).  
-* Para ver qué conjunto de datos está usando el informe y qué paneles tienen iconos anclados desde el informe, consulte [Visualización del contenido relacionado en el servicio Power BI](end-user-related.md).
+* Para ver qué conjunto de datos usa el informe y qué paneles muestran objetos visuales del informe (*marcas*), consulte [Visualización del contenido relacionado en el servicio Power BI](end-user-related.md).
 
 > [!TIP]
 > Si no encuentra lo que está buscando aquí, use la tabla de contenido de la izquierda para explorar todos los artículos sobre *informes*.

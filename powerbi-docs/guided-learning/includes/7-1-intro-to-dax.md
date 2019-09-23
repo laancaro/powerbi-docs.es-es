@@ -1,14 +1,14 @@
 ---
-ms.openlocfilehash: 8af5b1cf243d599ab68e9c2db1a3c6003f82c29f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273646"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70847737"
 ---
 Bienvenido a la sección **Aprendizaje guiado** de Power BI, diseñada para presentarle **DAX**.
 
-**DAX** significa **Expresiones de análisis de datos**,y es el lenguaje de fórmulas usado en Power BI (Power BI también lo usa en segundo plano). DAX también se encuentra en otras ofertas de Microsoft, como Power Pivot y SSAS Tabular, pero este conjunto de temas de aprendizaje guiado se centra en cómo se usa DAX, y cómo puede usarlo, en Power BI.
+**DAX** significa **Expresiones de análisis de datos**,y es el lenguaje de fórmulas usado en Power BI (también en segundo plano). DAX también se encuentra en otras ofertas de Microsoft, como Power Pivot y SSAS Tabular, pero estos temas de aprendizaje guiado se centran en cómo se usa DAX, y cómo puede usarlo, en Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX y esta serie de vídeos de aprendizaje guiado
 El objetivo de esta sección **Aprendizaje guiado** es mostrarle los aspectos básicos y los fundamentos de DAX: cómo pensar sobre DAX, cómo funciona y las características más útiles, explicado (y aprendido con mucha experiencia) por un conocido experto en DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax).
@@ -24,11 +24,11 @@ DAX es un *lenguaje funcional*, es decir, todo el código que se ejecuta se encu
 
 En DAX, las funciones pueden incluir otras funciones anidadas, instrucciones condicionales y referencias a valores. El proceso de ejecución en DAX se inicia desde la función o el parámetro más interno y se lleva a cabo en un contexto externo. En Power BI, las fórmulas DAX se escriben en una sola línea, así que es importante dar el formato correcto a las funciones en aras de mejorar la legibilidad.
 
-DAX se ha diseñado para trabajar con tablas, por lo que tiene dos tipos de datos principal: **Numérico** y **otros**. **Numérico** puede incluir *enteros*, *decimales* y *divisas*. **Otro** puede incluir *cadenas* y *objetos binarios*. Es decir, si crea una función DAX para utilizar un tipo de número, puede estar seguro de que funcionará con cualquier otro dato numérico.
+DAX se ha diseñado para usar tablas, por tanto, tiene dos tipos de datos principales: **Numérico** y **Otro.** **Numérico** puede incluir *enteros*, *decimales* y *divisas*. **Otro** puede incluir *cadenas* y *objetos binarios*. Es decir, si crea una función DAX para utilizar un tipo de número, puede estar seguro de que funcionará con cualquier otro dato numérico.
 
-DAX utiliza la sobrecarga de operador, que significa que puede mezclar tipos de datos en los cálculos, de forma que los resultados variarán según el tipo de datos usados en las entradas. La conversión se realiza automáticamente. Esto significa que no tiene que conocer los tipos de datos de las columnas que está usando en Power BI, pero también que, a veces, el proceso de conversión puede generar resultados inesperados. Se recomienda comprender los datos que se utilizan para asegurarse de que los operadores funcionan de la forma prevista.
+DAX emplea la sobrecarga del operador, lo que significa que puede mezclar tipos de datos en los cálculos, de forma que los resultados variarán según el tipo de datos usados en las entradas. La conversión se produce automáticamente, lo que significa que no tiene que conocer los tipos de datos de las columnas con las que trabaja en Power BI, pero también que, a veces, el proceso de conversión puede generar resultados inesperados. Se recomienda comprender los datos que se utilizan para asegurarse de que los operadores funcionan de la forma prevista.
 
-Hay un tipo de datos en particular, que es probable que trabajará con mucho en Power BI: **Fecha y hora**. **Fecha y hora** se almacena como un valor de coma flotante con partes decimales y enteras. Este tipo de datos puede utilizarse para calcular con precisión un periodo posterior al 1 de marzo de 1900.
+Hay un tipo de datos en concreto con el que probablemente trabaje con frecuencia en Power BI: **Fecha y hora**. **Fecha y hora** se almacena como un valor de coma flotante con partes decimales y enteras. Este tipo de datos puede utilizarse para calcular con precisión un periodo posterior al 1 de marzo de 1900.
 
 > Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 

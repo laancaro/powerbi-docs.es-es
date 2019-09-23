@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/16/2018
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 6d0c4a2dba1dee1c8c40da8fd3371767915729da
-ms.sourcegitcommit: d9755602235ba03594c348571b9102c9bf88d732
+ms.openlocfilehash: c32f4b0a03ba751d5b8cbd6e98633275ece9222b
+ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/15/2019
-ms.locfileid: "69490323"
+ms.lasthandoff: 09/10/2019
+ms.locfileid: "70877814"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
 
@@ -119,7 +119,7 @@ Get-MsolCompanyInformation | fl allow*
 
 ### <a name="how-can-i-prevent-my-existing-users-from-starting-to-use-power-bi"></a>¿Cómo puedo impedir que mis usuarios existentes comiencen a utilizar Power BI?
 
-La opción de configuración de Azure AD que controla esto es **AllowAdHocSubscriptions**. La mayoría de los inquilinos tienen esta opción establecida en true, lo que significa que está habilitada. Si ha adquirido Power BI a través de un asociado, podría estar establecida en false, lo que significa que está deshabilitada.
+La opción de configuración de Azure AD que controla esto es **AllowAdHocSubscriptions**. La mayoría de los inquilinos tienen esta opción establecida en *true*, lo que significa que está habilitada. Si ha adquirido Power BI a través de un asociado, podría estar establecida en *false*, lo que significa que está deshabilitada.
 
 Use el siguiente script de PowerShell para deshabilitar las suscripciones ad hoc. ([Más información sobre PowerShell][1]).
 
@@ -145,7 +145,7 @@ Use el siguiente script de PowerShell para deshabilitar las suscripciones ad hoc
     ```
 
 > [!NOTE]
-> Use la marca **AllowAdHocSubscriptions** para controlar varias funcionalidades de usuario en la organización, incluida la capacidad de que los usuarios se suscriban al servicio Azure Rights Management. El cambio de esta marca afecta a todas estas funcionalidades.
+> Use la marca **AllowAdHocSubscriptions** para controlar varias funcionalidades de usuario en la organización, incluida la capacidad de que los usuarios se suscriban al servicio Azure Rights Management. El cambio de esta marca afecta a todas estas funcionalidades. Si el valor es *false*, los usuarios todavía pueden registrarse para obtener una prueba de Pro.
 
 ### <a name="how-can-i-allow-my-existing-users-to-sign-up-for-power-bi"></a>¿Cómo puedo permitir a mis usuarios existentes que se suscriban a Power BI?
 

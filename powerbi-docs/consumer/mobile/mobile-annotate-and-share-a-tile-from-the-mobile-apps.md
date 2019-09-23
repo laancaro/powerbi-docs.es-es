@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 8d48f7c42ac88f5a3b659bf4aff2ece65a2010e5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61343062"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70841462"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotación y uso compartido de un icono, informe u objeto visual en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -29,7 +29,7 @@ Puede anotar y compartir una instantánea de un icono, un informe o un objeto vi
 
 *Informe con anotaciones*
 
-El correo con la instantánea del icono, el informe o el objeto visual también incluye un vínculo al objeto real en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Los destinatarios pueden hacer clic en el vínculo e ir directamente a ese icono, informe u objeto visual si usted y ellos tienen licencias de Power BI Pro, o el contenido está en una [capacidad premium](../../service-premium-what-is.md), y ya ha compartido el elemento con ellos. 
+El correo con la instantánea del icono, el informe o el objeto visual también incluye un vínculo al objeto real en el servicio Power BI ([https://powerbi.com](https://powerbi.com)). Los destinatarios pueden hacer clic en el vínculo e ir directamente a ese icono, informe u objeto visual si usted y ellos tienen licencias de Power BI Pro, o el contenido está en una [capacidad premium](../../service-premium-what-is.md), y ya ha compartido el elemento con ellos. 
 
 También puede [compartir un icono desde la aplicación móvil de Power BI para dispositivos Windows 10](mobile-windows-10-phone-app-get-started.md), pero no puede anotarlo.
 

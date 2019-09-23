@@ -1,8 +1,8 @@
 ---
 title: Procedimientos recomendados de rendimiento de Power BI
 description: Este artículo proporciona una guía para la creación de informes rápidos y confiables en Power BI
-author: MarkMcGeeAtAquent
-ms.author: kfile
+author: Bhavik-MSFT
+ms.author: bhmerc
 manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
@@ -10,16 +10,20 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: bddd653b5ac8b49a38a69ae79baf2f96824444ed
-ms.sourcegitcommit: 805d52e57a935ac4ce9413d4bc5b31423d33c5b1
+ms.openlocfilehash: 736c1ee1b1998ec7f991167352313a05061b3f3c
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68665339"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841483"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI
 
 Este artículo proporciona una guía para la creación de informes rápidos y confiables en Power BI.  
+
+## <a name="choose-an-appropriate-storage-mode-import-directquery"></a>Elija un modo de almacenamiento adecuado: Importación, DirectQuery
+
+En la mayoría de los casos, el modo de importación es la mejor opción. Este modo ofrece la mayor velocidad ya que aprovecha los datos almacenados localmente en caché en memoria que se comprimen mediante el almacenamiento en columnas. El modo de importación también permite la funcionalidad DAX completa. Podría usar DirectQuery (y modelos compuestos) cuando el volumen de datos de origen sea demasiado grande para su capacidad de Power BI. DirectQuery también es útil cuando es necesario capturar los datos más recientes del origen cada vez que se carga un informe. Si no tiene estos requisitos y los usuarios solo necesitan ver los datos que se actualizan algunas veces al día o menos (por ejemplo, los de un almacenamiento de datos corporativo), la importación es la opción más adecuada. En el modo DirectQuery, los usuarios pueden intentar actualizar el informe sin tener que obtener los mismos datos del origen.      
 
 ## <a name="use-filters-to-limit-report-visuals-to-display-only-whats-needed"></a>Usar filtros para los objetos visuales del informe muestren solo lo necesario 
 
@@ -57,7 +61,7 @@ Cuando se implementan los informes de Power BI con DirectQuery y Conexión din�
 ## <a name="directquery-best-practices"></a>Procedimientos recomendados de DirectQuery
 
 La siguiente sección describe los procedimientos recomendados generales para conectarse mediante DirectQuery.
-  
+
 ### <a name="db-design-guidance"></a>Instrucciones para el diseño de base de datos
 
 - Inserte las columnas calculadas y las medidas en el origen siempre que sea posible. Cuanto más cerca del origen, mayor es la probabilidad de rendimiento.

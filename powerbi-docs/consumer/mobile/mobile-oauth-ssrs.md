@@ -9,47 +9,49 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 7067d4c7fdc3fc328db417e5d6733569ecc7be01
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 59c376afd384812473d3175df992c628ae5049ca
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567804"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903639"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usar OAuth para conectarse a Power BI Report Server y a SSRS
 
-Obtenga información sobre cómo configurar el entorno para admitir la autenticación de OAuth con la aplicación móvil de Power BI para conectarse a Power BI Report Server y a SQL Server Reporting Services 2016 o una versión posterior.
+Puede usar OAuth para conectarse a Power BI Report Server y a Reporting Services para mostrar informes móviles o KPI. Obtenga información sobre cómo configurar el entorno para admitir la autenticación de OAuth con la aplicación móvil de Power BI para conectarse a Power BI Report Server y a SQL Server Reporting Services 2016 o una versión posterior.
 
-![Conexión a un servidor](media/mobile-oauth-ssrs/powerbi-mobile-oauth.png)
+Vea que Adam se conecta desde Power BI Mobile a SSRS mediante OAuth:
 
-Puede usar OAuth para conectarse a Power BI Report Server y a Reporting Services para mostrar informes móviles o KPI. Windows Server 2016 ofrece algunas mejoras en el rol Proxy de aplicación web (WAP) para permitir este tipo de autenticación.
 
-   > [!NOTE]
-   > Ya se pueden ver informes de Power BI hospedados en Power BI Report Server mediante WAP para la autenticación en aplicaciones para iOS y Android.
+<iframe width="560" height="350" src="https://www.youtube.com/embed/okzPAI2uUek" frameborder="0" allowfullscreen></iframe>
+
+
+> [!NOTE]
+> Ya se pueden ver informes de Power BI hospedados en Power BI Report Server mediante WAP para la autenticación en aplicaciones para iOS y Android.
 
 ## <a name="requirements"></a>Requisitos
 
-Se necesita Windows Server 2016 para los servidores de proxy de aplicación web (WAP) y de servicios de federación de Active Directory (ADFS). No necesita tener un dominio de nivel funcional de Windows 2016.
+Se necesita Windows Server 2016 para los servidores de proxy de aplicación web (WAP) y de servicios de federación de Active Directory (ADFS). No necesita tener un dominio de nivel funcional de Windows 2016.
 
 ## <a name="domain-name-services-dns-configuration"></a>Configuración de servicios de nombres de dominio (DNS)
 
-Debe determinar cuál será la dirección URL pública a la que se conectará la aplicación móvil de Power BI. Por ejemplo, el aspecto debería ser similar al siguiente.
+La dirección URL pública será aquella a la que se conecte la aplicación móvil de Power BI. Por ejemplo, el aspecto debería ser similar al siguiente.
 
 ```https
 https://reports.contoso.com
 ```
 
-Necesitará señalar el registro DNS para **informes** a la dirección IP pública del servidor de proxy de aplicación web (WAP). También necesitará configurar un registro DNS público para el servidor de ADFS. Por ejemplo, es posible que haya configurado el servidor de ADFS con la siguiente dirección URL.
+El registro DNS de **informes** para la dirección IP pública del servidor Web Application Proxy (WAP). También deberá configurar un registro DNS público para el servidor de ADFS. Por ejemplo, es posible que haya configurado el servidor de ADFS con la siguiente dirección URL.
 
 ```https
 https://fs.contoso.com
 ```
 
-Necesitará señalar el registro DNS para **fs** a la dirección IP pública del servidor de proxy de aplicación web (WAP), ya que se publicará como parte de la aplicación WAP.
+El registro DNS de **fs** para la dirección IP pública del servidor Web Application Proxy (WAP) que se publicará como parte de la aplicación WAP.
 
 ## <a name="certificates"></a>Certificados
 
-Tendrá que configurar certificados para la aplicación de WAP y el servidor de ADFS. Ambos certificados deben formar parte de una entidad de certificación válida que reconozcan sus dispositivos móviles.
+Deberá configurar los certificados de la aplicación de WAP y del servidor ADFS. Ambos certificados deben formar parte de una entidad de certificación válida que reconozcan sus dispositivos móviles.
 
 ## <a name="reporting-services-configuration"></a>Configuración de Reporting Services
 
@@ -57,13 +59,13 @@ No hay mucho que configurar con respecto a Reporting Services. Solo es necesario
 
 ### <a name="service-principal-name-spn"></a>Nombre de entidad de seguridad de servicio (SPN)
 
-El SPN es un identificador único para un servicio que usa la autenticación Kerberos. Debe asegurarse de que tiene un SPN de HTTP apropiado presente para el servidor de informes.
+El SPN es un identificador único para un servicio que usa la autenticación Kerberos. Debe asegurarse de que tiene un SPN de HTTP apropiado para el servidor de informes.
 
 Para obtener información sobre cómo configurar el nombre de entidad de seguridad de servicio (SPN) correcto para el servidor de informes, consulte [Registrar un nombre principal de servicio (SPN) para un servidor de informes](https://msdn.microsoft.com/library/cc281382.aspx).
 
 ### <a name="enabling-negotiate-authentication"></a>Habilitar la autenticación Negociar
 
-Para habilitar que un servidor de informes use la autenticación Kerberos, debe configurar el tipo de autenticación del servidor de informes para que sea RSWindowsNegotiate. Esto se realiza en el archivo rsreportserver.config.
+Para permitir que un servidor de informes use la autenticación Kerberos, debe configurar el tipo de autenticación del servidor de informes como RSWindowsNegotiate. Esto se realiza en el archivo rsreportserver.config.
 
 ```xml
 <AuthenticationTypes>  
@@ -77,15 +79,15 @@ Para obtener más información, consulte [Modificar un archivo de configuración
 
 ## <a name="active-directory-federation-services-adfs-configuration"></a>Configuración de los servicios de federación de Active Directory (ADFS)
 
-Tendrá que configurar ADFS en un servidor de Windows 2016 en su entorno. Esto se puede realizar mediante el Administrador del servidor y al seleccionar Agregar roles y características en Administrar. Para obtener más información, consulte [Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
+Tendrá que configurar ADFS en un servidor de Windows 2016 en su entorno. Para ello, puede usar el Administrador del servidor y seleccionar Agregar roles y características en Administrar. Para obtener más información, consulte [Servicios de federación de Active Directory](https://technet.microsoft.com/windows-server-docs/identity/active-directory-federation-services).
 
 ### <a name="create-an-application-group"></a>Crear un grupo de aplicaciones
 
-En la pantalla Administración de AD FS, necesitará crear un grupo de aplicaciones de Reporting Services que incluya información para las aplicaciones de Power BI Mobile.
+En la pantalla Administración de AD FS, necesitará crear un grupo de aplicaciones de Reporting Services que incluya información de las aplicaciones de Power BI Mobile.
 
 Puede crear el grupo de aplicaciones mediante los pasos siguientes.
 
-1. Dentro de la aplicación de administración de AD FS, haga clic con el botón derecho en **Grupos de aplicaciones** y seleccione **Agregar grupo de aplicaciones…**
+1. Dentro de la aplicación Administración de AD FS, haga clic con el botón derecho en **Grupos de aplicaciones** y seleccione **Agregar grupo de aplicaciones…**
 
    ![Incorporación de una aplicación de ADFS](media/mobile-oauth-ssrs/adfs-add-application-group.png)
 
@@ -107,7 +109,7 @@ Puede crear el grupo de aplicaciones mediante los pasos siguientes.
    mspbi-adal://com.microsoft.powerbimobile  
    mspbi-adalms://com.microsoft.powerbimobilems
 
-   **Las aplicaciones de Android solo necesitan la siguiente:**  
+   **Las aplicaciones de Android solo necesitan los siguientes pasos:**  
    urn:ietf:wg:oauth:2.0:oob
 
    ![Asistente para agregar grupos de aplicaciones de ADFS 02](media/mobile-oauth-ssrs/adfs-application-group-wizard2.png)
@@ -141,7 +143,7 @@ Cuando haya finalizado, debería ver que las propiedades del grupo de aplicacion
 
 ## <a name="web-application-proxy-wap-configuration"></a>Configuración del proxy de aplicación web (WAP)
 
-Deberá habilitar el rol de Windows del proxy de aplicación web (rol) en un servidor en su entorno. Debe tratarse de un servidor de Windows 2016. Para obtener más información, consulte [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) y [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
+Deberá habilitar el rol de Windows Web Application Proxy (rol) en un servidor de su entorno. Debe tratarse de un servidor de Windows 2016. Para obtener más información, consulte [Web Application Proxy in Windows Server 2016 (Proxy de aplicación web en Windows Server 2016)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/web-application-proxy-windows-server) y [Publishing Applications using AD FS Preauthentication (Publicar aplicaciones usando la autenticación previa de AD FS)](https://technet.microsoft.com/windows-server-docs/identity/web-application-proxy/publishing-applications-using-ad-fs-preauthentication#a-namebkmk14apublish-an-application-that-uses-oauth2-such-as-a-windows-store-app).
 
 ### <a name="constrained-delegation-configuration"></a>Configuración de la delegación restringida
 
@@ -171,7 +173,7 @@ Para configurar la delegación restringida, deberá hacer lo siguiente.
 
 7. Seleccione **Usuarios o equipos…**
 
-8. Escriba la cuenta de servicio que usa para Reporting Services. Se trata de la cuenta a la que ha agregado el SPN en la configuración de Reporting Services.
+8. Escriba la cuenta de servicio que usa para Reporting Services. Esta es la cuenta a la que ha agregado el SPN en la configuración de Reporting Services.
 
 9. Seleccione el SPN para Reporting Services y luego seleccione **Aceptar**.
 
@@ -196,14 +198,14 @@ Add-WebApplicationProxyApplication -Name "Contoso Reports" -ExternalPreauthentic
 
 | Parámetro | Comentarios |
 | --- | --- |
-| **ADFSRelyingPartyName** |Este es el nombre de la API Web que ha creado como parte del grupo de aplicaciones en AD FS. |
-| **ExternalCertificateThumbprint** |Este es el certificado que se usará para los usuarios externos. Es importante que este certificado sea válido en dispositivos móviles y proceda de una entidad de certificación de confianza. |
-| **BackendServerUrl** |Esta es la dirección URL para el servidor de informes desde el servidor WAP. Si el servidor WAP está en una red perimetral, debe usar un nombre de dominio completo. Asegúrese de que puede visitar esta dirección URL desde el explorador web en el servidor WAP. |
-| **BackendServerAuthenticationSPN** |Este es el SPN que ha creado como parte de la configuración de Reporting Services. |
+| **ADFSRelyingPartyName** |El nombre de la API web que ha creado como parte del grupo de aplicaciones en ADFS. |
+| **ExternalCertificateThumbprint** |El certificado que se usará para los usuarios externos. Es importante que el certificado sea válido en los dispositivos móviles y proceda de una entidad de certificación de confianza. |
+| **BackendServerUrl** |La dirección URL al servidor de informes desde el servidor WAP. Si el servidor WAP está en una red perimetral, debe usar un nombre de dominio completo. Asegúrese de que puede visitar esta dirección URL desde el explorador web en el servidor WAP. |
+| **BackendServerAuthenticationSPN** |El SPN que ha creado como parte de la configuración de Reporting Services. |
 
 ### <a name="setting-integrated-authentication-for-the-wap-application"></a>Configurar la autenticación integrada para la aplicación WAP
 
-Después de agregar la aplicación WAP, debe establecer el BackendServerAuthenticationMode para que use IntegratedWindowsAuthentication. Para configurarlo, necesita el identificador de la aplicación WAP.
+Después de agregar la aplicación WAP, debe establecer BackendServerAuthenticationMode para que use IntegratedWindowsAuthentication. Para configurarlo, necesita el identificador de la aplicación WAP.
 
 ```powershell
 Get-WebApplicationProxyApplication “Contoso Reports” | fl
@@ -221,7 +223,7 @@ Set-WebApplicationProxyApplication -id 30198C7F-DDE4-0D82-E654-D369A47B1EE5 -Bac
 
 ## <a name="connecting-with-the-power-bi-mobile-app"></a>Conectarse con la aplicación móvil de Power BI
 
-Dentro de la aplicación móvil de Power BI, tendrá que conectarse a su instancia de Reporting Services. Para ello, proporcione la **dirección URL externa** para la aplicación WAP.
+Dentro de la aplicación móvil de Power BI, tendrá que conectarse a su instancia de Reporting Services. Para ello, proporcione la **dirección URL externa** para la aplicación WAP.
 
 ![Escritura de la dirección del servidor](media/mobile-oauth-ssrs/powerbi-mobile-app1.png)
 
@@ -241,7 +243,7 @@ Puede habilitar la autenticación multifactor para proporcionar seguridad adicio
 
 ![Error "No se pudo iniciar sesión en el servidor de SSRS"](media/mobile-oauth-ssrs/powerbi-mobile-error.png)
 
-Puede configurar [Fiddler](http://www.telerik.com/fiddler) para que actúe como proxy para los dispositivos móviles para ver hasta dónde ha llegado la solicitud. Para habilitar un proxy de Fiddler para su dispositivo telefónico, deberá configurar el [CertMaker para iOS y Android](http://www.telerik.com/fiddler/add-ons) en el equipo que ejecute Fiddler. Se trata de un complemento de Telerik para Fiddler.
+Puede configurar [Fiddler](http://www.telerik.com/fiddler) para que actúe como proxy para los dispositivos móviles para ver hasta dónde ha llegado la solicitud. Para habilitar un proxy de Fiddler para su dispositivo telefónico, deberá configurar [CertMaker para iOS y Android](http://www.telerik.com/fiddler/add-ons) en el equipo que ejecute Fiddler. El complemento es de Telerik para Fiddler.
 
 Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga un problema de certificado con la aplicación WAP o el servidor de ADFS. Puede usar una herramienta como [Analizador de mensajes de Microsoft](https://www.microsoft.com/download/details.aspx?id=44226) para comprobar si los certificados son válidos.
 

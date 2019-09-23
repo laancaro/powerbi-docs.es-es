@@ -11,12 +11,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: c46a5c419c242ae25ecca74428362ec27f234afd
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
+ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730217"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "71164533"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
 
@@ -123,9 +123,9 @@ La puerta de enlace de datos local admite los siguientes orígenes de datos para
 | **Origen de datos** | **Dinámica/DirectQuery** | **Actualización programada o manual (configurada por el usuario)** |
 | --- | --- | --- |
 | Amazon Redshift |Sí |Sí |
+| Analysis Services |Sí |Sí |
 | Cubos de AtScale |Sí |Sí |
 | Azure Active Directory |No |Sí |
-| Azure Analysis Services |Sí |Sí |
 | Azure Blob Storage |No |Sí |
 | Azure DevOps Server |No |Sí |
 | Azure Table Storage |No |Sí |

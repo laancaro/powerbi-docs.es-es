@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 67cd57a981f7c1fcab118652dc5424fa935ecd13
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654732"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841317"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de almacenamiento en Power BI Desktop
 
@@ -42,6 +42,9 @@ La configuración del modo de almacenamiento de Power BI Desktop es una de tres 
 * **Relaciones de varios a varios**: mediante el uso de *modelos compuestos*, puede establecer *relaciones de varios a varios* entre las tablas. Las *relaciones varios a varios* eliminan los requisitos de valores únicos en tablas. También permite descartar las soluciones alternativas anteriores, como la presentación de nuevas tablas solo para establecer relaciones. Para obtener más información, vea [Relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md).
 
 * **Modo de almacenamiento**: ahora puede especificar los objetos visuales que requieren una consulta a los orígenes de datos back-end. Los objetos visuales que no requieran una consulta se importarán incluso aunque estén basados en DirectQuery. Esta característica permite mejorar el rendimiento y reducir la carga de back-end. Anteriormente, incluso los objetos visuales simples, como las segmentaciones, iniciaban consultas que se enviaban a los orígenes de back-end. El modo de almacenamiento se describe más detalladamente en este artículo.
+
+> [!NOTE]
+> Para ver el modo de almacenamiento actual, seleccione la vista **Modelo**, seleccione la tabla de interés y, en la sección **Avanzadas** del panel **Propiedades**, examine el valor de **Modelo de almacenamiento**.
 
 ## <a name="use-the-storage-mode-property"></a>Uso de la propiedad de modo de almacenamiento
 
