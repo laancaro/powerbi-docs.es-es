@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: reference
-ms.date: 05/08/2019
+ms.date: 09/09/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4c522a9e6c40f4164ee82675c40c3110b174d017
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: d3405a434c8b3add7bb39f20d5aa65e066e4b73d
+ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513930"
+ms.lasthandoff: 09/09/2019
+ms.locfileid: "70841329"
 ---
 # <a name="power-bi-desktop-privacy-levels"></a>Niveles de privacidad de Power BI Desktop
 En **Power BI Desktop**, los niveles de privacidad especifican un nivel de aislamiento que define el grado de aislamiento de un origen de datos respecto a los demás. Aunque un nivel de aislamiento restrictivo impide que la información se intercambie entre los orígenes de datos, puede reducir la funcionalidad e influir en el rendimiento.
@@ -52,7 +52,7 @@ Para configurar el nivel de privacidad de un origen de datos, seleccione el orig
 | **Combinar datos según la configuración del nivel de privacidad para cada origen** (activado y el valor predeterminado) |La configuración del nivel de privacidad se usa para determinar el nivel de aislamiento entre los orígenes de datos al combinar datos. |
 | **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** |Los niveles de privacidad no se consideran al combinar datos; no obstante, el rendimiento y la funcionalidad de los datos pueden aumentar. |
 
-> **Nota de seguridad**: La habilitación de **Niveles de privacidad** mediante la selección de **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad** podría exponer los datos importantes o confidenciales a una persona no autorizada. No habilite **Niveles de privacidad** a menos que esté seguro de que el origen de datos no contiene datos importantes o confidenciales.
+> **Nota de seguridad**: Al seleccionar **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad**, podría exponer datos confidenciales a personas no autorizadas. No desactive esta opción a menos que esté seguro de que el origen de datos no contiene datos confidenciales.
 > 
 > 
 
