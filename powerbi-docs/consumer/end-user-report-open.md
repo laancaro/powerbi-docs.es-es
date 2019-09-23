@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/28/2018
+ms.date: 09/04/2018
 ms.author: mihart
-ms.openlocfilehash: e02d7bfa295b3bd18b0b6b9c64c688ed668c8389
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: 2a4c9044f661d9d5b822ba366c3a88c572136b35
+ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391754"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "70903817"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
 Un informe consta de una o varias páginas de objetos visuales. Los *diseñadores* de Power BI crean los informes y [los comparten con los *consumidores* directamente](end-user-shared-with-me.md) o como parte de una [aplicación](end-user-apps.md). 
@@ -30,7 +30,7 @@ Vamos a abrir un informe que se ha compartido con usted directamente y, a contin
    ![Página principal](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Apertura de un informe que se ha compartido con usted
-Los *diseñadores* de Power BI pueden compartir un informe individual directamente con usted mediante un vínculo en el correo electrónico o si lo agregan a su inicio de Power BI. El contenido que se comparte de este modo se muestra en el contenedor **Compartido conmigo** de la barra de navegación y en la sección **Compartido conmigo** del lienzo Página principal.
+Los *diseñadores* de Power BI pueden compartir un informe directamente con usted mediante un vínculo en el correo electrónico o lo pueden agregar automáticamente. El contenido que se comparte de este modo se muestra en el contenedor **Compartido conmigo** de la barra de navegación y en la sección **Compartido conmigo** del lienzo Página principal.
 
 1. Abra el servicio Power BI (app.powerbi.com).
 
@@ -50,6 +50,12 @@ Los *diseñadores* de Power BI pueden compartir un informe individual directame
 
    ![pestañas de las páginas de informes](./media/end-user-report-open/power-bi-ytd.png)
 
+6. Observe el panel **Filtros** en el lado derecho. Aquí se muestran los filtros que se han aplicado a esta página de informe o a todo el informe.
+
+7. Al mantener el mouse sobre el objeto visual de un informe se muestran varios iconos y puntos suspensivos (...). Para ver los filtros aplicados a un objeto visual determinado, seleccione el icono de filtro. Aquí hemos seleccionado el icono de filtro para el gráfico de líneas *Total units by rolling period and region* (Unidades totales por período sucesivo y región).
+
+   ![pestañas de las páginas de informes](./media/end-user-report-open/power-bi-visual-filters.png)
+
 6. Ahora se ve la página de informe completa. Para cambiar la presentación (zoom) de la página, seleccione la lista desplegable Vista en la esquina superior derecha y elija **Tamaño real**.
 
    ![cambiar zoom](./media/end-user-report-open/power-bi-fit-new.png)
@@ -59,21 +65,26 @@ Los *diseñadores* de Power BI pueden compartir un informe individual directame
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Apertura de un informe que forma parte de una aplicación
 Si ha recibido aplicaciones de compañeros de trabajo o de AppSource, esas aplicaciones están disponibles en la Página principal y el contenedor **Aplicaciones** de la barra de navegación. Una [aplicación](end-user-apps.md) es un conjunto de paneles e informes.
 
+### <a name="prerequisites"></a>Requisitos previos
+Para continuar, descargue la aplicación de marketing y ventas.
+1. En el explorador, vaya a appsource.microsoft.com.
+1. Marque "Ventas" y "Marketing" y seleccione **Microsoft sample - Sales & Marketing**.
+1. Seleccione **Obtenerla ahora** > **Continuar** > **Instalar** para instalar la aplicación en el contenedor de aplicaciones. 
+
+Puede abrir la aplicación desde el contenedor de aplicaciones o desde Inicio.
 1. Seleccione **Página principal** en la barra de navegación para volver a la Página principal.
 
 7. Desplácese hacia abajo hasta que vea **Mis aplicaciones**.
 
-   ![Página principal](./media/end-user-report-open/power-bi-my-apps.png)
+   ![Página principal](./media/end-user-report-open/power-bi-app.png)
 
-8. Seleccione una de las aplicaciones para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Si al seleccionar la aplicación:
-    - se abre el informe, ya ha terminado.
-    - se abre un panel, vea ***Apertura de un informe desde un panel***, a continuación.
+8. Seleccione la nueva aplicación de marketing y ventas para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Esta aplicación se abre en un panel.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Apertura de un informe desde un panel
 Los informes se pueden abrir desde un panel. La mayoría de los [iconos](end-user-tiles.md) de panel están *anclados* desde los informes. Al seleccionar un icono se abre el informe que se usó para crear el icono. 
 
-1. En un panel, seleccione un icono. En este ejemplo hemos seleccionado el icono del gráfico de columnas "Total unidades hasta la fecha...".
+1. En el panel, seleccione un icono. En este ejemplo hemos seleccionado el icono del gráfico de columnas "Total unidades hasta la fecha...".
 
     ![Panel con icono seleccionado](./media/end-user-report-open/power-bi-dashboard.png)
 
@@ -94,5 +105,6 @@ Conforme se vaya familiarizando con la navegación por el servicio Power BI, des
 - Y más
 
 ## <a name="next-steps"></a>Pasos siguientes
-[Abrir y ver un panel](end-user-dashboard-open.md)
+[Abrir y ver un panel](end-user-dashboard-open.md)    
+[Filtros de informe](end-user-report-filter.md)
 
