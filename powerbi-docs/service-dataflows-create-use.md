@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61144614"
@@ -153,7 +153,7 @@ Puede haber ocasiones en las que la conexión a los orígenes de datos de los fl
 
 * **Conector de SharePoint**: asegúrese de proporcionar la dirección raíz del sitio de SharePoint, sin subcarpetas ni documentos. Por ejemplo, use un vínculo similar al siguiente: https://microsoft.sharepoint.com/teams/ObjectModel/ 
 
-* **Conector de archivos JSON**: actualmente puede conectarse a un archivo JSON solo con autenticación básica.  La conexión a un archivo de JSON proporcionando las credenciales en la URL (por ejemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg..) **no** se admite actualmente.  
+* **Conector de archivos JSON**: actualmente puede conectarse a un archivo JSON solo con autenticación básica.  La conexión a un archivo de JSON proporcionando las credenciales en la URL (por ejemplo, https://XXXXX.blob.core.windows.net/path/file.json?sv=2019-01-01&si=something&sr=c&sig=123456abcdefg.. ) **no** se admite actualmente.  
 
 * **Azure SQL Data Warehouse**: actualmente los flujos de datos no admiten la autenticación de Azure Active Directory (AAD) para Azure SQL Data Warehouse. Use la autenticación básica en este caso.
 
@@ -162,9 +162,9 @@ Puede haber ocasiones en las que la conexión a los orígenes de datos de los fl
 En este artículo se describe cómo puede crear su propio **flujo de datos** y un conjunto de datos y un informe en **Power BI Desktop** para beneficiarse de ello. Los siguientes artículos resultan útiles para obtener más información y escenarios al utilizar flujos de datos:
 
 * [Preparación de datos de autoservicio con flujos de datos](service-dataflows-overview.md)
-* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
-* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 * [Integración de flujos de datos y Azure Data Lake (versión preliminar)](service-dataflows-azure-data-lake-integration.md)
 
 Para más información sobre Common Data Service, puede leer su artículo de introducción:

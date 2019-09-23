@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 6699167cecebea5085eff4621c077096fd4c6c2e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61385152"
@@ -23,13 +23,13 @@ ms.locfileid: "61385152"
 * 75 columnas como máximo
 * 75 tablas como máximo
 * Un máximo de 10.000 filas para cada solicitud POST de filas  
-* 1.000.000 de filas agregadas por hora por cada conjunto de datos  
+* 1\.000.000 de filas agregadas por hora por cada conjunto de datos  
 * Un máximo de 5 solicitudes POST de filas pendientes por cada conjunto de datos  
 * 120 solicitudes POST de filas por minuto por cada conjunto de datos
 * Si la tabla tiene 250 000 o más filas, 120 solicitudes de filas POST por hora por conjunto de datos
 * Un máximo de 200.000 filas almacenadas por tabla en el conjunto de datos FIFO
 * Un máximo de 5.000.000 de filas almacenadas por tabla en el conjunto de datos 'no hay directivas de retención'  
-* 4.000 caracteres por valor para las columnas de cadena en la operación POST de filas
+* 4\.000 caracteres por valor para las columnas de cadena en la operación POST de filas
   
 ## <a name="see-also"></a>Vea también
 

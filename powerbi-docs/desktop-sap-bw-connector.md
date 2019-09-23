@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Connect to data
 ms.openlocfilehash: af227d2bcbbba2a27804ec74f14003f54aa89dde
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514672"
@@ -225,7 +225,7 @@ En la tabla siguiente se detalla la compatibilidad actual para SAP BW.
 
 
 
-|Product  |Modo  |Autenticación  |Conector  |Biblioteca de SNC  |Admitido  |
+|Producto  |Modo  |Autenticación  |Conector  |Biblioteca de SNC  |Admitido  |
 |---------|---------|---------|---------|---------|---------|
 |Power BI Desktop     |Cualquiera         | Usuario / contraseña  | Servidor de aplicaciones | N/D  | Sí  |
 |Power BI Desktop     |Cualquiera         | Windows          | Servidor de aplicaciones | sapcrypto + gsskrb5/gx64krb5  | Sí  |

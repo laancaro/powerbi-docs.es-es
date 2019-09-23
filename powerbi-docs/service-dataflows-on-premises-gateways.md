@@ -10,22 +10,19 @@ ms.topic: conceptual
 ms.date: 12/06/2018
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 82c8bbb5361730b306cacd14dc9598ca12035027
-ms.sourcegitcommit: c8c126c1b2ab4527a16a4fb8f5208e0f7fa5ff5a
+ms.openlocfilehash: 81dfc6961ff0c00b609f98e50da3532a230cf26d
+ms.sourcegitcommit: 244d110b28d4978f360cbece3a7c896e1a645258
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2019
-ms.locfileid: "54276477"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "61136198"
 ---
-# <a name="using-dataflows-with-on-premises-data-sources-preview"></a>Uso de flujos de datos con orígenes de datos locales (versión preliminar)
+# <a name="using-dataflows-with-on-premises-data-sources"></a>Uso de flujos de datos con orígenes de datos locales
 
 Con **flujos de datos**, puede crear una colección de datos de varios orígenes, limpiar los datos, transformarlos y cargarlos en el almacenamiento de Power BI. Al crear el flujo de datos, puede que desee usar orígenes de datos locales. En este artículo se explican los requisitos asociados con la creación de flujos de datos y cómo debe configurarse **Enterprise Gateway** para habilitar dichas conexiones.
 
 ![Flujos de datos y puertas de enlace](media/service-dataflows-onpremises-gateways/onpremises-gateways_01.png)
 
-> [!NOTE]
-> La funcionalidad de flujos de datos se encuentra en versión preliminar y está sujeta a cambios y actualizaciones antes de la disponibilidad general.
- 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Configuración de Enterprise Gateway para usarlo con flujos de datos
 
 Para usar un origen de datos local en un flujo de datos, cualquier usuario que crea el flujo de datos debe tener **Enterprise Gateway** instalado y configurado. El usuario que crea el flujo de datos también debe ser administrador de Enterprise Gateway para poder usar esa puerta de enlace para un flujo de datos.
@@ -80,8 +77,8 @@ En este artículo se proporciona información sobre el uso de los orígenes de d
 
 * [Preparación de datos de autoservicio con flujos de datos](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium (versión preliminar)](service-dataflows-computed-entities-premium.md)
-* [Recursos de desarrollador para flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:
 * [Información general sobre consultas en Power BI Desktop](desktop-query-overview.md)

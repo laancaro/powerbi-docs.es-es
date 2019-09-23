@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 153a77cdc7d4749ac450378723d04c82ef938de6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514606"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142162"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de informes en Power BI Desktop
 Si ha estado trabajando con Power BI, sabrá lo fácil que es crear informes que ofrecen perspectivas dinámicas e información sobre los datos. Power BI también tiene características más avanzadas en Power BI Desktop. Con Power BI Desktop, puede crear consultas avanzadas, mezclar datos de varios orígenes, crear relaciones entre tablas y mucho más.
@@ -61,9 +61,11 @@ Puede tomar fácilmente un objeto visual de un informe de Power BI Desktop y peg
 
 La capacidad de copiar y pegar objetos visuales es útil para personas que con frecuencia compilan y actualizan varios informes. Al copiar entre archivos, la configuración y el formato que se han establecido explícitamente en el panel de formato continúan, mientras que los elementos visuales que dependen de un tema o la configuración predeterminada se actualizan automáticamente para coincidir con el tema del informe de destino. De modo que, cuando obtenga un objeto visual formateado y con la apariencia deseada, puede copiarlo y pegarlo en nuevos informes y conservar todo ese buen trabajo de formato.
 
-![Error al copiar o pegar el objeto visual: no hay campos de datos](media/desktop-report-view/report-view_05.png)
+Si los campos del modelo son diferentes, verá un error en el objeto visual y una advertencia sobre qué campos no existen. El error es similar a la experiencia que ve cuando se elimina un campo en el modelo que usa un objeto visual. 
 
-Si los campos del modelo son diferentes, verá un error en el objeto visual y una advertencia sobre qué campos no existen. El error es similar a la experiencia que ve cuando se elimina un campo en el modelo que usa un objeto visual. Para corregirlo, simplemente reemplace los campos rotos por los campos que desea usar del modelo en el informe en el que pegó el objeto visual. Si usa un objeto visual personalizado, también debe importar ese objeto visual personalizado en el informe de destino.
+![Error al copiar o pegar el objeto visual: no hay campos de datos](media/desktop-report-view/report-view_07.png)
+
+Para corregirlo, simplemente reemplace los campos rotos por los campos que desea usar del modelo en el informe en el que pegó el objeto visual. Si usa un objeto visual personalizado, también debe importar ese objeto visual personalizado en el informe de destino.
 
 
 
