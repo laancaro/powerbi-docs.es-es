@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/12/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: bc55d290e10832034ed96d7092c5baa4b7cc20d1
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6e37885c5e15dbaaa28fc5cb693089fda747c9e
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65565282"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175230"
 ---
 # <a name="how-to-purchase-power-bi-premium"></a>Adquisición de Power BI Premium
 
@@ -50,7 +50,7 @@ Para comprar capacidad Premium, siga estos pasos.
 
 1. Mantenga el puntero sobre los puntos suspensivos ( **. . .** ) y después seleccione **Comprar ahora**.
 
-    ![Compre ahora](media/service-admin-premium-purchase/premium-purchase.png)
+    ![comprar ahora](media/service-admin-premium-purchase/premium-purchase.png)
 
 1. Siga estos pasos para completar la compra.
 
@@ -101,9 +101,10 @@ Al cancelar su suscripción Premium o expirar su licencia de capacidad, puede co
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Página de precios de Power BI](https://powerbi.microsoft.com/pricing/)   
-[Calculadora de Power BI Premium](https://powerbi.microsoft.com/calculator/)   
-[Preguntas más frecuentes sobre Power BI Premium](service-premium-faq.md)   
+[Configuración y administración de capacidades en Power BI Premium](service-admin-premium-manage.md)\
+[Página de precios de Power BI](https://powerbi.microsoft.com/pricing/)\
+[Calculadora de Power BI Premium](https://powerbi.microsoft.com/calculator/)\
+[Preguntas más frecuentes sobre Power BI Premium](service-premium-faq.md)\
 [Notas del producto de la planeación de una implementación de Power BI Enterprise](https://aka.ms/pbienterprisedeploy)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)

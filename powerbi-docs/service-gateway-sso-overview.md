@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 6f270c28f643736f07c09ceb3e544e473f831ad9
-ms.sourcegitcommit: 277fadf523e2555004f074ec36054bbddec407f8
+ms.openlocfilehash: 4991117cfa8b34d9adbbd2dc29082d1e75b6852d
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/16/2019
-ms.locfileid: "68271866"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100381"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Introducción al inicio de sesión único (SSO) para puertas de enlace de Power BI
 
-Puede lograr una conectividad de inicio de sesión único directa con la habilitación de la actualización de los informes y paneles de Power BI desde datos locales, si configura la puerta de enlace de datos local con la delegación restringida de Kerberos o con SAML (Lenguaje de marcado de aserción de seguridad). La puerta de enlace de datos local facilita el inicio de sesión único (SSO) mediante DirectQuery, que es lo que usa para conectarse a los orígenes de datos locales.
+Puede lograr una conectividad de inicio de sesión único directa con la habilitación de la actualización de los informes y paneles de Power BI en tiempo real desde datos locales, si configura la puerta de enlace de datos local con la delegación restringida de Kerberos o con SAML (Lenguaje de marcado de aserción de seguridad). La puerta de enlace de datos local admite el inicio de sesión único mediante DirectQuery, que es lo que usa para conectarse a los orígenes de datos locales.
 
 Actualmente se admiten estos orígenes de datos:
 
@@ -52,8 +52,7 @@ Estos son los detalles adicionales sobre estos pasos:
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Ahora que ya entiende los conceptos básicos de SSO, obtenga información más detallada acerca de Kerberos y SAML:
+Ahora que ya entiende los conceptos básicos del SSO a través de la puerta de enlace, lea información más detallada sobre Kerberos y SAML:
 
 * [Inicio de sesión único (SSO): Kerberos](service-gateway-sso-kerberos.md)
-* [Inicio de sesión único (SSO): Kerberos (basado en recursos)](service-gateway-sso-kerberos-resource.md)
 * [Inicio de sesión único (SSO): SAML](service-gateway-sso-saml.md)

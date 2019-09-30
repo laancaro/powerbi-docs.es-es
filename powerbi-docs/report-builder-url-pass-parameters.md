@@ -9,16 +9,16 @@ author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: cfinlan
 ms.date: 08/29/2019
-ms.openlocfilehash: add2f82594d83d1e1f177bfad5045c2e0a34ba84
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: f7f1b777e7c4e54dbdcfb1757fe4df274624a580
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70189378"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076001"
 ---
 # <a name="pass-a-report-parameter-in-a-url-for-a-paginated-report-in-power-bi"></a>Pasar un parámetro de informe en una URL para un informe paginado en Power BI 
 
-Puede pasar parámetros de informe a un informe incluyéndolos en una URL de informe paginado. Todos los parámetros de consulta pueden tener parámetros de informe correspondientes. Por lo tanto, para pasar un parámetro de consulta a un informe, se pasa el parámetro de informe correspondiente. Debe agregar un prefijo al nombre del parámetro con  `rp:` para que Power BI lo reconozca en la dirección URL. 
+Puede pasar parámetros de informe a un informe incluyéndolos en una URL de informe paginado. Todos los parámetros de consulta pueden tener parámetros de informe correspondientes. Por lo tanto, para pasar un parámetro de consulta a un informe, se pasa el parámetro de informe correspondiente. Debe agregar un prefijo al nombre del parámetro con `rp:` para que Power BI lo reconozca en la dirección URL. 
 
 Los parámetros de informe distinguen entre mayúsculas y minúsculas y usan estos caracteres especiales: 
 
@@ -63,7 +63,7 @@ rp:SalesOrderNumber:isnull=true
 Para pasar un valor booleano, use 0 para false y 1 para true. Para pasar un valor Float, incluya el separador decimal de la configuración regional del servidor.
 
 > [!NOTE]
-> Si el informe contiene un parámetro de informe con un valor predeterminado y el valor de la propiedad  **prompt**  es  **false** (es decir, la propiedad **prompt user** no está seleccionada en Administrador de informes), no se puede pasar un valor para ese parámetro de informe dentro de una dirección URL. Esto proporciona a los administradores la opción de impedir que los usuarios finales agreguen o modifiquen los valores de determinados parámetros de informe.
+> Si el informe contiene un parámetro de informe con un valor predeterminado y el valor de la propiedad **Prompt** es **false** (es decir, la propiedad **Prompt User** no está seleccionada en el Administrador de informes), no se puede pasar un valor para ese parámetro de informe dentro de una dirección URL. Esto proporciona a los administradores la opción de impedir que los usuarios finales agreguen o modifiquen los valores de determinados parámetros de informe.
 
 ## <a name="additional-examples"></a>Ejemplos adicionales 
 

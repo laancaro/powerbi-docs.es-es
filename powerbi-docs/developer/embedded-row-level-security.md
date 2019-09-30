@@ -1,20 +1,20 @@
 ---
 title: Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 description: Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 7c58d4a5ce94a8659c85606dc2cbce1b4fc615f5
-ms.sourcegitcommit: 3e72c6d564d930304886d51cdf12b8fc166aa33c
+ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "67596567"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073345"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -26,7 +26,7 @@ Si va a realizar la inserción para usuarios de Power BI (el usuario posee los d
 
 ![Elementos relacionados con la seguridad de nivel de fila.](media/embedded-row-level-security/powerbi-embedded-rls-components.png)
 
-Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos principales: usuarios, roles y reglas. Analicemos cada uno de ellos detenidamente:
+Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos principales: usuarios, roles y reglas. Analicemos estos conceptos más detenidamente:
 
 **Usuarios**: los usuarios finales que ven el artefacto (panel, icono, informe o conjunto de datos). En Power BI Embedded, los usuarios se identifican por la propiedad de nombre de usuario de un token de inserción.
 
@@ -77,9 +77,9 @@ Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de l
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicación de usuarios y roles a un token de inserción
 
-Ahora que tiene configurados los roles de Power BI Desktop, es necesario hacer algunas cosas en la aplicación para aprovechar sus ventajas.
+Ahora que tiene configurados los roles de Power BI Desktop, es necesario hacer algunas cosas en la aplicación para aprovechar sus ventajas.
 
-La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar un poco más de contexto como parte del token de inserción en forma de identidades. Puede pasar las identidades mediante la API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
+La aplicación autentica y autoriza a los usuarios y los tokens de inserción se usan para conceder a ese usuario acceso a un informe específico de Power BI Embedded. Power BI Embedded no tiene ninguna información específica sobre quién es el usuario. Para que RLS funcione, es necesario pasar un poco más de contexto como parte del token de inserción en forma de identidades. Puede pasar las identidades mediante la API [Embed Token](https://docs.microsoft.com/rest/api/power-bi/embedtoken).
 
 La API acepta una lista de identidades con la indicación de los conjuntos de datos pertinentes. Para que RLS funcione, debe pasar los siguientes elementos como parte de la identidad.
 

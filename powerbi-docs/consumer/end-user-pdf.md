@@ -8,39 +8,39 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: e15cb6e09ff493512bb1b87939004c851b31fa10
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 66ac187d002c1606f96694bb45a5d44ba2ad2279
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61048028"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141316"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 Con Power BI, puede publicar el informe en formato PDF, y crear fácilmente un documento basado en el informe de Power BI. Al **exportar a PDF**, cada página del informe de Power BI se convierte en una página individual en el documento PDF.
 
 ## <a name="how-to-export-your-power-bi-report-to-pdf"></a>Cómo exportar el informe de Power BI a PDF
-En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe desde la página Inicio, Aplicaciones o cualquier otra sección del panel de navegación de la izquierda.
+En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe en la página Inicio, Aplicaciones o en cualquier otro contenedor de la barra de navegación de la izquierda.
 
-1. Seleccione **Archivo** > **Exportar a PDF** en la barra de menús.
+1. Seleccione **Exportar** > **PDF** en la barra de menús.
 
-    ![Selección del archivo en la barra de menús, la flecha apunta a Exportar a PDF](media/end-user-pdf/power-bi-export-pdf.png)
+    ![Selección de Exportar en la barra de menús, la flecha apunta a Exportar a PDF](media/end-user-pdf/power-bi-export.png)
 
-    Aparecerá una ventana emergente donde tiene la opción de seleccionar **Vista actual** o **Vista predeterminada**.  **Vista actual** exporta el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Vista predeterminada** se exporta el informe en su estado original (como lo haya compartido el autor) y no se reflejan los cambios que haya realizado al estado original.
+    Aparecerá una ventana emergente donde tiene la opción de seleccionar los **valores actuales** o los **valores predeterminados**.  Los **valores actuales** exportan el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Valores predeterminados** se exporta el informe en su estado original (como lo haya compartido el *diseñador*) y no se reflejan los cambios que haya realizado al estado original.
     
-    Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, haga clic en el botón Exportar para continuar.
+    Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, seleccione el botón Exportar para continuar.
     
     En la esquina superior derecha se muestra una barra de progreso. La exportación puede tardar unos minutos, y puede continuar trabajando en Power BI mientras se exporta el informe.
 
-    ![Mensaje de progreso de la exportación](media/end-user-pdf/power-bi-export-message.png)
+    ![Mensaje de progreso de la exportación](media/end-user-pdf/power-bi-export-progress.png)
 
     Cuando haya terminado, el banner de notificación cambiará para informarle de que el servicio Power BI ha terminado el proceso de exportación.
 
 2. El archivo está disponible donde el explorador muestra los archivos descargados. En la siguiente imagen, se muestra como un banner de descarga en la parte inferior de la ventana del explorador.
 
-    ![Ubicación del archivo descargado](media/end-user-pdf/power-bi-save-file.png)
+    ![Ubicación del archivo descargado](media/end-user-pdf/power-bi-export-done.png)
 
 Y eso es todo. Puede descargar el archivo y abrirlo con cualquier visor de PDF, como el disponible en Microsoft Edge.
 

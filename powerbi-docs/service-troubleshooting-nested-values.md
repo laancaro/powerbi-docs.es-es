@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 6/4/2019
 ms.author: gepopell
 LocalizationGroup: Reports
-ms.openlocfilehash: e30a79796fd4d5538406a85a3297a23b2c09a61a
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: d21199d8960df4db5027115704533bd3d5d8097c
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66751418"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142260"
 ---
 # <a name="troubleshooting-nested-values-returned-as-text-in-power-bi-service"></a>Solución de problemas de valores anidados devueltos como texto en el servicio Power BI
 
 ## <a name="cause"></a>Causa
 
-En el pasado, ha habido casos donde un informe de Power BI se actualiza correctamente en Power BI Desktop, pero en el servicio Power BI produce un error similar a "No se puede convertir el valor"[tabla]"al tipo Table". Una de las causas de este error es que, cuando el firewall de privacidad de datos (¿vínculo aquí?) almacena en búfer un origen de datos, los valores no escalares anidados (como tablas, registros, listas y funciones) se convierten automáticamente en valores de texto (por ejemplo, "[Tabla]" o "[Registro]").
+En el pasado, ha habido casos donde un informe de Power BI se actualiza correctamente en Power BI Desktop, pero en el servicio Power BI produce un error similar a "No se puede convertir el valor"[tabla]"al tipo Table". Una de las causas de este error es que, cuando el firewall de privacidad de datos almacena en búfer un origen de datos, los valores no escalares anidados (como tablas, registros, listas y funciones) se convierten automáticamente en valores de texto (por ejemplo, "[Tabla]" o "[Registro]").
 
 Ahora que el servicio Power BI admite la configuración de los niveles de privacidad (o desactivar el Firewall completamente), estos errores pueden evitarse mediante la [configuración de privacidad del origen de datos](https://powerbi.microsoft.com/en-us/blog/privacy-levels-for-cloud-data-sources/) en el servicio Power BI como no privado.
 

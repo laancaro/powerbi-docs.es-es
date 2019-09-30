@@ -4,24 +4,23 @@ description: Todo acerca de los iconos de paneles en Power BI para consumidores.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/05/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 3a341dda238996db4953fa7c68d7053034ca40b8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050256"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142139"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
-Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Un icono se puede crear desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
+Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Los *diseñadores* pueden crear iconos desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
-![Panel de Power BI](./media/end-user-tiles/power-bi-dashboard.png)
+![Panel de Power BI](./media/end-user-tiles/power-bi-dash.png)
 
 
 Además de los iconos anclados de los informes, los *diseñadores* puede agregar iconos independientes directamente en el panel mediante **Agregar icono**. Los iconos independientes incluyen: cuadros de texto, imágenes, vídeos, datos de transmisión y contenido web.
@@ -38,15 +37,15 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
 
     - Icono creado con Preguntas y respuestas
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu1.png)
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-1.png)
 
     - Icono creado a partir de un libro
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu2.png)
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-2.png)
 
     - Icono creado a partir de un informe
    
-        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-menu3.png)
+        ![Icono de botón de puntos suspensivos](./media/end-user-tiles/power-bi-options-3.png)
    
     Desde aquí, puede:
    
@@ -56,9 +55,12 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
    
 
    * [Abrir el libro que se ha usado para crear este icono ](end-user-reports.md) ![icono de hoja de cálculo](./media/end-user-tiles/power-bi-open-worksheet.png)  
-    * [Ver el icono en modo de enfoque](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
-     * [Ejecutar información ](end-user-insights.md) ![icono de información](./media/end-user-tiles/power-bi-insights.png)
-    * [Agregar un comentario e iniciar una discusión](end-user-comment.md) ![icono de comentario](./media/end-user-tiles/comment-icons.png)
+   * [Ver el icono en modo de enfoque](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Ver información ](end-user-insights.md) ![icono de información](./media/end-user-tiles/power-bi-insights.png)
+   * [Agregar un comentario e iniciar una discusión](end-user-comment.md) ![icono de comentario](./media/end-user-tiles/comment-icons.png)
+   * [Administrar las alertas establecidas en un icono del panel](end-user-alerts.md)  ![icono de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Abrir los datos en Excel](end-user-export.md)  ![icono de exportación](./media/end-user-tiles/power-bi-export-icon.png)
+
 
 3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.
 

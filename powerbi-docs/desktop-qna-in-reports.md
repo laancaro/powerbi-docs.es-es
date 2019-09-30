@@ -12,7 +12,7 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: a34de25af7febf63b34d7608ff7ef40e8b653fc4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61285132"
@@ -23,9 +23,9 @@ El uso del lenguaje natural y frases comunes para formular preguntas sobre los d
 Para que Preguntas y respuestas sea capaz de interpretar correctamente la gran cantidad de preguntas que es capaz de responder, Preguntas y respuestas debe realizar suposiciones sobre el modelo. Si la estructura del modelo no cumple uno o varios de estos supuestos, debe ajustarlo. Estos ajustes para Preguntas y respuestas son las mismas optimizaciones recomendadas para cualquier modelo en Power BI, independientemente de que use o no Preguntas y respuestas. 
 
 > [!NOTE]
-> Preguntas y respuestas solo está disponible cuando se trabaja con un modelo que contenga **importado** datos o para conexiones dinámicas a SSAS. No se admiten los modelos DirectQuery.
+> Solo hay preguntas y respuestas disponibles cuando se trabaja con un modelo que contiene datos **importados** o de conexiones dinámicas a SSAS. No se admiten los modelos DirectQuery.
 >
-> Si usa una versión de Windows anterior a Windows 10, Preguntas y respuestas requiere la siguiente actualización del entorno de ejecución de C. Puede intentar instalar las actualizaciones importantes de Windows Update o instalar manualmente el componente necesario desde Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows)
+> Si usa una versión de Windows anterior a Windows 10, Preguntas y respuestas requiere la siguiente actualización del entorno de ejecución de C. Puede intentar instalar las actualizaciones importantes de Windows Update o instalar manualmente el componente necesario desde Microsoft (KB2999226). [https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows](https://support.microsoft.com/help/2999226/update-for-universal-c-runtime-in-windows )
 >
 >
 

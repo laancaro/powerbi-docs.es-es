@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 09/20/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 260860ba1ac875b097b12a1ac32ef09e983fe08d
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
+ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69655148"
+ms.lasthandoff: 09/21/2019
+ms.locfileid: "71175267"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -47,6 +47,7 @@ Hay nueve pestañas en el portal. En el resto de este artículo se proporciona i
 * [Objetos visuales de la organización](#organizational-visuals)
 * [Almacenamiento de flujos de datos (versión preliminar)](#dataflowStorage)
 * [Áreas de trabajo](#workspaces)
+* [Personalización de marca](#custom-branding)
 
 ## <a name="usage-metrics"></a>Métricas de uso
 
@@ -522,7 +523,22 @@ Como administrador, puede ver las áreas de trabajo que existen en el inquilino.
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 
+## <a name="custom-branding"></a>Personalización de marca
 
+Como administrador, puede personalizar la apariencia de Power BI para toda la organización. Actualmente, hay tres opciones principales:
+
+![Opciones de personalización de marca](media/service-admin-portal/power-bi-custom-branding.png)
+
+* **Carga del logotipo**: para obtener los mejores resultados, cargue un logotipo guardado en formato .png de 10 KB o menos y de al menos 200 x 30 píxeles.
+
+* **Carga de la imagen de portada**: para obtener los mejores resultados, cargue una imagen de portada guardada en formato .jpg o .png de 1 MB o menos y de al menos 1920 x 160 píxeles.
+
+* **Selección del color de tema**: puede seleccionar su tema basado en un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
+
+
+Para más información, consulte [Personalización de marca de la organización](http://aka.ms/orgBranding).
+
+![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Administración de Power BI en su organización](service-admin-administering-power-bi-in-your-organization.md)  

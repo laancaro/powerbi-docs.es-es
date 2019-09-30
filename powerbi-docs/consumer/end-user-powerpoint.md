@@ -3,20 +3,19 @@ title: Exportar informes de Power BI a PowerPoint
 description: Aprenda cómo exportar un informe de Power BI a PowerPoint.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 02/28/2019
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: f06b67dc0072c125d9430079fa756d963fd99f23
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a798afead16174f66fadba87c795d5377747e93
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61063995"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141455"
 ---
 # <a name="export-reports-from-power-bi-to-powerpoint"></a>Exportar informes de Power BI a PowerPoint
 Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crear fácilmente una presentación de diapositivas basada en el informe de Power BI. Cuando se **exporta a PowerPoint**, ocurre lo siguiente:
@@ -29,27 +28,24 @@ Con Power BI, ahora puede publicar el informe en **Microsoft PowerPoint** y crea
 Exportar su **informe de Power BI** a **PowerPoint** es muy fácil. Siga los pasos descritos en la sección siguiente.
 
 ## <a name="how-to-export-your-power-bi-report-to-powerpoint"></a>Cómo exportar su informe de Power BI a PowerPoint
-En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe en la página **Inicio**, **Aplicaciones** o cualquier otra sección del panel de navegación izquierdo.
+En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe en la página **Inicio**, **Aplicaciones** o en cualquier otro contenedor de la barra de navegación de la izquierda.
 
-![Seleccione el archivo en la barra de menús, en la flecha que apunta a Exportar a PowerPoint](media/end-user-powerpoint/power-bi-publish.png)
+Cuando el informe que quiere exportar a PowerPoint aparezca en el lienzo, seleccione **Exportar > PowerPoint** en la barra de menús.
 
-Cuando en el lienzo aparezca el informe que desea exportar a PowerPoint, seleccione **Archivo > Exportar a PowerPoint** en la barra de menús del servicio Power BI.
+![Selección de Exportar en la barra de menús](media/end-user-powerpoint/power-bi-export.png)
 
-![Cierre la barra de navegación izquierda con Mi área de trabajo seleccionado, lista desplegable Archivo seleccionada](media/end-user-powerpoint/powerbi_to_powerpoint_1.png)
    
-Aparecerá una ventana emergente donde tiene la opción de seleccionar la **vista actual** o la **vista predeterminada**.  **Vista actual** exporta el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Vista predeterminada** se exporta el informe en el estado original (como lo haya compartido el autor) y no se reflejan los cambios que haya realizado al estado original.
+Aparecerá una ventana emergente donde tiene la opción de seleccionar los **valores actuales** o los **valores predeterminados**.  Los **valores actuales** exportan el informe en el estado actual, lo que incluye los cambios activos que haya realizado en los valores de filtro o segmentación.  La mayoría de los usuarios seleccionan esta opción.  Como alternativa, al seleccionar **Valores predeterminados** se exporta el informe en el estado original (como lo haya compartido el autor) y no se reflejan los cambios que haya realizado al estado original.
+
+![Selección de qué se va a exportar](media/end-user-powerpoint/power-bi-current-values.png)
     
-Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, haga clic en **Exportar** para continuar.
+Además, hay una casilla para seleccionar si se quieren exportar o no las pestañas ocultas de un informe.  Simplemente active esta casilla si solo quiere exportar las pestañas de informe que son visibles para usted en el explorador.  Si prefiere incluir todas las pestañas ocultas como parte de la exportación, puede dejar desactivada esta opción.  Si la casilla aparece atenuada, significa que no hay ninguna pestaña oculta en el informe.  Una vez realizadas las selecciones, seleccione **Exportar** para continuar.
 
 Verá un banner de notificación en la esquina superior derecha de la ventana del explorador del servicio Power BI conforme el informe se está exportando a PowerPoint. Esto puede tardar unos minutos y puede continuar trabajando en Power BI mientras se exporta el informe.
 
-![Notificación de Exportar a PowerPoint en curso](media/end-user-powerpoint/powerbi_to_powerpoint_2.png)
+![Notificación de Exportar a PowerPoint en curso](media/end-user-powerpoint/power-bi-export-progress.png)
 
-Cuando haya terminado, el banner de notificación cambiará para informarle de que el servicio Power BI ha terminado el proceso de exportación.
-
-![Aparece un mensaje de operación correcta](media/end-user-powerpoint/powerbi_to_powerpoint_3.png)
-
-El archivo está disponible donde el explorador muestra los archivos descargados. En la siguiente imagen, se muestra como un banner de descarga en la parte inferior de la ventana del explorador.
+Cuando haya terminado, el banner de notificación cambiará para informarle de que el servicio Power BI ha terminado el proceso de exportación. El archivo está disponible donde el explorador muestra los archivos descargados. En la siguiente imagen, se muestra como un banner de descarga en la parte inferior de la ventana del explorador.
 
 ![flecha que apunta a la notificación del explorador, en la parte inferior de la pantalla](media/end-user-powerpoint/powerbi_to_powerpoint_4.png)
 

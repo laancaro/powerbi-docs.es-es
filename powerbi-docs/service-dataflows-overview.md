@@ -12,12 +12,12 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136386"
 ---
-# <a name="self-service-data-prep-in-power-bi"></a>Preparación de datos de autoservicio en Power BI
+# <a name="self-service-data-prep-in-power-bi"></a>Autoservicio de preparación de los datos en Power BI
 
 A medida que aumenta el volumen de datos, también se complica el desafío de limpiar y transformar dichos datos en información accionable y con un formato correcto. Queremos datos que estén listos para análisis, para rellenar objetos viduales, informes y paneles, a fin de que podamos convertir los volúmenes de datos rápidamente en información procesable. Con la **preparación de datos de autoservicio** para macrodatos en Power BI, puede convertir los datos en información de Power BI con tan solo unos clics.
 
@@ -108,9 +108,9 @@ Al almacenar datos empresariales en formato estandarizado de **Common Data Servi
 En este artículo se proporciona información general sobre la preparación de datos de autoservicio para macrodatos en Power BI y las numerosas formas en que pueden usarse. En los siguientes artículos se ofrecen más detalles sobre escenarios de uso común de los flujos de datos. 
 
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
-* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 * [Integración de flujos de datos y Azure Data Lake](service-dataflows-azure-data-lake-integration.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:

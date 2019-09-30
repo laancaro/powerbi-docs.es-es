@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/18/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: e735d45a7a49c4a0365e35d5bb95957c6145f934
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 6424180dde3dac0d6d2b66c8a9303810b6aa0dc6
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903753"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100097"
 ---
 # <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles entre varios informes en Power BI Desktop
 
@@ -32,7 +32,7 @@ Antes de empezar a configurar y usar la obtención de detalles entre varios info
 
 
 > [!NOTE]
-> El acceso a los informes compartidos de manera individual en *Mi área de trabajo*, que son informes que aparecen como *[Compartido conmigo](service-share-dashboards.md#share-a-dashboard-or-report)* , solo puede tener lugar en el área de trabajo desde donde se compartieron originalmente. 
+> Con la característica de obtención de detalles entre varios informes de Power BI Desktop, puede pasar contextualmente de un informe a otro. Esto es posible siempre y cuando los informes estén dentro de la misma área de trabajo o aplicación en el servicio Power BI. Esto no se aplica al acceder a informes compartidos individualmente dentro de *Mi área de trabajo* ([Informes compartidos conmigo](service-share-dashboards.md#share-a-dashboard-or-report)). En su lugar, debe acceder al informe en el área de trabajo desde donde se compartió originalmente.
 
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitación de la obtención de detalles entre varios informes

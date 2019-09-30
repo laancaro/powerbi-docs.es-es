@@ -5,21 +5,20 @@ author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/14/2019
+ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7222f13d5ee4f25d7d55655bb5a7e5f2f28c77d4
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 5251bf34d7467c2727cdac83c6f6f9faf59aa888
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608689"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141271"
 ---
-# <a name="featured-dashboards-in-power-bi-service"></a>Paneles destacados en el servicio Power BI
+# <a name="featured-dashboards-in-the-power-bi-service"></a>Paneles destacados en el servicio Power BI
 ## <a name="create-a-featured-dashboard"></a>Creación de un panel destacado
 Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros.  Puede ser el panel que usa para administrar el negocio o quizás uno que contenga una agregación de iconos de muchos paneles e informes distintos.
 
@@ -52,7 +51,7 @@ Por supuesto, si cambia de opinión más adelante, puede establecer un nuevo pan
 1. Siga los pasos 1 y 2 anteriores.
    
     ![Ventana Cambiar panel destacado](./media/end-user-featured/power-bi-change-feature.png)
-2. Seleccione **Establecer como destacado**. Dejar de destacar un panel no lo quita del área de trabajo.  
+2. Seleccione **Establecer como destacado**. Dejar de destacar un panel no lo quita de Power BI.  
    
     ![Mensaje de proceso correcto](./media/end-user-featured/power-bi-unfeature-new.png)
 

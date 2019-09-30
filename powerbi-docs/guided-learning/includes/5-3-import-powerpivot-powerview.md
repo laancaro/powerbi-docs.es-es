@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: e87ea8470464e458c1da2037f25adfcee857361e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61271539"
@@ -16,5 +16,5 @@ Si el libro contiene **hojas de Power View**, no hay ningún problema. Power BI 
 
 ![](media/5-3-import-powerpivot-powerview/5-3_2.png)
 
-Y aquí es una de las excelentes características de Power BI: Si usa Power Query o Power Pivot para conectarse, consultar y cargar datos desde un origen de datos externo, una vez que haya importado el libro en Power BI, puede configurar **actualización programada**. Mediante las actualizaciones programadas, Power BI usará la información de la conexión del libro para conectarse directamente al origen de datos, consultar y cargar todos los datos que haya cambiado. Las visualizaciones de los informes también se actualizarán automáticamente.
+Y ahora viene una de las mejores características de Power BI: Si usa Power Query o Power Pivot para conectarse a los datos, consultarlos y cargarlos desde un origen de datos externo, cuando haya importado el libro en Power BI, podrá configurar **actualizaciones programadas**. Mediante las actualizaciones programadas, Power BI usará la información de la conexión del libro para conectarse directamente al origen de datos, consultar y cargar todos los datos que haya cambiado. Las visualizaciones de los informes también se actualizarán automáticamente.
 

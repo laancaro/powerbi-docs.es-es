@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: 567beb29ecdcaf8a07023c8c8c9b32995623534c
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454477"
@@ -28,7 +28,7 @@ Eche un vistazo más de cerca a algunos de los elementos de la **vista de datos*
 
 1. **Icono de vista de datos**: seleccione este icono para entrar en la vista de datos.
 
-2. **Cuadrícula de datos**: se muestra la tabla seleccionada y todas las columnas y filas que contiene. Las columnas ocultas de la **vista de informe** están atenuadas. Puede hacer clic en una columna de opciones.
+2. **Cuadrícula de datos**: se muestra la tabla seleccionada y todas las columnas y filas que contiene. Las columnas ocultas de la **vista de informe** están atenuadas. Puede hacer clic con el botón derecho en una columna para ver las opciones.
 
 3. **Cinta de opciones de modelado**: aquí puede administrar relaciones, crear cálculos y cambiar el tipo de datos, el formato y la categoría de datos de una columna.
 

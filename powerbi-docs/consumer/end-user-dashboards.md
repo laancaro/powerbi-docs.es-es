@@ -3,20 +3,19 @@ title: ¿Qué es un panel y cómo se abre?
 description: Los paneles son una característica clave del servicio Power BI.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 05/12/2019
+ms.date: 09/12/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 81987b864224b6afd254a3bffe17ecbb019198d0
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: cad6aeeb156534052241d5183a575b222736230a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "65608333"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141918"
 ---
 # <a name="dashboards-for-power-bi-service-consumers"></a>Panel para los consumidores del servicio Power BI
 
@@ -54,8 +53,8 @@ Los informes suelen confundirse con paneles, ya que son igualmente lienzos con v
 | Se pueden ver campos y tablas del conjunto de datos subyacentes |No. Se pueden exportar datos pero no se pueden ver tablas ni campos en el panel |Sí. Se pueden ver tablas, campos y valores del conjunto de datos |
 
 
-## <a name="dashboard-creators-and-dashboard-consumers"></a>Creadores de paneles y consumidores de paneles
-Como ***consumidor*** de Power BI, recibirá paneles de los *creadores*. Continúe aprendiendo sobre los paneles con estos temas:
+## <a name="dashboard-designers-and-dashboard-consumers"></a>Diseñadores de paneles y consumidores de paneles
+Como ***consumidor*** de Power BI, recibirá paneles de los *diseñadores*. Continúe aprendiendo sobre los paneles con estos temas:
 
 * [Visualización de un panel](end-user-dashboard-open.md)
 * Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y lo que ocurre al seleccionar uno.

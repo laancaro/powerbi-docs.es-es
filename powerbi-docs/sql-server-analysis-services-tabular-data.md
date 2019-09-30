@@ -13,7 +13,7 @@ ms.date: 08/10/2017
 LocalizationGroup: Data from databases
 ms.openlocfilehash: 51efec6c78dbb29b9c3dc760284c7bb3c8711bdc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "64769935"
@@ -31,15 +31,15 @@ En Power BI hay dos maneras de conectarse a un servidor activo de SQL Server Ana
 
 1. En **Mi área de trabajo**, seleccione **Obtener datos**. También puede cambiar a un área de trabajo de grupo, si está disponible.
 
-   ![Conectar con botón obtener datos](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
+   ![Botón Conectarse para obtener datos](media/sql-server-analysis-services-tabular-data/connecttoas_getdatabutton.png)
 
 2. Seleccione **Bases de datos y más**.
 
-   ![Conéctese para obtener datos 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
+   ![Conectarse para obtener datos 1](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_1.png)
 
 3. Seleccione **SQL Server Analysis Services** > **Conectar**.
 
-   ![Conéctese para obtener datos 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
+   ![Conectarse para obtener datos 2](media/sql-server-analysis-services-tabular-data/connecttoas_getdata_2.png)
 
 4. Seleccione un servidor. Si no ve ningún servidor enumerado aquí, significa que una puerta de enlace, y un origen de datos, no están configurados, o que la cuenta no aparece en la ficha **Usuarios** del origen de datos, en la puerta de enlace. Consulte con su administrador.
 

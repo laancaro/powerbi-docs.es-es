@@ -12,14 +12,14 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 948ead2cfa551d6342f9bab87b281d9b6d1e15bc
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65514114"
 ---
 # <a name="multi-select-data-elements-in-visuals-using-power-bi-desktop"></a>Selección múltiple de elementos de datos en objetos visuales con Power BI Desktop
 
-En Power BI Desktop, puede resaltar un punto de datos en un objeto visual determinado simplemente haciendo clic en el punto de datos en el objeto visual. Por ejemplo, si tiene una barra o un elemento de gráfico importante y desea que otros objetos visuales de la página del informe resalten los datos en función de su selección, puede hacer clic en el elemento de datos de un objeto visual y ver los resultados reflejados en otros objetos visuales de la página. Esto se conoce como el resaltado básico o de selección única. En la siguiente imagen se muestra el resaltado básico. 
+En Power BI Desktop puede resaltar un punto de datos en un objeto visual determinado simplemente haciendo clic en el punto de datos del objeto visual. Por ejemplo, si tiene una barra o un elemento de gráfico importante y desea que otros objetos visuales de la página del informe resalten los datos en función de su selección, puede hacer clic en el elemento de datos de un objeto visual y ver los resultados reflejados en otros objetos visuales de la página. Esto se conoce como el resaltado básico o de selección única. En la siguiente imagen se muestra el resaltado básico. 
 
 ![Único punto de datos seleccionado](media/desktop-multi-select/multi-select_01.png)
 

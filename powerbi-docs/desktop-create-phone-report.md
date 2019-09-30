@@ -1,5 +1,5 @@
 ---
-title: Optimizar los informes para las aplicaciones móviles - Power BI
+title: 'Optimización de informes para las aplicaciones móviles: Power BI'
 description: Aprenda a optimizar las páginas de informe para las aplicaciones móviles de Power BI mediante la creación de una versión vertical del informe específica para teléfonos y tabletas.
 author: maggiesMSFT
 manager: kfile
@@ -12,19 +12,19 @@ ms.author: maggies
 LocalizationGroup: Create reports
 ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61310794"
 ---
-# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Optimizar los informes para las aplicaciones móviles de Power BI
-Puede mejorar la experiencia de visualización de informes en las aplicaciones móviles mediante la creación de un diseño vertical. En Power BI Desktop y el servicio Power BI, reorganizar y cambiar el tamaño de los objetos visuales de informes para una experiencia óptima en modo vertical.  
+# <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Optimización de informes para las aplicaciones móviles de Power BI
+Puede crear un diseño vertical para mejorar la experiencia de visualización de informes en las aplicaciones móviles. En Power BI Desktop y el servicio Power BI, puede reorganizar y cambiar el tamaño de los objetos visuales del informe para obtener una experiencia óptima en modo vertical.  
 
-¿Busca información acerca de cómo ver los informes en un dispositivo móvil en su lugar? Pruebe este tutorial rápido [Explore paneles e informes en las aplicaciones móviles de Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
+Si lo que busca es información sobre cómo ver los informes en un dispositivo móvil, pruebe este inicio rápido [Exploración de paneles e informes en la aplicación móvil de Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 ![Informe optimizado en un teléfono](media/desktop-create-phone-report/desktop-create-phone-report-1.png)
 
-Además se puede crear [ *con capacidad de respuesta* objetos visuales](#optimize-a-visual-for-any-size) y [segmentaciones con capacidad de respuesta](#enhance-slicers-to-work-well-in-phone-reports) que cambiar el tamaño también en cualquier lugar. Si agrega filtros a un informe, muestran automáticamente en el informe optimizado.
+Además, puede crear objetos visuales con [*capacidad de respuesta*](#optimize-a-visual-for-any-size) y [segmentaciones de datos con capacidad de respuesta](#enhance-slicers-to-work-well-in-phone-reports) que cambien de tamaño correctamente en cualquier parte. Si agrega filtros a un informe, esos filtros se muestran automáticamente en el informe optimizado.
 
 ## <a name="lay-out-a-portrait-version-of-a-report-page"></a>Diseño de una versión vertical de una página de informe
 
@@ -44,7 +44,7 @@ Después de crear un informe, puede optimizarlo para teléfonos y tabletas.
    
     ![Arrastrar y soltar un objeto visual](media/desktop-create-phone-report/desktop-create-phone-report-4.gif)
    
-    Puede agregar todos o algunos de los objetos visuales de página de informe maestro a la página de informe de teléfono. Puede agregar cada objeto visual solo una vez. No debe incluir todos los objetos visuales.
+    Puede agregar todos o algunos de los objetos visuales de página de informe maestro a la página de informe de teléfono. Puede agregar cada objeto visual solo una vez. No hace falta que los incluya todos.
 
 4. Puede cambiar el tamaño de los objetos visuales en la cuadrícula, como lo haría para los mosaicos en los paneles y paneles móviles.
    

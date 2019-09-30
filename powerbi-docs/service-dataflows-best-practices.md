@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c5aeb74277379b46398dc709f5deda1d10dc0926
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: c499a83b87eb15031d75974084468f418a17804a
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919549"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142305"
 ---
 # <a name="dataflows-best-practice"></a>Procedimientos recomendados de los flujos de datos
 
@@ -28,7 +28,7 @@ En este artículo se describen los procedimientos recomendados para diseñar flu
 
 ### <a name="split-ingestion-and-transformation-to-use-the-enhanced-compute-engine"></a>Dividir la ingesta y la transformación para usar el motor de proceso mejorado
 
-Al crear flujos de datos, es posible que se sienta tentado a crear un único flujo de entrada con todas las entidades, transformaciones, combinaciones y mejoras en un solo lugar. En el caso de conjuntos de valores más pequeños, un único flujo de datos puede ser efectivo. Sin embargo, cuando se trabaja con volúmenes de datos más grandes, la realización de combinaciones o de determinadas transformaciones puede dar lugar en ocasiones a restricciones o límites de memoria. Para solucionar estos problemas, se ha lanzado el motor mejorado para usuarios de Power BI Premium que se escala a volúmenes de datos mucho mayores. El motor de proceso mejorado solo funciona con entidades vinculadas o calculadas, así que la creación de un flujo de datos para la ingesta y un flujo de datos vinculado para realizar todas las combinaciones y transformaciones complejas puede beneficiarse de las ventajas de este motor.
+Al crear flujos de datos, es posible que se sienta tentado a crear un único flujo de entrada con todas las entidades, transformaciones, combinaciones y mejoras en un solo lugar. En el caso de conjuntos de valores más pequeños, un único flujo de datos puede ser efectivo. Sin embargo, cuando se trabaja con volúmenes de datos más grandes, la realización de combinaciones o de determinadas transformaciones puede dar lugar en ocasiones a restricciones o límites de memoria. Para solucionar estos problemas, se ha lanzado el motor mejorado para usuarios de Power BI Premium que se escala a volúmenes de datos mucho mayores. El motor de proceso mejorado solo funciona con entidades vinculadas o calculadas, así que la creación de un flujo de datos para la ingesta y un flujo de datos vinculado para realizar todas las combinaciones y transformaciones complejas puede beneficiarse de las ventajas de este motor.
 
 La división de los flujos de datos también resulta beneficioso para el diagnóstico y la depuración de problemas de actualización, especialmente cuando se trabaja con orígenes que tienen limitaciones.
 

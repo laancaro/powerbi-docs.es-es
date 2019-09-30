@@ -1,6 +1,6 @@
 ---
-title: 'Error: No pudimos encontrar ningún dato en el libro de Excel'
-description: 'Error: No pudimos encontrar ningún dato en el libro de Excel'
+title: 'Error: Datos no encontrados en el libro de Excel'
+description: 'Error: Datos no encontrados en el libro de Excel'
 author: mgblythe
 manager: kfile
 ms.reviewer: ''
@@ -13,19 +13,19 @@ ms.custom: seodec18
 LocalizationGroup: Troubleshooting
 ms.openlocfilehash: 6fb02e6cbaca30859aa00f58ae07c9a3fd7f6fe0
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65101417"
 ---
-# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: No pudimos encontrar ningún dato en el libro de Excel
+# <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: Datos no encontrados en el libro de Excel
 
 >[!NOTE]  
 >Este artículo es aplicable a Excel 2007 y versiones posteriores.
 
 Al importar un libro de Excel en Power BI, es posible que vea el siguiente error:
 
-*Error: No encontramos ningún dato en formato de tabla. Para importar desde Excel en el servicio Power BI, debe dar formato a los datos como una tabla. Seleccione todos los datos que desee en la tabla y presione Ctrl+t.*
+*Error: No pudimos encontrar ningún dato con el formato de tabla. Para importar desde Excel en el servicio Power BI, debe aplicar a los datos el formato de tabla. Seleccione todos los datos que quiera de la tabla y presione Ctrl+T.*
 
 ![No se pudieron encontrar datos del libro](media/service-admin-troubleshoot-excel-workbook-data/power-bi-we-couldnt-find-any-data.png)
 

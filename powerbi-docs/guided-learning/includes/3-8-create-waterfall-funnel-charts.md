@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 78e5ba4edc84e7dabef17d608c938adc4693145d
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61397623"
@@ -14,7 +14,7 @@ Normalmente, los **gráficos de cascada** se utilizan para mostrar los cambios d
 
 ![](media/3-8-create-waterfall-funnel-charts/3-8_2.png)
 
-Cascadas sólo tienen dos opciones de cubo: *Categoría* y *eje Y*. Arrastre un campo de tiempo, como *Año*, al cubo *Categoría* y el valor del que desee realizar un seguimiento al cubo *Eje Y*. Los intervalos de tiempo en los que haya habido un aumento del valor se muestran en verde de manera predeterminada, mientras que los períodos en los que se haya producido una reducción en él se representan en rojo.
+Las cascadas solo tienen dos opciones de cubo: *Categoría* y *Eje*. Arrastre un campo de tiempo, como *Año*, al cubo *Categoría* y el valor del que desee realizar un seguimiento al cubo *Eje Y*. Los intervalos de tiempo en los que haya habido un aumento del valor se muestran en verde de manera predeterminada, mientras que los períodos en los que se haya producido una reducción en él se representan en rojo.
 
 Por su parte, los **gráficos de embudo** se utilizan habitualmente para mostrar los cambios durante un proceso concreto, como una canalización de ventas o las medidas de retención de un sitio web.
 

@@ -1,7 +1,7 @@
 ---
 ms.openlocfilehash: 1c000b2bfce4b6eeaa40b1a641321a20cea49d13
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "66051086"
@@ -17,7 +17,7 @@ A medida que Will explica las numerosas posibilidades que le ofrece Power BI, te
 
 ![](media/0-1-intro-using-power-bi/c0a1_1.png)
 
-Como mencionamos anteriormente, podría dedicar todo su tiempo al **servicio Power BI**, recopilando datos y creando paneles, y no habría ningún problema. Persona de su equipo podría dedicar todo su tiempo en **Power BI Desktop**, lo cual está bien. Para ayudarlo a entender Power BI al completo y lo que puede hacer con él, se lo mostraremos todo. Así, luego podrá decidir cómo usarlo de la forma que más le convenga.
+Como mencionamos anteriormente, podría dedicar todo su tiempo al **servicio Power BI**, recopilando datos y creando paneles, y no habría ningún problema. También puede darse el caso de que una persona de su equipo pase todo su tiempo en **Power BI Desktop**; lo cual también es correcto. Para ayudarlo a entender Power BI al completo y lo que puede hacer con él, se lo mostraremos todo. Así, luego podrá decidir cómo usarlo de la forma que más le convenga.
 
 Vamos a empezar y dejar que Will nos guíe por todo el proceso. Lo primero que vamos a explicar son los bloques de creación básicos de Power BI, con lo que obtendremos una base sólida para descubrir cómo este servicio convierte los datos en informes y objetos visuales atractivos.
 

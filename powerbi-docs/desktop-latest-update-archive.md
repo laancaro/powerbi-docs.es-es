@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: b61d0e3515b4efb08cb08a49d9bb339a1fbbb5a3
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70903686"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71142217"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -34,7 +34,7 @@ También puede ver el vídeo sobre las **últimas actualizaciones** desde el pri
 
 Las secciones siguientes describen las actualizaciones de los meses anteriores de **Power BI Desktop**.
 
-## <a name="august-2019-update-2715523641"></a>Actualización de agosto de 2019 (2.71.5523.641)
+## <a name="august-2019-update-2725556801"></a>Actualización de agosto de 2019 (2.72.5556.801)
 
 Nuestras actualizaciones de agosto fueron excelentes y brillaron en los informes que se pueden crear en Power BI Desktop. 
 

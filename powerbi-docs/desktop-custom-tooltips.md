@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: d5259ba22287a8a2ade3107e4320c39713dcb45e
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65239749"
@@ -22,10 +22,10 @@ La información sobre herramientas es una forma elegante de brindar más informa
 
 ![Información sobre herramientas predeterminada](media/desktop-custom-tooltips/custom-tooltips-1.png)
 
-Cuando se crea una visualización, la información sobre herramientas predeterminada muestra el valor y la categoría del punto de datos. Existen muchas instancias al personalizar la información sobre herramientas es útil y puede proporcionar contexto adicional e información para los usuarios que vean el objeto visual. La información sobre herramientas personalizada le permite especificar puntos de datos adicionales que se muestran como parte de la información sobre herramientas.
+Cuando se crea una visualización, la información sobre herramientas predeterminada muestra el valor y la categoría del punto de datos. Hay muchos casos en los que personalizar la información sobre herramientas es útil, y podría proporcionar información y contexto adicionales a los usuarios que ven el objeto visual. La información sobre herramientas personalizada le permite especificar puntos de datos adicionales que se muestran como parte de la información sobre herramientas.
 
 ## <a name="how-to-customize-tooltips"></a>Cómo personalizar la información sobre herramientas
-Para crear una información sobre herramientas personalizada, en el **campos** bien de la **visualizaciones** panel arrastrar un campo en el **informaciones sobre herramientas** depósito, se muestra en la siguiente imagen. En la imagen siguiente, se colocaron dos campos en el cubo **Información sobre herramientas**.
+Para crear una información sobre herramientas personalizada, en el área **Campos** del panel **Visualizaciones**, arrastre un campo al cubo **Información sobre herramientas**, como se muestra en la imagen siguiente. En la imagen siguiente, se colocaron dos campos en el cubo **Información sobre herramientas**.
 
 ![Agregar campos de información sobre herramientas](media/desktop-custom-tooltips/custom-tooltips-2.png)
 
@@ -38,5 +38,5 @@ Para personalizar aún más una información sobre herramientas, seleccione una 
 
 ![Información sobre herramientas con Cálculo rápido](media/desktop-custom-tooltips/custom-tooltips-4.png)
 
-Hay muchas maneras de personalizar **informaciones sobre herramientas**, mediante cualquier campo disponible en el conjunto de datos, para transmitir información rápida y detallada a los usuarios que ven sus paneles o informes.
+Hay muchas formas de personalizar la **información sobre herramientas**, mediante cualquier campo disponible en el conjunto de datos, para transmitir información rápida y detallada a los usuarios que ven sus paneles o informes.
 

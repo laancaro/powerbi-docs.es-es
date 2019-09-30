@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 38e393a07defcf572d06f00c14ff8e4efa3081cc
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185720"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71073414"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -56,7 +56,7 @@ La suscripción a informes paginados varía un poco. Para obtener más informaci
 
 5. Seleccione una **Frecuencia** para la suscripción: **Diaria**, **Horaria**, **Semanal**, **Mensual** o **Tras la actualización de los datos (una vez al día)** .  Para recibir el correo electrónico de la suscripción solo en días específicos, seleccione **Horaria** o **Semanal**, y elija los días en que quiera recibirla.  Por ejemplo, si quiere recibir el correo de suscripción solo los días laborables, seleccione **Semanal** y desactive las casillas de **Sáb.** y **Dom.** .  Si selecciona **Mensual**, escriba los días del mes en los que quiere recibir el correo de suscripción.  
 
-6. Si elige **Diaria**, **Horaria, **Mensual** o **Semanal**, también puede elegir una **Hora programada** para la suscripción.  Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos.  Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria.  Si especifica **Horaria**, seleccione la **Hora programada** en que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.
+6. Si elige **Diaria**, **Horaria**, **Mensual** o **Semanal**, también puede elegir una **Hora programada** para la suscripción.  Puede hacer que se ejecute a la hora, o bien pasados 15, 30 o 45 minutos.  Seleccione por la mañana (a. m.) o por la tarde/noche (p. m.). También puede especificar la zona horaria.  Si especifica **Horaria**, seleccione la **Hora programada** en que quiera que se inicie la suscripción, y se ejecutará cada hora a partir de entonces.
 
 7. De forma predeterminada, la fecha de inicio para la suscripción es la fecha en la que la ha creado. Tiene la opción de seleccionar una fecha de finalización. Si no establece una fecha de finalización, automáticamente será un año después de la fecha de inicio. Puede cambiarla a cualquier fecha en el futuro (hasta el año 9999) en cualquier momento antes de que finalice la suscripción. Cuando una suscripción alcanza una fecha de finalización, se detiene hasta que vuelva a habilitarla. Recibirá notificaciones antes de la fecha de finalización programada para preguntarle si quiere ampliarla.    
 

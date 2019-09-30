@@ -13,7 +13,7 @@ ms.author: davidi
 LocalizationGroup: Create reports
 ms.openlocfilehash: 99ad06b84b01ce94b3433952cdd031a81c336e04
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65454141"
@@ -48,7 +48,7 @@ Después, **Power BI Desktop** ejecuta sus algoritmos de aprendizaje automático
 
 Los valores con el filtro seleccionado aplicado se muestran en el color predeterminado normal. Los valores totales, igual que en el objeto visual de inicio original, se muestran en gris para facilitar la comparación. Se pueden incluir hasta tres filtros diferentes (*bicicletas de paseo*, *bicicletas de montaña* y *bicicletas de carretera* en este ejemplo). Para elegir los distintos filtros, hay que hacer clic en ellos (o usar CTRL+clic para seleccionar varios).
 
-Para las medidas de adición simples, como las *ventas totales* en este ejemplo, la comparación se basa en valores relativos, en vez de absolutos. Por lo tanto, mientras que las ventas de bicicletas de paseo son inferiores a las ventas totales para todas las categorías, el objeto visual utiliza un eje de dual para permitir la comparación entre la proporción de ventas a través de distintos países, Touring bikes frente a todas las categorías de bicicletas de forma predeterminada.  Al cambiar el botón de alternancia situado debajo del objeto visual, los dos valores se muestran en el mismo eje, lo que permite comparar fácilmente los valores absolutos (como se muestra en la imagen siguiente).    
+Para las medidas de adición simples, como las *ventas totales* en este ejemplo, la comparación se basa en valores relativos, en vez de absolutos. Por lo tanto, mientras que las ventas de bicicletas de paseo son claramente inferiores a las ventas totales de todas las categorías, el objeto visual usa de forma predeterminada un eje de dual para permitir la comparación entre la proporción de ventas en los distintos países para las bicicletas de paseo frente a todas las categorías de bicicletas.  Al cambiar el botón de alternancia situado debajo del objeto visual, los dos valores se muestran en el mismo eje, lo que permite comparar fácilmente los valores absolutos (como se muestra en la imagen siguiente).    
 
 ![objetos visuales que se muestran al usar información detallada](media/desktop-insights-find-where-different/find-where-different_04.png)
 
@@ -63,7 +63,7 @@ Puede usar la información detallada si el informe está en modo de lectura o de
 ## <a name="details-of-the-returned-results"></a>Detalles de los resultados devueltos
 Considere que el algoritmo toma todas las demás columnas del modelo, y en el caso de todos los valores de esas columnas, aplíquelos como filtros al objeto visual original para ver cuál de los valores de filtro produce el resultado más *diferente* con respecto al original.
 
-Es probable que preguntarse qué *diferentes* significa. Por ejemplo, supongamos que el reparto de ventas total entre los Estados Unidos y Canadá es el siguiente:
+Es probable que se pregunte qué significa *diferente*. Por ejemplo, supongamos que el reparto de ventas total entre los Estados Unidos y Canadá es el siguiente:
 
 |País  |Ventas (M de $)|
 |---------|----------|
@@ -97,7 +97,7 @@ Dada la naturaleza de dichas medidas, esto *sí* se considera diferente. Para la
 
 Por lo tanto, los objetos visuales que se muestran están diseñados para indicar claramente las diferencias que se encuentran entre la distribución total (como se ve en el objeto visual original) y el valor con el filtro particular aplicado.  
 
-Para las medidas de adición, como las *ventas* del ejemplo anterior, se usa un gráfico de columnas y líneas, donde el uso de un eje de dual con el escalado adecuado permite comparar fácilmente los valores relativos. Las columnas muestran el valor con el filtro aplicado, mientras que la línea muestra el valor total (con el eje de columna a la izquierda y el eje de línea a la derecha, como es habitual). La línea se muestra con un *escalonado* estilo con una línea discontinua, rellena con color gris. Para el ejemplo anterior, si el valor máximo del eje de columna es 4 y el valor máximo del eje de línea es de 20, a continuación, permitiría que facilitar la comparación de los valores relativos entre Estados Unidos y Canadá para los valores filtrados y general. 
+Para las medidas de adición, como las *ventas* del ejemplo anterior, se usa un gráfico de columnas y líneas, donde el uso de un eje de dual con el escalado adecuado permite comparar fácilmente los valores relativos. Las columnas muestran el valor con el filtro aplicado, mientras que la línea muestra el valor total (con el eje de columna a la izquierda y el eje de línea a la derecha, como es habitual). La línea se muestra mediante un estilo *escalonado*, con una línea discontinua, con relleno gris. Para el ejemplo anterior, si el valor máximo del eje de columna es 4 y el valor máximo del eje de línea es 20, se podrían comparar fácilmente los valores relativos entre los Estados Unidos y Canadá para los valores filtrados y totales. 
 
 Del mismo modo, para las medidas que no son de adición, como el *margen* en el ejemplo anterior, se usa un gráfico de columnas y líneas, donde el uso de un eje único permite comparar fácilmente los valores absolutos. De nuevo, la línea (rellena de color gris) muestra el valor total. Tanto si se comparan números reales o relativos, la determinación del grado en el que son diferentes dos distribuciones no se reduce a una cuestión de calcular la diferencia entre los valores. Por ejemplo:
 
@@ -107,7 +107,7 @@ Del mismo modo, para las medidas que no son de adición, como el *margen* en el 
 
 * Se emplean diferentes heurísticas para seleccionar los resultados más significativos, por ejemplo, al tener en cuenta otras relaciones entre los datos.
      
-Después de examinar las distintas columnas y los valores de cada una de estas columnas, se elige el conjunto de valores que ofrecen las mayores diferencias. Para facilitar la comprensión, los resultados se agrupan por columna, con la columna cuyos valores proporcionan la diferencia más importante en primer lugar. Se muestran hasta tres valores por cada columna, pero menor podría mostrarse si se produjeron durante menos de tres valores que tienen un gran efecto o si algunos valores son mucho más importantes que otras. 
+Después de examinar las distintas columnas y los valores de cada una de estas columnas, se elige el conjunto de valores que ofrecen las mayores diferencias. Para facilitar la comprensión, los resultados se agrupan por columna, con la columna cuyos valores proporcionan la diferencia más importante en primer lugar. Se muestran hasta tres valores por columna, pero podrían mostrarse menos si hay menos de tres valores con un gran efecto o si algunos valores son mucho más importantes que otros. 
 
 No necesariamente todas las columnas del modelo se examinarán en el tiempo disponible, por lo que no se garantiza que se muestren las columnas y los valores más impactantes. Aun así, se emplean diferentes heurísticas para asegurarse de que se examinen primero las columnas más probables. Por ejemplo, supongamos que después de examinar todas las columnas, se determina que las columnas o los valores siguientes tienen el mayor impacto en la distribución, mostrados de mayor a menor impacto:
 

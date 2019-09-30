@@ -9,85 +9,60 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/09/2018
+ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: abf6052d7cb912f9a8ff33f064b5dc1d44f5ba3e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: b52a858d10bb7f508d39e2d4e9678e48e01394f5
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61050428"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100356"
 ---
-# <a name="view-related-content-in-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
-El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos. El panel de contenido relacionado también es un panel de inicio para la realización de acciones. Desde aquí puede actualizar, cambiar el nombre, generar perspectivas y mucho más. Seleccione un panel o un informe relacionado, y se abrirán en el área de trabajo de Power BI.   
+# <a name="view-related-content-in-the-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
+El panel **Contenido relacionado** muestra cómo está interconectado el contenido del servicio Power BI: paneles, informes y conjuntos de datos. El panel **Contenido relacionado** también es un panel de inicio para la realización de acciones. Desde aquí puede hacer cosas como abrir un panel, abrir un informe, generar información, analizar los datos en Excel y mucho más.  
 
 En Power BI, los informes se integran en conjuntos de datos, las visualizaciones de informes se anclan a los paneles y los objetos visuales de paneles se vinculan a los informes. Pero ¿cómo sabe cuáles son los paneles que tienen las visualizaciones de su informe de marketing? ¿Y cómo se buscan esos paneles? ¿Está usando el panel de adquisiciones visualizaciones de más de un conjunto de datos? Si es así, ¿cómo se denominan y cómo puede abrir y editarlas? ¿Se está utilizando el conjunto de datos de recursos humanos en algún informe o panel? O bien, ¿se puede mover sin provocar la ruptura de los vínculos? Preguntas como estas pueden responderse en el panel **Contenido relacionado**.  No solo el panel muestra el contenido relacionado, también permite realizar acciones en el contenido y navegar fácilmente entre el contenido relacionado.
 
-![Contenido relacionado](./media/end-user-related/power-bi-view-related-dashboard-new.png)
+![Contenido relacionado](./media/end-user-related/power-bi-list.png)
 
 > [!NOTE]
 > La característica de contenido relacionado no funciona con los conjuntos de datos de streaming.
 > 
 > 
 
-## <a name="view-related-content-for-a-dashboard"></a>Visualización del contenido relacionado de un panel
+## <a name="view-related-content-for-a-dashboard-or-report"></a>Visualización del contenido relacionado de un panel o informe
 Vea el vídeo sobre la visualización del contenido relacionado de un panel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo con el conjunto de datos de ejemplo de análisis de adquisiciones.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M#t=3m05s" frameborder="0" allowfullscreen></iframe>
 
+Con el panel o informe abierto, seleccione los puntos suspensivos (…) en la barra de menús y elija **Ver relacionados** en el menú desplegable.
 
-Necesitará, como mínimo, permisos de *visualización* en un panel para abrir el panel **Contenido relacionado**. En este ejemplo usamos el [ejemplo de análisis de adquisiciones](../sample-procurement.md).
+![Lista desplegable de puntos suspensivos](./media/end-user-related/power-bi-dropdown.png)
 
-**Método 1**
+Se abre el panel **Contenido relacionado**. Para un panel, muestra todos los informes con visualizaciones ancladas al panel y los conjuntos de datos asociados. En este panel, hay visualizaciones ancladas desde un solo informe y ese informe se basa en solo un conjunto de datos. 
 
-En un área de trabajo, seleccione la pestaña **Paneles** y, luego, el icono de **Ver relacionados** ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
+![Panel Contenido relacionado](./media/end-user-related/power-bi-view-related-dashboard.png)
 
-![Pestaña Paneles](./media/end-user-related/power-bi-view-related-dash-newer.png)
+Desde aquí, pueda realizar una acción directa en el contenido relacionado.  Por ejemplo, seleccione el nombre de un informe o panel para abrirlo.  Para un informe de la lista, seleccione un icono para [analizar en Excel](../service-analyze-in-excel.md) u [obtener información detallada](end-user-insights.md). Para un conjunto de datos, puede ver la fecha y hora de la última actualización, [analizar en Excel](../service-analyze-in-excel.md) y [obtener información detallada](end-user-insights.md).  
 
-<br>
 
-**Método 2**
-
-Con un panel abierto, seleccione el   ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-new.png) en la barra de menús superior.
-
-Se abre el panel **Contenido relacionado**. Muestra todos los informes con visualizaciones ancladas al panel y los conjuntos de datos asociados. Para este panel, hay visualizaciones ancladas desde tres informes diferentes y estos se basan en tres conjuntos de datos distintos.
-
-![Panel Contenido relacionado](./media/end-user-related/power-bi-view-related-dashboard-new.png)
-
-Desde aquí, pueda realizar una acción directa en el contenido relacionado.  Por ejemplo, seleccione el nombre de un informe para abrirlo.  Para un informe de la lista, seleccione un icono para [analizar en Excel](../service-analyze-in-excel.md), [cambiar el nombre de](../service-rename.md) u [obtener información detallada](end-user-insights.md). Para conjunto de datos, seleccione un icono para [crear un informe](../service-report-create-new.md), [actualizar](../refresh-data.md), cambiar nombres, [analizar en Excel](../service-analyze-in-excel.md), [obtener información detallada](end-user-insights.md) o abrir la ventana **Configuración** del conjunto de datos.  
-
-## <a name="view-related-content-for-a-report"></a>Visualización del contenido relacionado de un informe
-Necesitará, como mínimo, permisos de *visualización* en un informe para abrir el panel **Contenido relacionado**. En este ejemplo usamos el [ejemplo de análisis de adquisiciones](../sample-procurement.md).
-
-**Método 1**
-
-En un área de trabajo, seleccione la pestaña **Informes** y, luego, el icono de **Ver relacionados** ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
-
-![Pestaña Informes](./media/end-user-related/power-bi-view-related-report-newer.png)
-
-<br>
-
-**Método 2**
-
-Abra el informe en la [vista de lectura](end-user-reading-view.md) y seleccione el ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-new.png) en la barra de menús superior.
-
-Se abre el panel **Contenido relacionado**. Muestra el conjunto de datos asociado y todos los paneles que tienen, al menos, un icono anclado desde el informe. Para este informe, hay visualizaciones ancladas a dos paneles diferentes.
-
-![Panel Contenido relacionado](./media/end-user-related/power-bi-view-related-report.png)
-
-Desde aquí, pueda realizar una acción directa en el contenido relacionado.  Por ejemplo, seleccione el nombre de un panel para abrirlo.  Para cualquier panel de la lista, seleccione un icono para [compartir el panel con otros usuarios](../service-share-dashboards.md) o abrir la ventana **Configuración** del panel. Para el conjunto de datos, seleccione un icono para [crear un informe](../service-report-create-new.md), [actualizar](../refresh-data.md), cambiar nombres, [analizar en Excel](../service-analyze-in-excel.md), [obtener información detallada](end-user-insights.md) o abrir la ventana **Configuración** del conjunto de datos.  
 
 ## <a name="view-related-content-for-a-dataset"></a>Visualización del contenido relacionado de un conjunto de datos
 Necesitará, como mínimo, permisos de *visualización* en un conjunto de datos para abrir el panel **Contenido relacionado**. En este ejemplo usamos el [ejemplo de análisis de adquisiciones](../sample-procurement.md).
 
+En la barra de navegación, busque el encabezado **Áreas de trabajo** y seleccione un área de trabajo en la lista. Si tiene contenido en un área de trabajo, se mostrará en el lienzo de la derecha. 
+
+![áreas de trabajo en la barra de navegación de la izquierda](./media/end-user-related/power-bi-workspace.png)
+
+
 En un área de trabajo, seleccione la pestaña **Conjuntos de datos** y busque el icono de **Ver relacionados** ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
 
-![Pestaña Conjuntos de datos](./media/end-user-related/power-bi-view-related-dataset-newer.png)
+![Pestaña Conjuntos de datos](./media/end-user-related/power-bi-related-dataset.png)
 
 Seleccione el icono para abrir el panel **Contenido relacionado**.
 
-![El panel de contenido relacionado se abre sobre la vista de contenido de Power BI](media/end-user-related/power-bi-datasets.png)
+![El panel de contenido relacionado se abre sobre la vista de contenido de Power BI](media/end-user-related/power-bi-dataset.png)
 
 Desde aquí, pueda realizar una acción directa en el contenido relacionado. Por ejemplo, seleccione un nombre de panel o informe para abrirlo.  Para cualquier panel de la lista, seleccione un icono para [compartir el panel con otros usuarios](../service-share-dashboards.md) o abrir la ventana **Configuración** del panel. Para un informe, seleccione un icono para [analizar en Excel](../service-analyze-in-excel.md), [cambiar el nombre de](../service-rename.md) u [obtener información detallada](end-user-insights.md).  
 

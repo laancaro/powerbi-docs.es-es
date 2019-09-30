@@ -1,5 +1,5 @@
 ---
-title: Optimizar un panel para teléfonos móviles - Power BI
+title: 'Optimización de un panel para teléfonos móviles: Power BI'
 description: Aprenda a crear una vista personalizada de un panel en el servicio Power BI, específicamente para su visualización en teléfonos móviles.
 author: maggiesMSFT
 manager: kfile
@@ -12,15 +12,15 @@ ms.author: maggies
 LocalizationGroup: Dashboards
 ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61158257"
 ---
-# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimizar un panel para teléfonos móviles - Power BI 
-Al ver los paneles en modo vertical en un teléfono, verá que los iconos del panel se colocan uno tras otro, el mismo tamaño. En el servicio Power BI, puede crear una vista personalizada de un panel específicamente para el modo vertical en teléfonos. Incluso si crea una vista de teléfono, al poner el teléfono, verá el panel como está dispuesta en el servicio.
+# <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimización de un panel para teléfonos móviles: Power BI 
+Al ver los paneles en modo vertical en un teléfono, observará que los iconos del panel se colocan uno tras otro y tienen todos el mismo tamaño. En el servicio Power BI puede crear una vista personalizada de un panel, específicamente para el modo vertical de los teléfonos. Incluso si crea una vista para teléfono, al poner el teléfono en modo horizontal, verá el panel como se ha diseñado en el servicio.
 
-¿Desea obtener información acerca de cómo ver paneles en un dispositivo móvil? Pruebe este tutorial rápido [Explore paneles e informes en las aplicaciones móviles de Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md) en su lugar.
+¿Busca información sobre cómo ver los paneles en un dispositivo móvil? Pruebe entonces este inicio rápido [Exploración de paneles e informes en la aplicación móvil de Power BI](consumer/mobile/mobile-apps-quickstart-view-dashboard-report.md).
 
 > [!NOTE]
 > Al editar la vista de teléfono, cualquiera que vea el panel en un teléfono puede ver los cambios que realice en tiempo real. Por ejemplo, si desancla todos los iconos en la vista de teléfono del panel, el panel en el teléfono no tendrá de repente ningún icono. 

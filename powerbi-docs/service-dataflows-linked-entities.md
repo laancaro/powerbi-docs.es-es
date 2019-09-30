@@ -12,7 +12,7 @@ ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: d766730185a9064241621d15efc9faf31334fe95
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "61136506"
@@ -88,11 +88,11 @@ Hay algunas limitaciones que se deben tener en cuenta al trabajar con entidades 
 
 Los artículos siguientes pueden resultar útiles para crear flujos de datos o trabajar con ellos. 
 
-* [Preparación de datos de autoservicio en Power BI](service-dataflows-overview.md)
+* [Autoservicio de preparación de los datos en Power BI](service-dataflows-overview.md)
 * [Creación y uso de flujos de datos en Power BI](service-dataflows-create-use.md)
-* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
+* [Uso de entidades calculadas en Power BI Premium](service-dataflows-computed-entities-premium.md)
 * [Uso de flujos de datos con orígenes de datos locales](service-dataflows-on-premises-gateways.md)
-* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
+* [Recursos para desarrolladores sobre flujos de datos de Power BI](service-dataflows-developer-resources.md)
 
 Para obtener más información sobre Power Query y la actualización programada, puede leer estos artículos:
 * [Información general sobre consultas en Power BI Desktop](desktop-query-overview.md)

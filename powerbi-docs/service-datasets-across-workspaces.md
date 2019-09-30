@@ -7,15 +7,15 @@ ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 09/16/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 258dd735c5ba97122d9e93f888e65cf2030f01eb
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: ace40fed472dc516cce5a761544cc5365566f3cd
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530463"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71074125"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
 
@@ -23,7 +23,7 @@ La inteligencia empresarial es una actividad de colaboración. Es importante est
 
 ![Selección de un conjunto de datos compartido](media/service-datasets-across-workspaces/power-bi-select-shared-dataset.png)
 
-En Power BI, los creadores de conjuntos de datos pueden controlar quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Los creadores de conjuntos de datos también pueden *certificar* o *promover* conjuntos de datos para que otros usuarios los puedan detectar. De este modo, los autores de informes saben qué conjunto de datos son de alta calidad y oficiales, y pueden usar estos conjuntos de datos siempre que se creen en Power BI. Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
+En Power BI, los creadores de conjuntos de datos pueden controlar quién tiene acceso a los datos mediante el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets). Los creadores de conjuntos de datos también pueden *certificar* o *promover* conjuntos de datos para que otros usuarios los puedan detectar. De ese modo, los autores de informes saben qué conjuntos de datos son de alta calidad y oficiales, y pueden usar estos conjuntos de datos siempre que se creen en Power BI. Los administradores de inquilinos tienen una nueva configuración de inquilino para [controlar el uso de los conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md).
 
 ## <a name="dataset-sharing-and-the-new-workspace-experience"></a>Uso compartido de conjuntos de datos y la nueva experiencia de área de trabajo
 
@@ -55,6 +55,7 @@ Si crea conjuntos de datos, al crear uno del que otros usuarios se puedan benefi
 Las características y experiencias específicas basadas en funciones de conjuntos de datos compartidos tienen licencias acordes a sus escenarios existentes. Por ejemplo:
 
 - En general, la detección y conexión a conjuntos de datos compartidos está disponible para todos los usuarios. Pero los usuarios sin una licencia Pro solo se pueden conectar a conjuntos de datos que residan en su instancia personal de Mi área de trabajo.
+- Los usuarios que no tienen una licencia Pro solo pueden usar informes y paneles basados en un conjunto de datos compartido si ambas áreas de trabajo (la que incluye el contenido y la que incluye el conjunto de datos) se hospedan en una capacidad Premium.
 - En Power BI Desktop, los usuarios sin una licencia Pro solo pueden ver los conjuntos de datos de Mi área de trabajo.
 - Para copiar informes entre áreas de trabajo se necesita una licencia Pro.
 - Para copiar informes desde una aplicación se requiere una licencia Pro, como para los paquetes de contenido de la organización.
@@ -66,7 +67,7 @@ Las características y experiencias específicas basadas en funciones de conjunt
 - Imagine que crea un informe en el área de trabajo A basado en un conjunto de datos del área de trabajo B. Al crear una aplicación para el área de trabajo A, solo puede incluir ese informe en la aplicación del área de trabajo A si también es miembro del área de trabajo B.
 - En un área de trabajo clásica, la experiencia de detección de conjunto de datos solo muestra los conjuntos de datos de esa área de trabajo.
 - Si quiere agregar un informe basado en un conjunto de datos compartido a una aplicación, tendrá que ser miembro del área de trabajo del conjunto de datos. Se trata de un problema conocido.
-- "Publicar en la web" no funciona para un informe basado en un conjunto de datos compartido. Esto es así por diseño.
+- De manera predeterminada, "Publicar en la web" no funciona para un informe basado en un conjunto de datos compartido.
 - Si dos usuarios son miembros de un área de trabajo que accede a un conjunto de datos compartido, es posible que solo uno de ellos pueda ver el conjunto de datos relacionado en el área de trabajo. Solo los usuarios que tengan al menos acceso de lectura al conjunto de datos podrán ver el conjunto de datos compartido. 
 
 ## <a name="next-steps"></a>Pasos siguientes

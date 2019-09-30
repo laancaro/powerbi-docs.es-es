@@ -8,15 +8,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/12/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 80182ae0898ab5c88acb85ce24a55fe615cf2a0b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 589f34db5009a9203ee33c13dc4931e42d68ddcb
+ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61415645"
+ms.lasthandoff: 09/17/2019
+ms.locfileid: "71076097"
 ---
 # <a name="refresh-a-dataset-created-from-a-csv-file-on-onedrive-or-sharepoint-online"></a>Actualizar un conjunto de datos creado a partir de un archivo .csv en OneDrive o SharePoint Online
 ## <a name="what-are-the-advantages"></a>¿Cuáles son las ventajas?
@@ -36,7 +36,7 @@ La conexión a OneDrive para la Empresa en Power BI suele realizarse sin problem
 
 Si inicia sesión en su cuenta Microsoft, asegúrese de seleccionar Mantener la sesión iniciada. Posteriormente, Power BI puede sincronizar las actualizaciones con los conjuntos de datos en Power BI.
 
-![](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
+![Ejemplo de inicio de sesión](media/refresh-csv-file-onedrive/refresh_signin_keepmesignedin.png)
 
 Si realiza cambios en el archivo .csv en OneDrive que no se pueden sincronizar con el conjunto de datos de Power BI porque podrían haber cambiado sus credenciales de la cuenta Microsoft, deberá conectarse al archivo e importarlo de nuevo desde OneDrive personal.
 

@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: overview
-ms.date: 05/08/2019
+ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 711e0252cddcc78437e03a82d91c67441cfc3a55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
+ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513518"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "71141978"
 ---
 # <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 
@@ -32,6 +32,16 @@ Los usos más comunes de **Power BI Desktop** son los siguientes:
 * Compartir informes con otros usuarios mediante el **servicio Power BI**
 
 A las personas que suelen hacerse responsables de tales tareas se les considera a menudo como *analistas de datos* (a los que a veces se hace referencia solo con el término *analistas*) o profesionales de inteligencia empresarial (a menudo conocidos como *creadores de informes*). Sin embargo, muchas personas que no se consideran analistas o creadores de informes usan **Power BI Desktop** para crear informes atractivos o para extraer datos de varios orígenes y crear modelos de datos, que pueden compartir con sus compañeros de trabajo y organizaciones.
+
+Hay tres vistas en Power BI Desktop, que se muestran a lo largo del lado izquierdo del lienzo. Las vistas, que se muestran en el orden en que aparecen, son las siguientes:
+* **Vista de informe**: es aquí donde crea informes y objetos visuales y donde pasa la mayor parte del tiempo de creación.
+* **Vista de datos**: es aquí donde puede ver las tablas, las medidas y otros datos que se usan en el modelo de datos asociado con el informe y transformar los datos para usarlos de mejor manera en el modelo del informe.
+* **Vista de modelo**: en esta vista, puede ver y administrar las relaciones entre las tablas del modelo de datos.
+
+En la imagen siguiente se ven las tres vistas, tal como se muestran a lo largo del lado izquierdo del lienzo:
+
+![distintas vistas](media/desktop-what-is-desktop/what-is-desktop-07.png)
+
 
 Con **Power BI Desktop**, puede crear informes complejos y enriquecidos visualmente, mediante los datos de varios orígenes, todo en un informe que se puede compartir con otras personas de su organización. 
 

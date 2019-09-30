@@ -1,6 +1,6 @@
 ---
-title: Uso de SAML para el inicio de sesión único (SSO) en orígenes de datos locales
-description: Configure la puerta de enlace con SAML (Lenguaje de marcado de aserción de seguridad) para habilitar el inicio de sesión único (SSO) de Power BI a orígenes de datos locales.
+title: Uso de SAML para SSO en orígenes de datos locales
+description: Configure la puerta de enlace con SAML (Lenguaje de marcado de aserción de seguridad) para habilitar el SSO de Power BI en orígenes de datos locales.
 author: mgblythe
 ms.author: mblythe
 manager: kfile
@@ -8,16 +8,16 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 07/15/2019
+ms.date: 09/16/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: a240d84b20f63542c33bb7cbbb9a9c97af7db2f7
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 75641468b52d4174779b9ddd03ed7aab27b6c5d0
+ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757669"
+ms.lasthandoff: 09/18/2019
+ms.locfileid: "71100408"
 ---
-# <a name="use-security-assertion-markup-language-saml-for-single-sign-on-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales
+# <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el SSO de Power BI en orígenes de datos locales
 
 Use [SAML (Lenguaje de marcado de aserción de seguridad)](https://www.onelogin.com/pages/saml) para habilitar la conectividad de inicio de sesión único directa. La habilitación de SSO facilita la tarea de los paneles y los informes de Power BI para actualizar los datos de orígenes locales.
 
@@ -27,7 +27,7 @@ Actualmente se admite SAP HANA con SAML. Para obtener más información acerca d
 
 Se admiten orígenes de datos adicionales con [Kerberos](service-gateway-sso-kerberos.md).
 
-Tenga en cuenta que para HANA es **altamente** recomendable que el cifrado se habilite antes de establecer una conexión de SSO de SAML (es decir, debe configurar el servidor HANA para que acepte conexiones cifradas y además configurar la puerta de enlace para que use cifrado al comunicarse con el servidor HANA). El controlador ODBC de HANA **no** puede cifrar las aserciones de SAML de forma predeterminada y, si el cifrado no está activado, la aserción de SAML firmada se envía desde la puerta de enlace al servidor HANA sin cifrar y es vulnerable a la intercepción y reutilización por parte de terceros.
+Tenga en cuenta que para HANA es **altamente** recomendable que el cifrado se habilite antes de establecer una conexión de SSO de SAML (es decir, debe configurar el servidor HANA para que acepte conexiones cifradas y además configurar la puerta de enlace para que use cifrado al comunicarse con el servidor HANA). El controlador ODBC de HANA **no** puede cifrar las aserciones de SAML de forma predeterminada y, si el cifrado no está activado, la aserción de SAML firmada se envía desde la puerta de enlace al servidor HANA sin cifrar y es vulnerable a la intercepción y reutilización por parte de terceros. Consulte [Habilitación del cifrado para SAP HANA](/power-bi/desktop-sap-hana-encryption) para instrucciones sobre cómo habilitar el cifrado para HANA con la biblioteca de OpenSSL.
 
 ## <a name="configuring-the-gateway-and-data-source"></a>Configuración del origen de datos y la puerta de enlace
 
@@ -35,16 +35,17 @@ Para usar SAML, debe establecer una relación de confianza entre los servidores 
 
 Además, tenga en cuenta que, aunque esta guía usa OpenSSL como proveedor de servicios criptográficos del servidor HANA, SAP recomienda usar la biblioteca de cifrado de SAP (también conocida como CommonCryptoLib o sapcrypto), en lugar de OpenSSL, para realizar los pasos de configuración donde se establece la relación de confianza. Vea la documentación oficial de SAP para obtener más información.
 
-En los pasos siguientes se explica cómo establecer una relación de confianza entre un servidor HANA y el IdP de la puerta de enlace mediante la firma del certificado X509 del IdP de la puerta de enlace con una entidad de certificación raíz de confianza para el servidor HANA.
+En los pasos siguientes se explica cómo establecer una relación de confianza entre un servidor HANA y el IdP de la puerta de enlace mediante la firma del certificado X509 del IdP de la puerta de enlace con una entidad de certificación raíz de confianza para el servidor HANA. Creará esta CA raíz.
 
 1. Cree el certificado X509 de la CA raíz y la clave privada. Por ejemplo, para crear el certificado X509 de la CA raíz y la clave privada en formato .pem:
 
    ```
    openssl req -new -x509 -newkey rsa:2048 -days 3650 -sha256 -keyout CA_Key.pem -out CA_Cert.pem -extensions v3_ca
    ```
-  Asegúrese de que el certificado de la entidad de certificación raíz está protegido correctamente; si cae en manos de terceros, lo podrían usar para obtener acceso no autorizado al servidor HANA. 
 
-  Agregue el certificado (por ejemplo, CA_Cert.pem) al almacén de confianza del servidor HANA para que este confíe en los certificados firmados por la CA raíz que acaba de crear. Puede encontrar la ubicación del almacén de confianza del servidor HANA si examina la opción de configuración **ssltruststore**. Si ha seguido la documentación de SAP que trata de cómo configurar OpenSSL, es posible que el servidor HANA ya confíe en una CA raíz que pueda reutilizar. Para obtener detalles, vea [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (Procedimientos para configurar Open SSL para SAP HANA Studio en un servidor SAP HANA). Si tiene varios servidores HANA para los que quiera habilitar SSO de SAML, asegúrese de que todos los servidores confíen en esta CA raíz.
+    Asegúrese de que el certificado de la entidad de certificación raíz está protegido correctamente; si cae en manos de terceros, lo podrían usar para obtener acceso no autorizado al servidor HANA. 
+
+    Agregue el certificado (por ejemplo, CA_Cert.pem) al almacén de confianza del servidor HANA para que este confíe en los certificados firmados por la CA raíz que acaba de crear. Puede encontrar la ubicación del almacén de confianza del servidor HANA si examina la opción de configuración **ssltruststore**. Si ha seguido la documentación de SAP que trata de cómo configurar OpenSSL, es posible que el servidor HANA ya confíe en una CA raíz que pueda reutilizar. Para obtener detalles, vea [How to Configure Open SSL for SAP HANA Studio to SAP HANA Server](https://archive.sap.com/documents/docs/DOC-39571) (Procedimientos para configurar Open SSL para SAP HANA Studio en un servidor SAP HANA). Si tiene varios servidores HANA para los que quiera habilitar SSO de SAML, asegúrese de que todos los servidores confíen en esta CA raíz.
 
 1. Cree el certificado X509 del IdP de la puerta de enlace. Por ejemplo, para crear una solicitud de firma de certificado (IdP_Req.pem) y una clave privada (IdP_Key.pem) que sean válidos durante un año, ejecute el siguiente comando:
 
@@ -131,17 +132,18 @@ Por último, siga estos pasos para agregar la huella digital del certificado a l
     ```powershell
     Get-ChildItem -path cert:\LocalMachine\My
     ```
+
 1. Copie la huella digital del certificado que ha creado.
 
-1. Navegue hasta el directorio de la puerta de enlace, cuyo valor predeterminado es C:\Archivos de programa\Puerta de enlace de datos local.
+1. Vaya al directorio de la puerta de enlace que, de manera predeterminada, es C:\Archivos de programa\Puerta de enlace de datos local.
 
-1. Abra PowerBI.DataMovement.Pipeline.GatewayCore.dll.config y busque la sección \*SapHanaSAMLCertThumbprint\*. Pegue la huella digital que ha copiado.
+1. Abra PowerBI.DataMovement.Pipeline.GatewayCore.dll.config y busque la sección *SapHanaSAMLCertThumbprint*. Pegue la huella digital que ha copiado.
 
 1. Reinicie el servicio de puerta de enlace.
 
 ## <a name="running-a-power-bi-report"></a>Ejecución de un informe de Power BI
 
-Ahora puede usar la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos y, en su **Configuración avanzada** , habilitar SSO. A continuación, puede publicar los enlaces de los conjuntos de datos y los informes al origen de datos.
+Ahora puede usar la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos de SAP HANA y, en su **Configuración avanzada**, habilitar SSO. A continuación, puede publicar los enlaces de los conjuntos de datos y los informes al origen de datos.
 
 ![Configuración avanzada](media/service-gateway-sso-saml/advanced-settings.png)
 
