@@ -1,24 +1,24 @@
 ---
 title: Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 description: Los objetos visuales de Power BI pueden controlar el cambio de marcadores.
-author: zBritva
-ms.author: v-ilgali
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: c7fb8fa6fcf8c07f0d8f466892fff8d03a492a79
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: c19b67a59d0ecb4cbfbcf5ad8dd18886f440e164
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237285"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194443"
 ---
 # <a name="add-bookmark-support-for-power-bi-visuals"></a>Adición de compatibilidad de los marcadores para los objetos visuales de Power BI
 
-Con los marcadores de los informes de Power BI, puede capturar una vista configurada de una página de informes, el estado de selección y el estado de filtrado del objeto visual. Con todo, los objetos visuales personalizados requieren una acción más para admitir los marcadores y poder reaccionar correctamente a los cambios.
+Con los marcadores de los informes de Power BI, puede capturar una vista configurada de una página de informes, el estado de selección y el estado de filtrado del objeto visual. Con todo, los objetos visuales de Power BI requieren una acción más para admitir los marcadores y poder reaccionar correctamente a los cambios.
 
 Para obtener más información sobre los marcadores, consulte [Uso de marcadores para compartir información detallada y crear historias en Power BI](https://docs.microsoft.com/power-bi/desktop-bookmarks).
 
@@ -32,7 +32,7 @@ Si el objeto visual interactúa con otros objetos visuales, selecciona puntos de
 
 2. Actualice la API del objeto visual a la versión 1.11.0 para usar `registerOnSelectCallback` en una instancia de `SelectionManager`. Se necesita para los objetos visuales que no sean de filtro y que usen `SelectionManager` estándar en lugar de `InteractivityService`.
 
-### <a name="how-custom-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interacción de los objetos visuales personalizados con Power BI en los marcadores de un informe
+### <a name="how-power-bi-visuals-interact-with-power-bi-in-report-bookmarks"></a>Interacción de los objetos visuales de Power BI con Power BI en los marcadores de un informe
 
 Veamos el siguiente escenario: quiere crear varios marcadores en la página de informes, con un estado de selección diferente en cada marcador.
 

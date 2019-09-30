@@ -1,20 +1,20 @@
 ---
 title: Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 description: En este artículo se describe cómo transforma Power BI los datos antes de pasarlos en objetos visuales.
-author: asander
-ms.author: asander
+author: KesemSharabi
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 07989183688045f34d78e71cdaad5045d080f436
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237225"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193540"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 
@@ -281,7 +281,7 @@ Esta es la asignación de vista de datos:
 
 La vista de datos categóricos podrían visualizarse de esta forma:
 
-| Categórica |  |  | | | |
+| Categórico |  |  | | | |
 |-----|-----|------|------|------|------|
 | | Año | 2013 | 2014 | 2015 | 2016 |
 | País | | |
@@ -618,7 +618,7 @@ El objeto visual obtiene su estructura de datos tal y como se describe en el có
 
 Para controlar la cantidad de datos que se van a recibir en la vista de datos, puede aplicar un algoritmo de reducción de datos.
 
-De forma predeterminada, todos los objetos visuales personalizados tienen aplicado el algoritmo de reducción de datos principal con el valor de *count* establecido en 1000 puntos de datos. Esto equivale a establecer las siguientes propiedades en el archivo *capabilities.json*:
+De manera predeterminada, todos los objetos visuales de Power BI tienen aplicado el algoritmo de reducción de datos principal con el valor de *count* establecido en 1000 puntos de datos. Esto equivale a establecer las siguientes propiedades en el archivo *capabilities.json*:
 
 ```json
 "dataReductionAlgorithm": {
@@ -628,7 +628,7 @@ De forma predeterminada, todos los objetos visuales personalizados tienen aplica
 }
 ```
 
-Puede modificar el valor de *count* por cualquier valor entero hasta 30 000. Los objetos visuales personalizados basados en R admiten hasta 150 000 filas.
+Puede modificar el valor de *count* por cualquier valor entero hasta 30 000. Los objetos visuales de Power BI basados en R admiten hasta 150 000 filas.
 
 ## <a name="data-reduction-algorithm-types"></a>Tipos de algoritmos de reducción de datos
 

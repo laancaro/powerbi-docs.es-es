@@ -1,26 +1,26 @@
 ---
 title: Desarrollar un objeto visual de Power BI
 description: Un tutorial sobre cómo desarrollar un objeto visual personalizado de Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 03/15/2019
-ms.openlocfilehash: 2dc1d0a316319867513dc9f25a195c3f2d1140b9
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: 5d9ed20435069fa31707d9532141558351ec63ba
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415439"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194501"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desarrollar un objeto visual de Power BI
 
-Permitimos que los desarrolladores agreguen fácilmente a Power BI objetos visuales personalizados para usarlos en los paneles e informes. Para ayudarle a comenzar, hemos publicado en GitHub el código de todas nuestras visualizaciones.
+Permitimos que los desarrolladores agreguen fácilmente a Power BI objetos visuales de Power BI para usarlos en los paneles e informes. Para ayudarle a comenzar, hemos publicado en GitHub el código de todas nuestras visualizaciones.
 
-Junto con el marco de trabajo de visualización, incluimos nuestro conjunto de pruebas y herramientas para ayudar a la comunidad a crear objetos visuales personalizados de alta calidad para Power BI.
+Junto con el marco de trabajo de visualización, incluimos nuestro conjunto de pruebas y herramientas para ayudar a la comunidad a crear objetos visuales de Power BI de alta calidad para Power BI.
 
 Este tutorial le muestra cómo desarrollar un objeto visual personalizado de Power BI llamado Circle Card para mostrar un valor de medida formateado dentro de un círculo. El objeto visual Circle Card admite la personalización del color de relleno y el grosor de su contorno.
 

@@ -11,7 +11,7 @@ ms.topic: conceptual
 ms.date: 02/05/2019
 ms.openlocfilehash: 4bc24df67dd7d2b8ac0ae987ad2e50cff082c73f
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65710393"
@@ -21,7 +21,7 @@ Este artículo forma parte de un tutorial paso a paso para [insertar datos en un
 
 En el **paso 2** de Insertar datos en un conjunto de datos, [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md), obtuvo un token para autenticarse en **Azure AD**. En este paso, el token se usa para llamar a la operación [PostDataSet](https://docs.microsoft.com/rest/api/power-bi/pushdatasets).
 
-Para realizar una llamada a un recurso de REST, se usa una dirección URL que localiza el recurso y se envía una cadena de notación de objetos JavaScript (JSON), que describe el conjunto de datos, al recurso del servicio Power BI. Un recurso de REST identifica la parte del servicio Power BI con la que quiere trabajar. Para insertar datos en el conjunto de datos, el recurso de destino es un **conjunto de datos**. La dirección URL que identifica un conjunto de datos es https://api.PowerBI.com/v1.0/myorg/datasets. Si va a insertar datos dentro de un grupo, la dirección url es https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
+Para realizar una llamada a un recurso de REST, se usa una dirección URL que localiza el recurso y se envía una cadena de notación de objetos JavaScript (JSON), que describe el conjunto de datos, al recurso del servicio Power BI. Un recurso de REST identifica la parte del servicio Power BI con la que quiere trabajar. Para insertar datos en el conjunto de datos, el recurso de destino es un **conjunto de datos**. La dirección URL que identifica un conjunto de datos es https://api.PowerBI.com/v1.0/myorg/datasets. Si inserta datos en un grupo, la dirección URL es https://api.PowerBI.com/v1.0/myorg/groups/{group_id}/datasets.
 
 Para autenticar una operación de REST de Power BI, debe agregar el token que obtuvo en [Obtener un token de acceso de autenticación](walkthrough-push-data-get-token.md) a un encabezado de solicitud:
 

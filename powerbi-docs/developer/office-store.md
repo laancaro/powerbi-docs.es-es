@@ -1,22 +1,22 @@
 ---
-title: Publicar objetos visuales personalizados en AppSource
+title: Publicación de objetos visuales de Power BI en AppSource
 description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: cb21d3baf9523a90b0446b44704587b5af73904f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 3cbc2c6fcb70d6298c9d2ade3e3f2cd10cd8a834
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623830"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194502"
 ---
-# <a name="publish-custom-visuals-to-appsource"></a>Publicar objetos visuales personalizados en AppSource
+# <a name="publish-power-bi-visuals-to-appsource"></a>Publicación de objetos visuales de Power BI en AppSource
 
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
 
@@ -40,13 +40,13 @@ Cuando acabe de leer nuestras [Instrucciones para objetos visuales de Power BI]
 | Capturas de pantalla |Sí |Debe incluir al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 1366 px (ancho) x 768 px (alto). El tamaño del archivo no puede superar los 1024 KB. *Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura.* |
 | Vínculo de descarga de soporte técnico |Sí |Especifique la dirección URL en la que se proporcionará soporte técnicos a los clientes que tengan problemas con el objeto visual. Este vínculo se especifica como parte de su lista de SellerDashboard y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato de la dirección URL debe incluir https:// o http://. |
 | Vínculo de documento de privacidad |Sí |Especifique un vínculo a la directiva de privacidad para los clientes que usen el objeto visual. Este vínculo se especifica como parte de su lista de SellerDashboard y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato del vínculo debe incluir https:// o http://. |
-| Contrato de licencia para el usuario final (CLUF) |Sí |Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Contrato de licencia para el usuario final (CLUF) |Sí |Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
 | Enlace de vídeo |No |Para aumentar el interés de los usuarios por el objeto visual personalizado, se recomienda incluir un vínculo a un vídeo acerca de dicho objeto. El formato de la dirección URL debe incluir https:// o http://. |
 | Repositorio de GitHub |No |Es preferible tener un vínculo válido y público a un repositorio de [GitHub](https://www.github.com) con orígenes del objeto visual y datos de ejemplo que permitir que otros desarrolladores incluyan comentarios y sugieran mejoras en el código. |
 
 ## <a name="submitting-to-power-bi"></a>Envío a Power BI
 
-Todo comienza con el envío de un correo electrónico al equipo de envío de objetos visuales personalizados de Power BI. Dicho correo electrónico se puede dirigir a [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+Todo comienza con el envío de un correo electrónico al equipo de envío de objetos visuales de Power BI. Dicho correo electrónico se puede dirigir a [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
 
 > [!IMPORTANT]
 > Debe rellenar los campos siguientes en el archivo pbiviz.json: "description", "supportUrl", "author", "name" y "email" antes de crear el paquete .pbiviz.
@@ -89,7 +89,7 @@ Siga estos pasos para completar el envío.
    * *Título del envío:* cómo se denominará el envío en el centro para desarrolladores.
    * *Versión:* el número de versión se rellena automáticamente desde el paquete de la aplicación del complemento.
    * *Fecha de lanzamiento (UCT):* seleccione la fecha en que se publicará la aplicación en la tienda. Si se elige una fecha futura, la aplicación no estará disponible en la tienda hasta dicha fecha.
-   * *Categoría:* la primera categoría se rellenará como "Visualización de datos + BI" de forma automática. Así es como se etiquetan todos los objetos visuales personalizados de Power BI. Puede proporcionar hasta dos categorías adicionales para ayudar a los usuarios a buscar fácilmente el objeto visual.
+   * *Categoría:* la primera categoría se rellenará como "Visualización de datos + BI" de forma automática. Así es como se etiquetan todos los objetos visuales de Power BI. Puede proporcionar hasta dos categorías adicionales para ayudar a los usuarios a buscar fácilmente el objeto visual.
    * *Notas de pruebas:* opcional, si desea proporcionar instrucciones para los evaluadores de Microsoft
    * *Mi aplicación llama, admite, contiene o usa criptografía o cifrado*: déjela desactivada
    * *Establecer este complemento como disponible en el catálogo de complementos de Office para iPad*: déjela desactivada
@@ -104,7 +104,7 @@ Siga estos pasos para completar el envío.
    * Enlace de vídeo
    * Contrato de licencia de usuario final (CLUF)
 
-       Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales personalizados de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+       Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
 
 8. Seleccione **Siguiente** para pasar a la página **Detalles**.
 

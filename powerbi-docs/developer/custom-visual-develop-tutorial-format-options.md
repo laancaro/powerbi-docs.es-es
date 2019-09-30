@@ -1,22 +1,22 @@
 ---
 title: Adición de opciones de formato a un objeto visual personalizado de Power BI
 description: Tutorial sobre cómo desarrollar opciones de formato para los objetos visuales personalizados de Power BI
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 11/21/2018
-ms.openlocfilehash: 56134143a752a094c339248c3eeeab57116d3501
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5fa14e3aa8a303206d52359d04db05850e096d81
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61380454"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194586"
 ---
-# <a name="tutorial-adding-formatting-options-to-a-power-bi-custom-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual personalizado de Power BI
+# <a name="tutorial-adding-formatting-options-to-a-power-bi-visual"></a>Tutorial: Adición de opciones de formato a un objeto visual de Power BI
 
 En este tutorial aprenderá a agregar propiedades comunes al objeto visual.
 
@@ -263,4 +263,4 @@ Para obtener sugerencias sobre cómo depurar el objeto visual personalizado, con
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede enumerar los objetos visuales recién desarrollados para que los usen otras personas y enviarlos a **AppSource**. Para obtener más información sobre este proceso, vea [Publicar objetos visuales personalizados en AppSource](office-store.md).
+Puede enumerar los objetos visuales recién desarrollados para que los usen otras personas y enviarlos a **AppSource**. Para más información sobre este proceso, consulte [Publicación de objetos visuales de Power BI en AppSource](office-store.md).
