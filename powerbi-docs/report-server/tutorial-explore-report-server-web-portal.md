@@ -11,7 +11,7 @@ ms.date: 05/06/2019
 ms.author: maggies
 ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
 ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: es-ES
 ms.lasthandoff: 05/29/2019
 ms.locfileid: "65240124"
@@ -37,7 +37,7 @@ Para este tutorial, necesita una suscripción a Azure. Si no tiene una suscripci
 
 Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye con Power BI Report Server ya instalado.
 
-1. En Azure Marketplace, seleccione Power BI Report Server. Este vínculo abre directamente: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
+1. En Azure Marketplace, seleccione Power BI Report Server. Este vínculo lo abre directamente: [Power BI Report Server](https://azuremarketplace.microsoft.com/marketplace/apps/reportingservices.technical-preview?tab=Overview).  
 
 2. Seleccione **Obtenerlo ahora**.
 3. Para aceptar los términos de uso y la directiva de privacidad del proveedor, seleccione **Continuar**.
@@ -46,13 +46,13 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
     ![Creación de una máquina virtual de Power BI Report Server](media/tutorial-explore-report-server-web-portal/power-bi-report-server-create.png)
 
-5. En **paso 1, aspectos básicos**, para **nombre de máquina virtual**, llámelo **reportservervm**.
+5. En el **Paso 1 Aspectos básicos**, en **Nombre de VM**, escriba **reportservervm**.
 
-    El nombre de la máquina virtual Server de informes de Power BI no puede contener guiones.
+    El nombre de la máquina virtual Power BI Report Server no puede contener guiones.
 
 5. Cree un nombre de usuario y una contraseña.
 
-6. Para **grupo de recursos**, seleccione **crear nuevo**y llámelo **reportserverresourcegroup** > **Aceptar**.
+6. En **Grupo de recursos**, seleccione **Crear nuevo** y asígnele el nombre **reportserverresourcegroup** > **Aceptar**.
 
     Si realiza los pasos de este tutorial más de una vez, necesitará proporcionar al grupo de recursos un nombre diferente. No puede usar el mismo nombre de grupo de recursos dos veces en la misma suscripción. 
 
@@ -60,15 +60,15 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
 7. Mantenga los demás valores predeterminados > **Aceptar**.
 
-8. En **paso 2 configuración**, conserve los valores predeterminados > **Aceptar**.
+8. En el **Paso 2 Configuración**, mantenga los valores predeterminados y haga clic en **Aceptar**.
  
-    El **cuenta de almacenamiento SQL** y **cuenta de almacenamiento de diagnósticos** valores también deben ser únicos. Si se desplaza por el tutorial varias veces, deberá darles nombres diferentes.
+    Los valores de la **cuenta de almacenamiento de SQL** y de la **cuenta de almacenamiento de diagnóstico** también deben ser únicos. Si realiza los pasos del tutorial más de una vez, deberá proporcionarles nombres diferentes.
 
-9. En **resumen del paso 3**, revise las selecciones > **Aceptar**.
+9. En el **Paso 3 Resumen**, revise las selecciones y haga clic en **Aceptar**.
 
-10. En **paso 4 comprar**, revise los términos de la directiva de privacidad y de usuario > **crear**.
+10. En el **Paso 4 Comprar**, revise los términos de uso y la directiva de privacidad y haga clic en **Crear**.
 
-    El **enviando implementación para Power BI Report Server** proceso puede tardar varios minutos.
+    El proceso de **envío de la implementación para Power BI Report Server** puede tardar varios minutos.
 
 ## <a name="connect-to-your-virtual-machine"></a>Conexión a la máquina virtual
 
@@ -84,13 +84,13 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
     ![Conexión a la máquina virtual](media/tutorial-explore-report-server-web-portal/power-bi-report-server-connect-to-virtual-machine.png)
 
-5. En el **conectar a máquina virtual** panel, mantenga los valores predeterminados y seleccione **Descargar archivo RDP**.
+5. En el panel **Conectarse a una máquina virtual**, mantenga los valores predeterminados y seleccione **Descargar archivo RDP**.
 
-1. En el **conexión a Escritorio remoto** cuadro de diálogo, seleccione **Connect**.
+1. En el cuadro de diálogo **Conexión a Escritorio remoto**, seleccione **Conectar**.
 
 6. Escriba el nombre y la contraseña creados para la máquina virtual > **Aceptar**.
 
-7. El siguiente cuadro de diálogo dice **la identidad del equipo remoto no se puede identificar**. Seleccione **Sí**.
+7. El siguiente cuadro de diálogo indica que **no se puede identificar la identidad del equipo remoto**. Seleccione **Sí**.
 
    Ya está, ahora se abrirá la nueva máquina virtual.
 
@@ -104,7 +104,7 @@ Cuando se abre la máquina virtual, estos son los elementos que puede ver en el 
 |---------|---------|
 |![Número 1](media/tutorial-explore-report-server-web-portal/number-1.png) | Ejemplo de informes de Power BI (.PBIX) |
 |![Número 2](media/tutorial-explore-report-server-web-portal/number-2.png) | Vínculos a documentación de Power BI Report Server |
-|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Se inicia Power BI Desktop optimizado para Power BI Report Server (de enero de 2019) |
+|![Número 3](media/tutorial-explore-report-server-web-portal/number-3.png) | Inicia Power BI Desktop optimizado para Power BI Report Server (enero de 2019) |
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre el portal web de Power BI Report Server en el explorador |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia SQL Server Data Tools para crear informes paginados (.RDL) |
 
@@ -163,7 +163,7 @@ Puede visualizar informes de Power BI en el portal web e interactuar con ellos, 
 
 1. Seleccione **Permitir** para permitir que este sitio web abra un programa en el equipo. 
 
-     El informe se abre en Power BI Desktop. Tenga en cuenta el nombre de la barra superior, "Power BI Desktop (enero de 2019)". Se trata de la versión optimizada para Power BI Report Server.
+     El informe se abre en Power BI Desktop. Fíjese en el nombre de la barra superior, "Power BI Desktop (enero de 2019)". Se trata de la versión optimizada para Power BI Report Server.
 
     Use la versión de Power BI Desktop instalada en la máquina virtual. No puede pasar entre dominios para cargar un informe.
 
