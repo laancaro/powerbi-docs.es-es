@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 5e34601c3ebacb3cfd8a4a5ddeb282756d0f700b
-ms.sourcegitcommit: 1789815c87e306b1427a5838655d30d3b9ba1d29
+ms.openlocfilehash: fae3af81540e22b961fcb1d2a79de425fdc1cd8c
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "67791824"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194790"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -126,7 +126,6 @@ Las aplicaciones de plantilla pueden publicarse en AppSource, siga estas pautas 
 
 * Asegúrese de crear una aplicación de plantilla con datos de ejemplo atractivos que puedan ayudar al instalador a comprender lo que puede hacer la aplicación (los informes y paneles vacíos no están aprobados).
 Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, asegúrese de marcar la casilla de aplicaciones estáticas. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
-* En general, solo una aplicación con funcionalidad valiosa se puede aprobar para su uso general en AppSource. Una aplicación con contenido de datos de ejemplo solo debe tener valor de orientación o estadístico.
 * Dé indicaciones para que el equipo de validación las siga, que incluyen las credenciales y los parámetros necesarios para conectarse a los datos.
 * La aplicación debe incluir un icono de la aplicación en Power BI y en la oferta CPP. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
 * Página de inicio configurado. [Más información](https://docs.microsoft.com/power-bi/service-template-apps-create#create-the-test-template-app)
@@ -135,6 +134,7 @@ Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, ase
 * Instale la aplicación mediante el vínculo de la aplicación antes de enviarla, asegúrese de que puede conectar el conjunto de datos y que la experiencia de la aplicación es la que planeó.
 * Antes de cargar bpix en el área de trabajo de la aplicación de plantilla, asegúrese de descargar cualquier conexión innecesaria.
 * Siga los [procedimientos recomendados de diseño para informes y objetos visuales](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
+<!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 

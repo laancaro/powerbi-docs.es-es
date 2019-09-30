@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: fe8ad0b951fedb17a97007e48808d2bfd7467e88
-ms.sourcegitcommit: 6c2c7a090b0826e3cfc3a897566e802857bbacc8
+ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68808217"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71401833"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -71,13 +71,13 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Lista de SharePoint Online |Sí |No |No |
 | Snowflake |Sí |No |No |
 | Base de datos de Sybase |Sí |Sí |No |
-| Base de datos de Teradata |Sí |Sí |Sí |
+| Teradatos |Sí |Sí |Sí |
 | Texto o CSV |Sí |Sí |No |
 | Web |Sí |Sí |No |
 | XML |Sí |Sí |No |
 | appFigures (Beta) |Sí |No |No |
 | Base de datos de Azure Analysis Services |Sí |No |Sí |
-| Azure Cosmos DB (beta) |Sí |No |No |
+| Azure Cosmos DB (Beta) |Sí |No |No |
 | Azure HDInsight Spark (Beta) |Sí |No |No |
 | Common Data Service (Beta) |Sí |No |No |
 | comScore Digital Analytix (beta) |Sí |No |No |
@@ -160,7 +160,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Base de datos de Teradata |No |No |Sí |Sí |
 | appFigures (Beta) |No |No |No |No |
 | Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
-| Azure Cosmos DB (beta) |No |No |No |No |
+| Azure Cosmos DB (Beta) |No |No |No |No |
 | Azure HDInsight Spark (Beta) |No |No |No |No |
 | Common Data Service (Beta) |No |No |No |No |
 | comScore Digital Analytix (beta) |No |No |No |No |
