@@ -973,7 +973,7 @@
           href: report-builder-url-pass-parameters.md
         - name: Publicación de un informe paginado
           href: paginated-reports-save-to-power-bi-service.md
-- name: Power BI para desarrolladores
+- name: "Power\_BI para desarrolladores"
   items:
     - name: ¿Qué pueden hacer los desarrolladores con Power BI?
       href: developer/what-can-you-do.md
@@ -1442,11 +1442,13 @@
           href: service-admin-power-bi-security.md
 - name: Instrucciones
   items:
-    - name: Prácticas recomendadas para flujos de datos
-      href: service-dataflows-best-practices.md
+    - name: Información general
+      href: guidance/overview.md
     - name: ¿Qué es un esquema de estrella?
       href: guidance/star-schema.md
     - name: Reducción del tamaño del modelo de datos
       href: guidance/import-modeling-data-reduction.md
-    - name: La función DIVIDE frente al operador de división (/)
+    - name: función DIVIDE frente al operador de división (/)
       href: guidance/dax-divide-function-operator.md
+    - name: Prácticas recomendadas para flujos de datos
+      href: service-dataflows-best-practices.md
