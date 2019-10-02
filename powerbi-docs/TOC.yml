@@ -697,6 +697,8 @@
               href: service-cognitive-services.md
             - name: Aprendizaje automático automatizado en Power BI (versión preliminar)
               href: service-machine-learning-automated.md
+        - name: Linaje de datos
+          href: service-data-lineage.md
         - name: Informes paginados en Power BI
           items:
             - name: Visualización de un informe paginado
@@ -867,6 +869,8 @@
       items:
         - name: Idiomas y países o regiones admitidos
           href: supported-languages-countries-regions.md
+        - name: Exploradores compatibles
+          href: power-bi-browsers.md
     - name: Recursos
       items:
         - name: Notas del producto
