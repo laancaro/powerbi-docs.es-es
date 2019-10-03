@@ -102,6 +102,8 @@
               href: end-user-app-view.md
             - name: Conectarse a los servicios
               href: end-user-connect-to-services.md
+            - name: Obtenner una aplicación de ejemplo de AppSource
+              href: end-user-app-marketing.md
         - name: Realizar preguntas de los datos
           items:
             - name: Preguntas y respuestas en Power BI
