@@ -873,16 +873,6 @@
           href: power-bi-browsers.md
     - name: Recursos
       items:
-        - name: Notas del producto
-          items:
-            - name: Información general sobre las notas del producto
-              href: whitepapers.md
-            - name: Notas del producto sobre la seguridad de Power BI
-              href: whitepaper-powerbi-security.md
-            - name: Implementación de Power BI Premium
-              href: whitepaper-powerbi-premium-deployment.md
-            - name: Distribución de Power BI externamente con Azure Active Directory B2B
-              href: whitepaper-azure-b2b-power-bi.md
         - name: Vídeos
           href: videos.md
         - name: Seminarios web
@@ -1456,3 +1446,13 @@
       href: guidance/dax-divide-function-operator.md
     - name: Prácticas recomendadas para flujos de datos
       href: service-dataflows-best-practices.md
+    - name: Notas del producto
+      items:
+        - name: Información general sobre las notas del producto
+          href: whitepapers.md
+        - name: Notas del producto sobre la seguridad de Power BI
+          href: whitepaper-powerbi-security.md
+        - name: Implementación de Power BI Premium
+          href: whitepaper-powerbi-premium-deployment.md
+        - name: Distribución de Power BI externamente con Azure Active Directory B2B
+          href: whitepaper-azure-b2b-power-bi.md
