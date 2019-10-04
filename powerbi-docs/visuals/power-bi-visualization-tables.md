@@ -11,18 +11,20 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 857db3240385e9bf1b4e0416cc1200d1a029d73e
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 65410dc15600307ba11a2c48db1689be5a458383
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867209"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71193055"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Una tabla es una cuadrícula que contiene datos relacionados en una serie lógica de filas y columnas. También puede contener encabezados y una fila de totales. Las tablas funcionan bien con comparaciones cuantitativas en las que está mirando muchos valores para una única categoría. Por ejemplo, en esta tabla se muestran cinco medidas distintas para **Categoría**.
 
-![Captura de pantalla de una tabla en la que se muestran cinco medidas distintas para Categoría.](media/power-bi-visualization-tables/table.png)
+![Captura de pantalla de una tabla en la que se muestran cinco medidas distintas para Categoría.](media/power-bi-visualization-tables/power-bi-table-grid3.png)
 
 Cree tablas en los informes y resalte los elementos dentro de la tabla con otros objetos visuales en la misma página del informe. Puede seleccionar filas, columnas e incluso celdas individuales y realizar un resaltado cruzado. También puede copiar y pegar las celdas individuales y las selecciones de celdas múltiples en otras aplicaciones.
 
@@ -36,25 +38,23 @@ Las tablas son una excelente opción:
 
 * Para mostrar datos numéricos por categorías.
 
-## <a name="prerequisites"></a>Requisitos previos
+## <a name="prerequisite"></a>Requisito previo
 
-* Servicio Power BI o Power BI Desktop
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-* Informe del Ejemplo de análisis de minoristas
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
+   
+2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 
-## <a name="get-the-retail-analysis-sample-report"></a>Obtención del informe del Ejemplo de análisis de minoristas
+1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
 
-Estas instrucciones usan el Ejemplo de análisis de minoristas. La creación de una visualización requiere permisos de edición para el conjunto de datos e informes. Por suerte, los ejemplos de Power BI son todos editables. Si alguien comparte un informe con usted, no podrá crear visualizaciones en informes. Para continuar, abra el [informe del Ejemplo de análisis de minoristas](../sample-datasets.md).
+1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
 
-Después de obtener el conjunto de datos **Ejemplo de análisis de minoristas**, puede empezar a trabajar.
 
 ## <a name="create-a-table"></a>Crear una tabla
 
 Vamos a crear la tabla que aparece al principio del artículo para mostrar los valores de ventas por categoría de producto.
 
-1. En **Mi área de trabajo**, seleccione **Conjuntos de datos** > **Crear un informe**.
-
-    ![Captura de pantalla de Conjuntos de datos > Crear un informe.](media/power-bi-visualization-tables/power-bi-create-a-report.png)
 
 1. En el panel **Campos**, seleccione **Artículo** > **Categoría**.
 
@@ -66,11 +66,10 @@ Vamos a crear la tabla que aparece al principio del artículo para mostrar los v
 
 1. A continuación, seleccione **Ventas > Ventas de este año** y, a continuación, las tres opciones: **Valor**, **Objetivo** y **Estado**.
 
-1. En el panel **Visualizaciones**, busque el área **Valores** y arrastre y coloque los valores hasta que el orden de las columnas del gráfico coincida con la primera imagen de esta página. El área **Valores** será similar a esta:
+1. En el panel **Visualizaciones**, busque el área **Valores** y seleccione los valores hasta que el orden de las columnas del gráfico coincida con la primera imagen de esta página. Arrastre los valores en el área si es necesario. El área **Valores** será similar a esta:
 
     ![Área Valores](media/power-bi-visualization-tables/power-bi-table2.png)
 
-1. Ancle la tabla al panel seleccionando el icono de anclar. ![chincheta](media/power-bi-visualization-tables/pbi_pintile.png) en la esquina superior derecha del objeto visual.
 
 ## <a name="format-the-table"></a>Dar formato a la tabla
 
@@ -170,10 +169,6 @@ Para copiar más de una celda:
 1. Seleccione **Copiar** > **Copiar selección**.
 
     ![opciones de copia](media/power-bi-visualization-tables/power-bi-copy-selection.png)
-
-    La copia incluye los encabezados de columna y de fila.
-
-    ![pegado en Excel](media/power-bi-visualization-tables/power-bi-paste-selection.png)
 
 ## <a name="adjust-the-column-width-of-a-table"></a>Ajustar el ancho de columna de una tabla
 

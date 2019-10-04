@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 240045c05a35a6583b537b785c6639a39c6aa9d4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 6e48713315b23cf322b635f1650374251b639e4f
+ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61194110"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71409384"
 ---
 ## <a name="define-roles-and-rules-in-power-bi-desktop"></a>Definir roles y reglas en Power BI Desktop
 Puede definir roles y reglas en Power BI Desktop. Al publicar en Power BI, publica también definiciones de roles.
@@ -35,8 +35,14 @@ Para definir los roles de seguridad, siga estos pasos.
    
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-create-rule.png)
 8. Después de haber creado la expresión DAX, puede seleccionar la casilla encima del cuadro de expresión para validar la expresión.
-   
+      
    ![](./media/rls-desktop-define-roles/powerbi-desktop-security-validate-dax.png)
+   
+   > [!NOTE]
+   > En este cuadro de expresión, utilice comas para separar los argumentos de la función DAX, incluso si usa una configuración regional que normalmente usa separadores de punto y coma (por ejemplo, francés o alemán). 
+   >
+   >
+   
 9. Seleccione **Guardar**.
 
 No puede asignar usuarios a un rol en Power BI Desktop. Los asigna en el servicio Power BI. Para habilitar la seguridad dinámica en Power BI Desktop, puede usar las funciones DAX *username()* y *userprincipalname()* . Las relaciones deben estar configuradas correctamente. 

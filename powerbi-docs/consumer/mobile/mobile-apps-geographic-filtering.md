@@ -6,44 +6,44 @@ manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 02/09/2018
+ms.date: 09/25/2019
 ms.author: mshenhav
-ms.openlocfilehash: 828dcb4aeb8b7c5e69292685470f112a2d85cb71
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9a4950a1d52451764c3c62413bf4ecbd036f06c8
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61349582"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305768"
 ---
 # <a name="filter-a-report-by-geographic-location-in-the-power-bi-mobile-apps"></a>Filtrar un informe por ubicación geográfica en las aplicaciones móviles de Power BI
 Se aplica a:
 
-| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-geographic-filtering/android-tablet-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
-|:--- |:--- |:--- |:--- |:--- |
-| iPhone |iPad |Teléfonos Android |Tabletas Android |Teléfonos con Windows 10 |
+| ![iPhone](./media/mobile-apps-geographic-filtering/iphone-logo-50-px.png) | ![iPad](./media/mobile-apps-geographic-filtering/ipad-logo-50-px.png) | ![Teléfono Android](./media/mobile-apps-geographic-filtering/android-phone-logo-50-px.png) | ![Tableta Android](./media/mobile-apps-geographic-filtering/win-10-logo-50-px.png) |
+|:--- |:--- |:--- |:--- |
+| iPhone |iPad |Teléfonos Android |Teléfonos con Windows 10 |
 
 Al examinar un informe de Power BI en su dispositivo móvil, ¿ve un pequeño icono de chincheta en la esquina superior derecha? Si es así, puede filtrar ese informe según su ubicación geográfica.
 
 > [!NOTE]
-> Solo puede filtrar por ubicación si los nombres geográficos en el informe están en inglés; por ejemplo, "New York City" o "Germany". Las tabletas y los equipos Windows 10 no admiten el filtrado geográfico, pero los teléfonos Windows 10 sí.
+> Solo puede filtrar por ubicación si los nombres geográficos del informe están en inglés; por ejemplo, "New York City" o "Germany". Las tabletas y los equipos Windows 10 no admiten el filtrado geográfico, pero los teléfonos Windows 10 sí.
 > 
 > 
 
 ## <a name="filter-your-report-by-your-geographic-location"></a>Filtrar un informe por ubicación geográfica
 1. Abra un informe en la aplicación móvil Power BI de su dispositivo móvil.
 2. Si el informe contiene datos geográficos, podrá ver un mensaje preguntándole si desea permitir que Power BI acceda a su ubicación. Haga clic en **Permitir** y, después, pulse en **Permitir** otra vez.
-3. Pulse el icono de chincheta ![Icono de chincheta](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). Puede filtrar por ciudad, estado o provincia, o país o región, dependiendo de los datos del informe. El filtro solo muestra las opciones que coincidan con la ubicación actual.
+3. Pulse el icono de chincheta ![Icono de chincheta](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-icon.png). Puede filtrar por ciudad, estado o provincia, o país o región, en función de los datos del informe. El filtro solo muestra las opciones que coincidan con la ubicación actual.
    
     ![Filtro del icono de chincheta](./media/mobile-apps-geographic-filtering/power-bi-mobile-geo-map-set-filter.png)
 
 ## <a name="why-dont-i-see-location-tags-on-a-report"></a>¿Por qué no veo etiquetas de ubicación en un informe?
-Se deben cumplir estas tres condiciones para ver las etiquetas de ubicación. 
+Para ver las etiquetas de ubicación, se deben cumplir estas tres condiciones. 
 
-* La persona que creó el informe en Power BI Desktop [clasificó los datos geográficos](../../desktop-mobile-geofiltering.md) para al menos una columna, como Ciudad, Estado o País o región.
+* La persona que ha creado el informe en Power BI Desktop debe tener [los datos geográficos clasificados](../../desktop-mobile-geofiltering.md) para al menos una columna, como Ciudad, Estado, o País o Región.
 * Se encuentra en una de las ubicaciones que tiene datos en esa columna.
 * Usa uno de estos dispositivos móviles:
   * iOS (iPad, iPhone, iPod).
-  * Tableta o teléfono Android.
+  * Teléfono Android.
   * Teléfono Windows 10 (otros dispositivos Windows 10, como tabletas y equipos, no admiten el filtrado geográfico).
 
 Obtenga más información sobre cómo [configurar el filtrado geográfico](../../desktop-mobile-geofiltering.md) en Power BI Desktop.

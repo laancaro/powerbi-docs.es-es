@@ -7,37 +7,30 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: f43bb105f7e17ce453e96c6eff875349efd45cb2
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a5b4c7cb484b296ccab395e18eb2b0089ffd5c7
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65239645"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327820"
 ---
 # <a name="combine-files-binaries-in-power-bi-desktop"></a>Combinación de archivos (binarios) en Power BI Desktop
-Un método eficaz para importar los datos en **Power BI Desktop** consiste en combinar varios archivos —que tengan el mismo esquema— en una única tabla lógica. Con la versión de noviembre de 2016 de **Power BI Desktop** (y versiones posteriores), este popular enfoque se ha vuelto más práctico y expansivo, como se describe en el presente artículo.
+Un método eficaz para importar los datos en **Power BI Desktop** consiste en combinar varios archivos —que tengan el mismo esquema— en una única tabla lógica. Este popular enfoque se ha vuelto más práctico y expansivo, como se describe en el presente artículo.
 
 Para iniciar el proceso de combinar archivos de una misma carpeta, seleccione **Obtener datos > Archivo > Carpeta**.
 
 ![](media/desktop-combine-binaries/combine-binaries_1.png)
 
-## <a name="previous-combine-files-binaries-behavior"></a>Comportamiento anterior al combinar archivos (binarios)
-Antes de la versión de noviembre de 2016 de **Power BI Desktop**, esta funcionalidad se denominaba **Combinar binarios** y podía combinar ciertos tipos de archivo con la transformación **Combinar binarios**, pero había limitaciones:
 
-* Las transformaciones no se tenían en cuenta para cada archivo antes de combinar los archivos en una sola tabla. Por lo tanto, como parte del proceso de edición, a menudo había que combinar archivos y, luego, filtrar los *valores de encabezado* mediante el filtrado de filas.
-* La transformación **Combinar binarios** solo funcionaba con archivos de *texto* o *CSV*, pero no con otros formatos de archivo admitidos como libros de Excel, archivos JSON, etc.
-
-Dado que los clientes deseaban que la operación **Combinar binarios** fuese más intuitiva, se mejoró la transformación y se cambió el nombre a **Combinar archivos**.
-
-## <a name="current-combine-files-behavior"></a>Comportamiento actual al combinar archivos
-**Power BI Desktop** ahora controla la **combinación de archivos (binarios)** de manera más eficaz. Primero se selecciona **Combinar archivos**, bien en la pestaña **Inicio** de la cinta de opciones del **Editor de consultas**, bien desde la misma columna.
+## <a name="combine-files-behavior"></a>Comportamiento al combinar archivos
+Para **combinar archivos (binarios)** , seleccione **combinar archivos**, bien en la pestaña **Inicio** de la cinta de opciones del **Editor de consultas** o bien desde la misma columna.
 
 ![](media/desktop-combine-binaries/combine-binaries_2a.png)
 
-La transformación **Combinar archivos** ahora se comporta como se especifica a continuación:
+La transformación **Combinar archivos** se comporta como se especifica debajo:
 
 * La transformación **Combinar archivos** analiza todos los archivos de entrada y determina el formato de archivo correcto que debe usarse, como *texto*, *libro de Excel* o *JSON*.
 * La transformación permite seleccionar un objeto específico del primer archivo (por ejemplo, un *libro de Excel*) para extraerlo.
@@ -51,7 +44,11 @@ La transformación **Combinar archivos** ahora se comporta como se especifica a 
     
     ![](media/desktop-combine-binaries/combine-binaries_4.png)
 
-Con el nuevo comportamiento de **Combinar archivos**, se pueden combinar fácilmente todos los archivos de una determinada carpeta siempre y cuando tengan el mismo tipo de archivo y estructura (como las mismas columnas).
+> [!NOTE]
+> El ámbito de la selección en un libro de Excel afectará al comportamiento de combinar binarios. Por ejemplo, puede seleccionar una hoja de cálculo específica para combinar esa hoja de cálculo o seleccionar la raíz para combinar el archivo completo. Al seleccionar una carpeta se combinan los archivos que se encuentran en esa carpeta. 
+
+
+Con el comportamiento de **combinar archivos**, se pueden combinar fácilmente todos los archivos de una determinada carpeta, siempre y cuando tengan el mismo tipo de archivo y estructura (como, por ejemplo, las mismas columnas).
 
 Además, se pueden aplicar fácilmente pasos de transformación o extracción adicionales mediante la modificación de la *consulta de ejemplo* creada automáticamente y sin necesidad de preocuparse de la modificación o creación de más pasos de *consulta de función*. Cualquier cambio hecho en la *consulta de ejemplo* se generará automáticamente en la consulta de *función vinculada*.
 

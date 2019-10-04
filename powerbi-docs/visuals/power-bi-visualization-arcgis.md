@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 02/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 74c4468cbb764d8bd7720845939b3b7fbdf66b06
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: e001d35761eb7918aab2c427c3400df526e4dbc0
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299464"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71192135"
 ---
-# <a name="arcgis-maps-in-power-bi-service-and-power-bi-desktop-by-esri"></a>Tutorial de mapas de ArcGIS de Esri en el servicio Power BI y Power BI Desktop
+# <a name="arcgis-maps-in-power-bi-desktop-by-esri"></a>Mapas de ArcGIS de Esri en Power BI Desktop
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Este tutorial se ha escrito desde el punto de vista de la persona que está creando un mapa de ArcGIS. Si un creador comparte un mapa de ArcGIS con un compañero, este podrá ver e interactuar con el mapa pero no guardar los cambios. Para más información acerca de cómo ver un mapa de ArcGIS, consulte [Interactuación con mapas de ArcGIS](power-bi-visualizations-arcgis.md).
 
 Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una representación de puntos, sino que alcanzan un nivel completamente nuevo. Elija entre mapas base, tipos de ubicación, temas, estilos de símbolos y capas de referencia para crear magníficas visualizaciones informativas de mapas. La combinación de capas de datos relevantes en un mapa con el análisis espacial transmite una comprensión más profunda de los datos en la visualización.
@@ -31,7 +34,7 @@ Con la combinación de ArcGIS Maps y Power BI, los mapas no se limitan a ser una
 
 En el ejemplo siguiente, se usa un lienzo de color gris oscuro para mostrar las ventas regionales como mapa térmico contra una capa demográfica de la mediana de renta disponible en 2016. Como verá más adelante, ArcGIS Maps ofrece una funcionalidad de creación de mapas mejorada prácticamente ilimitada, datos demográficos y visualizaciones de mapas aún más atractivas, para que pueda contar mejor su historia.
 
-![](media/power-bi-visualization-arcgis/power-bi-intro-arcgis.png)
+![Imagen de introducción de ArcGIS](media/power-bi-visualization-arcgis/power-bi-intro-arcgis.png)
 
 > [!TIP]
 > Visite la [página de Esri en Power BI](https://www.esri.com/powerbi) para ver numerosos ejemplos y leer recomendaciones. Y después consulte la [página de introducción a ArcGIS Maps para Power BI](https://doc.arcgis.com/en/maps-for-powerbi/get-started/about-maps-for-power-bi.htm) de Esri.
@@ -49,30 +52,35 @@ Esri (www.esri.com) proporciona ArcGIS Maps for Power BI. Su uso de ArcGIS Maps 
 
 <br/>
 
-## <a name="enable-arcgis-map"></a>Habilitación de mapas de ArcGIS
-Los mapas de ArcGIS están disponibles actualmente en el servicio Power BI, Power BI Desktop y Power BI Mobile. En este artículo se proporcionan instrucciones para el servicio y para Desktop.
 
-### <a name="enable-the-arcgis-map-in-power-bi-service-apppowerbicom"></a>Habilitación de mapas de ArcGIS ***en el servicio Power BI (app.powerbi.com)***
-En este tutorial se usa el [Ejemplo de análisis de minoristas](../sample-retail-analysis.md). Para habilitar **ArcGIS Maps para Power BI**:
+### <a name="enable-the-arcgis-map-in-power-bi-desktop-apppowerbicom"></a>Habilitación de mapas de ArcGIS ***en Power BI Desktop (app.powerbi.com)***
+En este tutorial se usa el [archivo .PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix
+). Para habilitar **ArcGIS Maps para Power BI**:
 
-1. En la sección superior derecha de la barra de menús, seleccione el icono de engranaje y abra **Configuración**.
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** \> **Abrir**.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-settings.png)
-2. Seleccione la casilla **ArcGIS Maps para Power BI**. Deberá reiniciar Power BI después de realizar la selección.
+2. Busque el **archivo PBIX del Ejemplo de análisis de minoristas** guardado en la máquina local.
+
+1. Abra **Ejemplo de análisis de minoristas**  en la vista de informe ![Captura de pantalla del icono de vista de informe.](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+
    
-    ![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
-3. Abra un informe en [Vista de edición](../consumer/end-user-reading-view.md) y seleccione el icono de ArcGIS Maps para Power BI en el panel Visualizaciones.
+3. Seleccione el icono de ArcGIS Maps for Power BI en el panel Visualizaciones.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-viz-pane2.png)
+    ![Panel de visualización de mapas de ArcGIS](media/power-bi-visualization-arcgis/power-bi-viz-pane.png)
 4. Power BI agrega una plantilla de mapa de ArcGIS vacía al lienzo del informe.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-placeholder2new.png)
+   ![Marcador de posición de visualización de ArcGIS](media/power-bi-visualization-arcgis/power-bi-esri-placeholder2new.png)
 
 <br/>
 
 ## <a name="create-an-arcgis-map-visual"></a>Creación de un objeto visual de mapa de ArcGIS
-Observe cómo crea Will distintas visualizaciones de mapas de ArcGIS y, después, siga los pasos que se indican a continuación para probar a hacerlo por su cuenta con el [ejemplo de análisis de minoristas](../sample-datasets.md) (Retail Analysis).
-
+Observe cómo se crean distintas visualizaciones de mapas de ArcGIS y, después, siga los pasos que se indican a continuación para probar a hacerlo por su cuenta con el [archivo .PBIX del Ejemplo de análisis de minoristas](../sample-datasets.md).
+   > [!NOTE]
+   > En este vídeo se usa una versión anterior de Power BI Desktop.
+   > 
+   > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EKVvOZmxg9s" frameborder="0" allowfullscreen></iframe>
 
 1. En el panel **Campos**, arrastre un campo de datos a los depósitos **Location** (Ubicación) o **Latitude** (Latitud) y/o **Longitude** (Longitud). En este ejemplo, usamos **Store > City** (Tienda > Ciudad).
@@ -82,28 +90,28 @@ Observe cómo crea Will distintas visualizaciones de mapas de ArcGIS y, después
    > 
    > 
    
-    ![](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
-2. Para convertir la visualización en un mapa de ArcGIS, seleccione la plantilla en el panel Visualizaciones ![](media/power-bi-visualization-arcgis/power-bi-arcgis-template.png).
+    ![Panel Campos de ArcGIS](media/power-bi-visualization-arcgis/power-bi-fields-pane3new.png)
+
 3. En el panel **Campos**, arrastre una medida al depósito **Tamaño** para ajustar cómo se muestran los datos. En este ejemplo, usamos **Sales > Last Year Sales** (Ventas > Ventas del último año).
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
+    ![Visualización de mapa de puntos de Esri](media/power-bi-visualization-arcgis/power-bi-esri-point-map-size2new.png)
 
 ## <a name="settings-and-formatting-for-arcgis-maps"></a>Configuración y formato de mapas de ArcGIS
 Para acceder a las características de formato de **ArcGIS Maps para Power BI**:
 
 1. Para acceder a más características, seleccione el botón de puntos suspensivos en la esquina superior derecha de la visualización y haga clic en **Editar**.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-edit2.png)
+   ![Panel de edición de ArcGIS](media/power-bi-visualization-arcgis/power-bi-edit2.png)
    
    Las características disponibles se muestran en la parte superior de la visualización. Al seleccionar cada característica, se abre un panel de tareas que proporciona opciones detalladas.<br/>
    
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-features-new.png)
+   ![Panel de características de Esri](media/power-bi-visualization-arcgis/power-bi-esri-features-new.png)
    
    > [!NOTE]
    > Para obtener más información sobre las características y la configuración, consulte **Documentación detallada** a continuación.
    > 
    > 
-2. Para volver al informe, seleccione **Volver al informe** en la esquina superior izquierda del lienzo del informe.
+
 
 <br/>
 
@@ -116,19 +124,19 @@ Se proporcionan cuatro mapas base: Dark Gray Canvas, Light Gray Canvas, OpenStre
 
 Para aplicar un mapa base, selecciónelo en el panel de tareas.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-base-maps-new.png)
+![Objeto visual de mapas base Esri](media/power-bi-visualization-arcgis/power-bi-esri-base-maps-new.png)
 
 ### <a name="location-type"></a>Tipo de ubicación
 ArcGIS Maps para Power BI detecta de forma automática la mejor manera de mostrar datos en el mapa. Se selecciona entre Points o Boundaries. Las opciones del tipo de ubicación le permiten ajustar estas selecciones.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
+![Ejemplo de tipos de ubicación Esri](media/power-bi-visualization-arcgis/power-bi-esri-location-types-new.png)
 
 **Boundaries** solo funcionará si los datos contienen valores geográficos estándar. Esri determina de forma automática la forma que se va a mostrar en el mapa. Los valores geográficos estándar incluyen, entre otros, países, provincias y códigos postales. En cambio, al igual que con la geocodificación, Power BI puede no detectar que el campo debe ser un límite de manera predeterminada, o puede que no tenga un límite para los datos.  
 
 ### <a name="map-theme"></a>Tema del mapa
-Se proporcionan cuatro temas de mapa. Los temas Location only (Solo ubicación) y Size (Tamaño) se eligen de forma automática según los campos que se enlacen a la ubicación y se agregan al depósito **Size** en el panel Campos de Power BI. Actualmente, estamos usando **Size**, por lo que vamos a cambiar a **Heat map**.  
+Se proporcionan cuatro temas de mapa. Los temas Location only (Solo ubicación) y Size (Tamaño) se eligen de forma automática según los campos que se enlacen a la ubicación y se agregan al depósito **Size** en el panel Campos de Power BI. Actualmente estamos usando **Tamaño**, por lo que vamos a cambiar a **Mapa térmico**. Simplemente recuerde deshabilitar **Mapa térmico** antes de pasar al paso siguiente.  
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
+![Ejemplo de tema de mapa Esri](media/power-bi-visualization-arcgis/power-bi-esri-map-theme-new.png)
 
 <table>
 <tr><th>Tema</th><th>Descripción</th>
@@ -152,9 +160,9 @@ Se proporcionan cuatro temas de mapa. Los temas Location only (Solo ubicación) 
 
 
 ### <a name="symbol-style"></a>Estilo de los símbolos
-Los estilos de los símbolos le permiten ajustar con precisión cómo se presentan los datos en el mapa. Los estilos de los símbolos dependen del contexto según el tipo de ubicación seleccionado y el tema del mapa. En el ejemplo siguiente se muestra el tipo de ubicación establecido en **Size** (Tamaño) y varios ajustes de transparencia, estilo y tamaño.
+Los estilos de los símbolos le permiten ajustar con precisión cómo se presentan los datos en el mapa. Los estilos de los símbolos dependen del contexto según el tipo de ubicación seleccionado y el tema del mapa. En el ejemplo siguiente se muestra el tipo de mapa establecido en **Tamaño** y varios ajustes de transparencia, estilo y tamaño. 
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
+![Ejemplo de estilo de los símbolos Esri](media/power-bi-visualization-arcgis/power-bi-esri-symbol-style-new.png)
 
 ### <a name="pins"></a>Marcas
 Llame la atención sobre puntos en el mapa mediante las marcas.  
@@ -162,21 +170,21 @@ Llame la atención sobre puntos en el mapa mediante las marcas.
 1. Seleccione la pestaña **Pins** (Marcas).
 2. Escriba palabras clave (como direcciones, lugares y puntos de interés) en el cuadro de búsqueda y seleccione en la lista desplegable. Aparece un símbolo en el mapa, que se amplía automáticamente a la ubicación. Los resultados de la búsqueda se guardan como tarjetas de ubicación en el panel Pins (Marcas). Puede guardar hasta 10 tarjetas de ubicación.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin-arcgis-newer.png)
+   ![Ejemplo de anclaje de mapa de ArcGIS](media/power-bi-visualization-arcgis/power-bi-pin-arcgis-newer.png)
 3. Power BI agrega en esa ubicación una marca, cuyo color puede cambiar.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin-color-new.png)
+   ![Ejemplo de color de anclaje](media/power-bi-visualization-arcgis/power-bi-pin-color-new.png)
 4. Agregue y elimine marcas.
    
-   ![](media/power-bi-visualization-arcgis/power-bi-pin3.png)
+   ![Ejemplo de adición y eliminación de anclaje](media/power-bi-visualization-arcgis/power-bi-pin3.png)
 
 ### <a name="drive-time"></a>Tiempo de conducción
 El panel Drive time (Tiempo de conducción) le permite seleccionar una ubicación y determinar luego qué otras características del mapa están dentro de un radio o tiempo de conducción específico.  
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
+    ![Ejemplo de tiempo de conducción](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 1. Seleccione la pestaña **Drive time** (Tiempo de conducción) y elija la herramienta de selección única o múltiple. Seleccione únicamente la marca para Washington D.C.
 
-   ![](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
+   ![Ejemplo de selección de un solo anclaje](media/power-bi-visualization-arcgis/power-bi-esri-single-select.png)
    
    > [!TIP]
    > Es más fácil seleccionar una ubicación si amplía el mapa (mediante el icono +).
@@ -184,10 +192,11 @@ El panel Drive time (Tiempo de conducción) le permite seleccionar una ubicació
    > 
 2. Supongamos que vuela a Washington D.C. para unos días y desea averiguar qué tiendas hay a una distancia de conducción razonable. Cambie el área Search (Búsqueda) a **Radius** (Radio) y Distance (Distancia) a **50** millas, y seleccione OK (Aceptar).    
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time-radius.png)
+    ![Radio de tiempo de conducción](media/power-bi-visualization-arcgis/power-bi-esri-drive-time-radius.png)
+
 3. El radio se muestra en color púrpura. Seleccione cualquier ubicación para mostrar sus detalles. También puede dar formato al radio cambiando el color y el contorno.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
+    ![Ejemplo de formato de radio con color y contorno](media/power-bi-visualization-arcgis/power-bi-esri-drive-time.png)
 
 ### <a name="reference-layer"></a>Capa de referencia
 #### <a name="reference-layer---demographics"></a>Capa de referencia: datos demográficos
@@ -196,10 +205,10 @@ ArcGIS Maps para Power BI proporciona una selección de capas demográficas que 
 1. Seleccione la pestaña **Capa de referencia** y elija **Datos demográficos**.
 2. Cada capa que aparece tiene una casilla. Agregue una marca de verificación para agregar esa capa al mapa.  En este ejemplo, hemos agregado Average Household Income.<br/>
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-demographic.png)
+    ![Ejemplo demográfico de capa de referencia](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-demographic.png)
 3. Asimismo, todas las capas son interactivas. Así como puede mantener el puntero sobre una burbuja para ver los detalles, puede hacer clic en un área sombreada en el mapa para ver los detalles.<br/>
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-details.png)
+    ![Ejemplo de detalles de capa de referencia](media/power-bi-visualization-arcgis/power-bi-esri-reference-layer-details.png)
 
 #### <a name="reference-layer---arcgis"></a>Capa de referencia: ArcGIS
 ArcGIS Online proporciona a las organizaciones la capacidad de publicar mapas web públicos. Además, Esri proporciona un conjunto elaborado de mapas web a través de Living Atlas. En la pestaña de ArcGIS, puede buscar todos los mapas web públicos o de Living Atlas y agregarlos al mapa como capas de referencia.
@@ -207,23 +216,29 @@ ArcGIS Online proporciona a las organizaciones la capacidad de publicar mapas we
 1. Seleccione la pestaña **Capa de referencia** y elija **ArcGIS**.
 2. Escriba los términos de búsqueda y después seleccione una capa de mapa. En este ejemplo, hemos elegido USA Congressional Districts.
    
-    ![](media/power-bi-visualization-arcgis/power-bi-esri-demographics-esri2-new.png)
+    ![Ejemplo de datos demográficos de Esri](media/power-bi-visualization-arcgis/power-bi-reference-details.png)
 3. Para ver los detalles, seleccione un área sombreada para abrir *Select from reference layer* (Seleccionar a partir de la capa de referencia): use la herramienta de selección de capas de referencia para seleccionar límites u objetos en la capa de referencia.
 
 <br/>
 
 ## <a name="selecting-data-points"></a>Seleccionar puntos de datos
-ArcGIS Maps para Power BI permite tres modos de selección.
+ArcGIS Maps for Power BI permite que cinco modos de selección le ayuden a seleccionar los datos con precisión y rapidez.
 
-Cambie el modo de selección mediante el conmutador:
+Para cambiar el modo de selección, mantenga el cursor sobre el icono de la herramienta de selección única que se muestra en la imagen siguiente. También se expandirá la barra oculta para mostrar herramientas adicionales:
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-tools2.png)
+![Herramienta de selección de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-tools2.png)
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-single2.png) Seleccione puntos de datos individuales.
+Cada herramienta tiene un rol único que permite seleccionar los datos: 
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-marquee2.png) Dibuja un rectángulo en el mapa y selecciona los puntos de datos contenidos.
+![Selección única de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-single2.png) Seleccione puntos de datos individuales.
 
-![](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-layer2.png) Permite usar los límites o polígonos en las capas de referencia para seleccionar puntos de datos contenidos.
+![Marquesina de selección de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-marquee2.png) Dibuja un rectángulo en el mapa y selecciona los puntos de datos contenidos.
+
+![Capa de referencia de selección de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-layer2.png) Permite usar los límites o polígonos en las capas de referencia para seleccionar puntos de datos contenidos.
+
+![Capa de búfer de selección de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-buffer.png) Permite seleccionar datos mediante una capa de búfer.
+
+![Selección similar de selección de Esri](media/power-bi-visualization-arcgis/power-bi-esri-selection-reference-similar.png) Permite seleccionar puntos de datos similares entre sí.
 
 > [!NOTE]
 > Se puede seleccionar un máximo de 250 puntos de datos a la vez.
@@ -242,21 +257,20 @@ Si tiene alguna sugerencia para una mejora, envíela a la [lista de ideas de Pow
 <br/>
 
 ## <a name="managing-use-of-arcgis-maps-for-power-bi-within-your-organization"></a>Administrar el uso de ArcGIS Maps para Power BI en la organización
-Power BI proporciona a los usuarios, administradores de inquilinos y administradores de TI la capacidad de decidir si usar ArcGIS Maps para Power BI.
+Power BI proporciona a los usuarios, administradores de inquilinos y administradores de TI la capacidad de decidir si usar ArcGIS Maps para Power BI. Debajo encontrará los pasos que puede llevar a cabo cada rol para administrar el uso de ArcGis Maps. 
 
-**Opciones de usuario** En Power BI Desktop, los usuarios pueden dejar de usar ArcGIS Maps para Power BI si lo deshabilitan en la pestaña Seguridad en **Opciones**. Si se deshabilita, ArcGIS Maps no cargará de manera predeterminada.
+### <a name="user-options"></a>Opciones de usuario
+En Power BI Desktop, los usuarios pueden dejar de usar ArcGIS Maps for Power BI si lo deshabilitan en la pestaña Seguridad en **Archivo** > **Opciones y configuración** y luego seleccionan **Opciones** > **Seguridad**. Si se deshabilita, ArcGIS Maps no cargará de manera predeterminada.
 
-![](media/power-bi-visualization-arcgis/power-bi-desktop-security-dialog2.png)
+![Ejemplo de cuadro de diálogo de seguridad de escritorio](media/power-bi-visualization-arcgis/power-bi-desktop-security-dialog2.png)
 
-En el servicio Power BI, los usuarios pueden dejar de usar ArcGIS Maps para Power BI si lo deshabilitan en la pestaña ArcGIS Maps para Power BI en la configuración del usuario. Si se deshabilita, ArcGIS Maps no cargará de manera predeterminada.
+### <a name="tenant-admin-options"></a>Opciones de administrador de inquilinos
+En PowerBI.com, los administradores de inquilinos pueden evitar que todos los usuarios del inquilino usen ArcGIS Maps for Power BI si deshabilitan la opción en **Configuración** > **Portal de administración** > **Configuración de inquilinos**. Si esto sucede, Power BI ya no mostrará el icono de ArcGIS Maps para Power BI en el panel de visualizaciones.
 
-![](media/power-bi-visualization-arcgis/power-bi-use-arcgis-new.png)
+![Ejemplo del portal de administración de ArcGIS](media/power-bi-visualization-arcgis/power-bi-arcgis-admin-portal2.png)
 
-**Opciones de administración de inquilinos** En PowerBI.com, los administradores de inquilinos pueden evitar que todos los usuarios del inquilino usen ArcGIS Maps para Power BI si lo deshabilitan. Si esto sucede, Power BI ya no mostrará el icono de ArcGIS Maps para Power BI en el panel de visualizaciones.
-
-![](media/power-bi-visualization-arcgis/power-bi-arcgis-admin-portal2.png)
-
-**Opciones del administrador de TI** Power BI Desktop admite el uso de la **Directiva de grupo** para deshabilitar ArcGIS Maps para Power BI en los equipos implementados de una organización.
+### <a name="it-administrator-options"></a>Opciones del administrador de TI
+Power BI Desktop admite el uso de la **Directiva de grupo** para deshabilitar ArcGIS Maps for Power BI en los equipos implementados de una organización.
 
 <table>
 <tr><th>Atributo</th><th>Valor</th>

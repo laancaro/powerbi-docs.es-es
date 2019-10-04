@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 158345c44f8801a98e19dcd9b4c7dde14aa6126b
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264536"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195235"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI
 
@@ -82,7 +82,7 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
    >[!NOTE]
    >Para instalar aplicaciones de la plantilla que no figuren en AppSource, deberá solicitar permiso al administrador. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
 
-## <a name="update-and-distribute-the-app"></a>Actualización y distribución de la aplicación
+## <a name="customize-and-publish-the-app"></a>Personalización y publicación de la aplicación
 
 Después de actualizar la aplicación para la organización, está listo para publicarla. Los pasos son los mismos que para publicar cualquier otra aplicación.
 
@@ -94,7 +94,7 @@ Después de actualizar la aplicación para la organización, está listo para pu
 
    ![Configuración de la descripción y el color de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-details.png)
 
-3. En **Contenido**, puede seleccionar una página de aterrizaje, ya sea el panel o el informe.
+3. En **Navegación**, puede usar el nuevo generador de navegación de la aplicación o seleccionar el panel o el informe para la página de aterrizaje. Para obtener más detalles, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience).
 
    ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
 
@@ -106,14 +106,31 @@ Después de actualizar la aplicación para la organización, está listo para pu
 
 6. Una vez publicada correctamente, puede copiar el vínculo y compartirlo con los usuarios a quienes haya proporcionado acceso. Si lo ha compartido con ellos, también la verán en la pestaña **Mi organización** de AppSource.
 
-## <a name="next-steps"></a>Pasos siguientes 
+## <a name="update-a-template-app"></a>Actualización de una aplicación de plantilla
+
+Los creadores de aplicaciones de plantilla pueden publicar nuevas versiones a través de AppSource o de un vínculo directo. Al hacerlo, puede actualizar la aplicación de plantilla al volver a instalar la aplicación con la misma versión o una más reciente.
+
+  >[!NOTE]
+  >Al instalar una nueva versión, se sobrescriben los cambios realizados en los informes y paneles. Para conservar los informes y paneles actualizados, puede guardarlos con un nombre o ubicación diferentes antes de instalarlos.
+
+- **Sobrescritura de una versión existente:** sobrescribe el área de trabajo existente con la versión actualizada de la aplicación de plantilla.
+
+   ![Actualización de una aplicación de plantilla](media/service-template-apps-install-distribute/power-bi-update-app-overwrite.png)
+
+- **Instalación en una nueva área de trabajo:** instala una versión nueva del área de trabajo y la aplicación que necesita volver a configurar.
+
+### <a name="overwrite-behavior"></a>Comportamiento de sobrescritura
+
+* Al sobrescribir, se actualizan los informes, los paneles y el conjunto de datos dentro del *área de trabajo*, no de la aplicación. La sobrescritura no cambia la navegación, la configuración y el permiso de la aplicación.
+* Después de actualizar el área de trabajo, debe *actualizar la aplicación* para aplicar los cambios del área de trabajo a la aplicación de la organización.
+* La sobrescritura mantiene los parámetros y la autenticación configurados. Después de la actualización, se inicia una actualización automática del conjunto de datos. Durante ese tiempo, la aplicación, los informes y los paneles de la organización presentan la experiencia de *datos de ejemplo*.
+  ![Datos de ejemplo](media/service-template-apps-install-distribute/power-bi-sample-data.png)
+* Al sobrescribir siempre se muestran datos de ejemplo hasta que se completa la actualización. Si el autor de la aplicación de plantilla ha realizado cambios en el conjunto de datos o en los parámetros, los usuarios del área de trabajo y la aplicación seguirán viendo la experiencia de *datos de ejemplo*.
+* Al sobrescribir nunca se eliminan los informes o paneles *nuevos* que haya agregado al área de trabajo. Sobrescribe los informes y paneles originales con los cambios del autor original.
+
+>[!IMPORTANT]
+>Recuerde [actualizar la aplicación](#customize-and-publish-the-app) después de sobrescribir para aplicar los cambios en los informes y el panel de los usuarios de la aplicación de la organización.
+
+## <a name="next-steps"></a>Pasos siguientes
 
 [Creación de áreas de trabajo con sus compañeros en Power BI](service-create-workspaces.md)
-
-
-
-
-
-￼ 
-
- 

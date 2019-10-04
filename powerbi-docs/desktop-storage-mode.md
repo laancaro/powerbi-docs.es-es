@@ -7,21 +7,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: e77e61d00ac555c907a6d87ab0ffdeb8e21a5bd8
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
+ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841317"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "71327713"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de almacenamiento en Power BI Desktop
 
 En Microsoft Power BI Desktop, puede especificar el *modo de almacenamiento* de las tablas. El *modo de almacenamiento* le permite controlar si Power BI Desktop almacena datos en caché en memoria para los informes. 
 
-![Modo de almacenamiento en Power BI Desktop](media/desktop-storage-mode/storage-mode_01.png)
+![Modo de almacenamiento en Power BI Desktop](media/desktop-storage-mode/storage-mode-01.png)
 
 El hecho de establecer el modo de almacenamiento proporciona varias ventajas. Puede establecer el modo de almacenamiento para cada tabla individualmente en el modelo. Esta acción permite un único conjunto de datos, lo cual proporciona las siguientes ventajas:
 
@@ -48,13 +48,10 @@ La configuración del modo de almacenamiento de Power BI Desktop es una de tres 
 
 ## <a name="use-the-storage-mode-property"></a>Uso de la propiedad de modo de almacenamiento
 
-El modo de almacenamiento es una propiedad que puede establecer en cada tabla del modelo. Para establecer el modo de almacenamiento, en el panel **Campos**, haga clic con el botón derecho en la tabla cuyas propiedades quiera establecer y, después, seleccione **Propiedades**.
+El modo de almacenamiento es una propiedad que puede establecer en cada tabla del modelo. Para establecer el modo de almacenamiento, o ver su configuración actual, en la vista **Modelo**, seleccione la tabla cuyas propiedades quiere ver o establecer, seleccione el panel de **Propiedades** y, después, expanda la sección **Avanzadas** y la lista desplegable **Modo de almacenamiento**.
 
-![Comando Propiedades en el menú contextual](media/desktop-storage-mode/storage-mode_02.png)
+![Comando Propiedades en el menú contextual](media/desktop-storage-mode/storage-mode-02.png)
 
-La propiedad actual se muestra en la lista desplegable **Modo de almacenamiento**, en el panel **Propiedades de campo** de la tabla. Puede ver el modo de almacenamiento actual o modificarlo ahí.
-
-![Establecimiento del modo de almacenamiento de una tabla](media/desktop-storage-mode/storage-mode_03.png)
 
 Existen tres valores para el modo de almacenamiento:
 
@@ -77,11 +74,11 @@ Las tablas duales tienen las mismas restricciones funcionales que las tablas de 
 ## <a name="propagation-of-dual"></a>Propagación de dual
 Considere el modelo sencillo siguiente, donde todas las tablas provienen de un solo origen que admite la importación y DirectQuery.
 
-![Ejemplo de vista de relaciones para el modo de almacenamiento](media/desktop-storage-mode/storage-mode_04.png)
+![Ejemplo de vista de relaciones para el modo de almacenamiento](media/desktop-storage-mode/storage-mode-04.png)
 
 Para empezar, supongamos que todas las tablas de este modelo son DirectQuery. Si se cambia el **modo de almacenamiento** de la tabla *SurveyResponse* a Importación, aparecerá la siguiente ventana de advertencia:
 
-![Ventana de advertencia del modo de almacenamiento](media/desktop-storage-mode/storage-mode_05.png)
+![Ventana de advertencia del modo de almacenamiento](media/desktop-storage-mode/storage-mode-05.png)
 
 Las tablas dimensionales (*Customer*, *Geography* y *Date*) se pueden establecer en **Dual** para reducir el número de relaciones débiles en el conjunto de datos y mejorar el rendimiento. Las relaciones débiles implican normalmente al menos una tabla de DirectQuery, donde no se puede insertar lógica de combinación en los sistemas de origen. El hecho de que las tablas **Dual** puedan actuar como DirectQuery o importación ayuda a evitar esta situación.
 
@@ -123,15 +120,15 @@ Las consultas que hacen referencia a las tablas del modo **Dual** devuelven dato
 
 Siguiendo con el ejemplo anterior, la consulta siguiente solo hace referencia a una columna de la tabla *Date* (Fecha) que está en el modo **Dual**. Por tanto, la consulta debe alcanzar la caché.
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode_06.png)
+![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-06.png)
 
 La consulta siguiente solo hace referencia a una columna de la tabla *Sales* (Ventas), que está en el modo **DirectQuery**. Por tanto, *no* debe acertar la caché.
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode_07.png)
+![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-07.png)
 
 La consulta siguiente resulta interesante porque combina ambas columnas. Esta consulta no alcanza la caché. Inicialmente podría esperar que recuperase los valores de *CalendarYear* desde la caché y los valores de *SalesAmount* desde el origen y, luego, combinase los resultados, pero este enfoque sería menos eficaz que enviar la operación SUM/GROUP BY al sistema de origen. Si la operación se transfiere al origen, la cantidad de filas devueltas probablemente será mucho menor. 
 
-![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode_08.png)
+![Script para el diagnóstico del modo de almacenamiento](media/desktop-storage-mode/storage-mode-08.png)
 
 > [!NOTE]
 > Este comportamiento es distinto del que se describe en las [relaciones de varios a varios en Power BI Desktop](desktop-many-to-many-relationships.md) al combinar tablas en caché y no en caché.
@@ -145,7 +142,7 @@ El modo de almacenamiento *dual* es una optimización del rendimiento. Solo se d
 ## <a name="data-view"></a>Vista de datos
 Si al menos una tabla del conjunto de datos tiene el **modo de almacenamiento** establecido en Importación o en **Dual**, aparece la pestaña **Vista de datos**.
 
-![Vista de datos en Power BI Desktop](media/desktop-storage-mode/storage-mode_09.png)
+![Vista de datos en Power BI Desktop](media/desktop-storage-mode/storage-mode-03.png)
 
 Cuando se seleccionan en **Vista de datos**, las tablas **Dual** e **Importación** muestran los datos en caché. Las tablas DirectQuery no muestran datos, y se muestra un mensaje en el que se establece que no se pueden mostrar las tablas DirectQuery.
 
@@ -159,7 +156,7 @@ Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Conjuntos de datos de Power BI
+* Conjuntos de datos de Power BI
 * Azure Analysis Services
 
 Al conectarse a esos orígenes multidimensionales mediante DirectQuery, no se puede conectar a otro origen de DirectQuery ni combinar con los datos importados.

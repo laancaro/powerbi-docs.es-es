@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 1c4a16d0dbe22a154dacfd296bfedab8acb97e81
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 6e89fa21617add5c3c11ada990f7055d305cebf5
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867125"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256441"
 ---
 # <a name="supported-languages-and-countriesregions-for-power-bi"></a>Idiomas y países o regiones admitidos para Power BI
 
@@ -116,14 +116,14 @@ Power BI detecta el idioma según las preferencias de idioma del equipo. La form
    Debe cerrar y volver a abrir el explorador para ver el cambio.
 
 ## <a name="choose-the-language-or-locale-of-power-bi-desktop"></a>Elegir el idioma o la configuración regional de Power BI Desktop
-Tiene dos maneras de obtener Power BI Desktop: puede descargarlo o instalarlo desde la Tienda Windows.
+Tiene dos maneras de obtener Power BI Desktop: puede descargarlo como un instalador independiente o instalarlo desde la Tienda Windows.
 
-* Cuando [instala Power BI Desktop desde la Tienda Windows](#choose-a-language-for-power-bi-desktop-installed-from-the-windows-store), se instalan todos los idiomas, pero solo se mostrará en el idioma que se corresponde con el idioma predeterminado de Windows.
-* Si [descarga Power BI Desktop](#choose-a-language-when-you-download-power-bi-desktop), podrá elegir el idioma cuando lo haya descargado. 
+* Cuando se instala Power BI Desktop desde la Tienda Windows, se instalan todos los idiomas y, de forma predeterminada, se mostrará el idioma que se corresponde con el idioma predeterminado de Windows.
+* Al descargar Power BI Desktop como un instalador independiente, se puede elegir el idioma predeterminado al ejecutar el instalador y cambiarlo en una fecha posterior.
 * También puede [elegir la configuración regional que se utilizará al importar datos](#choose-the-locale-for-importing-data-into-power-bi-desktop) para un informe específico.
 
-### <a name="choose-a-language-for-power-bi-desktop-installed-from-the-windows-store"></a>Elección de un idioma para Power BI Desktop instalado desde la Tienda Windows
-1. [Instale Power BI Desktop](http://aka.ms/pbidesktopstore) desde la Tienda Windows.
+### <a name="choose-a-language-for-power-bi-desktop"></a>Elección de un idioma para Power BI Desktop 
+1. Instale Power BI Desktop [desde la Tienda Windows](http://aka.ms/pbidesktopstore) o como un [instalador independiente](http://aka.ms/pbiSingleInstaller).
 2. Para cambiar el idioma, en el equipo busque **Configuración de Windows**. 
 3. Seleccione **Hora e idioma**.
    
@@ -140,11 +140,6 @@ Para reemplazar el idioma predeterminado y usar Power BI Desktop en un idioma di
 3. En el cuadro **Idioma de la aplicación**, seleccione otra configuración regional. 
 
 La compatibilidad de idioma en Power BI Desktop está limitada a los idiomas que se muestren en el menú desplegable Idioma de la aplicación.
-
-### <a name="choose-a-language-when-you-download-power-bi-desktop"></a>Elección de un idioma al descargar Power BI Desktop
-Si usa la versión de .msi del instalador de Power BI Desktop, el idioma se establecerá en el momento de la descarga. Seleccione el idioma en la página [Descargar Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=45331). 
-
-La única forma de cambiar el idioma en Power BI Desktop al instalarlo de esta forma es volver a la página de descarga y descargarlo en otro idioma.
 
 ### <a name="choose-the-locale-for-importing-data-into-power-bi-desktop"></a>Elección de la configuración regional para importar datos en Power BI Desktop
 Tanto si se descarga Power BI Desktop como si lo instala desde la Tienda Windows, puede elegir una configuración regional para un informe concreto que sea distinta de la de su versión de Power BI Desktop. La configuración regional cambia la forma en que se interpretan los datos cuando se importan desde un origen de datos (por ejemplo, si “3/4/2017” se interpreta como “3 de abril” o “4 de marzo”). 

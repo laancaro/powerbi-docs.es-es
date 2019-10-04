@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 02a81aa47fb7945b2fd76d03a6bdde7712304bdc
-ms.sourcegitcommit: 7eb74b060de080152c190ac7eb6b64767f8d6626
+ms.openlocfilehash: fffb0479865439759167635efcae1799452c4c6f
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70919540"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305734"
 ---
 # <a name="use-custom-format-strings-in-power-bi-desktop"></a>Uso de cadenas de formato personalizado en Power BI Desktop
 
@@ -148,13 +148,14 @@ En la tabla siguiente se identifican los caracteres que se pueden usar para crea
 | ( **E- E+ e- e+** ) | Formato científico. Si la expresión de formato contiene al menos un marcador de posición de dígitos ( **0** o **#** ) a la derecha de E-, E+, e- o e+, el número se muestra en formato científico y se inserta E o e entre el número y su exponente. El número de marcadores de posición de dígitos a la derecha determina el número de dígitos en el exponente. Use E- o e- para colocar un signo menos junto a los exponentes negativos. Use E + o e + para colocar un signo menos junto a los exponentes negativos y un signo más junto a los exponentes positivos. |
 | **- + $**  ( ) | Muestra un carácter literal. Para mostrar un carácter que no sea uno de los enumerados, debe ir precedido de una barra diagonal inversa (\) o encerrado entre comillas dobles (&quot; &quot;). |
 | ( * *\** ) | Muestra el siguiente carácter en la cadena de formato. Para mostrar un carácter que tiene un significado especial como un carácter literal, debe ir precedido de una barra diagonal inversa (\). La barra diagonal inversa no se muestra. El uso de una barra diagonal inversa es igual que incluir el carácter siguiente entre comillas dobles. Para mostrar una barra diagonal inversa, use dos barras diagonales inversas (\\). Algunos ejemplos de caracteres que se pueden mostrar como caracteres literales son los caracteres de formato de fecha y hora (a, c, d, h, m, n, p, q, s, t, w, y,/y:), los caracteres de formato numérico (#, 0,%, e, e, coma y punto) y los caracteres de formato de cadena (@, &amp;, \&lt;, \&gt; y !). |
-| (&quot;ABC&quot;) | Muestra la cadena entre comillas dobles (&quot; &quot;). Para incluir una cadena en **format** desde el código, debe usar **Chr(34)** para incluir el texto (34 es el código de carácter de una comilla (&quot;)). |
+| (&quot;ABC&quot;) | Muestra la cadena entre comillas dobles (&quot; &quot;). |
 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Puede que también esté interesado en los siguientes artículos:
 
 * [Cadenas de formato VBA](https://docs.microsoft.com/office/vba/language/reference/user-interface-help/format-function-visual-basic-for-applications#example)
+* [Medidas en Power BI Desktop](desktop-measures.md)
+* [Tipos de datos en Power BI Desktop](desktop-data-types.md)
 * [Formato condicional en tablas](desktop-conditional-table-formatting.md)
-* [Títulos basados en expresiones en Power BI Desktop](desktop-conditional-format-visual-titles.md)
 

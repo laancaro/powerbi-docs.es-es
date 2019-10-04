@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b12b2035d7686667535dfdddba42b4b8ca014d96
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: ac9ffa4d1186a8ca6d4e2d55da4311bbce55903e
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161124"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71194678"
 ---
 # <a name="funnel-charts"></a>Gráficos de embudo
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Los gráficos de embudo ayudan a visualizar un proceso lineal con fases secuenciales conectadas. Por ejemplo, un embudo de ventas que realiza el seguimiento de los clientes a través de las fases: cliente potencial \> cliente potencial calificado \> prospecto \> contrato \> cierre.  De un vistazo, la forma del embudo indica el estado del proceso del que está realizando el seguimiento.
 
 Cada fase del embudo representa un porcentaje del total. Por lo tanto, en la mayoría de los casos, un gráfico de embudo tiene la forma de embudo: la primera fase es la más grande y cada fase posterior es menor que su predecesora.  Los embudos en forma de pera también son útiles, porque pueden identificar un problema en el proceso.  Pero por lo general, la primera fase, la fase de "entrada", es la de mayor tamaño.
@@ -39,27 +42,43 @@ Los gráficos de embudo son una excelente opción:
 ## <a name="working-with-funnel-charts"></a>Trabajar con gráficos de embudo
 Gráficos de embudo:
 
-* Se pueden anclar desde los informes y desde Preguntas y respuestas.
 * Se pueden ordenar.
 * Se admiten múltiples gráficos.
 * Otras visualizaciones pueden resaltarlo y realizar un filtrado cruzado en la misma página del informe.
 * Se pueden usar para resaltar y realizar un filtrado cruzado de otras visualizaciones en la misma página del informe.
+   > [!NOTE]
+   > Vea este vídeo para observar cómo se crea un gráfico de embudo con el Ejemplo de marketing y ventas. Después, siga los pasos que aparecen debajo del vídeo para probarlo usted mismo mediante el archivo PBIX del Ejemplo de análisis de oportunidades.
+   > 
+   > 
+## <a name="prerequisite"></a>Requisito previo
+
+Este tutorial usa el [archivo PBIX del Ejemplo de análisis de oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
+).
+
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
+   
+2. Busque la copia del **archivo PBIX del Ejemplo de análisis de oportunidades**.
+
+1. Abra el **archivo PBIX del Ejemplo de análisis de oportunidades** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+
 
 ## <a name="create-a-basic-funnel-chart"></a>Crear un gráfico de embudo básico
-Vea este vídeo para ver cómo Guillermo crea un gráfico de embudo con el Ejemplo de marketing y ventas.
+Vea este vídeo para observar cómo se crea un gráfico de embudo con el Ejemplo de marketing y ventas.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/qKRZPBnaUXM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades que cada uno de nosotros tiene en nuestras fases de ventas.
 
-Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder continuar, [descargue el ejemplo](../sample-datasets.md) del servicio Power BI (app.powerbi.com) o Power BI Desktop.   
-
-1. Comience en una página de informe en blanco y seleccione el campo **SalesStage** \> **Fase de ventas**. Si está utilizando el servicio Power BI, asegúrese de que abre el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
+1. Comience en una página de informe en blanco y seleccione el campo **SalesStage** \> **Fase de ventas**.
    
-    ![Selección de Fase de ventas](media/power-bi-visualization-funnel-charts/funnelselectfield_new.png)
-2. [Convierta el gráfico](power-bi-report-change-visualization-type.md) en un embudo. Observe que la **Fase de ventas** también esté en el **Grupo** . 
-3. En el panel **Campos**, seleccione **Hecho** \> **Recuento de oportunidades**.
+    ![Selección de Fase de ventas](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
+
+1. Seleccione el icono de embudo ![Icono de gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel-icon.png) para convertir el gráfico de columnas en un gráfico de embudo.
+
+2. En el panel **Campos**, seleccione **Hecho** \> **Recuento de oportunidades**.
    
     ![Creación del gráfico de embudo](media/power-bi-visualization-funnel-charts/power-bi-funnel-2.png)
 4. Al mantener el mouse sobre una barra se muestra una gran cantidad de información.
@@ -69,8 +88,8 @@ Estas instrucciones usan el Ejemplo de análisis de oportunidades. Para poder co
    * La tasa de conversión general (% de Clientes potenciales) 
    * Tasa de etapa a etapa (también conocida como tasa de abandono) que es el porcentaje de la fase anterior (en este caso, fase propuesta/fase de solución)
      
-     ![Detalles de la barra Propuesta](media/power-bi-visualization-funnel-charts/funnelhover_new.png)
-5. [Agregue el embudo como un icono de panel](../service-dashboard-tiles.md). 
+     ![Detalles de la barra Propuesta](media/power-bi-visualization-funnel-charts/funnelhover-new.png)
+
 6. [Guarde el informe](../service-report-save.md).
 
 ## <a name="highlighting-and-cross-filtering"></a>Resaltado y filtrado cruzado
@@ -82,15 +101,6 @@ Al resaltar una barra en un gráfico de embudo, se realiza un filtrado cruzado d
    
    ![Vídeo breve en el que se muestran las interacciones de objetos visuales](media/power-bi-visualization-funnel-charts/funnelchartnoowl.gif)
 2. Para establecer las preferencias del resaltado cruzado y del filtrado cruzado de los objetos visuales, consulte [Interacciones visuales en Power BI](../service-reports-visual-interactions.md).
-
-## <a name="create-a-funnel-chart-using-qa"></a>Creación de un gráfico de embudo con Preguntas y respuestas
-Abra el panel de ejemplo de análisis de oportunidades, o cualquier otro panel que tenga al menos una visualización anclada del conjunto de datos de este ejemplo.  Cuando escriba una pregunta en Preguntas y respuestas, Power BI busca respuestas en todos los conjuntos de datos que están asociados (que tienen iconos anclados) al panel seleccionado. Para más información, consulte [Power BI: Conceptos básicos](../service-basic-concepts.md).
-
-1. En el panel de ejemplo de análisis de oportunidades, comience a escribir la pregunta en el cuadro Preguntas y respuestas.
-   
-   ![Cuadro de pregunta y embudo](media/power-bi-visualization-funnel-charts/power-bi-qna.png)
-   
-2. No olvide agregar "como embudo" para que Power BI sepa qué tipo de visualización prefiere.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

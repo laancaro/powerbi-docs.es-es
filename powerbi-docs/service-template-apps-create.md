@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/10/2019
+ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: 8e08557c475f06c8a32cebb0b7ca0fe1054cf266
-ms.sourcegitcommit: 8c52b3256f9c1b8e344f22c1867e56e078c6a87c
+ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "67264549"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195382"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
@@ -47,7 +47,7 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 
 3. Proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo de la aplicación.
 
-4. Active **Desarrollar una aplicación de plantilla**.
+4. Expanda la sección **Avanzado** y seleccione **Desarrollar una aplicación de plantilla**.
 
     ![Desarrollar una aplicación de plantilla](media/service-template-apps-create/power-bi-template-app-develop.png)
 
@@ -78,17 +78,19 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
     **Personalización de marca**
 
     ![Personalización de marca](media/service-template-apps-create/power-bi-create-branding.png)
-    - Nombre de aplicación
+    - Nombre de la aplicación
     - Descripción
     - Sitio de soporte técnico (el vínculo se presenta en la información de la aplicación después de redistribuir la aplicación de plantilla como aplicación de la organización)
     - Logotipo de la aplicación (límite de tamaño de archivo de 45 K, relación de aspecto 1:1, formatos .png .jpg .jpeg)
     - Color de tema de la aplicación
 
-    **Contenido**
+    **Navegación**
 
-    **Página de inicio de la aplicación:** Defina un informe o un panel como página de inicio de la aplicación, use una página de inicio para una buena impresión:
+    Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación izquierdo de la aplicación (para obtener más información, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience) en este artículo).
 
-    ![Contenido](media/service-template-apps-create/power-bi-create-content.png)
+   ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
+    
+    **Página de inicio de la aplicación:** Si decide no participar en el generador de navegación, tiene la opción de seleccionar la página de aterrizaje de la aplicación. defina un informe o panel como la página de aterrizaje de la aplicación. Use una página de aterrizaje que proporcione la impresión correcta.
 
     **Control**
 
@@ -107,7 +109,6 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
     - **Valor**: valor predeterminado del parámetro.
     - **Requerido**: úselo para requerir al instalador la entrada de un parámetro específico del usuario.
     - **Bloqueado**: el bloqueo impide que el instalador actualice un parámetro.
-    - **Estático**: se debe habilitar en el caso de que la aplicación contenga *solo* datos de ejemplo. Al seleccionar **Estático**, el asistente para la instalación no pide a los usuarios que se conecten a un origen de datos.
 
     **Acceso**: en la fase de pruebas, decida qué otros usuarios de la organización pueden instalar y probar la aplicación. No se preocupe, siempre puede volver y cambiar esta configuración más adelante (esta configuración no afecta al acceso a la aplicación de plantilla distribuida).
 

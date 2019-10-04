@@ -1,46 +1,57 @@
 ---
-title: Muestra del contenido visitado recientemente en el servicio Power BI
+title: Visualización del contenido visitado recientemente en el servicio Power BI
 description: documentación para elementos recientes en Power BI
 author: mihart
 manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4bb69c8ead92bf69671107fdd5bfa0eef0ae5c0d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
+ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61054918"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "71256256"
 ---
-# <a name="recent-content-in-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
-El contenido reciente son los últimos elementos visitados en el servicio Power BI, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros en todas las áreas de trabajo.
+# <a name="recent-content-in-the-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
+El contenido reciente son los últimos elementos visitados en el servicio Power BI, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros.
 
-![Ventana de contenido reciente](./media/end-user-recent/power-bi-recent-screen.png)
+![Ventana de contenido reciente](./media/end-user-recent/power-bi-recent.png)
 
 Amanda muestra cómo se rellenan las listas de contenido **Recientes** del servicio Power BI; después, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G26dr2PsEpk" frameborder="0" allowfullscreen></iframe>
 
+> [!NOTE]
+> En este vídeo se usa una versión anterior del servicio Power BI.
+
 ## <a name="display-recent-content"></a>Mostrar el contenido reciente
-Para ver los cinco elementos visitados más recientemente, en el panel de navegación izquierdo, seleccione la flecha a la derecha de **Reciente**.  Desde aquí puede seleccionar contenido reciente para abrirlo. Solo se muestran los cinco elementos más recientes.
+Para ver los cinco elementos visitados más recientemente, en el panel de navegación, seleccione la flecha a la derecha de **Reciente**.  Desde aquí puede seleccionar contenido reciente para abrirlo. Solo se muestran los cinco elementos más recientes.
 
-![Control flotante de contenido reciente](./media/end-user-recent/power-bi-recent-flyout-new.png)
+![Control flotante de contenido reciente](./media/end-user-recent/power-bi-recent-flyout.png)
 
-Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo** para abrir la pantalla Reciente (consulte a continuación). También puede seleccionar **Reciente** o el ![icono de Reciente](./media/end-user-recent/power-bi-recent-icon.png) en la barra de navegación izquierda.
+Si tiene más de cinco elementos visitados recientemente, seleccione **Ver todo** para abrir la pantalla Reciente. También puede seleccionar **Reciente** o el ![icono de Reciente](./media/end-user-recent/power-bi-icon.png) en el panel de navegación.
 
-![Visualización de todo el contenido reciente](./media/end-user-recent/power-bi-recent-list.png)
+![Visualización de todo el contenido reciente](./media/end-user-recent/power-bi-recent.png)
 
-Desde aquí puede interactuar con el contenido como haría en las pestañas individuales [**Paneles**](end-user-dashboards.md), [**Informes**](end-user-reports.md) y **Libros** y en la pantalla de las aplicaciones <!--[**Apps**](end-user-apps.md)--> .
+## <a name="actions-available-from-the-recent-content-list"></a>Acciones disponibles en la lista de contenido **Reciente**
+Las acciones disponibles dependerán de la configuración que asigna el *diseñador* de contenido. Algunas de las opciones pueden incluir lo siguiente:
+* Seleccione el icono de estrella para añadir un ![icono de estrella](./media/end-user-shared-with-me/power-bi-star-icon.png) de [un panel, informe o aplicación a Favoritos](end-user-favorite.md).
+* Algunos paneles e informes se pueden volver a compartir  ![Icono de uso compartido](./media/end-user-shared-with-me/power-bi-share-icon-new.png).
+* [Abrir el informe en Excel](end-user-export.md) ![icono de Exportar a Excel](./media/end-user-shared-with-me/power-bi-excel.png) 
+* [Ver información](end-user-insights.md) que Power BI encuentra en el ![icono de información](./media/end-user-shared-with-me/power-bi-insights.png) de datos.
+* Además, si las listas son largas, puede [usar el campo de búsqueda y la ordenación para encontrar lo que necesite](end-user-search-sort.md). Para averiguar si se puede ordenar una columna, mantenga el puntero para ver si aparece una flecha. En este ejemplo, al mantener el puntero sobre **Último acceso** se revela una flecha: su contenido reciente se puede ordenar por fecha de acceso. 
+
+    ![ordenación de todo el contenido reciente](./media/end-user-recent/power-bi-recent-sort.png)
+
 
 ## <a name="next-steps"></a>Pasos siguientes
-<!--[Power BI service Apps](end-user-apps.md)-->
+[Aplicaciones del servicio Power BI](end-user-apps.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

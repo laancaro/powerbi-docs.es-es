@@ -8,15 +8,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/20/2019
+ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 5551247307e750624006de71a3c8652376b73fcf
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175267"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305896"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -522,6 +522,15 @@ De forma predeterminada, los datos usados con Power BI se almacenan en almacenam
 Como administrador, puede ver las áreas de trabajo que existen en el inquilino. Puede ordenar y filtrar la lista de áreas de trabajo y mostrar los detalles de cada una de ellas. Las columnas de la tabla se corresponden con las propiedades devueltas por la [API de REST de administración de Power BI](/rest/api/power-bi/admin) para las áreas de trabajo. Las áreas de trabajo personales son de tipo **PersonalGroup**, las clásicas son de tipo **Group** y las áreas de trabajo de la nueva experiencia de áreas de trabajo son de tipo **Workspace**. Para obtener más información, consulte [Crear nuevas áreas de trabajo en Power BI](service-create-the-new-workspaces.md).
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
+
+En la pestaña **Áreas de trabajo**, verá el *estado* para cada área de trabajo. En la tabla siguiente se proporcionan más detalles sobre el significado de estos estados.
+
+|Estado  |Descripción  |
+|---------|---------|
+| Activo | Un área de trabajo normal. No indica nada sobre el uso o lo que hay en el interior, solo que el área de trabajo es "normal". |
+| Huérfana | Un área de trabajo sin usuario administrador. |
+| Eliminada | Un área de trabajo eliminada. Se conservan suficientes metadatos para restaurar el área de trabajo, si se quiere. |
+| Quitando | Un área de trabajo en proceso de eliminación, pero aún no ha desaparecido. Los usuarios pueden eliminar sus propias áreas de trabajo, que se sitúan en estado Quitando y, con el tiempo, en Eliminada. |
 
 ## <a name="custom-branding"></a>Personalización de marca
 

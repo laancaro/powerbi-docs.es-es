@@ -1,22 +1,22 @@
 ---
-title: Solución de problemas en el desarrollo de objetos visuales personalizados de Power BI
+title: Solución de problemas del desarrollo de objetos visuales de Power BI
 description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al desarrollar o crear un objeto visual personalizado de Power BI.
-author: sranins
-ms.author: rasala
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
+manager: rkarlin
 ms.reviewer: maghan
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: cbda8cca80c32056f06788e53540d7f2d6ed972d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
+ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61421795"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "71195359"
 ---
-# <a name="troubleshoot-power-bi-custom-visuals"></a>Solución de problemas de los objetos visuales personalizados de Power BI
+# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Solución de problemas de los objetos visuales de Power BI
 
 ## <a name="debug"></a>Depurar
 
@@ -39,8 +39,8 @@ Si no lo ve, asegúrese de que lo ha habilitado en la configuración de Power BI
 
 Ejecute el servidor del objeto visual con el comando `pbiviz start` en línea de comandos del terminal desde la raíz del proyecto del objeto visual. Si el servidor no se está ejecutando, es probable que los certificados SSL no se hayan instalado correctamente.
 
-Si tiene alguna pregunta, problema o quiere hacer un comentario, no dude en ponerse en contacto con el equipo de soporte técnico de los objetos visuales personalizados: *pbicvsupport@microsoft.com*  .
+Si tiene alguna pregunta, problema o quiere hacer un comentario, no dude en ponerse en contacto con el equipo de soporte técnico de los objetos visuales de Power BI: *pbicvsupport@microsoft.com*  .
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales personalizados de Power BI](power-bi-custom-visuals-faq.md#organizational-custom-visuals).
+Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).

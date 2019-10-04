@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 06/06/2019
-ms.openlocfilehash: 9e4d5285b48739e9f16fbe503736c20cb5524e5d
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.date: 09/24/2019
+ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
+ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985720"
+ms.lasthandoff: 09/26/2019
+ms.locfileid: "71305677"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -36,14 +36,13 @@ Los informes paginados tienen su propia herramienta de diseño, el Generador de 
 
 Un único informe paginado puede tener un número de orígenes de datos distintos. No tiene un modelo de datos subyacente, a diferencia de los informes de Power BI. Para la versión inicial de los informes paginados del servicio Power BI, los conjuntos de datos y los orígenes de datos insertados se crean en el propio informe. Por ahora, no puede usar orígenes de datos compartidos ni conjuntos de datos compartidos. Cree informes en el generador de informes en el equipo local. Si un informe se conecta a datos locales, después de cargar el informe en el servicio Power BI, debe crear una puerta de enlace y redirigir la conexión de datos. Estos son los orígenes de datos a los que puede conectarse en este momento:
 
-- Azure SQL Database y Data Warehouse
+- Azure SQL Database y Data Warehouse (mediante Basic y oAuth)
 - Azure Analysis Services (mediante SSO)
 - SQL Server a través de una puerta de enlace
 - SQL Server Analysis Services a través de una puerta de enlace
-- Conjuntos de datos de Power BI Premium
+- Conjuntos de datos de Power BI
 - Oracle
-- Teradata
-- Orígenes adicionales a medida que se agreguen
+- Teradatos
 
 ## <a name="design-your-report"></a>Diseño del informe  
 
@@ -79,10 +78,10 @@ Para más información, consulte el artículo [Suscripción personal y de otros 
 Estas son algunas otras características que no son compatibles con la versión inicial:
 
 - Anclar páginas de informes u objetos visuales a los paneles de Power BI. Aún puede anclar visualizaciones a un panel de Power BI desde un informe paginado local en un servidor de informes de Power BI o un servidor de informes de Reporting Services. Para más información, consulte [Anclar elementos de Reporting Services en paneles de Power BI](https://docs.microsoft.com/sql/reporting-services/pin-reporting-services-items-to-power-bi-dashboards).
-- Características interactivas como mapas del documento y botones para mostrar u ocultar.
-- Subinformes e informes de obtención de detalles.
+- Mapas del documento.
+- Subinformes e informes de obtención de detalles.  Sin embargo, puede considerar el uso de parámetros de dirección URL con informes paginados para lograr escenarios de obtención de detalles.
 - Orígenes de datos compartidos y conjuntos de datos compartidos.
-- Elementos visuales de informes de Power BI.
+
  
 ## <a name="next-steps"></a>Pasos siguientes
 
