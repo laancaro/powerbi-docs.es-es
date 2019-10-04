@@ -1,0 +1,240 @@
+- name: "Power\_BI para desarrolladores"
+  items:
+    - name: Información general
+      expanded: true
+      items:
+        - name: ¿Qué pueden hacer los desarrolladores con Power BI?
+          href: what-can-you-do.md
+    - name: Objetos visuales de Power BI
+      expanded: true
+      items:
+        - name: Información general
+          items:
+            - name: Objetos visuales en Power BI
+              href: ../power-bi-custom-visuals.md
+        - name: Tutoriales
+          items:
+            - name: Desarrollo de un objeto visual de Power BI
+              href: custom-visual-develop-tutorial.md
+            - name: Adición de opciones de formato
+              href: custom-visual-develop-tutorial-format-options.md
+            - name: Adición de pruebas unitarias para el proyecto de objetos visuales
+              href: visuals/unit-tests-introduction.md
+        - name: Conceptos
+          items:
+            - name: Objetos visuales para organizaciones en Power BI
+              href: ../power-bi-custom-visuals-organization.md
+            - name: Instrucciones para objetos visuales de Power BI
+              href: guidelines-powerbi-visuals.md
+            - name: Preguntas frecuentes sobre los objetos visuales
+              href: ../power-bi-custom-visuals-faq.md
+            - name: Uso de funcionalidades
+              href: visuals/capabilities.md
+            - name: Asignaciones de vistas de datos
+              href: visuals/dataview-mappings.md
+            - name: Objetos y propiedades
+              href: visuals/objects-properties.md
+            - name: Modo de edición avanzada
+              href: visuals/advanced-edit-mode.md
+        - name: Procedimiento
+          items:
+            - name: Obtención de un objeto visual certificado
+              href: ../power-bi-custom-visuals-certified.md
+            - name: Publicar objetos visuales personalizados en AppSource
+              href: office-store.md
+            - name: Usar objetos visuales personalizados con tecnología R en Power BI
+              href: ../desktop-r-powered-custom-visuals.md
+            - name: Interacciones de objetos visuales
+              href: visuals/visuals-interactions.md
+            - name: Adición de información sobre herramientas de los objetos visuales
+              href: visuals/add-tooltips.md
+            - name: Adición del panel de análisis
+              href: visuals/analytics-pane.md
+            - name: Filtro de objetos visuales
+              href: visuals/filter-api.md
+            - name: Captura de más datos
+              href: visuals/fetch-more-data.md
+            - name: Adición de compatibilidad con marcadores
+              href: visuals/bookmarks-support.md
+            - name: Resaltado de datos en objetos visuales
+              href: visuals/highlight.md
+            - name: Adición de compatibilidad con el modo de contraste alto
+              href: visuals/high-contrast-support.md
+            - name: Habilitación de segmentaciones de sincronización
+              href: visuals/enable-sync-slicers.md
+            - name: Solución de problemas con los objetos visuales de Power BI
+              href: ../power-bi-custom-visuals-troubleshoot.md
+        - name: Referencia
+          items:
+            - name: Página de aterrizaje
+              href: visuals/landing-page.md
+            - name: Inicio de URL
+              href: visuals/launch-url.md
+            - name: Representación de eventos
+              href: visuals/event-service.md
+            - name: Ordenación
+              href: visuals/sort-options.md
+        - name: Recursos
+          items:
+            - name: Centro de desarrollo
+              href: 'https://powerbi.microsoft.com/developers/'
+            - name: Ejemplos
+              href: 'https://microsoft.github.io/PowerBI-visuals/samples/'
+            - name: Repositorio Git de objetos visuales personalizados
+              href: 'https://go.microsoft.com/fwlink/?linkid=848277'
+            - name: Creación de un certificado SSL
+              href: visuals/create-ssl-certificate.md
+    - name: Análisis insertados
+      expanded: true
+      items:
+        - name: Información general
+          items:
+            - name: Qué es la inserción con Power BI
+              href: embedding.md
+            - name: Qué es Power BI Embedded de Azure
+              href: azure-pbie-what-is-power-bi-embedded.md
+        - name: Tutoriales
+          items:
+            - name: Inserción de contenido para clientes
+              href: embed-sample-for-customers.md
+            - name: Inserción de contenido para su organización
+              href: embed-sample-for-your-organization.md
+            - name: Inserción de contenido para nubes nacionales
+              href: embed-sample-for-customers-national-clouds.md
+        - name: Conceptos
+          items:
+            - name: Procedimientos recomendados de rendimiento
+              href: embedded-performance-best-practices.md
+            - name: Entidad de servicio
+              href: embed-service-principal.md
+            - name: Seguridad de nivel de fila
+              href: embedded-row-level-security.md
+            - name: Administración de varios inquilinos
+              href: embed-multi-tenancy.md
+            - name: Registro de diagnóstico de Azure para el servicio de Power BI Embedded
+              href: azure-pbie-diag-logs.md
+            - name: Preguntas frecuentes sobre la inserción
+              href: embedded-faq.md
+            - name: Permisos de Power BI
+              href: power-bi-permissions.md
+        - name: Procedimiento
+          items:
+            - name: Insertar contenido desde una aplicación
+              href: embed-from-apps.md
+            - name: Instalación automática de las aplicaciones
+              href: embed-auto-install-app.md
+            - name: Crear un inquilino de Azure Active Directory
+              href: create-an-azure-active-directory-tenant.md
+            - name: Registrar una aplicación
+              href: register-app.md
+            - name: Obtener un token de acceso de Azure AD
+              href: get-azuread-access-token.md
+            - name: Inserción de preguntas y respuestas
+              href: qanda.md
+            - name: Solución de problemas de una aplicación insertada
+              href: embedded-troubleshoot.md
+            - name: Administración de capacidades en Azure
+              items:
+                - name: Creación de una capacidad en Azure
+                  href: azure-pbie-create-capacity.md
+                - name: Creación de una capacidad con Multi-Geo en Azure
+                  href: embedded-multi-geo.md
+                - name: Escalado de una capacidad en Azure
+                  href: azure-pbie-scale-capacity.md
+                - name: Pausa e inicio de una capacidad en Azure
+                  href: azure-pbie-pause-start.md
+            - name: Migración desde colecciones de área de trabajo
+              items:
+                - name: Cómo hacer una migración desde colecciones de área de trabajo de Power BI
+                  href: migrate-from-powerbi-embedded.md
+                - name: Herramienta de migración
+                  href: migrate-tool.md
+                - name: Fragmentos de código de migración
+                  href: migrate-code-snippets.md
+        - name: Referencia
+          items:
+            - name: API
+              items:
+                - name: API REST de administración de recursos de Azure
+                  href: 'https://docs.microsoft.com/rest/api/power-bi-embedded/'
+                - name: API REST de Power BI
+                  href: 'https://msdn.microsoft.com/library/mt147898.aspx'
+                - name: Referencia de la API de REST de Power BI
+                  href: rest-api-reference.md
+            - name: Descarga de SDK de .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
+            - name: Inserción de diseños personalizados en una aplicación
+              href: embedded-custom-layout.md
+        - name: Recursos
+          items:
+            - name: Centro de desarrollo
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: Herramienta de configuración de inserción
+              href: 'https://aka.ms/embedsetup'
+            - name: Ejemplo de área de juegos de JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848279'
+            - name: Wiki de JavaScript para Power BI
+              href: 'https://github.com/Microsoft/powerbi-javascript/wiki'
+            - name: Repositorio Git de JavaScript
+              href: 'https://go.microsoft.com/fwlink/?linkid=848276'
+            - name: 'Repositorio Git de C# de Power BI'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Ejemplos
+              href: 'https://go.microsoft.com/fwlink/?linkid=851293'
+            - name: Comunidad de Power BI
+              href: 'https://go.microsoft.com/fwlink/?linkid=848280'
+            - name: Stack Overflow
+              href: 'https://go.microsoft.com/fwlink/?linkid=848281'
+    - name: Automatización
+      expanded: true
+      items:
+        - name: Información general
+          items:
+            - name: ¿Qué puedo hacer con la API de Power BI?
+              href: overview-of-power-bi-rest-api.md
+        - name: Tutoriales
+          items:
+            - name: Inserción de datos en un conjunto de datos
+              href: walkthrough-push-data.md
+            - name: Obtener un token de acceso de autenticación
+              href: walkthrough-push-data-get-token.md
+            - name: Crear un conjunto de datos
+              href: walkthrough-push-data-create-dataset.md
+            - name: Obtener un conjunto de datos para agregar filas
+              href: walkthrough-push-data-get-datasets.md
+            - name: Agregar filas a una tabla
+              href: walkthrough-push-data-add-rows.md
+        - name: Conceptos
+          items:
+            - name: Directiva de retención automática para datos en tiempo real
+              href: api-automatic-retention-policy-for-real-time-data.md
+            - name: Inserción de datos
+              items:
+                - name: Limitaciones de la API de REST de Power BI
+                  href: api-rest-api-limitations.md
+                - name: Propiedades del conjunto de datos
+                  href: api-dataset-properties.md
+                - name: Control de versiones de modelos de datos
+                  href: api-data-model-versioning.md
+        - name: Procedimiento
+          items:
+            - name: Configurar credenciales
+              href: configure-credentials.md
+            - name: Cifrado de credenciales
+              href: encrypt-credentials.md
+        - name: Referencia
+          items:
+            - name: API de REST
+              href: 'https://docs.microsoft.com/rest/api/power-bi'
+            - name: Referencia de la API de REST de Power BI
+              href: rest-api-reference.md
+            - name: Lista de código completa
+              href: walkthrough-push-data-complete-code.md
+        - name: Recursos
+          items:
+            - name: Centro de desarrollo
+              href: 'https://powerbi.microsoft.com/en-us/developers/'
+            - name: 'Repositorio Git de C# de Power BI'
+              href: 'https://go.microsoft.com/fwlink/?linkid=848273'
+            - name: Descarga de SDK de .NET
+              href: 'https://go.microsoft.com/fwlink/?linkid=848274'
