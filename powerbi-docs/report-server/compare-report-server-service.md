@@ -10,12 +10,12 @@ ms.subservice: powerbi-report-server
 manager: kfile
 ms.custom: mvc
 ms.date: 09/13/2019
-ms.openlocfilehash: d2c0ab82a3b262a975c461a4414ed7fd3b1bc060
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 104b903e6b7a47b5ce35dc5c0627a43d54c1090a
+ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075899"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "71691223"
 ---
 # <a name="comparing-power-bi-report-server-and-the-power-bi-service"></a>Comparación de Power BI Report Server y el servicio Power BI
 
@@ -53,7 +53,8 @@ Power BI Report Server y el servicio Power BI tienen muchas similitudes y alguna
 | Objetos visuales de R | No | Sí | [Cree objetos visuales de R](../desktop-r-visuals.md) en Power BI Desktop y publíquelos en el servicio Power BI. No se pueden guardar los informes de Power BI con objetos visuales de R en Power BI Report Server.  |
 | Características en versión preliminar | No | Sí | [Participación en las características de versión preliminar del servicio Power BI](../consumer/end-user-preview-features.md) |
 | Objetos visuales personalizados | Sí | Sí | [Elementos visuales personalizados en Power BI](../power-bi-custom-visuals.md) |
-| Power BI Desktop | Versión optimizada para Report Server, disponible para su descarga con Report Server | Versión optimizada para el servicio Power BI, disponible desde Mirosoft Store | [Power BI Desktop para Report Server](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para el servicio Power BI](http://aka.ms/pbidesktopstore) |
+| Modelos compuestos | No | Sí |
+| Power BI Desktop | Versión optimizada para Report Server, disponible para su descarga con Report Server | Versión optimizada para el servicio Power BI, disponible desde Mirosoft Store | [Power BI Desktop para Report Server](https://powerbi.microsoft.com/report-server/) <br><br> [Power BI Desktop para el servicio Power BI](http://aka.ms/pbidesktopstore) |
 
 ## <a name="next-steps"></a>Pasos siguientes
 

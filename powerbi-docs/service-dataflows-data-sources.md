@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: d2ba4809ce5c6664350ec81b57b6fc717a13879f
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: ae260e36d0ca7363a3b21242087813d951cf4983
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164547"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945802"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectarse a orígenes de datos de flujos de datos de Power BI
 
@@ -75,12 +75,12 @@ La categoría **Base de datos** incluye las siguientes conexiones de datos dispo
 * Base de datos de PostgreSQL
 * Base de datos de SQL Server
 * Base de datos de Sybase
-* Base de datos de Teradata
+* Teradatos
 * Vertica
 
 La categoría **Power BI** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 
-* Flujos de datos de Power BI
+* Flujos de datos de Power BI
 
 La categoría **Azure** incluye las siguientes conexiones de datos disponibles para los flujos de datos:
 

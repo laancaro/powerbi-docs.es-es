@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/30/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 58cb009e29c05ce318c5931fb418617e1ef63f4f
-ms.sourcegitcommit: ba085b248c54e8fb1fd8eb2bb23a814e3fdd7ff6
+ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/12/2019
-ms.locfileid: "70937057"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715291"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Incorporación de hipervínculos (direcciones URL) a una tabla
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a una tabla o matriz. Luego, en Power BI Desktop o en el servicio Power BI, puede agregar esos hipervínculos a las tablas y matrices de informes. 
@@ -57,7 +57,7 @@ El procedimiento para agregar un hipervínculo depende de si ha importado los da
 
     ![Activación del icono de la dirección URL](media/power-bi-hyperlinks-in-tables/power-bi-url-icon-on.png)
 
-1. (Opcional) [Publique el informe de Power BI Desktop en el servicio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) y ábralo ahí. Los hipervínculos también funcionará en el servicio.
+1. (Opcional) [Publique el informe de Power BI Desktop en el servicio Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) y ábralo ahí. Los hipervínculos también funcionará en el servicio.
 
 ### <a name="for-data-connected-with-directquery"></a>Para los datos conectados con DirectQuery
 No podrá crear una nueva columna en el modo DirectQuery.  Pero si los datos ya contienen direcciones URL, puede convertirlas en hipervínculos.
@@ -65,7 +65,7 @@ No podrá crear una nueva columna en el modo DirectQuery.  Pero si los datos ya 
 1. En la vista de informe, cree una tabla con un campo que contenga las direcciones URL.
 2. Seleccione la columna y, en la pestaña **Modelado**, elija la lista desplegable de **Categoría de datos**.
 3. Seleccione **URL web**. Los hipervínculos aparecerán subrayados y de color azul.
-4. (Opcional) [Publique el informe de Power BI Desktop en el servicio Power BI](guided-learning/publishingandsharing.yml?tutorial-step=2) y ábralo ahí. Los hipervínculos también funcionará en el servicio.
+4. (Opcional) [Publique el informe de Power BI Desktop en el servicio Power BI](/learn/modules/publish-share-power-bi/2-publish-reports) y ábralo ahí. Los hipervínculos también funcionará en el servicio.
 
 ## <a name="create-a-table-or-matrix-hyperlink-in-excel-power-pivot"></a>Crear un hipervínculo de tabla o matriz en Power Pivot para Excel
 Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es crear los hipervínculos en el conjunto de datos antes de importar o conectarse a ese conjunto de datos desde Power BI. Este ejemplo utiliza un libro de Excel.

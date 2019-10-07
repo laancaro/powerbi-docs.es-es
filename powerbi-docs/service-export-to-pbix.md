@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 61fc821e63889951aefd0ef815f885ffa8a880cf
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994819"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715176"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede publicar un informe (un archivo *.pbix*) desde el equipo local en el servicio Power BI. Los informes de Power BI también pueden ir en la dirección contraria: puede descargar un informe desde el servicio Power BI a Power BI Desktop. En cualquier caso, la extensión de un informe de Power BI es .pbix.
@@ -26,7 +26,7 @@ Más adelante en este artículo se describen algunas limitaciones y consideracio
 
 ## <a name="download-the-report-as-a-pbix-file"></a>Descarga del informe como un archivo .pbix
 
-Solo puede descargar informes [creados con Power BI Desktop](guided-learning/publishingandsharing.yml?tutorial-step=2) después del 23 de noviembre de 2016 y actualizados desde entonces. Si se ha creado antes, la opción de menú **Descargar informe** del servicio Power BI está atenuada.
+Solo puede descargar informes [creados con Power BI Desktop](/learn/modules/publish-share-power-bi/2-publish-reports) después del 23 de noviembre de 2016 y actualizados desde entonces. Si se ha creado antes, la opción de menú **Descargar informe** del servicio Power BI está atenuada.
 
 Para descargar el archivo .pbix, haga lo siguiente:
 

@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ead5c8f45e102aaeebeed492ecf4646342747fe1
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142281"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945279"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -72,7 +72,7 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Base de datos de MySQL
 * Base de datos de PostgreSQL
 * Base de datos de Sybase
-* Base de datos de Teradata
+* Teradatos
 * Base de datos SAP HANA
 * Servidor de aplicaciones de SAP Business Warehouse
 * Servidor de mensajería de SAP Business Warehouse
@@ -101,8 +101,8 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Base de datos**.
 
 La categoría **Power Platform** proporciona las conexiones de datos siguientes:
 
-* Conjuntos de datos de Power BI
-* Flujos de datos de Power BI
+* Conjuntos de datos de Power BI
+* Flujos de datos de Power BI
 * Common Data Service
 * Flujos de entrada de Power Platform (Beta)
 

@@ -4,17 +4,17 @@ description: En este artículo se examinan algunos problemas comunes que pueden 
 author: KesemSharabi
 ms.author: kesharab
 manager: rkarlin
-ms.reviewer: maghan
+ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 11/06/2018
-ms.openlocfilehash: 4d863ff921df2a5cfb5233d85679f2277542bb44
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: e13d0fc5ee0af845cc0bf881cc5a1133ee24f719
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195359"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71946094"
 ---
 # <a name="troubleshoot-power-bi-power-bi-visuals"></a>Solución de problemas de los objetos visuales de Power BI
 

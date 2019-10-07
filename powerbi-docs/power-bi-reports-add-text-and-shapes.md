@@ -11,17 +11,17 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 92f7a89f99f97c8b497406b3ff947cd0fa645e6c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 03157d34e8d3a20ae7b4aadf71a0829d9a88e08d
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720664"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715286"
 ---
 # <a name="text-boxes-and-shapes-in-power-bi-reports"></a>Cuadros de texto y formas en informes de Power BI
 Con el servicio Power BI y Power BI Desktop puede agregar cuadros de texto y formas a los informes. En ambos casos, debe tener permisos de edición para el informe. Si un informe se ha compartido con usted en el servicio Power BI, no tendrá permisos de edición. 
 
-Use en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe](guided-learning/visualizations.yml?tutorial-step=11) y, después, siga estos pasos para probarlas mediante el servicio Power BI.
+Use en su lugar Power BI Desktop para [agregar imágenes estáticas a un informe](/learn/modules/visuals-in-power-bi/12-formatting) y, después, siga estos pasos para probarlas mediante el servicio Power BI.
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/_3q6VEBhGew" frameborder="0" allowfullscreen></iframe>
 > 

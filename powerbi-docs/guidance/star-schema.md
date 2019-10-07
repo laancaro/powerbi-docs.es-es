@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: f44c83613f874aec84a389ac5034ebde193467c2
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4af7a6305ace9113e912f0ad1527064c505f0ca8
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840612"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715508"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Descripción de un esquema de estrella e importancia para Power BI
 
@@ -205,6 +205,6 @@ Este enfoque de diseño de varios a varios está bien documentado y se puede log
 Para obtener más información sobre el diseño de esquemas de estrella o el diseño del modelo de Power BI, vea los siguientes artículos:
 
 - [Artículo de la Wikipedia sobre el modelado dimensional](https://go.microsoft.com/fwlink/p/?linkid=246459)
-- [Crear y administrar relaciones en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships)
-- [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships)
-- [Experiencia de aprendizaje guiada de modelado](https://docs.microsoft.com/power-bi/guided-learning/modeling)
+- [Crear y administrar relaciones en Power BI Desktop](../desktop-create-and-manage-relationships.md)
+- [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](../desktop-many-to-many-relationships.md)
+- [Experiencia de aprendizaje guiada de modelado](/learn/modules/model-data-power-bi/)

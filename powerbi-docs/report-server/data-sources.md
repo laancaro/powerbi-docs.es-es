@@ -9,12 +9,12 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/17/2018
 ms.author: maggies
-ms.openlocfilehash: edda72ab1c9c9901bf71b360d3773b5e8da0a095
-ms.sourcegitcommit: bbd9b38f30a4ca5cb8072496c9cacb635b03aa88
+ms.openlocfilehash: 9b7f3adfc7702dee36c43308b227baf72328935a
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71401833"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71945829"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -157,7 +157,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Lista de SharePoint Online |No |No |No |No |
 | Snowflake |No |No |No |No |
 | Base de datos de Sybase |No |No |Sí |Sí |
-| Base de datos de Teradata |No |No |Sí |Sí |
+| Teradatos |No |No |Sí |Sí |
 | appFigures (Beta) |No |No |No |No |
 | Base de datos de Azure Analysis Services (Beta) |No |No |No |No |
 | Azure Cosmos DB (Beta) |No |No |No |No |
@@ -204,7 +204,7 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 | Base de datos de Oracle |No |No |Sí |Sí |Sí |
 | Servidor de SAP Business Warehouse |No |No |Sí |No |No |
 | Base de datos SAP HANA |No |No |Sí |Sí |No |
-| Base de datos de Teradata |No |No |Sí |Sí |Sí |
+| Teradatos |No |No |Sí |Sí |Sí |
 
 
 ## <a name="next-steps"></a>Pasos siguientes
