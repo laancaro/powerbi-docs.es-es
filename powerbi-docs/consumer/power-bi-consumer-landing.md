@@ -1,22 +1,21 @@
 ---
-title: Power BI para consumidores de informes
-description: ¿Primeros pasos con Power BI? Conozca las características y funcionalidades de Power BI y vea lo que puede hacer con ellas como consumidor o usuario final de Power BI.
+title: Power BI para consumidores
+description: ¿Primeros pasos con Power BI? Conozca las características y funcionalidades del servicio Power BI y vea lo que puede hacer con ellas como consumidor o usuario final de Power BI.
 author: mihart
 manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: hub-page
-ms.date: 09/11/2019
+ms.date: 10/01/2019
 ms.author: mihart
 layout: HubPage
-ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: d43d1072c9eafa71d336f71e22ac2d6d68144558
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: ec123c29bc6cf942c096ffb78b8bfab10be3bc14
+ms.sourcegitcommit: e371690159f69a72410abc97ff1c2a2bb9c841f5
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073397"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "71829607"
 ---
 <div id="main" class="v2">
       <div class="container">
@@ -26,7 +25,7 @@ ms.locfileid: "71073397"
             <p>Para ver toda la documentación para los consumidores de Power BI, abra la <a href="end-user-consumer.md">tabla de contenido</a>.</p>
             <ul class="pivots">
             <li>
-                <a href="#get-started" data-linktype="self-bookmark">Comenzar</a>
+                <a href="#get-started" data-linktype="self-bookmark">Introducción</a>
                 <ul id="get-started" class="cardsF">
                     <li>
                         <a data-default="true" href="#getstarted" data-linktype="self-bookmark"></a>
@@ -105,7 +104,8 @@ ms.locfileid: "71073397"
                                                 <p><a href="/power-bi/consumer/end-user-experience" data-linktype="absolute-path">Navegación: búsqueda rápida del contenido que se necesita</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-q-and-a" data-linktype="absolute-path">Preguntas y respuestas: realizar preguntas con lenguaje natural</a></p>
                                                 <p><a href="/power-bi/consumer/end-user-report-filter" data-linktype="absolute-path">Interacción con filtros y segmentaciones</a></p>
-                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Más información sobre los tipos de objetos visuales que se ven en Power BI</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-visual-type" data-linktype="absolute-path">Más información sobre los tipos de objetos visuales</a></p>
+                                                <p><a href="/power-bi/consumer/end-user-app-marketing" data-linktype="absolute-path">Descarga de una aplicación de ejemplo</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -152,7 +152,7 @@ ms.locfileid: "71073397"
                 </ul>
             </li>
             <li>
-                <a href="#concepts-terminology" data-linktype="self-bookmark"> Conceptos y terminología</a>
+                <a href="#concepts-terminology" data-linktype="self-bookmark">Conceptos y terminología</a>
                 <ul id="concepts-terminology">
                     <li>
                         <a href="#conceptsterminology" data-linktype="self-bookmark"> Conceptos y terminología</a>

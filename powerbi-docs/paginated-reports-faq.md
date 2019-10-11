@@ -8,13 +8,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 09/04/2019
-ms.openlocfilehash: 6ab7338029118ab6478ad345776e2b9f13c34123
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.date: 10/04/2019
+ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751528"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968491"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES 
 
@@ -117,12 +117,13 @@ Obtiene un mensaje si intenta cargar un archivo que tiene una característica in
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>¿Qué orígenes de datos se admiten actualmente para los informes paginados?
 
-Se admite el origen de datos siguiente: 
+Se admiten los orígenes de datos siguientes: 
 
 - Conjuntos de datos de Power BI (a través del inicio de sesión único (SSO))
 - Azure Analysis Services (mediante inicio de sesión único (SSO) y oAuth)
 - Azure SQL Data Warehouse
 - Azure SQL Database (nombre de usuario y contraseña, SSO y oAuth)
+- Instancia administrada de Azure SQL a través de un punto de conexión público (nombre de usuario y contraseña)
 - SQL Server*
 - Modelos tabulares (DAX) y multidimensionales (MDX) de SQL Server Analysis Services (SSAS)* 
 - Oracle* 

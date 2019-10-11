@@ -1,6 +1,6 @@
 ---
 title: Uso de gráficos de cinta de opciones en Power BI
-description: Creación y uso de gráficos de cinta de opciones en el servicio Power BI y Power BI Desktop
+description: Creación y uso de gráficos de cinta en Power BI Desktop
 author: mihart
 manager: kvivek
 ms.reviewer: ''
@@ -10,20 +10,34 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3400071c6b8cee472bb61475e6d3482189680563
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840093"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715478"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Uso de gráficos de cinta de opciones en Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Puede usar gráficos de la barra de herramientas para visualizar y detectar rápidamente qué categoría de datos tiene la clasificación más alta (el valor mayor). Los gráficos de cinta de opciones son eficaces para mostrar un cambio de clasificación, con el intervalo más alto (valor) siempre en la parte superior de cada período de tiempo. 
 
-![gráfico de la barra de herramientas](media/desktop-ribbon-charts/ribbon-charts_01.png)
+![gráfico de la barra de herramientas](media/desktop-ribbon-charts/ribbon-charts-01.png)
+
+## <a name="prerequisites"></a>Requisitos previos
+
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
+   
+2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
+
+1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
 
 ## <a name="create-a-ribbon-chart"></a>Creación de un gráfico de cinta de opciones
-Para continuar, abra el [ informe Ejemplo de análisis de venta directa](../sample-retail-analysis.md). 
 
 1. Para crear un gráfico de cinta de opciones, seleccione **Gráfico de la barra de herramientas** en el panel **Visualizaciones**.
 
@@ -31,13 +45,13 @@ Para continuar, abra el [ informe Ejemplo de análisis de venta directa](../samp
 
     Los gráficos de la barra de herramientas conectan una categoría de datos en el universo de tiempo visualizado mediante cintas, lo que permite ver cómo se clasifica una categoría determinada a lo largo del intervalo del eje x del gráfico (normalmente la escala de tiempo).
 
-2. Seleccione campos para **Eje**, **Leyenda** y **Valor**.  En este ejemplo, se ha seleccionado lo siguiente: **Fecha**, **Categoría**, y **Ventas de este año**.  
+2. Seleccione campos para **Eje**, **Leyenda** y **Valor**.  En este ejemplo, se ha seleccionado lo siguiente: **Store** > **OpenDate** (Tienda>Fecha abierta), **Item** > **Category** (Artículo>Categoría) y **Sales** > **This year sales** > **Value** (Ventas>Ventas de este año>Valor).  
 
     ![Campos seleccionados](media/desktop-ribbon-charts/power-bi-ribbon-values.png)
 
-    Como el conjunto de datos solo contiene datos de un año, también se ha eliminado el campo **Año** de **Eje**. 
+    Como el conjunto de datos solo contiene datos de un año, se ha eliminado el campo **Year** (Año) y **Quarter** (Trimestre) de **Eje**.
 
-3. En el gráfico de cinta de opciones se muestra la clasificación para los meses alternos. Observe cómo cambia la clasificación en el tiempo.  Por ejemplo, la categoría Home cambia de tercera a cuarta, y después vuelve a la tercera posición. La categoría Juniors pasa de tercera a quinta en julio. 
+3. En el gráfico de la barra de herramientas se muestra la clasificación para cada mes. Observe cómo cambia la clasificación en el tiempo. Por ejemplo, la categoría Home (Inicio) se desplaza de la segunda a la quinta posición, de febrero a marzo.
 
     ![gráfico de la barra de herramientas](media/desktop-ribbon-charts/power-bi-ribbon.png)
 
@@ -57,7 +71,7 @@ Como el gráfico de la barra de herramientas no tiene etiquetas en el eje Y, pue
 
 ![Opciones de formato para las etiquetas de datos](media/desktop-ribbon-charts/power-bi-labels.png)
 
-Establezca las opciones de formato para las etiquetas de datos.  En este ejemplo, se ha establecido el color del texto en blanco, las posiciones decimales en cero y las unidades de visualización en miles. 
+Establezca las opciones de formato para las etiquetas de datos. En este ejemplo, se ha establecido el color del texto en blanco y las unidades de visualización en miles.
 
 ![Plantilla de cinta en el panel Visualización](media/desktop-ribbon-charts/power-bi-data-labels.png)
 

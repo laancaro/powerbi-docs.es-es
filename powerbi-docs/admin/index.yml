@@ -1,0 +1,61 @@
+### YamlMime:Landing
+title: Power BI para administradores
+summary: La documentación de Power BI proporciona información de expertos y respuestas a sus necesidades, sin importar cómo utilice Power BI.
+metadata:
+  title: Power BI para administradores
+  description: La documentación de Power BI proporciona información de expertos y respuestas a sus necesidades, sin importar cómo utilice Power BI.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi-service
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 10/04/2019
+  ms.openlocfilehash: 8209cc755b33887c533e9f90b9b1cd7a5021490e
+  ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 10/10/2019
+  ms.locfileid: "72245659"
+landingContent:
+- title: Sobre Power BI para administradores
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: ¿Qué es la administración de Power BI?
+      url: ../service-admin-administering-power-bi-in-your-organization.md
+  - linkListType: concept
+    links:
+    - text: Rol de administración en Office 365
+      url: ../service-admin-role.md
+- title: Comenzar
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Licencias para la organización
+      url: ../service-admin-licensing-organization.md
+    - text: Uso del portal de administración
+      url: ../service-admin-portal.md
+  - linkListType: how-to-guide
+    links:
+    - text: Comprar Power BI Pro
+      url: ../service-admin-purchasing-power-bi-pro.md
+    - text: Registro con una evaluación gratuita de Office 365
+      url: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
+    - text: Agregar Power BI con un asociado de Office 365
+      url: ../service-admin-syndication-partner.md
+- title: Inquilinos
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: ¿Dónde se encuentra mi inquilino?
+      url: ../service-admin-where-is-my-tenant-located.md
+    - text: Búsqueda de usuarios que hayan iniciado sesión
+      url: ../service-admin-access-usage.md
+    - text: Auditoría de Power BI
+      url: ../service-admin-auditing.md
+    - text: Seguimiento de estado del servicio
+      url: ../service-admin-health.md
+    - text: Cierre de la cuenta de Power BI
+      url: ../service-admin-closing-your-account.md

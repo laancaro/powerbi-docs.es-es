@@ -3,20 +3,19 @@ title: Preguntas más frecuentes de usuarios finales de Power BI
 description: Vea una lista de las preguntas más frecuentes sobre el servicio Power BI y las aplicaciones móviles de Power BI, y sus respuestas.
 author: mihart
 manager: kvivek
-ms.custom: seodec18
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 6/17/2019
+ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 5efdb98e0722add361f3b333f773fc03c6ea50a9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654136"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943318"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
@@ -33,27 +32,17 @@ Power BI Pro es una licencia individual que permite el acceso a todo el conten
 
 Power BI Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable. También admite volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium permite una amplia distribución de contenido por parte de los usuarios con licencia Pro y no requiere licencias por usuario para los destinatarios que ven el contenido.
 
-## <a name="what-happens-if-my-power-bi-pro-license-expires"></a>¿Qué ocurre si mi licencia de Power BI Pro expira?
-
-Hay un período de gracia después de que expire una licencia de Power BI Pro. Las licencias que forman parte de una compra de licencia por volumen disponen de un período de gracia de 90 días. Si compró la licencia directamente, el período de gracia es de 30 días.
-
-Power BI Pro tiene el mismo ciclo de vida de suscripción que Office 365. Para más información, consulte [¿Qué pasa con mis datos y mi acceso cuando termina mi suscripción de Office 365 para empresas?](https://support.office.com/article/What-happens-to-my-data-and-access-when-my-Office-365-for-business-subscription-ends-4436582f-211a-45ec-b72e-33647f97d8a3)
-
 ## <a name="what-if-i-have-questions-about-power-bi-premium"></a>¿Y si tengo preguntas sobre Power BI Premium?
 
 Para preguntas relacionadas con Power BI Premium, consulte [Power BI Premium FAQ](../service-premium-faq.md) (Preguntas frecuentes de Power BI Premium).
 
-## <a name="how-do-i-find-out-who-in-my-organization-has-a-power-bi-account"></a>¿Cómo puedo averiguar qué miembros de mi organización tienen una cuenta de Power BI?
-
-Puede ver el informe de aplicaciones integradas de Azure Active Directory para Power BI a fin de consultar los usuarios activos en su organización. El informe de Azure AD no indica qué tipo de licencia tiene cada usuario. Solo informa qué usuarios se han conectado a Power BI y cuando inician sesión. Para más información, consulte [Encontrar usuarios de Power BI que hayan iniciado sesión](../service-admin-access-usage.md).
-
 ## <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 
-Power BI Desktop es una aplicación gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI.  Los científicos de datos, administradores y programadores trabajan con Power BI Desktop para generar informes y ponerlos a disposición de otros usuarios del servicio Power BI. Obtenga más información sobre [qué es Power BI Desktop](../desktop-what-is-desktop.md).
+Power BI Desktop es una aplicación gratuita que se puede instalar directamente en un equipo. Power BI Desktop funciona junto con el servicio Power BI.  Los científicos de datos, administradores y desarrolladores trabajan con Power BI Desktop para generar informes y ponerlos a disposición de otros *consumidores* del servicio Power BI, como usted. Obtenga más información sobre [qué es Power BI Desktop](../desktop-what-is-desktop.md).
 
 ## <a name="what-do-i-need-to-use-the-power-bi-service"></a>¿Qué se necesita para usar el servicio Power BI?
 
-Solo un explorador web y una dirección de correo electrónico del trabajo. Puede registrase con una dirección de correo electrónico *.gov* y *.mil*. Vea [Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI](../service-govus-signup.md) para obtener más información.
+Solo un explorador web y una dirección de correo electrónico del trabajo. También se puede registrar con una dirección de correo electrónico *.gov* y *.mil*. Vea [Inscribir una organización de la Administración Pública de Estados Unidos en el servicio Power BI](../service-govus-signup.md) para obtener más información.
 
 ## <a name="why-do-i-have-to-sign-up-with-my-work-email"></a>¿Por qué es necesario iniciar sesión con el correo electrónico del trabajo?
 
@@ -88,7 +77,7 @@ Los siguientes recursos están disponibles para ayudarle a empezar:
 * [Blog de Power BI](http://blogs.msdn.com/b/powerbi/)
 * [Seminarios web](../webinars.md)
 * Vídeos de introducción en nuestro [canal de YouTube](https://www.youtube.com/user/mspowerbi)
-* Artículo [Introducción a Power BI](../service-get-started.md)
+* Artículo [Introducción a Power BI como *consumidor*](power-bi-consumer-landing.md)
 * [Únase a nuestra comunidad](https://community.powerbi.com/) y formule preguntas
 * Consulte [10 sugerencias para obtener ayuda](../service-tips-for-finding-help.md) para conocer más sugerencias
 
@@ -126,6 +115,7 @@ Al igual que muchos otros servicios y software de Microsoft, Power BI permite de
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [¿Qué es Power BI?](../power-bi-overview.md)
+* [¿Qué es un consumidor de Power BI?](end-user-consumer.md)
+* [¿Cómo usa Power BI un consumidor?](end-user-reading-view.md)
 * ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).

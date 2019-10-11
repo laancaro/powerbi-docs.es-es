@@ -10,16 +10,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 9958059fcf0d86323fc95f44f6fcfcb08fe7b52b
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: 0fb52262790c6c1935d8152f043f726a9471817d
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100438"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968951"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configuración del SSO basado en Kerberos desde el servicio Power BI a los orígenes de datos locales
 
-Use la [delegación restringida de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar la conectividad directiva del SSO. La habilitación de SSO facilita la tarea de los paneles y los informes de Power BI para actualizar los datos de orígenes locales.
+Use la [delegación restringida de Kerberos](/windows-server/security/kerberos/kerberos-constrained-delegation-overview) para habilitar la conectividad directiva del SSO. La habilitación de SSO facilita la tarea de los informes y paneles de Power BI de actualizar los datos de orígenes locales al tiempo que se respetan los permisos de nivel de usuario configurados en esos orígenes.
 
 Deben configurarse varios elementos para que la delegación restringida de Kerberos funcione correctamente, incluidos los _nombres principales de servicio_ (SPN) y la configuración de delegación de cuentas de servicio.
 
@@ -60,7 +60,7 @@ En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad 
 
     Si no hay ninguna pestaña **Delegación** en el cuadro de diálogo **Propiedades**, puede crear manualmente un SPN en la cuenta para su habilitación. Use la [herramienta setspn](https://technet.microsoft.com/library/cc731241.aspx) que viene con Windows (necesita derechos de administrador de dominio para crear el SPN).
 
-    Por ejemplo, imagine que la cuenta de servicio de puerta de enlace es **Contoso\GatewaySvc**) y que el nombre de la máquina donde se ejecuta el servicio de puerta de enlace es **MyGatewayMachine**. Para establecer el SPN de la cuenta de servicio de puerta de enlace, debe ejecutar el comando siguiente:
+    Por ejemplo, imagine que la cuenta de servicio de puerta de enlace es **Contoso\GatewaySvc**, y que el nombre del equipo donde se ejecuta el servicio de puerta de enlace es **MyGatewayMachine**. Para establecer el SPN de la cuenta de servicio de puerta de enlace, debe ejecutar el comando siguiente:
 
     ![Imagen del comando setspn](media/service-gateway-sso-kerberos/set-spn.png)
 
@@ -83,9 +83,9 @@ Es necesario configurar la delegación restringida de Kerberos con tránsito de 
 
 En esta sección se da por supuesto que ya ha configurado los SPN de los orígenes de datos subyacentes (como SQL Server, SAP HANA, SAP BW, Teradata o Spark). Para obtener información sobre cómo configurar los SPN del servidor del origen de datos, consulte la documentación técnica para el servidor de bases de datos respectivo. También puede ver el encabezado *What SPN does your app require?* (¿Qué SPN requiere la aplicación) en la entrada de blog [My Kerberos Checklist](https://techcommunity.microsoft.com/t5/SQL-Server-Support/My-Kerberos-Checklist-8230/ba-p/316160) (Mi lista de comprobación de Kerberos).
 
-En los pasos siguientes, se asume que disponemos de un entorno local con dos equipos: un equipo de puerta de enlace y un servidor de bases de datos que ejecuta SQL Server que ya está configurado para el SSO basado en Kerberos. Los pasos se pueden adoptar para uno de los otros orígenes de datos admitidos, siempre y cuando el origen de datos ya se haya configurado para el inicio de sesión único basado en Kerberos. Para este ejemplo, también asumiremos la configuración y los nombres siguientes:
+En los pasos siguientes, se asume que hay un entorno local con dos equipos en el mismo dominio: un equipo de la puerta de enlace y un servidor de base de datos que ejecuta SQL Server que ya está configurado para el SSO basado en Kerberos. Los pasos se pueden adoptar para uno de los otros orígenes de datos admitidos, siempre y cuando el origen de datos ya se haya configurado para el inicio de sesión único basado en Kerberos. Para este ejemplo, también asumiremos la configuración y los nombres siguientes:
 
-* Dominio de Active Directory (NetBIOS): Contoso
+* Dominio de Active Directory (NetBIOS): **Contoso**
 * Nombre de la máquina de la puerta de enlace: **MyGatewayMachine**
 * Cuenta de servicio de puerta de enlace: **Contoso\GatewaySvc**
 * Nombre de la máquina del origen de datos de SQL Server: **TestSQLServer**
@@ -105,11 +105,11 @@ Aquí le mostramos cómo configurar las opciones de delegación:
 
 6. En el cuadro de diálogo nuevo, seleccione **Usuarios o equipos**.
 
-7. Escriba la cuenta de servicio para el origen de datos; por ejemplo, un origen de datos de SQL Server puede tener una cuenta de servicio como **Contoso\SQLService**. Una vez que se ha agregado la cuenta, seleccione **Aceptar**.
+7. Escriba la cuenta de servicio para el origen de datos; por ejemplo, un origen de datos de SQL Server puede tener una cuenta de servicio como **Contoso\SQLService**. Ya se debe haber establecido un SPN adecuado para el origen de datos en esta cuenta. Una vez que se ha agregado la cuenta, seleccione **Aceptar**.
 
 8. Seleccione el SPN que ha creado para el servidor de base de datos. En nuestro ejemplo, el SPN empieza por **MSSQLSvc**. Si ha agregado tanto el SPN de FQDN como el de NetBIOS, seleccione ambos. Puede que solo vea uno.
 
-9. Seleccione **Aceptar**. Ahora debería ver el SPN en la lista.
+9. Seleccione **Aceptar**. Ahora debería ver el SPN en la lista de servicios a los que la cuenta de servicio de puerta de enlace puede presentar credenciales delegadas.
 
     ![Captura de pantalla del cuadro de diálogo Propiedades del conector de puerta de enlace](media/service-gateway-sso-kerberos/gateway-connector-properties.png)
 
@@ -124,6 +124,8 @@ Use la [delegación restringida de Kerberos basada en recursos](/windows-server/
 
 En los pasos siguientes, se asume que disponemos de un entorno local con dos equipos en distintos dominios: un equipo de puerta de enlace y un servidor de bases de datos que ejecuta SQL Server que ya está configurado para el SSO basado en Kerberos. Los pasos se pueden adoptar para uno de los otros orígenes de datos admitidos, siempre y cuando el origen de datos ya se haya configurado para el inicio de sesión único basado en Kerberos. Para este ejemplo, supongamos también la configuración y los nombres siguientes:
 
+* Dominio de front-end de Active Directory (NetBIOS): **ContosoFrontEnd**
+* Dominio de back-end de Active Directory (NetBIOS): **ContosoBackEnd**
 * Nombre de la máquina de la puerta de enlace: **MyGatewayMachine**
 * Cuenta de servicio de puerta de enlace: **ContosoFrontEnd\GatewaySvc**
 * Nombre de la máquina del origen de datos de SQL Server: **TestSQLServer**
@@ -135,22 +137,26 @@ Con esos nombres y configuración de ejemplo, complete estos pasos de configurac
 
     ![Propiedades del conector de puerta de enlace](media/service-gateway-sso-kerberos-resource/gateway-connector-properties.png)
 
-2. Al usar **Equipos y usuarios de Active Directory** en el controlador de dominio para el dominio **ContosoBackEnd**, asegúrese de que no se aplica ninguna configuración de delegación para la cuenta de servicio de back-end. Además, asegúrese de que el atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** tampoco está configurado para esta cuenta. Puede encontrar este atributo en el **Editor de atributos**, tal como se muestra en la siguiente imagen:
+2. Al usar **Equipos y usuarios de Active Directory** en el controlador de dominio para el dominio **ContosoBackEnd**, asegúrese de que no se aplica ninguna configuración de delegación para la cuenta de servicio de back-end.
 
     ![Propiedades del servicio SQL](media/service-gateway-sso-kerberos-resource/sql-service-properties.png)
 
-3. Cree un grupo en **Equipos y usuarios de Active Directory**, en el controlador de dominio para el dominio **ContosoBackEnd**. Agregue la cuenta de servicio de puerta de enlace a este grupo como se muestra en la siguiente imagen. La imagen muestra un nuevo grupo denominado _ResourceDelGroup_ y la cuenta de servicio de la puerta de enlace **GatewaySvc**, que se agregó a este grupo.
+3. Además, asegúrese de que el atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** tampoco está configurado para esta cuenta. Puede encontrar este atributo en el **Editor de atributos**, tal como se muestra en la siguiente imagen:
+
+    ![Atributos de servicio de SQL](media/service-gateway-sso-kerberos-resource/sql-service-attributes.png)
+
+4. Cree un grupo en **Equipos y usuarios de Active Directory**, en el controlador de dominio para el dominio **ContosoBackEnd**. Agregue la cuenta de servicio de puerta de enlace a este grupo como se muestra en la siguiente imagen. La imagen muestra un nuevo grupo denominado _ResourceDelGroup_ y la cuenta de servicio de la puerta de enlace **GatewaySvc**, que se agregó a este grupo.
 
     ![Propiedades del grupo](media/service-gateway-sso-kerberos-resource/group-properties.png)
 
-4. Abra un símbolo del sistema y ejecute los comandos siguientes en el controlador de dominio para el dominio **ContosoBackEnd** para actualizar el atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** de la cuenta de servicio de back-end:
+5. Abra un símbolo del sistema y ejecute los comandos siguientes en el controlador de dominio para el dominio **ContosoBackEnd** para actualizar el atributo **msDS-AllowedToActOnBehalfOfOtherIdentity** de la cuenta de servicio de back-end:
 
     ```powershell
     $c = Get-ADGroup ResourceDelGroup
     Set-ADUser SQLService -PrincipalsAllowedToDelegateToAccount $c
     ```
 
-5. Puede comprobar que la actualización se refleja en la pestaña "Editor de atributos" en las propiedades de la cuenta de servicio de back-end en **Equipos y usuarios de Active Directory**.
+6. Puede comprobar que la actualización se refleja en la pestaña "Editor de atributos" en las propiedades de la cuenta de servicio de back-end en **Equipos y usuarios de Active Directory**. Ahora se debe establecer **msDS-AllowedToActOnBehalfOfOtherIdentity**.
 
 ## <a name="grant-the-gateway-service-account-local-policy-rights-on-the-gateway-machine"></a>Concesión de derechos de directiva local a la cuenta de servicio de la puerta de enlace en la máquina de la puerta de enlace
 
@@ -158,7 +164,7 @@ Por último, en el equipo en el que se ejecuta el servicio de puerta de enlace (
 
 1. En el equipo de puerta de enlace, ejecute: *gpedit.msc*.
 
-2. Vaya a **Directiva de equipo local** > **Configuración del equipo** > **Configuración de Windows** > **Configuración de seguridad** > **Directivas locales** > **Asignación de derechos de usuario**.
+2. Vaya a **Directiva de equipo Local** &gt; **Configuración del equipo** &gt; **Configuración de Windows** &gt; **Configuración de seguridad** &gt; **Directivas locales** &gt; **Asignación de derechos de usuario**.
 
     ![Captura de pantalla de la estructura de carpetas de la Directiva de equipo local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 
@@ -166,7 +172,7 @@ Por último, en el equipo en el que se ejecuta el servicio de puerta de enlace (
 
     ![Captura de pantalla de Suplantar una directiva de cliente](media/service-gateway-sso-kerberos/impersonate-client.png)
 
-    Haga clic con el botón derecho y abra **Propiedades**. Compruebe la lista de cuentas. Debe incluir la cuenta de servicio de la puerta de enlace (**Contoso\GatewaySvc**).
+    Haga clic con el botón derecho y abra **Propiedades**. Compruebe la lista de cuentas. Debe incluir la cuenta de servicio de puerta de enlace (**Contoso\GatewaySvc** o **ContosoFrontEnd\GatewaySvc** según el tipo de delegación restringida).
 
 4. En la lista de directivas de **Asignación de derechos de usuario**, seleccione **Actuar como parte del sistema operativo (SeTcbPrivilege)** . Asegúrese también de que la cuenta de servicio de la puerta de enlace está incluida en la lista de cuentas.
 
@@ -184,23 +190,23 @@ Si no tiene configurado Azure AD Connect, siga estos pasos para asignar un usua
 
     ![Captura de pantalla de la pestaña Servicios del Administrador de tareas](media/service-gateway-sso-kerberos/restart-gateway.png)
 
-1. En cada usuario del servicio Power BI para el que quiere habilitar el SSO de Kerberos, establezca la propiedad `msDS-cloudExtensionAttribute1` de un usuario de Active Directory local (con permiso de SSO para el origen de datos) en el nombre de usuario completo del usuario del servicio Power BI. Por ejemplo, si inicia sesión en el servicio Power BI como `test@contoso.com` y quiere asignar este usuario a un usuario de Active Directory local con permisos de SSO, como `test@LOCALDOMAIN.COM`, establezca el atributo `msDS-cloudExtensionAttribute1` de `test@LOCALDOMAIN.COM` en `test@contoso.com`.
+1. En cada usuario del servicio Power BI para el que quiere habilitar el SSO de Kerberos, establezca la propiedad `msDS-cloudExtensionAttribute1` de un usuario de Active Directory local (con permiso de SSO para el origen de datos) en el nombre de usuario completo (p.ej. UPN) del usuario del servicio Power BI. Por ejemplo, si inicia sesión en el servicio Power BI como `test@contoso.com` y quiere asignar este usuario a un usuario de Active Directory local con permisos de SSO, como `test@LOCALDOMAIN.COM`, establezca el atributo `msDS-cloudExtensionAttribute1` de `test@LOCALDOMAIN.COM` en `test@contoso.com`.
 
-Puede establecer la propiedad `msDS-cloudExtensionAttribute1` con el complemento Equipos y usuarios de Active Directory de Microsoft Management Console (MMC).
-
-1. Como administrador de dominio, inicie Equipos y usuarios de Active Directory, un complemento de MMC.
-
-1. Haga clic con el botón derecho en el dominio, seleccione Buscar y escriba el nombre de la cuenta del usuario de Active Directory local al que quiere asignar.
-
-1. Seleccione la pestaña **Editor de atributos**.
-
-    Localice la propiedad `msDS-cloudExtensionAttribute1` y haga doble clic en ella. Establezca el valor en el nombre de usuario completo del usuario que usa para iniciar sesión en el servicio Power BI.
-
-1. Seleccione **Aceptar**.
-
-    ![Captura de pantalla del cuadro de diálogo Editor de atributos de cadena](media/service-gateway-sso-kerberos/edit-attribute.png)
-
-1. Seleccione **Aplicar**. Compruebe que se ha establecido el valor correcto en la columna **Valor**.
+    Puede establecer la propiedad `msDS-cloudExtensionAttribute1` mediante el complemento Equipos y usuarios de Active Directory de Microsoft Management Console (MMC):
+    
+    1. Como administrador de dominio, inicie Usuarios y equipos de Active Directory.
+    
+    1. Haga clic con el botón derecho en el dominio, seleccione Buscar y escriba el nombre de la cuenta del usuario de Active Directory local al que quiere asignar.
+    
+    1. Seleccione la pestaña **Editor de atributos**.
+    
+        Localice la propiedad `msDS-cloudExtensionAttribute1` y haga doble clic en ella. Establezca el valor en el nombre de usuario completo (p.ej. UPN) del usuario que usa para iniciar sesión en el servicio Power BI.
+    
+    1. Seleccione **Aceptar**.
+    
+        ![Captura de pantalla del cuadro de diálogo Editor de atributos de cadena](media/service-gateway-sso-kerberos/edit-attribute.png)
+    
+    1. Seleccione **Aplicar**. Compruebe que se ha establecido el valor correcto en la columna **Valor**.
 
 ## <a name="complete-data-source-specific-configuration-steps"></a>Finalización de los pasos de configuración específicos para el origen de datos
 
@@ -211,19 +217,19 @@ SAP HANA y SAP BW tienen requisitos de configuración específicos de origen d
 
 ## <a name="run-a-power-bi-report"></a>Ejecutar un informe de Power BI
 
-Después de completar todos los pasos de configuración, puede utilizar la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos que usará para el SSO. Si tiene varias puertas de enlace, asegúrese de seleccionar la que ya configuró para el SSO de Kerberos. A continuación, en **Configuración avanzada** del origen de datos, asegúrese de que esté activada la opción "Usar SSO mediante Kerberos para las consultas de DirectQuery".
+Después de completar todos los pasos de configuración, puede utilizar la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos que usará para el SSO. Si tiene varias puertas de enlace, asegúrese de seleccionar la que ya configuró para el SSO de Kerberos. Después, en **Configuración avanzada** del origen de datos, asegúrese de que la opción **Usar un SSO mediante Kerberos en las consultas de DirectQuery** esté activada.
 
 ![Captura de pantalla de la opción Configuración avanzada](media/service-gateway-sso-kerberos/advanced-settings.png)
 
  Publique un informe **basado en DirectQuery** desde Power BI Desktop. Este informe debe utilizar datos que sean accesibles para el usuario que está asignado al usuario de (Azure) Active Directory que inicia sesión en el servicio Power BI. Debe usar DirectQuery en lugar de la importación, debido a la forma en que funciona la actualización. Al actualizar los informes basados en la importación, la puerta de enlace usa las credenciales especificadas en los campos **Nombre de usuario** y **Contraseña** al crear el origen de datos. En otras palabras, **no** se usa el SSO de Kerberos. Además, al publicar, asegúrese de seleccionar la puerta de enlace que ha configurado para el SSO si tiene varias puertas de enlace. En el servicio Power BI debería poder actualizar el informe o crear un informe basado en el conjunto de datos publicado.
 
-Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si todavía no se pudo cargar el informe, póngase en contacto con el administrador del dominio para investigar en profundidad. Si el origen de datos es SAP BW, también puede consultar las secciones de solución de problemas de las páginas de configuración específicas del origen de datos para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) y [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting).
+Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si todavía no se pudo cargar el informe, póngase en contacto con el administrador del dominio para investigar en profundidad. Si el origen de datos es SAP BW, también puede consultar las secciones de solución de problemas de las páginas de configuración específicas del origen de datos para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) y [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), en función de la biblioteca de SNC que haya elegido.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Para más información acerca de la **puerta de enlace de datos local** y **DirectQuery**, consulte los recursos siguientes:
 
-* [¿Qué es una puerta de enlace de datos local?](/data-integration/gateway/service-gateway-getting-started)
+* [¿Qué es una puerta de enlace de datos local?](/data-integration/gateway/service-gateway-onprem)
 * [DirectQuery en Power BI](desktop-directquery-about.md)
 * [Orígenes de datos compatibles con DirectQuery](desktop-directquery-data-sources.md)
 * [DirectQuery y SAP BW](desktop-directquery-sap-bw.md)

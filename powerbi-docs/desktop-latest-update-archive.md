@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 0dcc5e3aac4b43a6975a9faa5dd23faa2888b324
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 1ccf5dd3a84bbbaca7019f8943cf0ab974e4bd06
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142217"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71944891"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -2290,8 +2290,8 @@ Ahora puede [descargar la versión más reciente de Power BI Desktop](https://po
 
 ### <a name="data-connectivity"></a>Conectividad de datos:
 
--   Compatibilidad de **DirectQuery** con bases de datos de Oracle y Teradata
--   **DirectQuery**: compatibilidad para crear columnas calculadas
+-   Compatibilidad de **DirectQuery** con de Oracle y Teradata
+-   Compatibilidad de **DirectQuery** para crear columnas calculadas
 -   Compatibilidad para publicar informes activos de Analysis Services
 -   Conector para archivos JSON
 -   Conector de SQL Sentry

@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 07/29/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 431c1738a5d2e975fd96a8209ca8245cd4414d40
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d5ada41ef4941f14118b777e37e731337a5282d0
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730108"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715395"
 ---
 # <a name="measures-in-power-bi-desktop"></a>Medidas en Power BI Desktop
 
 **Power BI Desktop** le ayuda a crear información sobre sus datos en unos cuantos clics. Pero a veces los datos simplemente no incluyen todo lo que necesita para responder algunas de las preguntas más importantes. En esos casos, las medidas pueden ser de ayuda.
 
-Las medidas se usan en algunos de los análisis de datos más comunes. Los resúmenes simples, como sumas, promedios, mínimo, máximo y recuentos, se pueden establecer a través de la lista de campos, como se describe en el vídeo [Opciones de resumen y categoría](https://docs.microsoft.com/power-bi/guided-learning/visualizations?tutorial-step=16). Puede crear cálculos más avanzados mediante una fórmula DAX. Los resultados calculados de las medidas cambian constantemente en respuesta a la interacción con los informes, lo que permite la exploración rápida y dinámica de datos ad hoc. Analicemos la cuestión más detenidamente.
+Las medidas se usan en algunos de los análisis de datos más comunes. Los resúmenes simples, como sumas, promedios, mínimo, máximo y recuentos, se pueden establecer a través de la lista de campos. Los resultados calculados de las medidas cambian constantemente en respuesta a la interacción con los informes, lo que permite la exploración rápida y dinámica de datos ad hoc. Analicemos la cuestión más detenidamente. Para más información, vea [Creación de medidas calculadas](/learn/modules/model-data-power-bi/4b-create-calculated-measures).
 
 ## <a name="understanding-measures"></a>Descripción de las medidas
 

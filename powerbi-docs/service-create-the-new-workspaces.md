@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: a2de6d79971e59879e65d2e3cf652caf156d80cf
-ms.sourcegitcommit: db4fc5da8e65e0a3dc35582d7142a64ad3405de7
+ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/11/2019
-ms.locfileid: "70904073"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715528"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creación de las nuevas áreas de trabajo en Power BI
 
@@ -28,7 +28,7 @@ Estas son las diferencias. En las nuevas áreas de trabajo puede hacer lo siguie
 - Usar roles de las áreas de trabajo más granulares para flexibilizar la administración de permisos en un área de trabajo.
 
 > [!NOTE]
-> Para aplicar seguridad de nivel de fila (RLS) para los usuarios de Power Bi Pro que exploran el contenido de un área de trabajo, siga usando las [áreas de trabajo clásicas](service-create-workspaces.md). Seleccione la opción **Los miembros solo pueden ver contenido de Power BI**. También puede publicar una aplicación de Power BI a los usuarios o distribuir contenido mediante el uso compartido. El futuro rol de visor permitirá este escenario en el futuro en las áreas de trabajo de la nueva experiencia.
+> A fin de aplicar la seguridad de nivel de fila (RLS) para los usuarios de Power BI Pro que exploran el contenido de un área de trabajo, asigne a los usuarios el rol Visor.
 
 Para más información, consulte el artículo sobre las [nuevas áreas de trabajo](service-new-workspaces.md).
 
@@ -42,7 +42,7 @@ Para más información, consulte el artículo sobre las [nuevas áreas de trabaj
    
      ![Nueva experiencia de área de trabajo](media/service-create-the-new-workspaces/power-bi-new-workspace.png)
      
-     Si selecciona **Revertir al área de trabajo clásica**, creará un área de trabajo basada en un grupo de Office 365. Use esta opción si necesita la opción **Los miembros solo pueden ver contenido de Power BI** para aplicar seguridad de nivel de fila (RLS) a los miembros del área de trabajo.
+     Si selecciona **Revertir al área de trabajo clásica**, se crea un [área de trabajo basada en un grupo de Office 365](service-create-workspaces.md). 
 
 2. Asigne un nombre al área de trabajo. Si el nombre no está disponible, puede editarlo para tener un nombre único.
    

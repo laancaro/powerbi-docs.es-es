@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f055cd27f25af399b63336e66aaad526ed740de2
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462330"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968647"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -27,6 +27,7 @@ Los informes paginados admiten de forma nativa la siguiente lista de orígenes d
 | Origen de datos | Autenticación | Notas |
 | --- | --- | --- |
 | Azure SQL Database <br>Azure SQL Data Warehouse | Básico, inicio de sesión único (SSO), OAuth2 |   |
+| Instancia administrada de Azure SQL | Básico | a través de un punto de conexión público mediante la extensión Azure SQL Database  |
 | Azure Analysis Services | SSO, OAuth2 |   |
 | Conjunto de datos de Power BI | SSO | Conjunto de datos de Power BI Premium y no Premium |
 | Conjunto de datos de Power BI Premium (XMLA) | SSO |   |
@@ -43,7 +44,7 @@ Además de los orígenes de datos anteriores admitidos de forma nativa, se puede
 - SQL Server
 - SQL Server Analysis Services
 - Oracle
-- Teradata
+- Teradatos
 
 En el caso de los informes paginados, en la actualidad no se puede acceder a Azure SQL Database y Azure Analysis Services a través de una puerta de enlace de datos de Power BI.
 

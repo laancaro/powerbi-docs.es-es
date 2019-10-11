@@ -10,24 +10,22 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 385cae5511d89ec86e52232066227687673f9523
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: d627b74d4c681e409424b18a117743e0488dc34c
+ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61394120"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "71715469"
 ---
 # <a name="high-density-sampling-in-power-bi-scatter-charts"></a>Muestreo de alta densidad en los gráficos de dispersión de Power BI
-Desde la versión de septiembre de 2017 de **Power BI Desktop** y las actualizaciones del **servicio Power BI**, hay disponible un nuevo algoritmo de muestreo que mejora cómo se representan los datos de alta densidad en los gráficos de dispersión.
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
+A partir de la versión de septiembre de 2017 de **Power BI Desktop**, hay disponible un nuevo algoritmo de muestreo que mejora cómo se representan los datos de alta densidad en los gráficos de dispersión.
 
 Por ejemplo, podría crear un gráfico de dispersión de la actividad de ventas de la organización, cada almacén con decenas de miles de puntos de datos de cada año. Un gráfico de dispersión de dicha información realizará un muestreo de los datos (seleccionando una representación significativa de los datos para ilustrar cómo se producen las ventas a través del tiempo) a partir de los datos disponibles y creará un gráfico de dispersión que representa los datos subyacentes. Esta es una práctica habitual en los gráficos de dispersión de alta densidad. Power BI ha mejorado el muestreo de datos de alta densidad, cuyos detalles se describen en este artículo.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_01.png)
-
-> [!NOTE]
-> El algoritmo de **muestreo de alta densidad** que se describe en este artículo está disponible en los gráficos de dispersión, tanto para **Power BI Desktop** como para el **servicio Power BI**.
-> 
-> 
+![Ejemplo de gráfico de dispersión](media/desktop-high-density-scatter-charts/high-density-scatter-charts-01.png)
 
 ## <a name="how-high-density-scatter-charts-work"></a>Modo de funcionamiento de los gráficos de dispersión de alta densidad
 Anteriormente, **Power BI** seleccionaba una colección de puntos de datos de muestra en el intervalo completo de datos subyacentes de manera determinista para crear un gráfico de dispersión. En concreto, Power BI seleccionaría la primera y última fila de datos de la serie del gráfico de dispersión y a continuación dividiría las filas restantes uniformemente para representar un total de 3500 puntos de datos en el gráfico de dispersión. Por ejemplo, si la muestra tiene 35 000 filas, se seleccionan la primera y la última fila para trazar, y se traza cada décima fila (35 000/10 = cada décima fila = 3500 puntos de datos). Anteriormente, los valores NULL o los puntos que no se podían trazar (por ejemplo, los valores de texto) de la serie de datos no se mostraban y, por tanto, no se tenían en cuenta al generar el objeto visual. Con este tipo de muestreo, la densidad percibida del gráfico de dispersión también se basaba en los puntos de datos representativos y, por tanto, la densidad visual implícita era una circunstancia de los puntos de la muestra y no de la colección completa de los datos subyacentes.
@@ -60,20 +58,22 @@ Hay circunstancias en las que el **muestreo de alta densidad** no se puede aplic
 
 * Si hace clic con el botón derecho en un valor en **Detalles** y lo establece en **Mostrar elementos sin datos** en el menú, el gráfico de dispersión volverá al algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_02.png)
+  ![Ejemplo de representación de elementos sin datos](media/desktop-high-density-scatter-charts/high-density-scatter-charts-02.png)
 * Cualquier valor en el eje **Reproducir** dará como resultado que el gráfico de dispersión vuelva al algoritmo original.
 * Si faltan los ejes X e Y en un gráfico de dispersión, el gráfico vuelve al algoritmo original.
 * El uso de una **línea de relación** en el panel **Análisis** hace que el gráfico se revierte al algoritmo original.
   
-  ![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_03.png)
+  ![Ejemplo de uso de línea de relación](media/desktop-high-density-scatter-charts/high-density-scatter-charts-03.png)
 
 ## <a name="how-to-turn-on-high-density-sampling-for-a-scatter-chart"></a>Activación del muestreo de alta densidad para un gráfico de dispersión
 Para activar el **muestreo de alta densidad**, seleccione un gráfico de dispersión, vaya al panel **Formato**, expanda la tarjeta **General** y, cerca de la parte inferior de la tarjeta, deslice el control **Muestreo de alta densidad** a **Activar**.
 
-![](media/desktop-high-density-scatter-charts/high-density-scatter-charts_04.png)
+![Ejemplo de muestreo de alta densidad](media/desktop-high-density-scatter-charts/high-density-scatter-charts-04.png)
 
 > [!NOTE]
 > Una vez que el control deslizante está activado, Power BI intentará usar el algoritmo **Muestreo de alta densidad** siempre que sea posible. Cuando el algoritmo no se puede usar (por ejemplo, si se coloca un valor en el eje *Reproducir*), el control deslizante permanece en la posición **Activado** aunque el gráfico se haya revertido al algoritmo estándar. Si después quita un valor del eje *Reproducir* (o cambian las condiciones para habilitar el uso del algoritmo de muestreo de alta densidad), el gráfico usará automáticamente el muestreo de alta densidad para ese gráfico porque la característica está activa.
+> 
+
 > 
 > [!NOTE]
 > Los puntos de datos se agrupan o se seleccionan por el índice. Tener una leyenda no afecta al muestreo para el algoritmo, solo afecta a la ordenación del objeto visual.

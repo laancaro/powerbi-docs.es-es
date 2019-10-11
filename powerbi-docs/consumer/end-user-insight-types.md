@@ -4,23 +4,25 @@ description: Información rápida y Ver información con Power BI.
 author: mihart
 manager: kvivek
 ms.reviewer: ''
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 9/23/2019
+ms.date: 10/2/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 991dd7bb94e79a21c8e4ec877093b81d2ed9b285
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 507d49ba6cdb894667bf66f8f35c5c325b9ff25e
+ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327775"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "71943921"
 ---
 # <a name="types-of-insights-supported-by-power-bi"></a>Tipos de información compatibles con Power BI
+
+El servicio Power BI puede buscar información de forma automática en los paneles o informes.
+
 ## <a name="how-does-insights-work"></a>¿Cómo funciona la búsqueda de información?
-Power BI busca rápidamente en distintos subconjuntos del conjunto de datos al tiempo que aplica un conjunto de algoritmos sofisticados para detectar información de posible interés. Power BI examina tanto como puede un conjunto de datos en el tiempo asignado.
+Power BI busca rápidamente en otros subconjuntos del conjunto de datos. Durante la búsqueda, Power BI aplica un conjunto de algoritmos sofisticados para detectar información potencialmente interesante. Power BI examina tanto como puede un conjunto de datos en el tiempo asignado.
 
 Puede ejecutar la información en un conjunto de datos o en un icono de panel.   
 
@@ -43,7 +45,7 @@ Detecta los casos en los que varias medidas muestran una correlación entre sí 
 ![Ejemplo de correlación](./media/end-user-insight-types/pbi_auto_insight_types_correlation.png)
 
 ## <a name="low-variance"></a>Baja varianza
-Detecta aquellos casos en los que los puntos de datos no están lejos de la media.
+Detecta casos en los que los puntos de datos no están lejos de la media.
 
 ![Ejemplo de baja varianza](./media/end-user-insight-types/power-bi-low-variance.png)
 
@@ -74,8 +76,6 @@ En el caso de los datos de una serie temporal, detecta si hay determinadas fecha
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Información de Power BI](end-user-insights.md)
-
-Si es propietario de un conjunto de datos, [optimícelo para información](../service-insights-optimize.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
 

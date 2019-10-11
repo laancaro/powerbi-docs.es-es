@@ -10,12 +10,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2d2eb51c5aad44572f1b427248fd85ef19a6306f
-ms.sourcegitcommit: e62889690073626d92cc73ff5ae26c71011e012e
+ms.openlocfilehash: a05924fc093c1514f51c3fabac3162433e2188f7
+ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/23/2019
-ms.locfileid: "69985707"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "71968885"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -59,18 +59,59 @@ La carga de trabajo de IA le permite usar servicios cognitivos y aprendizaje aut
 
 ### <a name="datasets"></a>Conjuntos de datos
 
-La carga de trabajo de conjuntos de datos está habilitada de forma predeterminada y no se puede deshabilitar. Utilice la siguiente configuración para controlar el comportamiento de la carga de trabajo.
+La carga de trabajo de conjuntos de datos está habilitada de forma predeterminada y no se puede deshabilitar. Utilice la siguiente configuración para controlar el comportamiento de la carga de trabajo. Debajo de la tabla se ofrece información de uso adicional para algunas de las opciones de configuración.
 
 | Nombre de la opción de configuración | Descripción |
 |---------------------------------|----------------------------------------|
 | **Valor máximo de memoria (%)** | Porcentaje máximo de memoria disponible que los conjuntos de datos pueden usar en una capacidad. |
 | **Punto de conexión XMLA** | Especifica que las conexiones de las aplicaciones cliente respetan la pertenencia al grupo de seguridad establecida en los niveles del área de trabajo y la aplicación. Para más información, vea [Conexión a conjuntos de datos con herramientas y aplicaciones cliente](service-premium-connect-tools.md). |
-| **Número máximo de conjuntos de filas intermedias** | Número máximo de filas intermedias devueltas por DirectQuery. El valor predeterminado es de 1 000 000, y el intervalo permitido está entre 100 000 y 2 147 483 647. Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. |
-| **Tamaño máximo del conjunto de datos sin conexión (GB)** | Tamaño máximo del conjunto de datos sin conexión en memoria. Es el tamaño comprimido en el disco. El valor predeterminado se establece por SKU, y el intervalo permitido está entre 0,1 y 10 GB. Use esta configuración para impedir que los creadores de informes publiquen un conjunto de datos grande que pueda afectar negativamente a la capacidad. |
-| **Número máximo de conjuntos de filas de resultados** | Número máximo de filas devueltas en una consulta DAX. El valor predeterminado es de -1 (sin límite), y el intervalo permitido está entre 100 000 y 2 147 483 647. Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. |
-| **Límite de memoria de consulta (%)** | Porcentaje máximo de memoria disponible que se puede usar para los resultados temporales en una consulta o una medida DAX. Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. |
-| **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. Use esta configuración para mantener un mejor control de las consultas de ejecución prolongada. |
+| **Número máximo de conjuntos de filas intermedias** | Número máximo de filas intermedias devueltas por DirectQuery. El valor predeterminado es de 1 000 000, y el intervalo permitido está entre 100 000 y 2 147 483 647. |
+| **Tamaño máximo del conjunto de datos sin conexión (GB)** | Tamaño máximo del conjunto de datos sin conexión en memoria. Es el tamaño comprimido en el disco. El valor predeterminado se establece por SKU, y el intervalo permitido está entre 0,1 y 10 GB. |
+| **Número máximo de conjuntos de filas de resultados** | Número máximo de filas devueltas en una consulta DAX. El valor predeterminado es de -1 (sin límite), y el intervalo permitido está entre 100 000 y 2 147 483 647. |
+| **Límite de memoria de consulta (%)** | Porcentaje máximo de memoria disponible que se puede usar para los resultados temporales en una consulta o una medida DAX. |
+| **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. |
 |  |  |  |
+
+#### <a name="max-intermediate-row-set-count"></a>Número máximo de conjuntos de filas intermedias
+
+Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. Cuando una consulta a un conjunto de datos de DirectQuery genera un resultado muy grande de la base de datos de origen, puede provocar un aumento del uso de memoria y sobrecarga de procesamiento. Esta situación puede hacer que otros usuarios e informes se ejecuten con pocos recursos. Esta configuración permite al administrador de la capacidad ajustar el número de filas que una consulta individual puede capturar del origen de datos.
+
+Como alternativa, si la capacidad puede admitir más que el valor predeterminado de un millón de filas y tiene un conjunto de filas grande, aumente este valor para capturar más filas.
+
+Tenga en cuenta que esta configuración solo afecta a las consultas de DirectQuery, mientras que [Número máximo de conjuntos de filas de resultados](#max-result-row-set-count) afecta a las consultas DAX.
+
+#### <a name="max-offline-dataset-size"></a>Tamaño máximo del conjunto de datos sin conexión
+
+Use esta configuración para impedir que los creadores de informes publiquen un conjunto de datos grande que pueda afectar negativamente a la capacidad. Tenga en cuenta que Power BI no puede determinar el tamaño real en memoria hasta que el conjunto de datos se cargue en la memoria. Es posible que un conjunto de datos con un tamaño sin conexión más pequeño tenga una superficie de memoria mayor que un conjunto de datos de un tamaño sin conexión mayor.
+
+Si tiene un conjunto de datos que es mayor que el tamaño especificado para esta opción, el conjunto de datos no se cargará cuando un usuario intente acceder a él.
+
+#### <a name="max-result-row-set-count"></a>Número máximo de conjuntos de filas de resultados
+
+Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. Si se alcanza este límite en una consulta DAX, un usuario del informe verá el error siguiente. Debe copiar los detalles del error y ponerse en contacto con un administrador.
+
+![No se pueden cargar datos para este objeto visual](media/service-admin-premium-workloads/could-not-load-data.png)
+
+Tenga en cuenta que esta configuración solo afecta a las consultas DAX, mientras que [Número máximo de conjuntos de filas intermedias](#max-intermediate-row-set-count) afecta a las consultas de DirectQuery.
+
+#### <a name="query-memory-limit"></a>Límite de memoria de consulta
+
+Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. Algunas consultas y cálculos pueden dar lugar a resultados intermedios que usan mucha memoria en la capacidad. Esta situación puede hacer que otras consultas se ejecuten muy lentamente, provoquen la expulsión de otros conjuntos de datos de la capacidad y generen errores de memoria insuficiente para otros usuarios de la capacidad.
+
+Esta configuración se aplica a la actualización de datos y la representación de informes. La actualización de datos realiza la actualización de datos del origen de datos y la de la consulta, a menos que la de la consulta esté deshabilitada. Si la actualización de consultas no está deshabilitada, este límite de memoria también se aplica a esas consultas. Las consultas con errores provocan que el estado de actualización programada se notifique como un error, aunque la actualización de datos se haya realizado correctamente.
+
+#### <a name="query-timeout"></a>Tiempo de espera de la consulta
+
+Use esta opción para mantener un mejor control de las consultas de ejecución prolongada, lo que puede hacer que los informes se carguen con lentitud para los usuarios. Esta configuración se aplica a la actualización de datos y la representación de informes. La actualización de datos realiza la actualización de datos del origen de datos y la de la consulta, a menos que la de la consulta esté deshabilitada. Si la actualización de consultas no está deshabilitada, este límite de tiempo de espera también se aplica a esas consultas.
+
+Esta configuración se aplica a una sola consulta y no a la cantidad de tiempo que se tarda en ejecutar todas las consultas asociadas a la actualización de un conjunto de datos o informe. Considere el ejemplo siguiente:
+
+- La opción **Tiempo de espera de la consulta** es 1200 (20 minutos).
+- Hay cinco consultas para ejecutar y cada una se ejecuta durante 15 minutos.
+
+El tiempo combinado para todas las consultas es de 75 minutos, pero el límite de la configuración no se alcanza porque todas las consultas individuales se ejecutan durante menos de 20 minutos.
+
+Tenga en cuenta que en los informes de Power BI este valor predeterminado se invalida con un tiempo de espera mucho menor para cada consulta de la capacidad. El tiempo de espera de cada consulta suele ser de aproximadamente tres minutos.
 
 ### <a name="dataflows"></a>Flujos de datos
 
