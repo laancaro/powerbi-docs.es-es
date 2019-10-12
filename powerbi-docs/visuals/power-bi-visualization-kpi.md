@@ -11,12 +11,12 @@ ms.topic: tutorial
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 508da47272313d9781fdd66c2ca367dcf9e433e5
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 8ecec706c281b2a36c342ea852eebb4a8559a6fd
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715221"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239926"
 ---
 # <a name="key-performance-indicator-kpi-visuals"></a>Objetos visuales de indicador clave de rendimiento (KPI)
 
@@ -50,12 +50,12 @@ Un conjunto de datos de KPI debe contener los valores objetivo de un KPI. Si el 
 En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
-   
-2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 
-1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
+1. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 
-1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+1. Abra el **archivo .PBIX del Ejemplo de análisis de minoristas** en la vista de informe. ![Captura de pantalla del icono de vista de informe.](media/power-bi-visualization-kpi/power-bi-report-view.png)
+
+1. Seleccione **+** para agregar una página nueva. ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png)
 
 ## <a name="how-to-create-a-kpi"></a>Cómo crear un KPI
 
