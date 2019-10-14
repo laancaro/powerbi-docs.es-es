@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 50f78709ce7ce302ce79df5eb383af25f55d539a
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 1a46c1fb8e9f31bd5199fccfaecb16cece144b5a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68471592"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72021033"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Uso de conjuntos de datos compartidos en el Generador de informes de Power BI
 
@@ -20,14 +20,14 @@ Puede usar un conjunto de datos creado en Power BI Desktop como origen de datos 
 
 ![Informe paginado de Power BI Desktop al Generador de informes](media/report-builder-shared-datasets/power-bi-desktop-report-builder-arrow-26-pgs.png)
 
-No es necesario que el conjunto de datos esté en un área de trabajo de una capacidad Premium, ni tampoco que sea miembro de esa área de trabajo. Solo debe tener [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets) para el conjunto de datos. Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium.
+No es necesario que el conjunto de datos esté en un área de trabajo de una capacidad Premium, ni tampoco que sea miembro de esa área de trabajo. Solo debe tener [permiso de compilación](service-datasets-build-permissions.md) para el conjunto de datos. Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium.
 
 ## <a name="what-you-need"></a>Lo que necesita
 
 Esta es una lista de lo que necesita y no necesita para usar un conjunto de datos compartido en el Generador de informes de Power BI.
 
 - Generador de informes de Power BI. [Descargue e instale el Generador de informes de Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
-- Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](service-datasets-build-permissions.md).
 - No necesita una licencia de Power BI Pro para crear un informe paginado en el Generador de informes. 
 - Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium. 
 - Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato**, desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
