@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/16/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86fc2f8d13cdcd006c01dfff0114c13cc78f5e65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9824b3340da694c00784f34b0c6245cafbf69383
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "70987019"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239923"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -113,7 +113,7 @@ Después de crear un código para insertar de **Publicar en la web**, se pueden 
 
 ## <a name="updates-to-reports-and-data-refresh"></a>Actualizaciones de informes y datos
 
-Después de crear y compartir el código para insertar de **Publicar en la web**, el informe se actualiza con los cambios que realice y el vínculo del código para insertar se activa de forma inmediata. Cualquiera que abra el vínculo puede verlo. Sin embargo, después de esta acción inicial, las actualizaciones de los informes u objetos visuales pueden tardar aproximadamente una hora antes de convertirse en visibles para los usuarios. Si necesita que las actualizaciones estén disponibles inmediatamente, puede eliminar el código para insertar y crear uno nuevo. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
+Después de crear y compartir el código para insertar de **Publicar en la web**, el informe se actualiza con los cambios que realice y el vínculo del código para insertar se activa de forma inmediata. Cualquiera que abra el vínculo puede verlo. Sin embargo, después de esta acción inicial, las actualizaciones de los informes u objetos visuales pueden tardar aproximadamente una hora antes de convertirse en visibles para los usuarios. Para obtener más información, consulte la sección [**Cómo funciona**](#howitworks) más adelante en este artículo. 
 
 ## <a name="data-refresh"></a>Actualización de datos
 
