@@ -15,9 +15,9 @@
         - name: Tutoriales
           items:
             - name: Desarrollo de un objeto visual de Power BI
-              href: custom-visual-develop-tutorial.md
+              href: visuals/custom-visual-develop-tutorial.md
             - name: Adición de opciones de formato
-              href: custom-visual-develop-tutorial-format-options.md
+              href: visuals/custom-visual-develop-tutorial-format-options.md
             - name: Adición de pruebas unitarias para el proyecto de objetos visuales
               href: visuals/unit-tests-introduction.md
         - name: Conceptos
