@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/17/2019
+ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7ee083de9800b55c4f7d998a113c1a63df112b7b
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 269b495a41f193c6a2ba02fa75f171c3b5789689
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624023"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72019613"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
@@ -29,9 +29,6 @@ Los paneles son una característica exclusiva del servicio Power BI. y no está
 
 Las visualizaciones que se ven en el panel se denominan *iconos*. Puede *anclar* iconos a un panel desde informes. Si no está familiarizado con Power BI, puede obtener una buena base si lee [Basic concepts for designers in the Power BI service](service-basic-concepts.md) (Conceptos básicos para diseñadores del servicio Power BI).
 
-> [!IMPORTANT]
-> Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para crear paneles.
-
 Las visualizaciones de un panel proceden de informes y cada informe se basa en un conjunto de datos. Una manera de pensar en un panel es como vía de entrada a los informes y conjuntos de datos subyacentes. Si selecciona una visualización, se le dirige al informe (y al conjunto de datos) en el que se basa.
 
 ![Diagrama que muestra la relación entre paneles, informes y conjuntos de datos](media/service-dashboards/power-bi-diagram.png)
@@ -40,6 +37,13 @@ Las visualizaciones de un panel proceden de informes y cada informe se basa en u
 Los paneles son una magnífica manera de supervisar su empresa y ver las métricas más importantes de un vistazo. Las visualizaciones de un panel pueden proceder de un conjunto de datos subyacente o de varios, y de un informe subyacente o de varios. Un panel combina datos locales y en la nube, lo que proporciona una vista consolidada, independientemente de dónde residen los datos.
 
 Un panel no es simplemente una foto bonita. Es muy interactivo y los iconos se actualizan según cambian los datos subyacentes.
+
+## <a name="who-can-create-a-dashboard"></a>¿Quién puede crear un panel?
+La capacidad de crear un panel se considera una característica de *creador* y requiere permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en areaDeTrabajoABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](service-create-distribute-apps.md), está *consumiendo* el informe. Es posible que no pueda anclar iconos a un panel. 
+
+> [!IMPORTANT]
+> Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para crear paneles en áreas de trabajo. Puede crear paneles en su propia área de trabajo sin una licencia de Power BI Pro.
+
 
 ## <a name="dashboards-versus-reports"></a>Paneles frente a informes
 Los [informes](service-reports.md) y los paneles parecen similares, porque ambos son lienzos con visualizaciones, Pero hay diferencias importantes, como puede ver en la tabla siguiente.

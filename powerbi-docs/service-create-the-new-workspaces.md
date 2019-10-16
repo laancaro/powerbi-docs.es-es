@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/10/2019
+ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 5c50ec38da65573e085d9e27b0e31524256ac009
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715528"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020167"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creación de las nuevas áreas de trabajo en Power BI
 
@@ -68,7 +68,7 @@ Para más información, consulte el artículo sobre las [nuevas áreas de trabaj
 
 ## <a name="workspace-contact-list"></a>Lista de contactos del área de trabajo
 
-La nueva lista de contactos del área de trabajo le permite especificar qué usuarios reciben una notificación sobre los problemas que se producen en el área de trabajo. De forma predeterminada, se notifica a cualquier usuario o grupo especificado como administrador del área de trabajo, pero puede personalizar la lista. Los usuarios o grupos que aparecen en la lista de contactos se mostrarán en la interfaz de usuario (IU) para ayudar a los usuarios a obtener ayuda relacionada con el área de trabajo.
+Especifique qué usuarios reciben una notificación sobre los problemas que se producen en el área de trabajo. De forma predeterminada, se notifica a cualquier usuario o grupo especificado como administrador del área de trabajo, pero puede personalizar la lista agregándolos a la *lista de contactos*. Los usuarios o grupos que aparecen en la lista de contactos se mostrarán en la interfaz de usuario (IU) para ayudar a los usuarios a obtener ayuda relacionada con el área de trabajo.
 
 1. Acceda a la nueva opción **Lista de contactos** de dos maneras:
 
@@ -79,6 +79,9 @@ La nueva lista de contactos del área de trabajo le permite especificar qué usu
     ![Configuración del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
 2. En **Avanzadas** > **Lista de contactos**, acepte el valor predeterminado, **Administradores de áreas de trabajo** o agregue su propia lista de **Usuarios o grupos específicos**. 
+
+    ![Contactos del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-contacts.png)
+
 3. Seleccione **Guardar**.
 
 ## <a name="workspace-onedrive"></a>Área de trabajo: OneDrive
@@ -103,34 +106,15 @@ Power BI no sincroniza los permisos de los usuarios o grupos que están configu
 
 ### <a name="access-the-workspace-onedrive-location"></a>Acceso a la ubicación de OneDrive del área de trabajo
 
-Después de configurar la ubicación de OneDrive, puede acceder a ella desde algunos lugares diferentes del área de trabajo:
+Una vez configurada la ubicación de OneDrive, obtendrá acceso a ella de la misma manera que a otros orígenes de datos del servicio Power BI.
 
-- Seleccione **Áreas de trabajo** > *nombre del área de trabajo* > los puntos suspensivos ( **...** ) menú > **Archivos**. 
+1. En el panel de navegación izquierdo, seleccione **Obtener datos**, luego, en el cuadro **Archivos**, seleccione **Obtener**.
 
-    ![Ubicación de los archivos del área de trabajo](media/service-new-workspaces/power-bi-new-workspace-files.png)
+    ![Obtener datos, obtener archivos](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
-- Seleccione el menú de puntos suspensivos ( **...** ) en la esquina superior derecha del área de trabajo > **Archivos**.
-
-    ![Ubicación de los archivos del área de trabajo](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-    
-- En la experiencia **Obtener datos** > **Archivos**. La entrada **OneDrive para la Empresa** es su propia instancia de OneDrive para la Empresa. La segunda instancia de OneDrive es la que ha agregado.
+1.  La entrada **OneDrive para la Empresa** es su propia instancia de OneDrive para la Empresa. La segunda instancia de OneDrive es la que ha agregado.
 
     ![Ubicación de los archivos del área de trabajo: obtener datos](media/service-create-the-new-workspaces/power-bi-new-workspace-get-data-onedrive.png)
-
-## <a name="add-content-to-your-workspace"></a>Adición de contenido al área de trabajo
-
-Después de crear un área de trabajo de la nueva experiencia, es el momento de agregarle contenido. El contenido se agrega igual en las áreas de trabajo nuevas que en las clásicas. Use el botón Crear o utilice Obtener datos para agregar contenido al área de trabajo.
-
-1. En la pantalla de **bienvenida** del área de trabajo nueva, puede agregar contenido. 
-
-    ![Pantalla de bienvenida del área de trabajo nueva](media/service-create-the-new-workspaces/power-bi-workspace-get-data.png)
-
-1. Por ejemplo, seleccione **Ejemplos** > **Ejemplo de rentabilidad del cliente**.
-
-> [!NOTE]
-> No se pueden agregar paquetes de contenido de la organización ni paquetes de contenido de terceros a las nuevas áreas de trabajo. Hay aplicaciones disponibles para muchos paquetes de contenido de terceros que haya usado anteriormente. Use áreas de trabajo clásicas si aún necesita utilizar paquetes de contenido. Los paquetes de contenido están en desuso, por lo que se recomienda usar las aplicaciones en su lugar.
-
-Al ver el contenido en la lista de contenido de un área de trabajo, el nombre del área de trabajo se muestra como el propietario.
 
 ### <a name="connecting-to-third-party-services-in-new-workspaces"></a>Conexión a servicios de terceros en las nuevas áreas de trabajo
 
@@ -142,9 +126,7 @@ En la nueva experiencia de área de trabajo, no se pueden crear ni consumir paqu
 
 1. En la lista de contenido del área de trabajo, puesto que es administrador, verá una nueva acción, **Acceso**.
 
-    ![Lista de contenido de áreas de trabajo](media/service-create-the-new-workspaces/power-bi-new-workspace-files-ellipsis.png)
-
-1. Seleccione **Acceso**.
+    ![Lista de contenido de áreas de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-access-icon.png)
 
 1. Agregue grupos de seguridad, listas de distribución, grupos de Office 365 o usuarios a estas áreas de trabajo como miembros, colaboradores o administradores. Consulte [Roles en las nuevas áreas de trabajo](service-new-workspaces.md#roles-in-the-new-workspaces) para obtener una explicación de los distintos roles.
 
