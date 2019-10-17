@@ -7,15 +7,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/05/2019
+ms.date: 09/30/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32d43ca4b9681495e22db023604afeac31d15e7e
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 15f0ce3910261ed2902603ab7fb3f07f8b695d4c
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715211"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020689"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -78,8 +78,8 @@ Estas son las funciones de los cuatro roles: administradores, miembros, colabora
 | Ver un elemento e interactuar con él. |  X | X  | X  | X  |
 
 > [!NOTE]
->Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, los usuarios deberán cumplir criterios adicionales:
->- Necesitan una licencia de Power BI Pro. 
+>Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, los usuarios deben cumplir criterios adicionales:
+>- Necesitan una licencia de Power BI Pro. Vea la sección siguiente sobre [licencias](#licensing) para obtener más información.
 >- Necesitan permiso de compilación para el conjunto de datos. Para los conjuntos de datos de esta área de trabajo, las usuarios con los roles de Administrador, Miembro y Colaborador tienen permiso de compilación a través de su rol de área de trabajo.
  
 ## <a name="licensing"></a>Licencias
@@ -141,7 +141,7 @@ Algunas características funcionan de manera diferente en las áreas de trabajo 
 - Posibilidad de que los miembros puedan volver a compartir o no: se ha reemplazado por el rol de Colaborador
 - Áreas de trabajo de solo lectura: en lugar de conceder a los usuarios acceso de solo lectura a un área de trabajo, se asigna a los usuarios el rol Visor, que permite un acceso similar al de solo lectura al contenido de un área de trabajo.
 - Los usuarios sin una licencia Pro pueden acceder al área de trabajo si esta tiene una capacidad de Power BI Premium, incluso si los usuarios solo tienen el rol Visor.
-- Para permitir que los usuarios con el rol Visor exporten datos, asegúrese de que tengan permiso de compilación en los conjuntos de datos en el área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+- Para permitir que los usuarios con el rol Visor exporten datos, asegúrese de que tengan permiso de compilación en los conjuntos de datos en el área de trabajo. Obtenga más información sobre [Permiso de compilación para conjuntos de datos](service-datasets-build-permissions.md).
 - Ausencia del botón **Abandonar área de trabajo**.
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes

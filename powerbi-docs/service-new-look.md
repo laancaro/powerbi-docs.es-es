@@ -7,21 +7,23 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 6c752b6083d2f3baecf7e1a9ce20f77e8c5a46d0
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
+ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654949"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "72239956"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuevo aspecto del servicio Power BI
 
-El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. El nuevo aspecto es una experiencia moderna que es más sencilla y se basa en su familiaridad con otros productos de Microsoft. En el servicio Power BI, hemos convertido el contenido del informe en el principal punto de atención al cambiar a un tema de color más claro y actualizar los iconos. Este es un resumen de lo que ha cambiado en el nuevo aspecto. Consulte las secciones numeradas para obtener más información:
+El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto que facilita la visualización de los informes y la interacción con ellos. El nuevo aspecto es más sencillo y se basa en su familiaridad con otros productos de Microsoft. En el servicio Power BI, hemos convertido el contenido del informe en el principal punto de atención al cambiar a un tema de color más claro y actualizar los iconos. Este es un resumen de lo que ha cambiado en el nuevo aspecto. Consulte las secciones numeradas para obtener más información:
 
 ![Resumen de cambios del nuevo aspecto](media/service-new-look/power-bi-new-look-changes.png)
+
+¿Busca una acción específica? Vea [El nuevo aspecto: ¿Dónde están ahora las acciones?](service-new-look-where-actions.md)
 
 ## <a name="quick-tour-of-the-changes"></a>Paseo introductorio por los cambios
 
@@ -70,7 +72,7 @@ No se ha quitado ninguna de las funciones del aspecto anterior. Puede ver los co
 
 ## <a name="6-new-filter-experience"></a>6. Nueva experiencia de filtro
 
-Las actualizaciones recientes, como la visualización de filtros aplicados y el panel de nuevos filtros, están disponibles de forma predeterminada con el nuevo aspecto. Aunque los diseñadores de informes no hayan actualizado a la experiencia de nuevos filtros, verá el panel nuevos filtros.
+Las actualizaciones recientes, como la visualización de filtros aplicados y el panel de nuevos filtros, están disponibles de forma predeterminada con el nuevo aspecto. Aunque su diseñador de informes no haya actualizado a la experiencia de nuevos filtros, verá el panel nuevos filtros.
 
 ![Redefinición de filtros](media/service-new-look/power-bi-new-look-filters.png)
 

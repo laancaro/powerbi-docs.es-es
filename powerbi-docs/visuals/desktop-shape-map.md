@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 1d07c678b02f77689d24d067ca58a4e28ac70cb0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
+ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623914"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "72164097"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Cree un objeto visual de **Mapa de formas** para comparar las regiones de un mapa mediante colores. A diferencia del objeto visual **Mapa**, **Mapa de formas** no puede mostrar las ubicaciones geográficas precisas de los puntos de datos en un mapa. En su lugar, su propósito principal es mostrar comparaciones relativas de las regiones de un mapa mediante colores diferentes.
 
 Los objetos visuales **Mapa de formas** se basan en los mapas ESRI/TopoJSON, que tienen la capacidad atractiva de usar mapas personalizados que puede crear. Algunos ejemplos de mapas personalizados: organizaciones geográficas y de sala, planos de planta y otros. La capacidad de usar mapas personalizados no está disponible en esta versión preliminar de **Mapa de formas**.
@@ -113,7 +116,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="australia-states"></a>Australia: estados
 
-| id | abrev. | iso | nombre | código postal |
+| Id. | abrev. | iso | nombre | código postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Occidental |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -126,7 +129,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="austria-states"></a>Austria: estados
 
-| id | iso | nombre | nombre (español) | código postal |
+| Id. | iso | nombre | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -140,7 +143,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="brazil-states"></a>Brasil: estados
 
-| id |
+| Id. |
 | --- |
 | Tocantins |
 | Pernambuco |
@@ -176,7 +179,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="canada-provinces"></a>Canadá: provincias
 
-| id | iso | nombre | código postal |
+| Id. | iso | nombre | código postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territorios Noroccidentales |NT |
@@ -194,7 +197,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="france-regions"></a>Francia: regiones
 
-| id | nombre | nombre (español) |
+| Id. | nombre | nombre (español) |
 | --- | --- | --- |
 | Alsace |Alsace |Alsacia |
 | Rhone-Alpes |Rhône-Alpes |Ródano-Alpes |
@@ -221,7 +224,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="germany-states"></a>Alemania: estados
 
-| id | iso | nombre | nombre (español) | código postal |
+| Id. | iso | nombre | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlín |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -242,7 +245,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="ireland-counties"></a>Irlanda: condados
 
-| id |
+| Id. |
 | --- |
 | Wicklow |
 | Wexford |
@@ -273,7 +276,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="italy-regions"></a>Italia: regiones
 
-| id | iso | nombre | nombre (español) | código postal |
+| Id. | iso | nombre | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Véneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle de Aosta |VD |
@@ -298,7 +301,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="mexico-states"></a>México: estados
 
-| id | abreviatura | iso | nombre | nombre (español) | código postal |
+| Id. | abreviatura | iso | nombre | nombre (español) | código postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -335,7 +338,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="netherlands-provinces"></a>Países Bajos: provincias
 
-| id | iso | nombre | nombre (español) |
+| Id. | iso | nombre | nombre (español) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holanda Meridional |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -352,7 +355,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| id | iso | nombre |
+| Id. | iso | nombre |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escocia |
@@ -361,7 +364,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="usa-states"></a>EE. UU.: estados
 
-| id | nombre | código postal |
+| Id. | nombre | código postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |

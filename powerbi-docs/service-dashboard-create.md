@@ -10,49 +10,46 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: b50d247f54cfe2af4cefbd14b9528b1dfa263acf
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624219"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020369"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Introduction to dashboards in Power BI](service-dashboards.md) (Introducción a los paneles de Power BI) y ahora quiere crear los suyos propios. Existen diferentes formas de crear un panel. Por ejemplo, puede crear un panel a partir de un informe, desde cero, a partir de un conjunto de datos o mediante la duplicación de un panel existente.  
 
-Dado que puede parecer abrumador cuando se empieza a trabajar, para empezar, crearemos un panel rápido y sencillo que ancle visualizaciones a partir de un informe que ya se ha creado. 
+Para empezar, crearemos un panel rápido y sencillo que ancle visualizaciones a partir de un informe que ya se ha creado. 
 
-Una vez completada esta guía de inicio rápido, comprenderá bien:
+Una vez completado este artículo, comprenderá bien:
 - La relación entre los paneles y los informes
 - Cómo abrir la vista de edición en el editor de informes
 - Cómo anclar iconos 
 - Cómo desplazarse entre un panel y un informe 
-
-## <a name="who-can-create-a-dashboard"></a>¿Quién puede crear un panel?
-La capacidad de crear un panel se considera una característica de *creador* y requiere permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en areaDeTrabajoABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](service-create-distribute-apps.md) (está *consumiendo* el informe), no podrá anclar los iconos a un panel.
  
 ![Panel](media/service-dashboard-create/power-bi-completed-dashboard-small.png)
 
 > [!NOTE] 
-> Los paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque no se puede crear paneles en Power BI Mobile, se pueden [ver y compartir](consumer/mobile/mobile-apps-view-dashboard.md) desde allí.
+> Los paneles son una característica del servicio Power BI y no de Power BI Desktop. Aunque no puede crear paneles en las aplicaciones móviles de Power BI, puede [verlas y compartirlas](consumer/mobile/mobile-apps-view-dashboard.md) desde allí.
 >
 > 
 
 ## <a name="video-create-a-dashboard-by-pinning-visuals-and-images-from-a-report"></a>Vídeo: Creación de un panel con objetos visuales e imágenes anclados desde un informe
-Vea cómo crea Amanda un nuevo panel anclando visualizaciones de un informe. A continuación, siga los pasos de [Importación de un conjunto de datos con un informe](#import-a-dataset-with-a-report) para intentarlo por sí mismo con el Ejemplo de análisis de adquisiciones.
+Vea cómo crea Amanda un nuevo panel anclando visualizaciones de un informe. A continuación, siga los pasos de la sección siguiente, [Importación de un conjunto de datos con un informe](#import-a-dataset-with-a-report), para intentarlo por sí mismo con el ejemplo de análisis de adquisiciones.
     
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/lJKgWnvl6bQ" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="import-a-dataset-with-a-report"></a>Importación de un conjunto de datos con un informe
-Vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo para crear el nuevo panel. El ejemplo que vamos a usar es un libro de Excel con dos hojas de PowerView. Cuando Power BI importa el libro, agrega un conjunto de datos y un informe al área de trabajo. El informe se crea automáticamente a partir de las hojas de PowerView.
+En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo para crear el nuevo panel. El ejemplo que usamos es un libro de Excel con dos hojas de PowerView. Cuando Power BI importa el libro, agrega un conjunto de datos y un informe al área de trabajo. El informe se crea automáticamente a partir de las hojas de PowerView.
 
-1. Descargue el [archivo de Excel](http://go.microsoft.com/fwlink/?LinkId=529784) del Ejemplo de análisis de adquisiciones. Se recomienda guardarlo en OneDrive para la Empresa.
+1. Descargue el archivo de Excel del [ejemplo de análisis de adquisiciones](http://go.microsoft.com/fwlink/?LinkId=529784). Se recomienda guardarlo en OneDrive para la Empresa.
 2. Abra el servicio Power BI en el explorador (app.powerbi.com).
 3. En el panel de navegación izquierdo, seleccione **Mi área de trabajo** y, a continuación, **Obtener datos**.
 
-    ![Panel de navegación izquierdo](media/service-dashboard-create/power-bi-get-data3.png)
-5. Seleccione **Archivos**.
+    ![Panel de navegación izquierdo](media/service-dashboard-create/power-bi-get-data-new-look.png)
+5. En **Archivos**, seleccione **Obtener**.
 
    ![Obtención de archivos](media/service-dashboard-create/power-bi-select-files.png)
 6. Navegue hasta la ubicación donde guardó el archivo de Excel del ejemplo de análisis de adquisiciones. Selecciónelo y elija **Conectar**.
@@ -64,6 +61,9 @@ Vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo p
 8. Cuando aparezca el mensaje de operación correcta, seleccione la **x** para descartarlo.
 
    ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-view-datasetnew.png)
+
+> [!TIP]
+> ¿Sabía esto? Puede hacer más pequeña la barra de navegación izquierda: basta con seleccionar el icono con tres líneas de la parte superior ![icono para mostrar u ocultar el panel de navegación](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Esto le brinda más espacio para el propio informe.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abra el informe y ancle algunos iconos en un panel
 1. En la misma área de trabajo, seleccione la pestaña **Informes** y, a continuación, seleccione **Ejemplo de análisis de adquisiciones** para abrir el informe.

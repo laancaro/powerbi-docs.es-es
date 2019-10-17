@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f54906643bba8c631c8d8052309ad3ff512ad3fa
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305760"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020222"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -30,7 +30,7 @@ Los usuarios empresariales obtienen las aplicaciones de varias maneras diferente
 - Les puede enviar un vínculo directo.
 - Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo.
 
-Puede crear la aplicación con su propia navegación integrada, para que los usuarios puedan desplazarse con facilidad por el contenido. No pueden modificar el contenido de la aplicación. Pueden interactuar con ella en el servicio Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. También puede concederles permisos de compilación para conectarse a los conjuntos de datos subyacentes y crear copias de los informes en la aplicación. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Puede crear la aplicación con su propia navegación integrada, para que los usuarios puedan desplazarse con facilidad por el contenido. No pueden modificar el contenido de la aplicación. Pueden interactuar con ella en el servicio Power BI o en una de las aplicaciones móviles: pueden filtrar, resaltar y ordenar los datos por sí mismos. Obtienen las actualizaciones automáticamente y se puede controlar la frecuencia con la que se actualizan los datos. También puede concederles permiso de compilación para conectarse a los conjuntos de datos subyacentes y crear copias de los informes en la aplicación. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md).
 
 ## <a name="licenses-for-apps"></a>Licencias para aplicaciones
 Para crear o actualizar una aplicación necesita una licencia de Power BI Pro. Los *consumidores* de la aplicación tienen dos opciones.
@@ -166,7 +166,7 @@ Al activar la opción para **permitir que los usuarios se conecten a los conjunt
 - Buscar estos conjuntos de datos en Power BI Desktop y en la experiencia de obtención de datos en el servicio Power BI.
 - Crear informes y paneles basados en estos conjuntos de datos.
 
-Al desactivar esta opción, los usuarios nuevos que agregue a la aplicación ya no tendrán el permiso de compilación. Pero para los usuarios de la aplicación existentes, los permisos en los conjuntos de datos subyacentes no cambian. Puede eliminar de forma manual el permiso de compilación de los usuarios de la aplicación que ya no deban tenerlo. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+Al desactivar esta opción, los usuarios nuevos que agregue a la aplicación ya no tendrán el permiso de compilación. Pero para los usuarios de la aplicación existentes, los permisos en los conjuntos de datos subyacentes no cambian. Puede eliminar de forma manual el permiso de compilación de los usuarios de la aplicación que ya no deban tenerlo. Obtenga más información sobre el [permiso de compilación](service-datasets-build-permissions.md).
 
 ## <a name="allow-users-to-copy-reports"></a>Permitir a los usuarios copiar informes
 
@@ -179,7 +179,7 @@ Cualquier miembro de un área de trabajo puede cancelar la publicación de la ap
 >Cuando cancela la publicación de una aplicación, los usuarios de la aplicación pierden sus personalizaciones. Pierden todos los marcadores personales, comentarios o suscripciones asociados al contenido de la aplicación. Cancele la publicación de una aplicación solo si es necesario quitarla.
 > 
 
-* En un área de trabajo, seleccione el botón de puntos suspensivos ( **…** ) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
+* En un área de trabajo, seleccione el botón de puntos suspensivos (**…**) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
   
      ![Cancelar publicación de la aplicación](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 

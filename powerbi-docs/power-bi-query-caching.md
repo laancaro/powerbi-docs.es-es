@@ -2,20 +2,20 @@
 title: Almacenamiento en caché de consultas en Power BI Premium
 description: Almacenamiento en caché de consultas en Power BI Premium
 author: KesemSharabi
-ms.author: maggies
+ms.author: kesharab
 manager: rkarlin
 ms.reviewer: bhmerc
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/16/2019
+ms.date: 10/04/2019
 LocalizationGroup: ''
-ms.openlocfilehash: 489069df43d2c09f6f5551987a61353e095aff7a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6e68f515581d62b544f1c6b17144e73ea709a62d
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076171"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020517"
 ---
 # <a name="query-caching-in-power-bi-premiumembedded"></a>Almacenamiento en caché de consultas en Power BI Premium/Embedded
 
@@ -26,13 +26,13 @@ Las organizaciones con Power BI Premium o Power BI Embedded pueden sacar par
 
 Los resultados de las consultas almacenadas en caché son específicos del usuario y el contexto del conjunto de datos, y siempre respetan las reglas de seguridad. En este momento, el servicio solo realiza el almacenamiento de consultas de la página inicial en la que se entra. En otras palabras, las consultas no se almacenan en caché cuando se interactúa con el informe. La caché de consultas respeta los [marcadores personales](consumer/end-user-bookmarks.md#personal-bookmarks) y los [filtros persistentes](https://powerbi.microsoft.com/blog/announcing-persistent-filters-in-the-service/), por lo que las consultas generadas por un informe personalizado se almacenarán en caché. Los [iconos de panel](service-dashboard-tiles.md) que funcionan con las mismas consultas también aprovechan las consultas una vez almacenadas en caché. El rendimiento mejora especialmente cuando se accede con frecuencia a un conjunto de datos que no es necesario actualizar a menudo. El almacenamiento en caché de consultas puede además reducir la carga sobre la capacidad Premium/Embedded al reducir el número total de consultas.
 
-El comportamiento del almacenamiento en caché se controla en la página **Configuración** del conjunto de datos del servicio Power BI. Tiene dos valores de configuración posibles:
+El comportamiento del almacenamiento en caché se controla en la página **Configuración** del conjunto de datos del servicio Power BI. Tiene tres valores de configuración posibles:
 
+- **Capacidad predeterminada**: almacenamiento en caché de consultas desactivado
 - **Desactivado**: No se usa el almacenamiento en caché de consultas para este conjunto de datos.
-
 - **Activado**: Se usa el almacenamiento en caché de consultas para este conjunto de datos.
 
-![Cuadro de diálogo Caché de consultas](media/power-bi-query-caching/power-bi-query-caching.png)
+    ![Cuadro de diálogo Caché de consultas](media/power-bi-query-caching/power-bi-query-3-options.png)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

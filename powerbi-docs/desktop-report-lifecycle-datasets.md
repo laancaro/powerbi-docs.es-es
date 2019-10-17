@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: f3c72de197203adcad1020bc244ff0bc215e10bd
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
+ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164495"
+ms.lasthandoff: 10/07/2019
+ms.locfileid: "72020484"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 Puede establecer una conexión dinámica a un conjunto de datos compartido en el servicio Power BI y crear muchos informes diferentes del mismo conjunto de datos. Esto significa que puede crear el modelo de datos perfecto en Power BI Desktop y publicarlo en el servicio Power BI. A continuación, usted y otros usuarios pueden crear varios informes diferentes (en archivos .pbix independientes) a partir de ese mismo modelo de datos común y guardarlos en distintas áreas de trabajo. Esta característica se denomina "**Conexión dinámica al servicio Power BI**".
@@ -35,7 +35,7 @@ Supongamos que Ana, analista de negocios, forma parte de su equipo y está espec
 A todo el mundo le gusta el informe y el conjunto de datos de Ana, y aquí es cuando empezaría el problema: todas las personas del equipo de Ana intentarían crear *su propia versión* de ese conjunto de datos y, luego, compartir sus propios informes con el equipo. De repente, habría una gran cantidad de informes (de diferentes conjuntos de datos) en el área de trabajo del equipo del **servicio Power BI**. ¿Cuál era el más reciente? ¿Eran iguales, o casi iguales, los conjuntos de datos? ¿Cuáles eran las diferencias? Con la característica **Conexión dinámica al servicio Power BI**, todo esto puede cambiar para mejor. En la siguiente sección, veremos cómo otros usuarios pueden usar el conjunto de datos publicado de Ana para sus propios informes en sus propias áreas de trabajo y de cómo permitir que todos puedan emplear el mismo conjunto de datos publicado, coherente e investigado para generar informes únicos.
 
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conexión a un conjunto de datos del servicio Power BI mediante una conexión dinámica
-Ana crea un informe (y el conjunto de datos en el que se basa), lo publica en el **servicio Power BI** y se muestra en el área de trabajo de su equipo en el servicio Power BI. Si lo guarda en un *área de trabajo de la nueva experiencia*, Ana puede establecer el permiso de compilación para que esté disponible para que todos los usuarios dentro y fuera de su área de trabajo lo puedan ver y usar.
+Ana crea un informe (y el conjunto de datos en el que se basa), lo publica en el **servicio Power BI** y se muestra en el área de trabajo de su equipo en el servicio Power BI. Si lo guarda en un *área de trabajo de la nueva experiencia*, Anna puede establecer el permiso de compilación para que esté disponible para que todos los usuarios dentro y fuera de su área de trabajo lo puedan ver y usar.
 
 Para más información acerca de las áreas de trabajo de la nueva experiencia, consulte el artículo sobre [áreas de trabajo de la aplicación](service-new-workspaces.md).
 
@@ -76,7 +76,7 @@ Cuando termina, **Power BI Desktop** indica que se ha realizado correctamente y 
 
 Ahora que el informe con su conjunto de datos está en el servicio Power BI, también lo puede *promover* para dar testimonio de su calidad y confiabilidad. Incluso puede solicitar que sea *certificado* por una autoridad central del inquilino de Power BI. Con cualquiera de estas promociones, el conjunto de datos siempre aparecerá en el tema de la lista cuando los usuarios buscan conjuntos de datos. Si está interesado, puede leer más sobre el proceso de [promoción del conjunto de datos](service-datasets-promote.md). 
 
-El último paso es establecer el *permiso de creación* para el conjunto de datos en el que se basa el informe. El permiso de creación determina quién puede ver y usar el conjunto de datos. Se puede establecer en el área de trabajo propiamente dicha o cuando se comparte una aplicación desde el área de trabajo. Más información sobre la configuración del [permiso de creación](service-datasets-build-permissions.md#build-permissions-for-shared-datasets).
+El último paso es establecer el *permiso de creación* para el conjunto de datos en el que se basa el informe. El permiso de creación determina quién puede ver y usar el conjunto de datos. Se puede establecer en el área de trabajo propiamente dicha o cuando se comparte una aplicación desde el área de trabajo. Más información sobre la configuración del [permiso de creación](service-datasets-build-permissions.md).
 
 A continuación, vamos a ver cómo otros compañeros de equipo que tienen acceso al área de trabajo donde el informe (y el conjunto de datos) se publicó pueden conectarse al conjunto de datos y generar sus propios informes.
 
