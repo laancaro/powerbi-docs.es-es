@@ -9,17 +9,19 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 12/06/2018
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: af7f2f0ca5407694b13f0b053ff347f883c8c983
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68523040"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589453"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Ahora que ya conocemos los conceptos básicos de Power BI, echemos un vistazo al **servicio Power BI**. Tal y como se ha mencionado anteriormente, puede que una persona de su equipo dedique todo su tiempo en **Power BI Desktop** a reunir datos y elaborar informes para otros usuarios, mientras que usted, por otro lado, se dedique plenamente a usar el servicio Power BI, para ver el contenido creado por otros usuarios e interactuar con él (experiencia de **consumo**). En este inicio rápido importaremos datos de ejemplo y los usaremos para obtener información básica sobre el servicio Power BI. 
  

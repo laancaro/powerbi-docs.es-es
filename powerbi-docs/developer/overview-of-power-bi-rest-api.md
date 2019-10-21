@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: fd49c69a14d3dac6b1a045f6aba407ec7aac0deb
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269458"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307630"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -57,7 +57,7 @@ Puede usar la API de Power BI para [insertar datos en un conjunto de datos](wal
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Inserción de datos en un conjunto de datos](walkthrough-push-data.md)
-* [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md)
+* [Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md)
 * [Referencia de la API REST de Power BI](rest-api-reference.md)
 * [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 

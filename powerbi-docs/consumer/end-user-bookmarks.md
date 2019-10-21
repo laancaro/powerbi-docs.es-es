@@ -6,17 +6,20 @@ manager: kvivek
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/22/2019
+ms.date: 10/18/2019
 ms.author: mihart
 LocalizationGroup: Create reports
-ms.openlocfilehash: 0b4da978687afbafcc7f0d48b6df220b240a507f
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: 5383b06bbc40953ea9f4322562190b6a7b29db14
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207614"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589437"
 ---
 # <a name="what-are-bookmarks"></a>¿Qué son los marcadores?
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Los marcadores capturan la vista configurada actual de una página de informe, incluidos los filtros, las segmentaciones y el estado de los objetos visuales. Al seleccionar un marcador, Power BI lleva de vuelta a esa vista. Hay dos tipos de marcadores: los que crea el usuario y los creados por *diseñadores* de informes.
 
 ## <a name="use-bookmarks-to-share-insights-and-build-stories-in-power-bi"></a>Uso de marcadores para compartir información detallada y crear historias en Power BI 

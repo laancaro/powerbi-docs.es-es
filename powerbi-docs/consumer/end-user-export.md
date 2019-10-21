@@ -8,17 +8,20 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/11/2019
+ms.date: 10/11/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 6aec9f569f657c58eb1dc0b807bbceefc62ab01a
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
+ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943875"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "72589522"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar dichos datos en Power BI](end-user-show-data.md) o exportarlos a Excel. La opción para exportar datos requiere un determinado tipo o licencia y permisos de edición para el contenido. Si no puede hacer la operación, consulte con el administrador de Power BI. 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Desde un objeto visual en un panel de Power BI
