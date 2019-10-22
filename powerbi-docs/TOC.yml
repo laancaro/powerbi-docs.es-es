@@ -353,6 +353,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Objeto visual Matriz
               href: visuals/desktop-matrix-visual.md
+            - name: Objeto visual de Preguntas y respuestas
+              href: visuals/power-bi-visualization-q-and-a.md
             - name: Crear análisis y visualizaciones avanzados con scripts R en Power BI
               href: visuals/service-r-visuals.md
             - name: Gráficos de medidor radial en Power BI
@@ -375,6 +377,22 @@
               href: visuals/power-bi-visualization-waterfall-charts.md
             - name: Creación de líneas de referencia dinámicas
               href: service-analytics-pane.md
+        - name: Lenguaje natural
+          items:
+            - name: Introducción a Preguntas y respuestas
+              href: natural-language/q-and-a-intro.md
+            - name: Objeto visual de Preguntas y respuestas
+              href: visuals/power-bi-visualization-q-and-a.md
+            - name: Introducción a las herramientas de Preguntas y respuestas
+              href: natural-language/q-and-a-tooling-intro.md
+            - name: Preguntas y respuestas de enseñanza de herramientas de Preguntas y respuestas
+              href: natural-language/q-and-a-tooling-teach-q-and-a.md
+            - name: Herramientas avanzadas de Preguntas y respuestas
+              href: natural-language/q-and-a-tooling-advanced.md
+            - name: Procedimientos recomendados de Preguntas y respuestas
+              href: natural-language/q-and-a-best-practices.md
+            - name: Limitaciones de Preguntas y respuestas
+              href: natural-language/q-and-a-limitations.md
         - name: Solucionar problemas
           items:
             - name: Resolver problemas de importación de bases de datos de Access y hojas de cálculo XLS en Power BI Desktop y Power Query
