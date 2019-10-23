@@ -129,6 +129,8 @@
               href: register-app.md
             - name: Obtener un token de acceso de Azure AD
               href: get-azuread-access-token.md
+            - name: Enlace dinámico
+              href: embed-dynamic-binding.md
             - name: Inserción de preguntas y respuestas
               href: qanda.md
             - name: Solución de problemas de una aplicación insertada
