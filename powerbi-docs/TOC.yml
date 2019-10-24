@@ -443,7 +443,7 @@
           href: service-tutorial-use-cognitive-services.md
         - name: Integración de Machine Learning
           href: service-tutorial-invoke-machine-learning-model.md
-        - name: Compilación de un modelo de Machine Learning (versión preliminar)
+        - name: Compilación de un modelo de Machine Learning
           href: service-tutorial-build-machine-learning-model.md
         - name: Actualización de los datos de SQL Server
           href: service-gateway-sql-tutorial.md
@@ -717,7 +717,7 @@
               href: service-machine-learning-integration.md
             - name: Uso de Cognitive Services en Power BI
               href: service-cognitive-services.md
-            - name: Aprendizaje automático automatizado en Power BI (versión preliminar)
+            - name: Machine Learning automatizado en Power BI
               href: service-machine-learning-automated.md
         - name: Linaje de datos
           href: service-data-lineage.md
@@ -1161,6 +1161,8 @@
       href: guidance/import-modeling-data-reduction.md
     - name: función DIVIDE frente al operador de división (/)
       href: guidance/dax-divide-function-operator.md
+    - name: La importancia del plegado de consultas
+      href: guidance/power-query-folding.md
     - name: Uso adecuado de las funciones de error
       href: guidance/dax-error-functions.md
     - name: Prácticas recomendadas para flujos de datos
