@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/16/2019
+ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 35f60c0e41a06c8f13931d158fe092184da8838d
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: bd14437b0833d4c24c37ebeca6524948465bdb1f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69561069"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543993"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formato condicional en tablas 
 Con el formato condicional de tablas, se pueden especificar colores personalizados de las celdas en función de los valores de esas celdas o de otros valores o campos, usando incluso colores de degradado. También puede mostrar valores de celda con barras de datos. 
@@ -140,6 +140,9 @@ Puede usar cualquiera de los valores enumerados en la especificación de color C
 Hay algunas consideraciones que tener en cuenta al trabajar con el formato condicional de tabla:
 
 * El formato condicional solo se aplica a los valores de un objeto visual **Matriz**, y no se aplica a subtotales ni totales generales. 
+* El formato condicional no se aplica a la fila **Total**.
+* Las tablas que no tengan una agrupación se muestran como una sola fila que no admite el formato condicional.
+* Si se usa el formato de degradado con valores mínimos y máximos o un formato basado en reglas con reglas de porcentaje, el formato condicional no se puede aplicar cuando los datos contienen valores NaN. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar estos errores.
 
 
 ## <a name="next-steps"></a>Pasos siguientes

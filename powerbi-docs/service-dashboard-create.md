@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 108882dd0f3b61d6cb19fd18290b44316231f3cb
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020369"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543385"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Introduction to dashboards in Power BI](service-dashboards.md) (Introducción a los paneles de Power BI) y ahora quiere crear los suyos propios. Existen diferentes formas de crear un panel. Por ejemplo, puede crear un panel a partir de un informe, desde cero, a partir de un conjunto de datos o mediante la duplicación de un panel existente.  
@@ -68,9 +68,9 @@ En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de e
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abra el informe y ancle algunos iconos en un panel
 1. En la misma área de trabajo, seleccione la pestaña **Informes** y, a continuación, seleccione **Ejemplo de análisis de adquisiciones** para abrir el informe.
 
-    ![Pestaña de informes](media/service-dashboard-create/power-bi-reports.png) El informe se abre en la Vista de lectura. Tenga en cuenta que tiene dos pestañas en la parte inferior: **Análisis de descuento** e **Información general de gasto**. Cada pestaña representa una página del informe.
+    ![Pestaña de informes](media/service-dashboard-create/power-bi-reports.png) El informe se abre en la Vista de lectura. Fíjese en que tiene dos pestañas a la izquierda: **Análisis de descuento** e **Información general de gasto**. Cada pestaña representa una página del informe.
 
-2. Seleccione **Editar informe** para abrir el informe en la vista de edición.
+2. Seleccione **Más opciones (...)**  > **Editar informe** para abrir el informe en la Vista de edición.
 
     ![Informe en Vista de lectura](media/service-dashboard-create/power-bi-reading-view.png)
 3. Mantenga el mouse sobre una visualización para mostrar las opciones disponibles. Para agregar una visualización a un panel, seleccione el icono de anclaje ![Icono de anclaje](media/service-dashboard-create/power-bi-pin-icon.png).

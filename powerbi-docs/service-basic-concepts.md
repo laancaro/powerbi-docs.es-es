@@ -11,12 +11,12 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ff962335b573c6dd2a03ae5ab4633c1042a77059
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a4c385b9c8e8a28de3b9a5e1dd84651f87ef000
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770781"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72542954"
 ---
 # <a name="basic-concepts-for-designers-in-the-power-bi-service"></a>Conceptos básicos para los diseñadores en el servicio Power BI
 
@@ -33,10 +33,11 @@ Cuando abra el servicio Power BI en un explorador, empezará en su pantalla Inic
 3. Botón Inicio de Power BI
 4. Botones de iconos, incluidos los de configuración, ayuda y comentarios
 5. Cuadro de búsqueda
-6. Mosaicos de un panel favoritos
-7. Informes y paneles favoritos y frecuentes
+6. Áreas de trabajo, informes y paneles favoritos y frecuentes
+7. Áreas de trabajo, informes y paneles recientes
+8. Sus áreas de trabajo
 
-Los usuarios finales de sus informes y paneles tienen la misma experiencia de inicio en el servicio Power BI de un explorador.
+Usted y los usuarios finales de sus informes y paneles tienen la misma experiencia de inicio en el servicio Power BI de un explorador.
 
 Más adelante se explicarán estas características de forma detallada, pero primero analizaremos algunos conceptos de Power BI. O bien, es posible que desee ver este vídeo primero.  En el vídeo, Will da un repaso a los conceptos básicos y muestra el servicio Power BI.
 
@@ -195,8 +196,8 @@ Preguntas y respuestas busca una respuesta en los conjuntos de datos conectados 
 
 Tan pronto como empieza a escribir la pregunta, Preguntas y respuestas lo dirige a la página de Preguntas y respuestas. A medida que escribe, Preguntas y respuestas le ayuda a formular la pregunta correcta y a encontrar la mejor respuesta a través de sus funciones para reformular, autorellenar, hacer sugerencias y mucho más. Cuando tenga una visualización (respuesta) satisfactoria, la puede anclar al panel. Para más información, consulte [Preguntas y respuestas en Power BI](power-bi-q-and-a.md).
 
-### <a name="4-icon-buttons"></a>4. **Botones de iconos**
-Los iconos en la esquina superior derecha son los recursos para las configuraciones, notificaciones, descargas, obtener ayuda y proporcionar comentarios al equipo de Power BI. Seleccione la flecha doble para abrir el panel en modo de **pantalla completa**.  
+### <a name="4-icons-in-the-black-header-bar"></a>4. **Iconos en la barra de encabezado negra**
+Los iconos en la esquina superior derecha dan acceso al equipo de Power BI a las opciones de configuración, notificaciones, descargas, ayuda, activación o desactivación del **Nuevo aspecto** y aportación de comentarios.  
 
 ![botones de iconos](media/service-basic-concepts/power-bi-icons.png)
 
@@ -217,8 +218,8 @@ Si hace clic en **Power BI**, vuelve al inicio de Power BI.
 
    ![“Power BI” en el servicio](media/service-basic-concepts/version-new.png)
 
-### <a name="8-labeled-icon-buttons"></a>8. **Botones de iconos con etiqueta**
-Esta área de la pantalla contiene opciones adicionales para interactuar con el contenido (en este caso, con el panel).  Además de los iconos con etiqueta que puede ver, si selecciona el botón de puntos suspensivos aparecerán opciones para duplicar, imprimir y actualizar el panel, entre otras.
+### <a name="8-labeled-icons-in-the-gray-menu-bar"></a>8. **Iconos con etiqueta en la barra de menús gris**
+Esta área de la pantalla contiene opciones adicionales para interactuar con el contenido (en este caso, con el panel).  Además de los iconos con etiqueta que puede ver, si selecciona **Más opciones (...)** aparecerán opciones para duplicar, imprimir y actualizar el panel, entre otras.
 
    ![Botones de iconos con etiqueta](media/service-basic-concepts/power-bi-labeled-icons.png)
 

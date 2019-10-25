@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: da7652556bc11e47cf238dd969ae1b27e6387299
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: be2304e655adadf20f5d33f46840c5a0cb82aa9f
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968798"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544867"
 ---
 # <a name="add-a-filter-to-a-report-in-power-bi"></a>Incorporación de un filtro a un informe en Power BI
 
@@ -51,11 +51,12 @@ Puede agregar un filtro de nivel de objeto visual a un objeto visual específico
 * Filtre un campo que ya se use en la visualización.
 * Identifique un campo que ya no se utiliza en la visualización y agregue ese campo directamente al cubo **Filtros de nivel de objeto visual**.
 
-Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, por si quiere descargarlo y seguirlo como referencia. [Descargue el ejemplo de análisis de venta al por menor](sample-retail-analysis.md).
+
+Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, por si quiere descargarlo y seguirlo como referencia. Descargue el paquete de contenido de [ejemplo de Análisis de venta al por menor](sample-retail-analysis.md#get-the-content-pack-for-this-sample).
 
 ### <a name="filter-the-fields-in-the-visual"></a>Filtrar los campos en el objeto visual
 
-1. Seleccione **Editar informe** para abrir el informe en Vista de edición.
+1. Seleccione **Más opciones (...)**  > **Editar informe** para abrir el informe en la Vista de edición.
    
    ![Botón Editar informe](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
@@ -85,7 +86,7 @@ Además, este procedimiento usa el ejemplo de Análisis de venta al por menor, p
 
 Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel de objeto visual.
    
-1. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel visual y arrástrelo al área **Filtros de nivel de objeto visual**.  En este ejemplo se arrastra **District Manager** al cubo **Filtros de nivel de objeto visual**, se busca **an** y se seleccionan esos tres administradores. 
+1. En el panel Campos, seleccione el campo que quiere agregar como nuevo filtro de nivel visual y arrástrelo al área **Filtros de nivel de objeto visual**.  En este ejemplo se arrastra **District Manager** al cubo **Filtros de nivel de objeto visual**, se busca **an** y se seleccionan esos tres administradores.
      
     ![Agregar un campo al panel Filtros](media/power-bi-report-add-filter/power-bi-search-add-visual-filter.png)
 
@@ -105,7 +106,9 @@ Ahora vamos a agregar un campo nuevo a la visualización como un filtro de nivel
 
 También puede agregar un filtro de nivel de página para filtrar una página completa.
 
-1. Seleccione **Editar informe** para abrir el informe en Vista de edición.
+1. En el servicio Power BI, abra el informe Retail Analysis (Análisis de venta al por menor) y vaya a la página **District Monthly Sales** (Ventas mensuales por distrito). 
+
+2. Seleccione **...**  > **Editar informe** para abrir el informe en la Vista de edición.
    
    ![Botón Editar informe](media/power-bi-report-add-filter/power-bi-edit-view.png)
 2. Abra el panel Visualizaciones y filtros y el panel Campos (si no están ya abiertos).
@@ -122,19 +125,21 @@ También puede agregar un filtro de nivel de página para filtrar una página co
 Con la obtención de detalles en el servicio Power BI y Power BI Desktop, puede crear una página en el informe de *destino* que se centra en una entidad específica, como un proveedor, un cliente o un fabricante. Ahora, desde las otras páginas del informe, los usuarios hacer clic con el botón derecho en un punto de datos de esa entidad y obtener detalles en la página específica.
 
 ### <a name="create-a-drillthrough-filter"></a>Creación de un filtro de obtención de detalles
-Para poder continuar, descargue el [ejemplo de Rentabilidad de clientes](sample-customer-profitability.md). Supongamos que desea una página que se centra en áreas de negocio ejecutivas.
+Para poder continuar, descargue el [ejemplo de Rentabilidad de clientes](sample-customer-profitability.md#get-the-content-pack-for-this-sample). Supongamos que desea una página que se centra en áreas de negocio ejecutivas.
 
-1. Seleccione **Editar informe** para abrir el informe en la vista de edición.
+1. En el servicio Power BI, abra el informe Retail Analysis (Análisis de venta al por menor) y vaya a la página **District Monthly Sales** (Ventas mensuales por distrito).
+
+2. Seleccione **Más opciones (...)**  > **Editar informe** para abrir el informe en la Vista de edición.
    
    ![Botón Editar informe](media/power-bi-report-add-filter/power-bi-edit-view.png)
 
 1. Agregue una nueva página al informe y asígnele el nombre **Equipo ejecutivo**. Esta será la página de *destino* de la obtención de detalles.
 2. Agregue visualizaciones que realicen el seguimiento de las métricas clave de las áreas de negocios de los equipos ejecutivos.    
-3. Agregue **Ejecutivo > Nombre del ejecutivo** al área de filtros de obtención de detalles.    
+3. En la tabla **Executives** (Ejecutivos), arrastre **Executive** (Ejecutivo) al área de filtros de obtención de detalles.    
    
     ![Agregar un valor a los filtros de obtención de detalles](media/power-bi-report-add-filter/power-bi-drillthrough-filter.png)
    
-    Observe que Power BI agrega una flecha hacia atrás a la página del informe.  Al seleccionar la flecha atrás se devuelve a los usuarios la página del informe *original*, la página en la que estaban cuando seleccionaron la obtención de detalles. La flecha atrás solo funciona en la vista de lectura.
+    Observe que Power BI agrega una flecha hacia atrás a la página del informe.  Al seleccionar la flecha atrás se devuelve a los usuarios la página del informe *original*, la página en la que estaban cuando seleccionaron la obtención de detalles. En la Vista de edición, mantenga presionada la tecla Ctrl para seleccionar la flecha atrás.
    
      ![La flecha Atrás](media/power-bi-report-add-filter/power-bi-back-arrow.png)
 
@@ -145,7 +150,7 @@ Veamos cómo funciona el filtro de obtención de detalles.
 2. Supongamos que es Andrew Ma y desea ver la página del informe del equipo ejecutivo filtrada por sus datos únicamente.  En el gráfico del área superior izquierda, haga clic con el botón derecho en cualquier punto de datos de color verde para abrir la opción de menú Obtención de detalles.
    
     ![Iniciar la acción de obtención de detalles](media/power-bi-report-add-filter/power-bi-drillthrough.png)
-3. Seleccione **Obtención de detalles > Equipo ejecutivo** para la obtención de detalles en la página del informe llamada **Equipo ejecutivo**. La página se filtra para mostrar información acerca del punto de datos desde el que se hizo clic con el botón derecho, en este caso, Andrew Ma. Solo el campo que se encuentra en el área Filtros de obtención de detalles lleva a la página de obtención de detalles del informe.  
+3. Seleccione **Obtención de detalles > Equipo ejecutivo** para la obtención de detalles en la página del informe llamada **Equipo ejecutivo**. La página se filtra para mostrar información acerca del punto de datos desde el que se hizo clic con el botón derecho, en este caso, Andrew Ma. Los filtros de la página de origen se aplican a la página del informe de obtención de detalles.  
    
     ![Seleccionar la acción de obtención de detalles](media/power-bi-report-add-filter/power-bi-drillthrough-executive.png)
 

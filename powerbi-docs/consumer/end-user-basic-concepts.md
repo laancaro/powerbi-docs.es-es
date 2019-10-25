@@ -9,19 +9,19 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/17/2019
+ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 2e41a3f5b1d1bd945e1ab4566abed1589b20c148
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 2b9fd3fc971d2cf73aabb2033d3a64565333bc67
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67264723"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72543730"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceptos básicos para consumidores de Power BI
 
-En este artículo se asume que ha leído la [introducción a Power BI](../power-bi-overview.md) y se ha identificado como ***consumidor*** de Power BI. Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
+En este artículo se da por hecho que ha leído la [introducción a Power BI](../power-bi-overview.md) y se ha identificado como [***consumidor***de Power BI](end-user-consumer.md). Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
 
 Seguro que ha oído hablar de "Power BI Desktop" o simplemente de "Desktop". Es la herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted. Es importante saber que existen otras herramientas de Power BI. Mientras sea consumidor, solo trabajará con el servicio Power BI. Este artículo se aplica solo al servicio Power BI.
 
@@ -35,7 +35,7 @@ La mayor parte de los consumidores de Power BI obtienen el servicio Power BI p
 
 Para empezar, abra un explorador y escriba **app.powerbi.com**. La primera vez que abra el servicio Power BI, verá algo parecido a esto:
 
-![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-basic-concepts/power-bi-open.png)
+![Captura de pantalla de la pantalla de bienvenida del servicio Power BI.](media/end-user-basic-concepts/power-bi-home.png)
 
 Con el uso de Power BI, podrá personalizar lo que vea cada vez que abra el sitio web. Por ejemplo, a algunos usuarios les gusta que Power BI abra la página **principal**, mientras que otros quieren ver en primer lugar su panel preferido. No se preocupe, este artículo le mostrará cómo personalizar su experiencia.
 
@@ -87,9 +87,9 @@ Cada conjunto de datos representa un único origen de datos. Por ejemplo, el ori
 
 Cuando un diseñador comparte una aplicación con usted, puede ver qué conjuntos de datos incluyó el diseñador con la aplicación.
 
-![Captura de pantalla de la interfaz de usuario de Power BI que muestra las aplicaciones seleccionadas y una flecha que apunta a la sección de conjuntos de datos en el lienzo.](media/end-user-basic-concepts/power-bi-dataset-list.png)
+![Captura de pantalla de la interfaz de usuario de Power BI y una flecha que apunta a la sección de conjuntos de datos en el lienzo](media/end-user-basic-concepts/power-bi-dataset-lists.png)
 
-El conjunto de datos...
+Un conjunto de datos...
 
 - se puede usar una y otra vez por un diseñador de informes para crear paneles e informes.
 
@@ -98,10 +98,6 @@ El conjunto de datos...
 - los objetos visuales de ese conjunto de datos pueden aparecer en muchos paneles diferentes.
 
   ![Un gráfico que muestra un conjunto de datos con relaciones de varios a uno](media/end-user-basic-concepts/drawing2.png)
-
-Además, los diseñadores pueden utilizar conjuntos de datos de otras áreas de trabajo para crear contenido (informes, paneles) en el área de trabajo. Power BI muestra estos conjuntos de datos mediante el icono del conjunto de datos al que se hace referencia:
-
-![Captura de pantalla del icono de una base de datos con vínculo.](media/end-user-basic-concepts/power-bi-dataset-reference-icon.png)
 
 En el siguiente bloque de creación, visualizaciones.
 
@@ -131,7 +127,7 @@ _______________________________________________________
 
 Un informe de Power BI se compone de una o más páginas de visualizaciones, gráficos y texto. Todas las visualizaciones de un informe proceden de un único conjunto de datos. Los *diseñadores* comparten informes con los *consumidores* que [interactúan con los informes en la *Vista de lectura*](end-user-reading-view.md).
 
-![Captura de pantalla de un informe con pestañas.](media/end-user-basic-concepts/power-bi-report2.png)
+![Captura de pantalla de un informe con pestañas.](media/end-user-basic-concepts/power-bi-report.png)
 
 Un informe...
 
@@ -151,7 +147,7 @@ Un panel representa una vista personalizada de un subconjunto de los conjuntos d
 
   ![Captura de pantalla de un panel de ejemplo](media/end-user-basic-concepts/power-bi-dashboard.png)
 
-Un icono es una representación de un objeto visual que un *diseñador* *ancla*, por ejemplo, de un informe a un panel. Cada icono anclado muestra una [visualización](end-user-visualizations.md) que creó Power BI a partir de un conjunto de datos y ancló al panel. Un icono puede contener también una página de informe completa y puede contener datos de streaming en vivo o un vídeo. Los *diseñadores* tienen muchas maneras de agregar iconos a los paneles. Son demasiadas para tratarlas todas en este artículo de información general. Para más información, vea [Iconos del panel en Power BI](end-user-tiles.md).
+Un icono es una representación de un objeto visual que un *diseñador* *ancla*, por ejemplo, de un informe a un panel. Cada icono anclado muestra una [visualización](end-user-visualizations.md) que un diseñador creó a partir de un conjunto de datos y ancló al panel. Un icono puede contener también una página de informe completa y puede contener datos de streaming en vivo o un vídeo. Los *diseñadores* tienen muchas maneras de agregar iconos a los paneles. Son demasiadas para tratarlas todas en este artículo de información general. Para más información, vea [Iconos del panel en Power BI](end-user-tiles.md).
 
 Los consumidores no pueden modificar los paneles. Sin embargo, en relación con un panel, puede agregar comentarios, ver datos relacionados, establecerlo como favorito, subscribirse, etc.
 
@@ -183,7 +179,7 @@ _______________________________________________________
 
 Estas colecciones de paneles e informes organizan contenido relacionado entre sí en un único paquete. Los *diseñadores* de Power BI los compilan y comparten con usuarios, grupos, toda una organización o el público. Como consumidor, puede estar seguro de que usted y sus compañeros están trabajando con los mismos datos; una única versión de confianza del contenido real.
 
-![Captura de pantalla de las aplicaciones seleccionadas en el panel izquierdo de Power BI.](media/end-user-basic-concepts/power-bi-app.png)
+![Captura de pantalla de las aplicaciones seleccionadas en el panel izquierdo de Power BI.](media/end-user-basic-concepts/power-bi-apps.png)
 
 Es muy fácil buscar e instalar aplicaciones en el [servicio Power BI](https://powerbi.com) y en el dispositivo móvil. Después de instalar una aplicación, no tiene que recordar los nombres de muchos paneles diferentes. Estarán todos agrupados en una aplicación, en el explorador o en el dispositivo móvil.
 

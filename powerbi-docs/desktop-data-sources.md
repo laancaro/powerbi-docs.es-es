@@ -7,15 +7,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/19/2019
+ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 417238550f68a1c244bab33b8343712f02242eae
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945279"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307840"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -225,6 +225,201 @@ Cuando se escribe la información de conexión de recurso o la dirección URL, s
 Puede cargar los datos seleccionando el botón **Cargar** situado en la parte inferior del panel **Navegador** , o bien editar la consulta antes de cargar datos seleccionando el botón **Editar** .
 
 Eso es todo lo que se necesita para conectarse a orígenes de datos en Power BI Desktop. Intente conectarse a datos de nuestra lista de orígenes de datos en crecimiento y vuelva a consultarla con frecuencia, debido a que siempre agregamos elementos a esta lista.
+
+## <a name="using-pbids-files-to-get-data"></a>Usar archivos PBIDS para obtener datos
+
+Los archivos PBIDS son archivos de Power BI Desktop con una estructura específica. Tienen la extensión .PBIDS para identificarlos como archivo de origen de datos de Power BI.
+
+Un archivo .PBIDS se puede crear para optimizar la experiencia **Obtener datos** de los creadores de informes de la organización. Se recomienda que los administradores creen estos archivos para las conexiones que se usan con frecuencia, ya que ello facilita el uso de archivos PBIDS a los nuevos autores de informes. 
+
+Cuando un autor abre un archivo .PBIDS, Power BI Desktop se abre y pide al usuario las credenciales para autenticarse y conectarse al origen de datos especificado en el archivo. El cuadro de diálogo Navegación se abre, y el usuario debe seleccionar las tablas del origen de datos que quiera cargar en el modelo. Puede que también deba seleccionar las bases de datos si no hay ninguna especificada en el archivo .PBIDS. 
+
+A partir de ese momento, el usuario puede empezar a crear visualizaciones o volver a visitar *Orígenes recientes para cargar un nuevo conjunto de tablas en el modelo. 
+
+Actualmente, los archivos .PBIDS solo admiten un único origen de datos en un archivo. Si se especifica más de un origen de datos, se producirá un error. 
+
+Para crear el archivo .PBIDS, los administradores deben especificar las entradas necesarias relativas a una sola conexión y, asimismo, especificar el modo de esa conexión, ya sea **DirectQuery** o **Importar**. Si el **modo** no existe o es nulo en el archivo, se pedirá al usuario que abre el archivo en Power BI Desktop que seleccione DirectQuery o Importar. 
+
+### <a name="pbids-file-examples"></a>Ejemplos de archivos PBIDS
+
+En esta sección se proporcionan algunos ejemplos de orígenes de datos de uso frecuente. El tipo de archivo .PBIDS solo admite las conexiones de datos que también se admiten en Power BI Desktop, salvo dos excepciones: las conexiones dinámicas y las consultas en blanco. 
+
+El archivo .PBIDS *no* incluye información de autenticación ni de tablas y esquemas.  
+
+Estos son algunos ejemplos comunes de archivos .PBIDS, pero no representan una muestra completa ni exhaustiva. En el caso de otros orígenes de datos, puede consultar el [formato de referencia de origen de datos (DSR)](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) para obtener información sobre protocolos y direcciones.
+
+Estos ejemplos se muestran aquí solo para su comodidad, y no están diseñados para ser integrales ni incluyen todos los conectores admitidos en formato DSR. Los administradores u organizaciones pueden crear sus propios orígenes de datos tomando estos ejemplos como guía y arrancar desde ahí para crear y admitir sus propios archivos de origen de datos. 
+
+
+**Azure AS**
+```
+{ 
+    "version": "0.1", 
+    "connections": [ 
+    { 
+        "details": { 
+        "protocol": "analysis-services", 
+        "address": { 
+            "server": "server-here" 
+        }, 
+        } 
+    } 
+    ] 
+}
+```
+
+
+ 
+
+**Carpeta**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "folder", 
+        "address": { 
+            "path": "folder-path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+
+**OData**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "odata", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP BW**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-bw-olap", 
+        "address": { 
+          "server": "server-name-here", 
+          "systemNumber": "system-number-here", 
+          "clientId": "client-id-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+**SAP Hana**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sap-hana-sql", 
+        "address": { 
+          "server": "server-name-here:port-here" 
+        }, 
+      } 
+    } 
+  ] 
+} 
+```
+
+**Lista de SharePoint**
+
+La dirección URL debe apuntar al sitio de SharePoint en sí, y no a una lista dentro del sitio. Los usuarios obtienen un navegador que les permite seleccionar una o más listas de ese sitio, cada una de las cuales se convierte en una tabla del modelo. 
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "sharepoint-list", 
+        "address": { 
+          "url": "URL-here" 
+        }, 
+       } 
+    } 
+  ] 
+} 
+```
+ 
+ 
+**SQL Server**
+```
+{ 
+  “version”: “0.1”, 
+  “connections”: [ 
+    { 
+      “details”: { 
+        “protocol”: “tds”, 
+        “address”: { 
+          “server”: “server-name-here”, 
+          “database”: “db-name-here (optional)” 
+        } 
+      }, 
+      “options”: {}, 
+      “mode”: “DirectQuery” 
+    } 
+  ] 
+} 
+} 
+```
+ 
+
+**Archivo de texto**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "file", 
+        "address": { 
+            "path": "path-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+**Web**
+```
+{ 
+  "version": "0.1", 
+  "connections": [ 
+    { 
+      "details": { 
+        "protocol": "http", 
+        "address": { 
+            "url": "URL-here" 
+        } 
+      } 
+    } 
+  ] 
+} 
+```
+ 
+
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:

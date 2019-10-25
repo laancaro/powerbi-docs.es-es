@@ -7,16 +7,16 @@ ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
-ms.topic: conceptual
+ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c1df7e6293db703922f37c3f28546bb296d1a46a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66050993"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544290"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
@@ -67,14 +67,14 @@ Este suele ser un problema transitorio. Si vuelve a intentarlo más tarde y se s
 
 **Los iconos siguen mostrando datos sin filtrar después de habilitar el inicio de sesión único (SSO).**
 
-Esto puede ocurrir si el conjunto de datos subyacente está configurado para usar el modo DirectQuery o una conexión dinámica a Analysis Services a través de una puerta de enlace de datos en el entorno local. En este caso, los iconos con mostrar los datos sin filtrar después de habilitar el inicio de sesión único para el origen de datos hasta que vence la próxima actualización de icono. En la siguiente actualización de icono, Power BI usa el inicio de sesión único como se ha configurado y los iconos se muestran los datos filtrados según la identidad del usuario. 
+Esto puede ocurrir si el conjunto de datos subyacente está configurado para usar el modo DirectQuery o una conexión dinámica a Analysis Services a través de una puerta de enlace de datos local. En este caso, los iconos siguen mostrando los datos sin filtrar después de habilitar el inicio de sesión único en el origen de datos hasta que llegue el momento de la siguiente actualización de iconos. En la siguiente actualización de iconos, Power BI usa SSO según está configurado, y los iconos muestran los datos filtrados de acuerdo con la identidad del usuario. 
 
-Si desea ver los datos filtrados de forma inmediata, puede forzar una actualización de icono, seleccione el botón de puntos suspensivos (...) en la esquina superior derecha de un panel y seleccione **Actualizar iconos del panel**.
+Si quiere ver los datos filtrados inmediatamente, puede forzar la actualización de los iconos; para ello, seleccione los puntos suspensivos (...) en la parte superior derecha de un panel y, seguidamente, seleccione **Actualizar iconos de panel**.
 
-Como propietario de un conjunto de datos, también puede cambiar la frecuencia de actualización de icono y establézcalo en 15 minutos para acelerar la actualización del icono. Seleccione el icono de engranaje en la esquina superior derecha del servicio Power BI y luego seleccione **configuración**. En el **configuración** página, seleccione el **conjuntos de datos** ficha. Expanda **actualización de caché programada** y cambiar **frecuencia de actualización**. Asegúrese de que restablecer la configuración original de la frecuencia de actualización después de que Power BI realiza la siguiente actualización de icono.
+Como propietario de un conjunto de datos, puede cambiar también la frecuencia de actualización de los iconos y establecerla en 15 minutos para adelantar la actualización de los iconos. Seleccione el icono de engranaje de la esquina superior derecha del servicio Power BI y, luego, **Configuración**. En la página **Configuración**, seleccione la pestaña **Conjuntos de datos**. Expanda **Actualización de caché programada** y cambie el valor de **Frecuencia de actualización**. Asegúrese de restablecer la configuración a la frecuencia de actualización original después de que Power BI haya realizado la siguiente actualización de iconos.
 
 > [!NOTE]
-> El **actualización de caché programada** sección solo está disponible para conjuntos de datos en modo de DirectQuery/LiveConnection. Conjuntos de datos en modo de importación no requieren una actualización de los iconos independientes porque los iconos se actualizan automáticamente durante la siguiente actualización de datos programada.
+> La sección **Actualización de caché programada** solo está disponible en los conjuntos de datos en el modo DirectQuery/conexión dinámica. Los conjuntos de datos en el modo de importación no requieren una actualización de iconos aparte, ya que los iconos se actualizan automáticamente durante la siguiente actualización de datos programada.
 
 ## <a name="contact-support"></a>Ponerse en contacto con soporte técnico
 Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](https://support.powerbi.com) para que lo investiguen con más detalle.

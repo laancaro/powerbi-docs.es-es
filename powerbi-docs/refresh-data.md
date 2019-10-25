@@ -7,15 +7,15 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 7492651d2b5be8a63c97594fce3f3399b1122cc3
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325030"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307950"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -85,7 +85,7 @@ Una operación de actualización de Power BI puede constar de varios tipos de ac
 
 | Modo de almacenamiento | Actualización de datos | Actualización de OneDrive | Memorias caché de consultas | Actualización de iconos | Objetos visuales de informes |
 | --- | --- | --- | --- | --- | --- |
-| Importar | A petición y programada | Sí, para los conjuntos de datos conectados | Si están habilitadas en la capacidad Premium | Automáticamente y a petición | No |
+| Importación | A petición y programada | Sí, para los conjuntos de datos conectados | Si están habilitadas en la capacidad Premium | Automáticamente y a petición | No |
 | DirectQuery | No aplicable | Sí, para los conjuntos de datos conectados | Si están habilitadas en la capacidad Premium | Automáticamente y a petición | No |
 | LiveConnect | No aplicable | Sí, para los conjuntos de datos conectados | Si están habilitadas en la capacidad Premium | Automáticamente y a petición | Sí |
 | Insertar | No aplicable | No aplicable | No son prácticas | Automáticamente y a petición | No |
@@ -309,6 +309,13 @@ El icono de advertencia ayuda a indicar problemas del conjunto de datos actual, 
 > [!NOTE]
 > Encontrará un vínculo al historial de actualizaciones en la configuración del conjunto de datos. También puede recuperar el historial de actualizaciones mediante programación utilizando la [API REST de Power BI](/rest/api/power-bi/datasets/getrefreshhistoryingroup). Usar una solución personalizada permite supervisar el historial de actualizaciones de varios conjuntos de datos de forma centralizada.
 
+## <a name="automatic-page-refresh"></a>Actualización automática de páginas
+
+La actualización automática de páginas funciona en el nivel de página de informe, y permite a los autores de informes establecer un intervalo de actualización de los objetos visuales de una página que solo está activo cuando la página se está usando. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery. El intervalo de actualización mínimo depende del tipo de área de trabajo en la que el informe se publica y de la configuración de administración de capacidad de las áreas de trabajo Premium.
+
+Obtenga más información sobre la actualización automática de páginas en el artículo [Actualización automática de la página](desktop-automatic-page-refresh.md).
+
+
 ## <a name="best-practices"></a>Procedimientos recomendados
 
 Comprobar el historial de actualizaciones de los conjuntos de datos con regularidad es uno de los procedimientos recomendados más importantes que puede adoptar para asegurarse de que los informes y los paneles usan datos actualizados. Si detecta problemas, soluciónelos con prontitud y realice un seguimiento con los propietarios del origen de datos y los administradores de la puerta de enlace, si es necesario.
@@ -324,6 +331,7 @@ Además, tenga en cuenta las siguientes recomendaciones para establecer y manten
 - Utilice una implementación de puerta de enlace de datos de empresa de confianza para conectar los conjuntos de datos a orígenes de datos locales. Si observa errores de actualización relacionados con la puerta de enlace, por ejemplo, la puerta de enlace no está disponible o está sobrecargada, consulte con los administradores de la puerta de enlace para agregar otras puertas de enlace a un clúster existente o implementar un nuevo clúster (escalado vertical frente a escalado horizontal).
 - Use puertas de enlace de datos independientes para los conjuntos de datos de importación y los conjuntos de datos DirectQuery o LiveConnect, para que las importaciones de datos durante la actualización programada no afecten al rendimiento de los informes y paneles que usan conjuntos de datos en los modos DirectQuery o LiveConnect y que consultan los orígenes de datos con cada interacción del usuario.
 - Asegúrese de que Power BI puede enviar notificaciones de error de actualización a su buzón. Los filtros de correo basura podrían bloquear los mensajes de correo electrónico o moverlos a una carpeta diferente donde es posible que no los vea.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 

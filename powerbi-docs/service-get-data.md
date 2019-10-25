@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 21a7bf05330373febe1e9f121f07df6de0779c69
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e6b0d7db9f82d8bc68f230858799f6afbcad1c82
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70200955"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511664"
 ---
 # <a name="data-sources-for-the-power-bi-service"></a>Orígenes de datos del servicio Power BI
 Los datos son la esencia de Power BI. Supongamos que va a explorar datos. Puede hacerlo creando gráficos y paneles o planteando preguntas con **preguntas y respuestas**. Las visualizaciones y respuestas que vea obtienen los datos subyacentes de un conjunto de datos. Pero, ¿de dónde procede ese conjunto de datos? Proceden de un origen de datos.
@@ -111,7 +111,11 @@ La actualización de los datos es una parte muy importante de Power BI, y es un 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Las siguientes consideraciones y limitaciones se aplican a todos los orígenes de datos que se usan en el servicio Power BI. Hay otras limitaciones que atañen a determinadas características, pero la siguiente lista es válida para todo el servicio Power BI:
 
-* **Límite de tamaño del conjunto de datos**: todos los conjuntos de datos del servicio Power BI tienen un límite de 1 GB.
-* **Límite de filas**: el número máximo de filas del conjunto de datos cuando no se usa **DirectQuery** es 2 000 millones. Tres de esas filas están reservadas y, por lo tanto, el número máximo utilizable es 1 999 999 997 filas. El número máximo de filas cuando se usa **DirectQuery** es 1 millón.
-* **Límite de columnas**: el número máximo de columnas que se permiten en un conjunto de datos, en todas las tablas del conjunto de datos, es 16 000 columnas. Este límite se aplica al servicio Power BI y a los conjuntos de datos que se usan en Power BI Desktop. Power BI usa una columna interna de número de fila por cada tabla del conjunto de datos, lo que significa que el número máximo de columnas es 16 000, menos una por cada tabla que se use en el conjunto de datos.
+* **Límite de tamaño del conjunto de datos**: los conjuntos de datos del servicio Power BI almacenados en capacidades compartidas tienen un límite de 1 GB. Si necesita conjuntos de datos de mayor tamaño, puede usar [Power BI Premium](service-premium-what-is.md).
+
+* **Valores distintos en una columna**: cuando se almacenan datos en caché en un conjunto de datos de Power BI (a veces denominado modo "de importación"), el número de valores distintos que se pueden almacenar en una columna es de 1 999 999 997.
+
+* **Límite de filas** : cuando se usa **DirectQuery**, Power BI impone un límite en los resultados de consulta que se envían al origen de datos subyacente. Si la consulta enviada al origen de datos devuelve más de un millón de filas, verá un error y la consulta no se tramitará. En cambio, los datos subyacentes sí pueden contener más de un millón de filas. No es probable que se encuentre con este límite, ya que la mayoría de los informes agregan los datos en conjuntos de resultados más pequeños.
+
+* **Límite de columnas**: el número máximo de columnas que se permiten en un conjunto de datos, en todas las tablas del conjunto de datos, es 16 000 columnas. Este límite se aplica al servicio Power BI y a los conjuntos de datos que se usan en Power BI Desktop. Power BI realiza un seguimiento del número de columnas y tablas del conjunto de registros de esta manera, lo que significa que el número máximo de columnas es 16 000 menos uno por cada tabla del conjunto de datos.
 

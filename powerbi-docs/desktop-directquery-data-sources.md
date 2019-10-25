@@ -8,14 +8,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/16/2019
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 75b7a606e588ca7f6d1393c5b6e0dd9041f6d63e
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: a9e8d2aaab7c0b3ed1daea32486260d09bc6f6a2
+ms.sourcegitcommit: 83e1e162a037f352e542bd5c198a3c98f5db23c7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71945196"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72511638"
 ---
 # <a name="data-sources-supported-by-directquery-in-power-bi"></a>Orígenes de datos admitidos por DirectQuery en Power BI
 
@@ -44,7 +44,7 @@ Los siguientes orígenes de datos admiten DirectQuery en Power BI:
 * SAP HANA
 * Snowflake
 * Spark (versión 0.9 y posteriores)
-* SQL Server
+* SQL Server
 * Teradatos
 * Vertica
 
@@ -76,7 +76,7 @@ La tabla siguiente especifica si se requiere una **puerta de enlace de datos loc
 | Base de datos de Oracle |Sí |
 | PostgreSQL |Sí |
 | Servidor de aplicaciones de SAP Business Warehouse |Sí |
-| Servidor de mensajería de SAP Business Warehouse |Aún no se admite en el **servicio Power BI** |
+| Servidor de mensajería de SAP Business Warehouse |Sí |
 | SAP HANA |Sí |
 | Snowflake |Sí |
 | Spark (Beta), versiones 0.9 y posteriores |Sí |
@@ -97,8 +97,9 @@ La opción SSO surte efecto en todos los conjuntos de datos que usan este origen
 - Impala
 - SAP HANA
 - SAP BW
+- Servidor de mensajes de SAP BW (versión preliminar)
 - Spark
-- SQL Server
+- SQL Server
 - Teradatos
 
 > [!Note]

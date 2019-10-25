@@ -9,18 +9,18 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 3/27/2019
-ms.openlocfilehash: 44534f2adbc4f1f39a0c65e11d646fd8fd67be71
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 1841311e94ca593093fa3104b615328927365880
+ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71944820"
+ms.lasthandoff: 10/14/2019
+ms.locfileid: "72307658"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Publicación de objetos visuales de Power BI en AppSource
 
 Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
 
-Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para obtener más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md).
+Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para obtener más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md).
 
    ![Tienda Office](media/office-store/appsource-01.png)
 
@@ -30,7 +30,7 @@ Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppS
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 
-Cuando acabe de leer nuestras [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md), de programar, de [probar su objeto visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y de empaquetarlo en un archivo pbiviz, también debe tener lo siguiente listo para enviarlo.
+Cuando acabe de leer nuestras [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md), de programar, de [probar su objeto visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y de empaquetarlo en un archivo pbiviz, debe tener lo siguiente listo también para realizar el envío.
 
 | Artículo | Obligatoria | Descripción |
 | --- | --- | --- |
@@ -147,7 +147,7 @@ Una vez creado el objeto visual, si lo desea, puede obtener su certificación. E
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Desarrollo de objetos visuales personalizados de Power BI](custom-visual-develop-tutorial.md)  
+[Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md)  
 [Visualizaciones en Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizaciones personalizadas en Power BI](../power-bi-custom-visuals.md)  
 [Obtención de un objeto visual personalizado *certificado*](../power-bi-custom-visuals-certified.md)

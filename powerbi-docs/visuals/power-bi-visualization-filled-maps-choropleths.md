@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 06/19/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 0123d8123170cfa78b3d13a55ed2f367af0447ae
-ms.sourcegitcommit: 90aa7ea5fcc7cf0fd7f6c3c1efeff5f27e8ef0dd
+ms.openlocfilehash: 2befce7914fc295ff4a6124be10183d5ff20106d
+ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/20/2019
-ms.locfileid: "67299364"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "72544297"
 ---
 # <a name="filled-maps-choropleths-in-power-bi"></a>Mapas coropléticos en Power BI
+
+[!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
+
 Los mapas coropléticos usan sombreado, tintes o patrones para mostrar las diferencias de un valor en proporción en una ubicación geográfica o región.  Muestre rápidamente estas diferencias relativas con sombreados que va del claro (valores menos frecuentes o inferiores) a oscuro (más frecuentes o superiores).    
 
 ![Mapa de EE. UU.](media/power-bi-visualization-filled-maps-choropleths/large-map.png)
@@ -44,27 +47,24 @@ Los mapas coropléticos son una excelente opción:
 * Para obtener una visión general de la distribución en las ubicaciones geográficas.
 
 ### <a name="prerequisites"></a>Requisitos previos
-- Servicio Power BI o Power BI Desktop
-- Ejemplo de marketing y ventas
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
+1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
+   
+2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 
-Para continuar, el tutorial utiliza el servicio Power BI, no Power BI Desktop.
+1. Abra el **archivo PBIX del Ejemplo de análisis de minoristas** en la vista de informe ![Captura de pantalla del icono de vista de informe](media/power-bi-visualization-kpi/power-bi-report-view.png).
+
+1. Seleccionar ![Captura de pantalla de la pestaña amarilla.](media/power-bi-visualization-kpi/power-bi-yellow-tab.png) para agregar una nueva página.
+
 
 ## <a name="create-a-basic-filled-map"></a>Crear un mapa coroplético básico
 En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
+   > [!NOTE]
+   > En este vídeo se usa una versión anterior de Power BI Desktop.
+   > 
+   > 
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ajTPGNpthcg" frameborder="0" allowfullscreen></iframe>
-
-### <a name="get-data-and-add-a-new-blank-page-to-the-report"></a>Obtención de datos y adición de una nueva página en blanco al informe
-1. Para crear su propio mapa coroplético, [descargue el ejemplo de marketing y ventas](../sample-datasets.md). Para ello, inicie sesión en Power BI y seleccione **Obtener datos \> Ejemplos \> Ventas y marketing \> Conectar**. También puede obtener la aplicación **Ventas y Marketing Power BI** en appsource.com. 
-
-2. Abra el informe de Ventas y Marketing.
-
-   ![Se abre el informe de ventas y marketing](media/power-bi-visualization-filled-maps-choropleths/power-bi-report-canvas.png)
-3. Power BI abre el informe. Haga clic en **Editar informe** para abrir el informe en [Vista de edición](../service-interact-with-a-report-in-editing-view.md).
-
-4. Para agregar una página nueva, haga clic en el icono de signo de suma de color amarillo de la parte inferior del lienzo del informe.
-
-    ![Pestañas de informe](media/power-bi-visualization-filled-maps-choropleths/power-bi-new-page.png)
 
 ### <a name="create-a-filled-map"></a>Creación de un mapa coroplético
 1. En el panel Campos, seleccione el campo **Zona geográfica** \> **Estado**.    
@@ -75,9 +75,9 @@ En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
    ![Plantillas con el icono de mapa coroplético resaltado](media/power-bi-visualization-filled-maps-choropleths/img003.png)
 3. Filtre el mapa para mostrar solo el territorio continental de Estados Unidos.
 
-   a.  En la parte inferior del panel Visualizaciones, busque el área **Filtros** .
+   a.  En la parte izquierda del panel Visualizaciones, busque el panel **Filtros**. Expándalo si está minimizado.
 
-   b.  Pase el mouse sobre **Estado** y haga clic en el botón de contenido adicional.  
+   b.  Mantenga el puntero sobre **Estado** y seleccione el botón de contenido adicional.  
    ![Filtros de nivel de objeto visual que muestran Estado (Todos)](media/power-bi-visualization-filled-maps-choropleths/img004.png)
 
    c.  Coloque una marca de verificación junto a **Todos** y quite la marca de verificación junto a **AK**.
@@ -115,11 +115,11 @@ Al resaltar una ubicación en un mapa coroplético, se realiza un filtrado cruza
 
     ![Pestaña Opiniones seleccionada](media/power-bi-visualization-filled-maps-choropleths/power-bi-sentiment-tab.png)
 
-4. Mueva y cambie el tamaño de las visualizaciones de la página para hacer espacio, y después presione CTRL-V para pegar el mapa coroplético del informe anterior.
+4. Mueva y cambie el tamaño de las visualizaciones de la página para hacer espacio, y después presione CTRL-V para pegar el mapa coroplético del informe anterior. (Vea las siguientes imágenes).
 
    ![Mapa coroplético agregado a la página Opinión](media/power-bi-visualization-filled-maps-choropleths/power-bi-map.png)
 
-5. En el mapa coroplético, seleccione un estado.  Esto resalta las demás visualizaciones de la página. Al seleccionar **Texas**, por ejemplo, se muestra que la opinión es 74, que Texas está en el distrito Central \#23.   
+5. En el mapa coroplético, seleccione un estado.  Esto realiza un resaltado y un filtro cruzados de las demás visualizaciones de la página. Al seleccionar **Texas**, por ejemplo, se muestra que la opinión es 75, que Texas está en el distrito Central n.º 23.   
    ![Texas seleccionado](media/power-bi-visualization-filled-maps-choropleths/power-bi-texas.png)
 2. Seleccione un punto de datos en el gráfico de líneas VanArsdel - Opinión por mes. Al hacerlo, se filtra el mapa coroplético para mostrar los datos de opinión de VanArsdel y no de la competencia.  
    ![Nuevo sombreado](media/power-bi-visualization-filled-maps-choropleths/power-bi-yes.png)
