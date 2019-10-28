@@ -1,4 +1,5 @@
-- name: "Power\_BI para desarrolladores"
+- name: Documentación para desarrolladores de Power BI
+  href: index.yml
   items:
     - name: Información general
       expanded: true

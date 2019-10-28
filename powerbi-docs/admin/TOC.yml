@@ -1,4 +1,6 @@
-- name: "Administración de Power\_BI"
+- name: Documentación para administradores de Power BI
+  href: index.yml
+  expanded: true
   items:
     - name: Información general
       expanded: true
@@ -8,7 +10,7 @@
     - name: Conceptos
       expanded: true
       items:
-        - name: Rol de administración en Office 365
+        - name: Rol de administración en Microsoft 365
           href: ../service-admin-role.md
         - name: Preguntas más frecuentes (P+F)
           href: ../service-admin-faq.md
@@ -22,9 +24,9 @@
               href: ../service-admin-licensing-organization.md
             - name: Comprar Power BI Pro
               href: ../service-admin-purchasing-power-bi-pro.md
-            - name: Registro con una evaluación gratuita de Office 365
+            - name: Registro con una versión de prueba de Microsoft 365
               href: ../service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md
-            - name: Agregar Power BI con un asociado de Office 365
+            - name: Adición de Power BI con un asociado de Microsoft 365
               href: ../service-admin-syndication-partner.md
         - name: Uso del portal de administración
           href: ../service-admin-portal.md
@@ -32,19 +34,19 @@
           href: ../service-admin-where-is-my-tenant-located.md
         - name: Búsqueda de usuarios que hayan iniciado sesión
           href: ../service-admin-access-usage.md
-        - name: Auditoría de Power BI
+        - name: Auditoría
           href: ../service-admin-auditing.md
         - name: Seguimiento de estado del servicio
           href: ../service-admin-health.md
-        - name: Cierre de la cuenta de Power BI
+        - name: Cierre de la cuenta
           href: ../service-admin-closing-your-account.md
-        - name: Power BI y ExpressRoute
+        - name: ExpressRoute
           href: ../service-admin-power-bi-expressroute.md
         - name: Uso de Azure AD B2B
           href: ../service-admin-azure-ad-b2b.md
-        - name: Seguridad de nivel de fila con Power BI
+        - name: Seguridad de nivel de fila
           href: ../service-admin-rls.md
-        - name: Área de trabajo de archivado de Power BI
+        - name: Área de trabajo de archivada
           href: ../service-admin-power-bi-archived-workspace.md
         - name: Configurar aplicaciones móviles con Intune
           href: ../service-admin-mobile-intune.md
