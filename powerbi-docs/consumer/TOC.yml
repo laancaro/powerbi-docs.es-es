@@ -48,6 +48,8 @@
               href: end-user-report-open.md
             - name: Cambio en el modo de mostrar los informes
               href: end-user-report-view.md
+            - name: Cambiar el criterio de ordenación en un objeto visual
+              href: end-user-change-sort.md
             - name: Usar filtros en un informe
               href: end-user-report-filter.md
             - name: Más información sobre cómo los objetos visuales del informe tienen filtros cruzados entre sí
