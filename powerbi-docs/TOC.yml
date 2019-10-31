@@ -415,10 +415,20 @@
           href: desktop-latest-update-archive.md
         - name: Power BI Desktop Enviar una sonrisa Declaración de privacidad
           href: desktop-send-smile-privacy-statement.md
-        - name: Accesibilidad en los informes de Power BI
-          href: desktop-accessibility.md
         - name: Administrar el formulario de inicio de sesión de Power BI Desktop
           href: desktop-admin-sign-in-form.md
+        - name: Accesibilidad
+          items:
+            - name: "Información general sobre accesibilidad en Power\_BI"
+              href: desktop-accessibility-overview.md
+            - name: "Creación de informes accesibles en Power\_BI"
+              href: desktop-accessibility-creating-reports.md
+            - name: "Consumo de informes de Power\_BI con herramientas de accesibilidad"
+              href: desktop-accessibility-consuming-tools.md
+            - name: "Creación de informes de Power\_BI con herramientas de accesibilidad"
+              href: desktop-accessibility-creating-tools.md
+            - name: "Accesibilidad mediante métodos abreviados de teclado en informes de Power\_BI"
+              href: desktop-accessibility-keyboard-shortcuts.md
 - name: Servicio Power BI
   items:
     - name: Información general
