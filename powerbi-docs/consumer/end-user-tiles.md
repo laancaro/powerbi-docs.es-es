@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7e6d10a7a06c94c6bc00b06d38194dde461720be
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: ffacc95feef1557d5e6aaec2cca72821127d27d6
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142139"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716644"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Un icono es una instantánea de sus datos, que un *diseñador* ha anclado en el panel. Los *diseñadores* pueden crear iconos desde un informe, un conjunto de datos, un panel, el cuadro de pregunta de Preguntas y respuestas, Excel, SQL Server Reporting Services (SSRS), etc.  Esta captura de pantalla muestra muchos iconos diferentes anclados a un panel.
 
 ![Panel de Power BI](./media/end-user-tiles/power-bi-dash.png)

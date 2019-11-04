@@ -8,15 +8,15 @@ featuredvideoid: zIZPA0UrJyA
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 05/14/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 9b6bab357a206184f07da96d3b516107628a851d
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: d400e2013d8f2cb8dda627cda790191fce52503b
+ms.sourcegitcommit: 23ad768020a9daf129f69a462a2d46d59d2349d2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164419"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72775885"
 ---
 # <a name="slicers-in-power-bi"></a>Segmentaciones de datos en Power BI
 
@@ -40,7 +40,7 @@ Las segmentaciones de Power BI tienen las siguientes limitaciones:
 
 - Las segmentaciones no admiten campos de entrada.
 - No se admite la exploración en profundidad para las segmentaciones.
-- Las segmentaciones no admiten los filtros de nivel de objetos visuales.
+
 
 ## <a name="create-slicers"></a>Creación de segmentaciones
 
@@ -68,7 +68,7 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
    ![nueva segmentación](media/power-bi-visualization-slicers/power-bi-filter-examples.png)
 >[!TIP]
->De forma predeterminada, los elementos de la segmentación de lista se ordenan de forma ascendente. Para ordenar en orden descendente, haga clic en el botón de puntos suspensivos (**...**), situado en la esquina superior derecha de la segmentación, y elija **Orden descendente**.
+>De forma predeterminada, los elementos de la segmentación de lista se ordenan de forma ascendente. Para ordenar en orden descendente, haga clic en el botón de puntos suspensivos ( **...** ), situado en la esquina superior derecha de la segmentación, y elija **Orden descendente**.
 
 **Para crear una nueva segmentación con el fin de filtrar datos por intervalo de fechas**
 

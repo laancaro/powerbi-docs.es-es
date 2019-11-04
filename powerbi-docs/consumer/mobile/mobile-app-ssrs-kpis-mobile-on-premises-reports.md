@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: c735b5e1abbed0c733ca4414e15fc44b741349d8
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 01ee3cf9be3a0d6b4350925d4ecb9e57b668457a
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61344125"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060234"
 ---
 # <a name="view-on-premises-report-server-reports-and-kpis-in-the-power-bi-mobile-apps"></a>Visualización de informes y KPI locales del servidor de informes en la aplicaciones móviles de Power BI
 
@@ -132,6 +132,6 @@ Puede marcar KPI e informes como favoritos en el portal web y verlos después en
 3. Pulse **Quitar servidor**.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué es Power BI?](../../power-bi-overview.md)  
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)  
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

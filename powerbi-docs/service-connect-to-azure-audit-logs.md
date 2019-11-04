@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ee4b4616f264f0bd20e53d999b64301b2a7a693b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70186055"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060615"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Conexión a Azure Audit Logs con Power BI
 Con el paquete de contenido de Registros de auditoría de Azure puede analizar y visualizar la información almacenada en los registros de auditoría. Power BI recupera los datos, crea un panel integrado y crea informes basados en esos datos.
@@ -71,6 +71,6 @@ El identificador de suscripción será un conjunto largo de números y caractere
 Si ve un error en las credenciales o un error al intentar actualizar debido a credenciales no válidas, vuelva a intentar eliminar todas las instancias del paquete de contenido de Registros de auditoría de Azure y conéctese de nuevo.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI?](power-bi-overview.md)  
+[¿Qué es Power BI?](fundamentals/power-bi-overview.md)  
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)  
 

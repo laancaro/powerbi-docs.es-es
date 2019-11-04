@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 8/29/2019
 ms.author: tebercov
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 364220d5d900004252e51184fc9cbd7e03b45b2d
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 5d31eccd52164bb4d1ff37532d89dc7e147693d3
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159900"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060827"
 ---
 # <a name="connect-to-office365mon-with-power-bi"></a>Conexión a Office365Mon con Power BI
 Analizar los datos de rendimiento de estado e interrupciones de Office 365 es fácil con Power BI y la plantilla de aplicación Office365Mon. Power BI recupera los datos (incluidos los de sondeo de estado e interrupciones) y, a continuación, crea un panel integrado e informes basados en esos datos.
@@ -57,7 +57,7 @@ Conéctese a la [aplicación de plantilla Office365Mon](https://app.powerbi.com/
 Si recibe el mensaje **"Error de inicio de sesión"** después de usar las credenciales de la suscripción a Office365Mon para iniciar sesión, la cuenta que está usando no tiene permisos para recuperar los datos de Office365Mon de su cuenta. Compruebe que se trata de una cuenta de administrador y vuelva a intentarlo.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI?](power-bi-overview.md)
+[¿Qué es Power BI?](fundamentals/power-bi-overview.md)
 
 [Obtener datos para Power BI](service-get-data.md)
 

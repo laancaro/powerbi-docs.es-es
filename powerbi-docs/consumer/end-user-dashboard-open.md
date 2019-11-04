@@ -10,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b8d604b8872bae14bc2ffeeb16b56b1b3a98e056
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 629db8e4706bfb42f3f1b3ad65b8a57577d7ee21
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141384"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716386"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Los *consumidores* de Power BI dedican mucho tiempo a ver paneles. Los paneles están diseñados para resaltar información específica de los informes y los conjuntos de datos subyacentes. Y los consumidores de Power BI usan esa información con fines de seguimiento, supervisión, respuesta a preguntas, pruebas y mucho más, con el fin de tomar decisiones empresariales motivadas por datos.
 
 ![panel](media/end-user-dashboard-open/power-bi-new-dash-new.png)

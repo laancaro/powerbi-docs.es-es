@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: aa0827c0be31d65db7bff2c6e2476e5db59b2895
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 87c223c8ef0be0eac81bb672bde10023dcf79d71
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60978358"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059774"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -122,6 +122,6 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
 4. Pulse la flecha atrás o el botón Atrás para cerrar el icono y volver al panel.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [¿Qué es Power BI?](../../power-bi-overview.md)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

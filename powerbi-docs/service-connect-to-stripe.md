@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: ddcbee2c6d60541db0d71ea5ccfbfd5e6cf037ac
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: b0e8739e93d24ba10b0ffc72042b847cce1d5fe9
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70184578"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060769"
 ---
 # <a name="connect-to-stripe-with-power-bi"></a>Conexión a Stripe con Power BI
 Vea y explore los datos de Stripe en Power BI con el paquete de contenido de Power BI. El paquete de contenido de Stripe para Power extrae datos sobre los clientes, gastos, eventos y facturas. Los datos incluyen los diez mil eventos más recientes y los últimos cinco mil cargos en los últimos 30 días. El contenido se actualizará automáticamente una vez al día con la programación que elija. 
@@ -49,7 +49,7 @@ Conéctese al [paquete de contenido de Stripe para Power BI](https://app.powerbi
 * Aunque el conjunto de datos se programará para actualizarse diariamente, puede cambiar la programación de actualización o intentar actualizar a petición mediante **Actualizar ahora**
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI?](power-bi-overview.md)
+[¿Qué es Power BI?](fundamentals/power-bi-overview.md)
 
 [Obtener datos para Power BI](service-get-data.md)
 

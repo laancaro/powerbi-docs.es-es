@@ -8,15 +8,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/19/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21fa3c5c3907e8c1aa4d40bd3e6332c77ff62b98
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
+ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730082"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "73431098"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 
@@ -181,8 +181,6 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 - Si la visualización emplea datos de más de una tabla de datos y no existe ninguna relación con esas tablas en el modelo de datos, Power BI solo exporta los datos de la primera tabla.
 
 - Actualmente no se admiten objetos visuales personalizados ni objetos visuales de R.
-
-- La exportación de datos no está disponible para aquellos usuarios de fuera de la organización que usan un panel que un usuario interno ha compartido con ellos.
 
 - En Power BI, puede cambiarse el nombre de un campo (columna) haciendo doble clic en dicho campo y escribiendo un nuevo nombre. Power BI hace referencia al nuevo nombre como un *alias*. Es posible que un informe de Power BI pueda acabar con nombres de campo duplicados, pero Excel no permite duplicados. Por tanto, cuando Power BI exporta los datos a Excel, los alias de los campos cambian a sus nombres originales de campo (columna).  
 

@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: b4977bd043cec08c86fbd3c8893e8f1e185dc1fc
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d0d9b10c24d3d9da60ecf1afde7347f53d20f224
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60972448"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059433"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -65,5 +65,5 @@ Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvid
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter
 * Únase a la conversación en la [comunidad de Power BI](http://community.powerbi.com/)
-* [¿Qué es Power BI?](../../power-bi-overview.md)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 

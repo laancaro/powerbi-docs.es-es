@@ -11,14 +11,17 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: a1cc536e83832ab89b8a0aee8e8f01b9ced35a10
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: e0ec01eb4d4ee8134a165d438f29baa4aee22841
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256361"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72716934"
 ---
 # <a name="view-power-bi-notifications"></a>Visualización de notificaciones de Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 El Centro de notificaciones es una fuente de información secuencial relacionada con su experiencia en Power BI. Ábralo para ver mensajes sobre nuevos paneles que se han compartido con usted, información sobre eventos y reuniones de Power BI, alertas que ha establecido y mucho más. Puede [establecer alertas en el servicio Power BI](end-user-alerts.md) y también en las aplicaciones para móviles de Power BI.
 
 Vea cómo Amanda revisa, administra y responde a las notificaciones. Luego, siga las instrucciones que encontrará debajo del video para intentarlo usted.    

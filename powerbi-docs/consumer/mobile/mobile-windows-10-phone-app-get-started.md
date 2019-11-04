@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 0a60fe526e83e5220e9b310097c8ba37682a396e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3aff2b6a939a53a6246ed69ac5bd76dfe4f0dfe4
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68995234"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73059697"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-for-windows-10"></a>Introducción a la aplicación móvil de Power BI para Windows 10
 La aplicación móvil de Power BI para Windows 10 lleva Power BI a la tableta o el teléfono. Dispone de acceso móvil táctil y actualizado a la información de la empresa. Vea los paneles de la empresa e interactúe con ellos desde cualquier lugar, directamente en la [pantalla Inicio de Windows](mobile-pin-dashboard-start-screen-windows-10-phone-app.md).
@@ -121,6 +121,6 @@ Estas son otras cosas que puede hacer en la aplicación de Power BI para disposi
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Descargue la aplicación Power BI](http://go.microsoft.com/fwlink/?LinkID=526478) de la Tienda Windows.  
-* [¿Qué es Power BI?](../../power-bi-overview.md)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
 

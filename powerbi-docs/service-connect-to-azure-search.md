@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: b8738701d2827147e651a233a32de5edc089099b
-ms.sourcegitcommit: b53a6f5575f5f8bc443ecdca9c72525ce123518f
+ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
+ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/30/2019
-ms.locfileid: "70185993"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "73060928"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conexión a Azure Search con Power BI
 Azure Search Traffic Analytics permite supervisar y comprender el tráfico al servicio Azure Search. El paquete de contenido de Azure Search para Power BI proporciona información detallada sobre los datos de búsqueda, que incluye la búsqueda, la indexación, las estadísticas del servicio y la latencia de los últimos 30 días. Puede encontrar más detalles en la [entrada de blog de Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -58,7 +58,7 @@ El paquete de contenido de Azure Search requiere que Azure Search Traffic Analyt
 Asegúrese de que el nombre de la cuenta de almacenamiento esté correctamente indicada junto con la clave de acceso completa. El nombre de la cuenta de almacenamiento debe corresponder a la cuenta configurada con Azure Search Traffic Analytics.
 
 ## <a name="next-steps"></a>Pasos siguientes
-[¿Qué es Power BI?](power-bi-overview.md)
+[¿Qué es Power BI?](fundamentals/power-bi-overview.md)
 
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 

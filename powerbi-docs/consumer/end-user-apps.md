@@ -8,17 +8,20 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9b0b4f186187dc16d0b9e5e6ae9049d2a108b19a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: deca8a60a006d942fc8b38ed232e0215d94c2d9a
+ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70184393"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72717119"
 ---
 # <a name="apps-in-power-bi"></a>Aplicaciones de Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 ## <a name="what-is-a-power-bi-app"></a>¿Qué es una aplicación de Power BI?
 Una *aplicación* es un tipo de contenido de Power BI que combina paneles e informes relacionados en un mismo lugar. Una aplicación puede tener uno o más paneles e informes, todos ellos agrupados. Las aplicaciones las crean *diseñadores* de Power BI que distribuyen y comparten las aplicaciones con otros *consumidores*. 
 

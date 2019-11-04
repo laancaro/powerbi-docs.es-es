@@ -395,6 +395,8 @@
               href: desktop-access-database-errors.md
             - name: Resolver problemas al iniciar Power BI Desktop
               href: desktop-error-launching-desktop.md
+            - name: Solución de problemas del modelo de DirectQuery en Power BI Desktop
+              href: desktop-directquery-troubleshoot.md
     - name: Referencia
       items:
         - name: Tipos de datos en Power BI Desktop
@@ -661,7 +663,7 @@
           items:
             - name: Creación de nuevas áreas de trabajo
               href: service-create-the-new-workspaces.md
-            - name: Creación de áreas de trabajo de la aplicación
+            - name: Crear áreas de trabajo
               href: service-create-workspaces.md
             - name: Publicación de aplicaciones de áreas de trabajo
               href: service-create-distribute-apps.md
@@ -1175,6 +1177,8 @@
       href: guidance/dax-error-functions.md
     - name: Prácticas recomendadas para flujos de datos
       href: service-dataflows-best-practices.md
+    - name: Instrucciones del modelo de DirectQuery en Power BI Desktop
+      href: guidance/directquery-model-guidance.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto
