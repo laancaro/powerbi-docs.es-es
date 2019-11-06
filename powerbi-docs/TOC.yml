@@ -1109,6 +1109,8 @@
       items:
         - name: Notas del producto sobre planeamiento de la capacidad
           href: report-server/capacity-planning.md
+        - name: Compatibilidad con la extensión de representación en PDF
+          href: report-server/rendering-extension-support.md
 - name: Puertas de enlace
   items:
     - name: Información general
