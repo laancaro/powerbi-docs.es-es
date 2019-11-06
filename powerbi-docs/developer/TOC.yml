@@ -102,6 +102,8 @@
               href: embed-sample-for-customers.md
             - name: Inserción de contenido para su organización
               href: embed-sample-for-your-organization.md
+            - name: Inserción de informes paginados para clientes
+              href: embed-paginated-reports-customers.md
             - name: Inserción de contenido para nubes nacionales
               href: embed-sample-for-customers-national-clouds.md
         - name: Conceptos
@@ -112,6 +114,8 @@
               href: embed-service-principal.md
             - name: Seguridad de nivel de fila
               href: embedded-row-level-security.md
+            - name: Seguridad de nivel de fila de informes paginados
+              href: paginated-reports-row-level-security.md
             - name: Administración de varios inquilinos
               href: embed-multi-tenancy.md
             - name: Registro de diagnóstico de Azure para el servicio de Power BI Embedded
