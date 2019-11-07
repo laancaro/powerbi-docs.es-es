@@ -9,18 +9,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 03/28/2019
 ms.author: maggies
-ms.openlocfilehash: d1289a3e030f0a93c5c2ce3b68b7cf92c378a7e0
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: b7fe09857d7f9d61745dd263353d3467c9cf6fb4
+ms.sourcegitcommit: e4b28c237c6e0dc16239b161a41a4c30a4b534dd
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194766"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73710780"
 ---
 # <a name="whitepapers-for-power-bi"></a>Notas del producto de Power BI
 
 Las notas del producto permiten explorar temas de Power BI con más profundidad. Aquí encontrará una lista de notas del producto disponibles para Power BI.
 
-| Notas del producto | Descripción | Fecha |
+| Notas del producto | Descripción | Date (Fecha) |
 | --- | --- | --- |
 | [Planning a Power BI Enterprise Deployment](https://go.microsoft.com/fwlink/?linkid=2057861) (Planeación de una implementación de Power BI Enterprise) |En estas notas del producto técnicas se describen consideraciones para una implementación de Power BI que funcione bien y organizada de forma segura. | Julio de 2018 |
 | [Power BI y flujos de datos](https://go.microsoft.com/fwlink/?linkid=2034388&clcid=0x409)| En estas notas del producto se describen los detalles técnicos de los flujos de datos, además de las funcionalidades e iniciativas que subyacen a las características y las funcionalidades de los flujos de datos. | Noviembre de 2018 |
@@ -31,7 +31,6 @@ Las notas del producto permiten explorar temas de Power BI con más profundidad.
 | [Seguridad](service-admin-power-bi-security.md) |Proporciona una explicación detallada de la seguridad de Power BI. | Marzo de 2019 |
 | [Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md)|En este documento se describe cómo distribuir contenido a los usuarios de fuera de la organización mediante la integración de Azure Active Directory Business-to-business (AAD B2B).| Marzo de 2019 |
 | [Análisis avanzado con Power BI](https://info.microsoft.com/advanced-analytics-with-power-bi.html?Is=Website) |Describe las funcionalidades analíticas avanzadas de Power BI, como el análisis predictivo, las visualizaciones personalizadas, la integración de R y las expresiones de análisis de datos. | Febrero de 2017 |
-| [Procedimientos recomendados de diseño para informes y objetos visuales](visuals/power-bi-visualization-best-practices.md) |Proporciona procedimientos recomendados para diseñar informes en Power BI. | Junio de 2018 |
 | [Filtrado bidireccional](desktop-bidirectional-filtering.md) |Se explica el filtrado cruzado bidireccional en Power BI Desktop (las notas del producto también abarcan SQL Server Analysis Services 2016, ambos tienen el mismo comportamiento). | Julio de 2018 |
 | [DirectQuery en SQL Server 2016 Analysis Services](https://blogs.msdn.microsoft.com/analysisservices/2017/04/06/directquery-in-sql-server-2016-analysis-services-whitepaper/) |Para SQL Server 2016, DirectQuery se ha rediseñado para lograr una importante mejora en el rendimiento y la velocidad. Sin embargo, ahora se ha hecho más compleja su comprensión e implementación. | Enero de 2017 |
 | [Power BI y SAP BW](https://aka.ms/powerbiandsapbw)| En este documento se describe cómo los clientes de SAP pueden beneficiarse al conectar Power BI a sus sistemas SAP Business Warehouse (BW) existentes.| Febrero de 2018 |
