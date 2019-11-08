@@ -3,19 +3,19 @@ title: Notas del producto sobre la seguridad de Power BI
 description: Notas del producto en las que se explican y describen la arquitectura de seguridad y la implementación de Power BI
 author: davidiseminger
 ms.author: davidi
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/24/2019
 LocalizationGroup: Conceptual
-ms.openlocfilehash: 4cb2ae69044b156d5f8a4bd554f8386808fb6b9e
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: 8cbb1c4b25cacae5cb025f85790be6a1657b0482
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430498"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73787763"
 ---
 # <a name="power-bi-security-whitepaper"></a>Notas del producto sobre la seguridad de Power BI
 
@@ -34,13 +34,13 @@ ms.locfileid: "73430498"
 
 **Power BI** es una oferta de servicio de software en línea (_SaaS_ o Software como servicio) de Microsoft que permite crear de forma rápida y sencilla paneles de inteligencia empresarial con características de autoservicio, informes, conjuntos de datos y visualizaciones. Con Power BI, se puede conectar a muchos orígenes de datos diferentes, combinar y dar forma a los datos de esas conexiones y, después, crear informes y paneles que se pueden compartir con otros usuarios.
 
-El servicio Power BI se rige por los [términos de Microsoft Online Services](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](http://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del [marco de cumplimiento de Office 365](http://go.microsoft.com/fwlink/p/?LinkID=618494).
+El servicio Power BI se rige por los [términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31) y la [Declaración de privacidad de Microsoft Enterprise](https://www.microsoft.com/privacystatement/OnlineServices/Default.aspx). Para conocer la ubicación de procesamiento de datos, vea los términos de ubicación de procesamiento de datos de los Términos de Microsoft Online Services. Para obtener información de cumplimiento, el [Centro de confianza de Microsoft](https://www.microsoft.com/trustcenter) es el principal recurso para Power BI. El equipo de Power BI se esfuerza para brindar a sus clientes las innovaciones y la productividad más recientes. Power BI está actualmente en el nivel D del [marco de cumplimiento de Office 365](https://go.microsoft.com/fwlink/p/?LinkID=618494).
 
 En este artículo se describe la seguridad de Power BI a través de una explicación de su arquitectura; después se explica cómo se autenticarán los usuarios en Power BI y cómo se establecen las conexiones de datos y, luego, cómo se almacenan y mueven los datos a través del servicio en Power BI. La última sección está dedicada a preguntas relacionadas con la seguridad, con las respuestas correspondientes.
 
 ## <a name="power-bi-architecture"></a>Arquitectura de Power BI
 
-El servicio **Power BI** se basa en **Azure**, que es la [plataforma de informática en la nube](http://azure.microsoft.com/overview/what-is-azure/) de Microsoft. En la actualidad, Power BI se implementa en muchos centros de datos en todo el mundo: hay muchas implementaciones activas a disposición de los clientes en las regiones a las que sirven esos centros de datos y un número equivalente de implementaciones pasivas que actúan como copias de seguridad para cada implementación activa.
+El servicio **Power BI** se basa en **Azure**, que es la [plataforma de informática en la nube](https://azure.microsoft.com/overview/what-is-azure/) de Microsoft. En la actualidad, Power BI se implementa en muchos centros de datos en todo el mundo: hay muchas implementaciones activas a disposición de los clientes en las regiones a las que sirven esos centros de datos y un número equivalente de implementaciones pasivas que actúan como copias de seguridad para cada implementación activa.
 
 Cada implementación de Power BI consta de dos clústeres: un front-end web (**WFE**) y un **back-end**. Estos dos clústeres se muestran en la imagen siguiente y constituyen el fondo del resto de este artículo. 
 
@@ -117,8 +117,8 @@ Power BI está disponible en regiones concretas, en función de dónde se implem
 
 Los vínculos siguientes proporcionan información adicional sobre los centros de datos de Azure.
 
-- [Regiones de Azure](http://azure.microsoft.com/regions/): información sobre la presencia global y las ubicaciones de Azure.
-- [Servicios de Azure, por región](http://azure.microsoft.com/regions/#services): una lista completa de los servicios de Azure (tanto de infraestructura como de plataforma) disponibles de Microsoft en cada región.
+- [Regiones de Azure](https://azure.microsoft.com/regions/): información sobre la presencia global y las ubicaciones de Azure.
+- [Servicios de Azure, por región](https://azure.microsoft.com/regions/#services): una lista completa de los servicios de Azure (tanto de infraestructura como de plataforma) disponibles de Microsoft en cada región.
 
 Actualmente, el servicio Power BI está disponible en regiones específicas, con servicio de centros de recursos como se describe en el [centro de confianza de Microsoft](https://www.microsoft.com/TrustCenter/CloudServices/business-application-platform/data-location). El siguiente vínculo muestra un mapa de centros de datos de Power BI; puede mantener el puntero sobre una región para ver los centros de datos que se encuentran allí:
 
@@ -126,7 +126,7 @@ Actualmente, el servicio Power BI está disponible en regiones específicas, con
 
 Microsoft también proporciona centros de datos para nubes soberanas. Para obtener más información sobre la disponibilidad del servicio Power BI para nubes nacionales, vea [Nubes nacionales de Power BI](https://powerbi.microsoft.com/clouds/).
 
-Para obtener más información sobre dónde se almacenan los datos y cómo se usan, vea [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Los compromisos sobre la ubicación de los datos de cliente en reposo se especifican en los **Términos de procesamiento de datos** de los [Términos de Microsoft Online Services](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
+Para obtener más información sobre dónde se almacenan los datos y cómo se usan, vea [Microsoft Trust Center](https://www.microsoft.com/TrustCenter/Transparency/default.aspx#_You_know_where). Los compromisos sobre la ubicación de los datos de cliente en reposo se especifican en los **Términos de procesamiento de datos** de los [Términos de Microsoft Online Services](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&amp;DocumentTypeId=31).
 
 ## <a name="user-authentication"></a>Autenticación de usuarios
 
@@ -136,7 +136,7 @@ La autenticación de usuarios en el servicio Power BI consta de una serie de sol
 
 La secuencia de autenticación del usuario para el servicio Power BI se produce como se describe en los pasos siguientes, que se ilustran en las imágenes siguientes.
 
-1. Un usuario inicia una conexión al servicio Power BI desde un explorador, ya sea escribiendo la dirección de Power BI en la barra de direcciones (como https://app.powerbi.com) o haciendo clic en _Iniciar sesión_ en la página de aterrizaje de Power BI https://powerbi.microsoft.com)). La conexión se establece mediante TLS 1.2 y HTTPS, y toda la comunicación posterior entre el explorador y el servicio Power BI usa HTTPS. La solicitud se envía a **Azure Traffic Manager**.
+1. Un usuario inicia una conexión al servicio Power BI desde un explorador, ya sea escribiendo la dirección de Power BI en la barra de direcciones (como https://app.powerbi.com) o haciendo clic en _Iniciar sesión_ en la página de aterrizaje de Power BI https://powerbi.microsoft.com) ). La conexión se establece mediante TLS 1.2 y HTTPS, y toda la comunicación posterior entre el explorador y el servicio Power BI usa HTTPS. La solicitud se envía a **Azure Traffic Manager**.
 
 2. **Azure Traffic Manager** comprueba el registro DNS del usuario para determinar el centro de datos más cercano donde se ha implementado Power BI, y responde al DNS con la dirección IP del clúster WFE al que se debe enviar al usuario.
 
@@ -224,7 +224,7 @@ Para los orígenes de datos basados en la nube, el rol de movimiento de datos ci
         - Si se establece el conjunto de datos para la actualización, las credenciales se almacenan cifradas en la instancia de Azure SQL Database de Movimiento de datos. La clave de cifrado se almacena en el equipo que ejecuta la puerta de enlace en la infraestructura del cliente.
         - Si el conjunto de datos no se establece para la actualización, no se almacena ninguna credencial para los orígenes de datos
 
-1. Datos
+1. datos
 
     a. Instancia local de Analysis Services y DirectQuery: no se almacena nada en el servicio Power BI.
 
@@ -301,7 +301,7 @@ Los dispositivos no volátiles son dispositivos que tienen memoria que persiste 
     c. Datos insertados: ninguno (no aplicable).
 
     d. ETL: ninguno (no se almacenada nada en el nodo de proceso diferente a lo que se ha explicado en la sección **Datos en reposo** anterior)
-4. Datos
+4. datos
 
     Algunos artefactos de datos se pueden almacenar en el disco de los nodos de proceso durante un período de tiempo limitado.
 
@@ -371,7 +371,7 @@ La caché de datos de Power BI Mobile permanece en el dispositivo durante dos se
 
 Las aplicaciones de Power BI Mobile no examinan las carpetas del dispositivo. 
 
-Las tres plataformas para las que está disponible Power BI Mobile admiten Microsoft Intune, un servicio de software que proporciona administración de aplicaciones y dispositivos móviles. Con Intune habilitado y configurado, se cifran los datos en el dispositivo móvil y la propia aplicación de Power BI no se puede instalar en una tarjeta SD. Obtenga [más información sobre Microsoft Intune](http://www.microsoft.com/cloud-platform/microsoft-intune).
+Las tres plataformas para las que está disponible Power BI Mobile admiten Microsoft Intune, un servicio de software que proporciona administración de aplicaciones y dispositivos móviles. Con Intune habilitado y configurado, se cifran los datos en el dispositivo móvil y la propia aplicación de Power BI no se puede instalar en una tarjeta SD. Obtenga [más información sobre Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune).
 
 ## <a name="power-bi-security-questions-and-answers"></a>Preguntas y respuestas sobre la seguridad de Power BI
 
@@ -413,7 +413,7 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **¿Cómo funcionan los grupos de Power BI?**
 
-* Los grupos de Power BI permiten a los usuarios colaborar de forma rápida y sencilla en la creación de paneles, informes y modelos de datos dentro de equipos establecidos. Por ejemplo, si tiene un grupo de Power BI que incluye a todos los usuarios del equipo inmediato, puede colaborar fácilmente con todos los integrantes del equipo si selecciona el grupo desde Power BI. Los grupos de Power BI son equivalentes a los grupos universales de Office 365 (que puede [crear](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1) y [administrar](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7), y de los que puede [obtener más información](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a)) y usan los mismos mecanismos de autenticación que se utilizan en Azure Active Directory para proteger los datos. Puede [crear grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654250) o crear un grupo universal en el Centro de administración de Microsoft 365; en ambos casos, el resultado es el mismo para la creación de grupos en Power BI.
+* Los grupos de Power BI permiten a los usuarios colaborar de forma rápida y sencilla en la creación de paneles, informes y modelos de datos dentro de equipos establecidos. Por ejemplo, si tiene un grupo de Power BI que incluye a todos los usuarios del equipo inmediato, puede colaborar fácilmente con todos los integrantes del equipo si selecciona el grupo desde Power BI. Los grupos de Power BI son equivalentes a los grupos universales de Office 365 (que puede [crear](https://support.office.com/Article/View-create-and-delete-Groups-in-the-Office-365-admin-center-a6360120-2fc4-46af-b105-6a04dc5461c7) y [administrar](https://support.office.com/Article/Manage-Group-membership-in-the-Office-365-admin-center-e186d224-a324-4afa-8300-0e4fc0c3000a), y de los que puede [obtener más información](https://support.office.com/Article/Find-help-about-Groups-in-Office-365-7a9b321f-b76a-4d53-b98b-a2b0b7946de1)) y usan los mismos mecanismos de autenticación que se utilizan en Azure Active Directory para proteger los datos. Puede [crear grupos en Power BI](https://support.powerbi.com/knowledgebase/articles/654250) o crear un grupo universal en el Centro de administración de Microsoft 365; en ambos casos, el resultado es el mismo para la creación de grupos en Power BI.
 
   Tenga en cuenta que los datos compartidos con grupos de Power BI siguen la misma consideración de seguridad que cualquier dato compartido en Power BI. Para los orígenes de datos que no son **RLS**, Power BI **no** vuelve a autenticar a los usuarios en los datos originales, y una vez que los datos se cargan en Power BI, el usuario que se ha autenticado en el origen de datos es responsable de administrar qué usuarios y grupos pueden ver los datos. Para más información vea la sección **Autenticación de usuarios en orígenes de datos** anteriormente en este documento.
 
@@ -447,14 +447,14 @@ Las preguntas siguientes son preguntas y respuestas comunes sobre seguridad para
 
 **Para los objetos visuales personalizados, ¿realiza Microsoft alguna evaluación de seguridad o privacidad del código del objeto visual personalizado antes de publicar elementos en la Galería?**
 
-* No. Es responsabilidad del cliente revisar y determinar si se debe confiar en el código del objeto visual personalizado. El código de todos los objetos visuales personalizados funciona en un entorno de espacio aislado, por lo que cualquier código incorrecto en un objeto visual personalizado no afecta de forma negativa al resto del servicio Power BI.
+* Núm. Es responsabilidad del cliente revisar y determinar si se debe confiar en el código del objeto visual personalizado. El código de todos los objetos visuales personalizados funciona en un entorno de espacio aislado, por lo que cualquier código incorrecto en un objeto visual personalizado no afecta de forma negativa al resto del servicio Power BI.
 
 **¿Hay otros objetos visuales de Power BI que envían información fuera de la red del cliente?**
 
 * Sí. Los objetos visuales Bing Maps y ESRI transmiten datos fuera del servicio Power BI para los objetos visuales que usan esos servicios. Para obtener más información y una descripción detallada del tráfico de inquilinos externos de Power BI, vea [**Power BI y ExpressRoute**](service-admin-power-bi-expressroute.md).
 
 **En el caso de las aplicaciones de plantilla, ¿Microsoft realiza alguna evaluación de seguridad o privacidad de la aplicación de plantilla antes de publicar elementos en la galería?**
-* No. El publicador de la aplicación es responsable del contenido, mientras que la responsabilidad del cliente es revisar y determinar si debe confiar en el publicador de la aplicación de plantilla. 
+* Núm. El publicador de la aplicación es responsable del contenido, mientras que la responsabilidad del cliente es revisar y determinar si debe confiar en el publicador de la aplicación de plantilla. 
 
 **¿Hay aplicaciones de plantilla que pueden enviar información fuera de la red del cliente?**
 * Sí. Es responsabilidad del cliente revisar la Directiva de privacidad del editor y determinar si se debe instalar la aplicación de plantilla en el inquilino. Además, el publicador es responsable de notificar el comportamiento y las capacidades de la aplicación.

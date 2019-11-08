@@ -3,19 +3,19 @@ title: Implementación y administración de capacidades de Power BI Premium
 description: Comprenda el potencial de Power BI Premium y aprenda a diseñar, implementar, supervisar y solucionar problemas de soluciones escalables.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
+manager: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: eecbc43f26cebc12884ae6c5143a815f6e310ce5
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: f9269b52b1721cd7c6801cd0337911159c0b2494
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73432369"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73786345"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implementación y administración de capacidades de Power BI Premium
 
@@ -327,10 +327,10 @@ En la tabla siguiente se describen los recursos y los límites de cada SKU Premi
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | DQ/LC (por segundo) | Paralelismo de actualización de modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0.5 | T3 | 0.5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
-| EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
-| P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
+| EM3/A3 | T4 | 2 | 10 | 2 | 15 | T3 |
+| P1/A4 | 8 | T4 | 25 | T4 | 30 | 6 |
 | P2/A5 | 16 | 8 | 50 | 8 | 60 | 12 |
 | P3/A6 | 32 | 16 | 100 | 16 | 120 | 24 |
 | | | | | | | |
