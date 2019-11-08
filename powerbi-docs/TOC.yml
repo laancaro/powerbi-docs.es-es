@@ -113,6 +113,8 @@
           href: visuals/power-bi-visualization-customize-title-background-and-legend.md
         - name: Característica Mostrar elementos sin datos de Power BI
           href: desktop-show-items-no-data.md
+        - name: "Fecha y hora automáticas en Power\_BI Desktop"
+          href: desktop-auto-date-time.md
         - name: Conectar a datos
           items:
             - name: Orígenes de datos en Power BI Desktop
