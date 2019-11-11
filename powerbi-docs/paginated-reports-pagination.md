@@ -3,18 +3,17 @@ title: Paginación en informes paginados de Power BI
 description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para los informes paginados en el servicio Power BI y cómo conectarse a orígenes de datos de Azure SQL Database.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/22/2019
-ms.openlocfilehash: e91d3801cc2293ad22028a95a331d473f41288c0
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624849"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874785"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginación en informes paginados de Power BI
 
@@ -37,7 +36,7 @@ ms.locfileid: "68624849"
   
  Si quiere invalidar el tamaño de página físico definido en el informe, puede especificar el tamaño de página físico mediante la opción Información del dispositivo para el representador específico que está usando para exportar el informe. Para obtener una lista completa, consulte [Device Information Settings for Rendering Extensions](https://docs.microsoft.com/sql/reporting-services/device-information-settings-for-rendering-extensions-reporting-services?view=sql-server-2017) (Configuración de la información del dispositivo para las extensiones de representación) en la documentación de SQL Server Reporting Services.  
   
-### <a name="margins"></a>Márgenes
+### <a name="margins"></a>Margins
 
  Los márgenes se dibujan desde el borde de las dimensiones de la página física hacia adentro hasta el valor de margen especificado. Si un elemento de informe se extiende hasta el área de margen, se recorta para que el área superpuesta no se represente. Si especifica tamaños de márgenes que provocan que el ancho horizontal o vertical de la página sea igual a cero, la configuración de margen predeterminada es cero. Los márgenes se especifican en el panel **Propiedades del informe** o el cuadro de diálogo**Configurar página**. También se pueden especificar modificando las propiedades TopMargin, BottomMargin, LeftMargin and RightMargin en el panel **Propiedades**. Si quiere invalidar el tamaño de margen definido en el informe, puede especificar el tamaño de margen mediante la opción Información del dispositivo para el representador específico que está usando para exportar el informe.  
   
@@ -90,4 +89,4 @@ ms.locfileid: "68624849"
 
 [Visualización de un informe paginado en el servicio Power BI](paginated-reports-view-power-bi-service.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

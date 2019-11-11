@@ -4,18 +4,17 @@ description: En este artículo se explica cómo escalar una capacidad de Power B
 services: power-bi-embedded
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 editor: ''
 tags: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 01/31/2019
-ms.openlocfilehash: b9a632fa39d320d14d1282cee5e59022a8ab0303
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5a30c8cb6af80e74cbf2513c24aee55483338fb4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61388518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875906"
 ---
 # <a name="scale-your-power-bi-embedded-capacity-in-the-azure-portal"></a>Escalar una capacidad de Power BI Embedded en Azure Portal
 
@@ -62,4 +61,4 @@ Para pausar o iniciar la capacidad, vea [Pausar e iniciar una capacidad de Power
 
 Para empezar a insertar contenido de Power BI en la aplicación, vea [Inserción de un informe, un panel o un icono de Power BI](https://powerbi.microsoft.com/documentation/powerbi-developer-embedding-content/).
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

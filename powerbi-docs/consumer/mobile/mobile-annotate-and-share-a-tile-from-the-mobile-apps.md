@@ -2,19 +2,18 @@
 title: Anotación y uso compartido en aplicaciones móviles de Power BI
 description: 'Lea acerca de cómo anotar y compartir iconos, informes y objetos visuales desde la aplicación móvil de Microsoft Power BI para iOS y Android. '
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 1f7911007d9629c8990fc15ddf7453bafe0e78f5
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 013cbc58a8404fa803a14c73b1668be1215cf642
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841462"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879493"
 ---
 # <a name="annotate-and-share-a-tile-report-or-visual-in-power-bi-mobile-apps"></a>Anotación y uso compartido de un icono, informe u objeto visual en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -74,5 +73,5 @@ También puede [compartir un icono desde la aplicación móvil de Power BI para 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Compartir un panel desde las aplicaciones móviles de Power BI](mobile-share-dashboard-from-the-mobile-apps.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
