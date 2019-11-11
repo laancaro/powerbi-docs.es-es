@@ -2,7 +2,6 @@
 title: 'Administrar el origen de datos: SAP HANA'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Este artículo es específico de SAP HANA.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/16/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b3e1ea53abeff39609515b0b615f9e000432e9c6
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 577f0b26052ecc5fbe5f4e5b4da624da2b6e06c4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303173"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881727"
 ---
 # <a name="manage-your-data-source---sap-hana"></a>Administrar el origen de datos: SAP HANA
 
@@ -74,5 +73,5 @@ Si aparece en la pestaña **Usuarios** del origen de datos configurado dentro de
 * [Solución de problemas con la puerta de enlace de datos local](/data-integration/gateway/service-gateway-tshoot)
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md) 
 
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
 

@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Data from databases
-ms.openlocfilehash: f2d175896876bd6ea6f76b58b0eda0e5100dcfe1
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 125838ccd53e4e5f35bbd702f8a1cf319e6c278d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855719"
 ---
 # <a name="azure-sql-database-with-directquery"></a>Azure SQL Database con DirectQuery
 
@@ -58,4 +57,4 @@ Puede encontrar el nombre completo del servidor y el nombre de la base de datos 
 * [¿Qué es Power BI?](fundamentals/power-bi-overview.md)  
 * [Obtener datos para Power BI](service-get-data.md)  
 
-¿Tiene más preguntas? [Consulte la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Consulte la comunidad de Power BI](https://community.powerbi.com/)

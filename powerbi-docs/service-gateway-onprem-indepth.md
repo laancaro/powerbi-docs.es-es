@@ -2,7 +2,6 @@
 title: Detalles sobre la puerta de enlace de datos local
 description: En este artículo se examina la puerta de enlace global en profundidad. Describe cómo funciona el servicio con Azure Active Directory y Active Directory local cuando se trabaja con Analysis Services
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 7d6948f7b5be25b7027a4aa2adaf244a2cde836a
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: e8807feeccccebab8837ac571ae4340c5c0c9b1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729965"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881591"
 ---
 # <a name="on-premises-data-gateway-in-depth"></a>Detalles sobre la puerta de enlace de datos local
 
@@ -106,4 +105,4 @@ Vea [Reinicio de una puerta de enlace](/data-integration/gateway/service-gateway
 
 [¿Qué es la puerta de enlace de datos local?](service-gateway-onprem.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

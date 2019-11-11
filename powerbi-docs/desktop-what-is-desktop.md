@@ -2,7 +2,6 @@
 title: ¿Qué es Power BI Desktop?
 description: Obtenga información sobre qué es Power BI Desktop y cómo empezar a usarlo.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,18 +9,18 @@ ms.topic: overview
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 575d66ad6bb10a4e7faa90f5f658e86115402400
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 01e5effcf5f72dd110005815e2ba86c9a6731a70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141978"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865150"
 ---
 # <a name="what-is-power-bi-desktop"></a>¿Qué es Power BI Desktop?
 
 **Power BI Desktop** es una aplicación gratuita que se puede instalar en el equipo local y que le permite conectarse a los datos, transformarlos y visualizarlos. Con **Power BI Desktop**, puede conectarse a varios orígenes de datos diferentes y combinarlos (operación conocida también como modelado) en un modelo de datos que le permite crear objetos visuales y recopilaciones de objetos visuales que puede compartir como informes con otras personas dentro de la organización. La mayoría de los usuarios que trabajan con proyectos de inteligencia empresarial usan **Power BI Desktop** para crear informes y luego usan el **servicio Power BI** para compartir sus informes con los demás.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 Los usos más comunes de **Power BI Desktop** son los siguientes:
 
@@ -100,4 +99,4 @@ Una vez que seleccione **Publicar**, Power BI Desktop se conectará al **servici
 Para empezar a trabajar con **Power BI Desktop**, lo primero que necesita es descargar e instalar la aplicación. Hay dos maneras de obtener **Power BI Desktop**:
 
 * [Descargar Power BI Desktop desde la Web](desktop-get-the-desktop.md)
-* [Obtener Power BI Desktop de Microsoft Store](http://aka.ms/pbidesktopstore)
+* [Obtener Power BI Desktop de Microsoft Store](https://aka.ms/pbidesktopstore)

@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.cunstom: ''
 ms.date: 09/16/2019
 LocalizationGroup: Get started
-ms.openlocfilehash: 3de0b5473c6d00013bdf109f262dc0577c3bf290
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: a3c060693a218a4c7a9dc5d0dea726c10e07d276
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073511"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871941"
 ---
 # <a name="get-started-with-third-party-apps"></a>Introducción a las aplicaciones de terceros
 
@@ -59,4 +58,4 @@ En el sitio web **Mis aplicaciones de Office 365**, aquí se muestra cómo revo
 
 3. Mantenga el mouse sobre el icono de la aplicación, haga clic en el botón **(...)** y luego en **Quitar**.
 
-   ![Eliminar](media/service-power-bi-get-started-third-party-apps/remove.png)
+   ![Quitar](media/service-power-bi-get-started-third-party-apps/remove.png)

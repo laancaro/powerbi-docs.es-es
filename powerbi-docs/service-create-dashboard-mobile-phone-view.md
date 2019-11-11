@@ -2,7 +2,6 @@
 title: 'Optimización de un panel para teléfonos móviles: Power BI'
 description: Aprenda a crear una vista personalizada de un panel en el servicio Power BI, específicamente para su visualización en teléfonos móviles.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f2b8c2c4be343dc135fe1b133bfcb956c1549de4
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 75152d546bc2dc622210d5b9e5933ee44fbdc0b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61158257"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872854"
 ---
 # <a name="optimize-a-dashboard-for-mobile-phones---power-bi"></a>Optimización de un panel para teléfonos móviles: Power BI 
 Al ver los paneles en modo vertical en un teléfono, observará que los iconos del panel se colocan uno tras otro y tienen todos el mismo tamaño. En el servicio Power BI puede crear una vista personalizada de un panel, específicamente para el modo vertical de los teléfonos. Incluso si crea una vista para teléfono, al poner el teléfono en modo horizontal, verá el panel como se ha diseñado en el servicio.
@@ -59,5 +58,5 @@ Al ver los paneles en modo vertical en un teléfono, observará que los iconos d
 ## <a name="next-steps"></a>Pasos siguientes
 * [Crear informes optimizados para las aplicaciones de teléfono de Power BI](desktop-create-phone-report.md)
 * [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](visuals/desktop-create-responsive-visuals.md)
-* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

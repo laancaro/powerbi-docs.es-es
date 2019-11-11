@@ -2,7 +2,6 @@
 title: Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 description: Actualizaciones de características desde versiones anteriores de Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 24ff0748a57df5b76d8a559781cf9326764450e3
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: e775d5c4cf0ad1c24765368681134f5d4e865ad3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73429708"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866964"
 ---
 # <a name="previous-monthly-updates-to-power-bi-desktop"></a>Previous monthly updates to Power BI Desktop (Actualizaciones mensuales a Power BI Desktop anteriores)
 
@@ -176,8 +175,8 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Seleccione los siguientes vínculos para descargar esta versión anterior: 
 
-* [Versión de agosto de 2019 de Power BI Desktop: 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
-* [Versión de agosto de 2019 de Power BI Desktop: 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
+* [Versión de agosto de 2019 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08.msi)
+* [Versión de agosto de 2019 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-08_x64.msi)
 
 
 ## <a name="july-2019-update-2715523641"></a>Actualización de julio de 2019 (2.71.5523.641)
@@ -247,8 +246,8 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Seleccione los siguientes vínculos para descargar esta versión anterior: 
 
-* [Versión de julio de 2019 de Power BI Desktop: 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
-* [Versión de julio de 2019 de Power BI Desktop: 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
+* [Versión de julio de 2019 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07.msi)
+* [Versión de julio de 2019 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-07_x64.msi)
 
 
 ## <a name="june-2019-update-2705494561"></a>Actualización de junio de 2019 (2.70.5494.561)
@@ -330,8 +329,8 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Seleccione los siguientes vínculos para descargar esta versión anterior: 
 
-* [Versión de junio de 2019 de Power BI Desktop: 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
-* [Versión de junio de 2019 de Power BI Desktop: 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
+* [Versión de junio de 2019 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06.msi)
+* [Versión de junio de 2019 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-06_x64.msi)
 
 
 ## <a name="may-2019-update-26954671251"></a>Actualización de mayo de 2019 (2.69.5467.1251)
@@ -408,8 +407,8 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 
 Seleccione los siguientes vínculos para descargar esta versión anterior: 
 
-* [Versión de mayo de 2019 de Power BI Desktop: 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
-* [Versión de mayo de 2019 de Power BI Desktop: 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
+* [Versión de mayo de 2019 de Power BI Desktop: 32 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05.msi)
+* [Versión de mayo de 2019 de Power BI Desktop: 64 bits](https://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-05_x64.msi)
 
 
 ## <a name="april-2019-update-2685432361"></a>Actualización de abril de 2019 (2.68.5432.361)
@@ -490,12 +489,6 @@ También puede descargar versiones anteriores de Power BI Desktop si su organiza
 * Es posible que no se puedan abrir los archivos creados o guardados en versiones más recientes de Power BI Desktop con versiones anteriores de Power BI Desktop. 
 * Si recibe una advertencia al cargar un informe guardado en una versión más reciente de Power BI Desktop y después guarda dicho informe en la versión anterior, perderá toda la información relacionada con las nuevas características.
 * Solo archivamos las versiones en inglés de Power BI Desktop.
-
-Seleccione los siguientes vínculos para descargar esta versión anterior: 
-
-* [Versión de abril de 2019 de Power BI Desktop: 32 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04.msi)
-* [Versión de abril de 2019 de Power BI Desktop: 64 bits](http://download.microsoft.com/download/9/B/A/9BAEFFEF-1A68-4102-8CDF-5D28BFFE6A61/PBIDesktop-2019-04_x64.msi)
-
 
 ## <a name="march-2019-update-2675404581"></a>Actualización de marzo de 2019 (2.67.5404.581)
 
@@ -2414,7 +2407,7 @@ Celebre la llegada del año nuevo con otra colección de mejoras para Power BI D
 -   Mejoras en la integración de R en Power BI Desktop
 
 
-¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](http://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
+¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](https://blogs.msdn.com/b/powerbi/archive/2016/01/28/power-bi-updates-this-week-new-report-authoring-capabilities.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
 
 En el siguiente vídeo se describe y se muestra cada una de estas actualizaciones. También puede ver el vídeo en la entrada de blog.
 
@@ -2470,7 +2463,7 @@ Diciembre es un mes para dar, y el equipo de Power BI lo hace, con más actualiz
 -   Conector de CSV: Capacidad de especificar el delimitador de columna en el cuadro de diálogo de origen
 
 
-¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](http://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
+¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](https://blogs.msdn.com/b/powerbi/archive/2015/12/16/more-power-bi-feature-updates-power-bi-desktop-december-update-and-new-power-bi-service-features.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
 
 En el siguiente vídeo se describe y se muestra cada una de estas actualizaciones. También puede ver el vídeo en la entrada de blog.
 
@@ -2525,7 +2518,7 @@ Otro mes, otro gran colección de nuevas características y mejoras para Power B
 
 -   Nuevo sitio web de documentación, que ahora también incluye contenido localizado
 
-¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](http://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
+¿Quiere obtener más información acerca de estas actualizaciones? Eche un vistazo a la [entrada de blog](https://blogs.msdn.com/b/powerbi/archive/2015/11/20/announcing-the-power-bi-desktop-november-update.aspx) para obtener información más detallada sobre cada una de estas nuevas características.
 
 En el siguiente vídeo se describe y se muestra cada una de estas actualizaciones. También puede ver el vídeo en la entrada de blog.
 
@@ -2577,7 +2570,7 @@ También puede ver un vídeo de todas estas actualizaciones.
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jbocn1ZNkxM" frameborder="0" allowfullscreen></iframe>
 
 
-Para más información, [eche un vistazo al anuncio del blog](http://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx) en el que se describen más detalles sobre cada actualización.
+Para más información, [eche un vistazo al anuncio del blog](https://blogs.msdn.com/b/powerbi/archive/2015/10/20/custom-visualizations-support-and-22-other-features-in-the-power-bi-desktop-october-update.aspx) en el que se describen más detalles sobre cada actualización.
 
 
 
@@ -2647,7 +2640,7 @@ En el vídeo siguiente se tratan estas características más detalladamente.
 
 <iframe width="500" height="281" src="https://www.youtube.com/embed/Jm44dLXdarQ" frameborder="0" allowfullscreen></iframe>
 
-Para más información acerca de esta actualización, [eche un vistazo al anuncio del blog](http://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx) en el que se describen más detalles sobre cada actualización.
+Para más información acerca de esta actualización, [eche un vistazo al anuncio del blog](https://blogs.msdn.com/b/powerbi/archive/2015/09/23/44-new-features-in-the-power-bi-desktop-september-update.aspx) en el que se describen más detalles sobre cada actualización.
 
 ## <a name="august-2015-update-2264128403"></a>Actualización de agosto de 2015 (2.26.4128.403)
 

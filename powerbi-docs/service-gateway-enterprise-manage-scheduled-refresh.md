@@ -2,7 +2,6 @@
 title: 'Administrar el origen de datos: importación o actualización programada'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace. Este artículo es específico para los orígenes de datos que se pueden usar con la importación o la actualización programada.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3e223fba25386e91354130083f8bacc653b26cee
-ms.sourcegitcommit: d74aca333595beaede0d71ba13a88945ef540e44
+ms.openlocfilehash: 7512257a3abad33babe2a5b6b56f613c7bb1b50f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "68757651"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881708"
 ---
 # <a name="manage-your-data-source---importscheduled-refresh"></a>Administrar el origen de datos: importación o actualización programada
 
@@ -75,4 +74,4 @@ OAuth no es un esquema de autenticación compatible con la puerta de enlace de d
 * [Solución de problemas con la puerta de enlace de datos local](/data-integration/gateway/service-gateway-tshoot)
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md)
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).

@@ -2,7 +2,6 @@
 title: 'Tutorial: Importación y análisis de datos desde una página web'
 description: 'Tutorial: Importación y análisis de datos desde una página web con Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: d6cdcf47b42be4a9b541aa355efb3dd5e9667204
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e4a805db851e63a725a866065a774ef8ecc23c24
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514630"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879587"
 ---
 # <a name="tutorial-analyze-web-page-data-using-power-bi-desktop"></a>Tutorial: Análisis de datos de páginas web con Power BI Desktop
 
@@ -29,7 +28,7 @@ Como antiguo fanático del fútbol, desea crear un informe de los ganadores de C
 
 ## <a name="connect-to-a-web-data-source"></a>Conexión a un origen de datos de web
 
-Puede obtener los datos de los ganadores de la UEFA de la tabla Historial de la página de Wikipedia sobre el Campeonato Europeo de fútbol de la UEFA (Eurocopa), en http://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
+Puede obtener los datos de los ganadores de la UEFA de la tabla Historial de la página de Wikipedia sobre el Campeonato Europeo de fútbol de la UEFA (Eurocopa), en https://en.wikipedia.org/wiki/UEFA_European_Football_Championship. 
 
 ![Tabla de resultados de Wikipedia](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/webpage1.png)
 
@@ -44,7 +43,7 @@ Para importar los datos:
    >[!NOTE]
    >También puede seleccionar el elemento **Obtener datos** o seleccionar **Obtener datos** en el cuadro de diálogo **Introducción** de Power BI, seleccionar después **Web** en la sección **Todo** u **Otros** del cuadro de diálogo **Obtener datos** y después seleccionar **Conectar**.
    
-2. En el cuadro de diálogo **Desde la web**, pegue la dirección URL `http://en.wikipedia.org/wiki/UEFA_European_Football_Championship` en el cuadro de texto **URL** y luego seleccione **Aceptar**.
+2. En el cuadro de diálogo **Desde la web**, pegue la dirección URL `https://en.wikipedia.org/wiki/UEFA_European_Football_Championship` en el cuadro de texto **URL** y luego seleccione **Aceptar**.
    
     ![Obtener datos en el cuadro de diálogo](media/desktop-tutorial-importing-and-analyzing-data-from-a-web-page/get-data-web2.png)
    
@@ -186,8 +185,8 @@ Para cambiar el mapa a un gráfico circular, selecciónelo y luego seleccione el
 Power BI Desktop ofrece una experiencia perfectamente integrada que va desde la obtención de datos procedentes de una amplia gama de orígenes hasta su manipulación para adaptarlos a cualquier necesidad de análisis y su visualización de forma enriquecida e interactiva. Cuando el informe esté listo, podrá [cargarlo en Power BI](desktop-upload-desktop-files.md) y crear paneles basados en él, paneles que podrá compartir con otros usuarios de Power BI.
 
 ## <a name="see-also"></a>Vea también
-* [Lea otros tutoriales de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Vea vídeos de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite el foro de Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Lea el blog de Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Lea otros tutoriales de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Vea vídeos de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite el foro de Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Lea el blog de Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

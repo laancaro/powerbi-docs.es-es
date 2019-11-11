@@ -2,7 +2,6 @@
 title: Tipos de datos en Power BI Desktop
 description: Tipos de datos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccde7f01968a9fdcdd74903819b7083a552479b0
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391789"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868517"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -71,7 +70,7 @@ Power BI Desktop admite cinco tipos de datos de fecha y hora en la vista de cons
 **Verdadero/Falso** : un valor booleano de Verdadero o Falso.
 
 ### <a name="blanksnulls-type"></a>Tipo de valores en blanco/NULL
-**En blanco** : es un tipo de datos en DAX que representa y reemplaza a los valores NULL de SQL. Puede crear un espacio en blanco con la función [BLANK](http://msdn.microsoft.com/library/ee634820.aspx) y probarlos con la función lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
+**En blanco** : es un tipo de datos en DAX que representa y reemplaza a los valores NULL de SQL. Puede crear un espacio en blanco con la función [BLANK](https://msdn.microsoft.com/library/ee634820.aspx) y probarlos con la función lógica [ISBLANK](https://msdn.microsoft.com/library/ee634204.aspx).
 
 ### <a name="table-data-type"></a>Tipo de datos de tabla
 DAX usa un tipo de datos de tabla en muchas funciones, como las agregaciones y los cálculos de inteligencia de tiempo. Algunas funciones requieren una referencia a una tabla; otras funciones devuelven una tabla que puede usarse como entrada para otras funciones. En algunas funciones que requieren una tabla como entrada, puede especificar una expresión que se evalúa en una tabla; para algunas funciones, se requiere una referencia a una tabla base. Para información acerca de los requisitos de funciones específicas, consulte [Referencia de funciones DAX](https://msdn.microsoft.com/library/ee634396.aspx).

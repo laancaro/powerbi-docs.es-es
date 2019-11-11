@@ -3,18 +3,17 @@ title: Creación de una URL de inicio
 description: En este artículo se describe cómo se puede abrir la URL en una pestaña nueva mediante objetos visuales de Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 7dff03f0ad192e0598c677d41709447fbdc0688d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1bf7bac5631e0d76864620057ba3d95fab3ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307322"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879944"
 ---
 # <a name="create-a-launch-url"></a>Creación de una URL de inicio
 
@@ -31,12 +30,12 @@ Al crear una URL de inicio, puede abrir una nueva pestaña (o ventana) del explo
 Use la llamada API `host.launchUrl()`, y pase la dirección URL de destino como argumento de cadena:
 
 ```typescript
-this.host.launchUrl('http://some.link.net');
+this.host.launchUrl('https://some.link.net');
 ```
 
 ## <a name="restrictions"></a>Restricciones
 
-* Use solo rutas de acceso absolutas, no relativas. Por ejemplo, use una ruta de acceso absoluta como `http://some.link.net/subfolder/page.html`. La ruta de acceso relativa `/page.html` no se abrirá.
+* Use solo rutas de acceso absolutas, no relativas. Por ejemplo, use una ruta de acceso absoluta como `https://some.link.net/subfolder/page.html`. La ruta de acceso relativa `/page.html` no se abrirá.
 
 * Actualmente, solo se admiten los protocolos *HTTP* y *HTTPS*. Evite *FTP*, *MAILTO*, etc.
 

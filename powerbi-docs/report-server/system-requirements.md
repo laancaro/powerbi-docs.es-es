@@ -3,18 +3,17 @@ title: Requisitos de hardware y software para instalar el servidor de informes d
 description: En este artículo se especifican los requisitos mínimos de hardware y software para instalar y ejecutar Power BI Report Server.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 07/23/2019
-ms.openlocfilehash: fea28cd1c6541ae9255acd4be14cc85c2c2c5bed
-ms.sourcegitcommit: 473d031c2ca1da8935f957d9faea642e3aef9839
+ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68415352"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873932"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 
@@ -24,7 +23,7 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.6<br><br>Puede instalar manualmente .NET Framework desde [Microsoft .NET Framework 4.6 (Instalador web) para Windows](http://support.microsoft.com/kb/3045560).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.6, consulte [Guía de implementación de .NET Framework para desarrolladores](http://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](http://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.6. |
+| .NET Framework |4.6<br><br>Puede instalar manualmente .NET Framework desde [Microsoft .NET Framework 4.6 (Instalador web) para Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.6, consulte [Guía de implementación de .NET Framework para desarrolladores](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.6. |
 | Disco duro |El servidor de informes de Power BI requiere un mínimo de 1 GB de espacio disponible en disco duro.<br><br>Se requerirá espacio adicional en el servidor de bases de datos en el que se hospeda la base de datos del servidor de informes. |
 | Memoria |**Mínimo:** 1 GB<br/><br/> **Recomendado:** como mínimo 4 GB |
 | Velocidad del procesador |**Mínimo:** procesador x64: 1,4 GHz<br/><br/> **Recomendado:** 2.0 GHz o más rápido |
@@ -77,6 +76,6 @@ Puede usar una conexión activa con instancias tabulares o multidimensionales. E
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

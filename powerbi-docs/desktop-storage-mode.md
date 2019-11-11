@@ -2,7 +2,6 @@
 title: Uso del modo de almacenamiento en Power BI Desktop
 description: Uso del modo de almacenamiento para controlar si los datos se almacenan en caché en memoria para los informes de Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/26/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: bf69b2e4c25597eba980137e5ef8b2feb2f4d103
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 8ecb52f0e9f06a2d3b1c16b4231943ea7970a56e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327713"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879613"
 ---
 # <a name="storage-mode-in-power-bi-desktop"></a>Modo de almacenamiento en Power BI Desktop
 
@@ -92,7 +91,7 @@ Continuemos con el ejemplo de la sección anterior e imaginemos que se aplica la
 | Tabla                   | Modo de almacenamiento         |
 | ----------------------- |----------------------| 
 | *Sales*                 | DirectQuery          | 
-| *SurveyResponse*        | Importar               | 
+| *SurveyResponse*        | Importación               | 
 | *Date*                  | Dual                 | 
 | *Customer*              | Dual                 | 
 | *Geography*             | Dual                 | 

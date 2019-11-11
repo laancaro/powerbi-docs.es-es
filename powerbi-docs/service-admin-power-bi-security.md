@@ -3,19 +3,18 @@ title: Seguridad de Power BI
 description: Seguridad de Power BI. Cómo se relaciona Power BI con Azure Active Directory y otros servicios de Azure. Este tema también incluye un vínculo a las notas del producto para obtener información más detallada.
 author: davidiseminger
 ms.author: davidi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/09/2019
 LocalizationGroup: Administration
-ms.openlocfilehash: a5dac73fd2555b0ae53b0618dbc10f831db1149b
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e856c3afca0578c906a54f636dd58cd9208607a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074708"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873488"
 ---
 # <a name="power-bi-security"></a>Seguridad de Power BI
 
@@ -46,7 +45,7 @@ La línea de puntos en la imagen del clúster del **back-end** anterior aclara e
 
 ## <a name="user-authentication"></a>Autenticación de usuarios
 
-Power BI usa Azure Active Directory ([AAD](http://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta acceder a recursos que requieren autenticación. Los usuarios inician sesión en el servicio Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario en vigor* y lo pasa a los recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario establecido* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
+Power BI usa Azure Active Directory ([AAD](https://azure.microsoft.com/services/active-directory/)) para autenticar a los usuarios que inician sesión en el servicio Power BI y, a su vez, usa las credenciales de inicio de sesión de Power BI siempre que un usuario intenta acceder a recursos que requieren autenticación. Los usuarios inician sesión en el servicio Power BI con la dirección de correo electrónico usada para establecer la cuenta de Power BI; Power BI usa ese correo electrónico de inicio de sesión como *nombre de usuario en vigor* y lo pasa a los recursos cuando un usuario intenta conectarse a los datos. El *nombre de usuario establecido* se asigna después a un *nombre principal de usuario* ([UPN](https://msdn.microsoft.com/library/windows/desktop/aa380525\(v=vs.85\).aspx)) y se resuelve en la cuenta de dominio de Windows asociada, en la que se aplica la autenticación.
 
 Para las organizaciones que usaron mensajes de correo electrónico de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.com</em>, el *nombre de usuario eficaz* para la asignación de UPN es sencillo. Las organizaciones que no usaron correos electrónicos de trabajo para el inicio de sesión de Power BI (como <em>david@contoso.onmicrosoft.com</em>, la asignación entre AAD y las credenciales locales) requerirán una [sincronización de directorios](https://technet.microsoft.com/library/jj573653.aspx) para funcionar correctamente.
 

@@ -2,7 +2,6 @@
 title: Introducción a los iconos del panel para los diseñadores de Power BI
 description: En este artículo se describen los iconos de panel en Power BI, que incluye los que se crean a partir de informes de SQL Server Reporting Services (SSRS).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4577ca5d12002e18406b66036244d895fa7ee5fd
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 801af5e9c4d5306a3e77d4e82c787cc90e9cac37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994872"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872796"
 ---
 # <a name="intro-to-dashboard-tiles-for-power-bi-designers"></a>Introducción a los iconos del panel para los diseñadores de Power BI
 
@@ -99,8 +98,8 @@ Al seleccionar un icono, lo que sucede después depende de cómo lo ha creado. E
 - [Introducción a los paneles para los diseñadores de Power BI](service-dashboards.md)  
 - [Actualizar datos en Power BI](refresh-data.md)
 - [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
-- [Integración de iconos de Power BI en documentos de Office](http://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
+- [Integración de iconos de Power BI en documentos de Office](https://blogs.msdn.com/b/powerbidev/archive/2015/09/28/integrating-power-bi-tiles-into-office-documents.aspx)
 - [Anclado de elementos de Reporting Services en los paneles de Power BI](https://msdn.microsoft.com/library/mt604784.aspx)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 

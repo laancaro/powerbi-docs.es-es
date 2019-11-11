@@ -2,7 +2,6 @@
 title: Dos maneras de compartir un informe de Power BI filtrado
 description: Aprenda dos maneras de filtrar un informe de Power BI y compartirlo con los compañeros de la organización.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: c5bc8b32ae61870b794875c1d1720cd07dcf97f8
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877723"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871443"
 ---
 # <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Dos maneras de compartir un informe de Power BI filtrado
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. ¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. Intente filtrar un informe y compartirlo, o crear una dirección URL personalizada. El informe se filtra cuando los destinatarios lo abren por primera vez. Pueden quitar el filtro modificando la dirección URL. 
@@ -74,6 +73,6 @@ Consulte el artículo [Filtro de un informe con parámetros de cadena de consult
 ## <a name="next-steps"></a>Pasos siguientes
 * [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
 * [Compartir un panel](service-share-dashboards.md)
-* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 * ¿Quiere hacer algún comentario? Vaya al [sitio de la comunidad de Power BI](https://community.powerbi.com/) para efectuar sus sugerencias.
 

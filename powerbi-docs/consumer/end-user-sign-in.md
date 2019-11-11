@@ -2,7 +2,6 @@
 title: Inicio y cierre de sesión
 description: Obtenga información sobre cómo iniciar sesión en el servicio Power BI en la web y cómo cerrarla.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/13/2019
 ms.author: mihart
 LocalizationGroup: Getting started
-ms.openlocfilehash: 7bc52e06234b8c1be558f0c74680febe2a65d1d1
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: febe0ce869618d1517a668619e4b4bebd6023447
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72380144"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861598"
 ---
 # <a name="sign-in-to-power-bi-service"></a>Inicio de sesión en el servicio Power BI
 
@@ -40,7 +39,7 @@ Busque en la Bandeja de entrada un correo electrónico del Administrador de Powe
 
  
 ### <a name="step-3-create-a-new-password"></a>Paso 3: crear una contraseña
-Si el Administrador de Power BI le ha enviado una contraseña temporal, escríbala en el campo **Contraseña actual**. Si no ha recibido ninguna contraseña por correo electrónico, póngase en contacto con el Administrador de Power BI.
+Si el Administrador de Power BI le ha enviado una contraseña temporal, escríbala en el campo **Contraseña actual**. Si no ha recibido ninguna contraseña por correo electrónico, póngase en contacto con el administrador de Power BI.
 
 ![Dirección de correo electrónico escrita en el campo de inicio de sesión](media/end-user-sign-in/power-bi-login.png)
 

@@ -3,19 +3,18 @@ title: Uso de conectores de datos personalizados con la puerta de enlace de dato
 description: Puede usar conectores de datos personalizados con la puerta de enlace de datos local.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 3c0ef172115dba05deb02d724b663742a2e71c13
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: c76c8fdb635db7724ffeb1a5140e9095c9b2eff5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832529"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881749"
 ---
 # <a name="use-custom-data-connectors-with-the-on-premises-data-gateway"></a>Uso de conectores de datos personalizados con la puerta de enlace de datos local
 
@@ -23,7 +22,7 @@ ms.locfileid: "68832529"
 
 Con los conectores de datos de Power BI, puede conectarse y acceder a datos desde una aplicación, un servicio o un origen de datos. Puede desarrollar conectores de datos personalizados y usarlos en Power BI Desktop.
 
-Para obtener más información sobre cómo desarrollar conectores de datos personalizados para Power BI, consulte la [página de GitHub del SDK del conector de datos](http://aka.ms/dataconnectors). En este sitio se incluye información sobre cómo empezar a trabajar y ejemplos para Power BI y Power Query.
+Para obtener más información sobre cómo desarrollar conectores de datos personalizados para Power BI, consulte la [página de GitHub del SDK del conector de datos](https://aka.ms/dataconnectors). En este sitio se incluye información sobre cómo empezar a trabajar y ejemplos para Power BI y Power Query.
 
 Al compilar informes en Power BI Desktop en los que se usan conectores de datos personalizados, puede utilizar la puerta de enlace de datos local para actualizar esos informes desde el servicio Power BI.
 
@@ -58,4 +57,4 @@ Si esta opción está habilitada, verá los conectores personalizados como oríg
 * [Configuración de los valores del proxy para la puerta de enlace de datos local](/data-integration/gateway/service-gateway-proxy)
 * [Uso de Kerberos para el inicio de sesión único (SSO) de Power BI a orígenes de datos locales](service-gateway-sso-kerberos.md)  
 
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).

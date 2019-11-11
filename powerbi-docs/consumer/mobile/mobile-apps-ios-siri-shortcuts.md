@@ -9,12 +9,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/03/2019
 ms.author: michalfo
-ms.openlocfilehash: 3f1e02c880d737998afd7c84c4259e4de8582da9
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: befe57bd0c3441a44f4db745e3af73bd9afed933
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70391492"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73783548"
 ---
 # <a name="using-siri-shortcuts-in-power-bi-mobile-ios-app-preview"></a>Uso de accesos directos de Siri en una aplicación iOS de Power BI Mobile (versión preliminar)
 
@@ -66,7 +66,7 @@ Para eliminar un acceso directo, vaya al elemento y, en el menú de acciones (..
 ## <a name="next-steps"></a>Pasos siguientes
 Más información sobre la aplicación móvil de Power BI: 
 
-* Descargue la [aplicación móvil de Power BI para iPhone](http://go.microsoft.com/fwlink/?LinkId=522062).
+* Descargue la [aplicación móvil de Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062).
 * Siga [@MSPowerBI en Twitter](https://twitter.com/MSPowerBI).
-* Únase a la conversación en la [Comunidad de Power BI](http://community.powerbi.com/).
+* Únase a la conversación en la [Comunidad de Power BI](https://community.powerbi.com/).
 

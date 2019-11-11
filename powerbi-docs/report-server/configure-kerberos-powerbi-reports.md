@@ -2,19 +2,18 @@
 title: Configuración de Kerberos para el uso de informes de Power BI
 description: Aprenda a configurar el servidor de informes para la autenticación Kerberos en los orígenes de datos que se utilizan en los informes de Power BI para un entorno distribuido.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/01/2017
 ms.author: maggies
-ms.openlocfilehash: 63bf5653ddf17097a44113324011951734f6d13c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 6e341f80e3631228c28590ccf0a7711e0b624f2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770708"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874240"
 ---
 # <a name="configure-kerberos-to-use-power-bi-reports"></a>Configuración de Kerberos para el uso de informes de Power BI
 <iframe width="640" height="360" src="https://www.youtube.com/embed/vCH8Fa3OpQ0?showinfo=0" frameborder="0" allowfullscreen></iframe>

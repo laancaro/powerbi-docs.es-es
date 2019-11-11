@@ -7,12 +7,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 0cf85d2757dd77de854a6640f400c6dd9c70379a
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431514"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73791262"
 ---
 # <a name="use-shared-datasets-in-power-bi-report-builder"></a>Uso de conjuntos de datos compartidos en el Generador de informes de Power BI
 
@@ -30,7 +30,7 @@ Esta es una lista de lo que necesita y no necesita para usar un conjunto de dato
 - Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](service-datasets-build-permissions.md).
 - No necesita una licencia de Power BI Pro para crear un informe paginado en el Generador de informes. 
 - Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium. 
-- Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato**, desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
+- Opcional: Si quiere seguir este artículo, descargue el archivo de Power BI Desktop [Ejemplo de análisis de minoristas.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), ábralo en Power BI Desktop y agregue una tabla con muchas columnas. En el panel **Formato**, desactive **Totales**. Después, publíquelo en un área de trabajo del servicio Power BI.
 
     ![Totales desactivado](media/report-builder-shared-datasets/power-bi-desktop-totals-off.png)
 

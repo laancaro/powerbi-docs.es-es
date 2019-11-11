@@ -2,7 +2,6 @@
 title: Uso de gráficos de cinta de opciones en Power BI
 description: Creación y uso de gráficos de cinta en Power BI Desktop
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/10/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e6044f3a2cfdbfc40d0497ebde25780336dc1dc4
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 1cee814b5013ece3a847aeb3660f1257c69be125
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715478"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871133"
 ---
 # <a name="use-ribbon-charts-in-power-bi"></a>Uso de gráficos de cinta de opciones en Power BI
 
@@ -27,7 +26,7 @@ Puede usar gráficos de la barra de herramientas para visualizar y detectar ráp
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
    

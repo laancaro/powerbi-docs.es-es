@@ -2,7 +2,6 @@
 title: P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 description: Descripción de cómo el servicio Power BI ofrece alta disponibilidad y proporciona continuidad empresarial y recuperación ante desastres a los usuarios.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: b8f98541b70c3573d9f31b5e59196cd37d322bb3
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: dd2c94b490cdf31bd383c7100b9a1bc372f8e75f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075233"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873681"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -23,7 +22,7 @@ En este artículo se describe cómo el servicio Power BI ofrece alta disponibili
 
 ## <a name="what-does-high-availability-mean-for-power-bi"></a>¿Qué significa "alta disponibilidad" para Power BI?
 
-Power BI es software como servicio (SaaS) totalmente administrado.  Microsoft lo diseña y hace funcionar para que sea resistente a los errores de infraestructura de modo que los usuarios siempre puedan acceder a sus informes.  El servicio está respaldado por un [SLA del 99,9 %](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
+Power BI es software como servicio (SaaS) totalmente administrado.  Microsoft lo diseña y hace funcionar para que sea resistente a los errores de infraestructura de modo que los usuarios siempre puedan acceder a sus informes.  El servicio está respaldado por un [SLA del 99,9 %](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37).
 
 ## <a name="what-is-a-power-bi-failover"></a>¿Qué es la conmutación por error de Power BI?
 
@@ -50,7 +49,7 @@ En ambos casos, los miembros del equipo ejecutivo de Power BI toman la decisión
 
 ## <a name="how-do-i-know-power-bi-is-now-in-failover-mode"></a>¿Cómo se puede saber que Power BI ya está en modo de conmutación por error?
 
-Se publica una notificación en la página de soporte técnico de Power BI ([https://powerbi.microsoft.com/en-us/support/](https://powerbi.microsoft.com/en-us/support/)). La notificación incluye las operaciones principales que no están disponibles durante la conmutación por error, incluidas las de publicación, actualización, creación de paneles, duplicación de paneles y cambios de permisos.
+Se publica una notificación en la página de soporte técnico de Power BI ([https://powerbi.microsoft.com/support/](https://powerbi.microsoft.com/support/)). La notificación incluye las operaciones principales que no están disponibles durante la conmutación por error, incluidas las de publicación, actualización, creación de paneles, duplicación de paneles y cambios de permisos.
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>¿Cuánto tiempo tarda Power BI en realizar la conmutación por error?
 

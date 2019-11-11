@@ -2,7 +2,6 @@
 title: Configuración de presentación de página en un informe de Power BI
 description: Configuración de la presentación de página y configuración de la vista de página de un informe
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 97df2d6910f0215bd01875c88ea5d81d5dcc2c7c
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720853"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875138"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
 Sabemos que es crítico lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque puede que usted y sus compañeros de trabajo vean esos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
@@ -80,5 +79,5 @@ Más información sobre [informes de Power BI](consumer/end-user-reports.md)
 
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

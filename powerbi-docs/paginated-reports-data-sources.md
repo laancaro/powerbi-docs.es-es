@@ -3,18 +3,17 @@ title: Orígenes de datos admitidos para informes paginados de Power BI
 description: En este artículo, obtendrá información sobre los orígenes de datos admitidos para los informes paginados en el servicio Power BI y cómo conectarse a orígenes de datos de Azure SQL Database.
 author: onegoodsausage
 ms.author: andremi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 07/19/2019
-ms.openlocfilehash: f0cc7563fc59a6c1ceeceefcf4b65b0cc1a3aa80
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: fcc6e7880a3f27c6b35fe2192e76a0b2cc82abd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968647"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874845"
 ---
 # <a name="supported-data-sources-for-power-bi-paginated-reports"></a>Orígenes de datos admitidos para informes paginados de Power BI
 
@@ -41,7 +40,7 @@ Para los orígenes de datos de Azure SQL Database, debe proporcionar más inform
 
 Además de los orígenes de datos anteriores admitidos de forma nativa, se puede acceder a los siguientes a través de una [puerta de enlace de datos de Power BI](service-gateway-onprem.md):
 
-- SQL Server
+- SQL Server
 - SQL Server Analysis Services
 - Oracle
 - Teradatos
@@ -74,4 +73,4 @@ Para que SSO y OAuth2 funcionen correctamente, el servidor de Azure SQL Database
 
 [Visualización de un informe paginado en el servicio Power BI](paginated-reports-view-power-bi-service.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

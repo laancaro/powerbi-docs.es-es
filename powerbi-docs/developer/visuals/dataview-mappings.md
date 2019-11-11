@@ -3,18 +3,17 @@ title: Información sobre las asignaciones de vistas de datos en objetos visuale
 description: En este artículo se describe cómo transforma Power BI los datos antes de pasarlos en objetos visuales.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 77d5d6423c8246712d12dcc041d32ae73f68b72e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 07cc0517fb27649bb3cc47b8ba8f51b4268d9a7c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71193540"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880175"
 ---
 # <a name="understand-data-view-mapping-in-power-bi-visuals"></a>Información sobre las asignaciones de vistas de datos en objetos visuales de Power BI
 
@@ -516,7 +515,7 @@ Power BI crea una estructura de datos jerárquica. La raíz de la jerarquía de
 
 Conjunto de datos:
 
-| Elementos principales | Elementos secundarios | Elementos descendientes del secundario | Columns | Valores |
+| Elementos principales | Elementos secundarios | Elementos descendientes del secundario | Columnas | Valores |
 |-----|-----|------|-------|-------|
 | Principal1 | Secundario1 | Subelemento secundario1 | Col1 | 5 |
 | Principal1 | Secundario1 | Subelemento secundario1 | Col2 | 6 |

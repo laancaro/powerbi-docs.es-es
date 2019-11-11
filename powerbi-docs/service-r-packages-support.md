@@ -2,7 +2,6 @@
 title: Conozca qué paquetes de R se admiten
 description: Paquetes de R compatibles e incompatibles con Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: edbe565d155f0c0623cfef0417cc3861dc515c15
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: 1070cf40fb743fc0d4661bd067b6475ef8dc8217
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654188"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871682"
 ---
 # <a name="r-packages-in-the-power-bi-service"></a>Paquetes de R en el servicio Power BI
 Puede usar el eficaz [lenguaje de programación R](https://www.r-project.org/) para crear objetos visuales en el servicio Power BI. En el servicio Power BI se admiten muchos paquetes de R (y con el tiempo se van admitiendo más), pero algunos no.

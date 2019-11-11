@@ -1,17 +1,17 @@
 ---
-ms.openlocfilehash: 6366dbe4d7c58b49b4085d80aa690fd6c64fee59
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 3966521d158c244487638be4117f98ea570e1f28
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847737"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800131"
 ---
 Bienvenido a la sección **Aprendizaje guiado** de Power BI, diseñada para presentarle **DAX**.
 
 **DAX** significa **Expresiones de análisis de datos**,y es el lenguaje de fórmulas usado en Power BI (también en segundo plano). DAX también se encuentra en otras ofertas de Microsoft, como Power Pivot y SSAS Tabular, pero estos temas de aprendizaje guiado se centran en cómo se usa DAX, y cómo puede usarlo, en Power BI.
 
 ## <a name="dax-and-this-guided-learning-video-series"></a>DAX y esta serie de vídeos de aprendizaje guiado
-El objetivo de esta sección **Aprendizaje guiado** es mostrarle los aspectos básicos y los fundamentos de DAX: cómo pensar sobre DAX, cómo funciona y las características más útiles, explicado (y aprendido con mucha experiencia) por un conocido experto en DAX, [Alberto Ferrari](http://www.sqlbi.com/learning-dax).
+El objetivo de esta sección **Aprendizaje guiado** es mostrarle los aspectos básicos y los fundamentos de DAX: cómo pensar sobre DAX, cómo funciona y las características más útiles, explicado (y aprendido con mucha experiencia) por un conocido experto en DAX, [Alberto Ferrari](https://www.sqlbi.com/learning-dax).
 
 ![Foto de Alberto Ferrari](media/7-1-intro-to-dax/intro_dax_6_alberto_ferrari.png)
 
@@ -30,7 +30,7 @@ DAX emplea la sobrecarga del operador, lo que significa que puede mezclar tipos 
 
 Hay un tipo de datos en concreto con el que probablemente trabaje con frecuencia en Power BI: **Fecha y hora**. **Fecha y hora** se almacena como un valor de coma flotante con partes decimales y enteras. Este tipo de datos puede utilizarse para calcular con precisión un periodo posterior al 1 de marzo de 1900.
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax/?utm_source=powerbi&utm_medium=marketing&utm_campaign=after-summit)
 > 
 > 
 

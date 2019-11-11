@@ -2,7 +2,6 @@
 title: Cambiar cómo interactúan los objetos visuales en un informe
 description: Documentación sobre cómo establecer interacciones de los objetos visuales en un informe de Microsoft Power BI y en un informe de Power BI Desktop.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: N_xYsCbyHPw
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 02/11/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6f739992ed282ada92b1049df09a8b5d4b3938a9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1b05acc111ce582c84706e5b63ba564f606576f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61406036"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871578"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Cambiar cómo interactúan los objetos visuales en un informe de Power BI
 Si tiene permisos de edición de un informe, puede usar las **Interacciones de objetos visuales** para cambiar cómo afectan las visualizaciones de una página de informe entre sí. 

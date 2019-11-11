@@ -2,7 +2,6 @@
 title: Conexión a un archivo PDF en Power BI Desktop
 description: Conéctese fácilmente a archivos PDF y úselos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 77a036cd1852c237c827dca07363492c94d8a272
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: d9d506052428e96ccaaed67e8b98733dd988d192
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160269"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876389"
 ---
 # <a name="connect-to-a-pdf-file-in-power-bi-desktop"></a>Conexión a un archivo PDF en Power BI Desktop
 En Power BI Desktop, puede conectarse a un **archivo PDF** y usar los datos incluidos del archivo, como con cualquier otro origen de datos en Power BI Desktop.

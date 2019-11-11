@@ -2,19 +2,18 @@
 title: Establecer alertas de datos en las aplicaciones móviles de Power BI
 description: Aprenda a configurar alertas en las aplicaciones móviles de Power BI para recibir una notificación si cambian los datos de un panel más allá de los límites establecidos.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 12/18/2017
 ms.author: mshenhav
-ms.openlocfilehash: 65e6414cb31c2b8234bb1f5426c7bff295263308
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c843a3ef8ddfde591dec27ea523cb73857d1a289
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61381404"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870112"
 ---
 # <a name="set-data-alerts-in-the-power-bi-mobile-apps"></a>Establecer alertas de datos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -168,5 +167,5 @@ Los orígenes de datos se configuran a menudo para actualizarse diariamente, aun
 ## <a name="next-steps"></a>Pasos siguientes
 * [Administrar las alertas en el servicio Power BI](../../service-set-data-alerts.md)
 * [Centro de notificaciones de Power BI Mobile](mobile-apps-notification-center.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

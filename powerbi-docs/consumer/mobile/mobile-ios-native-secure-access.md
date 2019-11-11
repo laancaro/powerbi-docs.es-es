@@ -2,19 +2,18 @@
 title: Protección de los datos de Power BI con la identificación nativa del dispositivo
 description: Aprenda a configurar la aplicación iOS para requerir la identificación adicional antes de acceder a los datos de Power BI
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/07/2019
 ms.author: mshenhav
-ms.openlocfilehash: b7418c9579a439a18a30a967947c15d58693fd44
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: a4ae7d7d61f4b377fe020fcc5f66f68ae7709ac7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "66816832"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870156"
 ---
 # <a name="protect-power-bi-app-with-face-id-touch-id-or-passcode"></a>Protección de la aplicación de Power BI con Face ID, Touch ID o código de acceso 
 

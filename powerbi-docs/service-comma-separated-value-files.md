@@ -2,7 +2,6 @@
 title: Obtención de datos de archivos .CSV (valores separados por comas)
 description: Aprenda cómo obtener datos de archivos CSV en Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1a150c2cb4eb819b78b2b08a492087eb98bf6363
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: a33c8a45f4f32efb0a47df82b8af23d42c281ae9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513334"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855520"
 ---
 # <a name="get-data-from-comma-separated-value-csv-files"></a>Obtención de datos de archivos .CSV (valores separados por comas)
 ![](media/service-comma-separated-value-files/csv_icon.png)
 
-Los archivo de valores separados por coma, conocidos como .CSV, son archivos de texto simples con filas de datos donde cada valor se separa por una coma. Estos tipos de archivos pueden contener grandes cantidades de datos con un tamaño de archivo relativamente pequeño, por lo que son un origen de datos ideal para Power BI. Puede descargar un archivo .CSV de ejemplo [aquí](http://go.microsoft.com/fwlink/?LinkID=619356).
+Los archivo de valores separados por coma, conocidos como .CSV, son archivos de texto simples con filas de datos donde cada valor se separa por una coma. Estos tipos de archivos pueden contener grandes cantidades de datos con un tamaño de archivo relativamente pequeño, por lo que son un origen de datos ideal para Power BI. Puede descargar un archivo .CSV de ejemplo [aquí](https://go.microsoft.com/fwlink/?LinkID=619356).
 
 Si tiene un archivo .CSV, es el momento de consultarlo en el sitio de Power BI como un conjunto de datos para poder empezar a explorar los datos, crear algunos paneles y compartir sus conocimientos con otros usuarios.
 

@@ -2,7 +2,6 @@
 title: Habilitación del cifrado para SAP HANA
 description: Aprenda a cifrar la conexión gracias al inicio de sesión único de SAML al conectarse a un servidor de HANA desde Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/26/2019
 ms.author: mblythe
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1c8c65d9b0f0b669d46d73d739be24f29f623743
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: e0d8787c81fa6730e7ce34a888a05be3a2ffe63f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877802"
 ---
 # <a name="enable-encryption-for-sap-hana"></a>Habilitación del cifrado para SAP HANA
 
@@ -101,7 +100,7 @@ Pruebe la conexión en Power BI Desktop o en el servicio Power BI.
 
 1. En Power BI Desktop o en la página **Administrar puertas de enlace** del servicio Power BI, asegúrese de que **Validar certificado de servidor** esté habilitado al intentar establecer una conexión con el servidor de SAP HANA. En **Proveedor de cifrado SSL**, seleccione mscrypto si ha seguido los pasos de instalación de OpenSSL, o bien commoncrypto si ha configurado dicha biblioteca como proveedor de cifrado. Deje en blanco los campos Almacén de claves SSL y Almacén de confianza SSL.
 
-    - Power BI Desktop
+    - Power BI Desktop
 
         ![Validación del certificado del servidor (servicio)](media/desktop-sap-hana-encryption/validate-server-certificate-service.png)
 

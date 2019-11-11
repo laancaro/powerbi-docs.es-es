@@ -3,19 +3,18 @@ title: Supervise las capacidades de Power BI Premium con la aplicación Premium 
 description: Uso del Portal de administración de Power BI y la aplicación Power BI Premium Capacity Metrics
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 05/31/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 9f5e2715af5b3fd898d3c7f0486c8b75463a1c42
-ms.sourcegitcommit: 9eae2a52af6926cda4d6b03de4d50d7fa8b2f216
+ms.openlocfilehash: 3ec2d68fd7245642c67f8b12b86609683ccf69e8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/26/2019
-ms.locfileid: "70030189"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873471"
 ---
 # <a name="monitor-premium-capacities-with-the-app"></a>Supervisión de capacidades Premium con la aplicación
 
@@ -59,7 +58,7 @@ Para ver un panel donde se resuman las métricas clave de las capacidades para l
 
 En el panel se incluyen las métricas siguientes:
 
-#### <a name="top"></a>Top
+#### <a name="top"></a>Superior
 
 | Métrica | Descripción |
 | --- | --- |

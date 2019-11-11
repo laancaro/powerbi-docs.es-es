@@ -2,7 +2,6 @@
 title: 'Servicio de terceros: Conector de Google Analytics'
 description: 'Servicio de terceros: Conector de Google Analytics para Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ad2c67e73fe8afbd0f379c149181db56f12e9b17
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: da7d4de1aa356c9df5004ecc07d479188d9e3a9e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514371"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881412"
 ---
 # <a name="google-analytics-connector-for-power-bi-desktop"></a>Conector de Google Analytics para Power BI Desktop
 > [!NOTE]

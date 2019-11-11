@@ -2,7 +2,6 @@
 title: Sugerencias para diseñar un panel de Power BI fantástico
 description: Sugerencias para diseñar un panel de Power BI fantástico
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 2083fa0d197010ca770422f11c7f1e4b83d0184b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 95170ec36c5b4da0314c858ae415c3bbcb2ab556
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023745"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877395"
 ---
 # <a name="tips-for-designing-a-great-power-bi-dashboard"></a>Sugerencias para diseñar un panel de Power BI fantástico
 Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir un panel atractivo, a la par que funcional. En general, significa destacar la información más importante y mantenerlo limpio y despejado.
@@ -24,8 +23,6 @@ Ahora que ya creó un panel y agregó algunos iconos, piense en cómo conseguir 
 
 > [!TIP]
 > ¿Le gusta este panel? Puede descargarlo, junto a informes relacionados, desde AppSource. Vaya a **Obtener datos** > **Servicios**. Busque **Microsoft Sample - Sales & Marketing** > **Obtenerlo ahora**.
-
-Muchos de los principios de diseño de los informes se aplican también a los paneles. Para más información, lea el documento técnico [Procedimientos recomendados de diseño para informes y visualizaciones](visuals/power-bi-visualization-best-practices.md).
 
 Estas son algunas sugerencias para los paneles.
 
@@ -85,4 +82,4 @@ Si desea aprender a diseñar paneles fantásticos, considere la posibilidad de a
 ## <a name="next-steps"></a>Pasos siguientes
 [Creación de un panel desde un informe](service-dashboard-create.md)  
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

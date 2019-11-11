@@ -2,7 +2,6 @@
 title: Tipos de objetos visuales en Power BI para los consumidores
 description: Tipos de objetos visuales en el servicio Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/21/2019
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 875e154dbac063c0e4b9d5dc4208387e6d529a93
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70302508"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861324"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
@@ -232,4 +231,4 @@ Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Powe
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Interacción con objetos visuales en informes, paneles y aplicaciones](end-user-visualizations.md)    
-[The right visual reference from sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)
+[The right visual reference from sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)

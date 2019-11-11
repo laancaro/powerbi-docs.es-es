@@ -2,7 +2,6 @@
 title: Visualización de imágenes en una tabla o una matriz de un informe
 description: En Power BI Desktop, cree una columna con hipervínculos a imágenes. A continuación, en Power BI Desktop o en el servicio Power BI, agregue esos hipervínculos a una tabla de informe, una matriz, una segmentación o una tarjeta de varias filas para mostrar la imagen.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/11/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: cbb04057c8065e998068dd6520539c830a659f72
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 95b1dc1be3421f19fa8220629ca2003469658480
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715551"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874479"
 ---
 # <a name="display-images-in-a-table-matrix-or-slicer-in-a-report"></a>Visualización de imágenes en una tabla, una matriz o una segmentación de un informe
 
@@ -48,5 +47,5 @@ Una buena manera de mejorar los informes es agregarles imágenes. Las imágenes 
 
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

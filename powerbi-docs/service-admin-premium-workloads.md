@@ -3,19 +3,18 @@ title: Procedimientos para configurar las cargas de trabajo en Power BI Premium
 description: Descubra cómo configurar las cargas de trabajo en una capacidad Premium de Power BI.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 2b05ad31612d1960e131028d13552843834a98bd
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307388"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73856828"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -71,7 +70,7 @@ La carga de trabajo de conjuntos de datos está habilitada de forma predetermina
 | **Límite de memoria de consulta (%)** | Porcentaje máximo de memoria disponible que se puede usar para los resultados temporales en una consulta o una medida DAX. |
 | **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. |
 | **Actualización automática de páginas (versión preliminar)** | Botón de alternancia de activación o desactivación para permitir que las áreas de trabajo Premium tengan informes con actualización automática de páginas. |
-| **Intervalo de actualización mínimo** | Si la actualización automática de páginas está activada, es el intervalo mínimo permitido como intervalo de actualización de páginas. El valor predeterminado es cinco minutos y el mínimo permitido, un segundo. |
+| **Intervalo de actualización mínimo** | Si la actualización automática de páginas está activada, es el intervalo mínimo permitido como intervalo de actualización de páginas. El valor predeterminado es cinco minutos y el mínimo permitido es un segundo. |
 |  |  |  |
 
 #### <a name="max-intermediate-row-set-count"></a>Número máximo de conjuntos de filas intermedias
@@ -198,4 +197,4 @@ La aplicación [Métricas de capacidad de Power BI Premium](service-admin-premiu
 [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)   
 [Actualización automática de la página en Power BI Desktop (versión preliminar)](desktop-automatic-page-refresh.md)
 
-¿Tiene más preguntas? [Pregunte a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pregunte a la comunidad de Power BI](https://community.powerbi.com/)

@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: 06ee6ad7ade46d811c6340d905150c6dd3810c55
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: c3b1b7288d0d277fc866ea47887335d10279c6cc
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273624"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800132"
 ---
 Con DAX, hay muchas funciones disponibles para dar forma, formar o analizar los datos. Estas funciones se pueden agrupar en un conjunto de categorías:
 
@@ -97,7 +97,7 @@ DAX incluye las siguientes funciones de **fecha**:
 
 Aunque estas funciones son útiles para calcular y extraer información de los valores de *fecha*, no se aplican a la inteligencia de tiempo, que usa una tabla de fechas.
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 

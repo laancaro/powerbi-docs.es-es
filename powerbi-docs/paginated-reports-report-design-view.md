@@ -3,18 +3,17 @@ title: Descripción de la vista de diseño de informe en los informes paginados
 description: La vista de diseño de informe del generador de informes es el espacio de diseño para crear informes paginados que puede publicar en el servicio Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 11/05/2018
-ms.openlocfilehash: 6be5121c91d64a4bd9437a1d7d111d10627b8330
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: a77631cbf2438c00a8c05b196837b73b8dc6bb61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70751590"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874699"
 ---
 # <a name="getting-around-in-report-design-view-for-paginated-reports"></a>Descripción de la vista de diseño de informe en los informes paginados
 

@@ -2,7 +2,6 @@
 title: Gráficos de embudo
 description: Gráficos de embudo en Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ac9ffa4d1186a8ca6d4e2d55da4311bbce55903e
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71194678"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880830"
 ---
 # <a name="funnel-charts"></a>Gráficos de embudo
 
@@ -52,7 +51,7 @@ Gráficos de embudo:
    > 
 ## <a name="prerequisite"></a>Requisito previo
 
-Este tutorial usa el [archivo PBIX del Ejemplo de análisis de oportunidades](http://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
+Este tutorial usa el [archivo PBIX del Ejemplo de análisis de oportunidades](https://download.microsoft.com/download/9/1/5/915ABCFA-7125-4D85-A7BD-05645BD95BD8/Opportunity%20Analysis%20Sample%20PBIX.pbix
 ).
 
 1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.

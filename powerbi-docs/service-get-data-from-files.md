@@ -2,7 +2,6 @@
 title: Obtener datos de archivos en Power BI
 description: Aprenda cómo obtener datos desde Excel, Power BI Desktop y archivos CSV en Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 8eeb8431f3f4e5fff15bb1eb2984826c73826b34
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: bc68fda914450345f5854375e3ef0964438eef30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65511931"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872314"
 ---
 # <a name="get-data-from-files-for-power-bi"></a>Obtener datos de archivos en Power BI
 ![](media/service-get-data-from-files/file_icons.png)

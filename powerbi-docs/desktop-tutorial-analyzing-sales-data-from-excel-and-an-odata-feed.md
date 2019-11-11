@@ -2,7 +2,6 @@
 title: 'Tutorial: Combinación de datos de Excel y una fuente de OData en Power BI Desktop'
 description: 'Tutorial: Combinación de datos de Excel y una fuente de OData'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: f18dae9ecd0eff0b7f62a3152fc59c81f1292ba4
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 8d1b253d5e84bb15dea4612978ee970faccb7a1a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160377"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866084"
 ---
 # <a name="tutorial-combine-sales-data-from-excel-and-an-odata-feed"></a>Tutorial: Combinación de datos de ventas de Excel y una fuente de OData
 
@@ -35,7 +34,7 @@ Va a importar cada conjunto de datos y a realizar operaciones de transformación
 
 En primer lugar, importe los datos de productos desde el libro de Excel Products.xlsx en Power BI Desktop.
 
-1. [Descargue el libro de Excel Products.xlsx](http://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) y guárdelo como **Products.xlsx**.
+1. [Descargue el libro de Excel Products.xlsx](https://download.microsoft.com/download/1/4/E/14EDED28-6C58-4055-A65C-23B4DA81C4DE/Products.xlsx) y guárdelo como **Products.xlsx**.
    
 2. Seleccione la flecha desplegable junto a **Obtener datos** en la pestaña **Inicio** de la cinta de opciones de Power BI Desktop y luego seleccione **Excel** en el menú desplegable **Más comunes**. 
    
@@ -76,7 +75,7 @@ A continuación, importe los datos de pedidos de la fuente de OData del sistema 
    
    ![Obtener OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata.png)
    
-2. En el cuadro de diálogo **Fuente de OData**, escriba la dirección URL de la fuente de OData de Northwind, `http://services.odata.org/V3/Northwind/Northwind.svc/`. Seleccione **Aceptar**.
+2. En el cuadro de diálogo **Fuente de OData**, escriba la dirección URL de la fuente de OData de Northwind, `https://services.odata.org/V3/Northwind/Northwind.svc/`. Seleccione **Aceptar**.
    
    ![Cuadro de diálogo Fuente de OData](media/desktop-tutorial-analyzing-sales-data-from-excel-and-an-odata-feed/get_odata2.png)
    
@@ -271,7 +270,7 @@ Seleccione un producto del gráfico **Cantidad por nombre de producto** para ver
 El informe completo combina los datos del archivo de Excel Products.xlsx y la fuente de OData de Northwind en objetos visuales que le ayudarán a analizar la información de pedidos de distintos países, períodos de tiempo y productos. Cuando el informe esté listo, puede [cargarlo en el servicio Power BI](desktop-upload-desktop-files.md) para compartirlo con otros usuarios de Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Lea otros tutoriales de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Vea vídeos de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite el foro de Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Lea el blog de Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Lea otros tutoriales de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Vea vídeos de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite el foro de Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Lea el blog de Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)

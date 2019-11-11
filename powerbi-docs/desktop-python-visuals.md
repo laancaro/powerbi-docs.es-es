@@ -2,7 +2,6 @@
 title: Creación de objetos visuales de Power BI con Python
 description: Creación de objetos visuales de Power BI con Python
 author: otarb
-manager: rajatt
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/20/2018
 ms.author: otarb
 LocalizationGroup: Create reports
-ms.openlocfilehash: b41a50ae7c4aaf8f70c9d7745ea4767b7644a62f
-ms.sourcegitcommit: 09ee1b4697aad84d8f4c9421015d7e4dbd3cf25f
+ms.openlocfilehash: 567b775cb7323dbd343f2a26d4abc0d60885ab7a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "70303124"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877975"
 ---
 # <a name="create-power-bi-visuals-using-python"></a>Creación de objetos visuales de Power BI con Python
 Con **Power BI Desktop**, puede usar **Python** para visualizar los datos.
@@ -158,7 +157,7 @@ Este tutorial está diseñado para ayudarle a empezar a crear objetos visuales c
 * Documentación en el sitio web de [Matplotlib](https://matplotlib.org/). 
 * [Matplotlib Tutorial: A Basic Guide to Use Matplotlib with Python](https://www.datasciencelearner.com/matplotlib-tutorial-complete-guide-to-use-matplotlib-with-python/) (Tutorial de Matplotlib: una guía básica para usar Matplotlib con Python) 
 * [Matplotlib Tutorial – Python Matplotlib Library with Examples](https://www.edureka.co/blog/python-matplotlib-tutorial/) (Tutorial de Matplotlib: biblioteca de Matplotlib de Python con ejemplos) 
-* [Pandas API Reference](http://pandas.pydata.org/pandas-docs/stable/reference/index.html) (Referencia de la API de Pandas) 
+* [Pandas API Reference](https://pandas.pydata.org/pandas-docs/stable/reference/index.html) (Referencia de la API de Pandas) 
 * [Visualizaciones de Python en el servicio Power BI](https://powerbi.microsoft.com/blog/python-visualizations-in-power-bi-service/) 
 * [Using Python Visuals in Power BI ](https://www.absentdata.com/how-to-user-python-and-power-bi/) (Uso de objetos visuales de Python en Power BI)
 

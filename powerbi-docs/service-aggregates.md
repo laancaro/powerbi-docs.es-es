@@ -2,7 +2,6 @@
 title: Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 description: Aprenda a cambiar la agregación de un gráfico (suma, promedio, máximo, etc.) en el servicio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 05/03/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 7cee05df6a7d13e18bc31bc1a1f34a5f89711c0d
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/04/2019
-ms.locfileid: "65710668"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873307"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 
@@ -50,7 +49,7 @@ Trabajar con agregados en el servicio Power BI puede resultar confuso. Es posib
 
 Normalmente, el problema subyacente es la definición del campo en el conjunto de datos. Es posible que el propietario del conjunto de datos haya definido el campo como texto y eso explica por qué Power BI no puede sumarlo ni calcular su promedio. Por desgracia, [solo el propietario del conjunto de datos puede cambiar la manera en que se clasifica un campo](desktop-measures.md). Por lo tanto, si tiene permisos de propietario para el conjunto de datos, ya sea en Desktop o en el programa que se ha usado para crear el conjunto de datos (por ejemplo, Excel), puede solucionar este problema. En caso contrario, debe ponerse en contacto con el propietario del conjunto de datos para obtener ayuda.  
 
-Hay una sección especial al final de este artículo titulada [**Consideraciones y solución de problemas**](#considerations-and-troubleshooting). Proporciona sugerencias e instrucciones. Si no encuentra la respuesta en esa sección, publique una pregunta en el [foro de la comunidad de Power BI](http://community.powerbi.com). Recibirá una respuesta rápida directamente del equipo de Power BI.
+Hay una sección especial al final de este artículo titulada [**Consideraciones y solución de problemas**](#considerations-and-troubleshooting). Proporciona sugerencias e instrucciones. Si no encuentra la respuesta en esa sección, publique una pregunta en el [foro de la comunidad de Power BI](https://community.powerbi.com). Recibirá una respuesta rápida directamente del equipo de Power BI.
 
 ## <a name="change-how-a-numeric-field-is-aggregated"></a>Cambiar el modo en que un campo numérico se agrega
 
@@ -188,4 +187,4 @@ P:  No veo la opción **No resumir** en la lista desplegable.
 
 R:  Pruebe a quitar el campo y agregarlo de nuevo.
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

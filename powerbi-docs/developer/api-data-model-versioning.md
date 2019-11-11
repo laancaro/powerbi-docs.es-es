@@ -3,18 +3,17 @@ title: Control de versiones de modelos de datos de Power BI
 description: Modelo de datos expuesto por un servicio OData Service
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6456974e7c05b65eb084d00bb1970d4291a0cf0c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 3835aabee88b33ba8b053550e4637cb387bace02
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385628"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875962"
 ---
 # <a name="data-model-versioning"></a>Control de versiones de modelo de datos
 
@@ -37,7 +36,7 @@ Los clientes ***DEBEN*** estar preparados para que los servicios realicen estos 
   
 Los servicios ***NO DEBEN*** cambiar su modelo de datos en función del usuario autenticado. Si el modelo de datos depende del usuario o del grupo de usuarios, todos los cambios deben ser seguros según la definición incluida en esta sección al comparar el modelo completo con el modelo visible para los usuarios con autorizaciones limitadas.  
   
-Para más información sobre los estándares del modelo de datos OData, consulte [OData Version 4.0 Part 1: Protocol Plus Errata 02](http://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) (Versión de OData 4.0, parte 1: Protocol Plus Errata 02).  
+Para más información sobre los estándares del modelo de datos OData, consulte [OData Version 4.0 Part 1: Protocol Plus Errata 02](https://docs.oasis-open.org/odata/odata/v4.0/odata-v4.0-part1-protocol.html) (Versión de OData 4.0, parte 1: Protocol Plus Errata 02).  
   
 ## <a name="see-also"></a>Vea también
 [Información general sobre la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  

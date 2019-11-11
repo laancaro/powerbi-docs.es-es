@@ -2,7 +2,6 @@
 title: ¿Qué es un "consumidor" de Power BI?
 description: Introducción a Power BI para consumidores (también conocidos como usuarios finales o usuarios empresariales).
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: overview
 ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 8b1876d0990cc21d854ac96329e5ab4a5632f22d
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73430270"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863802"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servicio Power BI para consumidores
 
@@ -59,6 +58,6 @@ Eso no significa que los cambios no se puedan guardar: sí se puede. Pero estos 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Haga un recorrido por el servicio Power BI para consumidores](end-user-reading-view.md)    
-[Aprendizaje del servicio Power BI para consumidores](https://docs.microsoft.com/en-us/learn/paths/consume-data-with-power-bi/)    
+[Aprendizaje del servicio Power BI para consumidores](https://docs.microsoft.com/learn/paths/consume-data-with-power-bi/)    
 [Power BI: conceptos básicos del servicio Power BI*consumidores*](end-user-basic-concepts.md)    
 

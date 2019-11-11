@@ -2,7 +2,6 @@
 title: Uso de agregaciones en Power BI Desktop
 description: Realizar análisis interactivo a través de macrodatos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 54264a645160542d7bda6a964164af65bfa45dfd
-ms.sourcegitcommit: fe8a25a79f7c6fe794d1a30224741e5281e82357
+ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68325200"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876739"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Agregaciones en Power BI Desktop
 
@@ -49,10 +48,10 @@ En su lugar, creamos la tabla **Sales Agg** como una tabla de agregación. Como 
 
 Supongamos que las tablas de dimensiones siguientes son las más usadas para las consultas con alto valor de negocio. Son las tablas que pueden filtrar **Sales Agg** mediante relaciones de *uno a varios* (o *varios a uno*).
 
-* Geography
-* Customer
+* Geografía
+* Cliente
 * Fecha
-* Product Subcategory
+* Subcategoría de producto
 * Categoría de producto
 
 La siguiente imagen muestra este modelo.
@@ -60,7 +59,7 @@ La siguiente imagen muestra este modelo.
 ![tabla de agregación en un modelo](media/desktop-aggregations/aggregations_03.jpg)
 
 > [!NOTE]
-> La tabla **Sales Agg** es simplemente otra tabla, por lo que tiene la flexibilidad de cargarse de distintas formas. Por ejemplo, se puede realizar la agregación en la base de datos de origen mediante procesos ETL/ELT, o mediante la [expresión M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) para la tabla. Puede usar el modo de almacenamiento Import con o sin [actualización incremental en Power BI Premium](service-premium-incremental-refresh.md), o puede ser DirectQuery y optimizado para consultas rápidas con [índices de almacén de columnas](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Esta flexibilidad permite arquitecturas equilibradas que distribuyen la carga de consultas para evitar cuellos de botella.
+> La tabla **Sales Agg** es simplemente otra tabla, por lo que tiene la flexibilidad de cargarse de distintas formas. Por ejemplo, se puede realizar la agregación en la base de datos de origen mediante procesos ETL/ELT, o mediante la [expresión M](/powerquery-m/power-query-m-function-reference) para la tabla. Puede usar el modo de almacenamiento Import con o sin [actualización incremental en Power BI Premium](service-premium-incremental-refresh.md), o puede ser DirectQuery y optimizado para consultas rápidas con [índices de almacén de columnas](https://docs.microsoft.com/sql/relational-databases/indexes/columnstore-indexes-overview). Esta flexibilidad permite arquitecturas equilibradas que distribuyen la carga de consultas para evitar cuellos de botella.
 
 ### <a name="storage-mode"></a>Modo de almacenamiento 
 Vamos a continuar con el ejemplo que estamos usando. Establecemos el modo de almacenamiento de **Sales Agg** en **Import** para acelerar las consultas.
@@ -86,7 +85,7 @@ Las relaciones fuertes incluyen las siguientes combinaciones en las que ambas ta
 | Tabla en los lados de *varios | Tabla en el lado de *uno* |
 | ------------- |----------------------| 
 | Dual          | Dual                 | 
-| Importar        | Importación o dual       | 
+| Importación        | Importación o dual       | 
 | DirectQuery   | DirectQuery o dual  | 
 
 El único caso en que una relación de *origen cruzado* se considera fuerte es si se importan ambas tablas. Las relaciones varios a varios siempre se consideran débiles.

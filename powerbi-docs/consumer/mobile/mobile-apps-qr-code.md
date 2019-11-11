@@ -2,19 +2,18 @@
 title: Detección de un código QR de Power BI desde un dispositivo móvil
 description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI para iPhones y dispositivos Android.
 author: KesemSharabi
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/13/2018
 ms.author: mshenhav
-ms.openlocfilehash: 69c0e5279389c186471aa0a6068d88917cf6fc65
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236753"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879207"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Detección de un código QR de Power BI desde un dispositivo móvil
 Se aplica a:
@@ -50,7 +49,7 @@ Si su compañero no ha compartido el panel o informe con usted, puede solicitar 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Escanear un código QR desde un escáner externo a su iPhone
 1. Desde cualquier escáner instalado en el teléfono, apunte el escáner al código QR de Power BI pertinente para acceder de inmediato al icono o informe. 
-2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [App Store de Apple para descargarla](http://go.microsoft.com/fwlink/?LinkId=522062) en el iPhone.
+2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [App Store de Apple para descargarla](https://go.microsoft.com/fwlink/?LinkId=522062) en el iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Detección de un código QR de Power BI en un dispositivo Android con el escáner de Power BI
 1. En la aplicación móvil de Power BI, abra el botón de navegación global ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) en la parte superior izquierda. 
@@ -67,12 +66,12 @@ Si su compañero no ha compartido el panel o informe con usted, puede solicitar 
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-android-device"></a>Detectar un código QR con un escáner externo en un dispositivo Android
 1. Desde cualquier escáner instalado en un dispositivo Android, apunte el escáner al código QR de Power BI pertinente para obtener acceso de forma inmediata al icono o informe. 
-2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [Google Play para descargarla](http://go.microsoft.com/fwlink/?LinkID=544867). 
+2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [Google Play para descargarla](https://go.microsoft.com/fwlink/?LinkID=544867). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Get Power BI data from the real world with the mobile apps](mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
 * [Crear un código QR para un icono en el servicio Power BI](../../service-create-qr-code-for-tile.md)
 * [Crear un código QR para un informe en el servicio Power BI](../../service-create-qr-code-for-report.md)
 * También puede [escanear un código QR con la aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

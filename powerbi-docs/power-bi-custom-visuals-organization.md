@@ -3,19 +3,18 @@ title: Objetos visuales de la organización en Power BI
 description: Uso, administración y creación de objetos visuales de la organización en Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b10a856a98c892b32e873bd01105c52777d2b413
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71946162"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875227"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
@@ -62,4 +61,4 @@ Para obtener información sobre cómo solucionar problemas, visite [Solución de
 
 Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).

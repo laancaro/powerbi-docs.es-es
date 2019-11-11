@@ -2,7 +2,6 @@
 title: Característica Mostrar elementos sin datos de Power BI
 description: Información sobre cómo Power BI controla y muestra elementos sin datos
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 637a6476af6368fae2bcfed8d89aeb9f43276a6b
-ms.sourcegitcommit: f6ac9e25760561f49d4257a6335ca0f54ad2d22e
+ms.openlocfilehash: a8d99a041edbbe353badbb580940e918b30a0a9d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69560835"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879730"
 ---
 # <a name="show-items-with-no-data-in-power-bi"></a>Característica Mostrar elementos sin datos de Power BI
 
