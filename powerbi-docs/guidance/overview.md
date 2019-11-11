@@ -2,19 +2,18 @@
 title: Instrucciones para Power BI
 description: En la documentación de las instrucciones se proporcionan procedimientos recomendados para usar Power BI.
 author: guyinacube
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/27/2019
 ms.author: asaxton
-ms.openlocfilehash: 3e8a4a92ce3a1e5cbc9459732cdd12225ae901e1
-ms.sourcegitcommit: 0687908938e4c3b68401fd511ec1c28fb54ddeb3
+ms.openlocfilehash: e3aeff47e585d9a54edf46f7001f4686e9a76c3a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "71691262"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875564"
 ---
 # <a name="guidance-for-power-bi"></a>Instrucciones para Power BI
 
@@ -37,6 +36,6 @@ Aquí encontrará las instrucciones y los procedimientos recomendados para Power
 
 | Instrucciones | Descripción |
 | --- | --- |
-| [Procedimientos recomendados para flujos de datos](/service-dataflows-best-practices.md) | Se describen los procedimientos recomendados para diseñar flujos de datos en Power BI. |
+| [Procedimientos recomendados para flujos de datos](../service-dataflows-best-practices.md) | Se describen los procedimientos recomendados para diseñar flujos de datos en Power BI. |
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

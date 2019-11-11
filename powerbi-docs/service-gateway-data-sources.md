@@ -2,7 +2,6 @@
 title: Administración de orígenes de datos
 description: Obtenga información sobre cómo administrar orígenes de datos en Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -11,12 +10,12 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 254c0033dfc64b3a0f44bcda2289fedccf2e9eda
-ms.sourcegitcommit: 4222ebad1a3a32d8040f6a615a0b7f173d7869d0
+ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "71164533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881775"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
 
@@ -178,4 +177,4 @@ La puerta de enlace de datos local admite los siguientes orígenes de datos para
 * [Administrar el origen de datos: importación o actualización programada](service-gateway-enterprise-manage-scheduled-refresh.md)
 * [Instrucciones para implementar una puerta de enlace de datos](service-gateway-deployment-guidance.md)
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).

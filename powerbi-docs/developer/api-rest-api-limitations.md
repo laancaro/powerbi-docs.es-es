@@ -3,18 +3,17 @@ title: Limitaciones de la API de REST de Power BI
 description: La API REST de Power BI tiene las siguientes limitaciones
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
-ms.openlocfilehash: 6699167cecebea5085eff4621c077096fd4c6c2e
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 730123ba86e00e944a543feda77308c545a5b53e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61385152"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875928"
 ---
 # <a name="power-bi-rest-api-limitations"></a>Limitaciones de la API de REST de Power BI  
   

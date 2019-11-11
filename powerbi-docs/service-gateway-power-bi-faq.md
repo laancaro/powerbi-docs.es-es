@@ -2,7 +2,6 @@
 title: 'Preguntas más frecuentes sobre la puerta de enlace de datos local: Power BI'
 description: En este artículo se describen las preguntas más frecuentes sobre la puerta de enlace de datos local para Power BI. Aquí se reúnen en un solo lugar las preguntas más frecuentes sobre la puerta de enlace que se usa en Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: cd3afd0ed3ba1f5b734aab2106cbd70f65f29006
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867070"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872405"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local: Power BI
 
@@ -73,5 +72,5 @@ ms.locfileid: "68867070"
 
 * [Solución de problemas con la puerta de enlace de datos local](/data-integration/gateway/service-gateway-tshoot)
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).
 

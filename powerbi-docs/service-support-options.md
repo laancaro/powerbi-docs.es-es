@@ -2,19 +2,18 @@
 title: Opciones de soporte técnico de Power BI Pro y Power BI Premium
 description: En este artículo se describen las opciones de soporte técnico disponibles para los clientes de Power BI Pro y Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/17/2019
 ms.author: mblythe
-ms.openlocfilehash: df14bf127ed6935f9bec445709153a87088f8af0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 4cd007467b2ebd7f08dbb9d9bd3447194aad1f37
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305833"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871405"
 ---
 # <a name="power-bi-pro-and-power-bi-premium-support-options"></a>Opciones de soporte técnico de Power BI Pro y Power BI Premium
 
@@ -55,4 +54,4 @@ Le proporcionará una introducción completa sobre la funcionalidad y las capaci
 
   - **WorkshopPLUS - IA de datos: análisis de datos avanzados con Power BI**, un curso que le proporcionará los conocimientos necesarios para comprender e implementar los principios clave sobre el modelado de los datos en Power BI con herramientas como Power BI Desktop. También obtendrá información sobre cómo complementar el servicio en la nube para publicar y consumir recursos de inteligencia empresarial. Así pues, este curso abarca los aspectos básicos del desarrollo de informes, los análisis integrados en Power BI para insertar contenido en aplicaciones personalizadas, los paneles en tiempo real y los análisis avanzados que conciernen a la ciencia de datos y el desarrollo en Power BI.
 
-Para obtener más información, póngase en contacto con su responsable técnico de cuentas de Microsoft. Si todavía no tiene un contrato de soporte técnico Premier de Microsoft, obtenga más información en [Soporte técnico Premier](https://support.microsoft.com/en-us/premier).
+Para obtener más información, póngase en contacto con su responsable técnico de cuentas de Microsoft. Si todavía no tiene un contrato de soporte técnico Premier de Microsoft, obtenga más información en [Soporte técnico Premier](https://support.microsoft.com/premier).

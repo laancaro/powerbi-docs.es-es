@@ -2,7 +2,6 @@
 title: Uso de puertas de enlace personales en Power BI
 description: Se proporciona información sobre la puerta de enlace de datos local (modo personal) para Power BI que los usuarios pueden usar para conectarse a datos locales.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: b910f20935c76f8723d8ca876cb57d811976772b
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729938"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881520"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Uso de puertas de enlace personales en Power BI
 
@@ -102,4 +101,4 @@ Combinación rápida en una puerta de enlace personal ayuda a omitir niveles de 
 
 * [Configuración de los valores del proxy para la puerta de enlace de datos local](/data-integration/gateway/service-gateway-proxy)  
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).

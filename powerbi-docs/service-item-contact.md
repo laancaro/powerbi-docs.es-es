@@ -2,7 +2,6 @@
 title: Establecimiento de información de contacto para informes y paneles
 description: Aprenda a establecer la información de contacto para informes y paneles.
 author: LukaszPawlowski-MS
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2010
 ms.author: lukaszp
 LocalizationGroup: Common tasks
-ms.openlocfilehash: b64bc2566be8787ad4bb4916ed8b8c8731a87ed7
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: bb98f7bbb92b72512f880513ec94ccb55d64fc67
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72245501"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872146"
 ---
 # <a name="set-contact-information-for-reports-and-dashboards-in-the-power-bi-service"></a>Establecimiento de la información de contacto para paneles e informes en el servicio Power BI
 En este artículo se explica cómo establecer la información de contacto para un panel o informe en el servicio Power BI.
@@ -65,4 +64,4 @@ La información de la lista de contactos también se utiliza en otros lugares. P
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

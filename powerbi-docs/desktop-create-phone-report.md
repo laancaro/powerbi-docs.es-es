@@ -2,7 +2,6 @@
 title: 'Optimización de informes para las aplicaciones móviles: Power BI'
 description: Aprenda a optimizar las páginas de informe para las aplicaciones móviles de Power BI mediante la creación de una versión vertical del informe específica para teléfonos y tabletas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/18/2019
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: f55d1e518c3c710503bb56539667bb652f287aa7
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 006d0e02f3b0aa7860cade4d8e035ddc299e8ba8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61310794"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878386"
 ---
 # <a name="optimize-reports-for-the-power-bi-mobile-apps"></a>Optimización de informes para las aplicaciones móviles de Power BI
 Puede crear un diseño vertical para mejorar la experiencia de visualización de informes en las aplicaciones móviles. En Power BI Desktop y el servicio Power BI, puede reorganizar y cambiar el tamaño de los objetos visuales del informe para obtener una experiencia óptima en modo vertical.  
@@ -110,5 +109,5 @@ Los lectores de informes pueden activar sus teléfonos o tabletas lateralmente p
 * [Create a phone view of a dashboard in Power BI (Crear una vista de teléfono de un panel en Power BI)](service-create-dashboard-mobile-phone-view.md)
 * [Ver informes de Power BI optimizados para el teléfono](consumer/mobile/mobile-apps-view-phone-report.md)
 * [Crear objetos visuales con capacidad de respuesta optimizados para cualquier tamaño](visuals/desktop-create-responsive-visuals.md)
-* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Introducción a Power BI Desktop
 description: Introducción a Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 2049d996c9f6130718e203a8f6d27a2a7fac911f
-ms.sourcegitcommit: a00fe5fb545c3df13b7cd13a701fd6a2b2521a17
+ms.openlocfilehash: e533313e20c4e1f994c2ae3d1e552170aef2cbd2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/31/2019
-ms.locfileid: "70201012"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868013"
 ---
 # <a name="getting-started-with-power-bi-desktop"></a>Introducción a Power BI Desktop
 Esta es la **Guía de introducción de Power BI Desktop**. En este breve paseo introductorio por Power BI Desktop se familiarizará con su funcionamiento y sus capacidades. Al final, será capaz de crear modelos de datos eficaces, junto con increíbles informes, que expandirán sus esfuerzos de inteligencia empresarial. 
 
-¿Prefiere ver en lugar de leer? No dude en [echar un vistazo al vídeo de introducción](desktop-videos.md). Y si desea ver el vídeo con los datos de ejemplo correspondientes, [descargue este libro de Excel de ejemplo](http://go.microsoft.com/fwlink/?LinkID=521962).
+¿Prefiere ver en lugar de leer? No dude en [echar un vistazo al vídeo de introducción](desktop-videos.md). Y si desea ver el vídeo con los datos de ejemplo correspondientes, [descargue este libro de Excel de ejemplo](https://go.microsoft.com/fwlink/?LinkID=521962).
 
 ![](media/desktop-getting-started/pbi_gettingstartedsplash_resized.png)
 
@@ -88,7 +87,7 @@ Imagine que se jubila (desea vivir donde hay mucho sol, mejores tasas de impuest
 
 Cualquiera que sea el caso, el siguiente recurso web tiene datos interesantes acerca de estos temas y mucho más:
 
-[*http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
 
 Seleccione **Obtener datos \> Web** y pegue la dirección.
 
@@ -158,7 +157,7 @@ Los datos acerca de los diferentes estados son interesantes y serán útiles en 
 
 Estamos de suerte: hay otro origen de datos públicos que hace justamente eso, pero necesita algunos ajustes de forma considerables antes de que podamos conectarlo con la tabla de jubilación. Este es el recurso web de las abreviaturas de los estados:
 
-<http://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
+<https://en.wikipedia.org/wiki/List_of_U.S._state_abbreviations>
 
 Desde la cinta **Inicio** del **Editor de consultas**, seleccione **Obtener datos \> Web** y escriba la dirección, seleccione **Aceptar** y la ventana **Navegador** mostrará la información encontrada en la página web.
 

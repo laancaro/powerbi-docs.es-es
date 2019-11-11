@@ -2,7 +2,6 @@
 title: ¿Olvidó su contraseña de Power BI?
 description: Si olvidó la contraseña, puede usar un vínculo para solicitar su restablecimiento.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 6b3e75b9674a8b22948bdee1b8f8b9086eb2b691
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c4e13871e7ebf432e1478eb8d524f466bed9f0bc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71075176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873610"
 ---
 # <a name="forgot-your-password-for-power-bi"></a>¿Olvidó su contraseña de Power BI?
 
@@ -34,4 +33,4 @@ Es importante tener en cuenta que este número de teléfono no es el número de 
 > [!NOTE]
 > Power BI proporciona soporte técnico durante las horas de trabajo habituales en la zona horaria estándar del este (EST). Actualmente, el soporte técnico solo se brinda en inglés.
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

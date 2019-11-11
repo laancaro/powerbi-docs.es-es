@@ -3,18 +3,17 @@ title: Lista de código completa
 description: Tutorial para insertar datos - Lista de código completo
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: cdf6bf157a3d8fe1f865c610238e3cd1f829ef9b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ac534946b5f7e6fb5bb0164a1144523fa8f2aa94
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65710288"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875498"
 ---
 # <a name="push-data-to-a-dataset-complete-code-listing"></a>Lista de código completa de la inserción de datos en un conjunto de datos
 
@@ -235,4 +234,4 @@ Después de seguir los pasos del 2 al 5 de **Insertar datos en un conjunto de da
 [Referencia de la API de REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

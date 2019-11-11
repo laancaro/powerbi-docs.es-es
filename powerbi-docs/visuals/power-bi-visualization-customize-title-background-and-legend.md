@@ -2,7 +2,6 @@
 title: Introducción al formato de las visualizaciones de Power BI
 description: Personalización del título, el fondo y la leyenda de una visualización
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6228ed70dd78ffca6cd3c8803518b2b27674576f
-ms.sourcegitcommit: 1c96b65a03ec0a0612e851dd58c363f4d56bca38
+ms.openlocfilehash: 011e2b6d3bf5cc998f7db76e96536d2ddab09888
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/25/2019
-ms.locfileid: "67389820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880866"
 ---
 # <a name="customize-visualization-titles-legends-and-backgrounds"></a>Personalización de los títulos, las leyendas y los fondos de las visualizaciones
 
@@ -32,7 +31,7 @@ Ahora, siga las instrucciones que aparecen debajo para intentarlo con sus propio
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-- Servicio Power BI o Power BI Desktop
+- Servicio Power BI o Power BI Desktop
 
 - Informe del ejemplo de análisis de minoristas
 
@@ -167,4 +166,4 @@ A continuación, encontrará una lista de las visualizaciones y opciones de pers
 
 - [Conceptos básicos para los consumidores del servicio Power BI](../consumer/end-user-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

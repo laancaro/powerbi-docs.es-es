@@ -3,19 +3,18 @@ title: Análisis integrado para insertar contenido de Power BI en una aplicació
 description: Aprenda a integrar, o insertar, un informe, un panel o un icono, en una aplicación web mediante las API de Power BI para realizar análisis integrados para los clientes. Aprenda a integrar Power BI en una aplicación mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada para nubes de administración pública o nacionales.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 02/05/2019
-ms.openlocfilehash: bc6b9cf92966dd9e86e789169b9b8134dbfcb2ba
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 7ede1678dc6cf0e217eb17dcc28f756031467b84
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61374328"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875885"
 ---
 # <a name="tutorial-embed-a-power-bi-content-into-your-application-for-national-clouds"></a>Tutorial: Inserción de contenido de Power BI en una aplicación para nubes nacionales
 
@@ -37,7 +36,7 @@ Las distintas nubes nacionales son:
 
 ![Panel insertado](media/embed-sample-for-customers/powerbi-embed-dashboard.png)
 
-Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene una cuenta configurada, según el tipo de gobierno o país, puede elegir la nube nacional adecuada para usted. Puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](http://www.21vbluecloud.com/powerbi/).
+Para empezar a trabajar con este tutorial, necesita una **cuenta de Power BI**. Si no tiene una cuenta configurada, según el tipo de gobierno o país, puede elegir la nube nacional adecuada para usted. Puede registrarse para obtener una [cuenta de Power BI del gobierno de EE. UU.](../service-govus-signup.md), una [cuenta de Power BI para la nube de Alemania](https://powerbi.microsoft.com/power-bi-germany/?ru=https%3A%2F%2Fapp.powerbi.de%2F%3FnoSignUpCheck%3D1) o una [cuenta de Power BI para la nube de China](https://www.21vbluecloud.com/powerbi/).
 
 > [!NOTE]
 > En lugar de eso, ¿desea insertar un panel para la organización? Consulte [Integrar un panel en una aplicación para la organización](integrate-dashboard.md).
@@ -150,7 +149,7 @@ En la aplicación, debe obtener un **token de acceso**, desde Azure AD, para pod
 
 * Government Community Cloud (GCC): ```https://login.microsoftonline.com```
 
-* Military Contractors (DoDCON): ```http://login.microsoftonline.us```
+* Military Contractors (DoDCON): ```https://login.microsoftonline.us```
 
 * Military (DoD): ```https://login.microsoftonline.us```
 
@@ -445,4 +444,4 @@ Hay una aplicación de ejemplo disponible en el [ejemplo Inserción de contenido
 
 Consideraciones y limitaciones
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

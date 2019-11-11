@@ -2,19 +2,18 @@
 title: Configuración de la interacción del informe de una sola pulsación
 description: Obtenga información sobre cómo configurar la interacción del informe de una sola pulsación o de dos pulsaciones.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/08/2019
 ms.author: mshenhav
-ms.openlocfilehash: c553b921ebeb30b8fb8ec7ba9f7bce74f6c31dee
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 4288178f702ff3fbfaa05c943adb0fd7ec12f530
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67558968"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879413"
 ---
 # <a name="configure-report-interaction-to-single-tap-or-double-tap"></a>Configuración de la interacción del informe de una sola pulsación o de dos pulsaciones
 Se aplica a:
@@ -46,5 +45,5 @@ Este artículo se aplica a los informes horizontales y del teléfono.
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

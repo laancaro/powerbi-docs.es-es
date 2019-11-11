@@ -3,18 +3,17 @@ title: Desarrollo con las API de REST para Power BI Report Server
 description: La API de REST proporciona acceso mediante programación a los objetos de un catálogo de Power BI Report Server.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/25/2018
-ms.openlocfilehash: 8f35b7a3c19751b4537a49fa8cb30f4347f080ed
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 9b8e795c4a55f9efd6fd534d92d95b36c93cf2c0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770746"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874076"
 ---
 # <a name="develop-with-the-rest-apis-for-power-bi-report-server"></a>Desarrollo con las API de REST para Power BI Report Server
 
@@ -41,7 +40,7 @@ Un par de solicitud y respuesta de la API de REST puede dividirse en cinco compo
 * Campos del **cuerpo del mensaje de solicitud** HTTP opcionales para admitir el identificador URI y la operación HTTP. Por ejemplo, las operaciones POST contienen objetos codificados con MIME que se pasan como parámetros complejos. Para las operaciones POST o PUT, el tipo de codificación MIME para el cuerpo debe especificarse también en el encabezado de la solicitud `Content-type`. Algunos servicios requieren que se use un tipo MIME concreto, como `application/json`.
 * Campos de **encabezado del mensaje de respuesta** HTTP:
   
-  * Un [código de estado HTTP](http://www.w3.org/Protocols/HTTP/HTRESP.html), en el intervalo de 2xx para los códigos de éxito a 4xx o 5xx para los códigos de error. Como alternativa, se puede devolver un código de estado definido por el servicio, como se indica en la documentación de la API.
+  * Un [código de estado HTTP](https://www.w3.org/Protocols/HTTP/HTRESP.html), en el intervalo de 2xx para los códigos de éxito a 4xx o 5xx para los códigos de error. Como alternativa, se puede devolver un código de estado definido por el servicio, como se indica en la documentación de la API.
   * Campos de encabezado adicional opcional, según sea necesario para admitir la respuesta a la solicitud, como un encabezado de respuesta `Content-type`.
 * Campos del **cuerpo del mensaje de respuesta** HTTP opcionales:
   
@@ -53,7 +52,7 @@ Una API de REST moderna lleva consigo una documentación de la API moderna. La A
 
 ## <a name="testing-api-calls"></a>Prueba de las llamadas a la API
 
-[Fiddler](http://www.telerik.com/fiddler) es una herramienta para probar los mensajes de solicitud y respuesta HTTP. Fiddler es un proxy para depuración web gratuito que puede interceptar las solicitudes REST, lo que facilita el diagnóstico de los mensajes de solicitud y respuesta HTTP.
+[Fiddler](https://www.telerik.com/fiddler) es una herramienta para probar los mensajes de solicitud y respuesta HTTP. Fiddler es un proxy para depuración web gratuito que puede interceptar las solicitudes REST, lo que facilita el diagnóstico de los mensajes de solicitud y respuesta HTTP.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

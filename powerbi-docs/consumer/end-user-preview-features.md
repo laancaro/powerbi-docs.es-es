@@ -2,7 +2,6 @@
 title: Participación en las características en versión preliminar
 description: Cómo activar (y desactivar) características de Power BI que se encuentran en vista previa.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: b2d658daade3ab1aa2a1c09dc33c0e7d48636910
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 5189c92c9da29b38d9ffaa4bf59e271e08fc4b2c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141518"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862715"
 ---
 # <a name="opt-in-for-power-bi-service-preview-features"></a>Participación en las características en vista versión preliminar del servicio Power BI
 ## <a name="what-are-preview-features"></a>¿Qué son las *características de vista previa*?
@@ -34,5 +33,5 @@ A medida que se realizan mejoras en el servicio Power BI, se publican algunas fu
 4. Para desactivar las características en versión preliminar, siga los pasos 1 a 3 anteriores y, en el paso 3, seleccione **Desactivar** o desactive la casilla y seleccione **Aplicar**.
 
 
-¿Tiene preguntas o comentarios? [Visite el foro de la comunidad de Power BI](http://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
+¿Tiene preguntas o comentarios? [Visite el foro de la comunidad de Power BI](https://community.powerbi.com/t5/Navigation-Preview-Forum/bd-p/NavigationPreview).
 

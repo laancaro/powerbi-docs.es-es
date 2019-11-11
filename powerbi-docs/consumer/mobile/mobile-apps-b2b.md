@@ -2,19 +2,18 @@
 title: Visualización del contenido de Power BI como usuario invitado externo (Azure AD B2B)
 description: Use aplicaciones móviles de Power BI para ver el contenido compartido con usted desde la organización externa.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/27/2019
 ms.author: mshenhav
-ms.openlocfilehash: 900c7b57c2b6283c44e4a1923dd223d7dfd40ef7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69490364"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879340"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualización del contenido de Power BI compartido con usted desde una organización externa
 

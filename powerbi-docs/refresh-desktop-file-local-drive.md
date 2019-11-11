@@ -2,7 +2,6 @@
 title: Actualización local de un conjunto de datos creado a partir de un archivo de Power BI Desktop
 description: Actualización de un conjunto de datos creado a partir de un archivo de Power BI Desktop en una unidad local
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/04/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 58727627656a3cb22ad7fce626d0c7e6ce746440
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: b96163b433998ad92860ad6c234aac4126cf5486
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816488"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874375"
 ---
 # <a name="refresh-a-dataset-created-from-a-power-bi-desktop-file-on-a-local-drive"></a>Actualización de un conjunto de datos creado a partir de un archivo de Power BI Desktop en una unidad local
 
@@ -68,5 +67,5 @@ A veces, la actualización de datos no funciona según lo previsto. Normalmente 
 - [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)
 - [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Visualización del contenido visitado recientemente en el servicio Power BI
 description: documentación para elementos recientes en Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/24/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: bae340f89b10253920f8e22d02b4b78c23fa2dd9
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 80c11aef2e985304c824fe1948a6bec867e6cb33
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256256"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862423"
 ---
 # <a name="recent-content-in-the-power-bi-service"></a>Contenido **reciente** en el servicio Power BI
 El contenido reciente son los últimos elementos visitados en el servicio Power BI, hasta un máximo de 20 elementos.  Estos incluyen: paneles, informes, aplicaciones y libros.
@@ -53,5 +52,5 @@ Las acciones disponibles dependerán de la configuración que asigna el *diseña
 ## <a name="next-steps"></a>Pasos siguientes
 [Aplicaciones del servicio Power BI](end-user-apps.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

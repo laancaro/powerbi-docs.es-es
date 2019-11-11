@@ -2,7 +2,6 @@
 title: Guía para la implementación de una puerta de enlace de datos para Power BI
 description: Obtenga información acerca de los procedimientos recomendados y las consideraciones para implementar una puerta de enlace para Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5a0c29f04e7329373eec5f60af840e503ec22b3c
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: d4a02ccc759f78a4243f34fb59115fb9084ea90d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68729985"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881689"
 ---
 # <a name="guidance-for-deploying-a-data-gateway-for-power-bi"></a>Guía para la implementación de una puerta de enlace de datos para Power BI
 
@@ -69,5 +68,5 @@ Si piensa usar la puerta de enlace de Power BI con Azure Analysis Services, ase
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md)  
 * [Preguntas más frecuentes sobre la puerta de enlace de datos local: Power BI](service-gateway-power-bi-faq.md)  
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).
 

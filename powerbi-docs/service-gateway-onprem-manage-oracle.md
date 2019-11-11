@@ -2,7 +2,6 @@
 title: 'Administrar el origen de datos: Oracle'
 description: Cómo administrar la puerta de enlace de datos local y los orígenes de datos que pertenecen a esa puerta de enlace.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: ac116cfb2e3f09ceab6c9f78dba33bc18e847784
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: cb7856b0b5ac84684e8d0648b91e45805218cead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872455"
 ---
 # <a name="manage-your-data-source---oracle"></a>Administrar el origen de datos: Oracle
 
@@ -29,11 +28,11 @@ Para conectar la puerta de enlace al servidor de Oracle, el proveedor de datos d
 
 En el caso de las versiones de 32 bits de Power BI Desktop, use el vínculo siguiente para descargar e instalar el cliente de 32 bits de Oracle:
 
-* [Oracle Data Access Components (ODAC) de 32 bits con Oracle Developer Tools para Visual Studio (12.1.0.2.4)](http://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
+* [Oracle Data Access Components (ODAC) de 32 bits con Oracle Developer Tools para Visual Studio (12.1.0.2.4)](https://www.oracle.com/technetwork/topics/dotnet/utilsoft-086879.html)
 
 En el caso de las versiones de 64 bits de Power BI Desktop o de la puerta de enlace de datos local, use el siguiente vínculo para descargar e instalar el cliente de Oracle de 64 bits:
 
-* [ODAC 12.2c versión 1 (12.2.0.1.0) de 64 bits para Windows x64](http://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
+* [ODAC 12.2c versión 1 (12.2.0.1.0) de 64 bits para Windows x64](https://www.oracle.com/technetwork/database/windows/downloads/index-090165.html)
 
 Después de instalar el cliente, configure el archivo tnsnames.ora con la información adecuada para la base de datos. Power BI Desktop y la puerta de enlace se activan mediante el parámetro net_service_name definido en el archivo tnsnames.ora. Si net_service_name no está configurado, no podrá conectarse. La ruta de acceso predeterminada para tnsnames.ora es `[Oracle Home Directory]\Network\Admin\tnsnames.ora`. Para obtener más información sobre cómo configurar los archivos tnsnames.ora, consulte [Oracle: Parámetros de nomenclatura local (tnsnames.ora)](https://docs.oracle.com/cd/B28359_01/network.111/b28317/tnsnames.htm).
 
@@ -132,5 +131,5 @@ Para obtener más información sobre la solución de problemas relacionados con 
 * [Solución de problemas de puertas de enlace: Power BI](service-gateway-onprem-tshoot.md)
 * [Power BI Premium](service-premium.md)
 
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
 

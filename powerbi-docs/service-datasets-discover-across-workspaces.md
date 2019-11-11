@@ -2,7 +2,6 @@
 title: 'Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo (versión preliminar): Power BI'
 description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: f8229c74a233d8bc44370380bf635527506194f0
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 371507eb86e1b68225e9d66ee3a1363b0e163d4f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567457"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877166"
 ---
 # <a name="create-reports-based-on-datasets-from-different-workspaces-preview"></a>Creación de informes basados en conjuntos de datos de diferentes áreas de trabajo (versión preliminar)
 
@@ -63,4 +62,4 @@ Hay dos tipos diferentes de conjuntos de datos aprobados. Los propietarios del c
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
