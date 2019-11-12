@@ -2,7 +2,6 @@
 title: ¿Qué es el servicio Power BI?
 description: Información general sobre el servicio Power BI y cómo encaja con las demás partes de Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 featuredvideoid: B2vd4MQrz4M
@@ -10,17 +9,17 @@ ms.topic: overview
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: b8a01839da68a276ff136d7068dafac0ce82f102
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 22446936f36074379242bd54af15c9bb2864e4a8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060868"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874986"
 ---
 # <a name="what-is-the-power-bi-service"></a>¿Qué es el servicio Power BI?
 **Power BI** es una colección de servicios de software, aplicaciones y conectores que funcionan conjuntamente para ayudarle a crear, compartir y consumir información empresarial de forma que le ayude a usted y a su negocio de la manera más eficaz. El *servicio* Microsoft Power BI (app.powerbi.com), que a veces se conoce como Power BI en línea, es la parte de SaaS (*software como servicio*) de Power BI. Además, los *paneles* del servicio Power BI le ayudan a tomar el pulso de su empresa. Los paneles muestran *iconos*, que puede seleccionar para abrir *informes* y seguir explorando. Los paneles e informes se conectan a *conjuntos de datos* con el fin de reunir todos los datos relevantes en un solo lugar. 
 
-¿Necesita ayuda para comprender los bloques de creación que conforman Power BI? Vea [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md). O visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Aquí tiene un vídeo que le resultará útil para empezar con el servicio Power BI:
+¿Necesita ayuda para comprender los bloques de creación que conforman Power BI? Vea [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md). O visite nuestra [lista de reproducción en YouTube](https://www.youtube.com/playlist?list=PL1N57mwBHtN0JFoKSR0n-tBkUJHeMP2cP). Aquí tiene un vídeo que le resultará útil *para empezar con el servicio Power BI*:
 
 > 
 > <iframe width="560" height="315" src="https://www.youtube.com/embed/B2vd4MQrz4M" frameborder="0" allowfullscreen></iframe>

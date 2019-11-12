@@ -1,10 +1,10 @@
 ---
-ms.openlocfilehash: f4043a5a8deac0596b58519183988f6ae574458e
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 4ea1b2141cf9a072f11a3a62789c7c0ec5b500a4
+ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70847736"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "73800129"
 ---
 Hay dos cálculos principales que puede crear mediante DAX:
 
@@ -36,7 +36,7 @@ Es recomendable que *siempre* haga lo siguiente:
 ## <a name="creating-calculated-columns"></a>Creación de columnas calculadas
 Las **columnas calculadas** son útiles cuando quiera segmentar o filtrar el valor, o bien si quiere realizar un cálculo en cada fila de la tabla.
 
-Puede crear columnas calculadas en Power BI Desktop seleccionando **Nueva columna** desde la pestaña **Modelado**. Es mejor estar en la vista Datos (en lugar de la vista Informe o **Relaciones**), ya que puede ver la nueva columna creada y la **barra de fórmulas** se rellena y está lista para la fórmula DAX.
+Puede crear columnas calculadas en Power BI Desktop seleccionando **Nueva columna** desde la pestaña **Modelado**. Es mejor estar en la vista **Datos** (en lugar de la vista **Informe** o **Relaciones**), ya que puede ver la nueva columna creada y la **barra de fórmulas** se rellena y está lista para la fórmula DAX.
 
 ![](media/7-2-dax-calculation-types/dax-calc-types_2a.png)
 
@@ -65,7 +65,7 @@ Los elementos necesarios para una medida calculada son los mismos que para una c
 * un nuevo nombre de medida
 * al menos una función o una expresión
 
-> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](http://www.sqlbi.com/learning-dax)
+> Contenido del vídeo cortesía de [Alberto Ferrari, SQLBI](https://www.sqlbi.com/learning-dax)
 > 
 > 
 
