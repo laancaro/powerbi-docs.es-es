@@ -1,19 +1,19 @@
 ---
 title: Ejemplos de expresiones en el Generador de informes de Power BI
 description: Las expresiones se usan con frecuencia en los informes paginados del Generador de informes paginados de Power BI para controlar el aspecto del contenido y los informes.
-ms.date: 06/06/2019
+ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 9f3131749a484380a1352d39ae35ea409f6dc697
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
+ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624153"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "72728559"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
 Las expresiones se usan con frecuencia en los informes paginados del Generador de informes paginados de Power BI para controlar el aspecto del contenido y los informes. Las expresiones se escriben en Microsoft Visual Basic y pueden usar funciones integradas, código personalizado, variables de informe y grupo, y variables definidas por el usuario. Las expresiones comienzan con un signo igual (=).   
@@ -35,7 +35,7 @@ En este tema se proporcionan ejemplos de expresiones que se pueden usar para tar
 Para más información sobre las expresiones simples y complejas, dónde se pueden usar las expresiones y los tipos de referencias que se pueden incluir en una expresión, consulte los temas incluidos en [Expressions in Power BI Report Builder](report-builder-expressions.md) (Expresiones en el Generador de informes de Power BI). 
   
 ## <a name="functions"></a>Funciones  
- Muchas expresiones en un informe contienen funciones. Puede usar esta funciones para dar formato a los datos, aplicar lógica y acceder a los metadatos del informe. Puede escribir expresiones que usen funciones de la biblioteca en tiempo de ejecución de Microsoft Visual Basic y de los espacios de nombres `xref:System.Convert` y `xref:System.Math`. Puede agregar referencias a funciones de otros ensamblados o código personalizado. También puede usar las clases de Microsoft .NET Framework, incluida `xref:System.Text.RegularExpressions`.  
+ Muchas expresiones en un informe contienen funciones. Puede usar esta funciones para dar formato a los datos, aplicar lógica y acceder a los metadatos del informe. Puede escribir expresiones que usen funciones de la biblioteca en tiempo de ejecución de Microsoft Visual Basic y de los espacios de nombres `xref:System.Convert` y `xref:System.Math`. Puede agregar referencias a funciones en el código personalizado. También puede usar las clases de Microsoft .NET Framework, incluida `xref:System.Text.RegularExpressions`.  
   
 ##  <a name="VisualBasicFunctions"></a> Funciones de Visual Basic  
  Puede usar funciones de Visual Basic para manipular los datos que se muestran en los cuadros de texto o que se utilizan para los parámetros, las propiedades u otras áreas del informe. En esta sección se proporcionan ejemplos que demuestran algunas de estas funciones. Para más información, consulte [Miembros de la biblioteca en tiempo de ejecución de Visual Basic](https://go.microsoft.com/fwlink/?LinkId=198941) en MSDN.  
@@ -476,7 +476,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
     ```  
   
 ##  <a name="CustomCode"></a> Código personalizado  
- Puede usar código personalizado en un informe. El código personalizado se inserta en un informe o se almacena en un ensamblado personalizado que se usa en el informe.  
+ Puede usar código personalizado insertado en un informe. 
   
 ### <a name="using-group-variables-for-custom-aggregation"></a>Uso de variables de grupo para la agregación personalizada  
  Puede inicializar el valor de una variable de grupo que sea local para ámbito de grupo en particular y, a continuación, incluir una referencia a esa variable en expresiones. Una de las formas que puede usar una variable de grupo con código personalizado es implementar un agregado personalizado. 
