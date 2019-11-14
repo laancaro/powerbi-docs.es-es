@@ -45,8 +45,10 @@
               href: office-store.md
             - name: Usar objetos visuales personalizados con tecnología R en Power BI
               href: ../desktop-r-powered-custom-visuals.md
-            - name: Interacciones de objetos visuales
+            - name: Permiso para las interacciones con los elementos visuales
               href: visuals/visuals-interactions.md
+            - name: Adición de selecciones
+              href: visuals/selection-api.md
             - name: Adición de información sobre herramientas de los objetos visuales
               href: visuals/add-tooltips.md
             - name: Adición del panel de análisis
@@ -57,6 +59,8 @@
               href: visuals/fetch-more-data.md
             - name: Adición de compatibilidad con marcadores
               href: visuals/bookmarks-support.md
+            - name: Adición de compatibilidad con menús contextuales
+              href: visuals/context-menu.md
             - name: Resaltado de datos en objetos visuales
               href: visuals/highlight.md
             - name: Adición de compatibilidad con el modo de contraste alto
@@ -65,6 +69,8 @@
               href: visuals/enable-sync-slicers.md
             - name: Solución de problemas con los objetos visuales de Power BI
               href: ../power-bi-custom-visuals-troubleshoot.md
+            - name: Migración a la nueva versión de powerbi-visuals-tools
+              href: visuals/migrate-to-new-tools.md
         - name: Referencia
           items:
             - name: Página de aterrizaje
@@ -77,6 +83,8 @@
               href: visuals/event-service.md
             - name: Ordenación
               href: visuals/sort-options.md
+            - name: Utilidades de interactividad
+              href: visuals/utils-interactivity-selections.md
         - name: Recursos
           items:
             - name: Centro de desarrollo
