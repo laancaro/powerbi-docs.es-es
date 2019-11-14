@@ -119,6 +119,8 @@
           items:
             - name: Orígenes de datos en Power BI Desktop
               href: desktop-data-sources.md
+            - name: Conexión a Sales Navigator de LinkedIn (versión preliminar)
+              href: desktop-connect-linkedin-sales-navigator.md
             - name: Conexión a una página web como ejemplo (versión preliminar)
               href: desktop-connect-to-web-by-example.md
             - name: Conexión a conjuntos de datos en el servicio Power BI
@@ -201,6 +203,8 @@
           items:
             - name: Combinación de binarios
               href: desktop-combine-binaries.md
+            - name: "Uso de Conclusiones de IA en Power\_BI Desktop (versión preliminar)"
+              href: desktop-ai-insights.md
         - name: Modelar los datos
           items:
             - name: Categorización de datos en Power BI Desktop
@@ -339,6 +343,8 @@
               href: visuals/power-bi-visualization-card.md
             - name: Gráficos combinados en Power BI
               href: visuals/power-bi-visualization-combo-chart.md
+            - name: "Árbol de descomposición en Power\_BI (versión preliminar)"
+              href: visuals/power-bi-visualization-decomposition-tree.md
             - name: Gráficos de anillos en Power BI
               href: visuals/power-bi-visualization-doughnut-charts.md
             - name: Mapas coropléticos en Power BI
@@ -375,8 +381,6 @@
               href: visuals/power-bi-visualization-treemaps.md
             - name: Gráficos de cascada en Power BI
               href: visuals/power-bi-visualization-waterfall-charts.md
-            - name: Creación de líneas de referencia dinámicas
-              href: service-analytics-pane.md
         - name: Lenguaje natural
           items:
             - name: Introducción a Preguntas y respuestas
@@ -405,6 +409,8 @@
       items:
         - name: Tipos de datos en Power BI Desktop
           href: desktop-data-types.md
+        - name: "Uso de la cinta actualizada en Power\_BI Desktop (versión preliminar)"
+          href: desktop-ribbon.md
         - name: Métodos abreviados del editor de fórmulas de Power BI Desktop
           href: desktop-formula-editor.md
         - name: Niveles de privacidad de Power BI Desktop
