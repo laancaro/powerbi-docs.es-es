@@ -80,7 +80,7 @@
         - name: Miembro predeterminado en los modelos multidimensionales en Power BI
           href: desktop-default-member-multidimensional-models.md
         - name: Preguntas frecuentes sobre los objetos visuales
-          href: power-bi-custom-visuals-faq.md
+          href: developer/power-bi-custom-visuals-faq.md
     - name: Procedimiento
       items:
         - name: Obtener Power BI Desktop
@@ -673,6 +673,8 @@
           items:
             - name: Creación de nuevas áreas de trabajo
               href: service-create-the-new-workspaces.md
+            - name: Actualización de áreas de trabajo clásicas
+              href: designer/service-upgrade-workspaces.md
             - name: Crear áreas de trabajo
               href: service-create-workspaces.md
             - name: Publicación de aplicaciones de áreas de trabajo
