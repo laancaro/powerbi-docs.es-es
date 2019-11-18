@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 45a645227a5d7a18fd05738559ed0bccc0e1f7c9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4aa3d46741044498846865278db51859980a19b9
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872405"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010837"
 ---
 # <a name="on-premises-data-gateway-faq---power-bi"></a>Preguntas más frecuentes sobre la puerta de enlace de datos local: Power BI
 
@@ -41,10 +41,6 @@ ms.locfileid: "73872405"
 **Pregunta:** ¿Por qué no puedo conectarme a mi servidor de Oracle? 
 
 **Respuesta:** Es posible que tenga que instalar el cliente de Oracle y configurar el archivo tnsnames.ora con la información correcta del servidor. Se trata de una instalación independiente fuera de la puerta de enlace. Para obtener más información, vea [Instalación del cliente de Oracle](service-gateway-onprem-manage-oracle.md#install-the-oracle-client).
-
-**Pregunta:** ¿Funcionará la puerta de enlace con Azure ExpressRoute? 
-
-**Respuesta:** Sí. Para obtener más información acerca de ExpressRoute y Power BI, consulte [Power BI y ExpressRoute](service-admin-power-bi-expressroute.md).
 
 **Pregunta:** Estoy usando scripts de R. ¿Está admitido?
 

@@ -5,15 +5,15 @@ author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
+ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 84c873c925c7e733c70b309d5cc2476dff2e553b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863956"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128189"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual en AppSource para que otros usuarios lo detecten y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios. 
@@ -52,7 +52,7 @@ Los iconos informativos, si existen, en modo de lectura deben cumplir con el col
 
 Hasta hace poco, Marketplace (AppSource) solo aceptaba objetos visuales de Power BI que eran gratuitos. Esta directiva se ha modificado (diciembre de 2018) para que también se puedan enviar objetos visuales a AppSource con una etiqueta de precio "Es posible que se requiera una compra adicional". 
 
-Los objetos visuales con la etiqueta “Es posible que se requiera una compra adicional” son similares a los complementos de compra desde la aplicación (IAP) de la Tienda Office. Los desarrolladores también pueden enviar estos objetos visuales para que se certifiquen después de que el equipo de AppSource los apruebe, así como después de asegurarse de que cumplen con los requisitos de certificación. Para más información sobre los requisitos, consulte [Objetos visuales certificados de Power BI](../power-bi-custom-visuals-certified.md).
+Los objetos visuales con la etiqueta “Es posible que se requiera una compra adicional” son similares a los complementos de compra desde la aplicación (IAP) de la Tienda Office. Los desarrolladores también pueden enviar estos objetos visuales para que se certifiquen después de que el equipo de AppSource los apruebe, así como después de asegurarse de que cumplen con los requisitos de certificación. Para más información sobre los requisitos, consulte [Objetos visuales certificados de Power BI](../developer/power-bi-custom-visuals-certified.md).
 
 > [!NOTE]
 > Para que se certifique el objeto visual, no puede acceder a servicios o recursos externos.

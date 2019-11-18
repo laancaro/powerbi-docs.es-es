@@ -1,0 +1,53 @@
+### YamlMime:Landing
+title: Documentación de guía de Power BI
+summary: En la documentación de guía de Power BI se proporciona información sobre procedimientos recomendados por parte del equipo que hay detrás de Power BI y las personas que trabajan con nuestros clientes empresariales. También encontrará información para mejorar el rendimiento y la eficacia de su trabajo con Power BI. A medida que haya nueva información disponible, se actualizarán y ampliarán estos materiales.
+metadata:
+  title: Documentación de guía de Power BI
+  description: En la documentación de guía de Power BI se proporciona información sobre procedimientos recomendados por parte del equipo que hay detrás de Power BI y las personas que trabajan con nuestros clientes empresariales. También encontrará información para mejorar el rendimiento y la eficacia de su trabajo con Power BI. A medida que haya nueva información disponible, se actualizarán y ampliarán estos materiales.
+  services: powerbi
+  ms.service: powerbi
+  ms.subservice: powerbi
+  ms.topic: landing-page
+  ms.collection: collection
+  author: maggiesMSFT
+  ms.author: maggies
+  ms.date: 11/14/2019
+  ms.openlocfilehash: de1ea8bbc35bc1d2ecc42a8deffc54fd9ac01bc1
+  ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 11/16/2019
+  ms.locfileid: "74133851"
+landingContent:
+- title: Guía de Power BI
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Instrucciones para Power BI
+      url: overview.md
+    - text: Información general sobre las notas del producto
+      url: ../whitepapers.md
+- title: Modelado de datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: ¿Qué es un esquema de estrella?
+      url: star-schema.md
+    - text: Técnicas de reducción de datos
+      url: import-modeling-data-reduction.md
+    - text: La importancia del plegado de consultas
+      url: power-query-folding.md
+- title: DAX
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Diferencias entre la función DIVIDE y el operador de división
+      url: dax-divide-function-operator.md
+    - text: Uso adecuado de las funciones de error
+      url: dax-error-functions.md
+- title: Flujos de datos
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Procedimientos recomendados para flujos de datos
+      url: ../service-dataflows-best-practices.md

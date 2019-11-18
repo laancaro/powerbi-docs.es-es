@@ -1,0 +1,36 @@
+- name: Documentación de guía de Power BI
+  href: index.yml
+  expanded: true
+  items:
+    - name: Información general
+      expanded: true
+      items:
+        - name: Información general
+          href: overview.md
+    - name: Conceptos
+      expanded: true
+      items:
+        - name: ¿Qué es un esquema de estrella?
+          href: star-schema.md
+        - name: Reducción del tamaño del modelo de datos
+          href: import-modeling-data-reduction.md
+        - name: función DIVIDE frente al operador de división (/)
+          href: dax-divide-function-operator.md
+        - name: La importancia del plegado de consultas
+          href: power-query-folding.md
+        - name: Uso adecuado de las funciones de error
+          href: dax-error-functions.md
+        - name: Prácticas recomendadas para flujos de datos
+          href: ../service-dataflows-best-practices.md
+        - name: Instrucciones del modelo de DirectQuery en Power BI Desktop
+          href: directquery-model-guidance.md
+    - name: Notas del producto
+      items:
+        - name: Información general sobre las notas del producto
+          href: ../whitepapers.md
+        - name: Notas del producto sobre la seguridad de Power BI
+          href: ../whitepaper-powerbi-security.md
+        - name: Implementación de Power BI Premium
+          href: ../whitepaper-powerbi-premium-deployment.md
+        - name: Distribución de Power BI externamente con Azure Active Directory B2B
+          href: ../whitepaper-azure-b2b-power-bi.md

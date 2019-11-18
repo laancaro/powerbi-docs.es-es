@@ -477,6 +477,10 @@
               href: service-the-report-editor-take-a-tour.md
             - name: Orígenes de datos de Power BI
               href: service-get-data.md
+            - name: Información sobre los conjuntos de datos de Power BI
+              href: service-datasets-understand.md
+            - name: Información sobre los modos de conjuntos de datos de Power BI
+              href: service-dataset-modes-understand.md
             - name: Actualizar datos en Power BI
               href: refresh-data.md
         - name: Colaboración en Power BI
@@ -1125,31 +1129,3 @@
       items:
         - name: Actualizaciones mensuales de las puertas de enlace
           href: /data-integration/gateway/service-gateway-monthly-updates
-- name: Instrucciones
-  items:
-    - name: Información general
-      href: guidance/overview.md
-    - name: ¿Qué es un esquema de estrella?
-      href: guidance/star-schema.md
-    - name: Reducción del tamaño del modelo de datos
-      href: guidance/import-modeling-data-reduction.md
-    - name: función DIVIDE frente al operador de división (/)
-      href: guidance/dax-divide-function-operator.md
-    - name: La importancia del plegado de consultas
-      href: guidance/power-query-folding.md
-    - name: Uso adecuado de las funciones de error
-      href: guidance/dax-error-functions.md
-    - name: Prácticas recomendadas para flujos de datos
-      href: service-dataflows-best-practices.md
-    - name: Instrucciones del modelo de DirectQuery en Power BI Desktop
-      href: guidance/directquery-model-guidance.md
-    - name: Notas del producto
-      items:
-        - name: Información general sobre las notas del producto
-          href: whitepapers.md
-        - name: Notas del producto sobre la seguridad de Power BI
-          href: whitepaper-powerbi-security.md
-        - name: Implementación de Power BI Premium
-          href: whitepaper-powerbi-premium-deployment.md
-        - name: Distribución de Power BI externamente con Azure Active Directory B2B
-          href: whitepaper-azure-b2b-power-bi.md
