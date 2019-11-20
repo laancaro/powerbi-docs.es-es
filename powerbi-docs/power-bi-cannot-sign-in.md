@@ -3,19 +3,18 @@ title: No es posible ponerse en contacto con Soporte técnico de Power BI
 description: Soluciones alternativas para crear un caso de Power BI si un usuario no puede iniciar sesión
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/12/2019
-ms.openlocfilehash: 830d75aaddd60ce0b678d6abdbeca7cd79a3ab28
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 37bb189f7792410ffdef30e79d36f94cc85478b4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769831"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874593"
 ---
 # <a name="troubleshooting-sign-in-issues-for-power-bi"></a>Solución de problemas de inicio de sesión de Power BI
 
@@ -27,7 +26,7 @@ aunque si es **administrador de inquilinos** de la organización y aún no puede
 
 ## <a name="engage-the-support-team"></a>Implicar al equipo de soporte técnico
 
-En primer lugar, intente crear una incidencia de soporte técnico a través de la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/en-us/support/).
+En primer lugar, intente crear una incidencia de soporte técnico a través de la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
 Si no puede hacerlo en la página de soporte técnico de Power BI, intente crear una incidencia a través de la [página de soporte técnico de Office 365 (O365)](https://support.office.com/home/contact).
 
@@ -50,9 +49,11 @@ Otra opción para ponerse en contacto con soporte técnico de Microsoft a fin de
 
 Si no puede crear una entrada de foro en la página de la comunidad, es porque el [foro de la comunidad de Power BI](https://community.powerbi.com/) también requiere que inicie sesión.
 
+> [!Note]
+> Consulte [Soporte técnico de la comunidad](https://community.powerbi.com/t5/Community-Support/ct-p/PBI_CommunitySupport) para más información.
+
 ## <a name="next-steps"></a>Pasos siguientes
 
 Estos son algunos sitios que puede visitar para obtener soporte técnico adicional de Power BI:
 
 * [Documentación de Microsoft Power BI](https://docs.microsoft.com/power-bi/)
-* [Creating Power BI Support Cases](https://blogs.msdn.microsoft.com/charles_sterling/2017/12/01/creating-power-bi-support-cases/) (Creación de casos de soporte de Power BI)

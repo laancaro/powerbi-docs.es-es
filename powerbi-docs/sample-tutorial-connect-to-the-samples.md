@@ -2,7 +2,6 @@
 title: Conexión a los ejemplos en el servicio Power BI
 description: Aprenda a instalar y explorar los ejemplos en el servicio Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 3577c19342d9f2dc5b0e3ab9908f47f82430e6db
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391496"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873850"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conexión a los ejemplos en el servicio Power BI
 
@@ -38,7 +37,7 @@ Para familiarizarse con este paquete de contenido en particular y su escenario, 
 
     Si no tiene una licencia de Power BI Pro, puede guardar el ejemplo en Mi área de trabajo.
 
-2. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo. 
+2. Seleccione **Obtener datos** en la parte inferior del panel de navegación. 
 
    ![Seleccionar Obtener datos](media/sample-datasets/power-bi-get-data.png)
 
@@ -91,7 +90,7 @@ Ahora, explore el panel, el conjunto de datos y los informes por su cuenta. Hay 
      
    ![Informe nuevo](media/sample-tutorial-connect-to-the-samples/power-bi-report-editing.png)
 
-1. Otra forma de explorar el conjunto de datos es ejecutar [Información rápida](consumer/end-user-insights.md). Seleccione el signo de puntos suspensivos (…) y, después, haga clic en **Obtener información rápida**. Cuando la información ya está lista, seleccione **Ver información**.
+1. Otra forma de explorar el conjunto de datos es ejecutar [Información rápida](consumer/end-user-insights.md). Seleccione **Más opciones** (...) y, luego, elija **Obtener conclusiones rápidas**. Cuando la información ya está lista, seleccione **Ver información**.
      
     ![Informe de conclusiones](media/sample-tutorial-connect-to-the-samples/power-bi-insights.png)
 
@@ -100,7 +99,7 @@ Al abrir por primera vez el archivo .pbix de ejemplo en Power BI Desktop, se mos
 
 A diferencia de la edición de informes en el servicio de Power BI, en Power BI Desktop también puede trabajar con sus consultas y modelar los datos para asegurarse de que admitan las mejores conclusiones en sus informes. A continuación, puede guardar el archivo de Power BI Desktop donde quiera, ya sea en la unidad local o en la nube.
 
-1. Descargue el archivo [Retail Analysis Sample PBIX.pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) de ejemplo de análisis de venta minorista y ábralo en Power BI Desktop. 
+1. Descargue el archivo [Retail Analysis Sample PBIX.pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix) de ejemplo de análisis de venta minorista y ábralo en Power BI Desktop. 
 
     ![Ejemplo en la vista de informe de Power BI](media/sample-tutorial-connect-to-the-samples/power-bi-samples-desktop.png)
 
@@ -138,4 +137,4 @@ Para más información, consulte:
 - [Ejemplos para el servicio de Power BI](sample-datasets.md)
 - [Orígenes de datos de Power BI](service-get-data.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

@@ -1,21 +1,20 @@
 ---
 title: Power BI para diseñadores de informes
 description: ¿Se conecta a datos, diseña consultas y crea informes y paneles en Power BI? ¿Es un administrador de Power BI?
-author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: landing-page
 ms.date: 10/07/2019
 ms.author: maggies
+author: maggiesMSFT
 layout: LandingPage
 LocalizationGroup: Get started
-ms.openlocfilehash: 4defed78228805a3f61447def82b3c3d406103d3
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: cb80bad73a615621ad8a2459e71607900f8d493d
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239899"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128324"
 ---
 # <a name="power-bi-for-report-designers"></a>Power BI para diseñadores de informes
 
@@ -37,7 +36,7 @@ ms.locfileid: "72239899"
                                           <h3>Introducción a la creación con Power BI</h3> 
                                           <p></p>
                                                <a href="desktop-what-is-desktop.md">Introducción a Power BI Desktop</a><br/> 
-                                               <a href="power-bi-overview.md">Introducción al servicio Power BI</a><br/> 
+                                               <a href="fundamentals/power-bi-overview.md">Introducción al servicio Power BI</a><br/> 
                                                <a href="report-server/get-started.md">¿Qué es Power BI Report Server?</a>
                                     </div> 
                               </div> 
@@ -156,7 +155,7 @@ ms.locfileid: "72239899"
                                           <h3>Compartir su trabajo</h3> 
                                           <p></p>
                                                 <a href="service-how-to-collaborate-distribute-dashboards-reports.md">¿Cómo debo colaborar y compartir?</a><br/>
-                                                <a href="service-create-workspaces.md">Áreas de trabajo de aplicación en el servicio Power BI</a> 
+                                                <a href="service-create-workspaces.md">Áreas de trabajo en el servicio Power BI</a> 
                                     </div> 
                               </div> 
                         </div> 

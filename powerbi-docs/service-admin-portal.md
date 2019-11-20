@@ -2,20 +2,20 @@
 title: Portal de administración de Power BI
 description: El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Microsoft 365 y configuración.
 author: mgblythe
-ms.author: mblythe
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
+ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: fd9864ed086f535e0978dee7f5f8837039aa5491
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73857510"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128387"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -304,7 +304,7 @@ Los usuarios de la organización pueden usar características de búsqueda exter
 
 ### <a name="add-and-use-custom-visuals"></a>Incorporación y uso de objetos visuales personalizados
 
-Los usuarios de la organización pueden interactuar con objetos visuales personalizados y compartirlos. [Más información](power-bi-custom-visuals.md)
+Los usuarios de la organización pueden interactuar con objetos visuales personalizados y compartirlos. [Más información](developer/power-bi-custom-visuals.md)
 
 > [!NOTE]
 > Esta configuración se puede aplicar en toda la organización o puede limitarse a grupos específicos.
@@ -456,7 +456,7 @@ Como administrador, puede ver los códigos para insertar que se generan para su 
 
  ## <a name="organizational-visuals">Objetos visuales de la organización</a> 
 
-La pestaña **Objetos visuales de la organización** le permite implementar y administrar los objetos visuales personalizados dentro de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](power-bi-custom-visuals-organization.md)
+La pestaña **Objetos visuales de la organización** le permite implementar y administrar los objetos visuales personalizados dentro de la organización. Con objetos visuales de la organización, puede implementar fácilmente objetos visuales propietarios en su organización, que los autores de informes pueden detectar e importar después en sus informes de Power BI Desktop. [Más información](developer/power-bi-custom-visuals-organization.md)
 
 > [!WARNING]
 > Un objeto visual personalizado podría contener código con riesgos para la seguridad o la privacidad; asegúrese de que confía en el autor y del origen del objeto visual personalizado antes de implementar en el repositorio de la organización.

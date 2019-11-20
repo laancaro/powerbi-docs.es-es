@@ -2,26 +2,25 @@
 title: Tipos de visualización en Power BI
 description: Tipos de visualización en Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/12/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c039f4adc196e619dc81af38fb52cd07e89992f0
-ms.sourcegitcommit: 4ae1257c5d7b33aa2fafd91caf8b353a985c6771
+ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/17/2019
-ms.locfileid: "67161181"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099922"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
 Iremos agregando nuevas visualizaciones, ¡manténgase al día!
 
-Eche un vistazo a [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), donde encontrará una lista creciente de [objetos visuales personalizados](../power-bi-custom-visuals.md) que puede descargar y usar en sus propios paneles e informes. ¿Se siente creativo? [Aprenda a crear y agregar sus propios objetos visuales al sitio de la comunidad](../developer/office-store.md).  
+Eche un vistazo a [Microsoft AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals), donde encontrará una lista creciente de [objetos visuales personalizados](../developer/power-bi-custom-visuals.md) que puede descargar y usar en sus propios paneles e informes. ¿Se siente creativo? [Aprenda a crear y agregar sus propios objetos visuales al sitio de la comunidad](../developer/office-store.md).  
 
 ## <a name="list-of-visualizations-available-in-power-bi"></a>Lista de visualizaciones disponibles en Power BI
 Todas estas visualizaciones pueden agregarse a los informes de Power BI, especificados en Preguntas y respuestas y anclados a los paneles.
@@ -147,6 +146,14 @@ Para más información, vea [Objetos visuales de matriz en Power BI](desktop-mat
 >[!TIP]
 >Los gráficos circulares muestran la relación de las partes con un todo. 
 
+### <a name="qa-visual"></a>Objeto visual de Preguntas y respuestas
+![Objetos visuales de Preguntas y respuestas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)
+
+>[!TIP]
+>De forma similar a como funciona [Preguntas y respuestas en los paneles](../power-bi-tutorial-q-and-a.md), el objeto visual Preguntas y respuestas le permite formular preguntas acerca de sus datos mediante un lenguaje natural. 
+
+Para más información, consulte el artículo en el que se explican los [objetos visuales de Preguntas y respuestas en Power BI](power-bi-visualization-q-and-a.md).
+
 ### <a name="r-script-visuals"></a>objetos visuales de script de R
 ![Objetos visuales de R](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-r-visuals.png)
 
@@ -218,8 +225,8 @@ Al escribir las consultas en lenguaje natural con Preguntas y respuestas de Powe
 
 "***ventas por estado en un gráfico de rectángulos***"
 
-![](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
+![Cuadro de preguntas y respuestas que muestra el tipo de visualización especificado](media/power-bi-visualization-types-for-reports-and-q-and-a/qatreemap.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Visualizaciones de informes de Power BI](power-bi-report-visualizations.md)    
-[The right visual reference from sqlbi.com](http://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)
+[The right visual reference from sqlbi.com](https://www.sqlbi.com/wp-content/uploads/videotrainings/dashboarddesign/visuals-reference-may2017-A3.pdf) (La referencia visual correcta de sqlbi.com)

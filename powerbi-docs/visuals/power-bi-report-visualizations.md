@@ -3,30 +3,29 @@ title: Introducción a las visualizaciones de informes en el servicio Power BI y
 description: Introducción a las visualizaciones de informes (objetos visuales) en Microsoft Power BI.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: SYk_gWrtKvM
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/01/2019
+ms.date: 10/28/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 91ae7fbbba8b9ba63e8b429c8b2ef3a3adb1c95e
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 02617e690c347448ecb1c313bc86969dabeb9984
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307159"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099094"
 ---
 # <a name="visualizations-in-power-bi-reports"></a>Visualizaciones en informes de Power BI
 
-Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales pueden ser [anclados desde los informes en los paneles](../service-dashboard-pin-tile-from-report.md).
+Las visualizaciones (también conocidas como objetos visuales) muestran conclusiones que se han descubierto en los datos. Un informe de Power BI puede tener una sola página con un objeto visual o podría tener páginas enteras de objetos visuales. En el servicio Power BI, los objetos visuales se pueden [anclar desde los informes a los paneles](../service-dashboard-pin-tile-from-report.md).
 
-Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un **consumidor** del informe. Podrá ver el informe y sus objetos visuales, así como interactuar con ellos, pero no podrá guardar los cambios principales.
+Es importante distinguir entre *diseñadores* de informes y *consumidores* de informes.  Si es la persona que crea o modifica el informe, es un diseñador.  Los diseñadores tienen permisos de edición en el informe y el conjunto de datos subyacente. En Power BI Desktop, esto significa que puede abrir el conjunto de datos en la vista de datos y crear objetos visuales en la vista de informe. En el servicio Power BI, esto significa que puede abrir el conjunto de datos o el informe en el editor de informes en la [vista de edición](../consumer/end-user-reading-view.md). Si un informe o un panel se ha [compartido con usted](../consumer/end-user-shared-with-me.md), será un *consumidor* del informe. No solo podrá ver el informe y sus objetos visuales, sino también interactuar con ellos, pero no podrá realizar tantos cambios como un *diseñador*.
 
-Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel de VISUALIZACIONES de Power BI.
+Existen muchos tipos diferentes de objetos visuales disponibles directamente desde el panel Visualizaciones de Power BI.
 
-![](media/power-bi-report-visualizations/power-bi-templates.png)
+![panel con iconos para cada tipo de visualización](media/power-bi-report-visualizations/power-bi-icons.png)
 
 Para ver más opciones, visite el [sitio web de la comunidad de Microsoft AppSource](https://appsource.microsoft.com) para buscar y [descargar](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) [objetos visuales](../developer/visuals/custom-visual-develop-tutorial.md) personalizados proporcionados por Microsoft y la comunidad.
 
@@ -49,7 +48,7 @@ Si descubre que usa el mismo objeto visual personalizado en varios informes, pue
 
 ![Anclar al panel de visualizaciones](media/power-bi-report-visualizations/power-bi-pin-custom-visual-option.png)
 
-Una vez que haya anclado un objeto visual, se incluye con los demás objetos visuales integrados. Este objeto visual ahora está vinculado a la cuenta con la que ha iniciado sesión, por lo que todos los nuevos informes que cree tendrán automáticamente este objeto visual incluido, siempre que haya iniciado sesión. Esto facilita enormemente estandarizar un objeto visual determinado sin necesidad de agregarlo a todos los informes.
+Una vez que haya anclado un objeto visual, se incluye con los demás objetos visuales integrados. Este objeto visual ahora está vinculado a la cuenta con la que ha iniciado sesión, por lo que todos los nuevos informes que cree tendrán lo incluirán automáticamente, siempre que haya iniciado sesión. Esto facilita enormemente estandarizar un objeto visual determinado sin necesidad de agregarlo a todos los informes.
 
 ![Panel de visualización personalizado](media/power-bi-report-visualizations/power-bi-personalized-visualization-pane.png)
 
@@ -71,4 +70,4 @@ En el servicio Power BI, cuando tenga la visualización que desea, puede [anclar
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)
-* [Objetos visuales personalizados](../power-bi-custom-visuals.md)
+* [Objetos visuales personalizados](../developer/power-bi-custom-visuals.md)

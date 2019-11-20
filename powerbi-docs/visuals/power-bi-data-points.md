@@ -2,20 +2,19 @@
 title: Grandes conjuntos de datos, límites de punto de datos y estrategias de datos
 description: Límites de datos para objetos visuales y estrategias de reducción de datos
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/02/2018
+ms.date: 11/07/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6b5f2fa44a45cca06f90474d8c76fd6f06cae3ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61276443"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74011294"
 ---
 # <a name="data-point-limits-and-strategies-by-visual-type"></a>Límites de punto de datos y estrategias por tipo de objeto visual
 
@@ -64,7 +63,7 @@ Consulte [Funcionamiento del muestreo de líneas](../desktop-high-density-sampli
 - Cuando está en modo de categorías
     - Categorías: Virtualización mediante ventanas de 500 filas a la vez
     - Series: Primeras 60
-    - Cuando se encuentra en el modo escalar (se podrían usar límites dinámicos)
+    - En el modo escalar (se pueden usar límites dinámicos)
         - Número máximo de puntos: 10 000
         - Categorías: Muestra de 500 valores
         - Series: Primero 20 valores
@@ -73,7 +72,7 @@ Consulte [Funcionamiento del muestreo de líneas](../desktop-high-density-sampli
 - Valores: Virtualización mediante ventanas de 200 filas a la vez
 
 ### <a name="combo-chart"></a>Gráfico combinado
- Usa las mismas estrategias que el gráfico de columnas. Tenga en cuenta que la línea en el **gráfico combinado** no usa el algoritmo de alta densidad que usa el **gráfico de líneas**.
+ Usa las mismas estrategias que el gráfico de columnas. Tenga en cuenta que la línea del **gráfico combinado** no usa el algoritmo de alta densidad que usa el **gráfico de líneas**.
 
 ### <a name="custom-visuals"></a>Objetos visuales personalizados
 Puede obtener hasta 30 000, pero son los autores de objetos visuales quienes deben indicar qué estrategias usar.
@@ -113,8 +112,8 @@ Según la configuración, un mapa puede tener:
 - Latitud, longitud: consulte [Gráfico de dispersión de alta densidad](desktop-high-density-scatter-charts.md)
 - Latitud, longitud, tamaño: Primeras 3500
 - Leyenda, latitud, longitud: consulte [Gráfico de dispersión de alta densidad](desktop-high-density-scatter-charts.md)
-- Leyenda, latitud, longitud, tamaño: Primeras 233 leyendas, primeras 15 latitud y longitud (aquí se podrían usar límites estadísticos o dinámicos)
-- Ubicación, leyenda, latitud, longitud como agregados (+/-tamaño): Primeras 233 ubicaciones, primeras 15 leyendas (aquí se podrían usar límites estadísticos o dinámicos)
+- Leyenda, latitud, longitud, tamaño: Primeras 233 leyendas, primeras 15 latitudes y longitudes (se pueden usar límites estadísticos o dinámicos)
+- Ubicación, leyenda, latitud y longitud como agregados (+/-tamaño): Primeras 233 ubicaciones, primeras 15 leyendas (se pueden usar límites estadísticos o dinámicos)
 
 ### <a name="matrix"></a>Matriz
 - Filas: Virtualización mediante ventanas de 500 filas a la vez
@@ -142,21 +141,20 @@ Limitado a 150 000 filas. Si se seleccionan más de 150 000 filas, se usan sol
 - Cuando está en modo de categorías
     - Categorías: Virtualización (ventana de datos) mediante la ventana de 500 filas a la vez
     - Series: Primeras 60
-    - Cuando se encuentra en el modo escalar (se podrían usar límites dinámicos)
+    - En el modo escalar (se pueden usar límites dinámicos)
         - Número máximo de puntos: 10 000
         - Categorías: Muestra de 500 valores
         - Series: Primero 20 valores
 
-### <a name="shape-map"></a>Mapa de formas
-El mapa coroplético puede usar estadísticas o límites dinámicos. 
-- Número máximo de puntos: 10 000
+### <a name="shape-map-preview"></a>Mapa de formas (vista previa)
+El mapa de formas puede usar estadísticas o límites dinámicos. 
+- Número máximo de puntos: 1500
 - Categorías: Primeras 500
-- Series (si X e Y están presentes): Primeras 20
 
 ### <a name="table"></a>Tabla
 - Valores: Virtualización (ventana de datos) mediante la ventana de 500 filas a la vez
 
-### <a name="tree-map-this-could-use-statistics-or-dynamic-limits"></a>Gráfico de rectángulos (aquí se podrían usar estadísticas o límites dinámicos)
+### <a name="tree-map-could-use-statistics-or-dynamic-limits"></a>Gráfico de rectángulos (se pueden usar estadísticas o límites dinámicos)
 - Número máximo de puntos: 3500
 - Agrupar: Primeras 500
 - Detalles: Primeras 20

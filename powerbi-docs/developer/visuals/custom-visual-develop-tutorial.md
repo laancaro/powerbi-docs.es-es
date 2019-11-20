@@ -3,18 +3,17 @@ title: Desarrollar un objeto visual de Power BI
 description: Un tutorial sobre cómo desarrollar un objeto visual personalizado de Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
-ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
+ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 1aa269bc738b873ac36498e2ecf52f2cf06c209d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308706"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128011"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desarrollar un objeto visual de Power BI
 

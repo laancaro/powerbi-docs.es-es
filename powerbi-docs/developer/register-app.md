@@ -1,20 +1,19 @@
 ---
 title: Registro de una aplicación para insertar contenido de Power BI
 description: Aprenda a registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI.
-author: rkarlin
-ms.author: rkarlin
-manager: kfile
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 04/02/2019
-ms.openlocfilehash: 73cca097ce6693c3bbee538eb1518a2ede19beab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8a2aa135bfa5720763485579b012c13c722637db
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269804"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74009796"
 ---
 # <a name="register-an-azure-ad-application-to-use-with-power-bi"></a>Registro de una aplicación de Azure AD para usarla con Power BI
 
@@ -83,7 +82,7 @@ La otra opción para registrar la aplicación consiste en hacerlo directamente e
 
 3. Elija al inquilino de Azure AD mediante la selección de la cuenta en la esquina superior derecha de la página.
 
-4. En el panel de navegación izquierdo, vaya a **Todos los servicios**, seleccione **Registros de aplicaciones** y, luego, **Nuevo registro**.
+4. En el panel de navegación izquierdo, vaya a **Todos los servicios**, seleccione **Registros de aplicaciones** y, luego, seleccione **Nuevo registro**.
 
 5. Siga las indicaciones y cree una nueva aplicación.
 
@@ -105,7 +104,7 @@ Tiene que iniciar sesión con la cuenta *maestra*, que se usó para la inserció
 
 ### <a name="using-the-azure-ad-portal"></a>Usar el portal de Azure AD
 
-1. Vaya a [Registros de aplicaciones](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ApplicationsListBlade) en Azure Portal y seleccione la aplicación que va a usar para la inserción.
+1. Vaya a [Registros de aplicaciones](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/ApplicationsListBlade/quickStartType//sourceType/) en Azure Portal y seleccione la aplicación que va a usar para la inserción.
 
 2. Seleccione **Permisos de API** en **Administrar**.
 
@@ -199,4 +198,4 @@ Tiene que iniciar sesión con la cuenta *maestra*, que se usó para la inserció
 
 Ahora que ha registrado la aplicación en Azure AD, tendrá que autenticar a los usuarios dentro de esta. Consulte [Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación de Power BI](get-azuread-access-token.md).
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

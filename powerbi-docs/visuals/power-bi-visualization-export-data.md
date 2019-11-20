@@ -3,24 +3,24 @@ title: Exportación de datos desde una visualización de Power BI
 description: Exporte datos de una visualización en un informe y de una visualización en un panel y véalos en Excel.
 author: mihart
 manager: kvivek
-ms.reviewer: ''
+ms.reviewer: tessa
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 11/13/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: be85769d8ae2340843a4ebdeb5c88ffc2ca86920
-ms.sourcegitcommit: 8cc2b7510aae76c0334df6f495752e143a5851c4
+ms.openlocfilehash: b2474cd5cc82e1736790f4a352b216dcc8013a6f
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "73431098"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060462"
 ---
 # <a name="export-data-from-visualizations"></a>Exportar datos de visualizaciones
 
-Si quiere ver los datos que Power BI usa para crear una visualización, [puede mostrar dichos datos en Power BI](service-reports-show-data.md). También puede exportar los datos a Excel como un archivo *.xlsx* o *.csv*. La opción de exportar los datos requiere una licencia Pro o Premium y editar los permisos del conjunto de datos y del informe.
+Si quiere ver los datos que Power BI usa para crear una visualización, [puede mostrar dichos datos en Power BI](service-reports-show-data.md). También puede exportar los datos a Excel como un archivo *.xlsx* o *.csv*. La opción de exportar los datos requiere una licencia Pro o Premium y editar los permisos del conjunto de datos y del informe. <!--If you have access to the dashboard or report but the data is classified as *highly confidential*, Power BI will not allow you to export the data.-->
 
 Observe cómo Will exporta los datos de una de las visualizaciones de su informe, los guarda como un archivo *.xlsx* y los abre en Excel. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
@@ -152,7 +152,7 @@ Es importante tener en cuenta que si la configuración del portal de administrac
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio Power BI, incluidos Power BI Pro y Premium.
 
-- Para exportar los datos de un objeto visual, debe tener [permiso de compilación para el conjunto de datos subyacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions#build-permissions-for-shared-datasets).
+- Para exportar los datos de un objeto visual, debe tener [permiso de compilación para el conjunto de datos subyacente](https://docs.microsoft.com/power-bi/service-datasets-build-permissions).
 
 -  El número máximo de filas que **Power BI Desktop** y el **servicio Power BI** pueden exportar desde un **informe de modo de importación** a un archivo *.csv* es 30 000.
 
@@ -160,17 +160,15 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 
 - La exportación mediante *Datos subyacentes* no funcionará si:
 
-  - El origen de datos es una conexiones dinámica de Analysis Services.
+  - la versión es anterior a 2016.
 
-  - La versión es anterior a 2016.
-
-  - Las tablas del modelo no tienen una clave única.
+  - las tablas del modelo no tienen una clave única.
     
-  -  Si un administrador o diseñador de informes ha deshabilitado esta característica.
+  -  un administrador o un diseñador de informes han deshabilitado esta característica.
 
 - La exportación utilizando *Datos subyacentes* no funcionará si habilita la opción *Mostrar elementos sin datos* para la visualización que Power BI está exportando.
 
-- Cuando use DirectQuery, la cantidad máxima de datos que Power BI puede exportar es 16 MB de datos sin comprimir. Un resultado no deseado puede ser que exporte menos que el número máximo de filas. Esto es probable si:
+- Si se usa DirectQuery, la cantidad máxima de datos que Power BI puede exportar es 16 MB de datos sin comprimir. Un resultado no deseado puede ser que exporte menos que el número máximo de filas. Esto es probable si:
 
     - Hay muchas columnas.
 
@@ -196,4 +194,4 @@ Estas limitaciones y consideraciones se aplican a Power BI Desktop y el servicio
 
 - Los administradores de Power BI pueden deshabilitar la exportación de datos.
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
