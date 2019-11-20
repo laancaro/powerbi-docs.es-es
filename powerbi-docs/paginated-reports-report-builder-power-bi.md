@@ -3,18 +3,17 @@ title: ¿Qué son los informes paginados en Power BI Premium?
 description: Los informes paginados, con el formato de informe estándar de SQL Server Reporting Services, ya están disponibles en el servicio Power BI. Estos informes se pueden imprimir o compartir. Puede controlar el diseño del informe totalmente. Muestran todos los datos en una tabla, por ejemplo, incluso si la tabla abarca varias páginas.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
 ms.date: 09/24/2019
-ms.openlocfilehash: ca090f7251349c9ed4768b49f1372c14e68f0068
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305677"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874708"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -26,7 +25,7 @@ Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe t
 
 ![Informe paginado en el servicio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
 
-Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, http://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga una capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
+Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, https://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga la capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
 
 ## <a name="create-reports-in-power-bi-report-builder"></a>Creación de informes en el Generador de informes de Power BI
 
@@ -62,7 +61,7 @@ Todo el contenido de un informe paginado, desde el propio informe hasta cada cua
 
 ## <a name="creating-a-report-definition"></a>Creación de una definición de informe
 
-Al diseñar un informe paginado, realmente crea una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Cargue la definición de informe en el servicio Power BI, http://app.powerbi.com, en Mi área de trabajo o en un área de trabajo compartida con sus compañeros. Si el origen de datos del informe es local, después de cargar el informe, redirija la conexión del origen de datos para que pase por una puerta de enlace. 
+Al diseñar un informe paginado, realmente crea una *definición de informe*. No contiene los datos. Especifica de dónde se obtienen los datos, qué datos se obtienen y cómo mostrar los datos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Cargue la definición de informe en el servicio Power BI, https://app.powerbi.com, en Mi área de trabajo o en un área de trabajo compartida con sus compañeros. Si el origen de datos del informe es local, después de cargar el informe, redirija la conexión del origen de datos para que pase por una puerta de enlace. 
 
 ## <a name="view-your-paginated-report"></a>Visualización del informe paginado
 Verá el informe paginado en el servicio Power BI en un explorador y también en las aplicaciones móviles de Power BI. En el servicio Power BI, puede exportar el informe a varios formatos, como HTML, MHTML, PDF, XML, CSV, TIFF, Word y Excel. También puede compartirlo con otros usuarios.  

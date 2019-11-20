@@ -2,7 +2,6 @@
 title: Creación de áreas de trabajo clásicas en Power BI
 description: Obtenga información sobre cómo crear áreas de trabajo, colecciones de paneles, informes e informes paginados creados con el fin de proporcionar métricas clave para la organización.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/10/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 32b9adc92222e2122aff41d7ef7ef351c3158951
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 3153e63685e21a29687c33e702c4ade55324e05c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020246"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853551"
 ---
 # <a name="create-classic-workspaces-in-power-bi"></a>Creación de áreas de trabajo clásicas en Power BI
 
@@ -39,7 +38,7 @@ La primera vez que la cree puede que tenga que esperar una hora aproximadamente 
 ### <a name="add-an-image-to-your-office-365-workspace-optional"></a>Adición de una imagen al área de trabajo de Office 365 (opcional)
 De forma predeterminada, Power BI crea un pequeño círculo coloreado para la aplicación, con las iniciales de la aplicación. Pero tal vez desee personalizarlo con una imagen. Para agregar una imagen, necesita una licencia de Exchange Online.
 
-1. Seleccione **Áreas de trabajo**, seleccione el botón de puntos suspensivos (...) junto al nombre del área de trabajo y, a continuación, seleccione **Miembros**. 
+1. Seleccione **Áreas de trabajo**, **Más opciones** (...) junto al nombre del área de trabajo y, a continuación, seleccione **Miembros**. 
    
      ![Seleccionar miembros del área de trabajo](media/service-create-workspaces/power-bi-workspace-old-members.png)
    
@@ -75,7 +74,7 @@ En las áreas de trabajo actuales, también puede conectarse mediante paquetes d
 
 Si quiere distribuir contenido oficial a un público amplio dentro de la organización, puede publicar una aplicación desde el área de trabajo.  Cuando el contenido esté listo, elija en qué paneles e informes quiere publicarlo y publíquelo como una *aplicación*. Puede crear una aplicación desde cada área de trabajo.
 
-En la lista Aplicaciones del panel de navegación de la izquierda se muestran todas las aplicaciones que ha instalado. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. 
+En la lista Aplicaciones del panel de navegación se muestran todas las aplicaciones que ha instalado. Los compañeros de trabajo pueden obtener la aplicación de varias maneras diferentes. 
 - Pueden buscar e instalar la aplicación desde Microsoft AppSource.
 - Les puede enviar un vínculo directo. 
 - Si el administrador de Power BI le concede permiso, puede instalarla automáticamente en las cuentas de Power BI de los compañeros de trabajo. 
@@ -97,4 +96,4 @@ Consulte [¿En qué se diferencian las áreas de trabajo nuevas y las actuales?]
 ## <a name="next-steps"></a>Pasos siguientes
 * [Instalar y usar aplicaciones en Power BI](service-create-distribute-apps.md)
 - [Creación de nuevas áreas de trabajo](service-create-the-new-workspaces.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

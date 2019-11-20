@@ -2,21 +2,19 @@
 title: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas
 description: Sugerencias y trucos para hacer preguntas con Preguntas y respuestas en Power BI
 author: mihart
-manager: kvivek
-ms.reviewer: ''
-ms.custom: seodec18
+ms.reviewer: Mohammad
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 06/26/2019
+ms.date: 10/23/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 4f6dc7167d64385182ecbd448b6c400fa7f829df
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 9fd5375684466eca49582ff9d153fd2533ad7e92
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67408191"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099010"
 ---
 # <a name="tips-for-asking-questions-in-power-bi-qa"></a>Sugerencias para hacer preguntas con Preguntas y respuestas de Power BI
 ## <a name="words-and-terminology-that-qa-recognizes"></a>Palabras y terminología que reconoce Preguntas y respuestas
@@ -66,7 +64,7 @@ La siguiente lista usa el tiempo verbal presente, pero se reconocen todos los ti
 |  |  |
 |**Principales N**     |     (orden, clasificación): superior, inferior, primero, último, siguiente, más antiguo, más reciente, siguiente            |
 |        |         |
-|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales personalizados](../power-bi-custom-visuals.md) que haya agregado manualmente en el panel Visualización.  |
+|**Tipos de objeto visual**     |  todos los tipos de objeto visual nativos en Power BI.  Si es una opción en el panel Visualizaciones, puede incluirla en la pregunta.  La excepción a esta regla son los [objetos visuales personalizados](../developer/power-bi-custom-visuals.md) que haya agregado manualmente en el panel Visualización.  |
 |  |  Ejemplo: mostrar distritos por mes y el total de ventas como gráfico de barras               |
 |        |         |
 |**Qu (relación, calificado)**  | cuándo, dónde, qué, a quién, quién, cuántos, cuánto, cuántas veces, con qué frecuencia, importe, número, cantidad, cuánto tiempo, qué                |
@@ -79,7 +77,9 @@ Preguntas y respuestas hará todo lo posible para comprender y responder a la pr
 * proporciona una vista previa de la respuesta en forma de un objeto visual. El objeto visual se actualiza a medida que escribe y edita la pregunta (no espera a que presione ENTRAR).
 * sugiere términos de reemplazo de los conjuntos de datos subyacentes cuando mueve el mouse en el cuadro de pregunta.
 * redefine la pregunta en función de los datos de los conjuntos de datos subyacentes. Preguntas y respuestas reemplaza las palabras utilizadas con sinónimos de los conjuntos de datos subyacentes. Leyendo la redefinición, sabrá si Preguntas y respuestas comprendió su pregunta o no. 
-* atenúa palabras que no comprende.
+* agrega un subrayado doble a las palabras que no comprende.
+* agrega un subrayado sencillo a las palabras que comprende.
+* le permite ponerse en contacto con el propietario del informe o del panel cuando no se encuentra su término o la pregunta no obtiene resultados.
 
 ## <a name="dont-stop-now"></a>No se detenga ahora
 Cuando Preguntas y respuestas muestre los resultados, mantenga el curso de la conversación. Use las características interactivas del objeto visual y de Preguntas y respuestas para obtener más información.
@@ -89,5 +89,5 @@ Volver a [Preguntas y respuestas en Power BI](end-user-q-and-a.md)
 
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)  
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

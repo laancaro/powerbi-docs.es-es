@@ -2,19 +2,18 @@
 title: Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 description: Obtenga información sobre cómo crear un vínculo profundo a un panel, icono o informe específicos en la aplicación móvil de Power BI con un identificador uniforme de recursos (URI).
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 04/24/2019
 ms.author: mshenhav
-ms.openlocfilehash: 4e09b10e38b018f8e5572343b343a243ace3bf81
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 427019d831aa02723f17efd3de78081c368717c2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "64906530"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879286"
 ---
 # <a name="create-a-link-to-a-specific-location-in-the-power-bi-mobile-apps"></a>Creación de un vínculo a una ubicación específica en las aplicaciones móviles de Power BI
 Puede usar vínculos para acceder directamente a elementos específicos de Power BI: informe, panel e icono.
@@ -69,7 +68,7 @@ Los elementos **QUERY PARAMS** son:
 
 #### <a name="links-of-apps-and-items-in-app"></a>Vínculos de aplicaciones y elementos en aplicación
 
-En el caso de **aplicaciones, informes y paneles que forman parte de una aplicación**, la forma más sencilla de obtener el vínculo es ir al área de trabajo de la aplicación y seleccionar "Actualizar aplicación". Así se abre la experiencia "Publicar aplicación" y, en la pestaña Acceso, se encuentra una sección **Vínculos**. Al expandir esa sección, se ve la lista de la aplicación y todos sus vínculos de contenido que pueden usarse para acceder directamente.
+En el caso de **aplicaciones, informes y paneles que forman parte de una aplicación**, la forma más sencilla de obtener el vínculo es ir al área de trabajo y seleccionar "Actualizar aplicación". Así se abre la experiencia "Publicar aplicación" y, en la pestaña Acceso, se encuentra una sección **Vínculos**. Al expandir esa sección, se ve la lista de la aplicación y todos sus vínculos de contenido que pueden usarse para acceder directamente.
 
 ![Vínculos de aplicación de publicación de Power BI ](./media/mobile-apps-links/mobile-link-copy-app-links.png)
 
@@ -117,6 +116,6 @@ Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvid
 
 * [Aplicaciones de Power BI para dispositivos móviles](mobile-apps-for-mobile-devices.md)
 * Siga @MSPowerBI en Twitter
-* Únase a la conversación en la [comunidad de Power BI](http://community.powerbi.com/)
-* [¿Qué es Power BI?](../../power-bi-overview.md)
+* Únase a la conversación en la [comunidad de Power BI](https://community.powerbi.com/)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
 

@@ -2,7 +2,6 @@
 title: Conexión a Azure Audit Logs con Power BI
 description: Azure Audit Logs para Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 42b56cbad4c47b8cc8133a1f35511ea48ac24055
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: d0bd4e90dac6e71d95c38bed83f1c9507acc4fd3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060615"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73855386"
 ---
 # <a name="connect-to-azure-audit-logs-with-power-bi"></a>Conexión a Azure Audit Logs con Power BI
 Con el paquete de contenido de Registros de auditoría de Azure puede analizar y visualizar la información almacenada en los registros de auditoría. Power BI recupera los datos, crea un panel integrado y crea informes basados en esos datos.
@@ -25,7 +24,7 @@ Con el paquete de contenido de Registros de auditoría de Azure puede analizar y
 [Conéctese al paquete de contenido de Registros de auditoría de Azure](https://app.powerbi.com/getdata/services/azure-audit-logs) u obtenga más información sobre la [integración de Registros de auditoría de Azure](https://powerbi.microsoft.com/integrations/azure-audit-logs) con Power BI.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
-1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
+1. Seleccione **Obtener datos** en la parte inferior del panel de navegación.  
    
     ![](media/service-connect-to-azure-audit-logs/getdata.png)
 2. En el cuadro **Servicios** , seleccione **Obtener**.  

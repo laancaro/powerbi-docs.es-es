@@ -3,19 +3,18 @@ title: Actualización del servidor de informes de Power BI
 description: Aprenda a actualizar un servidor de informes de Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
-ms.openlocfilehash: 52863ea4bd666547a9c63b3add1d2d9c0626adc7
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839686"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873958"
 ---
 # <a name="upgrade-power-bi-report-server"></a>Actualización del servidor de informes de Power BI
 
@@ -63,7 +62,7 @@ Es sencillo actualizar el servidor de informes de Power BI. Solo hay que seguir 
 
 2. Seleccione **Upgrade Power BI Report Server** (Actualizar servidor de informes de Power BI).
 
-    ![Actualizar Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Actualizar Power BI Report Server")
+    ![Actualización de Power BI Report Server](media/upgrade/reportserver-upgrade1.png "Actualización de Power BI Report Server")
 
 3. Lea y acepte los términos y condiciones de la licencia y después seleccione **Actualizar**.
 

@@ -3,19 +3,18 @@ title: Entidad de servicio con Power BI
 description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory con una entidad de servicio para usarla con la inserción de contenido de Power BI.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: c77d206dbd7fa0604bc60fb4054c09f73cbe442e
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073105"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877654"
 ---
 # <a name="service-principal-with-power-bi"></a>Entidad de servicio con Power BI
 
@@ -58,8 +57,8 @@ Hay diferencias entre el uso de una entidad de servicio y una cuenta maestra est
 |------------------------------------------------------|---------------------|-------------------|
 | Puede iniciar sesión en el servicio Power BI  | Sí | No |
 | Está habilitada en el portal de administración de Power BI | No | Sí |
-| [Funciona con áreas de trabajo de la aplicación (v1)](../service-create-workspaces.md) | Sí | No |
-| [Funciona con las nuevas áreas de trabajo de la aplicación (v2)](../service-create-the-new-workspaces.md) | Sí | Sí |
+| [Funciona con áreas de trabajo (v1)](../service-create-workspaces.md) | Sí | No |
+| [Funciona con las nuevas áreas de trabajo (v2)](../service-create-the-new-workspaces.md) | Sí | Sí |
 | Tiene que ser un administrador del área de trabajo si se usa con Power BI Embedded | Sí | Sí |
 | Puede usar las API REST de Power BI | Sí | Sí |
 | Se necesita un administrador global para crearla | Sí | No |
@@ -141,7 +140,7 @@ No hay ninguna característica de interfaz de usuario para mover artefactos y re
 
 ### <a name="how-to-get-the-service-principal-object-id"></a>Cómo obtener el identificador de objeto de entidad de servicio
 
-Para asignar una entidad de servicio a una nueva área de trabajo de la aplicación, se usan las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para hacer referencia a una entidad de servicio para operaciones o para realizar cambios, use el **identificador de objeto de entidad de servicio**; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
+Para asignar una entidad de servicio a una nueva área de trabajo, se usan las [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/groups/addgroupuser). Para hacer referencia a una entidad de servicio para operaciones o para realizar cambios, use el **identificador de objeto de entidad de servicio**; por ejemplo, para aplicar una entidad de servicio como un administrador a un área de trabajo.
 
 A continuación se muestran los pasos para obtener el identificador de objeto de entidad de servicio desde Azure Portal.
 
@@ -166,7 +165,7 @@ A continuación se muestra un script de ejemplo para recuperar el identificador 
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-* La entidad de servicio solo funciona con las [nuevas áreas de trabajo de la aplicación](../service-create-the-new-workspaces.md).
+* La entidad de servicio solo funciona con [áreas de trabajo nuevas](../service-create-the-new-workspaces.md).
 * Cuando se usa la entidad de servicio, no se admite **Mi área de trabajo**.
 * Para pasar a producción, se necesita capacidad dedicada.
 * No se puede iniciar sesión en el portal de Power BI con la entidad de servicio.

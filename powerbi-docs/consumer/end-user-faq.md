@@ -2,7 +2,6 @@
 title: Preguntas más frecuentes de usuarios finales de Power BI
 description: Vea una lista de las preguntas más frecuentes sobre el servicio Power BI y las aplicaciones móviles de Power BI, y sus respuestas.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,25 +9,25 @@ ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf3e7b790788c8ce21b222a083a853b06185acc0
-ms.sourcegitcommit: b7a9862b6da940ddebe61bc945a353f91cd0e4bd
+ms.openlocfilehash: 282b10d48efc97c38dae06692964e3ba2a7412b0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "71943318"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852505"
 ---
 # <a name="frequently-asked-questions-about-power-bi"></a>Preguntas más frecuentes acerca de Power BI
 
-* Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
+* Si tiene otras preguntas, [pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).
 
 ## <a name="what-is-the-microsoft-power-bi-service"></a>¿Qué es el servicio Microsoft Power BI?
 
-Power BI es un servicio de análisis empresarial basado en la nube que permite a cualquier persona visualizar y analizar datos de forma más rápida, eficaz y consciente. Conecta a los usuarios a una gran variedad de datos locales y basados en la nube a través de paneles fáciles de usar, informes interactivos y visualizaciones atractivas que hacen que los datos cobren vida. Lea más acerca de [Power BI](../power-bi-overview.md).
+Power BI es un servicio de análisis empresarial basado en la nube que permite a cualquier persona visualizar y analizar datos de forma más rápida, eficaz y consciente. Conecta a los usuarios a una gran variedad de datos locales y basados en la nube a través de paneles fáciles de usar, informes interactivos y visualizaciones atractivas que hacen que los datos cobren vida. Lea más acerca de [Power BI](../fundamentals/power-bi-overview.md).
 
 ## <a name="whats-the-difference-between-power-bi-pro-and-power-bi-premium"></a>¿Cuál es la diferencia entre Power BI Pro y Power BI Premium?
 
-Power BI Pro es una licencia individual que permite el acceso a todo el contenido y las funcionalidades del servicio Power BI. Puede incluso compartir el contenido y colaborar con otros usuarios con la licencia Pro. Solo los usuarios de la versión Pro pueden publicar contenido en áreas de trabajo de las aplicaciones, compartir paneles y suscribirse a paneles e informes.
+Power BI Pro es una licencia individual que permite el acceso a todo el contenido y las funcionalidades del servicio Power BI. Puede incluso compartir el contenido y colaborar con otros usuarios con la licencia Pro. Solo los usuarios de la versión Pro pueden publicar contenido en áreas de trabajo, compartir paneles y suscribirse a paneles e informes.
 
 Power BI Premium proporciona capacidad dedicada para proporcionar un rendimiento más estable. También admite volúmenes de datos mayores en Power BI. Para usuarios individuales, Premium permite una amplia distribución de contenido por parte de los usuarios con licencia Pro y no requiere licencias por usuario para los destinatarios que ven el contenido.
 
@@ -56,9 +55,9 @@ Sí, si la adquisición se realiza directamente a Microsoft, las organizaciones 
 
 Sí. Power BI tiene aplicaciones nativas para teléfonos y tabletas Android, dispositivos iOS y dispositivos con Windows 10. Descargue una de las [aplicaciones móviles de Power BI](https://powerbi.microsoft.com/mobile) de su tienda respectiva:  
 
-* [App Store de Apple](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Tienda Windows](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store de Apple](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Tienda Windows](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="what-do-i-need-to-install-to-use-power-bi"></a>¿Qué es necesario instalar para poder usar Power BI?
 
@@ -66,15 +65,15 @@ Para usar el servicio de Power BI de forma gratuita, solo necesita un explorador
 
 Las aplicaciones móviles de Power BI se pueden descargar desde sus tiendas respectivas, de forma gratuita igualmente:
 
-* [App Store](http://go.microsoft.com/fwlink/?LinkId=526218)
-* [Google Play](http://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
-* [Tienda Windows](http://go.microsoft.com/fwlink/?LinkId=526478)
+* [App Store](https://go.microsoft.com/fwlink/?LinkId=526218)
+* [Google Play](https://go.microsoft.com/fwlink/?LinkID=544867&clcid=0x409)
+* [Tienda Windows](https://go.microsoft.com/fwlink/?LinkId=526478)
 
 ## <a name="where-do-i-get-started-with-power-bi"></a>¿Por dónde empiezo con Power BI?
 
 Los siguientes recursos están disponibles para ayudarle a empezar:
 
-* [Blog de Power BI](http://blogs.msdn.com/b/powerbi/)
+* [Blog de Power BI](https://blogs.msdn.com/b/powerbi/)
 * [Seminarios web](../webinars.md)
 * Vídeos de introducción en nuestro [canal de YouTube](https://www.youtube.com/user/mspowerbi)
 * Artículo [Introducción a Power BI como *consumidor*](power-bi-consumer-landing.md)
@@ -91,19 +90,19 @@ Esta es una lista completa de las [regiones y los idiomas que admite Power BI](.
 
 ## <a name="how-can-i-buy-power-bi-pro-in-my-country"></a>¿Cómo puedo comprar Power BI Pro en mi país?
 
-Las licencias de Power BI Pro se pueden adquirir directamente, o bien a través de un representante de [www.powerbi.com](http://www.powerbi.com).
+Las licencias de Power BI Pro se pueden adquirir directamente, o bien a través de un representante de [www.powerbi.com](https://www.powerbi.com).
 
 También puede buscar un [partner de Microsoft](https://partner.microsoft.com/) que le ayude con la implementación de Power BI.
 
 ## <a name="does-power-bi-meet-national-regional-and-industry-specific-compliance-requirements"></a>¿Cumple Power BI los requisitos de cumplimiento nacionales, regionales y específicos del sector?
 
-Obtenga más información sobre el cumplimiento de Power BI en el [Centro de confianza de Microsoft](http://go.microsoft.com/fwlink/?LinkId=785324).
+Obtenga más información sobre el cumplimiento de Power BI en el [Centro de confianza de Microsoft](https://go.microsoft.com/fwlink/?LinkId=785324).
 
 ## <a name="where-can-i-learn-more-about-security"></a>¿Dónde puedo obtener más información acerca de la seguridad?
 
 Más información sobre seguridad, privacidad y cumplimiento de Power BI aquí:
 
-* Estas notas del producto sobre la [seguridad de Power BI](http://go.microsoft.com/fwlink/?LinkId=829185).
+* Estas notas del producto sobre la [seguridad de Power BI](https://go.microsoft.com/fwlink/?LinkId=829185).
 
 * Este artículo sobre [soporte técnico de seguridad de Power BI](../service-admin-power-bi-security.md).
 
@@ -117,5 +116,5 @@ Al igual que muchos otros servicios y software de Microsoft, Power BI permite de
 
 * [¿Qué es un consumidor de Power BI?](end-user-consumer.md)
 * [¿Cómo usa Power BI un consumidor?](end-user-reading-view.md)
-* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 * ¿Sigue teniendo problemas? Visite la [página de soporte técnico de Power BI](https://powerbi.microsoft.com/support/).

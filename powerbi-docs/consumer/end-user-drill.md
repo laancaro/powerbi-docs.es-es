@@ -2,7 +2,6 @@
 title: Explorar en profundidad y resumir en un objeto visual
 description: En este artículo se muestra cómo explorar en profundidad en un objeto visual en el servicio Microsoft Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/17/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b200ec86db339e42a708c3db042df06b9513cc6e
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589509"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851457"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploración en un objeto visual de Power BI
 
@@ -128,7 +127,7 @@ Tener un gráfico de rectángulos que nos muestra solo un código postal no es m
 ## <a name="show-the-data-as-you-drill"></a>Mostrar los datos a medida que se explora
 Use **Permite mostrar datos** para obtener un visión en segundo plano. Cada vez que explore en profundidad o expanda, **Permite mostrar datos** muestra los datos que se usan para crear el objeto visual. Esto puede ayudarle a entender el funcionamiento conjunto de las jerarquías, explorar en profundidad y expandir para crear objetos visuales. 
 
-En la esquina superior derecha, seleccione los puntos suspensivos (...) y, después, **Permite mostrar datos**. 
+En la esquina superior derecha, seleccione **Más opciones** (...) y, después, seleccione **Mostrar datos**. 
 
 ![Captura de pantalla del menú de puntos suspensivos.](./media/end-user-drill/power-bi-ellipses.png)
 
@@ -153,4 +152,4 @@ De forma predeterminada, el modo detallado no filtrará otros objetos visuales e
 
 [Power BI: Conceptos básicos](end-user-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

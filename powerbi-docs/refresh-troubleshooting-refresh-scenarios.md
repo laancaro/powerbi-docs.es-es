@@ -2,7 +2,6 @@
 title: Solución de problemas de escenarios de actualización
 description: Solución de problemas de escenarios de actualización
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,21 +9,27 @@ ms.topic: troubleshooting
 ms.date: 09/13/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 564c3d03a7879cd7788e19055d8c11e4de46013f
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d79fc47ff30d7f28827290268ba01edf09643032
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543864"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860486"
 ---
 # <a name="troubleshooting-refresh-scenarios"></a>Solución de problemas de escenarios de actualización
 
 Aquí puede encontrar información sobre distintos escenarios que pueden darse al actualizar datos en el servicio Power BI.
 
 > [!NOTE]
-> Si se encuentra con un escenario que no se menciona a continuación y está causando incidencias, puede pedir ayuda adicional en el [sitio de la comunidad](http://community.powerbi.com/) o crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support/).
+> Si se encuentra con un escenario que no se menciona a continuación y está causando incidencias, puede pedir ayuda adicional en el [sitio de la comunidad](https://community.powerbi.com/) o crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support/).
 >
 >
+
+## <a name="email-notifications"></a>Notificaciones por correo electrónico
+
+Si ha llegado a este artículo a partir de una notificación por correo electrónico, y ya no desea recibir correos electrónicos acerca de los problemas de actualización, póngase en contacto con el administrador de Power BI. Pídales que quiten directamente su dirección de correo electrónico, o que la eliminen de una lista de correo electrónico a la que se esté suscrito de los conjuntos de datos correspondientes en Power BI. Pueden hacerlo desde la siguiente área del portal de administración de Power BI.
+
+![Correo electrónico para notificaciones de actualización](media/refresh-troubleshooting-refresh-scenarios/refresh-email.png)
 
 ## <a name="refresh-using-web-connector-doesnt-work-properly"></a>La actualización mediante el conector web no funciona correctamente
 
@@ -86,5 +91,5 @@ Otro posible error en la actualización de datos podría deberse a que la creden
 - [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 - [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la Comunidad de Microsoft Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la Comunidad de Microsoft Power BI](https://community.powerbi.com/)
 

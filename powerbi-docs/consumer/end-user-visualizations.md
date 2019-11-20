@@ -2,7 +2,6 @@
 title: Trabajo con visualizaciones (objetos visuales) como consumidor
 description: 'Conceptos y terminología de Power BI: visualizaciones, objetos visuales. Qué es una visualización u objeto visual de Power BI.'
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7f72e53fe9f017f5f12893711858cc9179b883dd
-ms.sourcegitcommit: 5410a17c6325406c9d9364585d7c26de4d9488ae
+ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/16/2019
-ms.locfileid: "72379974"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860985"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interacción con objetos visuales en informes, paneles y aplicaciones
 
@@ -52,7 +51,7 @@ Para muchas de estas opciones, el administrador o el *diseñador* pueden deshabi
 |[Pedir a Power BI que busque tendencias o hechos interesante](end-user-insights.md) en los datos del objeto visual en su lugar.  Estos objetos visuales generados de forma automática se denominan *conclusiones*.     |    sí     |  para todo el informe, no por objeto visual       | no   |
 |[Ver un solo objeto visual a la vez con el modo de *enfoque*](end-user-focus.md).     | sí        |   sí      | ND  |
 |[Consultar la última vez que se ha actualizado el objeto visual](end-user-fresh.md).     |  sí       |    sí     | ND  |
-|[Ver un solo objeto visual a la vez, sin bordes ni barras de navegación, con el modo de *pantalla completa* o el *de enfoque*](end-user-focus.md).     |   sí      |  sí       | de forma predeterminada  |
+|[Ver un solo objeto visual a la vez, sin bordes ni paneles de navegación, con el modo de *pantalla completa* o el *de enfoque*](end-user-focus.md).     |   sí      |  sí       | de forma predeterminada  |
 |[Imprimir](end-user-print.md).     |  sí       |   sí      | no  |
 |[Profundizar en el objeto visual mediante la adición y la modificación de filtros de visualización](end-user-report-filter.md).     |    no     |   sí      | no  |
 |Mantener el puntero sobre un objeto visual para mostrar información sobre herramientas y detalles adicionales.     |    sí     |   sí      | sí  |

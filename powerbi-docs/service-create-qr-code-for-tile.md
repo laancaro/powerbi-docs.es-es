@@ -2,7 +2,6 @@
 title: Crear un código QR para un icono para su uso en las aplicaciones móviles de Power BI
 description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI, sin que se necesite una búsqueda.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/07/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: cab65ad12255b7a5ff2e37902684437f0e191723
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 10faca7cf81575dddd2abb29afee1aca0e9f1279
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61169081"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853337"
 ---
 # <a name="create-a-qr-code-for-a-tile-in-power-bi-to-use-in-the-mobile-apps"></a>Crear un código QR para un icono en Power BI para su uso en aplicaciones móviles
 Los códigos QR de Power BI pueden conectar  cualquier cosa del mundo real directamente con información de BI relacionada &#151; no es necesario realizar ninguna exploración o búsqueda.
@@ -27,8 +26,8 @@ Los compañeros con quienes haya compartido el panel pueden [detectar el código
 
 ## <a name="create-a-qr-code-for-a-tile"></a>Crear un código QR para un icono
 1. Abra un panel en el servicio Power BI.
-2. Seleccione los puntos suspensivos (...) en la esquina superior derecha del icono y seleccione **Modo Enfoque** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
-3. Seleccione los puntos suspensivos (...) en la esquina superior derecha y elija **Generar código QR**. 
+2. Seleccione **Más opciones** (...) en la esquina superior derecha del icono y, después, seleccione **Modo Enfoque** ![](media/service-create-qr-code-for-tile/fullscreen-icon.jpg).
+3. Seleccione **Más opciones** (...) en la esquina superior derecha y elija **Generar código QR**. 
    
     ![](media/service-create-qr-code-for-tile/power-bi-create-qr-code-tile.png)
 4. Aparece un cuadro de diálogo con el código QR. 
@@ -55,5 +54,5 @@ Power BI genera el código QR como archivo JPG, listo para imprimir.
 * [Get Power BI data from the real world with the mobile apps](consumer/mobile/mobile-apps-data-in-real-world-context.md) (Obtener datos de Power BI del mundo real con las aplicaciones móviles)
 * [Detección de un código QR de Power BI desde un dispositivo móvil](consumer/mobile/mobile-apps-qr-code.md)
 * [Creación de un código QR para un informe](service-create-qr-code-for-report.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

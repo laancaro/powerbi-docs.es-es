@@ -2,7 +2,6 @@
 title: Solución de problemas de Cortana para Power BI
 description: Si tiene problemas con el uso de Cortana con Power BI, pruebe estas sugerencias.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: troubleshooting
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 678910000a0062836004b208cb401774c9eb2a9a
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 9d6241659eaa5e6ff9c98b5c25dbfacb0bbac34d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542893"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872873"
 ---
 # <a name="troubleshoot-cortana-for-power-bi"></a>Solución de problemas de Cortana para Power BI
 Este artículo forma parte de una serie. 
@@ -39,7 +38,7 @@ Si sigue teniendo problemas para conseguir que Cortana se integre con Power BI, 
    * "mostrar ventas" *no* devolverá ningún resultado de Power BI.   
    * "mostrarme ventas año 2016", "ventas año 2016", "mostrar ventas año 2016" y "mostrarme ventas a" *sí* devolverán un resultado de Power BI.    
    * Agregar las palabras "powerbi" cuenta como una de las 2 palabras necesarias, por lo que "ventas de powerbi" *devolverá* un resultado de Power BI.
-5. ¿Tiene permisos de acceso o edición a todos los informes o paneles? En el caso de los informes, asegúrese de que el contenido que intenta buscar tiene una [tarjeta de respuestas](service-cortana-answer-cards.md).  En el caso de los paneles, asegúrese de que el contenido que está intentando buscar está en **Compartido conmigo**, en un área de trabajo de la aplicación, o en **Mi área de trabajo**. [Use la herramienta de solución de problemas](#try-the-cortana-troubleshooting-tool) para ayudarle a identificar el problema.
+5. ¿Tiene permisos de acceso o edición a todos los informes o paneles? En el caso de los informes, asegúrese de que el contenido que intenta buscar tiene una [tarjeta de respuestas](service-cortana-answer-cards.md).  En el caso de los paneles, asegúrese de que el contenido que está intentando buscar está en **Compartido conmigo**, en un área de trabajo, o en **Mi área de trabajo**. [Use la herramienta de solución de problemas](#try-the-cortana-troubleshooting-tool) para ayudarle a identificar el problema.
 6. ¿Usa un dispositivo móvil?  En la actualidad solo se admite la integración de Power BI y Cortana en dispositivos móviles de Windows.
 7. ¿Está configurado Cortana para inglés?  La integración actual de Cortana con Power BI solo admite inglés. Abra Cortana y seleccione el icono de engranaje para mostrar la configuración. Desplácese hacia abajo hasta **Idioma de Cortana** y asegúrese de se establece en una de las opciones de inglés.
 
@@ -96,4 +95,4 @@ Si sigue teniendo problemas para conseguir que Cortana se integre con Power BI, 
 * El diseño de la consulta admite únicamente dos o más palabras.  Si la consulta es demasiado corta, agregue la palabra "Mostrar".
 * Algunas cadenas de consulta con preposiciones podrían no funcionar (por ejemplo, ventas por artículo). Pruebe diferentes términos de consulta sin preposiciones, con significado y únicos.
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

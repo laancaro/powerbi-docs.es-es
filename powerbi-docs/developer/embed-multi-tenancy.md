@@ -3,18 +3,17 @@ title: Administración de varios inquilinos con análisis integrado de Power BI
 description: Diseñe una aplicación de varios inquilinos con análisis integrado.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 01/11/2019
-ms.openlocfilehash: 3940f677cadc5844cfac9c32781a5586bde0607a
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 0456e1e56db3e291f359f266b1ac12073fb747da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621290"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864425"
 ---
 # <a name="manage-multi-tenancy-with-power-bi-embedded-analytics"></a>Administración de varios inquilinos con análisis integrado de Power BI
 
@@ -37,7 +36,7 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 **Inquilino**: un solo cliente (organización) que usa la aplicación SaaS y los recursos o datos que el cliente lleva a la aplicación SaaS.
 
-**[Power BI](../power-bi-overview.md)** : servicio Power BI en la nube que sirve como plataforma para Power BI Embedded.
+**[Power BI](../fundamentals/power-bi-overview.md)** : servicio Power BI en la nube que sirve como plataforma para Power BI Embedded.
 
 **Inquilino de Power BI**: conjunto de recursos de Power BI asociado a un único inquilino de AAD.
 
@@ -55,7 +54,7 @@ En este artículo se describen los diferentes enfoques y se analizan en función
 
 **Capacidad**: conjunto de recursos dedicados a ejecutar el servicio Power BI. [Capacidades de Power BI Premium](../service-premium-what-is.md): opción destinada a empresas que usan Power BI internamente, mientras que las [capacidades de Power BI Embedded](azure-pbie-create-capacity.md) están previstas para que los desarrolladores de aplicaciones desarrollen aplicaciones SaaS para terceros.
 
-**[Licencia de Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licencia basada en usuarios, que concede derechos para publicar contenido en áreas de trabajo de las aplicaciones, consumir aplicaciones sin la capacidad Premium, compartir paneles y suscribirse a paneles e informes.
+**[Licencia de Power BI Pro](../service-admin-purchasing-power-bi-pro.md)** : licencia basada en usuarios, que concede derechos para publicar contenido en áreas de trabajo, consumir aplicaciones sin la capacidad Premium, compartir paneles y suscribirse a paneles e informes.
 
 **[Modos de conectividad de datos](../desktop-directquery-about.md)** : la conexión de orígenes de datos a Power BI que se pueden realizar en modos distintos:
 

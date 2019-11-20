@@ -2,19 +2,18 @@
 title: Administración de contenido en el portal web de Power BI Report Server
 description: Lea información sobre la administración de contenido en el portal web de Power BI Report Server.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/24/2018
 ms.author: maggies
-ms.openlocfilehash: e7a9b4da760f02672f51aa7ace0f3bb19c501834
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: ecc33c6176214cb8178e55d716294bf9446a7b1d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64770137"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859476"
 ---
 # <a name="manage-content-in-the-web-portal"></a>Administración de contenido en el portal web 
 El portal web del servidor de informes de Power BI es una ubicación local para visualizar, almacenar y administrar informes de Power BI, informes para móviles e informes paginados e indicadores KPI.
@@ -38,9 +37,9 @@ El portal web es una aplicación que se ejecuta en un explorador. Al iniciar el 
     Consulte la lista de [exploradores web y versiones admitidas](browser-support.md).
 2. En la barra de direcciones, escriba la dirección URL del portal web.
    
-    La dirección URL predeterminada es <em>http://[NombreDeEquipo]/reports</em>.
+    La dirección URL predeterminada es <em>https://[NombreDelEquipo]/reports</em>.
    
-    El servidor de informes puede estar configurado para utilizar un puerto específico. Por ejemplo, <em>http://[NombreDeEquipo]:80/Reports</em> o <em>http://[NombreDeEquipo]:8080/Reports</em>
+    El servidor de informes puede estar configurado para utilizar un puerto específico. Por ejemplo, <em>https://[NombreDelEquipo]:80/Reports</em> o <em>https://[NombreDelEquipo]:8080/Reports</em>
    
     El portal web agrupa los elementos en estas categorías:
    
@@ -56,7 +55,7 @@ El portal web es una aplicación que se ejecuta en un explorador. Al iniciar el 
 ## <a name="manage-items-in-the-web-portal"></a>Administrar elementos en el portal web
 El servidor de informes de Power BI ofrece control detallado de los elementos que se almacenan en el portal web. Por ejemplo, puede configurar las suscripciones, almacenamiento en caché, instantáneas y seguridad de informes paginados individuales.
 
-1. Seleccione los puntos suspensivos (...) en la esquina superior derecha de un elemento y, a continuación, seleccione **Administrar**.
+1. Seleccione **Más opciones** (...) en la esquina superior derecha de un elemento y **Administrar**.
    
     ![Seleccione Administrar](media/getting-around/report-server-web-portal-manage-ellipsis.png)
 2. Elija la propiedad u otra característica que desea establecer.

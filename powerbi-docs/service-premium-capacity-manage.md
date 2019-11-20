@@ -3,7 +3,6 @@ title: Administración de las capacidades de Microsoft Power BI Premium
 description: En este artículo se describen las tareas de administración para las capacidades de Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1e8218e19ca3949a96a9c701e4a18f9fb088e2a1
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 5e8becd877165f456793d99951544156a9314290
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175216"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881192"
 ---
 # <a name="managing-premium-capacities"></a>Administración de las capacidades Premium
 
@@ -42,7 +41,7 @@ Se debe asignar al menos un administrador de capacidad. Los usuarios asignados c
 
 Los administradores de capacidad no pueden acceder al contenido del área de trabajo a menos que se los asigne explícitamente en permisos del área de trabajo. Tampoco tienen acceso a todas las áreas de administración de Power BI (a menos que se asignen de manera explícita), como métricas de uso, registros de auditoría o configuración del inquilino. Lo importante es que los administradores de capacidad no tienen permisos para crear capacidades nuevas ni para escalar las existentes. Los administradores se asignan por capacidad, lo que garantiza que solo podrán ver y administrar las capacidades a las que están asignados.
 
-El tamaño de la capacidad se selecciona en una lista de las opciones de SKU disponible, que se ve restringida por el número de núcleos virtuales disponibles en el grupo. Es posible crear varias capacidades desde el grupo, cuyo origen puede ser una o varias SKU compradas. Por ejemplo, una SKU P3 (32 núcleos virtuales) se podría usar para crear tres capacidades: una P2 (16 núcleos virtuales) y dos P1 (2 x 8 núcleos virtuales). Es posible mejorar el rendimiento y la escala mediante la creación de capacidades de menor tamaño, tal como se describe en el artículo [Optimización de las capacidades Premium](service-premium-capacity-optimize.md). En la imagen siguiente se muestra una configuración de ejemplo para la organización ficticia Contoso, que consta de cinco capacidades Premium (3 x P1 y 2 x P3), donde cada una contiene áreas de trabajo de la aplicación y varias áreas de trabajo en la capacidad compartida.
+El tamaño de la capacidad se selecciona en una lista de las opciones de SKU disponible, que se ve restringida por el número de núcleos virtuales disponibles en el grupo. Es posible crear varias capacidades desde el grupo, cuyo origen puede ser una o varias SKU compradas. Por ejemplo, una SKU P3 (32 núcleos virtuales) se podría usar para crear tres capacidades: una P2 (16 núcleos virtuales) y dos P1 (2 x 8 núcleos virtuales). Es posible mejorar el rendimiento y la escala mediante la creación de capacidades de menor tamaño, tal como se describe en el artículo [Optimización de las capacidades Premium](service-premium-capacity-optimize.md). En la imagen siguiente se muestra una configuración de ejemplo para la organización ficticia Contoso, que consta de cinco capacidades Premium (3 x P1 y 2 x P3), donde cada una contiene áreas de trabajo y varias áreas de trabajo en la capacidad compartida.
 
 ![Una configuración de ejemplo para la organización ficticia Contoso](media/service-premium-capacity-manage/contoso-organization-example.png)
 
@@ -66,7 +65,7 @@ Es posible eliminar una capacidad Premium, lo que no eliminará las áreas de tr
 
 ### <a name="assigning-workspaces-to-capacities"></a>Asignación de áreas de trabajo a las capacidades
 
-Las áreas de trabajo se pueden asignar a una capacidad Premium en el portal de administración de Power BI o, e el caso de un área de trabajo de la aplicación, en el panel **Área de trabajo**.
+Las áreas de trabajo se pueden asignar a una capacidad Premium en el portal de administración de Power BI o, en el caso de un área de trabajo, en el panel **Área de trabajo**.
 
 Los administradores de capacidad, así como los administradores globales de Office 365 o los administradores del servicio Power BI, pueden asignar áreas de trabajo en masa en el portal de administración de Power BI. La asignación masiva se puede aplicar a:
 

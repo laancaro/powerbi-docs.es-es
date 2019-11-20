@@ -3,25 +3,24 @@ title: 'Solución de problemas de puertas de enlace: Power BI'
 description: En este artículo se proporcionan formas de solucionar los problemas que surjan con la puerta de enlace de datos local y Power BI. Proporciona posibles soluciones a problemas conocidos, así como herramientas para ayudarle.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: troubleshooting
 ms.date: 07/15/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfb0546771331e13f3703de0afdbcad6c3219f9c
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: b420c827df3c18796d0d46514f81170f202eafbd
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543820"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881578"
 ---
 # <a name="troubleshoot-gateways---power-bi"></a>Solución de problemas de puertas de enlace: Power BI
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-En este artículo se examinan algunos problemas comunes del uso de la puerta de enlace de datos local con Power BI. Si encuentra un problema que no aparece aquí, puede usar el sitio de la [Comunidad](http://community.powerbi.com) de Power BI. O bien, puede crear una [incidencia de soporte técnico](http://powerbi.microsoft.com/support).
+En este artículo se examinan algunos problemas comunes del uso de la puerta de enlace de datos local con Power BI. Si encuentra un problema que no aparece aquí, puede usar el sitio de la [Comunidad](https://community.powerbi.com) de Power BI. O bien, puede crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support).
 
 ## <a name="configuration"></a>Configuración
 
@@ -227,7 +226,7 @@ Recibe el mensaje de error "-10709 Error de conexión" si la delegación no est�
 
 Cuando se usa la puerta de enlace para una actualización programada, **Actualizar historial** puede ayudarle a ver los errores que se han producido. También puede proporcionar datos útiles si necesita crear una solicitud de soporte técnico. Puede ver las actualizaciones programadas y las actualizaciones a petición. En los pasos siguientes se muestra cómo acceder a la opción de actualizar historial.
 
-1. En el panel de navegación de Power BI, en **Conjuntos de datos**, seleccione un conjunto de datos. Abra el menú y seleccione **Programar actualización**.
+1. En el panel de navegación de Power BI, seleccione un conjunto de datos en **Conjuntos de datos**. Abra el menú y seleccione **Programar actualización**.
 
     ![Procedimientos para seleccionar Programar actualización](media/service-gateway-onprem-tshoot/scheduled-refresh.png)
 
@@ -241,7 +240,7 @@ Para más información sobre la solución de problemas de escenarios de actualiz
 
 ## <a name="fiddler-trace"></a>Seguimiento de Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP. Puede ver todas las perspectivas con el servicio Power BI desde el equipo cliente. Esta lista de tráfico puede mostrar errores y otra información relacionada.
+[Fiddler](https://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP. Puede ver todas las perspectivas con el servicio Power BI desde el equipo cliente. Esta lista de tráfico puede mostrar errores y otra información relacionada.
 
 ![Uso del seguimiento de Fiddler](media/service-gateway-onprem-tshoot/fiddler.png)
 
@@ -254,4 +253,4 @@ Para más información sobre la solución de problemas de escenarios de actualiz
 * [Administrar el origen de datos: SQL Server](service-gateway-enterprise-manage-sql.md)  
 * [Administrar el origen de datos: importación o actualización programada](service-gateway-enterprise-manage-scheduled-refresh.md)  
 
-¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).

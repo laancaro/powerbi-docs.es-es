@@ -2,7 +2,6 @@
 title: Anclaje de un icono a un panel de Power BI desde un informe
 description: Anclaje de un icono a un panel de Power BI desde un informe.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/23/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: b27cf80985dc1789fff5797430e4592fe361b533
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 24d706108bab274ef6aae8733f1fc11d212f13eb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68624118"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852628"
 ---
 # <a name="pin-a-tile-to-a-power-bi-dashboard-from-a-report"></a>Anclaje de un icono a un panel de Power BI desde un informe
 
@@ -66,5 +65,5 @@ Para más información, consulte [Anclar una página de informe completa](servic
 - [Actualizar datos en Power BI](refresh-data.md)
 - [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

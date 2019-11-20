@@ -2,7 +2,6 @@
 title: Sugerencias para crear informes impactantes
 description: Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,17 +9,17 @@ ms.topic: conceptual
 ms.date: 04/13/2018
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: 4d686a807d9413c15b19ff382e5ac54fb696b10b
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: d7f2c83cf1d0f29f2c0d0c6e621a253acdd3ce41
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66721362"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860885"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop-and-power-bi-service"></a>Sugerencias y trucos para crear informes en el servicio Power BI y Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop, el servicio Power BI *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado.
 
-## <a name="power-bi-desktop"></a>Power BI Desktop
+## <a name="power-bi-desktop"></a>Power BI Desktop
 
 ### <a name="learning-to-use-the-query-editor"></a>Aprender a usar el Editor de consultas
 El Editor de consultas de Power BI Desktop es similar al complemento Power Query de Excel 2013. Aunque el soporte de Power BI ofrece varios artículos útiles, también puede revisar la documentación de Power Query en support.office.com para comenzar.
@@ -115,11 +114,11 @@ Veamos un ejemplo:
 
 Supongamos que cargamos conjuntos de datos de solicitudes de soporte técnico de clientes activos y otro conjunto de datos de elementos de trabajo que tienen esquemas como el siguiente:
 
-> CustomerInicdents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName }
+> CustomerIncidents: {IncidentID, CustomerName, IssueName, OpenedDate, Status} WorkItems: {WorkItemID, IncidentID, WorkItemName, OpenedDate, Status, CustomerName}
 >
 >
 
-Si queremos realizar un seguimiento de todos los incidentes y elementos de trabajo relacionados con un determinado un CustomerName, no podemos crear simplemente una relación entre estos dos conjuntos de datos.  Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL.  Puede haber varios registros de en WorkItems y CustomerIncidents para cualquier CustomerName determinado.  
+Si queremos realizar un seguimiento de todos los incidentes y elementos de trabajo relacionados con un determinado valor de CustomerName, no podemos crear simplemente una relación entre estos dos conjuntos de datos.  Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL.  Puede haber varios registros de en WorkItems y CustomerIncidents para cualquier CustomerName determinado.  
 
 #### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Creación de relaciones en Power BI Desktop si mis datos tienen valores nulos o en blanco
 A menudo los conjuntos de datos contienen columnas con valores nulos o en blanco.  Esto puede producir problemas al intentar usar las relaciones.  Básicamente hay dos opciones para resolver los problemas.  Podemos quitar las filas que tengan valores nulos o en blanco.  Para ello, se puede usar una característica de filtro en la pestaña de consulta o si se van a combinar las consultas, seleccionar la opción "Mantener solo las filas coincidentes". De manera alternativa, se pueden reemplazar los valores en blanco o nulos con valores que funcionan normalmente en las relaciones como, por ejemplo, las cadenas "NULL" y ("Blank").   No hay ningún enfoque correcto aquí: el filtrado de filas en la fase de consulta quita filas y puede afectar a los cálculos y las estadísticas de resumen.  El último enfoque conserva dichas filas de datos, pero puede hacer que en el modelo aparezcan filas no relacionadas como relacionadas, lo que daría lugar a cálculos erróneos.  Si adoptamos la última solución, debemos asegurarnos de usar filtros en la visa/gráfico donde corresponda para asegurarse de que se obtienen resultados precisos.  Lo más importante es evaluar las filas que se mantendrán/eliminarán y comprender el impacto global en el análisis.  
@@ -163,12 +162,9 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop.  Está optimiz
 
 [Referencia de expresiones de análisis de datos (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Centro de recursos de DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Centro de recursos de DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
 
 ## <a name="power-bi-service-and-power-bi-desktop"></a>Servicio Power BI *y* Power BI Desktop
-
-### <a name="read-the-whitepaper-principles-for-designing-power-bi-reportsvisualspower-bi-visualization-best-practicesmd"></a>Lea las notas del producto: [Principios para diseñar informes en Power BI](visuals/power-bi-visualization-best-practices.md)
-En este documento se describen los procedimientos recomendados para diseñar informes en Power BI. Empezando por la planeación, se tratan los principios de diseño que se pueden aplicar, tanto a los informes como a las páginas y los objetos visuales individuales que componen dicho informe. Muchos de estos procedimientos recomendados también se pueden aplicar al diseño de paneles.
 
 ### <a name="read-andor-watch-how-to-design-visually-stunning-reports-and-dashboards-in-power-bi"></a>Leer o ver “How to design visually stunning reports (and dashboards) in Power BI” (Cómo diseñar informes [y paneles] visualmente espectaculares en Power BI)
 Miguel Myers, miembro de la comunidad, es científico de datos y diseñador gráfico.
@@ -226,4 +222,4 @@ Estos son algunos de nuestros libros favoritos:
 
 [Informes en Power BI](consumer/end-user-reports.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

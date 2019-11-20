@@ -3,7 +3,6 @@ title: Análisis integrado con Power BI
 description: Power BI ofrece API para usar análisis integrados con los paneles e informes en las aplicaciones. Aprenda más sobre la inserción con Power BI tanto en entornos PaaS como SaaS mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial de análisis integrado.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
@@ -17,16 +16,16 @@ helpviewer_keywords:
 - Power BI APIs
 ms.custom: seodec18
 ms.date: 05/15/2019
-ms.openlocfilehash: d2e52ff986bb2bba0caf5168c5038bb55011144a
-ms.sourcegitcommit: c799941c8169cd5b6b6d63f609db66ab2af93891
+ms.openlocfilehash: ccd5917b91d9dd0576f0f4607f84f849f6df145d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70391525"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875771"
 ---
 # <a name="embedded-analytics-with-power-bi"></a>Análisis integrado con Power BI
 
-El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Cuando se inserta el contenido, se puede acceder a las últimas características de Power BI, tales como paneles, puertas de enlace y áreas de trabajo de la aplicación.
+El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Al insertar contenido, se puede acceder a las últimas características de Power BI, tales como paneles, puertas de enlace y áreas de trabajo.
 
 Puede ver la [herramienta de configuración de inserción](https://aka.ms/embedsetup) para empezar rápidamente y descargar una aplicación de ejemplo.
 
@@ -102,4 +101,4 @@ Ahora puede intentar insertar contenido de Power BI en una aplicación o intenta
 > [!div class="nextstepaction"]
 >[Insertar para los clientes](embed-sample-for-customers.md)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

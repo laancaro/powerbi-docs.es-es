@@ -2,7 +2,6 @@
 title: Conectarse a los datos mediante las interfaces genéricas de Power BI Desktop
 description: Información sobre cómo conectarse a distintos orígenes de datos con las interfaces genéricas de Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ac121ee5154a9d343a912904b20d3244ebee59c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: b553d9341723c9b44abce57a384d4c7ba76e00a2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513757"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73868974"
 ---
 # <a name="connect-to-data-using-generic-interfaces-in-power-bi-desktop"></a>Conectarse a los datos mediante las interfaces genéricas de Power BI Desktop
 **Power BI Desktop** permite conectarse a un gran número de orígenes de datos distintos gracias a los conectores de datos que lleva integrados, como por ejemplo las **bases de datos de Access** y los recursos de **Zendesk**, tal como se puede ver en la ventana **Obtener datos**. También es posible conectarse a muchos *otros* tipos de orígenes de datos a través de las interfaces genéricas (como **ODBC** o **API de REST**) integradas en **Power BI Desktop**, con lo que se amplían aún más las opciones de conectividad.
@@ -48,16 +47,16 @@ En la lista siguiente se detallan algunos ejemplos de orígenes de datos a los q
 
 | Conector genérico de Power BI Desktop | Origen de datos externo | Vínculo para más información |
 | --- | --- | --- |
-| ODBC |Cassandra |[Controlador ODBC de Cassandra](http://www.simba.com/drivers/cassandra-odbc-jdbc/) |
+| ODBC |Cassandra |[Controlador ODBC de Cassandra](https://www.simba.com/drivers/cassandra-odbc-jdbc/) |
 | ODBC |Couchbase DB |[Couchbase y Power BI](https://powerbi.microsoft.com/blog/visualizing-data-from-couchbase-server-v4-using-power-bi/) |
-| ODBC |DynamoDB |[Controlador ODBC de DynamoDB](http://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
-| ODBC |Google BigQuery |[Controlador ODBC de BigQuery](http://www.simba.com/drivers/bigquery-odbc-jdbc/) |
-| ODBC |HBase |[Controlador ODBC de HBase](http://www.simba.com/drivers/hbase-odbc-jdbc/) |
-| ODBC |Hive |[Controlador ODBC de Hive](http://www.simba.com/drivers/hive-odbc-jdbc/) |
+| ODBC |DynamoDB |[Controlador ODBC de DynamoDB](https://www.simba.com/drivers/dynamodb-odbc-jdbc/) |
+| ODBC |Google BigQuery |[Controlador ODBC de BigQuery](https://www.simba.com/drivers/bigquery-odbc-jdbc/) |
+| ODBC |HBase |[Controlador ODBC de HBase](https://www.simba.com/drivers/hbase-odbc-jdbc/) |
+| ODBC |Hive |[Controlador ODBC de Hive](https://www.simba.com/drivers/hive-odbc-jdbc/) |
 | ODBC |IBM Netezza |[Información de IBM Netezza](https://www.ibm.com/support/knowledgecenter/SSULQD_7.2.1/com.ibm.nz.datacon.doc/c_datacon_plg_overview.html) |
-| ODBC |Presto |[Controlador ODBC de Presto](http://www.simba.com/drivers/presto-odbc-jdbc/) |
+| ODBC |Presto |[Controlador ODBC de Presto](https://www.simba.com/drivers/presto-odbc-jdbc/) |
 | ODBC |Project Online |[Artículo sobre Project Online](desktop-project-online-connect-to-data.md) |
-| ODBC |Progress OpenEdge |[Entrada de blog sobre el controlador ODBC Progress OpenEdge](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.progress.com%2Fblogs%2Fconnect-microsoft-power-bi-to-openedge-via-odbc-driver&data=02%7C01%7CMatt.Masson%40microsoft.com%7C5e63742e6c454308b58a08d4034b5923%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636137069555329811&sdata=gSu2Rq3vZ0uBVOgjaXxd8Y3uBf%2B8DidX6PG33jwAduY%3D&reserved=0) |
+| ODBC |Progress OpenEdge |[Entrada de blog sobre el controlador ODBC Progress OpenEdge](https://www.progress.com/blogs/connect-microsoft-power-bi-to-openedge-via-odbc-driver) |
 
 ## <a name="data-sources-accessible-through-ole-db"></a>Orígenes de datos accesibles a través de OLE DB
 El conector **OLE DB** en **Power BI Desktop** permite importar datos desde cualquier controlador OLE DB de terceros con simplemente especificar una *cadena de conexión*. También hay la opción de especificar una instrucción SQL para que se ejecute en el controlador OLE DB.

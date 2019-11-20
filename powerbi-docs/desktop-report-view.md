@@ -2,7 +2,6 @@
 title: Vista de informes en Power BI Desktop
 description: Vista de informes en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: c76dfc45437fdc2406c89e41a4a076d9ef4e7a44
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 06b8c9d0be2ec8bc5b350767263bfc5e0ab4ec81
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71142162"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877862"
 ---
 # <a name="report-view-in-power-bi-desktop"></a>Vista de informes en Power BI Desktop
 Si ha estado trabajando con Power BI, sabrá lo fácil que es crear informes que ofrecen perspectivas dinámicas e información sobre los datos. Power BI también tiene características más avanzadas en Power BI Desktop. Con Power BI Desktop, puede crear consultas avanzadas, mezclar datos de varios orígenes, crear relaciones entre tablas y mucho más.
@@ -27,9 +26,9 @@ La diferencia entre ellas es que al usar Power BI Desktop, también puede trabaj
 ## <a name="lets-take-a-look"></a>¡Eche un vistazo!
 Al cargar los datos por primera vez en Power BI Desktop, verá la **vista de informes** con un lienzo en blanco.
 
-![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
+![Power BI Desktop](media/desktop-report-view/pbi_reportviewinpbidesigner_reportview.png)
 
-Puede cambiar entre la **vista de informes**, la **vista de datos** y la **vista de relaciones** seleccionando los iconos de la barra de navegación izquierda:
+Puede cambiar entre la **vista de informes**, la **vista de datos** y la **vista de relaciones** seleccionando los iconos del panel de navegación izquierdo:
 
 ![Icono Vista de informe](media/desktop-report-view/pbi_reportviewinpbidesigner_changeview.png)
 

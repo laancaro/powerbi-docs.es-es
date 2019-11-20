@@ -2,7 +2,6 @@
 title: Obtenga información sobre los flujos de datos en Power BI
 description: Obtenga información sobre cómo funcionan los flujos de datos en Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/01/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 55571cda4558b5dd9ba28f757f6e11ad4b45f939
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 28be15b1f62f410c14faaa5d3e8c36060596c466
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61136386"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872606"
 ---
 # <a name="self-service-data-prep-in-power-bi"></a>Autoservicio de preparación de los datos en Power BI
 
@@ -25,7 +24,7 @@ A medida que aumenta el volumen de datos, también se complica el desafío de li
 
 Power BI presenta los **flujos de datos** para ayudar a las organizaciones a unificar datos desde fuentes diversas y a prepararlos para el modelado. Los analistas pueden crear flujos de datos con facilidad, con el uso de herramientas familiares de autoservicio. Los flujos de datos se usan para ingerir, transformar, integrar y enriquecer macrodatos con la definición de conexiones de orígenes de datos, lógica de ETL, programas de actualizaciones y mucho más. Además, el nuevo motor de cálculo basado en modelos que forma parte de los flujos de datos facilita la administración del proceso de preparación de datos, porque resulta más determinista y menos engorroso para los analistas de datos y los creadores de informes. De forma similar a como las hojas de cálculo administran los recálculos de todas las fórmulas afectadas, los flujos de datos administran los cambios de una entidad o de un elemento de datos en nombre del usuario, automatizando las actualizaciones y aliviando lo que solían ser comprobaciones lógicas tediosas que consumían mucho tiempo incluso para una actualización de datos básica. Con los flujos de datos, las tareas que requerían el control de los científicos de datos y también muchas horas y días para completarse, ahora los analistas y los creadores de informes pueden administrarlas con tan solo unos clics. 
 
-Los datos se almacenan como entidades en [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) en Azure Data Lake Storage Gen2. Los flujos de datos se crean y administran en las áreas de trabajo de la aplicación mediante el servicio Power BI.  
+Los datos se almacenan como entidades en [**Common Data Service**](https://docs.microsoft.com/powerapps/common-data-model/overview) en Azure Data Lake Storage Gen2. Los flujos de datos se crean y administran en las áreas de trabajo mediante el servicio Power BI.  
  
 Los **flujos de datos**se han diseñado para usar**Common Data Service**, una colección estandarizada, modular y extensible de esquemas de datos publicados por Microsoft que están diseñados para facilitarle la compilación, el uso y el análisis de datos. Con este modelo, puede pasar de los orígenes de datos a los paneles de Power BI prácticamente sin hacer nada.
 

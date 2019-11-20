@@ -3,24 +3,23 @@ title: 'Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES'
 description: En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 10/04/2019
-ms.openlocfilehash: 97b9d68a8fa17a3ce1758eeaa16d2503a38a4743
-ms.sourcegitcommit: 9bf3cdcf5d8b8dd12aa1339b8910fcbc40f4cbe4
+ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "71968491"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874797"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES 
 
 En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF. Se denominan "paginados" porque presentan un formato apto para abarcar varias páginas. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. 
 
-En este artículo se responden muchas preguntas comunes que los usuarios se plantean sobre los informes paginados en Power BI Premium y sobre el generador de informes, la herramienta independiente para crear informes paginados. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga una capacidad Premium de Power BI. 
+En este artículo se responden muchas preguntas comunes que los usuarios se plantean sobre los informes paginados en Power BI Premium y sobre el generador de informes, la herramienta independiente para crear informes paginados. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo, siempre que el área de trabajo tenga una capacidad Power BI Premium. 
 
 ## <a name="administration"></a>Administración
 
@@ -163,7 +162,7 @@ Sí, se admite la capacidad de ejecutar código en los informes de la misma form
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>¿Puedo usar Power BI Embedded para insertar los informes paginados en una aplicación que estoy hospedando?
 
-Ya se admite la inserción de SaaS. La inserción de PaaS todavía no se admite.
+Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura.  La compatibilidad con la inserción de PaaS está planeada para más adelante este año.
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>¿Puedo extraer los detalles de un informe de Power BI en un informe paginado?
 
@@ -179,7 +178,7 @@ Planeamos que los informes admitan lo máximo posible los mismos escenarios impo
 
 ### <a name="is-a-migration-tool-planned-so-ssrs-customers-can-move-their-existing-reports-and-assets-to-power-bi"></a>¿Se prevé alguna herramienta de migración para que los clientes de SSRS puedan mover los informes y recursos existentes a Power BI?
 
-Estamos evaluando distintas opciones para permitir mover el contenido a Power BI de forma automática, pero esto no estará disponible hasta después de la disponibilidad general.
+Los proyectos de GitHub admiten ahora la migración de contenido de SQL Server Reporting Services a Power BI.  Vea los detalles y descargue aquí la herramienta: [https://github.com/microsoft/RdlMigration](https://github.com/microsoft/RdlMigration)
 
 ### <a name="is-there-a-report-viewer-control-for-paginated-reports-in-the-power-bi-service"></a>¿Existe un control del visor de informes para los informes paginados en el servicio Power BI?
 

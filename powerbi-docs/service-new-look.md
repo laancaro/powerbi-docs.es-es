@@ -2,7 +2,6 @@
 title: Nuevo aspecto del servicio Power BI
 description: El servicio Power BI (app.powerbi.com) tiene un nuevo aspecto. En este artículo se describe cómo navegar por los informes con el nuevo aspecto.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/08/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 11f60ba14734f40849aec47a492f4bf80c4ef3b5
-ms.sourcegitcommit: d02de4ca33d865aee3e3e764b98f221950cb0a10
+ms.openlocfilehash: c69e0247ecde7d6bd1cf158761a2ff9efd31d2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "72239956"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881386"
 ---
 # <a name="the-new-look-of-the-power-bi-service"></a>Nuevo aspecto del servicio Power BI
 
@@ -66,7 +65,7 @@ No se ha quitado ninguna de las funciones del aspecto anterior. Puede ver los co
 
 ### <a name="where-are-file-menu-actions"></a>¿Dónde están las acciones del menú Archivo?
 
-¿Busca las acciones del menú **Archivo**? Las acciones que estaban en el menú **Archivo** también están ahora en el menú de puntos suspensivos (...). 
+¿Busca las acciones del menú **Archivo**? Las acciones que estaban en el menú **Archivo** también están ahora en el menú **Más opciones** (...). 
 
 ![Menú archivo en el nuevo aspecto](media/service-new-look/power-bi-file-menu-new-look.gif)
 

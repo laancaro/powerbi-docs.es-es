@@ -2,7 +2,6 @@
 title: 'Ejemplo de ventas y marketing para Power BI: Dar un paseo'
 description: 'Ejemplo de ventas y marketing para Power BI: Dar un paseo'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 31f42d7f53b3322717677d586266668fb2c0f26b
-ms.sourcegitcommit: 012f05efc4e97aeb6178fb2fc820b73bcc1ce920
+ms.openlocfilehash: 8085a6c8f5d0e7a2797ef6c5961b6083eb98f346
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "68391381"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873808"
 ---
 # <a name="sales-and-marketing-sample-for-power-bi-take-a-tour"></a>Ejemplo de ventas y marketing para Power BI: Dar un paseo
 
@@ -25,7 +24,7 @@ Aunque VanArsdel tiene muchos competidores, sigue siendo líder del mercado en s
 
 ![Panel del ejemplo de ventas y marketing](media/sample-sales-and-marketing/sales1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Lo ha creado [obviEnce](http://www.obvience.com/) con datos reales, que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales anonimizados. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 En este tutorial, se explora el paquete de contenido de ejemplo de ventas y marketing en el servicio de Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
@@ -56,11 +55,11 @@ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de conteni
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-También puede descargar el ejemplo de ventas y marketing como un archivo [.pbix](http://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que se ha diseñado para usarse con Power BI Desktop.
+También puede descargar el ejemplo de ventas y marketing como un archivo [.pbix](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix), que se ha diseñado para usarse con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529785). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529785). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="what-is-our-dashboard-telling-us"></a>¿Qué indica el panel?
 Comencemos nuestro paseo por el panel. Revisaremos los iconos que el director de marketing decidió anclar. Vemos información sobre la cuota de mercado, las ventas y las opiniones sobre la empresa. Los datos se desglosan por región, tiempo y competencia.
@@ -82,7 +81,7 @@ Mediante el uso de Preguntas y respuestas, puede obtener más información sobre
 
    ![Pregunta (de Preguntas y respuestas): total de unidades por segmento para VanArsdel](media/sample-sales-and-marketing/sales2.png)
 3. Nuestra cuota de mercado en las categorías **Moderación** y **Comodidad** es alta; estos son los segmentos en los que competimos.
-4. Vuelva al panel; para hacerlo, seleccione el **Ejemplo de ventas y marketing** de la barra de navegación superior.
+4. Vuelva al panel; para hacerlo, seleccione el **Ejemplo de ventas y marketing** del panel de navegación superior.
 
 ### <a name="what-does-total-unit-market-share-look-like-for-category-versus-region"></a>¿Qué aspecto tiene la cuota de mercado del total de unidades por categoría (frente a región)?
 1. Observe el icono de **Total de unidades de acumulado anual por fabricante y región**. ¿Cuál es el total de cuota de mercado unitaria por categoría?

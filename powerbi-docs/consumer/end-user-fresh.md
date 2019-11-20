@@ -2,7 +2,6 @@
 title: Cómo Power BI garantiza que el contenido esté actualizado
 description: Obtenga información sobre cómo Power BI garantiza que trabaje con la versión más reciente de los datos, informes, paneles y aplicaciones.
 author: mihart
-manager: kvivek
 ms.service: powerbi
 ms.custom: ''
 ms.subservice: powerbi-consumer
@@ -10,14 +9,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 46f9d40b5e556c0d306aa77243a49835fca9d812
-ms.sourcegitcommit: 200291eac5769549ba5c47ef3951e2f3d094426e
+ms.openlocfilehash: 92f031ff43bc4d3bd5840e69fec166606b14eb73
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "71141769"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863879"
 ---
 # <a name="your-content-is-up-to-date"></a>Su contenido está actualizado
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Como *consumidor*, interactúa con contenido creado por *diseñadores* y compartido con su usuario. Puede que se pregunte si ese contenido está actualizado o simplemente quiera saber cuándo se ha actualizado por última vez ese contenido. Saber que trabaja con el contenido más actualizado le dará confianza.  
  
 ![Panel de Power BI](media/end-user-fresh/power-bi-dashboards.png)
@@ -40,9 +42,9 @@ El nombre del propietario está disponible en la barra de título de los paneles
 
 En la pantalla de la aplicación, se muestra el nombre del diseñador y la fecha en que se actualizó por última vez la aplicación.  
 
-1. Seleccione **Aplicaciones** en el panel de navegación izquierdo.
+1. En el panel de navegación, seleccione **Aplicaciones**.
 
-    ![panel de navegación izquierdo](media/end-user-fresh/power-bi-nav-app.png)
+    ![panel de navegación](media/end-user-fresh/power-bi-nav-app.png)
 
 
 
@@ -63,7 +65,7 @@ Si le interesa, puede buscar la fecha de la última actualización de la mayorí
 ### <a name="dashboard-tiles"></a>Los iconos de panel
 En el caso de los iconos del panel, visualice el icono en el modo de enfoque para ver la marca de tiempo de la última actualización.
 
-1. En un icono del panel, seleccione el signo de puntos suspensivos (…) y haga clic en **Abrir en modo de enfoque**.
+1. En un icono del panel, seleccione **Más opciones** (…) y haga clic en **Abrir en modo de enfoque**.
 
     ![menú que aparece después de seleccionar el signo de puntos suspensivos](media/end-user-fresh/power-bi-focus-mode.png)
 
@@ -72,7 +74,7 @@ En el caso de los iconos del panel, visualice el icono en el modo de enfoque par
     ![explorador ancho donde se muestra la última actualización](media/end-user-fresh/power-bi-last-refresh2.png)
 
 ### <a name="dashboards-and-reports"></a>Paneles e informes
-Otra forma de buscar la fecha de la última actualización es mediante la opción **Ver relacionados**.  La opción **Ver relacionados** está disponible si selecciona los puntos suspensivos (...) en la barra de menús superior de Power BI.
+Otra forma de buscar la fecha de la última actualización es mediante la opción **Ver relacionados**.  La opción **Ver relacionados** está disponible si selecciona **Más opciones** (...) en la barra de menús superior de Power BI.
 
 ![Selección de la opción Ver relacionados en el menú](media/end-user-fresh/power-bi-view-related-dropdown.png)
 
@@ -82,7 +84,7 @@ En el panel **Contenido relacionado**, se muestra la información de la última 
 
 ## <a name="what-happens-if-an-app-is-deleted-by-the-designer"></a>Consecuencias de la eliminación de una aplicación por parte de un diseñador
 
-Si un diseñador elimina una aplicación, los paneles e informes asociados a ella también se quitarán automáticamente del área de trabajo de Power BI. Ya no están disponibles y la aplicación no aparece en el contenedor de aplicaciones ni en ningún otro lugar de la barra de navegación.
+Si un diseñador elimina una aplicación, los paneles e informes asociados a ella también se quitarán automáticamente del área de trabajo de Power BI. Ya no están disponibles y la aplicación no aparece en el contenedor de aplicaciones ni en ningún otro lugar del panel de navegación.
 
 
 ## <a name="subscribe-to-see-changes"></a>Suscripción para ver los cambios

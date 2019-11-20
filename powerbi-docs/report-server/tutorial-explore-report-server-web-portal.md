@@ -2,19 +2,18 @@
 title: 'Tutorial: Exploración de Power BI Report Server en una máquina virtual'
 description: En este tutorial, va a crear una máquina virtual con Power BI Report Server ya instalado y explorará también el portal web.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: tutorial
 ms.date: 05/06/2019
 ms.author: maggies
-ms.openlocfilehash: d30a396eeb4d461d7c36cecf9759306236810cab
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 312b86f9e0c0dda0c9c943520c74286e0458acef
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65240124"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859256"
 ---
 # <a name="tutorial-explore-the-power-bi-report-server-web-portal-in-a-vm"></a>Tutorial: Exploración del portal web de Power BI Report Server en una máquina virtual
 En este tutorial, creara una máquina virtual de Azure con Power BI Report Server ya instalado, para que pueda experimentar con la visualización, edición y administración de KPI e informes paginados y de Power BI de ejemplo.
@@ -72,7 +71,7 @@ Por suerte, el equipo de Power BI ha creado una máquina virtual que se incluye 
 
 ## <a name="connect-to-your-virtual-machine"></a>Conexión a la máquina virtual
 
-1. En el panel de navegación izquierdo de Azure, seleccione **Máquinas virtuales**. 
+1. En el panel de navegación de Azure, seleccione **Máquinas virtuales**. 
 
 2. En el cuadro **Filtrar por nombre**, escriba "report". 
 
@@ -108,7 +107,7 @@ Cuando se abre la máquina virtual, estos son los elementos que puede ver en el 
 |![Número 4](media/tutorial-explore-report-server-web-portal/number-4.png) | Abre el portal web de Power BI Report Server en el explorador |
 |![Número 5](media/tutorial-explore-report-server-web-portal/number-5.png) | Inicia SQL Server Data Tools para crear informes paginados (.RDL) |
 
-Haga doble clic en el icono del **portal web de Report Server**. El explorador abre `http://localhost/reports/browse`. En el portal web, verá varios archivos agrupados por tipo. 
+Haga doble clic en el icono del **portal web de Report Server**. El explorador abre `https://localhost/reports/browse`. En el portal web, verá varios archivos agrupados por tipo. 
 
 ![Portal web del servidor de informes de Power BI](media/tutorial-explore-report-server-web-portal/power-bi-report-server-browser-in-vm.png)
 
@@ -189,7 +188,7 @@ Puede ver y administrar informes paginados e iniciar el Generador de informes de
 
 ### <a name="manage-a-paginated-report"></a>Administración de un informe paginado
 
-1. En el portal web, en **Informes paginados**, seleccione los puntos suspensivos (...) que están al lado de **Pedido de venta** > **Administrar**.
+1. En el portal web, en **Informes paginados**, seleccione los puntos suspensivos (...) de **Más opciones** que están al lado de **Pedido de ventas** > **Administrar**.
 
 1. Seleccione **Parámetros**, cambie el valor predeterminado de **SalesOrderNumber** por **SO50689** > **Aplicar**.
 
@@ -219,7 +218,7 @@ Puede ver y administrar informes paginados e iniciar el Generador de informes de
 
 Puede editar informes paginados en el Generador de informes, y puede iniciar el Generador de informes directamente desde el explorador.
 
-1. En el portal web, seleccione el botón de puntos suspensivos (...) junto a **Pedido de ventas** > **Editar en el Generador de informes**.
+1. En el portal web, seleccione el botón de puntos suspensivos (...) **Más opciones** junto a **Pedido de ventas** > **Editar en el Generador de informes**.
 
 1. Seleccione **Permitir** para permitir que este sitio web abra un programa en el equipo.
 

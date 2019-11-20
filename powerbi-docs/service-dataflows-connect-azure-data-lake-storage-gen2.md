@@ -2,7 +2,6 @@
 title: Conexión de Azure Data Lake Storage Gen 2 a Power BI para el almacenamiento del flujo de datos
 description: Traiga sus propios datos a los flujos de datos mediante Azure Data Lake Storage Gen2.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 1e4d589702bb471a2abc6af9448a6846825adbfe
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70160366"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872708"
 ---
 # <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
 
@@ -105,7 +104,7 @@ Para conceder permisos para el sistema de archivos, aplicará la configuración 
 
 Para buscar las aplicaciones de inquilino, siga estos pasos:
 
-1. En [Azure Portal](https://portal.azure.com/), seleccione **Azure Active Directory** en el panel de navegación izquierdo.
+1. En [Azure Portal](https://portal.azure.com/), seleccione **Azure Active Directory** en el panel de navegación.
 2. En la hoja **Azure Active Directory**, seleccione **Aplicaciones empresariales**.
 3. En el menú desplegable **Tipo de aplicación**, seleccione **Todas las aplicaciones** y, luego, seleccione **Aplicar**. Aparece un ejemplo de las aplicaciones de inquilino, similar a la siguiente imagen.
 
@@ -183,7 +182,7 @@ También hay algunos problemas conocidos, como se describe en esta sección.
 
 Los clientes de Power BI Desktop no pueden acceder a los flujos de datos almacenados en una **cuenta de Azure Data Lake Storage** a menos que sean propietarios del flujo de datos, o que tengan autorización explícita para la carpeta de CDS en la instancia de Data Lake. El escenario es el siguiente:
 
-1. Anna ha creado un área de trabajo de la aplicación y la ha configurado para almacenar flujos de datos en la instancia de Data Lake de la organización. 
+1. Anna ha creado un área de trabajo y la ha configurado para almacenar flujos de datos en la instancia de Data Lake de la organización. 
 2. Ben, que también es miembro del área de trabajo que ha creado Anna, querría usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
 3. Ben recibe un error similar, ya que no tiene autorización en la carpeta de CDM del flujo de datos en la instancia de Data Lake.
 
@@ -223,4 +222,4 @@ Para más información sobre Common Data Service, puede leer su artículo de int
 * [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](http://community.powerbi.com/).
+Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).

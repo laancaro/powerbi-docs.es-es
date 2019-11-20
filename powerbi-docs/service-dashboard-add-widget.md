@@ -2,7 +2,6 @@
 title: Adición de imágenes, vídeos y mucho más al panel
 description: Documentación sobre cómo usar el widget Agregar icono para agregar un icono de imagen, vídeo, cuadro de texto, código web y datos de transmisión a un panel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: e2PD8m1Q0vU
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 042fee1a55728884b3f4d5792a82973b3ea9fcc4
-ms.sourcegitcommit: 9665bdabce3bfc31f68dd8256b135bfd56f60589
+ms.openlocfilehash: a012320a12d2516cb24dc92f2472e3c49ce9081e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/06/2019
-ms.locfileid: "68832559"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853536"
 ---
 # <a name="add-images-videos-and-more-to-your-dashboard"></a>Adición de imágenes, vídeos y mucho más al panel
 
@@ -232,7 +231,7 @@ Puede pegar o escribir cualquier contenido HTML, como un icono, en el informe o 
 ## <a name="edit-a-tile"></a>Editar un icono
 Para realizar cambios en un icono existente:
 
-1. Mueva el puntero sobre la esquina superior derecha del icono y seleccione los puntos suspensivos (...).
+1. Mueva el puntero sobre la esquina superior derecha del icono y seleccione **Más opciones** (...).
    
     ![Selección de botón de puntos suspensivos de icono](media/service-dashboard-add-widget/pbi_ellipses.png)
 2. Seleccione **Editar detalles** para mostrar la ventana **Detalles del icono** y realizar cambios.
@@ -246,5 +245,5 @@ Para realizar cambios en un icono existente:
 ## <a name="next-steps"></a>Pasos siguientes
 [Introducción a los iconos del panel para los diseñadores de Power BI](service-dashboard-tiles.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 

@@ -2,19 +2,18 @@
 title: Visualización de paneles e informes en la aplicación móvil de Power BI
 description: Cree y conéctese a paneles e informes en el servicio Power BI. Después podrá verlos en las aplicaciones móviles de Power BI.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: e5e8df2be443b215a02f196c4f676af1cbff6275
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69654627"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870662"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -40,7 +39,7 @@ Este es un panel de Power BI en el servicio Power BI:
 ## <a name="view-dashboards-on-your-iphone"></a>Ver paneles en el iPhone
 1. Abra la aplicación de Power BI en su iPhone e inicie sesión.
    
-   ¿Necesita [descargar la aplicación de iPhone](http://go.microsoft.com/fwlink/?LinkId=522062) desde la App Store de Apple?
+   ¿Necesita [descargar la aplicación de iPhone](https://go.microsoft.com/fwlink/?LinkId=522062) desde la App Store de Apple?
 2. Pulse un panel para abrirlo.  
    
     ![Pulsar panel](./media/mobile-apps-view-dashboard/power-bi-iphone-dashboard-home.png)
@@ -80,7 +79,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 ## <a name="view-dashboards-on-your-ipad"></a>Ver paneles en el iPad
 1. Abra la aplicación Power BI.
    
-   ¿Necesita [descargar la App para iPad](http://go.microsoft.com/fwlink/?LinkId=522062) del App Store de Apple primero?
+   ¿Necesita [descargar la App para iPad](https://go.microsoft.com/fwlink/?LinkId=522062) del App Store de Apple primero?
 2. Pulse **Paneles** en la parte superior de la aplicación.  
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-ipad-dashboard-home.png)
@@ -103,7 +102,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 ## <a name="view-dashboards-on-your-android-phone"></a>Visualización de paneles en el teléfono Android
 1. Abra la aplicación de Power BI en su teléfono Android e inicie sesión.
    
-   ¿Necesita [descargar la aplicación Android](http://go.microsoft.com/fwlink/?LinkID=544867) primero?
+   ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-dashboards.png)
@@ -118,7 +117,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 
     Si es el propietario del panel, en el servicio Power BI puede [crear una vista del panel específicamente para teléfonos](../../service-create-dashboard-mobile-phone-view.md) en modo vertical. 
 
-1. En el panel, puede pulsar los puntos suspensivos verticales (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
+1. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
    ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
@@ -127,14 +126,14 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 ## <a name="view-dashboards-on-your-android-tablet"></a>Visualización de paneles en tabletas Android
 1. Abra la aplicación Power BI en su tableta Android e inicie sesión.
    
-   ¿Necesita [descargar la aplicación Android](http://go.microsoft.com/fwlink/?LinkID=544867) primero?
+   ¿Necesita [descargar la aplicación Android](https://go.microsoft.com/fwlink/?LinkID=544867) primero?
 2. Pulse un panel para abrirlo.   
    
    ![Página principal de paneles](./media/mobile-apps-view-dashboard/power-bi-android-tablet-dashboard-home.png)
    
    * Las estrellas amarillas ![Estrella de favorito](././././media/mobile-apps-view-dashboard/power-bi-mobile-yes-favorite-icon.png) muestran cuáles son los paneles favoritos. 
    * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
-3. En el panel, puede pulsar los puntos suspensivos verticales (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
+3. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
    ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
@@ -154,8 +153,8 @@ Si es el propietario del panel, *en el servicio Power BI* puede crear una vista 
 Más información sobre [creación de una vista de teléfono de un panel](../../service-create-dashboard-mobile-phone-view.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Descarga de la aplicación de Android](http://go.microsoft.com/fwlink/?LinkID=544867) desde Google Play  
+* [Descarga de la aplicación de Android](https://go.microsoft.com/fwlink/?LinkID=544867) desde Google Play  
 * [Introducción a la aplicación de Android para Power BI](mobile-android-app-get-started.md)  
-* [¿Qué es Power BI?](../../power-bi-overview.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -2,7 +2,6 @@
 title: Actualizar datos en Power BI
 description: En este artículo se describen las características de actualización de datos de Power BI y sus dependencias en un nivel conceptual.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: f5fe835d2ec423b596460a81ccb2a406b306c3c5
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 422d742748fc6880b0636bd3a0c5de7011a3ff0a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307950"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860791"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -93,14 +92,14 @@ Una operación de actualización de Power BI puede constar de varios tipos de ac
 
 #### <a name="data-refresh"></a>Actualización de datos
 
-Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede realizar hasta 48 actualizaciones al día. Para más información, consulte Configuración de actualizaciones programadas más adelante en este artículo.
+Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede programar hasta 48 actualizaciones al día en la configuración de dicho conjunto de datos. Para más información, consulte Configuración de actualizaciones programadas más adelante en este artículo.
 
-También es importante destacar que la limitación del número de actualizaciones diarias se aplica a las actualizaciones programadas y a petición combinadas. Para desencadenar una actualización a petición, puede seleccionar **Actualizar ahora** en el menú del conjunto de datos, tal y como muestra la captura de pantalla siguiente. También puede desencadenar una actualización de datos mediante programación utilizando la API REST de Power BI. Consulte [Conjuntos de datos: actualización del conjunto de datos](/rest/api/power-bi/datasets/refreshdataset) si está interesado en crear su propia solución de actualización.
+También es importante destacar que la limitación de capacidad compartida de las actualizaciones diarias se aplica tanto a las actualizaciones programadas como a las actualizaciones de API combinadas. También puede desencadenar una actualización a petición si selecciona **Actualizar ahora** en el menú del conjunto de datos, tal y como muestra la captura de pantalla siguiente. Las actualizaciones a petición no se incluyen en la limitación de actualización. Tenga en cuenta también que los conjuntos de datos de una capacidad Premium no imponen limitaciones para las actualizaciones de API. Si está interesado en crear su propia solución de actualización mediante la API REST de Power BI, consulte [Conjuntos de datos: actualizar conjunto de datos](/rest/api/power-bi/datasets/refreshdataset).
 
 ![Actualizar ahora](media/refresh-data/refresh-now.png)
 
 > [!NOTE]
-> Las actualizaciones de datos deben completarse en menos de 2 horas. Si los conjuntos de datos requieren operaciones de actualización más prolongadas, considere la posibilidad de mover el conjunto de datos a una capacidad Premium. En la capacidad Premium, la duración máxima de la actualización es de 5 horas.
+> Las actualizaciones de datos deben completarse en menos de 2 horas en la capacidad compartida. Si los conjuntos de datos requieren operaciones de actualización más prolongadas, considere la posibilidad de mover el conjunto de datos a una capacidad Premium. En la capacidad Premium, la duración máxima de la actualización es de 5 horas.
 
 #### <a name="onedrive-refresh"></a>Actualización de OneDrive
 
@@ -134,7 +133,7 @@ Sin embargo, después de una actualización de datos, los resultados de consulta
 
 #### <a name="tile-refresh"></a>Actualización de iconos
 
-Power BI mantiene una caché para cada objeto visual de icono de los paneles, y actualiza activamente las memorias caché de iconos cuando cambian los datos. En otras palabras, la actualización de los iconos se produce automáticamente después de una actualización de los datos. Esto es así tanto para las actualizaciones programadas como a petición. También es posible forzar la actualización de los iconos; para ello, seleccione los puntos suspensivos (...) en la parte superior derecha de un panel y, seguidamente, seleccione **Actualizar iconos de panel**.
+Power BI mantiene una caché para cada objeto visual de icono de los paneles, y actualiza activamente las memorias caché de iconos cuando cambian los datos. En otras palabras, la actualización de los iconos se produce automáticamente después de una actualización de los datos. Esto es así tanto para las actualizaciones programadas como a petición. También es posible forzar la actualización de los iconos; para ello, seleccione **Más opciones** (...) en la parte superior derecha de un panel y, seguidamente, **Actualizar iconos del panel**.
 
 ![Actualizar iconos de panel](media/refresh-data/refresh-dashboard-tiles.png)
 
@@ -277,7 +276,7 @@ La sección **Actualización programada** es donde se definen la frecuencia y la
 
 ![Configuración de actualización programada](media/refresh-data/configure-scheduled-refresh.png)
 
-Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación izquierdo. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, tal y como se explicó anteriormente en este artículo.
+Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, tal y como se explicó anteriormente en este artículo.
 
 Tenga en cuenta también que la hora de actualización configurada puede no ser la hora exacta cuando se inicia el siguiente proceso programado en Power BI. Power BI inicia las actualizaciones programadas en cuanto puede. El objetivo es iniciar la actualización en un plazo de 15 minutos desde la franja de tiempo programada, pero puede producirse un retraso de hasta una hora si el servicio no puede asignar antes los recursos necesarios.
 
@@ -339,4 +338,4 @@ Además, tenga en cuenta las siguientes recomendaciones para establecer y manten
 [Herramientas para la solución de problemas de actualización](service-gateway-onprem-tshoot.md)  
 [Solución de problemas de escenarios de actualización](refresh-troubleshooting-refresh-scenarios.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Del libro de Excel a un informe sorprendente en el servicio Power BI
 description: En este artículo se muestra cómo puede crear rápidamente un informe sorprendente a partir de un libro de Excel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Data from files
-ms.openlocfilehash: ed4bc9d10e3e1512aba559d77ba8729a39cb8a84
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: c2a4719a03e37569e40d4247939a9f2c73379e52
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68995030"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872515"
 ---
 # <a name="from-excel-workbook-to-stunning-report-in-the-power-bi-service"></a>Del libro de Excel a un informe sorprendente en el servicio Power BI
 Su jefa quiere ver al final del día un informe sobre las cifras de ventas más recientes, combinado con sus impresiones de la última campaña. Pero los datos más recientes se encuentran en varios sistemas de terceros y en archivos del portátil. En el pasado, tardaba horas en crear objetos visuales y dar formato a un informe, y empieza a ponerse nervioso.
@@ -57,7 +56,7 @@ El servicio Power BI se conecta a muchos orígenes de datos, incluidos los archi
 
    ![Menú desplegable Crear](media/service-from-excel-to-stunning-report/power-bi-create-dash.png)
 
-4. En la parte inferior del panel de navegación de la izquierda, seleccione **Obtener datos**. 
+4. Seleccione **Obtener datos** en la parte inferior del panel de navegación. 
 
 5. En la página **Obtener datos**, en el cuadro **Archivos** bajo **Crear contenido**, seleccione **Obtener**.
 
@@ -111,7 +110,7 @@ Su jefa desea saber qué países son los más rentables. Impresiónela con una v
 
 2. Para cambiar el tipo de gráfico, elija uno de los iconos en el menú **Visualizaciones**. Por ejemplo, cámbielo por un **Gráfico de barras apiladas**. 
 
-3. Para ordenar el gráfico, seleccione los puntos suspensivos (...) > **Ordenar por**.
+3. Para ordenar el gráfico, seleccione **Más opciones** (...) > **Ordenar por**.
 
    ![Gráfico de columnas apiladas en el editor de informes](media/service-from-excel-to-stunning-report/pbi_barchart-new.png)
 
@@ -140,5 +139,5 @@ Imagine que quiere compartir el panel con su jefe. Puede compartir su panel y el
 * [Introducción a Power BI Desktop](desktop-getting-started.md)
 * [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 

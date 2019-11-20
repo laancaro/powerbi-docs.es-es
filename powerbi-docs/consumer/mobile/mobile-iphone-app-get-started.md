@@ -2,19 +2,18 @@
 title: Introducción a la aplicación móvil de Power BI para iOS
 description: Obtenga más información sobre cómo la aplicación móvil de Microsoft Power BI para iOS le permite llevar Power BI en el bolsillo y le proporciona acceso móvil a información empresarial tanto de forma local como en la nube.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/27/2018
 ms.author: mshenhav
-ms.openlocfilehash: 2de1b866a237a0193c33c552078ca70bd5e632ce
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: dd43df2a01175657b39c1e3dcebe5ae6a9433e42
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "67498986"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870180"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos iOS
 La aplicación Microsoft Power BI para iOS en su iPhone, iPad o iPod Touch proporciona la experiencia de BI móvil para Power BI, Power BI Report Server y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. Y manténgase al día y a tiempo con los datos en su [Apple Watch](mobile-apple-watch.md).  
@@ -31,7 +30,7 @@ De este modo, podrá interactuar con los paneles y los informes locales o en la 
 Descubra las [novedades de las aplicaciones móviles de Power BI](mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="download-the-app"></a>Descargar la aplicación
-[Descarga de la aplicación de iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Descargue la aplicación de iOS") desde App Store de Apple para su iPhone, iPad o iPod Touch.
+[Descargar la aplicación de iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Descarga de la aplicación de iOS") desde App Store de Apple para su iPhone, iPad o iPod Touch.
 
 Puede ejecutar la aplicación Power BI para iOS en cualquier dispositivo con iOS 11 o una versión posterior. 
 
@@ -75,7 +74,7 @@ Puede ver los ejemplos de panel de Power BI e interactuar con ellos, pero hay al
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Buscar contenido en las aplicaciones móviles de Power BI
 Sus paneles e informes se almacenan en distintos lugares en las aplicaciones móviles de Power BI, dependiendo de su procedencia. Obtenga información sobre cómo [buscar contenido en las aplicaciones móviles](mobile-apps-quickstart-view-dashboard-report.md). Además, siempre puede buscar algo que tenga en las aplicaciones móviles de Power BI. 
 
-![Panel de navegación izquierdo](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
+![Panel de navegación](./media/mobile-iphone-app-get-started/power-bi-iphone-left-nav.png)
 
 Obtenga más información sobre cómo [buscar contenido en las aplicaciones móviles](mobile-apps-quickstart-view-dashboard-report.md).
 
@@ -84,7 +83,7 @@ En la página Favoritos de las aplicaciones móviles verá todos sus paneles fav
 
 * Pulse **Favoritos**.
   
-   ![Favoritos en el panel de navegación izquierdo](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
+   ![Favoritos en el panel de navegación](./media/mobile-iphone-app-get-started/power-bi-iphone-favorites-nav.png)
   
    Todos los favoritos se encuentran juntos en esta página:
   
@@ -109,7 +108,7 @@ Obtenga más información sobre cómo [configurar la aplicación móvil Power BI
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [¿Qué es Power BI?](../../power-bi-overview.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
 

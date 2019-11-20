@@ -3,19 +3,18 @@ title: Inserción de informes en un sitio web o portal seguro
 description: La característica de inserciones de Power BI permite a los usuarios insertar de forma fácil y segura informes en portales web internos.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/20/2019
 LocalizationGroup: Share your work
-ms.openlocfilehash: 3c6dc26ee1cf806ff85a9452c024e7ccbd210a25
-ms.sourcegitcommit: cc4b18d55b2dca8fdb1bef00f53a0a808c41432a
+ms.openlocfilehash: 59841cdcfae3bc08e0b6dcacf4bcb6664dfe209c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/09/2019
-ms.locfileid: "68867105"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877079"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -49,7 +48,7 @@ La opción **Insertar** también admite la configuración de direcciones URL y [
 
 La opción **Insertar** no permite a los usuarios ver el informe automáticamente. Los permisos de vista se establecen en el servicio Power BI.
 
-En el servicio Power BI, puede compartir informes insertados y solicitar que los usuarios inicien la sesión. Si usa un grupo de Office 365, puede mostrar una lista al usuario como un miembro del área de trabajo de la aplicación. Para obtener más información, vea cómo [administrar el área de trabajo de la aplicación en Power BI y en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
+En el servicio Power BI, puede compartir informes insertados y solicitar que los usuarios inicien la sesión. Si usa un grupo de Office 365, puede mostrar una lista al usuario como un miembro del área de trabajo. Para más información, consulte cómo [administrar el área de trabajo en Power BI y en Office 365](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 ## <a name="licensing"></a>Licencias
 

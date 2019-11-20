@@ -2,7 +2,6 @@
 title: 'Tutorial: Creación de columnas calculadas en Power BI Desktop'
 description: 'Tutorial: Creación de columnas calculadas en Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6974e0eccd8c16bdb06a050873e40f1a5be6f75f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 4c1f6985a2ff88fa9ca595ad68456eed7a55c82e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514533"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876142"
 ---
 # <a name="tutorial-create-calculated-columns-in-power-bi-desktop"></a>Tutorial: Creación de columnas calculadas en Power BI Desktop
 
@@ -28,7 +27,7 @@ Este tutorial le ayudará a entender y crear algunas columnas calculadas y a usa
 ### <a name="prerequisites"></a>Requisitos previos
 - Este tutorial está destinado a usuarios de Power BI que ya están familiarizados con el uso de Power BI Desktop para crear modelos más avanzados. Ya debería saber cómo usar la **obtención de datos** y el **Editor de Power Query** para importar datos, trabajar con varias tablas relacionadas y agregar campos al lienzo de informe. Si no está familiarizado con Power BI Desktop, asegúrese de revisar [Introducción a Power BI Desktop](desktop-getting-started.md).
   
-- El tutorial utiliza el [ejemplo de ventas de Contoso para Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), el mismo ejemplo usado para el tutorial [Crear medidas propias en Power BI Desktop](desktop-tutorial-create-measures.md). Estos datos de ventas de la compañía ficticia Contoso, Inc. se importaron desde una base de datos, por lo que no podrá conectarse al origen de datos ni verlos en el Editor de Power Query. Descargue y extraiga el archivo en su propio equipo y luego ábralo en Power BI Desktop.
+- El tutorial utiliza el [ejemplo de ventas de Contoso para Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), el mismo ejemplo usado para el tutorial [Crear medidas propias en Power BI Desktop](desktop-tutorial-create-measures.md). Estos datos de ventas de la compañía ficticia Contoso, Inc. se importaron desde una base de datos, por lo que no podrá conectarse al origen de datos ni verlos en el Editor de Power Query. Descargue y extraiga el archivo en su propio equipo y luego ábralo en Power BI Desktop.
 
 ## <a name="create-a-calculated-column-with-values-from-related-tables"></a>Creación de una columna calculada con valores de tablas relacionadas
 
@@ -36,7 +35,7 @@ En su informe de ventas, desea mostrar categorías y subcategorías de producto 
 
  ![Columnas de la lista Campos](media/desktop-tutorial-create-calculated-columns/create1.png)
 
-1.  Seleccione los puntos suspensivos (...) **Más opciones** o haga clic con el botón derecho en la tabla **ProductSubcategory**, o en la lista Campos y seleccione **Nueva columna**. Esto crea la nueva columna en la tabla ProductSubcategory.
+1.  Seleccione **Más opciones** (...) o haga clic con el botón derecho en la tabla **ProductSubcategory** de la lista de campos y seleccione **Nueva columna**. Esto crea la nueva columna en la tabla ProductSubcategory.
     
     ![Nueva columna](media/desktop-tutorial-create-calculated-columns/create2.png)
     

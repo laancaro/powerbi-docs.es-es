@@ -2,20 +2,19 @@
 title: Introducción a Power BI para clientes de la Administración Pública de Estados Unidos
 description: Los clientes de la Administración Pública de Estados Unidos pueden obtener información sobre las características y las limitaciones del servicio Power BI para la Administración Pública de Estados Unidos.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 748594dcf9f71677057b8641e44f1408bebd1b89
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715346"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881352"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -60,6 +59,7 @@ Algunas de las características que están disponibles en la versión comercial 
 * **Uso compartido de usuario externo**: el uso compartido está permitido solo dentro de un inquilino de Power BI; a partir de junio de 2018, también se puede compartir con usuarios de fuera del inquilino de Power BI. Consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Métricas de uso para paneles e informes**: las métricas de uso no están disponibles para informes y paneles. Los clientes pueden usar los datos de registro de auditoría para obtener información de uso para el contenido de su organización.
 * **Flujos de datos**: los flujos de datos no están disponibles.
+* **Informes paginados**: los informes paginados solo están disponibles actualmente en USGov Virginia.  La compatibilidad con USGov Texas está planeada pero aún no está disponible.
 
 Si tiene licencias gratis de **Power BI** asignadas a su cuenta, estas cuentas se ejecutan en una versión comercial del servicio **Power BI** y no forman parte de la oferta **Power BI para la Administración Pública de Estados Unidos**. Para esas cuentas gratis, pueden encontrar los siguientes problemas:
 

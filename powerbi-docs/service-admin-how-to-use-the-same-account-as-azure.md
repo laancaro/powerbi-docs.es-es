@@ -2,7 +2,6 @@
 title: Uso de la misma cuenta para Power BI y Azure
 description: Uso del mismo inicio de sesión de la cuenta para Power BI y Azure
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f9659ad657c4466ad58eb40d4a07916b46f9536a
-ms.sourcegitcommit: 6a44cb5b0328b60ebe7710378287f1e20bc55a25
+ms.openlocfilehash: 11fecb5ff87c454b32b2504fba3914f397265184
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/10/2019
-ms.locfileid: "70877781"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873631"
 ---
 # <a name="using-the-same-account-for-power-bi-and-azure"></a>Uso de la misma cuenta para Power BI y Azure
 
@@ -29,7 +28,7 @@ Si desea usar el mismo inicio de sesión para Azure y Power BI, asegúrese de in
 
 Puede agregar su cuenta de la organización como coadministrador en Azure mediante estos pasos:
 
-1. Inicie sesión en [Azure Portal](http://portal.azure.com/). Si es usuario de varios directorios de Azure, haga clic en **Suscripciones** y, luego, filtre para ver solo el directorio y las suscripciones que quiere editar.
+1. Inicie sesión en [Azure Portal](https://portal.azure.com/). Si es usuario de varios directorios de Azure, haga clic en **Suscripciones** y, luego, filtre para ver solo el directorio y las suscripciones que quiere editar.
 
 1. En el panel de navegación, seleccione **Control de acceso (IAM)** y, luego, **Agregar** \> **Agregar coadministrador**.
 
@@ -39,4 +38,4 @@ Puede agregar su cuenta de la organización como coadministrador en Azure median
 
 1. La próxima vez que inicie sesión en Azure Portal, use su dirección de correo electrónico de la organización.
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Ejemplo de recursos humanos: Dar un paseo'
 description: 'Ejemplo de recursos humanos para Power BI: Dar un paseo'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5670a8077b4de03f6eb866f6177f17cdec7d7f7
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 3f0c95673bd6a9a5af2a828869f38d32440b617a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462347"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858866"
 ---
 # <a name="human-resources-sample-for-power-bi-take-a-tour"></a>Ejemplo de recursos humanos para Power BI: Dar un paseo
 
@@ -27,7 +26,7 @@ El paquete de contenido Ejemplo de recursos humanos contiene un panel, informe y
 
 ![Panel del Ejemplo de recursos humanos](media/sample-human-resources/hr1.png)
 
-Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales que se han anonimizado. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
+Este ejemplo forma parte de una serie en la que se muestra cómo puede usar Power BI con datos, informes y paneles empresariales. Se ha creado mediante [obviEnce](http://www.obvience.com/) con datos reales anonimizados. Los datos están disponibles en varios formatos: paquete de contenido, archivo .pbix de Power BI Desktop o libro de Excel. Consulte [Ejemplos de Power BI](sample-datasets.md). 
 
 En este tutorial se explica el paquete de contenido de ejemplo de recursos humanos del servicio Power BI. Dado que la experiencia de informes es similar en Power BI Desktop y en el servicio, también puede proceder con el archivo .pbix de ejemplo de Power BI Desktop. 
 
@@ -58,11 +57,11 @@ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de conteni
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el Ejemplo de recursos humanos como un [archivo .pbix](http://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop.
+Como alternativa, puede descargar el Ejemplo de recursos humanos como un [archivo .pbix](https://download.microsoft.com/download/6/9/5/69503155-05A5-483E-829A-F7B5F3DD5D27/Human%20Resources%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529780). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529780). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="new-hires"></a>Nuevas contrataciones
 En primer lugar, veamos las nuevas contrataciones.
@@ -87,7 +86,7 @@ En primer lugar, veamos las nuevas contrataciones.
 
 4. Haga clic en los diferentes grupos de edad y géneros de los gráficos para explorar las relaciones entre edad, género, región y grupo étnico.
 
-5. Seleccione **Ejemplo de recursos humanos** en la barra de navegación superior para volver al panel.
+5. Seleccione **Ejemplo de recursos humanos** en el panel de navegación superior para volver al panel.
 
    ![Regreso al panel](media/sample-human-resources/power-bi-breadcrumbs.png)
 
@@ -133,7 +132,7 @@ Echemos un vistazo al informe en la Vista de edición. Puede cambiar los gráfic
 
 8. También puede seguir los mismos pasos con el gráfico circular **Active Employee Count by Gender** (Recuento de empleados activos por género) y cambiar a ceses de actividad laboral en lugar de empleados activos. Examine los datos de los ceses de actividad laboral voluntarios por género para ver si extrae algunas otras ideas importantes.
 
-9. Seleccione **Ejemplo de recursos humanos** en la barra de navegación superior para volver al panel. Puede guardar los cambios realizados en el informe si lo desea.
+9. Seleccione **Ejemplo de recursos humanos** en el panel de navegación superior para volver al panel. Puede guardar los cambios realizados en el informe si lo desea.
 
 ## <a name="bad-hires"></a>Contrataciones incorrectas
 La última área para explorar son las contrataciones incorrectas. Las contrataciones incorrectas se definen como aquellos empleados que no duraron más de 60 días. Contratamos rápidamente, pero ¿estamos contratando a buenos candidatos?
@@ -147,7 +146,7 @@ La última área para explorar son las contrataciones incorrectas. Las contratac
 
 3. Si observa el gráfico de anillos **Bad Hire Count by Gender** (Recuento de contrataciones incorrectas por género) y selecciona las diferentes regiones en la segmentación **Region** (Región), observará que la región Este es la única región con más contrataciones incorrectas de mujeres que de hombres.  
 
-4. Seleccione el nombre del panel en la barra de navegación superior para volver al panel.
+4. Seleccione el nombre del panel en el panel de navegación superior para volver a este.
 
 ## <a name="ask-a-question-in-the-dashboard-qa-box"></a>Formule una pregunta en el cuadro de preguntas y respuestas del panel
 En el [cuadro de preguntas y respuestas](power-bi-tutorial-q-and-a.md) del panel, puede hacer una pregunta sobre los datos usando lenguaje natural. Preguntas y respuestas reconoce las palabras que escribe y determina la ubicación del conjunto de datos donde se encuentra la respuesta.

@@ -2,20 +2,19 @@
 title: Orígenes de datos en Power BI Desktop
 description: Orígenes de datos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 56583c796a8f6e32bed67629dee4fe3bea677bee
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: c363e63a7354c2a8c66099a98cb441ce2c94becf
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307840"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878368"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 Power BI Desktop permite conectarse a datos de muchos orígenes diferentes. En la parte inferior de esta página puede consultar una lista completa de los orígenes de datos disponibles.
@@ -234,7 +233,7 @@ Un archivo .PBIDS se puede crear para optimizar la experiencia **Obtener datos*
 
 Cuando un autor abre un archivo .PBIDS, Power BI Desktop se abre y pide al usuario las credenciales para autenticarse y conectarse al origen de datos especificado en el archivo. El cuadro de diálogo Navegación se abre, y el usuario debe seleccionar las tablas del origen de datos que quiera cargar en el modelo. Puede que también deba seleccionar las bases de datos si no hay ninguna especificada en el archivo .PBIDS. 
 
-A partir de ese momento, el usuario puede empezar a crear visualizaciones o volver a visitar *Orígenes recientes para cargar un nuevo conjunto de tablas en el modelo. 
+A partir de ese momento, el usuario puede empezar a crear visualizaciones o volver a visitar *Orígenes recientes* para cargar un nuevo conjunto de tablas en el modelo. 
 
 Actualmente, los archivos .PBIDS solo admiten un único origen de datos en un archivo. Si se especifica más de un origen de datos, se producirá un error. 
 
@@ -242,13 +241,13 @@ Para crear el archivo .PBIDS, los administradores deben especificar las entrada
 
 ### <a name="pbids-file-examples"></a>Ejemplos de archivos PBIDS
 
-En esta sección se proporcionan algunos ejemplos de orígenes de datos de uso frecuente. El tipo de archivo .PBIDS solo admite las conexiones de datos que también se admiten en Power BI Desktop, salvo dos excepciones: las conexiones dinámicas y las consultas en blanco. 
+En esta sección se proporcionan algunos ejemplos de orígenes de datos de uso frecuente. El tipo de archivo .PBIDS solo admite las conexiones de datos que también se admiten en Power BI Desktop, salvo dos excepciones: Live Connect y las Consultas en blanco. 
 
 El archivo .PBIDS *no* incluye información de autenticación ni de tablas y esquemas.  
 
-Estos son algunos ejemplos comunes de archivos .PBIDS, pero no representan una muestra completa ni exhaustiva. En el caso de otros orígenes de datos, puede consultar el [formato de referencia de origen de datos (DSR)](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) para obtener información sobre protocolos y direcciones.
+Estos son algunos ejemplos comunes de archivos .PBIDS, pero no representan una muestra completa ni exhaustiva. En el caso de otros orígenes de datos, puede consultar el [Formato de referencia de origen de datos (DSR)](https://docs.microsoft.com/azure/data-catalog/data-catalog-dsr#data-source-reference-specification) para obtener información sobre protocolos y direcciones.
 
-Estos ejemplos se muestran aquí solo para su comodidad, y no están diseñados para ser integrales ni incluyen todos los conectores admitidos en formato DSR. Los administradores u organizaciones pueden crear sus propios orígenes de datos tomando estos ejemplos como guía y arrancar desde ahí para crear y admitir sus propios archivos de origen de datos. 
+Le presentamos estos ejemplos por su carácter práctico, pero no están diseñados para ser exhaustivos ni incluyen todos los conectores admitidos en formato DSR. Los administradores y las organizaciones pueden crear sus propios orígenes de datos tomando estos ejemplos como guía y utilizarlos para crear y respaldar sus propios archivos de origen de datos. 
 
 
 **Azure AS**
@@ -271,7 +270,7 @@ Estos ejemplos se muestran aquí solo para su comodidad, y no están diseñados 
 
  
 
-**Carpeta**
+**Folder**
 ```
 { 
   "version": "0.1", 
@@ -343,7 +342,7 @@ Estos ejemplos se muestran aquí solo para su comodidad, y no están diseñados 
 
 **Lista de SharePoint**
 
-La dirección URL debe apuntar al sitio de SharePoint en sí, y no a una lista dentro del sitio. Los usuarios obtienen un navegador que les permite seleccionar una o más listas de ese sitio, cada una de las cuales se convierte en una tabla del modelo. 
+La dirección URL debe llevar al sitio de SharePoint en sí, y no a una lista dentro del sitio. Los usuarios obtienen un navegador que les permite seleccionar una o más listas de ese sitio, cada una de las cuales se convierte en una tabla del modelo. 
 ```
 { 
   "version": "0.1", 
@@ -364,21 +363,20 @@ La dirección URL debe apuntar al sitio de SharePoint en sí, y no a una lista d
 **SQL Server**
 ```
 { 
-  “version”: “0.1”, 
-  “connections”: [ 
+  "version": "0.1", 
+  "connections": [ 
     { 
-      “details”: { 
-        “protocol”: “tds”, 
-        “address”: { 
-          “server”: “server-name-here”, 
-          “database”: “db-name-here (optional)” 
+      "details": { 
+        "protocol": "tds", 
+        "address": { 
+          "server": "server-name-here", 
+          "database": "db-name-here (optional) "
         } 
       }, 
-      “options”: {}, 
-      “mode”: “DirectQuery” 
+      "options": {}, 
+      "mode": "DirectQuery" 
     } 
   ] 
-} 
 } 
 ```
  
@@ -419,6 +417,24 @@ La dirección URL debe apuntar al sitio de SharePoint en sí, y no a una lista d
 ```
  
 
+**Flujo de datos**
+```
+{
+  "version": "0.1",
+  "connections": [
+    {
+      "details": {
+        "protocol": "powerbi-dataflows",
+        "address": {
+          "workspace":"workspace id (Guid)",
+          "dataflow":"optional dataflow id (Guid)",
+          "entity":"optional entity name"
+        }
+       }
+    }
+  ]
+}
+```
 
 
 ## <a name="next-steps"></a>Pasos siguientes

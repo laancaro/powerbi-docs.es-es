@@ -3,20 +3,19 @@ title: Filtro de un informe con parámetros de cadena de consulta en la URL
 description: Filtre un informe con parámetros de cadena de consulta de URL, con la posibilidad incluso de filtrar más de un campo.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 07/25/2019
+ms.date: 10/23/2019
 LocalizationGroup: Reports
-ms.openlocfilehash: 9e2b1132e48e824b70ddb0e0d86bfed4efedff2f
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: be45941e67417cbed15433405953cf728fe0aa8d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623890"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876925"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -153,7 +152,7 @@ Los espacios y los caracteres especiales requieren algún formato adicional. Si 
 |---------|---------|---------|
 |**Nombre de tabla**     | El espacio es 0x20        |  Table_x0020_Name       |
 |**Columna**@**Número**     |   @ es 0x40     |  Column_x0040_Number       |
-|**[Columna]**     |  [ es 0x0058 y ] es 0x0050       |  _x0058_Column_x0050_       |
+|**[Columna]**     |  [es 0x005B] es 0x005D       |  _x005B_Column_x005D_       |
 |**Columna+Más**     | + es 0x2B        |  Column_x002B_Plus       |
 
 Table_x0020_Name/Column_x002B_Plus eq 3 ![objeto visual de tabla que representa caracteres especiales](media/service-url-filters/power-bi-special-characters1.png)
@@ -195,4 +194,4 @@ Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de
 [Anclar una visualización a un informe](service-dashboard-pin-tile-from-report.md)  
 [Registrarse para obtener una evaluación gratuita](https://powerbi.microsoft.com/get-started/)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

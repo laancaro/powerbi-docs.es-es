@@ -2,19 +2,18 @@
 title: Notificaciones de interrupción del servicio
 description: Obtenga información sobre cómo recibir notificaciones por correo electrónico cuando se produzca una interrupción o degradación del servicio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mblythe
-ms.openlocfilehash: 677e2b96da533b62cafc724a2f4498591d91057a
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 90ab6c48465a9b7dc5eecca457953f77c727304c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073571"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872174"
 ---
 # <a name="service-interruption-notifications"></a>Notificaciones de interrupción del servicio
 
@@ -28,7 +27,7 @@ En este momento, se envían mensajes de correo electrónico para los siguientes 
 - Confiabilidad de actualización del modelo
 - Confiabilidad de actualización de consultas
 
-Algunos ejemplos de estas notificaciones son cuando los usuarios experimentan un retraso prolongado en las operaciones (por ejemplo, al abrir un informe, al actualizar conjuntos de datos o al ejecutar consultas). Una vez que se ha resuelto un incidente, recibirá un correo electrónico de seguimiento.
+Las notificaciones se envían cuando se produce un _retraso prolongado_ en las operaciones (por ejemplo, al abrir un informe, al actualizar conjuntos de datos o al ejecutar consultas). Una vez que se ha resuelto un incidente, recibirá un correo electrónico de seguimiento.
 
 > [!NOTE]
 > En la actualidad, esta característica solo está disponible para capacidades dedicadas en Power BI Premium. No está disponible para la capacidad compartida o insertada.
@@ -52,4 +51,4 @@ Un administrador de inquilinos de Power BI habilita las notificaciones en el por
 
 [Opciones de soporte técnico de Power BI Pro y Power BI Premium](service-support-options.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

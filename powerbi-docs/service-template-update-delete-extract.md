@@ -2,19 +2,18 @@
 title: Actualización, eliminación y extracción de una aplicación de plantilla de Power BI
 description: Actualización, eliminación y extracción de una aplicación de plantilla.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: tebercov
-ms.openlocfilehash: 2cf655c25bb58ec001bac52b55aea74f887f08d9
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: a15a27255f15bdce39ddb14a6cda798d170ba3ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207630"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871378"
 ---
 # <a name="update-delete-and-extract-template-app"></a>Actualización, eliminación y extracción de una aplicación de plantilla
 
@@ -65,7 +64,7 @@ Revertir a la versión anterior de una aplicación de la plantilla es más fáci
 Se restablece el nuevo control de versiones del área de trabajo y puede continuar desarrollando y distribuyendo la aplicación de plantilla desde el área de trabajo recién extraída.
 
 ## <a name="delete-template-app-version"></a>Eliminación de una versión de la aplicación de plantilla
-El área de trabajo de la aplicación de plantilla es el origen de una aplicación de plantilla distribuida activa. Para proteger a los usuarios de la aplicación de la plantilla, no es posible eliminar un área de trabajo sin quitar primero todas las versiones de la aplicación creada en el área de trabajo.
+El área de trabajo de plantilla es el origen de una aplicación de plantilla distribuida activa. Para proteger a los usuarios de la aplicación de la plantilla, no es posible eliminar un área de trabajo sin quitar primero todas las versiones de la aplicación creada en el área de trabajo.
 La eliminación de una versión de la aplicación también elimina la dirección URL de la aplicación que ya no funcionará.
 
 1. En el panel de administración de versiones, seleccione los puntos suspensivos **(...)** y, a continuación, **Eliminar**.

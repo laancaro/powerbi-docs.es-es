@@ -6,17 +6,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/20/2018
 LocalizationGroup: Data from databases
-ms.openlocfilehash: aaeda4c2f7c50e41d9b149e33ba49f5eba76eba8
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 2e96b88963250d7ac11cf9690c63b431279d585a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060706"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873244"
 ---
 # <a name="azure-sql-data-warehouse-with-directquery"></a>Azure SQL Data Warehouse con DirectQuery
 
@@ -54,7 +53,7 @@ La manera más sencilla de cambiar entre SQL Data Warehouse y Power BI es con el
 
 SQL Data Warehouse también se muestra en la página Obtener datos de Power BI. 
 
-1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.  
+1. Seleccione **Obtener datos** en la parte inferior del panel de navegación.  
 
     ![Botón Obtener datos](media/service-azure-sql-data-warehouse-with-direct-connect/getdatabutton.png)
 
@@ -102,4 +101,4 @@ El nombre completo del servidor y el nombre de la base de datos pueden encontrar
 * [Obtener datos para Power BI](service-get-data.md)  
 * [Azure SQL Data Warehouse](/azure/sql-data-warehouse/sql-data-warehouse-overview-what-is/)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

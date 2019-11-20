@@ -2,19 +2,18 @@
 title: ¿Qué son las aplicaciones de plantilla de Power BI?
 description: Este artículo es una introducción del programa de aplicaciones de plantilla de Power BI. Obtenga información sobre cómo crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: tebercov
-ms.openlocfilehash: c05b53a5fd61d348b6d304b17123d5f2497ab647
-ms.sourcegitcommit: 58c649ec5fd2447a0f9ca4c4d45a0e9fff2f1b6a
+ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/27/2019
-ms.locfileid: "67408213"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871339"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
@@ -30,7 +29,7 @@ Debe enviar las aplicaciones de plantilla a Cloud Partner Portal. Después, las 
 El proceso general para desarrollar y enviar una aplicación de plantilla implica varias fases. Algunas fases pueden incluir más de una actividad al mismo tiempo.
 
 
-| Fase | Power BI Desktop |  |Servicio Power BI  |  |Cloud Partner Portal  |
+| Fase | Power BI Desktop |  |Servicio Power BI  |  |Cloud Partner Portal  |
 |---|--------|--|---------|---------|---------|
 | **Uno** | Crear un modelo de datos y un informe en un archivo .pbix. |  | Crear un área de trabajo. Importar el archivo .pbix. Crear un panel complementario.  |  | Registrarse como asociado. |
 | **Dos** |  |  | Crear un paquete de prueba y ejecutar la validación interna.        |  | |
@@ -61,7 +60,7 @@ Estos son los pasos generales.
 
 1. Envíe el contenido a la plataforma Cloud Partner para la publicación. 
 
-1. "Publique" la oferta en AppSource y mueva la aplicación a producción en Power BI.
+1. "Publique" la oferta en AppSource y mueva la aplicación a producción en Power BI.
 2. Ya puede empezar a desarrollar la próxima versión en la misma área de trabajo, en preproducción. 
 
 ## <a name="requirements"></a>Requisitos

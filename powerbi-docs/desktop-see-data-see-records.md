@@ -2,7 +2,6 @@
 title: Ver datos y registros en objetos visuales de Power BI Desktop
 description: Usar las características Ver datos y Ver registros de Power BI Desktop para profundizar en la información
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 6e425f146228d0139b9eec914a44ed5dc732fe98
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 66fe4a9eb109565108cd150369b2260a9d3e1d06
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514767"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877765"
 ---
 # <a name="use-see-data-and-see-records-in-power-bi-desktop"></a>Usar Ver datos y Ver registros en Power BI Desktop
 En **Power BI Desktop**, puede profundizar en los detalles de una visualización y ver representaciones textuales de los datos subyacentes o de los registros de datos individuales del objeto visual seleccionado. Estas características se conocen a veces como *click-through*, o *drill-through* u *obtención de detalles*.
@@ -41,7 +40,7 @@ Puede usar **Ver datos** para ver una versión textual de los valores usados por
 
 ![Ver Datos en la cinta](media/desktop-see-data-see-records/see-data1.png)
 
-También puede ver los datos haciendo clic con el botón derecho en una visualización y, a continuación, seleccionando **Mostrar datos** en el menú que aparece, o bien seleccionando los puntos suspensivos (...) **Más opciones** en la esquina superior derecha de una visualización y, después, seleccionando **Mostrar datos**.
+También puede ver los datos al hacer clic con el botón derecho en una visualización y seleccionar **Permite mostrar datos** en el menú que aparece, o bien, al seleccionar **Más opciones** (...) en la esquina superior derecha de una visualización y, después, **Permite mostrar datos**.
 
 ![Mostrar datos clic con el botón derecho](media/desktop-see-data-see-records/see-data2.png)&nbsp;&nbsp;![Mostrar datos Más opciones](media/desktop-see-data-see-records/see-data3.png)
 

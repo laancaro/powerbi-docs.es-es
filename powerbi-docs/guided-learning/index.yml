@@ -1,0 +1,171 @@
+### YamlMime:Landing
+metadata:
+  title: Aprendizaje guiado de Microsoft Power BI
+  description: Inicie su viaje de aprendizaje de con esta colección secuenciada de cursos para conocer las numerosas y eficaces funcionalidades de Microsoft Power BI.
+  layout: LandingPage
+  ms.service: powerbi
+  ms.author: davidiseminger
+  ms.date: 09/20/2019
+  ms.openlocfilehash: bd094c8a4568c7fb05ca49996fb0c8f409c668d3
+  ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
+  ms.translationtype: HT
+  ms.contentlocale: es-ES
+  ms.lasthandoff: 11/19/2019
+  ms.locfileid: "74178338"
+title: Aprendizaje guiado de Microsoft Power BI
+summary: Inicie su viaje de aprendizaje de con esta colección secuenciada de cursos para conocer las numerosas y eficaces funcionalidades de Microsoft Power BI.
+landingContent:
+- title: Introducción a todo lo que se puede hacer con Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: '¿Qué puedo hacer con el servicio Power BI como consumidor? : 12 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/1-why-power-bi
+    - text: 'Visualización de contenido en el servicio Power BI: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/2-find-content
+    - text: 'Exploración con paneles, informes y aplicaciones en Power BI: 15 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/3-navigate-content
+    - text: 'Colaboración y uso compartido en Power BI: 15 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/4-collaborate-and-share
+    - text: 'Búsqueda y visualización de paneles e informes: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-power-bi-service/5-lab-1
+- title: Análisis de datos con Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Filtrado de datos con Power BI: 15 minutos'
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/1-filtering-data
+    - text: 'Visualización de los datos: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/2-exploring-with-numbers
+    - text: 'Realización de preguntas de los datos: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/3-asking-questions-data
+    - text: 'Aplicación de filtros a los informes: 25 minutos'
+      url: https://docs.microsoft.com/learn/modules/analyze-data-power-bi/4-lab-2
+- title: Introducción a la compilación con Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción: 6 min'
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/1-introduction
+    - text: 'Uso de Power BI: 2 min'
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/2-using-power-bi
+    - text: 'Bloques de creación de Power BI: 12 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/3-building-blocks-of-power-bi
+    - text: 'Paseo y uso del servicio Power BI: 12 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi
+- title: Obtención de datos con Power BI Desktop
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Información general sobre Power BI Desktop: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/1-overview-power-bi-desktop
+    - text: 'Exploración de Power BI Desktop: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/2-getting-started-power-bi-desktop
+    - text: 'Conexión a un origen de datos: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3-connect-data-sources-power-bi-desktop
+    - text: 'Obtención de datos desde Excel: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/3b-data-from-excel
+    - text: 'Transformación de datos para incluirlos en un informe: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/4-clean-data-query-editor
+    - text: 'Combinación de datos de varios orígenes: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/5-advanced-data-sources-transformation
+    - text: 'Limpieza de los datos que se van a incluir en un informe: 10 minutos'
+      url: https://docs.microsoft.com/learn/modules/get-data-power-bi/6-cleaning-data
+- title: Modelado de datos en Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción al modelado de datos: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/1-overview-power-bi
+    - text: 'Administración de las relaciones de datos: 8 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/2-how-to-manage-data-relationships
+    - text: 'Creación de columnas calculadas: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/3-create-calculated-columns
+    - text: 'Optimización de los modelos de datos: 8 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4-optimize-data-models
+    - text: 'Creación de medidas calculadas: 15 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/4b-create-calculated-measures
+    - text: 'Creación de tablas calculadas: 4 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/5-create-calculated-tables
+    - text: 'Exploración de datos de tiempo: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/model-data-power-bi/6-explore-time-based-data
+- title: Uso de objetos visuales en Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción a los objetos visuales en Power BI: 3 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/1-intro-visuals
+    - text: 'Creación y personalización de visualizaciones simples: 9 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/2-create-simple-visuals
+    - text: 'Creación de segmentaciones: 9 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/4-create-slicers
+    - text: 'Visualizaciones de mapas: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/5-map-visualizations
+    - text: 'Matrices y tablas: 8 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/6-create-matrixes-tables
+    - text: 'Creación de gráficos de dispersión, cascada y embudo: 9 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/7-create-scatter-charts
+    - text: 'Modificación de colores en gráficos y objetos visuales: 6 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/10-modify-colors
+    - text: 'Formato y diseño de página: 12 minutos'
+      url: https://docs.microsoft.com/learn/modules/visuals-in-power-bi/12-formatting
+- title: Exploración de datos en Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción al servicio Power BI: 6 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/1-introduction-power-bi-service
+    - text: 'Conclusiones rápidas en Power BI: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights
+    - text: 'Creación y configuración de un panel: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
+    - text: 'Formulación de preguntas a los datos en lenguaje natural: 5 min'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
+    - text: 'Creación de sugerencias personalizadas de preguntas y respuestas: 4 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa
+    - text: 'Uso compartido de paneles con el resto de la organización: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/6-share-dashboards
+    - text: 'Visualización de objetos visuales e iconos en pantalla completa: 3 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/7-display-full-screen
+    - text: 'Edición de los detalles de un icono y adición de widgets: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/8-edit-tile-details
+    - text: 'Obtención de más espacio en el panel: 3 minutos'
+      url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/9-get-more-space-on-dashboard
+- title: Publicación y uso compartido en Power BI
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción a los paquetes de contenido, la seguridad y los grupos: 5 min'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/1-introduction-content-packs
+    - text: 'Publicación de informes de Power BI Desktop: 6 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/2-publish-reports
+    - text: 'Impresión y exportación de informes y paneles: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/3-print-export-reports
+    - text: 'Presentación de Power BI Mobile: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/5-power-bi-mobile
+    - text: 'Creación de áreas de trabajo en Power BI: 6 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/6-create-groups
+    - text: 'Compilación de aplicaciones: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/7-build-apps
+    - text: 'Uso de aplicaciones: 6 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/8-use-apps
+    - text: 'Integración de OneDrive para la Empresa con Power BI: 7 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/10-integrate-onedrive
+    - text: 'Publicación en Web: 5 minutos'
+      url: https://docs.microsoft.com/learn/modules/publish-share-power-bi/11-publish-web
+- title: Introducción a DAX
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: 'Introducción a DAX: 9 minutos'
+      url: introductiontodax.yml?tutorial-step=1
+    - text: 'Tipos de cálculos DAX: 22 minutos'
+      url: introductiontodax.yml?tutorial-step=2
+    - text: 'Funciones DAX: 17 minutos'
+      url: introductiontodax.yml?tutorial-step=3
+    - text: 'Uso de variables en expresiones DAX: 4 minutos'
+      url: introductiontodax.yml?tutorial-step=4
+    - text: 'Relaciones de tablas y DAX: 13 minutos'
+      url: introductiontodax.yml?tutorial-step=5
+    - text: 'Filtrado y tablas DAX: 32 minutos'
+      url: introductiontodax.yml?tutorial-step=6

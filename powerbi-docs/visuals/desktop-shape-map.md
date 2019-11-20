@@ -2,20 +2,19 @@
 title: Usar mapas de formas en Power BI Desktop (versión preliminar)
 description: Crear comparaciones relativas a las regiones con mapas de formas en Power BI Desktop
 author: mihart
-manager: kvivek
-ms.reviewer: ''
+ms.reviewer: amanda
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/4/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 6543263c0e6c3395479169e8b02034e4a9c78f7b
-ms.sourcegitcommit: 3b4de8785d17c9e00b041cff7bd4d39829316437
+ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "72164097"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871120"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 
@@ -61,7 +60,7 @@ Siga los siguientes pasos para crear un **mapa de formas**:
 3. A continuación, puede modificar el mapa mediante las opciones de formato, como **Color predeterminado**, **Zoom** y muchas más. Y también puede agregar una columna de datos de categoría al depósito **Leyenda** y clasificar las regiones del mapa según categorías.
 
 ## <a name="use-custom-maps"></a>Usar mapas personalizados
-Puede usar mapas personalizados con **Mapa de formas** siempre que tengan el formato **TopoJSON**. Si el mapa tiene otro formato, puede usar herramientas en línea, como [**Conformador de mapa**](http://mapshaper.org/), para convertir los *archivos de forma* o los mapas *GeoJSON* al formato **TopoJSON**.
+Puede usar mapas personalizados con **Mapa de formas** siempre que tengan el formato **TopoJSON**. Si el mapa tiene otro formato, puede usar herramientas en línea, como [**Conformador de mapa**](https://mapshaper.org/), para convertir los *archivos de forma* o los mapas *GeoJSON* al formato **TopoJSON**.
 
 Para usar el archivo de mapa **TopoJSON**, agregue un objeto visual de ShapeMap al informe y algunos datos a los cubos *Ubicación* y *Saturación de color*. Después, en el panel **Visualizaciones**, con la sección **Formato** seleccionada (que se muestra como (1) en la imagen siguiente), expanda la sección **Forma** y seleccione **+ Agregar mapa**.
 
@@ -82,7 +81,7 @@ Puede hacer otras cosas interesantes con los mapas de estados individuales y mos
 
 Si quiere probar con este conjunto de datos y visualización, en este vínculo podrá descargar el archivo PBIX original que se usó para generar este informe.
 
-* [Demo de archivo .PBIX de mapa de formas personalizado](http://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
+* [Demo de archivo .PBIX de mapa de formas personalizado](https://download.microsoft.com/download/1/2/8/128943FB-9231-42BD-8A5D-5E2362C9D589/DistrictAttorneyFiscalReport.pbix)
 
 ## <a name="getting-map-data"></a>Obtener datos de mapa
 Para obtener rápidamente datos en un modelo para que pueda probar **Mapa de formas**, puede copiar una de las tablas al final de este artículo y luego seleccionar **Especificar datos** en la cinta **Inicio**.
@@ -108,7 +107,7 @@ Hay algunas consideraciones y requisitos para esta versión preliminar de **Mapa
 * El objeto visual **Mapa de formas** está en versión preliminar y debe habilitarse en Power BI Desktop. Para habilitar el **Mapa de formas**, seleccione **Archivo > Opciones y configuración > Opciones > Características de versión preliminar** y, después, active la casilla **Dar forma a objeto visual de mapa**.
 * Actualmente, también debe tener el cubo **Saturación de color** establecido para que la clasificación **Leyenda** funcione correctamente.
 * La versión final de **Mapa de formas** tendrá una interfaz de usuario que mostrará las claves del mapa actualmente seleccionado (no hay fecha establecida para la versión final y **Mapa de formas** todavía está en la versión preliminar). En esta versión preliminar, puede hacer referencia a las claves de región de mapa en las tablas que se encuentran en la sección **Claves de región** siguiente de este artículo.
-* El objeto visual **Mapa de formas** podrá trazar hasta un máximo de 1000 puntos de datos.
+* El objeto visual **Mapa de formas** trazará un máximo de 1500 puntos de datos.
 
 ## <a name="region-keys"></a>Claves de región
 

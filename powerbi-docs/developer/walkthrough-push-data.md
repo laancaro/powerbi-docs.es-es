@@ -3,18 +3,17 @@ title: Inserción de datos en un conjunto de datos
 description: Inserción de datos en un conjunto de datos de Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: madia
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: 9eb81610044f795b6f9dc5c58aeefad13de06542
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 5db16bfdc1013668be5103f392d6f298c8faf925
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "66222160"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875447"
 ---
 # <a name="push-data-into-a-power-bi-dataset"></a>Inserción de datos en un conjunto de datos de Power BI
 
@@ -43,7 +42,7 @@ Estas son las operaciones para insertar datos en un conjunto de datos:
 * [PostRows](https://docs.microsoft.com/rest/api/power-bi/pushdatasets/datasets_postrows)
 * [Obtener grupos](https://docs.microsoft.com/rest/api/power-bi/groups/getgroups)
 
-Para crear un conjunto de datos en Power BI se pasa una cadena de notación de objetos JavaScript (JSON) al servicio Power BI. Para obtener más información acerca de JSON, consulte [Introducción a JSON](http://json.org/).
+Para crear un conjunto de datos en Power BI se pasa una cadena de notación de objetos JavaScript (JSON) al servicio Power BI. Para obtener más información acerca de JSON, consulte [Introducción a JSON](https://json.org/).
 
 La cadena JSON para un conjunto de datos tiene el formato siguiente:
 
@@ -112,13 +111,13 @@ Para un esquema de tabla de Power BI, puede usar los siguientes tipos de datos.
 
 ## <a name="learn-more-about-pushing-data-into-power-bi"></a>Más información sobre la inserción de datos en Power BI
 
-Para empezar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación con Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) en el panel de navegación izquierdo.
+Para empezar a insertar datos en un conjunto de datos, consulte [Paso 1: Registrar una aplicación en Azure AD](walkthrough-push-data-register-app-with-azure-ad.md) en el panel de navegación.
 
 [Paso siguiente >](walkthrough-push-data-register-app-with-azure-ad.md)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Suscribirse en Power BI](create-an-azure-active-directory-tenant.md)  
-[Introducción a JSON](http://json.org/)  
+[Introducción a JSON](https://json.org/)  
 [Información general sobre la API de REST de Power BI](overview-of-power-bi-rest-api.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

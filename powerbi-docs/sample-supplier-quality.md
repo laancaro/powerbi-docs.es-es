@@ -2,7 +2,6 @@
 title: 'Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo'
 description: 'Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 76e053d34dcd7f1f199f4cbf9f02196e8efc6232
-ms.sourcegitcommit: ba95d4979f1869f49a7d266c591f95e2810fdb29
+ms.openlocfilehash: 156b00c7f7287f12397afea422a38f3870d6c399
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/19/2019
-ms.locfileid: "69621307"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858395"
 ---
 # <a name="supplier-quality-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de calidad de proveedores para Power BI: Dar un paseo
 
@@ -59,11 +58,11 @@ Para poder usar el ejemplo, primero debe descargarlo como un [paquete de conteni
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el ejemplo de análisis de calidad de proveedores como un [archivo .pbix](http://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), que se ha diseñado para usarse con Power BI Desktop.
+Como alternativa, puede descargar el ejemplo de análisis de calidad de proveedores como un [archivo .pbix](https://download.microsoft.com/download/8/C/6/8C661638-C102-4C04-992E-9EA56A5D319B/Supplier-Quality-Analysis-Sample-PBIX.pbix), que se ha diseñado para usarse con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529779). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529779). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="downtime-caused-by-defective-materials"></a>Tiempos de inactividad causados por materiales defectuosos
 Vamos a analizar el tiempo de inactividad causado por los materiales defectuosos y a detectar qué proveedores son responsables.  
@@ -94,7 +93,7 @@ Vamos a analizar el tiempo de inactividad causado por los materiales defectuosos
     ![Gráfico de rectángulos Tiempo de inactividad (min) por proveedor](media/sample-supplier-quality/supplier5.png)  
 
    En este gráfico de rectángulos, podemos ver que los ocho principales proveedores son los ocho bloques de la izquierda del gráfico. También podemos ver que representan aproximadamente el 50 % del total de minutos de tiempo de inactividad.  
-3. Seleccione **Ejemplo de análisis de calidad de proveedores** en la barra de navegación superior para volver al panel.
+3. Seleccione **Ejemplo de análisis de calidad de proveedores** en el panel de navegación superior para volver al panel.
 
 ### <a name="comparing-plants"></a>Comparar plantas
 Ahora veamos qué planta trabaja mejor a la hora de gestionar el material defectuoso, reduciendo así el tiempo de inactividad.  
@@ -113,7 +112,7 @@ Ahora veamos qué planta trabaja mejor a la hora de gestionar el material defect
 3. Seleccione la burbuja **Logística** en el gráfico de burbujas y observe las plantas de Springfield (Illinois) y Naperville (Illinois). Naperville parece haber mejorado la gestión de los suministros defectuosos, ya que tiene un alto número de rechazos y pocos impactos, en comparación con el elevado número de impactos de Springfield.  
 
    ![Seleccionar Logística](media/sample-supplier-quality/supplier8.png)  
-4. Seleccione **Ejemplo de análisis de calidad de proveedores** en la barra de navegación superior para volver al panel.
+4. Seleccione **Ejemplo de análisis de calidad de proveedores** en el panel de navegación superior para volver al panel.
 
 ## <a name="which-material-type-is-best-managed"></a>¿Qué tipo de material se gestiona mejor?
 El tipo material que se gestiona mejor es el que presenta un menor tiempo de inactividad o un impacto nulo, independientemente de la cantidad de defectos.
@@ -138,7 +137,7 @@ El tipo material que se gestiona mejor es el que presenta un menor tiempo de ina
 
     ![Gráfico Cantidad total de defectos por mes y año](media/sample-supplier-quality/supplier11.png)  
 3. ¿Significa eso que más defectos conllevan más tiempo de inactividad? Para averiguarlo, podemos hacer preguntas en el cuadro de Preguntas y respuestas.  
-4. Seleccione **Ejemplo de análisis de calidad de proveedores** en la barra de navegación superior para volver al panel.  
+4. Seleccione **Ejemplo de análisis de calidad de proveedores** en el panel de navegación superior para volver al panel.  
 5. Como sabemos que las materias primas tienen el mayor número de defectos, escriba lo siguiente en el cuadro de pregunta: *mostrar tipos de material, año y cantidad total de defectos*.  
 
     Había muchos más defectos en las materias primas en 2014 que en 2013.  
@@ -169,7 +168,7 @@ Echemos un vistazo ahora a otro icono del panel relacionado con la cantidad tota
 4. Para explorar los meses atípicos, vea los minutos de inactividad en octubre por tipo de material, ubicación de la planta, categoría, etc. Para ello, realice preguntas como *Total de minutos de inactividad en octubre por planta*. 
 5. Seleccione **Salir de preguntas y respuestas** en la esquina superior izquierda para volver al panel.
 
-## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conectarse a sus datos
+## <a name="next-steps-connect-to-your-data"></a>Pasos siguientes: Conexión con los datos
 Este entorno es seguro porque puede elegir no guardar los cambios. Pero si los guarda, en **Obtener datos** podrá obtener una nueva copia de este ejemplo siempre que lo desee.
 
 Esperamos que este paseo le haya mostrado cómo los paneles de Power BI, Preguntas y respuestas y los informes pueden ofrecer recomendaciones sobre los datos de ejemplo. Ahora es su turno: conéctese a sus propios datos. Con Power BI puede conectarse a una gran variedad de orígenes de datos. Para obtener más información, consulte [Introducción al servicio Power BI](service-get-started.md).

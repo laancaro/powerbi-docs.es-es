@@ -2,7 +2,6 @@
 title: Creación de un informe a partir de un conjunto de datos
 description: Cree un informe de Power BI a partir de un conjunto de datos.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,27 +9,27 @@ ms.topic: conceptual
 ms.date: 04/25/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: f2d9046c907b78ce2c1bb2754007c34199877a08
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: c3f30206a01dce9cf9fd3ce0600b46b401df2b1f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523081"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871768"
 ---
 # <a name="create-a-report-in-the-power-bi-service-by-importing-a-dataset"></a>Creación de un informe en el servicio Power BI mediante la importación de un conjunto de datos
 Ha leído [Informes en Power BI](consumer/end-user-reports.md) y ahora desea crear los suyos propios. Hay diferentes formas de crear un informe. En este artículo, comenzaremos por crear un informe básico en el servicio Power BI a partir de un conjunto de datos de Excel. Una vez que conozca los aspectos básicos de la creación de informes, consulte la sección [Pasos siguientes](#next-steps) al final de la página para ver temas de informes más avanzados.  
 
 ## <a name="prerequisites"></a>Requisitos previos
 - [Suscribirse al servicio Power BI](service-self-service-signup-for-power-bi.md). Para crear informes con Power BI Desktop, consulte [Vista de informes en Power BI Desktop](desktop-report-view.md). 
-- [Descargar el conjunto de datos de Excel del Ejemplo de análisis de minoristas](http://go.microsoft.com/fwlink/?LinkId=529778) y guardarlo en OneDrive para la Empresa o localmente.
+- [Descargar el conjunto de datos de Excel del Ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkId=529778) y guardarlo en OneDrive para la Empresa o localmente.
 
 ## <a name="import-the-dataset"></a>Importación del conjunto de datos
 Este método de creación de informes comienza con un conjunto de datos y un lienzo de informe en blanco. Puede continuar con el conjunto de datos del Ejemplo de análisis de minoristas.
 
 1. El informe lo crearemos en un área de trabajo del servicio Power BI, así que seleccione un área de trabajo existente o cree una.
    
-   ![Lista de áreas de trabajo de la aplicación](media/service-report-create-new/power-bi-workspaces2.png)
-2. En la parte inferior del panel de navegación izquierdo, seleccione **Obtener datos**.
+   ![lista de áreas de trabajo](media/service-report-create-new/power-bi-workspaces2.png)
+2. Seleccione **Obtener datos** en la parte inferior del panel de navegación.
    
    ![Obtener datos](media/service-report-create-new/power-bi-get-data3.png)
 3. Seleccione **Archivos** y navegue hasta la ubicación en que guardó el archivo Retail Analysis Sample.
@@ -93,5 +92,5 @@ Continúe explorando los datos y agregando visualizaciones. Cuando encuentre una
 ## <a name="next-steps"></a>Pasos siguientes
 
 * Aprenda a [anclar visualizaciones a un panel](service-dashboard-pin-tile-from-report.md)   
-* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

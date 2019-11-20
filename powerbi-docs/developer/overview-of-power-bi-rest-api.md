@@ -3,18 +3,17 @@ title: ¿Qué puedo hacer con la API de Power BI?
 description: ¿Qué puedo hacer con la API de Power BI?
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 03/25/2019
-ms.openlocfilehash: cc180c2e9d5275172ad9da75c502ef53d9d7ee66
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 8a231a426823d40be34e900a32d06e5d5f77108b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307630"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880483"
 ---
 # <a name="what-can-developers-do-with-the-power-bi-api"></a>¿Qué pueden hacer los desarrolladores con la API de Power BI?
 
@@ -32,7 +31,7 @@ A continuación se indican algunas de las cosas que puede hacer con las API de P
 | Autenticación en Power BI. | [Autenticación en Power BI](get-azuread-access-token.md) |
 
 > [!NOTE]
-> Las API de Power BI siguen haciendo referencia a las áreas de trabajo de la aplicación como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo de la aplicación.
+> Las API de Power BI aún hacen referencia a las áreas de trabajo como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo.
 
 ## <a name="api-developer-tools"></a>Herramientas de desarrollo de interfaces de programación de aplicaciones (API)
 
@@ -61,4 +60,4 @@ Puede usar la API de Power BI para [insertar datos en un conjunto de datos](wal
 * [Referencia de la API REST de Power BI](rest-api-reference.md)
 * [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

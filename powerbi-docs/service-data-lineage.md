@@ -2,19 +2,18 @@
 title: Linaje de datos (versión preliminar)
 description: En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino es un desafío clave para muchos clientes.
 author: paulinbar
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 10/03/2019
 ms.author: painbar
 LocalizationGroup: ''
-ms.openlocfilehash: e91f1d5084957ee7266161b9a34f916e2902d1f4
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 774b8b19f8b199e1d98b2bd5e079b35f1a9a6935
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72019572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877368"
 ---
 # <a name="data-lineage-preview"></a>Linaje de datos (versión preliminar)
 En los proyectos de inteligencia empresarial (BI) modernos, comprender el flujo de datos desde el origen de datos hasta su destino puede ser un desafío. El desafío es incluso mayor si se han creado proyectos analíticos avanzados que abarcan varios orígenes de datos, artefactos y dependencias.  Preguntas como "¿Qué ocurre si cambio estos datos?" o "¿Por qué no se ha actualizado este informe?" pueden ser difíciles de responder. Es posible que para entenderlas se necesite un equipo de expertos o una investigación en profundidad. Para ayudarle a responder a estas preguntas se ha diseñado la vista de linaje.
@@ -55,7 +54,7 @@ En los conjuntos de datos, verá la hora de la actualización más reciente y si
  
 Si un informe del área de trabajo se basa en un conjunto de datos de otra, verá el nombre del área de trabajo de origen en la tarjeta del conjunto de datos. Seleccione el nombre del área de trabajo de origen para ir hasta ella.
  
-- Para cualquier artefacto, seleccione los puntos suspensivos (...) para ver el menú opciones. Incluye en una vista de lista todas las acciones disponibles.
+- Para cualquier artefacto, seleccione **Más opciones** (...) para ver el menú de opciones. Incluye en una vista de lista todas las acciones disponibles.
   
 Para ver más metadatos sobre los conjuntos de datos, seleccione la propia tarjeta del conjunto de datos. En un panel lateral se muestra información adicional sobre el conjunto de datos.
 
@@ -89,7 +88,8 @@ La vista de linaje es un lienzo interactivo. Puede usar el mouse y el panel tác
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-La vista de linaje no está disponible en Internet Explorer. Vea [Exploradores compatibles con Power BI](power-bi-browsers.md) para más información.
+- La vista de linaje no está disponible en Internet Explorer. Vea [Exploradores compatibles con Power BI](power-bi-browsers.md) para más información.
+- La vista de linaje no está disponible en Mi área de trabajo.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

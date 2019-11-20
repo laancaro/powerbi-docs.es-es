@@ -3,18 +3,17 @@ title: Solución de problemas de una aplicación insertada
 description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al insertar contenido desde Power BI.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: troubleshooting
 ms.date: 02/05/2019
-ms.openlocfilehash: 08d66df2456917c09b6b0c1d9c40e2de47f53fa5
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 4038ffdb9a3218c0b2f04dd524463235fa91b6b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543905"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73864102"
 ---
 # <a name="troubleshoot-your-embedded-application"></a>Solución de problemas de una aplicación insertada
 
@@ -24,7 +23,7 @@ En este artículo se examinan algunos problemas comunes que pueden encontrarse a
 
 ### <a name="fiddler-trace"></a>Seguimiento de Fiddler
 
-[Fiddler](http://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP.  Puede ver el tráfico con las API de Power BI desde la máquina cliente. Esta herramienta puede mostrar errores y otra información relacionada.
+[Fiddler](https://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP.  Puede ver el tráfico con las API de Power BI desde la máquina cliente. Esta herramienta puede mostrar errores y otra información relacionada.
 
 ![Seguimiento de Fiddler](media/embedded-troubleshoot/fiddler.png)
 
@@ -78,9 +77,9 @@ Es posible que se necesite una captura de Fiddler para poder investigar más. El
 
 * El usuario ha superado la cantidad de tokens de inserción que se pueden generar en una capacidad compartida. Adquiera capacidades de Azure para generar tokens de inserción y asignar el área de trabajo a esa capacidad. Vea [Creación de una capacidad de Power BI Embedded en Azure Portal](https://docs.microsoft.com/azure/power-bi-embedded/create-capacity).
 * El token de autenticación de Azure AD ha expirado.
-* El usuario autenticado no es miembro del grupo (área de trabajo de la aplicación).
-* El usuario autenticado no es administrador del grupo (área de trabajo de la aplicación).
-* El usuario autenticado no tiene permisos. Los permisos se pueden actualizar con la [API refreshUserPermissions](https://docs.microsoft.com/en-us/rest/api/power-bi/users/refreshuserpermissions)
+* El usuario autenticado no es miembro del grupo (área de trabajo).
+* El usuario autenticado no es administrador del grupo (área de trabajo).
+* El usuario autenticado no tiene permisos. Los permisos se pueden actualizar con la [API refreshUserPermissions](https://docs.microsoft.com/rest/api/power-bi/users/refreshuserpermissions)
 * Es posible que el encabezado de la autorización no aparezca correctamente. Asegúrese de que no hay errores tipográficos.
 
 Es posible que el back-end de la aplicación tenga que actualizar el token de autenticación antes de llamar a GenerateToken.
@@ -293,7 +292,7 @@ Al ejecutar la aplicación de ejemplo de **inserción para la organización**, o
 
     AADSTS50011: The reply URL specified in the request doesn't match the reply URLs configured for the application: <client ID>
 
-Este error se debe a que la dirección URL de redireccionamiento especificada para la aplicación del servidor web es diferente de la dirección URL de la aplicación de ejemplo. Si quiere registrar la aplicación de ejemplo, use `http://localhost:13526/` como dirección URL de redireccionamiento.
+Este error se debe a que la dirección URL de redireccionamiento especificada para la aplicación del servidor web es diferente de la dirección URL de la aplicación de ejemplo. Si quiere registrar la aplicación de ejemplo, use `https://localhost:13526/` como dirección URL de redireccionamiento.
 
 Si quiere editar la aplicación registrada, deberá aprender a [actualizarla en Azure AD](https://docs.microsoft.com/azure/active-directory/develop/quickstart-v1-update-azure-ad-app), para que la aplicación pueda proporcionar acceso a las API web.
 
@@ -305,7 +304,7 @@ Si recibe el error AADSTS50079: El usuario debe usar autenticación multifactor.
 
 Para más información, consulte [Preguntas más frecuentes acerca de Power BI Embedded](embedded-faq.md).
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 
 Si necesita más ayuda, [póngase en contacto con el soporte técnico](https://powerbi.microsoft.com/support/pro/?Type=documentation&q=power+bi+embedded) o [cree una incidencia de soporte técnico mediante Azure Portal](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) y proporcione los mensajes de error que haya encontrado.
 
@@ -313,4 +312,4 @@ Si necesita más ayuda, [póngase en contacto con el soporte técnico](https://p
 
 Para obtener más información, vea [Preguntas frecuentes](embedded-faq.md).
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

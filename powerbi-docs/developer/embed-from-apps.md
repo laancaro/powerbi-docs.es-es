@@ -1,20 +1,19 @@
 ---
 title: Insertar informes o paneles desde aplicaciones
-description: Obtenga información para integrar o insertar un informe o un panel desde una aplicación de Power BI y no desde un área de trabajo de aplicación.
+description: Obtenga información sobre cómo integrar o insertar un informe o un panel desde una aplicación de Power BI y no desde un área de trabajo.
 author: rkarlin
 ms.author: rkarlin
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
-manager: kfile
 ms.date: 11/27/2018
-ms.openlocfilehash: 5a988eb160ce772d2c2e70e8cba2c01d3f0a36a9
-ms.sourcegitcommit: 81ba3572531cbe95ea0b887b94e91f94050f3129
+ms.openlocfilehash: 188601167684313c6e103063e67b9ba57fd2d451
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/06/2019
-ms.locfileid: "66750902"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877674"
 ---
 # <a name="embed-reports-or-dashboards-from-apps"></a>Insertar informes o paneles desde aplicaciones
 
@@ -42,7 +41,7 @@ En Power BI, se pueden crear aplicaciones para reunir paneles e informes relacio
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Vea cómo insertar desde áreas de trabajo de aplicación para los clientes de terceros y la organización:
+Consulte cómo insertar desde áreas de trabajo para los clientes de terceros y la organización:
 
 > [!div class="nextstepaction"]
 >[Inserción para clientes de terceros](embed-sample-for-customers.md)

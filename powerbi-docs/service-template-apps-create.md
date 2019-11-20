@@ -2,19 +2,18 @@
 title: Creación de aplicaciones de plantilla en Power BI
 description: Cómo crear aplicaciones de plantilla en Power BI que puede distribuir a cualquier cliente de Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/15/2019
 ms.author: tebercov
-ms.openlocfilehash: f936d5df9872d6dec8862709f614b2dc28f2e414
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 4b3158cbe26efe05e3d35c1c6c93027738cc817a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195382"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871491"
 ---
 # <a name="create-a-template-app-in-power-bi"></a>Creación de una aplicación de plantilla en Power BI
 
@@ -33,19 +32,19 @@ Estos son los requisitos para crear una aplicación la plantilla:
 - Estar familiarizado con los [conceptos básicos de Power BI](service-basic-concepts.md).
 - Permisos para compartir una aplicación de plantilla públicamente. Vea la [configuración de aplicaciones de plantilla en el portal de administración](service-admin-portal.md#template-apps-settings) de Power BI para obtener más información.
 
-## <a name="create-the-template-app-workspace"></a>Creación del área de trabajo de la aplicación de plantilla
+## <a name="create-the-template-workspace"></a>Creación del área de trabajo de plantilla
 
-Para crear una aplicación de plantilla que se pueda distribuir a otros inquilinos de Power BI, tendrá que crearla en una de las nuevas áreas de trabajo de la aplicación.
+Para crear una aplicación de plantilla que se pueda distribuir a otros inquilinos de Power BI, tendrá que crearla en una de las nuevas áreas de trabajo.
 
-1. En el servicio Power BI, haga clic en **Áreas de trabajo** > **Crear área de trabajo de la aplicación**.
+1. En el servicio Power BI, haga clic en **Áreas de trabajo** > **Crear área de trabajo**.
 
-    ![Crear área de trabajo de la aplicación](media/service-template-apps-create/power-bi-new-workspace.png)
+    ![Crear área de trabajo](media/service-template-apps-create/power-bi-new-workspace.png)
 
-2. En **Crear un área de trabajo de aplicación**, seleccione **Actualizar a nueva**.
+2. En **Crear un área de trabajo**, seleccione **Actualizar a nueva**.
 
     ![Prueba de las nuevas áreas de trabajo](media/service-template-apps-create/power-bi-upgrade-new.png)
 
-3. Proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo de la aplicación.
+3. Proporcione un nombre, una descripción (opcional) y un logotipo de imagen (opcional) para el área de trabajo.
 
 4. Expanda la sección **Avanzado** y seleccione **Desarrollar una aplicación de plantilla**.
 
@@ -57,9 +56,9 @@ Para crear una aplicación de plantilla que se pueda distribuir a otros inquilin
 
 ## <a name="create-the-content-in-your-template-app"></a>Creación del contenido en la plantilla de aplicación
 
-Como sucede con un área de trabajo de la aplicación estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  
+Como sucede con un área de trabajo estándar de Power BI, el siguiente paso consiste en crear el contenido en el área de trabajo.  
 
-- [Cree el contenido de Power BI](power-bi-creator-landing.md) en el área de trabajo de la aplicación.
+- [Cree el contenido de Power BI](power-bi-creator-landing.md) en el área de trabajo de la aplicación.
 
 Si va a usar parámetros en Power Query, asegúrese de que tengan tipos bien definidos (por ejemplo, Texto). Los tipos Todo y Binario no se admiten.
 
@@ -69,7 +68,7 @@ En [Sugerencias para la creación de aplicaciones de plantilla en Power BI](ser
 
 Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo en una aplicación de plantilla. El primer paso consiste en crear una aplicación de plantilla de prueba, accesible únicamente desde dentro de la organización en su inquilino.
 
-1. En el área de trabajo de la aplicación de plantilla, haga clic en **Crear aplicación**.
+1. En el área de trabajo de plantilla, haga clic en **Crear aplicación**.
 
     ![Crear aplicación](media/service-template-apps-create/power-bi-create-app.png)
 
@@ -86,7 +85,7 @@ Ahora que tiene contenido en el área de trabajo, está listo para empaquetarlo 
 
     **Navegación**
 
-    Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación izquierdo de la aplicación (para obtener más información, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience) en este artículo).
+    Active el **Nuevo generador de navegación**, donde puede definir el panel de navegación de la aplicación (para más información, consulte [Diseño de la experiencia de navegación](service-create-distribute-apps.md#design-the-navigation-experience) en este artículo).
 
    ![Configuración de la página de aterrizaje de la aplicación](media/service-template-apps-install-distribute/power-bi-install-app-content.png)
     
@@ -133,7 +132,7 @@ La dirección URL no cambia cuando alterna entre las fases de la versión. La pr
 
 A continuación se analizan las fases:
 
-1. En el área de trabajo de la aplicación de plantilla, haga clic en **Release Management** (Administración de versiones).
+1. En el área de trabajo de plantilla, seleccione **Administración de versiones**.
 
     ![Icono de Release Management](media/service-template-apps-create/power-bi-release-management-icon.png)
 

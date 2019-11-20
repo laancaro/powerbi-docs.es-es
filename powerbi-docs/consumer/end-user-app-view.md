@@ -1,21 +1,20 @@
 ---
 title: Instalación y uso de aplicaciones con los paneles e informes de Power BI
-description: En Power BI, las aplicaciones permiten reunir paneles e informes relacionados en un solo lugar.
+description: Buscar, instalar y usar aplicaciones en el servicio Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/31/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: a5b73a5a2d0a4381981cd5c98accc48df662bd24
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 0b581b9c45cb75d12eea974c0895474015634eb1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716466"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851304"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 

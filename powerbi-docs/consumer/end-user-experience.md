@@ -2,22 +2,21 @@
 title: Moverse por el servicio Power BI
 description: Introducción a la nueva experiencia de navegación de Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: quickstart
-ms.date: 10/18/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 14c7f88e0bfb822a73a72958f556443260f6ed76
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: e6be58971b265414440041f4667a0b0cc455cdd4
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851524"
 ---
 # <a name="quickstart---getting-around-in-power-bi-service"></a>Inicio rápido: Moverse por el servicio Power BI
 
@@ -57,7 +56,7 @@ Dentro de Mi área de trabajo, el contenido está organizado en 4 pestañas: Pan
 
 ![Pantalla Mi área de trabajo](./media/end-user-experience/power-bi-my-workspace.png)
 
-Seleccione un área de trabajo en el panel de navegación izquierdo y las pestañas correspondientes al contenido asociado (paneles, informes, libros y conjuntos de datos) rellenarán el lienzo de Power BI a la derecha.
+Seleccione un área de trabajo desde el panel de navegación y las pestañas correspondientes al contenido asociado (paneles, informes, libros y conjuntos de datos) rellenarán el lienzo de Power BI a la derecha.
 
 Si es un usuario nuevo, solo verá un área de trabajo, **Mi área de trabajo**.
 
@@ -82,7 +81,7 @@ Abra el panel; para ello, seleccione el nombre correspondiente.
    
    ![Eliminación de favorito](./media/end-user-experience/power-bi-unfavorite2.png)
 
-2. Para ver una lista de todo el contenido que agregó como favorito, en el panel de navegación izquierdo, seleccione la flecha situada a la derecha de **Favoritos**. Dado que el panel de navegación izquierdo es una característica permanente del servicio Power BI, tendrá acceso a esta lista desde cualquier parte del servicio Power BI.
+2. Para ver una lista de todo el contenido que agregó como favorito, en el panel de navegación, seleccione la flecha situada a la derecha de **Favoritos**. Dado que el panel de navegación es una característica permanente del servicio Power BI, tendrá acceso a esta lista desde cualquier parte del servicio Power BI.
    
     ![Ventana flotante de favoritos](./media/end-user-experience/power-bi-favorite.png)
    
@@ -92,7 +91,7 @@ Abra el panel; para ello, seleccione el nombre correspondiente.
    
    ![Marcado como favorito](./media/end-user-experience/power-bi-report-favorite.png)
 
-3. Abra el *panel* **Favoritos**; para ello, seleccione **Favoritos** en el panel de navegación izquierdo o bien el icono de estrella ![](media/end-user-experience/powerbi-star-icon.png).
+3. Abra el *panel* **Favoritos**; para ello, seleccione **Favoritos** en el panel de navegación o bien el icono de estrella ![captura de pantalla que muestra un icono de estrella amarillo](media/end-user-experience/powerbi-star-icon.png).
    
    ![Apertura de la pantalla de favoritos](./media/end-user-experience/power-bi-favorite-pane.png)
    
@@ -107,13 +106,13 @@ Para obtener más información, consulte [Favoritos](end-user-favorite.md).
 
 ## <a name="locate-your-most-recent-content"></a>Buscar el contenido más reciente
 
-1. Al igual que sucedía con Favoritos, puede ver rápidamente el último contenido al que ha tenido acceso desde cualquier parte del servicio Power BI. Solo tiene que seleccionar la flecha situada junto a **Recientes** en el panel de navegación izquierdo.
+1. Al igual que sucedía con Favoritos, puede ver rápidamente el último contenido al que ha tenido acceso desde cualquier parte del servicio Power BI. Solo tiene que seleccionar la flecha situada junto a **Recientes** en el panel de navegación.
 
    ![Ventana flotante de recientes](./media/end-user-experience/power-bi-recent-flyout.png)
 
     En el menú flotante, seleccione contenido para abrirlo.
 
-2. Hay veces en que no queremos simplemente abrir contenido reciente, sino ver información o realizar otra acción, como ver Insights o exportar a Excel. En estos casos, abra el panel **Recientes**; para ello, seleccione **Recientes** o el icono correspondiente en el panel de navegación izquierdo. En caso de tener más de un área de trabajo, esta lista puede incluir contenido de todas las áreas de trabajo.
+2. Hay veces en que no queremos simplemente abrir contenido reciente, sino ver información o realizar otra acción, como ver Insights o exportar a Excel. En estos casos, abra el panel **Recientes**; para ello, seleccione **Recientes** o su icono en el panel de navegación. En caso de tener más de un área de trabajo, esta lista puede incluir contenido de todas las áreas de trabajo.
 
    ![Panel de recientes](./media/end-user-experience/power-bi-recent.png)
 
@@ -138,7 +137,7 @@ Para obtener más información, consulte [Navegación en Power BI: buscar y orde
 Una vez que finalice este inicio rápido, si quiere podrá eliminar el panel de muestra de ejemplos de análisis de minoristas, el informe y el conjunto de datos.
 
 1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.    
-2. En el panel de navegación izquierdo, seleccione **Áreas de trabajo > Mi área de trabajo**.  
+2. En el panel de navegación, seleccione **Áreas de trabajo > Mi área de trabajo**.  
     ¿Ha visto la estrella amarilla con la que se indica un favorito?    
 3. En la pestaña **Paneles**, seleccione el icono **Eliminar** de papelera situado junto al panel de análisis de minoristas.    
 

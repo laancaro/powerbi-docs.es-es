@@ -2,7 +2,6 @@
 title: Introducción al servicio Power BI
 description: Introducción al servicio Power BI en línea (app.powerbi.com)
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,15 +9,15 @@ ms.topic: tutorial
 ms.date: 09/05/2019
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 49504343b076d7e2371c45005da24e35831bf506
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: 3a9b2a5e7de0a5072b266c7b146488e5d546f616
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750971"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872322"
 ---
 # <a name="tutorial-get-started-with-the-power-bi-service"></a>Tutorial: Introducción al servicio Power BI
-Este tutorial es una introducción a algunas de las características del *servicio Power BI*. En este servicio se conecta a los datos, se crea un informe y un panel y se formulan preguntas de los datos. Puede hacer mucho más en el servicio Power BI; este tutorial es solo para abrir boca. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero [¿Qué es Power BI?](power-bi-overview.md).
+Este tutorial es una introducción a algunas de las características del *servicio Power BI*. En este servicio se conecta a los datos, se crea un informe y un panel y se formulan preguntas de los datos. Puede hacer mucho más en el servicio Power BI; este tutorial es solo para abrir boca. Para entender cómo encaja el servicio Power BI con otras ofertas de Power BI, es recomendable leer primero [¿Qué es Power BI?](fundamentals/power-bi-overview.md).
 
 ![Página principal del servicio Power BI](media/service-get-started/power-bi-service-get-started-home.png)
 
@@ -35,7 +34,7 @@ En este tutorial, realizaremos los siguientes pasos:
 > * Limpiar los recursos mediante la eliminación del conjunto de datos, el informe y el panel.
 
 > [!TIP]
-> ¿Prefiere un curso autodidáctico? [Inscríbase en el curso sobre análisis y visualización de datos en EdX](http://aka.ms/edxpbi).
+> ¿Prefiere un curso autodidáctico? [Inscríbase en el curso sobre análisis y visualización de datos en EdX](https://aka.ms/edxpbi).
 
 ## <a name="sign-up-for-the-power-bi-service"></a>Suscribirse al servicio Power BI
 Si no tiene una cuenta de Power BI, [regístrese para obtener una versión de prueba gratuita de Power BI Pro](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
@@ -46,10 +45,10 @@ Después de conseguir una cuenta, escriba *app.powerbi.com* en el explorador par
 
 A menudo, cuando quiere crear un informe de Power BI, empieza en Power BI Desktop. Esta vez, vamos a empezar desde cero creando un informe en el servicio Power BI.
 
-En este tutorial, obtenemos los datos de un archivo CSV. ¿Desea seguir adelante? [Descarga del archivo CSV de ejemplos financieros](http://go.microsoft.com/fwlink/?LinkID=521962).
+En este tutorial, obtenemos los datos de un archivo CSV. ¿Desea seguir adelante? [Descarga del archivo CSV de ejemplos financieros](https://go.microsoft.com/fwlink/?LinkID=521962).
 
-1. [Inicie sesión en Power BI](http://www.powerbi.com/). ¿No tiene una cuenta? No se preocupe, puede registrarse para obtener una versión de prueba gratuita.
-2. Power BI se abre en el explorador. Seleccione **Obtener datos** en la parte inferior de la barra de navegación de la izquierda.
+1. [Inicie sesión en Power BI](https://www.powerbi.com/). ¿No tiene una cuenta? No se preocupe, puede registrarse para obtener una versión de prueba gratuita.
+2. Power BI se abre en el explorador. Seleccione **Obtener datos** en la parte inferior del panel de navegación.
 
     Se abre la página **Obtener datos**.   
 
@@ -73,7 +72,7 @@ En este tutorial, obtenemos los datos de un archivo CSV. ¿Desea seguir adelante
 
     ![Lienzo de informe en blanco](media/service-get-started/power-bi-service-blank-report.png)
 
-7. Observe que en la barra de navegación superior hay una opción **Vista de lectura**. Como tiene esta opción, significa que actualmente se encuentra en la vista de edición. Una excelente manera de familiarizarse con el editor de informes es [dar un paseo](service-the-report-editor-take-a-tour.md).
+7. Observe que en el panel de navegación superior hay una opción **Vista de lectura**. Como tiene esta opción, significa que actualmente se encuentra en la vista de edición. Una excelente manera de familiarizarse con el editor de informes es [dar un paseo](service-the-report-editor-take-a-tour.md).
 
     ![Opción Vista de lectura](media/service-get-started/power-bi-service-reading-view.png)
 
@@ -115,13 +114,13 @@ Ahora que se ha conectado a los datos, empiece a explorar.  Cuando encuentre alg
    
 8. Seleccione el nuevo icono en el panel para volver al informe. Power BI le devuelve al informe en la vista de lectura. 
 
-1. Para volver a la vista de edición, seleccione los puntos suspensivos (...) en la barra de navegación superior > **Editar**. Una vez en la vista de edición, puede seguir explorando y anclando iconos.
+1. Para volver a la vista de edición, seleccione **Más opciones** (...) en el panel de navegación superior > **Editar**. Una vez en la vista de edición, puede seguir explorando y anclando iconos.
 
     ![Seleccione Editar para editar el informe.](media/service-get-started/power-bi-service-edit-report.png)
 
 ## <a name="step-3-explore-with-qa"></a>Paso 3: Explorar con Preguntas y respuestas
 
-Para realizar una exploración rápida de los datos, pruebe a formular una pregunta en el cuadro Preguntas y respuestas. Preguntas y respuestas crea consultas en lenguaje natural sobre los datos. En un panel, el cuadro de Preguntas y respuestas se encuentra en la parte superior (**Pregunte algo sobre sus datos**). En un informe, está en la barra de navegación superior (**Hacer una pregunta**).
+Para realizar una exploración rápida de los datos, pruebe a formular una pregunta en el cuadro Preguntas y respuestas. Preguntas y respuestas crea consultas en lenguaje natural sobre los datos. En un panel, el cuadro de Preguntas y respuestas se encuentra en la parte superior (**Pregunte algo sobre sus datos**). En un informe, está en el panel de navegación superior (**Hacer una pregunta**).
 
 1. Para volver al panel, seleccione **Mi área de trabajo** en la barra negra de **Power BI**.
 
@@ -152,7 +151,7 @@ Para realizar una exploración rápida de los datos, pruebe a formular una pregu
 
 1. Ancle también el gráfico de barras al panel **Ejemplo financiero para el tutorial**.
 
-1. En el cuadro Preguntas y respuestas, coloque el cursor después de *por mes* y escriba *como línea*. Seleccione **línea (Tipo de visualización)**. 
+1. En el cuadro Preguntas y respuestas, coloque el cursor después de *por mes* y escriba *como línea*. Seleccione **línea (Tipo de visualización)** . 
 
     ![Visualización del gráfico como línea](media/service-get-started/power-bi-service-qanda-as-line.png)
 
@@ -198,9 +197,9 @@ Aquí tiene última interacción que observar, antes de empezar a crear sus prop
 ## <a name="clean-up-resources"></a>Limpieza de recursos
 Ahora que ya hemos finalizado el tutorial, podemos eliminar el conjunto de datos, el informe y el panel. 
 
-1. En la barra de navegación izquierda, asegúrese de que se encuentra en **Mi área de trabajo**.
+1. En el panel de navegación, asegúrese de que se encuentra en **Mi área de trabajo**.
 2. Seleccione la pestaña **Conjuntos de datos** y, luego, busque el conjunto de datos que ha importado en el tutorial.  
-3. Seleccione el botón de puntos suspensivos (...) > **Eliminar**.
+3. Seleccione **Más opciones** (...) > **Eliminar**.
 
     ![Eliminación del conjunto de datos](media/service-get-started/power-bi-service-delete-dataset.png)
 

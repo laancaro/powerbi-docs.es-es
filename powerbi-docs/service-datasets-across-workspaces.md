@@ -2,7 +2,6 @@
 title: Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
 description: Obtenga información sobre cómo se puede compartir un conjunto de datos con usuarios en toda la organización. Después, podrán crear informes basados en el conjunto de datos en sus propias áreas de trabajo.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e086cc89a24760bce0c4a45efd558dc47495bd04
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877195"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
 
@@ -62,7 +61,7 @@ Las características y experiencias específicas basadas en funciones de conjunt
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-- Como publicador de la aplicación, debe asegurarse de que la audiencia tenga acceso a los conjuntos de usuarios fuera del área de trabajo de la aplicación. De lo contrario, los usuarios experimentarán problemas al interactuar con la aplicación: los informes no se abrirán sin acceso al conjunto de datos y los iconos del panel aparecerán bloqueados. Además, los usuarios no podrán abrir la aplicación si el primer elemento de su navegación es un informe sin acceso al conjunto de elementos.
+- Como publicador de la aplicación, tiene que asegurarse de que la audiencia tenga acceso a los conjunto de datos fuera del área de trabajo. De lo contrario, los usuarios experimentarán problemas al interactuar con la aplicación: los informes no se abrirán sin acceso al conjunto de datos y los iconos del panel aparecerán bloqueados. Además, los usuarios no podrán abrir la aplicación si el primer elemento de su navegación es un informe sin acceso al conjunto de elementos.
 - Para crear un informe sobre un conjunto de datos en otra área de trabajo se requiere la nueva experiencia de área de trabajo en ambos extremos: El informe y el conjunto de datos deben estar en una nueva experiencia de área de trabajo.
 - En un área de trabajo clásica, la experiencia de detección de conjunto de datos solo muestra los conjuntos de datos de esa área de trabajo.
 - De manera predeterminada, "Publicar en la web" no funciona para un informe basado en un conjunto de datos compartido.
@@ -73,4 +72,4 @@ Las características y experiencias específicas basadas en funciones de conjunt
 - [Promoción de los conjuntos de datos](service-datasets-promote.md)
 - [Certificación de los conjuntos de datos](service-datasets-certify.md)
 - [Control del uso de conjuntos de datos entre áreas de trabajo](service-datasets-admin-across-workspaces.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

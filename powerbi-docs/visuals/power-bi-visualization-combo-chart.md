@@ -2,7 +2,6 @@
 title: Gráficos combinados en Power BI
 description: Este tutorial acerca de los gráficos combinados explica cuándo utilizarlos y cómo se crean en el servicio Power BI y Power BI Desktop.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: lnv66cTZ5ho
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 97c01966750d888f3420d265eb3f252b3a8f57d3
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195082"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880939"
 ---
 # <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
 
@@ -36,7 +35,7 @@ Los gráficos combinados son una excelente opción:
 * Para ahorrar espacio en el lienzo.
 
 ### <a name="prerequisites"></a>Requisitos previos
-En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
    
@@ -67,7 +66,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
     c. Seleccione **Time** \> **FiscalMonth** para agregarlo al área **Eje**.
 
     ![Ejemplo de tutorial combinado](media/power-bi-visualization-combo-chart/combotutorial1new.png)
-5. Haga clic en los puntos suspensivos (...) de la esquina superior derecha de la visualización y seleccione **Ordenar por > MesFiscal**. Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**. En este ejemplo, se usará **Orden ascendente**.
+5. Seleccione **Más opciones** (...) en la esquina superior derecha de la visualización y, después, seleccione **Ordenar por > FiscalMonth** (MesFiscal). Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**. En este ejemplo, se usará **Orden ascendente**.
 
 6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **Gráfico de columnas apiladas y de líneas** y **Gráfico de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
 

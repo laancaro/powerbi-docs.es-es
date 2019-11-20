@@ -2,7 +2,6 @@
 title: Impresión desde el servicio Power BI
 description: Impresión de un panel, un icono o una página de informe desde el servicio Power BI.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 4e211677026d66b89631063cf07e38ce1e46ee10
-ms.sourcegitcommit: 7a0ce2eec5bc7ac8ef94fa94434ee12a9a07705b
+ms.openlocfilehash: ec633b5e41936363663736807979dc08f50820b1
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/18/2019
-ms.locfileid: "71100196"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862761"
 ---
 # <a name="printing-from-the-power-bi-service"></a>Impresión desde el servicio Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Imprima todo un panel, un icono de panel, una página de informe o un objeto visual de informe desde el servicio Power BI. Solo se puede imprimir una página de informe a la vez; no es posible imprimir todo el informe de una vez.
 
    > [!NOTE]
@@ -37,7 +39,7 @@ Imprima todo un panel, un icono de panel, una página de informe o un objeto vis
 
 ## <a name="print-a-dashboard-tile"></a>Imprimir un icono de panel
 1. Abra el panel en [modo de pantalla completa](end-user-focus.md) al seleccionar el icono de pantalla completa ![icono de pantalla completa](./media/end-user-print/power-bi-full-screen-icon.png) en la barra de menús superior.
-3. [Abra el icono en modo de enfoque](end-user-focus.md) al mantener el mouse para que aparezcan los puntos suspensivos (...) y seleccionar **Abrir en modo de enfoque** o el icono de enfoque ![icono de enfoque](./media/end-user-print/power-bi-focus-icon.png).
+3. [Abra el icono en modo de enfoque](end-user-focus.md); para ello, mantenga el puntero hasta que aparezca **Más opciones** (...) y seleccione **Abrir en modo de enfoque** o el icono de enfoque ![Icono de enfoque](./media/end-user-print/power-bi-focus-icon.png).
    
     ![Menú del botón de puntos suspensivos](./media/end-user-print/power-bi-menu-options.png)
 4. Mantenga el mouse sobre el icono para que se muestren las opciones de menú.
@@ -79,5 +81,5 @@ Los informes se pueden imprimir una página a la vez.
 ## <a name="next-steps"></a>Pasos siguientes
 [Uso compartido de paneles e informes con compañeros y otros usuarios](../service-share-dashboards.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

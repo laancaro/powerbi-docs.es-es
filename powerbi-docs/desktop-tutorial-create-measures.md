@@ -2,7 +2,6 @@
 title: 'Tutorial: Creación de medidas propias en Power BI Desktop'
 description: 'Tutorial: Creación de medidas propias en Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 306738f4df765638c591c9612adf885facdceda0
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: ade9c163c017b13b0524c66f67f7a27378dc4b80
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513898"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865942"
 ---
 # <a name="tutorial-create-your-own-measures-in-power-bi-desktop"></a>Tutorial: Creación de medidas propias en Power BI Desktop
 Puede crear algunas de las soluciones de análisis de datos más eficaces en Power BI Desktop mediante el uso de medidas. Las medidas ayudan al realizar cálculos con los datos a medida que se interactúa con los informes. Este tutorial le ayudará a entender las medidas y a crear sus medidas básicas propias en Power BI Desktop.
@@ -23,7 +22,7 @@ Puede crear algunas de las soluciones de análisis de datos más eficaces en Pow
 ### <a name="prerequisites"></a>Requisitos previos
 - Este tutorial está destinado a usuarios de Power BI que ya están familiarizados con el uso de Power BI Desktop para crear modelos más avanzados. Debe estar familiarizado con el uso de la obtención de datos y del editor de consultas para importar datos, trabajar con varias tablas relacionadas y agregar campos al lienzo del informe. Si no está familiarizado con Power BI Desktop, asegúrese de revisar [Introducción a Power BI Desktop](desktop-getting-started.md).
   
-- Descargue el archivo de [ejemplo de ventas de Contoso para Power BI Desktop](http://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que incluye datos de ventas en línea de la compañía ficticia Contoso, Inc. Estos datos se importaron desde una base de datos, por lo que no podrá conectarse al origen de datos ni verlos en el Editor de consultas. Extraiga el archivo en su propio equipo y, luego, ábralo en Power BI Desktop.
+- Descargue el archivo de [ejemplo de ventas de Contoso para Power BI Desktop](https://download.microsoft.com/download/4/6/A/46AB5E74-50F6-4761-8EDB-5AE077FD603C/Contoso%20Sales%20Sample%20for%20Power%20BI%20Desktop.zip), que incluye datos de ventas en línea de la compañía ficticia Contoso, Inc. Estos datos se importaron desde una base de datos, por lo que no podrá conectarse al origen de datos ni verlos en el Editor de consultas. Extraiga el archivo en su propio equipo y, luego, ábralo en Power BI Desktop.
 
 ## <a name="understand-measures"></a>Información sobre las medidas
 
@@ -60,7 +59,7 @@ Cuando crea su propia medida, se agrega a la lista de campos de la tabla que sel
 
 Desea analizar las ventas netas a través de restar los descuentos y las devoluciones de los importes de ventas totales. Para cualquier contexto que exista en la visualización, necesita una medida que reste la suma de DiscountAmount y ReturnAmount de la suma de SalesAmount. No hay ningún campo para las ventas netas en la lista de campos, pero tiene los bloques de creación para crear su propia medida y calcular las ventas netas. 
 
-1.  Haga clic con el botón derecho en la tabla **Sales** de la lista de campos, o bien mantenga el puntero sobre la tabla, seleccione los puntos suspensivos (…) **Más opciones** y, luego, seleccione **Nueva medida**. Esto guardará la medida nueva en la tabla Sales, donde será más fácil de encontrar.
+1.  Haga clic con el botón derecho en la tabla **Sales** de la lista de campos, o bien mantenga el puntero sobre la tabla, seleccione **Más opciones** (...) y, luego, seleccione **Nueva medida**. Esto guardará la medida nueva en la tabla Sales, donde será más fácil de encontrar.
     
     ![Nueva medida](media/desktop-tutorial-create-measures/meastut_netsales_newmeasure.png)
     

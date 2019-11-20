@@ -2,7 +2,6 @@
 title: 'Ejemplo de análisis de minoristas para Power BI: Dar un paseo'
 description: 'Ejemplo de análisis de minoristas para Power BI: Dar un paseo'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/02/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: b3adcf3ba97e83875187a11116fdb7b642e5560b
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: 42e3a95e344e17d1ceba11911fc8aa349ebafd0c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962233"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73858574"
 ---
 # <a name="retail-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de minoristas para Power BI: Dar un paseo
 
@@ -54,11 +53,11 @@ Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Po
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el ejemplo de análisis de minoristas como un [archivo .pbix](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop. 
+Como alternativa, puede descargar el ejemplo de análisis de minoristas como un [archivo .pbix](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop. 
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529778). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529778). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="start-on-the-dashboard-and-open-the-report"></a>Iniciar el panel y abrir el informe
 
@@ -78,7 +77,7 @@ Si desea ver el origen de datos de este ejemplo, también está disponible como 
 
    El distrito **FD-01** tiene el mayor promedio de **ventas por pie cuadrado**, mientras que el distrito FD-02 tiene la menor **desviación de ventas totales** en comparación con el año pasado. FD-03 y FD-04 son los que menos cumplen.
 4. Seleccione las burbujas individuales o en los otros gráficos para ver de forma transversal el impacto de las selecciones resaltado.
-5. Para volver al panel, seleccione **Ejemplo de análisis de minoristas** en la barra de navegación superior.
+5. Para volver al panel, seleccione **Ejemplo de análisis de minoristas** en el panel de navegación superior.
 
    ![Barra de navegación](media/sample-retail-analysis/power-bi-breadcrumbs.png)
 6. En el panel, seleccione el icono **Tiendas nuevas y existentes por ventas de este año**, que equivale a escribir *Ventas de este año* en el cuadro de pregunta Preguntas y respuestas.

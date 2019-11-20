@@ -2,19 +2,18 @@
 title: Exploración de informes en las aplicaciones móviles de Power BI
 description: Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 08/09/2019
 ms.author: mshenhav
-ms.openlocfilehash: 166b7d88e6ab55481ec56b0cf4f91628cd141bef
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "69985742"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869762"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -45,7 +44,7 @@ En las aplicaciones móviles de Power BI Mobile hay dos iconos para los informe
 > [!NOTE]
 > Al mantener el teléfono en orientación horizontal, siempre obtendrá el diseño horizontal, incluso si la página del informe tiene diseño de teléfono.
 
-Para obtener un informe desde un panel, pulse el botón de puntos suspensivos (...) en la esquina superior derecha de un icono y, después, **Abrir informe**:
+Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esquina superior derecha de un icono y, después, pulse **Abrir informe**:
   
   ![Abrir informe](./media/mobile-reports-in-the-mobile-apps/power-bi-android-open-report-tile.png)
   
@@ -59,7 +58,7 @@ Una pulsación es como un clic del mouse. Por tanto, si quiere resaltar el infor
 Al pulsar un valor de segmentación, se selecciona el valor y el resto del informe se segmenta por ese valor.
 Al pulsar un vínculo, un botón o un marcador, se producirá la acción definida por el autor del informe.
 
-Probablemente haya observado que al pulsar un objeto visual aparece un borde. En la esquina superior derecha del borde, verá un botón de puntos suspensivos (...). Si pulsa los puntos suspensivos, verá un menú de acciones que puede realizar en ese objeto visual:
+Probablemente haya observado que al pulsar un objeto visual aparece un borde. En la esquina superior derecha del borde, verá **Más opciones** (...). Si pulsa los puntos suspensivos, verá un menú de acciones que puede realizar en ese objeto visual:
 
 ![Objeto visual y menú](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
@@ -92,7 +91,7 @@ Para obtener más información, consulte el artículo sobre cómo [agregar la ob
    
    
 ### <a name="using-the-actions-in-the-report-footer"></a>Uso de las acciones en el pie de página del informe
-Desde el pie de página del informe, puede realizar varias acciones en la página del informe actual o en todo el informe. El pie de página proporciona acceso rápido a las acciones que se usan con más frecuencia. Para tener acceso a otras acciones, pulse el botón de puntos suspensivos (...):
+Desde el pie de página del informe, puede realizar varias acciones en la página del informe actual o en todo el informe. El pie de página proporciona acceso rápido a las acciones que se usan con más frecuencia. Para tener acceso a otras acciones, pulse el botón **Más opciones** (...):
 
 ![Pie de página del informe](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
@@ -105,7 +104,7 @@ Puede desplazarse entre las páginas del informe si desliza el dedo desde el bor
 - Ver todas las acciones del informe.
 
 #### <a name="all-report-actions"></a>Todas las acciones del informe
-Al pulsar el botón de puntos suspensivos (...) en el pie de página del informe, verá todas las acciones que puede realizar en un informe:
+Al pulsar el botón **Más opciones** (...) en el pie de página del informe, verá todas las acciones que puede realizar en un informe:
 
 
 ![Todas las acciones del informe](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
@@ -124,5 +123,5 @@ Es posible que **Anotar y compartir** esté desactivado si hay una [directiva de
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)
 * [Creación de versiones de informes optimizadas para teléfonos](../../desktop-create-phone-report.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

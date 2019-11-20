@@ -2,7 +2,6 @@
 title: Conexión a Azure Search con Power BI
 description: Azure Search para Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 8b7560570af4f1b459cdde8589c0afdb9194e154
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 511fb6674d84cc0d206fdb1807fcb9ebf9e41d30
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73060928"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873103"
 ---
 # <a name="connect-to-azure-search-with-power-bi"></a>Conexión a Azure Search con Power BI
 Azure Search Traffic Analytics permite supervisar y comprender el tráfico al servicio Azure Search. El paquete de contenido de Azure Search para Power BI proporciona información detallada sobre los datos de búsqueda, que incluye la búsqueda, la indexación, las estadísticas del servicio y la latencia de los últimos 30 días. Puede encontrar más detalles en la [entrada de blog de Azure](https://azure.microsoft.com/blog/analyzing-your-azure-search-traffic/).
@@ -25,7 +24,7 @@ Azure Search Traffic Analytics permite supervisar y comprender el tráfico al se
 Conéctese al [paquete de contenido de Azure Search](https://app.powerbi.com/getdata/services/azure-search) para Power BI.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
-1. Seleccione **Obtener datos** en la parte inferior del panel de navegación izquierdo.
+1. Seleccione **Obtener datos** en la parte inferior del panel de navegación.
    
    ![](media/service-connect-to-azure-search/pbi_getdata.png) 
 2. En el cuadro **Servicios** , seleccione **Obtener**.

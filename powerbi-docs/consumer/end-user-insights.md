@@ -2,7 +2,6 @@
 title: Ejecución y visualización de conclusiones en los iconos del panel
 description: Como usuario final de Power BI, aprenda cómo obtener conclusiones sobre los iconos del panel.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 9/22/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c157a486b66180de1299144e670210559a53258a
-ms.sourcegitcommit: 3885ae11e695f875a82c212ca157e401db8337c4
+ms.openlocfilehash: ab37c806aaf3cd666c71dc22ee1f3d4d457647e0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/24/2019
-ms.locfileid: "71207577"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863401"
 ---
 # <a name="view-data-insights-on-dashboard-tiles-with-power-bi"></a>Visualización de conclusiones de datos en los iconos del panel con Power BI
 Cada [icono](end-user-tiles.md) de objeto visual del panel es una puerta de entrada a la exploración de datos. Cuando se selecciona un icono, se abre un informe o las [Preguntas y respuestas](end-user-q-and-a.md), donde puede filtrar y ordenar, así como profundizar en el conjunto de datos subyacente al informe. Y al extraer información, Power BI realiza la exploración de datos por usted.
@@ -31,7 +30,7 @@ La característica de información detallada se basa en un creciente [conjunto d
 Al extraer información en un icono de panel, Power BI busca solo los datos utilizados para crear ese icono de panel único. 
 
 1. [Abra un panel](end-user-dashboards.md).
-2. Mantenga el puntero encima de un icono. Seleccione el botón de puntos suspensivos (...) y elija **Ver información**. 
+2. Mantenga el puntero encima de un icono. Seleccione **Más opciones** (...) y elija **Ver información**. 
 
     ![modo del menú de puntos suspensivos](./media/end-user-insights/power-bi-hovers.png)
 

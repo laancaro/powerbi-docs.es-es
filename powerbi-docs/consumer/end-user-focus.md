@@ -2,7 +2,6 @@
 title: 'Modo de enfoque y modo de pantalla completa: cómo acercar para ver más detalles'
 description: Documentación para mostrar un icono panel, un icono de panel, un informe o un objeto visual del informe de Power BI en el modo de enfoque o en el modo de pantalla completa
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: dtdLul6otYE
 ms.service: powerbi
@@ -11,14 +10,16 @@ ms.topic: conceptual
 ms.date: 09/23/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: a52fdbefabf84df22c89b0e933d56352fedf5da1
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 633aaf4bd06634f0b1cc7eb2dd38b56eec0cfaf0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71327799"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852743"
 ---
 # <a name="display-content-in-more-detail-focus-mode-and-full-screen-mode"></a>Mostrar el contenido con más detalle: modo de enfoque y modo de pantalla completa
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]    
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dtdLul6otYE" frameborder="0" allowfullscreen></iframe>
 
@@ -36,7 +37,7 @@ El modo de enfoque y el modo de pantalla completa son dos maneras diferentes par
 
 ![Panel en modo de pantalla completa antes y después](media/end-user-focus/power-bi-dashboards-focus.png)
 
-Visualice el contenido del servicio Power BI (paneles, páginas de informes, iconos y objetos visuales) sin la distracción de los menús y las barras de navegación.  En todo momento se disfruta de una vista completa sin adulterar del contenido con un solo vistazo. Esto a veces se conoce como modo de televisión.   
+Visualice el contenido del servicio Power BI (paneles, páginas de informes, iconos y objetos visuales) sin la distracción de los menús y los paneles de navegación.  En todo momento se disfruta de una vista completa sin adulterar del contenido con un solo vistazo. Esto a veces se conoce como modo de televisión.   
 
 Para abrir el modo de pantalla completa, seleccione el icono de **pantalla completa** ![icono de pantalla completa ](media/end-user-focus/power-bi-full-screen-icon.png) en la barra de menús del servicio Power BI encima del panel, el informe, el icono en modo de enfoque o el objeto visual en modo de enfoque.  El contenido seleccionado ocupa toda la pantalla.
 Si usa Power BI para dispositivos móviles, [la pantalla completa está disponible para las aplicaciones móviles de Windows 10](./mobile/mobile-windows-10-app-presentation-mode.md). 
@@ -58,7 +59,7 @@ En el modo de enfoque, un *consumidor* de Power BI puede interactuar con todos l
 
 ## <a name="working-in-full-screen-mode"></a>Trabajar en modo de pantalla completa
 
-Para abrir un panel o la página de un informe en el modo de pantalla completa, seleccione el icono de pantalla completa ![icono de pantalla completa](media/end-user-focus/power-bi-full-screen-icon.png) en la barra de navegación superior. Una vez que esté en modo de pantalla completa, al mover el ratón o el cursor, aparece un menú contextual. Puesto que ya está disponible el modo de pantalla completa para tal amplia variedad de contenido, las opciones del menú contextual son un poco distintas, pero no necesitan mucha explicación.  Simplemente mantenga el ratón sobre un icono para obtener una definición.
+Para abrir un panel o la página de un informe en el modo de pantalla completa, seleccione el icono de pantalla completa ![icono de pantalla completa](media/end-user-focus/power-bi-full-screen-icon.png) en el panel de navegación superior. Una vez que esté en modo de pantalla completa, al mover el ratón o el cursor, aparece un menú contextual. Puesto que ya está disponible el modo de pantalla completa para tal amplia variedad de contenido, las opciones del menú contextual son un poco distintas, pero no necesitan mucha explicación.  Simplemente mantenga el ratón sobre un icono para obtener una definición.
 
 Menú de paneles    
 ![Menú de paneles](media/end-user-focus/power-bi-full-screen-dash.png)    
@@ -97,11 +98,11 @@ Hay dos formas de abrir el modo de enfoque: una para los iconos de panel y otra 
 
 1. Abra un panel en el servicio Power BI.
 
-2. Mantenga el puntero sobre un icono de panel o un objeto visual del informe, seleccione el botón de puntos suspensivos (...) y elija **Abrir en modo de enfoque**.
+2. Mantenga el puntero sobre un icono del panel o un objeto visual del informe, seleccione **Más opciones** (...) y elija **Abrir en modo de enfoque**.
 
     ![menú de puntos suspensivos del icono](media/end-user-focus/power-bi-dashboard-focus.png).
 
-2. El icono se abre y pasa a ocupar todo el lienzo del informe. Tenga en cuenta que todavía tiene un panel **Filtros** que puede usar para interactuar con el objeto visual. Se puede contraer el panel **Filtros**. 
+2. El icono se abre y pasa a ocupar todo el lienzo del informe. Tenga en cuenta que todavía tiene un panel **Filtros** que puede usar para interactuar con el objeto visual. Se puede contraer el panel **Filtros**.
 
    ![Icono que rellena el lienzo del informe](media/end-user-focus/power-bi-focus-filter.png)
 

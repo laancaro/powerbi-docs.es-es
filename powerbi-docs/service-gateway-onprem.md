@@ -3,19 +3,18 @@ title: Puerta de enlace de datos local
 description: En este artículo se ofrece información general sobre la puerta de enlace de datos local para Power BI. Puede usar esta puerta de enlace para trabajar con orígenes de datos DirectQuery. También puede usar esta puerta de enlace para actualizar conjuntos de datos en la nube con datos locales.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Gateways
 ms.date: 07/15/2019
-ms.openlocfilehash: 883d5c83019df293628d096f5834c9b5c6d425b6
-ms.sourcegitcommit: 73228d0a9038b8369369c059ad06168d2c5ff062
+ms.openlocfilehash: b01a3ef5832541822aa9311df14289285f601b2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/02/2019
-ms.locfileid: "68730292"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872436"
 ---
 # <a name="what-is-an-on-premises-data-gateway"></a>¿Qué es una puerta de enlace de datos local?
 
@@ -42,13 +41,13 @@ Hay dos tipos de puertas de enlace diferentes, cada una para un escenario distin
 Hay cuatro pasos principales para usar una puerta de enlace.
 
 1. [Descargar e instalar la puerta de enlace](/data-integration/gateway/service-gateway-install) en un equipo local.
-2. [Configurar](/data-integration/gateway/service-gateway-app) la puerta de enlace según el firewall y otros requisitos de red.
-3. [Agregar administradores de puerta de enlace](/data-integration/gateway/service-gateway-manage) que también pueden otros requisitos de red.
-4. [Solucionar los problemas](service-gateway-onprem-tshoot.md) de la puerta de enlace en caso de errores.
+1. [Configurar](/data-integration/gateway/service-gateway-app) la puerta de enlace según el firewall y otros requisitos de red.
+1. [Agregar administradores de puerta de enlace](/data-integration/gateway/service-gateway-manage) que también pueden otros requisitos de red.
+1. [Usar la puerta de enlace](service-gateway-sql-tutorial.md) para actualizar un origen de datos local.
+1. [Solucionar los problemas](service-gateway-onprem-tshoot.md) de la puerta de enlace en caso de errores.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Instalación de la puerta de enlace de datos local](/data-integration/gateway/service-gateway-install)
 
-
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

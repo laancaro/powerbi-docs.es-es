@@ -2,7 +2,6 @@
 title: La nueva experiencia de filtro en los informes de Power BI
 description: Los filtros de Power BI van a tener una nueva funcionalidad y un nuevo diseño.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e5e67863888e5bd6d611ded7a58254fe693f4bb6
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: ab7d8a34211b9cb8addd90daf2cbce7d22f10e61
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841266"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875144"
 ---
 # <a name="the-new-filter-experience-in-power-bi-reports"></a>La nueva experiencia de filtro en los informes de Power BI
 
@@ -44,7 +43,7 @@ La nueva experiencia de filtro está activada de forma predeterminada para los i
 ### <a name="turn-on-new-filters-for-an-existing-report-in-power-bi-desktop"></a>Activación de nuevos filtros para un informe existente en Power BI Desktop
 
 1. En Power BI Desktop, en un informe existente, seleccione **Archivo** > **Opciones y configuración** > **Opciones**.
-2. En la barra de navegación izquierda, en **Archivo actual**, seleccione **Configuración del informe**.
+2. En el panel de navegación, en **Archivo actual**, seleccione **Configuración de informes**.
 3. En **Experiencia de filtrado**, seleccione **Habilitar el panel de filtros actualizado y mostrar los filtros en el encabezado del objeto visual de este informe**.
 
 ### <a name="turn-on-new-filters-for-an-existing-report-in-the-service"></a>Activación de nuevos filtros para un informe existente en el servicio
@@ -238,5 +237,5 @@ Pruebe la nueva experiencia de filtro. Proporciónenos sus comentarios sobre est
 - [Filtrado y resaltado en informes](power-bi-reports-filters-and-highlighting.md)
 - [Different kinds of filters in Power BI](power-bi-report-filter-types.md) (Diferentes tipos de filtros en Power BI)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

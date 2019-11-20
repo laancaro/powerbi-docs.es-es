@@ -2,7 +2,6 @@
 title: Seguridad de nivel de fila (RLS) con Power BI
 description: Cómo configurar la seguridad de nivel de fila para conjuntos de datos importados, y DirectQuery, dentro del servicio Power BI.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.author: mblythe
 ms.date: 09/09/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 04a8c8a08d885427e9de43b719674fce4ac2ebbd
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 6ce3a65489c60cabb1dd705ce3243c4cec6abe40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71074845"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873526"
 ---
 # <a name="row-level-security-rls-with-power-bi"></a>Seguridad de nivel de fila (RLS) con Power BI
 
@@ -28,7 +27,7 @@ Puede configurar RLS para los modelos de datos que se han importado en Power BI 
 
 De forma predeterminada, el filtrado de la seguridad de nivel de fila utiliza filtros unidireccionales, independientemente de si las relaciones se establecen de forma unidireccional o bidireccional. Para habilitar manualmente un filtro cruzado bidireccional con seguridad de nivel de fila, seleccione la relación y marque la casilla de verificación **Aplicar filtro de seguridad en ambas direcciones**. Debe activar esta casilla al implementar también la seguridad de nivel de fila dinámica en el nivel del servidor, donde la seguridad de nivel de fila se basa en el nombre de usuario o el identificador de inicio de sesión.
 
-Para más información, consulte los artículos técnicos [Filtrado cruzado bidireccional con DirectQuery en Power BI Desktop](desktop-bidirectional-filtering.md) y [Protección del modelo semántico tabular de BI](http://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
+Para más información, consulte los artículos técnicos [Filtrado cruzado bidireccional con DirectQuery en Power BI Desktop](desktop-bidirectional-filtering.md) y [Protección del modelo semántico tabular de BI](https://download.microsoft.com/download/D/2/0/D20E1C5F-72EA-4505-9F26-FEF9550EFD44/Securing%20the%20Tabular%20BI%20Semantic%20Model.docx).
 
 ![Aplicar filtro de seguridad](media/service-admin-rls/rls-apply-security-filter.png)
 
@@ -70,7 +69,7 @@ Puede quitar miembros seleccionando la X junto a su nombre.
 
 Puede validar que el rol definido funciona correctamente probándolo. 
 
-1. Seleccione los **puntos suspensivos (...)** junto al rol.
+1. Seleccione **Más opciones** (...) junto al rol.
 2. Seleccione **Probar datos como rol**.
 
 ![Probar como rol](media/service-admin-rls/rls-test-role.png)
@@ -89,12 +88,12 @@ Para volver a la vista normal, seleccione **Volver a seguridad de nivel de fila*
 
 [!INCLUDE [include-short-name](./includes/rls-usernames.md)]
 
-## <a name="using-rls-with-app-workspaces-in-power-bi"></a>Uso de RLS con áreas de trabajo de la aplicación en Power BI
+## <a name="using-rls-with-workspaces-in-power-bi"></a>Uso de RLS con áreas de trabajo en Power BI
 
-Si publica un informe de Power BI Desktop en un área de trabajo de la aplicación dentro del servicio Power BI, los roles se aplican a los miembros de solo lectura. Debe indicar que los miembros solo pueden ver contenido de Power BI dentro de la configuración del área de trabajo de la aplicación.
+Si publica un informe de Power BI Desktop en un área de trabajo dentro del servicio Power BI, los roles se aplican a los miembros de solo lectura. Debe indicar que los miembros solo pueden ver contenido de Power BI dentro de la configuración del área de trabajo.
 
 > [!WARNING]
-> Si ha configurado el área de trabajo de la aplicación para que los miembros tengan permisos de edición, los roles de RLS no se aplicarán a ellos. Los usuarios podrán ver todos los datos.
+> Si ha configurado el área de trabajo para que los miembros tengan permisos de edición, los roles de RLS no se aplicarán a ellos. Los usuarios podrán ver todos los datos.
 
 ![Configuración de grupo](media/service-admin-rls/rls-group-settings.png)
 
@@ -105,4 +104,4 @@ Si publica un informe de Power BI Desktop en un área de trabajo de la aplicaci�
 ## <a name="next-steps"></a>Pasos siguientes
 [Seguridad de nivel de fila (RLS) con Power BI Desktop](desktop-rls.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

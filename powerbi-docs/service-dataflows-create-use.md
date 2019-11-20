@@ -2,7 +2,6 @@
 title: Creación y uso de flujos de datos en Power BI
 description: Obtenga información sobre cómo crear y usar flujos de datos en Power BI.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,18 +9,18 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 4507490fc2986ec7934af4c9e7417585523c7a05
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 704e073299f89859c507b3ddc6ccba0b4be03d76
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144614"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877393"
 ---
 # <a name="creating-and-using-dataflows-in-power-bi"></a>Creación y uso de flujos de datos en Power BI
 
 Con la preparación de datos avanzada disponible en **Power BI**, puede crear una colección de datos denominada flujo de datos, que puede usar después para conectarse a los datos empresariales de varios orígenes, limpiar los datos, transformarlos y cargarlos en el almacenamiento de Power BI.
 
-Un **flujo de datos** es una colección de *entidades* (las entidades son similares a las tablas) que se crean y administran en las áreas de trabajo de aplicaciones en el servicio Power BI. Puede agregar y editar entidades en el flujo de datos, así como administrar las programaciones de actualización de datos, directamente desde el área de trabajo en la que se creó el flujo de datos.
+Un **flujo de datos** es una colección de *entidades* (las entidades son similares a las tablas) que se crean y administran en las áreas de trabajo del servicio Power BI. Puede agregar y editar entidades en el flujo de datos, así como administrar las programaciones de actualización de datos, directamente desde el área de trabajo en la que se creó el flujo de datos.
 
 Una vez que ha creado un flujo de datos, puede usar **Power BI Desktop** y el **servicio Power BI** para crear conjuntos de datos, informes, paneles y aplicaciones que se basan en los datos integrados en los flujos de datos de Power BI y obtener así información detallada en las actividades empresariales.
 
@@ -36,13 +35,13 @@ Hay tres pasos principales para usar un flujo de datos:
 En las secciones siguientes, observamos cada uno de estos pasos y nos familiarizamos con las herramientas proporcionadas para completar cada paso. Comencemos.
 
 ## <a name="creating-a-dataflow"></a>Creación de un flujo de datos
-Para crear un flujo de datos, inicie el servicio Power BI en un explorador y luego seleccione un **área de trabajo de la aplicación** (los flujos de datos no están disponibles en *Mi área de trabajo* en el servicio Power BI) en el panel de navegación de la izquierda, como se muestra en la siguiente pantalla. También puede crear un área de trabajo en el que crear el flujo de datos. 
+Para crear un flujo de datos, inicie el servicio Power BI en un explorador y luego seleccione un **área de trabajo** (los flujos de datos no están disponibles en *Mi área de trabajo* en el servicio Power BI) en el panel de navegación de la izquierda, como se muestra en la siguiente pantalla. También puede crear un área de trabajo en el que crear el flujo de datos. 
 
 ![Creación de un flujo de datos en Power BI](media/service-dataflows-create-use/dataflows-create-use_02a.png)
 
-Una vez que esté en un **área de trabajo de la aplicación** donde puede crear un flujo de datos, el botón **+ Crear** aparece en la esquina superior derecha del lienzo. Seleccione el botón **+ Crear** y luego seleccione **Flujo de datos** en la lista desplegable. 
+Cuando esté en un **área de trabajo** donde pueda crear un flujo de datos, el botón **+ Crear** aparecerá en la esquina superior derecha del lienzo. Seleccione el botón **+ Crear** y luego seleccione **Flujo de datos** en la lista desplegable. 
 
-Es importante saber que hay solo *un propietario* de cualquier flujo de datos, que es la persona que lo crea. Solo el propietario puede modificar el flujo de datos. Todos los miembros del **área de trabajo de la aplicación** que tienen permisos de lectura o escritura en el área de trabajo de la aplicación donde se crea el flujo de datos pueden conectarse al flujo de datos desde **Power BI Desktop**, como se describe más adelante en este artículo.
+Es importante saber que hay solo *un propietario* de cualquier flujo de datos, que es la persona que lo crea. Solo el propietario puede modificar el flujo de datos. Todos los miembros del **área de trabajo** que tienen permisos de lectura o escritura en el área de trabajo donde se crea el flujo de datos pueden conectarse al flujo de datos desde **Power BI Desktop**, como se describe más adelante en este artículo.
 
 ![El botón + Crear en el servicio Power BI para crear un flujo de datos](media/service-dataflows-create-use/dataflows-create-use_03a.png)
 
@@ -111,7 +110,7 @@ Muy bien, ahora está listo para el siguiente paso, que es programar la frecuenc
 
 Una vez guardado el flujo de datos, desea programar la frecuencia de actualización de cada uno de los orígenes de datos conectados.
 
-Los flujos de datos de Power BI usan el proceso de actualización de datos de Power BI para mantener los datos actualizados. En el **servicio Power BI**, en la sección **Área de trabajo de la aplicación**, hay una colección de áreas donde la información puede mostrarse, incluidos los flujos de datos, tal como se muestra en la siguiente imagen.
+Los flujos de datos de Power BI usan el proceso de actualización de datos de Power BI para mantener los datos actualizados. En el **servicio Power BI**, en la sección **Área de trabajo**, hay una colección de áreas donde la información puede mostrarse, incluidos los flujos de datos, tal como se muestra en la siguiente imagen.
 
 ![Administración de flujos de datos en el servicio Power BI](media/service-dataflows-create-use/dataflows-create-use_12.png)
 
@@ -134,7 +133,7 @@ Para conectarse al flujo de datos, en Power BI Desktop, seleccione **Obtener dat
 
 ![Conexión a flujos de datos desde Power BI Desktop](media/service-dataflows-create-use/dataflows-create-use_15.png)
 
-Desde ahí, vaya al **área de trabajo de la aplicación** donde ha guardado el flujo de datos, seleccione el flujo de datos y, a continuación, seleccione en la lista las entidades que creó.
+Desde ahí, vaya al **área de trabajo** donde ha guardado el flujo de datos, seleccione el flujo de datos y, a continuación, seleccione en la lista las entidades que creó.
 
 También puede usar la **barra de búsqueda**, cerca de la parte superior de la ventana, para encontrar rápidamente el nombre de su flujo de datos o las entidades entre muchas entidades de flujo de datos.
 

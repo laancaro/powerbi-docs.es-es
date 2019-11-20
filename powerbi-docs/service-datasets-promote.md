@@ -2,7 +2,6 @@
 title: 'Promoción del conjunto de datos (versión preliminar): Power BI'
 description: Obtenga información sobre cómo promocionar el conjunto de datos, para guiar a los usuarios empresariales a conjuntos de datos de confianza y de alta calidad.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/03/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 681cd9f65713738e2b842bfa3404511f9e3a98f4
-ms.sourcegitcommit: b439ded53bfbbb58be27ecedf93d618f5158df33
+ms.openlocfilehash: 379249ac50f61df07c4adaffe53e0df29a311086
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/04/2019
-ms.locfileid: "67567350"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877130"
 ---
 # <a name="promote-your-dataset-preview"></a>Promoción del conjunto de datos (versión preliminar)
 
@@ -30,7 +29,7 @@ El conjunto de datos debe estar en un área de trabajo de la nueva experiencia d
 
 1. Vaya a la lista de conjuntos de datos en el área de trabajo.
  
-1. Seleccione el botón de puntos suspensivos (...) y después **Configuración**.
+1. Seleccione **Más opciones** (...) y **Configuración**.
 
     ![Selección de los puntos suspensivos junto al conjunto de datos](media/service-datasets-certify-promote/power-bi-dataset-settings.png)
 
@@ -55,4 +54,4 @@ El administrador de inquilinos ha identificado a usuarios de la organización qu
 ## <a name="next-steps"></a>Pasos siguientes
 
 * Más información sobre el [Uso de conjuntos de datos entre áreas de trabajo](service-datasets-across-workspaces.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

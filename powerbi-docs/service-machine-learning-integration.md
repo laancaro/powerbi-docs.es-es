@@ -2,7 +2,6 @@
 title: Integración de Azure Machine Learning en Power BI
 description: Obtenga información sobre cómo usar Machine Learning con Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/31/2019
 ms.author: davidi
 LocalizationGroup: conceptual
-ms.openlocfilehash: 9593296b0e09340fe4f62fff7a2e7722912a4216
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.openlocfilehash: 2f872825c327b8195e7a6e5516e0b533235ddc27
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259949"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872109"
 ---
 # <a name="azure-machine-learning-integration-in-power-bi"></a>Integración de Azure Machine Learning en Power BI
 
@@ -43,7 +42,7 @@ En los pasos de este artículo se describe cómo conceder un acceso de usuario d
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. Vaya a la página **Suscripciones**. Encontrará la página **Suscripciones** a través de la lista **Todos los servicios** del menú de navegación izquierdo de Azure Portal.
+2. Vaya a la página **Suscripciones**. Encontrará la página **Suscripciones** mediante la lista **Todos los servicios** del menú del panel de navegación de Azure Portal.
 
     ![Página de suscripciones a Azure](media/service-machine-learning-integration/machine-learning-integration_01.png)
 
@@ -68,7 +67,7 @@ En los pasos de este artículo se describe cómo conceder un acceso de usuario d
 
 Los científicos de datos usan principalmente Python para desarrollar e incluso implementar sus modelos de Machine Learning para el servicio Machine Learning Service.  A diferencia de Machine Learning Studio, que ayuda a automatizar la tarea de creación de un archivo de esquema para el modelo, en el caso del servicio Machine Learning Service, el científico de datos debe generar explícitamente el archivo de esquema mediante Python.
 
-Este archivo de esquema se debe incluir en el servicio web implementado para los modelos del servicio Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Vea la subsección sobre Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning. El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
+Este archivo de esquema se debe incluir en el servicio web implementado para los modelos del servicio Machine Learning. Para generar de forma automática el esquema para el servicio web, debe proporcionar un ejemplo de la entrada y salida en el script de entrada para el modelo implementado. Consulte la subsección sobre [Generación automática de esquemas de Swagger (opcional) en los modelos de implementación con la documentación del servicio Azure Machine Learning](https://docs.microsoft.com/azure/machine-learning/service/how-to-deploy-and-where#optional-automatic-schema-generation). El vínculo incluye el script de entrada de ejemplo con las instrucciones para la generación de esquemas. 
 
 En concreto, las funciones *input_sample\@* y *output_sample\@* del script de entrada hacen referencia a los formatos de ejemplo de entrada y salida de las variables *input_sample* y *output_sample*, y usan estos ejemplos para generar una especificación OpenAPI (Swagger) para el servicio web durante la implementación.
 
@@ -87,7 +86,7 @@ Al seleccionar el botón **Editar** se abre el Editor de Power Query para las en
 
 ![Editor de Power Query](media/service-machine-learning-integration/machine-learning-integration_06.png)
 
-Seleccione el botón **Conclusiones de AI** de la cinta de opciones y, a continuación, seleccione la carpeta _Modelos de Azure Machine Learning_ en el menú de navegación izquierdo. Todos los modelos de Azure ML a los que tiene acceso se recogen aquí como funciones de Power Query. Asimismo, los parámetros de entrada para el modelo de Azure ML se asignan automáticamente como parámetros de la función de Power Query correspondiente.
+Seleccione el botón **Conclusiones de AI** de la cinta de opciones y, a continuación, seleccione la carpeta _Modelos de Azure Machine Learning_ en el menú del panel de navegación. Todos los modelos de Azure ML a los que tiene acceso se recogen aquí como funciones de Power Query. Asimismo, los parámetros de entrada para el modelo de Azure ML se asignan automáticamente como parámetros de la función de Power Query correspondiente.
 
 Para invocar un modelo de Azure ML, puede especificar cualquiera de las columnas de la entidad seleccionadas como entrada del menú desplegable. También puede especificar un valor constante que se va a usar como entrada cambiando el icono de la columna a la izquierda del cuadro de diálogo de entrada.
 

@@ -2,7 +2,6 @@
 title: Área de trabajo de archivado de Power BI
 description: Área de trabajo de archivado de Power BI después de administrar al inquilino de Office 365
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/18/2019
 ms.author: mblythe
 LocalizationGroup: Administration
-ms.openlocfilehash: 891ffffd885e2b5d59cba64e6e99ce7fe3cf811b
-ms.sourcegitcommit: a6602d84c86d3959731a8d0ba39a522914f13d1a
+ms.openlocfilehash: 66bf203cad577df0c985fbd73bcab3c6d79f6a95
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "71175922"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873560"
 ---
 # <a name="power-bi-archived-workspace"></a>Área de trabajo de archivado de Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "71175922"
 
 Con Power BI, cualquier usuario puede registrarse y empezar a usar el servicio en cuestión de minutos.  Más adelante, el departamento de TI de la organización puede optar por encargarse de la administración de Power BI por los usuarios de su organización.  Si esto sucede, podrá beneficiarse de la administración central de usuarios y permisos en su organización. También puede beneficiarse de la ventaja del inicio de sesión simplificado con el mismo nombre de usuario y la contraseña que usa para otros servicios de su organización.
 
-Cualquier contenido creado antes de que el departamento de TI iniciara la administración de Power BI, se colocará en el área de trabajo de archivado de Power BI, a la que puede obtenerse acceso desde el panel de navegación izquierdo de [Power BI](https://app.powerbi.com). Debería empezar a crear el contenido nuevo de Power BI en Mi área de trabajo, que está protegido y administrado por su departamento de TI de la organización.  El área de trabajo de archivado seguirá existiendo, pero existen restricciones sobre las acciones que puede realizar en el contenido del área de trabajo de archivado.  Para quitar estas restricciones, debe migrar el contenido del área de trabajo de archivado a Mi área de trabajo, que administra el departamento de TI.
+Cualquier contenido creado antes de que el departamento de TI iniciara la administración de Power BI, se colocará en el área de trabajo de archivado de Power BI, a la que puede obtenerse acceso desde el panel de navegación de [Power BI](https://app.powerbi.com). Debería empezar a crear el contenido nuevo de Power BI en Mi área de trabajo, que está protegido y administrado por su departamento de TI de la organización.  El área de trabajo de archivado seguirá existiendo, pero existen restricciones sobre las acciones que puede realizar en el contenido del área de trabajo de archivado.  Para quitar estas restricciones, debe migrar el contenido del área de trabajo de archivado a Mi área de trabajo, que administra el departamento de TI.
 
 ## <a name="restrictions-in-your-archived-workspace"></a>Restricciones en el área de trabajo de archivado
 
@@ -50,5 +49,5 @@ Para seguir usando Power BI, debe crear el nuevo contenido en Mi área de trabaj
 
 * **Paneles**: los paneles instalados como parte de los paquetes de contenido se vuelven a crear automáticamente cuando se vuelva a conectar al paquete de contenido en Mi área de trabajo. Si creó sus propios paneles mediante el servicio Power BI, vuelva a crear los paneles en Mi área de trabajo.
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

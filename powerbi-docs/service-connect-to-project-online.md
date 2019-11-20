@@ -2,7 +2,6 @@
 title: Conexión a Project Online con Power BI
 description: Project Online para Power BI
 author: SarinaJoan
-manager: kfile
 ms.reviewer: maggiesMSFT
 ms.service: powerbi
 ms.subservice: powerbi-template-apps
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/25/2019
 ms.author: sarinas
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 0978e87167f96b40082819764d7e3ae35e930a4b
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 941981e1f84cf3d7a74a156e4f1c88f57e061ad2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023780"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73854656"
 ---
 # <a name="connect-to-project-web-app-with-power-bi"></a>Conexión a Project Web App con Power BI
 Microsoft Project Web App es una solución flexible en línea para la administración de cartera de proyectos (PPM) y el trabajo diario. Project Web App permite a las organizaciones dar el primer paso, priorizar las inversiones de la cartera de proyectos y ofrecer el valor empresarial previsto. La aplicación de plantilla Project Web App para Power BI permite desbloquear información de Project Web App para facilitar la administración de proyectos, carteras y recursos.
@@ -24,7 +23,7 @@ Conéctese a la [aplicación de plantilla de Project Web App](https://appsource.
 
 ## <a name="how-to-connect"></a>Cómo conectarse
 
-1. Seleccione **Aplicaciones** en el panel de navegación de la izquierda > seleccione **Obtener aplicaciones** en la esquina superior derecha.
+1. Seleccione **Aplicaciones** en el panel de navegación > seleccione **Obtener aplicaciones** en la esquina superior derecha.
 
     ![Obtener aplicaciones](media/service-connect-to-project-online/GetApps.png)
 
@@ -52,7 +51,7 @@ Conéctese a la [aplicación de plantilla de Project Web App](https://appsource.
 
 9. Verá una notificación que indica que se están cargando los datos. Dependiendo del tamaño de la cuenta, puede tardar cierto tiempo. Después de que Power BI importe los datos, verá el contenido de la nueva área de trabajo. Es posible que tenga que actualizar el conjunto de datos para obtener las actualizaciones más recientes. 
 
-    Una vez que Power BI importe los datos, verá el informe con 13 páginas y el conjunto de datos en el panel de navegación de la izquierda. 
+    Una vez que Power BI importe los datos, verá el informe con 13 páginas y el conjunto de datos en el panel de navegación. 
 
 10. Cuando los informes estén listos, continúe y empiece a explorar los datos de Project Web App. La aplicación de plantilla incluye 13 informes muy completos y detallados con información general sobre carteras (6 páginas de informe), información general sobre recursos (5 páginas de informe) y el estado del proyecto (2 páginas de informe). 
 

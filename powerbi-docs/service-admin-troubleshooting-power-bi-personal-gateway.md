@@ -2,7 +2,6 @@
 title: Solución de problemas de Power BI Gateway (modo personal)
 description: Solución de problemas de Power BI Gateway (modo personal)
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: troubleshooting
 ms.date: 5/06/2019
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: 8916d92eef86be601ceb21112209ab7daa736c11
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 32413c8ae860f5c9e376f8be46290047f67231fc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543525"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873370"
 ---
 # <a name="troubleshooting-power-bi-gateway-personal-mode"></a>Solución de problemas de Power BI Gateway (modo personal)
 
@@ -128,7 +127,7 @@ Los registros **Data Management Gateway** y **PowerBIGateway** están presentes 
 ![Registros de puerta de enlace de administración de datos y PowerBIGateway](media/service-admin-troubleshooting-power-bi-personal-gateway/event-logs.png)
 
 ### <a name="fiddler-trace"></a>Seguimiento de Fiddler
-[Fiddler](http://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP. Puede ver la comunicación con el servicio Power BI desde el equipo cliente. Es posible que esta comunicación muestre errores y otra información relacionada.
+[Fiddler](https://www.telerik.com/fiddler) es una herramienta gratuita de Telerik que supervisa el tráfico HTTP. Puede ver la comunicación con el servicio Power BI desde el equipo cliente. Es posible que esta comunicación muestre errores y otra información relacionada.
 
 ![Seguimiento de Fiddler](media/service-admin-troubleshooting-power-bi-personal-gateway/fiddler.png)
 
@@ -154,5 +153,5 @@ O bien, puede ir a la carpeta Temp (%temp%) y buscar los archivos que empiezan p
 - [Solución de problemas de errores de icono](refresh-troubleshooting-tile-errors.md)  
 - [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md) 
  
-¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe a preguntar a la [comunidad de Power BI](https://community.powerbi.com/).
 

@@ -2,7 +2,6 @@
 title: Usar temas de panel en el servicio Power BI
 description: Aprenda a usar una paleta de colores personalizada y aplíquela a un panel completo en el servicio Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/22/2018
 ms.author: maggies
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8e444c78c1f6f9f3f0be1375f96f7381489cc069
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: e2793fe56df462fd5f1bd1c266b75ad14fd9b375
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61144928"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877446"
 ---
 # <a name="use-dashboard-themes-in-power-bi-service"></a>Usar temas de panel en el servicio Power BI
 Con los **temas de panel** se puede aplicar un tema de color a todo un panel, como por ejemplo, colores corporativos, colores de temporada o cualquier otro tema de color que quiera aplicar. Al aplicar un **tema de panel**, todos los objetos visuales del panel usan los colores del tema seleccionado (hay algunas excepciones que se describen más adelante en este artículo).
@@ -30,7 +29,7 @@ Si cambia los colores de los objetos visuales en el panel no afectará a los obj
 
 
 ## <a name="how-dashboard-themes-work"></a>Cómo funcionan los temas de panel
-Para empezar, abra un panel que haya creado (o para el que tenga permiso de edición) y que quiera personalizar. Seleccione los puntos suspensivos (...) y elija **Tema del panel**. 
+Para empezar, abra un panel que haya creado (o para el que tenga permiso de edición) y que quiera personalizar. Seleccione **Más opciones** (...) y elija **Tema del panel**. 
 
 ![opción Tema del panel](media/service-dashboard-themes/power-bi-dashboard-theme.png)
 

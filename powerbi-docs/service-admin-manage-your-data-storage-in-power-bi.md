@@ -1,8 +1,7 @@
 ---
 title: Administración del almacenamiento de datos en las áreas de trabajo
-description: Aprenda a administrar el almacenamiento de datos del área de trabajo individual o de la aplicación para asegurarse de que puede seguir publicando informes y conjuntos de datos.
+description: Aprenda a administrar el almacenamiento de datos en el área de trabajo individual o en la nueva para asegurarse de que puede seguir publicando informes y conjuntos de datos.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,24 +10,24 @@ ms.topic: conceptual
 ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
-ms.openlocfilehash: a46fbb0679de30e554003d858e01756b9b242b1b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61191072"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873657"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Administración del almacenamiento de datos en las áreas de trabajo de Power BI
 
-Aprenda a administrar el almacenamiento de datos del área de trabajo individual o de la aplicación para asegurarse de que puede seguir publicando informes y conjuntos de datos.
+Aprenda a administrar el almacenamiento de datos en el área de trabajo individual o en la nueva para asegurarse de que puede seguir publicando informes y conjuntos de datos.
 
-Los usuarios y las áreas de trabajo de la aplicación tienen sus propias capacidades de datos.
+Los usuarios y las nuevas áreas de trabajo tienen sus propias capacidades de datos:
 
 * Todos los usuarios tienen un almacenamiento de datos máximo de 10 GB.
-* Los usuarios con una licencia de Power BI Pro pueden crear áreas de trabajo de la aplicación con un almacenamiento de datos máximo de 10 GB cada una.
-* Un área de trabajo de la aplicación en una capacidad Premium no cuenta como almacenamiento de un usuario de Power BI Pro.
+* Los usuarios con licencia de Power BI Pro pueden crear áreas de trabajo nuevas con un almacenamiento de datos máximo de 10 GB cada una.
+* Las áreas de trabajo nuevas en la capacidad Premium no cuentan como almacenamiento para los usuarios de Power BI Pro.
 
-En el nivel del inquilino, el uso total no puede superar los 10 GB por usuario Pro en todos los usuarios Pro y áreas de trabajo de la aplicación en el inquilino.
+En el nivel del inquilino, el uso total no puede superar los 10 GB por usuario Pro para todos los usuarios Pro y áreas de trabajo del inquilino.
 
 Obtenga información sobre otras características del [modelo de precios de Power BI](https://powerbi.microsoft.com/pricing).
 
@@ -46,7 +45,7 @@ El tamaño del panel que comparta varía en función de lo que tenga anclado. Po
 
 Consulte el almacenamiento de datos que usa en su cuenta de Power BI y administre su cuenta.
 
-1. Para administrar su propio almacenamiento, vaya a **Mi área de trabajo** en el panel de navegación izquierdo.
+1. Para administrar su propio almacenamiento, vaya a **Mi área de trabajo** en el panel de navegación.
    
     ![Mi área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
 2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de le esquina superior derecha \> **Administrar almacenamiento personal**.
@@ -63,15 +62,15 @@ Consulte el almacenamiento de datos que usa en su cuenta de Power BI y administr
 
 Tenga en cuenta que usted u otra persona puede tener informes y paneles basados en un conjunto de datos. Si elimina el conjunto de datos, los informes y paneles no volverán a funcionar.
 
-## <a name="manage-your-app-workspace"></a>Administración del área de trabajo de la aplicación
-1. Seleccione la flecha situada junto a **Áreas de trabajo** \> seleccione el nombre del área de trabajo de la aplicación.
+## <a name="manage-your-workspace"></a>Administración del área de trabajo
+1. Seleccione la flecha situada junto a **Áreas de trabajo** \> y el nombre del área de trabajo.
    
-    ![Seleccionar un área de trabajo de la aplicación](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
+    ![Selección de un área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
 2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha \> **Administrar almacenamiento del grupo**.
    
     La barra superior muestra la cantidad del límite de almacenamiento del grupo que se ha usado.
    
-    ![Administrar el almacenamiento del área de trabajo de la aplicación](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
+    ![Administración del almacenamiento del área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupstorage.png)
    
     Los informes y los conjuntos de datos se dividen en dos pestañas:
    
@@ -80,7 +79,7 @@ Tenga en cuenta que usted u otra persona puede tener informes y paneles basados 
 3. Para eliminar un informe o un conjunto de datos, seleccione el ![icono de la Papelera.](media/service-admin-manage-your-data-storage-in-power-bi/pbi_deleteicon.png).
    
    > [!NOTE]
-   > Cualquier miembro, con permisos de edición, de un área de trabajo de la aplicación tiene permisos para eliminar conjuntos de datos e informes desde el área de trabajo de la aplicación.
+   > Cualquier miembro con permisos de edición de un área de trabajo tiene permiso para eliminar conjuntos de datos e informes de esta.
    > 
    > 
 
@@ -104,5 +103,5 @@ Este límite también aparece indicado dentro de **Administrar almacenamiento pe
 
  ![Supera el límite de almacenamiento](media/service-admin-manage-your-data-storage-in-power-bi/powerbi-pro-over-limit.png)
 
- ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+ ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

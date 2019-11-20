@@ -1,8 +1,7 @@
 ---
 title: Conexión a los datos de Azure Cost Management en Power BI Desktop
-description: Conéctese fácilmente a Azure y obtenga información detallada sobre la administración de costos con Power BI Desktop
+description: Conéctese fácilmente a Azure y consiga información sobre el costo y el uso de Azure con Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,21 +10,21 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 1ef9deac169873d7faee33abdae9f8f38aa09c6d
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 1a09bd706a69156066f077bfb1668dd27448bd40
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72308016"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878602"
 ---
-# <a name="connect-to-azure-cost-management-data-in-power-bi-desktop"></a>Conexión a los datos de Azure Cost Management en Power BI Desktop
+# <a name="connect-to-azure-cost-management-in-power-bi-desktop"></a>Conexión a Azure Cost Management en Power BI Desktop
 
 El conector de Azure Cost Management para Power BI Desktop se puede usar para crear informes y visualizaciones eficaces y personalizados que ayuden a comprender mejor su gasto con Azure. En la actualidad, el conector de Azure Cost Management admite clientes con un [Contrato de cliente de Microsoft](https://azure.microsoft.com/pricing/purchase-options/microsoft-customer-agreement/) o un [Contrato Enterprise](https://azure.microsoft.com/pricing/enterprise-agreement/).  
 
-El conector de Azure Cost Management usa OAuth 2.0 para la autenticación con Azure. Para conectarse, debe usar una cuenta de [administrador de empresa](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) para Contratos Enterprise o ser [propietario de una cuenta de facturación](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) para Contratos de cliente de Microsoft. 
+El conector de Azure Cost Management utiliza OAuth 2.0 para la autenticación con Azure e identifica a los usuarios que van a usar el conector. Los tokens generados en este proceso son válidos durante un período específico. Power BI conserva el token para el siguiente inicio de sesión. OAuth 2.0 es un estándar para este proceso que se ejecuta en segundo plano y garantiza que estos permisos se administran de forma segura. Para conectarse, debe usar una cuenta de [Administrador de organización](https://docs.microsoft.com/azure/billing/billing-understand-ea-roles) para contratos Enterprise o una [Cuenta de propietario de facturación](https://docs.microsoft.com/azure/billing/billing-understand-mca-roles) para los contratos de cliente de Microsoft. 
 
 > [!NOTE]
-> Este conector reemplaza el conector de [Azure Cost Management (beta)](desktop-connect-azure-consumption-insights.md), disponible previamente. Los informes creados con el conector anterior deben volver a crearse con este.
+> Este conector reemplaza a los conectores de [Azure Consumption Insights (beta) y Azure Cost Management (beta)](desktop-connect-azure-consumption-insights.md) que antes estaban disponibles. Los informes creados con el conector anterior deben volver a crearse con este.
 
 ## <a name="connect-using-azure-cost-management"></a>Conectar mediante Azure Cost Management
 
@@ -47,7 +46,7 @@ Para conectarse con una cuenta de **Contrato de cliente de Microsoft**, puede ob
 1.  En [Azure Portal](https://portal.azure.com/), vaya a **Administración de costos + facturación**.
 2.  Seleccione su perfil de facturación. 
 3.  En **Configuración** en el menú, seleccione **Propiedades** en la barra lateral.
-4.  En **Perfil de facturación**, copie el valor de **Id.** 
+4.  En el **perfil de Facturación**, copie el **id**. 
 5.  En **Elegir ámbito**, seleccione **Id. del perfil de facturación** y pegue el identificador de perfil de facturación del paso anterior. 
 6.  Escriba el número de meses y seleccione **Aceptar**.
 

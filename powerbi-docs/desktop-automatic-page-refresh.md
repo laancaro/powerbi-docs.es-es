@@ -2,7 +2,6 @@
 title: Actualización automática de la página en Power BI Desktop (versión preliminar)
 description: Obtenga información sobre cómo actualizar automáticamente páginas de orígenes de DirectQuery en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 546dffe20d6840544eca1360945482630a686069
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 4c2217495ee8b735bc600c9b803897a408495472
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307993"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73878770"
 ---
 # <a name="automatic-page-refresh-in-power-bi-desktop-preview"></a>Actualización automática de la página en Power BI Desktop (versión preliminar)
 
@@ -112,7 +111,7 @@ Las **capacidades** son un concepto básico de Power BI que representa un conju
 
 En la capacidad compartida, las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes. Como la capacidad debe compartir recursos, se imponen ciertas limitaciones para garantizar un "*juego limpio*", como establecer un tamaño de modelo máximo (1 GB) y una frecuencia de actualización diaria máxima (ocho veces al día).
 
-Las **áreas de trabajo** de Power BI residen en las capacidades y son contenedores de seguridad, de colaboración y de implementación. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Se pueden crear áreas de trabajo adicionales para permitir la colaboración y la implementación, y se denominan **áreas de trabajo de la aplicación**. Las áreas de trabajo, incluidas las personales, se crean de forma predeterminada en la **capacidad compartida**.
+Las **áreas de trabajo** de Power BI residen en las capacidades y son contenedores de seguridad, de colaboración y de implementación. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Se pueden crear áreas de trabajo adicionales para permitir la colaboración y la implementación; estas se denominan **áreas de trabajo**. Las áreas de trabajo, incluidas las personales, se crean de forma predeterminada en la **capacidad compartida**.
 
 Estos son algunos detalles de estos dos escenarios de área de trabajo:
 

@@ -3,18 +3,17 @@ title: Orígenes de datos insertados para informes paginados en el servicio Powe
 description: En este artículo, obtendrá información sobre cómo crear y modificar un origen de datos insertado en un informe paginado en el servicio Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: 4dda73794c888d89ad67f1af23bfb8c38eb43f61
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020802"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875302"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI
 
@@ -72,7 +71,7 @@ Consulte [Datos del informe en el Generador de informes de Power BI](report-bui
 
 Los informes paginados que se conectan a los conjuntos de datos de Power BI siguen las reglas para los conjuntos de datos compartidos en Power BI con algunos cambios menores.  Para que los usuarios puedan ver correctamente los informes paginados con conjuntos de datos de Power BI, así como para garantizar que la seguridad en el nivel de fila (RLS) esté habilitada y que se aplique a los usuarios, asegúrese de que sigue estas reglas:
 
-### <a name="classic-apps-and-app-workspaces"></a>Aplicaciones y áreas de trabajo de aplicación clásicos
+### <a name="classic-apps-and-workspaces"></a>Aplicaciones y áreas de trabajo clásicas
 
 - .rdl en la misma área de trabajo que el conjunto de datos (mismo propietario): Admitido
 - .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido
@@ -82,7 +81,7 @@ Los informes paginados que se conectan a los conjuntos de datos de Power BI sig
 - .rdl en una misma área de trabajo distinta a la del conjunto de datos (usuario distinto): necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
 - Seguridad en el nivel de rol: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos para aplicarla.
 
-### <a name="new-experience-apps-and-app-workspaces"></a>Nueva experiencia de aplicaciones y áreas de trabajo de aplicación
+### <a name="new-experience-apps-and-workspaces"></a>Nueva experiencia de aplicaciones y áreas de trabajo
 
 - .rdl en la misma área de trabajo que el conjunto de datos: Admitido
 - .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido

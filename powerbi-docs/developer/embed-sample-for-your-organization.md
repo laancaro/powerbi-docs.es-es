@@ -3,19 +3,18 @@ title: Análisis integrado para insertar contenido de Power BI en su aplicación
 description: Obtenga información sobre cómo integrar o insertar un informe (Power BI o paginado), un panel o un icono en una aplicación mediante las API de Power BI para análisis integrados para la organización. Aprenda a integrar Power BI en su aplicación mediante software de análisis integrado, herramientas de análisis integrado o herramientas de inteligencia empresarial integrada.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: tutorial
 ms.custom: seodec18
 ms.date: 07/29/2019
-ms.openlocfilehash: 15c16e2e065148666eee6c67a511c5e412bc334e
-ms.sourcegitcommit: b602cdffa80653bc24123726d1d7f1afbd93d77c
+ms.openlocfilehash: 3a217ebd1b6450c76ebf25ad5154293566d955f6
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/03/2019
-ms.locfileid: "70237393"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876002"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-organization"></a>Tutorial: Insertar contenido de Power BI en una aplicación para la organización
 
@@ -45,7 +44,7 @@ Si no tiene una suscripción a Azure, cree una [cuenta gratuita](https://azure.m
 
 Antes de empezar a insertar informes, paneles o iconos en la aplicación, debe asegurarse de que su entorno permita la inserción con Power BI.
 
-Puede seguir los pasos de la [herramienta de configuración de integración](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que sirve para crear un entorno e insertar un informe. En el caso de insertar un informe paginado, debe asignar al menos un capacidad P1 al área de trabajo de la aplicación creada.
+Puede seguir los pasos de la [herramienta de configuración de integración](https://aka.ms/embedsetup/UserOwnsData) para empezar a trabajar rápidamente y descargar una aplicación de ejemplo que sirve para crear un entorno e insertar un informe. En el caso de insertar un informe paginado, debe asignar al menos una capacidad P1 al área de trabajo creada.
 
 Si prefiere configurar el entorno manualmente, siga los pasos que se indican más adelante.
 
@@ -57,13 +56,13 @@ Tiene que continuar con el registro de una **aplicación web del lado servidor**
 
 ## <a name="set-up-your-power-bi-environment"></a>Configuración del entorno de Power BI
 
-### <a name="create-an-app-workspace"></a>Crear área de trabajo de la aplicación
+### <a name="create-a-workspace"></a>Creación de un área de trabajo
 
-Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo de la aplicación. Existen distintos tipos de áreas de trabajo que se pueden configurar: las [áreas de trabajo tradicionales](../service-create-workspaces.md) o las [áreas de trabajo nuevas](../service-create-the-new-workspaces.md).
+Si va a insertar informes, paneles o iconos para los clientes, tiene que colocar el contenido en un área de trabajo. Existen distintos tipos de áreas de trabajo que se pueden configurar: las [áreas de trabajo tradicionales](../service-create-workspaces.md) o las [áreas de trabajo nuevas](../service-create-the-new-workspaces.md).
 
 ### <a name="create-and-publish-your-power-bi-reports"></a>Creación y publicación de informes de Power BI
 
-Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después, puede publicar esos informes en un área de trabajo de la aplicación. El usuario final que publique los informes deberá tener una licencia de Power BI Pro para publicar en un área de trabajo de la aplicación.
+Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después, puede publicar esos informes en un área de trabajo. El usuario final que publique los informes deberá tener una licencia de Power BI Pro para publicar en un área de trabajo.
 
 1. Descargue la [demostración](https://github.com/Microsoft/powerbi-desktop-samples) de ejemplo de GitHub.
 
@@ -73,7 +72,7 @@ Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después
 
    ![Ejemplo de informe de Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-027.png)
 
-3. Publíquelo en el área de trabajo de la aplicación.
+3. Publíquelo en el área de trabajo.
 
    ![Publicación de un informe de Power BI Desktop](media/embed-sample-for-your-organization/embed-sample-for-your-organization-028.png)
 
@@ -83,7 +82,7 @@ Con Power BI Desktop puede crear informes y conjuntos de datos propios. Después
    
 ### <a name="create-and-publish-your-paginated-reports"></a>Creación y publicación de informes paginados
 
-Puede crear los informes paginados con el [Generador de informes de Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Después, puede [cargar el informe](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) a un área de trabajo de la aplicación asignada al menos a una capacidad P1. El usuario final que cargue el informe necesita tener una licencia de Power BI Pro para publicar en un área de trabajo de la aplicación.
+Puede crear los informes paginados con el [Generador de informes de Power BI](../paginated-reports-report-builder-power-bi.md#create-reports-in-power-bi-report-builder). Después, puede [cargar el informe](../paginated-reports-quickstart-aw.md#upload-the-report-to-the-service) a un área de trabajo asignada al menos a una capacidad P1. El usuario final que cargue el informe necesita tener una licencia de Power BI Pro para publicar en un área de trabajo.
    
 ## <a name="embed-your-content-by-using-the-sample-application"></a>Inserción del contenido mediante la aplicación de ejemplo
 
@@ -118,7 +117,7 @@ Para obtener **applicationId**, siga estos pasos:
 
 1. Inicie sesión en [Azure Portal](https://portal.azure.com).
 
-2. En el panel de navegación izquierdo, elija **Todos los servicios** y seleccione **Registros de aplicaciones**.
+2. En el panel de navegación izquierdo, seleccione **Todos los servicios** y seleccione **Registros de aplicaciones**.
 
 3. Seleccione la aplicación que necesite el valor **applicationId**.
 
@@ -130,7 +129,7 @@ Para obtener **applicationId**, siga estos pasos:
 
 ### <a name="workspace-id"></a>Id. del área de trabajo
 
-Rellene la información del valor **workspaceId** con el GUID del área de trabajo de la aplicación (grupo) de Power BI. Puede obtener esta información de la dirección URL cuando inicie sesión en el servicio Power BI o mediante Powershell.
+Rellene la información del valor **workspaceId** con el GUID del área de trabajo (grupo) de Power BI. Puede obtener esta información de la dirección URL cuando inicie sesión en el servicio Power BI o mediante Powershell.
 
 URL <br>
 
@@ -376,11 +375,11 @@ function updateEmbedReport() {
 
 ## <a name="using-a-power-bi-premium-dedicated-capacity"></a>Uso de una capacidad dedicada de Power BI Premium
 
-Ahora que ya ha terminado de desarrollar la aplicación, es el momento de proporcionar una capacidad dedicada al área de trabajo de la aplicación.
+Ahora que ya ha terminado de desarrollar la aplicación, es el momento de proporcionar una capacidad dedicada al área de trabajo.
 
 ### <a name="create-a-dedicated-capacity"></a>Crear una capacidad dedicada
 
-Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo de la aplicación. En el caso de los informes paginados, debe hacer una copia de seguridad del área de trabajo de la aplicación con al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../service-premium-what-is.md).
+Al crear una capacidad dedicada, puede aprovechar las ventajas de disponer de un recurso dedicado para el contenido del área de trabajo. En el caso de los informes paginados, debe asignar al área de trabajo al menos una capacidad P1. Puede crear una capacidad dedicada mediante [Power BI Premium](../service-premium-what-is.md).
 
 En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Microsoft Office 365](../service-admin-premium-purchase.md):
 
@@ -399,9 +398,9 @@ En la tabla siguiente se enumeran las SKU de Power BI Premium disponibles en [Mi
 > - Cuando intente realizar la inserción con aplicaciones de Microsoft Office, puede usar las SKU de EM para acceder a contenido con una licencia gratuita de Power BI. Pero no puede acceder al contenido con una licencia gratuita de Power BI cuando se usa Powerbi.com o Power BI Mobile.
 > - Cuando intente realizar la inserción con aplicaciones de Microsoft Office mediante Powerbi.com o Power BI Mobile, puede acceder al contenido con una licencia gratuita de Power BI.
 
-### <a name="assign-an-app-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo de aplicación a la capacidad dedicada
+### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo a una capacidad dedicada
 
-Después de crear una capacidad dedicada, puede asignar el área de trabajo de la aplicación a esa capacidad dedicada. Para completar este proceso, siga estos pasos:
+Después de crear una capacidad dedicada, puede asignar el área de trabajo a esa capacidad dedicada. Para completar este proceso, siga estos pasos:
 
 1. En el servicio Power BI, expanda las áreas de trabajo y haga clic en el botón de puntos suspensivos del área de trabajo en la que quiera insertar el contenido. A continuación, seleccione **Editar áreas de trabajo**.
 
@@ -411,9 +410,9 @@ Después de crear una capacidad dedicada, puede asignar el área de trabajo de l
 
     ![Asignación de una capacidad dedicada](media/embed-sample-for-your-organization/embed-sample-for-your-organization-024.png)
 
-3. Después de hacer clic en **Guardar**, debería ver un rombo junto al nombre del área de trabajo de la aplicación.
+3. Después de seleccionar **Guardar**, debería ver un rombo junto al nombre del área de trabajo.
 
-    ![Área de trabajo de la aplicación asociada a una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
+    ![área de trabajo vinculada a una capacidad](media/embed-sample-for-your-organization/embed-sample-for-your-organization-037.png)
 
 ## <a name="admin-settings"></a>Configuración de administración
 
@@ -429,4 +428,4 @@ En este tutorial, ha obtenido información sobre cómo insertar contenido de Pow
 > [!div class="nextstepaction"]
 >[Insertar para los clientes](embed-sample-for-customers.md)
 
-Si tiene más preguntas, [pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/).
+Si tiene más preguntas, [pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/).

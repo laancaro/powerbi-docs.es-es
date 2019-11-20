@@ -2,7 +2,6 @@
 title: Cómo anclar un icono a un panel desde Preguntas y respuestas
 description: Documentación sobre cómo anclar un icono a un panel de Power BI desde el cuadro de preguntas de Preguntas y respuestas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 33598798104d88f3044a6689effa54e9b4256274
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61139716"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872809"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
@@ -52,9 +51,9 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
    ![Panel con iconos](media/service-dashboard-pin-tile-from-q-and-a/power-bi-pinned.png)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-* Cuando comience a escribir una pregunta, Preguntas y respuestas comienza a buscar inmediatamente la mejor respuesta en todos los conjuntos de datos asociados al panel actual.  El "panel actual" es el que aparece en la barra de navegación superior. Por ejemplo, se formula esta pregunta en el panel **Ejemplo de análisis de venta directa** que forma parte del área de trabajo de la aplicación **mihart**.
+* Cuando comience a escribir una pregunta, Preguntas y respuestas comienza a buscar inmediatamente la mejor respuesta en todos los conjuntos de datos asociados al panel actual.  El "panel actual" es el que aparece en el panel superior. Por ejemplo, esta pregunta se formula en el panel **Ejemplo de análisis de minoristas**, que forma parte del área de trabajo **mihart**.
 
-  ![Rutas de navegación](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
+  ![Rutas de navegación](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
 * ¿**Cómo Preguntas y respuestas sabe qué conjuntos de datos usar**?  Preguntas y respuestas tiene acceso a todos los conjuntos de datos que tengan al menos una visualización anclada a ese panel.
 
 * ¿**No ve el cuadro de pregunta**? Póngase en contacto con el administrador de Power BI. El administrador tiene la capacidad de deshabilitar Preguntas y respuestas.
@@ -64,4 +63,4 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
 [Cambiar el nombre, cambiar el tamaño, agregar un hipervínculo, cambiar la posición del icono, etc](service-dashboard-edit-tile.md)    
 [Mostrar el icono de panel en modo de Enfoque](consumer/end-user-focus.md)     
 [Volver a Preguntas y respuestas en Power BI](consumer/end-user-q-and-a.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

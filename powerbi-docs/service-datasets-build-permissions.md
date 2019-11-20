@@ -2,7 +2,6 @@
 title: Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
 description: Obtenga información acerca de cómo puede mantener el control sobre quién tiene acceso a los datos mediante el permiso de compilación.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 069ec5e0c767bcfcb0a4a41c2180ae78146800f2
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020906"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872558"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
 
@@ -29,7 +28,7 @@ Puede conceder el permiso de compilación para un conjunto de datos de varias ma
 
 - Los miembros de un área de trabajo con, al menos, un rol Colaborador tienen automáticamente permiso de compilación para conjuntos de datos en esa área de trabajo, así como permiso para copiar un informe.
  
-- Los miembros del área de trabajo en la que reside el conjunto de datos puede asignar el permiso a usuarios o grupos de seguridad específicos en el Centro de permisos. Si forma parte del área de trabajo, seleccione los puntos suspensivos (…) junto al conjunto de datos > **Administrar permisos**.
+- Los miembros del área de trabajo en la que reside el conjunto de datos puede asignar el permiso a usuarios o grupos de seguridad específicos en el Centro de permisos. Si es miembro del área de trabajo, seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
     ![Selección de los puntos suspensivos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
@@ -50,11 +49,11 @@ Puede quitar el permiso de compilación de un usuario para un conjunto de datos.
 En algún momento, es posible que tenga que quitar el permiso de compilación para algunos usuarios de un conjunto de datos compartido. 
 
 1. En un área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
-1. Seleccione los puntos suspensivos (...) junto al conjunto de datos > **Administrar permisos**.
+1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
     ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Seleccione los puntos suspensivos (...) junto a un nombre > **Quitar compilación**.
+1. Seleccione **Más opciones** (...) junto a un nombre > **Quitar compilación**.
 
     ![Eliminación del permiso de compilación](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -80,11 +79,11 @@ Supongamos que ha distribuido una aplicación desde un área de trabajo a un gru
 1. Seleccione **Actualizar**.
 
 1. En el área de trabajo, vaya a la página de la lista **Conjuntos de datos**. 
-1. Seleccione los puntos suspensivos (...) junto al conjunto de datos > **Administrar permisos**.
+1. Seleccione **Más opciones** (...) junto al conjunto de datos > **Administrar permisos**.
 
     ![Administrar permisos](media/service-datasets-build-permissions/power-bi-dataset-permissions-new-look.png)
 
-1. Seleccione los puntos suspensivos (...) junto a su nombre > **Quitar compilación**.
+1. Seleccione **Más opciones** (...) junto al nombre > **Quitar compilación**.
 
     ![Eliminación del permiso de compilación](media/service-datasets-build-permissions/power-bi-dataset-remove-build-permissions.png)
 
@@ -103,4 +102,4 @@ Puede quitar los permisos de compilación. Si lo hace, los usuarios cuyos permis
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Uso de conjuntos de datos entre áreas de trabajo (versión preliminar)](service-datasets-across-workspaces.md)
-- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Comparación de Power BI Desktop y el servicio Power BI
 description: Power BI Desktop es una herramienta de creación de informes y análisis de datos completa. El servicio Power BI es un servicio en línea basado en la nube que sirve para editar un informe superficialmente y fomentar la colaboración en los equipos y las empresas.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: e2985f4a27d8471bcfce80d40f2263e2be07d38c
-ms.sourcegitcommit: d441d350504f8c6d9e100d229757add6237f0bef
+ms.openlocfilehash: 39b95708b95144ba77a3b33b8ee15f913ae7ca2b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "73064362"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879011"
 ---
 # <a name="comparing-power-bi-desktop-and-the-power-bi-service"></a>Comparación de Power BI Desktop y el servicio Power BI
 
@@ -38,7 +37,7 @@ Tanto en la aplicación como en el servicio se pueden crear y editar *informes*.
 
 Los editores de informes en Power BI Desktop y en el servicio Power BI son similares. Constan de tres secciones:  
 
-1. Las barras de navegación superiores, que son distintas en Power BI Desktop y en el servicio Power BI    
+1. Los paneles de navegación superiores, que son distintos en Power BI Desktop y en el servicio Power BI    
 2. El lienzo del informe     
 3. Los paneles **Campos**, **Visualizaciones** y **Filtros**
 

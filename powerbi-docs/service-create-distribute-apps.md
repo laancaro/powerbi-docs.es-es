@@ -2,19 +2,18 @@
 title: Publicación de una aplicación en Power BI
 description: Obtenga información sobre cómo publicar las aplicaciones nuevas, que son colecciones de paneles e informes con navegación integrada.
 author: maggiesMSFT
-manager: kfile
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 08/15/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7aa9ec22eec07632a071b5ffaadfe06f221897d7
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 622d01632b9c9cbe6203090b3ac2149d4bc94474
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020222"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853642"
 ---
 # <a name="publish-an-app-in-power-bi"></a>Publicación de una aplicación en Power BI
 
@@ -115,7 +114,7 @@ Puede personalizar aún más la navegación de aplicación si:
 * Cambia el nombre de los elementos en **Detalles del informe**, **Detalles del panel** y **Detalles del libro**.
 * Oculta elementos concretos en el panel de navegación.
 * Usa la opción **Nueva** para agregar **secciones** para agrupar contenido relacionado.
-* Usa la opción **Nuevo** para agregar un **vínculo** a un recurso externo en el panel de navegación de la izquierda. 
+* Usa la opción **Nuevo** para agregar un **vínculo** a un recurso externo en el panel de navegación. 
 
 Cuando se agrega un **vínculo**, en **Detalles del vínculo** puede elegir dónde se abre el vínculo. De forma predeterminada los vínculos se abren en la **Pestaña actual**, pero puede seleccionar **Nueva pestaña** o **Área de contenido**. 
 
@@ -179,7 +178,7 @@ Cualquier miembro de un área de trabajo puede cancelar la publicación de la ap
 >Cuando cancela la publicación de una aplicación, los usuarios de la aplicación pierden sus personalizaciones. Pierden todos los marcadores personales, comentarios o suscripciones asociados al contenido de la aplicación. Cancele la publicación de una aplicación solo si es necesario quitarla.
 > 
 
-* En un área de trabajo, seleccione el botón de puntos suspensivos (**…**) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
+* En un área de trabajo, seleccione el botón de puntos suspensivos ( **…** ) en la esquina superior derecha > **Cancelar publicación de la aplicación**.
   
      ![Cancelar publicación de la aplicación](media/service-create-distribute-apps/power-bi-app-unpublish.png)
 
@@ -187,7 +186,7 @@ Esta acción desinstala la aplicación para todos los usuarios para los que se h
 
 ## <a name="view-your-published-app"></a>Visualización de la aplicación publicada
 
-Cuando los consumidores de la aplicación la abran, verán el panel de navegación que ha creado, en lugar del panel de navegación izquierdo estándar de Power BI. La navegación de la aplicación enumera los informes y paneles en las secciones que haya definido. También se muestran las páginas individuales de cada informe, no solo el nombre del informe.
+Cuando los consumidores de la aplicación la abran, verán el panel de navegación que ha creado, en lugar del panel de navegación estándar de Power BI. La navegación de la aplicación enumera los informes y paneles en las secciones que haya definido. También se muestran las páginas individuales de cada informe, no solo el nombre del informe.
 
 ![Aplicación con navegación](media/service-create-distribute-apps/power-bi-new-apps-navigation.png)
 
@@ -203,4 +202,4 @@ Aspectos que hay que tener en cuenta sobre la publicación de aplicaciones:
 * [Instalar y usar aplicaciones en Power BI](consumer/end-user-apps.md)
 * [Conectarse a los servicios con los paquetes de contenido de Power BI](service-connect-to-services.md)
 * [Portal de administración de Power BI](https://docs.microsoft.com/power-bi/service-admin-portal)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: Configuración de actualización programada
 description: Esta sección abarca los pasos para seleccionar una puerta de enlace y configurar la actualización programada.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: mblythe
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 46f61d2fcce21e3f8e6dae83c32457414928faee
-ms.sourcegitcommit: 206806d8ddb6bdfc322c1a46fb34a1b0678acba2
+ms.openlocfilehash: 89f8b3d609b9433cc85d8af709eec828f924ad8e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "66816617"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73860693"
 ---
 # <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 
@@ -30,7 +29,7 @@ Se describen las opciones disponibles tanto para [Puerta de enlace de datos loca
 
 Para llegar a la pantalla **Actualización programada**, puede hacer lo siguiente.
 
-1. Seleccione los **puntos suspensivos (...)** junto a uno de los conjuntos de datos que aparecen en **Conjuntos de datos**.
+1. Seleccione los **Más opciones** (...) junto a uno de los conjuntos de datos que aparecen en **Conjuntos de datos**.
 2. Seleccione **Programar actualización**.
 
     ![Programar actualización](media/refresh-scheduled-refresh/dataset-menu.png)
@@ -127,5 +126,5 @@ A veces, la actualización de datos no funciona según lo previsto. Normalmente 
 - [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 - [Solución de problemas de Power BI Gateway - Personal](service-admin-troubleshooting-power-bi-personal-gateway.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

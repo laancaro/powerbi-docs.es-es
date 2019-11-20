@@ -1,8 +1,7 @@
 ---
-title: Usar el analizador de rendimiento para examinar el rendimiento del elemento de informe en Power BI Desktop
-description: Descubra cómo funcionan los objetos visuales y elementos de informe en cuanto a la capacidad de respuesta y el uso de recursos
+title: Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes en Power BI Desktop
+description: Descubra qué hacen los objetos visuales y los elementos de informe en términos de uso de recursos y capacidad de respuesta
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,74 +9,74 @@ ms.topic: conceptual
 ms.date: 05/15/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 1851e0a55bf01073a6591f64de43830a72eca89b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65854422"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73866423"
 ---
-# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Usar el analizador de rendimiento para examinar el rendimiento del elemento de informe
+# <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes
 
-En **Power BI Desktop** puede encontrar fuera cómo funcionan cada uno de los elementos del informe, como los objetos visuales y las fórmulas DAX. Mediante el **Performance Analyzer**, puede ver y registro de los registros que medir cada uno de los elementos del informe rendimiento cuando los usuarios interactuar con ellos, y qué aspectos de su rendimiento se consumen muchos recursos (o más).
+En **Power BI Desktop** puede averiguar cómo se están desarrollando cada uno de los elementos de informe, como los objetos visuales y las fórmulas DAX. Con el **Analizador de rendimiento**, puede ver y grabar registros que midan la forma en que cada uno de los elementos del informe funciona cuando los usuarios interactúan con ellos, y cuáles son los aspectos de su rendimiento que utilizan la mayor (o menor) cantidad de recursos.
 
 ![Analizador de rendimiento](media/desktop-performance-analyzer/performance-analyzer-01.png)
 
-Analizador de rendimiento inspecciona y muestra el tiempo necesario para actualizar o actualizar todos los objetos visuales que iniciar interacciones del usuario y presenta la información para que pueda ver, explorar en profundidad o exportar los resultados. Analizador de rendimiento puede ayudarle a identificar los objetos visuales que afectan al rendimiento de los informes e identificar el motivo del impacto.
+El Analizador de rendimiento inspecciona y muestra la duración necesaria para actualizar todos los objetos visuales que inician las interacciones de usuario,además presenta la información para que pueda ver, explorar en profundidad o exportar los resultados. El Analizador de rendimiento puede ayudarle a identificar los objetos visuales que afectan al rendimiento de los informes y reconocer el motivo que puede estar repercutiendo en este rendimiento.
 
-## <a name="displaying-the-performance-analyzer-pane"></a>Mostrar el panel del analizador de rendimiento
+## <a name="displaying-the-performance-analyzer-pane"></a>Visualización del panel del Analizador de rendimiento
 
-En **Power BI Desktop** seleccione la **vista** cinta de opciones. En el **mostrar** área de la **vista** cinta de opciones que puede seleccionar la casilla de verificación junto a **Performance Analyzer** para mostrar el panel del analizador de rendimiento.
+En **Power BI Desktop** seleccione la cinta de opciones **Ver**. En el área **Mostrar** de la cinta de opciones **Ver** puede seleccionar la casilla situada junto a **Analizador de rendimiento** para mostrar el panel del Analizador de rendimiento.
 
-![Seleccione el analizador de rendimiento en la cinta de opciones de vista](media/desktop-performance-analyzer/performance-analyzer-02.png)
+![En la cinta de opciones Ver, seleccione Analizador de rendimiento](media/desktop-performance-analyzer/performance-analyzer-02.png)
 
-Una vez seleccionado, el analizador de rendimiento se muestra en su propio panel, a la derecha del lienzo del informe.
+Una vez seleccionado, el Analizador de rendimiento se muestra en su propio panel, a la derecha del lienzo del informe.
 
-## <a name="using-performance-analyzer"></a>Con el analizador de rendimiento
+## <a name="using-performance-analyzer"></a>Uso del Analizador de rendimiento
 
-Las medidas del analizador de rendimiento (incluido el tiempo para crear o actualizar un objeto visual) el tiempo de procesamiento necesario para actualizar produce como resultado ninguna interacción del usuario que es el resultado de ejecutar una consulta de elementos de informe. Por ejemplo, ajustar una segmentación de datos requiere la visual de segmentación de datos que desea modificar, una consulta para enviarse al modelo de datos y los objetos visuales afectados que se deben actualizar como resultado de la nueva configuración. 
+El Analizador de rendimiento mide el tiempo de procesamiento necesario (incluido el tiempo para crear o actualizar un objeto visual) para actualizar los elementos de informe iniciados como resultado de cualquier interacción del usuario que tenga como resultado la ejecución de una consulta. Por ejemplo, ajustar una segmentación requiere que se modifique el objeto visual de la segmentación, una consulta que se va a enviar al modelo de datos y los objetos visuales afectados que tienen que actualizarse como resultado de la nueva configuración. 
 
-Para que el analizador de rendimiento de iniciar la grabación, simplemente seleccione **iniciar la grabación**
+Para que el Analizador de rendimiento empiece a grabar, simplemente seleccione **Iniciar grabación**
 
 ![Iniciar grabación](media/desktop-performance-analyzer/performance-analyzer-03.png)
 
-Cualquier acción que realizar en el informe se muestran y se registran en el panel del analizador de rendimiento, en el orden en que se carga el objeto visual por Power BI. Por ejemplo, quizás tiene un informe que los usuarios han dicho que tarda mucho tiempo en actualizar. O algunos de los objetos visuales en un informe tardan mucho tiempo que se muestra cuando se ajusta un control deslizante. Analizador de rendimiento puede indicar a qué objeto visual es el culpable, así que identifica qué aspectos del objeto visual está tardando más tardan en completarse para procesar. 
+Cualquier acción que se lleve a cabo en el informe se muestra y se registra en el panel del Analizador de rendimiento, en el mismo orden en el que Power BI carga el objeto visual. Por ejemplo, los usuarios han comentado que hay un informe que tarda mucho tiempo en actualizarse. O que ciertos objetos visuales de un informe tardan mucho tiempo en mostrarse cuando se ajusta un control deslizante. El Analizador de rendimiento puede indicarle qué tipo objeto visual es el culpable, identificando además los aspectos del objeto visual que tardan más tiempo en procesarse. 
 
-Una vez que comience la grabación, la **iniciar la grabación** botón se atenúa fuera (inactivo, puesto que ya haya empezado a grabación) y el **detener** botón está activo. 
+Una vez iniciada la grabación, el botón **Iniciar grabación** está atenuado (inactivo, ya que ya ha empezado a grabar) y el botón **Detener** está activo. 
 
-Analizador de rendimiento recopila y muestra la información de medición de rendimiento en tiempo real. Por lo que cada vez que haga clic en un objeto visual, mover una segmentación de datos o interactuar de cualquier otra forma, analizador de rendimiento muestra inmediatamente los resultados de rendimiento en su panel.
+El Analizador de rendimiento recopila y muestra la información de medida de rendimiento en tiempo real. Por lo tanto, cada vez que haga clic en un objeto visual, mueva una segmentación o interactúe de cualquier otra manera, el Analizador de rendimiento muestra inmediatamente los resultados de rendimiento en su panel.
 
-Si el panel tiene más información que se pueden mostrar, aparece una barra de desplazamiento para desplazarse a información adicional.
+Si el panel tiene más información de la que se puede mostrar, aparece una barra de desplazamiento para ir a la información adicional.
 
-Cada interacción tiene un identificador de la sección en el panel, que describe la acción que inició las entradas del registro. En la siguiente imagen, la interacción era que los usuarios cambiar una segmentación de datos.
+Cada interacción tiene un identificador de sección en el panel, que describe la acción que inició las entradas de registro. En la imagen siguiente, la interacción que se produjo fue que los usuarios cambiaron una segmentación.
 
-![Secciones según el tipo de interacción](media/desktop-performance-analyzer/performance-analyzer-04.png)
+![Secciones basadas en el tipo de interacción](media/desktop-performance-analyzer/performance-analyzer-04.png)
 
-Información del registro de cada objeto visual incluye el tiempo empleado (duración) para completar las siguientes categorías de tareas:
+La información de cada registro de objetos visuales incluye el tiempo empleado (duración) para completar las siguientes categorías de tareas:
 
-* **Consulta DAX** -si era necesaria una consulta de DAX, se trata de la hora entre el objeto visual que enviar la consulta y para Analysis Services devolver los resultados.
-* **Presentación visual** -tiempo necesario para que el objeto visual se va a dibujar en la pantalla, incluido el tiempo necesario para recuperar las imágenes de web o la codificación geográfica. 
-* **Otros** -tiempo requerido por el objeto visual para preparar las consultas, esperando a otros objetos visuales completar o realizando otro procesamiento en segundo plano.
+* **Consultas DAX**: si se requiere una consulta DAX, este es el tiempo transcurrido desde que el objeto visual envía la consulta hasta que Analysis Services devuelve los resultados.
+* **Presentación visual**: tiempo necesario para que el objeto visual dibuje en la pantalla, incluido el tiempo necesario para recuperar imágenes web o geocodificación. 
+* **Otros**: tiempo que el objeto visual necesita para preparar las consultas, esperar a que se completen otros objetos visuales o realizar otro procesamiento en segundo plano.
 
 ![elementos de información de registro](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
-Una vez haya interactuado con elementos del informe que desea medir con el analizador de rendimiento, puede seleccionar la **detener** botón. La información de rendimiento permanece en el panel después de seleccionar **detener** para su análisis.
+Después de haber interactuado con los elementos del informe que desea medir con el Analizador de rendimiento, puede seleccionar el botón **Detener**. La información de rendimiento permanece en el panel después de seleccionar **Detener** para su análisis.
 
-Para borrar la información en el panel del analizador de rendimiento, seleccione **borrar**. Toda la información se borra y no se guarda cuando se selecciona **clara**. Consulte la sección siguiente para obtener información sobre cómo guardar la información en los registros. 
+Para borrar la información del panel del Analizador de rendimiento, seleccione **Borrar**. Se borra toda la información y no se guarda al seleccionar **Borrar**. Vea la sección siguiente para aprender a guardar información en los registros. 
 
-## <a name="refreshing-visuals"></a>Actualizar los objetos visuales
+## <a name="refreshing-visuals"></a>Actualización de objetos visuales
 
-Puede seleccionar **actualizar objetos visuales** en el panel del analizador de rendimiento para actualizar todos los objetos visuales en la página actual del informe y, por tanto, tienen Performance Analyzer recopilar información acerca de todos los objetos visuales este tipo.
+Puede seleccionar **Actualizar objetos visuales** en el panel del Analizador de rendimiento para actualizar todos los objetos visuales de la página actual del informe, y con ello hacer que el Analizador de rendimiento recopile información sobre todos estos objetos visuales.
 
-También puede actualizar los objetos visuales individuales. Cuando se graba el analizador de rendimiento, puede seleccionar **actualizar este objeto visual** se encuentra en la esquina superior derecha de cada objeto visual, para actualizar ese objeto visual y capturar su información de rendimiento.
+También puede actualizar objetos visuales individuales. Cuando el Analizador de rendimiento está grabando, puede seleccionar **Actualizar este objeto visual**, que se encuentra en la esquina superior derecha de cada uno de los objetos visuales, para actualizar dicho objeto visual y capturar su información de rendimiento.
 
-![actualización de un objeto visual](media/desktop-performance-analyzer/performance-analyzer-07.png)
+![actualizar un solo objeto visual](media/desktop-performance-analyzer/performance-analyzer-07.png)
 
-## <a name="saving-performance-information"></a>Guardar información de rendimiento
+## <a name="saving-performance-information"></a>Almacenamiento de la información de rendimiento
 
-Puede guardar la información que se crea el analizador de rendimiento sobre un informe seleccionando el **exportar** botón. Seleccionar **exportar** crea un archivo .json con información desde el panel del analizador de rendimiento. 
+Puede guardar la información que el Analizador de rendimiento crea sobre un informe seleccionando el botón **Exportar**. Al seleccionar **Exportar**, se crea un archivo .json con información del panel del Analizador de rendimiento. 
 
-![Guarde el archivo de registro para el analizador de rendimiento](media/desktop-performance-analyzer/performance-analyzer-05.png)
+![Guarde el archivo de registro para el Analizador de rendimiento](media/desktop-performance-analyzer/performance-analyzer-05.png)
 
 
 ## <a name="next-steps"></a>Pasos siguientes

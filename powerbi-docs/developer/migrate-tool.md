@@ -3,18 +3,17 @@ title: Herramienta de migración de Power BI Embedded
 description: Esta herramienta de migración puede utilizarse para copiar los informes desde el servicio de Azure Power BI Embedded (PaaS) al servicio Power BI (SaaS).
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/30/2018
-ms.openlocfilehash: 9344a1a3dc4f682925da900cde8accfead783f88
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 2970744f89bf8fdc115be018d00c8f5b73d9ddfc
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61272246"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880572"
 ---
 # <a name="power-bi-embedded-migration-tool"></a>Herramienta de migración de Power BI Embedded
 
@@ -132,7 +131,7 @@ Se creará automáticamente una ruta de acceso. Puede cambiar esta ruta de acces
 
 #### <a name="upload-plan"></a>Plan de carga
 
-Aquí puede especificar un prefijo que se utilizará para las áreas de trabajo de la aplicación que se creará en el servicio Power BI. Después de el prefijo irá el GUID para el área de trabajo que existía en Azure.
+Aquí puede especificar un prefijo que se utilizará para las áreas de trabajo que se crearán en el servicio Power BI. Después de el prefijo irá el GUID para el área de trabajo que existía en Azure.
 
 ![Carga del plan](media/migrate-tool/migrate-tool-upload-plan.png)
 
@@ -167,21 +166,21 @@ Una vez completada la descarga, seleccione la pestaña **Create Groups** (Crear 
 
 ## <a name="step-3-create-groups"></a>Paso 3: Crear grupos
 
-Después de haber descargado los informes que están disponibles, puede ir a la pestaña **Create Groups** (Crear grupos). Esta pestaña creará las áreas de trabajo de la aplicación dentro del servicio Power BI según el plan de migración que ha creado. Se creará el área de trabajo de la aplicación con el nombre proporcionado en la pestaña **Upload** (Cargar) en **Analyze & Plan Migration** (Analizar y planear la migración).
+Después de haber descargado los informes que están disponibles, puede ir a la pestaña **Create Groups** (Crear grupos). Esta pestaña creará las áreas de trabajo dentro del servicio Power BI según el plan de migración que ha creado. Se creará el área de trabajo con el nombre proporcionado en la pestaña **Upload** (Cargar) en **Analyze & Plan Migration** (Analizar y planear la migración).
 
 ![Creación de los grupos](media/migrate-tool/migrate-tool-create-groups.png)
 
-Para crear las áreas de trabajo de la aplicación, puede seleccionar **Create Selected Groups** (Crear los grupos seleccionados) o **Create All Missing Groups** (Crear todos los grupos que faltan).
+Para crear las áreas de trabajo, puede seleccionar **Create Selected Groups** (Crear los grupos seleccionados) o **Create All Missing Groups** (Crear todos los grupos que faltan).
 
-Cuando seleccione cualquiera de estas opciones, se le solicitará iniciar sesión. *Utilice las credenciales para el servicio Power BI en el que desea crear las áreas de trabajo de la aplicación.*
+Cuando seleccione cualquiera de estas opciones, se le solicitará iniciar sesión. *Utilice las credenciales para el servicio Power BI en el que desea crear las áreas de trabajo.*
 
 ![Creación del inicio de sesión de grupo](media/migrate-tool/migrate-tool-create-group-sign-in.png)
 
-Esto creará el área de trabajo de la aplicación en el servicio Power BI. No se cargan los informes en el área de trabajo de la aplicación.
+Esto creará el área de trabajo en el servicio Power BI. Esto no carga los informes en el área de trabajo.
 
-Puede comprobar que se creó el área de trabajo de la aplicación iniciando sesión en Power BI y validando que el área de trabajo existe. Observará que no hay nada en el área de trabajo.
+Para comprobar que se creó el área de trabajo, inicie sesión en Power BI y valide que el área de trabajo existe. Observará que no hay nada en el área de trabajo.
 
-![Área de trabajo de la aplicación](media/migrate-tool/migrate-tool-app-workspace.png)
+![área de trabajo](media/migrate-tool/migrate-tool-app-workspace.png)
 
 Después de crear el área de trabajo, puede continuar en la pestaña **Upload** (Cargar).
 
@@ -235,9 +234,9 @@ Para el elemento con error, podemos cambiar el nombre de SaaSTargetReportName.
 
 A continuación, podemos volver a abrir el plan en la herramienta de migración y cargar el informe con error.
 
-Volviendo a Power BI, podemos ver que los informes y conjuntos de datos se han cargado en el área de trabajo de la aplicación.
+De vuelta en Power BI, podemos ver que los informes y conjuntos de datos se han cargado en el área de trabajo.
 
-![Carga del área de trabajo de la aplicación](media/migrate-tool/migrate-tool-upload-app-workspace.png)
+![Carga del área de trabajo](media/migrate-tool/migrate-tool-upload-app-workspace.png)
 
 <a name="upload-local-file"></a>
 
@@ -264,7 +263,7 @@ Después, puede actualizar la cadena de conexión para el conjunto de datos en e
 
 ## <a name="embedding"></a>Inserción
 
-Ahora que los informes se han migrado desde el servicio Power BI Embedded de Azure al servicio Power BI, puede actualizar la aplicación y comenzar la inserción de los informes en el área de trabajo de la aplicación.
+Ahora que los informes se han migrado desde el servicio Power BI Embedded de Azure al servicio Power BI, puede actualizar la aplicación y comenzar la inserción de los informes en el área de trabajo.
 
 Para más información, consulte [Migración de contenido de la colección de áreas de trabajo de Power BI Embedded a Power BI](migrate-from-powerbi-embedded.md).
 
@@ -278,4 +277,4 @@ Para más información, consulte [Migración de contenido de la colección de á
 [Ejemplo de inserción de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Notas del producto de Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

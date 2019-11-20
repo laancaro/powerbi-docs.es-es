@@ -2,7 +2,6 @@
 title: Creación de las nuevas áreas de trabajo en Power BI
 description: Aprenda a crear las nuevas áreas de trabajo, colecciones de paneles, informes e informes paginados compilados con el fin de proporcionar métricas clave para la organización.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/02/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 7d53acc0dc8c669026665347de9593fa1df84c62
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: bbb5eeee7422670c771f7bbfb4b051de0538a10a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020167"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877509"
 ---
 # <a name="create-the-new-workspaces-in-power-bi"></a>Creación de las nuevas áreas de trabajo en Power BI
 
@@ -74,7 +73,7 @@ Especifique qué usuarios reciben una notificación sobre los problemas que se p
 
     En el panel **Crear un área de trabajo** cuando la crea la primera vez.
 
-    En el panel de navegación izquierdo, seleccione la flecha que aparece junto a **Áreas de trabajo**, seleccione los puntos suspensivos (...) junto al nombre del área de trabajo y haga clic en **Configuración del área de trabajo**. Se abre el panel **Configuración**.
+    En el panel de navegación, seleccione la flecha que aparece junto a **Áreas de trabajo**, seleccione **Más opciones** (...) junto al nombre del área de trabajo y haga clic en **Configuración del área de trabajo**. Se abre el panel **Configuración**.
 
     ![Configuración del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -94,7 +93,7 @@ Power BI no sincroniza los permisos de los usuarios o grupos que están configu
 
     En el panel **Crear un área de trabajo** cuando la crea la primera vez.
 
-    En el panel de navegación izquierdo, seleccione la flecha que aparece junto a **Áreas de trabajo**, seleccione los puntos suspensivos (...) junto al nombre del área de trabajo y haga clic en **Configuración del área de trabajo**. Se abre el panel **Configuración**.
+    En el panel de navegación, seleccione la flecha que aparece junto a **Áreas de trabajo**, seleccione **Más opciones** (...) junto al nombre del área de trabajo y haga clic en **Configuración del área de trabajo**. Se abre el panel **Configuración**.
 
     ![Configuración del área de trabajo](media/service-create-the-new-workspaces/power-bi-workspace-new-settings.png)
 
@@ -108,7 +107,7 @@ Power BI no sincroniza los permisos de los usuarios o grupos que están configu
 
 Una vez configurada la ubicación de OneDrive, obtendrá acceso a ella de la misma manera que a otros orígenes de datos del servicio Power BI.
 
-1. En el panel de navegación izquierdo, seleccione **Obtener datos**, luego, en el cuadro **Archivos**, seleccione **Obtener**.
+1. En el panel de navegación, seleccione **Obtener datos** y, luego, en el cuadro **Archivos**, seleccione **Obtener**.
 
     ![Obtener datos, obtener archivos](media/service-create-the-new-workspaces/power-bi-get-data-files.png)
 
@@ -145,4 +144,4 @@ Lea sobre la [publicación de una aplicación desde las nuevas áreas de trabajo
 * Lea sobre la [organización del trabajo en la nueva experiencia de área de trabajo en Power BI](service-new-workspaces.md).
 * [Creación de áreas de trabajo clásicas](service-create-workspaces.md)
 * [Publicación de una aplicación desde las nuevas áreas de trabajo de Power BI](service-create-distribute-apps.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

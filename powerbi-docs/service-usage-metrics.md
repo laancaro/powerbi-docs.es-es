@@ -3,20 +3,19 @@ title: Supervisar las métricas de uso de paneles e informes
 description: Cómo ver, guardar y utilizar las métricas de uso para los informes y paneles de Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/15/2019
+ms.date: 10/21/2019
 LocalizationGroup: Dashboards
-ms.openlocfilehash: e77bfdf771e84afbc87335aa77993640d10282b0
-ms.sourcegitcommit: 4d5166944fcc6fe4666cab055ae75e7a0a77866d
+ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/16/2019
-ms.locfileid: "69530547"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871205"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
 
@@ -86,7 +85,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 
 | Métrica | panel | Informe | Descripción |
 | --- | --- | --- | --- |
-| Segmentación por método de distribución |sí |sí |Modo de acceso de los usuarios al contenido. Hay 3 métodos posibles: los usuarios pueden tener acceso al panel o informe por ser miembros de un [área de trabajo de aplicación](consumer/end-user-experience.md), por tener el contenido [compartido con ellos](service-share-dashboards.md) o al instalar una aplicación o paquete de contenido.  Observe que las vistas realizadas mediante una aplicación cuentan como "paquete de contenido". |
+| Segmentación por método de distribución |sí |sí |Modo de acceso de los usuarios al contenido. Hay tres métodos posibles: los usuarios pueden acceder al panel o al informe por ser miembros de un [área de trabajo](consumer/end-user-experience.md), por tener contenido [compartido con ellos](service-share-dashboards.md) o por instalar una aplicación o paquete de contenido.  Observe que las vistas realizadas mediante una aplicación cuentan como "paquete de contenido". |
 | Segmentación por plataforma |sí |sí |¿Se tuvo acceso al panel o informe a través del servicio Power BI (powerbi.com) o mediante un dispositivo móvil? Los dispositivos móviles incluyen todas las aplicaciones iOS, Android y Windows. |
 | Segmentación por páginas de informe |no |sí |Si el informe tiene más de una página, se segmenta el informe por las páginas que se han visto. Si ve una opción de lista de "En blanco", significa que recientemente se ha agregado una página del informe (en un plazo de 24 horas, aparece el nombre real de la nueva página en la lista de segmentación) o se han eliminado páginas del informe. "En blanco" captura estos tipos de situaciones. |
 | Vistas por día |sí |sí |Número total de vistas por día: una vista se define como la carga de una página del informe o un panel por parte del usuario. |
@@ -152,11 +151,18 @@ Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrec
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
-Es importante comprender qué diferencias pueden producirse al comparar métricas de uso y registros de auditoría y por qué. Los *registros de auditoría* se recopilan mediante datos del servicio Power BI, y las *métricas de uso* se recopilan en el cliente. Los recuentos de agregados de las actividades en los registros de auditoría podrían no coincidir siempre con las métricas de uso por los siguientes motivos:
+### <a name="discrepancies-between-audit-logs-and-usage-metrics"></a>Discrepancias entre los registros de auditoría y las métricas de uso
+
+Es importante comprender qué diferencias pueden producirse al comparar métricas de uso y registros de auditoría y por qué. Los *registros de auditoría* se recopilan utilizando datos del servicio Power BI, mientras que las *métricas de uso* se recopilan en el cliente. Los recuentos de agregados de las actividades en los registros de auditoría podrían no coincidir siempre con las métricas de uso por los siguientes motivos:
 
 * En ocasiones, las métricas de uso pueden no contar actividades debido a conexiones de red desiguales, bloqueadores de anuncios y otros problemas que pueden interrumpir el envío de los eventos desde el cliente.
 * Ciertos tipos de vistas no se incluyen en las métricas de uso, como se ha descrito anteriormente en este artículo.
 * En ocasiones, las métricas de uso pueden no contar actividades en situaciones en las que el cliente se actualiza sin necesidad de devolver una solicitud al servicio Power BI.
+
+### <a name="other-considerations"></a>Otras consideraciones
+
+Debe ver el contenido del área de trabajo, desde el interior de esa área de trabajo, al menos una vez. Si no ve el contenido del área de trabajo al menos una vez, los datos no podrán relacionarse con las vistas de la aplicación en el informe de métricas de uso. Para desbloquear el procesamiento de datos de este informe, solo tiene que ver el contenido del área de trabajo al menos una vez.
+
 
 ## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
 
@@ -188,4 +194,4 @@ Además de las posibles diferencias entre métricas de uso y registros de audito
 
 [Administración de Power BI en el portal de administración](service-admin-portal.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

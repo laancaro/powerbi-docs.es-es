@@ -2,7 +2,6 @@
 title: Creación de un panel de Power BI desde un informe
 description: Creación de un panel de Power BI desde un informe
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/17/2019
 ms.author: maggies
-ms.openlocfilehash: 6d8a6a28d72ce6d0fa6123b15f9e692ed1cc4d44
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: d67e7acf4309595e8bccac86119ea38f1a97797f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72543385"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73853406"
 ---
 # <a name="create-a-power-bi-dashboard-from-a-report"></a>Creación de un panel de Power BI desde un informe
 Ha leído [Introduction to dashboards in Power BI](service-dashboards.md) (Introducción a los paneles de Power BI) y ahora quiere crear los suyos propios. Existen diferentes formas de crear un panel. Por ejemplo, puede crear un panel a partir de un informe, desde cero, a partir de un conjunto de datos o mediante la duplicación de un panel existente.  
@@ -44,11 +43,11 @@ Vea cómo crea Amanda un nuevo panel anclando visualizaciones de un informe. A c
 ## <a name="import-a-dataset-with-a-report"></a>Importación de un conjunto de datos con un informe
 En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de ejemplo de Power BI y usarlo para crear el nuevo panel. El ejemplo que usamos es un libro de Excel con dos hojas de PowerView. Cuando Power BI importa el libro, agrega un conjunto de datos y un informe al área de trabajo. El informe se crea automáticamente a partir de las hojas de PowerView.
 
-1. Descargue el archivo de Excel del [ejemplo de análisis de adquisiciones](http://go.microsoft.com/fwlink/?LinkId=529784). Se recomienda guardarlo en OneDrive para la Empresa.
+1. Descargue el archivo de Excel del [ejemplo de análisis de adquisiciones](https://go.microsoft.com/fwlink/?LinkId=529784). Se recomienda guardarlo en OneDrive para la Empresa.
 2. Abra el servicio Power BI en el explorador (app.powerbi.com).
-3. En el panel de navegación izquierdo, seleccione **Mi área de trabajo** y, a continuación, **Obtener datos**.
+3. En el panel de navegación, seleccione **Mi área de trabajo** y, a continuación, **Obtener datos**.
 
-    ![Panel de navegación izquierdo](media/service-dashboard-create/power-bi-get-data-new-look.png)
+    ![panel de navegación](media/service-dashboard-create/power-bi-get-data-new-look.png)
 5. En **Archivos**, seleccione **Obtener**.
 
    ![Obtención de archivos](media/service-dashboard-create/power-bi-select-files.png)
@@ -63,7 +62,7 @@ En este tutorial desglosado, vamos a importar uno de los conjuntos de datos de e
    ![Mensaje de proceso correcto](media/service-dashboard-create/power-bi-view-datasetnew.png)
 
 > [!TIP]
-> ¿Sabía esto? Puede hacer más pequeña la barra de navegación izquierda: basta con seleccionar el icono con tres líneas de la parte superior ![icono para mostrar u ocultar el panel de navegación](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Esto le brinda más espacio para el propio informe.
+> ¿Sabía esto? Puede hacer más pequeño el panel de navegación: basta con seleccionar el icono con tres líneas de la parte superior ![icono para mostrar u ocultar el panel de navegación](media/service-dashboard-create/power-bi-new-look-hide-nav-pane.png). Esto le brinda más espacio para el propio informe.
 
 ### <a name="open-the-report-and-pin-tiles-to-your-dashboard"></a>Abra el informe y ancle algunos iconos en un panel
 1. En la misma área de trabajo, seleccione la pestaña **Informes** y, a continuación, seleccione **Ejemplo de análisis de adquisiciones** para abrir el informe.
@@ -118,4 +117,4 @@ Enhorabuena por crear su primer panel. Ahora que tiene un panel, puede hacer muc
 * [Power BI: Conceptos básicos](service-basic-concepts.md)
 * [Sugerencias para diseñar un panel de Power BI fantástico](service-dashboards-design-tips.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).

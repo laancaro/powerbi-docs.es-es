@@ -2,7 +2,6 @@
 title: Informes en el servicio Power BI
 description: Informes en el servicio Power BI para consumidores
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,14 +9,16 @@ ms.topic: conceptual
 ms.date: 09/05/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 21a77d585707b19cd8a3d06ad44471fac45d7178
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 3f6f534b71ba6d8e8798418275c4758a95fc6fb5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70903726"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851219"
 ---
 # <a name="reports-in-power-bi"></a>Informes en Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Un informe de Power BI es una vista de varias perspectivas de un conjunto de datos, con objetos visuales que representan diferentes hallazgos y conclusiones de ese conjunto de datos.  Un informe puede tener un solo objeto visual o páginas llenas de objetos visuales. En función de su rol de trabajo, es posible que sea alguien que *diseña* informes. También puede ser alguien que *consume* o usa informes. Este artículo es para *consumidores*.
 
@@ -27,7 +28,7 @@ A. Este informe tiene seis páginas (o pestañas) y actualmente está viendo la 
 B. En esta página hay cinco objetos visuales diferentes y un título de página.    
 C. En el panel *Filtros* se muestra un filtro aplicado a todas las páginas del informe. Para contraer el panel Filtros, seleccione la flecha ( **>** ).    
 D. En el banner de Power BI se muestra el nombre del informe y la fecha de la última actualización. Seleccione la flecha para abrir un menú que muestre también el nombre del propietario del informe.    
-E. La barra de acciones contiene las acciones que puede realizar en este informe.  Por ejemplo, puede agregar un comentario, ver un marcador o exportar datos del informe.  Seleccione los puntos suspensivos (...) para mostrar una lista de funciones de informe adicionales.    
+E. La barra de acciones contiene las acciones que puede realizar en este informe.  Por ejemplo, puede agregar un comentario, ver un marcador o exportar datos del informe.  Seleccione **Más opciones** (...) para mostrar una lista de funcionalidades adicionales del informe.    
 
 Si no está familiarizado con Power BI, puede obtener una buena base si lee [Conceptos básicos para consumidores de Power BI](end-user-basic-concepts.md). Los informes se pueden ver, compartir y anotar en dispositivos móviles. Para obtener más información, consulte [Exploración de informes en las aplicaciones móviles de Power BI](mobile/mobile-reports-in-the-mobile-apps.md).
 

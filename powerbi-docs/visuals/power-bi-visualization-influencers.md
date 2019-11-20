@@ -2,20 +2,19 @@
 title: Tutorial de visualizaciones de influenciadores clave
 description: 'Tutorial: Creación de una visualización de influenciadores clave en Power BI'
 author: mihart
-manager: kvivek
 ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 05/22/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 056457d5a90585fd30a0a85f95d28d1097c720b0
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544058"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871016"
 ---
 # <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
 
@@ -58,7 +57,7 @@ Vea este vídeo para aprender a crear un objeto visual de influenciador clave co
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-El director de producto quiere averiguar qué factores conducen a los clientes a dejar reseñas negativas sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). 
+El director de producto quiere averiguar qué factores conducen a los clientes a dejar reseñas negativas sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Seleccione cualquiera de los vínculos y, después, seleccione **Download** (Descargar) en la página de GitHub que se abre.
 
 > [!NOTE]
 > El conjunto de datos de comentarios del cliente se basa en [Moro et al., 2014] S. Moro, P. Cortez y P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." *Decision Support Systems*, Elsevier, 62:22-31, junio de 2014. 
@@ -240,7 +239,7 @@ Los segmentos principales para destinos numéricos muestran a grupos donde la ca
 
 ## <a name="analyze-a-metric-that-is-a-measure-or-a-summarized-column"></a>Análisis de una métrica que es una medida o una columna resumida
 
-En el caso de una medida o columna resumida, el análisis toma como valor predeterminado el **Tipo de análisis continuo** descrito [antes](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Esto no se puede cambiar. La diferencia más importante entre analizar una medida o columna resumida, y una columna numérica no resumida es el nivel en el que se ejecuta el análisis.
+En el caso de una medida o columna resumida, el análisis toma como valor predeterminado el **Tipo de análisis continuo** descrito [antes](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric). Esto no se puede cambiar. La diferencia más importante entre analizar una medida o columna resumida, y una columna numérica no resumida es el nivel en el que se ejecuta el análisis.
 
 En el caso de las columnas no resumidas, el análisis siempre se ejecuta en el nivel de tabla. En el ejemplo de precio de la casa anterior, se ha analizado la métrica **House Price** (Precio de la casa) para ver qué influye en el aumento o disminución del precio de una casa. El análisis se ejecuta de forma automática en el nivel de tabla. La tabla tiene un identificador único para cada casa, por lo que el análisis se ejecuta en nivel de la casa.
 
@@ -254,7 +253,7 @@ Las medidas y las columnas resumidas se analizan de forma automática en el nive
 
 Este análisis está muy resumido y, por tanto, será difícil para el modelo de regresión encontrar en los datos patrones de los que pueda aprender. Para obtener mejores resultados, el análisis se debe ejecutar en un nivel más detallado. Si se quisiera analizar el precio de la casa en el nivel de la casa, sería necesario agregar de forma explícita el campo **ID** al análisis. Pero el objetivo no es que el Id. de la casa se considere un influenciador. No resulta útil saber que a medida que aumenta el Id. de la casa aumenta su precio. Aquí es donde el campo **Expandir por** resulta útil. Puede usar **Expandir por** para agregar los campos que quiera usar para establecer el nivel del análisis sin buscar nuevos influenciadores.
 
-Observe la apariencia de la visualización después de agregar **ID** a **Expandir por**. Una vez que haya definido el nivel en el que quiere evaluar la medida, la interpretación de los influenciadores es exactamente la misma que para las [columnas numéricas no resumidas](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
+Observe la apariencia de la visualización después de agregar **ID** a **Expandir por**. Una vez que haya definido el nivel en el que quiere evaluar la medida, la interpretación de los influenciadores es exactamente la misma que para las [columnas numéricas no resumidas](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-influencers#analyze-a-metric-that-is-numeric).
 
 ![Tabla de medidas](media/power-bi-visualization-influencers/power-bi-ki-measures-analysis.png)
 

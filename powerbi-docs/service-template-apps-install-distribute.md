@@ -2,19 +2,18 @@
 title: 'Distribución de aplicaciones de plantilla en la organización: Power BI'
 description: Obtenga información sobre cómo instalar, personalizar y distribuir aplicaciones de plantilla de la organización en Power BI.
 author: teddybercovitz
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: tebercov
-ms.openlocfilehash: 660fd7c623e8a195f937a3a2b468f758986411e1
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: dcb037fdf064611947719a57316f31d901e3b81d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71195235"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871419"
 ---
 # <a name="install-and-distribute-template-apps-in-your-organization---power-bi"></a>Instalación y distribución de aplicaciones de plantilla en la organización: Power BI
 
@@ -45,7 +44,7 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
 
 ### <a name="search-appsource-from-the-power-bi-service"></a>Búsqueda en AppSource desde el servicio Power BI
 
-1. En el panel de navegación de la izquierda del servicio Power BI, haga clic en **Aplicaciones** > **Obtener aplicaciones**.
+1. En el panel de navegación del servicio Power BI, haga clic en **Aplicaciones** > **Obtener aplicaciones**.
 
     ![Obtener aplicaciones](media/service-template-apps-install-distribute/power-bi-get-apps-arrow.png)
 
@@ -57,7 +56,7 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
 
 4. En el cuadro de diálogo, haga clic en **Instalar**.
 
-    ![Instalación de una aplicación](media/service-template-apps-install-distribute/power-install-dialog.png) Si tiene una licencia de Power BI Pro, la aplicación se instala con su área de trabajo de la aplicación asociada. La aplicación se personaliza en el área de trabajo asociada.
+    ![Instalación de una aplicación](media/service-template-apps-install-distribute/power-install-dialog.png) Si tiene una licencia de Power BI Pro, la aplicación se instala con su área de trabajo asociada. La aplicación se personaliza en el área de trabajo asociada.
 
     Cuando la instalación se realice correctamente, verá una notificación en la que se indica que la nueva aplicación está lista.
 4. Haga clic en **Ir a la aplicación**.
@@ -69,9 +68,9 @@ En un explorador, haga clic en este vínculo para abrir AppSource filtrado por l
     - **Conectar datos**: cambie el origen de datos de los datos de ejemplo al suyo propio. Puede volver a definir los parámetros de conjunto de datos y las credenciales del origen de datos. Vea [Limitaciones conocidas](service-template-apps-tips.md#known-limitations) en el artículo sobre sugerencias para aplicaciones de plantilla. 
     - **Ir a área de trabajo** (opción más avanzada): puede realizar cualquier cambio permitido por el desarrollador de la aplicación.
 
-    O bien, omita este cuadro de diálogo y acceda a un área de trabajo asociada directamente a través de **Áreas de trabajo** en el panel de navegación de la izquierda.
+    O bien, omita este cuadro de diálogo y acceda a un área de trabajo asociada directamente a través de **Áreas de trabajo** en el panel de navegación.
     >[!NOTE]
-    >Instalación de una aplicación de plantilla instalada tanto en una *aplicación de organización* como en una *aplicación de área de trabajo*. Obtenga más información sobre la [distribución de aplicaciones en Power BI](service-create-distribute-apps.md).
+    >Instalación de una aplicación de plantilla instalada tanto en una *aplicación de organización* como en una *área de trabajo*. Obtenga más información sobre la [distribución de aplicaciones en Power BI](service-create-distribute-apps.md).
  
 6. Antes de compartirla con lo compañeros de trabajo, le interesará conectarse a sus propios datos. También querrá modificar el informe o el panel para que funcione para la organización. Además, en este momento puede agregar otros informes o paneles.
 

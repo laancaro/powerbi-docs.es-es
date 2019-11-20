@@ -2,7 +2,6 @@
 title: 'Error: Datos no encontrados en el libro de Excel'
 description: 'Error: Datos no encontrados en el libro de Excel'
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 04/30/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: c32133a7958c1239337a5f77a92dde098652514e
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: 08de5051adb420bc2a3b257fcc231730aa505b23
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72542860"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873397"
 ---
 # <a name="error-we-couldnt-find-any-data-in-your-excel-workbook"></a>Error: Datos no encontrados en el libro de Excel
 
@@ -61,7 +60,7 @@ Cuando se importa un libro de Excel, Power BI busca estas tablas y las importa e
    
     ![Datos con formato de tabla](media/service-admin-troubleshoot-excel-workbook-data/power-bi-troubleshoot-excel-table.png)
 6. Guarde el libro.
-7. Regrese a Power BI. Seleccione Obtener datos en la parte inferior del panel de navegación izquierdo.
+7. Regrese a Power BI. En la parte inferior del panel izquierdo, seleccione Obtener datos.
    
     ![Obtener datos](media/service-admin-troubleshoot-excel-workbook-data/power-bi-get-data.png)
 8. En el cuadro **Archivos** , seleccione **Obtener**.

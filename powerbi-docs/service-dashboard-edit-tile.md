@@ -2,7 +2,6 @@
 title: Editar un icono de panel
 description: Este tutorial trata desde la creación de un icono y su anclaje a un panel hasta la edición del icono del panel (cambiar el tamaño, mover, cambiar el nombre, anclar, eliminar, agregar hipervínculo).
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: lJKgWnvl6bQ
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c1b6f7434724540a9ad5b579030c3ed54b32abed
-ms.sourcegitcommit: 762857c8ca09ce222cc3f8b006fa1b65d11e4ace
+ms.openlocfilehash: bdd2ec136ae741e15e0cb60d141c651cd5fb6749
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "66720573"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877484"
 ---
 # <a name="edit-or-remove-a-dashboard-tile"></a>Editar o quitar un icono de panel
 
@@ -83,9 +82,9 @@ Puede hacer que los iconos tengan muchos tamaños diferentes, desde 1 x 1 unidad
 ![Vídeo](media/service-dashboard-edit-tile/pbigif_resizetile4.gif)
 
 - - -
-## <a name="the-ellipses--menu"></a>El menú del botón de puntos suspensivos (...)
+## <a name="more-options--menu"></a>Menú **Más opciones** (...)
 
-1. Seleccione los puntos suspensivos (...) en la esquina superior derecha del icono. 
+1. Seleccione **Más opciones** (...) en la esquina superior derecha del icono. 
    
    ![Icono de botón de puntos suspensivos](media/service-dashboard-edit-tile/power-bi-tile.png)
 
@@ -148,5 +147,5 @@ De forma predeterminada, la selección de un icono normalmente le lleva al infor
 
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

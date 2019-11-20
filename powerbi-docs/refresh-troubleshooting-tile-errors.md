@@ -2,7 +2,6 @@
 title: Solución de problemas de errores de icono
 description: Errores comunes que pueden producirse cuando un icono intenta actualizarse en Power BI
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,18 +10,18 @@ ms.topic: troubleshooting
 ms.date: 12/06/2018
 ms.author: mblythe
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: f6becb175b8779588ab8d203bb02256945c71ee6
-ms.sourcegitcommit: e5cf19e16112c7dad1591c3b38d232267ffb3ae1
+ms.openlocfilehash: dbae4c82fb350242ed0fefadeeec217666fc3005
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "72544290"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877500"
 ---
 # <a name="troubleshooting-tile-errors"></a>Solución de problemas de errores de icono
 A continuación se muestran los errores comunes que pueden producirse con los iconos y una explicación.
 
 > [!NOTE]
-> Si se encuentra con algún error que no se enumera a continuación y que le causa problemas, puede pedir más ayuda en el [sitio de la comunidad](http://community.powerbi.com/), o bien puede crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support/).
+> Si se encuentra con algún error que no se enumera a continuación y que le causa problemas, puede pedir más ayuda en el [sitio de la comunidad](https://community.powerbi.com/), o bien puede crear una [incidencia de soporte técnico](https://powerbi.microsoft.com/support/).
 > 
 > 
 
@@ -38,7 +37,7 @@ Póngase en contacto con el propietario del panel para asegurarse de que los or�
 
 **El administrador ha deshabilitado los objetos visuales personalizados.**
 
-Su administrador de Power BI ha deshabilitado el uso de objetos visuales personalizados para su organización o grupo de seguridad. No podrá usar objetos visuales personalizados desde [Microsoft Marketplace](https://appsource.microsoft.com/en-us/marketplace/apps?page=1&product=power-bi-visuals) ni importar objetos visuales privados desde un archivo. Solo podrá usar el conjunto de objetos visuales empaquetado previamente.
+Su administrador de Power BI ha deshabilitado el uso de objetos visuales personalizados para su organización o grupo de seguridad. No podrá usar objetos visuales personalizados desde [Microsoft Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals) ni importar objetos visuales privados desde un archivo. Solo podrá usar el conjunto de objetos visuales empaquetado previamente.
 
 
 **Las formas de datos deben contener al menos un grupo o cálculo con salida de datos. Póngase en contacto con el propietario del panel.**
@@ -67,9 +66,9 @@ Este suele ser un problema transitorio. Si vuelve a intentarlo más tarde y se s
 
 **Los iconos siguen mostrando datos sin filtrar después de habilitar el inicio de sesión único (SSO).**
 
-Esto puede ocurrir si el conjunto de datos subyacente está configurado para usar el modo DirectQuery o una conexión dinámica a Analysis Services a través de una puerta de enlace de datos local. En este caso, los iconos siguen mostrando los datos sin filtrar después de habilitar el inicio de sesión único en el origen de datos hasta que llegue el momento de la siguiente actualización de iconos. En la siguiente actualización de iconos, Power BI usa SSO según está configurado, y los iconos muestran los datos filtrados de acuerdo con la identidad del usuario. 
+Esto puede ocurrir si el conjunto de datos subyacente está configurado para usar el modo DirectQuery o una conexión dinámica a Analysis Services a través de una puerta de enlace de datos local. En este caso, los iconos siguen mostrando los datos sin filtrar después de habilitar el inicio de sesión único en el origen de datos hasta que llegue el momento de la siguiente actualización de iconos. En la siguiente actualización de iconos, Power BI usa SSO según está configurado y los iconos muestran los datos filtrados de acuerdo con la identidad del usuario. 
 
-Si quiere ver los datos filtrados inmediatamente, puede forzar la actualización de los iconos; para ello, seleccione los puntos suspensivos (...) en la parte superior derecha de un panel y, seguidamente, seleccione **Actualizar iconos de panel**.
+Si quiere ver los datos filtrados inmediatamente, puede forzar la actualización de los iconos; para ello, seleccione **Más opciones** (...) en la parte superior derecha de un panel y haga clic en **Actualizar iconos de panel**.
 
 Como propietario de un conjunto de datos, puede cambiar también la frecuencia de actualización de los iconos y establecerla en 15 minutos para adelantar la actualización de los iconos. Seleccione el icono de engranaje de la esquina superior derecha del servicio Power BI y, luego, **Configuración**. En la página **Configuración**, seleccione la pestaña **Conjuntos de datos**. Expanda **Actualización de caché programada** y cambie el valor de **Frecuencia de actualización**. Asegúrese de restablecer la configuración a la frecuencia de actualización original después de que Power BI haya realizado la siguiente actualización de iconos.
 
@@ -82,5 +81,5 @@ Si sigue teniendo problemas, [póngase en contacto con el soporte técnico](http
 ## <a name="next-steps"></a>Pasos siguientes
 [Solución de problemas con la puerta de enlace de datos local](service-gateway-onprem-tshoot.md)  
 [Solución de problemas de Power BI Personal Gateway](service-admin-troubleshooting-power-bi-personal-gateway.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

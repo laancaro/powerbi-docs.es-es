@@ -3,18 +3,17 @@ title: Uso de la seguridad de nivel de fila con contenido insertado de Power BI
 description: Obtenga información sobre los pasos necesarios para insertar contenido de Power BI en su aplicación.
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: nishalit
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/10/2019
-ms.openlocfilehash: 2e7100db05b6ace0e4d530964f645e120387a8b2
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: 3ef9bd001e17c472216e501c6d38907087219959
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073345"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875822"
 ---
 # <a name="row-level-security-with-power-bi-embedded"></a>Seguridad de nivel de fila con Power BI Embedded
 
@@ -33,7 +32,7 @@ Para aprovechar las ventajas de RLS, es importante que comprenda tres conceptos 
 **Roles**: los usuarios pertenecen a roles. Un rol es un contenedor de reglas y se puede designar algo como *Representante de ventas* o *Rep. de ventas*. Los roles se crean en Power BI Desktop. Para más información, consulte [Seguridad de nivel de fila (RLS) con Power BI Desktop](../desktop-rls.md).
 
 **Reglas**: los roles tienen reglas y esas reglas son los filtros reales que se van a aplicar a los datos. Las reglas podrían ser algo tan sencillo como "País = USA" o algo mucho más dinámico.
-En el resto de este artículo, se incluye un ejemplo de la creación de RLS y su uso dentro de una aplicación insertada. En nuestro ejemplo se usa el archivo PBIX de [ejemplo de análisis de minoristas](http://go.microsoft.com/fwlink/?LinkID=780547).
+En el resto de este artículo, se incluye un ejemplo de la creación de RLS y su uso dentro de una aplicación insertada. En nuestro ejemplo se usa el archivo PBIX de [ejemplo de análisis de minoristas](https://go.microsoft.com/fwlink/?LinkID=780547).
 
 ![Ejemplo de informe](media/embedded-row-level-security/powerbi-embedded-report-example.png)
 
@@ -73,7 +72,7 @@ Le mostramos cómo:
 
     Los informes muestran los datos como si hubiera iniciado sesión como **AndrewMa**.
 
-Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de las tablas **District**, **Store** y **Sales**. Pero, debido a la dirección del filtro en las relaciones entre las tablas **Sales** y **Time**, no se filtrarán las tablas **Sales** e **Item** e **Item** y **Time**. Para aprender más sobre filtrado cruzado bidireccional, descargue el documento técnico sobre el [filtrado cruzado bidireccional en SQL Server Analysis Services 2016 y Power BI Desktop](http://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
+Al aplicar el filtro como se ha hecho aquí, se filtran todos los registros de las tablas **District**, **Store** y **Sales**. Pero, debido a la dirección del filtro en las relaciones entre las tablas **Sales** y **Time**, no se filtrarán las tablas **Sales** e **Item** e **Item** y **Time**. Para aprender más sobre filtrado cruzado bidireccional, descargue el documento técnico sobre el [filtrado cruzado bidireccional en SQL Server Analysis Services 2016 y Power BI Desktop](https://download.microsoft.com/download/2/7/8/2782DF95-3E0D-40CD-BFC8-749A2882E109/Bidirectional%20cross-filtering%20in%20Analysis%20Services%202016%20and%20Power%20BI.docx).
 
 ## <a name="applying-user-and-role-to-an-embed-token"></a>Aplicación de usuarios y roles a un token de inserción
 
@@ -241,7 +240,7 @@ A la hora de decidir sobre el filtrado de los datos en un informe, puede usar **
 
 Los [filtros de JavaScript](https://github.com/Microsoft/PowerBI-JavaScript/wiki/Filters#page-level-and-visual-level-filters) se usan para permitir que el usuario consuma una vista de los datos con ámbito, reducida o filtrada. Sin embargo, el usuario todavía tiene acceso al esquema, las tablas, las columnas y las medidas del modelo y potencialmente puede acceder a cualquier dato que ahí exista. El acceso restringido a los datos solo se puede aplicar con RLS y no mediante las API de filtrado del lado cliente.
 
-## <a name="token-based-identity-with-azure-sql-database-preview"></a>Identidad basada en token con Azure SQL Database (versión preliminar)
+## <a name="token-based-identity-with-azure-sql-database"></a>Identidad basada en token con Azure SQL Database
 
 La **identidad basada en token** le permite especificar la identidad efectiva para un token de inserción mediante un token de acceso de **Azure Active Directory (AAD)** para una instancia de **Azure SQL Database**.
 
@@ -332,7 +331,7 @@ No se puede establecer este permiso mediante el portal de administración. Este 
 * Si el conjunto de datos subyacente es un modelo de nube (modelo en caché o DirectQuery), la identidad efectiva debe incluir al menos un rol ya que, de lo contrario, la asignación de roles no se produce.
 * Una lista de identidades habilita varios tokens de identidad para la inserción del panel. Para todos los demás artefactos, la lista contiene una sola identidad.
 
-### <a name="token-based-identity-limitations-preview"></a>Limitaciones de identidad basadas en token (versión preliminar)
+### <a name="token-based-identity-limitations"></a>Limitaciones de identidad basada en token
 
 * Esta funcionalidad limita el uso solo con Power BI Premium.
 * Esta funcionalidad no funciona con SQL Server local.

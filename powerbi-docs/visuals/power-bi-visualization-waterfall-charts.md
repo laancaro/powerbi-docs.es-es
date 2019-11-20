@@ -2,7 +2,6 @@
 title: Gráficos de cascada en Power BI
 description: Gráficos de cascada en Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 06/24/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 3ab200194d89eb15892dc4f452079eb56df8a608
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71191341"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881968"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascada en Power BI
 
@@ -24,7 +23,7 @@ ms.locfileid: "71191341"
 
 Los gráficos de cascada muestran un total acumulado a medida que Power BI agrega y resta valores. Son útiles para comprender cómo afecta una serie de cambios positivos y negativos a un valor inicial (por ejemplo, ingresos netos).
 
-Las columnas están codificadas por color para identificar rápidamente los aumentos y las disminuciones. Las columnas de valores iniciales y finales a menudo [comienzan en el eje horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "comienzan en el eje horizontal"), mientras que los valores intermedios son columnas flotantes. Debido a este estilo, los gráficos de cascada también se denominan gráficos de puente.
+Las columnas están codificadas por color para identificar rápidamente los aumentos y las disminuciones. Las columnas de los valores inicial y final a menudo [comienzan en el eje horizontal](https://support.office.com/article/Create-a-waterfall-chart-in-Office-2016-for-Windows-8de1ece4-ff21-4d37-acd7-546f5527f185#BKMK_Float "inicio en el eje horizontal"), mientras que los valores intermedios son columnas flotantes. Debido a este estilo, los gráficos de cascada también se denominan gráficos de puente.
 
    > [!NOTE]
    > En este vídeo se usa una versión anterior de Power BI Desktop.
@@ -49,7 +48,7 @@ Los gráficos de cascada son una excelente opción:
 
 ## <a name="prerequisite"></a>Requisito previo
 
-En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](http://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
+En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
 1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**.
    
@@ -76,7 +75,7 @@ Vamos a crear un gráfico de cascada que muestre la varianza de las ventas (vent
 
     ![de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
 
-1. Asegúrese de que Power BI ordenó el gráfico de cascada cronológicamente. En la esquina superior derecha del gráfico, seleccione los puntos suspensivos (...).
+1. Asegúrese de que Power BI ordenó el gráfico de cascada cronológicamente. En la esquina superior derecha del gráfico, seleccione **Más opciones** (...).
 
     En este ejemplo, seleccionaremos **Orden ascendente**.
 

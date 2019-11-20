@@ -3,17 +3,16 @@ title: Registro de diagnóstico para el servicio de Power BI Embedded en Azure |
 description: Obtenga información sobre cómo configurar el registro de diagnóstico para el servicio de Power BI Embedded en Azure.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
-ms.openlocfilehash: dc1a034a062ca07fd9f31a847378913fd7ee4002
-ms.sourcegitcommit: 76fadf20c1e19ec43aa8f9c5a5e909b567419ef6
+ms.openlocfilehash: 9065feef76050c6a04e1ecf8ec7907b74be4b0ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/17/2019
-ms.locfileid: "68289864"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875977"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registro de diagnóstico para el servicio de Power BI Embedded en Azure
 
@@ -29,7 +28,7 @@ Con los diagnósticos puede responder a ciertos escenarios, como:
 
 ### <a name="azure-portal"></a>Azure Portal
 
-1. En [Azure Portal](https://portal.azure.com) > Recurso de Power BI Embedded, seleccione **Registros de diagnóstico** en el menú de navegación de la izquierda y seleccione **Activar diagnóstico**.
+1. En el recurso [Azure Portal](https://portal.azure.com) > Power BI Embedded, seleccione **Registros de diagnóstico** en el menú de navegación de la izquierda y, después, **Activar diagnóstico**.
 
     ![Activación del registro de diagnóstico de Power BI Embedded en Azure Portal](media/azure-pbie-diag-logs/azure-pbie-diag-logs-01.png)
 

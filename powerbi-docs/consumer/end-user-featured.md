@@ -2,7 +2,6 @@
 title: Selección del panel para mostrar cuando se abra el servicio Power BI
 description: Documentación sobre cómo crear un panel destacado en el servicio Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,14 +10,17 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 7f7f488891ddbdac1f377d25cf32c2eb0468c291
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 412bcf397d550e002957e7379bf41381e8e3eea8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256303"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852534"
 ---
 # <a name="featured-dashboards-in-the-power-bi-service"></a>Paneles destacados en el servicio Power BI
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
 Muchos de los usuarios tienen un panel que visitan con más frecuencia que otros. Puede ser el panel que se usa para administrar nuestro negocio. O bien puede ser uno que contenga una agregación de iconos de muchos paneles e informes distintos.
 
 ## <a name="create-a-featured-dashboard"></a>Creación de un panel destacado
@@ -37,7 +39,7 @@ Vea en el vídeo cómo Amanda crea un panel destacado. Luego, siga los pasos par
 
 
 1. Abra el panel que quiera establecer como destacado. 
-2. En la barra de menús superior, seleccione los puntos suspensivos (...) y luego **Establecer como destacado**. 
+2. En la barra de menús superior, seleccione **Más opciones** (...) y seleccione **Establecer como destacado**. 
    
     ![Icono de Establecer como destacado](./media/end-user-featured/power-bi-dropdown.png)
 3. Confirme la selección.
@@ -58,11 +60,11 @@ Si cambia de opinión más adelante, puede establecer un nuevo panel como panel 
 Si decide que no quiere que haya ningún panel nombrado como destacado, esta es la forma de hacer que un panel deje de serlo.
 
 1. Abra el panel destacado actualmente.
-2. En la barra de menús superior, seleccione los puntos suspensivos (...) y luego **Deshabilitar como destacado**.
+2. En la barra de menús superior, seleccione **Más opciones** (...) y seleccione **Deshabilitar destacado**.
 
     ![Panel Deshabilitar como destacado seleccionado](./media/end-user-featured/power-bi-unfeature-newer.png)
    
 ## <a name="next-steps"></a>Pasos siguientes
 - [Paneles favoritos](end-user-favorite.md)
-- ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+- ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).
 

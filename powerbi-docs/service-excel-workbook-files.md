@@ -2,7 +2,6 @@
 title: Obtención de datos de archivos de libro de Excel
 description: Aprenda cómo obtener datos de archivos de libro de Excel en Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a98ccf3477a6e8e996efb0b8cb1ccf2c6728c594
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 45f3ff801b2f1bffd2396fe9f59ea32dd4b11ffb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70840969"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877060"
 ---
 # <a name="get-data-from-excel-workbook-files"></a>Obtención de datos de archivos de libro de Excel
 ![](media/service-excel-workbook-files/excel_icon.png)
@@ -83,7 +82,7 @@ Elija esta opción si solo tiene datos en hojas de cálculo o si tiene rangos, t
 En Excel 2016, también puede utilizar Publicar > Cargar. Es prácticamente lo mismo. Para más información, consulte [Publicación en Power BI desde Excel 2016](service-publish-from-excel.md).
 
 ## <a name="import-or-connect-to-an-excel-workbook-from-power-bi"></a>Importación o conexión a un libro de Excel desde Power BI
-1. En Power BI, en el panel de navegación, haga clic en **Obtener datos**.
+1. En Power BI, en el panel de navegación, haga clic en **Obtener datos**.
    
    ![](media/service-excel-workbook-files/excel_get_data_button.png)
 2. En Archivos, haga clic en **Obtener**.

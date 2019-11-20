@@ -2,7 +2,6 @@
 title: 'Tutorial: Análisis de Facebook mediante Power BI Desktop'
 description: 'Tutorial: Análisis de Facebook mediante Power BI Desktop'
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 09/06/2019
 ms.author: davidi
 LocalizationGroup: Learn more
-ms.openlocfilehash: 73f5d629806826eed0da51f5b7158d884d1c8725
-ms.sourcegitcommit: 226b47f64e6749061cd54bf8d4436f7deaed7691
+ms.openlocfilehash: 96811a2cfd7d08a210c4efd177e989abce16d25d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/09/2019
-ms.locfileid: "70841404"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876269"
 ---
 # <a name="tutorial-facebook-analytics-using-power-bi-desktop"></a>Tutorial: Análisis de Facebook mediante Power BI Desktop
 
@@ -147,7 +146,7 @@ Ahora que importó datos desde la página de Facebook, puede obtener rápida y f
    
    ![Gráfico de barras](media/desktop-tutorial-facebook-analytics/barchart1.png)
    
-4. Seleccione los puntos suspensivos (…) que se encuentran en la esquina superior derecha de la visualización y, luego, seleccione **Ordenar por número de comentarios** para mostrar primero la mayor cantidad de comentarios en la tabla. 
+4. Seleccione **Más opciones** (…) en la esquina superior derecha de la visualización y, luego, seleccione **Ordenar por número de comentarios** para mostrar los comentarios por su número en orden descendente en la tabla. 
    
    ![Ordenar por número de comentarios](media/desktop-tutorial-facebook-analytics/barchart2.png)
    
@@ -184,7 +183,7 @@ El eje X (número de comentarios) del gráfico no muestra los valores exactos y 
 
 Así está mejor, pero todas las etiquetas de datos tienen una posición decimal **.0**, que es confusa y puede inducir a error, porque el **número de publicaciones** debe ser un número entero. Necesita cambiar el tipo de datos de la columna **Number of posts** (Número de publicaciones) a Número entero.
 
-1. Para editar el tipo de datos, haga clic con el botón derecho en **Query1** (Consulta1) en la lista de campos o mantenga el puntero sobre ella y seleccione los puntos suspensivos (…) **Más opciones** y, luego, seleccione **Editar consulta**. También puede seleccionar **Editar consultas** en el área de **datos externos** de la pestaña Inicio de la cinta de opciones y, luego, seleccionar **Editar consultas** en el menú desplegable. El **Editor de Power Query** de Power BI Desktop se abre en una ventana independiente.
+1. Para editar el tipo de datos, haga clic con el botón derecho en **Query1** (Consulta1) en la lista de campos o mantenga el puntero sobre este elemento y seleccione **Más opciones** (...) y, luego, **Editar consulta**. También puede seleccionar **Editar consultas** en el área de **datos externos** de la pestaña Inicio de la cinta de opciones y, luego, seleccionar **Editar consultas** en el menú desplegable. El **Editor de Power Query** de Power BI Desktop se abre en una ventana independiente.
    
    ![Edición de consulta desde la lista de campos](media/desktop-tutorial-facebook-analytics/editquery1.png)     ![Edición de consultas desde la cinta de opciones](media/desktop-tutorial-facebook-analytics/t_fb_editquery.png)
    
@@ -241,8 +240,8 @@ Como puede ver, es fácil personalizar las visualizaciones del informe para most
 Power BI Desktop ofrece una experiencia perfectamente integrada que va desde la obtención de datos procedentes de una amplia gama de orígenes hasta su manipulación para adaptarlos a cualquier necesidad de análisis y su visualización de forma enriquecida e interactiva. Cuando el informe esté listo, podrá [cargarlo en Power BI](desktop-upload-desktop-files.md) y crear paneles basados en él, paneles que podrá compartir con otros usuarios de Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Lea otros tutoriales de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=521937)
-* [Vea vídeos de Power BI Desktop](http://go.microsoft.com/fwlink/?LinkID=519322)
-* [Visite el foro de Power BI](http://go.microsoft.com/fwlink/?LinkID=519326)
-* [Lea el blog de Power BI](http://go.microsoft.com/fwlink/?LinkID=519327)
+* [Lea otros tutoriales de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=521937)
+* [Vea vídeos de Power BI Desktop](https://go.microsoft.com/fwlink/?LinkID=519322)
+* [Visite el foro de Power BI](https://go.microsoft.com/fwlink/?LinkID=519326)
+* [Lea el blog de Power BI](https://go.microsoft.com/fwlink/?LinkID=519327)
 

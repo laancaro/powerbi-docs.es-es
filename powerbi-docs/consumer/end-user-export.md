@@ -2,21 +2,20 @@
 title: Exportar datos desde un objeto visual de Power BI
 description: Exporte datos de un objeto visual de informe y un objeto visual de panel y véalos en Excel.
 author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/11/2019
+ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 80033cafbe66303a1d6f55bba61f7d19449dc45b
-ms.sourcegitcommit: f34acbf9fb1ab568fd89773aaf412a847f88dd34
+ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "72589522"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73851309"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
 
@@ -26,11 +25,11 @@ Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar 
 
 ## <a name="from-a-visual-on-a-power-bi-dashboard"></a>Desde un objeto visual en un panel de Power BI
 
-1. Comience en un panel de Power BI. Aquí vamos a usar el panel de la aplicación ***Ejemplo de marketing y ventas***. Puede [descargar esta aplicación desde AppSource.com](https://appsource.microsoft.com/en-us/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
+1. Comience en un panel de Power BI. Aquí vamos a usar el panel de la aplicación ***Ejemplo de marketing y ventas***. Puede [descargar esta aplicación desde AppSource.com](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample-preview?flightCodes=e2b06c7a-a438-4d99-9eb6-4324ce87f282).
 
     ![Panel de la aplicación](media/end-user-export/power-bi-dashboards.png)
 
-2. Mantenga el mouse sobre un objeto visual para mostrar los puntos suspensivos (...) y haga clic para que aparezca el menú de acción.
+2. Mantenga el puntero sobre un objeto visual para mostrar **Más opciones** (...) y haga clic para mostrar el menú de acciones.
 
     ![Menú que aparece al seleccionar los puntos suspensivos](media/end-user-export/power-bi-action-menu.png)
 

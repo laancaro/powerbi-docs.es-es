@@ -3,18 +3,17 @@ title: Fragmentos de código para migrar contenido de Power BI Embedded
 description: Estos son algunos fragmentos de código de operaciones básicas necesarias para la migración de contenido.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 02/05/2019
-ms.openlocfilehash: abf45f5213a10379535d4c6ada3b54ffa625ddc5
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 95c249fe2326d9075d920a415c707811d19e5387
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269238"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880513"
 ---
 # <a name="code-snippets-for-migrating-content-from-power-bi-workspace-collection"></a>Fragmentos de código para migrar contenido de la colección de áreas de trabajo de Power BI
 
@@ -167,7 +166,7 @@ En este fragmento de código, estamos utilizando las credenciales sin cifrar par
 
 Debe volver a generar el informe para el conjunto de datos creado.
 
-En este fragmento de código, se supone que el conjunto de datos de inserción ya está en un área de trabajo de aplicación dentro del entorno de SaaS. Para más información acerca de la API de inserción, consulte [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md).
+En este fragmento de código, se supone que el conjunto de datos de inserción ya está en un área de trabajo del entorno de SaaS. Para más información acerca de la API de inserción, consulte [Inserción de datos en un conjunto de datos de Power BI](walkthrough-push-data.md).
 
 ```csharp
     var credentials = new TokenCredentials(<Your WSC access key>, "AppKey");
@@ -240,4 +239,4 @@ En este fragmento de código, se supone que el conjunto de datos de inserción y
 [Ejemplo de inserción de JavaScript](https://microsoft.github.io/PowerBI-JavaScript/demo/)  
 [Notas del producto de Power BI Premium](https://aka.ms/pbipremiumwhitepaper)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

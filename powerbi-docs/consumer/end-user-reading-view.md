@@ -4,7 +4,6 @@ description: En este inicio rápido, los **consumidores** aprenderán sobre Powe
 services: powerbi
 documentationcenter: ''
 author: mihart
-manager: kvivek
 editor: ''
 tags: ''
 ms.service: powerbi
@@ -13,12 +12,12 @@ ms.tgt_pltfrm: NA
 ms.workload: powerbi
 ms.date: 08/30/2019
 ms.author: mihart
-ms.openlocfilehash: ef955f672bc7266979b1e0b9ddbab6e9b6ae1ff7
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 09b9bf10c3328ecc4eb9ca9d16460b1bcfab0da5
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70236979"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862691"
 ---
 # <a name="quickstart-learn-about-the-power-bi-capabilities-for-consumers"></a>Inicio rápido: más información sobre las capacidades de Power BI para *consumidores*
 En esta guía de inicio rápido obtendrá información sobre cómo interactuar con Power BI para detectar información empresarial basada en datos. La información del artículo no pretende ser exhaustiva, sino un resumen rápido de muchas de las acciones disponibles para los **consumidores** de Power BI.
@@ -50,7 +49,7 @@ Cuando usamos el término "contenido" en Power BI, hacemos referencia a informe
 
 Una *aplicación* es un tipo de contenido de Power BI que combina paneles e informes relacionados en un mismo lugar. Una aplicación puede tener uno o más paneles e informes, todos ellos agrupados. Las aplicaciones las crean *diseñadores* de Power BI que distribuyen y comparten las aplicaciones con otros *consumidores*. 
 
-Una manera de ver las aplicaciones es seleccionar **Aplicaciones** en la barra de navegación y elegir una aplicación para abrirla.
+Una manera de ver las aplicaciones es seleccionar **Aplicaciones** en el panel de navegación y elegir una aplicación para abrirla.
 
 ![Icono de Obtener aplicaciones](./media/end-user-reading-view/power-bi-apps.png)
 
@@ -116,9 +115,9 @@ Los objetos visuales están compuestos por puntos de datos y, al mantener el mou
 ![mantener el puntero para ver los detalles](media/end-user-reading-view/power-bi-hover.gif)
 
 ### <a name="favorite-a-dashboard"></a>Agregar un panel a Favoritos
-Al marcar contenido como *favorito*, puede acceder a él desde la barra de navegación. Puede ver la barra de navegación desde casi todas las áreas de Power BI. Los favoritos suelen ser los paneles, las páginas de informe y las aplicaciones que consulta con más frecuencia.
+Al marcar contenido como *favorito*, puede acceder a él desde el panel de navegación. El panel de navegación es visible desde casi todas las áreas de Power BI. Los favoritos suelen ser los paneles, las páginas de informe y las aplicaciones que consulta con más frecuencia.
 
-En la esquina superior derecha del servicio Power BI, seleccione **Agregar a Favoritos** o, si no aparece, seleccione los puntos suspensivos (...) y elija **Agregar a Favoritos** en la lista desplegable. 
+En la esquina superior derecha del servicio Power BI, seleccione **Favoritos** o, si no aparece, seleccione **Más opciones** (...) y seleccione **Favoritos** en la lista desplegable. 
    
 ![Icono de favorito](./media/end-user-reading-view/power-bi-favorites.png)
 
@@ -168,7 +167,7 @@ Obtenga más información sobre el [modo de enfoque y el modo de pantalla comple
 ### <a name="sort-a-visualization"></a>Ordenar una visualización
 Los objetos visuales en una página de informe pueden organizarse y guardarse con los cambios aplicados. 
 
-Mantenga el mouse sobre un objeto visual para activarlo y seleccione los puntos suspensivos (...) para abrir las opciones de ordenación.
+Mantenga el puntero sobre un objeto visual para activarlo y seleccione **Más opciones** (...) para abrir las opciones de ordenación.
 
 ![ordenar un gráfico](media/end-user-reading-view/sort.gif) 
 
@@ -177,7 +176,7 @@ Obtenga más información sobre la [ordenación de objetos visuales](end-user-se
 ### <a name="show-the-data-used-to-create-a-visualization"></a>Mostrar los datos utilizados para crear una visualización
 Una visualización de Power BI se construye con datos provenientes de los conjuntos de datos subyacentes. Si quiere ver lo que sucede en segundo plano, Power BI le permite *mostrar* los datos que se usan para crear el objeto visual. Cuando se selecciona **Mostrar datos**, Power BI muestra los datos que están situados debajo (o cerca) de la visualización.
 
-Con un objeto visual activo, seleccione los puntos suspensivos (...) y elija **Mostrar datos**.
+Con un objeto visual activo, seleccione **Más opciones** (...) y elija **Mostrar datos**.
    
    ![Selección de Mostrar datos](./media/end-user-show-data/power-bi-explore-show-data.png)
 
@@ -194,9 +193,9 @@ Además de mostrar los datos que se usan para crear un objeto visual, también p
 Aquí finaliza esta introducción rápida a algunas de las acciones que pueden realizar los *consumidores* con el servicio Power BI.  
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos
-- Si se conecta a una aplicación, en la barra de navegación izquierda, seleccione **Aplicaciones** para abrir la lista de contenido de las aplicaciones. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono de Papelera.
+- Si se conecta a una aplicación, en el panel de navegación, seleccione **Aplicaciones** para abrir la lista de contenido de las aplicaciones. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono de Papelera.
 
-- Si ha importado un informe de ejemplo de Power BI, o se ha conectado a uno, abra **Mi área de trabajo** en la barra de navegación izquierda. Busque el panel, informe y conjunto de datos mediante las pestañas de la parte superior, y seleccione el icono de Papelera de cada uno.
+- Si ha importado un informe de ejemplo de Power BI, o se ha conectado a uno, abra **Mi área de trabajo** en el panel de navegación. Busque el panel, informe y conjunto de datos mediante las pestañas de la parte superior, y seleccione el icono de Papelera de cada uno.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Power BI para consumidores](end-user-consumer.md)

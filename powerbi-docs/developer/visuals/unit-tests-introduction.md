@@ -3,18 +3,17 @@ title: Introducción a las pruebas unitarias en proyectos de objetos visuales de
 description: En este artículo se describe cómo escribir pruebas unitarias en proyectos visuales de Power BI
 author: KesemSharabi
 ms.author: kesharab
-manager: rkarlin
 ms.reviewer: sranins
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: tutorial
 ms.date: 06/18/2019
-ms.openlocfilehash: bb9835ceba302716c2c4b1e28eda33c6e4b1db42
-ms.sourcegitcommit: e2de2e8b8e78240c306fe6cca820e5f6ff188944
+ms.openlocfilehash: 590f11f23a04a698459cc4db99efe5308ccc0ce3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "71192461"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879956"
 ---
 # <a name="tutorial-add-unit-tests-for-power-bi-visual-projects"></a>Tutorial: Adición de pruebas unitarias en proyectos de objetos visuales de Power BI
 
@@ -65,7 +64,7 @@ Agregue las bibliotecas necesarias al archivo *package.json* en la sección `dev
 "webpack": "4.26.0"
 ```
 
-Para obtener más información sobre el paquete, consulte la descripción en:
+Para más información sobre *package.json*, consulte la descripción en [npm-package.json](https://docs.npmjs.com/files/package.json).
 
 Guarde el archivo *package.json* y, en la ubicación `package.json`, ejecute el siguiente comando:
 
@@ -393,8 +392,8 @@ En la ventana de la línea de comandos, obtendrá el siguiente resultado:
 > karma start
 
 23 05 2017 12:24:26.842:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 12:24:30.836:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 12:24:30.849:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 12:24:30.850:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 12:24:31.059:INFO [launcher]: Starting browser Chrome
 23 05 2017 12:24:33.160:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#2meR6hjXFmsE_fjiAAAA with id 5875251
@@ -580,8 +579,8 @@ Ahora puede volver a ejecutar la prueba unitaria. Debe obtener el siguiente resu
 > karma start
 
 23 05 2017 16:19:54.318:WARN [watcher]: Pattern "E:/WORKSPACE/PowerBI/PowerBI-visuals-sampleBarChart/data/*.csv" does not match any file.
-23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open http://localhost:9876/
-23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at http://localhost:9876/
+23 05 2017 16:19:58.333:WARN [karma]: No captured browser, open https://localhost:9876/
+23 05 2017 16:19:58.346:INFO [karma]: Karma v1.3.0 server started at https://localhost:9876/
 23 05 2017 16:19:58.346:INFO [launcher]: Launching browser Chrome with unlimited concurrency
 23 05 2017 16:19:58.394:INFO [launcher]: Starting browser Chrome
 23 05 2017 16:19:59.873:INFO [Chrome 58.0.3029 (Windows 10 0.0.0)]: Connected on socket /#NcNTAGH9hWfGMCuEAAAA with id 3551106

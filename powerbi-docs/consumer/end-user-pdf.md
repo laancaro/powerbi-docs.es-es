@@ -2,7 +2,6 @@
 title: Exportación de informes a PDF
 description: Obtenga información sobre cómo exportar un informe de Power BI a PDF.
 author: mihart
-manager: kvivek
 ms.custom: ''
 ms.reviewer: cmfinlan
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/14/2019
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1d6ddcd11118e0eb9894002c5c97edda134d4635
-ms.sourcegitcommit: 26123c6bb24c8174beb390f4e06fb938d31238ea
+ms.openlocfilehash: 376ecd007e774a153b47df75417621d4233cc4ce
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72716983"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862868"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -25,7 +24,7 @@ ms.locfileid: "72716983"
 Con Power BI, puede publicar el informe en formato PDF y crear fácilmente un documento basado en el informe de Power BI. Al exportar a PDF, cada página del informe de Power BI se convierte en una página individual en el documento PDF.
 
 ## <a name="export-your-power-bi-report-to-pdf"></a>Exportación del informe de Power BI a PDF
-En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe en la página **Inicio**, **Aplicaciones** o en cualquier otro contenedor del panel de navegación de la izquierda.
+En el servicio Power BI, seleccione un informe para mostrarlo en el lienzo. También puede seleccionar un informe en la página **Inicio**, **Aplicaciones** o en cualquier otro contenedor del panel de navegación.
 
 1. Seleccione **Exportar** > **PDF** en la barra de menús.
 

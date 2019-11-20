@@ -2,19 +2,18 @@
 title: Elementos favoritos en las aplicaciones móviles de Power BI
 description: Lea información sobre cómo definir y ver sus paneles, informes y aplicaciones de Power BI favoritos, junto con los informes y KPI de Microsoft Power BI Report Server y de Reporting Services en las aplicaciones móviles.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 433bfc6298632eb9b999a23fe4b54417add507a3
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c4fcf7bea8bf458231533efbc88e307d8d9ba2ab
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61339572"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73870677"
 ---
 # <a name="make-and-view-favorites-in-the-power-bi-mobile-apps"></a>Creación y visualización de elementos favoritos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -44,7 +43,7 @@ Puede marcar KPI e informes como favoritos en el portal web del servidor de info
   ![Página Favoritos](./media/mobile-apps-favorites/power-bi-ipad-favorites.png)
 
 ## <a name="make-an-app-a-favorite"></a>Agregar a Favoritos una aplicación
-1. En la lista de aplicaciones de la aplicación móvil, pulse el botón de puntos suspensivos (...) situado junto a la aplicación > **Agregar a Favoritos**.
+1. En la lista de aplicaciones de la aplicación móvil, pulse **Más opciones** (...), situado junto a la aplicación > **Favoritos**.
    
     ![Menú de favoritos de la aplicación](./media/mobile-apps-favorites/power-bi-android-favorite-app-ellipsis.png)
    
@@ -65,7 +64,7 @@ Puede definir un panel o informe de Power BI como favorito desde la lista de pan
 ## <a name="make-a-dashboard-or-report-a-favorite-in-the-android-mobile-apps"></a>Adición de un panel o informe como favorito en las aplicaciones móviles para Android
 Puede definir un panel o informe como favorito desde la lista de paneles o informes o desde el propio panel o informe.
 
-* En la lista de paneles o informes de la aplicación móvil, pulse el botón de puntos suspensivos verticales (…) situado junto al nombre y, luego, pulse **Favorito**. Verá una estrella amarilla situada junto al nombre ![Icono de favorito](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
+* En la lista de paneles o informes de la aplicación móvil, pulse el botón de puntos suspensivos verticales **Más opciones** (…) situado junto al nombre y, luego, pulse **Favorito**. Verá una estrella amarilla situada junto al nombre ![Icono de favorito](./././media/mobile-apps-favorites/power-bi-mobile-yes-favorite-icon.png).
   
     ![Menú de favoritos de Android](./media/mobile-apps-favorites/power-bi-android-make-favorite.png)
 * En el panel o informe, pulse la estrella vacía en la cinta de opciones de la cinta ![Icono de no favorito](./././media/mobile-apps-favorites/power-bi-mobile-not-favorite-icon.png). La estrella se vuelve gris oscuro ![Icono de favorito](./media/mobile-apps-favorites/power-bi-android-favorite-icon.png).
@@ -77,5 +76,5 @@ En las aplicaciones móviles de Power BI puede ver los informes y KPI del servid
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Paneles favoritos en el servicio Power BI](../end-user-favorite.md) 
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

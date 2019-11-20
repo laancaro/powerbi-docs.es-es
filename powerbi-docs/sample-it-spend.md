@@ -2,7 +2,6 @@
 title: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
 description: 'Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo'
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: amac
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: bc6b35b6401f4424a3a5120cb7c28437da9a2a48
-ms.sourcegitcommit: 8aa90f662afb7492ffcfc11ef142cdb0ccecc9aa
+ms.openlocfilehash: 6f39f8b5c288c1dbff3cd87c7beee27683cfeae2
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "68462244"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873905"
 ---
 # <a name="it-spend-analysis-sample-for-power-bi-take-a-tour"></a>Ejemplo de análisis de gasto en TI para Power BI: Dar un paseo
 
@@ -54,11 +53,11 @@ Para explorar los ejemplos de Power BI Desktop, no necesita una licencia de Po
   
 ### <a name="get-the-pbix-file-for-this-sample"></a>Obtención del archivo .pbix de este ejemplo
 
-Como alternativa, puede descargar el Ejemplo de análisis de gastos de TI como un [archivo .pbix](http://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop.
+Como alternativa, puede descargar el Ejemplo de análisis de gastos de TI como un [archivo .pbix](https://download.microsoft.com/download/E/9/8/E98CEB6D-CEBB-41CF-BA2B-1A1D61B27D87/IT%20Spend%20Analysis%20Sample%20PBIX.pbix), que está diseñado para su uso con Power BI Desktop.
 
 ### <a name="get-the-excel-workbook-for-this-sample"></a>Obtención del libro de Excel de este ejemplo
 
-Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](http://go.microsoft.com/fwlink/?LinkId=529783). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
+Si desea ver el origen de datos de este ejemplo, también está disponible como un [libro de Excel](https://go.microsoft.com/fwlink/?LinkId=529783). El libro contiene hojas de Power View que puede ver y modificar. Para ver los datos sin procesar, habilite los complementos de análisis de datos y, a continuación, seleccione **Power Pivot > Administrar**. Para habilitar los complementos Power View y Power Pivot, vea [Consulta de los ejemplos de Excel desde Excel](sample-datasets.md#optional-take-a-look-at-the-excel-samples-from-inside-excel-itself) para obtener más información.
 
 ## <a name="it-spend-analysis-sample-dashboard"></a>Panel Ejemplo de análisis de gastos de TI
 Los dos iconos de números de la izquierda del panel, **% de desviación del planeamiento** y el **% de desviación del último cálculo del tercer trimestre**, nos aportan una visión general de la calidad de nuestro trabajo con respecto al planeamiento y el cálculo del último trimestre (LE3 = último cálculo del tercer trimestre). En términos generales, tenemos una desviación del 6 % del planeamiento. Exploremos la causa de esta desviación: cuándo, dónde y en qué categoría.
@@ -78,7 +77,7 @@ Pero si solo miramos este gráfico y sacamos conclusiones podemos equivocarnos. 
     A continuación, veamos qué categoría en EE. UU. está causando la desviación.
 
 ## <a name="ask-questions-of-the-data"></a>Pregunte sobre los datos
-1. Seleccione **Ejemplo de análisis de gasto de TI** en la barra de navegación superior para volver al panel del ejemplo.
+1. Seleccione **Ejemplo de análisis de gastos de TI** en el panel de navegación superior para volver al panel del ejemplo.
 2. Seleccione **Pregunte algo sobre sus datos**.
 3. En la lista **Preguntas para empezar** del lado izquierdo, seleccione **what is the plan by IT area** (¿cuál es el plan por área de TI).
 

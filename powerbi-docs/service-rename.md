@@ -2,7 +2,6 @@
 title: Cambiar el nombre de paneles, informes, áreas de trabajo, páginas de informe y conjuntos de datos
 description: Cambie el nombre de prácticamente cualquier cosa en el servicio Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 905ef263084cf531e6b38fb4640286e4d78697ce
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: de842b95c8f6e023a5207c07abb2525c5fe45878
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61273830"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871715"
 ---
 # <a name="rename-almost-anything-in-power-bi-service"></a>Cambiar el nombre de prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a cambiar el nombre de un panel, un informe, una página de informe, un libro, un conjunto de datos, una aplicación y un área de trabajo en el servicio Power BI.
@@ -28,9 +27,9 @@ Este artículo le enseña a cambiar el nombre de un panel, un informe, una pági
 | Informe en un área de trabajo |Sí |No |
 | Libro en un área de trabajo |Sí |No |
 | Conjunto de datos en un área de trabajo |Sí |No |
-| Área de trabajo de la aplicación |Sí, si es el propietario o tiene permisos de administrador |No |
-| Aplicaciones publicadas |No desde la pantalla de la aplicación, aunque se puede cambiar el nombre de la aplicación en el área de trabajo de la aplicación y volver a publicarla con el nuevo nombre si tiene permisos de administrador |No |
-| Contenido de la aplicación (panel, informe, libro y conjunto de datos) |No desde la pantalla de la aplicación, aunque se puede cambiar el nombre del contenido de la aplicación en el área de trabajo de la aplicación y volver a publicarlo con un nuevo nombre si tiene permisos de administrador |No |
+| Área de trabajo |Sí, si es el propietario o tiene permisos de administrador |No |
+| Aplicaciones publicadas |No desde la pantalla de la aplicación, aunque puede cambiar el nombre de la aplicación en el área de trabajo y publicarla con el nuevo nombre si tiene permisos de administrador |No |
+| Contenido de la aplicación (panel, informe, libro y conjunto de datos) |No desde la pantalla de la aplicación, aunque puede cambiar el nombre del contenido de la aplicación en el área de trabajo y publicarla con un nuevo nombre si tiene permisos de administrador |No |
 | Contenido en **Compartido conmigo** |No |No |
 
 ## <a name="rename-a-dashboard-report-or-workbook"></a>Cambiar el nombre de un panel, un informe o un libro
@@ -45,7 +44,7 @@ Este artículo le enseña a cambiar el nombre de un panel, un informe, una pági
 1. Empiece en un área de trabajo y seleccione la pestaña **Conjuntos de datos**.
    
    ![Pestaña Conjuntos de datos del área de trabajo](media/service-rename/power-bi-ellipses.png)
-2. Mantenga el puntero sobre el elemento cuyo nombre vaya a cambiar, seleccione el botón de puntos suspensivos (…) y elija **Cambiar nombre**.  
+2. Mantenga el puntero sobre el elemento cuyo nombre desee cambiar, seleccione el botón **Más opciones** (…) y haga clic en **Cambiar nombre**.  
    
       ![Selección de Cambiar nombre](media/service-rename/power-bi-rename-datasets.png)
    
@@ -57,11 +56,11 @@ Este artículo le enseña a cambiar el nombre de un panel, un informe, una pági
    
      ![Panel Cambiar nombre](media/service-rename/power-bi-rename.png)
 
-## <a name="rename-an-app-workspace"></a>Cambiar el nombre de un área de trabajo de la aplicación
-Cualquier persona con permisos de administrador puede cambiar el nombre de un área de trabajo de la aplicación.
+## <a name="rename-a-workspace"></a>Cambio de nombre de un área de trabajo
+Cualquier persona con permisos de administrador puede cambiar el nombre de un área de trabajo.
 
 1. Empiece en el área de trabajo cuyo nombre desee cambiar.
-2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Edit workspace** (Editar área de trabajo). Si no aparece esta opción, no tiene permisos para cambiar el nombre de esta área de trabajo. 
+2. En la esquina superior derecha, seleccione **Más opciones** (…) y haga clic en **Editar área de trabajo**. Si no aparece esta opción, no tiene permisos para cambiar el nombre de esta área de trabajo. 
    
     ![Selección de Editar área de trabajo](media/service-rename/power-bi-edit-workspace.png)
 3. Escriba un nuevo nombre para el área de trabajo y seleccione **Guardar**.
@@ -85,7 +84,7 @@ Cualquier persona con permisos de administrador puede cambiar el nombre de un á
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * Si el elemento cuyo nombre se va a cambiar se ha compartido con usted o forma parte de un paquete de contenido, no verá el icono de engranaje y no tendrá acceso a Configuración.
-* En la pestaña **Conjuntos de datos**, si no ve el botón de puntos suspensivos (…), expanda la ventana del explorador.
+* En la pestaña **Conjuntos de datos**, si no ve el botón **Más opciones**, expanda la ventana del explorador.
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

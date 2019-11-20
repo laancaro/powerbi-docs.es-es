@@ -3,7 +3,6 @@ title: Portal de administración de Power BI
 description: El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Microsoft 365 y configuración.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/25/2019
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: f472ee821d0ccf3bbe8e47697f934b91668cd16d
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: fd9864ed086f535e0978dee7f5f8837039aa5491
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305896"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73857510"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -169,7 +168,9 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 
 Los usuarios de la organización pueden obtener acceso a recursos de ayuda y soporte técnico internos desde el menú Ayuda de Power BI. Concretamente, estos parámetros cambian el comportamiento de los elementos de menú Saber más, Comunidad y Obtener ayuda.
 
-También es posible especificar una dirección URL para llevar a los usuarios a una solución personalizada para requisitos de licencias. Este parámetro personaliza la dirección URL de destino del botón Actualizar cuenta que encontrará un usuario sin licencia de Power BI Pro en el cuadro de diálogo Actualizar a Power BI Pro, así como en la página Administrar almacenamiento personal.
+    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+
+Mediante la especificación de una dirección URL para las solicitudes de licencia, puede personalizar la dirección URL de destino del botón **Actualizar cuenta** que encontrará un usuario sin licencia de Power BI Pro en el cuadro de diálogo **Actualizar a Power BI Pro**, así como en la página **Administrar almacenamiento personal**. Además, Power BI ya no ofrece el botón **Probar Pro gratis** en este cuadro de diálogo ni en la página de almacenamiento para asegurarse de que Power BI guía a los usuarios de forma confiable a través de los procesos definidos en su organización mediante la solución de administración de licencias.
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
 
@@ -179,7 +180,7 @@ Los grupos de seguridad habilitados para correo recibirán notificaciones por co
 
 ### <a name="create-workspaces"></a>Crear áreas de trabajo
 
-Los administradores usan la configuración **Crear áreas de trabajo** para indicar qué usuarios de la organización pueden crear áreas de trabajo de la aplicación para colaborar en paneles, informes y otro contenido. Obtenga más información sobre las [áreas de trabajo de la aplicación](service-create-the-new-workspaces.md).
+Los administradores usan la configuración **Crear áreas de trabajo** para indicar qué usuarios de la organización pueden crear áreas de trabajo para colaborar en paneles, informes y otro contenido. Obtenga más información sobre las [áreas de trabajo](service-create-the-new-workspaces.md).
 
 El portal de administración tiene otra sección de configuración sobre las áreas de trabajo del inquilino. En esa sección, puede ordenar y filtrar la lista de áreas de trabajo y mostrar los detalles de cada una de ellas. Consulte [Áreas de trabajo](#workspaces) para obtener detalles.
 
@@ -284,7 +285,7 @@ Los usuarios de la organización pueden realizar preguntas sobre sus datos media
 > [!NOTE]
 > Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
 
-### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Usar la característica Analizar en Excel con conjuntos de datos locales
+### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Usar la función Analizar en Excel en los conjuntos de datos locales
 
 Los usuarios de la organización pueden utilizar Excel para ver e interactuar con conjuntos de datos locales de Power BI. [Más información](service-analyze-in-excel.md)
 
@@ -511,7 +512,7 @@ Para actualizar el objeto visual desde la tienda de la organización, seleccione
 
 Asegúrese de que el identificador del objeto visual no cambie. El archivo nuevo reemplaza al archivo anterior en todos los informes de la organización. Sin embargo, si la versión nueva del objeto visual puede generar errores en el uso o la estructura de datos de la versión anterior del objeto visual, no reemplace la versión anterior. En lugar de eso, debe crear una nueva lista para la versión nueva del objeto visual. Por ejemplo, agregue un número de versión nuevo (versión X.X) al título del objeto visual nuevo. De este modo, resulta claro que es el mismo objeto visual solo con un número de versión actualizado, por lo que los informes existentes no interrumpen su funcionalidad. Vuelva a asegurarse de que el identificador del objeto visual no cambie. Luego, la próxima vez que los usuarios entren en el repositorio de la organización desde Power BI Desktop, pueden importar la versión nueva, donde se les pide que reemplacen la versión actual que tienen en el informe.
 
-Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales personalizados de organización](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-custom-visuals).
+Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales personalizados de organización](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#organizational-visuals).
 
 ## <a name="dataflowStorage">Almacenamiento de flujos de datos (versión preliminar)</a>
 
@@ -545,7 +546,7 @@ Como administrador, puede personalizar la apariencia de Power BI para toda la o
 * **Selección del color de tema**: puede seleccionar su tema basado en un número hexadecimal, RGB, valor o desde la paleta que se proporciona.
 
 
-Para más información, consulte [Personalización de marca de la organización](http://aka.ms/orgBranding).
+Para más información, consulte [Personalización de marca de la organización](https://aka.ms/orgBranding).
 
 ![Lista de áreas de trabajo](media/service-admin-portal/workspaces-list.png)
 ## <a name="next-steps"></a>Pasos siguientes

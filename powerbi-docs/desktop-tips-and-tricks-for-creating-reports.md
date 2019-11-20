@@ -2,7 +2,6 @@
 title: Sugerencias y trucos para crear informes en Power BI
 description: Conozca los procedimientos recomendados para la creación de informes en el servicio Power BI y Power BI Desktop.
 author: davidiseminger
-manager: kfile
 ms.reviewer: willthom
 ms.custom: seodec18
 ms.service: powerbi
@@ -10,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
-ms.openlocfilehash: 41e5ff75e9b6fd48e3101d30999e8d570f34a270
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514068"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73865840"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -33,14 +32,14 @@ Al usar el Editor de consultas en Power BI Desktop para cargar los datos, hacemo
 Un elemento clave que hay que recordar: la cursiva en la cuadrícula de datos no significa que el tipo de datos se haya configurado correctamente, solo indica que los datos no se consideran como texto.
 
 ## <a name="reference-queries-in-the-query-editor"></a>Consultas de referencia en el Editor de consultas
-En el navegador del Editor de consultas en Power BI Desktop, cuando hace clic en una de las consultas, está disponible una opción "Referencia". Esto resulta útil por el siguiente motivo:
+En el navegador del Editor de consultas de Power BI Desktop, cuando haga clic con el botón derecho en una de las consultas, aparecerá la opción "Referencia" como disponible. Esto resulta útil por el siguiente motivo:
 
 * Cuando se usan archivos como orígenes de datos para una consulta, la ruta de acceso absoluta al archivo se almacena en la consulta. Al compartir o mover el archivo de Power BI Desktop o Excel Workbook, ahorrará tiempo al actualizar las rutas de acceso, ya que solo necesitará actualizar los datos una vez.
 
-De forma predeterminada todas las consultas se cargan en una hoja de cálculo de Excel o en el modelo de datos (o ambos). Algunas consultas son pasos intermedios y no destinada a los usuarios finales. como, por ejemplo, al hacer referencia a las consultas tal como se ha mencionado anteriormente. Puede controlar el comportamiento de carga haciendo clic en la consulta en el navegador y si activa o desactiva la opción "Habilitar carga" de la consulta. Cuando *habilitar la carga* no tiene una marca de verificación junto a él, la consulta sigue estando disponible en la pestaña de consulta y usarla con otras consultas. Esto resulta especialmente útil en combinación con las operaciones de combinación, anexado y transformaciones de referencia. Sin embargo, puesto que los resultados de la consulta no se cargan en el modelo de datos, la consulta no recargará la lista de campos de informes o el modelo de datos. 
+De forma predeterminada todas las consultas se cargan en una hoja de cálculo de Excel o en el modelo de datos (o ambos). Algunas consultas son pasos intermedios y no están diseñadas para usuarios finales. como, por ejemplo, al hacer referencia a las consultas tal como se ha mencionado anteriormente. Puede controlar el comportamiento de carga de la consulta haciendo clic en el botón secundario sobre la consulta en el navegador y activando/desactivando la opción "Habilitar la carga". Cuando la opción *Habilitar la carga* no tiene marca de verificación, la consulta sigue estando disponible en la pestaña de consulta y se puede usar con otras consultas. Esto resulta especialmente útil en combinación con las operaciones de combinación, anexado y transformaciones de referencia. Sin embargo, puesto que los resultados de la consulta no se cargan en el modelo de datos, la consulta no recargará la lista de campos de informes o el modelo de datos. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Necesidad del identificador de puntos en los gráficos de dispersión
-Tomemos como ejemplo una sencilla tabla de temperaturas con la hora a la que se realizó la lectura. Si trazamos directamente un gráfico de dispersión, Power BI agrega todos los valores en un único punto. Para mostrar puntos de datos individuales, debe agregar también un campo a los detalles en el campo. Una manera sencilla de hacerlo esto en Power BI Desktop es mediante la opción "Agregar columna de índice" de la pestaña de consultas, en la cinta de opciones "Agregar columna". 
+Tomemos como ejemplo una sencilla tabla de temperaturas con la hora a la que se realizó la lectura. Si trazamos directamente un gráfico de dispersión, Power BI agrega todos los valores en un único punto. Para mostrar los puntos de datos individuales, debe agregar un campo a los detalles en el área de campos. Una manera sencilla de hacerlo esto en Power BI Desktop es mediante la opción "Agregar columna de índice" de la pestaña de consultas, en la cinta de opciones "Agregar columna". 
 
 ## <a name="reference-lines-in-your-report"></a>Líneas de referencia del informe
 Puede usar una columna calculada en Power BI Desktop para definir una línea de referencia. Identifique la tabla y la columna en las que desea crear una línea de referencia. Seleccione "Nueva columna" en la cinta de opciones y, en la barra de fórmulas, escriba la fórmula siguiente:
@@ -50,7 +49,7 @@ Puede usar una columna calculada en Power BI Desktop para definir una línea de 
 Esta columna calculada devolverá el valor 100 independientemente de dónde se use. La nueva columna aparecerá en la lista de campos. Agregue la columna calculada del valor de destino a un gráfico de líneas para mostrar cómo se relacionan las series a dicha línea de referencia específica. 
 
 ## <a name="sort-by-another-column"></a>Ordenación por otra columna
-Cuando se usa un valor de categoría (cadena) en Power BI para los ejes de gráficos o en segmentaciones o filtros, el orden predeterminado es alfabético. Si necesita cambiar este orden, por ejemplo para cosas como los días de la semana o meses, a continuación, puede indicar Power BI Desktop que ordene por una columna diferente. Para obtener más información, consulte [ordenar por columnas en Power BI Desktop](desktop-sort-by-column.md).
+Cuando se usa un valor de categoría (cadena) en Power BI para los ejes de gráficos o en segmentaciones o filtros, el orden predeterminado es alfabético. Si necesita cambiar este orden, por ejemplo para cosas como los días de la semana o los meses, puede indicar a Power BI Desktop que ordene los datos por una columna distinta. Para más información, consulte [Ordenar por columnas en Power BI Desktop](desktop-sort-by-column.md).
 
 ## <a name="building-maps-more-easily-with-hints-to-bing"></a>Creación de mapas simplificada con las sugerencias de Bing
 Power BI se integra con Bing para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado codificación geográfica) y facilitar la creación de mapas. Bing usa algunos algoritmos y sugerencias para intentar obtener la ubicación correcta, aunque es un cálculo aproximado. Para aumentar la probabilidad de realizar la codificación geográfica de manera correcta, use las sugerencias siguientes:
@@ -62,7 +61,7 @@ Algunas designaciones son ambiguas cuando se consideran en el contexto de varios
 Siempre es posible proporcionar ubicaciones específicas de latitud y longitud en el servicio Power BI o Power BI Desktop. Al hacerlo, también debe pasar un campo de ubicación, de lo contrario, los datos se agregan de forma predeterminada, por lo que es posible que la ubicación de latitud y longitud no coincida con lo que esperaba.
 
 ## <a name="categorizing-geographic-fields-to-hint-bings-geocoding"></a>Categorización de campos geográficos de sugerencias de codificación geográfica de Bing
-Otra forma de asegurarse de que los campos estén correctamente codificados geográficamente al establecer la categoría de datos en los campos de datos. En Power BI Desktop, seleccione la tabla deseada, vaya a la cinta de opciones avanzada y, a continuación, Establece la categoría de datos en la dirección, ciudad, continente, país o región, país, código Postal, estado o provincia. Estas categorías de datos ayudan a Bing a codificar correctamente los datos. Para más información, consulte [Categorización de datos en Power BI Desktop](desktop-data-categorization.md).
+Otra forma de asegurarse de que los campos estén correctamente codificados geográficamente al establecer la categoría de datos en los campos de datos. En Power BI Desktop, seleccione la tabla deseada, vaya a la cinta de opciones Avanzada y, a continuación, establezca la Categoría de datos como Dirección, Ciudad, Continente, País o región, País, Código Postal, Estado o provincia. Estas categorías de datos ayudan a Bing a codificar correctamente los datos. Para más información, consulte [Categorización de datos en Power BI Desktop](desktop-data-categorization.md).
 
 ## <a name="better-geocoding-with-more-specific-locations"></a>Mejora de la codificación geográfica con ubicaciones más específicas
 A veces, incluso el establecimiento de las categorías de datos de mapas no es suficiente. Con el Editor de consultas de Power BI Desktop, cree una ubicación más específica como, por ejemplo, una dirección postal. Use la característica Agregar columnas para crear una columna personalizada. A continuación, cree la ubicación deseada como se muestra a continuación: 
@@ -86,7 +85,7 @@ Definición de cubos para crear histogramas: determine qué consulta tiene el ca
 
 Asegúrese de que el tipo de datos es un número para la columna agregada resultante. Ahora puede usar el grupo mediante la técnica descrita en la sección Histogramas más sencillos obtener el histograma. Esta opción controla más puntos de datos, pero todavía no ayuda con los gráficos.
 
-Definición de histogramas que permitan el resaltado: el resaltado es cuando los objetos visuales están vinculados entre sí para que cuando un usuario selecciona un punto de datos de un objeto visual, otros objetos visuales en la página del informe resaltarán o filtran los puntos de datos relacionados con el punto de datos seleccionado. Puesto que vamos a manipular los datos en tiempo de consulta, necesitamos crear una relación entre las tablas y asegurarse de que sabemos qué elemento de detalle está relacionado con el cubo del histograma y viceversa.
+Definición de histogramas que permitan el resaltado: el resaltado es cuando los objetos visuales están vinculados entre sí de manera que cuando un usuario selecciona un punto de datos de un objeto visual, otros objetos visuales de la página del informe se resaltan o se filtran puntos de datos relacionados con el punto de datos seleccionado. Puesto que vamos a manipular los datos en tiempo de consulta, necesitamos crear una relación entre las tablas y asegurarse de que sabemos qué elemento de detalle está relacionado con el cubo del histograma y viceversa.
 
 Inicie el proceso con la opción "Referencia" de la consulta que tiene el campo a partir del cual desea generar un histograma. Asigne a la nueva consulta el nombre "Cubos". En este ejemplo, llamaremos a la consulta original "Detalles". A continuación, quite todas las columnas excepto la columna que se va a usar como cubo del histograma. Ahora use la característica "Quitar duplicados" en la consulta que se encuentra en el menú contextual que aparece al seleccionar la columna. De este modo, los demás valores serán los únicos valores de la columna. Si tiene números decimales, puede usar la primera sugerencia para definir cubos para crear un histograma que permita obtener un conjunto de cubos fáciles de administrar. Ahora, compruebe los datos que se muestran en la vista previa de la consulta. Si ve valores en blanco o nulos deberá corregirlos antes de crear una relación. Consulte "Creación de una relación si mis datos tienen valores nulos o en blanco". El uso de este enfoque puede ser problemático debido a la necesidad de ordenar. Para obtener los cubos ordenados correctamente, vea "Ordenación: conseguir que las categorías aparezcan en el orden deseado". 
 
@@ -161,4 +160,4 @@ DAX es el lenguaje de fórmulas de cálculos de Power BI Desktop. Está optimiza
 
 [Referencia de expresiones de análisis de datos (DAX)](https://msdn.microsoft.com/library/gg413422.aspx)
 
-[Centro de recursos de DAX](http://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)
+[Centro de recursos de DAX](https://social.technet.microsoft.com/wiki/contents/articles/1088.dax-resource-center.aspx)

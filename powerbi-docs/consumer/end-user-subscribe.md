@@ -3,23 +3,25 @@ title: Suscripción personal a informes y paneles
 description: Aprenda a suscribirse a una instantánea enviada por correo electrónico de un informe y panel de Power BI.
 author: mihart
 ms.author: mihart
-manager: kvivek
 ms.reviewer: cmfinlan
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/12/2019
-LocalizationGroup: Common tasks
-ms.openlocfilehash: 2b0554729824b170fecbe6493141c6f3a8354002
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.date: 10/21/2019
+rLocalizationGroup: Common tasks
+ms.openlocfilehash: add49c43e16b2070b054f4228d1faf0075b736f8
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "68961676"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73861388"
 ---
 # <a name="subscribe-to-a-report-or-dashboard-in-the-power-bi-service"></a>Suscripción a un informe o panel en el servicio Power BI 
-Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o cuando se actualicen los datos. Incluso puede establecer una hora concreta a la que Power BI envíe los mensajes de correo electrónico o hacer que se ejecute al instante.  
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+
+Nunca antes ha sido tan fácil mantenerse al día de los paneles e informes más importantes. Suscríbase a las páginas de informes y paneles que más le interesen y Power BI le enviará por correo electrónico una instantánea a la Bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: una vez al día, una vez por semana o cuando se actualicen los datos. Incluso puede establecer una hora concreta a la que Power BI envíe los mensajes de correo electrónico o hacer que se ejecute al instante.  En resumen, puede configurar hasta 24 suscripciones distintas por informe o panel.  
 
 El correo electrónico y la instantánea usarán el idioma establecido en la configuración de Power BI (consulte [Idiomas y países o regiones admitidos para Power BI](../supported-languages-countries-regions.md)). Si no se ha definido ningún idioma, Power BI usa el idioma de acuerdo con la configuración regional del explorador actual. Para ver o establecer las preferencias de idioma, seleccione el icono de engranaje ![icono de engranaje](./media/end-user-subscribe/power-bi-settings-icon.png) > **Configuración > General > Idioma**. 
 
@@ -78,7 +80,7 @@ Una suscripción finalizará si expira la licencia de Pro, el propietario elimin
 * En las suscripciones de correo electrónico de panel, si se ha aplicado la seguridad de nivel de fila (RLS) a algún icono, dicho icono no se mostrará.  En cuanto a las suscripciones de correo electrónico de informe, si el conjunto de datos usa RLS, no podrá crear una suscripción.
 * Si los vínculos del correo electrónico (al contenido) dejan de funcionar, es posible que el contenido se haya eliminado. En el correo electrónico, debajo de la captura de pantalla, puede ver si se ha suscrito personalmente o si alguien lo ha hecho por usted. Si lo ha hecho otra persona, pídale que cancele los mensajes de correo electrónico o que vuelva a suscribirle.
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y cambia de nombre, tendrá que volver a crear la suscripción.
-* Si no puede usar la característica de suscripción, póngase en contacto con el administrador del sistema. Es posible que la organización haya desactivado esta característica por razones de autenticación o de otro tipo.  
+* Si no puede usar la característica de suscripción, póngase en contacto con el administrador del sistema. Es posible que su organización haya deshabilitado esta característica.  
 * Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](../power-bi-custom-visuals.md).  La excepción son los objetos visuales personalizados que se han [certificado](../power-bi-custom-visuals-certified.md).  
 * En estos momentos, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
 * Para las suscripciones de unos paneles en concreto, no se admiten aún ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     

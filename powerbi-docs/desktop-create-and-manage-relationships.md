@@ -2,7 +2,6 @@
 title: Crear y administrar relaciones en Power BI Desktop
 description: Crear y administrar relaciones en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: f2102ad654a056832f7890dc506acc99eb5ef26f
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61312713"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869130"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Crear y administrar relaciones en Power BI Desktop
 Al importar varias tablas, lo más probable es que vaya a realizar un análisis con los datos de todas esas tablas. Las relaciones entre esas tablas son necesarias para calcular los resultados de forma precisa y mostrar la información correcta en los informes. Power BI Desktop facilita la creación de esas relaciones. De hecho, en la mayoría de los casos no tendrá que hacer nada; la característica de detección automática lo puede hacer por usted. Sin embargo, en algunos casos tendrá que crear relaciones usted mismo o tal vez necesite realizar algunos cambios en una relación. En cualquier caso, es importante entender las relaciones en Power BI Desktop y cómo crearlas y editarlas.
@@ -64,9 +63,9 @@ Al crear o editar una relación, puede configurar opciones adicionales. De forma
 Vea la sección Información sobre opciones adicionales más adelante en este artículo para obtener más detalles sobre cuándo se debe cambiar la cardinalidad.
 
 ## <a name="cross-filter-direction"></a>Dirección de filtro cruzado
-**Ambos**: la dirección más común (predeterminada), lo que significa que para fines de filtrado, ambas tablas se tratan como si fueran una sola tabla. **Esta opción** funciona bien con una única tabla que tenga un número de tablas de búsqueda a su alrededor. Un ejemplo es una tabla de datos reales de ventas con una tabla de búsqueda de departamento. Esto se suele denominar una configuración de esquema de estrella (una tabla central con varias tablas de búsqueda). Sin embargo, si tiene dos o más tablas que también tengan tablas de búsqueda (con algo en común), no deseará usar la configuración de ambos. Para continuar con el ejemplo anterior, en este caso, también dispone de una tabla de ventas de presupuesto que registra el presupuesto de destino para cada departamento. Además, la tabla de departamento está conectada a la tabla de presupuesto y de ventas. Evite la configuración de ambos para este tipo de configuración.
+**Ambos**: esto significa que para fines de filtrado, ambas tablas se tratan como si fueran una sola tabla. **Esta opción** funciona bien con una única tabla que tenga un número de tablas de búsqueda a su alrededor. Un ejemplo es una tabla de datos reales de ventas con una tabla de búsqueda de departamento. Esto se suele denominar una configuración de esquema de estrella (una tabla central con varias tablas de búsqueda). Sin embargo, si tiene dos o más tablas que también tengan tablas de búsqueda (con algo en común), no deseará usar la configuración de ambos. Para continuar con el ejemplo anterior, en este caso, también dispone de una tabla de ventas de presupuesto que registra el presupuesto de destino para cada departamento. Además, la tabla de departamento está conectada a la tabla de presupuesto y de ventas. Evite la configuración de ambos para este tipo de configuración.
 
-**Único**: las opciones de filtrado en tablas conectadas trabajan sobre la tabla donde se agregan los valores. Si importa un modelo de datos de Power Pivot o anterior en Excel 2013, todas las relaciones tendrán una dirección única. 
+**Único**: la dirección predeterminada y más común, que significa que las opciones de filtrado en tablas conectadas trabajan sobre la tabla donde se agregan los valores. Si importa un modelo de datos de Power Pivot o anterior en Excel 2013, todas las relaciones tendrán una dirección única. 
 
 Vea la sección Información sobre opciones adicionales más adelante en este artículo para obtener más detalles sobre cuándo se debe cambiar la dirección del filtro único.
 

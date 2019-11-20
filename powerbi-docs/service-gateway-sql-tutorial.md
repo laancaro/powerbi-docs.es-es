@@ -2,7 +2,6 @@
 title: 'Tutorial: Conexión a datos locales en SQL Server'
 description: Obtenga información sobre cómo usar SQL Server como un origen de datos de la puerta de enlace, incluida la forma de actualizar los datos.
 author: mgblythe
-manager: kfile
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
@@ -10,12 +9,12 @@ ms.topic: tutorial
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 54ef11b51fb02b6913b4d591967a140c5affc1b8
-ms.sourcegitcommit: 9d13ef7a257b5006fca5f92acf5b611f5cd143a2
+ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "68307392"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881547"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Actualización de los datos desde una base de datos local de SQL Server
 
@@ -114,7 +113,7 @@ En Power BI Desktop, se conecta directamente a la base de datos local de SQL Ser
     | Opción | Valor |
     | --- | --- |
     | Nombre del origen de datos | AdventureWorksProducts |
-    | Tipo de origen de datos | SQL Server |
+    | Tipo de origen de datos | SQL Server |
     | Servidor | El nombre de la instancia de SQL Server, por ejemplo, SQLServer01 (debe ser idéntico al especificado en Power BI Desktop). |
     | Base de datos | El nombre de la base de datos de SQL Server, por ejemplo, AdventureWorksDW (debe ser idéntico al especificado en Power BI Desktop). |
     | Método de autenticación | Windows o Básico (normalmente, Windows). |
@@ -131,7 +130,7 @@ En Power BI Desktop, se conecta directamente a la base de datos local de SQL Ser
 
 Ahora que ha conectado el conjunto de datos en Power BI con la base de datos local de SQL Server mediante una puerta de enlace de datos, siga estos pasos para configurar una programación de actualización. Actualizar el conjunto de datos de forma programada le ayuda a garantizar que los informes y los paneles tienen los datos más recientes.
 
-1. En el panel de navegación izquierdo, abra **Mi área de trabajo** \> **Conjuntos de datos**. Seleccione los puntos suspensivos ( **. . .** ) del conjunto de datos **AdventureWorksProducts** y seleccione **Programar actualización**.
+1. En el panel de navegación, abra **Mi área de trabajo** \> **Conjuntos de datos**. Seleccione los puntos suspensivos ( **. . .** ) del conjunto de datos **AdventureWorksProducts** y seleccione **Programar actualización**.
 
     > [!NOTE]
     > Asegúrese de seleccionar los puntos suspensivos del conjunto de datos **AdventureWorksProducts** y no los del informe que tiene el mismo nombre. En el menú contextual del informe **AdventureWorksProducts** no se incluye la opción **Programar actualización**.
@@ -149,7 +148,7 @@ Ahora que ha conectado el conjunto de datos en Power BI con la base de datos loc
 
 ## <a name="perform-an-on-demand-refresh"></a>Realización de una actualización a petición
 
-Ahora que ha configurado una programación de actualización, Power BI actualiza el conjunto de datos en la siguiente hora programada, dentro de un margen de 15 minutos. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación izquierdo. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, que se ha mencionado en la sección anterior.
+Ahora que ha configurado una programación de actualización, Power BI actualiza el conjunto de datos en la siguiente hora programada, dentro de un margen de 15 minutos. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, que se ha mencionado en la sección anterior.
 
 Con fines meramente ilustrativos, simule un cambio en los datos de ejemplo al actualizar la tabla DimProduct de la base de datos AdventureWorksDW mediante SQL Server Management Studio (SSMS).
 
@@ -163,7 +162,7 @@ WHERE EnglishProductName ='Road-250 Red, 58'
 
 Ahora, siga estos pasos para que los datos actualizados puedan pasar por la conexión de puerta de enlace al conjunto de datos y a los informes en Power BI.
 
-1. En el panel de navegación izquierdo del servicio Power BI, seleccione y expanda **Mi área de trabajo**.
+1. En el panel de navegación del servicio Power BI, seleccione y expanda **Mi área de trabajo**.
 
 2. En **Conjuntos de datos**, en el conjunto de datos **AdventureWorksProducts**, seleccione los puntos suspensivos ( **. . .** ) y seleccione **Actualizar ahora**.
 

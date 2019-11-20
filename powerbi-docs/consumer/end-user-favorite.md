@@ -2,7 +2,6 @@
 title: Favoritos en el servicio Power BI (paneles, informes, aplicaciones)
 description: Documentación acerca de cómo establecer como favoritos paneles, informes y aplicaciones en el servicio Power BI
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 featuredvideoid: G26dr2PsEpk
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: mihart
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 165f958cabf3eb6f3cc5c0e61b62667f891d1d48
-ms.sourcegitcommit: 02042995df12cc4e4b97eb8a369e62364eb5af36
+ms.openlocfilehash: 48322b554a7b600bc5cadc7c40fe366c64cd8549
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "71256384"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73852656"
 ---
 # <a name="favorite-dashboards-reports-and-apps-in-the-power-bi-service"></a>Agregar a Favoritos aplicaciones, informes y paneles en el servicio Power BI
 Cuando se convierte contenido en *favorito*, se puede acceder a él rápidamente desde la lista de contenido **Favoritos** y desde **Inicio** de Power BI > **Favoritos y frecuentes**. Los favoritos suelen ser contenido que se visita con más frecuencia y se identifican con una estrella amarilla.
@@ -53,7 +52,7 @@ También puede seleccionar un solo panel como [Panel destacado](end-user-feature
 1. Para acceder a los favoritos, seleccione la flecha de control flotante situada a la derecha de **Favoritos**. Ahí puede seleccionar un elemento favorito para abrirlo. Se muestran hasta cinco favoritos en orden alfabético. Si tiene más de cinco, seleccione **Ver todo** para abrir la lista de contenido Favoritos. 
    
    ![Ventana flotante de favoritos](./media/end-user-favorite/power-bi-favorite-flyout.png)
-2. Para ver todo el contenido que ha agregado como favorito, seleccione **Favoritos** en el panel de navegación o el icono Favoritos de ![Icono de estrella](./media/end-user-favorite/power-bi-favorites-icon.png). 
+2. Para ver todo el contenido que ha agregado como favorito, seleccione **Favoritos** en el panel de navegación o el ![Icono de estrella](./media/end-user-favorite/power-bi-favorites-icon.png) de Favoritos. 
    
     ![Ventana de Favoritos](./media/end-user-favorite/power-bi-fav-screen.png)
    
@@ -62,7 +61,7 @@ También puede seleccionar un solo panel como [Panel destacado](end-user-feature
 ## <a name="unfavorite-content"></a>Quitar contenido de Favoritos
 Si ya no usa un informe tanto como antes, lo puede quitar de Favoritos. Al quitar contenido de Favoritos, desaparece de la lista, pero no de Power BI.
 
-1. En el panel de navegación izquierdo, seleccione **Favoritos** para abrir la pantalla **Favoritos**.
+1. En el panel de navegación, seleccione **Favoritos** para abrir la pantalla **Favoritos**.
    
    ![Pantalla Favoritos](./media/end-user-favorite/power-bi-un-favorite.png)
 2. Seleccione la estrella amarilla que hay junto al contenido que quiere quitar de Favoritos.
@@ -76,5 +75,5 @@ De momento, puede convertir una aplicación en favorita y esto convierte automá
 
 ## <a name="next-steps"></a>Pasos siguientes
 - [Power BI: conceptos básicos](end-user-basic-concepts.md)
-- ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](http://community.powerbi.com/).
+- ¿Tiene más preguntas? Consulte la [Comunidad de Power BI](https://community.powerbi.com/).
 

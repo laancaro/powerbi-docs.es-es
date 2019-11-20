@@ -2,7 +2,6 @@
 title: Generación automática de conclusiones de datos con Power BI
 description: Vea cómo obtener información detallada acerca de los conjuntos de datos y los iconos del panel.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: et_MLSL2sA8
 ms.custom: seodec18
@@ -12,12 +11,12 @@ ms.topic: conceptual
 ms.date: 08/06/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 0492b797d75e29145c14a70d8a8058bad295ef18
-ms.sourcegitcommit: d12bc6df16be1f1993232898f52eb80d0c9fb04e
+ms.openlocfilehash: 5f571cabcc413947713cd232863b3ecad910436d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68994910"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872242"
 ---
 # <a name="generate-data-insights-automatically-with-power-bi"></a>Generación automática de conclusiones de datos con Power BI
 ¿Tiene un conjunto de datos nuevo y no está muy seguro de por dónde empezar?  ¿Necesita crear un panel rápidamente?  ¿Quiere buscar información que puede que le falte?
@@ -38,7 +37,7 @@ Vea a Amanda extraer información rápida de un conjunto de datos, abrir la info
 
 Ahora es su turno. Explore la característica de información detallada mediante el [Ejemplo de análisis de calidad de proveedores](sample-supplier-quality.md).
 
-1. En la pestaña **Conjuntos de datos**, seleccione el botón de puntos suspensivos (...) y elija **Obtener información rápida**.
+1. En la pestaña **Conjuntos de datos**, seleccione el botón **Más opciones** (...) y elija **Obtener información rápida**.
    
     ![Pestaña Conjuntos de datos](media/service-insights/power-bi-ellipses.png)
    
@@ -62,7 +61,7 @@ Ahora es su turno. Explore la característica de información detallada mediante
 
 1. Mantenga el puntero sobre una tarjeta y seleccione el icono de anclaje para agregar la visualización a un panel.
 
-2. Mantenga el puntero sobre una tarjeta, seleccione los puntos suspensivos (...) y elija **Ver información**. 
+2. Mantenga el puntero sobre una tarjeta, seleccione **Más opciones** (...) y elija **Ver información**. 
 
     Se abre la pantalla de información en modo de enfoque.
    
@@ -86,7 +85,7 @@ Ahora es su turno. Explore la característica de información detallada mediante
 En lugar de buscar información en un conjunto de datos entero, limite la búsqueda para obtener información con ámbito de los datos usados para crear un único icono de panel. 
 
 1. Abra un panel.
-2. Mantenga el puntero encima de un icono. Seleccione el botón de puntos suspensivos (...) y, después, elija **Ver información**. El icono se abre en [modo de enfoque](service-focus-mode.md) con las tarjetas de información a la derecha.    
+2. Mantenga el puntero encima de un icono. Seleccione **Más opciones** (...) y elija **Ver información**. El icono se abre en [modo de enfoque](service-focus-mode.md) con las tarjetas de información a la derecha.    
    
     ![Modo de enfoque](media/service-insights/pbi-insights-tile.png)    
 3. ¿Alguna información capta su interés? Seleccione esa tarjeta de información para profundizar aún más. A la izquierda, se muestra la información seleccionada y, a la derecha, nuevas tarjetas de información, basadas solo en los datos de esa única información.    
@@ -96,5 +95,5 @@ En lugar de buscar información en un conjunto de datos entero, limite la búsqu
 - Si es propietario de un conjunto de datos, [optimícelo para Conclusiones rápidas](service-insights-optimize.md).
 - Obtenga información sobre los [tipos de Conclusiones rápidas disponibles](service-insight-types.md).
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 

@@ -2,7 +2,6 @@
 title: Búsqueda de contenido en el servicio Power BI
 description: Comience en el lienzo Inicio y busque y abra informes, paneles y aplicaciones.
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: d97b5a93060869d65de6652af869b472baf8cd10
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: b905b738dc9fa38e390a94fb1b893aba8e45a0db
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71077793"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73863691"
 ---
 # <a name="find-your-dashboards-reports-and-apps"></a>Búsqueda de paneles, informes y aplicaciones
 En Power BI, el término *contenido* se refiere a aplicaciones, paneles e informes. Los *diseñadores* de Power BI crean el contenido y lo comparten con colegas como usted. El contenido es accesible y visible en el servicio Power BI, donde el mejor lugar para empezar a trabajar es la página de aterrizaje Inicio.
@@ -28,7 +27,7 @@ Al iniciar sesión, Power BI se abre y muestra el lienzo Inicio, como se muestra
 Inicio de Power BI ofrece tres formas diferentes de buscar y ver el contenido. Las tres acceden al mismo grupo de contenido, simplemente son maneras distintas de llegar a ese contenido. A veces, la búsqueda es la forma más sencilla y rápida de encontrar algo, mientras que otras, la selección de una *tarjeta* en el lienzo Inicio es la mejor opción.
 
 - El lienzo Inicio muestra y organiza el contenido favorito y más reciente, además del contenido recomendado y los recursos de aprendizaje. Cada fragmento de contenido se muestra como una *tarjeta*, con un título y un icono. Al seleccionar una tarjeta se abre ese contenido.
-- A lo largo del lado izquierdo hay un panel de navegación, que se conoce como barra de navegación. En este panel, el mismo contenido se organiza de un modo ligeramente distinto, por Favoritos, Recientes, Aplicaciones y Compartido conmigo. Desde aquí, puede ver listas de contenido y seleccionar la que quiere abrir.
+- A lo largo del lado izquierdo hay un panel, que se conoce como panel de navegación. En este panel, el mismo contenido se organiza de un modo ligeramente distinto, por Favoritos, Recientes, Aplicaciones y Compartido conmigo. Desde aquí, puede ver listas de contenido y seleccionar la que quiere abrir.
 - En la esquina superior derecha, el cuadro de búsqueda global permite buscar contenido por título, nombre o palabra clave.
 
 En los temas siguientes se revisa cada una de estas opciones para buscar y ver contenido.
@@ -65,23 +64,23 @@ En función de la configuración de la cuenta y la actividad, Power BI muestra u
 ### <a name="learning-resources"></a>Recursos de aprendizaje
 En la parte inferior del lienzo Inicio hay un conjunto de recursos de aprendizaje. Los recursos exactos que aparecen dependen de la actividad, la configuración y el administrador de Power BI. 
  
-## <a name="explore-the-navigation-pane-nav-bar"></a>Exploración del panel de navegación (barra de navegación)
+## <a name="explore-the-nav-pane"></a>Exploración del panel de navegación
 
-![Captura de pantalla de la barra de navegación del servicio Power BI.](media/end-user-home/power-bi-nav-bar.png)
+![Captura de pantalla del panel de navegación del servicio Power BI.](media/end-user-home/power-bi-nav-bar.png)
 
 
-Use el panel de navegación izquierdo (barra de navegación) para buscar paneles, informes y aplicaciones y desplazarse por ellos. A veces, la barra de navegación es la forma más rápida de llegar al contenido.
-La barra de navegación está ahí al abrir la página de aterrizaje Inicio y permanece estática mientras se abren otras áreas del servicio Power BI.
+Use el panel de navegación para buscar paneles, informes y aplicaciones y desplazarse por ellos. A veces, el uso del panel de navegación es la forma más rápida de llegar al contenido.
+El panel de navegación está ahí al abrir la página de aterrizaje Inicio y permanece estática mientras se abren otras áreas del servicio Power BI.
   
-La barra de navegación organiza el contenido en contenedores que son similares a lo que ya se ha visto en el lienzo Inicio: Favoritos, Recientes, Aplicaciones y Compartido conmigo. Con los controles flotantes, solo puede ver el contenido más reciente de cada uno de estos contenedores, o bien puede ir a listas de contenido para ver todo el contenido de cada categoría de contenedores.
+El panel de navegación organiza el contenido en contenedores que son similares a lo que ya se ha visto en el lienzo Inicio: Favoritos, Recientes, Aplicaciones y Compartido conmigo. Con los controles flotantes, solo puede ver el contenido más reciente de cada uno de estos contenedores, o bien puede ir a listas de contenido para ver todo el contenido de cada categoría de contenedores.
  
 - Para abrir una de estas secciones de contenido y mostrar una lista de todos los elementos, seleccione el encabezado.
 - Para ver lo más reciente de cada contenedor, seleccione el control flotante ( **>** ).
 
-    ![Vídeo donde se muestra el uso de la barra de navegación de Recientes](media/end-user-home/power-bi-nav-bar.gif)
+    ![Vídeo en el que se muestra el uso del panel de navegación Recientes](media/end-user-home/power-bi-nav-bar.gif)
 
  
-La barra de navegación es otra manera de encontrar el contenido que se quiere rápidamente. El contenido está organizado de forma similar al del lienzo Inicio, aunque se muestra en listas en lugar de en tarjetas. 
+El panel de navegación es otra manera de encontrar el contenido que se quiere rápidamente. El contenido está organizado de forma similar al del lienzo Inicio, aunque se muestra en listas en lugar de en tarjetas. 
 
 ## <a name="search-all-of-your-content"></a>Búsqueda de todo el contenido
 A veces, la manera más rápida de encontrar el contenido es buscarlo. Por ejemplo, quizás haya descubierto que un panel que no ha usado desde hace tiempo no aparece en el lienzo Inicio. O bien, quizás recuerde que su colega Aaron lo ha compartido con usted, pero no cómo lo ha denominado o de qué tipo de contenido se trata, si era un panel o un informe.

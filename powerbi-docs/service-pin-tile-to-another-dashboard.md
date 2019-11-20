@@ -2,7 +2,6 @@
 title: Anclar un icono desde un panel a otro panel
 description: Anclar un icono desde un panel a otro panel
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 4fe3b56f1891423a80019186668dc55f361d580a
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 8e0c598d02b808e997bf0c1f47322e132860100c
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61225909"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881216"
 ---
 # <a name="pin-a-tile-from-one-dashboard-to-another-dashboard"></a>Anclar un icono desde un panel a otro panel
 Una forma de agregar un nuevo [icono del panel](consumer/end-user-tiles.md) es copiándolo desde otro panel. Cada uno de estos iconos, al hacer clic, es un vínculo que lleva a donde se creó, ya sea en Preguntas y respuestas o un informe. 
@@ -26,7 +25,7 @@ Una forma de agregar un nuevo [icono del panel](consumer/end-user-tiles.md) es c
 ## <a name="pin-a-tile-to-another-dashboard"></a>Anclar un icono a otro panel
 1. [Obtenga los datos](service-get-data.md). En este artículo se usa el [ejemplo de análisis de gastos de TI](sample-it-spend.md).
 2. Abra un [panel](consumer/end-user-dashboards.md).
-3. Mueva el puntero sobre el icono que quiere anclar, seleccione los puntos suspensivos y, después, el **icono de anclaje**.  
+3. Mueva el puntero sobre el icono que quiere anclar, seleccione **Más opciones** (...) y, después, el **icono de anclaje**.  
    
    ![Menú del botón de puntos suspensivos](media/service-pin-tile-to-another-dashboard/power-bi-pin-another-dash.png)
 4. Ancle el icono a un panel existente o a un nuevo panel. 
@@ -44,5 +43,5 @@ Una forma de agregar un nuevo [icono del panel](consumer/end-user-tiles.md) es c
 ## <a name="next-steps"></a>Pasos siguientes
 [Iconos en Power BI](consumer/end-user-tiles.md)  
 [Paneles en Power BI](consumer/end-user-dashboards.md)  
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

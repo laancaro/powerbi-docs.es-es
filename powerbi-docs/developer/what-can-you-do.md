@@ -3,18 +3,17 @@ title: ¿Qué pueden hacer los desarrolladores con Power BI?
 description: Power BI ofrece una amplia gama de opciones para los desarrolladores. Desde inserción, pasando por objetos visuales personalizados y hasta conjuntos de datos de transmisión.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.topic: overview
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: mvc
 ms.date: 03/15/2019
-ms.openlocfilehash: 0d4f79714be7d354c26a7bd63adbe8bce07ed4ef
-ms.sourcegitcommit: 549401b0e1fad15c3603fe7f14b9494141fbb100
+ms.openlocfilehash: 9105edd88e83f17f4d6e75a7e45dc123a6789713
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "72307465"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73875687"
 ---
 # <a name="what-can-developers-do-with-power-bi"></a>¿Qué pueden hacer los desarrolladores con Power BI?
 
@@ -22,7 +21,7 @@ Los desarrolladores tienen distintas opciones para tratar de incluir contenido d
 
 ## <a name="embedding-power-bi-content"></a>Inserción de contenido de Power BI
 
-El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Con esta característica puede acceder a las características de Power BI más actualizadas (como paneles, puertas de enlace y áreas de trabajo de la aplicación) para insertar el contenido.
+El servicio Power BI (SaaS) y el servicio Power BI Embedded en Azure (PaaS) tienen las API para insertar los paneles e informes. Con esta característica puede acceder a las características de Power BI más actualizadas (como paneles, puertas de enlace y áreas de trabajo) al insertar el contenido.
 
 Puede ver la [herramienta de configuración de inserción](https://aka.ms/embedsetup) para empezar rápidamente y descargar una aplicación de ejemplo.
 

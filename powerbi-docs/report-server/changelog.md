@@ -3,18 +3,17 @@ title: Registro de cambios de Power BI Report Server
 description: Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
 ms.author: jaimeta
 author: jtarquino
-manager: kfile
 ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/09/2019
-ms.openlocfilehash: a3f7e1676c864ff1f5dbf081dd2e7818f30caba6
-ms.sourcegitcommit: e533c65607bbba0f620fddabd6b107e5933772c1
+ms.date: 10/25/2019
+ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "72259967"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874266"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
@@ -23,15 +22,22 @@ Este registro de cambios es para el servidor de informes de Power BI y enumera l
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
 
 ## <a name="september-2019"></a>Septiembre de 2019
-
 - **Servidor de informes de Power BI**
+    - *Versión: 1.6.7236.4246 (compilación 15.0.1102.646), fecha de publicación: 25 de octubre de 2019*
+        - Actualizaciones de seguridad
+        - Correcciones de errores
+            - Corrección para .NET Framework 4.7 no instalada.
+            - Corrección para los informes paginados para Teradata con parámetros de varios valores con el error 110083.
+            - La corrección para el valor de URLRoot no funciona si hay varios enlaces de URL de servicio web y uno de ellos es https://+80/reportserver.
+          - Corrección para los parámetros con varios valores en los informes paginados que se muestran fuera del área de informe.
+          
     - *Versión: 1.6.7221.30698 (compilación 15.0.1102.620), fecha de publicación: 9 de octubre de 2019*
         - Correcciones de errores
             - Corrección del objeto visual personalizado Filtro de texto.
             - Corrección del rendimiento de las segmentaciones desplegables.
             - Corrección de la eliminación de información de identificación personal de telemetría.
-          - Corrección de las direcciones URL para que no se distingan mayúsculas de minúsculas en ellas.
-             
+          - Corrección para las direcciones URL que no distinguen mayúsculas de minúsculas.
+          
     - *Versión 1.6.7206.38019 (Compilación 15.0.1102.597), publicada el: 26 de septiembre de 2019*
         - Actualizaciones de seguridad
         - Correcciones de errores
@@ -50,7 +56,10 @@ Para obtener información detallada sobre las nuevas características, consulte 
              - API web actualizada: /PowerBIReports({Id})/DataSources (PATCH) para permitir las actualizaciones de la cadena de conexión.
          
 - **Power BI Desktop (optimizado para Power BI Report Server)**
-
+    - *Versión: 2.73.5586.1501 (septiembre de 2019), fecha de publicación: 25 de octubre de 2019*
+        - Correcciones de errores
+            - Corrección para la telemetría.
+            
     - *Versión: 2.73.5586.1241 (septiembre de 2019), fecha de publicación: 9 de octubre de 2019*
         - Correcciones de errores
             - Corrección del objeto visual personalizado Filtro de texto.
@@ -295,6 +304,6 @@ Para obtener información detallada sobre las nuevas características, consulte 
 [Información general de administrador](admin-handbook-overview.md)  
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

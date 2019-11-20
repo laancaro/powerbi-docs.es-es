@@ -2,7 +2,6 @@
 title: Usar modelos compuestos en Power BI Desktop
 description: Creación de modelos de datos con varias conexiones de datos y relaciones de varios a varios en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/19/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ae896fb737eda6f95efa1589f2b3384e7426cf30
-ms.sourcegitcommit: 4a3afe761d2f4a5bd897fafb36b53961739e8466
+ms.openlocfilehash: c79994f2144dfe019c3ac10a51230d17b75b542e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/20/2019
-ms.locfileid: "69654578"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876575"
 ---
 # <a name="use-composite-models-in-power-bi-desktop"></a>Usar modelos compuestos en Power BI Desktop
 
@@ -53,7 +52,7 @@ Por ejemplo, mediante el uso de modelos compuestos, puede crear un modelo que co
 Un modelo que combina datos de más de un origen de DirectQuery o que combina DirectQuery con datos importados se conoce como un *modelo compuesto*.
 
 
-Puede crear relaciones entre tablas como siempre lo ha hecho, incluso cuando esas tablas provienen de distintos orígenes, con estas restricciones: se debe definir que toda relación proveniente de distintos orígenes tenga una cardinalidad de *varios a varios*, independientemente de su cardinalidad real. De ese modo, el comportamiento de dichas relaciones es el mismo que el normal para las relaciones de *varios a varios*, tal como se describe en [Relaciones de varios a varios en Power BI Desktop (versión preliminar)](desktop-many-to-many-relationships.md). 
+Puede crear relaciones entre las tablas como siempre, incluso cuando las tablas procedan de orígenes diferentes. Cualquier relación entre orígenes se crea con una cardinalidad de *varios a varios*, independientemente de su cardinalidad real. Puede cambiar a una cardinalidad de uno a varios, de varios a uno o de uno a uno. Sea cual sea la cardinalidad que establezca, las relaciones entre orígenes tienen un comportamiento diferente que impide usar funciones DAX para recuperar valores en el lado de uno del lado de varios. También puede observarse un impacto en el rendimiento en comparación con las relaciones de varios a varios dentro del mismo origen.
 
 > [!NOTE]
 > En el contexto de los modelos compuestos, todas las tablas importadas son efectivamente un solo origen, independientemente del origen de datos subyacente real desde donde se importan.   
@@ -88,7 +87,7 @@ Del mismo modo, en la vista **Relaciones** en Power BI Desktop, ahora veremos un
 
 ![Vista de relaciones de las tablas](media/desktop-composite-models/composite-models_08.png)
 
-Ahora necesitamos relacionar estas tablas con las otras en el modelo. Como siempre, creamos una relación entre la tabla **Bike** (Bicicleta) de SQL Server y la tabla **ProductManagers** importada. Es decir, la relación se establece entre *Bike[ProductName]* y *ProductManagers[ProductName]* . Como se ha explicado anteriormente, todas las relaciones entre el origen deben tener la cardinalidad de *varios a varios* predeterminada. 
+Ahora necesitamos relacionar estas tablas con las otras en el modelo. Como siempre, creamos una relación entre la tabla **Bike** (Bicicleta) de SQL Server y la tabla **ProductManagers** importada. Es decir, la relación se establece entre *Bike[ProductName]* y *ProductManagers[ProductName]* . Como se ha explicado anteriormente, todas las relaciones entre el origen tienen la cardinalidad de *varios a varios* de forma predeterminada. 
 
 ![Ventana Crear diálogo](media/desktop-composite-models/composite-models_09.png)
 
@@ -180,7 +179,7 @@ Los orígenes de Live Connect (multidimensionales) siguientes no se pueden usar 
 * SAP HANA
 * SAP Business Warehouse
 * SQL Server Analysis Services
-* Conjuntos de datos de Power BI
+* Conjuntos de datos de Power BI
 * Azure Analysis Services
 
 Al conectarse a esos orígenes multidimensionales mediante DirectQuery, no se puede conectar a otro origen de DirectQuery ni combinar con los datos importados.

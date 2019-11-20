@@ -2,21 +2,20 @@
 title: Incorporación de hipervínculos (direcciones URL) a una tabla
 description: En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a una tabla o matriz. Luego, en Power BI Desktop o en el servicio Power BI, puede agregar esos hipervínculos a las tablas y matrices de informes.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/30/2019
+ms.date: 10/29/2019
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: b158e968d0fd35859cfd293177a7273e8311d5b2
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: e8cad7035e752e5e344d78a22ad5fd8ea0a072ad
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715291"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874517"
 ---
 # <a name="add-hyperlinks-urls-to-a-table"></a>Incorporación de hipervínculos (direcciones URL) a una tabla
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a una tabla o matriz. Luego, en Power BI Desktop o en el servicio Power BI, puede agregar esos hipervínculos a las tablas y matrices de informes. 
@@ -44,7 +43,7 @@ El procedimiento para agregar un hipervínculo depende de si ha importado los da
     ![Vínculos de color azul y subrayados](media/power-bi-hyperlinks-in-tables/power-bi-table-with-hyperlinks2.png)
 
     > [!NOTE]
-    > Las direcciones URL deben comenzar por **http://, https://** o **www**.
+    > Las direcciones URL tienen que comenzar con determinados prefijos. Para obtener una lista completa, consulte [Consideraciones y solución de problemas](#considerations-and-troubleshooting).
     >
    
 1. Si no quiere que aparezca una dirección URL larga en una tabla, puede mostrar un icono de hipervínculo  ![Icono de hipervínculo](media/power-bi-hyperlinks-in-tables/power-bi-hyperlink-icon.png) en su lugar. Tenga en cuenta que en las matrices no se muestran iconos.
@@ -80,8 +79,9 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
 4. Coloque el cursor en la columna que contiene las direcciones URL que desea convertir en hipervínculos de tablas de Power BI.
    
    > [!NOTE]
-   > Las direcciones URL deben comenzar por **http://, https://** o **www**.
+   > Las direcciones URL tienen que comenzar con determinados prefijos. Para obtener una lista completa, consulte [Consideraciones y solución de problemas](#considerations-and-troubleshooting).
    > 
+   
 5. En el grupo **Propiedades de informes** , seleccione la lista desplegable **Categoría de datos** y elija **Dirección URL web**. 
    
    ![Lista desplegable de categorías de datos en Excel](media/power-bi-hyperlinks-in-tables/createhyperlinksnew.png)
@@ -92,6 +92,16 @@ Otra manera de agregar hipervínculos a las tablas y matrices de Power BI es cre
    ![Crear una tabla en Power BI con el campo de dirección URL](media/power-bi-hyperlinks-in-tables/hyperlinksintables.gif)
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+
+Las direcciones URL tienen que comenzar con uno de los siguientes elementos:
+- http
+- https
+- -mailto
+- file
+- ftp
+- news
+- telnet
+
 P: ¿Puedo usar una dirección URL personalizada como hipervínculo en una tabla o matriz?    
 R: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para los hipervínculos y la lista de direcciones URL es breve, considere la posibilidad de utilizar un cuadro de texto en su lugar.
 
@@ -101,5 +111,5 @@ R: No. Puede utilizar un icono de vínculo. Si necesita texto personalizado para
 
 [Conceptos básicos para los diseñadores en el servicio Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -3,18 +3,17 @@ title: Instalar un servidor de informes de Power BI
 description: Aprenda a instalar un servidor de informes de Power BI.
 author: maggiesMSFT
 ms.author: maggies
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 05/22/2019
-ms.openlocfilehash: c0e3666a5838ae8e3849f5defd3858c9ea205a42
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66839453"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73874128"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -50,7 +49,7 @@ Si ha adquirido Power BI Premium, dentro de la pestaña **Configuración de Prem
 
 Al seleccionar **Clave de Power BI Report Server**, se muestra un cuadro de diálogo con la clave de producto. Puede copiarla y usarla en la instalación.
 
-![Clave de producto](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Clave de producto de Power BI Report Server")
+![Clave del producto](../report-server/media/install-report-server/pbirs-product-key-dialog.png "Clave de producto del servidor de informes de Power BI")
 
 #### <a name="sql-server-enterprise-software-assurance-sa"></a>Software Assurance (SA) de SQL Server Enterprise
 
@@ -78,7 +77,7 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
     En caso contrario, escriba la clave de producto que obtuvo en el servicio Power BI o en el Centro de servicio de licencias por volumen. Para más información sobre cómo conseguir la clave de producto, consulte la sección anterior [Antes de la instalación](#before-you-install).
 4. Lee y acepte los términos y condiciones de la licencia y seleccione **Siguiente**.
 
-    ![Términos de la licencia](media/install-report-server/pbireportserver-eula.png)
+    ![Términos de licencia](media/install-report-server/pbireportserver-eula.png)
 5. Debe tener un motor de base de datos disponible para almacenar la base de datos del servidor de informes. Seleccione **Siguiente** para instalar solo el servidor de informes.
 
     ![Instalar solo archivos](media/install-report-server/pbireportserver-install-files-only.png)
@@ -127,14 +126,14 @@ Las reservas de dirección URL están compuestas por un prefijo, el nombre de ho
 | Parte | Descripción |
 | --- | --- |
 | Prefijo |El prefijo predeterminado es HTTP. Si instaló antes un certificado de Capa de sockets seguros (SSL), el programa de instalación intenta crear reservas de dirección URL que usan el prefijo HTTPS. |
-| Nombre de host |El nombre de host predeterminado es un carácter comodín seguro (+). Especifica que el servidor de informes acepta cualquier solicitud HTTP en el puerto designado para cualquier nombre de host que se resuelva en el equipo, lo que incluye `http://<computername>/reportserver`, `http://localhost/reportserver` o `http://<IPAddress>/reportserver.` |
+| Nombre de host |El nombre de host predeterminado es un carácter comodín seguro (+). Especifica que el servidor de informes acepta cualquier solicitud HTTP en el puerto designado para cualquier nombre de host que se resuelva en el equipo, lo que incluye `https://<computername>/reportserver`, `https://localhost/reportserver` o `https://<IPAddress>/reportserver.` |
 | Puerto |El puerto predeterminado es 80. Si usa cualquier otro puerto, tiene que agregarlo explícitamente a la dirección URL al abrir el portal web en una ventana del explorador. |
 | Directorio virtual |De forma predeterminada, los directorios virtuales se crean en el formato de servidor de informes para el servicio web del servidor de informes y de informes para el portal web. Para el servicio web del servidor de informes, el directorio virtual predeterminado es **reportserver**. Para el portal web, el directorio virtual predeterminado es **reports**. |
 
 Un ejemplo de cadena de dirección URL completa podría ser la siguiente:
 
-* `http://+:80/reportserver`, proporciona acceso al servidor de informes.
-* `http://+:80/reports`, proporciona acceso al portal web.
+* `https://+:80/reportserver`, proporciona acceso al servidor de informes.
+* `https://+:80/reports`, proporciona acceso al portal web.
 
 ## <a name="firewall"></a>Firewall
 

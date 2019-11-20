@@ -3,7 +3,6 @@ title: Optimización de las capacidades de Microsoft Power BI Premium
 description: Se describen estrategias de optimización para las capacidades de Power BI Premium.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 04/09/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: 1fb775bd203fc1e0f6342a0d5cd4d9e382b8342a
-ms.sourcegitcommit: 9665997274301b228f45aa7250ba557e90164a4d
+ms.openlocfilehash: d2e8ede356ed015c4c35b311ca58d35366324b9a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/06/2019
-ms.locfileid: "70750917"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871911"
 ---
 # <a name="optimizing-premium-capacities"></a>Optimización de las capacidades Premium
 
@@ -33,7 +32,7 @@ Por último, el artículo concluye con los enfoques de prueba y ajuste del tama�
 
 Al intentar obtener el uso y rendimiento óptimos, existen algunos procedimientos recomendados, entre los que se incluyen los siguientes:
 
-- Uso de áreas de trabajo de la aplicación en lugar de áreas de trabajo personales.
+- Uso de las nuevas áreas de trabajo en lugar de las personales.
 - Separación de inteligencia empresarial de autoservicio (SSBI) y crítica para la empresa en diferentes capacidades.
 
   ![Separación de inteligencia empresarial de autoservicio y crítica para la empresa en diferentes capacidades](media/service-premium-capacity-optimize/separate-capacities.png)
@@ -257,7 +256,7 @@ Es importante que las pruebas sean repetibles. Las pruebas se deben ejecutar var
 
 Si ya tiene una capacidad y los informes para los que quiere realizar pruebas de carga, use la [herramienta de generación de cargas de PowerShell](https://aka.ms/PowerBILoadTestingTool) para generar rápidamente una prueba de carga. La herramienta permite calcular el número de instancias de cada informe que la capacidad puede ejecutar en una hora. Puede usar la herramienta para evaluar si la capacidad puede representar informes individuales o varios informes diferentes en paralelo. Para más información, vea el vídeo [Microsoft Power BI: capacidad Premium](https://www.youtube.com/watch?time_continue=1860&v=C6vk6wk9dcw).
 
-Para generar una prueba más compleja, considere la posibilidad de desarrollar una aplicación de prueba de carga que simule una carga de trabajo realista. Para más información, vea el seminario web [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/en-us/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Pruebas de carga de aplicaciones de Power BI con la prueba de carga de Visual Studio).
+Para generar una prueba más compleja, considere la posibilidad de desarrollar una aplicación de prueba de carga que simule una carga de trabajo realista. Para más información, vea el seminario web [Load Testing Power BI Applications with Visual Studio Load Test](https://powerbi.microsoft.com/blog/week-4-11-webinars-load-testing-power-bi-applications-with-visual-studio-load-test-and-getting-started-with-cds-for-apps-based-model-driven-apps/) (Pruebas de carga de aplicaciones de Power BI con la prueba de carga de Visual Studio).
 
 ## <a name="acknowledgements"></a>Agradecimientos
 

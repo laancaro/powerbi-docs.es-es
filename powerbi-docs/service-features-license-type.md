@@ -1,8 +1,7 @@
 ---
 title: Características del servicio Power BI por tipo de licencia
-description: 'En el servicio Power BI, los usuarios han definido funcionalidades según dos tipos de licencias: por usuario (gratis y Pro) y según la capacidad.'
+description: En el servicio Power BI, los usuarios tienen funcionalidades definidas en función del tipo de licencia por usuario que tienen (gratuito o Pro) y si el contenido con el que interactúan se encuentra en un área de trabajo asignada a una capacidad Power BI Premium.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -11,12 +10,12 @@ ms.date: 12/06/2018
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Get started
-ms.openlocfilehash: 6f44f4b382dacf3850cc5b3aa67f712a607468a6
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 47070a7e215235826a35ba777683c2114ba612ec
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65554442"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881796"
 ---
 # <a name="power-bi-service-features-by-license-type"></a>Características del servicio Power BI por tipo de licencia
 
@@ -37,7 +36,7 @@ Esta es una lista de las características que admite el tipo de licencia por usu
 | API y controles insertados |![Característica no disponible](media/features-license-type/not-available.png) |![Característica disponible](media/features-license-type/available.png) |
 | **Colaboración** | | |
 | Uso compartido entre iguales |![Característica no disponible](media/features-license-type/not-available.png) |![Característica disponible](media/features-license-type/available.png) |
-| Áreas de trabajo de la aplicación |![Característica no disponible](media/features-license-type/not-available.png) |![Característica disponible](media/features-license-type/available.png) |
+| Áreas de trabajo |![Característica no disponible](media/features-license-type/not-available.png) |![Característica disponible](media/features-license-type/available.png) |
 | Análisis en Excel y en Power BI Desktop |![Característica no disponible](media/features-license-type/not-available.png) |![Característica disponible](media/features-license-type/available.png) |
 
 ## <a name="next-steps"></a>Pasos siguientes

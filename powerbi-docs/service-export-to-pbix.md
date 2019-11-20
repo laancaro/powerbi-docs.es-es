@@ -2,7 +2,6 @@
 title: Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 description: Descargar un informe desde el servicio Power BI a un archivo de Power BI Desktop
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 2c17378c14ef084ad6632e52df2a801832b311d9
-ms.sourcegitcommit: d04b9e1426b8544ce16ef25864269cc43c2d9f7b
+ms.openlocfilehash: de7a01f70d179237c45205447f564b3833db2156
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "71715176"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881811"
 ---
 # <a name="download-a-report-from-the-power-bi-service-to-power-bi-desktop-preview"></a>Descarga de un informe desde el servicio Power BI a Power BI Desktop (versión preliminar)
 En Power BI Desktop, puede publicar un informe (un archivo *.pbix*) desde el equipo local en el servicio Power BI. Los informes de Power BI también pueden ir en la dirección contraria: puede descargar un informe desde el servicio Power BI a Power BI Desktop. En cualquier caso, la extensión de un informe de Power BI es .pbix.
@@ -32,7 +31,7 @@ Para descargar el archivo .pbix, haga lo siguiente:
 
 1. En el servicio Power BI, abra el informe que quiere descargar en [Vista de edición](https://docs.microsoft.com/power-bi/service-interact-with-a-report-in-editing-view).
 
-2. En la barra de navegación superior, seleccione **Archivo > Descargar informe**.
+2. En el panel de navegación superior, seleccione **Archivo > Descargar informe**.
    
 3. Mientras se descarga el informe, el progreso se muestra en un banner de estado. Cuando el archivo esté listo, se le preguntará dónde guardar el archivo .pbix. El nombre predeterminado del archivo coincide con el título del informe.
    
@@ -71,5 +70,5 @@ Una vez que haya instalado Power BI Desktop, vea el artículo siguiente con el f
 
 * [Introducción a Power BI Desktop](desktop-getting-started.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
 

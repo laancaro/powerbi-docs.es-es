@@ -1,26 +1,25 @@
 ---
-title: 'Suscripción personal y de otros usuarios a informes y paneles: Power BI'
+title: Suscripción personal y de otros usuarios a informes y paneles
 description: Obtenga información sobre cómo se pueden suscribir usted y otros usuarios a una instantánea de una página del informe, un panel o un informe paginado de Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 10/23/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 2c08736e23568675af87e7de63092fff3a6a86c5
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
+ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073414"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "74099759"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
-Tanto usted como sus compañeros de trabajo pueden suscribirse a las páginas del informe, paneles e informes paginados que más le interesen. Power BI envía por correo una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: cada día, cada semana, cada hora, cada mes o una vez al día después de la actualización de los datos iniciales.  Si se elige la frecuencia diaria, semanal, mensual u horaria, puede elegir la hora a la que le gustaría que se ejecute la suscripción.  En resumen, puede establecer hasta 24 suscripciones distintas por día para cada página de informe y panel.
+Tanto usted como sus compañeros de trabajo pueden suscribirse a las páginas del informe, paneles e informes paginados que más le interesen. Power BI envía por correo una instantánea a la bandeja de entrada. Puede indicarle a Power BI la frecuencia con la que quiere recibir los mensajes de correo electrónico: cada día, cada semana, cada hora, cada mes o una vez al día después de la actualización de los datos iniciales.  Si se elige la frecuencia diaria, semanal, mensual u horaria, puede elegir la hora a la que le gustaría que se ejecute la suscripción.  En resumen, puede configurar hasta 24 suscripciones distintas por informe o panel.
 
 ![Instantánea del panel por correo electrónico](media/service-report-subscribe/power-bi-dashboard-email-new.jpg) 
 
@@ -97,7 +96,7 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 * Las suscripciones a una página del informe están asociadas con el nombre de la página del informe. Si se suscribe a una página del informe y después cambia el nombre, tendrá que volver a crear la suscripción.
 * Su organización puede configurar ciertos parámetros en Azure Active Directory que limitan la capacidad de usar las suscripciones de correo electrónico en Power BI.  Estas limitaciones incluyen, entre otras, la autenticación multifactor o restricciones de intervalo de IP al acceder a los recursos.
 * Actualmente, en las suscripciones por correo electrónico de informes o paneles que usen conjuntos de datos de conexiones activas, no se permite suscribir a usuarios distintos del suyo, excepto si usa un informe paginado, lo que le permitirá enviar la suscripción a otros usuarios mediante el uso de su contexto de seguridad. 
-* Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](power-bi-custom-visuals.md).  La única excepción son esos objetos visuales personalizados que se han [certificado](power-bi-custom-visuals-certified.md).  
+* Las suscripciones de correo electrónico no admiten la mayoría de los [objetos visuales personalizados](developer/power-bi-custom-visuals.md).  La única excepción son esos objetos visuales personalizados que se han [certificado](developer/power-bi-custom-visuals-certified.md).  
 * En la actualidad, las suscripciones de correo electrónico no admiten los objetos visuales personalizados con la tecnología de R.  
 * Las suscripciones de correo electrónico se envían con los estados de segmentación y filtros predeterminados del informe. En el correo electrónico no se muestran los cambios en los valores predeterminados que realice tras suscribirse.  Los informes paginados admiten esta función y le permiten establecer valores de parámetros específicos por suscripción.   
 * Para las suscripciones de paneles en concreto, todavía no se admiten ciertos tipos de iconos.  Entre estos se incluyen: transmisión en secuencias de mosaicos, iconos de vídeo, iconos de contenido web personalizado.     
@@ -109,5 +108,5 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md)
-- ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)    
+- ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)    
 - [Leer la entrada del blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

@@ -2,7 +2,6 @@
 title: Uso de la auditoría dentro de la organización
 description: Obtenga información sobre cómo puede usar la auditoría con Power BI para supervisar e investigar las acciones realizadas. Puede usar el Centro de seguridad y cumplimiento o usar PowerShell.
 author: mgblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
@@ -11,12 +10,12 @@ ms.date: 09/09/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: aef5a8861a42e566086198c924c99d0b73406f60
-ms.sourcegitcommit: e2c5d4561455c3a4806ace85defbc72e4d7573b4
+ms.openlocfilehash: 76de629f1579289ea3b702013583911d05f08408
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "71325459"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73873760"
 ---
 # <a name="use-auditing-within-your-organization"></a>Uso de la auditoría dentro de la organización
 
@@ -162,7 +161,9 @@ A continuación, se indican las actividades auditadas por Power BI:
 | Cuenta de almacenamiento del flujo de datos adjuntado al inquilino por el administrador | AdminAttachedDataflowStorageAccountToTenant | No se usa actualmente                       |
 | Se ha analizado un conjunto de datos de Power BI                         | AnalyzedByExternalApplication               |                                          |
 | Informe de Power BI analizado                          | AnalyzeInExcel                              |                                          |
+| Cuenta de almacenamiento del flujo de datos asociada                 | AttachedDataflowStorageAccount              |                                          |
 | Conjunto de datos de Power BI enlazado a la puerta de enlace                | BindToGateway                               |                                          |
+| Actualización de flujo de datos cancelada                        | CancelDataflowRefresh                       |                                          |
 | Estado de capacidad cambiado                            | ChangeCapacityState                         |                                          |
 | Asignación de usuarios de la capacidad cambiada                  | UpdateCapacityUsersAssignment               |                                          |
 | Conexiones de datos de Power BI cambiadas              | SetAllConnections                           |                                          |
@@ -194,6 +195,7 @@ A continuación, se indican las actividades auditadas por Power BI:
 | Informe de Power BI eliminado                           | DeleteReport                                |                                          |
 | Orígenes de datos de conjunto de datos de Power BI detectados          | GetDatasources                              |                                          |
 | Informe de Power BI descargado                        | DownloadReport                              |                                          |
+| Propiedades del flujo de datos editadas                        | EditDataflowProperties                      |                                          |
 | Permiso de certificación de Power BI editado          | EditCertificationPermission                 | No se usa actualmente                       |
 | Panel de Power BI editado                         | EditDashboard                               | No se usa actualmente                       |
 | Conjunto de datos de Power BI editado                           | EditDataset                                 |                                          |
@@ -206,14 +208,14 @@ A continuación, se indican las actividades auditadas por Power BI:
 | No se pudieron eliminar permisos de flujo de datos             | FailedToRemoveDataflowPermissions           | No se usa actualmente                       |
 | Token SAS de flujo de datos de Power BI generado             | GenerateDataflowSasToken                    |                                          |
 | Token de inserción Power BI generado                    | GenerateEmbedToken                          |                                          |
-| Archivo a Power BI importado                         | Importar                                      |                                          |
+| Archivo a Power BI importado                         | Importación                                      |                                          |
 | Aplicación de Power BI instalada                            | InstallApp                                  |                                          |
 | Área de trabajo a una capacidad migrada                  | MigrateWorkspaceIntoCapacity                |                                          |
 | Comentario de Power BI publicado                           | PostComment                                 |                                          |
 | Panel de Power BI imprimido                        | PrintDashboard                              |                                          |
 | Página de informe de Power BI imprimida                      | PrintReport                                 |                                          |
 | Informe de Power BI publicado en la Web                  | PublishToWebReport                          |                                          |
-| Flujo de datos de Power BI secreto recibido de Key Vault  | ReceiveDataflowSecretFromKeyVault           | No se usa actualmente                       |
+| Flujo de datos de Power BI secreto recibido de Key Vault  | ReceiveDataflowSecretFromKeyVault           |                                          |
 | Se ha eliminado un origen de datos de la puerta de enlace de Power BI         | RemoveDatasourceFromGateway                 |                                          |
 | Miembros del grupo de Power BI eliminados                    | DeleteGroupMembers                          |                                          |
 | Área de trabajo de una capacidad eliminada                 | RemoveWorkspacesFromCapacity                |                                          |
@@ -221,6 +223,7 @@ A continuación, se indican las actividades auditadas por Power BI:
 | Actualización del flujo de datos de Power BI solicitada               | RequestDataflowRefresh                      | No se usa actualmente                       |
 | Actualización del conjunto de datos de Power BI solicitada                | RefreshDataset                              |                                          |
 | Áreas de trabajo de Power BI recuperadas                     | GetWorkspaces                               |                                          |
+| Establecer la ubicación de almacenamiento del flujo de datos para un área de trabajo     | SetDataflowStorageLocationForWorkspace      |                                          |
 | Actualización programada en un flujo de datos de Power BI establecida        | SetScheduledRefreshOnDataflow               |                                          |
 | Actualización programada en un conjunto de datos de Power BI establecida         | SetScheduledRefresh                         |                                          |
 | Panel de Power BI compartido                         | ShareDashboard                              |                                          |
@@ -229,10 +232,12 @@ A continuación, se indican las actividades auditadas por Power BI:
 | Versión de prueba de Power BI iniciada                            | OptInForProTrial                            |                                          |
 | Control tomado sobre un origen de datos de Power BI                   | TakeOverDatasource                          |                                          |
 | Control tomado sobre un conjunto de datos de Power BI                        | TakeOverDataset                             |                                          |
+| Control tomado sobre un flujo de datos de Power BI                     | TookOverDataflow                             |                                          |
 | Publicación de una aplicación de Power BI anulada                          | UnpublishApp                                |                                          |
 | Configuración de gobernanza de recursos de capacidad actualizada      | UpdateCapacityResourceGovernanceSettings    | No se encuentra en el Centro de administración de Microsoft 365 |
 | Administración de capacidad actualizada                            | UpdateCapacityAdmins                        |                                          |
 | Nombre para mostrar de la capacidad actualizado                     | UpdateCapacityDisplayName                   |                                          |
+| Permisos de asignación de almacenamiento del flujo de datos actualizados   | UpdatedDataflowStorageAssignmentPermissions |                                          |
 | Configuración de Power BI de la organización actualizada          | UpdatedAdminFeatureSwitch                   |                                          |
 | Aplicación de Power BI actualizada                              | UpdateApp                                   |                                          |
 | Flujo de datos de Power BI actualizados                         | UpdateDataflow                              |                                          |
@@ -255,4 +260,4 @@ A continuación, se indican las actividades auditadas por Power BI:
 
 [Portal de administración de Power BI](service-admin-portal.md)  
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

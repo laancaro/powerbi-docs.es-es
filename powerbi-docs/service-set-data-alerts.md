@@ -2,21 +2,20 @@
 title: Establecer alertas de datos en el servicio Power BI
 description: Aprenda a establecer alertas que le envíen una notificación cada vez que los datos de sus paneles cambien más allá de los límites establecidos en el servicio Microsoft Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: JbL2-HJ8clE
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/08/2019
+ms.date: 10/21/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: c87a54a0e991af3faa53b9ac4ac6c92893b2ed0a
-ms.sourcegitcommit: 0e50ebfa8762e19286566432870ef16d242ac78f
+ms.openlocfilehash: e26b50d571cfffeae1c93f37e715eca24ff4f12e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/13/2019
-ms.locfileid: "68962687"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871554"
 ---
 # <a name="data-alerts-in-the-power-bi-service"></a>Alertas de datos en el servicio Power BI
 
@@ -24,7 +23,7 @@ Establezca alertas que le envíen notificaciones cada vez que los datos de sus p
 
 Puede establecer alertas en los iconos si tiene una licencia de Power BI Pro. También puede establecer alertas si alguien comparte un panel que se encuentra en una [capacidad Premium](service-premium-what-is.md). Las alertas solo se pueden configurar en los iconos anclados desde objetos visuales de informes y solo en medidores, KPI y tarjetas. Las alertas se pueden establecer en los objetos visuales creados a partir de conjuntos de objetos de streaming que se anclan desde un informe a un panel. No se pueden establecer alertas en iconos de streaming creados directamente en el panel mediante **Agregar icono** > **Datos de transmisión personalizados**.
 
-Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Incluso puede automatizar e integrar alertas con Microsoft Flow. Puede probarlo personalmente en este artículo sobre [Microsoft Flow y Power BI](service-flow-integration.md).
+Nadie más podrá ver las alertas que establezca, aunque comparta el panel. Ni siquiera el propietario del panel puede ver las alertas establecidas en la vista del panel. Las alertas de datos están completamente sincronizadas en las plataformas; establezca y vea las alertas de datos [en las aplicaciones móviles de Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md) y en el servicio Power BI. No están disponibles para Power BI Desktop. Incluso puede automatizar e integrar alertas con Microsoft Flow. Puede probarlo personalmente en este artículo sobre [Microsoft Flow y Power BI](service-flow-integration.md).
 
 ![Iconos](media/service-set-data-alerts/powerbi-alert-types-new.png)
 
@@ -116,15 +115,13 @@ Hay muchas maneras de administrar las alertas:
 
 1. Desde aquí, puede activar y desactivar alertas, abrir la ventana **Administrar de alertas** para realizar cambios o eliminar alertas.
 
-## <a name="tips-and-troubleshooting"></a>Sugerencias y solución de problemas
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
 * Las alertas no se admiten para los iconos de tarjeta con medidas de fecha y hora.
-
 * Las alertas solo funcionan con tipos de datos numéricos.
-
 * Las alertas solo funcionan en los datos actualizados. No funcionan con datos estáticos.
-
 * Las alertas solo funcionan en conjuntos de datos de streaming si crea un KPI, una tarjeta o un objeto visual de informe de medidor y después lo ancla al panel.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -132,6 +129,6 @@ Hay muchas maneras de administrar las alertas:
 
 * [Establecer alertas de datos en las aplicaciones móviles de Power BI](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md).
 
-* [¿Qué es Power BI?](power-bi-overview.md)
+* [¿Qué es Power BI?](fundamentals/power-bi-overview.md)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

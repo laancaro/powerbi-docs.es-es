@@ -3,20 +3,19 @@ title: ¿Qué es Microsoft Power BI Premium?
 description: Power BI Premium proporciona capacidades dedicadas para la organización, lo que ofrece un rendimiento más confiable y mayores volúmenes de datos, sin tener que comprar licencias por usuario.
 author: mgblythe
 ms.author: mblythe
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/17/2019
+ms.date: 10/28/2019
 ms.custom: seodec18
 LocalizationGroup: Premium
-ms.openlocfilehash: c46b58369c334ff5364cee00bb5c3f8cd025adf0
-ms.sourcegitcommit: 57e45f291714ac99390996a163436fa1f76db427
+ms.openlocfilehash: f62387feebca089b2afbb919419365fd7e09c2d3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/26/2019
-ms.locfileid: "71305837"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871825"
 ---
 # <a name="what-is-power-bi-premium"></a>¿Qué es Power BI Premium?
 
@@ -53,7 +52,7 @@ Los administradores compran las suscripciones de Power BI Premium en el Centro d
 
 Con Power BI Premium, se obtienen *capacidades dedicadas*. A diferencia de una capacidad compartida donde las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes, una capacidad dedicada es para uso exclusivo de una organización. Se aísla con recursos informáticos dedicados que proporcionan un rendimiento confiable y coherente para el contenido hospedado. 
 
-Las áreas de trabajo residen dentro de las capacidades. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Pueden crearse áreas de trabajo adicionales, llamadas **áreas de trabajo de la aplicación** para posibilitar la colaboración. De forma predeterminada, las áreas de trabajo, incluidas las personales, se crean en la capacidad compartida. Cuando tiene capacidades Premium, Mis áreas de trabajo y las áreas de trabajo de la aplicación se pueden asignar a las capacidades Premium.
+Las áreas de trabajo residen dentro de las capacidades. Cada usuario de Power BI tiene un área de trabajo personal que se conoce como **Mi área de trabajo**. Pueden crearse áreas de trabajo adicionales, llamadas **áreas de trabajo** para posibilitar la colaboración. De forma predeterminada, las áreas de trabajo, incluidas las personales, se crean en la capacidad compartida. Cuando tiene capacidades Premium, Mis áreas de trabajo y las áreas de trabajo se pueden asignar a las capacidades Premium.
 
 ### <a name="capacity-nodes"></a>Nodos de capacidad
 
@@ -71,7 +70,7 @@ Los recursos y los límites de cada SKU Premium (y la SKU A de tamaño equivalen
 
 | Nodos de capacidad | Total de núcleos virtuales | Núcleos virtuales de back-end | RAM (GB) | Núcleos virtuales de front-end | Límites de conexiones dinámicas/DirectQuery (por segundo) | Paralelismo de actualización de modelo |
 | --- | --- | --- | --- | --- | --- | --- |
-| EM1/A1 | 1 | 0,5 | 2.5 | 0,5 | 3,75 | 1 |
+| EM1/A1 | 1 | 0,5 | 3 | 0,5 | 3,75 | 1 |
 | EM2/A2 | 2 | 1 | 5 | 1 | 7,5 | 2 |
 | EM3/A3 | 4 | 2 | 10 | 2 | 15 | 3 |
 | P1/A4 | 8 | 4 | 25 | 4 | 30 | 6 |
@@ -166,9 +165,9 @@ En función de la SKU, Power BI Premium permite cargar archivos de modelo de Pow
 
 ### <a name="size-considerations"></a>Consideraciones de tamaño
 
-Los modelos de gran tamaño pueden consumir muchos recursos. Debe tener al menos una SKU P1 para cualquier modelo superior a 1 GB. Aunque la publicación de modelos grandes en áreas de trabajo respaldadas por SKU A hasta A3 podría funcionar, no sucede lo mismo con su actualización.
+Los grandes conjuntos de datos pueden consumir muchos recursos. Debe tener al menos una SKU P1 para cualquier conjunto de datos superior a 1 GB. Aunque la publicación de conjuntos de datos grandes en áreas de trabajo respaldadas por SKU A hasta A3 podría funcionar, no sucede lo mismo con su actualización.
 
-La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix:
+En la tabla siguiente se muestran las SKU recomendadas para cargar el archivo. pbix o publicarlo en el servicio Power BI:
 
    |SKU  |Tamaño de .pbix   |
    |---------|---------|
@@ -176,9 +175,11 @@ La tabla siguiente describe las SKU recomendadas para diversos tamaños de .pbix
    |P2    | < 6 GB        |
    |P3, P4, P5    | hasta 10 GB   |
 
-La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. La publicación de grandes modelos para SKU A y EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de modelos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera. 
+La SKU A4 de Power BI Embedded es igual a SKU P1, A5 = P2 y A6 = P3. La publicación de grandes conjuntos de datos para SKU A y EM podría devolver errores que no son específicos del error de limitación de tamaño de modelo en la capacidad compartida. Los errores de actualización de conjuntos de datos grandes en A y SKU EM es probable que apunten a errores relativos a los tiempos de espera.
 
-Los archivos .pbix representan datos en un *estado muy comprimido*. Los datos probablemente se expandirán varias veces al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
+Si habilita [modelos grandes](service-premium-large-models.md) en un conjunto de datos, las limitaciones de tamaño del archivo .pbix se siguen aplicando a la carga o publicación de archivos. Sin embargo, con la actualización incremental y los modelos grandes combinados, los conjuntos de datos pueden alcanzar un tamaño mucho mayor que estos límites. Con los modelos de gran tamaño, el tamaño del conjunto de datos solo está limitado por el tamaño de la capacidad Power BI Premium.
+
+Los archivos .pbix representan datos en un *estado muy comprimido*. Los datos probablemente se expandirán al cargarse en memoria y, a partir de ahí, podrían expandirse varias veces más durante la actualización de datos.
 
 La actualización programada de conjuntos de datos grandes puede tardar mucho tiempo y hacer un uso intensivo de los recursos. Es importante no programar demasiadas actualizaciones superpuestas. Se recomienda configurar la [actualización incremental](service-premium-incremental-refresh.md), ya que es más rápida y fiable, y consume menos recursos.
 

@@ -3,7 +3,6 @@ title: Insertar el elemento web de informes en SharePoint Online
 description: Con el nuevo elemento web de informes de Power BI para SharePoint Online, puede insertar fácilmente informes de Power BI interactivos en páginas de SharePoint Online.
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
 ms.date: 05/16/2019
-ms.openlocfilehash: c5d35c1e7fef15c72314738c1d67f81656dc3101
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71073613"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881899"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -79,11 +78,11 @@ Insertar un informe en SharePoint Online no da a los usuarios permiso para ver e
 > [!IMPORTANT]
 > Asegúrese de revisar quién puede ver el informe en el servicio Power BI y de conceder acceso a los usuarios que no están en la lista.
 
-Hay dos formas de proporcionar acceso a los informes en Power BI. La primera, si se usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, es enumerar a los usuarios como miembros del **área de trabajo de la aplicación en el servicio Power BI** y la **página de SharePoint**. Para obtener más información, vea [Administración de un área de trabajo de la aplicación](service-manage-app-workspace-in-power-bi-and-office-365.md).
+Hay dos formas de proporcionar acceso a los informes en Power BI. La primera, si se usa un grupo de Office 365 para compilar el sitio de grupo de SharePoint Online, es enumerar a los usuarios como miembros del **área de trabajo en el servicio Power BI** y la **página de SharePoint**. Para más información, consulte [Administración de un área de trabajo](service-manage-app-workspace-in-power-bi-and-office-365.md).
 
 La segunda consiste en insertar un informe en una aplicación y compartirla directamente con los usuarios:  
 
-1. El autor, que debe ser un Usuario Pro, crea un informe en un área de trabajo de la aplicación. Para compartirla con *usuarios gratuitos de Power BI*, el área de trabajo de la aplicación debe establecerse como un *área de trabajo Premium*.
+1. El autor, que debe ser un usuario Pro, crea un informe en un área de trabajo. Para compartirla con *usuarios gratuitos de Power BI*, el área de trabajo debe establecerse como un *área de trabajo Premium*.
 
 2. El autor publica la aplicación y la instala. El autor debe instalar la aplicación para que tenga acceso a la dirección URL del informe que se usa para la inserción en SharePoint Online.
 
@@ -93,7 +92,7 @@ La segunda consiste en insertar un informe en una aplicación y compartirla dire
 
 4. El autor abre la aplicación y accede al informe.
 
-5. El autor copia la dirección URL del informe insertado desde el informe que ha instalado la aplicación. No use la dirección URL del informe original desde el área de trabajo de la aplicación.
+5. El autor copia la dirección URL del informe insertado desde el informe que ha instalado la aplicación. No use la dirección URL del informe original desde el área de trabajo.
 
 6. Cree un sitio del equipo en SharePoint Online.
 
@@ -124,7 +123,7 @@ Debajo se muestran la configuración que se puede ajustar para el elemento web d
 | Nombre de página |Establece la página predeterminada del elemento web. Seleccione un valor en la lista desplegable. Si no se muestra ninguna página, el informe contiene una página o la dirección URL que pegó contiene un nombre de página. Quite la sección del informe de la dirección URL para seleccionar una página específica. |
 | Pantalla |Regula cómo se ajusta el informe en la página de SharePoint Online. |
 | Mostrar panel de navegación |Muestra u oculta el panel de navegación de páginas. |
-| Mostrar el panel de filtro |Muestra u oculta el panel de filtro. |
+| Mostrar panel de filtros |Muestra u oculta el panel de filtro. |
 
 ## <a name="reports-that-do-not-load"></a>Informes que no se cargan
 
@@ -173,4 +172,4 @@ Los usuarios que ven un informe en SharePoint necesitan una **licencia de Power 
 * [¿Qué es Power BI Premium?](service-premium-what-is.md)
 * [Inserción de informes en un sitio web o portal seguro](service-embed-secure.md)
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

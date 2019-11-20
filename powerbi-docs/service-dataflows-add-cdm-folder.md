@@ -1,8 +1,7 @@
 ---
 title: Incorporación de una carpeta de CDS a Power BI como flujo de datos
-description: Configure un área de trabajo de la aplicación para almacenar sus archivos de definición de flujo de datos y de datos en Azure Data Lake Storage Gen2.
+description: Configure un área de trabajo para almacenar sus archivos de definición de flujo de datos y de datos en Azure Data Lake Storage Gen2.
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: bf2f9baff753b71563c9b5075d3b15be7ae833f9
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: 5b6b8658e4480173c32a591c2fc763a238cfd13a
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68522742"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872688"
 ---
 # <a name="add-a-cdm-folder-to-power-bi-as-a-dataflow-preview"></a>Incorporación de una carpeta de CDS a Power BI como flujo de datos (versión preliminar)
 
@@ -33,7 +32,7 @@ En las secciones siguientes se describe cómo crear un flujo de datos desde una 
 
 ## <a name="create-a-dataflow-from-a-cdm-folder"></a>Crear un flujo de datos desde una carpeta de CDS
 
-Para empezar a crear un flujo de datos desde una carpeta de CDS, inicie el **servicio Power BI** y seleccione un **área de trabajo de la aplicación** en el panel de navegación izquierdo. También puede crear un área de trabajo en la que crear el flujo de datos.
+Para empezar a crear un flujo de datos desde una carpeta de CDS, inicie el **servicio Power BI** y seleccione un **área de trabajo** en el panel de navegación. También puede crear un área de trabajo en la que crear el flujo de datos.
 
 ![Crear un flujo de datos en el servicio Power BI](media/service-dataflows-add-cdm-folder/dataflow-from-cdm-folder_02.jpg)
 
@@ -74,7 +73,7 @@ También hay algunos otros aspectos que se deben tener en cuenta y que se descri
 
 Los clientes de **Power BI Desktop** no pueden acceder a los flujos de datos almacenados en la cuenta de Azure Data Lake Storage Gen2, a menos que sean propietarios del flujo de datos o que tengan autorización explícita para la carpeta de CDS del flujo de datos. Considere la siguiente situación:
 
-1.  Anna crea un área de trabajo de la aplicación y la configura para almacenar los flujos de datos de una carpeta de CDS.
+1.  Anna crea un área de trabajo y la configura para almacenar los flujos de datos de una carpeta de CDS.
 2.  Ben, que también es miembro del área de trabajo que ha creado Anna, quiere usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
 3.  Ben recibe un error porque no se le ha agregado como usuario autorizado a la carpeta de CDS del flujo de datos en la instancia de Data Lake.
 
@@ -110,5 +109,5 @@ Para más información sobre Common Data Service, puede leer su artículo de int
 * [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](http://community.powerbi.com/).
+Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).
 

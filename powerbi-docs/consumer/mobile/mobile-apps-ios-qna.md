@@ -2,19 +2,18 @@
 title: 'Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI'
 description: Formule preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 0517299240137bf63ace8aca6a1da577a4443d2d
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "60977570"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73879378"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -35,7 +34,7 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
 ## <a name="prerequisites"></a>Requisitos previos
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalación de la aplicación de Power BI para iOS
-[Descargar la aplicación de iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Descargue la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
+[Descargar la aplicación de iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Descarga de la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
 
 Estas versiones admiten la aplicación de Power BI para iOS:
 - iPad con iOS 10 o posterior.
@@ -49,7 +48,7 @@ El primer paso consiste en descargar los ejemplos de análisis de minoristas y a
 
 1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
 
-2. En el panel de navegación izquierdo, seleccione **Áreas de trabajo**, **Mi área de trabajo**.
+2. En el panel de navegación, seleccione **Áreas de trabajo**, **Mi área de trabajo**.
 
 3. En la esquina inferior izquierda, seleccione **Obtener datos**.
    

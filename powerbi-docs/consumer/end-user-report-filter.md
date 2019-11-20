@@ -2,23 +2,24 @@
 title: Paseo por el panel de filtros de informe
 description: Procedimiento para agregar un filtro a un informe en el servicio Power BI para consumidores
 author: mihart
-manager: kvivek
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 10/22/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: a1dee67279e6f43c0ff8008338f7b8a9f5a2d41a
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: af784c772ddbdd895f7e6c576d91d4e2fec8ffeb
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "70841198"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73862044"
 ---
 # <a name="take-a-tour-of-the-report-filters-pane"></a>Ver el panel Filtros del informe
+
+[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 En este artículo se analiza el panel **Filtros** del informe en el servicio Power BI. Use los filtros para descubrir nuevas conclusiones en los datos.
 
@@ -34,11 +35,14 @@ Cuando algún compañero comparta un informe con usted, asegúrese de buscar el 
 
 El panel **Filtros** contiene filtros que el *diseñador* de informes ha agregado al informe. Los *consumidores*, como usted, pueden interactuar con los filtros existentes y guardar los cambios, pero no pueden agregar nuevos filtros al informe. Por ejemplo, en la captura de pantalla anterior el diseñador agregó tres filtros de nivel de página: **Segmento es Todos**, **Año es 2014** y **Región es Central**. Puede cambiar estos filtros e interactuar con ellos, pero no puede agregar un cuarto filtro de nivel de página.
 
-En el servicio Power BI, los informes conservan los cambios que haga en el panel **Filtros**. El servicio lleva esos cambios mediante la versión móvil del informe.
+En el servicio Power BI, los informes conservan los cambios que haga en el panel **Filtros**. El servicio lleva esos cambios mediante la versión móvil del informe. 
 
 Para restablecer los valores predeterminados del diseñador en el panel **Filtros**, seleccione **Restablecer valores predeterminados** en la barra de menús superior.
 
 ![Captura de pantalla del icono Restablecer valores predeterminados.](media/end-user-report-filter/power-bi-reset-icon.png) 
+
+> [!NOTE]
+> Si no ve la opción **Restablecer al valor predeterminado**, es posible que el *diseñador* del informe la haya deshabilitado. El *diseñador* también puede bloquear filtros específicos para que no se puedan cambiar.
 
 ## <a name="view-all-the-filters-for-a-report-page"></a>Ver todos los filtros de la página de un informe
 

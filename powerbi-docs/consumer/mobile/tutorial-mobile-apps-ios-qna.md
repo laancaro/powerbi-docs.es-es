@@ -2,19 +2,18 @@
 title: 'Tutorial: Formular preguntas con el analista virtual de Preguntas y respuestas en las aplicaciones de iOS'
 description: En este tutorial, puede formular preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
 author: mshenhav
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
 ms.date: 11/16/2018
 ms.author: mshenhav
-ms.openlocfilehash: 74949d2b71dbdca46bbda9623a962616a72af45e
-ms.sourcegitcommit: 52aa112ac9194f4bb62b0910c4a1be80e1bf1276
+ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "61337776"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73869649"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Formular preguntas sobre los datos con el analista virtual de Preguntas y respuestas en las aplicaciones de Power BI de iOS
 
@@ -42,7 +41,7 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
 ## <a name="prerequisites"></a>Requisitos previos
 
 ### <a name="install-the-power-bi-for-ios-app"></a>Instalación de la aplicación de Power BI para iOS
-[Descargar la aplicación de iOS](http://go.microsoft.com/fwlink/?LinkId=522062 "Descargue la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
+[Descargar la aplicación de iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Descarga de la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
 
 Estas versiones admiten la aplicación de Power BI para iOS:
 - iPad con iOS 10 o posterior.
@@ -54,11 +53,11 @@ El primer paso del tutorial consiste en descargar el ejemplo de análisis de opo
 
 1. Abra el servicio Power BI en el explorador (app.powerbi.com) e inicie sesión.
 
-1. Seleccione el icono de navegación global para abrir el panel izquierdo.
+1. Seleccione el icono de navegación global para abrir el panel de navegación.
 
     ![Icono de navegación global](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
 
-2. En el panel de navegación izquierdo, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
+2. En el panel de navegación, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
 
     ![Mi área de trabajo](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
 
@@ -117,7 +116,7 @@ Cuando complete el tutorial, puede eliminar el panel, el informe y el conjunto d
 
 1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
 
-2. En el panel de navegación izquierdo, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
+2. En el panel de navegación, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
 
 3. En la pestaña **Paneles**, seleccione el icono **Eliminar** de papelera situado junto al panel de análisis de oportunidades.
 

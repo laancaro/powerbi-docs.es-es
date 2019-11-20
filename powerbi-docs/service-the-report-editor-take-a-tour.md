@@ -2,7 +2,6 @@
 title: Visita al editor de informes
 description: En Power BI Desktop y el servicio Power BI, el editor de informes es donde se diseñan los informes que ven los usuarios finales. Es similar en los dos entornos.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 featuredvideoid: IkJda4O7oGs
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 08/14/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: c3a5454032a4138ce3d93c490fa6b3d5a7fecec5
-ms.sourcegitcommit: a77977a43342db4399a4dffb862b96907d16de35
+ms.openlocfilehash: 800079f20d0c16964b0e5dd5fbac5919e94317f7
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/14/2019
-ms.locfileid: "69023735"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73871358"
 ---
 # <a name="tour-the-report-editor-in-power-bi"></a>Paseo por el editor de informes de Power BI
 
@@ -34,14 +33,14 @@ En el servicio Power BI, el editor de informes solo está disponible en la vista
 
 El editor de informes de Power BI se divide en varias secciones principales:  
 
-1. Barra de navegación superior
+1. Panel de navegación superior
 1. Lienzo del informe
 1. Panel Filtros
 1. Panel Visualizaciones
 1. Panel Campos
 
-## <a name="1-the-top-navigation-bar"></a>1. Barra de navegación superior
-Las acciones disponibles desde la barra de navegación superior son numerosas y se agregan otras nuevas de forma constante. Para obtener información sobre una acción concreta, use la tabla de contenido de la documentación de Power BI o el cuadro de búsqueda.
+## <a name="1-the-top-nav-pane"></a>1. Panel de navegación superior
+Las acciones disponibles desde el panel de navegación superior son numerosas y se agregan otras nuevas de forma constante. Para obtener información sobre una acción concreta, use la tabla de contenido de la documentación de Power BI o el cuadro de búsqueda.
 
 
 ## <a name="2-the-report-canvas"></a>2. El lienzo del informe
@@ -140,7 +139,7 @@ Power BI usa varios iconos diferentes para indicar los tipos de campos de un inf
 |![Campo numérico](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric.png) | Campo numérico: los campos numéricos son agregados que se pueden sumar o promediar, por ejemplo. Los agregados se importan con los datos y se definen en el modelo de datos en el que se basa el informe. Para más información, consulte [Agregados en los informes de Power BI](service-aggregates.md). |
 |![Columna calculada no numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-calculated-column.png) | Columna calculada con un tipo de datos no numérico: columna no numérica que se crea con una fórmula de Expresiones de análisis de datos (DAX) que define los valores de la columna. Más información sobre las [columnas calculadas](desktop-calculated-columns.md). |
 |![Columna calculada numérica](media/service-the-report-editor-take-a-tour/power-bi-field-list-numeric-calculated-column.png)     |   Columna calculada numérica: columna que se crea con una fórmula de Expresiones de análisis de datos (DAX) que define los valores de la columna. Más información sobre las [columnas calculadas](desktop-calculated-columns.md). |
-|![Medir](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Medida: una medida tiene su propia fórmula codificada de forma rígida. No se puede cambiar el cálculo, por ejemplo, si es una suma, solo podrá ser una suma. Los valores no se almacenan en una columna. Se calculan sobre la marcha, únicamente en función de su ubicación en un objeto visual. Para más información, lea [Descripción de las medidas](desktop-measures.md). |
+|![Medida](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure.png) |  Medida: una medida tiene su propia fórmula codificada de forma rígida. No se puede cambiar el cálculo, por ejemplo, si es una suma, solo podrá ser una suma. Los valores no se almacenan en una columna. Se calculan sobre la marcha, únicamente en función de su ubicación en un objeto visual. Para más información, lea [Descripción de las medidas](desktop-measures.md). |
 |![Grupo de medida](media/service-the-report-editor-take-a-tour/power-bi-field-list-measure-group.png)     | Grupo de medida  |
 |![Icono de KPI](media/service-the-report-editor-take-a-tour/power-bi-field-list-kpi.png) |      KPI: una indicación visual que comunica el progreso realizado para lograr un objetivo cuantificable. Más información sobre objetos visuales de [ Indicador clave de rendimiento (KPI)](visuals/power-bi-visualization-kpi.md) |
 |![Icono de jerarquía](media/service-the-report-editor-take-a-tour/power-bi-field-list-hierarchy.png)     |  Jerarquía de campos: seleccione la flecha para ver los campos que componen la jerarquía.  Para más información, vea este vídeo de Power BI en YouTube sobre [cómo crear y trabajar con jerarquías](https://www.youtube.com/watch?v=q8WDUAiTGeU). |
@@ -156,5 +155,5 @@ Obtenga más información sobre los informes del [servicio Power BI](service-rep
 
 [Conceptos básicos para los diseñadores de Power BI](service-basic-concepts.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

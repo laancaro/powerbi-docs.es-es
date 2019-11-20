@@ -3,18 +3,17 @@ title: Permisos de Power BI
 description: Permisos de Power BI
 author: rkarlin
 ms.author: rkarlin
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 10/01/2018
-ms.openlocfilehash: 8a48ec007f2d8c9c07de5cc0d51049e3dbf19662
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 14327f09ede41c23fd4fe7cc65fc4f8d3a91b926
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61269366"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73880431"
 ---
 # <a name="power-bi-permissions"></a>Permisos de Power BI
 
@@ -42,11 +41,11 @@ Permisos de Power BI proporcionan a una aplicación la capacidad de realizar cie
 Una aplicación puede solicitar permisos cuando primero intenta iniciar sesión en la página de un usuario pasando los permisos solicitados en el parámetro de ámbito de la llamada. Si se conceden los permisos, se devolverá un token de acceso a la aplicación que se puede usar en futuras llamadas API. El acceso solo puede ser usado por una aplicación específica.
 
 > [!NOTE]
-> Las API de Power BI siguen haciendo referencia a las áreas de trabajo de la aplicación como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo de la aplicación.
+> Las API de Power BI aún hacen referencia a las áreas de trabajo como grupos. Todas las referencias a grupos significan que está trabajando con áreas de trabajo.
 
 ## <a name="requesting-permissions"></a>Solicitar permisos
 
-Mientras que puede llamar a la API para autenticarse con un nombre de usuario y una contraseña, para realizar acciones en nombre de otro usuario, necesitará solicitar permisos que el usuario aprobará posteriormente y, a continuación, enviar el token de acceso resultante en todas las futuras llamadas. En este proceso, se sigue el protocolo [OAuth 2.0](http://oauth.net/2/) estándar. Aunque es posible que la implementación real varíe, el flujo de OAuth de Power BI tiene los siguientes elementos:
+Mientras que puede llamar a la API para autenticarse con un nombre de usuario y una contraseña, para realizar acciones en nombre de otro usuario, necesitará solicitar permisos que el usuario aprobará posteriormente y, a continuación, enviar el token de acceso resultante en todas las futuras llamadas. En este proceso, se sigue el protocolo [OAuth 2.0](https://oauth.net/2/) estándar. Aunque es posible que la implementación real varíe, el flujo de OAuth de Power BI tiene los siguientes elementos:
 
 * **Interfaz de usuario de inicio de sesión** : se trata de una interfaz de usuario que el desarrollador puede evocar para solicitar permisos. Necesitaría que el usuario inicie sesión si no lo ha hecho ya. El usuario también necesitaría aprobar los permisos que solicita la aplicación. La ventana de inicio de sesión publicará un código de acceso o un mensaje de error en una dirección URL de redireccionamiento proporcionada.
   * Power BI debe proporcionar una dirección URL de redireccionamiento estándar para su uso por parte de las aplicaciones nativas.
@@ -54,4 +53,4 @@ Mientras que puede llamar a la API para autenticarse con un nombre de usuario y 
 * **Token de autorización** : se usa para autenticar las llamadas de API en nombre de otro usuario. Se limitarán a una aplicación específica. Los tokens tienen una duración establecida y cuando caducan necesitan actualizarse.
 * **Token de actualización** : cuando expiran los tokens, se produce un proceso de actualización de estos.
 
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

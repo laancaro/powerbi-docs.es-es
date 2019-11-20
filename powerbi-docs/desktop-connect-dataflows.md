@@ -2,7 +2,6 @@
 title: Conexión a datos creados por flujos de datos de Power BI en Power BI Desktop (beta)
 description: Conéctese fácilmente a flujos de datos y úselos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 63c10a0507b5e484ac4c104a5a1e83f5dd411d9d
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: f1d782aa7409dce43d960956406e996cc7951a57
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523280"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876470"
 ---
 # <a name="connect-to-data-created-by-power-bi-dataflows-in-power-bi-desktop-beta"></a>Conexión a datos creados por flujos de datos de Power BI en Power BI Desktop (beta)
 En **Power BI Desktop**, puede conectarse a datos creados por **flujos de datos de Power BI** al igual que cualquier otro origen de datos en Power BI Desktop.
@@ -40,7 +39,7 @@ Puede mejorar el rendimiento de la ingesta de datos para los flujos de datos. Po
 
 La mayoría de los flujos de datos residen en el inquilino del servicio Power BI. Sin embargo, los usuarios de **Power BI Desktop** no pueden acceder a los flujos de datos almacenados en la cuenta de Azure Data Lake Storage Gen2, a menos que sean propietarios del flujo de datos o que tengan autorización explícita para la carpeta de CDS del flujo de datos. Considere la siguiente situación:
 
-1.  Anna crea un área de trabajo de la aplicación y la configura para almacenar flujos de datos en la instancia de Data Lake de la organización.
+1.  Anna crea un área de trabajo y la configura para almacenar flujos de datos en la instancia de Data Lake de la organización.
 2.  Ben, que también es miembro del área de trabajo que ha creado Anna, quiere usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
 3.  Ben recibe un error porque no se le ha agregado como usuario autorizado en la carpeta CDM del flujo de datos de la instancia de Data Lake.
 

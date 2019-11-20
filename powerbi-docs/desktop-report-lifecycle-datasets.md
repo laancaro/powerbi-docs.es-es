@@ -2,7 +2,6 @@
 title: Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 description: Uso de un conjunto de datos común para varios informes de Power BI Desktop en varias áreas de trabajo y administración del ciclo de vida de los informes
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e213bad8e7267abe0b49d1f460717dd817e9832a
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: d7d48b78ecced3e26a52df12bc8850ab8fed4c1e
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020484"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877891"
 ---
 # <a name="connect-to-datasets-in-the-power-bi-service-from-power-bi-desktop"></a>Conexión a conjuntos de datos del servicio Power BI desde Power BI Desktop
 Puede establecer una conexión dinámica a un conjunto de datos compartido en el servicio Power BI y crear muchos informes diferentes del mismo conjunto de datos. Esto significa que puede crear el modelo de datos perfecto en Power BI Desktop y publicarlo en el servicio Power BI. A continuación, usted y otros usuarios pueden crear varios informes diferentes (en archivos .pbix independientes) a partir de ese mismo modelo de datos común y guardarlos en distintas áreas de trabajo. Esta característica se denomina "**Conexión dinámica al servicio Power BI**".
@@ -37,7 +36,7 @@ A todo el mundo le gusta el informe y el conjunto de datos de Ana, y aquí es cu
 ### <a name="connect-to-a-power-bi-service-dataset-using-a-live-connection"></a>Conexión a un conjunto de datos del servicio Power BI mediante una conexión dinámica
 Ana crea un informe (y el conjunto de datos en el que se basa), lo publica en el **servicio Power BI** y se muestra en el área de trabajo de su equipo en el servicio Power BI. Si lo guarda en un *área de trabajo de la nueva experiencia*, Anna puede establecer el permiso de compilación para que esté disponible para que todos los usuarios dentro y fuera de su área de trabajo lo puedan ver y usar.
 
-Para más información acerca de las áreas de trabajo de la nueva experiencia, consulte el artículo sobre [áreas de trabajo de la aplicación](service-new-workspaces.md).
+Para más información sobre las áreas de trabajo de la nueva experiencia, consulte las [áreas de trabajo](service-new-workspaces.md).
 
 Otros miembros dentro y fuera de su área de trabajo pueden establecer ahora una conexión dinámica con el modelo de datos compartido de Ana mediante la característica **Conexión dinámica al servicio Power BI** y crear sus propios informes únicos a partir del *conjunto de datos original* en *sus propias áreas de trabajo de la nueva experiencia*.
 

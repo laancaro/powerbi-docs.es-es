@@ -2,7 +2,6 @@
 title: Inicio rápido sobre conexión a datos
 description: Conexión a un origen de datos en Power BI Desktop
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
@@ -10,30 +9,30 @@ ms.topic: quickstart
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 253ecbad775a2f4aa7dd1974c534fdcaa222676c
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65514446"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876208"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Inicio rápido: Conectarse a los datos en Power BI Desktop
 
 En este inicio rápido, se conecta a datos mediante **Power BI Desktop**, que es el primer paso para compilar modelos de datos y crear informes.
 
-![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
+![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
 Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
 
 ## <a name="prerequisites"></a>Requisitos previos
 
 Para completar los pasos descritos en este artículo, necesita lo siguiente:
-* Descargue e instale **Power BI Desktop**, que es una aplicación gratuita que se ejecuta en el equipo local. Puede [descargar **Power BI Desktop**](https://powerbi.microsoft.com/desktop) directamente,o bien puede obtenerlo [de **Microsoft Store**](http://aka.ms/pbidesktopstore).
-* [Descargue este libro de Excel de ejemplo](http://go.microsoft.com/fwlink/?LinkID=521962) y cree una carpeta denominada *C:\PBID-qs* donde puede almacenar el archivo de Excel. En los pasos posteriores de este inicio rápido se supone que esa es la ubicación del archivo para el libro de Excel descargado.
+* Descargue e instale **Power BI Desktop**, que es una aplicación gratuita que se ejecuta en el equipo local. Puede [descargar **Power BI Desktop**](https://powerbi.microsoft.com/desktop) directamente,o bien puede obtenerlo [de **Microsoft Store**](https://aka.ms/pbidesktopstore).
+* [Descargue este libro de Excel de ejemplo](https://go.microsoft.com/fwlink/?LinkID=521962) y cree una carpeta denominada *C:\PBID-qs* donde puede almacenar el archivo de Excel. En los pasos posteriores de este inicio rápido se supone que esa es la ubicación del archivo para el libro de Excel descargado.
 
 ## <a name="launch-power-bi-desktop"></a>Inicio de Power BI Desktop
 
-Una vez que instale **Power BI Desktop**, inicie la aplicación, para que se ejecute en el equipo local. Aparece un lienzo en blanco, que es donde crea los objetos visuales y los informes de los datos a los que se conecta. 
+Una vez que instale **Power BI Desktop**, inicie la aplicación, para que se ejecute en el equipo local. Se le mostrará un tutorial de Power BI. Siga el tutorial o haga clic para descartarlo y empiece con un lienzo en blanco, que es donde crea los objetos visuales y los informes de los datos a los que se conecta. 
 
 ![Power BI Desktop: lienzo en blanco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 

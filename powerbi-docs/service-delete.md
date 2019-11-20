@@ -2,7 +2,6 @@
 title: Eliminación de un panel, informe, libro, conjunto de datos o área de trabajo
 description: Aprenda a eliminar prácticamente cualquier cosa de Power BI
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/11/2018
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: 087fe859c7b1a8ca732619866d492f143ff413c9
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: 0ccc32a18098673034e7f37b92f8edb5636ef21d
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "61157821"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73872540"
 ---
 # <a name="delete-almost-anything-in-power-bi-service"></a>Eliminar prácticamente cualquier cosa en el servicio Power BI
 Este artículo le enseña a eliminar un panel, un informe, un libro, un conjunto de datos, una aplicación, una visualización y un área de trabajo en el servicio Power BI.
@@ -71,7 +70,7 @@ Si un conjunto de datos forma parte de uno o varios [paquetes de contenido organ
 
 ### <a name="to-delete-a-dataset"></a>Para eliminar un conjunto de datos
 1. En el área de trabajo, seleccione la pestaña **Conjuntos de datos**.
-2. Busque el conjunto de datos que desea eliminar y seleccione el botón de puntos suspensivos (…).  
+2. Busque el conjunto de datos que desea eliminar y seleccione **Más opciones** (...).  
 
     ![Pestaña Conjuntos de datos](media/service-delete/power-bi-delete-datasetnew.png)
 3. En la lista desplegable, seleccione **Eliminar**.
@@ -81,40 +80,41 @@ Si un conjunto de datos forma parte de uno o varios [paquetes de contenido organ
 
    ![Cuadro de diálogo Eliminar panel](media/service-delete/power-bi-delete-dataset-confirm.png)
 
-## <a name="delete-an-app-workspace"></a>Eliminar un área de trabajo de la aplicación
+## <a name="delete-a-workspace"></a>Eliminación de un área de trabajo
 > [!WARNING]
-> Al crear un área de trabajo de la aplicación, creará un grupo de Office 365. Y al eliminar un área de trabajo de la aplicación, eliminará este grupo de Office 365. Esto significa que el grupo se eliminará también de otros productos de Office 365, como SharePoint y Microsoft Teams.
+> Al crear un área de trabajo, creará un grupo de Office 365. Y al eliminar un área de trabajo, eliminará este grupo de Office 365. Esto significa que el grupo se eliminará también de otros productos de Office 365, como SharePoint y Microsoft Teams.
 >
 >
 
-Como autor del área de trabajo de la aplicación, puede eliminarla. Cuando la elimina, también se elimina la aplicación asociada para todos los miembros del grupo y se quita de su AppSource si había publicado la aplicación en toda la organización. Eliminar un área de trabajo de la aplicación es diferente de abandonarla.
+Como autor del área de trabajo, puede eliminarla. Cuando la elimina, también se elimina la aplicación asociada para todos los miembros del grupo y se quita de su AppSource si había publicado la aplicación en toda la organización. Eliminar un área de trabajo no es igual que abandonar un área de trabajo.
 
-### <a name="to-delete-an-app-workspace---if-you-are-an-admin"></a>Para eliminar un área de trabajo de la aplicación, si es un administrador
-1. En la barra de navegación izquierda, seleccione **Áreas de trabajo**.
+### <a name="to-delete-a-workspace---if-you-are-an-admin"></a>Para eliminar un área de trabajo, si es un administrador
+1. En el panel de navegación, seleccione **Áreas de trabajo**.
 
-    ![Áreas de trabajo de la aplicación](media/service-delete/power-bi-delete-workspace.png)
-2. Seleccione el botón de puntos suspensivos (…) a la derecha del área de trabajo que desea eliminar y elija **Edit workspace** (Editar área de trabajo).
+2. Seleccione el botón **Más opciones** (...) a la derecha del área de trabajo que desea eliminar y elija **Editar área de trabajo**.
 
-   ![Menú del botón de puntos suspensivos > Editar área de trabajo](media/service-delete/power-bi-edit-workspace.png)
+    ![áreas de trabajo](media/service-delete/power-bi-delete-workspace.png)
+
 3. En la ventana **Edit workspace** (Editar área de trabajo), seleccione **Eliminar área de trabajo** > **Eliminar**.
 
     ![Eliminar área de trabajo](media/service-delete/power-bi-delete-workspace2.png)
 
-### <a name="to-remove-an-app-workspace-from-your-list"></a>Para quitar un área de trabajo de la aplicación de la lista
-Si ya no desea ser miembro de un área de trabajo de la aplicación, puede ***abandonarla*** y se quitará de su lista. Al abandonar un área de trabajo, se deja como estaba para todos los demás miembros del área de trabajo.  
+### <a name="to-remove-a-workspace-from-your-list"></a>Para quitar un área de trabajo de la lista
+Si ya no desea ser miembro de un área de trabajo, puede ***abandonarla*** y se quitará de su lista. Al abandonar un área de trabajo, se deja como estaba para todos los demás miembros del área de trabajo.  
 
 > [!IMPORTANT]
-> Si es el único administrador del área de trabajo de la aplicación, Power BI no permitirá que la abandone.
+> Si es el único administrador del área de trabajo, Power BI no permitirá que la abandone.
 >
 >
 
-1. Inicie el área de trabajo de la aplicación que desea quitar.
-2. En la esquina superior derecha, seleccione el botón de puntos suspensivos (…) y elija **Leave workspace (Abandonar área de trabajo)**  > **Abandonar**.
+1. Empiece en el área de trabajo que desee quitar.
+
+2. En la esquina superior derecha, seleccione **Más opciones** (...) y elija **Abandonar área de trabajo** > **Abandonar**.
 
       ![Abandonar área de trabajo](media/service-delete/power-bi-leave-workspace.png)
 
    > [!NOTE]
-   > Las opciones que ve en la lista desplegable dependen de si es administrador o miembro de esa área de trabajo de la aplicación.
+   > Las opciones que ve en la lista desplegable dependen de si es administrador o miembro de esa área de trabajo.
    >
    >
 
@@ -124,7 +124,7 @@ Las aplicaciones se pueden quitar fácilmente de la página con la lista de apli
 ### <a name="remove-an-app-from-your-app-list-page"></a>Quitar una aplicación de la página con la lista de aplicaciones
 Al eliminarse una aplicación de la página con la lista de aplicaciones, no se elimina para los demás miembros.
 
-1. En la barra de navegación izquierda, seleccione **Aplicaciones** para abrir la página con la lista de aplicaciones.
+1. En el panel de navegación, seleccione **Aplicaciones** para abrir la página con la lista de aplicaciones.
 2. Mantenga el puntero sobre la aplicación que desea eliminar y seleccione el icono Eliminar ![](media/service-delete/power-bi-delete-report2.png).
 
    ![Selección de aplicaciones](media/service-delete/power-bi-delete-app.png)
@@ -140,4 +140,4 @@ En este artículo se trata cómo eliminar los principales bloques de creación d
 * [Quitar un icono de panel](service-dashboard-edit-tile.md)
 * [Eliminar una visualización de informe](service-delete.md)
 
-¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

@@ -2,7 +2,6 @@
 title: 'Paquetes de contenido organizativo: Administrar y actualizar'
 description: Obtenga más información sobre cómo administrar, actualizar y eliminar paquetes de contenido organizativos en Power BI.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/02/2018
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 86b7a5e93183c06d6cac1445cb1702edde5d4bc9
-ms.sourcegitcommit: 5e277dae93832d10033defb2a9e85ecaa8ffb8ec
+ms.openlocfilehash: 975c219a98f3d03f59df4d1c2a0551718bf213f0
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/07/2019
-ms.locfileid: "72020593"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73881266"
 ---
 # <a name="manage-update-and-delete-organizational-content-packs"></a>Administración, actualización y eliminación de paquetes de contenido organizativos
 > [!NOTE]
@@ -65,27 +64,27 @@ Otra modificación disponible para creadores de los paquetes de contenido es amp
    Para cualquier compañero de trabajo que no forme parte del nuevo alias:
    
    * Para los miembro del grupo que no personalizaron el paquete de contenido, el panel y los informes asociados a ese paquete de contenido ya no estarán disponibles, y el paquete de contenido no aparecerá en el panel de navegación.
-   * Para los miembros del grupo que personalizaron el paquete de contenido, la próxima vez que abran el panel personalizado, todos los iconos del paquete de contenido original habrán desaparecido.  Pero los iconos que ancló desde otros informes seguirán apareciendo. Los informes y los conjuntos de datos del paquete de contenido original ya no estarán disponibles, y el paquete de contenido no aparece en el panel de navegación.   
+   * Para los miembros del grupo que personalizaron el paquete de contenido, la próxima vez que abran el panel personalizado, todos los iconos del paquete de contenido original habrán desaparecido.  Pero los iconos que ancló desde otros informes seguirán apareciendo. Los informes y los conjuntos de datos del paquete de contenido original ya no están disponibles, y el paquete de contenido no aparece en el panel de navegación.   
 
 ## <a name="refresh-an-organizational-content-pack"></a>Actualización de un paquete de contenido organizativo
 Como creador del paquete de contenido puede [programar la actualización de los conjunto de datos](refresh-data.md).  Al crear y cargar el paquete de contenido, dicha programación de actualización se carga con los conjuntos de datos. Si cambia la programación de actualización, debe volver a publicar el paquete de contenido (consulte más arriba).
 
 ## <a name="delete-an-organizational-content-pack-from-appsource"></a>Eliminación de un paquete de contenido de la organización de AppSource
-Solo puede eliminar de AppSource aquellos paquetes de contenido si lo ha creado. Si ha creado un paquete de contenido organizativo en un área de trabajo de aplicación y, después, decide eliminar esa área de trabajo, asegúrese de eliminar primero el paquete de contenido. Si elimina el área de trabajo sin eliminar primero el paquete de contenido, se perderá todo el acceso a estos paquetes de contenido y tendrá que ponerse en contacto con Soporte técnico de Microsoft para pedir ayuda. 
+Solo puede eliminar de AppSource aquellos paquetes de contenido si lo ha creado. Si ha creado un paquete de contenido organizativo en un área de trabajo y, después, decide eliminar esa área de trabajo, asegúrese de eliminar primero el paquete de contenido. Si elimina el área de trabajo sin eliminar primero el paquete de contenido, se perderá todo el acceso a estos paquetes de contenido y tendrá que ponerse en contacto con Soporte técnico de Microsoft para pedir ayuda. 
 
 > [!TIP]
 > Puede [eliminar la conexión a un paquete de contenido](service-organizational-content-pack-disconnect.md) que no ha creado. Eso no elimina el paquete de contenido de AppSource.
 > 
 > 
 
-1. Para eliminar un paquete de contenido de AppSource, vaya al área de trabajo de la aplicación en la que creó el paquete de contenido, seleccione el icono del engranaje ![](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
+1. Para eliminar un paquete de contenido de AppSource, vaya al área de trabajo en la que creó el paquete de contenido, seleccione el icono del engranaje ![](media/service-organizational-content-pack-manage-update-delete/cog.png) y elija **Ver paquetes de contenido**.
 2. Seleccione **Eliminar \> Eliminar**. 
    
    * Para los miembros del grupo que no personalizaron el paquete de contenido, se quitan automáticamente el panel y los informes asociados a ese paquete de contenido. Ya no están disponibles y el paquete de contenido no aparece en el panel de navegación.
-   * Para los miembros del grupo que personalizaron el paquete de contenido, la próxima vez que abran el panel personalizado, todos los iconos del paquete de contenido original habrán desaparecido.  Pero los iconos que ancló desde otros informes seguirán apareciendo. Los informes y los conjuntos de datos del paquete de contenido original ya no estarán disponibles, y el paquete de contenido no aparece en el panel de navegación.   
+   * Para los miembros del grupo que personalizaron el paquete de contenido, la próxima vez que abran el panel personalizado, todos los iconos del paquete de contenido original habrán desaparecido.  Pero los iconos que ancló desde otros informes seguirán apareciendo. Los informes y los conjuntos de datos del paquete de contenido original ya no están disponibles, y el paquete de contenido no aparece en el panel de navegación.   
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Introducción a los paquetes de contenido organizativos](service-organizational-content-pack-introduction.md)
 * [Creación y distribución de una aplicación en Power BI](service-create-distribute-apps.md) 
-* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 

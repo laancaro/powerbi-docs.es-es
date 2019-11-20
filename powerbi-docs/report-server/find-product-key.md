@@ -2,19 +2,18 @@
 title: Ubicación de la clave de producto del servidor de informes
 description: Aprenda a encontrar la clave de producto del servidor de informes de Power BI para instalar el servidor en un entorno de producción.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 10/24/2018
 ms.author: maggies
-ms.openlocfilehash: 42057ba7cea04f432a39d649c9a4eecc34a0883d
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
+ms.openlocfilehash: f6eba8e1138f3c7e934de7152acf52a020c19f07
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "64769634"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73859699"
 ---
 # <a name="how-to-find-your-report-server-product-key"></a>Ubicación de la clave de producto del servidor de informes
 Aprenda a encontrar la clave de producto del servidor de informes de Power BI para instalar el servidor en un entorno de producción.
@@ -42,13 +41,13 @@ Si tiene un contrato de SA de SQL Server Enterprise, puede obtener la clave de p
 > 
 > 
 
-![](media/find-product-key/vlsc-download.png "Centro de servicios de licencias por volumen")
+![](media/find-product-key/vlsc-download.png "Volume Licensing Service Center")
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Instalar un servidor de informes de Power BI](install-report-server.md)  
 [Instalar Power BI Desktop optimizado para el servidor de informes de Power BI](install-powerbi-desktop.md)  
 [Descarga del Generador de informes](https://www.microsoft.com/download/details.aspx?id=53613)  
-[Descargar SQL Server Data Tools (SSDT)](http://go.microsoft.com/fwlink/?LinkID=616714)
+[Descargar SQL Server Data Tools (SSDT)](https://go.microsoft.com/fwlink/?LinkID=616714)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

@@ -1,8 +1,7 @@
 ---
 title: Configuración de opciones de flujo de datos del área de trabajo
-description: Configuración de un área de trabajo de la aplicación en Power BI para almacenar los archivos de definición de flujo de datos y de datos en Azure Data Lake Storage Gen2
+description: Configuración de un área de trabajo en Power BI para almacenar los archivos de definición de flujo de datos y de datos en Azure Data Lake Storage Gen2
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -10,12 +9,12 @@ ms.topic: conceptual
 ms.date: 04/02/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 12f4f24be9189041d5906844ebe71d6ffb023ec5
-ms.sourcegitcommit: f05ba39a0e46cb9cb43454772fbc5397089d58b4
+ms.openlocfilehash: fa448dac3e7788639377ce2d73d9c0ed68952fb3
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/26/2019
-ms.locfileid: "68523519"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73877344"
 ---
 # <a name="configure-workspace-dataflow-settings-preview"></a>Configuración de opciones de flujo de datos del área de trabajo (versión preliminar)
 
@@ -35,11 +34,11 @@ Vamos a examinar cada una en las secciones siguientes.
 
 ## <a name="create-a-new-workspace-configure-its-dataflow-storage"></a>Crear una área de trabajo y configurar su almacenamiento de flujo de datos
 
-Para crear un área de trabajo de la aplicación en el servicio Power BI, seleccione **Áreas de trabajo > Crear área de trabajo de la aplicación**.
+Para crear un área de trabajo en el servicio Power BI, seleccione **Áreas de trabajo > Crear área de trabajo**.
 
 ![Agregar la nueva área de trabajo](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_01.jpg)
 
-En el cuadro de diálogo Crear área de trabajo de la aplicación, puede aparecer un cuadro amarillo llamado **Vista previa de las áreas de trabajo mejoradas**. En esa área, seleccione **Probar ahora**.
+En el cuadro de diálogo Crear área de trabajo, puede aparecer un cuadro amarillo llamado **Vista previa de las áreas de trabajo mejoradas**. En esa área, seleccione **Probar ahora**.
 
 ![Vista previa de las áreas de trabajo mejoradas](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_02.jpg)
 
@@ -47,7 +46,7 @@ En el cuadro de diálogo que aparece, puede asignar a su nueva área de trabajo 
 
 ![Asignar un nombre a la nueva área de trabajo](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_03.jpg)
 
-A continuación, expanda el área **Avanzadas** del cuadro de diálogo **Crear área de trabajo de la aplicación**, donde puede activar **Almacenamiento de flujo de datos (versión preliminar)** .
+A continuación, expanda el área **Avanzadas** del cuadro de diálogo **Crear área de trabajo**, donde puede activar **Almacenamiento de flujo de datos (versión preliminar)** .
 
 ![Configuración avanzada para la nueva área de trabajo](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_04.jpg)
 
@@ -57,7 +56,7 @@ Seleccione **Guardar** para crear el área de trabajo. Cualquier flujo de datos 
 
 Como alternativa a la creación de un área de trabajo, puede actualizar un área de trabajo existente para almacenar los archivos de definición y de datos en la cuenta de Azure Data Lake Storage Gen2 de su organización. Recuerde que la configuración de almacenamiento de flujo de datos solo se puede cambiar si el área de trabajo no contiene aún un flujo de datos.
 
-Para editar un área de trabajo de la aplicación, seleccione los puntos suspensivos **(...)**  y, luego, seleccione **Editar área de trabajo**. 
+Para editar un área de trabajo, seleccione los puntos suspensivos **(...)** y, luego, seleccione **Editar área de trabajo**. 
 
 ![Editar área de trabajo](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_05.jpg)
 
@@ -103,9 +102,9 @@ También hay algunos otros aspectos que se deben tener en cuenta y que se descri
 
 Los clientes de **Power BI Desktop** no pueden acceder a los flujos de datos almacenados en la cuenta de Azure Data Lake Storage Gen2, a menos que sean propietarios del flujo de datos. Considere la siguiente situación:
 
-1.  Anna crea un área de trabajo de la aplicación y la configura para almacenar flujos de datos en la instancia de Data Lake de la organización.
+1.  Anna crea un área de trabajo y la configura para almacenar flujos de datos en la instancia de Data Lake de la organización.
 2.  Ben, que también es miembro del área de trabajo que ha creado Anna, quiere usar Power BI Desktop y el conector de flujo de datos para obtener datos del flujo de datos que ha creado su compañera.
-3.  Ben recibe un error porque no se le ha agregado como usuario autorizado a la carpeta de CDM del flujo de datos en la instancia de Data Lake.
+3.  Ben recibe un error porque no se le ha agregado como usuario autorizado a la carpeta de CDS del flujo de datos en la instancia de Data Lake.
 
     ![Error al intentar usar el flujo de datos](media/service-dataflows-configure-workspace-storage-settings/dataflow-storage-settings_08.jpg)
 
@@ -138,4 +137,4 @@ Para más información sobre Common Data Service, puede leer su artículo de int
 * [Carpetas de CDS](https://go.microsoft.com/fwlink/?linkid=2045304)
 * [Definición del archivo de modelo de CDS](https://go.microsoft.com/fwlink/?linkid=2045521)
 
-Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](http://community.powerbi.com/).
+Y, siempre puede intentar [plantear preguntas a la comunidad de Power BI](https://community.powerbi.com/).
