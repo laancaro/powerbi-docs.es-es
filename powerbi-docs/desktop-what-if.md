@@ -2,7 +2,6 @@
 title: Uso de parámetros What if para visualizar variables
 description: Creación de una variable What if propia para imaginar y visualizar variables en informes de Power BI
 author: davidiseminger
-manager: kfile
 ms.reviewer: ''
 ms.custom: seodec18
 ms.service: powerbi
@@ -11,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 2451620c6d4092e5da4605f8e76b0a70e2eecf2b
-ms.sourcegitcommit: 60dad5aa0d85db790553e537bf8ac34ee3289ba3
-ms.translationtype: MT
+ms.openlocfilehash: 1ad0c7d2a3c3d21d8ccb81354bdc03d845b61f58
+ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "65513479"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "73876046"
 ---
 # <a name="create-and-use-a-what-if-parameter-to-visualize-variables-in-power-bi-desktop"></a>Creación y uso de un parámetro What if para visualizar variables en Power BI Desktop
 A partir de la versión de agosto de 2018 de **Power BI Desktop**, puede crear variables **What if** para los informes, interactuar con la variable como una segmentación y visualizar y cuantificar diferentes valores clave de los informes.
@@ -50,7 +49,7 @@ Vamos a crear un ejemplo sencillo de uso de un parámetro **What if**. En la sec
 
 ![](media/desktop-what-if/what-if_05.png)
 
-La nueva medida será algo sencillo, como el importe de ventas total, con la tarifa de descuento aplicada. Por supuesto, puede crear medidas complejas e interesantes, que permitan a los clientes de los informes visualizar la variable del parámetro **What if?** . Por ejemplo, podría crear un informe que permita el personal de ventas ver que sus compensaciones si cumplen ciertos objetivos de ventas o porcentajes o ver el efecto de aumentado ventas en unos mayores descuentos.
+La nueva medida será algo sencillo, como el importe de ventas total, con la tarifa de descuento aplicada. Por supuesto, puede crear medidas complejas e interesantes, que permitan a los clientes de los informes visualizar la variable del parámetro **What if?** . Por ejemplo, podría crear un informe que permita al personal de ventas ver sus compensaciones si satisfacen determinados objetivos o porcentajes de venta, o ver la influencia que tiene el incremento en las ventas sobre unos mayores descuentos.
 
 Después de escribir la fórmula de medida en la barra de fórmulas y asignarle el nombre **Sales after Discount**, se puede ver el resultado:
 
