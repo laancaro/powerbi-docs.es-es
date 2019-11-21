@@ -1,47 +1,45 @@
 ---
-title: Enlace dinámico
-description: Aprenda a insertar un informe mediante el enlace dinámico.
+title: Conexión de un informe a un conjunto de datos mediante el enlace dinámico
+description: Obtenga información sobre cómo insertar un informe mediante el enlace dinámico.
 author: KesemSharabi
 ms.author: kesharab
 ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
-ms.date: 09/25/2019
-ms.openlocfilehash: 8110023de4df28f65129bd53203cec9752acc1af
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.openlocfilehash: ecc7ec21117c9e2cd974058c63bcf02d72d1f4b1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73864443"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925753"
 ---
-# <a name="dynamic-binding"></a>Enlace dinámico
+# <a name="connecting-a-report-to-a-dataset-using-dynamic-binding"></a>Conexión de un informe a un conjunto de datos mediante el enlace dinámico 
 
-El enlace dinámico permite seleccionar dinámicamente un conjunto de datos mientras se inserta un informe. No es preciso que el informe y el conjunto de datos se encuentren en la misma área de trabajo. Los usuarios finales ven resultados diferentes en función del conjunto de datos seleccionado.
+El uso de enlaces dinámicos solo es relevante cuando un informe está conectado a un conjunto de datos. La conexión entre el informe y el conjunto de datos se conoce como *enlace*. Cuando se determina el enlace en el momento de la inserción en lugar de determinarse anteriormente, este se conoce como [enlace dinámico](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
+ 
+Al insertar un informe de Power BI con el *enlace dinámico*, puede conectar el mismo informe a distintos conjuntos de datos dependiendo de cuáles sean las credenciales del usuario.
+ 
+Esto significa que puede usar un informe para mostrar información diferente, dependiendo del conjunto de datos al que esté conectado. Por ejemplo, un informe que muestre valores de ventas al por menor puede estar conectado a distintos conjuntos de datos del minorista y producir resultados diferentes dependiendo del conjunto de datos del minorista al que esté conectado.
+ 
+No es preciso que el informe y el conjunto de datos se encuentren en la misma área de trabajo. Las dos áreas de trabajo (la que contiene el informe y la que contiene el conjuntos de datos) deben asignarse a una [capacidad](azure-pbie-create-capacity.md).
 
-Las dos áreas de trabajo (la que contienen el informe y la que contiene el conjuntos de datos) deben asignarse a una capacidad.
+Como parte del proceso de inserción, asegúrese de *generar un token con los permisos suficientes* y *ajustar el objeto de configuración*.
 
-La inserción de un informe mediante el enlace dinámico tiene dos fases:
-1. Generación de un token
-2. Ajuste del objeto de configuración
 
-## <a name="generating-a-token"></a>Generación de un token
-Para generar un token, use la [API para generar un token de inserción para varios elementos](embed-sample-for-customers.md#multiEmbedToken).
+## <a name="generating-a-token-with-sufficient-permissions"></a>Generación de un token con permisos suficientes
 
-El enlace dinámico se admite en los dos escenarios de inserción: *Inserción de contenido para la organización* e *Inserción de contenido para los clientes*.
+El enlace dinámico se admite en los dos escenarios de inserción: *Inserción de contenido para la organización* e *Inserción de contenido para los clientes*. En la tabla siguiente, se describen las consideraciones para cada escenario.
 
-| Solución                   | Token                               | Requisitos                                                                                                                                                  |
-|---------------------------------|-------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *Inserción de contenido para la organización* | Token de acceso para usuarios de Power BI     | Se usa el usuario que es el token de Azure AD, debe tener los permisos adecuados para todos los artefactos.                                                                    |
-| *Inserción de contenido para los clientes*    | Token de acceso para usuarios que no usen Power BI | Se deben incluir permisos tanto para el informe como para el conjunto de datos enlazado dinámicamente. Use la nueva API para generar un token de inserción que admita varios artefactos. |
+
+|Escenario  |Propiedad de los datos  |Token  |Requisitos  |
+|---------|---------|---------|---------|
+|*Inserción de contenido para la organización*    |El usuario posee los datos         |Token de acceso para usuarios de Power BI         |Se usa el usuario que es el token de Azure AD, debe tener los permisos adecuados para todos los artefactos.         |
+|*Inserción de contenido para los clientes*     |La aplicación posee los datos         |Token de acceso para usuarios que no usen Power BI         |Se deben incluir permisos tanto para el informe como para el conjunto de datos enlazado dinámicamente. Use la [API para generar un token de inserción para varios elementos](embed-sample-for-customers.md#multiEmbedToken) con el fin de admitir varios artefactos.         |
 
 ## <a name="adjusting-the-config-object"></a>Ajuste del objeto de configuración
-Agregue `datasetBinding` al objeto de configuración. Use el ejemplo de la parte inferior de la página como referencia.
+Agregue `datasetBinding` al objeto de configuración. Use el ejemplo siguiente como referencia.
 
-Si es la primera vez que inserta en Power BI, consulte estos tutoriales para aprender a insertar el contenido de Power BI:
-* [Inserción del contenido de Power BI en una aplicación para los clientes](embed-sample-for-customers.md)
-* [Tutorial: Inserción del contenido de Power BI en una aplicación para la organización](embed-sample-for-your-organization.md)
-
- ### <a name="example"></a>Ejemplo
 ```javascript
 var config = {
     type: 'report',
@@ -51,13 +49,11 @@ var config = {
     id: "reportId", // The wanted report id
     permissions: permissions,
 
-    /////////////////////////////////////////////
-    // Adjustment required for dynamic binding //
+    // -----  Adjustment required for dynamic binding ---- //
     datasetBinding: {
         datasetId: "notOriginalDatasetId",  // </The wanted dataset id
     }
-    // End of dynamic binding adjustment            //
-    /////////////////////////////////////////////
+    // ---- End of dynamic binding adjustment ---- //
 };
 
 // Get a reference to the embedded report HTML element
@@ -66,3 +62,9 @@ var embedContainer = $('#embedContainer')[0];
 // Embed the report and display it within the div container
 var report = powerbi.embed(embedContainer, config);
 ```
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Si es la primera vez que inserta en Power BI, consulte estos tutoriales para aprender a insertar el contenido de Power BI:
+* [Tutorial: Inserción del contenido de Power BI en una aplicación para los clientes](embed-sample-for-customers.md)
+* [Tutorial: Inserción del contenido de Power BI en una aplicación para la organización](embed-sample-for-your-organization.md)

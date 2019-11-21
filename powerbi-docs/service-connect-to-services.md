@@ -2,25 +2,24 @@
 title: Conexión a los servicios que usa con Power BI
 description: Conéctese a los distintos servicios que usa en su empresa, como Salesforce, Microsoft Dynamics CRM y Google Analytics.
 author: maggiesMSFT
-manager: kfile
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: abecc9b0c5e450d24f29230ad75417b1494e6ce9
-ms.sourcegitcommit: c0f4d00d483121556a1646b413bab75b9f309ae9
+ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 08/29/2019
-ms.locfileid: "70159997"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925822"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conexión a los servicios que usa con Power BI
 Con Power BI, puede conectarse a los distintos servicios que usa en su empresa, como Salesforce, Microsoft Dynamics y Google Analytics. Power BI empieza usando sus credenciales para conectarse al servicio. Crea una *área de trabajo* de Power BI con un panel y un conjunto de informes de Power BI que muestran los datos automáticamente y proporcionan información visual sobre la empresa.
 
 >[!IMPORTANT]
->El 25 de septiembre de 2019 quedarán en desuso varios paquetes de contenido. Cualquier paquete de contenido que esté instalado seguirá funcionando, pero no podrá instalar uno nuevo después. Las [aplicaciones de plantilla](https://docs.microsoft.com/power-bi/service-template-apps-overview) reemplazan a los paquetes de contenido del servicio.
+>Los paquetes de contenido de servicio se reemplazarán por [aplicaciones de plantilla](https://docs.microsoft.com/power-bi/service-template-apps-overview). Desde el 25 de septiembre de 2019, varios paquetes de contenido ya están en desuso. Cualquier paquete de contenido en desuso que haya instalado permanecerá en su cuenta, pero no se proporcionará documentación ni soporte técnico para dicho paquete; tampoco será posible instalarlo de nuevo.
 
 Inicie sesión en Power BI para ver todos los [servicios a los que puede conectarse](https://app.powerbi.com/getdata/services). 
 
@@ -36,7 +35,7 @@ Después de instalar la aplicación, podrá ver el panel y los informes de la ap
 ## <a name="edit-the-dashboard-and-reports"></a>Edición del panel y los informes
 Una vez completada la importación, la nueva aplicación aparece en la página Aplicaciones.
 
-1. Seleccione **Aplicaciones** en el panel de navegación de la izquierda > seleccione la aplicación.
+1. En el panel de navegación, seleccione **Aplicaciones** y, después, seleccione la aplicación.
    
      ![Página Aplicaciones](media/service-connect-to-services/power-bi-service-apps-open-app.png)
 2. Para formular una pregunta, puede escribir en el cuadro de Preguntas o haga clic en un icono para abrir el informe subyacente. 
@@ -71,6 +70,6 @@ Si está interesado en crear aplicaciones de plantilla para distribuirlas usted 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Distribuir aplicaciones a los compañeros](service-create-distribute-apps.md)
 * [Crear las nuevas áreas de trabajo en Power BI](service-create-the-new-workspaces.md)
-* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
-* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](http://community.powerbi.com/)
+* ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 
