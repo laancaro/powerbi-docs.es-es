@@ -14,8 +14,8 @@
           topicHref: /power-bi/developer/index
           items:
             - name: Uso de objetos visuales de Power BI con tecnología de R en Power BI
-              tocHref: /power-bi/desktop-r-powered-custom-visuals/
-              topicHref: /power-bi/developer/index
+              tocHref: /power-bi/developer/
+              topicHref: /power-bi/desktop-r-powered-custom-visuals/
         - name: Aprendizaje guiado
           tocHref: /power-bi/guided-learning/
           topicHref: /power-bi/guided-learning/
