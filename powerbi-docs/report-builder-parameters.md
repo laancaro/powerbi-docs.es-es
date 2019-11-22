@@ -3,18 +3,18 @@ title: Parámetros de informe en el Generador de informes de Power BI
 description: En este tema se describe los usos comunes de los parámetros de informe del Generador de informes paginados de Power BI, las propiedades que puede establecer y mucho más.
 ms.service: powerbi
 ms.subservice: report-builder
-ms.custom: ''
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
+ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: 21fe08c2cba004a6aff77eae12303d0181ab56ec
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
+ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840542"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "74128422"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parámetros de informe en el Generador de informes de Power BI
 
@@ -40,7 +40,7 @@ En este tema se describe los usos comunes de los parámetros de informe del Gene
 
 Al ver un informe que tiene parámetros, la barra de herramientas del visor de informes muestra cada parámetro para especificar valores de forma interactiva. La siguiente ilustración muestra el área de parámetros de un informe con los parámetros @ReportMonth, @ReportYear, @EmployeeID, @ShowAll, @ExpandTableRows, @CategoryQuota y @SalesDate.  
 
-![Ver un informe con parámetros](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "View report with parameters")
+![Ver un informe con parámetros](media/report-builder-parameters/report-builder-parameters-power-bi-service.png "Ver un informe con parámetros")
   
 1. **Panel de parámetros** La barra de herramientas del visor de informes muestra un aviso y un valor predeterminado para cada parámetro. Puede personalizar el diseño de parámetros en el panel de parámetros.  
   
@@ -65,7 +65,7 @@ Puede crear parámetros de informe de varias maneras diferentes.
   
  Agregue una consulta de conjunto de datos que contenga variables o un procedimiento almacenado de conjunto de datos que contenga parámetros de entrada. Se crea un parámetro de conjunto de datos para cada variable o parámetro de entrada, y se crea un parámetro de informe para cada parámetro de conjunto de datos.  
   
-![Propiedades del conjunto de datos de parámetros del Generador de informes](media/report-builder-parameters/report-builder-parameter-dataset.png "Report Builder Parameter Dataset Properties")
+![Propiedades del conjunto de datos de parámetros del Generador de informes](media/report-builder-parameters/report-builder-parameter-dataset.png "Propiedades del conjunto de datos de parámetros del Generador de informes")
 
   
  Esta imagen del Generador de informes muestra:  

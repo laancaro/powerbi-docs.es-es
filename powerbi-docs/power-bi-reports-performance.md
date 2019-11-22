@@ -9,12 +9,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 07/30/2018
 LocalizationGroup: Reports
-ms.openlocfilehash: 2fd0a3d878641264e84a14579901a9685b0f6e8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 52beebb839907a6b4141cec089184fcb693fe817
+ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875102"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74010680"
 ---
 # <a name="power-bi-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI
 
@@ -152,8 +152,6 @@ La puerta de enlace de datos local es una herramienta excelente para conectar el
 La latencia de red puede afectar al rendimiento de los informes si aumenta el tiempo necesario para que las solicitudes alcancen el servicio Power BI y para la entrega de las respuestas. Los inquilinos de Power BI se asignan a una región específica. Para ver la región de "inicio" de su inquilino, vaya a powerbi.com y seleccione **?** en la parte superior derecha y, a continuación, **Acerca de Power BI**. Cuando los usuarios de un inquilino acceden al servicio Power BI, sus solicitudes siempre se enrutan a esta región. Una vez que las solicitudes llegan al servicio Power BI, el servicio puede enviar solicitudes adicionales —por ejemplo, al origen de datos subyacente o a la puerta de enlace— que también están sujetas a la latencia de red.
 
 Las herramientas como [Azure Speed Test](https://azurespeedtest.azurewebsites.net/) proporcionan una indicación de la latencia de red entre el cliente y la región de Azure. En general, para minimizar el impacto de la latencia de red, intente mantener los orígenes de datos, las puertas de enlace y el clúster de Power BI lo más cerca posible. Si la latencia de red es un problema, intente ubicar las puertas de enlace y los orígenes de datos más cerca del clúster de Power BI situándolos en máquinas virtuales.
-
-Para mejorar aún más la latencia de red, considere la posibilidad de usar [Azure ExpressRoute](https://azure.microsoft.com/services/expressroute/), que es capaz de crear conexiones de red más rápidas y confiables entre los clientes y los centros de datos de Azure.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

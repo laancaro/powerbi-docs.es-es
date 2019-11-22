@@ -1,25 +1,31 @@
 ---
-title: Configuración del acceso de la aplicación móvil de iOS a un servidor de informes de forma remota
-description: Aprenda a configurar las aplicaciones móviles de iOS de forma remota para el servidor de informes.
-author: maggiesMSFT
+title: Configuración del acceso de la aplicación móvil a Report Server de manera remota
+description: Obtenga información sobre cómo configurar las aplicaciones móviles de manera remota para el servidor de informes.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 08/08/2019
-ms.author: maggies
-ms.openlocfilehash: ab9f7c2559038505b5507d4a87b50933e7b0b041
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: b84d7a23cf947b18302c761ff5f78143bf3356aa
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874201"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925883"
 ---
-# <a name="configure-power-bi-ios-mobile-app-access-to-a-report-server-remotely"></a>Configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota
+# <a name="configure-power-bi-mobile-app-access-to-report-server-remotely"></a>Configuración del acceso de la aplicación remota de Power BI a Report Server de manera remota
 
-En este artículo se explica cómo usar la herramienta MDM de su organización para configurar el acceso de la aplicación móvil de iOS de Power BI a un servidor de informes de forma remota. Para configurarlo, los administradores de TI deben crear una directiva de configuración de aplicaciones con la información necesaria para que se envíe a la aplicación. 
+Se aplica a:
 
- Con la conexión del servidor de informes configurada, los usuarios de la aplicación móvil de iOS de Power BI pueden conectarse al servidor de informes de la organización más fácilmente. 
+| ![iPhone](./media/configure-powerbi-mobile-apps-remote/ios-logo-40-px.png) | ![Teléfono Android](./media/configure-powerbi-mobile-apps-remote/android-logo-40-px.png) |
+|:--- |:--- |
+| iOS |Android |
+
+En este artículo, aprenderá a usar la herramienta MDM de su organización para configurar el acceso de la aplicación móvil de Power BI a Report Server. Para configurarlo, los administradores de TI deben crear una directiva de configuración de aplicaciones con la información necesaria para que se envíe a la aplicación. 
+
+ Con la conexión de Report Server ya configurada, los usuarios de la aplicación móvil de Power BI pueden conectarse a Report Server de la organización de manera más sencilla. 
 
 ## <a name="create-the-app-configuration-policy-in-mdm-tool"></a>Crear la directiva de configuración de aplicaciones en la herramienta MDM 
 
@@ -43,11 +49,11 @@ Este es un ejemplo de configuración de la directiva de configuración mediante 
 
 ![Opciones de configuración de Intune](media/configure-powerbi-mobile-apps-remote/power-bi-ios-remote-configuration-settings.png)
 
-## <a name="end-users-connecting-to-a-report-server"></a>Los usuarios finales se conectan a un servidor de informes
+## <a name="end-users-connecting-to-report-server"></a>Los usuarios finales se conectan a Report Server
 
- Supongamos que publica la directiva de configuración de aplicaciones para una lista de distribución. Cuando los usuarios y los dispositivos de dicha lista de distribución inicien la aplicación móvil de iOS, tendrán la siguiente experiencia. 
+ Supongamos que publica la directiva de configuración de aplicaciones para una lista de distribución. Cuando los usuarios y los dispositivos de dicha lista de distribución inicien la aplicación móvil, tendrán la siguiente experiencia. 
 
-1. Se muestra un mensaje que indica que su aplicación móvil está configurada con un servidor de informes y deben pulsar en **Iniciar sesión**.
+1. Se muestra un mensaje que indica que su aplicación móvil está configurada con Report Server y deben pulsar en **Iniciar sesión**.
 
     ![Iniciar sesión en el servidor de informes](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-sign-in.png)
 
@@ -59,7 +65,7 @@ Este es un ejemplo de configuración de la directiva de configuración mediante 
 
     ![Detalles del servidor de informes rellenados](media/configure-powerbi-mobile-apps-remote/power-bi-config-server-address.png)
 
-Ya pueden ver e interactuar con los KPI y los informes de Power BI almacenados en el servidor de informes.
+Ya pueden ver e interactuar con los KPI y los informes de Power BI almacenados en Report Server.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

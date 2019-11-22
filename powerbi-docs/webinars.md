@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 289e6490d2449bdcbca68e6acba85cf4466b315f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
+ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880557"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "74060445"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -21,7 +21,13 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
 
-Todavía no hay seminarios web programados. Vuelva pronto para ver más eventos.
+**Análisis en un evento virtual de Azure: acelere el tiempo de información con Azure Synapse Analytics**
+<br>de Gayle Sheppard y John Macintyre
+<br>[Regístrese ahora mismo](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
+
+**Cómo Microsoft cambia la protección de datos de BI**
+<br>de Anton Fritz y Adi Regev
+<br>[Regístrese para verlo el 4 de diciembre](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 

@@ -1,32 +1,32 @@
 ---
-title: Opciones de configuración de la aplicación para iOS de Power BI
-description: Cómo personalizar el comportamiento de Power BI para iOS mediante una herramienta de MDM
+title: Opciones de configuración de la aplicación de Power BI
+description: Personalización del comportamiento de Power BI mediante una herramienta de MDM
 author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/07/2019
-ms.author: mshenhav
-ms.openlocfilehash: c2d619489b042e523c559a16dab249b268389cd5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/07/2019
+ms.author: painbar
+ms.openlocfilehash: 7ed763d6c87e4b93ebecc474c9059ba83245368a
+ms.sourcegitcommit: 50c4bebd3432ef9c09eacb1ac30f028ee4e66d61
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879430"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "73925787"
 ---
-# <a name="remotely-configure-power-bi-ios-app-using-mobile-device-management-mdm-tool"></a>Configuración remota de la aplicación para iOS de Power BI mediante la herramienta de administración de dispositivos móviles (MDM)
+# <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configuración remota de la aplicación de Power BI mediante la herramienta de administración de dispositivos móviles (MDM)
 
-La aplicación para iOS de Power BI Mobile admite opciones de la aplicación que permiten a los administradores de Office 365 y de administración de dispositivos móviles (MDM), como Intune, personalizar el comportamiento de la aplicación.
+La aplicación Power BI Mobile para iOS y Android admite la configuración de la aplicación que permite a los administradores de Office 365 y de los servicios de administración de dispositivos móviles (MDM), como Intune, personalizar el comportamiento de la aplicación.
 
-La aplicación para iOS de Power BI Mobile admite los siguientes escenarios de configuración:
+La aplicación de Power BI Mobile admite los escenarios de configuración siguientes:
 
-- Configuración del servidor de informes
-- Configuración de la protección de datos
+- Configuración del servidor de informes (iOS y Android)
+- Configuración de la protección de datos (iOS)
 
-## <a name="report-server-configuration"></a>Configuración del servidor de informes
+## <a name="report-server-configuration-ios-and-android"></a>Configuración del servidor de informes (iOS y Android)
 
-La aplicación para iOS de Power BI permite a los administradores "insertar" de forma remota la configuración del servidor de informes con los dispositivos inscritos.
+La aplicación Power BI para iOS y Android permite a los administradores "insertar" de manera remota la configuración del servidor de informes en los dispositivos inscritos.
 
 | Clave | Tipo | Descripción |
 |---|---|---|
@@ -35,9 +35,9 @@ La aplicación para iOS de Power BI permite a los administradores "insertar" de
 | com.microsoft.powerbi.mobile.ServerDisplayName | Cadena | (opcional)<br><br>El valor predeterminado es “Servidor de informes”<br><br>Nombre descriptivo que se usa en la aplicación para representar al servidor. |
 | com.microsoft.powerbi.mobile.OverrideServerDetails | Booleano | (opcional)<br><br>El valor predeterminado es True. Si se establece en True, invalida cualquier definición del servidor de informes que ya esté disponible en el dispositivo móvil. Los servidores existentes ya configurados se eliminan. Al establecer Reemplazar en True también se evita que el usuario quite esa configuración.<br><br>Si se establece en False, se agregan los valores insertados, dejando cualquier configuración existente. Si la misma dirección URL del servidor ya está configurada en la aplicación móvil, esta deja dicha configuración tal cual. La aplicación no pide al usuario que vuelva a autenticarse para el mismo servidor. |
 
-## <a name="data-protection-setting"></a>Configuración de la protección de datos
+## <a name="data-protection-settings-ios"></a>Configuración de la protección de datos (iOS)
 
-La aplicación para iOS de Power BI ofrece a los administradores la capacidad de personalizar la configuración predeterminada para las opciones de seguridad y privacidad. Puede obligar a que los usuarios proporcionen su identificación Face ID, Touch ID o un código de acceso al acceder a la aplicación de Power BI.
+La aplicación de Power BI para ofrece a los administradores la capacidad de personalizar la configuración predeterminada para las opciones de seguridad y privacidad. Puede obligar a que los usuarios proporcionen su identificación Face ID, Touch ID o un código de acceso al acceder a la aplicación de Power BI.
 
 | Clave | Tipo | Descripción |
 |---|---|---|
@@ -45,21 +45,17 @@ La aplicación para iOS de Power BI ofrece a los administradores la capacidad d
 
 ## <a name="deploying-app-configuration-settings"></a>Implementación de los valores de configuración de la aplicación
 
-Los pasos siguientes le permiten crear una directiva de configuración de aplicaciones. Una vez creada la directiva de configuración, puede asignar su configuración a grupos de usuarios.
+A continuación se indican los pasos necesarios para crear una directiva de configuración de aplicación. Una vez creada la directiva de configuración, puede asignar su configuración a grupos de usuarios.
 
 1. Conecte la herramienta MDM.
-
 2. Cree una nueva directiva de configuración de aplicaciones y asígnele un nombre.
-
 3. Elija los usuarios a los que quiere distribuir esta directiva de configuración de aplicación.
-
 4. Cree pares de clave y valor para la configuración que desea insertar a los usuarios.
 
-El portal de Intune permite a los administradores implementar fácilmente esta configuración a la aplicación para iOS de Power BI mediante directivas de configuración.
-No obstante, se admite cualquier proveedor de MDM. Si no usa Intune, deberá consultar con la documentación de MDM sobre cómo implementar esta configuración.
+El portal de Intune permite a los administradores implementar fácilmente esta configuración a la aplicación de Power BI mediante directivas de configuración de aplicación. No obstante, se admite cualquier proveedor de MDM. Si no usa Intune, deberá consultar la documentación de MDM sobre cómo implementar esta configuración.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* Descargue la [aplicación móvil Power BI para iPhone](https://go.microsoft.com/fwlink/?LinkId=522062)
+* Obtenga la aplicación Power BI Mobile en la [App Store]("https://apps.apple.com/app/microsoft-power-bi/id929738808) y en [Google Play](https://play.google.com/store/apps/details?id=com.microsoft.powerbim&amp;amp;clcid=0x409)
 * Siga [@MSPowerBI en Twitter](https://twitter.com/MSPowerBI)
 * Únase a la conversación en la [comunidad de Power BI](https://community.powerbi.com/)
