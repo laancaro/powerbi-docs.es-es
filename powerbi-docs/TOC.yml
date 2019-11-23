@@ -407,6 +407,8 @@
       items:
         - name: Tipos de datos en Power BI Desktop
           href: desktop-data-types.md
+        - name: Orígenes de datos de Power BI
+          href: power-bi-data-sources.md
         - name: "Uso de la cinta actualizada en Power\_BI Desktop (versión preliminar)"
           href: desktop-ribbon.md
         - name: Métodos abreviados del editor de fórmulas de Power BI Desktop
