@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 7d432f8320bfa9d1e425e7f0079407ce46b12373
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4459ae95ccd900b0592dbae1048800bcd4609307
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872292"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178242"
 ---
 # <a name="frequently-asked-questions-for-power-bi-for-germany-cloud-customers"></a>Preguntas más frecuentes sobre Power BI para clientes en la nube de Alemania
 El **servicio Power BI** tiene una versión disponible para los clientes de la Unión Europea o pertenecientes al Acuerdo Europeo de Libre Comercio (UE/AELC) a la que a menudo se hace referencia como Microsoft Cloud Deutschland (MCD). La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la UE/AELC y es distinta de la versión comercial del **servicio Power BI** o de los servicios Power BI proporcionados a clientes gubernamentales.
@@ -73,7 +73,7 @@ Las siguientes preguntas y respuestas proporcionan información importante para 
 ## <a name="next-steps"></a>Pasos siguientes
 Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, incluido un artículo en el que se muestra cómo registrarse en el servicio, consulte los recursos siguientes:
 
-* [Aprendizaje guiado de Power BI](guided-learning/index.md)
+* [Aprendizaje guiado de Power BI](guided-learning/index.yml)
 * [Introducción al servicio Power BI](service-get-started.md)
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 

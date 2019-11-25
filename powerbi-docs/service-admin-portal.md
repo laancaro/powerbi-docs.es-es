@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 9970d676019bb253471da48ce3e9019e211ba6c5
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128387"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265889"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -278,13 +278,6 @@ Los creadores de informes pueden compartir aplicaciones directamente con los usu
 
 ## <a name="integration-settings"></a>Configuración de integración
 
-### <a name="ask-questions-about-data-using-cortana"></a>Realizar preguntas sobre datos mediante Cortana
-
-Los usuarios de la organización pueden realizar preguntas sobre sus datos mediante Cortana. [Más información](service-cortana-enable.md)
-
-> [!NOTE]
-> Esta configuración se aplica a toda la organización y no se puede limitar a grupos específicos.
-
 ### <a name="use-analyze-in-excel-with-on-premises-datasets"></a>Usar la función Analizar en Excel en los conjuntos de datos locales
 
 Los usuarios de la organización pueden utilizar Excel para ver e interactuar con conjuntos de datos locales de Power BI. [Más información](service-analyze-in-excel.md)
@@ -298,7 +291,7 @@ Los usuarios de la organización pueden usar la visualización de ArcGIS Maps fo
 
 ### <a name="use-global-search-for-power-bi-preview"></a>Usar la búsqueda global para Power BI (versión preliminar)
 
-Los usuarios de la organización pueden usar características de búsqueda externa que se basan en Azure Search. Por ejemplo, los usuarios pueden usar Cortana para recuperar información clave directamente de los informes y paneles de Power BI. [Más información](service-cortana-intro.md)
+Los usuarios de la organización pueden usar características de búsqueda externa que se basan en Azure Search.
 
 ## <a name="custom-visuals-settings"></a>Configuración de objetos visuales personalizados
 

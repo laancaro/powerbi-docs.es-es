@@ -9,12 +9,12 @@ ms.subservice: powerbi-consumer
 ms.topic: conceptual
 ms.date: 09/04/2019
 ms.author: mihart
-ms.openlocfilehash: 32a93a881a801ec5dd335f167e69a5b76f53d694
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 668665bcdbbb4b06a6fd1a2ee6d4af2437be77b3
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73764731"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264850"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -34,8 +34,6 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **alert, alerts (alerta, alertas)** Característica que notifica a los usuarios que se han producido cambios en los datos en función de los límites que han establecido. Las alertas se pueden establecer en iconos anclados en objetos visuales de los informes. Los usuarios reciben alertas en el servicio y en su aplicación móvil.
 
 **annotate (anotar)** Escribir líneas, texto o estampar sellos en una copia de instantánea de un icono, informe u objeto visual en la aplicación móvil de Power BI para dispositivos iOS y Android.
-
-**answer card, answer page (tarjeta de respuesta, página de respuesta)** Vea “Tarjeta de respuestas de Cortana”.
 
 **app, apps (aplicación, aplicaciones)** 
 
@@ -77,10 +75,6 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **content pack (paquete de contenido)** : una colección de conjuntos de datos, paneles e informes previamente empaquetados. Llamado ahora **aplicaciones**, conozca la [nueva experiencia de área de trabajo](https://docs.microsoft.com/power-bi/service-create-the-new-workspaces). 
 
 **content view (vista de contenido)**
-
-**Cortana answer card (tarjeta de respuestas de Cortana)** Página del informe dedicada para incluir en un informe de Power BI con la finalidad de crear respuestas de Cortana personalizadas.
-
-**Cortana answer page (página de respuestas de Cortana)** Nombre de la página de Cortana que se muestra al cliente.
 
 **cross filter, cross highlight (filtro cruzado, resaltado cruzado)**
 

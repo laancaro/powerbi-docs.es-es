@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: ee272f32dbce4630f8b834187e05fda5739df7be
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 10540ed49064b9e28543ce46b43d8bb2d9ca6cf7
+ms.sourcegitcommit: 57ec4d51744b89bd695e6c62184c21342f2eae83
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876943"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "74178272"
 ---
 # <a name="10-tips-for-getting-help-with-your-power-bi-questions"></a>10 sugerencias para obtener ayuda con sus preguntas sobre Power BI
 ¿Alguna vez se ha sentido frustrado cuando utiliza Power BI o tiene problemas porque no recibe respuestas a sus preguntas sobre Power BI justo cuando lo necesita? 
@@ -44,7 +44,7 @@ Numerosos clientes y expertos de Power BI están en Twitter. Formule su pregunta
 ## <a name="6-attend-training"></a>6 Asistencia a cursos de formación
 Las opciones de formación disponibles son casi infinitas, desde la formación presencial en laboratorios hasta vídeos cortos.
 
-* [Aprendizaje guiado](guided-learning/index.md) en el sitio de Power BI.
+* [Aprendizaje guiado](guided-learning/index.yml) en el sitio de Power BI.
 * [Seminarios web de Power BI](webinars.md) gratuitos, en directo y a petición, en el sitio de Power BI.
 
 Puede buscar opciones adicionales en línea, como las siguientes:

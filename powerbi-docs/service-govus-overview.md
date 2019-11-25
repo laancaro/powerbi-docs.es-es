@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 225c21693c9f100d9abbfc310b957bee7a909061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881352"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265449"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -55,7 +55,6 @@ Algunas de las características que están disponibles en la versión comercial 
 * **Insertar en SharePoint Online**: no es posible insertar contenido en SharePoint Online mediante el elemento web de Power BI. Pero Secure embed funciona mediante el [elemento web *Insertar*](https://docs.microsoft.com/power-bi/service-embed-secure). Debe agregar *app.powerbigov.us* a la lista de excepciones, lo que puede hacer si sigue las instrucciones del artículo [Permitir o restringir la capacidad de insertar contenido en páginas de SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * **Power BI para la Administración Pública de Estados Unidos** solo está disponible como una licencia **Pro**. Todas las referencias a licencias de Power BI (gratis) en un portal de administración (o como usuarios) se ejecutan en una nube del servicio Power BI comercial.
 * **Auditoría**: desde junio de 2018, esta opción está disponible en el portal Seguridad y cumplimiento de Office 365.
-* **Contenido de Power BI en Cortana**: los resultados de Power BI no aparecerán en los resultados de búsqueda de Cortana, que incluye los resultados para el contenido de Power BI (paneles, informes, aplicaciones), así como los resultados que muestran páginas del informe optimizadas para Cortana sobre palabras clave específicas.
 * **Uso compartido de usuario externo**: el uso compartido está permitido solo dentro de un inquilino de Power BI; a partir de junio de 2018, también se puede compartir con usuarios de fuera del inquilino de Power BI. Consulte [Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B](service-admin-azure-ad-b2b.md).
 * **Métricas de uso para paneles e informes**: las métricas de uso no están disponibles para informes y paneles. Los clientes pueden usar los datos de registro de auditoría para obtener información de uso para el contenido de su organización.
 * **Flujos de datos**: los flujos de datos no están disponibles.
@@ -103,7 +102,7 @@ Se puede hacer todo tipo de cosas con Power BI. Para obtener más información, 
 
 * [Registro en Power BI para la Administración Pública de Estados Unidos](service-govus-signup.md)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demo</a> (Demostración de Power BI para la Administración Pública de Estados Unidos)
-* [Aprendizaje guiado de Power BI](guided-learning/index.md)
+* [Aprendizaje guiado de Power BI](guided-learning/index.yml)
 * [Introducción al servicio Power BI](service-get-started.md)
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 

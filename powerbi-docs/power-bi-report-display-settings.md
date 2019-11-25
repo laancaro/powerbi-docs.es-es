@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: 183ce793342253775f641406620447e7b0f44020
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875138"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265861"
 ---
 # <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
 Sabemos que es crítico lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque puede que usted y sus compañeros de trabajo vean esos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
@@ -66,7 +66,6 @@ La configuración del **Tamaño de página** solo está disponible para los prop
 
 * Relación 4:3
 * Relación 16:9 (valor predeterminado)
-* Cortana
 * Carta
 * Personalizado (alto y ancho en píxeles)
 
