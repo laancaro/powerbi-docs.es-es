@@ -100,13 +100,13 @@ No aplicable
 
 No aplicable
 
-## <a name="disclaimer"></a>Declinación de responsabilidades
+## <a name="disclaimer"></a>Disclaimer
 
-© 2017 Microsoft Corporation. Todos los derechos reservados. Los nombres de las empresas y productos reales mencionados aquí pueden ser marcas comerciales de sus respectivos propietarios. La información contenida en este documento representa la vista actual de Microsoft Corporation sobre los problemas descritos en la fecha de la publicación. Microsoft no puede garantizar la exactitud de la información presentada después de la fecha de publicación. Microsoft actualiza periódicamente sus sitios web con información nueva sobre la accesibilidad de los productos a medida que esa información está disponible.
+© 2017 Microsoft Corporation. All rights reserved. The names of actual companies and products mentioned herein may be the trademarks of their respective owners. The information contained in this document represents the current view of Microsoft Corporation on the issues discussed as of the date of publication. Microsoft cannot guarantee the accuracy of any information presented after the date of publication. Microsoft regularly updates its websites with new information about the accessibility of products as that information becomes available.
 
-La personalización del producto anula esta declaración de conformidad de Microsoft. Póngase en contacto con los proveedores de tecnología de asistencia (AT) para conocer las especificaciones de compatibilidad de determinados productos.
+Customization of the product voids this conformance statement from Microsoft. Please consult with Assistive Technology (AT) vendors for compatibility specifications of specific AT products.
 
-Este documento tiene fines meramente informativos. MICROSOFT NO OTORGA NINGUNA GARANTÍA, NI EXPRESA NI IMPLÍCITA, EN ESTE DOCUMENTO.
+This document is for informational purposes only. MICROSOFT MAKES NO WARRANTIES, EXPRESS OR IMPLIED, IN THIS DOCUMENT.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
