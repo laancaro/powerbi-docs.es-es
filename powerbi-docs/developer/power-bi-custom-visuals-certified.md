@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 05/9/2019
-ms.openlocfilehash: c6ecb2eb2346940a22bbd6b7bff5ca0138faa290
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102603"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565252"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -70,7 +70,7 @@ Para obtener un objeto visual personalizado [certificado](#get-a-power-bi-visual
 
 * Si se cambia alguna propiedad de capabilities.json, asegúrese de que no interrumpe los informes del usuario existentes.
 
-* Asegúrese de que el objeto visual cumple las [directrices de los objetos visuales de Power BI](./guidelines-powerbi-visuals.md#guidelines-for-power-bi-visuals-with-additional-purchases). **No se permiten marcas de agua**.
+* Asegúrese de que el objeto visual cumple las [directrices de los objetos visuales de Power BI](./guidelines-powerbi-visuals.md). **No se permiten marcas de agua**.
 
 * Solo usa componentes OSS revisables públicos (bibliotecas JS o TypeScript que son públicos. El código fuente está disponible para su revisión y no tiene vulnerabilidades conocidas). No podemos comprobar un objeto visual personalizado que use un componente comercial.
 

@@ -1,5 +1,5 @@
 ---
-title: Integración de Power BI con Microsoft Flow
+title: Integración de Power BI con Power Automate
 description: Descubra cómo crear flujos que se desencadenen mediante alertas de datos de Power BI.
 author: mgblythe
 ms.reviewer: ''
@@ -10,16 +10,16 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: mblythe
 LocalizationGroup: Get started
-ms.openlocfilehash: a5b5a34e7cd61ac9d197faa0ef4410cd9558f597
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c8d768e1d02846eca10c6100aa8ec30dbb7f704b
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881842"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164324"
 ---
-# <a name="microsoft-flow-and-power-bi"></a>Microsoft Flow y Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate y Power BI
 
-[Microsoft Flow](https://flow.microsoft.com/documentation/getting-started) es una oferta de SaaS para automatizar flujos de trabajo en una gran cantidad de aplicaciones y en los servicios de SaaS de los que se sirven los usuarios profesionales. Flow le permite automatizar tareas mediante la integración de sus aplicaciones y servicios favoritos (incluido Power BI) para poder recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. Las tareas repetitivas se vuelven sencillas gracias a la automatización de los flujos de trabajo.
+[Power Automate](https://flow.microsoft.com/documentation/getting-started) es una oferta de SaaS para automatizar flujos de trabajo en una gran cantidad de aplicaciones y en los servicios de SaaS de los que se sirven los usuarios profesionales. Flow le permite automatizar tareas mediante la integración de sus aplicaciones y servicios favoritos (incluido Power BI) para poder recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. Las tareas repetitivas se vuelven sencillas gracias a la automatización de los flujos de trabajo.
 
 [Empiece a usar Flow.](https://flow.microsoft.com/documentation/getting-started)
 
@@ -30,12 +30,12 @@ Observe cómo Sirui crea un flujo que envía un correo electrónico detallado a 
 ## <a name="create-a-flow-that-is-triggered-by-a-power-bi-data-alert"></a>Crear un flujo que se desencadene con una alerta de datos de Power BI
 
 ### <a name="prerequisites"></a>Requisitos previos
-En este tutorial se le mostrará cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para seguir, [cree una alerta de datos en Power BI](service-set-data-alerts.md), cree una cuenta de Slack gratuita y [regístrese en Microsoft Flow](https://flow.microsoft.com/#home-signup) (es gratis).
+En este tutorial se le mostrará cómo crear dos flujos distintos: uno a partir de una plantilla y otro desde cero. Para seguir, [cree una alerta de datos en Power BI](service-set-data-alerts.md), cree una cuenta de Slack gratuita y [regístrese en Power Automate](https://flow.microsoft.com/#home-signup) (es gratis).
 
 ## <a name="create-a-flow-that-uses-power-bi---from-a-template"></a>Crear un flujo que utilice Power BI a partir de una plantilla
 En esta tarea utilizaremos una plantilla para crear un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
 
-1. Inicie sesión en Microsoft Flow (flow.microsoft.com).
+1. Inicie sesión en Power Automate (flow.microsoft.com).
 2. Seleccione **Mis flujos**.
    
    ![Barra de menús de Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -63,7 +63,7 @@ Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nu
 
    ![Pantalla para enviar correo electrónico](media/service-flow-integration/power-bi-flow-email-default.png)
 
-1.  Por ejemplo, si crea un título de alerta en Power BI de **Hemos ganado otra medalla**, puede seleccionar **Título de la alerta** para agregar texto al campo Asunto del correo electrónico.
+1.  Por ejemplo, si crea un título de alerta en Power BI de **Hemos ganado otra medalla**, puede seleccionar **Título de la alerta**para agregar texto al campo Asunto del correo electrónico.
 
     ![Creación del texto del correo electrónico](media/service-flow-integration/power-bi-flow-message.png)
 
@@ -80,7 +80,7 @@ Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nu
 ## <a name="create-a-flow-that-uses-power-bi---from-scratch-blank"></a>Crear un flujo que use Power BI (desde cero)
 En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante una alerta de datos de Power BI (notificación).
 
-1. Inicie sesión en Microsoft Flow.
+1. Inicie sesión en Power Automate.
 2. Seleccione **Mis flujos** > **Crear desde cero**.
    
    ![Barra de menús superior de Flow](media/service-flow-integration/power-bi-my-flows.png)
@@ -107,7 +107,7 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
     ![Flujo desencadena notificación de Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Empezar a utilizar Microsoft Flow](https://flow.microsoft.com/documentation/getting-started/)
+* [Introducción a Power Automate](https://flow.microsoft.com/documentation/getting-started/)
 * [Establecer alertas de datos en el servicio Power BI](service-set-data-alerts.md)
 * [Establecer alertas de datos en su iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
