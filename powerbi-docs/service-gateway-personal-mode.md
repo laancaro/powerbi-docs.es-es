@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/15/2019
 ms.author: mblythe
 LocalizationGroup: Gateways
-ms.openlocfilehash: 5138536fca255638e2cef802b885be1f5dfcbef9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8e6adb5c07c18a72d278b17e70fa7f06d1f6fd5f
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881520"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164170"
 ---
 # <a name="use-personal-gateways-in-power-bi"></a>Uso de puertas de enlace personales en Power BI
 
@@ -31,7 +31,7 @@ En la tabla siguiente se describen las diferencias entre una puerta de enlace de
 
 |   |Puerta de enlace de datos local | Puerta de enlace de datos local (modo personal) |
 | ---- | ---- | ---- |
-|Servicios en la nube compatibles |Power BI, PowerApps, Azure Logic Apps, Microsoft Flow, Azure Analysis Services, flujos de datos |Power BI |
+|Servicios en la nube compatibles |Power BI, PowerApps, Azure Logic Apps, Power Automate, Azure Analysis Services, flujos de datos |Power BI |
 |Se ejecuta |Según la configuración de los usuarios que tienen acceso a la puerta de enlace |Como usted para la autenticación de Windows y según haya configurado para otros tipos de autenticación |
 |Solo se puede instalar como administrador del equipo |Sí |No |
 |Administración centralizada de orígenes de datos y puertas de enlace |Sí |No |

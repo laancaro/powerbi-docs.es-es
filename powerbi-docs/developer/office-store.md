@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 3/27/2019
-ms.openlocfilehash: 8d320b5fa1387ebf21ecd8c3c1db70b9892154e7
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128067"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265240"
 ---
 # <a name="publish-power-bi-visuals-to-appsource"></a>Publicación de objetos visuales de Power BI en AppSource
 
@@ -25,7 +25,7 @@ Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppS
 
 ## <a name="what-is-appsource"></a>¿Qué es AppSource?
 
-**AppSource** es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365 o Cortana Intelligence con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
+**AppSource** es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta millones de usuarios de productos como Office 365, Dynamics 365 y otros con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
 
 ## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
 

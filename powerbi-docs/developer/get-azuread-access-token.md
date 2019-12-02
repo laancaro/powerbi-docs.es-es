@@ -1,19 +1,19 @@
 ---
-title: Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación
+title: Autenticación de usuarios y obtención de un token de acceso de Azure AD para la aplicación
 description: Obtenga información sobre cómo registrar una aplicación en Azure Active Directory para su uso con la inserción de contenido de Power BI.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/04/2019
-ms.openlocfilehash: 1655843d9e3175b9c428434fd533a601cc42d847
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cac59a4689eecd75c53ca1c62d7b097438b2ae53
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875759"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74310836"
 ---
 # <a name="get-an-azure-ad-access-token-for-your-power-bi-application"></a>Obtención de un token de acceso de Azure AD para la aplicación de Power BI
 

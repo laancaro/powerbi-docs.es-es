@@ -2,20 +2,20 @@
 title: Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 description: Gráficos de dispersión, de trazado de punto y de burbujas de Power BI
 author: mihart
-ms.reviewer: ''
+ms.reviewer: amac
 featuredvideoid: PVcfPoVE3Ys
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 11/21/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 88db87b995f52aa51023bd465d349459e1dd2965
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a03ac63caf8da96cd7e786c99c8a8dcd36f45a75
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870831"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311565"
 ---
 # <a name="scatter-charts-bubble-charts-and-dot-plot-charts-in-power-bi"></a>Gráficos de dispersión, de burbujas y de trazado de punto de Power BI
 
@@ -131,13 +131,30 @@ Ahora vamos a agregar una tercera dimensión.
     > [!NOTE]
     > Más puntos de datos pueden significar un tiempo de carga más largo. Si decide publicar informes con límites en el extremo superior de la escala, asegúrese de probar los informes también en la web y en el dispositivo móvil. Desea confirmar que el rendimiento del gráfico se adapta a las expectativas de los usuarios.
 
-1. Puede [aplicar formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc.](service-getting-started-with-color-formatting-and-axis-properties.md)
-
-    Para [mejorar la accesibilidad](../desktop-accessibility.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas**, seleccione **Forma de marcador** y seleccione una forma.
+1. Continúe con la aplicación de formato a los colores de la visualización, las etiquetas, los títulos, el fondo, etc. Para [mejorar la accesibilidad](../desktop-accessibility.md), considere la posibilidad de agregar formas de marcador a cada línea. Para seleccionar la forma del marcador, expanda **Formas**, seleccione **Forma de marcador** y seleccione una forma.
 
     ![Captura de pantalla de la lista desplegable Formas con las opciones de Forma de marcador indicadas.](media/power-bi-visualization-scatter/pbi-scatter-marker.png)
 
-    Puede cambiar la forma del marcador en forma de rombo, triángulo o cuadrado. El empleo de una forma de marcador distinta para cada línea permite que los lectores del informe puedan diferenciar cada una de las líneas (o áreas) con más facilidad.
+    Cambie la forma del marcador por un rombo, triángulo o cuadrado. El empleo de una forma de marcador distinta para cada línea permite que los lectores del informe puedan diferenciar cada una de las líneas (o áreas) con más facilidad.
+
+1. Abra el panel Analytics ![Captura de pantalla del icono del panel Analytics.](media/power-bi-visualization-scatter/power-bi-analytics.png) para agregar información adicional a la visualización.  
+    - Agregue una línea mediana. Seleccione **Línea mediana** > **Agregar**. De forma predeterminada, Power BI agrega una línea mediana para *Ventas por metro cuadrado*. Esto no es muy útil, ya que se puede ver que hay 10 puntos de datos y se sabe que la mediana se creará con cinco puntos de datos a cada lado. En su lugar, cambie la **Medida** a *% de desviación de ventas totales*.  
+
+        ![Captura de pantalla del gráfico de burbujas con la línea de mediana agregada.](media/power-bi-visualization-scatter/power-bi-analytics-median.png)
+
+    - Agregue sombreado de simetría para mostrar qué puntos tienen un valor mayor de la medida del eje X en comparación con la medida del eje Y, y viceversa. Al activar el sombreado de simetría en el panel Analytics, Power BI muestra el fondo del gráfico de dispersión simétricamente en función de los límites superior e inferior del eje actual. Se trata de una manera muy rápida de identificar qué medida de eje favorece un punto de datos, sobre todo si tiene un intervalo de ejes diferente para los ejes X e Y.
+
+        a. Cambie el campo **% de desviación de ventas totales** a **% de margen bruto del último año**
+
+        ![Captura de pantalla del gráfico de burbujas con la línea de mediana agregada.](media/power-bi-visualization-scatter/power-bi-format-symmetry.png)
+
+        b. En el panel Analytics, agregue **Sombreado de simetría**. A partir del sombreado se observa que Calcetería (la burbuja verde en el área sombreada de color rosa) es la única categoría que favorece el margen bruto en lugar de sus ventas por metro cuadrado de tienda. 
+
+        ![Captura de pantalla del gráfico de burbujas con sombreado de simetría agregado.](media/power-bi-visualization-scatter/power-bi-symmetry.png)
+
+    - Continúe con la exploración del panel Analytics para descubrir información interesante sobre los datos. 
+
+        ![Captura de pantalla del gráfico de burbujas con sombreado de simetría agregado.](media/power-bi-visualization-scatter/power-bi-analytics-example.png)
 
 ## <a name="create-a-dot-plot-chart"></a>Creación de un gráfico de trazado de punto
 

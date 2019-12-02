@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: bd6270731f79ac5a1e270ac36699470a0e6df978
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 3b90fcef50fc3f97a1a36e456eec254c422691a4
+ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060445"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "74164248"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -28,6 +28,10 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 **Cómo Microsoft cambia la protección de datos de BI**
 <br>de Anton Fritz y Adi Regev
 <br>[Regístrese para verlo el 4 de diciembre](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics** (9 tendencias que conforman el futuro del análisis de macrodatos)
+<br>por Vijay Gopalakrishnan
+<br>[Regístrese para verlo el 18 de diciembre](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 >[Próximos seminarios web de la comunidad de Power BI](https://powerbi.microsoft.com/blog/tag/community-webinars/?Is=Website)
 
@@ -87,7 +91,7 @@ Vea las sesiones grabadas en cualquier momento
 
 ### <a name="getting-started"></a>Introducción
 
-**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Microsoft Flow** (Automatizar los procesos empresariales diarios con Power BI, PowerApps y Microsoft Flow)
+**Automate Day-to-Day Business Processes with Power BI, PowerApps, and Power Automate** (Automatizar los procesos empresariales diarios con Power BI, PowerApps y Power Automate)
 <br>de Wim Coorevits y Enrique Plaza García
 <br>[Registrarse y ver ahora](https://info.microsoft.com/Automate-Day-to-Day-Business-Processes-with-Power-BI-Power-Apps-and-Microsoft-Flow-OnDemandRegistration.html)
 
@@ -107,7 +111,7 @@ Vea las sesiones grabadas en cualquier momento
 <br>de Charles Sterling
 <br>[Ver ahora](https://community.powerbi.com/t5/Webinars-and-Video-Gallery/5-3-17-Webinar-How-to-Design-Visually-Stunning-Power-BI-Reports/m-p/168204?Is=Website)
 
-**The Total Economic Impact of Microsoft Flow and PowerApps** (El impacto económico total de Microsoft Flow y PowerApps)
+**The Total Economic Impact of Power Automate and PowerApps** (El impacto económico total de Power Automate y PowerApps)
 <br>de Jonathan Lipsitz y Enrique Plaza García
 <br>[Registrarse y ver ahora](https://info.microsoft.com/The-TEI-of-PowerApps-and-Microsoft-Flow-OnDemandRegistration.html?Is=Website)
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/22/2019
 ms.author: nikhilga
 LocalizationGroup: Get started
-ms.openlocfilehash: c470eba3998e04fde8c00c619077d5d8db444b42
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 06e46413be709ac3eda2102332740d709092187e
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099715"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265331"
 ---
 # <a name="whats-new-in-the-power-bi-service"></a>Novedades en el servicio Power BI
 Consulte esta página para obtener información sobre los problemas conocidos y las características publicadas recientemente del **servicio Power BI**. Para obtener información sobre novedades, vea:
@@ -30,7 +30,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * [Guy in a Cube (YouTube)](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ### <a name="october-2019"></a>Octubre de 2019
-* Nueva acción de Microsoft Flow para actualizar los conjuntos de datos de Power BI.
+* Nueva acción de Power Automate para actualizar los conjuntos de datos de Power BI.
 * [Lista de contactos](https://powerbi.microsoft.com/blog/announcing-new-contact-lists-for-reports-and-dashboards-in-the-power-bi-service/) para los informes y los paneles en el servicio Power BI.
 
 ## <a name="previous-months-2019"></a>Meses anteriores (2019)
@@ -227,7 +227,7 @@ Asimismo, para obtener información sobre las novedades y características, cons
 * [Los registros de auditoría de Power BI](https://powerbi.microsoft.com/blog/power-bi-service-january-feature-summary/#auditlogs) en el portal de auditoría de Office 365 están disponibles globalmente.
 * Se ha publicado la versión 1.4 de [las API de objetos visuales y de herramientas para desarrolladores](https://powerbi.microsoft.com/blog/new-apis-available-for-custom-visuals-developers/).
 * [Conjunto de características de transmisión en tiempo real](https://powerbi.microsoft.com/blog/announcing-general-availability-of-power-bi-real-time-streaming-datasets/) publicado para disponibilidad general.
-* [Inserte datos en Power BI con Microsoft Flow](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sin escribir una sola línea de código.
+* [Inserte datos en Power BI con Power Automate](https://powerbi.microsoft.com/blog/push-rows-to-a-power-bi-streaming-dataset-without-writing-any-code-using-microsoft-flow/) sin escribir una sola línea de código.
 * Versión preliminar: [Suscríbase a las páginas de informes](https://powerbi.microsoft.com/blog/introducing-email-subscriptions-in-power-bi-stay-informed-when-it-matters/) para estar al corriente de los datos.
 * Utilice el paquete de contenido de Azure AD para obtener más información sobre cómo los empleados y asociados usan Azure AD.
 
@@ -530,7 +530,6 @@ Para obtener todos los detalles, incluido un vídeo que muestra muchas de las ac
 
 * Detectar tendencias y descubrir patrones en un conjunto de datos con Información rápida automáticamente: [vídeo](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-updates-from-browser-to-desktop-and-new-automated-insights-mf.aspx) o [artículo](consumer/end-user-insights.md)
 * [Visualizar los datos VMob en Power BI](https://blogs.msdn.com/b/powerbi/archive/2015/11/25/visualize-your-vmob-data-in-power-bi.aspx)
-* [Integración de Power BI con Cortana](https://blogs.msdn.com/b/powerbi/archive/2015/12/01/announcing-power-bi-integration-with-cortana-and-new-ways-to-quickly-find-insights-in-your-data.aspx)
 * [Vista previa de Power BI Gateway for Enterprise](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/announcing-preview-of-power-bi-gateway-for-enterprise-deployments.aspx)
 * Presentación de un nuevo paquete de contenido: [Search Analytics from Bing on Power BI dashboards](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/search-analytics-from-bing-on-your-power-bi-dashboards.aspx) (Análisis de búsquedas de Bing en paneles de Power BI)
 * Nuevas mejoras para desarrolladores: [Dos nuevas API y un registro de aplicaciones más fácil](https://blogs.msdn.com/b/powerbi/archive/2015/12/02/power-bi-for-developers-reports-api-and-a-simple-app-registration-experience.aspx)

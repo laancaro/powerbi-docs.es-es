@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 08/05/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c61a21f400de009815ecb685f989b1cdafbcdb22
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5560181f2fc52a02eebce274d88dc66517181517
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875602"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410774"
 ---
 # <a name="data-reduction-techniques-for-import-modeling"></a>Técnicas de reducción de datos para modelos de importación
 
@@ -21,14 +21,14 @@ Este artículo va dirigido a los modeladores de datos de Power BI Desktop que de
 
 Los modelos de importación se cargan con datos comprimidos y optimizados y luego se almacenan en disco mediante el motor de almacenamiento VertiPaq. Cuando los datos de origen se cargan en la memoria, es posible ver una compresión por 10, por lo que es razonable esperar que 10 GB de datos de origen se puedan comprimir a un tamaño de aproximadamente 1 GB. Además, cuando se guardan en el disco, se puede lograr una reducción adicional del 20 %.
 
-A pesar de la eficacia lograda por el motor de almacenamiento VertiPaq, es importante intentar minimizar los datos que se van a cargar en los modelos. Esto es especialmente así en el caso de los modelos de gran tamaño, o de los modelos que se prevé que vayan a crecer hasta alcanzar un gran tamaño con el tiempo. Los cuatro motivos de peso incluyen:
+A pesar de la eficacia lograda por el motor de almacenamiento VertiPaq, es importante intentar minimizar los datos que se van a cargar en los modelos. Esto es especialmente así en el caso de los modelos de gran tamaño, o bien de los modelos que se prevé que vayan a crecer hasta alcanzar un gran tamaño con el tiempo. Los cuatro motivos de peso incluyen:
 
 - Es posible que la capacidad no admita tamaños de modelo más grandes. La capacidad compartida puede hospedar modelos de hasta 1 GB de tamaño, mientras que las capacidades Premium pueden hospedar modelos de hasta 13 GB de tamaño. Para obtener más información, lea el artículo [Compatibilidad de Power BI Premium con conjuntos de datos grandes](../service-premium-large-datasets.md).
-- Los tamaños de modelo más pequeños reducen la contención de los recursos de capacidad, en particular, memoria. Esto permite que se carguen más modelos de forma simultánea durante períodos de tiempo más largos, lo que da lugar a tasas de expulsión inferiores. Para obtener más información, lea el tema [Cómo funcionan las capacidades](../whitepaper-powerbi-premium-deployment.md#how-capacities-function) de las notas del producto [Implementación y administración de capacidades de Power BI Premium](../whitepaper-powerbi-premium-deployment.md).
+- Los tamaños de modelo más pequeños reducen la contención de los recursos de capacidad, en particular, memoria. Permite que se carguen más modelos de forma simultánea durante períodos de tiempo más largos, lo que da lugar a tasas de expulsión inferiores. Para más información, vea [Administración de las capacidades Premium](../service-premium-capacity-manage.md).
 - Los modelos más pequeños logran una actualización de datos más rápida, lo que da lugar a informes de latencia inferiores, mayor rendimiento de actualización de conjuntos de datos y menos presión sobre el sistema de origen y los recursos de capacidad.
 - Los recuentos de filas de tablas más pequeños pueden dar lugar a evaluaciones de cálculo más rápidas, lo que puede proporcionar un mejor rendimiento general de las consultas.
 
-En este artículo se describen ocho técnicas de reducción de datos diferentes. Estas incluyen:
+En este artículo se describen ocho técnicas de reducción de datos diferentes. Estas técnicas incluyen:
 
 - [Quitar columnas innecesarias](#remove-unnecessary-columns)
 - [Quitar filas innecesarias](#remove-unnecessary-rows)
@@ -46,9 +46,9 @@ Las columnas de las tablas del modelo tienen dos propósitos principales:
 - **Creación de informes**, para lograr diseños de informe que filtren, agrupen y resuman los datos del modelo correctamente
 - **Estructura del modelo**, al admitir relaciones del modelo, cálculos del modelo, roles de seguridad e incluso formato de colores de datos
 
-Las columnas que no sirvan para estos propósitos probablemente se quiten. La eliminación de columnas se conoce como _filtrado vertical_.
+Las columnas que no sirvan para estos propósitos probablemente se puedan quitar. La eliminación de columnas se conoce como _filtrado vertical_.
 
-Se recomienda diseñar modelos que tengan exactamente el número correcto de columnas en función de los requisitos conocidos de creación de informes. Desde luego, estos requisitos pueden cambiar con el tiempo, pero tenga en cuenta que es más fácil agregar columnas más adelante que quitarlas. La eliminación de columnas podría romper los informes o la estructura del modelo.
+Se recomienda diseñar modelos que tengan exactamente el número correcto de columnas en función de los requisitos conocidos de creación de informes. Los requisitos pueden cambiar con el tiempo, pero tenga en cuenta que es más fácil agregar columnas más adelante que quitarlas. La eliminación de columnas puede interrumpir los informes o la estructura del modelo.
 
 ## <a name="remove-unnecessary-rows"></a>Quitar filas innecesarias
 
@@ -62,15 +62,15 @@ El **filtrado por tiempo** implica limitar la cantidad de _historial de datos_ q
 
 Quizás la técnica más eficaz para reducir el tamaño de un modelo es cargar datos resumidos previamente. Esta técnica se puede usar para disminuir el nivel de detalle de las tablas de tipo de hechos. La desventaja es la pérdida de detalle.
 
-Por ejemplo, una tabla de hechos de ventas de origen almacena una fila por línea de pedido. Se puede lograr una reducción considerable de los datos si se resumen todas las métricas de ventas, al agrupar por fecha, cliente y producto. Por tanto, piense que se puede lograr una reducción de datos aún mayor mediante la agrupación por fecha _en el nivel de mes_. Con esto se puede conseguir una reducción del 99 % del tamaño del modelo, aunque ya no es posible crear informes en el nivel de día ni en el nivel de pedido individual. La decisión de resumir los datos de tipo de hechos siempre conlleva ventajas y desventajas. Estas podrían mitigarse mediante un diseño de modelo mixto, que se trata más adelante en el tema [Cambiar al modo mixto](#switch-to-mixed-mode).
+Por ejemplo, una tabla de hechos de ventas de origen almacena una fila por línea de pedido. Se puede lograr una reducción considerable de los datos si se resumen todas las métricas de ventas, al agrupar por fecha, cliente y producto. Por tanto, piense que se puede lograr una reducción de datos aún mayor mediante la agrupación por fecha _en el nivel de mes_. Se podría conseguir una reducción del 99 % del tamaño del modelo, aunque ya no es posible crear informes en el nivel de día ni de pedido individual. La decisión de resumir los datos de tipo de hechos siempre conlleva ventajas y desventajas. Las desventajas se podrían mitigar mediante un diseño de modelo mixto, una opción que se describe en la técnica [Cambiar al modo mixto](#switch-to-mixed-mode).
 
 ## <a name="optimize-column-data-types"></a>Optimizar tipos de datos de columna
 
-El motor de almacenamiento VertiPaq usa estructuras de datos independientes para cada columna. Por diseño, estas estructuras de datos logran las mayores optimizaciones con los datos de columna numéricos, que usan codificación de valores. Pero los datos de texto y otros no numéricos usan codificación hash. Esto exige que el motor de almacenamiento asigne un identificador numérico a cada valor de texto único incluido en la columna. Así, es el identificador numérico el que después se almacena en la estructura de datos, lo que exige una búsqueda hash durante el almacenamiento y la consulta.
+El motor de almacenamiento VertiPaq usa estructuras de datos independientes para cada columna. Por diseño, estas estructuras de datos logran las mayores optimizaciones con los datos de columna numéricos, que usan codificación de valores. Pero los datos de texto y otros no numéricos usan codificación hash. Esto requiere que el motor de almacenamiento asigne un identificador numérico a cada valor de texto único incluido en la columna. Así, es el identificador numérico el que después se almacena en la estructura de datos, lo que exige una búsqueda hash durante el almacenamiento y la consulta.
 
 En algunas instancias específicas, puede convertir los datos de texto de origen en valores numéricos. Por ejemplo, un número de pedido de ventas puede llevar siempre como prefijo un valor de texto (como "SO123456"). Se puede quitar el prefijo y el valor de número de pedido convertirse en número entero. En el caso de las tablas de gran tamaño, esto puede dar lugar a una reducción considerable de datos, especialmente si la columna contiene valores de cardinalidad únicos o elevados.
 
-En este ejemplo, se recomienda establecer la propiedad de columna Resumen predeterminado en "No resumir". Esto ayuda a minimizar el resumen inadecuado de los valores de número de pedido.
+En este ejemplo, se recomienda establecer la propiedad de columna Resumen predeterminado en "No resumir". Esto ayudará a minimizar el resumen inadecuado de los valores de número de pedido.
 
 ## <a name="preference-for-custom-columns"></a>Preferencia de columnas personalizadas
 
@@ -88,13 +88,13 @@ Las consultas de Power Query diseñadas para permitir la integración de datos c
 
 ## <a name="disable-auto-datetime"></a>Deshabilitar fecha y hora automáticas
 
-Power BI Desktop incluye una opción llamada _Fecha y hora automáticas_. Cuando está habilitada, crea una tabla de fecha y hora oculta para las columnas de fecha para ayudar a los autores de informes al configurar filtros, agrupar y explorar en profundidad los períodos de tiempo de calendario. Las tablas ocultas son en realidad tablas calculadas que aumentan el tamaño del modelo. Para obtener instrucciones sobre el uso de esta opción, consulte el artículo [Guía de fecha y hora automáticas en Power BI Desktop](../desktop-auto-date-time.md).
+Power BI Desktop incluye una opción llamada _Fecha y hora automáticas_. Cuando se habilita, crea una tabla de fecha y hora automática oculta para las columnas de fecha a fin de ayudar a los autores de informes al configurar filtros, agrupar y explorar en profundidad los períodos de tiempo de calendario. Las tablas ocultas son en realidad tablas calculadas que aumentan el tamaño del modelo. Para obtener instrucciones sobre el uso de esta opción, consulte el artículo [Guía de fecha y hora automáticas en Power BI Desktop](../desktop-auto-date-time.md).
 
 ## <a name="switch-to-mixed-mode"></a>Cambiar al modo mixto
 
 En Power BI Desktop, un diseño de modo mixto genera un modelo compuesto. Básicamente, permite determinar el modo de almacenamiento _de cada tabla_. Por lo tanto, cada tabla puede tener su propiedad Modo de almacenamiento establecida en Importar o DirectQuery (Dual es otra opción).
 
-Una técnica eficaz para reducir el tamaño del modelo consiste en establecer la propiedad Modo de almacenamiento de las tablas de tipo de hechos mayores en DirectQuery. Piense que este enfoque de diseño podría funcionar bien con el tema [Agrupar y resumir](#group-by-and-summarize) presentado anteriormente. Por ejemplo, los datos de ventas resumidos se podrían usar para lograr informes de "resumen" de alto rendimiento. Una página de obtención de detalles podría mostrar las ventas pormenorizadas de un contexto de filtrado (y delimitación) específico y mostrar todos los pedidos de ventas en contexto. En este ejemplo, la página de obtención de detalles incluiría objetos visuales basados en una tabla de DirectQuery para recuperar los datos de pedidos de ventas.
+Una técnica eficaz para reducir el tamaño del modelo consiste en establecer la propiedad Modo de almacenamiento de las tablas de tipo de hechos mayores en DirectQuery. Piense que este enfoque de diseño podría funcionar bien con la técnica [Agrupar y resumir](#group-by-and-summarize) presentada antes. Por ejemplo, los datos de ventas resumidos se podrían usar para lograr informes de "resumen" de alto rendimiento. Una página de obtención de detalles podría mostrar las ventas pormenorizadas de un contexto de filtrado (y delimitación) específico y mostrar todos los pedidos de ventas en contexto. En este ejemplo, la página de obtención de detalles incluiría objetos visuales basados en una tabla de DirectQuery para recuperar los datos de pedidos de ventas.
 
 Pero hay muchas implicaciones de seguridad y rendimiento relacionadas con los modelos compuestos. Para obtener más información, lea el artículo [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md).
 
@@ -103,4 +103,5 @@ Pero hay muchas implicaciones de seguridad y rendimiento relacionadas con los mo
 Para obtener más información sobre el diseño del modelo de importación de Power BI, vea los siguientes artículos:
 
 - [Usar modelos compuestos en Power BI Desktop](../desktop-composite-models.md)
-- [Modo de almacenamiento en Power BI Desktop](../desktop-storage-mode.md)
+- [Modo de almacenamiento en Power BI Desktop](../desktop-storage-mode.md)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: b715cd42ea221f62258b66eee71b6525b2015ae1
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128181"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311742"
 ---
 # <a name="conditional-formatting-in-tables"></a>Formato condicional en tablas 
 Con el formato condicional de tablas, se pueden especificar colores personalizados de las celdas en función de los valores de esas celdas o de otros valores o campos, usando incluso colores de degradado. También puede mostrar valores de celda con barras de datos. 
@@ -139,7 +139,7 @@ Puede usar cualquiera de los valores enumerados en la especificación de color C
 Hay algunas consideraciones que tener en cuenta al trabajar con el formato condicional de tabla:
 
 * El formato condicional solo se aplica a los valores de un objeto visual **Matriz**, y no se aplica a subtotales ni totales generales. 
-* El formato condicional no se aplica a la fila **Total**
+* El formato condicional no se aplica a la fila **Total**.
 * Las tablas que no tengan una agrupación se muestran como una sola fila que no admite el formato condicional.
 * Si se usa el formato de degradado con valores mínimos y máximos o un formato basado en reglas con reglas de porcentaje, el formato condicional no se puede aplicar cuando los datos contienen valores NaN. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar estos errores.
 

@@ -2,19 +2,19 @@
 title: Usar mapas de formas en Power BI Desktop (versión preliminar)
 description: Crear comparaciones relativas a las regiones con mapas de formas en Power BI Desktop
 author: mihart
-ms.reviewer: amanda
+ms.reviewer: amanda, justyna, sujata
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/4/2019
+ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 800f7d3cd7f930f2c3411c21e94cadb7cda94c8c
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
+ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871120"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "74199449"
 ---
 # <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
 
@@ -198,28 +198,23 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 | Id. | nombre | nombre (español) |
 | --- | --- | --- |
-| Alsace |Alsace |Alsacia |
-| Rhone-Alpes |Rhône-Alpes |Ródano-Alpes |
-| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provenza-Alpes-Costa Azul |
-| Poitou-Charentes |Poitou-Charentes |Poitou-Charentes |
-| Picardie |Picardie |Picardía |
-| Pays de la Loire |Pays de la Loire |Países del Loira |
-| Nord-Pas-de-Calais |Nord-Pas-de-Calais |Norte-Paso de Calais |
-| Midi-Pyrenees |Midi-Pyrénées |Mediodía-Pirineos |
-| Lorraine |Lorraine |Lorena |
-| Limousin |Limousin |Lemosín |
-| Languedoc-Roussillon |Languedoc-Roussillon |Languedoc-Rosellón |
-| Ile-del-France |Île-de-France |Isla de Francia |
-| Haute-Normandie |Haute-Normandie |Alta Normandía |
-| Franche-Comte |Franche-Comté |Franco Condado |
-| Corse |Corse |Córcega |
-| Champagne-Ardenne |Champagne-Ardenne |Champaña-Ardenas |
-| Centre-Val de Loire |Centre-Val de Loire |Centro-Valle de Loira |
+| Auvernia-Ródano-Alpes |  |  |
+| Borgoña-Franco Condado |  |  |
 | Bretagne |Bretagne |Bretaña |
-| Bourgogne |Bourgogne |Borgoña |
-| Basse-Normandie |Basse-Normandie |Baja Normandía |
-| Auvergne |Auvergne |Auvernia |
-| Aquitaine |Aquitaine |Aquitaine |
+| Centro-Valle de Loira |Centre-Val de Loire |Centro-Valle de Loira |
+| Corse |Corse |Córcega |
+| Gran Este |  |  |
+| Guadalupe | |   |
+| Alta Francia |  |  |
+| Isla de Francia |Île-de-France |Isla de Francia |
+| Reunión |  |  |
+| Mayotte  |  |  |
+| Normandía |Normandía |  |
+| Nueva Aquitania |  |  |
+| Occitania  |  |  |
+| Pays de la Loire |Pays de la Loire |Pays de la Loire |
+| Provence-Alpes-Cote d'Azur |Provence-Alpes-Côte d'Azur |Provence-Alpes-Cote d'Azur |
+|  |  |  |
 
 ### <a name="germany-states"></a>Alemania: estados
 

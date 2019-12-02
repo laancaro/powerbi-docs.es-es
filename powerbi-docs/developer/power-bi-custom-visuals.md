@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: a45566d6fe9f4833ebed91e7c10656a8ca1c6961
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102074"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265214"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
@@ -49,7 +49,7 @@ Los administradores de Power BI aprueban e implementan los objetos visuales de P
 
 Los miembros de la comunidad y Microsoft han aportado sus objetos visuales de Power BI para el beneficio del público y los han publicado en el Marketplace de [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals). Puede descargar estos objetos visuales y agregarlos a los informes de Power BI. Microsoft ha probado y aprobado la funcionalidad y calidad de todos estos objetos visuales de Power BI.
 
-¿Qué es [AppSource](office-store.md)? Es el lugar donde puede encontrar aplicaciones, complementos y extensiones para el software de Microsoft. AppSource conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365, Cortana y Power BI con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa y atractiva que antes.
+¿Qué es [AppSource](office-store.md)? Es el lugar donde puede encontrar aplicaciones, complementos y extensiones para el software de Microsoft. AppSource conecta millones de usuarios de productos como Office 365, Azure, Dynamics 365 y Power BI con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa y atractiva que antes.
 
 ### <a name="certified-visuals"></a>Objetos visuales certificados
 

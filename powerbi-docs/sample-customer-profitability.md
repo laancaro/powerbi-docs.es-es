@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d6368ae61b2813972c3209e2af456ba5aa5fb81b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 160c5736bc2894e629f5bb375dd07e993def1e0c
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874015"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74265549"
 ---
 # <a name="customer-profitability-sample-for-power-bi-take-a-tour"></a>Ejemplo Rentabilidad del cliente para Power BI: Dar un paseo
 
@@ -128,7 +128,7 @@ Muchos iconos del panel de ejemplo Rentabilidad del cliente se anclaron desde el
 
     * **Tarjeta de resultados del equipo** se centra en el rendimiento de los cinco administradores y sus carteras de negocios.
     * **Análisis del margen de la industria** ofrece una forma de analizar nuestra rentabilidad en comparación con la situación de todo el sector.
-    * **Cuadro de mandos ejecutivo** proporciona una vista de cada uno de nuestros directores, con un formato para ver en Cortana.
+    * **Cuadro de mandos ejecutivo** proporciona una vista de cada uno de los directores, en un formato de tamaño de página personalizado.
 
 ### <a name="team-scorecard-page"></a>Página Tarjeta de resultados del equipo
 ![Página del informe Cuadro de mandos de equipo](media/sample-customer-profitability/customer2.png)
@@ -170,7 +170,7 @@ Esta página del informe ofrece un segmento de datos distinto. Se examina el mar
    * Valery, que es responsable de un solo producto, trabaja solamente en cinco segmentos de la industria. Su influencia en el sector es estacional, pero siempre genera una burbuja de gran tamaño, lo que indica un impacto importante en los resultados de la compañía. ¿Explican los segmentos del sector su rendimiento negativo?
 
 ### <a name="executive-scorecard"></a>Cuadro de mandos ejecutivo
-Esta página se formatea como una Tarjeta de respuestas de Cortana. Para más información, consulte [Creación de una página de respuesta personalizada para Cortana](service-cortana-answer-cards.md).
+Esta página tiene un formato de tamaño de página personalizado.
 
 ## <a name="dig-into-the-data-by-asking-questions-with-qa"></a>Uso de Preguntas y respuestas para profundizar en los datos
 Para nuestro análisis, resultaría útil determinar qué sector genera más ingresos para Valery. Vamos a usar Preguntas y respuestas.

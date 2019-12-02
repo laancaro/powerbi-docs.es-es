@@ -10,18 +10,18 @@ ms.date: 07/15/2019
 ms.author: mblythe
 ms.custom: seodec18
 LocalizationGroup: Gateways
-ms.openlocfilehash: 1966a9ea38f8ff9d1517b4df5ed0db1254ddf80d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cb28db10eecdc32f844e29c8beea178f08fbf920
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881775"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410865"
 ---
 # <a name="manage-data-sources"></a>Administración de orígenes de datos
 
 [!INCLUDE [gateway-rewrite](includes/gateway-rewrite.md)]
 
-Power BI admite muchos orígenes de datos locales, y cada uno tiene sus propios requisitos. Una puerta de enlace se puede usar para un único origen de datos, o bien para varios. En este ejemplo, se muestra cómo agregar SQL Server como un origen de datos. Los pasos son similares para otros orígenes de datos.
+Power BI admite muchos [orígenes de datos locales](power-bi-data-sources.md), cada uno con sus propios requisitos. Una puerta de enlace se puede usar para un único origen de datos, o bien para varios. En este ejemplo, se muestra cómo agregar SQL Server como un origen de datos. Los pasos son similares para otros orígenes de datos.
 
 La mayoría de las operaciones de administración de los orígenes de datos también se pueden realizar mediante API. Para más información, vea [API REST (puertas de enlace)](/rest/api/power-bi/gateways).
 
@@ -117,56 +117,7 @@ Cuando agrega un origen de datos a la puerta de enlace, debe proporcionar las cr
 
 ## <a name="list-of-available-data-source-types"></a>Lista de tipos de orígenes de datos disponibles
 
-La puerta de enlace de datos local admite los siguientes orígenes de datos para Power BI. Además de los orígenes de datos locales, los orígenes detrás de un firewall, VPN o red virtual también podrían necesitar una puerta de enlace de datos.
-
-| **Origen de datos** | **Dinámica/DirectQuery** | **Actualización programada o manual (configurada por el usuario)** |
-| --- | --- | --- |
-| Amazon Redshift |Sí |Sí |
-| Analysis Services |Sí |Sí |
-| Cubos de AtScale |Sí |Sí |
-| Azure Active Directory |No |Sí |
-| Azure Blob Storage |No |Sí |
-| Azure DevOps Server |No |Sí |
-| Azure Table Storage |No |Sí |
-| Conector de BI |Sí |Sí |
-| Denodo |Sí |Sí |
-| Dremio |Sí |Sí |
-| EmigoDataSourceConnector |No |Sí |
-| Essbase |Sí |Sí |
-| Exasol |Sí |Sí |
-| Archivo |No |Sí |
-| Carpeta |No |Sí |
-| Paxata |No |Sí |
-| IBM DB2 |Sí |Sí |
-| Base de datos Informix de IBM |No |Sí |
-| IBM Netezza |Sí |Sí |
-| Impala |Sí |Sí |
-| Jethro ODBC |Sí |Sí |
-| Kyligence Enterprise |Sí |Sí |
-| MarkLogic ODBC |Sí |Sí |
-| Microsoft Graph Security |No |Sí |
-| MySQL |No |Sí |
-| ODBC |No |Sí |
-| OData |No |Sí |
-| OLE DB |No |Sí |
-| Oracle |Sí |Sí |
-| PostgreSQL |No |Sí |
-| QubolePresto |Sí |Sí |
-| Conector Quick Base |No |Sí |
-| Servidor de mensajería de SAP Business Warehouse |Sí |Sí |
-| Servidor de SAP Business Warehouse |Sí |Sí |
-| SAP HANA |Sí |Sí |
-| SQL Server |Sí |Sí |
-| SharePoint |No |Sí |
-| Snowflake |Sí |Sí |
-| Spark |Sí |Sí |
-| SurveyMonkey |No |Sí |
-| Sybase |No |Sí |
-| TeamDesk.Database |No |Sí |
-| Teradata |Sí |Sí |
-| Vertica |Sí |Sí |
-| Web |No |Sí |
-| Dimensiones de Workforce |No |Sí |
+Para obtener información sobre los orígenes de datos que admite la puerta de enlace de datos local, vea [Orígenes de datos de Power BI ](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

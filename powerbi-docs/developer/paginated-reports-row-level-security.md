@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 11/04/2019
-ms.openlocfilehash: f28ffa89647272306dc9cecb5c93928d36805d2a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4db1f887c1dd889a06c02643a0270cc24ab9c45f
+ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880474"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "74311504"
 ---
 # <a name="implementing-row-level-security-in-embedded-paginated-reports-preview"></a>Implementación de la seguridad de nivel de fila en los informes paginados insertados (versión preliminar)
 
@@ -30,7 +30,7 @@ Al aplicar la seguridad de nivel de fila a un informe paginado de Power BI, deb
 
 Después de asignar el parámetro a **UserID**, utilice la API [Reports GenerateTokenForCreateInGroup](https://docs.microsoft.com/rest/api/power-bi/embedtoken/reports_generatetokenforcreateingroup) para obtener el token de inserción.
 
-## <a name="use-uderid-as-a-filter-at-report-or-query-level"></a>Uso de UserID como filtro en el nivel de informe o consulta
+## <a name="use-userid-as-a-filter-at-report-or-query-level"></a>Uso de UserID como filtro en el nivel de informe o consulta
 
 Puede utilizar **UserId** como un *filtro* o en una *consulta* al origen de datos en el [Generador de informes paginados de Power BI](../report-builder-power-bi.md).
 
@@ -66,7 +66,7 @@ Puede utilizar **UserId** como un *filtro* o en una *consulta* al origen de dato
 
     ![Parámetros del Generador de informes de Power BI](media/embedded-paginated-reports-secure-data/parameters.png)
 
-2. En **Nombre del parámetro**, escriba **@UserID** y en **Valor del parámetro**, agregue **[&UserID]** .
+2. En **Nombre del parámetro**, escriba **\@UserID** y en **Valor del parámetro**, agregue **[&UserID]** .
 
     ![Nombre del parámetro en el Generador de informes de Power BI](media/embedded-paginated-reports-secure-data/parameter-name.png) 
 

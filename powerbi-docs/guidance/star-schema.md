@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 42da2dd74d80d2a68cf38c8d35ee4e500d6780d8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
+ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875598"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "74410838"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Descripción de un esquema de estrella e importancia para Power BI
 
@@ -27,7 +27,7 @@ El **esquema de estrella** es un enfoque de modelado maduro ampliamente adoptado
 
 Las **tablas de dimensiones** describen entidades empresariales, las "cosas" que se modelan. Las entidades pueden incluir productos, personas, lugares y conceptos, incluido el propio tiempo. La tabla más coherente de un esquema de estrella es una tabla de dimensiones de fecha. Una tabla de dimensiones contiene una columna (o columnas) de clave que actúa como identificador único y columnas descriptivas.
 
-Las **tablas de hechos** almacenan observaciones o eventos. Pueden ser pedidos de ventas, existencias, tasas de cambio, temperaturas, etc. Una tabla de hechos contiene columnas de clave de dimensiones relacionadas con las tablas de dimensiones y columnas de medida numéricas. Las columnas de clave de dimensiones determinan la _dimensionalidad_ de una tabla de hechos, mientras que los valores de clave de dimensiones determinan la _granularidad_ de una tabla de hechos. Por ejemplo, imagine una tabla de hechos diseñada para almacenar objetivos de ventas que tiene dos columnas de clave de dimensiones **Date** y **ProductKey**. Resulta fácil comprender que la tabla tiene dos dimensiones. Pero la granularidad no se puede determinar sin tener en cuenta los valores de clave de dimensiones. En este ejemplo, imagine que los valores almacenados en la columna **Date** son el primer día de cada mes. En este caso, la granularidad está en el nivel mes-producto.
+Las **tablas de hechos** pueden almacenar observaciones o eventos, y pueden ser pedidos de ventas, existencias, tasas de cambio, temperaturas, etc. Una tabla de hechos contiene columnas de clave de dimensiones relacionadas con las tablas de dimensiones y columnas de medida numéricas. Las columnas de clave de dimensiones determinan la _dimensionalidad_ de una tabla de hechos, mientras que los valores de clave de dimensiones determinan la _granularidad_ de una tabla de hechos. Por ejemplo, imagine una tabla de hechos diseñada para almacenar objetivos de ventas que tiene dos columnas de clave de dimensiones **Date** y **ProductKey**. Resulta fácil comprender que la tabla tiene dos dimensiones. Pero la granularidad no se puede determinar sin tener en cuenta los valores de clave de dimensiones. En este ejemplo, imagine que los valores almacenados en la columna **Date** son el primer día de cada mes. En este caso, la granularidad está en el nivel mes-producto.
 
 Normalmente, las tablas de dimensiones contienen un número relativamente pequeño de filas. Por el contrario, las tablas de hechos pueden contener un gran número de filas y seguir creciendo con el tiempo.
 
@@ -37,7 +37,7 @@ Normalmente, las tablas de dimensiones contienen un número relativamente peque�
 
 El diseño de esquema de estrella y muchos conceptos relacionados presentados en este artículo son muy importantes para desarrollar modelos de Power BI optimizados para el rendimiento y la facilidad de uso.
 
-Tenga en cuenta que cada objeto visual de informe de Power BI genera una consulta que se envía al modelo de Power BI (lo que el servicio Power BI denomina un conjunto de datos). Estas consultas se usan para filtrar, agrupar y resumir los datos del modelo. Por tanto, un modelo bien diseñado es aquel que proporciona tablas para filtrar y agrupar y tablas para resumir. Esto se ajusta bien a los principios de diseño de los esquemas de estrella:
+Tenga en cuenta que cada objeto visual de informe de Power BI genera una consulta que se envía al modelo de Power BI (lo que el servicio Power BI denomina un conjunto de datos). Estas consultas se usan para filtrar, agrupar y resumir los datos del modelo. Por tanto, un modelo bien diseñado es aquel que proporciona tablas para filtrar y agrupar y tablas para resumir. Este diseño se ajusta bien a los principios de los esquemas de estrella:
 
 - Las tablas de dimensiones admiten el _filtrado_ y la _agrupación_
 - Las tablas de hechos admiten el _resumen_
@@ -50,7 +50,7 @@ Un diseño de modelo bien estructurado debe incluir tablas de tipo de dimensione
 
 Por último, es importante entender que un diseño óptimo del modelo es en parte ciencia y en parte arte. A veces, puede interrumpir con buena orientación cuando tenga sentido hacerlo.
 
-Hay muchos conceptos adicionales relacionados con el diseño de esquemas de estrella que se pueden aplicar a un modelo de Power BI. Estas incluyen:
+Hay muchos conceptos adicionales relacionados con el diseño de esquemas de estrella que se pueden aplicar a un modelo de Power BI. Entre estos conceptos se incluyen los siguientes:
 
 - [Medidas](#measures)
 - [Claves suplentes](#surrogate-keys)
@@ -67,14 +67,14 @@ En el diseño de esquemas de estrella, una **medida** es una columna de tabla de
 
 En un modelo de Power BI, una **medida** tiene otra definición, aunque similar. Es una fórmula escrita en [Expresiones de análisis de datos (DAX)](https://docs.microsoft.com/dax/data-analysis-expressions-dax-reference) que permite resumir. Las expresiones de medida suelen aprovechar funciones de agregación de DAX como SUM, MIN, MAX, AVERAGE, etc. para generar un resultado de valor escalar en tiempo de consulta (los valores nunca se almacenan en el modelo). La expresión de medida puede abarcar desde agregaciones de columnas simples hasta fórmulas más sofisticadas que invalidan las propagaciones de contexto o de relación de filtrado. Para obtener más información, lea el artículo [Aspectos básicos de DAX en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-quickstart-learn-dax-basics).
 
-Es importante comprender que los modelos de Power BI admiten un segundo método para lograr el resumen. Cualquier columna (y, normalmente, las columnas numéricas) se puede resumir mediante un informe visual o Preguntas y respuestas. Esto resulta cómodo para el desarrollador de modelos, ya que en muchas instancias no es necesario crear medidas. Por ejemplo, la columna de ventas **Importe de venta** del distribuidor Adventure Works podría resumirse de varias maneras (suma, recuento, media, mediana, mín., máx., etc.), sin necesidad de crear una medida para cada tipo de agregación posible.
+Es importante comprender que los modelos de Power BI admiten un segundo método para lograr el resumen. Cualquier columna (y, normalmente, las columnas numéricas) se puede resumir mediante un informe visual o Preguntas y respuestas. Estas columnas se conocen como _medidas implícitas_. Resultan cómodas para el desarrollador de modelos, ya que en muchos casos no es necesario crear medidas. Por ejemplo, la columna de ventas **Importe de venta** del distribuidor Adventure Works podría resumirse de varias maneras (suma, recuento, media, mediana, mín., máx., etc.), sin necesidad de crear una medida para cada tipo de agregación posible.
 
 ![Ejemplo de icono en la lista de campos](media/star-schema/field-list-example.png)
 
 Pero hay dos razones de peso para crear medidas, incluso para resúmenes simples de nivel de columna:
 
-- Si sabe que los autores de informes van a consultar el modelo mediante [Expresiones multidimensionales (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), el modelo debe incluir medidas. MDX no puede lograr un resumen de valores de columna. Esto es muy importante cuando un conjunto de datos de Power BI se consulta mediante MDX, y es lo que ocurre cuando se usa [Analizar en Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (las tablas dinámicas emiten consultas MDX).
-- Si necesita asegurarse de que los autores de informes solo puedan resumir columnas de determinadas maneras. Por ejemplo, la columna de ventas **Precio unitario** del distribuidor (que representa una tarifa por unidad) se puede resumir, pero solo mediante funciones de agregación específicas. Nunca se debe sumar, pero es adecuado resumir mediante otras funciones de agregación (mín., máx., media, etc.). En esta instancia, el modelador puede ocultar la columna **Precio unitario** y crear medidas para todas las funciones de agregación apropiadas.
+- Si sabe que los autores del informe van a consultar el modelo mediante [Expresiones multidimensionales (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), el modelo debe incluir _medidas explícitas_. Las medidas explícitas se definen mediante DAX. Este enfoque de diseño es muy importante cuando se consulta un conjunto de datos de Power BI mediante MDX, ya que MDX no puede resumir los valores de columna. En particular, se usará MDX al ejecutar [Analizar en Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (las tablas dinámicas emiten consultas MDX).
+- Si tiene que asegurarse de que los autores del informe solo puedan resumir columnas de maneras concretas. Por ejemplo, la columna de ventas **Precio unitario** del distribuidor (que representa una tarifa por unidad) se puede resumir, pero solo mediante funciones de agregación específicas. Nunca se debe sumar, pero es adecuado resumir mediante otras funciones de agregación (mín., máx., media, etc.). En esta instancia, el modelador puede ocultar la columna **Precio unitario** y crear medidas para todas las funciones de agregación apropiadas.
 
 Tenga en cuenta que este enfoque de diseño funciona bien con los informes creados en el servicio Power BI y con Preguntas y respuestas. Pero las conexiones dinámicas de Power BI Desktop permiten a los autores de informes mostrar los campos ocultos del panel **Campos**, lo que puede dar lugar a la elusión de este enfoque de diseño.
 
@@ -100,7 +100,7 @@ En Power BI Desktop, puede optar por imitar un diseño de dimensiones de copo de
 
 Si elige imitar un diseño de dimensiones de copo de nieve:
 
-- Power BI carga más tablas, lo que resulta menos eficaz desde el punto del vista del almacenamiento y el rendimiento. Estas tablas deben incluir columnas para admitir las relaciones del modelo, y esto puede dar lugar a un mayor tamaño del modelo.
+- Power BI carga más tablas, lo que resulta menos eficaz desde el punto del vista del almacenamiento y el rendimiento. Estas tablas deben incluir columnas para admitir las relaciones del modelo, lo que puede dar lugar a un mayor tamaño del modelo.
 - Las cadenas de propagación de filtros de relaciones más largas deben ser transversales, lo que probablemente sea menos eficaz que la aplicación de filtros a una sola tabla.
 - El panel **Campos** presenta más tablas del modelo a los autores de informes, lo que puede dar lugar a una experiencia menos intuitiva, especialmente si las tablas de dimensiones de copo de nieve contienen solo una o dos columnas.
 - No es posible crear una jerarquía que abarque las tablas.
@@ -127,11 +127,11 @@ Una **SCD** de **tipo 2** admite el control de versiones de los miembros de la d
 
 Por ejemplo, Adventure Works asigna vendedores a una región de ventas. Cuando un vendedor se reasigna a otra región, debe crearse una nueva versión del vendedor para asegurarse de que los hechos históricos sigan asociados a la región anterior. Para admitir un análisis histórico preciso de ventas por vendedor, la tabla de dimensiones debe almacenar versiones de vendedores y sus regiones asociadas. La tabla también debe incluir valores de fecha de inicio y finalización para definir la validez temporal. Las versiones actuales pueden definir una fecha de finalización vacía (o 31/12/9999), lo que indica que la fila es la versión actual. La tabla también debe definir una clave suplente, ya que la clave empresarial (en esta instancia, Id. de empleado) no es única.
 
-Es importante comprender que si los datos de origen no almacenan versiones, debe usar un sistema intermedio (como un almacenamiento de datos) para detectar y almacenar los cambios. El proceso de carga de la tabla debe conservar los datos existentes y detectar los cambios. Cuando se detecta un cambio, el proceso de carga de la tabla debe hacer que expire la versión actual. Para ello, actualiza el valor **EndDate** e inserta una nueva versión con el valor **StartDate** que comienza a partir del valor **EndDate** anterior. Además, los hechos relacionados deben usar una búsqueda basada en tiempo para recuperar el valor de clave de dimensión pertinente para la fecha de los hechos. Un modelo de Power BI con Power Query no puede lograrlo. Pero puede cargar datos de una tabla de dimensiones SCD de tipo 2 previamente cargada.
+Es importante comprender que si los datos de origen no almacenan versiones, debe usar un sistema intermedio (como un almacenamiento de datos) para detectar y almacenar los cambios. El proceso de carga de la tabla debe conservar los datos existentes y detectar los cambios. Cuando se detecta un cambio, el proceso de carga de la tabla debe hacer que expire la versión actual. Para registrar estos cambios actualiza el valor **EndDate** e inserta una versión nueva con el valor **StartDate** que comienza a partir del valor **EndDate** anterior. Además, los hechos relacionados deben usar una búsqueda basada en tiempo para recuperar el valor de clave de dimensión pertinente para la fecha de los hechos. Un modelo de Power BI con Power Query no puede generar este resultado. Pero puede cargar datos de una tabla de dimensiones SCD de tipo 2 previamente cargada.
 
-El modelo de Power BI debe admitir la consulta de datos históricos de un miembro, independientemente del cambio, y de una versión del miembro, que representa un estado determinado del miembro en el tiempo. En el contexto de Adventure Works, esto permite consultar el vendedor independientemente de la región de ventas asignada, o una versión determinada del vendedor.
+El modelo de Power BI debe admitir la consulta de datos históricos de un miembro, independientemente del cambio, y de una versión del miembro, que representa un estado determinado del miembro en el tiempo. En el contexto de Adventure Works, este diseño permite consultar el vendedor con independencia de la región de ventas asignada, o una versión determinada del vendedor.
 
-Para ello, la tabla de tipo de dimensiones del modelo de Power BI debe incluir una columna para filtrar el vendedor y otra para filtrar una versión específica del vendedor. Es importante que la columna de versión proporcione una descripción no ambigua, como "Michael Blythe (15/12/2008-26/06/2019)" o "Michael Blythe (actual)". También es importante educar a los autores y usuarios de informes sobre los aspectos básicos de la SCD de tipo 2 y cómo lograr diseños de informe adecuados mediante la aplicación de los filtros correctos.
+Para lograr este requisito, la tabla de tipo de dimensión del modelo de Power BI debe incluir una columna para filtrar el vendedor y otra para filtrar una versión específica del vendedor. Es importante que la columna de versión proporcione una descripción no ambigua, como "Michael Blythe (15/12/2008-26/06/2019)" o "Michael Blythe (actual)". También es importante educar a los autores y usuarios de informes sobre los aspectos básicos de la SCD de tipo 2 y cómo lograr diseños de informe adecuados mediante la aplicación de los filtros correctos.
 
 También es un buen procedimiento de diseño incluir una jerarquía que permita a los objetos visuales obtener detalles hasta el nivel de versión.
 
@@ -145,11 +145,11 @@ Una **dimensión realizadora de roles** es una dimensión que puede filtrar dato
 
 En un almacenamiento de datos, el enfoque de diseño aceptado es definir una sola tabla de dimensiones de fecha. En tiempo de consulta, el "rol" de la dimensión de fecha se establece mediante la columna de hechos que se usa para combinar las tablas. Por ejemplo, al analizar las ventas por fecha de pedido, la combinación de tabla se relaciona con la columna de fecha de pedido de ventas del distribuidor.
 
-En un modelo de Power BI, este diseño se puede imitar al crear varias relaciones entre dos tablas. En el ejemplo de Adventure Works, las tablas de fecha y ventas del distribuidor tendrían tres relaciones. Aunque esto es posible, es importante entender que solo puede haber una relación activa entre dos tablas del modelo de Power BI. Todas las demás relaciones se deben establecer en inactivas. El tener una única relación activa significa que hay una propagación de filtros predeterminada desde fecha a ventas del distribuidor. En esta instancia, la relación activa se establece en el filtro más común que usan los informes, que en Adventure Works es la relación de fecha de pedido.
+En un modelo de Power BI, este diseño se puede imitar mediante la creación de varias relaciones entre dos tablas. En el ejemplo de Adventure Works, las tablas de fecha y ventas del distribuidor tendrían tres relaciones. Aunque este diseño sea posible, es importante entender que solo puede haber una relación activa entre dos tablas del modelo de Power BI. Todas las demás relaciones se deben establecer en inactivas. El tener una única relación activa significa que hay una propagación de filtros predeterminada desde fecha a ventas del distribuidor. En esta instancia, la relación activa se establece en el filtro más común que usan los informes, que en Adventure Works es la relación de fecha de pedido.
 
 ![Ejemplo de una sola dimensión realizadora de roles y relaciones](media/star-schema/relationships.png)
 
-La única forma de usar una relación inactiva es definir una expresión DAX que use la [función USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax). En el ejemplo, el desarrollador del modelo debe crear medidas para habilitar el análisis de las ventas del distribuidor por fecha de envío y fecha de entrega. Esto puede resultar tedioso, sobre todo si la tabla del distribuidor define muchas medidas. También crea aglomeración en el panel **Campos**, con una gran cantidad de medidas. También hay otras limitaciones:
+La única forma de usar una relación inactiva es definir una expresión DAX que use la [función USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax). En el ejemplo, el desarrollador del modelo debe crear medidas para habilitar el análisis de las ventas del distribuidor por fecha de envío y fecha de entrega. Este trabajo puede resultar tedioso, sobre todo si en la tabla del distribuidor se definen muchas medidas. También crea aglomeración en el panel **Campos**, con una gran cantidad de medidas. También hay otras limitaciones:
 
 - Si los autores de informes se basan en el resumen de columnas, en lugar de la definición de medidas, no pueden conseguir un resumen de las relaciones inactivas sin escribir una medida de nivel de informe. Las medidas de nivel de informe solo se pueden definir al crear informes en Power BI Desktop.
 - Con solo una ruta de relación activa entre la fecha y las ventas del distribuidor, no es posible filtrar simultáneamente las ventas del distribuidor por diferentes tipos de fechas. Por ejemplo, no se puede generar un objeto visual que trace las ventas de fecha de pedido por ventas enviadas.
@@ -158,11 +158,11 @@ Para superar estas limitaciones, una técnica de modelado común de Power BI es 
 
 ![Ejemplo de dimensiones realizadoras de roles y relaciones](media/star-schema/relationships2.png)
 
-Este enfoque de diseño no requiere la definición de varias medidas para los distintos roles de fecha y permite el filtrado simultáneo mediante diferentes roles de fecha. Pero un precio menor que se paga con este enfoque de diseño es que existe duplicación de la tabla de dimensiones de fecha que da lugar a un mayor tamaño de almacenamiento del modelo. Dado que las tablas de tipo de dimensiones suelen almacenar menos filas que las tablas de tipo de hechos, esto no suele ser un problema.
+Este enfoque de diseño no requiere la definición de varias medidas para los distintos roles de fecha y permite el filtrado simultáneo mediante diferentes roles de fecha. Pero un precio menor que se paga con este enfoque de diseño es que existe duplicación de la tabla de dimensiones de fecha que da lugar a un mayor tamaño de almacenamiento del modelo. Como las tablas de tipo de dimensión suelen almacenar menos filas que las tablas de tipo de hechos, esto no suele ser un problema.
 
 Observe los siguientes procedimientos recomendados de diseño al crear tablas de tipo de dimensiones del modelo para cada rol:
 
-- Asegúrese de que los nombres de columna sean autodescriptivos. Aunque es posible tener una columna **Año** en todas las tablas de fecha (los nombres de columna son únicos en su tabla), no se describe automáticamente mediante títulos visuales predeterminados. Considere la posibilidad de cambiar el nombre de las columnas de cada tabla de roles de dimensiones, de modo que la tabla de **fecha de envío** tenga una columna de año denominada **Año de envío**, etc.
+- Asegúrese de que los nombres de columna sean autodescriptivos. Aunque es posible tener una columna **Año** en todas las tablas de fecha (los nombres de columna son únicos en su tabla), no se describe automáticamente mediante títulos visuales predeterminados. Considere la posibilidad de cambiar el nombre de las columnas de cada tabla de roles de dimensión, de modo que la tabla de **fecha de envío** tenga una columna de año denominada **Año de envío**, etc.
 - Cuando proceda, asegúrese de que las descripciones de la tabla proporcionen comentarios a los autores de informes (mediante la información sobre herramientas del panel **Campos**) sobre cómo se configura la propagación de filtros. Esta claridad es importante cuando el modelo contiene una tabla con nombre genérico, como **Fecha**, que se usa para filtrar muchas tablas de tipo de hechos. En el caso de que esta tabla tenga, por ejemplo, una relación activa con la columna de fecha de pedido de ventas del distribuidor, considere la posibilidad de proporcionar una descripción de la tabla como "Filtra las ventas del distribuidor por fecha de pedido".
 
 ## <a name="junk-dimensions"></a>Dimensiones no deseadas
@@ -181,7 +181,7 @@ Esta consulta se carga en el modelo como una tabla de tipo de dimensiones. Tambi
 
 Una **dimensión degenerada** hace referencia a un atributo de la tabla de hechos necesario para el filtrado. En Adventure Works, el número de pedido de ventas del distribuidor es un buen ejemplo. En este caso, no tiene sentido diseñar un modelo para crear una tabla independiente que solo conste de esta columna, porque aumentaría el tamaño de almacenamiento del modelo y la aglomeración del panel **Campos**.
 
-En el modelo de Power BI, puede ser adecuado agregar la columna de número de pedido de ventas a la tabla de tipo de hechos para permitir el filtrado o la agrupación por número de pedido de ventas. Esta es una excepción a la regla presentada anteriormente de que no se deben mezclar tipos de tabla (es decir, por lo general, las tablas del modelo deben ser de tipo de dimensiones o de tipo de hechos).
+En el modelo de Power BI, puede ser adecuado agregar la columna de número de pedido de ventas a la tabla de tipo de hechos para permitir el filtrado o la agrupación por número de pedido de ventas. Es una excepción a la regla presentada antes de que no se deben mezclar tipos de tabla (es decir, por lo general, las tablas del modelo deben ser de tipo de dimensión o de tipo de hechos).
 
 ![Ejemplo de dimensión degenerada](media/star-schema/degenerate-dimension.png)
 
@@ -197,7 +197,7 @@ Por ejemplo, imagine que los vendedores pueden asignarse a una _o más_ regiones
 
 ![Ejemplo de tabla de hechos sin hechos](media/star-schema/factless-fact.png)
 
-Este enfoque de diseño de varios a varios está bien documentado y se puede lograr sin una tabla de puente. Pero el enfoque de tabla de puente se considera el procedimiento recomendado al relacionar dos dimensiones. Para obtener más detalles, vea [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
+Este enfoque de diseño de varios a varios está bien documentado y se puede lograr sin una tabla de puente. Pero el enfoque de tabla de puente se considera el procedimiento recomendado al relacionar dos dimensiones. Para más información, vea [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-many-to-many-relationships).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
@@ -207,3 +207,4 @@ Para obtener más información sobre el diseño de esquemas de estrella o el dis
 - [Crear y administrar relaciones en Power BI Desktop](../desktop-create-and-manage-relationships.md)
 - [Relaciones con una cardinalidad de varios a varios en Power BI Desktop](../desktop-many-to-many-relationships.md)
 - [Experiencia de aprendizaje guiada de modelado](/learn/modules/model-data-power-bi/)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

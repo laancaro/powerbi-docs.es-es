@@ -9,12 +9,12 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.custom: ''
 ms.date: 03/29/2019
-ms.openlocfilehash: 9bbba47456d9c5bed5c8cd77858b6dbaeefce5a1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3791e9cdfd44c62e6f9e9b79f5345d6d2476b0db
+ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877654"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "74264183"
 ---
 # <a name="service-principal-with-power-bi"></a>Entidad de servicio con Power BI
 
@@ -93,7 +93,7 @@ A diferencia del uso de una cuenta maestra tradicional, para utilizar la entidad
    > [!Important]
    > Después de habilitar la entidad de servicio para usarla con Power BI, los permisos de AD de la aplicación ya no tendrán efecto. Los permisos de la aplicación se administrarán desde el portal de administración de Power BI.
 
-2.  **Recomendado**: cree un [grupo de seguridad en Azure Active Directory (AAD)](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-groups-create-azure-portal) y agregue la aplicación que ha creado a ese grupo de seguridad. Puede crear un grupo de seguridad de AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
+2.  **Recomendado**: cree un grupo de seguridad en Azure Active Directory (AAD) y agregue la [aplicación](https://docs.microsoft.com/azure/active-directory/develop/app-objects-and-service-principals) que ha creado a ese grupo de seguridad. Puede crear un grupo de seguridad de AAD con [PowerShell](https://docs.microsoft.com/powershell/azure/create-azure-service-principal-azureps?view=azps-1.1.0).
 
     A continuación se muestra un script de ejemplo para crear un grupo de seguridad y agregarle una aplicación.
 
