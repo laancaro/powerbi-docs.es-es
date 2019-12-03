@@ -1,20 +1,20 @@
 ---
 title: Implementación y administración de capacidades de Power BI Premium
 description: Comprenda el potencial de Power BI Premium y aprenda a diseñar, implementar, supervisar y solucionar problemas de soluciones escalables.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 03/06/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 34166dcdb6a102f64fa12fea1e68883515abf0fc
-ms.sourcegitcommit: c839ef7437bc8fb8f7eeda23e59d05c7192a7fe8
+ms.openlocfilehash: b52f7c9aaa81f55d1c7efc21a2180aebea7a5d79
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: MT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "74164267"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699507"
 ---
 # <a name="deploying-and-managing-power-bi-premium-capacities"></a>Implementación y administración de capacidades de Power BI Premium
 
@@ -28,6 +28,6 @@ Hemos retirado los Power BI Premium notas del producto en favor de proporcionar 
 </br>[Configurar cargas de trabajo en una capacidad Premium](service-admin-premium-workloads.md) | Información detallada sobre la configuración y administración de cargas de trabajo y capacidades dedicadas. |
 | [Optimizar las capacidades Premium](service-premium-capacity-optimize.md) | Prácticas recomendadas para la optimización del rendimiento, la optimización de modelos, el planeamiento de la capacidad y los métodos de prueba. |
 | [Escenarios de las capacidades Premium](service-premium-capacity-scenarios.md) | Problemas comunes en escenarios del mundo real, centrándose en identificar y resolver esos problemas. |
-| [Supervisar las capacidades en el portal de administración](service-admin-premium-monitor-portal.md) | Supervisión con Power BI Premium aplicación de métricas de capacidad e interpretación de las métricas que se ven en la aplicación. |
+| [Supervisión de capacidades en el portal de administración](service-admin-premium-monitor-portal.md) | Supervisión con Power BI Premium aplicación de métricas de capacidad e interpretación de las métricas que se ven en la aplicación. |
 | [Preguntas más frecuentes sobre Power BI Premium](service-premium-faq.md) | Respuestas a preguntas sobre compras y licencias, características y escenarios comunes. |
 | | |
