@@ -58,6 +58,8 @@
               href: end-user-pdf.md
             - name: Adición de marcadores en los informes
               href: end-user-bookmarks.md
+            - name: Informes paginados
+              href: end-user-paginated-report.md
         - name: Visualizaciones
           items:
             - name: ¿Qué puedo hacer con las visualizaciones?
