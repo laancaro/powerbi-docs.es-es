@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: d7fcc054ccf0bea1a036eaf24cb9631a2abb3969
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
+ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410897"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "74478628"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Instrucciones del modelo de DirectQuery en Power BI Desktop
 
@@ -99,7 +99,7 @@ Los informes basados en un conjunto de datos de DirectQuery se pueden optimizar 
     
 - **Aplique primero los filtros:** al diseñar los informes por primera vez, se recomienda aplicar los filtros correspondientes (en el nivel de informe, página u objeto visual) antes de asignar campos a los campos del objeto visual. Por ejemplo, en lugar de arrastrar las medidas **País** y **Ventas** y, a continuación, filtrar por un año determinado, aplique primero el filtro en el campo **Año**. Se debe a que cada paso de la creación de un objeto visual enviará una consulta y, aunque es posible realizar otro cambio antes de que se complete la primera consulta, se crea una carga innecesaria en el origen de datos subyacente. Al aplicar los filtros al principio, normalmente las consultas intermedias se convierten en menos costosas y más rápidas. Además, si no se aplican los filtros temprano, se puede superar el límite de un millón de filas, como se ha descrito antes.
 - **Limite la cantidad de objetos visuales de una página:** Cuando se abre una página del informe (y cuando se aplican los filtros de la página), se actualizan todos los objetos visuales de dicha página. Sin embargo, hay un límite en el número de consultas que se pueden enviar en paralelo, impuestas por el entorno de Power BI y la configuración **Conexiones máximas por origen de datos** del modelo, como se ha descrito anteriormente. Por lo tanto, a medida que aumenta el número de objetos visuales de la página, es más probable que se actualicen en serie. Esto aumenta el tiempo necesario para actualizar toda la página y también la posibilidad de que los objetos visuales puedan mostrar resultados incoherentes (para orígenes de datos volátiles). Por estos motivos, se recomienda limitar el número de objetos visuales de cualquier página y, en su lugar, tener páginas más sencillas. El reemplazo de varios objetos visuales de tarjeta por un solo objeto visual de tarjeta de varias filas puede lograr un diseño de página similar.
-- **Desactivar la interacción entre objetos visuales:** las interacciones de resaltado cruzado y de filtrado cruzado requieren el envío de consultas al origen subyacente. A menos que estas interacciones sean necesarias, se recomienda que se desactiven si el tiempo que se tarda en responder a las selecciones de los usuarios es demasiado largo. Estas interacciones se pueden desactivar, ya sea para todo el informe (como se describió anteriormente para las opciones de reducción de consultas) o caso a caso, como se describe en el artículo [Filtrado cruzado de objetos visuales en un informe de Power BI](../consumer/end-user-interactions.md).
+- **Desactivar la interacción entre objetos visuales:** las interacciones de resaltado cruzado y de filtrado cruzado requieren el envío de consultas al origen subyacente. A menos que estas interacciones sean necesarias, se recomienda que se desactiven si el tiempo que se tarda en responder a las selecciones de los usuarios es demasiado largo. Estas interacciones se pueden desactivar, ya sea para todo el informe (como se ha descrito antes para las opciones de reducción de consulta), o bien caso por caso. Para más información, vea [Aplicación de un filtro cruzado entre objetos visuales de un informe de Power BI](../consumer/end-user-interactions.md).
 
 Además de la lista anterior de técnicas de optimización, cada una de las funcionalidades de informes siguientes puede contribuir a los problemas de rendimiento:
 
@@ -110,8 +110,8 @@ Además de la lista anterior de técnicas de optimización, cada una de las func
     
     Esto puede dar lugar a que se envíen dos consultas al origen subyacente:
     
-      - La primera consulta recuperará las categorías que cumplen la condición (Ventas > 15 millones de dolares)
-      - La segunda consulta recuperará los datos necesarios para el objeto visual, agregando las categorías que cumplen la condición a la cláusula WHERE
+    - La primera consulta recuperará las categorías que cumplen la condición (Ventas > 15 millones de dolares)
+    - La segunda consulta recuperará los datos necesarios para el objeto visual, agregando las categorías que cumplen la condición a la cláusula WHERE
     
     Por lo general tiene un buen rendimiento si existen cientos o miles de categorías, como en este ejemplo. Pero el rendimiento se puede degradar si el número de categorías es mucho mayor (y, de hecho, la consulta generará un error si hay más de un millón de categorías que cumplen la condición, debido al límite de un millón de filas descrito antes).
 - **Filtros TopN:** se pueden definir filtros avanzados para filtrar solo los N valores superiores (o inferiores) clasificados por una medida. Por ejemplo, para mostrar solo las cinco categorías principales del objeto visual anterior. Como sucede con los filtros de medida, esto también da lugar a que se envíen dos consultas al origen de datos subyacente. Sin embargo, la primera consulta devolverá todas las categorías del origen subyacente y, luego, se determinan los N valores principales según los resultados devueltos. En función de la cardinalidad de la columna en cuestión, esto puede generar problemas de rendimiento (o errores de consulta debido al límite de un millón de filas).
@@ -127,7 +127,7 @@ Hay muchas mejoras funcionales y de rendimiento que se pueden lograr mediante la
 
 ## <a name="educate-users"></a>Educación de los usuarios
 
-Es importante educar a los usuarios sobre cómo trabajar de forma eficaz con los informes basados en conjuntos de datos de DirectQuery. Los autores de informes deben instruirse en el contenido que se describe en [Optimización de los diseños de informes](#optimize-report-designs).
+Es importante educar a los usuarios sobre cómo trabajar de forma eficaz con los informes basados en conjuntos de datos de DirectQuery. Los autores de informes deben instruirse en el contenido que se describe en [Optimización de los diseños de informes](#optimize-report-designs section).
 
 Se recomienda educar a los consumidores del informe sobre los informes que se basan en conjuntos de datos de DirectQuery. Puede resultarles útil comprender la arquitectura de datos general, incluidas las limitaciones pertinentes que se describen en este artículo. Hágales saber que las respuestas de actualización y el filtrado interactivo pueden ser lentos en ocasiones. Cuando los usuarios de los informes entienden por qué se produce la degradación en el rendimiento, es menos probable que pierdan confianza en los informes y los datos.
 
