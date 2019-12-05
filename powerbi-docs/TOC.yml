@@ -747,16 +747,6 @@
               href: designer/service-security-apply-data-sensitivity-labels.md
         - name: Linaje de datos
           href: service-data-lineage.md
-        - name: Informes paginados en Power BI
-          items:
-            - name: Visualización de un informe paginado
-              href: paginated-reports-view-power-bi-service.md
-            - name: Orígenes de datos compatibles
-              href: paginated-reports-data-sources.md
-            - name: Interactuación con los parámetros
-              href: paginated-reports-view-parameters.md
-            - name: Suscripción personal o de otros usuarios
-              href: paginated-reports-subscriptions.md
         - name: Aplicaciones plantilla
           items:
             - name: Información general de las aplicaciones plantilla
@@ -903,7 +893,7 @@
           href: report-builder-power-bi.md
     - name: Tutoriales
       items:
-        - name: 'Laboratorio práctico: Creación de un informe paginado'
+        - name: 'Laboratorio práctico: Crear un informe paginado'
           href: 'https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208'
         - name: Creación y carga de un informe paginado
           href: paginated-reports-quickstart-aw.md
@@ -915,6 +905,8 @@
           href: report-builder-planning-report.md
         - name: Datos del generador de informes
           href: report-builder-data.md
+        - name: Orígenes de datos compatibles
+          href: paginated-reports-data-sources.md
         - name: Uso de conjuntos de datos compartidos de Power BI
           href: report-builder-shared-datasets.md
         - name: Sugerencias de diseño
