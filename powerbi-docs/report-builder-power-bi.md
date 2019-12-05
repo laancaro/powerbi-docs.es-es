@@ -1,7 +1,7 @@
 ---
 title: Generador de informes paginados de Power BI
 description: El Generador de informes paginados de Power BI es una herramienta para crear informes paginados.
-ms.date: 09/16/2019
+ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
 featuredvideoid: 78TZeiEhveY
@@ -9,16 +9,18 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 6d13871ec3ba8a7550a556a8923893a6b7d676ae
-ms.sourcegitcommit: a97c0c34f888e44abf4c9aa657ec9463a32be06f
+ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 09/17/2019
-ms.locfileid: "71076056"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565291"
 ---
 # <a name="power-bi-paginated-report-builder"></a>Generador de informes paginados de Power BI
 
  El Generador de informes paginados de Power BI es una herramienta para crear informes paginados.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
+
+Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
 ¿Prefiere aprender de los vídeos? Consulte la serie de vídeos sobre los informes paginados de Power BI en YouTube de Chris Finlan, jefe principal de programas de Power BI.
 
@@ -61,5 +63,5 @@ El informe paginado siguiente muestra una matriz con grupos de filas y columnas,
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)
-
+- Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
 - Vea la [serie de vídeos sobre los informes paginados de Power BI](https://www.youtube.com/watch?v=78TZeiEhveY&list=PLx7LcKtN_gq-JVzM6L8xNNxX7kts-KflJ) en YouTube de Chris Finlan, jefe principal de programas de Power BI.

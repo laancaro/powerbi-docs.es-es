@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/22/2019
-ms.openlocfilehash: eecddd9251bbce732e9dc4ef70ad0d855f499d11
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.openlocfilehash: 7297e73dc0e412f75412eb48398ef9c85cda8d6e
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874128"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565772"
 ---
 # <a name="install-power-bi-report-server"></a>Instalar un servidor de informes de Power BI
 
@@ -21,9 +21,9 @@ Aprenda a instalar un servidor de informes de Power BI.
 
 ## <a name="download-power-bi-report-server"></a>Descargar Power BI Report Server
 
-[Descargue Power BI Report Server](https://www.microsoft.com/download/details.aspx?id=56722) desde el centro de descarga de Microsoft.
+En la página [Generación local de informes con Power BI Report Server](https://powerbi.microsoft.com/report-server/), seleccione **Descargar evaluación gratuita**.
 
-También hay una versión de prueba gratuita. En la página [Generación local de informes con Power BI Report Server](https://powerbi.microsoft.com/report-server/), seleccione **Descargar evaluación gratuita**.
+Cuando ejecute el archivo PowerBIReportServer.exe, seleccione la evaluación gratuita o escriba la clave del producto. Siga leyendo para más información.
 
 ## <a name="before-you-install"></a>Antes de la instalación
 
@@ -43,7 +43,7 @@ Siga leyendo para más información.
 
 #### <a name="power-bi-premium"></a>Power BI Premium
 
-Si ha adquirido Power BI Premium, dentro de la pestaña **Configuración de Premium** del portal de administración de Power BI, tiene acceso a la clave de producto de Power BI Report Server. Esto solo está disponible para los administradores globales o los usuarios a quienes se haya asignado el rol de administrador del servicio Power BI.
+Si ha comprado Power BI Premium, en la pestaña **Configuración de Premium** del portal de administración de Power BI, tiene acceso a la clave de producto de Power BI Report Server. El portal de administración solo está disponible para los administradores globales o los usuarios a quienes se les haya asignado el rol de administrador del servicio Power BI.
 
 ![Configuración de Premium](../report-server/media/install-report-server/pbirs-product-key.png "Clave de Power BI Report Server en Configuración de Premium")
 
@@ -70,7 +70,7 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
     ![Elegir una edición](media/install-report-server/pbireportserver-choose-edition.png)
 
-    Puede elegir las ediciones Evaluation o Developer en la lista desplegable.
+    Puede elegir las ediciones Evaluation o Developer.
 
     ![Edición 2](media/install-report-server/pbireportserver-choose-edition2.png)
 
@@ -95,11 +95,11 @@ No es necesario tener un servidor de motor de base de datos de SQL Server dispon
 
 Después de seleccionar **Configurar el servidor de informes** en el programa de instalación, aparece el Administrador de configuración de Reporting Services. Para más información, consulte [Reporting Services Configuration Manager](https://docs.microsoft.com/sql/reporting-services/install-windows/reporting-services-configuration-manager-native-mode) (Administrador de configuración de Reporting Services).
 
-Necesita [crear una base de datos de servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database) para completar la configuración inicial de Reporting Services. Se necesita un servidor de base de datos de SQL Server para completar este paso.
+Para completar la configuración inicial de Reporting Services, tendrá que [crear una base de datos de servidor de informes](https://docs.microsoft.com/sql/reporting-services/install-windows/ssrs-report-server-create-a-report-server-database). Se necesita un servidor de base de datos de SQL Server para completar este paso.
 
 ### <a name="creating-a-database-on-a-different-server"></a>Crear una base de datos en un servidor diferente
 
-Si va a crear la base de datos del servidor de informes en un servidor de base de datos en una máquina diferente, debe cambiar la cuenta de servicio del servidor de informes a una credencial que se reconozca en el servidor de base de datos. 
+Si va a crear la base de datos del servidor de informes en un servidor de base de datos de otro equipo, cambie la cuenta de servicio del primero por una credencial que se reconozca en el segundo. 
 
 De forma predeterminada, el servidor de informes usa la cuenta de servicio virtual. Si intenta crear una base de datos en un servidor diferente, es posible que reciba el siguiente error en el paso de aplicación de derechos de conexión.
 
@@ -137,9 +137,9 @@ Un ejemplo de cadena de dirección URL completa podría ser la siguiente:
 
 ## <a name="firewall"></a>Firewall
 
-Si accede al servidor de informes desde una máquina remota, debería asegurarse de haber configurado las reglas de firewall si hay un firewall presente.
+Si va a acceder al servidor de informes desde un equipo remoto, asegúrese de haber configurado las reglas de firewall, si hay uno presente.
 
-Debe abrir el puerto TCP que haya configurado para la dirección URL del servicio web y la dirección URL del portal web. De forma predeterminada, se configuran en el puerto TCP 80.
+Abra el puerto TCP que haya configurado para la dirección URL del servicio web y la del portal web. De forma predeterminada, se configuran en el puerto TCP 80.
 
 ## <a name="additional-configuration"></a>Configuración adicional
 

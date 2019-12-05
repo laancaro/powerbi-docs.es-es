@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/11/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 5631e4144cf202591e202fd46405815b38ceb42d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: cd952dfa690d079d662f09e1e01c34dadf129b7b
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016259"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565639"
 ---
 # <a name="connect-to-linkedin-sales-navigator-in-power-bi-desktop"></a>Conexión con LinkedIn Sales Navigator en Power BI Desktop
 
@@ -111,6 +111,10 @@ Desde ahí, puede conectar sus propios datos y seleccionar cuántos días de dat
 La aplicación de plantilla actualiza los datos de la aplicación con sus datos. También puede configurar una actualización programada, por lo que los datos de la aplicación son tan actuales como lo especifica la frecuencia de actualización. 
 
 Una vez que se actualizan los datos, puede ver que la aplicación se ha rellenado con sus propios datos.
+
+## <a name="getting-help"></a>Obtener ayuda
+
+Si surgen problemas al conectarse a los datos, puede ponerse en contacto con el soporte técnico de LinkedIn Sales Navigator en https://www.linkedin.com/help/sales-navigator. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Hay todo tipo de datos a los que puede conectarse con Power BI Desktop. Para obtener más información sobre orígenes de datos, consulte los siguientes recursos:

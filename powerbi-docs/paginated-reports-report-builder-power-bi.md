@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: overview
-ms.date: 09/24/2019
-ms.openlocfilehash: 9e49e8e70e7bc499fbcfe0c263bdd8315f2c7dbe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/27/2019
+ms.openlocfilehash: 90bc46c484f659994c6a9500865803531fa3cdcc
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874708"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565698"
 ---
 # <a name="what-are-paginated-reports-in-power-bi-premium"></a>¿Qué son los informes paginados en Power BI Premium?
 
@@ -21,9 +21,9 @@ Los informes paginados, con el formato de informe estándar de SQL Server Report
 
 Los informes paginados pueden tener muchas páginas. Por ejemplo, este informe tiene 563 páginas. Cada una de ellas está diseñada con precisión, con una página por factura y encabezados y pies de página que se repiten.
 
-![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
+Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 
-![Informe paginado en el servicio Power BI](media/report-builder-power-bi/report-builder-get-started-paginated-report.png)
+![Paginado](media/paginated-reports-report-builder-power-bi/power-bi-paginated-wwi-report-page.png)
 
 Puede obtener una vista previa del informe en el generador de informes y luego publicarlo en el servicio Power BI, https://app.powerbi.com. Necesita una licencia de Power BI Pro para publicar un informe en el servicio. Puede publicar y compartir informes paginados en Mi área de trabajo o en las áreas de trabajo de la aplicación, siempre que el área de trabajo tenga la capacidad Premium de Power BI. Además, un administrador de Power BI debe habilitar los informes paginados en la [sección de capacidades Premium](service-admin-premium-workloads.md#paginated-reports) del portal de administración de Power BI. 
 
@@ -87,6 +87,6 @@ Estas son algunas otras características que no son compatibles con la versión 
 - [Instalación del Generador de informes de Power BI desde el Centro de descarga de Microsoft](https://go.microsoft.com/fwlink/?linkid=2086513)
 - [Tutorial: Crear un informe paginado](paginated-reports-quickstart-aw.md)
 - [Escritura directa de datos en un informe paginado](paginated-reports-enter-data.md)
-
+- [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208)
   
 

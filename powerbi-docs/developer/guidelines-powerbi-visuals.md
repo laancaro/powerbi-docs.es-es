@@ -1,6 +1,6 @@
 ---
-title: Instrucciones para objetos visuales de Power BI
-description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y comprarlos para usarlos.
+title: Instrucciones para objetos visuales de Power BI
+description: Obtenga más información sobre cómo publicar objetos visuales personalizados en Microsoft AppSource para que otros usuarios puedan descubrirlos y comprarlos para usarlos.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
@@ -8,77 +8,148 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: e650b1eb8fd05db54b9d0bf9021eaa881d28832e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128189"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565607"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
-Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual en AppSource para que otros usuarios lo detecten y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios. 
+Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.
+
+## <a name="power-bi-visuals-with-additional-purchases"></a>Objetos visuales de Power BI con compras adicionales
+
+Puede enviar objetos visuales de Power BI que sean gratuitos a Marketplace (Microsoft AppSource). También puede enviar objetos visuales de Power BI a Microsoft AppSource con una etiqueta de precio "Es posible que se requiera una compra adicional". Los objetos visuales de Power BI con la etiqueta "Es posible que se requiera una compra adicional" son similares a los complementos de compra desde la aplicación (IAP) de la Tienda Office. 
+
+Al igual que un objeto visual de Power BI gratuito, un objeto visual de Power BI de IAP también se puede certificar. Antes de enviar el objeto visual de Power BI de IAP para la certificación, asegúrese de que cumple los [requisitos de certificación](../power-bi-custom-visuals-certified.md). 
+
+### <a name="what-is-a-power-bi-visual-with-iap-features"></a>¿Qué es un objeto visual de Power BI con características de IAP?
+
+Un objeto visual de Power BI de IAP es un objeto visual *gratuito* que ofrece *características gratuitas*. También tiene algunas características avanzadas para las que se pueden aplicar cargos adicionales. En la descripción del objeto visual de Power BI, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
+
+Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
+
+
+>[!IMPORTANT]  
+> Si actualiza el objeto visual de Power BI de gratuito a "Es posible que se requiera una compra adicional", los usuarios deben recibir el mismo nivel de funcionalidad gratuita que antes de la actualización. Puede agregar características de pago avanzadas opcionales además de las características gratuitas existentes.
+
+### <a name="watermarks"></a>Marcas de agua
+
+Puede utilizar marcas de agua para que los clientes sigan usando las características avanzadas de IAP sin pagar. 
+
+Las marcas de agua se pueden usar para mostrar toda la funcionalidad del objeto visual de Power BI, antes de que se realice una compra. 
+
+* Las marcas de agua solo pueden usarse en las características de pago que se usan sin una licencia válida.
+* No se permiten marcas de agua en objetos visuales de Power BI con una etiqueta de precio *gratis*.
+* No se permiten marcas de agua en los objetos visuales de IAP cuando el usuario usa las características gratuitas. 
+
+### <a name="pop-up-window"></a>Ventana emergente
+
+Puede usar una ventana emergente para explicar cómo comprar una licencia, al usar una licencia no válida (o expirada) con el objeto visual de Power BI de IAP.
+
+### <a name="submission-process"></a>Proceso de envío
+
+Los desarrolladores cargan los objetos visuales de Power BI de IAP en Microsoft AppSource mediante el panel de vendedores, como han realizado con los objetos visuales gratuitos. Para indicar que el objeto visual de Power BI enviado tiene características de IAP, los desarrolladores tienen que escribir "Objeto visual con compra desde la aplicación" en las notas del panel de vendedores. Además, los desarrolladores tienen que proporcionar un token o una clave de licencia para que el equipo de validación pueda validar las características de IAP. Una vez que el objeto visual de Power BI se valide y apruebe, en la lista de Microsoft AppSource de los estados de los objetos visuales de Power BI de IAP se indica "Es posible que se requiera una compra adicional" en las opciones de precio.
 
 ## <a name="context-menu"></a>Menú contextual
 El menú contextual es el que se muestra cuando el usuario mantiene el mouse sobre un objeto visual.
 En todos los objetos visuales de Power BI se debe habilitar el menú contextual para ofrecer una experiencia unificada. Consulte [este artículo](https://github.com/Microsoft/PowerBI-visuals/blob/gh-pages/tutorials/building-bar-chart/adding-context-menu-to-the-bar.md) para obtener información sobre cómo agregar un menú contextual.
 
+## <a name="commercial-logo"></a>Logotipo comercial
+En esta sección se describen las especificaciones para agregar logotipos comerciales en los objetos visuales de Power BI. Los logotipos comerciales no son obligatorios. Si se agregan, deben seguir estas instrucciones.
 
-## <a name="logo-guidelines"></a>Instrucciones para los logotipos
 > [!NOTE]
-> En este artículo, la palabra "logotipo" se refiere a todo icono de empresa comercial, tal como se describe en las imágenes siguientes. 
-
-En esta sección se describen las especificaciones para agregar logotipos en objetos visuales de Power BI. Los logotipos no son obligatorios. Si se agregan, deben seguir estas instrucciones. 
+> * En este artículo, la palabra "logotipo comercial" se refiere a todo icono de empresa comercial, como se describe en las imágenes siguientes.
+> * En este artículo, el logotipo comercial de Microsoft solo se usa como ejemplo. Use su propio logotipo comercial con el objeto visual de Power BI.
 
 > [!IMPORTANT]
-> Los logotipos se permiten *solo en el modo de edición*. Los logotipos *no* se pueden mostrar en el modo de visualización.
+> Los logotipos comerciales *solo se admiten en el modo de edición*. Los logotipos comerciales *no* se pueden mostrar en el modo de visualización.
+
+### <a name="commercial-logo-type"></a>Tipo de logotipo comercial
+
+Hay tres tipos de logotipos comerciales:
+* **Logotipo**: un logotipo se compone de dos elementos indivisibles, que son un icono y un nombre.
+
+    ![Logotipo de Microsoft](media/guidelines-powerbi-visuals/microsoft-logo.png)
+
+* **Símbolo**: un gráfico sin texto.
+
+    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/microsoft-symbol.png)
+
+* **Logotipo sencillo**: un logotipo sin icono, compuesto solamente de texto.
+
+    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/microsoft-logotype.png)
+
+### <a name="commercial-logo-color"></a>Color del logotipo comercial
+
+Cuando se usa un logotipo comercial, el color del logotipo debe ser gris (color hexadecimal #C8C8C8). No agregue efectos como degradados al logotipo comercial.
+
+* **Logotipo**
+
+    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)
+
+* **Símbolo**: un gráfico sin texto.
+
+    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)
+
+* **Logotipo sencillo**: un logotipo sin icono, compuesto solamente de texto.
+
+    ![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logotype.png)
+
+> [!TIP]
+> * Si el objeto visual de Power BI contiene un gráfico, considere la posibilidad de agregar al logotipo un fondo blanco con márgenes de 10 px.
+> * Se recomienda agregar una sombra paralela (de color negro con un 30 % de opacidad) al logotipo.
+
+### <a name="commercial-logo-size"></a>Tamaño del logotipo comercial
+
+Un objeto visual de Power BI requiere dos logotipos comerciales, uno para los iconos grandes y otro para los pequeños. Coloque el logotipo en un cuadro de límite situado en la esquina superior o inferior derecha, con márgenes de 4 px.
+
+En la tabla siguiente se describen las consideraciones de tamaño para los objetos visuales de Power BI.
+
+|  |Objeto visual de Power BI pequeño  |Objeto visual de Power BI grande  |
+|---------|---------|---------|
+|*Ancho del logotipo*    |Hasta 240 px         |Más de 240 px         |
+|*Alto del logotipo*     |Hasta 160 px         |Más de 160 px         |
+|*Tamaño del cuadro de límite*     |40 x 15 px         |101 x 30 px         |
+|*Ejemplo de logotipo comercial*     |![Símbolo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-symbol.png)         |![Logotipo de Microsoft](media/guidelines-powerbi-visuals/grey-microsoft-logo.png)         |
+|*Ejemplo de cuadro de límite*    |![ejemplo de logotipo pequeño](media/guidelines-powerbi-visuals/small-logo-box.png)         |![ejemplo de logotipo grande](media/guidelines-powerbi-visuals/big-logo-box.png)         |
+|    |         |         |
+
+### <a name="commercial-logo-behavior"></a>Comportamiento del logotipo comercial
+
+Los logotipos comerciales solo se admiten en el modo de edición. Al hacer clic en ellos, un logotipo comercial solo puede incluir la funcionalidad siguiente:
+
+* Al hacer clic en el logotipo comercial, se redirige al usuario al sitio web.
+
+* Al hacer clic en el logotipo comercial, se abre una ventana emergente con información adicional. La ventana emergente se debe dividir en dos secciones:
+    * Un área de marketing que puede incluir el logotipo comercial, un objeto visual y valoraciones de mercado.
+    * Un área de información que puede incluir información y vínculos.    
 
 
-![Definiciones](media/guidelines-powerbi-visuals/definitions.png)
+### <a name="things-to-avoid"></a>Cosas que hay que evitar
 
-![Cosas a tener en cuenta](media/guidelines-powerbi-visuals/things-to-keep-in-mind.png)
+* Los logotipos comerciales no se pueden mostrar en el modo de visualización.
 
-![Cosas que hay que evitar](media/guidelines-powerbi-visuals/things-to-avoid.png)
+* Un logotipo comercial animado puede mostrar la animación durante cinco segundos como máximo.
 
-![Tamaño y formato](media/guidelines-powerbi-visuals/size-and-format.png)
+* Si el objeto visual de Power BI incluye iconos informativos (i) en modo de lectura, deben cumplir con el color, el tamaño y la ubicación del logotipo comercial, como se ha descrito antes.
 
-![Márgenes y tamaño](media/guidelines-powerbi-visuals/margins-and-sizes.png)
+* Evite utilizar un logotipo comercial multicolor o negro. El logotipo comercial debe ser gris (color hexadecimal #C8C8C8).
 
-![Modo de edición](media/guidelines-powerbi-visuals/logos-in-edit-mode.png)
+    ![Logotipo multicolor no autorizado](media/guidelines-powerbi-visuals/no-color-logo.png) ![Logotipo negro no autorizado](media/guidelines-powerbi-visuals/black-logo.png)
 
+* Un logotipo comercial con efectos como degradados o sombras fuertes.
 
-Los iconos informativos, si existen, en modo de lectura deben cumplir con el color, el tamaño y la ubicación de los logotipos anteriores.
-
-## <a name="guidelines-for-power-bi-visuals-with-additional-purchases"></a>Instrucciones para objetos visuales de Power BI con compras adicionales
-
-Hasta hace poco, Marketplace (AppSource) solo aceptaba objetos visuales de Power BI que eran gratuitos. Esta directiva se ha modificado (diciembre de 2018) para que también se puedan enviar objetos visuales a AppSource con una etiqueta de precio "Es posible que se requiera una compra adicional". 
-
-Los objetos visuales con la etiqueta “Es posible que se requiera una compra adicional” son similares a los complementos de compra desde la aplicación (IAP) de la Tienda Office. Los desarrolladores también pueden enviar estos objetos visuales para que se certifiquen después de que el equipo de AppSource los apruebe, así como después de asegurarse de que cumplen con los requisitos de certificación. Para más información sobre los requisitos, consulte [Objetos visuales certificados de Power BI](../developer/power-bi-custom-visuals-certified.md).
-
-> [!NOTE]
-> Para que se certifique el objeto visual, no puede acceder a servicios o recursos externos.
-
->[!IMPORTANT]  
-> Si actualiza el objeto visual de gratuito a "Es posible que se requiera una compra adicional", los usuarios deben recibir el mismo nivel de funcionalidad gratuita que antes de la actualización. Puede agregar características de pago avanzadas opcionales además de las características gratuitas existentes. Se recomienda enviar los objetos visuales de IAP con las características avanzadas como objetos visuales nuevos y no actualizar los objetos visuales gratuitos antiguos.
-
-## <a name="what-changed-in-the-submission-process"></a>¿Qué ha cambiado en el proceso de envío?
-
-Los desarrolladores cargan sus objetos visuales de IAP en AppSource mediante el panel de vendedores, tal y como han estado realizando con los objetos visuales gratuitos. Para indicar que el objeto visual enviado tiene características de IAP, los desarrolladores deben escribir “Objeto visual con compra desde la aplicación” en las notas del panel de vendedores. Además, los desarrolladores tienen que proporcionar un token o una clave de licencia para que el equipo de validación pueda validar las características de IAP. Una vez que el objeto visual se valide y apruebe, en la lista de AppSource de los estados de los objetos visuales de IAP se indica “Es posible que se requiera una compra adicional” en las opciones de los precios.
-
-## <a name="what-is-a-power-bi-visual-with-iap-features"></a>¿Qué es un objeto visual de Power BI con características de IAP?
-
-Un objeto visual de IAP es un objeto visual *gratuito* que ofrece *características gratuitas*. También tiene algunas características avanzadas para las que pueden aplicarse cargos adicionales que las activen. En la descripción del objeto visual, los desarrolladores deben indicar a los usuarios qué características requieren compras adicionales para que funcionen. Actualmente, Microsoft no proporciona API nativas que admitan comprar aplicaciones y complementos.
-
-Los desarrolladores pueden usar cualquier sistema de pago de terceros para estas compras. Para obtener más información, consulte [nuestra directiva de almacenamiento](https://docs.microsoft.com/office/dev/store/validation-policies#2-apps-or-add-ins-can-display-certain-ads).
-
-> [!NOTE]
-> Las marcas de agua no se permiten en las características gratuitas ni los objetos visuales gratuitos. Las marcas de agua solo pueden usarse en las características de pago que se usan sin una licencia válida. Se recomienda mostrar una ventana emergente con toda la información relacionada con la licencia si se usan las características de pago avanzadas sin una licencia válida.  
-
+    ![Estilo de logotipo no autorizado](media/guidelines-powerbi-visuals/no-style-logo.png)
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 
+Al publicar un objeto visual de Power BI, tenga en cuenta las recomendaciones siguientes para proporcionar a los usuarios una gran experiencia.
+
 ### <a name="visual-landing-page"></a>Página de aterrizaje del objeto visual
 
-Use la página de aterrizaje para aclarar a los usuarios cómo pueden utilizar el objeto visual y dónde deben comprar la licencia. No incluya vídeos que se reproduzcan de forma automática. Agregue solo material que ayude a mejorar la experiencia del usuario, por ejemplo, información o vínculos a los detalles de la compra y cómo usar las características de IAP.
+Use la página de aterrizaje para aclarar a los usuarios cómo pueden utilizar el objeto visual de Power BI y dónde deben comprar la licencia. No incluya vídeos que se reproduzcan de forma automática. Agregue solo material que ayude a mejorar la experiencia del usuario, por ejemplo, información o vínculos a los detalles de la compra y cómo usar las características de IAP.
 
 ### <a name="license-key-and-token"></a>Token y clave de licencia
 
@@ -86,8 +157,8 @@ Para mayor comodidad del usuario, agregue campos relacionados con el token o la 
 
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
-Para obtener más información sobre los objetos visuales, consulte las [preguntas más frecuentes sobre objetos visuales con compras adicionales](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
+Para obtener más información sobre los objetos visuales de Power BI, vea [Preguntas más frecuentes sobre objetos visuales de Power BI con compras adicionales](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Aprenda a publicar objetos visuales personalizados en [AppSource](office-store.md) para que otros usuarios puedan descubrirlos y usarlos.
+Obtenga más información sobre cómo publicar el objeto visual de Power BI en [Microsoft AppSource](office-store.md) para que otros usuarios lo puedan descubrir y comprar.

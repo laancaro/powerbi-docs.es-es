@@ -7,15 +7,15 @@ featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/19/2019
+ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 05a134f50f9a09ae5b51578a5e4e5f0a01a95740
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
+ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871501"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "74565656"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -24,9 +24,11 @@ ms.locfileid: "73871501"
 
 Con el uso compartido, si comparte contenido dentro o fuera de su organización, se necesita una [licencia de Power BI Pro](service-features-license-type.md). Sus destinatarios también necesitan licencias de Power BI Pro, excepto si el contenido está en una [función premium](service-premium-what-is.md). 
 
-Puede compartir paneles e informes de la mayoría de las ubicaciones del servicio de Power BI: Favoritos, Recientes, Compartidos conmigo (si el propietario lo permite), Mi área de trabajo u otras áreas de trabajo. Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ellos ven los mismos datos que usted ve en el panel o informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenezcan a su organización pueden ver el panel o informe, así como interactuar con estos, pero no podrán compartirlos. 
+Puede compartir paneles e informes de la mayoría de las ubicaciones del servicio de Power BI: Favoritos, Recientes, Mi área de trabajo y Compartidos conmigo, si el propietario lo permite. También puede compartir elementos desde otras áreas de trabajo si tiene el [rol de administrador, miembro o colaborador](service-new-workspaces.md#roles-in-the-new-workspaces) en el área de trabajo. 
 
-No puede compartir paneles desde Power BI Desktop. Sin embargo, puede [compartir un panel desde cualquiera de las aplicaciones móviles de Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
+Cuando comparte un panel o un informe, los usuarios con quienes los comparte pueden verlos e interactuar con ellos, pero no modificarlos. Ellos ven los mismos datos que usted ve en el panel o informe, a menos que se aplique la [seguridad de nivel de fila (RLS)](service-admin-rls.md). Los compañeros con los que los comparte también pueden compartirlos a su vez con sus propios compañeros, si tienen permiso para hacerlo. Los usuarios que no pertenecen a la organización pueden ver el panel o el informe, e interactuar con ellos, pero no compartirlos. 
+
+No se puede *compartir* contenido directamente desde Power BI Desktop. Los [informes se publican desde Power BI Desktop](desktop-upload-desktop-files.md) en el servicio Power BI. Sin embargo, puede [compartir un panel desde las aplicaciones móviles de Power BI](consumer/mobile/mobile-share-dashboard-from-the-mobile-apps.md).  
 
 ## <a name="video-share-a-dashboard"></a>Vídeo: Compartir un panel
 Vea cómo Amanda comparte el panel con sus compañeros dentro y fuera de la compañía. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
@@ -39,22 +41,19 @@ Vea cómo Amanda comparte el panel con sus compañeros dentro y fuera de la comp
 
 2. En el cuadro superior, escriba las direcciones de correo electrónico completas de las personas, los grupos de distribución o los grupos de seguridad. No se puede compartir con listas de distribución dinámicas. 
    
-   Puede compartir contenido con gente cuya dirección no pertenezca a su organización, pero recibirá una advertencia al hacerlo.
+   Puede compartir contenido con gente cuya dirección no pertenezca a su organización, pero recibirá una advertencia al hacerlo. Obtenga más información sobre el [uso compartido desde fuera de la organización](#share-a-dashboard-or-report-outside-your-organization) en este artículo.
    
    ![Advertencia sobre el uso compartido externo](media/service-share-dashboards/power-bi-share-dialog-warning.png) 
  
    >[!NOTE]
-   >El cuadro de entrada admite como máximo 100 usuarios o grupos. Si necesita compartir con un gran número de usuarios, puede crear el panel en un área de trabajo y [distribuirlo como una aplicación](service-create-distribute-apps.md).
-   > 
-   > 
-
+   >El cuadro de entrada admite, como máximo, 100 usuarios o grupos distintos. Vea [Uso compartido con más de 100 usuarios](#share-with-more-than-100-separate-users) en este artículo para obtener información sobre cómo compartir con más usuarios.
 
 3. Agregue un mensaje si lo desea. Es opcional.
 4. Para permitir que sus compañeros de trabajo compartan el contenido con otros, active la casilla **Permitir que los destinatarios compartan su panel (o informe)** .
    
-   La acción de permitir que otras personas compartan se denomina *volver a compartir*. Si les deja, pueden volver a compartir desde el servicio Power BI y las aplicaciones móviles, o reenviar la invitación de correo electrónico a otras personas de su organización. La invitación expira transcurrido un mes. Los usuarios ajenos a su organización no pueden volver a compartir contenido. Como propietario del contenido, puede desactivar la posibilidad de volver a compartir o revocar usos compartidos de forma individual. Vea [Dejar de compartir o impedir que otros compartan](#stop-sharing-or-stop-others-from-sharing).
+   La acción de permitir que otras personas compartan se denomina *volver a compartir*. Si les deja, pueden volver a compartir desde el servicio Power BI y las aplicaciones móviles, o reenviar la invitación de correo electrónico a otras personas de su organización. La invitación expira transcurrido un mes. Los usuarios ajenos a su organización no pueden volver a compartir contenido. Como propietario del contenido, puede desactivar la posibilidad de volver a compartir o revocar usos compartidos de forma individual. Vea [Detención o cambio del uso compartido](#stop-or-change-sharing) en este artículo.
 
-5. Si selecciona **Permitir que los usuarios compilen nuevo contenido a partir de los conjuntos de datos subyacentes**, estos podrán crear sus propios informes en otras áreas de trabajo basadas en el conjunto de contenido de este panel.
+5. Si selecciona **Permitir que los usuarios compilen nuevo contenido a partir de los conjuntos de datos subyacentes**, estos podrán crear sus propios informes en otras áreas de trabajo basadas en el conjunto de contenido de este panel. Obtenga más información sobre la [creación de informes basados en conjuntos de datos de diferentes áreas de trabajo](service-datasets-discover-across-workspaces.md).
 
 1. Seleccione **Compartir.**
    
@@ -66,10 +65,10 @@ Vea cómo Amanda comparte el panel con sus compañeros dentro y fuera de la comp
    
    ![Página de lista Compartido conmigo](media/service-share-dashboards/power-bi-shared-with-me-new-look.png)
    
-   Cuando los destinatarios externos a su organización hacen clic en el vínculo, ven el panel o informe, pero no en el portal habitual de Power BI. Para obtener más información, vea [Uso compartido de un panel o informe con contactos externos a la organización](#share-a-dashboard-or-report-outside-your-organization).
+   Cuando los destinatarios externos a su organización hacen clic en el vínculo, ven el panel o informe, pero no en el portal habitual de Power BI. Obtenga más información sobre el [uso compartido con usuarios externos a la organización](#share-a-dashboard-or-report-outside-your-organization) en este artículo.
 
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Consulta de quién tiene acceso a un panel o informe
-A veces, tendrá que ver las personas con las que ha compartido y ver con quiénes lo han compartido a su vez esas personas:
+En ocasiones necesitará ver a las personas con las que ha compartido y ver con quiénes lo han compartido esas personas.
 
 1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![Icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
 2. En el cuadro de diálogo **Compartir panel** o **Compartir informe**, seleccione **Acceso**.
@@ -78,7 +77,26 @@ A veces, tendrá que ver las personas con las que ha compartido y ver con quién
 
     Los usuarios ajenos a su organización se muestran como **Invitado**.
 
-## <a name="stop-sharing-or-stop-others-from-sharing"></a>Dejar de compartir o impedir que otros compartan
+    En esta vista, puede [detener o cambiar los permisos de uso compartido](#stop-or-change-sharing) en este artículo. 
+
+## <a name="share-a-dashboard-or-report-outside-your-organization"></a>Uso compartido de un panel o informe fuera de la organización
+Si comparte contenido con usuarios ajenos a la organización, estos recibirán un correo electrónico con un vínculo al panel o informe compartido. Tendrán que iniciar sesión en Power BI para ver lo que se ha compartido. Si no tienen una licencia de Power BI Pro, se pueden registrar para obtenerla haciendo clic en el vínculo.
+
+Después de iniciar sesión, verán el panel o informe compartido en su propia ventana del explorador, no en el portal de Power BI habitual. Para acceder más tarde a este panel o informe, tendrán que agregar el vínculo a los marcadores.
+
+No pueden editar el contenido del panel ni del informe. Pueden interactuar con los gráficos y cambiar los filtros o las segmentaciones, pero no guardar los cambios. 
+
+Solo los destinatarios directos verán el panel o informe compartido. Por ejemplo, si ha enviado el mensaje de correo electrónico a Vicki@contoso.com, solo Vicki verá el panel. Nadie más puede ver el panel, incluso aunque Vicki les reenvíe el vínculo. Vicki tendrá que usar la misma dirección de correo electrónico para acceder; si inicia sesión con otra dirección de correo electrónico, no tendrá acceso al panel.
+
+Los usuarios externos a la organización no verán ningún dato si se ha implementado la seguridad de nivel de fila o de rol en los modelos tabulares de Analysis Services locales.
+
+Si envía un vínculo desde una aplicación móvil de Power BI a contactos externos a su organización, al hacer clic en el vínculo, se abrirá el panel en el explorador, no en la aplicación móvil de Power BI.
+
+### <a name="allow-external-users-to-edit-content"></a>Permisos de edición de contenido para los usuarios externos
+
+El administrador de Power BI puede permitir a los usuarios externos editar y administrar el contenido de la organización. En ese caso, los usuarios externos no tendrán esa experiencia de solo consumo. Pueden editar y administrar el contenido de la organización. Obtenga más información sobre la [distribución de contenido de Power BI a usuarios externos invitados con Azure AD B2B](service-admin-azure-ad-b2b.md).
+
+## <a name="stop-or-change-sharing"></a>Detención o cambio del uso compartido
 Solo el propietario del panel o informe puede activar y desactivar Volver a compartir.
 
 ### <a name="if-you-havent-sent-the-sharing-invitation-yet"></a>Si aún no ha enviado la invitación para compartir
@@ -96,37 +114,29 @@ Solo el propietario del panel o informe puede activar y desactivar Volver a comp
    * **Lectura** para impedir que esa persona comparta con nadie más.
    * **Quitar acceso** para impedir que esa persona vea el contenido compartido.
 
-4. En el cuadro de diálogo **Eliminar acceso**, decida si quiera quitar también el acceso al contenido relacionado, como informes y conjuntos de datos. Si quita elementos con un icono de advertencia ![icono de advertencia de Power BI](media/service-share-dashboards/power-bi-warning-icon.png), le recomendamos que quite también el contenido relacionado, ya que no se mostrará correctamente.
+4. En el cuadro de diálogo **Eliminar acceso**, decida si quiera quitar también el acceso al contenido relacionado, como informes y conjuntos de datos. Si quita elementos con un icono de advertencia ![Icono de advertencia de Power BI](media/service-share-dashboards/power-bi-warning-icon.png), también se recomienda quitar el contenido relacionado. De lo contrario, no se mostrará correctamente.
 
     ![Cuadro de diálogo de advertencia de uso compartido de Power BI](media/service-share-dashboards/power-bi-sharing-warning-dialog.png)
-
-## <a name="share-a-dashboard-or-report-outside-your-organization"></a>Uso compartido de un panel o informe fuera de la organización
-Al compartir con contactos externos a la organización, estos reciben un correo electrónico con un vínculo al panel o informe compartido, y tienen que iniciar sesión en Power BI para verlo. Si no tienen una licencia de Power BI Pro, puede registrarse para obtener una licencia después de hacer clic en el vínculo.
-
-Después de iniciar sesión, verán el panel o informe compartido en su propia ventana del explorador, no en el portal de Power BI habitual. Para acceder más tarde a este panel o informe, necesitan agregar el vínculo a sus marcadores.
-
-No pueden editar el contenido del panel ni del informe. Aunque pueden interactuar con los gráficos y cambiar filtros o segmentaciones, no pueden guardar los cambios. 
-
-Solo los destinatarios directos pueden ver el panel o informe compartido. Por ejemplo, si se ha enviado el mensaje de correo electrónico a Vicki@contoso.com, solo Vicki puede ver el panel. Nadie más puede ver el panel, incluso aunque tengan el vínculo. Vicki tiene que usar la misma dirección de correo electrónico para acceder; si alguien se registra con cualquier otra dirección de correo electrónico, no tendrá acceso al panel.
-
-Los usuarios ajenos a su organización no pueden ver ningún dato si se implementó seguridad de nivel de fila o de rol en los modelos tabulares de Analysis Services locales.
-
-Si envía un vínculo desde una aplicación móvil de Power BI a contactos externos a su organización, al hacer clic en el vínculo, se abrirá el panel en el explorador, no en la aplicación móvil de Power BI.
-
-Si [permite a los usuarios invitados externos editar y administrar el contenido de la organización](service-admin-portal.md#export-and-sharing-settings), la experiencia de solo consumo predeterminada no será válida en su caso. [Más información](service-admin-azure-ad-b2b.md).
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 Aspectos que hay que tener en cuenta sobre el uso compartido de paneles e informes:
 
-* Por lo general, usted y sus compañeros ven los mismos datos en el panel o informe. Por lo tanto, si tiene permisos para ver más datos que ellos, podrán ver todos sus datos en el panel o informe. Sin embargo, si se aplica la [seguridad de nivel de fila (RLS)](service-admin-rls.md) al conjunto de datos subyacente a un panel o informe, se usan las credenciales de cada persona para determinar los datos a los que puede tener acceso.
-* Todos los usuarios con quienes comparta el panel podrán visualizarlo e interactuar con los informes relacionados en la [vista de lectura](consumer/end-user-reading-view.md#reading-view). No pueden crear informes ni guardar cambios en los informes existentes.
-* Aunque ningún usuario puede ver o descargar el conjunto de datos, pueden acceder directamente al conjunto de datos mediante la característica Analizar en Excel. Un administrador puede restringir la capacidad de usar Analizar en Excel para todos los miembros de un grupo. Sin embargo, la restricción es para todos los usuarios de ese grupo para cada área de trabajo a la que pertenece el grupo.
+* Por lo general, usted y sus compañeros ven los mismos datos en el panel o informe. Por tanto, si tiene permisos para ver más datos que ellos, verán todos los datos en el panel o informe. Pero si se aplica la [seguridad de nivel de fila (RLS)](service-admin-rls.md) al conjunto de datos subyacente de un panel o informe, las credenciales de cada usuario determinan los datos a los que puede acceder.
+* Todos los usuarios con quienes comparta el panel podrán visualizarlo e interactuar con los informes relacionados en la [vista de lectura](consumer/end-user-reading-view.md#reading-view). Por lo general, no pueden crear informes ni guardar cambios en los informes existentes. Pero si selecciona **Permitir que los usuarios compilen nuevo contenido a partir de los conjuntos de datos subyacentes**, estos podrán crear informes propios en otras áreas de trabajo basados en el conjunto de datos de este panel o informe.
+* Aunque ningún usuario puede ver o descargar el conjunto de datos, pueden acceder directamente al conjunto de datos mediante la característica Analizar en Excel. Un administrador puede restringir la capacidad de usar Analizar en Excel para todos los miembros de un grupo. Sin embargo, la restricción es para todos los usuarios de ese grupo y para todas las áreas de trabajo a las que pertenece el grupo.
 * Todo el mundo puede [actualizar los datos](refresh-data.md) manualmente.
 * Si usa Office 365 para el correo electrónico, puede compartir datos con los miembros de un grupo de distribución. Para ello, escriba la dirección de correo electrónico asociada al grupo de distribución.
-* Los compañeros de trabajo que tengan el mismo dominio de correo electrónico y aquellos cuyo dominio sea distinto, pero esté registrado en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, si los dominios contoso.com y contoso2.com están registrados en el mismo inquilino y su dirección de correo electrónico es konrads@contoso.com, tanto ravali@contoso.com como gustav@contoso2.com podrán compartir, siempre que les haya concedido permiso para hacerlo.
-* Si sus compañeros de trabajo ya tienen acceso a un panel o informe específico, puede enviar un vínculo directo con solo copiar la dirección URL cuando se encuentre dentro del panel o informe. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`
+* Los compañeros de trabajo que tengan el mismo dominio de correo electrónico y aquellos cuyo dominio sea distinto, pero esté registrado en el mismo inquilino, pueden compartir el panel con otros. Por ejemplo, imagine que los dominios contoso.com y contoso2.com están registrados en el mismo inquilino y que la dirección de correo electrónico es konrads@contoso.com. Tanto ravali@contoso.com como gustav@contoso2.com pueden compartir el panel, siempre y cuando les otorgue permiso para compartirlo.
+* Si sus compañeros de trabajo ya tienen acceso a un panel o informe específico, puede enviar un vínculo directo con solo copiar la dirección URL cuando se encuentre dentro del panel o informe. Por ejemplo: `https://powerbi.com/dashboards/g12466b5-a452-4e55-8634-xxxxxxxxxxxx`.
 * Del mismo modo, si sus compañeros de trabajo ya tienen acceso a un panel específico, puede [enviar un vínculo directo al informe subyacente](service-share-reports.md). 
-* Puede compartir, como máximo, con 100 usuarios o grupos en una sola acción de uso compartido. Sin embargo, puede conceder acceso a un elemento a más de 500 usuarios. Para hacerlo, puede compartir varias veces si especifica los usuarios de forma individual, o bien si comparte con un grupo de usuarios que contenga todos los usuarios.
+
+### <a name="share-with-more-than-100-separate-users"></a>Uso compartido con más de 100 usuarios
+
+Como máximo, puede compartir con 100 usuarios o grupos en una sola acción de uso compartido. Sin embargo, puede conceder acceso a un elemento a más de 500 usuarios. Estas son algunas sugerencias:
+
+- Comparta contenido varias veces mediante la especificación individual de los usuarios.
+- Comparta contenido con un grupo de usuarios que incluya todos los usuarios. 
+- Cree el informe o el panel en un área de trabajo y, después, cree una aplicación desde el área de trabajo. Puede compartir la aplicación con muchos más usuarios. Obtenga más información sobre la [publicación de aplicaciones en Power BI](service-create-distribute-apps.md).
 
 ## <a name="troubleshoot-sharing"></a>Solución de problemas de uso compartido
 
@@ -136,7 +146,7 @@ Las personas con las que comparte puede que vean un icono de bloqueo en un panel
 
 ![Icono de bloqueo de Power BI](media/service-share-dashboards/power-bi-locked_tile_small.png)
 
-Si es así, tiene que conceder permiso al conjunto de datos subyacente:
+Si es así, debe concederles permiso al conjunto de datos subyacente.
 
 1. Vaya a la pestaña **Conjuntos de datos** en la lista de contenido.
 
@@ -163,8 +173,8 @@ Para compartir un panel o informe, necesita permiso para volver a compartir el c
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* ¿Quiere hacer algún comentario? Vaya al [sitio de la comunidad de Power BI](https://community.powerbi.com/) para efectuar sus sugerencias.
+
 * [¿Cómo debo compartir paneles e informes y colaborar en ellos?](service-how-to-collaborate-distribute-dashboards-reports.md)
-* [Compartir un informe de Power BI filtrado](service-share-reports.md).
-* ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).
+* [Uso compartido de informes de Power BI con los compañeros](service-share-reports.md)
+* ¿Tiene alguna pregunta? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)
 
