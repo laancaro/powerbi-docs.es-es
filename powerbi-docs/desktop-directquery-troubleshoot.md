@@ -48,7 +48,7 @@ Este es un método fácil para llegar a esta carpeta: en Power BI Desktop, sele
 
 ![La ventana de Power BI Desktop está abierta y la página Diagnóstico global está seleccionada. La sección Opciones de diagnóstico tiene dos propiedades: Habilitar seguimiento y Omisión de la caché de geocodificación. La opción Habilitar seguimiento está habilitada. La sección Recopilación del volcado de memoria tiene un botón Habilitar ahora y un vínculo para abrir la carpeta de volcado de memoria y seguimiento.](media/desktop-directquery-troubleshoot/desktop-directquery-troubleshoot-desktop-file-options-diagnostics.png)
 
-Cuando selecciona el vínculo **	Permite abrir la carpeta de volcado de memoria y seguimiento**, en Recopilación del volcado de memoria, se abre la carpeta siguiente: _\\\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\Traces_
+Cuando selecciona el vínculo **Permite abrir la carpeta de volcado de memoria y seguimiento**, en Recopilación del volcado de memoria, se abre la carpeta siguiente: _\\\<Usuario>\AppData\Local\Microsoft\Power BI Desktop\Traces_
 
 Vaya a la carpeta principal de esta carpeta donde se muestra la carpeta que contiene _AnalysisServicesWorkspaces_, que contendrá una subcarpeta de área de trabajo para cada instancia abierta de Power BI Desktop. El nombre de estas subcarpetas tiene un sufijo de entero, como _AnalysisServicesWorkspace2058279583_.
 

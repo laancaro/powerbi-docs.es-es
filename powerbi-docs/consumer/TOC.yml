@@ -56,6 +56,8 @@
               href: end-user-interactions.md
             - name: Exportar un informe a PDF
               href: end-user-pdf.md
+            - name: Exportar un informe a PowerPoint
+              href: end-user-powerpoint.md
             - name: Adición de marcadores en los informes
               href: end-user-bookmarks.md
             - name: Informes paginados en Power BI
