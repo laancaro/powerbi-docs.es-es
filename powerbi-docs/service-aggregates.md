@@ -1,21 +1,21 @@
 ---
 title: Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 description: Aprenda a cambiar la agregación de un gráfico (suma, promedio, máximo, etc.) en el servicio Power BI.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 05/03/2019
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Reports
-ms.openlocfilehash: 595b5743450aeb8ae6f6e60157742e3563a28fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bc172f3f5c25a0f0c3773befe5bd846f95a9a2e0
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873307"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698357"
 ---
 # <a name="work-with-aggregates-sum-average-and-so-on-in-the-power-bi-service"></a>Trabajo con agregados (suma, promedio, etc.) en el servicio Power BI
 

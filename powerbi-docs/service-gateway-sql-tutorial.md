@@ -1,20 +1,20 @@
 ---
 title: 'Tutorial: Conexión a datos locales en SQL Server'
 description: Obtenga información sobre cómo usar SQL Server como un origen de datos de la puerta de enlace, incluida la forma de actualizar los datos.
-author: mgblythe
+author: arthiriyer
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: tutorial
 ms.date: 07/15/2019
-ms.author: mblythe
+ms.author: arthii
 LocalizationGroup: Gateways
-ms.openlocfilehash: 91b6ee8971004a014b188f94142e90914ae3a3b7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 0ab5831cb1cf4af28a56711475b7ba6a5683b5d5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881547"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699323"
 ---
 # <a name="refresh-data-from-an-on-premises-sql-server-database"></a>Actualización de los datos desde una base de datos local de SQL Server
 
@@ -48,7 +48,7 @@ Use el procedimiento siguiente para crear un informe básico de Power BI con la 
 
 2. En el cuadro de diálogo **Base de datos de SQL Server**, escriba los nombres del **Servidor** y la **Base de datos (opcional)** , asegúrese de que el **Modo Conectividad de datos** sea **Importar** y después seleccione **Aceptar**.
 
-    ![Base de datos SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
+    ![Base de datos SQL Server](./media/service-gateway-sql-tutorial/sql-server-database.png)
 
 3. Verifique sus **credenciales** y luego seleccione **Conectar**.
 

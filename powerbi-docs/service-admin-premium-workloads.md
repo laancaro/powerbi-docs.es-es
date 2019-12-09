@@ -1,20 +1,20 @@
 ---
 title: Procedimientos para configurar las cargas de trabajo en Power BI Premium
 description: Descubra cómo configurar las cargas de trabajo en una capacidad Premium de Power BI.
-author: mgblythe
-ms.author: mblythe
+author: davidiseminger
+ms.author: davidi
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 8240c4590a5e5bb892c4858ea74aa20e569ecb89
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856828"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831294"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -164,7 +164,7 @@ La carga de trabajo de informes paginados permite ejecutar informes paginados, e
 | **Valor máximo de memoria (%)** | Porcentaje máximo de memoria disponible que los informes paginados pueden usar en una capacidad. |
 |  |  |
 
-Los informes paginados permiten ejecutar código personalizado al representar un informe. Por ejemplo, cambiar de forma dinámica el color del texto en función del contenido, lo que puede tomar memoria adicional. Power BI Premium ejecuta informes paginados en un espacio contenido dentro de la capacidad. Se usa la memoria máxima especificada, *con independencia* de si la carga de trabajo está o no activa. Si cambia el valor predeterminado de la configuración de memoria máxima, asegúrese de establecer un valor bajo suficiente para que no afecte negativamente a otras cargas de trabajo.
+Los informes paginados permiten ejecutar código personalizado al representar un informe. Por ejemplo, cambiar de forma dinámica el color del texto en función del contenido, lo que puede tomar memoria adicional. Power BI Premium ejecuta informes paginados en un espacio contenido dentro de la capacidad. 
 
 En algunos casos, la carga de trabajo de informes paginados puede dejar de estar disponible. En este caso, la carga de trabajo muestra un estado de error en el portal de administración y los usuarios ven los tiempos de espera para la representación de informes. Para mitigar este problema, deshabilite la carga de trabajo y después vuelva a habilitarla.
 

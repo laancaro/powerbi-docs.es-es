@@ -1,20 +1,20 @@
 ---
 title: ¿Qué es la administración de Power BI?
 description: Obtenga información sobre la configuración de directivas de gobernanza de Power BI, la supervisión del uso y el aprovisionamiento de licencias, funcionalidades y recursos de la organización.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: overview
 ms.date: 09/09/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: d33aad1d52a7074873e4b2bb7f5e2f93e2b8ab0e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: dced3d2bfe844e857556386fb208395faab3fd8b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873732"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74698978"
 ---
 # <a name="what-is-power-bi-administration"></a>¿Qué es la administración de Power BI?
 
@@ -36,8 +36,8 @@ Hay varios roles relacionados con la administración de Power BI, que se tratan 
 
 | **Tipo de administrador** | **Ámbito administrativo** | **Ámbito de Power BI** |
 | --- | --- | --- |
-| Administrador global de Office 365 | Office 365 | Puede administrar todos los aspectos de un inquilino de Power BI y otros servicios. |
-| Administrador de facturación de Office 365 | Office 365 | Puede adquirir licencias de Power BI con suscripciones de Office 365. |
+| Administrador global de Office 365 | Office 365 | Puede administrar todos los aspectos de un inquilino de Power BI y otros servicios. |
+| Administrador de facturación de Office 365 | Office 365 | Puede adquirir licencias de Power BI con suscripciones de Office 365. |
 | Administrador de servicios de Power BI | Inquilino de Power BI | Tiene control total sobre un inquilino de Power BI y sus características administrativas (excepto para las licencias). |
 | Administrador de capacidad de Power BI Premium | Una única capacidad Premium | Tiene control total sobre una capacidad Premium y sus características administrativas. |
 | Administrador de capacidad de Power BI Embedded | Una única capacidad de Embedded | Tiene control total sobre una capacidad de Embedded y sus características administrativas. |

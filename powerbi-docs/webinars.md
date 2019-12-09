@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: b451333aaf93584e7e16dcf24e6b693e9da3eccd
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478644"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882747"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
@@ -24,10 +24,6 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 **Análisis en un evento virtual de Azure: acelere el tiempo de información con Azure Synapse Analytics**
 <br>de Gayle Sheppard y John Macintyre
 <br>[Regístrese ahora mismo](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Cómo Microsoft cambia la protección de datos de BI**
-<br>de Anton Fritz y Adi Regev
-<br>[Regístrese para verlo el 4 de diciembre](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Nine Trends Shaping the Future of Big Data Analytics** (9 tendencias que conforman el futuro del análisis de macrodatos)
 <br>por Vijay Gopalakrishnan
@@ -42,6 +38,10 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 ## <a name="featured-webinars"></a>Seminarios web destacados
 
 Empiece por estos seminarios web a petición populares
+
+**Cómo Microsoft cambia la protección de datos de BI**
+<br>de Anton Fritz y Adi Regev
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
 
 **Power BI and the Future of Modern and Enterprise BI** (Power BI y el futuro de la inteligencia empresarial y moderna)
 <br>de Arun Ulag y Amir Netz

@@ -1,20 +1,20 @@
 ---
 title: Actualizaciones incrementales en Power BI Premium
 description: Obtenga información sobre cómo permitir el uso de conjuntos de datos voluminosos en el servicio Power BI Premium.
-author: mgblythe
+author: davidiseminger
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 08/21/2019
-ms.author: mblythe
+ms.author: davidi
 LocalizationGroup: Premium
-ms.openlocfilehash: cd8b4dcd87244f827fcabca630954353c9b6d8eb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cc2b005ef72700891a603162a281fbba23aa5120
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871865"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699300"
 ---
 # <a name="incremental-refresh-in-power-bi-premium"></a>Actualizaciones incrementales en Power BI Premium
 

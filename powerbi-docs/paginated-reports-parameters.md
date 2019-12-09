@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 06/06/2019
-ms.openlocfilehash: d1f23f52f484ec9e141b4870b50cc1b2758709d9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874738"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831178"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creación de parámetros de informes paginados en el servicio Power BI
 
@@ -64,6 +64,6 @@ La siguiente ilustración muestra la vista de diseño del Generador de informes 
   
 ## <a name="next-steps"></a>Pasos siguientes
 
-Consulte [Ver los parámetros para los informes paginados](paginated-reports-view-parameters.md) para ver el aspecto de los parámetros en el servicio Power BI.
+Consulte [Ver los parámetros para los informes paginados](consumer/paginated-reports-view-parameters.md) para ver el aspecto de los parámetros en el servicio Power BI.
 
 Para obtener información detallada sobre los parámetros de los informes paginados, consulte [Parámetros del informe en el Generador de informes de Power BI](report-builder-parameters.md).
