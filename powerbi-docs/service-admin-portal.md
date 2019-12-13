@@ -1,21 +1,21 @@
 ---
 title: Portal de administración de Power BI
 description: El portal de administración permite la administración de inquilinos de Power BI en su organización. Incluye elementos como métricas de uso, acceso al Centro de administración de Microsoft 365 y configuración.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 09/25/2019
-ms.author: mblythe
+ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: bb842128c26161d2f8da2961c6f014b9ecb45fc5
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265889"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882897"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -208,7 +208,7 @@ En la imagen siguiente se muestra el menú **Archivo** de un informe cuando est�
 
 Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
 
-|Destacado |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
+|Característica |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
 |---------|---------|---------|---------|
 |**Publicar en la web** en el menú **Archivo**.|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
 |**Administrar códigos para insertar** en **Configuración**|Habilitada para todos|Habilitada para todos|Habilitada para todos<br><br>Opción * **Eliminar** solo para usuarios o grupos autorizados.<br>* **Obtener código** habilitada para todos.|
@@ -247,11 +247,14 @@ En la imagen siguiente se muestra el menú **Archivo** de un informe cuando est�
 ![Imprimir informe](media/service-admin-portal/powerbi-admin-print-report.png)
 
 ### <a name="allow-external-guest-users-to-edit-and-manage-content-in-the-organization"></a>Permitir a los usuarios externos editar y administrar el contenido de la organización
-Los usuarios externos de B2B de Azure pueden editar y administrar el contenido de la organización. [Más información](service-admin-azure-ad-b2b.md)
+Los usuarios externos de Azure Active Directory B2B pueden editar y administrar el contenido de la organización. [Más información](service-admin-azure-ad-b2b.md)
 
 La imagen siguiente muestra la opción Permitir a los usuarios externos editar y administrar el contenido de la organización.
 
 ![Permitir a los usuarios externos editar y administrar el contenido de la organización](media/service-admin-portal/powerbi-admin-tenant-settings-b2b-guest-edit-manage.png)
+
+> [!IMPORTANT]
+> Al agregar un usuario externo al inquilino de Azure AD (ya sea manualmente o compartiendo un informe con ese usuario), la cuenta de ese usuario pasará a ser reconocible para las cuentas internas. Un usuario interno puede compartir otros elementos con el usuario externo, incluso si la cuenta interna no tiene permisos de uso compartido externo.
 
 ### <a name="email-subscriptions"></a>Suscripciones de correo electrónico
 Los usuarios de la organización pueden crear suscripciones de correo electrónico. Obtenga más información sobre las [suscripciones](service-report-subscribe.md).

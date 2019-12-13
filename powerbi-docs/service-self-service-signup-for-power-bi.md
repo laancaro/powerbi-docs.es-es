@@ -1,20 +1,20 @@
 ---
 title: Registro en Power BI como usuario individual
 description: Aprenda a registrarse en Power BI y empiece a usarlo para sus necesidades de análisis y visualización de datos.
-author: mgblythe
+author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.author: mblythe
+ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: b7dae4c3b4ce35ec6af82ae59c374ab31937881a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871541"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791632"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Registro en Power BI como usuario individual
 

@@ -1,15 +1,15 @@
 ---
-author: mgblythe
+author: davidiseminger
 ms.service: powerbi
 ms.topic: include
 ms.date: 09/13/2019
-ms.author: mblythe
-ms.openlocfilehash: c658e683e86a899d45728220dee3706a0d617f0f
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.author: davidi
+ms.openlocfilehash: 6d1a239954a64da1c92cc68b56912e6f4ab67228
+ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74284159"
+ms.lasthandoff: 12/06/2019
+ms.locfileid: "74882784"
 ---
 ## <a name="limitations"></a>Limitaciones
 
@@ -19,7 +19,7 @@ Esta es una lista de las limitaciones actuales para la seguridad de nivel de fil
 
 * Solo puede definir RLS en los conjuntos de datos creados con Power BI Desktop. Si quiere habilitar RLS para conjuntos de datos creados con Excel, debe convertir primero los archivos en archivos de Power BI Desktop (PBIX). [Más información](../desktop-import-excel-workbooks.md)
 
-* Solo se admiten conexiones de DirectQuery y ETL. Las conexiones dinámicas con Analysis Services se controlan en el modelo local.
+* Solo se admiten conexiones de importación y de DirectQuery. Las conexiones dinámicas con Analysis Services se controlan en el modelo local.
 
 ## <a name="known-issues"></a>Problemas conocidos
 

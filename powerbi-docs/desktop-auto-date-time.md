@@ -8,20 +8,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 7453854376923fbb55376182a8674e5f3d7d1b63
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878775"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696173"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Fecha y hora automáticas en Power BI Desktop
 
-Este artículo se dirige a los modeladores de datos que desarrollan modelos compuestos o de importación en Power BI Desktop.
+Este artículo se dirige a los modeladores de datos que desarrollan modelos compuestos o de importación en Power BI Desktop. Presenta y describe la opción _Fecha y hora automáticas_.
 
-## <a name="background"></a>Fondo
-
-_Fecha y hora automáticas_ es una opción de carga de datos en Power BI Desktop. El objetivo de esta opción es facilitar la creación de prácticos informes de inteligencia de tiempo basados en columnas de fecha cargadas en un modelo. En concreto, permite a los autores de los informes utilizar períodos de tiempo de calendario para filtrar, agrupar y explorar en profundidad sin necesidad de que el modelador los desarrolle explícitamente. Los períodos de tiempo de calendario incluyen años, trimestres, meses y días.
+La opción Fecha y hora automáticas es una opción de carga de datos de Power BI Desktop. El objetivo de esta opción es facilitar la creación de prácticos informes de inteligencia de tiempo basados en columnas de fecha cargadas en un modelo. En concreto, permite a los autores de los informes usar el modelo de datos para filtrar, agrupar y explorar en profundidad empleando períodos de tiempo de calendario (años, trimestres, meses y días). Lo importante es que no es necesario desarrollar de forma explícita estas funcionalidades de inteligencia de tiempo.
 
 Cuando se habilita esta opción, Power BI Desktop crea una tabla oculta de fecha y hora automáticas para cada columna de fecha, siempre que se cumplan todas las condiciones siguientes:
 
@@ -34,11 +32,11 @@ Cuando se habilita esta opción, Power BI Desktop crea una tabla oculta de fech
 Cada tabla de fecha y hora automáticas es en realidad una [tabla calculada](desktop-calculated-tables.md) que genera filas de datos mediante la función DAX [CALENDAR](/dax/calendar-function-dax). Cada tabla también incluye seis columnas calculadas: **Day**, **MonthNo**, **Month**, **QuarterNo**, **Quarter** y **Year**.
 
 > [!NOTE]
-> El [lenguaje del modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop) determina cómo se traducen los nombres y valores de columna y qué formato tienen.
+> Power BI traduce y da formato a los nombres de las columnas y a los valores según el [lenguaje del modelo](supported-languages-countries-regions.md#choose-the-language-for-the-model-in-power-bi-desktop).
 
-También se crea una relación entre la columna **Date** de la tabla de fecha y hora automáticas y la columna de fecha del modelo.
+Power BI Desktop también crea una relación entre la columna **Date** de la tabla de fecha y hora automáticas y la columna de fecha del modelo.
 
-La tabla de fecha y hora automáticas se carga con años naturales completos que abarcan todos los valores de fecha almacenados en la columna de fecha del modelo. Por ejemplo, si el valor más antiguo de una columna de fecha es el 20 de marzo de 2016 y el último valor es el 23 de octubre de 2019, la tabla contendrá 1461 filas. Representa una fila por cada fecha en los cuatro años naturales de 2016 a 2019. Cuando se actualiza el modelo, cada tabla de fecha y hora automáticas también se actualiza para garantizar que siempre contenga fechas que abarcan los valores de la columna de fecha.
+La tabla de fecha y hora automáticas contiene años naturales completos que abarcan todos los valores de fecha almacenados en la columna de fecha del modelo. Por ejemplo, si el valor más antiguo de una columna de fecha es el 20 de marzo de 2016 y el último valor es el 23 de octubre de 2019, la tabla contendrá 1461 filas. Representa una fila por cada fecha en los cuatro años naturales de 2016 a 2019. Cuando Power BI actualiza el modelo, cada tabla de fecha y hora automáticas también se actualiza para garantizar que contenga fechas que abarcan los valores de la columna de fecha.
 
 Si fuera posible ver las filas de una tabla de fecha y hora automáticas, podrían tener un aspecto similar al siguiente:
 
@@ -55,17 +53,17 @@ Si fuera posible ver una tabla de fecha y hora automáticas en el diagrama de vi
 
 ## <a name="work-with-auto-datetime"></a>Trabajar con fecha y hora automáticas
 
-Cuando existe una tabla de fecha y hora automáticas para una columna de fecha (y esa columna está visible), los autores de informes no encontrarán esa columna como un campo en el panel **Campos**. En su lugar, encontrarán un objeto expansible que tendrá el nombre de la columna de fecha. Puede identificarlo fácilmente porque está indicado con un icono de calendario. Cuando los autores de informes expandan el objeto de calendario, encontrarán una jerarquía denominada **Date Hierarchy** (Jerarquía de fechas). Al expandir la jerarquía, encontrarán cuatro niveles: **Year** (Año), **Quarter** (Trimestre), **Month** (Mes) y **Day** (Día).
+Cuando existe una tabla de fecha y hora automáticas para una columna de fecha (y esa columna está visible), los autores de informes no encuentran esa columna como un campo en el panel **Campos**. En su lugar, buscan un objeto expansible que tiene el nombre de la columna de fecha. Puede identificarlo fácilmente porque está indicado con un icono de calendario. Cuando los autores de los informes expandan el objeto de calendario, encontrarán una jerarquía denominada **Jerarquía de fechas**. Al expandir la jerarquía, encontrarán cuatro niveles: **Year** (Año), **Quarter** (Trimestre), **Month** (Mes) y **Day** (Día).
 
 ![Ejemplo del panel Campos, con la tabla Sales expandida. Contiene un campo OrderDate, indicado con el icono de calendario. Está expandido y contiene una jerarquía denominada Date Hierarchy (Jerarquía de fechas). Esta también está expandida y contiene cuatro niveles: Year (Año), Quarter (Trimestre), Month (Mes) y Day (Día).](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 
 La jerarquía generada de fecha y hora automáticas se puede usar para configurar un objeto visual exactamente de la misma manera que se pueden usar las jerarquías normales. Los objetos visuales se pueden configurar con la jerarquía **Date Hierarchy** (Jerarquía de fechas) completa o con niveles específicos de la jerarquía.
 
-Sin embargo, existe una funcionalidad agregada que no admiten las jerarquías normales. Cuando la jerarquía de fecha y hora automáticas (o un nivel de la jerarquía) se agrega a un contenedor de objetos visuales, el autor del informe puede usar la jerarquía o bien la columna de fecha. Este enfoque tiene sentido para algunos objetos visuales, cuando todo lo que necesita es la columna de fecha, no la jerarquía y sus niveles. En primer lugar, configurará el campo visual (haga clic con el botón derecho en el campo visual o haga clic en la flecha hacia abajo) y, a continuación, usará el menú contextual para cambiar entre la columna de fecha o la jerarquía de fechas.
+Sin embargo, existe una funcionalidad agregada que no admiten las jerarquías normales. Cuando la jerarquía de fecha y hora automáticas (o un nivel de la jerarquía) se agrega a un contenedor de objetos visuales, los autores de los informes pueden usar la jerarquía o bien la columna de fecha. Este enfoque tiene sentido para algunos objetos visuales, cuando lo único que necesitan es la columna de fecha, no la jerarquía y sus niveles. En primer lugar, configurarán el campo visual (haga clic con el botón derecho en el campo visual o haga clic en la flecha hacia abajo) y, a continuación, usarán el menú contextual para cambiar entre la columna de fecha o la jerarquía de fechas.
 
 ![Ejemplo de una configuración de campo visual para la jerarquía OrderDate. En el menú contextual abierto se muestran dos opciones que permiten cambiar entre la columna OrderDate o la jerarquía de fechas.](media/desktop-auto-date-time/auto-date-time-configure-visuals-fields.png)
 
-Por último, los cálculos del modelo, escritos en DAX, pueden hacer referencia a una columna de fecha directamente o a las columnas de la tabla oculta de fecha y hora automáticas indirectamente.
+Por último, los cálculos del modelo, escritos en DAX, pueden hacer referencia a una columna de fecha _directamente_ o a las columnas de la tabla oculta de fecha y hora automáticas _indirectamente_.
 
 La fórmula escrita en Power BI Desktop puede hacer referencia a una columna de fecha de la manera habitual. Sin embargo, se debe hacer referencia a las columnas de la tabla de fecha y hora automáticas con una sintaxis extendida especial. En primer lugar, debe hacer referencia a la columna de fecha seguida de un punto (.). A continuación, la funcionalidad de autocompletar de la barra de fórmulas le permitirá seleccionar una columna de la tabla de fecha y hora automáticas.
 
@@ -87,7 +85,7 @@ La fecha y hora automáticas se pueden configurar _globalmente_ o para el _archi
 También se puede activar o desactivar la opción de archivo actual en cualquier momento. Cuando esta opción está activada, se crean tablas de fecha y hora automáticas. Si está desactivada, todas las tablas de fecha y hora automáticas se quitan del modelo.
 
 > [!CAUTION]
-> Tenga cuidado al desactivar la opción de archivo actual, ya que se quitarán las tablas de fecha y hora automáticas. Asegúrese de corregir los objetos visuales o filtros de informes con errores que se hayan configurado para usarse.
+> Tenga cuidado a la hora de desactivar la opción de archivo actual, ya que se quitarán las tablas de fecha y hora automáticas. Asegúrese de corregir los objetos visuales o filtros de informes con errores que se hayan configurado para usarse.
 
 En Power BI Desktop, seleccione _Archivo > Opciones y configuración > Opciones_ y, luego, seleccione la página **Global** o **Archivo actual**. En cualquiera de las páginas, la opción está en la sección **Inteligencia de tiempo**.
 

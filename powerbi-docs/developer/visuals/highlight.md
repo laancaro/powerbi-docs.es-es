@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 10/31/2019
-ms.openlocfilehash: ed1a67168a386838049ec2ca047ec0cd971408fc
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: bf5cd8d8ae649071b3c9cc7243f87ac3cc316c3b
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880034"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74695413"
 ---
 # <a name="highlight-data-points-in-power-bi-visuals"></a>Resaltado de puntos de datos en objetos visuales de Power BI
 
@@ -26,6 +26,9 @@ Si establece la propiedad `supportsHighlight` de `capabilities.json` en `true`, 
 !["dataView" admite el resaltado](./media/highlight-dataview-supports.png)
 
 En el ejemplo, fíjese que hay una barra seleccionada. Y es el único valor de la matriz highlights. También es importante tener en cuenta que puede haber varios elementos seleccionados y resaltados parciales. Los valores resaltados se mostrarán en la vista de datos.
+
+> [!Note]
+> La asignación de una vista de datos de tabla no admite la característica de resaltado.
 
 ## <a name="highlight-data-points-with-categorical-data-view-mapping"></a>Resaltado de puntos de datos con asignación de una vista de datos categórica
 

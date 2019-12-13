@@ -1,21 +1,21 @@
 ---
 title: Solución de problemas de origen de datos no admitido para la actualización
 description: Solución de problemas de origen de datos no admitido para la actualización
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: troubleshooting
 ms.date: 12/06/2017
-ms.author: mblythe
+ms.author: maggies
 ms.custom: seodec18
 LocalizationGroup: Troubleshooting
-ms.openlocfilehash: b44dbc06c15a576174277695583f3afebb0f298a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3fe8626001972acc0b7555f37844b5abb62753b
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73856258"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791981"
 ---
 # <a name="troubleshooting-unsupported-data-source-for-refresh"></a>Solución de problemas de origen de datos no admitido para la actualización
 Puede ver un error al intentar configurar un conjunto de datos para la actualización programada.
@@ -35,7 +35,7 @@ Si no está seguro de qué origen de datos se utilizó, puede encontrarlo siguie
    ![Editor avanzado](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-advanced-editor.png)
 4. Tome nota del proveedor que aparece para el origen.  En este ejemplo, el proveedor es Active Directory.  
    ![Proveedor del origen de datos](media/service-admin-troubleshoot-unsupported-data-source-for-refresh/tshoot-provider.png)
-5. Compare el proveedor con la lista de orígenes de datos admitidos que se encuentra en [Actualizar datos en Power BI](refresh-data.md).  Encontrará que Active Directory no es un origen de datos compatible para la actualización.  
+5. Compare el proveedor con la lista de orígenes de datos admitidos que se encuentra en los [orígenes de datos de Power BI](power-bi-data-sources.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Actualización de datos](refresh-data.md)  

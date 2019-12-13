@@ -5,14 +5,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/19/2019
+ms.date: 11/19/2019
 ms.author: mohaali
-ms.openlocfilehash: 78a74d2d49ac9eabb7d63f467c9838d370d5c314
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9805b98df7f606e61412ca9dee7dc0467a1649a3
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870834"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791833"
 ---
 # <a name="introduction-to-power-bi-qa-visual"></a>Introducción al objeto visual Preguntas y respuestas de Power BI
 
@@ -93,6 +93,10 @@ Si no está seguro del tipo de preguntas que se deben formular o la terminologí
 6. Vamos a cambiar el objeto visual a un gráfico de columnas. 
 
     ![Objeto visual Preguntas y respuestas con "como un gráfico de columnas" agregado a la pregunta](media/power-bi-visualization-q-and-a/power-bi-specify-visual.png)
+
+7.  Agregue más objetos visuales a la página del informe y vea cómo interactúa el objeto visual Preguntas y respuestas con los demás objetos visuales de la página. En este ejemplo, el objeto visual Preguntas y respuestas ha aplicado un filtro cruzado al gráfico de líneas y al mapa, y ha aplicado un resaltado cruzado al gráfico de barras.
+
+    ![Objeto visual Preguntas y respuestas con una barra seleccionada y el impacto en los otros tres objetos visuales en la página del informe](media/power-bi-visualization-q-and-a/power-bi-filters.png)
 
 ## <a name="format-and-customize-the-qa-visual"></a>Formato y personalización del objeto visual Preguntas y respuestas
 El objeto Preguntas y respuestas se puede personalizar tanto desde el panel de formato como aplicando un tema. 

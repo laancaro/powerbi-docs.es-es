@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: ab84795ff5d140f23f19184bbc40e91133854f1f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876739"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907965"
 ---
 # <a name="aggregations-in-power-bi-desktop"></a>Agregaciones en Power BI Desktop
 
@@ -29,7 +29,7 @@ En esta lista se indican las ventajas de usar **agregaciones**:
 * **Lograr arquitecturas equilibradas**: permita que la caché en memoria de Power BI controle las consultas agregadas, ya que lo hace de forma eficaz. Limite las consultas enviadas al origen de datos en el modo DirectQuery, lo que ayudará a permanecer dentro de los límites de simultaneidad. Las consultas que logran pasar tienden a ser consultas filtradas de nivel transaccional, algo que suelen controlar bien los almacenes de datos y los sistemas de macrodatos.
 
 ### <a name="table-level-storage"></a>Almacenamiento de nivel de tabla
-El almacenamiento de nivel de tabla se suele usar con la característica de agregaciones. Para más información, consulte el artículo [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
+El almacenamiento de nivel de tabla se suele usar con la característica de agregaciones. Para obtener más información, consulte el artículo [Modo de almacenamiento en Power BI Desktop](desktop-storage-mode.md).
 
 ### <a name="data-source-types"></a>Tipos de origen de datos
 Las agregaciones se usan con orígenes de datos que representan modelos dimensionales, como almacenes de datos, data marts y orígenes de macrodatos basados en Hadoop. En este artículo se describen las diferencias de modelado típico en Power BI para cada tipo de origen de datos.
@@ -92,7 +92,7 @@ El único caso en que una relación de *origen cruzado* se considera fuerte es s
 
 Para los aciertos de agregaciones de *origen cruzado* que no dependen de las relaciones, consulte la sección siguiente sobre agregaciones basadas en agrupación por columnas.
 
-### <a name="aggregation-tables-are-not-addressable"></a>Las tablas de agregación no son accesibles
+### <a name="aggregation-tables-arent-addressable"></a>Las tablas de agregación no son accesibles
 Los usuarios con acceso de solo lectura al conjunto de datos no pueden consultar las tablas de agregación. Esto evita problemas de seguridad cuando se usan con RLS. Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación; ni siquiera necesitan saber que existe dicha tabla de agregación.
 
 Por esta razón, la tabla **Sales Agg** (Ventas agr.) se debe ocultar. Si no es así, el cuadro de diálogo Administrar agregaciones la establecerá en oculta al hacer clic en el botón Aplicar todo.
@@ -125,7 +125,7 @@ La lista desplegable Resumen ofrece los siguientes valores para elegir.
 Se aplican estas validaciones importantes mediante el cuadro de diálogo:
 
 * La columna de detalles seleccionada debe tener el mismo tipo de datos que la columna de agregación, excepto las funciones de suma Recuento y Contar filas de tabla. Recuento y Contar filas de tabla se ofrecen solo para las columnas de agregación de enteros y no necesitan un tipo de datos coincidente.
-* No se permiten las agregaciones encadenadas que abarcan tres o más tablas. Por ejemplo, no es posible configurar las agregaciones en la **tabla A** que hace referencia a la **tabla B** que tiene las agregaciones que hacen referencia a la **tabla C**.
+* No se permiten las agregaciones encadenadas que abarcan tres o más tablas. Por ejemplo, no es posible configurar las agregaciones en la **tabla A** que hace referencia a la **tabla B** que tiene las agregaciones que hacen referencia a la **tabla C**.
 * No se permiten las agregaciones duplicadas donde dos entradas usan la misma función de resumen y hacen referencia a la misma columna o tabla de detalles.
 * La tabla de detalles debe ser DirectQuery, no Import.
 
@@ -184,9 +184,9 @@ En algunos casos, la función DISTINCTCOUNT puede beneficiarse de las agregacion
 ### <a name="rls"></a>RLS
 Las expresiones de seguridad de nivel de fila (RLS) deben filtrar la tabla de agregación y la tabla de detalles para que funcionen correctamente. Continuando con el ejemplo, una expresión RLS en la tabla **Geography** funcionará porque Geography se encuentra en el lado de filtrado de las relaciones con las tablas **Sales** y **Sales Agg**. RLS se aplicará correctamente en las consultas que alcanzan la tabla de agregación y en las que no.
 
-![Roles de administración de agregaciones](media/desktop-aggregations/manage-roles.jpg)
+![Roles de administración de agregaciones](media/desktop-aggregations/manage-roles.png)
 
-Una expresión de RLS en la tabla **Product** solo filtrará la tabla **Sales**, no la tabla **Sales Agg**. Esto no es recomendable. Las consultas enviadas por los usuarios que acceden al conjunto de datos mediante este rol no se beneficiarían de los aciertos de agregación. Como la tabla de agregación es otra representación de los mismos datos de la tabla de detalles, no sería seguro responder a las consultas de la tabla de agregación porque no se puede aplicar el filtro RLS.
+Una expresión de RLS en la tabla **Product** solo filtrará la tabla **Sales**, no la tabla **Sales Agg**. No se recomienda. Las consultas enviadas por los usuarios que acceden al conjunto de datos mediante este rol no se beneficiarían de los aciertos de agregación. Como la tabla de agregación es otra representación de los mismos datos de la tabla de detalles, no sería seguro responder a las consultas de la tabla de agregación porque no se puede aplicar el filtro RLS.
 
 Una expresión de RLS en la propia tabla **Sales Agg** solo filtraría la tabla de agregación y no la de detalles. Esto no está permitido.
 

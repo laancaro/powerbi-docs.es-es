@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: cc554bff1cbd248ccd69a80ee47b60af981cdab1
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 245475feeb43ee544117aaa54969f2de1e207cd5
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061831"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696291"
 ---
 # <a name="migrate-to-the-new-powerbi-visuals-tools-3xx"></a>Migración a la versión nueva de powerbi-visuals-tools 3.x.x
 
@@ -39,7 +39,7 @@ A continuación, se describen todos los pasos para la migración de la versión 
 
 ## <a name="backward-compatibility"></a>Compatibilidad con versiones anteriores
 
-Las herramientas nuevas guardan la compatibilidad con versiones anteriores del código base de los objetos visuales anteriores, pero es posible que se requieran algunos otros cambios para cargar bibliotecas externas.
+Las herramientas nuevas guardan la compatibilidad con las versiones anteriores del código base de los objetos visuales anteriores, pero es posible que se requieran algunos otros cambios para cargar bibliotecas externas.
 
 Las bibliotecas, que admiten sistemas de módulos, se importarán como módulos de webpack. Todas las demás bibliotecas y el código fuente visual se ajustarán en un módulo.
 
@@ -81,7 +81,7 @@ El ejemplo del objeto visual sampleBarChart y los [cambios](https://github.com/M
 
 La versión nueva de powerbi-visual-tools no incluye todas las versiones de API. En lugar de eso, el desarrollador debe instalar una versión específica del paquete [`powerbi-visuals-api`](https://www.npmjs.com/package/powerbi-visuals-api). La versión del paquete coincide con la versión de la API de los objetos visuales personalizados de Power BI y proporciona todas las definiciones de tipo de la API de objetos visuales personalizados de Power BI.
 
-Para agregar `powerbi-visuals-api` a las dependencias del proyecto, ejecute el comando `npm install --save-dev powerbi-visuals-api`.
+Para agregar `powerbi-visuals-api` a las dependencias de un proyecto, ejecute el comando `npm install --save-dev powerbi-visuals-api`.
 Y debe quitar el vínculo a definiciones de tipo de API anteriores. Porque los tipos de `powerbi-visuals-api` los incluye automáticamente webpack. Los cambios correspondientes están en [esta](https://github.com/Microsoft/PowerBI-visuals-sampleBarChart/blob/sample-next/package.json#L14) línea de `package.json`.
 
 ## <a name="update-tsconfigjson"></a>Actualización de `tsconfig.json`
@@ -95,7 +95,7 @@ Además, también puede cambiar la opción `target` a `ES6` si quiere usar JavaS
 
 ## <a name="update-custom-visuals-utils"></a>Actualización de las utilidades de objetos visuales personalizados
 
-Si usa una de estas [powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), también debe actualizarlas a la versión más reciente.
+Si usa una de estas powerbi-visuals-utils](https://www.npmjs.com/search?q=powerbi-visuals-utils), también debe actualizarlas a la versión más reciente.
 
 Ejecute el comando `npm install powerbi-visuals-utils-<UTILNAME> --save`. (Por ejemplo, `npm install powerbi-visuals-utils-dataviewutils --save`) para obtener la versión nueva con módulos externos de TypeScript.
 
@@ -236,7 +236,7 @@ Hay varios cambios importantes y es necesario modificar el código para usar la 
 
 ## <a name="babel"></a>Babel
 
-A partir de la versión 3.1, las herramientas usan Babel para compilar código JS moderno nuevo en ES5 anterior para admitir una amplia variedad de exploradores.
+A partir de la versión 3.1, las herramientas usan Babel para compilar código JS moderno nuevo en ES5 anterior para admitir una amplia variedad de exploradores.
 
 Esta opción está habilitada de manera predeterminada, pero es necesario importar de manera manual el paquete [`@babel/polyfill`](https://babeljs.io/docs/en/babel-polyfill).
 

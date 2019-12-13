@@ -9,17 +9,17 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 9415365c3846329d5bcf707ec7f41d0bd2cc6f92
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871735"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74699112"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.
 
-![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+![Captura de pantalla en la que se muestran los resultados de los sensores de entorno en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 En este artículo se muestra cómo configurar un conjunto de datos de streaming en tiempo real en Power BI. Pero, antes, es importante entender los tipos de conjuntos de datos en tiempo real que están diseñados para mostrarse en los iconos (y paneles) y la diferencia entre estos conjuntos de datos.
 
@@ -198,7 +198,7 @@ En este ejemplo, utilizamos una secuencia disponible públicamente de **PubNub**
    ![](media/service-real-time-streaming/real-time-streaming_9.png)
 5. Vuelva al área de trabajo de Power BI, cree un nuevo panel y después agregue un icono (consulte los pasos anteriores si es necesario). Esta vez cuando se cree un icono y seleccione **Datos de transmisión personalizados**, tiene un conjunto de datos de transmisión para trabajar con él. Adelante, practique con él. Al agregar los campos de *números* a los gráficos de líneas y, después, agregar otros iconos, puede obtener un panel en tiempo real similar al siguiente:
    
-   ![](media/service-real-time-streaming/real-time-streaming_10.jpg)
+   ![Captura de pantalla en la que se muestran los resultados de los sensores de entorno en tiempo real.](media/service-real-time-streaming/real-time-streaming-10.png)
 
 Pruébelo y practique con el conjunto de datos de ejemplo. Después, cree sus propios conjuntos de datos y transmita datos en directo a Power BI.
 

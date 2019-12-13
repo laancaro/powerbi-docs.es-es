@@ -1,20 +1,20 @@
 ---
 title: Actualizar datos en Power BI
 description: En este artículo se describen las características de actualización de datos de Power BI y sus dependencias en un nivel conceptual.
-author: mgblythe
+author: maggiesMSFT
 ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/14/2019
-ms.author: mblythe
+ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: 28a6aa8659411b829e6982e7c766e03d683871fd
-ms.sourcegitcommit: 982ffaa8eb91897f48221a816970671f4a92e6d9
+ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
+ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74415444"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "74791686"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -92,7 +92,7 @@ Una operación de actualización de Power BI puede constar de varios tipos de ac
 
 #### <a name="data-refresh"></a>Actualización de datos
 
-Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede programar hasta 48 actualizaciones al día en la configuración de dicho conjunto de datos. Para más información, consulte Configuración de actualizaciones programadas más adelante en este artículo.
+Para los usuarios de Power BI, actualizar los datos normalmente significa importar datos desde los orígenes de datos originales en un conjunto de datos, ya sea mediante una actualización programada o a petición. Puede realizar varias actualizaciones de los conjuntos de datos diariamente; esto podría ser necesario si el origen de datos subyacente cambia con frecuencia. Power BI limita los conjuntos de datos en la capacidad compartida a ocho actualizaciones diarias. Si el conjunto de datos reside en una capacidad Premium, puede programar hasta 48 actualizaciones al día en la configuración de dicho conjunto de datos. Para obtener más información, consulte [Configuración de actualizaciones programadas](#configure-scheduled-refresh) más adelante en este artículo.
 
 También es importante destacar que la limitación de capacidad compartida de las actualizaciones diarias se aplica tanto a las actualizaciones programadas como a las actualizaciones de API combinadas. También puede desencadenar una actualización a petición si selecciona **Actualizar ahora** en el menú del conjunto de datos, tal y como muestra la captura de pantalla siguiente. Las actualizaciones a petición no se incluyen en la limitación de actualización. Tenga en cuenta también que los conjuntos de datos de una capacidad Premium no imponen limitaciones para las actualizaciones de API. Si está interesado en crear su propia solución de actualización mediante la API REST de Power BI, consulte [Conjuntos de datos: actualizar conjunto de datos](/rest/api/power-bi/datasets/refreshdataset).
 
@@ -283,7 +283,7 @@ La sección **Actualización programada** es donde se definen la frecuencia y la
 
 ![Configuración de actualización programada](media/refresh-data/configure-scheduled-refresh.png)
 
-Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación. Las actualizaciones a petición no afectan a la próxima actualización programada, pero cuentan para el límite diario de actualizaciones, tal y como se explicó anteriormente en este artículo.
+Después de configurar una programación de actualización, la página de configuración del conjunto de datos le informa sobre la próxima hora de actualización, tal y como se muestra en la captura de pantalla anterior. Si quiere actualizar los datos antes, por ejemplo, para probar la configuración del origen de datos y la puerta de enlace, realice una actualización a petición con la opción **Actualizar ahora**, situada en el menú del conjunto de datos del panel de navegación. Las actualizaciones a petición no afectan a la siguiente actualización programada.
 
 Tenga en cuenta también que la hora de actualización configurada puede no ser la hora exacta cuando se inicia el siguiente proceso programado en Power BI. Power BI inicia las actualizaciones programadas en cuanto puede. El objetivo es iniciar la actualización en un plazo de 15 minutos desde la franja de tiempo programada, pero puede producirse un retraso de hasta una hora si el servicio no puede asignar antes los recursos necesarios.
 

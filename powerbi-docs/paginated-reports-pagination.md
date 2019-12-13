@@ -7,17 +7,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 07/22/2019
-ms.openlocfilehash: d0f0abe15348d54f24143d69fcd6c0c2b71e9a34
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: fced83abab1898724e165154fbc177ccf50ca061
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874785"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831259"
 ---
 # <a name="pagination-in-power-bi-paginated-reports"></a>Paginación en informes paginados de Power BI
 
- La paginación hace referencia al número de páginas de un informe y al modo en que se organizan los elementos del informe en estas páginas. La paginación de los informes paginados de Power BI varía en función de la extensión de representación que use para ver y entregar el informe. Al ejecutar un informe en el servidor de informes, el informe usa el representador de HTML. HTML sigue un conjunto concreto de reglas de paginación. Si exporta el mismo informe a PDF, por ejemplo, se usa el representador de PDF y se aplica un conjunto diferente de reglas. Por consiguiente, el informe se pagina de otro modo. Para diseñar correctamente un informe fácil de leer para los usuarios que esté optimizado para el representador que tiene previsto usar para entregar el informe, debe comprender las reglas que se usan para controlar la paginación en los informes paginados de Power BI.  
+ La *paginación* hace referencia al número de páginas de un informe y a la organización de los elementos del informe en esas páginas. La paginación de los informes paginados de Power BI varía en función de la extensión de representación que use para ver y entregar el informe. Al ejecutar un informe en el servidor de informes, el informe usa el representador de HTML. HTML sigue un conjunto concreto de reglas de paginación. Si exporta el mismo informe a PDF, por ejemplo, estará usando el representador de PDF, que usa otro conjunto de reglas. Por lo tanto, el informe se paginará de manera diferente. Debe comprender las reglas que se usan para controlar la paginación en los informes paginados de Power BI. Después, podrá diseñar correctamente un informe fácil de leer que optimice para el representador que va a usar para enviar el informe.  
   
  En este tema se describe el impacto del tamaño de página físico y el diseño del informe sobre el modo en que los representadores de saltos de página manuales representan el informe. Puede establecer propiedades para modificar el tamaño de página físico y los márgenes, y dividir el informe en columnas mediante el panel **Propiedades del informe** , el panel **Propiedades** o el cuadro de diálogo **Configurar página**. Para acceder al panel **Propiedades del informe**, haga clic en el área azul fuera del cuerpo del informe. Para acceder al cuadro de diálogo **Configurar página**, haga clic en **Ejecutar** en la pestaña Inicio y, a continuación, haga clic en **Configurar página** en la pestaña Ejecutar.  
   
@@ -30,7 +30,7 @@ ms.locfileid: "73874785"
  Puede dar formato al cuerpo del informe con el color, el estilo y el ancho del borde. También puede agregar un color de fondo y una imagen de fondo.  
   
 ## <a name="the-physical-page"></a>Página física  
- El tamaño de página físico es el tamaño del papel. El tamaño de papel que especifica para el informe controla cómo se representa el informe. Los informes representados en formatos de salto de página manual insertan saltos de página horizontal y verticalmente según el tamaño de página físico para proporcionar una experiencia de lectura optimizada al imprimirse o visualizarse en un formato de archivo de salto de página manual. Los informes representados en formatos de salto de página automático insertan saltos de página horizontalmente según el tamaño físico para proporcionar una experiencia de lectura optimizada al visualizarse en un explorador web.  
+ El tamaño de página físico es el tamaño del papel. El tamaño de papel que especifica para el informe controla cómo se representa el informe. Los informes representados en formatos de saltos de página manuales insertan saltos de página horizontal y verticalmente en función del tamaño físico de la página. Estos saltos de página proporcionan una experiencia de lectura optimizada cuando se imprimen o se visualizan en un formato de archivo de salto de página manual. Los informes representados en formatos de saltos de página automáticos insertan saltos de página horizontalmente en función del tamaño físico. De nuevo, los saltos de página proporcionan una experiencia de lectura optimizada cuando se ven en un explorador web.  
   
  De forma predeterminada, el tamaño de página es de 8,5 x 11 pulgadas, pero puede cambiarlo desde el panel **Propiedades del informe** o el cuadro de diálogo **Configurar página** o bien cambiando las propiedades PageHeight y PageWidth en el panel **Propiedades**. El tamaño de página no aumenta ni se reduce para ajustarse al contenido del cuerpo del informe. Si quiere que el informe aparezca en una sola página, todo el contenido del cuerpo del informe debe caber en la página física. Si no cabe y usa el formato de salto de página manual, el informe requerirá páginas adicionales. Si el cuerpo del informe crece más allá del borde derecho de la página física, se inserta un salto de página horizontal. Si el cuerpo del informe crece más allá del borde inferior de la página física, se inserta un salto de página vertical.  
   
@@ -87,6 +87,6 @@ ms.locfileid: "73874785"
   
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Visualización de un informe paginado en el servicio Power BI](paginated-reports-view-power-bi-service.md)
+[Visualización de un informe paginado en el servicio Power BI](consumer/paginated-reports-view-power-bi-service.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 5f5e4769c750406a02ead656af551133fbceb738
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 94a1af90cc7ed08947f65f4ed0d55e981558d049
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061900"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696451"
 ---
 # <a name="add-interactivity-into-visual-by-power-bi-visuals-selections"></a>Incorporación de interactividad en un objeto visual mediante las selecciones de objetos visuales de Power BI
 
@@ -35,11 +35,11 @@ export interface ISelectionId {
 
 ## <a name="how-to-use-selectionmanager-to-select-data-points"></a>Uso de SelectionManager para seleccionar puntos de datos
 
-El objeto host del objeto visual proporciona un método para crear una instancia del administrador de selección. El administrador de selección es responsable de seleccionar, anular la selección, mostrar el menú contextual, almacenar las selecciones actuales y comprobar el estado de la selección. Además, el administrador de selección tiene los métodos correspondientes para esas acciones.
+El objeto host del objeto visual proporciona el método para crear una instancia del administrador de selección. El administrador de selección es responsable de seleccionar, anular la selección, mostrar el menú contextual, almacenar las selecciones actuales y comprobar el estado de la selección. Además, el administrador de selección tiene los métodos correspondientes para esas acciones.
 
-### <a name="create-instance-of-selection-manager"></a>Creación de una instancia del administrador de selección
+### <a name="create-an-instance-of-the-selection-manager"></a>Creación de una instancia del administrador de selección
 
-Para usar el administrador de selección, debe crear la instancia de administrador de selección. Por lo general, los objetos visuales crean la instancia del administrador de selección en `constructor` del objeto visual.
+Para usar el administrador de selección, debe crear la instancia de un administrador de selección. Por lo general, los objetos visuales crean una instancia del administrador de selección en el `constructor` del objeto visual.
 
 ```typescript
 export class Visual implements IVisual {
@@ -56,7 +56,7 @@ export class Visual implements IVisual {
 }
 ```
 
-### <a name="create-instance-of-selection-builder"></a>Creación de una instancia del generador de selección
+### <a name="create-an-instance-of-the-selection-builder"></a>Creación de una instancia del generador de selección
 
 Cuando se crea la instancia del administrador de selección, debe crear `selections` para cada punto de datos del objeto visual. El objeto host del objeto visual proporciona el método `createSelectionIdBuilder` para generar la selección para cada punto de datos. Este método devuelve una instancia del objeto con la interfaz `powerbi.visuals.ISelectionIdBuilder`:
 
@@ -74,7 +74,7 @@ export interface ISelectionIdBuilder {
 Este objeto tiene métodos correspondientes para crear `selections` para diferentes tipos de asignaciones de vistas de datos.
 
 > [!NOTE]
-> Los métodos `withTable`, `withMatrixNode` se introdujeron en la API 2.5.0 de los objetos visuales de Power BI.
+> Los métodos `withTable` y `withMatrixNode` se introdujeron en la API 2.5.0 de los objetos visuales de Power BI.
 > Si necesita usar selecciones para las asignaciones de vistas de datos de tabla o matriz, debe actualizar la versión de la API a 2.5.0 o superior.
 
 ### <a name="create-selections-for-categorical-data-view-mapping"></a>Creación de selecciones para la asignación de vistas de datos de categóricos
@@ -108,7 +108,7 @@ Vamos a revisar cómo se representan las selecciones en la asignación de vistas
 | Toyota | Automóvil importado | 20799 |
 | Toyota | Camión importado | 23614 |
 
-Y el objeto visual usa esta asignación de vistas de datos:
+Y el objeto visual usa la siguiente asignación de vistas de datos:
 
 ```json
 {
@@ -155,11 +155,11 @@ Y el objeto visual usa esta asignación de vistas de datos:
 }
 ```
 
-En el ejemplo, `Manafacturer` es `columns` y `Type` es `rows`. Hay una serie creada mediante la agrupación de valores por `rows` (`Type`).
+En el ejemplo, `Manufacturer` es `columns` y `Type` es `rows`. Hay una serie creada mediante la agrupación de valores por `rows` (`Type`).
 
-Además, el objeto visual debe poder segmentar los datos por `Manafacturer` y `Type` también.
+Además, el objeto visual debe poder segmentar los datos por `Manufacturer` y `Type` también.
 
-Por ejemplo, cuando el usuario selecciona `Chrysler` por `Manafacturer`, otros objetos visuales deberían mostrar los datos siguientes:
+Por ejemplo, cuando el usuario selecciona `Chrysler` por `Manufacturer`, otros objetos visuales deberían mostrar los datos siguientes:
 
 | Fabricante | Tipo | Valor |
 | - | - | - |
@@ -185,7 +185,7 @@ Debe rellenar las cestas de datos del objeto visual.
 
 ![Cestas de datos del objeto visual con selecciones](media/visual-selections-databuckets.png)
 
-Hay `Manafacturer` como categoría (columnas), `Type` como serie (filas) y `Value` como `Values` para la serie.
+Hay `Manufacturer` como categoría (columnas), `Type` como serie (filas) y `Value` como `Values` para la serie.
 
 > [!NOTE]
 > Se requieren los `Values` para la serie, porque según la asignación de vistas de datos, el objeto visual espera que los `Values` se agrupen según los datos de `Rows`.
@@ -196,7 +196,7 @@ Hay `Manafacturer` como categoría (columnas), `Type` como serie (filas) y `Valu
 // categories
 const categories = dataView.categorical.categories;
 
-// create label for 'Manafacturer' column
+// create label for 'Manufacturer' column
 const p = document.createElement("p") as HTMLParagraphElement;
 p.innerText = categories[0].source.displayName.toString();
 this.target.appendChild(p);
@@ -209,7 +209,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
     const categoryValue: powerbi.PrimitiveValue = categories[0].values[categoryIndex];
 
     const categorySelectionId = this.host.createSelectionIdBuilder()
-        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manafacturer` column)
+        .withCategory(categories[0], categoryIndex) // we have only one category (only one `Manufacturer` column)
         .createSelectionId();
     this.dataPoints.push({
         value: categoryValue,
@@ -231,7 +231,7 @@ for (let categoryIndex = 0; categoryIndex < categoriesCount; categoryIndex++) {
 
 En el código de ejemplo puede ver que se recorren en iteración todas las categorías. Y en cada iteración llamamos a `createSelectionIdBuilder` para crear la selección siguiente para cada categoría llamando al método `withCategory` del generador de selección. El método `createSelectionId` se utiliza como método final para devolver el objeto `selection` generado.
 
-En el método `withCategory`, pasamos la columna de `category`, en el ejemplo es `Manafacturer` y el índice del elemento de categoría.
+En el método `withCategory`, pasamos la columna de `category`, en el ejemplo es `Manufacturer` y el índice del elemento de categoría.
 
 #### <a name="create-selections-for-series"></a>Creación de selecciones para la serie
 
@@ -361,9 +361,9 @@ interface ISelectionManager {
 }
 ```
 
-Puede ver que `select` puede aceptar la matriz de selecciones. Esto significa que el objeto visual puede seleccionar varios puntos de datos. El segundo parámetro `multiSelect` es responsable de la selección múltiple. Si el valor es true, Power BI no borra el estado de selección anterior y aplica la selección actual; de lo contrario, se restablecerá la selección anterior.
+Puede ver que `select` puede aceptar una matriz de selecciones. Esto significa que el objeto visual puede seleccionar varios puntos de datos. El segundo parámetro `multiSelect` es responsable de la selección múltiple. Si el valor es true, Power BI no borra el estado de selección anterior y aplica la selección actual; de lo contrario, se restablecerá la selección anterior.
 
-Escenario típico del uso de `multiSelect` que controla el estado del botón CTRL en un evento de clic.
+El escenario típico del uso de `multiSelect` que controla el estado del botón CTRL en un evento de clic.
 
 ```typescript
 button.addEventListener("click", (mouseEvent) => {

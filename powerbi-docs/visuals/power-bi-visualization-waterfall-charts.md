@@ -7,15 +7,15 @@ featuredvideoid: maTzOJSRB3g
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/24/2019
+ms.date: 12/5/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fedaa811c94a9e955d6ca10646bc546f60dc9b98
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6abca661a1553bfabc3da35fe714ff9bced5555a
+ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881968"
+ms.lasthandoff: 12/07/2019
+ms.locfileid: "74907673"
 ---
 # <a name="waterfall-charts-in-power-bi"></a>Gráficos de cascada en Power BI
 
@@ -63,9 +63,11 @@ En este tutorial se usa el [archivo PBIX del Ejemplo de análisis de minoristas]
 
 Vamos a crear un gráfico de cascada que muestre la varianza de las ventas (ventas estimadas frente a las ventas reales) por mes.
 
+### <a name="build-the-waterfall-chart"></a>Crear el gráfico de cascada
+
 1. En el panel **Campos**, seleccione **Ventas** > **Varianza total de ventas**.
 
-   ![Captura de pantalla de Ventas > Varianza total de ventas seleccionada y el objeto visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-first-value.png)
+   ![Captura de pantalla de Ventas > Varianza total de ventas seleccionada y el objeto visual resultante.](media/power-bi-visualization-waterfall-charts/power-bi-bar.png)
 
 1. Seleccione el icono de cascada ![Captura de pantalla del icono de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-icon.png)
 
@@ -73,41 +75,45 @@ Vamos a crear un gráfico de cascada que muestre la varianza de las ventas (vent
 
 1. Seleccione **Tiempo** > **MesFiscal** para agregarlo al área **Categoría**.
 
-    ![de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall.png)
+    ![de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-month.png)
 
-1. Asegúrese de que Power BI ordenó el gráfico de cascada cronológicamente. En la esquina superior derecha del gráfico, seleccione **Más opciones** (...).
+### <a name="sort-the-waterfall-chart"></a>Ordenar el gráfico de cascada
 
-    En este ejemplo, seleccionaremos **Orden ascendente**.
+1. Asegúrese de que Power BI ordena el gráfico de cascada cronológicamente por mes. En la esquina superior derecha del gráfico, seleccione **Más opciones** (...).
 
-    Compruebe que hay un indicador amarillo junto a la izquierda de la opción **Orden ascendente**. Esto indica que se está aplicando la opción seleccionada.
+    En este ejemplo, seleccione **Ordenar por** y seleccione **MesFiscal**. Un indicador amarillo junto a la selección indica cuándo se aplica la opción de selección.
 
-    ![Seleccione Ordenar por > Orden ascendente.](media/power-bi-visualization-waterfall-charts/power-bi-sort-by.png)
+    ![Selección de Ordenar por > MesFiscal](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscalmonth.png)
+    
+    Para mostrar los meses en orden cronológico, seleccione **Orden ascendente**. Como en el paso anterior, compruebe que hay un indicador amarillo a la izquierda de la opción **Orden ascendente.** Esto indica que se está aplicando la opción seleccionada.
 
-    Después, vamos a hacer clic en **Ordenar por** y seleccionar **FiscalMonth**. Como en el paso anterior, un indicador amarillo junto a la selección indica cuándo se aplica la opción de selección.
+    ![Seleccione Ordenar por > Orden ascendente.](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-ascending.png)
 
-    ![Selección de Ordenar por > MesFiscal](media/power-bi-visualization-waterfall-charts/power-bi-sort-by-fiscal-month.png)
+    
 
-    También puede fijarse en los valores del eje X y comprobar que estén en orden de **Ene** a **Ago**.
+    Tenga en cuenta que el gráfico se ordena de enero a agosto para MesFiscal.  
 
-    Profundice un poco más para ver lo que está contribuyendo más a los cambios de un mes a otro.
+### <a name="explore-the-waterfall-chart"></a>Explorar el gráfico de cascada
+
+Profundice un poco más para ver lo que está contribuyendo más a los cambios de un mes a otro.
 
 1.  Seleccione **Tienda** > **Territorio** para agregar **Territorio** al cubo **Desglose**.
 
     ![Se muestra Store en el cubo Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown.png)
 
-    De forma predeterminada, Power BI agrega los principales cinco factores que contribuyen a los aumentos o disminuciones por mes. En la imagen siguiente se ha expandido el panel de visualización para incluir más datos. 
+    Power BI usa el valor de **Desglose** para agregar datos adicionales a la visualización. Agrega los principales cinco factores que contribuyen a los aumentos o disminuciones para cada mes fiscal. Esto significa que febrero, por ejemplo, ahora tiene seis puntos de datos en lugar de uno.  
 
-    ![Se muestra Store en el cubo Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-initial.png)
+    ![Se muestra Store en el cubo Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-default.png)
 
-    Solo le interesan los dos factores principales.
+    Supongamos que solo le interesan los dos factores principales.
 
 1. En el panel **Formato**, seleccione **Desglose** y establezca **Número máximo de desgloses** en **2**.
 
-    ![Formato > Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-maximum.png)
+    ![Formato > Desglose](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-breakdown-two.png)
 
     Una revisión rápida revela que los territorios de Ohio y Pennsylvania son los factores que más contribuyen al movimiento, negativo y positivo, en el gráfico de cascada.
 
-    ![gráfico de cascada](media/power-bi-visualization-waterfall-charts/power-bi-waterfall-axis.png)
+    ![gráfico de cascada](media/power-bi-visualization-waterfall-charts/power-bi-axis-waterfall.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

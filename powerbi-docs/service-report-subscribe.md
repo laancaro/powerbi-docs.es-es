@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 12/03/2019
 ms.author: maggies
 LocalizationGroup: Common tasks
-ms.openlocfilehash: c8e95a53e0907de86449a91095d2c5afbef5b4c8
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 4d8a5c1cceb66b7103a58c7bcebfa46dbdd97430
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099759"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831105"
 ---
 # <a name="subscribe-yourself-and-others-to-reports-and-dashboards-in-the-power-bi-service"></a>Suscripción personal y de otros usuarios a informes y paneles en el servicio Power BI
 
@@ -38,7 +38,7 @@ No necesita permisos de edición para el contenido (panel o informe) para crear 
 
 El proceso de suscripción a un panel, un informe o un informe paginado es similar. El mismo botón permite suscribirse a los paneles e informes del servicio Power BI.
 
-La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md).
+La suscripción a informes paginados varía un poco. Para obtener más información, consulte [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](consumer/paginated-reports-subscriptions.md).
  
 ![Selección del icono de suscripción](media/service-report-subscribe/power-bi-subscribe-orientation.png).
 
@@ -107,6 +107,6 @@ Una suscripción finaliza si expira la licencia de Pro, el propietario elimina e
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](paginated-reports-subscriptions.md)
+- [Suscripción personal y de otros usuarios a un informe paginado en el servicio Power BI](consumer/paginated-reports-subscriptions.md)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)    
 - [Leer la entrada del blog](https://powerbi.microsoft.com/blog/introducing-dashboard-email-subscriptions-a-360-degree-view-of-your-business-in-your-inbox-every-day/)

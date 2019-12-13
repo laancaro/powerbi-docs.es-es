@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 8a9218085b0da655d1ce4b3ece0b2666c4826c86
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: e2587140d5436552e26be90c67eb5e6240bf6a1d
+ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74061877"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "74696149"
 ---
 # <a name="microsoft-power-bi-visuals-interactivity-utils"></a>Utilidades de interactividad de objetos visuales de Microsoft Power BI
 
@@ -26,7 +26,7 @@ InteractivityUtils es un conjunto de funciones y clases que tienen como fin simp
 > Si sigue usando la versión anterior de powerbi-visuals-tools (un número de versión anterior a 3.x.x), instale la versión nueva de las herramientas (3.x.x).
 
 > [!IMPORTANT]
-> Las actualizaciones nuevas de las utilidades de interactividad solo admitirán la versión más reciente de las herramientas. [Más información sobre cómo actualizar el código de los objetos visuales para su uso con las herramientas más recientes](migrate-to-new-tools.md)
+> Las actualizaciones nuevas de las utilidades de interactividad solo admitirán la versión más reciente de las herramientas. [Más información sobre cómo actualizar el código del objeto visual para su uso con las herramientas más recientes](migrate-to-new-tools.md)
 
 Para instalar el paquete, debe ejecutar el comando siguiente en el directorio con el objeto visual personalizado actual:
 
@@ -61,7 +61,7 @@ Como resultado, tendrá la estructura de archivos siguiente:
 > [!NOTE]
 > Debe importar el archivo .css como archivo .less, porque las herramientas de objetos visuales de Power BI encapsulan las reglas de CSS externas.
 
-## <a name="usage"></a>Usage (Uso)
+## <a name="usage"></a>Uso
 
 ### <a name="define-interface-for-data-points"></a>Definición de la interfaz para los puntos de datos
 
@@ -80,7 +80,7 @@ Por lo general, los puntos de datos contienen selecciones y valores. La interfaz
   specificIdentity?: powerbi.extensibility.ISelectionId;
 ```
 
-El primer paso del uso de las utilidades de interactividad es crear una instancia de las utilidades de interactividad y guardar el como la propiedad del objeto visual.
+El primer paso del uso de las utilidades de interactividad es crear una instancia de las utilidades de interactividad y guardar el objeto como propiedad del objeto visual.
 
 ```typescript
 export class Visual implements IVisual {
@@ -106,7 +106,7 @@ export interface VisualDataPoint extends interactivitySelectionService.Selectabl
 El segundo paso es extender la clase de comportamiento base:
 
 > [!NOTE]
-> BaseBehavior se presentó en la [versión 5.6.x de las utilidades de interactividad](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Si usa una versión anterior, cree una clase de comportamiento a partir del ejemplo siguiente (la clase `BaseBehavior` es la misma):
+> BaseBehavior se presentó en la [versión 5.6.x de las utilidades de interactividad](https://www.npmjs.com/package/powerbi-visuals-utils-interactivityutils/v/5.6.0). Si usa la versión anterior, cree una clase de comportamiento a partir del ejemplo siguiente (la clase `BaseBehavior` es la misma):
 
 Defina la interfaz para las opciones de clase de comportamiento:
 
@@ -126,8 +126,8 @@ export interface BaseBehaviorOptions<SelectableDataPointType extends BaseDataPoi
 }
 ```
 
-Defina la clase para `visual behaviour`. La clase es responsable de controlar los eventos de mouse `click`, `contextmenu`.
-Cuando usa clics para los elementos de datos, el objeto visual llama al controlador de selección para seleccionar los puntos de datos. O bien, borre la selección si el usuario hace clic en un elemento de fondo del objeto visual. Y la clase tiene los métodos correspondientes: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
+Defina una clase para `visual behavior`. La clase es responsable de controlar los eventos de mouse `click`, `contextmenu`.
+Cuando un usuario hace clic en los elementos de datos, el objeto visual llama al controlador de selección para seleccionar los puntos de datos. Si el usuario hace clic en el elemento de fondo del objeto visual, llamará al controlador Clear Selection. Y la clase tiene los métodos correspondientes: `bindClick`, `bindClearCatcher`, `bindContextMenu`.
 
 ```typescript
 export class Behavior<SelectableDataPointType extends BaseDataPoint> implements IInteractiveBehavior {
@@ -230,9 +230,9 @@ Las utilidades de interactividad llaman a los métodos `bindEvents` para asignar
   }
 ```
 
-El método `renderSelection` es responsable de actualizar el estado de los objetos visuales de los elementos del gráfico.
+El método `renderSelection` es responsable de actualizar el estado del objeto visual de los elementos del gráfico.
 
-El ejemplo del método `renderSelection` de la implementación:
+Método `renderSelection` de implementación de ejemplo:
 
 ```typescript
 public renderSelection(hasSelection: boolean): void {
@@ -246,7 +246,7 @@ public renderSelection(hasSelection: boolean): void {
 }
 ```
 
-El último paso es crear la instancia de `visual behavior` y la llamada del método `bind` de la instancia de utilidades de interactividad:
+El último paso es crear una instancia de `visual behavior` y la llamada del método `bind` de la instancia de utilidades de interactividad:
 
 ```typescript
 this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
@@ -261,7 +261,7 @@ this.interactivity.bind(<BaseBehaviorOptions<VisualDataPoint>>{
 
 * `select(this.target)` es el objeto de selección D3, que representa los elementos DOM principales del objeto visual.
 
-* Puntos de datos `this.categories` con elementos, donde la interfaz es `VisualDataPoint` (o `categories: VisualDataPoint[];`).
+* `this.categories` son puntos de datos con elementos, donde la interfaz es `VisualDataPoint` (o `categories: VisualDataPoint[];`).
 
 * `this.behavior` es una instancia nueva de `visual behavior`
 

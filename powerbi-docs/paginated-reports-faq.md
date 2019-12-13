@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
-ms.date: 10/04/2019
-ms.openlocfilehash: d8fd8490bda3be4217440a984e8b6da6fca7c5cf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/03/2019
+ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
+ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874797"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "74831230"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES 
 
@@ -116,21 +116,7 @@ Obtiene un mensaje si intenta cargar un archivo que tiene una característica in
 
 ### <a name="what-data-sources-do-you-support-currently-for-paginated-reports"></a>¿Qué orígenes de datos se admiten actualmente para los informes paginados?
 
-Se admiten los orígenes de datos siguientes: 
-
-- Conjuntos de datos de Power BI (a través del inicio de sesión único (SSO))
-- Azure Analysis Services (mediante inicio de sesión único (SSO) y oAuth)
-- Azure SQL Data Warehouse
-- Azure SQL Database (nombre de usuario y contraseña, SSO y oAuth)
-- Instancia administrada de Azure SQL a través de un punto de conexión público (nombre de usuario y contraseña)
-- SQL Server*
-- Modelos tabulares (DAX) y multidimensionales (MDX) de SQL Server Analysis Services (SSAS)* 
-- Oracle* 
-- Teradata* 
-
-* requiere la puerta de enlace local.
-
-Al acceder a SSAS a través de la puerta de enlace, el usuario cuyas credenciales están almacenadas necesita permisos elevados en SSAS para trabajar a través de la puerta de enlace.
+Consulte el artículo [Orígenes de datos admitidos para informes paginados de Power BI](paginated-reports-data-sources.md) para obtener una lista de orígenes de datos. 
 
 ### <a name="what-authentication-methods-do-you-support"></a>¿Qué métodos de autenticación se admiten?
 
