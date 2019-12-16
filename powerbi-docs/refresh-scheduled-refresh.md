@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 06/06/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: e09b3f8579b65bc242cda1dbdb54f187ab6b47d0
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.openlocfilehash: 622273ed4c8d6f2faee46d3cc84d981f86bd8c92
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74791602"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958411"
 ---
 # <a name="configure-scheduled-refresh"></a>Configuración de actualización programada
 
@@ -75,7 +75,7 @@ La sección **Actualización programada** es donde se definen las ranuras de fre
 Cambie el valor del control deslizante **Mantener los datos actualizados** a **Sí** para configurar las opciones.
 
 > [!NOTE]
-> El servicio de Power BI inicia la actualización de los datos en **15 minutos** desde la hora de actualización programada.
+> El objetivo es iniciar la actualización en un plazo de 15 minutos desde la franja de tiempo programada, pero puede producirse un retraso de hasta una hora si el servicio no puede asignar antes los recursos necesarios.
 
 ![Cuadro de diálogo de actualización programada](media/refresh-scheduled-refresh/scheduled-refresh.png)
 
