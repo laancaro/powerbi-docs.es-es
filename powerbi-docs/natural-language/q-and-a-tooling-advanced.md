@@ -7,19 +7,19 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 10/18/2019
 ms.author: mohaali
-ms.openlocfilehash: d1ae995c3e98befe776ac091a0312e281e97022e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64a6294ca30901c61928eca068ab4ebbb3d39638
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875344"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958526"
 ---
 # <a name="edit-qa-linguistic-schema-and-add-phrasings-in-power-bi-desktop"></a>Editar el esquema lingüístico de preguntas y respuestas y agregar expresiones en Power BI Desktop 
 El uso del lenguaje natural y frases comunes para formular preguntas sobre los datos resulta muy eficaz. Más eficaz aún cuando sus datos responden. Cuando se formula una pregunta a las preguntas y respuestas de Power BI, se realiza el máximo esfuerzo por responderla correctamente, Pero, para mejorar aún más las interacciones de Preguntas y respuestas, puede mejorar las respuestas. Una forma consiste en editar el esquema lingüístico. 
 
-Todo arranca con los datos de empresa.  Cuanto mejor sea el modelo de datos, más fácil será para los usuarios obtener respuestas de calidad. Una forma de mejorar el modelo consiste en agregar un esquema lingüístico que defina y clasifique la terminología y las relaciones entre los nombres de tabla y de columna del conjunto de datos. Power BI Desktop es donde se administran los esquemas lingüísticos. 
+Todo empieza con los datos de empresa.  Cuanto mejor sea el modelo de datos, más fácil será para los usuarios obtener respuestas de calidad. Una forma de mejorar el modelo consiste en agregar un esquema lingüístico que defina y clasifique la terminología y las relaciones entre los nombres de tabla y de columna del conjunto de datos. Power BI Desktop es donde se administran los esquemas lingüísticos. 
 
-Las preguntas y respuestas conllevan dos procesos:  El primero es la preparación o *modelado*.  El segundo es la formulación de preguntas y exploración de datos, o *consumo*. En algunas compañías, los empleados en puestos de *modelador de datos* o administrador de TI pueden ser quienes se encarguen de ensamblar los conjuntos de datos, crear los modelos de datos y publicarlos en Power BI.  Otro grupo de empleados puede ser el que "consuma" los datos en línea.  En otras empresas, en cambio, estos roles son intercambiables. 
+Las preguntas y respuestas conllevan dos procesos:  El primero es la preparación o *modelado*.  El segundo es la formulación de preguntas y exploración de datos, o *consumo*. En algunas compañías, los empleados en puestos de *modelador de datos* o administrador de TI pueden ser quienes se encarguen de ensamblar los conjuntos de datos, crear los modelos de datos y publicarlos en Power BI.  Otro grupo de empleados puede ser el que "consuma" los datos en línea.  En otras empresas, en cambio, estos roles son intercambiables. 
 
 Este artículo está destinado a los modeladores de datos, las personas que optimizan los conjuntos de datos para proporcionar la mejor opción de resultados de Preguntas y respuestas. 
 

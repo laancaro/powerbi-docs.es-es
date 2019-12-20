@@ -1,35 +1,44 @@
 ---
 title: ¿Qué son las aplicaciones de plantilla de Power BI?
 description: Este artículo es una introducción del programa de aplicaciones de plantilla de Power BI. Obtenga información sobre cómo crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.
-author: teddybercovitz
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 06/24/2019
-ms.author: tebercov
-ms.openlocfilehash: 4b4e32f787d2d262d604ff0745f8c028e9fff949
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f519665c78f8c96452091edb84ae9a40f9dc01ba
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871339"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000056"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
 Las nuevas *aplicaciones de plantilla* de Power BI permiten a los asociados de Power BI crear aplicaciones de Power BI con poca o ninguna codificación, e implementarlas en cualquier cliente de Power BI.  Este artículo es una introducción del programa de aplicaciones de plantilla de Power BI.
 
-Las aplicaciones de plantilla reemplazan a los paquetes de contenido de servicio actuales. Como asociado de Power BI, crea contenido rápido para los clientes y lo publica usted mismo.  
+Las aplicaciones de plantilla reemplazan a los paquetes de contenido de servicio actuales. Como asociado de Power BI, crea contenido rápido para los clientes y lo publica usted mismo.  
 
 Crea aplicaciones de plantillas que permiten a los clientes conectarse y crear instancias con sus propias cuentas. Como expertos de dominio, pueden desbloquear los datos de forma que sus usuarios empresariales puedan consumirlos fácilmente.  
 
-Debe enviar las aplicaciones de plantilla a Cloud Partner Portal. Después, las aplicaciones pasan a estar disponibles de forma pública en la galería de aplicaciones de Power BI (app.powerbi.com/getdata/services) y en Microsoft AppSource (appsource.microsoft.com). Le presentamos una visión de alto nivel de la experiencia pública de creación de aplicaciones de plantilla.  
+Debe enviar las aplicaciones de plantilla a Cloud Partner Portal. Las aplicaciones estarán disponibles públicamente en el [Marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services) y en [Microsoft AppSource](https://appsource.microsoft.com/?product=power-bi). Le presentamos una visión de alto nivel de la experiencia pública de creación de aplicaciones de plantilla.
+
+## <a name="power-bi-apps-marketplace"></a>Marketplace de aplicaciones de Power BI
+
+Las aplicaciones de plantilla de Power BI permite que los usuarios de Power BI Pro o de Power BI Premium obtenga información inmediata a través de informes y paneles empaquetados previamente que se pueden conectar a orígenes de datos activos. Muchas aplicaciones de Power BI ya están disponibles en el [Marketplace de aplicaciones de Power BI](https://app.powerbi.com/getdata/services).
+
+|  |
+|     :---:      |
+| [![Foo](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) [![Foo](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Foo](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Foo](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+|  |
 
 ## <a name="process"></a>Proceso
 El proceso general para desarrollar y enviar una aplicación de plantilla implica varias fases. Algunas fases pueden incluir más de una actividad al mismo tiempo.
 
 
-| Fase | Power BI Desktop |  |Servicio Power BI  |  |Cloud Partner Portal  |
+| Fase | Power BI Desktop |  |Servicio Power BI  |  |Cloud Partner Portal  |
 |---|--------|--|---------|---------|---------|
 | **Uno** | Crear un modelo de datos y un informe en un archivo .pbix. |  | Crear un área de trabajo. Importar el archivo .pbix. Crear un panel complementario.  |  | Registrarse como asociado. |
 | **Dos** |  |  | Crear un paquete de prueba y ejecutar la validación interna.        |  | |
@@ -48,20 +57,21 @@ Estos son los pasos generales.
 
 1. [Revise los requisitos](#requirements) para asegurarse de que los cumple. 
 
-1. Cree un informe en Power BI Desktop. Use parámetros para poder guardarlo como un archivo que otros usuarios puedan utilizar. 
+2. Cree un informe en Power BI Desktop. Use parámetros para poder guardarlo como un archivo que otros usuarios puedan utilizar. 
 
-1. Cree un área de trabajo para la aplicación de plantilla en el inquilino en el servicio Power BI (app.powerbi.com). 
+3. Cree un área de trabajo para la aplicación de plantilla en el inquilino en el servicio Power BI (app.powerbi.com). 
 
-1. Importe el archivo .pbix y agregue contenido como un panel a la aplicación. 
+4. Importe el archivo .pbix y agregue contenido como un panel a la aplicación. 
 
-1. Cree un paquete de prueba para probar la aplicación de plantilla dentro de la organización. 
+5. Cree un paquete de prueba para probar la aplicación de plantilla dentro de la organización. 
 
-1. Promueva la aplicación de prueba a preproducción con el fin de enviarla para la validación en AppSource y probarla fuera del inquilino. 
+6. Promueva la aplicación de prueba a preproducción con el fin de enviarla para la validación en AppSource y probarla fuera del inquilino. 
 
-1. Envíe el contenido a la plataforma Cloud Partner para la publicación. 
+7. Envíe el contenido a la plataforma Cloud Partner para la publicación. 
 
-1. "Publique" la oferta en AppSource y mueva la aplicación a producción en Power BI.
-2. Ya puede empezar a desarrollar la próxima versión en la misma área de trabajo, en preproducción. 
+8. "Publique" la oferta en AppSource y mueva la aplicación a producción en Power BI.
+
+9. Ya puede empezar a desarrollar la próxima versión en la misma área de trabajo, en preproducción. 
 
 ## <a name="requirements"></a>Requisitos
 
@@ -80,6 +90,19 @@ Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, 
 - Habilite la personalización de datos, por ejemplo admita la configuración personalizada de parámetros y conexiones mediante el instalador.
 
 Vea [Sugerencias para crear aplicaciones de plantilla en Power BI](service-template-apps-tips.md) para obtener más sugerencias.
+
+## <a name="known-limitations"></a>Limitaciones conocidas
+
+| Característica | Limitación conocida |
+|---------|---------|
+|Contenido:  Conjuntos de datos   | Debe haber exactamente un conjunto de datos. Solo se permiten los conjuntos de datos creados en Power BI Desktop (archivos .pbix). <br>No se admiten: conjuntos de datos de otras aplicaciones de plantilla, conjuntos de datos de varias áreas de trabajo, informes paginados (archivos .rdl), libros de Excel. |
+|Contenido: Paneles | No se admiten los iconos en tiempo real (en otras palabras, no se admiten para los conjuntos de datos de inserción o streaming). |
+|Contenido: Flujos de datos | No se admiten: Flujos de datos |
+|Contenido de archivos | Solo se admiten archivos PBIX. <br>No se admiten: archivos .rdl (informes paginados), libros de Excel.   |
+| Orígenes de datos | Se permiten los orígenes de datos admitidos para la actualización de datos programada en la nube. <br>No se admiten: <li> DirectQuery</li><li>Conexiones dinámicas (no Azure AS).</li> <li>Orígenes de datos locales (no se admiten las puertas de enlace personales y empresariales)</li> <li>Tiempo real (no se admite para los conjuntos de datos de inserción)</li> <li>Modelos compuestos</li></ul> |
+| Conjunto de datos: entre áreas de trabajo | No se admiten los conjuntos de datos entre áreas de trabajo  |
+| Parámetros de consulta | No se admiten: los parámetros de tipo "Todo" o "Binario" bloquean la operación de actualización del conjunto de datos. |
+| Objetos visuales personalizados | Solo se admiten los objetos visuales personalizados disponibles públicamente. No se admiten los [objetos visuales personalizados de la organización](developer/power-bi-custom-visuals-organization.md). |
 
 ## <a name="support"></a>Soporte técnico
 Para obtener soporte técnico durante el desarrollo, use [https://powerbi.microsoft.com/support](https://powerbi.microsoft.com/support). Supervisamos y administramos de forma activa este sitio. Los incidentes del cliente encuentran rápidamente la forma de llegar al equipo adecuado.

@@ -9,12 +9,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 05/15/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e68d886564552d1b1cb2dc9e7c018c65a5cca039
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 1d176941f04bdaf06c9cdeda65271769098268fb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265214"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999822"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
@@ -122,7 +122,7 @@ Tiene dos opciones para descargar e importar objetos visuales de Power BI; desde
 
 6. Desplácese hacia abajo para ver las opiniones.
 
-    ![Opiniones](media/power-bi-custom-visuals/power-bi-reviews.png)
+    ![Reseñas](media/power-bi-custom-visuals/power-bi-reviews.png)
 
 7. Seleccione **Agregar** para importar el objeto visual personalizado. Su icono se agrega a la parte inferior del panel **Visualizaciones** y ya se puede usar en el informe.
 
@@ -168,11 +168,11 @@ Tiene dos opciones para descargar e importar objetos visuales de Power BI; desde
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-Para solucionar problemas, consulte [Solución de problemas de los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md).
+Para solucionar problemas, consulte [Solución de problemas de los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
-Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Para más información y responder preguntas, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

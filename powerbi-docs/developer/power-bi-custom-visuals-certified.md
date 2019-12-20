@@ -8,92 +8,94 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 05/9/2019
-ms.openlocfilehash: 373d57b871953f1afe02212ff0a1bbdb633cac4d
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.date: 12/02/2019
+ms.openlocfilehash: 0a39496ade27cd45fae116eea92ef4b472e04582
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565252"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999753"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
-## <a name="what-are-_certified_-power-bi-visuals"></a>¿Qué son los objetos visuales de Power BI **_certificados_** ?
+Los objetos visuales de Power BI certificados son objetos visuales en *Marketplace* que cumplen con determinados requisitos de *código especificado* que el *equipo de Microsoft Power BI* ha probado y aprobado. Las pruebas están diseñadas para comprobar que el objeto visual no accede a servicios o recursos externos.
 
-Los objetos visuales de Power BI certificados son objetos visuales en **Marketplace** que cumplen con determinados requisitos de **código especificado** que el **equipo de Microsoft Power BI** ha probado y aprobado. Una vez que un objeto visual personalizado está certificado, ofrece más características. Por ejemplo, puede [exportar a PowerPoint](../consumer/end-user-powerpoint.md) y mostrar el objeto visual en los correos electrónicos recibidos cuando un usuario [se suscribe a páginas del informe](../consumer/end-user-subscribe.md).
+Los objetos visuales de Power BI certificados y los [objetos visuales de Power BI estándar](power-bi-custom-visuals.md) se usan de la misma manera. Se pueden agregar a [Power BI Desktop](../desktop-what-is-desktop.md) y al [servicio Power BI](../power-bi-service-overview.md) y ver con [Power BI Mobile](../consumer/mobile/mobile-apps-for-mobile-devices.md) y [Power BI Embedded](embedding.md).
 
-**Los objetos visuales de Power BI certificados** se usan como [objetos visuales de Power BI estándar](power-bi-custom-visuals.md). Los objetos visuales de Power BI certificados se pueden agregar al **servicio Power BI** o a un **informe de Power BI Desktop**, y se pueden ver con **Power BI Mobile** y **Power BI Embedded**.
+El proceso de certificación es un proceso opcional. Son los desarrolladores quienes deciden si quieren certificar el objeto visual de Power BI en el Marketplace. Una vez que un objeto visual de Power BI está certificado, ofrece más características. Por ejemplo, puede [exportar el objeto visual a PowerPoint](../consumer/end-user-powerpoint.md) o mostrarlo en los correos electrónicos recibidos, cuando un usuario [se suscribe a páginas del informe](../consumer/end-user-subscribe.md).
 
-Las pruebas realizadas están diseñadas para comprobar que el objeto visual no accede a servicios o recursos externos. **Microsoft** *no* es el autor de los objetos visuales de Power BI de terceros y recomendamos a los clientes que se pongan en contacto directamente con el autor para comprobar la funcionalidad de cada objeto visual.
+Los objetos visuales de Power BI sin certificar no tienen por qué ser inseguros. Algunos objetos visuales no están certificados porque no cumplen con uno o varios de los [requisitos de certificación](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por ejemplo, conectarse a un servicio externo, como los objetos visuales de mapa o los objetos visuales que usan bibliotecas comerciales.
 
-El proceso de certificación es opcional y son los desarrolladores quienes deciden si quieren que su objeto visual se certifique en Marketplace.  
+Si es desarrollador web y está interesado en crear sus propios objetos visuales de Power BI y agregarlos a  [Microsoft AppSource](https://appsource.microsoft.com), empiece con el tutorial  [Desarrollar un objeto visual de Power BI](visuals/custom-visual-develop-tutorial.md).
 
-**Los objetos visuales de Power BI sin certificar** no tienen por qué ser inseguros. Algunos objetos visuales no están certificados porque no cumplen con uno o varios de los [requisitos de certificación](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-certified?#certification-requirements). Por ejemplo, conectarse a un servicio externo, como los objetos visuales de mapa o los objetos visuales que usan bibliotecas comerciales.
+> [!NOTE]
+> **Microsoft** *no* es autor de los objetos visuales de Power BI de terceros. Para comprobar la funcionalidad de los objetos visuales de terceros, recomendamos a los clientes que se pongan en contacto directamente con el autor.
 
-¿Es un desarrollador web interesado en crear sus propias visualizaciones y agregarlas a  **[Microsoft AppSource](https://appsource.microsoft.com)** ? Vea  **[Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md)** para ver cómo hacerlo.
+> [!IMPORTANT]
+> Microsoft puede quitar un objeto visual de Power BI de la [lista de objetos visuales certificados](#list-of-power-bi-visuals-that-have-been-certified) a su criterio exclusivo.
 
-## <a name="removal-of-power-bi-certified-power-bi-visuals"></a>Eliminación de objetos visuales de Power BI certificados en Power BI
+## <a name="certification-requirements"></a>Requisitos de certificación
 
-Microsoft puede quitar un objeto visual de la [lista de objetos visuales certificados](#list-of-power-bi-visuals-that-have-been-certified) a su criterio exclusivo.
-
-## <a name="getting-a-custom-visualcertified"></a>Obtención de un objeto visual personalizado certificado
-
-### <a name="certification-requirements"></a>Requisitos de certificación
-
-Para obtener un objeto visual personalizado [certificado](#get-a-power-bi-visual-certified), asegúrese de que el objeto visual personalizado cumple con los siguientes requisitos:  
-
-* Está aprobado por Microsoft AppSource. El objeto visual personalizado debe estar en nuestro [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
-* El objeto visual personalizado se escribe con la **API v2.5** o superior con control de versiones.
-* El repositorio de código está disponible para su revisión por el equipo de Power BI (por ejemplo, código fuente [JavaScript o TypeScript] en un formato natural que se pueda leer, a través de GitHub).
-
-    >[!Note]
-    > No tiene que compartir públicamente el código en Github.
-* Requisitos del repositorio de código:
-   * Debe incluir el conjunto mínimo de archivos necesario:
-      * .gitignore
-      * capabilities.json
-      * pbiviz.json
-      * package.json
-      * package-lock.json
-      * tsconfig.json
-   * No debe incluir la carpeta node_modules (agregue node_modules al archivo .gitingore).
-   * El comando **npm install** no debe devolver ningún error.
-   * El comando **npm audit** no debe devolver ninguna advertencia con nivel alto o moderado.
-   * El comando **pbiviz package** no debe devolver errores.
-   * Debe incluir [TSlint de Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sin configuración invalidada, y este comando no debe devolver ningún error de lint.
-   * El paquete compilado del objeto visual personalizado debe coincidir con el paquete enviado (el hash md5 de ambos archivos debe ser igual).
-* Requisitos del código fuente:
-   * El objeto visual debe admitir la [API de representación de eventos](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
-   * Asegúrese de que no se ejecuta ningún código arbitrario o dinámico (incorrecto: eval(), no es seguro usar settimeout(), requestAnimationFrame(), setinterval [alguna función con entrada de usuario], ejecución de datos/entrada de usuario).
-   * Asegúrese de que DOM se manipule de forma segura (incorrecto: innerHTML, D3.html(<alguna entrada de datos/usuario>), y use saneamiento para los datos o la entrada de usuario antes de agregarlos a DOM.
-   * Asegúrese de que no haya errores o excepciones de JavaScript en la consola del explorador para ningún dato de entrada. Los usuarios pueden usar el objeto visual con un intervalo diferente de datos inesperados, por lo que el objeto visual no debe producir un error. Puede usar [este informe de ejemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como conjunto de datos de prueba.
-
-* Si se cambia alguna propiedad de capabilities.json, asegúrese de que no interrumpe los informes del usuario existentes.
-
-* Asegúrese de que el objeto visual cumple las [directrices de los objetos visuales de Power BI](./guidelines-powerbi-visuals.md). **No se permiten marcas de agua**.
-
-* Solo usa componentes OSS revisables públicos (bibliotecas JS o TypeScript que son públicos. El código fuente está disponible para su revisión y no tiene vulnerabilidades conocidas). No podemos comprobar un objeto visual personalizado que use un componente comercial.
-
-* No accede a servicios o recursos externos, incluidos, entre otros, ninguna solicitud HTTP/S o WebSocket sale de Power BI para dirigirse a otro servicio. 
+Para [certificar](#get-a-power-bi-visual-certified) un objeto visual de Power BI, asegúrese de que este cumple con los requisitos que aparecen en esta sección. 
 
 > [!TIP]
-> Le recomendamos que use EsLint con un conjunto de reglas de seguridad predeterminadas para validar previamente el código antes de su envío.
+> Le recomendamos que use EsLint con el conjunto de reglas de seguridad predeterminadas para validar previamente el código antes de su envío.
 
-## <a name="process-for-submitting-a-custom-visual-for-certification"></a>Proceso para enviar un objeto visual personalizado para su certificación
+* Aprobación por el Centro de partners o el Panel de vendedores de Microsoft. El objeto visual de Power BI debe estar en nuestro [Marketplace](https://appsource.microsoft.com/marketplace/apps?page=1&product=power-bi-visuals).
+* El objeto visual de Power BI está escrito con *API v2.5* o una versión superior.
+* El repositorio de código está disponible para que lo revise el equipo de Power BI. Por ejemplo, un formato legible del código fuente (JavaScript o TypeScript) está disponible para nosotros a través de GitHub.
 
-Para enviar un objeto visual personalizado para su certificación:
+    >[!NOTE]
+    > No tiene que compartir públicamente el código en Github.
 
-1. Envíe un correo al equipo de soporte técnico de objetos visuales de Power BI (pbicvsupport@microsoft.com). En el correo electrónico, incluya la siguiente información:
-    * Título: Solicitud de certificación visual
-    * Vínculo al repositorio de GitHub donde se hospeda el código fuente en un lenguaje natural
-    * [Cumplimiento de los requisitos](#certification-requirements)
-    * Pase la revisión del código
+* Requisitos del repositorio de código:
+  * Debe incluir estos archivos:
+    * .gitignore
+    * capabilities.json
+    * pbiviz.json
+    * package.json
+    * package-lock.json
+    * tsconfig.json
+  * No debe incluir la carpeta *node_modules* (agregue *node_modules* al archivo .gitingore*).
+  * El comando *npm install* no debe devolver ningún error.
+  * El comando *npm audit* no debe devolver ninguna advertencia con nivel alto o moderado.
+  * El comando *pbiviz package* no debe devolver ningún error.
+  * Debe incluir [TSlint de Microsoft](https://www.npmjs.com/package/tslint-microsoft-contrib) sin ninguna configuración invalidada. Este comando no debe devolver ningún error de lint.
+   * El paquete compilado del objeto visual de Power BI debe coincidir con el paquete enviado (el hash md5 de ambos archivos debe ser igual).
+* Requisitos del código fuente:
+   * El objeto visual de Power BI deba admitir la [API de representación de eventos](https://microsoft.github.io/PowerBI-visuals/docs/how-to-guide/rendering-events/).
+   * Asegúrese de que no se ejecuta ningún código arbitrario o dinámico (incorrecto: eval(), no es seguro usar settimeout(), requestAnimationFrame(), setinterval [alguna función con entrada de usuario], ejecución de datos/entrada de usuario).
+   * Asegúrese de que DOM se manipule de forma segura (incorrecto: innerHTML, D3.html(<alguna entrada de datos/usuario>), y use saneamiento para los datos o la entrada de usuario antes de agregarlos a DOM.
+   * Asegúrese de que no haya errores ni excepciones de JavaScript en la consola del explorador para ningún dato de entrada. Los usuarios pueden usar el objeto visual de Power BI con un intervalo diferente de datos inesperados, por lo que el objeto visual no debe producir un error. Puede usar este [informe de ejemplo](https://github.com/Microsoft/PowerBI-visuals/raw/gh-pages/assets/reports/large_data.pbix) como conjunto de datos de prueba.
 
-2. El equipo de objetos visuales de Power BI de Microsoft le notificará cuando el objeto visual personalizado se haya certificado y agregado a la [lista certificada](#list-of-power-bi-visuals-that-have-been-certified), o bien se haya rechazado, e incluirá un informe de las incidencias que deben corregirse. Es responsabilidad del desarrollador mantener una línea abierta de comunicación con Microsoft y actualizar sus objetos visuales certificados según sea necesario.
+* Si se cambia alguna propiedad del archivo *capabilities.json*, asegúrese de que no interrumpe los informes del usuario existentes.
+
+* Asegúrese de que el objeto visual de Power BI cumple las [directrices de los objetos visuales de Power BI](./guidelines-powerbi-visuals.md).
+    
+* El código solo puede usar componentes de OSS que se pueden revisar de manera pública, como bibliotecas públicas de JavaScript o TypeScript. El código fuente debe estar disponible para su revisión y no tiene vulnerabilidades conocidas. No podemos comprobar un objeto visual personalizado que use un componente comercial.
+
+* El objeto visual de Power BI no debe acceder a recursos ni servicios externos. Por ejemplo, ninguna solicitud HTTP/S ni WebSocket puede salir de Power BI a ningún servicio. 
+
+## <a name="submitting-a-power-bi-visual-for-certification"></a>Envío de un objeto visual de Power BI para certificación
+
+Puede solicitar que el equipo de Power BI certifique su objeto visual de Power BI mediante el Centro de partners.
+
+>[!TIP]
+>El proceso de certificación de Power BI puede tardar un tiempo. Si va a crear un objeto visual de Power BI, se recomienda publicarlo a través del Centro de partners antes de solicitar la certificación de Power BI. Esto garantiza que la publicación del objeto visual no se retrase.
+
+Para solicitar la certificación de Power BI:
+
+1. Inicie sesión en el Centro de datos.
+2. En la página **Información general**, elija su objeto visual de Power BI y vaya a la página de configuración del **producto**.
+3. Active la casilla **Request Power BI certification** (Solicitar la certificación de Power BI).
+4. En la página **Revisar y publicar**, en el cuadro de texto **Notas para la certificación**, proporcione un vínculo al código fuente y las credenciales necesarias para acceder a él.
+
+>[!NOTE]
+> Si está en medio de un proceso de envío de un objeto visual de Power BI y debe usar el [Panel de vendedores](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (la herramienta de administración anterior), revise las instrucciones para el [proceso de envío de una certificación del Panel de vendedores](seller-dashboard.md#seller-dashboard-certification-submission-process).
 
 ## <a name="list-of-power-bi-visuals-that-have-been-certified"></a>Lista de objetos visuales de Power BI que se han certificado
 
-| Vínculo a AppSource | Vincular al vídeo |
+| Vínculo | Vídeo |
 | --- | --- |
 | [3AG Systems - Bar Chart With Relative Variance](https://appsource.microsoft.com/en/product/power-bi-visuals/WA104381912) (Sistemas 3AG: Gráfico de barras con la varianza relativa) | |
 | [3AG Systems - Column Chart With Relative Variance](https://appsource.microsoft.com/product/power-bi-visuals/WA104381803) (Sistemas 3AG: Gráfico de columnas con la varianza relativa) | |

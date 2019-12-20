@@ -1,138 +1,106 @@
 ---
-title: Publicación de objetos visuales de Power BI en AppSource
-description: Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
+title: Publicación de objetos visuales de Power BI en el Centro de partners
+description: Aprenda a publicar objetos visuales personalizados en el Centro de partners para que otros usuarios puedan descubrirlos y usarlos.
 author: KesemSharabi
 ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 3/27/2019
-ms.openlocfilehash: f8ca6aae805ae3184a1c54d8707fcb9a3cfd32e7
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.date: 12/02/2019
+ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265240"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999929"
 ---
-# <a name="publish-power-bi-visuals-to-appsource"></a>Publicación de objetos visuales de Power BI en AppSource
+# <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
 
-Aprenda a publicar objetos visuales personalizados en AppSource para que otros usuarios puedan descubrirlos y usarlos.
-
-Una vez que haya creado un objeto visual personalizado, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para ello, es preciso prepararlo con anterioridad. Para obtener más información acerca de cómo crear un objeto visual personalizado, consulte [Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md).
-
-   ![Tienda Office](media/office-store/appsource-01.png)
+Una vez que haya creado un objeto visual de Power BI, puede publicarlo en AppSource para que otros usuarios lo detecten y lo usen. Para más información sobre cómo crear un objeto visual de Power BI, consulte [Tutorial: Desarrollar un objeto visual de Power BI](visuals/custom-visual-develop-tutorial.md).
 
 ## <a name="what-is-appsource"></a>¿Qué es AppSource?
 
-**AppSource** es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft. [AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) conecta millones de usuarios de productos como Office 365, Dynamics 365 y otros con soluciones que les ayudan a realizar su trabajo de forma más eficaz, minuciosa o atractiva que antes.
+[AppSource](https://appsource.microsoft.com/marketplace/apps?product=power-bi-visuals) es el lugar donde podrá encontrar aplicaciones SaaS y complementos para sus productos y servicios de Microsoft.
 
-## <a name="preparing-to-submit-your-custom-visual"></a>Preparación de objetos visuales para su envío
+![Tienda Office](media/office-store/appsource-01.png)
 
-Cuando acabe de leer nuestras [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md), de programar, de [probar su objeto visual personalizado](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md) y de empaquetarlo en un archivo pbiviz, debe tener lo siguiente listo también para realizar el envío.
+## <a name="preparing-to-submit-your-power-bi-visual"></a>Preparación para enviar el objeto visual de Power BI
+
+Antes de enviar un objeto visual de Power BI a AppSource, asegúrese de que ha leído las [directrices de objetos visuales de Power BI](guidelines-powerbi-visuals.md) y ha [probado el objeto visual](https://github.com/Microsoft/PowerBI-visuals/blob/master/Tutorial/SubmissionTesting.md).
+
+Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cumple con todos los requisitos que se enumeran a continuación.
 
 | Artículo | Obligatoria | Descripción |
 | --- | --- | --- |
-| El paquete pbiviz contiene todos los metadatos requeridos |Sí |Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
-| Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Debe resaltar el valor que el objeto visual aporta al usuario y ofrecen ejemplos de uso, opciones de formato, etc. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias, acciones que conviene evitar y cosas similares.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa |
-| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 300 px (ancho) x 300 px (alto). **Importante** Revise cuidadosamente la [guía breve](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de enviar el icono. |
-| Capturas de pantalla |Sí |Debe incluir al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 1366 px (ancho) x 768 px (alto). El tamaño del archivo no puede superar los 1024 KB. *Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura.* |
-| Vínculo de descarga de soporte técnico |Sí |Especifique la dirección URL en la que se proporcionará soporte técnicos a los clientes que tengan problemas con el objeto visual. Este vínculo se especifica como parte de su lista de SellerDashboard y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato de la dirección URL debe incluir https:// o http://. |
-| Vínculo de documento de privacidad |Sí |Especifique un vínculo a la directiva de privacidad para los clientes que usen el objeto visual. Este vínculo se especifica como parte de su lista de SellerDashboard y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato del vínculo debe incluir https:// o http://. |
-| Contrato de licencia para el usuario final (CLUF) |Sí |Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
-| Enlace de vídeo |No |Para aumentar el interés de los usuarios por el objeto visual personalizado, se recomienda incluir un vínculo a un vídeo acerca de dicho objeto. El formato de la dirección URL debe incluir https:// o http://. |
-| Repositorio de GitHub |No |Es preferible tener un vínculo válido y público a un repositorio de [GitHub](https://www.github.com) con orígenes del objeto visual y datos de ejemplo que permitir que otros desarrolladores incluyan comentarios y sugieran mejoras en el código. |
+| Paquete Pbiviz |Sí |Empaquete el objeto visual de Power BI en un paquete Pbiviz que contenga todos los metadatos necesarios.<br>Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
+| Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Resalte el valor que el objeto visual aporta al usuario y ofrezca ejemplos de uso y opciones de formato. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias y acciones que conviene evitar.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa. |
+| Icono |Sí |Debe incluir el logotipo del objeto visual personalizado que aparecerá en el escaparate. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 300 px (ancho) x 300 px (alto).<BR>**Importante** Revise cuidadosamente la [guía de imágenes de la tienda AppSource](https://docs.microsoft.com/office/dev/store/craft-effective-appsource-store-images) antes de enviar el icono. |
+| Capturas de pantalla |Sí |Proporcione al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Las dimensiones deben ser exactamente 1366 px (ancho) por 768 px (alto). El tamaño del archivo no puede superar los 1024 KB.<br>Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura. |
+| Vínculo de descarga de soporte técnico |Sí |Proporcione una dirección URL de soporte técnico para sus clientes. Este vínculo se especifica como parte de su lista del Panel de vendedores y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato de la dirección URL debe incluir https:// o http://. |
+| Vínculo de documento de privacidad |Sí |Proporcione un vínculo a la directiva de privacidad del objeto visual. Este vínculo se especifica como parte de su lista del Panel de vendedores y es visible para los usuarios cuando acceden a la lista de objetos visuales en AppSource. El formato del vínculo debe incluir https:// o http://. |
+| Contrato de licencia para el usuario final (CLUF) |Sí |Tiene que cargar un archivo de CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor. [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf). |
+| Enlace de vídeo |No |Para aumentar el interés de los usuarios por el objeto visual personalizado, proporcione un vínculo a un vídeo sobre dicho objeto. El formato de la dirección URL debe incluir https:// o http://. |
+| Repositorio de GitHub |No |Comparta un vínculo público a un repositorio de [GitHub](https://www.github.com) con orígenes de datos de ejemplo y de objetos visuales de Power BI. Esto permite que otros desarrolladores tengan la oportunidad de proporcionar comentarios y proponer mejoras en el código. |
 
-## <a name="submitting-to-power-bi"></a>Envío a Power BI
+## <a name="getting-an-app-package-xml"></a>Obtención de un archivo XML del paquete de la aplicación
 
-Todo comienza con el envío de un correo electrónico al equipo de envío de objetos visuales de Power BI. Dicho correo electrónico se puede dirigir a [pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com).
+Para enviar un objeto visual de Power BI, necesita un archivo XML del paquete de la aplicación desde el equipo de Power BI. Para obtener el XML del paquete de la aplicación, envíe un correo electrónico al equipo de envío de los objetos visuales de Power BI ([pbivizsubmit@microsoft.com](mailto:pbivizsubmit@microsoft.com)).
 
-> [!IMPORTANT]
-> Debe rellenar los campos siguientes en el archivo pbiviz.json: "description", "supportUrl", "author", "name" y "email" antes de crear el paquete .pbiviz.
+Antes de crear el paquete **pbiviz**, debe rellenar estos campos del archivo **pbiviz.json**:
+* description
+* supportUrl
+* autor
+* nombre
+* correo electrónico
 
-Adjunte tanto el **archivo .pbiviz** como el **archivo .pbix del informe** de ejemplo. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
+Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejemplo**. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
 
 > [!NOTE]
 > Para mejorar la calidad y garantizar que los informes existentes no se interrumpan, las actualizaciones de los objetos visuales existentes tardará un dos semanas más en llegar al entorno de producción tras su aprobación en la tienda.
 
 ## <a name="submitting-to-appsource"></a>Envío a AppSource
 
-Una vez que obtenga el código XML del paquete de la aplicación del equipo de Power BI, vaya al [Centro para desarrolladores](https://sellerdashboard.microsoft.com/Application/Summary) para enviar el objeto visual a AppSource.
+Para enviar el objeto visual de Power BI a AppSource, debe obtener un paquete de la aplicación desde el equipo de Power BI y, luego, enviarlo al Centro de partners. 
 
-> [!NOTE]
-> Para iniciar sesión en el [Centro para desarrolladores de Office](https://dev.office.com/) es preciso tener una cuenta de desarrollador de Office válida. Una cuenta de desarrollador de Office debe ser una cuenta Microsoft (Live ID, por ejemplo, hotmail.com o outlook.com).
+### <a name="getting-the-app-package"></a>Obtención del paquete de la aplicación
 
-> [!IMPORTANT]
-> Debe enviar un correo electrónico con los archivos .pbiviz y .pbix al equipo de Power BI antes de realizar el envío a AppSource. Esto permite al equipo de Power BI cargar los archivos en el servidor de recursos compartidos público. De lo contrario, la tienda no podrá recuperar los archivos. Los archivos deben enviarse cada vez que se envíe un objeto visual nuevo, que se actualice uno existente y que se corrijan los envíos que han sido rechazados.
+Debe enviar un correo electrónico con los archivos **pbiviz** y **pbix** al equipo de Power BI antes de realizar el envío a AppSource. Esto permite al equipo de Power BI cargar los archivos en el servidor de recursos compartidos público. De lo contrario, la tienda no podrá recuperar los archivos. 
 
-### <a name="process-to-submit-visual"></a>Proceso para el envío de un objeto visual
+El equipo de Power BI tiene que comprobar en los archivos si hay envíos de nuevos objetos visuales de Power BI, actualizaciones de los objetos visuales de Power BI existentes y correcciones de los envíos rechazados.
 
-Siga estos pasos para completar el envío.
+### <a name="submitting-to-partner-center"></a>Envío al Centro de partners
 
-1. Seleccione **Agregar una nueva aplicación**.
+Para enviar el objeto visual de Power BI al Centro de partners, debe estar registrado en dicho centro. Si todavía no está registrado, [abra una cuenta de desarrollador en el Centro de partners](https://docs.microsoft.com/office/dev/store/open-a-developer-account).
 
-    ![Incorporación de una aplicación](media/office-store/powerbi-custom-visual-add-an-app.png)
+Siga los pasos que aparecen a continuación para enviar el objeto visual de Power BI al Centro de partners. Para más información sobre el proceso de envío, consulte [Enviar la solución de Office a AppSource con el Centro de partners](https://docs.microsoft.com/office/dev/store/use-partner-center-to-submit-to-appsource).
 
-2. Seleccione **Objeto visual personalizado de Power BI** y, después, **Siguiente**.
+>[!NOTE]
+> Si está en medio de un proceso de envío de un objeto visual de Power BI y debe usar el [Panel de vendedores](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) (la herramienta de administración anterior), revise las instrucciones que aparecen en el artículo sobre el [envío de un objeto visual de Power BI a AppSource mediante el Panel de vendedores](seller-dashboard.md).
 
-3. Seleccione el signo **+** en **Paquete de la aplicación** y, en el cuadro de diálogo Abrir archivo, seleccione el archivo XML del paquete de la aplicación que le ha enviado el equipo de Power BI.
+1. Inicie sesión en el **Centro de partners**.
 
-    ![Adición de un paquete](media/office-store/powerbi-custom-visual-apppackage.png)
+2. En el panel de la izquierda, seleccione **TIENDA OFFICE**.
 
-4. Debería recibir una aprobación en la que se indica que se trata de un paquete de aplicación de Power BI válido.
+3. Seleccione **Información general**.
 
-    ![Manifiesto aprobado](media/office-store/powerbi-custom-visual-manifest-approved.png)
+4. Seleccione **Crear** y, en el menú desplegable, seleccione **Objeto visual de Power BI**.
 
-5. Rellene los detalles de **Información general**.
+    ![Tienda Office](media/office-store/power-bi-visual.png)
 
-   * *Título del envío:* cómo se denominará el envío en el centro para desarrolladores.
-   * *Versión:* el número de versión se rellena automáticamente desde el paquete de la aplicación del complemento.
-   * *Fecha de lanzamiento (UCT):* seleccione la fecha en que se publicará la aplicación en la tienda. Si se elige una fecha futura, la aplicación no estará disponible en la tienda hasta dicha fecha.
-   * *Categoría:* la primera categoría se rellenará como "Visualización de datos + BI" de forma automática. Así es como se etiquetan todos los objetos visuales de Power BI. Puede proporcionar hasta dos categorías adicionales para ayudar a los usuarios a buscar fácilmente el objeto visual.
-   * *Notas de pruebas:* opcional, si desea proporcionar instrucciones para los evaluadores de Microsoft
-   * *Mi aplicación llama, admite, contiene o usa criptografía o cifrado*: déjela desactivada
-   * *Establecer este complemento como disponible en el catálogo de complementos de Office para iPad*: déjela desactivada
-6. Cargue el logotipo del objeto visual, para lo que debe seleccionar el signo **+** de **Logotipo de la aplicación**. Después, seleccione el archivo del icono en el cuadro de diálogo Abrir archivo. El archivo debe tener una de las siguientes extensiones: .png, .jpg, .jpeg o .gif. Debe ser tener, exactamente, 300 px (ancho) x 300 px (ancho) y su tamaño no puede superar los 512 KB.
+5. En la ventana **Crear un objeto visual de Power BI**, escriba un nombre para el objeto visual de Power BI y seleccione **Crear**.
 
-    ![Logotipo de la aplicación](media/office-store/powerbi-custom-visual-app-logo.png)
+6. Seleccione **Paquetes** y cargue el paquete de la aplicación de XML del objeto visual de Power BI.
 
-7. Rellene los datos de **Documentos de soporte técnico**.
+7. Seleccione **Propiedades** y proporcione la información necesaria.
 
-   * Vínculo de documento de soporte técnico
-   * Vínculo de documento de privacidad
-   * Enlace de vídeo
-   * Contrato de licencia de usuario final (CLUF)
+8. Si el producto requiere una compra adicional, seleccione **Configuración del producto** y active la casilla **Associated service purchase** (Adquisición del servicio asociado).
 
-       Debe cargar un archivo con el CLUF. Puede ser su propio CLUF, o bien puede usar el CLUF predeterminado de la Tienda Office para objetos visuales de Power BI. Para usar el CLUF predeterminado, pegue la siguiente dirección URL en el cuadro de diálogo de carga del archivo del "Contrato de licencia para el usuario final" del panel del vendedor: [https://visuals.azureedge.net/app-store/Power BI - Default Custom Visual EULA.pdf](https://visuals.azureedge.net/app-store/Power%20BI%20-%20Default%20Custom%20Visual%20EULA.pdf).
+9. (Opcional) Si quiere [certificar](power-bi-custom-visuals-certified.md) su objeto visual, seleccione **Configuración del producto** y active la casilla **Certificación de Power BI**.
+    >[!TIP]
+    >El proceso de certificación de Power BI puede tardar un tiempo. Si va a crear un objeto visual de Power BI, se recomienda publicarlo a través del Centro de partners antes de solicitar la certificación de Power BI. Esto garantiza que la publicación del objeto visual no se retrase.
 
-8. Seleccione **Siguiente** para pasar a la página **Detalles**.
-
-9. Seleccione **Idioma** y elija uno de los idiomas de la lista.
-
-    ![Idioma](media/office-store/powerbi-custom-visual-language.png)
-
-10. Rellene los datos de "Descripción".
-
-    * *Nombre de la aplicación (para este idioma):* escriba el título de la aplicación, tal como debe aparecer en escaparate.
-    * *Descripción breve:* especifique una descripción breve de la aplicación, de hasta 100 caracteres, como debe aparecer en el escaparate. Esta descripción se mostrará en las primeras páginas, junto con el logotipo. Puede utilizar la descripción del paquete pbiviz.
-    * *Descripción larga:* proporcione una descripción más detallada de la aplicación, que es la que los clientes verán en la página de detalles de la aplicación. Si quiere permitir que la comunidad mejore el objeto visual convirtiéndolo en código abierto, proporcione el vínculo al repositorio público, como GitHub, aquí.
-
-11. Cargue al menos una captura de pantalla. Su formato puede ser .png, .jpg, .jpeg o .gif. Debe ser exactamente de 1366 px (ancho) x 768 px (alto). El tamaño del archivo no puede superar los 1024 KB. *Si el uso va a ser mayor, agregue burbujas de texto para articular la propuesta de valor de las características clave que se muestran en cada captura.*
-
-12. Si desea agregar más idiomas, seleccione **Agregar un idioma** y repita los pasos 10 y 11. La incorporación de más idiomas ayudará a los usuarios a ver la información del objeto visual personalizado en su propio idioma. Si el idioma no aparece en la lista, se utilizará de manera predeterminada el primer idioma seleccionado.
-
-13. Cuando haya terminado de agregar idiomas, seleccione **Siguiente** para pasar a la página **Bloquear acceso**.
-
-14. Si desea impedir que clientes de determinados países o regiones usen o compren la aplicación, active la casilla y selecciónelo en la lista.
-
-15. Seleccione **Siguiente** para pasar a la página **Precios**.
-
-16. En estos momentos, solo se permiten los objetos visuales *gratuitos*, pero no las compras adicionales integradas ellos (compras desde la aplicación). Seleccione **Esta aplicación es gratuita**.
-
-    > [!NOTE]
-    > Si selecciona cualquier otra opción que no sea la gratuita, o bien si en el objeto visual enviado hay contenido para compras desde la aplicación, el envío se rechazará.
-
-17. Ahora puede seleccionar **Guardar como borrador** o **Enviar para aprobación** para enviar el objeto visual personalizado a la Tienda Office.
+10. Seleccione **Configuración del producto** y haga clic en **Revisar y publicar**.
 
 ## <a name="tracking-submission-status-and-usage"></a>Seguimiento del uso y estado del envío
 
@@ -142,13 +110,13 @@ Después del envío, el estado del envío se puede ver en el [panel de la aplica
 
 ## <a name="certify-your-visual"></a>Certificación del objeto visual
 
-Una vez creado el objeto visual, si lo desea, puede obtener su certificación. Esto significa que puede ejecutarse en el servicio Power BI y utilizarse con otras características del servicio, como la exportación a PowerPoint. Para más información, consulte [Obtención de un objeto visual personalizado *certificado*](../developer/power-bi-custom-visuals-certified.md).
+Una vez creado el objeto visual, si lo desea, puede obtener su [certificación](../developer/power-bi-custom-visuals-certified.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 [Desarrollo de objetos visuales personalizados de Power BI](visuals/custom-visual-develop-tutorial.md)  
 [Visualizaciones en Power BI](../visuals/power-bi-report-visualizations.md)  
 [Visualizaciones personalizadas en Power BI](../developer/power-bi-custom-visuals.md)  
-[Obtención de un objeto visual personalizado *certificado*](../developer/power-bi-custom-visuals-certified.md)
+[Obtención de un objeto visual de Power BI certificado](../developer/power-bi-custom-visuals-certified.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

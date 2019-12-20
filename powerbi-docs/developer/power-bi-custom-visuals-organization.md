@@ -9,18 +9,18 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 8c28c5ee89ffee37c09db8dc6ffcd6fb90274786
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74102097"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999845"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
 
 Puede usar objetos visuales de Power BI en Power BI para crear un único tipo de objeto visual adaptado a sus necesidades. Son los desarrolladores quienes crean estos objetos visuales de Power BI cuando la gran cantidad de objetos visuales incluidos en Power BI no satisface del todo sus necesidades.
 
-En algunas organizaciones, los objetos visuales de Power BI son incluso más importantes: pueden ser necesarios para transmitir datos o informaciones particulares que son exclusivos de la organización, pueden tener requisitos especiales de datos o pueden poner de relieve métodos empresariales privados. Estas organizaciones tienen que desarrollar objetos visuales de Power BI, compartirlos en toda su organización y asegurarse de que reciben un mantenimiento adecuado. Los objetos visuales de Power BI permiten a las organizaciones hacer exactamente eso.
+En algunas organizaciones, los objetos visuales de Power BI son incluso más importantes: pueden ser necesarios para transmitir datos o informaciones particulares que son exclusivos de la organización, pueden tener requisitos especiales de datos o pueden poner de relieve métodos empresariales privados. Estas organizaciones tienen que desarrollar objetos visuales de Power BI, compartirlos en toda su organización y asegurarse de que reciben un mantenimiento adecuado. Los objetos visuales de Power BI permiten a las organizaciones hacer exactamente eso.
 
 La imagen siguiente muestra el proceso por el cual los objetos visuales de Power BI de la organización en Power BI van desde la administración, pasando por el desarrollo y el mantenimiento, hasta llegar al analista de datos.
 
@@ -55,10 +55,10 @@ Usuario final:
 
 ## <a name="troubleshoot"></a>Solucionar problemas
 
-Para obtener información sobre cómo solucionar problemas, visite [Solución de problemas con objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md).
+Para información sobre cómo solucionar problemas, visite [Solución de problemas de los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md).
 
 ## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
 
-Para obtener más información y respuestas a las preguntas, visite las [preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Para más información y responder preguntas, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/).

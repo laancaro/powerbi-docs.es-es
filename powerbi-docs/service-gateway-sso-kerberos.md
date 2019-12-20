@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 10/10/2019
+ms.date: 12/03/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: 4ce5eab22538b7abdded2759a4a072fd500575ea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699231"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000121"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configuración del SSO basado en Kerberos desde el servicio Power BI a los orígenes de datos locales
 
@@ -66,6 +66,22 @@ En primer lugar, determine si ya se ha creado un nombre de entidad de seguridad 
    ```setspn -a gateway/MyGatewayMachine Contoso\GatewaySvc```
 
    También puede establecer el SPN mediante el complemento MMC de **Equipos y usuarios de Active Directory**.
+   
+### <a name="add-gateway-service-account-to-windows-authorization-and-access-group-if-required"></a>Incorporación de una cuenta de servicio de la puerta de enlace al grupo de autorización y acceso de Windows si es necesario
+
+En ciertos escenarios, la cuenta de servicio de la puerta de enlace se debe agregar al grupo de autorización y acceso de Windows. Estos escenarios incluyen la protección de la seguridad del entorno de Active Directory y cuando la cuenta de servicio de la puerta de enlace y las cuentas de usuario que la puerta de enlace va a suplantar se encuentran en dominios o bosques independientes. También puede agregar la cuenta de servicio de la puerta de enlace al grupo de autorización y acceso de Windows en situaciones donde el dominio y el bosque no están protegidos, pero no es necesario.
+
+Para más información, consulte la sección sobre el [grupo de autorización y acceso de Windows](/windows/security/identity-protection/access-control/active-directory-security-groups#bkmk-winauthaccess).
+
+Para completar este paso de configuración, en cada dominio que contenga usuarios de Active Directory usuarios que quiere que la cuenta de servicio de la puerta de enlace pueda suplantar haga lo siguiente:
+1. Inicie sesión en un equipo del dominio e inicie el complemento MMC de Equipos y usuarios de Active Directory.
+2. Busque el grupo **Grupo de autorización y acceso de Windows**, que por lo general está en el contenedor **Builtin**.
+3. Haga doble clic en el grupo y, luego, haga clic en la pestaña **Miembros**.
+4. Haga clic en **Agregar** y cambie la ubicación del dominio al dominio donde reside la cuenta de servicio de la puerta de enlace.
+5. Escriba el nombre de la cuenta de servicio de la puerta de enlace y haga clic en **Comprobar nombres** para comprobar que es posible acceder a la cuenta de servicio de la puerta de enlace.
+6. Haga clic en **Aceptar**.
+7. Haga clic en **Aplicar**.
+8. Reinicie el servicio de puerta de enlace.
 
 ### <a name="decide-on-the-type-of-kerberos-constrained-delegation-to-use"></a>Elección del tipo de delegación restringida de Kerberos que usar
 

@@ -8,16 +8,16 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 11/22/2019
 ms.author: kfollis
-ms.openlocfilehash: a45cfb20907c96995adf8618cd6dd8ff32194bea
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699737"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958503"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
-En la tabla siguiente se muestran los orígenes de datos que admite Power BI, incluida información sobre DirectQuery y la puerta de enlace de datos local.
+En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](service-dataflows-data-sources.md).
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
 |---|---|---|---|---|---|---|---|
@@ -95,7 +95,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI, i
 | Planview Enterprise One - CTM | Sí | Sí | No | No | No |
 | Planview Enterprise One - PRM | Sí | Sí | No | No | No |
 | Planview Projectplace | Sí | Sí | No | No | No |
-| PostgreSQL | Sí | Sí | No | Sí | Sí |
+| PostgreSQL | Sí | Sí | Sí | Sí | Sí |
 | Flujos de datos de Power BI | Sí | Sí | No | No | No |
 | Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
 | Flujos de datos de Power Platform | Sí | Sí | No | No | No |

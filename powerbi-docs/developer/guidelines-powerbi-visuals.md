@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
-ms.openlocfilehash: 10e7ab035f17715bba858fc3b055c5bf47af1331
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565607"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000098"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
 Antes de [publicar](https://docs.microsoft.com/power-bi/developer/office-store) el objeto visual de Power BI en Microsoft AppSource para que otros usuarios lo descubran y lo usen, asegúrese de seguir las instrucciones para crear una gran experiencia para los usuarios.
@@ -50,7 +50,12 @@ Puede usar una ventana emergente para explicar cómo comprar una licencia, al us
 
 ### <a name="submission-process"></a>Proceso de envío
 
-Los desarrolladores cargan los objetos visuales de Power BI de IAP en Microsoft AppSource mediante el panel de vendedores, como han realizado con los objetos visuales gratuitos. Para indicar que el objeto visual de Power BI enviado tiene características de IAP, los desarrolladores tienen que escribir "Objeto visual con compra desde la aplicación" en las notas del panel de vendedores. Además, los desarrolladores tienen que proporcionar un token o una clave de licencia para que el equipo de validación pueda validar las características de IAP. Una vez que el objeto visual de Power BI se valide y apruebe, en la lista de Microsoft AppSource de los estados de los objetos visuales de Power BI de IAP se indica "Es posible que se requiera una compra adicional" en las opciones de precio.
+Siga el [proceso de envío](office-store.md#submitting-to-appsource) y, luego, vaya a la pestaña *Configuración del producto* y active la casilla *Mi producto necesita la compra de un servicio*.
+
+Una vez que el objeto visual de Power BI se valide y apruebe, en la lista de Microsoft AppSource de los estados de los objetos visuales de Power BI de IAP se indica "Es posible que se requiera una compra adicional" en las opciones de precio.
+
+>[!NOTE]
+>Si el objeto visual de Power BI ya se envió mediante el [Panel de vendedores](https://docs.microsoft.com/office/dev/store/use-the-seller-dashboard-to-submit-to-the-office-store) y quiere agregar una característica de IAP, tiene que escribir en las notas del Panel de vendedores "Objeto visual con compra desde la aplicación". También tiene que proporcionar un token o una clave de licencia para que el equipo de validación pueda validar las características de IAP.
 
 ## <a name="context-menu"></a>Menú contextual
 El menú contextual es el que se muestra cuando el usuario mantiene el mouse sobre un objeto visual.

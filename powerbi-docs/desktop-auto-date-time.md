@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/23/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 8789986e94c860bffc622d903e33b4f1edabdd2d
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 1f350e8ff888ffc2fd95e6c47bf84ccc96ebf88b
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696173"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "75000167"
 ---
 # <a name="auto-datetime-in-power-bi-desktop"></a>Fecha y hora automáticas en Power BI Desktop
 
@@ -36,7 +36,7 @@ Cada tabla de fecha y hora automáticas es en realidad una [tabla calculada](des
 
 Power BI Desktop también crea una relación entre la columna **Date** de la tabla de fecha y hora automáticas y la columna de fecha del modelo.
 
-La tabla de fecha y hora automáticas contiene años naturales completos que abarcan todos los valores de fecha almacenados en la columna de fecha del modelo. Por ejemplo, si el valor más antiguo de una columna de fecha es el 20 de marzo de 2016 y el último valor es el 23 de octubre de 2019, la tabla contendrá 1461 filas. Representa una fila por cada fecha en los cuatro años naturales de 2016 a 2019. Cuando Power BI actualiza el modelo, cada tabla de fecha y hora automáticas también se actualiza para garantizar que contenga fechas que abarcan los valores de la columna de fecha.
+La tabla de fecha y hora automáticas contiene años naturales completos que abarcan todos los valores de fecha almacenados en la columna de fecha del modelo. Por ejemplo, si el valor más antiguo de una columna de fecha es el 20 de marzo de 2016 y el último valor es el 23 de octubre de 2019, la tabla contendrá 1461 filas. Representa una fila por cada fecha en los cuatro años naturales de 2016 a 2019. Cuando Power BI actualiza el modelo, también se actualizan todas las tablas de fecha y hora automáticas. De este modo, el modelo siempre contiene fechas que abarcan los valores de la columna de fecha.
 
 Si fuera posible ver las filas de una tabla de fecha y hora automáticas, podrían tener un aspecto similar al siguiente:
 
@@ -53,7 +53,7 @@ Si fuera posible ver una tabla de fecha y hora automáticas en el diagrama de vi
 
 ## <a name="work-with-auto-datetime"></a>Trabajar con fecha y hora automáticas
 
-Cuando existe una tabla de fecha y hora automáticas para una columna de fecha (y esa columna está visible), los autores de informes no encuentran esa columna como un campo en el panel **Campos**. En su lugar, buscan un objeto expansible que tiene el nombre de la columna de fecha. Puede identificarlo fácilmente porque está indicado con un icono de calendario. Cuando los autores de los informes expandan el objeto de calendario, encontrarán una jerarquía denominada **Jerarquía de fechas**. Al expandir la jerarquía, encontrarán cuatro niveles: **Year** (Año), **Quarter** (Trimestre), **Month** (Mes) y **Day** (Día).
+Cuando existe una tabla de fecha y hora automáticas para una columna de fecha (y esa columna está visible), los autores de informes no encontrarán esa columna como un campo en el panel **Campos**. En su lugar, buscan un objeto expansible que tiene el nombre de la columna de fecha. Puede identificarlo fácilmente porque está indicado con un icono de calendario. Cuando los autores de los informes expandan el objeto de calendario, encontrarán una jerarquía denominada **Jerarquía de fechas**. Al expandir la jerarquía, encontrarán cuatro niveles: **Year** (Año), **Quarter** (Trimestre), **Month** (Mes) y **Day** (Día).
 
 ![Ejemplo del panel Campos, con la tabla Sales expandida. Contiene un campo OrderDate, indicado con el icono de calendario. Está expandido y contiene una jerarquía denominada Date Hierarchy (Jerarquía de fechas). Esta también está expandida y contiene cuatro niveles: Year (Año), Quarter (Trimestre), Month (Mes) y Day (Día).](media/desktop-auto-date-time/auto-date-time-fields-pane-example.png)
 
@@ -93,7 +93,8 @@ En Power BI Desktop, seleccione _Archivo > Opciones y configuración > Opciones
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para más información acerca de la fecha y hora automáticas y los temas relacionados, consulte los siguientes recursos:
+Para obtener más información sobre este artículo, consulte los recursos siguientes:
 
+- [Guía sobre la fecha y hora automáticas en Power BI Desktop](guidance/auto-date-time.md)
 - [Configuración y uso de tablas de fechas en Power BI Desktop](desktop-date-tables.md)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

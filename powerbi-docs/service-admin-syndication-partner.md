@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 98a1fc1c394a81f743e622ec1756e6501a497fa3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: cc85fb07f50a42952e9b293908a797b1cbac023f
+ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699852"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "74958365"
 ---
 # <a name="unable-to-add-power-bi-to-office-365-partner-subscription"></a>No se puede agregar Power BI a la suscripción de asociado de Office 365
 
@@ -48,7 +48,7 @@ Si su asociado no ofrece Power BI y no puede realizar la compra directamente a M
 
 ## <a name="sign-up-for-a-free-trial"></a>Registrarse para obtener una evaluación gratuita
 
-Puede registrarse para obtener una evaluación gratuita de Power BI Pro. Si no compra Power BI Pro al final del período de evaluación, todavía tiene una licencia gratuita que ofrece muchas de las características de Power BI. Para obtener más información, vea [Características de Power BI por tipo de licencia](service-features-license-type.md).
+Puede registrarse para obtener una evaluación gratuita de Power BI. Si no compra Power BI Pro al final del período de evaluación, todavía tiene una licencia gratuita que ofrece muchas de las características de Power BI. Para más información, consulte [Registro en Power BI como usuario individual](service-self-service-signup-for-power-bi.md).
 
 ### <a name="enable-ad-hoc-subscriptions"></a>Habilitar las suscripciones ad hoc
 

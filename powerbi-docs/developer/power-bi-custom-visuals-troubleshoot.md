@@ -1,5 +1,5 @@
 ---
-title: Solución de problemas del desarrollo de objetos visuales de Power BI
+title: Solución de problemas del desarrollo de objetos visuales de Power BI
 description: En este artículo se examinan algunos problemas comunes que pueden encontrarse al desarrollar o crear un objeto visual personalizado de Power BI.
 author: KesemSharabi
 ms.author: kesharab
@@ -8,14 +8,14 @@ ms.service: powerbi
 ms.topic: troubleshooting
 ms.subservice: powerbi-custom-visuals
 ms.date: 11/06/2018
-ms.openlocfilehash: e28df5035e057d485a8122853f6ae88327e3045f
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: c2680a5818488a7822f38b8286a3e5a1782a487a
+ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74127766"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "74999776"
 ---
-# <a name="troubleshoot-power-bi-power-bi-visuals"></a>Solución de problemas de los objetos visuales de Power BI
+# <a name="troubleshoot-power-bi-visuals"></a>Solución de problemas con los objetos visuales de Power BI
 
 ## <a name="debug"></a>Depurar
 
@@ -42,4 +42,4 @@ Si tiene alguna pregunta, problema o quiere hacer un comentario, no dude en pone
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Para obtener más información, visite las [preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-visuals).
+Para más información, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
