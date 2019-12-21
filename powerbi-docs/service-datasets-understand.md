@@ -78,5 +78,5 @@ También es importante comprender que los modelos de importación hospedados en 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-- [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
+- [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
 - ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

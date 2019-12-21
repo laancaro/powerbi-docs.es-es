@@ -119,7 +119,7 @@ landingContent:
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/2-quick-insights
     - text: 'Creación y configuración de un panel: 5 minutos'
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/3-create-configure-dashboard
-    - text: 'Formulación de preguntas a los datos en lenguaje natural: 5 min'
+    - text: 'Realización de preguntas de los datos en lenguaje natural: 5 min'
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/4-ask-questions
     - text: 'Creación de sugerencias personalizadas de preguntas y respuestas: 4 minutos'
       url: https://docs.microsoft.com/learn/modules/explore-data-power-bi/5-custom-qa

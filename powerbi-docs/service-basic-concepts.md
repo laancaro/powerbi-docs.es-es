@@ -45,26 +45,26 @@ Más adelante se explicarán estas características de forma detallada, pero pri
 
 
 ## <a name="power-bi-concepts"></a>Conceptos de Power BI
-Los cinco pilares principales de Power BI son los *paneles*, los *informes*, los *libros*, los *conjuntos de datos* y los *flujos de datos*. Todos se organizan en *áreas de trabajo* y se crean en las *capacidades*.  Es importante comprender qué son las áreas de trabajo y las capacidades antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
+Los cinco pilares principales de Power BI son los *paneles*, los *informes*, los *libros*, los *conjuntos de datos* y los *flujos de datos*. Todos se organizan en *áreas de trabajo* y se crean en las *capacidades*.  Es importante comprender qué son las áreas de trabajo y las capacidades antes de profundizar en los cuatro bloques de creación, así que vamos a empezar por ahí.
 
 ## <a name="capacities"></a>Capacidades
-Las capacidades son un concepto básico de Power BI que representa un conjunto de recursos (almacenamiento, procesador y memoria) que se usan para hospedar y facilitar el contenido de Power BI. Las capacidades son _compartidas_ o _dedicadas_. Una capacidad compartida es la que se comparte con otros clientes de Microsoft, mientras que una dedicada está confirmada plenamente para un solo cliente. Las capacidades dedicadas requieren una [suscripción](service-premium-what-is.md) y se describen detalladamente en el artículo [Administración de las capacidades Premium](service-premium-capacity-manage.md).
+Las capacidades son un concepto básico de Power BI que representa un conjunto de recursos (almacenamiento, procesador y memoria) que se usan para hospedar y facilitar el contenido de Power BI. Las capacidades son _compartidas_ o _dedicadas_. Una capacidad compartida es la que se comparte con otros clientes de Microsoft, mientras que una dedicada está consagrada plenamente a un solo cliente. Las capacidades dedicadas requieren una [suscripción](service-premium-what-is.md) y se describen detalladamente en el artículo [Administración de las capacidades Premium](service-premium-capacity-manage.md).
 
 De forma predeterminada, las áreas de trabajo se crean en una capacidad compartida. En la capacidad compartida, las cargas de trabajo se ejecutan en recursos informáticos compartidos con otros clientes. Como la capacidad debe compartir recursos, se imponen ciertas limitaciones para garantizar un "juego limpio", como un tamaño de modelo máximo (1 GB) y una frecuencia de actualización diaria máxima (ocho veces al día).
 
 ## <a name="workspaces"></a>Áreas de trabajo
-Las áreas de trabajo se crean en las capacidades. Básicamente, son contenedores de paneles, informes, libros, conjuntos de datos y flujos de datos de Power BI.
+Las áreas de trabajo se crean en las capacidades. Básicamente, son contenedores de paneles, informes, libros, conjuntos de datos y flujos de datos de Power BI.
 
 Existen dos tipos de áreas de trabajo: *Mi área de trabajo* y las *áreas de trabajo*.
 
 - *Mi área de trabajo* es el área de trabajo personal de cualquier cliente de Power BI en la que puede trabajar con su contenido. Solo usted tiene acceso a esta área de trabajo. Puede compartir paneles e informes desde Mi área de trabajo. Si desea colaborar en paneles e informes o crear una aplicación, querrá trabajar en un área de trabajo.      
--  Las *áreas de trabajo* se usan para colaborar y compartir el contenido con los compañeros. Puede agregar compañeros a las áreas de trabajo y colaborar en paneles, informes, libros y conjuntos de datos. Excepto en un caso concreto, todos los miembros del área de trabajo necesitan licencias de Power BI Pro. Más información sobre las [nuevas áreas de trabajo](service-create-the-new-workspaces.md). 
+-  Las *áreas de trabajo* se usan para colaborar y compartir el contenido con los compañeros. Puede agregar compañeros a las áreas de trabajo y colaborar en paneles, informes, libros y conjuntos de datos. Excepto en un caso concreto, todos los miembros del área de trabajo necesitan licencias de Power BI Pro. Más información sobre las [nuevas áreas de trabajo](service-create-the-new-workspaces.md). 
 
-    Las áreas de trabajo también son los lugares donde puede crear, publicar y administrar *aplicaciones* para su organización. Entienda las áreas de trabajo como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. ¿Qué es una *aplicación*? Es una colección de paneles e informes creada para presentar las métricas clave a los consumidores de Power BI de su organización. Las aplicaciones son interactivas, pero los consumidores no pueden editarlas. Los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
+    Las áreas de trabajo también son los lugares donde puede crear, publicar y administrar *aplicaciones* para su organización. Entienda las áreas de trabajo como áreas de almacenamiento provisional y contenedores del contenido que compondrá una aplicación de Power BI. ¿Qué es una *aplicación*? Es una colección de paneles e informes creada para presentar las métricas clave a los consumidores de Power BI de su organización. Las aplicaciones son interactivas, pero los consumidores no pueden editarlas. Los consumidores de la aplicación (los compañeros que tienen acceso a las aplicaciones) no las necesitan.  
 
 Para más información sobre el uso compartido en general, empiece por [Ways to share dashboards your work](service-how-to-collaborate-distribute-dashboards-reports.md) (Formas de compartir paneles en los que trabaja).
 
-Ahora pasemos a los cinco pilares principales de Power BI.
+Ahora pasemos a los cinco pilares principales de Power BI.
 
 ## <a name="dataflows"></a>Flujos de datos
 Un *flujo de datos* ayuda a las organizaciones a unificar los datos de orígenes dispares. Son opcionales y se suelen usar en proyectos complejos o grandes. Representan los datos preparados y agregados a una fase intermedia para su uso en conjuntos de datos. Sin embargo, no se pueden usar directamente como origen para la creación de informes. Aprovechan la amplia colección de conectores de datos de Microsoft, lo que permite la ingesta de datos de orígenes de datos locales y basados en la nube.
@@ -99,8 +99,8 @@ Los conjuntos de datos se pueden actualizar, cambiar de nombre, explorar y elimi
 Ahora, pasemos al siguiente tema: los informes.
 
 ### <a name="dig-deeper"></a>Análisis en profundidad
-* [Conjuntos de datos en el servicio Power BI](service-datasets-understand.md)
-* [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
+* [Conjuntos de datos en el servicio Power BI](service-datasets-understand.md)
+* [Modos de conjuntos de datos en el servicio Power BI](service-dataset-modes-understand.md)
 * [¿Qué es Power BI Premium?](service-premium-what-is.md)
 * [Obtener datos para Power BI](service-get-data.md)
 * [Conjuntos de datos de ejemplo para Power BI](sample-datasets.md)
