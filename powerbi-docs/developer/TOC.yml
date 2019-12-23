@@ -83,8 +83,22 @@
               href: visuals/event-service.md
             - name: Ordenación
               href: visuals/sort-options.md
-            - name: Utilidades de interactividad
-              href: visuals/utils-interactivity-selections.md
+            - name: Localización
+              href: visuals/localization.md
+            - name: "Utilidades de objetos visuales de Power\_BI"
+              items:
+                - name: Utilidades de interactividad
+                  href: visuals/utils-interactivity-selections.md
+                - name: Utilidades de formato
+                  href: visuals/utils-formatting.md
+                - name: Utilidades de gráficos
+                  href: visuals/utils-chart.md
+                - name: Utilidades de SVG
+                  href: visuals/utils-svg.md
+                - name: Tipos de utilidad
+                  href: visuals/utils-type.md
+                - name: Utilidades de vista de datos
+                  href: visuals/utils-dataview.md
         - name: Recursos
           items:
             - name: Centro de desarrollo

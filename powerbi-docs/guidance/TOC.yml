@@ -40,6 +40,8 @@
           href: report-drillthrough.md
         - name: "Guía sobre la fecha y hora automáticas en Power\_BI Desktop"
           href: auto-date-time.md
+        - name: Instrucciones para relaciones de varios a varios
+          href: relationships-many-to-many.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto

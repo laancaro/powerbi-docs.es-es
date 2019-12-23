@@ -142,6 +142,8 @@
       items:
         - name: ¿Qué son las aplicaciones móviles?
           href: mobile/mobile-apps-for-mobile-devices.md
+        - name: Presentación de la página principal
+          href: mobile/mobile-apps-home-page.md
     - name: Inicios rápidos
       items:
         - name: Exploración de paneles e informes
@@ -198,7 +200,7 @@
               href: mobile/mobile-apps-qr-code.md
             - name: Anotación y uso compartido en las aplicaciones móviles
               href: mobile/mobile-annotate-and-share-a-tile-from-the-mobile-apps.md
-            - name: Escanear un código de barras desde la aplicación del iPhone
+            - name: Escanear un código de barras desde la aplicación móvil de Power BI
               href: mobile/mobile-apps-scan-barcode-iphone.md
             - name: Configuración mediante la administración de dispositivos móviles
               href: mobile/mobile-app-configuration.md
