@@ -1,19 +1,19 @@
 ---
 title: Visualización del contenido de Power BI como usuario invitado externo (Azure AD B2B)
 description: Use aplicaciones móviles de Power BI para ver el contenido compartido con usted desde la organización externa.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/27/2019
-ms.author: mshenhav
-ms.openlocfilehash: f0db77a69bd8845b9448b7c15fedea7663683ec0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: c5e1e0b90f24a81940edab46633f49df41d25fdc
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879340"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219915"
 ---
 # <a name="view-power-bi-content-shared-with-you-from-an-external-organization"></a>Visualización del contenido de Power BI compartido con usted desde una organización externa
 
@@ -30,18 +30,18 @@ Se aplica a:
 
 **En primer lugar, necesita que un usuario de una organización externa comparta un elemento con usted.** Cuando alguien [comparte un elemento con usted](../../service-share-dashboards.md), ya sea desde la misma organización o desde una organización externa, recibe un correo electrónico con un vínculo a ese elemento compartido. Al seguir ese vínculo en el dispositivo móvil, se abre la aplicación móvil de Power BI. Si la aplicación reconoce que el elemento se ha compartido desde una organización externa, la aplicación se vuelve a conectar a esa organización con su identidad. Luego la aplicación carga todos los elementos que se han compartido con usted desde esa organización.
 
-![Power BI abre un elemento compartido desde el correo electrónico ](./media/mobile-apps-b2b/mobile-b2b-open-item-email.png)
+![Power BI abre un elemento compartido desde el correo electrónico ](./media/mobile-apps-b2b/mobile-b2b-open-item-email-new.png)
 
 > [!NOTE]
 > Si este es el primer elemento que se comparte con usted como usuario invitado externo, debe reclamar la invitación en un explorador. No se puede reclamar la invitación en la aplicación de Power BI.
 
 Siempre que esté conectado a una organización externa, aparece un encabezado negro en la aplicación. Este encabezado indica que no está conectado a la organización principal. Para volver a conectarse a la organización principal, salga del modo invitado.
 
-![Encabezado de usuario invitado de Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home.png)
+![Encabezado de usuario invitado de Power BI](./media/mobile-apps-b2b/mobile-b2b-exit-home-new.png)
 
 Aunque necesite tener un vínculo de artefacto de Power BI para conectarse a una organización externa, una vez que la aplicación cambie, puede acceder a todos los elementos compartidos con usted (no solo el elemento abierto desde el correo electrónico). Para ver todos los elementos a los que puede acceder en la organización externa, vaya al menú de la aplicación y seleccione **Compartido conmigo**. En **Aplicaciones**, también se encuentran las aplicaciones que puede usar.
 
-![Menú de aplicación de Power BI como usuario externo invitado](./media/mobile-apps-b2b/mobile-b2b-menu.png)
+![Menú de aplicación de Power BI como usuario externo invitado](./media/mobile-apps-b2b/mobile-b2b-menu-new.png)
 
 ## <a name="limitations"></a>Limitaciones
 

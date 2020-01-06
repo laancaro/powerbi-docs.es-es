@@ -8,10 +8,10 @@ ms.service: power-bi-embedded
 ms.topic: conceptual
 ms.date: 08/13/2018
 ms.openlocfilehash: 362c765fb5e739563b8d21eaed53304eddce8acc
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265699"
 ---
 # <a name="diagnostic-logging-for-power-bi-embedded-in-azure"></a>Registro de diagnóstico para el servicio de Power BI Embedded en Azure
@@ -118,7 +118,7 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 | Nombre de la propiedad | Ejemplo de fin de consulta Vertipaq | Descripción de la propiedad |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | EventClass (Clase de evento) | XM_SEQUERY_END | Clase de evento se usa para categorizar los eventos. |
-| EventSubclass (Subclase de evento) | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: Examen de VertiPaq) |
+| EventSubclass | 0 | Subclase de evento proporciona información adicional sobre cada clase de evento. (por ejemplo, 0: Examen de VertiPaq) |
 | RootActivityId | ff217fd2-611d-43c0-9c12-19e202a94f70 | Identificador de actividad raíz. |
 | CurrentTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
 | StartTime | 2018-04-06T18:30:11.9137358Z | Hora de inicio del evento, si está disponible. |
@@ -130,8 +130,8 @@ La categoría Engine (Motor) le indica al recurso que registre los eventos sigui
 | SessionType | Usuario | Tipo de sesión (entidad que ha provocado la operación). |
 | ProgressTotal | 0 | Progreso total. |
 | IntegerData | 0 | Datos enteros. |
-| Severity | 0 | Nivel de gravedad de una excepción. |
-| Operación completada correctamente | 1 | 1 = operación completada correctamente. 0 = error (por ejemplo, 1 significa que una comprobación de permisos se realizó correctamente y 0 significa error en dicha comprobación). |
+| Gravedad | 0 | Nivel de gravedad de una excepción. |
+| Correcto | 1 | 1 = operación completada correctamente. 0 = error (por ejemplo, 1 significa que una comprobación de permisos se realizó correctamente y 0 significa error en dicha comprobación). |
 | Error | 0 | Número de error de un evento determinado. |
 | ConnectionID | 3 | Id. de conexión única. |
 | DatasetID | 5eaa550e-06ac-4adf-aba9-dbf0e8fd1527 | Identificador del conjunto de datos en el que se ejecuta la instrucción del usuario. |

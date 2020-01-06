@@ -1,5 +1,5 @@
 ---
-title: 'Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES'
+title: 'Informes paginados en Power BI: Preguntas frecuentes'
 description: En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF.
 author: maggiesMSFT
 ms.author: maggies
@@ -9,13 +9,13 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
 ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74831230"
 ---
-# <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: PREGUNTAS MÁS FRECUENTES 
+# <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
 En este artículo se responden las preguntas más frecuentes sobre los informes paginados. Estos informes son el resultado de píxel perfecto con formato de alta calidad optimizado para impresión o generación en PDF. Se denominan "paginados" porque presentan un formato apto para abarcar varias páginas. Los informes paginados se basan en la tecnología de informe RDL de SQL Server Reporting Services. 
 

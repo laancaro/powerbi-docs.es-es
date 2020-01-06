@@ -10,10 +10,10 @@ ms.date: 09/20/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: 650fb243152d9bf2ca2ecfc37143145d734b78fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73872683"
 ---
 # <a name="connect-to-data-sources-for-power-bi-dataflows"></a>Conectarse a orígenes de datos de flujos de datos de Power BI
@@ -51,9 +51,9 @@ Los orígenes de datos de los flujos de datos se organizan en las siguientes cat
 * Todas las categorías
 * Archivo
 * Base de datos
-* Power BI
+* Power BI
 * Azure
-* Online Services
+* Servicios en línea
 * Otros
 
 La categoría **Todas las categorías** incluye todos los tipos de orígenes de datos de todas las categorías. 
@@ -93,7 +93,7 @@ La categoría **Online Services** incluye las siguientes conexiones de datos dis
 
 * Amazon Redshift
 * Common Data Service para aplicaciones
-* Microsoft Exchange Online
+* Microsoft Exchange Online
 * Objetos de Salesforce
 * Informes de Salesforce
 * Lista de SharePoint Online

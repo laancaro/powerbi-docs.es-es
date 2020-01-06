@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/03/2019
-ms.openlocfilehash: 9ce761d09e2db4fbbc2e56d461f5272041edfbfe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3680344c3449c80064b818f7ab2a5b48020fba4b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870095"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220617"
 ---
 # <a name="using-oauth-to-connect-to-power-bi-report-server-and-ssrs"></a>Usar OAuth para conectarse a Power BI Report Server y a SSRS
 
@@ -244,7 +244,7 @@ Puede habilitar la autenticación multifactor para proporcionar seguridad adicio
 
 Puede configurar [Fiddler](https://www.telerik.com/fiddler) para que actúe como proxy para los dispositivos móviles para ver hasta dónde ha llegado la solicitud. Para habilitar un proxy de Fiddler para su dispositivo telefónico, deberá configurar [CertMaker para iOS y Android](https://www.telerik.com/fiddler/add-ons) en el equipo que ejecute Fiddler. El complemento es de Telerik para Fiddler.
 
-Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga un problema de certificado con la aplicación WAP o el servidor de ADFS. Puede usar una herramienta como [Analizador de mensajes de Microsoft](https://www.microsoft.com/download/details.aspx?id=44226) para comprobar si los certificados son válidos.
+Si el inicio de sesión funciona correctamente al usar Fiddler, puede que tenga un problema de certificado con la aplicación WAP o el servidor de ADFS. 
 
 ## <a name="next-steps"></a>Pasos siguientes
 

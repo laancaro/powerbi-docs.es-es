@@ -11,10 +11,10 @@ ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
 ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873850"
 ---
 #  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conexión a los ejemplos en el servicio Power BI

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: bdaac078fa106565f7c11b3cc323840b5d10b579
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565336"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622437"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -111,18 +111,19 @@ La característica Área de trabajo: OneDrive permite configurar un grupo de Off
 Power BI no sincroniza los permisos de los usuarios o grupos que están configurados para tener acceso al área de trabajo con la pertenencia al grupo de Office 365. El procedimiento recomendado es administrar el acceso al área de trabajo a través del mismo grupo de Office 365 cuyo almacenamiento de archivos se define en esta configuración. 
 
 Obtenga información sobre cómo [establecer Área de trabajo: OneDrive y acceder a esta característica](service-create-the-new-workspaces.md#workspace-onedrive).  
-   
+
 ## <a name="auditing"></a>Auditoría
+
 Power BI audita las siguientes actividades para nuevas áreas de trabajo de experiencia de áreas de trabajo.
 
-| Nombre descriptivo |   Nombre de operación |
+| Nombre descriptivo | Nombre de operación |
 |---|---|
 | Carpeta de Power BI creada | CreateFolder |
 | Carpeta de Power BI eliminada | DeleteFolder |
 | Carpeta de Power BI actualizada | UpdateFolder |
 | Acceso a la carpeta de Power BI actualizado| UpdateFolderAccess |
 
-Lea más sobre la [auditoría de Power BI](service-admin-auditing.md#activities-audited-by-power-bi).
+Lea más sobre la [auditoría de Power BI](service-admin-auditing.md).
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 

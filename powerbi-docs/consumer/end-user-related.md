@@ -12,10 +12,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Get started
 ms.openlocfilehash: 9e202d22c2ff42a29eb28a8ee154b09f18097d04
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73862275"
 ---
 # <a name="view-related-content-in-the-power-bi-service"></a>Visualización del contenido relacionado en el servicio Power BI
@@ -58,7 +58,7 @@ En el panel de navegación, busque el encabezado **Áreas de trabajo** y selecci
 ![áreas de trabajo en el panel de navegación](./media/end-user-related/power-bi-workspace.png)
 
 
-En un área de trabajo, seleccione la pestaña **Conjuntos de datos** y busque el icono de **Ver relacionados** ![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
+En un área de trabajo, seleccione la pestaña **Conjuntos de datos** y busque el icono de **Ver relacionados**![icono de Ver relacionados](./media/end-user-related/power-bi-view-related-icon-new.png).
 
 ![Pestaña Conjuntos de datos](./media/end-user-related/power-bi-related-dataset.png)
 

@@ -10,10 +10,10 @@ ms.date: 10/28/2018
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: e9759f69668780b450117e5e6255e7f5cb7e67f5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73881011"
 ---
 # <a name="part-2-add-visualizations-to-a-power-bi-report"></a>Parte II, Incorporación de visualizaciones a un informe de Power BI
@@ -30,7 +30,7 @@ En este tutorial, nos adentraremos en el conjunto de datos Análisis de minorist
 
 En este tutorial se usa el [archivo .PBIX del ejemplo de análisis de minoristas](https://download.microsoft.com/download/9/6/D/96DDC2FF-2568-491D-AAFA-AFDD6F763AE3/Retail%20Analysis%20Sample%20PBIX.pbix).
 
-1. En la sección superior izquierda de la barra de menús de Power BI Desktop, seleccione **Archivo** > **Abrir**.
+1. En la sección superior izquierda de la barra de menús de Power BI Desktop, seleccione **Archivo** > **Abrir**.
    
 2. Busque la copia del **archivo PBIX del Ejemplo de análisis de minoristas**.
 

@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 12/12/2018
 ms.openlocfilehash: c3e2327131ae82fa025236c9242476466b6d9074
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73864056"
 ---
 # <a name="power-bi-embedded-performance-best-practices"></a>Procedimientos recomendados de rendimiento de Power BI Embedded
@@ -36,7 +36,7 @@ El método `powerbi.embed(element, config)` recibe un elemento y una configuraci
 
 ### <a name="embed-url"></a>Insertar URL
 
-Evite generar usted mismo la dirección URL que se va a insertar. En su lugar, asegúrese de obtener la dirección URL de inserción mediante una llamada a las API [Obtener informes](/rest/api/power-bi/reports/getreportsingroup), [Obtener paneles](/rest/api/power-bi/dashboards/getdashboardsingroup) u [Obtener iconos](/rest/api/power-bi/dashboards/gettilesingroup). Hemos agregado un parámetro nuevo a la dirección URL denominado  **_config_** , que se usa para mejorar el rendimiento.
+Evite generar usted mismo la dirección URL que se va a insertar. En su lugar, asegúrese de obtener la dirección URL de inserción mediante una llamada a las API [Obtener informes](/rest/api/power-bi/reports/getreportsingroup), [Obtener paneles](/rest/api/power-bi/dashboards/getdashboardsingroup) u [Obtener iconos](/rest/api/power-bi/dashboards/gettilesingroup). Hemos agregado un parámetro nuevo a la dirección URL denominado **_config_** , que se usa para mejorar el rendimiento.
 
 ### <a name="permissions"></a>Permisos
 

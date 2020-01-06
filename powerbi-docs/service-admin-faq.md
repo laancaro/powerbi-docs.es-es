@@ -10,10 +10,10 @@ ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
 ms.openlocfilehash: 0c9d346017dc3b18abd6a56d0d3a62e1305e6575
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74698748"
 ---
 # <a name="administering-power-bi---frequently-asked-questions-faq"></a>Administración de Power BI: preguntas más frecuentes (P+F)
@@ -153,7 +153,7 @@ Para permitir que los usuarios existentes se suscriban a Power BI, ejecute el co
 
 ## <a name="administration-of-power-bi"></a>Administración de Power BI
 
-### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>¿Cómo cambiará esto la manera de administrar identidades para usuarios de mi organización hoy?
+### <a name="how-will-this-change-the-way-i-manage-identities-for-users-in-my-organization-today"></a>¿Cómo cambiará esto la forma de administrar las identidades los usuarios de una organización?
 
 Hay tres escenarios que se podrían aplicarse a los usuarios de su organización:
 
@@ -181,7 +181,7 @@ Cuando un usuario de autoservicio se suscribe a un servicio en la nube que usa A
 
 ### <a name="if-i-have-multiple-domains-can-i-control-the-microsoft-365-tenant-that-users-get-added-to"></a>Si dispongo de varios dominios, ¿puedo controlar el inquilino de Microsoft 365 al que se agregan usuarios?
 
-Si no hace nada, el servicio crea un inquilino para cada dominio y subdominio de correo electrónico del usuario. Si desea que todos los usuarios se encuentren en el mismo inquilino independientemente de sus extensiones de dirección de correo electrónico: Cree con antelación un inquilino de destino, o bien use uno existente. Después, agregue todos los dominios y subdominios existentes que quiera que se consoliden en ese inquilino. Todos los usuarios cuyas direcciones de correo electrónico terminen en esos dominios y subdominios se unirán de forma automática al inquilino de destino al suscribirse.
+Si no hace nada, el servicio crea un inquilino para cada dominio y subdominio de correo electrónico del usuario. Si desea que todos los usuarios estén en el mismo inquilino, independientemente de sus extensiones de correo electrónico: Cree con antelación un inquilino de destino, o bien use uno existente. Después, agregue todos los dominios y subdominios existentes que quiera que se consoliden en ese inquilino. Todos los usuarios cuyas direcciones de correo electrónico terminen en esos dominios y subdominios se unirán de forma automática al inquilino de destino al suscribirse.
 
 > [!IMPORTANT]
 > Después de haber creado a los usuarios, no se admite ningún mecanismo automático para moverlos entre inquilinos. Para información sobre cómo agregar dominios a un solo inquilino de Microsoft 365, consulte [Pasos para comprobar dominio en Microsoft 365](/office365/admin/setup/add-domain/).

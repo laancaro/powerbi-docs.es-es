@@ -6,17 +6,17 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 12/16/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: c48ae0913d0096546c23d22d3e4596fdb21aef82
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c3f703bfe2685166ce575b37c053b2a9603a799f
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872708"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223876"
 ---
-# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage-preview"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos (versión preliminar)
+# <a name="connect-azure-data-lake-storage-gen2-for-dataflow-storage"></a>Conexión a Azure Data Lake Storage Gen2 para el almacenamiento del flujo de datos
 
 Puede configurar las áreas de trabajo de Power BI para almacenar los flujos de datos de la cuenta de Azure Data Lake Storage Gen2 de su organización. En este artículo se describen los pasos generales necesarios para hacerlo y se proporcionan además instrucciones y procedimientos recomendados. Existen algunas ventajas en la configuración de áreas de trabajo para almacenar archivos de definición de flujo de datos y de datos en su instancia de Data Lake, como las siguientes:
 

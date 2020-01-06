@@ -9,10 +9,10 @@ ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 06/08/2018
 ms.openlocfilehash: 9d0ab5bcffe3b0267b3e07a684c2c7c9bd0fd316
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74265824"
 ---
 # <a name="dataset-properties"></a>Propiedades del conjunto de datos
@@ -24,29 +24,29 @@ La v1 actual de la API de conjuntos de datos solo permite crear un conjunto de d
 
 ## <a name="dataset"></a>Conjunto de datos
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria
+Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
 ---------|---------|---------|---------|---------
-id.     |  GUID       | Identificador único de todo el sistema para el conjunto de datos.        | True        | False        
-nombre     | Cadena        | Nombre definido por el usuario del conjunto de datos.        | False        | True        
+id     |  GUID       | Identificador único de todo el sistema para el conjunto de datos.        | Verdadero        | False        
+name     | Cadena        | Nombre definido por el usuario del conjunto de datos.        | False        | Verdadero        
 tables     | Tabla[]        | Colección de tablas.        |  False       | False        
 relationships     | Relación[]        | Colección de relaciones entre tablas.        | False        |  False  
 defaultMode     | Cadena        | Determina si el conjunto de datos se inserta, se transmite, o ambas posibilidades, con los valores de "Push" y "Streaming".         | False        |  False
 
 ## <a name="table"></a>Tabla
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria
+Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
 ---------|---------|---------|---------|---------
-nombre     | Cadena        |  Nombre definido por el usuario de la tabla. También se usa como identificador de la tabla.       | False        |  True       
-columns     |  columna[]       |  Colección de columnas.       | False        |  True       
+name     | Cadena        |  Nombre definido por el usuario de la tabla. También se usa como identificador de la tabla.       | False        |  Verdadero       
+columns     |  columna[]       |  Colección de columnas.       | False        |  Verdadero       
 measures     | medida[]        |  Colección de medidas.       | False        |  False       
 isHidden     | Booleano        | Si es true, se ocultará la tabla de las herramientas cliente.        | False        | False        
 
 ## <a name="column"></a>Columna
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria
+Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
 ---------|---------|---------|---------|---------
-nombre     |  Cadena        | Nombre definido por el usuario de la columna.        |  False       | True       
-dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#DataTypeRestrictions).      |  False       | True        
+name     |  Cadena        | Nombre definido por el usuario de la columna.        |  False       | Verdadero       
+dataType     |  Cadena       |  [Tipos de datos de EDM](https://msdn.microsoft.com/library/ee382832.aspx) y restricciones compatibles. Vea [Restricciones de tipo de datos](#DataTypeRestrictions).      |  False       | Verdadero        
 formatString     | Cadena        | Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).      | False        | False        
 sortByColumn    | Cadena        |   Nombre de cadena de una columna de la misma tabla que se va a usar para ordenar la columna actual.     | False        | False       
 dataCategory     | Cadena        |  Valor de cadena que se va a usar para la categoría de datos que describe los datos de esta columna. Algunos valores habituales son: dirección, ciudad, continente, país, imagen, URL de imagen, latitud, longitud, organización, ubicación, código postal, estado o provincia, URL de web       |  False       | False        
@@ -55,23 +55,23 @@ summarizeBy     | Cadena        |  Método de agregación predeterminado para la
 
 ## <a name="measure"></a>Medida
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria
+Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido
 ---------|---------|---------|---------|---------
-nombre     | Cadena        |  Nombre definido por el usuario de la medida.       |  False       | True        
-expression     | Cadena        | Expresión DAX válida.        | False        |  True       
+name     | Cadena        |  Nombre definido por el usuario de la medida.       |  False       | Verdadero        
+expression     | Cadena        | Expresión DAX válida.        | False        |  Verdadero       
 formatString     | Cadena        |  Cadena que describe cómo debe ser el formato del valor al mostrarse. Para más información sobre el formato de cadena, vea [FORMAT_STRING, contenido](https://msdn.microsoft.com/library/ms146084.aspx).       | False        | False        
 isHidden     | Cadena        |  Si es true, se ocultará la tabla de las herramientas cliente.       |  False       | False       
 
 ## <a name="relationship"></a>Relación
 
-Nombre  |Tipo  |Descripción  |Solo lectura  |Obligatoria 
+Nombre  |Tipo  |Descripción  |Solo lectura  |Requerido 
 ---------|---------|---------|---------|---------
-nombre     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | False       | True        
+name     | Cadena        | Nombre definido por el usuario de la relación. También se usa como identificador de la relación.        | False       | Verdadero        
 crossFilteringBehavior     | Cadena        |    La dirección del filtro de la relación: OneDirection (valor predeterminado), BothDirections, Automatic       | False        | False        
-fromTable     | Cadena        | Nombre de la tabla de clave externa.        | False        | True         
-fromColumn    | Cadena        | Nombre de la columna de clave externa.        | False        | True         
-toTable    | Cadena        | Nombre de la tabla de clave principal.        | False        | True         
-toColumn     | Cadena        | Nombre de la columna de clave principal.        | False        | True        
+fromTable     | Cadena        | Nombre de la tabla de clave externa.        | False        | Verdadero         
+fromColumn    | Cadena        | Nombre de la columna de clave externa.        | False        | Verdadero         
+toTable    | Cadena        | Nombre de la tabla de clave principal.        | False        | Verdadero         
+toColumn     | Cadena        | Nombre de la columna de clave principal.        | False        | Verdadero        
 
 <a name="DataTypeRestrictions"/>
 

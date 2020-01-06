@@ -10,10 +10,10 @@ ms.date: 10/31/2019
 ms.author: kfollis
 LocalizationGroup: Get started
 ms.openlocfilehash: 13928bc39801cdaccf73450da64c4f84048fbce3
-ms.sourcegitcommit: 90bd747b7c460d17b74cd386d3f5714234b1f6c9
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74791632"
 ---
 # <a name="sign-up-for-power-bi-as-an-individual"></a>Registro en Power BI como usuario individual
@@ -76,7 +76,7 @@ Si solo necesita una licencia de Power BI (gratis), ya no tiene que hacer nada 
 
 En la mayoría de los casos, puede registrarse en Power BI si sigue el proceso descrito. En la tabla siguiente se describen algunos de los problemas que pueden impedir que se registre junto con posibles soluciones.
 
-| Síntoma o mensaje de error | Causa y solución alternativa |
+| Síntoma o mensaje de error | Causa y solución |
 | ----------------------- | -------------------- |
 | <strong>Direcciones de correo electrónico personales (por ejemplo nancy@gmail.com)</strong> Recibirá un mensaje parecido a este durante el registro: <br /><br /> *Escribió una dirección de correo electrónico personal: escriba su dirección de correo electrónico de trabajo para que podamos almacenar con seguridad los datos de su compañía.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* | Power BI no admite direcciones de correo electrónico de proveedores de telecomunicaciones o servicios de correo electrónico de consumidor. <br /><br /> Para finalizar el registro, inténtelo de nuevo mediante una dirección de correo electrónico asignada, profesional o educativa. <br /><br /> Si todavía no puede suscribirse pero puede completar un proceso de instalación más avanzado, [regístrese para obtener una nueva suscripción de prueba de Office 365 y use ese correo electrónico para suscribirse](service-admin-signing-up-for-power-bi-with-a-new-office-365-trial.md). <br /><br /> También puede hacer que un usuario existente [le invite](service-admin-azure-ad-b2b.md). |
 | **Registro de autoservicio deshabilitado**: Recibirá un mensaje parecido a este durante el registro: <br /><br /> *No podemos completar la suscripción. El departamento de TI desactivó la suscripción de Microsoft Power BI. Póngase en contacto con ellos para completar la suscripción.* <br /><br /> o bien <br /><br /> *Escribió una dirección de correo electrónico personal. Escriba la dirección de trabajo para que podamos conectarle con otras personas de su empresa. Y no se preocupe. No compartiremos su dirección con nadie.* | El administrador de TI de su organización ha deshabilitado la suscripción de autoservicio para Power BI. <br /><br /> Para finalizar el registro, póngase en contacto con su administrador de TI y pídale que [siga las instrucciones para habilitar el registro](service-admin-licensing-organization.md#enable-or-disable-individual-user-sign-up-in-azure-active-directory). <br/><br/> También puede experimentar este problema si se [ha suscrito a Office 365 a través de un asociado](service-admin-syndication-partner.md). |

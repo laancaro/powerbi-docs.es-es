@@ -5,10 +5,10 @@ ms.topic: include
 ms.date: 12/03/2019
 ms.author: kfollis
 ms.openlocfilehash: e046ad861f65a0a1b7d0a704fded822038438d85
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74958614"
 ---
 En el servicio Power BI, los usuarios tienen capacidades definidas en función del tipo de licencia por usuario que tienen y si el contenido sobre el que actúan se encuentra en un área de trabajo asignada a una capacidad Power BI Premium.
