@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b674c621c30491a00c529af7f2fcd9eb87f3ecfa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834779"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223624"
 ---
 # <a name="report-page-drillthrough"></a>Obtención de detalles de la página del informe
 
@@ -63,7 +63,7 @@ En el momento del diseño del informe, se recomienda aplicar las siguientes prá
 - **Detección:** Ayude a promover la conciencia de una página de obtención de detalles estableciendo un texto de icono del encabezado visual o agregando instrucciones a un cuadro de texto. También puede diseñar una superposición, como se describe en [esta entrada de blog](https://alluringbi.com/2019/10/23/overlays-for-true-self-serve-reporting/).
 
 > [!TIP]
-> También se puede configurar la obtención de detalles en los informes paginados de Power BI. Puede hacerlo agregando vínculos a los informes de Power BI. Los vínculos pueden definir [parámetros de dirección URL](/blog/url-parameters-for-paginated-reports-are-now-available/).
+> También se puede configurar la obtención de detalles en los informes paginados de Power BI. Puede hacerlo agregando vínculos a los informes de Power BI. Los vínculos pueden definir [parámetros de dirección URL](https://powerbi.microsoft.com/blog/url-parameters-for-paginated-reports-are-now-available/).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

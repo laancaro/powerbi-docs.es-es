@@ -8,26 +8,18 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/01/2019
 ms.author: v-tatero
-ms.openlocfilehash: 44da3a20c203bfc50be08b0ed91efa6dfd998204
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 73b439b870a4f931c2db680c0067a6ea2fdf54ff
+ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882747"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "75548569"
 ---
 # <a name="power-bi-webinars"></a>Seminarios web de Power BI
 
 Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones grabadas a petición.
 
 ## <a name="upcoming-webinars"></a>Próximos seminarios web
-
-**Análisis en un evento virtual de Azure: acelere el tiempo de información con Azure Synapse Analytics**
-<br>de Gayle Sheppard y John Macintyre
-<br>[Regístrese ahora mismo](https://info.microsoft.com/WW-Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-Registration.html?ocid=AID2482920_QSG_373413)
-
-**Nine Trends Shaping the Future of Big Data Analytics** (9 tendencias que conforman el futuro del análisis de macrodatos)
-<br>por Vijay Gopalakrishnan
-<br>[Regístrese para verlo el 18 de diciembre](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Tres formas en las que la inteligencia artificial cambia la inteligencia empresarial**
 <br>por Justyna Lucznik
@@ -39,6 +31,10 @@ Regístrese en nuestros próximos seminarios web en vivo o vea nuestras sesiones
 
 Empiece por estos seminarios web a petición populares
 
+**Análisis en un evento virtual de Azure: acelere el tiempo de información con Azure Synapse Analytics**
+<br>de Gayle Sheppard y John Macintyre
+<br>[Registrarse y ver ahora](https://info.microsoft.com/Analytics-in-Azure-virtual-event-Accelerate-Time-to-Insight-with-Azure-Synapse-Analytics-On-Demand-Registration.html)
+
 **Cómo Microsoft cambia la protección de datos de BI**
 <br>de Anton Fritz y Adi Regev
 <br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-How-Microsoft-Is-Changing-BI-Data-Protection.html?lcid=EN-US)
@@ -46,6 +42,10 @@ Empiece por estos seminarios web a petición populares
 **Power BI and the Future of Modern and Enterprise BI** (Power BI y el futuro de la inteligencia empresarial y moderna)
 <br>de Arun Ulag y Amir Netz
 <br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-The-Future-of-Modern-and-Enterprise-BI-video.html?LCID=EN-US)
+
+**Nine Trends Shaping the Future of Big Data Analytics** (9 tendencias que conforman el futuro del análisis de macrodatos)
+<br>por Vijay Gopalakrishnan
+<br>[Registrarse y ver ahora](https://info.microsoft.com/ww-landing-Nine-Trends-Shaping-the-Future-of-Big-Data-Analytics.html?Lcid=EN-US)
 
 **Introducción a Power BI**
 <br>de Miguel Martinez
