@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 12/17/2019
 ms.author: davidi
 LocalizationGroup: Reports
-ms.openlocfilehash: d949978d431a219845ed93b59eb52439c9d7f0c0
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: f72d29e7f5bc7f93abd43f4c14cf0e53ef18f8d3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958641"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223746"
 ---
 # <a name="analyze-in-excel"></a>Analizar en Excel
 Puede que en ocasiones prefiera usar Excel para ver un conjunto de datos que tenga en Power BI e interactuar con él. Con **Analizar en Excel**, puede hacer justamente eso y acceder a las características de segmentación de datos, gráfico y tabla dinámica de Excel según el conjunto de datos que exista en Power BI.
@@ -95,7 +95,7 @@ Ahora que Excel está abierto y tiene una tabla dinámica vacía, está listo pa
 ## <a name="save"></a>Guardar
 Puede guardar este libro conectado al conjunto de datos de Power BI lo mismo que cualquier otro libro. Sin embargo, no puede volver a publicar o importar el libro en Power BI porque solo puede publicar o importar libros en Power BI que tengan datos en tablas, o que tengan un modelo de datos. Dado que el nuevo libro simplemente tiene una conexión con el conjunto de datos en Power BI, publicarlo o importarlo en Power BI sería repetir una y otra vez lo mismo.
 
-## <a name="share"></a>Uso compartido
+## <a name="share"></a>Compartir
 Una vez guardado el libro, puede compartirlo con otros usuarios de Power BI en su organización.
 
 Cuando un usuario con el que ha compartido el libro lo abre, verá las tablas dinámicas y los datos tal y como estaban cuando se guardó el libro por última vez, lo que no significa que sea la versión más reciente de los datos. Para obtener los datos más recientes, los usuarios deben utilizar el botón **Actualizar** situado en la cinta de opciones **Datos**. Y dado que el libro se conecta a un conjunto de datos en Power BI, los usuarios que intenten actualizarlo deberán iniciar sesión en Power BI e instalar las actualizaciones de Excel la primera vez que lo hagan con este método.
@@ -104,3 +104,11 @@ Dado que los usuarios necesitarán que actualice el conjunto de datos y no se pe
 
 ## <a name="troubleshooting"></a>Solución de problemas
 Puede haber ocasiones en las que al usar Analizar en Excel obtenga un resultado inesperado o que la característica no funcione según lo esperado. [Esta página proporciona soluciones para problemas comunes al utilizar Analizar en Excel.](desktop-troubleshooting-analyze-in-excel.md)
+
+## <a name="next-steps"></a>Pasos siguientes
+
+Puede que también esté interesado en los siguientes artículos:
+
+* [Uso de la obtención de detalles de varios informes en Power BI Desktop](desktop-cross-report-drill-through.md)
+* [Uso de segmentaciones de datos en Power BI Desktop](visuals/power-bi-visualization-slicers.md)
+

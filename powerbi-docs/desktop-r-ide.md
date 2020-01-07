@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: db4b6d4915e97aaee65806b0bca7801bf4ce951e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4440db5888eeeab638eab4ea3819107d37bdbdbd
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876228"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223465"
 ---
 # <a name="use-an-external-r-ide-with-power-bi"></a>Usar una IDE de R externa con Power BI
 Con **Power BI Desktop**, puede usar un IDE de R externo (entorno de desarrollo integrado) para crear y perfeccionar los scripts de R y después usar esos scripts en Power BI.
@@ -31,7 +31,7 @@ A partir de la versión de septiembre de 2016 de **Power BI Desktop** (versión 
 Para utilizar esta función, debe instalar un **IDE de R** en el equipo local. **Power BI Desktop** no incluye, implementa ni instala el motor de R, por lo que debe instalar por separado **R** en el equipo local. Puede elegir qué IDE de R usar con las siguientes opciones:
 
 * Puede instalar su IDE de R favorito, muchos de los cuales están disponibles de forma gratuita, como la [página de descarga de Revolution Open](https://mran.revolutionanalytics.com/download/) y el [repositorio CRAN](https://cran.r-project.org/bin/windows/base/).
-* **Power BI Desktop** también admite [R Studio](https://www.rstudio.com/) y **Visual Studio 2015** con editores [*Herramientas remotas para Visual Studio*](https://beta.visualstudio.com/vs/rtvs/).
+* **Power BI Desktop** también admite [R Studio](https://www.rstudio.com/) y **Visual Studio 2015** con editores [*Herramientas remotas para Visual Studio*](/visualstudio/rtvs).
 * También puede instalar un IDE de R diferente y que **Power BI Desktop** inicie ese **IDE de R** realizando uno de los siguientes procedimientos:
   
   * Puede asociar los archivos **.R** con el IDE externo que quiere que inicie **Power BI Desktop**.

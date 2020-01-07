@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 10/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: bfc1572e31269182e9ca63efbbf6934b90f84b66
-ms.sourcegitcommit: 462ccdd9f79ff698ed0cdfc3165f4ada364dd9ef
+ms.openlocfilehash: 723cc7b2767f6a5ee4394bca74e507fc688b3af8
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "74478628"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223637"
 ---
 # <a name="directquery-model-guidance-in-power-bi-desktop"></a>Instrucciones del modelo de DirectQuery en Power BI Desktop
 
@@ -87,7 +87,7 @@ Un modelo de DirectQuery se puede optimizar de muchas maneras, como se describe 
 
     El aumento del valor de **Conexiones máximas por origen de datos** garantiza que se puedan enviar más consultas (hasta el número máximo especificado) al origen de datos subyacente, lo que resulta útil cuando hay muchos objetos visuales en una sola página o bien cuando muchos usuarios acceden a un informe al mismo tiempo. Una vez alcanzado el número máximo de conexiones, las consultas siguientes se ponen en cola hasta que haya disponible una conexión. El aumento de este límite tiene como resultado más carga en el origen de datos subyacente, por lo que la configuración no garantiza que mejore el rendimiento general.
     
-    Cuando el modelo se publica en Power BI, el número máximo de consultas simultáneas enviadas al origen de datos subyacente también depende del entorno. Los distintos entornos (como Power BI, Power BI Premium o Power BI Report Server) pueden imponer diferentes restricciones de rendimiento. Para más información sobre las limitaciones de los recursos de capacidad Premium de Power BI, vea [Implementación y administración de capacidades Premium de Power BI](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment#premium-capacities).
+    Cuando el modelo se publica en Power BI, el número máximo de consultas simultáneas enviadas al origen de datos subyacente también depende del entorno. Los distintos entornos (como Power BI, Power BI Premium o Power BI Report Server) pueden imponer diferentes restricciones de rendimiento. Para más información sobre las limitaciones de los recursos de capacidad Premium de Power BI, vea [Implementación y administración de capacidades Premium de Power BI](https://docs.microsoft.com/power-bi/whitepaper-powerbi-premium-deployment).
 
 ## <a name="optimize-report-designs"></a>Optimización de los diseños de informes
 
