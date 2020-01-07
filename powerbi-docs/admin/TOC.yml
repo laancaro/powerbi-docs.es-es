@@ -36,7 +36,7 @@
           href: ../service-admin-portal.md
         - name: Búsqueda de usuarios que hayan iniciado sesión
           href: ../service-admin-access-usage.md
-        - name: Auditoría
+        - name: Seguimiento de actividades de usuario
           href: ../service-admin-auditing.md
         - name: Seguimiento de estado del servicio
           href: ../service-admin-health.md
