@@ -15,8 +15,6 @@
               href: power-bi-custom-visuals.md
         - name: Tutoriales
           items:
-            - name: Concepto visual
-              href: visuals/power-bi-visuals-concept.md
             - name: Desarrollo de un objeto visual de Power BI
               href: visuals/custom-visual-develop-tutorial.md
             - name: Adición de opciones de formato
@@ -25,6 +23,10 @@
               href: visuals/unit-tests-introduction.md
         - name: Conceptos
           items:
+            - name: Estructura de proyecto de objeto visual de Power BI
+              href: visuals/visual-project-structure.md
+            - name: Concepto visual
+              href: visuals/power-bi-visuals-concept.md
             - name: Objetos visuales para organizaciones en Power BI
               href: power-bi-custom-visuals-organization.md
             - name: Instrucciones para objetos visuales de Power BI
@@ -63,6 +65,8 @@
               href: visuals/bookmarks-support.md
             - name: Adición de compatibilidad con menús contextuales
               href: visuals/context-menu.md
+            - name: Adición de compatibilidad con exploración en profundidad
+              href: visuals/drill-down-support.md
             - name: Resaltado de datos en objetos visuales
               href: visuals/highlight.md
             - name: Adición de compatibilidad con el modo de contraste alto
