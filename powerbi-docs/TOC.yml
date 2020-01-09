@@ -1,4 +1,4 @@
-- name: Power BI Desktop
+- name: "Power\_BI Desktop"
   items:
     - name: Información general
       items:
@@ -509,7 +509,7 @@
               href: service-interruption-notifications.md
         - name: Amplíe Power BI
           items:
-            - name: Power&nbsp;Automate y Power&nbsp;BI
+            - name: "Power Automate y Power\_BI"
               href: service-flow-integration.md
             - name: Usar aplicaciones de terceros
               href: service-power-bi-get-started-third-party-apps.md
@@ -901,10 +901,8 @@
           href: report-builder-planning-report.md
         - name: Datos del generador de informes
           href: report-builder-data.md
-        - name: Orígenes de datos compatibles
+        - name: Orígenes de datos admitidos
           href: paginated-reports-data-sources.md
-        - name: Uso de conjuntos de datos compartidos de Power BI
-          href: report-builder-shared-datasets.md
         - name: Sugerencias de diseño
           href: report-builder-design-tips.md
         - name: 'Tablas, matrices y listas'
@@ -929,6 +927,8 @@
           href: paginated-reports-embedded-data-source.md
         - name: Creación de un conjunto de datos insertados
           href: paginated-reports-create-embedded-dataset.md
+        - name: "Crear un informe con un conjunto de datos compartido de Power\_BI"
+          href: report-builder-shared-datasets.md
         - name: Creación de parámetros
           href: paginated-reports-parameters.md
         - name: Pasar un parámetro de informe en una dirección URL
@@ -989,6 +989,8 @@
       items:
         - name: Instalar Power BI Desktop
           href: report-server/install-powerbi-desktop.md
+        - name: instalar el Generador de informes
+          href: report-server/install-report-builder.md
         - name: Aspectos básicos sobre el servidor de informes
           items:
             - name: Creación de un informe de Power BI para un servidor de informes
