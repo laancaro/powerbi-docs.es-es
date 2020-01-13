@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: 04b50882c28bf561e628e9f02dff6c147233d260
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099752"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622454"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -131,13 +131,13 @@ Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, ase
 * Asegúrese de seguir la documentación en la [oferta de la aplicación Power BI](https://docs.microsoft.com/azure/marketplace/cloud-partner-portal/power-bi/cpp-power-bi-offer).
 * En caso de que un panel forme parte de la aplicación, asegúrese de que no esté vacío.
 * Instale la aplicación mediante el vínculo de la aplicación antes de enviarla, asegúrese de que puede conectar el conjunto de datos y que la experiencia de la aplicación es la que planeó.
-* Antes de cargar bpix en el área de trabajo de plantilla, asegúrese de descargar cualquier conexión innecesaria.
+* Antes de cargar pbix en el área de trabajo de plantilla, asegúrese de descargar cualquier conexión innecesaria.
 * Siga los [procedimientos recomendados de diseño para informes y objetos visuales](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 
-| Destacado | Limitación conocida |
+| Característica | Limitación conocida |
 |---------|---------|
 |Contenido:  Conjuntos de datos   | Debe haber exactamente un conjunto de datos. Solo se permiten los conjuntos de datos creados en Power BI Desktop (archivos .pbix). <br>No se admiten: conjuntos de datos de otras aplicaciones de plantilla, conjuntos de datos de varias áreas de trabajo, informes paginados (archivos .rdl), libros de Excel. |
 |Contenido: Paneles | No se admiten los iconos en tiempo real (en otras palabras, no se admiten para los conjuntos de datos de inserción o streaming). |

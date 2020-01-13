@@ -1,19 +1,19 @@
 ---
 title: Introducción a la aplicación móvil de Power BI en dispositivos Android
 description: Aprenda cómo la aplicación móvil de Microsoft Power BI para Android le permite llevar Power BI en el bolsillo, al ofrecerle acceso móvil a información empresarial tanto local como de la nube.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/28/2018
-ms.author: mshenhav
-ms.openlocfilehash: 9a0d15c73ed19990a44ff888b73d9c569d0dfc5f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/08/2019
+ms.author: painbar
+ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876795"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220266"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -43,7 +43,7 @@ Incluso sin registrarse o iniciar sesión, después de abrir la aplicación, pue
 Descubra las [novedades de las aplicaciones móviles de Power BI](../../mobile-whats-new-in-the-mobile-apps.md).
 
 ## <a name="sign-up-for-the-power-bi-service-on-the-web"></a>Suscribirse al servicio Power BI en la Web
-Si aún no se ha registrado, vaya al [servicio Power BI (https://powerbi.com/)](https://powerbi.com/) para registrarse para tener su propia cuenta para crear y almacenar paneles e informes, así como para reunir todos sus datos. A continuación, inicie sesión en Power BI desde su dispositivo Android para ver sus paneles desde cualquier lugar.
+Si aún no se ha registrado, vaya al [servicio Power BI](https://powerbi.com/) para registrarse para tener su propia cuenta para crear y almacenar paneles e informes, así como para reunir todos sus datos. A continuación, inicie sesión en Power BI desde su dispositivo Android para ver sus paneles desde cualquier lugar.
 
 1. En el servicio de Power BI, pulse [Registrarse](https://go.microsoft.com/fwlink/?LinkID=513879) para crear una cuenta de Power BI.
 2. Empiece a [crear sus propios informes y paneles](../../service-get-started.md).
@@ -61,44 +61,26 @@ Si aún no se ha registrado, vaya al [servicio Power BI (https://powerbi.com/)](
    ![Iniciar sesión en Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Pruebe los ejemplos de Power BI y Reporting Services
-Incluso sin registrarse, puede practicar con los ejemplos de Power BI y Reporting Services. Después de descargar la aplicación, puede ver los ejemplos o comenzar. Practique con los ejemplos siempre que lo desee desde la página principal de los paneles.
+Incluso sin registrarse, puede ver e interactuar con los ejemplos de Power BI y Reporting Services.
 
-### <a name="power-bi-samples"></a>Ejemplos de Power BI
-Puede ver los ejemplos de panel de Power BI e interactuar con ellos, pero hay algunas cosas que no puede hacer con ellos. No puede abrir los informes de los paneles, compartir los ejemplos con otros usuarios ni añadirlos a los favoritos.
+Para acceder a los ejemplos, pulse **Más opciones** (...) en la barra de navegación y elija **Ejemplos**.
 
-1. Pulse el botón de navegación global ![Botón de navegación global](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) en la esquina superior izquierda.
-2. Pulse **Configuración** > **Descubra nuestros ejemplos**, elija un rol y explore el panel del ejemplo para ese rol.  
+Una serie de ejemplos de Power BI van seguidos de varios ejemplos del servidor de informes.
    
    ![Ejemplos de aplicaciones móviles de Power BI](./media/mobile-android-app-get-started/power-bi-android-power-bi-samples.png)
 
-### <a name="reporting-services-mobile-report-samples"></a>Ejemplos de informes móviles de Reporting Services
-1. Pulse el botón de navegación global ![Botón de navegación global](././media/mobile-android-app-get-started/power-bi-android-options-icon.png) en la esquina superior izquierda.
-2. Pulse **Ejemplos de Reporting Services**. Después, abra la carpeta Informes de venta directa o Informes de ventas para explorar sus KPI y los informes móviles.
    
-   ![Ejemplos de Reporting Services](./media/mobile-android-app-get-started/power-bi-android-reporting-services-samples.png)
-
-## <a name="search-for-a-dashboard-or-report"></a>Buscar un panel o informe
-* Pulse la lupa en la esquina superior derecha ![Icono de búsqueda](./media/mobile-android-app-get-started/power-bi-ipad-search-icon.png)y, después, escriba el término de búsqueda.
-  
-    ![Resultados de la búsqueda](./media/mobile-android-app-get-started/power-bi-android-tablet-search.png)
-  
-    De forma predeterminada busca todos los paneles e informes, pero usted puede buscar solo uno de ellos.
+   > [!NOTE]
+   > No todas las características están disponibles en los ejemplos. Por ejemplo, no podrá ver los informes de ejemplo que subyacen a los paneles, no podrá compartir los ejemplos con otros usuarios y no podrá convertirlos en favoritos. 
+   > 
+   >
 
 ## <a name="find-your-content-in-the-power-bi-mobile-apps"></a>Buscar contenido en las aplicaciones móviles de Power BI
-Sus paneles e informes se almacenan en distintos lugares en las aplicaciones móviles de Power BI, dependiendo de su procedencia. Obtenga información sobre cómo [buscar contenido en las aplicaciones móviles](../../mobile-apps-quickstart-view-dashboard-report.md). Además, siempre puede buscar algo que tenga en las aplicaciones móviles de Power BI. 
 
-![Panel de navegación](./media/mobile-android-app-get-started/power-bi-mobile-new-nav-no-numbers.png)
+Pulse en la lupa del encabezado para empezar a buscar el contenido de Power BI.
 
-## <a name="view-your-favorite-dashboards-kpis-and-reports"></a>Ver los informes, KPI y paneles favoritos
-En la página Favoritos de las aplicaciones móviles verá todos sus paneles favoritos de Power BI, junto con los informes y los KPI del generador de informes de Power BI y de Reporting Services. Cuando define un panel como *favorito* en la aplicación móvil de Power BI, puede tener acceso a este desde todos sus dispositivos, incluido el servicio Power BI en el explorador. 
-
-* Pulse **Favoritos**.
-  
-   ![Favoritos en el panel de navegación](./media/mobile-android-app-get-started/power-bi-android-favorite-left-nav.png)
-  
-   Todos los favoritos de Power BI y del portal web del servidor de informes de Power BI y Reporting Services se encuentran en esta página.
-  
-   ![Página Favoritos](./media/mobile-android-app-get-started/power-bi-android-favorites-callouts.png)
+## <a name="view-your-favorite-dashboards-and-reports"></a>Visualización de informes y paneles favoritos
+Pulse **Favoritos** (![](./media/mobile-android-app-get-started/power-bi-mobile-apps-home-favorites-icon.png)) en la barra de navegación para ver la página Favoritos. 
 
 Obtenga más información sobre los [favoritos en las aplicaciones móviles Power BI](mobile-apps-favorites.md).
 
@@ -112,7 +94,7 @@ Microsoft Intune permite a las organizaciones controlar elementos como requerir 
 > 
 > 
 
-Obtenga más información sobre cómo [configurar aplicaciones móviles de Power BI para Android con Microsoft Intune](../../service-admin-mobile-intune.md). 
+Obtenga más información sobre cómo [configurar la aplicación móvil Power BI con Microsoft Intune](../../service-admin-mobile-intune.md). 
 
 ## <a name="next-steps"></a>Pasos siguientes
 Estas son algunas de las cosas que puede hacer en la aplicación de Power BI para dispositivos Android con los paneles e informes de Power BI, y con los informes los KPI del portal web de Power BI Report Server o Reporting Services.

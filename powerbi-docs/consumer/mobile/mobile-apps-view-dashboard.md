@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 07/05/2019
 ms.author: mshenhav
-ms.openlocfilehash: 1a3450ba4a31679c9e2e4ad844ef1058ebfdf4ee
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d35d54308f778033f508549bfd52e9d61ef2a949
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870662"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218387"
 ---
 # <a name="view-dashboards-and-reports-in-the-power-bi-mobile-apps"></a>Visualización de paneles e informes en la aplicación móvil de Power BI
 Se aplica a:
@@ -63,7 +63,7 @@ Este es un panel de Power BI en el servicio Power BI:
    
    * [Pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en el modo enfocado e interactuar con él.
    * Pulse en la estrella ![Estrella de favorito](././media/mobile-apps-view-dashboard/power-bi-mobile-not-favorite-icon.png) para [convertirlo en favorito](mobile-apps-favorites.md).
-   * Pulse en **Invitar** ![Icono Invitar](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [invitar a un compañero](mobile-share-dashboard-from-the-mobile-apps.md) a ver su panel.
+   * Pulse **Invitar** ![icono Invitar](./media/mobile-apps-view-dashboard/pbi_ipad_shareiconblk.png) para [invitar a un compañero](mobile-share-dashboard-from-the-mobile-apps.md) a ver el panel.
    * [Sincronizar el panel con Apple Watch](mobile-apple-watch.md).
 4. Para volver a la lista de paneles, pulse la flecha situada junto al título del panel y, después, pulse **Mi área de trabajo**.
    
@@ -119,7 +119,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
 
 1. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
-   ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Menú de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 2. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
 3. Para volver a la página principal de paneles, pulse el nombre del panel para abrir el rastro de la ruta de exploración y, después, pulse **Mi área de trabajo**.   
 
@@ -135,7 +135,7 @@ Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del pane
    * La notación debajo de cada nombre de panel (en este ejemplo, "MBI") ![Clasificación de datos](././media/mobile-apps-view-dashboard/power-bi-android-dashboard-medium-classification.png) muestra cómo se clasifican los datos de cada panel. Obtenga más información sobre la [clasificación de datos en Power BI](../../service-data-classification.md).
 3. En el panel, puede pulsar el botón vertical **Más opciones** (...) al lado del nombre para invitar a un colega, para actualizar o para obtener información sobre el panel:
    
-   ![Menú del botón de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
+   ![Menú de puntos suspensivos](././media/mobile-apps-view-dashboard/pbi_andr_dashellipsis.png)
 4. Deslice el dedo hacia arriba y hacia abajo para ver todos los [iconos del panel](mobile-tiles-in-the-mobile-apps.md). 
    
    Puede usar el gesto de "reducir" para acercar y alejar distintas áreas del panel, y el de desplazamiento lateral para navegar por él. Y puede [pulsar un icono](mobile-tiles-in-the-mobile-apps.md) para abrirlo en modo enfocado e interactuar con los datos.

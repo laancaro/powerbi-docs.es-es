@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: bbb0584843f79445c4e5cca073f9c4b953d346aa
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "74699369"
 ---
 # <a name="use-security-assertion-markup-language-saml-for-sso-from-power-bi-to-on-premises-data-sources"></a>Uso de SAML (Lenguaje de marcado de aserción de seguridad) para el SSO de Power BI en orígenes de datos locales
 
 La habilitación de SSO facilita la tarea de los informes y paneles de Power BI de actualizar los datos de orígenes locales al tiempo que se respetan los permisos de nivel de usuario configurados en esos orígenes. Use [SAML (Lenguaje de marcado de aserción de seguridad)](https://www.onelogin.com/pages/saml) para habilitar la conectividad de inicio de sesión único directa. 
 
-## <a name="supported-data-sources"></a>Orígenes de datos compatibles
+## <a name="supported-data-sources"></a>Orígenes de datos admitidos
 
 Actualmente se admite SAP HANA con SAML. Para más información acerca de cómo instalar y configurar el inicio de sesión único para SAP HANA con SAML, consulte [SSO de SAML para la plataforma de BI a HANA](https://wiki.scn.sap.com/wiki/display/SAPHANA/SAML+SSO+for+BI+Platform+to+HANA).
 
@@ -104,7 +104,7 @@ Ahora que ha configurado el certificado y la identidad de la puerta de enlace, c
 
     1. Escriba la contraseña y, a continuación, seleccione **Siguiente**.
 
-    1. Seleccione **Place all certificates in the following store** (Colocar todos los certificados en el siguiente almacén) y **Browse** &gt; **Personal** &gt; **OK** (Examinar > Personal > Aceptar).
+    1. Seleccione **Colocar todos los certificados en el siguiente almacén** y, después, **Examinar** &gt; **Personal** &gt; **Aceptar**.
 
     1. Seleccione **Next** (Siguiente) y **Finish** (Finalizar).
 
@@ -120,7 +120,7 @@ Ahora que ha configurado el certificado y la identidad de la puerta de enlace, c
 
         ![Adición de un complemento](media/service-gateway-sso-saml/add-snap-in.png)
 
-    1. Seleccione **Certificates** &gt; **Add** (Certificados > Agregar) y **Computer account** &gt; **Next** (Cuenta de equipo > Siguiente).
+    1. Seleccione **Certificados** &gt; **Agregar** y, después, **Cuenta de equipo** &gt; **Siguiente**.
 
     1. Seleccione **Equipo local** &gt; **Finalizar** &gt; **Aceptar**.
 

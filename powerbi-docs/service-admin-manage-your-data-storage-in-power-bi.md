@@ -11,10 +11,10 @@ ms.date: 12/21/2018
 ms.author: maggies
 LocalizationGroup: Administration
 ms.openlocfilehash: f8e7240b34e20a3d18443cadb5265c5d0d870790
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873657"
 ---
 # <a name="manage-data-storage-in-power-bi-workspaces"></a>Administración del almacenamiento de datos en las áreas de trabajo de Power BI
@@ -48,7 +48,7 @@ Consulte el almacenamiento de datos que usa en su cuenta de Power BI y administr
 1. Para administrar su propio almacenamiento, vaya a **Mi área de trabajo** en el panel de navegación.
    
     ![Mi área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_myworkspace.png)
-2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de le esquina superior derecha \> **Administrar almacenamiento personal**.
+2. Seleccione el icono de engranaje ![Icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) en la esquina superior derecha de \> **Administrar almacenamiento personal**.
    
     La barra superior muestra la cantidad del límite de almacenamiento que se ha usado.
    
@@ -66,7 +66,7 @@ Tenga en cuenta que usted u otra persona puede tener informes y paneles basados 
 1. Seleccione la flecha situada junto a **Áreas de trabajo** \> y el nombre del área de trabajo.
    
     ![Selección de un área de trabajo](media/service-admin-manage-your-data-storage-in-power-bi/pbi_groupworkspaces.png)
-2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha \> **Administrar almacenamiento del grupo**.
+2. Seleccione el icono de engranaje ![icono de engranaje](media/service-admin-manage-your-data-storage-in-power-bi/pbi_gearicon.png) de la esquina superior derecha de \> **Administrar almacenamiento del grupo**.
    
     La barra superior muestra la cantidad del límite de almacenamiento del grupo que se ha usado.
    

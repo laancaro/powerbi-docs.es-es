@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/29/2019
+ms.date: 12/18/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 934f045e2546893c48211729402a773b4bbe2aa0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 044952c6ce5e3b1550067f9d288f8eab02b868bb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74696770"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223706"
 ---
 # <a name="large-models-in-power-bi-premium-preview"></a>Modelos grandes en Power BI Premium (versión preliminar)
 
@@ -118,23 +118,4 @@ Tenga en cuenta las siguientes restricciones cuando use modelos grandes:
 - **Compatibilidad con múltiples ubicaciones geográficas**: los conjuntos de datos habilitados para Files Premium producirán errores en las capacidades en las que también tengan habilitadas [múltiples ubicaciones geográficas](service-admin-premium-multi-geo.md).
 
 - **Descarga en Power BI Desktop**: si un conjunto de datos se almacena en Files Premium, se producirá un error al [descargar como archivo .pbix](service-export-to-pbix.md).
-- **Regiones admitidas**: los modelos grandes se admiten en las siguientes regiones.
-  - Este de Australia
-  - Sudeste de Australia
-  - Centro de EE. UU.
-  - Asia Oriental
-  - Este de EE. UU.
-  - Este de EE. UU. 2
-  - Este de Japón
-  - Oeste de Japón
-  - Centro de Corea del Sur
-  - Sur de Corea del Sur
-  - Centro y norte de EE. UU.
-  - Europa del Norte
-  - Centro-sur de EE. UU.
-  - Sudeste Asiático
-  - Sur de Reino Unido
-  - Oeste de Reino Unido
-  - Europa Occidental
-  - Oeste de EE. UU.
-  - Oeste de EE. UU. 2
+- **Regiones admitidas**: Se admiten modelos grandes en todas las regiones de Azure que admiten el almacenamiento de archivos Premium. Para obtener más información, vea [Productos disponibles por región](https://azure.microsoft.com/global-infrastructure/services/?products=storage).

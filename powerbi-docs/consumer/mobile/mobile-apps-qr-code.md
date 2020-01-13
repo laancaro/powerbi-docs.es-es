@@ -1,19 +1,19 @@
 ---
 title: Detección de un código QR de Power BI desde un dispositivo móvil
 description: Los códigos QR en Power BI pueden conectar cualquier cosa del mundo real directamente con información de BI en la aplicación móvil de Power BI para iPhones y dispositivos Android.
-author: KesemSharabi
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 03/13/2018
-ms.author: mshenhav
-ms.openlocfilehash: ba810bf416a913ddb41ab02c0afe7373e5c107f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: d28596aae776d9a0087895cae38fc2e8848297b6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879207"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218957"
 ---
 # <a name="scan-a-power-bi-qr-code-from-your-mobile-device"></a>Detección de un código QR de Power BI desde un dispositivo móvil
 Se aplica a:
@@ -34,33 +34,38 @@ Si su compañero no ha compartido el panel o informe con usted, puede solicitar 
 > También puede [escanear un código QR de informe con la aplicación Power BI for Mixed Reality](mobile-mixed-reality-app.md#scan-a-report-qr-code-in-holographic-view).
 
 ## <a name="scan-a-power-bi-qr-code-on-your-iphone-with-the-power-bi-scanner"></a>Detección de un código QR de Power BI en el iPhone con el escáner de Power BI
-1. En la aplicación móvil de Power BI, abra el menú de navegación global ![](media/mobile-apps-qr-code/power-bi-iphone-global-nav-button.png) en la parte superior izquierda. 
-2. Desplácese hacia abajo hasta **Escáner** y selecciónelo. 
-   
-    ![](media/mobile-apps-qr-code/power-bi-iphone-scanner-menu.png)
-3. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
-4. Seleccione el escáner en el código QR de Power BI. 
+
+1. En la barra de navegación, pulse **Más opciones** (...) y después **Escáner**.
+
+    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+
+2. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
+ 
+3. Seleccione el escáner en el código QR de Power BI. 
    
     ![](media/mobile-apps-qr-code/power-bi-align-qr-code.png)
-5. El icono o el informe aparece al mantener el mouse sobre el fondo en realidad aumentada.
+4. El icono o el informe aparece al mantener el mouse sobre el fondo en realidad aumentada.
    
     ![](media/mobile-apps-qr-code/power-bi-ios-qr-ar-scanner.png)
-6. Pulse el informe o el icono para abrirlo en modo de enfoque, o regresar al escáner.
+
+5. Pulse el informe o el icono para abrirlo en modo de enfoque, o regresar al escáner.
 
 ### <a name="scan-a-qr-code-from-an-external-scanner-on-your-iphone"></a>Escanear un código QR desde un escáner externo a su iPhone
 1. Desde cualquier escáner instalado en el teléfono, apunte el escáner al código QR de Power BI pertinente para acceder de inmediato al icono o informe. 
 2. Si no tiene instalada la aplicación Power BI, se le redirigirá a [App Store de Apple para descargarla](https://go.microsoft.com/fwlink/?LinkId=522062) en el iPhone.
 
 ## <a name="scan-a-power-bi-qr-code-on-your-android-device-with-the-power-bi-scanner"></a>Detección de un código QR de Power BI en un dispositivo Android con el escáner de Power BI
-1. En la aplicación móvil de Power BI, abra el botón de navegación global ![](media/mobile-apps-qr-code/power-bi-android-global-nav-icon.png) en la parte superior izquierda. 
-2. Desplácese hacia abajo hasta el **Escáner QR** y selecciónelo.
-   
-    ![](media/mobile-apps-qr-code/power-bi-android-scanner-menu.png)
-3. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
-4. Seleccione el escáner en el código QR de Power BI. 
+
+1. En la barra de navegación, pulse **Más opciones** (...) y después **Escáner**.
+
+    ![](media/mobile-apps-qr-code/power-bi-scanner.png)
+
+2. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
+
+3. Seleccione el escáner en el código QR de Power BI. 
    
     ![](media/mobile-apps-qr-code/pbi_iph_qrscan.png)
-5. El icono o informe se abre automáticamente en Power BI.
+4. El icono o informe se abre automáticamente en Power BI.
    
     ![](media/mobile-apps-qr-code/power-bi-android-tile.png)
 

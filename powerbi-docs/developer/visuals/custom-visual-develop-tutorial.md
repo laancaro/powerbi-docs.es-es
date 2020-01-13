@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.topic: tutorial
 ms.subservice: powerbi-custom-visuals
 ms.date: 03/15/2019
-ms.openlocfilehash: 5bf3fee0f3df7b5be04b99e16a8a4043e8fcf30e
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 6a481681801b580b9eec47c5c704d8bdea8835f1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128011"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75222112"
 ---
 # <a name="tutorial-developing-a-power-bi-visual"></a>Tutorial: Desarrollar un objeto visual de Power BI
 
@@ -38,7 +38,7 @@ En este tutorial, obtendrá información sobre cómo:
 
 * Si no está registrado en **Power BI Pro**, [regístrese para obtener una evaluación gratuita](https://powerbi.microsoft.com/pricing/) antes de empezar.
 * Necesita tener [Visual Studio Code](https://www.visualstudio.com/) instalado.
-* Necesita la versión 4 de [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) o una posterior para los usuarios de Windows o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para los usuarios de OSX.
+* Necesita la versión 4 de [Windows PowerShell](https://docs.microsoft.com/powershell/scripting/install/installing-windows-powershell?view=powershell-6) o una posterior para los usuarios de Windows o [Terminal](https://macpaw.com/how-to/use-terminal-on-mac) para los usuarios de OSX.
 
 ## <a name="setting-up-the-developer-environment"></a>Configuración del entorno de desarrollo
 
@@ -398,6 +398,9 @@ Ahora podemos explorar cómo desarrollar el objeto visual personalizado para mos
     import IVisual = powerbi.extensibility.IVisual;
     import VisualConstructorOptions = powerbi.extensibility.visual.VisualConstructorOptions;
     import VisualUpdateOptions = powerbi.extensibility.visual.VisualUpdateOptions;
+    import EnumerateVisualObjectInstancesOptions = powerbi.EnumerateVisualObjectInstancesOptions;
+    import VisualObjectInstanceEnumeration = powerbi.VisualObjectInstanceEnumeration;
+    import IVisualHost = powerbi.extensibility.visual.IVisualHost;
 
     import * as d3 from "d3";
     type Selection<T extends d3.BaseType> = d3.Selection<T, any,any, any>;

@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 4776e458c778b6bd482106660ab9b8cd978699e5
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 99d57b734e42913db20e8a414c3216ed66334fa8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882897"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224192"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -168,9 +168,9 @@ Las secciones siguientes proporcionan una visión general de los distintos tipos
 
 Los usuarios de la organización pueden obtener acceso a recursos de ayuda y soporte técnico internos desde el menú Ayuda de Power BI. Concretamente, estos parámetros cambian el comportamiento de los elementos de menú Saber más, Comunidad y Obtener ayuda.
 
-    ![Enable except setting](media/service-admin-portal/powerbi-admin-tenant-settings-enabled-except2.png)
+Además, al especificar una dirección URL para las solicitudes de licencia, puede personalizar la dirección URL de destino del botón **Actualización de cuenta**. Los usuarios que no tengan una licencia de Power BI Pro verán este botón en el cuadro de diálogo **Actualizar a Power BI Pro**, así como en la página **Administrar almacenamiento personal**. Además, Power BI ya no ofrece el botón **Probar Pro gratis** en este cuadro de diálogo ni en la página de almacenamiento. Esto garantiza que Power BI guiará a los usuarios de forma confiable por los procesos definidos en la organización en la solución de administración de licencias.
 
-Mediante la especificación de una dirección URL para las solicitudes de licencia, puede personalizar la dirección URL de destino del botón **Actualizar cuenta** que encontrará un usuario sin licencia de Power BI Pro en el cuadro de diálogo **Actualizar a Power BI Pro**, así como en la página **Administrar almacenamiento personal**. Además, Power BI ya no ofrece el botón **Probar Pro gratis** en este cuadro de diálogo ni en la página de almacenamiento para asegurarse de que Power BI guía a los usuarios de forma confiable a través de los procesos definidos en su organización mediante la solución de administración de licencias.
+![Opción de habilitar con excepciones](media/service-admin-portal/powerbi-admin-tenant-settings-gethelp.png)
 
 ### <a name="receive-email-notifications-for-service-outages-or-incidents"></a>Recepción de notificaciones por correo electrónico sobre interrupciones o incidentes en el servicio
 
@@ -386,7 +386,7 @@ Los usuarios de la organización pueden etiquetar paneles con clasificaciones qu
 
 ## <a name="developer-settings"></a>Configuración de desarrollador
 
-### <a name="embed-content-in-apps"></a>Insertar contenido en las aplicaciones
+### <a name="embed-content-in-apps"></a>Insertar contenido en aplicaciones
 
 Los usuarios de la organización pueden insertar informes y paneles de Power BI en las aplicaciones de software como servicio (SaaS). Si deshabilita esta configuración, impide que los usuarios puedan usar las API REST para insertar contenido de Power BI en la aplicación. [Más información](developer/embedding.md)
 

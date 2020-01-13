@@ -10,10 +10,10 @@ ms.date: 04/19/2019
 ms.author: davidi
 LocalizationGroup: Model your data
 ms.openlocfilehash: f759992c42cc589d21ed51d5d63775bf54518c3f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73869130"
 ---
 # <a name="create-and-manage-relationships-in-power-bi-desktop"></a>Crear y administrar relaciones en Power BI Desktop
@@ -80,7 +80,7 @@ Una vez que haya conectado dos tablas junto con una relación, puede trabajar co
 Vamos a hacer un breve tutorial para mostrarle mejor cómo funcionan las relaciones en Power BI Desktop.
 
 >[!TIP]
->Puede completar esta lección. Copie la tabla ProjectHours de abajo en una hoja de cálculo de Excel, seleccione todas las celdas, haga clic en **INSERTAR** \> **Tabla**. En el cuadro de diálogo **Crear tabla** , haga clic en **Aceptar**. A continuación, en **Nombre de tabla**, escriba **ProjectHours**. Haga lo mismo para la tabla CompanyProject. A continuación, puede importar los datos mediante **Obtener datos** en Power BI Desktop. Seleccione el libro y las tablas como origen de datos.
+>Puede completar esta lección. Copie la tabla ProjectHours siguiente en una hoja de cálculo de Excel, seleccione todas las celdas, haga clic en **INSERTAR** \> **Tabla**. En el cuadro de diálogo **Crear tabla** , haga clic en **Aceptar**. A continuación, en **Nombre de tabla**, escriba **ProjectHours**. Haga lo mismo para la tabla CompanyProject. A continuación, puede importar los datos mediante **Obtener datos** en Power BI Desktop. Seleccione el libro y las tablas como origen de datos.
 
 Esta primera tabla, ProjectHours, es un registro de los vales de trabajo que registran el número de horas que una persona ha trabajado en determinado proyecto. 
 
@@ -92,9 +92,9 @@ Esta primera tabla, ProjectHours, es un registro de los vales de trabajo que reg
 | 1002 |Brewer, Alan |26 |Rojo |2/1/2013 |
 | 1003 |Ito, Shu |34 |Amarillo |12/4/2012 |
 | 1004 |Brewer, Alan |13 |Naranja |1/2/2012 |
-| 1005 |Bowen, Eli |29 |Púrpura |10/1/2013 |
+| 1005 |Bowen, Eli |29 |Púrpura |1/10/2013 |
 | 1006 |Bento, Nuno |35 |Verde |2/1/2013 |
-| 1007 |Hamilton, David |10 |Amarillo |10/1/2013 |
+| 1007 |Hamilton, David |10 |Amarillo |1/10/2013 |
 | 1008 |Han, Mu |28 |Naranja |1/2/2012 |
 | 1009 |Ito, Shu |22 |Púrpura |2/1/2013 |
 | 1010 |Bowen, Eli |28 |Verde |10/1/2013 |
@@ -186,7 +186,7 @@ La siguiente tabla CompanyProjectPriority es una lista de todos los proyectos de
 |:--- | ---:| ---:|
 | Azul |40,000 |12/1/2012 |
 | Rojo |100,000 |12/1/2012 |
-| Verde |50,000 |12/1/2012 |
+| Verde |50 000 |12/1/2012 |
 
 **CompanyProjectPriority**
 
@@ -208,7 +208,7 @@ Se establecerá automáticamente cardinalidad en uno a uno (1:1) y el filtrado c
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 |:--- | --- | ---:| ---:|
 | Azul |A |40,000 |12/1/2012 |
-| Rojo |B |100,000 |12/1/2012 |
+| Rojo |B |100 000 |12/1/2012 |
 | Verde |C |50,000 |12/1/2012 |
 | Amarillo |C |<br /> |<br /> |
 | Púrpura |B |<br /> |<br /> |
@@ -224,7 +224,7 @@ Sin embargo, supongamos que sabe que los datos cambiarán la próxima vez que lo
 | --- | ---:| ---:|
 | Azul |40,000 |12/1/2012 |
 | Rojo |100,000 |12/1/2012 |
-| Verde |50,000 |12/1/2012 |
+| Verde |50 000 |12/1/2012 |
 | Azul |80,000 |6/1/2013 |
 | Rojo |90,000 |6/1/2013 |
 
@@ -233,7 +233,7 @@ Sin embargo, supongamos que sabe que los datos cambiarán la próxima vez que lo
 | **Project** | **Priority** | **BudgetAllocation** | **AllocationDate** |
 | --- | --- | ---:| ---:|
 | Azul |A |40,000 |12/1/2012 |
-| Rojo |B |100,000 |12/1/2012 |
+| Rojo |B |100 000 |12/1/2012 |
 | Verde |C |50,000 |12/1/2012 |
 | Amarillo |C |<br /> |<br /> |
 | Púrpura |B |<br /> |<br /> |
@@ -294,9 +294,9 @@ Veamos un ejemplo. Esta primera tabla es ProjectTickets y la tabla siguiente es 
 | 1002 |Roman, Daniel |Brewer, Alan |26 |Rojo |2/1/2013 |
 | 1003 |Roth, Daniel |Ito, Shu |34 |Amarillo |12/4/2012 |
 | 1004 |Perham, Tom |Brewer, Alan |13 |Naranja |1/2/2012 |
-| 1005 |Roman, Daniel |Bowen, Eli |29 |Púrpura |10/1/2013 |
+| 1005 |Roman, Daniel |Bowen, Eli |29 |Púrpura |1/10/2013 |
 | 1006 |Roth, Daniel |Bento, Nuno |35 |Verde |2/1/2013 |
-| 1007 |Roth, Daniel |Hamilton, David |10 |Amarillo |10/1/2013 |
+| 1007 |Roth, Daniel |Hamilton, David |10 |Amarillo |1/10/2013 |
 | 1008 |Perham, Tom |Han, Mu |28 |Naranja |1/2/2012 |
 | 1009 |Roman, Daniel |Ito, Shu |22 |Púrpura |2/1/2013 |
 | 1010 |Roth, Daniel |Bowen, Eli |28 |Verde |10/1/2013 |

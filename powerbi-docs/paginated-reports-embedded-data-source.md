@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 06/06/2019
-ms.openlocfilehash: d7a170cad376c3ec9fd3ca8ca7d2c8d2d8ac0223
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7cfc52557d9dcce03dd2e42818bb04f4754c190d
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875302"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75304305"
 ---
 # <a name="create-an-embedded-data-source-for-paginated-reports-in-the-power-bi-service"></a>Creación de un origen de datos insertado para informes paginados en el servicio Power BI
 
@@ -75,21 +75,21 @@ Los informes paginados que se conectan a los conjuntos de datos de Power BI sig
 
 - .rdl en la misma área de trabajo que el conjunto de datos (mismo propietario): Admitido
 - .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido
-- .rdl compartido: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
-- Aplicación compartida: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- .rdl compartido: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Aplicación compartida: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
 - .rdl en la misma área de trabajo que el conjunto de datos (usuario distinto): Admitido
-- .rdl en una misma área de trabajo distinta a la del conjunto de datos (usuario distinto): necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
-- Seguridad en el nivel de rol: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos para aplicarla.
+- .rdl en una área de trabajo distinta a la del conjunto de datos (otro usuario): necesita permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Seguridad en el nivel de rol: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos para aplicarla.
 
 ### <a name="new-experience-apps-and-workspaces"></a>Nueva experiencia de aplicaciones y áreas de trabajo
 
 - .rdl en la misma área de trabajo que el conjunto de datos: Admitido
 - .rdl en una área de trabajo distinta a la del conjunto de datos (mismo propietario): Admitido
-- .rdl compartido: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
-- Aplicación compartida: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- .rdl compartido: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Aplicación compartida: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
 - .rdl en la misma área de trabajo que el conjunto de datos (usuario distinto): se admite.
-- .rdl en una área de trabajo distinta a la del conjunto de datos (usuario distinto): necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
-- Seguridad en el nivel de rol: necesita un permiso de compilación asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos para aplicarla.
+- .rdl en una área de trabajo distinta a la del conjunto de datos (usuario distinto): necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos.
+- Seguridad en el nivel de rol: necesita un permiso de lectura asignado a cada usuario que esté viendo el informe en el nivel de conjunto de datos para aplicarla.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

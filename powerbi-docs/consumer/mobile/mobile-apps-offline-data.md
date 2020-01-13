@@ -1,19 +1,19 @@
 ---
 title: Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 description: 'Obtenga más información sobre una ventaja de ver Power BI en una aplicación móvil en lugar de un explorador móvil: puede ver los datos aunque no esté conectado a una red.'
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 06/27/2018
-ms.author: mshenhav
-ms.openlocfilehash: 09a4595b461f69cfa02b4cc0ca3c96b1eb917ef8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/09/2019
+ms.author: painbar
+ms.openlocfilehash: 2974f257509d88a469f981bbdecf8cdca47c8e9e
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870611"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219095"
 ---
 # <a name="view-your-data-offline-in-the-power-bi-mobile-apps"></a>Consulta de datos sin conexión en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -34,7 +34,7 @@ Mientras está sin conexión, puede obtener acceso e interactuar con los paneles
 También tiene acceso de solo lectura a los informes de Power BI a los que ha tenido acceso previamente desde la aplicación móvil. Puede ver el informe completo, pero no filtrar, aplicar filtros cruzados, ordenar ni usar segmentaciones de datos en él.
 
 ## <a name="background-data-refresh"></a>Actualización de datos en segundo plano
-La actualización en segundo plano actualiza sus paneles favoritos, así como los paneles y los informes que ha visto en las últimas dos semanas, con los datos del servicio Power BI (no del origen de datos). Si está conectado a Wi-Fi, la actualización en segundo plano se realiza cada 2 horas. En cambio, si está conectado a una red 3G, Power BI actualiza el contenido cada 24 horas.
+La actualización en segundo plano actualiza sus paneles favoritos, así como los paneles y los informes que ha visto en las últimas dos semanas, con los datos del servicio Power BI (no del origen de datos). Si está conectado a una red Wi-Fi, la actualización en segundo plano se realiza cada 2 horas. En cambio, si está conectado a una red 3G, Power BI actualiza el contenido cada 24 horas.
 
 Puede desactivar la actualización en segundo plano, por ejemplo, para evitar el uso de la red. Compruebe la configuración en el dispositivo.
 
@@ -65,4 +65,3 @@ Sus comentarios nos ayudan a decidir qué implementaremos en el futuro; no olvid
 * Siga @MSPowerBI en Twitter
 * Únase a la conversación en la [comunidad de Power BI](https://community.powerbi.com/)
 * [¿Qué es Power BI?](../../fundamentals/power-bi-overview.md)
-

@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 05/05/2018
 ms.author: mshenhav
-ms.openlocfilehash: 34fe1af53a62c5198cc30625d840321c414be8f7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6feba420e5bdc25651176be67e6f86f1dafc9ef6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879378"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75219597"
 ---
 # <a name="qa-virtual-analyst-in-ios-apps---power-bi"></a>Analista virtual de Preguntas y respuestas en las aplicaciones iOS: Power BI
 
@@ -33,63 +33,26 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-### <a name="install-the-power-bi-for-ios-app"></a>Instalación de la aplicación de Power BI para iOS
-[Descargar la aplicación de iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Descarga de la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
+* **Instale la aplicación de Power BI para iOS**: [Descargue la aplicación iOS](https://go.microsoft.com/fwlink/?LinkId=522062) en el iPhone o iPad.
+Estas versiones admiten la aplicación de Power BI para iOS:
+    * iPad con iOS 11 o posterior.
+    * iPhone 5 y versiones posteriores, con iOS 11 o posterior.
+* **Descargue los ejemplos Análisis de minoristas y Análisis de oportunidades**: el primer paso de este inicio rápido consiste en descargar los ejemplos Análisis de minoristas y Análisis de oportunidades en el servicio Power BI. [Obtenga información sobre cómo descargar un ejemplo](./mobile-apps-download-samples.md) en la cuenta de Power BI para comenzar. Asegúrese de elegir el Ejemplo de análisis de minoristas y el Ejemplo de análisis de oportunidades.
 
-Estas versiones admiten la aplicación de Power BI para iOS:
-- iPad con iOS 10 o posterior.
-- iPhone 5 y versiones posteriores, con iOS 10 o posterior. 
-- iPod Touch con iOS 10 o posterior.
-
-### <a name="download-samples"></a>Descargar ejemplos
-El primer paso consiste en descargar los ejemplos de análisis de minoristas y análisis de oportunidades en el servicio Power BI.
-
-**Obtener el ejemplo de análisis de minoristas**
-
-1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
-
-2. En el panel de navegación, seleccione **Áreas de trabajo**, **Mi área de trabajo**.
-
-3. En la esquina inferior izquierda, seleccione **Obtener datos**.
-   
-    ![](media/mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. En la página Obtener datos, seleccione el icono **Ejemplos**.
-   
-   ![](media/mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Seleccione el **Ejemplo de análisis minoristas**.
- 
-    ![Ejemplo de análisis de ventas](./media/mobile-apps-ios-qna/power-bi-rs.png)
- 
-8. Seleccione **Conectar**.  
-  
-   ![Ejemplo de análisis de ventas](./media/mobile-apps-ios-qna/retail16.png)
-   
-5. Power BI importa el paquete de contenido y agrega un nuevo panel, informe y conjunto de datos en el área de trabajo actual.
-   
-   ![Ejemplo de análisis de ventas](./media/mobile-apps-ios-qna/power-bi-service-retail-sample.png)
-
-**Obtener el ejemplo de análisis de oportunidades**
-
-- Siga los mismos pasos que en el caso del ejemplo de análisis minoristas, pero en el paso 4, seleccione **Ejemplo de análisis de oportunidades**.
-
-    ![Ejemplo de análisis de ventas](./media/mobile-apps-ios-qna/power-bi-oa.png)
-  
-Pues bien, ya está listo para ver los ejemplos en el dispositivo iOS.
+Una vez que haya completado los requisitos previos, está listo para probar el analista virtual de Preguntas y respuestas.
 
 ## <a name="try-asking-questions-on-your-iphone-or-ipad"></a>Pruebe a realizar preguntas en su iPhone o iPad
-1. En su iPhone o iPad, pulse el botón de navegación global ![Botón de navegación global](./media/mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Áreas de trabajo** > **Mi área de trabajo** y abra el panel del ejemplo de análisis minoristas.
+1. En la barra de navegación inferior del iPhone o iPad, pulse el botón Áreas de trabajo ![Botón Áreas de trabajo](./media/mobile-apps-ios-qna/power-bi-iphone-workspaces-button.png), vaya a Mi área de trabajo y abra el panel Ejemplo de análisis de minoristas.
 
 2. Pulse en el icono del analista virtual de Preguntas y respuestas ![icono de analista virtual de Preguntas y respuestas](././media/mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) en el menú de acciones, en la parte inferior de la página (en la parte superior de la página en el caso de un iPad).
      El analista virtual de Preguntas y respuestas ofrece algunas sugerencias para empezar a trabajar.
-3. Escriba **sales**, pulse **sales** en la lista de sugerencias > **Enviar** ![icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+3. Escriba **show** (mostrar), pulse **sales** (ventas) en la lista de sugerencias > **Enviar** ![icono Enviar](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Mostrar ventas](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-show-sales.png)
-4. Pulse **by** (por) en las palabras clave y pulse **item** (elemento) en la lista de sugerencias > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) .
+4. Pulse **by** (por) en las palabras clave y pulse **item** (elemento) en la lista de sugerencias > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![Ventas por artículo](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-sale-by-item.png)
-5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) y pulse **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png) .
+5. Pulse **as** (como) en las palabras clave, pulse el icono de gráfico de columnas ![](./media/mobile-apps-ios-qna/power-bi-ios-q-n-a-column-chart-icon.png) y después **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 6. Mantenga pulsado el gráfico resultante y, después, pulse **Expandir**.
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-tap-expand-feedback.png)
@@ -99,7 +62,7 @@ Pues bien, ya está listo para ver los ejemplos en el dispositivo iOS.
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-expanded-chart.png)
 7. Pulse la flecha de la esquina superior izquierda para volver a la ventana de chat del analista virtual de Preguntas y respuestas.
 8. Pulse la X situada a la derecha del cuadro de texto para eliminar el texto y volver a empezar.
-9. Pruebe con una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly** (venta por $ prom/unidad año pasado) > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+9. Pruebe con una nueva pregunta: pulse **top** (principales) en las palabras clave, pulse **sale by avg $/unit ly (venta por $ prom/unidad año pasado)**  > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-2.png)
 10. Elija **by** (por) en las palabras clave, pulse **time** (tiempo) en la lista de sugerencias en la parte superior > **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
@@ -117,7 +80,7 @@ Ahora puede hacer preguntas sobre sus datos en la aplicación móvil de Power BI
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-mic-on.png)
 
-1. Empiece a hablar cuando dicho icono esté activo. Por ejemplo, diga "precio unitario medio según la hora" y, a continuación, pulse **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
+1. Empiece a hablar cuando dicho icono esté activo. Por ejemplo, diga "precio unitario medio según la hora" y, después, pulse **Enviar** ![](./media/mobile-apps-ios-qna/power-bi-ios-qna-send-icon.png).
 
     ![](media/mobile-apps-ios-qna/power-bi-ios-qna-speech-complete.png)
 

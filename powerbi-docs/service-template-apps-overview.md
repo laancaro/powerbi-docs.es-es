@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 12/17/2019
 ms.author: painbar
-ms.openlocfilehash: f519665c78f8c96452091edb84ae9a40f9dc01ba
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.openlocfilehash: 528c86a75e2f255ad502dbdf973a61cd9de693d4
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "75000056"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75224148"
 ---
 # <a name="what-are-power-bi-template-apps"></a>¿Qué son las aplicaciones de plantilla de Power BI?
 
@@ -31,7 +31,7 @@ Las aplicaciones de plantilla de Power BI permite que los usuarios de Power BI
 
 |  |
 |     :---:      |
-| [![Foo](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/office365mon.office365mon_powerbi_v3) [![Foo](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Foo](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Foo](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
+| [![Aplicación web de Microsoft Project](./media/service-template-apps-overview/project-web.png)](https://app.powerbi.com/groups/me/getapps/services/pbi_msprojectonline.pbi-microsoftprojectwebapp) [![Aplicación web de Azure Backup](./media/service-template-apps-overview/azure-backup.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-azurebackup.pbi-azurebackup-template) [![Aplicación web Dynamic 365 Business Central - Sales](./media/service-template-apps-overview/dynamics-sales.png)](https://app.powerbi.com/groups/me/getapps/services/microsoftdynsmb.businesscentral_sales) [![Aplicación web Customer Satisfaction de Microsoft Forms Pro](./media/service-template-apps-overview/forms-pro.png)](https://app.powerbi.com/groups/me/getapps/services/msfp.formsprocustomersatisfaction) |
 |  |
 
 ## <a name="process"></a>Proceso
@@ -81,7 +81,7 @@ Para publicar una aplicación de plantilla en el servicio Power BI y AppSource, 
  > [!NOTE] 
  > Los envíos de aplicaciones de plantilla se administran en [Cloud Partner Portal](https://cloudpartner.azure.com). Use la misma cuenta de registro de Microsoft Developer Center para iniciar sesión. Debe tener una sola cuenta de Microsoft para sus ofertas de AppSource. Las cuentas no deben ser específicas de servicios u ofertas individuales.
 
-## <a name="tips"></a>Sugerencias 
+## <a name="tips"></a>Recomendaciones 
 
 - Asegúrese de que la aplicación incluye datos de ejemplo para que todos los usuarios puedan empezar a trabajar con un clic. 
 - Examine con cuidado la aplicación mediante su instalación en el inquilino y en un inquilino secundario. Asegúrese de que los clientes solo ven lo que quiere que vean. 

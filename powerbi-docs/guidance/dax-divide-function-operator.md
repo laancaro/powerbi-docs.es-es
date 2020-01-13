@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: c20a366ef657e851ef77a9649dbcc8b66b67dac0
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 7eea15d4389afaac2ac69e2f26eaa38fe84e337b
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74695206"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304165"
 ---
 # <a name="dax-divide-function-vs-divide-operator-"></a>DAX: función DIVIDE frente al operador de división (/)
 
@@ -58,7 +58,7 @@ Se recomienda usar la función DIVIDE siempre que el denominador sea una expresi
 
 En el caso de que el denominador sea un valor constante, se recomienda el uso del operador de división. En este caso, la división tiene la garantía de que se realizará correctamente y la expresión funcionará mejor porque evitará pruebas innecesarias.
 
-Considere detenidamente si la función DIVIDE debe devolver un valor alternativo. En cuanto a las medidas, suele ser un mejor diseño que devuelva BLANK si no se puede evaluar ningún resultado significativo. Para obtener más información, consulte [Impedimento de la conversión de BLANK en valores](dax-avoid-converting-blank.md).
+Considere detenidamente si la función DIVIDE debe devolver un valor alternativo. En el caso de las medidas, normalmente se trata de un mejor diseño, ya que devuelven un valor BLANK. La devolución de un valor BLANK es más indicada ya que, de forma predeterminada, los objetos visuales de los informes eliminan las agrupaciones cuando los resúmenes están en blanco. Esto permite que el objeto visual se centre en los grupos en los que existen los datos. Si es necesario, puede configurar el objeto visual para mostrar todos los grupos (que devuelven valores o en blanco) dentro del contexto de filtro si habilita la opción [Mostrar elementos sin datos](../desktop-show-items-no-data.md).
 
 ## <a name="next-steps"></a>Pasos siguientes
 

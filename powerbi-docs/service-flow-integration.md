@@ -10,18 +10,18 @@ ms.topic: conceptual
 ms.date: 03/01/2018
 ms.author: maggies
 LocalizationGroup: Get started
-ms.openlocfilehash: 738ae599e116beaf5ff80098e4965ee3ed958b04
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: e9c6185506d1992a46ee14ff1eafe0c37d9f65c1
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699691"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223779"
 ---
-# <a name="power-automate-and-power-bi"></a>Power Automate y Power BI
+# <a name="power-automate-and-power-bi"></a>Power Automate y Power BI
 
-[Power Automate](https://flow.microsoft.com/documentation/getting-started) es una oferta de SaaS para automatizar flujos de trabajo en una gran cantidad de aplicaciones y en los servicios de SaaS de los que se sirven los usuarios profesionales. Flow le permite automatizar tareas mediante la integración de sus aplicaciones y servicios favoritos (incluido Power BI) para poder recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. Las tareas repetitivas se vuelven sencillas gracias a la automatización de los flujos de trabajo.
+[Power Automate](https://docs.microsoft.com/power-automate/getting-started) es una oferta de SaaS para automatizar flujos de trabajo en una gran cantidad de aplicaciones y en los servicios de SaaS de los que se sirven los usuarios profesionales. Flow le permite automatizar tareas mediante la integración de sus aplicaciones y servicios favoritos (incluido Power BI) para poder recibir notificaciones, sincronizar archivos, recopilar datos y mucho más. Las tareas repetitivas se vuelven sencillas gracias a la automatización de los flujos de trabajo.
 
-[Empiece a usar Flow.](https://flow.microsoft.com/documentation/getting-started)
+[Empiece a usar Flow.](https://docs.microsoft.com/power-automate/getting-started)
 
 Observe cómo Sirui crea un flujo que envía un correo electrónico detallado a sus compañeros de trabajo cuando se desencadena una alerta de Power BI. Luego, siga las instrucciones paso a paso que aparecen debajo del vídeo para intentarlo.
 
@@ -47,7 +47,7 @@ En esta tarea utilizaremos una plantilla para crear un flujo sencillo que se des
     ![Resultados de búsqueda](media/service-flow-integration/power-bi-flow-alert.png)
 
 
-### <a name="build-the-flow"></a>Crear un flujo
+### <a name="build-the-flow"></a>Generación del flujo
 Esta plantilla tiene un desencadenador (alerta de datos de Power BI sobre las nuevas medallas olímpicas de Irlanda) y una acción (enviar un correo electrónico). Cuando seleccione un campo, Flow mostrará el contenido dinámico que puede incluir.  En este ejemplo incluiremos el valor y la URL del icono en el cuerpo del mensaje.
 
 ![Plantilla de flujo](media/service-flow-integration/power-bi-template1.png)
@@ -107,7 +107,7 @@ En esta tarea crearemos desde cero un flujo sencillo que se desencadene mediante
     ![Flujo desencadena notificación de Outlook](media/service-flow-integration/power-bi-flow-notice.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
-* [Introducción a Power Automate](https://flow.microsoft.com/documentation/getting-started/)
+* [Introducción a Power Automate](https://docs.microsoft.com/power-automate/getting-started/)
 * [Establecer alertas de datos en el servicio Power BI](service-set-data-alerts.md)
 * [Establecer alertas de datos en su iPhone](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)
 * [Establecer alertas de datos en la aplicación móvil de Power BI para Windows 10](consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps.md)

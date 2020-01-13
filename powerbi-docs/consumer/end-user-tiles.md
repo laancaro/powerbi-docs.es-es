@@ -10,10 +10,10 @@ ms.date: 09/18/2019
 ms.author: mihart
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 92c473b5df6c21509ba32e41d88dd43c265fa3a0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73861412"
 ---
 # <a name="dashboard-tiles-in-power-bi"></a>Iconos de paneles en Power BI
@@ -57,11 +57,11 @@ Además de los iconos anclados de los informes, los *diseñadores* puede agregar
    
 
    * [Abrir el libro que se ha usado para crear este icono ](end-user-reports.md) ![icono de hoja de cálculo](./media/end-user-tiles/power-bi-open-worksheet.png)  
-   * [Ver el icono en modo de enfoque](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
-   * [Ver información ](end-user-insights.md) ![icono de información](./media/end-user-tiles/power-bi-insights.png)
+   * [Ver el icono en modo de enfoque ](end-user-focus.md) ![icono de enfoque](./media/end-user-tiles/fullscreen-icon.jpg)  
+   * [Ver conclusiones ](end-user-insights.md) ![icono de conclusiones](./media/end-user-tiles/power-bi-insights.png)
    * [Agregar un comentario e iniciar una discusión](end-user-comment.md) ![icono de comentario](./media/end-user-tiles/comment-icons.png)
-   * [Administrar las alertas establecidas en un icono del panel](end-user-alerts.md)  ![icono de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
-   * [Abrir los datos en Excel](end-user-export.md)  ![icono de exportación](./media/end-user-tiles/power-bi-export-icon.png)
+   * [Administrar las alertas establecidas en un icono del panel](end-user-alerts.md) ![icono de alerta](./media/end-user-tiles/power-bi-alert-icon.png)
+   * [Abrir los datos en Excel](end-user-export.md) ![icono de exportación](./media/end-user-tiles/power-bi-export-icon.png)
 
 
 3. Para cerrar el menú Acción, seleccione un área en blanco en el lienzo.

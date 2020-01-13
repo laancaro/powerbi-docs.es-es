@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/12/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 2fc33c8adcaed35dab8fc9d81ab28fa314f42e3b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 9c7cbd895a913b76a9c0b87155f7800c5538ab28
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881936"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223858"
 ---
 # <a name="copy-reports-from-other-workspaces-preview"></a>Copia de informes desde otras áreas de trabajo (versión preliminar)
 
@@ -37,7 +37,7 @@ Si encuentra un informe que le gusta en un área de trabajo o una aplicación, p
 
     ![Cuadro de diálogo Guardar una copia](media/service-datasets-copy-reports/power-bi-dataset-save-report.png)
 
-    Puede guardar el informe en el área de trabajo actual o en otra diferente en el servicio Power BI. Solo verá las áreas de trabajo que sean de la nueva experiencia, de las que sea miembro.
+    El área de trabajo en la que se puede guardar depende de la ubicación desde la que se va a copiar. Al copiar desde un área de trabajo, puede guardar el informe en el área de trabajo actual o en otra distinta en el servicio Power BI. Solo verá las áreas de trabajo que sean de la nueva experiencia, de las que sea miembro. Al copiar desde una aplicación, puede guardar el informe en Mi área de trabajo.
   
 4. Seleccione **Guardar**.
 

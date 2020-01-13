@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 2bb44498b6123eadffe86c7eb9bfb93bb0db5e14
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 23d66994e88204f56ee937a4f7887225e48a5e2f
+ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876425"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "75304276"
 ---
 # <a name="connect-to-snowflake-in-power-bi-desktop"></a>Conectarse a Snowflake en Power BI Desktop
 En Power BI Desktop, puede conectarse a un almacén de **Snowflake** Computing y usar los datos subyacentes como cualquier otro origen de datos en Power BI Desktop. 
@@ -42,9 +42,14 @@ Cuando se le pida, escriba su nombre de usuario y contraseña.
 > 
 > 
 
+Si quiere usar la opción cuenta de Microsoft, pida al administrador de Snowflake que se ponga en contacto con Snowflake para saber cómo unirse a la versión preliminar privada de esta característica.
+
+![Tipo de autenticación de la cuenta de Microsoft en el conector Snowflake.](media/desktop-connect-snowflake/connect-snowflake-6.png)
+
+
 Una vez que se haya conectado correctamente, aparece la ventana **Navegador**, en la que se muestran los datos disponibles en el servidor, desde donde puede seleccionar uno o varios elementos para importar y usar en **Power BI Desktop**.
 
-![](media/desktop-connect-snowflake/connect_snowflake_5.png)
+![Error ODBC 28000 que causa un error de conexión.](media/desktop-connect-snowflake/connect_snowflake_5.png)
 
 Puede **Cargar** la tabla seleccionada, que muestra la tabla completa en **Power BI Desktop**, o bien puede **Editar** la consulta, que abre **Editor de consultas** para que pueda filtrar y refinar el conjunto de datos que desea utilizar y, a continuación, cargar ese conjunto de datos refinado en **Power BI Desktop**.
 

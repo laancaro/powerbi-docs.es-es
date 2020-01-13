@@ -10,17 +10,17 @@ ms.topic: conceptual
 ms.custom: ''
 ms.date: 09/05/2017
 ms.openlocfilehash: eac019bc31396359b7520e057f2384adce386a96
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73873958"
 ---
-# <a name="upgrade-power-bi-report-server"></a>Actualización del servidor de informes de Power BI
+# <a name="upgrade-power-bi-report-server"></a>Actualización de Power BI Report Server
 
 Aprenda a actualizar un servidor de informes de Power BI.
 
- **Descargar** ![descargar](media/upgrade/download.png "descargar")
+ **Descargar** ![download](media/upgrade/download.png "descargar")
 
 Para descargar el servidor de informes de Power BI y Power BI Desktop optimizado para el servidor de informes de Power BI, vaya a [Publicar informes en almacenamiento local con el servidor de informes de Power BI](https://powerbi.microsoft.com/report-server/).
 

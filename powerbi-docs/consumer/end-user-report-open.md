@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2018
+ms.date: 12/14/2019
 ms.author: mihart
-ms.openlocfilehash: b22da2df92c0cc7130c7a5ebf69e2284c12ffef4
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a4b8dd876cfaca3fa4ad91bf5b4d94aa5b4be311
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861970"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218087"
 ---
 # <a name="view-a-report-in-the-power-bi-service-for-consumers"></a>Visualización de un informe en el servicio Power BI para *consumidores*
 
@@ -32,7 +32,7 @@ Vamos a abrir un informe que se ha compartido con usted directamente y, a contin
    ![Página principal](./media/end-user-report-open/power-bi-home-canvas.png)
 
 ### <a name="open-a-report-that-has-been-shared-with-you"></a>Apertura de un informe que se ha compartido con usted
-Los *diseñadores* de Power BI pueden compartir un informe directamente con usted mediante un vínculo en el correo electrónico o lo pueden agregar automáticamente. El contenido que se comparte de este modo se muestra en el contenedor **Compartido conmigo** del panel de navegación y en la sección **Compartido conmigo** del lienzo Página principal.
+Los *diseñadores* de Power BI pueden compartir un informe individual directamente con usted mediante un vínculo en el correo electrónico o si lo agregan de forma automática al contenido de Power BI. Los informes que se comparten de este modo se muestran en el contenedor **Compartido conmigo** del panel de navegación y en la sección **Compartido conmigo** del lienzo Inicio.
 
 1. Abra el servicio Power BI (app.powerbi.com).
 
@@ -40,7 +40,7 @@ Los *diseñadores* de Power BI pueden compartir un informe directamente con ust
 
    ![Lienzo Página principal](./media/end-user-report-open/power-bi-select-home-new.png)
    
-3. Desplácese hacia abajo hasta que vea **Compartido conmigo**. Busque el icono de informe ![icono de informe](./media/end-user-report-open/power-bi-report-icon.png). En esta captura de pantalla tenemos un panel y un informe llamado *Sales and marketing sample* (Ejemplo de ventas y marketing). 
+3. Desplácese hacia abajo hasta que vea **Compartido conmigo**. Busque el icono de informe ![icono de informe](./media/end-user-report-open/power-bi-report-icon.png). En esta captura de pantalla hay panel y un informe. El nombre del informe es *Sales and marketing sample* (Ejemplo de ventas y marketing). 
    
    ![sección compartido conmigo de la página principal](./media/end-user-report-open/power-bi-shared-new.png)
 
@@ -64,8 +64,10 @@ Los *diseñadores* de Power BI pueden compartir un informe directamente con ust
 
    ![ajustar a la página](./media/end-user-report-open/power-bi-actual.png)
 
+Hay muchas maneras de interactuar con un informe para detectar información y tomar decisiones empresariales.  Use la tabla de contenido de la izquierda para leer otros artículos sobre informes de Power BI. 
+
 ### <a name="open-a-report-that-is-part-of-an-app"></a>Apertura de un informe que forma parte de una aplicación
-Si ha recibido aplicaciones de compañeros de trabajo o de AppSource, esas aplicaciones están disponibles en la Página principal y el contenedor **Aplicaciones** del panel de navegación. Una [aplicación](end-user-apps.md) es un conjunto de paneles e informes.
+Si ha recibido aplicaciones de compañeros de trabajo o de AppSource, esas aplicaciones están disponibles en la Página principal y el contenedor **Aplicaciones** del panel de navegación. Una [aplicación](end-user-apps.md) es una colección de paneles e informes que un *diseñador* de Power BI ha agrupado de forma automática.
 
 ### <a name="prerequisites"></a>Requisitos previos
 Para continuar, descargue la aplicación de marketing y ventas.
@@ -80,17 +82,17 @@ Puede abrir la aplicación desde el contenedor de aplicaciones o desde Inicio.
 
    ![Página principal](./media/end-user-report-open/power-bi-app.png)
 
-8. Seleccione la nueva aplicación de marketing y ventas para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Esta aplicación se abre en un panel.  
+8. Seleccione la nueva aplicación *Ventas y marketing* para abrirla. Dependiendo de las opciones establecidas por el *diseñador* de la aplicación, esta abrirá un panel o un informe. Esta aplicación se abre en un panel.  
 
 
 ## <a name="open-a-report-from-a-dashboard"></a>Apertura de un informe desde un panel
 Los informes se pueden abrir desde un panel. La mayoría de los [iconos](end-user-tiles.md) de panel están *anclados* desde los informes. Al seleccionar un icono se abre el informe que se usó para crear el icono. 
 
-1. En el panel, seleccione un icono. En este ejemplo hemos seleccionado el icono del gráfico de columnas "Total unidades hasta la fecha...".
+1. En el panel, seleccione un icono. En este ejemplo se ha seleccionado el icono del gráfico de columnas *Total unidades hasta la fecha...* .
 
     ![Panel con icono seleccionado](./media/end-user-report-open/power-bi-dashboard.png)
 
-2.  Se abre el informe asociado. Tenga en cuenta que estamos en la página "Categoría hasta la fecha". Se trata de la página del informe que contiene el gráfico de columnas que hemos seleccionado desde el panel.
+2.  Se abre el informe asociado. Tenga en cuenta que está en la página *Categoría hasta la fecha*. Se trata de la página del informe que contiene el gráfico de columnas que hemos seleccionado desde el panel.
 
     ![Informe abierto en vista de lectura](./media/end-user-report-open/power-bi-report-tabs.png)
 
@@ -100,7 +102,7 @@ Los informes se pueden abrir desde un panel. La mayoría de los [iconos](end-use
 
 ##  <a name="still-more-ways-to-open-a-report"></a>Más maneras aún de abrir un informe
 Conforme se vaya familiarizando con la navegación por el servicio Power BI, descubrirá qué flujos de trabajo funcionan mejor en su caso. Algunas otras maneras de acceder a los informes:
-- Desde el panel de navegación mediante **Favoritos** y **Recientes**    
+- Desde el panel de navegación mediante [Favoritos](end-user-favorite.md) y [Recientes](end-user-recent.md)    
 - Mediante [Ver relacionados](end-user-related.md)    
 - En un correo electrónico cuando alguien [comparte con usted](../service-share-reports.md) o [establece una alerta](end-user-alerts.md).    
 - Desde el [Centro de notificaciones](end-user-notification-center.md)    

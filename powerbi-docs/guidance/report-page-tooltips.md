@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/24/2019
 ms.author: v-pemyer
-ms.openlocfilehash: b7256a04ccdca107ef0cd8e24af8b3170a3d68cc
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 95cf62057cdea001a438f4555aa3384c54efe4b5
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74834733"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221951"
 ---
 # <a name="extending-visuals-with-report-page-tooltips"></a>Extensión de objetos visuales con la información en pantalla de la página del informe
 
@@ -61,15 +61,15 @@ Se muestra la información sobre herramientas de una página. Presenta atributos
 
 ### <a name="add-help"></a>Agregar ayuda
 
-Los encabezados visuales se pueden configurar para mostrar la información sobre herramientas de página en los encabezados visuales. Puede agregar contenido de ayuda a la información sobre herramientas de una página con cuadros de texto con formato enriquecido. También es posible agregar imágenes y formas.
+Los encabezados visuales se pueden configurar para mostrar la información sobre herramientas de página en los encabezados visuales. Puede agregar documentación de ayuda a la información sobre herramientas de una página mediante cuadros de texto con formato enriquecido. También es posible agregar imágenes y formas.
 
 Curiosamente, los botones, imágenes, cuadros de texto y formas también pueden mostrar información sobre herramientas de página de un encabezado visual.
 
-En el ejemplo siguiente se muestra lo que sucede cuando el usuario de un informe mantiene el cursor sobre el icono de encabezado visual.
+En el ejemplo siguiente se muestra lo que sucede cuando el usuario de un informe mantiene el cursor sobre el [icono de encabezado visual](../desktop-visual-elements-for-reports.md).
 
 ![Un usuario de un informe ha situado el cursor sobre el icono de encabezado visual (icono de signo de interrogación). Ha aparecido información sobre herramientas con formato enriquecido.](media/report-page-tooltips/suggestion-add-help.png)
 
-Se muestra la información sobre herramientas de una página. Presenta texto con formato enriquecido que describe las medidas que muestra el objeto visual. La información sobre herramientas también incluye una forma (línea).
+Se muestra la información sobre herramientas de una página. Muestra texto con formato enriquecido en cuatro cuadros de texto y una forma (línea). La información sobre herramientas de la página transmite ayuda mediante la descripción de los acrónimos que se muestran en el objeto visual.
 
 ## <a name="recommendations"></a>Recomendaciones
 
@@ -87,5 +87,6 @@ Para obtener más información sobre este artículo, consulte los recursos sigui
 
 - [Creación de información sobre herramientas basada en páginas de informes en Power BI Desktop](../desktop-tooltips.md)
 - [Personalización de la información sobre herramientas en Power BI Desktop](../desktop-custom-tooltips.md)
+- [Uso de elementos visuales para mejorar los informes de Power BI](../desktop-visual-elements-for-reports.md)
 - Guy in a cube (vídeo): [Información sobre herramientas de páginas de informes de Power BI: Cómo crearla en Power BI Desktop](https://www.youtube.com/watch?v=URTA7JZsAtw)
 - ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)

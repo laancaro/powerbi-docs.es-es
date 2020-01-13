@@ -1,19 +1,19 @@
 ---
 title: Exploración de informes en las aplicaciones móviles de Power BI
 description: Aprenda a ver informes e interactuar con ellos en las aplicaciones móviles de Power BI del teléfono o la tableta. Cree informes en el servicio Power BI o en Power BI Desktop y, luego, interactúe con ellos en las aplicaciones móviles.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 08/09/2019
-ms.author: mshenhav
-ms.openlocfilehash: d4b9a9aeda00dd7f16690d1e92336f5b63adf1da
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/16/2019
+ms.author: painbar
+ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869762"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75220765"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -96,29 +96,43 @@ Desde el pie de página del informe, puede realizar varias acciones en la págin
 ![Pie de página del informe](./media/mobile-reports-in-the-mobile-apps/report-footer.png)
 
 Puede realizar las siguientes acciones desde el pie de página:
-- Restablecer el filtro de informe y las selecciones de resaltado cruzado a su estado original.
-- Abrir el panel de conversación para ver o agregar comentarios en el informe.
-- Abrir el panel de filtro para ver o modificar el filtro aplicado actualmente en el informe.
-- Enumerar todas las páginas del informe. Al pulsar el nombre de la página se cargará y presentará esa página.
+* Restablecer el filtro de informe y las selecciones de resaltado cruzado a su estado original.
+* Abrir el panel de conversación para ver o agregar comentarios en el informe.
+* Abrir el panel de filtro para ver o modificar el filtro aplicado actualmente en el informe.
+* Enumerar todas las páginas del informe. Al pulsar el nombre de la página se cargará y presentará esa página.
 Puede desplazarse entre las páginas del informe si desliza el dedo desde el borde de la pantalla hasta el centro.
-- Ver todas las acciones del informe.
+* Ver todas las acciones del informe.
 
 #### <a name="all-report-actions"></a>Todas las acciones del informe
 Al pulsar el botón **Más opciones** (...) en el pie de página del informe, verá todas las acciones que puede realizar en un informe:
 
 
-![Todas las acciones del informe](./media/mobile-reports-in-the-mobile-apps/report-all-actions.png)
+![Todas las acciones del informe](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-all-actions.png)
 
 Es posible que algunas de las acciones estén deshabilitadas, ya que dependen de las funciones específicas del informe.
 Por ejemplo:
+
+**Marcadores** solo aparece si se han establecido [marcadores](mobile-reports-in-the-mobile-apps.md#bookmarks) en el informe. Se muestran tanto los marcadores personales que puede definir en el servicio Power BI como los definidos por el creador del informe. Si uno de los marcadores se ha definido como el marcador predeterminado, el informe se abrirá en esa vista cuando se cargue.
+
+Es posible que **Anotar y compartir** esté desactivado si hay una [directiva de protección de Intune](https://docs.microsoft.com/intune/app-protection-policies) en la organización que prohíba el uso compartido desde la aplicación Power BI Mobile.
+
+La opción **Invitar** solo está habilitada si tiene permiso para compartir el informe con otros usuarios. Solo tendrá permiso si es el propietario del informe o si el propietario le ha proporcionado permiso para volver a compartirlo.
 
 **Filtrar por la ubicación actual** está habilitado si el autor del informe lo ha clasificado con datos geográficos. Para obtener más información, consulte el artículo sobre la [identificación de datos geográficos en un informe](https://docs.microsoft.com/power-bi/desktop-mobile-geofiltering).
 
 **Examinar para filtrar el informe por código de barras** solo está habilitado si el conjunto de datos del informe se ha etiquetado como **Código de barras**. Para obtener más información, consulte el artículo sobre el [etiquetado de códigos de barra en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-mobile-barcodes).
 
-La opción **Invitar** solo está habilitada si tiene permiso para compartir el informe con otros usuarios. Solo tendrá permiso si es el propietario del informe o si el propietario le ha proporcionado permiso para volver a compartirlo.
+### <a name="bookmarks"></a>Marcadores
 
-Es posible que **Anotar y compartir** esté desactivado si hay una [directiva de protección de Intune](https://docs.microsoft.com/intune/app-protection-policies) en la organización que prohíba el uso compartido desde la aplicación Power BI Mobile.
+La aplicación móvil de Power BI admite los marcadores de informe que haya definido el creador del informe y los marcadores personales que puede definir en el servicio Power BI. Puede encontrar el menú de marcadores en **Más opciones** (...), en la [barra de herramientas de acciones del informe](mobile-reports-in-the-mobile-apps.md#all-report-actions).
+
+![Menú de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
+
+Cuando se abre una vista de marcador de un informe, el nombre del marcador aparece en la parte superior del informe.
+
+![Vista de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
+
+[Obtenga más información sobre los marcadores en el servicio Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)

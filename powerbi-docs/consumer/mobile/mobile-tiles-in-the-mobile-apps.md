@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 06/28/2018
 ms.author: mshenhav
-ms.openlocfilehash: 570276b8af2862d6aab6dc806cb0c627be8ff157
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b400f429ef1e65a40caea717ab18bc06300f9d76
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73870032"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221216"
 ---
 # <a name="explore-tiles-in-the-power-bi-mobile-apps"></a>Exploración de iconos en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -40,11 +40,14 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    En un gráfico circular, pulse una porción de este para mostrar los valores de la porción en la parte superior del gráfico.  
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-pie.png)
-3. En un mapa, pulse el icono **Centrar el mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar el mapa en su ubicación actual.
-   
-     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
-4. Puntee en el icono Compartir ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [anotar y compartir un icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con otros usuarios.
+3. En un mapa, pulse el icono **Centrar el mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar el mapa en su ubicación actual.
+
+   ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-center-map.png)
+
+4. Pulse el icono de lápiz ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar un icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) y, después, el icono Compartir ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-share-icon.png) para [compartirlo con otros usuarios](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
+
 5. [Agregar una alerta al icono](mobile-set-data-alerts-in-the-mobile-apps.md). Si los valores están por encima o por debajo de los objetivos, Power BI se lo notificará.
+
 6. A veces, el creador del panel ha agregado un vínculo a un icono. Si es así, tiene un icono de vínculo ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png) cuando está en modo enfocado:
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-tile-link.png)
@@ -54,7 +57,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
     ![](media/mobile-tiles-in-the-mobile-apps/pbi_andr_openlinkmessage.png)
    
     Después de abrir el vínculo en la aplicación Power BI, puede copiarlo y abrirlo en una ventana del explorador.
-7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en que se basa el icono.
+7. [Abra el informe](mobile-reports-in-the-mobile-apps.md) ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) en el que se basa el icono.
 8. Para salir del modo enfocado de icono, pulse el nombre del icono y, después, pulse el nombre del panel o **Mi área de trabajo**.
    
     ![](media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-tile-breadcrumb.png)
@@ -68,7 +71,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
     En el modo enfocado, puede:
    
    * Pulse el gráfico para mover la barra en un gráfico de líneas, barras, columnas o burbujas y poder ver los valores de un punto concreto en la visualización.  
-   * Pulsar el icono Compartir instantánea ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [anotar y compartir el icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con otros usuarios.
+   * Pulse el icono de lápiz ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-annotate-icon.png) para [anotar un icono](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual) y, después, el icono Compartir instantánea ![](./media/mobile-tiles-in-the-mobile-apps/pbi_andr_sharesnapicon.png) para [compartirlo con otros usuarios](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md#annotate-and-share-the-tile-report-or-visual).
    * Pulsar el icono Abrir informe ![](./media/mobile-tiles-in-the-mobile-apps/power-bi-android-tablet-open-report-icon.png) para [ver el informe](mobile-reports-in-the-mobile-apps.md) en la aplicación móvil.
 3. A veces, el creador del panel ha agregado un vínculo a un icono. Por tanto, cuando pulse en los tres puntos en vertical ( **...** ) verá **Abrir vínculo** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-iphone-link-icon.png):
    
@@ -89,7 +92,7 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
     [Compartir una instantánea del icono](mobile-windows-10-phone-app-get-started.md).
    
-    Puntee **Abrir informe** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png)para ver [el informe subyacente](mobile-reports-in-the-mobile-apps.md).
+    Pulse **Abrir informe** ![](././media/mobile-tiles-in-the-mobile-apps/power-bi-ipad-open-report-icon.png) para [ver el informe subyacente](mobile-reports-in-the-mobile-apps.md).
    
     [Abra el vínculo](../../service-dashboard-edit-tile.md#hyperlink), en caso de que haya. Los vínculos pueden apuntar a paneles de Power BI o a una dirección URL externa.
 3. Pulse **Expandir icono** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-focus-mode-icon.png). Se abre en modo de enfoque, donde resulta más fácil ver y explorar los datos del icono. En este modo, puede:
@@ -104,14 +107,14 @@ Luego, en las aplicaciones móviles de Power BI, abra los iconos en modo enfocad
    
    *En este gráfico de barras, los valores de la barra **Decor** se muestran en la parte superior del gráfico.*
    
-   Pulse el icono **Pantalla completa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir el icono en el modo de pantalla completa, sin las barras de navegación y de menú.
+   Pulse el icono **Pantalla completa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-full-screen-icon.png) para abrir el icono en el modo de pantalla completa, sin las barras de navegación y de menú.
    
    > [!NOTE]
    > También puede [ver paneles e informes en el modo de pantalla completa](mobile-windows-10-app-presentation-mode.md) en la aplicación para dispositivos móviles de Power BI para Windows 10.
    > 
    > 
    
-   En un mapa, pulse el icono **Centrar el mapa** ![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar el mapa en su ubicación actual.
+   En un mapa, pulse el icono **Centrar el mapa**![](media/mobile-tiles-in-the-mobile-apps/power-bi-center-map-icon.png) para centrar el mapa en su ubicación actual.
    
    ![](media/mobile-tiles-in-the-mobile-apps/power-bi-windows-10-center-map.png)
    

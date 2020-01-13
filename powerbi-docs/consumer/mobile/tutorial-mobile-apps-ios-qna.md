@@ -1,23 +1,23 @@
 ---
 title: 'Tutorial: Formular preguntas con el analista virtual de Preguntas y respuestas en las aplicaciones de iOS'
-description: En este tutorial, puede formular preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
-author: mshenhav
+description: En este tutorial, puede formular preguntas sobre los datos de ejemplo con sus propias palabras con el analista virtual de Preguntas y respuestas de la aplicación móvil de Power BI del dispositivo iOS.
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: tutorial
-ms.date: 11/16/2018
-ms.author: mshenhav
-ms.openlocfilehash: c7fd216d50f918d96392532ccb82f80d619ce8a3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 11/26/2019
+ms.author: painbar
+ms.openlocfilehash: f946c3b10f9d4922c227dd92a748af91266c040e
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73869649"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221818"
 ---
 # <a name="tutorial-ask-questions-about-your-data-with-the-qa-virtual-analyst-in-the-power-bi-ios-apps"></a>Tutorial: Formular preguntas sobre los datos con el analista virtual de Preguntas y respuestas en las aplicaciones de Power BI de iOS
 
-La manera más fácil de obtener información acerca de los datos es realizar preguntas con sus propias palabras. En este tutorial, puede plantear preguntas y ver información destacada sobre los datos de ejemplo con el analista virtual de Preguntas y respuestas en la aplicación móvil de Microsoft Power BI en su iPad, iPhone y iPod Touch. 
+La manera más fácil de obtener información acerca de los datos es realizar preguntas con sus propias palabras. En este tutorial, puede plantear preguntas y ver información destacada sobre los datos de ejemplo con el analista virtual de Preguntas y respuestas en la aplicación móvil de Microsoft Power BI en su iPad o iPhone. 
 
 Se aplica a:
 
@@ -25,7 +25,7 @@ Se aplica a:
 |:--- |:--- |
 | iPhone |iPad |
 
-El analista virtual de Preguntas y respuestas es una experiencia de inteligencia empresarial de conversación que accede a los datos subyacentes de Preguntas y respuestas del servicio Power BI [(https://powerbi.com)](https://powerbi.com). Sugiere información sobre los datos, y puede escribir o expresar sus propias preguntas.
+El analista virtual de Preguntas y respuestas es una experiencia de inteligencia empresarial de conversación que accede a los datos subyacentes de Preguntas y respuestas del [servicio Power BI](https://powerbi.com). Sugiere información sobre los datos, y puede escribir o expresar sus propias preguntas.
 
 ![Analista virtual de Preguntas y respuestas, líder de ventas](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-top-sale-intro.png)
 
@@ -36,100 +36,72 @@ En este tutorial, tendrá que:
 > * Descargar un panel e informe de ejemplo de Power BI
 > * Ver qué información destacada sugiere la aplicación móvil
 
-Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
-
 ## <a name="prerequisites"></a>Requisitos previos
 
-### <a name="install-the-power-bi-for-ios-app"></a>Instalación de la aplicación de Power BI para iOS
-[Descargar la aplicación de iOS](https://go.microsoft.com/fwlink/?LinkId=522062 "Descarga de la aplicación de iPhone") desde App Store de Apple para su iPad, iPhone o iPod Touch.
+* **Suscribirse en Power BI**: Si no está registrado en Power BI, [regístrese para obtener una evaluación gratuita](https://app.powerbi.com/signupredirect?pbi_source=web) antes de empezar.
+* **Instale la aplicación de Power BI para iOS**: [Descargue la aplicación iOS](https://apps.apple.com/app/microsoft-power-bi/id929738808) desde App Store de Apple para iPad, iPhone o iPod Touch. Las versiones siguientes admiten la aplicación de Power BI para iOS:
+  * iPad con iOS 11 o posterior.
+  * iPhone 5 y versiones posteriores, con iOS 11 o posterior. 
+  * iPod Touch con iOS 11 o posterior.
+* **Descarga de los datos de ejemplo**: El primer paso consiste en descargar el **Ejemplo de análisis de oportunidades** en el servicio Power BI. Vea [Descarga de ejemplos en Mi área de trabajo en el servicio Power BI](./mobile-apps-download-samples.md) para obtener instrucciones sobre cómo hacerlo.
 
-Estas versiones admiten la aplicación de Power BI para iOS:
-- iPad con iOS 10 o posterior.
-- iPhone 5 y versiones posteriores, con iOS 10 o posterior. 
-- iPod Touch con iOS 10 o posterior.
 
-### <a name="download-the-opportunity-analysis-sample"></a>Descarga del ejemplo de análisis de oportunidades
-El primer paso del tutorial consiste en descargar el ejemplo de análisis de oportunidades en el servicio Power BI.
-
-1. Abra el servicio Power BI en el explorador (app.powerbi.com) e inicie sesión.
-
-1. Seleccione el icono de navegación global para abrir el panel de navegación.
-
-    ![Icono de navegación global](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-global-nav-icon.png)
-
-2. En el panel de navegación, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
-
-    ![Mi área de trabajo](./media/tutorial-mobile-apps-ios-qna/power-bi-android-quickstart-my-workspace.png)
-
-3. En la esquina inferior izquierda, seleccione **Obtener datos**.
-   
-    ![Obtener datos](./media/tutorial-mobile-apps-ios-qna/power-bi-get-data.png)
-
-3. En la página Obtener datos, seleccione el icono **Ejemplos**.
-   
-   ![Icono de ejemplos](./media/tutorial-mobile-apps-ios-qna/power-bi-samples-icon.png)
-
-4. Seleccione el **ejemplo de análisis de oportunidades**.
- 
-    ![Ejemplo de análisis de oportunidades](./media/tutorial-mobile-apps-ios-qna/power-bi-oa.png)
- 
-8. Seleccione **Conectar**.  
-  
-   ![Ejemplo de análisis de oportunidades: Conectar](./media/tutorial-mobile-apps-ios-qna/opportunity-connect.png)
-   
-5. Power BI importa el ejemplo y agrega un nuevo panel, informe y conjunto de datos en la sección Mi área de trabajo.
-   
-   ![Panel del ejemplo de análisis de oportunidades](./media/tutorial-mobile-apps-ios-qna/power-bi-service-opportunity-sample.png)
-
-Pues bien, ya está listo para ver el ejemplo en el dispositivo iOS.
+Una vez que haya completado los requisitos previos y haya descargado los datos de ejemplo, estará listo para ver los ejemplos en el dispositivo iOS.
 
 ## <a name="try-featured-insights"></a>Probar la información destacada
 1. En su iPhone o iPad, abra la aplicación de Power BI e inicie sesión con las credenciales de la cuenta de Power BI, las mismas que usó en el servicio Power BI en el explorador.
 
-1.  Pulse el botón de navegación global ![Botón de navegación global](./media/tutorial-mobile-apps-ios-qna/power-bi-iphone-global-nav-button.png) > **Áreas de trabajo** > **Mi área de trabajo** y abra el panel del ejemplo de análisis de oportunidades.
+2. En la barra de navegación de la página de inicio, pulse el icono **Áreas de trabajo**.
 
-2. Pulse en el icono del analista virtual de Preguntas y respuestas ![Icono del analista virtual de Preguntas y respuestas](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-q-n-a-icon.png) en el menú de acciones, en la parte inferior de la página (en la parte superior de la página en un iPad).
+    ![Apertura de Mi área de trabajo](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-myworkspace.png)
 
-     ![Panel del ejemplo de análisis de oportunidades](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-opportunity-analysis.png)
+3. Cuando se abra la página Áreas de trabajo, pulse **Mis áreas de trabajo** y, después, el panel **Ejemplo de análisis de oportunidades** para abrirlo.
 
-     El analista virtual de Preguntas y respuestas de Power BI ofrece algunas sugerencias para empezar a trabajar.
 
-     ![botón de información destacada](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insights.png)
+3. En el panel Ejemplo de análisis de oportunidades, pulse el icono del analista virtual de Preguntas y respuestas en el menú de acción.
+
+    ![Apertura del analista virtual de Preguntas y respuestas](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-open-qna.png)
+
+    El analista virtual de Preguntas y respuestas ofrece algunas sugerencias para empezar a trabajar.
+
+    ![Sugerencias del analista virtual de Preguntas y respuestas](./media/tutorial-mobile-apps-ios-qna/power-bi-qna-suggestions.png)
+
 3. Pulse **featured insights** (información destacada).
 
-     El analista virtual de Preguntas y respuestas sugiere información.
-4. Desplácese a la derecha y pulse **Insight 2** (Información 2).
+4. El analista virtual de Preguntas y respuestas sugiere información. Desplácese a la derecha y pulse **Insight 2** (Información 2).
 
-    ![Botón Insight 2 (Información 2)](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
+    ![Información destacada](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-suggest-insight-2.png)
 
-     El analista virtual de Preguntas y respuestas muestra Insight 2 (Información 2).
+   El analista virtual de Preguntas y respuestas muestra Insight 2 (Información 2).
 
-    ![Información 2](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+    ![Representación de información destacada](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-show-insight-2.png)
+
 5. Pulse el gráfico para abrirlo en modo de enfoque.
 
-    ![Gráfico Insight 2 en modo de enfoque](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+    ![Apertura del gráfico en modo de enfoque](./media/tutorial-mobile-apps-ios-qna/power-bi-ios-qna-open-insight-2.png)
+
 6. Pulse la flecha de la esquina superior izquierda para volver a la ventana de la experiencia del analista virtual de Preguntas y respuestas.
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos
 
 Cuando complete el tutorial, puede eliminar el panel, el informe y el conjunto de datos del ejemplo de análisis de oportunidades.
 
-1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
+1. Abra el servicio Power BI ([servicio Power BI](https://app.powerbi.com)) e inicie sesión.
 
-2. En el panel de navegación, seleccione **Áreas de trabajo** > **Mi área de trabajo**.
+2. En el panel de navegación, seleccione **Mi área de trabajo**.
 
-3. En la pestaña **Paneles**, seleccione el icono **Eliminar** de papelera situado junto al panel de análisis de oportunidades.
+3. Haga clic en la pestaña de paneles y, después, en la línea del ejemplo de análisis de oportunidades, haga clic en la papelera.
 
-    ![Eliminar el panel de ejemplo](./media/tutorial-mobile-apps-ios-qna/power-bi-service-delete-opportunity-sample.png)
+    ![Seleccione el icono de eliminación](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample.png)
 
-4. Seleccione la pestaña **Informes** y haga lo mismo con el informe de análisis de oportunidades.
+    Ahora, seleccione la pestaña Informes y repita la operación.
 
-5. Seleccione la pestaña **Conjuntos de datos** y haga lo mismo con el conjunto de datos de análisis de oportunidades.
+4. Luego, seleccione la pestaña Conjuntos de datos, haga clic en el botón **Más opciones** (...) y elija **Eliminar**.
 
+    ![Seleccione el icono de eliminación](./media/tutorial-mobile-apps-ios-qna/power-bi-tutorial-mobile-apps-ios-qna-delete-opportunity-analysis-sample-datasets.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Ha probado el asistente virtual de Preguntas y respuestas en las aplicaciones móviles de Power BI para iOS. Obtenga más información sobre Preguntas y respuestas en el servicio Power BI.
 > [!div class="nextstepaction"]
 > [Preguntas y respuestas en el servicio Power BI](../end-user-q-and-a.md)
-

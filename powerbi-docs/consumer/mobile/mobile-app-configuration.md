@@ -8,16 +8,16 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 11/07/2019
 ms.author: painbar
-ms.openlocfilehash: a517ee4edce6e18eadcbe2b1b6765684f8121b21
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: ccc7e3864590145309709d27774951c281b3ebdd
+ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199441"
+ms.lasthandoff: 01/03/2020
+ms.locfileid: "75622371"
 ---
 # <a name="remotely-configure-power-bi-app-using-mobile-device-management-mdm-tool"></a>Configuración remota de la aplicación de Power BI mediante la herramienta de administración de dispositivos móviles (MDM)
 
-La aplicación Power BI Mobile para iOS y Android admite la configuración de la aplicación que permite a los administradores de Office 365 y de los servicios de administración de dispositivos móviles (MDM), como Intune, personalizar el comportamiento de la aplicación.
+La aplicación Power BI Mobile para iOS y Android admite la configuración de la aplicación que permite a los administradores de los servicios de administración de dispositivos móviles (MDM), como Intune, personalizar el comportamiento de la aplicación.
 
 La aplicación de Power BI Mobile admite los escenarios de configuración siguientes:
 

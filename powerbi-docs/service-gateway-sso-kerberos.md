@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/03/2019
 LocalizationGroup: Gateways
 ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "75000121"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configuración del SSO basado en Kerberos desde el servicio Power BI a los orígenes de datos locales
@@ -189,7 +189,7 @@ Por último, en la máquina en la que se ejecuta el servicio de puerta de enlace
 
 1. En la máquina de puerta de enlace, ejecute **gpedit.msc**.
 
-2. Vaya a **Directiva de equipo Local** &gt; **Configuración del equipo** &gt; **Configuración de Windows** &gt; **Configuración de seguridad** &gt; **Directivas locales** &gt; **Asignación de derechos de usuario**.
+2. Vaya a **Directiva de equipo local** &gt; **Configuración del equipo** &gt; **Configuración de Windows** &gt; **Configuración de seguridad** &gt; **Directivas locales** &gt; **Asignación de derechos de usuario**.
 
     ![Estructura de carpetas de Directiva de equipo local](media/service-gateway-sso-kerberos/user-rights-assignment.png)
 

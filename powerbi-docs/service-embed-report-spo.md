@@ -1,21 +1,21 @@
 ---
 title: Insertar el elemento web de informes en SharePoint Online
 description: Con el nuevo elemento web de informes de Power BI para SharePoint Online, puede insertar fácilmente informes de Power BI interactivos en páginas de SharePoint Online.
-author: rkarlin
-ms.author: rkarlin
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
 LocalizationGroup: Share your work
-ms.date: 05/16/2019
-ms.openlocfilehash: e44ea4174545715a689b4f4370516cbbab4a593b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/18/2019
+ms.openlocfilehash: d1ac9238e361a0889e52838eb0b3c3889c1cccf7
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73881899"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75221721"
 ---
 # <a name="embed-with-report-web-part-in-sharepoint-online"></a>Insertar el elemento web de informes en SharePoint Online
 
@@ -29,6 +29,7 @@ Para que los informes de **Insertar en SharePoint Online** funcionen, se necesit
 
 * Una licencia de Power BI Pro o una [capacidad Power BI Premium (EM o P SKU)](service-premium-what-is.md) con una licencia de Power BI.
 * El elemento web de Power BI para SharePoint Online requiere [páginas modernas](https://support.office.com/article/Allow-or-prevent-creation-of-modern-site-pages-by-end-users-c41d9cc8-c5c0-46b4-8b87-ea66abc6e63b).
+* Para consumir un informe insertado, los usuarios deben iniciar sesión en el servicio Power BI para activar su licencia de Power BI.
 
 ## <a name="embed-your-report"></a>Insertar un informe
 Para insertar un informe en SharePoint Online, se debe obtener la dirección URL del informe y usarla con el elemento web de Power BI de SharePoint Online.
@@ -121,7 +122,7 @@ Debajo se muestran la configuración que se puede ajustar para el elemento web d
 | Propiedad | Descripción |
 | --- | --- |
 | Nombre de página |Establece la página predeterminada del elemento web. Seleccione un valor en la lista desplegable. Si no se muestra ninguna página, el informe contiene una página o la dirección URL que pegó contiene un nombre de página. Quite la sección del informe de la dirección URL para seleccionar una página específica. |
-| Pantalla |Regula cómo se ajusta el informe en la página de SharePoint Online. |
+| Mostrar |Regula cómo se ajusta el informe en la página de SharePoint Online. |
 | Mostrar panel de navegación |Muestra u oculta el panel de navegación de páginas. |
 | Mostrar panel de filtros |Muestra u oculta el panel de filtro. |
 

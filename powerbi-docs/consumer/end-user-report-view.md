@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 12/10/2019
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 6e64ab2730b73339d6d22ba356cce6e644af52c5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48efc58c7428961b70fb31a96f404139a75a1ac3
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861863"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217914"
 ---
 # <a name="change-the-display-of-a-report-page"></a>Cambio de la pantalla de una página del informe
 
@@ -52,6 +52,26 @@ Las opciones del menú **Vista** le proporcionan flexibilidad para mostrar las p
     ![Informe en pantalla completa](media/end-user-report-view/power-bi-full-screen.png)
 
 Cuando sale del informe, la configuración de **Vista** no se guarda, sino que vuelve al valor predeterminado. Si le parece importante guardar esta configuración, use [marcadores](end-user-bookmarks.md).
+
+## <a name="use-your-browser-to-change-page-display"></a>Uso del explorador para cambiar la presentación de la página
+
+Los controles de zoom del explorador aumentan y disminuyen el área de lienzo disponible. Al disminuir el zoom, se expande el área de lienzo disponible y viceversa. 
+
+![vídeo corto en el que se muestran los controles de zoom del explorador](media/end-user-report-view/power-bi-zoom.png)
+
+El cambio de tamaño de todo el explorador es otra manera de cambiar el tamaño de presentación del informe. 
+
+![vídeo corto en el que se muestra el cambio de tamaño del explorador](media/end-user-report-view/power-bi-resize-browser.gif)
+
+## <a name="zoom-in-on-a-visual"></a>Acercamiento de un objeto visual
+En ocasiones es difícil ver los detalles de un objeto visual. Puede hacer que ese objeto visual se muestre más grande y por sí mismo. Para obtener más información, vea [Modo de enfoque y Modo de pantalla completa](end-user-focus.md)
+
+### <a name="a-visual-in-focus-mode"></a>Un objeto visual en modo de *enfoque*
+
+![Captura de pantalla de un objeto visual abierto en modo de enfoque.](media/end-user-report-view/power-bi-focus.png)
+
+### <a name="a-visual-in-full-screen-mode"></a>Un objeto visual en modo de *pantalla completa*
+![Captura de pantalla de un objeto visual abierto en modo de pantalla completa.](media/end-user-report-view/power-bi-full-screen.png)
 
 ## <a name="next-steps"></a>Pasos siguientes
 

@@ -1,43 +1,123 @@
 ---
-title: Uso de la auditoría dentro de la organización
-description: Obtenga información sobre cómo puede usar la auditoría con Power BI para supervisar e investigar las acciones realizadas. Puede usar el Centro de seguridad y cumplimiento o usar PowerShell.
+title: Seguimiento de actividades de usuario en Power BI
+description: Obtenga información sobre cómo puede usar los registros de actividad y auditoría con Power BI para supervisar e investigar las acciones realizadas.
 author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 01/03/2020
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: 868d3dc2463f5ed94b8d8ccd85e5edff33ca1c6e
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 6cf298f6fd4d6d99163b2c0f5674b40cfc14bbfc
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698932"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75657199"
 ---
-# <a name="use-auditing-within-your-organization"></a>Uso de la auditoría dentro de la organización
+# <a name="track-user-activities-in-power-bi"></a>Seguimiento de actividades de usuario en Power BI
 
-Es fundamental saber quién realiza cada acción en cada elemento del inquilino de Power BI para ayudar a la organización a satisfacer sus requisitos, como el cumplimiento normativo y la administración de registros. Use las funciones de auditoría de Power BI para auditar las acciones que realizan los usuarios, como "Ver informe" y "Ver panel". No es posible usar la auditoría para auditar permisos.
+Es fundamental saber quién realiza cada acción en cada elemento del inquilino de Power BI para ayudar a la organización a satisfacer sus requisitos, como el cumplimiento normativo y la administración de registros. Con Power BI, tiene dos opciones para realizar el seguimiento de la actividad del usuario: El [Registro de actividad de Power BI](#use-the-activity-log) y el [Registro de auditoría de Office 365 unificado](#use-the-audit-log). Estos registros contienen una copia completa de los [datos de auditoría de Power BI](#operations-available-in-the-audit-and-activity-logs), pero hay varias diferencias clave, como se resume en la tabla siguiente.
 
-Trabaje con las funciones de auditoría en el Centro de seguridad y cumplimiento de Office 365 o use PowerShell. La auditoría se basa en la funcionalidad de Exchange Online, que se aprovisiona automáticamente para admitir Power BI.
+| **Registro de auditoría de Office 365 unificado** | **Registro de actividad de Power BI** |
+| --- | --- |
+| Incluye eventos de SharePoint Online, Exchange Online, Dynamics 365 y otros servicios además de los eventos de auditoría de Power BI. | Solo incluye los eventos de auditoría de Power BI. |
+| Solo tienen acceso, como administradores globales y auditores, los usuarios con permisos Registros de auditoría o Registros de auditoría de solo lectura. | Los administradores globales y los administradores del servicio Power BI tienen acceso. |
+| Los administradores y auditores globales pueden buscar en el registro de auditoría unificado mediante el Centro de seguridad y cumplimiento de Office 365, el Centro de seguridad de Microsoft 365 y el Centro de cumplimiento de Microsoft 365. | Todavía no hay ninguna interfaz de usuario para buscar en el registro de actividad. |
+| Los administradores y auditores globales pueden descargar entradas del registro de auditoría mediante los cmdlets y las API de administración de Office 365. | Los administradores globales y los administradores del servicio Power BI pueden descargar entradas del registro de actividad mediante una API REST de Power BI y un cmdlet de administración. |
+| Mantiene los datos de auditoría durante 90 días | Mantiene los datos de actividad durante 30 días (versión preliminar pública) |
+| | |
+
+## <a name="use-the-activity-log"></a>Uso del registro de actividad
+
+Como administrador del servicio Power BI, puede analizar el uso de todos los recursos de Power BI en el nivel de inquilino mediante informes personalizados basados en el registro de actividad de Power BI. Puede descargar las actividades mediante una API REST o un cmdlet de PowerShell. También puede filtrar los datos de actividad por intervalo de fechas, usuario y tipo de actividad.
+
+### <a name="activity-log-requirements"></a>Requisitos del registro de actividad
+
+Debe cumplir estos requisitos para acceder al registro de actividad de Power BI:
+
+- Debe ser un administrador global o un administrador del servicio Power BI.
+- Ha instalado los [cmdlets de administración de Power BI](https://www.powershellgallery.com/packages/MicrosoftPowerBIMgmt) localmente o usa los cmdlets de administración de Power BI en Azure Cloud Shell.
+
+### <a name="activityevents-rest-api"></a>API REST ActivityEvents
+
+Puede usar una aplicación administrativa basada en las API REST de Power BI para exportar eventos de actividad a un almacén de blobs o a una base de datos SQL. Después, puede crear un informe de uso personalizado sobre los datos exportados. En la llamada a la API REST **ActivityEvents**, debe especificar una fecha de inicio y una fecha de finalización y, opcionalmente, un filtro para seleccionar actividades por tipo de actividad o identificador de usuario. Como el registro de actividad puede contener una gran cantidad de datos, actualmente la API **ActivityEvents** solo admite la descarga de hasta un día de datos por solicitud. Es decir, la fecha de inicio y la fecha de finalización deben especificar el mismo día, como en el ejemplo siguiente. Asegúrese de especificar los valores de fecha y hora en formato UTC.
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?startDateTime='2019-08-31T00:00:00'&endDateTime='2019-08-31T23:59:59'
+```
+
+Si el número de entradas es grande, la API **ActivityEvents** solo devuelve entre 5 000 y 10 000 entradas, y un token de continuación. Después, debe volver a llamar a la API **ActivityEvents** con el token de continuación para obtener el siguiente lote de entradas, y así sucesivamente, hasta que haya recuperado todas las entradas y ya no reciba un token de continuación. En el ejemplo siguiente se muestra cómo usar el token de continuación.
+
+```
+https://api.powerbi.com/v1.0/myorg/admin/activityevents?continuationToken='%2BRID%3ARthsAIwfWGcVAAAAAAAAAA%3D%3D%23RT%3A4%23TRC%3A20%23FPC%3AARUAAAAAAAAAFwAAAAAAAAA%3D'
+```
+
+Con independencia del número de entradas devueltas, si los resultados incluyen un token de continuación, asegúrese de volver a llamar a la API con ese token para recuperar los datos restantes, hasta que ya no se devuelva un token de continuación. Es posible que una llamada devuelva incluso un token de continuación sin ninguna entrada de evento. En el ejemplo siguiente se muestra cómo crear un bucle con un token de continuación devuelto en la respuesta:
+
+```
+while(response.ContinuationToken != null)
+{
+   // Store the activity event results in a list for example
+    completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+
+    // Make another call to the API with continuation token
+    response = GetPowerBIActivityEvents(response.ContinuationToken)
+}
+completeListOfActivityEvents.AddRange(response.ActivityEventEntities);
+```
+
+### <a name="get-powerbiactivityevent-cmdlet"></a>Cmdlet Get-PowerBIActivityEvent
+
+Es fácil descargar eventos de actividad con los cmdlets de administración de Power BI para PowerShell, que incluyen un cmdlet **Get-PowerBIActivityEvent** que controla de forma automática el token de continuación. El cmdlet **Get-PowerBIActivityEvent** toma un parámetro StartDateTime y EndDateTime con las mismas restricciones que la API REST **ActivityEvents**. Es decir, la fecha de inicio y la fecha de finalización deben hacer referencia al mismo valor de fecha porque solo se pueden recuperar los datos de actividad de un día a la vez.
+
+En el script siguiente se muestra cómo descargar todas las actividades de Power BI. El comando convierte los resultados de JSON en objetos de .NET para un acceso sencillo a las propiedades de cada actividad.
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+### <a name="filter-activity-data"></a>Filtrado de datos de actividad
+
+Puede filtrar los eventos de actividad por tipo de actividad e identificador de usuario. En el script siguiente se muestra cómo descargar solo los datos de evento para la actividad **ViewDashboard**. Para obtener más información sobre los parámetros admitidos, use el comando `Get-Help Get-PowerBIActivityEvent`.
+
+```powershell
+Login-PowerBI
+
+$activities = Get-PowerBIActivityEvent -StartDateTime '2019-08-31T00:00:00' -EndDateTime '2019-08-31T23:59:59' -ActivityType 'ViewDashboard' | ConvertFrom-Json
+
+$activities.Count
+$activities[0]
+
+```
+
+## <a name="use-the-audit-log"></a>Uso del registro de auditoría
+
+Si su tarea consiste en realizar el seguimiento de las actividades del usuario en Power BI y Office 365, puede trabajar con la auditoría en el Centro de seguridad y cumplimiento de Office 365, o bien usar PowerShell. La auditoría se basa en la funcionalidad de Exchange Online, que se aprovisiona automáticamente para admitir Power BI.
 
 Puede filtrar los datos de auditoría por intervalo de fechas, usuario, panel, informe, conjunto de datos y tipo de actividad. También puede descargar las actividades en un archivo .csv (valores separados por comas) para analizarlo sin conexión.
 
-## <a name="requirements"></a>Requisitos
+### <a name="audit-log-requirements"></a>Requisitos del registro de auditoría
 
-Debe cumplir estos requisitos para tener acceso a los registros de auditoría:
+Debe cumplir estos requisitos para acceder a los registros de auditoría:
 
-* Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange.
+- Debe ser un administrador global o tener asignado el rol Registros de auditoría o Registros de auditoría de solo lectura de Exchange Online para obtener acceso al registro de auditoría. De manera predeterminada, los grupos de roles de Administración de cumplimiento y Administración de organizaciones incluyen estos roles asignados en la página **Permisos** en el centro de administración de Exchange.
 
     Para que las cuentas que no son de administrador puedan acceder al registro de auditoría, debe agregar al usuario como miembro de uno de estos grupos de roles. Si quiere hacerlo de otra manera, puede crear un grupo de roles personalizados en el centro de administración de Exchange, asignar el rol Registros de auditoría o Registros de auditoría de solo visualización a este grupo y, luego, agregar la cuenta que no es de administrador al nuevo grupo de roles. Para obtener más información, vea [Manage role groups in Exchange Online](/Exchange/permissions-exo/role-groups) (Administración de grupos de roles en Exchange Online).
 
     Si no puede acceder al centro de administración de Exchange desde el Centro de administración de Microsoft 365, vaya a https://outlook.office365.com/ecp e inicie sesión con las credenciales.
 
-* Si tiene acceso al registro de auditoría pero no es administrador global ni administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá usar un vínculo directo al [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog).
+- Si tiene acceso al registro de auditoría pero no es administrador global ni administrador del servicio Power BI, no tendrá acceso al portal de administración de Power BI. En este caso, deberá usar un vínculo directo al [Centro de seguridad y cumplimiento de Office 365](https://sip.protection.office.com/#/unifiedauditlog).
 
-## <a name="access-your-audit-logs"></a>Acceso a los registros de auditoría
+### <a name="access-your-audit-logs"></a>Acceso a los registros de auditoría
 
 Para acceder a los registros, asegúrese primero de habilitar el registro en Power BI. Para más información, vea [Registros de auditoría](service-admin-portal.md#audit-logs) en la documentación del portal de administración. Puede haber un retraso de hasta 48 horas entre el momento en que se habilita la auditoría y el momento en que se pueden ver los datos de auditoría. Si no ve los datos de inmediato, consulte los registros de auditoría más tarde. Puede haber una demora similar entre la obtención de permisos para ver los registros de auditoría y la posibilidad de acceder a estos.
 
@@ -53,9 +133,9 @@ Los registros de auditoría de Power BI están disponibles directamente en el [C
 
    ![Captura de pantalla del portal de administración con la opción Registros de auditoría y las opciones Ir al centro de administración de Microsoft Office 365 resaltadas.](media/service-admin-auditing/audit-log-o365-admin-center.png)
 
-## <a name="search-only-power-bi-activities"></a>Buscar solo actividades de Power BI
+### <a name="search-only-power-bi-activities"></a>Buscar solo actividades de Power BI
 
-Restrinja los resultados solo a las actividades de Power BI; para ello siga estos pasos. Para obtener una lista de actividades, consulte la lista de [actividades auditadas por Power BI](#activities-audited-by-power-bi) más adelante en este artículo.
+Restrinja los resultados solo a las actividades de Power BI; para ello siga estos pasos. Para obtener una lista de actividades, consulte la lista de [actividades auditadas por Power BI](#operations-available-in-the-audit-and-activity-logs) más adelante en este artículo.
 
 1. En la página **Búsqueda de registros de auditoría**, seleccione la lista desplegable **Actividades** en **Buscar**.
 
@@ -67,25 +147,25 @@ Restrinja los resultados solo a las actividades de Power BI; para ello siga esto
 
 Las búsquedas solo devolverán actividades de Power BI.
 
-## <a name="search-the-audit-logs-by-date"></a>Buscar en los registros de auditoría por fecha
+### <a name="search-the-audit-logs-by-date"></a>Buscar en los registros de auditoría por fecha
 
 Puede buscar registros por intervalo de fechas mediante el campo **Fecha de inicio** y **Fecha de finalización**. La selección predeterminada son los últimos siete días. La pantalla muestra la fecha y hora en formato de hora universal coordinada (UTC). El intervalo de fechas máximo que se puede especificar es de 90 días. 
 
-Recibirá un error si el intervalo de fechas seleccionado es superior a 90 días. Si usa el intervalo de fechas máximo de 90 días, debe seleccionar la hora actual en la **fecha de inicio**. En caso contrario, recibirá un error que indica que la fecha de inicio es anterior a la fecha de finalización. Si ha activado la auditoría durante los 90 últimos días, el intervalo de fechas no puede empezar antes de la fecha de activación de la auditoría.
+Recibirá un error si el intervalo de fechas seleccionado es superior a 90 días. Si usa el intervalo de fechas máximo de 90 días, debe seleccionar la hora actual en la **fecha de inicio**. De lo contrario, aparece un error que indica que la fecha de inicio es anterior a la fecha de finalización. Si ha activado la auditoría durante los 90 últimos días, el intervalo de fechas no puede empezar antes de la fecha de activación de la auditoría.
 
 ![Captura de pantalla de la búsqueda de registros de auditoría con las opciones de fecha de inicio y fecha de finalización resaltadas.](media/service-admin-auditing/search-audit-log-by-date.png)
 
-## <a name="search-the-audit-logs-by-users"></a>Buscar en los registros de auditoría por usuario
+### <a name="search-the-audit-logs-by-users"></a>Buscar en los registros de auditoría por usuario
 
 Puede buscar entradas del registro de auditoría para actividades realizadas por usuarios específicos. Escriba uno o varios nombres de usuario en el campo **Usuarios**. El nombre de usuario es similar a una dirección de correo electrónico. Es la cuenta con la que los usuarios inician sesión en Power BI. Si deja este cuadro en blanco, se devolverán las entradas de todos los usuarios (y las cuentas de servicio) de la organización.
 
 ![Búsqueda por usuarios](media/service-admin-auditing/search-audit-log-by-user.png)
 
-## <a name="view-search-results"></a>Ver los resultados de la búsqueda
+### <a name="view-search-results"></a>Ver los resultados de la búsqueda
 
 Después de seleccionar **Buscar**, se cargan los resultados de la búsqueda. Después de unos momentos, aparecen en **Resultados**. Una vez finalizada la búsqueda, la pantalla muestra el número de resultados encontrados. **Búsqueda de registros de auditoría** muestra un máximo de 1000 eventos. Si son más de 1000 los eventos que cumplen los criterios de búsqueda, la aplicación mostrará los 1000 eventos más recientes.
 
-### <a name="view-the-main-results"></a>Ver los resultados principales
+#### <a name="view-the-main-results"></a>Ver los resultados principales
 
 El área **Resultados** tiene la siguiente información sobre cada evento devuelto por la búsqueda. Seleccione un encabezado de columna en **Resultados** para ordenar los resultados.
 
@@ -94,11 +174,11 @@ El área **Resultados** tiene la siguiente información sobre cada evento devuel
 | Fecha |Fecha y hora (en formato UTC) en las que se produjo el evento. |
 | IP address (Dirección IP) |La dirección IP del dispositivo que se usa para la actividad registrada. La aplicación muestra la dirección IP en el formato de dirección IPv4 o IPv6. |
 | Usuario |Usuario (o cuenta de servicio) que realizó la acción que desencadenó el evento. |
-| Activity (Actividad) |Actividad realizada por el usuario. Este valor corresponde a las actividades que se seleccionaron en la lista desplegable **Actividades**. En el caso de un evento del registro de auditoría de administración de Exchange, el valor de esta columna es un cmdlet de Exchange. |
+| Actividad |Actividad realizada por el usuario. Este valor corresponde a las actividades que se seleccionaron en la lista desplegable **Actividades**. En el caso de un evento del registro de auditoría de administración de Exchange, el valor de esta columna es un cmdlet de Exchange. |
 | Artículo |El objeto creado o modificado debido a la actividad correspondiente. Por ejemplo, el archivo visto o modificado, o la cuenta de usuario actualizada. No todas las actividades tienen un valor en esta columna. |
 | Detail (Detalle) |Detalles adicionales sobre una actividad. También en este caso, no todas las actividades tienen un valor. |
 
-### <a name="view-the-details-for-an-event"></a>Ver los detalles de un evento
+#### <a name="view-the-details-for-an-event"></a>Ver los detalles de un evento
 
 Para ver más detalles de un evento, seleccione el registro de eventos en la lista de resultados de la búsqueda. Aparece una página **Detalles** con las propiedades detalladas del registro de eventos. En la página **Detalles** se muestran las propiedades en función del servicio de Office 365 donde ocurre el evento.
 
@@ -106,7 +186,7 @@ Para mostrar estos detalles, seleccione **Más información**. Todas las entrada
 
    ![Captura de pantalla del cuadro de diálogo de detalles de la auditoría con la opción Más información resaltada.](media/service-admin-auditing/audit-details.png)
 
-## <a name="export-search-results"></a>Exportar los resultados de la búsqueda
+### <a name="export-search-results"></a>Exportar los resultados de la búsqueda
 
 Para exportar el registro de auditoría de Power BI a un archivo .csv, siga estos pasos.
 
@@ -116,9 +196,9 @@ Para exportar el registro de auditoría de Power BI a un archivo .csv, siga esto
 
     ![Captura de pantalla de la opción Exportar resultados.](media/service-admin-auditing/export-auditing-results.png)
 
-## <a name="use-powershell-to-search-audit-logs"></a>Uso de PowerShell para buscar registros de auditoría
+### <a name="use-powershell-to-search-audit-logs"></a>Uso de PowerShell para buscar registros de auditoría
 
-También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. En el ejemplo siguiente se muestra cómo conectarse a Exchange Online PowerShell y usar luego el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para extraer las entradas de registro de auditoría de Power BI. Para ejecutar el script, un administrador debe asignarle los permisos adecuados, tal y como se describe en la sección [Requisitos](#requirements).
+También puede usar PowerShell para acceder a los registros de auditoría mediante el inicio de sesión. En el ejemplo siguiente se muestra cómo conectarse a Exchange Online PowerShell y usar luego el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) para extraer las entradas de registro de auditoría de Power BI. Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
 
 ```powershell
 Set-ExecutionPolicy RemoteSigned
@@ -131,9 +211,9 @@ Import-PSSession $Session
 Search-UnifiedAuditLog -StartDate 9/11/2018 -EndDate 9/15/2018 -RecordType PowerBI -ResultSize 1000 | Format-Table | More
 ```
 
-## <a name="use-powershell-to-export-audit-logs"></a>Uso de PowerShell para exportar registros de auditoría
+### <a name="use-powershell-to-export-audit-logs"></a>Uso de PowerShell para exportar registros de auditoría
 
-También puede usar PowerShell para exportar los resultados de la búsqueda de registros de auditoría. En el ejemplo siguiente se muestra cómo enviar desde el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) y exportar los resultados con el cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para ejecutar el script, un administrador debe asignarle los permisos adecuados, tal y como se describe en la sección [Requisitos](#requirements).
+También puede usar PowerShell para exportar los resultados de la búsqueda de registros de auditoría. En el ejemplo siguiente se muestra cómo enviar desde el comando [Search-UnifiedAuditLog](/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog?view=exchange-ps/) y exportar los resultados con el cmdlet [Export-Csv](/powershell/module/microsoft.powershell.utility/export-csv). Para ejecutar el script, un administrador debe asignarle los permisos adecuados, como se describe en la sección [Requisitos del registro de auditoría](#audit-log-requirements).
 
 ```powershell
 $UserCredential = Get-Credential
@@ -147,11 +227,11 @@ Export-Csv -Path "c:\temp\PowerBIAuditLog.csv" -NoTypeInformation
 Remove-PSSession $Session
 ```
 
-Para más información sobre cómo conectarse a Exchange Online, vea [Conectarse a Exchange Online mediante PowerShell remoto](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Para consultar otro ejemplo del uso de PowerShell con los registros de auditoría, vea [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del registro de auditoría de Power BI y PowerShell para asignar licencias de Power BI Pro).
+Para obtener más información sobre cómo conectarse a Exchange Online, vea [Conexión a Exchange Online PowerShell](/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell/). Para consultar otro ejemplo del uso de PowerShell con los registros de auditoría, vea [Using Power BI audit log and PowerShell to assign Power BI Pro licenses](https://powerbi.microsoft.com/blog/using-power-bi-audit-log-and-powershell-to-assign-power-bi-pro-licenses/) (Uso del registro de auditoría de Power BI y PowerShell para asignar licencias de Power BI Pro).
 
-## <a name="activities-audited-by-power-bi"></a>Actividades auditadas por Power BI
+## <a name="operations-available-in-the-audit-and-activity-logs"></a>Operaciones disponibles en los registros de actividad y auditoría
 
-A continuación, se indican las actividades auditadas por Power BI:
+Las operaciones siguientes están disponibles en los registros de auditoría y de actividad.
 
 | Nombre descriptivo                                     | Nombre de operación                              | Notas                                  |
 |---------------------------------------------------|---------------------------------------------|------------------------------------------|

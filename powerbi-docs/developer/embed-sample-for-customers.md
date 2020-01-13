@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 04/02/2019
-ms.openlocfilehash: 85b21d95cb992449d3b7a910c619d049237fc9d8
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.date: 12/12/2019
+ms.openlocfilehash: e27789ca28d86a53b7d8340b3d766a73a04645cb
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311096"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223405"
 ---
 # <a name="tutorial-embed-power-bi-content-into-an-application-for-your-customers"></a>Tutorial: Insertar contenido de Power BI en una aplicación para los clientes
 
@@ -78,7 +78,7 @@ En los pasos siguientes se explica cómo publicar el informe PBIX en el área de
 
 ## <a name="embed-content-using-the-sample-application"></a>Inserción de contenido mediante la aplicación de ejemplo
 
-Este ejemplo se mantiene deliberadamente sencillo para fines de demostración. La protección del secreto de aplicación o de las credenciales de la cuenta maestra le corresponde a usted o a los desarrolladores.
+Este ejemplo se mantiene deliberadamente sencillo para fines de demostración. La protección del secreto de aplicación o de las credenciales de la cuenta maestra es responsabilidad suya o de los desarrolladores.
 
 Siga estos pasos para empezar a insertar contenido mediante la aplicación de ejemplo.
 
@@ -435,6 +435,8 @@ Para más información, consulte las [notas del producto de planeamiento de la c
 ### <a name="assign-a-workspace-to-a-dedicated-capacity"></a>Asignación de un área de trabajo a una capacidad dedicada
 
 Una vez creada una capacidad dedicada, puede asignar el área de trabajo a esa capacidad dedicada.
+
+Todas las áreas de trabajo que contengan recursos de Power BI relacionados con contenido insertado (incluidos conjuntos de datos, informes y paneles) se deben asignar a capacidades dedicadas. Por ejemplo, si un informe insertado y su conjunto de datos enlazado se encuentran en áreas de trabajo diferentes, las dos áreas de trabajo se deben asignar a capacidades dedicadas.
 
 Para asignar una capacidad dedicada a un área de trabajo mediante la [entidad de servicio](embed-service-principal.md), use la [API REST de Power BI](https://docs.microsoft.com/rest/api/power-bi/capacities/groups_assigntocapacity). Cuando use las API REST de Power BI, asegúrese de usar el [identificador de objeto de entidad de servicio](embed-service-principal.md#how-to-get-the-service-principal-object-id).
 

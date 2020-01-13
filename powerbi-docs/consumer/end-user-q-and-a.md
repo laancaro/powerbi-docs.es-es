@@ -6,15 +6,15 @@ ms.reviewer: mohammad ali
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/22/2019
+ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 051803b3d9708289f37271afc02b7802fb52b50e
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73862654"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75218254"
 ---
 # <a name="qa-for-power-bi-consumers"></a>Preguntas y respuestas para **consumidores** de Power BI
 
@@ -67,36 +67,38 @@ Por ejemplo:
 
 Una vez que esté familiarizado con los datos, vuelva a centrarse al panel y coloque el cursor en el cuadro de pregunta. Se abrirá la pantalla de Preguntas y respuestas.
 
-![Pantalla de Preguntas y respuestas](media/end-user-q-and-a/power-bi-screen.png) 
+![Pantalla de Preguntas y respuestas](media/end-user-q-and-a/power-bi-suggested.png) 
 
 Incluso antes de comenzar a escribir, Preguntas y respuestas muestra una nueva pantalla con sugerencias que le ayudarán a realizar la pregunta. Verá las frases y preguntas que contienen los nombres de las tablas de los conjuntos de datos subyacentes y puede incluso ver una lista de preguntas *destacadas* creadas por el propietario del conjunto de datos.
 
 Puede seleccionar cualquiera de ellas para agregarlas al cuadro de preguntas y luego refinarlas para encontrar una respuesta específica. 
 
-Otra manera en la que Preguntas y respuestas puede ayudar a formular preguntas es mediante peticiones de confirmación, rellenado automático o indicaciones visuales. 
+![Pantalla de Preguntas y respuestas](media/end-user-q-and-a/power-bi-result.png) 
+
+Otra manera en la que Power BI ayuda a formular preguntas es mediante características como peticiones de confirmación, rellenado automático o indicaciones visuales. Power BI proporciona esta ayuda para Preguntas y respuestas en los paneles, Preguntas y respuestas en los informes y con el objeto visual Preguntas y respuestas. Estas características se describirán con detalle a continuación, en la sección [Creación de un objeto visual de Preguntas y respuestas con una consulta en lenguaje natural](#create-a-qa-visual-by-typing-a-natural-language-query)
 
 <!-- ![video](../visuals/media/end-user-q-and-a/qna4.gif) -->
 
 
-## <a name="the-qa-visual"></a>Objeto visual Preguntas y respuestas
+## <a name="the-qa-visual-in-power-bi-reports"></a>El objeto visual de Preguntas y respuestas en informes de Power BI
 
-El objeto visual Preguntas y respuestas le permite realizar preguntas con lenguaje natural y obtener las respuestas en forma de objeto visual. Al comportarse como cualquier otro, el objeto visual Preguntas y respuestas admite los filtros cruzados y los resaltados cruzados, así como los marcadores y los comentarios. 
+El objeto visual Preguntas y respuestas le permite realizar preguntas con lenguaje natural y obtener las respuestas en forma de objeto visual. El objeto visual Preguntas y respuestas se comporta como cualquier otro en un informe y admite filtros cruzados, resaltados cruzados, marcadores y comentarios. 
 
 Puede identificar una objeto visual Preguntas y respuestas por su cuadro de pregunta en la parte superior. Aquí es donde escribirá preguntas con lenguaje natural. El objeto visual Preguntas y respuestas se puede usar una y otra vez para formular preguntas sobre los datos. Al salir del informe, el objeto visual Preguntas y respuestas se restablece a su valor predeterminado. 
 
 ![Captura de pantalla del valor predeterminado del objeto visual Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-default.png)
 
 
-## <a name="use-the-qa-visual"></a>Uso del objeto visual Preguntas y respuestas
-Para usar el objeto visual Preguntas y respuestas, seleccione una de las preguntas sugeridas o escriba su propia pregunta en lenguaje natural. 
+## <a name="use-qa"></a>Uso de Preguntas y respuestas 
+Para usar el objeto visual Preguntas y respuestas en un panel o informe, seleccione una de las preguntas sugeridas o escriba una propia en lenguaje natural. 
 
 ### <a name="create-a-qa-visual-by-using-a-suggested-question"></a>Creación de un objeto visual Preguntas y respuestas mediante una pregunta sugerida
 
-Aquí hemos seleccionado **principales estados geográficos por unidades totales**. Power BI elige el mejor tipo de objeto visual posible. En este caso, es el mapa.
+Aquí hemos seleccionado **principales estados geográficos por unidades totales**. Power BI elige el mejor tipo de objeto visual posible. En este caso, es un mapa.
 
 ![Mapa del objeto visual Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-suggested.png)
 
-Pero puede indicar a Power BI qué tipo de objeto visual se va a usar agregándolo a su consulta en lenguaje natural. Tenga en cuenta que no todos los tipos de objetos visuales funcionan o tienen sentido con sus datos. Por ejemplo, estos datos no generarían un gráfico de dispersión significativo. Pero funciona como un mapa coroplético.
+Pero puede indicar a Power BI qué tipo de objeto visual se va a usar. Para ello, no tiene más que agregarlo a su consulta en lenguaje natural. Tenga en cuenta que no todos los tipos de objetos visuales funcionan o tienen sentido con sus datos. Por ejemplo, estos datos no generarían un gráfico de dispersión significativo. Sin embargo, funcionan como un mapa coroplético.
 
 ![Objeto visual Preguntas y respuestas como un mapa coroplético](media/end-user-q-and-a/power-bi-filled-map.png)
 
@@ -105,26 +107,45 @@ Pero puede indicar a Power BI qué tipo de objeto visual se va a usar agregánd
 
 Si no está seguro del tipo de preguntas que se deben formular o la terminología que se debe usar, expanda **Mostrar todas las sugerencias** o examine los otros objetos visuales del informe. Esto le ayudará a familiarizarse con los términos y el contenido del conjunto de datos.
 
-1. Escriba su pregunta en el campo Preguntas y respuestas con lenguaje natural. A medida que escribe su pregunta, Power BI le ayuda con Autocompletar, sugerencias y comentarios.
+1. Escriba su pregunta en el campo Preguntas y respuestas con lenguaje natural. A medida que escribe la pregunta, Power BI le ayuda con Autocompletar, sugerencias visuales y comentarios.
 
-    - Se utiliza un subrayado rojo para las palabras que Power BI no reconoce. Siempre que sea posible, Power BI le ayudará a definir estas palabras. Si ve la definición correcta, selecciónela en el menú desplegable.  
+    **Autocompletar**: a medida que escribe la pregunta, Preguntas y respuestas de Power BI muestra sugerencias oportunas y contextuales para ayudarle a ser productivo rápidamente con el lenguaje natural. A medida que escribe, obtiene comentarios y resultados inmediatos. La experiencia es similar a escribir en un motor de búsqueda.
 
-        ![Término subrayado en rojo en el cuadro de preguntas de Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    En este ejemplo, la sugerencia que quiere es la última. 
 
-    - Si ninguna de las definiciones es correcta, pruebe con otro término o seleccione la palabra subrayada en rojo para solicitar al propietario del informe que agregue la palabra.
+    ![Preguntas y respuestas con una palabra subrayada en color azul](media/end-user-q-and-a/power-bi-autocomplete.png)
 
-        ![Escritura de una pregunta en el cuadro de preguntas de Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-owner.png)
+    **Subrayados en color rojo y azul**: Preguntas y respuestas de Power BI muestra palabras con subrayado para ayudarle a ver qué palabras ha reconocido Power BI o no. Un subrayado sólido de color azul indica que Power BI ha reconocido la palabra. En el ejemplo siguiente se muestra que Preguntas y respuestas ha reconocido la palabra **tienda**.
 
-    - A medida que escribe más contenido de la pregunta, Power BI le hace saber si no entiende la pregunta e intenta ayudarle. En el ejemplo siguiente, Power BI le pregunta "¿quiso decir..." y sugiere una manera diferente de combinar palabras para la pregunta con la terminología del conjunto de datos. 
+    ![Preguntas y respuestas con una lista desplegable de sugerencias para completar la pregunta](media/end-user-q-and-a/power-bi-blue.png)
 
-        ![Propuesta de correcciones sugeridas en el objeto visual Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+    Seleccione una palabra subrayada en color azul para mostrar una lista desplegable de preguntas sugeridas. 
 
-2. Después de seleccionar la corrección de Power BI, los resultados se muestran como un gráfico de líneas. 
+    ![Lista desplegable con sugerencias También puede usar](media/end-user-q-and-a/power-bi-try.png)
+
+
+    A menudo, cuando escribe una palabra en Preguntas y respuestas, se marca con un subrayado de color rojo. Un subrayado rojo puede indicar uno de los dos posibles problemas. El primer tipo de problema se clasifica como confianza baja. Si escribe una palabra no precisa o ambigua, el campo aparece subrayado en rojo. Un ejemplo podría ser la palabra "Ubicación". Varios campos pueden contener la palabra "Ubicación", por lo que el sistema usa un subrayado de color rojo para pedirle que elija el campo que quiere. En este ejemplo, Power BI le pedirá que seleccione el campo que quiere usar para "VanArsdel".
+    
+    ![Término subrayado en rojo en el cuadro de preguntas de Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-red.png)
+    
+    Otro ejemplo de confianza baja podría ser si escribe la palabra "Área", pero la columna que coincide es "Distrito". Preguntas y respuestas de Power BI reconoce palabras que significan lo mismo, gracias a la integración con Bing y Office. Preguntas y respuestas subraya la palabra en color rojo para que sepa que no es una coincidencia directa
+
+    ![Preguntas y respuestas reformula la pregunta con un sinónimo](media/end-user-q-and-a/power-bi-red.png)
+
+    El segundo tipo de problema se da cuando Preguntas y respuestas no reconoce la palabra. Un ejemplo podría ser el uso de la palabra "geografía", aunque no exista en ningún lugar de los datos. La palabra está en el diccionario, pero Preguntas y respuestas marca este término con un subrayado rojo. Preguntas y respuestas de Power BI no puede crear una visualización y le sugiere que pida al diseñador del informe que agregue el término.
+
+    ![Preguntas y respuestas con una sugerencia de que le pida al diseñador que agregue la palabra geografía](media/end-user-q-and-a/power-bi-geography.png)
+
+    **Sugerencias**: a medida que escribe más contenido de la pregunta, Power BI le hace saber si no la entiende e intenta ayudarle. En el ejemplo siguiente, Power BI le pregunta "¿quiso decir..." y sugiere una manera diferente de combinar palabras para la pregunta con la terminología del conjunto de datos. 
+
+    ![Propuesta de correcciones sugeridas en el objeto visual Preguntas y respuestas](media/end-user-q-and-a/power-bi-q-and-a-did-you-mean.png)
+
+    Después de seleccionar la corrección de Power BI, los resultados se muestran como un gráfico de líneas. 
 
     ![Resultados del objeto visual Preguntas y respuestas como un gráfico de líneas](media/end-user-q-and-a/power-bi-q-and-a-line.png)
 
 
-3. Sin embargo, puede cambiar el gráfico de líneas a otro tipo de objeto visual.  
+    Sin embargo, puede cambiar el gráfico de líneas a otro tipo de objeto visual.  
 
     ![Objeto visual Preguntas y respuestas con "como un gráfico de columnas" agregado a la pregunta](media/end-user-q-and-a/power-bi-q-and-a-specify-type.png)
 

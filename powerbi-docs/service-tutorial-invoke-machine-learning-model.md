@@ -1,6 +1,6 @@
 ---
-title: 'Tutorial: Invocación de un modelo de Machine Learning Studio en Power BI (versión preliminar)'
-description: En este tutorial invoca un modelo de Machine Learning Studio en Power BI.
+title: 'Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)'
+description: En este tutorial se invoca un modelo de Machine Learning Studio (clásico) en Power BI.
 author: davidiseminger
 ms.reviewer: SarinaJoan
 ms.service: powerbi
@@ -10,16 +10,16 @@ ms.topic: tutorial
 ms.date: 03/12/2019
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 3cbe715bc3cff9d2afeefe7c82847f104f4d0835
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3a7d4fa73caa718cec905d8f511ae94b077f7e2b
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876957"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75224239"
 ---
-# <a name="tutorial-invoke-a-machine-learning-studio-model-in-power-bi-preview"></a>Tutorial: Invocación de un modelo de Machine Learning Studio en Power BI (versión preliminar)
+# <a name="tutorial-invoke-a-machine-learning-studio-classic-model-in-power-bi-preview"></a>Tutorial: Invocación de un modelo de Machine Learning Studio (clásico) en Power BI (versión preliminar)
 
-En este tutorial, tratamos la experiencia de incorporar las conclusiones de un modelo de **Azure Machine Learning Studio** en Power BI. En este tutorial se incluyen instrucciones para conceder un acceso de usuario de Power BI a un modelo de Azure ML, creando un flujo de datos y aplicando las conclusiones del modelo de Azure ML a su flujo de datos. También hace referencia a la guía de inicio rápido para crear un modelo de Azure ML si aún no lo tiene.
+En este tutorial, se describe la experiencia de incorporar las conclusiones de un modelo de **Azure Machine Learning Studio (clásico)** en Power BI. En este tutorial se incluyen instrucciones para conceder un acceso de usuario de Power BI a un modelo de Azure ML, creando un flujo de datos y aplicando las conclusiones del modelo de Azure ML a su flujo de datos. También hace referencia a la guía de inicio rápido para crear un modelo de Azure ML si aún no lo tiene.
 
 En el tutorial se le guiará a través de los pasos siguientes:
 
@@ -31,15 +31,15 @@ En el tutorial se le guiará a través de los pasos siguientes:
 
 ## <a name="create-and-publish-an-azure-ml-model"></a>Crear y publicar un modelo de Azure ML
 
-Siga las instrucciones en [Walkthrough Step 1: Create a Machine Learning Studio workspace](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) (Paso 1 del tutorial: Crear un área de trabajo de Machine Learning Studio) para crear un área de trabajo de **Machine Learning**.
+Siga las instrucciones en [Walkthrough Step 1: Creación de un área de trabajo de Machine Learning Studio (clásico)](https://docs.microsoft.com/azure/machine-learning/studio/walkthrough-1-create-ml-workspace) para crear un área de trabajo de **Machine Learning**.
 
-Puede usar estos pasos con cualquier modelo de Azure ML o conjunto de datos que ya tenga. Si no tiene un modelo publicado, puede crear un modelo en cuestión de minutos haciendo referencia a [Crear el primer experimento de ciencia en Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment), que configura un modelo de Azure ML para la predicción de los precios de automóviles.
+Puede usar estos pasos con cualquier modelo de Azure ML o conjunto de datos que ya tenga. Si no tiene un modelo publicado, puede crearlo en cuestión de minutos si consulta [Creación del primer experimento de ciencia en Azure Machine Learning Studio (clásico)](https://docs.microsoft.com/azure/machine-learning/studio/create-experiment), donde se configura un modelo de Azure ML para la predicción de los precios de automóviles.
 
-Siga los pasos en [Implementación de un servicio web Azure Machine Learning Studio](https://docs.microsoft.com/azure/machine-learning/studio/publish-a-machine-learning-web-service) para publicar el modelo de Azure ML como servicio web.
+Siga los pasos descritos en [Implementación de un servicio web de Azure Machine Learning Studio (clásico)](https://docs.microsoft.com/azure/machine-learning/studio/tutorial-part3-credit-risk-deploy) para publicar el modelo de Azure ML como servicio web.
 
 ## <a name="grant-a-power-bi-user-access"></a>Conceder un acceso de usuario de Power BI
 
-Para obtener acceso a un modelo de Azure ML desde Power BI, debe tener acceso de **lectura** a la suscripción a Azure y al grupo de recursos, y acceso de **lectura** al servicio web Azure Machine Learning Studio para los modelos de Machine Learning Studio.  En el modelo de Azure Machine Learning Service, necesita acceso de **lectura** al área de trabajo del servicio Machine Learning.
+Para acceder a un modelo de Azure ML desde Power BI, debe tener acceso de **lectura** a la suscripción a Azure y al grupo de recursos, y acceso de **lectura** al servicio web Azure Machine Learning Studio (clásico) para los modelos de Machine Learning Studio (clásico).  Para el modelo de Azure Machine Learning, necesita acceso de **lectura** al área de trabajo de Machine Learning.
 
 En los siguientes pasos se da por sentado que usted es coadministrador de la suscripción a Azure y el grupo de recursos donde se publicó el modelo.
 
@@ -59,9 +59,9 @@ A continuación, repita los pasos anteriores para conceder acceso de rol de **co
 
 Inicie sesión en el servicio Power BI con las credenciales del usuario al que concedió acceso al modelo de Azure ML en el paso anterior.
 
-En este paso se da por sentado que tiene los datos que desea puntuar con su modelo de Azure ML en formato CSV.  Si usó el **experimento de precios de automóviles** para crear el modelo en Machine Learning Studio, el conjunto de datos se compartirá en el siguiente vínculo:
+En este paso se da por sentado que tiene los datos que desea puntuar con su modelo de Azure ML en formato CSV.  Si ha usado el **experimento de precios de automóviles** para crear el modelo en Machine Learning Studio (clásico), el conjunto de datos se compartirá en el siguiente vínculo:
 
-* [Modelo de ejemplo de Azure Learning Studio](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
+* [Modelo de ejemplo de Azure Learning Studio (clásico)](https://github.com/santoshc1/PowerBI-AI-samples/blob/master/Tutorial_MLStudio_model_integration/Automobile%20price%20data%20_Raw_.csv)
 
 ### <a name="create-a-dataflow"></a>Crear un flujo de datos
 
@@ -173,7 +173,7 @@ Si ya no necesita los recursos de Azure que creó con este artículo, elimínelo
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En este tutorial, creó un sencillo experimento mediante el uso de Azure Machine Learning Studio, que a su vez utiliza un conjunto de datos sencillo que sigue estos pasos:
+En este tutorial, ha creado un sencillo experimento mediante Azure Machine Learning Studio (clásico) con un conjunto de datos sencillo que sigue estos pasos:
 
 - Crear y publicar un modelo de Azure Machine Learning
 - Conceder acceso a un usuario de Power BI para utilizar el modelo

@@ -1,19 +1,19 @@
 ---
 title: Escanear un código de barras desde la aplicación móvil de Power BI
 description: Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
-author: mshenhav
+author: paulinbar
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 10/13/2017
-ms.author: mshenhav
-ms.openlocfilehash: bbc787203293fc6c9075400abf674345710faaed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 12/02/2019
+ms.author: painbar
+ms.openlocfilehash: ee3cfec0c735ad52f9a036e75f61c1ab0400567b
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879173"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75217830"
 ---
 # <a name="scan-a-barcode-with-your-device-from-the-power-bi-mobile-app"></a>Escanear un código de barras con su dispositivo desde la aplicación móvil de Power BI
 Escanee códigos de barras en el mundo real para ir directamente a información filtrada de BI en la aplicación móvil Power BI.
@@ -32,15 +32,13 @@ Suponga que un compañero ha [etiquetado un campo de código de barras en un inf
 Al escanear el código de barras de un producto con el escáner en la aplicación Power BI en su dispositivo, verá el informe (o una lista de informes) con ese código de barras. Puede abrir ese informe filtrado por ese código de barras.
 
 ## <a name="scan-a-barcode-with-the-power-bi-scanner"></a>Escanear un código de barras con el escáner de Power BI
-1. En la aplicación móvil de Power BI, abra el menú de navegación principal ![](media/mobile-apps-scan-barcode-iphone/pbi_iph_navmenu.png) en la parte superior izquierda. 
-2. Desplácese hacia abajo hasta **Escáner** y selecciónelo. 
-   
+1. En la barra de navegación, pulse **Más opciones** (...) y después **Escáner**.
+
     ![](media/mobile-apps-scan-barcode-iphone/power-bi-scanner.png)
-3. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
-4. Apunte el escáner a un código de barras de un producto. 
-   
-    Verá una lista de los informes asociados a ese código de barras.
-5. Pulse el nombre del informe para abrirlo en el dispositivo, filtrado automáticamente por ese código de barras.
+
+2. Si la cámara no está habilitada, debe permitir que la aplicación Power BI use la cámara. Se trata de una aprobación única. 
+4. Apunte el escáner a un código de barras de un producto. Verá una lista de los informes asociados a ese código de barras.
+5. Pulse el nombre del informe para abrirlo en el dispositivo, filtrado de forma automática por ese código de barras.
 
 ## <a name="filter-by-other-barcodes-while-in-a-report"></a>Filtrar por otros códigos de barras en un informe
 Mientras mira un informe filtrado por un código de barras en el dispositivo, puede querer filtrar el mismo informe por otro código de barras.

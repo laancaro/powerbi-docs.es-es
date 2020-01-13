@@ -9,18 +9,18 @@ ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: c126b073ac80a470733d7d8dd2638da28a06b265
-ms.sourcegitcommit: 9a265d8117cc202f5f700286b5ff42a631aacdb4
+ms.openlocfilehash: 22328ddd6be697f658301516d05971cdcee0d260
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/06/2019
-ms.locfileid: "74882825"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75223887"
 ---
 # <a name="distribute-power-bi-content-to-external-guest-users-with-azure-ad-b2b"></a>Distribuir contenido de Power BI a usuarios externos invitados con Azure AD B2B
 
-Power BI se integra con Azure Active Directory de negocio a negocio (Azure AD B2B) para permitir una distribución segura de contenido de Power BI para usuarios invitados de fuera de la organización manteniendo, aún así, el control sobre los datos internos.  
+Power BI se integra con Azure Active Directory de negocio a negocio (Azure AD B2B) para permitir una distribución segura de contenido de Power BI para usuarios invitados de fuera de la organización manteniendo, aún así, el control sobre los datos internos. Además, puede permitir que usuarios invitados de fuera de la organización editen y administren contenido dentro de la organización.
 
-Además, puede permitir que usuarios invitados de fuera de la organización editen y administren contenido dentro de la organización.
+En este artículo se proporciona una introducción básica a Azure AD B2B en Power BI. Para obtener más información, vea [Distribuir contenido de Power BI a usuarios externos invitados mediante Azure Active Directory B2B](whitepaper-azure-b2b-power-bi.md).
 
 ## <a name="enable-access"></a>Habilitar acceso
 
@@ -88,7 +88,7 @@ La asignación del área de trabajo a una [capacidad Power BI Premium](service
 
 ### <a name="assign-a-power-bi-pro-license-to-guest-user"></a>Asignar una licencia de Power BI Pro a un usuario invitado
 
-Asignar una licencia de Power BI Pro al usuario invitado, dentro de su inquilino, permite que ese usuario invitado vea el contenido del inquilino.
+Asignar una licencia de Power BI Pro a un usuario invitado, dentro de su inquilino permite que ese usuario invitado vea el contenido del inquilino. Para obtener más información sobre la asignación de licencias, vea [Asignación de licencias a usuarios en la página Licencias](/office365/admin/manage/assign-licenses-to-users#assign-licenses-to-users-on-the-licenses-page). Antes de asignar licencias Pro a usuarios invitados, póngase en contacto con el representante de la cuenta de Microsoft para asegurarse de que cumple con los términos del contrato con Microsoft.
 
 ![Diagrama de la experiencia de usuario invitado con asignación de licencia Pro desde su inquilino.](media/service-admin-azure-ad-b2b/license-approach-2.png)
 
@@ -98,7 +98,7 @@ El usuario invitado ya tiene una licencia de Power BI Pro asignada dentro del in
 
 ![Diagrama de la experiencia del usuario invitado cuando trae su propia licencia.](media/service-admin-azure-ad-b2b/license-approach-3.png)
 
-## <a name="guest-users-who-can-edit-and-manage-content"></a>Usuarios invitados que pueden editar y administrar contenido 
+## <a name="guest-users-who-can-edit-and-manage-content"></a>Usuarios invitados que pueden editar y administrar contenido
 
 Cuando se usa la característica [Permitir a los usuarios externos editar y administrar el contenido de la organización](service-admin-portal.md#allow-external-guest-users-to-edit-and-manage-content-in-the-organization), los usuarios invitados especificados obtienen acceso a la instancia de Power BI de la organización. Pueden ver cualquier contenido para el que tengan permiso. Pueden acceder a Inicio, examinar áreas de trabajo, instalar aplicaciones que se encuentren en la lista de acceso y aportar contenido a áreas de trabajo. Pueden crear o ser administradores de áreas de trabajo que usen la nueva experiencia de área de trabajo. Existen algunas limitaciones. La sección Consideraciones y limitaciones muestran esas restricciones.
  

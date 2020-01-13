@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: 8afa43cf9d49286a1ec04f7f60aa4a4c4ca7fd16
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: fac23cf5814513c488a3403be420a2273992bae5
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831178"
+ms.lasthandoff: 01/04/2020
+ms.locfileid: "75657176"
 ---
 # <a name="create-parameters-for-paginated-reports-in-the-power-bi-service"></a>Creación de parámetros de informes paginados en el servicio Power BI
 
@@ -61,7 +61,12 @@ La siguiente ilustración muestra la vista de diseño del Generador de informes 
     -   Para ocultar el parámetro y evitar que pueda modificarse en el servidor de informes una vez publicado el informe, seleccione **Interno**. El parámetro de informe solo puede verse entonces en la definición de informe. Para esta opción, debe establecer un valor predeterminado o permitir que el parámetro acepte un valor NULL.  
   
 9. Seleccione **Aceptar**. 
-  
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+
+- Si usa un conjunto de datos de Power BI o un modelo de Analysis Services como origen de datos, no puede pasar más de 1000 valores de parámetro en una sola solicitud, debido a las limitaciones de DAX. 
+
+ 
 ## <a name="next-steps"></a>Pasos siguientes
 
 Consulte [Ver los parámetros para los informes paginados](consumer/paginated-reports-view-parameters.md) para ver el aspecto de los parámetros en el servicio Power BI.

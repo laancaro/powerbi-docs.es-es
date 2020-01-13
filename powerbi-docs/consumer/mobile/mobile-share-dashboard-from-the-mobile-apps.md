@@ -8,12 +8,12 @@ ms.subservice: powerbi-mobile
 ms.topic: conceptual
 ms.date: 03/20/2018
 ms.author: mshenhav
-ms.openlocfilehash: 232d311e876a5fe01eb6c8091eb7a83669592cbf
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 70ecd56f2823e608aa62deb4a5033f53272d3382
+ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879074"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "75221056"
 ---
 # <a name="share-a-dashboard-or-report-from-the-power-bi-mobile-apps"></a>Compartir un panel o un informe desde aplicaciones móviles de Power BI
 Se aplica a:
@@ -26,120 +26,73 @@ Con una [licencia de Power BI Pro](../../service-features-license-type.md), pued
 
 Desde las aplicaciones móviles de Power BI para iOS y Android, también puede [anotar y compartir una instantánea de un icono, un informe o un objeto visual](mobile-annotate-and-share-a-tile-from-the-mobile-apps.md) con cualquier persona. 
 
-## <a name="share-from-your-iphone"></a>Compartir desde el dispositivo iPhone
-1. En la barra de acciones de la parte inferior del panel o informe, pulse el icono de **Compartir** ![icono de Compartir](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
+## <a name="share-from-your-iphone-or-ipad"></a>Uso compartido desde el iPhone o iPad
+
+1. Puede compartir un panel o informe desde el propio panel o informe, o bien desde la página principal del panel o el informe:
+    *  En la barra de acciones de la parte inferior de un panel o informe, pulse el icono de **Compartir** ![icono Invitar](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png).
+    *  En la página principal de un panel o informe, pulse el icono **Información** ![Más información](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-more-info-icon.png) junto al nombre del panel o del informe y, después, pulse el icono **Compartir** ![icono Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) en la pestaña de información que aparece.
+2. Escriba nombres, separados por comas, y un mensaje para acompañar a la invitación. Para volver a compartir, deje seleccionado **Permitir a los destinatarios compartir**. Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través de la web o de las aplicaciones móviles.
+3. Pulse **Enviar** en la esquina superior derecha.
    
-   ![Icono de uso compartido de iPhone](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-dashboard-invite.png)
-2. Escriba nombres, separados por comas, y un mensaje para acompañar a la invitación.
-3. Para volver a compartir, deje seleccionado **Permitir a los destinatarios compartir**.
+   Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando se abre en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de la cuenta de Power BI. Para acceder a la sección Compartido conmigo:
    
-   Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través de la web o de las aplicaciones móviles.
-5. Pulse **Enviar** en la esquina superior derecha.
-   
-   Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando la abren, en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de su cuenta de Power BI.
-   
-   ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
+   * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
    
    Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
 
-### <a name="unshare-from-your-iphone"></a>Dejar de compartir desde el dispositivo iPhone
+### <a name="unshare-from-your-iphone-or-ipad"></a>Detención del uso compartido desde el iPhone o iPad
 Solo se puede dejar de compartir cuando se es el propietario.
 
-1. En la barra de acciones de la parte inferior del panel o informe, pulse el icono de **Compartir** ![icono de Compartir](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-share-dashboard-icon.png).
-2. Pulse **Invitar a un colega**.
-   
-   Verá la lista de compañeros con los que ha compartido este panel o informe, con estas frases:
-   
-   * **Puede ver**: pueden ver, pero no compartir.
-   * **Puede ver e invitar**: pueden ver y compartir con otros compañeros.
-1. Puntee en **Editar**.
-   
-    ![Icono Editar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-edit-invite-dashboard.png)
-4. Para dejar de compartirlo, puntee en el círculo rojo situado junto a un nombre y en **Eliminar**.
+1. En la barra de acciones de la parte inferior del panel o informe, pulse el icono de **Compartir**![icono de Compartir](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png).
+2. Pulse **Compartido con**. Verá la lista de compañeros con los que ha compartido este panel o informe.
 
-## <a name="share-from-your-ipad"></a>Compartir desde el dispositivo iPad
-1. Pulse el icono de **Compartir** ![icono de Compartir](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) en la esquina superior derecha del panel o informe.
-2. Escriba direcciones de correo electrónico y un mensaje para acompañar a la invitación.
-3. Para volver a compartir, deje seleccionado **Permitir a los destinatarios compartir**.
-   
-   Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través de la web o de las aplicaciones móviles. 
+3. Pulse **Más opciones** (...) junto al nombre de la persona con la que quiera dejar de compartir y elija si quiere quitar el acceso solo al panel compartido o a cualquier contenido subyacente que también use.
 
-4. Pulse **Enviar** en la esquina superior derecha.
-   
-   Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando la abren, en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de su cuenta de Power BI.
-   
-   ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
-   
-   Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
 
-### <a name="unshare-from-your-ipad"></a>Dejar de compartir desde el dispositivo iPad
-Solo se puede dejar de compartir cuando se es el propietario.
-
-1. Pulse el icono de **Compartir** ![icono de Compartir](././media/mobile-share-dashboard-from-the-mobile-apps/pbi_ipad_shareiconblk.png) en la esquina superior derecha del panel o informe.
-   
-   Verá la lista de compañeros con los que ha compartido este panel o informe, con estas frases:
-   
-   * **Puede ver**: pueden ver, pero no compartir.
-   * **Puede ver e invitar**: pueden ver y compartir con otros compañeros.
-2. Puntee en **Editar**.
-3. Para dejar de compartirlo, puntee en el círculo rojo situado junto a un nombre y en **Eliminar**.
 
 ## <a name="share-from-your-android-device"></a>Compartir desde el dispositivo Android
-1. En la página principal de los paneles o informes, pulse **Más opciones** (...) y pulse **Invitar a un compañero**.
+1. Puede compartir un panel o informe desde el propio panel o informe, o bien desde la página principal del panel o el informe:
+    *  Desde un panel o un informe, pulse **Más opciones** (...) en la parte superior del panel o informe, y elija **Invite a un colega**.
+    *  En la página principal de un panel o informe, pulse **Más opciones** (...) junto al nombre del panel o del informe y, después, pulse el icono **Compartir** ![icono Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) en la pestaña de información que aparece.
+ 
+2. Escriba direcciones de correo electrónico y un mensaje para acompañar su invitación del panel. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel** . Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
    
-   ![Invite a un colega](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-tablet-share-dashboard.png)
-2. O bien, en un panel o informe, pulse el icono de invitación ![Icono de invitación](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png).
+3. Pulse el icono de **Enviar**![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-send-icon.png) en la esquina superior derecha para enviar el correo.
+   
+    Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando se abre en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de la cuenta de Power BI. Para acceder a la sección Compartido conmigo:
+   * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
+   * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
+   
+   Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
 
-    Si es el propietario del panel, verá la lista de compañeros con los que ha compartido este panel o informe, con estas notas:
-
-    -   **Puede ver**: pueden ver, pero no compartir.
-    -   **Puede ver y volver a compartir**: pueden ver y compartir con otros compañeros.
-
-1. Escriba direcciones de correo electrónico y un mensaje para acompañar su invitación del panel. En caso contrario, Power BI envía un mensaje predeterminado.
-2. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel** .
-   
-   Volver a compartir permite que sus compañeros reenvíen la invitación de correo electrónico a otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
-   
-1. Pulse el icono de **Enviar** ![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_sendplane.png) en la esquina superior derecha para enviar el correo.
-   
-   Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel. La invitación expira transcurrido un mes. Cuando la abren, en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de su cuenta de Power BI.
-   
-   ![Compartido conmigo](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-shared-with-me-left-nav.png)
-   
-   Lea más [notas acerca de cómo compartir paneles con sus compañeros](../../service-share-dashboards.md).
 
 ### <a name="unshare-from-your-android-device"></a>Dejar de compartir desde el dispositivo Android
 Solo se puede dejar de compartir cuando se es el propietario.
 
-1. En la esquina superior derecha del panel o informe, pulse el icono de invitación ![Icono de invitación](././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon.png). 
-   
-   Verá la lista de compañeros con los que ha compartido este panel o informe.
-2. Para dejar de compartir con un compañero, pulse la **X** situada junto a un nombre \> **Quitar**.
+1. Puede dejar de compartir un panel o informe desde el propio panel o informe, o bien desde la página principal del panel o el informe:
+    *  Desde un panel o un informe, pulse **Más opciones** (...) en la parte superior del panel o informe, y elija **Invite a un colega**.
+    *  En la página principal de un panel o informe, pulse **Más opciones** (...) junto al nombre del panel o del informe y, después, pulse el icono **Compartir** ![icono Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png) en la pestaña de información que aparece.
+
+2. En la parte inferior de la página **Agregar pers.** que se abre, verá la lista de compañeros con los que ha compartido este panel o informe. Pulse el nombre del compañero con el que quiera dejar de compartir.
+3. En la página **Usuarios que tienen acceso** que aparece, pulse el icono **Quitar** ![icono Quitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-remove-icon.png) y elija si quiere quitar el acceso solo al panel compartido o a cualquier contenido subyacente que también use.
 
 ## <a name="share-from-your-windows-10-device"></a>Compartir desde el dispositivo Windows 10
-1. En un panel o informe, pulse el icono de invitación ![Icono de invitación](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_andr_inviteicon.png).
+
+1. Puede compartir un panel o informe desde el propio panel o informe, o bien desde la página principal del panel o el informe:
+    * Desde un panel o informe, pulse el icono **Compartir** ![icono Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-android-invite-icon-ss.png).
+    * En la página principal de un panel o informe, haga clic con el botón derecho o mantenga presionado y seleccione **Invitar**.
    
-   O bien, en la página principal de los paneles o informes, haga clic con el botón derecho o mantenga presionado y pulse **Invitar**.
+   Si es el propietario del panel, verá la lista de compañeros con los que ha compartido este panel o informe.
+
+2. Escriba direcciones de correo electrónico y un mensaje para acompañar a la invitación. En caso contrario, Power BI envía un mensaje predeterminado. Para volver a compartir, seleccione **Permitir a los destinatarios compartir este panel** . Con la opción de volver a compartir, sus compañeros pueden compartir con otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
    
-   ![Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10_sharedash.png)
+3. Pulse el icono de **Enviar**![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
    
-   Si es el propietario del panel, consulte la lista de compañeros con los que ha compartido este panel, con estas notas:
+    Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando se abre en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de la cuenta de Power BI. Para acceder a la sección Compartido conmigo:
    
-   **Puede ver**: pueden ver, pero no compartir.
-   
-   **Puede ver y volver a compartir**: pueden ver y compartir con otros compañeros.
-2. Escriba direcciones de correo electrónico y un mensaje para acompañar a la invitación. En caso contrario, Power BI envía un mensaje predeterminado.
-   
-   ![Cuadro de diálogo Invitar](./media/mobile-share-dashboard-from-the-mobile-apps/power-bi-windows-10-share-dashboard.png)
-3. Para volver a compartir, deje seleccionado **Permitir a los destinatarios compartir**.
-   
-   Con la opción de volver a compartir, sus compañeros pueden compartir con otras personas de su organización, ya sea a través del explorador o de las aplicaciones móviles.
-   
-1. Pulse el icono de **Enviar** ![icono de Enviar](./media/mobile-share-dashboard-from-the-mobile-apps/pbi_win10ph_sendicon.png).
-   
-   Los destinatarios reciben una invitación por correo electrónico con un vínculo directo al panel o informe. La invitación expira transcurrido un mes. Cuando la abren, en un explorador o en la aplicación móvil de Power BI, se agrega a la sección **Compartido conmigo** de su cuenta de Power BI.
-   
-   ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-iphone-shared-with-me-left-nav.png)
+   * En la aplicación móvil de Power BI, pulse **Más opciones** (...) en la barra de navegación y elija ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo**.
+   * En el servicio Power BI, haga clic en ![Compartido conmigo](./././media/mobile-share-dashboard-from-the-mobile-apps/power-bi-shared-with-me-icon.png) **Compartido conmigo** en el panel de navegación de la izquierda.
    
    Lea más [notas sobre cómo compartir con sus compañeros](../../service-share-dashboards.md).
 

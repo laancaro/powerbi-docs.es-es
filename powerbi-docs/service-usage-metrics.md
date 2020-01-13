@@ -11,10 +11,10 @@ ms.topic: conceptual
 ms.date: 10/21/2019
 LocalizationGroup: Dashboards
 ms.openlocfilehash: 9aa2e11dd2068cae118336268c5c55ead1e25b8b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
+ms.lasthandoff: 01/06/2020
 ms.locfileid: "73871205"
 ---
 # <a name="monitor-usage-metrics-for-power-bi-dashboards-and-reports"></a>Supervisar las métricas de uso de paneles e informes de Power BI
@@ -43,7 +43,7 @@ Solo se pueden ejecutar informes de métricas de uso en el servicio Power BI. S
 ## <a name="view-a-usage-metrics-report"></a>Visualización de un informe de métricas de uso
 
 1. Comience en el área de trabajo que contiene el panel o el informe.
-2. En la lista de contenido del área de trabajo o en el panel o el propio informe, seleccione el icono de **Métricas de uso** ![icono de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
+2. Desde la lista de contenido del área de trabajo o el propio panel o informe, seleccione el icono **Métricas de uso** ![icono de métricas de uso](media/service-usage-metrics/power-bi-usage-metrics-report-icon.png).
 
     ![Pestaña de paneles](media/service-usage-metrics/power-bi-run-usage-metrics-report.png)
 
@@ -83,7 +83,7 @@ Para profundizar en los datos del informe, o para crear los suyos propios con el
 
 ## <a name="which-metrics-are-reported"></a>¿Qué métricas se incluyen en el informe?
 
-| Métrica | panel | Informe | Descripción |
+| Metric | Panel | Informe | Descripción |
 | --- | --- | --- | --- |
 | Segmentación por método de distribución |sí |sí |Modo de acceso de los usuarios al contenido. Hay tres métodos posibles: los usuarios pueden acceder al panel o al informe por ser miembros de un [área de trabajo](consumer/end-user-experience.md), por tener contenido [compartido con ellos](service-share-dashboards.md) o por instalar una aplicación o paquete de contenido.  Observe que las vistas realizadas mediante una aplicación cuentan como "paquete de contenido". |
 | Segmentación por plataforma |sí |sí |¿Se tuvo acceso al panel o informe a través del servicio Power BI (powerbi.com) o mediante un dispositivo móvil? Los dispositivos móviles incluyen todas las aplicaciones iOS, Android y Windows. |
@@ -147,7 +147,7 @@ Consulte [Control de métricas de uso](service-admin-portal.md#control-usage-met
 
 ## <a name="usage-metrics-in-national-clouds"></a>Métricas de uso en nubes nacionales
 
-Power BI está disponible en nubes nacionales independientes. Dichas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, y todo ello se combina con un modelo único para las regulaciones locales relativas a la prestación de servicios y al acceso, control y residencia de datos. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
+Power BI está disponible en nubes nacionales independientes. Estas nubes ofrecen los mismos niveles de seguridad, privacidad, cumplimiento y transparencia que la versión global de Power BI, junto con un modelo único para la normativa local sobre la entrega de servicios, la residencia de datos, el acceso y el control. Dado que se trata de un modelo único para las regulaciones locales, las métricas de uso no están disponibles en las nubes nacionales. Para obtener más información, consulte el tema relativo a las [nubes nacionales](https://powerbi.microsoft.com/clouds/).
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 

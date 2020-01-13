@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 11/12/2019
+ms.date: 12/16/2019
 ms.author: painbar
-ms.openlocfilehash: c188f2b00447ff9f97059e81e7945f67e3170c6d
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74010012"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75220527"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -21,6 +21,20 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="november-2019"></a>Noviembre de 2019
+
+### <a name="power-bi-apps-new-look-is-now-on-by-default"></a>El nuevo aspecto de la aplicación Power BI ya está activado de forma predeterminada
+ 
+Ahora, al abrir la aplicación, se activan automáticamente la nueva apariencia y las barras de navegación, lo que simplifica la manera de buscar y abrir el contenido. Use la [página de inicio](mobile-apps-home-page.md) de la aplicación como punto de partida: obtendrá acceso rápido al contenido más importante, así como a una [fuente de actividades](mobile-apps-home-page.md#activity-feed) que le mantiene al día con todas las alertas y notificaciones más recientes, y mucho más.
+
+### <a name="see-all-your-latest-power-bi-activity"></a>Visualización de toda la actividad más reciente de Power BI
+ 
+La fuente de actividades ayuda a realizar el seguimiento de lo que ocurre con el contenido de Power BI, en tiempo real. Simplemente vaya a la página de inicio de la aplicación y abra la pestaña Actividad para ver todas las notificaciones más recientes, alertas, comentarios, @mentions y mucho más. [Más información](mobile-apps-home-page.md#activity-feed).
+
+### <a name="use-bookmarks-in-your-reports"></a>Uso de marcadores en los informes
+
+La aplicación móvil de Power BI ahora admite marcadores creados en Power BI. Al abrir la aplicación, puede aprovechar las ventajas de los marcadores creados por el autor del informe y los marcadores personales que haya creado personalmente. [Más información](mobile-reports-in-the-mobile-apps.md#bookmarks).
 
 ## <a name="october-2019"></a>Octubre de 2019
 
@@ -520,7 +534,7 @@ Lea el [resumen de características de aplicaciones móviles de Power BI de novi
 #### <a name="android-devices"></a>Dispositivos Android
 **Versión preliminar: Administración de aplicaciones móviles de Intune** La compatibilidad de Power BI con la administración de aplicaciones móviles (MAM) de Microsoft Intune está ahora en versión preliminar para usuarios de Power BI Pro en dispositivos Android. 
 
-**Favoritos** Etiquete sus paneles favoritos en el dispositivo Android y vea todos los [paneles de Power BI e informes móviles y KPI de Reporting Services favoritos](mobile-android-app-get-started.md#view-your-favorite-dashboards-kpis-and-reports) recopilados en una ubicación conveniente. 
+**Favoritos** Etiquete sus paneles favoritos en el dispositivo Android y vea todos los [paneles de Power BI e informes móviles y KPI de Reporting Services favoritos](mobile-android-app-get-started.md#view-your-favorite-dashboards-and-reports) recopilados en una ubicación conveniente. 
 
 #### <a name="ios-devices"></a>Dispositivos iOS
 **Vínculos** Las direcciones URL de los iconos y las visualizaciones ahora se pueden seleccionar y abrir en un explorador.
@@ -667,7 +681,7 @@ Lea el [blog de Power BI Mobile Apps de marzo de 2016](https://powerbi.microsoft
 **Iconos de Bing y R** Abra los iconos de Bing y R en el modo de enfoque.
 
 #### <a name="android-mobile-app"></a>Aplicación móvil Android
-**Informes móviles y KPI de SQL Server 2016** [Vea los informes móviles y los KPI de SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) y navegue entre las carpetas de SSRS.
+**Informes móviles y KPI de SQL Server 2016** [Vea los informes móviles y KPI de SQL Server 2016](mobile-app-ssrs-kpis-mobile-on-premises-reports.md) y navegue entre las carpetas de SSRS.
 
 **Ver informes** Abra informes desde los iconos de los paneles.
 
@@ -678,7 +692,7 @@ Lea el [blog de Power BI Mobile Apps de marzo de 2016](https://powerbi.microsoft
 
 **Iconos de Bing y R** Abra los iconos de Bing y R en el modo de enfoque.
 
-**Más iconos dinámicos en la pantalla de inicio** [Ancle los KPI y las tarjetas de fila en la pantalla de inicio](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) como iconos dinámicos, con el fin de que pueda ver todas las métricas críticas de un vistazo.
+**Más iconos dinámicos en la pantalla de inicio** [Ancle KPI y tarjetas de fila en la pantalla de inicio](mobile-pin-dashboard-start-screen-windows-10-phone-app.md) como iconos dinámicos, para poder ver todas las métricas críticas de un vistazo.
 
 **Acercar los dedos para acercar o alejar** Utilizar esta posibilidad en su tableta para examinar los paneles de forma detallada.
 

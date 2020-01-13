@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6ee7405b7c3d542dd824c70c17459c7078b3f0e1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: f7af1c584802181cab68f6ce2fc4823ec7078354
+ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878821"
+ms.lasthandoff: 12/28/2019
+ms.locfileid: "75523036"
 ---
 # <a name="using-analysis-services-tabular-data-in-power-bi-desktop"></a>Uso de datos tabulares de Analysis Services en Power BI Desktop
 En Power BI Desktop hay dos maneras de conectarse a los datos y obtenerlos a partir del modelo tabular de SQL Server Analysis Services: Explore mediante una conexión dinámica o seleccione de elementos e impórtelos en Power BI Desktop.
@@ -50,7 +50,7 @@ Cuando haya creado los informes dinámicos en Power BI Desktop, podrá compartir
 
   ![](media/desktop-analysis-services-tabular-data/pbid_sqlas_getdata_as_select.png)
 
-## <a name="frequently-asked-questions"></a>Preguntas más frecuentes
+## <a name="frequently-asked-questions"></a>Preguntas frecuentes
 **Pregunta:** ¿Se necesita una puerta de enlace de datos local?
 
 **Respuesta:** Depende. Si usa Power BI Desktop para realizar la conexión dinámica a un modelo tabular, pero no tiene intención de publicar en el sitio de Power BI, no necesita una puerta de enlace. Por otro lado, si piensa realizar la publicación en su sitio de Power BI, es necesaria una puerta de enlace de datos para garantizar una comunicación segura entre el servicio Power BI y el servidor de Analysis Services local. Asegúrese de hablar con el administrador del servidor de Analysis Services antes de instalar una puerta de enlace.
@@ -76,6 +76,12 @@ Si elige la selección de elementos y la obtención de datos, se importan los da
 **Pregunta:** En el navegador, veo un modelo y una perspectiva. ¿Cuál es la diferencia?
 
 **Respuesta:** Una perspectiva es una vista determinada de un modelo tabular. Puede incluir solo tablas, columnas o medidas, según la necesidad de análisis de datos únicos. Un modelo tabular siempre contiene al menos una perspectiva, que podría incluir todo el contenido del modelo. Si no está seguro de qué se debe seleccionar, consulte con su administrador.
+
+**Pregunta:** ¿Hay alguna característica de Analysis Services que cambie el comportamiento de Power BI?
+
+**Respuesta:** Sí. En función de las características que use el modelo tabular, la experiencia en Power BI Desktop podría cambiar. Estos son algunos ejemplos:
+* Es posible que vea las medidas del modelo agrupadas en la parte superior de la lista de campos en lugar de en las tablas junto a las columnas. ¡No se preocupe! Todavía puede usarlas de la forma habitual; es más fácil encontrarlas de esta manera.
+* Si el modelo tabular tiene grupos de cálculo definidos, solo podrá usarlos junto con las medidas del modelo y no con las medidas implícitas que cree al agregar campos numéricos a un objeto visual. Es posible que también se haya establecido la marca **DiscourageImplicitMeasures** de forma manual en el modelo, lo que tiene el mismo efecto. Para obtener más información, vea [Grupos de cálculo en Analysis Services](https://docs.microsoft.com/analysis-services/tabular-models/calculation-groups#benefits).
 
 ## <a name="to-change-the-server-name-after-initial-connection"></a>Para cambiar el nombre del servidor después de la conexión inicial
 Una vez que cree un archivo de Power BI Desktop con una conexión dinámica de exploración, podría haber algunos casos en los que desee cambiar la conexión a un servidor diferente. Por ejemplo, si ha creado el archivo de Power BI Desktop al conectarse a un servidor de desarrollo y antes de realizar la publicación en el servicio de Power BI, desea cambiar la conexión al servidor de producción.

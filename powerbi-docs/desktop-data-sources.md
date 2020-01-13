@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/25/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 88a49af62a26b64d8b913b6df03c82841f31a489
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 0f24675d4185efd7524d9e8c453c919d64e0364a
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410948"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75222173"
 ---
 # <a name="data-sources-in-power-bi-desktop"></a>Orígenes de datos en Power BI Desktop
 
@@ -24,24 +24,22 @@ Para conectarse a datos, seleccione **Obtener datos** desde la cinta de opciones
 
 ![Obtener datos en Power BI Desktop](media/desktop-data-sources/data-sources-01.png)
 
-Al seleccionar **Más…** en el menú **Más comunes**, se muestra la ventana **Obtener datos**. También puede abrir la ventana **Obtener datos** (y omitir el menú **Más comunes** ) seleccionando el icono **Obtener datos** **directamente** .
+Al seleccionar **Más…** en el menú **Más comunes**, se muestra la ventana **Obtener datos**. También puede abrir la ventana **Obtener datos** (y omitir el menú **Más comunes**) si selecciona directamente el **botón del icono** **Obtener datos**.
 
 ![Botón Obtener datos](media/desktop-data-sources/data-sources-02.png)
 
 > [!NOTE]
-> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción. 
-
-> Además, es posible que los orígenes de datos marcados como *Beta* o *Versión preliminar* para **Power BI Desktop** no estén disponibles para su uso en el **servicio Power BI** u otros servicios de Microsoft hasta que el origen de datos esté disponible con carácter general (GA).
+> El equipo de Power BI está ampliando continuamente los orígenes de datos disponibles en **Power BI Desktop** y **servicio Power BI**. Por lo tanto, a menudo verá las versiones anteriores de orígenes de datos en proceso de desarrollo marcados como *Beta* o *Versión preliminar*. Cualquier origen de datos marcada como *Beta* o *Versión preliminar* tiene una compatibilidad y funcionalidades limitadas y, no debe usarse en entornos de producción. Además, es posible que los orígenes de datos marcados como *Beta* o *Versión preliminar* para **Power BI Desktop** no estén disponibles para su uso en el **servicio Power BI** u otros servicios de Microsoft hasta que el origen de datos esté disponible con carácter general (GA).
 
 ## <a name="data-sources"></a>Orígenes de datos
 Los tipos de datos se organizan en las categorías siguientes:
 
-* Todos
+* Todo
 * Archivo
 * Base de datos
-* Power BI
+* Power BI
 * Azure
-* Online Services
+* Servicios en línea
 * Otros
 
 La categoría **Todos** incluye todos los tipos de conexión de datos de todas las categorías.
@@ -82,7 +80,7 @@ La categoría **Base de datos** proporciona las siguientes conexiones de datos:
 * Vertica
 * Snowflake
 * Essbase
-* Cubos AtScale (Beta)
+* Cubos de AtScale
 * Conector de BI
 * Dremio
 * Exasol
@@ -104,7 +102,7 @@ La categoría **Power Platform** proporciona las conexiones de datos siguientes:
 * Conjuntos de datos de Power BI
 * Flujos de datos de Power BI
 * Common Data Service
-* Flujos de entrada de Power Platform (Beta)
+* Flujos de datos de Power Platform
 
 En la imagen siguiente se muestra la ventana **Obtener datos** para **Power Platform**.
 
@@ -118,13 +116,14 @@ La categoría **Azure** proporciona las siguientes conexiones de datos:
 * Azure Blob Storage
 * Azure Table Storage
 * Azure Cosmos DB
-* Azure Data Lake Storage Gen2 (Beta)
+* Azure Data Lake Storage Gen2
 * Azure Data Lake Storage Gen1
 * Azure HDInsight (HDFS)
 * Azure HDInsight Spark
 * HDInsight Interactive Query
 * Azure Data Explorer (Kusto)
-* Azure Cost Management (Beta)
+* Azure Cost Management
+* Azure Time Series Insights (Beta)
 
 La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
 
@@ -133,7 +132,7 @@ La siguiente imagen muestra la ventana **Obtener datos** para **Azure**.
 La categoría **Online Services** proporciona las siguientes conexiones de datos:
 
 * Lista de SharePoint Online
-* Microsoft Exchange Online
+* Microsoft Exchange Online
 * Dynamics 365 (en línea)
 * Dynamics NAV
 * Dynamics 365 Business Central
