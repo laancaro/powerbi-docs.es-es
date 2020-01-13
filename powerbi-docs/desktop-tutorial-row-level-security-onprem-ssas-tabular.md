@@ -10,14 +10,14 @@ ms.topic: tutorial
 ms.date: 05/28/2019
 ms.author: selvar
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 64a7cc62f319162b653742be776a9aa9549f8659
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 09e4a9cc3e6a5c16f23532f0a4589fdcb1906549
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311450"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759529"
 ---
-# <a name="dynamic-row-level-security-with-analysis-services-tabular-model"></a>Seguridad dinámica de nivel de fila con el modelo tabular de Analysis Services
+# <a name="implement-row-level-security-in-an-analysis-services-tabular-model"></a>Implementación de seguridad de nivel de fila en un modelo tabular de Analysis Services
 
 Con un conjunto de datos de ejemplo con el que se trabaja en los pasos siguientes, este tutorial muestra cómo implementar la [**seguridad de nivel de fila**](service-admin-rls.md) en un **modelo Tabular de Analysis Services** y su uso en un informe de Power BI. 
 
@@ -157,7 +157,7 @@ Una vez que el modelo tabular está implementado y listo para su uso, debe agreg
    
    ![](media/desktop-tutorial-row-level-security-onprem-ssas-tabular/dashboard_jon_doe.png)
 
-    Enhorabuena. El **servicio Power BI** muestra la seguridad de nivel de fila dinámica definida en el modelo tabular de **Analysis Services** local. Power BI usa la propiedad **EffectiveUserName** para enviar las credenciales de usuario de Power BI actuales al origen de datos local para ejecutar las consultas.
+    ¡Enhorabuena! El **servicio Power BI** muestra la seguridad de nivel de fila dinámica definida en el modelo tabular de **Analysis Services** local. Power BI usa la propiedad **EffectiveUserName** para enviar las credenciales de usuario de Power BI actuales al origen de datos local para ejecutar las consultas.
 
 ## <a name="task-6-understand-what-happens-behind-the-scenes"></a>Tarea 6: Comprender lo que sucede en segundo plano
 

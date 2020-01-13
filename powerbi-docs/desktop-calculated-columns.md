@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 10c6f9f512c1b8c837842247d9dc928e8e065451
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4178dd37acf12efbe8dd00baed4f6b72ab549841
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73876632"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762057"
 ---
-# <a name="using-calculated-columns-in-power-bi-desktop"></a>Uso de columnas calculadas en Power BI Desktop
+# <a name="create-calculated-columns-in-power-bi-desktop"></a>Creación de columnas calculadas en Power BI Desktop
 Con las columnas calculadas, se pueden agregar nuevos datos a una tabla ya existente en el modelo. Pero en lugar de consultar y cargar los valores en la nueva columna desde un origen de datos, se crea una fórmula de expresiones de análisis de datos (DAX) que define los valores de columna. En Power BI Desktop, las columnas calculadas se crean mediante la característica Nueva columna en la vista de informe.
 
 A diferencia de las columnas personalizadas creadas como parte de una consulta con la opción Agregar columnas personalizadas en el Editor de consultas, las columnas calculadas creadas en la vista de informe o la vista de datos se basan en datos cargados previamente en el modelo. Por ejemplo, tal vez elija concatenar los valores de dos columnas diferentes en dos tablas diferentes pero relacionadas, hacer sumas o extraer subcadenas.

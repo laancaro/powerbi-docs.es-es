@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 06/11/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ccba97d7fc4df050b9685dd9c2a69af36f62a485
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5fda121af151e787c444b928c320b7f33fe1405c
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880970"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757885"
 ---
-# <a name="basic-area-chart"></a>Gráficos de área básicos
+# <a name="create-and-use-basic-area-charts"></a>Creación y uso de gráficos de área básicos
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -80,6 +80,6 @@ Para más información, consulte [Interacciones de objetos visuales en los infor
 * [Hacer que el informe sea más accesible para personas con discapacidades](../desktop-accessibility.md)
 * Los gráficos de área básicos no son eficaces para comparar valores debido a la ocultación de las áreas en capas. Power BI usa transparencias para indicar la superposición de áreas. Sin embargo, solo funciona bien con dos o tres áreas diferentes. Si necesita comparar tendencias de más de tres medidas, pruebe a usar los gráficos de líneas. Si necesita comparar volúmenes de más de tres medidas, pruebe a usar los gráficos de rectángulos.
 
-## <a name="next-step"></a>Paso siguiente
+## <a name="next-step"></a>Siguiente paso
 [Informes en Power BI](power-bi-visualization-card.md)  
 
