@@ -2,19 +2,18 @@
 title: Glosario para consumidores de Power BI
 description: En Power BI se utilizan muchos términos nuevos y se dan usos diferentes a términos ya conocidos. Puede usar nuestro glosario para familiarizarse con la terminología de Power BI.
 services: power-bi
-ms.custom: seodec18
 author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/04/2019
+ms.date: 12/18/2019
 ms.author: mihart
-ms.openlocfilehash: 8c7a0463e8a521482a1aab6a53ae9656585a7849
-ms.sourcegitcommit: fe9253a6021b9e198afa28aa9c670c3bacf59674
+ms.openlocfilehash: 046f35613e5fe748e93389fbe10a77af08f449e3
+ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "74548533"
+ms.lasthandoff: 01/06/2020
+ms.locfileid: "75303921"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -76,7 +75,9 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **content view (vista de contenido)**
 
-**cross filter, cross highlight (filtro cruzado, resaltado cruzado)**
+**filtro cruzado** Se aplica a las interacciones de objetos visuales. El filtrado cruzado quita los datos que no se aplican. Por ejemplo, si selecciona **Moderación** en el gráfico de anillos, se realiza un filtrado cruzado del gráfico de líneas. Ahora en el gráfico de líneas solo se muestran los puntos de datos que se aplican al segmento Moderación.
+
+**resaltado cruzado** Se aplica a las interacciones de objetos visuales. El resaltado cruzado conserva todos los puntos de datos originales, pero atenúa la parte que no se aplica a la selección. Por ejemplo, si selecciona **Moderación** en el gráfico de anillos, se realiza el resaltado cruzado del gráfico de columnas. El gráfico de columnas atenúa todos los datos que no se aplican al segmento Moderación y resalta todos los que se aplican.
 
 **custom visual (objeto visual personalizado)** Objetos visuales que crean la comunidad y Microsoft. Se pueden descargar en la Tienda Office para utilizarlos en los informes de Power BI.
 
@@ -190,7 +191,7 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 
 **OneDrive for Business (OneDrive para la Empresa)** frente a **OneDrive** OneDrive es una cuenta personal y en OneDrive para la Empresa se usan cuentas profesionales.  
 
-**On-premises Data Gateway (Puerta de enlace de datos local)**
+**Puerta de enlace de datos local**
 
 
 
@@ -310,6 +311,8 @@ Los paneles de Power BI contienen iconos de un informe.
 **value, values (valor, valores)** Datos numéricos que se visualizarán.
 
 **visual, visualization (objeto visual, visualización)** Gráfico. Algunos objetos visuales son: gráfico de barras, gráfico de rectángulos, gráfico de anillos, mapas.
+
+**Interacción visual** Una de las grandes características de Power BI es la manera en que se conectan entre sí todos los objetos visuales en la página de un informe. Si selecciona un punto de datos en uno de los objetos visuales, todos los demás objetos visuales de la página que contienen ese dato cambian para adaptarse a la selección.
 
 **Visualizations pane (Panel de visualizaciones)** Nombre para las plantillas de visualización que se incluyen en el lienzo del informe compartido para Power BI Desktop y el servicio Power BI. Contiene plantillas pequeñas, también denominadas iconos, para cada tipo de visualización nativo.  
 
