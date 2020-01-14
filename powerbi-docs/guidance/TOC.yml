@@ -48,6 +48,10 @@
           href: relationships-many-to-many.md
         - name: Deshabilitar la actualización en segundo plano de Power Query
           href: power-query-background-refresh.md
+        - name: "Cuándo usar informes paginados en Power\_BI"
+          href: report-paginated-or-power-bi.md
+        - name: "Migración de informes de SQL Server Reporting Services a Power\_BI"
+          href: migrate-ssrs-reports-to-power-bi.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto
