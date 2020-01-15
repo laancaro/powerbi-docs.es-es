@@ -23,9 +23,9 @@
               href: visuals/unit-tests-introduction.md
         - name: Conceptos
           items:
-            - name: Estructura de proyecto de objeto visual de Power BI
+            - name: "Estructura de proyecto de objeto visual de Power\_BI"
               href: visuals/visual-project-structure.md
-            - name: Concepto visual
+            - name: Conceptos de objetos visuales
               href: visuals/power-bi-visuals-concept.md
             - name: Objetos visuales para organizaciones en Power BI
               href: power-bi-custom-visuals-organization.md
