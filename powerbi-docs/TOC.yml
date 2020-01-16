@@ -357,6 +357,8 @@
               href: visuals/power-bi-visualization-kpi.md
             - name: Creación y uso de objetos visuales de matriz
               href: visuals/desktop-matrix-visual.md
+            - name: "Creación y uso de objetos visuales de Power\_Apps"
+              href: visuals/power-bi-visualization-powerapp.md
             - name: "Acerca de los objetos visuales de Preguntas y respuestas de Power\_BI"
               href: visuals/power-bi-visualization-q-and-a.md
             - name: Creación y uso de objetos visuales de R
@@ -1035,6 +1037,8 @@
               href: report-server/configure-kerberos-powerbi-reports.md
             - name: Configuración del acceso remoto a la aplicación móvil
               href: report-server/configure-powerbi-mobile-apps-remote.md
+            - name: "Configuración de WAP y AD\_FS"
+              href: report-server/connect-adfs-wap-report-server.md
             - name: Acceso móvil remoto con Azure AD
               href: 'https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy-integrate-with-power-bi'
             - name: Hospedaje de libros de Excel
