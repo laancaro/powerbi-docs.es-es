@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 75b3c370e6b17c5a5a4937da6db989f814a0ebd9
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ab98463f6dc1defd9ee3f2a97b322fefbe582779
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75221997"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761051"
 ---
-# <a name="whats-new-in-the-latest-power-bi-desktop-update"></a>Novedades de la actualización más reciente de Power BI Desktop
+# <a name="whats-new-in-power-bi-desktop"></a>Novedades de Power BI Desktop
 
 
 ## <a name="december-2019-update-2765678661"></a>Actualización de diciembre de 2019 (2.76.5678.661)
@@ -42,8 +42,8 @@ Las siguientes actualizaciones son las novedades de Power BI Desktop de este mes
 
 
 ### <a name="reporting"></a>Informes
-* Actualizaciones de temas (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=10) [[artículo]](desktop-report-themes.md#customize-report-themes-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* Exportación del tema actual (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=242) [[artículo]](desktop-report-themes.md#customize-report-themes-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
+* Personalización del tema actual (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=10) [[artículo]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
+* Exportación del tema actual (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=242) [[artículo]](desktop-report-themes.md#export-report-themes-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
 * Establecimiento del valor de columna de tabla o matriz como dirección URL personalizada [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=277) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
 * Opciones de formato para el objeto visual KPI [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=354) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
 * Nuevo formato de esquema jerárquico [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=442) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 

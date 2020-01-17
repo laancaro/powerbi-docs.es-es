@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 04/10/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 8d5923c111debb14aab46977d42f3357837d9399
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 86307a871503dd42e565099b810cb82efa109417
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73878296"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761235"
 ---
-# <a name="directquery-and-sap-hana"></a>DirectQuery y SAP HANA
+# <a name="connect-to-sap-hana-data-sources-by-using-directquery-in-power-bi"></a>Conexión a orígenes de datos SAP HANA mediante DirectQuery en Power BI
 Puede conectarse a los orígenes de datos de **SAP HANA** directamente mediante **DirectQuery**. Hay dos opciones para conectarse a SAP HANA:
 
 * **Tratar SAP HANA como un origen multidimensional (opción predeterminada):**  En este caso, el comportamiento es similar a cuando Power BI se conecta a otros orígenes multidimensionales, como SAP Business Warehouse o Analysis Services. Al conectarse a SAP HANA con esta configuración, se selecciona una única vista de análisis o cálculo, y todas las medidas, jerarquías y atributos de esa vista estarán disponibles en la lista de campos. A medida que se creen objetos visuales, los datos agregados se recuperarán siempre de SAP HANA. Este método, que es el recomendado, es el método predeterminado para los informes nuevos de DirectQuery en SAP HANA.

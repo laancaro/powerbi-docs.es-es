@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.custom: mvc
-ms.openlocfilehash: fe91de89e7eec601c516895089e3dcc03eff14ea
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4e7616ec3ce6552130848bc0508bf8b9ac8ac965
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/04/2020
-ms.locfileid: "75657222"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762609"
 ---
 # <a name="embed-a-power-bi-report-server-report-using-an-iframe-in-sharepoint-server"></a>Inserción de un informe de Power BI Report Server con un elemento iFrame en SharePoint Server
 
@@ -25,7 +25,7 @@ En este artículo, obtendrá información sobre cómo insertar un informe de Pow
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
 * [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md) instalado.
 * Un entorno de [SharePoint](https://docs.microsoft.com/sharepoint/install/install) instalado y configurado.
-* Internet Explorer 11 solo se admite cuando se usa SharePoint Online.  Puede usar otros exploradores compatibles en cualquier escenario.
+* Internet Explorer 11 solo se admite si el modo de documento está establecido en el modo IE11 (Edge) o cuando se usa SharePoint Online. Puede usar otros exploradores compatibles con SharePoint local y SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Creación de la dirección URL del informe de Power BI
 

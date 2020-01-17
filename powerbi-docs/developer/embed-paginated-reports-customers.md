@@ -8,13 +8,13 @@ ms.topic: tutorial
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.custom: seodec18
-ms.date: 11/04/2019
-ms.openlocfilehash: 1493f628ce822afa020e300ff7428da059fcc65d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/04/2019
+ms.openlocfilehash: 48aae2391ead5ded0860364ce5942d7bd725c2d9
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74311428"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75731268"
 ---
 # <a name="tutorial-embed-power-bi-paginated-reports-into-an-application-for-your-customers-preview"></a>Tutorial: Inserción de informes paginados de Power BI en una aplicación para los clientes (versión preliminar)
 
@@ -271,6 +271,12 @@ Para obtener un ejemplo completo del uso de la API de JavaScript, puede usar la 
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-En este tutorial ha aprendido a insertar informes paginados de Power BI en una aplicación para sus clientes. También puede intentar insertar contenido de Power BI para su organización.
+En este tutorial ha aprendido a insertar informes paginados de Power BI en una aplicación para sus clientes. También puede intentar insertar contenido de Power BI para su organización.
+
+> [!div class="nextstepaction"]
+>[Inserción de contenido para sus clientes](embed-sample-for-customers.md)
+
+> [!div class="nextstepaction"]
+>[Inserción de contenido para su organización](embed-sample-for-your-organization.md)
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
