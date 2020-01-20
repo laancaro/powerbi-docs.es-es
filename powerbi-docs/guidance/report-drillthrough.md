@@ -1,5 +1,5 @@
 ---
-title: Obtención de detalles de la página del informe
+title: Uso de detalles de la página del informe
 description: Instrucciones para trabajar con la obtención de detalles de páginas de informes.
 author: peter-myers
 ms.reviewer: asaxton
@@ -8,14 +8,14 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/28/2019
 ms.author: v-pemyer
-ms.openlocfilehash: a19e8148a719186cbaefe3203d58a5a98687c067
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 48942b30b84706c933ccef455129c84a67ac5a1b
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75223624"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040365"
 ---
-# <a name="report-page-drillthrough"></a>Obtención de detalles de la página del informe
+# <a name="use-report-page-drillthrough"></a>Uso de detalles de la página del informe
 
 Este artículo está dirigido a usted como autor de informes que diseña informes de Power BI. Proporciona sugerencias y recomendaciones a la hora de crear una [obtención de detalles de páginas de informes](../desktop-drillthrough.md).
 
