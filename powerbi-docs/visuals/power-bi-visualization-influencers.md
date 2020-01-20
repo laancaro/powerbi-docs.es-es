@@ -6,17 +6,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: tutorial
-ms.date: 10/22/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80ed285a22c0272f3bd268397e0e019396b941d7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 413e30c04ac02e6b957f03494bf6a488edeacac0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871016"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885326"
 ---
-# <a name="key-influencers-visualization"></a>Visualización de influenciadores clave
+# <a name="create-key-influencers-visualizations"></a>Creación de visualizaciones de influenciadores clave
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -57,7 +57,7 @@ Vea este vídeo para aprender a crear un objeto visual de influenciador clave co
    > 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/fDb5zZ3xmxU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-El director de producto quiere averiguar qué factores conducen a los clientes a dejar reseñas negativas sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/Microsoft/powerbi-desktop-samples/blob/master/2019/customerfeedback.xlsx). Seleccione cualquiera de los vínculos y, después, seleccione **Download** (Descargar) en la página de GitHub que se abre.
+El director de producto quiere averiguar qué factores conducen a los clientes a dejar reseñas negativas sobre su servicio en la nube. Para continuar, abra el [archivo PBIX de comentarios del cliente](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.pbix) en Power BI Desktop. También puede descargar el [archivo de Excel de comentarios del cliente para el servicio Power BI o Power BI Desktop](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Monthly%20Desktop%20Blog%20Samples/2019/customerfeedback.xlsx). Seleccione cualquiera de los vínculos y, después, seleccione **Download** (Descargar) en la página de GitHub que se abre.
 
 > [!NOTE]
 > El conjunto de datos de comentarios del cliente se basa en [Moro et al., 2014] S. Moro, P. Cortez y P. Rita. "A Data-Driven Approach to Predict the Success of Bank Telemarketing." *Decision Support Systems*, Elsevier, 62:22-31, junio de 2014. 
@@ -267,6 +267,8 @@ Si quiere obtener más información sobre cómo puede analizar medidas con las v
  
 El objeto visual de los influenciadores clave tiene algunas limitaciones:
 
+
+
 - No se admite DirectQuery.
 - No se admite la conexión dinámica a Azure Analysis Services ni SQL Server Analysis Services.
 - No se admite la opción Publicar en la web.
@@ -357,6 +359,9 @@ En el ejemplo siguiente, los clientes que son consumidores dan calificaciones ba
 La razón de esta decisión es que la visualización también tiene en cuenta el número de puntos de datos cuando encuentra personas con influencia. El siguiente ejemplo tiene más de 29 000 consumidores y 10 veces menos administradores, aproximadamente 2900. Además, solo 390 de ellos dieron una calificación baja. El objeto visual no tiene suficientes datos para determinar si realmente ha encontrado un patrón en las calificaciones de administrador o si es simplemente un hallazgo casual. 
 
 ![Procedimiento para determinar los influenciadores](media/power-bi-visualization-influencers/power-bi-error5.png)
+
+**¿Cuáles son los límites de punto de datos de los influenciadores clave?**
+El análisis se ejecuta en una muestra de 10 000 puntos de datos. Las burbujas del lateral muestran todos los influenciadores encontrados. Los gráficos de columnas y los gráficos de dispersión del otro lado se atienen a las estrategias de muestreo de esos objetos visuales principales.
 
 **¿Cómo calcula los influenciadores clave para el análisis categórico?**
 

@@ -6,53 +6,48 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/22/2019
+ms.date: 01/02/2020
 ms.author: gepopell
 LocalizationGroup: Connect to data
-ms.openlocfilehash: e493e4a41e7b357a23677c1c50f654dbee51e0ca
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b604ade56335e65b25501eb9fe3d3c2fd185a6f0
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878420"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761415"
 ---
 # <a name="connector-extensibility-in-power-bi"></a>Extensibilidad de los conectores en Power BI
 
-En Power BI, los clientes y desarrolladores pueden extender de muchas maneras los orígenes de datos a los que se conectan. Usan conectores existentes y orígenes de datos genéricos (como ODBC, OData, OLEDB, Web, CSV, XML y JSON). O bien, los desarrolladores crean extensiones de datos, a las que se hace referencia como **conectores personalizados**, y las convierten en **conectores certificados**.
+Power BI puede conectarse a los datos mediante conectores existentes y orígenes de datos genéricos, como ODBC, OData, OLE DB, web, CSV, XML y JSON. O bien, los desarrolladores pueden habilitar nuevos orígenes de datos con extensiones de datos personalizadas denominados *conectores personalizados*. Microsoft ha certificado y distribuido algunos conectores personalizados como *conectores certificados*.
 
-Actualmente, los **conectores personalizados** se habilitan mediante un menú que permite controlar de forma segura el nivel de código personalizado que se desea permitir que se ejecute en el sistema. Puede elegir todos los conectores personalizados o solo los conectores certificados y distribuidos por Microsoft en el cuadro de diálogo **Obtener datos**.
+Para usar conectores personalizados no certificados que usted o un tercero hayan desarrollado, debe ajustar la configuración de seguridad de Power BI Desktop para permitir la carga de extensiones sin validación ni advertencia. Puesto que este código puede controlar credenciales, incluido su envío a través de HTTP, así como omitir niveles de privacidad, solo debería usar esta configuración de seguridad si confía plenamente en los conectores personalizados.
+
+Otra opción que tiene el desarrollador es firmar el conector con un certificado y proporcionar la información que se necesita para usarlo sin cambiar la configuración de seguridad. Para obtener más información, vea [Acerca de los conectores de terceros de confianza](desktop-trusted-third-party-connectors.md).
 
 ## <a name="custom-connectors"></a>Conectores personalizados
 
-Los **conectores personalizados** pueden incluir una amplia gama de posibilidades, desde pequeñas API críticas para el negocio, hasta servicios de gran tamaño específicos del sector para los que Microsoft aún no ha publicado un conector. Muchos conectores los distribuye un proveedor. Póngase en contacto con alguno si necesita un conector de datos específico.
+Los conectores personalizados no certificados pueden abarcar desde pequeñas API críticas para el negocio hasta servicios de gran tamaño específicos del sector para los que Microsoft no ha publicado ningún conector. Muchos conectores son distribuidos por proveedores. Si necesita un conector de datos concreto, póngase en contacto con el proveedor. 
 
-Para usar un **conector personalizado**, colóquelo en la carpeta *\[Documentos]\\Power BI Desktop\\Conectores personalizados* y ajuste la configuración de seguridad como se describe en la sección siguiente.
+Para usar un conector personalizado no certificado, coloque el archivo *.pq*, *.pqx*, *.m* o *.mez* del conector en la carpeta *\[Documentos]\\Power BI Desktop\\Conectores personalizados*. Si la carpeta no existe, créela.
 
-No es necesario ajustar la configuración de seguridad para usar **conectores certificados**.
+Ajuste la configuración de seguridad de las extensiones de datos de la siguiente manera:
 
-## <a name="data-extension-security"></a>Seguridad de la extensión de datos
+En Power BI Desktop, seleccione **Archivo** > **Opciones y configuración** > **Opciones** > **Seguridad**.
 
-Para cambiar la configuración de seguridad de la extensión de datos, en **Power BI Desktop**, seleccione **Archivo > Opciones y configuración > Opciones > Seguridad**.
+En **Extensiones de datos**, seleccione **(Opción no recomendada) Permitir que se cargue cualquier extensión sin ninguna validación ni advertencia**. Seleccione **Aceptar** y reinicie Power BI Desktop. 
 
-![Controle si quiere cargar los conectores personalizados con las opciones de seguridad de la extensión de datos](media/desktop-connector-extensibility/data-extension-security-1.png)
+![Habilitación de conectores personalizados no certificados en las opciones de seguridad de las extensiones de datos](media/desktop-connector-extensibility/data-extension-security-1.png)
 
-En **Extensiones de datos**, puede seleccionar dos niveles de seguridad:
+La configuración de seguridad predeterminada de las extensiones de datos de Power BI Desktop es **(Opción recomendada) Permitir solo la carga de extensiones certificadas por Microsoft y otras extensiones de terceros que sean de confianza**. Con este valor, si hay conectores personalizados no certificados en el sistema, aparece el cuadro de diálogo **Conectores no certificados** en el inicio de Power BI Desktop y en él se enumeran los conectores que no se pueden cargar de forma segura.
 
-* (Recomendado) Permitir que solo se carguen las extensiones certificadas
-* (No recomendado) Permitir que se cargue cualquier extensión sin previo aviso
+![Cuadro de diálogo Conectores no certificados](media/desktop-connector-extensibility/data-extension-security-2.png)
 
-Si planea usar **conectores personalizados** o conectores que usted o un tercero haya desarrollado, debe seleccionar **(No recomendado) Permitir que se cargue cualquier extensión sin previo aviso**. No se recomienda esta configuración de seguridad a menos que confíe totalmente en los conectores personalizados. Por ello, el código empleado puede controlar las credenciales, incluido su envío a través de HTTP, e ignorar los niveles de privacidad.
-
-En la configuración de seguridad **(Recomendado)** , si hay conectores personalizados en el sistema, obtendrá el error "El conector que se indica a continuación no se ha certificado y no podemos comprobar si es seguro usarlo" seguido de una lista de conectores que no se pueden cargar de forma segura.
-
-![Un cuadro de diálogo describe los conectores personalizados que no se pueden cargar debido a la configuración de seguridad, en este caso TripPin](media/desktop-connector-extensibility/data-extension-security-2.png)
-
-Para resolver el error sin cambiar la seguridad, quite los conectores no firmados de la carpeta "Conectores personalizados".
-
-Para resolver el error y usar esos conectores, cambie la configuración de seguridad al valor **(No recomendado) Permitir que se cargue cualquier extensión sin previo aviso**, como se ha explicado anteriormente. Después, reinicie **Power BI Desktop**.
+Para solucionar el error, puede cambiar la configuración de seguridad de **Extensiones de datos** o quitar los conectores no certificados de la carpeta *Conectores personalizados*.
 
 ## <a name="certified-connectors"></a>Conectores certificados
 
-Un subconjunto limitado de extensiones de datos se considera **Certificado**. Acceda a los conectores certificados en el cuadro de diálogo **Obtener datos**. Sin embargo, el desarrollador externo que creó el conector es responsable de su mantenimiento y soporte técnico. Aunque Microsoft distribuye los conectores, no es responsable de su rendimiento ni de su funcionalidad continuada.
+Un subconjunto limitado de extensiones de datos se considera *certificado*. Aunque Microsoft distribuye los conectores, no es responsable de su rendimiento ni de su funcionalidad continuada. El desarrollador ajeno que ha creado el conector es responsable de su mantenimiento y soporte técnico. 
 
-Si quiere certificar un conector personalizado, pídale a su proveedor que se ponga en contacto con dataconnectors@microsoft.com.
+En Power BI Desktop, los conectores de terceros certificados aparecen en la lista del cuadro de diálogo **Obtener datos** junto con los conectores genéricos y comunes. No es necesario ajustar la configuración de seguridad para usar los conectores certificados.
+
+Si quiere certificar un conector personalizado, pida al proveedor que se ponga en contacto con dataconnectors@microsoft.com.

@@ -1,20 +1,20 @@
 ---
-title: Uso de conjuntos de datos compartidos en el Generador de informes paginados de Power BI
-description: Conéctese a conjuntos de datos compartidos desde el Generador de informes paginados de Power BI.
-ms.date: 07/23/2019
+title: 'Creación de un informe paginado con un conjunto de datos compartido de Power BI: Power BI Report Builder'
+description: Cree un informe paginado de Power BI Report Builder basado en un conjunto de datos compartido de Power BI.
+ms.date: 01/03/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: c44f90bc29887a5431c893803cf4910e0e5093d3
-ms.sourcegitcommit: a5853ef44ed52e80eabee3757bb6887fa400b75b
+ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
+ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "73791262"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "75691463"
 ---
-# <a name="use-shared-datasets-in-power-bi-report-builder"></a>Uso de conjuntos de datos compartidos en el Generador de informes de Power BI
+# <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creación de un informe paginado basado en un conjunto de datos compartido de Power BI
 
 Puede usar un conjunto de datos creado en Power BI Desktop como origen de datos para informes paginados del Generador de informes de Power BI. Imagínese este escenario: Ha creado un informe de Power BI en Power BI Desktop. Ha dedicado mucho tiempo a diseñar el modelo de datos y después ha creado un bonito informe de Power BI con todo tipo de excelentes objetos visuales. El informe tiene una matriz con muchas filas, por lo que tiene que desplazarse para verlas todas. Los lectores del informe quieren un informe que puedan imprimir, en el que se muestren todas las filas de esa matriz. Un informe paginado de Power BI lo puede hacer: imprimir una tabla o matriz que ocupe varias páginas, con encabezados y pies de página, y un diseño de página perfecto. Complementará el informe de Power BI Desktop. Quiere que se basen en los mismos datos exactos, sin discrepancias, por lo que usa el mismo conjunto de datos.
 
@@ -196,7 +196,7 @@ Por ejemplo, imagine que el informe tiene un formato de 8,5 x 11 pulgadas y que
 
     ![Definición del tamaño del cuerpo](media/report-builder-shared-datasets/power-bi-report-builder-body-size.png)
 
-1. Seleccione **Ejecutar** para obtener una vista previa del informe y asegúrese de que se ha deshecho de las páginas en blanco. Ahora este informe solo tiene 26 páginas, en lugar de las 54 originales. Operación completada correctamente.
+1. Seleccione **Ejecutar** para obtener una vista previa del informe y asegúrese de que se ha deshecho de las páginas en blanco. Ahora este informe solo tiene 26 páginas, en lugar de las 54 originales. La operación se ha realizado correctamente.
 
     ![Impresión sin páginas en blanco](media/report-builder-shared-datasets/power-bi-report-builder-print-26-pgs.png)
 

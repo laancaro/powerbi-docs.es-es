@@ -10,15 +10,15 @@ ms.topic: conceptual
 ms.date: 04/05/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: d5fcc6866d564367d2a29dc00493a959409ea2ed
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b14b9a8a0978876942de789548d9741fa3932152
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858987"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762241"
 ---
-# <a name="what-sample-data-is-available-to-use-with-power-bi"></a>¿Qué datos de ejemplo están disponibles para usarse con Power BI?
-Supongamos que nunca antes ha utilizado Power BI y quiere probarlo, pero no tiene datos con los que trabajar.  O supongamos que sí tiene un conjunto de datos. Pero, como no entiende el funcionamiento de Power BI (todavía), le preocupa dañarlo de algún modo.
+# <a name="get-sample-data-for-power-bi"></a>Obtención de datos de ejemplo para Power BI
+Supongamos que nunca antes ha utilizado Power BI y quiere probarlo, pero no tiene datos con los que trabajar.  O supongamos que sí tiene un conjunto de datos. Dado que no entiende (todavía) cómo funciona Power BI, ¿le preocupa que de alguna manera pueda dañar su conjunto de datos?
 
 No se deje llevar por el pánico. obviEnce ([www.obvience.com](http://www.obvience.com/)) y Microsoft han creado una serie de ejemplos que puede utilizar hasta que adquiera más confianza con Power BI.  Los datos son anónimos e ilustran diferentes sectores: finanzas, recursos humanos, ventas, etc. Además, la documentación en línea usa estos mismos ejemplos en los tutoriales y casos prácticos, por lo que podrá seguir el tutorial.      
 
@@ -30,7 +30,7 @@ Antes de comenzar, estas son las directrices legales sobre el uso de los ejemplo
 
 ## <a name="usage-guidelines-for-the-power-bi-sample-excel-workbooks"></a>Instrucciones de uso para los libros de Excel de ejemplo de Power BI
 
-© 2015 Microsoft Corporation. Todos los derechos reservados. Los documentos y libros se proporcionan "tal cual". La información y las opiniones expresadas en los libros, incluidas direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El usuario asume el riesgo de su uso. Algunos ejemplos son ficticios y únicamente tienen fines ilustrativos. No se pretende establecer ni inferir ninguna asociación real. Microsoft no otorga ninguna garantía, explícita o implícita, con respecto a la información proporcionada aquí.
+© 2015 Microsoft Corporation. All rights reserved. Los documentos y libros se proporcionan "tal cual". La información y las opiniones expresadas en los libros, incluidas direcciones URL y otras referencias a sitios web de Internet, pueden cambiar sin previo aviso. El usuario asume el riesgo de su uso. Algunos ejemplos son ficticios y únicamente tienen fines ilustrativos. No se pretende establecer ni inferir ninguna asociación real. Microsoft no otorga ninguna garantía, explícita o implícita, con respecto a la información proporcionada aquí.
 
 Los libros no proporcionan ningún derecho legal sobre la propiedad intelectual de ningún producto de Microsoft. Puede copiar y usar este libro para fines de consulta interna.
 
@@ -127,10 +127,10 @@ Todos los paquetes de ejemplo de contenido también están disponibles como libr
    * [Ejemplo de marketing y ventas](https://go.microsoft.com/fwlink/?LinkId=529785)
 2. Guarde el archivo descargado. Elegir una ubicación u otra presenta algunas diferencias.
 
-   * ![Local](media/sample-datasets/power-bi-local-file2.png)  **Local**: si guarda el archivo en una unidad local en el equipo o en otra ubicación de su organización, desde Power BI puede importar el archivo en Power BI. El archivo sigue estando en la unidad local, por lo que no se ha importado por completo a Power BI. Lo que sucede es que se crea un nuevo conjunto de datos en el sitio de Power BI y los datos y, en algunos casos el modelo de datos, se cargan en el conjunto de datos. Si el archivo contiene informes, estos aparecerán en el sitio de Power BI en Informes.
-   * ![OneDrive para la Empresa](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Empresa**: si dispone de OneDrive para la Empresa, la forma más eficaz de mantener sincronizado el trabajo efectuado en Excel, en Power BI o en un archivo .CSV con el conjunto de datos, los informes y los paneles en Power BI es iniciar sesión en OneDrive con la misma cuenta que utiliza para Power BI. Dado que tanto Power BI como OneDrive están en la nube, Power BI se conecta al archivo en OneDrive cada hora aproximadamente. Si se detectan cambios, se actualizarán automáticamente el conjunto de datos, los informes y los paneles en Power BI.
-   * ![OneDrive Personal](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Personal**: si guarda los archivos en su propia cuenta de OneDrive, conseguirá muchas ventajas idénticas a las que obtendría con OneDrive para la Empresa. La principal diferencia estriba en que cuando se conecta al archivo por primera vez (mediante Obtener datos > Archivos > OneDrive – Personal) debe iniciar sesión en OneDrive con la cuenta de Microsoft, que normalmente es distinta de la que usa para iniciar sesión en Power BI. Al iniciar sesión en OneDrive con la cuenta de Microsoft, asegúrese de seleccionar la opción Mantener la sesión iniciada. De este modo, Power BI podrá conectarse al archivo cada hora aproximadamente y asegurarse de que el conjunto de datos está sincronizado.
-   * ![SharePoint: sitios de grupo](media/sample-datasets/power-bi-sharepoint2.png) **SharePoint: sitios de grupo**: guardar los archivos de Power BI en SharePoint: sitios de grupo es muy parecido a guardarlos en OneDrive para la Empresa. La diferencia más importante es cómo se conecta al archivo desde Power BI. Puede especificar una dirección URL o conectarse a la carpeta raíz.
+   * ![Local](media/sample-datasets/power-bi-local-file2.png)  **Local**: si guarda el archivo en una unidad local en el equipo o en otra ubicación de la organización, puede importar el archivo a Power BI. El archivo sigue estando en la unidad local, por lo que no se ha importado por completo a Power BI. Lo que sucede es que se crea un nuevo conjunto de datos en el sitio de Power BI y los datos y, en algunos casos el modelo de datos, se cargan en el conjunto de datos. Si el archivo contiene informes, estos aparecerán en el sitio de Power BI en Informes.
+   * ![OneDrive para la Empresa](media/sample-datasets/power-bi-onedrive-file.png) **OneDrive - Empresa**: si dispone de OneDrive para la Empresa, la forma más eficaz de mantener sincronizado el trabajo efectuado en Excel, en Power BI o en un archivo .CSV con el conjunto de datos, los informes y los paneles en Power BI es iniciar sesión en OneDrive con la misma cuenta que utiliza para Power BI. Dado que tanto Power BI como OneDrive están en la nube, Power BI se conecta al archivo en OneDrive cada hora aproximadamente. Si se detectan cambios, se actualizarán automáticamente el conjunto de datos, los informes y los paneles en Power BI.
+   * ![OneDrive Personal](media/sample-datasets/power-bi-onedrive-file.png)**OneDrive - Personal**: si guarda los archivos en su propia cuenta de OneDrive, conseguirá muchas ventajas idénticas a las que obtendría con OneDrive para la Empresa. La principal diferencia estriba en que cuando se conecta al archivo por primera vez (mediante Obtener datos > Archivos > OneDrive – Personal) debe iniciar sesión en OneDrive con la cuenta de Microsoft, que normalmente es distinta de la que usa para iniciar sesión en Power BI. Al iniciar sesión en OneDrive con la cuenta de Microsoft, asegúrese de seleccionar la opción Mantener la sesión iniciada. De este modo, Power BI podrá conectarse al archivo cada hora aproximadamente y asegurarse de que el conjunto de datos está sincronizado.
+   * ![SharePoint: sitios de grupo](media/sample-datasets/power-bi-sharepoint2.png)**SharePoint: sitios de grupo**: guardar los archivos de Power BI en SharePoint: sitios de grupo es muy parecido a guardarlos en OneDrive para la Empresa. La diferencia más importante es cómo se conecta al archivo desde Power BI. Puede especificar una dirección URL o conectarse a la carpeta raíz.
 1. Abra el servicio Power BI (app.powerbi.com) e inicie sesión.
 
    > [!TIP]

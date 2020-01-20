@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 68ae5b04f951fcc0fa8a067e60a408d1610c3fdd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879655"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759868"
 ---
-# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conectarse a modelos SSAS multidimensionales en Power BI Desktop
+# <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conexión a modelos SSAS multidimensionales en Power BI Desktop
 Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
 
 Para conectarse a una base de datos **SSAS MD**, seleccione **Obtener datos &gt; Base de datos &gt; Base de datos de SQL Server Analysis Services**, como se muestra esta imagen:

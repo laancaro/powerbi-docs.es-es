@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/29/2019
 ms.author: maggies
 LocalizationGroup: Reports
-ms.openlocfilehash: cc2ddd0b6fbd0b621c07056ed4b525f66d81319c
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 6aefe879e6d5871c8f88ac15407038aa600bf980
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265861"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762517"
 ---
-# <a name="page-display-settings-in-a-power-bi-report"></a>Configuración de presentación de página en un informe de Power BI
+# <a name="apply-page-display-settings-in-a-power-bi-report"></a>Aplicación de la configuración de presentación de página en un informe de Power BI
 Sabemos que es crítico lograr un diseño de informe perfecto hasta el último detalle. En ocasiones, esto puede resultar complicado, porque puede que usted y sus compañeros de trabajo vean esos informes en pantallas con relaciones de aspecto y tamaños diferentes. 
 
 La vista de pantalla predeterminada es **Ajustar a la página** y el tamaño de pantalla predeterminado es **16:9**. Si desea fijar otra relación de aspecto o ajustar su informe de forma diferente, hay dos herramientas que le ayudarán: la configuración de ***Vista de página*** y la configuración de ***Tamaño de página***.

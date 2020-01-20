@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 05/22/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 03a426947787cbd2720661267cac4601a4b9b13a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 11be774515552d10846b51863eda6c155b92b57f
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880939"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75758092"
 ---
-# <a name="combo-chart-in-power-bi"></a>Gráficos combinados en Power BI
+# <a name="create-and-use-combo-charts-in-power-bi"></a>Creación y uso de gráficos combinados en Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -63,7 +63,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 
     b.  Arrastre **Ventas** \> **Margen bruto de este año** al área **Valor**.
 
-    c. Seleccione **Time** \> **FiscalMonth** para agregarlo al área **Eje**.
+    c. Seleccione **Tiempo** \> **Mes fiscal** para agregarlo al área **Eje**.
 
     ![Ejemplo de tutorial combinado](media/power-bi-visualization-combo-chart/combotutorial1new.png)
 5. Seleccione **Más opciones** (...) en la esquina superior derecha de la visualización y, después, seleccione **Ordenar por > FiscalMonth** (MesFiscal). Para cambiar el criterio de ordenación, vuelva a hacer clic en los puntos suspensivos y elija **Orden ascendente** u **Orden descendente**. En este ejemplo, se usará **Orden ascendente**.
@@ -71,7 +71,7 @@ Vea cómo Will crea un gráfico combinado con el Ejemplo de marketing y ventas.
 6. Convierta el gráfico de columnas en un gráfico combinado. Hay dos gráficos combinados disponibles: **Gráfico de columnas apiladas y de líneas** y **Gráfico de columnas agrupadas y de líneas**. Con el gráfico de columnas seleccionado, en el panel **Visualizaciones**, seleccione el **Gráfico de columnas agrupadas y de líneas**.
 
     ![Ejemplo de conversión de gráfico combinado](media/power-bi-visualization-combo-chart/converttocombo-new2.png)
-7. En el panel **Campos**, arrastre **Ventas** \> **Ventas del último año** al cubo **Valores de línea**.
+7. En el panel **Campos**, arrastre **Ventas** \> **Ventas del año anterior** al cubo **Valores de líneas**.
 
    ![](media/power-bi-visualization-combo-chart/linevaluebucket.png)
 

@@ -9,12 +9,12 @@ ms.topic: reference
 ms.date: 09/05/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a3ca4b8ffe709fec7953eb5d4081bdf296504eb1
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 3f263e67b866f6d6a3ea76257c64bbb2308a25d2
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73868517"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75729722"
 ---
 # <a name="data-types-in-power-bi-desktop"></a>Tipos de datos en Power BI Desktop
 Este artículo describe los tipos de datos admitidos en Power BI Desktop y Expresiones de análisis de datos (DAX). 
@@ -51,7 +51,7 @@ Power BI Desktop admite tres tipos de números:
 >
 
 ### <a name="datetime-types"></a>Tipos de fecha y hora
-Power BI Desktop admite cinco tipos de datos de fecha y hora en la vista de consultas y tres en el modelo y en la vista de informes.   Tanto la duración como fecha/hora/zona horaria se convierten durante la carga en el modelo.
+Power BI Desktop admite cinco tipos de datos de fecha y hora en la Vista de consultas.  Tanto la duración como fecha/hora/zona horaria se convierten durante la carga en el modelo. El modelo de datos de Power BI Desktop solo admite la fecha y la hora, pero se les puede dar formato como fechas u horas por separado. 
 
 **Fecha y hora** : representa el valor de fecha y hora.  Interiormente, el valor de fecha y hora se almacena como un tipo de número decimal.  Por lo que realmente puede realizar la conversión de los dos.   La parte de hora de una fecha se almacena como una fracción en múltiplos enteros de 1/300 segundos (3,33 ms).  Se admiten las fechas entre los años 1900 y 9999.
 
@@ -59,7 +59,7 @@ Power BI Desktop admite cinco tipos de datos de fecha y hora en la vista de cons
 
 **Hora** : representa precisamente la hora (ninguna parte de la hora).  Cuando se convierte en el modelo, el valor de hora es el mismo que el valor de fecha y hora sin dígitos a la izquierda de la posición decimal.
 
-**Fecha/hora/zona horaria** : representa una fecha o una hora en UTC.  Actualmente, se convierte en fecha y hora cuando se carga en el modelo.
+**Fecha/hora/zona horaria**: representa una fecha o una hora en UTC con un desplazamiento de zona horaria.  Se convierte en fecha y hora cuando se carga en el modelo. El modelo de Power BI no ajusta la zona horaria según la ubicación, la configuración regional, etc. de un usuario. Si se carga un valor de 09:00 en el modelo en los EE. UU., se mostrará como 09:00 sea donde sea que se abra o se vea el informe. 
 
 **Duración** : representa un período. Se convierte en el tipo de número decimal cuando se carga en el modelo.  Como un tipo de número decimal, puede agregarse o quitarse del campo de fecha y hora con resultados correctos.  Como un tipo de número decimal, puede usarlo fácilmente en las visualizaciones que muestran la magnitud.
 

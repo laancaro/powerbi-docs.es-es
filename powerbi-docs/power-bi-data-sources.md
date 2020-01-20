@@ -6,18 +6,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/22/2019
+ms.date: 01/08/2020
 ms.author: kfollis
-ms.openlocfilehash: be7f95b2bbbd6e5e6314c7fd57869a30c176746c
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: 2578f8621140a64b85e6765d80d860c1489a5900
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958503"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762563"
 ---
 # <a name="power-bi-data-sources"></a>Orígenes de datos de Power BI
 
 En la tabla siguiente se muestran los orígenes de datos que admite Power BI para los conjuntos de datos, incluida información sobre DirectQuery y la puerta de enlace de datos local. Para más información sobre los flujos de datos, consulte [Conectarse a orígenes de datos de flujos de datos de Power BI](service-dataflows-data-sources.md).
+
+> [!NOTE]
+> Hay muchos conectores de datos para Power BI Desktop que requieren Internet Explorer 10 (o posterior) para la autenticación. 
+
 
 | Origen de datos | Conexión desde el Escritorio | Conexión y actualización desde el servicio | DirectQuery/Conexiones dinámicas | Puerta de enlace (compatible) | Puerta de enlace (obligatoria) |
 |---|---|---|---|---|---|---|---|
@@ -33,7 +37,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Azure Cost Management | Sí | Sí | No | No | No |
 | Azure Data Explorer (kusto) | Sí | Sí | Sí | No | No |
 | Azure Data Lake Storage Gen1 | Sí | Sí | No | No | No |
-| Azure Data Lake Storage Gen2 | Sí | Sí | No | No | No |
+| Azure Data Lake Storage Gen2 | Sí | Sí | No | Sí | No |
 | Azure DevOps | Sí | Sí | No | No | No |
 | Azure DevOps Server | Sí | Sí | No | Sí | Sí |
 | Azure HDInsight (HDFS) | Sí | Sí | No | No | No |
@@ -65,8 +69,8 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Google BigQuery | Sí | Sí | No | No | No |
 | Archivo Hadoop (HDFS) | Sí | No | No | No | No |
 | HDInsight Interactive Query | Sí | Sí | Sí | No | No |
-| IBM DB2 | Sí | Sí | Sí | Sí | Sí |
-| Base de datos Informix de IBM | Sí | Sí | No | Sí | Sí |
+| IBM DB2 | Sí | Sí | Sí | Sí | No |
+| Base de datos Informix de IBM | Sí | Sí | No | Sí | No |
 | IBM Netezza | Sí | Sí | Sí | Sí | Sí |
 | Impala | Sí | Sí | Sí | Sí | Sí |
 | Indexima | Sí | Sí | Sí | Sí | Sí |
@@ -95,7 +99,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Planview Enterprise One - CTM | Sí | Sí | No | No | No |
 | Planview Enterprise One - PRM | Sí | Sí | No | No | No |
 | Planview Projectplace | Sí | Sí | No | No | No |
-| PostgreSQL | Sí | Sí | Sí | Sí | Sí |
+| PostgreSQL | Sí | Sí | Sí | Sí | No |
 | Flujos de datos de Power BI | Sí | Sí | No | No | No |
 | Conjuntos de datos de Power BI | Sí | Sí | Sí | No | No |
 | Flujos de datos de Power Platform | Sí | Sí | No | No | No |
@@ -114,7 +118,7 @@ En la tabla siguiente se muestran los orígenes de datos que admite Power BI pa
 | Lista de SharePoint | Sí | Sí | No | Sí | No <sup>4</sup> |
 | Lista de SharePoint Online | Sí | Sí | No | Sí <sup>2</sup> | No |
 | Smartsheet | Sí | Sí | No | No | No |
-| Snowflake | Sí | Sí | Sí | Sí | Sí |
+| Snowflake | Sí | Sí | Sí | Sí | No |
 | Spark | Sí | Sí | Sí | Sí | No |
 | SparkPost | Sí | Sí | No | No | No |
 | SQL Server | Sí | Sí | Sí | Sí | Sí |

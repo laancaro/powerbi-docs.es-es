@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 11/14/2019
 ms.author: mihart
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: eac0c6fab686a3b5cf63d035ea19b52ab83aa339
-ms.sourcegitcommit: 768e1e4b19fe8c7627010127c2420d63021cb542
+ms.openlocfilehash: 3a043a343994c02a916102b83fe79d1ccd5208bf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "74199449"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762333"
 ---
-# <a name="shape-maps-in-power-bi-desktop-preview"></a>Mapas de formas en Power BI Desktop (versión preliminar)
+# <a name="create-shape-map-visualizations-in-power-bi-desktop-preview"></a>Crear visualizaciones de mapa de formas en Power BI Desktop (versión preliminar)
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -115,7 +115,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="australia-states"></a>Australia: estados
 
-| Id. | abrev. | iso | nombre | código postal |
+| Id. | abrev. | iso | name | código postal |
 | --- | --- | --- | --- | --- |
 | au-wa |WA |AU-WA |Australia Occidental |WA |
 | au-vic |Vic |AU-VIC |Victoria |VIC |
@@ -128,7 +128,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="austria-states"></a>Austria: estados
 
-| Id. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | at-wi |AT-9 |Wien |Viena |WI |
 | at-vo |AT-8 |Vorarlberg |Vorarlberg |VO |
@@ -178,7 +178,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="canada-provinces"></a>Canadá: provincias
 
-| Id. | iso | nombre | código postal |
+| Id. | iso | name | código postal |
 | --- | --- | --- | --- |
 | ca-nu |CA-NU |Nunavut |NU |
 | ca-nt |CA-NT |Territorios Noroccidentales |NT |
@@ -196,7 +196,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="france-regions"></a>Francia: regiones
 
-| Id. | nombre | nombre (español) |
+| Id. | name | nombre (español) |
 | --- | --- | --- |
 | Auvernia-Ródano-Alpes |  |  |
 | Borgoña-Franco Condado |  |  |
@@ -218,7 +218,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="germany-states"></a>Alemania: estados
 
-| Id. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | de-be |DE-BE |Berlin |Berlín |BE |
 | de-th |DE-TH |Thüringen |Turingia |TH |
@@ -270,7 +270,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="italy-regions"></a>Italia: regiones
 
-| Id. | iso | nombre | nombre (español) | código postal |
+| Id. | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- |
 | it-vn |IT-34 |Veneto |Véneto |VN |
 | it-vd |IT-23 |Valle d'Aosta |Valle de Aosta |VD |
@@ -295,7 +295,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="mexico-states"></a>México: estados
 
-| Id. | abreviatura | iso | nombre | nombre (español) | código postal |
+| Id. | abreviatura | iso | name | nombre (español) | código postal |
 | --- | --- | --- | --- | --- | --- |
 | mx-zac |Zac. |MX-ZAC |Zacatecas |Zacatecas |ZA |
 | mx-yuc |Yuc. |MX-YUC |Yucatán |Yucatán |YU |
@@ -332,7 +332,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="netherlands-provinces"></a>Países Bajos: provincias
 
-| Id. | iso | nombre | nombre (español) |
+| Id. | iso | name | nombre (español) |
 | --- | --- | --- | --- |
 | nl-zh |NL-ZH |Zuid-Holland |Holanda Meridional |
 | nl-ze |NL-ZE |Zeeland |Zelanda |
@@ -349,7 +349,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="uk-countries"></a>Reino Unido: Países
 
-| Id. | iso | nombre |
+| Id. | iso | name |
 | --- | --- | --- |
 | gb-wls |GB-WLS |Gales |
 | gb-sct |GB-SCT |Escocia |
@@ -358,7 +358,7 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 
 ### <a name="usa-states"></a>EE. UU.: estados
 
-| Id. | nombre | código postal |
+| Id. | name | código postal |
 | --- | --- | --- |
 | us-mi |Michigan |MI |
 | us-ak |Alaska |AK |
@@ -394,20 +394,20 @@ Use las siguientes **claves de región** en esta versión preliminar para probar
 | us-nj |Nueva Jersey |NJ |
 | us-ri |Rhode Island |RI |
 | us-ct |Connecticut |CT |
-| us-pa |Pensilvania |PA |
+| us-pa |Pennsylvania |PA |
 | us-ny |Nueva York |NY |
 | us-ne |Nebraska |NE |
 | us-ma |Massachusetts |MA |
 | us-ia |Iowa |IA |
 | us-nh |Nueva Hampshire |NH |
-| us-or |Oregón |OR |
+| us-or |Oregón |O |
 | us-mn |Minnesota |MN |
 | us-vt |Vermont |VT |
-| us-id |Idaho |ID |
+| us-id |Idaho |Id. |
 | us-wi |Wisconsin |WI |
 | us-wy |Wyoming |WY |
-| us-sd |Dakota del sur |SD |
-| us-nd |Dakota del norte |ND |
+| us-sd |South Dakota |SD |
+| us-nd |North Dakota |ND |
 | us-me |Maine |ME |
 | us-mt |Montana |MT |
 | us-wa |Washington |WA |

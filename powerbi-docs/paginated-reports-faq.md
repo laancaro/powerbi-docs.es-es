@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 ms.date: 12/03/2019
-ms.openlocfilehash: c1f8a274a17d85cf8f86d2e33ff63f3e9b686742
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: f5030f4fe820ac8ba14d0f7255cdbe1da5f7e9a3
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74831230"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732070"
 ---
 # <a name="paginated-reports-in-power-bi-faq"></a>Informes paginados en Power BI: Preguntas frecuentes 
 
@@ -148,7 +148,7 @@ Sí, se admite la capacidad de ejecutar código en los informes de la misma form
 
 ### <a name="can-i-use-power-bi-embedded-to-embed-my-paginated-reports-into-an-app-im-hosting"></a>¿Puedo usar Power BI Embedded para insertar los informes paginados en una aplicación que estoy hospedando?
 
-Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura.  La compatibilidad con la inserción de PaaS está planeada para más adelante este año.
+Ya está disponible la inserción de SaaS, incluida la compatibilidad con la inserción segura. En el caso de la inserción de PaaS, vea el tutorial [Inserción de informes paginados de Power BI en una aplicación para los clientes](developer/embed-paginated-reports-customers.md).
 
 ### <a name="can-i-drill-through-from-a-power-bi-report-to-a-paginated-report"></a>¿Puedo extraer los detalles de un informe de Power BI en un informe paginado?
 

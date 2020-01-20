@@ -7,17 +7,17 @@ ms.reviewer: juluczni
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: tutorial
-ms.date: 11/13/2019
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: d653bb0193351e2ecb38c09e6b34d02eea5cce67
-ms.sourcegitcommit: f7b28ecbad3e51f410eff7ee4051de3652e360e8
+ms.openlocfilehash: 8aa392b69d21905901f8304c577b87b00ed19057
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74060552"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885266"
 ---
-# <a name="use-the-decomposition-tree-visual-in-power-bi-preview"></a>Uso del objeto visual del esquema jerárquico de Power BI (versión preliminar)
+# <a name="create-and-view-decomposition-tree-visuals-in-power-bi-preview"></a>Creación y visualización de objetos visuales de esquema jerárquico en Power BI (versión preliminar)
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
 El objeto visual del esquema jerárquico de Power BI le permite visualizar datos en varias dimensiones. Agrega datos de manera automática y permite explorar en profundidad las dimensiones en cualquier orden. También es una visualización de inteligencia artificial (IA), por lo que puede pedirle que busque la dimensión siguiente para explorar en profundidad en función de ciertos criterios. Esto lo convierte en una herramienta valiosa para la exploración ad hoc y para analizar la causa principal.
@@ -131,6 +131,8 @@ En el ejemplo siguiente, los dos primeros niveles están bloqueados. Esto signif
 ![Bloqueo del esquema jerárquico](media/power-bi-visualization-decomposition-tree/tree-locking.png)
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
+
+El número máximo de niveles del esquema es 50. El número máximo de puntos de datos que se pueden visualizar al mismo tiempo en el esquema es 5000. Los niveles se truncan para mostrar los n principales. Actualmente, el n superior por nivel se establece en 10. 
 
 El esquema jerárquico no se admite en los escenarios siguientes:  
 -   Analysis Services local

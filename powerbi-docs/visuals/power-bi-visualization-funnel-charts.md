@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 06/12/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1394d71a5a2e811da23e18b9ee0d98f171f19083
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 356d738795f8bf99ba1e2f8dfc705b23f52a6d5e
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880830"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762448"
 ---
-# <a name="funnel-charts"></a>Gráficos de embudo
+# <a name="create-and-use-funnel-charts"></a>Creación y uso de gráficos de embudo
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -71,7 +71,7 @@ Vea este vídeo para observar cómo se crea un gráfico de embudo con el Ejemplo
 
 Ahora cree su propio gráfico de embudo que muestre la cantidad de oportunidades que cada uno de nosotros tiene en nuestras fases de ventas.
 
-1. Comience en una página de informe en blanco y seleccione el campo **SalesStage** \> **Fase de ventas**.
+1. Comience en una página de informe en blanco y seleccione el campo **Fase de ventas** \> **Fase de ventas**.
    
     ![Selección de Fase de ventas](media/power-bi-visualization-funnel-charts/funnelselectfield-new.png)
 

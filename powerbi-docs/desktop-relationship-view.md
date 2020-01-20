@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: a39f675077d72698b62138aa1b9d56c5bf6a6958
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: cd9671b8c38cb2aa1502c3aa00a871d125f819b1
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877835"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760489"
 ---
-# <a name="relationship-view-in-power-bi-desktop"></a>Vista de relaciones en Power BI Desktop
+# <a name="work-with-relationship-view-in-power-bi-desktop"></a>Vista de relaciones en Power BI Desktop
 La **vista de relaciones** muestra todas las tablas, columnas y relaciones en el modelo. Esto puede resultar especialmente útil cuando el modelo tiene relaciones complejas entre muchas tablas.
 
 Echemos un vistazo.

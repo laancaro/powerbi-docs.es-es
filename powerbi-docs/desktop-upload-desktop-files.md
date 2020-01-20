@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: fa8e901d73d6ae0f35e74a427354368e75977202
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: d528ba824986ff171688a55aee2ca2febe523236
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73865345"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75759299"
 ---
-# <a name="publish-from-power-bi-desktop"></a>Publicar desde Power BI Desktop
+# <a name="publish-datasets-and-reports-from-power-bi-desktop"></a>Publicar conjuntos de datos e informes desde Power BI Desktop
 Al publicar un archivo de **Power BI Desktop** en el **servicio Power BI**, los datos del modelo y los informes que haya creado en la vista **Informe** se publican en el área de trabajo de Power BI. Verá un nuevo conjunto de datos con el mismo nombre y los informes en el Explorador de área de trabajo.
 
 La publicación desde **Power BI Desktop** tiene el mismo efecto que usar **Obtener datos** en Power BI para conectarse y cargar un archivo de **Power BI Desktop**.
@@ -27,7 +27,7 @@ La publicación desde **Power BI Desktop** tiene el mismo efecto que usar **Obte
 > 
 
 ## <a name="to-publish-a-power-bi-desktop-dataset-and-reports"></a>Para publicar informes y conjuntos de datos de Power BI Desktop
-1. En Power BI Desktop, seleccione **Archivo** \> **Publicar** \> **Publicar en Power BI** o haga clic en **Publicar** en la cinta de opciones.  
+1. En Power BI Desktop, seleccione **Archivo** \> **Publicar** \> **Publicar en Power BI** o haga clic en **Publicar** en la cinta de opciones.  
 
    ![Botón Publicar](media/desktop-upload-desktop-files/pbid_publish_publishbutton.png)
 

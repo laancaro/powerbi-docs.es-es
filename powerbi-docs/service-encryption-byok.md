@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 4cddf01dd57191b5d3e707589e6d8a78e106259f
-ms.sourcegitcommit: 320d83ab392ded71bfda42c5491acab3d9d357b0
+ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "74958480"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762126"
 ---
 # <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traiga sus propias claves de cifrado para Power BI (versión preliminar)
 
@@ -104,6 +104,8 @@ Antes de habilitar BYOK, tenga en cuenta las consideraciones siguientes:
 - Actualmente no se puede deshabilitar BYOK después de habilitarlo. En función de cómo se especifiquen los parámetros de `Add-PowerBIEncryptionKey`, puede controlar cómo usar BYOK para una o varias de las capacidades. Sin embargo, no se puede deshacer la introducción de claves en el inquilino. Para más información, consulte [Habilitación de BYOK](#enable-byok).
 
 - No se puede mover _directamente_ un área de trabajo que usa BYOK desde una capacidad dedicada de Power BI Premium a una capacidad compartida. Debe mover primero el área de trabajo a una capacidad dedicada que no tenga habilitado BYOK.
+
+- Si mueve un área de trabajo que usa BYOK de una capacidad dedicada de Power BI Premium a una compartida, los informes y los conjuntos de datos se vuelven inaccesibles, ya que se cifran con la clave. Para evitarlo, primero debe mover el área de trabajo a una capacidad dedicada que no tenga habilitado BYOK.
 
 ### <a name="enable-byok"></a>Habilitación de BYOK
 

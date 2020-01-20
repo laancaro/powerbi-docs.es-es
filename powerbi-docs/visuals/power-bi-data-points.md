@@ -2,21 +2,21 @@
 title: Grandes conjuntos de datos, límites de punto de datos y estrategias de datos
 description: Límites de datos para objetos visuales y estrategias de reducción de datos
 author: mihart
-ms.reviewer: amac
+ms.reviewer: justyna
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/07/2018
+ms.date: 01/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 1ae0fc339d3837c8fc28cc604b3ddb840807dcd5
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: 320e8a25206a069c43800295ab64a7ab87afbcf0
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74011294"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885253"
 ---
-# <a name="data-point-limits-and-strategies-by-visual-type"></a>Límites de punto de datos y estrategias por tipo de objeto visual
+# <a name="apply-data-point-limits-and-strategies-by-visual-type"></a>Aplicación de estrategias y límites de punto de datos por tipo de objeto visual
 
 Al representar un objeto visual en Power BI, la visualización debe ser rápida y precisa. Para ello se necesitan algoritmos subyacentes configurados para cada tipo de objeto visual. Los objetos visuales en Power BI deben ser lo suficientemente flexibles como para gestionar distintos tamaños de conjuntos de datos. Algunos conjuntos de datos solo tienen un puñado de puntos de datos, mientras que otros disponen de petabytes de puntos de datos. En este artículo se explican las estrategias usadas por Power BI para representar visualizaciones.
 
@@ -75,7 +75,7 @@ Consulte [Funcionamiento del muestreo de líneas](../desktop-high-density-sampli
  Usa las mismas estrategias que el gráfico de columnas. Tenga en cuenta que la línea del **gráfico combinado** no usa el algoritmo de alta densidad que usa el **gráfico de líneas**.
 
 ### <a name="custom-visuals"></a>Objetos visuales personalizados
-Puede obtener hasta 30 000, pero son los autores de objetos visuales quienes deben indicar qué estrategias usar.
+Es posible obtener hasta 30 000, pero depende de los autores de objetos visuales indicar qué estrategias se van a usar. El límite predeterminado es 1000, pero el creador de objetos visuales puede cambiarlo hasta un máximo de 30 000.
 
 ### <a name="doughnut"></a>Anillos
 - Número máximo de puntos: 3500
@@ -119,6 +119,9 @@ Según la configuración, un mapa puede tener:
 - Filas: Virtualización mediante ventanas de 500 filas a la vez
 - Columnas: Primeras 100 columnas agrupadas 
 - Valores: los valores múltiples no se tienen en cuenta para la reducción de datos
+
+### <a name="powerapps-visual"></a>Objeto visual de PowerApps
+Es posible obtener hasta 30 000, pero depende de los autores de objetos visuales indicar qué estrategias se van a usar. El límite predeterminado es 1000, pero el creador de objetos visuales puede cambiarlo hasta un máximo de 30 000.
 
 ### <a name="radial-gauge"></a>Medidor radial
 Sin estrategia de reducción

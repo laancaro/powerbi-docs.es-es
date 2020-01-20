@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/24/2019
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: 64e9ff8f4952abe79a62b6b805596554b32aa6c9
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: f14734f168abca1003bd5b6c773c4c70daf53d15
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74265449"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762103"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 El **servicio Power BI** tiene una versión disponible para clientes de la Administración Pública de Estados Unidos como parte de las suscripciones **Office 365 US Government Community**. La versión del **servicio Power BI** que se describe en este artículo está diseñada específicamente para clientes de la Administración Pública de Estados Unidos y es independiente de la versión comercial del **servicio Power BI**.
@@ -50,7 +50,7 @@ Azure se distribuye entre varias nubes. De forma predeterminada, se permite a lo
 En la nube pública, hay disponibles espacios de IP. En el caso de la nube de administración pública, descargue y vea la [Documentación del servicio Azure Government](https://www.microsoft.com/download/details.aspx?id=57063) para conocer la información más reciente.
 
 ## <a name="limitations-of-power-bi-us-government"></a>Limitaciones del servicio Power BI para la Administración Pública de Estados Unidos
-Algunas de las características que están disponibles en la versión comercial del **servicio Power BI** *no* están disponibles en el **servicio Power BI** para clientes de la Administración Pública de Estados Unidos. El equipo de Power BI está trabajando activamente para que estas características estén disponibles para los clientes de la Administración Pública de Estados Unidos y actualizará este artículo en cuanto estén disponibles.
+Algunas de las características que están disponibles en la versión comercial del **servicio Power BI***no* están disponibles en el **servicio Power BI** para clientes de la Administración Pública de Estados Unidos. El equipo de Power BI está trabajando activamente para que estas características estén disponibles para los clientes de la Administración Pública de Estados Unidos y actualizará este artículo en cuanto estén disponibles.
 
 * **Insertar en SharePoint Online**: no es posible insertar contenido en SharePoint Online mediante el elemento web de Power BI. Pero Secure embed funciona mediante el [elemento web *Insertar*](https://docs.microsoft.com/power-bi/service-embed-secure). Debe agregar *app.powerbigov.us* a la lista de excepciones, lo que puede hacer si sigue las instrucciones del artículo [Permitir o restringir la capacidad de insertar contenido en páginas de SharePoint](https://support.office.com/article/allow-or-restrict-the-ability-to-embed-content-on-sharepoint-pages-e7baf83f-09d0-4bd1-9058-4aa483ee137b).
 * **Power BI para la Administración Pública de Estados Unidos** solo está disponible como una licencia **Pro**. Todas las referencias a licencias de Power BI (gratis) en un portal de administración (o como usuarios) se ejecutan en una nube del servicio Power BI comercial.
@@ -59,6 +59,7 @@ Algunas de las características que están disponibles en la versión comercial 
 * **Métricas de uso para paneles e informes**: las métricas de uso no están disponibles para informes y paneles. Los clientes pueden usar los datos de registro de auditoría para obtener información de uso para el contenido de su organización.
 * **Flujos de datos**: los flujos de datos no están disponibles.
 * **Informes paginados**: los informes paginados solo están disponibles actualmente en USGov Virginia.  La compatibilidad con USGov Texas está planeada pero aún no está disponible.
+* La inserción de contenido de Power BI desde una nube de comunidad gubernamental (GCC) solo se puede realizar con una SKU de Office 365. Los clientes de GCC High pueden usar la [SKU de Office 365 o de Azure](developer/embedded-faq.md#what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365).
 
 Si tiene licencias gratis de **Power BI** asignadas a su cuenta, estas cuentas se ejecutan en una versión comercial del servicio **Power BI** y no forman parte de la oferta **Power BI para la Administración Pública de Estados Unidos**. Para esas cuentas gratis, pueden encontrar los siguientes problemas:
 

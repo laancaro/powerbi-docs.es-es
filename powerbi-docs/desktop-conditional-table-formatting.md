@@ -6,146 +6,174 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 12/26/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: d28028c7b75bedae958df77c743c52b44c4437d9
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c79a8ddd68fa64b0a16663500a3f02e9a991835b
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "74311742"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75730531"
 ---
-# <a name="conditional-formatting-in-tables"></a>Formato condicional en tablas 
-Con el formato condicional de tablas, se pueden especificar colores personalizados de las celdas en función de los valores de esas celdas o de otros valores o campos, usando incluso colores de degradado. También puede mostrar valores de celda con barras de datos. 
+# <a name="use-conditional-formatting-in-tables"></a>Uso de formato condicional en tablas 
 
-Para acceder al formato condicional, en el área **Campos** del panel **Visualizaciones** de Power BI Desktop, seleccione la flecha hacia abajo que está situada junto al valor del área **Valores** que desea formatear (o haga clic con el botón derecho en el campo). El formato condicional solo se puede administrar en el área **Valores** de **Campos**.
+Con el formato condicional para tablas de Power BI Desktop, puede especificar colores de celda personalizados, incluidos valores según el campo y degradados de color. También puede representar valores de celda con barras de datos o iconos de KPI, o como vínculos web activos. Puede aplicar formato condicional a cualquier campo de texto o de datos, siempre y cuando base el formato en un campo que tenga valores numéricos, de nombre de color o de código hexadecimal, o de URL web. 
+
+Para aplicar formato condicional, seleccione una visualización de **tabla** o **matriz** en Power BI Desktop. En la sección **Campos** del panel **Visualizaciones**, haga clic con el botón derecho o seleccione la flecha abajo situada junto al campo del área **Valores** a la que quiere dar formato. Seleccione **Formato condicional** y elija el tipo de formato que quiere aplicar.
 
 ![Menú de formato condicional](media/desktop-conditional-table-formatting/table-formatting-0-popup-menu.png)
 
-En estas secciones se describen cada una de estas opciones de formato condicional. Una o varias opciones pueden combinarse en una sola columna de tabla.
-
 > [!NOTE]
-> Cuando se aplica a una tabla, el formato condicional reemplaza cualquier estilo de tabla personalizada aplicado a las celdas con formato condicional.
+> Formato condicional invalida los colores de fondo o de fuente personalizados que se aplican a la celda con formato condicional.
 
-Para quitar el formato condicional de una visualización, simplemente vuelva a hacer clic con el botón derecho en el campo, seleccione **Quitar formato condicional** y elija el tipo de formato que va a quitar.
+Para quitar el formato condicional de una visualización, seleccione **Quitar formato condicional** en el menú desplegable del campo y elija el tipo de formato que va a quitar.
 
 ![Menú Quitar formato condicional](media/desktop-conditional-table-formatting/table-formatting-1-remove.png)
 
-## <a name="background-color-scales"></a>Escalas de color de fondo
+En estas secciones se describen cada una de las opciones de formato condicional. Puede combinar más de una opción en una sola columna de tabla.
 
-Seleccione **Formato condicional** y **Escalas de color de fondo**. Se abrirá el cuadro de diálogo siguiente.
+## <a name="format-background-or-font-color"></a>Asignación de formato al color de fondo o de fuente
 
-![Cuadro de diálogo Escalas de color de fondo](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
+Para dar formato al fondo o al color de fuente de la celda, seleccione **Formato condicional** en un campo y luego elija **Color de fondo** o **Color de fuente** en el menú desplegable. 
 
-Puede seleccionar un campo en el modelo de datos en el que basar los colores, estableciendo **Color based on** (Color basado en) en ese campo. Además, puede especificar el tipo de agregación para el campo seleccionado con el valor **Resumen**. El campo que se coloreará se especifica en el campo **Apply color to** (Aplicar color a), para que pueda realizar un seguimiento. Se puede aplicar formato condicional a los campos de texto y de fecha, siempre y cuando se elija un valor numérico como base del formato.
+![Selección del color de fondo o el color de fuente](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
 
-![Campo Color based on (Color basado en)](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
+Se abre el cuadro de diálogo **Color de fondo** o **Color de fuente** con el nombre del campo al que se va a aplicar formato en el título. Después de seleccionar las opciones de formato condicional, elija **Aceptar**. 
 
-Para usar valores de colores discretos para determinados intervalos de valor, seleccione **Color by rules** (Color por reglas). Para usar un espectro de colores, deje **Color by rules** (Color por reglas) desactivado. 
+![Cuadros de diálogo Color de fondo y Color de fuente](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
 
-![Cuadro de diálogo Escalas de color de fondo](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-dialog.png)
+Las opciones **Color de fondo** y **Color de fuente** son las mismas, pero afectan al color de fondo de la celda y al color de fuente, respectivamente. Puede aplicar el mismo u otro formato condicional al color de fuente y al color de fondo de un campo. Si hace que la fuente y el fondo de un campo tengan el mismo color, la fuente se combina en segundo plano, por lo que la columna de la tabla solo muestra los colores.
 
-### <a name="color-by-rules"></a>Color según las reglas
+## <a name="color-by-color-scale"></a>Color por escala de colores
 
-Cuando selecciona **Color by rules** (Color por reglas), puede especificar uno o varios intervalos de valor, cada uno con un conjunto de colores.  Cada intervalo de valor empieza por una condición de valor *Si* y una condición de valor *Y*, y un color.
+Para cambiar el formato del color de fondo o de fuente de una celda por escala de colores, en el campo **Dar formato por** del cuadro de diálogo **Color de fondo** o **Color de fuente**, seleccione **Escala de colores**. En **Según el campo**, seleccione el campo en el que se basará el formato. Puede basar el formato en el campo actual o en cualquier campo del modelo que tenga datos numéricos o de color. 
 
-![Intervalo de valor Color por reglas](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+En **Resumen**, especifique el tipo de agregación que quiere utilizar para el campo seleccionado. En **Formato predeterminado**, seleccione un formato para aplicarlo a valores en blanco. 
 
-Las celdas de la tabla con valores en cada intervalo se rellenan con el color especificado. Hay tres reglas en esta imagen.
+En **Mínimo** y **Máximo**, elija si quiere aplicar la combinación de colores según los valores de los campos Mínimo y Máximo o según valores personalizados que especifique. Despliegue y seleccione los muestrarios de colores que quiere aplicar a los valores mínimo y máximo. Active la casilla **Divergente** para especificar también un valor y un color de **Centro**. 
 
-![Ejemplo de Color por reglas](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules.png)
+![Establecimiento del fondo de celda con escala de colores](media/desktop-conditional-table-formatting/table-formatting-1-diverging-table.png)
 
-La tabla de ejemplo se parece a esta:
+Una tabla de ejemplo con formato de fondo de escala de colores en la columna **Affordability** (Asequibilidad) tiene el siguiente aspecto:
+
+![Tabla de ejemplo con escala de colores de fondo divergentes](media/desktop-conditional-table-formatting/table-formatting-1-apply-color-to.png)
+
+Una tabla de ejemplo con un formato de fuente de escala de colores en la columna **Affordability** (Asequibilidad) tiene el siguiente aspecto:
+
+![Tabla de ejemplo con escala de colores de fuente divergentes](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
+
+## <a name="color-by-rules"></a>Color según las reglas
+
+Para dar formato al color de fondo o de fuente de la celda según las reglas, en el campo **Dar formato por** del cuadro de diálogo **Color de fondo** o **Color de fuente**, seleccione **Reglas**. De nuevo, en **Según el campo** se muestra el campo en el que se basará el formato y en **Resumen** se muestra el tipo de agregación del campo. 
+
+En **Reglas**, escriba uno o varios intervalos de valores y establezca un color para cada uno. Cada intervalo de valor tiene una condición *Si el valor*, una condición de valor *Y* y un color. Los fondos o las fuentes de celda de cada intervalo de valores están coloreados con el color especificado. En el ejemplo siguiente se crean tres reglas:
+
+![Color según las reglas](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-if-value.png)
+
+Una tabla de ejemplo con formato de color de fondo basado en reglas en la columna **Affordability** (Asequibilidad) tiene el siguiente aspecto:
 
 ![Tabla de ejemplo con color por reglas](media/desktop-conditional-table-formatting/table-formatting-1-color-by-rules-table.png)
 
+## <a name="color-by-color-values"></a>Color por valores de color
 
-### <a name="color-minimum-to-maximum"></a>Color mínimo a máximo
+Si tiene un campo o una medida con datos de nombre de color o de valor hexadecimal, puede usar el formato condicional para aplicar automáticamente esos colores al color de fondo o de fuente de una columna. También puede usar lógica personalizada para aplicar colores a la fuente o al fondo.
 
-Puede configurar los valores *Mínimo* y *Máximo* y sus colores. Si selecciona el cuadro **Diverging**, puede configurar un valor *Centro* opcional.
+En el campo se pueden utilizar los valores de color que aparecen en la especificación CSS de colores en [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/). Estos valores de color pueden incluir:
+- Códigos hexadecimales de 3, 6 u 8 dígitos, por ejemplo #3E4AFF. Asegúrese de incluir el símbolo # al principio del código. 
+- Valores RGB o RGBA como, por ejemplo, RGBA(234, 234, 234, 0,5).
+- Valores HSL o HSLA como, por ejemplo, HSLA(123, 75 %, 75 %, 0,5).
+- Nombres de colores tales como Green, SkyBlue o PeachPuff. 
 
-![Botón divergente](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
+La tabla siguiente incluye un nombre de color asociado a cada Estado: 
 
-La tabla de ejemplo se parece a esta:
+![Tabla de estado con nombres de colores](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
 
-![Tabla de ejemplo con colores divergentes](media/desktop-conditional-table-formatting/table-formatting-1-diverging-table.png)
+Para dar formato a la columna **Color** según sus valores de campo, seleccione **Formato condicional** en el campo **Color** y luego elija **Color de fondo** o **Color de fuente**. 
 
-## <a name="font-color-scales"></a>Escalas de color de fuente
+En el cuadro de diálogo **Color de fondo** o **Color de fuente**, seleccione **Valor del campo** en el campo desplegable **Dar formato por**.
 
-Al seleccionar **Formato condicional** y **Escalas de color de fuente**, se abre este cuadro de diálogo. Este cuadro de diálogo es similar a **Escalas de color de fondo**, pero cambia el color de la fuente en lugar del color de fondo de la celda.
+![Valor de campo Dar formato por](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
 
-![Cuadro de diálogo Escalas de color de fuente](media/desktop-conditional-table-formatting/table-formatting-2-diverging.png)
+Una tabla de ejemplo con formato **Color de fondo** basado en el valor del campo **Color** tiene el siguiente aspecto:
 
-La tabla de ejemplo se parece a esta:
+![Tabla de ejemplo con formato de fondo por valor de campo](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
 
-![Tabla de ejemplo con escalas de color de fuente](media/desktop-conditional-table-formatting/table-formatting-2-table.png)
+Si también utiliza **Valor de campo** para dar formato al **Color de fuente** de la columna, el resultado es un color sólido en la columna **Color**:
 
-## <a name="data-bars"></a>Barras de datos
+![Asignación de formato y de fuente al fondo por valor de campo](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
 
-Al seleccionar **Formato condicional** y **Barras de datos**, se abre este cuadro de diálogo. 
+## <a name="color-based-on-a-calculation"></a>Color basado en un cálculo
+
+Puede crear un cálculo DAX que genere diferentes valores basados en condiciones de la lógica de negocios que seleccione. La creación de una fórmula DAX suele ser más rápida que la creación de varias reglas en el cuadro de diálogo de formato condicional. 
+
+Por ejemplo, la siguiente fórmula DAX aplica valores de color hexadecimales a una nueva columna **Affordability rank** (Rango de asequibilidad), según los valores existentes en la columna **Affordability** (Asequibilidad):
+
+![Cálculo DAX](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+
+Para aplicar los colores, seleccione formato condicional de **Color de fondo** o **Color de fuente** para la columna **Affordability** (Asequibilidad), y base el formato en el **Valor de campo** de la columna **Affordability rank** (Rango de asequibilidad). 
+
+![Color de fondo base de una columna calculada](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
+
+La tabla de ejemplo con el color de fondo de **Affordability** (Asequibilidad) en función del **Affordability rank** (Rango de asequibilidad) tiene el siguiente aspecto:
+
+![Tabla de ejemplo con un color basado en valores calculados](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
+
+Puede crear muchas variaciones más tan solo con su imaginación y un poco de DAX.
+
+## <a name="add-data-bars"></a>Adición de barras de datos
+
+Para mostrar barras de datos basadas en valores de celda, seleccione **Formato condicional** en el campo **Affordability** (Asequibilidad) y luego elija **Barras de datos** en el menú desplegable. 
+
+En el cuadro de diálogo **Barras de datos**, la opción **Show bar only** (Mostrar solo la barra) está desactivada de forma predeterminada, por lo que las celdas de tabla muestran las barras y los valores reales. Para mostrar solo las barras de datos, active la casilla **Show bar only** (Mostrar solo la barra).
+
+Puede especificar valores **mínimos** y **máximos**, la dirección y los colores de la barra de datos, y el color del eje. 
 
 ![Cuadro de diálogo Barras de datos](media/desktop-conditional-table-formatting/table-formatting-3-default.png)
 
-De forma predeterminada, la opción **Show bar only** (Mostrar solo la barra) está desactivada, por lo que la celda de tabla muestra la barra y el valor real.
+Al aplicar barras de datos a la columna **Affordability** (Asequibilidad), la tabla de ejemplo tiene el siguiente aspecto:
 
-![Tabla de ejemplo con barras de datos y valores](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
+![Tabla de ejemplo con barras de datos](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
 
-Si la opción **Show bar only** (Mostrar solo la barra) está activada, la celda de tabla solo muestra la barra.
+## <a name="add-icons"></a>Adición de iconos
 
-![Tabla de ejemplo con solo barras de datos](media/desktop-conditional-table-formatting/table-formatting-3-default-table-bars.png)
+Para mostrar iconos basados en valores de celda, seleccione **Formato condicional** en el campo y luego elija **Iconos** en el menú desplegable. 
 
-## <a name="color-formatting-by-field-value"></a>Formato de color por valor de campo
+En el cuadro de diálogo **Iconos**, en **Dar formato por**, seleccione **Reglas** o **Valor de campo**. 
 
-Puede usar una medida o una columna que especifique un color, ya sea mediante un valor de texto o un código hexadecimal, para aplicar ese color al fondo del color de fuente de un objeto visual de matriz o tabla. También puede crear una lógica personalizada para un campo determinado y hacer que esa lógica aplique el color que quiera a la fuente o al fondo.
+Para aplicar formato según las reglas, seleccione el método **Según el campo** o **Resumen**, **Diseño de los iconos**, **Alineación de los iconos**, icono **Estilo** y una o más **Reglas**. En **Reglas**, escriba una o varias reglas con una condición *Si el valor* y una condición de valor *Y*, y seleccione un icono para aplicar a cada regla. 
 
-Por ejemplo, en la tabla siguiente hay un color asociado a cada modelo de producto. 
+Para aplicar formato por valores de campo, seleccione el método **Según el campo** o **Resumen**, **Diseño de los iconos** y **Alineación de los iconos**.
 
-![Campo ProductName con nombre de color](media/desktop-conditional-table-formatting/conditional-table-formatting_01.png)
+En el ejemplo siguiente se agregan iconos basados en tres reglas:
 
-Para dar formato a esa celda según su valor de campo, seleccione el cuadro de diálogo **Formato condicional**; para ello, haga clic con el botón derecho en la columna *Color* de ese objeto visual y, en este caso, haga clic en **Color de fondo** en el menú. 
+![Cuadro de diálogo iconos](media/desktop-conditional-table-formatting/table-formatting-1-default-table.png)
 
-![Seleccionar el color de fondo del menú](media/desktop-conditional-table-formatting/conditional-table-formatting_02.png)
+Seleccione **Aceptar**. Al aplicar iconos a la columna **Affordability** (Asequibilidad) según las reglas, la tabla de ejemplo tiene el siguiente aspecto:
 
-En el cuadro de diálogo que aparece, haga clic en **Valor de campo** en el área desplegable **Dar formato por**, tal como se muestra en la siguiente imagen.
+![Tabla de ejemplo con iconos](media/desktop-conditional-table-formatting/table-formatting-1-default-dialog.png)
 
-![Valor de campo Dar formato por](media/desktop-conditional-table-formatting/conditional-table-formatting_03.png)
+## <a name="format-as-web-urls"></a>Asignación de formato como direcciones URL web
 
-Puede repetir ese proceso para el color de fuente y el resultado en el objeto visual será un color sólido en la columna **Color**, tal como se muestra en la siguiente pantalla.
+Si tiene una columna o una medida que contiene direcciones URL de sitios web, puede usar el formato condicional para aplicar dichas direcciones URL a los campos como vínculos activos. Por ejemplo, la tabla siguiente tiene una columna **Sitio web** con direcciones URL de sitios web para cada estado:
 
-![Valor de campo Dar formato por](media/desktop-conditional-table-formatting/conditional-table-formatting_04.png)
+![Tabla con columna de dirección URL web](media/desktop-conditional-table-formatting/table-formatting-1-diverging.png)
 
-También podría crear un cálculo de DAX basado en la lógica de negocios que genere diferentes códigos hexadecimales según las condiciones que prefiera. Esto suele ser más sencillo que crear varias reglas en el cuadro de diálogo de formato condicional. Fíjese en el campo *ColorKPI* de la siguiente imagen de ejemplo.
+Para mostrar el nombre de cada estado como vínculo dinámico al sitio web, seleccione **Formato condicional** en el campo**Estado** y elija **Dirección URL web**. En el cuadro de diálogo **Dirección URL web**, en **Según el campo**, seleccione **Sitio web** y luego elija **Aceptar**. 
 
-![Cálculos de DAX](media/desktop-conditional-table-formatting/conditional-table-formatting_05.png)
+Al aplicar el formato **URL web** al campo **Estado**, el nombre de cada estado es un vínculo activo al sitio web. En la siguiente tabla de ejemplo se ha aplicado el formato **URL web** a la columna **Estado** y el formato condicional **Barras de datos** y **Background formatting** (Formato de fondo) a la columna **Affordability** (Asequibilidad). 
 
-Después, podría establecer el valor del campo **Color de fondo** de la siguiente forma.
-
-![Establecer el color del campo en función de un KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_06.png)
-
-Y después podría obtener resultados como la siguiente matriz.
-
-![Objeto visual de matriz con un color basado en el valor de KPI](media/desktop-conditional-table-formatting/conditional-table-formatting_07.png)
-
-Podría crear muchas variaciones más solo con su imaginación y un poco de DAX.
-
-Puede usar cualquiera de los valores enumerados en la especificación de color CSS en [https://www.w3.org/TR/css-color-3/](https://www.w3.org/TR/css-color-3/) para colorear los objetos visuales:
-* Códigos hexadecimales de 3, 6 u 8 dígitos, por ejemplo, #3E4AFF. Asegúrese de incluir el símbolo # al principio del código. No se acepta "3E4AFF". 
-* Valores RGB o RGBA, por ejemplo, RGBA(234, 234, 234, 0,5)
-* Valores HSL o HSLA, por ejemplo, HSLA(123, 75 %, 75 %, 0,5)
-* Nombres de colores, por ejemplo, Verde, AzulCielo, Melocotón 
+![Tabla con dirección URL web, barras de datos y color de fondo](media/desktop-conditional-table-formatting/table-formatting-3-default-table.png)
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 Hay algunas consideraciones que tener en cuenta al trabajar con el formato condicional de tabla:
 
-* El formato condicional solo se aplica a los valores de un objeto visual **Matriz**, y no se aplica a subtotales ni totales generales. 
-* El formato condicional no se aplica a la fila **Total**.
-* Las tablas que no tengan una agrupación se muestran como una sola fila que no admite el formato condicional.
-* Si se usa el formato de degradado con valores mínimos y máximos o un formato basado en reglas con reglas de porcentaje, el formato condicional no se puede aplicar cuando los datos contienen valores NaN. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar estos errores.
-
+- El formato condicional solo se aplica a los valores de objetos visuales Tabla o Matriz, y no a los subtotales, los totales generales o la fila **Total**. 
+- Las tablas que no tengan una agrupación se muestran como una sola fila que no admite el formato condicional.
+- No se puede aplicar formato de degradado con valores máximos y mínimos automáticos, ni un formato basado en reglas con reglas de porcentaje, si los datos contienen valores *NaN*. NaN significa "no es un número", lo que suele deberse a un error de división entre cero. Se puede usar la [función DIVIDE() DAX](https://docs.microsoft.com/dax/divide-function-dax) para evitar estos errores.
+- El formato condicional requiere que se aplique una agregación o una medida al valor. Es por eso que se ve "Primero" o "Último"' en el ejemplo de **Color por valor**. Si va a crear un informe en un cubo multidimensional de Analysis Services, no podrá utilizar un atributo para el formato condicional a menos que el propietario del cubo haya generado una medida que proporcione el valor.
 
 ## <a name="next-steps"></a>Pasos siguientes
-Para obtener más información, consulte el artículo siguiente:  
 
-* [Sugerencias y trucos para el formato de color en Power BI](visuals/service-tips-and-tricks-for-color-formatting.md)  
+Para obtener más información sobre formatos de color, vea [Sugerencias y trucos para el formato de color en Power BI](visuals/service-tips-and-tricks-for-color-formatting.md).  
 

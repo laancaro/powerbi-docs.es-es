@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: c2001a83a1fb4a5d605a7ac1c752fe4bbd4c5a51
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73879560"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75760006"
 ---
-# <a name="using-templates-in-power-bi-desktop"></a>Uso de plantillas en Power BI Desktop
+# <a name="create-report-templates-for-power-bi-desktop"></a>Creación de plantillas de informe para Power BI Desktop
 
 Con **Power BI Desktop**, puede crear informes atractivos para compartir información en toda la organización. Con las **plantillas** de Power BI Desktop, puede simplificar el trabajo al crear una plantilla de informe basada en una existente que usted o los demás usuarios de la organización pueden usar como punto de partida para el diseño, el modelo de datos y las consultas de un nuevo informe. Las plantillas de **Power BI Desktop** ayudan a iniciar y estandarizar la creación de informes.
 

@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 12/06/2018
+ms.date: 01/08/2020
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: 53124f2b1ede9d8a9c3a9866416f713af1fd2061
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: efd110ad73b1bd72813d418a1f641613c88dc0d5
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73877264"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762586"
 ---
 # <a name="using-dataflows-with-on-premises-data-sources"></a>Uso de flujos de datos con orígenes de datos locales
 
@@ -24,7 +24,8 @@ Con **flujos de datos**, puede crear una colección de datos de varios orígenes
 
 ## <a name="configuring-an-enterprise-gateway-for-use-with-dataflows"></a>Configuración de Enterprise Gateway para usarlo con flujos de datos
 
-Para usar un origen de datos local en un flujo de datos, cualquier usuario que crea el flujo de datos debe tener **Enterprise Gateway** instalado y configurado. El usuario que crea el flujo de datos también debe ser administrador de Enterprise Gateway para poder usar esa puerta de enlace para un flujo de datos.
+Para crear un flujo de datos mediante una puerta de enlace, el usuario debe ser el administrador de Enterprise Gateway, o el administrador debe haber compartido el origen de datos que piensa usar con el usuario. 
+
 
 > [!NOTE]
 > Los flujos de datos solo se admiten con Enterprise Gateway.
@@ -35,7 +36,7 @@ Al crear un flujo de datos, seleccione un origen de datos local en la lista de o
 
 ![Elección de un origen de datos local](media/service-dataflows-onpremises-gateways/onpremises-gateways_02a.png)
 
-Una vez realizada la selección, se le pedirá que proporcione los detalles de conexión de Enterprise Gateway que se usarán para tener acceso a los datos locales. Debe seleccionar la puerta de enlace y proporcionar las credenciales de la puerta de enlace seleccionada. En la lista desplegable solo aparecen las puertas de enlace de las que el usuario es administrador.
+Una vez realizada la selección, se le pedirá que proporcione los detalles de conexión de Enterprise Gateway que se usarán para tener acceso a los datos locales. Debe seleccionar la puerta de enlace y proporcionar las credenciales de la puerta de enlace seleccionada.
 
 ![Proporcionar los detalles de conexión](media/service-dataflows-onpremises-gateways/onpremises-gateways_03.png)
 

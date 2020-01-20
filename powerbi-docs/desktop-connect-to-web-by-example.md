@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/08/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 6bf933203f8dc76d4ede2d25683981cbdf6755f5
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 131101d6e7a23b7c6d8571c89097036f1149a2f3
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73869052"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761551"
 ---
-# <a name="get-data-from-a-web-page-by-providing-an-example"></a>Obtener datos de una página web con un ejemplo
+# <a name="get-webpage-data-by-providing-examples"></a>Obtención de datos de páginas web con ejemplos
 
 Obtener datos de una página web permite a los usuarios extraer datos fácilmente de las páginas web e importarlos en **Power BI Desktop**. Sin embargo, a menudo, los datos de las páginas web no están en tablas ordenadas de las que resulta fácil extraerlos, por lo que obtener los datos de dichas páginas, aunque sean estructuradas y coherentes, puede ser complicado. 
 

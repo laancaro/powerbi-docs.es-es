@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: e7fa98be039093015e1b19ba8bf20f1368658a43
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907856"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75757862"
 ---
-# <a name="filled-maps-choropleth-in-power-bi"></a>Mapas coropléticos en Power BI
+# <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creación y uso de mapas coropléticos en Power BI
 
 [!INCLUDE [power-bi-visuals-desktop-banner](../includes/power-bi-visuals-desktop-banner.md)]
 
@@ -47,7 +47,7 @@ Los mapas coropléticos son una excelente opción:
 
 ### <a name="prerequisites"></a>Requisitos previos
 En este tutorial se usa el [archivo .PBIX del ejemplo de ventas y marketing](https://download.microsoft.com/download/9/7/6/9767913A-29DB-40CF-8944-9AC2BC940C53/Sales%20and%20Marketing%20Sample%20PBIX.pbix).
-1. En la sección superior izquierda de la barra de menús, seleccione **Archivo** > **Abrir**
+1. En la sección superior derecha de la barra de menús, seleccione **Archivo** > **Abrir**
    
 2. Busque su copia del **archivo .PBIX del ejemplo de ventas y marketing**.
 

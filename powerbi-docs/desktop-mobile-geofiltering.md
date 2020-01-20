@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.date: 01/16/2018
 ms.author: maggies
 LocalizationGroup: Model your data
-ms.openlocfilehash: c054bc933cb1eaac7475ac0c7649c7e0f77f503b
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: b30310f78dca919474baf6d5870294bfc05dcacf
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73878105"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761005"
 ---
-# <a name="set-geographic-filters-in-power-bi-desktop-for-the-mobile-apps"></a>Establecimiento del filtrado geográfico en Power BI Desktop para las aplicaciones móviles
+# <a name="set-geographic-filters-in-power-bi-desktop-for-use-in-the-mobile-app"></a>Establecimiento del filtrado geográfico en Power BI Desktop para su uso en las aplicaciones móviles
 En Power BI Desktop, puede [clasificar datos geográficos](desktop-data-categorization.md) para una columna, de modo que Power BI Desktop sepa cómo tratar los valores en objetos visuales en un informe. Como ventaja adicional, si usted o sus compañeros ven el informe en la aplicación móvil de Power BI, este proporciona automáticamente filtros geográficos que coinciden con su ubicación. 
 
 Por ejemplo, usted es un director de ventas que viaja para reunirse con clientes y quiere filtrar rápidamente el total de ventas e ingresos del cliente específico que va a visitar. Quiere dividir los datos para la ubicación actual, ya sea por estado, ciudad o una dirección real. Más adelante, si le queda tiempo, le gustaría visitar a otros clientes que se encuentren cerca. Puede [filtrar el informe por su ubicación para encontrar esos clientes](consumer/mobile/mobile-apps-geographic-filtering.md).

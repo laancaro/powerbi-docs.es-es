@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 07/19/2019
 ms.author: maggies
 LocalizationGroup: Samples
-ms.openlocfilehash: 90136f39d9f2a8e330748b56d6302bb75d2a31fe
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c1fbd57f1c92c9900178eb212a1369d25fdf838a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73873850"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75762172"
 ---
-#  <a name="connect-to-the-samples-in-the-power-bi-service"></a>Conexión a los ejemplos en el servicio Power BI
+#  <a name="import-and-open-sample-packs-for-power-bi"></a>Importación y apertura de paquetes de ejemplo para Power BI
 
 En este tutorial, se muestra cómo: 
 - Importar un paquete de contenido de ejemplo, agregarlo al servicio de Power BI y abrir el contenido. Un *paquete de contenido* es un tipo de ejemplo en el que el conjunto de datos está integrado en un panel y un informe. 

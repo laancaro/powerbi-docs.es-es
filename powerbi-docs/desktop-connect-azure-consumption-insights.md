@@ -1,5 +1,5 @@
 ---
-title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop
+title: Conexión a los datos de Azure Consumption Insights en Power BI Desktop
 description: Conéctese fácilmente a Azure y obtenga información detallada sobre el consumo y el uso con Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
@@ -10,14 +10,14 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 4125ff59f32de8453fe131685f0a05e1c45220c3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: c6987c5849fd2f971c1d7bdc7fe6130dcd09ce59
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "73876523"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761735"
 ---
-# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conexión a los datos de Azure Consumption Insights en Power BI Desktop
+# <a name="connect-to-azure-consumption-insights-data-in-power-bi-desktop"></a>Conexión a los datos de Azure Consumption Insights en Power BI Desktop
 
 Puede usar Power BI Desktop para conectarse a Azure y obtener datos detallados sobre el uso del servicio Azure en la organización. Con estos datos, puede crear medidas e informes personalizados para comprender y analizar mejor el gasto derivado del uso de Azure.
 
@@ -231,7 +231,7 @@ Las columnas y los nombres de los detalles en Azure Portal son similares en la A
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Se puede conectar a muchos orígenes de datos distintos mediante Power BI Desktop. Para obtener más información, consulte los artículos siguientes:
+Se puede conectar a muchos orígenes de datos distintos mediante Power BI Desktop. Para más información, consulte los siguientes artículos:
 
 * [Conexión a los datos de Azure Cost Management en Power BI Desktop](desktop-connect-azure-cost-management.md)
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)

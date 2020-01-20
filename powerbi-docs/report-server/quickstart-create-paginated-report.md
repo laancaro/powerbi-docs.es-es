@@ -6,16 +6,20 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/07/2020
 ms.author: maggies
-ms.openlocfilehash: b8dd79e4b256a80ba5159a1b3980e798bc611840
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 4c4228ea4276235a983849d2ea88e1030f4690f7
+ms.sourcegitcommit: b68a47b1854588a319a5a2d5d6a79bba2da3a4e6
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73875028"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "75732047"
 ---
 # <a name="create-a-paginated-report-for-power-bi-report-server"></a>Creación de un informe paginado para Power BI Report Server
+En este artículo va a crear un informe paginado para Power BI Report Server en unos pocos pasos sencillos.
+
+¿Busca ayuda con la creación de informes paginados en el Generador de informes del servicio Power BI? Vea [Generador de informes paginados de Power BI](../report-builder-power-bi.md).
+
 Como sugiere su nombre, los informes paginados pueden ejecutar muchas páginas. Están diseñados con un formato fijo y ofrecen una personalización precisa. Los informes paginados son archivos .rdl.
 
 Puede almacenar y administrar informes paginados en el portal web del servidor de informes de Power BI igual que haría en el portal web de SQL Server Reporting Services (SSRS). Puede crearlos y editarlos en el Generador de informes o el Diseñador de informes de SQL Server Data Tools (SSDT) y publicarlos en cualquier portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI en sus dispositivos móviles.
@@ -24,7 +28,7 @@ Puede almacenar y administrar informes paginados en el portal web del servidor d
 
 Si ya ha creado informes paginados en el Generador de informes o en el Diseñador de informes, estará listo para crear informes paginados para Power BI Report Server. Si este no es su caso, aquí tiene algunos pasos para ayudarle a comenzar.
 
-## <a name="step-1-install-and-start-report-builder"></a>Paso 1: Instalación e inicio del Generador de informes
+## <a name="step-1-start-report-builder"></a>Paso 1: Iniciar el Generador de informes
 Quizás ya haya instalado el Generador de informes para crear informes para un servidor SSRS. Puede usar la misma versión del Generador de informes para crear informes para el servidor de informes de Power BI. Si aún no lo ha instalado, el proceso es sencillo.
 
 1. En el portal web de Power BI Report Server, seleccione **Nuevo** > **Informe paginado**.

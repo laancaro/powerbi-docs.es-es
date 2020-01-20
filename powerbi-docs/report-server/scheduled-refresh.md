@@ -6,14 +6,14 @@ ms.reviewer: kayu
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 11/01/2017
+ms.date: 01/09/2020
 ms.author: maggies
-ms.openlocfilehash: 90f08abd119e7dfc0bf639eeb2ed8334fbdfa234
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 7052b0f045b98ce8e25822f76fe0b8391e298a47
+ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699024"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "75837613"
 ---
 # <a name="power-bi-report-scheduled-refresh-in-power-bi-report-server"></a>Solución de problemas de la actualización programada en Power BI Report Server
 La actualización programada de los informes de Power BI permite que los datos de un informe estén al día.
@@ -61,8 +61,10 @@ Para obtener información sobre cómo supervisar una instancia de Analysis Servi
 
 Para obtener información acerca de la configuración de memoria en Analysis Services, consulte [Propiedades de memoria](https://docs.microsoft.com/sql/analysis-services/server-properties/memory-properties).
 
+### <a name="data-model-size-limit"></a>Límite del tamaño del modelo de datos
+El modelo de datos cargado en el motor de Analysis Services interno durante una actualización programada tiene un tamaño máximo de 2000 MB (2 GB). No se puede configurar este tamaño máximo. Si el modelo de datos crece más de 2 GB, recibirá el error de actualización, "la longitud del resultado supera el límite (2 GB) del tipo large del destino". En ese caso, se recomienda hospedar el modelo en una instancia de Analysis Services y utilizar una conexión dinámica con el modelo en el informe.
+
 ## <a name="next-steps"></a>Pasos siguientes
 Configuración de la [actualización programada](configure-scheduled-refresh.md) en un informe de Power BI.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

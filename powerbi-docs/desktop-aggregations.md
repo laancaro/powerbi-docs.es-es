@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 05/07/2019
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 37cbea42d530f05df1d9f1003554680b80c5b5c3
-ms.sourcegitcommit: 212fb4a46af3e434a230331f18456c6a49a408fd
+ms.openlocfilehash: ba9c11004099b1e11d935cd0b178463e542bea9a
+ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/07/2019
-ms.locfileid: "74907965"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "75761804"
 ---
-# <a name="aggregations-in-power-bi-desktop"></a>Agregaciones en Power BI Desktop
+# <a name="manage-aggregations-in-power-bi-desktop"></a>Administración de agregaciones en Power BI Desktop
 
 El uso de **agregaciones** en Power BI permite el análisis interactivo sobre macrodatos de maneras que antes no eran posibles. Las **agregaciones** pueden reducir considerablemente el costo de desbloquear grandes conjuntos de datos para tomar decisiones.
 
@@ -52,7 +52,7 @@ Supongamos que las tablas de dimensiones siguientes son las más usadas para las
 * Cliente
 * Fecha
 * Subcategoría de producto
-* Categoría de producto
+* Product Category
 
 La siguiente imagen muestra este modelo.
 
@@ -115,7 +115,7 @@ En esta tabla se muestran las agregaciones para la tabla **Sales Agg**.
 La lista desplegable Resumen ofrece los siguientes valores para elegir.
 * Recuento
 * GroupBy
-* Máx.
+* Max
 * Mín.
 * Suma
 * Contar filas de tabla

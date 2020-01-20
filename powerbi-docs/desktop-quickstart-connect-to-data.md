@@ -1,24 +1,24 @@
 ---
-title: Inicio rápido sobre conexión a datos
-description: Conexión a un origen de datos en Power BI Desktop
+title: Inicio rápido sobre conexión a datos en Power BI Desktop
+description: Conexión a los orígenes de datos disponibles en Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: quickstart
-ms.date: 05/08/2019
+ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: quickstart
-ms.openlocfilehash: 1366a5281a36293a484f08c12ab9f8891e29123d
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5aed52ec232d3e603d69bfe93640187401279ff6
+ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73876208"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "75885240"
 ---
 # <a name="quickstart-connect-to-data-in-power-bi-desktop"></a>Inicio rápido: Conectarse a los datos en Power BI Desktop
 
-En este inicio rápido, se conecta a datos mediante **Power BI Desktop**, que es el primer paso para compilar modelos de datos y crear informes.
+En este inicio rápido, se conecta a datos mediante Power BI Desktop, que es el primer paso para compilar modelos de datos y crear informes.
 
 ![Power BI Desktop](media/desktop-what-is-desktop/what-is-desktop_01.png)
 
@@ -26,50 +26,52 @@ Si no está registrado en Power BI, [regístrese para obtener una evaluación gr
 
 ## <a name="prerequisites"></a>Requisitos previos
 
-Para completar los pasos descritos en este artículo, necesita lo siguiente:
-* Descargue e instale **Power BI Desktop**, que es una aplicación gratuita que se ejecuta en el equipo local. Puede [descargar **Power BI Desktop**](https://powerbi.microsoft.com/desktop) directamente,o bien puede obtenerlo [de **Microsoft Store**](https://aka.ms/pbidesktopstore).
+Para completar los pasos de este artículo, necesitará los siguientes recursos:
+
+* Descargar e instalar Power BI Desktop, que es una aplicación gratuita que se ejecuta en el equipo local. Puede [descargar Power BI Desktop](https://powerbi.microsoft.com/desktop) directamente,o bien puede obtenerlo en [Microsoft Store](https://aka.ms/pbidesktopstore).
 * [Descargue este libro de Excel de ejemplo](https://go.microsoft.com/fwlink/?LinkID=521962) y cree una carpeta denominada *C:\PBID-qs* donde puede almacenar el archivo de Excel. En los pasos posteriores de este inicio rápido se supone que esa es la ubicación del archivo para el libro de Excel descargado.
+* Para muchos conectores de datos de Power BI Desktop, se requiere Internet Explorer 10 (o posterior) para la autenticación.
 
 ## <a name="launch-power-bi-desktop"></a>Inicio de Power BI Desktop
 
-Una vez que instale **Power BI Desktop**, inicie la aplicación, para que se ejecute en el equipo local. Se le mostrará un tutorial de Power BI. Siga el tutorial o haga clic para descartarlo y empiece con un lienzo en blanco, que es donde crea los objetos visuales y los informes de los datos a los que se conecta. 
+Una vez que instale Power BI Desktop, inicie la aplicación, para que se ejecute en el equipo local. Se le mostrará un tutorial de Power BI. Siga el tutorial o cierre el cuadro de diálogo para empezar con un lienzo en blanco. En el lienzo se crean objetos visuales e informes a partir de los datos.
 
-![Power BI Desktop: lienzo en blanco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
+![Power BI Desktop con lienzo en blanco](media/desktop-quickstart-connect-to-data/qs-connect-data_01.png)
 
 ## <a name="connect-to-data"></a>Conectar a datos
 
-Con **Power BI Desktop** puede conectarse a muchos tipos de datos diferentes. Puede conectarse a orígenes de datos básicos, como un archivo de Microsoft Excel, y también puede conectarse a servicios en línea que contienen todo tipo de datos, como Salesforce, Microsoft Dynamics, Azure Blob Storage y muchos más.
+Con Power BI Desktop puede conectarse a muchos tipos de datos diferentes. Estos orígenes incluyen orígenes de datos básicos, como un archivo de Microsoft Excel. Puede conectarse a servicios en línea que contienen todo tipo de datos, como Salesforce, Microsoft Dynamics, Azure Blob Storage y muchos más.
 
 Para conectarse a datos, seleccione **Obtener datos** desde la cinta de opciones **Inicio**.
 
-![Obtener datos](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
+![Obtener datos en la cinta Inicio](media/desktop-quickstart-connect-to-data/qs-connect-data_02.png)
 
-Se abre la ventana **Obtener datos**, donde puede elegir entre muchos orígenes de datos diferentes a los que poder conectar **Power BI Desktop**. En este inicio rápido se usa el libro de Excel que ha descargado, como se describe en la sección *Requisitos previos* al principio de este artículo.
+Aparecerá la ventana **Obtener datos**. Puede elegir entre muchos orígenes de datos diferentes a los que poder conectar Power BI Desktop. En este inicio rápido, use el libro de Excel que descargó en [Requisitos previos](#prerequisites).
 
-![Obtener datos](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
+![Obtener datos de todos los orígenes](media/desktop-quickstart-connect-to-data/qs-connect-data_03.png)
 
-Como se trata de un archivo de Excel, se selecciona **Excel** en la ventana **Obtener datos** y luego se selecciona el botón **Conectar**.
+Como este origen de datos es un archivo de Excel, seleccione **Excel** en la ventana **Obtener datos** y luego elija el botón **Conectar**.
 
-Se le pedirá que proporcione la ubicación del archivo de Excel al que se desea conectar. El archivo descargado se llama *Financial Sample*, así que se selecciona dicho archivo y luego **Abrir**.
+Power BI le pedirá que proporcione la ubicación del archivo de Excel al que se quiere conectar. El archivo descargado se denomina *Ejemplo financiero*. Seleccione el archivo y luego elija **Abrir**.
 
-![Obtener datos](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
+![Obtención de datos en el ejemplo financiero](media/desktop-quickstart-connect-to-data/qs-connect-data_04.png)
 
-**Power BI Desktop** carga el libro, lee su contenido y muestra los datos disponibles en el archivo en la ventana **Navegador**, donde puede elegir qué datos desea cargar en Power BI Desktop. Seleccione las tablas; para ello, marque las casillas que están al lado de cada tabla que desea importar. En este caso, se podrán importar las dos tablas disponibles.
+Power BI Desktop carga el libro, lee su contenido y muestra los datos disponibles en el archivo en la ventana **Navegador**. En esa ventana, puede elegir qué datos quiere cargar en Power BI Desktop. Seleccione las tablas marcando las casillas situadas junto a cada tabla que quiere importar. Importe ambas tablas disponibles.
 
-![Obtener datos](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
+![Selección de datos en la ventana Navegador](media/desktop-quickstart-connect-to-data/qs-connect-data_05.png)
 
 Una vez realizadas las selecciones, haga clic en **Cargar** para importar los datos en Power BI Desktop.
 
 ## <a name="view-data-in-the-fields-pane"></a>Visualización de los datos en el panel Campos
 
-Una vez cargadas las tablas, se muestran los datos en el panel **Campos**. Seleccione el triángulo que está junto al nombre de cada tabla para expandirlas. En la siguiente imagen, se expande la tabla *financials*, que muestra cada uno de sus campos. 
+Una vez cargadas las tablas, se muestran los datos en el panel **Campos**. Seleccione la flecha que está junto al nombre de cada tabla para expandirlas. En la siguiente imagen, se expande la tabla *financials*, que muestra cada uno de sus campos.
 
 ![Obtener datos](media/desktop-quickstart-connect-to-data/qs-connect-data_06.png)
 
-Y ya está. Se ha conectado a los datos de **Power BI Desktop**, ha cargado esos datos y ahora puede ver todos los campos disponibles en las tablas.
+Y ya está. Se ha conectado a los datos de Power BI Desktop, ha cargado esos datos y ahora puede ver todos los campos disponibles en las tablas.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-Puede hacer muchísimas cosas con **Power BI Desktop** tras conectarlo a los datos, como crear objetos visuales e informes. Eche un vistazo a los siguientes recursos para ayudarlo a empezar:
+Puede hacer muchísimas cosas con Power BI Desktop tras conectarse a los datos. Puede crear objetos visuales e informes. Eche un vistazo a los siguientes recursos para ayudarlo a empezar:
 
-* [Guía de introducción de Power BI Desktop](desktop-getting-started.md)
+* [Introducción a Power BI Desktop](desktop-getting-started.md)
