@@ -172,7 +172,7 @@ La segunda opción es *Actualizar o eliminar las relaciones al actualizar los da
 > [!WARNING]
 > Si usa seguridad de nivel de fila que se basa en las relaciones definidas, no se recomienda seleccionar la segunda opción, *Actualizar o eliminar las relaciones al actualizar los datos*. Si se quita una relación de la que depende la configuración de RLS, el modelo puede resultar menos seguro. 
 
-La tercera opción es *Detectar automáticamente nuevas relaciones cuando se carguen los datos[, que se describe en la sección* Detección automática durante la carga](#autodetect-during-load), anteriormente en este artículo. 
+La tercera opción es *Detectar automáticamente nuevas relaciones cuando se carguen los datos*[, que se describe en la sección Detección automática durante la carga](#autodetect-during-load), anteriormente en este artículo. 
 
 
 ## <a name="future-updates-to-the-data-require-a-different-cardinality"></a>Las futuras actualizaciones de datos requieren una cardinalidad diferente
