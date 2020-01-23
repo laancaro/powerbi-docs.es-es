@@ -176,13 +176,13 @@
               href: mobile/mobile-share-dashboard-from-the-mobile-apps.md
             - name: Favoritos en las aplicaciones móviles
               href: mobile/mobile-apps-favorites.md
-            - name: Configuración de la interacción con los informes en las aplicaciones móviles (solo teléfonos)
-              href: mobile/mobile-app-single-tap.md
+            - name: Configuración de las opciones de interacción (solo teléfono)
+              href: mobile/mobile-app-interaction-settings.md
             - name: Establecer alertas de datos en las aplicaciones móviles de Power BI
               href: mobile/mobile-set-data-alerts-in-the-mobile-apps.md
             - name: Recibir notificaciones en las aplicaciones móviles de Power BI
               href: mobile/mobile-apps-notification-center.md
-            - name: Creación de un vínculo profundo que va a una ubicación concreta
+            - name: Creación de un vínculo profundo que va a una ubicación específica
               href: mobile/mobile-apps-deep-link-specific-location.md
             - name: Filtrar un informe por ubicación en las aplicaciones móviles de Power BI
               href: mobile/mobile-apps-geographic-filtering.md
