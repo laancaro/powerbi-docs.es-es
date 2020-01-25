@@ -961,16 +961,18 @@
       items:
         - name: Novedades
           href: report-server/whats-new.md
+        - name: Información general de administrador
+          href: report-server/admin-handbook-overview.md
         - name: Registro de cambios
           href: report-server/changelog.md
         - name: Escala de tiempo de soporte técnico
           href: report-server/support-timeline.md
+        - name: Compatibilidad con Always Encrypted
+          href: report-server/always-encrypted-support.md
         - name: Requisitos de hardware y software
           href: report-server/system-requirements.md
         - name: Compatibilidad del explorador
           href: report-server/browser-support.md
-        - name: Información general de administrador
-          href: report-server/admin-handbook-overview.md
         - name: Aspectos básicos sobre el servidor de informes
           items:
             - name: Actualización programada de informes de Power BI
