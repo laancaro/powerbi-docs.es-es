@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 11/27/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 749d8d5b62df87b0e6b29d524e90c694a0e38efe
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622437"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925667"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -124,6 +124,10 @@ Power BI audita las siguientes actividades para nuevas áreas de trabajo de exp
 | Acceso a la carpeta de Power BI actualizado| UpdateFolderAccess |
 
 Lea más sobre la [auditoría de Power BI](service-admin-auditing.md).
+
+## <a name="guest-users"></a>Usuarios invitados
+
+De forma predeterminada, los [usuarios invitados de Azure AD B2B](service-admin-azure-ad-b2b.md) no pueden tener acceso a las áreas de trabajo. El administrador de Power BI puede [permitir a los usuarios invitados externos editar y administrar el contenido de la organización](service-admin-azure-ad-b2b.md#guest-users-who-can-edit-and-manage-content). Los usuarios invitados habilitados pueden acceder a las áreas de trabajo para las que tienen permiso.
 
 ## <a name="limitations-and-considerations"></a>Limitaciones y consideraciones
 

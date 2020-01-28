@@ -1,6 +1,6 @@
 ---
 title: Planeamiento de un informe en el Generador de informes de Power BI
-description: El Generador de informes paginados de Power BI le permite crear muchos tipos de informes paginados. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero.
+description: Power BI Report Builder le permite crear muchos tipos de informes paginados. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero.
 ms.date: 07/25/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,16 +8,16 @@ ms.topic: conceptual
 ms.assetid: 79113505-1ce8-4f8c-9260-d861838f7813
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 33cdb53ab411e0d2f4686f7cc9a41bb3f0fe4cb6
-ms.sourcegitcommit: bc688fab9288ab68eaa9f54b9b59cacfdf47aa2e
+ms.openlocfilehash: 30ab632d11befd34ff9a234e441b345c696fb54d
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "68623876"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953807"
 ---
 # <a name="planning-a-report-in-power-bi-report-builder"></a>Planeamiento de un informe en el Generador de informes de Power BI
 
-El Generador de informes paginados de Power BI le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, tendencias de ventas y marketing, informes operativos o paneles. También puede crear informes que aprovechen las ventajas del texto con formato enriquecido, como pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean con combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero. Estas son algunas cosas que es posible que desee considerar antes de empezar:  
+Power BI Report Builder le permite crear muchos tipos de informes paginados. Por ejemplo, puede crear informes que muestren los datos de ventas detallados o resumidos, tendencias de ventas y marketing, informes operativos o paneles. También puede crear informes que aprovechen las ventajas del texto con formato enriquecido, como pedidos de ventas, catálogos de productos o circulares. Todos estos informes se crean con combinaciones diferentes de los mismos bloques de creación básicos en el Generador de informes. Para crear un informe útil y de fácil comprensión, resulta de ayuda planearlo primero. Estas son algunas cosas que es posible que desee considerar antes de empezar:  
   
 ## <a name="in-what-format-do-you-want-the-report-to-appear"></a>¿En qué formato desea que aparezca el informe?
   

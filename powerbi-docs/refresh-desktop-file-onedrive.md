@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Data refresh
-ms.openlocfilehash: ba911361ad2837a10f28358cbd1510effc1dd7eb
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: b2a05f3112a9272d5e41cff20729c445c7a0ae39
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837661"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76038545"
 ---
 # <a name="refresh-a-dataset-stored-on-onedrive-or-sharepoint-online"></a>Actualización de un conjunto de datos almacenado en OneDrive o SharePoint Online
 Importar archivos desde OneDrive o SharePoint Online en el servicio Power BI es una excelente manera de asegurarse de que el trabajo que está realizando en Power BI Desktop permanece sincronizado con el servicio Power BI.
@@ -37,7 +37,7 @@ Al actualizar el conjunto de datos, Power BI no se conecta al archivo en OneDri
 Power BI admite las opciones **Actualizar** y **Programar actualización** para los conjuntos de datos creados a partir de archivos de Power BI Desktop importados desde una unidad local donde usa **Obtener datos** o el **Editor de consultas** para conectarse a cualquiera de los siguientes orígenes de datos y cargar datos de ellos.
 
 > [!NOTE]
-> Se admiten los archivos importados en OneDrive, pero los conjuntos de valores conectados en vivo en OneDrive no se admiten como escenario de actualización de OneDrive.
+> Se admite la actualización de OneDrive para conjuntos de datos de conexión dinámica. Sin embargo, en el escenario de actualización de OneDrive no se admite el cambio del conjunto de datos de conexión dinámica, de un conjunto de datos a otro en un informe ya publicado.
 
 ### <a name="power-bi-gateway---personal"></a>Power BI Gateway - Personal
 * Todos los orígenes de datos en línea que se muestran en **Obtener datos** y en el **Editor de consultas** de Power BI Desktop.

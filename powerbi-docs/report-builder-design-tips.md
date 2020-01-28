@@ -1,6 +1,6 @@
 ---
 title: Sugerencias para el diseño de informes en el Generador de informes de Power BI
-description: Use las siguientes sugerencias para diseñar sus informes paginados en el Generador de informes paginados de Power BI.
+description: Use las siguientes sugerencias para diseñar sus informes paginados en el Generador de informes de Power BI.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: c1490ff0-5b8a-43c1-8d22-e459395db4f6
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d7e232d09eee2a4cfff17d4565443195e6f7f1aa
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 3b436156d6bd36fe5da7b9b4404227ca1a6de336
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840358"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160544"
 ---
 # <a name="report-design-tips-in-power-bi-report-builder"></a>Sugerencias para el diseño de informes en el Generador de informes de Power BI
-  Use las siguientes sugerencias para diseñar sus informes paginados en el Generador de informes paginados de Power BI.  
+  Use las siguientes sugerencias para diseñar sus informes paginados en el Generador de informes de Power BI.  
   
    
   
@@ -131,7 +131,7 @@ ms.locfileid: "66840358"
   
 -   Si va a guardar el informe como un archivo .pdf, el ancho del informe debe establecerse explícitamente en un valor que proporcione los resultados que desea incluir en el formato de archivo de exportación. Por ejemplo, establezca el ancho de página del informe exactamente en 20,16 cm y los márgenes izquierdos y derecho a 1,27 cm.  
   
--   Use **Diseño de impresión** y **Configurar página** en la barra de herramientas del visor de informes para mostrar una vista del informe con compatible con la impresión. Para ayudar a quitar páginas las horizontales no deseadas, haga lo siguiente:  
+-   Use **Diseño de impresión** y **Configurar página** en la barra de herramientas del visor de informes para mostrar una vista del informe con compatible con la impresión. Para ayudar a quitar páginas en blanco innecesarias, haga lo siguiente:  
   
     1.  Quite todos los espacios en blanco adicionales entre las regiones de datos y en los bordes del informe.  
   
@@ -140,8 +140,10 @@ ms.locfileid: "66840358"
     3.  Use **Rectángulos** como contenedores para ayudar a controlar la manera en que los elementos de informe se representan en cada página.  
   
     4.  En los encabezados de columna, cambie la propiedad del cuadro de texto WritingMode para que use texto vertical.  
-  
- La combinación de estas propiedades de comportamiento, el ancho y alto de los elementos de informe, el tamaño del cuerpo del informe, la definición del ancho y alto de página, la configuración de los márgenes del informe principal y la compatibilidad específica del representador con la paginación determinan qué elementos de informe pueden estar juntos en una página representada. 
+
+ Para obtener más instrucciones, consulte [Eliminación de páginas en blanco al imprimir informes paginados](guidance/report-paginated-blank-page.md).
+
+ La combinación de estas propiedades de comportamiento, el ancho y alto de los elementos de informe, el tamaño del cuerpo del informe, la definición del ancho y alto de página, la configuración de los márgenes del informe principal y la compatibilidad específica del representador con la paginación determinan qué elementos de informe pueden estar juntos en una página representada.
  
 ## <a name="next-steps"></a>Pasos siguientes
 

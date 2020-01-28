@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/31/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 80fc4f4afe29806077d1bf64a59d8761d7ab1c1d
-ms.sourcegitcommit: 08b73af260ded51daaa6749338cb85db2eab587f
+ms.openlocfilehash: 8737a0e9b2dd8ba17d28962ed51e24ec0c5cefc4
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "74099922"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040476"
 ---
 # <a name="visualization-types-in-power-bi"></a>Tipos de visualización en Power BI
 ## <a name="power-bi-visualizations"></a>Visualizaciones de Power BI
@@ -145,6 +145,13 @@ Para más información, vea [Objetos visuales de matriz en Power BI](desktop-mat
 
 >[!TIP]
 >Los gráficos circulares muestran la relación de las partes con un todo. 
+
+### <a name="power-apps-visual"></a>Objeto visual de Power Apps
+![Objeto visual de Power Apps](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-powerapps-visual.png)
+
+Los diseñadores de informes pueden crear una instancia de Power Apps e insertarla en un informe de Power BI como objeto visual. Los consumidores pueden interactuar con ese objeto visual en el informe de Power BI. 
+
+Para obtener más información, consulte [Agregar un objeto visual de Power Apps en su informe](power-bi-visualization-powerapp.md).
 
 ### <a name="qa-visual"></a>Objeto visual de Preguntas y respuestas
 ![Objetos visuales de Preguntas y respuestas](media/power-bi-visualization-types-for-reports-and-q-and-a/power-bi-q-and-a.png)

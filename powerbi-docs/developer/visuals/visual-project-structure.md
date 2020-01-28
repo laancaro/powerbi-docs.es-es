@@ -1,126 +1,179 @@
 ---
 title: Estructura de proyecto de objeto visual de Power BI
-description: En el artículo se describe una estructura de proyectos de objeto visual
-author: zBritva
-ms.author: v-ilgali
+description: En este artículo se describe la estructura de archivos y carpetas de un proyecto de objetos visuales de Power BI.
+author: KesemSharabi
+ms.author: kesharab
 ms.reviewer: ''
 ms.service: powerbi
-ms.topic: tutorial
+ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
-ms.date: 03/15/2019
-ms.openlocfilehash: 728aba749f80710fdc0bb1e180b3318e63caa88c
-ms.sourcegitcommit: 331ebf6bcb4a5cdbdc82e81a538144a00ec935d4
+ms.date: 01/12/2020
+ms.openlocfilehash: 16e7a317102602ffb4faf04da0ed2cae588a2a4d
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/28/2019
-ms.locfileid: "75542102"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925529"
 ---
 # <a name="power-bi-visual-project-structure"></a>Estructura de proyecto de objeto visual de Power BI
 
-Después de ejecutar el nuevo `<visual project name>` de pbiviz, la herramienta crea una estructura básica de archivos y carpetas en la carpeta `<visual project name>`.
+La mejor manera de empezar a crear un objeto visual de Power BI es usar la herramienta [pbiviz](https://www.npmjs.com/package/powerbi-visuals-tools) de objetos visuales de Power BI.
 
-## <a name="visual-project-structure"></a>Estructura de proyecto de objeto visual
+Para crear un objeto visual, vaya al directorio en el que quiere que resida el objeto visual de Power BI y ejecute el comando:
 
-![Estructura de proyecto de objeto visual](./media/visual-project-structure.png)
+`pbiviz new <visual project name>`
 
-* `.vscode`: contiene la configuración del proyecto para VS Code. Para configurar el área de trabajo, edite el archivo `.vscode/settings.json`. Obtenga más información [sobre la configuración de VS Code en la documentación](https://code.visualstudio.com/docs/getstarted/settings)
+Al ejecutar este comando se crea una carpeta de objetos visuales de Power BI que contiene los archivos siguientes:
 
-* La carpeta `assets` solo contiene el archivo `icon.png`. La herramienta usa este archivo como un icono del objeto visual en el panel Visualización de Power BI.
+```markdown
+project
+├───.vscode
+│   ├───launch.json
+│   └───settings.json
+├───assets
+│   └───icon.png
+├───node_modules
+├───src
+│   ├───settings.ts
+│   └───visual.ts
+├───style
+│   └───visual.less
+├───capabilities.json
+├───package-lock.json
+├───package.json
+├───pbiviz.json
+├───tsconfig.json
+└───tslint.json
+```
 
-    ![El panel Visualizaciones](./media/visualization-pane-analytics-tab.png)
+## <a name="folder-and-file-description"></a>Descripción de archivos y carpetas
 
-* La carpeta `node_modules` contiene todos los paquetes [instalados por el administrador de paquetes de Node](https://docs.npmjs.com/files/folders.html).
+En esta sección se proporciona información sobre cada carpeta y archivo del directorio que crea la herramienta **pbiciz** de objetos visuales de Power BI.  
 
-* La carpeta `src` contiene el código fuente del objeto visual. De forma predeterminada, la herramienta crea dos archivos:
+### <a name="vscode"></a>.vscode
 
-  * `visual.ts`: el código fuente principal del objeto visual.
+Esta carpeta contiene la configuración del proyecto de código de VS.
 
-  * `settings.ts`: el código de configuración para el objeto visual. Las clases del archivo simplifican el [trabajo con las propiedades del objeto visual](./objects-properties.md#properties).
+Para configurar el área de trabajo, edite el archivo `.vscode/settings.json`.
 
-* La carpeta `style` contiene el archivo `visual.less` con estilos para el objeto visual.
+Para más información, consulte [Configuración de usuarios y áreas de trabajo](https://code.visualstudio.com/docs/getstarted/settings).
 
-* El archivo `capabilities.json` contiene las propiedades principales y la configuración del objeto visual. Permite que el objeto visual declare características admitidas, objetos, propiedades y asignación de vistas de datos.
+### <a name="assets"></a>recursos
 
-    Obtenga más información [sobre las funciones en la documentación](./capabilities.md).
+Esta carpeta contiene el archivo `icon.png`.
 
-* `package-lock.json` se genera automáticamente para las operaciones en las que npm modifica el árbol `node_modules`, o bien `package.json`.
+La herramienta de objetos visuales de Power BI usa este archivo como el nuevo icono de objetos visuales de Power BI en el panel de visualización de Power BI.
 
-    Obtenga más información [sobre `package-lock.json` en la documentación oficial de NPM](https://docs.npmjs.com/files/package-lock.json).
+<!--- ![Visualization pane](./media/visualization-pane-analytics-tab.png) --->
 
-* `package.json` describe el paquete del proyecto. Normalmente contiene información sobre el proyecto, sus autores, la descripción y las dependencias del proyecto.
+### <a name="src"></a>src
 
-    Obtenga más información [sobre `package.json` en la documentación oficial de NPM](https://docs.npmjs.com/files/package.json.html).
+Esta carpeta contiene el código fuente del objeto visual.
 
-* `pbiviz.json` contiene los metadatos del objeto visual. En este archivo se especifican los metadatos del objeto visual.
+En esta carpeta, la herramienta de objetos visuales de Power BI crea los siguientes archivos:
+* `visual.ts`: el código fuente principal del objeto visual.
+* `settings.ts`: el código de la configuración del objeto visual. Las clases del archivo proporcionan una interfaz para definir las [propiedades del objeto visual](./objects-properties.md#properties).
 
-    Contenido típico del archivo:
+### <a name="style"></a>estilo
 
-  ```json
-    {
-        "visual": {
-            "name": "<visual project name>",
-            "displayName": "<visual project name>",
-            "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
-            "visualClassName": "Visual",
-            "version": "1.0.0",
-            "description": "",
-            "supportUrl": "",
-            "gitHubUrl": ""
-        },
-        "apiVersion": "2.6.0",
-        "author": { "name": "", "email": "" },
-        "assets": { "icon": "assets/icon.png" },
-        "externalJS": null,
-        "style": "style/visual.less",
-        "capabilities": "capabilities.json",
-        "dependencies": null,
-        "stringResources": []
-    }
-  ```
+Esta carpeta contiene el archivo `visual.less`, que incluye los estilos del objeto visual.
 
-    , donde
+### <a name="capabilitiesjson"></a>capabilities.json
 
-  * `name`: el nombre interno del objeto visual.
+Este archivo contiene las propiedades y la configuración principales (o [funcionalidades](./capabilities.md)) del objeto visual. Permite que el objeto visual declare características, objetos, propiedades y [asignaciones de vistas de datos](./dataview-mappings.md) admitidos.
 
-  * `displayName`: el nombre del objeto visual en la interfaz de usuario de Power BI.
+### <a name="package-lockjson"></a>package-lock.json
 
-  * `guid`: identificador único del objeto visual.
+Este archivo se genera automáticamente para las operaciones donde *npm* modifica el árbol `node_modules` o el archivo `package.json`.
 
-  * `visualClassName`: el nombre de la clase principal para el objeto visual. Power BI crea la instancia de esta clase para empezar a usar el objeto visual en informes de Power BI.
+Para más información sobre este archivo, consulte la documentación oficial de [npm-package-lock.json](https://docs.npmjs.com/files/package-lock.json).
 
-  * `version`: el número de versión del objeto visual.
+### <a name="packagejson"></a>package.json
 
-  * `author`: contiene el nombre del autor y el correo electrónico de contacto.
+Este archivo describe el paquete del proyecto. Contiene información sobre el proyecto, como los autores, la descripción y las dependencias del proyecto.
 
-  * `icon` en `assets`: ruta de acceso al archivo de icono para el objeto visual.
+Para más información sobre este archivo, consulte la documentación oficial de [npm-package.json](https://docs.npmjs.com/files/package.json.html).
 
-  * `externalJS` contiene las rutas de acceso de las bibliotecas de JS que se usan en el objeto visual.
+### <a name="pbivizjson"></a>pbiviz.json
 
-    > [!IMPORTANT]
-    > En la versión más reciente de la herramienta 3.x.x o superior ya no se usa `externalJS`.
+Este archivo contiene los metadatos del objeto visual.
 
-  * `style` es la ruta de acceso a los archivos de estilo.
+Para ver un archivo `pbiviz.json` de ejemplo con comentarios que describen las entradas de metadatos, consulte la sección de [entradas de metadatos](#metadata-entries).
 
-  * `capabilities` es la ruta de acceso al archivo `capabilities.json`.
+### <a name="tsconfigjson"></a>tsconfig.json
 
-  * `dependencies` es la ruta de acceso al archivo `dependencies.json`. `dependencies.json` contiene información sobre los paquetes de R que se usan en los objetos visuales basados en R.
+Un archivo de configuración para [TypeScript](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html).
 
-  * `stringResources` es una matriz de rutas de acceso a archivos con localizaciones.
+Este archivo debe contener la ruta de acceso al archivo **\*.ts** donde está ubicada la clase principal del objeto visual, como se especifica en la propiedad `visualClassName` del archivo `pbiviz.json`.
 
-  Obtenga más información [sobre la localización en objetos visuales en la documentación](./localization.md)
+### <a name="tslintjson"></a>tslint.json
 
-* `tsconfig.json` es un archivo de configuración para TypeScript.
+El archivo contiene la [configuración de TSLint](https://palantir.github.io/tslint/usage/configuration/).
 
-    Obtenga más información [sobre la configuración de TypeScript en la documentación oficial](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html)
+## <a name="metadata-entries"></a>Entradas de metadatos
 
-    `tsconfig.json` en la sección `files` debe contener la ruta de acceso al archivo *.ts donde se encuentra la clase principal del objeto visual especificado en la propiedad `visualClassName` del archivo `pbiviz.json`.
+En los comentarios del siguiente título de código del archivo `pbiviz.json` se describen las entradas de metadatos.
 
-* El archivo `tslint.json` contiene la configuración de TSLint.
+> [!NOTE]
+> * A partir de la versión 3.x.x de la herramienta **pbiciz**, no se admite `externalJS`.
+> * Para permitir la localización, [agregue la configuración regional de Power BI al objeto visual](./localization.md).
 
-    Obtenga más información [sobre la configuración de TSLint en la documentación oficial](https://palantir.github.io/tslint/usage/configuration/)
+```json
+{
+  "visual": {
+     // The visual's internal name.
+    "name": "<visual project name>",
+
+    // The visual's display name.
+    "displayName": "<visual project name>",
+
+    // The visual's unique ID.
+    "guid": "<visual project name>23D8B823CF134D3AA7CC0A5D63B20B7F",
+
+    // The name of the visual's main class. Power BI creates the instance of this class to start using the visual in a Power BI report.
+    "visualClassName": "Visual",
+
+    // The visual's version number.
+    "version": "1.0.0",
+    
+    // The visual's description (optional)
+    "description": "",
+
+    // A URL linking to the visual's support page (optional).
+    "supportUrl": "",
+
+    // A link to the source code available from GitHub (optional).
+    "gitHubUrl": ""
+  },
+  // The version of the Power BI API the visual is using.
+  "apiVersion": "2.6.0",
+
+  // The name of the visual's author and email.
+  "author": { "name": "", "email": "" },
+
+  // 'icon' holds the path to the icon file in the assets folder; the visual's display icon.
+  "assets": { "icon": "assets/icon.png" },
+
+  // Contains the paths for JS libraries used in the visual.
+  // Note: externalJS' isn't used in the Power BI visuals tool version 3.x.x or higher.
+  "externalJS": null,
+
+  // The path to the 'visual.less' style file.
+  "style": "style/visual.less",
+
+  // The path to the `capabilities.json` file.
+  "capabilities": "capabilities.json",
+
+  // The path to the `dependencies.json` file which contains information about R packages used in R based visuals.
+  "dependencies": null,
+
+  // An array of paths to files with localizations.
+  "stringResources": []
+}
+```
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* Obtenga más información [sobre el concepto de objeto visual](./power-bi-visuals-concept.md) para comprender mejor la interacción entre el objeto visual, el usuario y Power BI.
+* Para comprender las interacciones entre objeto visual, un usuario y Power BI, consulte [Concepto sobre los objetos visuales de Power BI](./power-bi-visuals-concept.md).
 
-* Comience a desarrollar objetos visuales de Power BI propios desde cero [con la guía paso a paso](./custom-visual-develop-tutorial.md).
+* Comience a desarrollar sus propios objetos visuales de Power BI desde cero mediante la [guía paso a paso](./custom-visual-develop-tutorial.md).

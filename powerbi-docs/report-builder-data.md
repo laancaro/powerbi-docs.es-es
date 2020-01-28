@@ -1,6 +1,6 @@
 ---
 title: Datos del informe en el Generador de informes de Power BI
-description: El primer paso para diseñar un informe en el Generador de informes paginados de Power BI consiste en crear los orígenes de datos y los conjuntos de datos que representan los datos del informe subyacente.
+description: El primer paso para diseñar un informe en Power BI Report Builder consiste en crear orígenes de datos y conjuntos de datos que representan los datos del informe subyacentes.
 author: maggiesMSFT
 ms.author: maggies
 ms.reviewer: ''
@@ -9,12 +9,12 @@ ms.subservice: report-builder
 ms.topic: conceptual
 ms.custom: seodec18
 ms.date: 06/06/2019
-ms.openlocfilehash: cbcb710a806c400ea33ac4d605614b5325277d07
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 602c6a00f773147072b97ecf8c11588bc981eb05
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860433"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75954010"
 ---
 # <a name="report-data-in-power-bi-report-builder"></a>Datos del informe en el Generador de informes de Power BI
 

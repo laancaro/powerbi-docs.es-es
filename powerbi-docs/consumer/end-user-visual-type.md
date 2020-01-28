@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 08/21/2019
+ms.date: 01/15/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: 1670d3af200c8da672ac7034e4e15f6f460147a7
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 6fd970064bbe686a433fba0c0675948576edd8c1
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73861324"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039097"
 ---
 # <a name="visual-types-in-power-bi"></a>Tipos de objetos visuales en Power BI
 Encontrará objetos visuales en informes, paneles y preguntas y respuestas. Algunos de estos tipos de objetos visuales se empaquetan con Power BI y otros son *objetos visuales personalizados*. Los objetos visuales personalizados se crean fuera de Power BI y de una manera que permite a los *diseñadores* de informes agregarlos a paneles e informes de Power BI. 
@@ -139,6 +139,19 @@ El objeto visual de matriz es un tipo de objeto visual de tabla (vea "Tabla" má
 ![gráfico circular](media/end-user-visual-type/pbi-nancy-viz-pie.png)
 
 Los gráficos circulares muestran la relación de las partes con un todo. 
+
+### <a name="power-apps-visual"></a>Objeto visual de Power Apps
+![Objeto visual de Power Apps](media/end-user-visual-type/power-bi-powerapps-visual.png)
+
+Los diseñadores de informes pueden crear una instancia de Power Apps e insertarla en un informe de Power BI. Los consumidores pueden interactuar con ese objeto visual en el informe de Power BI. 
+
+### <a name="qa-visual"></a>Objeto visual de Preguntas y respuestas
+![Objetos visuales de Preguntas y respuestas](media/end-user-visual-type/power-bi-q-and-a.png)
+
+>[!TIP]
+>De forma similar a como funciona [Preguntas y respuestas en los paneles](../power-bi-tutorial-q-and-a.md), el objeto visual Preguntas y respuestas le permite formular preguntas acerca de sus datos mediante un lenguaje natural. 
+
+Para más información, consulte el artículo en el que se explican los [objetos visuales de Preguntas y respuestas en Power BI](../visuals/power-bi-visualization-types-for-reports-and-q-and-a.md).
 
 ### <a name="ribbon-chart"></a>Gráfico de la barra de herramientas
 ![gráfico de la barra de herramientas](media/end-user-visual-type/power-bi-ribbon.png)

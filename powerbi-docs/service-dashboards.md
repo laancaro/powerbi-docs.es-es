@@ -1,7 +1,7 @@
 ---
 title: Introducción a los paneles para los diseñadores de Power BI
 description: Los paneles son una característica clave del servicio Power BI. Incluyen una única página, que se suele denominar lienzo, que cuenta una historia mediante visualizaciones.
-author: maggieMSFT
+author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 09/19/2019
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 41381a2f0ccc2c5db904d9ac94c7dad19edfa4e5
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: eb2c513e8ee8ad1c8ad93866f688e40f6c5af56d
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872736"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160797"
 ---
 # <a name="introduction-to-dashboards-for-power-bi-designers"></a>Introducción a los paneles para los diseñadores de Power BI
 
@@ -38,7 +38,7 @@ Los paneles son una magnífica manera de supervisar su empresa y ver las métric
 Un panel no es simplemente una foto bonita. Es muy interactivo y los iconos se actualizan según cambian los datos subyacentes.
 
 ## <a name="who-can-create-a-dashboard"></a>¿Quién puede crear un panel?
-La capacidad de crear un panel se considera una característica de *creador* y requiere permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en areaDeTrabajoABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](service-create-distribute-apps.md), está *consumiendo* el informe. Es posible que no pueda anclar iconos a un panel. 
+La capacidad de crear un panel se considera una característica de *creador* y requiere permisos de edición para el informe. Los permisos de edición están disponibles para los creadores de informes y para aquellos compañeros a los que el creador conceda acceso. Por ejemplo, si David crea un informe en el área de trabajo ABC y luego le agrega como miembro de esa área de trabajo, tanto David como usted tendrán permisos de edición. Por otro lado, si se ha compartido un informe con usted directamente o como parte de una [aplicación de Power BI](service-create-distribute-apps.md), está *consumiendo* el informe. Es posible que no pueda anclar iconos a un panel. 
 
 > [!IMPORTANT]
 > Necesita una licencia de [Power BI Pro](service-free-vs-pro.md) para crear paneles en áreas de trabajo. Puede crear paneles en su propia área de trabajo sin una licencia de Power BI Pro.

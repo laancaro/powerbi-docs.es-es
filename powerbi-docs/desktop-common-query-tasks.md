@@ -1,23 +1,24 @@
 ---
-title: Tareas de consultas comunes en Power BI Desktop
-description: Tareas de consultas comunes en Power BI Desktop
+title: Realización de tareas de consultas comunes en Power BI Desktop
+description: Realización de tareas de consultas comunes en Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/07/2019
+ms.date: 01/09/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: 116575898812e82f2f15126d0fee640902367ace
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 8921737fac842d040d014244e2ce80e9bc158b23
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761758"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040109"
 ---
 # <a name="perform-common-query-tasks-in-power-bi-desktop"></a>Realización de tareas de consultas comunes en Power BI Desktop
-Cuando se trabaja en la ventana **Editor de consultas** de Power BI Desktop, hay una serie de tareas de uso frecuente. En este documento se muestran las tareas comunes y vínculos para obtener información adicional. 
+
+En la ventana Editor de Power Query de Power BI Desktop, hay una serie de tareas de uso frecuente. En este artículo se muestran las tareas comunes y vínculos para obtener información adicional.
 
 Las tareas comunes de consultas que aquí se explican son las siguientes:
 
@@ -30,196 +31,135 @@ Las tareas comunes de consultas que aquí se explican son las siguientes:
 
 Usaremos algunas conexiones de datos para completar estas tareas. Los datos están disponibles para descargar o conectarse, en caso de que desee realizar paso a paso las tareas.
 
-La primera conexión de datos es un libro de Excel, que puede descargar desde [este vínculo](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx). El otro es un recurso web (que también se utiliza en otro contenido de ayuda de Power BI Desktop) al que se puede tener acceso desde aquí:
+La primera conexión de datos es [un libro de Excel](https://download.microsoft.com/download/5/7/0/5701F78F-C3C2-450C-BCCE-AAB60C31051D/PBI_Edu_ELSi_Enrollment_v2.xlsx), que puede descargar y guardar localmente. La otra es un recurso web que se usa también en otros artículos de Power BI Desktop:
 
-[*https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx*](https://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx)
+<https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/>
 
 Las tareas comunes de la consulta comienzan por los pasos necesarios para conectarse a ambos orígenes de datos.
 
 ## <a name="connect-to-data"></a>Conectar a datos
-Para conectarse a datos en Power BI Desktop, seleccione el botón **Obtener datos** desde la pestaña **Inicio** de la cinta de opciones. Power BI Desktop presenta un menú con los orígenes de datos más comunes. Para obtener una lista completa de los orígenes de datos a los que Power BI Desktop se puede conectar, seleccione el botón **Más...** situado en la parte inferior del menú. Para más información, consulte [Orígenes de datos en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-data-sources).
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
+Para conectarse a los datos de Power BI Desktop, seleccione **Inicio** y, a continuación, **Obtener datos**. Power BI Desktop presenta un menú con los orígenes de datos más comunes. Para obtener una lista completa de los orígenes de datos a los que Power BI Desktop se puede conectar, seleccione **Más** situado al final del menú. Para más información, consulte [Orígenes de datos en Power BI Desktop](desktop-data-sources.md).
 
-Para empezar, seleccione **Excel** y navegue hasta el libro. A continuación, selecciónelo. La consulta inspecciona el libro y, a continuación, muestra los datos encontrados en la ventana **Navegador**.
+![Menú Orígenes de datos más comunes, botón Obtener datos, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata.png)
 
-![](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
+Para comenzar, seleccione **Excel**, especifique el libro de Excel mencionado anteriormente y, a continuación, seleccione **Abrir**. La consulta inspecciona el libro y, a continuación, muestra los datos encontrados en el cuadro de diálogo **Navegador** tras seleccionar una tabla.
 
-Puede seleccionar **Editar** para ajustar o *dar forma* a los datos antes de cargarlos en Power BI Desktop. Editar una consulta antes de cargarla es especialmente útil cuando se trabaja con grandes conjuntos de datos que se desea reducir antes de la carga. Queremos hacer eso, así que seleccionaremos **Editar**.
+![Origen de datos de Excel, cuadro de diálogo Navegador, Obtener datos, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_navigator.png)
 
-Conectarse a distintos tipos de datos es igual de fácil. También queremos conectarnos a un recurso web. Seleccione **Obtener datos \> Más...** y, luego, seleccione **Otros \> Web**.
+Puede seleccionar **Transformar datos** para editar, ajustar o *dar forma* a los datos antes de cargarlos en Power BI Desktop. La edición es especialmente útil si trabaja con conjuntos de datos grandes que desea reducir antes de cargar.
 
-![](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
+Conectarse a distintos tipos de datos es igual de fácil. También quiere conectarse a un recurso web. Elija **Obtener datos** > **Más** y, a continuación, seleccione **Otros** > **Web** > **Conectar**.
 
-Aparece la ventana **Desde web** , donde podrá escribir la dirección URL de la página web.
+![Origen de datos web, cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_getdata_other.png)
 
-![](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+Aparece la ventana **Desde web**, donde puede escribir la dirección URL de la página web.
 
-Seleccione **Aceptar**y, igual que antes, Power BI Desktop inspeccionará el libro y mostrará los datos encontrados en la ventana **Navegador** .
+![Cuadro de diálogo Desde web, origen de datos web, Obtener datos, Power BI Desktop](media/desktop-common-query-tasks/datasources_fromwebbox.png)
+
+Seleccione **Aceptar**. Al igual que antes, Power BI inspecciona los datos de la página web y muestra opciones de vista previa en el cuadro de diálogo **Navegador**. Al seleccionar una tabla, muestra una vista previa de los datos.
 
 Las demás conexiones de datos son similares. Si se requiere autenticación para realizar una conexión de datos, Power BI Desktop solicitará las credenciales correspondientes.
 
-Para una demostración paso a paso de la conexión a datos en Power BI Desktop, consulte [Conectarse a los datos en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-connect-to-data).
+Para una demostración paso a paso de la conexión a datos en Power BI Desktop, consulte [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md).
 
 ## <a name="shape-and-combine-data"></a>Dar forma a los datos y combinarlos
-Puede fácilmente combinar y dar forma a los datos con el Editor de consultas. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración completa de cómo combinar y dar forma a los datos, consulte **[Combinar datos y darles forma en Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data)** .
 
-En la sección anterior se han conectado dos conjuntos de datos, un libro de Excel y un recurso web. Una vez cargados en el Editor de consultas, se mostrará lo siguiente junto con la consulta desde la página web seleccionada (tomada de las consultas disponibles que aparecen en el panel **Consultas** situado a la izquierda de la ventana Editor de consultas).
+Puede fácilmente combinar y dar forma a los datos con el Editor de Power Query. Esta sección incluye algunos ejemplos de cómo puede dar forma a los datos. Para una demostración más completa de cómo combinar y dar forma a los datos, consulte [Combinar datos y darles forma en Power BI Desktop](desktop-shape-and-combine-data.md).
 
-![](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
+En la sección anterior se conectó a dos conjuntos de datos: un libro de Excel y un recurso web. Una vez que se carguen los datos en el Editor de Power Query, seleccione la consulta de la página web entre las consultas disponibles en el panel **Consultas**, tal como se muestra aquí:
 
-Dar forma a datos significa transformar un origen de datos a la forma y formato que se ajuste a sus necesidades. En este caso, no es necesaria esta primera columna, titulada *Encabezado*, por lo que la eliminaremos.
+![Panel Consultas, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_querypaneloaded.png)
 
-En el **Editor de consultas**, muchos comandos pueden encontrarse en la cinta de opciones y en los menús contextuales. Por ejemplo, cuando hace clic con el botón secundario en la columna *Encabezado*, el menú que aparece le permite quitar la columna. También podría seleccionar la columna y, a continuación, seleccionar el botón **Quitar columnas** de la cinta de opciones.
+Dar forma a datos significa transformar un origen de datos a la forma y formato que se ajuste a sus necesidades.
 
-![](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+En el Editor de Power Query, muchos comandos pueden encontrarse en la cinta de opciones y en los menús contextuales. Por ejemplo, cuando hace clic con el botón derecho en una columna, el menú contextual le permite quitar la columna. También puede seleccionar una columna y, a continuación, seleccionar el botón **Quitar columnas** de la pestaña **Inicio** de la cinta de opciones.
 
-Existen muchas otras maneras de dar forma a los datos en esta consulta. Se podría quitar cualquier número de filas de la parte superior o inferior; agregar columnas; dividir columnas; reemplazar valores, y realizar otras tareas de forma para dirigir el Editor de consultas de modo que se obtengan los datos tal como se desean.
+![Comando Quitar columnas, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_removecolumns.png)
+
+Puede dar forma a los datos de muchas otras formas en esta consulta. Puede quitar cualquier número de filas de la parte superior o inferior. O bien, puede agregar columnas, dividir columnas, reemplazar valores y realizar otras tareas de modelado. Con estas características, puede dirigir el Editor de Power Query para obtener los datos de la forma que desee.
 
 ## <a name="group-rows"></a>Agrupar filas
-En el Editor de consultas, los valores de varias filas se pueden agrupar en un único valor. Esto puede ser útil cuando se quiere resumir el número de productos ofrecidos, las ventas totales o el número de alumnos.
 
-En este ejemplo, se agruparon las filas en un conjunto de datos de inscripción a recursos educativos. Los datos se extrajeron de un libro de Excel y se les dio forma en el Editor de consultas para obtener solamente las columnas requeridas, se cambia el nombre de la tabla y se realizan algunas otras transformaciones.
+En el Editor de Power Query, puede agrupar los valores de muchas filas en un único valor. Esta característica puede ser útil cuando se quiere resumir el número de productos ofrecidos, las ventas totales o el número de alumnos.
 
-Averigüemos cuántas instituciones (esto incluye distritos escolares y otras instituciones educativas, como distritos de servicios regionales, etc.) tiene cada estado. Seleccionamos la columna *State Abbr*. A continuación, seleccionamos el botón **Agrupar por** de la ficha **Transformar** o la ficha **Inicio** de la cinta (**Agrupar por** está disponible en ambas fichas).
+En este ejemplo, se agruparon filas en un conjunto de datos de inscripción a recursos educativos. Los datos pertenecen al libro de Excel. Se ha dado forma en el Editor de Power Query para obtener solo las columnas que necesita, quitar la tabla y realizar algunas otras transformaciones.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
+Descubramos cuántas instituciones tiene cada estado (las instituciones pueden incluir distritos escolares, otras instituciones educativas como distritos de servicios regionales, etc.). Seleccione la columna **Agency ID - NCES Assigned \[District\] Latest available year**. A continuación, seleccione el botón **Agrupar por** de la pestaña **Transformar** o la pestaña **Inicio** de la cinta de opciones (**Agrupar por** está disponible en ambas pestañas).
 
-Aparece la ventana **Agrupar por…** . Cuando el editor de consultas agrupa filas, se crea una nueva columna donde se colocan los resultados de la acción **Agrupar por**. Puede ajustar la operación **Agrupar por** de las siguientes maneras:
+![Cuadro de diálogo Agrupar por, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupby.png)
 
-1. *Agrupar por* : esta es la columna que se desea agrupar; el Editor de consultas elige la columna seleccionada, pero la selección se puede cambiar en esta ventana a cualquier columna de la tabla.
-2. *Nuevo nombre de columna* : el Editor de consultas sugiere un nombre para la nueva columna, en función de la operación se aplica a la columna que se agrupa, pero puede dar el nombre que desee a la nueva columna.
-3. *Operación* : aquí se especifica la operación que aplica el Editor de consultas.
-4. *Agregar agrupación* y *Agregar agregación*: estas opciones aparecen después de seleccionar la opción **Avanzadas**. Puede realizar operaciones de agregación (acciones de **Agrupar por**) en varias columnas y realizar varias agregaciones, todo dentro de la ventana **Agrupar por** y en una sola operación. El Editor de consultas crea una nueva columna (según las selecciones realizadas en esta ventana) que opera en varias columnas. 
+Aparece el cuadro de diálogo **Agrupar por**. Cuando el Editor de Power Query agrupa filas, se crea una nueva columna donde se colocan los resultados de la acción **Agrupar por**. Puede ajustar la operación **Agrupar por** de las siguientes maneras:
 
-Seleccione el botón **Agregar agrupación** o **Agregar agregación** para agregar más agrupaciones o agregaciones a una operación **Agrupar por**. Puede quitar una agrupación o agregación si selecciona el icono **...** y selecciona **Eliminar**, así es que haga la prueba y vea cómo funciona.
-   
-   ![](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
+1. La lista desplegable sin etiquetar especifica la columna que se va a agrupar. El Editor de Power Query aplica de forma predeterminada este valor a la columna seleccionada, pero puede cambiarlo para que sea cualquier columna de la tabla.
+2. **Nuevo nombre de columna**: El Editor de Power Query sugiere un nombre para la nueva columna, en función de la operación que aplica a la columna que se agrupa. Puede dar el nombre que desee a la nueva columna, sin embargo.
+3. **Operation**: puede elegir la operación que aplica el Editor de Power Query, como **Suma**, **Mediana** o **Contar filas distintas**. El valor predeterminado es **Contar filas**.
+4. **Agregar agrupación** y **Agregar agregación**: estos botones están disponibles solo si selecciona la opción **Opciones avanzadas**. En una sola operación, puede realizar operaciones de agrupación (acciones **Agrupar por**) en muchas columnas y crear varias agregaciones mediante estos botones. Según las selecciones realizadas en este cuadro de diálogo, el Editor de Power Query crea una nueva columna que opera en varias columnas.
 
-Cuando se selecciona **Aceptar**, la consulta realiza la operación **Agrupar por** y devuelve los resultados. Vaya, ahí están: Ohio, Texas, Illinois y California ahora tienen cada uno más de mil instituciones.
+Seleccione **Agregar agrupación** o **Agregar agregación** para agregar más agrupaciones o agregaciones a una operación **Agrupar por**. Para quitar una agrupación o agregación, seleccione el icono de puntos suspensivos ( **...** ) a la derecha de la fila y, a continuación, **Eliminar**. No se detenga y pruebe la operación **Agrupar por** mediante los valores predeterminados para ver qué ocurre.
 
-![](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+![Cuadro de diálogo Agrupar por, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupbynumbered.png)
 
-Además, con el Editor de consultas siempre se puede quitar la última operación de cambio de forma seleccionando la **X** situada junto al último paso aplicado. No se detenga, experimente. Repita el paso si no le complacen los resultados, hasta que el Editor de consultas forme los datos tal como lo requiere.
+Cuando se selecciona **Aceptar**, la consulta realiza la operación **Agrupar por** y devuelve los resultados. Vaya, ahí están: Ohio, Texas, Illinois, Texas y California ahora tienen cada uno más de mil instituciones.
+
+![Columna de recuento, operación Agrupar por, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_groupedresult.png)
+
+Además, con el Editor de Power Query, siempre puede quitar la última operación de modelado. En el panel **Configuración de la consulta**, en **Pasos aplicados**, solo tiene que seleccionar **X** junto al paso completado recientemente. No se detenga, experimente. Si no le complacen los resultados, repita el paso hasta que el Editor de Power Query forme los datos tal como lo requiere.
 
 ## <a name="pivot-columns"></a>Dinamizar columnas
-Con Power BI Desktop, puede dinamizar columnas y crear una tabla con valores agregados para cada valor único en una columna. Por ejemplo, si necesita saber cuántos productos diferentes tiene de cada categoría, puede crear rápidamente una tabla que muestre exactamente eso.
 
-Veamos un ejemplo. La siguiente tabla **Productos** se ha formado para mostrar únicamente productos únicos (por nombre) y la categoría a la que pertenece cada producto. Para crear una nueva tabla que muestre el número de productos de cada categoría (según la columna *Nombre de categoría* ), seleccione la columna y después seleccione **Dinamizar columna** desde la pestaña **Transformar** en la cinta de opciones.
+Puede dinamizar columnas y crear una tabla con valores agregados para cada valor único en una columna. Por ejemplo, para saber cuántos productos diferentes hay en cada categoría, puede crear rápidamente una tabla que muestre eso.
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
+Veamos un ejemplo. La siguiente tabla **Products_by_Categories** se ha formado para mostrar únicamente productos únicos (por nombre) y la categoría a la que pertenece cada producto. Para crear una nueva tabla que muestre el número de productos de cada categoría (según la columna **CategoryName**), seleccione la columna y después seleccione **Transformar** > **Dinamizar columna**.
 
-Aparecerá la ventana **Columna dinámica**, que le permite saber qué valores de columna se utilizarán para crear nuevas columnas (1) y, al expandir **Opciones avanzadas** (2), puede seleccionar la función que se aplicará a los valores agregados (3).
+![Comando Dinamizar columna, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotbutton.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
+Aparece el cuadro de diálogo **Dinamizar columna**, que le permite saber qué valores de la columna se usarán para crear nuevas columnas (1) (si no se muestra el nombre de la columna deseada de **CategoryName**, selecciónelo en la lista desplegable). Al expandir **Opciones avanzadas** (2), puede seleccionar la función que se aplicará a los valores agregados (3).
 
-Al seleccionar **Aceptar**, la consulta muestra la tabla según las instrucciones de transformación proporcionadas en la ventana **Columna dinámica** .
+![Cuadro de diálogo Dinamizar columna, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotdialog.png)
 
-![](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
+Al seleccionar **Aceptar**, la consulta muestra la tabla según las instrucciones de transformación proporcionadas en el cuadro de diálogo **Dinamizar columna**.
+
+![Resultado Dinamizar columna, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/pivotcolumns_pivotcomplete.png)
 
 ## <a name="create-custom-columns"></a>Crear columnas personalizadas
-En el Editor de consultas, puede crear fórmulas personalizadas que operen en varias columnas de la tabla y, a continuación, colocar los resultados de estas fórmulas en una nueva columna (personalizada). El Editor de consultas facilita la creación de columnas personalizadas.
 
-En el Editor de consultas, seleccione **Columna personalizada** desde la pestaña **Agregar columna** en la cinta de opciones.
+En el Editor de Power Query, puede crear fórmulas personalizadas que operen en varias columnas de su tabla. A continuación, puede colocar los resultados de estas fórmulas en una nueva columna (personalizada). El Editor de Power Query facilita la creación de columnas personalizadas.
 
-![](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
+Con los datos del libro de Excel en el Editor de Power Query, vaya a la pestaña **Agregar columna** de la cinta de opciones y, a continuación, seleccione **Columna personalizada**.
 
-Aparecerá la siguiente ventana. En el ejemplo siguiente, se creó una columna personalizada denominada *Porcentaje de ELL* que calcula el porcentaje total de alumnos que estudian el idioma inglés (ELL, por sus siglas en inglés).
+![Comando Agregar columna personalizada, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/commonquerytasks_customcolumn.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
+Aparecerá el siguiente cuadro de diálogo. En este ejemplo, se creó una columna personalizada denominada *Porcentaje de ELL* que calcula el porcentaje total de alumnos que estudian el idioma inglés (ELL, por sus siglas en inglés).
 
-Como cualquier otro paso que se aplica en el Editor de consultas, si la nueva columna personalizada no proporciona los datos que busca, puede eliminar el paso desde la sección **Pasos aplicados** del panel **Configuración de consulta**. Para ello, seleccione la **X** junto al paso **Personalización agregada**.
+![Cuadro de diálogo Columna personalizada, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addcustomcolumndialog.png)
 
-![](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
+Al igual que con cualquier otro paso aplicado en el Editor de Power Query, si la nueva columna personalizada no proporciona los datos que busca, puede eliminar el paso. En el panel **Configuración de la consulta**, en **Pasos aplicados**, solo tiene que seleccionar **X** junto al paso **Personalizada agregada**.
+
+![Pasos aplicados, panel Configuración de la consulta, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/customcolumn_addedappliedstep.png)
 
 ## <a name="query-formulas"></a>Fórmulas de consulta
-Puede editar los pasos que genera el Editor de consultas y crear fórmulas personalizadas para obtener un control preciso sobre la conexión y forma de los datos. Cada vez que el Editor de consultas realiza una acción en los datos, se muestra la fórmula asociada con la acción en la **Barra de fórmulas**. Para ver la **Barra de fórmulas**, active la casilla junto a la **Barra de fórmulas** en la pestaña **Vista** de la cinta de opciones.
 
-![](media/desktop-common-query-tasks/queryformulas_formulabar.png)
+Puede editar los pasos que genera el Editor de Power Query. También puede crear fórmulas personalizadas, que le permiten conectarse a sus datos y darles forma con mayor precisión. Cada vez que el Editor de Power Query realiza una acción en los datos, se muestra la fórmula asociada con la acción en la barra de fórmulas. Para ver la barra de fórmulas, vaya a la pestaña **Vista** y, a continuación, seleccione **Barra de fórmulas**.
 
-El Editor de consultas conserva todos los pasos aplicados para cada consulta como texto que se puede ver o modificar. Puede ver o modificar el texto de cualquier consulta a través del **Editor avanzado**, que se muestra al seleccionar **Editor avanzado** desde la pestaña **Vista** de la cinta.
+![Opción Barra de fórmulas, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_formulabar.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
+El Editor de Power Query conserva todos los pasos aplicados para cada consulta como texto que se puede ver o modificar. Puede ver o modificar el texto de cualquier consulta mediante el **Editor avanzado**. Solo tiene que seleccionar **Vista** y,a continuación, **Editor avanzado**.
 
-Aquí se puede ver el **Editor avanzado**, con los pasos de consulta asociados a la consulta **USA\_StudentEnrollment** mostrada. Estos pasos se crean en el lenguaje de fórmulas de Power Query, que se conoce a menudo como **M**. Para obtener información, consulte [Más información acerca de las fórmulas de Power Query](https://support.office.com/article/Learn-about-Power-Query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Para ver la especificación del lenguaje, consulte la [Especificación de lenguaje de fórmulas de Microsoft Power Query para Excel](/powerquery-m/excel-workbook).
+![Comando Editor avanzado, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitorbutton.png)
 
-![](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
+Aquí se puede ver el **Editor avanzado**, con los pasos de consulta asociados a la consulta **USA\_StudentEnrollment** mostrada. Estos pasos se crean en el lenguaje de fórmulas de Power Query, que se conoce a menudo como *M*. Para obtener más información, consulte [Más información acerca de las fórmulas de Power Query](https://support.office.com/article/learn-about-power-query-formulas-6bc50988-022b-4799-a709-f8aafdee2b2f). Para ver la especificación del lenguaje, consulte la [Especificación del lenguaje M de Power Query](/powerquery-m/power-query-m-language-specification).
 
-Power BI Desktop proporciona un amplio conjunto de categorías de fórmulas. Para más información y una referencia completa de todas las fórmulas del Editor de consultas, visite [Categorías de fórmulas de Power Query](https://support.office.com/article/Power-Query-formula-categories-125024ec-873c-47b9-bdfd-b437f8716819).
+![Cuadro de diálogo Editor avanzado, Editor de Power Query, Power BI Desktop](media/desktop-common-query-tasks/queryformulas_advancededitor.png)
 
-Las categorías de fórmulas de consulta son las siguientes:
-
-* Número
-  * Constantes
-  * Información
-  * Conversión y formato
-  * Formato
-  * Redondeo
-  * Operaciones
-  * Aleatorio
-  * Trigonometría
-  * Bytes
-* Texto
-  * Información
-  * Comparaciones de texto
-  * Extracción
-  * Modificación
-  * Pertenencia
-  * Transformaciones
-* Lógico
-* Fecha
-* Hora
-* DateTime
-* Fecha, hora y zona horaria
-* Duración
-* Registro
-  * Información
-  * Transformaciones
-  * Selección
-  * Serialización
-* Lista
-  * Información
-  * Selección
-  * Transformación
-  * Pertenencia
-  * Operaciones de conjunto
-  * Ordenación
-  * Promedios
-  * Suma
-  * Valores numéricos
-  * Generadores
-* Tabla
-  * Construcción de tablas
-  * Conversiones
-  * Información
-  * Operaciones de fila
-  * Operaciones de columna
-  * Pertenencia
-* Valores
-* Operaciones aritméticas
-* Tipos de parámetros
-* Metadatos
-* Acceso a datos
-* URI
-* Formatos binarios
-  * Lectura de números
-* Binario
-* Líneas
-* Expresión
-* Función
-* Error
-* Comparador
-* Separador
-* Combinador
-* Sustituto
-* Tipo
+Power BI Desktop proporciona un amplio conjunto de categorías de fórmulas. Para más información y una referencia completa de todas las fórmulas del Editor de Power Query, consulte [Referencia de funciones M de Power Query](/powerquery-m/power-query-m-function-reference).
 
 ## <a name="next-steps"></a>Pasos siguientes
-Se puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus capacidades, consulte los siguientes recursos:
+
+Puede hacer todo tipo de cosas con Power BI Desktop. Para obtener más información sobre sus funcionalidades, consulte los siguientes recursos:
 
 * [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
 * [Información general sobre consultas con Power BI Desktop](desktop-query-overview.md)
 * [Orígenes de datos en Power BI Desktop](desktop-data-sources.md)
-* [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md)
+* [Conectarse a los datos en Power BI Desktop](desktop-connect-to-data.md)
 * [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)
-

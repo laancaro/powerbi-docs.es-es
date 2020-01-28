@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 06/25/2019
+ms.date: 01/14/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 150de174b15e684c49c38f67767b13a3a7f9a36a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758977"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76040413"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -197,6 +197,6 @@ Seleccione *Controles avanzados* para mostrar un cuadro de diálogo, que permite
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-[Gráficos de dispersión y de burbujas de Power BI](power-bi-visualization-scatter.md)
+[Objeto visual de Power Apps para Power BI](power-bi-visualization-powerapp.md)
 
 [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

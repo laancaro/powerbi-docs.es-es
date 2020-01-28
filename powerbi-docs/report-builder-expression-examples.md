@@ -1,6 +1,6 @@
 ---
 title: Ejemplos de expresiones en el Generador de informes de Power BI
-description: Las expresiones se usan con frecuencia en los informes paginados del Generador de informes paginados de Power BI para controlar el aspecto del contenido y los informes.
+description: A menudo se usan expresiones en los informes paginados de Power BI Report Builder para controlar el aspecto y el contenido de estos.
 ms.date: 10/21/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 87ddb651-a1d0-4a42-8ea9-04dea3f6afa4
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 06847956eae4dfefc7cff75b5a360fbb8b892c39
-ms.sourcegitcommit: d173e22f5a3e76717adfaa573ea391bde0338ffe
+ms.openlocfilehash: 48e81c91a4555b4c8ea847ddffb1413058bbb152
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "72728559"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953978"
 ---
 # <a name="expression-examples-in-power-bi-report-builder"></a>Ejemplos de expresiones en el Generador de informes de Power BI
-Las expresiones se usan con frecuencia en los informes paginados del Generador de informes paginados de Power BI para controlar el aspecto del contenido y los informes. Las expresiones se escriben en Microsoft Visual Basic y pueden usar funciones integradas, código personalizado, variables de informe y grupo, y variables definidas por el usuario. Las expresiones comienzan con un signo igual (=).   
+A menudo se usan expresiones en los informes paginados de Power BI Report Builder para controlar el aspecto y el contenido de estos. Las expresiones se escriben en Microsoft Visual Basic y pueden usar funciones integradas, código personalizado, variables de informe y grupo, y variables definidas por el usuario. Las expresiones comienzan con un signo igual (=).   
 
 En este tema se proporcionan ejemplos de expresiones que se pueden usar para tareas comunes en un informe.  
   
@@ -202,7 +202,7 @@ Para más información sobre las expresiones simples y complejas, dónde se pued
   
     ```  
   
--   Las funciones **Regex** de la clase `xref:System.Text.RegularExpressions` de .NET Framework son útiles para cambiar el formato de cadenas existentes, por ejemplo, para dar formato a un número de teléfono. La siguiente expresión utiliza la función **Replace** para cambiar el formato de un número de teléfono de diez dígitos de un campo "*nnn*-*nnn* - *nnnn*" a "(*nnn*) *nnn*-*nnnn*":  
+-   Las funciones **Regex** de la clase `xref:System.Text.RegularExpressions` de .NET Framework son útiles para cambiar el formato de cadenas existentes, por ejemplo, para dar formato a un número de teléfono. La siguiente expresión utiliza la función **Replace** para cambiar el formato de un número de teléfono de diez dígitos de un campo "*nnn*-*nnn*-*nnnn*" a "(*nnn*) *nnn*-*nnnn*":  
   
     ```  
     =System.Text.RegularExpressions.Regex.Replace(Fields!Phone.Value, "(\d{3})[ -.]*(\d{3})[ -.]*(\d{4})", "($1) $2-$3")  

@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 07/23/2019
-ms.openlocfilehash: aeb47f7f2a6e2de7c8c5095561819367ab16a7e9
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 01/21/2020
+ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73873932"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540576"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 
@@ -38,6 +38,7 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 
 Se usa SQL Server para hospedar las bases de datos del servidor de informes. La instancia del Motor de base de datos de SQL Server puede ser local o remota. A continuación, se indican las versiones admitidas del Motor de base de datos de SQL Server que pueden usarse para hospedar las bases de datos del servidor de informes:
 
+* SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016
 * SQL Server 2014

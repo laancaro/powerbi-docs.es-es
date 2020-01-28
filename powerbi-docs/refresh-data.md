@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: maggies
 LocalizationGroup: Data refresh
-ms.openlocfilehash: bdb5b797146dae0bd8c6a70163a245f44430da8c
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 2db2b4f02dac1ebcd9d24a8217a181efa9ce0779
+ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791686"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "76039039"
 ---
 # <a name="data-refresh-in-power-bi"></a>Actualizar datos en Power BI
 
@@ -317,10 +317,9 @@ El icono de advertencia ayuda a indicar problemas del conjunto de datos actual, 
 
 ## <a name="automatic-page-refresh"></a>Actualización automática de páginas
 
-La actualización automática de páginas funciona en el nivel de página de informe, y permite a los autores de informes establecer un intervalo de actualización de los objetos visuales de una página que solo está activo cuando la página se está usando. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery. El intervalo de actualización mínimo depende del tipo de área de trabajo en la que el informe se publica y de la configuración de administración de capacidad de las áreas de trabajo Premium.
+La actualización automática de páginas funciona en el nivel de página de informe, y permite a los autores de informes establecer un intervalo de actualización de los objetos visuales de una página que solo está activo cuando la página se está usando. La actualización automática de páginas solo está disponible en orígenes de datos de DirectQuery. El intervalo de actualización mínimo depende del tipo de área de trabajo en la que el informe se publica y de la configuración de administración de capacidad de las áreas de trabajo Premium y [áreas de trabajo insertadas](developer/embedding.md).
 
 Obtenga más información sobre la actualización automática de páginas en el artículo [Actualización automática de la página](desktop-automatic-page-refresh.md).
-
 
 ## <a name="best-practices"></a>Procedimientos recomendados
 

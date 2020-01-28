@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 03/02/2018
 ms.author: maggies
 LocalizationGroup: Dashboards
-ms.openlocfilehash: 12aa35e37e4382e7fc89fc9e0fe8c2ae564e8eda
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 77be727de3cda1d3b6fd5c34b6e572b1d505fc54
+ms.sourcegitcommit: 313a5a6a01c09038a6152d681103accbd2faf437
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872809"
+ms.lasthandoff: 01/20/2020
+ms.locfileid: "76282020"
 ---
 # <a name="pin-a-tile-to-a-dashboard-from-qa"></a>Anclar un icono a un panel desde Preguntas y respuestas
 ## <a name="how-to-pin-a-tile-from-qa"></a>Cómo anclar un icono de preguntas y respuestas
@@ -53,7 +53,7 @@ Para continuar, abra el [panel de ejemplo de análisis de venta directa](sample-
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 * Cuando comience a escribir una pregunta, Preguntas y respuestas comienza a buscar inmediatamente la mejor respuesta en todos los conjuntos de datos asociados al panel actual.  El "panel actual" es el que aparece en el panel superior. Por ejemplo, esta pregunta se formula en el panel **Ejemplo de análisis de minoristas**, que forma parte del área de trabajo **mihart**.
 
-  ![Rutas de navegación](media/service-dashboard-pin-tile-from-q-and-a/power-bi-nav pane.png)
+  ![Rutas de navegación](media/service-dashboard-pin-tile-from-q-and-a/power-bi-navbar.png)
 * ¿**Cómo Preguntas y respuestas sabe qué conjuntos de datos usar**?  Preguntas y respuestas tiene acceso a todos los conjuntos de datos que tengan al menos una visualización anclada a ese panel.
 
 * ¿**No ve el cuadro de pregunta**? Póngase en contacto con el administrador de Power BI. El administrador tiene la capacidad de deshabilitar Preguntas y respuestas.

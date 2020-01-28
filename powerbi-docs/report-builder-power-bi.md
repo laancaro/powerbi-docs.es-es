@@ -1,6 +1,6 @@
 ---
-title: Generador de informes paginados de Power BI
-description: El Generador de informes paginados de Power BI es una herramienta para crear informes paginados.
+title: Generador de informes de Power BI
+description: Power BI Report Builder es una herramienta para crear informes paginados.
 ms.date: 11/27/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -9,16 +9,16 @@ ms.topic: conceptual
 ms.assetid: 55bf4f9c-d037-412f-ae57-3fc39ce32fa5
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: faba36a609abd94b2439006fbbcf01a1d193c585
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 5ef6068135e8adcbfd242ca4a6491396101d214e
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74565291"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953917"
 ---
-# <a name="power-bi-paginated-report-builder"></a>Generador de informes paginados de Power BI
+# <a name="power-bi-report-builder"></a>Generador de informes de Power BI
 
- El Generador de informes paginados de Power BI es una herramienta para crear informes paginados.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
+ Power BI Report Builder es una herramienta para crear informes paginados.  Al diseñar un informe paginado, se crea una definición de informe que especifica qué datos recuperar y de dónde y cómo mostrarlos. Al ejecutar el informe, el procesador de informes toma la definición de informe que ha especificado, recupera los datos y los combina con el diseño del informe para generar el informe. Puede obtener una vista previa del informe en el Generador de informes. Después, puede publicar el informe en el servicio Power BI.
 
 Pruebe el [Laboratorio práctico: Creación de un informe paginado de Microsoft Power BI](https://www.microsoft.com/handsonlabs/selfpacedlabs/details/SQ00208).
 

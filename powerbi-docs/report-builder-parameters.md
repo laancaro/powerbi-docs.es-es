@@ -1,6 +1,6 @@
 ---
 title: Parámetros de informe en el Generador de informes de Power BI
-description: En este tema se describe los usos comunes de los parámetros de informe del Generador de informes paginados de Power BI, las propiedades que puede establecer y mucho más.
+description: En este tema se describen los usos comunes de los parámetros de informe del Generador de informes de Power BI, las propiedades que puede establecer y mucho más.
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
@@ -9,16 +9,16 @@ ms.author: maggies
 ms.reviewer: ''
 ms.custom: ''
 ms.date: 06/06/2019
-ms.openlocfilehash: d31036676a5960f7f6eb0f346c2c02ab979ff9bc
-ms.sourcegitcommit: 01de0b01f66f28ca45b8d309d7864f261d6c9a85
+ms.openlocfilehash: 5a7e91c03b11902f324d6a7c639a03f7652acf16
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "74128422"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76160866"
 ---
 # <a name="report-parameters-in-power-bi-report-builder"></a>Parámetros de informe en el Generador de informes de Power BI
 
-En este tema se describe los usos comunes de los parámetros de informe del Generador de informes paginados de Power BI, las propiedades que puede establecer y mucho más. Con los parámetros de informe, puede controlar los datos del informe, conectar informes relacionados y variar la presentación del informe. Puede usar los parámetros de informe en informes paginados que cree en el Generador de informes.
+En este tema se describen los usos comunes de los parámetros de informe del Generador de informes de Power BI, las propiedades que puede establecer y mucho más. Con los parámetros de informe, puede controlar los datos del informe, conectar informes relacionados y variar la presentación del informe. Puede usar los parámetros de informe en informes paginados que cree en el Generador de informes.
 
 ## <a name="bkmk_Common_Uses_for_Parameters"></a> Usos comunes de los parámetros
 
@@ -93,7 +93,7 @@ Cree un parámetro manualmente en el panel Datos de informe. Puede configurar lo
   
 - Seleccione varios valores de parámetro en una lista desplegable.  
   
-- Seleccione un valor en una lista desplegable para un parámetro, que determina los valores que habrá disponibles en la lista desplegable de otro parámetro. Estos son parámetros en cascada. Los parámetros en cascada permiten filtrar sucesivamente los valores de parámetro para reducir de miles de valores a números manejables.  
+- Seleccione un valor en una lista desplegable para un parámetro, que determina los valores que habrá disponibles en la lista desplegable de otro parámetro. Estos son parámetros en cascada. Los parámetros en cascada permiten filtrar sucesivamente los valores de parámetro para reducir de miles de valores a números manejables. Para obtener más información, consulte [Uso de parámetros en cascada en informes paginados](guidance/paginated-report-cascading-parameter.md).
   
 - Ejecute el informe sin tener que seleccionar un valor de parámetro porque se ha creado un valor predeterminado para el parámetro.  
   
@@ -148,5 +148,4 @@ Cree un parámetro manualmente en el panel Datos de informe. Puede configurar lo
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [¿Qué son los informes paginados en Power BI Premium?](paginated-reports-report-builder-power-bi.md)  
- 
- 
+- [Uso de parámetros en cascada en informes paginados](guidance/paginated-report-cascading-parameter.md)

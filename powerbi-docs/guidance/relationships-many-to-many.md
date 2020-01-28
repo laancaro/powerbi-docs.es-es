@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 11/25/2019
 ms.author: v-pemyer
-ms.openlocfilehash: becde542f68b2f9fb1412a904793f46a8f154856
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 6ce82516413fe43cfbc1336e2f6f51003277fb4a
+ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75308258"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "76161303"
 ---
 # <a name="many-to-many-relationship-guidance"></a>Instrucciones para relaciones de varios a varios
 
@@ -120,7 +120,7 @@ Si tiene una relación de varios a varios entre tablas de tipo de dimensión, si
 - Agregue una tabla de puente para almacenar entidades asociadas
 - Cree relaciones de uno a varios entre las tres tablas
 - Configure **una** relación bidireccional para permitir que la propagación del filtro continúe a las tablas de tipo de hechos
-- Si no es adecuado tener valores de identificador que faltan, establezca la propiedad **Admite valores NULL** de las columnas ID en TRUE; después, se producirá un error en la actualización de datos si hay valores que faltan en el origen
+- Si no es adecuado tener valores de identificador que faltan, establezca la propiedad **Admite valores NULL** de las columnas ID en FALSE; después, se producirá un error en la actualización de datos si hay valores que faltan en el origen
 - Oculte la tabla de puente (a menos que contenga columnas o medidas adicionales necesarias para la generación de informes)
 - Oculte las columnas de identificador que no sean adecuadas para los informes (por ejemplo, cuando los identificadores son claves suplentes)
 - Si tiene sentido dejar visible una columna de identificador, asegúrese de que se encuentra en el lado "uno" de la relación; oculte siempre la columna del lado "varios". El resultado será el rendimiento óptimo de los filtros.

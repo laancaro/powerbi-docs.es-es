@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 50a5705f5e236dc326f4c2b33716e55f6a9f7ce5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 2b43727799316ade5ccdb868077360da0b315c56
+ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761988"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "75925688"
 ---
 # <a name="design-power-bi-reports-for-accessibility"></a>Diseño de informes accesibles de Power BI
 Puede diseñar y crear informes atractivos que también permitan la accesibilidad. Cada vez que cree un informe, con independencia de quién sea su público, debe poder usarlo el mayor número posible de personas, sin necesidad de adaptarlo con un tipo de diseño especial.
@@ -22,6 +22,8 @@ Puede diseñar y crear informes atractivos que también permitan la accesibilida
 ![Configuración de Windows de contraste alto](media/desktop-accessibility/accessibility-05.png)
 
 En este artículo se describen las características y las herramientas de accesibilidad para crear informes accesibles en Power BI.
+
+En general, cuando se usa Power BI con un lector de pantalla, se recomienda desactivar el modo de examen o el modo de exploración.
 
 Para mejorar el proceso de creación de informes con lectores de pantalla, hay un menú contextual disponible. El menú permite mover los campos de la lista **Campos** hacia arriba o hacia abajo. El menú también permite mover el campo a otras listas, como **Leyenda**, **Valor**, etc.
 

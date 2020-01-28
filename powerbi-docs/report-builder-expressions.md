@@ -1,6 +1,6 @@
 ---
 title: Expresiones en el Generador de informes de Power BI
-description: Las expresiones se utilizan ampliamente en los informes paginados del Generador de informes paginados de Power BI para recuperar, calcular, mostrar, agrupar, ordenar, filtrar, parametrizar y dar formato a los datos.
+description: En los informes paginados de Power BI Report Builder se usan ampliamente expresiones para recuperar, calcular, mostrar, agrupar, ordenar, filtrar, parametrizar y dar formato a los datos.
 ms.date: 06/06/2019
 ms.service: powerbi
 ms.subservice: report-builder
@@ -8,15 +8,15 @@ ms.topic: conceptual
 ms.assetid: 76d3ac86-650c-46fe-8086-8b3edcea3882
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: d3a72fd967eeb24cfa1093d16c4434447d5fc89d
-ms.sourcegitcommit: 797bb40f691384cb1b23dd08c1634f672b4a82bb
+ms.openlocfilehash: 96c62fec55f87a31970b624a79314656ced0c159
+ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "66840634"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "75953859"
 ---
 # <a name="expressions-in-power-bi-report-builder"></a>Expresiones en el Generador de informes de Power BI
-  Las expresiones se utilizan ampliamente en los informes paginados del Generador de informes paginados de Power BI para recuperar, calcular, mostrar, agrupar, ordenar, filtrar, parametrizar y dar formato a los datos. 
+  En los informes paginados de Power BI Report Builder se usan ampliamente expresiones para recuperar, calcular, mostrar, agrupar, ordenar, filtrar, parametrizar y dar formato a los datos. 
   
   Muchas propiedades de los elementos de informe pueden establecerse en una expresión. Las expresiones ayudan a controlar el contenido, el diseño y la interactividad de un informe. Las expresiones se escriben en Microsoft Visual Basic, se guardan en la definición de informe y el procesador de informes las evalúa al ejecutar el informe.  
   
