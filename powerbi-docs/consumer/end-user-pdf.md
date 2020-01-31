@@ -7,15 +7,15 @@ ms.reviewer: cmfinlan
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 1/16/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 9e00e68e0a5f6df62072a1d9744276bffbd3beb4
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 4570fea58a19acb4f35a5c24d0a5bfa93beba215
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74791649"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537563"
 ---
 # <a name="export-reports-from-power-bi-to-pdf"></a>Exportación de informes de Power BI a PDF
 
@@ -63,6 +63,7 @@ Hay algunas consideraciones y limitaciones que se deben tener en cuenta cuando s
 * Actualmente no se respetan los filtros de las direcciones URL al elegir **Valores actuales** para la exportación.
 * Los informes con tamaños de página personalizados inusuales pueden experimentar problemas en escenarios de exportación. Para obtener los mejores resultados, considere la posibilidad de cambiar a un tamaño de página estándar para el informe.
 * Al exportar a PDF, en los informes que usen temas con fuentes personalizadas se reemplazará la fuente personalizada por una fuente predeterminada.
+* Aunque el objetivo es proporcionar una experiencia coherente, no se puede garantizar que el PDF exportado desde el servicio Power BI siempre coincidirá con el PDF exportado desde un archivo de Power BI Desktop local.
 
 ## <a name="next-steps"></a>Pasos siguientes
 [Imprimir un informe](end-user-print.md)

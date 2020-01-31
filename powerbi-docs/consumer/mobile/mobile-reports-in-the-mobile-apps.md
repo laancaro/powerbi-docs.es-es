@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/18/2020
 ms.author: painbar
-ms.openlocfilehash: bb54a4e403f2cc12800d0c97e44308f7ad5c5f65
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 27f6469cb960ff101f45636e0720b935929ff010
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220765"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538153"
 ---
 # <a name="explore-reports-in-the-power-bi-mobile-apps"></a>Exploración de informes en las aplicaciones móviles de Power BI
 Se aplica a:
@@ -53,6 +53,13 @@ Para obtener un informe desde un panel, pulse **Más opciones** (...) en la esqu
 ## <a name="interact-with-reports"></a>Interacción con informes
 Una vez que haya abierto un informe en la aplicación, puede empezar a trabajar con él. Con el informe y los datos puede hacer muchas cosas. En el pie de página del informe, encontrará acciones que puede realizar en el informe. También puede segmentar los datos mediante pulsaciones y pulsaciones largas en los datos mostrados en el informe.
 
+### <a name="single-tap-versus-double-tap-interaction"></a>Interacción de pulsación única frente a pulsar dos veces
+Al descargar la aplicación móvil de Power BI, está establecida para la interacción de pulsación única. Esto significa que, al pulsar un objeto visual para realizar una acción, como seleccionar un elemento de segmentación, resaltado cruzado, hacer clic en un vínculo o botón, etc., la pulsación selecciona el objeto visual y realiza la acción deseada.
+
+Si lo prefiere, puede cambiar a la interacción de pulsar dos veces. Con la interacción de pulsar dos veces, primero debe pulsar un objeto visual para seleccionarlo y, después, volver a pulsarlo para realizar la acción deseada.
+
+Para cambiar a la interacción de pulsar dos veces, o bien para recuperar la de pulsación única, vaya a la [configuración de las interacciones de la aplicación](./mobile-app-interaction-settings.md).
+
 ### <a name="using-tap-and-long-tap"></a>Uso de pulsaciones y pulsaciones largas
 Una pulsación es como un clic del mouse. Por tanto, si quiere resaltar el informe en función de un punto de datos, pulse ese punto de datos.
 Al pulsar un valor de segmentación, se selecciona el valor y el resto del informe se segmenta por ese valor.
@@ -63,7 +70,6 @@ Probablemente haya observado que al pulsar un objeto visual aparece un borde. En
 ![Objeto visual y menú](./media/mobile-reports-in-the-mobile-apps/report-visual-menu.png)
 
 ### <a name="tooltip-and-drill-actions"></a>Acciones relativas a la información en pantalla y la obtención de detalles
-
 Al realizar una pulsación larga (pulsar y mantener presionado) en un punto de datos, se mostrará una información en pantalla con los valores que representa este punto de datos:
 
 ![Información sobre herramientas](./media/mobile-reports-in-the-mobile-apps/report-tooltip.png)
@@ -126,6 +132,8 @@ La opción **Invitar** solo está habilitada si tiene permiso para compartir el 
 
 La aplicación móvil de Power BI admite los marcadores de informe que haya definido el creador del informe y los marcadores personales que puede definir en el servicio Power BI. Puede encontrar el menú de marcadores en **Más opciones** (...), en la [barra de herramientas de acciones del informe](mobile-reports-in-the-mobile-apps.md#all-report-actions).
 
+Los marcadores predeterminados se indican mediante un icono especial. En el caso de los marcadores personales, puede establecer, desactivar o cambiar la configuración predeterminada pulsando **Más opciones (...)** junto al marcador que quiera cambiar y seleccionando **Establecer como valor predeterminado** o **Borrar valor predeterminado**.
+
 ![Menú de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-menu.png)
 
 Cuando se abre una vista de marcador de un informe, el nombre del marcador aparece en la parte superior del informe.
@@ -133,6 +141,15 @@ Cuando se abre una vista de marcador de un informe, el nombre del marcador apare
 ![Vista de marcadores](./media/mobile-reports-in-the-mobile-apps/power-bi-mobile-report-bookmark-title.png)
 
 [Obtenga más información sobre los marcadores en el servicio Power BI](https://docs.microsoft.com/power-bi/consumer/end-user-bookmarks).
+
+## <a name="configure-your-experience-with-reports"></a>Configuración de la experiencia con los informes
+La aplicación móvil de Power BI tiene una serie de valores que le permiten controlar la experiencia con los informes. Actualmente, puede configurar lo siguiente:
+* **Interacción con los objetos visuales**: puede optar por usar la interacción de pulsación única o de pulsar dos veces.
+* **Método de actualización de datos**: puede elegir entre un botón de actualización o una acción de deslizar para actualizar los datos del informe.
+* **Visibilidad del pie de página del informe**: puede elegir entre un pie de página acoplado siempre visible, o bien un pie de página dinámico que se oculte y se vuelva a mostrar en función de las acciones (desplazamiento, por ejemplo).
+
+Vea la [configuración de las interacciones de la aplicación](./mobile-app-interaction-settings.md) para obtener información sobre cómo cambiar esta configuración.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Ver e interactuar con informes de Power BI optimizados para el teléfono](mobile-apps-view-phone-report.md)

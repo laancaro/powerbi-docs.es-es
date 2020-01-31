@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
 ms.date: 05/27/2019
-ms.openlocfilehash: 7670f8147af54f3b3a6c2c0eba34bb3ca7843eda
-ms.sourcegitcommit: c395fe83d63641e0fbd7c98e51bbab224805bbcc
+ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "74264084"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76539058"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -63,12 +63,12 @@ Power BI Embedded es un conjunto de API de plataforma como servicio (PaaS) que 
 
 Esta es una lista parcial de las diferencias de características.
 
-| Destacado | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
+| Característica | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
 |----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
 |   | SKU A: capacidad de Azure | SKU EM: capacidad de O365 | SKU P: capacidad de O365 |
 | Inserción de artefactos desde un área de trabajo de Power BI | Sí | Sí | Sí |
-| Consumir informes de Power BI en una aplicación insertada: SaaS | No | Sí | Sí |
-| Consumir informes de Power BI en una aplicación insertada: PaaS | Sí | Sí | Sí |
+| Consumo de informes de Power BI en una aplicación insertada para la organización  | No | Sí | Sí |
+| Consumo de informes de Power BI en una aplicación insertada para los clientes | Sí | Sí | Sí |
 | Consumir informes de Power BI en SharePoint | No | Sí | Sí |
 | Consumir informes de Power BI en Dynamics | No | Sí | Sí |
 | Consumir informes de Power BI en Teams (excluye la aplicación móvil) | No | Sí | Sí |
@@ -81,7 +81,7 @@ Esta es una lista parcial de las diferencias de características.
 |---------|---------|---------|---------|
 |Comprar  |Azure Portal |Office |Office |
 |Casos de uso | Insertar contenido en su propia aplicación | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Compartir contenido con usuarios de Power BI mediante el [servicio Power BI](https://powerbi.microsoft.com/)  |
-|Facturación |Cada hora |Mensual |Mensualmente |
+|Facturación |Cada hora |Mensual |Mensual |
 |Asignación  |Sin asignación |Anualmente  |Mensual o anual |
 |Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede usar para insertar contenido en SharePoint Online y Microsoft Teams (se excluyen las aplicaciones móviles) |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
 

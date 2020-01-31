@@ -6,44 +6,45 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: 8e1babaa39a1f52a06c69dcb9aac2441ca02452b
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: a82465adb5b0c7fe8be0e6e724c5eda1bfcf7ec0
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75761281"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538684"
 ---
 # <a name="work-with-data-view-in-power-bi-desktop"></a>Trabajo con Vista de datos en Power BI Desktop
-La **vista de datos** le permite inspeccionar, explorar y analizar los datos de su modelo de **Power BI Desktop**. Es diferente de cómo ve las tablas, columnas y datos en el **Editor de consultas**. Con la vista de datos, ve los datos *después* de que se hayan cargado en el modelo.
 
-Cuando se están modelando los datos, a veces desea ver lo que hay realmente en una tabla o columna sin crear un elemento visual en el lienzo del informe, normalmente justo debajo del nivel de fila. Es útil sobre todo cuando crea columnas calculadas y medidas o cuando tiene que identificar un tipo de datos o una categoría de datos.
+La *vista Datos* permite inspeccionar, explorar y analizar los datos de su modelo de *Power BI Desktop*. Es distinto de cómo se visualizan las tablas, las columnas y los datos en el *Editor de Power Query*. Con la vista Datos, se ven los datos *después* de que se hayan cargado en el modelo.
 
-Eche un vistazo más de cerca a algunos de los elementos de la **vista de datos**.
+Cuando se están modelando los datos, a veces quiere ver lo que hay realmente en una tabla o columna sin crear un objeto visual en el lienzo del informe. Es posible que quiera ver hasta el nivel de fila. Esta capacidad es útil sobre todo cuando crea columnas calculadas y medidas o cuando tiene que identificar un tipo de datos o una categoría de datos.
+
+Eche un vistazo más de cerca a algunos de los elementos de la vista Datos.
 
 ![Vista de datos en Power BI Desktop](media/desktop-data-view/dataview_fullscreen.png)
 
-1. **Icono de vista de datos**: seleccione este icono para entrar en la vista de datos.
+1. **Icono de la vista Datos**. Seleccione este icono para entrar en la vista Datos.
 
-2. **Cuadrícula de datos**: se muestra la tabla seleccionada y todas las columnas y filas que contiene. Las columnas ocultas de la **vista de informe** están atenuadas. Puede hacer clic con el botón derecho en una columna para ver las opciones.
+2. **Cuadrícula de datos**. Esta área muestra la tabla seleccionada y todas las columnas y filas que hay en ella. Las columnas ocultas de la vista *Informes* están atenuadas. Puede hacer clic con el botón derecho en una columna para ver las opciones.
 
-3. **Cinta de opciones de modelado**: aquí puede administrar relaciones, crear cálculos y cambiar el tipo de datos, el formato y la categoría de datos de una columna.
+3. **Cinta de opciones de modelado**. Aquí se pueden administrar relaciones, crear cálculos y cambiar el tipo de datos, el formato y la categoría de datos de una columna.
 
-4. **Barra de fórmulas**: indique fórmulas DAX para las columnas calculadas y las medidas.
+4. **Barra de fórmulas**. Introduzca fórmulas de expresiones de análisis de datos (DAX) para las columnas calculadas y las medidas.
 
-5. **Búsqueda**: busque una tabla o una columna en el modelo.
+5. **Búsqueda**. Busque una tabla o una columna en el modelo.
 
-6. **Lista de campos**: seleccione una tabla o una columna para verla en la cuadrícula de datos.
+6. **Lista de campos**. Seleccione una tabla o una columna para verla en la cuadrícula de datos.
 
-## <a name="filtering-in-data-view"></a>Filtrado en la vista de datos
+## <a name="filtering-in-data-view"></a>Filtrado en la vista Datos
 
-También puede filtrar y ordenar datos en la **vista de datos**. En cada columna se muestra un icono que identifica la dirección de ordenación (si procede).
+También se pueden filtrar y ordenar datos en la vista Datos. En cada columna se muestra un icono que identifica la dirección de ordenación, si procede.
 
 ![Ordenar y filtrar en la vista Datos en Power BI Desktop](media/desktop-data-view/dataview_sort-and-filter.png)
 
-Puede filtrar valores concretos o puede usar el filtrado avanzado en función de los datos de la columna. 
+Puede filtrar valores concretos o puede usar el filtrado avanzado en función de los datos de la columna.
 
 > [!NOTE]
-> Cuando se crea un modelo de Power BI en una referencia cultural diferente con respecto a la interfaz de usuario actual (por ejemplo, el modelo se ha creado en inglés de Estados Unidos y lo está viendo en español), el cuadro de búsqueda solo aparecerá en la interfaz de usuario de la vista de datos para los campos de texto.
+> Al crear un modelo de Power BI en una referencia cultural diferente con respecto a la interfaz de usuario actual, el cuadro de búsqueda solo aparecerá en la interfaz de usuario de la vista Datos para los campos de texto. Por ejemplo, esto se aplicaría para un modelo creado en inglés de EE. UU. que se ve en español.

@@ -7,15 +7,15 @@ featuredvideoid: jtlLGRKBvXY
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/30/2019
+ms.date: 01/22/2020
 ms.author: mihart
 LocalizationGroup: Consumers
-ms.openlocfilehash: 0e8a3ce01356804aa5dcca21895fa01b5908ebd0
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 27128618fc594a8b7259a3de3862c6766eaecd86
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851309"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537532"
 ---
 # <a name="export-data-from-a-visual"></a>Exportación de datos de un objeto visual
 
@@ -31,15 +31,18 @@ Si quiere ver los datos que se usan para crear un objeto visual, [puede mostrar 
 
 2. Mantenga el puntero sobre un objeto visual para mostrar **Más opciones** (...) y haga clic para mostrar el menú de acciones.
 
-    ![Menú que aparece al seleccionar los puntos suspensivos](media/end-user-export/power-bi-action-menu.png)
+    ![Menú que aparece al seleccionar los puntos suspensivos](media/end-user-export/power-bi-options-menu.png)
 
-3. Seleccione **Exportar a Excel**.
+3. Seleccione **Exportar a .csv**.
 
 4. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
 
     ![Explorador Chrome que muestra el vínculo al archivo exportado](media/end-user-export/power-bi-dashboard-exports.png)
 
-5. Abra el archivo en Excel.  
+5. Abra el archivo en Excel. 
+
+    > [!NOTE]
+    > Si no tiene permisos para los datos, no podrá exportarlos ni abrirlos en Excel.  
 
     ![Total Units YTD (Unidades totales hasta la fecha) en Excel](media/end-user-export/power-bi-excel.png)
 
@@ -53,27 +56,30 @@ Puede exportar datos desde un objeto visual de un informe en formato .csv o .xls
 
     Como este icono se creó en el informe *Ejemplo de ventas y marketing*, es el informe que se abre. Y lo hace en la página que contiene el objeto visual del icono seleccionado. 
 
-2. Seleccione el icono en el informe. Observe el panel **Filtros** de la derecha. Este objeto visual tiene filtros aplicados. Para más información sobre los filtros, consulte [Uso de filtros en un informe](end-user-report-filter.md).
+2. Seleccione el objeto visual en el informe. Observe el panel **Filtros** de la derecha. Este objeto visual tiene filtros aplicados. Para más información sobre los filtros, consulte [Uso de filtros en un informe](end-user-report-filter.md).
 
     ![Panel de filtro seleccionado](media/end-user-export/power-bi-export-filter.png)
 
 
-3. Seleccione los puntos suspensivos en la esquina superior derecha de la visualización. Elija **Exportar datos**.
+3. Seleccione **Más opciones (...)** en la esquina superior derecha de la visualización. Elija **Exportar datos**.
 
     ![Exportación de los datos seleccionados desde la lista desplegable](media/end-user-export/power-bi-export-report.png)
 
 4. Verá opciones para exportar datos resumidos o datos subyacentes. Si usa la aplicación *Ejemplo de ventas y marketing*, se deshabilitará la opción **Datos subyacentes**. Sin embargo, puede encontrar informes donde estén habilitadas ambas opciones. A continuación se muestra una explicación de la diferencia.
 
-    **Datos resumidos**: seleccione esta opción si quiere exportar datos de lo que se ve en ese objeto visual.  Este tipo de exportación solo muestra los datos que se usaron para crear el objeto visual. Si el objeto visual tiene filtros aplicados, los datos que exporte también se filtrarán. Por ejemplo, en el caso de este objeto visual, la exportación incluirá únicamente los datos de 2014 y la región central, y solo los datos de cuatro de los fabricantes: VanArsdel, Natura, Aliqui y Pirum.
+    **Datos resumidos**: seleccione esta opción si quiere exportar datos de lo que se ve actualmente en el objeto visual.  Este tipo de exportación solo muestra los datos que se han usado para crear el estado actual del objeto visual. Si el objeto visual tiene filtros aplicados, los datos que exporte también se filtrarán. Por ejemplo, en el caso de este objeto visual, la exportación incluirá únicamente los datos de 2014 y la región central, y solo los datos de cuatro de los fabricantes: VanArsdel, Natura, Aliqui y Pirum. Si el objeto visual tiene agregados (suma, promedio, etc.), también se agregará la exportación. 
   
 
-    **Datos subyacentes**: seleccione esta opción si quiere exportar datos de lo que ve en el objeto visual **junto con** datos adicionales del conjunto de datos subyacente.  Esto puede incluir los datos contenidos en el conjunto de datos pero que no se usan en el objeto visual. 
+    **Datos subyacentes**: seleccione esta opción si quiere exportar datos de lo que ve en el objeto visual **junto con** datos adicionales del conjunto de datos subyacente.  Esto puede incluir los datos contenidos en el conjunto de datos pero que no se usan en el objeto visual. Si el objeto visual tiene filtros aplicados, los datos que exporte también se filtrarán.  Si el objeto visual tiene agregados (suma, promedio, etc.), la exportación quitará la agregación; básicamente, los datos se acoplan. 
 
-    ![Menú en el que se elige subyacente o resumido](media/end-user-export/power-bi-export-option.png)
+    ![Menú en el que se elige subyacente o resumido](media/end-user-export/power-bi-export-underlying.png)
 
 5. Lo que sucede después depende del explorador que use. Puede que se le pida que guarde el archivo o que vea un vínculo al archivo exportado en la parte inferior del explorador. 
 
     ![Archivo exportado que se muestra en el explorador Microsoft Edge](media/end-user-export/power-bi-export-edge-browser.png)
+
+    > [!NOTE]
+    > Si no tiene permisos para los datos, no podrá exportarlos ni abrirlos en Excel.  
 
 
 6. Abra el archivo en Excel. Compare la cantidad de datos exportados con los datos que se exportaron desde el mismo objeto visual en el panel. La diferencia es que esta exportación incluye **datos subyacentes**. 

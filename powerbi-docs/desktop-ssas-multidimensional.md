@@ -1,41 +1,44 @@
 ---
-title: Datos de Analysis Services multidimensionales en Power BI Desktop
-description: Datos de Analysis Services multidimensionales en Power BI Desktop
+title: Datos multidimensionales de Analysis Services en Power BI Desktop
+description: Datos multidimensionales de SQL Server Analysis Services (SSAS) en Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/29/2019
+ms.date: 01/15/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: ccae3f9d1f6d56f2b58706fbb8d8bf36d55d2165
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: eac1134ff12025d05cd59e86b7538cde58e3a2ee
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759868"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753173"
 ---
 # <a name="connect-to-ssas-multidimensional-models-in-power-bi-desktop"></a>Conexión a modelos SSAS multidimensionales en Power BI Desktop
-Con Power BI Desktop, ahora puede acceder a **modelos SSAS multidimensionales**, que suelen denominarse **SSAS MD**.
 
-Para conectarse a una base de datos **SSAS MD**, seleccione **Obtener datos &gt; Base de datos &gt; Base de datos de SQL Server Analysis Services**, como se muestra esta imagen:
+Con Power BI Desktop, ahora puede acceder a *modelos SSAS multidimensionales*, que suelen denominarse *SSAS MD*.
 
-![](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
+Para conectarse a una base de datos SSAS MD, seleccione **Obtener datos**, elija **Base de datos** > **Base de datos de SQL Server Analysis Services** y, después, seleccione **Conectar**:
 
-Tanto el servicio Power BI como Power BI Desktop admiten **modelos SSAS multidimensionales** en el modo de conexión dinámica. También puede publicar y cargar informes que empleen **modelos SSAS multidimensionales** en el modo de conexión dinámica en el servicio Power BI.
+![Base de datos de SQL Server Analysis Services (SSAS), cuadro de diálogo Obtener datos, Power BI Desktop](media/desktop-ssas-multidimensional/ssas-multidimensional-2.png)
+
+Los servicios Power BI y Power BI Desktop admiten modelos SSAS multidimensionales en modo de conexión dinámica. Puede publicar y cargar informes que empleen **modelos SSAS multidimensionales** en el modo de conexión dinámica en el servicio Power BI.
 
 ## <a name="capabilities-and-features-of-ssas-md"></a>Funcionalidades y características de SSAS MD
+
 Las secciones siguientes describen las características y funcionalidades de las conexiones de Power BI y SSAS MD.
 
 ### <a name="tabular-metadata-of-multidimensional-models"></a>Metadatos tabulares de modelos multidimensionales
-La siguiente tabla muestra la correspondencia entre los objetos multidimensionales y los metadatos tabulares que se devuelven a Power BI Desktop. Power BI consulta los metadatos tabulares al modelo y, según los metadatos devueltos, ejecuta las consultas DAX apropiadas en Analysis Services cuando se crea una visualización como una tabla, una matriz, un gráfico o una segmentación de datos.
+
+La siguiente tabla muestra la correspondencia entre los objetos multidimensionales y los metadatos tabulares que se devuelven a Power BI Desktop. Power BI consulta el modelo en busca de metadatos tabulares. En función de los metadatos devueltos, Power BI Desktop ejecuta las consultas DAX adecuadas en SSAS al crear una visualización, como una tabla, una matriz, un gráfico o una segmentación de datos.
 
 | Objeto multidimensional BISM | Metadatos tabulares |
 | --- | --- |
 | Cubo |Modelo |
 | Dimensión de cubo |Tabla |
-| Atributos de dimensión (Keys), Name |Columnas |
+| Atributos de dimensión (Claves), nombre |Columnas |
 | Grupo de medida |Tabla |
 | Medida |Medida |
 | Medidas sin grupo de medida asociado |En la tabla llamada *Medidas* |
@@ -45,62 +48,76 @@ La siguiente tabla muestra la correspondencia entre los objetos multidimensional
 | Jerarquías de usuarios, elementos primarios y secundarios |Jerarquías |
 
 ### <a name="measures-measure-groups-and-kpis"></a>Medidas, grupos de medida y KPI
-Los grupos de medida de un cubo multidimensional se exponen en Power BI como tablas con el signo ∑ junto a ellos en el panel **Campos** . La medidas calculadas que no tienen un grupo de medida asociado se agrupan en una tabla especial llamada *Medidas* en los metadatos tabulares.
 
-En un modelo multidimensional, puede definir un conjunto de medidas o KPI en un cubo que se ubicará dentro de una *Carpeta para mostrar*, lo que puede ayudar a simplificar modelos complejos. Power BI reconoce las carpetas para mostrar en los metadatos tabulares y muestra las medidas y los KPI dentro de las carpetas para mostrar. En las bases de datos multidimensionales, los KPI admiten los atributos *Value*, *Goal*, *Status Graphic* y *Trend Graphic*.
+Los grupos de medida de un cubo multidimensional se exponen como tablas con la letra griega sigma (∑) junto a ellos en el panel **Campos**. La medidas calculadas sin un grupo de medida asociado se agrupan en una tabla especial llamada *Medidas* en los metadatos tabulares.
+
+Para ayudar a simplificar modelos complejos, en un modelo multidimensional, puede definir un conjunto de medidas o KPI en un cubo que se ubicará dentro de una *Carpeta para mostrar*. Power BI reconoce las carpetas para mostrar en los metadatos tabulares y muestra las medidas y los KPI dentro de las carpetas para mostrar. En las bases de datos multidimensionales, los KPI admiten los atributos *Value*, *Goal*, *Status Graphic* y *Trend Graphic*.
 
 ### <a name="dimension-attribute-type"></a>Tipos de atributos de dimensión
-Los modelos multidimensionales también permiten asociar atributos de dimensión con tipos de atributo de dimensión específicos. Por ejemplo, una dimensión **Geography** cuyos atributos de dimensión *City*, *State-Province*, *Country* y *Postal Code* tienen asociados los tipos de geografía adecuados, se exponen en los metadatos tabulares. Power BI reconoce los metadatos, lo que permite crear visualizaciones de mapas. Reconocerá estas asociaciones por el icono *mapa* situado junto al elemento en el panel **Campo** en Power BI.
 
-Power BI también puede representar imágenes cuando se proporciona un campo que contiene las direcciones URL (localizador uniforme de recursos) de las imágenes. Puede especificar que el tipo de estos campos sea *ImageURL* en SQL Server Data Tools (o después en Power BI) y la información sobre el tipo se proporciona a Power BI en los metadatos tabulares. Después, Power BI puede recuperar las imágenes de la dirección URL y mostrarlos en objetos visuales.
+Los modelos multidimensionales también permiten asociar atributos de dimensión con tipos de atributo de dimensión específicos. Por ejemplo, una dimensión **Geography** cuyos atributos de dimensión *City*, *State-Province*, *Country* y *Postal Code* tienen asociados los tipos de geografía adecuados, se exponen en los metadatos tabulares. Power BI reconoce los metadatos, lo que permite crear visualizaciones de mapas. Reconocerá estas asociaciones por el icono *mapa* situado junto al elemento en el panel **Campo** en Power BI.
+
+Power BI también puede representar imágenes cuando se proporciona un campo que contiene las direcciones URL (localizador uniforme de recursos) de las imágenes. Se pueden especificar estos campos como tipos de *ImageURL* en SQL Server Data Tools (o, después, en Power BI). A continuación, se proporciona su información de tipo a Power BI en los metadatos tabulares. Seguidamente, Power BI puede recuperar las imágenes de la dirección URL y mostrarlas en objetos visuales.
 
 ### <a name="parent-child-hierarchies"></a>Jerarquías de elementos primarios y secundarios
-Los modelos multidimensionales admiten jerarquías de elementos primarios y secundarios, que se presentan como una *jerarquía* en los metadatos tabulares. Cada nivel de la jerarquía de elementos primarios y secundarios se expone como una columna oculta en los metadatos tabulares. El atributo clave de la dimensión de elementos primarios y secundarios no se expone en los metadatos tabulares.
+
+Los modelos multidimensionales admiten jerarquías de elementos primarios y secundarios, que se presentan como una *jerarquía* en los metadatos tabulares. Cada nivel de la jerarquía de elementos primarios y secundarios se expone como una columna oculta en los metadatos tabulares. El atributo clave de la dimensión de los elementos primarios y secundarios no se expone en los metadatos tabulares.
 
 ### <a name="dimension-calculated-members"></a>Miembros calculados de dimensión
+
 Los modelos multidimensionales permiten crear varios tipos de *miembros calculados*. Los dos tipos de miembros calculados más comunes son los siguientes:
 
-* Miembros calculados en jerarquías de atributos y que no sean del mismo nivel que *Todos*
+* Miembros calculados en jerarquías de atributos que no son del mismo nivel que *Todos*
 * Miembros calculados en jerarquías de usuarios
 
-Los modelos multidimensionales exponen *miembros calculados en jerarquías de atributos* como valores de una columna. Existen algunas opciones y restricciones adicionales a la hora de exponer este tipo de miembro calculado:
+Los modelos multidimensionales exponen *miembros calculados en jerarquías de atributos* como valores de una columna. Existen algunas opciones y restricciones adicionales si se expone este tipo de miembro calculado:
 
-* El atributo de dimensión puede tener un valor de *UnknownMember* opcional
-* Un atributo que contenga miembros calculados no puede ser el atributo clave de la dimensión, a menos que sea el único atributo de la dimensión
-* Un atributo que contenga miembros calculados no puede ser un atributo de elementos primarios y secundarios
+* El atributo de dimensión puede tener un valor *UnknownMember* opcional.
 
-Los miembros calculados de las jerarquías de usuarios no se exponen en Power BI. En su lugar, podrá conectarse a un cubo que contenga miembros calculados en jerarquías de usuarios, pero no podrá ver los miembros calculados si no se cumplen las restricciones mencionadas en la lista con viñetas anterior.
+* Un atributo que contenga miembros calculados no puede ser el atributo clave de la dimensión, a menos que sea el único atributo de la dimensión.
+
+* Un atributo que contenga miembros calculados no puede ser un atributo de los elementos primarios y secundarios.
+
+Los miembros calculados de las jerarquías de usuarios no se exponen en Power BI. En lugar de eso, puede conectarse a un cubo que contenga miembros calculados en jerarquías de usuarios. Sin embargo, no podrá ver los miembros calculados si no cumplen las restricciones mencionadas en la lista con viñetas anterior.
 
 ### <a name="security"></a>Seguridad
-Los modelos multidimensionales admiten la seguridad en el nivel de celdas y dimensiones mediante *Roles*. Cuando se conecte a un cubo con Power BI, se autenticarán y evaluarán los permisos adecuados. Cuando un usuario tiene aplicada *seguridad de dimensión* , el usuario no ve los miembros de dimensión correspondientes en Power BI. Sin embargo, cuando un usuario tiene definido un permiso de *seguridad de celda* , que restringe ciertas celdas, ese usuario no puede conectarse al cubo mediante Power BI.
+
+Los modelos multidimensionales admiten la seguridad en el nivel de celdas y dimensiones mediante *roles*. Cuando se conecte a un cubo con Power BI, se autenticarán y evaluarán los permisos adecuados. Si un usuario tiene aplicada *seguridad de dimensión*, este no verá los miembros de dimensión correspondientes en Power BI. Sin embargo, si un usuario tiene definido un permiso de *seguridad de celda*, que restringe ciertas celdas, no podrá conectarse al cubo mediante Power BI.
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-Existen ciertas limitaciones en el uso de **SSAS MD**:
 
-* Los servidores deben ejecutar SQL Server 2012 SP1 CU4 o versiones posteriores de Analysis Services para que el conector SSAS MD de Power BI Desktop funcione correctamente.
-* Solo las ediciones Enterprise y BI de SQL Server 2012 y SQL Server 2014 admiten conexiones dinámicas. En el caso de la versión estándar de SQL Server, se necesita SQL Server 2016 o posterior para las conexiones dinámicas.
-* Las *acciones* y los *conjuntos con nombre* no se exponen en Power BI, pero todavía puede conectarse a los cubos que, del mismo modo, contengan *acciones* o *conjuntos con nombre* y crear objetos visuales e informes.
-* Puede que detecte un problema por el que Power BI muestra los metadatos de un modelo SSAS, pero no puede recuperar los datos del modelo. Esto puede ocurrir si tiene instalada en el sistema la versión de 32 bits del proveedor MSOLAP, en vez de la versión de 64 bits. El problema debería resolverse instalando la versión de 64 bits.
-* No puede crear medidas de "nivel de informe" al crear un informe conectado en directo a un modelo multidimensional SSAS. Las únicas medidas que están disponibles son las que se definen en el modelo MD.
+Existen ciertas limitaciones en el uso de SSAS MD:
 
-## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Características admitidas de SSAS MD en Power BI Desktop
-Se admiten las siguientes características de SSAS MD en Power BI Desktop:
+* Solo las ediciones Enterprise y BI de SQL Server 2014 admiten las conexiones dinámicas. En el caso de la edición estándar de SQL Server, se necesita SQL Server 2016 u otra posterior para las conexiones dinámicas.
 
-* Se admite el consumo de los elementos siguientes en esta versión de **SSAS MD** (puede obtener [más información](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014) sobre estas características):
-  * Carpetas para mostrar
-  * Tendencias de KPI
-  * Miembros predeterminados
-  * Atributos de dimensión
-  * Miembros de dimensión calculados (debe ser un único miembro real si la dimensión tiene más de un atributo, no puede ser el atributo clave de la dimensión a menos que sea el único atributo y no puede ser un atributo primario-secundario)
-  * Tipos de atributos de dimensión
-  * Jerarquías
-  * Medidas (con o sin grupos de medida)
-  * Medidas como variante
-  * KPI
-  * Direcciones URL de imagen
-  * Seguridad de dimensión
+* Las *acciones* y los *conjuntos con nombre* no se exponen en Power BI. Para crear objetos visuales e informes, puede conectarse a los cubos que también contengan acciones o conjuntos con nombre.
 
-## <a name="troubleshooting"></a>Solución de problemas 
-En la lista siguiente se describen todos los problemas conocidos al conectarse a SQL Server Analysis Services (SSAS). 
+* Cuando Power BI muestra los metadatos de un modelo SSAS, en ocasiones no se pueden recuperar los datos del modelo. Este escenario puede producirse si se ha instalado la versión de 32 bits del proveedor MSOLAP, pero no la de 64 bits. El problema debería resolverse instalando la versión de 64 bits.
 
-* **Error: No se pudo cargar el esquema de modelo**. Este error suele producirse si el usuario que intenta conectarse a Analysis Services no tiene acceso a la base de datos o al cubo.
+* No puede crear medidas de *nivel de informe* al crear un informe conectado en directo a un modelo multidimensional SSAS. Las únicas medidas que están disponibles son las que se definen en el modelo MD.
+
+## <a name="supported-features-of-ssas-md-in-power-bi-desktop"></a>Características de SSAS MD admitidas en Power BI Desktop
+
+En esta versión de SSAS MD se admite el consumo de los siguientes elementos. Para obtener más información sobre estas características, vea [Descripción de Power View para modelos multidimensionales](/sql/analysis-services/multidimensional-models/understanding-power-view-for-multidimensional-models?view=sql-server-2014).
+
+* Miembros predeterminados
+* Atributos de dimensión
+* Tipos de atributos de dimensión
+* Miembros calculados de dimensión, los cuales:
+  * Deben ser un solo miembro real cuando la dimensión tenga más de un atributo.
+  * No pueden ser el atributo clave de la dimensión a menos que sea el único atributo.
+  * No pueden ser un atributo de un elemento primario y secundario.
+* Seguridad de dimensión
+* Carpetas para mostrar
+* Jerarquías
+* Direcciones URL de imagen
+* KPI
+* Tendencias KPI
+* Medidas (con o sin grupos de medida)
+* Medidas como variante
+
+## <a name="troubleshooting"></a>Solución de problemas
+
+En la lista siguiente se describen todos los problemas conocidos al conectarse a SQL Server Analysis Services (SSAS).
+
+* **Error: No se ha podido cargar el esquema de modelo**. Este error suele producirse si el usuario que intenta conectarse a Analysis Services no tiene acceso a la base de datos o al cubo.

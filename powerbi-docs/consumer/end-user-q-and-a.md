@@ -9,14 +9,14 @@ ms.topic: conceptual
 ms.date: 12/18/2019
 ms.author: mihart
 LocalizationGroup: Ask questions of your data
-ms.openlocfilehash: 5dd924f066b6382ed895d81ed0ada5d913c040e6
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: cc20d981e1e774eed109c614e146415ec3813601
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75218254"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709802"
 ---
-# <a name="qa-for-power-bi-consumers"></a>Preguntas y respuestas para **consumidores** de Power BI
+# <a name="qa-for-power-bi-consumers"></a>Preguntas y respuestas para consumidores de Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -167,6 +167,10 @@ A continuación, elija **Configuración** > **Paneles**. Asegúrese de que hay u
 **Respuesta:** Seleccione la opción para ponerse en contacto con el propietario del panel o el informe. Puede hacerlo directamente desde la página del panel de Preguntas y respuestas o desde el objeto visual Preguntas y respuestas. O bien, puede buscar el propietario en el encabezado de Power BI.  El diseñador puede hacer muchas cosas para mejorar los resultados de Preguntas y respuestas. Por ejemplo, el diseñador puede cambiar el nombre de las columnas del conjunto de datos para usar unos términos que se entiendan fácilmente (`CustomerFirstName` en lugar de `CustFN`). Dado que el diseñador conoce realmente bien el conjunto de datos, el diseñador también puede plantear preguntas útiles y agregarlas a las preguntas sugeridas de Preguntas y respuestas.
 
 ![Mostrar información de contacto](media/end-user-q-and-a/power-bi-q-and-a-contact.png)
+
+## <a name="privacy"></a>Privacidad
+
+Microsoft puede usar sus preguntas para mejorar Power BI. Revise la [declaración de privacidad de Microsoft](https://go.microsoft.com/fwlink/?LinkId=521839) para obtener más información al respecto.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Para obtener información sobre cómo un *diseñador* de informes puede crear y administrar un objeto visual Preguntas y respuestas, consulte [Tipo de objeto visual Preguntas y respuestas](../visuals/power-bi-visualization-q-and-a.md).

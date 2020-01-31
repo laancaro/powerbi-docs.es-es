@@ -8,12 +8,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 06/26/2019
 ms.author: tebercov
-ms.openlocfilehash: a9f589a5e840e95e349ec303b42b30568820e8b3
-ms.sourcegitcommit: ef9ab7c0d84b926094c33e8aa2765cd43b844314
+ms.openlocfilehash: 632c1f1a9f0cba3f403cae4a471df6b7e699f481
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "75622454"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76710137"
 ---
 # <a name="tips-for-authoring-template-apps-in-power-bi"></a>Sugerencias para crear aplicaciones de plantilla en Power BI
 
@@ -134,6 +134,17 @@ Las aplicaciones de plantilla solo admiten aplicaciones de datos de ejemplo, ase
 * Antes de cargar pbix en el área de trabajo de plantilla, asegúrese de descargar cualquier conexión innecesaria.
 * Siga los [procedimientos recomendados de diseño para informes y objetos visuales](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices) de Power BI para lograr el máximo impacto en sus usuarios y obtener la aprobación para su distribución.
 <!--- * In general, only application with valuable functionality can be approved for general use on AppSource. Application with sample data content only must have either a guidance or statistical value.) -->
+
+## <a name="create-a-download-link-for-the-app"></a>Creación de un vínculo de descarga para la aplicación
+
+Después de publicar la aplicación de plantilla en AppSource, valore la posibilidad de crear un vínculo de descarga desde el sitio web a:
+* Página de descargas de AppSource: se puede ver de forma pública y obtener el vínculo desde la página de AppSource.
+* Power BI: lo puede ver un usuario de Power BI.
+
+Para redirigir a un usuario al vínculo de descarga de la aplicación en Power BI, vea el ejemplo de código siguiente: [Repositorio de GitHub](https://github.com/microsoft/Template-apps-examples/tree/master/src)
+[![Vínculo de descarga de la aplicación](media/service-template-apps-tips/service-template-apps-tips-download.png)](https://app.powerbi.com/groups/me/getapps/services/pbi-contentpacks.pbiapps-github)
+
+
 
 ## <a name="known-limitations"></a>Limitaciones conocidas
 

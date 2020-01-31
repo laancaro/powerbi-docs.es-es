@@ -6,14 +6,14 @@ author: mihart
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/07/2019
+ms.date: 01/17/2019
 ms.author: mihart
-ms.openlocfilehash: cf70774712a8b72493c8957139d8f802dc4d1ed7
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e5c3f8b327d6899d83e2304e56e5813a47fc4698
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836657"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76537816"
 ---
 # <a name="glossary-for-power-bi-service"></a>Glosario para el servicio Power BI
 El servicio Power BI puede utilizar terminología desconocida o que puede llevar a confusiones. El glosario es un lugar ideal para consultar terminología, que incluso le permite marcar contenido. Otro recurso útil para conocer la base sobre la que se sustenta el servicio Power BI es [Conceptos básicos](end-user-basic-concepts.md). En Conceptos básicos encontrará información general de alto nivel sobre las *piezas* que forman Power BI y cómo se interconectan.
@@ -77,6 +77,10 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 
 **content view (vista de contenido)**
 
+**Variable continua**: una variable continua puede ser cualquier valor entre sus límites mínimo y máximo; de lo contrario, es una variable discreta. Algunos ejemplos son la temperatura, la ponderación, la edad y el tiempo. Las variables continuas pueden incluir fracciones o partes del valor. El número total de monopatines azules vendidos es una variable discreta, ya que no se puede vender medio monopatín.
+
+**Correlación**: una correlación indica cómo se relaciona el comportamiento de las cosas.  Si sus patrones de aumento y reducción son similares, se correlacionan de manera positiva. Del mismo nodo, si sus patrones son opuestos, se correlacionan de forma negativa. Por ejemplo, si las ventas del monopatín rojo aumentan cada vez que se lanza una campaña de marketing en televisión, las ventas del monopatín rojo y la campaña de televisión están correlacionadas de forma positiva.
+
 **filtro cruzado** Se aplica a las interacciones de objetos visuales. El filtrado cruzado quita los datos que no se aplican. Por ejemplo, si selecciona **Moderación** en el gráfico de anillos, se realiza un filtrado cruzado del gráfico de líneas. Ahora en el gráfico de líneas solo se muestran los puntos de datos que se aplican al segmento Moderación.
 
 **resaltado cruzado** Se aplica a las interacciones de objetos visuales. El resaltado cruzado conserva todos los puntos de datos originales, pero atenúa la parte que no se aplica a la selección. Por ejemplo, si selecciona **Moderación** en el gráfico de anillos, se realiza el resaltado cruzado del gráfico de columnas. El gráfico de columnas atenúa todos los datos que no se aplican al segmento Moderación y resalta todos los que se aplican.
@@ -102,8 +106,9 @@ Este glosario es fruto del trabajo realizado por la comunidad.  ¿No encuentra a
 **Desktop** o **Power BI Desktop** Herramienta gratuita de Power BI que se usan principalmente los administradores, desarrolladores y diseñadores de informes. 
 
 
-
 **diamond (rombo)** Power BI Premium. Forma del icono que indica que un área de trabajo es de capacidad Premium.
+
+**Dimensión**: las dimensiones son datos de categorías (texto). Una dimensión describe personas, objetos, elementos, productos, lugares y períodos de tiempo. En un conjunto de datos, las dimensiones son una manera de agrupar las *medidas* en categorías útiles. Para la empresa de monopatines, algunas dimensiones pueden incluir el análisis de las ventas (una medida) por modelo, color, país o campaña de marketing.   
 
 **drill up, drill down, drillthrough (explorar agrupando datos, explorar desagrupando datos, obtener detalles)** En Power BI, utilice la exploración desagrupando datos y la exploración agrupando datos para hacer referencia a la capacidad de explorar el siguiente nivel de detalle en un informe u objeto visual. Use la obtención de detalles para referirse a la capacidad de seleccionar una parte de un objeto visual y llevarlo a otra página del informe, que se filtra con los datos relacionados con la parte del objeto visual que seleccionó en la página original.
 Profundizar en los detalles normalmente significa mostrar los registros subyacentes.
@@ -168,6 +173,8 @@ Primera aparición: panel de navegación Siguientes menciones o en espacios redu
 **página de lista** o **lista de contenido**: una de las páginas de la sección para los elementos del panel de navegación. Por ejemplo, Favoritos, Recientes, Mi área de trabajo, etc.
 
 ## <a name="m"></a>M
+
+**Medida**: una medida es un campo cuantitativo (numérico) que se puede usar para realizar cálculos. Los cálculos comunes son los de suma, promedio y mínimo. Por ejemplo, si la empresa fabrica y vende monopatines, las medidas podrían ser el número de monopatines vendidos y el beneficio medio al año.
 
 **Mobile app (Aplicación móvil)** : aplicaciones que le permiten ejecutar Power BI en dispositivos iOS, Android y Windows.
 
@@ -302,6 +309,8 @@ Puede suscribirse a páginas de informes, aplicaciones y paneles, y recibir corr
 ## <a name="t"></a>T
 **tiles (iconos)**  
 Los paneles de Power BI contienen iconos de un informe.
+
+**Serie temporal**: una serie temporal es una forma de mostrar el tiempo como puntos de datos sucesivos. Estos puntos de datos pueden ser incrementos como segundos, horas, meses o años.  
 
 
 ## <a name="u"></a>U

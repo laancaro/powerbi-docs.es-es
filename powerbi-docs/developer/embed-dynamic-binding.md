@@ -7,30 +7,28 @@ ms.topic: conceptual
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.date: 11/07/2019
-ms.openlocfilehash: f797dd55202ff4cba87cc3a15601d85091e94823
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 1f54ce3a6bfd69caa3f386b7684e3df7f725523d
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74164069"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709532"
 ---
 # <a name="connect-a-report-to-a-dataset-using-dynamic-binding"></a>Conexión de un informe a un conjunto de datos mediante el enlace dinámico 
 
-Cuando un informe está conectado a un conjunto de datos puede usar el enlace dinámico. La conexión entre el informe y el conjunto de datos se conoce como *enlace*. Cuando se determina el enlace en el momento de la inserción en lugar de determinarse anteriormente, este se conoce como [enlace dinámico](https://nam06.safelinks.protection.outlook.com/?url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FLate_binding&data=02%7C01%7CKesem.Sharabi%40microsoft.com%7C5d5b0d2d62cf4818f0c108d7635b151e%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C637087115150775585&sdata=AbEtdJvgy4ivi4v4ziuui%2Bw2ibTQQXBQNYRKbXn5scA%3D&reserved=0).
- 
+Cuando un informe está conectado a un conjunto de datos puede usar el enlace dinámico. La conexión entre el informe y el conjunto de datos se conoce como *enlace*. Cuando se determina el enlace en el momento de la inserción, en lugar de hacerlo con anterioridad, este se conoce como enlace dinámico.
+
 Al insertar un informe de Power BI con el *enlace dinámico*, puede conectar el mismo informe a distintos conjuntos de datos dependiendo de cuáles sean las credenciales del usuario.
- 
+
 Esto significa que puede usar un informe para mostrar información diferente, dependiendo del conjunto de datos al que esté conectado. Por ejemplo, un informe que muestre valores de ventas al por menor puede estar conectado a distintos conjuntos de datos del minorista y producir resultados diferentes dependiendo del conjunto de datos del minorista al que esté conectado.
- 
+
 No es preciso que el informe y el conjunto de datos se encuentren en la misma área de trabajo. Las dos áreas de trabajo (la que contiene el informe y la que contiene el conjuntos de datos) deben asignarse a una [capacidad](azure-pbie-create-capacity.md).
 
 Como parte del proceso de inserción, asegúrese de *generar un token con los permisos suficientes* y *ajustar el objeto de configuración*.
 
-
 ## <a name="generating-a-token-with-sufficient-permissions"></a>Generación de un token con permisos suficientes
 
 El enlace dinámico se admite en los dos escenarios de inserción: *Inserción de contenido para la organización* e *Inserción de contenido para los clientes*. En la tabla siguiente, se describen las consideraciones para cada escenario.
-
 
 |Escenario  |Propiedad de los datos  |Token  |Requisitos  |
 |---------|---------|---------|---------|

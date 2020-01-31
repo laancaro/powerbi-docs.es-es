@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 05/17/2018
+ms.date: 01/21/2020
 ms.author: maggies
-ms.openlocfilehash: 019cbc489ae6433629898e44088e689767ef12ae
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 343c7d7e81d8e8ec53383feab6dc4dcfb17129d6
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874176"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540599"
 ---
 # <a name="power-bi-report-data-sources-in-power-bi-report-server"></a>Orígenes de datos de los informes de Power BI en Power BI Report Server
 Los informes de Power BI pueden conectarse a diferentes orígenes de datos. En función de cómo se usan los datos, hay disponibles diferentes orígenes de datos. Se pueden importar datos o se pueden consultar datos directamente mediante DirectQuery o una conexión dinámica con SQL Server Analysis Services.
@@ -52,14 +52,14 @@ Otros orígenes de datos pueden funcionar aunque no estén en la lista de admiti
 | Impala |Sí |No |No |
 | JSON |Sí |Sí |No |
 | Microsoft Exchange |Sí |No |No |
-| Microsoft Exchange Online |Sí |No |No |
+| Microsoft Exchange Online |Sí |No |No |
 | Base de datos de MySQL |Sí |Sí |No |
 | Fuente de OData |Sí |Sí |No |
 | ODBC |Sí |Sí |No |
 | OLE DB |Sí |Sí |No |
 | Base de datos de Oracle |Sí |Sí |Sí |
 | Base de datos de PostgreSQL |Sí |Sí |No |
-| Servicio Power BI |No |No |No |
+| Servicio Power BI |No |No |No |
 | Script R |Sí |No |No |
 | Objetos de Salesforce |Sí |No |No |
 | Informes de Salesforce |Sí |No |No |
@@ -138,14 +138,14 @@ Power BI Report Server no admite la autenticación basada en OAuth para la actua
 | Base de datos IBM DB2 |No |No |Sí |Sí |
 | Impala |No |No |No |No |
 | Microsoft Exchange |No |No |No |No |
-| Microsoft Exchange Online |No |No |No |No |
+| Microsoft Exchange Online |No |No |No |No |
 | Base de datos de MySQL |No |No |Sí |Sí |
 | Fuente de OData |Sí |Sí |Sí |Sí |
 | ODBC |Sí |No |Sí |Sí |
 | OLE DB |Sí |No |Sí |Sí |
 | Base de datos de Oracle |No |No |Sí |Sí |
 | Base de datos de PostgreSQL |No |No |Sí |No |
-| Servicio Power BI |No |No |No |No |
+| Servicio Power BI |No |No |No |No |
 | Script R |No |No |No |No |
 | Objetos de Salesforce |No |No |No |No |
 | Informes de Salesforce |No |No |No |No |
@@ -202,12 +202,12 @@ Power BI Report Server no admite la autenticación basada en OAuth para DirectQu
 | Azure SQL Data Warehouse |No |No |Sí |No |No |
 | Base de datos de Oracle |No |No |Sí |Sí |Sí |
 | Servidor de SAP Business Warehouse |No |No |Sí |No |No |
-| Base de datos SAP HANA |No |No |Sí |Sí |No |
+| Base de datos SAP HANA |No |No |Sí |Sí |Sí** |
 | Teradatos |No |No |Sí |Sí |Sí |
 
+** SAP HANA admite DirectQuery con la autenticación integrada de Windows solo cuando se usa como base de datos relacional en el archivo de Power BI Desktop publicado (.pbix).
 
 ## <a name="next-steps"></a>Pasos siguientes
 Ahora que se ha conectado al origen de datos, [cree un informe de Power BI](quickstart-create-powerbi-report.md) con los datos de ese origen de datos.
 
 ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-

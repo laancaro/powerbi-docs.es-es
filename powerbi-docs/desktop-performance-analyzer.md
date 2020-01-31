@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/15/2019
+ms.date: 01/23/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8bbf391135442d6490033c0fc65b7372154820d2
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: e3e9e8ebc7feda46cb4c79ffd1535807d04a178b
+ms.sourcegitcommit: a1409030a1616027b138128695b80f6843258168
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73866423"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "76709771"
 ---
 # <a name="use-performance-analyzer-to-examine-report-element-performance"></a>Uso del Analizador de rendimiento para examinar el rendimiento de los elementos de los informes
 
@@ -58,6 +58,9 @@ La información de cada registro de objetos visuales incluye el tiempo empleado 
 * **Presentación visual**: tiempo necesario para que el objeto visual dibuje en la pantalla, incluido el tiempo necesario para recuperar imágenes web o geocodificación. 
 * **Otros**: tiempo que el objeto visual necesita para preparar las consultas, esperar a que se completen otros objetos visuales o realizar otro procesamiento en segundo plano.
 
+Los valores **Duración (ms)** indican la diferencia entre una marca de tiempo de *inicio* y de *finalización* para cada operación. La mayoría de las operaciones del lienzo y los objetos visuales se ejecutan de forma secuencial en un único subproceso de interfaz de usuario, que se comparte entre varias operaciones. Las duraciones notificadas incluyen el tiempo invertido en cola mientras se completan otras operaciones. En el [ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer) de GitHub y su [documentación](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx) asociada se proporcionan detalles sobre cómo los objetos visuales consultan los datos y cómo se representan.
+
+
 ![elementos de información de registro](media/desktop-performance-analyzer/performance-analyzer-06.png)
 
 Después de haber interactuado con los elementos del informe que desea medir con el Analizador de rendimiento, puede seleccionar el botón **Detener**. La información de rendimiento permanece en el panel después de seleccionar **Detener** para su análisis.
@@ -89,3 +92,7 @@ Para más información acerca de **Power BI Desktop** y cómo empezar a trabajar
 * [Combinar datos y darles forma con Power BI Desktop](desktop-shape-and-combine-data.md)
 * [Tareas de consultas comunes en Power BI Desktop](desktop-common-query-tasks.md)   
 
+Para obtener más información sobre el ejemplo Analizador de rendimiento, consulte los recursos siguientes.
+
+* [Ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/tree/master/Performance%20Analyzer)
+* [Documentación del ejemplo Analizador de rendimiento](https://github.com/microsoft/powerbi-desktop-samples/blob/master/Performance%20Analyzer/Power%20BI%20Performance%20Analyzer%20Export%20File%20Format.docx)

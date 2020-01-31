@@ -1,27 +1,27 @@
 ---
-title: Introducción a las propiedades de eje y formato de color
-description: Introducción a las propiedades de eje y formato de color
+title: Introducción al formato de las visualizaciones de los informes
+description: Introducción al uso de las opciones de formato con las visualizaciones de los informes
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 08/06/2018
+ms.date: 12/14/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 7eded3d17e0db5894bd2f1a03fae49357eb27c69
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: b42d83b4cea6f5f5e8908244b2b298dc3f327468
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75762264"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76540642"
 ---
-# <a name="get-started-with-color-formatting-and-axis-properties"></a>Introducción a las propiedades de eje y formato de color
-En **Power BI**, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. También puede cambiar cómo se presentan los ejes x e y, con lo que tendrá control total sobre cómo aparecen los paneles e informes.
+# <a name="getting-started-with-the-formatting-pane"></a>Introducción al panel de formato
+Si tiene permisos de edición para un informe, hay numerosas opciones de formato disponibles. En los informes de **Power BI**, puede cambiar el color de la serie de datos, los puntos de datos e incluso el fondo de las visualizaciones. Puede cambiar la presentación de los ejes X e Y. También puede aplicar formato a las propiedades de fuente de las visualizaciones, las formas y los títulos, lo que le proporciona un control total sobre el modo en el que se muestran los informes.
 
-Para empezar, seleccione un **informe** en el panel **Mi área de trabajo** . A continuación, en el área de menú superior, seleccione **Editar informe**.  
+Para empezar, abra un informe en Power BI Desktop o en el servicio Power BI. En ambos casos se proporcionan opciones de formato prácticamente idénticas. Al abrir un informe en el servicio Power BI, asegúrese de seleccionar **Editar informe** en la barra de menús.  
 
-![](media/service-getting-started-with-color-formatting-and-axis-properties/gettingstartedcolor_1a.png)
+![Barra de menús con la opción Editar](media/service-getting-started-with-color-formatting-and-axis-properties/power-bi-edit.png)
 
 Cuando edite un informe y tenga una visualización seleccionada, se mostrará el panel **Visualizaciones** , que le permite agregar o cambiar visualizaciones. Justo debajo de las visualizaciones disponibles, hay tres iconos: el icono **Campos** (una pila de barras), el icono **Formato** (pincel) y el icono **Análisis** (una lupa). En la imagen siguiente, el icono **Campos** está seleccionado, lo que se indica con una barra amarilla debajo del icono.
 

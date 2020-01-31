@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/16/2019
+ms.date: 01/08/2019
 ms.author: painbar
-ms.openlocfilehash: 44fcfdbaa51b85b191ff1452c66daee7da0360f8
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "75220527"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538414"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -21,6 +21,27 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="december-2019"></a>Diciembre de 2019
+
+### <a name="docked-report-footer-and-a-refresh-button---new-experiences-for-interacting-with-reports-android"></a>Pie de página de informe acoplado y un botón Actualizar: nuevas experiencias para interactuar con informes (Android)
+
+Nuestros usuarios de Android nos han hecho saber que su experiencia al usar los informes no es óptima, ya que les resulta difícil usar el pie de página del informe y que deslizar para actualizar es demasiado sensible en algunos dispositivos. Por tanto, en esta versión, estos comportamientos se han cambiado:
+* **Pie de página de informe acoplado**: ahora, al abrir un informe en el teléfono, encontrará el pie de página del informe acoplado en la parte inferior de la página del informe, donde siempre estará visible y disponible, con independencia de las acciones que realice en la página. Esto facilita el uso de todas las opciones que proporciona.
+* **Botón Actualizar en el encabezado del informe**: también encontrará un botón Actualizar en el encabezado del informe, lo que facilitará la actualización del informe exactamente cuando quiera.
+
+Los usuarios que prefieran el comportamiento anterior pueden restaurarlo con la nueva [configuración de la interacción](./mobile-app-interaction-settings.md) de la aplicación móvil.
+
+Además, los administradores de TI pueden [invalidar de forma remota la nueva configuración predeterminada](./mobile-app-configuration.md#interaction-settings-android) en nombre de los usuarios mediante la herramienta de MDM que prefieran con un archivo de configuración de la aplicación. De esta forma, se puede configurar el mismo comportamiento para todos los usuarios de una organización.
+
+> [!NOTE]
+> La configuración de la interacción para el botón de actualización y para acoplar el pie de página del informe actualmente no afecta a los informes de Report Server. Esto cambiará con la versión de enero de Report Server.
+
+### <a name="set-default-bookmarks-from-your-mobile-app"></a>Establecimiento de marcadores predeterminados desde la aplicación móvil
+Ahora puede establecer marcadores predeterminados para los informes directamente desde la aplicación móvil de Power BI. Después, cada vez que abra un informe, su marcador predeterminado se aplicará de forma automática. [Obtenga más información al respecto](./mobile-reports-in-the-mobile-apps.md#bookmarks).
+
+### <a name="filtering-by-location-on-android-tablets"></a>Filtrado por ubicación en tabletas Android
+El filtrado geográfico le permite filtrar los informes en función de la ubicación actual. Ahora esta característica también está disponible en la aplicación de Power BI para tabletas Android. [Obtenga más información al respecto](./mobile-apps-geographic-filtering.md).
 
 ## <a name="november-2019"></a>Noviembre de 2019
 

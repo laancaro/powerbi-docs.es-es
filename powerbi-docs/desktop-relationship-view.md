@@ -1,33 +1,29 @@
 ---
-title: Vista de relaciones en Power BI Desktop
-description: Vista de relaciones en Power BI Desktop
+title: Vista de modelo en Power BI Desktop
+description: Vista de modelo en Power BI Desktop
 author: davidiseminger
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/17/2020
 ms.author: davidi
 LocalizationGroup: Model your data
-ms.openlocfilehash: cd9671b8c38cb2aa1502c3aa00a871d125f819b1
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: ea568c061142e66e79351de8a6c0f0603a46f775
+ms.sourcegitcommit: 08f65ea314b547b41b51afef6876e56182190266
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760489"
+ms.lasthandoff: 01/25/2020
+ms.locfileid: "76753243"
 ---
-# <a name="work-with-relationship-view-in-power-bi-desktop"></a>Vista de relaciones en Power BI Desktop
-La **vista de relaciones** muestra todas las tablas, columnas y relaciones en el modelo. Esto puede resultar especialmente útil cuando el modelo tiene relaciones complejas entre muchas tablas.
+# <a name="work-with-model-view-in-power-bi-desktop"></a>Trabajo con la vista Modelo en Power BI Desktop
 
-Echemos un vistazo.
+La *vista Modelo* muestra todas las tablas, columnas y relaciones en el modelo. Esta vista puede resultar especialmente útil cuando el modelo tiene relaciones complejas entre muchas tablas.
 
-![](media/desktop-relationship-view/relationshipview_fullscreen.png)
+Seleccione el icono **Modelo** cerca del lateral de la ventana para ver una vista del modelo existente. Mantenga el cursor sobre una línea de relación para mostrar las columnas que se han usado.
 
-**A.**  Icono de vista de relaciones: haga clic para mostrar el modelo en la vista de relaciones
+![Vista Modelo en Power BI Desktop](media/desktop-relationship-view/model-view-full-screen.png)
 
-**B.** Relación: puede situar el cursor sobre una relación para ver las columnas usadas. Haga doble clic en una relación para abrirla en el cuadro de diálogo **Editar relación**. 
+En la ilustración, puede ver que la tabla *Stores* tiene una columna *StoreKey* que está relacionada con la tabla *Sales*, que también tiene una columna *StoreKey*. Las dos tablas tienen una relación del tipo *varios a uno* (\*:1). Una flecha en el centro de la línea muestra la dirección del flujo de contexto del filtro. Las flechas dobles significan que la dirección del filtro cruzado se establece en *Ambos*.
 
-En la ilustración anterior, puede ver que la tabla *Stores* tiene una columna *StoreKey* que está relacionada con la tabla *Sales*, que también tiene una columna *StoreKey*. Vemos que se trata de una relación de *varios a uno* (\*:1) y el icono en la parte central de la línea muestra la dirección del filtro cruzado establecido en *Ambos*. La flecha del icono muestra la dirección del flujo de contexto del filtro.
-
-Para obtener más información sobre las relaciones, consulte [Crear y administrar relaciones en Power BI Desktop](desktop-create-and-manage-relationships.md).
-
+Se puede hacer doble clic en una relación para abrirla en el cuadro de diálogo **Editar relación**. Para obtener más información sobre las relaciones, consulte [Crear y administrar relaciones en Power BI Desktop](desktop-create-and-manage-relationships.md).

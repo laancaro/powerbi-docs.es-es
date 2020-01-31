@@ -6,116 +6,97 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 01/16/2019
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 7189ef77446446b56b1dcb55b43b022d0fc5c057
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: e500cb29bcc4472c59e7e8215fc0a7e7e728ea0d
+ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73868774"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "76538902"
 ---
-# <a name="use-cross-report-drillthrough-in-power-bi-desktop"></a>Uso de la obtención de detalles entre varios informes en Power BI Desktop
+# <a name="use-cross-report-drillthrough-in-power-bi"></a>Uso de la obtención de detalles de varios informes en Power BI
 
-Con la característica de obtención de detalles entre varios informes de Power BI Desktop, puede pasar contextualmente de un informe a otro. Esto es posible siempre y cuando los informes estén dentro de la misma área de trabajo o aplicación en el servicio Power BI. Use la obtención de detalles entre varios informes para conectar dos o más informes que tengan contenido relacionado y para pasar el contexto de filtro junto con la conexión entre informes. En este artículo, aprenderá a configurar la obtención de detalles entre varios informes de Power BI y conocerá lo que experimentan los usuarios cuando usan esta característica por sí mismos.
+Con la característica de *obtención de detalles de varios informes* de Power BI, puede pasar contextualmente de un informe a otro en la misma área de trabajo o aplicación del servicio Power BI. Puede usar la obtención de detalles de varios informes para conectar dos o más informes que tengan contenido relacionado y para pasar el contexto de filtro junto con la conexión entre informes. 
 
-![Captura de pantalla de la opción de obtención de detalles de Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
+Para iniciar la obtención de detalles de varios informes, seleccione un punto de datos en un *objeto visual de origen* o un *informe de origen* y, después, seleccione el destino **Obtención de detalles** de varios informes en el menú contextual. 
 
-Antes de empezar a configurar y usar la obtención de detalles entre varios informes, es importante comprender las siguientes definiciones:
+![Opción de obtención de detalles de varios informes de Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-* **Objeto visual de origen:** el objeto visual que invoca la acción de obtención de detalles mediante su menú contextual.
-* **Informe de origen:** el informe que contiene el objeto visual de origen para la obtención de detalles entre varios informes.
-* **Página de destino:** la página en la que un usuario aterriza después de iniciar una acción de obtención de detalles.
-* **Informe de destino:** el informe que contiene la página de destino para la obtención de detalles entre varios informes.
+La acción de obtención de detalles abre la *página de destino* en el *informe de destino*. 
 
+![Destino de la obtención de detalles de varios informes en Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
+
+En este artículo se muestra cómo configurar y usar la obtención de detalles de varios informes para informes de Power BI.
 
 > [!NOTE]
-> Con la característica de obtención de detalles entre varios informes de Power BI Desktop, puede pasar contextualmente de un informe a otro. Esto es posible siempre y cuando los informes estén dentro de la misma área de trabajo o aplicación en el servicio Power BI. Esto no se aplica al acceder a informes compartidos individualmente dentro de *Mi área de trabajo* ([Informes compartidos conmigo](service-share-dashboards.md#share-a-dashboard-or-report)). En su lugar, debe acceder al informe en el área de trabajo desde donde se compartió originalmente.
-
+> La obtención de detalles de varios informes no se puede usar con los [informes Compartidos conmigo](service-share-dashboards.md#share-a-dashboard-or-report), es decir, los compartidos de forma individual en **Mi área de trabajo**. Para usar la obtención de detalles de varios informes, debe acceder a los informes en el área de trabajo desde la que se han compartido.
 
 ## <a name="enable-cross-report-drillthrough"></a>Habilitación de la obtención de detalles entre varios informes
 
-Para permitir que un informe sea el destino de una obtención de detalles entre varios informes, debe habilitar la característica para ese informe en la ventana **Opciones**. Vaya a **Archivo** > **Opciones y configuración** > **Opciones** y, luego, vaya a **Configuración de informes** cerca de la parte inferior de la página de la izquierda.
+El primer paso para habilitar la obtención de detalles de varios informes es validar los modelos de datos de los informes de origen y destino. Aunque no es necesario que los esquemas de cada informe sean los mismos, los campos que quiera pasar deben existir en ambos modelos de datos. Los nombres de los campos y de las tablas a las que pertenecen deben ser idénticos. Las cadenas deben coincidir y distinguir mayúsculas de minúsculas.
 
-Active la casilla **Permitir a los objetos visuales de este informe utilizar los destinos de obtención de detalles de otros informes**, como se muestra en la imagen siguiente.
+Por ejemplo, si quiere pasar un filtro por un campo **Estado** dentro de la tabla **Estados de EE. UU.** , ambos modelos deben tener una tabla **Estados de EE. UU.** y un campo **Estado** dentro de esa tabla. Si no es así, debe actualizar el nombre del campo o el nombre de la tabla en el modelo subyacente. Para que funcione correctamente la obtención de detalles entre varios informes, no basta con actualizar simplemente el nombre para mostrar de los campos.
 
-![Captura de pantalla de la ventana Opciones, con la opción Configuración de informes resaltada](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
+Después de validar los modelos, habilite el informe de origen para usar la obtención de detalles de varios informes. 
 
-La obtención de detalles entre varios informes está ahora habilitada.
+1. En Power BI Desktop, vaya a **Archivo** > **Opciones y configuración** > **Opciones**. 
+1. En la ventana **Opciones** de navegación de la izquierda, en la parte inferior de la sección **Archivo actual**, seleccione **Configuración de informes**. 
+1. En la esquina inferior derecha, debajo de **Obtención de detalles de varios informes**, seleccione **Permitir a los objetos visuales de este informe utilizar los destinos de obtención de detalles de otros informes**. 
+1. Seleccione **Aceptar**. 
+   
+   ![Habilitación de la obtención de detalles de varios informes en Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-02.png)
 
-## <a name="set-up-cross-report-drillthrough"></a>Configuración de la obtención de detalles entre varios informes
+También puede habilitar la obtención de detalles de varios informes desde el servicio Power BI.
+1. En el servicio Power BI, seleccione el área de trabajo que contiene los informes de origen y de destino.
+1. Junto al nombre del informe de origen en la lista de áreas de trabajo, seleccione el símbolo **Más opciones** y, después, **Configuración**. 
+1. Junto a la parte inferior del panel **Configuración**, debajo de **Obtención de detalles de varios informes**, seleccione **Permitir a los objetos visuales de este informe utilizar los destinos de obtención de detalles de otros informes** y, luego, **Guardar**.
+   
+   ![Habilitación de la obtención de detalles de varios informes en el servicio Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-02a.png)
 
-La configuración de la obtención de detalles entre varios informes es similar a la configuración de la obtención de detalles en un informe. La obtención de detalles está habilitada en la página de destino, lo que permite a otros objetos visuales dirigirse a la página habilitada para la obtención de detalles. Para ver los pasos para crear la obtención de detalles en un único informe, consulte [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md).
+## <a name="set-up-a-cross-report-drillthrough-target"></a>Configuración de un destino de obtención de detalles de varios informes
 
-Para iniciar el proceso de configuración, debe realizar un par de pasos iniciales:
+La configuración de una página de destino para la obtención de detalles de varios informes es similar a la de la obtención de detalles en un informe. La habilitación de la obtención de detalles en la página de destino permite destinar otros objetos visuales a la página para la obtención de detalles. Para crear la obtención de detalles en un único informe, vea [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md).
 
-* Configure una página de destino de obtención de detalles, a la que se pueda acceder luego desde otros informes del área de trabajo o la aplicación.
-* Permita que un informe vea las páginas de obtención de detalles desde fuera de su propio informe.
+Puede configurar un destino para la obtención de detalles de varios informes en Power BI Desktop o en el servicio Power BI. 
+1. Edite el archivo de destino y, en la página destino del informe de destino, seleccione la sección **Campos** del panel **Visualizaciones**. 
+1. En **Obtención de detalles**, establezca la opción **Entre varios informes** en **Activada**. 
+1. Arrastre los campos que quiera usar como destinos de obtención de detalles a **Agregue los campos de obtención de detalles aquí**. Para cada campo, seleccione si quiere permitir la obtención de detalles cuando el campo se use como una categoría, o bien cuando se resuma como una medida. 
+1. Seleccione si quiere **Mantener todos los filtros** para el objeto visual. Si no quiere pasar los filtros aplicados al objeto visual de origen al de destino, seleccione **Desactivado**.
+   
+   ![Panel Visualizaciones, con las opciones de obtención de detalles resaltadas](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+   
+1. Si solo va a usar la página para la obtención de detalles de varios informes, elimine el botón **Atrás** que se agrega automáticamente al lienzo. El botón **Atrás** solo funciona para la navegación dentro de un informe. 
+1. Después de configurar la página de destino, guarde el informe si usa el servicio Power BI, o bien, si usa Power BI Desktop, guárdelo y publíquelo.
 
-Busque opciones de obtención de detalles en la sección **Campos** del panel **Visualizaciones**, como se muestra en la siguiente imagen.
+Ya está. Los informes están listos para la obtención de detalles de varios informes. 
 
-![Captura de pantalla del panel Visualizaciones, con opciones de obtención de detalles resaltadas](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
+## <a name="use-cross-report-drillthrough"></a>Uso de la obtención de detalles en varios informes
 
-El primer paso para habilitar la obtención de detalles en una página es validar los modelos de datos de los informes de origen y destino. Compruebe los siguiente: 
+Para usar la obtención de detalles de varios informes, seleccione el informe de origen en el servicio Power BI y, luego, seleccione un objeto visual que use el campo de obtención de detalles de la forma que haya especificado al configurar la página de destino. Haga clic con el botón derecho en un punto de datos para abrir el menú contextual del objeto visual, seleccione **Obtención de detalles** y, después, el destino de obtención de detalles. Los destinos de obtención de detalles de varios informes tienen el formato **Nombre de página [nombre de informe]** .
 
-* Los campos que quiere pasar existen en ambos modelos de datos.
-* Los nombres de los campos y los nombres de las tablas a las que pertenecen son idénticos (las cadenas también deben coincidir y distinguen mayúsculas de minúsculas).
+![Opción de obtención de detalles de varios informes de Power BI](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
 
-Por ejemplo, si quiere pasar un filtro al campo *País* dentro de la tabla *Geografía*, ambos modelos deben tener una tabla *Geografía* y un campo *País* dentro de esa tabla. Si no es así, debe actualizar el nombre del campo o el nombre de la tabla en el modelo subyacente. Para que funcione correctamente la obtención de detalles entre varios informes, no basta con actualizar simplemente el nombre para mostrar de los campos. (Tenga en cuenta que los esquemas de cada informe no tienen que ser exactamente iguales).
+Puede ver los resultados en la página de destino de obtención de detalles de varios informes, como los haya configurado al crear el destino. Los resultados se filtran según la configuración de obtención de detalles.
 
-Para comenzar con la configuración, debe tener preparada la página de destino. En Power BI Desktop, vaya a la página y asegúrese de que la opción de alternancia de obtención de detalles **Entre varios informes** esté establecida en **Activado**. 
-
-![Captura de pantalla de la opción de alternancia Entre varios informes establecida en Activado](media/desktop-cross-report-drill-through/cross-report-drill-through-03.png)
-
-A continuación, arrastre al lienzo los campos que quiera usar como destino de obtención de detalles. Seleccione si quiere que el campo se use como una categoría o se resuma como una medida. En este momento, puede seleccionar si quiere deshabilitar la opción de alternancia **Mantener todos los filtros** para el objeto visual. Si no quiere pasar otros filtros aplicados entre el objeto visual de origen y el objeto visual de obtención de detalles de destino, seleccione **Desactivado**.
-
-> [!NOTE]
-> Si va a usar la página solo para la obtención de detalles entre varios informes, debe eliminar el botón **Atrás** que se agrega automáticamente. El botón **Atrás** solo funciona para la navegación dentro de un único informe. 
-
-Después de configurar el objeto visual, asegúrese de guardar el informe si está en el servicio Power BI; si está en Power BI Desktop, puede guardar y publicar el informe.
-
-En la sección anterior se describe cómo habilitar la obtención de detalles entre varios informes para Power BI Desktop (en la ventana **Opciones**). Si va a usar el servicio Power BI para crear un destino de obtención de detalles entre varios informes, haga lo siguiente para habilitar esta característica: 
-
-1. Seleccione el área de trabajo en la que residen los informes de origen y destino.
-2. Seleccione **Informes**.
-3. Seleccione el icono **Configuración** del informe de origen.
-4. Asegúrese de que la opción de alternancia de obtención de detalles de varios informes está **activada**.
-5. Guarde el informe
-
-Ya está. El informe está listo para la experiencia de obtención de detalles entre varios informes. 
-
-En la siguiente sección, vamos a echar un vistazo a la experiencia desde la perspectiva del usuario.
-
-## <a name="cross-report-drillthrough-experience"></a>Experiencia de obtención de detalles entre varios informes
-
-Al configurar la experiencia de obtención de detalles entre varios informes para un informe, puede activar la característica.
-
-Seleccione el informe de origen en el servicio Power BI y, luego, seleccione un objeto visual que use el campo o los campos de la forma que especificó al configurar la página de destino. A continuación, haga clic con el botón derecho en un punto de datos para abrir el menú contextual del objeto visual y seleccione **Obtención de detalles**.
-
-![Captura de pantalla del informe de origen en el servicio Power BI, con Obtención de detalles resaltada](media/desktop-cross-report-drill-through/cross-report-drill-through-01.png)
-
-Los resultados puede verlos en la página de obtención de detalles entre varios informes de destino, tal como los configuró cuando creó el destino. Los resultados se filtran según la configuración de obtención de detalles.
+![Destino de la obtención de detalles de varios informes en Power BI Desktop](media/desktop-cross-report-drill-through/cross-report-drill-through-01a.png)
 
 > [!IMPORTANT]
-> Power BI almacena en caché los destinos de obtención de detalles entre varios informes. Si realiza cambios, asegúrese de actualizar el explorador si no ve los destinos de obtención de detalles según lo esperado. 
+> Power BI almacena en caché los destinos de obtención de detalles entre varios informes. Si realiza cambios y no ve los destinos de obtención de detalles según lo esperado, asegúrese de actualizar el explorador. 
 
-El formato se aplica a los destinos de varios informes de la siguiente manera: 
+Si establece **Mantener todos los filtros** en **Activado** al configurar la página de destino, el contexto de filtro del objeto visual de origen puede incluir lo siguiente: 
 
-`Target Page Name [Target Report Name]`
+- Filtros de nivel de informe, página y objeto visual que afectan al objeto visual de origen 
+- Filtro cruzado y resaltado cruzado que afectan al objeto visual de origen 
+- Segmentaciones y segmentaciones de sincronización en la página
+- Parámetros de dirección URL
 
-Después de seleccionar la página de destino en la que quiere obtener detalles, Power BI va a esa página. Pasa por el contexto de filtro en función de la configuración de la página de destino. 
+Al aterrizar en el informe de destino para la obtención de detalles, Power BI solo aplica filtros en los campos que tengan coincidencias exactas de cadena con el nombre del campo y de la tabla. 
 
-El contexto de filtro del objeto visual de origen puede incluir lo siguiente: 
+Power BI no aplica filtros permanentes del informe de destino, pero sí el marcador personal predeterminado, si tiene uno. Por ejemplo, si el marcador personal predeterminado incluye un filtro de nivel de informe para *País = EE. UU.* , Power BI aplica ese filtro antes de aplicar el contexto de filtro del objeto visual de origen. 
 
-* Filtros de nivel de informe, página y objeto visual que afectan al objeto visual de origen. 
-* Filtro cruzado y resaltado cruzado que afectan al objeto visual de origen. 
-* Segmentaciones en la página y segmentaciones de sincronización.
-* Parámetros de dirección URL.
-
-Al aterrizar en el informe de destino para la obtención de detalles, Power BI solo aplica filtros en los campos en los que encuentra coincidencias exactas de cadena con el nombre de campo y el nombre de tabla. Power BI no aplica filtros permanentes desde el informe de destino. Sin embargo, aplica el marcador personal predeterminado, si existe uno. Por ejemplo, si el marcador personal predeterminado incluye un filtro de nivel de informe para *País = US*, Power BI aplica primero ese filtro antes de aplicar el contexto de filtro del objeto visual de origen. 
-
-Para la obtención de detalles entre varios informes, Power BI pasa el contexto de filtro a todas las páginas estándar del informe de destino. Power BI no pasa el contexto de filtro para las páginas de información sobre herramientas, ya que estas páginas se filtran en función del objeto visual de origen que invoca la información sobre herramientas.
+Para la obtención de detalles de varios informes, Power BI pasa el contexto de filtro a las páginas estándar del informe de destino. Power BI no pasa el contexto de filtro para las páginas de información sobre herramientas, ya que estas páginas se filtran en función del objeto visual de origen que invoca la información sobre herramientas.
 
 Si quiere regresar al informe de origen después de la acción de obtención de detalles entre varios informes, use el botón **Atrás** del explorador. 
 
@@ -123,6 +104,6 @@ Si quiere regresar al informe de origen después de la acción de obtención de 
 
 Puede que también esté interesado en los siguientes artículos:
 
-* [Uso de segmentaciones de datos en Power BI Desktop](visuals/power-bi-visualization-slicers.md)
-* [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
+- [Segmentaciones en Power BI](visuals/power-bi-visualization-slicers.md)
+- [Uso de la obtención de detalles en Power BI Desktop](desktop-drillthrough.md)
 
