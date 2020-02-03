@@ -32,6 +32,8 @@
               href: relationships-many-to-many.md
             - name: Guía del modelo DirectQuery
               href: directquery-model-guidance.md
+            - name: Guía del modelo compuesto
+              href: composite-model-guidance.md
         - name: DAX
           items:
             - name: función DIVIDE frente al operador de división (/)
@@ -50,8 +52,6 @@
               href: dax-column-measure-references.md
             - name: Evitar el uso de FILTER como argumento de filtro
               href: dax-avoid-avoid-filter-as-filter-argument.md
-        - name: Creación de informes
-          items:
             - name: Extensión de objetos visuales con la información en pantalla de la página del informe
               href: report-page-tooltips.md
             - name: Uso de detalles de la página del informe
@@ -64,6 +64,10 @@
               href: report-paginated-blank-page.md
             - name: Migración de informes de SSRS a Power BI
               href: migrate-ssrs-reports-to-power-bi.md
+        - name: Administración e implementación
+          items:
+            - name: Ajuste de tamaño de la puerta de enlace de datos local
+              href: gateway-onprem-sizing.md
     - name: Notas del producto
       items:
         - name: Información general sobre las notas del producto

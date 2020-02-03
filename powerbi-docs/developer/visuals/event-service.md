@@ -1,19 +1,19 @@
 ---
 title: Representación de eventos en objetos visuales de Power BI
 description: Los objetos visuales de Power BI pueden notificar a Power BI que están listos para la exportación a PowerPoint o PDF.
-author: Yarovinsky
-ms.author: alexyar
-ms.reviewer: sranins
+author: KesemSharabi
+ms.author: kesharab
+ms.reviewer: rkarlin
 ms.service: powerbi
 ms.subservice: powerbi-custom-visuals
 ms.topic: conceptual
 ms.date: 06/18/2019
-ms.openlocfilehash: 261987a199af68611792367f514bef60dd584db8
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 873968a89a230171d8fecba81a7d528767ee7077
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73880125"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819155"
 ---
 # <a name="render-events-in-power-bi-visuals"></a>Representación de eventos en objetos visuales de Power BI
 
@@ -25,7 +25,7 @@ Si la representación se completa correctamente, el código del objeto visual de
 
 Si se produce un problema durante el proceso, se impide que el objeto visual de Power BI se represente correctamente. Para notificar a los clientes de escucha que el proceso de representación no se ha completado, el código del objeto visual de Power BI debe llamar al método `renderingFailed`. Este método también proporciona una cadena opcional para proporcionar un motivo del error.
 
-## <a name="usage"></a>Usage (Uso)
+## <a name="usage"></a>Uso
 
 ```typescript
 export interface IVisualHost extends extensibility.IVisualHost {
