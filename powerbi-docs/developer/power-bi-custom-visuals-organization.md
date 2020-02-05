@@ -10,10 +10,10 @@ ms.topic: conceptual
 ms.date: 12/11/2018
 LocalizationGroup: Visualizations
 ms.openlocfilehash: f11636de003aaab2d10d595b3c2b0230e373410c
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999845"
 ---
 # <a name="organizational-visuals-in-power-bi"></a>Objetos visuales de la organización en Power BI
@@ -57,7 +57,7 @@ Usuario final:
 
 Para información sobre cómo solucionar problemas, visite [Solución de problemas de los objetos visuales de Power BI](power-bi-custom-visuals-troubleshoot.md).
 
-## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
+## <a name="faq"></a>Preguntas frecuentes
 
 Para más información y responder preguntas, visite [Preguntas más frecuentes sobre objetos visuales de Power BI](power-bi-custom-visuals-faq.md#organizational-power-bi-visuals).
 

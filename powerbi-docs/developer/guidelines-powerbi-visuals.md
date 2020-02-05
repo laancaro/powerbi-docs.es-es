@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 07/16/2019
 ms.openlocfilehash: 6bf7610a010a72248a3d2fdd96718eea513a68da
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75000098"
 ---
 # <a name="guidelines-for-power-bi-visuals"></a>Instrucciones para objetos visuales de Power BI
@@ -160,7 +160,7 @@ Use la página de aterrizaje para aclarar a los usuarios cómo pueden utilizar e
 
 Para mayor comodidad del usuario, agregue campos relacionados con el token o la clave de licencia en la parte superior del panel de formato.
 
-## <a name="faq"></a>PREGUNTAS MÁS FRECUENTES
+## <a name="faq"></a>Preguntas frecuentes
 
 Para obtener más información sobre los objetos visuales de Power BI, vea [Preguntas más frecuentes sobre objetos visuales de Power BI con compras adicionales](https://docs.microsoft.com/power-bi/power-bi-custom-visuals-faq#visuals-with-additional-purchases).
 

@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.date: 11/23/2019
 ms.author: v-pemyer
 ms.openlocfilehash: f352cbbd7c42aa54ae876e73c0ed821eccda59c8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74700717"
 ---
 # <a name="dax-use-variables-to-improve-your-formulas"></a>DAX: Uso de variables para mejorar las fórmulas
@@ -93,9 +93,9 @@ COUNTROWS(
 ) + 1
 ```
 
-La función EARLIER sirve para hacer referencia al valor de la columna **Subcategory Sales** _en el contexto de fila actual_.
+La función EARLIER sirve para hacer referencia al valor de la columna **Subcategory Sales**_en el contexto de fila actual_.
 
-La definición de la columna calculada se puede mejorar usando una variable en lugar de la función EARLIER. La variable **CurrentSubcategorySales** almacena el valor de la columna **Subcategory Sales** _en el contexto de fila actual_ y la expresión RETURN la usa en un contexto de filtro modificado.
+La definición de la columna calculada se puede mejorar usando una variable en lugar de la función EARLIER. La variable **CurrentSubcategorySales** almacena el valor de la columna **Subcategory Sales**_en el contexto de fila actual_ y la expresión RETURN la usa en un contexto de filtro modificado.
 
 ```dax
 Subcategory Sales Rank =

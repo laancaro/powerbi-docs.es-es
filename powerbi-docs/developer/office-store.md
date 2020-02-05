@@ -9,10 +9,10 @@ ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 12/02/2019
 ms.openlocfilehash: ec1bd8666a9d76b4ccfa7793415488f85a24dfdb
-ms.sourcegitcommit: 5bb62c630e592af561173e449fc113efd7f84808
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/11/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74999929"
 ---
 # <a name="publish-power-bi-visuals-to-partner-center"></a>Publicación de objetos visuales de Power BI en el Centro de partners
@@ -31,7 +31,7 @@ Antes de enviar un objeto visual de Power BI a AppSource, asegúrese de que ha 
 
 Cuando esté listo para enviar el objeto visual de Power BI, compruebe que cumple con todos los requisitos que se enumeran a continuación.
 
-| Artículo | Obligatoria | Descripción |
+| Artículo | Requerido | Descripción |
 | --- | --- | --- |
 | Paquete Pbiviz |Sí |Empaquete el objeto visual de Power BI en un paquete Pbiviz que contenga todos los metadatos necesarios.<br>Nombre de objeto visual<br>Nombre para mostrar<br>GUID<br>Versión<br>Descripción<br>Nombre y correo electrónico del autor |
 | Archivo de informe .pbix de ejemplo |Sí |Para presentar el objeto visual, debe ayudar a los usuarios a familiarizarse con él. Resalte el valor que el objeto visual aporta al usuario y ofrezca ejemplos de uso y opciones de formato. También puede agregar una página de *"sugerencias"* al final que contenga trucos y sugerencias y acciones que conviene evitar.<br>El archivo de informe .pbix de ejemplo debe funcionar sin conexión, sin ninguna conexión externa. |
@@ -51,7 +51,7 @@ Antes de crear el paquete **pbiviz**, debe rellenar estos campos del archivo **p
 * description
 * supportUrl
 * autor
-* nombre
+* name
 * correo electrónico
 
 Adjunte tanto el **archivo pbiviz** como el **archivo pbix del informe de ejemplo**. El equipo de Power BI responderá con instrucciones y un archivo XML del paquete de la aplicación que se debe cargar. Dicho paquete se requiere para enviar cualquier objeto visual a través del Centro para desarrolladores de Office.
