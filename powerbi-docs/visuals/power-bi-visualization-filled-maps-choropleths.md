@@ -11,10 +11,10 @@ ms.date: 12/05/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 6a3458de09cece30948ff848859f05ed8127d034
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "75757862"
 ---
 # <a name="create-and-use-filled-maps-choropleth-maps-in-power-bi"></a>Creación y uso de mapas coropléticos en Power BI
@@ -63,7 +63,7 @@ En este video, Kim crea un mapa básico y lo convierte en un mapa coroplético.
    > 
    > 
 
-[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg ]
+[VÍDEO https://www.youtube.com/embed/ajTPGNpthcg]
 
 ### <a name="create-a-filled-map"></a>Creación de un mapa coroplético
 1. En el panel Campos, seleccione el campo **Zona geográfica** \> **Estado**.    
@@ -130,7 +130,7 @@ Los datos de mapas pueden ser ambiguos.  Por ejemplo, hay un París, Francia, pe
 
 Si tiene permisos para editar el conjunto de datos en Power BI Desktop, vea este vídeo para saber cómo abordar la ambigüedad de los mapas.
 
-[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM ]
+[VÍDEO https://www.youtube.com/embed/Co2z9b-s_yM]
 
 Si no tiene acceso a los datos de latitud y longitud pero tiene acceso de edición al conjunto de datos, [siga estas instrucciones para actualizar el conjunto de datos](https://support.office.com/article/Maps-in-Power-View-8A9B2AF3-A055-4131-A327-85CC835271F7).
 

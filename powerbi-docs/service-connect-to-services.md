@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.date: 08/29/2019
 ms.author: maggies
 LocalizationGroup: Connect to services
-ms.openlocfilehash: 91740d16a91aa8dc1936e8ae1a2812653c45e6a1
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: c342a7472666ee50b7213e7d933ad36da85ce7f6
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73925822"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975042"
 ---
 # <a name="connect-to-the-services-you-use-with-power-bi"></a>Conexión a los servicios que usa con Power BI
 Con Power BI, puede conectarse a los distintos servicios que usa en su empresa, como Salesforce, Microsoft Dynamics y Google Analytics. Power BI empieza usando sus credenciales para conectarse al servicio. Crea una *área de trabajo* de Power BI con un panel y un conjunto de informes de Power BI que muestran los datos automáticamente y proporcionan información visual sobre la empresa.
@@ -55,7 +55,7 @@ Para más información sobre cómo conectarse a servicios específicos, vea las 
 **Iconos vacíos**  
 La primera vez que Power BI se conecte al servicio puede ver un conjunto vacío de iconos en el panel. Si el panel sigue vacío 2 horas después, es probable que se haya producido un error en la conexión. Si no ha visto ningún mensaje de error con información sobre cómo corregir el problema, registre una incidencia de soporte técnico.
 
-* Seleccione el icono de signo de interrogación ( **?** ) de la esquina superior derecha > **Obtener ayuda**.
+* Seleccione el icono de signo de interrogación (**?**) de la esquina superior derecha > **Obtener ayuda**.
   
     ![Icono Obtener ayuda](media/service-connect-to-services/power-bi-service-get-help.png)
 
@@ -71,5 +71,4 @@ Si está interesado en crear aplicaciones de plantilla para distribuirlas usted 
 * [Distribuir aplicaciones a los compañeros](service-create-distribute-apps.md)
 * [Crear las nuevas áreas de trabajo en Power BI](service-create-the-new-workspaces.md)
 * ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
-* ¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
 

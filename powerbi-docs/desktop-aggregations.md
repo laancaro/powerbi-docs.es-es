@@ -10,10 +10,10 @@ ms.date: 01/16/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
 ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76538770"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Uso de agregaciones en Power BI Desktop
@@ -75,7 +75,7 @@ La mayoría de las validaciones se aplican al deshabilitar los valores de la lis
 
 ### <a name="aggregation-tables-are-hidden"></a>Tablas de agregación ocultas
 
-Los usuarios con acceso de solo lectura al conjunto de datos no pueden consultar las tablas de agregación. Esto evita problemas de seguridad cuando se usan con *seguridad de nivel de fila (RLS)* . Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación, y no necesitan saber que dicha tabla de agregación existe.
+Los usuarios con acceso de solo lectura al conjunto de datos no pueden consultar las tablas de agregación. Esto evita problemas de seguridad cuando se usan con *seguridad de nivel de fila (RLS)*. Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación, y no necesitan saber que dicha tabla de agregación existe.
 
 Por este motivo, las tablas de agregación están ocultas en la vista **Informes**. Si la tabla no está oculta, el cuadro de diálogo **Administrar agregaciones** la establecerá como oculta al seleccionar **Aplicar todo**.
 
