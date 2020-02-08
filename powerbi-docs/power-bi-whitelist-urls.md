@@ -1,26 +1,26 @@
 ---
 title: Direcciones URL de Power BI para la inclusión en listas blancas
-description: En este artículo se describen los puntos de conexión a los cuales deben poder acceder los clientes que usan Power BI.
+description: En este artículo se enumeran los puntos de conexión de dirección URL y los puertos de la lista segura para la conectividad a Power BI.
 author: kfollis
 ms.author: kfollis
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/22/2018
+ms.date: 01/29/2020
 ms.custom: seodec18
-ms.openlocfilehash: cd13e36ca7216036a22db332a508e3c825fecf4b
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 48406a8c68237d182960b46de67f91dbd2717922
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74698794"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894669"
 ---
 # <a name="power-bi-urls-for-whitelisting"></a>Direcciones URL de Power BI para la inclusión en listas blancas
 
 **El servicio Power BI en línea**, también conocido como la aplicación de SaaS (software como servicio) de Power BI, requiere conectividad a internet. Los clientes que usen el servicio Power BI en línea deben poder acceder a los puntos de conexión siguientes.
 
-Para usar el servicio Power BI en línea, debe tener acceso para conectarse a los puntos de conexión marcados como **Obligatorio** en las tablas siguientes y los puntos de conexión marcados como **Obligatorio** en los sitios vinculados. Si el vínculo a un sitio externo hace referencia a una sección concreta, solo tiene que revisar los puntos de conexión de esa sección.
+Para usar el servicio Power BI en línea, debe poder conectarse a los puntos de conexión marcados como **obligatorios** en las tablas siguientes y los puntos de conexión marcados como **obligatorios** en los sitios vinculados. Si el vínculo a un sitio externo hace referencia a una sección concreta, solo tiene que revisar los puntos de conexión de esa sección.
 
 Los puntos de conexión marcados como **Opcional** también se pueden incluir en la **lista de permitidos** para que funcionen funcionalidades específicas.
 
@@ -46,16 +46,17 @@ Para usar Power BI de forma general, debe poder conectarse a los puntos de conex
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
 | 1 | **Obligatorio:** API de back-end | *.analysis.windows.net | TCP 443 |
-| 2 | **Obligatorio:** integración de Office 365 | Consulte la documentación de Office 365 para [Office Online y las URL comunes](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
-| 3 | **Obligatorio:** Portal | app.powerbi.com | TCP 443 |
-| 4 | **Obligatorio:** telemetría de servicio | dc.services.visualstudio.com | TCP 443 |
-| 5 | **Opcional:** mensajes informativos | dynmsg.modpim.com | TCP 443 |
-| 6 | **Opcional:** encuestas de NPS | nps.onyx.azure.net | TCP 443 |
+| 2 | **Obligatorio:** API de back-end | *.pbidedicated.windows.net | TCP 443 |
+| 3 | **Obligatorio:** integración de Office 365 | Consulte la documentación de Office 365 para [Office Online y las URL comunes](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#microsoft-365-common-and-office-online) | N/D |
+| 4 | **Obligatorio:** Portal | app.powerbi.com | TCP 443 |
+| 5 | **Obligatorio:** telemetría de servicio | dc.services.visualstudio.com | TCP 443 |
+| 6 | **Opcional:** mensajes informativos | dynmsg.modpim.com | TCP 443 |
+| 7 | **Opcional:** encuestas de NPS | nps.onyx.azure.net | TCP 443 |
 | | | |
 
 ## <a name="administration"></a>Administración
 
-Para realizar funciones administrativas en Power BI, debe poder conectarse a los puntos de conexión en los sitios vinculados a continuación.
+Para realizar funciones administrativas en Power BI, debe poder conectarse a los puntos de conexión de los sitios vinculados a continuación.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
@@ -64,7 +65,7 @@ Para realizar funciones administrativas en Power BI, debe poder conectarse a los
 
 ## <a name="getting-data"></a>Obtención de datos
 
-Para obtener datos de orígenes de datos específicos, como OneDrive, debe poder conectarse a los puntos de conexión de la tabla siguiente. Puede ser necesario tener acceso a dominios de internet y URL adicionales para orígenes de datos específicos utilizados en su organización.
+Para obtener datos de orígenes de datos específicos, como OneDrive, debe poder conectarse a los puntos de conexión de la tabla siguiente. Puede ser necesario tener acceso a dominios de internet y direcciones URL adicionales para orígenes de datos específicos usados en su organización.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
@@ -77,7 +78,7 @@ Para obtener datos de orígenes de datos específicos, como OneDrive, debe poder
 
 ## <a name="dashboard-and-report-integration"></a>Integración de paneles e informes
 
-Power BI depende de determinados puntos de conexión para poder admitir los paneles e informes. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
+Power BI depende de determinados puntos de conexión para poder admitir los paneles e informes. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
@@ -86,7 +87,7 @@ Power BI depende de determinados puntos de conexión para poder admitir los pane
 
 ## <a name="custom-visuals"></a>Objetos visuales personalizados
 
-Power BI depende de determinados puntos de conexión para poder ver y acceder a los objetos visuales personalizados. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
+Power BI depende de determinados puntos de conexión para ver objetos visuales personalizados y acceder a ellos. Debe poder conectarse a los puntos de conexión de la tabla y los sitios vinculados a continuación.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
@@ -98,7 +99,7 @@ Power BI depende de determinados puntos de conexión para poder ver y acceder a 
 
 ## <a name="related-external-sites"></a>Sitios externos relacionados
 
-Vínculos de Power BI a otros sitios relacionados. Estos sitios incluyen los de documentación, soporte técnico, solicitudes de nuevas funciones, etc. Estos sitios no afectarán a la funcionalidad de Power BI, por lo que, si quiere, puede ponerlos en la lista de permitidos.
+Vínculos de Power BI a otros sitios relacionados. Estos sitios hospedan documentación, soporte técnico, solicitudes de nuevas funciones, etc. El acceso a estos sitios no afectará a la funcionalidad de Power BI, por lo que la inclusión en listas blancas es opcional.
 
 | Fila | Propósito | Destinos | Puertos |
 | --- | --- | --- | --- |
@@ -107,7 +108,7 @@ Vínculos de Power BI a otros sitios relacionados. Estos sitios incluyen los de 
 | 3 | **Opcional:** sitio de descarga (para Power BI Desktop, etc.) | download.microsoft.com | TCP 443 |
 | 4 | **Opcional:** redirecciones externas | aka.ms <br> go.microsoft.com | TCP 443 |
 | 5 | **Opcional:** sitio de comentarios de ideas| ideas.powerbi.com <br> powerbi.uservoice.com | TCP 443 |
-| 6 | **Opcional:** sitio de Power BI: página de inicio, vínculos de más información, sitio de soporte técnico, vínculos de descarga, presentación de asociados, etc. | powerbi.microsoft.com | TCP 443 |
+| 6 | **Opcional:** sitio de Power BI: página de inicio, vínculos de más información, sitio de soporte técnico, vínculos de descarga, presentación de asociados, etc. | powerbi.microsoft.com | TCP 443 |
 | 7 | **Opcional:** Centro para desarrolladores de Power BI | dev.powerbi.com | TCP 443 |
 | 8 | **Opcional:** sitio de soporte técnico | support.powerbi.com <br> s3.amazonaws.com <br> *. olark.com <br> logx.optimizely.com <br> mscom.demdex.net <br> tags.tiqcdn.com | TCP 443 |
 | | | |

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 08/16/2019
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: a10de05fed8a77a165797dda7155ffb81bbad815
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 25ed90dba0c164a44d691f8247023f2ff7e0a67f
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75760006"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913531"
 ---
 # <a name="create-report-templates-for-power-bi-desktop"></a>Creación de plantillas de informe para Power BI Desktop
 
@@ -32,7 +32,7 @@ Las plantillas de informe de Power BI contienen la siguiente información del in
 
 Lo que *no* se incluye en las plantillas son los datos del informe. 
 
-Las plantillas de informe usan la extensión de archivo .PBIT (en comparación con los informes de Power BI Desktop, que usan la extensión .PBIX). 
+Las plantillas de informe usan la extensión de archivo .PBIT (en comparación con los informes de Power BI Desktop, que usan la extensión .PBIX). 
 
 Para crear una plantilla de informe, seleccione **Archivo > Exportar > Plantilla de Power BI** en el menú, lo que abre la siguiente ventana, que le pide que proporcione una descripción para la plantilla. En este ejemplo, la descripción de la plantilla es *Plantilla de informe de ventas mensuales*.
 

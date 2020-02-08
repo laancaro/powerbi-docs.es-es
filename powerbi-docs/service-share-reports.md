@@ -1,34 +1,49 @@
 ---
-title: Dos maneras de compartir un informe de Power BI filtrado
-description: Aprenda dos maneras de filtrar un informe de Power BI y compartirlo con los compañeros de la organización.
+title: Filtrado y uso compartido de un informe de Power BI
+description: Aprenda a filtrar un informe de Power BI y a compartirlo con los compañeros de la organización.
 author: maggiesMSFT
 ms.reviewer: lukaszp
 featuredvideoid: 0tUwn8DHo3s
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 09/06/2019
+ms.date: 01/29/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 79f09b5018efcdae88d74ae26f099ff095fb161a
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 16041ebc9ba293ab166178e008b12277d94e89c3
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73871443"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76894918"
 ---
-# <a name="two-ways-to-share-a-filtered-power-bi-report"></a>Dos maneras de compartir un informe de Power BI filtrado
-*Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. ¿Qué sucede si quiere compartir una versión filtrada de un informe? Quizás un informe que muestra solamente los datos de una ciudad, vendedor o año determinados. Intente filtrar un informe y compartirlo, o crear una dirección URL personalizada. El informe se filtra cuando los destinatarios lo abren por primera vez. Pueden quitar el filtro modificando la dirección URL. 
+# <a name="filter-and-share-a-power-bi-report"></a>Filtrado y uso compartido de un informe de Power BI
+*Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. ¿Qué sucede si quiere compartir una versión filtrada de un informe? Es posible que desee que el informe muestre únicamente los datos de una ciudad, un vendedor o un año específicos. En este artículo se explica cómo filtrar un informe y compartir la versión filtrada. Otra manera de compartir un informe filtrado es [agregar parámetros de consulta a la dirección URL del informe](service-url-filters.md). En ambos casos, el informe se filtra cuando los destinatarios lo abren por primera vez. Estos pueden borrar las selecciones de filtro del informe.
 
 ![Informe filtrado](media/service-share-reports/power-bi-share-filter-pane-report.png)
 
 Power BI ofrece también [otras maneras de colaborar y distribuir sus informes](service-how-to-collaborate-distribute-dashboards-reports.md). Con el uso compartido, usted y sus destinatarios necesitarán una [licencia de Power BI Pro](service-features-license-type.md) o que el contenido esté en una [capacidad premium](service-premium-what-is.md). 
 
-## <a name="two-ways-to-filter-a-report"></a>Dos formas de filtrar un informe
+## <a name="follow-along-with-sample-data"></a>Seguir adelante con los datos de ejemplo
 
-Con ambas técnicas de filtrado, usamos la aplicación de plantilla de ejemplo de marketing y ventas. ¿Quiere probarlo? También puede instalar la aplicación de plantilla [Ejemplo de marketing y ventas](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview).
+En este artículo se usa la aplicación de plantilla de ejemplo Marketing y ventas. ¿Quiere probarlo? 
 
-### <a name="set-a-filter"></a>Establecimiento de un filtro
+1. Instale la [aplicación de plantilla Marketing y ventas](https://appsource.microsoft.com/product/power-bi/microsoft-retail-analysis-sample.salesandmarketingsample?tab=Overview).
+2. Seleccione la aplicación y, luego, **Explorar aplicación**.
+
+   ![Exploración de los datos de ejemplo](media/service-share-reports/power-bi-sample-explore-data.png)
+
+3. Seleccione el icono de lápiz para abrir el área de trabajo que instaló con la aplicación.
+
+    ![Lápiz de edición de la aplicación](media/service-share-reports/power-bi-edit-pencil-app.png)
+
+4. En la lista de contenido del área de trabajo, seleccione **Informes** y, después, seleccione el informe **PBIX del ejemplo de ventas y marketing**.
+
+    ![Abrir el informe de ejemplo](media/service-share-reports/power-bi-open-sample-report.png)
+
+    Ya está listo para continuar.
+
+## <a name="set-a-filter-in-the-report"></a>Establecimiento de un filtro en el informe
 
 Abra un informe en [Vista de edición](consumer/end-user-reading-view.md) y aplique un filtro.
 
@@ -38,37 +53,30 @@ En este ejemplo, vamos a filtrar la página YTD Category (Categoría hasta la fe
 
 Guarde el informe.
 
-### <a name="create-a-filter-in-the-url"></a>Creación de un filtro en la dirección URL
-
-Al agregar el filtro al final de la dirección URL de la página del informe, el comportamiento es ligeramente diferente. La página filtrada tiene el mismo aspecto. Sin embargo, Power BI agrega el filtro a todo el informe y quita los demás valores del panel de filtro.  
-
-Agregue lo siguiente al final de la dirección URL de la página del informe:
-   
-    ?filter=*tablename*/*fieldname* eq *value*
-   
-El campo debe ser de tipo número, fecha y hora o cadena. Los valores de *tablename* o *fieldname* no pueden contener espacios.
-   
-En nuestro ejemplo, el nombre de la tabla es **Geo**, el nombre del campo es **Región** y el valor por el que quiere filtrar es **Central**:
-   
-    ?filter=Geo/Region eq 'Central'
-
-El explorador agrega caracteres especiales para representar espacios, apóstrofos y barras diagonales, así que el resultado es:
-   
-    app.powerbi.com/groups/xxxx/reports/xxxx/ReportSection4d00c3887644123e310e?filter=Geo~2FRegion%20eq%20'Central'
-
-![Informe con filtro de dirección URL](media/service-share-reports/power-bi-share-report-filter-url.png)
-
-Guarde el informe.
-
-Consulte el artículo [Filtro de un informe con parámetros de cadena de consulta en la URL](service-url-filters.md) para información mucho más detallada.
-
 ## <a name="share-the-filtered-report"></a>Compartir el informe filtrado
 
-1. Cuando [comparta el informe](service-share-dashboards.md), desactive la casilla **Enviar notificación por correo electrónico a los destinatarios**.
+1. Seleccione **Compartir**.
 
-    ![Cuadro de diálogo Compartir informe](media/service-share-reports/power-bi-share-report-dialog.png)
+   ![Seleccionar Compartir](media/service-share-reports/power-bi-share.png)
 
-4. Envíe el vínculo con el filtro que creó anteriormente.
+2. Desactive **Enviar notificación por correo electrónico a los destinatarios**, de modo que pueda enviar un vínculo filtrado en su lugar, seleccione **Compartir informe con los filtros y las segmentaciones actuales** y, luego, seleccione **Compartir**.
+
+    ![Informe compartido con filtros](media/service-share-reports/power-bi-share-with-filters.png)
+
+4. Seleccione de nuevo **Compartir**.
+
+   ![Seleccionar Compartir](media/service-share-reports/power-bi-share.png)
+
+5. Seleccione la pestaña **Acceso** y, luego, **Administrar vistas de informe compartidas**.
+
+    ![Administración de vistas de informe compartidas](media/service-share-reports/power-bi-manage-shared-report-views.png)
+
+6. Haga clic con el botón derecho en la dirección URL que desee y seleccione **Copiar vínculo**.
+
+    ![Copia del vínculo filtrado](media/service-share-reports/power-bi-copy-filtered-link.png)
+
+7. Cuando comparta este vínculo, los destinatarios verán el informe filtrado. 
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 * [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)

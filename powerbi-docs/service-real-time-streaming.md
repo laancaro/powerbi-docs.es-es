@@ -10,10 +10,10 @@ ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
 ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "74699112"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
@@ -39,7 +39,7 @@ Una vez creado un informe con el conjunto de datos de inserción, cualquiera de 
 
 Hay dos factores a tener en cuenta acerca de los iconos anclados desde un conjunto de datos de inserción:
 
-* Anclar un informe completo con la opción *página Anclar elemento activo* **no** hará que los datos se actualicen automáticamente.
+* Anclar un informe completo con la opción *página Anclar elemento activo***no** hará que los datos se actualicen automáticamente.
 * Una vez que un objeto visual está anclado a un panel, puede usar **Preguntas y respuestas** para formular preguntas sobre el conjunto de datos de inserción en lenguaje natural. Después de realizar la consulta de **Preguntas y respuestas**, puede anclar el objeto visual resultante al panel, y ese panel *también* se actualizará en tiempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de datos de streaming
@@ -82,7 +82,7 @@ Veamos cada uno de estos enfoques por turnos.
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Uso de las API de REST de Power BI para insertar datos
 **Las API de REST de Power BI** se pueden usar para crear y enviar datos a conjuntos de datos de **inserción** y conjuntos de datos de **streaming**. Cuando se crea un conjunto de datos mediante las API de REST de Power BI, el indicador *defaultMode* especifica si el conjunto de datos es de inserción o de streaming. Si no hay ningún indicador *defaultMode* establecido, el valor predeterminado del conjunto de datos es **push**.
 
-Si el valor de *defaultMode* es *pushStreaming*, el conjunto de datos es a la vez un conjunto de datos de **inserción** *y* **streaming**, lo que proporciona las ventajas de ambos tipos de conjunto de datos. 
+Si el valor de *defaultMode* se establece en *pushStreaming*, el conjunto de datos es a la vez un conjunto de datos de **inserción** *y* **streaming**, lo que proporciona las ventajas a ambos tipos de conjunto de datos. 
 
 > [!NOTE]
 > Cuando se usan conjuntos de datos con el valor de *defaultMode* establecido en *pushStreaming*, si una solicitud supera la restricción de tamaño de 15 KB para un conjunto de datos de **streaming**, pero es menor que la restricción de tamaño de 16 MB de un conjunto de datos de **inserción**, la solicitud se realizará correctamente y los datos se actualizarán en el conjunto de datos de inserción. Sin embargo, los iconos de streaming generarán un error temporal.

@@ -1,24 +1,24 @@
 ---
 title: Publicar en la web de Power BI
 description: Con la característica Publicar en la web de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en publicaciones de blog y sitios web, a través de mensajes de correo electrónico o redes sociales, en cualquier dispositivo.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/16/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 1fd640922f132f56a03b37ed59a6267a5af83d00
-ms.sourcegitcommit: 7f27b9eb0e001034e672050735ab659b834c54a3
+ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "74311703"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913625"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
-Con la opción **Publicar en la web** de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, como en entradas de blog y sitios web, a través de correos o redes sociales, desde cualquier dispositivo. También puede editar, actualizar o dejar de compartir fácilmente los objetos visuales publicados.
+Con la opción **Publicar en la web** de Power BI, puede insertar fácilmente visualizaciones de Power BI interactivas en línea, por ejemplo, en entradas de blog y sitios web, mediante correos electrónicos o redes sociales, desde cualquier dispositivo. También puede editar, actualizar o dejar de compartir fácilmente los objetos visuales publicados.
 
 > [!WARNING]
 > Al usar la característica **Publicar en la web**, cualquier usuario podrá ver en Internet el informe o el objeto visual que publique. Esto no requiere autenticación e incluye la visualización de los datos de nivel de detalle que agregan los informes. Antes de publicar un informe, asegúrese de que está de acuerdo en compartir los datos y visualizaciones públicamente. No publique información confidencial o de propiedad. En caso de duda, compruebe las directivas de la organización antes de publicarlo.
@@ -39,20 +39,24 @@ Los pasos siguientes describen cómo usar la característica **Publicar en Web**
 1. Abra un informe en el área de trabajo que puede editar y seleccione **Archivo > Publicar en la web**.
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
+   
+2. Si no le han permitido crear códigos para insertar, póngase en contacto con su administrador de Power BI.
 
-2. Revise el contenido del cuadro de diálogo y seleccione **Crear código para insertar**.
+   ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+3. Revise el contenido del cuadro de diálogo y seleccione **Crear código para insertar**.
 
    ![PtW2](media/service-publish-to-web/publish_to_web2_ga.png)
 
-3. Revise la advertencia, tal como se muestra aquí, y confirme que los datos se pueden insertar en un sitio web público. Si es así, seleccione **Publicar**.
+4. Revise la advertencia, tal como se muestra aquí, y confirme que los datos se pueden insertar en un sitio web público. Si es así, seleccione **Publicar**.
 
    ![PtW3](media/service-publish-to-web/publish_to_web3_ga.png)
 
-4. Aparece un cuadro de diálogo con un vínculo. Se puede enviar este vínculo en un correo, insertarlo en el código como un iFrame o pegarlo directamente en una página web o blog.
+5. Aparece un cuadro de diálogo con un vínculo. Se puede enviar este vínculo en un correo, insertarlo en el código como un iFrame o pegarlo directamente en una página web o blog.
 
    ![PtW4](media/service-publish-to-web/publish_to_web4.png)
 
-5. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web**, no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, el cuadro de diálogo **Código para insertar** se muestra como sigue:
+6. Si se ha creado previamente un código para insertar para un informe y se ha seleccionado **Publicar en la web**, no verá los cuadros de diálogo en los pasos 2 a 4. En su lugar, el cuadro de diálogo **Código para insertar** se muestra como sigue:
 
    ![PtW5](media/service-publish-to-web/publish_to_web5.png)
 
@@ -67,13 +71,13 @@ En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y có
 
 | Modo de vista | Aspecto que tiene al insertarse |
 | --- | --- |
-| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respeta el alto y ancho de la página del informe. Si se establece la página en proporciones *dinámicas*, como 16:9 o 4:3, el contenido se escalará para ajustarse en el iFrame. Cuando se inserta en un iFrame, el uso de **Ajustar a la página** puede dar como resultado un *formato de pantalla ancha*, en el que se muestra un fondo gris en las áreas del iFrame después de que el contenido se escale para ajustarlo en dicho iFrame. Para minimizar el formato de pantalla ancha, establezca el alto y ancho del iFrame adecuadamente. |
+| ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respeta el alto y ancho de la página del informe. Si establece la página en proporciones *dinámicas*, como 16:9 o 4:3, el contenido se escalará para que quepa en el iFrame. Cuando se inserta en un iFrame, el uso de **Ajustar a la página** puede dar como resultado un *formato de pantalla ancha*, en el que se muestra un fondo gris en las áreas del iFrame después de que el contenido se escale para ajustarlo en dicho iFrame. Para minimizar el formato de pantalla ancha, establezca el alto y ancho del iFrame adecuadamente. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Tamaño real** garantiza que el informe conserve su tamaño tal como está establecido en la página del informe. Esto puede causar que se muestren barras de desplazamiento en el iFrame. Establezca el alto y ancho de iFrame para evitar las barras de desplazamiento. |
 | ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido se ajuste dentro del área horizontal del iFrame. Se sigue mostrando un borde, pero el contenido se escala para usar todo el espacio horizontal disponible. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Sugerencias y trucos para el ancho y alto de iFrame
 
-Un código para insertar de **Publicar en la web** se parece a lo siguiente:
+Un código para insertar de **Publicar en la web** se parece al siguiente ejemplo:
 
 ![PtW7](media/service-publish-to-web/publish_to_web7.png)
  
@@ -84,10 +88,10 @@ Para lograr un ajuste más exacto, se puede intentar la adición de 56 píxeles 
 | Proporción | Tamaño | Dimensiones (ancho x alto) |
 | --- | --- | --- |
 | 16:9 |Pequeño |640 x 416 px |
-| 16:9 |Medio |800 x 506 px |
+| 16:9 |Mediana |800 x 506 px |
 | 16:9 |Grande |960 x 596 px |
 | 4:3 |Pequeño |640 x 536 px |
-| 4:3 |Medio |800 x 656 px |
+| 4:3 |Mediana |800 x 656 px |
 | 4:3 |Grande |960 x 776 px |
 
 ## <a name="manage-embed-codes"></a>Administrar códigos para insertar
@@ -141,16 +145,27 @@ La característica **Publicar en la web** se admite para la gran mayoría de los
 
 ## <a name="tenant-setting"></a>Configuración de inquilinos
 
-Los administradores de Power BI pueden habilitar o deshabilitar la característica **Publicar en la web**. También pueden restringir el acceso a grupos específicos, lo que puede afectar a su capacidad para crear un código para insertar.
+La configuración **Publicar en la web** proporciona opciones para las que los usuarios pueden crear códigos para insertar.
 
-|Destacado |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
+![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+Se le pedirá que se ponga en contacto con el administrador de Power BI para crear un código para insertar cuando la opción **Elegir cómo funcionan los códigos para insertar** esté establecida en **Allow only existing embed codes** (Permitir solo los códigos para insertar existentes) y la opción **Publicar en la web** esté **Habilitada**.
+
+![Mensaje de Publicar en la web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
+Los administradores de Power BI pueden habilitar o deshabilitar la característica **Publicar en la web**. También pueden restringir el acceso a grupos específicos, lo que puede afectar a su capacidad para crear un código para insertar. Verá diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
+
+|Característica |Habilitada para toda la organización |Deshabilitada para toda la organización |Grupos de seguridad específicos   |
 |---------|---------|---------|---------|
 |**Publicar en la web** en el menú **Archivo** del informe|Habilitada para todos|No visible para todos|Solo visible para usuarios o grupos autorizados.|
 |**Administrar códigos para insertar** en **Configuración**|Habilitada para todos|Habilitada para todos|Habilitada para todos<br><br>Opción * **Eliminar** solo para usuarios o grupos autorizados.<br>* **Obtener código** habilitada para todos.|
-|**Códigos de inserción** en el portal de administración|El estado será uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado mostrará **Deshabilitado**|El estado será uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado en función de la configuración del inquilino, el estado mostrará **Infracción**.|
+|**Códigos de inserción** en el portal de administración|El estado reflejará uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado|El estado mostrará **Deshabilitado**|El estado reflejará uno de los siguientes:<br>* Activo<br>* No admitido<br>* Bloqueado<br><br>Si el usuario no está autorizado en función de la configuración del inquilino, el estado mostrará **Infracción**.|
 |Informes publicados existentes|Todos habilitados|Todos deshabilitados|Los informes continúan generándose para todos.|
 
 ## <a name="understanding-the-embed-code-status-column"></a>Descripción de la columna de estado de código para insertar
+
+>[!Note]
+>Debe revisar periódicamente los códigos para insertar que ha publicado y quitar los que ya no necesite que estén disponibles públicamente. 
 
 La página **Administrar códigos para insertar** incluye una columna de estado. De forma predeterminada, el estado de los códigos para insertar es **Activo**, pero también podría ser uno de los que se enumeran debajo.
 
@@ -178,12 +193,12 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 
 Cuando se crea un código para insertar mediante **Publicar en la web**, el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Esto garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
 
-La memoria caché es de larga duración, por lo que si se actualiza la definición de informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
+La caché es de larga duración, por lo que si se actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
 - [Elemento web de informes de SharePoint Online](service-embed-report-spo.md) 
 
-- [Inserción de informes en un sitio web o portal seguro](service-embed-secure.md)
+- [Inserción de informes en un sitio web o portal seguros](service-embed-secure.md)
 
 ¿Tiene más preguntas? [Pruebe la comunidad de Power BI](https://community.powerbi.com/)

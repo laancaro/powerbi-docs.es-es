@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: cfde935b2cec6e86b56b4f70865ff2d02b5ce27a
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 90721b059958e59cfd74f9ba1d0d25617a7438e6
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75759208"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889291"
 ---
 # <a name="use-directquery-in-power-bi-desktop"></a>Usar DirectQuery en Power BI Desktop
 Con *Power BI Desktop*, cuando se conecta al origen de datos, siempre es posible importar una copia de los datos en Power BI Desktop. Para algunos orígenes de datos, existe un enfoque alternativo: conectarse directamente al origen de datos mediante DirectQuery.
@@ -55,9 +55,9 @@ Actualmente, existen algunas limitaciones en el uso de DirectQuery:
 
 - Para asegurarse de que las consultas enviadas al origen de datos subyacente tienen un rendimiento aceptable, se aplican limitaciones a las expresiones DAX que se permiten en las medidas.
 
-- Hay un límite de un millón de filas para la devolución de datos cuando se usa DirectQuery. El límite no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante DirectQuery. Solo afecta a las filas devueltas.
+- Hay un límite de 1 millón de filas para devolver datos cuando se usa DirectQuery, a menos que se utilice una capacidad premium. El límite no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante DirectQuery. Solo afecta a las filas devueltas. Las capacidades premium pueden establecer límites máximos de filas, tal y como se describe en [esta publicación](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
-    Por ejemplo, puede agregar 10 millones de filas a la consulta que se ejecuta en el origen de datos. La consulta devuelve con precisión los resultados de esa agregación a Power BI mediante DirectQuery si el número de filas de datos de Power BI devueltos es inferior a un millón. Si DirectQuery devuelve más de un millón de filas, Power BI devuelve un error.
+    Por ejemplo, puede agregar 10 millones de filas a la consulta que se ejecuta en el origen de datos. La consulta devuelve con precisión los resultados de esa agregación a Power BI mediante DirectQuery si el número de filas de datos de Power BI devueltos es inferior a un millón. Si se devuelve más de 1 millón filas desde DirectQuery, Power BI devuelve un error (a menos que esté en la capacidad premium y el recuento de filas esté por debajo del límite del conjunto de administradores).
 
 ## <a name="important-considerations-when-using-directquery"></a>Consideraciones importantes al utilizar DirectQuery
 Deben tenerse en cuenta los tres puntos siguientes al usar DirectQuery:

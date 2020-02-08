@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: de745777a5ad6da1149328d9df92be9ecccfc181
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75885300"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76819592"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -203,11 +203,24 @@ En la imagen siguiente se muestra el mensaje que aparece al compartir con un usu
 
 ### <a name="publish-to-web"></a>Publicar en Web
 
-Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md)
+Los usuarios de la organización pueden publicar informes en la web. [Más información](service-publish-to-web.md). Esto hace que el informe y los datos que contiene estén disponibles para cualquier persona en la web.
+
+> [!NOTE]
+> Un administrador de Power BI debe permitir la creación de nuevos códigos para insertar de publicación en web. Las organizaciones pueden tener códigos para insertar existentes. Use la página de [códigos para insertar](service-admin-portal.md#embed-codes) para revisar los informes publicados actualmente.
 
 En la imagen siguiente se muestra el menú **Archivo** de un informe cuando está habilitada la opción **Publicar en la web**.
 
-![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+![Publicación en web en el menú Archivo](media/service-admin-portal/powerbi-admin-publish-to-web.png)
+
+La configuración **Publicar en la web** proporciona opciones para las que los usuarios pueden crear códigos para insertar.
+
+![Opción de publicación en la web](media/service-admin-portal/powerbi-admin-publish-to-web-setting.png)
+
+
+Se pide a los usuarios que se pongan en contacto con el administrador de Power BI para permitirles crear un código para insertar cuando la opción **Elegir cómo funcionan los códigos para insertar** está establecida en **Allow only existing embed codes** (Permitir solo los códigos para insertar existentes) y la opción **Publicar en la web** está **Habilitada**.
+
+![Mensaje de Publicar en la web](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+
 
 Los usuarios ven diferentes opciones en la interfaz de usuario en función del valor de la opción **Publicar en la web**.
 
@@ -449,7 +462,7 @@ Para más información sobre cómo administrar la configuración de Power BI Emb
 
 ## <a name="embed-codes"></a>Códigos para insertar
 
-Como administrador, puede ver los códigos para insertar que se generan para su inquilino. También puede revocar o eliminar códigos. [Más información](service-publish-to-web.md)
+Como administrador, puede ver los códigos para insertar que se generan para su inquilino para compartir informes de forma pública. También puede revocar o eliminar códigos. [Más información](service-publish-to-web.md)
 
 ![Códigos para insertar en el portal de administración de Power BI](media/service-admin-portal/embed-codes.png)
 

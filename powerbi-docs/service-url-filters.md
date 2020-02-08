@@ -8,14 +8,14 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/23/2019
+ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: 2d564b22ecf02c0d8593ed5676e46f2eb4168964
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75836720"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913565"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -33,7 +33,7 @@ Otro uso de los parámetros de cadena de consulta es para un usuario que va a cr
 
 Con los parámetros, puede filtrar el informe por uno o varios valores, aunque esos valores contengan espacios o caracteres especiales. La sintaxis básica es bastante sencilla: empiece con la dirección URL del informe, agregue un signo de interrogación y luego incorpore la sintaxis de filtro.
 
-URL?filter=***Tabla***/***Campo*** eq '***valor***'
+*URL*?filter=*Table*/*Field* eq '*value*'
 
 ![Dirección URL con filtro](media/service-url-filters/power-bi-filter-urls7b.png)
 
@@ -84,6 +84,18 @@ El informe se filtra por North Carolina; todas las visualizaciones de la página
 
 ![Informe filtrado para Carolina del Norte](media/service-url-filters/power-bi-report4.png)
 
+## <a name="filter-on-more-than-one-value-in-a-field"></a>Filtrado por más de un valor en un campo
+
+Para filtrar por más de un valor en un solo campo, use el operador **in** en lugar del operador **and**. La sintaxis es:
+
+*URL*?filter=*Table*/*Field* **in** ('*value1*', '*value2*')
+
+Usando el mismo ejemplo, para filtrar el informe de forma que solo se muestren los datos de los almacenes de "NC" (Carolina del norte) o "TN" (Tennessee), anexe a la dirección URL lo siguiente:
+
+?filter=Store/Territory in ('NC', 'TN')
+
+Consulte la tabla [Operadores](#operators) más adelante en el artículo para ver una lista de otros operadores útiles.
+
 ## <a name="filter-on-multiple-fields"></a>Filtrado por varios campos
 
 También puede filtrar por varios campos agregando parámetros adicionales a la dirección URL. Volvamos a nuestro parámetro de filtro original.
@@ -97,8 +109,6 @@ Para filtrar por otros campos, agregue "**and**" y otro campo en el mismo format
 ```
 ?filter=Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 ```
-
-<iframe width="640" height="360" src="https://www.youtube.com/embed/0sDGKxOaC8w?showinfo=0" frameborder="0" allowfullscreen></iframe>
 
 ## <a name="operators"></a>Operadores
 

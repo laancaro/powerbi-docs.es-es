@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: dc8dad0417ac2ed6498fb7612900ebdbb0ce2a18
-ms.sourcegitcommit: 4359baa43ca01b179d28ec59f4e61ba8c07ee288
+ms.openlocfilehash: 512ef5058fdb586a893c5ff9406abf6902ccc4e2
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "75303881"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888509"
 ---
 # <a name="how-visuals-cross-filter-each-other-in-a-power-bi-report"></a>Aplicación de un filtro cruzado entre objetos visuales en un informe de Power BI
 Una de las grandes características de Power BI es la manera en que están conectados entre sí todos los objetos visuales en la página de un informe. Si selecciona un punto de datos en uno de los objetos visuales, todos los demás objetos visuales de la página que contienen ese dato cambian para adaptarse a la selección. 
@@ -45,7 +45,8 @@ A continuación se definirán estos términos a medida que se examinan las pági
 
 
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
-- Si el informe tiene un objeto visual compatible con la [exploración](end-user-drill.md), de forma predeterminada, la exploración de un objeto visual no afecta a los demás de la página del informe.     
+- Si el informe tiene un objeto visual compatible con la [exploración](end-user-drill.md), de forma predeterminada, la exploración de un objeto visual no afecta a los demás de la página del informe. Sin embargo, el *diseñador* de informes puede cambiar este comportamiento, así que compruebe los objetos visuales que se pueden detallar para ver si ha habilitado los **filtros de detalles en otros objetos visuales**.
+    
 - Los filtros de nivel de objeto visual se conservan al realizar el filtrado y el resaltado cruzado de otros objetos visuales en la página del informe. Por tanto, si el objeto visual A tiene filtros de nivel de objeto visual aplicados por el diseñador de informes o usted mismo, y usa el objeto visual A para interactuar con el objeto visual B, los filtros de nivel de objeto visual de A se aplicarán a B.
 
     ![Página del informe después de seleccionar el segmento Moderación del gráfico de anillos](media/end-user-interactions/power-bi-visual-filters.png)

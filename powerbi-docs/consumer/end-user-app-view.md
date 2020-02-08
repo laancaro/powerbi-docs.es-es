@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 1/22/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 0733e726512ff52c5b51ba2d25cea18f8857f1e8
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 08a58bd725b8a8da3ff54b5bb670eb70af458dc7
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76537624"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819270"
 ---
 # <a name="install-and-use-apps-with-dashboards-and-reports-in-power-bi"></a>Instalación y uso de aplicaciones con los paneles e informes de Power BI
 
@@ -57,7 +57,7 @@ También puede buscar e instalar aplicaciones desde Microsoft AppSource. Solo se
 
 En este ejemplo, abriremos una de las aplicaciones de ejemplo de Microsoft. En AppSource encontrará aplicaciones para muchos de los servicios que usa para llevar su negocio.  Servicios como Salesforce, Microsoft Dynamics, Google Analytics, GitHub, zendesk, Marketo y muchos más. Para saber más, vea [Aplicaciones para los servicios que usa con Power BI](../service-connect-to-services.md). 
 
-1. En un explorador, abra https://appsource.microsoft.com y seleccione **Power BI apps**.
+1. En un explorador, abra [https://appsource.microsoft.com](https://appsource.microsoft.com) y seleccione las **aplicaciones de Power BI**.
 
     ![Sitio web de AppSource con Power BI apps seleccionado  ](./media/end-user-apps/power-bi-appsource.png)
 

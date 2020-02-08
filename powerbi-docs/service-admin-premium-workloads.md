@@ -9,12 +9,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 10/14/2019
 LocalizationGroup: Premium
-ms.openlocfilehash: 7d94c5d3531576cd36688591b55aaf4a49de51aa
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74831294"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889383"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -67,7 +67,7 @@ La carga de trabajo de conjuntos de datos está habilitada de forma predetermina
 | **Número máximo de conjuntos de filas intermedias** | Número máximo de filas intermedias devueltas por DirectQuery. El valor predeterminado es de 1 000 000, y el intervalo permitido está entre 100 000 y 2 147 483 647. |
 | **Tamaño máximo del conjunto de datos sin conexión (GB)** | Tamaño máximo del conjunto de datos sin conexión en memoria. Es el tamaño comprimido en el disco. El valor predeterminado se establece por SKU, y el intervalo permitido está entre 0,1 y 10 GB. |
 | **Número máximo de conjuntos de filas de resultados** | Número máximo de filas devueltas en una consulta DAX. El valor predeterminado es de -1 (sin límite), y el intervalo permitido está entre 100 000 y 2 147 483 647. |
-| **Límite de memoria de consulta (%)** | Porcentaje máximo de memoria disponible que se puede usar para los resultados temporales en una consulta o una medida DAX. |
+| **Límite de memoria de consulta (%)** | El porcentaje máximo de memoria disponible en la carga de trabajo que se puede usar para ejecutar una consulta MDX o DAX. |
 | **Tiempo de espera de la consulta (en segundos)** | Tiempo de espera máximo de una consulta. El valor predeterminado es de 3600 segundos (1 hora). Un valor de 0 especifica que las consultas no superarán el tiempo de espera. |
 | **Actualización automática de páginas (versión preliminar)** | Botón de alternancia de activación o desactivación para permitir que las áreas de trabajo Premium tengan informes con actualización automática de páginas. |
 | **Intervalo de actualización mínimo** | Si la actualización automática de páginas está activada, es el intervalo mínimo permitido como intervalo de actualización de páginas. El valor predeterminado es cinco minutos y el mínimo permitido es un segundo. |
@@ -99,11 +99,17 @@ Tenga en cuenta que esta configuración solo afecta a las consultas DAX, mientra
 
 Use esta configuración para controlar el impacto de los informes con un uso intensivo de recursos o con un diseño deficiente. Algunas consultas y cálculos pueden dar lugar a resultados intermedios que usan mucha memoria en la capacidad. Esta situación puede hacer que otras consultas se ejecuten muy lentamente, provoquen la expulsión de otros conjuntos de datos de la capacidad y generen errores de memoria insuficiente para otros usuarios de la capacidad.
 
-Esta configuración se aplica a la actualización de datos y la representación de informes. La actualización de datos realiza la actualización de datos del origen de datos y la de la consulta, a menos que la de la consulta esté deshabilitada. Si la actualización de consultas no está deshabilitada, este límite de memoria también se aplica a esas consultas. Las consultas con errores provocan que el estado de actualización programada se notifique como un error, aunque la actualización de datos se haya realizado correctamente.
+Esta configuración se aplica a todas las consultas DAX y MDX que se ejecutan mediante informes de Power BI, informes de Análisis en Excel, así como otras herramientas que pueden conectarse a través del punto de conexión XMLA.
+
+Tenga en cuenta que las operaciones de actualización de datos también pueden ejecutar consultas DAX como parte de la actualización de los iconos del panel y de cachés de objetos visuales una vez que se han actualizado los datos del conjunto de datos. Es posible que estas consultas también produzcan errores debido a esta configuración, y esto puede provocar que la operación de actualización de datos se muestre con un estado de error aunque los datos del conjunto de datos se hayan actualizado correctamente.
 
 #### <a name="query-timeout"></a>Tiempo de espera de la consulta
 
-Use esta opción para mantener un mejor control de las consultas de ejecución prolongada, lo que puede hacer que los informes se carguen con lentitud para los usuarios. Esta configuración se aplica a la actualización de datos y la representación de informes. La actualización de datos realiza la actualización de datos del origen de datos y la de la consulta, a menos que la de la consulta esté deshabilitada. Si la actualización de consultas no está deshabilitada, este límite de tiempo de espera también se aplica a esas consultas.
+Use esta opción para mantener un mejor control de las consultas de ejecución prolongada, lo que puede hacer que los informes se carguen con lentitud para los usuarios.
+
+Esta configuración se aplica a todas las consultas DAX y MDX que se ejecutan mediante informes de Power BI, informes de Análisis en Excel, así como otras herramientas que pueden conectarse a través del punto de conexión XMLA.
+
+Tenga en cuenta que las operaciones de actualización de datos también pueden ejecutar consultas DAX como parte de la actualización de los iconos del panel y de las cachés de objetos visuales una vez que se han actualizado los datos del conjunto de datos. Es posible que estas consultas también produzcan errores debido a esta configuración, y esto puede provocar que la operación de actualización de datos se muestre con un estado de error aunque los datos del conjunto de datos se hayan actualizado correctamente.
 
 Esta configuración se aplica a una sola consulta y no a la cantidad de tiempo que se tarda en ejecutar todas las consultas asociadas a la actualización de un conjunto de datos o informe. Considere el ejemplo siguiente:
 
@@ -144,7 +150,7 @@ Para beneficiarse del nuevo motor de proceso, divida la ingesta de datos en fluj
 
 #### <a name="container-size"></a>Tamaño del contenedor
 
-Al actualizar un flujo de datos, la carga de trabajo de flujos de datos genera un contenedor para cada entidad en el flujo de datos. Cada contenedor puede tomar memoria hasta el volumen especificado en la configuración **Tamaño del contenedor. El valor predeterminado para todas las SKU es de 700 MB. Es posible que quiera cambiar este valor si:
+Al actualizar un flujo de datos, la carga de trabajo de flujos de datos genera un contenedor para cada entidad en el flujo de datos. Cada contenedor puede tomar memoria hasta el volumen especificado en la configuración Tamaño del contenedor. El valor predeterminado para todas las SKU es de 700 MB. Es posible que quiera cambiar este valor si:
 
 - Los flujos de datos tardan demasiado tiempo en actualizarse, o bien se produce un error de actualización del flujo de datos en un tiempo de espera.
 - Las entidades de flujo de datos incluyen pasos de cálculo, por ejemplo, una combinación.  

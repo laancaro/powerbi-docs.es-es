@@ -8,12 +8,12 @@ ms.subservice: powerbi-admin
 ms.topic: conceptual
 ms.date: 01/03/2020
 ms.author: v-pemyer
-ms.openlocfilehash: b1ce8644decb758775c0bbff87df7975a64692a2
-ms.sourcegitcommit: 801d2baa944469a5b79cf591eb8afd18ca4e00b1
+ms.openlocfilehash: 53940737f71e04fbf5bccd9520a749f6fc559db9
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "75886122"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76889245"
 ---
 # <a name="migrate-sql-server-reporting-services-reports-to-power-bi"></a>Migración de informes de SQL Server Reporting Services a Power BI
 
@@ -104,6 +104,8 @@ Sin embargo, los siguientes tipos de elementos SSRS no se pueden migrar a Power�
 
 Si los informes de RDL dependen de las características [que todavía no se admiten para los informes paginados de Power BI](../paginated-reports-faq.md#what-paginated-report-features-in-ssrs-arent-yet-supported-in-power-bi), puede planear volver a desarrollarlos como [informes de Power BI](../consumer/end-user-reports.md). Aunque incluso los informes RDL se pueden migrar, se recomienda que considere modernizarlos como informes de Power BI, cuando corresponda.
 
+Si los informes RDL necesitan recuperar datos de _orígenes de datos locales_, no pueden usar el inicio de sesión único (SSO). Actualmente, toda la recuperación de datos de estos orígenes se realizará mediante el contexto de seguridad de la _cuenta de usuario del origen de datos de puerta de enlace_. SQL Server Analysis Services (SSAS) no puede aplicar seguridad de nivel de fila (RLS) por usuario.
+
 Por lo general, los informes paginados de Power BI están optimizados para la **impresión**o **generación de PDF**. Los informes de Power BI están optimizados para la **exploración e interactividad**. Para obtener más información, consulte [Cuándo usar informes paginados en Power BI](report-paginated-or-power-bi.md).
 
 ### <a name="prepare"></a>Preparar
@@ -116,6 +118,8 @@ El objetivo de la fase de _Preparación_ es dejarlo todo listo. En él se descri
 1. Familiarícese con el uso compartido de Power BI y planee cómo va a distribuir el contenido publicando [aplicaciones de Power BI](../service-create-distribute-apps.md).
 1. Considere la posibilidad de usar [conjuntos de datos compartidos de Power BI](../service-datasets-build-permissions.md) en lugar de orígenes de datos compartidos de SSRS.
 1. Use [Power BI Desktop](../desktop-what-is-desktop.md) para desarrollar informes optimizados para dispositivos móviles. Para ello, puede usar el [objeto visual personalizado KPI de Power BI](https://appsource.microsoft.com/product/power-bi-visuals/WA104381083?tab=Overview), en lugar de los informes para dispositivos móviles y KPI de SSRS.
+1. Vuelva a evaluar el uso del campo integrado **UserID** en los informes. Si confía en el valor de **UserID** para proteger los datos del informe, sepa que para los informes paginados (cuando se hospedan en el servicio Power BI) devuelve el nombre principal de usuario (UPN). Por lo tanto, en lugar de devolver el nombre de cuenta de NT, por ejemplo _AW\mblythe_, el campo integrado devolverá algo como _m.bythe&commat;adventureworks.com_. Tendrá que revisar las definiciones del conjunto de datos y, posiblemente, los datos de origen. Una vez revisadas y publicadas, se recomienda probar exhaustivamente los informes para asegurarse de que los permisos de datos funcionan según lo previsto.
+1. Vuelva a evaluar el uso del campo integrado **ExecutionTime** en los informes. En el caso de los informes paginados (cuando se hospedan en la servicio Power BI), el campo integrado devuelve la fecha y hora _en hora universal coordinada (o UTC)_ . Esto podría afectar a los valores predeterminados de los parámetros del informe y a las etiquetas de tiempo de ejecución del informe (normalmente se agregan a los pies de página del informe).
 1. Asegúrese de que los autores de los informes tienen instalado [Power BI Report Builder](../report-builder-power-bi.md) y que las publicaciones más recientes se pueden distribuir fácilmente en toda la organización.
 
 ## <a name="migration-stage"></a>Etapa de migración

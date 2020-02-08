@@ -1,6 +1,6 @@
 ---
-title: Compatibilidad de la extensión de representación en PDF con ISO 14289-1 - Power BI Report Server
-description: En este documento se describe la compatibilidad de la extensión de representación en PDF de Power BI Report Server y SQL Reporting Services con las especificaciones ISO 14289-1 (PDF/UA).
+title: 'Compatibilidad de la extensión de representación en PDF con ISO 14289-1: Power BI Report Server y SSRS'
+description: En este documento se describe la compatibilidad de la extensión de representación en PDF de Power BI Report Server y SQL Server Reporting Services con las especificaciones ISO 14289-1 (PDF/UA).
 author: maggiesMSFT
 ms.reviewer: ''
 ms.service: powerbi
@@ -8,18 +8,18 @@ ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 11/04/2019
 ms.author: maggies
-ms.openlocfilehash: c800ee995bc3c03b3cbcda91503e6dea9495f6b5
-ms.sourcegitcommit: 721cf375627b010e8ad12c4c668295f38d450a17
+ms.openlocfilehash: bfefcef18b8cd92a5c3b15c2dcbd4653a6c7c9cd
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "73638089"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819523"
 ---
-# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server"></a>Compatibilidad de la extensión de representación en PDF con ISO 14289-1: Power BI Report Server 
+# <a name="pdf-rendering-extension-conformance-to-iso-14289-1---power-bi-report-server--ssrs"></a>Compatibilidad de la extensión de representación en PDF con ISO 14289-1: Power BI Report Server y SSRS
 
-Se aplica a: Power BI Report Server y SQL Reporting Services
+Se aplica a: Power BI Report Server y SQL Server Reporting Services (SSRS)
 
-En este documento se describe la compatibilidad de la extensión de representación en PDF de Power BI Report Server y SQL Reporting Services con las especificaciones [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
+En este documento se describe la compatibilidad de la extensión de representación en PDF de Power BI Report Server y SQL Server Reporting Services con las especificaciones [ISO 14289-1 (PDF/UA)](https://www.pdfa.org/publication/pdfua-in-a-nutshell/).
 
 > [!NOTE]
 > Para guardar o imprimir estas notas del producto, haga clic en **Imprimir** en el explorador y después en **Guardar como PDF**.
@@ -51,7 +51,7 @@ Todo lo que se muestra en este documento se basa en la representación de un doc
 |     Criterios     |     Característica de compatibilidad     |     Notas      |
 |----|--------|--------|
 |    6.1 General    |                 Admitido    |    La extensión de representación en PDF crea la versión 1.7 de PDF.    |
-|    6.2 Archivos conformes    |                 Se admiten con excepciones    |    Vea los comentarios en la sección 7. Requisitos de formato de archivo.    |
+|    6.2 Archivos conformes    |                 Se admite con excepciones    |    Vea los comentarios en la sección 7. Requisitos de formato de archivo.    |
 |    6.3 Lector conforme    |     No aplicable     |         |
 |    6.4 Tecnología de asistencia conforme    |     No aplicable     |         |
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 09/26/2019
+ms.date: 02/03/2020
 ms.author: maggies
-ms.openlocfilehash: cfb83ae8b005744098261c6973a87fb929a864dd
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 69ebfa9b1d2ef500b388a1bbb57926dc53ff2607
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73858949"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "76975019"
 ---
 # <a name="create-a-power-bi-report-for-power-bi-report-server"></a>Creación de un informe de Power BI para Power BI Report Server
 Puede almacenar y administrar informes de Power BI en el portal web de Power BI Report Server, así como también puede almacenarlos en la nube del servicio Power BI (https://powerbi.com) ). Cree y edite informes en Power BI Desktop y publíquelos en el portal web. Luego, los lectores de informes de su organización pueden verlos en un explorador o en una aplicación móvil de Power BI de un dispositivo móvil.
@@ -90,9 +90,12 @@ Cuando el informe esté listo, guárdelo en la instancia de Power BI Report Serv
 2. Ahora puede verlo en el portal web.
    
     ![Ver informe en el portal web](media/quickstart-create-powerbi-report/report-server-powerbi-report.png)
+    
+> [!NOTE]
+> Si más adelante decide editar el informe, los datos que verá en el escritorio serán siempre los que estén almacenados en caché del momento en el que se creó el informe por primera vez.  Para ver los datos más recientes al editar el informe, debe actualizarlos en la aplicación Power BI Desktop.
 
 ## <a name="next-steps"></a>Pasos siguientes
-### <a name="power-bi-desktop"></a>Power BI Desktop
+### <a name="power-bi-desktop"></a>Power BI Desktop
 Hay muchos recursos excelentes para crear informes en Power BI Desktop. Este vínculo es un buen punto de partida.
 
 * [Introducción a Power BI Desktop](../desktop-getting-started.md)

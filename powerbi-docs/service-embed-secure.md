@@ -1,20 +1,20 @@
 ---
 title: Inserción de informes en un sitio web o portal seguro
 description: La característica de inserciones de Power BI permite a los usuarios insertar de forma fácil y segura informes en portales web internos.
-author: rkarlin
-ms.author: rkarlin
+author: maggiesMSFT
+ms.author: maggies
 ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 01/30/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: d4495a2021f008326d76c7fd9ff686d639827e90
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: f4da9179ef140fd254939a4121e91dd032269c98
+ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565757"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "76913605"
 ---
 # <a name="embed-a-report-in-a-secure-portal-or-website"></a>Inserción de informes en un sitio web o portal seguro
 
@@ -129,7 +129,11 @@ Puede agregar tantos botones como quiera para crear una experiencia personalizad
 
 * Algunos exploradores requieren que se actualice la página después de iniciar sesión, especialmente cuando se usan los modos InPrivate o Incognito.
 
-* Para lograr una experiencia de inicio de sesión único, use la opción “Insertar en SharePoint Online”, o bien cree una integración personalizada con el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
+* Si se usan versiones de explorador no admitidas, pueden producirse problemas. Power BI admite [la siguiente lista de exploradores](power-bi-browsers.md).
+
+* No se admite el servidor de SharePoint clásico, ya que requiere versiones de Internet Explorer anteriores a la 11 o habilitar el modo de vista de compatibilidad.
+
+* Para lograr una experiencia de inicio de sesión único, use la opción [Insertar en SharePoint Online](service-embed-report-spo.md), o bien cree una integración personalizada con el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
 
 * La funcionalidad de autenticación automática que se incluye con la opción **Insertar** no funciona con la API de JavaScript para Power BI. Con la API de JavaScript para Power BI, use el método de inserción [el usuario es el propietario de los datos](developer/embed-sample-for-your-organization.md). 
 

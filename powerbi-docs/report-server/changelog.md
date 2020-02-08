@@ -7,19 +7,44 @@ ms.reviewer: maggies
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/25/2019
-ms.openlocfilehash: ef85aea957ec470b348676b553248f30d3bf8532
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.date: 01/27/2020
+ms.openlocfilehash: 993d83e15eafa0e40938eee13cbeabec75389f47
+ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73874266"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "76819546"
 ---
 # <a name="change-log-for-power-bi-report-server"></a>Registro de cambios de Power BI Report Server
 
 Este registro de cambios es para el servidor de informes de Power BI y enumera los elementos nuevos junto con las correcciones de errores de cada versión publicada.
 
 Para obtener información detallada sobre las nuevas características, consulte [Novedades en el servidor de informes de Power BI](whats-new.md). 
+
+
+## <a name="january-2020"></a>Enero de 2020
+- **Servidor de informes de Power BI**
+    - *Versión: 1.6.7327.3007 (compilación 15.0.1102.759), fecha de publicación: 23 de enero de 2020*
+         - Características
+            -  Exportación de informes de Power BI a Excel.
+           -  Compatibilidad de los conjuntos de datos de Power BI Premium con los informes paginados.
+           -  Compatibilidad de AltText (texto alternativo) con los elementos de informe paginados.
+           -  Compatibilidad con encabezados personalizados.
+           -  Compatibilidad con Instancia administrada de Azure SQL como catálogo.
+           -  Cifrado de base de datos transparente para el catálogo.
+        - Actualizaciones de seguridad
+        - Correcciones de errores
+            - Correcciones de accesibilidad para lectores de pantalla, representación de informes y navegación mediante teclado.
+            - Corrección para guardar títulos de informe de varios bytes.
+            - Corrección para el registro detallado que afecta a la confiabilidad del servidor de informes.
+          - Corrección para garantizar datos activos en informes de Power BI en dispositivos móviles.
+          - Corrección para aplicar resaltado cruzado a los objetos visuales de la exportación filtrada de informes de Power BI.
+          - Corrección para escribir un pie de página al realizarla exportación a Word con la expresión de visibilidad de informes paginados. 
+     
+- **Power BI Desktop (optimizado para Power BI Report Server)**
+    - *Versión: 2.76.5678.1521 (enero de 2020), fecha de publicación: 23 de enero de 2020* (nueva compilación y nueva versión)
+        - Contiene los cambios necesarios para la conexión con Power BI Report Server (enero de 2020).        
+
 
 ## <a name="september-2019"></a>Septiembre de 2019
 - **Servidor de informes de Power BI**

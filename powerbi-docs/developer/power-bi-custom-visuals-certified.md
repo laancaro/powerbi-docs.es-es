@@ -9,12 +9,12 @@ ms.service: powerbi
 ms.topic: conceptual
 ms.subservice: powerbi-custom-visuals
 ms.date: 01/12/2019
-ms.openlocfilehash: 04954397a16fecddabca63067c903dee742873ef
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 4ffab3913560498dd57103f0a25c39f7a03a42ec
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925569"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026678"
 ---
 # <a name="get-a-power-bi-visual-certified"></a>Obtención de un objeto visual de Power BI certificado
 
@@ -45,7 +45,7 @@ Aunque no tiene que compartir el código públicamente en GitHub, el repositorio
 
 El repositorio debe contener el código de solo un objeto visual de Power BI. No puede contener código de varios objetos visuales de Power BI o código no relacionado.
 
-El repositorio debe contener una rama llamada **certificación**. El código fuente de esta rama tiene que coincidir con el del paquete enviado. Este código solo se puede actualizar durante el siguiente proceso de envío, si va a volver a enviar el objeto visual de Power BI.
+El repositorio debe contener una rama llamada **certificación** (en minúsculas). El código fuente de esta rama tiene que coincidir con el del paquete enviado. Este código solo se puede actualizar durante el siguiente proceso de envío, si va a volver a enviar el objeto visual de Power BI.
 
 Si el objeto visual de Power BI usa paquetes NPM privados o submódulos de Git, debe proporcionar acceso a los repositorios adicionales que contienen este código.
 

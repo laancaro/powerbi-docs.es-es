@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/14/2020
+ms.date: 01/30/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fa097489fcf81ec1bb1df2162465e6413bd116c0
-ms.sourcegitcommit: 0ae9328e7b35799d5d9613a6d79d2f86f53d9ab0
+ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
+ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "76040413"
+ms.lasthandoff: 01/31/2020
+ms.locfileid: "76895543"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -41,25 +41,24 @@ En este ejemplo, cada fila del objeto visual de matriz situado más a la derecha
 
 Al examinar los totales y subtotales, recuerde que estos valores se basan en los datos subyacentes. No se basan exclusivamente en los valores visibles.
 
-<!-- use Nov blog post video
 
-## Expanding and collapsing row headers
-There are two ways you can expand row headers. The first is through the right-click menu. You’ll see options to expand the specific row header you clicked on, the entire level or everything down to the very last level of the hierarchy. You have similar options for collapsing row headers as well.
+## <a name="expanding-and-collapsing-row-headers"></a>Expansión y contracción de encabezados de fila
+Hay dos maneras de expandir los encabezados de fila. La primera es mediante el menú contextual. Verá opciones para expandir el encabezado de fila específico que seleccionó, el nivel entero o todo hasta el último nivel de la jerarquía. También tiene opciones similares para contraer los encabezados de fila.
 
 ![](media/desktop-matrix-visual/power-bi-expand1.png)
 
-You can also add +/- buttons to the row headers through the formatting pane under the row headers card. By default, the icons will match the formatting of the row header, but you can customize the icons’ color and size separately if you want. 
-Once the icons are turned on, they work similarly to the icons from PivotTables in Excel.
+Además, puede agregar botones +/-a los encabezados de fila mediante el panel de formato situado bajo la tarjeta **Encabezados de fila**. De forma predeterminada, los iconos coinciden con el formato del encabezado de fila, pero puede personalizar los colores y tamaños de los iconos por separado si así lo desea.
+
+Una vez que los iconos están activados, funcionan de forma similar a los de la tabla dinámica de Excel.
 
 ![](media/desktop-matrix-visual/power-bi-expand2.png)
 
-The expansion state of the matrix will save with your report. It can be pinned to dashboards as well, but consumers will need to open up the report to change the state. Conditional formatting will only apply to the inner most visible level of the hierarchy. Note that this expand/collapse experience is not currently supported when connecting to AS servers older than 2016 or MD servers.
+El estado de expansión de la matriz se guardará con el informe. Una matriz se puede anclar a un panel expandido o contraído. Cuando se selecciona el icono del panel y se abre el informe, se puede cambiar el estado de expansión en el informe. 
 
 ![](media/desktop-matrix-visual/power-bi-expand3.png)
 
-Watch the following video to learn more about expand/collapse in the matrix:
 
--->
+
 ## <a name="using-drill-down-with-the-matrix-visual"></a>Uso de la exploración en profundidad con el objeto visual de matriz
 Con el objeto visual de matriz, puede realizar todo tipo de actividades interesantes de exploración en profundidad que no estaban disponibles anteriormente. Esto incluye la capacidad de explorar en profundidad mediante filas, columnas e incluso en celdas y secciones individuales. Veamos cómo funciona cada una de ellas.
 
@@ -183,6 +182,16 @@ La matriz o tabla puede tener contenido que es posible que quiera usar en otras 
 * La copia será otra visualización de la matriz, pero solo contendrá los datos copiados.
 
     ![Captura de pantalla que muestra el ejemplo de copiar objeto visual](media/desktop-matrix-visual/power-bi-copy-visual-example.png)
+
+## <a name="setting-a-matrix-value-as-a-custom-url"></a>Establecimiento de un valor de matriz como una dirección URL personalizada
+
+Si tiene una columna o una medida que contiene direcciones URL de sitios web, puede usar el formato condicional para aplicar dichas direcciones URL a los campos como vínculos activos. Encontrará esta opción en la tarjeta **Formato condicional** del panel de formato.
+
+![Tarjeta de filtros que muestra las filas que se eligen](media/desktop-matrix-visual/power-bi-web-url.png)
+
+Active **Dirección URL web** y seleccione un campo para usarlo como dirección URL de la columna. Una vez aplicados, los valores de ese campo (columna) se convierten en vínculos activos. Mantenga el mouse para ver el vínculo y selecciónelo para saltar a esa página. 
+
+Para más información, consulte [Formato de tabla condicional](../desktop-conditional-table-formatting.md).
 
 ## <a name="shading-and-font-colors-with-matrix-visuals"></a>Colores de fuente y sombreado con objetos visuales de matriz
 Con el objeto visual de matriz, puede aplicar formato condicional (colores, sombreado y barras de datos) al fondo de las celdas de la matriz y también al texto y a los valores propiamente dichos.

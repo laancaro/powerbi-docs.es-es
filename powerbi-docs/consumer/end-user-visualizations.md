@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: fc663f34b5ed95502f84f3858cb54cdb42f6fead
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: c182639e97bcaf272c656d2ee2e002e7470efc40
+ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73860985"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "76888533"
 ---
 # <a name="interact-with-visuals-in-reports-dashboards-and-apps"></a>Interacción con objetos visuales en informes, paneles y aplicaciones
 
@@ -37,7 +37,7 @@ Para muchas de estas opciones, el administrador o el *diseñador* pueden deshabi
 
 
 > [!IMPORTANT]
-> Pero primero, detengámonos un momento en Preguntas y respuestas. Preguntas y respuestas es la herramienta de búsqueda de lenguaje natural de Power BI. El usuario escribe una pregunta con lenguaje natural y Preguntas y respuestas responde a la pregunta con un objeto visual. Preguntas y respuestas es un medio por el que los consumidores pueden crear sus propios objetos visuales. Sin embargo, los objetos visuales que cree con Preguntas y respuestas no se podrán guardar. Si hay alguna información específica que desee obtener de los datos y el diseñador no la incluyó en un informe o un panel, Preguntas y respuestas es un excelente recurso. Para obtener más información acerca de Preguntas y respuestas, consulte [Preguntas y respuestas para los consumidores](end-user-q-and-a.md).
+> Pero primero, detengámonos un momento en Preguntas y respuestas. Preguntas y respuestas es la herramienta de búsqueda de lenguaje natural de Power BI. El usuario escribe una pregunta con lenguaje natural y Preguntas y respuestas responde a la pregunta con un objeto visual. Preguntas y respuestas es un medio por el que los consumidores pueden crear sus propios objetos visuales sobre la marcha. Sin embargo, los objetos visuales que cree con Preguntas y respuestas no se podrán guardar. Si hay alguna información específica que desee obtener de los datos y el diseñador no la incluyó en un informe o un panel, Preguntas y respuestas es un excelente recurso. Para obtener más información acerca de Preguntas y respuestas, consulte [Preguntas y respuestas para los consumidores](end-user-q-and-a.md).
 
 
 
@@ -45,13 +45,13 @@ Para muchas de estas opciones, el administrador o el *diseñador* pueden deshabi
 |---------|---------|---------|--------|
 |[Agregar comentarios a un objeto visual para uso personal o iniciar una conversación con sus compañeros sobre el objeto visual](end-user-comment.md).     |  sí       |   sí      |  no  |
 |[Abrir y explorar el informe donde se creó el objeto visual](end-user-tiles.md).     |    sí     |   ND      |  no |
-|[Ver una lista de los filtros y las segmentaciones que afectan al objeto visual](end-user-report-filter.md).     |    no     |   sí      |  sí |
+|[Ver una lista de los filtros y las segmentaciones que afectan al objeto visual](end-user-report-filter.md).     |    Si abre en modo de enfoque     |   sí      |  no |
 |[Abrir y explorar un objeto visual en Preguntas y respuestas (si el *diseñador* ha usado Preguntas y respuestas para crearlo)](end-user-q-and-a.md).     |   sí      |   ND      |  ND  |
 |[Crear un objeto visual en Preguntas y respuestas (para la exploración, no lo podrá guardar)](end-user-q-and-a.md).     |   sí      |   si el diseñador ha agregado Preguntas y respuestas al informe      |  sí  |
-|[Pedir a Power BI que busque tendencias o hechos interesante](end-user-insights.md) en los datos del objeto visual en su lugar.  Estos objetos visuales generados de forma automática se denominan *conclusiones*.     |    sí     |  para todo el informe, no por objeto visual       | no   |
-|[Ver un solo objeto visual a la vez con el modo de *enfoque*](end-user-focus.md).     | sí        |   sí      | ND  |
+|[Pedir a Power BI que busque tendencias o hechos interesante](end-user-insights.md) en los datos del objeto visual en su lugar.  Estos objetos visuales generados de forma automática se denominan *conclusiones*.     |    sí, para iconos    |  no       | no   |
+|[Ver un solo objeto visual a la vez con el modo de *enfoque*](end-user-focus.md).     | sí, para iconos        |   sí, para objetos visuales      | ND  |
 |[Consultar la última vez que se ha actualizado el objeto visual](end-user-fresh.md).     |  sí       |    sí     | ND  |
-|[Ver un solo objeto visual a la vez, sin bordes ni paneles de navegación, con el modo de *pantalla completa* o el *de enfoque*](end-user-focus.md).     |   sí      |  sí       | de forma predeterminada  |
+|[Ver un solo objeto visual a la vez, sin bordes ni paneles de navegación, con el modo de *pantalla completa*](end-user-focus.md).     |   sí      |  sí       | de forma predeterminada  |
 |[Imprimir](end-user-print.md).     |  sí       |   sí      | no  |
 |[Profundizar en el objeto visual mediante la adición y la modificación de filtros de visualización](end-user-report-filter.md).     |    no     |   sí      | no  |
 |Mantener el puntero sobre un objeto visual para mostrar información sobre herramientas y detalles adicionales.     |    sí     |   sí      | sí  |
@@ -61,7 +61,7 @@ Para muchas de estas opciones, el administrador o el *diseñador* pueden deshabi
 | Agregar un punto destacado a un objeto visual. | no  | sí  |  no |
 | [Exportar a Excel](end-user-export.md). | sí | sí | no|
 | [Crear una alerta](end-user-alerts.md) para recibir una notificación cuando un valor supere el umbral establecido.  | sí  | no  | no |
-| [Filtrado cruzado y resaltado cruzado de los demás objetos visuales de la página](end-user-report-filter.md).  | no      | sí  | no  |
+| [Filtrado cruzado y resaltado cruzado de los demás objetos visuales de la página](end-user-report-filter.md).  | no      | sí  | ND |
 | [Exploración de un objeto visual que tiene una jerarquía](end-user-drill.md).  | no  | sí   | no |
 
 ## <a name="next-steps"></a>Pasos siguientes
