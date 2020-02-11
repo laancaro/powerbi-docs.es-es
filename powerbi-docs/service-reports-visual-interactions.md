@@ -7,15 +7,15 @@ featuredvideoid: N_xYsCbyHPw
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/04/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 116ff1df7ddc75df79e6f2f28296543449498599
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 1d723f3dd67eb5e096622c882b5f538a77666d9e
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76894735"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "77036708"
 ---
 # <a name="change-how-visuals-interact-in-a-power-bi-report"></a>Cambiar cómo interactúan los objetos visuales en un informe de Power BI
 Si tiene permisos de edición de un informe, puede usar las **Interacciones de objetos visuales** para cambiar cómo afectan las visualizaciones de una página de informe entre sí. 
@@ -87,6 +87,11 @@ Si la visualización seleccionada:
     ![activación de los filtros de detalles en otros objetos visuales](media/service-reports-visual-interactions/power-bi-drill.png)
 
 3. Si el comportamiento que ve no es el esperado, puede cambiar las interacciones [como se ha descrito anteriormente](#change-the-interaction-behavior).
+
+## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
+Si crea una matriz con campos de diferentes tablas, intente realizar un resaltado cruzado seleccionando varios elementos en diferentes niveles de la jerarquía, obtendrá errores en los otros objetos visuales. 
+
+![Vídeo de error al intentar filtrar en diferentes niveles de jerarquía](media/service-reports-visual-interactions/cross-highlight.gif)
     
 ## <a name="next-steps"></a>Pasos siguientes
 [Filtrado y resaltado en informes de Power BI](power-bi-reports-filters-and-highlighting.md)

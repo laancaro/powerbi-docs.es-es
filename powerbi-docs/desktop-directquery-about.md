@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 01/10/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 504b389bdbe50d17f969365d7e4f2e51d206918c
-ms.sourcegitcommit: 4b926ab5f09592680627dca1f0ba016b07a86ec0
+ms.openlocfilehash: dedbe3800dc4a6b1088ca5a4037bc8451c61d986
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "75837305"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076648"
 ---
 # <a name="about-using-directquery-in-power-bi"></a>Acerca del uso de DirectQuery en Power BI
 
@@ -312,7 +312,7 @@ Además de las sugerencias anteriores, cada una de las funcionalidades de creaci
 
 * **Mediana:** Por lo general, cualquier agregación (como `Sum` o `Count Distinct`) se envía al origen subyacente. Aunque este hecho no se cumple en el caso de la mediana, ya que este agregado no suele ser compatible con el origen subyacente. En dichos casos, se recuperan los datos detallados del origen subyacente y la mediana se calcula a partir de los resultados devueltos. Este enfoque resulta razonable cuando la mediana se calcula sobre un número relativamente pequeño de resultados. Problemas de rendimiento o errores de consulta debido al límite de un millón de filas si la cardinalidad es grande. Por ejemplo, la **mediana de la población de un país** podría ser razonable, pero la **mediana del precio de ventas** podría no serlo.
 
-* **Filtros de texto avanzados (* contains* y similares):* * cuando se filtra según una columna de texto, el filtrado avanzado permite filtros como *contains*, *begins with*, etc. Por supuesto, estos filtros pueden producir un rendimiento deteriorado para algunos orígenes de datos. En concreto, el filtro *contains* predeterminado no se debería usar si lo que se requiere es una coincidencia exacta. Si bien los resultados podrían ser iguales, según los datos reales, el rendimiento podría ser completamente distinto a causa del uso de índices.
+* **Filtros de texto avanzados (_contains_ y similares):** cuando se filtra según una columna de texto, el filtrado avanzado permite filtros como *contains* y *begins with*, etc. Por supuesto, estos filtros pueden producir un rendimiento deteriorado para algunos orígenes de datos. En concreto, el filtro *contains* predeterminado no se debería usar si lo que se requiere es una coincidencia exacta. Si bien los resultados podrían ser iguales, según los datos reales, el rendimiento podría ser completamente distinto a causa del uso de índices.
 
 * **Segmentaciones de selección múltiple:** de manera predeterminada, las segmentaciones solo permiten que se haga una selección. Permitir la selección múltiple en los filtros puede causar algunos problemas de rendimiento, ya que el usuario selecciona un conjunto de elementos en la segmentación. Por ejemplo, si el usuario selecciona los 10 productos de interés, cada nueva selección hace que las consultas se envíen al origen. Aunque el usuario puede seleccionar el elemento siguiente antes de que se complete la consulta, este enfoque se traduce en una carga adicional en el origen subyacente.
 

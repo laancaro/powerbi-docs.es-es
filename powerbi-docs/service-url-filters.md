@@ -10,12 +10,12 @@ ms.subservice: powerbi-service
 ms.topic: conceptual
 ms.date: 01/30/2020
 LocalizationGroup: Reports
-ms.openlocfilehash: e2840d2695b70867b73c873aea7a06acf26bcc3e
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: b20820490ec88d34d4ee75c135cc54277e473545
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76913565"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076642"
 ---
 # <a name="filter-a-report-using-query-string-parameters-in-the-url"></a>Filtro de un informe con parámetros de cadena de consulta en la URL
 
@@ -193,7 +193,7 @@ Esta discrepancia resulta útil cuando se quieren ver resultados diferentes: fil
 Hay un par de cosas que tener en cuenta al utilizar los parámetros de cadena de consulta.
 
 * Cuando se usa el operador *in*, los valores a la derecha de *in* deben ser una lista separada por comas entre paréntesis.    
-* En Power BI Report Server, puede [pasar parámetros de informes](https://docs.microsoft.com/sql/reporting-services/pass-a-report-parameter-within-a-url?view=sql-server-2017.md) incluyéndolos en una URL de informe. Estos parámetros de URL no tienen prefijo porque se pasan directamente al motor de procesamiento de informes.
+* Power BI Report Server también admite la capacidad de especificar filtros adicionales mediante el parámetro URL “filter”.  Por ejemplo, en Power BI Report Server, es posible que la dirección URL sea similar a la siguiente: https://reportserver/reports/powerbi/Store Sales?rs:Embed=true&filter= Store/Territory eq 'NC' and Store/Chain eq 'Fashions Direct'
 * El filtrado de cadenas de consulta no funciona con [Publicar en la web](service-publish-to-web.md) ni [Exportar a PDF](consumer/end-user-pdf.md).
 * La [inserción de un elemento web de informes en SharePoint Online](service-embed-report-spo.md) no admite los filtros de direcciones URL.
 * El tipo de datos long es (2^53-1) debido a las limitaciones de Javascript.
