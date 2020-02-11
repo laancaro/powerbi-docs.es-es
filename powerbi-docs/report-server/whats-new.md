@@ -8,12 +8,12 @@ ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
 ms.date: 01/23/2020
-ms.openlocfilehash: 9b7ea090d7860de9ec4132b070bd1286085cc5f3
-ms.sourcegitcommit: 0cc594ebb78a6d0e88784673ed09f8aefd10c7a7
+ms.openlocfilehash: d4e233e55731d77d4136c1b6ef1e341a2d043234
+ms.sourcegitcommit: 75300b3f53f438ed7d3bd4edc93b9eb5925bf3af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "76819569"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "77026724"
 ---
 # <a name="whats-new-in-power-bi-report-server"></a>Novedades en el servidor de informes de Power BI
 
@@ -160,7 +160,7 @@ Con Azure Active Directory Application Proxy, ya no necesita administrar su pr
 
 #### <a name="custom-headers"></a>Encabezados personalizados
 
-Establece los valores de encabezado de todas las direcciones URL que coinciden con el patrón regex especificado. Los usuarios pueden actualizar el valor de encabezado personalizado con XML válido para establecer los valores de encabezado de las direcciones URL de solicitud seleccionadas. Los administradores pueden agregar cualquier número de encabezados en el XML. Para más información, consulte [Encabezados personalizados](https://docs.microsoft.com/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#custom-headers) en el artículo sobre la **página de propiedades avanzadas del servidor** de Reporting Services.
+Establece los valores de encabezado de todas las direcciones URL que coinciden con el patrón regex especificado. Los usuarios pueden actualizar el valor de encabezado personalizado con XML válido para establecer los valores de encabezado de las direcciones URL de solicitud seleccionadas. Los administradores pueden agregar cualquier número de encabezados en el XML. Para más información, consulte [CustomHeaders](/sql/reporting-services/tools/server-properties-advanced-page-reporting-services#customheaders) en el artículo sobre la **página de propiedades avanzadas del servidor** de Reporting Services.
 
 #### <a name="transparent-database-encryption"></a>Cifrado de base de datos transparente
 

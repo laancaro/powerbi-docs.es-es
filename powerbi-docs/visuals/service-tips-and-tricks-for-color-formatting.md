@@ -10,10 +10,10 @@ ms.date: 01/29/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
 ms.openlocfilehash: 0b633f2482c5b9f1624f39e4f2c0e07afc55353f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
+ms.lasthandoff: 02/04/2020
 ms.locfileid: "76895063"
 ---
 # <a name="tips-and-tricks-for-color-formatting-in-power-bi"></a>Sugerencias y trucos para el formato de color en Power BI
@@ -133,7 +133,7 @@ Una de las formas más rápidas de aplicar color a una tabla o matriz es abrir l
 
 ![tabla predeterminada](media/service-tips-and-tricks-for-color-formatting/power-bi-table-style.png)
 
-Experimente con otras opciones de formato de color. En esta imagen, se ha cambiado el color de fondo de **Encabezados de columna** y se han cambiado los valores (filas) de **Color de fondo** y **Alternar color de fondo**.
+Experimente con otras opciones de formato de color. En esta imagen, se ha cambiado el color de fondo de **Encabezados de columna** y se han cambiado los **valores** (filas) de **Color de fondo** y **Alternar color de fondo**.
 
 ![tabla predeterminada](media/service-tips-and-tricks-for-color-formatting/power-bi-table-rows.png)
 
