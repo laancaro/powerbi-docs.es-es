@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/06/2020
 LocalizationGroup: Share your work
-ms.openlocfilehash: 53cc311f2fb0bfa4ab876c80b81ee2a092c4fd8c
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: a9417e7de98e0fa1867aa0561743c1ed6c5b63e2
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76913625"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "77076703"
 ---
 # <a name="publish-to-web-from-power-bi"></a>Publicar en la web de Power BI
 
@@ -40,9 +40,11 @@ Los pasos siguientes describen cómo usar la característica **Publicar en Web**
 
    ![PtW1](media/service-publish-to-web/publish_to_web1.png)
    
-2. Si no le han permitido crear códigos para insertar, póngase en contacto con su administrador de Power BI.
+2. Si no le han permitido crear códigos para insertar, póngase en contacto con su [administrador de Power BI](service-admin-role.md).
 
    ![PtW1](media/service-publish-to-web/publish_to_web_admin_prompt.png)
+   
+   A fin de obtener ayuda para encontrar a la persona que puede habilitar Publicar en la web en su organización, [consulte estas sugerencias](#how-to-find-your-power-bi-administrator).
 
 3. Revise el contenido del cuadro de diálogo y seleccione **Crear código para insertar**.
 
@@ -73,7 +75,7 @@ En la tabla siguiente se proporcionan instrucciones sobre el modo de vista y có
 | --- | --- |
 | ![PtW6b](media/service-publish-to-web/publish_to_web6b.png) |**Ajustar a la página** respeta el alto y ancho de la página del informe. Si establece la página en proporciones *dinámicas*, como 16:9 o 4:3, el contenido se escalará para que quepa en el iFrame. Cuando se inserta en un iFrame, el uso de **Ajustar a la página** puede dar como resultado un *formato de pantalla ancha*, en el que se muestra un fondo gris en las áreas del iFrame después de que el contenido se escale para ajustarlo en dicho iFrame. Para minimizar el formato de pantalla ancha, establezca el alto y ancho del iFrame adecuadamente. |
 | ![PtW6d](media/service-publish-to-web/publish_to_web6d.png) |**Tamaño real** garantiza que el informe conserve su tamaño tal como está establecido en la página del informe. Esto puede causar que se muestren barras de desplazamiento en el iFrame. Establezca el alto y ancho de iFrame para evitar las barras de desplazamiento. |
-| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido se ajuste dentro del área horizontal del iFrame. Se sigue mostrando un borde, pero el contenido se escala para usar todo el espacio horizontal disponible. |
+| ![PtW6c](media/service-publish-to-web/publish_to_web6c.png) |**Ajustar al ancho** garantiza que el contenido rellene el área horizontal del iFrame. Se sigue mostrando un borde, pero el contenido se escala para usar todo el espacio horizontal disponible. |
 
 ## <a name="tips-and-tricks-for-iframe-height-and-width"></a>Sugerencias y trucos para el ancho y alto de iFrame
 
@@ -194,6 +196,21 @@ Debe ser usuario de Microsoft Power BI para poder usar la características **Pub
 Cuando se crea un código para insertar mediante **Publicar en la web**, el informe se hace visible para los usuarios de Internet. Está disponible públicamente, por lo que se puede esperar que los espectadores compartan fácilmente el informe a través de redes sociales en el futuro. Cuando los usuarios ven el informe, ya sea con la dirección URL pública directa o insertado en una página web o un blog, Power BI almacena en caché la definición de informe y los resultados de las consultas necesarias para ver el informe. Esto garantiza que miles de usuarios simultáneos pueden ver el informe sin afectar al rendimiento.
 
 La caché es de larga duración, por lo que si se actualiza la definición del informe (por ejemplo, si cambia el modo de vista) o se actualizan los datos del informe, los cambios pueden tardar aproximadamente una hora en reflejarse en la versión del informe que ven los usuarios. Por lo tanto, se recomienda organizar el trabajo con antelación y crear el código para insertar de **Publicar en Web** solo cuando esté satisfecho con la configuración.
+
+## <a name="how-to-find-your-power-bi-administrator"></a>Cómo buscar el administrador de Power BI
+
+Para cambiar la [configuración de inquilinos de publicación en la web](#tenant-setting), deberá trabajar con el [administrador de Power BI](service-admin-role.md) de la organización.
+
+En el caso de las organizaciones más pequeñas o las personas que se han registrado en Power BI, es posible que aún no cuente con un administrador de Power BI. Deberá seguir nuestro [proceso de adquisición de administrador de inquilinos](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover). Una vez que tenga un administrador de Power BI, puede habilitar la creación de códigos para insertar automáticamente.
+
+Las organizaciones establecidas normalmente ya tienen un administrador de Power BI. Las personas de cualquiera de los roles siguientes pueden actuar como administrador de Power BI:
+
+- Administradores de Office 365
+- Administradores de Azure Active Directory
+- Usuarios con el rol de administrador de servicios de Power BI en Azure Active Directory
+
+Deberá [encontrar a una de estas personas](https://docs.microsoft.com/office365/admin/admin-overview/admin-overview#who-has-admin-permissions-in-my-business), las cuales pueden actualizar la configuración, en su organización.
+
 
 ## <a name="next-steps"></a>Pasos siguientes
 
