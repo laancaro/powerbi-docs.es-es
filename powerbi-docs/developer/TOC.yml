@@ -134,6 +134,8 @@
               href: embed-sample-for-customers-national-clouds.md
         - name: Conceptos
           items:
+            - name: "Capacidad y SKU de los análisis incrustados de Power\_BI"
+              href: embedded-capacity.md
             - name: Procedimientos recomendados de rendimiento
               href: embedded-performance-best-practices.md
             - name: Entidad de servicio
