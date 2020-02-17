@@ -53,7 +53,7 @@ o bien un lienzo con detalles de transporte y calles.
 
 ![mapa base gris oscuro](media/power-bi-visualizations-arcgis/power-bi-streets-basemap.png)  
 
-El mapa base se aplica al lienzo completamente; a medida que se realizan movimientos panorámicos y de zoom, el mapa se actualiza. Acerque la vista para ver información más detallada sobre la calle y el transporte. Al realizar un movimiento panorámico de un continente a otro, el nivel de detalle permanece constante. En este caso, se ha realizado un movimiento panorámico desde Oporto a Pekín.
+El mapa base se aplica al lienzo completamente; a medida que se realizan movimientos panorámicos y de zoom, el mapa se actualiza. Acerque la vista para ver información más detallada sobre la calle y el transporte. Al realizar un movimiento panorámico de un continente a otro, el nivel de detalle permanece constante. En este caso, se ha realizado un movimiento panorámico desde Oporto a Beijing.
 
 ![mapa base de las calles](media/power-bi-visualizations-arcgis/power-bi-basemap-pan.png)  
 

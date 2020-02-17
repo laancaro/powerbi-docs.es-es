@@ -25,7 +25,7 @@ En este artículo, obtendrá información sobre cómo insertar un informe de Pow
 * [Power BI Report Server](https://powerbi.microsoft.com/report-server/) instalado y configurado.
 * [Power BI Desktop optimizado para Power BI Report Server](install-powerbi-desktop.md) instalado.
 * Un entorno de [SharePoint](https://docs.microsoft.com/sharepoint/install/install) instalado y configurado.
-* Internet Explorer 11 solo se admite si el modo de documento está establecido en el modo IE11 (Edge) o cuando se usa SharePoint Online. Puede usar otros exploradores compatibles con SharePoint local y SharePoint Online.
+* Internet Explorer 11 solo se admite si el modo de documento está establecido en el modo IE11 (Microsoft Edge) o cuando se usa SharePoint Online. Puede usar otros exploradores compatibles con SharePoint local y SharePoint Online.
 
 ## <a name="create-the-power-bi-report-url"></a>Creación de la dirección URL del informe de Power BI
 
