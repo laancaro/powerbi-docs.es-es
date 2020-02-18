@@ -10,12 +10,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 01/03/2019
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 897590324040a69dbaa1ac549dcee80de8da76a5
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 56958d59e52065f3553a60ce49bd988b4869a646
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75691391"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77153968"
 ---
 # <a name="visuals-in-power-bi"></a>Objetos visuales en Power BI
 
@@ -80,4 +80,4 @@ Si es desarrollador web y está interesado en crear un objeto visual propio y ag
 
 * Examine las [Instrucciones para objetos visuales de Power BI](guidelines-powerbi-visuals.md).
 
-¿Tiene más preguntas? Pruebe la página [Preguntas más frecuentes de objetos visuales de Power BI](power-bi-custom-visuals-faq.md) o la [Comunidad de Power BI](http://community.powerbi.com/).
+¿Tiene más preguntas? Pruebe la página [Preguntas más frecuentes de objetos visuales de Power BI](power-bi-custom-visuals-faq.md) o la [Comunidad de Power BI](https://community.powerbi.com/).
