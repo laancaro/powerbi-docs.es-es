@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 16bfba0b4ed83be55604d2a12e5b86edae2d58bc
-  ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
+  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
+  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/12/2020
-  ms.locfileid: "77154198"
+  ms.lasthandoff: 02/19/2020
+  ms.locfileid: "77465023"
 landingContent:
 - title: Guía de Power BI
   linkLists:
@@ -75,7 +75,7 @@ landingContent:
       url: dax-column-measure-references.md
     - text: Evitar el uso de FILTER como argumento de filtro
       url: dax-avoid-avoid-filter-as-filter-argument.md
-- title: Creación de informes
+- title: Informes de Power BI
   linkLists:
   - linkListType: concept
     links:
@@ -83,11 +83,17 @@ landingContent:
       url: report-page-tooltips.md
     - text: Uso de detalles de la página del informe
       url: report-drillthrough.md
-    - text: Cuándo usar informes paginados en Power BI
+- title: Informes paginados de Power BI
+  linkLists:
+  - linkListType: concept
+    links:
+    - text: Uso de detalles de la página del informe
+      url: report-drillthrough.md
+    - text: Cuándo usar informes paginados
       url: report-paginated-or-power-bi.md
-    - text: Uso de parámetros en cascada en informes paginados
+    - text: Uso de parámetros en cascada
       url: paginated-report-cascading-parameter.md
-    - text: Eliminación de páginas en blanco al imprimir informes paginados
+    - text: Eliminación de páginas en blanco al imprimir
       url: report-paginated-blank-page.md
     - text: Migración de informes de SSRS a Power BI
       url: migrate-ssrs-reports-to-power-bi.md
