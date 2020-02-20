@@ -11,18 +11,18 @@ ms.topic: conceptual
 ms.date: 10/16/2019
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 24e5a06d3e835f7ff5114cbf17b772bc7efd00bb
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852220"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77260130"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceptos básicos para consumidores de Power BI
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-En este artículo se da por hecho que ha leído la [introducción a Power BI](../fundamentals/power-bi-overview.md) y se ha identificado como [***consumidor***de Power BI](end-user-consumer.md). Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
+En este artículo se da por hecho que ha leído la [introducción a Power BI](../fundamentals/power-bi-overview.md) y se ha identificado como [**_consumidor_** de Power BI](end-user-consumer.md). Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
 
 Seguro que ha oído hablar de "Power BI Desktop" o simplemente de "Desktop". Es la herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted. Es importante saber que existen otras herramientas de Power BI. Mientras sea consumidor, solo trabajará con el servicio Power BI. Este artículo se aplica solo al servicio Power BI.
 
@@ -54,13 +54,13 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introducción a los bloques de creación
 
-Para un consumidor de Power BI, los cinco bloques de creación son: ***visualizaciones***, ***paneles***, ***informes***, ***aplicaciones*** y ***conjuntos de datos***. A veces se hace referencia a ellos como ***contenido*** de *Power BI*, y dicho *contenido* se encuentra en las ***áreas de trabajo***. Un flujo de trabajo típico implica todos estos bloques de creación: un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* como usted, (de color negro en el diagrama siguiente). El *diseñador* los comparte en forma de *aplicaciones* u otros tipos de contenido compartido.
+Para un consumidor de Power BI, los cinco bloques de creación son los siguientes: **_visualizaciones_**, **_paneles_**, **_informes_**, **_aplicaciones_** y **_conjuntos de datos_**. A veces se hace referencia a ellos como **_contenido_** de *Power BI*, y dicho *contenido* se encuentra en las **_áreas de trabajo_**. Un flujo de trabajo típico implica todos estos bloques de creación: un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* como usted, (de color negro en el diagrama siguiente). El *diseñador* los comparte en forma de *aplicaciones* u otros tipos de contenido compartido.
 
 ![Un gráfico de flujo de trabajo básico de Power BI.](media/end-user-basic-concepts/power-bi-workflow.png)
 
 En su concepto más básico:
 
-- ![Captura de pantalla del icono de visualización.](media/end-user-basic-concepts/visual.png) una ***visualización*** (u *objeto visual*) es un tipo de gráfico creado por *diseñadores* de Power BI. Los objetos visuales muestran los datos de *informes* y *conjuntos de datos*. Por lo general, los *diseñadores* crean los objetos visuales en Power BI Desktop.
+- ![Captura de pantalla del icono de visualización.](media/end-user-basic-concepts/visual.png) una **_visualización_** (u *objeto visual*) es un tipo de gráfico creado por *diseñadores* de Power BI. Los objetos visuales muestran los datos de *informes* y *conjuntos de datos*. Por lo general, los *diseñadores* crean los objetos visuales en Power BI Desktop.
 
     Para obtener más información, consulte [Interactuar con objetos visuales de informes, paneles y aplicaciones](end-user-visualizations.md).
 

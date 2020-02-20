@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 01/08/2019
+ms.date: 01/29/2020
 ms.author: painbar
-ms.openlocfilehash: caed3a107b8f7a57d2fb3da92073cb8a5f5331cd
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: 7aa31d9c6eadd4c7c9c88c9006a360a6089f28e2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538414"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259810"
 ---
 # <a name="whats-new-in-the-mobile-apps-for-power-bi"></a>Novedades en las aplicaciones móviles para Power BI
 Para obtener información sobre novedades, vea:
@@ -21,6 +21,12 @@ Para obtener información sobre novedades, vea:
 * [Blog del equipo de Power BI para aplicaciones móviles](https://powerbi.microsoft.com/blog/tag/mobile/)
 * [Novedades de Power BI Desktop](../../desktop-latest-update.md)  
 * [Novedades en el servicio Power BI](../../service-whats-new.md)  
+
+## <a name="january-2020"></a>Enero de 2020
+
+### <a name="share-annotations-created-in-presentation-mode-windows"></a>Uso compartido de las anotaciones creadas en el modo de presentación (Windows)
+
+Las anotaciones que cree durante las presentaciones se convierten en parte integral de la presentación y en un componente clave del debate. Ahora, al realizar anotaciones en los informes en el modo de presentación, puede compartir una instantánea de la página del informe con sus compañeros. [Más información](./mobile-windows-10-app-presentation-mode.md#use-presentation-mode)
 
 ## <a name="december-2019"></a>Diciembre de 2019
 

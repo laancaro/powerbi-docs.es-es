@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-developer
 ms.topic: conceptual
-ms.date: 05/27/2019
-ms.openlocfilehash: 8a3b9389769c92bc52512dbf1215afa405161cd5
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/11/2020
+ms.openlocfilehash: 3561d122dde324f1d383d40a152bccc193a2afbe
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76539058"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259704"
 ---
 # <a name="frequently-asked-questions-about-power-bi-embedded"></a>Preguntas más frecuentes acerca de Power BI Embedded
 
@@ -55,37 +55,11 @@ Los tokens de inserción con licencia PRO están pensados para pruebas de desarr
 
 ## <a name="technical"></a>Preguntas técnicas
 
-### <a name="what-is-the-difference-between-the-a-skus-in-azure-and-the-em-skus-in-office-365"></a>¿En qué se diferencian las SKU A de Azure y las SKU EM de Office 365?
+### <a name="where-can-i-learn-more-about-capacity-and-skus-in-power-bi-embedded-analytics"></a>¿Dónde puedo obtener más información sobre la capacidad y los SKU relativos a los análisis incrustados de Power BI?
 
-PowerBI.com es una solución de software como servicio (SaaS) empresarial que incluye numerosas funcionalidades, como colaboración social, suscripción a correo electrónico y otras características. PowerBI.com ayuda tanto a los ISV como a los desarrolladores a administrar el contenido de su solución de análisis insertado contenido y la configuración del nivel de los inquilinos.
+Consulte el artículo [Capacidad y SKU de los análisis incrustados de Power BI](embedded-capacity.md).
 
-Power BI Embedded es un conjunto de API de plataforma como servicio (PaaS) que los desarrolladores pueden usar para crear una solución de análisis insertado.
-
-Esta es una lista parcial de las diferencias de características.
-
-| Característica | Power BI Embedded | Capacidad de Power BI Premium | Capacidad de Power BI Premium |
-|----------------------------------------------------------------------------------|-------------------|---------------------------|---------------------------|
-|   | SKU A: capacidad de Azure | SKU EM: capacidad de O365 | SKU P: capacidad de O365 |
-| Inserción de artefactos desde un área de trabajo de Power BI | Sí | Sí | Sí |
-| Consumo de informes de Power BI en una aplicación insertada para la organización  | No | Sí | Sí |
-| Consumo de informes de Power BI en una aplicación insertada para los clientes | Sí | Sí | Sí |
-| Consumir informes de Power BI en SharePoint | No | Sí | Sí |
-| Consumir informes de Power BI en Dynamics | No | Sí | Sí |
-| Consumir informes de Power BI en Teams (excluye la aplicación móvil) | No | Sí | Sí |
-| Acceso al contenido con una licencia gratuita de Power BI en Powerbi.com y Power BI Mobile | No | No | Sí |
-| Acceso al contenido con una licencia gratuita de Power BI insertada en aplicaciones de MS Office | No | Sí | Sí |
-
-### <a name="power-bi-now-offers-three-skus-for-embedding-a-skus-em-skus-and-p-skus-which-one-should-i-purchase-for-my-scenario"></a>Power BI ahora ofrece tres SKU que se pueden insertar: SKU A, SKU EM y SKU P. ¿Cuál debo comprar para mi escenario?
-
-|  |SKU A (Power BI Embedded)  |SKU EM (Power BI Premium)  |SKU P (Power BI Premium)  |
-|---------|---------|---------|---------|
-|Comprar  |Azure Portal |Office |Office |
-|Casos de uso | Insertar contenido en su propia aplicación | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) | <li> Insertar contenido en su propia aplicación <br><br><br> <li> Insertar contenido en aplicaciones de MS Office: <br> - [SharePoint](https://powerbi.microsoft.com/blog/integrate-power-bi-reports-in-sharepoint-online/) <br> - [Teams (se excluyen las aplicaciones móviles)](https://powerbi.microsoft.com/blog/power-bi-teams-up-with-microsoft-teams/) <br> - [Dynamics 365](https://docs.microsoft.com/dynamics365/customer-engagement/basics/add-edit-power-bi-visualizations-dashboard) <br><br><br> <li> Compartir contenido con usuarios de Power BI mediante el [servicio Power BI](https://powerbi.microsoft.com/)  |
-|Facturación |Cada hora |Mensual |Mensual |
-|Asignación  |Sin asignación |Anualmente  |Mensual o anual |
-|Diferenciación |Elasticidad total: se puede escalar y reducir verticalmente, pausar y reanudar recursos en Azure Portal o a través de API  |Se puede usar para insertar contenido en SharePoint Online y Microsoft Teams (se excluyen las aplicaciones móviles) |Combinar la inserción en aplicaciones y utilizar el servicio Power BI en la misma capacidad |
-
-### <a name="what-are-the-prerequisites-to-create-a-pbie-capacity-in-azure"></a>¿Cuáles son los requisitos previos para crear una capacidad de PBIE en Azure?
+### <a name="what-are-the-prerequisites-for-creating-a-pbie-capacity-in-azure"></a>¿Cuáles son los requisitos previos para crear una capacidad PBIE en Azure?
 
 * Inicie sesión en el directorio de la organización (no se admiten cuentas de Microsoft).
 * Debe tener un inquilino de Power BI; es decir, al menos un usuario en su directorio debe estar registrado en Power BI. 
@@ -154,10 +128,10 @@ Para [promover la solución a producción](embed-sample-for-customers.md#move-to
 16 regiones disponibles (las mismas que Power BI)
 
 * EE. UU. (6): Este de EE. UU., Este de EE. UU. 2, Centro y norte de EE. UU., Centro y sur de EE. UU., Oeste de EE. UU., Oeste de EE. UU. 2
-* Europa (2): Europa del Norte, Europa Occidental
-* Asia Pacífico (2): Sudeste Asiático, Asia Oriental
+* Europa (2): Norte de Europa, Oeste de Europa
+* Asia Pacífico (2): Sudeste de Asia, Este de Asia
 * Brasil (1): Sur de Brasil
-* Japón (1): Este de Japón
+* Japón (1): Japón Oriental
 * Australia (1): Sudeste de Australia
 * India (1): Oeste de la India
 * Canadá (1): Centro de Canadá
@@ -323,7 +297,7 @@ Los clientes que ya usan la solución de las **colecciones de áreas de trabajo 
 
 ### <a name="in-what-regions-can-i-create-a-pbi-workspace-collection"></a>¿En qué regiones se pueden crear colecciones de áreas de trabajo de Power BI?
 
-Las regiones disponibles son Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, Japón Oriental, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Asia Suroriental, Sur de Reino Unido, Europa Occidental, India occidental y Oeste de EE. UU.
+Las regiones disponibles son Sudeste de Australia, Sur de Brasil, Centro de Canadá, Este de EE. UU. 2, Este de Japón, Centro y norte de EE. UU., Europa del Norte, Centro y Sur de EE. UU., Sudeste de Asia, Sur de Reino Unido, Oeste de Europa, Oeste de la India y Oeste de EE. UU.
 
 ### <a name="why-should-i-migrate-from-pbi-workspace-collection-to-power-bi-embedded"></a>¿Por qué debo migrar de la Colección de áreas de trabajo de Power BI a Power BI Embedded?
 

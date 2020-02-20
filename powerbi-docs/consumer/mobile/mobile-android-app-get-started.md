@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: f0ffcdabf1fea090cff769fa35c8346812b37896
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: af3ae969d0aedab3cc49e8d286ce71313da3d6bc
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220266"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259769"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-android-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos Android
 La aplicación móvil de Microsoft Power BI para Android ofrece la experiencia de BI móvil para Power BI, el servidor de informes de Power BI y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. 
@@ -52,11 +52,11 @@ Si aún no se ha registrado, vaya al [servicio Power BI](https://powerbi.com/) p
 1. En la pantalla de inicio de su dispositivo Android, abra la aplicación Power BI para Android.
    
    ![Icono de Power BI](./media/mobile-android-app-get-started/power-bi-logo-android.png)
-2. Para ver los informes y paneles de Power BI, puntee **Power BI**.  
-   
-   Si recibe un mensaje que le indica que Power BI no puede iniciar su sesión, consulte ["No se pudo realizar la autenticación porque este dispositivo considera que su certificado SSL corporativo no es de confianza"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para más información sobre cómo resolver el problema.
+2. Para iniciar sesión en Power BI, pulse la pestaña **Power BI** y rellene los detalles de inicio de sesión.
 
-   Para ver los informes y KPI del servidor de informes de Power BI y Reporting Services, pulse **Servidor de informes**.
+    Si recibe un mensaje que le indica que Power BI no puede iniciar su sesión, consulte ["No se pudo realizar la autenticación porque este dispositivo considera que su certificado SSL corporativo no es de confianza"](mobile-android-app-error-corporate-ssl-account-is-untrusted.md) para más información sobre cómo resolver el problema.
+
+   Para iniciar sesión en los informes y KPI para dispositivos móviles de Reporting Services, pulse la pestaña **Servidor de informes** y rellene los detalles de inicio de sesión.
    
    ![Iniciar sesión en Power BI](./media/mobile-android-app-get-started/power-bi-connect-to-login.png)
 

@@ -6,14 +6,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-mobile
 ms.topic: conceptual
-ms.date: 12/08/2019
+ms.date: 02/10/2020
 ms.author: painbar
-ms.openlocfilehash: e3bfdf7fd53e71a4582a1f3e3ba08f55f2e9a290
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: ba39718a5a458ec18af976806bc634d32843afb2
+ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75220375"
+ms.lasthandoff: 02/14/2020
+ms.locfileid: "77259751"
 ---
 # <a name="get-started-with-the-power-bi-mobile-app-on-ios-devices"></a>Introducción a la aplicación móvil de Power BI en dispositivos iOS
 La aplicación Microsoft Power BI para iOS en el iPhone o iPad proporciona la experiencia de BI móvil para Power BI, Power BI Report Server y Reporting Services. Con el acceso móvil directo y táctil a la información importante local y en la nube de la empresa, puede ver los paneles de la empresa e interactuar con ellos fácilmente y desde cualquier lugar. Explore los datos de los paneles y compártalos con sus compañeros en mensajes de texto o correo electrónico. Y manténgase al día y a tiempo con los datos en su [Apple Watch](mobile-apple-watch.md).  
@@ -40,12 +40,12 @@ Si aún no se ha registrado, vaya a [powerbi.com](https://powerbi.microsoft.com/
 
 ## <a name="get-started-with-the-power-bi-app"></a>Introducción a la aplicación de Power BI
 1. En su dispositivo iOS, abra la aplicación de Power BI.
-2. Para ver los paneles de Power BI, puntee **Power BI**.  
-   Para ver los informes móviles y KPI de Reporting Services, pulse **Servidor de informes**.
+2. Para iniciar sesión en Power BI, pulse la pestaña **Power BI** y rellene los detalles de inicio de sesión.  
+   Para iniciar sesión en los informes y KPI para dispositivos móviles de Reporting Services, pulse la pestaña **Servidor de informes** y rellene los detalles de inicio de sesión.
    
    ![Inicio de sesión en la aplicación móvil de Power BI](./media/mobile-iphone-app-get-started/power-bi-connect-to-login.png)
    
-   Cuando esté en la aplicación, solo tiene que pulsar la imagen de perfil de la cuenta en la esquina superior izquierda de la pantalla para cambiar entre las dos. 
+   Cuando esté en la aplicación, solo tiene que pulsar la imagen de perfil de la cuenta en la esquina superior izquierda de la pantalla para cambiar entre Power BI y el servidor de informes. 
 
 ## <a name="try-the-power-bi-and-reporting-services-samples"></a>Pruebe los ejemplos de Power BI y Reporting Services
 Incluso sin registrarse, puede ver e interactuar con los ejemplos de Power BI y Reporting Services.
