@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/14/2019
 ms.author: davidi
 LocalizationGroup: Data from files
-ms.openlocfilehash: a4d948e768682aab77708289320914ce3ef0fdc3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 047aa5e19089555538c874702dd50da0f1146ff1
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "74699112"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115294"
 ---
 # <a name="real-time-streaming-in-power-bi"></a>Transmisión en tiempo real en Power BI
 Con la transmisión en tiempo real de Power BI, puede transmitir los datos y actualizar los paneles en tiempo real. Cualquier objeto visual o panel que se pueda crear en Power BI también se puede crear para mostrar y actualizar datos en tiempo real y objetos visuales. Los dispositivos y orígenes de datos de transmisión pueden ser sensores de fábrica, orígenes de redes sociales, métricas de uso del servicio y cualquier otro elemento a partir del que se puedan recopilar o transmitir datos.
@@ -80,7 +80,7 @@ Hay tres maneras principales de insertar datos en un conjunto de datos:
 Veamos cada uno de estos enfoques por turnos.
 
 ### <a name="using-power-bi-rest-apis-to-push-data"></a>Uso de las API de REST de Power BI para insertar datos
-**Las API de REST de Power BI** se pueden usar para crear y enviar datos a conjuntos de datos de **inserción** y conjuntos de datos de **streaming**. Cuando se crea un conjunto de datos mediante las API de REST de Power BI, el indicador *defaultMode* especifica si el conjunto de datos es de inserción o de streaming. Si no hay ningún indicador *defaultMode* establecido, el valor predeterminado del conjunto de datos es **push**.
+Las **API REST de Power BI** se pueden usar para crear y enviar datos a conjuntos de datos de **inserción** y conjuntos de datos de **streaming**. Cuando se crea un conjunto de datos mediante las API de REST de Power BI, el indicador *defaultMode* especifica si el conjunto de datos es de inserción o de streaming. Si no hay ningún indicador *defaultMode* establecido, el valor predeterminado del conjunto de datos es **push**.
 
 Si el valor de *defaultMode* se establece en *pushStreaming*, el conjunto de datos es a la vez un conjunto de datos de **inserción** *y* **streaming**, lo que proporciona las ventajas a ambos tipos de conjunto de datos. 
 

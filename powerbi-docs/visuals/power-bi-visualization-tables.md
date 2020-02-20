@@ -7,15 +7,15 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/04/2019
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 6d2f1eea22f83d90501581be7d2e9b8230962835
-ms.sourcegitcommit: e492895259aa39960063f9b337a144a60c20125a
+ms.openlocfilehash: 014186acf6bf6b8c00686c0b7a29d0b526b0afb7
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "74830895"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154320"
 ---
 # <a name="tables-in-power-bi-reports-and-dashboards"></a>Tablas en informes y paneles de Power BI
 
@@ -98,22 +98,19 @@ Existen muchas formas de aplicar formato a una tabla. Aquí solo se analizan alg
 
 ### <a name="conditional-formatting"></a>Formato condicional
 
-El *formato condicional* es un tipo de formato. Power BI aplica formato condicional a los campos del área **Valores** del panel **Visualizaciones**.
+El *formato condicional* es un tipo de formato. Power BI puede aplicar formato condicional a cualquier campo que haya agregado al área **Valores** del panel **Visualizaciones**.
 
-Con el formato condicional para tablas, puede especificar colores personalizados de fondo de las celdas y colores de fuente según los valores de la celda e incluso puede usar colores de degradado.
+![El panel Visualizaciones](media/power-bi-visualization-tables/power-bi-table-values.png)
 
-1. En el panel **Visualizaciones**, seleccione el icono **Campos** ![icono campos](media/power-bi-visualization-tables/power-bi-fields-icon.png).
+Con el formato condicional para tablas, puede especificar iconos, direcciones URL, colores de fondo de las celdas y colores de fuente según los valores de la celda, e incluso usar colores de degradado.
 
-1. Seleccione la flecha hacia abajo que está situada junto al valor del área **Valores** que desea formatear (o haga clic con el botón derecho en el campo).
+1. En el panel **Formato**, abra la tarjeta **Formato condicional**.
 
-    > [!NOTE]
-    > El formato condicional solo se puede administrar en el área **Valores** de **Campos**.
+    ![Tarjeta de formato condicional](media/power-bi-visualization-tables/power-bi-conditional.png)
 
-    ![Ruta de acceso a Escalas de colores de fondo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background.png)
+1. Seleccione un campo al que quiera dar formato y mueva el control deslizante **Color de fondo** a Activado. Power BI aplica un degradado en función de los valores de la columna. Para cambiar los colores predeterminados, seleccione **Controles avanzados**.
 
-1. Seleccione **Color de fondo**.
-
-1. En el cuadro de diálogo que aparece, puede configurar el color, así como los valores de **Mínimo** y **Máximo**. Si selecciona la opción **Divergente**, también puede configurar un valor **Centro** opcional.
+    Si selecciona la opción **Divergente**, también puede configurar un valor **Centro** opcional.
 
     ![Pantalla Escalas de color de fondo](media/power-bi-visualization-tables/power-bi-conditional-formatting-background2.png)
 
@@ -124,11 +121,11 @@ Con el formato condicional para tablas, puede especificar colores personalizados
 
     ![Se muestra un campo nuevo en el extremo derecho](media/power-bi-visualization-tables/power-bi-conditional-formatting2.png)
 
-1. Agregue el formato condicional de la barra de datos seleccionando la flecha abajo situada junto a **Varianza total de ventas** y eligiendo **Formato condicional > Barras de datos**.
+1. Agregue formato condicional de barra de datos moviendo el control deslizante **Barras de datos** a Activado.  
 
-    ![Ruta de acceso para seleccionar Barras de datos](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars.png)
+    ![Tarjeta de formato condicional con Barras de datos establecido en Activado](media/power-bi-visualization-tables/power-bi-data-bar-matrix.png)
 
-1. En el cuadro de diálogo que aparece, establezca los colores para **Barra positiva** y **Barra negativa**, seleccione la opción **Mostrar solo la barra** y realice cualquier otro cambio que desee.
+1. Para personalizar las barras de datos, seleccione **Controles avanzados**. En el cuadro de diálogo que aparece, establezca los colores para **Barra positiva** y **Barra negativa**, seleccione la opción **Mostrar solo la barra** y realice cualquier otro cambio que desee.
 
     ![Marca de verificación para Mostrar solo la barra](media/power-bi-visualization-tables/power-bi-data-bar.png)
 
@@ -138,10 +135,10 @@ Con el formato condicional para tablas, puede especificar colores personalizados
 
     ![La misma tabla pero con barras en la última columna](media/power-bi-visualization-tables/power-bi-conditional-formatting-data-bars2.png)
 
-Si desea quitar el formato condicional de una visualización, simplemente vuelva a hacer clic con el botón derecho en el campo y seleccione **Quitar formato condicional**.
+1. Agregue indicaciones visuales a la tabla con *iconos condicionales*.  En la tarjeta **Formato condicional**, seleccione **Ventas de este año** en la lista desplegable. Mueva el control deslizante **Iconos** a **Activado**.  Para personalizar los iconos, seleccione **Controles avanzados**.
 
-> [!TIP]
-> El formato condicional también está disponible en el panel **Formato**. Seleccione el valor al que va a dar formato y, a continuación, establezca **Escalas de colores** o **Barras de datos** en **Activado** para aplicar la configuración predeterminada o, para personalizar la configuración, y seleccione **Controles avanzados**.
+    ![Tabla con los iconos agregados](media/power-bi-visualization-tables/power-bi-table-icons.png)
+
 
 ## <a name="copy-values-from-power-bi-tables-for-use-in-other-applications"></a>Copia de los valores de las tablas de Power BI para su uso en otras aplicaciones
 
@@ -175,12 +172,13 @@ A veces, Power BI trunca un encabezado de columna en un informe o un panel. Para
 
 ![Primer plano de vídeo del cambio de tamaño de la columna](media/power-bi-visualization-tables/resizetable.gif)
 
+
 ## <a name="considerations-and-troubleshooting"></a>Consideraciones y solución de problemas
 
 Al aplicar el formato de las columnas, solo puede elegir una opción de alineación por cada columna: **Automática**, **Izquierda**, **Centro** y **Derecha**. Normalmente, una columna contiene todo el texto o todos los números, y no una combinación de ellos. En casos donde una columna contiene números y texto, **Automática** alineará el texto a la izquierda y los números a la derecha. Este comportamiento es compatible con idiomas en los que se lee de izquierda a derecha.
 
 ## <a name="next-steps"></a>Pasos siguientes
 
-* [Gráficos de rectángulos en Power BI](power-bi-visualization-treemaps.md)
+* [Gráficos de rectángulos en Power BI](power-bi-visualization-treemaps.md)
 
 * [Tipos de visualización en Power BI](power-bi-visualization-types-for-reports-and-q-and-a.md)

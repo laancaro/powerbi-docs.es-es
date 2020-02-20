@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/30/2020
+ms.date: 02/10/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 2e4ab92d5d1adce8659cdb971c5061a0f133b38f
-ms.sourcegitcommit: 64a270362c60581a385af7fbc31394e3ebcaca41
+ms.openlocfilehash: 10f79c8670b42828b4219723bd8e503424e77820
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/31/2020
-ms.locfileid: "76895543"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "77154445"
 ---
 # <a name="create-matrix-visualizations-in-power-bi"></a>Creación de visualizaciones de matriz en Power BI
 
@@ -136,17 +136,32 @@ Puede ajustar fácilmente la configuración del diseño escalonado. Con el objet
 
 Si desactiva el diseño escalonado, Power BI muestra subcategorías en otra columna en lugar de con una sangría debajo de la categoría primaria.
 
-## <a name="subtotals-with-matrix-visuals"></a>Subtotales con objetos visuales de matriz
+## <a name="subtotals-and-grand-totals-with-matrix-visuals"></a>Subtotales y totales generales con objetos visuales de matriz
 
-Puede activar o desactivar subtotales en objetos visuales de matriz tanto para filas como para columnas. En la imagen siguiente, puede ver que los subtotales de fila están establecidos en **Activado**.
+Puede activar o desactivar subtotales en objetos visuales de matriz tanto para filas como para columnas. En la imagen siguiente, puede ver que los subtotales de fila están establecidos en **Activado** y configurados para que se muestren en la parte inferior.
 
-![matriz que muestra subtotales y totales](media/desktop-matrix-visual/matrix-visual_20.png)
+![matriz que muestra subtotales y totales](media/desktop-matrix-visual/power-bi-subtotals.png)
 
-En la sección Formato del panel Visualizaciones, expanda la tarjeta **Subtotales** y mueva el control deslizante Subtotales de fila a **Desactivado**. Al hacerlo, no se muestran los subtotales.
+Al activar **Subtotales** y agregar una etiqueta, Power BI también agrega una fila y la misma etiqueta al valor total general. Para dar formato al total general, seleccione la opción de formato para **Total general**. 
 
-![matriz con subtotales desactivados](media/desktop-matrix-visual/matrix-visual_21.png)
+![matriz que muestra la tarjeta de Total general](media/desktop-matrix-visual/power-bi-grand-total.png)
+
+Si quiere desactivar los subtotales y el total general, en la sección Formato del panel Visualizaciones, expanda la tarjeta **Subtotales** y mueva el control deslizante de subtotales a **Desactivado**. Al hacerlo, no se muestran los subtotales.
+
+![matriz con subtotales desactivados](media/desktop-matrix-visual/power-bi-no-subtotals.png)
 
 El mismo proceso se aplica a los subtotales de columna.
+
+## <a name="add-conditional-icons"></a>Adición de iconos condicionales
+Agregue indicaciones visuales a la tabla o a la matriz con *iconos condicionales*. 
+
+En la sección formato del panel Visualizaciones, expanda la tarjeta **Formato condicional**. Mueva el control deslizante **Iconos** a **Activado** y seleccione **Controles avanzados**.
+
+![Matriz que muestra la pantalla Iconos](media/desktop-matrix-visual/power-bi-icons.png)
+
+Ajuste las condiciones, los iconos y los colores de la matriz y seleccione **Aceptar**. En este ejemplo, se usa una marca roja para los valores bajos, un círculo púrpura para los valores altos y un triángulo amarillo para los valores intermedios. 
+
+![Matriz que muestra los iconos](media/desktop-matrix-visual/power-bi-icons-applied.png)
 
 ## <a name="cross-highlighting-with-matrix-visuals"></a>Resaltado cruzado con objetos visuales de matriz
 

@@ -9,12 +9,12 @@ ms.topic: conceptual
 ms.date: 10/01/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: d30a8012161934ada4ff3cb2ce6852fe62f48892
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 148e5283e1a2e2d5ef61027c24df1a4c3e574822
+ms.sourcegitcommit: e27d40054949421701f829113c4a5f6d260c8d5f
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73877195"
+ms.lasthandoff: 02/13/2020
+ms.locfileid: "77179229"
 ---
 # <a name="intro-to-datasets-across-workspaces-preview"></a>Introducción a los conjuntos de datos de áreas de trabajo (versión preliminar)
 
@@ -62,7 +62,7 @@ Las características y experiencias específicas basadas en funciones de conjunt
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
 
 - Como publicador de la aplicación, tiene que asegurarse de que la audiencia tenga acceso a los conjunto de datos fuera del área de trabajo. De lo contrario, los usuarios experimentarán problemas al interactuar con la aplicación: los informes no se abrirán sin acceso al conjunto de datos y los iconos del panel aparecerán bloqueados. Además, los usuarios no podrán abrir la aplicación si el primer elemento de su navegación es un informe sin acceso al conjunto de elementos.
-- Para crear un informe sobre un conjunto de datos en otra área de trabajo se requiere la nueva experiencia de área de trabajo en ambos extremos: El informe y el conjunto de datos deben estar en una nueva experiencia de área de trabajo.
+- Para crear un informe sobre un conjunto de datos en otra área de trabajo se requiere la nueva experiencia de área de trabajo en ambos extremos: El informe y el conjunto de datos deben estar en una nueva experiencia de área de trabajo. Solo puede copiar informes de una experiencia de área de trabajo nueva a otra que también sea nueva, pero no a áreas de trabajo clásicas ni a Mi área de trabajo. 
 - En un área de trabajo clásica, la experiencia de detección de conjunto de datos solo muestra los conjuntos de datos de esa área de trabajo.
 - De manera predeterminada, "Publicar en la web" no funciona para un informe basado en un conjunto de datos compartido.
 - Si dos usuarios son miembros de un área de trabajo que accede a un conjunto de datos compartido, es posible que solo uno de ellos pueda ver el conjunto de datos relacionado en el área de trabajo. Solo los usuarios que tengan al menos acceso de lectura al conjunto de datos podrán ver el conjunto de datos compartido. 

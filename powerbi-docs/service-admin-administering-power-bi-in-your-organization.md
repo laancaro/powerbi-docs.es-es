@@ -9,12 +9,12 @@ ms.topic: overview
 ms.date: 09/09/2019
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 57819765b156baac2a86b8144e86770a0117adfd
-ms.sourcegitcommit: d5de66b591c2e1de979ce0e3ce5e5b6e1f2a08db
+ms.openlocfilehash: 864854e774defee16d446a513622e1134c77d75c
+ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "75548592"
+ms.lasthandoff: 02/10/2020
+ms.locfileid: "77115271"
 ---
 # <a name="what-is-power-bi-administration"></a>¿Qué es la administración de Power BI?
 
@@ -80,10 +80,9 @@ Hay varias herramientas relacionadas con la administración de Power BI, que se 
 
 Esperamos que este artículo le haya proporcionado alguna información rápida sobre el trabajo del administrador de Power BI y los roles, las tareas y las herramientas específicos que se suelen usar. Se recomienda leer los temas de los artículos siguientes para ampliar conocimientos.
 
-[Uso del portal de administración de Power BI](service-admin-portal.md)
-
-[Uso de cmdlets de PowerShell](/powershell/power-bi/overview)
-
-[Preguntas frecuentes sobre la administración de Power BI](service-admin-faq.md)
-
-¿Tiene más preguntas? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- [Uso del portal de administración de Power BI](service-admin-portal.md)
+- [Guía para la configuración de la administración de inquilinos](guidance/admin-tenant-settings.md)
+- [Uso de cmdlets de PowerShell](/powershell/power-bi/overview)
+- [Preguntas frecuentes sobre la administración de Power BI](service-admin-faq.md)
+- ¿Tiene alguna pregunta? [Pruebe a preguntar a la comunidad de Power BI](https://community.powerbi.com/)
+- ¿Sugerencias? [Ideas para contribuir a mejorar Power BI](https://ideas.powerbi.com/)
