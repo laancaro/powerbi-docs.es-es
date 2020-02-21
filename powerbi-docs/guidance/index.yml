@@ -12,12 +12,12 @@ metadata:
   author: maggiesMSFT
   ms.author: maggies
   ms.date: 01/14/2020
-  ms.openlocfilehash: 8d7ddeffd4394d5fea4770ab0739133b68e04a18
-  ms.sourcegitcommit: cde65bb8b1bed1ee8cf512651afeb829ddc155de
+  ms.openlocfilehash: ec56a2d37dc73a1dfabee8e07100c57ac37eb35c
+  ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
   ms.translationtype: HT
   ms.contentlocale: es-ES
-  ms.lasthandoff: 02/19/2020
-  ms.locfileid: "77465023"
+  ms.lasthandoff: 02/21/2020
+  ms.locfileid: "77527554"
 landingContent:
 - title: Guía de Power BI
   linkLists:
@@ -87,10 +87,12 @@ landingContent:
   linkLists:
   - linkListType: concept
     links:
-    - text: Uso de detalles de la página del informe
-      url: report-drillthrough.md
     - text: Cuándo usar informes paginados
       url: report-paginated-or-power-bi.md
+    - text: Guía de recuperación de datos
+      url: report-paginated-data-retrieval.md
+    - text: Guía de uso de imágenes
+      url: report-paginated-image.md
     - text: Uso de parámetros en cascada
       url: paginated-report-cascading-parameter.md
     - text: Eliminación de páginas en blanco al imprimir
