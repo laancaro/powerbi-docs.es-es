@@ -7,15 +7,15 @@ ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 03/12/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to services
-ms.openlocfilehash: e9b34d79a70207e175c873a88ec4d5dfe5417747
-ms.sourcegitcommit: 02b05932a119527f255e1eacc745a257044e392f
+ms.openlocfilehash: 6ffce8b209d78f5297812f2345f454aa94ac1c9a
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "75224229"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527826"
 ---
 # <a name="tutorial-use-cognitive-services-in-power-bi"></a>Tutorial: Uso de Cognitive Services en Power BI
 
@@ -56,7 +56,7 @@ Pegue esta dirección URL en el campo de dirección URL: [https://pbiaitutorials
 
 ![Crear un flujo de datos](media/service-tutorial-using-cognitive-services/tutorial-using-cognitive-services_03.png)
 
-En la cinta de opciones superior, seleccione **Transformar tabla** y, a continuación, elija **Usar la primera fila como encabezado.** Ahora los datos están listos para usarse para el análisis de texto y podemos usar Puntuación de opiniones y Extracción de frases clave en la columna de comentarios del cliente.
+Ahora los datos están listos para usarse para el análisis de texto y podemos usar Puntuación de opiniones y Extracción de frases clave en la columna de comentarios del cliente.
 
 En el Editor de Power Query, seleccione **Conclusiones de AI**
 
