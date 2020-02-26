@@ -51,7 +51,7 @@ Para configurar el nivel de privacidad de un origen de datos, seleccione el orig
 | **Combinar datos según la configuración del nivel de privacidad para cada origen** (activado y el valor predeterminado) |La configuración del nivel de privacidad se usa para determinar el nivel de aislamiento entre los orígenes de datos al combinar datos. |
 | **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** |Los niveles de privacidad no se consideran al combinar datos; no obstante, el rendimiento y la funcionalidad de los datos pueden aumentar. |
 
-> **Nota de seguridad**: Al seleccionar **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad**, podría exponer datos confidenciales a personas no autorizadas. No desactive esta opción a menos que esté seguro de que el origen de datos no contiene datos confidenciales.
+> **Nota de seguridad**: Al seleccionar **Ignorar los niveles de privacidad y mejorar el rendimiento potencialmente** en el cuadro de diálogo **Niveles de privacidad**, podría exponer datos confidenciales a personas no autorizadas. No *desactive* esta opción a menos que esté seguro de que el origen de datos no contiene datos confidenciales.
 > 
 > 
 
