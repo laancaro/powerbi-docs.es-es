@@ -39,7 +39,7 @@ Una vez creado un informe con el conjunto de datos de inserción, cualquiera de 
 
 Hay dos factores a tener en cuenta acerca de los iconos anclados desde un conjunto de datos de inserción:
 
-* Anclar un informe completo con la opción *página Anclar elemento activo***no** hará que los datos se actualicen automáticamente.
+* Anclar un informe completo con la opción *página Anclar elemento activo* **no** hará que los datos se actualicen automáticamente.
 * Una vez que un objeto visual está anclado a un panel, puede usar **Preguntas y respuestas** para formular preguntas sobre el conjunto de datos de inserción en lenguaje natural. Después de realizar la consulta de **Preguntas y respuestas**, puede anclar el objeto visual resultante al panel, y ese panel *también* se actualizará en tiempo real.
 
 ### <a name="streaming-dataset"></a>Conjunto de datos de streaming
@@ -110,7 +110,7 @@ Cuando **Análisis de datos históricos** está deshabilitado (de forma predeter
 ### <a name="using-azure-stream-analytics-to-push-data"></a>Uso de Azure Stream Analytics para insertar datos
 Puede agregar Power BI como una salida en **Azure Stream Analytics** (ASA) y visualizar después dichos flujos de datos en el servicio Power BI en tiempo real. En esta sección se describen los detalles técnicos de cómo se produce ese proceso.
 
-Azure Stream Analytics usa las API de REST de Power BI para crear el flujo de datos de salida a Power BI, con *defaultMode* establecido en *pushStreaming* (consulte las secciones anteriores de este artículo para más información sobre *defaultMode*), lo que da como resultado un conjunto de datos que puede aprovechar las ventajas de ambos tipos, **inserción** y **streaming**. Durante la creación del conjunto de datos, Azure Stream Analytics también establece el indicador **retentionPolicy* en *basicFIFO*; con ese valor, la base subyacente al conjunto de datos de inserción almacena 200 000 filas y, una vez alcanzado ese límite, se van quitando filas siguiendo el orden primero en llegar, primero en salir (FIFO).
+Azure Stream Analytics usa las API de REST de Power BI para crear el flujo de datos de salida a Power BI, con *defaultMode* establecido en *pushStreaming* (consulte las secciones anteriores de este artículo para más información sobre *defaultMode*), lo que da como resultado un conjunto de datos que puede aprovechar las ventajas de ambos tipos, **inserción** y **streaming**. Durante la creación del conjunto de datos, Azure Stream Analytics también establece el indicador *retentionPolicy* en *basicFIFO*; con ese valor, la base subyacente al conjunto de datos de inserción almacena 200 000 filas y, una vez alcanzado ese límite, se van quitando filas siguiendo el orden primero en llegar, primero en salir (FIFO).
 
 > [!CAUTION]
 > Si la consulta de Azure Stream Analytics produce una salida muy rápida a Power BI (por ejemplo, una o dos veces por segundo), Azure Stream Analytics empezará a procesar esas salidas por lotes en una sola solicitud. Esto puede provocar que el tamaño de la solicitud supere el límite de iconos de streaming. En ese caso, tal y como se mencionó en las secciones anteriores, los iconos de streaming no se podrán representar. En estos casos, la práctica recomendada es reducir la velocidad de salida de los datos hacia Power BI; por ejemplo, en lugar de un valor máximo cada segundo, establézcalo en un máximo superior a 10 segundos.
