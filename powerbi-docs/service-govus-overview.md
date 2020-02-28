@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/19/2020
 ms.author: kfollis
 LocalizationGroup: Get started
-ms.openlocfilehash: 26dabde3846ec33e2f5910de75fb8165cce6513a
-ms.sourcegitcommit: 3d6b27e3936e451339d8c11e9af1a72c725a5668
+ms.openlocfilehash: 590b00f5eb03b1bd31430866a52faa4748f9b32a
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "76160774"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496946"
 ---
 # <a name="power-bi-for-us-government-customers"></a>Power BI para clientes de la Administración Pública de Estados Unidos
 Este artículo está destinado a los clientes de la Administración Pública de Estados Unidos que implementan Power BI como parte de un plan de Office 365 Administración Pública. Los planes de la Administración Pública están diseñados para las necesidades únicas de las organizaciones que deben cumplir los estándares de cumplimiento y seguridad de Estados Unidos. El servicio Power BI diseñado para los clientes de la Administración Pública de Estados Unidos es distinto de la versión comercial del servicio Power BI. Las funcionalidades y diferencias en las características se describen en las siguientes secciones.
@@ -89,12 +89,12 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |Creación de informes|Creación y visualización de paneles e informes|Disponible|Disponible|Disponible|
 |  |Actualización de datos programada|Disponible|Disponible|Disponible|
 |  |Paneles de equipo actualizables|Disponible|Disponible|Disponible|
-|  |Informes paginados|Disponible solo en USGov Texas y USGov Virginia |Disponible|En la hoja de ruta|
+|  |Informes paginados|Disponible|Disponible|En la hoja de ruta|
 |  |Aplicaciones plantilla|No disponible|No disponible|No disponible|
 |Conectar a datos|Importación de datos e informes de Excel|Disponible|Disponible|Disponible|
 |  |Importación de datos desde archivos CSV|Disponible|Disponible|Disponible|
 |  |Importación de datos de archivos de Power BI Desktop|Disponible|Disponible|Disponible|
-|  |Conectividad con CDS|No disponible|No disponible|No disponible|
+|  |Conectividad con CDS|Disponible|No disponible|No disponible|
 |  |Conector de Azure Data Lake Storage Gen2|No disponible|No disponible|No disponible|
 |Administración de datos|Puerta de enlace de administración de datos|Disponible|Disponible|Disponible|
 |  |Cifrado de datos en Azure SQL|Disponible|Disponible|Disponible|
@@ -103,7 +103,7 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 |  |Inserción en SharePoint Online mediante el elemento web de Embed|Disponible|Disponible|Disponible|
 |  |Flujos de datos y funciones de IA|No disponible|No disponible|No disponible|
 |  |Conectividad de Power Automate para alertas orientadas a datos|No disponible|No disponible|No disponible|
-|  |Pestaña de Power BI en Teams|No disponible|No disponible|No disponible|
+|  |Pestaña de Power BI en Teams|Disponible|No disponible|No disponible|
 |  |Automated Machine Learning|No disponible|No disponible|No disponible|
 |  |Cognitive Services|No disponible|No disponible|No disponible|
 |  |Aprendizaje automático de Azure|No disponible|No disponible|No disponible|
@@ -111,7 +111,6 @@ Para adaptarse a los requisitos de los clientes en la nube de la Administración
 ## <a name="next-steps"></a>Pasos siguientes
 
 * [Registro en Power BI para la Administración Pública de Estados Unidos](service-govus-signup.md)
+* [Microsoft Power Apps para la Administración Pública de Estados Unidos](https://docs.microsoft.com/power-platform/admin/powerapps-us-government)
+* [Power Automate para la Administración Pública de Estados Unidos](https://docs.microsoft.com/power-automate/us-govt)
 * <a href="https://channel9.msdn.com/Blogs/Azure/Cognitive-Services-HDInsight-and-Power-BI-on-Azure-Government">Power BI US Government Demo</a> (Demostración de Power BI para la Administración Pública de Estados Unidos)
-* [Introducción al servicio Power BI](service-get-started.md)
-* [¿Qué es Power BI Desktop?](desktop-what-is-desktop.md)
-

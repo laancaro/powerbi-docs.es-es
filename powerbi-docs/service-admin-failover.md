@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 09/09/2019
+ms.date: 02/20/2020
 ms.author: kfollis
 LocalizationGroup: Administration
-ms.openlocfilehash: 24867d231cca0135c09119f4b885b393cb2b8dd8
-ms.sourcegitcommit: f77b24a8a588605f005c9bb1fdad864955885718
+ms.openlocfilehash: 3dd50d4f57b3146135cde5e91062ed3b2a0eecc1
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "74699070"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527347"
 ---
 # <a name="power-bi-high-availability-failover-and-disaster-recovery-faq"></a>P+F sobre alta disponibilidad, conmutación por error y recuperación ante desastres en Power BI
 
@@ -53,7 +53,10 @@ Se publica una notificación en la página de soporte técnico de Power BI ([htt
 
 ## <a name="how-long-does-it-take-power-bi-to-fail-over"></a>¿Cuánto tiempo tarda Power BI en realizar la conmutación por error?
 
-Una vez que se toma la decisión de la conmutación por error, una instancia de conmutación por error puede tardar hasta 60 minutos en estar disponible.
+Una vez que se determina que es necesaria una conmutación por error, Power BI tarda aproximadamente 15 minutos en volver a estar operativo. El tiempo necesario para determinar que se requiere una conmutación por error varía en función del escenario que se interrumpa. 
+
+Tras la conmutación por error, Power BI usa la replicación geográfica de Azure Storage para realizar la conmutación por error. Este tipo de replicaciones suele tener un punto de retorno de 15 minutos, pero [Azure Storage no garantiza este período de tiempo](https://docs.microsoft.com/azure/storage/common/storage-redundancy) con un acuerdo de nivel de servicio y, por tanto, Power BI tampoco puede garantizarlo. 
+
 
 ## <a name="when-does-my-power-bi-instance-return-to-the-original-region"></a>¿Cuando vuelve la instancia de Power BI a la región original?
 

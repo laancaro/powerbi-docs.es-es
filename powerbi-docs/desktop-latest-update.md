@@ -6,22 +6,21 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 12/18/2019
+ms.date: 02/12/2020
 ms.author: davidi
 LocalizationGroup: Get started
-ms.openlocfilehash: c6f1a04f7178719eb68bcd54674ea0312c97ef3e
-ms.sourcegitcommit: 578d43aeb7cebf40f3caf03a614bc885cc039488
+ms.openlocfilehash: 4fc4144b5436fd451280e7189484d9cc01ce69b5
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "77076592"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496682"
 ---
 # <a name="whats-new-in-power-bi-desktop"></a>Novedades de Power BI Desktop
 
+## <a name="february-2020-update-2785740642"></a>Actualización de febrero de 2020 (2.78.5740.642)
 
-## <a name="december-2019-update-2765678661"></a>Actualización de diciembre de 2019 (2.76.5678.661)
-
-Nuestras actualizaciones de diciembre son tan divertidas como un descenso en trineo por una colina nevada. 
+Nos encantan nuestras actualizaciones de febrero, y estamos convencidos de que las nuevas características son mejores que una caja de bombones con forma de corazón. 
 
 Obtenga la versión más reciente de Power BI Desktop desde el [Centro de descarga](https://www.microsoft.com/download/details.aspx?id=58494). Si va a ejecutar Windows 10, también puede obtener Power BI Desktop en [Microsoft Store](https://aka.ms/pbidesktopstore). Con independencia de la forma en que instale Power BI Desktop, las versiones mensuales son las mismas, aunque la numeración de las versiones puede ser diferente. Para obtener más información sobre cómo descargar e instalar Power BI Desktop, vea [Obtener Power BI Desktop](desktop-get-the-desktop.md). 
 
@@ -40,48 +39,39 @@ También puede ver el [vídeo de actualización mensual de Power BI Desktop](#p
 
 Las siguientes actualizaciones son las novedades de Power BI Desktop de este mes:
 
+### <a name="data-management"></a>Administración de datos
+* Ahora, la actualización incremental está disponible en términos generales [[vídeo]](https://youtu.be/TN61JvbUAxk?t=16) [[artículo]](service-premium-incremental-refresh.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Incremental_refresh) 
 
 ### <a name="reporting"></a>Informes
-* Personalización del tema actual (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=10) [[artículo]](desktop-report-themes.md#create-and-customize-a-theme-in-power-bi-desktop-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customizeTheme) 
-* Exportación del tema actual (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=242) [[artículo]](desktop-report-themes.md#export-report-themes-preview) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#exportTheme) 
-* Establecimiento del valor de columna de tabla o matriz como dirección URL personalizada [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=277) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#customURL) 
-* Opciones de formato para el objeto visual KPI [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=354) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#KPI) 
-* Nuevo formato de esquema jerárquico [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=442) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#decomp) 
-* Botón de alternancia del panel de filtro en la nueva cinta de opciones [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=599) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#filterToggle) 
-* Detalles de consulta de actualización automática de páginas [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=717) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#APR) 
+* Segmentación jerárquica (versión preliminar) [[vídeo]](https://youtu.be/TN61JvbUAxk?t=207) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Hierarchical_slicer) 
+* Actualizaciones de la cinta de opciones (versión preliminar) [[vídeo]](https://youtu.be/TN61JvbUAxk?t=424) [[artículo]](desktop-ribbon.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Ribbon) 
 
 
-### <a name="analytics"></a>Análisis
-* Cargar más para analizar conclusiones [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=831) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#moreAI) 
-* Nueva función de DAX: Quarter [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=855) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#quarter) 
-
+### <a name="modeling"></a>Modelado
+* Nuevas funciones de DAX: FirstNonBlankValue, LastNonBlankValue [[vídeo]](https://youtu.be/TN61JvbUAxk?t=716) [[artículo]](https://docs.microsoft.com/dax/firstnonblankvalue-function-dax) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_New_DAX_Functions) 
 
 ### <a name="visuals"></a>Objetos visuales
-* Personalización del panel Objetos visuales (disponibilidad general) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=865) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#personalizeViz) 
-* Nuevos objetos visuales personalizados [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=886) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#xViz) 
-
-
-### <a name="data-connectivity"></a>Conectividad de datos
-* Conector de Azure Data Lake Storage Gen2 (disponibilidad general) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2151) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/) 
-* Conector de Flujos de datos de Power Platform (disponibilidad general) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2180) [[artículo]](service-edit-sap-variables.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ADLS) 
-* Ahora el conector PostgreSQL incluye el proveedor Npgsql [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2220) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#PostgreSQL) 
-* Conector AtScale (disponibilidad general) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2245)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AtScale) 
-* Conector Azure Time Series Insights [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2261) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#ATS) 
-* Conector de virtualización de datos [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2294) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#DataVirt) 
-* Conector Zucchetti HR Infinity [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2345) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Zucchetti) 
-
-
-### <a name="data-preparation"></a>Preparación de datos
-* Actualizaciones de las funciones de Conclusiones de IA (versión preliminar) [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2366) [[artículo]](desktop-ai-insights.md) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#AIfunc) 
+* Nuevos objetos visuales personalizados [[vídeo]](https://youtu.be/TN61JvbUAxk?t=835) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Visualizations) 
 
 
 ### <a name="template-apps"></a>Aplicaciones plantilla
-* Conclusiones de Omnichannel para Dynamics 365  [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2416)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Omni) 
-* Análisis de servicio al cliente para Dynamics 365  [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2500)  [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#CS)
-* Microsoft Forms Pro para servicios de atención al cliente [[vídeo]](https://youtu.be/eCEwgZsVUOs?t=2525) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/#Forms) 
+* Análisis de uso de Microsoft 365 [[vídeo]](https://youtu.be/TN61JvbUAxk?t=910) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Microsoft_365_usage) 
+* Análisis de la NFL de P3 [[vídeo]](https://youtu.be/TN61JvbUAxk?t=928) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_NFL)
+* Acterys para QuickBooks, Zero y WorkflowMax [[vídeo]](https://youtu.be/TN61JvbUAxk?t=932) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Acterys) 
 
 
-Para obtener información detallada sobra cada una de estas características nuevas, vea [Resumen de características de Power BI Desktop de noviembre de 2019](https://powerbi.microsoft.com/blog/power-bi-desktop-december-2019-feature-summary/).
+### <a name="data-preparation"></a>Preparación de datos
+* Diagnósticos de consultas: asistencia a usuarios que no son administradores [[vídeo]](https://youtu.be/TN61JvbUAxk?t=938) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_non_admin_support) 
+
+
+### <a name="data-connectivity"></a>Conectividad de datos
+* Conector de MicroStrategy (disponibilidad general)[[vídeo]](https://youtu.be/TN61JvbUAxk?t=962) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_MicroStrategy_connector) 
+* Conector de FHIR (disponibilidad general)[[vídeo]](https://youtu.be/TN61JvbUAxk?t=962) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_FHIR) 
+* Otros conectores: Factset, TIBCO, Jamf Pro, Asana [[vídeo]](https://youtu.be/TN61JvbUAxk?t=978) [[blog]](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/#_Factset_connector) 
+
+
+
+Para más información sobra cada una de estas nuevas características, vea la [entrada de blog de resumen de características de Power BI Desktop](https://powerbi.microsoft.com/blog/power-bi-desktop-february-2020-feature-summary/).
 
 Consulte las [Novedades en el servicio Power BI](service-whats-new.md) y las [Novedades en las aplicaciones móviles para Power BI](consumer/mobile/mobile-whats-new-in-the-mobile-apps.md).
 
@@ -92,7 +82,8 @@ Consulte las [Novedades en el servicio Power BI](service-whats-new.md) y las [N
 ## <a name="power-bi-desktop-monthly-update-video"></a>Vídeo de actualización mensual de Power BI Desktop
 En el siguiente vídeo se describe cada una de estas actualizaciones. También puede ver este vídeo en la entrada de blog:
 
-> [!VIDEO https://www.youtube.com/embed/eCEwgZsVUOs]
+> [!VIDEO https://www.youtube.com/embed/TN61JvbUAxk]
+
 
 
 ## <a name="more-videos"></a>Más vídeos

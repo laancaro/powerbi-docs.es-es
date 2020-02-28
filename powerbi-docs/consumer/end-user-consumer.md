@@ -3,20 +3,21 @@ title: ¿Qué es un "consumidor" de Power BI?
 description: Introducción a Power BI para consumidores (también conocidos como usuarios finales o usuarios empresariales).
 author: mihart
 ms.service: powerbi
-ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: overview
-ms.date: 10/31/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: bf5e83005e0bd1782e497cdeec1d3689e5749b12
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 100a9302e260a7c8f34c6fa07cc6b231e7271ce6
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73863802"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496246"
 ---
 # <a name="the-power-bi-service-for-consumers"></a>Servicio Power BI para consumidores
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 Vivimos en una cultura de datos, en la que las decisiones empresariales se basan en hechos y no en opiniones. Para tomar estas decisiones necesita datos, para lo que cuenta con la ayuda de sus compañeros.     
  
@@ -43,6 +44,8 @@ La manera en que interactúa con Power BI dependerá de su función. Como usuari
 Como consumidor, no tendrá acceso a todas las funciones de Power BI. Y eso está bien, porque su trabajo no consiste en crear paneles e informes, sino que usará el servicio Power BI para el análisis, la supervisión, la exploración y la toma de decisiones. 
 
 Sin duda, oirá el término "Power BI Desktop" o simplemente "Desktop": se trata de una herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted.  Es importante saber que existen otras herramientas de Power BI, pero si usted es un consumidor, solo trabajará con el servicio Power BI. 
+
+Además, al estar trabajando con contenido *compartido*, necesitará una licencia de Power BI Pro o Premium. [¿Qué licencia tengo?](end-user-license.md)
 
 
 ## <a name="safely-interact-with-content"></a>Interacción segura con el contenido 

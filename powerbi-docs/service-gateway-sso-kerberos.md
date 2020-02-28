@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-gateways
 ms.topic: conceptual
-ms.date: 12/03/2019
+ms.date: 02/20/2020
 LocalizationGroup: Gateways
-ms.openlocfilehash: 889fbce483f839147677789c73d826fa23542731
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: aacab1541f336ed12c36dab8243d0096c9a6ed19
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75000121"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558620"
 ---
 # <a name="configure-kerberos-based-sso-from-power-bi-service-to-on-premises-data-sources"></a>Configuración del SSO basado en Kerberos desde el servicio Power BI a los orígenes de datos locales
 
@@ -246,11 +246,17 @@ SAP HANA y SAP BW tienen requisitos de configuración específicos de origen d
 
 ## <a name="run-a-power-bi-report"></a>Ejecutar un informe de Power BI
 
-Después de completar todos los pasos de configuración, use la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos que usará para el SSO. Si tiene varias puertas de enlace, asegúrese de seleccionar la que ya configuró para el SSO de Kerberos. Después, en **Configuración avanzada** del origen de datos, asegúrese de que la opción **Usar un SSO mediante Kerberos en las consultas de DirectQuery** esté activada.
+Después de completar todos los pasos de configuración, use la página **Administrar puerta de enlace** en Power BI para configurar el origen de datos que usará para el SSO. Si tiene varias puertas de enlace, asegúrese de seleccionar la que ya configuró para el SSO de Kerberos. Después, en la sección **Configuración avanzada** del origen de datos, confirme que la casilla **Usar un SSO mediante Kerberos en las consultas de DirectQuery** o la casilla **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** está activada para los informes basados en DirectQuery, y que la casilla **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** está activada para los informes basados en actualizaciones.
 
-![Opción de configuración avanzada](media/service-gateway-sso-kerberos/advanced-settings.png)
+![Opción de configuración avanzada](media/service-gateway-sso-kerberos/advanced-settings-02.png)
 
- Publique un informe basado en DirectQuery desde Power BI Desktop. Este informe debe utilizar datos que sean accesibles para el usuario que está asignado al usuario de Azure Active Directory que inicia sesión en el servicio Power BI. Debido a la forma en que funciona la actualización, debe usar DirectQuery en lugar de la importación. Cuando la puerta de enlace actualice los informes basados en la importación, usa las credenciales especificadas en los campos **Nombre de usuario** y **Contraseña** al crear el origen de datos. En otras palabras, *no* se usa el SSO de Kerberos. Al publicar, seleccione la puerta de enlace que ha configurado para el SSO si tiene varias puertas de enlace. En el servicio Power BI, ahora podrá actualizar el informe o crear un informe basado en el conjunto de datos publicado.
+Si publica un informe basado en DirectQuery desde Power BI Desktop y lo asigna a un origen de datos que tiene la casilla **Usar un SSO mediante Kerberos en las consultas de DirectQuery** o la casilla **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** activada, dicho informe usaría los datos que son accesibles para el usuario que está asignado al usuario de (Azure) Active Directory que ha iniciado sesión en el servicio Power BI.
+
+Del mismo modo, si publica un informe basado en actualización desde Power BI Desktop y lo asigna a un origen de datos que tiene la casilla **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** activada, no será necesario proporcionar ninguna credencial. La actualización se ejecuta en el contexto de la instancia de Active Directory del propietario del conjunto datos.
+
+Pero si lo asigna a un origen de datos en el que la casilla **Uso de SSO mediante Kerberos en consultas de importación y DirectQuery** no está activada, la actualización usará las credenciales que especificó en los campos **Nombre de usuario** y **Contraseña** al crear el origen de datos. En otras palabras, *no* se usa el SSO de Kerberos. 
+
+ Al publicar, seleccione la puerta de enlace que ha configurado para el SSO si tiene varias puertas de enlace. 
 
 Esta configuración funciona en la mayoría de los casos. Sin embargo, con Kerberos puede haber distintas configuraciones en función de su entorno. Si no se carga el informe, póngase en contacto con el administrador del dominio para investigar en profundidad. Si el origen de datos es SAP BW, consulte las secciones de solución de problemas de las páginas de configuración específicas del origen de datos para [CommonCryptoLib](service-gateway-sso-kerberos-sap-bw-commoncryptolib.md#troubleshooting) y [gx64krb5/gsskrb5](service-gateway-sso-kerberos-sap-bw-gx64krb.md#troubleshooting), en función de la biblioteca de SNC que haya elegido.
 

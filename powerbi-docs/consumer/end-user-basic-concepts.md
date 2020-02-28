@@ -8,21 +8,25 @@ ms.service: powerbi
 ms.custom: seodec18
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/16/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Get started
-ms.openlocfilehash: 7513479d14b57e47b30d2cd7ac9cc4acfe69d075
-ms.sourcegitcommit: 17aad73762579d6822383b27b96b1b63f87f2d6f
+ms.openlocfilehash: 2c8a8356fe20136d0325efe51934a7db3d4b113e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/14/2020
-ms.locfileid: "77260130"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496896"
 ---
 # <a name="basic-concepts-for-the-power-bi-service-consumers"></a>Conceptos básicos para consumidores de Power BI
 
+[!INCLUDE[consumer-appliesto-ynnm](../includes/consumer-appliesto-ynnm.md)]
+
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
-En este artículo se da por hecho que ha leído la [introducción a Power BI](../fundamentals/power-bi-overview.md) y se ha identificado como [**_consumidor_** de Power BI](end-user-consumer.md). Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
+En este artículo se da por hecho que ha leído la [introducción a Power BI](../fundamentals/power-bi-overview.md) y se ha identificado como **_consumidor_** de [Power BI](end-user-consumer.md). Los consumidores reciben el contenido de Power BI, como paneles e informes, de sus compañeros. Los consumidores usan el servicio Power BI, que es la versión basada en el sitio web de Power BI.
+
+Para recibir contenido de otros usuarios, se necesita una licencia de usuario de Power BI Pro o una licencia de capacidad de Power BI Premium. [Busque su tipo de licencia](end-user-license.md)
 
 Seguro que ha oído hablar de "Power BI Desktop" o simplemente de "Desktop". Es la herramienta independiente que usan los *diseñadores* que crean y comparten informes y paneles con usted. Es importante saber que existen otras herramientas de Power BI. Mientras sea consumidor, solo trabajará con el servicio Power BI. Este artículo se aplica solo al servicio Power BI.
 
@@ -54,7 +58,7 @@ _______________________________________________________
 
 ### <a name="introduction-to-building-blocks"></a>Introducción a los bloques de creación
 
-Para un consumidor de Power BI, los cinco bloques de creación son los siguientes: **_visualizaciones_**, **_paneles_**, **_informes_**, **_aplicaciones_** y **_conjuntos de datos_**. A veces se hace referencia a ellos como **_contenido_** de *Power BI*, y dicho *contenido* se encuentra en las **_áreas de trabajo_**. Un flujo de trabajo típico implica todos estos bloques de creación: un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* como usted, (de color negro en el diagrama siguiente). El *diseñador* los comparte en forma de *aplicaciones* u otros tipos de contenido compartido.
+Para un consumidor de Power BI, los cinco bloques de creación son los siguientes: **_visualizaciones_** , **_paneles_** , **_informes_** , **_aplicaciones_** y **_conjuntos de datos_** . A veces se hace referencia a ellos como **_contenido_** de *Power BI*, y dicho *contenido* se encuentra en las **_áreas de trabajo_** . Un flujo de trabajo típico implica todos estos bloques de creación: un *diseñador* de Power BI (de color amarillo en el diagrama siguiente) recopila datos de *conjuntos de datos*, los incorpora a Power BI para su análisis, crea *informes* llenos de *visualizaciones* que resaltan hechos y perspectivas interesantes, ancla las visualizaciones de los informes a un panel y comparte los informes y paneles con *consumidores* como usted, (de color negro en el diagrama siguiente). El *diseñador* los comparte en forma de *aplicaciones* u otros tipos de contenido compartido.
 
 ![Un gráfico de flujo de trabajo básico de Power BI.](media/end-user-basic-concepts/power-bi-workflow.png)
 
@@ -179,6 +183,9 @@ _______________________________________________________
 ## <a name="apps"></a>Aplicaciones
 
 Estas colecciones de paneles e informes organizan contenido relacionado entre sí en un único paquete. Los *diseñadores* de Power BI los compilan y comparten con usuarios, grupos, toda una organización o el público. Como consumidor, puede estar seguro de que usted y sus compañeros están trabajando con los mismos datos; una única versión de confianza del contenido real.
+
+> [!NOTE]
+> Para poder usar aplicaciones, se necesita una licencia de Power BI Pro o Premium. 
 
 ![Captura de pantalla de las aplicaciones seleccionadas en el panel izquierdo de Power BI.](media/end-user-basic-concepts/power-bi-apps.png)
 

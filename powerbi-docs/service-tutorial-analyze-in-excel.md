@@ -1,31 +1,31 @@
 ---
-title: 'Tutorial: Uso de Analizar en Excel'
-description: En este tutorial, se va a usar la página Conjuntos de datos de Power BI para importar conjuntos de datos en Excel.
+title: 'Tutorial: Uso de la característica Analizar en Excel de Power BI partiendo de Excel'
+description: En este tutorial, partirá desde Excel y se conectará a la página Conjuntos de datos de Power BI para importar conjuntos de datos en Excel.
 author: tejaskulkarni
 ms.reviewer: davidiseminger
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.custom: connect-to-services
 ms.topic: tutorial
-ms.date: 01/27/2020
+ms.date: 02/13/2020
 ms.author: tekulkar
 LocalizationGroup: Connect to services
-ms.openlocfilehash: a68adccec019e64e554d199d23d7dddd782f56a2
-ms.sourcegitcommit: 53c2b5ea4ee1fe2659804d5ccc8e4bb445a8bcad
+ms.openlocfilehash: d3795c34e477c593af4afefbe5cc01040026bfa4
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "76921494"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426550"
 ---
-# <a name="tutorial-use-analyze-in-excel"></a>Tutorial: Uso de Analizar en Excel
+# <a name="tutorial-use-power-bi-analyze-in-excel-starting-in-excel"></a>Tutorial: Uso de la característica Analizar en Excel de Power BI partiendo de Excel
 
-Su organización usa Power BI para compartir el acceso a los datos. Use la característica Analizar en Excel para crear tablas dinámicas y gráficos dinámicos con el fin de aportar contexto adicional a su análisis o reducir el tiempo necesario para buscar e importar conjuntos de datos pertinentes.
+Su organización usa Power BI para compartir el acceso a los datos. La característica Analizar en Excel de Power BI se inicia desde Excel para crear tablas dinámicas y gráficos dinámicos en Excel. Estos elementos pueden aportar más contexto al análisis o reducir el tiempo necesario para encontrar e importar conjuntos de datos relevantes.
 
-Para empezar a seleccionar un conjunto de datos, seleccione "Analizar en Excel". Se le guiará por los pasos para crear una tabla dinámica que use los datos.  
+Para empezar a trabajar con un conjunto de datos de Power BI, en Excel, seleccione "Analizar en Excel". Se le guiará por los pasos para crear una tabla dinámica que use los datos.  
 
 Vuelva a la página Conjuntos de datos para encontrar conjuntos de datos adicionales compartidos por su organización.
 
-Si encuentra problemas en cualquier momento, seleccione No en el paso correspondiente del flujo siguiente y proporcione comentarios en el formulario vinculado.  
+Si encuentra problemas en cualquier momento, seleccione **No** en el paso correspondiente del flujo siguiente y proporcione comentarios en el formulario vinculado.  
 
 En este tutorial, obtendrá información sobre cómo:
 

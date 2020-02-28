@@ -7,14 +7,14 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 05/08/2019
+ms.date: 01/31/2020
 ms.author: davidi
-ms.openlocfilehash: a6d949f95f463cb988958551d825a4eae824fb70
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: d3733b651ac8b9687d3b0547cc2f76c04a0d0823
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73865840"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427263"
 ---
 # <a name="tips-and-tricks-for-creating-reports-in-power-bi-desktop"></a>Sugerencias y trucos para crear informes en Power BI Desktop
 Para sacar el máximo provecho a los datos, a veces es necesario un poco de ayuda adicional. Hemos recopilado algunos consejos y trucos que puede usar al crear informes con Microsoft Power BI Desktop *y* con las ediciones de Microsoft Excel 2016 o Excel 2013 Pro-Plus con el complemento Power Pivot habilitado y Power Query instalado y habilitado. 
@@ -36,7 +36,7 @@ En el navegador del Editor de consultas de Power BI Desktop, cuando haga clic 
 
 * Cuando se usan archivos como orígenes de datos para una consulta, la ruta de acceso absoluta al archivo se almacena en la consulta. Al compartir o mover el archivo de Power BI Desktop o Excel Workbook, ahorrará tiempo al actualizar las rutas de acceso, ya que solo necesitará actualizar los datos una vez.
 
-De forma predeterminada todas las consultas se cargan en una hoja de cálculo de Excel o en el modelo de datos (o ambos). Algunas consultas son pasos intermedios y no están diseñadas para usuarios finales. como, por ejemplo, al hacer referencia a las consultas tal como se ha mencionado anteriormente. Puede controlar el comportamiento de carga de la consulta haciendo clic en el botón secundario sobre la consulta en el navegador y activando/desactivando la opción "Habilitar la carga". Cuando la opción *Habilitar la carga* no tiene marca de verificación, la consulta sigue estando disponible en la pestaña de consulta y se puede usar con otras consultas. Esto resulta especialmente útil en combinación con las operaciones de combinación, anexado y transformaciones de referencia. Sin embargo, puesto que los resultados de la consulta no se cargan en el modelo de datos, la consulta no recargará la lista de campos de informes o el modelo de datos. 
+De forma predeterminada, todas las consultas se cargan en el modelo de datos. Algunas consultas son pasos intermedios y no están diseñadas para usuarios finales. como, por ejemplo, al hacer referencia a las consultas tal como se ha mencionado anteriormente. Puede controlar el comportamiento de carga de la consulta haciendo clic en el botón secundario sobre la consulta en el navegador y activando/desactivando la opción "Habilitar la carga". Cuando la opción *Habilitar la carga* no tiene marca de verificación, la consulta sigue estando disponible en la pestaña de consulta y se puede usar con otras consultas. Esto resulta especialmente útil en combinación con las operaciones de combinación, anexado y transformaciones de referencia. Sin embargo, puesto que los resultados de la consulta no se cargan en el modelo de datos, la consulta no recargará la lista de campos de informes o el modelo de datos. 
 
 ## <a name="scatter-charts-need-a-point-identifier"></a>Necesidad del identificador de puntos en los gráficos de dispersión
 Tomemos como ejemplo una sencilla tabla de temperaturas con la hora a la que se realizó la lectura. Si trazamos directamente un gráfico de dispersión, Power BI agrega todos los valores en un único punto. Para mostrar los puntos de datos individuales, debe agregar un campo a los detalles en el área de campos. Una manera sencilla de hacerlo esto en Power BI Desktop es mediante la opción "Agregar columna de índice" de la pestaña de consultas, en la cinta de opciones "Agregar columna". 
@@ -116,7 +116,7 @@ Supongamos que cargamos conjuntos de datos de solicitudes de soporte de clientes
 > 
 > 
 
-Si queremos realizar un seguimiento de todos los incidentes y elementos de trabajo relacionados con un determinado un CustomerName, no podemos crear simplemente una relación entre estos dos conjuntos de datos. Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL. Puede haber varios registros de en WorkItems y CustomerIncidents para cualquier CustomerName determinado. 
+Si quiere realizar el seguimiento de todos los incidentes y elementos de trabajo relacionados con un valor CustomerName determinado, no se puede crear simplemente una relación entre estos dos conjuntos de datos. Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL. Puede haber varios registros de en WorkItems y CustomerIncidents para cualquier CustomerName determinado. 
 
 ### <a name="creating-relationships-in-power-bi-desktop-when-the-data-has-null-or-blank-values"></a>Creación de relaciones en Power BI Desktop si mis datos tienen valores nulos o en blanco
 A menudo los conjuntos de datos contienen columnas con valores nulos o en blanco. Esto puede producir problemas al intentar usar las relaciones. Básicamente hay dos opciones para resolver los problemas. Podemos quitar las filas que tengan valores nulos o en blanco. Para ello, se puede usar una característica de filtro en la pestaña de consulta o si se van a combinar las consultas, seleccionar la opción "Mantener solo las filas coincidentes". De manera alternativa, se pueden reemplazar los valores en blanco o nulos con valores que funcionan normalmente en las relaciones como, por ejemplo, las cadenas "NULL" y ("Blank"). No hay ningún enfoque correcto aquí: el filtrado de filas en la fase de consulta quita filas y puede afectar a los cálculos y las estadísticas de resumen. El último enfoque conserva dichas filas de datos, pero puede hacer que en el modelo aparezcan filas no relacionadas como relacionadas, lo que daría lugar a cálculos erróneos. Si adoptamos la última solución, debemos asegurarnos de usar filtros en la visa/gráfico donde corresponda para asegurarse de que se obtienen resultados precisos. Lo más importante es evaluar las filas que se mantendrán/eliminarán y comprender el impacto global en el análisis. 
@@ -132,7 +132,7 @@ Supongamos que cargamos conjuntos de datos de solicitudes de soporte de clientes
 > 
 > 
 
-Si queremos realizar un seguimiento de todos los incidentes y elementos de trabajo relacionados con un determinado un CustomerName, no podemos crear simplemente una relación entre estos dos conjuntos de datos. Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL. Si hay valores en blanco o nulos en la tabla CustomerNames, es posible que aún no se pueda crear ninguna relación. Vea Creación de relaciones si mis datos tienen valores nulos o en blanco. Puede haber varios WorkItems y CustomerIncidents para un único CustomerName. 
+Si quiere realizar el seguimiento de todos los incidentes y elementos de trabajo relacionados con un valor CustomerName determinado, no se puede crear simplemente una relación entre estos dos conjuntos de datos. Algunos WorkItems pueden no estar relacionados con un CustomerName, por lo que dicho campo estaría en blanco o con un valor NULL. Si hay valores en blanco o nulos en la tabla CustomerNames, es posible que aún no se pueda crear ninguna relación. Vea Creación de relaciones si mis datos tienen valores nulos o en blanco. Puede haber varios WorkItems y CustomerIncidents para un único CustomerName. 
 
 Para crear una relación en este caso, tenemos que crear un conjunto de datos lógico de todos los CustomerNames de los dos conjuntos de datos. En la pestaña consulta, puede usar la siguiente secuencia para crear el conjunto de datos lógico:
 

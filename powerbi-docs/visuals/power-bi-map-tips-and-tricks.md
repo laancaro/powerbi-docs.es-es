@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 10/30/2019
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: c876a1f87afcb5bbaa3e27bdcb88bda2a04496e5
-ms.sourcegitcommit: 97597ff7d9ac2c08c364ecf0c729eab5d59850ce
+ms.openlocfilehash: 28d142ae92353f415f3cf29db959b24a8040c50b
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "75758517"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558594"
 ---
 # <a name="tips-and-tricks-for-power-bi-map-visualizations"></a>Sugerencias y trucos para las visualizaciones de mapas de Power BI
 Power BI se integra con Bing Maps para proporcionar las coordenadas de mapas predeterminadas (es decir, un proceso denominado geocodificación) para que se puedan crear mapas. Juntos, utilizan algoritmos para identificar la ubicación correcta pero, a veces, resulta un cálculo aproximado. Si Power BI intenta sin éxito crear por sí mismo la visualización del mapa, se muestra la ayuda de Bing Maps. 
@@ -28,17 +28,17 @@ Puede que usted o su administrador tengan que actualizar el firewall para permit
 Para aumentar la probabilidad de realizar la geocodificación de manera correcta, use las sugerencias siguientes. El primer conjunto de sugerencias es para que las use si tiene acceso al conjunto de datos. El segundo conjunto de sugerencias es lo que puede hacer en Power BI si no tiene acceso al conjunto de datos. 
 
 ## <a name="what-is-sent-to-bing-maps"></a>¿Qué se envía a Bing Maps?
-El servicio Power BI y Power BI Desktop envían a Bing los datos de replicación geográfica necesarios para crear la visualización del mapa. Esto puede incluir los datos de los cubos **Ubicación**, **Latitud** y **Longitud** y los campos geográficos de cualquiera de los cubos de filtro **Nivel de informe**, **Nivel de página**, o **Nivel visual**. Lo que se envía exactamente varía según el tipo de mapa. Para más información, consulte [Privacidad de Bing Maps](https://go.microsoft.com/fwlink/?LinkID=248686).
+El servicio Power BI y Power BI Desktop envían a Bing los datos de replicación geográfica necesarios para crear la visualización del mapa. Esto puede incluir los datos de los cubos **Ubicación**, **Latitud** y **Longitud** del área de campos del objeto visual. Lo que se envía exactamente varía según el tipo de mapa. Para más información, consulte [Privacidad de Bing Maps](https://go.microsoft.com/fwlink/?LinkID=248686).
 
-* En el caso de los mapas (mapas de burbujas, dispersión y trazado de puntos), si se proporcionan latitud y longitud, no se envían datos a Bing. En caso contrario, se envían a Bing todos los datos de los cubos de **Ubicación** (y filtro).     
+* En el caso de los mapas (mapas de burbujas, dispersión y trazado de puntos), si se proporcionan latitud y longitud, no se envían datos a Bing. En caso contrario, se envían a Bing todos los datos del cubo **Ubicación**.     
 
 * Los mapas coropléticos requieren un campo en el cubo **Ubicación**, incluso si se proporcionan la latitud y la longitud. Todos los datos que estén en los cubos de **Ubicación**, **Latitud** o **Longitud** se envían a Bing.
   
-    En el ejemplo siguiente, el campo **Proveedor** se utiliza para la geocodificación, por lo que todos los datos del proveedor se envían a Bing. Los datos de los cubos **Tamaño** y **Saturación de color** no se envían a Bing.
+    En el ejemplo siguiente, el campo **Proveedor** se usa para la geocodificación, por lo que los valores de la columna Proveedor se envían a Bing. Los datos de los cubos **Tamaño** y **Saturación de color** no se envían a Bing.
   
     ![se envía a los mapas de Bing](./media/power-bi-map-tips-and-tricks/power-bi-sent-to-bing-new.png)
   
-    En este segundo ejemplo siguiente, el campo **Territorio** se utiliza para la geocodificación, por lo que todos los datos del territorio se envían a Bing. Los datos de los cubos **Leyenda**y **Saturación de color** no se envían a Bing.
+    En este segundo ejemplo, el campo **Territorio** se usa para la geocodificación, por lo que los valores de la columna Territorio se envían a Bing. Los datos de los cubos **Leyenda**y **Saturación de color** no se envían a Bing.
   
     ![Mapas coropléticos y Bing](./media/power-bi-map-tips-and-tricks/power-bi-filled-map.png)
 

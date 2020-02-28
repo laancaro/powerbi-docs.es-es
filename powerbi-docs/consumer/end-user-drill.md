@@ -6,17 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Visualizations
-ms.openlocfilehash: 21d663b2f29a8090e6cfb7013d16c739ef0a29b3
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 7c0c08e8056232fa7c60b20faf48b0137a19bc5f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851457"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496414"
 ---
 # <a name="drill-mode-in-a-visual-in-power-bi"></a>Modo de exploración en un objeto visual de Power BI
+
+[!INCLUDE[consumer-appliesto-yyny](../includes/consumer-appliesto-yyny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -32,6 +34,7 @@ Las fechas son un tipo único de jerarquía.  A menudo, los diseñadores de info
 ¿No está seguro de qué objetos visuales de Power BI contienen una jerarquía? Mantenga el cursor sobre un objeto visual. Si ve una combinación de estos controles de detalle en la parte superior, el control visual tiene una jerarquía.
 
 ![Captura de pantalla de los iconos de exploración.](./media/end-user-drill/power-bi-drill-icons.png)  
+
 
 ## <a name="learn-how-to-drill-down-and-up"></a>Más información sobre cómo explorar en profundidad y resumir
 
@@ -108,7 +111,7 @@ También puede elegir si quiere explorar en profundidad o expandir solo un campo
 
 Tener un gráfico de rectángulos que nos muestra solo un código postal no es muy informativo.  A continuación se *expandirá* un nivel en la jerarquía.  
 
-1. Con el gráfico de rectángulos activo, seleccione el icono de *expandir* ![Captura de pantalla del icono de expandir](./media/end-user-drill/power-bi-drill-icon6.png). El gráfico de rectángulos muestra ahora dos niveles de la jerarquía: código postal y nombre de la tienda.
+1. Con el gráfico de rectángulos activo, seleccione el icono de *expandir*![Captura de pantalla del icono de expandir](./media/end-user-drill/power-bi-drill-icon6.png). El gráfico de rectángulos muestra ahora dos niveles de la jerarquía: código postal y nombre de la tienda.
 
     ![Captura de pantalla del gráfico de rectángulos que muestra el código postal y el nombre de la tienda](./media/end-user-drill/power-bi-expand-one.png)
 
@@ -116,7 +119,7 @@ Tener un gráfico de rectángulos que nos muestra solo un código postal no es m
 
     ![Captura de pantalla del gráfico de rectángulos que muestra todos los datos de TN.](media/end-user-drill/power-bi-expand-two.png)
 
-1. Asegúrese de que el rastreo desagrupando datos sigue activado, ![Captura de pantalla del icono para activar/desactivar la opción de rastrear desagrupando datos en modo activado.](./media/end-user-drill/power-bi-drill-icon2.png) y seleccione el icono de *expandir* ![Captura de pantalla del icono de expandir](./media/end-user-drill/power-bi-drill-icon6.png). Ahora, en el gráfico de rectángulos se muestra el mismo número de hojas (cuadros), pero cada hoja tiene detalles adicionales. En lugar de mostrar solo la ciudad y el estado, también muestra el código postal.
+1. Asegúrese de que el rastreo desagrupando datos sigue activado, ![Captura de pantalla del icono para activar/desactivar la opción de rastrear desagrupando datos en modo activado.](./media/end-user-drill/power-bi-drill-icon2.png) y seleccione el icono de *expandir*![Captura de pantalla del icono de expandir](./media/end-user-drill/power-bi-drill-icon6.png). Ahora, en el gráfico de rectángulos se muestra el mismo número de hojas (cuadros), pero cada hoja tiene detalles adicionales. En lugar de mostrar solo la ciudad y el estado, también muestra el código postal.
 
     ![Captura de pantalla del gráfico visual que muestra la ciudad, el estado y el código postal.](./media/end-user-drill/power-bi-expand-three.png)
 
@@ -141,7 +144,9 @@ Observe que los totales son los mismos para **City** (Ciudad), **PostalCode** (C
 
 
 ## <a name="considerations-and-limitations"></a>Consideraciones y limitaciones
-De forma predeterminada, el modo detallado no filtrará otros objetos visuales en un informe. Pero el diseñador del informe puede cambiar este comportamiento predeterminado. A medida que explore en profundidad, compruebe si los demás objetos visuales de la página realizan filtrado cruzado o resaltado cruzado.
+- De forma predeterminada, el modo detallado no filtrará otros objetos visuales en un informe. Pero el diseñador del informe puede cambiar este comportamiento predeterminado. A medida que explore en profundidad, compruebe si los demás objetos visuales de la página realizan filtrado cruzado o resaltado cruzado.
+
+- Para ver un informe que se ha compartido con usted, se necesita una licencia de Power BI Pro o Premium. [¿Qué licencia tengo?](end-user-license.md)
 
 
 ## <a name="next-steps"></a>Pasos siguientes

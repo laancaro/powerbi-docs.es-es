@@ -3,21 +3,22 @@ title: ¿Qué es una aplicación de Power BI?
 description: En Power BI, las aplicaciones permiten reunir paneles e informes relacionados en un solo lugar.
 author: mihart
 ms.reviewer: lukaszp
-ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 10/17/2019
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Share your work
-ms.openlocfilehash: 784c0ed368a12951220ccf719c70ac7d8d3db040
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: fd11e6fd45a3978eb301adabc15ac8941e7824bf
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851018"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496711"
 ---
 # <a name="apps-in-power-bi"></a>Aplicaciones de Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -29,9 +30,9 @@ Las aplicaciones se organizan en la lista de contenido **Aplicaciones**. Simplem
 ![Aplicaciones de Power BI](./media/end-user-apps/power-bi-apps.png)
 
 > [!NOTE]
-> Para usar la característica de aplicaciones, hace falta una licencia de Power BI Pro. <!-- add link to how to figure out your license -->
+> Para usar la característica de aplicaciones, hace falta una licencia de Power BI Pro. [Busque su tipo de licencia](end-user-license.md)
 
-## <a name="app-designers-and-app-consumers"></a>***Diseñadores*** de aplicaciones y ***consumidores*** de aplicaciones
+## <a name="app-designers-and-app-consumers"></a>*Diseñadores* de aplicaciones y *consumidores* de aplicaciones
 En función de su rol, es posible que sea alguien que crea aplicaciones (*diseñador*) para su propio uso o para compartir con otros compañeros. O puede que sea alguien que recibe y descarga aplicaciones (*consumidor*) creadas por otros. Este artículo es para *consumidores de aplicaciones*.
 
 ## <a name="advantages-of-apps"></a>Ventajas de aplicaciones
@@ -49,7 +50,7 @@ Puede obtener aplicaciones de varias maneras diferentes. Estas son algunas de la
 - Puede buscar aplicaciones en [AppSource](https://appsource.microsoft.com). AppSource contiene aplicaciones publicadas por diseñadores de informes, tanto de dentro como fuera de la empresa. Por ejemplo, en AppSource podría encontrar una aplicación para un servicio que ya usa, como Google Analytics, GitHub o Microsoft Dynamics. También encontrará aplicaciones que son ejemplos que puede usar para aprender a usar Power BI.  
 
 
-## <a name="next-step"></a>Paso siguiente
+## <a name="next-step"></a>Siguiente paso
 * [Abrir una aplicación e interactuar con ella](end-user-app-view.md)
 * [Otras formas de compartir contenido](end-user-shared-with-me.md)
 

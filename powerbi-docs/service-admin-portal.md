@@ -10,12 +10,12 @@ ms.date: 09/25/2019
 ms.author: kfollis
 ms.custom: seodec18
 LocalizationGroup: Administration
-ms.openlocfilehash: c59f1c1653e3b1a506f342bffed6fa539dfe58b3
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: d56e329d5331403c0ed0ce4da28bf73aea65d9a6
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76819592"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427884"
 ---
 # <a name="administering-power-bi-in-the-admin-portal"></a>Administración de Power BI en el portal de administración
 
@@ -233,14 +233,14 @@ Los usuarios ven diferentes opciones en la interfaz de usuario en función del v
 
 ### <a name="export-data"></a>Exportar datos
 
-Los usuarios de la organización pueden exportar datos desde un icono o una visualización. [Más información](visuals/power-bi-visualization-export-data.md)
+Los usuarios de la organización pueden exportar datos desde un icono o una visualización. Obtenga más información sobre la [exportación de datos desde un icono o un objeto visual](visuals/power-bi-visualization-export-data.md).
 
 En la imagen siguiente se muestra la opción para exportar datos desde un icono.
 
 ![Exportación de datos desde un icono](media/service-admin-portal/powerbi-admin-export-data.png)
 
 > [!NOTE]
-> Si deshabilita la opción **Exportar datos** también impedirá que los usuarios usen la característica **Analizar en Excel**, así como la conexión dinámica al servicio Power BI.
+> Si deshabilita la opción **Exportar datos** también impedirá que los usuarios usen la característica [Analizar en Excel](service-analyze-in-excel.md), así como la conexión dinámica al servicio Power BI.
 
 ### <a name="export-reports-as-powerpoint-presentations-or-pdf-documents"></a>Exportación de informes como presentaciones de PowerPoint o documentos PDF
 

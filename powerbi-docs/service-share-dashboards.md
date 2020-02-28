@@ -10,12 +10,12 @@ ms.topic: conceptual
 ms.date: 11/26/2019
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: e6e66a4459abefbc66ec4e70b882cddc4771facf
-ms.sourcegitcommit: a21f7f9de32203e3a4057292a24ef9b5ac6ce94b
+ms.openlocfilehash: 96f78ff87dc4f955e134815e6237e4fb5a1ca1e7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "74565656"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426688"
 ---
 # <a name="share-power-bi-dashboards-and-reports-with-coworkers-and-others"></a>Uso compartido de informes y paneles de Power BI con compañeros y otros usuarios
 *Compartir* es una buena manera de permitir que otros usuarios tengan acceso a sus paneles e informes. Power BI ofrece también [varias maneras de colaborar y distribuir los paneles e informes](service-how-to-collaborate-distribute-dashboards-reports.md).
@@ -70,7 +70,7 @@ Vea cómo Amanda comparte el panel con sus compañeros dentro y fuera de la comp
 ## <a name="see-who-has-access-to-a-dashboard-or-report"></a>Consulta de quién tiene acceso a un panel o informe
 En ocasiones necesitará ver a las personas con las que ha compartido y ver con quiénes lo han compartido esas personas.
 
-1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![Icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
+1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
 2. En el cuadro de diálogo **Compartir panel** o **Compartir informe**, seleccione **Acceso**.
    
     ![Cuadro de diálogo Compartir panel, pestaña Acceso](media/service-share-dashboards/power-bi-share-dialog-access.png)
@@ -90,6 +90,8 @@ Solo los destinatarios directos verán el panel o informe compartido. Por ejempl
 
 Los usuarios externos a la organización no verán ningún dato si se ha implementado la seguridad de nivel de fila o de rol en los modelos tabulares de Analysis Services locales.
 
+Use un grupo de seguridad (y no un grupo de distribución) para compartir contenido con un grupo que incluya personas con direcciones de correo electrónico externas. Las personas con direcciones de correo electrónico externas de un grupo de distribución no pueden ver el contenido que comparta, a menos que sean usuarios invitados de Azure Active Directory (Azure AD) B2B. Obtenga más información sobre los [usuarios invitados de Azure AD B2B](service-admin-azure-ad-b2b.md).
+
 Si envía un vínculo desde una aplicación móvil de Power BI a contactos externos a su organización, al hacer clic en el vínculo, se abrirá el panel en el explorador, no en la aplicación móvil de Power BI.
 
 ### <a name="allow-external-users-to-edit-content"></a>Permisos de edición de contenido para los usuarios externos
@@ -103,7 +105,7 @@ Solo el propietario del panel o informe puede activar y desactivar Volver a comp
 * Desactive la casilla **Permitir que los destinatarios compartan su panel (o informe)** en la parte inferior de la invitación antes de enviarla.
 
 ### <a name="if-youve-already-shared-the-dashboard-or-report"></a>Si ya ha compartido el panel o informe
-1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![Icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
+1. En la lista de paneles e informes, o en el panel o informe propiamente dicho, seleccione **Compartir** ![icono Compartir](media/service-share-dashboards/power-bi-share-icon.png). 
 2. En el cuadro de diálogo **Compartir panel** o **Compartir informe**, seleccione **Acceso**.
    
     ![Cuadro de diálogo Compartir panel, pestaña Acceso](media/service-share-dashboards/power-bi-share-dialog-access.png)

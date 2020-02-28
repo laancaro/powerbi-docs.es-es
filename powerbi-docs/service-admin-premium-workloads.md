@@ -7,14 +7,14 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 10/14/2019
+ms.date: 02/14/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: 924be90a8598c561a12ed87872bdfbd4681831c8
-ms.sourcegitcommit: 8b300151b5c59bc66bfef1ca2ad08593d4d05d6a
+ms.openlocfilehash: ae05fdcd3a38f10707e991524bac61a305b88794
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "76889383"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427723"
 ---
 # <a name="configure-workloads-in-a-premium-capacity"></a>Configuración de cargas de trabajo en una capacidad Premium
 
@@ -101,7 +101,7 @@ Use esta configuración para controlar el impacto de los informes con un uso int
 
 Esta configuración se aplica a todas las consultas DAX y MDX que se ejecutan mediante informes de Power BI, informes de Análisis en Excel, así como otras herramientas que pueden conectarse a través del punto de conexión XMLA.
 
-Tenga en cuenta que las operaciones de actualización de datos también pueden ejecutar consultas DAX como parte de la actualización de los iconos del panel y de cachés de objetos visuales una vez que se han actualizado los datos del conjunto de datos. Es posible que estas consultas también produzcan errores debido a esta configuración, y esto puede provocar que la operación de actualización de datos se muestre con un estado de error aunque los datos del conjunto de datos se hayan actualizado correctamente.
+Tenga en cuenta que las operaciones de actualización de datos también pueden ejecutar consultas DAX como parte de la actualización de los iconos del panel y de las cachés de objetos visuales una vez que se han actualizado los datos del conjunto de datos. Es posible que estas consultas también produzcan errores debido a esta configuración, y esto puede provocar que la operación de actualización de datos se muestre con un estado de error aunque los datos del conjunto de datos se hayan actualizado correctamente.
 
 #### <a name="query-timeout"></a>Tiempo de espera de la consulta
 
@@ -170,7 +170,7 @@ La carga de trabajo de informes paginados permite ejecutar informes paginados, e
 | **Valor máximo de memoria (%)** | Porcentaje máximo de memoria disponible que los informes paginados pueden usar en una capacidad. |
 |  |  |
 
-Los informes paginados permiten ejecutar código personalizado al representar un informe. Por ejemplo, cambiar de forma dinámica el color del texto en función del contenido, lo que puede tomar memoria adicional. Power BI Premium ejecuta informes paginados en un espacio contenido dentro de la capacidad. 
+Los informes paginados ofrecen las mismas funciones que las que actualmente proporcionan los informes de SQL Server Reporting Services (SSRS), incluida la capacidad de que los autores de informes agreguen código personalizado.  Esto permite a los autores cambiar los informes de forma dinámica, como modificar los colores del texto en función de expresiones de código.  Para garantizar un aislamiento adecuado, los informes paginados se ejecutan en un espacio aislado protegido por capacidad. Los informes que se ejecutan con la misma capacidad pueden producir efectos secundarios entre ellos. Al igual que restringiría los autores que pueden publicar contenido en una instancia de SSRS, se recomienda seguir un procedimiento similar con los informes paginados. Asegúrese de que los autores que publican contenido en una capacidad sean de confianza para la organización. Puede proteger aún más el entorno mediante el aprovisionamiento de varias capacidades y la asignación de distintos autores a cada una. 
 
 En algunos casos, la carga de trabajo de informes paginados puede dejar de estar disponible. En este caso, la carga de trabajo muestra un estado de error en el portal de administración y los usuarios ven los tiempos de espera para la representación de informes. Para mitigar este problema, deshabilite la carga de trabajo y después vuelva a habilitarla.
 

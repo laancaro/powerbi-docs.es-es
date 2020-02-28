@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 11/11/2019
+ms.date: 02/20/2020
 ms.author: davidi
 LocalizationGroup: Connect to data
-ms.openlocfilehash: 0f7debd49541679b2ec5d41eaa2307c50bf170ce
-ms.sourcegitcommit: 0d7ad791a2d2bef45d5d60e38e0af4c9fc22187b
+ms.openlocfilehash: df8c84b5b7baf55a32e07e3e48cb02317fdf7875
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "74016144"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527488"
 ---
 # <a name="use-the-updated-ribbon-in-power-bi-desktop-preview"></a>Uso de la cinta actualizada en Power BI Desktop (versión preliminar)
 
@@ -51,7 +51,18 @@ Estas ventajas se pueden agrupar en las categorías siguientes:
 
 * **Una cinta de opciones de una sola línea que, cuando se contrae, ahorra espacio**: otra ventaja de la cinta de opciones actualizada es la capacidad de contraerse en una sola línea, mostrando de manera dinámica los elementos de la cinta según el contexto. 
 
-    ![Mejores temas](media/desktop-ribbon/desktop-ribbon-06.png)
+    ![Cinta contraída](media/desktop-ribbon/desktop-ribbon-06.png)
+
+* **Keytips para navegar y seleccionar botones**: para facilitar la navegación por la cinta, puede presionar **Alt + Tecla Windows** para activar las keytips. Una vez activadas, puede presionar en el teclado las teclas que se muestran para navegar.
+
+    ![Keytips](media/desktop-ribbon/desktop-ribbon-07.png)
+
+* **Cadenas de formato personalizado**: además de establecer cadenas de formato personalizado en el panel *Propiedades*, también puede establecerlas en la cinta. Seleccione la medida o la columna que quiera personalizar y, en función de la selección, se mostrará una pestaña contextual **Herramientas de medidas** o **Herramientas de columnas**. En la sección de formato de la pestaña, puede escribir la cadena de formato personalizado directamente en el cuadro desplegable.
+
+    ![Cadenas de formato personalizado](media/desktop-ribbon/desktop-ribbon-08.png)
+
+* **Accesibilidad**: la barra de título, la cinta y el menú Archivo son totalmente accesibles. Presione Ctrl + F6 para ir a la sección de la cinta. Una vez allí, puede presionar **Tab** para desplazarse entre las barras superior e inferior, y usar las teclas de dirección para desplazarse entre los elementos.
+
 
 Además de esos cambios visibles, una cinta de opciones actualizada también nos permite realizar actualizaciones futuras en Power BI Desktop, y en su cinta de opciones, como se muestra a continuación:
 

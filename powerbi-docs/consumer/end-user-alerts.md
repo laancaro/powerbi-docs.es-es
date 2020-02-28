@@ -7,17 +7,19 @@ featuredvideoid: removed
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: tutorial
-ms.date: 10/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f7ebc459379dbf292603a605db8d3f9c7162e92f
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 5f4dc1d1f3e707a59ef81e63be42714c499d050f
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73851274"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496531"
 ---
-# <a name="tutorial-set-dashboard-alerts-on-power-bi-dashboards"></a>Tutorial: Establecer alertas del panel en paneles de Power BI
+# <a name="tutorial-set-alerts-on-power-bi-dashboards"></a>Tutorial: Establecer alertas en paneles de Power BI
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -112,6 +114,7 @@ Hay muchas maneras de administrar las alertas: desde el icono del panel, desde e
 * Las alertas solo se pueden establecer en medidores, KPI y tarjetas.
 * Si no puede establecer una alerta para un medidor, KPI o tarjeta, póngase en contacto con el administrador del sistema para pedir ayuda. A veces, las alertas se desactivan o no están disponibles para el panel o para tipos específicos de iconos del panel.
 * Las alertas solo funcionan en los datos que se actualizan. No funcionan con datos estáticos. La mayoría de los ejemplos proporcionados por Microsoft son estáticos. 
+* Los *consumidores* no crean sus propios paneles, sino que son los *diseñadores* quienes los crean y comparten con los consumidores. Para recibir y ver contenido compartido, se necesita una licencia Power BI Pro o Premium. Para más información, vea [¿Qué licencia tengo?](end-user-license.md) 
 
 
 ## <a name="clean-up-resources"></a>Limpieza de recursos

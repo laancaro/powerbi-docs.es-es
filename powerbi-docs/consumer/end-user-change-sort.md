@@ -6,21 +6,19 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 01/29/2020
+ms.date: 02/19/2020
 ms.author: mihart
 LocalizationGroup: Reports
-ms.openlocfilehash: 76370e2b633e21674ba878e70b5ecfc333453c96
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 1a59618ea27944314465d8e08d5f0c249c3bed0b
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76889222"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496472"
 ---
 # <a name="change-how-a-chart-is-sorted-in-a-power-bi-report"></a>Cambio del modo de ordenar un gráfico en un informe de Power BI
 
-
-
-[!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 
 > [!IMPORTANT]
@@ -32,7 +30,7 @@ Los objetos visuales de un panel no se pueden ordenar, pero en un informe de Pow
 
 ## <a name="get-started"></a>Comenzar
 
-Para empezar, seleccione cualquier objeto visual y elija **Más acciones** (...).  Hay tres opciones para ordenar: **Orden descendente**, **Orden ascendente** y **Ordenar por**. 
+Para empezar, abra un informe que se haya compartido con usted. Seleccione un objeto visual (que se pueda ordenar) y elija **Más acciones** (...).  Hay tres opciones para ordenar: **Orden descendente**, **Orden ascendente** y **Ordenar por**. 
     
 
 ![gráfico de barras ordenado alfabéticamente por eje X](media/end-user-change-sort/power-bi-more-actions.png)
@@ -69,9 +67,9 @@ Es posible que, a veces, quiera ordenar el objeto visual mediante un campo difer
 
 Solo la persona que diseñó el informe puede hacer estos cambios. Para encontrar la información de contacto del *diseñador*, seleccione el nombre del informe en la barra de encabezado.
 
-Si es *diseñador* y tiene permisos de edición para el contenido, lea [Ordenar por columnas en Power BI Desktop](../desktop-sort-by-column.md) para saber cómo actualizar el conjunto de datos y habilitar este tipo de ordenación.
-
 ![Elemento desplegable que muestra la información de contacto](media/end-user-change-sort/power-bi-contact.png)
+
+Si es *diseñador* y tiene permisos de edición para el contenido, lea [Ordenar por columnas en Power BI Desktop](../desktop-sort-by-column.md) para saber cómo actualizar el conjunto de datos y habilitar este tipo de ordenación.
 
 ## <a name="next-steps"></a>Pasos siguientes
 Más información sobre [Visualizaciones en Power BI](end-user-visualizations.md).

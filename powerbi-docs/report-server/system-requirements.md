@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 01/21/2020
-ms.openlocfilehash: 7b8c106f13df381152b6323cf1263747a3064709
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.date: 02/20/2020
+ms.openlocfilehash: 20b41762f7b38bd4ed26add97abb4eec1da0c000
+ms.sourcegitcommit: d42fbe235b6cf284ecc09c2a3c005459cec11272
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76540576"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "77558569"
 ---
 # <a name="hardware-and-software-requirements-for-installing-power-bi-report-server"></a>Requisitos de hardware y software para instalar el servidor de informes de Power BI
 
@@ -23,7 +23,7 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 
 | Componente | Requisito |
 | --- | --- |
-| .NET Framework |4.6<br><br>Puede instalar manualmente .NET Framework desde [Microsoft .NET Framework 4.6 (Instalador web) para Windows](https://support.microsoft.com/kb/3045560).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.6, consulte [Guía de implementación de .NET Framework para desarrolladores](https://msdn.microsoft.com/library/ee942965\(v=vs.110\).aspx).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.6. |
+| .NET Framework |4,7<br><br>.NET Framework se puede instalar manualmente desde [Microsoft .NET Framework 4.7 (Instalador web) para Windows](https://support.microsoft.com/en-us/kb/3186500).<br/><br/> Para más información, recomendaciones e instrucciones sobre .NET Framework 4.7, vea [Guía de implementación de .NET Framework para desarrolladores](https://docs.microsoft.com/dotnet/framework/deployment/deployment-guide-for-developers).<br/><br/>Windows 8.1 y Windows Server 2012 R2 requieren [KB2919355](https://support.microsoft.com/kb/2919355) antes de instalar .NET Framework 4.7. |
 | Disco duro |El servidor de informes de Power BI requiere un mínimo de 1 GB de espacio disponible en disco duro.<br><br>Se requerirá espacio adicional en el servidor de bases de datos en el que se hospeda la base de datos del servidor de informes. |
 | Memoria |**Mínimo:** 1 GB<br/><br/> **Recomendado:** como mínimo 4 GB |
 | Velocidad del procesador |**Mínimo:** procesador x64: 1,4 GHz<br/><br/> **Recomendado:** 2.0 GHz o más rápido |
@@ -38,6 +38,7 @@ En este artículo se especifican los requisitos mínimos de hardware y software 
 
 Se usa SQL Server para hospedar las bases de datos del servidor de informes. La instancia del Motor de base de datos de SQL Server puede ser local o remota. A continuación, se indican las versiones admitidas del Motor de base de datos de SQL Server que pueden usarse para hospedar las bases de datos del servidor de informes:
 
+* Instancia administrada de Azure SQL (Power BI Report Server, versión de enero de 2020 y posteriores)
 * SQL Server 2019
 * SQL Server 2017
 * SQL Server 2016

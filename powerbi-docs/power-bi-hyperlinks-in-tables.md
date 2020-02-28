@@ -7,15 +7,15 @@ ms.custom: seodec18
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/13/2020
+ms.date: 02/13/2020
 ms.author: maggies
 LocalizationGroup: Visualizations
-ms.openlocfilehash: ddb54ca91936626b4870b51b86b7fc7f0ac6b2c9
-ms.sourcegitcommit: df8bcc65f0df69bf1fc1d47eb06575742eac1622
+ms.openlocfilehash: f8a49780804449296194d7adb8091f7f0c5748fe
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "75954061"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427815"
 ---
 # <a name="add-hyperlinks-urls-to-a-table-or-matrix"></a>Incorporación de hipervínculos (direcciones URL) a una tabla o matriz
 En este tema se enseña cómo agregar hipervínculos (direcciones URL) a una tabla. Usará Power BI Desktop para agregar hipervínculos (direcciones URL) a un conjunto de datos. Esos hipervínculos se pueden agregar luego a las tablas y matrices de informes de Power BI Desktop o del servicio Power BI. De esta manera, puede mostrar la dirección URL o un icono de vínculo, o dar formato a otra columna como texto de vínculo.
@@ -34,7 +34,7 @@ Puede dar formato a un campo con direcciones URL como hipervínculos en Power BI
     > [!NOTE]
     > No puede crear una columna en modo DirectQuery.  Pero si los datos ya contienen direcciones URL, puede convertirlas en hipervínculos.
 
-2. En la vista Datos, seleccione la columna. 
+2. En la vista Datos o Informe, seleccione la columna. 
 
 3. En la pestaña **Modelado**, seleccione **Categoría de datos** > **Dirección URL web**.
    
@@ -79,13 +79,20 @@ También puede dar formato a otro campo de una tabla como hipervínculo y no ten
 
 1. Si no existe aún un campo con un hipervínculo en el conjunto de datos, use Power BI Desktop para agregarlo como [columna personalizada](desktop-common-query-tasks.md). De nuevo, no puede crear una columna en modo DirectQuery.  Pero si los datos ya contienen direcciones URL, puede convertirlas en hipervínculos.
 
-2. En la vista de informe, cree una tabla o una matriz con la columna a la que va a aplicar formato como texto de vínculo.
+2. En la vista Datos o Informe, seleccione la columna que contiene la dirección URL. 
+
+3. En la pestaña **Modelado**, seleccione **Categoría de datos**. Asegúrese de que la columna tenga el formato **Sin categoría**.
+
+2. En la vista de informe, cree una tabla o una matriz con la columna de dirección URL y la columna a la que va a aplicar formato como texto de vínculo.
 
 3. Con la tabla seleccionada, seleccione el icono de **Formato** ![icono de rodillo de pintura](media/power-bi-hyperlinks-in-tables/power-bi-paintroller.png) para abrir la pestaña Formato.
 
-4. Expanda **Formato condicional** y asegúrese de que el nombre del cuadro sea la columna que quiere como texto de vínculo. Busque el **icono de dirección URL** y **actívelo**.
+4. Expanda **Formato condicional** y asegúrese de que el nombre del cuadro sea la columna que quiere como texto de vínculo. Busque **URL web** y **actívelo**.
 
     ![Dirección URL web de formato condicional](media/power-bi-hyperlinks-in-tables/power-bi-format-conditional-web-url.png)
+
+    > [!NOTE]
+    > Si no ve una opción **URL web**, asegúrese de que la columna que contiene los hipervínculos *no* tenga formato de **URL web** en el cuadro desplegable **Categoría de datos**.
 
 5. En el cuadro de diálogo **Dirección URL web**, seleccione el campo que contiene la dirección URL en el cuadro **Según el campo** > **Aceptar**.
 

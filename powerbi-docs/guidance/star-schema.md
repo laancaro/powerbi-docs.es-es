@@ -8,12 +8,12 @@ ms.subservice: powerbi-desktop
 ms.topic: conceptual
 ms.date: 09/09/2019
 ms.author: v-pemyer
-ms.openlocfilehash: 241789dc6255dd461ef6cc62425b732788d7c63d
-ms.sourcegitcommit: f1f57c5bc6ea3057007ed8636ede50188ed90ce1
+ms.openlocfilehash: 85db7414fc476f2a62368d150e068a71c13d41cb
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "74410838"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527531"
 ---
 # <a name="understand-star-schema-and-the-importance-for-power-bi"></a>Descripción de un esquema de estrella e importancia para Power BI
 
@@ -71,9 +71,10 @@ Es importante comprender que los modelos de Power BI admiten un segundo método 
 
 ![Ejemplo de icono en la lista de campos](media/star-schema/field-list-example.png)
 
-Pero hay dos razones de peso para crear medidas, incluso para resúmenes simples de nivel de columna:
+Pero hay tres razones de peso para crear medidas, incluso para resúmenes simples de nivel de columna:
 
 - Si sabe que los autores del informe van a consultar el modelo mediante [Expresiones multidimensionales (MDX)](https://docs.microsoft.com/sql/analysis-services/multidimensional-models/mdx/mdx-query-the-basic-query?view=sql-server-2017), el modelo debe incluir _medidas explícitas_. Las medidas explícitas se definen mediante DAX. Este enfoque de diseño es muy importante cuando se consulta un conjunto de datos de Power BI mediante MDX, ya que MDX no puede resumir los valores de columna. En particular, se usará MDX al ejecutar [Analizar en Excel](https://docs.microsoft.com/power-bi/service-analyze-in-excel) (las tablas dinámicas emiten consultas MDX).
+- Si sabe que los autores del informe van a crear informes paginados de Power BI mediante el diseñador de consultas MDX, el modelo debe incluir medidas explícitas. Solo el diseñador de consultas MDX admite [agregados de servidor](/sql/reporting-services/report-design/report-builder-functions-aggregate-function). Por tanto, si los autores del informe necesitan que Power BI evalúe las medidas (y no lo haga el motor de informes paginados), tendrán que usar el diseñador de consultas MDX.
 - Si tiene que asegurarse de que los autores del informe solo puedan resumir columnas de maneras concretas. Por ejemplo, la columna de ventas **Precio unitario** del distribuidor (que representa una tarifa por unidad) se puede resumir, pero solo mediante funciones de agregación específicas. Nunca se debe sumar, pero es adecuado resumir mediante otras funciones de agregación (mín., máx., media, etc.). En esta instancia, el modelador puede ocultar la columna **Precio unitario** y crear medidas para todas las funciones de agregación apropiadas.
 
 Tenga en cuenta que este enfoque de diseño funciona bien con los informes creados en el servicio Power BI y con Preguntas y respuestas. Pero las conexiones dinámicas de Power BI Desktop permiten a los autores de informes mostrar los campos ocultos del panel **Campos**, lo que puede dar lugar a la elusión de este enfoque de diseño.
@@ -117,13 +118,13 @@ La teoría de diseño de esquemas de estrella hace referencia a dos tipos de SCD
 
 ### <a name="type-1-scd"></a>SCD de tipo 1
 
-Una **SCD** de **tipo 1** siempre refleja los valores más recientes y, cuando se detectan cambios en los datos de origen, los datos de la tabla de dimensiones simplemente se sobrescriben. Este enfoque de diseño es común para las columnas que almacenan valores auxiliares, como la dirección de correo electrónico o el número de teléfono de un cliente. Cuando cambia la dirección de correo electrónico o el número de teléfono de un cliente, la tabla de dimensiones actualiza la fila del cliente con los nuevos valores. Es como si el cliente tuviera siempre esta información de contacto.
+Una **SCD** de **tipo 1** siempre refleja los valores más recientes y, cuando se detectan cambios en los datos de origen, los datos de la tabla de dimensiones simplemente se sobrescriben. Este enfoque de diseño es común para las columnas que almacenan valores auxiliares, como la dirección de correo electrónico o el número de teléfono de un cliente. Cuando cambia la dirección de correo electrónico o el número de teléfono de un cliente, la tabla de dimensiones actualiza la fila del cliente con los nuevos valores. Es como si el cliente tuviera siempre esta información de contacto.
 
 Una actualización no incremental de una tabla de tipo de dimensiones del modelo de Power BI logra el resultado de una SCD de tipo 1. Actualiza los datos de la tabla para garantizar que se carguen los valores más recientes.
 
 ### <a name="type-2-scd"></a>SCD de tipo 2
 
-Una **SCD** de **tipo 2** admite el control de versiones de los miembros de la dimensión. Si el sistema de origen no almacena versiones, suele ser el proceso de carga de almacenamiento de datos el que detecta los cambios y administra de forma adecuada el cambio en una tabla de dimensiones. En este caso, la tabla de dimensiones debe usar una clave suplente para proporcionar una referencia única a una _versión_ del miembro de la dimensión. También incluye columnas que definen la validez del intervalo de fechas de la versión (por ejemplo, **StartDate** y **EndDate**) y, posiblemente, una columna de marca (por ejemplo, **IsCurrent**) para filtrar fácilmente por miembros de la dimensión actuales.
+Una **SCD** de **tipo 2** admite el control de versiones de los miembros de la dimensión. Si el sistema de origen no almacena versiones, suele ser el proceso de carga de almacenamiento de datos el que detecta los cambios y administra de forma adecuada el cambio en una tabla de dimensiones. En este caso, la tabla de dimensiones debe usar una clave suplente para proporcionar una referencia única a una _versión_ del miembro de la dimensión. También incluye columnas que definen la validez del intervalo de fechas de la versión (por ejemplo, **StartDate** y **EndDate**) y, posiblemente, una columna de marca (por ejemplo, **IsCurrent**) para filtrar fácilmente por miembros de la dimensión actuales.
 
 Por ejemplo, Adventure Works asigna vendedores a una región de ventas. Cuando un vendedor se reasigna a otra región, debe crearse una nueva versión del vendedor para asegurarse de que los hechos históricos sigan asociados a la región anterior. Para admitir un análisis histórico preciso de ventas por vendedor, la tabla de dimensiones debe almacenar versiones de vendedores y sus regiones asociadas. La tabla también debe incluir valores de fecha de inicio y finalización para definir la validez temporal. Las versiones actuales pueden definir una fecha de finalización vacía (o 31/12/9999), lo que indica que la fila es la versión actual. La tabla también debe definir una clave suplente, ya que la clave empresarial (en esta instancia, Id. de empleado) no es única.
 

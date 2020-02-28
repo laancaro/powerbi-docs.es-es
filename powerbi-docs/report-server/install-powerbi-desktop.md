@@ -7,13 +7,13 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-report-server
 ms.topic: conceptual
-ms.date: 10/03/2019
-ms.openlocfilehash: 2a95f8afce2762b82e73741563a29fa22b433d36
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.date: 02/13/2020
+ms.openlocfilehash: ee789274f6581423ed7adebc5b662a732dbeaa7a
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73874113"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426665"
 ---
 # <a name="install-power-bi-desktop-optimized-for-power-bi-report-server"></a>Instalar Power BI Desktop optimizado para el servidor de informes de Power BI
 
@@ -93,11 +93,15 @@ Los informes del servidor de informes de Power BI no admiten estas característi
 * Rutas de navegación
 * Filtrado geográfico o códigos de barras
 
+### <a name="custom-security"></a>Seguridad personalizada
+
+Power BI Desktop optimizado para Power BI Report Server no admite la seguridad personalizada. Si la instancia de Power BI Report Server se configura con una extensión de seguridad personalizada, no puede guardar un informe de Power BI desde Power BI Desktop (optimizado para Power BI Report Server) en la instancia de Power BI Report Server. Tendrá que guardar el archivo de informe .pbix de Power BI Desktop y cargarlo al sitio del portal de Power BI Report Server.
+
 ## <a name="power-bi-desktop-for-earlier-versions-of-power-bi-report-server"></a>Power BI Desktop para versiones anteriores de Power BI Report Server
 
 Si la versión de Power BI Report Server es anterior, se necesita la versión correspondiente de Power BI Desktop. Este es el vínculo para descargar una versión anterior.
 
-- Microsoft Power BI Desktop ([optimizado para Power BI Report Server: enero de 2019](https://go.microsoft.com/fwlink/?linkid=2055039))
+- Microsoft Power BI Desktop ([optimizado para Power BI Report Server: septiembre de 2019](https://go.microsoft.com/fwlink/?linkid=2103723))
 
 ## <a name="next-steps"></a>Pasos siguientes
 

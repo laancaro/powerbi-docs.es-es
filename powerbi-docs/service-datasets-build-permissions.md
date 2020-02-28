@@ -1,26 +1,32 @@
 ---
 title: Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
-description: Obtenga información acerca de cómo puede mantener el control sobre quién tiene acceso a los datos mediante el permiso de compilación.
+description: Obtenga información sobre cómo controlar el acceso a los datos mediante el permiso de compilación.
 author: maggiesMSFT
 ms.reviewer: chbraun
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 10/01/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: b17fa4299d2db84f63f0d8f7ed4c17a0c9c437db
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 48380d40d819ea1af74430546b9548c372bd2091
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73872558"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426619"
 ---
 # <a name="build-permission-for-shared-datasets-preview"></a>Permiso de compilación para conjuntos de datos compartidos (versión preliminar)
 
-Como creador de *modelos de datos* en Power BI Desktop, puede compartirlos como *conjuntos de datos* en el servicio Power BI. Después, los creadores de informes pueden detectar fácilmente y volver a usar los conjuntos de datos que ha compartido. Obtenga información acerca de cómo puede controlar quién tiene acceso a los datos mediante el permiso de compilación.
+Cuando se crea un informe en Power BI Desktop, los datos de ese informe se almacenan en un *modelo de datos*. Al publicar los informes en el servicio Power BI, los datos también se están publicando como un *conjunto de datos*. Puede conceder a otros usuarios *permiso de compilación* en ese informe para que puedan encontrar y volver a usar el conjunto de datos que ha compartido. En este artículo se explica cómo controlar el acceso a los datos mediante el permiso de compilación.
 
-El permiso de compilación solo es pertinente para los conjuntos de datos. Al conceder permiso de compilación a los usuarios, estos pueden crear contenido en un conjunto de datos, como informes, paneles, iconos anclados de Preguntas y respuestas y detección de información. También pueden crear contenido en el conjunto de datos fuera de Power BI, como hojas de Excel a través de Analizar en Excel, XMLA y la exportación de datos subyacentes.
+El permiso de compilación se usa en los conjuntos de valores. Al conceder permiso de compilación a los usuarios, estos pueden crear contenido en un conjunto de datos, como informes, paneles, iconos anclados de Preguntas y respuestas y detección de información. 
+
+Los usuarios también necesitan el permiso de compilación para trabajar con los datos *fuera de* Power BI:
+
+- Para exportar los datos subyacentes
+- Para generar contenido nuevo en el conjunto de datos, como, por ejemplo, con la opción [Analizar en Excel](service-analyze-in-excel.md)
+- Para acceder a los datos a través del punto de conexión XMLA
 
 ## <a name="ways-to-give-build-permission"></a>Formas de conceder el permiso de compilación
 

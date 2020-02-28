@@ -7,23 +7,28 @@ featuredvideoid: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Consumer
-ms.openlocfilehash: da941de8b44f3833a5f80bba648f4a185f35b36e
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: 59ba4d0e62613ed25569efd0602815e3d98aec4d
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "73852034"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496511"
 ---
 # <a name="add-comments-to-a-dashboard-or-report"></a>Adición de comentarios en un panel o informe
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
 Agregue un comentario personal o empiece una conversación sobre un panel o informe con sus compañeros. La característica **Comentarios** es solo una de las formas que tiene un *consumidor* de colaborar con otros. 
 
 ![vídeo sobre los comentarios](media/end-user-comment/comment.gif)
+
+> [!NOTE]
+> La colaboración con otros usuarios, incluido agregar comentarios a los informes compartidos, requiere una licencia de Power BI Pro o Premium. [¿Qué licencia tengo?](end-user-license.md)
 
 ## <a name="how-to-use-the-comments-feature"></a>Cómo usar la característica Comentarios
 Se pueden agregar comentarios a un panel completo, a objetos visuales individuales en un panel, a una página de informe, a un informe paginado y a objetos visuales individuales en una página de informe. Agregue un comentario general o un comentario dirigido a compañeros específicos.  
@@ -34,7 +39,7 @@ Al agregar un comentario en un informe, Power BI captura los valores actuales d
 
 ¿Por qué esto es importante? Supongamos que un compañero ha aplicado un filtro que revela información interesante que quiere compartir con el equipo. Sin ese filtro seleccionado, es posible que el comentario no tenga sentido.
 
-Si está usando un informe paginado, solo puede dejar un comentario general sobre el informe.  No se permite dejar comentarios sobre objetos visuales de informes individuales.
+Si está usando un informe paginado, solo puede dejar un comentario general sobre el informe.  No se permite dejar comentarios en objetos visuales de informes paginados individuales.
 
 ### <a name="add-a-general-comment-to-a-dashboard-or-report"></a>Adición de un comentario general en un panel o informe
 El proceso para agregar comentarios en un panel o informe es similar.  En este ejemplo, usaremos un panel. 

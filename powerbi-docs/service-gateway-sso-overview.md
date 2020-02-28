@@ -9,16 +9,16 @@ ms.subservice: powerbi-gateways
 ms.topic: conceptual
 ms.date: 10/10/2019
 LocalizationGroup: Gateways
-ms.openlocfilehash: bfa4534b625a965226dfced17403a7e2da7a7f84
-ms.sourcegitcommit: 6272c4a0f267708ca7d38a45774f3bedd680f2d6
+ms.openlocfilehash: b5ef7e99edbf862891811047ea5f1f961aaea348
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/06/2020
-ms.locfileid: "74699208"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527600"
 ---
 # <a name="overview-of-single-sign-on-sso-for-gateways-in-power-bi"></a>Introducción al inicio de sesión único (SSO) para puertas de enlace de Power BI
 
-Puede lograr una conectividad de inicio de sesión único perfecta si habilita la actualización en tiempo real de los informes y paneles de Power BI a partir de los datos locales, mediante la configuración de la puerta de enlace de datos local. Puede configurar la puerta de enlace con delegación restringida de [Kerberos](service-gateway-sso-kerberos.md) o con Lenguaje de marcado de aserción de seguridad ([SAML](service-gateway-sso-saml.md)). La puerta de enlace de datos local admite el inicio de sesión único mediante [DirectQuery](desktop-directquery-about.md), que se conecta a los orígenes de datos locales.
+Puede lograr una conectividad de inicio de sesión único perfecta si habilita la actualización en tiempo real de los informes y paneles de Power BI a partir de los datos locales, mediante la configuración de la puerta de enlace de datos local. Puede configurar la puerta de enlace con delegación restringida de [Kerberos](service-gateway-sso-kerberos.md) o con Lenguaje de marcado de aserción de seguridad ([SAML](service-gateway-sso-saml.md)). La puerta de enlace de datos local admite el inicio de sesión único mediante [DirectQuery](desktop-directquery-about.md) o para actualizar, lo que conecta a los orígenes de datos locales. 
 
 Power BI admite los siguientes orígenes de datos:
 
@@ -33,7 +33,9 @@ Power BI admite los siguientes orígenes de datos:
 
 En la actualidad no se admite el inicio de sesión único para [extensiones de M](https://github.com/microsoft/DataConnectors/blob/master/docs/m-extensions.md).
 
-Cuando un usuario interactúa con un informe de DirectQuery en el servicio Power BI, cada operación de filtro cruzado, división, ordenación y edición de informes puede dar lugar a consultas que se ejecutan en vivo en el origen de datos local subyacente. Cuando se configura el inicio de sesión único para el origen de datos, las consultas se ejecutan bajo la identidad del usuario que interactúa con Power BI (es decir, a través de la experiencia web o las aplicaciones móviles de Power BI). Por lo tanto, cada usuario ve exactamente los datos para los que tiene permiso en el origen de datos subyacente. Con el inicio de sesión único configurado, no hay ningún almacenamiento en caché de datos compartido entre distintos usuarios.
+Cuando un usuario interactúa con un informe de DirectQuery en el servicio Power BI, cada operación de filtro cruzado, división, ordenación y edición de informes puede dar lugar a consultas que se ejecutan en vivo en el origen de datos local subyacente. Cuando se configura el inicio de sesión único para el origen de datos, las consultas se ejecutan bajo la identidad del usuario que interactúa con Power BI (es decir, a través de la experiencia web o las aplicaciones móviles de Power BI). Por lo tanto, cada usuario ve exactamente los datos para los que tiene permiso en el origen de datos subyacente. 
+
+También puede configurar un informe definido para actualización en el servicio Power BI para que use SSO. Al configurar SSO para este origen de datos, las consultas se ejecutan bajo la identidad del propietario del conjunto de datos en Power BI, de modo que la actualización se produce en función de los permisos del propietario del conjunto de datos en el origen de datos subyacente. Actualmente, la actualización mediante SSO está habilitada solo en los orígenes de datos que usan la delegación restringida de [Kerberos](service-gateway-sso-kerberos.md). 
 
 ## <a name="query-steps-when-running-sso"></a>Pasos de consulta cuando se ejecuta SSO
 

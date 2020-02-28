@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/16/2020
+ms.date: 02/14/2020
 ms.author: davidi
 LocalizationGroup: Transform and shape data
-ms.openlocfilehash: d8db626300902125cf3536f03ed111ef3e052324
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: b7ff14b4932ba77b47fdb603124d29858c622fc7
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "76538770"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427674"
 ---
 # <a name="use-aggregations-in-power-bi-desktop"></a>Uso de agregaciones en Power BI Desktop
 
@@ -75,7 +75,7 @@ La mayoría de las validaciones se aplican al deshabilitar los valores de la lis
 
 ### <a name="aggregation-tables-are-hidden"></a>Tablas de agregación ocultas
 
-Los usuarios con acceso de solo lectura al conjunto de datos no pueden consultar las tablas de agregación. Esto evita problemas de seguridad cuando se usan con *seguridad de nivel de fila (RLS)*. Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación, y no necesitan saber que dicha tabla de agregación existe.
+Los usuarios con acceso de solo lectura al conjunto de datos no pueden consultar las tablas de agregación. Esto evita problemas de seguridad cuando se usan con *seguridad de nivel de fila (RLS)* . Los consumidores y las consultas hacen referencia a la tabla de detalles, no a la tabla de agregación, y no necesitan saber que dicha tabla de agregación existe.
 
 Por este motivo, las tablas de agregación están ocultas en la vista **Informes**. Si la tabla no está oculta, el cuadro de diálogo **Administrar agregaciones** la establecerá como oculta al seleccionar **Aplicar todo**.
 
@@ -185,6 +185,10 @@ La función AVERAGE puede beneficiarse de las agregaciones. La siguiente consult
 En algunos casos, la función DISTINCTCOUNT puede beneficiarse de las agregaciones. La siguiente consulta alcanza la agregación porque hay una entrada de GroupBy para **CustomerKey**, que mantiene la diferenciación de **CustomerKey** en la tabla de agregación. Esta técnica todavía podría alcanzar el umbral de rendimiento donde más de entre dos y cinco millones de valores distintos pueden afectar al rendimiento de las consultas. A pesar de ello, puede ser útil en escenarios donde hay miles de millones de filas en la tabla de detalles, pero entre dos y cinco millones de valores distintos en la columna. En este caso, DISTINCTCOUNT puede realizarse más rápido que si se examina la tabla con miles de millones de filas, aunque se hayan almacenado en caché en memoria.
 
 ![Consulta de agregación DISTINCTCOUNT](media/desktop-aggregations/aggregations-code_07.jpg)
+
+Las funciones de inteligencia de tiempo de DAX reconocen las agregaciones. La siguiente consulta encuentra la agregación porque la función DATESYTD genera una tabla de valores de **CalendarDay** y la tabla de agregación se encuentra en una granularidad cubierta para las columnas de agrupación de la tabla **Date**. Este es un ejemplo de un filtro con valores de tabla en la función CALCULATE, que puede funcionar con agregaciones.
+
+![Consulta de agregación SUMMARIZECOLUMNS](media/desktop-aggregations/aggregations-code-07b.jpg)
 
 ## <a name="aggregation-based-on-groupby-columns"></a>Agregación basada en columnas GroupBy 
 

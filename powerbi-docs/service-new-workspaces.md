@@ -6,15 +6,15 @@ ms.reviewer: lukaszp
 ms.service: powerbi
 ms.subservice: powerbi-service
 ms.topic: conceptual
-ms.date: 11/27/2019
+ms.date: 02/12/2020
 ms.author: maggies
 LocalizationGroup: Share your work
-ms.openlocfilehash: 6337c4c5e3098d56e869b8ce71117da2413802e6
-ms.sourcegitcommit: 052df769e6ace7b9848493cde9f618d6a2ae7df9
+ms.openlocfilehash: 976d53a5a74bc077d3d4642ccec336b1225344ae
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "75925667"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77426573"
 ---
 # <a name="organize-work-in-the-new-workspaces-in-power-bi"></a>Organización del trabajo en las nuevas áreas de trabajo en Power BI
 
@@ -68,15 +68,16 @@ Estas son las funciones de los cuatro roles: administradores, miembros, colabora
 | Agregar o quitar usuarios, incluidos otros administradores.  | X  |   |   |   |
 | Agregar miembros u otros usuarios con permisos inferiores.  |  X | X  |   |   |
 | Publicar y actualizar una aplicación. |  X | X  |   |   |
-| Compartir un elemento o compartir una aplicación. |  X | X  |   |   |
-| Permitir que otros usuarios vuelvan a compartir elementos. |  X | X  |   |   |
+| Compartir un elemento o una aplicación.<sup>1</sup> |  X | X  |   |   |
+| Permitir que otros usuarios vuelvan a compartir elementos.<sup>1</sup> |  X | X  |   |   |
 | Crear, editar y eliminar contenido en el área de trabajo.  |  X | X  | X  |   |
 | Publicar informes en el área de trabajo, eliminar contenido.  |  X | X  | X  |   |
 | Crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo<sup>1</sup>. |  X | X  | X  |   |
-| Copiar un informe<sup>1</sup>. | X | X | X |  |
-| Ver un elemento e interactuar con él<sup>2</sup>. |  X | X  | X  | X  |
+| Copiar un informe.<sup>2</sup> | X | X | X |  |
+| Ver un elemento e interactuar con él.<sup>3</sup> |  X | X  | X  | X  |
 
-1. Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, debe cumplir criterios adicionales:
+1. Los usuarios con los roles Colaborador y Visor pueden compartir elementos en un área de trabajo si tienen permisos para volver a compartir.
+2. Para copiar un informe y crear un informe en otra área de trabajo en función de un conjunto de datos de esta área de trabajo, debe cumplir criterios adicionales:
     - Necesita una licencia de Power BI Pro. Vea la sección siguiente sobre [licencias](#licensing) para obtener más información.
     - Necesita permiso de compilación para el conjunto de datos. Para los conjuntos de datos de esta área de trabajo, las usuarios con los roles de Administrador, Miembro y Colaborador tienen permiso de compilación a través de su rol de área de trabajo.
 2. Incluso aunque no tenga una licencia de Power BI Pro, puede ver los elementos e interactuar con ellos en el servicio Power BI si los elementos están en un área de trabajo de una capacidad Premium.

@@ -1,18 +1,18 @@
 ---
 title: 'Creación de un informe paginado con un conjunto de datos compartido de Power BI: Power BI Report Builder'
 description: Cree un informe paginado de Power BI Report Builder basado en un conjunto de datos compartido de Power BI.
-ms.date: 01/03/2020
+ms.date: 02/12/2020
 ms.service: powerbi
 ms.subservice: report-builder
 ms.topic: conceptual
 author: maggiesMSFT
 ms.author: maggies
-ms.openlocfilehash: 335b93720718bb72027c29c6093aad952cc4cdb2
-ms.sourcegitcommit: b09de56e971b8844a3771413d1f56d49b31baaaf
+ms.openlocfilehash: 4a46f0aae642b42cd797940e0b0991cfa77a077e
+ms.sourcegitcommit: d6a48e6f6e3449820b5ca03638b11c55f4e9319c
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "75691463"
+ms.lasthandoff: 02/18/2020
+ms.locfileid: "77427858"
 ---
 # <a name="create-a-paginated-report-based-on-a-power-bi-shared-dataset"></a>Creación de un informe paginado basado en un conjunto de datos compartido de Power BI
 
@@ -27,6 +27,7 @@ No es necesario que el conjunto de datos esté en un área de trabajo de una cap
 Esta es una lista de lo que necesita y no necesita para usar un conjunto de datos compartido en el Generador de informes de Power BI.
 
 - Generador de informes de Power BI. [Descargue e instale el Generador de informes de Power BI](https://go.microsoft.com/fwlink/?linkid=2086513).
+- Power BI Desktop. [Descargue e instale Power BI Desktop](https://powerbi.microsoft.com/desktop/).
 - Para acceder a un conjunto de datos de Power BI, debe tener el permiso de compilación para el conjunto de datos. Más información sobre el [permiso de compilación](service-datasets-build-permissions.md).
 - No necesita una licencia de Power BI Pro para crear un informe paginado en el Generador de informes. 
 - Para publicar el informe paginado, necesita una licencia de Power BI Pro. También necesita al menos un rol de colaborador para un área de trabajo en una capacidad Premium. 
@@ -57,12 +58,26 @@ Esta es una lista de lo que necesita y no necesita para usar un conjunto de dato
     Recuerde que se puede conectar a varios conjuntos de datos de Power BI y otros orígenes de datos en el mismo informe paginado.
 
 
-## <a name="get-the-query-for-the-dataset"></a>Obtención de la consulta para el conjunto de datos
+## <a name="get-the-dax-query-for-the-dataset"></a>Obtención de una consulta DAX para el conjunto de datos
 
 Si quiere que los datos del informe de Power BI y del informe de Generador de informes sean los mismos, no basta con conectarse al conjunto de datos. También necesita la consulta que se basa en ese conjunto de datos.
 
+### <a name="video-get-the-dax-query"></a>Vídeo: Obtener la consulta DAX
+
+En el siguiente vídeo, Chris Finlan explica cómo obtener la consulta DAX que necesita para el informe paginado.
+
+<iframe width="400" height="450" src="https://www.youtube.com/embed/NfoOK4QRkhI" frameborder="0" allowfullscreen></iframe>
+
+### <a name="steps-to-get-the-dax-query"></a>Pasos para obtener la consulta DAX
+
+Estos son los pasos para obtener la consulta.
+
 1. Abra el informe de Power BI (.pbix) en Power BI Desktop.
-1. Asegúrese de que tiene una tabla en el informe que contenga todos los datos que quiere en el informe paginado.
+1. Asegúrese de que tiene una tabla en el informe que contenga todos los datos que quiere en el informe paginado. La tabla debe cumplir estos dos requisitos:
+    - Debe ser una tabla plana, no una matriz ni ningún otro objeto visual. Si no es una tabla, conviértala en una tabla ahora, siga los pasos del Analizador de rendimiento que se indican a continuación y, tras ello, vuelva a convertirla en el objeto visual que quiera.
+    - Con los campos numéricos, debe usar *medidas predefinidas*. Verá un símbolo de calculadora junto a ellos. Obtenga información sobre cómo [crear medidas](desktop-measures.md). 
+
+        ![Icono de medida](media/report-builder-shared-datasets/power-bi-measure-icon.png)
 
 1. En la cinta **Vista**, seleccione **Analizador de rendimiento**.
 
@@ -204,6 +219,7 @@ Por ejemplo, imagine que el informe tiene un formato de 8,5 x 11 pulgadas y que
 
 - Para los conjuntos de datos que usan una conexión dinámica con Analysis Services, puede conectarse directamente mediante la conexión subyacente de Analysis Services en lugar de un conjunto de datos compartido.
 - Los conjuntos de datos con la promoción Promocionado o Certificado aparecen en la lista de conjuntos de datos disponibles, pero no se marcan como tales. 
+- En el escenario de "aplicación propietaria de los datos" no se pueden insertar informes paginados basados en conjuntos de datos compartidos de Power BI.
 
 ## <a name="next-steps"></a>Pasos siguientes
 

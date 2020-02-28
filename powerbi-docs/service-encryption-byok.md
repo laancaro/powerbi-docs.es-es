@@ -1,5 +1,5 @@
 ---
-title: Traiga sus propias claves de cifrado para Power BI (versión preliminar)
+title: Sus propias claves de cifrado para Power BI
 description: Aprenda a usar sus propias claves de cifrado en Power BI Premium.
 author: davidiseminger
 ms.author: davidi
@@ -7,22 +7,22 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-admin
 ms.topic: conceptual
-ms.date: 01/08/2020
+ms.date: 02/20/2020
 LocalizationGroup: Premium
-ms.openlocfilehash: c4b4d706f56d9ebc91b17194c9b2fa631aeb8497
-ms.sourcegitcommit: 8e3d53cf971853c32eff4531d2d3cdb725a199af
+ms.openlocfilehash: 133d807d26ba6571eeb614852f3f651a749a369f
+ms.sourcegitcommit: b22a9a43f61ed7fc0ced1924eec71b2534ac63f3
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "75762126"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "77527780"
 ---
-# <a name="bring-your-own-encryption-keys-for-power-bi-preview"></a>Traiga sus propias claves de cifrado para Power BI (versión preliminar)
+# <a name="bring-your-own-encryption-keys-for-power-bi"></a>Sus propias claves de cifrado para Power BI
 
 Power BI cifra los datos _en reposo_ y _en proceso_. De forma predeterminada, Power BI usa claves administradas por Microsoft para cifrar los datos. En Power BI Premium también puede usar sus propias claves para datos en reposo que se importan en un conjunto de datos (consulte [Consideraciones sobre el origen de datos y el almacenamiento](#data-source-and-storage-considerations) para más información). Este enfoque suele describirse como _Bring Your Own Key_ (BYOK).
 
 ## <a name="why-use-byok"></a>¿Por qué usar BYOK?
 
-BYOK permite satisfacer más fácilmente los requisitos de cumplimiento que especifican las condiciones de las claves con el proveedor de servicios en la nube (en este caso de Microsoft). Con BYOK, puede proporcionar y controlar las claves de cifrado para los datos en reposo de Power BI en el nivel de aplicación. Como resultado, puede ejercer el control y revocar las claves de la organización si decide dejar el servicio. Al revocar las claves, los datos son ilegibles para el servicio.
+BYOK permite satisfacer más fácilmente los requisitos de cumplimiento que especifican las condiciones de las claves con el proveedor de servicios en la nube (en este caso de Microsoft). Con BYOK, puede proporcionar y controlar las claves de cifrado para los datos en reposo de Power BI en el nivel de aplicación. Como resultado, puede ejercer el control y revocar las claves de la organización si decide dejar el servicio. Al revocar las claves, los datos son ilegibles para el servicio en 30 minutos.
 
 ## <a name="data-source-and-storage-considerations"></a>Consideraciones sobre el origen de datos y el almacenamiento
 
@@ -34,7 +34,12 @@ Para usar BYOK, debe cargar los datos en el servicio Power BI desde un archivo 
 - [Conjuntos de datos de streaming](service-real-time-streaming.md#set-up-your-real-time-streaming-dataset-in-power-bi)
 - [Modelos grandes](service-premium-large-models.md)
 
-BYOK solo se aplica al conjunto de datos asociado al archivo PBIX, no a las memorias caché de resultados de consultas de iconos y objetos visuales.
+BYOK solo se puede usar con conjuntos de datos. Los conjuntos de datos de inserción, los archivos de Excel y los archivos CSV que los usuarios pueden cargar en el servicio no se cifran con su clave personal propia. Para identificar los artefactos que se almacenan en las áreas de trabajo, use el siguiente comando de PowerShell:
+
+```PS C:\> Get-PowerBIWorkspace -Scope Organization -Include All```
+
+> [!NOTE]
+> Este cmdlet requiere el módulo de administración de Power BI versión 1.0.840. Para saber qué versión tiene, ejecute Get-InstalledModule-Name MicrosoftPowerBIMgmt. Instale la versión más reciente ejecutando install-module-name MicrosoftPowerBIMgmt. Puede obtener más información sobre el cmdlet de Power BI y sus parámetros en [Módulo de cmdlets de PowerShell de Power BI](https://docs.microsoft.com/powershell/power-bi/overview).
 
 ## <a name="configure-azure-key-vault"></a>Configuración de Azure Key Vault
 
@@ -64,7 +69,7 @@ Las instrucciones de esta sección presuponen un conocimiento básico de Azure K
 
     ![Componentes del archivo PBIX](media/service-encryption-byok/service-principal.png)
 
-1. Seleccione **Aceptar** y, a continuación, seleccione **Guardar**.
+1. Seleccione **Aceptar** y **Guardar**.
 
 > [!NOTE]
 > Para revocar el acceso de Power BI a los datos en el futuro, quite los derechos de acceso a esta entidad de servicio de Azure Key Vault.
@@ -183,3 +188,17 @@ Power BI proporciona cmdlets adicionales para ayudar a administrar BYOK en el i
     ```powershell
     Switch-PowerBIEncryptionKey -Name'Contoso Sales' -KeyVaultKeyUri'https://contoso-vault2.vault.azure.net/keys/ContosoKeyVault/b2ab4ba1c7b341eea5ecaaa2wb54c4d2'
     ```
+
+
+
+## <a name="next-steps"></a>Pasos siguientes
+
+* [Módulo de cmdlets de PowerShell de Power BI](https://docs.microsoft.com/powershell/power-bi/overview) 
+
+* [Formas de compartir el trabajo en Power BI](service-how-to-collaborate-distribute-dashboards-reports.md)
+
+* [Filtro de un informe con parámetros de cadena de consulta en la URL](service-url-filters.md)
+
+* [Insertar el elemento web de informes en SharePoint Online](service-embed-report-spo.md)
+
+* [Publicar en la web de Power BI](service-publish-to-web.md)

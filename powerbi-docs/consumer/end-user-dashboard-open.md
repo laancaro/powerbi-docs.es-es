@@ -1,22 +1,24 @@
 ---
 title: Visualización de un panel de Power BI
-description: Los paneles son una característica clave del servicio Power BI, obtenga información sobre cómo abrir y ver un panel.
+description: Los paneles son una característica clave del servicio Power BI. Obtenga información sobre cómo abrir y ver un panel.
 author: mihart
 ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-consumer
 ms.topic: conceptual
-ms.date: 09/18/2019
+ms.date: 02/18/2020
 ms.author: mihart
 LocalizationGroup: Dashboards
-ms.openlocfilehash: f250d380fc8938f7b5d7723b5b8becb65f27d79d
-ms.sourcegitcommit: 64c860fcbf2969bf089cec358331a1fc1e0d39a8
+ms.openlocfilehash: 64809b2542cbe64951dc2f8fae12b13b8f6bc79e
+ms.sourcegitcommit: f9909731ff5b6b69cdc58e9abf2025b7dee0e536
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "73852602"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "77496291"
 ---
 # <a name="view-a-dashboard"></a>Visualización de un panel
+
+[!INCLUDE[consumer-appliesto-ynny](../includes/consumer-appliesto-ynny.md)]
 
 [!INCLUDE [power-bi-service-new-look-include](../includes/power-bi-service-new-look-include.md)]
 
@@ -25,7 +27,7 @@ Los *consumidores* de Power BI dedican mucho tiempo a ver paneles. Los paneles e
 ![panel](media/end-user-dashboard-open/power-bi-new-dash-new.png)
 
 
-Power BI Pro es necesario tanto para compartir un panel como para ver un panel compartido.
+Se necesita una licencia de Power BI Pro o Premium tanto para compartir un panel como para ver un panel compartido. [¿Qué licencia tengo?](end-user-license.md) 
 
 ## <a name="open-a-dashboard"></a>Abrir un panel
 
@@ -33,7 +35,7 @@ Power BI Pro es necesario tanto para compartir un panel como para ver un panel c
 
 |              |         |
 |------------|--------------------------------|
-|![icono de panel](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Los paneles se pueden abrir desde varias ubicaciones del servicio Power BI. <br> Solo tiene que buscar este icono del panel. Una vez que haya identificado un <br>panel, podrá abrirlo de forma sencilla: al seleccionarlo, el panel rellena <br>el lienzo de Power BI. |
+|![icono de panel](media/end-user-dashboard-open/power-bi-dashboard-icon.png)      |Los paneles se pueden abrir desde varias ubicaciones del servicio Power BI. <br> Solo tiene que buscar este icono del panel. Una vez que haya identificado un <br>panel, abrirlo es sencillo: solo tiene que seleccionarlo y el panel ocupará la totalidad del lienzo de Power BI. |
 |                    |          |
 
 
@@ -52,5 +54,5 @@ Puede encontrar paneles en todos los contenedores del panel de navegación.
 
 
 ## <a name="next-steps"></a>Pasos siguientes
-* Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](../sample-tutorial-connect-to-the-samples.md).
+* Familiarícese con los paneles viendo uno de nuestros [paneles de ejemplo](../sample-tutorial-connect-to-the-samples.md).    
 * Obtenga información acerca de los [iconos de panel](end-user-tiles.md) y lo que ocurre al seleccionar uno.
