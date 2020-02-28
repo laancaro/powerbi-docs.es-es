@@ -23,17 +23,17 @@ Con *Power BI Desktop*, cuando se conecta al origen de datos, siempre es posibl
 Para obtener una lista completa de los orígenes de datos que admiten DirectQuery, consulte [Orígenes de datos compatibles con DirectQuery](power-bi-data-sources.md).
 
 ## <a name="how-to-connect-using-directquery"></a>Cómo conectarse con DirectQuery
-Si usa **Obtener datos** para conectarse a un origen de datos compatible con DirectQuery, el cuadro de diálogo de conexión le permite seleccionar cómo quiere conectarse. Por ejemplo, en Power BI Desktop, en la cinta **Inicio**, seleccione **Obtener datos** > **SQL Server**. En el cuadro de diálogo **Base de datos de SQL Server**, el **modo de conectividad de datos** muestra opciones de **Importación** y **DirectQuery**:
+Si usa **Obtener datos** para conectarse a un origen de datos compatible con DirectQuery, el cuadro de diálogo de conexión le permite seleccionar cómo quiere conectarse. Por ejemplo, en Power BI Desktop, en la cinta **Inicio**, seleccione **Obtener datos** > **SQL Server**. En el cuadro de diálogo **Base de datos de SQL Server**, el **Modo Conectividad de datos** muestra opciones **Importación** y **DirectQuery**:
 
-![Opciones de importación y DirectQuery, cuadro de diálogo Base de datos de SQL Server, Power BI Desktop](media/desktop-use-directquery/directquery_sqlserverdb.png)
+![Opciones Importar y DirectQuery, cuadro de diálogo Base de datos de SQL Server, Power BI Desktop](media/desktop-use-directquery/directquery_sqlserverdb.png)
 
-Estas son las diferencias entre usar **Importación** y **DirectQuery**:
+Estas son las diferencias entre usar **Importar** y **DirectQuery**:
 
-- **Importación**: Las tablas y columnas seleccionadas se importan en Power BI Desktop. A medida que crea una visualización o interactúa con ella, Power BI Desktop usa los datos importados. Para ver los cambios de datos subyacentes desde la importación inicial o la actualización más reciente, debe actualizar los datos, lo que importa de nuevo el conjunto de datos completo.
+- **Importación**: las tablas y columnas seleccionadas se importan en Power BI Desktop. A medida que crea una visualización o interactúa con ella, Power BI Desktop usa los datos importados. Para ver los cambios de datos subyacentes desde la importación inicial o la actualización más reciente, debe actualizar los datos, lo que importa de nuevo el conjunto de datos completo.
 
 - **DirectQuery**: no se importan ni copian datos en Power BI Desktop. En el caso de los orígenes relacionales, las tablas y columnas seleccionadas aparecen en la lista **Campos**. En el caso de los orígenes multidimensionales como SAP Business Warehouse, las dimensiones y medidas del cubo seleccionado aparecen en la lista **Campos**. Mientras crea o interactúa con una visualización, Power BI Desktop consulta el origen de datos subyacente, lo que significa que siempre está viendo los datos actuales.
 
-Existen muchas transformaciones de datos y modelado de datos disponibles al usar DirectQuery, aunque con algunas limitaciones. Al crear o interactuar con una visualización, debe consultar el origen subyacente. El tiempo necesario para actualizar el objeto visual depende del rendimiento del origen de datos subyacente. Si los datos necesarios para atender la solicitud se solicitaron recientemente, Power BI Desktop usa datos recientes para reducir el tiempo necesario para mostrar la visualización. Si selecciona**Actualizar** desde la cinta **Inicio**, se asegurará de que todas las visualizaciones se actualicen con los datos actuales.
+Existen muchas transformaciones de datos y modelado de datos disponibles al usar DirectQuery, aunque con algunas limitaciones. Al crear o interactuar con una visualización, debe consultar el origen subyacente. El tiempo necesario para actualizar el objeto visual depende del rendimiento del origen de datos subyacente. Si los datos necesarios para atender la solicitud se solicitaron recientemente, Power BI Desktop usa datos recientes para reducir el tiempo necesario para mostrar la visualización. Si selecciona**Actualizar** en la cinta **Inicio**, se asegurará de que todas las visualizaciones se actualicen con los datos actuales.
 
 En el artículo [Power BI y DirectQuery](desktop-directquery-about.md) se describe DirectQuery detalladamente. Para obtener más información sobre las ventajas, limitaciones y consideraciones importantes al utilizar DirectQuery, consulte las siguientes secciones.
 
@@ -42,7 +42,7 @@ El uso de DirectQuery ofrece varias ventajas:
 
 - DirectQuery permite crear visualizaciones en conjuntos de datos muy grandes, en los que de otro modo sería imposible importar primero todos los datos con agregación previa.
 - Los cambios en los datos subyacentes pueden requerir una actualización de datos. Para algunos informes, la necesidad de mostrar los datos actuales puede requerir grandes transferencias de datos, de modo que sería inviable volver a importar datos. Por el contrario, los informes de DirectQuery siempre usan los datos actuales.
-- La limitación del conjunto de datos a 1 GB *no* se aplica a DirectQuery.
+- La limitación del conjunto de datos a 1 GB *no* se aplica a DirectQuery.
 
 ## <a name="limitations-of-directquery"></a>Limitaciones de DirectQuery
 Actualmente, existen algunas limitaciones en el uso de DirectQuery:
@@ -55,16 +55,16 @@ Actualmente, existen algunas limitaciones en el uso de DirectQuery:
 
 - Hay un límite de 1 millón de filas para devolver datos cuando se usa DirectQuery, a menos que se utilice una capacidad premium. El límite no afecta a las agregaciones o cálculos utilizados para crear el conjunto de datos devuelto mediante DirectQuery. Solo afecta a las filas devueltas. Las capacidades premium pueden establecer límites máximos de filas, tal y como se describe en [esta publicación](https://powerbi.microsoft.com/blog/five-new-power-bi-premium-capacity-settings-is-available-on-the-portal-preloaded-with-default-values-admin-can-review-and-override-the-defaults-with-their-preference-to-better-fence-their-capacity/). 
 
-    Por ejemplo, puede agregar 10 millones de filas a la consulta que se ejecuta en el origen de datos. La consulta devuelve con precisión los resultados de esa agregación a Power BI mediante DirectQuery si el número de filas de datos de Power BI devueltos es inferior a un millón. Si se devuelve más de 1 millón filas desde DirectQuery, Power BI devuelve un error (a menos que esté en la capacidad premium y el recuento de filas esté por debajo del límite del conjunto de administradores).
+    Por ejemplo, puede agregar 10 millones de filas a la consulta que se ejecuta en el origen de datos. La consulta devuelve con precisión los resultados de esa agregación a Power BI mediante DirectQuery si el número de filas de datos de Power BI devueltos es inferior a un millón. Si se devuelve más de 1 millón filas desde DirectQuery, Power BI devuelve un error (a menos que esté en la capacidad premium y el recuento de filas esté por debajo del límite del conjunto de administradores).
 
 ## <a name="important-considerations-when-using-directquery"></a>Consideraciones importantes al utilizar DirectQuery
 Deben tenerse en cuenta los tres puntos siguientes al usar DirectQuery:
 
 - **Carga y rendimiento**: todas las solicitudes de DirectQuery se envían a la base de datos de origen, por lo que el tiempo necesario para actualizar un objeto visual depende de cuánto tiempo tarda ese origen de back-end en responder con los resultados de la consulta (o consultas). El tiempo de respuesta recomendado (con la devolución de los datos solicitados) para usar DirectQuery con objetos visuales es de cinco segundos o menos; el tiempo de respuesta máximo recomendado es de 30 segundos, y nada más. Así, la experiencia de un usuario que utiliza el informe acaba por ser demasiado mala. Después de que se publique un informe en el servicio Power BI, se agotará el tiempo de espera de cualquier consulta que tarde más de unos minutos y el usuario recibirá un error.
   
-    También se debe tener en cuenta la carga en la base de datos de origen, en función del número de usuarios de Power BI que utilizarán el informe publicado. El uso de **Seguridad de nivel de fila** (RLS) también puede tener un impacto significativo. Un icono del panel no RLS compartido por varios usuarios da como resultado una sola consulta a la base de datos. Aunque el uso de RLS en un icono de panel, normalmente significa que la actualización de un icono requiere una consulta *por usuario*, lo que aumenta significativamente la carga en la base de datos de origen y puede afectar al rendimiento.
+    También se debe tener en cuenta la carga en la base de datos de origen, en función del número de usuarios de Power BI que utilizarán el informe publicado. El uso de **Seguridad de nivel de fila** (RLS) también puede tener un impacto significativo. Un icono del panel no RLS compartido por varios usuarios da como resultado una sola consulta a la base de datos. Aunque el uso de RLS en un icono del panel, normalmente significa que la actualización de un icono requiere una consulta *por usuario*, lo que aumenta significativamente la carga en la base de datos de origen y puede afectar al rendimiento.
   
-    Power BI crea consultas que son tan eficaces como sea posible. Aunque, en determinadas situaciones, la consulta generada puede no ser lo suficientemente eficiente para evitar una actualización en la que se produciría un error. Un ejemplo de esta situación se produce cuando una consulta generada recupera un número excesivamente grande de filas desde el origen de datos back-end. En este caso, se produce el siguiente error:
+    Power BI crea consultas que son tan eficaces como sea posible. Aunque, en determinadas situaciones, la consulta generada puede no ser lo suficientemente eficiente para evitar una actualización en la que se produciría un error. Un ejemplo de esta situación se produce cuando una consulta generada recupera un número excesivamente grande de filas desde el origen de datos de back-end. En este caso, se produce el siguiente error:
 
     ```output
     The resultset of a query to external data source has exceeded
@@ -72,7 +72,7 @@ Deben tenerse en cuenta los tres puntos siguientes al usar DirectQuery:
   
     Esta situación puede producirse con un gráfico simple que incluye una columna de cardinalidad muy alta, con la opción de agregación establecida en **No resumir**. El objeto visual solo ha de tener columnas de cardinalidad inferior a un millón o se deben aplicar los filtros adecuados.
 
-- **Seguridad**: de forma predeterminada, todos los usuarios que utilizan un informe publicado se conectan al origen de datos de back-end con las credenciales indicadas después de la publicación en el servicio Power BI. Este proceso es el mismo para que los datos que se importan: todos los usuarios ven los mismos datos, independientemente de las reglas de seguridad definidas en el origen de back-end.
+- **Seguridad**: de forma predeterminada, todos los usuarios que utilizan un informe publicado se conectan al origen de datos de back-end con las credenciales indicadas después de la publicación en el servicio Power BI. Este proceso es el mismo para los datos que se importan: todos los usuarios ven los mismos datos, independientemente de las reglas de seguridad definidas en el origen de back-end.
 
     Los clientes que quieran seguridad por usuario implementada con orígenes de DirectQuery deben usar RLS o configurar la autenticación restringida de Kerberos en el origen. Kerberos no está disponible para todos los orígenes. [Más información sobre RLS](service-admin-rls.md). [Más información sobre Kerberos en DirectQuery](service-gateway-sso-kerberos.md).
 
