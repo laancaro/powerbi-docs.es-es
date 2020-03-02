@@ -6,15 +6,15 @@ ms.reviewer: ''
 ms.service: powerbi
 ms.subservice: powerbi-desktop
 ms.topic: conceptual
-ms.date: 01/17/2020
+ms.date: 02/21/2020
 ms.author: davidi
 LocalizationGroup: Create reports
-ms.openlocfilehash: 8604ed2c737b7d2a75b3af052878ecb157ffacf1
-ms.sourcegitcommit: 02342150eeab52b13a37b7725900eaf84de912bc
+ms.openlocfilehash: a8bf446174cc16d95842022416352f538dca69ec
+ms.sourcegitcommit: 032a77f2367ca937f45e7e751997d7b7d0e89ee2
 ms.translationtype: HT
 ms.contentlocale: es-ES
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "76538621"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "77609853"
 ---
 # <a name="overview-of-accessibility-in-power-bi"></a>Información general sobre accesibilidad en Power BI
 
@@ -30,7 +30,7 @@ El diseño universal es el diseño de productos que podrán usar tantas personas
 
 ## <a name="accessibility-standards"></a>Estándares de accesibilidad
 
-Power BI respeta los siguientes estándares de accesibilidad. Los estándares ayudan a garantizar que las experiencias con Power BI sean accesibles para tantos usuarios como sea posible. Las aplicaciones de Power BI Mobile están certificadas para accesibilidad de grado C. Al crear informes o paneles accesibles, ese contenido es accesible para cualquiera que lo vea mediante Power BI Mobile.
+Power BI respeta los siguientes estándares de accesibilidad. Los estándares ayudan a garantizar que las experiencias con Power BI sean accesibles para tantos usuarios como sea posible. Al crear informes o paneles accesibles, ese contenido es accesible para cualquiera que lo vea mediante Power BI Mobile.
 
 ### <a name="wcag-21"></a>WCAG 2.1
 
