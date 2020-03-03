@@ -28,7 +28,7 @@ Los límites de almacenamiento del área de trabajo, ya sea en Mi área de traba
 ### <a name="shared-capacity-limits"></a>Límites de la capacidad compartida
 En el caso de las áreas de trabajo en una capacidad compartida: 
 
-- Hay un límite de almacenamiento de 10 GB por área de trabajo.
+- Hay un límite de almacenamiento de 100 GB por área de trabajo.
 - En el caso de las áreas de trabajo de la aplicación, el uso total no puede superar los 10 GB multiplicado por el número de licencias Pro del inquilino.
 
 ### <a name="premium-capacity-limits"></a>Límites de la capacidad Premium
